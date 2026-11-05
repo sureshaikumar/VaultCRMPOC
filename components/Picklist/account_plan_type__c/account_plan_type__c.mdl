@@ -4,6 +4,7 @@ RECREATE Picklist account_plan_type__c (
    Picklistentry(@Picklistentry/national__c.mdl),
    Picklistentry(@Picklistentry/regional__c.mdl),
    Picklistentry(@Picklistentry/local__c.mdl),
+   Picklistentry(@Picklistentry/test__c.mdl),
    system_managed(false),
    order_type('order_asc__sys')
 );
