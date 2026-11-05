@@ -1,0 +1,5 @@
+Picklistentry te (
+   value('Telugu'),
+   order(68),
+   active(true)
+);

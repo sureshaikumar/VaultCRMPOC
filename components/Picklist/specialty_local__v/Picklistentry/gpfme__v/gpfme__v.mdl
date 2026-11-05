@@ -1,0 +1,6 @@
+Picklistentry gpfme__v (
+   value('General Practice - Family Medicine'),
+   order(608),
+   active(true),
+   controlling_entries('ua__v')
+);

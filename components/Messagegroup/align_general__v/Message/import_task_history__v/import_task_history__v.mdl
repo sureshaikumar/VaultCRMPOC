@@ -1,0 +1,6 @@
+Message import_task_history__v (
+   label(),
+   active(true),
+   default_value('Import Task History'),
+   system_managed(false)
+);

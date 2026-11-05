@@ -1,0 +1,20 @@
+Field address_vod_regex__v (
+   label('Address_vod_REGEX'),
+   type('String'),
+   active(true),
+   description('Reference to the Veeva message that contains the fields and their regular expressions.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(30),
+   default_value('"ADDRESS_VOD_REGEX;;Common"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

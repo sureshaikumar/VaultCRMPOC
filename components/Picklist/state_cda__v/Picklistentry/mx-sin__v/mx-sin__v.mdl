@@ -1,0 +1,6 @@
+Picklistentry mx-sin__v (
+   value('Sinaloa'),
+   order(3262),
+   active(true),
+   controlling_entries('mx__v')
+);

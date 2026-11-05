@@ -1,0 +1,6 @@
+Message channel_fax_description__v (
+   label(),
+   active(true),
+   default_value('Send a fax'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message open_content_studio_description__v (
+   label(),
+   active(true),
+   default_value('Build an email or landing page'),
+   system_managed(false)
+);

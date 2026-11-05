@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="account__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

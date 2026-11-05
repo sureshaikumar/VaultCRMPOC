@@ -1,0 +1,5 @@
+Picklistentry 26300__v (
+   value('Hot Springs, AR Metropolitan Statistical Area'),
+   order(730),
+   active(true)
+);

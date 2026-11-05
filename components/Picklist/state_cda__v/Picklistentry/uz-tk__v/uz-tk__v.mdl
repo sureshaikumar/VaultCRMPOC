@@ -1,0 +1,6 @@
+Picklistentry uz-tk__v (
+   value('Toshkent (City)'),
+   order(4878),
+   active(true),
+   controlling_entries('uz__v')
+);

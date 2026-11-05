@@ -1,0 +1,6 @@
+Message exit_screen_auth_prompt__v (
+   label(),
+   active(true),
+   default_value('You must authenticate as the device owner in order to exit this screen.'),
+   system_managed(false)
+);

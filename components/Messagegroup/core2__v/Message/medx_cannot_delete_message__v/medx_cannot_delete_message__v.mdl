@@ -1,0 +1,6 @@
+Message medx_cannot_delete_message__v (
+   label(),
+   active(true),
+   default_value('The Medical Interaction cannot be deleted because one or more sections have been submitted.'),
+   system_managed(false)
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist aln_promotion_eligibility__v (
+   label('Promotion Eligibility'),
+   active(true),
+   Picklistentry(@Picklistentry/promotion_allowed__v.mdl),
+   Picklistentry(@Picklistentry/promotion_prohibited__v.mdl),
+   Picklistentry(@Picklistentry/educational_only__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

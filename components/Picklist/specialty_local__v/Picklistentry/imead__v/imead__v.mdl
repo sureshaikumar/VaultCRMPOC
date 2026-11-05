@@ -1,0 +1,6 @@
+Picklistentry imead__v (
+   value('Internal Medicine, Endocrinology and Diabetology'),
+   order(809),
+   active(true),
+   controlling_entries('de__v')
+);

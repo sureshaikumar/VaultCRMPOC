@@ -1,0 +1,7 @@
+Typefield check_consent__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.approved_document_check_consent__v.default__v',
+         'Picklist.approved_document_check_consent__v.no__v',
+         'Picklist.approved_document_check_consent__v.yes__v')
+);

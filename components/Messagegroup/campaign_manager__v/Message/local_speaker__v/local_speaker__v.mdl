@@ -1,0 +1,6 @@
+Message local_speaker__v (
+   label(),
+   active(true),
+   default_value('Local Speaker'),
+   system_managed(false)
+);

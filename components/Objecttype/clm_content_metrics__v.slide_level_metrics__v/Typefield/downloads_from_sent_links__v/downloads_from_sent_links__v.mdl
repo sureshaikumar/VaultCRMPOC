@@ -1,0 +1,4 @@
+Typefield downloads_from_sent_links__v (
+   source('standard'),
+   required(false)
+);

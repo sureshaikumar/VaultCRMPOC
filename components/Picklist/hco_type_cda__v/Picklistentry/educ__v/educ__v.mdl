@@ -1,0 +1,5 @@
+Picklistentry educ__v (
+   value('Educational Institution'),
+   order(8),
+   active(true)
+);

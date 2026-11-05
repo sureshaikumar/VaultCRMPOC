@@ -1,0 +1,14 @@
+RECREATE Page crm_pl3_generic_page__v (
+   label('CRM PL3 Generic Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('crm_pl3_generic_page__v'),
+   description(),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.crmgeneric.controls.page.CRMPL3GenericPageController'),
+   url_path_name('crm')
+);

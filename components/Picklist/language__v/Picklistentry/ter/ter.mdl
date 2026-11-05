@@ -1,0 +1,5 @@
+Picklistentry ter (
+   value('Tereno'),
+   order(321),
+   active(true)
+);

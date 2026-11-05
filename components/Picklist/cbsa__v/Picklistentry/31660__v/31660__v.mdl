@@ -1,0 +1,5 @@
+Picklistentry 31660__v (
+   value('Malone, NY Micropolitan Statistical Area'),
+   order(665),
+   active(true)
+);

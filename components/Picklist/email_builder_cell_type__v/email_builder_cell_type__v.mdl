@@ -1,0 +1,13 @@
+RECREATE Picklist email_builder_cell_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/subject__v.mdl),
+   Picklistentry(@Picklistentry/greeting__v.mdl),
+   Picklistentry(@Picklistentry/paragraph_1__v.mdl),
+   Picklistentry(@Picklistentry/paragraph_2__v.mdl),
+   Picklistentry(@Picklistentry/document__v.mdl),
+   Picklistentry(@Picklistentry/paragraph_3__v.mdl),
+   Picklistentry(@Picklistentry/closing__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

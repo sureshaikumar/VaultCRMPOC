@@ -1,0 +1,6 @@
+Picklistentry it-57__v (
+   value('Marche'),
+   order(2165),
+   active(true),
+   controlling_entries('it__v')
+);

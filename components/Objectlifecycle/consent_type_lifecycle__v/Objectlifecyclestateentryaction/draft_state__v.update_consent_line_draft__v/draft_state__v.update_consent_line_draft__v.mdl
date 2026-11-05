@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction draft_state__v.update_consent_line_draft__v (
+   rule(@rule.xml),
+   order(1000)
+);

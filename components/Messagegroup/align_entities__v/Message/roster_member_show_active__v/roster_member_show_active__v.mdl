@@ -1,0 +1,6 @@
+Message roster_member_show_active__v (
+   label(),
+   active(true),
+   default_value('Show Active'),
+   system_managed(false)
+);

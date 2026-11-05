@@ -1,0 +1,10 @@
+RECREATE Picklist social_identity_status__v (
+   label('Social Identity Status'),
+   active(true),
+   Picklistentry(@Picklistentry/new__v.mdl),
+   Picklistentry(@Picklistentry/bind__v.mdl),
+   Picklistentry(@Picklistentry/unbind__v.mdl),
+   Picklistentry(@Picklistentry/inactive__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

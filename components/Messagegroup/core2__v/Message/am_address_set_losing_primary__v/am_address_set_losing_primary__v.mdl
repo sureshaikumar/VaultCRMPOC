@@ -1,0 +1,6 @@
+Message am_address_set_losing_primary__v (
+   label(),
+   active(true),
+   default_value('One of the losing account’s addresses will be set as primary.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message vmi_validation_message__v (
+   label(),
+   active(true),
+   default_value('Please review the content you’ve entered in your Medical Insight. Make sure it does not contain:\n\n- Adverse events\n- Inappropriate language\n- Commercial/promotional language\n\nFor any adverse events, product quality complaints, or medical information requests, make sure that these are reported through the required processes. Consult your training materials, SOPs, or talk to your manager if you are unsure about what you would like to document.\n\nAre you sure you want to submit?'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry check_in_attempted_retry_later_today__v (
+   value('Check-In Attempted (Retry Later Today)'),
+   order(5),
+   active(true)
+);

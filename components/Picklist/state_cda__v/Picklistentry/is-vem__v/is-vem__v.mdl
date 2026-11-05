@@ -1,0 +1,6 @@
+Picklistentry is-vem__v (
+   value('Vestmannaeyjabær'),
+   order(2152),
+   active(true),
+   controlling_entries('is__v')
+);

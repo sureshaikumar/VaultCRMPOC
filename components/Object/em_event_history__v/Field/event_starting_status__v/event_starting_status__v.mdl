@@ -1,0 +1,19 @@
+Field event_starting_status__v (
+   label('Event Starting Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Starting Status of the Event. Custom picklist values can be added.'),
+   list_column(false),
+   order(30),
+   multi_value(false),
+   picklist('Picklist.em_event_history_event_starting_status__v'),
+   default_value('{requested__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry hu-pe__v (
+   value('Pest'),
+   order(1898),
+   active(true),
+   controlling_entries('hu__v')
+);

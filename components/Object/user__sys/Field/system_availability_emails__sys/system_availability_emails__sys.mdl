@@ -1,0 +1,18 @@
+Field system_availability_emails__sys (
+   label('Service Availability Notifications'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Receive email notifications regarding planned maintenance windows and other service disruptions.'),
+   list_column(false),
+   order(30),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

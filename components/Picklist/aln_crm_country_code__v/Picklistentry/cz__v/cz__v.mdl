@@ -1,0 +1,5 @@
+Picklistentry cz__v (
+   value('Czech Republic'),
+   order(55),
+   active(true)
+);

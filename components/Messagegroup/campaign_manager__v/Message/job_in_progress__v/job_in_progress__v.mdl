@@ -1,0 +1,6 @@
+Message job_in_progress__v (
+   label(),
+   active(true),
+   default_value('This may take some time. You can navigate away and will be notified when it''s done.'),
+   system_managed(false)
+);

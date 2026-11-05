@@ -1,0 +1,6 @@
+Message run_territory_rules_warning__v (
+   label(),
+   active(true),
+   default_value('A recent change in the territory structure requires a re-run of the territory rules'),
+   system_managed(false)
+);

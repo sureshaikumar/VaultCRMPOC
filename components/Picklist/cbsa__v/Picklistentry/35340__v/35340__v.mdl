@@ -1,0 +1,5 @@
+Picklistentry 35340__v (
+   value('New Iberia, LA Micropolitan Statistical Area'),
+   order(315),
+   active(true)
+);

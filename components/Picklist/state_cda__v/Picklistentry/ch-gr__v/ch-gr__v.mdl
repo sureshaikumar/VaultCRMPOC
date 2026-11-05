@@ -1,0 +1,6 @@
+Picklistentry ch-gr__v (
+   value('Graubünden'),
+   order(636),
+   active(true),
+   controlling_entries('ch__v')
+);

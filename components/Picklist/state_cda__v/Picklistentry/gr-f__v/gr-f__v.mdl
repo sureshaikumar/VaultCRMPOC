@@ -1,0 +1,6 @@
+Picklistentry gr-f__v (
+   value('Ionía Nísia'),
+   order(1772),
+   active(true),
+   controlling_entries('gr__v')
+);

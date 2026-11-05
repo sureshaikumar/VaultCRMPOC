@@ -1,0 +1,5 @@
+Picklistentry vaultcrm_tier2_user__v (
+   value('Tier 2 User'),
+   order(4),
+   active(true)
+);

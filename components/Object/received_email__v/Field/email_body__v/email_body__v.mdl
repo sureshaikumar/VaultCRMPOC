@@ -1,0 +1,17 @@
+Field email_body__v (
+   label('Email Body'),
+   type('LongText'),
+   active(true),
+   description('Populated for every email, allows for searching of the first 32K chars of text.'),
+   required(false),
+   max_length(32000),
+   help_content('Populated for every email, allows for searching of the first 32K chars of text.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

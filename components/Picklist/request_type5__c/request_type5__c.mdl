@@ -1,0 +1,10 @@
+RECREATE Picklist request_type5__c (
+   label('request_type'),
+   active(true),
+   Picklistentry(@Picklistentry/new__c.mdl),
+   Picklistentry(@Picklistentry/update_picklist_label__c.mdl),
+   Picklistentry(@Picklistentry/update_picklist_name__c.mdl),
+   Picklistentry(@Picklistentry/inactive_picklist_value__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

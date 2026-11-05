@@ -1,0 +1,5 @@
+Index rows_returned__sys (
+   description(),
+   fields('rows_returned__sys'),
+   label('Rows Returned')
+);

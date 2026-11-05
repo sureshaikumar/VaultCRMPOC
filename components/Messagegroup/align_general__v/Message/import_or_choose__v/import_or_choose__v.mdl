@@ -1,0 +1,6 @@
+Message import_or_choose__v (
+   label(),
+   active(true),
+   default_value('or choose file to import'),
+   system_managed(false)
+);

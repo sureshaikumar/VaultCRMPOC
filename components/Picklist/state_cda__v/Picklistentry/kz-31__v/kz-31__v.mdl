@@ -1,0 +1,6 @@
+Picklistentry kz-31__v (
+   value('Zhambyl oblysy'),
+   order(2499),
+   active(true),
+   controlling_entries('kz__v')
+);

@@ -1,0 +1,6 @@
+Message check_ins__v (
+   label(),
+   active(true),
+   default_value('Check-Ins'),
+   system_managed(false)
+);

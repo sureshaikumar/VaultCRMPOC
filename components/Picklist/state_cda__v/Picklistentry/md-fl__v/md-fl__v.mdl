@@ -1,0 +1,6 @@
+Picklistentry md-fl__v (
+   value('Floreşti'),
+   order(2887),
+   active(true),
+   controlling_entries('md__v')
+);

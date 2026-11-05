@@ -1,0 +1,18 @@
+Field mapped_crm_object_for_field__v (
+   label('Mapped CRM Object'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.aln_crm_object__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

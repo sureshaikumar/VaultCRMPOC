@@ -1,0 +1,15 @@
+Picklistentry gpesr__v (
+   value('Geriatric Psychiatry'),
+   order(628),
+   active(true),
+   controlling_entries('ca__v',
+         'cz__v',
+         'fr__v',
+         'in__v',
+         'mc__v',
+         'om__v',
+         'se__v',
+         'sk__v',
+         'th__v',
+         'za__v')
+);

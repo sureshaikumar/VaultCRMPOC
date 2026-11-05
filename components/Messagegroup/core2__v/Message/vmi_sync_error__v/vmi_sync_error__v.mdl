@@ -1,0 +1,6 @@
+Message vmi_sync_error__v (
+   label(),
+   active(true),
+   default_value('A sync error was encountered. Save your insight as a draft, resolve the sync error, then try again.'),
+   system_managed(false)
+);

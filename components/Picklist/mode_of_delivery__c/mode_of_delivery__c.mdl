@@ -1,0 +1,10 @@
+RECREATE Picklist mode_of_delivery__c (
+   label('Mode of Delivery'),
+   active(true),
+   Picklistentry(@Picklistentry/call__c.mdl),
+   Picklistentry(@Picklistentry/email__c.mdl),
+   Picklistentry(@Picklistentry/chat__c.mdl),
+   Picklistentry(@Picklistentry/webform__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,7 @@
+Picklistentry cclyj__v (
+   value('Clinical Cytology'),
+   order(216),
+   active(true),
+   controlling_entries('am__v',
+         'hr__v')
+);

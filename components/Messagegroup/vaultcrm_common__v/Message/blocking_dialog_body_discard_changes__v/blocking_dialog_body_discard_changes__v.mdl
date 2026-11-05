@@ -1,0 +1,6 @@
+Message blocking_dialog_body_discard_changes__v (
+   label(),
+   active(true),
+   default_value('Leaving this page will discard all unsaved changes.'),
+   system_managed(false)
+);

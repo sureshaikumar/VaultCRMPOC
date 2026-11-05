@@ -1,0 +1,6 @@
+Picklistentry tr-70__v (
+   value('Karaman'),
+   order(4528),
+   active(true),
+   controlling_entries('tr__v')
+);

@@ -1,0 +1,18 @@
+Field allow_insecure_local_file_access__v (
+   label('Allow Insecure Local File Access'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Enables insecure loading of local files in WKWebView for Multichannel content.'),
+   list_column(false),
+   order(10),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

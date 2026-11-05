@@ -1,0 +1,6 @@
+Message overlap_inside__v (
+   label(),
+   active(true),
+   default_value('Item overlapping inside the batch file with another item.'),
+   system_managed(false)
+);

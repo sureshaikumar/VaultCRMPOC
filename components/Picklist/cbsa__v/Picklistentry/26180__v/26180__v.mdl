@@ -1,0 +1,5 @@
+Picklistentry 26180__v (
+   value('Honolulu, HI Metropolitan Statistical Area'),
+   order(748),
+   active(true)
+);

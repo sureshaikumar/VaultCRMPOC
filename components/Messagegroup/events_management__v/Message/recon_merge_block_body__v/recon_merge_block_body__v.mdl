@@ -1,0 +1,6 @@
+Message recon_merge_block_body__v (
+   label(),
+   active(true),
+   default_value('This walk-in cannot be reconciled to the selected ${object_name} (${record_name}) because the selected ${object_name} already exists as an ${event_object_name} with a signature for this event.'),
+   system_managed(false)
+);

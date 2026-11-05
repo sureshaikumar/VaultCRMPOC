@@ -1,0 +1,6 @@
+Picklistentry otp_base_vaultcrmtrn1__sys (
+   value('Base VaultCRMTRN1'),
+   order(25),
+   active(true),
+   controlling_entries('olc_test_demo__sys')
+);

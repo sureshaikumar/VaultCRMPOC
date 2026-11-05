@@ -1,0 +1,20 @@
+Field sample_send_status__v (
+   label('Sample Send Status'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the availability of an address record for selection in the Ship To Address field on the call report.
+Pending_vod - Newly created address record that is not able to be shipped samples until address is verified
+Valid_vod - Address record that is a'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(67),
+   multi_value(false),
+   picklist('Picklist.address_sample_send_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry et-ga__v (
+   value('Gambela Peoples'),
+   order(1265),
+   active(true),
+   controlling_entries('et__v')
+);

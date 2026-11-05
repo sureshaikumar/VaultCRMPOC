@@ -1,0 +1,5 @@
+Picklistentry olc_event_session__sys (
+   value('Event Session'),
+   order(35),
+   active(true)
+);

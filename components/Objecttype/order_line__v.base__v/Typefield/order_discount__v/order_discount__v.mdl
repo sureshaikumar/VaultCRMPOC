@@ -1,0 +1,4 @@
+Typefield order_discount__v (
+   source('standard'),
+   required(false)
+);

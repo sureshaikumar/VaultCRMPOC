@@ -1,0 +1,18 @@
+Field sample_card_reason__v (
+   label('Sample Card Reason'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The field is designed to capture the reason a Sample Card was used rather than electronic signature.'),
+   list_column(false),
+   order(107),
+   multi_value(false),
+   picklist('Picklist.call2_sample_card_reason__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist agent_state__sys (
+   label('Agent State'),
+   active(true),
+   Picklistentry(@Picklistentry/active__sys.mdl),
+   Picklistentry(@Picklistentry/inactive__sys.mdl),
+   Picklistentry(@Picklistentry/initializing__sys.mdl),
+   Picklistentry(@Picklistentry/shutting_down__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

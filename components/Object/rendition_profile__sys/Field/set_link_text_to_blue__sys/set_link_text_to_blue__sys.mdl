@@ -1,0 +1,17 @@
+Field set_link_text_to_blue__sys (
+   label('Set link text to blue'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, subsequent renditions created from Word documents will display blue text for cross references, table of contents and web links. If disabled, subsequent renditions will retain native text color.'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

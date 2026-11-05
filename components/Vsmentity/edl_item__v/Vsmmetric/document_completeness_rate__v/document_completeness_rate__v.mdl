@@ -1,0 +1,13 @@
+Vsmmetric document_completeness_rate__v (
+   label('Document Completeness Rate'),
+   active(true),
+   description('Measures the proportion of EDL items that have reached a complete or fully satisfied completeness status. Use this to assess how well an Expected Document List is being fulfilled and to identify gaps in document submission or availability.'),
+   instructions('Count the number of EDL item records where the completeness field indicates a complete or satisfied status, then divide by the total number of EDL item records in scope, and multiply by 100 to express as a percentage.'),
+   synonyms('completeness percentage',
+         'how complete',
+         'EDL item completeness',
+         'document fulfillment rate',
+         'completeness status'),
+   target_fields('completeness__v',
+         'id')
+);

@@ -1,0 +1,7 @@
+Objectlifecyclestage open_stage__v (
+   label('Open'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.open_state__v'),
+   order(1)
+);

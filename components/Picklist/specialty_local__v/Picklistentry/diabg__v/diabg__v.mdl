@@ -1,0 +1,6 @@
+Picklistentry diabg__v (
+   value('Diabetic'),
+   order(422),
+   active(true),
+   controlling_entries('kw__v')
+);

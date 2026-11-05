@@ -1,0 +1,6 @@
+Message owner_permission_error__v (
+   label(),
+   active(true),
+   default_value('The new owner(s) ${user_names} must have read permission to ${object_label}.'),
+   system_managed(false)
+);

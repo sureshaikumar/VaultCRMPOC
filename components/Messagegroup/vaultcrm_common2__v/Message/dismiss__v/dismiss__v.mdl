@@ -1,0 +1,6 @@
+Message dismiss__v (
+   label(),
+   active(true),
+   default_value('Dismiss'),
+   system_managed(false)
+);

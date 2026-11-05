@@ -1,0 +1,5 @@
+Picklistentry delbian_pharmaceuticals_inc__v (
+   value('Delbian Pharmaceuticals, Inc.'),
+   order(46),
+   active(true)
+);

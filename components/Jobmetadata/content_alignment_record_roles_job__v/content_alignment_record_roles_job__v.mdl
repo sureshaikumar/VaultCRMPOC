@@ -1,0 +1,10 @@
+RECREATE Jobmetadata content_alignment_record_roles_job__v (
+   label('Content Alignment Record Roles Job'),
+   active(true),
+   chunk_size(1),
+   description('This job is responsible for creating or removing record roles for specified objects'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clm.jobs.ContentAlignmentRecordRolesJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

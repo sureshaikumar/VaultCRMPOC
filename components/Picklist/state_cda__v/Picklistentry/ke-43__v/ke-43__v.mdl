@@ -1,0 +1,6 @@
+Picklistentry ke-43__v (
+   value('Turkana'),
+   order(2396),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry hu-he__v (
+   value('Heves'),
+   order(1888),
+   active(true),
+   controlling_entries('hu__v')
+);

@@ -1,0 +1,19 @@
+Field contact_attendee_type_code__v (
+   label('Contact Attendee Type Code'),
+   type('String'),
+   active(true),
+   description('Stores the Default Attendee Type Code when the Attendee is a Contact'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

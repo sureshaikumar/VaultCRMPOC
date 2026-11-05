@@ -1,0 +1,18 @@
+Field enable_inbox__v (
+   label('Enable Inbox'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the Inbox feature (including secure messaging) is enabled for users visiting a given My Engage Portal.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(27),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

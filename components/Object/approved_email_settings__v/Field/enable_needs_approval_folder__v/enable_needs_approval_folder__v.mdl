@@ -1,0 +1,18 @@
+Field enable_needs_approval_folder__v (
+   label('Enable Needs Approval Folder'),
+   type('Boolean'),
+   active(true),
+   description('Enables the Needs Approval folder on the Email Tab to support Campaign Manager''s Field Review feature'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(36),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

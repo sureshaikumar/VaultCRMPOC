@@ -1,0 +1,10 @@
+Vsmvalue zar__v (
+   label('ZAR'),
+   active(true),
+   description('Used for transactions denominated in the South African Rand, the official currency of South Africa and a widely traded emerging market currency.'),
+   synonyms('South African rand',
+         'rand',
+         'ZAR'),
+   target('zar__sys'),
+   target_label('ZAR')
+);

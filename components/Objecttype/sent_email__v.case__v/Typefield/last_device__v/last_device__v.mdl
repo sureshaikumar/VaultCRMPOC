@@ -1,0 +1,11 @@
+Typefield last_device__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sent_email_last_device__v.blackberry__v',
+         'Picklist.sent_email_last_device__v.data_load__v',
+         'Picklist.sent_email_last_device__v.mobile__v',
+         'Picklist.sent_email_last_device__v.online__v',
+         'Picklist.sent_email_last_device__v.tablet__v',
+         'Picklist.sent_email_last_device__v.ipad__v',
+         'Picklist.sent_email_last_device__v.iphone__v')
+);

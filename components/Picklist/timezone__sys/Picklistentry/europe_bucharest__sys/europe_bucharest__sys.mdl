@@ -1,0 +1,5 @@
+Picklistentry europe_bucharest__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Bucharest)'),
+   order(182),
+   active(true)
+);

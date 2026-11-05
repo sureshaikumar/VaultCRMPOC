@@ -1,0 +1,6 @@
+Message mccp_feedback_product_must_have_goal__v (
+   label(),
+   active(true),
+   default_value('Transferred products must have a goal.'),
+   system_managed(false)
+);

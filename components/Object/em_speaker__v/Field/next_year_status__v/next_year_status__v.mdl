@@ -1,0 +1,18 @@
+Field next_year_status__v (
+   label('Next Year Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Designates the speaker’s eligibility for events that count toward next year’s speaker cap'),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.em_speaker_next_year_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

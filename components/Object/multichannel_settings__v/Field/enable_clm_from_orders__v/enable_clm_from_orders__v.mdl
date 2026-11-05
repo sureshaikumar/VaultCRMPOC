@@ -1,0 +1,23 @@
+Field enable_clm_from_orders__v (
+   label('Enable CLM from Orders'),
+   type('Number'),
+   active(true),
+   description('0 or NULL - disabled, 1 - CLM accessible from Order'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

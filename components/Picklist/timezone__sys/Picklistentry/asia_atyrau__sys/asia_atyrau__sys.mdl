@@ -1,0 +1,5 @@
+Picklistentry asia_atyrau__sys (
+   value('(GMT+05:00) Kazakhstan Time (Asia/Atyrau)'),
+   order(220),
+   active(true)
+);

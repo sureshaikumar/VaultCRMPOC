@@ -1,0 +1,6 @@
+Message target_levels__v (
+   label(),
+   active(true),
+   default_value('Target Levels'),
+   system_managed(false)
+);

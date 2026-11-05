@@ -1,0 +1,5 @@
+Picklistentry ua__v (
+   value('Ukraine'),
+   order(230),
+   active(true)
+);

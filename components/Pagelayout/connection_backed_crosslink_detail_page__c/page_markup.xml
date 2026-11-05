@@ -1,0 +1,16 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.connection_backed_crosslink__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="crosslink_document_id__sys" />
+            <vault:field reference="crosslink_vault_id__sys" />
+            <vault:field reference="source_connection_record_reference__sys" />
+            <vault:field reference="source_document_id__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

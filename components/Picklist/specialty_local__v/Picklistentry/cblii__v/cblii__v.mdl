@@ -1,0 +1,15 @@
+Picklistentry cblii__v (
+   value('Clinical Biochemistry'),
+   order(211),
+   active(true),
+   controlling_entries('ad__v',
+         'am__v',
+         'cz__v',
+         'dk__v',
+         'es__v',
+         'il__v',
+         'is__v',
+         'me__v',
+         'sk__v',
+         'ua__v')
+);

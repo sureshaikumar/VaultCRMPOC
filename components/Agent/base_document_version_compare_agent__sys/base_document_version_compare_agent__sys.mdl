@@ -1,0 +1,16 @@
+RECREATE Agent base_document_version_compare_agent__sys (
+   label('Document Version Compare Agent'),
+   active(true),
+   agent_user('[agent]base_document_version_compare_agent__sys'),
+   class('Agentclass.com.veeva.vault.system.agent.BaseDocumentAgent'),
+   description('Compares the document version the user is viewing against another version and generates a summary or insights of key functional or business-critical changes such as changes to process steps, deadlines, thresholds, measurements or major structural changes.'),
+   document_type('Doctype.base_document__v'),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(),
+   supplemental_objective(),
+   Agentaction(@Agentaction/compare_to_previous_major_version__sys.mdl),
+   Agentcontext(@Agentcontext/current_version__sys.mdl),
+   Agentcontext(@Agentcontext/previous_major_version__sys.mdl)
+);

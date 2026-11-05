@@ -1,0 +1,24 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_rule__v.attendee_fields__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account_attendee_fields__v" />
+            <vault:field reference="user_attendee_fields__v" />
+            <vault:field reference="contact_attendee_fields__v" />
+            <vault:field reference="event_configuration__v" />
+            <vault:field reference="country_override__v" />
+            <vault:field reference="search_outside_territory__v" />
+            <vault:field reference="search_outside_territory_filter__v" />
+            <vault:field reference="search_outside_territory_object_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

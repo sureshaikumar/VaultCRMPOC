@@ -1,0 +1,6 @@
+Picklistentry sl-w__v (
+   value('Western Area (Freetown)'),
+   order(4199),
+   active(true),
+   controlling_entries('sl__v')
+);

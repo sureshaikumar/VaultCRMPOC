@@ -1,0 +1,6 @@
+Picklistentry cl-ll__v (
+   value('Los Lagos'),
+   order(675),
+   active(true),
+   controlling_entries('cl__v')
+);

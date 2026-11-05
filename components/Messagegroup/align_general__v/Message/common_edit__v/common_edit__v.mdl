@@ -1,0 +1,6 @@
+Message common_edit__v (
+   label(),
+   active(true),
+   default_value('Edit'),
+   system_managed(false)
+);

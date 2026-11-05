@@ -1,0 +1,21 @@
+Field medical_event_status__v (
+   label('Medical Event Status'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('References the Status_vod field on EM_Event_vod for disconnected mode.'),
+   list_column(false),
+   order(60),
+   formula('Text(em_event__vr.em_event_status__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

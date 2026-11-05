@@ -1,0 +1,5 @@
+Picklistentry dz__v (
+   value('Algeria'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry kyd__sys (
+   value('KYD'),
+   order(101),
+   active(true)
+);

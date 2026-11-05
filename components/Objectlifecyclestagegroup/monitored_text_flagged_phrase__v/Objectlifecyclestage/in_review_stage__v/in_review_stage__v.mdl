@@ -1,0 +1,7 @@
+Objectlifecyclestage in_review_stage__v (
+   label('In Review'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.in_review_state__v'),
+   order(2)
+);

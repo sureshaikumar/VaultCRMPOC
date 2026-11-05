@@ -1,0 +1,12 @@
+<p>We received a request to retrieve the user name for Veeva Vault accounts associated with this email address.</p>
+
+<p>If you did not initiate this request, please inform your Vault administrator.</p>
+
+<p>
+<b>User Names</b><br>
+<#list userNames as name>
+    <a style="text_tecoration:none; color:grey; cursor:defualt">${name}</a><br>
+</#list>
+</p>
+
+<p><a href="${authServiceExtUrl}/login">Click here to log in to Veeva Vault</a></p>

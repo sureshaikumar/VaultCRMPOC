@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction approve_state__c.entryaction12__c (
+   rule(@rule.xml),
+   order(1000)
+);

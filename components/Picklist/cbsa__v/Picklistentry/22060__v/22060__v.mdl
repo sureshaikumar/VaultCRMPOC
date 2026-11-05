@@ -1,0 +1,5 @@
+Picklistentry 22060__v (
+   value('Faribault-Northfield, MN Micropolitan Statistical Area'),
+   order(182),
+   active(true)
+);

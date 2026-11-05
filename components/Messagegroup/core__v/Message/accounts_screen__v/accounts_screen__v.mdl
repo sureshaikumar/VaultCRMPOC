@@ -1,0 +1,6 @@
+Message accounts_screen__v (
+   label(),
+   active(true),
+   default_value('Accounts Screen'),
+   system_managed(false)
+);

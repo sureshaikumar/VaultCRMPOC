@@ -1,0 +1,6 @@
+Picklistentry cy-04__v (
+   value('Ammochostos'),
+   order(810),
+   active(true),
+   controlling_entries('cy__v')
+);

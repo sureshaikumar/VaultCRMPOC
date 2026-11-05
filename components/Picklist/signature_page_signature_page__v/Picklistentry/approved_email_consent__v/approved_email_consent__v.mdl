@@ -1,0 +1,5 @@
+Picklistentry approved_email_consent__v (
+   value('Approved Email Consent'),
+   order(2),
+   active(true)
+);

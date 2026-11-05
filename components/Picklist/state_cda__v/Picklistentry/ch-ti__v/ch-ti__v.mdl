@@ -1,0 +1,6 @@
+Picklistentry ch-ti__v (
+   value('Ticino'),
+   order(647),
+   active(true),
+   controlling_entries('ch__v')
+);

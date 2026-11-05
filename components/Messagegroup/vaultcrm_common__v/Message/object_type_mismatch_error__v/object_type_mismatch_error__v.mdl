@@ -1,0 +1,6 @@
+Message object_type_mismatch_error__v (
+   label(),
+   active(true),
+   default_value('${object_one_label} must be the same Object Type as ${object_two_label}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry navigation_bar__v (
+   value('Navigation Bar'),
+   order(4),
+   active(true)
+);

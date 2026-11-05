@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate pending_channel_assignment__v (
+   label('Channel Assignment Pending'),
+   active(true),
+   description('Notifies the user when an Email Channel Assignment enters Pending state'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.channel_assignment__v'),
+   subject('New Email Inbox Pending Activation'),
+   notification('A new email inbox is pending activation.<br/>Details:<br/><ul><li>Inbox Name: ${Object.name__v}</li><li>Status Message: Stand by for additional updates.</li> <li>Date: ${Object.modified_date__v}</li></ul>'),
+   email_body('A new email inbox is pending activation.<br/>Details:<br/><ul><li>Inbox Name: ${Object.name__v}</li><li>Status Message: Stand by for additional updates.</li> <li>Date: ${Object.modified_date__v}</li></ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

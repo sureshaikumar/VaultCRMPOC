@@ -1,0 +1,6 @@
+Picklistentry ph-pan__v (
+   value('Pangasinan'),
+   order(3593),
+   active(true),
+   controlling_entries('ph__v')
+);

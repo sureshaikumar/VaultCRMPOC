@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.engage_connect_group_request__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="user_profile_company_name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="customer_key__v" />
+            <vault:spacer />
+            <vault:field reference="primary_color__v" />
+            <vault:field reference="secondary_color__v" />
+            <vault:field reference="user_communication_channel__v" />
+            <vault:field reference="display_future_meetings__v" />
+            <vault:field reference="brands__v" />
+            <vault:field reference="content_filters__v" />
+            <vault:field reference="enable_hcp_initiated_meeting_request__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="error_description__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="processing_status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

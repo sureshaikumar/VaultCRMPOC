@@ -1,0 +1,15 @@
+RECREATE Tab sample_management_menu__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Sample Management'),
+   order(1300),
+   parent(),
+   Subtab(@Subtab/rep_roster_tab__v.mdl),
+   Subtab(@Subtab/lot_catalog_tab__v.mdl),
+   Subtab(@Subtab/sample_transactions_tab__v.mdl),
+   Subtab(@Subtab/sample_order_transactions_tab__v.mdl),
+   Subtab(@Subtab/sample_inventories_tab__v.mdl),
+   Subtab(@Subtab/inventory_order_allocations_tab__v.mdl),
+   Subtab(@Subtab/content_acknowledgements__v.mdl)
+);

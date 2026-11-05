@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate cancelobjecttask__v (
+   label('cancelObjectTask'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Task has been canceled'),
+   notification('The task for record ${Object.name__v} has been canceled.'),
+   email_body('The task for record ${Object.name__v} has been canceled.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,14 @@
+Vsmfield message_items_failed__v (
+   label('Failed Message Items'),
+   active(true),
+   description('The number of individual items or records within the message that failed to process. Use this alongside received items to calculate failure rates and assess the severity of an integration exception.'),
+   example_values(),
+   synonyms('failed items',
+         'failure count',
+         'failed records',
+         'error count'),
+   target('message_items_failed__sys'),
+   target_label('Failed Message Items'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

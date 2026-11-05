@@ -1,0 +1,5 @@
+Picklistentry updated_name__c (
+   value('Mahak Test Product 3'),
+   order(29),
+   active(false)
+);

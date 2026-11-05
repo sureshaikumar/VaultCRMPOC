@@ -1,0 +1,5 @@
+Picklistentry ven (
+   value('Venda'),
+   order(341),
+   active(true)
+);

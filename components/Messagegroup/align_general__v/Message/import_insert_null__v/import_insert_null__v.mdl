@@ -1,0 +1,6 @@
+Message import_insert_null__v (
+   label(),
+   active(true),
+   default_value('Insert Null Values'),
+   system_managed(false)
+);

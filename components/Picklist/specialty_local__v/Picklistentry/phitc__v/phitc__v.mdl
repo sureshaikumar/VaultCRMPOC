@@ -1,0 +1,6 @@
+Picklistentry phitc__v (
+   value('Public Health in the Community Services'),
+   order(1642),
+   active(true),
+   controlling_entries('il__v')
+);

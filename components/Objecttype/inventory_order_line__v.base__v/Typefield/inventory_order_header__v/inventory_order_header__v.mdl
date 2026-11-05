@@ -1,0 +1,4 @@
+Typefield inventory_order_header__v (
+   source('standard'),
+   required(true)
+);

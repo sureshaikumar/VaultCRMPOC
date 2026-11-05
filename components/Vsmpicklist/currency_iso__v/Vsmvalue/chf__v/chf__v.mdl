@@ -1,0 +1,10 @@
+Vsmvalue chf__v (
+   label('CHF'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Switzerland and Liechtenstein.'),
+   synonyms('Swiss Franc',
+         'Switzerland Franc',
+         'Franc suisse'),
+   target('chf__sys'),
+   target_label('CHF')
+);

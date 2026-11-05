@@ -1,0 +1,6 @@
+Message mass_select_effective_date__v (
+   label(),
+   active(true),
+   default_value('Effective Date'),
+   system_managed(false)
+);

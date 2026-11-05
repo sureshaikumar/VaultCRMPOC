@@ -1,0 +1,6 @@
+Message product_activity_smaller_channel__v (
+   label(),
+   active(true),
+   default_value('Product activity goal must be smaller than or equal to channel activity goal.'),
+   system_managed(false)
+);

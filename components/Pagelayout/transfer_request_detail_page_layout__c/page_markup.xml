@@ -1,0 +1,15 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.aln_transfer_request__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="request_initiator_user__v" />
+            <vault:field reference="request_initiator_model_territory__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

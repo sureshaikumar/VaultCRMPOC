@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction lifted_state__v.lift_legal_hold_entryaction__v (
+   rule(@rule.xml),
+   order()
+);

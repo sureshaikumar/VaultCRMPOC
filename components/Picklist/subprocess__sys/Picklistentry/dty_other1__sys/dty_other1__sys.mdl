@@ -1,0 +1,6 @@
+Picklistentry dty_other1__sys (
+   value('Other'),
+   order(114),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

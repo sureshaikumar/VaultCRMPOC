@@ -1,0 +1,6 @@
+Picklistentry ulxso__v (
+   value('Ultrasound / Ultrasonography'),
+   order(1878),
+   active(true),
+   controlling_entries('qa__v')
+);

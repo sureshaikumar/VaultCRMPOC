@@ -1,0 +1,4 @@
+Typefield flagged_phrase__v (
+   source('custom'),
+   required(false)
+);

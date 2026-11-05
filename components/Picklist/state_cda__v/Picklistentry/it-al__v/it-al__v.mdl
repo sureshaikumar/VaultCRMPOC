@@ -1,0 +1,6 @@
+Picklistentry it-al__v (
+   value('Alessandria'),
+   order(2176),
+   active(true),
+   controlling_entries('it__v')
+);

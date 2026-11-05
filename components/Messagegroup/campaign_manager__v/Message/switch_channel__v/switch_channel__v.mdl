@@ -1,0 +1,6 @@
+Message switch_channel__v (
+   label(),
+   active(true),
+   default_value('Switch Channel'),
+   system_managed(false)
+);

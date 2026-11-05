@@ -1,0 +1,5 @@
+Picklistentry case_lifecycle__v (
+   value('Case Lifecycle'),
+   order(0),
+   active(true)
+);

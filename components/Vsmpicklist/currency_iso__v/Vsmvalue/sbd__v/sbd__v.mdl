@@ -1,0 +1,9 @@
+Vsmvalue sbd__v (
+   label('SBD'),
+   active(true),
+   description('Applies when transactions are denominated in the Solomon Islands Dollar, the official currency of the Solomon Islands.'),
+   synonyms('Solomon Islands dollar',
+         'Solomon dollar'),
+   target('sbd__sys'),
+   target_label('SBD')
+);

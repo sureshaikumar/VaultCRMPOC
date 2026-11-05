@@ -1,0 +1,6 @@
+Message vault_crm_instance_product_metrics_where__v (
+   label(),
+   active(true),
+   default_value('Product Metrics WHERE Clause'),
+   system_managed(false)
+);

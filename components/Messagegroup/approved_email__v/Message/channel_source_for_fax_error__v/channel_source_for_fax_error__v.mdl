@@ -1,0 +1,6 @@
+Message channel_source_for_fax_error__v (
+   label(),
+   active(true),
+   default_value('Channel Source for Fax channel should always be empty.'),
+   system_managed(false)
+);

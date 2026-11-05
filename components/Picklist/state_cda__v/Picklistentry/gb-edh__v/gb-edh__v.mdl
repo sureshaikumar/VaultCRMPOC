@@ -1,0 +1,6 @@
+Picklistentry gb-edh__v (
+   value('Edinburgh, City of'),
+   order(1509),
+   active(true),
+   controlling_entries('gb__v')
+);

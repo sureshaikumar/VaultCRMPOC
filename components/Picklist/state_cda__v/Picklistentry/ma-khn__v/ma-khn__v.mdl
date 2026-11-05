@@ -1,0 +1,6 @@
+Picklistentry ma-khn__v (
+   value('Khénifra'),
+   order(2812),
+   active(true),
+   controlling_entries('ma__v')
+);

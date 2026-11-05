@@ -1,0 +1,6 @@
+Message mccp_channel_obj_type_cant_have_products__v (
+   label(),
+   active(true),
+   default_value('Channel {0} has Channel only object type therefore it should not have any cycle product'),
+   system_managed(false)
+);

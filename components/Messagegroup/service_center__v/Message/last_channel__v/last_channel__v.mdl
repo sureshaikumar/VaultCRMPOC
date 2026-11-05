@@ -1,0 +1,6 @@
+Message last_channel__v (
+   label(),
+   active(true),
+   default_value('Last Channel'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message assignment_global_exclusion__v (
+   label(),
+   active(true),
+   default_value('{0} cannot be aligned to any territories between {1} and {2} due to a global exclusion.'),
+   system_managed(false)
+);

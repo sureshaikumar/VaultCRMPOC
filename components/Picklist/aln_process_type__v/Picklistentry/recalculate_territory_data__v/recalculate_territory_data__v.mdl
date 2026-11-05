@@ -1,0 +1,5 @@
+Picklistentry recalculate_territory_data__v (
+   value('Recalculate Territory Data'),
+   order(0),
+   active(true)
+);

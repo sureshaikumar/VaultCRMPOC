@@ -1,0 +1,9 @@
+RECREATE Objectvalidation metric_configuration__v.detail_group_type_check__v (
+   label('Detail Group Type Check'),
+   active(true),
+   expression('Text(detail_group__vr.product_type__v) = ''Detail Group'' ||
+IsBlank(detail_group__vr.product_type__v)'),
+   description('Only products of type Detail Group are allowed'),
+   error_message('Only type of Detail Group is allowed'),
+   error_location('detail_group__v')
+);

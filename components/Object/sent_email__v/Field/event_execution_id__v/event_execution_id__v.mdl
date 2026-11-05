@@ -1,0 +1,19 @@
+Field event_execution_id__v (
+   label('Event Execution ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(86),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

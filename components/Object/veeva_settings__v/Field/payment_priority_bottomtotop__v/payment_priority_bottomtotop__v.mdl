@@ -1,0 +1,18 @@
+Field payment_priority_bottomtotop__v (
+   label('Payment Priority BottomToTop'),
+   type('Boolean'),
+   active(true),
+   description('Used to define whether the hierarchy of the Payment values should be applied from Bottom To Top (Line value wins over Brand value, Product Group, and Total Order values) or from Top to Bottom (Total Order value wins over Product Group value, Brand, and Li'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(249),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

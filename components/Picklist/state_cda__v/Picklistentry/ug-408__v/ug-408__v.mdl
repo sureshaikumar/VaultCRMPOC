@@ -1,0 +1,6 @@
+Picklistentry ug-408__v (
+   value('Kisoro'),
+   order(4750),
+   active(true),
+   controlling_entries('ug__v')
+);

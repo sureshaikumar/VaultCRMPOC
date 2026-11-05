@@ -1,0 +1,22 @@
+Field sig_accepted_by_engage__v (
+   label('Signature Accepted by Engage'),
+   type('Number'),
+   active(true),
+   description('This field indicated whether the request was created with Veeva Setting call_submit_pending_sig_req__v, causing the signature to be auto-accepted by Engage without end user review.'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

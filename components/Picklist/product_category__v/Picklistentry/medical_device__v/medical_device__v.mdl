@@ -1,0 +1,5 @@
+Picklistentry medical_device__v (
+   value('Medical Device'),
+   order(3),
+   active(true)
+);

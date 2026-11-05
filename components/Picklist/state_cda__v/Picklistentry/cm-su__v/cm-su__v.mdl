@@ -1,0 +1,6 @@
+Picklistentry cm-su__v (
+   value('South'),
+   order(691),
+   active(true),
+   controlling_entries('cm__v')
+);

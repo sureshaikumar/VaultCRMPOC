@@ -1,0 +1,19 @@
+Field organization_id__c (
+   label('Organization Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('Organization Id for the Rep.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

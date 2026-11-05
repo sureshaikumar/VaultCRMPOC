@@ -1,0 +1,21 @@
+Field account_search_firstlast__v (
+   label('Account Search FirstLast'),
+   type('String'),
+   active(true),
+   description('If Person account, set the field value as firstname&lastname no space'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(126),
+   formula('If( ispersonaccount__v , Substitute(first_name_cda__v," ","") & Substitute(last_name_cda__v," ","") ,name__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

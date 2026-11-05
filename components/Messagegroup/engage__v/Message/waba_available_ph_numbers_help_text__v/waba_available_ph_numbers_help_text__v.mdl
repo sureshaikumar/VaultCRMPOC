@@ -1,0 +1,6 @@
+Message waba_available_ph_numbers_help_text__v (
+   label(),
+   active(true),
+   default_value('Select phone numbers to associate with the WhatsApp Business Account. For each phone number, set a 6 digit PIN to connect to the account.'),
+   system_managed(false)
+);

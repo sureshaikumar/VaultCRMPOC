@@ -1,0 +1,6 @@
+Picklistentry si-039__v (
+   value('Ivančna Gorica'),
+   order(4013),
+   active(true),
+   controlling_entries('si__v')
+);

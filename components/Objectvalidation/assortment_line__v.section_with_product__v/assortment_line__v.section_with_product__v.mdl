@@ -1,0 +1,18 @@
+RECREATE Objectvalidation assortment_line__v.section_with_product__v (
+   label('Section_with_Product'),
+   active(true),
+   expression('not(
+            if(
+                and(
+                    not(IsBlank(section_label__v)),
+                    not(IsBlank(product__v))
+                ),
+                true,
+                false
+            )
+       )'),
+   description(),
+   error_message('A Section and a Product cannot be specified on the same record.'),
+   error_location('section_label__v',
+      'product__v')
+);

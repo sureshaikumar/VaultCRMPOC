@@ -1,0 +1,15 @@
+Vsmfield name__v (
+   label('Glossary Term'),
+   active(true),
+   description('The name or label of the glossary term being defined. This is the primary identifier for the glossary entry and the term users would search for when looking up a definition.'),
+   example_values(),
+   synonyms('glossary term',
+         'term',
+         'term name',
+         'word',
+         'phrase'),
+   target('name__v'),
+   target_label('Glossary Term'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

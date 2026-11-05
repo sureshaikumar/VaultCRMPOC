@@ -1,0 +1,6 @@
+Typefield language__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.vlanguage__v.en_us__v'),
+   default_value('Picklist.vlanguage__v.en_us__v')
+);

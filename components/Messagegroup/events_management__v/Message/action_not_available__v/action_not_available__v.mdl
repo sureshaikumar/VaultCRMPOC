@@ -1,0 +1,6 @@
+Message action_not_available__v (
+   label(),
+   active(true),
+   default_value('This action cannot be executed from this page. Navigate to the record''s page to execute the action.'),
+   system_managed(false)
+);

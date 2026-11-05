@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout related_documents__v (
+   label('Relationships'),
+   active(true),
+   icon('UNDEFINED'),
+   order(6),
+   fields(),
+   show_in_edit_mode(true),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_relationships__sys')
+);

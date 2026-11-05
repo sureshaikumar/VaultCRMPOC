@@ -1,0 +1,6 @@
+Picklistentry mm-13__v (
+   value('Kayin'),
+   order(3064),
+   active(true),
+   controlling_entries('mm__v')
+);

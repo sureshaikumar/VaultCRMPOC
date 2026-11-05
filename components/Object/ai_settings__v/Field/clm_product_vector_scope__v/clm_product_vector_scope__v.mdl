@@ -1,0 +1,17 @@
+Field clm_product_vector_scope__v (
+   label('CLM Product Vector Scope'),
+   type('LongText'),
+   active(true),
+   description('Defines the products that drive the CLM Presentation filtering that sync to the Vector Database'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding(@control_binding.xml)
+);

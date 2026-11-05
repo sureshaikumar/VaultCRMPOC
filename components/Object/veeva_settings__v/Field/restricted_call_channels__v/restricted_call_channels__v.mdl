@@ -1,0 +1,19 @@
+Field restricted_call_channels__v (
+   label('Restricted Call Channels'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('A double semicolon separated list containing the Call Channel API names that should be restricted. Available ("Email_vod", "Message_vod" and "Other_vod")'),
+   list_column(false),
+   order(258),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

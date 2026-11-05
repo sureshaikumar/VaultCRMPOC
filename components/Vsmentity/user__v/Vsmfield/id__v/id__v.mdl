@@ -1,0 +1,11 @@
+Vsmfield id__v (
+   label('ID'),
+   active(true),
+   description('The system-assigned, unique internal identifier for the user record.'),
+   example_values(),
+   synonyms(),
+   target('id'),
+   target_label('ID'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

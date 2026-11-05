@@ -1,0 +1,6 @@
+Picklistentry sz-lu__v (
+   value('Lubombo'),
+   order(4297),
+   active(true),
+   controlling_entries('sz__v')
+);

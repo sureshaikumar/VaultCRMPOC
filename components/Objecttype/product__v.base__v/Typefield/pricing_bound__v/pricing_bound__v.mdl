@@ -1,0 +1,4 @@
+Typefield pricing_bound__v (
+   source('standard'),
+   required(false)
+);

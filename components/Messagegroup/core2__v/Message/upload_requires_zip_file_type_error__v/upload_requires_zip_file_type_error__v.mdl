@@ -1,0 +1,6 @@
+Message upload_requires_zip_file_type_error__v (
+   label(),
+   active(true),
+   default_value('Uploaded file must be in ZIP format.'),
+   system_managed(false)
+);

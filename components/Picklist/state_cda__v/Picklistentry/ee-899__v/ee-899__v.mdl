@@ -1,0 +1,6 @@
+Picklistentry ee-899__v (
+   value('Viljandi'),
+   order(1151),
+   active(true),
+   controlling_entries('ee__v')
+);

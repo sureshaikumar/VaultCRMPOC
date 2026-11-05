@@ -1,0 +1,5 @@
+Picklistentry america_rio_branco__sys (
+   value('(GMT-05:00) Acre Time (America/Rio_Branco)'),
+   order(58),
+   active(true)
+);

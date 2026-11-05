@@ -1,0 +1,8 @@
+RECREATE Atomicsecurity content_acknowledgement_item__v.content_acknowledgement_item_lifecycle__v.completed_state__v.atomic_security__v (
+   label('Content Acknowledgement Item Lifecycle-Completed'),
+   active(true),
+   object('Object.content_acknowledgement_item__v'),
+   object_lifecycle('Objectlifecycle.content_acknowledgement_item_lifecycle__v'),
+   state('Objectlifecyclestate.completed_state__v'),
+   Fieldsecurity(@Fieldsecurity/DEFAULT.read__v.field_security__v.mdl)
+);

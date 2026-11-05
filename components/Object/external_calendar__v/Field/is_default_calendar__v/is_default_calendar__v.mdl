@@ -1,0 +1,17 @@
+Field is_default_calendar__v (
+   label('Is Default Calendar?'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether an External Calendar is a default calendar.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

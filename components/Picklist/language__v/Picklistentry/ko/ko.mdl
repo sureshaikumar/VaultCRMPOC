@@ -1,0 +1,5 @@
+Picklistentry ko (
+   value('Korean'),
+   order(18),
+   active(true)
+);

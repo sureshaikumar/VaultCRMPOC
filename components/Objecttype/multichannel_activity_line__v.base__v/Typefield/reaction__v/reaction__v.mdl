@@ -1,0 +1,4 @@
+Typefield reaction__v (
+   source('standard'),
+   required(false)
+);

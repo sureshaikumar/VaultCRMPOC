@@ -1,0 +1,6 @@
+Picklistentry fr-87__v (
+   value('Haute-Vienne'),
+   order(1405),
+   active(true),
+   controlling_entries('fr__v')
+);

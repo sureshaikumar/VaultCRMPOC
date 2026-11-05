@@ -1,0 +1,6 @@
+Picklistentry gb-els__v (
+   value('Eilean Siar'),
+   order(1512),
+   active(true),
+   controlling_entries('gb__v')
+);

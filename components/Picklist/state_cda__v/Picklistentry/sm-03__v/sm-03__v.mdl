@@ -1,0 +1,6 @@
+Picklistentry sm-03__v (
+   value('Domagnano'),
+   order(4202),
+   active(true),
+   controlling_entries('sm__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bf-blk__v (
+   value('Boulkiemdé'),
+   order(334),
+   active(true),
+   controlling_entries('bf__v')
+);

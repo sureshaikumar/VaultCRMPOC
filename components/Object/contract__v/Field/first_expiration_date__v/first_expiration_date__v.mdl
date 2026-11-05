@@ -1,0 +1,17 @@
+Field first_expiration_date__v (
+   label('First Expiration Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Used to define the first expiration date of a contract.'),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

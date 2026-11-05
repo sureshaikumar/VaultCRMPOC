@@ -1,0 +1,5 @@
+Picklistentry 40780__v (
+   value('Russellville, AR Micropolitan Statistical Area'),
+   order(254),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry hr-11__v (
+   value('Požeško-slavonska županija'),
+   order(1852),
+   active(true),
+   controlling_entries('hr__v')
+);

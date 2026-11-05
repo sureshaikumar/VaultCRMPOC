@@ -1,0 +1,23 @@
+Field name__v (
+   label('Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(true),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(1),
+   system_managed_name(true),
+   sequential_naming(true),
+   start_number(1),
+   value_format('CREL-{#####}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

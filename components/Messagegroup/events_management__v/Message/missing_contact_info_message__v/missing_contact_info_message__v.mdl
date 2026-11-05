@@ -1,0 +1,6 @@
+Message missing_contact_info_message__v (
+   label(),
+   active(true),
+   default_value('Please enter the contact information needed to opt in to this channel.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry so-jh__v (
+   value('Jubbada Hoose'),
+   order(4232),
+   active(true),
+   controlling_entries('so__v')
+);

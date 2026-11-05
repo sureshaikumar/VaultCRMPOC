@@ -1,0 +1,6 @@
+Picklistentry et-af__v (
+   value('Afar'),
+   order(1261),
+   active(true),
+   controlling_entries('et__v')
+);

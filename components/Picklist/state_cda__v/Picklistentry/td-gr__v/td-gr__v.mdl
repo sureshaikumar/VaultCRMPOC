@@ -1,0 +1,6 @@
+Picklistentry td-gr__v (
+   value('Qīrā'),
+   order(4306),
+   active(true),
+   controlling_entries('td__v')
+);

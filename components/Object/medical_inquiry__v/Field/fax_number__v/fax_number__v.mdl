@@ -1,0 +1,20 @@
+Field fax_number__v (
+   label('Fax Number'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('Fax Number field is used to store the Fax Number value of the Medical Inquiry.  This field should not be added to the Page Layout as the special Delivery control wil display appropriately.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

@@ -1,0 +1,23 @@
+Field conversation_view__v (
+   label('Conversation View'),
+   type('Number'),
+   active(true),
+   description('Determines which view the Conversational Experience defaults as for a user'),
+   required(false),
+   unique(false),
+   max_value(10),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(64),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

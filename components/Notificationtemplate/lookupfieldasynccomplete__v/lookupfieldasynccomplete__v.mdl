@@ -1,0 +1,21 @@
+RECREATE Notificationtemplate lookupfieldasynccomplete__v (
+   label('Vof Lookup Field Async Work Complete'),
+   active(true),
+   description('Vof Lookup Field Async Work Completion Notifications template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: ${email_subject__v}'),
+   notification('<p>${title__v}</p>
+<p>Detail:</p>
+<ul>
+    <li>Object: ${objectName}</li>
+    <li>Lookup Field: ${lookupFieldName}</li>
+    <li>Records Updated: ${recordsUpdated}</li>
+    <li>Start Time: ${startTime}</li>
+    <li>Duration: ${duration}</li>
+</ul>
+'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

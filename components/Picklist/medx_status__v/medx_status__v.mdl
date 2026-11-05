@@ -1,0 +1,9 @@
+RECREATE Picklist medx_status__v (
+   label('MedX Status'),
+   active(true),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   Picklistentry(@Picklistentry/canceled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

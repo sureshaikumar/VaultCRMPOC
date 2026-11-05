@@ -1,0 +1,6 @@
+Picklistentry is-vop__v (
+   value('Vopnafjarðarhreppur'),
+   order(2154),
+   active(true),
+   controlling_entries('is__v')
+);

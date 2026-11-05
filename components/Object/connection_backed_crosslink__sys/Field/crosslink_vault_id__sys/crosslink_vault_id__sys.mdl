@@ -1,0 +1,19 @@
+Field crosslink_vault_id__sys (
+   label('CrossLink Vault ID'),
+   type('String'),
+   active(true),
+   description('The Vault ID of the associated CrossLink'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content('The Vault ID of the associated CrossLink'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

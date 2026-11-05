@@ -1,0 +1,4 @@
+Typefield attendee_name__v (
+   source('custom'),
+   required(false)
+);

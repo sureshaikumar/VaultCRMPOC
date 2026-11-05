@@ -1,0 +1,6 @@
+Picklistentry mw-sa__v (
+   value('Salima'),
+   order(3236),
+   active(true),
+   controlling_entries('mw__v')
+);

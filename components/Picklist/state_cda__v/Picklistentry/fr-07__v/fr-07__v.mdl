@@ -1,0 +1,6 @@
+Picklistentry fr-07__v (
+   value('Ardèche'),
+   order(1321),
+   active(true),
+   controlling_entries('fr__v')
+);

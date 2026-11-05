@@ -1,0 +1,5 @@
+Picklistentry signature_accepted__v (
+   value('Signature Accepted'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message delete_record_reject__v (
+   label(),
+   active(true),
+   default_value('You cannot delete the {0} record for the following reasons: {1}'),
+   system_managed(false)
+);

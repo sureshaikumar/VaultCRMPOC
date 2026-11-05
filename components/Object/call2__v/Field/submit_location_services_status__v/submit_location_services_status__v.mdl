@@ -1,0 +1,21 @@
+Field submit_location_services_status__v (
+   label('Submit Location Services Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates the state of location services at the time the submit button was clicked.
+Enabled_vod - location services are turned on and the system is able to get the user''s location
+Disabled_vod - location services are turned off
+No_connection_vod - no netw'),
+   list_column(false),
+   order(154),
+   multi_value(false),
+   picklist('Picklist.call2_submit_location_services_status__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

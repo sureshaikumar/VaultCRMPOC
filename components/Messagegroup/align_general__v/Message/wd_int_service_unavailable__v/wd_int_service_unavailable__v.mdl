@@ -1,0 +1,6 @@
+Message wd_int_service_unavailable__v (
+   label(),
+   active(true),
+   default_value('Align Service could not connect to Workday client {0}. {1}'),
+   system_managed(false)
+);

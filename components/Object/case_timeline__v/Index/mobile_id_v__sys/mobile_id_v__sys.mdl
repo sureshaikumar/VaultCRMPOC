@@ -1,0 +1,6 @@
+Index mobile_id_v__sys (
+   description(),
+   fields('mobile_id__v',
+         'case_number__v'),
+   label('Mobile ID')
+);

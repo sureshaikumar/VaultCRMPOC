@@ -1,0 +1,6 @@
+Picklistentry is-sdv__v (
+   value('Súðavíkurhreppur'),
+   order(2134),
+   active(true),
+   controlling_entries('is__v')
+);

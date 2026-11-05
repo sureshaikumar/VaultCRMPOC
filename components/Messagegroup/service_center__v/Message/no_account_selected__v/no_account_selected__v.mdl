@@ -1,0 +1,6 @@
+Message no_account_selected__v (
+   label(),
+   active(true),
+   default_value('No Account Selected'),
+   system_managed(false)
+);

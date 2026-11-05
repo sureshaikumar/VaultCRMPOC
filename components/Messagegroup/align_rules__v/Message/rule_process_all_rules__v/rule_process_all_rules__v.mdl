@@ -1,0 +1,6 @@
+Message rule_process_all_rules__v (
+   label(),
+   active(true),
+   default_value('Process all rules'),
+   system_managed(false)
+);

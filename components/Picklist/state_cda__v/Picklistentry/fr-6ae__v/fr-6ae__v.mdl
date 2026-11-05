@@ -1,0 +1,6 @@
+Picklistentry fr-6ae__v (
+   value('Alsace'),
+   order(1387),
+   active(true),
+   controlling_entries('fr__v')
+);

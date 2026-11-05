@@ -1,0 +1,5 @@
+Picklistentry 14020__v (
+   value('Bloomington, IN Metropolitan Statistical Area'),
+   order(894),
+   active(true)
+);

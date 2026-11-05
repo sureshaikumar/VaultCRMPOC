@@ -1,0 +1,6 @@
+Picklistentry gm-w__v (
+   value('Western'),
+   order(1714),
+   active(true),
+   controlling_entries('gm__v')
+);

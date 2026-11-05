@@ -1,0 +1,19 @@
+Field account_hierarchy_page__v (
+   label('ACCOUNT_HIERARCHY_PAGE'),
+   type('String'),
+   active(true),
+   description('A comma delimited list of settings for special configuration of the Account Hierarchy Page. i.e.: a value of 1 turns on the Account Plans Overaly'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

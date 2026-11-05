@@ -1,0 +1,6 @@
+Message drag_and_drop_to_add_segments__v (
+   label(),
+   active(true),
+   default_value('Drag and drop to add segments'),
+   system_managed(false)
+);

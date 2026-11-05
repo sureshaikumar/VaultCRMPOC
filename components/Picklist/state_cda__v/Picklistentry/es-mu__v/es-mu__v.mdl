@@ -1,0 +1,6 @@
+Picklistentry es-mu__v (
+   value('Murcia'),
+   order(1234),
+   active(true),
+   controlling_entries('es__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry no__v (
+   value('Norwegian'),
+   order(239),
+   active(false)
+);

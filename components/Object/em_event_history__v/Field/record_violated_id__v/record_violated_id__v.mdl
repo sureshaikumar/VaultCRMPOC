@@ -1,0 +1,17 @@
+Field record_violated_id__v (
+   label('Record Violated ID'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('ID of the record that violated the Event Business Rule.'),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

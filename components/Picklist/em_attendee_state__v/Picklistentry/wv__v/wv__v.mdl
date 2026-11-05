@@ -1,0 +1,5 @@
+Picklistentry wv__v (
+   value('WV'),
+   order(56),
+   active(true)
+);

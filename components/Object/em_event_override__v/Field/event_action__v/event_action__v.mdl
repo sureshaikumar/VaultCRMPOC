@@ -1,0 +1,19 @@
+Field event_action__v (
+   label('Event Action'),
+   type('String'),
+   active(true),
+   description('Action the warning is displayed on. The value needs to be an exact match of an existing button of the EM_Event_vod object. (i.e. Approve_vod, Submit_for_Approval_vod, etc) Only one button name can be added.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-514__v (
+   value('Semily'),
+   order(859),
+   active(true),
+   controlling_entries('cz__v')
+);

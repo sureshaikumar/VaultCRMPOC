@@ -1,0 +1,5 @@
+Picklistentry self_managed__v (
+   value('Self-Managed'),
+   order(3),
+   active(true)
+);

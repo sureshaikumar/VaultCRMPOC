@@ -1,0 +1,7 @@
+Picklistentry imarn__v (
+   value('Internal Medicine and Rheumatology'),
+   order(795),
+   active(true),
+   controlling_entries('at__v',
+         'de__v')
+);

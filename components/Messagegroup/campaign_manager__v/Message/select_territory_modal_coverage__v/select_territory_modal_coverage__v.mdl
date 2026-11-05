@@ -1,0 +1,6 @@
+Message select_territory_modal_coverage__v (
+   label(),
+   active(true),
+   default_value('Coverage: Targets have at least one Field user assigned to them'),
+   system_managed(false)
+);

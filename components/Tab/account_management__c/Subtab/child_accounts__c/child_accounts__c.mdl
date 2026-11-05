@@ -1,0 +1,15 @@
+Subtab child_accounts__c (
+   active(true),
+   all_view_label('All Child Accounts'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Child Accounts'),
+   modal_create_record(true),
+   my_view_label('My Child Accounts'),
+   object('child_account__v'),
+   order(300),
+   parent('account_management__c'),
+   prevent_create(false),
+   recent_view_label('Recent Child Accounts')
+);

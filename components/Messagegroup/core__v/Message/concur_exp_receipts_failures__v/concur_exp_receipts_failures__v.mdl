@@ -1,0 +1,6 @@
+Message concur_exp_receipts_failures__v (
+   label(),
+   active(true),
+   default_value('Expense Receipts Failures'),
+   system_managed(false)
+);

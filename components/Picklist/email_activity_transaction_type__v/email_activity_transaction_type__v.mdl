@@ -1,0 +1,9 @@
+RECREATE Picklist email_activity_transaction_type__v (
+   label('Transaction Type'),
+   active(true),
+   Picklistentry(@Picklistentry/events_management__v.mdl),
+   Picklistentry(@Picklistentry/veeva_content__v.mdl),
+   Picklistentry(@Picklistentry/clm_presentation__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

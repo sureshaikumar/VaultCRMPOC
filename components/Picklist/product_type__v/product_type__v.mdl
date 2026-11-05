@@ -1,0 +1,9 @@
+RECREATE Picklist product_type__v (
+   label('Product Type'),
+   active(true),
+   Picklistentry(@Picklistentry/drug_product__v.mdl),
+   Picklistentry(@Picklistentry/device_product__v.mdl),
+   Picklistentry(@Picklistentry/complex_product__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

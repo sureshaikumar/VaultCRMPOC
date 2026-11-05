@@ -1,0 +1,4 @@
+Typefield align_object__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,6 @@
+Message status_projected_under_budget__v (
+   label(),
+   active(true),
+   default_value('Projected Under Budget'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field start_date__v (
+   label('Start Date'),
+   type('Date'),
+   active(true),
+   description('The date from which the Monitoring Rule is in effect.'),
+   required(true),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

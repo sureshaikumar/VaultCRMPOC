@@ -1,0 +1,11 @@
+RECREATE Picklist medical_inquiry_product__v (
+   label('Product'),
+   active(true),
+   Picklistentry(@Picklistentry/cholecap__v.mdl),
+   Picklistentry(@Picklistentry/restolar__v.mdl),
+   Picklistentry(@Picklistentry/labrinone__v.mdl),
+   Picklistentry(@Picklistentry/cholecap__c.mdl),
+   Picklistentry(@Picklistentry/restolar__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

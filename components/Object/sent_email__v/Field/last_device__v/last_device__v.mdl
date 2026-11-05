@@ -1,0 +1,18 @@
+Field last_device__v (
+   label('Last Device'),
+   type('Picklist'),
+   active(true),
+   description('Last_Device_vod captures the last device used to generate the Sent_Email_vod record. You can use this field to determine what devices are generating Sent_Email_vod records.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(28),
+   multi_value(false),
+   picklist('Picklist.sent_email_last_device__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

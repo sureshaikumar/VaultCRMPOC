@@ -1,0 +1,6 @@
+Picklistentry th-92__v (
+   value('Trang'),
+   order(4400),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,18 @@
+Field public__v (
+   label('Public'),
+   type('Boolean'),
+   active(true),
+   description('Determines if the alert is visible by everyone in the org (TRUE) or if visibility is limited by the selected users or profiles (FALSE).'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(17),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

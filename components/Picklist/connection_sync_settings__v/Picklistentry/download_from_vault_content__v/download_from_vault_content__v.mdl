@@ -1,0 +1,5 @@
+Picklistentry download_from_vault_content__v (
+   value('Download from Vault Content'),
+   order(0),
+   active(true)
+);

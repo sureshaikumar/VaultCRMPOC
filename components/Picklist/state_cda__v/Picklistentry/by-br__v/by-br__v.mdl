@@ -1,0 +1,6 @@
+Picklistentry by-br__v (
+   value('Brest Region'),
+   order(546),
+   active(true),
+   controlling_entries('by__v')
+);

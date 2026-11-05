@@ -1,0 +1,6 @@
+Message select_case_contact__v (
+   label(),
+   active(true),
+   default_value('Select ${case_label} Contact'),
+   system_managed(false)
+);

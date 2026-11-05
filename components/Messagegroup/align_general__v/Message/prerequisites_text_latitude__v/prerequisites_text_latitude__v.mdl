@@ -1,0 +1,6 @@
+Message prerequisites_text_latitude__v (
+   label(),
+   active(true),
+   default_value('Latitude is populated'),
+   system_managed(false)
+);

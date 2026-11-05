@@ -1,0 +1,5 @@
+Picklistentry sma (
+   value('Southern Sami'),
+   order(309),
+   active(true)
+);

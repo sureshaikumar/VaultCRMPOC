@@ -1,0 +1,6 @@
+Message connection_status_error_msg__v (
+   label(),
+   active(true),
+   default_value('Connection error: ${error_message}'),
+   system_managed(false)
+);

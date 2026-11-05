@@ -1,0 +1,6 @@
+Message my_territories__v (
+   label(),
+   active(true),
+   default_value('My Territories'),
+   system_managed(false)
+);

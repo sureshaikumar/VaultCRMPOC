@@ -1,0 +1,5 @@
+Picklistentry niu__v (
+   value('Niuean'),
+   order(235),
+   active(false)
+);

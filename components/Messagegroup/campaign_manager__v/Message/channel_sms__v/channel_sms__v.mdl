@@ -1,0 +1,6 @@
+Message channel_sms__v (
+   label(),
+   active(true),
+   default_value('SMS'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field product_display_name__v (
+   label('Product Display Name'),
+   type('String'),
+   active(true),
+   description('Displays the text for product on consent capture page. If NULL, Product_vod__c.Name is populated.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

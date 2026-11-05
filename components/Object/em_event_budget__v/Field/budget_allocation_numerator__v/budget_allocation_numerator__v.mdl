@@ -1,0 +1,22 @@
+Field budget_allocation_numerator__v (
+   label('Budget Allocation Numerator'),
+   type('Number'),
+   active(true),
+   description('Represents the Event Budget’s allocation value used in the budget allocation calculation; it is set to 1 when using the default equal allocation and set to the user-entered whole-number percentage when the default allocation is overridden.'),
+   required(false),
+   unique(false),
+   max_value(100),
+   min_value(1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

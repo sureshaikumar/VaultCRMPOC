@@ -1,0 +1,19 @@
+Field pre_call_notes__v (
+   label('Pre-Call Notes'),
+   type('String'),
+   active(true),
+   description('Free text area to store pre-call notes.  Pre call notes are populated from the next-call notes of that last call that the user did on this account.  So, Next-Call notes become the pre-call notes for the next call by a same user on the same account.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(99),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

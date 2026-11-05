@@ -1,0 +1,4 @@
+Typefield appt_required__v (
+   source('standard'),
+   required(false)
+);

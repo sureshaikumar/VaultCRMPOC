@@ -1,0 +1,7 @@
+Picklistentry aacme__v (
+   value('Aesthetic and Cosmetic Medicine'),
+   order(31),
+   active(true),
+   controlling_entries('pt__v',
+         'us__v')
+);

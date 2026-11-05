@@ -1,0 +1,7 @@
+Picklistentry mreee__v (
+   value('Medical Rehabilitation'),
+   order(938),
+   active(true),
+   controlling_entries('hu__v',
+         'pl__v')
+);

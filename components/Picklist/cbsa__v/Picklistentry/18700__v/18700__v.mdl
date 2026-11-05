@@ -1,0 +1,5 @@
+Picklistentry 18700__v (
+   value('Corvallis, OR Metropolitan Statistical Area'),
+   order(213),
+   active(true)
+);

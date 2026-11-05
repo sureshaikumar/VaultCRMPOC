@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate process_view_execution_error__sys (
+   label('Process View Execution Error'),
+   active(true),
+   description('Notification template notifying user process view execution has failed.'),
+   email_preferences('never__sys'),
+   referenced_component(),
+   subject('Your Process Monitor Run has completed for ${processLabel}'),
+   notification('<p>Your Process Monitor Run has failed for ${processLabel}.<br />${processViewExecutionErrorMessage}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

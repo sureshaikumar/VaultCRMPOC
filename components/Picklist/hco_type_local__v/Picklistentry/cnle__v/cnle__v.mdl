@@ -1,0 +1,5 @@
+Picklistentry cnle__v (
+   value('Clinical Network'),
+   order(28),
+   active(true)
+);

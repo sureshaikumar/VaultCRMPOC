@@ -1,0 +1,6 @@
+Message ctav_error_user_access_unknown__v (
+   label(),
+   active(true),
+   default_value('Unknown error when accessing target Vault CRM user information'),
+   system_managed(false)
+);

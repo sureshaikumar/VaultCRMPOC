@@ -1,0 +1,5 @@
+Picklistentry asia_choibalsan__sys (
+   value('(GMT+08:00) Choibalsan Time (Asia/Choibalsan)'),
+   order(260),
+   active(true)
+);

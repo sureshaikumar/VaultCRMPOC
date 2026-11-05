@@ -1,0 +1,6 @@
+Picklistentry bi-ki__v (
+   value('Kirundo'),
+   order(412),
+   active(true),
+   controlling_entries('bi__v')
+);

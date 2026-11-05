@@ -1,0 +1,6 @@
+Message character_limit_reached__v (
+   label(),
+   active(true),
+   default_value('1500 Character Limit Reached'),
+   system_managed(false)
+);

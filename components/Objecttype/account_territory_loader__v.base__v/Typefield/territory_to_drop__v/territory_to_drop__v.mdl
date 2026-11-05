@@ -1,0 +1,4 @@
+Typefield territory_to_drop__v (
+   source('standard'),
+   required(false)
+);

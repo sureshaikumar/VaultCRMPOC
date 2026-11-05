@@ -1,0 +1,5 @@
+Picklistentry eu__c (
+   value('EU'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield total_expense_attendees_count__v (
+   source('standard'),
+   required(false)
+);

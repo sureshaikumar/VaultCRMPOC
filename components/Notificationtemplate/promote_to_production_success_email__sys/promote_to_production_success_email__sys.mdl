@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate promote_to_production_success_email__sys (
+   label('Promote To Production Build: Success'),
+   active(true),
+   description('Notification template notifying user about successful promote to production build'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Production Build Complete'),
+   notification('Your build ${productionVaultName} has completed successfully. To start using this vault, please complete the Promote to Production step in your <b>${preProductionVaultName}</b> Vault. You can find more about this action <a href="${promoteToProductionHelpLink}">here</a>.'),
+   email_body('Your build ${productionVaultName} has completed successfully. To start using this vault, please complete the Promote to Production step in your <b>${preProductionVaultName}</b> Vault. You can find more about this action <a href="${promoteToProductionHelpLink}">here</a>.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

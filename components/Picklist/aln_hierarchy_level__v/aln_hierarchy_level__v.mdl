@@ -1,0 +1,13 @@
+RECREATE Picklist aln_hierarchy_level__v (
+   label('Hierarchy Level'),
+   active(true),
+   Picklistentry(@Picklistentry/territory__v.mdl),
+   Picklistentry(@Picklistentry/district__v.mdl),
+   Picklistentry(@Picklistentry/region__v.mdl),
+   Picklistentry(@Picklistentry/division__v.mdl),
+   Picklistentry(@Picklistentry/nation__v.mdl),
+   Picklistentry(@Picklistentry/company__v.mdl),
+   Picklistentry(@Picklistentry/enterprise__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

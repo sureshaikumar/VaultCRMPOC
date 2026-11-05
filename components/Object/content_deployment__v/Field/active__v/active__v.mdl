@@ -1,0 +1,18 @@
+Field active__v (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the content deployment is active and available to be viewed.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

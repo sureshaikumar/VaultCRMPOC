@@ -1,0 +1,6 @@
+Message field_action_call_description__v (
+   label(),
+   active(true),
+   default_value('Notify field users to plan a call'),
+   system_managed(false)
+);

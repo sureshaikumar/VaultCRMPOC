@@ -1,0 +1,18 @@
+Field fulfillment_created__v (
+   label('Fulfillment Created'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates that a Medical Inquiry Fulfillment record has been created for the Medical Inquiry request and prevents subsequent Fulfillment records from being created.'),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

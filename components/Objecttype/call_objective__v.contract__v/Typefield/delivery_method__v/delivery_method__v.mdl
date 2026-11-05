@@ -1,0 +1,9 @@
+Typefield delivery_method__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call_objective_delivery_method__v.call__v',
+         'Picklist.call_objective_delivery_method__v.dm__v',
+         'Picklist.call_objective_delivery_method__v.fax__v',
+         'Picklist.call_objective_delivery_method__v.ncw__v',
+         'Picklist.call_objective_delivery_method__v.other__v')
+);

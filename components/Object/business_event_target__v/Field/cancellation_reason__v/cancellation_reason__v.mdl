@@ -1,0 +1,20 @@
+Field cancellation_reason__v (
+   label('Cancellation Reason'),
+   type('Picklist'),
+   active(true),
+   description('Reason why the business event target was canceled'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.target_cancellation_reason__v'),
+   controlling_picklist('target_status__v'),
+   picklist_dependencies('{"canceled__v":["no_purchase__v","patient_stopped_treatment__v","wrong_affiliation__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

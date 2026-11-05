@@ -1,0 +1,4 @@
+Typefield crm_is_deleted__v (
+   source('standard'),
+   required(false)
+);

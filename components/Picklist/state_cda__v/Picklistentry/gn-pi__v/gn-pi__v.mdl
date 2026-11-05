@@ -1,0 +1,6 @@
+Picklistentry gn-pi__v (
+   value('Pita'),
+   order(1751),
+   active(true),
+   controlling_entries('gn__v')
+);

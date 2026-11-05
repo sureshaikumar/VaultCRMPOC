@@ -1,0 +1,6 @@
+Message rule_target_select_product__v (
+   label(),
+   active(true),
+   default_value('Select From Available Cycle Product'),
+   system_managed(false)
+);

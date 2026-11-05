@@ -1,0 +1,18 @@
+Field inventory_monitoring_type__v (
+   label('Inventory Monitoring Type'),
+   type('Picklist'),
+   active(true),
+   description('List of Inventory Monitoring Types available for the Account. This field must contain a value from the Default_Inventory_Monitoring_Type_vod__c field. If None_vod is selected, then no Inventory Monitoring activities will be allowed for the selected accoun'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(50),
+   multi_value(true),
+   picklist('Picklist.account_inventory_monitoring_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

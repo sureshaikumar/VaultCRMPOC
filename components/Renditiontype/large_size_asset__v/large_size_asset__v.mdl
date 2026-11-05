@@ -1,0 +1,4 @@
+RECREATE Renditiontype large_size_asset__v (
+   label('Large Size Asset'),
+   active(true)
+);

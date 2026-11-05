@@ -1,0 +1,6 @@
+Message outbound_fax_sent_to_recipient__v (
+   label(),
+   active(true),
+   default_value('Outbound Fax Sent to ${faxRecipient}'),
+   system_managed(false)
+);

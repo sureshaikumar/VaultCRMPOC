@@ -1,0 +1,14 @@
+Vsmrelationship locales__v (
+   label('Locales'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Locale records that are associated with this language, representing specific regional or cultural configurations (e.g., en-US, fr-FR). Use to find all locales that use this language.'),
+   join_object(),
+   synonyms('locales',
+         'regional settings',
+         'locale configurations',
+         'regions using this language'),
+   target('locales__sysr'),
+   target_label('Locales'),
+   target_object('locale__sys')
+);

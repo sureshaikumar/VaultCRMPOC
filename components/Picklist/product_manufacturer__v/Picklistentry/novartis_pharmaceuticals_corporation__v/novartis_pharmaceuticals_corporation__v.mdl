@@ -1,0 +1,5 @@
+Picklistentry novartis_pharmaceuticals_corporation__v (
+   value('Novartis Pharmaceuticals Corporation'),
+   order(26),
+   active(true)
+);

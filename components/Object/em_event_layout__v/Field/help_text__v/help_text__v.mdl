@@ -1,0 +1,19 @@
+Field help_text__v (
+   label('Help Text'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('Used to store the name and category of a Veeva Message. If populated, this Veeva Message will display as a help text on the Page Layout. The format for this field is: Name;;Category of the Veeva Message. (e.g. HELP_TEXT_US_ADVISORY;;VERTEO_CUSTOM). Custom'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

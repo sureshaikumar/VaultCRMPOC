@@ -1,0 +1,23 @@
+Field group_discount__v (
+   label('Group Discount'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(4),
+   help_content('Shows and stores the group level discount override entered by the user.'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

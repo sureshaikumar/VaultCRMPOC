@@ -1,0 +1,5 @@
+Picklistentry dort__v (
+   value('Drugstore (OTC)'),
+   order(55),
+   active(true)
+);

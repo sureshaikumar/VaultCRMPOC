@@ -1,0 +1,6 @@
+Picklistentry sduer__v (
+   value('Surgical Dentistry'),
+   order(1820),
+   active(true),
+   controlling_entries('ua__v')
+);

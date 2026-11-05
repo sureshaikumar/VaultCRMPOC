@@ -1,0 +1,15 @@
+Fieldrule link__v (
+   label('Link'),
+   active(true),
+   query_object('crm_discussion__v'),
+   query_field('global_id__sys'),
+   target_object('Object.medical_discussion__v'),
+   target_object_field('Field.link__sys'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_text__sys'),
+   target_field_lookup()
+);

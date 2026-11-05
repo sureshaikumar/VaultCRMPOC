@@ -1,0 +1,7 @@
+Objectlifecyclestage generating_redacted_copy__sys (
+   label('Generating Redacted Copy'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.generating_redacted_copy__sys'),
+   order(2)
+);

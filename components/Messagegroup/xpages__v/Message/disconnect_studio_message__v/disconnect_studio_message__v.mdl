@@ -1,0 +1,6 @@
+Message disconnect_studio_message__v (
+   label(),
+   active(true),
+   default_value('If you disconnect this Studio, the current Vault will no longer be accessible to users in X-Pages Studio.'),
+   system_managed(false)
+);

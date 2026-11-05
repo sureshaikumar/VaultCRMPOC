@@ -1,0 +1,19 @@
+Field question_help_text__sys (
+   label('Question Help Text'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(300),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message align_postgres_data_last_delete__v (
+   label(),
+   active(true),
+   default_value('Last Delete Sync'),
+   system_managed(false)
+);

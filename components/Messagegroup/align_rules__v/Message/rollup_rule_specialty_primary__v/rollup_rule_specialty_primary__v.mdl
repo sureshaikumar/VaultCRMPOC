@@ -1,0 +1,6 @@
+Message rollup_rule_specialty_primary__v (
+   label(),
+   active(true),
+   default_value('Specialty (Primary)'),
+   system_managed(false)
+);

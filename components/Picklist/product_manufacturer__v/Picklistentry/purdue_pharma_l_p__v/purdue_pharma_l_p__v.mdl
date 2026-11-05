@@ -1,0 +1,5 @@
+Picklistentry purdue_pharma_l_p__v (
+   value('Purdue Pharma L.P.'),
+   order(31),
+   active(true)
+);

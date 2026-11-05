@@ -1,0 +1,5 @@
+Picklistentry sdaos__v (
+   value('SAS Doctor'),
+   order(144),
+   active(true)
+);

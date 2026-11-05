@@ -1,0 +1,6 @@
+Picklistentry pafme__v (
+   value('Perinatology and Fetomaternal Medicine'),
+   order(1492),
+   active(true),
+   controlling_entries('cz__v')
+);

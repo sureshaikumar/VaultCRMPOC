@@ -1,0 +1,63 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.territory__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="api_name__v" />
+            <vault:field reference="parent_territory__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="id" />
+            <vault:field reference="global_id__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Account Territories" name="account_territories__c">
+        <vault:relatedObject relationship="account_territories__vr" preventRecordCreate="false" modalCreateRecord="true" displayAsSimple="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="rule__v" width="200px" />
+            <vault:field reference="manual__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+            <vault:field reference="account__vr.name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="User Territories" name="user_territories__c">
+        <vault:relatedObject relationship="user_territories__vr" preventRecordCreate="false" modalCreateRecord="true" displayAsSimple="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="user__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+            <vault:field reference="user__vr.name__v" width="200px" />
+            <vault:field reference="user__vr.email__sys" width="200px" />
+            <vault:field reference="user__vr.company__sys" width="200px" />
+            <vault:field reference="user__vr.title__sys" width="200px" />
+            <vault:field reference="user__vr.mobile_phone__sys" width="200px" />
+            <vault:field reference="user__vr.office_phone__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Geography Territories" name="geography_territories__c">
+        <vault:relatedObject relationship="geography_territories__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="geography__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="geography_type__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Assignment Rules" name="assignment_rules__c">
+        <vault:relatedObject relationship="assignment_rules__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

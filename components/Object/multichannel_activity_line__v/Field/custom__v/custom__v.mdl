@@ -1,0 +1,18 @@
+Field custom__v (
+   label('Custom'),
+   type('Boolean'),
+   active(true),
+   description('Denotes if the record was written natively by the system or through custom code utilizing the JavaScript Library.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

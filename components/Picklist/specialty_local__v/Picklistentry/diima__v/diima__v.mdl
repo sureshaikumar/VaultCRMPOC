@@ -1,0 +1,7 @@
+Picklistentry diima__v (
+   value('Diagnostic Imaging'),
+   order(431),
+   active(true),
+   controlling_entries('al__v',
+         'vn__v')
+);

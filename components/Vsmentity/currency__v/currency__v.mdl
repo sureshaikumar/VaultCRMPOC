@@ -1,0 +1,14 @@
+RECREATE Vsmentity currency__v (
+   label('Currency'),
+   active(true),
+   description('Represents the currencies used across the system for financial transactions, pricing, and monetary values. The Currency object serves as a reference data entity that standardizes how monetary amounts are recorded and displayed throughout Vault. It is commonly used in processes involving pricing, budgets, contracts, or any business process that requires multi-currency support.'),
+   synonyms('currencies',
+      'money',
+      'foreign exchange'),
+   target('Object.currency__sys'),
+   target_label('Currency'),
+   Vsmfield(@Vsmfield/abbreviation__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/rate__v.mdl),
+   Vsmfield(@Vsmfield/status__v.mdl)
+);

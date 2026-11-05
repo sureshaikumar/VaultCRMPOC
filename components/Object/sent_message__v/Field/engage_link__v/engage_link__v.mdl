@@ -1,0 +1,17 @@
+Field engage_link__v (
+   label('Engage Link'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(3000),
+   help_content('The value after all the tokens in URL_vod are resolved'),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field assmca__v (
+   label('ASSMCA'),
+   type('String'),
+   active(true),
+   description('The ASSMCA field stores the equivalent of the DEA # for Puerto Rican address records.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

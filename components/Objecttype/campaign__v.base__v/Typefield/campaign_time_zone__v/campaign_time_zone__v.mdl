@@ -1,0 +1,4 @@
+Typefield campaign_time_zone__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,19 @@
+Field start_time__v (
+   label('Start Time'),
+   type('Picklist'),
+   active(true),
+   description('A call cycle entry is located at a (Week#, Day of Week, and Time). When applied to a week, a call cycle is placed on the week according to its (Day of Week, Time).'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.call_cycle_entry_start_time__v'),
+   default_value('{7_00_am__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry it-bo__v (
+   value('Bologna'),
+   order(2188),
+   active(true),
+   controlling_entries('it__v')
+);

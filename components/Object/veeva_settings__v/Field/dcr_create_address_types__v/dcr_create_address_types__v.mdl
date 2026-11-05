@@ -1,0 +1,19 @@
+Field dcr_create_address_types__v (
+   label('DCR Create Address Types'),
+   type('String'),
+   active(true),
+   description('Controls which Address object types are available to users when creating new Address DCRs. If left blank, all address object types the user has read permission to are available.'),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content('Comma delimited list of address object types that are available in the address object type selector'),
+   list_column(false),
+   order(360),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

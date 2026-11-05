@@ -1,0 +1,4 @@
+Typefield related_content__v (
+   source('standard'),
+   required(false)
+);

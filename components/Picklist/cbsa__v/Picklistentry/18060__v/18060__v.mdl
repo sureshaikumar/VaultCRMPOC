@@ -1,0 +1,5 @@
+Picklistentry 18060__v (
+   value('Columbus, MS Micropolitan Statistical Area'),
+   order(83),
+   active(true)
+);

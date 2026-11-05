@@ -1,0 +1,6 @@
+Picklistentry rnarm__v (
+   value('Registered Nursing and Registered Midwifery'),
+   order(1721),
+   active(true),
+   controlling_entries('in__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry rasme__v (
+   value('Respiratory and Sleep Medicine'),
+   order(1738),
+   active(true),
+   controlling_entries('au__v')
+);

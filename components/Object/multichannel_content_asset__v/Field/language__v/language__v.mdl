@@ -1,0 +1,18 @@
+Field language__v (
+   label('Language'),
+   type('Picklist'),
+   active(true),
+   description('Language attribute of the content. The picklist values can be expanded by the customer as needed. Values should be ISO codes of the associated language.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(32),
+   multi_value(false),
+   picklist('Picklist.vlanguage__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

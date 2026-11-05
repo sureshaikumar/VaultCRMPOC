@@ -1,0 +1,6 @@
+Message add_account_stakeholder_navigator__v (
+   label(),
+   active(true),
+   default_value('Add an account to view Stakeholder Navigator'),
+   system_managed(false)
+);

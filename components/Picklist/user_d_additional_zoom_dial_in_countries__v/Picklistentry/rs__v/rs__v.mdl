@@ -1,0 +1,5 @@
+Picklistentry rs__v (
+   value('RS'),
+   order(97),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield previous_inventory_date_time__v (
+   source('standard'),
+   required(false)
+);

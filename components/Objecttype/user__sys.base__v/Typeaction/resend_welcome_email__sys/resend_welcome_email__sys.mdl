@@ -1,0 +1,3 @@
+Typeaction resend_welcome_email__sys (
+   action('user__sys.resend_welcome_email__sys')
+);

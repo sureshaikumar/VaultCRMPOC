@@ -1,0 +1,6 @@
+Picklistentry pnahe__v (
+   value('Pediatric Nephrology and Hemodialysis'),
+   order(1414),
+   active(true),
+   controlling_entries('bg__v')
+);

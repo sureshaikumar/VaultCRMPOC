@@ -1,0 +1,6 @@
+Message concur_failure_reason__v (
+   label(),
+   active(true),
+   default_value('Failure Reason'),
+   system_managed(false)
+);

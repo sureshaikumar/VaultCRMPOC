@@ -1,0 +1,5 @@
+Picklistentry heavily__c (
+   value('Heavily'),
+   order(0),
+   active(true)
+);

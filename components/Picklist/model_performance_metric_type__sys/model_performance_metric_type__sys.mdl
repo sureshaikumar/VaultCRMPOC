@@ -1,0 +1,9 @@
+RECREATE Picklist model_performance_metric_type__sys (
+   label('Model Performance Metric Type'),
+   active(true),
+   Picklistentry(@Picklistentry/classification_performance__sys.mdl),
+   Picklistentry(@Picklistentry/global_weighted_average__sys.mdl),
+   Picklistentry(@Picklistentry/global_nonweighted_average__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry wf-al__v (
+   value('Alo'),
+   order(4981),
+   active(true),
+   controlling_entries('wf__v')
+);

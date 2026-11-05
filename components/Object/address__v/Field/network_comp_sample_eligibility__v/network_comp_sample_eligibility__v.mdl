@@ -1,0 +1,18 @@
+Field network_comp_sample_eligibility__v (
+   label('Network Comp Sample Eligibility'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates if the HCP has any of the assessed conditions on their sample eligibility as reflected in Veeva OpenData. The field is mapped to comprehensive_sample_eligibility__v from Network.'),
+   list_column(false),
+   order(52),
+   multi_value(false),
+   picklist('Picklist.address_network_comp_sample_eligibility__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

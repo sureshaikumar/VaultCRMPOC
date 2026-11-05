@@ -1,0 +1,19 @@
+Field middle_name_intl__v (
+   label('Middle Name (International)'),
+   type('String'),
+   active(true),
+   description('The HCP''s middle or secondary given name, including patronymics or equivalent naming elements, converted to Latin script via transliteration. Used globally for searching, data matching, international correspondence, and readability by non-local staff.'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(209),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

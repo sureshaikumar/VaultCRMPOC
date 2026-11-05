@@ -1,0 +1,6 @@
+Message contains__v (
+   label(),
+   active(true),
+   default_value('Contains'),
+   system_managed(false)
+);

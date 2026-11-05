@@ -1,0 +1,8 @@
+RECREATE Objectaction business_event_task__v.skip_task__v (
+   label('Skip Task'),
+   description('Executing this action will change the task status to Skipped.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.eppvpi.actions.BusinessEventTaskSkipTaskAction'),
+   active(true),
+   available_all_states(true)
+);

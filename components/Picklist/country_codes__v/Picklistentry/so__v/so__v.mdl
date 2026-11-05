@@ -1,0 +1,5 @@
+Picklistentry so__v (
+   value('SO'),
+   order(206),
+   active(true)
+);

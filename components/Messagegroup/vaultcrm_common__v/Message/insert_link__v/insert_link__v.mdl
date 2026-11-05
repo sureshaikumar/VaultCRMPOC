@@ -1,0 +1,6 @@
+Message insert_link__v (
+   label(),
+   active(true),
+   default_value('Insert Link'),
+   system_managed(false)
+);

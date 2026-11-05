@@ -1,0 +1,6 @@
+Message mccp_feedback_hcp__v (
+   label(),
+   active(true),
+   default_value('HCP'),
+   system_managed(false)
+);

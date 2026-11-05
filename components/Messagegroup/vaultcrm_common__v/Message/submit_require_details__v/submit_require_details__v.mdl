@@ -1,0 +1,6 @@
+Message submit_require_details__v (
+   label(),
+   active(true),
+   default_value('At least one Product Detail is required in order to submit the ${call_label}'),
+   system_managed(false)
+);

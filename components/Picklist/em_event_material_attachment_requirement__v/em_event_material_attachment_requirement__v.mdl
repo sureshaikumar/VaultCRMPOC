@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_material_attachment_requirement__v (
+   label('Attachment Requirement'),
+   active(true),
+   Picklistentry(@Picklistentry/optional__v.mdl),
+   Picklistentry(@Picklistentry/required__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

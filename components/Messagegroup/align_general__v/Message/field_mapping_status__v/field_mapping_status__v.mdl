@@ -1,0 +1,6 @@
+Message field_mapping_status__v (
+   label(),
+   active(true),
+   default_value('Mapping Status'),
+   system_managed(false)
+);

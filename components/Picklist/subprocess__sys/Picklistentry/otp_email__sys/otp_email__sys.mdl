@@ -1,0 +1,6 @@
+Picklistentry otp_email__sys (
+   value('Email'),
+   order(52),
+   active(true),
+   controlling_entries('olc_console_channel__sys')
+);

@@ -1,0 +1,6 @@
+Message fax_restricted_words_warning__v (
+   label(),
+   active(true),
+   default_value('''${restricted_word}'' is a restricted word or phrase and cannot be used in fax.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ma-tng__v (
+   value('Tanger-Assilah'),
+   order(2849),
+   active(true),
+   controlling_entries('ma__v')
+);

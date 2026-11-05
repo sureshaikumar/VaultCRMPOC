@@ -1,0 +1,6 @@
+Picklistentry kn-15__v (
+   value('Trinity Palmetto Point'),
+   order(2454),
+   active(true),
+   controlling_entries('kn__v')
+);

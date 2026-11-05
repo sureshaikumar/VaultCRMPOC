@@ -1,0 +1,5 @@
+Picklistentry promote_new_indication__v (
+   value('Promote New Indication'),
+   order(3),
+   active(true)
+);

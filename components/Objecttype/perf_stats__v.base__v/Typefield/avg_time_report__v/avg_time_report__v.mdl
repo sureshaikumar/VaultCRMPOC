@@ -1,0 +1,4 @@
+Typefield avg_time_report__v (
+   source('standard'),
+   required(true)
+);

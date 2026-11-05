@@ -1,0 +1,6 @@
+Picklistentry ch-be__v (
+   value('Bern'),
+   order(630),
+   active(true),
+   controlling_entries('ch__v')
+);

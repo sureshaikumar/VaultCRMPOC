@@ -1,0 +1,6 @@
+Picklistentry lr-ni__v (
+   value('Nimba'),
+   order(2605),
+   active(true),
+   controlling_entries('lr__v')
+);

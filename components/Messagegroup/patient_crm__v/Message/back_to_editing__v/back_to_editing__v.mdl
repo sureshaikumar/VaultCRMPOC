@@ -1,0 +1,6 @@
+Message back_to_editing__v (
+   label(),
+   active(true),
+   default_value('Back to Editing'),
+   system_managed(false)
+);

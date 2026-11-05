@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.target_loader__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="campaign__v" />
+            <vault:field reference="submitted_campaign__v" />
+            <vault:field reference="submitted_source_system_id__v" />
+            <vault:field reference="submitted_email__v" />
+            <vault:field reference="submitted_account_id__v" />
+            <vault:field reference="submitted_first_name__v" />
+            <vault:field reference="submitted_last_name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="target_matching_outcome__v" />
+            <vault:field reference="target_processing_status__v" />
+            <vault:field reference="target_failure_reason__v" />
+            <vault:field reference="request_uuid__v" />
+            <vault:field reference="submitted_external_id_field__v" />
+            <vault:field reference="submitted_external_id_value__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

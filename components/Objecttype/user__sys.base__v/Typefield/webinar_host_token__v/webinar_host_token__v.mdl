@@ -1,0 +1,4 @@
+Typefield webinar_host_token__v (
+   source('standard'),
+   required(false)
+);

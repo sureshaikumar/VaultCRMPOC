@@ -1,0 +1,18 @@
+Field vault_clinical_send_to__v (
+   label('Send to Vault Clinical'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Specifies if the call should be sent to Vault Clinical'),
+   list_column(false),
+   order(167),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

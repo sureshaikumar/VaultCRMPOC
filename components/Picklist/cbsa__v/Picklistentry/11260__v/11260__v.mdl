@@ -1,0 +1,5 @@
+Picklistentry 11260__v (
+   value('Anchorage, AK Metropolitan Statistical Area'),
+   order(649),
+   active(true)
+);

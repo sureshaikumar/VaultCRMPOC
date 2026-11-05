@@ -1,0 +1,6 @@
+Picklistentry ls-a__v (
+   value('Maseru'),
+   order(2609),
+   active(true),
+   controlling_entries('ls__v')
+);

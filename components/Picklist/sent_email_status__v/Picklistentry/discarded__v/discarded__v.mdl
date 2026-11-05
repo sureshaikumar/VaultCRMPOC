@@ -1,0 +1,5 @@
+Picklistentry discarded__v (
+   value('Discarded'),
+   order(15),
+   active(true)
+);

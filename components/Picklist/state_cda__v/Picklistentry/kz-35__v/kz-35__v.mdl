@@ -1,0 +1,6 @@
+Picklistentry kz-35__v (
+   value('Qaraghandy oblysy'),
+   order(2501),
+   active(true),
+   controlling_entries('kz__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry janssen_pharmaceutica__v (
+   value('Janssen Pharmaceutica'),
+   order(21),
+   active(true)
+);

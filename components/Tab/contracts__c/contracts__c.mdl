@@ -1,0 +1,15 @@
+RECREATE Tab contracts__c (
+   active(true),
+   all_view_label('All Contracts'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Contracts'),
+   modal_create_record(false),
+   my_view_label('My Contracts'),
+   object('contract__v'),
+   order(4700),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Contracts')
+);

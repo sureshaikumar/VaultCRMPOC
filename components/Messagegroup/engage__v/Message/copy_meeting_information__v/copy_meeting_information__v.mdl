@@ -1,0 +1,6 @@
+Message copy_meeting_information__v (
+   label(),
+   active(true),
+   default_value('Copy Meeting Information'),
+   system_managed(false)
+);

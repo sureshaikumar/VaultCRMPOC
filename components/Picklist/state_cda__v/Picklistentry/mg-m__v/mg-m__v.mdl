@@ -1,0 +1,6 @@
+Picklistentry mg-m__v (
+   value('Mahajanga'),
+   order(2935),
+   active(true),
+   controlling_entries('mg__v')
+);

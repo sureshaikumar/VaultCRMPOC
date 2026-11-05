@@ -1,0 +1,74 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account__v.hospital__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account_identifier__v" />
+            <vault:field reference="account_type__c" />
+            <vault:field reference="alternate_name__v" />
+            <vault:field reference="approved_email_opt_type__v" />
+            <vault:field reference="beds__c" />
+            <vault:field reference="credentials__v" />
+            <vault:field reference="customer_master_status__v" />
+            <vault:field reference="departments__c" />
+            <vault:field reference="do_not_call__v" />
+            <vault:field reference="do_not_create_child_account__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="group_specialty_1__v" />
+            <vault:field reference="group_specialty_2__v" />
+            <vault:field reference="hospital_type__v" />
+            <vault:field reference="id__v" />
+            <vault:field reference="middle_name_cda__v" />
+            <vault:field reference="national_company_id__v" />
+            <vault:field reference="nhid_cda__v" />
+            <vault:field reference="npi__v" />
+            <vault:field reference="specialty_1__v" />
+            <vault:field reference="specialty_2__v" />
+            <vault:field reference="suffix_cda__v" />
+            <vault:field reference="target__c" />
+            <vault:field reference="total_lives__c" />
+            <vault:field reference="total_mds_dos__c" />
+            <vault:field reference="total_pharmacists__c" />
+            <vault:field reference="total_physicians_enrolled__c" />
+            <vault:field reference="accountsource__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="fax_cda__v" />
+            <vault:field reference="personassistantphone__v" />
+            <vault:field reference="email_cda__v" />
+            <vault:field reference="persontitle__v" />
+            <vault:field reference="office_phone_cda__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="primary_parent__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="veeva_network_id__v" />
+            <vault:field reference="vcountry__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="veevaid__v" />
+            <vault:field reference="spec_1_cda__v" />
+            <vault:field reference="all_spec_cda__v" />
+            <vault:field reference="spec_group_1_cda__v" />
+            <vault:field reference="all_spec_group_cda__v" />
+            <vault:field reference="status_cda__v" />
+            <vault:field reference="hco_type_cda__v" />
+            <vault:field reference="website_cda__v" />
+            <vault:field reference="hco_name_cda__v" />
+            <vault:field reference="primary_owner__v" />
+            <vault:field reference="fax_opt_type__v" />
+            <vault:field reference="data_source__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Medical Insights" name="medical_insights__c">
+        <vault:relatedObject relationship="medical_insights__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

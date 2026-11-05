@@ -1,0 +1,6 @@
+Picklistentry br-ap__v (
+   value('Amapá'),
+   order(454),
+   active(true),
+   controlling_entries('br__v')
+);

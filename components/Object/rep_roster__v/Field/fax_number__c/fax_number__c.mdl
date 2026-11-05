@@ -1,0 +1,19 @@
+Field fax_number__c (
+   label('Fax Number'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Fax Number of the Rep.'),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('Case(Length(Text(this)),7,"###-####",10,"###-###-####",11,"+#-###-###-####",null)'),
+   control_binding()
+);

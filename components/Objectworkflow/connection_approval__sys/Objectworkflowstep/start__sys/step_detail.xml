@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad">
+    <vwf:label>wad</vwf:label>
+    <vwf:controls />
+  </vwf:dialog>
+</vwf:stepdetails>

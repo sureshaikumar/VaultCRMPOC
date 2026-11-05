@@ -1,0 +1,5 @@
+Picklistentry asia_taipei__sys (
+   value('(GMT+08:00) China Standard Time (Asia/Taipei)'),
+   order(259),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field cds_status__v (
+   label('CDS Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The status of the CDS registration number. This field should be set to either Valid_vod or Invalid_vod. Invalid_vod will restrict Controlled Substance sampling at this Address in states where a CDS is required.'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.address_cds_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry sooun__v (
+   value('Surgical Oncology (Oncosurgery)'),
+   order(1826),
+   active(true),
+   controlling_entries('am__v')
+);

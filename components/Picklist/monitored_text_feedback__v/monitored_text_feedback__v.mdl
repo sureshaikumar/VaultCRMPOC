@@ -1,0 +1,8 @@
+RECREATE Picklist monitored_text_feedback__v (
+   label('Is this Flagged Phrase a violation?'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

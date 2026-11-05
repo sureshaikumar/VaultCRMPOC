@@ -1,0 +1,4 @@
+Typefield remote_contact_email__sys (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry fr-20r__v (
+   value('Corse'),
+   order(1334),
+   active(true),
+   controlling_entries('fr__v')
+);

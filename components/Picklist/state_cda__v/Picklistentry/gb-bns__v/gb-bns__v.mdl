@@ -1,0 +1,6 @@
+Picklistentry gb-bns__v (
+   value('Barnsley'),
+   order(1470),
+   active(true),
+   controlling_entries('gb__v')
+);

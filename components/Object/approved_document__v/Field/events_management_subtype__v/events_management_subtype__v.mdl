@@ -1,0 +1,18 @@
+Field events_management_subtype__v (
+   label('Events Management Subtype'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to indicate the subtype of the approved document for use within the Events Management module'),
+   list_column(false),
+   order(32),
+   multi_value(false),
+   picklist('Picklist.approved_docum_events_management_subtype__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

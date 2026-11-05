@@ -1,0 +1,17 @@
+RECREATE Picklist user_geocodeaccuracy__v (
+   label('Geocode Accuracy'),
+   active(true),
+   Picklistentry(@Picklistentry/address__v.mdl),
+   Picklistentry(@Picklistentry/nearaddress__v.mdl),
+   Picklistentry(@Picklistentry/block__v.mdl),
+   Picklistentry(@Picklistentry/street__v.mdl),
+   Picklistentry(@Picklistentry/extendedzip__v.mdl),
+   Picklistentry(@Picklistentry/zip__v.mdl),
+   Picklistentry(@Picklistentry/neighborhood__v.mdl),
+   Picklistentry(@Picklistentry/city__v.mdl),
+   Picklistentry(@Picklistentry/country__v.mdl),
+   Picklistentry(@Picklistentry/state__v.mdl),
+   Picklistentry(@Picklistentry/unknown__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

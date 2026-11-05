@@ -1,0 +1,9 @@
+Actionsecurity aln_feedback_rep__v.execute__v.action_security__c (
+   label('Feedback Rep-Execute'),
+   active(true),
+   role('Objectlifecyclerole.aln_feedback_rep__v'),
+   type('execute__v'),
+   object_actions('Objectaction.aln_territory_model__v.challenge__v',
+         'Objectaction.aln_territory_model__v.view__v'),
+   lifecycle_actions('Objectlifecyclestateuseraction.feedback__v.change_state_to_manager_review__v')
+);

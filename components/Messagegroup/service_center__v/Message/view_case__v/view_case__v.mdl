@@ -1,0 +1,6 @@
+Message view_case__v (
+   label(),
+   active(true),
+   default_value('View Case'),
+   system_managed(false)
+);

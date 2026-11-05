@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule__v.speaker_transport_estimate_required__v (
+   label('Speaker Transportation Method Required'),
+   active(true),
+   expression('object_type__vr.api_name__v != "expense_estimate_speaker_travel_rule__v" || Not(IsBlank(speaker_transportation_method__v))'),
+   description('Valid input for speaker_transportation_method__v is not added to the Speaker Travel Expense Estimate Creation Rule.'),
+   error_message('This field is required.'),
+   error_location('speaker_transportation_method__v')
+);

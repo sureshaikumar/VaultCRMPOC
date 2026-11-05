@@ -1,0 +1,6 @@
+Picklistentry chmhe__v (
+   value('Chinese Herbal Medicine'),
+   order(203),
+   active(true),
+   controlling_entries('au__v')
+);

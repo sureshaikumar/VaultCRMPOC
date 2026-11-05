@@ -1,0 +1,6 @@
+Message rule_current_date_message__v (
+   label(),
+   active(true),
+   default_value('This will generate assignments based on the rules and geographies that are live today'),
+   system_managed(false)
+);

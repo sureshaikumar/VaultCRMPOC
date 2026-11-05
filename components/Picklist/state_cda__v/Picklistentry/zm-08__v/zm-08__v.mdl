@@ -1,0 +1,6 @@
+Picklistentry zm-08__v (
+   value('Copperbelt'),
+   order(5033),
+   active(true),
+   controlling_entries('zm__v')
+);

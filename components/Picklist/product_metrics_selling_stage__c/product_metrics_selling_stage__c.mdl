@@ -1,0 +1,10 @@
+RECREATE Picklist product_metrics_selling_stage__c (
+   label('Selling Stage'),
+   active(true),
+   Picklistentry(@Picklistentry/pre_launch__c.mdl),
+   Picklistentry(@Picklistentry/contracting__c.mdl),
+   Picklistentry(@Picklistentry/post_launch__c.mdl),
+   Picklistentry(@Picklistentry/pull_through__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

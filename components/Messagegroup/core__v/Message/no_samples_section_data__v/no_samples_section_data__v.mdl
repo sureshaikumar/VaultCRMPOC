@@ -1,0 +1,6 @@
+Message no_samples_section_data__v (
+   label(),
+   active(true),
+   default_value('Unable to fetch records for ${username}: ${error_message}'),
+   system_managed(false)
+);

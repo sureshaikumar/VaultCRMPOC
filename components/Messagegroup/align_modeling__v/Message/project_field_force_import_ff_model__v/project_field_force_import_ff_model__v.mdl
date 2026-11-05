@@ -1,0 +1,6 @@
+Message project_field_force_import_ff_model__v (
+   label(),
+   active(true),
+   default_value('Must have at least Create, Read, and Edit rights to aln_field_force_model__v object to Import Production Field Force and assignments.'),
+   system_managed(false)
+);

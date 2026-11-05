@@ -1,0 +1,19 @@
+Field product_identifier__v (
+   label('Product Identifier'),
+   type('String'),
+   active(true),
+   description('This is a pull-in field that allows the display of the Product Identifier field from the Product Catalog object on Contract Lines.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

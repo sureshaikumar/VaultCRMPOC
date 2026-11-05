@@ -1,0 +1,5 @@
+Picklistentry america_regina__sys (
+   value('(GMT-06:00) Central Standard Time (America/Regina)'),
+   order(50),
+   active(true)
+);

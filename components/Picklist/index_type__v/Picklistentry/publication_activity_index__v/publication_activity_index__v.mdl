@@ -1,0 +1,5 @@
+Picklistentry publication_activity_index__v (
+   value('Publication Activity ndex'),
+   order(8),
+   active(true)
+);

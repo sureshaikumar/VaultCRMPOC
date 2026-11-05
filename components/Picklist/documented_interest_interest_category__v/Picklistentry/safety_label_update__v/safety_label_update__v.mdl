@@ -1,0 +1,5 @@
+Picklistentry safety_label_update__v (
+   value('Safety Label Update'),
+   order(2),
+   active(true)
+);

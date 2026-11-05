@@ -1,0 +1,5 @@
+Picklistentry asia_nicosia__sys (
+   value('(GMT+02:00) Eastern European Time (Asia/Nicosia)'),
+   order(180),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message rules_failure_invalid_server_url__v (
+   label(),
+   active(true),
+   default_value('Invalid URL specified for rule engine server.'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+Field gas_implicit_filters__v (
+   label('Implicit Filters'),
+   type('String'),
+   active(true),
+   description('Identifies the Veeva Message used to define the fields that can be used when creating Implicit Filters in Global Account Search.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('"GAS_IMPLICIT_FILTERS;;Global Account Search"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

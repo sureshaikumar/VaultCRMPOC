@@ -1,0 +1,18 @@
+Field ln_patient_profiles__c (
+   label('LN Patient Profiles'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('How likely is the KOL to use Patient Profile documents?'),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.assessment_ln_patient_profiles__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry tv-nmg__v (
+   value('Nanumanga'),
+   order(4560),
+   active(true),
+   controlling_entries('tv__v')
+);

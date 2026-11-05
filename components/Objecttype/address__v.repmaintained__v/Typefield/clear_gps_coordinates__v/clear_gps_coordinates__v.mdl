@@ -1,0 +1,4 @@
+Typefield clear_gps_coordinates__v (
+   source('custom'),
+   required(false)
+);

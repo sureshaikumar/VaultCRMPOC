@@ -1,0 +1,5 @@
+Picklistentry europe_rome__v (
+   value('Central European Time (Rome)'),
+   order(57),
+   active(true)
+);

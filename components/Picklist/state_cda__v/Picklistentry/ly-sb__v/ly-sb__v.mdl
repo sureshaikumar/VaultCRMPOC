@@ -1,0 +1,6 @@
+Picklistentry ly-sb__v (
+   value('Sabhā'),
+   order(2759),
+   active(true),
+   controlling_entries('ly__v')
+);

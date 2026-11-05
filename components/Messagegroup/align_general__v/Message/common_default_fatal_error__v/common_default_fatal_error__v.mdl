@@ -1,0 +1,6 @@
+Message common_default_fatal_error__v (
+   label(),
+   active(true),
+   default_value('A fatal error has occurred. If this issue persists, please contact Align support'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message generate_invite_required_data__v (
+   label(),
+   active(true),
+   default_value('Unable to generate invitations. The following fields are required: ${print_invite_error}'),
+   system_managed(false)
+);

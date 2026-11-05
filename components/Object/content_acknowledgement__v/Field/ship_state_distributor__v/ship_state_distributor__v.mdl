@@ -1,0 +1,19 @@
+Field ship_state_distributor__v (
+   label('Ship State Distributor #'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content('Stores the State Distributor # of the Business Address where practitioner requested the BRC product shipment when a State Distributor is required in the state.'),
+   list_column(false),
+   order(37),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

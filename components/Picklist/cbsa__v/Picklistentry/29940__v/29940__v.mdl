@@ -1,0 +1,5 @@
+Picklistentry 29940__v (
+   value('Lawrence, KS Metropolitan Statistical Area'),
+   order(401),
+   active(true)
+);

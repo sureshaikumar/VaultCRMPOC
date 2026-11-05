@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate cfgtool_import_vpk_success_all_step__v (
+   label('Import VPK Success'),
+   active(true),
+   description('Import package success template.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Migration Package: ${packageName} has been successfully imported.'),
+   notification('<b><p>Your Migration Package: <a href="${urlInboundPackagePage}">${packageName}</a> has been successfully imported.</p></b><br/><ul><li>Start Time: ${startTime} </li><li>Duration: ${duration} </li><li>Package Status: ${packageStatus} </li><li>Total Steps: ${totalSteps} </li><li>Total Steps Blocked: ${totalBlockedSteps} </li><li>Total Component Steps Blocked: ${totalBlockedComponentSteps} </li><li>Total Data Steps Blocked: ${totalBlockedDataSteps} </li><li>Total Code Steps Blocked: ${totalBlockedCodeSteps} </li><li>For validation details, please see <a href="${urlValidationLog}">validation log</a>.</li></ul>'),
+   email_body('<b><p>Your Migration Package: <a href="${urlInboundPackagePage}">${packageName}</a> has been successfully imported.</p></b><br/><ul><li>Start Time: ${startTime} </li><li>Duration: ${duration} </li><li>Package Status: ${packageStatus} </li><li>Total Steps: ${totalSteps} </li><li>Total Steps Blocked: ${totalBlockedSteps} </li><li>Total Component Steps Blocked: ${totalBlockedComponentSteps} </li><li>Total Data Steps Blocked: ${totalBlockedDataSteps} </li><li>Total Code Steps Blocked: ${totalBlockedCodeSteps} </li><li>For validation details, please see <a href="${urlValidationLog}">validation log</a>.</li></ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

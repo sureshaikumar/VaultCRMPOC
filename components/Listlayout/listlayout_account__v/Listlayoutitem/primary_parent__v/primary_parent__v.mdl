@@ -1,0 +1,12 @@
+Listlayoutitem primary_parent__v (
+   label('Primary Parent'),
+   active(true),
+   control_label(),
+   field_key('primary_parent__v'),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Field'),
+   object_control(),
+   object_control_properties(),
+   omit_header_label()
+);

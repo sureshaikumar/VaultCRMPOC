@@ -1,0 +1,10 @@
+RECREATE Picklist patient_journey_status__v (
+   label('Patient Journey Status'),
+   active(true),
+   Picklistentry(@Picklistentry/active__v.mdl),
+   Picklistentry(@Picklistentry/inactive__v.mdl),
+   Picklistentry(@Picklistentry/draft__v.mdl),
+   Picklistentry(@Picklistentry/template__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

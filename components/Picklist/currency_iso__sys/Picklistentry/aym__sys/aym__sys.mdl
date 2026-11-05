@@ -1,0 +1,5 @@
+Picklistentry aym__sys (
+   value('AYM'),
+   order(12),
+   active(true)
+);

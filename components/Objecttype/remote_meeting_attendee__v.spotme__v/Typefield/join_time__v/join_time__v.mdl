@@ -1,0 +1,4 @@
+Typefield join_time__v (
+   source('custom'),
+   required(false)
+);

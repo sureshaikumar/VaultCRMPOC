@@ -1,0 +1,6 @@
+Message changes_saved__v (
+   label(),
+   active(true),
+   default_value('${num_records} Change(s) Saved'),
+   system_managed(false)
+);

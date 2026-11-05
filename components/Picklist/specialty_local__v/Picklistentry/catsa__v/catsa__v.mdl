@@ -1,0 +1,7 @@
+Picklistentry catsa__v (
+   value('Cardiovascular and Thoracic Surgery'),
+   order(176),
+   active(true),
+   controlling_entries('in__v',
+         'sn__v')
+);

@@ -1,0 +1,19 @@
+Field manufacturer__v (
+   label('Manufacturer'),
+   type('String'),
+   active(true),
+   description('Indicates the name of the manufacturer for the BRC product being shipped.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

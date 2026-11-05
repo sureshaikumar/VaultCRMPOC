@@ -1,0 +1,6 @@
+Message token_dash_title__v (
+   label(),
+   active(true),
+   default_value('Token Usage Dashboard'),
+   system_managed(false)
+);

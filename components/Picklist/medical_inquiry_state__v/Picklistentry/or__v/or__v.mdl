@@ -1,0 +1,5 @@
+Picklistentry or__v (
+   value('OR'),
+   order(43),
+   active(true)
+);

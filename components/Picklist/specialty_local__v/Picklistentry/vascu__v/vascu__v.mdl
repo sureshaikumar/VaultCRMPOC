@@ -1,0 +1,6 @@
+Picklistentry vascu__v (
+   value('Vascular'),
+   order(1911),
+   active(true),
+   controlling_entries('kw__v')
+);

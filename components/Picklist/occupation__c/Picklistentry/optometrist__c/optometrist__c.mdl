@@ -1,0 +1,5 @@
+Picklistentry optometrist__c (
+   value('Optometrist'),
+   order(5),
+   active(true)
+);

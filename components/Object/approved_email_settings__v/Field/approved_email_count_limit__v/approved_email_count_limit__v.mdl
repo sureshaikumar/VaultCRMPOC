@@ -1,0 +1,23 @@
+Field approved_email_count_limit__v (
+   label('Approved Email Volume-Count Threshold'),
+   type('Number'),
+   active(true),
+   description('A warning is displayed to the user when count of emails sent > the value in APPROVED_EMAIL_COUNT_LIMIT_vod over the value in APPROVED_EMAIL_DURATION_LIMIT_vod.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('5'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

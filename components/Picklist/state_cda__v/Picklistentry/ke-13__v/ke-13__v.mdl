@@ -1,0 +1,6 @@
+Picklistentry ke-13__v (
+   value('Kiambu'),
+   order(2366),
+   active(true),
+   controlling_entries('ke__v')
+);

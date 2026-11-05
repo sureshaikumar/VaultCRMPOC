@@ -1,0 +1,6 @@
+Picklistentry th-64__v (
+   value('Sukhothai'),
+   order(4379),
+   active(true),
+   controlling_entries('th__v')
+);

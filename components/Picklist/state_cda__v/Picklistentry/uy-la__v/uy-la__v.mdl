@@ -1,0 +1,6 @@
+Picklistentry uy-la__v (
+   value('Lavalleja'),
+   order(4855),
+   active(true),
+   controlling_entries('uy__v')
+);

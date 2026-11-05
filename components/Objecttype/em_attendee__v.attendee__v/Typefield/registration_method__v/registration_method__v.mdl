@@ -1,0 +1,7 @@
+Typefield registration_method__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_attendee_registration_method__v.forwarded__v',
+         'Picklist.em_attendee_registration_method__v.open__v',
+         'Picklist.em_attendee_registration_method__v.targeted__v')
+);

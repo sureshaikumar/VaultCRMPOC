@@ -1,0 +1,5 @@
+Picklistentry pacific_marquesas__v (
+   value('Marquesas Time'),
+   order(66),
+   active(true)
+);

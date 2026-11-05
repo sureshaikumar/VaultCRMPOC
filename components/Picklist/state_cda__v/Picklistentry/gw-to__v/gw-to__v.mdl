@@ -1,0 +1,6 @@
+Picklistentry gw-to__v (
+   value('Tombali'),
+   order(1813),
+   active(true),
+   controlling_entries('gw__v')
+);

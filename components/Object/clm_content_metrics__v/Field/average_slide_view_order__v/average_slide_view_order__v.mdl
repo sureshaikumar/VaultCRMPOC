@@ -1,0 +1,22 @@
+Field average_slide_view_order__v (
+   label('Average Slide View Order in Calls'),
+   type('Number'),
+   active(true),
+   description('The average view order from the times the slide was shown in a call. This is calculated from the call2_key_message__v records display_order__v field.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

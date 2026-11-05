@@ -1,0 +1,19 @@
+Field device__v (
+   label('Device'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(150),
+   help_content('Show the device type the Remote Meeting Attendee used to join the meeting'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

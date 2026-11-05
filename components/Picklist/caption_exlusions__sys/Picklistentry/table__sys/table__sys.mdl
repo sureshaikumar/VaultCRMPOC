@@ -1,0 +1,5 @@
+Picklistentry table__sys (
+   value('Table'),
+   order(0),
+   active(true)
+);

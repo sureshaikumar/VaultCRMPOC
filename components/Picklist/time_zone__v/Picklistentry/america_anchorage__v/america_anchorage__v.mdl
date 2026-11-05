@@ -1,0 +1,5 @@
+Picklistentry america_anchorage__v (
+   value('Alaska Time'),
+   order(67),
+   active(true)
+);

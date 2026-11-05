@@ -1,0 +1,5 @@
+Picklistentry 26700__v (
+   value('Huron, SD Micropolitan Statistical Area'),
+   order(760),
+   active(true)
+);

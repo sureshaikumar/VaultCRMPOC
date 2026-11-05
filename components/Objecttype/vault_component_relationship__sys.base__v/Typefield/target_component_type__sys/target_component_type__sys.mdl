@@ -1,0 +1,4 @@
+Typefield target_component_type__sys (
+   source('standard'),
+   required(false)
+);

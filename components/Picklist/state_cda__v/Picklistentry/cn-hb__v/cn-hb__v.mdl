@@ -1,0 +1,6 @@
+Picklistentry cn-hb__v (
+   value('Hubei Sheng'),
+   order(702),
+   active(true),
+   controlling_entries('cn__v')
+);

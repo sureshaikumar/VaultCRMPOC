@@ -1,0 +1,19 @@
+RECREATE Vsmentity user_role_setup__v (
+   label('User Role Setup'),
+   active(true),
+   description('Defines and configures the mapping of roles to users within Vault, establishing which roles are assigned to which users under which criteria. User Role Setup records are used to manage role-based Dynamic Access Control (DAC), ensuring users have appropriate permissions aligned with their responsibilities. This object is typically used by system administrators when onboarding users, and includes a user, role, and several object reference field values (for fields that are on both documents and the User Role Setup records) which further qualify the user’s context for the role.'),
+   synonyms('role setup',
+      'user roles',
+      'role assignment',
+      'role configuration',
+      'dac',
+      'dynamic access',
+      'dynamic access control'),
+   target('Object.user_role_setup__v'),
+   target_label('User Role Setup'),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/role__v.mdl),
+   Vsmfield(@Vsmfield/urs_source__v.mdl),
+   Vsmfield(@Vsmfield/urs_source_ref__v.mdl),
+   Vsmfield(@Vsmfield/user__v.mdl)
+);

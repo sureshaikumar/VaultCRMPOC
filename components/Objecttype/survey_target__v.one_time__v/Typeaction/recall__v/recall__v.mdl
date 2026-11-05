@@ -1,0 +1,3 @@
+Typeaction recall__v (
+   action('survey_target__v.recall__v')
+);

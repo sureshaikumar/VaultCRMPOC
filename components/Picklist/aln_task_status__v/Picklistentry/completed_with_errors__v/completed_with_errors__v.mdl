@@ -1,0 +1,5 @@
+Picklistentry completed_with_errors__v (
+   value('Completed with Errors'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry bw-ce__v (
+   value('Central'),
+   order(530),
+   active(true),
+   controlling_entries('bw__v')
+);

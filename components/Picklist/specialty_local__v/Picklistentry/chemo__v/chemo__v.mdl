@@ -1,0 +1,6 @@
+Picklistentry chemo__v (
+   value('Chemotherapy'),
+   order(188),
+   active(true),
+   controlling_entries('ge__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry registration_rejection__v (
+   value('Registration Rejection'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message ai_autofill_failed__v (
+   label(),
+   active(true),
+   default_value('AI Auto-Fill failed, please try again or fill the form out manually.'),
+   system_managed(false)
+);

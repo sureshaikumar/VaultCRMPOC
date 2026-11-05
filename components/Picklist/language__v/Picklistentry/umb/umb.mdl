@@ -1,0 +1,5 @@
+Picklistentry umb (
+   value('Umbundu'),
+   order(337),
+   active(true)
+);

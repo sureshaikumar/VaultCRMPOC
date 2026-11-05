@@ -1,0 +1,6 @@
+Message business_event_delete_error__v (
+   label(),
+   active(true),
+   default_value('You may not delete this as there are completed business event tasks.'),
+   system_managed(false)
+);

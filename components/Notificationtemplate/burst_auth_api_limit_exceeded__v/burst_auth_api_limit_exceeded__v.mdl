@@ -1,0 +1,28 @@
+RECREATE Notificationtemplate burst_auth_api_limit_exceeded__v (
+   label('Burst Auth API Limit Exceeded'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Attention: Burst Auth API Limit Exceeded for ${userName} (host name: ${hostName})'),
+   notification('<p>The following user has exceeded the Authentication API burst limit ${burstLimitExceededTimes} consecutive times:</p>
+
+<p>Host Name: ${hostName}<br>User Name: ${userName}</p>
+
+<p>Vault is no longer accepting Authentication API calls for this caller.</p>
+
+<p>Please review the programs and scripts calling the Vault Authentication API to ensure they are operating correctly. The Authentication API burst limit is ${burstLimit} calls over a period of ${burstPeriod} minute(s).</p>
+
+<p>You are receiving this notification from Vault because you have indicated you want to receive system notifications in your User Profile and the API limit notification setting within Vault. Please contact Veeva support if you have questions about this notification.</p>'),
+   email_body('<p>The following user has exceeded the Authentication API burst limit ${burstLimitExceededTimes} consecutive times:</p>
+
+<p>Host Name: ${hostName}<br>User Name: ${userName}</p>
+
+<p>Vault is no longer accepting Authentication API calls for this caller.</p>
+
+<p>Please review the programs and scripts calling the Vault Authentication API to ensure they are operating correctly. The Authentication API burst limit is ${burstLimit} calls over a period of ${burstPeriod} minute(s).</p>
+
+<p>You are receiving this notification from Vault because you have indicated you want to receive system notifications in your User Profile and the API limit notification setting within Vault. Please contact Veeva support if you have questions about this notification.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

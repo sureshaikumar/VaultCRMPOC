@@ -1,0 +1,89 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_attendee__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="address_line_1__v" />
+            <vault:field reference="address_line_2__v" />
+            <vault:field reference="attendance_type__v" />
+            <vault:field reference="attendee_name__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="credentials__v" />
+            <vault:field reference="cvent_attendee_id__v" />
+            <vault:field reference="cvent_consent__v" />
+            <vault:field reference="email__v" />
+            <vault:field reference="end_time__v" />
+            <vault:field reference="engagement_score_on24__v" />
+            <vault:field reference="engage_provisioning_status__v" />
+            <vault:field reference="entity_reference_id__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="external_id_on24__v" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="furigana__v" />
+            <vault:field reference="last_name__v" />
+            <vault:field reference="last_sync__v" />
+            <vault:field reference="meal_opt_in__v" />
+            <vault:field reference="meal_preference__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="network_id__v" />
+            <vault:field reference="online_registration_status__v" />
+            <vault:field reference="organization__v" />
+            <vault:field reference="override_lock__v" />
+            <vault:field reference="phone__v" />
+            <vault:field reference="prescriber__v" />
+            <vault:field reference="registration_timestamp_on24__v" />
+            <vault:field reference="signature_datetime__v" />
+            <vault:field reference="signature__v" />
+            <vault:field reference="signee__v" />
+            <vault:field reference="spotme_invitation_link__v" />
+            <vault:field reference="start_time__v" />
+            <vault:field reference="em_attendee_status__v" />
+            <vault:field reference="stub_mobile_id__v" />
+            <vault:field reference="stub_sfdc_id__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="vessel_number__v" />
+            <vault:field reference="walk_in_reference_id__v" />
+            <vault:field reference="walk_in_status__v" />
+            <vault:field reference="walk_in_type__v" />
+            <vault:field reference="webinar_participant_id__v" />
+            <vault:field reference="webinar_participant_url__v" />
+            <vault:field reference="zip__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="child_account__v" />
+            <vault:field reference="event__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="child_account_id__v" />
+            <vault:field reference="license__v" />
+            <vault:field reference="location_id__v" />
+            <vault:field reference="location_name__v" />
+            <vault:field reference="registration_method__v" />
+            <vault:field reference="registration_status__v" />
+            <vault:field reference="registration_timestamp__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="location__v" />
+            <vault:field reference="person__v" />
+            <vault:field reference="mobile_created_datetime__v" />
+            <vault:field reference="mobile_last_modified_datetime__v" />
+            <vault:field reference="attendee_account_type__v" />
+            <vault:field reference="attendee_type__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="in_merge__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

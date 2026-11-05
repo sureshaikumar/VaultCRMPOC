@@ -1,0 +1,5 @@
+Picklistentry ilo__v (
+   value('Ilocano'),
+   order(138),
+   active(false)
+);

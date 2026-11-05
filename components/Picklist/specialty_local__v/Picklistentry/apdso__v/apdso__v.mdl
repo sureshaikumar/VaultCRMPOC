@@ -1,0 +1,6 @@
+Picklistentry apdso__v (
+   value('Adolescent Psychiatry'),
+   order(18),
+   active(true),
+   controlling_entries('fi__v')
+);

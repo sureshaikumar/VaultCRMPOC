@@ -1,0 +1,5 @@
+Picklistentry gpor__v (
+   value('Group Purchasing Organization'),
+   order(81),
+   active(true)
+);

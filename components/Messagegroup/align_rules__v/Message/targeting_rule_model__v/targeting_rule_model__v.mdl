@@ -1,0 +1,6 @@
+Message targeting_rule_model__v (
+   label(),
+   active(true),
+   default_value('Model Targeting Rule'),
+   system_managed(false)
+);

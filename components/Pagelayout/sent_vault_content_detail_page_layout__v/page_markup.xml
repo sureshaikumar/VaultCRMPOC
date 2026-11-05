@@ -1,0 +1,12 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sent_fragment__v.sent_vault_content__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="sent_email__v" />
+            <vault:field reference="sent_clm_presentation__v" />
+            <vault:field reference="email_template__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

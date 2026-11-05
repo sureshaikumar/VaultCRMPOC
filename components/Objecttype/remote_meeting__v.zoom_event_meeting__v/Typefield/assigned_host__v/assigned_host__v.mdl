@@ -1,0 +1,4 @@
+Typefield assigned_host__v (
+   source('custom'),
+   required(false)
+);

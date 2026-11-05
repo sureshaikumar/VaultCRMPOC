@@ -1,0 +1,5 @@
+Picklistentry san (
+   value('Sanskrit'),
+   order(292),
+   active(true)
+);

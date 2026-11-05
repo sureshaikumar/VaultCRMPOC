@@ -1,0 +1,6 @@
+Message mccp_feedback_goal__v (
+   label(),
+   active(true),
+   default_value('Goal'),
+   system_managed(false)
+);

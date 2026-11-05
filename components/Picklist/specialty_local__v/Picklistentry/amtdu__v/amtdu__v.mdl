@@ -1,0 +1,6 @@
+Picklistentry amtdu__v (
+   value('Advanced Musculoskeletal Trauma'),
+   order(26),
+   active(true),
+   controlling_entries('my__v')
+);

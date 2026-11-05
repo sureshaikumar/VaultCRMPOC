@@ -1,0 +1,18 @@
+Field disbursement_order_created__v (
+   label('Disbursement Created'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('System field used to indicate that Sample Disbursement and/or Sample Order Transaction records were created for associated Call Sample records.'),
+   list_column(false),
+   order(61),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message cycle_plan_product_priority__v (
+   label(),
+   active(true),
+   default_value('Product Priority'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field call_capture_agent_used__v (
+   label('Call Capture Agent Used'),
+   type('Boolean'),
+   active(true),
+   description('If True, indicates that the Call Capture Agent was used to create or update the Call.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(243),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

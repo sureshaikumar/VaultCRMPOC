@@ -1,0 +1,5 @@
+Picklistentry indian_maldives__sys (
+   value('(GMT+05:00) Maldives Time (Indian/Maldives)'),
+   order(221),
+   active(true)
+);

@@ -1,0 +1,22 @@
+Field planned_calls__v (
+   label('Planned Calls'),
+   type('Number'),
+   active(true),
+   description('number of calls the user is supposed to make during the Cycle Plan’s time period'),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

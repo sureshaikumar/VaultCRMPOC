@@ -1,0 +1,22 @@
+Field hcps_with_meals__v (
+   label('HCPs with Meals'),
+   type('Number'),
+   active(true),
+   description('Count of attendees of type Account with status "attended" or "signed" that had requested a meal.'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

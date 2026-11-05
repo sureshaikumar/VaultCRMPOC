@@ -1,0 +1,4 @@
+Typefield response_document_link__v (
+   source('custom'),
+   required(false)
+);

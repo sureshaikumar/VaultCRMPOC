@@ -1,0 +1,6 @@
+Message model_level__sys (
+   label(),
+   active(true),
+   default_value('Model Level'),
+   system_managed(true)
+);

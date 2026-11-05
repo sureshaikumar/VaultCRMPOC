@@ -1,0 +1,6 @@
+Message account_exclusion_no_edit_territory_ff__v (
+   label(),
+   active(true),
+   default_value('Cannot modify Account Exclusion''s Territory or Field Force.'),
+   system_managed(false)
+);

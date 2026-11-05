@@ -1,0 +1,11 @@
+Vsmrelationship assigned_to__v (
+   label('Assigned To'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The relationship to the user who the User task is assigned to'),
+   join_object(),
+   synonyms(),
+   target('assigned_to__vr'),
+   target_label('Assigned To'),
+   target_object('user__sys')
+);

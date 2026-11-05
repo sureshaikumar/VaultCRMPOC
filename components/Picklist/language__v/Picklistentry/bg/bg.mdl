@@ -1,0 +1,5 @@
+Picklistentry bg (
+   value('Bulgarian'),
+   order(1),
+   active(true)
+);

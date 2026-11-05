@@ -1,0 +1,8 @@
+Picklistentry eannn__v (
+   value('Endocrinology and Nutrition'),
+   order(502),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v',
+         'pt__v')
+);

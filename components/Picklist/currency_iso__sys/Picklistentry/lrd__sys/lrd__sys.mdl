@@ -1,0 +1,5 @@
+Picklistentry lrd__sys (
+   value('LRD'),
+   order(106),
+   active(true)
+);

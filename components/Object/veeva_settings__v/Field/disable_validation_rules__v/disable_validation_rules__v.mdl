@@ -1,0 +1,18 @@
+Field disable_validation_rules__v (
+   label('Disable Validation Rules'),
+   type('Boolean'),
+   active(true),
+   description('Setting will disable Validation Rules execution across all devices when set to TRUE.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(104),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

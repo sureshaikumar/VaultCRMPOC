@@ -1,0 +1,6 @@
+Message territory_model_delete_dialog_header__v (
+   label(),
+   active(true),
+   default_value('Delete Territory Model'),
+   system_managed(false)
+);

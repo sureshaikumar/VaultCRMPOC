@@ -1,0 +1,6 @@
+Picklistentry ao-hui__v (
+   value('Huíla'),
+   order(88),
+   active(true),
+   controlling_entries('ao__v')
+);

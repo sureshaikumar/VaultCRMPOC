@@ -1,0 +1,6 @@
+Message schedule_activation__v (
+   label(),
+   active(true),
+   default_value('Schedule Activation'),
+   system_managed(false)
+);

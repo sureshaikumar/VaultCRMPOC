@@ -1,0 +1,5 @@
+Picklistentry eka__v (
+   value('Ekajuk'),
+   order(85),
+   active(false)
+);

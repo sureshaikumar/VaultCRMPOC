@@ -1,0 +1,6 @@
+Message create_all_specialties__v (
+   label(),
+   active(true),
+   default_value('Create ${product_specialty} records for all specialties'),
+   system_managed(false)
+);

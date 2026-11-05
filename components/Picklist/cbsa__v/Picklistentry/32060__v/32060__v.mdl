@@ -1,0 +1,5 @@
+Picklistentry 32060__v (
+   value('Marion-Herrin, IL Micropolitan Statistical Area'),
+   order(701),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry gn-d__v (
+   value('Kindia (Region)'),
+   order(1721),
+   active(true),
+   controlling_entries('gn__v')
+);

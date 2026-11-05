@@ -1,0 +1,6 @@
+Picklistentry ye-sd__v (
+   value('Şā‘dah'),
+   order(5012),
+   active(true),
+   controlling_entries('ye__v')
+);

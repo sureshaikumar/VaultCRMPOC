@@ -1,0 +1,6 @@
+Message primary_secondary_same_user_error__v (
+   label(),
+   active(true),
+   default_value('Primary and secondary users cannot be the same person.'),
+   system_managed(false)
+);

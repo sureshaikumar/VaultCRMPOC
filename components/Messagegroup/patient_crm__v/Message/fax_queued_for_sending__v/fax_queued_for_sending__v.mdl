@@ -1,0 +1,6 @@
+Message fax_queued_for_sending__v (
+   label(),
+   active(true),
+   default_value('Fax Queued for Sending'),
+   system_managed(false)
+);

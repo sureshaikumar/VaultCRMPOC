@@ -1,0 +1,8 @@
+RECREATE Objectaction inventory_monitoring__v.copy__v (
+   label('Copy'),
+   description('Enables the Copy action on the iPad. This action does not have any effect online.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.inventorymonitoring.actions.InventoryMonitoringCopyAction'),
+   active(true),
+   available_all_states(true)
+);

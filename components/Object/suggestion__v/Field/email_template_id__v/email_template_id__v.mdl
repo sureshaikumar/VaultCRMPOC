@@ -1,0 +1,19 @@
+Field email_template_id__v (
+   label('Email Template ID'),
+   type('String'),
+   active(true),
+   description('Drives what template is used when Email_Template_vod = True, maps to the Approved_Document_vod.Vault_Document_ID_vod'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry lt-28__v (
+   value('Neringa'),
+   order(2646),
+   active(true),
+   controlling_entries('lt__v')
+);

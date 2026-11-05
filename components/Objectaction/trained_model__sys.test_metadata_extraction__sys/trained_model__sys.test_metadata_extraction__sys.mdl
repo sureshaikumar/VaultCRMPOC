@@ -1,0 +1,8 @@
+RECREATE Objectaction trained_model__sys.test_metadata_extraction__sys (
+   label('Test Metadata Extraction'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.TestMetadataExtraction'),
+   active(true),
+   available_all_states(true)
+);

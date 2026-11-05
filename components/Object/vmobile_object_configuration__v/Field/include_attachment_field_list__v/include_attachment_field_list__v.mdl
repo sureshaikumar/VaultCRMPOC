@@ -1,0 +1,19 @@
+Field include_attachment_field_list__v (
+   label('Include Attachment Field List'),
+   type('String'),
+   active(true),
+   description('List of attachment fields to be included in the download to the client device'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Specify the attachment fields to be included in the download to the client device'),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

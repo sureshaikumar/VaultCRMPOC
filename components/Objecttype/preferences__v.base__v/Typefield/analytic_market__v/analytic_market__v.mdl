@@ -1,0 +1,4 @@
+Typefield analytic_market__v (
+   source('standard'),
+   required(false)
+);

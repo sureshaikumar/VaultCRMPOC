@@ -1,0 +1,4 @@
+Typefield typicallengthofnegotiation__c (
+   source('standard'),
+   required(false)
+);

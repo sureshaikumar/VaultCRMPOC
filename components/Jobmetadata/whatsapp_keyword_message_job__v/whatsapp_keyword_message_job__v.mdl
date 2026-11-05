@@ -1,0 +1,10 @@
+RECREATE Jobmetadata whatsapp_keyword_message_job__v (
+   label('WhatsApp Keyword Message Job'),
+   active(true),
+   chunk_size(500),
+   description('This job enables messaging consent changes to send confirmation messages via the Engage Connect server'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.engage.messaging.whatsapp.jobs.EngageConnectWhatsAppKeywordJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

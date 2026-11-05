@@ -1,0 +1,6 @@
+Picklistentry gt-18__v (
+   value('Izabal'),
+   order(1797),
+   active(true),
+   controlling_entries('gt__v')
+);

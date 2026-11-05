@@ -1,0 +1,6 @@
+Message only_digits_error__v (
+   label(),
+   active(true),
+   default_value('Please enter only digits.'),
+   system_managed(false)
+);

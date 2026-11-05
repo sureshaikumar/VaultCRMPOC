@@ -1,0 +1,4 @@
+Typefield key_message_version__v (
+   source('custom'),
+   required(false)
+);

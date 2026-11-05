@@ -1,0 +1,8 @@
+RECREATE Objectaction expense_header__v.submit_to_concur__v (
+   label('Submit To Concur'),
+   description('Action that saves an expense and submits it to Concur'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.SubmitToConcurAction'),
+   active(true),
+   available_all_states(true)
+);

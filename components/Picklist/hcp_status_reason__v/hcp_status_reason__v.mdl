@@ -1,0 +1,12 @@
+RECREATE Picklist hcp_status_reason__v (
+   label('HCP Status Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/prcaf__v.mdl),
+   Picklistentry(@Picklistentry/prcnaf__v.mdl),
+   Picklistentry(@Picklistentry/npract__v.mdl),
+   Picklistentry(@Picklistentry/ret__v.mdl),
+   Picklistentry(@Picklistentry/decs__v.mdl),
+   Picklistentry(@Picklistentry/npnc__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

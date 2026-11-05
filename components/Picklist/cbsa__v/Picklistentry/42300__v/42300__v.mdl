@@ -1,0 +1,5 @@
+Picklistentry 42300__v (
+   value('Sault Ste. Marie, MI Micropolitan Statistical Area'),
+   order(425),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry phn (
+   value('Phoenician'),
+   order(284),
+   active(true)
+);

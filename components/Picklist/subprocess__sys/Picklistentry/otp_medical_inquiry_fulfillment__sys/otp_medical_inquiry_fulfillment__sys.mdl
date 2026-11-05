@@ -1,0 +1,6 @@
+Picklistentry otp_medical_inquiry_fulfillment__sys (
+   value('Medical Inquiry Fulfillment'),
+   order(97),
+   active(true),
+   controlling_entries('olc_call__sys')
+);

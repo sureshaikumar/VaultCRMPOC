@@ -1,0 +1,6 @@
+Message activity_state__v (
+   label(),
+   active(true),
+   default_value('Activity State'),
+   system_managed(false)
+);

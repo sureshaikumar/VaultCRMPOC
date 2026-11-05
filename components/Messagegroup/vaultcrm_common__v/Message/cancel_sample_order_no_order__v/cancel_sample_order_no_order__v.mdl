@@ -1,0 +1,6 @@
+Message cancel_sample_order_no_order__v (
+   label(),
+   active(true),
+   default_value('The Sample Send Order has yet to be created or is no longer in process.  Please review your selections and try again.'),
+   system_managed(false)
+);

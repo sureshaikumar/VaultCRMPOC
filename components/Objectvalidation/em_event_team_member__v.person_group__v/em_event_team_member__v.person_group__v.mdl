@@ -1,0 +1,9 @@
+RECREATE Objectvalidation em_event_team_member__v.person_group__v (
+   label('Person or Group'),
+   active(true),
+   expression('Or( Not(isBlank(team_member__v)) && isBlank(group_name__v), isBlank(team_member__v) && Not(isBlank(group_name__v)), isBlank(team_member__v) && isBlank(group_name__v))'),
+   description('Please select a person or a group'),
+   error_message('Please select a person or a group'),
+   error_location('group_name__v',
+      'team_member__v')
+);

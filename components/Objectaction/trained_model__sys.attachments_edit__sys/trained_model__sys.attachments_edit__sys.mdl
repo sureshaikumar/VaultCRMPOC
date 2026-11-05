@@ -1,0 +1,8 @@
+RECREATE Objectaction trained_model__sys.attachments_edit__sys (
+   label('Attachments: Edit Descriptions'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.AttachmentsEdit'),
+   active(true),
+   available_all_states(true)
+);

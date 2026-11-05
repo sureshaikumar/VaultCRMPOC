@@ -1,0 +1,4 @@
+Typefield comment_allowed__sys (
+   source('standard'),
+   required(true)
+);

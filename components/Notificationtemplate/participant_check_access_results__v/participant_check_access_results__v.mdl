@@ -1,0 +1,17 @@
+RECREATE Notificationtemplate participant_check_access_results__v (
+   label('Participant Check Access Results'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Participant Access Check Results'),
+   notification('<b><p>${total_access_violation_users__sys} users have insufficient document role membership</p></b>
+<br/>
+<b><p>${participant_group__sys}</p></b>
+<br/>
+${user_access_violation_messages__sys}
+<br/>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

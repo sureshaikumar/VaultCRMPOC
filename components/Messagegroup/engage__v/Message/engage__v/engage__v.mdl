@@ -1,0 +1,6 @@
+Message engage__v (
+   label(),
+   active(true),
+   default_value('consent for the account before sending a presentation.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry face_to_face__v (
+   value('In-person'),
+   order(0),
+   active(true)
+);

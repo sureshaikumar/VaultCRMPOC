@@ -1,0 +1,22 @@
+Field contract_length__v (
+   label('Contract Length'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(1),
+   scale(0),
+   help_content('Used to define the length of a contract in months.'),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry hpbal__v (
+   value('Hepato-Pancreato-Biliary and Liver Transplant Surgery'),
+   order(698),
+   active(true),
+   controlling_entries('pk__v')
+);

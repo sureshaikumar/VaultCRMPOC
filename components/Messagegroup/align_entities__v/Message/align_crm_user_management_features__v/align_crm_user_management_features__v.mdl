@@ -1,0 +1,6 @@
+Message align_crm_user_management_features__v (
+   label(),
+   active(true),
+   default_value('This User Management feature is not Mastered by Align. Update the Align Integrations ''User Management Features'' Setting to master this feature.'),
+   system_managed(false)
+);

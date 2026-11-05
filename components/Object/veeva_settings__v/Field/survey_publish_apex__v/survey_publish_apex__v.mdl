@@ -1,0 +1,19 @@
+Field survey_publish_apex__v (
+   label('Survey Publish Apex'),
+   type('String'),
+   active(true),
+   description('Fill in with the name of the Apex Class to be used when publishing a survey. This Apex Class must be a subclass of BATCH_SURVEY_PUBLISH_ABSTRACT. If the field is empty, VEEVA_BATCH_SURVEY_PUBLISH will be used to publish a survey.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(281),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

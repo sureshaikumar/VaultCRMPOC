@@ -1,0 +1,4 @@
+Typefield account_hierarchy_page__v (
+   source('standard'),
+   required(false)
+);

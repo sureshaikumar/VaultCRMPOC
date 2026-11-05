@@ -1,0 +1,10 @@
+RECREATE Picklist meeting_request_status__v (
+   label('Meeting Request Status'),
+   active(true),
+   Picklistentry(@Picklistentry/requested__v.mdl),
+   Picklistentry(@Picklistentry/accepted__v.mdl),
+   Picklistentry(@Picklistentry/declined__v.mdl),
+   Picklistentry(@Picklistentry/reschedule_requested__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

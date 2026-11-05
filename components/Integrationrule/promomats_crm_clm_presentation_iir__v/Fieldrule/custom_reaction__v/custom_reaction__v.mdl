@@ -1,0 +1,15 @@
+Fieldrule custom_reaction__v (
+   label('Custom Reaction'),
+   active(true),
+   query_object('documents'),
+   query_field('crm_custom_reaction__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.custom_reaction__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_text__sys'),
+   target_field_lookup()
+);

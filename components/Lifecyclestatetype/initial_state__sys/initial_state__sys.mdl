@@ -1,0 +1,11 @@
+RECREATE Lifecyclestatetype initial_state__sys (
+   label('Initial State'),
+   active(true),
+   description(),
+   document_lifecycle(),
+   label_message_key('base:object_lifecycle:initial_state_type'),
+   lifecycle_scope('AppliesToAll'),
+   lifecycle_type('Object'),
+   object_lifecycle(),
+   state_required(true)
+);

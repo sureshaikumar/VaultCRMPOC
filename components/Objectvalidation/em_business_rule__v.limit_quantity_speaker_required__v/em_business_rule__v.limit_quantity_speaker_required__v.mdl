@@ -1,0 +1,9 @@
+RECREATE Objectvalidation em_business_rule__v.limit_quantity_speaker_required__v (
+   label('Limit Quantity Required'),
+   active(true),
+   expression('
+        object_type__vr.api_name__v != "em_cross_event_per_speaker_engagement__v" || Not(IsBlank(limit_quantity__v))'),
+   description('limit_quantity__v is not added to the Event Business Rule.'),
+   error_message('This field is required.'),
+   error_location('limit_quantity__v')
+);

@@ -1,0 +1,18 @@
+Field delivery_order__v (
+   label('Delivery Order'),
+   type('Boolean'),
+   active(true),
+   description('If set to true, normal pricing logic is disabled. It is automatically set on all Delivery Orders.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(28),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

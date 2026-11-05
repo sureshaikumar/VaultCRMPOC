@@ -1,0 +1,6 @@
+Message date__v (
+   label(),
+   active(true),
+   default_value('Date'),
+   system_managed(false)
+);

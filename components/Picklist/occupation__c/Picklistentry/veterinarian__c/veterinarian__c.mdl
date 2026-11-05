@@ -1,0 +1,5 @@
+Picklistentry veterinarian__c (
+   value('Veterinarian'),
+   order(13),
+   active(true)
+);

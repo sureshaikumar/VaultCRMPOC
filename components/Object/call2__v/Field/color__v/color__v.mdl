@@ -1,0 +1,18 @@
+Field color__v (
+   label('Color'),
+   type('Picklist'),
+   active(true),
+   description('The user-selectable color for a call, as visible in VMobile.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(45),
+   multi_value(false),
+   picklist('Picklist.call2_color__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

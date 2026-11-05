@@ -1,0 +1,5 @@
+Picklistentry aws_bedrock__sys (
+   value('AWS Bedrock'),
+   order(0),
+   active(true)
+);

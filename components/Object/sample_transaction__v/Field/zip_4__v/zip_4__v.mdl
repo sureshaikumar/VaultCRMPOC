@@ -1,0 +1,19 @@
+Field zip_4__v (
+   label('Zip 4'),
+   type('String'),
+   active(true),
+   description('This is the zip 4 of the Address for Return Transfer and Disbursement Sample Transactions. For a Transfer To Sample Transaction this field is auto-populated based on the Selected Transfer To user and their corresponding record in the Rep Roster.'),
+   required(false),
+   unique(false),
+   max_length(4),
+   help_content(),
+   list_column(false),
+   order(70),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

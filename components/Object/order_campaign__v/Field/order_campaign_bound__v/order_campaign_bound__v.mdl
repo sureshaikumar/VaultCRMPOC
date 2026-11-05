@@ -1,0 +1,18 @@
+Field order_campaign_bound__v (
+   label('Order Campaign Bound'),
+   type('Boolean'),
+   active(true),
+   description('If checked, then only pricing rules from this campaign can be applied to Order Lines. If unchecked, then pricing rules that have no specified campaign can also be applied.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

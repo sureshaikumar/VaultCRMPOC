@@ -1,0 +1,5 @@
+Picklistentry tsf__v (
+   value('Territory Field'),
+   order(2),
+   active(true)
+);

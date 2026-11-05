@@ -1,0 +1,15 @@
+Vsmrelationship manager__v (
+   label('Manager'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The person who is this individual''s direct manager or supervisor, linking to another Person record. Use this to filter persons by their manager or traverse the organizational hierarchy (e.g., manager__sysr.name__v = ''Jane Smith'').'),
+   join_object(),
+   synonyms('manager',
+         'supervisor',
+         'reports to',
+         'direct manager',
+         'boss'),
+   target('manager__sysr'),
+   target_label('Manager'),
+   target_object('person__sys')
+);

@@ -1,0 +1,6 @@
+Message not_apply_to_mdl_settings__v (
+   label(),
+   active(true),
+   default_value('This value does not apply to model align settings.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_argentina_san_luis__sys (
+   value('(GMT-03:00) Argentine Time (America/Argentina/San_Luis)'),
+   order(109),
+   active(true)
+);

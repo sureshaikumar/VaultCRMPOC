@@ -1,0 +1,6 @@
+Picklistentry th-46__v (
+   value('Kalasin'),
+   order(4362),
+   active(true),
+   controlling_entries('th__v')
+);

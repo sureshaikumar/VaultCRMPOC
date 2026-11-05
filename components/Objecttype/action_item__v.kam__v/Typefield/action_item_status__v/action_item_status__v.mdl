@@ -1,0 +1,6 @@
+Typefield action_item_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.action_item_status__v.completed__v',
+         'Picklist.action_item_status__v.pending__v')
+);

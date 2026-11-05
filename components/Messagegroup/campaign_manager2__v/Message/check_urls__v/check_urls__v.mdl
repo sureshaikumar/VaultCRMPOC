@@ -1,0 +1,6 @@
+Message check_urls__v (
+   label(),
+   active(true),
+   default_value('Check URLs'),
+   system_managed(false)
+);

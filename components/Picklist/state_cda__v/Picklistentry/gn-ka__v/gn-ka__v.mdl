@@ -1,0 +1,6 @@
+Picklistentry gn-ka__v (
+   value('Kankan Prefecture'),
+   order(1733),
+   active(true),
+   controlling_entries('gn__v')
+);

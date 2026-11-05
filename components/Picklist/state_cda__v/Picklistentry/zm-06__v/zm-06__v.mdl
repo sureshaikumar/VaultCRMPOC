@@ -1,0 +1,6 @@
+Picklistentry zm-06__v (
+   value('North-Western'),
+   order(5031),
+   active(true),
+   controlling_entries('zm__v')
+);

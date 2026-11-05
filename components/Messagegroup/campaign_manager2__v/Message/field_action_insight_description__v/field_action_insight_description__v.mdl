@@ -1,0 +1,6 @@
+Message field_action_insight_description__v (
+   label(),
+   active(true),
+   default_value('Share information with field users'),
+   system_managed(false)
+);

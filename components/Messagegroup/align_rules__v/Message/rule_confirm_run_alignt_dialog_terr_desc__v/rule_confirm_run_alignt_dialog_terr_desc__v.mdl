@@ -1,0 +1,6 @@
+Message rule_confirm_run_alignt_dialog_terr_desc__v (
+   label(),
+   active(true),
+   default_value('The Preview will display assignment counts for {0} only.'),
+   system_managed(false)
+);

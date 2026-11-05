@@ -1,0 +1,18 @@
+Field campaign_time_zone__v (
+   label('Campaign Time Zone'),
+   type('Picklist'),
+   active(true),
+   description('Time Zone used to aggregate campaign performance data'),
+   required(false),
+   unique(false),
+   help_content('Time Zone of the Campaign used for Reporting aggregation'),
+   list_column(false),
+   order(30),
+   multi_value(false),
+   picklist('Picklist.timezone__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

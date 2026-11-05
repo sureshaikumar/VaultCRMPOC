@@ -1,0 +1,11 @@
+Vsmfield license_type__v (
+   label('License Type'),
+   active(true),
+   description('Determines the type of Vault license the user consumes (e.g., Full User, Read-only).'),
+   example_values(),
+   synonyms(),
+   target('license_type__sys'),
+   target_label('License Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

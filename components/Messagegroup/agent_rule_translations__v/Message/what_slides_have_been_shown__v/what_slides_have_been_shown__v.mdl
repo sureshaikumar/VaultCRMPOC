@@ -1,0 +1,6 @@
+Message what_slides_have_been_shown__v (
+   label(),
+   active(true),
+   default_value('What slides have been shown most this week?'),
+   system_managed(false)
+);

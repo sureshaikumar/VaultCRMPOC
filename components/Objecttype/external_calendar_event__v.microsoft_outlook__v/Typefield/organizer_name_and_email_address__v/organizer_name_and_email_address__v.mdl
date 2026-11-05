@@ -1,0 +1,4 @@
+Typefield organizer_name_and_email_address__v (
+   source('custom'),
+   required(false)
+);

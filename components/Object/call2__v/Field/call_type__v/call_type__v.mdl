@@ -1,0 +1,18 @@
+Field call_type__v (
+   label('Call Type'),
+   type('Picklist'),
+   active(true),
+   description('Type of call which is system maintained based on the type and contents of the call. This field is used for reporting purposes. Valid values are:  Detail Only, Detail with Sample, Group Detail, Group Detail with Sample, Sample Only. These values should not'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(34),
+   multi_value(false),
+   picklist('Picklist.call2_call_type__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

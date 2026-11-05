@@ -1,0 +1,6 @@
+Picklistentry iq-wa__v (
+   value('Wāsiţ'),
+   order(2051),
+   active(true),
+   controlling_entries('iq__v')
+);

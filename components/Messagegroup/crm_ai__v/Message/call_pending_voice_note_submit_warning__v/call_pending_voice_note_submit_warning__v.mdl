@@ -1,0 +1,6 @@
+Message call_pending_voice_note_submit_warning__v (
+   label(),
+   active(true),
+   default_value('You have a pending voice note that has not been added to your call. Submitting your call will discard it. Do you want to submit?'),
+   system_managed(false)
+);

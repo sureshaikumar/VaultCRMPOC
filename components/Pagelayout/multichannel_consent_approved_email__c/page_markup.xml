@@ -1,0 +1,33 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.multichannel_consent__v.approved_email__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="account__v" />
+            <vault:field reference="channel_value__v" />
+            <vault:field reference="consent_line__v" />
+            <vault:field reference="default_consent_text_file__v" />
+            <vault:field reference="consent_type__v" />
+            <vault:field reference="content_type__v" />
+            <vault:field reference="disclaimer_text_file__v" />
+            <vault:field reference="id" />
+            <vault:field reference="opt_type__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="signature__v" />
+            <vault:field reference="signature_datetime__v" />
+            <vault:field reference="signature_id__v" />
+            <vault:field reference="capture_datetime__v" />
+            <vault:field reference="consent_header__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="receipt_sent_email__v" />
+            <vault:field reference="channel_source__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,6 @@
+Message priority_1_segment_lock_tooltip__v (
+   label(),
+   active(true),
+   default_value('Priority 1 segment cannot be removed'),
+   system_managed(false)
+);

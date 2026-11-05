@@ -1,0 +1,6 @@
+Message add_targets_to_select_territory_alert__v (
+   label(),
+   active(true),
+   default_value('Add targets to select parent territory'),
+   system_managed(false)
+);

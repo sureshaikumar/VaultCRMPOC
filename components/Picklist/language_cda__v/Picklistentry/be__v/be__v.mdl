@@ -1,0 +1,5 @@
+Picklistentry be__v (
+   value('Belarusian'),
+   order(5),
+   active(true)
+);

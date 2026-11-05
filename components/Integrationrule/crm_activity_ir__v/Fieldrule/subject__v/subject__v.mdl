@@ -1,0 +1,15 @@
+Fieldrule subject__v (
+   label('Subject'),
+   active(true),
+   query_object('crm_activity__v'),
+   query_field('subject__v'),
+   target_object('Object.call2__v'),
+   target_object_field('Field.subject__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_text__sys'),
+   target_field_lookup()
+);

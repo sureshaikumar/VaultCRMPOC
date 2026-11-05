@@ -1,0 +1,20 @@
+Field call_reminder__v (
+   label('Call Reminder'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(202),
+   no_copy(true),
+   lookup_relationship_name('account__vr'),
+   lookup_source_field('call_reminder__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   format_mask(),
+   control_binding()
+);

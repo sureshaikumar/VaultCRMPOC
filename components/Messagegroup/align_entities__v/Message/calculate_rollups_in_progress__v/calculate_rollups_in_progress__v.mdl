@@ -1,0 +1,6 @@
+Message calculate_rollups_in_progress__v (
+   label(),
+   active(true),
+   default_value('Calculating rollups. Last Modified Date of each record will be updated once its calculations are complete.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message am_see_crm_help__v (
+   label(),
+   active(true),
+   default_value('See {0}CRM Help{1} for more details.'),
+   system_managed(false)
+);

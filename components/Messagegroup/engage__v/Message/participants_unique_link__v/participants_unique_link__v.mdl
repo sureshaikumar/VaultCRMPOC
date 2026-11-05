@@ -1,0 +1,6 @@
+Message participants_unique_link__v (
+   label(),
+   active(true),
+   default_value('Participant''s Unique Link'),
+   system_managed(false)
+);

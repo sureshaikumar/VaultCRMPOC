@@ -1,0 +1,4 @@
+Typefield ctrl_product__v (
+   source('standard'),
+   required(false)
+);

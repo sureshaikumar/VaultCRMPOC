@@ -1,0 +1,5 @@
+Picklistentry america_st_johns__v (
+   value('Newfoundland Time'),
+   order(88),
+   active(true)
+);

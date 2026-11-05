@@ -1,0 +1,6 @@
+Message no_tasks__v (
+   label(),
+   active(true),
+   default_value('No Tasks'),
+   system_managed(false)
+);

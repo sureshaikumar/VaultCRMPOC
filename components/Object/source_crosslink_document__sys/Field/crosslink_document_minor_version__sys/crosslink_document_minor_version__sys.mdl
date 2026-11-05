@@ -1,0 +1,19 @@
+Field crosslink_document_minor_version__sys (
+   label('CrossLink Document Minor Version'),
+   type('String'),
+   active(true),
+   description('The minor version of the CrossLink document.'),
+   required(true),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

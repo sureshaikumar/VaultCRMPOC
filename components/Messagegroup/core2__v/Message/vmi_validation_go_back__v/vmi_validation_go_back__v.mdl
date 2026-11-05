@@ -1,0 +1,6 @@
+Message vmi_validation_go_back__v (
+   label(),
+   active(true),
+   default_value('Go Back'),
+   system_managed(false)
+);

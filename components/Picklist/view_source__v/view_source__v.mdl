@@ -1,0 +1,8 @@
+RECREATE Picklist view_source__v (
+   label('Source'),
+   active(true),
+   Picklistentry(@Picklistentry/account__v.mdl),
+   Picklistentry(@Picklistentry/account_location__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message deactivation_error__v (
+   label(),
+   active(true),
+   default_value('Error Deactivating ${target_list_name}'),
+   system_managed(false)
+);

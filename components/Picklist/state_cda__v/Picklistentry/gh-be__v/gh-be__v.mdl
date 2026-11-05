@@ -1,0 +1,6 @@
+Picklistentry gh-be__v (
+   value('Bono East'),
+   order(1691),
+   active(true),
+   controlling_entries('gh__v')
+);

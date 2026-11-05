@@ -1,0 +1,23 @@
+Field discount_override__v (
+   label('Discount Override'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Discount to be applied by the system, in percent (%)'),
+   required(false),
+   unique(false),
+   max_value(9.9999),
+   min_value(-9.9999),
+   scale(4),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

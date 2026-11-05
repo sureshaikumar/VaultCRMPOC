@@ -1,0 +1,5 @@
+Picklistentry 45000__v (
+   value('Susanville, CA Micropolitan Statistical Area'),
+   order(11),
+   active(true)
+);

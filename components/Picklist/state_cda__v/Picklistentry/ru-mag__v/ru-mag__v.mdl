@@ -1,0 +1,6 @@
+Picklistentry ru-mag__v (
+   value('Magadanskaya oblast'''),
+   order(3828),
+   active(true),
+   controlling_entries('ru__v')
+);

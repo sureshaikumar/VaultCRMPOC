@@ -1,0 +1,6 @@
+Message rate_assignment_duplicate_error__v (
+   label(),
+   active(true),
+   default_value('These changes were not applied because they resulted in a duplicate record: ${rate_assignment_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message changes_business_acc_not_saved_try_later__v (
+   label(),
+   active(true),
+   default_value('Changes made to this Messaging Business Account could not be saved. Try again later.'),
+   system_managed(false)
+);

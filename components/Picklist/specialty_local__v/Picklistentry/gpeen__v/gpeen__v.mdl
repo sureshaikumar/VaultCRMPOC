@@ -1,0 +1,7 @@
+Picklistentry gpeen__v (
+   value('General Pediatrics'),
+   order(605),
+   active(true),
+   controlling_entries('au__v',
+         'my__v')
+);

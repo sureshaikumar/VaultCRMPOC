@@ -1,0 +1,14 @@
+Picklistentry pheed__v (
+   value('Pediatric Hematology'),
+   order(1385),
+   active(true),
+   controlling_entries('au__v',
+         'bw__v',
+         'ge__v',
+         'kg__v',
+         'kw__v',
+         'lb__v',
+         'ph__v',
+         'th__v',
+         'ua__v')
+);

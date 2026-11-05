@@ -1,0 +1,4 @@
+Typefield plan_tactic_progress__v (
+   source('standard'),
+   required(false)
+);

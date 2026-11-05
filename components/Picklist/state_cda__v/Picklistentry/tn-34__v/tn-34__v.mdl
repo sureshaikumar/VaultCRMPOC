@@ -1,0 +1,6 @@
+Picklistentry tn-34__v (
+   value('Siliana'),
+   order(4440),
+   active(true),
+   controlling_entries('tn__v')
+);

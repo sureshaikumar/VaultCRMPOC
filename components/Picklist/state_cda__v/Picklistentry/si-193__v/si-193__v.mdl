@@ -1,0 +1,6 @@
+Picklistentry si-193__v (
+   value('Žužemberk'),
+   order(4166),
+   active(true),
+   controlling_entries('si__v')
+);

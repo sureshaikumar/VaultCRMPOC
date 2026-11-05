@@ -1,0 +1,6 @@
+Sdkbatchjobaction align_pagelinks_and_tabs_job__v (
+   job_metadata('Jobmetadata.align_pagelinks_and_tabs_job__v'),
+   label('Align Pagelinks and Tabs Updates'),
+   parameters(),
+   primary_action(true)
+);

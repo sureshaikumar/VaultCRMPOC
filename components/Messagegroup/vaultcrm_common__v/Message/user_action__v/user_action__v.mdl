@@ -1,0 +1,6 @@
+Message user_action__v (
+   label(),
+   active(true),
+   default_value('Manage'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ua-23__v (
+   value('Zaporizka oblast'),
+   order(4623),
+   active(true),
+   controlling_entries('ua__v')
+);

@@ -1,0 +1,6 @@
+Message voice_note_delete_warning__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to delete? The audio and transcript will be permanently deleted.'),
+   system_managed(false)
+);

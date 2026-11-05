@@ -1,0 +1,9 @@
+Vsmvalue djf__v (
+   label('DJF'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Djibouti.'),
+   synonyms('Djiboutian Franc',
+         'Djibouti Franc'),
+   target('djf__sys'),
+   target_label('DJF')
+);

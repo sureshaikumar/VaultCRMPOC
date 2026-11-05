@@ -1,0 +1,20 @@
+Field call_child_where__v (
+   label('CALL_CHILD_WHERE'),
+   type('String'),
+   active(true),
+   description('This setting is no longer used by the application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(46),
+   default_value('"CALL_CHILD_WHERE;;MOBILE_SOQL"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

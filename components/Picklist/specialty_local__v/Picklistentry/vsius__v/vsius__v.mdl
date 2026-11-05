@@ -1,0 +1,7 @@
+Picklistentry vsius__v (
+   value('Visceral Surgery'),
+   order(1921),
+   active(true),
+   controlling_entries('cm__v',
+         'de__v')
+);

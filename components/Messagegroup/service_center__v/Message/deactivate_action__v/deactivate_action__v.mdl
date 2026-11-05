@@ -1,0 +1,6 @@
+Message deactivate_action__v (
+   label(),
+   active(true),
+   default_value('Deactivate List'),
+   system_managed(false)
+);

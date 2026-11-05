@@ -1,0 +1,6 @@
+Picklistentry cz-311__v (
+   value('České Budějovice'),
+   order(828),
+   active(true),
+   controlling_entries('cz__v')
+);

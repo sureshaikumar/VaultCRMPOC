@@ -1,0 +1,6 @@
+Picklistentry mr-09__v (
+   value('Tagant'),
+   order(3100),
+   active(true),
+   controlling_entries('mr__v')
+);

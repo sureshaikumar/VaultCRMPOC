@@ -1,0 +1,6 @@
+Message device_push_notifications_toggle_info__v (
+   label(),
+   active(true),
+   default_value('Controls whether Vault CRM can send push notifications to your device. Turning this on may prompt iOS to ask you to enable device notifications.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message please_try_refreshing_the_page__v (
+   label(),
+   active(true),
+   default_value('Please try refreshing the page, or contact your administrator'),
+   system_managed(false)
+);

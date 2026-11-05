@@ -1,0 +1,6 @@
+Picklistentry tr-80__v (
+   value('Osmaniye'),
+   order(4538),
+   active(true),
+   controlling_entries('tr__v')
+);

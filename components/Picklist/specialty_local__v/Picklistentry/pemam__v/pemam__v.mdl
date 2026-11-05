@@ -1,0 +1,8 @@
+Picklistentry pemam__v (
+   value('Paediatric Emergency Medicine'),
+   order(1254),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v',
+         'ng__v')
+);

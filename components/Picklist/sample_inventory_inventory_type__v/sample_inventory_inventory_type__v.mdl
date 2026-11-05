@@ -1,0 +1,11 @@
+RECREATE Picklist sample_inventory_inventory_type__v (
+   label('Inventory Type'),
+   active(true),
+   Picklistentry(@Picklistentry/monthly__v.mdl),
+   Picklistentry(@Picklistentry/quarterly__v.mdl),
+   Picklistentry(@Picklistentry/year_end__v.mdl),
+   Picklistentry(@Picklistentry/close_out__v.mdl),
+   Picklistentry(@Picklistentry/annual__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

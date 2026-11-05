@@ -1,0 +1,6 @@
+Picklistentry bf-yag__v (
+   value('Yagha'),
+   order(368),
+   active(true),
+   controlling_entries('bf__v')
+);

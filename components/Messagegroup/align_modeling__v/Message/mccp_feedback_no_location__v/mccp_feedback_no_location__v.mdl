@@ -1,0 +1,6 @@
+Message mccp_feedback_no_location__v (
+   label(),
+   active(true),
+   default_value('No Location'),
+   system_managed(false)
+);

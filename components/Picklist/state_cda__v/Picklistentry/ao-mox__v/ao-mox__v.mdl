@@ -1,0 +1,6 @@
+Picklistentry ao-mox__v (
+   value('Moxico'),
+   order(93),
+   active(true),
+   controlling_entries('ao__v')
+);

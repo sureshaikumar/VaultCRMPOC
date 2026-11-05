@@ -1,0 +1,20 @@
+Field patient_result_card_fields__v (
+   label('Patient Result Card Fields'),
+   type('String'),
+   active(true),
+   description('Defines up to 5 Patient Attribute (patient_attribute__v) fields to display on patient search result cards in the Patient Search tab, in the order listed. Enter as a double semicolon (;;)-delimited list, for example: patient_attribute__v.fieldname__v;;patient_attribute__v.fieldname__v'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Patient Attributes Object (patient_attributes__v) fields to display in the Patient Search tab on patient search result cards (maximum 5). Fields are rendered in the order listed. Format fieldname__v;;fieldname__v;;fieldname__v'),
+   list_column(false),
+   order(22),
+   default_value('"patient_attribute__v.home_phone__v;;patient_attribute__v.mobile_phone__v;;patient_attribute__v.email__v;;patient_attribute__v.date_of_birth__v;;patient_attribute__v.address__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

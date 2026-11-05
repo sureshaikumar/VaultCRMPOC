@@ -1,0 +1,10 @@
+Vsmvalue gmd__v (
+   label('GMD'),
+   active(true),
+   description('The Gambian Dalasi (GMD), the official currency of The Gambia, used for transactions and financial records involving business operations in The Gambia.'),
+   synonyms('Gambian dalasi',
+         'dalasi',
+         'Gambia currency'),
+   target('gmd__sys'),
+   target_label('GMD')
+);

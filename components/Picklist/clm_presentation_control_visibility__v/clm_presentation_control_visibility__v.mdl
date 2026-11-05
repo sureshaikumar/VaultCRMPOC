@@ -1,0 +1,8 @@
+RECREATE Picklist clm_presentation_control_visibility__v (
+   label('Control Visibility'),
+   active(true),
+   Picklistentry(@Picklistentry/product__v.mdl),
+   Picklistentry(@Picklistentry/detail_group__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

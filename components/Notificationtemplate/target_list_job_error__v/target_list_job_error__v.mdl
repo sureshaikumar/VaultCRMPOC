@@ -1,0 +1,30 @@
+RECREATE Notificationtemplate target_list_job_error__v (
+   label('Target List Job Completed Error'),
+   active(true),
+   description('Notifies the user their Target List Job completed with errors'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.campaign__v'),
+   subject('Target List Job Completed with Errors - ${Custom.campaign_name}'),
+   notification('Your Target List Job has completed with errors<br/>
+    Details:<br/>
+    <ul>
+       <li>Campaign Name: ${Custom.campaign_name}</li>
+       <li>Successes: ${Custom.success_count}</li>
+       <li>Failures: ${Custom.error_count}</li>
+       <li>Job Start Time: ${Custom.start_time}</li>
+       <li>Job Duration: ${Custom.duration}</li>
+       <li>CSV File: <a href=${uiBaseExtUrl}/proxy/jobs/${Custom.job_id}/sdk/${Custom.hyphenated_campaign_name}_${Custom.job_type}_${Custom.job_id}.csv?ttl=7>${Custom.hyphenated_campaign_name}_${Custom.job_type}_${Custom.job_id}.csv</a></li>
+    </ul>'),
+   email_body('Your Target List Job has completed with errors<br/>
+    Details:<br/>
+    <ul>
+       <li>Campaign Name: ${Custom.campaign_name}</li>
+       <li>Successes: ${Custom.success_count}</li>
+       <li>Failures: ${Custom.error_count}</li>
+       <li>Job Start Time: ${Custom.start_time}</li>
+       <li>Job Duration: ${Custom.duration}</li>
+       <li>CSV File: <a href=${uiBaseExtUrl}/?error-job-id=${Custom.job_id}&error-job-type=${Custom.job_type}&error-campaign-name=${Custom.hyphenated_campaign_name}&tab-collection=campaign_manager__v#app/page/campaigns?ui-tab=${Custom.tab_id}>${Custom.hyphenated_campaign_name}_${Custom.job_type}_${Custom.job_id}.csv</a></li>
+    </ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

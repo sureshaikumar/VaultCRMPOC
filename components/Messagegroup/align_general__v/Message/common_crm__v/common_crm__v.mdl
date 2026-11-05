@@ -1,0 +1,6 @@
+Message common_crm__v (
+   label(),
+   active(true),
+   default_value('Veeva CRM'),
+   system_managed(false)
+);

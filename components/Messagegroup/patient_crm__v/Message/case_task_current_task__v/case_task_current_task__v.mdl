@@ -1,0 +1,6 @@
+Message case_task_current_task__v (
+   label(),
+   active(true),
+   default_value('${assignee} is working on ${task_label}'),
+   system_managed(false)
+);

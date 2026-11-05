@@ -1,0 +1,6 @@
+Picklistentry gb-dal__v (
+   value('Darlington'),
+   order(1495),
+   active(true),
+   controlling_entries('gb__v')
+);

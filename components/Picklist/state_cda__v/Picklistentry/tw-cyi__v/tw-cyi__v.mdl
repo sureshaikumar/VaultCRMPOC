@@ -1,0 +1,6 @@
+Picklistentry tw-cyi__v (
+   value('Chiayi City'),
+   order(4564),
+   active(true),
+   controlling_entries('tw__v')
+);

@@ -1,0 +1,19 @@
+Field business_event_status__v (
+   label('Business Event Status'),
+   type('Picklist'),
+   active(true),
+   description('Status of the Business Event'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(22),
+   multi_value(false),
+   picklist('Picklist.business_event_status__v'),
+   default_value('{not_started__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry olc_venue__sys (
+   value('Venue'),
+   order(93),
+   active(true)
+);

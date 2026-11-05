@@ -1,0 +1,6 @@
+Message rule_record_and_remove_section__v (
+   label(),
+   active(true),
+   default_value('Remove Section'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field sent_fax_date__v (
+   label('Sent Date'),
+   type('DateTime'),
+   active(true),
+   description('Datetime of when the fax was sent.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

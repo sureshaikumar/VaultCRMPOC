@@ -1,0 +1,23 @@
+Field enhanced_lookups__v (
+   label('Enable Enhanced Lookups'),
+   type('Number'),
+   active(true),
+   description('Setting will enable Enhanced Lookup Dialogs & Filters. Please see documentation for more information.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(168),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

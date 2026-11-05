@@ -1,0 +1,6 @@
+Picklistentry ph-pam__v (
+   value('Pampanga'),
+   order(3592),
+   active(true),
+   controlling_entries('ph__v')
+);

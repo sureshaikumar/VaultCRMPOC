@@ -1,0 +1,6 @@
+Picklistentry bg-20__v (
+   value('Sliven'),
+   order(392),
+   active(true),
+   controlling_entries('bg__v')
+);

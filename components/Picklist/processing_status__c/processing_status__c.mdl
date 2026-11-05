@@ -1,0 +1,9 @@
+RECREATE Picklist processing_status__c (
+   label('Processing Status'),
+   active(true),
+   Picklistentry(@Picklistentry/pending__c.mdl),
+   Picklistentry(@Picklistentry/success__c.mdl),
+   Picklistentry(@Picklistentry/failure__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

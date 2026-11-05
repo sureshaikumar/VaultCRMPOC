@@ -1,0 +1,5 @@
+Picklistentry hgor__v (
+   value('Hospital Group'),
+   order(115),
+   active(true)
+);

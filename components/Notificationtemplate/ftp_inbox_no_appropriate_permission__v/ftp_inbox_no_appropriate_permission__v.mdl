@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate ftp_inbox_no_appropriate_permission__v (
+   label('No Appropriate Permission'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Insufficient permission - "${fileName}" not uploaded to "${docNameNoLink}"'),
+   notification('Error uploading "${fileName}" to "${docLatestName}". You must have view document, view content, and edit fields permission for the latest version of this document (viewable rendition uploads also require manage viewable rendition permission).'),
+   email_body('<b>Vault: </b>${vaultName}
+<br><b>File: </b>"${fileName}"
+<p>There was an error uploading "${fileName}" to "${docLatestName}". You must have view document, view content, and edit fields permission for the latest version of this document (viewable rendition uploads also require manage viewable rendition permission).</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

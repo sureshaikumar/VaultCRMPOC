@@ -1,0 +1,6 @@
+Picklistentry ch-ow__v (
+   value('Obwalden'),
+   order(641),
+   active(true),
+   controlling_entries('ch__v')
+);

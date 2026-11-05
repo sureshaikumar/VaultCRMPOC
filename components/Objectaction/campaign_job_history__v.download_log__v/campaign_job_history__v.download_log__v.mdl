@@ -1,0 +1,8 @@
+RECREATE Objectaction campaign_job_history__v.download_log__v (
+   label('Download Log'),
+   description('Download Log'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.approvedemail.actions.DownloadCsvAction'),
+   active(true),
+   available_all_states(true)
+);

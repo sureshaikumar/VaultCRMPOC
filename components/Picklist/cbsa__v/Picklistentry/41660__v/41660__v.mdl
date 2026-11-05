@@ -1,0 +1,5 @@
+Picklistentry 41660__v (
+   value('San Angelo, TX Metropolitan Statistical Area'),
+   order(329),
+   active(true)
+);

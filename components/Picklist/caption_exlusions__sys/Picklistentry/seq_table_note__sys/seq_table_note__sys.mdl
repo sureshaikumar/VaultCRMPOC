@@ -1,0 +1,5 @@
+Picklistentry seq_table_note__sys (
+   value('SeqTableNote'),
+   order(2),
+   active(true)
+);

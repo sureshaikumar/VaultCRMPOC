@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate config_report_success_2__v (
+   label('Configuration Report Success'),
+   active(true),
+   description('Configuration Report Job Notification success template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Vault Configuration Report has completed'),
+   notification('<p> Your Vault Configuration Report has completed </p><p> Details: </p><ul><li>Include Vault Settings: ${includeVaultSettings} </li><li>Include Document & Binder Templates: ${includeDocumentBinderTemplates} </li><li>Include Inactive Components: ${includeInactiveComponents} </li><li>Suppress Empty Results: ${suppressEmptyResults} </li><li>Include Components Modified Since: ${includeComponentsModifiedSince} </li><li>Output Format: ${outputFormat} </li><li>Start Time: ${startTime} </li><li>Duration: ${duration} </li><li><a href="${reportUrl}">download report</a> </li></ul>'),
+   email_body('<p> Your Vault Configuration Report has completed </p><p> Details: </p><ul><li>Include Vault Settings: ${includeVaultSettings} </li><li>Include Document & Binder Templates: ${includeDocumentBinderTemplates} </li><li>Include Inactive Components: ${includeInactiveComponents} </li><li>Suppress Empty Results: ${suppressEmptyResults} </li><li>Include Components Modified Since: ${includeComponentsModifiedSince} </li><li>Output Format: ${outputFormat} </li><li>Start Time: ${startTime} </li><li>Duration: ${duration} </li><li><a href="${reportUrl}">download report</a> </li></ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

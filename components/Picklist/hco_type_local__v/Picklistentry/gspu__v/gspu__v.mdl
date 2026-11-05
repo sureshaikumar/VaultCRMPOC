@@ -1,0 +1,5 @@
+Picklistentry gspu__v (
+   value('GP Surgery'),
+   order(76),
+   active(true)
+);

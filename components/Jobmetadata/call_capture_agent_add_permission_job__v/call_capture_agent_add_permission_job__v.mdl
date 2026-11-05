@@ -1,0 +1,10 @@
+RECREATE Jobmetadata call_capture_agent_add_permission_job__v (
+   label('Call Capture Agent Add Permission Job'),
+   active(true),
+   chunk_size(1),
+   description('Executes MDL via REST API for the Call Capture Agent'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.callreport.jobs.CallCaptureAgentAddPermissionJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

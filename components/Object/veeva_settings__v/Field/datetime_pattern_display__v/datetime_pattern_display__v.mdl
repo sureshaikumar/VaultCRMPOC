@@ -1,0 +1,19 @@
+Field datetime_pattern_display__v (
+   label('Datetime Pattern Display'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('When populated, defines which datetime display pattern should be used when Salesforce locale cannot be detected. Accepts Oracle SimpleDateFormat only. For e.g., use "MM/dd/YY ''at'' hh:mma z" if the desired display for an en_US user is "12/01/22 at 5:30pm P'),
+   list_column(false),
+   order(77),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+Picklistentry otchc__v (
+   value('Occupational Therapy'),
+   order(1105),
+   active(true),
+   controlling_entries('au__v',
+         'bw__v',
+         'kw__v',
+         'kz__v',
+         'tw__v')
+);

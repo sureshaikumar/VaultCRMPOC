@@ -1,0 +1,6 @@
+Picklistentry es-cm__v (
+   value('Castilla-La Mancha'),
+   order(1208),
+   active(true),
+   controlling_entries('es__v')
+);

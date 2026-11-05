@@ -1,0 +1,5 @@
+Picklistentry by__v (
+   value('Belarus'),
+   order(20),
+   active(true)
+);

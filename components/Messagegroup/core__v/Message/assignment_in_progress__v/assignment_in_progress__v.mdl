@@ -1,0 +1,6 @@
+Message assignment_in_progress__v (
+   label(),
+   active(true),
+   default_value('Assignment In Progress'),
+   system_managed(false)
+);

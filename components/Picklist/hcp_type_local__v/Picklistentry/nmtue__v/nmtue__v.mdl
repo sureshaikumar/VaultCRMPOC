@@ -1,0 +1,5 @@
+Picklistentry nmtue__v (
+   value('Nuclear Medicine Technician'),
+   order(75),
+   active(true)
+);

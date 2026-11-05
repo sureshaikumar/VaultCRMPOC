@@ -1,0 +1,6 @@
+Picklistentry tv-nit__v (
+   value('Niutao'),
+   order(4556),
+   active(true),
+   controlling_entries('tv__v')
+);

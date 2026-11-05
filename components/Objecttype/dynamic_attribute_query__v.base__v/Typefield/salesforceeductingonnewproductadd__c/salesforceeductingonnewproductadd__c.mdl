@@ -1,0 +1,4 @@
+Typefield salesforceeductingonnewproductadd__c (
+   source('standard'),
+   required(false)
+);

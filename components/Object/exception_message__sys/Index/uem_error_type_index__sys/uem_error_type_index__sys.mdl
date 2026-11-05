@@ -1,0 +1,5 @@
+Index uem_error_type_index__sys (
+   description(),
+   fields('error_type__sys'),
+   label('User Exception Message Error Type Index')
+);

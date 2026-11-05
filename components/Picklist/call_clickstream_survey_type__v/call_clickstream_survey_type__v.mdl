@@ -1,0 +1,12 @@
+RECREATE Picklist call_clickstream_survey_type__v (
+   label('Survey Type'),
+   active(true),
+   Picklistentry(@Picklistentry/choose_one__v.mdl),
+   Picklistentry(@Picklistentry/text__v.mdl),
+   Picklistentry(@Picklistentry/choose_many__v.mdl),
+   Picklistentry(@Picklistentry/order__v.mdl),
+   Picklistentry(@Picklistentry/feedback__v.mdl),
+   Picklistentry(@Picklistentry/unknown__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

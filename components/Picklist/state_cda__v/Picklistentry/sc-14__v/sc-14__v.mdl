@@ -1,0 +1,6 @@
+Picklistentry sc-14__v (
+   value('Grand Anse Praslin'),
+   order(3914),
+   active(true),
+   controlling_entries('sc__v')
+);

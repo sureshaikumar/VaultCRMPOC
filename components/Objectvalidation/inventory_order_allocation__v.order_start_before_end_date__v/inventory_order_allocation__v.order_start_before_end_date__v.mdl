@@ -1,0 +1,8 @@
+RECREATE Objectvalidation inventory_order_allocation__v.order_start_before_end_date__v (
+   label('Order Start Date Before End Date'),
+   active(true),
+   expression('IsBlank(order_start_date__v) || IsBlank(order_end_date__v) || order_start_date__v <= order_end_date__v'),
+   description('This validation rule ensures that the Order Start Date always falls before the Order End Date.'),
+   error_message('Order Start Date cannot be after Order End Date'),
+   error_location('order_start_date__v')
+);

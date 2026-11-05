@@ -1,0 +1,6 @@
+Message description_label_target_list__v (
+   label(),
+   active(true),
+   default_value('Description: ${target_list_description}'),
+   system_managed(false)
+);

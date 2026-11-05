@@ -1,0 +1,6 @@
+Picklistentry in-jh__v (
+   value('Jhārkhand'),
+   order(2010),
+   active(true),
+   controlling_entries('in__v')
+);

@@ -1,0 +1,15 @@
+RECREATE Notificationtemplate ftp_inbox_target_document_not_found__v (
+   label('Target Document Not Found'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Document not found - "${fileName}" not uploaded
+'),
+   notification('Error uploading "${fileName}" - the specified document id could not be found.'),
+   email_body('<b>Vault: </b>${vaultName}
+<br><b>File: </b>"${fileName}"
+<p>There was an error uploading "${fileName}" to your vault. The specified document id could not be found.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry pt-18__v (
+   value('Viseu'),
+   order(3671),
+   active(true),
+   controlling_entries('pt__v')
+);

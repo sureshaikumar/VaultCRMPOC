@@ -1,0 +1,6 @@
+Picklistentry uarno__v (
+   value('Urology Andrology'),
+   order(1905),
+   active(true),
+   controlling_entries('id__v')
+);

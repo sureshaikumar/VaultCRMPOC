@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction published_state__v.set_lock_true__v (
+   rule(@rule.xml),
+   order(2000)
+);

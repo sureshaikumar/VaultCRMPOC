@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction saved_state__v.void__v (
+   label('Void'),
+   rule(@rule.xml),
+   order(1000)
+);

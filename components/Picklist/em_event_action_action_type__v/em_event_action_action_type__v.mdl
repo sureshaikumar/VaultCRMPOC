@@ -1,0 +1,12 @@
+RECREATE Picklist em_event_action_action_type__v (
+   label('SFDC Action Type'),
+   active(true),
+   Picklistentry(@Picklistentry/submit_manual__v.mdl),
+   Picklistentry(@Picklistentry/submit_for_approval__v.mdl),
+   Picklistentry(@Picklistentry/submit_auto__v.mdl),
+   Picklistentry(@Picklistentry/recall_approval_request__v.mdl),
+   Picklistentry(@Picklistentry/approve__v.mdl),
+   Picklistentry(@Picklistentry/reject__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

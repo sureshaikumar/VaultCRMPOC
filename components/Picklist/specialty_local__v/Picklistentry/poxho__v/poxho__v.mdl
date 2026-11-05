@@ -1,0 +1,6 @@
+Picklistentry poxho__v (
+   value('Pediatric Oncology and Hemato-oncology'),
+   order(1425),
+   active(true),
+   controlling_entries('ao__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ie-l__v (
+   value('Leinster'),
+   order(1972),
+   active(true),
+   controlling_entries('ie__v')
+);

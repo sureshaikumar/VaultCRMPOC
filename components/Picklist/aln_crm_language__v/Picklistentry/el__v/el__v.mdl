@@ -1,0 +1,5 @@
+Picklistentry el__v (
+   value('Greek'),
+   order(5),
+   active(true)
+);

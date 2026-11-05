@@ -1,0 +1,6 @@
+Message select_attendee_on_call__v (
+   label(),
+   active(true),
+   default_value('Select attendee on call'),
+   system_managed(false)
+);

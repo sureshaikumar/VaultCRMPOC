@@ -1,0 +1,6 @@
+Picklistentry au-sa__v (
+   value('South Australia'),
+   order(134),
+   active(true),
+   controlling_entries('au__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 19980__v (
+   value('Dodge City, KS Micropolitan Statistical Area'),
+   order(414),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message select_copy__v (
+   label(),
+   active(true),
+   default_value('Select What to Copy'),
+   system_managed(false)
+);

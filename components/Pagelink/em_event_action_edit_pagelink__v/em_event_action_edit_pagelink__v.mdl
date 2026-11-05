@@ -1,0 +1,11 @@
+RECREATE Pagelink em_event_action_edit_pagelink__v (
+   label('EM Event Action Edit'),
+   description('Redirects editing Event Action to the EM Event Action Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Object.id}}/edit'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.em_event_action__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.em_event_action_detail_app_page__v')
+);

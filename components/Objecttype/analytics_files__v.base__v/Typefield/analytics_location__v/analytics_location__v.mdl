@@ -1,0 +1,4 @@
+Typefield analytics_location__v (
+   source('standard'),
+   required(false)
+);

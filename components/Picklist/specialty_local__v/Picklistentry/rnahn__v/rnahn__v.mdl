@@ -1,0 +1,6 @@
+Picklistentry rnahn__v (
+   value('Radiology Neuroradiology and Head Neck'),
+   order(1695),
+   active(true),
+   controlling_entries('id__v')
+);

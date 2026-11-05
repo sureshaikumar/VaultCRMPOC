@@ -1,0 +1,6 @@
+Picklistentry hr-07__v (
+   value('Bjelovarsko-bilogorska županija'),
+   order(1848),
+   active(true),
+   controlling_entries('hr__v')
+);

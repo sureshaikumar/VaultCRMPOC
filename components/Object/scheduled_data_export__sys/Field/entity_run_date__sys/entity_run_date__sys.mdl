@@ -1,0 +1,17 @@
+Field entity_run_date__sys (
+   label('Entity Run Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

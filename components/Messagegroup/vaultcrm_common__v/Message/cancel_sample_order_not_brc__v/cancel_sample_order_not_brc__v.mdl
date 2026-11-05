@@ -1,0 +1,6 @@
+Message cancel_sample_order_not_brc__v (
+   label(),
+   active(true),
+   default_value('You may not cancel an order that is not a BRC.  Please review your selections and try again.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message data_cloud_duplicate_conn_err__v (
+   label(),
+   active(true),
+   default_value('A Connection for ${object_type_label} already exists. Only one Connection for ${object_type_label} can exist at a time. Please remove the previous Connection before creating a new one.'),
+   system_managed(false)
+);

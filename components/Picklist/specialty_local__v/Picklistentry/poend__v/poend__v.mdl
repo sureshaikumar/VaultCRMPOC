@@ -1,0 +1,17 @@
+Picklistentry poend__v (
+   value('Pediatric Oncology'),
+   order(1424),
+   active(true),
+   controlling_entries('bh__v',
+         'fr__v',
+         'in__v',
+         'kg__v',
+         'lb__v',
+         'mc__v',
+         'mt__v',
+         'om__v',
+         'ph__v',
+         'pt__v',
+         'sa__v',
+         'ua__v')
+);

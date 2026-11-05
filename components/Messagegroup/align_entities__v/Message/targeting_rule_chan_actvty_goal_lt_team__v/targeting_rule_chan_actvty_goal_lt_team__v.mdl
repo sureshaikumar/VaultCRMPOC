@@ -1,0 +1,6 @@
+Message targeting_rule_chan_actvty_goal_lt_team__v (
+   label(),
+   active(true),
+   default_value('Activity goal must be smaller than or equal to team activity goal.'),
+   system_managed(false)
+);

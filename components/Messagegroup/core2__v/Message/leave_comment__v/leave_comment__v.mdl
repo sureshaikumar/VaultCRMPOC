@@ -1,0 +1,6 @@
+Message leave_comment__v (
+   label(),
+   active(true),
+   default_value('Leave a comment'),
+   system_managed(false)
+);

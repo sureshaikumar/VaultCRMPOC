@@ -1,0 +1,6 @@
+Message already_discarded_message__v (
+   label(),
+   active(true),
+   default_value('${user} has already discarded ${subject}'),
+   system_managed(false)
+);

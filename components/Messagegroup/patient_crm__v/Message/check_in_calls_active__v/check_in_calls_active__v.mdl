@@ -1,0 +1,6 @@
+Message check_in_calls_active__v (
+   label(),
+   active(true),
+   default_value('Check-In Calls Active'),
+   system_managed(false)
+);

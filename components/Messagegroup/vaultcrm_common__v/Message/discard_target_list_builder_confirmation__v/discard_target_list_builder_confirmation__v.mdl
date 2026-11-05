@@ -1,0 +1,6 @@
+Message discard_target_list_builder_confirmation__v (
+   label(),
+   active(true),
+   default_value('Start over with creating Target List. You will lose any filter selections you have made. Please confirm if you want to proceed.'),
+   system_managed(false)
+);

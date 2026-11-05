@@ -1,0 +1,6 @@
+Picklistentry gsoeu__v (
+   value('General Surgical Oncology'),
+   order(616),
+   active(true),
+   controlling_entries('ca__v')
+);

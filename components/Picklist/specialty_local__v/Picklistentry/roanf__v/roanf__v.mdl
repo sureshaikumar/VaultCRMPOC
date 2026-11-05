@@ -1,0 +1,6 @@
+Picklistentry roanf__v (
+   value('Radiotherapy Oncology'),
+   order(1706),
+   active(true),
+   controlling_entries('tn__v')
+);

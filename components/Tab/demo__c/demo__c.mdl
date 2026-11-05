@@ -1,0 +1,15 @@
+RECREATE Tab demo__c (
+   active(true),
+   all_view_label('All Demo'),
+   doctype('patient_intake_form__v'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Demo'),
+   modal_create_record(false),
+   my_view_label('My Demo'),
+   order(4300),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Demo')
+);

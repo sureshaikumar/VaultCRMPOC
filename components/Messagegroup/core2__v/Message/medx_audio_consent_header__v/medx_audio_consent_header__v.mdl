@@ -1,0 +1,6 @@
+Message medx_audio_consent_header__v (
+   label(),
+   active(true),
+   default_value('Agree to Audio Recording'),
+   system_managed(false)
+);

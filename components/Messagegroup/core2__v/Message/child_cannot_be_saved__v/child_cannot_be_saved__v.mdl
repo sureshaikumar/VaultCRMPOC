@@ -1,0 +1,6 @@
+Message child_cannot_be_saved__v (
+   label(),
+   active(true),
+   default_value('${object_label} cannot be saved until above error(s) are resolved.'),
+   system_managed(false)
+);

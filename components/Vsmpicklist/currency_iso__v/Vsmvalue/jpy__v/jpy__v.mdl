@@ -1,0 +1,10 @@
+Vsmvalue jpy__v (
+   label('JPY'),
+   active(true),
+   description('The Japanese Yen (JPY), the official currency of Japan, used for transactions, pricing, and financial records involving Japanese markets.'),
+   synonyms('Japanese yen',
+         'yen',
+         'JPY'),
+   target('jpy__sys'),
+   target_label('JPY')
+);

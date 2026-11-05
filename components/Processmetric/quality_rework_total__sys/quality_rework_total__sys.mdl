@@ -1,0 +1,9 @@
+RECREATE Processmetric quality_rework_total__sys (
+   label('Total with Rework'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The total number of records that re-entered any state.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.quality__sys')
+);

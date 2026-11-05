@@ -1,0 +1,12 @@
+RECREATE Picklist inventory_or_inventory_order_line_status__v (
+   label('Inventory Order Line Status'),
+   active(true),
+   Picklistentry(@Picklistentry/new__v.mdl),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   Picklistentry(@Picklistentry/in_process__v.mdl),
+   Picklistentry(@Picklistentry/canceled__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

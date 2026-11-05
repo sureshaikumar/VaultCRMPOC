@@ -1,0 +1,6 @@
+Picklistentry ke-42__v (
+   value('Trans Nzoia'),
+   order(2395),
+   active(true),
+   controlling_entries('ke__v')
+);

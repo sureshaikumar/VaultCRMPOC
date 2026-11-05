@@ -1,0 +1,6 @@
+Message mccp_feedback_reasons__v (
+   label(),
+   active(true),
+   default_value('Reasons'),
+   system_managed(false)
+);

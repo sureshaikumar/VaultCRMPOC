@@ -1,0 +1,5 @@
+Picklistentry hiv_protease_inhibitors__v (
+   value('HIV (Protease Inhibitors)'),
+   order(64),
+   active(true)
+);

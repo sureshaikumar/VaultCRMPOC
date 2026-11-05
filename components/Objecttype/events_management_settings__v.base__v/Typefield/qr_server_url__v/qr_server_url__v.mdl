@@ -1,0 +1,4 @@
+Typefield qr_server_url__v (
+   source('standard'),
+   required(false)
+);

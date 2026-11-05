@@ -1,0 +1,6 @@
+Message whatsapp_number_pending_approval__v (
+   label(),
+   active(true),
+   default_value('WhatsApp number pending approval. You will be able to send messages once the review is complete.'),
+   system_managed(false)
+);

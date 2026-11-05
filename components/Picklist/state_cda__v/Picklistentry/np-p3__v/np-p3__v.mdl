@@ -1,0 +1,6 @@
+Picklistentry np-p3__v (
+   value('Bagmati'),
+   order(3407),
+   active(true),
+   controlling_entries('np__v')
+);

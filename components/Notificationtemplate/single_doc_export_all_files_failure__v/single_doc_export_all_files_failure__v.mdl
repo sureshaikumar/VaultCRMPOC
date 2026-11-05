@@ -1,0 +1,17 @@
+RECREATE Notificationtemplate single_doc_export_all_files_failure__v (
+   label('documentExportSizeLimit'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: document export file size exceeded'),
+   notification('<p>The maximum document export file size was exceeded when preparing your document export. Please contact your Vault Administrator.</p>'),
+   email_body('<p>${recipientTitle} ${recipientName},</p>
+
+<p><b>Vault: </b>${vaultName}
+<br>The maximum document export file size was exceeded when preparing your document export. Please contact your Vault Administrator.</p>
+
+<p>Access your Vault here: <a href="${uiBaseExtUrl}">${vaultName}</a></p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

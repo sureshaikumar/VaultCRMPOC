@@ -1,0 +1,6 @@
+Message confirm_portal_deactivation_modal2__v (
+   label(),
+   active(true),
+   default_value('Any users assigned to this Portal will no longer be able to log in.'),
+   system_managed(false)
+);

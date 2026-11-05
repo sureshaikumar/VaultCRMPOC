@@ -1,0 +1,14 @@
+RECREATE Page kam_from_affiliations_page__v (
+   label('KAM From Affiliations Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('kam_from_affiliations_page__v'),
+   description('Create Key Stakeholders from Sphere of Influence App Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.sphereofinfluence.controls.page.CreateKeyStakeholdersFromAffiliationsPageController'),
+   url_path_name('kam-from-affiliations')
+);

@@ -1,0 +1,6 @@
+Typefield exclude_from__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.expense_type_exclude_from__v.call__v',
+         'Picklist.expense_type_exclude_from__v.event__v')
+);

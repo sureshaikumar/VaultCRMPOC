@@ -1,0 +1,5 @@
+Picklistentry technology_partner__v (
+   value('Technology Partner'),
+   order(25),
+   active(false)
+);

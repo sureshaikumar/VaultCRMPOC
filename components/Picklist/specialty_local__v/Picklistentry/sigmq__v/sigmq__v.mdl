@@ -1,0 +1,6 @@
+Picklistentry sigmq__v (
+   value('Specialization in General Medicine'),
+   order(1787),
+   active(true),
+   controlling_entries('lb__v')
+);

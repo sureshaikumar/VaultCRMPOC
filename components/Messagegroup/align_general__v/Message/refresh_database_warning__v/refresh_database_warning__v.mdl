@@ -1,0 +1,6 @@
+Message refresh_database_warning__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to refresh the database? This will delete the existing database and reload all of the Align data.'),
+   system_managed(false)
+);

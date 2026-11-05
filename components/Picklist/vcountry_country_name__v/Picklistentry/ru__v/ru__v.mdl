@@ -1,0 +1,5 @@
+Picklistentry ru__v (
+   value('Russian Federation'),
+   order(191),
+   active(true)
+);

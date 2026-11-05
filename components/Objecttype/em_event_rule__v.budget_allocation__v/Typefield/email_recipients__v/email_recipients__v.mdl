@@ -1,0 +1,6 @@
+Typefield email_recipients__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_rule_email_recipients__v.event_attendees__v',
+         'Picklist.em_event_rule_email_recipients__v.event_speakers__v')
+);

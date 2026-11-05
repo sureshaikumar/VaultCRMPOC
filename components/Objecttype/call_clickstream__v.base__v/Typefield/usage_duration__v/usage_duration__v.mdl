@@ -1,0 +1,4 @@
+Typefield usage_duration__v (
+   source('standard'),
+   required(false)
+);

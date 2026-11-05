@@ -1,0 +1,11 @@
+RECREATE Picklist time_off_territory_reason__v (
+   label('Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/vacation__v.mdl),
+   Picklistentry(@Picklistentry/sick__v.mdl),
+   Picklistentry(@Picklistentry/jury_duty__v.mdl),
+   Picklistentry(@Picklistentry/bereavement__v.mdl),
+   Picklistentry(@Picklistentry/car_trouble__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

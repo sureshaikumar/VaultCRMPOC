@@ -1,0 +1,22 @@
+Field rows_returned__sys (
+   label('Rows Returned'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(2147483647),
+   min_value(0),
+   scale(0),
+   help_content('The total number of rows returned from the report.'),
+   list_column(true),
+   order(14),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

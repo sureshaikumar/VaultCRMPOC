@@ -1,0 +1,6 @@
+Message no_agent_found__v (
+   label(),
+   active(true),
+   default_value('Sorry, but I am not trained to handle this yet.'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Picklistentry physk__v (
+   value('Physiatry'),
+   order(1533),
+   active(true),
+   controlling_entries('bw__v',
+         'fi__v')
+);

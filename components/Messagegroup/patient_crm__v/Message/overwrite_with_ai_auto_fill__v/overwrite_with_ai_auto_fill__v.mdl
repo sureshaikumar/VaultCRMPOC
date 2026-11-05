@@ -1,0 +1,6 @@
+Message overwrite_with_ai_auto_fill__v (
+   label(),
+   active(true),
+   default_value('Overwrite with AI Auto-Fill?'),
+   system_managed(false)
+);

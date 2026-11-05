@@ -1,0 +1,6 @@
+Message error_end_must_be_after_activation__v (
+   label(),
+   active(true),
+   default_value('End must be after Activation'),
+   system_managed(false)
+);

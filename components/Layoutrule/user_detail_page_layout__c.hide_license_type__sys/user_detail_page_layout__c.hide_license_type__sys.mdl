@@ -1,0 +1,15 @@
+RECREATE Layoutrule user_detail_page_layout__c.hide_license_type__sys (
+   active(true),
+   description(),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('license_type__sys'),
+   hide_sections(),
+   hide_layout(false),
+   label('Hide Top-level License Type Field'),
+   order(300)
+);

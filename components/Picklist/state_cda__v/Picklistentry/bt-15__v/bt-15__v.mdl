@@ -1,0 +1,6 @@
+Picklistentry bt-15__v (
+   value('Thimphu'),
+   order(514),
+   active(true),
+   controlling_entries('bt__v')
+);

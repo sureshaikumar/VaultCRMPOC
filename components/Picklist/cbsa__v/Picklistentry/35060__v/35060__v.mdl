@@ -1,0 +1,5 @@
+Picklistentry 35060__v (
+   value('Natchitoches, LA Micropolitan Statistical Area'),
+   order(265),
+   active(true)
+);

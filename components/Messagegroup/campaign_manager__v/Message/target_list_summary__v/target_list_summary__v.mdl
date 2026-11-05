@@ -1,0 +1,6 @@
+Message target_list_summary__v (
+   label(),
+   active(true),
+   default_value('Target List Summary'),
+   system_managed(false)
+);

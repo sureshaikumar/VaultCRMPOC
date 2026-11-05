@@ -1,0 +1,5 @@
+Picklistentry note__v (
+   value('Note'),
+   order(3),
+   active(true)
+);

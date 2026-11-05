@@ -1,0 +1,4 @@
+Typefield practice_near_hospital__v (
+   source('custom'),
+   required(false)
+);

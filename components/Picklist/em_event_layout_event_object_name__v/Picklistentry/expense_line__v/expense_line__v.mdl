@@ -1,0 +1,5 @@
+Picklistentry expense_line__v (
+   value('Expense_Line'),
+   order(9),
+   active(true)
+);

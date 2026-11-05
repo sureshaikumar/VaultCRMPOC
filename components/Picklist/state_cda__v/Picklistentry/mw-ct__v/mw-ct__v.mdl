@@ -1,0 +1,6 @@
+Picklistentry mw-ct__v (
+   value('Chitipa'),
+   order(3213),
+   active(true),
+   controlling_entries('mw__v')
+);

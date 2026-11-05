@@ -1,0 +1,6 @@
+Message checksection_status_attribute_label__sys (
+   label(),
+   active(true),
+   default_value('Status'),
+   system_managed(false)
+);

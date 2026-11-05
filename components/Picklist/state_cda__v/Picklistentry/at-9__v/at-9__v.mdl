@@ -1,0 +1,6 @@
+Picklistentry at-9__v (
+   value('Wien'),
+   order(129),
+   active(true),
+   controlling_entries('at__v')
+);

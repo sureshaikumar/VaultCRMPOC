@@ -1,0 +1,6 @@
+Message rule_confirm_run_align_dialog_child_only__v (
+   label(),
+   active(true),
+   default_value('This preview will include both manual and rule-based assignments for {0} only.'),
+   system_managed(false)
+);

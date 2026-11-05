@@ -1,0 +1,6 @@
+Message unique_expense_type__v (
+   label(),
+   active(true),
+   default_value('The Expense Type has already been used with the same Event Budget and Event Speaker combination (including when both are blank). Please select a different Expense Type.'),
+   system_managed(false)
+);

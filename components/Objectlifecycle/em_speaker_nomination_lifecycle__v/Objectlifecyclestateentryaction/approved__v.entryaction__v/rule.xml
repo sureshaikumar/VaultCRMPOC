@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.em_speaker_nomination__v.workflow_status__v</targetField>
+            <expression>Picklist.workflow_status__v.inactive__v</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.em_speaker_nomination__v.workflow_owner__v</targetField>
+            <expression>null</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.em_speaker_nomination__v.workflow_instance_id__v</targetField>
+            <expression>null</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.em_speaker_nomination__v.task_id__v</targetField>
+            <expression>null</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

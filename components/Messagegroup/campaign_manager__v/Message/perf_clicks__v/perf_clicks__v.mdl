@@ -1,0 +1,6 @@
+Message perf_clicks__v (
+   label(),
+   active(true),
+   default_value('Clicks'),
+   system_managed(false)
+);

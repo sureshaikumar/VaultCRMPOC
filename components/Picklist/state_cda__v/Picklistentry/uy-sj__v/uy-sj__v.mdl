@@ -1,0 +1,6 @@
+Picklistentry uy-sj__v (
+   value('San José'),
+   order(4863),
+   active(true),
+   controlling_entries('uy__v')
+);

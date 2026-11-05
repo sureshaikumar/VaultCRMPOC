@@ -1,0 +1,5 @@
+Picklistentry 28380__v (
+   value('Kennett, MO Micropolitan Statistical Area'),
+   order(171),
+   active(true)
+);

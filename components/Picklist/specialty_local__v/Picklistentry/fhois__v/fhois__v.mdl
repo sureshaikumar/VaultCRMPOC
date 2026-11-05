@@ -1,0 +1,6 @@
+Picklistentry fhois__v (
+   value('Forensic Histopathology'),
+   order(550),
+   active(true),
+   controlling_entries('gb__v')
+);

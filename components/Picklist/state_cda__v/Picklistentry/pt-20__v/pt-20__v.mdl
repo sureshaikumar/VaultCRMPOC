@@ -1,0 +1,6 @@
+Picklistentry pt-20__v (
+   value('Região Autónoma dos Açores'),
+   order(3672),
+   active(true),
+   controlling_entries('pt__v')
+);

@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The name or title of the activity record. This is the primary human-readable identifier for the activity and is typically used in search, display, and reporting contexts.'),
+   example_values(),
+   synonyms('title',
+         'activity name',
+         'subject'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Picklistentry airam__v (
+   value('Active Ingredient Research and Medicinal Chemistry'),
+   order(3),
+   active(true),
+   controlling_entries('hu__v')
+);

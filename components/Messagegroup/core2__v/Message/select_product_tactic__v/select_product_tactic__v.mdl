@@ -1,0 +1,6 @@
+Message select_product_tactic__v (
+   label(),
+   active(true),
+   default_value('Select the product tactic to apply to this account.'),
+   system_managed(false)
+);

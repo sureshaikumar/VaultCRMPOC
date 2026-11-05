@@ -1,0 +1,6 @@
+Picklistentry rnaud__v (
+   value('Radiology Nursing'),
+   order(1697),
+   active(true),
+   controlling_entries('ee__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry processing__v (
+   value('Processing'),
+   order(0),
+   active(true)
+);

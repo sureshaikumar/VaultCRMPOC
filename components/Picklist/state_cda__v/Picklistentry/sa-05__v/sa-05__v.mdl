@@ -1,0 +1,6 @@
+Picklistentry sa-05__v (
+   value('Al Qaşīm'),
+   order(3882),
+   active(true),
+   controlling_entries('sa__v')
+);

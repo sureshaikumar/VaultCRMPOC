@@ -1,0 +1,18 @@
+Field online_registration_status__v (
+   label('Online Registration Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('This field is populated automatically to "Needs Reconciliation" when a person is registered for an event via the Veeva Attendee API. The status can be set manually via this API, and is also set through the user interface when an online event registrant is'),
+   list_column(false),
+   order(33),
+   multi_value(false),
+   picklist('Picklist.em_attendee_online_registration_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

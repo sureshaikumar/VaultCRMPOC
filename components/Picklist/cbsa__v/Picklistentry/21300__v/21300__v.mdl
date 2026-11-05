@@ -1,0 +1,5 @@
+Picklistentry 21300__v (
+   value('Elmira, NY Metropolitan Statistical Area'),
+   order(717),
+   active(true)
+);

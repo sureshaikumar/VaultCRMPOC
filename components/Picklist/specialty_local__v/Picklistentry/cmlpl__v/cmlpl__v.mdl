@@ -1,0 +1,6 @@
+Picklistentry cmlpl__v (
+   value('Clinical Microbiology Laboratory Pharmacy'),
+   order(248),
+   active(true),
+   controlling_entries('hu__v')
+);

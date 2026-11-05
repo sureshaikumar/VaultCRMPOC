@@ -1,0 +1,5 @@
+Picklistentry use_checklist_type_matching_fields__sys (
+   value('Not Applicable'),
+   order(0),
+   active(true)
+);

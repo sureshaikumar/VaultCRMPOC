@@ -1,0 +1,5 @@
+Picklistentry ai__v (
+   value('AI'),
+   order(4),
+   active(true)
+);

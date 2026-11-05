@@ -1,0 +1,19 @@
+Field signature_request_uuid__v (
+   label('Signature Request UUID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(150),
+   help_content(),
+   list_column(false),
+   order(216),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

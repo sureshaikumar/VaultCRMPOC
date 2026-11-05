@@ -1,0 +1,10 @@
+RECREATE Jobmetadata copy_target_list_job__v (
+   label('Copy Target List Job'),
+   active(true),
+   chunk_size(500),
+   description('This Job copies Campaign Target Lists from existing Campaigns.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.campaignmanager.job.CopyTargetListJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

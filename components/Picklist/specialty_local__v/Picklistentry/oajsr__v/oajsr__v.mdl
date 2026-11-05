@@ -1,0 +1,6 @@
+Picklistentry oajsr__v (
+   value('Orthopedic and Joint Surgery'),
+   order(1200),
+   active(true),
+   controlling_entries('jo__v')
+);

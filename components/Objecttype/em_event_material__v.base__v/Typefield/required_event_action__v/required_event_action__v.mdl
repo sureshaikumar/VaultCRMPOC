@@ -1,0 +1,4 @@
+Typefield required_event_action__v (
+   source('standard'),
+   required(false)
+);

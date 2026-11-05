@@ -1,0 +1,6 @@
+Message body_multiple_drafts_saved__v (
+   label(),
+   active(true),
+   default_value('${template_count} templates have been saved as drafts'),
+   system_managed(false)
+);

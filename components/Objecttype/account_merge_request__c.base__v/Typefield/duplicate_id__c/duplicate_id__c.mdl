@@ -1,0 +1,4 @@
+Typefield duplicate_id__c (
+   source('standard'),
+   required(false)
+);

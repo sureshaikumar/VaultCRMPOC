@@ -1,0 +1,6 @@
+Message target_list_regenerated__v (
+   label(),
+   active(true),
+   default_value('Target List Regenerated'),
+   system_managed(false)
+);

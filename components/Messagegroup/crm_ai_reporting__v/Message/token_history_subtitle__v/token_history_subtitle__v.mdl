@@ -1,0 +1,6 @@
+Message token_history_subtitle__v (
+   label(),
+   active(true),
+   default_value('Token consumption against the monthly budget'),
+   system_managed(false)
+);

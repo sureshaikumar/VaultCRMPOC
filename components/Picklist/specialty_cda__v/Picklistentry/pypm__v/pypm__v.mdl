@@ -1,0 +1,5 @@
+Picklistentry pypm__v (
+   value('Psychosomatic Medicine'),
+   order(81),
+   active(true)
+);

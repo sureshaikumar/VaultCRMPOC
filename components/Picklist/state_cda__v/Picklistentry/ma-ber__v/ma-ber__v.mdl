@@ -1,0 +1,6 @@
+Picklistentry ma-ber__v (
+   value('Berkane'),
+   order(2783),
+   active(true),
+   controlling_entries('ma__v')
+);

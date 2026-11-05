@@ -1,0 +1,6 @@
+Picklistentry lwaob__v (
+   value('Laboratory Work'),
+   order(856),
+   active(true),
+   controlling_entries('az__v')
+);

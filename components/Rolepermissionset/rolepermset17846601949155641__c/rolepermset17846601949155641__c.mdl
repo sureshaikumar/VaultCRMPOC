@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17846601949155641__c (
+   label('Agentic Text Monitoring for Home Office'),
+   active(true),
+   application_role('home__c'),
+   permission_sets('Permissionset.text_monitoring_for_home_office__c')
+);

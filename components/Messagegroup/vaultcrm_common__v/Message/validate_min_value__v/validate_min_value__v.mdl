@@ -1,0 +1,6 @@
+Message validate_min_value__v (
+   label(),
+   active(true),
+   default_value('Please enter a value greater than or equal to ${min_value}.'),
+   system_managed(false)
+);

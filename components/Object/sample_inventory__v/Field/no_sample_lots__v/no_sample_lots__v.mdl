@@ -1,0 +1,18 @@
+Field no_sample_lots__v (
+   label('No Sample Lots'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If checked, a User is able to Save/Submit a Sample Inventory when there are no Sample Inventory Line Items [Sample Lots] for the User.'),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

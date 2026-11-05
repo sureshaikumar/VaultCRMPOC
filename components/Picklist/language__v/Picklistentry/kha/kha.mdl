@@ -1,0 +1,5 @@
+Picklistentry kha (
+   value('Khasi'),
+   order(220),
+   active(true)
+);

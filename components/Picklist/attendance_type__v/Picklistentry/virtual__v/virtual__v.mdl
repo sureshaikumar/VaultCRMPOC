@@ -1,0 +1,5 @@
+Picklistentry virtual__v (
+   value('Virtual'),
+   order(1),
+   active(true)
+);

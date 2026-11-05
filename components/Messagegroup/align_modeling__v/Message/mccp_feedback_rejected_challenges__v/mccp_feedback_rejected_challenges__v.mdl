@@ -1,0 +1,6 @@
+Message mccp_feedback_rejected_challenges__v (
+   label(),
+   active(true),
+   default_value('Rejected Challenges'),
+   system_managed(false)
+);

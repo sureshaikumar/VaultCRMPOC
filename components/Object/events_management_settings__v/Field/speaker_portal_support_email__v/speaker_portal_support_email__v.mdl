@@ -1,0 +1,21 @@
+Field speaker_portal_support_email__v (
+   label('Speaker Portal Support Email'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('Field to merge Speaker Portal Support email into specific Veeva Messages'),
+   list_column(false),
+   order(16),
+   default_value('"email@domain.com"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

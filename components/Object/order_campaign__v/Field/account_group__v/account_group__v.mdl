@@ -1,0 +1,19 @@
+Field account_group__v (
+   label('Account Group'),
+   type('String'),
+   active(true),
+   description('Limits Order Campaign to this Account Group'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

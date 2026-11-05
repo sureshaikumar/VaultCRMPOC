@@ -1,0 +1,7 @@
+RECREATE Picklist monitoring_rule_restricted_platforms__v (
+   label('Restricted Platforms'),
+   active(true),
+   Picklistentry(@Picklistentry/messaging__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

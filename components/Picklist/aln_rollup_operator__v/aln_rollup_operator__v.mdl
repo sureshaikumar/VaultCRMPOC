@@ -1,0 +1,9 @@
+RECREATE Picklist aln_rollup_operator__v (
+   label('Rollup Operator'),
+   active(true),
+   Picklistentry(@Picklistentry/sum_distinct__v.mdl),
+   Picklistentry(@Picklistentry/count_distinct__v.mdl),
+   Picklistentry(@Picklistentry/mean__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

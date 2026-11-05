@@ -1,0 +1,6 @@
+Message citations_no_longer_available__v (
+   label(),
+   active(true),
+   default_value('One or more citations are no longer available'),
+   system_managed(false)
+);

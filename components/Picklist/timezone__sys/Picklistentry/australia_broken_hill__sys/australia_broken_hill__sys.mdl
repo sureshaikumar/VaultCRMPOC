@@ -1,0 +1,5 @@
+Picklistentry australia_broken_hill__sys (
+   value('(GMT+09:30) Australian Central Standard Time (Australia/Broken_Hill)'),
+   order(278),
+   active(true)
+);

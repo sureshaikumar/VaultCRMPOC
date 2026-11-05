@@ -1,0 +1,4 @@
+Typefield slide_versioning_method__v (
+   source('standard'),
+   required(false)
+);

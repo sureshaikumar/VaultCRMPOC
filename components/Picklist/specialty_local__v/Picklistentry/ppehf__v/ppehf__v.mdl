@@ -1,0 +1,8 @@
+Picklistentry ppehf__v (
+   value('Pediatric Phthisiology'),
+   order(1439),
+   active(true),
+   controlling_entries('ge__v',
+         'kg__v',
+         'ua__v')
+);

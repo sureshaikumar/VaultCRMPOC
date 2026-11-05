@@ -1,0 +1,5 @@
+Picklistentry pharmaceutical_product__v (
+   value('Pharmaceutical Product'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry la-sv__v (
+   value('Savannakhét'),
+   order(2524),
+   active(true),
+   controlling_entries('la__v')
+);

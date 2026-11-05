@@ -1,0 +1,8 @@
+Picklistentry aasmv__v (
+   value('Aviation and Space Medicine'),
+   order(106),
+   active(true),
+   controlling_entries('gb__v',
+         'jo__v',
+         'ua__v')
+);

@@ -1,0 +1,10 @@
+RECREATE Tab home__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('My Tasks'),
+   modal_create_record(false),
+   order(600),
+   parent(),
+   prevent_create(false)
+);

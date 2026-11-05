@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.match_documents__sys (
+   label('Match Documents'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.MatchDocumentsAction'),
+   active(true),
+   available_all_states(true)
+);

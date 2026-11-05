@@ -1,0 +1,11 @@
+RECREATE Docrelationshiptype redacted_from__v (
+   label('Redacted From'),
+   active(true),
+   single_use(true),
+   target_doctype(),
+   source_version_specific(true),
+   carry_forward_source_specific(false),
+   target_version_specific(true),
+   carry_forward_target_specific(false),
+   relationship_filter()
+);

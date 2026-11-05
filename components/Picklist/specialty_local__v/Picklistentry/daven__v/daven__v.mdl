@@ -1,0 +1,22 @@
+Picklistentry daven__v (
+   value('Dermatology and Venereology'),
+   order(398),
+   active(true),
+   controlling_entries('ad__v',
+         'al__v',
+         'am__v',
+         'ch__v',
+         'dz__v',
+         'es__v',
+         'fr__v',
+         'gr__v',
+         'hr__v',
+         'il__v',
+         'it__v',
+         'jo__v',
+         'li__v',
+         'mc__v',
+         'nl__v',
+         'pl__v',
+         'tr__v')
+);

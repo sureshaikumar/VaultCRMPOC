@@ -1,0 +1,19 @@
+Field brands__v (
+   label('Brands'),
+   type('String'),
+   active(true),
+   description('Semi-colon delimited list of available brands for users in this Engage Connect group. Enter the External ID from the Engage Connect brand(s) you wish to make available for this group.  Brands must exist in Engage Connect to be referenced here.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

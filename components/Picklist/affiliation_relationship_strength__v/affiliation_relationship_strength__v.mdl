@@ -1,0 +1,9 @@
+RECREATE Picklist affiliation_relationship_strength__v (
+   label('Relationship Strength'),
+   active(true),
+   Picklistentry(@Picklistentry/0__v.mdl),
+   Picklistentry(@Picklistentry/1__v.mdl),
+   Picklistentry(@Picklistentry/2__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

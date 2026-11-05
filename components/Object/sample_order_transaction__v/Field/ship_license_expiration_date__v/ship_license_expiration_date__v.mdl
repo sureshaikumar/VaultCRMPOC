@@ -1,0 +1,17 @@
+Field ship_license_expiration_date__v (
+   label('Ship License Expiration Date'),
+   type('Date'),
+   active(true),
+   description('The Ship License Expiration Date field stores the Expiration Date of the requesting Physician''s License.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(50),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

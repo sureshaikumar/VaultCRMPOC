@@ -1,0 +1,6 @@
+Picklistentry lt-14__v (
+   value('Kalvarija'),
+   order(2632),
+   active(true),
+   controlling_entries('lt__v')
+);

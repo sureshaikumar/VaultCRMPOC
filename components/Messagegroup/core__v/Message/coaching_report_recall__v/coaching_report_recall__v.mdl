@@ -1,0 +1,6 @@
+Message coaching_report_recall__v (
+   label(),
+   active(true),
+   default_value('Coaching Report Recalled'),
+   system_managed(false)
+);

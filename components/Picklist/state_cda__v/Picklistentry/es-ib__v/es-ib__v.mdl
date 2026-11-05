@@ -1,0 +1,6 @@
+Picklistentry es-ib__v (
+   value('Illes Balears'),
+   order(1223),
+   active(true),
+   controlling_entries('es__v')
+);

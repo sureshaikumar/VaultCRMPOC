@@ -1,0 +1,6 @@
+Picklistentry cz-316__v (
+   value('Strakonice'),
+   order(833),
+   active(true),
+   controlling_entries('cz__v')
+);

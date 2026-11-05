@@ -1,0 +1,6 @@
+Message assignment_overlap__v (
+   label(),
+   active(true),
+   default_value('{0} is already assigned to {1} from {2} (UTC) through {3} (UTC)'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message another_consent_restricted_exists__v (
+   label(),
+   active(true),
+   default_value('Another record with ${object_type} object type and restricted to ${consent_restriction} already exists : ${name} (${id})'),
+   system_managed(false)
+);

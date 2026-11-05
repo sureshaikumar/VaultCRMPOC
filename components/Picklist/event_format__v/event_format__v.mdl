@@ -1,0 +1,9 @@
+RECREATE Picklist event_format__v (
+   label('Event Format'),
+   active(true),
+   Picklistentry(@Picklistentry/in_person__v.mdl),
+   Picklistentry(@Picklistentry/virtual__v.mdl),
+   Picklistentry(@Picklistentry/hybrid__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

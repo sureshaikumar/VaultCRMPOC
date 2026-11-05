@@ -1,0 +1,6 @@
+Message unique_clicks__v (
+   label(),
+   active(true),
+   default_value('Unique Clicks'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+RECREATE Securityprofile asset_portal_user__v (
+   label(),
+   active(true),
+   description(),
+   permission_sets('asset_portal_user_actions__v')
+);

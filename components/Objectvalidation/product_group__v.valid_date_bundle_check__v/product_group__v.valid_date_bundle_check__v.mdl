@@ -1,0 +1,30 @@
+RECREATE Objectvalidation product_group__v.valid_date_bundle_check__v (
+   label('Valid_Date_Bundle_Check'),
+   active(true),
+   expression('not(
+            and(
+                not(
+                    IsBlank(
+                        quantity__v
+                    )
+                ),
+                (
+                    or(
+                        or(
+                            IsBlank(
+                                start_date__v
+                            ),
+                            IsBlank(
+                                end_date__v
+                            )
+                        ),
+                        start_date__v > end_date__v
+                    )
+                )
+            )
+       )'),
+   description('Valid Start Date and End Date are required if a Quantity is defined'),
+   error_message('Valid Start Date and End Date are required if a Quantity is defined'),
+   error_location('end_date__v',
+      'start_date__v')
+);

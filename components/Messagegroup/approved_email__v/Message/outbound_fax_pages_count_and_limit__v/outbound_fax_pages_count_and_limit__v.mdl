@@ -1,0 +1,6 @@
+Message outbound_fax_pages_count_and_limit__v (
+   label(),
+   active(true),
+   default_value('Outbound Fax Pages Limit: ${count_of_fax_pages_sent} of ${outbound_fax_pages_limit} fax pages sent.'),
+   system_managed(false)
+);

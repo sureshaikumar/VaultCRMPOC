@@ -1,0 +1,6 @@
+Message case_inbox_begin_intake_new_patient__v (
+   label(),
+   active(true),
+   default_value('Begin Intake for a new Patient.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry mailgun__v (
+   value('Mailgun'),
+   order(0),
+   active(true)
+);

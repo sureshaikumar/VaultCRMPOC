@@ -1,0 +1,17 @@
+Field manage_mccp__v (
+   label('Manage MCCP'),
+   type('Boolean'),
+   active(true),
+   description('Control whether Align manages MCCP data in CRM.'),
+   required(false),
+   checkbox(false),
+   help_content('Control whether Align manages MCCP data in CRM.'),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

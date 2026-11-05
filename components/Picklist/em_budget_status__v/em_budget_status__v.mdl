@@ -1,0 +1,8 @@
+RECREATE Picklist em_budget_status__v (
+   label('Budget Status'),
+   active(true),
+   Picklistentry(@Picklistentry/available_for_use__v.mdl),
+   Picklistentry(@Picklistentry/draft__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

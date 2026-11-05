@@ -1,0 +1,5 @@
+Picklistentry educ__v (
+   value('Educational Clinic'),
+   order(57),
+   active(true)
+);

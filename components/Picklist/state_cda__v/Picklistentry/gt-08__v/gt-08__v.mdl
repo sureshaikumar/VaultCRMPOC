@@ -1,0 +1,6 @@
+Picklistentry gt-08__v (
+   value('Totonicapán'),
+   order(1787),
+   active(true),
+   controlling_entries('gt__v')
+);

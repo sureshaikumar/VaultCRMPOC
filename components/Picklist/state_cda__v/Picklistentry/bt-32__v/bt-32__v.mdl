@@ -1,0 +1,6 @@
+Picklistentry bt-32__v (
+   value('Trongsa'),
+   order(520),
+   active(true),
+   controlling_entries('bt__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry papde__v (
+   value('Pediatric and Preventive Dentistry'),
+   order(1335),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,3 @@
+Typeaction record_call__v (
+   action('medical_inquiry__v.record_call__v')
+);

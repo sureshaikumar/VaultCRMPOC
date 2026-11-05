@@ -1,0 +1,6 @@
+Picklistentry do-24__v (
+   value('Sánchez Ramírez'),
+   order(963),
+   active(true),
+   controlling_entries('do__v')
+);

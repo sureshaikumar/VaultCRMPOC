@@ -1,0 +1,6 @@
+Picklistentry it-pz__v (
+   value('Potenza'),
+   order(2247),
+   active(true),
+   controlling_entries('it__v')
+);

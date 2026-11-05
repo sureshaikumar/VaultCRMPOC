@@ -1,0 +1,8 @@
+Objectworkflowstep notification_approved__v (
+   label('Notification Approved'),
+   type('notification'),
+   next_steps('Objectworkflowstep.end__v'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('An email is sent to the order creator informing that the inventory order has been approved.')
+);

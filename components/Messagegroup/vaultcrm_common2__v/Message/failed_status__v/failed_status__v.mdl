@@ -1,0 +1,6 @@
+Message failed_status__v (
+   label(),
+   active(true),
+   default_value('Failed'),
+   system_managed(false)
+);

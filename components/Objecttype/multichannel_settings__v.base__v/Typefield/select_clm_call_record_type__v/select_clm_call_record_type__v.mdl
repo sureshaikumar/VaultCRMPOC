@@ -1,0 +1,4 @@
+Typefield select_clm_call_record_type__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry sid (
+   value('Sidamo'),
+   order(302),
+   active(true)
+);

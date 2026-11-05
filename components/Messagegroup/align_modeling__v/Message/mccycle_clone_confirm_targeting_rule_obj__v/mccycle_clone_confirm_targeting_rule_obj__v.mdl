@@ -1,0 +1,6 @@
+Message mccycle_clone_confirm_targeting_rule_obj__v (
+   label(),
+   active(true),
+   default_value('Targeting Rule objects:'),
+   system_managed(false)
+);

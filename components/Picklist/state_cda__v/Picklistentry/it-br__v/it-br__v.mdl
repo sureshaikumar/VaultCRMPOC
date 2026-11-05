@@ -1,0 +1,6 @@
+Picklistentry it-br__v (
+   value('Brindisi'),
+   order(2189),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction account_plan__v.stakeholder_navigator__v (
+   label('Stakeholder Navigator'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.stakeholdernavigator.actions.DisplayStakeholderNavigatorAccountPlanAction'),
+   active(true),
+   available_all_states(true)
+);

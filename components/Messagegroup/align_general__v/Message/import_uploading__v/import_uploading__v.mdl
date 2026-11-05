@@ -1,0 +1,6 @@
+Message import_uploading__v (
+   label(),
+   active(true),
+   default_value('Uploading...'),
+   system_managed(false)
+);

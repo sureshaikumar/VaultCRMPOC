@@ -1,0 +1,4 @@
+Typefield collaboration_space_configuration__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ee__v (
+   value('Estonia'),
+   order(63),
+   active(true)
+);

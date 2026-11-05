@@ -1,0 +1,6 @@
+Message sort__v (
+   label(),
+   active(true),
+   default_value('Sort'),
+   system_managed(false)
+);

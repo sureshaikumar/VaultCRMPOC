@@ -1,0 +1,6 @@
+Picklistentry lv-033__v (
+   value('Gulbenes novads'),
+   order(2708),
+   active(true),
+   controlling_entries('lv__v')
+);

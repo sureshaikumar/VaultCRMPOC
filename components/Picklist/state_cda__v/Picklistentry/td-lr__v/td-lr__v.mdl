@@ -1,0 +1,6 @@
+Picklistentry td-lr__v (
+   value('Lūqūn ash Sharqī'),
+   order(4311),
+   active(true),
+   controlling_entries('td__v')
+);

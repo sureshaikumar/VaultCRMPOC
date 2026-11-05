@@ -1,0 +1,6 @@
+Picklistentry mt-02__v (
+   value('Balzan'),
+   order(3108),
+   active(true),
+   controlling_entries('mt__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry sr-cm__v (
+   value('Commewijne'),
+   order(4242),
+   active(true),
+   controlling_entries('sr__v')
+);

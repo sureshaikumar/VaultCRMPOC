@@ -1,0 +1,6 @@
+Picklistentry mg-u__v (
+   value('Toliara'),
+   order(2937),
+   active(true),
+   controlling_entries('mg__v')
+);

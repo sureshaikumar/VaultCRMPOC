@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved_state__v.apply_legal_hold_useraction__v (
+   label('Apply Legal Hold'),
+   rule(@rule.xml),
+   order(1000)
+);

@@ -1,0 +1,6 @@
+Message removed__v (
+   label(),
+   active(true),
+   default_value('${name} removed'),
+   system_managed(false)
+);

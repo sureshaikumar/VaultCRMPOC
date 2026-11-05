@@ -1,0 +1,5 @@
+Picklistentry america_denver__v (
+   value('Mountain Time'),
+   order(72),
+   active(true)
+);

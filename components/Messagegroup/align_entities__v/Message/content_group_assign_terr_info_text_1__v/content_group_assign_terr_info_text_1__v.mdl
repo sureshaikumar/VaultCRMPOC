@@ -1,0 +1,6 @@
+Message content_group_assign_terr_info_text_1__v (
+   label(),
+   active(true),
+   default_value('Use the Content Group lookup to assign one or more Content Groups to roster members associated with this territory and its descendants.'),
+   system_managed(false)
+);

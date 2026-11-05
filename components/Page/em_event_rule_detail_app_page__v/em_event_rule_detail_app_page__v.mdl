@@ -1,0 +1,14 @@
+RECREATE Page em_event_rule_detail_app_page__v (
+   label('EM Event Rule Detail App Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('em_event_rule_detail_app_page__v'),
+   description('App page for EM Event Rule'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('em-event-rule')
+);

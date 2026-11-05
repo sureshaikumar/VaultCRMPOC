@@ -1,0 +1,6 @@
+Picklistentry algol__v (
+   value('Algology'),
+   order(38),
+   active(true),
+   controlling_entries('tr__v')
+);

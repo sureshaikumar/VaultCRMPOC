@@ -1,0 +1,6 @@
+Picklistentry cavmb__v (
+   value('Cardiology and Vascular Medicine Arrhythmia'),
+   order(155),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,19 @@
+Field product_name__v (
+   label('Product Name'),
+   type('String'),
+   active(true),
+   description('Stores the textual name of the Product for the case where the Product record is deleted. This field is updated when the AOC record is set to complete.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

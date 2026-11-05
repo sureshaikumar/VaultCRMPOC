@@ -1,0 +1,17 @@
+Field signature__v (
+   label('Signature'),
+   type('LongText'),
+   active(true),
+   description('Encoded signature captured during disbursement.  Encoded using base64. This value is copied in to the sample transaction object via a trigger. It is maintained on call header for synchronization purposes.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(138),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

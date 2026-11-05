@@ -1,0 +1,6 @@
+Picklistentry sh-ta__v (
+   value('Tristan da Cunha'),
+   order(3974),
+   active(true),
+   controlling_entries('sh__v')
+);

@@ -1,0 +1,6 @@
+Message product_specialty_partial_success_toast__v (
+   label(),
+   active(true),
+   default_value('${created_count} records generated. ${skipped_count} records were skipped because the product specialty combination already exists.'),
+   system_managed(false)
+);

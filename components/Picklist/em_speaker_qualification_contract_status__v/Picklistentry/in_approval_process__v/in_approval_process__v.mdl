@@ -1,0 +1,5 @@
+Picklistentry in_approval_process__v (
+   value('In_Approval_Process'),
+   order(1),
+   active(true)
+);

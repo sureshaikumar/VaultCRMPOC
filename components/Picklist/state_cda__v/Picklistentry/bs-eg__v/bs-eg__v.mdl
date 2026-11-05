@@ -1,0 +1,6 @@
+Picklistentry bs-eg__v (
+   value('East Grand Bahama'),
+   order(487),
+   active(true),
+   controlling_entries('bs__v')
+);

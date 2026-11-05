@@ -1,0 +1,6 @@
+Message invalid_object_type__v (
+   label(),
+   active(true),
+   default_value('Object Type with ID ${id} is invalid for this object.'),
+   system_managed(false)
+);

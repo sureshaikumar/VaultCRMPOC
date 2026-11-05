@@ -1,0 +1,5 @@
+Picklistentry pending__sys (
+   value('Pending'),
+   order(0),
+   active(true)
+);

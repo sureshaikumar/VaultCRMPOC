@@ -1,0 +1,10 @@
+Vsmvalue rur__v (
+   label('RUR'),
+   active(true),
+   description('Applies when referencing the legacy Russian Ruble (pre-1998 redenomination), used for historical financial records before the RUB was introduced.'),
+   synonyms('Russian ruble legacy',
+         'old Russian ruble',
+         'pre-1998 ruble'),
+   target('rur__sys'),
+   target_label('RUR')
+);

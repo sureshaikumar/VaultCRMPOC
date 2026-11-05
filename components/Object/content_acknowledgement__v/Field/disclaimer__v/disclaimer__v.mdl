@@ -1,0 +1,17 @@
+Field disclaimer__v (
+   label('Disclaimer'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(5000),
+   help_content('Used to record sample disclaimer displayed when an Acknowledgement of Content is signed.'),
+   list_column(false),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message push_notification_modal_body__v (
+   label(),
+   active(true),
+   default_value('This app can notify you when new chat messages are received.'),
+   system_managed(false)
+);

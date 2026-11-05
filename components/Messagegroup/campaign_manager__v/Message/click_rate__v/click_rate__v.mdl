@@ -1,0 +1,6 @@
+Message click_rate__v (
+   label(),
+   active(true),
+   default_value('Click Rate'),
+   system_managed(false)
+);

@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_business_rule__v.limit_quantity_attendee_required__v (
+   label('Limit Quantity Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_cross_event_per_attendee_attendanc__v", true,
+            "em_cross_event_meal_opt_in_attendance__v", true,
+            false
+        ) = false || Not(IsBlank(limit_quantity__v))'),
+   description('limit_quantity__v is not added to the Attendee Rule.'),
+   error_message('This field is required.'),
+   error_location('limit_quantity__v')
+);

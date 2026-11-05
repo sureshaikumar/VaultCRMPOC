@@ -1,0 +1,19 @@
+Field submitted_campaign__v (
+   label('Submitted Campaign'),
+   type('String'),
+   active(true),
+   description('Campaign ID submitted in the API payload.'),
+   required(true),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

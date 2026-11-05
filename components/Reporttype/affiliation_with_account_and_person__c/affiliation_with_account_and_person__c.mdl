@@ -1,0 +1,9 @@
+RECREATE Reporttype affiliation_with_account_and_person__c (
+   label('Affiliation with Account and Person'),
+   active(true),
+   description('Affiliation with From Account and From Person'),
+   primary_object('affiliation__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

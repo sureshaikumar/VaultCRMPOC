@@ -1,0 +1,6 @@
+Picklistentry bj-ko__v (
+   value('Kouffo'),
+   order(429),
+   active(true),
+   controlling_entries('bj__v')
+);

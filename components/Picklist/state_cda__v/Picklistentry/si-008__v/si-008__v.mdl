@@ -1,0 +1,6 @@
+Picklistentry si-008__v (
+   value('Brezovica'),
+   order(3982),
+   active(true),
+   controlling_entries('si__v')
+);

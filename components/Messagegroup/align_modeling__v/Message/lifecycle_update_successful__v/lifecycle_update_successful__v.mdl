@@ -1,0 +1,6 @@
+Message lifecycle_update_successful__v (
+   label(),
+   active(true),
+   default_value('Successfully updated lifecycle.'),
+   system_managed(false)
+);

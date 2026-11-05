@@ -1,0 +1,5 @@
+Objectlifecyclerole approver__c (
+   active(true),
+   application_role('Applicationrole.approver__v'),
+   permissions()
+);

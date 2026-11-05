@@ -1,0 +1,6 @@
+Picklistentry rxrea__v (
+   value('Radiology (X-Ray Examination)'),
+   order(1684),
+   active(true),
+   controlling_entries('dk__v')
+);

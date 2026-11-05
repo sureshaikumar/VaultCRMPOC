@@ -1,0 +1,4 @@
+Typefield spec_group_1_cda__v (
+   source('custom'),
+   required(false)
+);

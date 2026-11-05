@@ -1,0 +1,6 @@
+Picklistentry mu-pw__v (
+   value('Plaines Wilhems'),
+   order(3183),
+   active(true),
+   controlling_entries('mu__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ro__v (
+   value('Romanian'),
+   order(49),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 48580__v (
+   value('Whitewater, WI Micropolitan Statistical Area'),
+   order(419),
+   active(true)
+);

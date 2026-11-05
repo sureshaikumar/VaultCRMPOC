@@ -1,0 +1,6 @@
+Message unable_to_discard_email__v (
+   label(),
+   active(true),
+   default_value('Unable to Discard Email'),
+   system_managed(false)
+);

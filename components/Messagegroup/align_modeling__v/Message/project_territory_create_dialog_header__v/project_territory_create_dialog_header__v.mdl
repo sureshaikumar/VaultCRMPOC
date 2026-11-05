@@ -1,0 +1,6 @@
+Message project_territory_create_dialog_header__v (
+   label(),
+   active(true),
+   default_value('Add Territories to {0}'),
+   system_managed(false)
+);

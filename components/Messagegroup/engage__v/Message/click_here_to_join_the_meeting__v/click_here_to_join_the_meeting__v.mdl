@@ -1,0 +1,6 @@
+Message click_here_to_join_the_meeting__v (
+   label(),
+   active(true),
+   default_value('Click here to join the meeting'),
+   system_managed(false)
+);

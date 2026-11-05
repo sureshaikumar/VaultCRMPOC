@@ -1,0 +1,19 @@
+Field parent_brick__v (
+   label('Parent Brick'),
+   type('String'),
+   active(true),
+   description('The Parent Brick field is populated with the textual name of the Brick, which the current Brick record rolls into thus creating a Brick Hierarchy.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

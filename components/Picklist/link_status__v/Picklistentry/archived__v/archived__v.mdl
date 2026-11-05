@@ -1,0 +1,5 @@
+Picklistentry archived__v (
+   value('Archived'),
+   order(7),
+   active(true)
+);

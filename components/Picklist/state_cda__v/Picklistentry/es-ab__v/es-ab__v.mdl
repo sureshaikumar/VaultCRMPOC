@@ -1,0 +1,6 @@
+Picklistentry es-ab__v (
+   value('Albacete'),
+   order(1192),
+   active(true),
+   controlling_entries('es__v')
+);

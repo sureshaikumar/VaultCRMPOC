@@ -1,0 +1,18 @@
+Field cobrowse__v (
+   label('Allow Cobrowse'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates this presentation is allowed to be used in a CoBrowse session'),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

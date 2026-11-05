@@ -1,0 +1,15 @@
+RECREATE Integrationrule medical_crm_product_family_ir__v (
+   label('Product Family Integration Rule'),
+   active(true),
+   connection('medical_crm__v'),
+   integration_point('medical_crm_product_family_iip__v'),
+   primary_query_object('product__v'),
+   Fieldrule(@Fieldrule/abbreviation__v.mdl),
+   Fieldrule(@Fieldrule/deleted_in_source__v.mdl),
+   Fieldrule(@Fieldrule/generic_name__v.mdl),
+   Fieldrule(@Fieldrule/link__v.mdl),
+   Fieldrule(@Fieldrule/name__v.mdl),
+   Fieldrule(@Fieldrule/original_source_id__v.mdl),
+   Fieldrule(@Fieldrule/source_status__v.mdl),
+   Fieldrule(@Fieldrule/therapeutic_area__v.mdl)
+);

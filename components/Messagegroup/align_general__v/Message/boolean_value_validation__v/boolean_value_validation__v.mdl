@@ -1,0 +1,6 @@
+Message boolean_value_validation__v (
+   label(),
+   active(true),
+   default_value('Invalid Boolean value ''${booleanValue}'' specified for ${object} : Value must be TRUE, FALSE, 1 or 0'),
+   system_managed(false)
+);

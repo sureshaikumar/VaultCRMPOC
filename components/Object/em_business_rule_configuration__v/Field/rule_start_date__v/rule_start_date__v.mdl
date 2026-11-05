@@ -1,0 +1,17 @@
+Field rule_start_date__v (
+   label('Rule Start Date'),
+   type('Date'),
+   active(true),
+   description('Defines the starting date for rule validity.'),
+   required(true),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

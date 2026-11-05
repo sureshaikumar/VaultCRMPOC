@@ -1,0 +1,1 @@
+<p>You requested a link for the Vault Mobile app. Please use the below link(s) to get the app from the app store:</p><a href=${vaultMobileAppleAppStoreLink}>Apple App Store</a><br/><a href=${vaultMobileGooglePlayStoreLink}>Google Play Store</a>

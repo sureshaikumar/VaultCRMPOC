@@ -1,0 +1,6 @@
+Picklistentry ir-22__v (
+   value('Hormozgān'),
+   order(2074),
+   active(true),
+   controlling_entries('ir__v')
+);

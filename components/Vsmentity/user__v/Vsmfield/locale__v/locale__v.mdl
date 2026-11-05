@@ -1,0 +1,11 @@
+Vsmfield locale__v (
+   label('Locale'),
+   active(true),
+   description('Decides the formatting rules for numbers, dates, and times based on the location of the user (e.g., US vs. UK formatting).'),
+   example_values(),
+   synonyms('Location'),
+   target('locale__sys'),
+   target_label('Locale'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

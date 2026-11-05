@@ -1,0 +1,6 @@
+Message no_del_primary_address__v (
+   label(),
+   active(true),
+   default_value('You cannot delete a primary address.'),
+   system_managed(false)
+);

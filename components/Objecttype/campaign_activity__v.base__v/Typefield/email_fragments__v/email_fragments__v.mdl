@@ -1,0 +1,4 @@
+Typefield email_fragments__v (
+   source('standard'),
+   required(false)
+);

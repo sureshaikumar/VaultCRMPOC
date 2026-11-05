@@ -1,0 +1,6 @@
+Picklistentry bj-zo__v (
+   value('Zou'),
+   order(434),
+   active(true),
+   controlling_entries('bj__v')
+);

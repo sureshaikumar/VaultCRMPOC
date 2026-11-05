@@ -1,0 +1,6 @@
+Message executed__v (
+   label(),
+   active(true),
+   default_value('Executed'),
+   system_managed(false)
+);

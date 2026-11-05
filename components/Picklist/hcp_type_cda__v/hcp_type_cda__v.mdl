@@ -1,0 +1,14 @@
+RECREATE Picklist hcp_type_cda__v (
+   label('HCP Type'),
+   active(true),
+   Picklistentry(@Picklistentry/staf__v.mdl),
+   Picklistentry(@Picklistentry/phar__v.mdl),
+   Picklistentry(@Picklistentry/exec__v.mdl),
+   Picklistentry(@Picklistentry/nurs__v.mdl),
+   Picklistentry(@Picklistentry/phys__v.mdl),
+   Picklistentry(@Picklistentry/care__v.mdl),
+   Picklistentry(@Picklistentry/rsch__v.mdl),
+   Picklistentry(@Picklistentry/othr__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

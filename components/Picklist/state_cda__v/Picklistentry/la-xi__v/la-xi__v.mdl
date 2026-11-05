@@ -1,0 +1,6 @@
+Picklistentry la-xi__v (
+   value('Xiangkhoang [Xieng Khouang]'),
+   order(2529),
+   active(true),
+   controlling_entries('la__v')
+);

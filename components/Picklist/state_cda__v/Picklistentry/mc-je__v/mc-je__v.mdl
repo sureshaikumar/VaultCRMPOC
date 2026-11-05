@@ -1,0 +1,6 @@
+Picklistentry mc-je__v (
+   value('Jardin Exotique'),
+   order(2857),
+   active(true),
+   controlling_entries('mc__v')
+);

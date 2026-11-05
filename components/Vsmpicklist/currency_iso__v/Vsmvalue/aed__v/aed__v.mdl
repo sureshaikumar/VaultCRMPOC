@@ -1,0 +1,10 @@
+Vsmvalue aed__v (
+   label('AED'),
+   active(true),
+   description('The United Arab Emirates Dirham (AED), the official currency of the UAE, used for transactions in Dubai, Abu Dhabi, and other emirates.'),
+   synonyms('UAE dirham',
+         'United Arab Emirates currency',
+         'Dubai currency'),
+   target('aed__sys'),
+   target_label('AED')
+);

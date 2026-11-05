@@ -1,0 +1,5 @@
+Picklistentry cr_presentation_diabetic_patients__c (
+   value('CR Presentation Diabetic Patients'),
+   order(4),
+   active(true)
+);

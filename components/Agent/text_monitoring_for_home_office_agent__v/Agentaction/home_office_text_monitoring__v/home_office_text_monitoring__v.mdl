@@ -1,0 +1,12 @@
+Agentaction home_office_text_monitoring__v (
+   label('Home Office Text Monitoring'),
+   active(true),
+   api_access(),
+   description('Apply Agent Rules for Home Office Text Monitoring'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

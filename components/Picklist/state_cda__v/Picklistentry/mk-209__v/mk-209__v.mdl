@@ -1,0 +1,6 @@
+Picklistentry mk-209__v (
+   value('Probištip'),
+   order(2981),
+   active(true),
+   controlling_entries('mk__v')
+);

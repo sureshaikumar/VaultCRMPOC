@@ -1,0 +1,6 @@
+Message mccp_feedback_share_conflict__v (
+   label(),
+   active(true),
+   default_value('Shared Target Conflict'),
+   system_managed(false)
+);

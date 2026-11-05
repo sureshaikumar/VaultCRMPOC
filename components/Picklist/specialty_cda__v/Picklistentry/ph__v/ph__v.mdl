@@ -1,0 +1,5 @@
+Picklistentry ph__v (
+   value('Pharmacology'),
+   order(73),
+   active(true)
+);

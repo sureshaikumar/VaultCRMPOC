@@ -1,0 +1,19 @@
+Field server_job_status_status__v (
+   label('Server Job Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of the job (Processing, Finished or Failed). Set by the job.'),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.server_job_status_status__v'),
+   default_value('{starting__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

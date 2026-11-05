@@ -1,0 +1,5 @@
+Picklistentry pt__v (
+   value('Pathology'),
+   order(26),
+   active(true)
+);

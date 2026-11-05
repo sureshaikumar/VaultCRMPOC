@@ -1,0 +1,6 @@
+Message training__v (
+   label(),
+   active(true),
+   default_value('Training'),
+   system_managed(false)
+);

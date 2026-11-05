@@ -1,0 +1,6 @@
+Picklistentry id-ku__v (
+   value('Kalimantan Utara'),
+   order(1934),
+   active(true),
+   controlling_entries('id__v')
+);

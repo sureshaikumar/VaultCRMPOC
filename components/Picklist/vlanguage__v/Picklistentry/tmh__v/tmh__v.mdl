@@ -1,0 +1,5 @@
+Picklistentry tmh__v (
+   value('Tamashek'),
+   order(311),
+   active(false)
+);

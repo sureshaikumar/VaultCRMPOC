@@ -1,0 +1,6 @@
+Picklistentry otp_event_budget__sys (
+   value('Event Budget'),
+   order(60),
+   active(true),
+   controlling_entries('olc_event_budget__sys')
+);

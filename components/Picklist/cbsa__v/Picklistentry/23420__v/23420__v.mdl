@@ -1,0 +1,5 @@
+Picklistentry 23420__v (
+   value('Fresno, CA Metropolitan Statistical Area'),
+   order(362),
+   active(true)
+);

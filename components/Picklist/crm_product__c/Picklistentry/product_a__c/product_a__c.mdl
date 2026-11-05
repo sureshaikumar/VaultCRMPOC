@@ -1,0 +1,5 @@
+Picklistentry product_a__c (
+   value('Updated Product A __C'),
+   order(0),
+   active(true)
+);

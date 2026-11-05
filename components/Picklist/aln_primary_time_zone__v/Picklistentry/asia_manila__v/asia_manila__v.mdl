@@ -1,0 +1,5 @@
+Picklistentry asia_manila__v (
+   value('Asia/Manila'),
+   order(66),
+   active(true)
+);

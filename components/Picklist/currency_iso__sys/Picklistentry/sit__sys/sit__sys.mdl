@@ -1,0 +1,5 @@
+Picklistentry sit__sys (
+   value('SIT'),
+   order(162),
+   active(true)
+);

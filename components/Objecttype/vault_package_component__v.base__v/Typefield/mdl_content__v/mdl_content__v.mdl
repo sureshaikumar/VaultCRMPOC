@@ -1,0 +1,4 @@
+Typefield mdl_content__v (
+   source('standard'),
+   required(false)
+);

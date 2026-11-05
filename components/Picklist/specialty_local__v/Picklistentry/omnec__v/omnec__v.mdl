@@ -1,0 +1,6 @@
+Picklistentry omnec__v (
+   value('Oncology Medicine'),
+   order(1127),
+   active(true),
+   controlling_entries('kr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-801__v (
+   value('Bruntál'),
+   order(897),
+   active(true),
+   controlling_entries('cz__v')
+);

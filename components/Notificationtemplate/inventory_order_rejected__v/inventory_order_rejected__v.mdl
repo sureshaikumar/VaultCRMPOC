@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate inventory_order_rejected__v (
+   label('Inventory Order Rejected'),
+   active(true),
+   description('An email template for email when the inventory order has been rejected.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.inventory_order__v'),
+   subject('Inventory Order: Rejected'),
+   notification('Inventory Order ${Object.name__v}: Rejected'),
+   email_body('Hello, The following Inventory Order has been rejected. Order ID: ${Object.name__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

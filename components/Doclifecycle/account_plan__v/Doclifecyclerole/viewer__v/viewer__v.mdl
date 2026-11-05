@@ -1,0 +1,8 @@
+Doclifecyclerole viewer__v (
+   label('Viewer'),
+   active(true),
+   description('System Provided Role'),
+   application_role('viewer__v'),
+   note_color(),
+   security_options(@security_options.xml)
+);

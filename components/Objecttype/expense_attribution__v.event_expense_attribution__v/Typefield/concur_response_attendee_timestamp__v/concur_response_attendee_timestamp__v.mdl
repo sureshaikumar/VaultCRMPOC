@@ -1,0 +1,4 @@
+Typefield concur_response_attendee_timestamp__v (
+   source('custom'),
+   required(false)
+);

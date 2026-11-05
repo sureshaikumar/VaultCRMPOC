@@ -1,0 +1,22 @@
+Field total_physicians_enrolled__c (
+   label('Total # Physicians Enrolled'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content('Total # Physicians enrolled.  Used for MCO and MCO Plan accounts.'),
+   list_column(false),
+   order(96),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

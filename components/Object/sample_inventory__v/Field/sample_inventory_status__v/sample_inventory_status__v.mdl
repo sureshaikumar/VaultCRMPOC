@@ -1,0 +1,19 @@
+Field sample_inventory_status__v (
+   label('Sample Inventory Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status represents the current status of the Inventory.'),
+   list_column(true),
+   order(4),
+   multi_value(false),
+   picklist('Picklist.sample_inventory_status__v'),
+   default_value('{saved__v}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry cd-su__v (
+   value('Sud-Ubangi'),
+   order(594),
+   active(true),
+   controlling_entries('cd__v')
+);

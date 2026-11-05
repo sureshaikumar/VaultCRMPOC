@@ -1,0 +1,6 @@
+Message rules_failure_assignment_territory_error__v (
+   label(),
+   active(true),
+   default_value('Could not update account assignments for territory ${territory_id}: ${error}'),
+   system_managed(false)
+);

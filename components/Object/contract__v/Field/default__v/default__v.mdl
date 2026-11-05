@@ -1,0 +1,18 @@
+Field default__v (
+   label('Default'),
+   type('Boolean'),
+   active(true),
+   description('Flag to make this particuler contract the default one among other valid contracts.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

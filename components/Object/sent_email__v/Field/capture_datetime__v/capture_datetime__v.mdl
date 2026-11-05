@@ -1,0 +1,17 @@
+Field capture_datetime__v (
+   label('Capture Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Capture_Datetime_vod captures the current time of the sent email creation. This is a server datetime if captured online and a mobile time if captured offline.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

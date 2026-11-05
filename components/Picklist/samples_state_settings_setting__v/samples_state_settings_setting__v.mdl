@@ -1,0 +1,9 @@
+RECREATE Picklist samples_state_settings_setting__v (
+   label('Setting'),
+   active(true),
+   Picklistentry(@Picklistentry/hand_sample_only__v.mdl),
+   Picklistentry(@Picklistentry/brc_sample_only__v.mdl),
+   Picklistentry(@Picklistentry/no_sample__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

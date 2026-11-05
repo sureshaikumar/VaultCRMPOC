@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation test_lifecycle_lif_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.test_lifecycle_lifecycle__c'),
+   object_lifecycle_state('Objectlifecyclestate.active_state__c'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

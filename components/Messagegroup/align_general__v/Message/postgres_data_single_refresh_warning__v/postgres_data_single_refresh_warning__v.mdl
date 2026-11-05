@@ -1,0 +1,6 @@
+Message postgres_data_single_refresh_warning__v (
+   label(),
+   active(true),
+   default_value('You are about to perform a Full Refresh of a particular object in the PostgreSQL database. This will cascade to all other tables that have foreign-key references to this table.<br/><br/>'),
+   system_managed(false)
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype activity__v (
+   label('Activity'),
+   active(true),
+   description('Activity'),
+   primary_object('activity__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

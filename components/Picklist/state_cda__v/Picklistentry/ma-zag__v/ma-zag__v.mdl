@@ -1,0 +1,6 @@
+Picklistentry ma-zag__v (
+   value('Zagora'),
+   order(2852),
+   active(true),
+   controlling_entries('ma__v')
+);

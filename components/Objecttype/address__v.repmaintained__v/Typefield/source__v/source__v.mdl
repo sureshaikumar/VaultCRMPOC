@@ -1,0 +1,7 @@
+Typefield source__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_source__v.hms__v',
+         'Picklist.address_source__v.manual__v'),
+   default_value('Picklist.address_source__v.manual__v')
+);

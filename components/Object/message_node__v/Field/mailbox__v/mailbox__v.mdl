@@ -1,0 +1,20 @@
+Field mailbox__v (
+   label('Mailbox'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('For received emails the field contains the recipient’s email address. For sent email the field contains the sender’s email address.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('For received emails the field contains the recipient’s email address. For sent email the field contains the sender’s email address.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

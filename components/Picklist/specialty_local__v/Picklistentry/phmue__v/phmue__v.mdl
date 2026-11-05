@@ -1,0 +1,18 @@
+Picklistentry phmue__v (
+   value('Public Health Medicine'),
+   order(1643),
+   active(true),
+   controlling_entries('ae__v',
+         'au__v',
+         'bh__v',
+         'gb__v',
+         'gh__v',
+         'hr__v',
+         'ie__v',
+         'mt__v',
+         'my__v',
+         'nl__v',
+         'nz__v',
+         'qa__v',
+         'za__v')
+);

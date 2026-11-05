@@ -1,0 +1,22 @@
+Field rows_to_display__v (
+   label('Rows to Display'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(25),
+   min_value(1),
+   scale(0),
+   help_content('Maximum number of rows to display for the widget.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

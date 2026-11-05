@@ -1,0 +1,6 @@
+Message schedule_activation_confirmation__v (
+   label(),
+   active(true),
+   default_value('This campaign will be activated for'),
+   system_managed(false)
+);

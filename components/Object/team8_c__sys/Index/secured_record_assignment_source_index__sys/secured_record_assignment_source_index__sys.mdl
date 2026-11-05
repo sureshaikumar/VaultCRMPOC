@@ -1,0 +1,6 @@
+Index secured_record_assignment_source_index__sys (
+   description(),
+   fields('secured_record__sys',
+         'assignment_source__sys'),
+   label('Secured Record And Assignment Source')
+);

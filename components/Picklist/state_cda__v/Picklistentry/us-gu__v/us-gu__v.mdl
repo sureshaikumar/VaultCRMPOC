@@ -1,0 +1,6 @@
+Picklistentry us-gu__v (
+   value('Guam'),
+   order(4803),
+   active(true),
+   controlling_entries('us__v')
+);

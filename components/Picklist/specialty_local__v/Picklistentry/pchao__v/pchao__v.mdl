@@ -1,0 +1,6 @@
+Picklistentry pchao__v (
+   value('Pediatric Clinical Hematology and Oncology'),
+   order(1349),
+   active(true),
+   controlling_entries('bg__v')
+);

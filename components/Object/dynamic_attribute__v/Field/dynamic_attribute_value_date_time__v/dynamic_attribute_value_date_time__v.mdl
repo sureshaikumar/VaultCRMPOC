@@ -1,0 +1,17 @@
+Field dynamic_attribute_value_date_time__v (
+   label('Dynamic Attribute Value (Date/Time)'),
+   type('DateTime'),
+   active(true),
+   description('This field holds the Dynamic Attribute value if the record type of the Dynamic Attribute Configuration record is Date_Time_vod.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

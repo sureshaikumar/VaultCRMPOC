@@ -1,0 +1,14 @@
+Vsmfield channel__v (
+   label('Channel'),
+   active(true),
+   description('The channel or platform through which the document was accessed or delivered, such as Vault, email, CRM, or a rep portal. Use this field to analyze which distribution channels drive the most document engagement.'),
+   example_values(),
+   synonyms('delivery channel',
+         'distribution channel',
+         'medium',
+         'platform'),
+   target('channel__v'),
+   target_label('Channel'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

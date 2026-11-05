@@ -1,0 +1,6 @@
+Message last_updated_datetime__v (
+   label(),
+   active(true),
+   default_value('Last updated on ${datetime}'),
+   system_managed(false)
+);

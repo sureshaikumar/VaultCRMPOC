@@ -1,0 +1,5 @@
+Picklistentry message__v (
+   value('Chat or Text'),
+   order(3),
+   active(true)
+);

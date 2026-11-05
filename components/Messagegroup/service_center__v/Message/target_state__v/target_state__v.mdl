@@ -1,0 +1,6 @@
+Message target_state__v (
+   label(),
+   active(true),
+   default_value('Target State'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield last_used_date__sys (
+   source('standard'),
+   required(false)
+);

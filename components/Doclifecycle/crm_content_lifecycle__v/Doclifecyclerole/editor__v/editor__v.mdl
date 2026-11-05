@@ -1,0 +1,8 @@
+Doclifecyclerole editor__v (
+   label('Editor'),
+   active(true),
+   description('System Provided Role'),
+   application_role('editor__v'),
+   note_color(),
+   security_options(@security_options.xml)
+);

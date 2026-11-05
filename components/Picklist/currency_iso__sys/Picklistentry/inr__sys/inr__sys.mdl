@@ -1,0 +1,5 @@
+Picklistentry inr__sys (
+   value('INR'),
+   order(86),
+   active(true)
+);

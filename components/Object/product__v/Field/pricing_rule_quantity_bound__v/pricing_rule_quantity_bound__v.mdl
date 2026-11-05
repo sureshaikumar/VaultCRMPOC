@@ -1,0 +1,18 @@
+Field pricing_rule_quantity_bound__v (
+   label('Pricing Rule Quantity Bound'),
+   type('Boolean'),
+   active(true),
+   description('If checked, the quantity ordered must be in the range specified in the product''s pricing rules. Otherwise, orders for this product can be placed outside the ranges in the product''s pricing rules. The price used in this case will be the base list price, as'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(32),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

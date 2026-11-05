@@ -1,0 +1,5 @@
+Picklistentry 11660__v (
+   value('Arkadelphia, AR Micropolitan Statistical Area'),
+   order(682),
+   active(true)
+);

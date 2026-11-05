@@ -1,0 +1,18 @@
+Field subject_knowledge__c (
+   label('Subject Knowledge'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('How well did the speaker know the subject material?'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.speaker_evaluation_subject_knowledge__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

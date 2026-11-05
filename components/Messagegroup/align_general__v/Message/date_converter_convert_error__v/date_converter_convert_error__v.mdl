@@ -1,0 +1,6 @@
+Message date_converter_convert_error__v (
+   label(),
+   active(true),
+   default_value('Error converting date'),
+   system_managed(false)
+);

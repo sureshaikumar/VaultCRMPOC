@@ -1,0 +1,6 @@
+Message concur_sync_history__v (
+   label(),
+   active(true),
+   default_value('Concur Sync History'),
+   system_managed(false)
+);

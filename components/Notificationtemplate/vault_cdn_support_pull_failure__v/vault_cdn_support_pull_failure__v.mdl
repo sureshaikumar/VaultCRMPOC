@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_cdn_support_pull_failure__v (
+   label('vaultCDNSupportPullFailure'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Pull from CDN for ${documentName} failed'),
+   notification('Pull from CDN for <a href="${documentLink}">${documentName}</a> failed'),
+   email_body('<p>${notificationMessage}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

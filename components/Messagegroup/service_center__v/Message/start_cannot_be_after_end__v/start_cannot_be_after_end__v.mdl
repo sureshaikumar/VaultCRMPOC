@@ -1,0 +1,6 @@
+Message start_cannot_be_after_end__v (
+   label(),
+   active(true),
+   default_value('${start_label} cannot be after ${end_label}'),
+   system_managed(false)
+);

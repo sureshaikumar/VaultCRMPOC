@@ -1,0 +1,5 @@
+Picklistentry wagnum_pharma__v (
+   value('Wagnum Pharma'),
+   order(48),
+   active(true)
+);

@@ -1,0 +1,11 @@
+RECREATE Pagelink order_create_pagelink__v (
+   label('Order Create'),
+   description('Redirects creating Orders to the Order Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.order__v'),
+   active(true),
+   disable_type_select(true),
+   page('Page.order_detail_page__v')
+);

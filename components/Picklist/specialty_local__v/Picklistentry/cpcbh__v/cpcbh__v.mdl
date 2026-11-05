@@ -1,0 +1,7 @@
+Picklistentry cpcbh__v (
+   value('Chemical Pathology (Clinical Biochemistry)'),
+   order(187),
+   active(true),
+   controlling_entries('ae__v',
+         'bh__v')
+);

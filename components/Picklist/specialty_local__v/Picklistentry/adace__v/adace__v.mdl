@@ -1,0 +1,7 @@
+Picklistentry adace__v (
+   value('Aesthetic Dermatology and Cosmetology'),
+   order(33),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

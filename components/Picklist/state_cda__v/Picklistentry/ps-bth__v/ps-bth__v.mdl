@@ -1,0 +1,6 @@
+Picklistentry ps-bth__v (
+   value('Bethlehem'),
+   order(3638),
+   active(true),
+   controlling_entries('ps__v')
+);

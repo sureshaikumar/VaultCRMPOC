@@ -1,0 +1,22 @@
+Field attendee_count__v (
+   label('Attendee Count'),
+   type('Number'),
+   active(true),
+   description('Number of attendees on the medical interaction.'),
+   required(false),
+   unique(false),
+   max_value(100),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

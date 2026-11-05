@@ -1,0 +1,5 @@
+Picklistentry nya__v (
+   value('Chewa'),
+   order(55),
+   active(false)
+);

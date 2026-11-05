@@ -1,0 +1,6 @@
+Picklistentry kz-61__v (
+   value('Türkistan oblysy'),
+   order(2507),
+   active(true),
+   controlling_entries('kz__v')
+);

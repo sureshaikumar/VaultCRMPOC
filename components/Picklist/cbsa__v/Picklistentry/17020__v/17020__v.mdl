@@ -1,0 +1,5 @@
+Picklistentry 17020__v (
+   value('Chico, CA Metropolitan Statistical Area'),
+   order(12),
+   active(true)
+);

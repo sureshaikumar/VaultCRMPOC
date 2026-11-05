@@ -1,0 +1,5 @@
+Picklistentry stage_4__v (
+   value('Stage 4'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry fim__sys (
+   value('FIM'),
+   order(63),
+   active(true)
+);

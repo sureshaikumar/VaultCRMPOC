@@ -1,0 +1,5 @@
+Picklistentry 12100__v (
+   value('Atlantic City, NJ Metropolitan Statistical Area'),
+   order(793),
+   active(true)
+);

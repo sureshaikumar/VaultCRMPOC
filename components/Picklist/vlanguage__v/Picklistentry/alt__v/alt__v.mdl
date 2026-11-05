@@ -1,0 +1,5 @@
+Picklistentry alt__v (
+   value('Southern Altai'),
+   order(295),
+   active(false)
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep notification_changes_required__c (
+   label('Notification Changes Required'),
+   type('notification'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

@@ -1,0 +1,18 @@
+Field clm_presentation_status__v (
+   label('CLM Presentation Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of the presentation on the CDN. A piece of content will either be ''Approved'', ''Staged'', or ''Expired'''),
+   list_column(false),
+   order(26),
+   multi_value(false),
+   picklist('Picklist.clm_presentation_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

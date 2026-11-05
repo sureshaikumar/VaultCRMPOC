@@ -1,0 +1,17 @@
+Field audio_recording_consent_datetime__v (
+   label('Audio Recording Consent Datetime'),
+   type('DateTime'),
+   active(true),
+   description('The datetime the audio recording consent was provided.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry do-02__v (
+   value('Azua'),
+   order(941),
+   active(true),
+   controlling_entries('do__v')
+);

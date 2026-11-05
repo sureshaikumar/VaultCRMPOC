@@ -1,0 +1,5 @@
+Picklistentry uga (
+   value('Ugaritic'),
+   order(336),
+   active(true)
+);

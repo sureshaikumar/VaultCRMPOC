@@ -1,0 +1,18 @@
+Field create_lot_catalog__v (
+   label('Create Lot Catalog'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used to trigger automatic creation of Lot Catalog record for the following product types: BRC, Alternative Samples, High Value Promotional, Promotional, Reprint, or Custom.'),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

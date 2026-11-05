@@ -1,0 +1,6 @@
+Message column_total__v (
+   label(),
+   active(true),
+   default_value('${column_sum} Total'),
+   system_managed(false)
+);

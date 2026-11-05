@@ -1,0 +1,17 @@
+Field atl_last_update_date_time__v (
+   label('ATL Last Update'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Do not modify. Set automatically by Account Territory Loader process.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

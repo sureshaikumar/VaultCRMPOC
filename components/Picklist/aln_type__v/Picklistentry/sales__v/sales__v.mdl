@@ -1,0 +1,5 @@
+Picklistentry sales__v (
+   value('Sales'),
+   order(2),
+   active(true)
+);

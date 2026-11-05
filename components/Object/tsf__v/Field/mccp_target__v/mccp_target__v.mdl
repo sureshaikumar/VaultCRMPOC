@@ -1,0 +1,17 @@
+Field mccp_target__v (
+   label('MCCP Target'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the account is MCCP target in that territory.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

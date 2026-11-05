@@ -1,0 +1,6 @@
+Picklistentry az-goy__v (
+   value('Göyçay'),
+   order(159),
+   active(true),
+   controlling_entries('az__v')
+);

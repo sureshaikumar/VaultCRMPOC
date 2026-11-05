@@ -1,0 +1,4 @@
+Typefield new_acc_types_disable_license_info__v (
+   source('standard'),
+   required(false)
+);

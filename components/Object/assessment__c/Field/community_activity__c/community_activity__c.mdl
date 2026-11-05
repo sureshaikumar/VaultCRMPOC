@@ -1,0 +1,18 @@
+Field community_activity__c (
+   label('Community Activity'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('How active is this KOL in the local healthcare community?'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.assessment_community_activity__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

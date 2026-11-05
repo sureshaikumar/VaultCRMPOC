@@ -1,0 +1,6 @@
+Picklistentry craar__v (
+   value('Cardiothoracic Radiology'),
+   order(170),
+   active(true),
+   controlling_entries('kw__v')
+);

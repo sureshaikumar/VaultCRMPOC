@@ -1,0 +1,19 @@
+Field section_name__v (
+   label('Section Name'),
+   type('String'),
+   active(true),
+   description('All dynamic attributes with the same "Section Name" text value will be grouped together and found in the same section with the "Section Name" text value as the section title when displaying the attributes to end-user.'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

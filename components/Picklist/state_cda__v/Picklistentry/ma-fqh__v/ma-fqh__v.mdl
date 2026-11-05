@@ -1,0 +1,6 @@
+Picklistentry ma-fqh__v (
+   value('Fquih Ben Salah'),
+   order(2799),
+   active(true),
+   controlling_entries('ma__v')
+);

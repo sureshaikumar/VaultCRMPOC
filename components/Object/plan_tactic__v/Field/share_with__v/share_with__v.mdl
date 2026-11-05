@@ -1,0 +1,18 @@
+Field share_with__v (
+   label('Share With'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to facilitate record sharing among Account Team Members. Team Members whose Role matches any of these selected values will have visibility to the record.'),
+   list_column(false),
+   order(20),
+   multi_value(true),
+   picklist('Picklist.account_team_member_role__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

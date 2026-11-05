@@ -1,0 +1,19 @@
+Field data_source__v (
+   label('Data Source'),
+   type('Picklist'),
+   active(true),
+   description('Identifies the authoritative source of the HCP/HCO identity for an Account record. It indicates whether the record originated from Veeva, IQVIA, another third-party provider, or is self-managed.'),
+   required(false),
+   unique(false),
+   help_content('Identifies the authoritative source of the HCP/HCO identity for an Account record. It indicates whether the record originated from Veeva, IQVIA, another third-party provider, or is self-managed.'),
+   list_column(false),
+   order(193),
+   multi_value(false),
+   picklist('Picklist.data_source__v'),
+   default_value('{self_managed__v}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

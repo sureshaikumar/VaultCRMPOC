@@ -1,0 +1,6 @@
+Message asf_attendee_limit_alert_nonua__v (
+   label(),
+   active(true),
+   default_value('Attendee-specific details are hidden when more than 10 attendees are added.'),
+   system_managed(false)
+);

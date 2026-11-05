@@ -1,0 +1,6 @@
+Picklistentry af-kdz__v (
+   value('Kunduz'),
+   order(30),
+   active(true),
+   controlling_entries('af__v')
+);

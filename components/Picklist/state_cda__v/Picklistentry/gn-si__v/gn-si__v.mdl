@@ -1,0 +1,6 @@
+Picklistentry gn-si__v (
+   value('Siguiri'),
+   order(1752),
+   active(true),
+   controlling_entries('gn__v')
+);

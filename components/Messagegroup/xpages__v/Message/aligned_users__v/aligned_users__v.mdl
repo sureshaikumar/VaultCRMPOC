@@ -1,0 +1,6 @@
+Message aligned_users__v (
+   label(),
+   active(true),
+   default_value('Aligned Users'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field furigana__v (
+   label('Furigana'),
+   type('String'),
+   active(true),
+   description('Field for Japanese users input Katakana or Hiragana in order to search for speakers based on Furigana'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

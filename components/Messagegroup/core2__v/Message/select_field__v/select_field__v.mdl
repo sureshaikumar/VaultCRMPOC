@@ -1,0 +1,6 @@
+Message select_field__v (
+   label(),
+   active(true),
+   default_value('Select Field'),
+   system_managed(false)
+);

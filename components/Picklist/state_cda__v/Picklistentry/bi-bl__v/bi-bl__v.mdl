@@ -1,0 +1,6 @@
+Picklistentry bi-bl__v (
+   value('Bujumbura Rural'),
+   order(406),
+   active(true),
+   controlling_entries('bi__v')
+);

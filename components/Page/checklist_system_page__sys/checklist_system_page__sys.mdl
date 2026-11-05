@@ -1,0 +1,14 @@
+RECREATE Page checklist_system_page__sys (
+   label('Checklist System Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('checklist_system_page__sys'),
+   description('Page to display the checklist respondent UI'),
+   disable_chrome(false),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.checklist.ChecklistSystemPage'),
+   url_path_name('checklist')
+);

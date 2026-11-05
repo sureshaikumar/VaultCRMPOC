@@ -1,0 +1,6 @@
+Picklistentry ne-6__v (
+   value('Tillabéri'),
+   order(3317),
+   active(true),
+   controlling_entries('ne__v')
+);

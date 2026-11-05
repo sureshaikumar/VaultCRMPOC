@@ -1,0 +1,6 @@
+Picklistentry ua-77__v (
+   value('Chernivetska oblast'),
+   order(4642),
+   active(true),
+   controlling_entries('ua__v')
+);

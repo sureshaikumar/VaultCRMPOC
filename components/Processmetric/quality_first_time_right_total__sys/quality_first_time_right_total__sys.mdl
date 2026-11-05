@@ -1,0 +1,9 @@
+RECREATE Processmetric quality_first_time_right_total__sys (
+   label('Total First Time Right'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The total number of records that did not repeat any state.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.quality__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry pt-14__v (
+   value('Santarém'),
+   order(3667),
+   active(true),
+   controlling_entries('pt__v')
+);

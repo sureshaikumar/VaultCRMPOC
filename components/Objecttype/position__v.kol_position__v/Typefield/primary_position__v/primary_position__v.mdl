@@ -1,0 +1,4 @@
+Typefield primary_position__v (
+   source('custom'),
+   required(false)
+);

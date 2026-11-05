@@ -1,0 +1,6 @@
+Picklistentry hu-sn__v (
+   value('Sopron'),
+   order(1904),
+   active(true),
+   controlling_entries('hu__v')
+);

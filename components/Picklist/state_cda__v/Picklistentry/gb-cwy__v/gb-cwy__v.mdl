@@ -1,0 +1,6 @@
+Picklistentry gb-cwy__v (
+   value('Conwy'),
+   order(1494),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,18 @@
+Field expired__v (
+   label('Expired'),
+   type('Boolean'),
+   active(true),
+   description('Expired flag indicates if all child content has been expired (Status_vod = ''Expired_vod'').'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message select_who_you_connect_with_to_continue__v (
+   label(),
+   active(true),
+   default_value('Select who you connect with to continue.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message unique_opens__v (
+   label(),
+   active(true),
+   default_value('Unique Opens'),
+   system_managed(false)
+);

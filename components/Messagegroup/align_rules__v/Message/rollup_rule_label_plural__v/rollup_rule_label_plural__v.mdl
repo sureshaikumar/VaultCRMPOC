@@ -1,0 +1,6 @@
+Message rollup_rule_label_plural__v (
+   label(),
+   active(true),
+   default_value('Custom Rollup Rules'),
+   system_managed(false)
+);

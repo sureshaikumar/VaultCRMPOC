@@ -1,0 +1,6 @@
+Message will_be_sent_from__v (
+   label(),
+   active(true),
+   default_value('Will be sent from ${sender_name}'),
+   system_managed(false)
+);

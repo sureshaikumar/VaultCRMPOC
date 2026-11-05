@@ -1,0 +1,17 @@
+Field user_signature__v (
+   label('User Signature'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Stores user''s signature.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

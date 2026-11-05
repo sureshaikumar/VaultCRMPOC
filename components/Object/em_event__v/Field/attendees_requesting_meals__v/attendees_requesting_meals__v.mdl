@@ -1,0 +1,22 @@
+Field attendees_requesting_meals__v (
+   label('Attendees Requesting Meals'),
+   type('Number'),
+   active(true),
+   description('Count of attendees where a meal has been requested.'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

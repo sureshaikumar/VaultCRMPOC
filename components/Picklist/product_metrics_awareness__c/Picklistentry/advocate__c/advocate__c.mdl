@@ -1,0 +1,5 @@
+Picklistentry advocate__c (
+   value('Advocate'),
+   order(4),
+   active(true)
+);

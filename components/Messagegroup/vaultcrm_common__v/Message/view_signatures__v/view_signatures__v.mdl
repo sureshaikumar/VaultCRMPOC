@@ -1,0 +1,6 @@
+Message view_signatures__v (
+   label(),
+   active(true),
+   default_value('View ${object_name} Signatures'),
+   system_managed(false)
+);

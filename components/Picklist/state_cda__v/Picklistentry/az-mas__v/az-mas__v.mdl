@@ -1,0 +1,6 @@
+Picklistentry az-mas__v (
+   value('Masallı'),
+   order(171),
+   active(true),
+   controlling_entries('az__v')
+);

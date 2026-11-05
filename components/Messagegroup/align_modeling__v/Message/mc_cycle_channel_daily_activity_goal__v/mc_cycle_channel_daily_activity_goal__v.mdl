@@ -1,0 +1,6 @@
+Message mc_cycle_channel_daily_activity_goal__v (
+   label(),
+   active(true),
+   default_value('Daily Activity Goal'),
+   system_managed(false)
+);

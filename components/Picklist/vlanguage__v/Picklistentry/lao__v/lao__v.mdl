@@ -1,0 +1,5 @@
+Picklistentry lao__v (
+   value('Lao'),
+   order(184),
+   active(false)
+);

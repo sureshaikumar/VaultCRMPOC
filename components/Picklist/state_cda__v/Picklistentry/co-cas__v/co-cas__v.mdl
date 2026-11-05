@@ -1,0 +1,6 @@
+Picklistentry co-cas__v (
+   value('Casanare'),
+   order(735),
+   active(true),
+   controlling_entries('co__v')
+);

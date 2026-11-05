@@ -1,0 +1,16 @@
+Picklistentry radip__v (
+   value('Radiotherapy'),
+   order(1704),
+   active(true),
+   controlling_entries('ci__v',
+         'cm__v',
+         'de__v',
+         'in__v',
+         'kw__v',
+         'ma__v',
+         'mk__v',
+         'mu__v',
+         'nl__v',
+         'ro__v',
+         'sn__v')
+);

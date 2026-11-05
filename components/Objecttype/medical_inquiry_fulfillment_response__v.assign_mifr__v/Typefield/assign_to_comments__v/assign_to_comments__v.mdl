@@ -1,0 +1,4 @@
+Typefield assign_to_comments__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message no_aws_accounts__v (
+   label(),
+   active(true),
+   default_value('No AWS accounts connected.'),
+   system_managed(false)
+);

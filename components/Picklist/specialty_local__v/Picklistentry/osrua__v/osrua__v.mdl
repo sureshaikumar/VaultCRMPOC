@@ -1,0 +1,18 @@
+Picklistentry osrua__v (
+   value('Oral Surgery'),
+   order(1178),
+   active(true),
+   controlling_entries('ba__v',
+         'bw__v',
+         'ch__v',
+         'de__v',
+         'fr__v',
+         'in__v',
+         'li__v',
+         'mc__v',
+         'me__v',
+         'nz__v',
+         'qa__v',
+         'sa__v',
+         'si__v')
+);

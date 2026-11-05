@@ -1,0 +1,6 @@
+Picklistentry th-23__v (
+   value('Trat'),
+   order(4341),
+   active(true),
+   controlling_entries('th__v')
+);

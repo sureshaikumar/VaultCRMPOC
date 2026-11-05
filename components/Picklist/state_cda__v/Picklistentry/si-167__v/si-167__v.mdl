@@ -1,0 +1,6 @@
+Picklistentry si-167__v (
+   value('Lovrenc na Pohorju'),
+   order(4140),
+   active(true),
+   controlling_entries('si__v')
+);

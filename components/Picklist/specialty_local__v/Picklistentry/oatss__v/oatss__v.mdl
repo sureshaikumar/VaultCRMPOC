@@ -1,0 +1,6 @@
+Picklistentry oatss__v (
+   value('Orthopedics and Trauma Surgery'),
+   order(1212),
+   active(true),
+   controlling_entries('de__v')
+);

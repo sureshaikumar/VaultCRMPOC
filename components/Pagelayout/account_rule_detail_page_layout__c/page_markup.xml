@@ -1,0 +1,41 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_account_rule__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="account_filter_logic__v" />
+            <vault:field reference="account_hierarchy_rule__v" />
+            <vault:field reference="account_sources__v" />
+            <vault:field reference="address_filter_logic__v" />
+            <vault:field reference="criteria_header_last_modified__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="end_datetime__v" />
+            <vault:field reference="excluded_sources__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="field_force__v" />
+            <vault:field reference="intermediaries__v" />
+            <vault:field reference="last_used_by_rules_engine__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="mc_cycle__v" />
+            <vault:field reference="parent_hco_filter_logic__v" />
+            <vault:field reference="product_metric_filter_logic__v" />
+            <vault:field reference="rule_type__v" />
+            <vault:field reference="send_to_crm__v" />
+            <vault:field reference="source__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="start_datetime__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

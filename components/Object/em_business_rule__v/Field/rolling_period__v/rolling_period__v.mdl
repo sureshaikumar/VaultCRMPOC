@@ -1,0 +1,22 @@
+Field rolling_period__v (
+   label('Rolling Period'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content('Define the rolling period in days. Used in conjunction with a "Rolling" Date Threshold Type. See documentation for details.'),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

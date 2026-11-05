@@ -1,0 +1,6 @@
+Picklistentry lk-44__v (
+   value('Vavuniya'),
+   order(2576),
+   active(true),
+   controlling_entries('lk__v')
+);

@@ -1,0 +1,6 @@
+Message cycle_utilization_staffed__v (
+   label(),
+   active(true),
+   default_value('Staffed'),
+   system_managed(false)
+);

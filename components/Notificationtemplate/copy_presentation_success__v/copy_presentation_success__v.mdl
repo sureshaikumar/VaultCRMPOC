@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate copy_presentation_success__v (
+   label('Copying Presentation Completed'),
+   active(true),
+   description('Notifies user when the deep copy process has completed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Copy completed for ${Custom.presentation_name}'),
+   notification('Copying related records for ${Custom.presentation_name} has completed'),
+   email_body('Copying related records for ${Custom.presentation_name} has completed'),
+   entity_type('custom'),
+   notification_category('none__sys')
+);

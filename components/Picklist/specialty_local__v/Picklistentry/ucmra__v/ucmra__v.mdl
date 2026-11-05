@@ -1,0 +1,7 @@
+Picklistentry ucmra__v (
+   value('Urgent Care Medicine'),
+   order(1890),
+   active(true),
+   controlling_entries('om__v',
+         'us__v')
+);

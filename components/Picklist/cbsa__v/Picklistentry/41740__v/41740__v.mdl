@@ -1,0 +1,5 @@
+Picklistentry 41740__v (
+   value('San Diego-Carlsbad-San Marcos, CA Metropolitan Statistical Area'),
+   order(403),
+   active(true)
+);

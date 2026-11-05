@@ -1,0 +1,6 @@
+Picklistentry me-06__v (
+   value('Cetinje'),
+   order(2912),
+   active(true),
+   controlling_entries('me__v')
+);

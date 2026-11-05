@@ -1,0 +1,5 @@
+Picklistentry co__v (
+   value('Colombia'),
+   order(48),
+   active(true)
+);

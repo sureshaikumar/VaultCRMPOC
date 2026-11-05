@@ -1,0 +1,4 @@
+Typefield competitor__v (
+   source('custom'),
+   required(true)
+);

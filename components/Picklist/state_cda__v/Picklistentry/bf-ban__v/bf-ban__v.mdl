@@ -1,0 +1,6 @@
+Picklistentry bf-ban__v (
+   value('Banwa'),
+   order(330),
+   active(true),
+   controlling_entries('bf__v')
+);

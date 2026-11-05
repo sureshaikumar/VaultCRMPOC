@@ -1,0 +1,8 @@
+RECREATE Pagelayout functional_profile_application_role_deta__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Functional Profile Application Role Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

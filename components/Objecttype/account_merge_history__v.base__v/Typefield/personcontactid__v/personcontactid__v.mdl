@@ -1,0 +1,4 @@
+Typefield personcontactid__v (
+   source('standard'),
+   required(false)
+);

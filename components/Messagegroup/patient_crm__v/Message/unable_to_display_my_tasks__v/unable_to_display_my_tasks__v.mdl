@@ -1,0 +1,6 @@
+Message unable_to_display_my_tasks__v (
+   label(),
+   active(true),
+   default_value('Unable to display My Tasks'),
+   system_managed(false)
+);

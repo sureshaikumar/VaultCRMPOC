@@ -1,0 +1,5 @@
+Picklistentry sla_interval_hours__v (
+   value('Hours'),
+   order(2),
+   active(true)
+);

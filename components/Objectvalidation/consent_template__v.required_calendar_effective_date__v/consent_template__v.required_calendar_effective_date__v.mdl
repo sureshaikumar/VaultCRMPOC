@@ -1,0 +1,8 @@
+RECREATE Objectvalidation consent_template__v.required_calendar_effective_date__v (
+   label('Required Calendar Effective Date'),
+   active(true),
+   expression('Or(expiration_type__v != "calendar__v",Not(IsBlank(calendar_effective_date__v)))'),
+   description('Effective Date must not be null if Expiration Type is calendar__v.'),
+   error_message('Calendar Effective Date is required when Expiration Type is Calendar.'),
+   error_location('calendar_effective_date__v')
+);

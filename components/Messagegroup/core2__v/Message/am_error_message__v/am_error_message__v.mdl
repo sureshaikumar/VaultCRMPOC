@@ -1,0 +1,6 @@
+Message am_error_message__v (
+   label(),
+   active(true),
+   default_value('There was an issue merging accounts. Please try again.'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield notification_opened__v (
+   source('standard'),
+   required(false)
+);

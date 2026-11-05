@@ -1,0 +1,5 @@
+Picklistentry viropharma_incorporated__v (
+   value('ViroPharma Incorporated'),
+   order(40),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field collaborative_relationship_inactive__v (
+   label('Collaborative Relationship Inactive'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether or not a collaborative agreement between a midlevel practitioner and a supervising physician is active or inactive. Inactive relationships will not be available for selection on the call report.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

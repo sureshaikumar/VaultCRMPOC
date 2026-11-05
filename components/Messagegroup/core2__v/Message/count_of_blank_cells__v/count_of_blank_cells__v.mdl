@@ -1,0 +1,6 @@
+Message count_of_blank_cells__v (
+   label(),
+   active(true),
+   default_value('Count of Cells with Blank Value'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield medical_discussions__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry anim__v (
+   value('Animal Health'),
+   order(2),
+   active(true)
+);

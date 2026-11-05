@@ -1,0 +1,6 @@
+Message field_mapping_custom_mapping__v (
+   label(),
+   active(true),
+   default_value('Custom Field Mapping'),
+   system_managed(false)
+);

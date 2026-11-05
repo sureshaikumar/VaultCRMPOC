@@ -1,0 +1,5 @@
+Picklistentry kur (
+   value('Kurdish'),
+   order(228),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message process_status__v (
+   label(),
+   active(true),
+   default_value('Process Status'),
+   system_managed(false)
+);

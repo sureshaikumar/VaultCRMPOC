@@ -1,0 +1,6 @@
+Message optional_fields_to_sync__v (
+   label(),
+   active(true),
+   default_value('Select optional fields to include in reporting.'),
+   system_managed(false)
+);

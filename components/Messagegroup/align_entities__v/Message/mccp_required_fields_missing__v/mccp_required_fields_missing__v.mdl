@@ -1,0 +1,6 @@
+Message mccp_required_fields_missing__v (
+   label(),
+   active(true),
+   default_value('All required fields must be filled in.'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+Subtab aln_channel_templates__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Channel Templates'),
+   order(100),
+   parent('aln_targeting__v'),
+   send_session_via_post_message(true),
+   url(@url.txt)
+);

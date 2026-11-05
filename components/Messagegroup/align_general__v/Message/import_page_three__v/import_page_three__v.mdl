@@ -1,0 +1,6 @@
+Message import_page_three__v (
+   label(),
+   active(true),
+   default_value('Page 3 of 3'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ni-ci__v (
+   value('Chinandega'),
+   order(3361),
+   active(true),
+   controlling_entries('ni__v')
+);

@@ -1,0 +1,6 @@
+Message cant_modify_historical_assignment__v (
+   label(),
+   active(true),
+   default_value('Historical assignments which have been removed from CRM cannot be altered.'),
+   system_managed(false)
+);

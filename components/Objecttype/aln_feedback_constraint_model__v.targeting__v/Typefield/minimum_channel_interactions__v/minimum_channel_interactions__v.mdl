@@ -1,0 +1,4 @@
+Typefield minimum_channel_interactions__v (
+   source('standard'),
+   required(false)
+);

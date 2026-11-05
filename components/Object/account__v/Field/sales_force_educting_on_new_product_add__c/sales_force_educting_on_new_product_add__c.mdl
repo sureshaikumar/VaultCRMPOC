@@ -1,0 +1,17 @@
+Field sales_force_educting_on_new_product_add__c (
+   label('Sales Force Educting on New Product Add'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Is there a GPO sales force that will help educate product additions to contract?'),
+   list_column(false),
+   order(189),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

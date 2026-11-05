@@ -1,0 +1,6 @@
+Message initial_salutation_subheader__v (
+   label(),
+   active(true),
+   default_value('Ask about your Accounts, Media, or things to do'),
+   system_managed(false)
+);

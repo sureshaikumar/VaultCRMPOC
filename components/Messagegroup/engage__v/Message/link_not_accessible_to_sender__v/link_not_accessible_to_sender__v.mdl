@@ -1,0 +1,6 @@
+Message link_not_accessible_to_sender__v (
+   label(),
+   active(true),
+   default_value('You cannot open links you have sent, but your recipient can.'),
+   system_managed(false)
+);

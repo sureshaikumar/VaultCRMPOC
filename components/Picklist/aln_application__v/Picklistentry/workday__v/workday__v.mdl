@@ -1,0 +1,5 @@
+Picklistentry workday__v (
+   value('Workday'),
+   order(2),
+   active(true)
+);

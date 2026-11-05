@@ -1,0 +1,6 @@
+Picklistentry ie-ce__v (
+   value('Clare'),
+   order(1962),
+   active(true),
+   controlling_entries('ie__v')
+);

@@ -1,0 +1,6 @@
+Message content_group_delete_territory__v (
+   label(),
+   active(true),
+   default_value('Unassigning this Content Group will impact ${rm_num} Roster Members.'),
+   system_managed(false)
+);

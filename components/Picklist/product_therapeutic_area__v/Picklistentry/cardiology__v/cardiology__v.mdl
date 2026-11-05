@@ -1,0 +1,5 @@
+Picklistentry cardiology__v (
+   value('Cardiology'),
+   order(1),
+   active(true)
+);

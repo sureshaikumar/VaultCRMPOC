@@ -1,0 +1,5 @@
+Picklistentry hmea__v (
+   value('Healthcare Manufacturer'),
+   order(96),
+   active(true)
+);

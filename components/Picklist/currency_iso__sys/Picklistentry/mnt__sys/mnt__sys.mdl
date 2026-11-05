@@ -1,0 +1,5 @@
+Picklistentry mnt__sys (
+   value('MNT'),
+   order(118),
+   active(true)
+);

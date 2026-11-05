@@ -1,0 +1,6 @@
+Message invalid_email_address__v (
+   label(),
+   active(true),
+   default_value('Invalid email address'),
+   system_managed(false)
+);

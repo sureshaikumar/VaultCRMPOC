@@ -1,0 +1,6 @@
+Picklistentry bg-26__v (
+   value('Haskovo'),
+   order(398),
+   active(true),
+   controlling_entries('bg__v')
+);

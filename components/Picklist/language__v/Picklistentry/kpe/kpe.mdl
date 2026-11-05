@@ -1,0 +1,5 @@
+Picklistentry kpe (
+   value('Kpelle'),
+   order(226),
+   active(true)
+);

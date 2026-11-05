@@ -1,0 +1,6 @@
+Picklistentry ma-azi__v (
+   value('Azilal'),
+   order(2781),
+   active(true),
+   controlling_entries('ma__v')
+);

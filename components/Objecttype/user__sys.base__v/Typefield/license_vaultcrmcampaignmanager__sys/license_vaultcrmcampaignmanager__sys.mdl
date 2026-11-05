@@ -1,0 +1,4 @@
+Typefield license_vaultcrmcampaignmanager__sys (
+   source('standard'),
+   required(false)
+);

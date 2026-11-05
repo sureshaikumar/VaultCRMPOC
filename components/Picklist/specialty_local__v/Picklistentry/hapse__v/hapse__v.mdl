@@ -1,0 +1,6 @@
+Picklistentry hapse__v (
+   value('Hepatobiliary and Pancreatic Surgery'),
+   order(699),
+   active(true),
+   controlling_entries('kr__v')
+);

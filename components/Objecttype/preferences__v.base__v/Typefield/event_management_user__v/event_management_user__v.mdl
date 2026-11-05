@@ -1,0 +1,4 @@
+Typefield event_management_user__v (
+   source('standard'),
+   required(false)
+);

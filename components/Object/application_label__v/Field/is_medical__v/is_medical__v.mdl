@@ -1,0 +1,18 @@
+Field is_medical__v (
+   label('Is Medical'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('True if this record is applies to the Medical application.'),
+   list_column(false),
+   order(13),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

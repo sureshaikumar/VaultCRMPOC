@@ -1,0 +1,4 @@
+Typefield avg_time_svo_list_view__v (
+   source('standard'),
+   required(false)
+);

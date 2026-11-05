@@ -1,0 +1,5 @@
+Picklistentry average_calls_per_day__v (
+   value('Average Calls Per Day'),
+   order(0),
+   active(true)
+);

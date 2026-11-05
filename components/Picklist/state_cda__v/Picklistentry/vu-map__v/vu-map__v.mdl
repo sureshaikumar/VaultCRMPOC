@@ -1,0 +1,6 @@
+Picklistentry vu-map__v (
+   value('Malampa'),
+   order(4975),
+   active(true),
+   controlling_entries('vu__v')
+);

@@ -1,0 +1,23 @@
+Field team_attainment__v (
+   label('Team Attainment'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9999999.99),
+   min_value(0),
+   scale(2),
+   help_content('Team_Interactions_Earned_vod / Team_Interactions_Goal_vod. If no goals then value is blank.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

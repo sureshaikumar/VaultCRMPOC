@@ -1,0 +1,5 @@
+Picklistentry udm (
+   value('Udmurt'),
+   order(335),
+   active(true)
+);

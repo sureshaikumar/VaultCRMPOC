@@ -1,0 +1,5 @@
+Picklistentry cardiologyvascular_diseases__v (
+   value('Cardiology/Vascular Diseases'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry lu-di__v (
+   value('Diekirch'),
+   order(2691),
+   active(true),
+   controlling_entries('lu__v')
+);

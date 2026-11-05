@@ -1,0 +1,6 @@
+Message save_and_create__v (
+   label(),
+   active(true),
+   default_value('Save + Create'),
+   system_managed(false)
+);

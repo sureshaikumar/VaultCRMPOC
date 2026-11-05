@@ -1,0 +1,6 @@
+Picklistentry si-142__v (
+   value('Zagorje ob Savi'),
+   order(4116),
+   active(true),
+   controlling_entries('si__v')
+);

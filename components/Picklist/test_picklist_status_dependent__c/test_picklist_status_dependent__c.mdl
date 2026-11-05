@@ -1,0 +1,8 @@
+RECREATE Picklist test_picklist_status_dependent__c (
+   label('Test Picklist status dependent'),
+   active(true),
+   Picklistentry(@Picklistentry/mode1__c.mdl),
+   Picklistentry(@Picklistentry/mode2__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

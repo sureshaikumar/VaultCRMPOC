@@ -1,0 +1,6 @@
+Picklistentry bg-07__v (
+   value('Gabrovo'),
+   order(379),
+   active(true),
+   controlling_entries('bg__v')
+);

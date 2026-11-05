@@ -1,0 +1,4 @@
+Typefield total_remaining_schedule__v (
+   source('standard'),
+   required(false)
+);

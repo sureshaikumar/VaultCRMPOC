@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction new_state__v.change_state_to_active_useraction__c (
+   label('Change State to Proposal'),
+   rule(@rule.xml),
+   order(1001)
+);

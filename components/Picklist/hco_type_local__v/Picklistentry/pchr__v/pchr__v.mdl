@@ -1,0 +1,5 @@
+Picklistentry pchr__v (
+   value('Primary Care Hospitals'),
+   order(204),
+   active(true)
+);

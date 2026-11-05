@@ -1,0 +1,4 @@
+Typefield vod_data_privacy_opt_out__v (
+   source('standard'),
+   required(false)
+);

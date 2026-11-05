@@ -1,0 +1,4 @@
+Typefield how_does_gpo_announce_new_product__c (
+   source('standard'),
+   required(false)
+);

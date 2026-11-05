@@ -1,0 +1,6 @@
+Picklistentry is-sty__v (
+   value('Stykkishólmsbær'),
+   order(2147),
+   active(true),
+   controlling_entries('is__v')
+);

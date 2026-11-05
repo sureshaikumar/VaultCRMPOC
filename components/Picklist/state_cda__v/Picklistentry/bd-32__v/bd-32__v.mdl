@@ -1,0 +1,6 @@
+Picklistentry bd-32__v (
+   value('Lalmonirhat'),
+   order(261),
+   active(true),
+   controlling_entries('bd__v')
+);

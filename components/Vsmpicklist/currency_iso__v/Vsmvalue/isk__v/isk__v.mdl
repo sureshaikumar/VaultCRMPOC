@@ -1,0 +1,10 @@
+Vsmvalue isk__v (
+   label('ISK'),
+   active(true),
+   description('The Icelandic Króna (ISK), the official currency of Iceland, used for transactions and financial records involving Icelandic business operations.'),
+   synonyms('Icelandic krona',
+         'krona',
+         'Iceland currency'),
+   target('isk__sys'),
+   target_label('ISK')
+);

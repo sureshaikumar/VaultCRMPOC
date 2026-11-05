@@ -1,0 +1,6 @@
+Picklistentry si-100__v (
+   value('Radenci'),
+   order(4074),
+   active(true),
+   controlling_entries('si__v')
+);

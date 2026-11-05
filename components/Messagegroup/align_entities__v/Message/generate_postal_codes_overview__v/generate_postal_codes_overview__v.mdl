@@ -1,0 +1,6 @@
+Message generate_postal_codes_overview__v (
+   label(),
+   active(true),
+   default_value('Veeva-provided Geography records of type Postal Code will be generated for the selected country.'),
+   system_managed(false)
+);

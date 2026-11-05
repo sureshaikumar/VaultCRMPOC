@@ -1,0 +1,18 @@
+Field markets_mapped__v (
+   label('Markets Mapped?'),
+   type('Boolean'),
+   active(true),
+   description('The Markets Mapped checkbox indicates that the Sales File being loaded contains Multiple Markets of Sales Data and that a Data Map Template Field mapping has been created that maps a Field to the Market_vod__c field.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(21),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

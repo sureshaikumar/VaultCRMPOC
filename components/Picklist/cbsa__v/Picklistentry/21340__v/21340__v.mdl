@@ -1,0 +1,5 @@
+Picklistentry 21340__v (
+   value('El Paso, TX Metropolitan Statistical Area'),
+   order(711),
+   active(true)
+);

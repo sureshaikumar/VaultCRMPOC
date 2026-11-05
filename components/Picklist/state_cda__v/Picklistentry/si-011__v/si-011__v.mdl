@@ -1,0 +1,6 @@
+Picklistentry si-011__v (
+   value('Celje'),
+   order(3985),
+   active(true),
+   controlling_entries('si__v')
+);

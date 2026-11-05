@@ -1,0 +1,5 @@
+Picklistentry 34620__v (
+   value('Muncie, IN Metropolitan Statistical Area'),
+   order(234),
+   active(true)
+);

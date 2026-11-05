@@ -1,0 +1,7 @@
+Typefield date_threshold_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_business_rule_date_threshold_type__v.calendar_month__v',
+         'Picklist.em_business_rule_date_threshold_type__v.calendar_year__v',
+         'Picklist.em_business_rule_date_threshold_type__v.rolling__v')
+);

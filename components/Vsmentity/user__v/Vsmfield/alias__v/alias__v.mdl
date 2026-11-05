@@ -1,0 +1,11 @@
+Vsmfield alias__v (
+   label('Alias'),
+   active(true),
+   description('a standard text field on the User object that serves as a short identifier or nickname for the user'),
+   example_values(),
+   synonyms('nickname'),
+   target('alias__sys'),
+   target_label('Alias'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

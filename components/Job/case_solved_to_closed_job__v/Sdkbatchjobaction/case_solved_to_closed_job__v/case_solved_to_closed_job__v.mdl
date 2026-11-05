@@ -1,0 +1,6 @@
+Sdkbatchjobaction case_solved_to_closed_job__v (
+   job_metadata('Jobmetadata.case_solved_to_closed_job__v'),
+   label('Case Solved to Closed Job'),
+   parameters(),
+   primary_action(true)
+);

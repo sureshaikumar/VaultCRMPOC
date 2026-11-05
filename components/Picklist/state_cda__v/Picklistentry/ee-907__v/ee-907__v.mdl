@@ -1,0 +1,6 @@
+Picklistentry ee-907__v (
+   value('Vormsi'),
+   order(1154),
+   active(true),
+   controlling_entries('ee__v')
+);

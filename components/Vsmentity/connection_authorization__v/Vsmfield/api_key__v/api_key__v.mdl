@@ -1,0 +1,14 @@
+Vsmfield api_key__v (
+   label('API Key'),
+   active(true),
+   description('The API key credential used to authenticate with an external system or service via a connection authorization. Used when the integration requires key-based authentication rather than username/password or OAuth.'),
+   example_values(),
+   synonyms('API token',
+         'access key',
+         'auth key',
+         'token'),
+   target('api_key__sys'),
+   target_label('API Key'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

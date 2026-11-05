@@ -1,0 +1,6 @@
+Picklistentry gb-mik__v (
+   value('Milton Keynes'),
+   order(1566),
+   active(true),
+   controlling_entries('gb__v')
+);

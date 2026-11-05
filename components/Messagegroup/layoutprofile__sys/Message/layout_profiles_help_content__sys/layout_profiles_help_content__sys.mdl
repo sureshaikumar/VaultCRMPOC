@@ -1,0 +1,6 @@
+Message layout_profiles_help_content__sys (
+   label(),
+   active(true),
+   default_value('Use this page to manage layout profiles, which define layouts available to users for viewing object record details.'),
+   system_managed(false)
+);

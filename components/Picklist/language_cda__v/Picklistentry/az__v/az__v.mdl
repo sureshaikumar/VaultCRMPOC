@@ -1,0 +1,5 @@
+Picklistentry az__v (
+   value('Azerbaijani'),
+   order(4),
+   active(true)
+);

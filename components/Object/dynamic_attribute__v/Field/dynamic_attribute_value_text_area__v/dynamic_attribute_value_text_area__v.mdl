@@ -1,0 +1,17 @@
+Field dynamic_attribute_value_text_area__v (
+   label('Dynamic Attribute Value (Text Area)'),
+   type('LongText'),
+   active(true),
+   description('This field holds the Dynamic Attribute value if the record type of the Dynamic Attribute Configuration record is Text_Area_vod, or Picklist_vod.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

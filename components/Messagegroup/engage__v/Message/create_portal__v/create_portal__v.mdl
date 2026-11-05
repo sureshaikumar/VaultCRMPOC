@@ -1,0 +1,6 @@
+Message create_portal__v (
+   label(),
+   active(true),
+   default_value('Create Portal'),
+   system_managed(false)
+);

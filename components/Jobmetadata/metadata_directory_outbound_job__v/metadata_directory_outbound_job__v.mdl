@@ -1,0 +1,11 @@
+RECREATE Jobmetadata metadata_directory_outbound_job__v (
+   label('Commercial Metadata Directory Outbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that sends a spark message to a Commercial Vault indicating that there is updated Directory metadata ready to be synced from Vault CRM.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.commercialmetadata.jobs.CommercialMetadataDirectoryOutboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

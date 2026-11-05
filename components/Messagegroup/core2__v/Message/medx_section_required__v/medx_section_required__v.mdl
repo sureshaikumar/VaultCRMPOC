@@ -1,0 +1,6 @@
+Message medx_section_required__v (
+   label(),
+   active(true),
+   default_value('At least one section is required to submit a medical interaction.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ddale__v (
+   value('Defense, Disaster and Law Enforcement Medicine'),
+   order(354),
+   active(true),
+   controlling_entries('hu__v')
+);

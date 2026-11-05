@@ -1,0 +1,5 @@
+Picklistentry reopened__v (
+   value('Reopened'),
+   order(4),
+   active(true)
+);

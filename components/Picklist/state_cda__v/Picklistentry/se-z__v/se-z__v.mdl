@@ -1,0 +1,6 @@
+Picklistentry se-z__v (
+   value('Jämtlands County'),
+   order(3966),
+   active(true),
+   controlling_entries('se__v')
+);

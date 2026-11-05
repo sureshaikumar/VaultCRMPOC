@@ -1,0 +1,5 @@
+Picklistentry external_attendee__v (
+   value('External Attendee'),
+   order(1),
+   active(true)
+);

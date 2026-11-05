@@ -1,0 +1,6 @@
+Message media_file_unavailable__v (
+   label(),
+   active(true),
+   default_value('File is unavailable for current media file name'),
+   system_managed(false)
+);

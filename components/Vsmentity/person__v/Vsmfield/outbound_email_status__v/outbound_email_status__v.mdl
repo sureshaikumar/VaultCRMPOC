@@ -1,0 +1,13 @@
+Vsmfield outbound_email_status__v (
+   label('Outbound Email Status'),
+   active(true),
+   description('Indicates the status of an outbound email address in the Email field if an Outbound Email Domain was created. An outbound email address needs to be successfully verified to be Active. This is used when Vault is configured to use Outbound Email Domain functionality to send communications to Persons, such as with Site Surveys in Clinical Operations.'),
+   example_values(),
+   synonyms('email status',
+         'email deliverability',
+         'email opt-out'),
+   target('outbound_email_status__sys'),
+   target_label('Outbound Email Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

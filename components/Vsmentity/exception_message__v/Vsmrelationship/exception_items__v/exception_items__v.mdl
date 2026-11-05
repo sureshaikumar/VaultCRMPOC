@@ -1,0 +1,14 @@
+Vsmrelationship exception_items__v (
+   label('Exception Items'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('The individual exception items associated with this user exception message. Use this to access the specific records or entries that triggered or are part of the exception, e.g., exception_items__sysr.name__v to retrieve item details.'),
+   join_object(),
+   synonyms('exception items',
+         'related items',
+         'items in exception',
+         'affected items'),
+   target('exception_items__sysr'),
+   target_label('User Exception Items'),
+   target_object('exception_item__sys')
+);

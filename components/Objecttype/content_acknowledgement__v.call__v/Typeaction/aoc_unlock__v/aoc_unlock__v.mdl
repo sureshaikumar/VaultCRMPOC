@@ -1,0 +1,3 @@
+Typeaction aoc_unlock__v (
+   action('content_acknowledgement__v.aoc_unlock__v')
+);

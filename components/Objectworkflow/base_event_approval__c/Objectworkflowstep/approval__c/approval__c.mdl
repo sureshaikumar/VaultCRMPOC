@@ -1,0 +1,8 @@
+Objectworkflowstep approval__c (
+   label('Approval'),
+   type('placeholder'),
+   next_steps(),
+   tags(),
+   step_detail(),
+   description()
+);

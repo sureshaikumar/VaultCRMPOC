@@ -1,0 +1,6 @@
+Picklistentry otp_tets2__sys (
+   value('tets2'),
+   order(167),
+   active(true),
+   controlling_entries('olc_testobjectdemolifecycle__sys')
+);

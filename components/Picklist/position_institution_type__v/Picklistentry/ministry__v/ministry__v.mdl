@@ -1,0 +1,5 @@
+Picklistentry ministry__v (
+   value('Ministry'),
+   order(12),
+   active(true)
+);

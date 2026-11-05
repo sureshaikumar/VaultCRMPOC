@@ -1,0 +1,8 @@
+Objectlayout call2_callreport__c (
+   label('Call Call Report'),
+   active(true),
+   pagelayouts('Pagelayout.cee_call_report_detail_page_layout__c'),
+   object('Object.call2__v'),
+   objecttype('Objecttype.call2__v.callreport__v'),
+   record_creation_layout('Pagelayout.cee_call_report_detail_page_layout__c')
+);

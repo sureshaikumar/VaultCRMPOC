@@ -1,0 +1,6 @@
+Picklistentry ug-412__v (
+   value('Rukungiri'),
+   order(4754),
+   active(true),
+   controlling_entries('ug__v')
+);

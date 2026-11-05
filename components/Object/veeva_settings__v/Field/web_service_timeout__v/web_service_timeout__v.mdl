@@ -1,0 +1,22 @@
+Field web_service_timeout__v (
+   label('WEB SERVICE TIMEOUT'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content('The number of seconds to wait for a web service (SOAP, REST) response until a timeout occurs.'),
+   list_column(false),
+   order(311),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

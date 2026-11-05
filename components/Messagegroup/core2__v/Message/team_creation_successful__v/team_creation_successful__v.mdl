@@ -1,0 +1,6 @@
+Message team_creation_successful__v (
+   label(),
+   active(true),
+   default_value('Team creation successful.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry syp__sys (
+   value('SYP'),
+   order(173),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 39220__v (
+   value('Price, UT Micropolitan Statistical Area'),
+   order(40),
+   active(true)
+);

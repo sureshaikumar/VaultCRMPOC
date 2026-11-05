@@ -1,0 +1,6 @@
+Picklistentry ca-ns__v (
+   value('Nova Scotia'),
+   order(564),
+   active(true),
+   controlling_entries('ca__v')
+);

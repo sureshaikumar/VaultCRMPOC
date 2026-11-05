@@ -1,0 +1,6 @@
+Message start_a_chat__v (
+   label(),
+   active(true),
+   default_value('Start a Chat'),
+   system_managed(false)
+);

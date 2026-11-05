@@ -1,0 +1,5 @@
+Picklistentry kaa (
+   value('Kara-Kalpak'),
+   order(213),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry dashboard__sys (
+   value('Dashboard'),
+   order(3),
+   active(true)
+);

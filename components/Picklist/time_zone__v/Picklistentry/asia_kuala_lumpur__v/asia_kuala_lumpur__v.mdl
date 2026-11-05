@@ -1,0 +1,5 @@
+Picklistentry asia_kuala_lumpur__v (
+   value('Malaysia Time'),
+   order(17),
+   active(true)
+);

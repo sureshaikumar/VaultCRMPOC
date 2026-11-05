@@ -1,0 +1,6 @@
+Picklistentry asote__v (
+   value('Anterior Segment of the Eye'),
+   order(96),
+   active(true),
+   controlling_entries('hr__v')
+);

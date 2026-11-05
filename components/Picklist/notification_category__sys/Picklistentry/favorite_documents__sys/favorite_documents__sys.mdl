@@ -1,0 +1,5 @@
+Picklistentry favorite_documents__sys (
+   value('Favorite Documents'),
+   order(5),
+   active(true)
+);

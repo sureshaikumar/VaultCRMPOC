@@ -1,0 +1,5 @@
+Picklistentry pacific_chatham__sys (
+   value('(GMT+12:45) Chatham Standard Time (Pacific/Chatham)'),
+   order(309),
+   active(true)
+);

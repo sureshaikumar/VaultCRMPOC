@@ -1,0 +1,22 @@
+RECREATE Permissionset content_metrics_integration_permission_set__v (
+   label('Content Usage Metrics Integration Permission Set'),
+   active(true),
+   description('Permissions to support off-platform Content Usage Metrics integrations.'),
+   object.clm_content_metrics__v.base__v.object_actions('create',
+      'delete'),
+   object.clm_content_metrics__v.field_actions('edit',
+      'read'),
+   object.clm_content_metrics__v.pres_level_metrics__v.object_actions('create',
+      'delete'),
+   object.clm_content_metrics__v.slide_level_metrics__v.object_actions('create',
+      'delete'),
+   object.connection_settings__v.base__v.object_actions('edit'),
+   object.connection_settings__v.clm_integration_settings__v.object_actions('edit'),
+   object.connection_settings__v.field_actions('edit',
+      'read'),
+   vault_actions.api('access_api'),
+   vault_actions.ftp_staging('fsa_access_root_folder',
+      'ftp_access'),
+   vault_actions.search('suggest'),
+   vault_owner_actions('vault_loader')
+);

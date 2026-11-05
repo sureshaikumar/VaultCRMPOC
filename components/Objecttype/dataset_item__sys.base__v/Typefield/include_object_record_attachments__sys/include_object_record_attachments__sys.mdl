@@ -1,0 +1,4 @@
+Typefield include_object_record_attachments__sys (
+   source('standard'),
+   required(false)
+);

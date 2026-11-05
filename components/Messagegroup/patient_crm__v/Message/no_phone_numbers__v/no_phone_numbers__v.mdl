@@ -1,0 +1,6 @@
+Message no_phone_numbers__v (
+   label(),
+   active(true),
+   default_value('No Phone Numbers'),
+   system_managed(false)
+);

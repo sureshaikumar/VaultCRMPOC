@@ -1,0 +1,8 @@
+RECREATE Pagelayout agent_action_execution_detail_page_layou__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Agent Action Execution Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

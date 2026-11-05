@@ -1,0 +1,14 @@
+RECREATE Page concur_integration_administration_page__v (
+   label('Concur Integration Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code('concur_integration_administration_page__v'),
+   description('Concur Integration Administration page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.concurintegration.controls.ConcurIntegrationAdminPageController'),
+   url_path_name('concur-administration')
+);

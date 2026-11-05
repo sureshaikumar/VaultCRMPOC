@@ -1,0 +1,4 @@
+Typefield flat_fee_expense__v (
+   source('standard'),
+   required(false)
+);

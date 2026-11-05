@@ -1,0 +1,5 @@
+Picklistentry olc_checklist_design_translations__sys (
+   value('Checklist Design Translations'),
+   order(14),
+   active(true)
+);

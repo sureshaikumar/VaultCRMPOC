@@ -1,0 +1,5 @@
+Picklistentry rub__sys (
+   value('RUB'),
+   order(151),
+   active(true)
+);

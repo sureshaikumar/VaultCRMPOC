@@ -1,0 +1,6 @@
+Message clear_search__v (
+   label(),
+   active(true),
+   default_value('Clear Search'),
+   system_managed(false)
+);

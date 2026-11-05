@@ -1,0 +1,5 @@
+Picklistentry 10580__v (
+   value('Albany-Schenectady-Troy, NY Metropolitan Statistical Area'),
+   order(554),
+   active(true)
+);

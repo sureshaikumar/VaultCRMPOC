@@ -1,0 +1,5 @@
+Picklistentry bik__v (
+   value('Bikol'),
+   order(37),
+   active(false)
+);

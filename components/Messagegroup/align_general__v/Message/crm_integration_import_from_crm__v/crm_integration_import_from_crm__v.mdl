@@ -1,0 +1,6 @@
+Message crm_integration_import_from_crm__v (
+   label(),
+   active(true),
+   default_value('Import from CRM'),
+   system_managed(false)
+);

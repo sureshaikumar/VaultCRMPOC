@@ -1,0 +1,8 @@
+RECREATE Objectaction business_event_task__v.complete_task__v (
+   label('Complete Task'),
+   description('Executing this action will change the task status to completed.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.eppvpi.actions.BusinessEventTaskCompleteTaskAction'),
+   active(true),
+   available_all_states(true)
+);

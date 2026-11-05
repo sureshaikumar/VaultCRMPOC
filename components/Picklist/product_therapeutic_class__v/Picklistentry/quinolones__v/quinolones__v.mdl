@@ -1,0 +1,5 @@
+Picklistentry quinolones__v (
+   value('Quinolones'),
+   order(67),
+   active(true)
+);

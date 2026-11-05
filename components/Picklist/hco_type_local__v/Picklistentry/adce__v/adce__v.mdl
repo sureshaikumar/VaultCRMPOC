@@ -1,0 +1,5 @@
+Picklistentry adce__v (
+   value('Academic Department'),
+   order(0),
+   active(true)
+);

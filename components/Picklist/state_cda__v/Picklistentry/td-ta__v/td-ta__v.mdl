@@ -1,0 +1,6 @@
+Picklistentry td-ta__v (
+   value('Tānjilī'),
+   order(4320),
+   active(true),
+   controlling_entries('td__v')
+);

@@ -1,0 +1,6 @@
+Message rule_competed_terr_or_ff__v (
+   label(),
+   active(true),
+   default_value('Rule preview completed for ${entity_name}'),
+   system_managed(false)
+);

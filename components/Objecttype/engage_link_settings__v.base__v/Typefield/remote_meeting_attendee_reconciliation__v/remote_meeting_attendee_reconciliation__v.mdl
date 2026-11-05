@@ -1,0 +1,4 @@
+Typefield remote_meeting_attendee_reconciliation__v (
+   source('standard'),
+   required(false)
+);

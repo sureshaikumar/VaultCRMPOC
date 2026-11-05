@@ -1,0 +1,6 @@
+Message disconnect_waba_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to disconnect "${whatsapp_business_account_name}"?'),
+   system_managed(false)
+);

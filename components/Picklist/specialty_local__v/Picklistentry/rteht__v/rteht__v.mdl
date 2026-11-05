@@ -1,0 +1,6 @@
+Picklistentry rteht__v (
+   value('Respiratory Therapists'),
+   order(1743),
+   active(true),
+   controlling_entries('tw__v')
+);

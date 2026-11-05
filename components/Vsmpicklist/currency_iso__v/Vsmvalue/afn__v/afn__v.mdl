@@ -1,0 +1,9 @@
+Vsmvalue afn__v (
+   label('AFN'),
+   active(true),
+   description('The Afghan Afghani (AFN), the official currency of Afghanistan, introduced in 2003 to replace the previous afghani.'),
+   synonyms('Afghan afghani',
+         'Afghanistan currency'),
+   target('afn__sys'),
+   target_label('AFN')
+);

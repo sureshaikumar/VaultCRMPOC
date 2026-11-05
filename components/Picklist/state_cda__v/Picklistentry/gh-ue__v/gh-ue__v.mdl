@@ -1,0 +1,6 @@
+Picklistentry gh-ue__v (
+   value('Upper East'),
+   order(1700),
+   active(true),
+   controlling_entries('gh__v')
+);

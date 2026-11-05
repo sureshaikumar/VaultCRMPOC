@@ -1,0 +1,6 @@
+Picklistentry ke-30__v (
+   value('Nairobi City'),
+   order(2383),
+   active(true),
+   controlling_entries('ke__v')
+);

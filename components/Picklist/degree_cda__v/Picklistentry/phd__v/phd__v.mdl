@@ -1,0 +1,5 @@
+Picklistentry phd__v (
+   value('PhD'),
+   order(8),
+   active(true)
+);

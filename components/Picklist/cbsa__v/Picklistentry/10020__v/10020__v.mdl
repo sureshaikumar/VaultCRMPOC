@@ -1,0 +1,5 @@
+Picklistentry 10020__v (
+   value('Abbeville, LA Micropolitan Statistical Area'),
+   order(462),
+   active(true)
+);

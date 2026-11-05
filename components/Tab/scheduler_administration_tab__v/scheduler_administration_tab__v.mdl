@@ -1,0 +1,11 @@
+RECREATE Tab scheduler_administration_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Process Scheduler'),
+   order(2400),
+   page('Page.scheduler_administration_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

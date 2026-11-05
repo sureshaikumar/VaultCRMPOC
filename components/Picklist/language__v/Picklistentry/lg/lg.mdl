@@ -1,0 +1,5 @@
+Picklistentry lg (
+   value('Lugandan'),
+   order(55),
+   active(true)
+);

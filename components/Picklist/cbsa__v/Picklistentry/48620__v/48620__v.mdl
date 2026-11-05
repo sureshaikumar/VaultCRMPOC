@@ -1,0 +1,5 @@
+Picklistentry 48620__v (
+   value('Wichita, KS Metropolitan Statistical Area'),
+   order(426),
+   active(true)
+);

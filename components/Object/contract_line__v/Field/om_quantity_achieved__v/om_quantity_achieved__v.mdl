@@ -1,0 +1,22 @@
+Field om_quantity_achieved__v (
+   label('OM Quantity Achieved'),
+   type('Number'),
+   active(true),
+   description('Calculated by batch job. Shows progress against the defined target.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

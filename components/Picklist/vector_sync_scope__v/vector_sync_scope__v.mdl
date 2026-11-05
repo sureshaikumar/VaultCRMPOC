@@ -1,0 +1,10 @@
+RECREATE Picklist vector_sync_scope__v (
+   label('Vector Sync Scope'),
+   active(true),
+   Picklistentry(@Picklistentry/clm_presentations__v.mdl),
+   Picklistentry(@Picklistentry/compliance_documents__v.mdl),
+   Picklistentry(@Picklistentry/pi_documents__v.mdl),
+   Picklistentry(@Picklistentry/clm_document_model_presentations__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

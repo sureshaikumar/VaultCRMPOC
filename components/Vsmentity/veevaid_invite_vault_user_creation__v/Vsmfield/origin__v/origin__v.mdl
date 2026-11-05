@@ -1,0 +1,13 @@
+Vsmfield origin__v (
+   label('Origin'),
+   active(true),
+   description('Indicates the source or originating system/process that generated this VeevaID invite. Useful for auditing and filtering records based on how or where the invite was initiated.'),
+   example_values(),
+   synonyms('source',
+         'invite source',
+         'origination'),
+   target('origin__sys'),
+   target_label('Origin'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

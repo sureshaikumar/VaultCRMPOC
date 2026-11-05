@@ -1,0 +1,8 @@
+RECREATE Atomicsecurity medical_inquiry__v.medical_inquiry_lifecycle__v.submitted_state__v.atomic_security__c (
+   label('Medical Inquiry-Medical Inquiry Li-Submitted'),
+   active(true),
+   object('Object.medical_inquiry__v'),
+   object_lifecycle('Objectlifecycle.medical_inquiry_lifecycle__v'),
+   state('Objectlifecyclestate.submitted_state__v'),
+   Fieldsecurity(@Fieldsecurity/DEFAULT.read__v.field_security__c.mdl)
+);

@@ -1,0 +1,19 @@
+Field parent_expense_type_name__v (
+   label('Parent Expense Type Name'),
+   type('String'),
+   active(true),
+   description('Stamped value of the parent expense type as the expense was recorded. This value will remain constant even if the expense type changes.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

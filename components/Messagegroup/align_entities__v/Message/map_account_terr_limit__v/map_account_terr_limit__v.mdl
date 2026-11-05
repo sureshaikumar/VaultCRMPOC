@@ -1,0 +1,6 @@
+Message map_account_terr_limit__v (
+   label(),
+   active(true),
+   default_value('Account Territory Limit Exceeded'),
+   system_managed(false)
+);

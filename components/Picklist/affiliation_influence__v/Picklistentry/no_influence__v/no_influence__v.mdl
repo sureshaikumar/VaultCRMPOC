@@ -1,0 +1,5 @@
+Picklistentry no_influence__v (
+   value('No influence'),
+   order(0),
+   active(true)
+);

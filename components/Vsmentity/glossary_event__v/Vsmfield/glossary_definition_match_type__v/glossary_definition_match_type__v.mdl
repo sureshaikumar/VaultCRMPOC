@@ -1,0 +1,14 @@
+Vsmfield glossary_definition_match_type__v (
+   label('Match Type'),
+   active(true),
+   description('Indicates how the glossary term was matched during the search event, such as Precise or Fuzzy. Use this to understand the precision of glossary lookups and evaluate search quality.'),
+   example_values(),
+   synonyms('match type',
+         'how matched',
+         'match method',
+         'lookup type'),
+   target('glossary_definition_match_type__sys'),
+   target_label('Match Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

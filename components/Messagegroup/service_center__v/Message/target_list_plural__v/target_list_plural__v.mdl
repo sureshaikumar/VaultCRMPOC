@@ -1,0 +1,6 @@
+Message target_list_plural__v (
+   label(),
+   active(true),
+   default_value('Target Lists'),
+   system_managed(false)
+);

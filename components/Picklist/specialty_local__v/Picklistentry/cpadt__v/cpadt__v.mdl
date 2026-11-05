@@ -1,0 +1,6 @@
+Picklistentry cpadt__v (
+   value('Clinical Pharmacology and Drug Therapy'),
+   order(279),
+   active(true),
+   controlling_entries('fi__v')
+);

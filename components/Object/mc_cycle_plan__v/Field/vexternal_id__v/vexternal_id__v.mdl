@@ -1,0 +1,19 @@
+Field vexternal_id__v (
+   label('Veeva External ID'),
+   type('String'),
+   active(true),
+   description('System set to prevent duplicate Cycle Plans for a single Territory for a Cycle. Value = Cycle_vod__c + __ + Territory_vod'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(37),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

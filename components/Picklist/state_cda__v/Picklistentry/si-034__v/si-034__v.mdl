@@ -1,0 +1,6 @@
+Picklistentry si-034__v (
+   value('Hrastnik'),
+   order(4008),
+   active(true),
+   controlling_entries('si__v')
+);

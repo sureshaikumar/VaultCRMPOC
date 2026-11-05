@@ -1,0 +1,6 @@
+Message rule_criteria_hierarchy_criteria__v (
+   label(),
+   active(true),
+   default_value('Account Hierarchy Criteria'),
+   system_managed(false)
+);

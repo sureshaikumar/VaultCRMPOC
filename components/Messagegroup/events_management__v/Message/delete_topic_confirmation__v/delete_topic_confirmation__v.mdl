@@ -1,0 +1,6 @@
+Message delete_topic_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to remove this topic and its associated speakers?'),
+   system_managed(false)
+);

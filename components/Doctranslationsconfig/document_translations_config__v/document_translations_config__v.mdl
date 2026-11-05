@@ -1,0 +1,6 @@
+RECREATE Doctranslationsconfig document_translations_config__v (
+   label('Default Document Translations Configuration'),
+   active(true),
+   document_relationship('Docrelationshiptype.translation_of__v'),
+   excluded_copy_fields()
+);

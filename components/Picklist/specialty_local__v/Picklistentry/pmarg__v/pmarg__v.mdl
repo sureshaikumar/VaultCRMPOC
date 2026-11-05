@@ -1,0 +1,6 @@
+Picklistentry pmarg__v (
+   value('Physical Medicine and Rehabilitation Geriatric'),
+   order(1545),
+   active(true),
+   controlling_entries('id__v')
+);

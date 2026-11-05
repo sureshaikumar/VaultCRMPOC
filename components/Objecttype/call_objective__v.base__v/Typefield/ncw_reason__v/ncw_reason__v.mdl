@@ -1,0 +1,4 @@
+Typefield ncw_reason__v (
+   source('standard'),
+   required(false)
+);

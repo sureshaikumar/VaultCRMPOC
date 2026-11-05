@@ -1,0 +1,6 @@
+Message crm_integration_aiu_missing_username__v (
+   label(),
+   active(true),
+   default_value('Username is required.'),
+   system_managed(false)
+);

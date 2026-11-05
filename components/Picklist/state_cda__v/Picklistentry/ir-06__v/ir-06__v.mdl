@@ -1,0 +1,6 @@
+Picklistentry ir-06__v (
+   value('Khūzestān'),
+   order(2058),
+   active(true),
+   controlling_entries('ir__v')
+);

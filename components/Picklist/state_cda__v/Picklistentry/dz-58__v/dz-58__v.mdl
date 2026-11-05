@@ -1,0 +1,6 @@
+Picklistentry dz-58__v (
+   value('El Meniaa'),
+   order(1039),
+   active(true),
+   controlling_entries('dz__v')
+);

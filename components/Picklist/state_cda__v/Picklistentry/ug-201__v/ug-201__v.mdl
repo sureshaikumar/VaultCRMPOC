@@ -1,0 +1,6 @@
+Picklistentry ug-201__v (
+   value('Bugiri'),
+   order(4669),
+   active(true),
+   controlling_entries('ug__v')
+);

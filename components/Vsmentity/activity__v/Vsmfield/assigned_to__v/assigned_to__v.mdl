@@ -1,0 +1,14 @@
+Vsmfield assigned_to__v (
+   label('Assigned To'),
+   active(true),
+   description('The user or team member to whom this activity is assigned and responsible for completion. Use to filter activities by owner or find all activities assigned to a specific person.'),
+   example_values(),
+   synonyms('owner',
+         'assignee',
+         'responsible user',
+         'who owns'),
+   target('assigned_to__v'),
+   target_label('Assigned To'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

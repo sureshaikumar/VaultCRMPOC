@@ -1,0 +1,17 @@
+Field processing_message__c (
+   label('Processing Message'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

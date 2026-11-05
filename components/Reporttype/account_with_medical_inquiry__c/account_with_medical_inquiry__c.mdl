@@ -1,0 +1,9 @@
+RECREATE Reporttype account_with_medical_inquiry__c (
+   label('Account with Medical Inquiry'),
+   active(true),
+   description('Account with Medical Inquiries (Account)'),
+   primary_object('account__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

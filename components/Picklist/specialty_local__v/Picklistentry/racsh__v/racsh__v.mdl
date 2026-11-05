@@ -1,0 +1,7 @@
+Picklistentry racsh__v (
+   value('Rhythmology and Cardiac Stimulation'),
+   order(1755),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

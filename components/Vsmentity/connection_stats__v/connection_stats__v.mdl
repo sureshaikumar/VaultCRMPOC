@@ -1,0 +1,16 @@
+RECREATE Vsmentity connection_stats__v (
+   label('Connection Stats'),
+   active(true),
+   description('System-level object that tracks and stores statistical data about connections within Vault, such as integration endpoints, API connections, or network activity. Connection Stats are used to monitor the health, performance, and usage patterns of system integrations and data flows. This object is typically used by system administrators and integration teams to diagnose connectivity issues, audit usage, and optimize integration performance.'),
+   synonyms('connection statistics',
+      'connectivity stats',
+      'integration stats',
+      'connection metrics'),
+   target('Object.connection_stats__sys'),
+   target_label('Connection Stats'),
+   Vsmfield(@Vsmfield/connection__v.mdl),
+   Vsmfield(@Vsmfield/messages_failed__v.mdl),
+   Vsmfield(@Vsmfield/messages_received__v.mdl),
+   Vsmfield(@Vsmfield/messages_sent__v.mdl),
+   Vsmrelationship(@Vsmrelationship/connection__v.mdl)
+);

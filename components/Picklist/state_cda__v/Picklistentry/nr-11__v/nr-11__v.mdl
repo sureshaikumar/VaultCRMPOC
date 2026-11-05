@@ -1,0 +1,6 @@
+Picklistentry nr-11__v (
+   value('Meneng'),
+   order(3422),
+   active(true),
+   controlling_entries('nr__v')
+);

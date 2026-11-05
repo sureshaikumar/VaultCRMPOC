@@ -1,0 +1,6 @@
+Picklistentry doips__v (
+   value('Dispensing Opticians'),
+   order(453),
+   active(true),
+   controlling_entries('nz__v')
+);

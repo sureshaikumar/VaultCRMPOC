@@ -1,0 +1,6 @@
+Picklistentry imaea__v (
+   value('Internal Medicine and Endocrinology and Diabetology'),
+   order(786),
+   active(true),
+   controlling_entries('at__v')
+);

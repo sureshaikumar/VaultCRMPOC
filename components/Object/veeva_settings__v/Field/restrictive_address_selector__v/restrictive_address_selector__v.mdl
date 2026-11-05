@@ -1,0 +1,18 @@
+Field restrictive_address_selector__v (
+   label('Restrictive Address Selector'),
+   type('Boolean'),
+   active(true),
+   description('In order management if this flag is checked, users can choose addresses only flagged as Billing or Shipping'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(263),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

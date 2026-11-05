@@ -1,0 +1,6 @@
+Picklistentry ch-fr__v (
+   value('Freiburg'),
+   order(633),
+   active(true),
+   controlling_entries('ch__v')
+);

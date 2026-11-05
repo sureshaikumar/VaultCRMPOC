@@ -1,0 +1,5 @@
+Picklistentry america_eirunepe__sys (
+   value('(GMT-05:00) Acre Time (America/Eirunepe)'),
+   order(57),
+   active(true)
+);

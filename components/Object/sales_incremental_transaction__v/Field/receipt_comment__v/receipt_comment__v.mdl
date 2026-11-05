@@ -1,0 +1,19 @@
+Field receipt_comment__v (
+   label('Receipt Comment'),
+   type('String'),
+   active(true),
+   description('Comment on Receipt by pharmacy'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

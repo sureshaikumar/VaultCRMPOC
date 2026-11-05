@@ -1,0 +1,6 @@
+Message last_call_date__v (
+   label(),
+   active(true),
+   default_value('Last Call Date'),
+   system_managed(false)
+);

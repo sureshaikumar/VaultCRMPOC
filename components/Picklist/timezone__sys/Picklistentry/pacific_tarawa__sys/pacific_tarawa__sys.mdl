@@ -1,0 +1,5 @@
+Picklistentry pacific_tarawa__sys (
+   value('(GMT+12:00) Gilbert Island Time (Pacific/Tarawa)'),
+   order(304),
+   active(true)
+);

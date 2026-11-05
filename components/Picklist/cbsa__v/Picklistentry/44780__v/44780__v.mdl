@@ -1,0 +1,5 @@
+Picklistentry 44780__v (
+   value('Sturgis, MI Micropolitan Statistical Area'),
+   order(811),
+   active(true)
+);

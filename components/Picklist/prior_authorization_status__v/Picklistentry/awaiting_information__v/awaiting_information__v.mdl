@@ -1,0 +1,5 @@
+Picklistentry awaiting_information__v (
+   value('Awaiting Information'),
+   order(1),
+   active(true)
+);

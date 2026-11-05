@@ -1,0 +1,6 @@
+Picklistentry gaenn__v (
+   value('General Anatomy'),
+   order(587),
+   active(true),
+   controlling_entries('dz__v')
+);

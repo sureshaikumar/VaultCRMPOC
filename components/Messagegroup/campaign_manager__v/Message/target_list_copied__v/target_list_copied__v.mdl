@@ -1,0 +1,6 @@
+Message target_list_copied__v (
+   label(),
+   active(true),
+   default_value('Target List Copied'),
+   system_managed(false)
+);

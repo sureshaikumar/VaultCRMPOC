@@ -1,0 +1,6 @@
+Picklistentry ca-yt__v (
+   value('Yukon Territory'),
+   order(571),
+   active(true),
+   controlling_entries('ca__v')
+);

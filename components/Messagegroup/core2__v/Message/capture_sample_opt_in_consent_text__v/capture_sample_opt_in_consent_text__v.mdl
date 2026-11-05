@@ -1,0 +1,6 @@
+Message capture_sample_opt_in_consent_text__v (
+   label(),
+   active(true),
+   default_value('Capture consent to submit samples with the call report.'),
+   system_managed(false)
+);

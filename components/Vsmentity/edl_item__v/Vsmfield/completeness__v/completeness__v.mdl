@@ -1,0 +1,14 @@
+Vsmfield completeness__v (
+   label('Completeness'),
+   active(true),
+   description('Picklist indicating the completeness state of this EDL item, reflecting whether the required documents have been submitted and meet expectations. Common values may include complete, incomplete, or not applicable. Use to track submission readiness and identify gaps in a dossier or submission package.'),
+   example_values(),
+   synonyms('complete status',
+         'EDL completeness',
+         'item completeness',
+         'fulfillment status'),
+   target('completeness__v'),
+   target_label('Completeness'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

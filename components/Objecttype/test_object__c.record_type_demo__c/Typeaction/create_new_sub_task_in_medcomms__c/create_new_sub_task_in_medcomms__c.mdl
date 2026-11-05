@@ -1,0 +1,3 @@
+Typeaction create_new_sub_task_in_medcomms__c (
+   action('test_object__c.create_new_sub_task_in_medcomms__c')
+);

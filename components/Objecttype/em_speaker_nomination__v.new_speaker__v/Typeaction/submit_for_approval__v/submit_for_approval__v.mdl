@@ -1,0 +1,3 @@
+Typeaction submit_for_approval__v (
+   action('em_speaker_nomination__v.submit_for_approval__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-201__v (
+   value('Renče-Vogrsko'),
+   order(4174),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,18 @@
+Field transfer_type__v (
+   label('Transfer Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates if the transfer is a cold or warm transfer.'),
+   list_column(false),
+   order(40),
+   multi_value(false),
+   picklist('Picklist.console_application_transfer_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

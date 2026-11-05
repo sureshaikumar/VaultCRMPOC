@@ -1,0 +1,6 @@
+Picklistentry es-as__v (
+   value('Asturias, Principado de'),
+   order(1196),
+   active(true),
+   controlling_entries('es__v')
+);

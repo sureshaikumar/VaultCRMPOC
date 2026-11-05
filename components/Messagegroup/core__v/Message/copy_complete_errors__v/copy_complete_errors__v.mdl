@@ -1,0 +1,6 @@
+Message copy_complete_errors__v (
+   label(),
+   active(true),
+   default_value('Errors Found Copying to Another Vault'),
+   system_managed(false)
+);

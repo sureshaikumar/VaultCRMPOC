@@ -1,0 +1,6 @@
+Message mccp_feedback_accts_in_geography__v (
+   label(),
+   active(true),
+   default_value('Accounts in Geography'),
+   system_managed(false)
+);

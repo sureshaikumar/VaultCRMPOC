@@ -1,0 +1,6 @@
+Picklistentry ni-sj__v (
+   value('Río San Juan'),
+   order(3373),
+   active(true),
+   controlling_entries('ni__v')
+);

@@ -1,0 +1,19 @@
+Field rendition_md5__v (
+   label('Rendition MD5'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(32),
+   help_content('MD5 checksum of the viewable rendition'),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

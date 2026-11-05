@@ -1,0 +1,5 @@
+Picklistentry schwarz_pharma_u_s_a__v (
+   value('Schwarz Pharma U.S.A.'),
+   order(35),
+   active(true)
+);

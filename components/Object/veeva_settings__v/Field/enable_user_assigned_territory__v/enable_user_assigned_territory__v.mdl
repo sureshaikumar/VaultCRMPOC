@@ -1,0 +1,18 @@
+Field enable_user_assigned_territory__v (
+   label('Enable User Assigned Territory'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the Territory field is displayed as a picklist or read-only field when creating a new Account using the New Record Type Wizard or Parent Account Wizard. Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(185),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

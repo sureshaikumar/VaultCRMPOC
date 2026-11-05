@@ -1,0 +1,6 @@
+Picklistentry lc-12__v (
+   value('Canaries'),
+   order(2548),
+   active(true),
+   controlling_entries('lc__v')
+);

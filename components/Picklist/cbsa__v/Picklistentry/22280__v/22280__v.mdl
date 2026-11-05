@@ -1,0 +1,5 @@
+Picklistentry 22280__v (
+   value('Fernley, NV Micropolitan Statistical Area'),
+   order(232),
+   active(true)
+);

@@ -1,0 +1,12 @@
+Vsmfield activity_state__v (
+   label('State'),
+   active(true),
+   description('The current workflow or lifecycle state of the activity record (e.g., draft, active, completed, cancelled). Use this to filter activities by their position in the workflow process, distinct from the status picklist which may reflect business-level categorization.'),
+   example_values(),
+   synonyms('state',
+         'lifecycle state'),
+   target('activity_state__v'),
+   target_label('State'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

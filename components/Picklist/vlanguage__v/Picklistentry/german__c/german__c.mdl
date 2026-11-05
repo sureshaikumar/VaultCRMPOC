@@ -1,0 +1,5 @@
+Picklistentry german__c (
+   value('German'),
+   order(372),
+   active(true)
+);

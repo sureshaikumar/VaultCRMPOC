@@ -1,0 +1,6 @@
+Picklistentry es-ma__v (
+   value('Málaga'),
+   order(1230),
+   active(true),
+   controlling_entries('es__v')
+);

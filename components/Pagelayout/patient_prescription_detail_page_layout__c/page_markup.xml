@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.patient_prescription__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="date_signed__v" />
+            <vault:field reference="has_the_prescriber_signed__v" />
+            <vault:field reference="npi__v" />
+            <vault:field reference="prescriber_address__v" />
+            <vault:field reference="prescriber_email__v" />
+            <vault:field reference="prescriber_hospital_clinic__v" />
+            <vault:field reference="prescriber_name__v" />
+            <vault:field reference="prescriber_phone__v" />
+            <vault:field reference="prescription_duration__v" />
+            <vault:field reference="product__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

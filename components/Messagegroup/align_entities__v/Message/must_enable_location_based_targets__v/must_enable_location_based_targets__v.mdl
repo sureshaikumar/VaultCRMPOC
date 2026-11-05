@@ -1,0 +1,6 @@
+Message must_enable_location_based_targets__v (
+   label(),
+   active(true),
+   default_value('Location-based targets are not enabled for this cycle.'),
+   system_managed(false)
+);

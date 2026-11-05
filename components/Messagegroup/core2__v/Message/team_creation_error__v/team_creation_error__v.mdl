@@ -1,0 +1,6 @@
+Message team_creation_error__v (
+   label(),
+   active(true),
+   default_value('An error occurred while creating the Team. Please contact your administrator. '),
+   system_managed(false)
+);

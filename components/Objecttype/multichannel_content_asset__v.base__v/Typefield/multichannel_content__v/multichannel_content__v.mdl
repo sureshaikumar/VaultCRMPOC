@@ -1,0 +1,4 @@
+Typefield multichannel_content__v (
+   source('standard'),
+   required(true)
+);

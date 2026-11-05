@@ -1,0 +1,6 @@
+Picklistentry ma-chi__v (
+   value('Chichaoua'),
+   order(2790),
+   active(true),
+   controlling_entries('ma__v')
+);

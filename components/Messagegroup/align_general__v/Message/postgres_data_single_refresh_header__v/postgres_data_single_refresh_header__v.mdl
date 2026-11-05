@@ -1,0 +1,6 @@
+Message postgres_data_single_refresh_header__v (
+   label(),
+   active(true),
+   default_value('Object Refresh Warning'),
+   system_managed(false)
+);

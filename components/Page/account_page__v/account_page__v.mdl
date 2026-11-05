@@ -1,0 +1,14 @@
+RECREATE Page account_page__v (
+   label('Account'),
+   active(true),
+   client_distribution(),
+   default_client_code('account_page__v'),
+   description('Account App Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.datachangerequests.controls.AccountPageController'),
+   url_path_name('account')
+);

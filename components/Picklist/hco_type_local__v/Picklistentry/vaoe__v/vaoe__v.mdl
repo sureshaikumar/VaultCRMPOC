@@ -1,0 +1,5 @@
+Picklistentry vaoe__v (
+   value('Veterans Affairs Organization'),
+   order(263),
+   active(true)
+);

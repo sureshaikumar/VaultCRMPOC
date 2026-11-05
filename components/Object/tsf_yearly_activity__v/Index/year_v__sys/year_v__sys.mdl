@@ -1,0 +1,6 @@
+Index year_v__sys (
+   description(),
+   fields('tsf__v',
+         'year__v'),
+   label('Year')
+);

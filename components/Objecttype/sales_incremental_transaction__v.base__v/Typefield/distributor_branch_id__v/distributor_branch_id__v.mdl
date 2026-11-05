@@ -1,0 +1,4 @@
+Typefield distributor_branch_id__v (
+   source('standard'),
+   required(false)
+);

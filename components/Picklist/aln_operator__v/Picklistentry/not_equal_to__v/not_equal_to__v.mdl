@@ -1,0 +1,5 @@
+Picklistentry not_equal_to__v (
+   value('not equal to'),
+   order(2),
+   active(true)
+);

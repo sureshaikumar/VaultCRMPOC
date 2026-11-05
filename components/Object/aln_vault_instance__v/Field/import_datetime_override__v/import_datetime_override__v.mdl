@@ -1,0 +1,17 @@
+Field import_datetime_override__v (
+   label('Import Datetime Override'),
+   type('DateTime'),
+   active(true),
+   description('Setting this field will cause the next Import from CRM to retrieve all records that were inserted or updated after this date for all objects that are imported from CRM. The date cannot be in the future.'),
+   required(false),
+   help_content('Setting this field will cause the next Import from CRM to retrieve all records that were inserted or updated after this date for all objects that are imported from CRM. The date cannot be in the future.'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

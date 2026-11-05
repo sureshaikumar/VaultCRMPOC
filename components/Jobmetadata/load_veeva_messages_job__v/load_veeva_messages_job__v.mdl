@@ -1,0 +1,10 @@
+RECREATE Jobmetadata load_veeva_messages_job__v (
+   label('Load Veeva Messages Job'),
+   active(true),
+   chunk_size(500),
+   description('This job is responsible for creating Veeva Messages'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.common.jobs.LoadVeevaMessagesJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

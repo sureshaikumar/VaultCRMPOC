@@ -1,0 +1,6 @@
+Picklistentry ro-gl__v (
+   value('Galați'),
+   order(3735),
+   active(true),
+   controlling_entries('ro__v')
+);

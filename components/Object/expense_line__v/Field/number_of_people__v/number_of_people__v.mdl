@@ -1,0 +1,22 @@
+Field number_of_people__v (
+   label('# People'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(-9223372036854775808),
+   scale(9),
+   help_content('Displays the number of people an expense line is split.'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

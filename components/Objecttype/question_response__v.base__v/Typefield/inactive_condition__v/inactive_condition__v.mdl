@@ -1,0 +1,4 @@
+Typefield inactive_condition__v (
+   source('standard'),
+   required(false)
+);

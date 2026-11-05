@@ -1,0 +1,6 @@
+Picklistentry sc-15__v (
+   value('La Digue'),
+   order(3915),
+   active(true),
+   controlling_entries('sc__v')
+);

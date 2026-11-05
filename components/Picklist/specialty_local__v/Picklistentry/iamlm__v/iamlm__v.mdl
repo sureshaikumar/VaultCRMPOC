@@ -1,0 +1,6 @@
+Picklistentry iamlm__v (
+   value('Immuno-Allergology'),
+   order(736),
+   active(true),
+   controlling_entries('pt__v')
+);

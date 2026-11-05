@@ -1,0 +1,23 @@
+Field added_from_photo__v (
+   label('Added From Photo?'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content('Used to identify if the IM Line is associated to the Parent or a particular Child IM record:
+            If the Inventory_Monitoring.Photo_Rank_vod__c is blank, then Added_From_Photo_vod__c= blank, which indicates that this Line is associated to the Paren'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

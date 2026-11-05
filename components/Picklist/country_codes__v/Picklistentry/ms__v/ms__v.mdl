@@ -1,0 +1,5 @@
+Picklistentry ms__v (
+   value('MS'),
+   order(152),
+   active(true)
+);

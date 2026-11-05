@@ -1,0 +1,6 @@
+Picklistentry hn-gd__v (
+   value('Gracias a Dios'),
+   order(1832),
+   active(true),
+   controlling_entries('hn__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry one_tap_navigation__v (
+   value('One Tap Navigation'),
+   order(1),
+   active(true)
+);

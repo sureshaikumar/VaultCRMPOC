@@ -1,0 +1,6 @@
+Message wd_int_sync_history__v (
+   label(),
+   active(true),
+   default_value('Workday Sync History'),
+   system_managed(false)
+);

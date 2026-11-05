@@ -1,0 +1,6 @@
+Message import_operation__v (
+   label(),
+   active(true),
+   default_value('Operation*'),
+   system_managed(false)
+);

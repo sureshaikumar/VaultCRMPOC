@@ -1,0 +1,6 @@
+Message waba_is_already_connected__v (
+   label(),
+   active(true),
+   default_value('"${whatsapp_business_account_name}" is already connected.'),
+   system_managed(false)
+);

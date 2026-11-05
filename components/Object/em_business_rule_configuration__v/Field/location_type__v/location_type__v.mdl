@@ -1,0 +1,17 @@
+Field location_type__v (
+   label('Location Type'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Restricts EM Business Rules by Location Type. Multiple values are delimited using double semicolons  (ex. In_Office_vod;;Out_of_Office_vod).'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

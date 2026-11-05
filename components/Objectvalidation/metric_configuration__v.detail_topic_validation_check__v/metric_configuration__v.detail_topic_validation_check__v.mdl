@@ -1,0 +1,8 @@
+RECREATE Objectvalidation metric_configuration__v.detail_topic_validation_check__v (
+   label('Detail Topic Validation Check'),
+   active(true),
+   expression('If(IsBlank(product__v) || (product__vr.product_type__v = ''detail_topic__v'' && detail_topic__v = true) || (product__vr.product_type__v = ''detail__v'' && detail_topic__v != true), true, false)'),
+   description(),
+   error_message('Detail Topic checkbox must be checked when a product of Detail Topic type is selected.'),
+   error_location('product__v')
+);

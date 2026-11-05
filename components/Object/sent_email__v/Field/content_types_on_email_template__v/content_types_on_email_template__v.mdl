@@ -1,0 +1,19 @@
+Field content_types_on_email_template__v (
+   label('Content Types on Email Template'),
+   type('String'),
+   active(true),
+   description('The names of the content types assigned to the Email Template document version sent. These values are stored as the names of the content types in a semicolon delimited list.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('The names of the content types assigned to the Email Template document version sent.'),
+   list_column(false),
+   order(118),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

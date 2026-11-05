@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_inventory__v.sample_inventory__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="inventory_for__v" />
+            <vault:field reference="inventory_type__v" />
+            <vault:field reference="inventory_date_time__v" />
+            <vault:control reference="si_inv_from_date_field_control__v" name="si_inv_from_date_field_control__c" label="Inventory From Date" />
+            <vault:field reference="inventory_from_date__v" />
+            <vault:field reference="previous_inventory_date_time__v" />
+            <vault:control reference="si_previous_inv_date_time_field_control__v" name="si_previous_inv_date_time_field_control__c" label="Previous Inventory Date Time" />
+            <vault:field reference="sample_inventory_status__v" />
+            <vault:field reference="submitted_date__v" />
+            <vault:control reference="sample_inventory_submit__v" name="sample_inventory_submit__c" label="Submit" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sample Inventory Items" name="sample_inventory_items_section__c" reference="sample_inventory_items_section__v" />
+</vault:page>

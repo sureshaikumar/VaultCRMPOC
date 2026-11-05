@@ -1,0 +1,19 @@
+Field title__v (
+   label('Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('The Name_vod field is used by iRep to display the name of the call objective in the call objectives list view. This field is also searchable in iRep.'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry sms__v (
+   value('Skolt Sami'),
+   order(289),
+   active(false)
+);

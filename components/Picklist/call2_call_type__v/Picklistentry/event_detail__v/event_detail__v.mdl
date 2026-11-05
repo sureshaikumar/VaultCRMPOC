@@ -1,0 +1,5 @@
+Picklistentry event_detail__v (
+   value('Event Detail'),
+   order(8),
+   active(true)
+);

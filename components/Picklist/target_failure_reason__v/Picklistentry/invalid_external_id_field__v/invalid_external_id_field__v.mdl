@@ -1,0 +1,5 @@
+Picklistentry invalid_external_id_field__v (
+   value('Invalid External ID Field'),
+   order(8),
+   active(true)
+);

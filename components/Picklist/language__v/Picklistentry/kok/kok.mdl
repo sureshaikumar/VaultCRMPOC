@@ -1,0 +1,5 @@
+Picklistentry kok (
+   value('Konkani'),
+   order(224),
+   active(true)
+);

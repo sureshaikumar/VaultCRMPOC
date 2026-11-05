@@ -1,0 +1,5 @@
+Picklistentry click__v (
+   value('Click'),
+   order(2),
+   active(true)
+);

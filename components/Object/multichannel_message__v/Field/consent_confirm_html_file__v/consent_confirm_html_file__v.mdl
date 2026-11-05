@@ -1,0 +1,15 @@
+Field consent_confirm_html_file__v (
+   label('Consent Confirmation HTML'),
+   type('Attachment'),
+   active(true),
+   description('HTML content of the page displayed when the HCP clicks on the email confirmation link.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

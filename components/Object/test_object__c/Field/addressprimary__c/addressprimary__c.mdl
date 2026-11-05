@@ -1,0 +1,18 @@
+Field addressprimary__c (
+   label('Addressprimary'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name('address__cr'),
+   lookup_source_field('primary_cda__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

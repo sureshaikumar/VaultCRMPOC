@@ -1,0 +1,6 @@
+Message end_conversation__v (
+   label(),
+   active(true),
+   default_value('End Conversation'),
+   system_managed(false)
+);

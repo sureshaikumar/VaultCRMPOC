@@ -1,0 +1,8 @@
+Tabcollectionitem content_setup_tab__v (
+   label(),
+   active(true),
+   tabs(),
+   order(2),
+   tab('Tab.content_setup_tab__v'),
+   type('Tab')
+);

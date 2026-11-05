@@ -1,0 +1,4 @@
+Typefield edl_template__v (
+   source('standard'),
+   required(true)
+);

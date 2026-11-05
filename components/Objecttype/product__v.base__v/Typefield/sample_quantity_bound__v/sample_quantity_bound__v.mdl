@@ -1,0 +1,4 @@
+Typefield sample_quantity_bound__v (
+   source('standard'),
+   required(false)
+);

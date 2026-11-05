@@ -1,0 +1,6 @@
+Message one_column__v (
+   label(),
+   active(true),
+   default_value('1 Column'),
+   system_managed(false)
+);

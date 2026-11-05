@@ -1,0 +1,6 @@
+Message remove_delay__v (
+   label(),
+   active(true),
+   default_value('Remove Delay'),
+   system_managed(false)
+);

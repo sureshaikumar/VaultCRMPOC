@@ -1,0 +1,6 @@
+Message role__v (
+   label(),
+   active(true),
+   default_value('Role'),
+   system_managed(false)
+);

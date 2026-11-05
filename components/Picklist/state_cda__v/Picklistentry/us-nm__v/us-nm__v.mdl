@@ -1,0 +1,6 @@
+Picklistentry us-nm__v (
+   value('New Mexico'),
+   order(4826),
+   active(true),
+   controlling_entries('us__v')
+);

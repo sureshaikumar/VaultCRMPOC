@@ -1,0 +1,6 @@
+Picklistentry ma-ouz__v (
+   value('Ouezzane'),
+   order(2828),
+   active(true),
+   controlling_entries('ma__v')
+);

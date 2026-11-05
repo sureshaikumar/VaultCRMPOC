@@ -1,0 +1,6 @@
+Picklistentry lv-015__v (
+   value('Balvu novads'),
+   order(2704),
+   active(true),
+   controlling_entries('lv__v')
+);

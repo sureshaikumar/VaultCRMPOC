@@ -1,0 +1,6 @@
+Message token_dash_as_of__v (
+   label(),
+   active(true),
+   default_value('As of ${date} · refreshed daily'),
+   system_managed(false)
+);

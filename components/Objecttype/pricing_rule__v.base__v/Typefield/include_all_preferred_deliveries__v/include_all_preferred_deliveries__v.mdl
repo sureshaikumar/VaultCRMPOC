@@ -1,0 +1,4 @@
+Typefield include_all_preferred_deliveries__v (
+   source('standard'),
+   required(false)
+);

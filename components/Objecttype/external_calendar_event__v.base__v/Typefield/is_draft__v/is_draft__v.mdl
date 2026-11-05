@@ -1,0 +1,4 @@
+Typefield is_draft__v (
+   source('standard'),
+   required(false)
+);

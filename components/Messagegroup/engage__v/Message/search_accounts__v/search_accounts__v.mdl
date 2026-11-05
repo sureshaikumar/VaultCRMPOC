@@ -1,0 +1,6 @@
+Message search_accounts__v (
+   label(),
+   active(true),
+   default_value('Search Accounts'),
+   system_managed(false)
+);

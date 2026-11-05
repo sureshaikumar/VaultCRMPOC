@@ -1,0 +1,9 @@
+Vsmvalue ars__v (
+   label('ARS'),
+   active(true),
+   description('The Argentine Peso (ARS), the official currency of Argentina, used for all commercial transactions within the country.'),
+   synonyms('Argentine peso',
+         'Argentina currency'),
+   target('ars__sys'),
+   target_label('ARS')
+);

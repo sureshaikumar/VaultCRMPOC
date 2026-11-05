@@ -1,0 +1,18 @@
+Field therapeutic_area__v (
+   label('Therapeutic Area'),
+   type('Picklist'),
+   active(true),
+   description('Picklist used to select the Therapeutic Area of the product such as Analgesics, Cardiology or Dermatology. Edit the picklist to change the Therapeutic Area options.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(49),
+   multi_value(false),
+   picklist('Picklist.product_therapeutic_area__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

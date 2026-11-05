@@ -1,0 +1,12 @@
+RECREATE Tab product_order_allocation_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Product Order Allocation'),
+   modal_create_record(false),
+   order(1200),
+   page('Page.manage_inventory_order_allocations_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

@@ -1,0 +1,6 @@
+Picklistentry sr-si__v (
+   value('Sipaliwini'),
+   order(4249),
+   active(true),
+   controlling_entries('sr__v')
+);

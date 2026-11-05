@@ -1,0 +1,18 @@
+Field include_related_objects__v (
+   label('Include Related Objects'),
+   type('Boolean'),
+   active(true),
+   description('Determines if the tablet configuration should determine what objects are related to this object based on its related list (layout based).  It is only valid for Top Level Objects.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

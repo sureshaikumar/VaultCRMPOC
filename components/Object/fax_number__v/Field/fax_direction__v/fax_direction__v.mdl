@@ -1,0 +1,19 @@
+Field fax_direction__v (
+   label('Fax Direction'),
+   type('Picklist'),
+   active(true),
+   description('Specifies how the fax number is configured to be used in this Vault.
+        Options include Inbound (receiving faxes only), Outbound (sending faxes only), Inbound and Outbound (both sending and receiving faxes).'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.fax_direction__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

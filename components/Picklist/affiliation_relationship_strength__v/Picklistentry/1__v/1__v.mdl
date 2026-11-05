@@ -1,0 +1,5 @@
+Picklistentry 1__v (
+   value('Medium'),
+   order(1),
+   active(true)
+);

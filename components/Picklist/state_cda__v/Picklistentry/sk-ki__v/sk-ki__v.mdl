@@ -1,0 +1,6 @@
+Picklistentry sk-ki__v (
+   value('Košický Region'),
+   order(4189),
+   active(true),
+   controlling_entries('sk__v')
+);

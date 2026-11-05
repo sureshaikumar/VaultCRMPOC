@@ -1,0 +1,6 @@
+Picklistentry cz-321__v (
+   value('Domažlice'),
+   order(836),
+   active(true),
+   controlling_entries('cz__v')
+);

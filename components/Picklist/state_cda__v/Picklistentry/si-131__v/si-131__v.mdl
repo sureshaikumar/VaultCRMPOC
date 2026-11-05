@@ -1,0 +1,6 @@
+Picklistentry si-131__v (
+   value('Tržič'),
+   order(4105),
+   active(true),
+   controlling_entries('si__v')
+);

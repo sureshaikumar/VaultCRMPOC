@@ -1,0 +1,6 @@
+Picklistentry pw-222__v (
+   value('Ngardmau'),
+   order(3683),
+   active(true),
+   controlling_entries('pw__v')
+);

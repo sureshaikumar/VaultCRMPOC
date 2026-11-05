@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved_state__v.reevaluate_legal_hold_useraction__v (
+   label('Re-evaluate Legal Hold'),
+   rule(@rule.xml),
+   order(1000)
+);

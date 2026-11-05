@@ -1,0 +1,6 @@
+Message survey_export_results__v (
+   label(),
+   active(true),
+   default_value('Exporting Survey Results. You will receive a notification when the export is complete.'),
+   system_managed(false)
+);

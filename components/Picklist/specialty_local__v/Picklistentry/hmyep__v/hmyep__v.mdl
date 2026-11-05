@@ -1,0 +1,8 @@
+Picklistentry hmyep__v (
+   value('Hyperbaric Medicine'),
+   order(729),
+   active(true),
+   controlling_entries('eg__v',
+         'pt__v',
+         'us__v')
+);

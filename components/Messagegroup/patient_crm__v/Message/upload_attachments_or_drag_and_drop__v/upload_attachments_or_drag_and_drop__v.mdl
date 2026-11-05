@@ -1,0 +1,6 @@
+Message upload_attachments_or_drag_and_drop__v (
+   label(),
+   active(true),
+   default_value('You may upload your own attachments, or drag and drop.'),
+   system_managed(false)
+);

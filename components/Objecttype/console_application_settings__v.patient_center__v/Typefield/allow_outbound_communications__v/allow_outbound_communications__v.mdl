@@ -1,0 +1,4 @@
+Typefield allow_outbound_communications__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message attempt_count__v (
+   label(),
+   active(true),
+   default_value('Attempt ${count}'),
+   system_managed(false)
+);

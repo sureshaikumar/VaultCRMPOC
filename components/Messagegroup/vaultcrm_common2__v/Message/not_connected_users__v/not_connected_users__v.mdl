@@ -1,0 +1,6 @@
+Message not_connected_users__v (
+   label(),
+   active(true),
+   default_value('${count} not connected'),
+   system_managed(false)
+);

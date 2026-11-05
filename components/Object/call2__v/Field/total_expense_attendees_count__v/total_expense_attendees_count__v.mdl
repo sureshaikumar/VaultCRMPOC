@@ -1,0 +1,22 @@
+Field total_expense_attendees_count__v (
+   label('Total Call Attendee Count'),
+   type('Number'),
+   active(true),
+   description('Holds the number of attendees who are on this call that should be tied to the expense amount. This number represents everyone, including non-HCPs'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(-99999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(163),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

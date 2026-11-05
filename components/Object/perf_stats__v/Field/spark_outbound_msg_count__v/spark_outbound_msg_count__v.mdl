@@ -1,0 +1,22 @@
+Field spark_outbound_msg_count__v (
+   label('Outbound Spark Message Count'),
+   type('Number'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_value(2147483647),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(50),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

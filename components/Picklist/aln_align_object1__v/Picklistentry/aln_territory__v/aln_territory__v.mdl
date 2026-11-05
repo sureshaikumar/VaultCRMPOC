@@ -1,0 +1,5 @@
+Picklistentry aln_territory__v (
+   value('Territory'),
+   order(3),
+   active(true)
+);

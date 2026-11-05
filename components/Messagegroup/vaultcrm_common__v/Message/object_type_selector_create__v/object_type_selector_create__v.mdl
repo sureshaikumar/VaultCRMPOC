@@ -1,0 +1,6 @@
+Message object_type_selector_create__v (
+   label(),
+   active(true),
+   default_value('Create {0}'),
+   system_managed(false)
+);

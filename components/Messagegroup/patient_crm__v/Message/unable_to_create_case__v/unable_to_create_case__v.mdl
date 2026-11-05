@@ -1,0 +1,6 @@
+Message unable_to_create_case__v (
+   label(),
+   active(true),
+   default_value('Unable to Create Case'),
+   system_managed(false)
+);

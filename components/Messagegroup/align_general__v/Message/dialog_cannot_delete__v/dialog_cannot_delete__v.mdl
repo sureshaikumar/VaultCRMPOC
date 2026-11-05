@@ -1,0 +1,6 @@
+Message dialog_cannot_delete__v (
+   label(),
+   active(true),
+   default_value('Cannot Delete'),
+   system_managed(false)
+);

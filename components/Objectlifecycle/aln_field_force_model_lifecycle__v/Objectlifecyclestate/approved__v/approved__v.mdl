@@ -1,0 +1,11 @@
+Objectlifecyclestate approved__v (
+   label('Approved'),
+   active(true),
+   record_inactive(),
+   record_status('inactive__v'),
+   description('This is the state in which a field force model can be published to production.
+Field Force models in this state can no longer be edited, unless they are moved back to Draft.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Tab campaign_manager_accounts__v (
+   active(true),
+   all_view_label('All Accounts'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Accounts'),
+   modal_create_record(false),
+   my_view_label('My Accounts'),
+   object('account__v'),
+   order(3700),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Accounts')
+);

@@ -1,0 +1,6 @@
+Picklistentry me-09__v (
+   value('Kolašin'),
+   order(2915),
+   active(true),
+   controlling_entries('me__v')
+);

@@ -1,0 +1,6 @@
+Message fax_administration__v (
+   label(),
+   active(true),
+   default_value('Fax Administration'),
+   system_managed(false)
+);

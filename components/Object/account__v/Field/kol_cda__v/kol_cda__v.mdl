@@ -1,0 +1,18 @@
+Field kol_cda__v (
+   label('Key Opinion Leader'),
+   type('Boolean'),
+   active(true),
+   description('Recognized as a key opinion leader in the industry.'),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if this professional is a Key Opinion Leader.  Used by person accounts.'),
+   list_column(false),
+   order(52),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

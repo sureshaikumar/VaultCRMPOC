@@ -1,0 +1,4 @@
+Typefield final_net_price__v (
+   source('standard'),
+   required(false)
+);

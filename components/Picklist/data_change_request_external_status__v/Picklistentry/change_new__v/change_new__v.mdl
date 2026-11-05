@@ -1,0 +1,5 @@
+Picklistentry change_new__v (
+   value('CHANGE_NEW'),
+   order(0),
+   active(true)
+);

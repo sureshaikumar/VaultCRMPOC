@@ -1,0 +1,18 @@
+RECREATE Notificationtemplate legalhold_universal_apply__v (
+   label('legalHoldUniversalApplySuccess_b'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Legal hold notification'),
+   notification('<p>Legal hold ${legalHoldObjectLink} successfully applied to ${appliedDocumentCount} documents.</p>
+'),
+   email_body('<p><b>Change Summary:</b></p>
+<p>
+    <ul>
+        <li>Legal hold "${legalHoldName}" applied to ${appliedDocumentCount} documents</li>
+    </ul>
+</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

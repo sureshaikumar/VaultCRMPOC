@@ -1,0 +1,6 @@
+Picklistentry pptee__v (
+   value('Periodontics Periodontal Treatment'),
+   order(1496),
+   active(true),
+   controlling_entries('id__v')
+);

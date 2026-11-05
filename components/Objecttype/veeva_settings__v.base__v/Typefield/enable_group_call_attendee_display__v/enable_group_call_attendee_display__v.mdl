@@ -1,0 +1,4 @@
+Typefield enable_group_call_attendee_display__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Page medical_interaction_detail_page__v (
+   label('Medical Interaction'),
+   active(true),
+   client_distribution(),
+   default_client_code('medical_interaction__v'),
+   description('App page for medical interaction'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.medicalinteraction.controls.MedicalInteractionPageController'),
+   url_path_name('medical-interaction')
+);

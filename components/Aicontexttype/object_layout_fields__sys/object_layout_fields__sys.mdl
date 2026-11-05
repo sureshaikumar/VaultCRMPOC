@@ -1,0 +1,8 @@
+RECREATE Aicontexttype object_layout_fields__sys (
+   label('Object Layout Fields'),
+   active(true),
+   admin_configurable(false),
+   configuration_code('Aicontexttypeconfigurationcode.com.veeva.vault.system.context.DynamicObjectLayoutFieldsConfigurationContextType'),
+   configuration_layout(),
+   runtime_code('Aicontexttyperuntimecode.com.veeva.vault.system.context.DynamicObjectLayoutFieldsRuntimeContextType')
+);

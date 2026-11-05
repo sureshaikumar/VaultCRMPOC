@@ -1,0 +1,15 @@
+RECREATE Integrationrule medical_crm_doc_transfer_ir__v (
+   label('Medical-CRM: Document Transfer Integration Rule'),
+   active(true),
+   connection('medical_crm__v'),
+   integration_point('medical_crm_doc_transfer_iip__v'),
+   primary_query_object('documents'),
+   Fieldrule(@Fieldrule/brand__v.mdl),
+   Fieldrule(@Fieldrule/content_group__v.mdl),
+   Fieldrule(@Fieldrule/country__v.mdl),
+   Fieldrule(@Fieldrule/indication__v.mdl),
+   Fieldrule(@Fieldrule/language__v.mdl),
+   Fieldrule(@Fieldrule/product_family__v.mdl),
+   Fieldrule(@Fieldrule/title__v.mdl),
+   Queryobjectrule(@Queryobjectrule/steady_state_documents_only__v.mdl)
+);

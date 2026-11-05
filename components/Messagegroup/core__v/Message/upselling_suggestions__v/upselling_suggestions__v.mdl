@@ -1,0 +1,6 @@
+Message upselling_suggestions__v (
+   label(),
+   active(true),
+   default_value('Upselling Suggestions'),
+   system_managed(false)
+);

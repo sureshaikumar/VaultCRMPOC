@@ -1,0 +1,6 @@
+Message max_records_reached_message__v (
+   label(),
+   active(true),
+   default_value('Maximum number of ${plural_object_label} reached. Cannot add additional ${plural_object_label}.'),
+   system_managed(false)
+);

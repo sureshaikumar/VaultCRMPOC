@@ -1,0 +1,5 @@
+Picklistentry pr__v (
+   value('Puerto Rico'),
+   order(179),
+   active(true)
+);

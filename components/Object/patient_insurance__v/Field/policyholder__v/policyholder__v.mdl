@@ -1,0 +1,19 @@
+Field policyholder__v (
+   label('Policyholder'),
+   type('String'),
+   active(true),
+   description('Indicates the policyholder for this insurance record'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(true),
+   order(12),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

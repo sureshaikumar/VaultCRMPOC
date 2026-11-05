@@ -1,0 +1,6 @@
+Message paths_description__v (
+   label(),
+   active(true),
+   default_value('Targets are evaluated in priority order and assigned to the first path they match'),
+   system_managed(false)
+);

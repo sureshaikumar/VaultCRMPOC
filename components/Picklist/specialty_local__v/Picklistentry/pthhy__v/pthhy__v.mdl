@@ -1,0 +1,6 @@
+Picklistentry pthhy__v (
+   value('Physical Therapy'),
+   order(1552),
+   active(true),
+   controlling_entries('om__v')
+);

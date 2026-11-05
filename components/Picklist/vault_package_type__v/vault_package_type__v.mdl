@@ -1,0 +1,9 @@
+RECREATE Picklist vault_package_type__v (
+   label('Inbound Package Type'),
+   active(true),
+   Picklistentry(@Picklistentry/migration__v.mdl),
+   Picklistentry(@Picklistentry/application__v.mdl),
+   Picklistentry(@Picklistentry/test_data__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

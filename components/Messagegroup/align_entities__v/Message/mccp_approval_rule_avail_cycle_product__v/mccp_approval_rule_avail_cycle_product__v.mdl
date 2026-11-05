@@ -1,0 +1,6 @@
+Message mccp_approval_rule_avail_cycle_product__v (
+   label(),
+   active(true),
+   default_value('Select From Available Cycle Product'),
+   system_managed(false)
+);

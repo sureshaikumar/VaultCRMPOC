@@ -1,0 +1,5 @@
+Picklistentry yua__v (
+   value('Yucatec Maya'),
+   order(369),
+   active(false)
+);

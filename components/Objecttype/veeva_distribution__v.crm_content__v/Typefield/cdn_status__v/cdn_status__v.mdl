@@ -1,0 +1,6 @@
+Typefield cdn_status__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.veeva_distribution_cdn_status__v.published__v',
+         'Picklist.veeva_distribution_cdn_status__v.withdrawn__v')
+);

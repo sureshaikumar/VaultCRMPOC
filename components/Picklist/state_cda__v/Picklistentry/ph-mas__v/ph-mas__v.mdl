@@ -1,0 +1,6 @@
+Picklistentry ph-mas__v (
+   value('Masbate'),
+   order(3578),
+   active(true),
+   controlling_entries('ph__v')
+);

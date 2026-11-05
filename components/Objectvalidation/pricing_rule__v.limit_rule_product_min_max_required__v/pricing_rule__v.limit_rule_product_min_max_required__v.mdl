@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.limit_rule_product_min_max_required__v (
+   label('Limit Rule Product Min Max Required'),
+   active(true),
+   expression('Not(
+    object_type__vr.api_name__v = ''limit_rule__v'' &&
+    cross_product_rule__v = true &&
+    IsBlank(product_minimum__v) &&
+    IsBlank(product_maximum__v)
+)'),
+   description('Cross Product Limit Rules must have Product Minimum or Product Maximum value'),
+   error_message('Product Minimum or Product Maximum is Required for Cross Product Limit Rules'),
+   error_location('product_maximum__v',
+      'product_minimum__v')
+);

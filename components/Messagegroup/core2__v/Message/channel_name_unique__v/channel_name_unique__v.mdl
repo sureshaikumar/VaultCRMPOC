@@ -1,0 +1,6 @@
+Message channel_name_unique__v (
+   label(),
+   active(true),
+   default_value('This channel name is already in use. Please update the Account Plan name so each channel has a unique name and try again.'),
+   system_managed(false)
+);

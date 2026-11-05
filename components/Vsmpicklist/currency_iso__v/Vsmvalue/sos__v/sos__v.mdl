@@ -1,0 +1,10 @@
+Vsmvalue sos__v (
+   label('SOS'),
+   active(true),
+   description('Applies when transactions are denominated in the Somali Shilling, the official currency of Somalia.'),
+   synonyms('Somali shilling',
+         'Somalia currency',
+         'shilling'),
+   target('sos__sys'),
+   target_label('SOS')
+);

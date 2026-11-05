@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="documents.document_creation_date__v" rightValue="2025-01-28" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="documents.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

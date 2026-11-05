@@ -1,0 +1,21 @@
+Field speaker_formatted_name__v (
+   label('Speaker Formatted Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(54),
+   formula('title__v & " " & first_name__v & " " & last_name__v & " " & suffix__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

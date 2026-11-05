@@ -1,0 +1,6 @@
+Picklistentry tr-65__v (
+   value('Van'),
+   order(4523),
+   active(true),
+   controlling_entries('tr__v')
+);

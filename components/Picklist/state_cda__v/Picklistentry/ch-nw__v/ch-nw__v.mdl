@@ -1,0 +1,6 @@
+Picklistentry ch-nw__v (
+   value('Nidwalden'),
+   order(640),
+   active(true),
+   controlling_entries('ch__v')
+);

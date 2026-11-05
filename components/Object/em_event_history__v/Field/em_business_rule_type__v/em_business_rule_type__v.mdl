@@ -1,0 +1,19 @@
+Field em_business_rule_type__v (
+   label('Event Business Rule Type'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Record Type of Event Business Rule that ran.'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

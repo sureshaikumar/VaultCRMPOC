@@ -1,0 +1,8 @@
+Typefield ncw_reason__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call_objective_ncw_reason__v.no_time__v',
+         'Picklist.call_objective_ncw_reason__v.other__v',
+         'Picklist.call_objective_ncw_reason__v.pass_this_ms__v',
+         'Picklist.call_objective_ncw_reason__v.recall__v')
+);

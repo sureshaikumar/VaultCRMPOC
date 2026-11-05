@@ -1,0 +1,6 @@
+Message switch_channel_confirmation_2__v (
+   label(),
+   active(true),
+   default_value('By switching the channel, any details entered for this action and associated follow-up actions will be removed. Would you like to switch the channel?'),
+   system_managed(false)
+);

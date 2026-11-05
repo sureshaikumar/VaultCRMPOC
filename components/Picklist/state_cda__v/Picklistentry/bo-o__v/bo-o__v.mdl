@@ -1,0 +1,6 @@
+Picklistentry bo-o__v (
+   value('Oruro'),
+   order(444),
+   active(true),
+   controlling_entries('bo__v')
+);

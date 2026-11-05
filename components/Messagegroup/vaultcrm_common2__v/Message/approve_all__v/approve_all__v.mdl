@@ -1,0 +1,6 @@
+Message approve_all__v (
+   label(),
+   active(true),
+   default_value('Approve All'),
+   system_managed(false)
+);

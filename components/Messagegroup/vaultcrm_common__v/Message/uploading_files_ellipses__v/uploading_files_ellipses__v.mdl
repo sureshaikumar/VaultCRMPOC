@@ -1,0 +1,6 @@
+Message uploading_files_ellipses__v (
+   label(),
+   active(true),
+   default_value('Uploading files...'),
+   system_managed(false)
+);

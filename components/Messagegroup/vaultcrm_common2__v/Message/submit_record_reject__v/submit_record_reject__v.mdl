@@ -1,0 +1,6 @@
+Message submit_record_reject__v (
+   label(),
+   active(true),
+   default_value('You cannot submit the ${object} record for the following reasons: ${message}'),
+   system_managed(false)
+);

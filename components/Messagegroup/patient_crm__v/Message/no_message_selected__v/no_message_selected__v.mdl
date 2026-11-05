@@ -1,0 +1,6 @@
+Message no_message_selected__v (
+   label(),
+   active(true),
+   default_value('No Message Selected'),
+   system_managed(false)
+);

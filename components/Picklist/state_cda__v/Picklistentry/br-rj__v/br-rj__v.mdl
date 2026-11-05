@@ -1,0 +1,6 @@
+Picklistentry br-rj__v (
+   value('Rio de Janeiro'),
+   order(469),
+   active(true),
+   controlling_entries('br__v')
+);

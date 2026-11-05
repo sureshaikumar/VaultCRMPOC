@@ -1,0 +1,6 @@
+Message select_segmentation_modal_subheader__v (
+   label(),
+   active(true),
+   default_value('Select which field to segment by'),
+   system_managed(false)
+);

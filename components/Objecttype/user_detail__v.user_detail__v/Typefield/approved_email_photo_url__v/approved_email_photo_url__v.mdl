@@ -1,0 +1,4 @@
+Typefield approved_email_photo_url__v (
+   source('custom'),
+   required(false)
+);

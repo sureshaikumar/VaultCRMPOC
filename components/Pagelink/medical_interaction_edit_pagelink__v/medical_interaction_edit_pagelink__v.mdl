@@ -1,0 +1,11 @@
+RECREATE Pagelink medical_interaction_edit_pagelink__v (
+   label('Medical Interaction Edit'),
+   description('Redirect Medical Interaction edit to Medical Interaction app page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/edit?id={{Object.id}}'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.medx__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.medical_interaction_detail_page__v')
+);

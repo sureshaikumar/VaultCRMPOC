@@ -1,0 +1,6 @@
+Message account_field__v (
+   label(),
+   active(true),
+   default_value('Account Field'),
+   system_managed(false)
+);

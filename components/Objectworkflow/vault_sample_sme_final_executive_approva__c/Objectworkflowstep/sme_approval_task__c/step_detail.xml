@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>SME Approval</vwf:label>
+    <vwf:controls>
+      <vwf:control name="review_and_approve_documents_by_providin__c" label="Review and Approve documents by providing a verdict for each document.  Approved documents do not require a verdict." type="instructions">
+        <vwf:instructions>Review and Approve documents by providing a verdict for each document.  Approved documents do not require a verdict.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="verdict_public_key__c" type="verdict">
+        <vwf:verdict label="Approve" name="verdict_approve__c" />
+        <vwf:verdict label="Reject" name="verdict_reject__c" />
+      </vwf:control>
+      <vwf:control name="task_creation_date__v" label="label" type="date">
+        <vwf:datefield type="date" />
+        <vwf:offset>
+          <vwf:amount>3</vwf:amount>
+          <vwf:unit>days</vwf:unit>
+        </vwf:offset>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="sme__c" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications>
+    <vwf:notification template="Notificationtemplate.vault_sample_multidoc_approval_task__c" />
+  </vwf:notifications>
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+  <vwf:enablePromptExclusionStateTypes value="true" />
+  <vwf:promptExclusionStateTypes>
+    <vwf:promptExclusionStateType name="base:workflow:multidoc_approved" />
+    <vwf:promptExclusionStateType name="base:general:steady" />
+    <vwf:promptExclusionStateType name="base:workflow:multidoc_preapproval" />
+  </vwf:promptExclusionStateTypes>
+  <vwf:enablePromptInclusionDocTypes value="false" />
+</vwf:stepdetails>

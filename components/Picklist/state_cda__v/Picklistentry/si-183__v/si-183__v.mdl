@@ -1,0 +1,6 @@
+Picklistentry si-183__v (
+   value('Šempeter-Vrtojba'),
+   order(4156),
+   active(true),
+   controlling_entries('si__v')
+);

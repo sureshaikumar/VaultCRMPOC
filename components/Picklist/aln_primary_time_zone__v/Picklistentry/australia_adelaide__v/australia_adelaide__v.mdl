@@ -1,0 +1,5 @@
+Picklistentry australia_adelaide__v (
+   value('Australia/Adelaide'),
+   order(72),
+   active(true)
+);

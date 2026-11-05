@@ -1,0 +1,6 @@
+Message am_affiliation_consolidated__v (
+   label(),
+   active(true),
+   default_value('The Affiliation records that are duplicate are consolidated.'),
+   system_managed(false)
+);

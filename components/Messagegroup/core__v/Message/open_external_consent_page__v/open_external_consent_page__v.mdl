@@ -1,0 +1,6 @@
+Message open_external_consent_page__v (
+   label(),
+   active(true),
+   default_value('Open External Consent Page'),
+   system_managed(false)
+);

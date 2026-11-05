@@ -1,0 +1,8 @@
+RECREATE Picklist product_status__c (
+   label('Product Status'),
+   active(true),
+   Picklistentry(@Picklistentry/active__c.mdl),
+   Picklistentry(@Picklistentry/inactive__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

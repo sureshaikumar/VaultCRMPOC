@@ -1,0 +1,10 @@
+Vsmvalue jod__v (
+   label('JOD'),
+   active(true),
+   description('The Jordanian Dinar (JOD), the official currency of Jordan, used for transactions, pricing, and financial records involving Jordanian markets.'),
+   synonyms('Jordanian dinar',
+         'Jordan dinar',
+         'JOD'),
+   target('jod__sys'),
+   target_label('JOD')
+);

@@ -1,0 +1,6 @@
+Message md5_checksum_fail__v (
+   label(),
+   active(true),
+   default_value('MD5 checksum validation failed'),
+   system_managed(false)
+);

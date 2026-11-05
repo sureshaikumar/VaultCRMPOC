@@ -1,0 +1,6 @@
+Picklistentry it-pi__v (
+   value('Pisa'),
+   order(2240),
+   active(true),
+   controlling_entries('it__v')
+);

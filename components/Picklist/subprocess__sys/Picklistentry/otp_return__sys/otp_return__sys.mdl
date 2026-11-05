@@ -1,0 +1,6 @@
+Picklistentry otp_return__sys (
+   value('Return'),
+   order(144),
+   active(true),
+   controlling_entries('olc_sample_transaction__sys')
+);

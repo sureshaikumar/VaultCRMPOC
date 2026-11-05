@@ -1,0 +1,6 @@
+Message no_assigned_users__v (
+   label(),
+   active(true),
+   default_value('No users have been assigned to this phone number.'),
+   system_managed(false)
+);

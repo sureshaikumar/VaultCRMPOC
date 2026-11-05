@@ -1,0 +1,15 @@
+Fieldrule title__v (
+   label('Title'),
+   active(true),
+   query_object('documents'),
+   query_field('crm_searchable_description__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.title__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_text__sys'),
+   target_field_lookup()
+);

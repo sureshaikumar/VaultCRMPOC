@@ -1,0 +1,6 @@
+Picklistentry in-an__v (
+   value('Andaman and Nicobar Islands'),
+   order(1997),
+   active(true),
+   controlling_entries('in__v')
+);

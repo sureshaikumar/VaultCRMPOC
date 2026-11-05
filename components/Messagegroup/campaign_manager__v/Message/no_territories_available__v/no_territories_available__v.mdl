@@ -1,0 +1,6 @@
+Message no_territories_available__v (
+   label(),
+   active(true),
+   default_value('No Territories Available'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield hq_slide_notes__v (
+   source('standard'),
+   required(false)
+);

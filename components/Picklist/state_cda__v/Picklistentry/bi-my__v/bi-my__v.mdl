@@ -1,0 +1,6 @@
+Picklistentry bi-my__v (
+   value('Muyinga'),
+   order(418),
+   active(true),
+   controlling_entries('bi__v')
+);

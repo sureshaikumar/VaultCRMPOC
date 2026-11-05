@@ -1,0 +1,6 @@
+Message filter_changed_subtext__v (
+   label(),
+   active(true),
+   default_value('Your filters have changed. Preview or generate the target list to see updated results.'),
+   system_managed(false)
+);

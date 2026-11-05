@@ -1,0 +1,6 @@
+Picklistentry ps-deb__v (
+   value('Deir El Balah'),
+   order(3639),
+   active(true),
+   controlling_entries('ps__v')
+);

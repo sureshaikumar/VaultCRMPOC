@@ -1,0 +1,6 @@
+Picklistentry cphla__v (
+   value('Clinical Pathology Hematology'),
+   order(272),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,6 @@
+Message enable__v (
+   label(),
+   active(true),
+   default_value('Enable'),
+   system_managed(false)
+);

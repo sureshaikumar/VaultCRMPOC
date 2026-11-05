@@ -1,0 +1,19 @@
+Field license__v (
+   label('License #'),
+   type('String'),
+   active(true),
+   description('Sample License # of the account.'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

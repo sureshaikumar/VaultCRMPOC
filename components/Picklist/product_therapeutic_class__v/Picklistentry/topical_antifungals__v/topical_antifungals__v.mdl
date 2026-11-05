@@ -1,0 +1,5 @@
+Picklistentry topical_antifungals__v (
+   value('Topical Antifungals'),
+   order(30),
+   active(true)
+);

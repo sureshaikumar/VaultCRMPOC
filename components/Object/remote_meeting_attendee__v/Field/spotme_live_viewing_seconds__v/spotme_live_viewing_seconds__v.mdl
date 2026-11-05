@@ -1,0 +1,22 @@
+Field spotme_live_viewing_seconds__v (
+   label('SpotMe Live Viewing'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content('Total live viewing time in seconds from the Attendee for the related Event or Session.'),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

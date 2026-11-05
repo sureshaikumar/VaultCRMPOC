@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate single_doc_pub_dist_job_complete_errors__v (
+   label('singleDocPublishingDistCompleteErrors'),
+   active(true),
+   description('Notification template notifying the user that the Single Doc Publishing task completed with errors.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Multichannel Processing completed with errors for ${documentName}'),
+   notification('Processing completed with errors for
+    <#if presentationStatusStageLabel != null>
+        <ul><li>${presentationStatusStageLabel} ${multichannelPresentationObjectTypeLabel} Multichannel Presentation based on <a href="${documentLink}">${documentName}</a>.${multichannelPresentationErrorMsg}</li></ul>
+    </#if>
+    <#if presentationStatusProductionLabel != null>
+        <ul><li>${presentationStatusProductionLabel} ${multichannelPresentationObjectTypeLabel} Multichannel Presentation based on <a href="${documentLink}">${documentName}</a>.${multichannelPresentationErrorMsg}</li></ul>
+    </#if>
+</br>
+<p>To reprocess, set ${triggeringFieldLabel} to ${noLabel}, save, and then set back to ${yesLabel}.</p>'),
+   email_body('<p>${notificationMessage}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

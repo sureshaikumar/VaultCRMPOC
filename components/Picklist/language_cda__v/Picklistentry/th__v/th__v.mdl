@@ -1,0 +1,5 @@
+Picklistentry th__v (
+   value('Thai'),
+   order(59),
+   active(true)
+);

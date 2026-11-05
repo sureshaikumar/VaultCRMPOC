@@ -1,0 +1,5 @@
+Picklistentry mea_bahrian__v (
+   value('MEA - Bahrain'),
+   order(10),
+   active(true)
+);

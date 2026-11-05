@@ -1,0 +1,4 @@
+Typefield reporters_fax_id__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry mn-051__v (
+   value('Sühbaatar'),
+   order(3078),
+   active(true),
+   controlling_entries('mn__v')
+);

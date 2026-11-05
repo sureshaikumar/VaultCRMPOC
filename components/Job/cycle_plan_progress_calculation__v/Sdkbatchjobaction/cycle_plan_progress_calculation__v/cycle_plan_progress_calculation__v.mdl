@@ -1,0 +1,6 @@
+Sdkbatchjobaction cycle_plan_progress_calculation__v (
+   job_metadata('Jobmetadata.cycle_plan_progress_calculation__v'),
+   label('Cycle Plan Calculation Job'),
+   parameters(),
+   primary_action(true)
+);

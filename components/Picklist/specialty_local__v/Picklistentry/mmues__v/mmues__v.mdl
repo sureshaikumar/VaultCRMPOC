@@ -1,0 +1,6 @@
+Picklistentry mmues__v (
+   value('Musculoskeletal Medicine'),
+   order(982),
+   active(true),
+   controlling_entries('nz__v')
+);

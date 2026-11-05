@@ -1,0 +1,9 @@
+RECREATE Objectvalidation samples_state_settings__v.cds_required_delivery_setting__v (
+   label('CDS Required Delivery Setting'),
+   active(true),
+   expression('cds_required__v != true || IsBlank(setting__v)'),
+   description('CDS Requirements and Delivery Method Setting cannot be defined in the same record. If cds_required__v = true and setting__v is not blank, display an error.'),
+   error_message('Cannot define CDS Requirements and Delivery Method Setting in the same record'),
+   error_location('cds_required__v',
+      'setting__v')
+);

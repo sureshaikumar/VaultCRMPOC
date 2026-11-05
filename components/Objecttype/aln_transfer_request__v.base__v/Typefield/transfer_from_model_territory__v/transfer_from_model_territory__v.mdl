@@ -1,0 +1,4 @@
+Typefield transfer_from_model_territory__v (
+   source('standard'),
+   required(false)
+);

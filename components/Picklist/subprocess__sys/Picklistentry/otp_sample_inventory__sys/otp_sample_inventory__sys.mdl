@@ -1,0 +1,6 @@
+Picklistentry otp_sample_inventory__sys (
+   value('Sample Inventory'),
+   order(148),
+   active(true),
+   controlling_entries('olc_sample_inventory__sys')
+);

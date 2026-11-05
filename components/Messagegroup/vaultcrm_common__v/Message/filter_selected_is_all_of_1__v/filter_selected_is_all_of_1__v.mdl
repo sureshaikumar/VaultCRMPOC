@@ -1,0 +1,6 @@
+Message filter_selected_is_all_of_1__v (
+   label(),
+   active(true),
+   default_value('${filter_field_label} (${filter_object_label}) is all of ${selection}'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate dynamic_autofiling_complete__v (
+   label('Binder Auto-filing Complete'),
+   active(true),
+   description('Notification sent upon completion of a request to perform auto-filing on a binder.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" Auto-filing Completed
+'),
+   notification('<p>Filing for binder <b>${docName}</b> has completed.<br>
+<b>Successfully filed ${addedDocsCount} documents into ${addedSectionsCount} sections</b></p>
+'),
+   email_body('<p>Filing for binder ${docName} completed at ${autofileEndDateTime}<br>
+</p>
+
+<p>${autofileAddedDocsHeader} ${autofileAddedDocs}</p><br>
+<p>You can see all your Notifications on your Vault home page under ${notificationHome}.</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

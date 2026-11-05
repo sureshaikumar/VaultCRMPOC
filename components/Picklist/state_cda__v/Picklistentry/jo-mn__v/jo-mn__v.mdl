@@ -1,0 +1,6 @@
+Picklistentry jo-mn__v (
+   value('Ma‘ān'),
+   order(2306),
+   active(true),
+   controlling_entries('jo__v')
+);

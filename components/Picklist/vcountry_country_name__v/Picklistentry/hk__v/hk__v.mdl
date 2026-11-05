@@ -1,0 +1,5 @@
+Picklistentry hk__v (
+   value('Hong Kong'),
+   order(94),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield jdnet_segment__v (
+   source('standard'),
+   required(false)
+);

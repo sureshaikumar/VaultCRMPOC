@@ -1,0 +1,6 @@
+Message import_align_columns__v (
+   label(),
+   active(true),
+   default_value('Align Columns'),
+   system_managed(false)
+);

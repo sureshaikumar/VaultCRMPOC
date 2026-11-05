@@ -1,0 +1,6 @@
+Picklistentry pe-are__v (
+   value('Arequipa'),
+   order(3471),
+   active(true),
+   controlling_entries('pe__v')
+);

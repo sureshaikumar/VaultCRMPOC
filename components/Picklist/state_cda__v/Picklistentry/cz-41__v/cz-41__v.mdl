@@ -1,0 +1,6 @@
+Picklistentry cz-41__v (
+   value('Karlovy Vary Region'),
+   order(843),
+   active(true),
+   controlling_entries('cz__v')
+);

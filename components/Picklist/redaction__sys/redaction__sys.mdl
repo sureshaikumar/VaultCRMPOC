@@ -1,0 +1,8 @@
+RECREATE Picklist redaction__sys (
+   label('Redaction'),
+   active(true),
+   Picklistentry(@Picklistentry/source__sys.mdl),
+   Picklistentry(@Picklistentry/redacted__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

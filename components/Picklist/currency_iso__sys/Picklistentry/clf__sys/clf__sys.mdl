@@ -1,0 +1,5 @@
+Picklistentry clf__sys (
+   value('CLF'),
+   order(40),
+   active(true)
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata create_content_ack_alerts_job__v (
+   label('Create Content Acknowledgement Alerts'),
+   active(true),
+   chunk_size(1),
+   description('A job that generates alerts for content acknowledgements when the AOC is due, status is not completed, the Create Alert is true and the Alert has not been created earlier.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.contentacknowledgement.jobs.CreateContentAcknowledgementAlertsJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

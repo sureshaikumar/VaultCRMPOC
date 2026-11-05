@@ -1,0 +1,6 @@
+Picklistentry si-053__v (
+   value('Kranjska Gora'),
+   order(4027),
+   active(true),
+   controlling_entries('si__v')
+);

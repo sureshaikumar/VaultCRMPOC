@@ -1,0 +1,5 @@
+Picklistentry 27660__v (
+   value('Jennings, LA Micropolitan Statistical Area'),
+   order(84),
+   active(true)
+);

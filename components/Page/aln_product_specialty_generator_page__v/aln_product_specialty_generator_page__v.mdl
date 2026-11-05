@@ -1,0 +1,14 @@
+RECREATE Page aln_product_specialty_generator_page__v (
+   label('Product Specialty Generator'),
+   active(true),
+   client_distribution(),
+   default_client_code('aln_product_specialty_generator_page__v'),
+   description('Generate Product Specialty Records'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('aln-product-specialty-generator')
+);

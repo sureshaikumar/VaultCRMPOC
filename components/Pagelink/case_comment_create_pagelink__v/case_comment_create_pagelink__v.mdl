@@ -1,0 +1,11 @@
+RECREATE Pagelink case_comment_create_pagelink__v (
+   label('Case Comment Create'),
+   description('Redirects the object record create action to an error message.  All Service Center object records are created through the Service Center application.  Do not edit or delete this record.'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?objectName={{Metadata.name}}&fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.case_comment__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.service_center_object_create_error_page__v')
+);

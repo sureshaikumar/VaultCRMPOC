@@ -1,0 +1,6 @@
+Picklistentry ug-414__v (
+   value('Kanungu'),
+   order(4756),
+   active(true),
+   controlling_entries('ug__v')
+);

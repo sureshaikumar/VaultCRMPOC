@@ -1,0 +1,6 @@
+Picklistentry cz-533__v (
+   value('Svitavy'),
+   order(869),
+   active(true),
+   controlling_entries('cz__v')
+);

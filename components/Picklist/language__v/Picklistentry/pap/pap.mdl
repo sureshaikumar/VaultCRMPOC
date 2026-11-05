@@ -1,0 +1,5 @@
+Picklistentry pap (
+   value('Papiamento'),
+   order(283),
+   active(true)
+);

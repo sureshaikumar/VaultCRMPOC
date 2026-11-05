@@ -1,0 +1,5 @@
+Picklistentry america_los_angeles__v (
+   value('Pacific Time'),
+   order(69),
+   active(true)
+);

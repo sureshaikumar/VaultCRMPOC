@@ -1,0 +1,6 @@
+Picklistentry fr-75c__v (
+   value('Paris'),
+   order(1393),
+   active(true),
+   controlling_entries('fr__v')
+);

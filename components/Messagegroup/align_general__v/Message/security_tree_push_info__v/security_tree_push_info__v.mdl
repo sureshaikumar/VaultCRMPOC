@@ -1,0 +1,6 @@
+Message security_tree_push_info__v (
+   label(),
+   active(true),
+   default_value('Records secured by the Align Security Tree will have their sharing updated to reflect Roster Member Territory assignments.'),
+   system_managed(false)
+);

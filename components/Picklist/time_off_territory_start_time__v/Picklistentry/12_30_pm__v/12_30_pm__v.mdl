@@ -1,0 +1,5 @@
+Picklistentry 12_30_pm__v (
+   value('12:30 PM'),
+   order(9),
+   active(true)
+);

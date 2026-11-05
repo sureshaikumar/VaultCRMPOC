@@ -1,0 +1,6 @@
+Message lost_connection_waba_error_msg_ph_no__v (
+   label(),
+   active(true),
+   default_value('This WhatsApp Business Account has lost connection. Connect again through the WhatsApp Business Account page.'),
+   system_managed(false)
+);

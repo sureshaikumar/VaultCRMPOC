@@ -1,0 +1,6 @@
+Picklistentry eg-fym__v (
+   value('Al Fayyūm'),
+   order(1167),
+   active(true),
+   controlling_entries('eg__v')
+);

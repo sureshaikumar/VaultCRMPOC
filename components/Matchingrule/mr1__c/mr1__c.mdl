@@ -1,0 +1,9 @@
+RECREATE Matchingrule mr1__c (
+   label('MR1'),
+   active(true),
+   description(),
+   object('Object.vaultcrmtrn1__c'),
+   role('Applicationrole.viewer__v'),
+   user_role_fields('Field.country__c'),
+   data_fields('Field.country__c')
+);

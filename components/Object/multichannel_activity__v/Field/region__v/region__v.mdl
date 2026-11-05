@@ -1,0 +1,19 @@
+Field region__v (
+   label('Region'),
+   type('String'),
+   active(true),
+   description('Two-letter or two digit region code which corresponds to the IP address of the viewer.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

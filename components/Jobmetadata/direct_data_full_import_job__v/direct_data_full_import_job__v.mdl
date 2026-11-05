@@ -1,0 +1,10 @@
+RECREATE Jobmetadata direct_data_full_import_job__v (
+   label('CRM Direct Data Transfer - Full'),
+   active(true),
+   chunk_size(1),
+   description('Generates a complete extract of all CRM data, typically used for initial data loads or full dataset refreshes.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.directdata.jobs.DirectDataImportJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate workflow_task_cannot_be_created__v (
+   label('Workflow Task Cannot Be Created'),
+   active(true),
+   description('This notification is sent if task completion is blocked when a downstream task cannot be created because there are no participants available.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Workflow Task Cannot Be Created'),
+   notification('<p>Task assignee group ${participant_group__sys} for the workflow ${workflowTargetLink} does not contain any users and tasks cannot be created and completed.</p><p>Please add participants to the workflow to ensure tasks are completed on time.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

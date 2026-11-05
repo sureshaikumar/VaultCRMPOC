@@ -1,0 +1,4 @@
+Typefield segmentation_field__v (
+   source('standard'),
+   required(false)
+);

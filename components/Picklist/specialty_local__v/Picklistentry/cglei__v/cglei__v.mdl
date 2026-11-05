@@ -1,0 +1,23 @@
+Picklistentry cglei__v (
+   value('Clinical Genetics'),
+   order(223),
+   active(true),
+   controlling_entries('ae__v',
+         'au__v',
+         'be__v',
+         'bh__v',
+         'cy__v',
+         'dk__v',
+         'gb__v',
+         'hu__v',
+         'ie__v',
+         'lu__v',
+         'my__v',
+         'nl__v',
+         'nz__v',
+         'pl__v',
+         'qa__v',
+         'se__v',
+         'si__v',
+         'vn__v')
+);

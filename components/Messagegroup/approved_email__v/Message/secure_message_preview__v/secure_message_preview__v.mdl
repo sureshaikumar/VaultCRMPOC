@@ -1,0 +1,6 @@
+Message secure_message_preview__v (
+   label(),
+   active(true),
+   default_value('This is a secure message. The recipient will receive an email notification to sign in to the portal and view the message content.'),
+   system_managed(false)
+);

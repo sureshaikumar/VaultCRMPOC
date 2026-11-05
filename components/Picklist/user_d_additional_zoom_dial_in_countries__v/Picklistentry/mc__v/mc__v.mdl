@@ -1,0 +1,5 @@
+Picklistentry mc__v (
+   value('MC'),
+   order(70),
+   active(true)
+);

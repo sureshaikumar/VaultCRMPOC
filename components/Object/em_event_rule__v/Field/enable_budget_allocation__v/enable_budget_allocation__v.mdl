@@ -1,0 +1,17 @@
+Field enable_budget_allocation__v (
+   label('Enable Budget Allocation'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if The Budget Allocation event rule is enabled.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(56),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

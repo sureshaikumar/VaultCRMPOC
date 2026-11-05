@@ -1,0 +1,8 @@
+Picklistentry mveid__v (
+   value('Medical Virology'),
+   order(945),
+   active(true),
+   controlling_entries('ae__v',
+         'gb__v',
+         'tr__v')
+);

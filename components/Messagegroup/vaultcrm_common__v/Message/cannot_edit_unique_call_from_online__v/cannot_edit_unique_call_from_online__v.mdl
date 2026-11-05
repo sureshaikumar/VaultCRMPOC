@@ -1,0 +1,6 @@
+Message cannot_edit_unique_call_from_online__v (
+   label(),
+   active(true),
+   default_value('Editing a unique activity ${call_object_label} from a web browser is currently not supported. Please use the Vault CRM App.'),
+   system_managed(false)
+);

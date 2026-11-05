@@ -1,0 +1,6 @@
+Picklistentry kh-11__v (
+   value('Mondol Kiri [Môndól Kiri]'),
+   order(2412),
+   active(true),
+   controlling_entries('kh__v')
+);

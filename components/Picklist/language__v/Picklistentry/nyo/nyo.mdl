@@ -1,0 +1,5 @@
+Picklistentry nyo (
+   value('Nyoro'),
+   order(274),
+   active(true)
+);

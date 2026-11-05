@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate account_plan_export_success__v (
+   label('Account Plan Export Success'),
+   active(true),
+   description('Notifies the user when an account plan has been successfully exported to PowerPoint and is available to view.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.account_plan__v'),
+   subject('Account Plan ${Custom.account_plan_name} successfully exported to PowerPoint'),
+   notification('"${Custom.template_name}" was successfully exported for "${Custom.account_plan_name}."<br><a href=${uiBaseExtUrl}/#doc_info/${Custom.exported_doc_id}/${Custom.exported_doc_major}/${Custom.exported_doc_minor}>View Exported Document</a>'),
+   email_body('"${Custom.template_name}" was successfully exported for "${Custom.account_plan_name}."<br><a href=${uiBaseExtUrl}/#doc_info/${Custom.exported_doc_id}/${Custom.exported_doc_major}/${Custom.exported_doc_minor}>View Exported Document</a>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

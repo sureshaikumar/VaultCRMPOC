@@ -1,0 +1,19 @@
+Field deployment_option__sys (
+   label('Deployment Option'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(true),
+   order(3),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

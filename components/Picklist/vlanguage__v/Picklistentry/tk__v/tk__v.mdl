@@ -1,0 +1,5 @@
+Picklistentry tk__v (
+   value('Turkmen'),
+   order(331),
+   active(false)
+);

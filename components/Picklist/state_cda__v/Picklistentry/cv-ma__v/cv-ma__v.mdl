@@ -1,0 +1,6 @@
+Picklistentry cv-ma__v (
+   value('Maio'),
+   order(789),
+   active(true),
+   controlling_entries('cv__v')
+);

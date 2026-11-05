@@ -1,0 +1,6 @@
+Message mass_select_new_field__v (
+   label(),
+   active(true),
+   default_value('New Field Value'),
+   system_managed(false)
+);

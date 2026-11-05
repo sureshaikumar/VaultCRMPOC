@@ -1,0 +1,4 @@
+Typefield detail_group_vexternal_id__v (
+   source('standard'),
+   required(false)
+);

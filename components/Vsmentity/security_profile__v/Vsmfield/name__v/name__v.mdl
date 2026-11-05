@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The display name of the security profile record. Used to identify and reference the profile in the UI and in queries when searching for a specific security configuration by its human-readable label.'),
+   example_values(),
+   synonyms('security profile name',
+         'profile label',
+         'profile title'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

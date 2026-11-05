@@ -1,0 +1,6 @@
+Picklistentry sa-04__v (
+   value('Ash Sharqīyah'),
+   order(3881),
+   active(true),
+   controlling_entries('sa__v')
+);

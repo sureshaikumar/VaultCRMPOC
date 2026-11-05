@@ -1,0 +1,23 @@
+RECREATE Objecttype product__c.base__v (
+   label('Base Product'),
+   label_plural('Base Products'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/description__c.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/product_code__c.mdl),
+   Typefield(@Typefield/product_name__c.mdl),
+   Typefield(@Typefield/product_status__c.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

@@ -1,0 +1,6 @@
+Typefield goal_editing_rules__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.mc_cycle_goal_editing_rules__v.enable_edit_my_goal_to_zero__v',
+         'Picklist.mc_cycle_goal_editing_rules__v.enable_edit_team_goal_to_zero__v')
+);

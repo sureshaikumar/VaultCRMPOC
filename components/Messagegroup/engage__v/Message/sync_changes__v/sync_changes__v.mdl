@@ -1,0 +1,6 @@
+Message sync_changes__v (
+   label(),
+   active(true),
+   default_value('Sync Changes'),
+   system_managed(false)
+);

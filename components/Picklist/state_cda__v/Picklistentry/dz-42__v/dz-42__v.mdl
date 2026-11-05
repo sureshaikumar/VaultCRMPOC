@@ -1,0 +1,6 @@
+Picklistentry dz-42__v (
+   value('Tipaza'),
+   order(1023),
+   active(true),
+   controlling_entries('dz__v')
+);

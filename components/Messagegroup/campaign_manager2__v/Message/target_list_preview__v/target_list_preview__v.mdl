@@ -1,0 +1,6 @@
+Message target_list_preview__v (
+   label(),
+   active(true),
+   default_value('Target List Preview'),
+   system_managed(false)
+);

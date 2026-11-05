@@ -1,0 +1,6 @@
+Message field_length_validation__v (
+   label(),
+   active(true),
+   default_value('The length of ${field_name} cannot be larger than ${max_length} characters.'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist insight_quality_check__v (
+   label('Insight Quality Check'),
+   active(true),
+   Picklistentry(@Picklistentry/automatic_from_agentic_entry__v.mdl),
+   Picklistentry(@Picklistentry/on_demand__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

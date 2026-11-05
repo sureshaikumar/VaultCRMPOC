@@ -1,0 +1,6 @@
+Picklistentry ee-198__v (
+   value('Harku'),
+   order(1070),
+   active(true),
+   controlling_entries('ee__v')
+);

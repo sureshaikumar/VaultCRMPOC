@@ -1,0 +1,6 @@
+Message no_deactivated_title__v (
+   label(),
+   active(true),
+   default_value('No Deactivated Target Lists'),
+   system_managed(false)
+);

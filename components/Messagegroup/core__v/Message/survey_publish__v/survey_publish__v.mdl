@@ -1,0 +1,6 @@
+Message survey_publish__v (
+   label(),
+   active(true),
+   default_value('Publishing will lock the survey.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message account_requested_to_reschedule__v (
+   label(),
+   active(true),
+   default_value('${account} requested to reschedule this meeting. Check your email.'),
+   system_managed(false)
+);

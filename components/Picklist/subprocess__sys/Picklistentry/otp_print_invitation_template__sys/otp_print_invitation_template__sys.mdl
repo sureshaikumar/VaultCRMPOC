@@ -1,0 +1,6 @@
+Picklistentry otp_print_invitation_template__sys (
+   value('Print Invitation Template'),
+   order(124),
+   active(true),
+   controlling_entries('olc_event_material__sys')
+);

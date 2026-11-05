@@ -1,0 +1,6 @@
+Message map_legend_rosters__v (
+   label(),
+   active(true),
+   default_value('Rosters'),
+   system_managed(false)
+);

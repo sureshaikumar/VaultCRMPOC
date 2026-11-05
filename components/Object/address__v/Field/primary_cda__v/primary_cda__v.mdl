@@ -1,0 +1,18 @@
+Field primary_cda__v (
+   label('Primary'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether this represents the individual''s primary address. Only one address can be marked as Primary.'),
+   required(false),
+   checkbox(true),
+   help_content('Address serves as the primary address for the associated account. A trigger insures that there is only one primary address.'),
+   list_column(false),
+   order(66),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

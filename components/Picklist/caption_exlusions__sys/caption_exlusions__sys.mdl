@@ -1,0 +1,9 @@
+RECREATE Picklist caption_exlusions__sys (
+   label('Caption Exclusions'),
+   active(true),
+   Picklistentry(@Picklistentry/table__sys.mdl),
+   Picklistentry(@Picklistentry/figure__sys.mdl),
+   Picklistentry(@Picklistentry/seq_table_note__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry system_managed__sys (
+   value('System Managed'),
+   order(1),
+   active(true)
+);

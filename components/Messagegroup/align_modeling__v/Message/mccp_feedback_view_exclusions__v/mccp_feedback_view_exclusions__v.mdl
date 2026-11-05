@@ -1,0 +1,6 @@
+Message mccp_feedback_view_exclusions__v (
+   label(),
+   active(true),
+   default_value('View Exclusions'),
+   system_managed(false)
+);

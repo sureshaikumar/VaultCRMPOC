@@ -1,0 +1,6 @@
+Message copying_in_progress__v (
+   label(),
+   active(true),
+   default_value('Copying in Progress'),
+   system_managed(false)
+);

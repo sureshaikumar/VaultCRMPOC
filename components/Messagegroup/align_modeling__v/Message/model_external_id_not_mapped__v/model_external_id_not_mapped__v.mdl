@@ -1,0 +1,6 @@
+Message model_external_id_not_mapped__v (
+   label(),
+   active(true),
+   default_value('External Id {0} of {1} does not map to a valid {2}.'),
+   system_managed(false)
+);

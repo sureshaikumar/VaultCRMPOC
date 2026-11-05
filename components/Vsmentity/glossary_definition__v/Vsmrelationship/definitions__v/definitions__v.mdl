@@ -1,0 +1,14 @@
+Vsmrelationship definitions__v (
+   label('Definitions'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound references from other glossary definitions that point to this definition, representing definitions that are related to or derived from this one. Use this to find all glossary entries that reference this definition.'),
+   join_object(),
+   synonyms('child definitions',
+         'related definitions',
+         'sub-definitions',
+         'linked definitions'),
+   target('definitions__sysr'),
+   target_label('Definitions'),
+   target_object('glossary_definition__sys')
+);

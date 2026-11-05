@@ -1,0 +1,18 @@
+Field is_discontinued__v (
+   label('Is Discontinued'),
+   type('Boolean'),
+   active(true),
+   description('This field is used to capture Patient Journey Associations records with a Lifecycle State = Discontinued; For X-Pages use.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('FALSE'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

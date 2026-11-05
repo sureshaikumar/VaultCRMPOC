@@ -1,0 +1,10 @@
+Typefield delivery_method__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_inquiry_delivery_method__v.email__v',
+         'Picklist.medical_inquiry_delivery_method__v.fax__v',
+         'Picklist.medical_inquiry_delivery_method__v.mail__v',
+         'Picklist.medical_inquiry_delivery_method__v.phone__v',
+         'Picklist.medical_inquiry_delivery_method__v.urgent_mail__v'),
+   default_value('Picklist.medical_inquiry_delivery_method__v.urgent_mail__v')
+);

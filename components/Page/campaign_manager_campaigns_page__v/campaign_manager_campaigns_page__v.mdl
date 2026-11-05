@@ -1,0 +1,14 @@
+RECREATE Page campaign_manager_campaigns_page__v (
+   label('Campaigns'),
+   active(true),
+   client_distribution(),
+   default_client_code('campaign_manager_campaigns__v'),
+   description('Campaign Manager application''s Campaigns page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.campaignmanager.controls.page.CampaignManagerCampaignsPageController'),
+   url_path_name('campaigns')
+);

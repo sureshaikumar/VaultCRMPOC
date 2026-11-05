@@ -1,0 +1,5 @@
+Picklistentry america_iqaluit__sys (
+   value('(GMT-05:00) Eastern Standard Time (America/Iqaluit)'),
+   order(70),
+   active(true)
+);

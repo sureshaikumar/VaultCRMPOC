@@ -1,0 +1,6 @@
+Message rule_account_hierarchy_rule__v (
+   label(),
+   active(true),
+   default_value('Account Hierarchy Rule'),
+   system_managed(false)
+);

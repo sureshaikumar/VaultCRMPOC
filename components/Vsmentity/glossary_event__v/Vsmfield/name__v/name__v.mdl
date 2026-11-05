@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('System-generated name or identifier for the glossary event record. Typically auto-assigned and used for record identification rather than business analysis.'),
+   example_values(),
+   synonyms('event name',
+         'record name',
+         'ID'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

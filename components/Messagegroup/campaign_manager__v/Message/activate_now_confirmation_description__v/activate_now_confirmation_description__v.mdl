@@ -1,0 +1,6 @@
+Message activate_now_confirmation_description__v (
+   label(),
+   active(true),
+   default_value('You are about to activate a campaign for'),
+   system_managed(false)
+);

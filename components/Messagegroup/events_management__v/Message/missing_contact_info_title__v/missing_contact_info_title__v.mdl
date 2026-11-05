@@ -1,0 +1,6 @@
+Message missing_contact_info_title__v (
+   label(),
+   active(true),
+   default_value('Missing Contact Information'),
+   system_managed(false)
+);

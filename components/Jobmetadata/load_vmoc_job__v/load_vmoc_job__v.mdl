@@ -1,0 +1,10 @@
+RECREATE Jobmetadata load_vmoc_job__v (
+   label('Load VMobile Object Configurations Job'),
+   active(true),
+   chunk_size(500),
+   description('This job is responsible for creating VMOCs'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.common.jobs.LoadVMOCsJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

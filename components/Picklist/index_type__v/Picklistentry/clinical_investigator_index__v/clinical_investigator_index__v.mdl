@@ -1,0 +1,5 @@
+Picklistentry clinical_investigator_index__v (
+   value('Clinical Investigator Index'),
+   order(1),
+   active(true)
+);

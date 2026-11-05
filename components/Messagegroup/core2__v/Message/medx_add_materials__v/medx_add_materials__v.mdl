@@ -1,0 +1,6 @@
+Message medx_add_materials__v (
+   label(),
+   active(true),
+   default_value('Add Materials'),
+   system_managed(false)
+);

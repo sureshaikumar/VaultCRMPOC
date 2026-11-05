@@ -1,0 +1,4 @@
+Typefield publish_for_distribution__v (
+   source('standard'),
+   required(false)
+);

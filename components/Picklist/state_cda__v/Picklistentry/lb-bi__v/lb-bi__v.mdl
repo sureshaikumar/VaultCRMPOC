@@ -1,0 +1,6 @@
+Picklistentry lb-bi__v (
+   value('Béqaa'),
+   order(2535),
+   active(true),
+   controlling_entries('lb__v')
+);

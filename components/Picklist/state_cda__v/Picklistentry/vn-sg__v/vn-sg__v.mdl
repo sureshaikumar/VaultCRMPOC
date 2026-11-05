@@ -1,0 +1,6 @@
+Picklistentry vn-sg__v (
+   value('Hồ Chí Minh'),
+   order(4974),
+   active(true),
+   controlling_entries('vn__v')
+);

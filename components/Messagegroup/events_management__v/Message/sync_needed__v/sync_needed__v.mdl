@@ -1,0 +1,6 @@
+Message sync_needed__v (
+   label(),
+   active(true),
+   default_value('The action could not be completed. A sync is needed before you can proceed'),
+   system_managed(false)
+);

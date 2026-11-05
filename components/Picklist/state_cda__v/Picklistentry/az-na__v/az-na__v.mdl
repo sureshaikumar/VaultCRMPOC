@@ -1,0 +1,6 @@
+Picklistentry az-na__v (
+   value('Naftalan'),
+   order(173),
+   active(true),
+   controlling_entries('az__v')
+);

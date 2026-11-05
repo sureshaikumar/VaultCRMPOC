@@ -1,0 +1,6 @@
+Message project_field_force_import_note__v (
+   label(),
+   active(true),
+   default_value('Note: This will automatically import all of the production field force''s account rules and product assignments. It will not import territories related to this field force.'),
+   system_managed(false)
+);

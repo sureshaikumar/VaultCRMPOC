@@ -1,0 +1,6 @@
+Picklistentry sk-zi__v (
+   value('Žilinský Region'),
+   order(4194),
+   active(true),
+   controlling_entries('sk__v')
+);

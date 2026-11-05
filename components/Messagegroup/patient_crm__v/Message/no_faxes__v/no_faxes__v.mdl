@@ -1,0 +1,6 @@
+Message no_faxes__v (
+   label(),
+   active(true),
+   default_value('No Faxes'),
+   system_managed(false)
+);

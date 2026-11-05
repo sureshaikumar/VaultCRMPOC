@@ -1,0 +1,6 @@
+Picklistentry rexan__v (
+   value('Regional Anaesthesia'),
+   order(1718),
+   active(true),
+   controlling_entries('ng__v')
+);

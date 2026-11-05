@@ -1,0 +1,16 @@
+RECREATE Vsmpicklist exception_message_error_type__v (
+   label('User Exception Message Error Type'),
+   active(true),
+   description('Classifies the type of error associated with a user exception message, enabling consistent categorization and handling of error conditions for Vault Connections.'),
+   synonyms('error type',
+      'exception error category',
+      'user error classification',
+      'error message type',
+      'exception category'),
+   target('Picklist.exception_message_error_type__sys'),
+   target_label('User Exception Message Error Type'),
+   Vsmvalue(@Vsmvalue/connection_error__v.mdl),
+   Vsmvalue(@Vsmvalue/item_processing_error__v.mdl),
+   Vsmvalue(@Vsmvalue/message_processing_error__v.mdl),
+   Vsmvalue(@Vsmvalue/warning__v.mdl)
+);

@@ -1,0 +1,6 @@
+Picklistentry cl-lr__v (
+   value('Los Ríos'),
+   order(676),
+   active(true),
+   controlling_entries('cl__v')
+);

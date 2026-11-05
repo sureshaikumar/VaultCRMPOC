@@ -1,0 +1,5 @@
+Picklistentry aed__sys (
+   value('AED'),
+   order(1),
+   active(true)
+);

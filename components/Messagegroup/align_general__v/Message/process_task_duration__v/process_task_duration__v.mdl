@@ -1,0 +1,6 @@
+Message process_task_duration__v (
+   label(),
+   active(true),
+   default_value('Duration'),
+   system_managed(false)
+);

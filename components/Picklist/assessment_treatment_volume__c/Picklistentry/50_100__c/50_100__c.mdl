@@ -1,0 +1,5 @@
+Picklistentry 50_100__c (
+   value('50-100'),
+   order(1),
+   active(true)
+);

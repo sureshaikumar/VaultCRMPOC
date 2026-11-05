@@ -1,0 +1,6 @@
+Message cycle_plan_channel_activity_max__v (
+   label(),
+   active(true),
+   default_value('Channel Activity Max'),
+   system_managed(false)
+);

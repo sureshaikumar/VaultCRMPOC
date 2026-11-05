@@ -1,0 +1,17 @@
+Field training_summary_results__sys (
+   label('Training Summary Results'),
+   type('RichText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Summary results for this Trained Model after it has been trained.'),
+   list_column(true),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   control_binding()
+);

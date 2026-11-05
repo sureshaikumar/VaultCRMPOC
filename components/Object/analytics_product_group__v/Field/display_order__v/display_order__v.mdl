@@ -1,0 +1,22 @@
+Field display_order__v (
+   label('Display Order'),
+   type('Number'),
+   active(true),
+   description('Display Order is used to control the order in which the Product Group is displayed in the reports.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

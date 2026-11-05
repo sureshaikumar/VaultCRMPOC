@@ -1,0 +1,4 @@
+Typefield enable_signature_graphic_picklist__v (
+   source('standard'),
+   required(false)
+);

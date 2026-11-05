@@ -1,0 +1,6 @@
+Message lc_state_update_failure_subject__v (
+   label(),
+   active(true),
+   default_value('Notification: Territory Feedback Job Completed with Errors'),
+   system_managed(false)
+);

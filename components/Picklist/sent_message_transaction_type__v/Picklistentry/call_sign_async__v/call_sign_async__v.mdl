@@ -1,0 +1,5 @@
+Picklistentry call_sign_async__v (
+   value('Call Sign Async'),
+   order(6),
+   active(true)
+);

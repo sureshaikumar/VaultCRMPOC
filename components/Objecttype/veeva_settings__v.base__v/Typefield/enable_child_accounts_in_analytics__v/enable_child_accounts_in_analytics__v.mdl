@@ -1,0 +1,4 @@
+Typefield enable_child_accounts_in_analytics__v (
+   source('standard'),
+   required(false)
+);

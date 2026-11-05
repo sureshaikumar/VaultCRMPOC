@@ -1,0 +1,7 @@
+Picklistentry cdoes__v (
+   value('Cosmetic Dentistry'),
+   order(337),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

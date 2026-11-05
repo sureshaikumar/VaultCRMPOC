@@ -1,0 +1,6 @@
+Picklistentry sv-mo__v (
+   value('Morazán'),
+   order(4273),
+   active(true),
+   controlling_entries('sv__v')
+);

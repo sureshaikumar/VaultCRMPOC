@@ -1,0 +1,19 @@
+Field visibility_criteria__v (
+   label('Visibility Criteria'),
+   type('String'),
+   active(true),
+   description('The criteria for record-level visibility control'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

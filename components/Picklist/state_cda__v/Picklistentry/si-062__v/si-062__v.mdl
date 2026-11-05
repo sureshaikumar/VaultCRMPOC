@@ -1,0 +1,6 @@
+Picklistentry si-062__v (
+   value('Ljubno'),
+   order(4036),
+   active(true),
+   controlling_entries('si__v')
+);

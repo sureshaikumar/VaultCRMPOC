@@ -1,0 +1,11 @@
+RECREATE Picklist html_report_platform__v (
+   label('Platform'),
+   active(true),
+   Picklistentry(@Picklistentry/mobile_device__v.mdl),
+   Picklistentry(@Picklistentry/online__v.mdl),
+   Picklistentry(@Picklistentry/lightning__v.mdl),
+   Picklistentry(@Picklistentry/business_portal__v.mdl),
+   Picklistentry(@Picklistentry/phone__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message manual__v (
+   label(),
+   active(true),
+   default_value('Manual'),
+   system_managed(false)
+);

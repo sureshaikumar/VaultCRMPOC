@@ -1,0 +1,41 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.clm_content_metrics__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="average_slide_view_order__v" />
+            <vault:field reference="clm_km_object_record_ids__v" />
+            <vault:field reference="clm_presentation_object_record_ids__v" />
+            <vault:field reference="composite_key__v" />
+            <vault:field reference="country_cda__v" />
+            <vault:field reference="downloads_from_sent_links__v" />
+            <vault:field reference="end_date_presented__v" />
+            <vault:field reference="is_auto_published__v" />
+            <vault:field reference="is_custom_presentation__v" />
+            <vault:field reference="median_slide_view_order__v" />
+            <vault:field reference="negative_reactions__v" />
+            <vault:field reference="neutral_reactions__v" />
+            <vault:field reference="positive_reactions__v" />
+            <vault:field reference="pres_binder_global_version_ids__v" />
+            <vault:field reference="pres_source_document_version__v" />
+            <vault:field reference="presentation_links_opened__v" />
+            <vault:field reference="presentation_links_sent__v" />
+            <vault:field reference="presentation_source_document_id__v" />
+            <vault:field reference="previews__v" />
+            <vault:field reference="slide_doc_global_version_ids__v" />
+            <vault:field reference="slide_number__v" />
+            <vault:field reference="slide_source_document_id__v" />
+            <vault:field reference="slide_source_document_version__v" />
+            <vault:field reference="slide_view_duration__v" />
+            <vault:field reference="slide_views_from_sent_links__v" />
+            <vault:field reference="source_vault_guid__v" />
+            <vault:field reference="start_date_presented__v" />
+            <vault:field reference="views_in_calls__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

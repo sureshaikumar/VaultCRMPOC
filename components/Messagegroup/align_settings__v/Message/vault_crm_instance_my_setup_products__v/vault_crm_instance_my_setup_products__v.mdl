@@ -1,0 +1,6 @@
+Message vault_crm_instance_my_setup_products__v (
+   label(),
+   active(true),
+   default_value('My Setup Products'),
+   system_managed(false)
+);

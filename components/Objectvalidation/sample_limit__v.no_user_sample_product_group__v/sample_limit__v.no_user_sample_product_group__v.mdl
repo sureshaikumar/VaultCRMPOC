@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.no_user_sample_product_group__v (
+   label('No User Sample Product Group'),
+   active(false),
+   expression('If(product__vr.product_type__v="sample_product_group__v", IsBlank(user__v), true)'),
+   description('You cannot specify a user when creating limits for a sample product group.'),
+   error_message('You cannot specify a user when creating limits for a sample product group'),
+   error_location('user__v')
+);

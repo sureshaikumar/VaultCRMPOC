@@ -1,0 +1,6 @@
+Message cannot_update_binder__v (
+   label(),
+   active(true),
+   default_value('Binder (${major_version}.${minor_version}) cannot be updated because it is no longer the latest version'),
+   system_managed(false)
+);

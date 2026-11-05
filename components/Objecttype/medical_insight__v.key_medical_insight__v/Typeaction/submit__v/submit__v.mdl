@@ -1,0 +1,3 @@
+Typeaction submit__v (
+   action('medical_insight__v.submit__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry se-c__v (
+   value('Uppsala County'),
+   order(3949),
+   active(true),
+   controlling_entries('se__v')
+);

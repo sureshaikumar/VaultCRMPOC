@@ -1,0 +1,6 @@
+Message cases_reassigned_body__v (
+   label(),
+   active(true),
+   default_value('${case_count} Cases Reassigned to ${assignee_name}'),
+   system_managed(false)
+);

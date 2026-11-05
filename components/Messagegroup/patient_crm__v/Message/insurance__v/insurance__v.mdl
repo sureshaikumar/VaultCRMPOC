@@ -1,0 +1,6 @@
+Message insurance__v (
+   label(),
+   active(true),
+   default_value('Insurance'),
+   system_managed(false)
+);

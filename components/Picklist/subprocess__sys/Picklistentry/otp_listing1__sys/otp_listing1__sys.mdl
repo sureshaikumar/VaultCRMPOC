@@ -1,0 +1,6 @@
+Picklistentry otp_listing1__sys (
+   value('Listing'),
+   order(92),
+   active(true),
+   controlling_entries('olc_contract_partner__sys')
+);

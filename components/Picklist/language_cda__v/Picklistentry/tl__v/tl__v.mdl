@@ -1,0 +1,5 @@
+Picklistentry tl__v (
+   value('Tagalog'),
+   order(57),
+   active(true)
+);

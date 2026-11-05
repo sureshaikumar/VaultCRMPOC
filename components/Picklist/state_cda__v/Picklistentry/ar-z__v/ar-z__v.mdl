@@ -1,0 +1,6 @@
+Picklistentry ar-z__v (
+   value('Santa Cruz'),
+   order(120),
+   active(true),
+   controlling_entries('ar__v')
+);

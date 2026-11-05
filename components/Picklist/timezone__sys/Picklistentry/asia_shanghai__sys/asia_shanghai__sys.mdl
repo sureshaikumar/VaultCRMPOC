@@ -1,0 +1,5 @@
+Picklistentry asia_shanghai__sys (
+   value('(GMT+08:00) China Standard Time (Asia/Shanghai)'),
+   order(258),
+   active(true)
+);

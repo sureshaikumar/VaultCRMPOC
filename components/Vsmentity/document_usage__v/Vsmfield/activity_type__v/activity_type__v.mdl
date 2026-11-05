@@ -1,0 +1,14 @@
+Vsmfield activity_type__v (
+   label('Activity Type'),
+   active(true),
+   description('Describes the type of action performed on the document, such as viewed, downloaded, or copied. Use this field to distinguish between different kinds of document interactions when analyzing engagement patterns.'),
+   example_values(),
+   synonyms('action type',
+         'usage action',
+         'event type',
+         'interaction type'),
+   target('activity_type__v'),
+   target_label('Activity Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

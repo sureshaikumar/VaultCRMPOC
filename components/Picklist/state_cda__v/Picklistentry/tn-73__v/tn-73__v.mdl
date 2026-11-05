@@ -1,0 +1,6 @@
+Picklistentry tn-73__v (
+   value('Kebili'),
+   order(4450),
+   active(true),
+   controlling_entries('tn__v')
+);

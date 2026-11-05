@@ -1,0 +1,5 @@
+Picklistentry cc__v (
+   value('Cocos (Keeling) Islands'),
+   order(47),
+   active(true)
+);

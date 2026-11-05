@@ -1,0 +1,6 @@
+Message coaching_report_complete__v (
+   label(),
+   active(true),
+   default_value('Coaching Report Completed'),
+   system_managed(false)
+);

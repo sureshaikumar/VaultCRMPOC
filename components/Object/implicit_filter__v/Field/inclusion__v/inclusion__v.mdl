@@ -1,0 +1,18 @@
+Field inclusion__v (
+   label('Inclusion'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Determines whether the filter criteria is inclusive or exclusive. If set to TRUE, the filter criteria is inclusive, so only results that meet the criteria will be returned. If set to FALSE, only results that do not meet the criteria will be returned.'),
+   list_column(false),
+   order(10),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

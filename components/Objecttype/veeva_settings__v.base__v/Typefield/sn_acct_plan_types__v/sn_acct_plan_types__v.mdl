@@ -1,0 +1,4 @@
+Typefield sn_acct_plan_types__v (
+   source('standard'),
+   required(false)
+);

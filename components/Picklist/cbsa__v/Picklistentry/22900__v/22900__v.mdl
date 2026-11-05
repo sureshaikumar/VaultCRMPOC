@@ -1,0 +1,5 @@
+Picklistentry 22900__v (
+   value('Fort Smith, AR-OK Metropolitan Statistical Area'),
+   order(319),
+   active(true)
+);

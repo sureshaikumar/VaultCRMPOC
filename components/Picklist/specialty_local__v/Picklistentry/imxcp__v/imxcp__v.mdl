@@ -1,0 +1,6 @@
+Picklistentry imxcp__v (
+   value('Internal Medicine and Clinical Pharmacology'),
+   order(785),
+   active(true),
+   controlling_entries('ee__v')
+);

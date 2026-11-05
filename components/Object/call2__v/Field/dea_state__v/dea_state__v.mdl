@@ -1,0 +1,19 @@
+Field dea_state__v (
+   label('DEA State'),
+   type('String'),
+   active(true),
+   description('State of the DEA Address.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(55),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

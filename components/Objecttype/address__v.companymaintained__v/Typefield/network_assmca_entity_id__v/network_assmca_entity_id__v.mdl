@@ -1,0 +1,4 @@
+Typefield network_assmca_entity_id__v (
+   source('custom'),
+   required(false)
+);

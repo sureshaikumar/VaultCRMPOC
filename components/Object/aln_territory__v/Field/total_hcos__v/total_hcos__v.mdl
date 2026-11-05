@@ -1,0 +1,22 @@
+Field total_hcos__v (
+   label('Total Number of HCOs'),
+   type('Number'),
+   active(true),
+   description('The total number of actively assigned business accounts for this territory.'),
+   required(false),
+   unique(false),
+   max_value(100000000),
+   min_value(0),
+   scale(0),
+   help_content('The total number of actively assigned business accounts for this territory.'),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

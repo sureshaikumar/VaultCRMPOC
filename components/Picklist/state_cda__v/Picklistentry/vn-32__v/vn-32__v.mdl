@@ -1,0 +1,6 @@
+Picklistentry vn-32__v (
+   value('Phú Yên'),
+   order(4935),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,17 @@
+Field end_date__v (
+   label('End Date'),
+   type('Date'),
+   active(true),
+   description('Last day this role was effective for the study person.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

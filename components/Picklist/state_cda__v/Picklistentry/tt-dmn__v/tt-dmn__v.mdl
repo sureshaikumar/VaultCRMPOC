@@ -1,0 +1,6 @@
+Picklistentry tt-dmn__v (
+   value('Diego Martin'),
+   order(4543),
+   active(true),
+   controlling_entries('tt__v')
+);

@@ -1,0 +1,4 @@
+Typefield last_published_version__v (
+   source('standard'),
+   required(false)
+);

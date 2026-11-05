@@ -1,0 +1,6 @@
+Picklistentry cn-js__v (
+   value('Jiangsu Sheng'),
+   order(709),
+   active(true),
+   controlling_entries('cn__v')
+);

@@ -1,0 +1,13 @@
+RECREATE Listlayout listlayout_event_attendee__v (
+   label('Attendee Signature List Layout'),
+   active(true),
+   description('Attendee Signature List Layout'),
+   object('event_attendee__v'),
+   Listlayoutitem(@Listlayoutitem/attendee__v.mdl),
+   Listlayoutitem(@Listlayoutitem/location__v.mdl),
+   Listlayoutitem(@Listlayoutitem/meal_opt_in__v.mdl),
+   Listlayoutitem(@Listlayoutitem/name__v.mdl),
+   Listlayoutitem(@Listlayoutitem/signature__v.mdl),
+   Listlayoutitem(@Listlayoutitem/signature_datetime__v.mdl),
+   Listlayoutitem(@Listlayoutitem/status__v.mdl)
+);

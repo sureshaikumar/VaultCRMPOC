@@ -1,0 +1,6 @@
+Picklistentry kh-25__v (
+   value('Tbong Khmum [Tbong Khmŭm]'),
+   order(2427),
+   active(true),
+   controlling_entries('kh__v')
+);

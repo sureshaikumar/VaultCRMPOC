@@ -1,0 +1,5 @@
+Picklistentry arrows__v (
+   value('Arrows'),
+   order(3),
+   active(true)
+);

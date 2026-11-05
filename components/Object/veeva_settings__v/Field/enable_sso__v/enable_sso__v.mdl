@@ -1,0 +1,18 @@
+Field enable_sso__v (
+   label('Enable SSO'),
+   type('Boolean'),
+   active(true),
+   description('Determines if SSO is enabled. Setting value should be the same as the current Profile''s "IsSsoEnabloed" value (English label for Profile field IsSsoEnabloed is "Is Single Sign On Enabled")'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(179),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

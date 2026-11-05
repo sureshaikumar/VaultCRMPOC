@@ -1,0 +1,5 @@
+Picklistentry channel_partner_reseller__v (
+   value('Channel Partner / Reseller'),
+   order(3),
+   active(true)
+);

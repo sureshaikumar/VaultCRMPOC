@@ -1,0 +1,6 @@
+Message account_exclusion_model_must_set_ff__v (
+   label(),
+   active(true),
+   default_value('Model Account Exclusion with "Field Force" exclusion type must set Model Field Force and must not set Model Territory.'),
+   system_managed(false)
+);

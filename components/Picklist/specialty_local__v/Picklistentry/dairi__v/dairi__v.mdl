@@ -1,0 +1,6 @@
+Picklistentry dairi__v (
+   value('Diagnostic and Interventional Radiology'),
+   order(427),
+   active(true),
+   controlling_entries('nz__v')
+);

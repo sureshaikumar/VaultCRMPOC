@@ -1,0 +1,5 @@
+Picklistentry europe_athens__v (
+   value('Europe/Athens'),
+   order(39),
+   active(true)
+);

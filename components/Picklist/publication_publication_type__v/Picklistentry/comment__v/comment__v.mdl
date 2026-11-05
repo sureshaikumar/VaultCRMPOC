@@ -1,0 +1,5 @@
+Picklistentry comment__v (
+   value('Comment'),
+   order(2),
+   active(true)
+);

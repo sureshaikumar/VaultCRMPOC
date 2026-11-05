@@ -1,0 +1,17 @@
+Field disclaimer__v (
+   label('Disclaimer'),
+   type('LongText'),
+   active(true),
+   description('It stores the disclaimer text persistently in order after signature.'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

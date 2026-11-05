@@ -1,0 +1,9 @@
+Vsmvalue bef__v (
+   label('BEF'),
+   active(true),
+   description('The Belgian Franc (BEF), the former currency of Belgium before it was replaced by the Euro in 2002.'),
+   synonyms('Belgian franc',
+         'Belgium old currency'),
+   target('bef__sys'),
+   target_label('BEF')
+);

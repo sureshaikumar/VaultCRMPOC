@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate cancel_multidoc_task__v (
+   label('Multi-document Workflow Task Cancellation'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('Notification: Task has been canceled'),
+   notification('The task for documents ${multiDocWorkflowLink} has been canceled.'),
+   email_body('The task for documents ${multiDocWorkflowLink} has been canceled.
+'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

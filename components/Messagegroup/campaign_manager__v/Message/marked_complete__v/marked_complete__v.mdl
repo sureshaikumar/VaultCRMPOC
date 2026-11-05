@@ -1,0 +1,6 @@
+Message marked_complete__v (
+   label(),
+   active(true),
+   default_value('Marked Complete'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_ashgabat__sys (
+   value('(GMT+05:00) Turkmenistan Time (Asia/Ashgabat)'),
+   order(227),
+   active(true)
+);

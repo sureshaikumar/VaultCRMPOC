@@ -1,0 +1,6 @@
+Picklistentry acnht__v (
+   value('Antitumor Chemotherapy'),
+   order(97),
+   active(true),
+   controlling_entries('am__v')
+);

@@ -1,0 +1,21 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.connection_field_mapping__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="crm_field__v" />
+            <vault:field reference="crm_object__v" />
+            <vault:field reference="connection_field__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="connection_field_mapping_status__v" />
+            <vault:field reference="system_mapping__v" />
+            <vault:field reference="legacy_crm_id__v" />
+            <vault:field reference="connection__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

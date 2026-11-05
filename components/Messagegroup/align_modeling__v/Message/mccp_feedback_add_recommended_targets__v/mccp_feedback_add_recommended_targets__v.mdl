@@ -1,0 +1,6 @@
+Message mccp_feedback_add_recommended_targets__v (
+   label(),
+   active(true),
+   default_value('Add Recommended Targets'),
+   system_managed(false)
+);

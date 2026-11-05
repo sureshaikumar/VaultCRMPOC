@@ -1,0 +1,6 @@
+Message transfer_successful__v (
+   label(),
+   active(true),
+   default_value('Transfer completed for ${entity_name}'),
+   system_managed(false)
+);

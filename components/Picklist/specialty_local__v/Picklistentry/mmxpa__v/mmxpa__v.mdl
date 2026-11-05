@@ -1,0 +1,6 @@
+Picklistentry mmxpa__v (
+   value('Medical Microbiology Pathology'),
+   order(926),
+   active(true),
+   controlling_entries('ae__v')
+);

@@ -1,0 +1,4 @@
+Typefield doc_attachment_unbound__sys (
+   source('system'),
+   required(false)
+);

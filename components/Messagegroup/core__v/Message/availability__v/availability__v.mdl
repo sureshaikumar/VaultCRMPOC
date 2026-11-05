@@ -1,0 +1,6 @@
+Message availability__v (
+   label(),
+   active(true),
+   default_value('Availability'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message no_patient__v (
+   label(),
+   active(true),
+   default_value('No Patient'),
+   system_managed(false)
+);

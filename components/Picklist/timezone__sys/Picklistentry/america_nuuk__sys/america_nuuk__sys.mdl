@@ -1,0 +1,5 @@
+Picklistentry america_nuuk__sys (
+   value('(GMT-03:00) West Greenland Time (America/Nuuk)'),
+   order(129),
+   active(true)
+);

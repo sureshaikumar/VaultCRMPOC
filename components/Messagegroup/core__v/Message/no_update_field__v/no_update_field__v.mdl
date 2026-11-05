@@ -1,0 +1,6 @@
+Message no_update_field__v (
+   label(),
+   active(true),
+   default_value('The following fields cannot be updated on a Sample Lot: ${field_labels}.'),
+   system_managed(false)
+);

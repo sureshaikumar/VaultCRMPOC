@@ -1,0 +1,4 @@
+Typefield my_setup_products__v (
+   source('standard'),
+   required(false)
+);

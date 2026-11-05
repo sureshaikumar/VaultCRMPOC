@@ -1,0 +1,6 @@
+Picklistentry no-46__v (
+   value('Vestland'),
+   order(3402),
+   active(true),
+   controlling_entries('no__v')
+);

@@ -1,0 +1,6 @@
+Message field_action_expiration_label_date__v (
+   label(),
+   active(true),
+   default_value('Expiration Date: ${expiration_date}'),
+   system_managed(false)
+);

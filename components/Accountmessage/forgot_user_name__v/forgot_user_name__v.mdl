@@ -1,0 +1,7 @@
+RECREATE Accountmessage forgot_user_name__v (
+   label('forgotUserName'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Veeva Vault user name retrieval request')
+);

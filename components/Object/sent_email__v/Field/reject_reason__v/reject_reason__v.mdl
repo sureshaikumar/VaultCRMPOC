@@ -1,0 +1,17 @@
+Field reject_reason__v (
+   label('Reject Reason'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(4000),
+   help_content('Reason for rejecting an email, which will be displayed in MC Alerts'),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

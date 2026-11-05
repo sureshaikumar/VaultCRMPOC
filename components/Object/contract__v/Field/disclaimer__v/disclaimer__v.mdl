@@ -1,0 +1,17 @@
+Field disclaimer__v (
+   label('Disclaimer'),
+   type('LongText'),
+   active(true),
+   description('Displays the disclaimer value from the Veeva Message DISCLAIMER in the CONTRACTS category.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

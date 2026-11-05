@@ -1,0 +1,20 @@
+Field last_inventory_monitoring_type__v (
+   label('Last Inventory Monitoring Type'),
+   type('String'),
+   active(true),
+   description('Setting for defining which Inventory Monitoring type will be used to define the last IM record to be used to run store-check driven Orders. Value should be the literal match of the Inventory Monitoring RecordType Name.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(201),
+   default_value('"Inventory_Monitoring_vod"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

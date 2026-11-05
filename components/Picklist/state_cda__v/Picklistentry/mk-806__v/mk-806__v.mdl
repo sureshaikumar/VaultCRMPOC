@@ -1,0 +1,6 @@
+Picklistentry mk-806__v (
+   value('Zelenikovo'),
+   order(3032),
+   active(true),
+   controlling_entries('mk__v')
+);

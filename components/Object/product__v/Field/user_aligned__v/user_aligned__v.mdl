@@ -1,0 +1,18 @@
+Field user_aligned__v (
+   label('User Aligned'),
+   type('Boolean'),
+   active(true),
+   description('If true then an entry in the My Setup Products for the a User must exist for the product to be visible on Call Report to a user.  Only applies to BRC and Promotional Items.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(50),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

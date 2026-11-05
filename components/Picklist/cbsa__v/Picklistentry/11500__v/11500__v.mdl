@@ -1,0 +1,5 @@
+Picklistentry 11500__v (
+   value('Anniston-Oxford, AL Metropolitan Statistical Area'),
+   order(704),
+   active(true)
+);

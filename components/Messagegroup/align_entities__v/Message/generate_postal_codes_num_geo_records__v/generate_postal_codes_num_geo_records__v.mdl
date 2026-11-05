@@ -1,0 +1,6 @@
+Message generate_postal_codes_num_geo_records__v (
+   label(),
+   active(true),
+   default_value('{0} Geography records will be upserted.'),
+   system_managed(false)
+);

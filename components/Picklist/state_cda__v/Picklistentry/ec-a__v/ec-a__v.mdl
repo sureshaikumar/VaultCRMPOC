@@ -1,0 +1,6 @@
+Picklistentry ec-a__v (
+   value('Azuay'),
+   order(1040),
+   active(true),
+   controlling_entries('ec__v')
+);

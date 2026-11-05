@@ -1,0 +1,10 @@
+RECREATE Jobmetadata delete_user_detail_photo_job__v (
+   label('Delete User Detail Photo Job'),
+   active(true),
+   chunk_size(1),
+   description('Job to delete the published user photo from the User Detail record.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.common.commonfeature.userphotoconsolidation.jobs.DeleteUserDetailPhotoJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

@@ -1,0 +1,6 @@
+Picklistentry gt-19__v (
+   value('Zacapa'),
+   order(1798),
+   active(true),
+   controlling_entries('gt__v')
+);

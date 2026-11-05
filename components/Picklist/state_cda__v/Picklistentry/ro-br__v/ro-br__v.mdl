@@ -1,0 +1,6 @@
+Picklistentry ro-br__v (
+   value('Brăila'),
+   order(3723),
+   active(true),
+   controlling_entries('ro__v')
+);

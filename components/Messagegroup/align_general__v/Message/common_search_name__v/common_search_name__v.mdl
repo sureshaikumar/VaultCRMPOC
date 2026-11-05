@@ -1,0 +1,6 @@
+Message common_search_name__v (
+   label(),
+   active(true),
+   default_value('Search by Name'),
+   system_managed(false)
+);

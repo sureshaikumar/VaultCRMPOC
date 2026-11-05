@@ -1,0 +1,4 @@
+Typefield copay__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,19 @@
+Field territory_name__v (
+   label('Territory Name'),
+   type('String'),
+   active(true),
+   description('Records inserted with the Territory_Name_vod defined indicate aggregated levels of data in the case that a Customer is defining the aggregation of Territory level data for Rollups.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(225),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

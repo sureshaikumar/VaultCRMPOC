@@ -1,0 +1,6 @@
+Picklistentry it-bs__v (
+   value('Brescia'),
+   order(2190),
+   active(true),
+   controlling_entries('it__v')
+);

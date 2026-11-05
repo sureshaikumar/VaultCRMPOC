@@ -1,0 +1,6 @@
+Picklistentry in-rj__v (
+   value('Rājasthān'),
+   order(2025),
+   active(true),
+   controlling_entries('in__v')
+);

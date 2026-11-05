@@ -1,0 +1,5 @@
+Picklistentry shxas__v (
+   value('Social and Health Assistant'),
+   order(145),
+   active(true)
+);

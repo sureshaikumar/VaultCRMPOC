@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate vof_checkbox_field_async_job_complete__v (
+   label('Currency Field Update'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: ${subject}'),
+   notification('<p>${title}</p>
+<p>Detail:</p>
+<ul>
+    <li>Object: ${objectLabel}</li>
+    <li>Checkbox Field: ${fieldLabel}</li>
+    <li>Records Updated: ${recordsUpdated}</li>
+    <li>Start Time: ${startTime}</li>
+    <li>Duration: ${duration}</li>
+</ul>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

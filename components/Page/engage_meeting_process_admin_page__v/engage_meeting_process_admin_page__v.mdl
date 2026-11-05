@@ -1,0 +1,14 @@
+RECREATE Page engage_meeting_process_admin_page__v (
+   label('Engage Platform Process Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code(),
+   description('Engage Platform Process Administration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.engage.controls.page.EngagePlatformProcessAdministrationPageController'),
+   url_path_name('engage-meeting-process-admin')
+);

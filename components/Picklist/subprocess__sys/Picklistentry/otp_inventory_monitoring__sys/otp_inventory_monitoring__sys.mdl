@@ -1,0 +1,6 @@
+Picklistentry otp_inventory_monitoring__sys (
+   value('Inventory Monitoring'),
+   order(84),
+   active(true),
+   controlling_entries('olc_inventory_monitoring__sys')
+);

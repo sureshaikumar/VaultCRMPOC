@@ -1,0 +1,17 @@
+Field zvod_last_activity_date__v (
+   label('Product Last Activity Date'),
+   type('Date'),
+   active(true),
+   description('Marker field to display the date of the most recent activity that was counted towards the Product Activity Actual'),
+   required(false),
+   help_content('Marker field to display the date of the most recent activity that was counted towards the Product Activity Actual'),
+   list_column(false),
+   order(51),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

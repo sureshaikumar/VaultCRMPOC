@@ -1,0 +1,6 @@
+Message engage_group_management__v (
+   label(),
+   active(true),
+   default_value('Engage Group Management'),
+   system_managed(false)
+);

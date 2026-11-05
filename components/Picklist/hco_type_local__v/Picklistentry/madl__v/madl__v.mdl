@@ -1,0 +1,5 @@
+Picklistentry madl__v (
+   value('Medical and Diagnostic Laboratory'),
+   order(147),
+   active(true)
+);

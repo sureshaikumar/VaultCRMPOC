@@ -1,0 +1,6 @@
+Picklistentry odajs__v (
+   value('Oral Diseases and Jaw Surgery'),
+   order(1166),
+   active(true),
+   controlling_entries('nl__v')
+);

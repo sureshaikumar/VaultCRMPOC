@@ -1,0 +1,6 @@
+Message case_task_cancelled_task__v (
+   label(),
+   active(true),
+   default_value('${assignee} cancelled ${task_label}'),
+   system_managed(false)
+);

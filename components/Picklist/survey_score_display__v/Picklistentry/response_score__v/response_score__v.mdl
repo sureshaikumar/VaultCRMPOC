@@ -1,0 +1,5 @@
+Picklistentry response_score__v (
+   value('Response Score'),
+   order(1),
+   active(true)
+);

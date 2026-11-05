@@ -1,0 +1,17 @@
+Field post_process_restricted_pdf__sys (
+   label('Post processing for PDFs with security'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('If enabled, protected and restricted PDFs will receive the same post-processing treatments as unrestricted documents—including OCR, overlays, signature page application, and other applicable processes.'),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

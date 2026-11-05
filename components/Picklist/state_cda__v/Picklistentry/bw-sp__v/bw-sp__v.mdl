@@ -1,0 +1,6 @@
+Picklistentry bw-sp__v (
+   value('Selibe Phikwe'),
+   order(544),
+   active(true),
+   controlling_entries('bw__v')
+);

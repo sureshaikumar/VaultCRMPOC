@@ -1,0 +1,6 @@
+Message manage_groups__v (
+   label(),
+   active(true),
+   default_value('Manage Groups'),
+   system_managed(false)
+);

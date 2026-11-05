@@ -1,0 +1,6 @@
+Picklistentry gd-05__v (
+   value('Saint Mark'),
+   order(1673),
+   active(true),
+   controlling_entries('gd__v')
+);

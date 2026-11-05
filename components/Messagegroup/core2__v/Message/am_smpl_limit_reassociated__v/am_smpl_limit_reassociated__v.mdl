@@ -1,0 +1,6 @@
+Message am_smpl_limit_reassociated__v (
+   label(),
+   active(true),
+   default_value('Sample Limit records are re-associated to the winning account.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry cllai__v (
+   value('Clinical Laboratory'),
+   order(236),
+   active(true),
+   controlling_entries('bg__v')
+);

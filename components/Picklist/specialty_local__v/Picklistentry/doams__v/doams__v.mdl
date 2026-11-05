@@ -1,0 +1,6 @@
+Picklistentry doams__v (
+   value('Dentistry (Oral and Maxillofacial Surgery)'),
+   order(372),
+   active(true),
+   controlling_entries('pk__v')
+);

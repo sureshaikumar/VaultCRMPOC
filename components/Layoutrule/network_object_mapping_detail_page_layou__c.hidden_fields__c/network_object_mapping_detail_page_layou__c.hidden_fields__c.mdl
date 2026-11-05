@@ -1,0 +1,17 @@
+RECREATE Layoutrule network_object_mapping_detail_page_layou__c.hidden_fields__c (
+   active(true),
+   description('Fields are hidden from page layout and replaced with application control fields.'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('crm_object_api_name__v',
+      'external_id_api_name__v',
+      'network_object_api_name__v'),
+   hide_sections(),
+   hide_layout(false),
+   label('Hidden Fields'),
+   order(100)
+);

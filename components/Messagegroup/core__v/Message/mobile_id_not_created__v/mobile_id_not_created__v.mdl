@@ -1,0 +1,6 @@
+Message mobile_id_not_created__v (
+   label(),
+   active(true),
+   default_value('Mobile ID was not created.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry hra__c (
+   value('HRA'),
+   order(1),
+   active(true)
+);

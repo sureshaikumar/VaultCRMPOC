@@ -1,0 +1,8 @@
+RECREATE Objectvalidation lot_catalog__v.non_sample_suppress_lot__v (
+   label('Non Sample Suppress Lot'),
+   active(true),
+   expression('(name__v != "No_Lot_vod") || suppress_lot__v'),
+   description('Ensures that Suppress Lot is checked when a value of "No_Lot_vod" is input into the Lot.'),
+   error_message('Suppress Lot must be checked when using the "No_Lot_vod" Lot # name.'),
+   error_location('suppress_lot__v')
+);

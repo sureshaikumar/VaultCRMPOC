@@ -1,0 +1,17 @@
+Field deleted_in_source__v (
+   label('Deleted in Source?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Stores whether the source record is deleted in the source Vault. It is not deleted in Vault CRM in case it is referenced by other objects.'),
+   list_column(false),
+   order(14),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

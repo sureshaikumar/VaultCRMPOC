@@ -1,0 +1,5 @@
+Picklistentry 23340__v (
+   value('Fremont, NE Micropolitan Statistical Area'),
+   order(323),
+   active(true)
+);

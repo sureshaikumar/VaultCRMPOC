@@ -1,0 +1,4 @@
+Typefield analytics_scale__v (
+   source('standard'),
+   required(false)
+);

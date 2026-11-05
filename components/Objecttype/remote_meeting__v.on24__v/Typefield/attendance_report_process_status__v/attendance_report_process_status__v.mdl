@@ -1,0 +1,9 @@
+Typefield attendance_report_process_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.remote_attendance_report_process_status__v.meeting_not_started__v',
+         'Picklist.remote_attendance_report_process_status__v.meeting_occurred__v',
+         'Picklist.remote_attendance_report_process_status__v.retries_maxed__v',
+         'Picklist.remote_attendance_report_process_status__v.retry__v',
+         'Picklist.remote_attendance_report_process_status__v.success__v')
+);

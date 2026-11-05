@@ -1,0 +1,8 @@
+Picklistentry mmiel__v (
+   value('Military Medicine'),
+   order(971),
+   active(true),
+   controlling_entries('ie__v',
+         'my__v',
+         'pt__v')
+);

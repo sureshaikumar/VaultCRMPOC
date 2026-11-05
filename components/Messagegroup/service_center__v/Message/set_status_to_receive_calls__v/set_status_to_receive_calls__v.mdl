@@ -1,0 +1,6 @@
+Message set_status_to_receive_calls__v (
+   label(),
+   active(true),
+   default_value('Set your status to ${status} to receive calls'),
+   system_managed(false)
+);

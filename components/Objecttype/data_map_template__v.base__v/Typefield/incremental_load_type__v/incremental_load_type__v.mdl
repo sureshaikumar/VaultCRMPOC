@@ -1,0 +1,4 @@
+Typefield incremental_load_type__v (
+   source('standard'),
+   required(false)
+);

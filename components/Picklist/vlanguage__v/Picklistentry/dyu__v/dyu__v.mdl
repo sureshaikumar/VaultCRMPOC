@@ -1,0 +1,5 @@
+Picklistentry dyu__v (
+   value('Dyula'),
+   order(81),
+   active(false)
+);

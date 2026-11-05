@@ -1,0 +1,5 @@
+Picklistentry australia_adelaide__sys (
+   value('(GMT+09:30) Australian Central Standard Time (South Australia) (Australia/Adelaide)'),
+   order(280),
+   active(true)
+);

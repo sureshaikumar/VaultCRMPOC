@@ -1,0 +1,19 @@
+Field territory__v (
+   label('Territory'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(100),
+   help_content('the territory of the Cycle Plan'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

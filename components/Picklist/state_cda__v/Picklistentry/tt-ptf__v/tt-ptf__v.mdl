@@ -1,0 +1,6 @@
+Picklistentry tt-ptf__v (
+   value('Point Fortin'),
+   order(4548),
+   active(true),
+   controlling_entries('tt__v')
+);

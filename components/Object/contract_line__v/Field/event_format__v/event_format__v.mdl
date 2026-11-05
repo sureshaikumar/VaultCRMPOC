@@ -1,0 +1,18 @@
+Field event_format__v (
+   label('Event Format'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used by Events Management to assign an Event Format to records.'),
+   list_column(false),
+   order(44),
+   multi_value(false),
+   picklist('Picklist.event_format__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

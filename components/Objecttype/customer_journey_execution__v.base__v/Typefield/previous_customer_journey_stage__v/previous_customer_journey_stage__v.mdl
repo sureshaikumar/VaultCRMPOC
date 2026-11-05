@@ -1,0 +1,4 @@
+Typefield previous_customer_journey_stage__v (
+   source('standard'),
+   required(false)
+);

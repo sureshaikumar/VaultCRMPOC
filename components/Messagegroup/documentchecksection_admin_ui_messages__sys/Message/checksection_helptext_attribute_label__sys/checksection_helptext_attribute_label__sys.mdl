@@ -1,0 +1,6 @@
+Message checksection_helptext_attribute_label__sys (
+   label(),
+   active(true),
+   default_value('Help Text'),
+   system_managed(false)
+);

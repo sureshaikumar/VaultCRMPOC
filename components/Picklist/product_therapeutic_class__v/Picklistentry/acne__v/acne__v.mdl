@@ -1,0 +1,5 @@
+Picklistentry acne__v (
+   value('Acne'),
+   order(26),
+   active(true)
+);

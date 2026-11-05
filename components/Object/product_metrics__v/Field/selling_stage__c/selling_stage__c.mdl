@@ -1,0 +1,18 @@
+Field selling_stage__c (
+   label('Selling Stage'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Sample metric field.'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.product_metrics_selling_stage__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

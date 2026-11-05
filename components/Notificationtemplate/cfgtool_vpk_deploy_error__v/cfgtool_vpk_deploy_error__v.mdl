@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate cfgtool_vpk_deploy_error__v (
+   label('Vpk Deployment Error'),
+   active(true),
+   description('Package deployment error template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Unable to Complete Deployment'),
+   notification('<b><p>Deployment of Package <a href="${url_inbound_package_page}">${package_name}</a> has not completed due to <a href="${url_download_log}">errors</a>.</p></b><br/>Details:<br/>Total Steps: ${total_step_count}<br/>Deployed: ${count_deployed}<br/>Deployed with warnings: ${count_warning}<br/>Deployed with failures: ${count_deployed_with_failure}<br/>Deployed with error: ${count_deployed_with_error}<br/>Failed: ${count_error}<br/>Skipped: ${count_skipped}<br/><br/>For details, please see <a href="${url_download_log}">deployment log</a>.'),
+   email_body('<b><p>Deployment of Package ${package_name} has not completed due to errors.</p></b><br/>Details:<br/>Total Steps: ${total_step_count}<br/>Deployed: ${count_deployed}<br/>Deployed with warnings: ${count_warning}<br/>Deployed with failures: ${count_deployed_with_failure}<br/>Deployed with error: ${count_deployed_with_error}<br/>Failed: ${count_error}<br/>Skipped: ${count_skipped}<br/><br/>For details, please see <a href="${url_download_log}">deployment log</a>.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

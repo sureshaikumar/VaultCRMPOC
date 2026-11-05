@@ -1,0 +1,4 @@
+Typefield howdoesgpoannouncenewproduct__c (
+   source('standard'),
+   required(false)
+);

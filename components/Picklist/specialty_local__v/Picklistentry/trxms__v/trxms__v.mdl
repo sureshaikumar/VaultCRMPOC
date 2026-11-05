@@ -1,0 +1,6 @@
+Picklistentry trxms__v (
+   value('Trauma Medicine / Surgery'),
+   order(1863),
+   active(true),
+   controlling_entries('bw__v')
+);

@@ -1,0 +1,6 @@
+Message continue__v (
+   label(),
+   active(true),
+   default_value('Continue'),
+   system_managed(false)
+);

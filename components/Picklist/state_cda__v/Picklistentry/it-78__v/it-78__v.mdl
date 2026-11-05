@@ -1,0 +1,6 @@
+Picklistentry it-78__v (
+   value('Calabria'),
+   order(2172),
+   active(true),
+   controlling_entries('it__v')
+);

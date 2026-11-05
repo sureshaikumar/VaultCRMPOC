@@ -1,0 +1,18 @@
+Field dpv_confirmed_indicator__v (
+   label('DPV Confirmed Indicator'),
+   type('Picklist'),
+   active(true),
+   description('Only relevant for the US. This field is provided from the mail engine address validation service. Delivery Point Validation (DPV) Confirmation Indicator is the primary method used by the USPS (United States Postal Service) to determine whether an address was considered deliverable or undeliverable.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(99),
+   multi_value(false),
+   picklist('Picklist.dpv_confirmed_indicator__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

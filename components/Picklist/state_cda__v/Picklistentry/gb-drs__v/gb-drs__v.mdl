@@ -1,0 +1,6 @@
+Picklistentry gb-drs__v (
+   value('Derry and Strabane'),
+   order(1504),
+   active(true),
+   controlling_entries('gb__v')
+);

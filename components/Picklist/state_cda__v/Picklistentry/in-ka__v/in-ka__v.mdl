@@ -1,0 +1,6 @@
+Picklistentry in-ka__v (
+   value('Karnātaka'),
+   order(2012),
+   active(true),
+   controlling_entries('in__v')
+);

@@ -1,0 +1,6 @@
+Message field_force_hierarchy_cycle__v (
+   label(),
+   active(true),
+   default_value('There is a circular reference in the Field Force hierarchy'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message business_portals_dialog_header__v (
+   label(),
+   active(true),
+   default_value('Business Portals'),
+   system_managed(false)
+);

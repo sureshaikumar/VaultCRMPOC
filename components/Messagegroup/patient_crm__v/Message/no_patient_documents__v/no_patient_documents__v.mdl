@@ -1,0 +1,6 @@
+Message no_patient_documents__v (
+   label(),
+   active(true),
+   default_value('No Patient Documents'),
+   system_managed(false)
+);

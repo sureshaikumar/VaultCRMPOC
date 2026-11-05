@@ -1,0 +1,23 @@
+RECREATE Picklist coaching_report_review_period__c (
+   label('Review Period'),
+   active(true),
+   Picklistentry(@Picklistentry/q1__c.mdl),
+   Picklistentry(@Picklistentry/q2__c.mdl),
+   Picklistentry(@Picklistentry/q3__c.mdl),
+   Picklistentry(@Picklistentry/q4__c.mdl),
+   Picklistentry(@Picklistentry/ytd__c.mdl),
+   Picklistentry(@Picklistentry/jan__c.mdl),
+   Picklistentry(@Picklistentry/feb__c.mdl),
+   Picklistentry(@Picklistentry/mar__c.mdl),
+   Picklistentry(@Picklistentry/apr__c.mdl),
+   Picklistentry(@Picklistentry/may__c.mdl),
+   Picklistentry(@Picklistentry/jun__c.mdl),
+   Picklistentry(@Picklistentry/jul__c.mdl),
+   Picklistentry(@Picklistentry/aug__c.mdl),
+   Picklistentry(@Picklistentry/sep__c.mdl),
+   Picklistentry(@Picklistentry/oct__c.mdl),
+   Picklistentry(@Picklistentry/nov__c.mdl),
+   Picklistentry(@Picklistentry/dec__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

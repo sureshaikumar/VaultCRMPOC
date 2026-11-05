@@ -1,0 +1,6 @@
+Picklistentry by-ho__v (
+   value('Homyel Region'),
+   order(548),
+   active(true),
+   controlling_entries('by__v')
+);

@@ -1,0 +1,6 @@
+Typefield expiration_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.consent_template_expiration_type__v.calendar__v',
+         'Picklist.consent_template_expiration_type__v.rolling__v')
+);

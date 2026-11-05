@@ -1,0 +1,6 @@
+Message continue_editing__v (
+   label(),
+   active(true),
+   default_value('Continue Editing'),
+   system_managed(false)
+);

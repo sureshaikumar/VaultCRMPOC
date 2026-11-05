@@ -1,0 +1,6 @@
+Message views_and_lists__v (
+   label(),
+   active(true),
+   default_value('Views and Lists'),
+   system_managed(false)
+);

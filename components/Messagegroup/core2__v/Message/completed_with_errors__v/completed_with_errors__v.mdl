@@ -1,0 +1,6 @@
+Message completed_with_errors__v (
+   label(),
+   active(true),
+   default_value('Completed with error(s)'),
+   system_managed(false)
+);

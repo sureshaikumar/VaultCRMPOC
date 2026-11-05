@@ -1,0 +1,6 @@
+Message slide__v (
+   label(),
+   active(true),
+   default_value('Slide'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry pacific_enderbury__v (
+   value('Phoenix Islands Time'),
+   order(1),
+   active(true)
+);

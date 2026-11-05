@@ -1,0 +1,19 @@
+Field child_event_object_type__v (
+   label('Child Event Object Type'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Defines which object type is used for an event configuration'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

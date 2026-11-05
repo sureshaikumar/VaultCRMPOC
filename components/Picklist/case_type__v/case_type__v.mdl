@@ -1,0 +1,10 @@
+RECREATE Picklist case_type__v (
+   label('Case Type'),
+   active(true),
+   Picklistentry(@Picklistentry/question_type__v.mdl),
+   Picklistentry(@Picklistentry/incident_type__v.mdl),
+   Picklistentry(@Picklistentry/problem_type__v.mdl),
+   Picklistentry(@Picklistentry/task_type__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

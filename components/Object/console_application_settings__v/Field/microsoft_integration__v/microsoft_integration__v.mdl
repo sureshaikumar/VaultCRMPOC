@@ -1,0 +1,18 @@
+Field microsoft_integration__v (
+   label('Microsoft Integrations'),
+   type('Picklist'),
+   active(true),
+   description('Enables one or more Microsoft Integrations.'),
+   required(false),
+   unique(false),
+   help_content('Enables one or more Microsoft Integrations.'),
+   list_column(false),
+   order(17),
+   multi_value(true),
+   picklist('Picklist.microsoft_integration__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

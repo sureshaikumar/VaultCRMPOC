@@ -1,0 +1,6 @@
+Picklistentry si-164__v (
+   value('Komenda'),
+   order(4137),
+   active(true),
+   controlling_entries('si__v')
+);

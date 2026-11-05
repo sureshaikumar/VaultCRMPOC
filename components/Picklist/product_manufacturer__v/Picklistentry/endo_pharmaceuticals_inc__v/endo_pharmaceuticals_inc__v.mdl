@@ -1,0 +1,5 @@
+Picklistentry endo_pharmaceuticals_inc__v (
+   value('Endo Pharmaceuticals Inc.'),
+   order(15),
+   active(true)
+);

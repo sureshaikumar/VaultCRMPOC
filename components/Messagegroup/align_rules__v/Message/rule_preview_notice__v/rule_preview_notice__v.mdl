@@ -1,0 +1,6 @@
+Message rule_preview_notice__v (
+   label(),
+   active(true),
+   default_value('Warning: you are viewing a preview of manual and rule-based Account alignments. Your alignment has not been executed yet.'),
+   system_managed(false)
+);

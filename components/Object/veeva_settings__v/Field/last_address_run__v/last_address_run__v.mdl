@@ -1,0 +1,17 @@
+Field last_address_run__v (
+   label('Last Address Run'),
+   type('DateTime'),
+   active(true),
+   description('Contains the last run time for the Address Inheritance batch address update process.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(202),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

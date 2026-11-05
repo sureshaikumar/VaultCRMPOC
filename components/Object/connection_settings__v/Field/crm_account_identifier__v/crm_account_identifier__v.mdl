@@ -1,0 +1,19 @@
+Field crm_account_identifier__v (
+   label('CRM Account Identifier'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Enter the API name of the Account field (e.g., veevaid__v) that the Clinical Operations connection will use to match incoming Person identifiers.'),
+   list_column(false),
+   order(13),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

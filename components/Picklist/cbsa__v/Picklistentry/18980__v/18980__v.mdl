@@ -1,0 +1,5 @@
+Picklistentry 18980__v (
+   value('Cullman, AL Micropolitan Statistical Area'),
+   order(250),
+   active(true)
+);

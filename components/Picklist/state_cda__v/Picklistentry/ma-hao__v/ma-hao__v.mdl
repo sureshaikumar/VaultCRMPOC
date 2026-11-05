@@ -1,0 +1,6 @@
+Picklistentry ma-hao__v (
+   value('Al Haouz'),
+   order(2803),
+   active(true),
+   controlling_entries('ma__v')
+);

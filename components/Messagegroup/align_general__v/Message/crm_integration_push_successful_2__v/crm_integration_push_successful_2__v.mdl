@@ -1,0 +1,6 @@
+Message crm_integration_push_successful_2__v (
+   label(),
+   active(true),
+   default_value('Push to CRM from ${entity_name} completed'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+RECREATE Picklist activity_type__v (
+   label('Channel Usage Activity Type'),
+   active(true),
+   Picklistentry(@Picklistentry/view__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,19 @@
+Field aln_channel_segmentation_clone_source__v (
+   label('Channel Segmentation (Clone Source)'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('Label of the originating channel group from the source cycle plan. Applicable if cycle was cloned.'),
+   list_column(false),
+   order(59),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

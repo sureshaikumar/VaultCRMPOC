@@ -1,0 +1,6 @@
+Picklistentry cn-jx__v (
+   value('Jiangxi Sheng'),
+   order(710),
+   active(true),
+   controlling_entries('cn__v')
+);

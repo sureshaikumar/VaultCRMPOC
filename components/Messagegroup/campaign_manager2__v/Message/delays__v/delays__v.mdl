@@ -1,0 +1,6 @@
+Message delays__v (
+   label(),
+   active(true),
+   default_value('Delays'),
+   system_managed(false)
+);

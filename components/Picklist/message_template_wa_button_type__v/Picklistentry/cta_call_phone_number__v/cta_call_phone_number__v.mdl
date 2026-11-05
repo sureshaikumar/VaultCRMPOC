@@ -1,0 +1,5 @@
+Picklistentry cta_call_phone_number__v (
+   value('Call to Action - Call Phone Number'),
+   order(1),
+   active(true)
+);

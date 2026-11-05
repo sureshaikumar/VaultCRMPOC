@@ -1,0 +1,6 @@
+Picklistentry it-ch__v (
+   value('Chieti'),
+   order(2196),
+   active(true),
+   controlling_entries('it__v')
+);

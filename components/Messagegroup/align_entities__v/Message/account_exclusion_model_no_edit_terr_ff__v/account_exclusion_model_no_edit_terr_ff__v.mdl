@@ -1,0 +1,6 @@
+Message account_exclusion_model_no_edit_terr_ff__v (
+   label(),
+   active(true),
+   default_value('Cannot modify Model Account Exclusion''s Territory or Field Force.'),
+   system_managed(false)
+);

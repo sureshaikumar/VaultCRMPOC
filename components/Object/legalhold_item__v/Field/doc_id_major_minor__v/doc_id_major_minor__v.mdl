@@ -1,0 +1,19 @@
+Field doc_id_major_minor__v (
+   label('Document Id and Version'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(56),
+   help_content(),
+   list_column(true),
+   order(5),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

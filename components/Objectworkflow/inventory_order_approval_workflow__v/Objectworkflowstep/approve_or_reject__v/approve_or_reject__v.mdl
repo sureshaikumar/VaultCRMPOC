@@ -1,0 +1,8 @@
+Objectworkflowstep approve_or_reject__v (
+   label('Approve or Reject'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.decision__v'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('Step to assign the approve or reject task to the assigned approver.')
+);

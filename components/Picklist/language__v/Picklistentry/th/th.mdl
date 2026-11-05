@@ -1,0 +1,5 @@
+Picklistentry th (
+   value('Thai'),
+   order(28),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry tl-oe__v (
+   value('Oé-Cusse Ambeno'),
+   order(4422),
+   active(true),
+   controlling_entries('tl__v')
+);

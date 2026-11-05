@@ -1,0 +1,6 @@
+Picklistentry siics__v (
+   value('Structural Intervention in Cardiac Surgery'),
+   order(1808),
+   active(true),
+   controlling_entries('cz__v')
+);

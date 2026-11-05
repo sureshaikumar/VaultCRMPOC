@@ -1,0 +1,6 @@
+Picklistentry co-guv__v (
+   value('Guaviare'),
+   order(743),
+   active(true),
+   controlling_entries('co__v')
+);

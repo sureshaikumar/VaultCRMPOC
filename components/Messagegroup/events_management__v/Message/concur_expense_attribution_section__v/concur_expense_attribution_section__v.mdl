@@ -1,0 +1,6 @@
+Message concur_expense_attribution_section__v (
+   label(),
+   active(true),
+   default_value('Expense Attribution to Attendee'),
+   system_managed(false)
+);

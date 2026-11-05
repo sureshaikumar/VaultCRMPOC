@@ -1,0 +1,18 @@
+Field last_modified_by_device__v (
+   label('Last Modified By Device'),
+   type('Picklist'),
+   active(true),
+   description('The last device used to modify the medical interaction.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(23),
+   multi_value(false),
+   picklist('Picklist.user_device__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

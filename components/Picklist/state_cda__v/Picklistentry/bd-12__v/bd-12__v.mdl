@@ -1,0 +1,6 @@
+Picklistentry bd-12__v (
+   value('Chuadanga'),
+   order(241),
+   active(true),
+   controlling_entries('bd__v')
+);

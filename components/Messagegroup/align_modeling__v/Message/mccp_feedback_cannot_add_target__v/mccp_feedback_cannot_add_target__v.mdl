@@ -1,0 +1,6 @@
+Message mccp_feedback_cannot_add_target__v (
+   label(),
+   active(true),
+   default_value('${account} cannot be added as a target.'),
+   system_managed(false)
+);

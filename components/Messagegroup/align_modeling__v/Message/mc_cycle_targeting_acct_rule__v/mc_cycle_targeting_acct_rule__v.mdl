@@ -1,0 +1,6 @@
+Message mc_cycle_targeting_acct_rule__v (
+   label(),
+   active(true),
+   default_value('Targeting Account Rule'),
+   system_managed(false)
+);

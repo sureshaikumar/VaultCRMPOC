@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate version_specific_attachment_job_failure__v (
+   label('versionSpecificAttachmentJobFailure'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Assigning attachments to document failed'),
+   notification('<p>Assigning attachments to document versions failed. Please contact your vault administrator.</p>'),
+   email_body('<p>Assigning attachments to document versions failed. Please contact your vault administrator.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

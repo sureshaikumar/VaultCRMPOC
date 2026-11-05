@@ -1,0 +1,5 @@
+Picklistentry duplicate_submission__v (
+   value('Duplicate Submission'),
+   order(2),
+   active(true)
+);

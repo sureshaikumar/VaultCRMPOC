@@ -1,0 +1,6 @@
+Message relationship_section_helptext__sys (
+   label(),
+   active(true),
+   default_value('Relationships are only supported for Object-type Entities.'),
+   system_managed(true)
+);

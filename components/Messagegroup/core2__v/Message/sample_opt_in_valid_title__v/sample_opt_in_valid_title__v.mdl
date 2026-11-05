@@ -1,0 +1,6 @@
+Message sample_opt_in_valid_title__v (
+   label(),
+   active(true),
+   default_value('Sample Opt In Valid'),
+   system_managed(false)
+);

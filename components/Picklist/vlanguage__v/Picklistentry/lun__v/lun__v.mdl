@@ -1,0 +1,5 @@
+Picklistentry lun__v (
+   value('Lunda'),
+   order(195),
+   active(false)
+);

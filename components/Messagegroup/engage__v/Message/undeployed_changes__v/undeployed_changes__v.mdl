@@ -1,0 +1,6 @@
+Message undeployed_changes__v (
+   label(),
+   active(true),
+   default_value('${value} Undeployed Changes'),
+   system_managed(false)
+);

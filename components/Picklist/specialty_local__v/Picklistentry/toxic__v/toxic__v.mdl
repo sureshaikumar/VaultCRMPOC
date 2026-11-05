@@ -1,0 +1,15 @@
+Picklistentry toxic__v (
+   value('Toxicology'),
+   order(1849),
+   active(true),
+   controlling_entries('cm__v',
+         'dz__v',
+         'hu__v',
+         'kg__v',
+         'kw__v',
+         'ma__v',
+         'me__v',
+         'pl__v',
+         'ua__v',
+         'us__v')
+);

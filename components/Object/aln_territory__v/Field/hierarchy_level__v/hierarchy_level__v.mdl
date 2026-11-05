@@ -1,0 +1,18 @@
+Field hierarchy_level__v (
+   label('Hierarchy Level'),
+   type('Picklist'),
+   active(true),
+   description('The hierarchy level of this territory with the field structure.'),
+   required(false),
+   unique(false),
+   help_content('The hierarchy level of this territory with the field structure.'),
+   list_column(true),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.aln_hierarchy_level__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

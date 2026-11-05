@@ -1,0 +1,6 @@
+Message vmocs_present__v (
+   label(),
+   active(true),
+   default_value('VMOCs Present'),
+   system_managed(false)
+);

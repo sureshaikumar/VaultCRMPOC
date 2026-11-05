@@ -1,0 +1,18 @@
+Field language__v (
+   label('Language'),
+   type('Picklist'),
+   active(true),
+   description('The language that the text is displayed in. It is recommended that the value of this field should be formatted to match the Salesforce supported languages.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.vlanguage__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

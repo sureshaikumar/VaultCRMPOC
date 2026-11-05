@@ -1,0 +1,5 @@
+Picklistentry tso (
+   value('Tsonga'),
+   order(356),
+   active(true)
+);

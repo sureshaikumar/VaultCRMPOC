@@ -1,0 +1,6 @@
+Picklistentry gt-20__v (
+   value('Chiquimula'),
+   order(1799),
+   active(true),
+   controlling_entries('gt__v')
+);

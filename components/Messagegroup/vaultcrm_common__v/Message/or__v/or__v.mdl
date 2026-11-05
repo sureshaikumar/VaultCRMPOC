@@ -1,0 +1,6 @@
+Message or__v (
+   label(),
+   active(true),
+   default_value('OR'),
+   system_managed(false)
+);

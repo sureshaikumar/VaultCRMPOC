@@ -1,0 +1,6 @@
+Message crm_integration_crm_connection__v (
+   label(),
+   active(true),
+   default_value('CRM Connection'),
+   system_managed(false)
+);

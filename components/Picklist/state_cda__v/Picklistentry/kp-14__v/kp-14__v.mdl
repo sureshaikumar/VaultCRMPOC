@@ -1,0 +1,6 @@
+Picklistentry kp-14__v (
+   value('Nampho'),
+   order(2468),
+   active(true),
+   controlling_entries('kp__v')
+);

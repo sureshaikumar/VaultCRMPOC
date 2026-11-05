@@ -1,0 +1,6 @@
+Message ineligible_label_value__v (
+   label(),
+   active(true),
+   default_value('Ineligible: ${count}'),
+   system_managed(false)
+);

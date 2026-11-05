@@ -1,0 +1,5 @@
+Picklistentry company__v (
+   value('Company'),
+   order(1),
+   active(true)
+);

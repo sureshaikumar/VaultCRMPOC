@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_reload_text_2__v (
+   label(),
+   active(true),
+   default_value('The user has adjusted their product goals. To continue to provide feedback, shared target information must be reloaded.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-187__v (
+   value('Velika Polana'),
+   order(4160),
+   active(true),
+   controlling_entries('si__v')
+);

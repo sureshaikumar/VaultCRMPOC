@@ -1,0 +1,6 @@
+Message migration_mode_enabled__v (
+   label(),
+   active(true),
+   default_value('Migration Mode Enabled.'),
+   system_managed(false)
+);

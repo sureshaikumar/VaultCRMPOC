@@ -1,0 +1,5 @@
+Picklistentry 18500__v (
+   value('Corning, NY Micropolitan Statistical Area'),
+   order(151),
+   active(true)
+);

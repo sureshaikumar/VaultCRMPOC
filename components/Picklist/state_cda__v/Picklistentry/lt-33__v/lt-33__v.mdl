@@ -1,0 +1,6 @@
+Picklistentry lt-33__v (
+   value('Panevėžys'),
+   order(2651),
+   active(true),
+   controlling_entries('lt__v')
+);

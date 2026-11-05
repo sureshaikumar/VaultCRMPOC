@@ -1,0 +1,6 @@
+Message suggested_calls__v (
+   label(),
+   active(true),
+   default_value('Suggested Calls'),
+   system_managed(false)
+);

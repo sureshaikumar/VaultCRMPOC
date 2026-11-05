@@ -1,0 +1,26 @@
+Field vinsights_autobuild_mode__v (
+   label('VINSIGHTS_AUTOBUILD_MODE'),
+   type('Number'),
+   active(true),
+   description('Disables the auto-building of VInsights reports (defined via Analytics_Layouts_vod). Usage:
+0 = default value. Does not disable auto-building
+1 = Disables auto-build for all VInsights reports, including Account Summary
+2 = Disables auto-build for all VIns'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(306),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,18 @@
+Field sample_card_reason__v (
+   label('Sample Card Reason'),
+   type('Picklist'),
+   active(true),
+   description('The Sample Card Reason field stores the reason a Sample Card was leveraged on a Sample Disbursement.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(44),
+   multi_value(false),
+   picklist('Picklist.sample_transaction_sample_card_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

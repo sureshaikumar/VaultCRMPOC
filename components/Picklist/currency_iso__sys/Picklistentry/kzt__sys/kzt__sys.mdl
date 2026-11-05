@@ -1,0 +1,5 @@
+Picklistentry kzt__sys (
+   value('KZT'),
+   order(102),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry vn__v (
+   value('Viet Nam'),
+   order(241),
+   active(true)
+);

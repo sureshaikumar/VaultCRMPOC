@@ -1,0 +1,6 @@
+Message project_concurrent_process_conflict_msg__v (
+   label(),
+   active(true),
+   default_value('Your request cannot be processed at this time. {0} started a {1} at {2} which is still in progress.'),
+   system_managed(false)
+);

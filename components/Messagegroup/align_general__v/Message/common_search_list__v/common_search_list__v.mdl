@@ -1,0 +1,6 @@
+Message common_search_list__v (
+   label(),
+   active(true),
+   default_value('Search {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry quality__sys (
+   value('Quality'),
+   order(2),
+   active(true)
+);

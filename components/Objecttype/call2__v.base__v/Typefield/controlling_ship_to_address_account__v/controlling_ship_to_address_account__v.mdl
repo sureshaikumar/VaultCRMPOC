@@ -1,0 +1,4 @@
+Typefield controlling_ship_to_address_account__v (
+   source('standard'),
+   required(false)
+);

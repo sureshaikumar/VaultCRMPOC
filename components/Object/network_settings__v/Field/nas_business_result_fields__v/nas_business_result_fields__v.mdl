@@ -1,0 +1,20 @@
+Field nas_business_result_fields__v (
+   label('NAS Business Result Fields'),
+   type('String'),
+   active(true),
+   description('This setting points to the names of the Veeva Message used to configure which custom fields are returned viewing business account results in a Network Account Search. Please see documentation for more details.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('"NAS_BUSINESS_DETAILS;;NETWORK"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

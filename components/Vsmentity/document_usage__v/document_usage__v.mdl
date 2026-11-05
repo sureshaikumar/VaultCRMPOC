@@ -1,0 +1,20 @@
+RECREATE Vsmentity document_usage__v (
+   label('Document Usage'),
+   active(true),
+   description('Tracks every time steady state documents are viewed, downloaded (either source or rendition downloads), or copied. This object is commonly queried to audit document engagement, support compliance reporting, and identify documents that may require review or retirement based on usage patterns.'),
+   synonyms('doc usage',
+      'document consumption',
+      'content usage',
+      'document access tracking'),
+   target('Object.document_usage__v'),
+   target_label('Document Usage'),
+   Vsmfield(@Vsmfield/activity_date__v.mdl),
+   Vsmfield(@Vsmfield/activity_type__v.mdl),
+   Vsmfield(@Vsmfield/channel__v.mdl),
+   Vsmfield(@Vsmfield/context__v.mdl),
+   Vsmfield(@Vsmfield/document_id__v.mdl),
+   Vsmfield(@Vsmfield/document_id_unbound__v.mdl),
+   Vsmfield(@Vsmfield/document_type__v.mdl),
+   Vsmfield(@Vsmfield/user__v.mdl),
+   Vsmmetric(@Vsmmetric/document_usage_count__v.mdl)
+);

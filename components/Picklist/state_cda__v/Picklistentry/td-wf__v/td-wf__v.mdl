@@ -1,0 +1,6 @@
+Picklistentry td-wf__v (
+   value('Wādī Fīrā'),
+   order(4322),
+   active(true),
+   controlling_entries('td__v')
+);

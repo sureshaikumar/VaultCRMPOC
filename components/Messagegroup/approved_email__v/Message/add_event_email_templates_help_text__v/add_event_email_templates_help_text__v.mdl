@@ -1,0 +1,6 @@
+Message add_event_email_templates_help_text__v (
+   label(),
+   active(true),
+   default_value('Select a template to compose your email.'),
+   system_managed(false)
+);

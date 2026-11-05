@@ -1,0 +1,6 @@
+RECREATE Securityprofile events_management_int__v (
+   label('Events Management Integration'),
+   active(true),
+   description(),
+   permission_sets()
+);

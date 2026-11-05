@@ -1,0 +1,6 @@
+Picklistentry threa__v (
+   value('Transfusion Hematology'),
+   order(1852),
+   active(true),
+   controlling_entries('bg__v')
+);

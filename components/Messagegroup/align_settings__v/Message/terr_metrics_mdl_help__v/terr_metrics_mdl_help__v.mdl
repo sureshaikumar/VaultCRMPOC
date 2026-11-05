@@ -1,0 +1,6 @@
+Message terr_metrics_mdl_help__v (
+   label(),
+   active(true),
+   default_value('This determines which model territory fields are to be included in the territory metrics panel on the model territory detail page.'),
+   system_managed(false)
+);

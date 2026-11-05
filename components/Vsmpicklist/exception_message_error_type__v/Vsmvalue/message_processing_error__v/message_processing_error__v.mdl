@@ -1,0 +1,11 @@
+Vsmvalue message_processing_error__v (
+   label('MESSAGE_PROCESSING_ERROR'),
+   active(true),
+   description('Indicates an error occurred while processing an overall message or transaction, preventing it from completing successfully.'),
+   synonyms('message failure',
+         'processing failure',
+         'message handling error',
+         'message error'),
+   target('message_processing_error__sys'),
+   target_label('MESSAGE_PROCESSING_ERROR')
+);

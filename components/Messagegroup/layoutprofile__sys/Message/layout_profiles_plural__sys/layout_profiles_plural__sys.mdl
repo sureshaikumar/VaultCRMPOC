@@ -1,0 +1,6 @@
+Message layout_profiles_plural__sys (
+   label(),
+   active(true),
+   default_value('Layout Profiles'),
+   system_managed(false)
+);

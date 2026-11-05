@@ -1,0 +1,6 @@
+Message csv_import_missing_header__v (
+   label(),
+   active(true),
+   default_value('Input file must have header'),
+   system_managed(false)
+);

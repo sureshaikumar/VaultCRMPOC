@@ -1,0 +1,19 @@
+Field ics_uid__v (
+   label('ICS Unique Identifier'),
+   type('String'),
+   active(true),
+   description('This field stores the meeting ICS UID.'),
+   required(false),
+   unique(false),
+   max_length(150),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

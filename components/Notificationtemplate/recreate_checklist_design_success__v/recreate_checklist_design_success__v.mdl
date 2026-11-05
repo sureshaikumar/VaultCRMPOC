@@ -1,0 +1,23 @@
+RECREATE Notificationtemplate recreate_checklist_design_success__v (
+   label('recreateChecklistDesignSuccess'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: ${checklist_design__sys_label} Upload completed
+'),
+   notification('<p> Your ${checklist_design__sys_label} upload has successfully completed. </p>
+<p> Details: </p>
+<ul>
+<li> ${rec_count_section_design__sys} ${section_design__sys_label} records were created </li>
+<li> ${rec_count_question_design__sys} ${question_design__sys_label} records were created </li>
+<li> ${rec_count_available_answer_design__sys} ${available_answer_design__sys_label} records were created </li>
+<li> ${rec_count_dependency_design__sys} ${dependency_design__sys_label} records were created </li>
+</ul>
+
+<p> Please check the ${checklist_design__sys_label} ${checklist_design__sys_id} to review the records that were created. </p>
+'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

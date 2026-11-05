@@ -1,0 +1,6 @@
+Message medx_transcript_info__v (
+   label(),
+   active(true),
+   default_value('Audio and transcript will be available in the sidebar, allowing you to reference key points and ensure accuracy while completing your report.'),
+   system_managed(false)
+);

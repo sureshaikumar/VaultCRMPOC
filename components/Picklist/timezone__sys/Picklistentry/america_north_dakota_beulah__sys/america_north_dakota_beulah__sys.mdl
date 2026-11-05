@@ -1,0 +1,5 @@
+Picklistentry america_north_dakota_beulah__sys (
+   value('(GMT-06:00) Central Standard Time (America/North_Dakota/Beulah)'),
+   order(45),
+   active(true)
+);

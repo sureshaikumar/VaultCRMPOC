@@ -1,0 +1,6 @@
+Message mccp_missing_criteria__v (
+   label(),
+   active(true),
+   default_value('Missing Criteria'),
+   system_managed(false)
+);

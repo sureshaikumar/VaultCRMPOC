@@ -1,0 +1,5 @@
+Picklistentry nog (
+   value('Nogai'),
+   order(269),
+   active(true)
+);

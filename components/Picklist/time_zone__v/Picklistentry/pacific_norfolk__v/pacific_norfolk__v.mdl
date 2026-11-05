@@ -1,0 +1,5 @@
+Picklistentry pacific_norfolk__v (
+   value('Norfolk Island Time'),
+   order(8),
+   active(true)
+);

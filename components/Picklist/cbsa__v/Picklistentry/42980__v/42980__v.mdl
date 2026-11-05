@@ -1,0 +1,5 @@
+Picklistentry 42980__v (
+   value('Seymour, IN Micropolitan Statistical Area'),
+   order(600),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field network_unverified_account_types__v (
+   label('Network Unverified Account Types'),
+   type('String'),
+   active(true),
+   description('This setting points to the name of the Veeva Message used to configure what Account record types and child entities create Unverified Records in Network. Please see documentation for more details.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

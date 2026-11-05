@@ -1,0 +1,15 @@
+RECREATE Objectvalidation em_business_rule__v.rolling_period_set__v (
+   label('Rolling Period is not supported'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_attendee_attendance_limit_rule__v", true,
+            "em_meal_opt_in_attendance_limit_rule__v", true,
+            "em_cross_event_per_attendee_attendanc__v", true,
+            "em_cross_event_meal_opt_in_attendance__v", true,
+            false
+        ) = false || date_threshold_type__v = "rolling__v" || IsBlank(rolling_period__v)'),
+   description('date_threshold_type__v is not "Rolling" and rolling_period__v is added to the Attendee Rule.'),
+   error_message('Rolling Period is not supported for this Date Threshold Type.'),
+   error_location('rolling_period__v')
+);

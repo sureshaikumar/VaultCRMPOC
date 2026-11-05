@@ -1,0 +1,4 @@
+Typefield collaborative_relation_start_date__v (
+   source('custom'),
+   required(false)
+);

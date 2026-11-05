@@ -1,0 +1,6 @@
+Picklistentry ctlri__v (
+   value('Clinical Transplantology'),
+   order(297),
+   active(true),
+   controlling_entries('pl__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry mak__v (
+   value('Makasar'),
+   order(203),
+   active(false)
+);

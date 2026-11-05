@@ -1,0 +1,6 @@
+Picklistentry br-ro__v (
+   value('Rondônia'),
+   order(471),
+   active(true),
+   controlling_entries('br__v')
+);

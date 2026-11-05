@@ -1,0 +1,5 @@
+Picklistentry 24700__v (
+   value('Greensburg, IN Micropolitan Statistical Area'),
+   order(473),
+   active(true)
+);

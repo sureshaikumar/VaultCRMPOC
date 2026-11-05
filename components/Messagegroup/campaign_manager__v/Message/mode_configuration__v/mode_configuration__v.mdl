@@ -1,0 +1,6 @@
+Message mode_configuration__v (
+   label(),
+   active(true),
+   default_value('${mode} Configuration'),
+   system_managed(false)
+);

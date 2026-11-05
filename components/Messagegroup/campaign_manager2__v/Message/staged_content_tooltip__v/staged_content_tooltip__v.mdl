@@ -1,0 +1,6 @@
+Message staged_content_tooltip__v (
+   label(),
+   active(true),
+   default_value('This content must be approved before activation. Replace the staged template or work with your content team to approve them.'),
+   system_managed(false)
+);

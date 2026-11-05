@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_inquiry_fulfillment__v.create_response__v (
+   label('Create Response'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinquiryfulfillment.actions.CreateResponseAction'),
+   active(true),
+   available_all_states(true)
+);

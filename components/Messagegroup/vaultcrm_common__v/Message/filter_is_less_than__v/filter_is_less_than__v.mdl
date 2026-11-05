@@ -1,0 +1,6 @@
+Message filter_is_less_than__v (
+   label(),
+   active(true),
+   default_value('is less than'),
+   system_managed(false)
+);

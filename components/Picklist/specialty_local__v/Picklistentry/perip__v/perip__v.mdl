@@ -1,0 +1,22 @@
+Picklistentry perip__v (
+   value('Periodontology'),
+   order(1497),
+   active(true),
+   controlling_entries('az__v',
+         'be__v',
+         'ch__v',
+         'de__v',
+         'dz__v',
+         'hu__v',
+         'kr__v',
+         'li__v',
+         'lu__v',
+         'ng__v',
+         'pl__v',
+         'pt__v',
+         'ro__v',
+         'si__v',
+         'tw__v',
+         'ua__v',
+         'us__v')
+);

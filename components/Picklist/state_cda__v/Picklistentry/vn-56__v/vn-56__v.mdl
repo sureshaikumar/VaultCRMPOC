@@ -1,0 +1,6 @@
+Picklistentry vn-56__v (
+   value('Bắc Ninh'),
+   order(4956),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-pn__v (
+   value('Pordenone'),
+   order(2241),
+   active(true),
+   controlling_entries('it__v')
+);

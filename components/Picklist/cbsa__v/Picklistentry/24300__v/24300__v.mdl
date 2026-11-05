@@ -1,0 +1,5 @@
+Picklistentry 24300__v (
+   value('Grand Junction, CO Metropolitan Statistical Area'),
+   order(436),
+   active(true)
+);

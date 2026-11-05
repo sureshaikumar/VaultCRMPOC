@@ -1,0 +1,5 @@
+Picklistentry city__v (
+   value('City'),
+   order(7),
+   active(true)
+);

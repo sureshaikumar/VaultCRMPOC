@@ -1,0 +1,11 @@
+RECREATE Pagelink survey_target_view_pagelink__v (
+   label('Survey Target View'),
+   description('Redirect Survey Target View to Survey Target Detail Page.'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/view?fieldParameters={{Related.fieldParameters}}&surveyTargetId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.survey_target__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.survey_target_detail_page__v')
+);

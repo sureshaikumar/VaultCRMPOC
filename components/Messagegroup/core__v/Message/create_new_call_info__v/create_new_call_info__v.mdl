@@ -1,0 +1,6 @@
+Message create_new_call_info__v (
+   label(),
+   active(true),
+   default_value('Enter the following information to create a call'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message remove_group_confirmation__v (
+   label(),
+   active(true),
+   default_value('By removing 1 or more groups, any associated email templates and follow-up actions will be removed. Would you like to proceed?'),
+   system_managed(false)
+);

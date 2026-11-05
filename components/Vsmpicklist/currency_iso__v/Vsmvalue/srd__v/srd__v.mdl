@@ -1,0 +1,10 @@
+Vsmvalue srd__v (
+   label('SRD'),
+   active(true),
+   description('Applies when transactions are denominated in the Surinamese Dollar, the official currency of Suriname.'),
+   synonyms('Surinamese dollar',
+         'Suriname currency',
+         'dollar'),
+   target('srd__sys'),
+   target_label('SRD')
+);

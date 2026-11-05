@@ -1,0 +1,17 @@
+Field signature__v (
+   label('Signature Data'),
+   type('LongText'),
+   active(true),
+   description('Signature_vod contains the base64 encoded string representing the captured signature.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

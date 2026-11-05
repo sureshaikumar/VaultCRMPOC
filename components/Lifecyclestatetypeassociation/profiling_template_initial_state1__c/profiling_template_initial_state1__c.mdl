@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation profiling_template_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.profiling_template_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.draft_state__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

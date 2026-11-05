@@ -1,0 +1,6 @@
+Message follow_up__v (
+   label(),
+   active(true),
+   default_value('Follow-up'),
+   system_managed(false)
+);

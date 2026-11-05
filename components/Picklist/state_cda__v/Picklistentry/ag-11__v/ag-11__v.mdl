@@ -1,0 +1,6 @@
+Picklistentry ag-11__v (
+   value('Redonda'),
+   order(55),
+   active(true),
+   controlling_entries('ag__v')
+);

@@ -1,0 +1,7 @@
+RECREATE Link product_information__c (
+   label('Product Information'),
+   component('Document'),
+   target('blank'),
+   url('https://en.wikipedia.org/wiki/${Document.name__v}'),
+   send_session_via_post_message(false)
+);

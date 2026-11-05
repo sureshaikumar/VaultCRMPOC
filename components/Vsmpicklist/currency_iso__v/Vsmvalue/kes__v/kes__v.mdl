@@ -1,0 +1,10 @@
+Vsmvalue kes__v (
+   label('KES'),
+   active(true),
+   description('The Kenyan Shilling (KES), the official currency of Kenya, used for transactions, pricing, and financial records involving Kenyan markets.'),
+   synonyms('Kenyan shilling',
+         'Kenya shilling',
+         'KES'),
+   target('kes__sys'),
+   target_label('KES')
+);

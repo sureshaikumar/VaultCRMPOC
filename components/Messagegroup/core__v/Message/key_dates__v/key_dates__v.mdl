@@ -1,0 +1,6 @@
+Message key_dates__v (
+   label(),
+   active(true),
+   default_value('Key Dates'),
+   system_managed(false)
+);

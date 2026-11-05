@@ -1,0 +1,5 @@
+Picklistentry america_mexico_city__sys (
+   value('(GMT-06:00) Central Standard Time (America/Mexico_City)'),
+   order(43),
+   active(true)
+);

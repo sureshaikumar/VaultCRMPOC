@@ -1,0 +1,14 @@
+Vsmrelationship initiating_user__v (
+   label('Initiating User'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The Vault user who initiated or sent the VeevaID invite for new user creation. Use this to filter invite records by the person who triggered the invitation (e.g., initiating_user__sysr.user_name__sys = ''john.doe@example.com'').'),
+   join_object(),
+   synonyms('inviter',
+         'invited by',
+         'who sent invite',
+         'sender'),
+   target('initiating_user__sysr'),
+   target_label('Initiating User'),
+   target_object('user__sys')
+);

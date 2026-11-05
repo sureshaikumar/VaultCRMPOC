@@ -1,0 +1,6 @@
+Picklistentry fr-06__v (
+   value('Alpes-Maritimes'),
+   order(1320),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,8 @@
+Picklistentry gneus__v (
+   value('Geriatric Nursing'),
+   order(625),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v',
+         'pt__v')
+);

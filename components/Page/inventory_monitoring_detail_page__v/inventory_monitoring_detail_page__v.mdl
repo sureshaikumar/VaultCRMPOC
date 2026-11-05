@@ -1,0 +1,14 @@
+RECREATE Page inventory_monitoring_detail_page__v (
+   label('Inventory Monitoring'),
+   active(true),
+   client_distribution(),
+   default_client_code('inventory_monitoring_detail_page__v'),
+   description('Custom app page for Inventory Monitoring records'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.inventorymonitoring.controls.page.InventoryMonitoringPageController'),
+   url_path_name('inventory-monitoring')
+);

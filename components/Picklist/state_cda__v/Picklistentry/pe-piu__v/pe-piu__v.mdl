@@ -1,0 +1,6 @@
+Picklistentry pe-piu__v (
+   value('Piura'),
+   order(3488),
+   active(true),
+   controlling_entries('pe__v')
+);

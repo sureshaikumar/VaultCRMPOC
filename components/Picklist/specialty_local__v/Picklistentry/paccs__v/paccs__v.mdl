@@ -1,0 +1,6 @@
+Picklistentry paccs__v (
+   value('Pediatric and Congenital Cardiac Surgery'),
+   order(1332),
+   active(true),
+   controlling_entries('pk__v')
+);

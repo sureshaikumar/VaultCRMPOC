@@ -1,0 +1,6 @@
+Picklistentry mt-16__v (
+   value('Għasri'),
+   order(3122),
+   active(true),
+   controlling_entries('mt__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry br-am__v (
+   value('Amazonas'),
+   order(453),
+   active(true),
+   controlling_entries('br__v')
+);

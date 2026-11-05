@@ -1,0 +1,5 @@
+Picklistentry sj__v (
+   value('SJ'),
+   order(201),
+   active(true)
+);

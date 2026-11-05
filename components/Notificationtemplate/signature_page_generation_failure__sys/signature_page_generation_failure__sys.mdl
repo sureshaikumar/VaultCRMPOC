@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate signature_page_generation_failure__sys (
+   label('Signature Page Generation Failure'),
+   active(true),
+   description('Notification template notifying user that the signature page creation has failed.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Signature Page Creation Failed'),
+   notification('<p>Signature Page for <b><a href=${docInfoUrl}>${docName}</a></b> was not created successfully.</p>'),
+   email_body('<p>Signature Page for <b><a href=${docInfoUrl}>${docName}</a></b> was not created successfully.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

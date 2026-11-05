@@ -1,0 +1,17 @@
+Field consent_text_required__v (
+   label('Consent Text Required'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if selecting the checkbox shown with the consent text on the review panel is required when capturing consent.'),
+   required(false),
+   checkbox(true),
+   help_content('If checked, users will be required to select the checkbox that displays with the consent text on the review panel.'),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

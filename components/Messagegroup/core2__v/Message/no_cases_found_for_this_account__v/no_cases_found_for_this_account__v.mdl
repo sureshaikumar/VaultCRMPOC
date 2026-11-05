@@ -1,0 +1,6 @@
+Message no_cases_found_for_this_account__v (
+   label(),
+   active(true),
+   default_value('No cases found for this account.'),
+   system_managed(false)
+);

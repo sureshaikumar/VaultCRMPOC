@@ -1,0 +1,6 @@
+Message target_list_not_generated_subtext__v (
+   label(),
+   active(true),
+   default_value('Use the filters on the left to narrow your audience. Preview a sample or generate the full target list when ready.'),
+   system_managed(false)
+);

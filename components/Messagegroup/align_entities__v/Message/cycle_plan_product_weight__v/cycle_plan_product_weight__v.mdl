@@ -1,0 +1,6 @@
+Message cycle_plan_product_weight__v (
+   label(),
+   active(true),
+   default_value('Product Weight'),
+   system_managed(false)
+);

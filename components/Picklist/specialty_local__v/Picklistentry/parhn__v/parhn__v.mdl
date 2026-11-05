@@ -1,0 +1,6 @@
+Picklistentry parhn__v (
+   value('Physiotherapy and Rehabilitation'),
+   order(1560),
+   active(true),
+   controlling_entries('qa__v')
+);

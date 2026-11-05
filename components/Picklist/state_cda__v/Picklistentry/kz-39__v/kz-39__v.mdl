@@ -1,0 +1,6 @@
+Picklistentry kz-39__v (
+   value('Qostanay oblysy'),
+   order(2502),
+   active(true),
+   controlling_entries('kz__v')
+);

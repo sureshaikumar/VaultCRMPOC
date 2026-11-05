@@ -1,0 +1,6 @@
+Message unsaved_changes_in_the_object__v (
+   label(),
+   active(true),
+   default_value('There are unsaved changes in the ${object_label}.'),
+   system_managed(false)
+);

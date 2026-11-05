@@ -1,0 +1,5 @@
+Picklistentry new_product__v (
+   value('New Product'),
+   order(2),
+   active(true)
+);

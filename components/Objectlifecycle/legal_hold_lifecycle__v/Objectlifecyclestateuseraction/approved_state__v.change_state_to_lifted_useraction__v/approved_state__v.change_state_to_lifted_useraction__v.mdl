@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved_state__v.change_state_to_lifted_useraction__v (
+   label('Change State to Lifted'),
+   rule(@rule.xml),
+   order(1000)
+);

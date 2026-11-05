@@ -1,0 +1,8 @@
+RECREATE Objectaction call2__v.print_receipt__v (
+   label('Print Receipt'),
+   description('Generates a PDF representation of a Sample receipt.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.callreport.actions.CallPrintReceiptAction'),
+   active(true),
+   available_all_states(true)
+);

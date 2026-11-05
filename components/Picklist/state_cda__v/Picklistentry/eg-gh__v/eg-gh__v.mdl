@@ -1,0 +1,6 @@
+Picklistentry eg-gh__v (
+   value('Al Gharbīyah'),
+   order(1168),
+   active(true),
+   controlling_entries('eg__v')
+);

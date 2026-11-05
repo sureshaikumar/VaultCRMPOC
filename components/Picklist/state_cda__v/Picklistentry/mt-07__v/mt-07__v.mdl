@@ -1,0 +1,6 @@
+Picklistentry mt-07__v (
+   value('Dingli'),
+   order(3113),
+   active(true),
+   controlling_entries('mt__v')
+);

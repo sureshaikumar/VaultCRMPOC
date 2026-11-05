@@ -1,0 +1,11 @@
+Vsmvalue none__v (
+   label('None'),
+   active(true),
+   description('Applies when no glossary definition match—either precise or fuzzy—could be found for the term in the source content.'),
+   synonyms('no match',
+         'unmatched',
+         'not found',
+         'no definition match'),
+   target('none__sys'),
+   target_label('None')
+);

@@ -1,0 +1,8 @@
+Picklistentry cldlb__v (
+   value('Clinical Laboratory Diagnostics'),
+   order(239),
+   active(true),
+   controlling_entries('kg__v',
+         'kz__v',
+         'ua__v')
+);

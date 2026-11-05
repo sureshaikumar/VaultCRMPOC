@@ -1,0 +1,18 @@
+Field authorship_position__v (
+   label('Authorship Position'),
+   type('Picklist'),
+   active(true),
+   description('Picklist of authorship positions.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(9),
+   multi_value(false),
+   picklist('Picklist.stakeholder_publicat_authorship_position__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

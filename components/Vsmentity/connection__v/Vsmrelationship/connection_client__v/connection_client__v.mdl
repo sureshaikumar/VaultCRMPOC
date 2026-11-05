@@ -1,0 +1,14 @@
+Vsmrelationship connection_client__v (
+   label('Connection Client'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship to the client record(s) associated with this connection, representing the application or system consuming the connection. Use this to identify which clients depend on this connection.'),
+   join_object(),
+   synonyms('client',
+         'connection client',
+         'API client',
+         'connected client'),
+   target('connection_client__sysr'),
+   target_label('Connection Client'),
+   target_object('connection_client__sys')
+);

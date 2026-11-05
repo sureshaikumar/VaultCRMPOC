@@ -1,0 +1,20 @@
+Field test_picklist_status_dependent__c (
+   label('Test Picklist status dependent'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.test_picklist_status_dependent__c'),
+   controlling_picklist('status__v'),
+   picklist_dependencies('{"active__v":["mode1__c"],"inactive__v":["mode2__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

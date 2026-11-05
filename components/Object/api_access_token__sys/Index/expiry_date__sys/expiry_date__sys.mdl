@@ -1,0 +1,5 @@
+Index expiry_date__sys (
+   description(),
+   fields('expiry_date__sys'),
+   label('Expiry Date')
+);

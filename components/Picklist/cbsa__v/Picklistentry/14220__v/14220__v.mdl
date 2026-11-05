@@ -1,0 +1,5 @@
+Picklistentry 14220__v (
+   value('Bogalusa, LA Micropolitan Statistical Area'),
+   order(889),
+   active(true)
+);

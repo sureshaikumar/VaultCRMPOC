@@ -1,0 +1,6 @@
+Message cannot_save_general__v (
+   label(),
+   active(true),
+   default_value('The ${object_label} cannot be saved because some information is incorrect or missing.'),
+   system_managed(false)
+);

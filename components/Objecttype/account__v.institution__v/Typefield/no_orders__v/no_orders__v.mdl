@@ -1,0 +1,7 @@
+Typefield no_orders__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_no_orders__v.no__v',
+         'Picklist.account_no_orders__v.yes__v'),
+   default_value('Picklist.account_no_orders__v.no__v')
+);

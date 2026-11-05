@@ -1,0 +1,4 @@
+Typefield nightly_refresh_interval__v (
+   source('standard'),
+   required(false)
+);

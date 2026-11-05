@@ -1,0 +1,6 @@
+Picklistentry gq-bs__v (
+   value('Bioko Sur'),
+   order(1758),
+   active(true),
+   controlling_entries('gq__v')
+);

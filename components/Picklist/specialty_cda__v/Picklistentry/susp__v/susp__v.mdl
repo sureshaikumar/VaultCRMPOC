@@ -1,0 +1,5 @@
+Picklistentry susp__v (
+   value('Sports Medicine'),
+   order(92),
+   active(true)
+);

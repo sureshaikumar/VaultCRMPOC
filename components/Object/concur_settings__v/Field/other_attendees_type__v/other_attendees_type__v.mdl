@@ -1,0 +1,19 @@
+Field other_attendees_type__v (
+   label('Other Attendees Type'),
+   type('String'),
+   active(true),
+   description('A value to determine what the type of attendee is on the call report. This type is posted to Concur as the Attendee''s designation.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

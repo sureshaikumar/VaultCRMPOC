@@ -1,0 +1,6 @@
+Message strong__v (
+   label(),
+   active(true),
+   default_value('Strong'),
+   system_managed(false)
+);

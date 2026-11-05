@@ -1,0 +1,6 @@
+Picklistentry ws-aa__v (
+   value('A''ana'),
+   order(4984),
+   active(true),
+   controlling_entries('ws__v')
+);

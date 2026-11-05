@@ -1,0 +1,6 @@
+Message account_terr_model_cant_align_ff_excl__v (
+   label(),
+   active(true),
+   default_value('Account ${account_name} cannot be aligned to any Territories affiliated with Field Force ${field_force} between ${start_date} and ${end_date} due to an exclusion.'),
+   system_managed(false)
+);

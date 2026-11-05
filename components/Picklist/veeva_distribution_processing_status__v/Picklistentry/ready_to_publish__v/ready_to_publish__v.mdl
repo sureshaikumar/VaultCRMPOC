@@ -1,0 +1,5 @@
+Picklistentry ready_to_publish__v (
+   value('Ready to Publish'),
+   order(0),
+   active(true)
+);

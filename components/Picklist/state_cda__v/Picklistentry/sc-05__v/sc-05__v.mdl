@@ -1,0 +1,6 @@
+Picklistentry sc-05__v (
+   value('Anse Royale'),
+   order(3905),
+   active(true),
+   controlling_entries('sc__v')
+);

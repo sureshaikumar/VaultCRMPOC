@@ -1,0 +1,6 @@
+Picklistentry fi-02__v (
+   value('South Karelia'),
+   order(1274),
+   active(true),
+   controlling_entries('fi__v')
+);

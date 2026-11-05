@@ -1,0 +1,6 @@
+Picklistentry ru-da__v (
+   value('Dagestan, Respublika'),
+   order(3804),
+   active(true),
+   controlling_entries('ru__v')
+);

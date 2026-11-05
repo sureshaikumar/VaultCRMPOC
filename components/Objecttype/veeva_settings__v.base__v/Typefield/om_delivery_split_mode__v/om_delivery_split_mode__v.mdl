@@ -1,0 +1,4 @@
+Typefield om_delivery_split_mode__v (
+   source('standard'),
+   required(false)
+);

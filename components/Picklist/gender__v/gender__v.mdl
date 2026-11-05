@@ -1,0 +1,8 @@
+RECREATE Picklist gender__v (
+   label('Gender'),
+   active(true),
+   Picklistentry(@Picklistentry/male__v.mdl),
+   Picklistentry(@Picklistentry/female__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

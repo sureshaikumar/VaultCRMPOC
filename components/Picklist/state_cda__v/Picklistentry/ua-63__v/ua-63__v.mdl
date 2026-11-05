@@ -1,0 +1,6 @@
+Picklistentry ua-63__v (
+   value('Kharkivska oblast'),
+   order(4637),
+   active(true),
+   controlling_entries('ua__v')
+);

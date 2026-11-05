@@ -1,0 +1,6 @@
+Message safety_system_link__v (
+   label(),
+   active(true),
+   default_value('[click here](http://example.com)'),
+   system_managed(false)
+);

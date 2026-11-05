@@ -1,0 +1,6 @@
+Message common_filters__v (
+   label(),
+   active(true),
+   default_value('Common Filters'),
+   system_managed(false)
+);

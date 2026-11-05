@@ -1,0 +1,8 @@
+RECREATE Objectvalidation cycle_plan_target__v.require_target__v (
+   label('Require Target'),
+   active(true),
+   expression('Not(IsBlank( cycle_plan_account__v ))'),
+   description('Target is required to create a Cycle Plan Target record.'),
+   error_message('Please specify a Target Account.'),
+   error_location('cycle_plan_account__v')
+);

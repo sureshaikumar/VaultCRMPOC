@@ -1,0 +1,6 @@
+Picklistentry cdiet__v (
+   value('Clinical Dietetics'),
+   order(219),
+   active(true),
+   controlling_entries('kz__v')
+);

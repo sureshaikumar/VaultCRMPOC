@@ -1,0 +1,9 @@
+Picklistentry mhnee__v (
+   value('Mental Health Nursing'),
+   order(954),
+   active(true),
+   controlling_entries('ad__v',
+         'au__v',
+         'ee__v',
+         'es__v')
+);

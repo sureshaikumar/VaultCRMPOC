@@ -1,0 +1,6 @@
+Typefield platform__v (
+   source('standard'),
+   required(true),
+   pickentries('Picklist.conversation_platform__v.standalone_phone__v'),
+   default_value('Picklist.conversation_platform__v.standalone_phone__v')
+);

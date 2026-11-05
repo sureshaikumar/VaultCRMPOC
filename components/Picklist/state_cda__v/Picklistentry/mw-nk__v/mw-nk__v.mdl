@@ -1,0 +1,6 @@
+Picklistentry mw-nk__v (
+   value('Nkhotakota'),
+   order(3230),
+   active(true),
+   controlling_entries('mw__v')
+);

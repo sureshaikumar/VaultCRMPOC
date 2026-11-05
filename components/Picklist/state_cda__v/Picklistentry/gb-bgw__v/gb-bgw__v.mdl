@@ -1,0 +1,6 @@
+Picklistentry gb-bgw__v (
+   value('Blaenau Gwent'),
+   order(1465),
+   active(true),
+   controlling_entries('gb__v')
+);

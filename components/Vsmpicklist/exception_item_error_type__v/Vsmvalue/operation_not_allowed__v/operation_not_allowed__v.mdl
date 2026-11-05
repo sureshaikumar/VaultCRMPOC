@@ -1,0 +1,11 @@
+Vsmvalue operation_not_allowed__v (
+   label('OPERATION_NOT_ALLOWED'),
+   active(true),
+   description('Applies when the requested action is not permitted for the item in its current state or for the user''s role and permissions.'),
+   synonyms('action not permitted',
+         'unauthorized action',
+         'restricted operation',
+         'permission denied'),
+   target('operation_not_allowed__sys'),
+   target_label('OPERATION_NOT_ALLOWED')
+);

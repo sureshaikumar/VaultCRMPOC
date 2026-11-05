@@ -1,0 +1,6 @@
+Picklistentry cz-313__v (
+   value('Jindřichův Hradec'),
+   order(830),
+   active(true),
+   controlling_entries('cz__v')
+);

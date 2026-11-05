@@ -1,0 +1,18 @@
+Field enable_calendar_month_view__v (
+   label('Enable Calendar Month View'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Makes the Month view visible.'),
+   list_column(false),
+   order(124),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

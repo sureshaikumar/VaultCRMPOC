@@ -1,0 +1,8 @@
+RECREATE Pagelayout multichannel_consent_approved_email__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Multichannel Consent Approved Email'),
+   page_markup(@page_markup.xml)
+);

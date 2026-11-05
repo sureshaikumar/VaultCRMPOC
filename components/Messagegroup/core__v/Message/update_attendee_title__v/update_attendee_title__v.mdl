@@ -1,0 +1,6 @@
+Message update_attendee_title__v (
+   label(),
+   active(true),
+   default_value('Update Attendee Date/Time'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout workflowTaskHistory__v (
+   label('Workflow History'),
+   active(true),
+   icon('UNDEFINED'),
+   order(5),
+   fields(),
+   show_in_edit_mode(false),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_information__sys')
+);

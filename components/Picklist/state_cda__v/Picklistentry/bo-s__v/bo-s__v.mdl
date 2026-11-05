@@ -1,0 +1,6 @@
+Picklistentry bo-s__v (
+   value('Santa Cruz'),
+   order(446),
+   active(true),
+   controlling_entries('bo__v')
+);

@@ -1,0 +1,6 @@
+Message incoming_phone_call_from__v (
+   label(),
+   active(true),
+   default_value('Incoming Phone Call from ${phone_number}'),
+   system_managed(false)
+);

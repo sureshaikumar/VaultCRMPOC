@@ -1,0 +1,6 @@
+Picklistentry ee-586__v (
+   value('Peipsiääre'),
+   order(1111),
+   active(true),
+   controlling_entries('ee__v')
+);

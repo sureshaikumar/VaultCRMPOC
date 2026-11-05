@@ -1,0 +1,6 @@
+Picklistentry jo-at__v (
+   value('Aţ Ţafīlah'),
+   order(2298),
+   active(true),
+   controlling_entries('jo__v')
+);

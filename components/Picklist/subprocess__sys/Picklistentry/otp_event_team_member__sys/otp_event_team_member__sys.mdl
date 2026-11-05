@@ -1,0 +1,6 @@
+Picklistentry otp_event_team_member__sys (
+   value('Event Team Member'),
+   order(67),
+   active(true),
+   controlling_entries('olc_event_team_member__sys')
+);

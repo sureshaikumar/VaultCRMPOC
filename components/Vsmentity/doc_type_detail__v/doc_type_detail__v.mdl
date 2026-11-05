@@ -1,0 +1,19 @@
+RECREATE Vsmentity doc_type_detail__v (
+   label('Document Type Detail'),
+   active(true),
+   description('Detailed configuration and metadata associated with specific document types in Vault. Document Type Detail records capture the granular attributes and properties that define how a particular document type behaves within document management workflows. This object supports the classification hierarchy of documents, helping users and administrators understand the rules, requirements, or attributes tied to specific document types and subtypes.'),
+   synonyms('doc type detail',
+      'document type details',
+      'doctype detail',
+      'document classification detail'),
+   target('Object.doc_type_detail__v'),
+   target_label('Document Type Detail'),
+   Vsmfield(@Vsmfield/enabled__v.mdl),
+   Vsmfield(@Vsmfield/group_inherited__v.mdl),
+   Vsmfield(@Vsmfield/is_leaf__v.mdl),
+   Vsmfield(@Vsmfield/level__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/status__v.mdl),
+   Vsmfield(@Vsmfield/subtype__v.mdl),
+   Vsmfield(@Vsmfield/type__v.mdl)
+);

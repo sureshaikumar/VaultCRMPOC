@@ -1,0 +1,6 @@
+Picklistentry me-02__v (
+   value('Bar'),
+   order(2908),
+   active(true),
+   controlling_entries('me__v')
+);

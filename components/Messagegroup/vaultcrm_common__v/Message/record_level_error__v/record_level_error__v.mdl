@@ -1,0 +1,6 @@
+Message record_level_error__v (
+   label(),
+   active(true),
+   default_value('We could not save "${resource_identifier}" for the following reasons'),
+   system_managed(false)
+);

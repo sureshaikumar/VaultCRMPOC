@@ -1,0 +1,6 @@
+Picklistentry sn-ka__v (
+   value('Kaffrine'),
+   order(4212),
+   active(true),
+   controlling_entries('sn__v')
+);

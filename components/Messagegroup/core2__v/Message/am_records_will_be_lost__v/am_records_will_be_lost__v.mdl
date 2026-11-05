@@ -1,0 +1,6 @@
+Message am_records_will_be_lost__v (
+   label(),
+   active(true),
+   default_value('Records highlighted in red will be lost or changed.'),
+   system_managed(false)
+);

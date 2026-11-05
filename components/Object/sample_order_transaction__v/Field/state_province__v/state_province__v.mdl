@@ -1,0 +1,18 @@
+Field state_province__v (
+   label('State'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('State is the State of the Address for Transfer Sample Order Transactions. For a Transfer To Sample Transaction, this field is auto-populated based on the Selected Transfer To user and their corresponding record in the Rep Roster.'),
+   list_column(false),
+   order(66),
+   multi_value(false),
+   picklist('Picklist.sample_order_transaction_state__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

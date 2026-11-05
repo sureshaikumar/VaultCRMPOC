@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="LIFECYCLE_NOTIFICATION_ENTRY_ACTION" notificationTemplateKey="Notificationtemplate.pending_channel_assignment__v">
+            <notificationGroupIds>service_center_admins__c</notificationGroupIds>
+        </action>
+    </actions>
+</rule>

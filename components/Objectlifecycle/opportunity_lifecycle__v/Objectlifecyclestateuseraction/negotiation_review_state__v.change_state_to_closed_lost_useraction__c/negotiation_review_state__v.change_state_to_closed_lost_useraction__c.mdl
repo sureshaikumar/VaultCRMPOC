@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction negotiation_review_state__v.change_state_to_closed_lost_useraction__c (
+   label('Change State to Closed (Lost)'),
+   rule(@rule.xml),
+   order(1001)
+);

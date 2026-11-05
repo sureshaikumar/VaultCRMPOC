@@ -1,0 +1,6 @@
+Picklistentry bd-41__v (
+   value('Netrakona'),
+   order(270),
+   active(true),
+   controlling_entries('bd__v')
+);

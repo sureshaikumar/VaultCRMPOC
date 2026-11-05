@@ -1,0 +1,6 @@
+Picklistentry cz-317__v (
+   value('Tábor'),
+   order(834),
+   active(true),
+   controlling_entries('cz__v')
+);

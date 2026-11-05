@@ -1,0 +1,15 @@
+RECREATE Picklist call2_call_type__v (
+   label('Call Type'),
+   active(true),
+   Picklistentry(@Picklistentry/casual_talk__c.mdl),
+   Picklistentry(@Picklistentry/detail_only__v.mdl),
+   Picklistentry(@Picklistentry/detail_with_sample__v.mdl),
+   Picklistentry(@Picklistentry/group_detail__v.mdl),
+   Picklistentry(@Picklistentry/group_detail_with_sample__v.mdl),
+   Picklistentry(@Picklistentry/sample_only__v.mdl),
+   Picklistentry(@Picklistentry/call_only__v.mdl),
+   Picklistentry(@Picklistentry/event_only__v.mdl),
+   Picklistentry(@Picklistentry/event_detail__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

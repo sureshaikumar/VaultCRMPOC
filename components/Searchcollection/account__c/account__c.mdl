@@ -1,0 +1,6 @@
+RECREATE Searchcollection account__c (
+   label('Account'),
+   active(true),
+   description(),
+   Searchcollectionsection(@Searchcollectionsection/osy00000001c001__c.mdl)
+);

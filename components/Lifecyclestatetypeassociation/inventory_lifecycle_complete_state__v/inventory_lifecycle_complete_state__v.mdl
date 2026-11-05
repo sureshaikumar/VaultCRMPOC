@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation inventory_lifecycle_complete_state__v (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.sample_inventory_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.submitted_state__v'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

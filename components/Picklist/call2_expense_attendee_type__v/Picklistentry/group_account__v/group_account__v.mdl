@@ -1,0 +1,5 @@
+Picklistentry group_account__v (
+   value('Group Account'),
+   order(2),
+   active(true)
+);

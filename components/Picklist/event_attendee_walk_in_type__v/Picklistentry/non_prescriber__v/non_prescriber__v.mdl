@@ -1,0 +1,5 @@
+Picklistentry non_prescriber__v (
+   value('Non-Prescriber'),
+   order(1),
+   active(true)
+);

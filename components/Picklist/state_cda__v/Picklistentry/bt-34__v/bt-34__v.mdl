@@ -1,0 +1,6 @@
+Picklistentry bt-34__v (
+   value('Zhemgang'),
+   order(522),
+   active(true),
+   controlling_entries('bt__v')
+);

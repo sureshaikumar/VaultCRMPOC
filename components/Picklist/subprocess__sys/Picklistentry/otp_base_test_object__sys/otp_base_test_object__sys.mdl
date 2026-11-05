@@ -1,0 +1,6 @@
+Picklistentry otp_base_test_object__sys (
+   value('Base Test Object'),
+   order(22),
+   active(true),
+   controlling_entries('olc_testobjectdemolifecycle__sys')
+);

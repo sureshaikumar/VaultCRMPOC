@@ -1,0 +1,6 @@
+Message rule_confirm_run_align_from_field_force__v (
+   label(),
+   active(true),
+   default_value('Preview Account Assignment rules for {0}. All territories scheduled to inherit rules from this Field Force will be evaluated.'),
+   system_managed(false)
+);

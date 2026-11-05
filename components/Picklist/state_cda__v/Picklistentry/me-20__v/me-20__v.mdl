@@ -1,0 +1,6 @@
+Picklistentry me-20__v (
+   value('Ulcinj'),
+   order(2926),
+   active(true),
+   controlling_entries('me__v')
+);

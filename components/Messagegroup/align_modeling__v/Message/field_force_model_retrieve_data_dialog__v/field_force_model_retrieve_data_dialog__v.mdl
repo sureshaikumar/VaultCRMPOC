@@ -1,0 +1,6 @@
+Message field_force_model_retrieve_data_dialog__v (
+   label(),
+   active(true),
+   default_value('Retrieving field force model data'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-191__v (
+   value('Žetale'),
+   order(4164),
+   active(true),
+   controlling_entries('si__v')
+);

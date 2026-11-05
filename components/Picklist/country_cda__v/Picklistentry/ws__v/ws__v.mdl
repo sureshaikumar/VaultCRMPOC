@@ -1,0 +1,5 @@
+Picklistentry ws__v (
+   value('Samoa'),
+   order(192),
+   active(true)
+);

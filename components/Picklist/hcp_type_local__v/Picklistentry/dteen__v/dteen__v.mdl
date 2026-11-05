@@ -1,0 +1,5 @@
+Picklistentry dteen__v (
+   value('Dental Technician'),
+   order(30),
+   active(true)
+);

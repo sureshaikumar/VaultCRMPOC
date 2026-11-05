@@ -1,0 +1,6 @@
+Message only_show_my_records__v (
+   label(),
+   active(true),
+   default_value('Only Show My ${object_name}'),
+   system_managed(false)
+);

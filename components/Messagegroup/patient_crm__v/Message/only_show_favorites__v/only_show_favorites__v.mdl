@@ -1,0 +1,6 @@
+Message only_show_favorites__v (
+   label(),
+   active(true),
+   default_value('Only show favorites'),
+   system_managed(false)
+);

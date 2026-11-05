@@ -1,0 +1,6 @@
+Picklistentry eg-ba__v (
+   value('Al Baḩr al Aḩmar'),
+   order(1161),
+   active(true),
+   controlling_entries('eg__v')
+);

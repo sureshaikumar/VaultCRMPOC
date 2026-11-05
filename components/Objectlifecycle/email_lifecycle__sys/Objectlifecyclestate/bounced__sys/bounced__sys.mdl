@@ -1,0 +1,10 @@
+Objectlifecyclestate bounced__sys (
+   label('Bounced'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('Vault did not run the Email Processor on this record.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

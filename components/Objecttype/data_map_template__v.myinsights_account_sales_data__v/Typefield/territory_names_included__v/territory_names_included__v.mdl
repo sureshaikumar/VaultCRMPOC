@@ -1,0 +1,4 @@
+Typefield territory_names_included__v (
+   source('custom'),
+   required(false)
+);

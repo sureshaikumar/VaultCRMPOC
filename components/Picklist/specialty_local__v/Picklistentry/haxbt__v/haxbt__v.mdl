@@ -1,0 +1,6 @@
+Picklistentry haxbt__v (
+   value('Haematology and Blood Transfusion'),
+   order(658),
+   active(true),
+   controlling_entries('ng__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bs-by__v (
+   value('Berry Islands'),
+   order(481),
+   active(true),
+   controlling_entries('bs__v')
+);

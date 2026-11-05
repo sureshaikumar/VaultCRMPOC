@@ -1,0 +1,18 @@
+Field network_primary__v (
+   label('Network Primary'),
+   type('Boolean'),
+   active(true),
+   description('Indicates this relationship is reported as Primary in Network. Should be mapped to primary_relationship__v.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

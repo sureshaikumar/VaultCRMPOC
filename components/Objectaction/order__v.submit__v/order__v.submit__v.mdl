@@ -1,0 +1,8 @@
+RECREATE Objectaction order__v.submit__v (
+   label('Submit'),
+   description('Submits the order'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.ordermanagement.actions.OrderSubmitAction'),
+   active(true),
+   available_all_states(false)
+);

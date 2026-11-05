@@ -1,0 +1,6 @@
+Picklistentry gb-eln__v (
+   value('East Lothian'),
+   order(1511),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry gw__v (
+   value('Guinea-Bissau'),
+   order(92),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 33820__v (
+   value('Monroe, WI Micropolitan Statistical Area'),
+   order(79),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout functional_profile_field_force_detail_pa__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Functional Profile Field Force Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

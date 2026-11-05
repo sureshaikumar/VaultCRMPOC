@@ -1,0 +1,23 @@
+Field cache_timeout__v (
+   label('CACHE_TIMEOUT'),
+   type('Number'),
+   active(true),
+   description('Controls the timing of the cache rebuild for Veeva CRM application specific components.  Default value is 960 minutes (16 hours).'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(37),
+   default_value('960'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

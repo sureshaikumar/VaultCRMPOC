@@ -1,0 +1,17 @@
+Field date_of_disposition__c (
+   label('Date of Disposition'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(83),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

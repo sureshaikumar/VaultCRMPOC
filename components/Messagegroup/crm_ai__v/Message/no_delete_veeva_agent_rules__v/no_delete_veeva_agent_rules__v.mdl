@@ -1,0 +1,6 @@
+Message no_delete_veeva_agent_rules__v (
+   label(),
+   active(true),
+   default_value('You cannot delete Veeva owned Agent Rules'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field email_fragments__v (
+   label('Email Fragments'),
+   type('LongText'),
+   active(true),
+   description('Email_Fragments_vod captures the IDs of the Email Fragments which were included in the email payload. This will be a comma separated list of SFDC IDs.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

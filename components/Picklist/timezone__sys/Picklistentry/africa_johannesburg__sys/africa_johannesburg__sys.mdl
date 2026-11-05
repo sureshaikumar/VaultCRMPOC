@@ -1,0 +1,5 @@
+Picklistentry africa_johannesburg__sys (
+   value('(GMT+02:00) South Africa Standard Time (Africa/Johannesburg)'),
+   order(193),
+   active(true)
+);

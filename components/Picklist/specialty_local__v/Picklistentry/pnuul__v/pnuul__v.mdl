@@ -1,0 +1,6 @@
+Picklistentry pnuul__v (
+   value('Pulmonology Nursing'),
+   order(1662),
+   active(true),
+   controlling_entries('ee__v')
+);

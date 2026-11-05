@@ -1,0 +1,8 @@
+Picklistentry stoma__v (
+   value('Stomatology'),
+   order(1805),
+   active(true),
+   controlling_entries('be__v',
+         'lu__v',
+         'pt__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry is-3__v (
+   value('Vesturland'),
+   order(2085),
+   active(true),
+   controlling_entries('is__v')
+);

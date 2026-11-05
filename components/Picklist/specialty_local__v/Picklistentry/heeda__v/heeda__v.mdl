@@ -1,0 +1,6 @@
+Picklistentry heeda__v (
+   value('Health Education'),
+   order(665),
+   active(true),
+   controlling_entries('sk__v')
+);

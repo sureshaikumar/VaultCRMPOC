@@ -1,0 +1,6 @@
+Picklistentry otp_contract__sys (
+   value('Contract'),
+   order(40),
+   active(true),
+   controlling_entries('olc_event_material__sys')
+);

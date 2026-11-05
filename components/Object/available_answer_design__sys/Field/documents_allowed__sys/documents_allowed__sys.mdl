@@ -1,0 +1,18 @@
+Field documents_allowed__sys (
+   label('Documents Allowed'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('This field will allow one or more documents to be attached to a particular answer selected in a checklist multiple choice question.'),
+   list_column(false),
+   order(17),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

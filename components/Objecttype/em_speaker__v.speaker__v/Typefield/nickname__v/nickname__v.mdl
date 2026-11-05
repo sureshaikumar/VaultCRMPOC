@@ -1,0 +1,4 @@
+Typefield nickname__v (
+   source('custom'),
+   required(false)
+);

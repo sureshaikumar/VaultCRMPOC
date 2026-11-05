@@ -1,0 +1,20 @@
+Field row_counts__v (
+   label('ROW_COUNTS'),
+   type('String'),
+   active(true),
+   description('Veeva Systems Internal Use Only.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(260),
+   default_value('"ROW_COUNTS;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

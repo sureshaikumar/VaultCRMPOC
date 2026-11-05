@@ -1,0 +1,6 @@
+Picklistentry rtanm__v (
+   value('Radiation Therapy and Nuclear Medicine'),
+   order(1672),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,18 @@
+Field distance_unit_type__v (
+   label('Distance Unit Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to define the unit of measurement applicable to the Minimum and Maximum Travel Distance range.'),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.em_business_rule_distance_unit_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

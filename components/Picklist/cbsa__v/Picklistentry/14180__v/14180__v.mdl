@@ -1,0 +1,5 @@
+Picklistentry 14180__v (
+   value('Blytheville, AR Micropolitan Statistical Area'),
+   order(890),
+   active(true)
+);

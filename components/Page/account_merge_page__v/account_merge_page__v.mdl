@@ -1,0 +1,14 @@
+RECREATE Page account_merge_page__v (
+   label('Merge Accounts'),
+   active(true),
+   client_distribution(),
+   default_client_code('account_merge_page__v'),
+   description('App page for Account Merge UI'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('account-merge')
+);

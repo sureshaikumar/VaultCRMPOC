@@ -1,0 +1,5 @@
+Picklistentry mode1__c (
+   value('Mode1'),
+   order(0),
+   active(true)
+);

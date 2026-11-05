@@ -1,0 +1,13 @@
+Vsmfield doc_type_group__v (
+   label('Document Type Group'),
+   active(true),
+   description('Reference to the parent Document Type Group that this detail record belongs to. Use this field to identify which group a document type detail is categorized under, or to retrieve all detail entries for a given group.'),
+   example_values(),
+   synonyms('document type group',
+         'doc type group',
+         'type group'),
+   target('doc_type_group__v'),
+   target_label('Document Type Group'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

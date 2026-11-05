@@ -1,0 +1,6 @@
+Picklistentry ch-ar__v (
+   value('Appenzell Ausserrhoden'),
+   order(629),
+   active(true),
+   controlling_entries('ch__v')
+);

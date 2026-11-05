@@ -1,0 +1,6 @@
+Message channel_engage_connect_description__v (
+   label(),
+   active(true),
+   default_value('Send an Engage message'),
+   system_managed(false)
+);

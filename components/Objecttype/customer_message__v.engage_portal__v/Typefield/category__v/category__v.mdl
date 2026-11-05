@@ -1,0 +1,7 @@
+Typefield category__v (
+   source('standard'),
+   required(true),
+   pickentries('Picklist.customer_message_category__v.common__v',
+         'Picklist.customer_message_category__v.authentication__v',
+         'Picklist.customer_message_category__v.documents__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry glossary_lookup__sys (
+   value('Glossary Lookup'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message field_events__v (
+   label(),
+   active(true),
+   default_value('Field Events'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Typefield em_catalog_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_catalog_status__v.approved__v',
+         'Picklist.em_catalog_status__v.expired__v',
+         'Picklist.em_catalog_status__v.staged__v')
+);

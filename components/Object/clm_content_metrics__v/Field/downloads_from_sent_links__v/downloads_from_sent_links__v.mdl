@@ -1,0 +1,22 @@
+Field downloads_from_sent_links__v (
+   label('Presentation Downloads from Sent Links'),
+   type('Number'),
+   active(true),
+   description('The number of times the presentations was downloaded from links generated for presentation. This is calculated from the message_activity__v records created where activity__v = downloaded__v.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field vehicle__v (
+   label('Vehicle'),
+   type('String'),
+   active(true),
+   description('Used to record what collateral is used to deliver the Key Message. Comma separated list of message vehicles. The master list of message vehicles is kept in Call_Key_Messages_vod.Vehicle_vod.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

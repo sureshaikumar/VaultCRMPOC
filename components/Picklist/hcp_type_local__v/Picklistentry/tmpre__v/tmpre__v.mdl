@@ -1,0 +1,5 @@
+Picklistentry tmpre__v (
+   value('Traditional Medicine Practitioner'),
+   order(160),
+   active(true)
+);

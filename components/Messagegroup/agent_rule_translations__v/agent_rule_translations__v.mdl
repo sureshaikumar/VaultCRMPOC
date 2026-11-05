@@ -1,0 +1,18 @@
+RECREATE Messagegroup agent_rule_translations__v (
+   label('Agent Rule Translations'),
+   active(true),
+   Message(@Message/business_relevance__v.mdl),
+   Message(@Message/business_relevance_guideline__v.mdl),
+   Message(@Message/identification__v.mdl),
+   Message(@Message/identification_guideline__v.mdl),
+   Message(@Message/observation__v.mdl),
+   Message(@Message/observation_context__v.mdl),
+   Message(@Message/observation_context_guideline__v.mdl),
+   Message(@Message/observation_guideline__v.mdl),
+   Message(@Message/rationale__v.mdl),
+   Message(@Message/rationale_guideline__v.mdl),
+   Message(@Message/research_my_products__v.mdl),
+   Message(@Message/what_slides_have_been_shown__v.mdl),
+   Message(@Message/writing_style__v.mdl),
+   Message(@Message/writing_style_guideline__v.mdl)
+);

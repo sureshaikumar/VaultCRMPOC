@@ -1,0 +1,4 @@
+Typefield max_percent_hcp_target_removals__v (
+   source('standard'),
+   required(false)
+);

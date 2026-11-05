@@ -1,0 +1,6 @@
+Picklistentry la-ou__v (
+   value('Oudômxai [Oudomsai]'),
+   order(2521),
+   active(true),
+   controlling_entries('la__v')
+);

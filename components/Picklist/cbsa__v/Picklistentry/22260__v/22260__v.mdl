@@ -1,0 +1,5 @@
+Picklistentry 22260__v (
+   value('Fergus Falls, MN Micropolitan Statistical Area'),
+   order(152),
+   active(true)
+);

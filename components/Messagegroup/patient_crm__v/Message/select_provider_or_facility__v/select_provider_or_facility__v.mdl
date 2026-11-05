@@ -1,0 +1,6 @@
+Message select_provider_or_facility__v (
+   label(),
+   active(true),
+   default_value('Select Provider or Facility'),
+   system_managed(false)
+);

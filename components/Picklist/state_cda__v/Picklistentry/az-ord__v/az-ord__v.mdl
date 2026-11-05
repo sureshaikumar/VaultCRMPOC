@@ -1,0 +1,6 @@
+Picklistentry az-ord__v (
+   value('Ordubad'),
+   order(178),
+   active(true),
+   controlling_entries('az__v')
+);

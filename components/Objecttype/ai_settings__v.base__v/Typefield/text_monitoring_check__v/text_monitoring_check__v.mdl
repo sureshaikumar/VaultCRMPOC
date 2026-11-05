@@ -1,0 +1,4 @@
+Typefield text_monitoring_check__v (
+   source('standard'),
+   required(true)
+);

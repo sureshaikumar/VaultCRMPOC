@@ -1,0 +1,6 @@
+Message manage_users__v (
+   label(),
+   active(true),
+   default_value('Manage users'),
+   system_managed(false)
+);

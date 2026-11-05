@@ -1,0 +1,6 @@
+Message fields__sys (
+   label(),
+   active(true),
+   default_value('Fields'),
+   system_managed(true)
+);

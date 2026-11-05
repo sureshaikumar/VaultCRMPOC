@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:upRelationships>
+    <vrt:upRelationship key="binder_section.root_binder_id__v" />
+  </vrt:upRelationships>
+  <vrt:downRelationships>
+    <vrt:downRelationship key="documents" />
+  </vrt:downRelationships>
+</vrt:reportType>

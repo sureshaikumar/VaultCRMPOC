@@ -1,0 +1,4 @@
+Typefield investigator_readiness__c (
+   source('standard'),
+   required(false)
+);

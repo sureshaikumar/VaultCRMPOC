@@ -1,0 +1,5 @@
+Picklistentry workflow_verdict__v (
+   value('Workflow Verdict'),
+   order(11),
+   active(true)
+);

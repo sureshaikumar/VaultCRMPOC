@@ -1,0 +1,6 @@
+Picklistentry hr-15__v (
+   value('Šibensko-kninska županija'),
+   order(1856),
+   active(true),
+   controlling_entries('hr__v')
+);

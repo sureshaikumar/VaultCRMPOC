@@ -1,0 +1,6 @@
+Message model_account_rule_start_date__v (
+   label(),
+   active(true),
+   default_value('Child Model Account Rule cannot begin earlier than Model Field Force''s Start Date: ${rule_name} (${rule_id}).'),
+   system_managed(false)
+);

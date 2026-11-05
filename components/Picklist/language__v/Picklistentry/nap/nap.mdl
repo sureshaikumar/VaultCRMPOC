@@ -1,0 +1,5 @@
+Picklistentry nap (
+   value('Neapolitan'),
+   order(266),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry af-pka__v (
+   value('Paktīkā'),
+   order(41),
+   active(true),
+   controlling_entries('af__v')
+);

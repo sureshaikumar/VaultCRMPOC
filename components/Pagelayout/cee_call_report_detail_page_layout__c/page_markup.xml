@@ -1,0 +1,95 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.call2__v.callreport__v">
+    <vault:section title="Buttons" name="buttons__c">
+        <vault:detailform type="One-Column">
+            <vault:control reference="save__v" name="save__c" />
+            <vault:control reference="submit__v" name="submit__c" />
+            <vault:control reference="delete__v" name="delete__c" label="Delete" />
+            <vault:control reference="more_actions__v" name="more_actions__c" label="More Actions" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" />
+            <vault:field reference="address__v" />
+            <vault:field reference="preferred_name__v" />
+            <vault:field reference="call_datetime__v" />
+            <vault:field reference="call_date__v" />
+            <vault:field reference="call_channel__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="call2_status__v" />
+            <vault:field reference="object_type__v" />
+            <vault:control reference="account_sample_status__v" name="account_sample_status__c" label="Address Sample Status" helpContent="Marker field used to place sample status indicator on layout." />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attendees" name="call_attendees_section__c" reference="call_attendees_section__v">
+        <vault:bind property="paa" value="false" />
+        <vault:bind property="ao" value="false" />
+        <vault:bind property="atf" value="false" />
+        <vault:bind property="st" value="false" />
+        <vault:bind property="su" value="false" />
+        <vault:bind property="ns" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Call Details" name="call_details_section__c" reference="call_details_section__v">
+        <vault:bind property="rd" value="false" />
+        <vault:bind property="eed" value="false" />
+        <vault:bind property="htp" value="false" />
+        <vault:bind property="sd" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Key Messages" name="key_messages_section__c" reference="key_messages_section__v">
+        <vault:bind property="cat" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list>
+                <vault:item value="cobrowse_presentation__v" />
+            </vault:list>
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Samples" name="samples_section__c" reference="samples_section__v">
+        <vault:bind property="gp" value="false" />
+        <vault:bind property="mas" value="false" />
+        <vault:bind property="masp" value="false" />
+        <vault:bind property="nas" value="false" />
+        <vault:bind property="nb" value="false" />
+        <vault:bind property="nhvp" value="false" />
+        <vault:bind property="no" value="false" />
+        <vault:bind property="np" value="false" />
+        <vault:bind property="npdma" value="false" />
+        <vault:bind property="ns" value="false" />
+        <vault:bind property="nsl" value="false" />
+        <vault:bind property="nslns" value="false" />
+        <vault:bind property="pg" value="false" />
+        <vault:bind property="ra" value="false" />
+        <vault:bind property="so" value="false" />
+        <vault:bind property="sbl" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Product Discussion" name="product_discussion_section__c" reference="product_discussion_section__v">
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Call Text" name="details1__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="call_notes__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Call Notes" name="call_notes__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="pre_call_notes__v" />
+            <vault:field reference="next_call_notes__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

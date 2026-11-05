@@ -1,0 +1,6 @@
+Message destination_url__v (
+   label(),
+   active(true),
+   default_value('Destination URL'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-114__v (
+   value('Lyantonde'),
+   order(4656),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,19 @@
+Field device__v (
+   label('Device'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Stores the device name from which the rating questionnaire was submitted.'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

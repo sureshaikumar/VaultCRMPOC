@@ -1,0 +1,6 @@
+Typefield scale__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_map_template_scale__v.month__v',
+         'Picklist.data_map_template_scale__v.week__v')
+);

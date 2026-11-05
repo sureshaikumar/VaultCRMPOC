@@ -1,0 +1,6 @@
+Message no_double_confirm__v (
+   label(),
+   active(true),
+   default_value('You have already received this item. Please refresh the page.'),
+   system_managed(false)
+);

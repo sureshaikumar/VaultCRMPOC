@@ -1,0 +1,6 @@
+Message microsoft_sign_in_access_features__v (
+   label(),
+   active(true),
+   default_value('You are not signed in to Microsoft 365. Sign in to access Microsoft features.'),
+   system_managed(false)
+);

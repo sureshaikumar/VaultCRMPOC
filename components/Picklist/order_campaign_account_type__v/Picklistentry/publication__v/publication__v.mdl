@@ -1,0 +1,5 @@
+Picklistentry publication__v (
+   value('Publication'),
+   order(18),
+   active(false)
+);

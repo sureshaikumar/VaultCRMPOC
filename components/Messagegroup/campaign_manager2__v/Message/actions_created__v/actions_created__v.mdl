@@ -1,0 +1,6 @@
+Message actions_created__v (
+   label(),
+   active(true),
+   default_value('Actions Created'),
+   system_managed(false)
+);

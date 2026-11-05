@@ -1,0 +1,17 @@
+Field signature__v (
+   label('Signature'),
+   type('LongText'),
+   active(true),
+   description('Signature contains the Signature image converted to text for a Disbursement Sample Transaction. This field is populated from a Call by the Call_Header_trigger_vod trigger.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(50),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

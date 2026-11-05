@@ -1,0 +1,23 @@
+Field document_reference_unbound__v (
+   label('Document Reference (unbound)'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(2147483647),
+   min_value(1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   related_document_reference_field('document_id__v'),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

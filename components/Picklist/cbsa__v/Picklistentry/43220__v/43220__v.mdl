@@ -1,0 +1,5 @@
+Picklistentry 43220__v (
+   value('Shelton, WA Micropolitan Statistical Area'),
+   order(660),
+   active(true)
+);

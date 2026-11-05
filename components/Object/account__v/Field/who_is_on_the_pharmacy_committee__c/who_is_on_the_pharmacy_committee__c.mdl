@@ -1,0 +1,19 @@
+Field who_is_on_the_pharmacy_committee__c (
+   label('Who is on the Pharmacy Committee?'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Who is on the Pharmacy Committee?'),
+   list_column(false),
+   order(184),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+RECREATE Objectvalidation order__v.on_create_no_order_validation_rules__v (
+   label('On Create No Order Validation Rule'),
+   active(true),
+   expression('Not(
+            And(
+                account__vr.no_orders__v = ''yes__v'',
+                IsBlank(mobile_id__v),
+                IsNew()
+            )
+        )'),
+   description('Block the create of an order where account__v.no_orders__v = yes__v'),
+   error_message('Orders cannot be created against this account.'),
+   error_location('account__v')
+);

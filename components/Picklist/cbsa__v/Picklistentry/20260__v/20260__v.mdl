@@ -1,0 +1,5 @@
+Picklistentry 20260__v (
+   value('Duluth, MN-WI Metropolitan Statistical Area'),
+   order(520),
+   active(true)
+);

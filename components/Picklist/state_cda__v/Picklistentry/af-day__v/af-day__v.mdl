@@ -1,0 +1,6 @@
+Picklistentry af-day__v (
+   value('Dāykundi'),
+   order(19),
+   active(true),
+   controlling_entries('af__v')
+);

@@ -1,0 +1,12 @@
+Vsmfield assigned_to__v (
+   label('Assigned To'),
+   active(true),
+   description('The user who the User task is assigned to'),
+   example_values(),
+   synonyms('Owner',
+         'Assignee'),
+   target('assigned_to__v'),
+   target_label('Assigned To'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

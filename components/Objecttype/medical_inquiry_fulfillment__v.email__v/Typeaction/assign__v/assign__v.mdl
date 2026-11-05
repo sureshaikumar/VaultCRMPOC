@@ -1,0 +1,3 @@
+Typeaction assign__v (
+   action('medical_inquiry_fulfillment__v.assign__v')
+);

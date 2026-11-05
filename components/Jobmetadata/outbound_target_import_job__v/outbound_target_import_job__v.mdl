@@ -1,0 +1,10 @@
+RECREATE Jobmetadata outbound_target_import_job__v (
+   label('Outbound Target Import Job'),
+   active(true),
+   chunk_size(1),
+   description('This job runs outbound target import to a single target list.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.servicecenter.jobs.OutboundTargetImportJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

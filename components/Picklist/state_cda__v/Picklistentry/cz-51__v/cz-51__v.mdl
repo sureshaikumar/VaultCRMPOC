@@ -1,0 +1,6 @@
+Picklistentry cz-51__v (
+   value('Liberec Region'),
+   order(855),
+   active(true),
+   controlling_entries('cz__v')
+);

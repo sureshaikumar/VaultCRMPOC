@@ -1,0 +1,6 @@
+Message node_decision_clicked__v (
+   label(),
+   active(true),
+   default_value('Clicked?'),
+   system_managed(false)
+);

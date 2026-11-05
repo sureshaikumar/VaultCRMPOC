@@ -1,0 +1,6 @@
+Picklistentry cz-312__v (
+   value('Český Krumlov'),
+   order(829),
+   active(true),
+   controlling_entries('cz__v')
+);

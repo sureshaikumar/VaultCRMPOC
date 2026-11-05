@@ -1,0 +1,6 @@
+Message approval_mapping_title__v (
+   label(),
+   active(true),
+   default_value('Manage Approval Process for {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field bot__v (
+   label('Bot'),
+   type('String'),
+   active(true),
+   description('This field reflects Mailgun''s Bot detection result which can be "apple", "gmail", "generic" or empty (no bot activity detected)'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('Bot activity detected'),
+   list_column(false),
+   order(46),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

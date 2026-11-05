@@ -1,0 +1,6 @@
+Picklistentry ug-333__v (
+   value('Kwania'),
+   order(4738),
+   active(true),
+   controlling_entries('ug__v')
+);

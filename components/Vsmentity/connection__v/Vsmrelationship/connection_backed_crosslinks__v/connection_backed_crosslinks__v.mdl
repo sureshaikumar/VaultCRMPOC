@@ -1,0 +1,14 @@
+Vsmrelationship connection_backed_crosslinks__v (
+   label('Connection Backed Crosslinks'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship to crosslink records that are backed by this connection. Use this to find all cross-vault or cross-system documents created and managed by this connection.'),
+   join_object(),
+   synonyms('crosslinks',
+         'backed crosslinks',
+         'connection crosslinks',
+         'linked records'),
+   target('connection_backed_crosslinks__sysr'),
+   target_label('Connection Backed CrossLinks'),
+   target_object('connection_backed_crosslink__sys')
+);

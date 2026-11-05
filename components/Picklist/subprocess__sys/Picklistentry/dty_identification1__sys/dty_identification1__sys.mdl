@@ -1,0 +1,6 @@
+Picklistentry dty_identification1__sys (
+   value('Identification'),
+   order(79),
+   active(true),
+   controlling_entries('dlc_patient_intake__sys')
+);

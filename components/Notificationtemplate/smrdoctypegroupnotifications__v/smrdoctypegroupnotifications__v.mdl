@@ -1,0 +1,25 @@
+RECREATE Notificationtemplate smrdoctypegroupnotifications__v (
+   label('SmrDocTypeGroupNotifications'),
+   active(true),
+   description('Smr Doc Type Group Notifications template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Document access recalculated'),
+   notification('<b>Document access has been recalculated for a document type based on a change in the Document Type Group value.</b>
+<br>
+<b>Details:</b>
+<br>
+<li>Document Type: ${docType}</li>
+<li>Document Type Group (old value): ${docTypeGroupOldValue}</li>
+<li>Document Type Group (new value): ${docTypeGroupNewValue}</li>'),
+   email_body('<b>Document access has been recalculated for a document type based on a change in the Document Type Group value.</b>
+<br>
+<b>Details:</b>
+<br>
+<li>Document Type: ${docType}</li>
+<li>Document Type Group (old value): ${docTypeGroupOldValue}</li>
+<li>Document Type Group (new value): ${docTypeGroupNewValue}</li>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

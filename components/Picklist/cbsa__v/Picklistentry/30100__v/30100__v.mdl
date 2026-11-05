@@ -1,0 +1,5 @@
+Picklistentry 30100__v (
+   value('Lebanon, NH-VT Micropolitan Statistical Area'),
+   order(381),
+   active(true)
+);

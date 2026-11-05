@@ -1,0 +1,6 @@
+Picklistentry gt-14__v (
+   value('Quiché'),
+   order(1793),
+   active(true),
+   controlling_entries('gt__v')
+);

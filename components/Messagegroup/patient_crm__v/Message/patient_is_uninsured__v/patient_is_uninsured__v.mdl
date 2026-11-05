@@ -1,0 +1,6 @@
+Message patient_is_uninsured__v (
+   label(),
+   active(true),
+   default_value('Patient Is Uninsured'),
+   system_managed(false)
+);

@@ -1,0 +1,23 @@
+Field enable_country_dimension__v (
+   label('Enable Country Dimension'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content('Enables Country dimension based on Account and User Country picklists from global picklist definition. Enabled: 1, Disabled:0'),
+   list_column(false),
+   order(176),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,7 @@
+RECREATE Securityprofile system_admin__v (
+   label('System Administrator'),
+   active(true),
+   description('System provided security profile for System Administrators. Users with this profile have rights to perform most Vault actions.'),
+   permission_sets('business_admin_actions__v',
+      'system_admin_actions__v')
+);

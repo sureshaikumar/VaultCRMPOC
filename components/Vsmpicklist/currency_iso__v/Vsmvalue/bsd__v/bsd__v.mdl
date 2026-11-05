@@ -1,0 +1,9 @@
+Vsmvalue bsd__v (
+   label('BSD'),
+   active(true),
+   description('The Bahamian Dollar (BSD), the official currency of the Bahamas, pegged at parity with the US Dollar.'),
+   synonyms('Bahamian dollar',
+         'Bahamas currency'),
+   target('bsd__sys'),
+   target_label('BSD')
+);

@@ -1,0 +1,6 @@
+Message batch_retry_exception_error__v (
+   label(),
+   active(true),
+   default_value('Batch Operation Failure: Too many retries occurred during record update resulting in continuous failures. Please resolve all record errors.'),
+   system_managed(false)
+);

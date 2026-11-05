@@ -1,0 +1,8 @@
+RECREATE Picklist alert_push_notify_status__v (
+   label('Push Notify Status'),
+   active(true),
+   Picklistentry(@Picklistentry/queued__v.mdl),
+   Picklistentry(@Picklistentry/processed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

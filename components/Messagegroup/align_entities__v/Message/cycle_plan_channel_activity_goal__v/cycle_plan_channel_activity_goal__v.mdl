@@ -1,0 +1,6 @@
+Message cycle_plan_channel_activity_goal__v (
+   label(),
+   active(true),
+   default_value('Channel Activity Goal'),
+   system_managed(false)
+);

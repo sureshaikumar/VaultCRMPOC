@@ -1,0 +1,5 @@
+Picklistentry america_argentina_rio_gallegos__sys (
+   value('(GMT-03:00) Argentine Time (America/Argentina/Rio_Gallegos)'),
+   order(106),
+   active(true)
+);

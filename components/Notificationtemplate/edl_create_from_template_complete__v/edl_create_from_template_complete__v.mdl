@@ -1,0 +1,25 @@
+RECREATE Notificationtemplate edl_create_from_template_complete__v (
+   label('EDL Create from Template Complete Notification'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Create EDL from Template has completed
+
+'),
+   notification('<p> Your Create EDL from Template job has completed </p>
+<p> Details </p>
+<ul>
+<li> Create EDL from Template for EDL - ${objectName} - &quot;${recordName}&quot; completed for the following related objects <br>
+${objectHierarchy} </li>
+<li> Start Time: ${startTime} </li>
+<li> Duration : ${duration} </li>
+<li> ${failureCountLink} </li>
+<li> ${successCountLink} </li>
+</ul>
+'),
+   email_body('${notificationMessage}
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

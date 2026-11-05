@@ -1,0 +1,10 @@
+RECREATE Jobmetadata network_account_search_async_import_job__v (
+   label('Network Account Search Async Import Job'),
+   active(true),
+   chunk_size(1),
+   description('This SDK job is for asynchronous import in Network Account Search'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.networkaccount.jobs.AsyncImportJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

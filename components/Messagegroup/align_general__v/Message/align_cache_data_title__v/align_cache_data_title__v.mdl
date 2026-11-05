@@ -1,0 +1,6 @@
+Message align_cache_data_title__v (
+   label(),
+   active(true),
+   default_value('Align Cache Contents'),
+   system_managed(false)
+);

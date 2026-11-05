@@ -1,0 +1,6 @@
+Picklistentry sd-ka__v (
+   value('Kassala'),
+   order(3936),
+   active(true),
+   controlling_entries('sd__v')
+);

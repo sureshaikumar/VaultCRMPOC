@@ -1,0 +1,6 @@
+Message add_item__v (
+   label(),
+   active(true),
+   default_value('Add Item'),
+   system_managed(false)
+);

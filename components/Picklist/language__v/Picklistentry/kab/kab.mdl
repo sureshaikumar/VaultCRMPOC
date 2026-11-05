@@ -1,0 +1,5 @@
+Picklistentry kab (
+   value('Kabyle'),
+   order(210),
+   active(true)
+);

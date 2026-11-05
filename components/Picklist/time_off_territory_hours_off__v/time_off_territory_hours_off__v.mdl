@@ -1,0 +1,13 @@
+RECREATE Picklist time_off_territory_hours_off__v (
+   label('Hours off'),
+   active(true),
+   Picklistentry(@Picklistentry/1__v.mdl),
+   Picklistentry(@Picklistentry/2__v.mdl),
+   Picklistentry(@Picklistentry/3__v.mdl),
+   Picklistentry(@Picklistentry/4__v.mdl),
+   Picklistentry(@Picklistentry/5__v.mdl),
+   Picklistentry(@Picklistentry/6__v.mdl),
+   Picklistentry(@Picklistentry/7__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

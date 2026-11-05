@@ -1,0 +1,5 @@
+Picklistentry crle__v (
+   value('Clinic Retail'),
+   order(26),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field last_iphone_connect_version__v (
+   label('Last iPhone Connect Version'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content('The application version of the last successful iPhone connection made by each user.'),
+   list_column(false),
+   order(81),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry ctxsu__v (
+   value('Cardio-Thoracic Surgery'),
+   order(152),
+   active(true),
+   controlling_entries('ae__v')
+);

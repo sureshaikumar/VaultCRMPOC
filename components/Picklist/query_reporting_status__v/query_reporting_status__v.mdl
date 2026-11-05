@@ -1,0 +1,12 @@
+RECREATE Picklist query_reporting_status__v (
+   label('Query and Reporting Status'),
+   active(true),
+   Picklistentry(@Picklistentry/disabled__v.mdl),
+   Picklistentry(@Picklistentry/disablement_in_progress__v.mdl),
+   Picklistentry(@Picklistentry/disablement_failed__v.mdl),
+   Picklistentry(@Picklistentry/enabled__v.mdl),
+   Picklistentry(@Picklistentry/enablement_in_progress__v.mdl),
+   Picklistentry(@Picklistentry/enablement_failed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

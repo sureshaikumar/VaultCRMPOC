@@ -1,0 +1,22 @@
+Field quantity__v (
+   label('Quantity'),
+   type('Number'),
+   active(true),
+   description('The total amount of medication dispensed by the pharmacy in a single transaction, representing the full number of Dosage Units (e.g., tablets, milliliters, or grams) provided to the patient.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(32),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

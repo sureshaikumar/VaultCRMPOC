@@ -1,0 +1,9 @@
+Vsmvalue ttd__v (
+   label('TTD'),
+   active(true),
+   description('Applies when transactions are denominated in the Trinidad and Tobago Dollar, the official currency of Trinidad and Tobago.'),
+   synonyms('Trinidad and Tobago dollar',
+         'TT dollar'),
+   target('ttd__sys'),
+   target_label('TTD')
+);

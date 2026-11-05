@@ -1,0 +1,5 @@
+Picklistentry tvl__v (
+   value('Tuvalu'),
+   order(332),
+   active(false)
+);

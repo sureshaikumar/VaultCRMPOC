@@ -1,0 +1,6 @@
+Message source_presentation__v (
+   label(),
+   active(true),
+   default_value('Source Presentation'),
+   system_managed(false)
+);

@@ -1,0 +1,3 @@
+Typeaction assortment_preview__v (
+   action('assortment__v.assortment_preview__v')
+);

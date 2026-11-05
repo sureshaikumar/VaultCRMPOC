@@ -1,0 +1,6 @@
+Picklistentry li-10__v (
+   value('Triesenberg'),
+   order(2558),
+   active(true),
+   controlling_entries('li__v')
+);

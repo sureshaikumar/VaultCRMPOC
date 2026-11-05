@@ -1,0 +1,6 @@
+Picklistentry gramy__v (
+   value('Gynecological Radiodiagnostics and Mammography'),
+   order(647),
+   active(true),
+   controlling_entries('mk__v')
+);

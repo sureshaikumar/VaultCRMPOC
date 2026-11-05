@@ -1,0 +1,7 @@
+RECREATE Picklist doc_translation_source_language_google__sys (
+   label('Document Translation Source Language - Google'),
+   active(true),
+   Picklistentry(@Picklistentry/auto_detect__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

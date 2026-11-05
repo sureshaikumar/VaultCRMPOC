@@ -1,0 +1,6 @@
+Message cycle_utilization_activity_goal__v (
+   label(),
+   active(true),
+   default_value('ACTIVITY GOAL'),
+   system_managed(false)
+);

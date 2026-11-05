@@ -1,0 +1,9 @@
+RECREATE Actiontrigger trigger_test_prateek_prateek_test_afteri__c (
+   label('trigger_test_prateek'),
+   active(true),
+   description(),
+   object('Object.prateek_test__c'),
+   event('AFTER_INSERT'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

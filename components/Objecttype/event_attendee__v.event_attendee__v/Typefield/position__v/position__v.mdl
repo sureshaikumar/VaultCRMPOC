@@ -1,0 +1,9 @@
+Typefield position__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.event_attendee_position__v.award_winner__v',
+         'Picklist.event_attendee_position__v.chair_person__v',
+         'Picklist.event_attendee_position__v.organizer__v',
+         'Picklist.event_attendee_position__v.participant__v',
+         'Picklist.event_attendee_position__v.speaker__v')
+);

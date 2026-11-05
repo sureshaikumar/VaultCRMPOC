@@ -1,0 +1,5 @@
+Picklistentry ok__v (
+   value('OK'),
+   order(41),
+   active(true)
+);

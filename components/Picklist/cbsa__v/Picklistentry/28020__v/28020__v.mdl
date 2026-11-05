@@ -1,0 +1,5 @@
+Picklistentry 28020__v (
+   value('Kalamazoo-Portage, MI Metropolitan Statistical Area'),
+   order(124),
+   active(true)
+);

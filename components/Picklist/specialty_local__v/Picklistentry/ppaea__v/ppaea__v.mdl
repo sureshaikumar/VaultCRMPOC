@@ -1,0 +1,6 @@
+Picklistentry ppaea__v (
+   value('Pediatric Pathological Anatomy'),
+   order(1436),
+   active(true),
+   controlling_entries('ua__v')
+);

@@ -1,0 +1,11 @@
+RECREATE Jobmetadata clinical_attendee_inbound_job__v (
+   label('Clinical Attendee Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('The job responsible for pulling relevant Clinical Attendees to VaultCRM.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clinicalintegration.jobs.ClinicalAttendeeInboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

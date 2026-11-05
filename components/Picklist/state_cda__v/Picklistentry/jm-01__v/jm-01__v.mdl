@@ -1,0 +1,6 @@
+Picklistentry jm-01__v (
+   value('Kingston'),
+   order(2281),
+   active(true),
+   controlling_entries('jm__v')
+);

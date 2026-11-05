@@ -1,0 +1,6 @@
+Picklistentry kp-07__v (
+   value('Kangwon'),
+   order(2463),
+   active(true),
+   controlling_entries('kp__v')
+);

@@ -1,0 +1,6 @@
+Message create_single_step_campaign__v (
+   label(),
+   active(true),
+   default_value('Create Single Step Campaign'),
+   system_managed(false)
+);

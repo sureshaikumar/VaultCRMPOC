@@ -1,0 +1,5 @@
+Picklistentry rm__v (
+   value('Rehabilitation Medicine'),
+   order(34),
+   active(true)
+);

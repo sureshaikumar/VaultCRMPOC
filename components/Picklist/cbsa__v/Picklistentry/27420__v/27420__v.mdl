@@ -1,0 +1,5 @@
+Picklistentry 27420__v (
+   value('Jamestown, ND Micropolitan Statistical Area'),
+   order(55),
+   active(true)
+);

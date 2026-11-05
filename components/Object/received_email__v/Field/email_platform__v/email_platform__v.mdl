@@ -1,0 +1,18 @@
+Field email_platform__v (
+   label('Email Platform'),
+   type('Picklist'),
+   active(true),
+   description('Reference to the platform for the conversation'),
+   required(true),
+   unique(false),
+   help_content('Reference to the platform for the conversation'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.email_platforms__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

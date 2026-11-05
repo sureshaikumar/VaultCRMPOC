@@ -1,0 +1,6 @@
+Message mccp_feedback_rule_refs_non_exist_target__v (
+   label(),
+   active(true),
+   default_value('Approval rule criteria references nonexistent target'),
+   system_managed(false)
+);

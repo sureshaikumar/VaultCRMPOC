@@ -1,0 +1,4 @@
+Typefield vault_binder_path__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message deployed__v (
+   label(),
+   active(true),
+   default_value('Deployed:'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field im_layer__v (
+   label('IM Layer'),
+   type('Picklist'),
+   active(true),
+   description('Contract Line corresponding field to Layer in IM Lines.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(26),
+   multi_value(false),
+   picklist('Picklist.contract_line_im_layer__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

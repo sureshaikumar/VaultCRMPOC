@@ -1,0 +1,6 @@
+Message import_inactive_asgmts_help__v (
+   label(),
+   active(true),
+   default_value('Enables importing assignments of inactive accounts from CRM into Align.'),
+   system_managed(false)
+);

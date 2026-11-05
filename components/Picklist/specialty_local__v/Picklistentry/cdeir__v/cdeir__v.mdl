@@ -1,0 +1,6 @@
+Picklistentry cdeir__v (
+   value('Cerebrovascular Diseases'),
+   order(184),
+   active(true),
+   controlling_entries('hr__v')
+);

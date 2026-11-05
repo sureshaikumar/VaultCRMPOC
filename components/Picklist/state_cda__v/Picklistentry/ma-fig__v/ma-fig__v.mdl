@@ -1,0 +1,6 @@
+Picklistentry ma-fig__v (
+   value('Figuig'),
+   order(2798),
+   active(true),
+   controlling_entries('ma__v')
+);

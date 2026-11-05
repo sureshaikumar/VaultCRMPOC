@@ -1,0 +1,6 @@
+Picklistentry bf-kmp__v (
+   value('Kompienga'),
+   order(344),
+   active(true),
+   controlling_entries('bf__v')
+);

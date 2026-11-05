@@ -1,0 +1,18 @@
+Field enable_country_state_language_cda__v (
+   label('Enable Country, State, and Language CDA'),
+   type('Boolean'),
+   active(true),
+   description('When checked, functionality in Vault CRM that leverages the Language or Country Code fields on the Account object, or the Country or State fields on the Address object, will use the equivalent Country, State, and Language CDA fields on those objects instead.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(352),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

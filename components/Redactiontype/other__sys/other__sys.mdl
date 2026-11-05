@@ -1,0 +1,8 @@
+RECREATE Redactiontype other__sys (
+   label('Other'),
+   active(true),
+   fill_color('Redactiontypecolor.black__sys'),
+   outline_color('Redactiontypecolor.red__sys'),
+   overlay_text(),
+   text_color()
+);

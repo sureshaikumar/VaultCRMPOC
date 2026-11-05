@@ -1,0 +1,11 @@
+Vsmvalue pending_state__v (
+   label('Pending'),
+   active(true),
+   description('The connection has been initiated but is awaiting approval, configuration, or another prerequisite before it can become active.'),
+   synonyms('awaiting review',
+         'in progress',
+         'queued',
+         'under evaluation'),
+   target('pending_state__sys'),
+   target_label('Pending')
+);

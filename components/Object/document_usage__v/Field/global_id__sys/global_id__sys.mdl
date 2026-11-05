@@ -1,0 +1,19 @@
+Field global_id__sys (
+   label('Global ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(36),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

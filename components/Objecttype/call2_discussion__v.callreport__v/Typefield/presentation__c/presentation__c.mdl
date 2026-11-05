@@ -1,0 +1,9 @@
+Typefield presentation__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_discussion_presentation__c.chs_diabetic_presentation__c',
+         'Picklist.call2_discussion_presentation__c.chs_presentation__c',
+         'Picklist.call2_discussion_presentation__c.cr_presentation__c',
+         'Picklist.call2_discussion_presentation__c.cr_presentation_diabetic_patients__c',
+         'Picklist.call2_discussion_presentation__c.rls_presentation__c')
+);

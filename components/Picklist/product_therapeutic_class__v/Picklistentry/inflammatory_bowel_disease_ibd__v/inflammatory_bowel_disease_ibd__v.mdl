@@ -1,0 +1,5 @@
+Picklistentry inflammatory_bowel_disease_ibd__v (
+   value('Inflammatory Bowel Disease (IBD)'),
+   order(51),
+   active(true)
+);

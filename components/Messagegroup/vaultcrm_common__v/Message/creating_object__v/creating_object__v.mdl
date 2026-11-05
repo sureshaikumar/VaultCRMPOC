@@ -1,0 +1,6 @@
+Message creating_object__v (
+   label(),
+   active(true),
+   default_value('Creating ${object_label}'),
+   system_managed(false)
+);

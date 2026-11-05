@@ -1,0 +1,18 @@
+Field case_assigned_to__v (
+   label('Case Assigned To'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the Care Team role for which, if a match exists, the Case Owner will be assigned from'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.care_team_role__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

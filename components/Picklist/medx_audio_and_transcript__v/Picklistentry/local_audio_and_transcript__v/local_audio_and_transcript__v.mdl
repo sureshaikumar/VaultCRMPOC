@@ -1,0 +1,5 @@
+Picklistentry local_audio_and_transcript__v (
+   value('Local Audio and Transcript'),
+   order(1),
+   active(true)
+);

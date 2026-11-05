@@ -1,0 +1,5 @@
+Picklistentry sco__v (
+   value('Scots'),
+   order(275),
+   active(false)
+);

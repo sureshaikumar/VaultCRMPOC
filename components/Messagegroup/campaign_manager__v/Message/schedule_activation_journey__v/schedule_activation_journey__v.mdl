@@ -1,0 +1,6 @@
+Message schedule_activation_journey__v (
+   label(),
+   active(true),
+   default_value('Select a date and time to activate journey'),
+   system_managed(false)
+);

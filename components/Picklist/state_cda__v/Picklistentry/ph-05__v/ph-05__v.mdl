@@ -1,0 +1,6 @@
+Picklistentry ph-05__v (
+   value('Bicol (Region V)'),
+   order(3520),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lv-jel__v (
+   value('Jelgava'),
+   order(2738),
+   active(true),
+   controlling_entries('lv__v')
+);

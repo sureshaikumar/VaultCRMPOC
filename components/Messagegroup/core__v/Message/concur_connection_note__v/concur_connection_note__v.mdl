@@ -1,0 +1,6 @@
+Message concur_connection_note__v (
+   label(),
+   active(true),
+   default_value('Note: Some parameters are only available once a successful connection to Concur is established.'),
+   system_managed(false)
+);

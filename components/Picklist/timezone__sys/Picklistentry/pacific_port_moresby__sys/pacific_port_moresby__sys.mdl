@@ -1,0 +1,5 @@
+Picklistentry pacific_port_moresby__sys (
+   value('(GMT+10:00) Papua New Guinea Time (Pacific/Port_Moresby)'),
+   order(288),
+   active(true)
+);

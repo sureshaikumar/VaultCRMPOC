@@ -1,0 +1,6 @@
+Message crm_integration_connection_status_as_of__v (
+   label(),
+   active(true),
+   default_value('{0} as of {1}'),
+   system_managed(false)
+);

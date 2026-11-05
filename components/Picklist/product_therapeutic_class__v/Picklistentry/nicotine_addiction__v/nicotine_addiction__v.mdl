@@ -1,0 +1,5 @@
+Picklistentry nicotine_addiction__v (
+   value('Nicotine Addiction'),
+   order(105),
+   active(true)
+);

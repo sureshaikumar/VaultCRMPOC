@@ -1,0 +1,6 @@
+Message no_file_chosen__v (
+   label(),
+   active(true),
+   default_value('No file chosen'),
+   system_managed(false)
+);

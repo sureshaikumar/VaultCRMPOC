@@ -1,0 +1,6 @@
+Picklistentry lr-ri__v (
+   value('Rivercess'),
+   order(2607),
+   active(true),
+   controlling_entries('lr__v')
+);

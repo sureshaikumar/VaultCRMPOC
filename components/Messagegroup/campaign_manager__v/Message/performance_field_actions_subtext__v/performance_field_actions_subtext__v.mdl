@@ -1,0 +1,6 @@
+Message performance_field_actions_subtext__v (
+   label(),
+   active(true),
+   default_value('${count} Actions'),
+   system_managed(false)
+);

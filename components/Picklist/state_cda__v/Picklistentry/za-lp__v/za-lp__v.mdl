@@ -1,0 +1,6 @@
+Picklistentry za-lp__v (
+   value('Limpopo'),
+   order(5021),
+   active(true),
+   controlling_entries('za__v')
+);

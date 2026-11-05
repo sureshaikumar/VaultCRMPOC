@@ -1,0 +1,6 @@
+Message crm_integr_validate_terr_hierarchy_msg__v (
+   label(),
+   active(true),
+   default_value('Validating CRM information for the territories that will be sent to {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,23 @@
+RECREATE Objecttype patient_journey_step_relationship__v.pcrm_step_relationship__v (
+   label('PCRM Patient Journey Step Relationship'),
+   label_plural('PCRM Patient Journey Step Relationships'),
+   active(true),
+   description('Object Type used to define Patient Journey Step relationships and define the order within Patient CRM.'),
+   additional_type_validations(),
+   default_type(false),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/ctrl_patient_journey__v.mdl),
+   Typefield(@Typefield/from_step__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/object_type__v.mdl),
+   Typefield(@Typefield/status__v.mdl),
+   Typefield(@Typefield/to_step__v.mdl)
+);

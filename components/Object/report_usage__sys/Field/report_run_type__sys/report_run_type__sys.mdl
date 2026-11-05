@@ -1,0 +1,18 @@
+Field report_run_type__sys (
+   label('Report Run Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.report_run_type__sys'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield spotme_replay_viewing_seconds__v (
+   source('custom'),
+   required(false)
+);

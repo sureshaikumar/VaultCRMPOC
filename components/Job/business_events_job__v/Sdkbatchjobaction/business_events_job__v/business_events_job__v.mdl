@@ -1,0 +1,6 @@
+Sdkbatchjobaction business_events_job__v (
+   job_metadata('Jobmetadata.business_events_job__v'),
+   label('Business Events Job'),
+   parameters(),
+   primary_action(true)
+);

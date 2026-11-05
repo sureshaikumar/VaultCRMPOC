@@ -1,0 +1,6 @@
+Message mccp_remove_location_based_criteria_warn__v (
+   label(),
+   active(true),
+   default_value('Setting this field to No will delete all Parent HCO and Parent HCO Product Metric criteria from this channel group and all of its product groups.'),
+   system_managed(false)
+);

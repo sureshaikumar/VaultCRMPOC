@@ -1,0 +1,6 @@
+Picklistentry cz-201__v (
+   value('Benešov'),
+   order(815),
+   active(true),
+   controlling_entries('cz__v')
+);

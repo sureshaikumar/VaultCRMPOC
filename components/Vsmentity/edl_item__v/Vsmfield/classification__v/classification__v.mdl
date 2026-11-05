@@ -1,0 +1,13 @@
+Vsmfield classification__v (
+   label('Document Classification'),
+   active(true),
+   description('Reference to the document classification associated with this EDL item, representing the third level of the document type hierarchy (Type > Subtype > Classification). Use alongside type__v and subtype__v to fully identify the expected document category.'),
+   example_values(),
+   synonyms('doc classification',
+         'document class',
+         'classification'),
+   target('classification__v'),
+   target_label('Document Classification'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

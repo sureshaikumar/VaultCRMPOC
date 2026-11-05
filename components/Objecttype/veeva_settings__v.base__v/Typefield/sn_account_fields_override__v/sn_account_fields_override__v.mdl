@@ -1,0 +1,4 @@
+Typefield sn_account_fields_override__v (
+   source('standard'),
+   required(false)
+);

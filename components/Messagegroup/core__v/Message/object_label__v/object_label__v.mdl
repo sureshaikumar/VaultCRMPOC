@@ -1,0 +1,6 @@
+Message object_label__v (
+   label(),
+   active(true),
+   default_value('Object Label'),
+   system_managed(false)
+);

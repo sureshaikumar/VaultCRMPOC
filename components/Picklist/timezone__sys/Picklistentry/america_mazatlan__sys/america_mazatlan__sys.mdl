@@ -1,0 +1,5 @@
+Picklistentry america_mazatlan__sys (
+   value('(GMT-07:00) Mountain Standard Time (America/Mazatlan)'),
+   order(27),
+   active(true)
+);

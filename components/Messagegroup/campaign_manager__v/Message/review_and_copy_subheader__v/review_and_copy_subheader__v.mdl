@@ -1,0 +1,6 @@
+Message review_and_copy_subheader__v (
+   label(),
+   active(true),
+   default_value('Confirm the target list updates prior to copying'),
+   system_managed(false)
+);

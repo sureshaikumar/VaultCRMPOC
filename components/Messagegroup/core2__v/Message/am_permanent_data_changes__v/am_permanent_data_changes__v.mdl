@@ -1,0 +1,6 @@
+Message am_permanent_data_changes__v (
+   label(),
+   active(true),
+   default_value('Permanent Data Changes and Losses'),
+   system_managed(false)
+);

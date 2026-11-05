@@ -1,0 +1,6 @@
+Message only_one_territory_root_error__v (
+   label(),
+   active(true),
+   default_value('There can only be one root territory. The current root territory is ${api_name}.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_attendee__sys (
+   value('Attendee'),
+   order(9),
+   active(true),
+   controlling_entries('olc_attendee__sys')
+);

@@ -1,0 +1,6 @@
+Message hcp_information__v (
+   label(),
+   active(true),
+   default_value('HCP Information'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry failed__sys (
+   value('FAILED'),
+   order(1),
+   active(true)
+);

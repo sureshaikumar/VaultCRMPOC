@@ -1,0 +1,6 @@
+Message ctav_warn_dest_extra_fields__v (
+   label(),
+   active(true),
+   default_value('Target Vault CRM object ${object_name} has fields ${fields} which do not exist in the source Vault CRM. These fields will be ignored during copy to another vault.'),
+   system_managed(false)
+);

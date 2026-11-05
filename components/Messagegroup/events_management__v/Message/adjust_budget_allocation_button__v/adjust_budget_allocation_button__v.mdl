@@ -1,0 +1,6 @@
+Message adjust_budget_allocation_button__v (
+   label(),
+   active(true),
+   default_value('Adjust Budget Allocation'),
+   system_managed(false)
+);

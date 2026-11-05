@@ -1,0 +1,6 @@
+Message missing_default_patient_journey_cadence__v (
+   label(),
+   active(true),
+   default_value('Unable to start the Patient Journey because Adherence cadence is missing. Please contact your administrator.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 44500__v (
+   value('Stephenville, TX Micropolitan Statistical Area'),
+   order(837),
+   active(true)
+);

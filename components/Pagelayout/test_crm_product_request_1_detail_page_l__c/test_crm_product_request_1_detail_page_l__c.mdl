@@ -1,0 +1,8 @@
+RECREATE Pagelayout test_crm_product_request_1_detail_page_l__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('test_crm_product_request_1 Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

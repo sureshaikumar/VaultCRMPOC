@@ -1,0 +1,12 @@
+RECREATE Tab patient_center__v (
+   active(true),
+   enable_global_search(true),
+   global_search_placeholder(''),
+   label('Patient Center'),
+   modal_create_record(false),
+   order(5900),
+   page('Page.patient_center__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

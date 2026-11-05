@@ -1,0 +1,6 @@
+Message fax_intake_document_not_available_title__v (
+   label(),
+   active(true),
+   default_value('Selected Fax is no longer available'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry stomach__c (
+   value('Stomach'),
+   order(6),
+   active(true)
+);

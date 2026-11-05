@@ -1,0 +1,6 @@
+Message send__v (
+   label(),
+   active(true),
+   default_value('Send'),
+   system_managed(false)
+);

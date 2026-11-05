@@ -1,0 +1,6 @@
+Picklistentry cl-rm__v (
+   value('Región Metropolitana de Santiago'),
+   order(680),
+   active(true),
+   controlling_entries('cl__v')
+);

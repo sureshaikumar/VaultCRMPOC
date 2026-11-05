@@ -1,0 +1,17 @@
+Field account_exclusivity__v (
+   label('Account Exclusivity'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('This determines whether or not an account can be assigned to multiple territories within the same model field force or not.'),
+   list_column(true),
+   order(8),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

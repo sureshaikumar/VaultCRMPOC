@@ -1,0 +1,6 @@
+Message current_phase_and_step__v (
+   label(),
+   active(true),
+   default_value('Current Phase and Step'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message project_field_force_import_c_hierarchy__v (
+   label(),
+   active(true),
+   default_value('Import this entire hierarchy?'),
+   system_managed(false)
+);

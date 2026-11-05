@@ -1,0 +1,6 @@
+Picklistentry mx-col__v (
+   value('Colima'),
+   order(3247),
+   active(true),
+   controlling_entries('mx__v')
+);

@@ -1,0 +1,5 @@
+Index document_v__sys (
+   description(),
+   fields('document__v'),
+   label('Document')
+);

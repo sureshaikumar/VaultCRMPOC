@@ -1,0 +1,6 @@
+Picklistentry cf-bgf__v (
+   value('Bangui'),
+   order(600),
+   active(true),
+   controlling_entries('cf__v')
+);

@@ -1,0 +1,6 @@
+Message clm_product_account_warning__v (
+   label(),
+   active(true),
+   default_value('This response contains information from presentations for products which are not allowed for ${account_name}: ${product_names}'),
+   system_managed(false)
+);

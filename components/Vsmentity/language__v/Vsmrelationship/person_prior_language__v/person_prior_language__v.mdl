@@ -1,0 +1,13 @@
+Vsmrelationship person_prior_language__v (
+   label('Person Prior Language'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Person prior records where this language was previously assigned, capturing historical language associations for individuals. Useful for auditing language changes over time on person records.'),
+   join_object(),
+   synonyms('prior language persons',
+         'previous language speakers',
+         'historical language assignment'),
+   target('person_prior_language__sysr'),
+   target_label('Prior Persons'),
+   target_object('person_prior__sys')
+);

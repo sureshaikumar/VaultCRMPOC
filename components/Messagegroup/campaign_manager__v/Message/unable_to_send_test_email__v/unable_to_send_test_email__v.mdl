@@ -1,0 +1,6 @@
+Message unable_to_send_test_email__v (
+   label(),
+   active(true),
+   default_value('Unable to Send Test Email'),
+   system_managed(false)
+);

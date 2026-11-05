@@ -1,0 +1,7 @@
+Picklistentry nmare__v (
+   value('Neonatal Medicine and Resuscitation'),
+   order(992),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

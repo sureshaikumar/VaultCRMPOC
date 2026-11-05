@@ -1,0 +1,6 @@
+Message waba_disconnected_contact_admin__v (
+   label(),
+   active(true),
+   default_value('Your WhatsApp Business Account has been disconnected. Please contact your admin.'),
+   system_managed(false)
+);

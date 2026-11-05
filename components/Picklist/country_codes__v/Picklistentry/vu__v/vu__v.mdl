@@ -1,0 +1,5 @@
+Picklistentry vu__v (
+   value('VU'),
+   order(242),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry professor__v (
+   value('Professor'),
+   order(11),
+   active(true)
+);

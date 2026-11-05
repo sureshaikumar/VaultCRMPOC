@@ -1,0 +1,6 @@
+Message number_of_assigned_users__v (
+   label(),
+   active(true),
+   default_value('Number of Assigned Users'),
+   system_managed(false)
+);

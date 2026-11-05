@@ -1,0 +1,5 @@
+Picklistentry usd__sys (
+   value('USD'),
+   order(189),
+   active(true)
+);

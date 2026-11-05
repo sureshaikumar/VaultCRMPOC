@@ -1,0 +1,6 @@
+Picklistentry ss-lk__v (
+   value('Lakes'),
+   order(4257),
+   active(true),
+   controlling_entries('ss__v')
+);

@@ -1,0 +1,9 @@
+RECREATE Mobiletab dashboards__sys (
+   label('Dashboards'),
+   active(true),
+   icon('vv_dashboards'),
+   minimum_app_version(),
+   mobile_label('Dashboards'),
+   order(3),
+   page()
+);

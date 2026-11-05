@@ -1,0 +1,17 @@
+Field mandatory_slides__v (
+   label('Mandatory Slides'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(2500),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

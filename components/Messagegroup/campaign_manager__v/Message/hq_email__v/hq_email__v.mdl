@@ -1,0 +1,6 @@
+Message hq_email__v (
+   label(),
+   active(true),
+   default_value('HQ Email'),
+   system_managed(false)
+);

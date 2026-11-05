@@ -1,0 +1,4 @@
+Typefield aln_days_in_cycle__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field order_create_date__v (
+   label('Order Create Date'),
+   type('Date'),
+   active(true),
+   description('Date on which the order was created.'),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(2),
+   default_value('Today()'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

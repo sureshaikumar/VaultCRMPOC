@@ -1,0 +1,6 @@
+Picklistentry cz-80__v (
+   value('Moravian-Silesian Region'),
+   order(896),
+   active(true),
+   controlling_entries('cz__v')
+);

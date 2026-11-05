@@ -1,0 +1,5 @@
+Picklistentry speaker_program__v (
+   value('Speaker Program'),
+   order(0),
+   active(true)
+);

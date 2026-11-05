@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction pending_state__v.submit_useraction__v (
+   label('Submit'),
+   rule(@rule.xml),
+   order(2000)
+);

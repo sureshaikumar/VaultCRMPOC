@@ -1,0 +1,8 @@
+Picklistentry ogbys__v (
+   value('Obstetrics-Gynecology'),
+   order(1088),
+   active(true),
+   controlling_entries('al__v',
+         'az__v',
+         'ro__v')
+);

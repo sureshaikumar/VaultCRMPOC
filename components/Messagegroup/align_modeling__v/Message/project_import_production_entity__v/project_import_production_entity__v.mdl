@@ -1,0 +1,6 @@
+Message project_import_production_entity__v (
+   label(),
+   active(true),
+   default_value('Import Production {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry dpaee__v (
+   value('Dental Pathology and Endodontics'),
+   order(362),
+   active(true),
+   controlling_entries('ba__v')
+);

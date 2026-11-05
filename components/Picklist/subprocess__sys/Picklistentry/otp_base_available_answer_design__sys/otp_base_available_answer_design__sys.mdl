@@ -1,0 +1,6 @@
+Picklistentry otp_base_available_answer_design__sys (
+   value('Base Available Answer Design'),
+   order(10),
+   active(true),
+   controlling_entries('olc_available_answer_design__sys')
+);

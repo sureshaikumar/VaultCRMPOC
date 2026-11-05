@@ -1,0 +1,6 @@
+Message legend_budget__v (
+   label(),
+   active(true),
+   default_value('Monthly Token Budget'),
+   system_managed(false)
+);

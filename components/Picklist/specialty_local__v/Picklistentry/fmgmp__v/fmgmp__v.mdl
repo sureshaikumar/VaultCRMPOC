@@ -1,0 +1,6 @@
+Picklistentry fmgmp__v (
+   value('Family Medicine (General Medical Practice)'),
+   order(536),
+   active(true),
+   controlling_entries('kg__v')
+);

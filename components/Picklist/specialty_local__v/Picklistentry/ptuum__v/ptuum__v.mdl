@@ -1,0 +1,6 @@
+Picklistentry ptuum__v (
+   value('Pulmonology / Tuberculosis'),
+   order(1651),
+   active(true),
+   controlling_entries('cy__v')
+);

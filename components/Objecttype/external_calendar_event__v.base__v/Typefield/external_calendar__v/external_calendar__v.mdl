@@ -1,0 +1,4 @@
+Typefield external_calendar__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,6 @@
+Message unable_to_deactivate__v (
+   label(),
+   active(true),
+   default_value('Unable to deactivate ${target_list_name} because 1 target is Scheduled.'),
+   system_managed(false)
+);

@@ -1,0 +1,23 @@
+Field prediction_confidence_threshold__sys (
+   label('Prediction Confidence Threshold'),
+   type('Number'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_value(0.9999),
+   min_value(0.0001),
+   scale(4),
+   help_content('Once this model is deployed, a prediction will only be used if the machine learning confidence in that prediction is above this number. '),
+   list_column(true),
+   order(18),
+   default_value('0.85'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

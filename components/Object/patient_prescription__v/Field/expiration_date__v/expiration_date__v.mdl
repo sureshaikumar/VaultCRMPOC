@@ -1,0 +1,17 @@
+Field expiration_date__v (
+   label('Expiration Date'),
+   type('Date'),
+   active(true),
+   description('The final date after which the pharmacy is legally prohibited from dispensing or refilling the prescription, typically set by state law at one year from the date the prescription was written.'),
+   required(false),
+   help_content(),
+   list_column(true),
+   order(27),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

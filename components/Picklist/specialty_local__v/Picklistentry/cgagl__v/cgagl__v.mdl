@@ -1,0 +1,6 @@
+Picklistentry cgagl__v (
+   value('Clinical Genetics and Genomics'),
+   order(224),
+   active(true),
+   controlling_entries('ke__v')
+);

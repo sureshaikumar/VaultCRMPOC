@@ -1,0 +1,5 @@
+Picklistentry tzh (
+   value('Tzeltal'),
+   order(363),
+   active(true)
+);

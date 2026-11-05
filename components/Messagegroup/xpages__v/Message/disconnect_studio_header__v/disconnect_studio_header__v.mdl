@@ -1,0 +1,6 @@
+Message disconnect_studio_header__v (
+   label(),
+   active(true),
+   default_value('Disconnect Studio?'),
+   system_managed(false)
+);

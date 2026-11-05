@@ -1,0 +1,6 @@
+Message cycle_utilization_days_in_cycle__v (
+   label(),
+   active(true),
+   default_value('Days in Cycle'),
+   system_managed(false)
+);

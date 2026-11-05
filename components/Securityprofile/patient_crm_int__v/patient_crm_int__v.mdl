@@ -1,0 +1,6 @@
+RECREATE Securityprofile patient_crm_int__v (
+   label('Patient CRM Integration'),
+   active(true),
+   description(),
+   permission_sets('patient_crm_integration__v')
+);

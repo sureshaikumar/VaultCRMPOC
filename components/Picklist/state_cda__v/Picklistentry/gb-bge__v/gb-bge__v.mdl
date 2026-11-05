@@ -1,0 +1,6 @@
+Picklistentry gb-bge__v (
+   value('Bridgend'),
+   order(1464),
+   active(true),
+   controlling_entries('gb__v')
+);

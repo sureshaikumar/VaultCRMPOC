@@ -1,0 +1,18 @@
+Field no_homepage__v (
+   label('Do Not Display on Homepage'),
+   type('Boolean'),
+   active(true),
+   description('When set to True, Suggestion will not display on the Homepage view. It will only display on the Account Overview Timeline panel.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(30),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

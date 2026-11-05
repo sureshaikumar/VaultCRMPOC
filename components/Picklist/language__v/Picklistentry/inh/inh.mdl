@@ -1,0 +1,5 @@
+Picklistentry inh (
+   value('Ingush'),
+   order(204),
+   active(true)
+);

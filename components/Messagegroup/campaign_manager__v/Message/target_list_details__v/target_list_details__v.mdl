@@ -1,0 +1,6 @@
+Message target_list_details__v (
+   label(),
+   active(true),
+   default_value('Target List Details'),
+   system_managed(false)
+);

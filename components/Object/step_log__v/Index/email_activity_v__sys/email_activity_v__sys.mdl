@@ -1,0 +1,5 @@
+Index email_activity_v__sys (
+   description(),
+   fields('email_activity__v'),
+   label('Email Activity')
+);

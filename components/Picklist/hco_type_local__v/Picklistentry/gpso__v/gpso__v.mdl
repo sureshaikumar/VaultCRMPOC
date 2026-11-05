@@ -1,0 +1,5 @@
+Picklistentry gpso__v (
+   value('Group Practice (Shared Office)'),
+   order(80),
+   active(true)
+);

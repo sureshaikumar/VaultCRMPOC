@@ -1,0 +1,4 @@
+Typefield dpv_confirmed_indicator__v (
+   source('standard'),
+   required(false)
+);

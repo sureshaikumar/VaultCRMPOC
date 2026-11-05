@@ -1,0 +1,5 @@
+Picklistentry fully_aware__c (
+   value('Fully Aware'),
+   order(0),
+   active(true)
+);

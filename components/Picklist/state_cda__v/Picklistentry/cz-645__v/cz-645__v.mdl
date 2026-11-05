@@ -1,0 +1,6 @@
+Picklistentry cz-645__v (
+   value('Hodonín'),
+   order(882),
+   active(true),
+   controlling_entries('cz__v')
+);

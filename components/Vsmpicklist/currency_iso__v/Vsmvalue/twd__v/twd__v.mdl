@@ -1,0 +1,10 @@
+Vsmvalue twd__v (
+   label('TWD'),
+   active(true),
+   description('Applies when transactions are denominated in the New Taiwan Dollar, the official currency of Taiwan.'),
+   synonyms('New Taiwan dollar',
+         'Taiwan currency',
+         'NT dollar'),
+   target('twd__sys'),
+   target_label('TWD')
+);

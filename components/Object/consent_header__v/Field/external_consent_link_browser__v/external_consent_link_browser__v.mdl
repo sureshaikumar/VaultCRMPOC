@@ -1,0 +1,19 @@
+Field external_consent_link_browser__v (
+   label('External Consent Link (Browser)'),
+   type('String'),
+   active(true),
+   description('This field is used to contain the external consent tool link, where tokens can be used to generate the link'),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

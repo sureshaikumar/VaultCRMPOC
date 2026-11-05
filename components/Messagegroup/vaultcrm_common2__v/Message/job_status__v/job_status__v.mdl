@@ -1,0 +1,6 @@
+Message job_status__v (
+   label(),
+   active(true),
+   default_value('Job Status'),
+   system_managed(false)
+);

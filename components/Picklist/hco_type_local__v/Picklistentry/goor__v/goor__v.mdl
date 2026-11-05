@@ -1,0 +1,5 @@
+Picklistentry goor__v (
+   value('Government Organization'),
+   order(72),
+   active(true)
+);

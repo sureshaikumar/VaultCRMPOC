@@ -1,0 +1,7 @@
+RECREATE Accountmessage email_address_changed__v (
+   label('emailAddressChanged'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Your Veeva Vault email address has been changed')
+);

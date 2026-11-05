@@ -1,0 +1,6 @@
+Picklistentry otp_base_checklist__sys (
+   value('Base Checklist'),
+   order(11),
+   active(true),
+   controlling_entries('olc_checklist__sys')
+);

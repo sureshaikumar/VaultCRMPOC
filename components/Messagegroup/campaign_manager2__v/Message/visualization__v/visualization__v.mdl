@@ -1,0 +1,6 @@
+Message visualization__v (
+   label(),
+   active(true),
+   default_value('Visualization'),
+   system_managed(false)
+);

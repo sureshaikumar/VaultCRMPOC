@@ -1,0 +1,3 @@
+Typeaction save__v (
+   action('survey_target__v.save__v')
+);

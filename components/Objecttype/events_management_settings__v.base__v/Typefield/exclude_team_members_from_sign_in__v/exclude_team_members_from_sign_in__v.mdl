@@ -1,0 +1,4 @@
+Typefield exclude_team_members_from_sign_in__v (
+   source('standard'),
+   required(false)
+);

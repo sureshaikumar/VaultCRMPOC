@@ -1,0 +1,6 @@
+Message scheduling_error_field_review_enabled__v (
+   label(),
+   active(true),
+   default_value('Campaign must be scheduled at least one hour in advance when Field Review is enabled'),
+   system_managed(false)
+);

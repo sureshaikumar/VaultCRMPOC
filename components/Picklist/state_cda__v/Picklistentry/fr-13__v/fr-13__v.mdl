@@ -1,0 +1,6 @@
+Picklistentry fr-13__v (
+   value('Bouches-du-Rhône'),
+   order(1327),
+   active(true),
+   controlling_entries('fr__v')
+);

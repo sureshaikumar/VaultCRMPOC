@@ -1,0 +1,6 @@
+Picklistentry cz-53__v (
+   value('Pardubice Region'),
+   order(866),
+   active(true),
+   controlling_entries('cz__v')
+);

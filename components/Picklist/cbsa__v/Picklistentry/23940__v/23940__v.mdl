@@ -1,0 +1,5 @@
+Picklistentry 23940__v (
+   value('Gillette, WY Micropolitan Statistical Area'),
+   order(380),
+   active(true)
+);

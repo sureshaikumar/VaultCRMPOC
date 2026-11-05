@@ -1,0 +1,4 @@
+Typefield ship_address_line_1__v (
+   source('standard'),
+   required(false)
+);

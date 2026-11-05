@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate teams_creation_success__v (
+   label('Teams Creation Success'),
+   active(true),
+   description('Notifies the user when a Team has successfully been created in Microsoft via the Create Team action.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.collaboration_space_configuration__v'),
+   subject('Team successfully created in Microsoft'),
+   notification('"${Custom.team_name}" was successfully created in Microsoft.'),
+   email_body('"${Custom.team_name}" was successfully created in Microsoft. Channels can now be created in this Team.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

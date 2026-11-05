@@ -1,0 +1,9 @@
+RECREATE Picklist survey_status__v (
+   label('Survey Status'),
+   active(true),
+   Picklistentry(@Picklistentry/development__v.mdl),
+   Picklistentry(@Picklistentry/publishing__v.mdl),
+   Picklistentry(@Picklistentry/published__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

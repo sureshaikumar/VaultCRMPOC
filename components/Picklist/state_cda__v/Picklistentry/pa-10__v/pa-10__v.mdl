@@ -1,0 +1,6 @@
+Picklistentry pa-10__v (
+   value('Panamá Oeste'),
+   order(3455),
+   active(true),
+   controlling_entries('pa__v')
+);

@@ -1,0 +1,19 @@
+Field email_from_address__v (
+   label('From Address'),
+   type('String'),
+   active(true),
+   description('''From'' email address that will be used in the Vault Email Template. Will either be set to a constant value or using the {{userEmailAddress}} markup token can be set dynamically to the end user''s email address.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

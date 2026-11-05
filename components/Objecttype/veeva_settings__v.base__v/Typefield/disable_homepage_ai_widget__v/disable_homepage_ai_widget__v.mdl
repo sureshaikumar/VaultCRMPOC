@@ -1,0 +1,4 @@
+Typefield disable_homepage_ai_widget__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_belize__sys (
+   value('(GMT-06:00) Central Standard Time (America/Belize)'),
+   order(31),
+   active(true)
+);

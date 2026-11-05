@@ -1,0 +1,5 @@
+Picklistentry europe_istanbul__v (
+   value('Eastern European Time (Istanbul)'),
+   order(41),
+   active(true)
+);

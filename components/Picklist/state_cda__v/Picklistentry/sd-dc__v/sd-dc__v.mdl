@@ -1,0 +1,6 @@
+Picklistentry sd-dc__v (
+   value('Central Darfur'),
+   order(3928),
+   active(true),
+   controlling_entries('sd__v')
+);

@@ -1,0 +1,18 @@
+Field track_changes__v (
+   label('Track Changes'),
+   type('Boolean'),
+   active(true),
+   description('If enabled, each modification made to the dynamic attribute value by the end-user will create a new record in the Dynamic_Attribute_vod object. If the checkbox is disabled, the one (or most recent) Dynamic_Attribute_vod record will continuously be updated'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(22),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

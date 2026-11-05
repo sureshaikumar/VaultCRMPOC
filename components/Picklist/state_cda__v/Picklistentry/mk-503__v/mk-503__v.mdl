@@ -1,0 +1,6 @@
+Picklistentry mk-503__v (
+   value('Dolneni'),
+   order(3005),
+   active(true),
+   controlling_entries('mk__v')
+);

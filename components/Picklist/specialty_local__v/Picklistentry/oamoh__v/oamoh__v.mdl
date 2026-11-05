@@ -1,0 +1,6 @@
+Picklistentry oamoh__v (
+   value('Organization and Management of Healthcare'),
+   order(1183),
+   active(true),
+   controlling_entries('ua__v')
+);

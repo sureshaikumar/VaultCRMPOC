@@ -1,0 +1,19 @@
+Field entity_reference_id__v (
+   label('Entity Reference Id'),
+   type('String'),
+   active(true),
+   description('For Internal Use Only'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(64),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

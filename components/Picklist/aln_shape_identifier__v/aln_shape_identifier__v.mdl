@@ -1,0 +1,8 @@
+RECREATE Picklist aln_shape_identifier__v (
+   label('Shape Identifier'),
+   active(true),
+   Picklistentry(@Picklistentry/brick__v.mdl),
+   Picklistentry(@Picklistentry/postal_code__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

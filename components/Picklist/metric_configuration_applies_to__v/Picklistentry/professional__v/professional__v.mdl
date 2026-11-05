@@ -1,0 +1,5 @@
+Picklistentry professional__v (
+   value('Professional'),
+   order(19),
+   active(true)
+);

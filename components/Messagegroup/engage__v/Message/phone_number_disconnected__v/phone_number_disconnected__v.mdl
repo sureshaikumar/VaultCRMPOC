@@ -1,0 +1,6 @@
+Message phone_number_disconnected__v (
+   label(),
+   active(true),
+   default_value('This phone number has been disconnected from this Vault.'),
+   system_managed(false)
+);

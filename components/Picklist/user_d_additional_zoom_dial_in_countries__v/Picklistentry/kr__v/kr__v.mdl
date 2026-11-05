@@ -1,0 +1,5 @@
+Picklistentry kr__v (
+   value('KR'),
+   order(61),
+   active(true)
+);

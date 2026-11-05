@@ -1,0 +1,6 @@
+Picklistentry mw-kr__v (
+   value('Karonga'),
+   order(3216),
+   active(true),
+   controlling_entries('mw__v')
+);

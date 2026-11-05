@@ -1,0 +1,5 @@
+Picklistentry hit__v (
+   value('Hittite'),
+   order(131),
+   active(false)
+);

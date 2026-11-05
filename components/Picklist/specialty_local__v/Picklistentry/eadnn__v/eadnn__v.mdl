@@ -1,0 +1,13 @@
+Picklistentry eadnn__v (
+   value('Endocrinology and Diabetology'),
+   order(499),
+   active(true),
+   controlling_entries('ba__v',
+         'be__v',
+         'ch__v',
+         'cz__v',
+         'hr__v',
+         'li__v',
+         'lu__v',
+         'se__v')
+);

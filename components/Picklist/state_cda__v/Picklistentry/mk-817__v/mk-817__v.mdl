@@ -1,0 +1,6 @@
+Picklistentry mk-817__v (
+   value('Šuto Orizari †'),
+   order(3043),
+   active(true),
+   controlling_entries('mk__v')
+);

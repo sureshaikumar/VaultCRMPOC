@@ -1,0 +1,3 @@
+Typeaction create_team__v (
+   action('collaboration_space_configuration__v.create_team__v')
+);

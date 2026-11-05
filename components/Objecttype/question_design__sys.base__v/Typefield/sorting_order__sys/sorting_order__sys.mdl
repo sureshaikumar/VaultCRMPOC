@@ -1,0 +1,4 @@
+Typefield sorting_order__sys (
+   source('standard'),
+   required(false)
+);

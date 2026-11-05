@@ -1,0 +1,4 @@
+Typefield deleted_in_source__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ro-ag__v (
+   value('Argeș'),
+   order(3717),
+   active(true),
+   controlling_entries('ro__v')
+);

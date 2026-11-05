@@ -1,0 +1,6 @@
+Message filter_is_in_the_next__v (
+   label(),
+   active(true),
+   default_value('is in the next'),
+   system_managed(false)
+);

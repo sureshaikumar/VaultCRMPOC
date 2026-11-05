@@ -1,0 +1,6 @@
+Picklistentry sa-11__v (
+   value('Al Bāḩah'),
+   order(3888),
+   active(true),
+   controlling_entries('sa__v')
+);

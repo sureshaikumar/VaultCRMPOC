@@ -1,0 +1,6 @@
+Message in_progress_phase__v (
+   label(),
+   active(true),
+   default_value('In Progress Phase'),
+   system_managed(false)
+);

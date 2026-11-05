@@ -1,0 +1,5 @@
+Picklistentry zoom_join_url__v (
+   value('Zoom Join URL'),
+   order(8),
+   active(true)
+);

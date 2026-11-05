@@ -1,0 +1,6 @@
+Message error_unable_to_schedule_or_send__v (
+   label(),
+   active(true),
+   default_value('Unable to schedule or send a Campaign due to the following error(s):'),
+   system_managed(false)
+);

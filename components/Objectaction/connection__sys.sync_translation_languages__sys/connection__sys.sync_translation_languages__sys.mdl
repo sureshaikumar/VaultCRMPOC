@@ -1,0 +1,8 @@
+RECREATE Objectaction connection__sys.sync_translation_languages__sys (
+   label('Sync Supported Translation Languages'),
+   description('Refreshes the supported translation languages picklist from the connection provider.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.filetranslation.SyncTranslationLanguages'),
+   active(true),
+   available_all_states(true)
+);

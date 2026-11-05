@@ -1,0 +1,5 @@
+Picklistentry voicemail__v (
+   value('Voicemail'),
+   order(1),
+   active(true)
+);

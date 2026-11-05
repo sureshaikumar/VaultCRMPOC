@@ -1,0 +1,6 @@
+Picklistentry ua-48__v (
+   value('Mykolaivska oblast'),
+   order(4631),
+   active(true),
+   controlling_entries('ua__v')
+);

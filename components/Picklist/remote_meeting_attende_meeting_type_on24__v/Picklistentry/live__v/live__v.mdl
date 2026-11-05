@@ -1,0 +1,5 @@
+Picklistentry live__v (
+   value('Live'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry knj__v (
+   value('Q’anjob’al'),
+   order(365),
+   active(false)
+);

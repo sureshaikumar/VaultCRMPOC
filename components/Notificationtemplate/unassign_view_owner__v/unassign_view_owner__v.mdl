@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate unassign_view_owner__v (
+   label('Unassign View Owner'),
+   active(true),
+   description('Notifies a user when they are no longer a view''s owner.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('New owner assigned to the view ${Custom.viewName}'),
+   notification('An Administrator has assigned a new owner to the view <a href="${Custom.viewUrl}">${Custom.viewName}</a>. Since you are no longer the owner, this view will not be visible in your list of views unless you belong to a group it was previously shared with.'),
+   email_body('An Administrator has assigned a new owner to the view <a href="${Custom.viewUrl}">${Custom.viewName}</a>. Since you are no longer the owner, this view will not be visible in your list of views unless you belong to a group it was previously shared with.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry uz-qr__v (
+   value('Qoraqalpog‘iston Respublikasi'),
+   order(4874),
+   active(true),
+   controlling_entries('uz__v')
+);

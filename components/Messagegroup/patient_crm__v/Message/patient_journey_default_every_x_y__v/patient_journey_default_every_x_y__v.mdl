@@ -1,0 +1,6 @@
+Message patient_journey_default_every_x_y__v (
+   label(),
+   active(true),
+   default_value('${patientJourney} default: Every ${x} ${y}'),
+   system_managed(false)
+);

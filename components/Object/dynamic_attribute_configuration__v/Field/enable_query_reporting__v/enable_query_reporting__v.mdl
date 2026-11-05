@@ -1,0 +1,18 @@
+Field enable_query_reporting__v (
+   label('Enable for Query and Reporting'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Creates a custom field corresponding to this Dynamic Attribute on Dynamic Attribute Query and populates the current Dynamic Attribute value. Enables the Dynamic Attribute for use in My Accounts Views.'),
+   list_column(false),
+   order(27),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

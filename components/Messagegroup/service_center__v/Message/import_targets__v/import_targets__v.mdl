@@ -1,0 +1,6 @@
+Message import_targets__v (
+   label(),
+   active(true),
+   default_value('Import Targets'),
+   system_managed(false)
+);

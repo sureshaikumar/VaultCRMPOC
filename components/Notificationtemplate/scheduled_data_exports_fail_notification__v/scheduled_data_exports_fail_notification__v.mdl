@@ -1,0 +1,34 @@
+RECREATE Notificationtemplate scheduled_data_exports_fail_notification__v (
+   label('Scheduled Data Exports Fail Notification'),
+   active(true),
+   description('Scheduled Data Exports Job Fail Notification Template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Your Scheduled Data Exports Job has ${jobResult}'),
+   notification('
+        <p>Your <a href="${urlExportResults}">Scheduled Data Exports</a> Job has ${jobResult}</p>
+        <p>Details: ${detailMessage}</p>
+        <ul>
+            <li>Export Start Time: ${startTime}</li>
+            <li>Duration: ${duration}</li>
+            <li>Job ID: ${jobId}</li>
+            <li>Number of Entities Exported: ${entitiesExported}</li>
+            <li>Number of Entities Failed to Export: ${entitiesFailed}</li>
+            <li>Scheduled Data Exports: <a href="${urlExportResults}">Exported data</a></li>
+        </ul>
+   '),
+   email_body('
+        <p>Your Scheduled Data Exports Job has ${jobResult}</p>
+        <p>Details: ${detailMessage}</p>
+        <ul>
+            <li>Export Start Time: ${startTime}</li>
+            <li>Duration: ${duration}</li>
+            <li>Job ID: ${jobId}</li>
+            <li>Number of Entities Exported: ${entitiesExported}</li>
+            <li>Number of Entities Failed to Export: ${entitiesFailed}</li>
+            <li>Scheduled Data Exports: <a href="${urlExportResults}">Exported data</a></li>
+        </ul>
+   '),
+   entity_type('document'),
+   notification_category('none__sys')
+);

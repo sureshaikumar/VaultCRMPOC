@@ -1,0 +1,6 @@
+Picklistentry ug-429__v (
+   value('Rubanda'),
+   order(4771),
+   active(true),
+   controlling_entries('ug__v')
+);

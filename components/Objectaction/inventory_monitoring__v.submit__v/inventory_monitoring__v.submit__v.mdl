@@ -1,0 +1,8 @@
+RECREATE Objectaction inventory_monitoring__v.submit__v (
+   label('Submit'),
+   description('Submits the inventory monitoring'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.inventorymonitoring.actions.InventoryMonitoringSubmitAction'),
+   active(true),
+   available_all_states(false)
+);

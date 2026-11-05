@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate enable_checklisttype_versioning_failure__v (
+   label('Enable ChecklistType Versioning Error'),
+   active(true),
+   description('Notifies user that enabling versioning on that checklist type has failed.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Enable Checklist Design Versioning on ${checklisttype_record_label__sys} Failed'),
+   notification('<p>Enable Checklist Design Versioning on the <a href="${urlChecklistType}">${checklisttype_record_label__sys}</a> failed. ${checklisttype_creation_error_message__sys}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

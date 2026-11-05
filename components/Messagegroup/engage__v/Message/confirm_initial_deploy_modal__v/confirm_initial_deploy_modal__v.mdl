@@ -1,0 +1,6 @@
+Message confirm_initial_deploy_modal__v (
+   label(),
+   active(true),
+   default_value('Once deployed, the URL Path “${url_path_value}” cannot be changed. It will be limited to this Portal unless the Portal deactivated and deleted.'),
+   system_managed(false)
+);

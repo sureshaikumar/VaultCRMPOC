@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <expression operator="in" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+            <value>Object.survey__v.object_type__v</value>
+        </expression>
+        <expression operator="value" type="string">
+            <value>One Time</value>
+        </expression>
+        <expression operator="value" type="string">
+            <value>Recurring</value>
+        </expression>
+        <expression operator="value" type="string">
+            <value>User Survey</value>
+        </expression>
+    </expression>
+    <actions>
+        <action type="Objectaction.survey__v.publish_to_new_targets__v">
+            <lcActionLabelXmlIdentifier>Publish To New Targets</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

@@ -1,0 +1,4 @@
+Typefield receipt_email__v (
+   source('custom'),
+   required(false)
+);

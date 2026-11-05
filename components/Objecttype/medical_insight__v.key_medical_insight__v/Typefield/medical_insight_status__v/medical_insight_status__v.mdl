@@ -1,0 +1,6 @@
+Typefield medical_insight_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_insight_status__v.saved__v',
+         'Picklist.medical_insight_status__v.submitted__v')
+);

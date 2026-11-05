@@ -1,0 +1,6 @@
+Picklistentry gb-wft__v (
+   value('Waltham Forest'),
+   order(1649),
+   active(true),
+   controlling_entries('gb__v')
+);

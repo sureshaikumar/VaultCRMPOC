@@ -1,0 +1,9 @@
+RECREATE Matchingrule test_country_matching_rule__c (
+   label('test country matching rule'),
+   active(true),
+   description(),
+   object('Object.test_object__c'),
+   role('Applicationrole.editor__v'),
+   user_role_fields('Field.country__c'),
+   data_fields('Field.country__c')
+);

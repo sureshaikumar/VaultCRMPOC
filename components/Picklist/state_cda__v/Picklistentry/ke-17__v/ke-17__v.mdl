@@ -1,0 +1,6 @@
+Picklistentry ke-17__v (
+   value('Kisumu'),
+   order(2370),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry challenged__v (
+   value('Challenged'),
+   order(0),
+   active(true)
+);

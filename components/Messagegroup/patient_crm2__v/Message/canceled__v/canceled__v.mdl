@@ -1,0 +1,6 @@
+Message canceled__v (
+   label(),
+   active(true),
+   default_value('Canceled'),
+   system_managed(false)
+);

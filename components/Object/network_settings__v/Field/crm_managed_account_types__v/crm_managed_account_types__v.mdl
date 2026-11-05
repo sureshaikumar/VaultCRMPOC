@@ -1,0 +1,20 @@
+Field crm_managed_account_types__v (
+   label('CRM Managed Account Types'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('All Account Record Types included in this setting are managed locally in CRM'),
+   list_column(false),
+   order(13),
+   default_value('"CRM_MANAGED_ACCOUNT_TYPES;;NETWORK"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

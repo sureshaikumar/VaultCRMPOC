@@ -1,0 +1,6 @@
+Message all_emails_expired__v (
+   label(),
+   active(true),
+   default_value('All Emails Expired'),
+   system_managed(false)
+);

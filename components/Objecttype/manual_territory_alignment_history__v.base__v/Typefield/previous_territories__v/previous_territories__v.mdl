@@ -1,0 +1,4 @@
+Typefield previous_territories__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry fj-w__v (
+   value('Western'),
+   order(1310),
+   active(true),
+   controlling_entries('fj__v')
+);

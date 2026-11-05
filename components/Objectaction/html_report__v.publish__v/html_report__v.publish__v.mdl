@@ -1,0 +1,8 @@
+RECREATE Objectaction html_report__v.publish__v (
+   label('Publish'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.myinsights.actions.MyInsightsPublishAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout question_design_reference_document_detai__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Question Design Reference Document Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

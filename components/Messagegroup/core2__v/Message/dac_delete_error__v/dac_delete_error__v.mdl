@@ -1,0 +1,6 @@
+Message dac_delete_error__v (
+   label(),
+   active(true),
+   default_value('Query and Reporting is currently enabled. Please disable it before deleting this Dynamic Attribute Configuration.'),
+   system_managed(false)
+);

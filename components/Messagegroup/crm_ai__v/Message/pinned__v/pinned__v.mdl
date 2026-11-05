@@ -1,0 +1,6 @@
+Message pinned__v (
+   label(),
+   active(true),
+   default_value('Pinned'),
+   system_managed(false)
+);

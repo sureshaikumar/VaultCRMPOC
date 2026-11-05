@@ -1,0 +1,15 @@
+Vsmfield performed_by_user__v (
+   label('User'),
+   active(true),
+   description('Reference to the Vault user who performed the glossary search or lookup that generated this event. Use this to analyze glossary usage by individual users, teams, or roles.'),
+   example_values(),
+   synonyms('user',
+         'searched by',
+         'who searched',
+         'requester',
+         'actor'),
+   target('performed_by_user__sys'),
+   target_label('User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

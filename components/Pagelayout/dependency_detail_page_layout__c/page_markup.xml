@@ -1,0 +1,19 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.dependency__sys.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="behavior__sys" />
+            <vault:field reference="checklist__sys" />
+            <vault:field reference="controlling_question__sys" />
+            <vault:field reference="dependent_question__sys" />
+            <vault:field reference="answer__sys" />
+            <vault:field reference="dependent_section__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

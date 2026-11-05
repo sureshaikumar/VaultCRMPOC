@@ -1,0 +1,8 @@
+RECREATE Picklist medical_event_cobrowse_session_status__v (
+   label('CoBrowse Session Status'),
+   active(true),
+   Picklistentry(@Picklistentry/scheduled__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

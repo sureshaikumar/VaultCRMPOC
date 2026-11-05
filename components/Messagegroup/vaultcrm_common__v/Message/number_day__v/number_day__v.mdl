@@ -1,0 +1,6 @@
+Message number_day__v (
+   label(),
+   active(true),
+   default_value('${number} Day'),
+   system_managed(false)
+);

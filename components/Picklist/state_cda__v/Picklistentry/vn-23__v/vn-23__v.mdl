@@ -1,0 +1,6 @@
+Picklistentry vn-23__v (
+   value('Hà Tĩnh'),
+   order(4926),
+   active(true),
+   controlling_entries('vn__v')
+);

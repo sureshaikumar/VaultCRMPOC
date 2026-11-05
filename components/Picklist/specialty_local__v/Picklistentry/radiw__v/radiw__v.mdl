@@ -1,0 +1,9 @@
+Picklistentry radiw__v (
+   value('Radiopharmacy'),
+   order(1703),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v',
+         'hu__v',
+         'pl__v')
+);

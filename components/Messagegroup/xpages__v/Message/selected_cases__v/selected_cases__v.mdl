@@ -1,0 +1,6 @@
+Message selected_cases__v (
+   label(),
+   active(true),
+   default_value('${selected_state} ${selected_queue} Cases'),
+   system_managed(false)
+);

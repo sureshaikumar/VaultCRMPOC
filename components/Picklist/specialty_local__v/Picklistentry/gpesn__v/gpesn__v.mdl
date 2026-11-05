@@ -1,0 +1,6 @@
+Picklistentry gpesn__v (
+   value('General Psychiatry'),
+   order(612),
+   active(true),
+   controlling_entries('gb__v')
+);

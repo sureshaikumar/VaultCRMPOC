@@ -1,0 +1,6 @@
+Picklistentry tz-11__v (
+   value('Kusini Unguja'),
+   order(4595),
+   active(true),
+   controlling_entries('tz__v')
+);

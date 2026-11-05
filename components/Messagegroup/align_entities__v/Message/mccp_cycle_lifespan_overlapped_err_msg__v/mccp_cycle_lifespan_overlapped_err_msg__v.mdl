@@ -1,0 +1,6 @@
+Message mccp_cycle_lifespan_overlapped_err_msg__v (
+   label(),
+   active(true),
+   default_value('The MC Cycle {0}''s lifespan (from {1} to {2}) overlaps with another MC Cycle {3}''s lifespan (from {4} to {5}).'),
+   system_managed(false)
+);

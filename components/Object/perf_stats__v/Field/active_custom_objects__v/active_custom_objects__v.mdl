@@ -1,0 +1,22 @@
+Field active_custom_objects__v (
+   label('Active Custom Objects'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(2147483647),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(85),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

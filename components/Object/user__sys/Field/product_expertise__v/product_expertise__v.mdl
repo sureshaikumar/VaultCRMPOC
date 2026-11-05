@@ -1,0 +1,18 @@
+Field product_expertise__v (
+   label('Product Expertise'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates which products a specialist is authorized to discuss. Picklist values are product names and/or topics.'),
+   list_column(false),
+   order(144),
+   multi_value(true),
+   picklist('Picklist.user_product_expertise__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

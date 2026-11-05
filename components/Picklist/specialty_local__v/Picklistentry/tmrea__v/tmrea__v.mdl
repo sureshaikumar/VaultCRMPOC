@@ -1,0 +1,18 @@
+Picklistentry tmrea__v (
+   value('Transfusion Medicine'),
+   order(1854),
+   active(true),
+   controlling_entries('ae__v',
+         'al__v',
+         'at__v',
+         'ba__v',
+         'de__v',
+         'hr__v',
+         'hu__v',
+         'me__v',
+         'mk__v',
+         'my__v',
+         'rs__v',
+         'si__v',
+         'th__v')
+);

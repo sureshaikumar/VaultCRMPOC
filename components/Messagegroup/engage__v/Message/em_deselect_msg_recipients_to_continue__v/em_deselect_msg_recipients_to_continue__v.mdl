@@ -1,0 +1,6 @@
+Message em_deselect_msg_recipients_to_continue__v (
+   label(),
+   active(true),
+   default_value('A maximum of ${message_recipients_limit} recipients can be selected to send a message. Deselect recipients to continue.'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+Field disable_related_list_new_button__v (
+   label('DISABLE RELATED LIST NEW BUTTON'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Default value: DISABLE_RELATED_LIST_NEW_BUTTON;;Common'),
+   list_column(false),
+   order(97),
+   default_value('"DISABLE_RELATED_LIST_NEW_BUTTON;;Common"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

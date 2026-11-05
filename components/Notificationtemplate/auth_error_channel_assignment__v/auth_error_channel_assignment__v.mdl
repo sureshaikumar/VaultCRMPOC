@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate auth_error_channel_assignment__v (
+   label('Channel Assignment Auth Error'),
+   active(true),
+   description('Notifies the user when an Email Channel Assignment encounters an authentication error'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.channel_assignment__v'),
+   subject('Error: Email Inbox Authentication Error'),
+   notification('An email inbox error has occurred. <br/>Details:<br/><ul><li>Email Inbox Name: ${Object.name__v}</li><li>Status Message: Email Inbox Authentication Error. Check for proper Microsoft and Service Center configurations and Microsoft Authentication credentials.</li><li>Modified Date: ${Object.modified_date__v}</li></ul>'),
+   email_body('An email inbox error has occurred. <br/>Details:<br/><ul><li>Email Inbox Name: ${Object.name__v}</li><li>Status Message: Email Inbox Authentication Error. Check for proper Microsoft and Service Center configurations and Microsoft Authentication credentials.</li><li>Modified Date: ${Object.modified_date__v}</li></ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

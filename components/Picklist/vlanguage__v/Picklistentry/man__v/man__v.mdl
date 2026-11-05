@@ -1,0 +1,5 @@
+Picklistentry man__v (
+   value('Mandingo'),
+   order(211),
+   active(false)
+);

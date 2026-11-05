@@ -1,0 +1,6 @@
+Picklistentry do-42__v (
+   value('Yuma'),
+   order(981),
+   active(true),
+   controlling_entries('do__v')
+);

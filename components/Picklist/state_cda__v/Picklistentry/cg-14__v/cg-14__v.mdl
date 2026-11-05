@@ -1,0 +1,6 @@
+Picklistentry cg-14__v (
+   value('Plateaux'),
+   order(618),
+   active(true),
+   controlling_entries('cg__v')
+);

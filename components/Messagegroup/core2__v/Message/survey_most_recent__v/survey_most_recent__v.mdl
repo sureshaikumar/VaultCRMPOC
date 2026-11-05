@@ -1,0 +1,6 @@
+Message survey_most_recent__v (
+   label(),
+   active(true),
+   default_value('Most Recent'),
+   system_managed(false)
+);

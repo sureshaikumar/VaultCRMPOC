@@ -1,0 +1,18 @@
+Field position__v (
+   label('Position'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Position event attendee held at the event'),
+   list_column(false),
+   order(29),
+   multi_value(false),
+   picklist('Picklist.event_attendee_position__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

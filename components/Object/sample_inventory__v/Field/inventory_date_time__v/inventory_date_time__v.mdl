@@ -1,0 +1,17 @@
+Field inventory_date_time__v (
+   label('Inventory Date Time'),
+   type('DateTime'),
+   active(true),
+   description('The User entered Date and time that the Inventory count occured.  This is the effective date of the Sample Inventory counts.'),
+   required(false),
+   help_content(),
+   list_column(true),
+   order(3),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

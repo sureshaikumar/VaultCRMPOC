@@ -1,0 +1,6 @@
+Message mccp_feedback_geography__v (
+   label(),
+   active(true),
+   default_value('Geography'),
+   system_managed(false)
+);

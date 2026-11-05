@@ -1,0 +1,5 @@
+Picklistentry meeting_started_with_attendees__v (
+   value('Meeting With Attendees'),
+   order(4),
+   active(true)
+);

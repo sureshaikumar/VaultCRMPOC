@@ -1,0 +1,5 @@
+Picklistentry 24900__v (
+   value('Greenwood, MS Micropolitan Statistical Area'),
+   order(549),
+   active(true)
+);

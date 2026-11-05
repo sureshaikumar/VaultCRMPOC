@@ -1,0 +1,5 @@
+Picklistentry member__v (
+   value('Member'),
+   order(1),
+   active(true)
+);

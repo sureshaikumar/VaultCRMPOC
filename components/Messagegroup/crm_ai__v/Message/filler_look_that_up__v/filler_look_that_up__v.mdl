@@ -1,0 +1,6 @@
+Message filler_look_that_up__v (
+   label(),
+   active(true),
+   default_value('Let me look that up...'),
+   system_managed(false)
+);

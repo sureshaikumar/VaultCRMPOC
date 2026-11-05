@@ -1,0 +1,6 @@
+Message import_object__v (
+   label(),
+   active(true),
+   default_value('Object*'),
+   system_managed(false)
+);

@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.edl_item__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="edl__v" />
+            <vault:field reference="doc_type_details__v" />
+            <vault:field reference="steady_state_doc_count__v" />
+            <vault:field reference="all_doc_count__v" />
+            <vault:field reference="expected_steady_state_count__v" />
+            <vault:field reference="completeness__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="source_edl_template__v" />
+            <vault:field reference="source_edl_item_template__v" />
+            <vault:field reference="matching_fields__v" />
+            <vault:field reference="batch_update__v" />
+            <vault:field reference="edl_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Matched Documents" name="matched_documents__v">
+        <vault:edlItemMatchedDocuments>
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="subtype__v" width="200px" />
+            <vault:field reference="classification__v" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+            <vault:field reference="major_version_number__v" width="199px" />
+            <vault:field reference="minor_version_number__v" width="199px" />
+            <vault:field reference="edl_item_doc_locked" width="199px" />
+            <vault:field reference="edl_item_doc_source" width="199px" />
+            <vault:field reference="edl_item_doc_include" width="199px" />
+        </vault:edlItemMatchedDocuments>
+    </vault:section>
+</vault:page>

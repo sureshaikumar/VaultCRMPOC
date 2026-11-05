@@ -1,0 +1,6 @@
+Picklistentry us-ne__v (
+   value('Nebraska'),
+   order(4823),
+   active(true),
+   controlling_entries('us__v')
+);

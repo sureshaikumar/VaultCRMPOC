@@ -1,0 +1,5 @@
+Picklistentry 20980__v (
+   value('El Dorado, AR Micropolitan Statistical Area'),
+   order(693),
+   active(true)
+);

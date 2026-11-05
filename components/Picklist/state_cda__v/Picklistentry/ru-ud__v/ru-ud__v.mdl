@@ -1,0 +1,6 @@
+Picklistentry ru-ud__v (
+   value('Udmurtskaya Respublika'),
+   order(3863),
+   active(true),
+   controlling_entries('ru__v')
+);

@@ -1,0 +1,10 @@
+Vsmvalue kpw__v (
+   label('KPW'),
+   active(true),
+   description('The North Korean Won (KPW), the official currency of the Democratic People''s Republic of Korea, used for financial records involving North Korean denominations.'),
+   synonyms('North Korean won',
+         'DPRK won',
+         'KPW'),
+   target('kpw__sys'),
+   target_label('KPW')
+);

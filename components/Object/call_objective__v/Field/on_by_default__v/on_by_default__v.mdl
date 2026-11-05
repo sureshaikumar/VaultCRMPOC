@@ -1,0 +1,18 @@
+Field on_by_default__v (
+   label('On by default'),
+   type('Boolean'),
+   active(true),
+   description('If checked, the call objective will display on the call report by default. If unchecked, users will be able to find the call objective by going through a search dialog on the call report.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(24),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

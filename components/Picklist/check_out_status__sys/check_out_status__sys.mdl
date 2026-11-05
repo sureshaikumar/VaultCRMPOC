@@ -1,0 +1,14 @@
+RECREATE Picklist check_out_status__sys (
+   label('Checkout Status'),
+   active(true),
+   Picklistentry(@Picklistentry/checking_out__sys.mdl),
+   Picklistentry(@Picklistentry/cancelling_check_out__sys.mdl),
+   Picklistentry(@Picklistentry/checked_out__sys.mdl),
+   Picklistentry(@Picklistentry/checking_in__sys.mdl),
+   Picklistentry(@Picklistentry/cancelling_check_in__sys.mdl),
+   Picklistentry(@Picklistentry/checked_in__sys.mdl),
+   Picklistentry(@Picklistentry/cancelled__sys.mdl),
+   Picklistentry(@Picklistentry/checkpointing__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

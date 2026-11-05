@@ -1,0 +1,6 @@
+Message rule_feedback_cloning_popup_text_1__v (
+   label(),
+   active(true),
+   default_value('This Channel Group was created when the {0} cycle was cloned.'),
+   system_managed(false)
+);

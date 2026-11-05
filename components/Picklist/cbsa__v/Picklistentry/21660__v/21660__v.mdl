@@ -1,0 +1,5 @@
+Picklistentry 21660__v (
+   value('Eugene-Springfield, OR Metropolitan Statistical Area'),
+   order(808),
+   active(true)
+);

@@ -1,0 +1,3 @@
+Typeaction publish__v (
+   action('survey__v.publish__v')
+);

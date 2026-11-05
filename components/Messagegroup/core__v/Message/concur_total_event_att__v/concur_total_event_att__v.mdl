@@ -1,0 +1,6 @@
+Message concur_total_event_att__v (
+   label(),
+   active(true),
+   default_value('Total Event Attendees'),
+   system_managed(false)
+);

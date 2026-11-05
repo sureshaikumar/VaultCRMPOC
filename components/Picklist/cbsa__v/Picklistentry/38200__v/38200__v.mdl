@@ -1,0 +1,5 @@
+Picklistentry 38200__v (
+   value('Pierre Part, LA Micropolitan Statistical Area'),
+   order(757),
+   active(true)
+);

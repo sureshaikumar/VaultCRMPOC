@@ -1,0 +1,19 @@
+Field territory_workflow__v (
+   label('Territory Workflow'),
+   type('String'),
+   active(true),
+   description('A comma delimited list of HCP or HCO types to turn on for Territory Workflow. Use the Veeva keyword HCP_vod or HCO_vod to configure on for all record types of that Account Type; presence of either keyword trumps any sub-record type label listed. List the'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(292),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

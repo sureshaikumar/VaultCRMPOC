@@ -1,0 +1,6 @@
+Message activate_now__v (
+   label(),
+   active(true),
+   default_value('Activate Now'),
+   system_managed(false)
+);

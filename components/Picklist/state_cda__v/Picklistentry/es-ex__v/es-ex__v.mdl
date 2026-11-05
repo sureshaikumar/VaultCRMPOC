@@ -1,0 +1,6 @@
+Picklistentry es-ex__v (
+   value('Extremadura'),
+   order(1215),
+   active(true),
+   controlling_entries('es__v')
+);

@@ -1,0 +1,6 @@
+Message token_dash_no_data__v (
+   label(),
+   active(true),
+   default_value('No token usage recorded'),
+   system_managed(false)
+);

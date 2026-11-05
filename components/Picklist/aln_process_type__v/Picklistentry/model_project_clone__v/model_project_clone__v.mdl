@@ -1,0 +1,5 @@
+Picklistentry model_project_clone__v (
+   value('Model Project Clone'),
+   order(8),
+   active(true)
+);

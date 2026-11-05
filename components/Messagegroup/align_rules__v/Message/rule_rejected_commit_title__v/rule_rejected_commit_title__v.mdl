@@ -1,0 +1,6 @@
+Message rule_rejected_commit_title__v (
+   label(),
+   active(true),
+   default_value('Rejected: Commit in Progress'),
+   system_managed(false)
+);

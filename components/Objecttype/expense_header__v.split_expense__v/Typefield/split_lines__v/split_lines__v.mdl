@@ -1,0 +1,6 @@
+Typefield split_lines__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.expense_header_split_lines__v.no__v',
+         'Picklist.expense_header_split_lines__v.yes__v')
+);

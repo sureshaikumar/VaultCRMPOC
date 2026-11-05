@@ -1,0 +1,4 @@
+Typefield aln_transferred__v (
+   source('custom'),
+   required(false)
+);

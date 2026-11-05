@@ -1,0 +1,6 @@
+Message medical_inquiry_submit_confirm_title__v (
+   label(),
+   active(true),
+   default_value('Save & Submit {0}'),
+   system_managed(false)
+);

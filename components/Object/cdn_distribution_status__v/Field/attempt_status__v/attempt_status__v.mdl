@@ -1,0 +1,18 @@
+Field attempt_status__v (
+   label('Attempt Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(8),
+   multi_value(false),
+   picklist('Picklist.attempt_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

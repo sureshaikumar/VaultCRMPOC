@@ -1,0 +1,19 @@
+Field product_info__c (
+   label('Product info'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Link to website containing product information.'),
+   list_column(false),
+   order(37),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

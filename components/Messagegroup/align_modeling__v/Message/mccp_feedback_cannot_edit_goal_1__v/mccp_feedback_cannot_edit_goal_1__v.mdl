@@ -1,0 +1,6 @@
+Message mccp_feedback_cannot_edit_goal_1__v (
+   label(),
+   active(true),
+   default_value('This goal cannot be edited because the product has a pending transfer request to ${user_name}.'),
+   system_managed(false)
+);

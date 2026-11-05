@@ -1,0 +1,6 @@
+Message unable_to_proceed_patient__v (
+   label(),
+   active(true),
+   default_value('Unable to proceed: Patient is ${patient_journey_state}'),
+   system_managed(false)
+);

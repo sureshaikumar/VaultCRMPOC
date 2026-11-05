@@ -1,0 +1,18 @@
+Field enable_specialist_lookup__v (
+   label('ENABLE_SPECIALIST_LOOKUP'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the Specialist button is displayed in the iRep CLM media player.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(158),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

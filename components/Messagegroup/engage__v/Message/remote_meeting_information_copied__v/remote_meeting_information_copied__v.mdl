@@ -1,0 +1,6 @@
+Message remote_meeting_information_copied__v (
+   label(),
+   active(true),
+   default_value('Meeting Information Copied'),
+   system_managed(false)
+);

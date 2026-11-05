@@ -1,0 +1,23 @@
+Field call_objective_progress__v (
+   label('Call Objective Progress'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Sums up the progress based on Call Objective Completion represented as a percentage'),
+   required(false),
+   unique(false),
+   max_value(9.99),
+   min_value(-9.99),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

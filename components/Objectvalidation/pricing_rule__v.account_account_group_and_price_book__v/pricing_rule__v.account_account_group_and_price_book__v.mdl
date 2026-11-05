@@ -1,0 +1,25 @@
+RECREATE Objectvalidation pricing_rule__v.account_account_group_and_price_book__v (
+   label('Account, Account Group and Price Book'),
+   active(true),
+   expression('Not (
+   Or(
+       And(
+           Not(IsBlank(account_group__v)),
+           Not(IsBlank(account__v))
+       ),
+        And(
+           Not(IsBlank(account_group__v)),
+           Not(IsBlank(price_book__v))
+       ),
+        And(
+           Not(IsBlank(price_book__v)),
+           Not(IsBlank(account__v))
+       )
+   )
+)'),
+   description('Only one of Account, Account Group, or Price book should be specified'),
+   error_message('Only one of Account, Account Group, or Price book should be specified'),
+   error_location('account_group__v',
+      'price_book__v',
+      'account__v')
+);

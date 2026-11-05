@@ -1,0 +1,22 @@
+Picklistentry mmeid__v (
+   value('Medical Microbiology'),
+   order(923),
+   active(true),
+   controlling_entries('bh__v',
+         'ca__v',
+         'cz__v',
+         'gb__v',
+         'hu__v',
+         'ke__v',
+         'lv__v',
+         'me__v',
+         'my__v',
+         'nl__v',
+         'no__v',
+         'pl__v',
+         'pt__v',
+         'ro__v',
+         'sa__v',
+         'tr__v',
+         'us__v')
+);

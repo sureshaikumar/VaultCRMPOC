@@ -1,0 +1,6 @@
+Picklistentry ee-503__v (
+   value('Märjamaa'),
+   order(1103),
+   active(true),
+   controlling_entries('ee__v')
+);

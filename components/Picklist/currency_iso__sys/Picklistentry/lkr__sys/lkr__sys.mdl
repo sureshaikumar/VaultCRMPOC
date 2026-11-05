@@ -1,0 +1,5 @@
+Picklistentry lkr__sys (
+   value('LKR'),
+   order(105),
+   active(true)
+);

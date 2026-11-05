@@ -1,0 +1,6 @@
+Picklistentry it-vr__v (
+   value('Verona'),
+   order(2278),
+   active(true),
+   controlling_entries('it__v')
+);

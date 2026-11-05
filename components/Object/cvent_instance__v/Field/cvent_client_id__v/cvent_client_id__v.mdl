@@ -1,0 +1,19 @@
+Field cvent_client_id__v (
+   label('Cvent Client ID'),
+   type('String'),
+   active(true),
+   description('Stores the Cvent Client ID and is External ID used for data loading.'),
+   required(true),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

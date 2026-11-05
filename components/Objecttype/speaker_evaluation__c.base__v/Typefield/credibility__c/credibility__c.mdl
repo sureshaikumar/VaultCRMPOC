@@ -1,0 +1,4 @@
+Typefield credibility__c (
+   source('standard'),
+   required(false)
+);

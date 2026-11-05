@@ -1,0 +1,6 @@
+Message open_rate__v (
+   label(),
+   active(true),
+   default_value('Open Rate'),
+   system_managed(false)
+);

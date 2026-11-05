@@ -1,0 +1,5 @@
+Picklistentry 15380__v (
+   value('Buffalo-Niagara Falls, NY Metropolitan Statistical Area'),
+   order(948),
+   active(true)
+);

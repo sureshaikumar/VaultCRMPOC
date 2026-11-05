@@ -1,0 +1,6 @@
+Message ctav_warn_dest_obj_no_object_type__v (
+   label(),
+   active(true),
+   default_value('Source Vault CRM object ${object_name} has object types enabled which the target Vault CRM object does not. Object types will be ignored.'),
+   system_managed(false)
+);

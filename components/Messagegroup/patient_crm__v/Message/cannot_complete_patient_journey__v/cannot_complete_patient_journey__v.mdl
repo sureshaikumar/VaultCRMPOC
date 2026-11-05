@@ -1,0 +1,6 @@
+Message cannot_complete_patient_journey__v (
+   label(),
+   active(true),
+   default_value('Please complete all Patient Journey steps prior to completing Patient Journey.'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field country__v (
+   label('Country'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Defines the Country in which the list of Restricted Products and corresponding Account Credential are not permitting to be sampled to an Account. The values stored in the Country field must match the values stored in the Country field on the Address objec'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

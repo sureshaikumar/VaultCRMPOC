@@ -1,0 +1,5 @@
+Picklistentry asia_riyadh__sys (
+   value('(GMT+03:00) Arabia Standard Time (Asia/Riyadh)'),
+   order(199),
+   active(true)
+);

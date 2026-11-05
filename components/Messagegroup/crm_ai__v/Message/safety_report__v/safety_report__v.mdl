@@ -1,0 +1,6 @@
+Message safety_report__v (
+   label(),
+   active(true),
+   default_value('A safety report is required for information highlighted in purple. Please ${report_link} to report in the safety system.'),
+   system_managed(false)
+);

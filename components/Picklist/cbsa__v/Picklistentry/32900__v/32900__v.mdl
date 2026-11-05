@@ -1,0 +1,5 @@
+Picklistentry 32900__v (
+   value('Merced, CA Metropolitan Statistical Area'),
+   order(800),
+   active(true)
+);

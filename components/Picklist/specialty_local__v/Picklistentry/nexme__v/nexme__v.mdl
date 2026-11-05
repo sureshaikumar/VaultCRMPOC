@@ -1,0 +1,6 @@
+Picklistentry nexme__v (
+   value('Nephrology Medicine'),
+   order(1000),
+   active(true),
+   controlling_entries('ie__v')
+);

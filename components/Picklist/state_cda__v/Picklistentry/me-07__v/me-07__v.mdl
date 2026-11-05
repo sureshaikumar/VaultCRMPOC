@@ -1,0 +1,6 @@
+Picklistentry me-07__v (
+   value('Danilovgrad'),
+   order(2913),
+   active(true),
+   controlling_entries('me__v')
+);

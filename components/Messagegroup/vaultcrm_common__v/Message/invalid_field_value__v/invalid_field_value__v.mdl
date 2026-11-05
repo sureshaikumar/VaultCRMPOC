@@ -1,0 +1,6 @@
+Message invalid_field_value__v (
+   label(),
+   active(true),
+   default_value('Invalid value ${value} for ${field_name}.'),
+   system_managed(false)
+);

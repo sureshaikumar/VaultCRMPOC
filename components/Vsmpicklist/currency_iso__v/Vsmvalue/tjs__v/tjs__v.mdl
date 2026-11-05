@@ -1,0 +1,10 @@
+Vsmvalue tjs__v (
+   label('TJS'),
+   active(true),
+   description('Applies when transactions are denominated in the Tajikistani Somoni, the official currency of Tajikistan.'),
+   synonyms('Tajikistani somoni',
+         'Tajikistan currency',
+         'somoni'),
+   target('tjs__sys'),
+   target_label('TJS')
+);

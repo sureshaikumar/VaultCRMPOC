@@ -1,0 +1,5 @@
+Picklistentry low_rsvp__v (
+   value('Low RSVP'),
+   order(0),
+   active(true)
+);

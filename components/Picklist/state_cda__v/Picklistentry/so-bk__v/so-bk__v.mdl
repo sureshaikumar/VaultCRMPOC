@@ -1,0 +1,6 @@
+Picklistentry so-bk__v (
+   value('Bakool'),
+   order(4224),
+   active(true),
+   controlling_entries('so__v')
+);

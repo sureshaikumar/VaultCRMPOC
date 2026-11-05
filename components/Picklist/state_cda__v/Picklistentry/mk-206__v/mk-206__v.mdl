@@ -1,0 +1,6 @@
+Picklistentry mk-206__v (
+   value('Kočani'),
+   order(2978),
+   active(true),
+   controlling_entries('mk__v')
+);

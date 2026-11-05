@@ -1,0 +1,4 @@
+Typefield attachment_requirement__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message primary_action__v (
+   label(),
+   active(true),
+   default_value('Primary Action'),
+   system_managed(false)
+);

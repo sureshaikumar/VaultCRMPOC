@@ -1,0 +1,4 @@
+Typefield subscription_option__v (
+   source('standard'),
+   required(false)
+);

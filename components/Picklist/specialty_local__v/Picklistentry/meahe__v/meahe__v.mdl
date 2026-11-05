@@ -1,0 +1,6 @@
+Picklistentry meahe__v (
+   value('Medical Ecology and Hydroclimatology'),
+   order(907),
+   active(true),
+   controlling_entries('tr__v')
+);

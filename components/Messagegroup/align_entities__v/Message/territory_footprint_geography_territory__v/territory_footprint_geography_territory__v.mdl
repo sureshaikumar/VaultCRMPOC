@@ -1,0 +1,6 @@
+Message territory_footprint_geography_territory__v (
+   label(),
+   active(true),
+   default_value('Geography Territory created by a Territory Footprint may not be manually altered.'),
+   system_managed(false)
+);

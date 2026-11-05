@@ -1,0 +1,15 @@
+Field event_registration_agreement_policy__v (
+   label('Event Registration Agreement Policy'),
+   type('Attachment'),
+   active(true),
+   description('Used to store Event Registration agreement policy'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(37),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

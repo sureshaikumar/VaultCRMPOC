@@ -1,0 +1,4 @@
+Typefield completed_flag__v (
+   source('standard'),
+   required(false)
+);

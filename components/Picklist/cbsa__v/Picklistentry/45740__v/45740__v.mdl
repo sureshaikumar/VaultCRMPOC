@@ -1,0 +1,5 @@
+Picklistentry 45740__v (
+   value('Toccoa, GA Micropolitan Statistical Area'),
+   order(33),
+   active(true)
+);

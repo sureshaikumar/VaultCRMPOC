@@ -1,0 +1,5 @@
+Picklistentry km__v (
+   value('Comoros'),
+   order(49),
+   active(true)
+);

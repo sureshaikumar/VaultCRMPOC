@@ -1,0 +1,6 @@
+Message set_frequency_and_add_details__v (
+   label(),
+   active(true),
+   default_value('Set Frequency and Add Details'),
+   system_managed(false)
+);

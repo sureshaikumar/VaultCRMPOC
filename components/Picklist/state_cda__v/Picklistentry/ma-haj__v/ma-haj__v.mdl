@@ -1,0 +1,6 @@
+Picklistentry ma-haj__v (
+   value('El Hajeb'),
+   order(2802),
+   active(true),
+   controlling_entries('ma__v')
+);

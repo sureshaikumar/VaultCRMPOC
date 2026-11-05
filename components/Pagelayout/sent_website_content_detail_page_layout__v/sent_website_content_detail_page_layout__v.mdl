@@ -1,0 +1,8 @@
+RECREATE Pagelayout sent_website_content_detail_page_layout__v (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Sent Custom Content Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

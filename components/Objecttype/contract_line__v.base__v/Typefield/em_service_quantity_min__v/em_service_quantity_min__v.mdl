@@ -1,0 +1,4 @@
+Typefield em_service_quantity_min__v (
+   source('standard'),
+   required(false)
+);

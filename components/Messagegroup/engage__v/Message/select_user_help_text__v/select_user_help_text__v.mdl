@@ -1,0 +1,6 @@
+Message select_user_help_text__v (
+   label(),
+   active(true),
+   default_value('Use search bar to find user(s), and then use the table below make selection.'),
+   system_managed(false)
+);

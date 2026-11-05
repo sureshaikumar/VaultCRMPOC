@@ -1,0 +1,18 @@
+Field default_task__v (
+   label('Default Task'),
+   type('Boolean'),
+   active(true),
+   description('Use this checkbox to denote a follow-up activity as default. When a new follow-up activity is created on a call report, this setting is used to determine which activity is the initial activity type.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry orthr__v (
+   value('Orthopedic'),
+   order(1199),
+   active(true),
+   controlling_entries('kw__v')
+);

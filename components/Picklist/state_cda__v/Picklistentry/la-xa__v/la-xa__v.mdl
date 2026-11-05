@@ -1,0 +1,6 @@
+Picklistentry la-xa__v (
+   value('Xaignabouli'),
+   order(2527),
+   active(true),
+   controlling_entries('la__v')
+);

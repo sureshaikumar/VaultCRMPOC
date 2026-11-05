@@ -1,0 +1,4 @@
+Typefield vault_doc_id__v (
+   source('standard'),
+   required(false)
+);

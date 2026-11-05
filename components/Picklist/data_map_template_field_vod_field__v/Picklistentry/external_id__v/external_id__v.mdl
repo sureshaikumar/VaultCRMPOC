@@ -1,0 +1,5 @@
+Picklistentry external_id__v (
+   value('External_ID_vod__c'),
+   order(231),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield inventory_from_date__v (
+   source('standard'),
+   required(false)
+);

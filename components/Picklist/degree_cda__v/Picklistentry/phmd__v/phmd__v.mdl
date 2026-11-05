@@ -1,0 +1,5 @@
+Picklistentry phmd__v (
+   value('PharmD'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message scheduled_email_today_alert__v (
+   label(),
+   active(true),
+   default_value('You have selected to send this email today at ${scheduled_time}.'),
+   system_managed(false)
+);

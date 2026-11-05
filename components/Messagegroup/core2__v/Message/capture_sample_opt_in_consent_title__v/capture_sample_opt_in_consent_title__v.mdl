@@ -1,0 +1,6 @@
+Message capture_sample_opt_in_consent_title__v (
+   label(),
+   active(true),
+   default_value('Capture Sample Opt In'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry lk-41__v (
+   value('Jaffna'),
+   order(2573),
+   active(true),
+   controlling_entries('lk__v')
+);

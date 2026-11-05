@@ -1,0 +1,6 @@
+Message case_inbox_new_patient_journey_label__v (
+   label(),
+   active(true),
+   default_value('New Patient Journey'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry dz-29__v (
+   value('Mascara'),
+   order(1010),
+   active(true),
+   controlling_entries('dz__v')
+);

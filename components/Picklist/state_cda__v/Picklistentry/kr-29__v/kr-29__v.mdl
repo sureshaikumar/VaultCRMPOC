@@ -1,0 +1,6 @@
+Picklistentry kr-29__v (
+   value('Gwangju'),
+   order(2474),
+   active(true),
+   controlling_entries('kr__v')
+);

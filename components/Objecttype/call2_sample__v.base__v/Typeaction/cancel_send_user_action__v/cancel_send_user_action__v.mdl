@@ -1,0 +1,3 @@
+Typeaction cancel_send_user_action__v (
+   action('call2_sample__v.cancel_send_user_action__v')
+);

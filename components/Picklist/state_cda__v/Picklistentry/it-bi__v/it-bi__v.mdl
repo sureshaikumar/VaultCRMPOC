@@ -1,0 +1,6 @@
+Picklistentry it-bi__v (
+   value('Biella'),
+   order(2185),
+   active(true),
+   controlling_entries('it__v')
+);

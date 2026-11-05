@@ -1,0 +1,6 @@
+Picklistentry cz-205__v (
+   value('Kutná Hora'),
+   order(819),
+   active(true),
+   controlling_entries('cz__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lr-my__v (
+   value('Maryland'),
+   order(2604),
+   active(true),
+   controlling_entries('lr__v')
+);

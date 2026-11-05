@@ -1,0 +1,21 @@
+<vault:configuration xmlns:vault="VeevaVault">
+    <vault:input name="documentContentTypes" type="JsonArray">["TEXT_EXTRACT"]</vault:input>
+    <vault:input name="useStructuredText" type="Boolean">true</vault:input>
+    <vault:input name="documentFields" type="JsonObject">\{
+    "General": \{
+        "$\{name__v;label\}": "$\{name__v\}",
+        "$\{title__v;label\}": "$\{title__v\}",
+        "$\{type__v;label\}": "$\{type__v\}",
+        "$\{subtype__v;label\}": "$\{subtype__v\}",
+        "$\{classification__v;label\}": "$\{classification__v\}",
+        "$\{major_version_number__v;label\}": "$\{major_version_number__v\}",
+        "$\{minor_version_number__v;label\}": "$\{minor_version_number__v\}"
+    \},
+    "File Info": \{
+        "$\{size__v;label\}": "$\{size__v\}",
+        "$\{format__v;label\}": "$\{format__v\}",
+        "$\{pages__v;label\}": "$\{pages__v\}"
+    \}
+\}</vault:input>
+    <vault:input name="documentVersion" type="String">PREVIOUS_MAJOR</vault:input>
+</vault:configuration>

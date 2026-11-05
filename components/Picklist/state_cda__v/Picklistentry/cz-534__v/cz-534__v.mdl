@@ -1,0 +1,6 @@
+Picklistentry cz-534__v (
+   value('Ústí nad Orlicí'),
+   order(870),
+   active(true),
+   controlling_entries('cz__v')
+);

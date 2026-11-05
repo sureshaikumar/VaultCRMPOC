@@ -1,0 +1,18 @@
+Field exclude_from__v (
+   label('Exclude From'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(21),
+   multi_value(true),
+   picklist('Picklist.expense_type_exclude_from__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

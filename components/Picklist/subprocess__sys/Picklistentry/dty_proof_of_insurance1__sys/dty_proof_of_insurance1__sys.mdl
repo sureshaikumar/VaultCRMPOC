@@ -1,0 +1,6 @@
+Picklistentry dty_proof_of_insurance1__sys (
+   value('Proof of Insurance'),
+   order(131),
+   active(true),
+   controlling_entries('dlc_patient_intake__sys')
+);

@@ -1,0 +1,6 @@
+Sdkbatchjobaction async_record_trigger_cleanup_job__v (
+   job_metadata('Jobmetadata.async_record_trigger_cleanup_job__v'),
+   label('Async Record Trigger Cleanup Job'),
+   parameters(),
+   primary_action(true)
+);

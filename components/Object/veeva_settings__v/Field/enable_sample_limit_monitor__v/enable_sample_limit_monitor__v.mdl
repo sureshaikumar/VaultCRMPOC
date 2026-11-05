@@ -1,0 +1,18 @@
+Field enable_sample_limit_monitor__v (
+   label('ENABLE_SAMPLE_LIMIT_MONITOR'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Enables the sample limit monitor to show sample limits on the call.'),
+   list_column(false),
+   order(156),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

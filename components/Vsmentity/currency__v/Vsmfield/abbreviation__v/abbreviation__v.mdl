@@ -1,0 +1,14 @@
+Vsmfield abbreviation__v (
+   label('Abbreviation'),
+   active(true),
+   description('The short abbreviation or code representing the currency (e.g., USD, EUR, GBP). Typically follows ISO 4217 currency codes. Use this field when filtering or displaying currencies by their standard code rather than full name.'),
+   example_values(),
+   synonyms('currency code',
+         'ISO code',
+         'short code',
+         'ticker'),
+   target('abbreviation__sys'),
+   target_label('Abbreviation'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

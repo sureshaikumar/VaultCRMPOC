@@ -1,0 +1,6 @@
+Picklistentry racce__v (
+   value('Respiratory and Critical Care'),
+   order(1737),
+   active(true),
+   controlling_entries('kw__v')
+);

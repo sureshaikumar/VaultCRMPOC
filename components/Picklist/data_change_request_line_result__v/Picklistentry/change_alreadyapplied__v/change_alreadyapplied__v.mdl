@@ -1,0 +1,5 @@
+Picklistentry change_alreadyapplied__v (
+   value('CHANGE_ALREADYAPPLIED'),
+   order(3),
+   active(true)
+);

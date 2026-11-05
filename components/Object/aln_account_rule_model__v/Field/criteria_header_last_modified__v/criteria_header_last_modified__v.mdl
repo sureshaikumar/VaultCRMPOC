@@ -1,0 +1,17 @@
+Field criteria_header_last_modified__v (
+   label('Header/Criteria Last Modified Date/Time'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

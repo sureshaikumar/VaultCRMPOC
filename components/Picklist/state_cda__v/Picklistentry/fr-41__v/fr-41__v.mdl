@@ -1,0 +1,6 @@
+Picklistentry fr-41__v (
+   value('Loir-et-Cher'),
+   order(1357),
+   active(true),
+   controlling_entries('fr__v')
+);

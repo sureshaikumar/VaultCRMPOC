@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout attachments__v (
+   label('Attachments'),
+   active(true),
+   icon('UNDEFINED'),
+   order(21),
+   fields(),
+   show_in_edit_mode(false),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_files__sys')
+);

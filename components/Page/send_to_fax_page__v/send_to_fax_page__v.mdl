@@ -1,0 +1,14 @@
+RECREATE Page send_to_fax_page__v (
+   label('Send To Fax'),
+   active(true),
+   client_distribution(),
+   default_client_code('send_to_fax_page__v'),
+   description('Send To Fax Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('send-to-fax')
+);

@@ -1,0 +1,5 @@
+Picklistentry kilometers__v (
+   value('Kilometers'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message my_schedule__v (
+   label(),
+   active(true),
+   default_value('My Schedule'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field visible_buttons__v (
+   label('Visible Buttons'),
+   type('LongText'),
+   active(true),
+   description('Semicolon-delimited list of the buttons to display on the page. Populate with button API names.'),
+   required(false),
+   max_length(2500),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

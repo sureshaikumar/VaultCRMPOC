@@ -1,0 +1,6 @@
+Message error_saving_duplicate_value__v (
+   label(),
+   active(true),
+   default_value('Vault value has already been mapped.'),
+   system_managed(false)
+);

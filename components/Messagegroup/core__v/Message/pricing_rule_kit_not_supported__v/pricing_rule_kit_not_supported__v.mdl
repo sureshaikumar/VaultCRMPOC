@@ -1,0 +1,6 @@
+Message pricing_rule_kit_not_supported__v (
+   label(),
+   active(true),
+   default_value('Product Kits are not supported.'),
+   system_managed(false)
+);

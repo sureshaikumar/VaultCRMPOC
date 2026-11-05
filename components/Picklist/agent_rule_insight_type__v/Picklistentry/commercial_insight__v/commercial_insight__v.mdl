@@ -1,0 +1,5 @@
+Picklistentry commercial_insight__v (
+   value('Commercial Insight'),
+   order(0),
+   active(true)
+);

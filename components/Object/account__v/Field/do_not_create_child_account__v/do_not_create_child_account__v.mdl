@@ -1,0 +1,18 @@
+Field do_not_create_child_account__v (
+   label('Do Not Create Child Account'),
+   type('Boolean'),
+   active(true),
+   description('The DISABLE_HIERARCHY_AUTOCREATE custom setting uses this field to indicate that an account should not be added to the Account Hierarchy when creating a new record using the New Record Type Wizard or Parent Account Wizard.  This is a system field and ther'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(35),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

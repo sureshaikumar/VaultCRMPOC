@@ -1,0 +1,9 @@
+Picklistentry hemau__v (
+   value('Hematopathology'),
+   order(693),
+   active(true),
+   controlling_entries('bh__v',
+         'in__v',
+         'is__v',
+         'th__v')
+);

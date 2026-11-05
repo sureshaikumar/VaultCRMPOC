@@ -1,0 +1,5 @@
+Picklistentry mobile__v (
+   value('Mobile'),
+   order(2),
+   active(true)
+);

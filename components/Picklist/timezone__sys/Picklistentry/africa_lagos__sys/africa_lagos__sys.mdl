@@ -1,0 +1,5 @@
+Picklistentry africa_lagos__sys (
+   value('(GMT+01:00) Western Africa Time (Africa/Lagos)'),
+   order(168),
+   active(true)
+);

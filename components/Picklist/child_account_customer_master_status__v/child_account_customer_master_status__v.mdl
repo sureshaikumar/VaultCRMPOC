@@ -1,0 +1,11 @@
+RECREATE Picklist child_account_customer_master_status__v (
+   label('Customer Master Status'),
+   active(true),
+   Picklistentry(@Picklistentry/valid__v.mdl),
+   Picklistentry(@Picklistentry/under_review__v.mdl),
+   Picklistentry(@Picklistentry/rejected__v.mdl),
+   Picklistentry(@Picklistentry/inactive__v.mdl),
+   Picklistentry(@Picklistentry/staging__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

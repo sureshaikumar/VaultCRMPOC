@@ -1,0 +1,6 @@
+Picklistentry it-bn__v (
+   value('Benevento'),
+   order(2187),
+   active(true),
+   controlling_entries('it__v')
+);

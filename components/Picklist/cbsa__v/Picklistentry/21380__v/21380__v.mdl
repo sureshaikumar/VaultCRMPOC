@@ -1,0 +1,5 @@
+Picklistentry 21380__v (
+   value('Emporia, KS Micropolitan Statistical Area'),
+   order(794),
+   active(true)
+);

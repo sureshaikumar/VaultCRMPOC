@@ -1,0 +1,20 @@
+Field disclaimer_detail_only__v (
+   label('DISCLAIMER_DETAIL_ONLY'),
+   type('String'),
+   active(true),
+   description('The Disclaimer statement text that is displayed in the Call Signature page for a Call Type of Detail-Only.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(106),
+   default_value('"DISCLAIMER_DETAIL_ONLY;;CallReport"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

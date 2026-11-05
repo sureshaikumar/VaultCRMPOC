@@ -1,0 +1,6 @@
+Message unable_send_email_refresh_contact_admin__v (
+   label(),
+   active(true),
+   default_value('Unable to send email. Please refresh and try again or contact your administrator.'),
+   system_managed(false)
+);

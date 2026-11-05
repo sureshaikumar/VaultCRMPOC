@@ -1,0 +1,6 @@
+Message model_lifecycle_in_locked_state__v (
+   label(),
+   active(true),
+   default_value('{0}''s lifecycle state is {1} and cannot be changed'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry sd-kn__v (
+   value('North Kordofan'),
+   order(3938),
+   active(true),
+   controlling_entries('sd__v')
+);

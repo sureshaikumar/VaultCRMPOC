@@ -1,0 +1,5 @@
+Picklistentry 43060__v (
+   value('Shawnee, OK Micropolitan Statistical Area'),
+   order(580),
+   active(true)
+);

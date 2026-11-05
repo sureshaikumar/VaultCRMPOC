@@ -1,0 +1,5 @@
+Picklistentry tn__v (
+   value('TN'),
+   order(106),
+   active(true)
+);

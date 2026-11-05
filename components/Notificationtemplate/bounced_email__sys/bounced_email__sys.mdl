@@ -1,0 +1,16 @@
+RECREATE Notificationtemplate bounced_email__sys (
+   label('Email to Vault: Bounced Email'),
+   active(true),
+   description('Notification template informing a Vault user or person that their email sent to Vault was bounced.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.email__sys'),
+   subject('Your email was not delivered'),
+   notification('<p>Your email "${Object.subject__sys}" was not delivered to ${Object.to__sys}</p>
+	<ul>
+	<li>Sent Date: ${Object.sent_date__sys}</li>
+	<li>Bounce Reason: ${Object.bounce_reason__sys}</li>
+	</ul>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

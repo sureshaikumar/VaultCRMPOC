@@ -1,0 +1,6 @@
+Message classify_document__v (
+   label(),
+   active(true),
+   default_value('Classify Document'),
+   system_managed(false)
+);

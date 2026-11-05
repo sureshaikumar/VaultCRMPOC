@@ -1,0 +1,4 @@
+Typefield lost_to_competitor__v (
+   source('standard'),
+   required(false)
+);

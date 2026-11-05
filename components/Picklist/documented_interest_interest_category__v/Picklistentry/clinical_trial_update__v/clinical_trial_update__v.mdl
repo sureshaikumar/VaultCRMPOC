@@ -1,0 +1,5 @@
+Picklistentry clinical_trial_update__v (
+   value('Clinical Trial Update'),
+   order(1),
+   active(true)
+);

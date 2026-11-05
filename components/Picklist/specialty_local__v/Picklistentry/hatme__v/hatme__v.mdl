@@ -1,0 +1,6 @@
+Picklistentry hatme__v (
+   value('Hematology and Transfusion Medicine'),
+   order(689),
+   active(true),
+   controlling_entries('cz__v')
+);

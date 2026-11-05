@@ -1,0 +1,6 @@
+Picklistentry md-do__v (
+   value('Donduşeni'),
+   order(2882),
+   active(true),
+   controlling_entries('md__v')
+);

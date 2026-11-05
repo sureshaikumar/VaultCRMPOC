@@ -1,0 +1,5 @@
+Picklistentry patient_educator__v (
+   value('Patient Educator'),
+   order(2),
+   active(true)
+);

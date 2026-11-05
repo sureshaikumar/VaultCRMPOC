@@ -1,0 +1,6 @@
+Message cant_find_the_right_number__v (
+   label(),
+   active(true),
+   default_value('Can''t find the right number?'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield email_import_days__v (
+   source('standard'),
+   required(true)
+);

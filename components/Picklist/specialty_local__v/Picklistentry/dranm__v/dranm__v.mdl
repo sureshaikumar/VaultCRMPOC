@@ -1,0 +1,6 @@
+Picklistentry dranm__v (
+   value('Diagnostic Radiography and Nuclear Medicine'),
+   order(435),
+   active(true),
+   controlling_entries('au__v')
+);

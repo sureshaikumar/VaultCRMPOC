@@ -1,0 +1,6 @@
+Message roster_member_child_entity_startd_err__v (
+   label(),
+   active(true),
+   default_value('Child assignments cannot begin earlier than Roster Member''s Start Date: {0} ({1})'),
+   system_managed(false)
+);

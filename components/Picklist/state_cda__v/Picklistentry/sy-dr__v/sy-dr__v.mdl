@@ -1,0 +1,6 @@
+Picklistentry sy-dr__v (
+   value('Darٰā'),
+   order(4283),
+   active(true),
+   controlling_entries('sy__v')
+);

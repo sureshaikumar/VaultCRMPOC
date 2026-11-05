@@ -1,0 +1,6 @@
+Message update_journey_status__v (
+   label(),
+   active(true),
+   default_value('Update Journey Status'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message connected_users__v (
+   label(),
+   active(true),
+   default_value('${count} connected'),
+   system_managed(false)
+);

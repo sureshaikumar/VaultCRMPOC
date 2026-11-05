@@ -1,0 +1,4 @@
+Typefield custom_report_url__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-089__v (
+   value('Pesnica'),
+   order(4063),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Message invalid_page_url__v (
+   label(),
+   active(true),
+   default_value('The provided URL is invalid.'),
+   system_managed(false)
+);

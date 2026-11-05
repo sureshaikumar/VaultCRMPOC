@@ -1,0 +1,9 @@
+RECREATE Picklist timeframe__v (
+   label('Timeframe'),
+   active(true),
+   Picklistentry(@Picklistentry/days__v.mdl),
+   Picklistentry(@Picklistentry/weeks__v.mdl),
+   Picklistentry(@Picklistentry/months__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

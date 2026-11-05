@@ -1,0 +1,19 @@
+Field validation_status__v (
+   label('Validation Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Mapping validation status'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.network_reference_mapp_validation_status__v'),
+   default_value('{unvalidated__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field last_error_message__v (
+   label('Last Error Message'),
+   type('String'),
+   active(true),
+   description('Stores the error returned by the backend when the Messaging Business Account enters an error state. Cleared on successful transition out of the error state.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield restricted_states__v (
+   source('standard'),
+   required(false)
+);

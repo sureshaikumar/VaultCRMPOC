@@ -1,0 +1,6 @@
+Picklistentry cf-lb__v (
+   value('Lobaye'),
+   order(607),
+   active(true),
+   controlling_entries('cf__v')
+);

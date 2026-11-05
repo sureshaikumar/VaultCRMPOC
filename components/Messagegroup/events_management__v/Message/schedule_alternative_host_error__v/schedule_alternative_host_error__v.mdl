@@ -1,0 +1,6 @@
+Message schedule_alternative_host_error__v (
+   label(),
+   active(true),
+   default_value('Unable to add ${team_member_name} as Alternative Host. Please remove their virtual role.'),
+   system_managed(false)
+);

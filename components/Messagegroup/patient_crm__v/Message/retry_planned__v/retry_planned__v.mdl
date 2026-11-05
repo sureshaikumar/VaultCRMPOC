@@ -1,0 +1,6 @@
+Message retry_planned__v (
+   label(),
+   active(true),
+   default_value('Retry Planned'),
+   system_managed(false)
+);

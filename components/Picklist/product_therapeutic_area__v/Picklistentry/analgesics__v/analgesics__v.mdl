@@ -1,0 +1,5 @@
+Picklistentry analgesics__v (
+   value('Analgesics'),
+   order(0),
+   active(true)
+);

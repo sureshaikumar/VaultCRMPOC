@@ -1,0 +1,6 @@
+Message search_object__v (
+   label(),
+   active(true),
+   default_value('Search ${object_label}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_congress__sys (
+   value('Congress'),
+   order(37),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-043__v (
+   value('Kamnik'),
+   order(4017),
+   active(true),
+   controlling_entries('si__v')
+);

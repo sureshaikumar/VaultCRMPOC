@@ -1,0 +1,4 @@
+Typefield suffix__v (
+   source('custom'),
+   required(false)
+);

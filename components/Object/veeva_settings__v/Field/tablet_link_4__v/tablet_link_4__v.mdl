@@ -1,0 +1,20 @@
+Field tablet_link_4__v (
+   label('TABLET_LINK_4'),
+   type('String'),
+   active(true),
+   description('Configurable link for display in the Sidebar of the VMobile Tablet application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(285),
+   default_value('"TABLET_LINK_4;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

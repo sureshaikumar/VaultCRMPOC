@@ -1,0 +1,5 @@
+Picklistentry anticoagulants_blood_thinners__v (
+   value('Anticoagulants (Blood Thinners)'),
+   order(7),
+   active(true)
+);

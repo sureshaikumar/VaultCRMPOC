@@ -1,0 +1,6 @@
+Message display_applied_pricing_rules__v (
+   label(),
+   active(true),
+   default_value('Display Applied Pricing Rules'),
+   system_managed(false)
+);

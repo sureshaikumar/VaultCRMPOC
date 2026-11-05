@@ -1,0 +1,6 @@
+Message last_modified_date_by_user__v (
+   label(),
+   active(true),
+   default_value('Last Modified on ${modified_date} by ${modified_by}'),
+   system_managed(false)
+);

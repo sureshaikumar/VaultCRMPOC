@@ -1,0 +1,6 @@
+Message common_unassign_warning__v (
+   label(),
+   active(true),
+   default_value('Unassigning this {0} from the {1} will impact {2, number} {3}.'),
+   system_managed(false)
+);

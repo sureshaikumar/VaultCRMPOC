@@ -1,0 +1,6 @@
+Message published_value__v (
+   label(),
+   active(true),
+   default_value('Published: ${value}'),
+   system_managed(false)
+);

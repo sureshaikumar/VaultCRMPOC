@@ -1,0 +1,6 @@
+Picklistentry oaemx__v (
+   value('Oxyology and Emergency Medicine'),
+   order(1245),
+   active(true),
+   controlling_entries('hu__v')
+);

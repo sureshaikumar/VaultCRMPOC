@@ -1,0 +1,6 @@
+Message om_deliveries__v (
+   label(),
+   active(true),
+   default_value('Deliveries'),
+   system_managed(false)
+);

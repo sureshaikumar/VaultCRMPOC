@@ -1,0 +1,6 @@
+Message mccp_feedback_adds__v (
+   label(),
+   active(true),
+   default_value('Adds'),
+   system_managed(false)
+);

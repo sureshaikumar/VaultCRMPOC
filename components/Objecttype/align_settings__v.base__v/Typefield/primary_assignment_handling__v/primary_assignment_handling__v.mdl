@@ -1,0 +1,4 @@
+Typefield primary_assignment_handling__v (
+   source('standard'),
+   required(false)
+);

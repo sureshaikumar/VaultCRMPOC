@@ -1,0 +1,6 @@
+Message model_lifecycle_dialog_not_approved_list__v (
+   label(),
+   active(true),
+   default_value('The following entities belonging to this Project are not in the Approved Lifecycle State. By clicking the Continue button below the Project and all entities within the Project will be set to the Approved Lifecycle State.'),
+   system_managed(false)
+);

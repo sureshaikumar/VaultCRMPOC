@@ -1,0 +1,5 @@
+Picklistentry text__v (
+   value('Text'),
+   order(0),
+   active(true)
+);

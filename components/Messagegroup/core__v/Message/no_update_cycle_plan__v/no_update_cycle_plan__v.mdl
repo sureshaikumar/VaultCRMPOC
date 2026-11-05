@@ -1,0 +1,6 @@
+Message no_update_cycle_plan__v (
+   label(),
+   active(true),
+   default_value('You may not update a locked Cycle Plan.'),
+   system_managed(false)
+);

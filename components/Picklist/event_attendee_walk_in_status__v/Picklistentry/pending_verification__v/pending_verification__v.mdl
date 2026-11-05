@@ -1,0 +1,5 @@
+Picklistentry pending_verification__v (
+   value('Pending_Verification'),
+   order(6),
+   active(true)
+);

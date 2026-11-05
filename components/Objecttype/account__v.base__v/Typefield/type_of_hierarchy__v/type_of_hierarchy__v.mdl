@@ -1,0 +1,4 @@
+Typefield type_of_hierarchy__v (
+   source('standard'),
+   required(false)
+);

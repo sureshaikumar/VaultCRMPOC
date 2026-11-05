@@ -1,0 +1,5 @@
+Picklistentry hsb (
+   value('Upper Sorbian'),
+   order(338),
+   active(true)
+);

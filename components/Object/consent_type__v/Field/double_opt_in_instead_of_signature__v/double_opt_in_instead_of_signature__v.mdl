@@ -1,0 +1,18 @@
+Field double_opt_in_instead_of_signature__v (
+   label('Double Opt In Instead of Signature'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('When Double Opt in is enabled and Signature is required, if this field is added to the page layout and set to true, user will have the ability to choose whether to send confirmation link or capture signature for consent.'),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

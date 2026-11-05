@@ -1,0 +1,6 @@
+Picklistentry pa-8__v (
+   value('Panamá'),
+   order(3462),
+   active(true),
+   controlling_entries('pa__v')
+);

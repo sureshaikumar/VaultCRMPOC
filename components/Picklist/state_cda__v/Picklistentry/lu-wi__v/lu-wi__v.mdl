@@ -1,0 +1,6 @@
+Picklistentry lu-wi__v (
+   value('Wiltz'),
+   order(2700),
+   active(true),
+   controlling_entries('lu__v')
+);

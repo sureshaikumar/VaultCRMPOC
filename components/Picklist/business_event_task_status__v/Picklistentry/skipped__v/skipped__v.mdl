@@ -1,0 +1,5 @@
+Picklistentry skipped__v (
+   value('Skipped'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,10 @@
+Picklistentry neuru__v (
+   value('Neuropediatrics'),
+   order(1034),
+   active(true),
+   controlling_entries('ba__v',
+         'de__v',
+         'fr__v',
+         'mc__v',
+         'pt__v')
+);

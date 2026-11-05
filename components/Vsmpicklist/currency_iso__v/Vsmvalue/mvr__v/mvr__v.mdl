@@ -1,0 +1,10 @@
+Vsmvalue mvr__v (
+   label('MVR'),
+   active(true),
+   description('The official currency of the Maldives (MVR), used for all commercial and financial transactions in the island nation.'),
+   synonyms('Maldivian rufiyaa',
+         'rufiyaa',
+         'MVR'),
+   target('mvr__sys'),
+   target_label('MVR')
+);

@@ -1,0 +1,6 @@
+Message error_creating_draft__v (
+   label(),
+   active(true),
+   default_value('Error Creating Email Draft'),
+   system_managed(false)
+);

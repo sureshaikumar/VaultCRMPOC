@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate multi_task_load_error__v (
+   label('MultiTaskLoadError'),
+   active(true),
+   description('MultiTask load job error template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Loader load job has failed'),
+   notification('<p>Your Loader load job ${job_id} has failed. Result files can be retrieved from the Job Status page: <a href="${jobStatusPageLink}">${jobStatusPageLinkText} </a></p>
+<p>Message: ${multiTaskFailureMessage}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

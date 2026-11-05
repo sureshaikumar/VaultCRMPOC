@@ -1,0 +1,18 @@
+Field request_reason__v (
+   label('Request Reason'),
+   type('Picklist'),
+   active(true),
+   description('The reason for the transfer request'),
+   required(false),
+   unique(false),
+   help_content('The reason for the transfer request'),
+   list_column(false),
+   order(19),
+   multi_value(true),
+   picklist('Picklist.aln_challenge_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

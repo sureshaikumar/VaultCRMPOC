@@ -1,0 +1,6 @@
+Message common_create__v (
+   label(),
+   active(true),
+   default_value('Create'),
+   system_managed(false)
+);

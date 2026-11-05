@@ -1,0 +1,6 @@
+Message schedule_virtual_event_error__v (
+   label(),
+   active(true),
+   default_value('Something went wrong with scheduling the ${meeting_type}. Please retry or contact your administrator.'),
+   system_managed(false)
+);

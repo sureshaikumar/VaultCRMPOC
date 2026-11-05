@@ -1,0 +1,6 @@
+Message alignment_results_send_yes__v (
+   label(),
+   active(true),
+   default_value('Send To CRM = Yes'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield next_year_reset_date__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message recalculate_mccp_rollups__v (
+   label(),
+   active(true),
+   default_value('MCCP Rollups are recalculated'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry pldev__v (
+   value('Pediatric Lung Diseases'),
+   order(1405),
+   active(true),
+   controlling_entries('il__v')
+);

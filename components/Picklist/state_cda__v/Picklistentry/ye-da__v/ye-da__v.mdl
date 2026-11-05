@@ -1,0 +1,6 @@
+Picklistentry ye-da__v (
+   value('Aḑ Ḑāli'''),
+   order(4999),
+   active(true),
+   controlling_entries('ye__v')
+);

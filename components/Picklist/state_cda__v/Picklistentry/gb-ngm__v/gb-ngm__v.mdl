@@ -1,0 +1,6 @@
+Picklistentry gb-ngm__v (
+   value('Nottingham'),
+   order(1578),
+   active(true),
+   controlling_entries('gb__v')
+);

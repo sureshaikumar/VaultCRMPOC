@@ -1,0 +1,18 @@
+Field reaction__v (
+   label('Reaction'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Picklist of reaction to the message.'),
+   list_column(false),
+   order(26),
+   multi_value(false),
+   picklist('Picklist.multichannel_activity_line_reaction__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

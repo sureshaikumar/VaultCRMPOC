@@ -1,0 +1,6 @@
+Picklistentry ugryo__v (
+   value('Uro-gynaecology'),
+   order(1891),
+   active(true),
+   controlling_entries('my__v')
+);

@@ -1,0 +1,17 @@
+Field end_date__v (
+   label('End Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(true),
+   help_content('This field sets the last day of the assignment of this geography to its parent model footprint.'),
+   list_column(true),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

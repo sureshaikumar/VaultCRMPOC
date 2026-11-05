@@ -1,0 +1,17 @@
+Field review_datetime__v (
+   label('Review Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Datetime the reviewer took an action on the Sent Email'),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

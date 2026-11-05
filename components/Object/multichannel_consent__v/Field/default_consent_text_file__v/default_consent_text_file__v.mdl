@@ -1,0 +1,15 @@
+Field default_consent_text_file__v (
+   label('Consent Text'),
+   type('Attachment'),
+   active(true),
+   description('The text that the Account consented for, from the review panel.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(49),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

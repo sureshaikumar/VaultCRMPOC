@@ -1,0 +1,5 @@
+Picklistentry jbo__v (
+   value('Lojban'),
+   order(190),
+   active(false)
+);

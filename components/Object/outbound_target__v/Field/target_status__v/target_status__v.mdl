@@ -1,0 +1,19 @@
+Field target_status__v (
+   label('Target Status'),
+   type('Picklist'),
+   active(true),
+   description('Status of the Target in relation to it''s referenced Target List (Campaign).'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.outbound_target_status__v'),
+   default_value('Picklist.outbound_target_status__v.active__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

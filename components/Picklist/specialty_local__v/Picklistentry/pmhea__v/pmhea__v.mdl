@@ -1,0 +1,11 @@
+Picklistentry pmhea__v (
+   value('Pharmaceutical Medicine'),
+   order(1512),
+   active(true),
+   controlling_entries('ch__v',
+         'gb__v',
+         'ie__v',
+         'li__v',
+         'pt__v',
+         'us__v')
+);

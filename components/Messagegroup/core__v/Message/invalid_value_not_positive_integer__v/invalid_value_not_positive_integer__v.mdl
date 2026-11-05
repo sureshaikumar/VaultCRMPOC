@@ -1,0 +1,6 @@
+Message invalid_value_not_positive_integer__v (
+   label(),
+   active(true),
+   default_value('Value is not a positive integer.'),
+   system_managed(false)
+);

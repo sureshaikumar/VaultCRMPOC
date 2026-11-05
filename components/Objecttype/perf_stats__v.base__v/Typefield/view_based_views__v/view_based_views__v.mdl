@@ -1,0 +1,4 @@
+Typefield view_based_views__v (
+   source('standard'),
+   required(true)
+);

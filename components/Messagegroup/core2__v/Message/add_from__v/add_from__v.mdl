@@ -1,0 +1,6 @@
+Message add_from__v (
+   label(),
+   active(true),
+   default_value('Add From'),
+   system_managed(false)
+);

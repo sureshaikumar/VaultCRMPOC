@@ -1,0 +1,5 @@
+Picklistentry mag (
+   value('Magahi'),
+   order(245),
+   active(true)
+);

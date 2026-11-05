@@ -1,0 +1,6 @@
+Message case_inboxes_discarded_section_label__v (
+   label(),
+   active(true),
+   default_value('Discarded'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 33740__v (
+   value('Monroe, LA Metropolitan Statistical Area'),
+   order(91),
+   active(true)
+);

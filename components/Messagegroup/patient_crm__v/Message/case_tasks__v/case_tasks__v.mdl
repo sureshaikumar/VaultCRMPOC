@@ -1,0 +1,6 @@
+Message case_tasks__v (
+   label(),
+   active(true),
+   default_value('Case Tasks'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield vmi_listening_priorities__v (
+   source('standard'),
+   required(false)
+);

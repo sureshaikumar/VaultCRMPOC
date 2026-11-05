@@ -1,0 +1,5 @@
+Picklistentry days__v (
+   value('Days'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message unable_to_assign__v (
+   label(),
+   active(true),
+   default_value('Unable to Assign'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gr-h__v (
+   value('Stereá Elláda'),
+   order(1774),
+   active(true),
+   controlling_entries('gr__v')
+);

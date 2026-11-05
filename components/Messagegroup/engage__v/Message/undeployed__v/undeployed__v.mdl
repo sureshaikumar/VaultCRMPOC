@@ -1,0 +1,6 @@
+Message undeployed__v (
+   label(),
+   active(true),
+   default_value('Undeployed'),
+   system_managed(false)
+);

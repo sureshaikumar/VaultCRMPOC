@@ -1,0 +1,6 @@
+Message territory__v (
+   label(),
+   active(true),
+   default_value('Territory'),
+   system_managed(false)
+);

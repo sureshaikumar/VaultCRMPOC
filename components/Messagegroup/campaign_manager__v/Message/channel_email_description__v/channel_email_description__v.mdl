@@ -1,0 +1,6 @@
+Message channel_email_description__v (
+   label(),
+   active(true),
+   default_value('Send a non-personal email'),
+   system_managed(false)
+);

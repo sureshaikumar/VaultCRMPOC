@@ -1,0 +1,6 @@
+Message transcription_not_supported__v (
+   label(),
+   active(true),
+   default_value('Transcription is not supported in your device''s language.'),
+   system_managed(false)
+);

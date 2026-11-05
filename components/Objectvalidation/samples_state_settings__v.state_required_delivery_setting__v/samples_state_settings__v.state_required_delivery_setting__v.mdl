@@ -1,0 +1,9 @@
+RECREATE Objectvalidation samples_state_settings__v.state_required_delivery_setting__v (
+   label('State Required Delivery Setting'),
+   active(true),
+   expression('state_distributor_required__v != true || IsBlank(setting__v)'),
+   description('State Distributor Requirements and Delivery Method Setting cannot be defined in the same record. If state_distributor_required__v = true and setting__v is not blank, display an error.'),
+   error_message('Cannot define State Distributor Requirements and Delivery Method Setting in the same record'),
+   error_location('state_distributor_required__v',
+      'setting__v')
+);

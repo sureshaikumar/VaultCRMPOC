@@ -1,0 +1,5 @@
+Picklistentry st (
+   value('Sesotho'),
+   order(85),
+   active(true)
+);

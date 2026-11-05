@@ -1,0 +1,6 @@
+Message prescription_removed_from_journey__v (
+   label(),
+   active(true),
+   default_value('${product} Prescription was removed from ${patientJourney}'),
+   system_managed(false)
+);

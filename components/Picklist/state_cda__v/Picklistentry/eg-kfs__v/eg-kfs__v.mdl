@@ -1,0 +1,6 @@
+Picklistentry eg-kfs__v (
+   value('Kafr ash Shaykh'),
+   order(1173),
+   active(true),
+   controlling_entries('eg__v')
+);

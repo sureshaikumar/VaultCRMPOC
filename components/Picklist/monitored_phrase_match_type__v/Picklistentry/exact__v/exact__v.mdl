@@ -1,0 +1,5 @@
+Picklistentry exact__v (
+   value('Exact'),
+   order(0),
+   active(true)
+);

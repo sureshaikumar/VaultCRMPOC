@@ -1,0 +1,19 @@
+Field workflow_instance_id__v (
+   label('Workflow Instance Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used to capture the Workflow Instance Id that is launched'),
+   list_column(false),
+   order(50),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

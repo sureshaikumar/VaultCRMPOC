@@ -1,0 +1,6 @@
+Picklistentry us-vt__v (
+   value('Vermont'),
+   order(4843),
+   active(true),
+   controlling_entries('us__v')
+);

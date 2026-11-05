@@ -1,0 +1,6 @@
+Message join__v (
+   label(),
+   active(true),
+   default_value('Join'),
+   system_managed(false)
+);

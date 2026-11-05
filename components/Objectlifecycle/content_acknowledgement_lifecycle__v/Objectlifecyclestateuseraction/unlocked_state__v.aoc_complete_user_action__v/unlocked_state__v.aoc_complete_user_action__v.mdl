@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction unlocked_state__v.aoc_complete_user_action__v (
+   label('Change State to Completed'),
+   rule(@rule.xml),
+   order(1000)
+);

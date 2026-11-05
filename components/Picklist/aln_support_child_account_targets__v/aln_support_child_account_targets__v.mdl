@@ -1,0 +1,8 @@
+RECREATE Picklist aln_support_child_account_targets__v (
+   label('Support Child Account Targets'),
+   active(true),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

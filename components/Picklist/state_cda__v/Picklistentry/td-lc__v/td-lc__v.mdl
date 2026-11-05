@@ -1,0 +1,6 @@
+Picklistentry td-lc__v (
+   value('Al Buḩayrah'),
+   order(4309),
+   active(true),
+   controlling_entries('td__v')
+);

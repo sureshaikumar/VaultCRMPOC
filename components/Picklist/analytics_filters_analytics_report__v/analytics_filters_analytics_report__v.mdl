@@ -1,0 +1,13 @@
+RECREATE Picklist analytics_filters_analytics_report__v (
+   label('Analytics Report'),
+   active(true),
+   Picklistentry(@Picklistentry/average_calls_per_day__v.mdl),
+   Picklistentry(@Picklistentry/account_summary__v.mdl),
+   Picklistentry(@Picklistentry/reach_and_frequency__v.mdl),
+   Picklistentry(@Picklistentry/territory_sales_analysis__v.mdl),
+   Picklistentry(@Picklistentry/territory_comparison__v.mdl),
+   Picklistentry(@Picklistentry/effort_vs_results__v.mdl),
+   Picklistentry(@Picklistentry/territory_payer_analysis__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

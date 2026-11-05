@@ -1,0 +1,6 @@
+Message copy_target_list_subheader__v (
+   label(),
+   active(true),
+   default_value('Copy from a previous target list'),
+   system_managed(false)
+);

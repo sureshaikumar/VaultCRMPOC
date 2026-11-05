@@ -1,0 +1,5 @@
+Index shared_with_user__sys (
+   description(),
+   fields('shared_with_user__sys'),
+   label('Shared with User')
+);

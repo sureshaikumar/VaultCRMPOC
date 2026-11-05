@@ -1,0 +1,15 @@
+RECREATE Tab medical_inquiries__c (
+   active(true),
+   all_view_label('All Medical Inquiries'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Medical Inquiries'),
+   modal_create_record(false),
+   my_view_label('My Medical Inquiries'),
+   object_type('Objecttype.medical_inquiry__v.medical_inquiry__v'),
+   order(4400),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Medical Inquiries')
+);

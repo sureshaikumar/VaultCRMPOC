@@ -1,0 +1,11 @@
+RECREATE Pagelink contract_partner_view_pagelink__v (
+   label('Contract Partner View'),
+   description('Redirects viewing Contract Partners to the Contract Partner App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Object.id}}/view'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.contract_partner__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.contract_partner_app_page__v')
+);

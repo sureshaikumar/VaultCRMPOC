@@ -1,0 +1,5 @@
+Picklistentry 41140__v (
+   value('St. Joseph, MO-KS Metropolitan Statistical Area'),
+   order(296),
+   active(true)
+);

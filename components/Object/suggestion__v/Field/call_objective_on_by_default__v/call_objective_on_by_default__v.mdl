@@ -1,0 +1,18 @@
+Field call_objective_on_by_default__v (
+   label('Call Objective On By Default'),
+   type('Boolean'),
+   active(true),
+   description('Checkbox determines whether call objective is on by default'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry aseus__v (
+   value('Aesthetic Surgery'),
+   order(35),
+   active(true),
+   controlling_entries('am__v')
+);

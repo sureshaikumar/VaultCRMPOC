@@ -1,0 +1,4 @@
+Typefield system_availability_emails__sys (
+   source('standard'),
+   required(false)
+);

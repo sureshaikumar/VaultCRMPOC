@@ -1,0 +1,17 @@
+Field view_protected_pdf__sys (
+   label('Allow viewing of protected PDFs'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('If enabled, Vault attempts to unlock secured PDF files for display in the document viewer.'),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

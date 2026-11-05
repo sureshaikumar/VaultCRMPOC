@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate create_checklist_type_success__v (
+   label('Create Checklist Type Success'),
+   active(true),
+   description('Notifies user their checklist type creation is successful.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Checklist Type Provisioning Completed'),
+   notification('<p>Checklist Type provisioning successfully completed. Open <a href="${urlChecklistType}">${checklisttype_record_label__sys}</a> to add matching fields if required.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

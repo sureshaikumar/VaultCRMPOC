@@ -1,0 +1,4 @@
+Typefield local_currency__sys (
+   source('custom'),
+   required(false)
+);

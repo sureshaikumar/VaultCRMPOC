@@ -1,0 +1,6 @@
+Message conflicting_network_field_mapping_error__v (
+   label(),
+   active(true),
+   default_value('Cannot save mapping. The data_source__v (CRM) and third_party_system_owner__v (Network) fields are implicitly mapped by the system.'),
+   system_managed(false)
+);

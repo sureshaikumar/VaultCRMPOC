@@ -1,0 +1,5 @@
+Picklistentry psup__v (
+   value('Patient Support'),
+   order(20),
+   active(true)
+);

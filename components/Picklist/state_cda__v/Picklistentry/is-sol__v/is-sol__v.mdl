@@ -1,0 +1,6 @@
+Picklistentry is-sol__v (
+   value('Sveitarfélagið Ölfus'),
+   order(2144),
+   active(true),
+   controlling_entries('is__v')
+);

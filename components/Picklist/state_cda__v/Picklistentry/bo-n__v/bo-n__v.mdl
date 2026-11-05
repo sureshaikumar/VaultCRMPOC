@@ -1,0 +1,6 @@
+Picklistentry bo-n__v (
+   value('Pando'),
+   order(443),
+   active(true),
+   controlling_entries('bo__v')
+);

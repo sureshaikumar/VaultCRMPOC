@@ -1,0 +1,6 @@
+Picklistentry td-mo__v (
+   value('Māyū Kībbī al Gharbī'),
+   order(4315),
+   active(true),
+   controlling_entries('td__v')
+);

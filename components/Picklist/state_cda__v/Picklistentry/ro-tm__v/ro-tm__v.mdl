@@ -1,0 +1,6 @@
+Picklistentry ro-tm__v (
+   value('Timiș'),
+   order(3753),
+   active(true),
+   controlling_entries('ro__v')
+);

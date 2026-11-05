@@ -1,0 +1,5 @@
+Picklistentry uzs__sys (
+   value('UZS'),
+   order(195),
+   active(true)
+);

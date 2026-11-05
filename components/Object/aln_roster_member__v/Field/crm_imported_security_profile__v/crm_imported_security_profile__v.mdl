@@ -1,0 +1,19 @@
+Field crm_imported_security_profile__v (
+   label('Imported Security Profile'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('For CRM-managed Roster Members, the value represents the name of the CRM Security Profile assigned to the Roster Member. This field should not be used when the Roster Member is Managed by Align.'),
+   list_column(true),
+   order(120),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,12 @@
+RECREATE Integrationrule medical_inquiry_case_response_ir__v (
+   label('Medical Inquiry Case Response Integration Rule'),
+   active(true),
+   connection('medical_crm__v'),
+   integration_point('medical_inquiry_iip__v'),
+   primary_query_object('case_response__v'),
+   Fieldrule(@Fieldrule/global_id__v.mdl),
+   Fieldrule(@Fieldrule/link__v.mdl),
+   Fieldrule(@Fieldrule/response_document_link__v.mdl),
+   Fieldrule(@Fieldrule/response_notes__v.mdl),
+   Queryobjectrule(@Queryobjectrule/case_response__v.mdl)
+);

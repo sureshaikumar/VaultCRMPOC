@@ -1,0 +1,5 @@
+Picklistentry blue__v (
+   value('Blue'),
+   order(8),
+   active(true)
+);

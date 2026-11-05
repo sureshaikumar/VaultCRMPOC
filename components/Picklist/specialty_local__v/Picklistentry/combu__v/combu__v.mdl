@@ -1,0 +1,8 @@
+Picklistentry combu__v (
+   value('Combustiology'),
+   order(304),
+   active(true),
+   controlling_entries('ge__v',
+         'kg__v',
+         'ua__v')
+);

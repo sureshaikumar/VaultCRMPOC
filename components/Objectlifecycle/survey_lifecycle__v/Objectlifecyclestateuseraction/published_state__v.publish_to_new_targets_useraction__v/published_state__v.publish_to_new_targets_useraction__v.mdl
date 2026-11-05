@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction published_state__v.publish_to_new_targets_useraction__v (
+   label('Publish To New Targets'),
+   rule(@rule.xml),
+   order(2000)
+);

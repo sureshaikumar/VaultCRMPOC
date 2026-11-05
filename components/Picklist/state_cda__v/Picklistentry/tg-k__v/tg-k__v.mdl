@@ -1,0 +1,6 @@
+Picklistentry tg-k__v (
+   value('Kara'),
+   order(4324),
+   active(true),
+   controlling_entries('tg__v')
+);

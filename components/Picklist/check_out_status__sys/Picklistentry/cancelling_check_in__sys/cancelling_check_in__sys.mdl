@@ -1,0 +1,5 @@
+Picklistentry cancelling_check_in__sys (
+   value('Cancelling Check In'),
+   order(4),
+   active(true)
+);

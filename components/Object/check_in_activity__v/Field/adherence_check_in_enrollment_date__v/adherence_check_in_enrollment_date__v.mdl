@@ -1,0 +1,17 @@
+Field adherence_check_in_enrollment_date__v (
+   label('Adherence Check-In Enrollment Date'),
+   type('DateTime'),
+   active(true),
+   description('The check-in enrollment date.'),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

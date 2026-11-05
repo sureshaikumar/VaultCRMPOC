@@ -1,0 +1,5 @@
+Picklistentry hrk__sys (
+   value('HRK'),
+   order(80),
+   active(true)
+);

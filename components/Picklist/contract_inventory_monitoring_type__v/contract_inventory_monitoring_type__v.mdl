@@ -1,0 +1,7 @@
+RECREATE Picklist contract_inventory_monitoring_type__v (
+   label('Inventory Monitoring Type'),
+   active(true),
+   Picklistentry(@Picklistentry/inventory_monitoring__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

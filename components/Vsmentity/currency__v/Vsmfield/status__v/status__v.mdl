@@ -1,0 +1,13 @@
+Vsmfield status__v (
+   label('Status'),
+   active(true),
+   description('Indicates whether the currency is currently active and available for use within the system. Common values include active__v and inactive__v. Use this to filter for currencies that are currently enabled for transactions or reporting.'),
+   example_values(),
+   synonyms('active',
+         'currency status',
+         'enabled'),
+   target('status__v'),
+   target_label('Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

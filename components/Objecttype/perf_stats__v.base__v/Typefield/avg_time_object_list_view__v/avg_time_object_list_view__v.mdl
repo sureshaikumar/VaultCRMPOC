@@ -1,0 +1,4 @@
+Typefield avg_time_object_list_view__v (
+   source('standard'),
+   required(true)
+);

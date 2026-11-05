@@ -1,0 +1,6 @@
+Message ctav_error_connection_problem__v (
+   label(),
+   active(true),
+   default_value('Connection problem when deleting following slides from destination org: ${slide_id}'),
+   system_managed(false)
+);

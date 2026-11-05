@@ -1,0 +1,6 @@
+Message error_choose_future_date__v (
+   label(),
+   active(true),
+   default_value('Choose a date in the future'),
+   system_managed(false)
+);

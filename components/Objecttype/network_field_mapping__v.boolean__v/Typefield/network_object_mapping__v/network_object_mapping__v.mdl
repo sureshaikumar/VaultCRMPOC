@@ -1,0 +1,4 @@
+Typefield network_object_mapping__v (
+   source('standard'),
+   required(true)
+);

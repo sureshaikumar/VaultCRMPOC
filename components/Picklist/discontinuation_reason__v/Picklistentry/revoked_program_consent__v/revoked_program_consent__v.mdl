@@ -1,0 +1,5 @@
+Picklistentry revoked_program_consent__v (
+   value('Revoked Program Consent'),
+   order(6),
+   active(true)
+);

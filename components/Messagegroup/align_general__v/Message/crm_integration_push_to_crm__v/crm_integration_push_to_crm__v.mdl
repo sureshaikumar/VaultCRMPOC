@@ -1,0 +1,6 @@
+Message crm_integration_push_to_crm__v (
+   label(),
+   active(true),
+   default_value('Push to CRM'),
+   system_managed(false)
+);

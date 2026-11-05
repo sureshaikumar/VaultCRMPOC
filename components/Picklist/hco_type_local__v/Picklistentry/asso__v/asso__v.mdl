@@ -1,0 +1,5 @@
+Picklistentry asso__v (
+   value('Association'),
+   order(10),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message private_alert_status_warning__v (
+   label(),
+   active(true),
+   default_value('Private alerts must specify who should receive this alert before the Push Notify Status field can be set. To continue, add at least one Alert User Action or Alert Profile record.'),
+   system_managed(false)
+);

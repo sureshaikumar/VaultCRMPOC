@@ -1,0 +1,6 @@
+Picklistentry dtpee__v (
+   value('Dental Technology Practice'),
+   order(368),
+   active(true),
+   controlling_entries('nz__v')
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_reject__v (
+   label(),
+   active(true),
+   default_value('Reject'),
+   system_managed(false)
+);

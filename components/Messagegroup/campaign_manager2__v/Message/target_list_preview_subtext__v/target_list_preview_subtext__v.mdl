@@ -1,0 +1,6 @@
+Message target_list_preview_subtext__v (
+   label(),
+   active(true),
+   default_value('Previewing ${count} of ${total} estimated targets based on current filters'),
+   system_managed(false)
+);

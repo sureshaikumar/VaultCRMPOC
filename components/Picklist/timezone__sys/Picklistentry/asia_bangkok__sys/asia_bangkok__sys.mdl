@@ -1,0 +1,5 @@
+Picklistentry asia_bangkok__sys (
+   value('(GMT+07:00) Indochina Time (Asia/Bangkok)'),
+   order(246),
+   active(true)
+);

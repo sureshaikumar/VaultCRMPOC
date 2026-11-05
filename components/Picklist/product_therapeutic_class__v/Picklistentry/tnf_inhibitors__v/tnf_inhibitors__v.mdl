@@ -1,0 +1,5 @@
+Picklistentry tnf_inhibitors__v (
+   value('TNF Inhibitors'),
+   order(111),
+   active(true)
+);

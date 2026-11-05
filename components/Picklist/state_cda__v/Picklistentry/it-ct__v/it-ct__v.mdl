@@ -1,0 +1,6 @@
+Picklistentry it-ct__v (
+   value('Catania'),
+   order(2202),
+   active(true),
+   controlling_entries('it__v')
+);

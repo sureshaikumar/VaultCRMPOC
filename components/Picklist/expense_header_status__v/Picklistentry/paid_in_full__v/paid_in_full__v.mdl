@@ -1,0 +1,5 @@
+Picklistentry paid_in_full__v (
+   value('Paid in Full'),
+   order(1),
+   active(true)
+);

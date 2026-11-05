@@ -1,0 +1,13 @@
+RECREATE Tab territory_management_menu__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Territory Management'),
+   order(2600),
+   parent(),
+   Subtab(@Subtab/territories_tab__v.mdl),
+   Subtab(@Subtab/account_territories_tab__v.mdl),
+   Subtab(@Subtab/user_territories_tab__v.mdl),
+   Subtab(@Subtab/geography_territories_tab__v.mdl),
+   Subtab(@Subtab/assignment_rules_tab__v.mdl)
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-805__v (
+   value('Opava'),
+   order(901),
+   active(true),
+   controlling_entries('cz__v')
+);

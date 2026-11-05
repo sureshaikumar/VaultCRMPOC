@@ -1,0 +1,4 @@
+Typefield do_not_create_child_account__v (
+   source('standard'),
+   required(false)
+);

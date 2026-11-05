@@ -1,0 +1,14 @@
+Vsmfield locale__v (
+   label('Locale'),
+   active(true),
+   description('Reference to the specific locale associated with this record, representing a regional variant of a language (e.g., en_US, fr_FR). Use this field to identify or filter by the precise regional language configuration in use.'),
+   example_values(),
+   synonyms('region',
+         'locale code',
+         'regional setting',
+         'country-language pair'),
+   target('locale__sys'),
+   target_label('Locale'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

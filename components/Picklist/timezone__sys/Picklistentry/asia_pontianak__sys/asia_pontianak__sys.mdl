@@ -1,0 +1,5 @@
+Picklistentry asia_pontianak__sys (
+   value('(GMT+07:00) West Indonesia Time (Asia/Pontianak)'),
+   order(254),
+   active(true)
+);

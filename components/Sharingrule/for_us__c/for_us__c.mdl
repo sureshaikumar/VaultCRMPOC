@@ -1,0 +1,8 @@
+RECREATE Sharingrule for_us__c (
+   label('for US'),
+   active(true),
+   description(),
+   object('mc_cycle__v'),
+   criteria([aln_country__v = 'US']),
+   Sharingrole(@Sharingrole/editor__v.mdl)
+);

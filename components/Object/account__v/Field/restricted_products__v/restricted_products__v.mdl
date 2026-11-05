@@ -1,0 +1,17 @@
+Field restricted_products__v (
+   label('Restricted Products'),
+   type('LongText'),
+   active(true),
+   description('Used to prevent a user from detailing and sampling a product that the Physician should not be allowed to receive. Format of field value: Double semi-colon delimited list of Product Names. These will be textual Product Catalog records of type = Detail. For'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(81),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

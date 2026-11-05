@@ -1,0 +1,4 @@
+Typefield create_new_document__sys (
+   source('standard'),
+   required(true)
+);

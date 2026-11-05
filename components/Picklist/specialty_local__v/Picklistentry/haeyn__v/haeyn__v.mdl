@@ -1,0 +1,7 @@
+Picklistentry haeyn__v (
+   value('Hygiene and Epidemiology'),
+   order(725),
+   active(true),
+   controlling_entries('cz__v',
+         'lt__v')
+);

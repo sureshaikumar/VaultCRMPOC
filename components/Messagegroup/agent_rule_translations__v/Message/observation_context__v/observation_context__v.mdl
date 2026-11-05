@@ -1,0 +1,6 @@
+Message observation_context__v (
+   label(),
+   active(true),
+   default_value('Observation Context'),
+   system_managed(false)
+);

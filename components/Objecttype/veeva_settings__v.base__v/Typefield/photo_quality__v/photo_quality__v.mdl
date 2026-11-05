@@ -1,0 +1,4 @@
+Typefield photo_quality__v (
+   source('standard'),
+   required(false)
+);

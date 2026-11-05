@@ -1,0 +1,6 @@
+Message choose_message_template__v (
+   label(),
+   active(true),
+   default_value('Choose Message Template'),
+   system_managed(false)
+);

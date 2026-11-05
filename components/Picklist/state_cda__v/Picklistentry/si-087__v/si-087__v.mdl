@@ -1,0 +1,6 @@
+Picklistentry si-087__v (
+   value('Ormož'),
+   order(4061),
+   active(true),
+   controlling_entries('si__v')
+);

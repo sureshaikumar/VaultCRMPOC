@@ -1,0 +1,20 @@
+Field gas_user_filters__v (
+   label('Online User Filters'),
+   type('String'),
+   active(true),
+   description('Identifies the Veeva Message used to define the fields that can be used for user filters in Global Account Search online.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('"GAS_USER_FILTERS;;Global Account Search"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message edit_field_action__v (
+   label(),
+   active(true),
+   default_value('Edit Field Action'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry mw-mu__v (
+   value('Mulanje'),
+   order(3223),
+   active(true),
+   controlling_entries('mw__v')
+);

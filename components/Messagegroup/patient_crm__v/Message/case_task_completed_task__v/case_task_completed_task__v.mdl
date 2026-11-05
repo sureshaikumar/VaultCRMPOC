@@ -1,0 +1,6 @@
+Message case_task_completed_task__v (
+   label(),
+   active(true),
+   default_value('${assignee} completed ${task_label}'),
+   system_managed(false)
+);

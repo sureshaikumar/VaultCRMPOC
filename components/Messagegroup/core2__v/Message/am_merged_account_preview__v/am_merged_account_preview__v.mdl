@@ -1,0 +1,6 @@
+Message am_merged_account_preview__v (
+   label(),
+   active(true),
+   default_value('Merged Account Preview'),
+   system_managed(false)
+);

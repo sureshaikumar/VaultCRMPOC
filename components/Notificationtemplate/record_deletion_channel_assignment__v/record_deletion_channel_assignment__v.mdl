@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate record_deletion_channel_assignment__v (
+   label('Channel Assignment Record Deletion'),
+   active(true),
+   description('Notifies the user when an Email Channel Assignment is deleted'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.channel_assignment__v'),
+   subject('Email Inbox Deleted'),
+   notification('An email inbox has been deleted.<br/>Details:<br/> <ul><li>Email Inbox Name: ${Custom.channel_assignment_name}</li><li>Status Message: The email inbox was deleted from the Service Center configuration by ${Custom.user_name}.  If this is not intentional, check Service Center configurations.</li><li>Date: ${Custom.date}</li></ul>'),
+   email_body('An email inbox has been deleted.<br/>Details:<br/> <ul><li>Email Inbox Name: ${Custom.channel_assignment_name}</li><li>Status Message: The email inbox was deleted from the Service Center configuration by ${Custom.user_name}.  If this is not intentional, check Service Center configurations.</li><li>Date: ${Custom.date}</li></ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

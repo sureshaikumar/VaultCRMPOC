@@ -1,0 +1,6 @@
+Message after_call_work__v (
+   label(),
+   active(true),
+   default_value('After-Call Work'),
+   system_managed(false)
+);

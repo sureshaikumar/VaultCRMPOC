@@ -1,0 +1,6 @@
+Message case_owner_and_account_set_state_change__v (
+   label(),
+   active(true),
+   default_value('Case Owner and Account added. Case state changed to ${lifecycle_state}.'),
+   system_managed(false)
+);

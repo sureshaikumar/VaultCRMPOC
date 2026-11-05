@@ -1,0 +1,9 @@
+RECREATE Picklist exception_item_error_status__sys (
+   label('User Exception Item Error Status'),
+   active(true),
+   Picklistentry(@Picklistentry/success__sys.mdl),
+   Picklistentry(@Picklistentry/failed__sys.mdl),
+   Picklistentry(@Picklistentry/warning__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

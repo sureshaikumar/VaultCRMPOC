@@ -1,0 +1,6 @@
+Picklistentry heagi__v (
+   value('Histology - Embryology and Genetics'),
+   order(706),
+   active(true),
+   controlling_entries('dz__v')
+);

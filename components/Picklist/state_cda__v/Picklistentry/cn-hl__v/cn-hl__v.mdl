@@ -1,0 +1,6 @@
+Picklistentry cn-hl__v (
+   value('Heilongjiang Sheng'),
+   order(706),
+   active(true),
+   controlling_entries('cn__v')
+);

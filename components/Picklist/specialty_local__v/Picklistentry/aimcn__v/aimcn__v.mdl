@@ -1,0 +1,7 @@
+Picklistentry aimcn__v (
+   value('Acute Internal Medicine'),
+   order(9),
+   active(true),
+   controlling_entries('ae__v',
+         'gb__v')
+);

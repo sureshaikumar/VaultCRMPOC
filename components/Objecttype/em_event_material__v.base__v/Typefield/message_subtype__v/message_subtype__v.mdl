@@ -1,0 +1,4 @@
+Typefield message_subtype__v (
+   source('standard'),
+   required(false)
+);

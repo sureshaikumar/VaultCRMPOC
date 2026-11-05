@@ -1,0 +1,6 @@
+Message targets_by_segment__v (
+   label(),
+   active(true),
+   default_value('Targets by Segment'),
+   system_managed(false)
+);

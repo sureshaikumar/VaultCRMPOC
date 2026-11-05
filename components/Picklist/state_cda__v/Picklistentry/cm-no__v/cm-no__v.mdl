@@ -1,0 +1,6 @@
+Picklistentry cm-no__v (
+   value('North'),
+   order(688),
+   active(true),
+   controlling_entries('cm__v')
+);

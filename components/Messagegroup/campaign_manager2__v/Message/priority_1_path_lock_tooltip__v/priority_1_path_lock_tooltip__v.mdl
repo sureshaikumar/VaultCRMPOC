@@ -1,0 +1,6 @@
+Message priority_1_path_lock_tooltip__v (
+   label(),
+   active(true),
+   default_value('Priority 1 path cannot be removed'),
+   system_managed(false)
+);

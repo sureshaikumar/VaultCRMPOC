@@ -1,0 +1,20 @@
+Field custom_email__c (
+   label('custom email'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('Test email field'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(225),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

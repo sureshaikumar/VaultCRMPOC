@@ -1,0 +1,6 @@
+Message mccp_ff_and_ffm_no_exist_in_cycle_err__v (
+   label(),
+   active(true),
+   default_value('MC Cycle should have a field force or a field force model'),
+   system_managed(false)
+);

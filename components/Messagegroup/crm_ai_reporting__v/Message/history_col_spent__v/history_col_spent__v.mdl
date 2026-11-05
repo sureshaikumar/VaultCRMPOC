@@ -1,0 +1,6 @@
+Message history_col_spent__v (
+   label(),
+   active(true),
+   default_value('Spent'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field attendee_account_type__v (
+   label('Attendee Account Type'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Used by EM Business Rules to determine the Attendee Account Type.'),
+   list_column(false),
+   order(76),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

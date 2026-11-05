@@ -1,0 +1,18 @@
+Field account_exclusivity_exceptions__v (
+   label('Account Exclusivity Exceptions'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('This lists the account assignment sources which are exempt from the exclusivity that can be turned on through the Account Exclusivity Model Align Setting. This field is only editable if Account Exclusivity is set to TRUE.'),
+   list_column(true),
+   order(9),
+   multi_value(true),
+   picklist('Picklist.aln_source3__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

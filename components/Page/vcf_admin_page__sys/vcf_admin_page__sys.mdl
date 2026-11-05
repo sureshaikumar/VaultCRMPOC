@@ -1,0 +1,14 @@
+RECREATE Page vcf_admin_page__sys (
+   label('VCF Admin Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('vcf_admin_page__sys'),
+   description('Default admin page to display records for a specific VCF component type'),
+   disable_chrome(false),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.vcfadmin.VcfAdminPage'),
+   url_path_name('componenttype')
+);

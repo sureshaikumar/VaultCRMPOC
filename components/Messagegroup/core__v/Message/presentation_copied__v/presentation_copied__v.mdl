@@ -1,0 +1,6 @@
+Message presentation_copied__v (
+   label(),
+   active(true),
+   default_value('${presentation_name} has been copied to "${target_vault}"'),
+   system_managed(false)
+);

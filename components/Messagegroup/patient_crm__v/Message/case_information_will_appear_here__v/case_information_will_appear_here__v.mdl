@@ -1,0 +1,6 @@
+Message case_information_will_appear_here__v (
+   label(),
+   active(true),
+   default_value('Case information will appear here'),
+   system_managed(false)
+);

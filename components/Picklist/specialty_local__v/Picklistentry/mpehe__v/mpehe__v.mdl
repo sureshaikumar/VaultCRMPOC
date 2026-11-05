@@ -1,0 +1,8 @@
+Picklistentry mpehe__v (
+   value('Medical Pharmacology'),
+   order(932),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v',
+         'tr__v')
+);

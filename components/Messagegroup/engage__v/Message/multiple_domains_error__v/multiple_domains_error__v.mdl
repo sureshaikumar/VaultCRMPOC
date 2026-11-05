@@ -1,0 +1,6 @@
+Message multiple_domains_error__v (
+   label(),
+   active(true),
+   default_value('Each Vault instance can have only one My Engage Portal Domain record.'),
+   system_managed(false)
+);

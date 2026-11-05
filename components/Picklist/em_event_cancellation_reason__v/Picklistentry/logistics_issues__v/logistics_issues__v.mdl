@@ -1,0 +1,5 @@
+Picklistentry logistics_issues__v (
+   value('Logistics Issues'),
+   order(1),
+   active(true)
+);

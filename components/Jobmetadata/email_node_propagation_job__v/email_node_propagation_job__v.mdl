@@ -1,0 +1,10 @@
+RECREATE Jobmetadata email_node_propagation_job__v (
+   label('Email Node Propagation Job'),
+   active(true),
+   chunk_size(1),
+   description('This job ensures the structural integrity of the entire email thread is correct and that the status of each message is consistent after a change.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.casemanagement.jobs.EmailNodePropagationJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

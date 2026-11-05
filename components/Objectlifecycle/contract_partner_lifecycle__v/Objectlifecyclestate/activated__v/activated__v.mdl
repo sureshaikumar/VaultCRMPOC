@@ -1,0 +1,10 @@
+Objectlifecyclestate activated__v (
+   label('Activated'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('Corresponds to the Contract Partner Status of Activated'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

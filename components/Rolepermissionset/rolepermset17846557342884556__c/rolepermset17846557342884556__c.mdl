@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17846557342884556__c (
+   label('Agentic Email'),
+   active(true),
+   application_role('email__c'),
+   permission_sets('Permissionset.agentic_email__c')
+);

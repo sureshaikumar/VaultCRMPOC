@@ -1,0 +1,6 @@
+Message cancel_adding_targets__v (
+   label(),
+   active(true),
+   default_value('Cancel Adding Targets'),
+   system_managed(false)
+);

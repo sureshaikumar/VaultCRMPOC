@@ -1,0 +1,6 @@
+Message proceed_confirmation__v (
+   label(),
+   active(true),
+   default_value('Would you like to proceed?'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry na-oh__v (
+   value('Omaheke'),
+   order(3307),
+   active(true),
+   controlling_entries('na__v')
+);

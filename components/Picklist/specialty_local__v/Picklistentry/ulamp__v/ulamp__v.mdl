@@ -1,0 +1,6 @@
+Picklistentry ulamp__v (
+   value('Upper Limb and Microsurgery'),
+   order(1888),
+   active(true),
+   controlling_entries('my__v')
+);

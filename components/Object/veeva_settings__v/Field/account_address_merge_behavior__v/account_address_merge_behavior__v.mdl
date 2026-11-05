@@ -1,0 +1,19 @@
+Field account_address_merge_behavior__v (
+   label('Account Address Merge Behavior'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(331),
+   multi_value(false),
+   picklist('Picklist.account_address_merge_behavior__v'),
+   default_value('{inactive__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field patient_journey_detail_fields__v (
+   label('Patient Journey Detail Fields'),
+   type('String'),
+   active(true),
+   description('Defines up to 10 Patient Journey Association (patient_journey_association__v) fields to display in the Patient Journey Details section of the Key Journey Details helper tab, in the order listed. Enter as a double semicolon (;;)-delimited list, for example: patient_journey_association__v.fieldname__v;;patient_journey_association__v.fieldname__v'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

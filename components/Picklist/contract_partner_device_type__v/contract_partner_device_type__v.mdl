@@ -1,0 +1,11 @@
+RECREATE Picklist contract_partner_device_type__v (
+   label('Device Type'),
+   active(true),
+   Picklistentry(@Picklistentry/ipad__v.mdl),
+   Picklistentry(@Picklistentry/winmodern__v.mdl),
+   Picklistentry(@Picklistentry/tablet__v.mdl),
+   Picklistentry(@Picklistentry/online__v.mdl),
+   Picklistentry(@Picklistentry/data_load__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

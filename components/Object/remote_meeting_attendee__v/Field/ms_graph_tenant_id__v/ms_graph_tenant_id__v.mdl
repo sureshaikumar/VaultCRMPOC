@@ -1,0 +1,19 @@
+Field ms_graph_tenant_id__v (
+   label('MS Graph Tenant Id'),
+   type('String'),
+   active(true),
+   description('Stores the Tenant Id provided by MS Graph.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

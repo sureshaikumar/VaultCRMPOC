@@ -1,0 +1,6 @@
+Message concur_total_itemizations__v (
+   label(),
+   active(true),
+   default_value('Total Itemizations'),
+   system_managed(false)
+);

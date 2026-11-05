@@ -1,0 +1,6 @@
+Message selecting_territory_required_error__v (
+   label(),
+   active(true),
+   default_value('Selecting a territory is required'),
+   system_managed(false)
+);

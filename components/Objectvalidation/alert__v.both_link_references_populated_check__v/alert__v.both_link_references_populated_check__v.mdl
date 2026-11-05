@@ -1,0 +1,9 @@
+RECREATE Objectvalidation alert__v.both_link_references_populated_check__v (
+   label('Both Link References Populated Check'),
+   active(true),
+   expression('Or(IsBlank(link_reference_long__v), IsBlank(link_reference__v))'),
+   description('Ensures that users do not populate both Link Reference and Link Reference Long fields simultaneously.'),
+   error_message('Both the Link Reference and Link Reference Long fields cannot be populated on the same Alert record.'),
+   error_location('link_reference__v',
+      'link_reference_long__v')
+);

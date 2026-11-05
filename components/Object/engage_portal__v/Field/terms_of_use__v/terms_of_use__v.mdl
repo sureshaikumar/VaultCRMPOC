@@ -1,0 +1,15 @@
+Field terms_of_use__v (
+   label('Terms of Use'),
+   type('Attachment'),
+   active(true),
+   description('HTML file for the Terms of Use shown to end users in My Engage Portal.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

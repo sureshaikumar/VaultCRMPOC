@@ -1,0 +1,5 @@
+Picklistentry 40060__v (
+   value('Richmond, VA Metropolitan Statistical Area'),
+   order(130),
+   active(true)
+);

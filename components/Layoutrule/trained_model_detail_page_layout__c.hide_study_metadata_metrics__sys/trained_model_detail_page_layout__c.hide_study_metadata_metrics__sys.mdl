@@ -1,0 +1,16 @@
+RECREATE Layoutrule trained_model_detail_page_layout__c.hide_study_metadata_metrics__sys (
+   active(true),
+   description(),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('trained_model_type__sys = "document_classification__sys"'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections('metadata_extraction_model_perf_metrics__c',
+      'metadata_extraction_prediction_metrics__c'),
+   hide_layout(false),
+   label('Hide Study Metadata Metrics'),
+   order(400)
+);

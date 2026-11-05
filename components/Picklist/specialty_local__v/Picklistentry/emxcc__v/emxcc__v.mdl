@@ -1,0 +1,6 @@
+Picklistentry emxcc__v (
+   value('Emergency Medicine and Critical Care'),
+   order(480),
+   active(true),
+   controlling_entries('ng__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry vds__v (
+   value('VDS'),
+   order(4),
+   active(true)
+);

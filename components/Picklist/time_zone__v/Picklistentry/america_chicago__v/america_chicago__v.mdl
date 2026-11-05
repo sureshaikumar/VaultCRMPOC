@@ -1,0 +1,5 @@
+Picklistentry america_chicago__v (
+   value('Central Time'),
+   order(75),
+   active(true)
+);

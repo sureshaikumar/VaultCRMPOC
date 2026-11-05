@@ -1,0 +1,6 @@
+Picklistentry lmhae__v (
+   value('Laboratory Medicine / Hematology'),
+   order(850),
+   active(true),
+   controlling_entries('qa__v')
+);

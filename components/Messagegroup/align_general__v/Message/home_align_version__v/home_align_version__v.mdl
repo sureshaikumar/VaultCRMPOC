@@ -1,0 +1,6 @@
+Message home_align_version__v (
+   label(),
+   active(true),
+   default_value('Align Version: {0}'),
+   system_managed(false)
+);

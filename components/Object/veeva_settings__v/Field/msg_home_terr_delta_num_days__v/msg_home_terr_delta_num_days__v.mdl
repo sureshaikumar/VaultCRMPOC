@@ -1,0 +1,23 @@
+Field msg_home_terr_delta_num_days__v (
+   label('MSG_HOME_TERR_DELTA_NUM_DAYS'),
+   type('Number'),
+   active(true),
+   description('Designates the number of days Territory delta information is preserved for display in the VMobile Tablet application Home Page.  Default value is 7 days.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(217),
+   default_value('7'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <expression operator="eq" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+            <value>Object.connection__sys.object_type__v</value>
+        </expression>
+        <expression operator="value" type="string">
+            <value>Vault to Vault</value>
+        </expression>
+    </expression>
+    <actions>
+        <action type="LIFECYCLE_STATE_CHANGE_ACTION" transitionState="Objectlifecyclestate.active_state__sys" />
+    </actions>
+</rule>

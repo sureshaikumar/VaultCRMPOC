@@ -1,0 +1,6 @@
+Picklistentry tr-16__v (
+   value('Bursa'),
+   order(4474),
+   active(true),
+   controlling_entries('tr__v')
+);

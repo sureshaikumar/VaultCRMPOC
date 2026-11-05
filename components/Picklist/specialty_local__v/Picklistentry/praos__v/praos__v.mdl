@@ -1,0 +1,6 @@
+Picklistentry praos__v (
+   value('Pediatric Respiratory and/or Sleep Medicine'),
+   order(1451),
+   active(true),
+   controlling_entries('nz__v')
+);

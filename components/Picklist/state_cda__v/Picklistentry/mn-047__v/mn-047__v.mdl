@@ -1,0 +1,6 @@
+Picklistentry mn-047__v (
+   value('Töv'),
+   order(3076),
+   active(true),
+   controlling_entries('mn__v')
+);

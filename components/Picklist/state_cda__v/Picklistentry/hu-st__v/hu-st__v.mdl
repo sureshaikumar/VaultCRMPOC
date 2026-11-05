@@ -1,0 +1,6 @@
+Picklistentry hu-st__v (
+   value('Salgótarján'),
+   order(1907),
+   active(true),
+   controlling_entries('hu__v')
+);

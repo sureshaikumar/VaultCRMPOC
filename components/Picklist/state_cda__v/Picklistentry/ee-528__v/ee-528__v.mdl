@@ -1,0 +1,6 @@
+Picklistentry ee-528__v (
+   value('Nõo'),
+   order(1107),
+   active(true),
+   controlling_entries('ee__v')
+);

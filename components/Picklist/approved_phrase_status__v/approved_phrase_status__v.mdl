@@ -1,0 +1,9 @@
+RECREATE Picklist approved_phrase_status__v (
+   label('Approved Phrase Status'),
+   active(true),
+   Picklistentry(@Picklistentry/staged__v.mdl),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   Picklistentry(@Picklistentry/expired__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

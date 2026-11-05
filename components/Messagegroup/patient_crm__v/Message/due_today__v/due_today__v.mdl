@@ -1,0 +1,6 @@
+Message due_today__v (
+   label(),
+   active(true),
+   default_value('Due Today'),
+   system_managed(false)
+);

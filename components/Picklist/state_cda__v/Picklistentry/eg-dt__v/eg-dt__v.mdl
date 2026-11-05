@@ -1,0 +1,6 @@
+Picklistentry eg-dt__v (
+   value('Dumyāţ'),
+   order(1166),
+   active(true),
+   controlling_entries('eg__v')
+);

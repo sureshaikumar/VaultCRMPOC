@@ -1,0 +1,6 @@
+Picklistentry md-un__v (
+   value('Ungheni'),
+   order(2906),
+   active(true),
+   controlling_entries('md__v')
+);

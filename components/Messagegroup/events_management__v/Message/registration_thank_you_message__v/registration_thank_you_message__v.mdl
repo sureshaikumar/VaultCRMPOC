@@ -1,0 +1,6 @@
+Message registration_thank_you_message__v (
+   label(),
+   active(true),
+   default_value('You will receive a confirmation message with additional information. We look forward to you attending the event.'),
+   system_managed(false)
+);

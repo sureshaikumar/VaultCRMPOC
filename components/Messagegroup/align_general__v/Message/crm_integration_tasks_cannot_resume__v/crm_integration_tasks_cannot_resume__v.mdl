@@ -1,0 +1,6 @@
+Message crm_integration_tasks_cannot_resume__v (
+   label(),
+   active(true),
+   default_value('Integration tasks cannot resume until this has been resolved. Please contact your System Administrator.'),
+   system_managed(false)
+);

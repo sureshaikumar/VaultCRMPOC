@@ -1,0 +1,6 @@
+Picklistentry jm-13__v (
+   value('Clarendon'),
+   order(2293),
+   active(true),
+   controlling_entries('jm__v')
+);

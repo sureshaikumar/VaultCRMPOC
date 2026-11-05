@@ -1,0 +1,6 @@
+Message edit_scheduled__v (
+   label(),
+   active(true),
+   default_value('Edit Scheduled Email'),
+   system_managed(false)
+);

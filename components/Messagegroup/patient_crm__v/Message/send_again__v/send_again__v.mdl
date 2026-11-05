@@ -1,0 +1,6 @@
+Message send_again__v (
+   label(),
+   active(true),
+   default_value('Send Again'),
+   system_managed(false)
+);

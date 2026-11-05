@@ -1,0 +1,6 @@
+Message am_all_records_reassociated__v (
+   label(),
+   active(true),
+   default_value('All records will be re-associated to the winning account. 5 Objects have special handling. {0}'),
+   system_managed(false)
+);

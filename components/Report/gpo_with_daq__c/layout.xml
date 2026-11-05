@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:enableMergeCells>false</vrp:enableMergeCells>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="account__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.name__v" type="documentProperty" index="1" columnWidth="200" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.gporequiresadherencetocontracts__c" type="documentProperty" index="2" columnWidth="244" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.gposfamiliaritywithjvx__c" type="documentProperty" index="3" columnWidth="179" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.gpos_general_attitude_toward_jvx__c" type="documentProperty" index="4" columnWidth="225" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.contractnegotiationstatus__c" type="documentProperty" index="5" columnWidth="180" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.typicallengthofnegotiation__c" type="documentProperty" index="6" columnWidth="189" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.lengthoffinalreview__c" type="documentProperty" index="7" columnWidth="155" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.marketingopportunitiesforsuppliers__c" type="documentProperty" index="8" columnWidth="240" />
+    <vrp:column key="dynamic_attribute_query__v___account__v.salesforceeductingonnewproductadd__c" type="documentProperty" index="9" columnWidth="258" />
+  </vrp:columns>
+  <vrp:relationshipObjectJoinTypes>
+    <vrp:relationshipObjectJoinType relationshipKeyRef="reportTypeRef1753800462659" vobjectJoinType="NONE" />
+  </vrp:relationshipObjectJoinTypes>
+</vrp:reportFormat>

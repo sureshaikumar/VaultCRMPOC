@@ -1,0 +1,6 @@
+Message user_connection_status__v (
+   label(),
+   active(true),
+   default_value('User Connection Status'),
+   system_managed(false)
+);

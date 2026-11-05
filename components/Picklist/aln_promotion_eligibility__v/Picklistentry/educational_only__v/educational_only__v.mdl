@@ -1,0 +1,5 @@
+Picklistentry educational_only__v (
+   value('Educational Only'),
+   order(2),
+   active(true)
+);

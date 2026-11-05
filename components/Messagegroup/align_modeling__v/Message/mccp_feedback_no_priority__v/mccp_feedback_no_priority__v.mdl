@@ -1,0 +1,6 @@
+Message mccp_feedback_no_priority__v (
+   label(),
+   active(true),
+   default_value('No Priority'),
+   system_managed(false)
+);

@@ -1,0 +1,3 @@
+Typeaction view_signature__v (
+   action('contract_partner__v.view_signature__v')
+);

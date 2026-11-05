@@ -1,0 +1,5 @@
+Picklistentry mos (
+   value('Mossi'),
+   order(263),
+   active(true)
+);

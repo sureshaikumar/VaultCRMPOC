@@ -1,0 +1,6 @@
+Message vector_database_sync_warning__v (
+   label(),
+   active(true),
+   default_value('This process can take anywhere from several minutes to a few hours, depending on the volume and type of content selected. AI functionalities may be temporarily unavailable while this process runs. If CLM Presentations are included, this process will consume LLM tokens. Are you sure you want to continue?'),
+   system_managed(false)
+);

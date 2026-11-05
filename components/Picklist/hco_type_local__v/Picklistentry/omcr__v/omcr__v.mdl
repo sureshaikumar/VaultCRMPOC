@@ -1,0 +1,5 @@
+Picklistentry omcr__v (
+   value('Oriental Medical Clinic'),
+   order(178),
+   active(true)
+);

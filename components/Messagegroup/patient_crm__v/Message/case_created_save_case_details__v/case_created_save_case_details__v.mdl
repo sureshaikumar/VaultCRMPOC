@@ -1,0 +1,6 @@
+Message case_created_save_case_details__v (
+   label(),
+   active(true),
+   default_value('Case created. Optionally Save Case Details below.'),
+   system_managed(false)
+);

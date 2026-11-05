@@ -1,0 +1,6 @@
+Message field_mapping_system_field_unmodifiable__v (
+   label(),
+   active(true),
+   default_value('System field mapping cannot be changed.'),
+   system_managed(false)
+);

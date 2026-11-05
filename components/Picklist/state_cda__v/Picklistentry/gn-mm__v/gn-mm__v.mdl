@@ -1,0 +1,6 @@
+Picklistentry gn-mm__v (
+   value('Mamou Prefecture'),
+   order(1748),
+   active(true),
+   controlling_entries('gn__v')
+);

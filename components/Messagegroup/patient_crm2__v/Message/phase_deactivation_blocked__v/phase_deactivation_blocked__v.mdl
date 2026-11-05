@@ -1,0 +1,6 @@
+Message phase_deactivation_blocked__v (
+   label(),
+   active(true),
+   default_value('Cannot deactivate this phase because one or more patients are currently active in it. Make sure all patients have either completed or not started this phase first.'),
+   system_managed(false)
+);

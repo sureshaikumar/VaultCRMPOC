@@ -1,0 +1,8 @@
+RECREATE Picklist medinquiry_transfer_status__v (
+   label('MedInquiry Transfer Status'),
+   active(true),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/success__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

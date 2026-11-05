@@ -1,0 +1,6 @@
+Message concur_expense_attribution_association__v (
+   label(),
+   active(true),
+   default_value('Expense Attribution to Entry Attendee Associations'),
+   system_managed(false)
+);

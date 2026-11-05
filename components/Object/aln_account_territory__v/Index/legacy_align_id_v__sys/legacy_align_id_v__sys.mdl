@@ -1,0 +1,5 @@
+Index legacy_align_id_v__sys (
+   description(),
+   fields('legacy_align_id__v'),
+   label('Legacy Align ID')
+);

@@ -1,0 +1,4 @@
+Typefield team_channel_activity_goal__v (
+   source('custom'),
+   required(false)
+);

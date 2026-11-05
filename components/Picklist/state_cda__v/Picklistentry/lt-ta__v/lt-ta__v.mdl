@@ -1,0 +1,6 @@
+Picklistentry lt-ta__v (
+   value('Tauragė County'),
+   order(2685),
+   active(true),
+   controlling_entries('lt__v')
+);

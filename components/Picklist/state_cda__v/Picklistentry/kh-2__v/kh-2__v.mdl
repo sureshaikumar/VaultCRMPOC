@@ -1,0 +1,6 @@
+Picklistentry kh-2__v (
+   value('Baat Dambang [Bătdâmbâng]'),
+   order(2421),
+   active(true),
+   controlling_entries('kh__v')
+);

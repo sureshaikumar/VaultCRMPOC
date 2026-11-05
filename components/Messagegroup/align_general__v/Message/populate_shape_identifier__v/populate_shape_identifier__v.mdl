@@ -1,0 +1,6 @@
+Message populate_shape_identifier__v (
+   label(),
+   active(true),
+   default_value('"Shape Identifier" must be populated in order to use the Geo Shape Generator.'),
+   system_managed(false)
+);

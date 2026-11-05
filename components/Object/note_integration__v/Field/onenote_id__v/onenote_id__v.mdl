@@ -1,0 +1,19 @@
+Field onenote_id__v (
+   label('OneNote ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('UUID of the OneNote Notebook for the case.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

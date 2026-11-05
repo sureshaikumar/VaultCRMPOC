@@ -1,0 +1,5 @@
+Picklistentry sm__v (
+   value('Samoan'),
+   order(268),
+   active(false)
+);

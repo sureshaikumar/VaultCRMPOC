@@ -1,0 +1,6 @@
+Message mccp_cycle_lifespan_must_be_in_range_err__v (
+   label(),
+   active(true),
+   default_value('Cycle lifespan must be within lifespan from {0} to {1} of {2} .'),
+   system_managed(false)
+);

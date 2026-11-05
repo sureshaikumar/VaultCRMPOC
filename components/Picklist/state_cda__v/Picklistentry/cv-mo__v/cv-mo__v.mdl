@@ -1,0 +1,6 @@
+Picklistentry cv-mo__v (
+   value('Mosteiros'),
+   order(790),
+   active(true),
+   controlling_entries('cv__v')
+);

@@ -1,0 +1,19 @@
+Field query_reporting_status__v (
+   label('Query and Reporting Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status field indicates if the Dynamic Attribute field is ready for query'),
+   list_column(false),
+   order(28),
+   multi_value(false),
+   picklist('Picklist.query_reporting_status__v'),
+   default_value('{disabled__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(false),
+   control_binding()
+);

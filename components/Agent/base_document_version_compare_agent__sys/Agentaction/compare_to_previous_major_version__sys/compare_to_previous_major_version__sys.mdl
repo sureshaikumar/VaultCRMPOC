@@ -1,0 +1,12 @@
+Agentaction compare_to_previous_major_version__sys (
+   label('Compare to Previous Major Version'),
+   active(true),
+   api_access(false),
+   description('This action compares changes between 2 versions of a document and generates a quick summary of key business-critical and functionally relevant changes. Currently, this action only supports comparison between the Current Version and an Older Version which must be the Previous Major Version. The changes are described from the perspective of the user who is reading the Current Version.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(true),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

@@ -1,0 +1,6 @@
+Message no_del_last_address__v (
+   label(),
+   active(true),
+   default_value('You cannot delete the last address.'),
+   system_managed(false)
+);

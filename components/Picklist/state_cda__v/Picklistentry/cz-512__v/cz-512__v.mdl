@@ -1,0 +1,6 @@
+Picklistentry cz-512__v (
+   value('Jablonec nad Nisou'),
+   order(857),
+   active(true),
+   controlling_entries('cz__v')
+);

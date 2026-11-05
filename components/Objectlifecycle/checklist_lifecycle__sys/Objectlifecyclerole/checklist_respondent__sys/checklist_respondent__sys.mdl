@@ -1,0 +1,5 @@
+Objectlifecyclerole checklist_respondent__sys (
+   active(true),
+   application_role('Applicationrole.checklist_respondent__sys'),
+   permissions()
+);

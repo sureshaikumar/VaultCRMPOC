@@ -1,0 +1,8 @@
+Picklistentry hgeap__v (
+   value('Hepato-Gastroenterology'),
+   order(696),
+   active(true),
+   controlling_entries('cm__v',
+         'dz__v',
+         'sn__v')
+);

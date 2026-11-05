@@ -1,0 +1,6 @@
+Picklistentry prxca__v (
+   value('Primary Care'),
+   order(1594),
+   active(true),
+   controlling_entries('ca__v')
+);

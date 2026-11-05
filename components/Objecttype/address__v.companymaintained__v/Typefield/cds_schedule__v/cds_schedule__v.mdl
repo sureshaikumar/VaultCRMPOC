@@ -1,0 +1,4 @@
+Typefield cds_schedule__v (
+   source('custom'),
+   required(false)
+);

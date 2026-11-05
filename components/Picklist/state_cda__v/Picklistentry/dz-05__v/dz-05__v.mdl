@@ -1,0 +1,6 @@
+Picklistentry dz-05__v (
+   value('Batna'),
+   order(986),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,14 @@
+Vsmfield vault_package_step__v (
+   label('Inbound Package Step'),
+   active(true),
+   description('Reference to the parent Inbound Package Step record that this data entry belongs to. Use this to associate package data with its corresponding step in the overall package deployment workflow.'),
+   example_values(),
+   synonyms('package step',
+         'deployment step',
+         'step',
+         'parent step'),
+   target('vault_package_step__v'),
+   target_label('Inbound Package Step'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

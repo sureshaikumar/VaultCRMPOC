@@ -1,0 +1,6 @@
+Picklistentry fr-29__v (
+   value('Finistère'),
+   order(1343),
+   active(true),
+   controlling_entries('fr__v')
+);

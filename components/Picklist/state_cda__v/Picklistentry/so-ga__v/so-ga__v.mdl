@@ -1,0 +1,6 @@
+Picklistentry so-ga__v (
+   value('Galguduud'),
+   order(4228),
+   active(true),
+   controlling_entries('so__v')
+);

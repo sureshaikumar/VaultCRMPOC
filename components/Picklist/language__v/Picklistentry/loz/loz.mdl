@@ -1,0 +1,5 @@
+Picklistentry loz (
+   value('Lozi'),
+   order(239),
+   active(true)
+);

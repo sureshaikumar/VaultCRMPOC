@@ -1,0 +1,6 @@
+Picklistentry ptari__v (
+   value('Pain Treatment'),
+   order(1279),
+   active(true),
+   controlling_entries('eg__v')
+);

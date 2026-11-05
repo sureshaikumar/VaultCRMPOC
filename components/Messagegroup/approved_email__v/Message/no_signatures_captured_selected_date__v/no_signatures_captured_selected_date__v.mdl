@@ -1,0 +1,6 @@
+Message no_signatures_captured_selected_date__v (
+   label(),
+   active(true),
+   default_value('No signatures captured on the selected date.'),
+   system_managed(false)
+);

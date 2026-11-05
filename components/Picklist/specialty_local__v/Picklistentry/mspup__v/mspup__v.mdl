@@ -1,0 +1,6 @@
+Picklistentry mspup__v (
+   value('Multi-Specialty Practice'),
+   order(978),
+   active(true),
+   controlling_entries('us__v')
+);

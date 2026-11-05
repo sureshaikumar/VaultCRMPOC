@@ -1,0 +1,6 @@
+Message align_settings_account_inactive_label__v (
+   label(),
+   active(true),
+   default_value('Account Status Inactive Values'),
+   system_managed(false)
+);

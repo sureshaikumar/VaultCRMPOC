@@ -1,0 +1,8 @@
+Picklistentry dasel__v (
+   value('Dento-Alveolar Surgery'),
+   order(383),
+   active(true),
+   controlling_entries('hu__v',
+         'nz__v',
+         'ro__v')
+);

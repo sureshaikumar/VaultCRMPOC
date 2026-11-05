@@ -1,0 +1,18 @@
+Field call_event_object_type_display__v (
+   label('Call Event Object Type Display'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(320),
+   default_value('FALSE'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

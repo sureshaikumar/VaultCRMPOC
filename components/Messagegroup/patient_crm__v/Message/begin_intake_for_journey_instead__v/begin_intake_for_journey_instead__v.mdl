@@ -1,0 +1,6 @@
+Message begin_intake_for_journey_instead__v (
+   label(),
+   active(true),
+   default_value('Begin Intake for a new Patient Journey instead.'),
+   system_managed(false)
+);

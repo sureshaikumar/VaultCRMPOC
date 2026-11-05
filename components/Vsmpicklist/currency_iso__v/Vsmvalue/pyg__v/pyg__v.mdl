@@ -1,0 +1,10 @@
+Vsmvalue pyg__v (
+   label('PYG'),
+   active(true),
+   description('The official currency of Paraguay (PYG), used for all financial and commercial transactions within the country.'),
+   synonyms('Paraguayan guaraní',
+         'guaraní',
+         'PYG'),
+   target('pyg__sys'),
+   target_label('PYG')
+);

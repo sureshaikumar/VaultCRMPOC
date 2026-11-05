@@ -1,0 +1,6 @@
+Message needs_pin_to_connect__v (
+   label(),
+   active(true),
+   default_value('Needs PIN to connect'),
+   system_managed(false)
+);

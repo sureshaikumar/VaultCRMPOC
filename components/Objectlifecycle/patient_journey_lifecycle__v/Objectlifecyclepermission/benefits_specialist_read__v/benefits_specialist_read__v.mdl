@@ -1,0 +1,6 @@
+Objectlifecyclepermission benefits_specialist_read__v (
+   states('Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.inactive_state__v'),
+   role('Objectlifecyclerole.benefits_specialist__v'),
+   permission('Read')
+);

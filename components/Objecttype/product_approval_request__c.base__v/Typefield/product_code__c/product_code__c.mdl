@@ -1,0 +1,4 @@
+Typefield product_code__c (
+   source('standard'),
+   required(false)
+);

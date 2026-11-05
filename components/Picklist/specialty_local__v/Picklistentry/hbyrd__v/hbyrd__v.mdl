@@ -1,0 +1,6 @@
+Picklistentry hbyrd__v (
+   value('Hydrology-Bromatology'),
+   order(721),
+   active(true),
+   controlling_entries('dz__v')
+);

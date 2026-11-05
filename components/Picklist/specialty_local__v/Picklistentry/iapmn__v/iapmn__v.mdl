@@ -1,0 +1,6 @@
+Picklistentry iapmn__v (
+   value('Infant and Pediatric Medicine'),
+   order(750),
+   active(true),
+   controlling_entries('hu__v')
+);

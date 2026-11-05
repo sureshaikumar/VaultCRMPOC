@@ -1,0 +1,6 @@
+Message average_deal__v (
+   label(),
+   active(true),
+   default_value('Average Deal'),
+   system_managed(false)
+);

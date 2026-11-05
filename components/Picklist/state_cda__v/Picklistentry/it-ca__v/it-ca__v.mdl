@@ -1,0 +1,6 @@
+Picklistentry it-ca__v (
+   value('Cagliari'),
+   order(2193),
+   active(true),
+   controlling_entries('it__v')
+);

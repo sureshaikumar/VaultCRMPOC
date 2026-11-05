@@ -1,0 +1,7 @@
+Picklistentry cdoem__v (
+   value('Community Dentistry'),
+   order(310),
+   active(true),
+   controlling_entries('ng__v',
+         'za__v')
+);

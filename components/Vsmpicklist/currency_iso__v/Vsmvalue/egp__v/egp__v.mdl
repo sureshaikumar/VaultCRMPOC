@@ -1,0 +1,9 @@
+Vsmvalue egp__v (
+   label('EGP'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Egypt.'),
+   synonyms('Egyptian Pound',
+         'Egypt Pound'),
+   target('egp__sys'),
+   target_label('EGP')
+);

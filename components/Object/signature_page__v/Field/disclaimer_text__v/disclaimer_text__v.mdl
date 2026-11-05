@@ -1,0 +1,17 @@
+Field disclaimer_text__v (
+   label('Text'),
+   type('LongText'),
+   active(true),
+   description('The text that is displayed on the Signature page when capturing a signature for a record'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

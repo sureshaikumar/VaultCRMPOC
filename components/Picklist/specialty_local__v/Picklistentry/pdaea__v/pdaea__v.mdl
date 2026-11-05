@@ -1,0 +1,6 @@
+Picklistentry pdaea__v (
+   value('Paediatric Diabetes and Endocrinology'),
+   order(1253),
+   active(true),
+   controlling_entries('gb__v')
+);

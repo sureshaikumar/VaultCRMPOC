@@ -1,0 +1,6 @@
+Picklistentry cn-sd__v (
+   value('Shandong Sheng'),
+   order(717),
+   active(true),
+   controlling_entries('cn__v')
+);

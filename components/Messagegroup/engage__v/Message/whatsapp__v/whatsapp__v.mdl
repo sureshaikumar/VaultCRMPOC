@@ -1,0 +1,6 @@
+Message whatsapp__v (
+   label(),
+   active(true),
+   default_value('WhatsApp'),
+   system_managed(false)
+);

@@ -1,0 +1,25 @@
+Field enhanced_sub_presentations__v (
+   label('Enhanced Sub Presentations'),
+   type('Number'),
+   active(true),
+   description('Controls functionality for Sub Presentations.
+0 - Default
+1 - Sub Presentation Slides can be rearranged in Custom Presentations.'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(21),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction draft_state__c.entryaction4__c (
+   rule(@rule.xml),
+   order(1000)
+);

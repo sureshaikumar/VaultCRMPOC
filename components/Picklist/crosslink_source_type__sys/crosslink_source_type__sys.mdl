@@ -1,0 +1,8 @@
+RECREATE Picklist crosslink_source_type__sys (
+   label('CrossLink Source Type'),
+   active(true),
+   Picklistentry(@Picklistentry/rendition__sys.mdl),
+   Picklistentry(@Picklistentry/source_file_and_rendition__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

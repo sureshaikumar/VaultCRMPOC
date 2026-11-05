@@ -1,0 +1,13 @@
+Vsmfield description__v (
+   label('Description'),
+   active(true),
+   description('Free-text description providing additional context or explanation for the Document Type Group. Use this field to understand the purpose or scope of a group when the name alone is not sufficient.'),
+   example_values(),
+   synonyms('details',
+         'summary',
+         'notes'),
+   target('description__v'),
+   target_label('Description'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

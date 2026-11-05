@@ -1,0 +1,5 @@
+Picklistentry 23140__v (
+   value('Frankfort, IN Micropolitan Statistical Area'),
+   order(298),
+   active(true)
+);

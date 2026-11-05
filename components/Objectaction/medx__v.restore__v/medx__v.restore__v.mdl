@@ -1,0 +1,8 @@
+RECREATE Objectaction medx__v.restore__v (
+   label('Restore'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinteraction.actions.MedicalInteractionRestoreAction'),
+   active(true),
+   available_all_states(false)
+);

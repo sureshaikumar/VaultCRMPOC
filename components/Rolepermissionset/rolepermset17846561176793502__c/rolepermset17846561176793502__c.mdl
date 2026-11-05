@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17846561176793502__c (
+   label('Agentic Insight Quality'),
+   active(true),
+   application_role('insight__c'),
+   permission_sets('Permissionset.agentic_insight_quality__c')
+);

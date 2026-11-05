@@ -1,0 +1,22 @@
+Field display_order__v (
+   label('Display Order'),
+   type('Number'),
+   active(true),
+   description('The order in which the channels appear on the summary page.'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(-99999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

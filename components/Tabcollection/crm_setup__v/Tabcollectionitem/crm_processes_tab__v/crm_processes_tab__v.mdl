@@ -1,0 +1,8 @@
+Tabcollectionitem crm_processes_tab__v (
+   label(),
+   active(true),
+   tabs(),
+   order(5),
+   tab('Tab.crm_processes_tab__v'),
+   type('Tab')
+);

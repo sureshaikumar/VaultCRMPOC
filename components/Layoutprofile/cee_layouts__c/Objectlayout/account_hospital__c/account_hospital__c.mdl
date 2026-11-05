@@ -1,0 +1,8 @@
+Objectlayout account_hospital__c (
+   label('Account Hospital'),
+   active(true),
+   pagelayouts('Pagelayout.cee_hospital_detail_page_layout__c'),
+   object('Object.account__v'),
+   objecttype('Objecttype.account__v.hospital__v'),
+   record_creation_layout()
+);

@@ -1,0 +1,12 @@
+Vsmvalue draft_state__v (
+   label('Draft'),
+   active(true),
+   description('The glossary definition is being authored and has not yet been submitted for review.'),
+   synonyms('work in progress',
+         'initial',
+         'pending',
+         'under development',
+         'not yet submitted'),
+   target('draft_state__sys'),
+   target_label('Draft')
+);

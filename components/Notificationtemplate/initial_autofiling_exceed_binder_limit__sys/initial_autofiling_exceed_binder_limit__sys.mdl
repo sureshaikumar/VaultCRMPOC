@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate initial_autofiling_exceed_binder_limit__sys (
+   label('Initial Auto-filing Exceed Binder Limit'),
+   active(true),
+   description('Notification sent upon completion of a request to perform auto-filing on a binder, but auto-filing was not able to file some documents because the binder limit is exceeded.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" Auto-filing Completed'),
+   notification('<p>Filing for binder <b>${docName}</b> has completed.<br><b>Successfully filed ${addedDocsCount} documents into ${addedSectionsCount} sections.<br><br>${autofileExceedBinderLimitMsg}<br></b></p>'),
+   email_body('<p>Filing for binder ${docName} completed at ${autofileEndDateTime}<br></p><p>${autofileAddedDocsHeader} ${autofileAddedDocs}</p><br><p>${autofileExceedBinderLimitHeader} ${autofileExceedBinderLimitDocs}</p><p>You can see all your Notifications on your Vault home page under ${notificationHome}.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,12 @@
+Vsmfield type__v (
+   label('Type'),
+   active(true),
+   description('The record type classification for this inbound package step. IMPORTANT: This is a general object-level type field — for the functional step category, use step_type__v instead.'),
+   example_values(),
+   synonyms('record type',
+         'object type'),
+   target('type__v'),
+   target_label('Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

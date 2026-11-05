@@ -1,0 +1,19 @@
+Field last_name_intl__v (
+   label('Last Name (International)'),
+   type('String'),
+   active(true),
+   description('The HCP''s last name, family name or surname. Converted to Latin script via transliteration. Used globally for searching, data matching, international correspondence, and reading by non-local staff.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(208),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

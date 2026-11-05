@@ -1,0 +1,19 @@
+Field location_name__v (
+   label('Location Name'),
+   type('String'),
+   active(true),
+   description('This stores the text value of the associated Business Account. This will not be editable on Page Layouts'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(67),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

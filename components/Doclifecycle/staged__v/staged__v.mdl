@@ -1,0 +1,21 @@
+RECREATE Doclifecycle staged__v (
+   label('Staged Lifecycle'),
+   active(true),
+   description(''),
+   state_labels('base:general:starting',
+      'base:general:planned'),
+   labeled_states('Doclifecyclestate.staged__v',
+      'Doclifecyclestate.planned__v'),
+   expiration(),
+   signature_pages(),
+   overlays(),
+   Doclifecyclerole(@Doclifecyclerole/approver__v.mdl),
+   Doclifecyclerole(@Doclifecyclerole/consumer__v.mdl),
+   Doclifecyclerole(@Doclifecyclerole/coordinator__v.mdl),
+   Doclifecyclerole(@Doclifecyclerole/editor__v.mdl),
+   Doclifecyclerole(@Doclifecyclerole/owner__v.mdl),
+   Doclifecyclerole(@Doclifecyclerole/reviewer__v.mdl),
+   Doclifecyclerole(@Doclifecyclerole/viewer__v.mdl),
+   Doclifecyclestate(@Doclifecyclestate/planned__v.mdl),
+   Doclifecyclestate(@Doclifecyclestate/staged__v.mdl)
+);

@@ -1,0 +1,6 @@
+Picklistentry fhnae__v (
+   value('Family Health Nursing'),
+   order(534),
+   active(true),
+   controlling_entries('pt__v')
+);

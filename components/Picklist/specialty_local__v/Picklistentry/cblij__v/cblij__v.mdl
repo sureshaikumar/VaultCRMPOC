@@ -1,0 +1,9 @@
+Picklistentry cblij__v (
+   value('Clinical Biology'),
+   order(213),
+   active(true),
+   controlling_entries('be__v',
+         'dz__v',
+         'lu__v',
+         'sn__v')
+);

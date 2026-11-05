@@ -1,0 +1,6 @@
+Message checksection_label__sys (
+   label(),
+   active(true),
+   default_value('Check Section'),
+   system_managed(false)
+);

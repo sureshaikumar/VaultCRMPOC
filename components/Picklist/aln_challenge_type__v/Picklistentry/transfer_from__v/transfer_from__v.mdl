@@ -1,0 +1,5 @@
+Picklistentry transfer_from__v (
+   value('Transfer From'),
+   order(6),
+   active(true)
+);

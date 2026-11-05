@@ -1,0 +1,5 @@
+Picklistentry king_pharmaceuticals__v (
+   value('King Pharmaceuticals'),
+   order(23),
+   active(true)
+);

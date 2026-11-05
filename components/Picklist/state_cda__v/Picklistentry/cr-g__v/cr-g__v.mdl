@@ -1,0 +1,6 @@
+Picklistentry cr-g__v (
+   value('Guanacaste'),
+   order(762),
+   active(true),
+   controlling_entries('cr__v')
+);

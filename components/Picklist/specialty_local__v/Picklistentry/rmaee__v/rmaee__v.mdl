@@ -1,0 +1,6 @@
+Picklistentry rmaee__v (
+   value('Radiation Medicine'),
+   order(1665),
+   active(true),
+   controlling_entries('am__v')
+);

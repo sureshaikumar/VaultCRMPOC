@@ -1,0 +1,6 @@
+Picklistentry ga-2__v (
+   value('Haut-Ogooué'),
+   order(1440),
+   active(true),
+   controlling_entries('ga__v')
+);

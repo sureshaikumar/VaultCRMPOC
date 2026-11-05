@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction closed_won_state__v.change_state_to_needs_analysis_useracti2__c (
+   label('Change State to Needs Analysis'),
+   rule(@rule.xml),
+   order(1002)
+);

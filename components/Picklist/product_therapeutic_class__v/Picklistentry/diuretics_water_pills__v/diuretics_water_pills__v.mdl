@@ -1,0 +1,5 @@
+Picklistentry diuretics_water_pills__v (
+   value('Diuretics ("Water" Pills)'),
+   order(10),
+   active(true)
+);

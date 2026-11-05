@@ -1,0 +1,10 @@
+RECREATE Jobmetadata dynamic_attribute_query_disable__v (
+   label('Dynamic Attribute Query Disable Job'),
+   active(true),
+   chunk_size(1),
+   description('Job that deletes synced data for Dynamic Attribute Query records related to a disabled Dynamic Attribute Configuration record.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.dynamicattributes.jobs.DynamicAttributeQueryDisableJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

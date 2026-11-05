@@ -1,0 +1,5 @@
+Picklistentry power_of_attorney__v (
+   value('Power of Attorney'),
+   order(4),
+   active(true)
+);

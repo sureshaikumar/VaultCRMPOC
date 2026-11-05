@@ -1,0 +1,22 @@
+RECREATE Job user_activation__v (
+   active(true),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   Changeobjectstatejobaction(@Changeobjectstatejobaction/ocs_action__v.mdl),
+   day_of_month(0),
+   hourly_interval(),
+   label('User Account Activation'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('high'),
+   repeat_on_days(),
+   schedule('daily'),
+   time('0:00'),
+   timezone('GMT'),
+   trigger_date([{"lhs":"user__sys.activation_date__sys","operator":"-","rhs":\["0"\],"expressionType":"TRIGGER_DATE_TYPE","type":"Expression"}]),
+   type('JobType.date_based_object_operation__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

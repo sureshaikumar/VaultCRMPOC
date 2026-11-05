@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate ftp_attach_to_unsupported_document__v (
+   label('Cannot Upload LSA to Binder or Placeholder'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Invalid target - "${fileName}" not uploaded to "${docNameNoLink}"'),
+   notification('Error uploading "${fileName}" to "${docLatestName}". When specifying a target document for your rendition, you can only target documents that have source files (not binders or placeholders), and that are not crosslinks or unclassified documents.'),
+   email_body('<b>Vault: </b>${vaultName}
+<br><b>File: </b>"${fileName}".
+<p>There was an error uploading "${fileName}" to "${docLatestName}". When specifying a target document, you can only upload renditions to documents with source files (not binders or placeholders), and you cannot upload to crosslinks or unclassified documents.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,10 @@
+Vsmvalue lsl__v (
+   label('LSL'),
+   active(true),
+   description('The Lesotho Loti (LSL), the official currency of Lesotho, used for transactions, pricing, and financial records involving Lesotho markets.'),
+   synonyms('Lesotho loti',
+         'loti',
+         'LSL'),
+   target('lsl__sys'),
+   target_label('LSL')
+);

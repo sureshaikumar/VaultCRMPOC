@@ -1,0 +1,6 @@
+Message import_production_territory_dialog__v (
+   label(),
+   active(true),
+   default_value('Importing production territories and assignments'),
+   system_managed(false)
+);

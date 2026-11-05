@@ -1,0 +1,6 @@
+Picklistentry kr-42__v (
+   value('Gangwon'),
+   order(2478),
+   active(true),
+   controlling_entries('kr__v')
+);

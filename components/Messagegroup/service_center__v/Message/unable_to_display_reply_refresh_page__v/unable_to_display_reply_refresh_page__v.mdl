@@ -1,0 +1,6 @@
+Message unable_to_display_reply_refresh_page__v (
+   label(),
+   active(true),
+   default_value('Unable to display email reply. Please refresh the page.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry medical_laboratory_technologist__c (
+   value('Medical Laboratory Technologist'),
+   order(11),
+   active(true)
+);

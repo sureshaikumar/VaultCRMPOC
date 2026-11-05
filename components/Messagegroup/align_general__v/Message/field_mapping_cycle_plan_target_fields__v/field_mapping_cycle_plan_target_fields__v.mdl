@@ -1,0 +1,6 @@
+Message field_mapping_cycle_plan_target_fields__v (
+   label(),
+   active(true),
+   default_value('MC Cycle Plan Target Fields'),
+   system_managed(false)
+);

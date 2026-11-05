@@ -1,0 +1,6 @@
+Picklistentry ad-07__v (
+   value('Andorra la Vella'),
+   order(5),
+   active(true),
+   controlling_entries('ad__v')
+);

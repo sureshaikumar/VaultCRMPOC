@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate teams_creation_error__v (
+   label('Teams Creation Error'),
+   active(true),
+   description('Notifies the user when a Team has not been successfully created in Microsoft via the Create Team action.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.collaboration_space_configuration__v'),
+   subject('Error creating Team in Microsoft'),
+   notification('Error creating Team in Microsoft.'),
+   email_body('The system encountered an error when creating "${Custom.team_name}" in Microsoft.<br>Please check the error status details and try again. <a href=${Custom.link_to_record}>Link to Record</a>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

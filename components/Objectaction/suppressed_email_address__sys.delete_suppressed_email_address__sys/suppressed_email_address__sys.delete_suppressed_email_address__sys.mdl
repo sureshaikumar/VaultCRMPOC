@@ -1,0 +1,8 @@
+RECREATE Objectaction suppressed_email_address__sys.delete_suppressed_email_address__sys (
+   label('Remove From Suppression List'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.emailsuppressionlist.DeleteSuppressedEmailAddressAction'),
+   active(true),
+   available_all_states(true)
+);

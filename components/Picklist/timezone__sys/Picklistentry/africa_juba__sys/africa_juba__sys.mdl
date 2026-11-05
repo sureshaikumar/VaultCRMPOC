@@ -1,0 +1,5 @@
+Picklistentry africa_juba__sys (
+   value('(GMT+02:00) Central Africa Time (Africa/Juba)'),
+   order(170),
+   active(true)
+);

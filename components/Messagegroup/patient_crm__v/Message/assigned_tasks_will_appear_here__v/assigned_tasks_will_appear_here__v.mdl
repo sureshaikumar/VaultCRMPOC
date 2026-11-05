@@ -1,0 +1,6 @@
+Message assigned_tasks_will_appear_here__v (
+   label(),
+   active(true),
+   default_value('Your assigned Tasks will appear here'),
+   system_managed(false)
+);

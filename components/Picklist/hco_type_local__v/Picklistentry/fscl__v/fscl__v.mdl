@@ -1,0 +1,5 @@
+Picklistentry fscl__v (
+   value('Federal Staff Clinic'),
+   order(64),
+   active(true)
+);

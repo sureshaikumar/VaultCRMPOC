@@ -1,0 +1,6 @@
+Picklistentry ma-02__v (
+   value('L''Oriental'),
+   order(2767),
+   active(true),
+   controlling_entries('ma__v')
+);

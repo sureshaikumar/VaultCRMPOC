@@ -1,0 +1,22 @@
+Field attendees__v (
+   label('Attendees'),
+   type('Number'),
+   active(true),
+   description('The total number of attendees for this call. For a group call with four doctors, this would be "3" for the parent call associated to the parent account and "0" for the child calls.  For performance reasons, this is not set via a trigger.'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

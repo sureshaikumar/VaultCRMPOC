@@ -1,0 +1,7 @@
+Picklistentry psoud__v (
+   value('Podiatric Surgery'),
+   order(1580),
+   active(true),
+   controlling_entries('au__v',
+         'qa__v')
+);

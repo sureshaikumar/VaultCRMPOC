@@ -1,0 +1,10 @@
+RECREATE Jobmetadata owner_field_reconciliation__v (
+   label('Owner Field Reconciliation'),
+   active(true),
+   chunk_size(500),
+   description('Job to ensure that the Owner (ownerid__v) field is populated for all records. Any existing values are not modified.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.common.jobs.OwnerFieldReconciliationJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

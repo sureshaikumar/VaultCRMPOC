@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate scheduled_process_view_dist_limit__v (
+   label('Scheduled Process View Dist. Limit'),
+   active(true),
+   description('Notification template for a scheduled Process View run where the distribution limit for notifications was reached.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Process View: ${processViewLabel} notification limit reached'),
+   notification('<p>The Process View: <a href="${processViewViewerUrl}">${processViewLabelHtml}</a> has more than ${processViewDistributionLimit} users in the distribution list, so no notifications were sent. The run still completed successfully.</p><p>Ran as: ${processViewRunAsUserFullName}<br />Ran at: ${processViewRunTime}</p>'),
+   email_body('<p>The Process View: <a href="${processViewViewerUrl}">${processViewLabelHtml}</a> has more than ${processViewDistributionLimit} users in the distribution list, so no notifications were sent. The run still completed successfully.</p><p>Ran as: ${processViewRunAsUserFullName}<br />Ran at: ${processViewRunTime}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

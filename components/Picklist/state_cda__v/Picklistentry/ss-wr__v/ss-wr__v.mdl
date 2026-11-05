@@ -1,0 +1,6 @@
+Picklistentry ss-wr__v (
+   value('Warrap'),
+   order(4260),
+   active(true),
+   controlling_entries('ss__v')
+);

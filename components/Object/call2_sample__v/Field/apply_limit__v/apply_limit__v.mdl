@@ -1,0 +1,18 @@
+Field apply_limit__v (
+   label('Apply_Limit'),
+   type('Boolean'),
+   active(true),
+   description('System field used in the application of Sample Limits against a Call Sample record. Should not be displayed in any page layouts.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

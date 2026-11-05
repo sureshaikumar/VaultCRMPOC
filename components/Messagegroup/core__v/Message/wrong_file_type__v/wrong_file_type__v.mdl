@@ -1,0 +1,6 @@
+Message wrong_file_type__v (
+   label(),
+   active(true),
+   default_value('Wrong File Type'),
+   system_managed(false)
+);

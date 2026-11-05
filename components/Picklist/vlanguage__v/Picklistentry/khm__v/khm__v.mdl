@@ -1,0 +1,5 @@
+Picklistentry khm__v (
+   value('Central Khmer'),
+   order(49),
+   active(false)
+);

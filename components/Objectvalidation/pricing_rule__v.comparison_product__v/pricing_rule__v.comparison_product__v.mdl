@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.comparison_product__v (
+   label('Comparison Product'),
+   active(true),
+   expression('IsBlank(comparison_product__v) ||
+And(
+    comparison_product__vr.product_type__v = ''order__v'' ||
+    comparison_product__vr.product_type__v = ''detail__v'' ||
+    comparison_product__vr.product_type__v = ''product_group__v'',
+    cross_product_rule__v = true
+)'),
+   description('Only product types Order, Detail, [empty] or Product Group is allowed. And when the comparison product is not empty, Cross Product Rule check box needs to be checked.'),
+   error_message('Only product types Order, Detail, [empty], Product Group or Fixed Kit is allowed. And when the comparison product is not empty, Cross Product Rule check box needs to be checked.'),
+   error_location('comparison_product__v')
+);

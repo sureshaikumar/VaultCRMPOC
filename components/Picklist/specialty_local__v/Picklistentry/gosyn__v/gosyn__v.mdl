@@ -1,0 +1,6 @@
+Picklistentry gosyn__v (
+   value('Gynecological Oncology Surgery'),
+   order(646),
+   active(true),
+   controlling_entries('tr__v')
+);

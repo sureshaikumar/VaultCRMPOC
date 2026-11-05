@@ -1,0 +1,6 @@
+Message messages_sent__v (
+   label(),
+   active(true),
+   default_value('Messages Sent'),
+   system_managed(false)
+);

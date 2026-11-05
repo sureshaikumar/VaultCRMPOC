@@ -1,0 +1,6 @@
+Picklistentry fr-42__v (
+   value('Loire'),
+   order(1358),
+   active(true),
+   controlling_entries('fr__v')
+);

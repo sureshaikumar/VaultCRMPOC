@@ -1,0 +1,15 @@
+RECREATE Tab em_event_configuration__v (
+   active(true),
+   all_view_label('All Event Configuration'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Event Configuration'),
+   modal_create_record(false),
+   my_view_label('My Event Configuration'),
+   object_type('Objecttype.em_event_configuration__v.event_configuration__v'),
+   order(3800),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Event Configuration')
+);

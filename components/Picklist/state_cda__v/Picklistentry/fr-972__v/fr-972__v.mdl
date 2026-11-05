@@ -1,0 +1,6 @@
+Picklistentry fr-972__v (
+   value('Martinique'),
+   order(1415),
+   active(true),
+   controlling_entries('fr__v')
+);

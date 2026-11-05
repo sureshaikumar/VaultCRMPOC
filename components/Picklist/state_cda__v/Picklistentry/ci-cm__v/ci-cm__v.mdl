@@ -1,0 +1,6 @@
+Picklistentry ci-cm__v (
+   value('Comoé'),
+   order(655),
+   active(true),
+   controlling_entries('ci__v')
+);

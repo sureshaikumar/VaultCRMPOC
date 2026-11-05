@@ -1,0 +1,4 @@
+Typefield order_campaign_bound__v (
+   source('standard'),
+   required(false)
+);

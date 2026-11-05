@@ -1,0 +1,5 @@
+Picklistentry asia_makassar__sys (
+   value('(GMT+08:00) Central Indonesia Time (Asia/Makassar)'),
+   order(256),
+   active(true)
+);

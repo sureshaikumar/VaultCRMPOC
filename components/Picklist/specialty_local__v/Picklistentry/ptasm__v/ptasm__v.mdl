@@ -1,0 +1,7 @@
+Picklistentry ptasm__v (
+   value('Physical Therapy and Sports Medicine'),
+   order(1553),
+   active(true),
+   controlling_entries('kg__v',
+         'ua__v')
+);

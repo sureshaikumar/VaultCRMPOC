@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction saved_state__v.set_override_lock_false__v (
+   rule(@rule.xml),
+   order(3000)
+);

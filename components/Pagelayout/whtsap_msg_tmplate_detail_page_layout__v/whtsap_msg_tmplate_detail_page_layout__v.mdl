@@ -1,0 +1,8 @@
+RECREATE Pagelayout whtsap_msg_tmplate_detail_page_layout__v (
+   active(true),
+   default_layout(false),
+   description('This represents message templates that are available to use with WhatsApp Business.'),
+   display_lifecycle_stages(false),
+   label('Whatsapp Message Template Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

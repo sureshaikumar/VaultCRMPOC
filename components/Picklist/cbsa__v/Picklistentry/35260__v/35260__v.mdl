@@ -1,0 +1,5 @@
+Picklistentry 35260__v (
+   value('New Castle, PA Micropolitan Statistical Area'),
+   order(241),
+   active(true)
+);

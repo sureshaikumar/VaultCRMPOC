@@ -1,0 +1,6 @@
+Message unsaved_changes_account_plan__v (
+   label(),
+   active(true),
+   default_value('There are unsaved changes to this section. Save or discard the changes made in this section before editing another one or leaving the page.'),
+   system_managed(false)
+);

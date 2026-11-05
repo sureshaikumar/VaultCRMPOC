@@ -1,0 +1,5 @@
+Picklistentry america_araguaina__sys (
+   value('(GMT-03:00) Brasilia Time (America/Araguaina)'),
+   order(114),
+   active(true)
+);

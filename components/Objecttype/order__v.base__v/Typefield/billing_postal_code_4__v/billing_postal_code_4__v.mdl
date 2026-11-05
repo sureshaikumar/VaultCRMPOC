@@ -1,0 +1,4 @@
+Typefield billing_postal_code_4__v (
+   source('standard'),
+   required(false)
+);

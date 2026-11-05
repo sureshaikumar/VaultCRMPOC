@@ -1,0 +1,6 @@
+Picklistentry gh-wn__v (
+   value('Western North'),
+   order(1702),
+   active(true),
+   controlling_entries('gh__v')
+);

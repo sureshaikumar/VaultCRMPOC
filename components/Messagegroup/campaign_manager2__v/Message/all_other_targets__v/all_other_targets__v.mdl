@@ -1,0 +1,6 @@
+Message all_other_targets__v (
+   label(),
+   active(true),
+   default_value('All Other Targets'),
+   system_managed(false)
+);

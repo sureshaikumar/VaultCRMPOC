@@ -1,0 +1,11 @@
+Vsmfield doc_count__v (
+   label('Doc Count'),
+   active(true),
+   description('Total number of documents in a Vault'),
+   example_values(),
+   synonyms(),
+   target('doc_count__v'),
+   target_label('Doc Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

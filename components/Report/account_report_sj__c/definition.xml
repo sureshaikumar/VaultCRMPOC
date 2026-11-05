@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.vcountry__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.first_name_cda__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="address__v___account__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="account__v.vcountry__v" rightValue="US" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="account__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

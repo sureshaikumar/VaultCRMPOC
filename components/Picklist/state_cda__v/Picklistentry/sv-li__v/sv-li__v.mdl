@@ -1,0 +1,6 @@
+Picklistentry sv-li__v (
+   value('La Libertad'),
+   order(4272),
+   active(true),
+   controlling_entries('sv__v')
+);

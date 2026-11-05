@@ -1,0 +1,13 @@
+RECREATE Queue datacloud_conn_processor__v (
+   label('Data Cloud Connection Processor'),
+   active(true),
+   description(),
+   message_delivery_event_handler('Messagedeliveryeventhandler.com.veeva.vault.app.vaultcrm.common.eventhandlers.OffPlatformMessageDeliveryHandler'),
+   message_delivery_event_handler_user('User.vault_app_owner'),
+   message_processor(),
+   message_processor_user(),
+   rollback_on_error(true),
+   sequential(false),
+   type('outbound'),
+   Queueconnection(@Queueconnection/datacloud_conn_processor_queue_conn__v.mdl)
+);

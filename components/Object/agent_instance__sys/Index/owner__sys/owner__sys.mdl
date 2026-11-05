@@ -1,0 +1,5 @@
+Index owner__sys (
+   description(),
+   fields('owner__sys'),
+   label('Owner')
+);

@@ -1,0 +1,19 @@
+Field master_align_id__v (
+   label('Master Align Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(36),
+   help_content('Unique identifier that is managed by Veeva Align.'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

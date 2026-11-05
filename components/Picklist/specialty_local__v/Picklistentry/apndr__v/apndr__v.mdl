@@ -1,0 +1,6 @@
+Picklistentry apndr__v (
+   value('Advanced Practice Nursing'),
+   order(27),
+   active(true),
+   controlling_entries('sa__v')
+);

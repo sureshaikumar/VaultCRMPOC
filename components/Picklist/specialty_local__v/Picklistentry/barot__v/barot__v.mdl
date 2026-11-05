@@ -1,0 +1,6 @@
+Picklistentry barot__v (
+   value('Barotherapy'),
+   order(118),
+   active(true),
+   controlling_entries('am__v')
+);

@@ -1,0 +1,6 @@
+Message data_cloud_admin_page_desc__v (
+   label(),
+   active(true),
+   default_value('View and manage Veeva data integrations and view active subscriptions.'),
+   system_managed(false)
+);

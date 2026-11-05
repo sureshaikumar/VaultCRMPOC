@@ -1,0 +1,6 @@
+Message will_be_activated_tomorrow__v (
+   label(),
+   active(true),
+   default_value('Will be activated tomorrow'),
+   system_managed(false)
+);

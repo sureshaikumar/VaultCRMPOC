@@ -1,0 +1,18 @@
+Field incurred_expense_type__v (
+   label('Incurred Expense Type'),
+   type('Picklist'),
+   active(true),
+   description('Populated based on the selected incurred expense entity.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.expense_attributio_incurred_expense_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,17 @@
+Field agent_flagged_phrase__v (
+   label('Agent Flagged Phrase'),
+   type('RichText'),
+   active(true),
+   description('Contains a phrase that caused a Agent Rule to be violated'),
+   required(false),
+   max_length(32000),
+   help_content('Contains a phrase that caused a Agent Rule to be violated'),
+   list_column(false),
+   order(44),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

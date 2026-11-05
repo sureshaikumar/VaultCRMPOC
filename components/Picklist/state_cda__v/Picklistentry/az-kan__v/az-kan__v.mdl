@@ -1,0 +1,6 @@
+Picklistentry az-kan__v (
+   value('Kǝngǝrli'),
+   order(165),
+   active(true),
+   controlling_entries('az__v')
+);

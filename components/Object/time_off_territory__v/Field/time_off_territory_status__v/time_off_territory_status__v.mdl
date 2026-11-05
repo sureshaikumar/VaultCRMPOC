@@ -1,0 +1,19 @@
+Field time_off_territory_status__v (
+   label('Time Off Territory Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Picklist of available statuses.  This field is used in the approval process workflow.'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.time_off_territory_status__v'),
+   default_value('{in_progress__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

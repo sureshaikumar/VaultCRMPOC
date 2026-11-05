@@ -1,0 +1,6 @@
+Typefield priority__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.suggestion_priority__v.normal__v',
+         'Picklist.suggestion_priority__v.urgent__v')
+);

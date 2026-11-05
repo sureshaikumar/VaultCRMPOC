@@ -1,0 +1,5 @@
+Picklistentry sus (
+   value('Susu'),
+   order(314),
+   active(true)
+);

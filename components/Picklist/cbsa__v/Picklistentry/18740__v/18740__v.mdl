@@ -1,0 +1,5 @@
+Picklistentry 18740__v (
+   value('Coshocton, OH Micropolitan Statistical Area'),
+   order(280),
+   active(true)
+);

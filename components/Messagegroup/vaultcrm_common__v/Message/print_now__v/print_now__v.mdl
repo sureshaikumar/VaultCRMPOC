@@ -1,0 +1,6 @@
+Message print_now__v (
+   label(),
+   active(true),
+   default_value('Print Now'),
+   system_managed(false)
+);

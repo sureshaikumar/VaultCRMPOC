@@ -1,0 +1,7 @@
+Picklistentry pduim__v (
+   value('Pulmonary Diseases'),
+   order(1648),
+   active(true),
+   controlling_entries('eg__v',
+         'lb__v')
+);

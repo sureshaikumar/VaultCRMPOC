@@ -1,0 +1,18 @@
+Field suppress_reason__v (
+   label('Suppress Reason'),
+   type('Boolean'),
+   active(true),
+   description('When set to True, reason text does not display on the Homepage view. It will only display on the Account Overview Timeline panel.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(37),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

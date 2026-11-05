@@ -1,0 +1,6 @@
+Picklistentry dty_copy_of_prescription1__sys (
+   value('Copy of Prescription'),
+   order(41),
+   active(true),
+   controlling_entries('dlc_patient_intake__sys')
+);

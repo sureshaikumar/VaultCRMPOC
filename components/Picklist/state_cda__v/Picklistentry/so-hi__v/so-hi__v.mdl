@@ -1,0 +1,6 @@
+Picklistentry so-hi__v (
+   value('Hiiraan'),
+   order(4230),
+   active(true),
+   controlling_entries('so__v')
+);

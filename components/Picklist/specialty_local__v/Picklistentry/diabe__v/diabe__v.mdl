@@ -1,0 +1,14 @@
+Picklistentry diabe__v (
+   value('Diabetology'),
+   order(423),
+   active(true),
+   controlling_entries('be__v',
+         'in__v',
+         'ke__v',
+         'lu__v',
+         'mk__v',
+         'ph__v',
+         'pl__v',
+         'sn__v',
+         'us__v')
+);

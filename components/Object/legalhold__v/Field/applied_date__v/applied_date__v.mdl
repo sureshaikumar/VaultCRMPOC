@@ -1,0 +1,17 @@
+Field applied_date__v (
+   label('Applied Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(2),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry bw-fr__v (
+   value('Francistown'),
+   order(532),
+   active(true),
+   controlling_entries('bw__v')
+);

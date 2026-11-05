@@ -1,0 +1,5 @@
+Picklistentry wechat_work__v (
+   value('WeChat Work'),
+   order(0),
+   active(true)
+);

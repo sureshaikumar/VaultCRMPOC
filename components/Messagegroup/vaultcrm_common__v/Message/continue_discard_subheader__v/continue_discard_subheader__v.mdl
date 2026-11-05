@@ -1,0 +1,6 @@
+Message continue_discard_subheader__v (
+   label(),
+   active(true),
+   default_value('Start over with creating target list'),
+   system_managed(false)
+);

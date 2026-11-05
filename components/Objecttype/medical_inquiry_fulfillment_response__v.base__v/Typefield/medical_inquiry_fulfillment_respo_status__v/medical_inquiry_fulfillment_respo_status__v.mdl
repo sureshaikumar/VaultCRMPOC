@@ -1,0 +1,4 @@
+Typefield medical_inquiry_fulfillment_respo_status__v (
+   source('standard'),
+   required(false)
+);

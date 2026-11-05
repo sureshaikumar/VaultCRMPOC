@@ -1,0 +1,16 @@
+Field state__v (
+   label('Lifecycle State'),
+   type('Component'),
+   active(true),
+   description(),
+   required(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   component('Objectlifecyclestate'),
+   editable(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry sad (
+   value('Sandawe'),
+   order(290),
+   active(true)
+);

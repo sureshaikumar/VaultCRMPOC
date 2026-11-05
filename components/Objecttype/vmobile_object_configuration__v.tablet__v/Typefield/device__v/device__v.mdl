@@ -1,0 +1,10 @@
+Typefield device__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.vmobile_object_configuration_device__v.crm_desktop_macos__v',
+         'Picklist.vmobile_object_configuration_device__v.crm_engage__v',
+         'Picklist.vmobile_object_configuration_device__v.ipad__v',
+         'Picklist.vmobile_object_configuration_device__v.iphone__v',
+         'Picklist.vmobile_object_configuration_device__v.tablet__v',
+         'Picklist.vmobile_object_configuration_device__v.winmodern__v')
+);

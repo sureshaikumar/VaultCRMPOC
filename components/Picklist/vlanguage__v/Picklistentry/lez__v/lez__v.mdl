@@ -1,0 +1,5 @@
+Picklistentry lez__v (
+   value('Lezghian'),
+   order(187),
+   active(false)
+);

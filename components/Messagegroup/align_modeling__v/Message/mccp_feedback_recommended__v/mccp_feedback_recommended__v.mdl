@@ -1,0 +1,6 @@
+Message mccp_feedback_recommended__v (
+   label(),
+   active(true),
+   default_value('Recommended'),
+   system_managed(false)
+);

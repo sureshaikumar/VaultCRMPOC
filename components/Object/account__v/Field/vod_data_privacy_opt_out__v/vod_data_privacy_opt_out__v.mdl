@@ -1,0 +1,17 @@
+Field vod_data_privacy_opt_out__v (
+   label('OpenData Data Privacy Opt Out'),
+   type('Boolean'),
+   active(true),
+   description('Used to indicate if HCP has directed OpenData to opt them out.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(219),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

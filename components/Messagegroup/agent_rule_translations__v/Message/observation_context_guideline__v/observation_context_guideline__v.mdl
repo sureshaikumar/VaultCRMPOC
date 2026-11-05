@@ -1,0 +1,6 @@
+Message observation_context_guideline__v (
+   label(),
+   active(true),
+   default_value('Include where the observation was gathered'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Page printable_signatures_view_page__v (
+   label('Printable Signatures View'),
+   active(true),
+   client_distribution(),
+   default_client_code('printable_signatures_view_page__v'),
+   description('Custom App page for printable view of View Signatures.'),
+   disable_chrome(true),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.common.commonfeature.viewsignatures.control.page.PrintableSignaturesViewPageController'),
+   url_path_name('printable-signatures-view')
+);

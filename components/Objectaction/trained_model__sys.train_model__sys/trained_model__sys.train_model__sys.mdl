@@ -1,0 +1,8 @@
+RECREATE Objectaction trained_model__sys.train_model__sys (
+   label('Train Model'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.TrainModel'),
+   active(true),
+   available_all_states(true)
+);

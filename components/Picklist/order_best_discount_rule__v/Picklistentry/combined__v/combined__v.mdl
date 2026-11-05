@@ -1,0 +1,5 @@
+Picklistentry combined__v (
+   value('Combined'),
+   order(4),
+   active(true)
+);

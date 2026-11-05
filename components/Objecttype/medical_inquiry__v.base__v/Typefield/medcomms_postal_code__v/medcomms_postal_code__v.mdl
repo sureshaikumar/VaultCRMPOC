@@ -1,0 +1,4 @@
+Typefield medcomms_postal_code__v (
+   source('standard'),
+   required(false)
+);

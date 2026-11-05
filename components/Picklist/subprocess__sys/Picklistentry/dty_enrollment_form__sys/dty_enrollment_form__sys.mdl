@@ -1,0 +1,6 @@
+Picklistentry dty_enrollment_form__sys (
+   value('Enrollment Form'),
+   order(58),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

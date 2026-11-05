@@ -1,0 +1,18 @@
+Field not_received__v (
+   label('Not Received'),
+   type('Boolean'),
+   active(true),
+   description('Set to true to indicate that a product shipment was not received by an Account. Can be selected from the Signature page when capturing a signature from within Veeva CRM.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

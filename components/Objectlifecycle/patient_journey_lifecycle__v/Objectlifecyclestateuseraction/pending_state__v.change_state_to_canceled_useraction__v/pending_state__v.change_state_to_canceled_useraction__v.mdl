@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction pending_state__v.change_state_to_canceled_useraction__v (
+   label('Change State to Canceled'),
+   rule(@rule.xml),
+   order(1002)
+);

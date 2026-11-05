@@ -1,0 +1,6 @@
+Message mccp_product_activity_goal_gt_team_goal__v (
+   label(),
+   active(true),
+   default_value('Edited Activity Goal cannot be larger than Team Activity Goal.'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field limit_bound__v (
+   label('Limit Bound'),
+   type('Boolean'),
+   active(true),
+   description('If unchecked, the limit rule triggers a warning only. If checked, the limit rule prevents saving/submit of the order.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(27),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

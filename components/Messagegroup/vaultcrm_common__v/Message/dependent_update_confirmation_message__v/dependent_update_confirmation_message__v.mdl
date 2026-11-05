@@ -1,0 +1,6 @@
+Message dependent_update_confirmation_message__v (
+   label(),
+   active(true),
+   default_value('Changing ${controllerName} will remove the values from the following dependent fields ${dependentNameString}'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field ship_cds__v (
+   label('Ship CDS #'),
+   type('String'),
+   active(true),
+   description('Stores the CDS # of the practitioner that requested the BRC product shipment when a CDS # is required in the state.'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

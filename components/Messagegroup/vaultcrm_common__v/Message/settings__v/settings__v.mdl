@@ -1,0 +1,6 @@
+Message settings__v (
+   label(),
+   active(true),
+   default_value('Settings'),
+   system_managed(false)
+);

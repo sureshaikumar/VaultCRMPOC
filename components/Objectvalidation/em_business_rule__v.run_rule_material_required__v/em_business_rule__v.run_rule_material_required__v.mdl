@@ -1,0 +1,9 @@
+RECREATE Objectvalidation em_business_rule__v.run_rule_material_required__v (
+   label('Run Rule on Event Action Required'),
+   active(true),
+   expression('
+        object_type__vr.api_name__v != "em_required_event_material_rule__v" || Not(IsBlank(run_rule_event_action__v))'),
+   description('Valid input for run_rule_event_action__v is not added to the Material Rule.'),
+   error_message('This field is required.'),
+   error_location('run_rule_event_action__v')
+);

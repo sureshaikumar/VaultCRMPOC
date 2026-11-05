@@ -1,0 +1,6 @@
+Message select_an_option_to_continue__v (
+   label(),
+   active(true),
+   default_value('Select an option to continue'),
+   system_managed(false)
+);

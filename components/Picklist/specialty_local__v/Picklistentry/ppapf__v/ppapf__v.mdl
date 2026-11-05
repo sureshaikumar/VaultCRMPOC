@@ -1,0 +1,6 @@
+Picklistentry ppapf__v (
+   value('Pediatric Pneumology and Phthysiology'),
+   order(1442),
+   active(true),
+   controlling_entries('sk__v')
+);

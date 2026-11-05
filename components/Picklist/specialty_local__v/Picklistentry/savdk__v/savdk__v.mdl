@@ -1,0 +1,10 @@
+Picklistentry savdk__v (
+   value('Skin and Venereal Diseases'),
+   order(1771),
+   active(true),
+   controlling_entries('at__v',
+         'bg__v',
+         'de__v',
+         'no__v',
+         'se__v')
+);

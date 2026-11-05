@@ -1,0 +1,19 @@
+Field call_log_id_tracking_number__c (
+   label('Call Log ID / Tracking Number'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(85),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

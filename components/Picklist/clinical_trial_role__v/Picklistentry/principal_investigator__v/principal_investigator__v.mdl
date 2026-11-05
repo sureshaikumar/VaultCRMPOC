@@ -1,0 +1,5 @@
+Picklistentry principal_investigator__v (
+   value('Principal Investigator'),
+   order(0),
+   active(true)
+);

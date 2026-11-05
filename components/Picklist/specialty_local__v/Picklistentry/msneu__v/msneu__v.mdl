@@ -1,0 +1,6 @@
+Picklistentry msneu__v (
+   value('Medical-Surgical Nursing'),
+   order(946),
+   active(true),
+   controlling_entries('pt__v')
+);

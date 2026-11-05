@@ -1,0 +1,6 @@
+Message states__v (
+   label(),
+   active(true),
+   default_value('States'),
+   system_managed(false)
+);

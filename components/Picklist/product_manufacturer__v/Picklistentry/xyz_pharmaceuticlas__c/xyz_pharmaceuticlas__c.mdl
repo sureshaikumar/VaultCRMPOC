@@ -1,0 +1,5 @@
+Picklistentry xyz_pharmaceuticlas__c (
+   value('XYZ Pharmaceuticlas'),
+   order(49),
+   active(true)
+);

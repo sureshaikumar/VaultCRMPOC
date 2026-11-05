@@ -1,0 +1,6 @@
+Message legend__v (
+   label(),
+   active(true),
+   default_value('Legend'),
+   system_managed(false)
+);

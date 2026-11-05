@@ -1,0 +1,6 @@
+Picklistentry mz-p__v (
+   value('Cabo Delgado'),
+   order(3294),
+   active(true),
+   controlling_entries('mz__v')
+);

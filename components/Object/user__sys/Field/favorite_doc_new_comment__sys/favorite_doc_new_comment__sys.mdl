@@ -1,0 +1,18 @@
+Field favorite_doc_new_comment__sys (
+   label('Favorite Document New Comment'),
+   type('Boolean'),
+   active(false),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(27),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

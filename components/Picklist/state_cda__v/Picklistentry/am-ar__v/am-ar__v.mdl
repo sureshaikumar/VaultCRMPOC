@@ -1,0 +1,6 @@
+Picklistentry am-ar__v (
+   value('Ararat'),
+   order(69),
+   active(true),
+   controlling_entries('am__v')
+);

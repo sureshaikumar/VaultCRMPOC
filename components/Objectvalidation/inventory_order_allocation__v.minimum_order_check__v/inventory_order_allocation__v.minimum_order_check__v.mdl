@@ -1,0 +1,8 @@
+RECREATE Objectvalidation inventory_order_allocation__v.minimum_order_check__v (
+   label('Minimum Order Check'),
+   active(true),
+   expression('isBlank(minimum_single_order_quantity__v) || (minimum_single_order_quantity__v <= product_order_allocation_quantity__v)'),
+   description('This validation rule enforces that the Minimum Order is not greater than the Allocation Quantity.'),
+   error_message('Minimum order quantity cannot be greater than the allocation quantity'),
+   error_location('minimum_single_order_quantity__v')
+);

@@ -1,0 +1,6 @@
+Message pricing_rule_null_quantities__v (
+   label(),
+   active(true),
+   default_value('Quantity for Product and Comparison Product cannot be both null.'),
+   system_managed(false)
+);

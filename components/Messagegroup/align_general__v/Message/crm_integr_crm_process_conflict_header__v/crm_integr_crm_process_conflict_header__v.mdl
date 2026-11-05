@@ -1,0 +1,6 @@
+Message crm_integr_crm_process_conflict_header__v (
+   label(),
+   active(true),
+   default_value('Conflicting processes for {0}'),
+   system_managed(false)
+);

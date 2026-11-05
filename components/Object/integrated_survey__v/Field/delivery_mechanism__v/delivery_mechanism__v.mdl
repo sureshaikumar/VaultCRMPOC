@@ -1,0 +1,18 @@
+Field delivery_mechanism__v (
+   label('Delivery Mechanism'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.integrated_survey_delivery_mechanism__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

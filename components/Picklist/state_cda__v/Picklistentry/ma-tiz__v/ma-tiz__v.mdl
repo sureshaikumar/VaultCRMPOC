@@ -1,0 +1,6 @@
+Picklistentry ma-tiz__v (
+   value('Tiznit'),
+   order(2848),
+   active(true),
+   controlling_entries('ma__v')
+);

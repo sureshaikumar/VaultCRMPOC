@@ -1,0 +1,9 @@
+Vsmvalue azm__v (
+   label('AZM'),
+   active(true),
+   description('The legacy Azerbaijani Manat (AZM), a prior currency code for Azerbaijan before the currency redenomination introduced AZN.'),
+   synonyms('Azerbaijani manat legacy',
+         'Azerbaijan legacy currency'),
+   target('azm__sys'),
+   target_label('AZM')
+);

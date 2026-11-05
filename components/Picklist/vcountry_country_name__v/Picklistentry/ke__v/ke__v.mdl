@@ -1,0 +1,5 @@
+Picklistentry ke__v (
+   value('Kenya'),
+   order(114),
+   active(true)
+);

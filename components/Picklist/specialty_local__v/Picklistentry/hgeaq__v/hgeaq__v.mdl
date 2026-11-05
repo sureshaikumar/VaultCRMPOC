@@ -1,0 +1,7 @@
+Picklistentry hgeaq__v (
+   value('Hepatology, Gastroenterology'),
+   order(702),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

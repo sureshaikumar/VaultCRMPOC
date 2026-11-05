@@ -1,0 +1,18 @@
+Field send_welcome_email__sys (
+   label('Send Welcome Email on Activation Date'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(41),
+   default_value('true'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

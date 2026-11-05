@@ -1,0 +1,6 @@
+Message translate__v (
+   label(),
+   active(true),
+   default_value('Translate {0}'),
+   system_managed(false)
+);

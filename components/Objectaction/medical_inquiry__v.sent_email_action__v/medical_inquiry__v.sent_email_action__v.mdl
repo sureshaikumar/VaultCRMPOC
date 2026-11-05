@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_inquiry__v.sent_email_action__v (
+   label('Send Email'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.approvedemail.actions.SendEmailMedicalInquiryAction'),
+   active(true),
+   available_all_states(true)
+);

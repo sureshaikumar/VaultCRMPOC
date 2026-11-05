@@ -1,0 +1,6 @@
+Message back_to__v (
+   label(),
+   active(true),
+   default_value('Back to ${previous_location_identifier}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry nz-stl__v (
+   value('Southland'),
+   order(3437),
+   active(true),
+   controlling_entries('nz__v')
+);

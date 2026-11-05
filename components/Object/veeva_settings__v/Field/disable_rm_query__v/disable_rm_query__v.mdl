@@ -1,0 +1,18 @@
+Field disable_rm_query__v (
+   label('DISABLE_RM_QUERY'),
+   type('Boolean'),
+   active(true),
+   description('Parameter used to prevent a view from executing for a territory with too many levels.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(98),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

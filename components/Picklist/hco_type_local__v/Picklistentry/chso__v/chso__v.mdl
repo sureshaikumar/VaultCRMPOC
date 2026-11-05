@@ -1,0 +1,5 @@
+Picklistentry chso__v (
+   value('Commune Health Station'),
+   order(31),
+   active(true)
+);

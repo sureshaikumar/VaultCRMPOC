@@ -1,0 +1,6 @@
+Picklistentry si-159__v (
+   value('Hajdina'),
+   order(4132),
+   active(true),
+   controlling_entries('si__v')
+);

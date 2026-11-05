@@ -1,0 +1,6 @@
+Message cannot_remove_owner__v (
+   label(),
+   active(true),
+   default_value('There must always be at least 1 single user assigned as a Record Role Owner. Please add another single user as an Owner before re-attempting to remove this user on ${object_name}.'),
+   system_managed(false)
+);

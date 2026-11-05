@@ -1,0 +1,8 @@
+Objectworkflowstep change_state_to_submitted__v (
+   label('Change State to Submitted'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.notification_approved__v'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('When Inventory Order is approved, the lifecycle state is changed to Submitted.')
+);

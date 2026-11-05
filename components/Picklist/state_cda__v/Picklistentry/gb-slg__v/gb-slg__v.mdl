@@ -1,0 +1,6 @@
+Picklistentry gb-slg__v (
+   value('Slough'),
+   order(1621),
+   active(true),
+   controlling_entries('gb__v')
+);

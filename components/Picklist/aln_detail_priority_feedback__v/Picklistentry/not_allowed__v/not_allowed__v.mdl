@@ -1,0 +1,5 @@
+Picklistentry not_allowed__v (
+   value('Not Allowed'),
+   order(1),
+   active(true)
+);

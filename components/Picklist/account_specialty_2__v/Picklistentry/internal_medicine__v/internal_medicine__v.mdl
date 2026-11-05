@@ -1,0 +1,5 @@
+Picklistentry internal_medicine__v (
+   value('Internal Medicine'),
+   order(4),
+   active(true)
+);

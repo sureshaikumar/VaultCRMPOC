@@ -1,0 +1,4 @@
+Typefield formulary_status__c (
+   source('standard'),
+   required(false)
+);

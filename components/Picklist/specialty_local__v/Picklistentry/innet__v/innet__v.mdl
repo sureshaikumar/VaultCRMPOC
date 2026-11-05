@@ -1,0 +1,7 @@
+Picklistentry innet__v (
+   value('Interventional Neuroradiology'),
+   order(823),
+   active(true),
+   controlling_entries('pt__v',
+         'th__v')
+);

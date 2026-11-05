@@ -1,0 +1,5 @@
+Picklistentry 46180__v (
+   value('Tupelo, MS Micropolitan Statistical Area'),
+   order(99),
+   active(true)
+);

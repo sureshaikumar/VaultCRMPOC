@@ -1,0 +1,6 @@
+Picklistentry ee-353__v (
+   value('Kuusalu'),
+   order(1088),
+   active(true),
+   controlling_entries('ee__v')
+);

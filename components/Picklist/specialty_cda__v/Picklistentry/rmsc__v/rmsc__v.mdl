@@ -1,0 +1,5 @@
+Picklistentry rmsc__v (
+   value('Spinal Cord Injury Medicine'),
+   order(91),
+   active(true)
+);

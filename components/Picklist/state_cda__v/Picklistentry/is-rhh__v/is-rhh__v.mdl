@@ -1,0 +1,6 @@
+Picklistentry is-rhh__v (
+   value('Reykhólahreppur'),
+   order(2129),
+   active(true),
+   controlling_entries('is__v')
+);

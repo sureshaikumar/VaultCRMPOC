@@ -1,0 +1,6 @@
+Picklistentry cpahr__v (
+   value('Cardiology Pharmacy'),
+   order(163),
+   active(true),
+   controlling_entries('sg__v')
+);

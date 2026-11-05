@@ -1,0 +1,5 @@
+Picklistentry parkinson_s_disease__v (
+   value('Parkinson''s Disease'),
+   order(73),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry bg-18__v (
+   value('Ruse'),
+   order(390),
+   active(true),
+   controlling_entries('bg__v')
+);

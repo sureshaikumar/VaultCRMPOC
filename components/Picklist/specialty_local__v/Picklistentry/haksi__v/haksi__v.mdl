@@ -1,0 +1,6 @@
+Picklistentry haksi__v (
+   value('Hip and Knee Surgery'),
+   order(704),
+   active(true),
+   controlling_entries('ph__v')
+);

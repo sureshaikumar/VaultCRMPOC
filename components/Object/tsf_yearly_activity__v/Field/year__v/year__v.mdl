@@ -1,0 +1,17 @@
+Field year__v (
+   label('Year'),
+   type('Date'),
+   active(true),
+   description('This is January 1 of the calendar year during which these activities occurred.'),
+   required(true),
+   help_content('This is January 1 of the calendar year these activities happened.'),
+   list_column(true),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   rollup(false),
+   control_binding()
+);

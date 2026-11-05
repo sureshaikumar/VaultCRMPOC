@@ -1,0 +1,6 @@
+Picklistentry ps-jem__v (
+   value('Jerusalem'),
+   order(3642),
+   active(true),
+   controlling_entries('ps__v')
+);

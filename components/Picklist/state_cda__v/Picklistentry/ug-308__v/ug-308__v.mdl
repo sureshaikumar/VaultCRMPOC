@@ -1,0 +1,6 @@
+Picklistentry ug-308__v (
+   value('Moroto'),
+   order(4713),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry updated__sys (
+   value('Updated'),
+   order(1),
+   active(true)
+);

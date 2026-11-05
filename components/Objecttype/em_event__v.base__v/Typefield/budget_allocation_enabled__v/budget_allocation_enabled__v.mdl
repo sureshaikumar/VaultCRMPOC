@@ -1,0 +1,4 @@
+Typefield budget_allocation_enabled__v (
+   source('standard'),
+   required(false)
+);

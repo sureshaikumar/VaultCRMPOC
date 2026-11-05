@@ -1,0 +1,6 @@
+Message no_targets_removed__v (
+   label(),
+   active(true),
+   default_value('No targets removed'),
+   system_managed(false)
+);

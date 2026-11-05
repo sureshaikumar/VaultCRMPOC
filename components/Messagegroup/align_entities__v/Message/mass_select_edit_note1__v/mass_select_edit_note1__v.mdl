@@ -1,0 +1,6 @@
+Message mass_select_edit_note1__v (
+   label(),
+   active(true),
+   default_value('All records selected will get updated with the New Field Values.'),
+   system_managed(false)
+);

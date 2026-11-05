@@ -1,0 +1,6 @@
+Message terr_footprint_before_start_date__v (
+   label(),
+   active(true),
+   default_value('Territory footprint start date cannot be before ${start_date}'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field vault_clinical_from__v (
+   label('From'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Specifies user information for calls loaded from outside Veeva CRM'),
+   list_column(false),
+   order(166),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

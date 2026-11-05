@@ -1,0 +1,6 @@
+Picklistentry ly-mj__v (
+   value('Al Marj'),
+   order(2755),
+   active(true),
+   controlling_entries('ly__v')
+);

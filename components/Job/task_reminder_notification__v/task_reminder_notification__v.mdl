@@ -1,0 +1,21 @@
+RECREATE Job task_reminder_notification__v (
+   active(true),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('Task Reminder Notification'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   time('5:00'),
+   timezone('America/New_York'),
+   trigger_date(),
+   type('BaseJobType.task_reminder_notification__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

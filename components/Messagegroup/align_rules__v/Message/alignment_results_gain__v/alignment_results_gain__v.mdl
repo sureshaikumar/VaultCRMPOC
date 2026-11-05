@@ -1,0 +1,6 @@
+Message alignment_results_gain__v (
+   label(),
+   active(true),
+   default_value('Gain'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ph-bil__v (
+   value('Biliran'),
+   order(3544),
+   active(true),
+   controlling_entries('ph__v')
+);

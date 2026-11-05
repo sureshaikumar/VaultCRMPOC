@@ -1,0 +1,17 @@
+Field weaknesses__c (
+   label('Weaknesses'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('SWOT: Weaknesses'),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

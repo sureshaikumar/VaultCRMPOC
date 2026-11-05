@@ -1,0 +1,6 @@
+Picklistentry is-akn__v (
+   value('Akraneskaupstaður'),
+   order(2091),
+   active(true),
+   controlling_entries('is__v')
+);

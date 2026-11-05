@@ -1,0 +1,6 @@
+Message your_campaign_will_be_updated_soon__v (
+   label(),
+   active(true),
+   default_value('Your campaign will be updated soon...'),
+   system_managed(false)
+);

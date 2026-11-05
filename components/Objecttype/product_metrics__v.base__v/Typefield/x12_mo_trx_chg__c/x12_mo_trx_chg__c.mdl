@@ -1,0 +1,4 @@
+Typefield x12_mo_trx_chg__c (
+   source('standard'),
+   required(false)
+);

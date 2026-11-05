@@ -1,0 +1,6 @@
+Message primary_action_email__v (
+   label(),
+   active(true),
+   default_value('Primary Action Email'),
+   system_managed(false)
+);

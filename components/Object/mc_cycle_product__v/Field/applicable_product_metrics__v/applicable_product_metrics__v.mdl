@@ -1,0 +1,17 @@
+Field applicable_product_metrics__v (
+   label('Applicable Product Metrics'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(10000),
+   help_content('Comma delimited list of pull through Product Metric fields that are applicable for this Cycle Product. Populated by the MCCP MCE process.'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

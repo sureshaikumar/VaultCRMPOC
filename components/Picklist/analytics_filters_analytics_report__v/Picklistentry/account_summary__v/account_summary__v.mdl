@@ -1,0 +1,5 @@
+Picklistentry account_summary__v (
+   value('Account Summary'),
+   order(1),
+   active(true)
+);

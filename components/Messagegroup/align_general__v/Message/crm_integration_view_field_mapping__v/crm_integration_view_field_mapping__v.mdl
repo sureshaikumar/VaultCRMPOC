@@ -1,0 +1,6 @@
+Message crm_integration_view_field_mapping__v (
+   label(),
+   active(true),
+   default_value('View Field Mapping'),
+   system_managed(false)
+);

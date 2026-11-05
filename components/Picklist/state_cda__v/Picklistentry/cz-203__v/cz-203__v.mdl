@@ -1,0 +1,6 @@
+Picklistentry cz-203__v (
+   value('Kladno'),
+   order(817),
+   active(true),
+   controlling_entries('cz__v')
+);

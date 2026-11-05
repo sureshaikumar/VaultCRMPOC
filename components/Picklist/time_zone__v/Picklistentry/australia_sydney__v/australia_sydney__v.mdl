@@ -1,0 +1,5 @@
+Picklistentry australia_sydney__v (
+   value('Australian Eastern Time'),
+   order(11),
+   active(true)
+);

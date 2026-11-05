@@ -1,0 +1,6 @@
+Picklistentry ug-315__v (
+   value('Amolatar'),
+   order(4720),
+   active(true),
+   controlling_entries('ug__v')
+);

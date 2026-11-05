@@ -1,0 +1,18 @@
+Field atl_last_update_tracking__v (
+   label('ATL_LAST_UPDATE_TRACKING'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Account Territory Loader activity tracking for mobile synchronization.'),
+   list_column(false),
+   order(22),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

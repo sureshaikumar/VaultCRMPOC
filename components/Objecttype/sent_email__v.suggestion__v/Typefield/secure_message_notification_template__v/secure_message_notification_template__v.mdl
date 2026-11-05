@@ -1,0 +1,4 @@
+Typefield secure_message_notification_template__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Index agent_action_id__sys (
+   description(),
+   fields('agent_action_id__sys'),
+   label('Action ID')
+);

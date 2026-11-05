@@ -1,0 +1,5 @@
+Picklistentry sos__sys (
+   value('SOS'),
+   order(166),
+   active(true)
+);

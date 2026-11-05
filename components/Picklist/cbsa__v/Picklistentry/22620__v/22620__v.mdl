@@ -1,0 +1,5 @@
+Picklistentry 22620__v (
+   value('Forrest City, AR Micropolitan Statistical Area'),
+   order(281),
+   active(true)
+);

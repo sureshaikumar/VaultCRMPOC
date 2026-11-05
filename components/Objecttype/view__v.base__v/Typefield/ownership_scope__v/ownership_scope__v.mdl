@@ -1,0 +1,4 @@
+Typefield ownership_scope__v (
+   source('standard'),
+   required(false)
+);

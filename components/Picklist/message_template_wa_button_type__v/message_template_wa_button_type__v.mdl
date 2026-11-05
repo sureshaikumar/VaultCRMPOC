@@ -1,0 +1,9 @@
+RECREATE Picklist message_template_wa_button_type__v (
+   label('Button Type'),
+   active(true),
+   Picklistentry(@Picklistentry/cta_visit_website__v.mdl),
+   Picklistentry(@Picklistentry/cta_call_phone_number__v.mdl),
+   Picklistentry(@Picklistentry/quick_reply__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

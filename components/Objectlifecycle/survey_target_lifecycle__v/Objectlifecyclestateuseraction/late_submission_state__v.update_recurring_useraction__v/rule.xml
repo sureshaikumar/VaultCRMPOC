@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <expression operator="eq" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+            <value>Object.survey_target__v.object_type__v</value>
+        </expression>
+        <expression operator="value" type="string">
+            <value>Recurring</value>
+        </expression>
+    </expression>
+    <actions>
+        <action type="Objectaction.survey_target__v.update_recurring__v">
+            <lcActionLabelXmlIdentifier>Update Recurring Question Response</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

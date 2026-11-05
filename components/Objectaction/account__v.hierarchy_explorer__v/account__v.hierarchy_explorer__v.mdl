@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.hierarchy_explorer__v (
+   label('Network Hierarchy Explorer'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.networkintegration.actions.NetworkHierarchyExplorerAction'),
+   active(true),
+   available_all_states(true)
+);

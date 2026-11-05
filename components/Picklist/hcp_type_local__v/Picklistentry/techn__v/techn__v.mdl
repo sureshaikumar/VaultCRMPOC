@@ -1,0 +1,5 @@
+Picklistentry techn__v (
+   value('Technician'),
+   order(158),
+   active(true)
+);

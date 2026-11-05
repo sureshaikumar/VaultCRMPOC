@@ -1,0 +1,8 @@
+Objectworkflowstep decision__sys (
+   label('Decision'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

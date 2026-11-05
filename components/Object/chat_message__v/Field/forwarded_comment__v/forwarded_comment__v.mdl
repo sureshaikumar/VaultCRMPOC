@@ -1,0 +1,17 @@
+Field forwarded_comment__v (
+   label('Forwarded Comment'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(4096),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry ru-vlg__v (
+   value('Vologodskaya oblast'''),
+   order(3867),
+   active(true),
+   controlling_entries('ru__v')
+);

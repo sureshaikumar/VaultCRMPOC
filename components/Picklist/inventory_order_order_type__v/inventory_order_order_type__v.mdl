@@ -1,0 +1,8 @@
+RECREATE Picklist inventory_order_order_type__v (
+   label('Order Type'),
+   active(true),
+   Picklistentry(@Picklistentry/regular__v.mdl),
+   Picklistentry(@Picklistentry/special__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

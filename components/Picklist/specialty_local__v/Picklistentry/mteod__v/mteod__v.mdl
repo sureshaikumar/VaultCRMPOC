@@ -1,0 +1,7 @@
+Picklistentry mteod__v (
+   value('Medical Toxicology'),
+   order(944),
+   active(true),
+   controlling_entries('ae__v',
+         'am__v')
+);

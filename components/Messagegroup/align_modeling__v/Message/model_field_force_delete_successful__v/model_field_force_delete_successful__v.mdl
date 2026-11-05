@@ -1,0 +1,6 @@
+Message model_field_force_delete_successful__v (
+   label(),
+   active(true),
+   default_value('Model Field Force deletion completed for ${entity_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry ht__v (
+   value('Haitian'),
+   order(124),
+   active(false)
+);

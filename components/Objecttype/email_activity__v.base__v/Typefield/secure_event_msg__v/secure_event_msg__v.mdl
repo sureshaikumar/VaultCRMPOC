@@ -1,0 +1,4 @@
+Typefield secure_event_msg__v (
+   source('standard'),
+   required(false)
+);

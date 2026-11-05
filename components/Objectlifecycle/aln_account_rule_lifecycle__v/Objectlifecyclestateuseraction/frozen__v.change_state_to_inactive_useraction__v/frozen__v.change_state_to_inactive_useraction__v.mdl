@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction frozen__v.change_state_to_inactive_useraction__v (
+   label('Change State to Inactive'),
+   rule(@rule.xml),
+   order(1000)
+);

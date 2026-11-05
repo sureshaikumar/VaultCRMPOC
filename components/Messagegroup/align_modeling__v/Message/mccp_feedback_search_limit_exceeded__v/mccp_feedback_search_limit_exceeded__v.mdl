@@ -1,0 +1,6 @@
+Message mccp_feedback_search_limit_exceeded__v (
+   label(),
+   active(true),
+   default_value('Result Limits Exceeded: Showing only the first 100 records'),
+   system_managed(false)
+);

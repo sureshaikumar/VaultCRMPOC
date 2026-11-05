@@ -1,0 +1,5 @@
+Picklistentry do_not_call__v (
+   value('Opt Out of Phone Calls'),
+   order(7),
+   active(true)
+);

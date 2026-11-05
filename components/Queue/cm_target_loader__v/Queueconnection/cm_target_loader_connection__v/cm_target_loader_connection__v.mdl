@@ -1,0 +1,7 @@
+Queueconnection cm_target_loader_connection__v (
+   label(),
+   active(true),
+   connection_name('veeva_crm__v'),
+   connection_type('external__sys'),
+   deliver_to_queue()
+);

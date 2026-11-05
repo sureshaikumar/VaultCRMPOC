@@ -1,0 +1,6 @@
+Picklistentry ug-409__v (
+   value('Masindi'),
+   order(4751),
+   active(true),
+   controlling_entries('ug__v')
+);

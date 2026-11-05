@@ -1,0 +1,4 @@
+Typefield comment_type__sys (
+   source('system'),
+   required(false)
+);

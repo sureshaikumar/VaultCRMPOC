@@ -1,0 +1,6 @@
+Picklistentry si-204__v (
+   value('Sveta Trojica v Slovenskih goricah'),
+   order(4177),
+   active(true),
+   controlling_entries('si__v')
+);

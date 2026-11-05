@@ -1,0 +1,4 @@
+Typefield custom_page_view_count__v (
+   source('standard'),
+   required(false)
+);

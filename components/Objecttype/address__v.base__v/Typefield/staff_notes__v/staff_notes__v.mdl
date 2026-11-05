@@ -1,0 +1,4 @@
+Typefield staff_notes__v (
+   source('standard'),
+   required(false)
+);

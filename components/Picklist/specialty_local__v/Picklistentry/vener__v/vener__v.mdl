@@ -1,0 +1,6 @@
+Picklistentry vener__v (
+   value('Venereology'),
+   order(1917),
+   active(true),
+   controlling_entries('eg__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 39380__v (
+   value('Pueblo, CO Metropolitan Statistical Area'),
+   order(70),
+   active(true)
+);

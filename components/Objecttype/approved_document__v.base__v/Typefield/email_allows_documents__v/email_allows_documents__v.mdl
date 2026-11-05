@@ -1,0 +1,4 @@
+Typefield email_allows_documents__v (
+   source('standard'),
+   required(false)
+);

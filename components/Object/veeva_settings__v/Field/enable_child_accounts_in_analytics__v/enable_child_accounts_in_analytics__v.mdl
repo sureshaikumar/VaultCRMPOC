@@ -1,0 +1,18 @@
+Field enable_child_accounts_in_analytics__v (
+   label('ENABLE_CHILD_ACCOUNTS_IN_ANALYTICS'),
+   type('Boolean'),
+   active(true),
+   description('Designates whether Child Accounts are included in the roll up of data in Analytics.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(126),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

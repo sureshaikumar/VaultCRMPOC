@@ -1,0 +1,5 @@
+Picklistentry distance__v (
+   value('Distance'),
+   order(0),
+   active(true)
+);

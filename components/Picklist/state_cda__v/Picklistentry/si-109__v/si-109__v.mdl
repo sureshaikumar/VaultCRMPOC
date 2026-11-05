@@ -1,0 +1,6 @@
+Picklistentry si-109__v (
+   value('Semič'),
+   order(4083),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist meeting_request_decline_reason__v (
+   label('Decline Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/invitee_canceled__v.mdl),
+   Picklistentry(@Picklistentry/rescheduled_offline__v.mdl),
+   Picklistentry(@Picklistentry/unknown_invitee__v.mdl),
+   Picklistentry(@Picklistentry/schedule_conflict__v.mdl),
+   Picklistentry(@Picklistentry/no_reason_provided__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

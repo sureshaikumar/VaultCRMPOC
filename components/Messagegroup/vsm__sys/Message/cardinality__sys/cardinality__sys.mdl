@@ -1,0 +1,6 @@
+Message cardinality__sys (
+   label(),
+   active(true),
+   default_value('Cardinality'),
+   system_managed(true)
+);

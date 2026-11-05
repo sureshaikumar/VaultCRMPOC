@@ -1,0 +1,6 @@
+Picklistentry gb-bol__v (
+   value('Bolton'),
+   order(1471),
+   active(true),
+   controlling_entries('gb__v')
+);

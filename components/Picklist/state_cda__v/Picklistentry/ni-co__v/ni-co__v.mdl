@@ -1,0 +1,6 @@
+Picklistentry ni-co__v (
+   value('Chontales'),
+   order(3362),
+   active(true),
+   controlling_entries('ni__v')
+);

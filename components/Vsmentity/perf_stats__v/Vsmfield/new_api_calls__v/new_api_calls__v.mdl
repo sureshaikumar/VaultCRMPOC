@@ -1,0 +1,11 @@
+Vsmfield new_api_calls__v (
+   label('New API Calls'),
+   active(true),
+   description('Number of API calls executed on a given day'),
+   example_values(),
+   synonyms(),
+   target('new_api_calls__v'),
+   target_label('New API Calls'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

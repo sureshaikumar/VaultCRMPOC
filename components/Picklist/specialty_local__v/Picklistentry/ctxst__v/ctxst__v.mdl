@@ -1,0 +1,6 @@
+Picklistentry ctxst__v (
+   value('Cardiothoracic Surgery – Cardiac Surgery Track'),
+   order(173),
+   active(true),
+   controlling_entries('il__v')
+);

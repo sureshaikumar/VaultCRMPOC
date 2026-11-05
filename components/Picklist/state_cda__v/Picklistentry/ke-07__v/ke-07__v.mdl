@@ -1,0 +1,6 @@
+Picklistentry ke-07__v (
+   value('Garissa'),
+   order(2360),
+   active(true),
+   controlling_entries('ke__v')
+);

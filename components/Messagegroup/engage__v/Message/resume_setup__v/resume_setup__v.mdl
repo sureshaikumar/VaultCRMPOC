@@ -1,0 +1,6 @@
+Message resume_setup__v (
+   label(),
+   active(true),
+   default_value('Resume Setup'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry fa__v (
+   value('Farsi'),
+   order(97),
+   active(false)
+);

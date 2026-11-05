@@ -1,0 +1,6 @@
+Picklistentry pracs__v (
+   value('Plastic, Reconstructive and Cosmetic Surgery'),
+   order(1576),
+   active(true),
+   controlling_entries('tn__v')
+);

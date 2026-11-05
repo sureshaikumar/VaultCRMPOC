@@ -1,0 +1,6 @@
+Message patient_timeline__v (
+   label(),
+   active(true),
+   default_value('Patient Timeline'),
+   system_managed(false)
+);

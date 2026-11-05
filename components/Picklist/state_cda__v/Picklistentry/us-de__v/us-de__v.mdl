@@ -1,0 +1,6 @@
+Picklistentry us-de__v (
+   value('Delaware'),
+   order(4800),
+   active(true),
+   controlling_entries('us__v')
+);

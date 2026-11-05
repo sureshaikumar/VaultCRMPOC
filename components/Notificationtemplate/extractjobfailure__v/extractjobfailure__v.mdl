@@ -1,0 +1,22 @@
+RECREATE Notificationtemplate extractjobfailure__v (
+   label('extractJobFailure'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Loader Job has failed'),
+   notification('<p>Your Loader Job has Failed</p>
+<p>Details:
+<ul>
+<li>Reason for Failure: ${vaultLoaderFailureReason}</li>
+<li>Action Type: Extract</li>
+<li>Object Type: ${vaultLoaderObjectType}</li>
+<li>Settings: ${vaultLoaderSettings}</li>
+<li>Where Clause: ${vaultLoaderWhereClause}</li>
+<li>Load Start Time: ${vaultLoaderStartTime} </li>
+</ul>'),
+   email_body('${notificationMessage}
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

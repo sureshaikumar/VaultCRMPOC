@@ -1,0 +1,6 @@
+Message groups__v (
+   label(),
+   active(true),
+   default_value('Groups'),
+   system_managed(false)
+);

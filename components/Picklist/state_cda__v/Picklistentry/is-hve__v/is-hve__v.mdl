@@ -1,0 +1,6 @@
+Picklistentry is-hve__v (
+   value('Hveragerðisbær'),
+   order(2117),
+   active(true),
+   controlling_entries('is__v')
+);

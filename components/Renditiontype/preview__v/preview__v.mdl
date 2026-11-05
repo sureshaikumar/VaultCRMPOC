@@ -1,0 +1,4 @@
+RECREATE Renditiontype preview__v (
+   label('Veeva Preview'),
+   active(true)
+);

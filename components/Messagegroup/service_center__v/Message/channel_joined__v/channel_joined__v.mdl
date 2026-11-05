@@ -1,0 +1,6 @@
+Message channel_joined__v (
+   label(),
+   active(true),
+   default_value('Channel Joined'),
+   system_managed(false)
+);

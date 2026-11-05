@@ -1,0 +1,5 @@
+Picklistentry hil (
+   value('Ilonggo'),
+   order(52),
+   active(true)
+);

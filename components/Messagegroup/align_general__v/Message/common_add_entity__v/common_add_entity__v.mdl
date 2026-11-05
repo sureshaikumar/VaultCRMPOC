@@ -1,0 +1,6 @@
+Message common_add_entity__v (
+   label(),
+   active(true),
+   default_value('Add {0}'),
+   system_managed(false)
+);

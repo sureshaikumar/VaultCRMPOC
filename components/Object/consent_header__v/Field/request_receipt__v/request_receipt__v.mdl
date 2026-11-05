@@ -1,0 +1,18 @@
+Field request_receipt__v (
+   label('Request Receipt'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('When placed on Consent Header page layout, user can request receipt.'),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

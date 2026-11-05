@@ -1,0 +1,6 @@
+Picklistentry si-103__v (
+   value('Ravne na Koroškem'),
+   order(4077),
+   active(true),
+   controlling_entries('si__v')
+);

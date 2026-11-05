@@ -1,0 +1,8 @@
+RECREATE Objectaction sample_order_transaction__v.unlock__v (
+   label('Unlock'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.samplemanagement.actions.SampleOrderTransactionUnlockAction'),
+   active(true),
+   available_all_states(false)
+);

@@ -1,0 +1,22 @@
+Field latitude_cda__v (
+   label('Latitude'),
+   type('Number'),
+   active(true),
+   description('Geographic coordinate specifying north-south position.'),
+   required(false),
+   unique(false),
+   max_value(999999999.999999),
+   min_value(-999999999.999999),
+   scale(6),
+   help_content('Latitude of this address. Used for mapping. This value is set to blank via trigger whenever a relevant address field changes. If zero, the latitude is written from the "MyMaps" functionality when the user maps this address. This field can be pre-populated'),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

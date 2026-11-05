@@ -1,0 +1,13 @@
+Doclifecyclestate in_progress_state__v (
+   label('In Progress'),
+   active(true),
+   description('Indicates that intake has begun on the document.'),
+   order(2),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false),
+   entry_criteria(),
+   entry_action(),
+   user_action(),
+   security_settings(@security_settings.xml)
+);

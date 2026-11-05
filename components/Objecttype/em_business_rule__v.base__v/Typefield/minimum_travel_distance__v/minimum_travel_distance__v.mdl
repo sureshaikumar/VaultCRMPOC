@@ -1,0 +1,4 @@
+Typefield minimum_travel_distance__v (
+   source('standard'),
+   required(false)
+);

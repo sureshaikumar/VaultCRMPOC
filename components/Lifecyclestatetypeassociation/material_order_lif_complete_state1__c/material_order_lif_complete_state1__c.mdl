@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation material_order_lif_complete_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.material_order_lifecycle__c'),
+   object_lifecycle_state(),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

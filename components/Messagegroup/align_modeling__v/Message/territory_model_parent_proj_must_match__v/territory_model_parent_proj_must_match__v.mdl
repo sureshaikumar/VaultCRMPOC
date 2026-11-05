@@ -1,0 +1,6 @@
+Message territory_model_parent_proj_must_match__v (
+   label(),
+   active(true),
+   default_value('Parent Model Territory''s Project (${parent_project}) must be the same as Model Territory Project (${project}).'),
+   system_managed(false)
+);

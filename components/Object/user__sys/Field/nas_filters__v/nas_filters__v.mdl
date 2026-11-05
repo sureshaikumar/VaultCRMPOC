@@ -1,0 +1,19 @@
+Field nas_filters__v (
+   label('NAS Filters'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This field overrides the Network Setting and uses the value in the field to apply filters in Network Account Search.'),
+   list_column(false),
+   order(88),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

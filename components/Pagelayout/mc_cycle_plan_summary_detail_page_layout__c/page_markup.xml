@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.mc_cycle_plan_summary__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="cycle_channel__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="summary_for__v" />
+            <vault:field reference="cycle_plan__v" />
+            <vault:field reference="last_calculated__v" />
+            <vault:spacer />
+            <vault:field reference="aln_legacy_align_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Calculations" name="calculations__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="interactions_goal__v" />
+            <vault:field reference="interactions_earned__v" />
+            <vault:field reference="attainment__v" />
+            <vault:field reference="percent_all_goals__v" />
+            <vault:spacer />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="veeva_external_id__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="ctrl_mc_cycle__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,6 @@
+Message edit_goals_popup_restricted_targets__v (
+   label(),
+   active(true),
+   default_value('Restricted Product for this Target.'),
+   system_managed(false)
+);

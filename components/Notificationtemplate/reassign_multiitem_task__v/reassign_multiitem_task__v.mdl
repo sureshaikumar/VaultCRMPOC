@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate reassign_multiitem_task__v (
+   label('Multi-item Workflow Task Reassignment'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('Task reassigned'),
+   notification('Task ${taskName} for ${workflowTargetLink} has been reassigned.'),
+   email_body('Task ${taskName} for ${workflowTargetLink} has been reassigned.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

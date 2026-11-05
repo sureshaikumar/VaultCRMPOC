@@ -1,0 +1,4 @@
+Typefield vod_count_hcp__v (
+   source('standard'),
+   required(false)
+);

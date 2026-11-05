@@ -1,0 +1,6 @@
+Message common_activate__v (
+   label(),
+   active(true),
+   default_value('Activate'),
+   system_managed(false)
+);

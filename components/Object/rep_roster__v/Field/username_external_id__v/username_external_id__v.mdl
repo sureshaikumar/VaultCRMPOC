@@ -1,0 +1,19 @@
+Field username_external_id__v (
+   label('Username External Id'),
+   type('String'),
+   active(true),
+   description('Username of the Rep that acts as an external id to facilitate data loading of a Rep Roster.  The Username External Id must match the Username for the Rep within the User object.  This Username External Id is used by the Lookup on a Transfer Sample Transac'),
+   required(false),
+   unique(true),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+Objectlifecyclestate draft_state__v (
+   label('Draft'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('The Profiling Template is in Draft state.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

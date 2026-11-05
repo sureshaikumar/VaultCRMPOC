@@ -1,0 +1,6 @@
+Picklistentry mu-mo__v (
+   value('Moka'),
+   order(3180),
+   active(true),
+   controlling_entries('mu__v')
+);

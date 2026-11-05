@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction canceled_state__v.canceled_state_entry_action__v (
+   rule(@rule.xml),
+   order(1000)
+);

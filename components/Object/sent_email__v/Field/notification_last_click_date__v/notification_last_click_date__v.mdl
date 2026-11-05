@@ -1,0 +1,17 @@
+Field notification_last_click_date__v (
+   label('Last Secure Message Notification Click'),
+   type('DateTime'),
+   active(true),
+   description('Roll-up summary which captures the date of the last time the Secure Message Notification was clicked based on related Email Activity records. Emails can be clicked multiple times.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(103),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

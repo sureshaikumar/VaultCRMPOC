@@ -1,0 +1,4 @@
+Typefield domain_favicon__v (
+   source('standard'),
+   required(false)
+);

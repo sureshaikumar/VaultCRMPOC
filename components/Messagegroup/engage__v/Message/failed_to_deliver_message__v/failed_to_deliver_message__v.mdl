@@ -1,0 +1,6 @@
+Message failed_to_deliver_message__v (
+   label(),
+   active(true),
+   default_value('Failed to deliver message'),
+   system_managed(false)
+);

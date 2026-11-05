@@ -1,0 +1,6 @@
+Message field_required_while_case_state__v (
+   label(),
+   active(true),
+   default_value('${field_label} requires a value while Case is ${lifecycle_state}.'),
+   system_managed(false)
+);

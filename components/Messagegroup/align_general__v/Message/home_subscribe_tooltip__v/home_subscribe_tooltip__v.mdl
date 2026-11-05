@@ -1,0 +1,6 @@
+Message home_subscribe_tooltip__v (
+   label(),
+   active(true),
+   default_value('To subscribe to system status notifications and releases click the link and subscribe to your Vault Pod and Align Pod.'),
+   system_managed(false)
+);

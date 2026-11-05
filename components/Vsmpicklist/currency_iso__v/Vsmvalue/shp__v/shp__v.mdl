@@ -1,0 +1,10 @@
+Vsmvalue shp__v (
+   label('SHP'),
+   active(true),
+   description('Applies when transactions are denominated in the Saint Helena Pound, the official currency of Saint Helena, Ascension and Tristan da Cunha.'),
+   synonyms('Saint Helena pound',
+         'St Helena currency',
+         'pound'),
+   target('shp__sys'),
+   target_label('SHP')
+);

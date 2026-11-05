@@ -1,0 +1,6 @@
+Picklistentry uanrn__v (
+   value('Urodynamics and Neurourology'),
+   order(1892),
+   active(true),
+   controlling_entries('hr__v')
+);

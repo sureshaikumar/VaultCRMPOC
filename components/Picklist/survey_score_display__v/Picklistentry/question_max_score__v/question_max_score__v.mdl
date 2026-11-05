@@ -1,0 +1,5 @@
+Picklistentry question_max_score__v (
+   value('Question Max Score'),
+   order(0),
+   active(true)
+);

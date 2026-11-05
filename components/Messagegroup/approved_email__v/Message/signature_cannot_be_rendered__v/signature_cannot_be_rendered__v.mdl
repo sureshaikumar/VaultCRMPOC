@@ -1,0 +1,6 @@
+Message signature_cannot_be_rendered__v (
+   label(),
+   active(true),
+   default_value('Signature cannot be rendered. Contact your admin.'),
+   system_managed(false)
+);

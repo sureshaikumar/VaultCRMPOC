@@ -1,0 +1,6 @@
+Message filter_from_date__v (
+   label(),
+   active(true),
+   default_value('From ${date}'),
+   system_managed(false)
+);

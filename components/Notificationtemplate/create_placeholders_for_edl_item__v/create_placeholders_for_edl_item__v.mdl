@@ -1,0 +1,32 @@
+RECREATE Notificationtemplate create_placeholders_for_edl_item__v (
+   label('createPlaceholdersForEdlItem'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Bulk Action Completed'),
+   notification('<p>Notification: Bulk Action Completed</p>
+<p>Details</p>
+<ul>
+    <li>Create placeholders for ${totalCount} ${objectName}</li>
+    <li>Start time: ${startTime}</li>
+    <li>Duration: ${numHours} hrs, ${numMins} mins, ${numSecs} secs</li>
+    <li>${successCountLink}</li>
+    <li>${failureCountLink}</li>
+    <li>Note: ${allDocCountEdlItemFieldLabel} for the affected ${objectName} will not include any newly created placeholders until document matching occurs.</li>
+</ul>'),
+   email_body('<p><b>Change Summary: </b>
+    <ul>
+        <li>Create placeholders for ${totalCount} ${objectName}</li>
+    </ul>
+</p>
+<p><b>Results:</b>
+    <ul>
+        <li>${successCountLink}</li>
+        <li>${failureCountLink}</li>
+        <li>Note: ${allDocCountEdlItemFieldLabel} for the affected ${objectName} will not include any newly created placeholders until document matching occurs.</li>
+    </ul>
+</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

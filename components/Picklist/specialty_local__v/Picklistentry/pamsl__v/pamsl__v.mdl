@@ -1,0 +1,8 @@
+Picklistentry pamsl__v (
+   value('Plastic and Maxillofacial Surgery'),
+   order(1566),
+   active(true),
+   controlling_entries('fr__v',
+         'lb__v',
+         'mc__v')
+);

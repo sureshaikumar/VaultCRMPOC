@@ -1,0 +1,5 @@
+Picklistentry australia_sydney__v (
+   value('Australia/Sydney'),
+   order(75),
+   active(true)
+);

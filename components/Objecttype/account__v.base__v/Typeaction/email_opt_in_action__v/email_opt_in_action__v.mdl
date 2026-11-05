@@ -1,0 +1,3 @@
+Typeaction email_opt_in_action__v (
+   action('account__v.email_opt_in_action__v')
+);

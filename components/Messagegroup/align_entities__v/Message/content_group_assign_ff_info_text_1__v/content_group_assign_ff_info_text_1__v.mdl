@@ -1,0 +1,6 @@
+Message content_group_assign_ff_info_text_1__v (
+   label(),
+   active(true),
+   default_value('Use the Content Group lookup to assign one or more Content Groups to roster members associated with territories in this Field Force.'),
+   system_managed(false)
+);

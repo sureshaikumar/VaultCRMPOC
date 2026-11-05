@@ -1,0 +1,4 @@
+Typefield file_extensions__v (
+   source('standard'),
+   required(true)
+);

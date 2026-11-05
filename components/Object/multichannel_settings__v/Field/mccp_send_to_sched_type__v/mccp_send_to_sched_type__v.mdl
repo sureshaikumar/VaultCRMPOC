@@ -1,0 +1,25 @@
+Field mccp_send_to_sched_type__v (
+   label('MCCP Send to Scheduler Type'),
+   type('Number'),
+   active(true),
+   description('Setting to determine the scheduler type to send filter list.
+0 = Send to Call Scheduler
+1 = Send to List Scheduler. Works in conjunction with the ENABLE_LIST_SCHEDULER Veeva Setting.'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(28),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry lb (
+   value('Luxembourgish'),
+   order(56),
+   active(true)
+);

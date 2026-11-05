@@ -1,0 +1,13 @@
+RECREATE Vsmentity doc_type_group_detail__v (
+   label('Document Type Group Detail'),
+   active(true),
+   description('Joins Document Type Group to Document Type Detail.'),
+   synonyms('doc type group detail',
+      'document type group',
+      'doc group detail',
+      'type group mapping'),
+   target('Object.doc_type_group_detail__v'),
+   target_label('Document Type Group Detail'),
+   Vsmfield(@Vsmfield/doc_type_detail__v.mdl),
+   Vsmfield(@Vsmfield/doc_type_group__v.mdl)
+);

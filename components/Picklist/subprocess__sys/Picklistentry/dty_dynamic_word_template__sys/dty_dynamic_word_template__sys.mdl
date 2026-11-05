@@ -1,0 +1,6 @@
+Picklistentry dty_dynamic_word_template__sys (
+   value('Dynamic Word Template'),
+   order(49),
+   active(true),
+   controlling_entries('dlc_crm_content__sys')
+);

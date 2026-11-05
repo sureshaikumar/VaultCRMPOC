@@ -1,0 +1,6 @@
+Picklistentry gn-l__v (
+   value('Labé (Region)'),
+   order(1740),
+   active(true),
+   controlling_entries('gn__v')
+);

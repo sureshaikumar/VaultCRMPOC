@@ -1,0 +1,4 @@
+Typefield categories__v (
+   source('standard'),
+   required(false)
+);

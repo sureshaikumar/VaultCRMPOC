@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction feedback_review__v.change_state_to_approved_useraction1__v (
+   label('Change State to Approved'),
+   rule(@rule.xml),
+   order(1001)
+);

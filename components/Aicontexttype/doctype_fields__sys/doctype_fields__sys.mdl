@@ -1,0 +1,8 @@
+RECREATE Aicontexttype doctype_fields__sys (
+   label('Document Type Fields'),
+   active(true),
+   admin_configurable(false),
+   configuration_code('Aicontexttypeconfigurationcode.com.veeva.vault.system.context.DynamicDocTypeFieldsConfigurationContextType'),
+   configuration_layout(),
+   runtime_code('Aicontexttyperuntimecode.com.veeva.vault.system.context.DynamicDocTypeFieldsRuntimeContextType')
+);

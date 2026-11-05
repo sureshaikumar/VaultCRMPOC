@@ -1,0 +1,17 @@
+Field protected_pdf__sys (
+   label('Generate Vault Protected PDFs'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, subsequent downloaded renditions will have a Veeva Vault Protection applied.'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

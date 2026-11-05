@@ -1,0 +1,5 @@
+Picklistentry latest_version__v (
+   value('Latest Version'),
+   order(0),
+   active(true)
+);

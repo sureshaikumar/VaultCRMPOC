@@ -1,0 +1,4 @@
+Typefield disabled_approved_email_entrypoints__v (
+   source('standard'),
+   required(false)
+);

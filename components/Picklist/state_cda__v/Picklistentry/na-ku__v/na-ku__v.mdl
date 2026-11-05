@@ -1,0 +1,6 @@
+Picklistentry na-ku__v (
+   value('Kunene'),
+   order(3304),
+   active(true),
+   controlling_entries('na__v')
+);

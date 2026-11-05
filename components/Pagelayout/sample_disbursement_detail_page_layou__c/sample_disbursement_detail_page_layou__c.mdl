@@ -1,0 +1,8 @@
+RECREATE Pagelayout sample_disbursement_detail_page_layou__c (
+   active(true),
+   default_layout(true),
+   description('Page Layout for Sample Transaction: Disbursement'),
+   display_lifecycle_stages(false),
+   label('Sample Disbursement Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

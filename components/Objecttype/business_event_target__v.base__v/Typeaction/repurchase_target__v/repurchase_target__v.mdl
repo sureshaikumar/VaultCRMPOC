@@ -1,0 +1,3 @@
+Typeaction repurchase_target__v (
+   action('business_event_target__v.repurchase_target__v')
+);

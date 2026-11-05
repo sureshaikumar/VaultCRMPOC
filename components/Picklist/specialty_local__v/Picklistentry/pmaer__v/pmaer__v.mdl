@@ -1,0 +1,6 @@
+Picklistentry pmaer__v (
+   value('Parenteral Medication'),
+   order(1287),
+   active(true),
+   controlling_entries('hu__v')
+);

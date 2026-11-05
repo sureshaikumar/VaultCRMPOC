@@ -1,0 +1,19 @@
+Field license__v (
+   label('License #'),
+   type('String'),
+   active(true),
+   description('State License Number for the corresponding State of the Address.  The State License Number is maintained across Addresses for an Account for the same State by the Address_trigger_vod trigger on the Address object.'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

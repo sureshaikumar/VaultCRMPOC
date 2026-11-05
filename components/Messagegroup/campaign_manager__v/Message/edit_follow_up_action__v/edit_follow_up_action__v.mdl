@@ -1,0 +1,6 @@
+Message edit_follow_up_action__v (
+   label(),
+   active(true),
+   default_value('Edit Follow-up Action'),
+   system_managed(false)
+);

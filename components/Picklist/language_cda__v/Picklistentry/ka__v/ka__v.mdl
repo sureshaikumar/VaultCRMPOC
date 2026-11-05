@@ -1,0 +1,5 @@
+Picklistentry ka__v (
+   value('Georgian'),
+   order(20),
+   active(true)
+);

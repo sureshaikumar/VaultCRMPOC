@@ -1,0 +1,5 @@
+Picklistentry olc_inventory_monitoring__sys (
+   value('Inventory Monitoring'),
+   order(47),
+   active(true)
+);

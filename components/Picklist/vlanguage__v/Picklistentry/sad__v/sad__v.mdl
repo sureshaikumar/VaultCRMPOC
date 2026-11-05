@@ -1,0 +1,5 @@
+Picklistentry sad__v (
+   value('Sandawe'),
+   order(269),
+   active(false)
+);

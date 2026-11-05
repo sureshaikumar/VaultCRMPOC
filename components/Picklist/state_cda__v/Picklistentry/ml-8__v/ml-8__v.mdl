@@ -1,0 +1,6 @@
+Picklistentry ml-8__v (
+   value('Kidal'),
+   order(3052),
+   active(true),
+   controlling_entries('ml__v')
+);

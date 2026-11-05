@@ -1,0 +1,6 @@
+Picklistentry poase__v (
+   value('Pediatric Ophthalmology and Strabismus'),
+   order(1428),
+   active(true),
+   controlling_entries('pk__v')
+);

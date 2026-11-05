@@ -1,0 +1,5 @@
+Picklistentry hcdo__v (
+   value('Hospital - Class D'),
+   order(111),
+   active(true)
+);

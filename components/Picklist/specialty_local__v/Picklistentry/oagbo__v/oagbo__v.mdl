@@ -1,0 +1,8 @@
+Picklistentry oagbo__v (
+   value('Obstetrics and Gynaecology'),
+   order(1080),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v',
+         'ng__v')
+);

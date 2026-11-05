@@ -1,0 +1,8 @@
+RECREATE Picklist aln_rule_selection_criteria__v (
+   label('Rule Selection Criteria'),
+   active(true),
+   Picklistentry(@Picklistentry/no_criteria__v.mdl),
+   Picklistentry(@Picklistentry/by_send_to_crm_value__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

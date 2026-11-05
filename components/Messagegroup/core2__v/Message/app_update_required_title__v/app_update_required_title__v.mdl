@@ -1,0 +1,6 @@
+Message app_update_required_title__v (
+   label(),
+   active(true),
+   default_value('Update Required'),
+   system_managed(false)
+);

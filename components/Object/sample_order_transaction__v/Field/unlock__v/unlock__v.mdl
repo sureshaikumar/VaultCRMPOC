@@ -1,0 +1,18 @@
+Field unlock__v (
+   label('Unlock'),
+   type('Boolean'),
+   active(true),
+   description('The Unlock checkbox provides a mechanism to determine if a User can unlock a Sample Order Transaction.  If a User has Edit privileges to the Unlock field, then a Unlock button will be displayed.  Only Administrators and Samples Admins should have edit pri'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(75),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 24020__v (
+   value('Glens Falls, NY Metropolitan Statistical Area'),
+   order(373),
+   active(true)
+);

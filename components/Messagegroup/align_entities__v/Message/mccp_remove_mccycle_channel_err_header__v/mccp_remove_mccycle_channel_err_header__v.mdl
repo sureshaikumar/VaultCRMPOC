@@ -1,0 +1,6 @@
+Message mccp_remove_mccycle_channel_err_header__v (
+   label(),
+   active(true),
+   default_value('Cycle Channel Removal Error'),
+   system_managed(false)
+);

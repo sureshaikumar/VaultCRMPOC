@@ -1,0 +1,14 @@
+RECREATE Page medical_events_manage_attendees_page__v (
+   label('Medical Events Manage Attendees Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('medical_events_manage_attendees_page__v'),
+   description('Medical Events Manage Attendees Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.medicalevents.controls.page.ManageAttendeesPageController'),
+   url_path_name('medical-events-manage-attendees')
+);

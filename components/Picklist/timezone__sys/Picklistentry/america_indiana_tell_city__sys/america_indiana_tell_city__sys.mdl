@@ -1,0 +1,5 @@
+Picklistentry america_indiana_tell_city__sys (
+   value('(GMT-06:00) Central Standard Time (America/Indiana/Tell_City)'),
+   order(38),
+   active(true)
+);

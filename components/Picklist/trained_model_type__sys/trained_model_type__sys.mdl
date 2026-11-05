@@ -1,0 +1,8 @@
+RECREATE Picklist trained_model_type__sys (
+   label('Trained Model Type'),
+   active(true),
+   Picklistentry(@Picklistentry/document_classification__sys.mdl),
+   Picklistentry(@Picklistentry/metadata_extraction__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout channel_product_detail_page_layout1__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Channel Product Detail Page Layout1'),
+   page_markup(@page_markup.xml)
+);

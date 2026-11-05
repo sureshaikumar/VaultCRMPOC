@@ -1,0 +1,5 @@
+Picklistentry casual_talk__c (
+   value('Casual Talk'),
+   order(0),
+   active(false)
+);

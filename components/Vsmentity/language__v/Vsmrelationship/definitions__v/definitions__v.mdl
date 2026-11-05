@@ -1,0 +1,13 @@
+Vsmrelationship definitions__v (
+   label('Definitions'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Glossary definitions written in this language. Use this to find all glossary definition records associated with a specific language (e.g., definitions__sysr.name__v to retrieve definition names).'),
+   join_object(),
+   synonyms('glossary definitions',
+         'term definitions',
+         'definitions in this language'),
+   target('definitions__sysr'),
+   target_label('Definitions'),
+   target_object('glossary_definition__sys')
+);

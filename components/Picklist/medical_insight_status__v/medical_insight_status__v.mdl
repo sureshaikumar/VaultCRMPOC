@@ -1,0 +1,8 @@
+RECREATE Picklist medical_insight_status__v (
+   label('Medical Insight Status'),
+   active(true),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

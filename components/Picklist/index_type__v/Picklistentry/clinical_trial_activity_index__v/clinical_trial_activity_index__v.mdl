@@ -1,0 +1,5 @@
+Picklistentry clinical_trial_activity_index__v (
+   value('Clinical Trial Activity Index'),
+   order(9),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry id-ji__v (
+   value('Jawa Timur'),
+   order(1924),
+   active(true),
+   controlling_entries('id__v')
+);

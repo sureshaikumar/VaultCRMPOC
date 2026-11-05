@@ -1,0 +1,6 @@
+Message attachments_alert_message__v (
+   label(),
+   active(true),
+   default_value('${files_added} files added, ${files_versioned} existing files up-versioned, ${duplicates_skipped} duplicates skipped'),
+   system_managed(false)
+);

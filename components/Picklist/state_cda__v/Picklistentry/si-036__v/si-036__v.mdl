@@ -1,0 +1,6 @@
+Picklistentry si-036__v (
+   value('Idrija'),
+   order(4010),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_rate_assignment__v.end_date_after_start_date__v (
+   label('End Date After Start Date'),
+   active(true),
+   expression('If(Not(IsBlank(start_date__v)) && Not(IsBlank(end_date__v)), start_date__v <= end_date__v, true)'),
+   description('End Date is earlier than Rule Start Date.'),
+   error_message('The End Date must be later than the Start Date.'),
+   error_location('end_date__v')
+);

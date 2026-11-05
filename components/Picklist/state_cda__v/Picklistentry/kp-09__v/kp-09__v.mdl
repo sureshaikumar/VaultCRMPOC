@@ -1,0 +1,6 @@
+Picklistentry kp-09__v (
+   value('North Hamgyong'),
+   order(2465),
+   active(true),
+   controlling_entries('kp__v')
+);

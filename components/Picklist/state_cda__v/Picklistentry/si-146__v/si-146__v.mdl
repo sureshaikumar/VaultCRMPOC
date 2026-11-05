@@ -1,0 +1,6 @@
+Picklistentry si-146__v (
+   value('Železniki'),
+   order(4119),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist user_available__v (
+   label('Available'),
+   active(true),
+   Picklistentry(@Picklistentry/unavailable__v.mdl),
+   Picklistentry(@Picklistentry/available__v.mdl),
+   Picklistentry(@Picklistentry/oncall__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

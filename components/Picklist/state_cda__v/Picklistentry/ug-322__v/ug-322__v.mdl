@@ -1,0 +1,6 @@
+Picklistentry ug-322__v (
+   value('Agago'),
+   order(4727),
+   active(true),
+   controlling_entries('ug__v')
+);

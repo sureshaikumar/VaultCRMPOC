@@ -1,0 +1,6 @@
+Message send_test_email__v (
+   label(),
+   active(true),
+   default_value('Send Test Email'),
+   system_managed(false)
+);

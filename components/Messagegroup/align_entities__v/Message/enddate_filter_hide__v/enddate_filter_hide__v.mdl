@@ -1,0 +1,6 @@
+Message enddate_filter_hide__v (
+   label(),
+   active(true),
+   default_value('Hide End-dated Records'),
+   system_managed(false)
+);

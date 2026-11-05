@@ -1,0 +1,6 @@
+Picklistentry tn-32__v (
+   value('Jendouba'),
+   order(4438),
+   active(true),
+   controlling_entries('tn__v')
+);

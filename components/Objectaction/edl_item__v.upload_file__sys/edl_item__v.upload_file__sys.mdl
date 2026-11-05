@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.upload_file__sys (
+   label('Upload'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.UploadFileAction'),
+   active(true),
+   available_all_states(true)
+);

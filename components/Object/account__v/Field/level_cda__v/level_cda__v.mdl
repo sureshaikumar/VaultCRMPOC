@@ -1,0 +1,18 @@
+Field level_cda__v (
+   label('Level'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the level of importance of this individual to the company, where level 5 indicates the highest level of importance. Can be used to drive business rules. For example: You may want to limit personalized promotions to levels 3 and below. You may also require a single relationship owner for level 5.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(162),
+   multi_value(false),
+   picklist('Picklist.level_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

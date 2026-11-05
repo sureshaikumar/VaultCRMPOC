@@ -1,0 +1,6 @@
+Picklistentry cz-722__v (
+   value('Uherské Hradiště'),
+   order(893),
+   active(true),
+   controlling_entries('cz__v')
+);

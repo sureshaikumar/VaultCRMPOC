@@ -1,0 +1,6 @@
+Message discontinuation__v (
+   label(),
+   active(true),
+   default_value('Discontinuation'),
+   system_managed(false)
+);

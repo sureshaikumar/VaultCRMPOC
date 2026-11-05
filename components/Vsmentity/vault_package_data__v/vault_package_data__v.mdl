@@ -1,0 +1,22 @@
+RECREATE Vsmentity vault_package_data__v (
+   label('Inbound Package Data'),
+   active(true),
+   description('Represents actual record data included as part of the inbound package. Supports importing data into Vaults along with configuration elements (Inbound Package Components)'),
+   synonyms('inbound package',
+      'package data',
+      'incoming package',
+      'vault package'),
+   target('Object.vault_package_data__v'),
+   target_label('Inbound Package Data'),
+   Vsmfield(@Vsmfield/checksum__v.mdl),
+   Vsmfield(@Vsmfield/data_action__v.mdl),
+   Vsmfield(@Vsmfield/data_type__v.mdl),
+   Vsmfield(@Vsmfield/deployment_status__v.mdl),
+   Vsmfield(@Vsmfield/include_object_record_attachments__v.mdl),
+   Vsmfield(@Vsmfield/key_field__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/object__v.mdl),
+   Vsmfield(@Vsmfield/record_migration_mode__v.mdl),
+   Vsmfield(@Vsmfield/stop_on_error__v.mdl),
+   Vsmfield(@Vsmfield/vault_package_step__v.mdl)
+);

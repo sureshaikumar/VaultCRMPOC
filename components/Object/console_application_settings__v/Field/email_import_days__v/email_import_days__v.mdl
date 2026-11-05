@@ -1,0 +1,23 @@
+Field email_import_days__v (
+   label('Email Import Days'),
+   type('Number'),
+   active(true),
+   description('Configures the number of days of email to import from the email server for newly configured email addresses. The import action only applies to the initial configuration of the email.'),
+   required(true),
+   unique(false),
+   max_value(30),
+   min_value(0),
+   scale(0),
+   help_content('Configures the number of days of email to import from the email server for newly configured email addresses. The import action only applies to the initial configuration of the email.'),
+   list_column(false),
+   order(14),
+   default_value('3'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

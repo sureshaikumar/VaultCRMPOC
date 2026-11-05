@@ -1,0 +1,6 @@
+Message target_label__sys (
+   label(),
+   active(true),
+   default_value('Target Label'),
+   system_managed(true)
+);

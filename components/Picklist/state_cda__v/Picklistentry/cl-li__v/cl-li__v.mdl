@@ -1,0 +1,6 @@
+Picklistentry cl-li__v (
+   value('Libertador General Bernardo O''Higgins'),
+   order(674),
+   active(true),
+   controlling_entries('cl__v')
+);

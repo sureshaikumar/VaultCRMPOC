@@ -1,0 +1,6 @@
+Picklistentry ca-pe__v (
+   value('Prince Edward Island'),
+   order(568),
+   active(true),
+   controlling_entries('ca__v')
+);

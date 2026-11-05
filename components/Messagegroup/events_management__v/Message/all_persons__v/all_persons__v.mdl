@@ -1,0 +1,6 @@
+Message all_persons__v (
+   label(),
+   active(true),
+   default_value('All Persons'),
+   system_managed(false)
+);

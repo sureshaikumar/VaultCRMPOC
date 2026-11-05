@@ -1,0 +1,6 @@
+Message journey_status__v (
+   label(),
+   active(true),
+   default_value('Journey Status'),
+   system_managed(false)
+);

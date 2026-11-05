@@ -1,0 +1,6 @@
+Picklistentry dz-45__v (
+   value('Naama'),
+   order(1026),
+   active(true),
+   controlling_entries('dz__v')
+);

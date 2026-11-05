@@ -1,0 +1,6 @@
+Message cannot_modify_maid__v (
+   label(),
+   active(true),
+   default_value('Master Align ID field cannot be modified.'),
+   system_managed(false)
+);

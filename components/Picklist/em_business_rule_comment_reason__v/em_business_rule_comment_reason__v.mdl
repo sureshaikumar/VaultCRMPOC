@@ -1,0 +1,10 @@
+RECREATE Picklist em_business_rule_comment_reason__v (
+   label('Comment Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/preapproved_exception_granted__v.mdl),
+   Picklistentry(@Picklistentry/system_data_is_not_accurate__v.mdl),
+   Picklistentry(@Picklistentry/rule_is_not_applicable__v.mdl),
+   Picklistentry(@Picklistentry/managed_via_offline_process__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,4 @@
+Typefield support_network_address_inheritance__v (
+   source('standard'),
+   required(false)
+);

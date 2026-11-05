@@ -1,0 +1,4 @@
+Typefield network_customer_master_mode__v (
+   source('custom'),
+   required(false)
+);

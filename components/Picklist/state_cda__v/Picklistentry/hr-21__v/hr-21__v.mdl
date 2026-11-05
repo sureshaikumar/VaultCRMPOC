@@ -1,0 +1,6 @@
+Picklistentry hr-21__v (
+   value('Grad Zagreb'),
+   order(1862),
+   active(true),
+   controlling_entries('hr__v')
+);

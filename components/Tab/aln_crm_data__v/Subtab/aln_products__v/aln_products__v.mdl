@@ -1,0 +1,10 @@
+Subtab aln_products__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Products'),
+   order(100),
+   parent('aln_crm_data__v'),
+   send_session_via_post_message(true),
+   url(@url.txt)
+);

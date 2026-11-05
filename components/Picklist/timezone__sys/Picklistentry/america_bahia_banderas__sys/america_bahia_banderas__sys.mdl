@@ -1,0 +1,5 @@
+Picklistentry america_bahia_banderas__sys (
+   value('(GMT-06:00) Central Standard Time (America/Bahia_Banderas)'),
+   order(30),
+   active(true)
+);

@@ -1,0 +1,7 @@
+RECREATE Securityprofile external_user__c (
+   label('External User'),
+   active(true),
+   description('System provided security profile for External Users. Users with this profile are not able to participate in workflows or view reports.'),
+   permission_sets('external_user_actions__c',
+      'readonly_user_actions__c')
+);

@@ -1,0 +1,6 @@
+Picklistentry fr-03__v (
+   value('Allier'),
+   order(1317),
+   active(true),
+   controlling_entries('fr__v')
+);

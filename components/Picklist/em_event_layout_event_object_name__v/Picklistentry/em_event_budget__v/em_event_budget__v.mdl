@@ -1,0 +1,5 @@
+Picklistentry em_event_budget__v (
+   value('EM_Event_Budget'),
+   order(1),
+   active(true)
+);

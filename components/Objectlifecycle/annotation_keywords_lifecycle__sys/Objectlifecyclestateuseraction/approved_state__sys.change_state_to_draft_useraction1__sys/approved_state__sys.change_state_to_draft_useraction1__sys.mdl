@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved_state__sys.change_state_to_draft_useraction1__sys (
+   label('Change State to Draft'),
+   rule(@rule.xml),
+   order(1000)
+);

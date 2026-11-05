@@ -1,0 +1,6 @@
+Picklistentry it-at__v (
+   value('Asti'),
+   order(2181),
+   active(true),
+   controlling_entries('it__v')
+);

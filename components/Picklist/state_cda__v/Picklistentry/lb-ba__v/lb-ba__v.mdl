@@ -1,0 +1,6 @@
+Picklistentry lb-ba__v (
+   value('Beyrouth'),
+   order(2533),
+   active(true),
+   controlling_entries('lb__v')
+);

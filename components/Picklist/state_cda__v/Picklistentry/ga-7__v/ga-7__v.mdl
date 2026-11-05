@@ -1,0 +1,6 @@
+Picklistentry ga-7__v (
+   value('Ogooué-Lolo'),
+   order(1445),
+   active(true),
+   controlling_entries('ga__v')
+);

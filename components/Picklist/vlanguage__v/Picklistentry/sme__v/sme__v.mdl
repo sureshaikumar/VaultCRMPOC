@@ -1,0 +1,5 @@
+Picklistentry sme__v (
+   value('Northern Sami'),
+   order(238),
+   active(false)
+);

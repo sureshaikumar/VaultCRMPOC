@@ -1,0 +1,5 @@
+Picklistentry prcaf__v (
+   value('Practicing'),
+   order(0),
+   active(true)
+);

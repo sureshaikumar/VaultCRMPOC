@@ -1,0 +1,5 @@
+Picklistentry campaign_manager_template__v (
+   value('Campaign Manager Template'),
+   order(9),
+   active(true)
+);

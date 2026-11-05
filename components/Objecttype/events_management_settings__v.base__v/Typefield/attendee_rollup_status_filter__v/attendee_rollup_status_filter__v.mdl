@@ -1,0 +1,4 @@
+Typefield attendee_rollup_status_filter__v (
+   source('standard'),
+   required(false)
+);

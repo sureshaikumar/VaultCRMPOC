@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate redacted_document_update_success__sys (
+   label('Redacted Document Update Success'),
+   active(true),
+   description('Notification template used for notifying users that the redacted version of their document was updated successfully.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Redacted Document updated: ${docNameNoLink}'),
+   notification('A new version of the Redacted Document (v${docMajor}.${docMinor}) was created from <b>${originalDocName} (v${originalVersion})</b>.<br/>Earlier versions remain in version history and the redaction is now Complete.<br/><br/><a href="${redactedDocUrl}">Open Redacted Document</a>'),
+   email_body('A new version of the Redacted Document (v${docMajor}.${docMinor}) was created from <b>${originalDocName} (v${originalVersion})</b>.<br/>Earlier versions remain in version history and the redaction is now Complete.<br/><br/><a href="${redactedDocUrl}">Open Redacted Document</a>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

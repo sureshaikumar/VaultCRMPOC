@@ -1,0 +1,6 @@
+Message error_email_action_required__v (
+   label(),
+   active(true),
+   default_value('An email action must be selected'),
+   system_managed(false)
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist multichannel_activity_line_reaction__v (
+   label('Reaction'),
+   active(true),
+   Picklistentry(@Picklistentry/positive__v.mdl),
+   Picklistentry(@Picklistentry/neutral__v.mdl),
+   Picklistentry(@Picklistentry/negative__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry bristol_myers_squibb_company__v (
+   value('Bristol-Myers Squibb Company'),
+   order(12),
+   active(true)
+);

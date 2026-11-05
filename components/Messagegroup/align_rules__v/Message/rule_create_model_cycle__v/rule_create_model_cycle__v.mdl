@@ -1,0 +1,6 @@
+Message rule_create_model_cycle__v (
+   label(),
+   active(true),
+   default_value('Create Model Cycle Targeting Rule'),
+   system_managed(false)
+);

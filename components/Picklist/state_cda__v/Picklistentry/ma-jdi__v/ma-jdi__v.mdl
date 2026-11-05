@@ -1,0 +1,6 @@
+Picklistentry ma-jdi__v (
+   value('El Jadida'),
+   order(2807),
+   active(true),
+   controlling_entries('ma__v')
+);

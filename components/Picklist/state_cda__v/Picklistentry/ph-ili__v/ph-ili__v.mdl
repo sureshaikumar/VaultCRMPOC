@@ -1,0 +1,6 @@
+Picklistentry ph-ili__v (
+   value('Iloilo'),
+   order(3567),
+   active(true),
+   controlling_entries('ph__v')
+);

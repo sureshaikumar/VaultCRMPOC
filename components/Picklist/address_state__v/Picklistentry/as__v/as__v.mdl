@@ -1,0 +1,5 @@
+Picklistentry as__v (
+   value('AS'),
+   order(2),
+   active(true)
+);

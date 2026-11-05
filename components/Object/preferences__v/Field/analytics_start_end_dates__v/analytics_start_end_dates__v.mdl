@@ -1,0 +1,17 @@
+Field analytics_start_end_dates__v (
+   label('Analytics Start End Dates'),
+   type('LongText'),
+   active(true),
+   description('This field stores the Start and End dates last selected for each report in a JSON format.'),
+   required(false),
+   max_length(2000),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

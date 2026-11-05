@@ -1,0 +1,8 @@
+Picklistentry pmhey__v (
+   value('Physical Medicine'),
+   order(1538),
+   active(true),
+   controlling_entries('ci__v',
+         'mu__v',
+         'qa__v')
+);

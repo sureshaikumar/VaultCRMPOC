@@ -1,0 +1,6 @@
+Picklistentry lmanc__v (
+   value('Laboratory Medicine / Anatomical & Clinical Pathology'),
+   order(846),
+   active(true),
+   controlling_entries('qa__v')
+);

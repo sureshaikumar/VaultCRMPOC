@@ -1,0 +1,6 @@
+Picklistentry eaumm__v (
+   value('Emergency and Urgent Medicine'),
+   order(477),
+   active(true),
+   controlling_entries('am__v')
+);

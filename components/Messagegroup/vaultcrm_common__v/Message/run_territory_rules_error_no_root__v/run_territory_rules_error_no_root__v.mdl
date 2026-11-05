@@ -1,0 +1,6 @@
+Message run_territory_rules_error_no_root__v (
+   label(),
+   active(true),
+   default_value('You need to create a territory structure with a root territory'),
+   system_managed(false)
+);

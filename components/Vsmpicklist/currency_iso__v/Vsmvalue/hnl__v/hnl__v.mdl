@@ -1,0 +1,10 @@
+Vsmvalue hnl__v (
+   label('HNL'),
+   active(true),
+   description('The Honduran Lempira (HNL), the official currency of Honduras, used for transactions and financial records involving Honduran business operations.'),
+   synonyms('Honduran lempira',
+         'lempira',
+         'Honduras currency'),
+   target('hnl__sys'),
+   target_label('HNL')
+);

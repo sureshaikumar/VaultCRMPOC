@@ -1,0 +1,4 @@
+Typefield last_activity_date__v (
+   source('custom'),
+   required(false)
+);

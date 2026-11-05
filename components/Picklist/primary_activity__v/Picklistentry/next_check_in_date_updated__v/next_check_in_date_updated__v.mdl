@@ -1,0 +1,5 @@
+Picklistentry next_check_in_date_updated__v (
+   value('Next Check-In Date Updated'),
+   order(12),
+   active(true)
+);

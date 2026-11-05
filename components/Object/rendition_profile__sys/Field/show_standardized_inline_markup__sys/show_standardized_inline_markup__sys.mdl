@@ -1,0 +1,17 @@
+Field show_standardized_inline_markup__sys (
+   label('Show standardized inline markup'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('If enabled, Word renditions display insertions and deletions inline in red. Insertions are underlined, deletions are struck through, and comments are inline. Formatting changes are excluded.'),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

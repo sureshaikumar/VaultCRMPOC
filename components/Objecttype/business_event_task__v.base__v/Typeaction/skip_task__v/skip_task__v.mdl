@@ -1,0 +1,3 @@
+Typeaction skip_task__v (
+   action('business_event_task__v.skip_task__v')
+);

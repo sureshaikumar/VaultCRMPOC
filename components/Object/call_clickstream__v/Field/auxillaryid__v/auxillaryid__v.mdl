@@ -1,0 +1,19 @@
+Field auxillaryid__v (
+   label('Auxillary Id'),
+   type('String'),
+   active(true),
+   description('Auxillary Id tied to the presentation. Used by customers as a reference field. No Veeva functionality keys off this field.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist binder_node_types__sys (
+   label('Binder Node Types'),
+   active(true),
+   Picklistentry(@Picklistentry/document__sys.mdl),
+   Picklistentry(@Picklistentry/section__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message ai_configurations__v (
+   label(),
+   active(true),
+   default_value('AI Configurations'),
+   system_managed(false)
+);

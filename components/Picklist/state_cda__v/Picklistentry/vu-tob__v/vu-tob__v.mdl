@@ -1,0 +1,6 @@
+Picklistentry vu-tob__v (
+   value('Torba'),
+   order(4980),
+   active(true),
+   controlling_entries('vu__v')
+);

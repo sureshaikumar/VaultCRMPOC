@@ -1,0 +1,5 @@
+Picklistentry 45180__v (
+   value('Talladega-Sylacauga, AL Micropolitan Statistical Area'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,9 @@
+Vsmvalue ved__v (
+   label('VED'),
+   active(true),
+   description('Applies when transactions are denominated in the Venezuelan Bolívar Digital, the most recent redenominated form of Venezuela''s official currency.'),
+   synonyms('Venezuelan digital bolívar',
+         'bolívar digital'),
+   target('ved__sys'),
+   target_label('VED')
+);

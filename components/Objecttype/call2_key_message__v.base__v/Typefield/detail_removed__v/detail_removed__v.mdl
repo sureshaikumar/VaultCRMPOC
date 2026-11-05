@@ -1,0 +1,4 @@
+Typefield detail_removed__v (
+   source('standard'),
+   required(false)
+);

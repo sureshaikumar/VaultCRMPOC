@@ -1,0 +1,5 @@
+Picklistentry crm_android__v (
+   value('CRM Android'),
+   order(5),
+   active(true)
+);

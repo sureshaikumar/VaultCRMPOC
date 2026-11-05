@@ -1,0 +1,9 @@
+RECREATE Picklist suggestedlink_link_target_type__v (
+   label('Reference Type'),
+   active(true),
+   Picklistentry(@Picklistentry/anchor__v.mdl),
+   Picklistentry(@Picklistentry/document__v.mdl),
+   Picklistentry(@Picklistentry/permalink__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

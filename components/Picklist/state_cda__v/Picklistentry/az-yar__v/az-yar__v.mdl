@@ -1,0 +1,6 @@
+Picklistentry az-yar__v (
+   value('Yardımlı'),
+   order(210),
+   active(true),
+   controlling_entries('az__v')
+);

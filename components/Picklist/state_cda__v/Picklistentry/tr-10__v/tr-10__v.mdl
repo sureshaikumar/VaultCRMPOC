@@ -1,0 +1,6 @@
+Picklistentry tr-10__v (
+   value('Balıkesir'),
+   order(4468),
+   active(true),
+   controlling_entries('tr__v')
+);

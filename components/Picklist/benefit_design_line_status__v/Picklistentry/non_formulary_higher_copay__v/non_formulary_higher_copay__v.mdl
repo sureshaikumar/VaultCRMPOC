@@ -1,0 +1,5 @@
+Picklistentry non_formulary_higher_copay__v (
+   value('Non-Formulary / Higher Copay'),
+   order(4),
+   active(true)
+);

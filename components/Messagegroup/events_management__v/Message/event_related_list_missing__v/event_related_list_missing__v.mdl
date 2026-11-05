@@ -1,0 +1,8 @@
+Message event_related_list_missing__v (
+   label(),
+   active(true),
+   default_value('Unable to create the event because you are missing FLS for the following:
+Object Fields: ${fields_identifier}
+Object Types: ${object_type_identifier}'),
+   system_managed(false)
+);

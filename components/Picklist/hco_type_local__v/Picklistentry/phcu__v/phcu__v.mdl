@@ -1,0 +1,5 @@
+Picklistentry phcu__v (
+   value('Public Health Clinic'),
+   order(218),
+   active(true)
+);

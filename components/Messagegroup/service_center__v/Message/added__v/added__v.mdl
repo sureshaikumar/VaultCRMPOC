@@ -1,0 +1,6 @@
+Message added__v (
+   label(),
+   active(true),
+   default_value('${name} added'),
+   system_managed(false)
+);

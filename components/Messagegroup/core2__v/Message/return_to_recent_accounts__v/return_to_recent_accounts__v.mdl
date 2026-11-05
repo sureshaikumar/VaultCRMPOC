@@ -1,0 +1,6 @@
+Message return_to_recent_accounts__v (
+   label(),
+   active(true),
+   default_value('Return to Recent Accounts'),
+   system_managed(false)
+);

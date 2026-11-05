@@ -1,0 +1,4 @@
+Typefield disable_all_accounts__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry td-od__v (
+   value('Waddāy'),
+   order(4317),
+   active(true),
+   controlling_entries('td__v')
+);

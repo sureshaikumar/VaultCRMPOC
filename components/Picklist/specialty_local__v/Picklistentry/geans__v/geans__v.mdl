@@ -1,0 +1,6 @@
+Picklistentry geans__v (
+   value('Gastrointestinal Endoscopy'),
+   order(583),
+   active(true),
+   controlling_entries('kr__v')
+);

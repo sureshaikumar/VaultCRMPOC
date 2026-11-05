@@ -1,0 +1,6 @@
+Message new_conversation__v (
+   label(),
+   active(true),
+   default_value('New Conversation'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message sender__v (
+   label(),
+   active(true),
+   default_value('Sender'),
+   system_managed(false)
+);

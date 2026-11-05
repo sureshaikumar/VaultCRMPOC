@@ -1,0 +1,6 @@
+Picklistentry az-nx__v (
+   value('Naxçıvan (Autonomous Republic)'),
+   order(176),
+   active(true),
+   controlling_entries('az__v')
+);

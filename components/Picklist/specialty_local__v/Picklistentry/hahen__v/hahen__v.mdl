@@ -1,0 +1,7 @@
+Picklistentry hahen__v (
+   value('Hematology and Hemotherapy'),
+   order(686),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_vendor__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="email__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="key_contact__v" />
+            <vault:field reference="phone_number__v" />
+            <vault:field reference="em_vendor_status__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

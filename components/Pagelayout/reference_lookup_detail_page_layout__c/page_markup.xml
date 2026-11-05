@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.reference_lookup__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="connection__sys" />
+            <vault:field reference="lookup_type__sys" />
+            <vault:field reference="source_key__sys" />
+            <vault:field reference="target_key__sys" />
+            <vault:field reference="dynamic_key__sys" />
+            <vault:field reference="target_key_field__sys" />
+            <vault:field reference="target_object__sys" />
+            <vault:control reference="condition_control__sys" name="condition_control__c" label="Condition" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

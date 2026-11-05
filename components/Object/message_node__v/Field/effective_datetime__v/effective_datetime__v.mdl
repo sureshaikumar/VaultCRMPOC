@@ -1,0 +1,17 @@
+Field effective_datetime__v (
+   label('Effective DateTime'),
+   type('DateTime'),
+   active(true),
+   description('The effective time for a message.'),
+   required(false),
+   help_content('The effective time for a message.'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Vsmfield certificate_id__v (
+   label('Certificate ID'),
+   active(true),
+   description('The identifier of the digital certificate associated with this connection, used for certificate-based authentication or secure communication. Use this field to audit or filter connections by their associated security certificate.'),
+   example_values(),
+   synonyms('cert ID',
+         'certificate',
+         'SSL cert',
+         'TLS certificate'),
+   target('certificate_id__sys'),
+   target_label('Certificate ID'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

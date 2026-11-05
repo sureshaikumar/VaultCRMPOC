@@ -1,0 +1,6 @@
+Message account_fax_never_opt_type__v (
+   label(),
+   active(true),
+   default_value('This account is never allowed to receive fax.'),
+   system_managed(false)
+);

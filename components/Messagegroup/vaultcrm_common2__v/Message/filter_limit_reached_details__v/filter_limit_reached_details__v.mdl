@@ -1,0 +1,6 @@
+Message filter_limit_reached_details__v (
+   label(),
+   active(true),
+   default_value('A maximum of 25 filters can be added'),
+   system_managed(false)
+);

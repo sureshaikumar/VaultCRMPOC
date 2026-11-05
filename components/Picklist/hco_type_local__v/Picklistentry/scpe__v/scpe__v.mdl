@@ -1,0 +1,5 @@
+Picklistentry scpe__v (
+   value('Specialized Center'),
+   order(238),
+   active(true)
+);

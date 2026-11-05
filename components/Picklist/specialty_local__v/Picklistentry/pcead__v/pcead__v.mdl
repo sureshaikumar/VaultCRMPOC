@@ -1,0 +1,6 @@
+Picklistentry pcead__v (
+   value('Pediatrics Cardiology'),
+   order(1475),
+   active(true),
+   controlling_entries('id__v')
+);

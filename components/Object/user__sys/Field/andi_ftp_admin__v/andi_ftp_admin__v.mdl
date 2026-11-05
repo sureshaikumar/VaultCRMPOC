@@ -1,0 +1,18 @@
+Field andi_ftp_admin__v (
+   label('Andi FTP Admin'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field controls whether or not the user should have visibility to the Andi data folder when logging into the Veeva FTP.'),
+   list_column(false),
+   order(57),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

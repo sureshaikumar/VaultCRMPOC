@@ -1,0 +1,6 @@
+Message test_link__v (
+   label(),
+   active(true),
+   default_value('Test Link'),
+   system_managed(false)
+);

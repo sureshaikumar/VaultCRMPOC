@@ -1,0 +1,6 @@
+Picklistentry rdeis__v (
+   value('Respiratory Diseases'),
+   order(1740),
+   active(true),
+   controlling_entries('kr__v')
+);

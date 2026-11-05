@@ -1,0 +1,6 @@
+Message concur_expense_attribution_team_member__v (
+   label(),
+   active(true),
+   default_value('If Write-In Team Member'),
+   system_managed(false)
+);

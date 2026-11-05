@@ -1,0 +1,19 @@
+Field alternate_name__v (
+   label('Alternate Name'),
+   type('String'),
+   active(true),
+   description('Alternate name of one child account used in iRep to show an alpha-bar'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

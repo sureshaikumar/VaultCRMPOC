@@ -1,0 +1,13 @@
+Subtab assignment_rules_tab__v (
+   active(true),
+   all_view_label('All Assignment Rules'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Assignment Rules'),
+   modal_create_record(true),
+   my_view_label('My Assignment Rules'),
+   object('assignment_rule__v'),
+   order(400),
+   parent('territory_management_menu__v'),
+   recent_view_label('Recent Assignment Rules')
+);

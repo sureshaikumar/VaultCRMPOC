@@ -1,0 +1,13 @@
+Vsmfield doc_type_detail__v (
+   label('Document Type Detail'),
+   active(true),
+   description('Reference to the specific Document Type Detail record associated with this group detail entry. Use this field to identify which individual document type configuration is linked to a document type group.'),
+   example_values(),
+   synonyms('document type detail',
+         'doc type detail',
+         'type detail'),
+   target('doc_type_detail__v'),
+   target_label('Document Type Detail'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

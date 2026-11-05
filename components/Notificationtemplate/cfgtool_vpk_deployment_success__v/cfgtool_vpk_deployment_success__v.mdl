@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate cfgtool_vpk_deployment_success__v (
+   label('Vpk Deployment Success'),
+   active(true),
+   description('Package deployment success template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Package Deployment Complete'),
+   notification('<b><p>Package <a href="${url_inbound_package_page}">${package_name}</a> has been successfully deployed.</p></b><br/>Details:<br/>Total Steps: ${total_step_count}<br/>Deployed: ${count_deployed}<br/>Deployed with warnings: ${count_warning}<br/>Deployed with failures: ${count_deployed_with_failure}<br/>Deployed with error: ${count_deployed_with_error}<br/>Failed: ${count_error}<br/>Skipped: ${count_skipped}<br/><br/>For details, please see <a href="${url_download_log}">deployment log</a>.<br/>For data deployment success and failure logs, please see <a href="${dataDeploymentLogUrl}">data deployment log</a>.'),
+   email_body('<b><p>Package ${package_name} has been successfully deployed.</p></b><br/>Details:<br/>Total Steps: ${total_step_count}<br/>Deployed: ${count_deployed}<br/>Deployed with warnings: ${count_warning}<br/>Deployed with failures: ${count_deployed_with_failure}<br/>Deployed with error: ${count_deployed_with_error}<br/>Failed: ${count_error}<br/>Skipped: ${count_skipped}<br/><br/>For details, please see <a href="${url_download_log}">deployment log</a>.<br/>For data deployment success and failure logs, please see <a href="${dataDeploymentLogUrl}">data deployment log</a>.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

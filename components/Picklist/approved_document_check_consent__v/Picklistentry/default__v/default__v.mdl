@@ -1,0 +1,5 @@
+Picklistentry default__v (
+   value('Default'),
+   order(0),
+   active(true)
+);

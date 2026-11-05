@@ -1,0 +1,6 @@
+Message mccp_approval_rule_add_cycle_channel__v (
+   label(),
+   active(true),
+   default_value('Add Cycle Channel'),
+   system_managed(false)
+);

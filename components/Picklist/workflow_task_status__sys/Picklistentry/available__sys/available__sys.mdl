@@ -1,0 +1,5 @@
+Picklistentry available__sys (
+   value('Available'),
+   order(1),
+   active(true)
+);

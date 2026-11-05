@@ -1,0 +1,5 @@
+Picklistentry arw (
+   value('Arawak'),
+   order(128),
+   active(true)
+);

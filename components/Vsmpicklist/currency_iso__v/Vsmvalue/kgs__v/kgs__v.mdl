@@ -1,0 +1,10 @@
+Vsmvalue kgs__v (
+   label('KGS'),
+   active(true),
+   description('The Kyrgyzstani Som (KGS), the official currency of Kyrgyzstan, used for transactions, pricing, and financial records involving Kyrgyz markets.'),
+   synonyms('Kyrgyzstani som',
+         'Kyrgyz som',
+         'KGS'),
+   target('kgs__sys'),
+   target_label('KGS')
+);

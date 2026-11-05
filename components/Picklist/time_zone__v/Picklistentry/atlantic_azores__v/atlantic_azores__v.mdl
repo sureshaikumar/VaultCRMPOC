@@ -1,0 +1,5 @@
+Picklistentry atlantic_azores__v (
+   value('Azores Time'),
+   order(93),
+   active(true)
+);

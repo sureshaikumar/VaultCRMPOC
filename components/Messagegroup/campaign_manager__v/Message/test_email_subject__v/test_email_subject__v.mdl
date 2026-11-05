@@ -1,0 +1,6 @@
+Message test_email_subject__v (
+   label(),
+   active(true),
+   default_value('TEST EMAIL | ${email_subject}'),
+   system_managed(false)
+);

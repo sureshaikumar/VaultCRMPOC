@@ -1,0 +1,6 @@
+Message max_search_results__v (
+   label(),
+   active(true),
+   default_value('Results are truncated at ${max_results} records. Please use filter options to refine your search.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message publish_failed__v (
+   label(),
+   active(true),
+   default_value('Publishing failed on ${value}.'),
+   system_managed(false)
+);

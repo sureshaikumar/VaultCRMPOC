@@ -1,0 +1,6 @@
+Picklistentry dz-26__v (
+   value('Médéa'),
+   order(1007),
+   active(true),
+   controlling_entries('dz__v')
+);

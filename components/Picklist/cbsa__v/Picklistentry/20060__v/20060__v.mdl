@@ -1,0 +1,5 @@
+Picklistentry 20060__v (
+   value('Douglas, GA Micropolitan Statistical Area'),
+   order(555),
+   active(true)
+);

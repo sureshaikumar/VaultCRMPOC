@@ -1,0 +1,9 @@
+Typefield client_device__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.message_activity_client_device__v.desktop__v',
+         'Picklist.message_activity_client_device__v.mobile__v',
+         'Picklist.message_activity_client_device__v.other__v',
+         'Picklist.message_activity_client_device__v.tablet__v',
+         'Picklist.message_activity_client_device__v.unknown__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate multi_task_load_success__v (
+   label('MultiTaskLoadSuccess'),
+   active(true),
+   description('MultiTask load job success template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Loader load job completed'),
+   notification('<p>Your Loader load job ${job_id} has completed. Result files can be retrieved from the Job Status page: <a href="${jobStatusPageLink}">${jobStatusPageLinkText} </a></p>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

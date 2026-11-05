@@ -1,0 +1,5 @@
+Picklistentry wst__sys (
+   value('WST'),
+   order(202),
+   active(true)
+);

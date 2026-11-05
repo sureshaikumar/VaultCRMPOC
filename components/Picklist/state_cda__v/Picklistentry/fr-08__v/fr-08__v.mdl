@@ -1,0 +1,6 @@
+Picklistentry fr-08__v (
+   value('Ardennes'),
+   order(1322),
+   active(true),
+   controlling_entries('fr__v')
+);

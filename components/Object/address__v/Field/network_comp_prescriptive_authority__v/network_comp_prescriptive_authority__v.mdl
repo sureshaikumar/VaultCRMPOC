@@ -1,0 +1,18 @@
+Field network_comp_prescriptive_authority__v (
+   label('Network Comp Prescriptive Authority'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates if the HCP has any of the assessed conditions on their prescribing authorities as reflected in Veeva OpenData. The field is mapped to comprehensive_prescriptive_authority__v from Network.'),
+   list_column(false),
+   order(51),
+   multi_value(false),
+   picklist('Picklist.addr_network_comp_prescriptive_authority__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

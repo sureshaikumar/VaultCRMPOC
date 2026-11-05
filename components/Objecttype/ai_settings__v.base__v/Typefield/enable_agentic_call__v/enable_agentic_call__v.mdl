@@ -1,0 +1,4 @@
+Typefield enable_agentic_call__v (
+   source('standard'),
+   required(false)
+);

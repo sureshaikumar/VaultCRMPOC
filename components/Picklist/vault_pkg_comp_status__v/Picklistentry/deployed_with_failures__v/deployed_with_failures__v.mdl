@@ -1,0 +1,5 @@
+Picklistentry deployed_with_failures__v (
+   value('Deployed with failures'),
+   order(10),
+   active(true)
+);

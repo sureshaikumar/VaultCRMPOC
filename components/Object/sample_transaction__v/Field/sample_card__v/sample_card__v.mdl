@@ -1,0 +1,19 @@
+Field sample_card__v (
+   label('Sample Card #'),
+   type('String'),
+   active(true),
+   description('Sample Card # represents the Sample Card Identifier for a Paper Disbursement Receipt. This field is populated from a Call by the Call_Header_trigger_vod trigger.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(45),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

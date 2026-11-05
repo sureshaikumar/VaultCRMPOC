@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate create_checklist_type_error__v (
+   label('Create Checklist Type Error'),
+   active(true),
+   description('Notifies user their checklist type creation has failed.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Checklist Type Provisioning Failed'),
+   notification('<p>Checklist Type provisioning failed. ${checklisttype_creation_error_message__sys}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Message cannot_update_user__v (
+   label(),
+   active(true),
+   default_value('You cannot update the user on an existing group member record. To change the user, please delete this record and add a new member for the correct user.'),
+   system_managed(false)
+);

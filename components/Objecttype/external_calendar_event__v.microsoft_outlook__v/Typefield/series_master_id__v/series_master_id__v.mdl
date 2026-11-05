@@ -1,0 +1,4 @@
+Typefield series_master_id__v (
+   source('custom'),
+   required(false)
+);

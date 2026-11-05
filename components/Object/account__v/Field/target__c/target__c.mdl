@@ -1,0 +1,18 @@
+Field target__c (
+   label('Target?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if this account is a target.'),
+   list_column(false),
+   order(89),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

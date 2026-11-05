@@ -1,0 +1,8 @@
+RECREATE Objectvalidation dynamic_attribute_configuration__v.validate_attribute_name__v (
+   label('Enforce Vault Field Name Convention'),
+   active(true),
+   expression('Regex(attribute_name__v, "^[a-zA-Z][a-zA-Z0-9]*(_[a-zA-Z0-9]+)*(__[cC])?$")'),
+   description('Enforces naming requirements for Dynamic Attribute Configuration names'),
+   error_message('The custom field name can only contain alphanumeric/underscore characters, must begin with a letter, cannot end with an underscore, or contain two consecutive underscore characters'),
+   error_location('attribute_name__v')
+);

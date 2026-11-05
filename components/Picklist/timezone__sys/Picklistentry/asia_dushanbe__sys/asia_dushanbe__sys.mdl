@@ -1,0 +1,5 @@
+Picklistentry asia_dushanbe__sys (
+   value('(GMT+05:00) Tajikistan Time (Asia/Dushanbe)'),
+   order(226),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message no_providers_or_facilities__v (
+   label(),
+   active(true),
+   default_value('No Providers or Facilities'),
+   system_managed(false)
+);

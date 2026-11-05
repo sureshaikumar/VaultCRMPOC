@@ -1,0 +1,5 @@
+Picklistentry lost__v (
+   value('Lost'),
+   order(0),
+   active(true)
+);

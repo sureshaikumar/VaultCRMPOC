@@ -1,0 +1,6 @@
+Picklistentry ls-c__v (
+   value('Leribe'),
+   order(2611),
+   active(true),
+   controlling_entries('ls__v')
+);

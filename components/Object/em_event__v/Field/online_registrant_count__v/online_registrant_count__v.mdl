@@ -1,0 +1,22 @@
+Field online_registrant_count__v (
+   label('Online Registrant Count'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(0),
+   scale(0),
+   help_content('Count of the number of attendees registering via a web portal.'),
+   list_column(false),
+   order(57),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

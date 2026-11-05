@@ -1,0 +1,5 @@
+Picklistentry product_group__v (
+   value('Product_Group_vod__c'),
+   order(2),
+   active(true)
+);

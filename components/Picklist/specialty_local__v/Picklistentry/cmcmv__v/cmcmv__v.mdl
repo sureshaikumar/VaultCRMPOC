@@ -1,0 +1,6 @@
+Picklistentry cmcmv__v (
+   value('Clinical Microbiology Clinical Microbiology Virology'),
+   order(247),
+   active(true),
+   controlling_entries('id__v')
+);

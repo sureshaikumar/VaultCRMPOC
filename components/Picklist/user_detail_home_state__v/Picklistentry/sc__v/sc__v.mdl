@@ -1,0 +1,5 @@
+Picklistentry sc__v (
+   value('SC'),
+   order(47),
+   active(true)
+);

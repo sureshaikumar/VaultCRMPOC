@@ -1,0 +1,6 @@
+Message all_accounts__v (
+   label(),
+   active(true),
+   default_value('All Accounts'),
+   system_managed(false)
+);

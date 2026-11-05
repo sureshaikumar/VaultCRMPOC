@@ -1,0 +1,17 @@
+Field markdown__v (
+   label('Markdown'),
+   type('LongText'),
+   active(true),
+   description('Single Long Text field (max 32,000 chars) holding the rendition.'),
+   required(false),
+   max_length(32000),
+   help_content('The deterministic markdown rendition of the call.'),
+   list_column(false),
+   order(11),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

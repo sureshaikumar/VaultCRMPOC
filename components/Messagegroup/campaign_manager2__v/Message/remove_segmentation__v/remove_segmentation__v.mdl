@@ -1,0 +1,6 @@
+Message remove_segmentation__v (
+   label(),
+   active(true),
+   default_value('Remove Segmentation'),
+   system_managed(false)
+);

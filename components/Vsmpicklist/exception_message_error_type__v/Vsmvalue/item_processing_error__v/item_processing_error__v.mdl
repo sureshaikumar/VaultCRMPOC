@@ -1,0 +1,11 @@
+Vsmvalue item_processing_error__v (
+   label('ITEM_PROCESSING_ERROR'),
+   active(true),
+   description('Indicates an error occurred while processing a specific item or record within a larger message or batch operation.'),
+   synonyms('item failure',
+         'record processing error',
+         'line item error',
+         'individual item failure'),
+   target('item_processing_error__sys'),
+   target_label('ITEM_PROCESSING_ERROR')
+);

@@ -1,0 +1,6 @@
+Message create_from_hierarchy__v (
+   label(),
+   active(true),
+   default_value('Create From Hierarchy'),
+   system_managed(false)
+);

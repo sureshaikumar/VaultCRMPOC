@@ -1,0 +1,4 @@
+Typefield vector_sync_scope__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message favorite_requires_send_to_crm__v (
+   label(),
+   active(true),
+   default_value('Favorite cannot be "Yes" if Send to CRM is "No".'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Typefield processing_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.engage_connect_group_r_processing_status__v.failure__v',
+         'Picklist.engage_connect_group_r_processing_status__v.in_process__v',
+         'Picklist.engage_connect_group_r_processing_status__v.success__v')
+);

@@ -1,0 +1,6 @@
+Message confirm_deploy_modal__v (
+   label(),
+   active(true),
+   default_value('Pressing "Confirm" will deploy this My Engage Portal.'),
+   system_managed(false)
+);

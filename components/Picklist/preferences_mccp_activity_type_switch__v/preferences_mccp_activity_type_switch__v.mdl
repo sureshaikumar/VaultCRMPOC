@@ -1,0 +1,8 @@
+RECREATE Picklist preferences_mccp_activity_type_switch__v (
+   label('MCCP Activity Type Switch'),
+   active(true),
+   Picklistentry(@Picklistentry/my_activity__v.mdl),
+   Picklistentry(@Picklistentry/team_activity__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

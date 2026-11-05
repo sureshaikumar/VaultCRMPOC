@@ -1,0 +1,6 @@
+Picklistentry angip__v (
+   value('Angiosurgery'),
+   order(94),
+   active(true),
+   controlling_entries('kg__v')
+);

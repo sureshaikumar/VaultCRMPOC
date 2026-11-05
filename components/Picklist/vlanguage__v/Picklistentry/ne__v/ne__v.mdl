@@ -1,0 +1,5 @@
+Picklistentry ne__v (
+   value('Nepali'),
+   order(233),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Message am_address_primary_field_false__v (
+   label(),
+   active(true),
+   default_value('Winning account has a primary address; the losing account’s Address primary field will be set to false.'),
+   system_managed(false)
+);

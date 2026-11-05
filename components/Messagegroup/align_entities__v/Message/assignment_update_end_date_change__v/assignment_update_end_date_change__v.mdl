@@ -1,0 +1,6 @@
+Message assignment_update_end_date_change__v (
+   label(),
+   active(true),
+   default_value('End Date is being changed to {0}'),
+   system_managed(false)
+);

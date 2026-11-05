@@ -1,0 +1,6 @@
+Message email_action__v (
+   label(),
+   active(true),
+   default_value('Email Action'),
+   system_managed(false)
+);

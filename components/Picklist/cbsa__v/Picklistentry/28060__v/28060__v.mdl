@@ -1,0 +1,5 @@
+Picklistentry 28060__v (
+   value('Kalispell, MT Micropolitan Statistical Area'),
+   order(122),
+   active(true)
+);

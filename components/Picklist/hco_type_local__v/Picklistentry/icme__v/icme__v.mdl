@@ -1,0 +1,5 @@
+Picklistentry icme__v (
+   value('Imaging Center'),
+   order(120),
+   active(true)
+);

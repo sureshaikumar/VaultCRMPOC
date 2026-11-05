@@ -1,0 +1,6 @@
+Picklistentry bw-gh__v (
+   value('Ghanzi'),
+   order(534),
+   active(true),
+   controlling_entries('bw__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry validate_roster_members__v (
+   value('Validate Roster Members'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist address_network_comp_sample_eligibility__v (
+   label('Network Comp Sample Eligibility'),
+   active(true),
+   Picklistentry(@Picklistentry/e__v.mdl),
+   Picklistentry(@Picklistentry/i__v.mdl),
+   Picklistentry(@Picklistentry/r__v.mdl),
+   Picklistentry(@Picklistentry/u__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

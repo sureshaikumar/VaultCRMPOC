@@ -1,0 +1,9 @@
+Vsmvalue all__v (
+   label('ALL'),
+   active(true),
+   description('The Albanian Lek (ALL), the official currency of Albania, used for all domestic financial transactions.'),
+   synonyms('Albanian lek',
+         'Albania currency'),
+   target('all__sys'),
+   target_label('ALL')
+);

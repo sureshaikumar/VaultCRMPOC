@@ -1,0 +1,6 @@
+Picklistentry th-63__v (
+   value('Tak'),
+   order(4378),
+   active(true),
+   controlling_entries('th__v')
+);

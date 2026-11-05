@@ -1,0 +1,6 @@
+Picklistentry gb-brc__v (
+   value('Bracknell Forest'),
+   order(1473),
+   active(true),
+   controlling_entries('gb__v')
+);

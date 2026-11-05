@@ -1,0 +1,6 @@
+Picklistentry co-cal__v (
+   value('Caldas'),
+   order(733),
+   active(true),
+   controlling_entries('co__v')
+);

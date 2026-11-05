@@ -1,0 +1,6 @@
+Message object__sys (
+   label(),
+   active(true),
+   default_value('Primary Object'),
+   system_managed(true)
+);

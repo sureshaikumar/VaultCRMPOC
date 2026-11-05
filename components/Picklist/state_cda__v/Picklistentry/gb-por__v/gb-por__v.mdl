@@ -1,0 +1,6 @@
+Picklistentry gb-por__v (
+   value('Portsmouth'),
+   order(1597),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,6 @@
+Message am_merge_accounts__v (
+   label(),
+   active(true),
+   default_value('Merge Accounts'),
+   system_managed(false)
+);

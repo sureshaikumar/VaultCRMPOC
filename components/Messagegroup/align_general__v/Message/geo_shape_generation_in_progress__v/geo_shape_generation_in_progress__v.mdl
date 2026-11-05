@@ -1,0 +1,6 @@
+Message geo_shape_generation_in_progress__v (
+   label(),
+   active(true),
+   default_value('Geo shapes of type {0} for {1} are currently being generated. Please wait until the process completes before trying again.'),
+   system_managed(false)
+);

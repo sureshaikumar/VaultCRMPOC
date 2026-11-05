@@ -1,0 +1,19 @@
+Field sharing_group__v (
+   label('Sharing Group'),
+   type('String'),
+   active(true),
+   description('The value of this text field can be used to set up Sharing Rules in order to add additional visibility rules.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

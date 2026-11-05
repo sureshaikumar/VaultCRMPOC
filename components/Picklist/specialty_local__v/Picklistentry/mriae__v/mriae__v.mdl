@@ -1,0 +1,6 @@
+Picklistentry mriae__v (
+   value('Magnetic Resonance Imaging'),
+   order(870),
+   active(true),
+   controlling_entries('ge__v')
+);

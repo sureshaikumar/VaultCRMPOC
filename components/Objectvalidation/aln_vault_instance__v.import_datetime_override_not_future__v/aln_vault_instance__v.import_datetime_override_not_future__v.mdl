@@ -1,0 +1,8 @@
+RECREATE Objectvalidation aln_vault_instance__v.import_datetime_override_not_future__v (
+   label('Import Datetime Override Not Future'),
+   active(true),
+   expression('import_datetime_override__v <= Today() || IsBlank(import_datetime_override__v)'),
+   description('The Import Datetime Override cannot be in the future.'),
+   error_message('The Import Datetime Override cannot be in the future.'),
+   error_location('import_datetime_override__v')
+);

@@ -1,0 +1,6 @@
+Message allow_notifications__v (
+   label(),
+   active(true),
+   default_value('Allow Notifications'),
+   system_managed(false)
+);

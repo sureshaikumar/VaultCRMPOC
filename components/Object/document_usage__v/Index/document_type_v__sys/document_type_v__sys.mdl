@@ -1,0 +1,5 @@
+Index document_type_v__sys (
+   description(),
+   fields('document_type__v'),
+   label('Document Type')
+);

@@ -1,0 +1,6 @@
+Index source_component_blocking_type__sys (
+   description(),
+   fields('source_component__sys',
+         'blocking__sys'),
+   label('Source Component by Blocking Type')
+);

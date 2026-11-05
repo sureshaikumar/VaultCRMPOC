@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate related_aggregate_cds_updated__sys (
+   label('Related Aggregate CDs Updated'),
+   active(true),
+   description('Sent when the Update Related Aggregate Checklist Designs action completes successfully.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.checklist_design__sys'),
+   subject('${Custom.numUpdatedAggregateChecklistDesigns} Aggregate Checklist Designs successfully updated when Sub-Checklist Design was updated to a new version'),
+   notification('<p>${Custom.numUpdatedAggregateChecklistDesigns} Aggregate Checklist Designs were successfully updated when Sub-Checklist Design <a href="${Custom.oldSubChecklistDesignVersionURL}">${Custom.oldSubChecklistDesignVersionName}</a> was updated to new version <a href="${Custom.newSubChecklistDesignVersionURL}">${Custom.newSubChecklistDesignVersionName}</a>.</p><p>Full details are available <a href="${Custom.summaryFileUrl}">here</a>.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

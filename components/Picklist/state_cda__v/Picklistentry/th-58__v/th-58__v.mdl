@@ -1,0 +1,6 @@
+Picklistentry th-58__v (
+   value('Mae Hong Son'),
+   order(4374),
+   active(true),
+   controlling_entries('th__v')
+);

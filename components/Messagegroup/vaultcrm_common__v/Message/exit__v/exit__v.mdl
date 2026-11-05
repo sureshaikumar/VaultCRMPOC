@@ -1,0 +1,6 @@
+Message exit__v (
+   label(),
+   active(true),
+   default_value('Exit'),
+   system_managed(false)
+);

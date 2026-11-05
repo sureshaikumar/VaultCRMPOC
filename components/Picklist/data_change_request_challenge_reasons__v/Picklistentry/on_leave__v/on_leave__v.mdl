@@ -1,0 +1,5 @@
+Picklistentry on_leave__v (
+   value('On Leave'),
+   order(1),
+   active(true)
+);

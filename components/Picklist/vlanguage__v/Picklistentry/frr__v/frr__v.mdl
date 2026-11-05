@@ -1,0 +1,5 @@
+Picklistentry frr__v (
+   value('Northern Frisian'),
+   order(237),
+   active(false)
+);

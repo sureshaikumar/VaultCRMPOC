@@ -1,0 +1,4 @@
+Typefield enable_sample_receipt_grouping__v (
+   source('standard'),
+   required(false)
+);

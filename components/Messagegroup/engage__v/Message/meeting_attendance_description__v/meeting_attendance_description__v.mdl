@@ -1,0 +1,6 @@
+Message meeting_attendance_description__v (
+   label(),
+   active(true),
+   default_value('Enabling meeting attendance reporting allows admins to access detailed reports of who attended meetings scheduled from Vault CRM. This feature helps track participation, support follow-ups, and maintain accurate attendance records for future reference.'),
+   system_managed(false)
+);

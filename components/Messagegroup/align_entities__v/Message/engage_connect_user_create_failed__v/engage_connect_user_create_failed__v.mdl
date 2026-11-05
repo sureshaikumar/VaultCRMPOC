@@ -1,0 +1,6 @@
+Message engage_connect_user_create_failed__v (
+   label(),
+   active(true),
+   default_value('Failed to update Engage Connect license for Roster Member ${rm}. REASON: User creation failed.'),
+   system_managed(false)
+);

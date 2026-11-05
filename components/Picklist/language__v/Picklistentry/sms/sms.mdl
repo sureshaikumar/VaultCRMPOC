@@ -1,0 +1,5 @@
+Picklistentry sms (
+   value('Skolt Sami'),
+   order(305),
+   active(true)
+);

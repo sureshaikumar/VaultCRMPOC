@@ -1,0 +1,6 @@
+Message scheduling_error__v (
+   label(),
+   active(true),
+   default_value('Scheduling Error'),
+   system_managed(false)
+);

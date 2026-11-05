@@ -1,0 +1,6 @@
+Picklistentry mt-23__v (
+   value('Kirkop'),
+   order(3129),
+   active(true),
+   controlling_entries('mt__v')
+);

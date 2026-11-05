@@ -1,0 +1,6 @@
+Message capture_consent_before_send_pres__v (
+   label(),
+   active(true),
+   default_value('Capture consent for the account before sending a presentation.'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield network_naw_assign_all_terr__v (
+   source('standard'),
+   required(false)
+);

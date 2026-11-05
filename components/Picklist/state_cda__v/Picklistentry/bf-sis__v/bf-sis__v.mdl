@@ -1,0 +1,6 @@
+Picklistentry bf-sis__v (
+   value('Sissili'),
+   order(361),
+   active(true),
+   controlling_entries('bf__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gy-es__v (
+   value('Essequibo Islands-West Demerara'),
+   order(1818),
+   active(true),
+   controlling_entries('gy__v')
+);

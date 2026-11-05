@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate import_checklist_translations_error__sys (
+   label('Import Checklist Translations Error'),
+   active(true),
+   description('Notification template notifying user that their checklist translations were partially imported with rows skipped due to errors'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Bulk Import of ${checklist_design__sys_label} Translations Completed'),
+   notification('<p>Your ${checklist_design__sys_label} translations were successfully imported.<br></p><p>Results:<br>${numImported} translations successfully imported<br>${numIgnored} translations ignored because there was no change<br>${numErrored} translations not updated due to import errors<br>${numInserted} translations newly inserted<br></p><p>For additional details, download the <a href="${urlErrorResultsDownload}">error results file</a>.<br></p><p><a href="${urlChecklistHelp}">Learn more</a> about bulk importing translations.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

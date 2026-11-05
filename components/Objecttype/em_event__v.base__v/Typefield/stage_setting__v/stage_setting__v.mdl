@@ -1,0 +1,4 @@
+Typefield stage_setting__v (
+   source('standard'),
+   required(false)
+);

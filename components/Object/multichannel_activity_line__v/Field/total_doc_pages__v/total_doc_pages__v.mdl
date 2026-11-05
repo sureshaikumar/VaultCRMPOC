@@ -1,0 +1,22 @@
+Field total_doc_pages__v (
+   label('Total Pages in Document'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content('Total # of pages in the document'),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

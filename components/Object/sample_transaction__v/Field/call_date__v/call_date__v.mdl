@@ -1,0 +1,17 @@
+Field call_date__v (
+   label('Call Date'),
+   type('Date'),
+   active(true),
+   description('The Call Date field stores the Date of the Call for a Sample Disbursement Transaction.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

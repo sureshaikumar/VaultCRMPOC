@@ -1,0 +1,6 @@
+Picklistentry mw-ne__v (
+   value('Neno'),
+   order(3228),
+   active(true),
+   controlling_entries('mw__v')
+);

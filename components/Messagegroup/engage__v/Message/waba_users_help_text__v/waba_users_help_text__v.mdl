@@ -1,0 +1,6 @@
+Message waba_users_help_text__v (
+   label(),
+   active(true),
+   default_value('Select a primary user to receive all inbound messages from numbers that do not have prior chat history. If primary user is inactive, the secondary user will receive the messages.'),
+   system_managed(false)
+);

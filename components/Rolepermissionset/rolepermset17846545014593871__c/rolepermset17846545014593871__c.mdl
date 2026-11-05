@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17846545014593871__c (
+   label('Agentic Voice'),
+   active(true),
+   application_role('voice__c'),
+   permission_sets('Permissionset.agentic_voice__c')
+);

@@ -1,0 +1,6 @@
+Picklistentry gq-dj__v (
+   value('Djibloho'),
+   order(1761),
+   active(true),
+   controlling_entries('gq__v')
+);

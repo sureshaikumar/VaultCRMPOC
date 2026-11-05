@@ -1,0 +1,5 @@
+Picklistentry 19500__v (
+   value('Decatur, IL Metropolitan Statistical Area'),
+   order(343),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry az-ler__v (
+   value('Lerik'),
+   order(170),
+   active(true),
+   controlling_entries('az__v')
+);

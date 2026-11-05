@@ -1,0 +1,6 @@
+Picklistentry mw-mc__v (
+   value('Mchinji'),
+   order(3220),
+   active(true),
+   controlling_entries('mw__v')
+);

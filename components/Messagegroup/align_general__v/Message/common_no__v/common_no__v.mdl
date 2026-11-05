@@ -1,0 +1,6 @@
+Message common_no__v (
+   label(),
+   active(true),
+   default_value('No'),
+   system_managed(false)
+);

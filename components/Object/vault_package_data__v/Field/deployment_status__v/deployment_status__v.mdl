@@ -1,0 +1,18 @@
+Field deployment_status__v (
+   label('Deployment Status'),
+   type('Picklist'),
+   active(false),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Deployment status, Imported, Verified, Error, etc.'),
+   list_column(true),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.vault_pkg_comp_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

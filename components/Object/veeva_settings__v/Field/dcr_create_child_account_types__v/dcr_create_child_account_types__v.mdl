@@ -1,0 +1,19 @@
+Field dcr_create_child_account_types__v (
+   label('DCR Create Child Account Types'),
+   type('String'),
+   active(true),
+   description('Controls which Child Account object types are available to users when creating new Child Account DCRs. If left blank, all child account object types the user has read permission to are available.'),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content('Comma delimited list of child account object types that are available in the child account object type selector'),
+   list_column(false),
+   order(361),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

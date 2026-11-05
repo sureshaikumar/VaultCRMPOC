@@ -1,0 +1,19 @@
+Field whatsapp_header_text__v (
+   label('WhatsApp Header Text'),
+   type('String'),
+   active(true),
+   description('Text content of the header if ''Text'' is selected as the header type.'),
+   required(false),
+   unique(false),
+   max_length(60),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

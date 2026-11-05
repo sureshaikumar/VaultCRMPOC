@@ -1,0 +1,6 @@
+Picklistentry paccm__v (
+   value('Pulmonary and Critical Care Medicine'),
+   order(1646),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,6 @@
+Message crm_integration_action__v (
+   label(),
+   active(true),
+   default_value('Action'),
+   system_managed(false)
+);

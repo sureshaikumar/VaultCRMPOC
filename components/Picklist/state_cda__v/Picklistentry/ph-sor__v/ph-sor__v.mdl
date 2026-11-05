@@ -1,0 +1,6 @@
+Picklistentry ph-sor__v (
+   value('Sorsogon'),
+   order(3604),
+   active(true),
+   controlling_entries('ph__v')
+);

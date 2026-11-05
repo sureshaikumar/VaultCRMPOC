@@ -1,0 +1,20 @@
+RECREATE Integrationrule study_site_ir__v (
+   label('Clinical Study Site Integration Rule'),
+   active(true),
+   connection('clinops_crm__v'),
+   integration_point('clinical_study_site_iip__v'),
+   primary_query_object('site__v'),
+   Fieldrule(@Fieldrule/lifecycle_state__v.mdl),
+   Fieldrule(@Fieldrule/link__v.mdl),
+   Fieldrule(@Fieldrule/name__v.mdl),
+   Fieldrule(@Fieldrule/principal_investigator_text__v.mdl),
+   Fieldrule(@Fieldrule/site_name_text__v.mdl),
+   Fieldrule(@Fieldrule/site_recruitment_status__v.mdl),
+   Fieldrule(@Fieldrule/site_status__v.mdl),
+   Fieldrule(@Fieldrule/status__v.mdl),
+   Fieldrule(@Fieldrule/study_country__v.mdl),
+   Fieldrule(@Fieldrule/study_name__v.mdl),
+   Fieldrule(@Fieldrule/vault_clinical_org_external_id__v.mdl),
+   Fieldrule(@Fieldrule/vault_clinical_study__v.mdl),
+   Queryobjectrule(@Queryobjectrule/site__v.mdl)
+);

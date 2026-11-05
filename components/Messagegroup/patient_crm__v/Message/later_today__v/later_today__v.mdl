@@ -1,0 +1,6 @@
+Message later_today__v (
+   label(),
+   active(true),
+   default_value('Later Today'),
+   system_managed(false)
+);

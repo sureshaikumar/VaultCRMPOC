@@ -1,0 +1,19 @@
+Field template_text_placeholder__v (
+   label('Template Text Placeholder'),
+   type('String'),
+   active(true),
+   description('Details of what the placeholder in the message template text should be replaced with.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(44),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

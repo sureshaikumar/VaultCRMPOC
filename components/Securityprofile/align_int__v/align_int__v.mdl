@@ -1,0 +1,6 @@
+RECREATE Securityprofile align_int__v (
+   label('Align Integration'),
+   active(true),
+   description(),
+   permission_sets('align_integration_permission_set__v')
+);

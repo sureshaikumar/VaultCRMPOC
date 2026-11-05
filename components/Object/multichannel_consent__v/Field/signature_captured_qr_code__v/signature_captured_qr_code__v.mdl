@@ -1,0 +1,18 @@
+Field signature_captured_qr_code__v (
+   label('Signature Captured QR Code'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field indicates the signature was captured via the QR Code signature method'),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

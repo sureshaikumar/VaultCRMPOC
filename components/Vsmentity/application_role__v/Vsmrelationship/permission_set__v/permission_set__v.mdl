@@ -1,0 +1,14 @@
+Vsmrelationship permission_set__v (
+   label('Permission Set'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The permission set(s) associated with this application role, defining what actions and data access the role grants. Use this to find which permissions are bundled into a given role (e.g., permission_set__sysr.name__v = \''Read Only\'').'),
+   join_object(),
+   synonyms('permissions',
+         'access permissions',
+         'permission sets',
+         'assigned permissions'),
+   target('permission_set__sysr'),
+   target_label('Permission Set'),
+   target_object('permission_set__sys')
+);

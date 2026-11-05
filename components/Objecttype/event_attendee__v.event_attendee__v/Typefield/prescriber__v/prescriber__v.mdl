@@ -1,0 +1,6 @@
+Typefield prescriber__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.event_attendee_prescriber__v.no__v',
+         'Picklist.event_attendee_prescriber__v.yes__v')
+);

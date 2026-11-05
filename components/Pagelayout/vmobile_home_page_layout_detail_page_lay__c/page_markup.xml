@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.vmobile_home_page_layout__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Suggestions" name="home_page_suggestions_section__c" reference="home_page_suggestions_section__v" />
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="My Tasks" name="tasks_section__c" reference="tasks_section__v" />
+    <vault:section title="My Alerts" name="alerts_section__c" reference="alerts_section__v" />
+    <vault:section title="Surveys" name="home_page_surveys_section__c" reference="home_page_surveys_section__v" />
+    <vault:section title="Territory Adds &amp; Drops" name="terr_changes_section__c" reference="terr_changes_section__v" />
+</vault:page>

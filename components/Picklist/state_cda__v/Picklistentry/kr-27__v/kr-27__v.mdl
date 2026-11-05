@@ -1,0 +1,6 @@
+Picklistentry kr-27__v (
+   value('Daegu'),
+   order(2472),
+   active(true),
+   controlling_entries('kr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry tactical_discussion__c (
+   value('Tactical Discussion'),
+   order(2),
+   active(true)
+);

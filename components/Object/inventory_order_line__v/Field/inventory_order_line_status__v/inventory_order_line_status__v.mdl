@@ -1,0 +1,18 @@
+Field inventory_order_line_status__v (
+   label('Inventory Order Line Status'),
+   type('Picklist'),
+   active(true),
+   description('This field identifies the status of this order line. The online application managers New, Save and Submitted. The customer''s integration with their fulfillment system can use the other delivered values.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.inventory_or_inventory_order_line_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry cpnar__v (
+   value('Clinical Pathology Nephrology and Respiration'),
+   order(275),
+   active(true),
+   controlling_entries('id__v')
+);

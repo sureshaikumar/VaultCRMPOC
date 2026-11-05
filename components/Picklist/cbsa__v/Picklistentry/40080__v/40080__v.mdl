@@ -1,0 +1,5 @@
+Picklistentry 40080__v (
+   value('Richmond-Berea, KY Micropolitan Statistical Area'),
+   order(120),
+   active(true)
+);

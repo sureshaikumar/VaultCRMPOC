@@ -1,0 +1,6 @@
+Picklistentry us-nc__v (
+   value('North Carolina'),
+   order(4821),
+   active(true),
+   controlling_entries('us__v')
+);

@@ -1,0 +1,6 @@
+Message field_mapping_crm_objects__v (
+   label(),
+   active(true),
+   default_value('CRM Objects'),
+   system_managed(false)
+);

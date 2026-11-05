@@ -1,0 +1,5 @@
+Picklistentry tyv__v (
+   value('Tuvinian'),
+   order(333),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry dwih__v (
+   value('Distributor / Wholesaler'),
+   order(50),
+   active(true)
+);

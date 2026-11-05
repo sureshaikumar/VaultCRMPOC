@@ -1,0 +1,13 @@
+Subtab inventory_order_allocations_tab__v (
+   active(true),
+   all_view_label('All Inventory Order Allocations'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Inventory Order Allocations'),
+   modal_create_record(true),
+   my_view_label('My Inventory Order Allocations'),
+   object('inventory_order_allocation__v'),
+   order(500),
+   parent('sample_management_menu__v'),
+   recent_view_label('Recent Inventory Order Allocations')
+);

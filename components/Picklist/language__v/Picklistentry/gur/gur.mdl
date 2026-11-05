@@ -1,0 +1,5 @@
+Picklistentry gur (
+   value('Frafra'),
+   order(182),
+   active(true)
+);

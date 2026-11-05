@@ -1,0 +1,13 @@
+Vsmfield deployment_status__v (
+   label('Deployment Status'),
+   active(true),
+   description('Current status of the inbound package\''s deployment into the Vault environment. Typical values may include pending, deployed, failed, or in-progress. Use this field to monitor deployment progress or identify packages that need attention.'),
+   example_values(),
+   synonyms('deploy status',
+         'install status',
+         'deployment state'),
+   target('deployment_status__v'),
+   target_label('Deployment Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

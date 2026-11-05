@@ -1,0 +1,5 @@
+Picklistentry 29740__v (
+   value('Las Cruces, NM Metropolitan Statistical Area'),
+   order(345),
+   active(true)
+);

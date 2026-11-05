@@ -1,0 +1,20 @@
+Field number_dialed__v (
+   label('Phone Number'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('Stores the phone number dialed for a given Check-In Detail record.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(true),
+   order(21),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

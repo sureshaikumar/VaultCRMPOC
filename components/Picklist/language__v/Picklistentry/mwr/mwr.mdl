@@ -1,0 +1,5 @@
+Picklistentry mwr (
+   value('Marwari'),
+   order(255),
+   active(true)
+);

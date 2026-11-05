@@ -1,0 +1,6 @@
+Message maximum_files_uploaded__v (
+   label(),
+   active(true),
+   default_value('Maximum Files Uploaded'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry sr-ni__v (
+   value('Nickerie'),
+   order(4245),
+   active(true),
+   controlling_entries('sr__v')
+);

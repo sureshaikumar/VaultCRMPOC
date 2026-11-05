@@ -1,0 +1,6 @@
+Picklistentry fr-nor__v (
+   value('Normandie'),
+   order(1431),
+   active(true),
+   controlling_entries('fr__v')
+);

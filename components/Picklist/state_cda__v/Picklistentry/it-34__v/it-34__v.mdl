@@ -1,0 +1,6 @@
+Picklistentry it-34__v (
+   value('Veneto'),
+   order(2159),
+   active(true),
+   controlling_entries('it__v')
+);

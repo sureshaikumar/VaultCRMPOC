@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.min_program_less_max_program__v (
+   label('Min Programs less than Max Programs'),
+   active(true),
+   expression('Not((Not(IsBlank(minimum_programs__v)))&&(Not(IsBlank(maximum_programs__v)))&&(minimum_programs__v>maximum_programs__v))'),
+   description('Maximum Programs must be greater than or equal to Minimum Programs.'),
+   error_message('Maximum Programs must be greater than or equal to Minimum Programs.'),
+   error_location('maximum_programs__v')
+);

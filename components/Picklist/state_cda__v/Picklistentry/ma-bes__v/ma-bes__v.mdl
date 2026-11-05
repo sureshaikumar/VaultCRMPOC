@@ -1,0 +1,6 @@
+Picklistentry ma-bes__v (
+   value('Benslimane'),
+   order(2784),
+   active(true),
+   controlling_entries('ma__v')
+);

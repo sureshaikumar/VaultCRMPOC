@@ -1,0 +1,6 @@
+Picklistentry lt-mr__v (
+   value('Marijampolė County'),
+   order(2682),
+   active(true),
+   controlling_entries('lt__v')
+);

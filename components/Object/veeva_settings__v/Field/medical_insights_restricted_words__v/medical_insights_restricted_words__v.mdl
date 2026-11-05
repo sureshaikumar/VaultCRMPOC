@@ -1,0 +1,18 @@
+Field medical_insights_restricted_words__v (
+   label('Medical Insights Restricted Words'),
+   type('Boolean'),
+   active(true),
+   description('Validates Key Medical Insight records for the words and phrases defined in the MEDICAL_INSIGHTS_RESTRICTED_WORDS Veeva Message.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(213),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message dont_send__v (
+   label(),
+   active(true),
+   default_value('Don''t Send'),
+   system_managed(false)
+);

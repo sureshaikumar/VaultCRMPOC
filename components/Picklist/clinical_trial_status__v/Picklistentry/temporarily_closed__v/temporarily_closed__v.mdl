@@ -1,0 +1,5 @@
+Picklistentry temporarily_closed__v (
+   value('Temporarily Closed'),
+   order(4),
+   active(true)
+);

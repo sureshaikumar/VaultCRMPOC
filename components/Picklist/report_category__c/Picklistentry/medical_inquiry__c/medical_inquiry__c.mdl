@@ -1,0 +1,5 @@
+Picklistentry medical_inquiry__c (
+   value('Medical Inquiry'),
+   order(0),
+   active(true)
+);

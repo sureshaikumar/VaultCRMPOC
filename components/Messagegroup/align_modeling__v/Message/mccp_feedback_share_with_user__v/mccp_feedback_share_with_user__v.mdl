@@ -1,0 +1,6 @@
+Message mccp_feedback_share_with_user__v (
+   label(),
+   active(true),
+   default_value('Share with ${user_name}'),
+   system_managed(false)
+);

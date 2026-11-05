@@ -1,0 +1,5 @@
+Picklistentry 33300__v (
+   value('Milledgeville, GA Micropolitan Statistical Area'),
+   order(56),
+   active(true)
+);

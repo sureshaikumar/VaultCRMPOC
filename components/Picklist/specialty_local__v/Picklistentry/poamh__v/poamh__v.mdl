@@ -1,0 +1,6 @@
+Picklistentry poamh__v (
+   value('Pharmacy Operation and Management'),
+   order(1525),
+   active(true),
+   controlling_entries('hu__v')
+);

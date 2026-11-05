@@ -1,0 +1,6 @@
+Picklistentry om-mu__v (
+   value('Musandam'),
+   order(3448),
+   active(true),
+   controlling_entries('om__v')
+);

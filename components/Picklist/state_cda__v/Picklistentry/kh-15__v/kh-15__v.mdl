@@ -1,0 +1,6 @@
+Picklistentry kh-15__v (
+   value('Pousaat [Poŭthĭsăt]'),
+   order(2416),
+   active(true),
+   controlling_entries('kh__v')
+);

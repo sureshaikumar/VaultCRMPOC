@@ -1,0 +1,4 @@
+Typefield delivery_method__v (
+   source('standard'),
+   required(false)
+);

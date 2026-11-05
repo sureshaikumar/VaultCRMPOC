@@ -1,0 +1,10 @@
+Objectlifecyclepermission viewer_read__c (
+   states('Objectlifecyclestate.archived_state__sys',
+         'Objectlifecyclestate.deployed_state__sys',
+         'Objectlifecyclestate.draft_state__sys',
+         'Objectlifecyclestate.in_deployment_state__sys',
+         'Objectlifecyclestate.in_training_state__sys',
+         'Objectlifecyclestate.trained_state__sys'),
+   role('Objectlifecyclerole.viewer__v'),
+   permission('Read')
+);

@@ -1,0 +1,16 @@
+RECREATE Notificationtemplate qualbulkrandutask__v (
+   label('QUAL-BulkRandU-Task'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('New Read & Understand Tasks'),
+   notification('Confirm that you have read and understood the contents of this document.'),
+   email_body('<p>The following documents have been approved for use.  Click on the links provided below to access the document and confirm that you have read and understood its contents.  If you have any questions, contact the Training Manager.</p>
+
+R&U Due Date: ${taskDueDate}
+
+${listDocNameWithLink}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

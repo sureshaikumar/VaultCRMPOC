@@ -1,0 +1,19 @@
+Field veeva_external_id__v (
+   label('Veeva External ID'),
+   type('String'),
+   active(true),
+   description('System set external id field.'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

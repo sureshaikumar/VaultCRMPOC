@@ -1,0 +1,5 @@
+Picklistentry mam__v (
+   value('Mam'),
+   order(364),
+   active(false)
+);

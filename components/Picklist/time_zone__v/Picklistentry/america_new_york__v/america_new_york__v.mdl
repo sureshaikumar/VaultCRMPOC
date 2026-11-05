@@ -1,0 +1,5 @@
+Picklistentry america_new_york__v (
+   value('Eastern Time'),
+   order(81),
+   active(true)
+);

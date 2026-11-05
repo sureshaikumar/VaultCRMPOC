@@ -1,0 +1,5 @@
+Picklistentry rotation_lock__v (
+   value('Rotation Lock'),
+   order(3),
+   active(true)
+);

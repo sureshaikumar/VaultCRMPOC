@@ -1,0 +1,27 @@
+RECREATE Objectvalidation account_partner__v.price_book_and_account_check__v (
+   label('Price Book and Account Check'),
+   active(true),
+   expression('Not(
+    Or(
+        And(
+            object_type__vr.api_name__v  != ''price_book__v'',
+            IsBlank(
+                account__v
+            )
+        ),
+        And(
+            object_type__vr.api_name__v = ''price_book__v'',
+            IsBlank(
+                wholesaler__v
+            ),
+            IsBlank(
+                account__v
+            )
+        )
+    )
+)'),
+   description('If Wholesaler_vod value is not blank, Account_vod field is not required for the Price Book record type, otherwise, Account_vod is always required (for all Record Types, including Price Book).'),
+   error_message('Account or Wholesaler is required.'),
+   error_location('account__v',
+      'wholesaler__v')
+);

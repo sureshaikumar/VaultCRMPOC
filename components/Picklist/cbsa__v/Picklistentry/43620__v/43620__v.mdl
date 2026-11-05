@@ -1,0 +1,5 @@
+Picklistentry 43620__v (
+   value('Sioux Falls, SD Metropolitan Statistical Area'),
+   order(691),
+   active(true)
+);

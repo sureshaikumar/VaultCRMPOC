@@ -1,0 +1,18 @@
+Field network_admin__v (
+   label('Network Admin'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Checking this field indicates this user is an administrator of the Veeva CRM - Veeva Network Integration'),
+   list_column(false),
+   order(90),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

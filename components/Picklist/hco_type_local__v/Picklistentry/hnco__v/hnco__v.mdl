@@ -1,0 +1,5 @@
+Picklistentry hnco__v (
+   value('Home Nursing Care'),
+   order(103),
+   active(true)
+);

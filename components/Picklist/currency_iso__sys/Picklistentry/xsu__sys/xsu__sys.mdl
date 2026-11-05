@@ -1,0 +1,5 @@
+Picklistentry xsu__sys (
+   value('XSU'),
+   order(218),
+   active(true)
+);

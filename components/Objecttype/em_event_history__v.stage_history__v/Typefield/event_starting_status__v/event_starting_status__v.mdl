@@ -1,0 +1,15 @@
+Typefield event_starting_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_history_event_starting_status__v.requested__v',
+         'Picklist.em_event_history_event_starting_status__v.pending_approval__v',
+         'Picklist.em_event_history_event_starting_status__v.approved__v',
+         'Picklist.em_event_history_event_starting_status__v.rejected__v',
+         'Picklist.em_event_history_event_starting_status__v.canceled__v',
+         'Picklist.em_event_history_event_starting_status__v.closed__v',
+         'Picklist.em_event_history_event_starting_status__v.completed__v',
+         'Picklist.em_event_history_event_starting_status__v.execute__v',
+         'Picklist.em_event_history_event_starting_status__v.canceled_processed__v',
+         'Picklist.em_event_history_event_starting_status__v.vault_workflow__v'),
+   default_value('Picklist.em_event_history_event_starting_status__v.requested__v')
+);

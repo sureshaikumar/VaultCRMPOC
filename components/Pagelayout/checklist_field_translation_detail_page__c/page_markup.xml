@@ -1,0 +1,24 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.checklist_field_translation__sys.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="available_answer_design__sys" />
+            <vault:field reference="checklist_design_translation__sys" />
+            <vault:field reference="checklist_field__sys" />
+            <vault:field reference="in_use__sys" />
+            <vault:field reference="question_design__sys" />
+            <vault:field reference="section_design__sys" />
+            <vault:field reference="text_value__sys" />
+            <vault:field reference="checklist_design__sys" />
+            <vault:field reference="language__sys" />
+            <vault:field reference="document__sys" />
+            <vault:field reference="question_design_reference_document__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

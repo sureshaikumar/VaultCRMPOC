@@ -1,0 +1,6 @@
+Picklistentry si-002__v (
+   value('Beltinci'),
+   order(3976),
+   active(true),
+   controlling_entries('si__v')
+);

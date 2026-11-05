@@ -1,0 +1,8 @@
+Objectworkflowstep change_state_to_in_review__c (
+   label('Change State to In Review'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.review_and_annotate__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

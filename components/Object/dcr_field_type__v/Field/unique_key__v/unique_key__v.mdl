@@ -1,0 +1,20 @@
+Field unique_key__v (
+   label('Unique Key'),
+   type('String'),
+   active(true),
+   description('Unique key that prevents duplicates. Concatenation of following values:
+Country, User Profile Name, Object API Name, Record Type Name, Field API Name'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

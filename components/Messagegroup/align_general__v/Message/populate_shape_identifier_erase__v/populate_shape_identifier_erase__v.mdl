@@ -1,0 +1,6 @@
+Message populate_shape_identifier_erase__v (
+   label(),
+   active(true),
+   default_value('"Shape Identifier" must be populated.'),
+   system_managed(false)
+);

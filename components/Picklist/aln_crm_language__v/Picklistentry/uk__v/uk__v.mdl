@@ -1,0 +1,5 @@
+Picklistentry uk__v (
+   value('Ukrainian'),
+   order(30),
+   active(true)
+);

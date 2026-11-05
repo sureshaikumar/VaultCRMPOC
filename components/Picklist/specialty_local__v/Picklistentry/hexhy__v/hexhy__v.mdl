@@ -1,0 +1,6 @@
+Picklistentry hexhy__v (
+   value('Healthcare Hygiene'),
+   order(676),
+   active(true),
+   controlling_entries('se__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bf-nao__v (
+   value('Nahouri'),
+   order(353),
+   active(true),
+   controlling_entries('bf__v')
+);

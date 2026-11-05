@@ -1,0 +1,18 @@
+Field activity_tracking_mode__v (
+   label('Activity Tracking Mode'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The field that determines what kind of activity tracking is done on the email.'),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.sent_email_activity_tracking_mode__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

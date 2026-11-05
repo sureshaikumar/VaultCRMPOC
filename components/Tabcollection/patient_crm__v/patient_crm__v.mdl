@@ -1,0 +1,7 @@
+RECREATE Tabcollection patient_crm__v (
+   label('Patient CRM'),
+   active(true),
+   help_content(),
+   Tabcollectionitem(@Tabcollectionitem/patient_center__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/patients__v.mdl)
+);

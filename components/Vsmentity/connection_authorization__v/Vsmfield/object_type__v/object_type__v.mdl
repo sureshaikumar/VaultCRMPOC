@@ -1,0 +1,14 @@
+Vsmfield object_type__v (
+   label('Connection Authorization Type'),
+   active(true),
+   description('Specifies the type or method of authentication used by this connection authorization (e.g., basic auth, OAuth, API key). Use this field to filter or identify connection authorizations by their authentication mechanism.'),
+   example_values(),
+   synonyms('auth type',
+         'authorization type',
+         'connection type',
+         'auth method'),
+   target('object_type__v'),
+   target_label('Connection Authorization Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

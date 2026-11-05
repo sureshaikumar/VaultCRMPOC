@@ -1,0 +1,8 @@
+RECREATE Objectaction inventory_order__v.io_submit__v (
+   label('Submit'),
+   description('This action locks the record and sets the inventory order status to submitted.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.inventoryorder.actions.InventoryOrderSubmitAction'),
+   active(true),
+   available_all_states(false)
+);

@@ -1,0 +1,6 @@
+Message x_is_in_progress__v (
+   label(),
+   active(true),
+   default_value('"{0}" is in progress...'),
+   system_managed(false)
+);

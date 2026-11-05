@@ -1,0 +1,6 @@
+Picklistentry tr-58__v (
+   value('Sivas'),
+   order(4516),
+   active(true),
+   controlling_entries('tr__v')
+);

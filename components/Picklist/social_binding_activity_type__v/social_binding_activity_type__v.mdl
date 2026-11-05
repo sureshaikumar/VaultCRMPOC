@@ -1,0 +1,9 @@
+RECREATE Picklist social_binding_activity_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/bind__v.mdl),
+   Picklistentry(@Picklistentry/unbind__v.mdl),
+   Picklistentry(@Picklistentry/change__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

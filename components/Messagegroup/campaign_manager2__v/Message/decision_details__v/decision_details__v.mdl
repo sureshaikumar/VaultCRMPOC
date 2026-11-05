@@ -1,0 +1,6 @@
+Message decision_details__v (
+   label(),
+   active(true),
+   default_value('Decision Details'),
+   system_managed(false)
+);

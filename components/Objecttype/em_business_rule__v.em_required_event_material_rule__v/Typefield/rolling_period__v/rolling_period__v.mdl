@@ -1,0 +1,4 @@
+Typefield rolling_period__v (
+   source('custom'),
+   required(false)
+);

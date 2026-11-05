@@ -1,0 +1,5 @@
+Picklistentry quc (
+   value('K’iche’'),
+   order(359),
+   active(true)
+);

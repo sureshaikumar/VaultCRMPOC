@@ -1,0 +1,5 @@
+Picklistentry lun (
+   value('Lunda'),
+   order(242),
+   active(true)
+);

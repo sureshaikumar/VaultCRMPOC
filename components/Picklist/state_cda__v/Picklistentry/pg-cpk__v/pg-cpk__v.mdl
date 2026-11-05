@@ -1,0 +1,6 @@
+Picklistentry pg-cpk__v (
+   value('Chimbu'),
+   order(3494),
+   active(true),
+   controlling_entries('pg__v')
+);

@@ -1,0 +1,25 @@
+Field rebate_inlevel_addition__v (
+   label('Rebate In Level Addition'),
+   type('Number'),
+   active(true),
+   description('Controls the additive behavior for combining discounts within the same discount level: linear additive or price additive. 
+        
+Default is 0, linear additive behavior is active.'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(261),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

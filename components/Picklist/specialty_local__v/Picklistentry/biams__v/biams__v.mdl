@@ -1,0 +1,6 @@
+Picklistentry biams__v (
+   value('Basic Immunology'),
+   order(119),
+   active(true),
+   controlling_entries('tr__v')
+);

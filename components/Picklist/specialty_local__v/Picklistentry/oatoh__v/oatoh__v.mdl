@@ -1,0 +1,6 @@
+Picklistentry oatoh__v (
+   value('Orthopedics and Traumatology Orthopaedics Hip and Knee'),
+   order(1219),
+   active(true),
+   controlling_entries('id__v')
+);

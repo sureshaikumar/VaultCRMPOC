@@ -1,0 +1,5 @@
+Picklistentry 35820__v (
+   value('North Platte, NE Micropolitan Statistical Area'),
+   order(346),
+   active(true)
+);

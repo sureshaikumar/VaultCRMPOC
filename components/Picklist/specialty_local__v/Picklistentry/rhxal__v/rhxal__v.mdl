@@ -1,0 +1,6 @@
+Picklistentry rhxal__v (
+   value('Rhinology and Allergy'),
+   order(1754),
+   active(true),
+   controlling_entries('ng__v')
+);

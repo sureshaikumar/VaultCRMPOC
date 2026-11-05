@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:joinRelationships>
+    <vrt:joinRelationship key="document_view_standard__c.documents.created_by__v" joinKey="user_view_standard__c.user__sys.id" nameRef="join_ref_1__v" joinType="outer" />
+  </vrt:joinRelationships>
+</vrt:reportType>

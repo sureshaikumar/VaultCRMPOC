@@ -1,0 +1,5 @@
+Picklistentry 12660__v (
+   value('Baraboo, WI Micropolitan Statistical Area'),
+   order(812),
+   active(true)
+);

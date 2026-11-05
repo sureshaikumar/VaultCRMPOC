@@ -1,0 +1,6 @@
+Message no_access__v (
+   label(),
+   active(true),
+   default_value('No Access'),
+   system_managed(false)
+);

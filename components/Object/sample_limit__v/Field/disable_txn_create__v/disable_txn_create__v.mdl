@@ -1,0 +1,18 @@
+Field disable_txn_create__v (
+   label('Disable Txn Create'),
+   type('Boolean'),
+   active(true),
+   description('If the value is set to true the Sample Limit Transaction record will not be created and the value will then be switched to false. This field should be read-only or not visible to user that are not performing integrations or system admin functions.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

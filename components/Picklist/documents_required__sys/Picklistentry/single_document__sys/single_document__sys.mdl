@@ -1,0 +1,5 @@
+Picklistentry single_document__sys (
+   value('Single Document'),
+   order(1),
+   active(true)
+);

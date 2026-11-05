@@ -1,0 +1,9 @@
+RECREATE Processmetric cycle_time_target__sys (
+   label('Target'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('A manually defined goal for the time between the start and end states.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.cycle_time__sys')
+);

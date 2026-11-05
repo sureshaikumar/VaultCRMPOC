@@ -1,0 +1,6 @@
+Picklistentry bi-gi__v (
+   value('Gitega'),
+   order(411),
+   active(true),
+   controlling_entries('bi__v')
+);

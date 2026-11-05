@@ -1,0 +1,14 @@
+RECREATE Picklist account_specialty_1__v (
+   label('Specialty'),
+   active(true),
+   Picklistentry(@Picklistentry/cardiology__v.mdl),
+   Picklistentry(@Picklistentry/emergency_medicine__v.mdl),
+   Picklistentry(@Picklistentry/family_medicine__v.mdl),
+   Picklistentry(@Picklistentry/general_practice__v.mdl),
+   Picklistentry(@Picklistentry/internal_medicine__v.mdl),
+   Picklistentry(@Picklistentry/oncology__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   Picklistentry(@Picklistentry/pediatrics__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message no_territories_assigned__v (
+   label(),
+   active(true),
+   default_value('No territories assigned.'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield medcomms_fax__v (
+   source('custom'),
+   required(false)
+);

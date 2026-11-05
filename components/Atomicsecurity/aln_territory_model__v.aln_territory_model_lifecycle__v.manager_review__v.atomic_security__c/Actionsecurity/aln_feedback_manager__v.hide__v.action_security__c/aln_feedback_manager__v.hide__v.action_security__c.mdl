@@ -1,0 +1,8 @@
+Actionsecurity aln_feedback_manager__v.hide__v.action_security__c (
+   label('Feedback Manager-Hide'),
+   active(true),
+   role('Objectlifecyclerole.aln_feedback_manager__v'),
+   type('hide__v'),
+   object_actions(),
+   lifecycle_actions('Objectlifecyclestateuseraction.manager_review__v.change_state_to_draft__v')
+);

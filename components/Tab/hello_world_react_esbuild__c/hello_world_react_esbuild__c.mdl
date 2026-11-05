@@ -1,0 +1,10 @@
+RECREATE Tab hello_world_react_esbuild__c (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Hello World (React Esbuild)'),
+   order(3900),
+   page('Page.hello_world_react_esbuild__c'),
+   parent(),
+   url(@url.txt)
+);

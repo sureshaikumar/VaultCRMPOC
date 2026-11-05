@@ -1,0 +1,6 @@
+Sdkbatchjobaction pal_token_management_job__v (
+   job_metadata('Jobmetadata.pal_token_management_job__v'),
+   label('PAL Integration Token Management'),
+   parameters(),
+   primary_action(true)
+);

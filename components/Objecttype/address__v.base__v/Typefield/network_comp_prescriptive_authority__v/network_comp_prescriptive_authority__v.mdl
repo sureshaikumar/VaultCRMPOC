@@ -1,0 +1,4 @@
+Typefield network_comp_prescriptive_authority__v (
+   source('standard'),
+   required(false)
+);

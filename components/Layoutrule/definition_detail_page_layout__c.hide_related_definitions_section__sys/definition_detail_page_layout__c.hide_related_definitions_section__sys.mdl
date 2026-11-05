@@ -1,0 +1,15 @@
+RECREATE Layoutrule definition_detail_page_layout__c.hide_related_definitions_section__sys (
+   active(true),
+   description('Hides Related Definitions Section on non-English-language records.'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('glossary_definition_language__sysr.name__v!="English"'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections('related_definitions__v'),
+   hide_layout(false),
+   label('Hide Related Definitions Section'),
+   order(100)
+);

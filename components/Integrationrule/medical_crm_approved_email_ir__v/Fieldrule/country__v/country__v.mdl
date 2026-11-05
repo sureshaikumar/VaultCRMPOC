@@ -1,0 +1,15 @@
+Fieldrule country__v (
+   label('Country'),
+   active(false),
+   query_object('document_country__vr'),
+   query_field('country_code__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.country__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select('(SELECT country_code__v FROM document_country__vr)'),
+   query_field_type('vobject_text__sys'),
+   target_field_lookup()
+);

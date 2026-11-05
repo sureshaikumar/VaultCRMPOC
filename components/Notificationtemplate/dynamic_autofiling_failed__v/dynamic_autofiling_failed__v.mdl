@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate dynamic_autofiling_failed__v (
+   label('Binder Auto-filing Failure'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" Auto-filing Failed'),
+   notification('<p>Binder Autofiling could not be completed for <b>${docName}</b>.<br>
+<b>Reason: too many documents matched your autofiling criteria (max: ${maxDocsCount}, matched: ${addedDocsCount}).<br>
+Please adjust your filing rules to reduce the number of matched documents.</b></p>
+'),
+   email_body('<p>Filing for binder ${docName} failed at ${autofileEndDateTime}<br>
+</p>
+
+<p>${autofileAddedDocsHeader} ${autofileAddedDocs}</p><br>
+<p>You can see all your Notifications on your Vault home page under ${notificationHome}.</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

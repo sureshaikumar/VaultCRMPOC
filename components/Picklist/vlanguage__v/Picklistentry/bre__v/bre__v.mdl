@@ -1,0 +1,5 @@
+Picklistentry bre__v (
+   value('Breton'),
+   order(41),
+   active(false)
+);

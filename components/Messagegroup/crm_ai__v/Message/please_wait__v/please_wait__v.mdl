@@ -1,0 +1,6 @@
+Message please_wait__v (
+   label(),
+   active(true),
+   default_value('Please Wait'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message communication_consent__v (
+   label(),
+   active(true),
+   default_value('Communication Consent'),
+   system_managed(false)
+);

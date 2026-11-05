@@ -1,0 +1,6 @@
+Picklistentry dz-18__v (
+   value('Jijel'),
+   order(999),
+   active(true),
+   controlling_entries('dz__v')
+);

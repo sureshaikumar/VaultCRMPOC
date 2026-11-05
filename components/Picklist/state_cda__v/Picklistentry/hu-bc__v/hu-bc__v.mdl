@@ -1,0 +1,6 @@
+Picklistentry hu-bc__v (
+   value('Békéscsaba'),
+   order(1874),
+   active(true),
+   controlling_entries('hu__v')
+);

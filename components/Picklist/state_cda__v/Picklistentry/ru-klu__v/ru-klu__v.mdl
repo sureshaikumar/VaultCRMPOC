@@ -1,0 +1,6 @@
+Picklistentry ru-klu__v (
+   value('Kaluzhskaya oblast'''),
+   order(3820),
+   active(true),
+   controlling_entries('ru__v')
+);

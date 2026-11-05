@@ -1,0 +1,8 @@
+RECREATE Objectaction link_target__sys.preview_link_target_action__sys (
+   label('Preview'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.PreviewLinkTargetAction'),
+   active(true),
+   available_all_states(true)
+);

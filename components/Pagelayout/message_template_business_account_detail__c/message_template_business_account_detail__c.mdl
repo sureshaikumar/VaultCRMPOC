@@ -1,0 +1,8 @@
+RECREATE Pagelayout message_template_business_account_detail__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Message Template Business Account Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

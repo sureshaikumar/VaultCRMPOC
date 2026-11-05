@@ -1,0 +1,6 @@
+Picklistentry gw-ga__v (
+   value('Gabú'),
+   order(1807),
+   active(true),
+   controlling_entries('gw__v')
+);

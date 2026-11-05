@@ -1,0 +1,6 @@
+Message fax_document_not_available_message__v (
+   label(),
+   active(true),
+   default_value('Please refresh your Inbox.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gw-oi__v (
+   value('Oio'),
+   order(1810),
+   active(true),
+   controlling_entries('gw__v')
+);

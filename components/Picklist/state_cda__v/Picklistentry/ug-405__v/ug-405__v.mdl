@@ -1,0 +1,6 @@
+Picklistentry ug-405__v (
+   value('Kabarole'),
+   order(4747),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry vn-55__v (
+   value('Bạc Liêu'),
+   order(4955),
+   active(true),
+   controlling_entries('vn__v')
+);

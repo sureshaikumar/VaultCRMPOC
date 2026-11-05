@@ -1,0 +1,9 @@
+RECREATE Objectvalidation event_attendee__v.attendee_selection__c (
+   label('AttendeeSelection'),
+   active(true),
+   expression('Not(And(IsBlank( account__v ), IsBlank( user__v )))'),
+   description('This rule validates that either an Account or User was selected as an Attendee.'),
+   error_message('An Account or User must be selected to save a record.'),
+   error_location('account__v',
+      'user__v')
+);

@@ -1,0 +1,19 @@
+Field enable_employee_comment__v (
+   label('Enable Employee Comment'),
+   type('Picklist'),
+   active(true),
+   description('Admins use this picklist when designing an Advanced Coaching Report to select whether Employees should be able to comment on an Advanced Coaching Report, and if yes, is the Employee Comment required.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.survey_enable_employee_comment__v'),
+   default_value('{disabled__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

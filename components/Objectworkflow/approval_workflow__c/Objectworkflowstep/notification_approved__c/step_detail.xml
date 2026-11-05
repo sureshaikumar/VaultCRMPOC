@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:template>Notificationtemplate.baseapproved__c</vwf:template>
+  <vwf:recipientrole>Doclifecyclerole.owner__v</vwf:recipientrole>
+</vwf:stepdetails>

@@ -1,0 +1,11 @@
+Vsmvalue usd__v (
+   label('USD'),
+   active(true),
+   description('Applies when transactions are denominated in the United States Dollar, the world''s primary reserve currency and official currency of the United States.'),
+   synonyms('US dollar',
+         'United States dollar',
+         'American dollar',
+         'dollar'),
+   target('usd__sys'),
+   target_label('USD')
+);

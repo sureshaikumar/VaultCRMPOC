@@ -1,0 +1,4 @@
+Typefield prescriber_hospital_clinic__v (
+   source('standard'),
+   required(false)
+);

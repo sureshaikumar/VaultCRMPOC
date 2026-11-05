@@ -1,0 +1,6 @@
+Message scheduled_email_updated__v (
+   label(),
+   active(true),
+   default_value('Scheduled Email Updated'),
+   system_managed(false)
+);

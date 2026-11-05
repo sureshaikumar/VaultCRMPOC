@@ -1,0 +1,19 @@
+Field coaching_report_status__v (
+   label('Coaching Report Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of the review.'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.coaching_report_status__v'),
+   default_value('{in_progress__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

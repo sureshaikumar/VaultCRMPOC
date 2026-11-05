@@ -1,0 +1,6 @@
+Message vault_crm_help__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Help'),
+   system_managed(false)
+);

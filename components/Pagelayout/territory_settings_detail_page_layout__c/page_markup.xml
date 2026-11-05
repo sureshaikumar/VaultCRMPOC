@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.territory_settings__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="atl_mode__v" />
+            <vault:field reference="align_integration_user__v" />
+            <vault:field reference="align_server__v" />
+            <vault:field reference="align_territory_feedback_mode__v" />
+            <vault:field reference="align_vault_id__v" />
+            <vault:field reference="align_vault_integration_id__v" />
+            <vault:field reference="align_version__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="setupownerid__v" />
+            <vault:field reference="security_profile__v" />
+            <vault:field reference="application_profile__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

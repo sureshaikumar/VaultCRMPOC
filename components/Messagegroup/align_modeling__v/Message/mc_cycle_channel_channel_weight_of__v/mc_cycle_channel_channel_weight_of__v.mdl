@@ -1,0 +1,6 @@
+Message mc_cycle_channel_channel_weight_of__v (
+   label(),
+   active(true),
+   default_value('Channel Weight of {0}'),
+   system_managed(false)
+);

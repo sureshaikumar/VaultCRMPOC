@@ -1,0 +1,19 @@
+Field product_display__v (
+   label('Product Display'),
+   type('String'),
+   active(true),
+   description('Product_Display_vod is the text that will be used to display an alternate name instead of the default Product.Name field for the associated Product.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

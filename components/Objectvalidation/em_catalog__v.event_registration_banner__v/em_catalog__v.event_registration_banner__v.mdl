@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_catalog__v.event_registration_banner__v (
+   label('Event Registration Banner'),
+   active(true),
+   expression('isBlank(event_registration_banner__v) || (FileSize(event_registration_banner__v) < 10000000 && Contains("image/png, image/jpg, image/jpeg, image/gif",MimeType(event_registration_banner__v)))'),
+   description('Restricts the event registration banner file size and type when uploaded.'),
+   error_message('Event registration banner file size must be less than 10 MB and one of the following types: .png, .jpg, .jpeg, .gif'),
+   error_location('event_registration_banner__v')
+);

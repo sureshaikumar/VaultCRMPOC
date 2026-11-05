@@ -1,0 +1,5 @@
+Picklistentry olc_call_followup_task__sys (
+   value('Call Followup Task'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field media_file_crc__v (
+   label('Media File CRC'),
+   type('String'),
+   active(true),
+   description('The device uses this field to determine if the local media is in the correct version. Matching is based on the file names.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+Vsmvalue mzm__v (
+   label('MZM'),
+   active(true),
+   description('The former official currency of Mozambique (MZM), replaced by the new metical (MZN) in 2006 at a rate of 1000:1 as part of a currency reform.'),
+   synonyms('old Mozambican metical',
+         'former metical',
+         'MZM'),
+   target('mzm__sys'),
+   target_label('MZM')
+);

@@ -1,0 +1,6 @@
+Message mc_cycle_cycle_plans__v (
+   label(),
+   active(true),
+   default_value('Cycle Plans'),
+   system_managed(false)
+);

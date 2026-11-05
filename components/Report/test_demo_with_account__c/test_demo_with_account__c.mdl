@@ -1,0 +1,20 @@
+RECREATE Report test_demo_with_account__c (
+   label('test demo with account'),
+   active(true),
+   description(),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.test_object_with_account__c'),
+   editors(),
+   viewers('Group.test_group__c'),
+   owners('User.vijayasanthi.ramamirtham@sb-accenture.com'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

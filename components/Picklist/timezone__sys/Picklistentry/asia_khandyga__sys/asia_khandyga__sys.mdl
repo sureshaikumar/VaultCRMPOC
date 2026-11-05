@@ -1,0 +1,5 @@
+Picklistentry asia_khandyga__sys (
+   value('(GMT+09:00) Yakutsk Time (Asia/Khandyga)'),
+   order(276),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry tr-28__v (
+   value('Giresun'),
+   order(4486),
+   active(true),
+   controlling_entries('tr__v')
+);

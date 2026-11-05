@@ -1,0 +1,19 @@
+Field segment__v (
+   label('Segment'),
+   type('String'),
+   active(true),
+   description('Segment corresponding to account’s survey score.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

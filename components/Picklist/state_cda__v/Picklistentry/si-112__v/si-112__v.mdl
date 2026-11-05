@@ -1,0 +1,6 @@
+Picklistentry si-112__v (
+   value('Slovenj Gradec'),
+   order(4086),
+   active(true),
+   controlling_entries('si__v')
+);

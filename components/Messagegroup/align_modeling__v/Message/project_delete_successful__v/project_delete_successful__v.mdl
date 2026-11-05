@@ -1,0 +1,6 @@
+Message project_delete_successful__v (
+   label(),
+   active(true),
+   default_value('Successfully finished deleting project process'),
+   system_managed(false)
+);

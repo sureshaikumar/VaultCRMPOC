@@ -1,0 +1,17 @@
+Field next_check_in_date__v (
+   label('Next Check-in Date'),
+   type('DateTime'),
+   active(true),
+   description('The planned/anticipated date of the check-in that follows this check-in.'),
+   required(false),
+   help_content(),
+   list_column(true),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

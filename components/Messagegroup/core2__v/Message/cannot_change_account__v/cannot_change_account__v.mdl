@@ -1,0 +1,6 @@
+Message cannot_change_account__v (
+   label(),
+   active(true),
+   default_value('The Account cannot be changed once saved.'),
+   system_managed(false)
+);

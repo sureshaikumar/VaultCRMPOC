@@ -1,0 +1,5 @@
+Picklistentry hand_sample_only__v (
+   value('Hand Sample Only'),
+   order(0),
+   active(true)
+);

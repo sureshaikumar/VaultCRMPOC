@@ -1,0 +1,15 @@
+Subtab sample_inventories__c (
+   active(true),
+   all_view_label('All Sample Inventories'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Sample Inventories'),
+   modal_create_record(false),
+   my_view_label('My Sample Inventories'),
+   object('sample_inventory__v'),
+   order(300),
+   parent('sample_management__c'),
+   prevent_create(false),
+   recent_view_label('Recent Sample Inventories')
+);

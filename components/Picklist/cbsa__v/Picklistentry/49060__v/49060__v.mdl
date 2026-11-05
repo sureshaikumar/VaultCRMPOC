@@ -1,0 +1,5 @@
+Picklistentry 49060__v (
+   value('Winfield, KS Micropolitan Statistical Area'),
+   order(567),
+   active(true)
+);

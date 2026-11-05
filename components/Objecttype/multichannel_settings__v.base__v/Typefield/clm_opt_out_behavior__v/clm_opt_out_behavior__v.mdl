@@ -1,0 +1,4 @@
+Typefield clm_opt_out_behavior__v (
+   source('standard'),
+   required(false)
+);

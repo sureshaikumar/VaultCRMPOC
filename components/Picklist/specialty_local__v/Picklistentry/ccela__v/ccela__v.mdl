@@ -1,0 +1,6 @@
+Picklistentry ccela__v (
+   value('Clinical Cardiac Electrophysiology'),
+   order(214),
+   active(true),
+   controlling_entries('pk__v')
+);

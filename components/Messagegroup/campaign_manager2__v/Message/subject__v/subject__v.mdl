@@ -1,0 +1,6 @@
+Message subject__v (
+   label(),
+   active(true),
+   default_value('Subject'),
+   system_managed(false)
+);

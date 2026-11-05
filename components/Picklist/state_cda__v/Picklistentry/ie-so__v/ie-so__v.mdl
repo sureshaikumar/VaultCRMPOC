@@ -1,0 +1,6 @@
+Picklistentry ie-so__v (
+   value('Sligo'),
+   order(1984),
+   active(true),
+   controlling_entries('ie__v')
+);

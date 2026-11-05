@@ -1,0 +1,18 @@
+Field allow_sending_of_clm_web_links__v (
+   label('Allow Sending of CLM Web Links'),
+   type('Boolean'),
+   active(true),
+   description('Enables the ability to send CLM web links via Approved Email when set to true.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(37),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

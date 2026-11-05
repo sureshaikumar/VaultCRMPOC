@@ -1,0 +1,4 @@
+Typefield sent_fax__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,31 @@
+RECREATE Objectvalidation em_business_rule__v.comment_required_required__v (
+   label('Comment Required Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_attendee_attendance_limit_rule__v", true,
+            "em_cross_event_per_attendee_attendanc__v", true,
+            "em_meal_opt_in_attendance_limit_rule__v", true,
+            "em_cross_event_meal_opt_in_attendance__v", true,
+            "em_per_event_attendance_limit_rule__v", true,
+            "em_per_event_expense_limit_rule__v", true,
+            "em_per_event_attendee_expense_limit_r__v", true,
+            "em_attendee_expense_cap_rule__v", true,
+            "em_cross_event_attendee_expense_cap_r__v", true,
+            "em_actual_versus_estimate_expense_thr__v", true,
+            "em_per_speaker_engagement_limit_rule__v", true,
+            "em_cross_event_per_speaker_engagement__v", true,
+            "em_speaker_attendance_expense_cap_rul__v", true,
+            "speaker_attendance_product_cap_rule__v", true,
+            "em_per_event_speaker_ratio_rule__v", true,
+            "em_per_event_speaker_limit_rule__v", true,
+            "em_per_event_speaker_expense_limit_ru__v", true,
+            "em_speaker_attendance_qualification_r__v", true,
+            "em_required_event_material_rule__v", true,
+            "em_attendee_product_restriction_rule__v", true,
+            false
+        ) = false || warning_type__v != "soft_warning__v" || Not(IsBlank(comment_required__v))'),
+   description('Warning Type field input is "Soft Warning" and no input selected for Comment Required.'),
+   error_message('This field is required.'),
+   error_location('comment_required__v')
+);

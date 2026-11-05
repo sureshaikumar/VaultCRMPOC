@@ -1,0 +1,9 @@
+RECREATE Picklist em_attendee_walk_in_type__v (
+   label('Walk-In Type'),
+   active(true),
+   Picklistentry(@Picklistentry/prescriber__v.mdl),
+   Picklistentry(@Picklistentry/non_prescriber__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

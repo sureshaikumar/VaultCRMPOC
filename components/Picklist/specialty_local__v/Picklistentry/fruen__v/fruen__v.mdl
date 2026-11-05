@@ -1,0 +1,6 @@
+Picklistentry fruen__v (
+   value('Functional Rehabilitation'),
+   order(572),
+   active(true),
+   controlling_entries('cm__v')
+);

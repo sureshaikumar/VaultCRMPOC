@@ -1,0 +1,4 @@
+Typefield formulary_for_rep_label__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message select_a_template__v (
+   label(),
+   active(true),
+   default_value('Select a template'),
+   system_managed(false)
+);

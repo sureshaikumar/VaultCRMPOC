@@ -1,0 +1,6 @@
+Message field_cannot_be_empty__v (
+   label(),
+   active(true),
+   default_value('Error: ${field_label} cannot be empty'),
+   system_managed(false)
+);

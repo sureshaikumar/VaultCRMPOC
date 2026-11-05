@@ -1,0 +1,4 @@
+Typefield attendees_requesting_meals__v (
+   source('custom'),
+   required(false)
+);

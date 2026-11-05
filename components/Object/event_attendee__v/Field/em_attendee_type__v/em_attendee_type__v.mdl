@@ -1,0 +1,19 @@
+Field em_attendee_type__v (
+   label('EM Attendee Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Stub of the EM Attendee Type'),
+   list_column(false),
+   order(67),
+   multi_value(false),
+   picklist('Picklist.em_attendee_attendee_type__v'),
+   no_copy(false),
+   lookup_relationship_name('em_attendee__vr'),
+   lookup_source_field('attendee_type__v'),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

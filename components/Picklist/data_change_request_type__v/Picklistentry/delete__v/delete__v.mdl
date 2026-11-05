@@ -1,0 +1,5 @@
+Picklistentry delete__v (
+   value('Delete'),
+   order(2),
+   active(true)
+);

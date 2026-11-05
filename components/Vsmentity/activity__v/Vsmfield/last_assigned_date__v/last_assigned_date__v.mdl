@@ -1,0 +1,13 @@
+Vsmfield last_assigned_date__v (
+   label('Last Assigned Date'),
+   active(true),
+   description('The date and time when the activity was most recently assigned or reassigned. Use to track reassignment patterns, identify recently handed-off tasks, or measure responsiveness after reassignment.'),
+   example_values(),
+   synonyms('most recently assigned',
+         'reassigned date',
+         'latest assignment date'),
+   target('last_assigned_date__v'),
+   target_label('Last Assigned Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

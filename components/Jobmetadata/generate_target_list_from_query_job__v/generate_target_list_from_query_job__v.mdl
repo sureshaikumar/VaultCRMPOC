@@ -1,0 +1,10 @@
+RECREATE Jobmetadata generate_target_list_from_query_job__v (
+   label('Generate Campaign Target List From Query Job'),
+   active(true),
+   chunk_size(500),
+   description('This Job generates records related to Campaign Target Lists using queries.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.campaignmanager.job.GenerateTargetListFromQueryJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

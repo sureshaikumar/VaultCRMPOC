@@ -1,0 +1,23 @@
+Field open_count__v (
+   label('Total Opens'),
+   type('Number'),
+   active(true),
+   description('Open_Count_vod is a roll-up summary which captures the total number of times the email was opened based on related Email_Activity_vod records.'),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(69),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

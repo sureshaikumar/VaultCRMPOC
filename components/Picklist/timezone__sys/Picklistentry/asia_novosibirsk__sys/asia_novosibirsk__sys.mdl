@@ -1,0 +1,5 @@
+Picklistentry asia_novosibirsk__sys (
+   value('(GMT+07:00) Krasnoyarsk Time (Asia/Novosibirsk)'),
+   order(251),
+   active(true)
+);

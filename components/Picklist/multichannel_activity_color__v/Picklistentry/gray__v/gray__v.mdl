@@ -1,0 +1,5 @@
+Picklistentry gray__v (
+   value('Gray'),
+   order(13),
+   active(true)
+);

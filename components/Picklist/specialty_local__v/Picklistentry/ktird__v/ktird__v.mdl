@@ -1,0 +1,6 @@
+Picklistentry ktird__v (
+   value('Kidney Transplantation'),
+   order(834),
+   active(true),
+   controlling_entries('hr__v')
+);

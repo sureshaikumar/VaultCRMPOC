@@ -1,0 +1,8 @@
+RECREATE Picklist downloaded_rendition__v (
+   label('Downloaded Rendition'),
+   active(true),
+   Picklistentry(@Picklistentry/source__v.mdl),
+   Picklistentry(@Picklistentry/pdf__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

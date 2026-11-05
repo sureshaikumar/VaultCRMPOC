@@ -1,0 +1,6 @@
+Message mccp_approval_rule_product_groups__v (
+   label(),
+   active(true),
+   default_value('Product Groups'),
+   system_managed(false)
+);

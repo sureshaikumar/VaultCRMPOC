@@ -1,0 +1,6 @@
+Picklistentry hpair__v (
+   value('Health Protection Against Ionizing Radiation'),
+   order(670),
+   active(true),
+   controlling_entries('sk__v')
+);

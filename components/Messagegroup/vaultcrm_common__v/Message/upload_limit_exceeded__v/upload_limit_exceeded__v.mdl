@@ -1,0 +1,6 @@
+Message upload_limit_exceeded__v (
+   label(),
+   active(true),
+   default_value('Upload Limit Exceeded'),
+   system_managed(false)
+);

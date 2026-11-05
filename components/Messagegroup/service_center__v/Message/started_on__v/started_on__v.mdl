@@ -1,0 +1,6 @@
+Message started_on__v (
+   label(),
+   active(true),
+   default_value('Started on'),
+   system_managed(false)
+);

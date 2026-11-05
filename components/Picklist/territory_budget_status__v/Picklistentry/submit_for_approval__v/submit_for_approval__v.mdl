@@ -1,0 +1,5 @@
+Picklistentry submit_for_approval__v (
+   value('Submit for Approval'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_tehran__sys (
+   value('(GMT+03:30) Iran Standard Time (Asia/Tehran)'),
+   order(207),
+   active(true)
+);

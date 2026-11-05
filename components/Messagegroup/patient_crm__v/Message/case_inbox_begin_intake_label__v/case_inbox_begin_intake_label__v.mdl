@@ -1,0 +1,6 @@
+Message case_inbox_begin_intake_label__v (
+   label(),
+   active(true),
+   default_value('Begin Intake'),
+   system_managed(false)
+);

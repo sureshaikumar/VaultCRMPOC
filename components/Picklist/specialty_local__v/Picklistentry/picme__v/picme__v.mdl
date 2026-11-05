@@ -1,0 +1,7 @@
+Picklistentry picme__v (
+   value('Pediatric Intensive Care Medicine'),
+   order(1402),
+   active(true),
+   controlling_entries('au__v',
+         'nz__v')
+);

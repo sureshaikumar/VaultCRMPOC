@@ -1,0 +1,5 @@
+Picklistentry arg__v (
+   value('Aragonese'),
+   order(16),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ca-qc__v (
+   value('Quebec'),
+   order(569),
+   active(true),
+   controlling_entries('ca__v')
+);

@@ -1,0 +1,6 @@
+Message patient_name_moved_to_done_today__v (
+   label(),
+   active(true),
+   default_value('${patientName} moved to Done Today'),
+   system_managed(false)
+);

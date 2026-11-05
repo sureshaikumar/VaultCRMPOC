@@ -1,0 +1,6 @@
+Message no_more_segments_to_assign__v (
+   label(),
+   active(true),
+   default_value('No more segments to assign'),
+   system_managed(false)
+);

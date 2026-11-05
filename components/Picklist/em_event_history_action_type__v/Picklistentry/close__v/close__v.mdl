@@ -1,0 +1,5 @@
+Picklistentry close__v (
+   value('Close'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Objectvalidation clm_presentation__v.end_date_after_start_date__v (
+   label('EndDateAfterStartDate'),
+   active(true),
+   expression('If(Not(IsBlank(start_date__v)) && Not(IsBlank(end_date__v)), start_date__v <= end_date__v, true)'),
+   description('End date must be equal or greater than start date.'),
+   error_message('End date must be equal or greater than start date.'),
+   error_location('start_date__v',
+      'end_date__v')
+);

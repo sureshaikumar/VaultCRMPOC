@@ -1,0 +1,6 @@
+Picklistentry gb-yor__v (
+   value('York'),
+   order(1667),
+   active(true),
+   controlling_entries('gb__v')
+);

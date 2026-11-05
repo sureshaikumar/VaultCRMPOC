@@ -1,0 +1,19 @@
+Field calendar_share_recent_items__v (
+   label('Calendar Share Recent Items'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Comma delimited list of the last 10 shared calendars viewed'),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

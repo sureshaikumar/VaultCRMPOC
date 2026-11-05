@@ -1,0 +1,4 @@
+Typefield enable_secure_messaging__v (
+   source('standard'),
+   required(false)
+);

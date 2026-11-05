@@ -1,0 +1,5 @@
+Picklistentry 18620__v (
+   value('Corsicana, TX Micropolitan Statistical Area'),
+   order(225),
+   active(true)
+);

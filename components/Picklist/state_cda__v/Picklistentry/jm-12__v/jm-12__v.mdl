@@ -1,0 +1,6 @@
+Picklistentry jm-12__v (
+   value('Manchester'),
+   order(2292),
+   active(true),
+   controlling_entries('jm__v')
+);

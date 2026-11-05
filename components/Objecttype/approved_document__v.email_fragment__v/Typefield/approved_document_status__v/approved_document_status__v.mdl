@@ -1,0 +1,8 @@
+Typefield approved_document_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.approved_document_status__v.approved__v',
+         'Picklist.approved_document_status__v.expired__v',
+         'Picklist.approved_document_status__v.staged__v',
+         'Picklist.approved_document_status__v.withdrawn__v')
+);

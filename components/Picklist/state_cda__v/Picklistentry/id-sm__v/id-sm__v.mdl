@@ -1,0 +1,6 @@
+Picklistentry id-sm__v (
+   value('Sumatera'),
+   order(1954),
+   active(true),
+   controlling_entries('id__v')
+);

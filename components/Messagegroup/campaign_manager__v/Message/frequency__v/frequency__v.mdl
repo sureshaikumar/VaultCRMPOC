@@ -1,0 +1,6 @@
+Message frequency__v (
+   label(),
+   active(true),
+   default_value('Frequency'),
+   system_managed(false)
+);

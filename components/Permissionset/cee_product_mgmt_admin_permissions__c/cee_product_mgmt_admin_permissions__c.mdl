@@ -1,0 +1,18 @@
+RECREATE Permissionset cee_product_mgmt_admin_permissions__c (
+   label('CEE - Product Mgmt - Admin Permissions'),
+   active(true),
+   description(),
+   object.my_setup_products__v.field_actions('read'),
+   object.my_setup_products__v.object_actions('edit'),
+   object.product__v.field_actions('edit'),
+   object.product__v.object_actions('create',
+      'delete'),
+   object.product_group__v.field_actions('edit'),
+   object.product_group__v.object_actions('create',
+      'delete'),
+   object.user_territory__v.field_actions('read'),
+   object.user_territory__v.object_actions('read'),
+   page.my_setup_page__v.page_actions('view'),
+   tab.my_setup__v.tab_actions('view'),
+   vault_actions.search('suggest')
+);

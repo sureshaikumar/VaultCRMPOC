@@ -1,0 +1,18 @@
+Field material_used__v (
+   label('Material Used'),
+   type('Boolean'),
+   active(true),
+   description('If checked, indicates that a material was used as part of an event'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

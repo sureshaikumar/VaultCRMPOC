@@ -1,0 +1,17 @@
+Field team_last_activity_datetime__v (
+   label('Team Channel Last Activity Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Date/time of the most recent activity that was counted towards the Team Channel Activity Actual'),
+   list_column(false),
+   order(40),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry dty_important_safety_information__sys (
+   value('Important Safety Information'),
+   order(81),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

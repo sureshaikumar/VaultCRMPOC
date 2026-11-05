@@ -1,0 +1,6 @@
+Picklistentry id-yo__v (
+   value('Yogyakarta'),
+   order(1960),
+   active(true),
+   controlling_entries('id__v')
+);

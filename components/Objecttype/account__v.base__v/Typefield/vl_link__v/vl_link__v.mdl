@@ -1,0 +1,4 @@
+Typefield vl_link__v (
+   source('standard'),
+   required(false)
+);

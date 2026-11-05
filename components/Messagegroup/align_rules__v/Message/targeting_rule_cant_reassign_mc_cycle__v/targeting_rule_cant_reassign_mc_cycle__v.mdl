@@ -1,0 +1,6 @@
+Message targeting_rule_cant_reassign_mc_cycle__v (
+   label(),
+   active(true),
+   default_value('Targeting Rule cannot be reassigned to a different MC Cycle.'),
+   system_managed(false)
+);

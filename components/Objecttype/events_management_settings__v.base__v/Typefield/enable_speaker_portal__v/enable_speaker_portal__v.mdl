@@ -1,0 +1,4 @@
+Typefield enable_speaker_portal__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ee-171__v (
+   value('Elva'),
+   order(1067),
+   active(true),
+   controlling_entries('ee__v')
+);

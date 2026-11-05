@@ -1,0 +1,5 @@
+Picklistentry phone_inquiry__v (
+   value('Phone Inquiry'),
+   order(1),
+   active(true)
+);

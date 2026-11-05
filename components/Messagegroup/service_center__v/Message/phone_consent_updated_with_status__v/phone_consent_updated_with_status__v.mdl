@@ -1,0 +1,6 @@
+Message phone_consent_updated_with_status__v (
+   label(),
+   active(true),
+   default_value('Phone Consent Updated: ${status}'),
+   system_managed(false)
+);

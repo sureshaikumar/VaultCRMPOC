@@ -1,0 +1,19 @@
+Field pricing_rule_key__v (
+   label('Pricing Rule Key'),
+   type('String'),
+   active(true),
+   description('Stores the concatenation of the key fields to verify the pricing rule validity'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Key used by the pricing engine to verify the validity of a pricing rule record'),
+   list_column(false),
+   order(58),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

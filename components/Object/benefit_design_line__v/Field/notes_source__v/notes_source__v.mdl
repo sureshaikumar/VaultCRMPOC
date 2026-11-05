@@ -1,0 +1,17 @@
+Field notes_source__v (
+   label('Notes (Source)'),
+   type('LongText'),
+   active(true),
+   description('This data is meant to be loaded and refreshed by the customer from the source data provider, such as MediMedia and not changed by end users. If the Notes field is filled in, it will override the Notes (Source) field in the display of the formulary control'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry america_guatemala__sys (
+   value('(GMT-06:00) Central Standard Time (America/Guatemala)'),
+   order(36),
+   active(true)
+);

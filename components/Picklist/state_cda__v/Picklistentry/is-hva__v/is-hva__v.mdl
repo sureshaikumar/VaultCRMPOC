@@ -1,0 +1,6 @@
+Picklistentry is-hva__v (
+   value('Hvalfjarðarsveit'),
+   order(2116),
+   active(true),
+   controlling_entries('is__v')
+);

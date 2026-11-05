@@ -1,0 +1,6 @@
+Message rule_feedback_in_progress_warning__v (
+   label(),
+   active(true),
+   default_value('Warning: This preview will impact territories that are currently open for feedback. This may result in feedback being overwritten.'),
+   system_managed(false)
+);

@@ -1,0 +1,16 @@
+RECREATE Docfieldlayout sharing_settings__v (
+   label('Sharing Settings'),
+   active(true),
+   icon('UNDEFINED'),
+   order(4),
+   fields('Docfield.owner__v',
+      'Docfield.coordinator__v',
+      'Docfield.editor__v',
+      'Docfield.viewer__v',
+      'Docfield.consumer__v',
+      'Docfield.reviewer__v',
+      'Docfield.approver__v'),
+   show_in_edit_mode(true),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_sharing_settings__sys')
+);

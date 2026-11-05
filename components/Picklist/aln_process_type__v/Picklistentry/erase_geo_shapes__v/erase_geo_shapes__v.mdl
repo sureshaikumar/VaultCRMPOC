@@ -1,0 +1,5 @@
+Picklistentry erase_geo_shapes__v (
+   value('Erase Geo Shapes'),
+   order(28),
+   active(true)
+);

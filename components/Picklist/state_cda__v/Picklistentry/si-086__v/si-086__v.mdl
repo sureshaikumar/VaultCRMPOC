@@ -1,0 +1,6 @@
+Picklistentry si-086__v (
+   value('Odranci'),
+   order(4060),
+   active(true),
+   controlling_entries('si__v')
+);

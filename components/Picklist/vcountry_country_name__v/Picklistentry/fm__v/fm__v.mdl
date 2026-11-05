@@ -1,0 +1,5 @@
+Picklistentry fm__v (
+   value('Micronesia, Federated States Of'),
+   order(72),
+   active(true)
+);

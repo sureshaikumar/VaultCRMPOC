@@ -1,0 +1,9 @@
+{
+    "name": "hello_world__c",
+    "pages": [
+        {
+            "name": "hello_world__c",
+            "file": "dist/hello-world.js"
+        }
+    ]
+}

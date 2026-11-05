@@ -1,0 +1,6 @@
+Message mass_add_add_row__v (
+   label(),
+   active(true),
+   default_value('Add Row'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry sc-02__v (
+   value('Anse Boileau'),
+   order(3902),
+   active(true),
+   controlling_entries('sc__v')
+);

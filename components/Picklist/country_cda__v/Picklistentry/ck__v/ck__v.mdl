@@ -1,0 +1,5 @@
+Picklistentry ck__v (
+   value('Cook Islands'),
+   order(52),
+   active(true)
+);

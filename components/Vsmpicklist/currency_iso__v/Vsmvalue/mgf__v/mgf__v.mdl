@@ -1,0 +1,10 @@
+Vsmvalue mgf__v (
+   label('MGF'),
+   active(true),
+   description('The Malagasy Franc (MGF), the former official currency of Madagascar prior to its replacement by the Ariary in 2005, used for legacy or historical financial records denominated in Malagasy francs.'),
+   synonyms('Malagasy franc',
+         'Madagascar franc',
+         'MGF'),
+   target('mgf__sys'),
+   target_label('MGF')
+);

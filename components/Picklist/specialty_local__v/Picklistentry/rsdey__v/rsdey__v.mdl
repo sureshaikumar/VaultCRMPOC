@@ -1,0 +1,6 @@
+Picklistentry rsdey__v (
+   value('Respiratory System Diseases'),
+   order(1742),
+   active(true),
+   controlling_entries('it__v')
+);

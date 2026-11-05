@@ -1,0 +1,6 @@
+Picklistentry np-p2__v (
+   value('Madhesh'),
+   order(3406),
+   active(true),
+   controlling_entries('np__v')
+);

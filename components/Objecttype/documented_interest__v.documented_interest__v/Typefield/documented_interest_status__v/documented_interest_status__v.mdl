@@ -1,0 +1,7 @@
+Typefield documented_interest_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.documented_interest_status__v.new__v',
+         'Picklist.documented_interest_status__v.saved__v',
+         'Picklist.documented_interest_status__v.submitted__v')
+);

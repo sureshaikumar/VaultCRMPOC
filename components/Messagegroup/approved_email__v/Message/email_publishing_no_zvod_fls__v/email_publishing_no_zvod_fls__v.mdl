@@ -1,0 +1,6 @@
+Message email_publishing_no_zvod_fls__v (
+   label(),
+   active(true),
+   default_value('Integration User must have Read FLS to zvod_consent_activity_tracking__v field on the Approved Email Consent Type.'),
+   system_managed(false)
+);

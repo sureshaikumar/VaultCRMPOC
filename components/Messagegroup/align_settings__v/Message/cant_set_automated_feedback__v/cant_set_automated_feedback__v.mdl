@@ -1,0 +1,6 @@
+Message cant_set_automated_feedback__v (
+   label(),
+   active(true),
+   default_value('Automated Feedback Handling can only be enabled for Global Settings.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gq-kn__v (
+   value('Kié-Ntem'),
+   order(1763),
+   active(true),
+   controlling_entries('gq__v')
+);

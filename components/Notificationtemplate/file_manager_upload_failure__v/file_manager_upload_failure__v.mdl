@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate file_manager_upload_failure__v (
+   label('File Manager Upload Failure'),
+   active(true),
+   description('File Manager Upload API failure'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Vault File Manager Upload Failure'),
+   notification('<p>Rendition ${Custom.renditionTypeLabel} upload to ${Custom.documentName} was cancelled on ${Custom.dateTime}</p> <p>Reason: ${Custom.reason}</p>'),
+   email_body('<p>Rendition ${Custom.renditionTypeLabel} upload to ${Custom.documentName} was cancelled on ${Custom.dateTime}</p> <p>Reason: ${Custom.reason}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

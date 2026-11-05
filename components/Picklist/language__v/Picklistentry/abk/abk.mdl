@@ -1,0 +1,5 @@
+Picklistentry abk (
+   value('Abkhazian'),
+   order(114),
+   active(true)
+);

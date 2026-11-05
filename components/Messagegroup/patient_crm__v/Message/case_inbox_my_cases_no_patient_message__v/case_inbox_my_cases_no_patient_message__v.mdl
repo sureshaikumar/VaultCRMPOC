@@ -1,0 +1,6 @@
+Message case_inbox_my_cases_no_patient_message__v (
+   label(),
+   active(true),
+   default_value('Patient information will appear here once a Patient is selected'),
+   system_managed(false)
+);

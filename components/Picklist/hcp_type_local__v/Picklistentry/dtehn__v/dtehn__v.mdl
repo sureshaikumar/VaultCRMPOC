@@ -1,0 +1,5 @@
+Picklistentry dtehn__v (
+   value('Dental Therapist'),
+   order(31),
+   active(true)
+);

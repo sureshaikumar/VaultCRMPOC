@@ -1,0 +1,5 @@
+Picklistentry matching_sharing_rule__sys (
+   value('Matching Sharing Rule'),
+   order(2),
+   active(true)
+);

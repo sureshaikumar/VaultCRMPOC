@@ -1,0 +1,6 @@
+Picklistentry fr-34__v (
+   value('Hérault'),
+   order(1350),
+   active(true),
+   controlling_entries('fr__v')
+);

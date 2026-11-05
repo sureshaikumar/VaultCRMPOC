@@ -1,0 +1,6 @@
+Picklistentry smipa__v (
+   value('Sports Medicine in Patient and Community Care'),
+   order(1803),
+   active(true),
+   controlling_entries('id__v')
+);

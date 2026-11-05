@@ -1,0 +1,4 @@
+Typefield concur_response_time_association__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message object_attribute__sys (
+   label(),
+   active(true),
+   default_value('Object'),
+   system_managed(true)
+);

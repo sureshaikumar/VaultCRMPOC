@@ -1,0 +1,7 @@
+Typefield exact_search_setting__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_rule_exact_search_setting__v.exact_name_match__v',
+         'Picklist.em_event_rule_exact_search_setting__v.off__v'),
+   default_value('Picklist.em_event_rule_exact_search_setting__v.off__v')
+);

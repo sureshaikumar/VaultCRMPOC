@@ -1,0 +1,15 @@
+Vsmrelationship persons__v (
+   label('Persons'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship representing all Person records that report to or are associated with this Person (e.g., direct reports in a management hierarchy). Use this to find everyone who lists this person as their manager.'),
+   join_object(),
+   synonyms('direct reports',
+         'reports',
+         'team members',
+         'subordinates',
+         'managed persons'),
+   target('persons__sysr'),
+   target_label('Persons'),
+   target_object('person__sys')
+);

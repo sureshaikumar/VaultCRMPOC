@@ -1,0 +1,5 @@
+Picklistentry 27780__v (
+   value('Johnstown, PA Metropolitan Statistical Area'),
+   order(145),
+   active(true)
+);

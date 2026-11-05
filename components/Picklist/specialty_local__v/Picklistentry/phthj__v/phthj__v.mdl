@@ -1,0 +1,10 @@
+Picklistentry phthj__v (
+   value('Phthisiology'),
+   order(1532),
+   active(true),
+   controlling_entries('am__v',
+         'az__v',
+         'ge__v',
+         'kz__v',
+         'ua__v')
+);

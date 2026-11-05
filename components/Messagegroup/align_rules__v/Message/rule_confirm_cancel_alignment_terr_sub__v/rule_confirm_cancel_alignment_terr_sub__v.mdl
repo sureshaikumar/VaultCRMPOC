@@ -1,0 +1,6 @@
+Message rule_confirm_cancel_alignment_terr_sub__v (
+   label(),
+   active(true),
+   default_value('Cancel Account Assignment Preview for {0} and subordinate territories?'),
+   system_managed(false)
+);

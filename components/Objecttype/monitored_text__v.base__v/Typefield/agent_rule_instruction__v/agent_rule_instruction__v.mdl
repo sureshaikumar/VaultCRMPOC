@@ -1,0 +1,4 @@
+Typefield agent_rule_instruction__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation consent_template__v.required_fields__v (
+   label('Required Fields'),
+   active(true),
+   expression('Not(isBlank(expiration_type__v))'),
+   description('The expiration type must not be null.'),
+   error_message('Required field missing.'),
+   error_location('expiration_type__v')
+);

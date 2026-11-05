@@ -1,0 +1,5 @@
+Picklistentry very_heavy__sys (
+   value('Very Heavy'),
+   order(4),
+   active(true)
+);

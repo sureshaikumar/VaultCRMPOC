@@ -1,0 +1,6 @@
+Picklistentry kg-n__v (
+   value('Naryn'),
+   order(2406),
+   active(true),
+   controlling_entries('kg__v')
+);

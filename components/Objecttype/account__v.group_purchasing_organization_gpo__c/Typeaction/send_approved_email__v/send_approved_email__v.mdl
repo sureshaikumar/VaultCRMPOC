@@ -1,0 +1,3 @@
+Typeaction send_approved_email__v (
+   action('account__v.send_approved_email__v')
+);

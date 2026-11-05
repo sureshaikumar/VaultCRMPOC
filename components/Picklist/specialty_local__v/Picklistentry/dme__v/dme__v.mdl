@@ -1,0 +1,6 @@
+Picklistentry dme__v (
+   value('DME'),
+   order(455),
+   active(true),
+   controlling_entries('us__v')
+);

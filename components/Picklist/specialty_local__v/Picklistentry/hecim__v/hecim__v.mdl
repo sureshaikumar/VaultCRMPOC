@@ -1,0 +1,6 @@
+Picklistentry hecim__v (
+   value('Histology-Embryology-Cytogenetics'),
+   order(708),
+   active(true),
+   controlling_entries('sn__v')
+);

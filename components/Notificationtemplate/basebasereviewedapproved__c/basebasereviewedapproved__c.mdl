@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate basebasereviewedapproved__c (
+   label('BASE-baseReviewedApproved'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" review completed, changes not required'),
+   notification('Review of <b>${docName}</b> has been completed. Changes are not required. The Owner will start the approval process.'),
+   email_body('<p>${notificationMessage}</p> <p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,11 @@
+Vsmfield username__v (
+   label('User Name'),
+   active(true),
+   description('The user\''s unique login ID, typically formatted as an email address containing the user\''s first name and last name separated by a period, and then the Vault\''s domain after the @ symbol.'),
+   example_values(),
+   synonyms(),
+   target('username__sys'),
+   target_label('User Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

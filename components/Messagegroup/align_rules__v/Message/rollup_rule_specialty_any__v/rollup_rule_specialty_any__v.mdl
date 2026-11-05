@@ -1,0 +1,6 @@
+Message rollup_rule_specialty_any__v (
+   label(),
+   active(true),
+   default_value('Specialty (Any)'),
+   system_managed(false)
+);

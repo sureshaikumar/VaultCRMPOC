@@ -1,0 +1,5 @@
+Picklistentry america_miquelon__sys (
+   value('(GMT-03:00) Pierre & Miquelon Standard Time (America/Miquelon)'),
+   order(126),
+   active(true)
+);

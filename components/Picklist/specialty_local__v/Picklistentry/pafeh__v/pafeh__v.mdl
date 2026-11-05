@@ -1,0 +1,6 @@
+Picklistentry pafeh__v (
+   value('Physiology and Functional Explorations'),
+   order(1556),
+   active(true),
+   controlling_entries('tn__v')
+);

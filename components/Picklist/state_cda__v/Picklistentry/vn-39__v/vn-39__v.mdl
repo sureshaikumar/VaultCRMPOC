@@ -1,0 +1,6 @@
+Picklistentry vn-39__v (
+   value('Đồng Nai'),
+   order(4941),
+   active(true),
+   controlling_entries('vn__v')
+);

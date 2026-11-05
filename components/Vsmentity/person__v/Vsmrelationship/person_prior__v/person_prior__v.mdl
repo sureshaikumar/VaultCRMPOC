@@ -1,0 +1,14 @@
+Vsmrelationship person_prior__v (
+   label('Person Prior'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship from Person Prior records that reference this Person, representing historical or predecessor versions of the person record. Use this to access prior/historical person data associated with the current Person.'),
+   join_object(),
+   synonyms('prior person',
+         'previous record',
+         'predecessor',
+         'historical person'),
+   target('person_prior__sysr'),
+   target_label('Prior Persons'),
+   target_object('person_prior__sys')
+);

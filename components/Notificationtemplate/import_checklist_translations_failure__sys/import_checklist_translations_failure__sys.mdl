@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate import_checklist_translations_failure__sys (
+   label('Import Checklist Translations Failure'),
+   active(true),
+   description('Notification template notifying user that their checklist translations import failed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Bulk Import of ${checklist_design__sys_label} Translations Failed'),
+   notification('<p>Your ${checklist_design__sys_label} translations import attempt has failed. Errors were encountered during processing.<br><br><a href="${urlChecklistHelp}">Learn more</a> about bulk importing translations.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Message generate_package_label__v (
+   label(),
+   active(true),
+   default_value('Generate Package Label'),
+   system_managed(false)
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_cdn_support_missing_config__v (
+   label('vaultCDNSupportMissingConfig'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('CDN Settings have not been entered'),
+   notification('CDN Settings have not been entered. Please work with your Vault Administrator to have these settings entered.'),
+   email_body('<p>${notificationMessage}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

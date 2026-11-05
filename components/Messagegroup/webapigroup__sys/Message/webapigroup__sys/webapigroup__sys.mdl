@@ -1,0 +1,6 @@
+Message webapigroup__sys (
+   label(),
+   active(true),
+   default_value('Web API Group'),
+   system_managed(true)
+);

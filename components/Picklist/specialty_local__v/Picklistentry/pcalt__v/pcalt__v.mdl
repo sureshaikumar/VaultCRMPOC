@@ -1,0 +1,6 @@
+Picklistentry pcalt__v (
+   value('Pathology (Clinical)'),
+   order(1298),
+   active(true),
+   controlling_entries('za__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry pgadp__v (
+   value('Pediatrics Growth and Development Ped. Social'),
+   order(1479),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,18 @@
+Field submit_expense__v (
+   label('Submit Expense'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('When checked, indicates that the expense is ready to be posted to the third party expense management system.'),
+   list_column(false),
+   order(43),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

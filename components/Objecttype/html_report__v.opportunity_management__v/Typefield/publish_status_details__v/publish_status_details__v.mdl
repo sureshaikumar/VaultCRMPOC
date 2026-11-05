@@ -1,0 +1,4 @@
+Typefield publish_status_details__v (
+   source('custom'),
+   required(false)
+);

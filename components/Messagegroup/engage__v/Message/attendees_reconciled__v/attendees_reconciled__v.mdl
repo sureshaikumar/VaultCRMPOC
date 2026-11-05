@@ -1,0 +1,6 @@
+Message attendees_reconciled__v (
+   label(),
+   active(true),
+   default_value('Attendees Reconciled'),
+   system_managed(false)
+);

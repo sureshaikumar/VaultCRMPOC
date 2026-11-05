@@ -1,0 +1,5 @@
+Picklistentry webinar__v (
+   value('Webinar'),
+   order(5),
+   active(true)
+);

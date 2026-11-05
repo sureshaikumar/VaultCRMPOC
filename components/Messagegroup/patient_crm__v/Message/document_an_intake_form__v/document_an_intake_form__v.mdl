@@ -1,0 +1,6 @@
+Message document_an_intake_form__v (
+   label(),
+   active(true),
+   default_value('Is this Document an Intake Form?'),
+   system_managed(false)
+);

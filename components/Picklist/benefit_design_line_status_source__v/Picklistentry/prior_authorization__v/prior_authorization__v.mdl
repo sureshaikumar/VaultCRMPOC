@@ -1,0 +1,5 @@
+Picklistentry prior_authorization__v (
+   value('Prior Authorization'),
+   order(15),
+   active(true)
+);

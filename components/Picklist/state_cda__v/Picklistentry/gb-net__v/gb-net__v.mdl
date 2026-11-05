@@ -1,0 +1,6 @@
+Picklistentry gb-net__v (
+   value('Newcastle Upon Tyne'),
+   order(1576),
+   active(true),
+   controlling_entries('gb__v')
+);

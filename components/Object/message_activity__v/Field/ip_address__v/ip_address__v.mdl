@@ -1,0 +1,19 @@
+Field ip_address__v (
+   label('IP Address'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(32),
+   help_content('IP_Address_vod captures the IP address of the device on which the Engage Link was accessed.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

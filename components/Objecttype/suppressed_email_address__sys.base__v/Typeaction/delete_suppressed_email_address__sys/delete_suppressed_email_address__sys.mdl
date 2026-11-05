@@ -1,0 +1,3 @@
+Typeaction delete_suppressed_email_address__sys (
+   action('suppressed_email_address__sys.delete_suppressed_email_address__sys')
+);

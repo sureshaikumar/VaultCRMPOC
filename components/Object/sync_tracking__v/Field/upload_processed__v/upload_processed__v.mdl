@@ -1,0 +1,18 @@
+Field upload_processed__v (
+   label('Upload Processed'),
+   type('Boolean'),
+   active(true),
+   description('Checked if the upload from VMobile to the server completed with no errors.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

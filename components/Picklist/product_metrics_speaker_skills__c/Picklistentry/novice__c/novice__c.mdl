@@ -1,0 +1,5 @@
+Picklistentry novice__c (
+   value('Novice'),
+   order(1),
+   active(true)
+);

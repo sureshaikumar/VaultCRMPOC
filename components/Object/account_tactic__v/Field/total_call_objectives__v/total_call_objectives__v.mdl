@@ -1,0 +1,22 @@
+Field total_call_objectives__v (
+   label('Total Call Objectives'),
+   type('Number'),
+   active(true),
+   description('Contains the total number of Call Objectives associated with Account Tactics within a given Account Plan'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

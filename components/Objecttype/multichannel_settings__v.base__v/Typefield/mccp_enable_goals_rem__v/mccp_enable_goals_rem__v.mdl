@@ -1,0 +1,4 @@
+Typefield mccp_enable_goals_rem__v (
+   source('standard'),
+   required(false)
+);

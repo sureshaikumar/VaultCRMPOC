@@ -1,0 +1,6 @@
+Picklistentry kh-20__v (
+   value('Svaay Rieng [Svay Riĕng]'),
+   order(2422),
+   active(true),
+   controlling_entries('kh__v')
+);

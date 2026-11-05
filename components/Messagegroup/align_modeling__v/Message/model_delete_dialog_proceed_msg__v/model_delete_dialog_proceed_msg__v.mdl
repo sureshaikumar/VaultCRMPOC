@@ -1,0 +1,6 @@
+Message model_delete_dialog_proceed_msg__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to proceed?'),
+   system_managed(false)
+);

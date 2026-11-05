@@ -1,0 +1,6 @@
+Message crm_integration_aiu_not_setup__v (
+   label(),
+   active(true),
+   default_value('The Align Integration User has not been setup.'),
+   system_managed(false)
+);

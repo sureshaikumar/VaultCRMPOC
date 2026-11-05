@@ -1,0 +1,5 @@
+Picklistentry myv (
+   value('Erzya'),
+   order(173),
+   active(true)
+);

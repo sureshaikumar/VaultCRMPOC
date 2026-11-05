@@ -1,0 +1,6 @@
+Message console_app_required__v (
+   label(),
+   active(true),
+   default_value('Emails require a Console Application configured as an Application Target'),
+   system_managed(false)
+);

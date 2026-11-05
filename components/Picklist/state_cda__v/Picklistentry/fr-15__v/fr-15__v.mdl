@@ -1,0 +1,6 @@
+Picklistentry fr-15__v (
+   value('Cantal'),
+   order(1329),
+   active(true),
+   controlling_entries('fr__v')
+);

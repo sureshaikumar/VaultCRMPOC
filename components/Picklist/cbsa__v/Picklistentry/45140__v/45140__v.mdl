@@ -1,0 +1,5 @@
+Picklistentry 45140__v (
+   value('Tahlequah, OK Micropolitan Statistical Area'),
+   order(1),
+   active(true)
+);

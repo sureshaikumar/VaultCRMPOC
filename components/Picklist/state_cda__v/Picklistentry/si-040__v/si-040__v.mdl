@@ -1,0 +1,6 @@
+Picklistentry si-040__v (
+   value('Izola'),
+   order(4014),
+   active(true),
+   controlling_entries('si__v')
+);

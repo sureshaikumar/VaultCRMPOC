@@ -1,0 +1,5 @@
+Picklistentry 26340__v (
+   value('Houghton, MI Micropolitan Statistical Area'),
+   order(724),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field remote_signature_attendee_name__v (
+   label('Remote Signature Attendee Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(150),
+   help_content('A system field set by Veeva. When a remote sample signature is collected the field is stamped with the name entered by the signing attendee when joining the Engage Meeting.'),
+   list_column(false),
+   order(103),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

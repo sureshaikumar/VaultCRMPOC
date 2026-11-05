@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate lookup_field_deletion_failure__sys (
+   label('Lookup Field Deletion Error'),
+   active(true),
+   description('Notification template notifying that the deletion of a lookup field encountered an error'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Lookup Field Deletion Error'),
+   notification('The deletion of the lookup field [${lookup_field_label}] on object [${lookup_target_object_label}] has encountered an error.'),
+   email_body('The deletion of the lookup field [${lookup_field_label}] on object [${lookup_target_object_label}] has encountered an error.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

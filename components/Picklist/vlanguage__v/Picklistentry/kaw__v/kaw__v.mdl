@@ -1,0 +1,5 @@
+Picklistentry kaw__v (
+   value('Kawi'),
+   order(164),
+   active(false)
+);

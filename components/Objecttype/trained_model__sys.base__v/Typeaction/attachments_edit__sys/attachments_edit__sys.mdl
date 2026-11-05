@@ -1,0 +1,3 @@
+Typeaction attachments_edit__sys (
+   action('trained_model__sys.attachments_edit__sys')
+);

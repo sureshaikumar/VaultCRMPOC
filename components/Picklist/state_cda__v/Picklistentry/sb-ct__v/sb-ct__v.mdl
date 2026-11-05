@@ -1,0 +1,6 @@
+Picklistentry sb-ct__v (
+   value('Capital Territory (Honiara)'),
+   order(3893),
+   active(true),
+   controlling_entries('sb__v')
+);

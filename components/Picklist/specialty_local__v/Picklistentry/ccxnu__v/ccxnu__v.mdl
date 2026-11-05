@@ -1,0 +1,6 @@
+Picklistentry ccxnu__v (
+   value('Critical Care Nursing'),
+   order(346),
+   active(true),
+   controlling_entries('pt__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.recall_approval_request__v (
+   label('Recall Approval Request'),
+   description('Recall Approval Request'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.RecallApprovalRequestAction'),
+   active(true),
+   available_all_states(true)
+);

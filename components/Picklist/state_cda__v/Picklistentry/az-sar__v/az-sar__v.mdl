@@ -1,0 +1,6 @@
+Picklistentry az-sar__v (
+   value('Şərur'),
+   order(192),
+   active(true),
+   controlling_entries('az__v')
+);

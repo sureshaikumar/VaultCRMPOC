@@ -1,0 +1,6 @@
+Message refresh__v (
+   label(),
+   active(true),
+   default_value('Refresh'),
+   system_managed(false)
+);

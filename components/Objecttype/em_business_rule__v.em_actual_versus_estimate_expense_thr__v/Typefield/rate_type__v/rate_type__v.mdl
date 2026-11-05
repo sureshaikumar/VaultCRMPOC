@@ -1,0 +1,7 @@
+Typefield rate_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_business_rule_rate_type__v.day__v',
+         'Picklist.em_business_rule_rate_type__v.event__v',
+         'Picklist.em_business_rule_rate_type__v.hour__v')
+);

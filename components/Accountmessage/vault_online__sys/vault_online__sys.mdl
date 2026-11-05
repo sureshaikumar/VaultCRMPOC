@@ -1,0 +1,7 @@
+RECREATE Accountmessage vault_online__sys (
+   label('Vault Online'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Notification: Vault ${vaultName} is Online')
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_famagusta__sys (
+   value('(GMT+02:00) Eastern European Time (Asia/Famagusta)'),
+   order(177),
+   active(true)
+);

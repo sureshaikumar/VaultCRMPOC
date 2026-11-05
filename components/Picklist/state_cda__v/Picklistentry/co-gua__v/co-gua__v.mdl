@@ -1,0 +1,6 @@
+Picklistentry co-gua__v (
+   value('Guainía'),
+   order(742),
+   active(true),
+   controlling_entries('co__v')
+);

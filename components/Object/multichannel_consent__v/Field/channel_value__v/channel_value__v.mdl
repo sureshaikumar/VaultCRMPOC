@@ -1,0 +1,19 @@
+Field channel_value__v (
+   label('Channel Value'),
+   type('String'),
+   active(true),
+   description('Channel_Value_vod represents the channel of communication that a consent record was captured for, i.e. a channel in Approved Email will be an email address.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

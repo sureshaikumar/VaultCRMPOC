@@ -1,0 +1,4 @@
+Typefield pal_expiration_date__sys (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message calls_by_team__v (
+   label(),
+   active(true),
+   default_value('Calls by Team for the Last 6 Months'),
+   system_managed(false)
+);

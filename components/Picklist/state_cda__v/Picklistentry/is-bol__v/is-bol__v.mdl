@@ -1,0 +1,6 @@
+Picklistentry is-bol__v (
+   value('Bolungarvíkurkaupstaður'),
+   order(2097),
+   active(true),
+   controlling_entries('is__v')
+);

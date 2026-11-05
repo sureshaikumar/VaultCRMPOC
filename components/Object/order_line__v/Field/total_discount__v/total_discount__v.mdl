@@ -1,0 +1,23 @@
+Field total_discount__v (
+   label('Total Discount'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Shows and stores the exact amount of added discounts of all levels (incl. user changes to the line discount), not editable by users'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(4),
+   help_content(),
+   list_column(false),
+   order(53),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

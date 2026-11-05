@@ -1,0 +1,17 @@
+Field account_name__v (
+   label('Account Name'),
+   type('LongText'),
+   active(true),
+   description('The Account Name field stores the textual name of the Account that ordered the Sample.  This includes a concatenation of the Account''s Salutation, First Name, Last Name, and Credentials.'),
+   required(false),
+   max_length(500),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

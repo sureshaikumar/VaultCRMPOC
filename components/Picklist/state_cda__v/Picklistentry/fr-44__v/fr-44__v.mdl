@@ -1,0 +1,6 @@
+Picklistentry fr-44__v (
+   value('Loire-Atlantique'),
+   order(1360),
+   active(true),
+   controlling_entries('fr__v')
+);

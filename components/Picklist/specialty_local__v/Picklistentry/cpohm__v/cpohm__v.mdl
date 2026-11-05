@@ -1,0 +1,14 @@
+Picklistentry cpohm__v (
+   value('Community Pharmacy Specialty'),
+   order(317),
+   active(true),
+   controlling_entries('cz__v',
+         'fr__v',
+         'kr__v',
+         'li__v',
+         'mc__v',
+         'my__v',
+         'pt__v',
+         'sg__v',
+         'th__v')
+);

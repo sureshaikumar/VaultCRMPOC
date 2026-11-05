@@ -1,0 +1,5 @@
+Picklistentry raxtg__v (
+   value('Radiology Technologist'),
+   order(132),
+   active(true)
+);

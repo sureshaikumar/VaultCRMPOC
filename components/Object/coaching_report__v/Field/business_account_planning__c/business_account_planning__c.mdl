@@ -1,0 +1,22 @@
+Field business_account_planning__c (
+   label('Business Account Planning'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('5 – Superior
+4 – Exceeds expectations
+3 – Meets expectations
+2 – Below expectations
+1 – Poor'),
+   list_column(false),
+   order(9),
+   multi_value(false),
+   picklist('Picklist.coaching_repor_business_account_planning__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

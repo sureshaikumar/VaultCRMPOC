@@ -1,0 +1,5 @@
+Picklistentry capsule__v (
+   value('Capsule'),
+   order(6),
+   active(true)
+);

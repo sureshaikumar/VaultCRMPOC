@@ -1,0 +1,6 @@
+Message crm_integration_mappings_must_configured__v (
+   label(),
+   active(true),
+   default_value('Field mapping must be configured before importing or pushing data from or to CRM.'),
+   system_managed(false)
+);

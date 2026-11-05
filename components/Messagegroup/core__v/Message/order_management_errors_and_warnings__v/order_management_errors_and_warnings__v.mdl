@@ -1,0 +1,6 @@
+Message order_management_errors_and_warnings__v (
+   label(),
+   active(true),
+   default_value('Errors and Warnings'),
+   system_managed(false)
+);

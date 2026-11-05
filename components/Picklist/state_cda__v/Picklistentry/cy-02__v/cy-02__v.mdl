@@ -1,0 +1,6 @@
+Picklistentry cy-02__v (
+   value('Lemesos'),
+   order(808),
+   active(true),
+   controlling_entries('cy__v')
+);

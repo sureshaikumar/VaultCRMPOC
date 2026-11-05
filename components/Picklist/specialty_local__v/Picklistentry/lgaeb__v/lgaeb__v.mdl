@@ -1,0 +1,8 @@
+Picklistentry lgaeb__v (
+   value('Laboratory Genetics'),
+   order(838),
+   active(true),
+   controlling_entries('am__v',
+         'sk__v',
+         'ua__v')
+);

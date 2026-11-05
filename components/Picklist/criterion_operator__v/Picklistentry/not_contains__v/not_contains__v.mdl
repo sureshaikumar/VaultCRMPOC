@@ -1,0 +1,5 @@
+Picklistentry not_contains__v (
+   value('does not contain'),
+   order(5),
+   active(true)
+);

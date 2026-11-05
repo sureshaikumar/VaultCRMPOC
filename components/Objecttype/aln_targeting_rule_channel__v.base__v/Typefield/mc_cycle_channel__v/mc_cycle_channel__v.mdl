@@ -1,0 +1,4 @@
+Typefield mc_cycle_channel__v (
+   source('standard'),
+   required(true)
+);

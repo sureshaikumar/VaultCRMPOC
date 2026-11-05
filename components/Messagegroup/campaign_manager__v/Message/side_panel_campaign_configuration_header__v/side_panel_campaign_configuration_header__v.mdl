@@ -1,0 +1,6 @@
+Message side_panel_campaign_configuration_header__v (
+   label(),
+   active(true),
+   default_value('Campaign Configuration'),
+   system_managed(false)
+);

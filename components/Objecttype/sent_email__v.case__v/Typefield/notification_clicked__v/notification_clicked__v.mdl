@@ -1,0 +1,4 @@
+Typefield notification_clicked__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message api_token_generation_error__v (
+   label(),
+   active(true),
+   default_value('Error generating API Token. Please try again later.'),
+   system_managed(false)
+);

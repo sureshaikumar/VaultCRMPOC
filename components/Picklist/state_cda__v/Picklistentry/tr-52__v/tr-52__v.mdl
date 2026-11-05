@@ -1,0 +1,6 @@
+Picklistentry tr-52__v (
+   value('Ordu'),
+   order(4510),
+   active(true),
+   controlling_entries('tr__v')
+);

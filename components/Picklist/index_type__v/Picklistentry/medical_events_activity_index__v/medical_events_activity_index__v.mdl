@@ -1,0 +1,5 @@
+Picklistentry medical_events_activity_index__v (
+   value('Medical Events Activity Index'),
+   order(10),
+   active(true)
+);

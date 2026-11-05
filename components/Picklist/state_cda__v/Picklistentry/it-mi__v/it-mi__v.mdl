@@ -1,0 +1,6 @@
+Picklistentry it-mi__v (
+   value('Milan'),
+   order(2226),
+   active(true),
+   controlling_entries('it__v')
+);

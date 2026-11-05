@@ -1,0 +1,5 @@
+Picklistentry editable__v (
+   value('Editable'),
+   order(0),
+   active(true)
+);

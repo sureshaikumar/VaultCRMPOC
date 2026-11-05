@@ -1,0 +1,6 @@
+Picklistentry mdeit__v (
+   value('Metabolic Diseases'),
+   order(956),
+   active(true),
+   controlling_entries('il__v')
+);

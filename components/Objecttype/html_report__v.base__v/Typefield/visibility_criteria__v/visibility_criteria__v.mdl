@@ -1,0 +1,4 @@
+Typefield visibility_criteria__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,17 @@
+Field insight__v (
+   label('Insight'),
+   type('RichText'),
+   active(true),
+   description('The text describing the commercial insight.'),
+   required(true),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

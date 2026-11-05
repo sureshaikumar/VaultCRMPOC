@@ -1,0 +1,6 @@
+Picklistentry pa-4__v (
+   value('Chiriquí'),
+   order(3458),
+   active(true),
+   controlling_entries('pa__v')
+);

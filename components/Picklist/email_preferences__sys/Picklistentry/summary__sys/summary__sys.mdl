@@ -1,0 +1,5 @@
+Picklistentry summary__sys (
+   value('Summary'),
+   order(2),
+   active(true)
+);

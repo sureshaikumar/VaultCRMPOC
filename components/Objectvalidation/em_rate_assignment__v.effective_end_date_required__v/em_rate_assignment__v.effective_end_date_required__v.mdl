@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_rate_assignment__v.effective_end_date_required__v (
+   label('Effective End Date Required'),
+   active(true),
+   expression('Not(IsBlank(end_date__v))'),
+   description('Effective End Date is Required.'),
+   error_message('Effective End Date is Required.'),
+   error_location('end_date__v')
+);

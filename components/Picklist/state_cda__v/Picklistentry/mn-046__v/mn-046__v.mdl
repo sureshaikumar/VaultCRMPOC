@@ -1,0 +1,6 @@
+Picklistentry mn-046__v (
+   value('Uvs'),
+   order(3075),
+   active(true),
+   controlling_entries('mn__v')
+);

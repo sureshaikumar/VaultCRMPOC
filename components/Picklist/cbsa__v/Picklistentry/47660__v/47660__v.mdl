@@ -1,0 +1,5 @@
+Picklistentry 47660__v (
+   value('Warrensburg, MO Micropolitan Statistical Area'),
+   order(366),
+   active(true)
+);

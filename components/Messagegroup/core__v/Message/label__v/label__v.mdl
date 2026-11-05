@@ -1,0 +1,6 @@
+Message label__v (
+   label(),
+   active(true),
+   default_value('Label'),
+   system_managed(false)
+);

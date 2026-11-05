@@ -1,0 +1,6 @@
+Picklistentry ml-2__v (
+   value('Koulikoro'),
+   order(3046),
+   active(true),
+   controlling_entries('ml__v')
+);

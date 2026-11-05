@@ -1,0 +1,4 @@
+Typefield clm_content_search__v (
+   source('standard'),
+   required(false)
+);

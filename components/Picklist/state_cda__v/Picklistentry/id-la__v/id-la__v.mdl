@@ -1,0 +1,6 @@
+Picklistentry id-la__v (
+   value('Lampung'),
+   order(1935),
+   active(true),
+   controlling_entries('id__v')
+);

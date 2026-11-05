@@ -1,0 +1,6 @@
+Picklistentry bj-mo__v (
+   value('Mono'),
+   order(431),
+   active(true),
+   controlling_entries('bj__v')
+);

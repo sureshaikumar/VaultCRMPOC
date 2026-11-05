@@ -1,0 +1,6 @@
+Picklistentry lhaeb__v (
+   value('Laboratory Hematology'),
+   order(840),
+   active(true),
+   controlling_entries('am__v')
+);

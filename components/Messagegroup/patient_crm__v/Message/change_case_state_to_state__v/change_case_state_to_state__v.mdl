@@ -1,0 +1,6 @@
+Message change_case_state_to_state__v (
+   label(),
+   active(true),
+   default_value('Change Case State To ${case_state_label}'),
+   system_managed(false)
+);

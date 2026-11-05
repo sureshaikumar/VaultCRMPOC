@@ -1,0 +1,6 @@
+Message mysetupproduct_fav_shouldnt_true_err_tp__v (
+   label(),
+   active(true),
+   default_value('Favorite field cannot be Yes if Send to CRM field of Territory Product is No'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield spotme_live_claps__v (
+   source('standard'),
+   required(false)
+);

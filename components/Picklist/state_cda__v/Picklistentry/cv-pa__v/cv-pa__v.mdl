@@ -1,0 +1,6 @@
+Picklistentry cv-pa__v (
+   value('Paul'),
+   order(791),
+   active(true),
+   controlling_entries('cv__v')
+);

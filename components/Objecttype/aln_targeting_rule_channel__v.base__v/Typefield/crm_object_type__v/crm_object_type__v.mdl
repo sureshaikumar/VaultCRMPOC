@@ -1,0 +1,4 @@
+Typefield crm_object_type__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry lk-72__v (
+   value('Polonnaruwa'),
+   order(2587),
+   active(true),
+   controlling_entries('lk__v')
+);

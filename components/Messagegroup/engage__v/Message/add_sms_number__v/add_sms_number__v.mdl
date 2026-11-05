@@ -1,0 +1,6 @@
+Message add_sms_number__v (
+   label(),
+   active(true),
+   default_value('Add SMS Number'),
+   system_managed(false)
+);

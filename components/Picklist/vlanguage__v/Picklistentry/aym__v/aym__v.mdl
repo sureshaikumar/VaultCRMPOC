@@ -1,0 +1,5 @@
+Picklistentry aym__v (
+   value('Aymara'),
+   order(25),
+   active(false)
+);

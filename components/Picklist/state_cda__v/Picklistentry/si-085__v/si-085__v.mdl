@@ -1,0 +1,6 @@
+Picklistentry si-085__v (
+   value('Novo Mesto'),
+   order(4059),
+   active(true),
+   controlling_entries('si__v')
+);

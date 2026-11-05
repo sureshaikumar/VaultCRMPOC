@@ -1,0 +1,6 @@
+Picklistentry tr-42__v (
+   value('Konya'),
+   order(4500),
+   active(true),
+   controlling_entries('tr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry udm__v (
+   value('Udmurt'),
+   order(335),
+   active(false)
+);

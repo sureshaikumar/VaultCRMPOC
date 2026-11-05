@@ -1,0 +1,23 @@
+RECREATE Objecttype crosslink_source_event__sys.base__v (
+   label('Base Crosslink Source Event'),
+   label_plural('Base Crosslink Source Events'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/crosslink_vault_id__v.mdl),
+   Typefield(@Typefield/doc_ver__v.mdl),
+   Typefield(@Typefield/document_unbound__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/source_version_event__sys.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

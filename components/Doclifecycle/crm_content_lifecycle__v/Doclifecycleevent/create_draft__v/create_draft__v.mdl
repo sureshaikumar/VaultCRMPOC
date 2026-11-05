@@ -1,0 +1,6 @@
+Doclifecycleevent create_draft__v (
+   active(true),
+   event('create_draft'),
+   rule(@rule.xml),
+   order(0)
+);

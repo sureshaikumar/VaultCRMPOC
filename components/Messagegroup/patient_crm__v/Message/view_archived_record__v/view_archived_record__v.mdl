@@ -1,0 +1,6 @@
+Message view_archived_record__v (
+   label(),
+   active(true),
+   default_value('View Archived Record'),
+   system_managed(false)
+);

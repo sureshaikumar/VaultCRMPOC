@@ -1,0 +1,6 @@
+Message error_adding_target__v (
+   label(),
+   active(true),
+   default_value('Error Adding Target'),
+   system_managed(false)
+);

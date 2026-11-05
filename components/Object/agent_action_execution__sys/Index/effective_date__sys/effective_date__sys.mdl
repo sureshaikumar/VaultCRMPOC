@@ -1,0 +1,5 @@
+Index effective_date__sys (
+   description(),
+   fields('effective_date__sys'),
+   label('Effective Date')
+);

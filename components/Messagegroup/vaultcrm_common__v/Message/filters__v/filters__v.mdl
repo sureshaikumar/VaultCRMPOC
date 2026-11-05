@@ -1,0 +1,6 @@
+Message filters__v (
+   label(),
+   active(true),
+   default_value('Filters'),
+   system_managed(false)
+);

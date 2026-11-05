@@ -1,0 +1,9 @@
+RECREATE Pagelink aln_account_rule_view__v (
+   label('Account Rule View'),
+   url('https://valign-sbx-us-east-2-prod-app.veevavault.com/rules/accountRuleDetail.xhtml?vaulturl={{Vault.domain}}&vaultid={{Vault.id}}&pageMode=VIEW&objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.aln_account_rule__v'),
+   active(true),
+   disable_type_select(false)
+);

@@ -1,0 +1,6 @@
+Message start_date_before_end_date__v (
+   label(),
+   active(true),
+   default_value('Start date must be before end date'),
+   system_managed(false)
+);

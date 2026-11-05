@@ -1,0 +1,6 @@
+Message picklist_values__sys (
+   label(),
+   active(true),
+   default_value('Picklist Values'),
+   system_managed(true)
+);

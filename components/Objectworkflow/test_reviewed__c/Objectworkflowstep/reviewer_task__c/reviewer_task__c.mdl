@@ -1,0 +1,8 @@
+Objectworkflowstep reviewer_task__c (
+   label('Reviewer Task'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.decision__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

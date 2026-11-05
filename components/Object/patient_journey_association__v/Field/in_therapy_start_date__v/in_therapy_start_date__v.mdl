@@ -1,0 +1,17 @@
+Field in_therapy_start_date__v (
+   label('In Therapy Start Date'),
+   type('DateTime'),
+   active(true),
+   description('This field auto-populates with the date/timestamp (UTC) when the the Patient Journey Step Phase indicated as the entered therapeutic phase (''Enter Therapeutic Phase'' = Yes) record is created and the ''In-Therapy'' field is set to Yes, this value is needed to calculate the average length of time (days) for patients from journey enrollment to the start of therapy.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

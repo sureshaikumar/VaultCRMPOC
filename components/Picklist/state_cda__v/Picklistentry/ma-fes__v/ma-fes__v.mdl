@@ -1,0 +1,6 @@
+Picklistentry ma-fes__v (
+   value('Fès'),
+   order(2797),
+   active(true),
+   controlling_entries('ma__v')
+);

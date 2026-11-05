@@ -1,0 +1,13 @@
+RECREATE Picklist reference_lookup_type__sys (
+   label('Reference Lookup Type'),
+   active(true),
+   Picklistentry(@Picklistentry/picklist__sys.mdl),
+   Picklistentry(@Picklistentry/object__sys.mdl),
+   Picklistentry(@Picklistentry/lifecycle_state__sys.mdl),
+   Picklistentry(@Picklistentry/object_lifecycle_state__sys.mdl),
+   Picklistentry(@Picklistentry/document_lifecycle_state__sys.mdl),
+   Picklistentry(@Picklistentry/document_type__sys.mdl),
+   Picklistentry(@Picklistentry/generic__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

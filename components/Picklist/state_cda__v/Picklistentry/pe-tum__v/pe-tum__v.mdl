@@ -1,0 +1,6 @@
+Picklistentry pe-tum__v (
+   value('Tumbes'),
+   order(3492),
+   active(true),
+   controlling_entries('pe__v')
+);

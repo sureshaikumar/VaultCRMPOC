@@ -1,0 +1,6 @@
+Message iam_role_created__v (
+   label(),
+   active(true),
+   default_value('I''ve created my IAM Role'),
+   system_managed(false)
+);

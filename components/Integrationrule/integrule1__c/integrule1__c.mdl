@@ -1,0 +1,8 @@
+RECREATE Integrationrule integrule1__c (
+   label('integrule1'),
+   active(true),
+   connection('crmtopromotas'),
+   integration_point(),
+   primary_query_object(),
+   Fieldrule(@Fieldrule/expiration_date__c.mdl)
+);

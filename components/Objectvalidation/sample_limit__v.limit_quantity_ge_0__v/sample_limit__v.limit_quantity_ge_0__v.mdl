@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.limit_quantity_ge_0__v (
+   label('Limit Quantity >= 0 check'),
+   active(true),
+   expression('IsBlank(limit_quantity__v) || (limit_quantity__v >= 0)'),
+   description('Limit Quantity must be greater than or equal to 0.'),
+   error_message('Limit Quantity cannot be less than 0'),
+   error_location('limit_quantity__v')
+);

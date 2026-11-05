@@ -1,0 +1,6 @@
+Picklistentry otp_clm__sys (
+   value('CLM'),
+   order(31),
+   active(true),
+   controlling_entries('olc_consent_type__sys')
+);

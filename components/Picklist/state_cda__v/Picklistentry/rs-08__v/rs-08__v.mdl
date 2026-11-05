@@ -1,0 +1,6 @@
+Picklistentry rs-08__v (
+   value('Mačvanski okrug'),
+   order(3766),
+   active(true),
+   controlling_entries('rs__v')
+);

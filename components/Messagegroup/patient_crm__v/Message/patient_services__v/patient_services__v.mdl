@@ -1,0 +1,6 @@
+Message patient_services__v (
+   label(),
+   active(true),
+   default_value('Patient Services'),
+   system_managed(false)
+);

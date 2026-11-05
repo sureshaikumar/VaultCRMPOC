@@ -1,0 +1,5 @@
+Picklistentry ms_integration__v (
+   value('Microsoft Integration'),
+   order(3),
+   active(false)
+);

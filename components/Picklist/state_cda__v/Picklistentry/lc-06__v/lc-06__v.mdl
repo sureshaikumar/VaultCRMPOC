@@ -1,0 +1,6 @@
+Picklistentry lc-06__v (
+   value('Gros Islet'),
+   order(2543),
+   active(true),
+   controlling_entries('lc__v')
+);

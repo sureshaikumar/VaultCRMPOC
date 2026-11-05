@@ -1,0 +1,4 @@
+Typefield product_bound__v (
+   source('custom'),
+   required(false)
+);

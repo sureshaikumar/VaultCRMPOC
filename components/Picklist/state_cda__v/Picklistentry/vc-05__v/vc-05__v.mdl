@@ -1,0 +1,6 @@
+Picklistentry vc-05__v (
+   value('Saint Patrick'),
+   order(4885),
+   active(true),
+   controlling_entries('vc__v')
+);

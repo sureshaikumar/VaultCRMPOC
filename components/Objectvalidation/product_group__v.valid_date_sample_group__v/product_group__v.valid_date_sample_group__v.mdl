@@ -1,0 +1,25 @@
+RECREATE Objectvalidation product_group__v.valid_date_sample_group__v (
+   label('Valid_Date_Sample_Group'),
+   active(true),
+   expression('not(
+            if(
+                product_catalog__vr.product_type__v = ''sample_product_group__v'',
+                or(
+                    or(
+                        IsBlank(
+                            start_date__v
+                        ),
+                        IsBlank(
+                            end_date__v
+                        )
+                    ),
+                    start_date__v > end_date__v
+                ),
+                false
+            )
+       )'),
+   description('Verifies start and end dates are provided for sample product groups.'),
+   error_message('Valid start date and end date are required.'),
+   error_location('end_date__v',
+      'start_date__v')
+);

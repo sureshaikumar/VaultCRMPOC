@@ -1,0 +1,6 @@
+Message duplicate_user_to_channel__v (
+   label(),
+   active(true),
+   default_value('Duplicate user to channel mapping'),
+   system_managed(false)
+);

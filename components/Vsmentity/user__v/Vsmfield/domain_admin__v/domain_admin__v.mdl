@@ -1,0 +1,11 @@
+Vsmfield domain_admin__v (
+   label('Domain Admin'),
+   active(true),
+   description('A Yes/No checkbox field that grants administrative capabilities spanning across your entire company’s Vault environment (the "Domain"), rather than just a single Vault application'),
+   example_values(),
+   synonyms(),
+   target('domain_admin__sys'),
+   target_label('Domain Admin'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

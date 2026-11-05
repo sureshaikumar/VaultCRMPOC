@@ -1,0 +1,4 @@
+Typefield qr_sign_in_enabled__v (
+   source('custom'),
+   required(false)
+);

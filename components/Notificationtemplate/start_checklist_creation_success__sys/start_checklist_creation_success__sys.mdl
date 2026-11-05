@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate start_checklist_creation_success__sys (
+   label('Start Checklist Success'),
+   active(true),
+   description('Notification template notifying user that the checklist was successfully created.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Checklist on ${target_object_record_name__sys} Successfully Created'),
+   notification('<p>Checklist on ${target_object_record_name__sys} for user ${userDisplayName} successfully created: <a href="${urlStartChecklistSuccess}">${startChecklistSuccessObjectName}</a></p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

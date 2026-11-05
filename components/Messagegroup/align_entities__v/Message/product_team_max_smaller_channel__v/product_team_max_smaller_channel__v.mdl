@@ -1,0 +1,6 @@
+Message product_team_max_smaller_channel__v (
+   label(),
+   active(true),
+   default_value('Product team activity max must be smaller than or equal to channel team activity max.'),
+   system_managed(false)
+);

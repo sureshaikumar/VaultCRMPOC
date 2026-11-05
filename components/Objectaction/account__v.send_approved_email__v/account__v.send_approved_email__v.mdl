@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.send_approved_email__v (
+   label('Send Email'),
+   description('Send Approved Email'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.approvedemail.actions.SendApprovedEmailAction'),
+   active(true),
+   available_all_states(true)
+);

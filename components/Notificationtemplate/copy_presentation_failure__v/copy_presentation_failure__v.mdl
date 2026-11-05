@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate copy_presentation_failure__v (
+   label('Copying Presentation Failure'),
+   active(true),
+   description('Notifies user when the deep copy process encountered an error'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Copy for ${Custom.presentation_name} has error(s)'),
+   notification('Copying related records for ${Custom.presentation_name} has the following error(s): ${Custom.failure_message}'),
+   email_body('Copying related records for ${Custom.presentation_name} has the following error(s): ${Custom.failure_message}'),
+   entity_type('custom'),
+   notification_category('none__sys')
+);

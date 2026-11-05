@@ -1,0 +1,6 @@
+Picklistentry otp_agent_monitored_text__sys (
+   value('Agent Monitored Text'),
+   order(7),
+   active(true),
+   controlling_entries('olc_monitored_text__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry bik (
+   value('Bikol'),
+   order(141),
+   active(true)
+);

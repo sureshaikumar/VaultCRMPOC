@@ -1,0 +1,5 @@
+Picklistentry congress_update__v (
+   value('Congress Update'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry cm-es__v (
+   value('East'),
+   order(686),
+   active(true),
+   controlling_entries('cm__v')
+);

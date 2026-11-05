@@ -1,0 +1,6 @@
+Picklistentry irnav__v (
+   value('Invasive Radiology'),
+   order(829),
+   active(true),
+   controlling_entries('lv__v')
+);

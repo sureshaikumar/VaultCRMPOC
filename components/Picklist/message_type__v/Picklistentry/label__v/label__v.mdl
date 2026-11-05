@@ -1,0 +1,5 @@
+Picklistentry label__v (
+   value('Label'),
+   order(0),
+   active(true)
+);

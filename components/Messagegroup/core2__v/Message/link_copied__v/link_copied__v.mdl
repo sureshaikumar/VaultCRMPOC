@@ -1,0 +1,6 @@
+Message link_copied__v (
+   label(),
+   active(true),
+   default_value('Link Copied'),
+   system_managed(false)
+);

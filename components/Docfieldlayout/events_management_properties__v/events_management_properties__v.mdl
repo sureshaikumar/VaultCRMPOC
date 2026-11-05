@@ -1,0 +1,14 @@
+RECREATE Docfieldlayout events_management_properties__v (
+   label('Events Management Properties'),
+   active(true),
+   icon('UNDEFINED'),
+   order(26),
+   fields('Docfield.events_management_subtype__v',
+      'Docfield.audience__v',
+      'Docfield.event_topic__v',
+      'Docfield.event_type__v',
+      'Docfield.registration_form__v'),
+   show_in_edit_mode(true),
+   allow_field_assignment(true),
+   panel('Documentpanel.doc_info_information__sys')
+);

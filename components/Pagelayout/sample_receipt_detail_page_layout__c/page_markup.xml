@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_receipt__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="transferred_from__v" />
+            <vault:field reference="transferred_date__v" />
+            <vault:field reference="quantity__v" />
+            <vault:field reference="sample__v" />
+            <vault:field reference="comments__v" />
+            <vault:field reference="shipment_id__v" />
+            <vault:field reference="u_m__v" />
+            <vault:field reference="lot__v" />
+            <vault:field reference="confirmed_quantity__v" />
+            <vault:field reference="receipt_comments__v" />
+            <vault:field reference="transferred_from_name__v" />
+            <vault:field reference="ref_transaction_id__v" />
+            <vault:field reference="object_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

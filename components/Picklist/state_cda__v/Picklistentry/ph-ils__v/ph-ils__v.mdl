@@ -1,0 +1,6 @@
+Picklistentry ph-ils__v (
+   value('Ilocos Sur'),
+   order(3569),
+   active(true),
+   controlling_entries('ph__v')
+);

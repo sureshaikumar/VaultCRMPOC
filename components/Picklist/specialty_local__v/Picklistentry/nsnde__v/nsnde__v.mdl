@@ -1,0 +1,6 @@
+Picklistentry nsnde__v (
+   value('Neurosurgery (Surgical Nerve Diseases)'),
+   order(1041),
+   active(true),
+   controlling_entries('dk__v')
+);

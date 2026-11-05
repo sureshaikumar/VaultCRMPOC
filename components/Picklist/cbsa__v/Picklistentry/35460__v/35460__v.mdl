@@ -1,0 +1,5 @@
+Picklistentry 35460__v (
+   value('Newport, TN Micropolitan Statistical Area'),
+   order(300),
+   active(true)
+);

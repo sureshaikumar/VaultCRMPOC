@@ -1,0 +1,12 @@
+Picklistentry dpern__v (
+   value('Dental Prosthetics'),
+   order(363),
+   active(true),
+   controlling_entries('au__v',
+         'ba__v',
+         'jo__v',
+         'pl__v',
+         'ro__v',
+         'si__v',
+         'us__v')
+);

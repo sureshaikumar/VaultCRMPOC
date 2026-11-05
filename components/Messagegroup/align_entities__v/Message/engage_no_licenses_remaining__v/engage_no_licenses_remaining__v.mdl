@@ -1,0 +1,6 @@
+Message engage_no_licenses_remaining__v (
+   label(),
+   active(true),
+   default_value('Failed to update Engage license for Roster Member ${rm}. REASON: No Licenses Remaining.'),
+   system_managed(false)
+);

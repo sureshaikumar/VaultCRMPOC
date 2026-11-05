@@ -1,0 +1,17 @@
+Field section_condition__sys (
+   label('Section Condition'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(4000),
+   help_content('Stores the condition for a section to be available in the checklist.'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

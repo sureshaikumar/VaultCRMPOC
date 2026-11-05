@@ -1,0 +1,6 @@
+Picklistentry cu-01__v (
+   value('Pinar del Río'),
+   order(767),
+   active(true),
+   controlling_entries('cu__v')
+);

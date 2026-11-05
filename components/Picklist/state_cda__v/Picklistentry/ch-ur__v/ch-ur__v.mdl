@@ -1,0 +1,6 @@
+Picklistentry ch-ur__v (
+   value('Uri'),
+   order(648),
+   active(true),
+   controlling_entries('ch__v')
+);

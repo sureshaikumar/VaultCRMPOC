@@ -1,0 +1,6 @@
+Picklistentry so-sd__v (
+   value('Shabeellaha Dhexe'),
+   order(4236),
+   active(true),
+   controlling_entries('so__v')
+);

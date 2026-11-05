@@ -1,0 +1,3 @@
+Typeaction manage_contracts__v (
+   action('em_event_speaker__v.manage_contracts__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lmmba__v (
+   value('Laboratory Medicine / Medical Biochemistry'),
+   order(852),
+   active(true),
+   controlling_entries('qa__v')
+);

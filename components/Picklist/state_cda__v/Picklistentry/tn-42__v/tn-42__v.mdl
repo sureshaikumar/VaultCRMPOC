@@ -1,0 +1,6 @@
+Picklistentry tn-42__v (
+   value('Kasserine'),
+   order(4442),
+   active(true),
+   controlling_entries('tn__v')
+);

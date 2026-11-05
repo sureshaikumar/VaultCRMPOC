@@ -1,0 +1,5 @@
+Picklistentry message_template__v (
+   value('Message Template'),
+   order(9),
+   active(true)
+);

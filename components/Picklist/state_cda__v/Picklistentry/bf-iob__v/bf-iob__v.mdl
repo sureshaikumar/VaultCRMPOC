@@ -1,0 +1,6 @@
+Picklistentry bf-iob__v (
+   value('Ioba'),
+   order(340),
+   active(true),
+   controlling_entries('bf__v')
+);

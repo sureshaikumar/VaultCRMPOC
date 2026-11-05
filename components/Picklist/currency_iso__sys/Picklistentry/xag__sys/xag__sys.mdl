@@ -1,0 +1,5 @@
+Picklistentry xag__sys (
+   value('XAG'),
+   order(204),
+   active(true)
+);

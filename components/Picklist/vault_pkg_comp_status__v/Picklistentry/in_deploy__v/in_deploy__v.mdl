@@ -1,0 +1,5 @@
+Picklistentry in_deploy__v (
+   value('In Deployment'),
+   order(3),
+   active(true)
+);

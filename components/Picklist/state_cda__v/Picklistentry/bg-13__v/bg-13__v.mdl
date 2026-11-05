@@ -1,0 +1,6 @@
+Picklistentry bg-13__v (
+   value('Pazardzhik'),
+   order(385),
+   active(true),
+   controlling_entries('bg__v')
+);

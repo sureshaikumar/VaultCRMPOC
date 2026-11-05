@@ -1,0 +1,5 @@
+Picklistentry asia_tomsk__sys (
+   value('(GMT+07:00) Krasnoyarsk Time (Asia/Tomsk)'),
+   order(252),
+   active(true)
+);

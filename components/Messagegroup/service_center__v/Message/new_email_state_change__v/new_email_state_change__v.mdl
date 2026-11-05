@@ -1,0 +1,6 @@
+Message new_email_state_change__v (
+   label(),
+   active(true),
+   default_value('A new email was received for this case. Case state changed to Open.'),
+   system_managed(false)
+);

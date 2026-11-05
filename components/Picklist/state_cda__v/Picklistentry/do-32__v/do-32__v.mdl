@@ -1,0 +1,6 @@
+Picklistentry do-32__v (
+   value('Santo Domingo'),
+   order(971),
+   active(true),
+   controlling_entries('do__v')
+);

@@ -1,0 +1,17 @@
+Field approver_ids__v (
+   label('Approver IDs'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Stores the IDs of all approvers returned by a Salesforce Approval Flow.'),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

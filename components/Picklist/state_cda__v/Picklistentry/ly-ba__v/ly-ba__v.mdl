@@ -1,0 +1,6 @@
+Picklistentry ly-ba__v (
+   value('Banghāzī'),
+   order(2744),
+   active(true),
+   controlling_entries('ly__v')
+);

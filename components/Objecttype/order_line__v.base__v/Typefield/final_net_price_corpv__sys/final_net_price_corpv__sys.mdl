@@ -1,0 +1,4 @@
+Typefield final_net_price_corpv__sys (
+   source('standard'),
+   required(false)
+);

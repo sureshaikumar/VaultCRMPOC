@@ -1,0 +1,13 @@
+RECREATE Picklist prior_authorization_status__v (
+   label('Prior Authorization Status'),
+   active(true),
+   Picklistentry(@Picklistentry/queued__v.mdl),
+   Picklistentry(@Picklistentry/awaiting_information__v.mdl),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   Picklistentry(@Picklistentry/error__v.mdl),
+   Picklistentry(@Picklistentry/partial__v.mdl),
+   Picklistentry(@Picklistentry/denied__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

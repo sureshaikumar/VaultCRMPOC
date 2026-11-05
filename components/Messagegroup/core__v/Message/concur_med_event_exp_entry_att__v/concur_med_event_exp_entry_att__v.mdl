@@ -1,0 +1,6 @@
+Message concur_med_event_exp_entry_att__v (
+   label(),
+   active(true),
+   default_value('Medical Event to Expense Entry Attendee'),
+   system_managed(false)
+);

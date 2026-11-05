@@ -1,0 +1,6 @@
+Picklistentry ir-30__v (
+   value('Alborz'),
+   order(2082),
+   active(true),
+   controlling_entries('ir__v')
+);

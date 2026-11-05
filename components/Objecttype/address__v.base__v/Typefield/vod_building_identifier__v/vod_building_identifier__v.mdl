@@ -1,0 +1,4 @@
+Typefield vod_building_identifier__v (
+   source('standard'),
+   required(false)
+);

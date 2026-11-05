@@ -1,0 +1,6 @@
+Picklistentry cz-326__v (
+   value('Rokycany'),
+   order(841),
+   active(true),
+   controlling_entries('cz__v')
+);

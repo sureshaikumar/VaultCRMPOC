@@ -1,0 +1,6 @@
+Message field_mapping_roster_member_align_info__v (
+   label(),
+   active(true),
+   default_value('Mappings listed in this section apply to Roster Members that are mastered by Align. Mappings for CRM-mastered Roster Members are managed in the "CRM Objects" tab. Field mappings with a ''CRM Managed?'' value of ''TRUE'' will be populated on initial record creation only.'),
+   system_managed(false)
+);

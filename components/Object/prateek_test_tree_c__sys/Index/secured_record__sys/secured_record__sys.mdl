@@ -1,0 +1,5 @@
+Index secured_record__sys (
+   description(),
+   fields('secured_record__sys'),
+   label('Secured Record')
+);

@@ -1,0 +1,4 @@
+Typefield event_speaker_tier__v (
+   source('standard'),
+   required(false)
+);

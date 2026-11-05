@@ -1,0 +1,4 @@
+Typefield collect_patient_journey_details__v (
+   source('standard'),
+   required(false)
+);

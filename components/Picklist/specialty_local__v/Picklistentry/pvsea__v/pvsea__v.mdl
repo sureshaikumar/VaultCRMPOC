@@ -1,0 +1,7 @@
+Picklistentry pvsea__v (
+   value('Peripheral Vascular Surgery'),
+   order(1500),
+   active(true),
+   controlling_entries('ma__v',
+         'tn__v')
+);

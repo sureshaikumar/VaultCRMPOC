@@ -1,0 +1,6 @@
+Picklistentry nl-ge__v (
+   value('Gelderland'),
+   order(3382),
+   active(true),
+   controlling_entries('nl__v')
+);

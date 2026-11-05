@@ -1,0 +1,6 @@
+Message undefined__v (
+   label(),
+   active(true),
+   default_value('(undefined)'),
+   system_managed(false)
+);

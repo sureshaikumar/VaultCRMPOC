@@ -1,0 +1,11 @@
+RECREATE Picklist data_change_request_result__v (
+   label('Result'),
+   active(true),
+   Picklistentry(@Picklistentry/change_accepted__v.mdl),
+   Picklistentry(@Picklistentry/change_rejected__v.mdl),
+   Picklistentry(@Picklistentry/change_modified__v.mdl),
+   Picklistentry(@Picklistentry/change_alreadyapplied__v.mdl),
+   Picklistentry(@Picklistentry/change_partial__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

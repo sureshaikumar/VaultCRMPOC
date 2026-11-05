@@ -1,0 +1,18 @@
+Field exception_severity__v (
+   label('Exception Severity'),
+   type('Picklist'),
+   active(true),
+   description('This field controls how the error will be handled by the online application'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.inventory_order_line_exception_severity__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

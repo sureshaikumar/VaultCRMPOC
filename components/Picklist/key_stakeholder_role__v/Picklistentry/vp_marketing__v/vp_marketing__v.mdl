@@ -1,0 +1,5 @@
+Picklistentry vp_marketing__v (
+   value('VP Marketing'),
+   order(7),
+   active(true)
+);

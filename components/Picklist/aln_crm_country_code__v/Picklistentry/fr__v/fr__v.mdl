@@ -1,0 +1,5 @@
+Picklistentry fr__v (
+   value('France'),
+   order(74),
+   active(true)
+);

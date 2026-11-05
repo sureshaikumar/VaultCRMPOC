@@ -1,0 +1,4 @@
+Typefield user_attendee_type_code__v (
+   source('standard'),
+   required(false)
+);

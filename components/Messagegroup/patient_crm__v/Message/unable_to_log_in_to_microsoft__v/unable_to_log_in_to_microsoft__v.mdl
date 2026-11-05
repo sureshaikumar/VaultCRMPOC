@@ -1,0 +1,6 @@
+Message unable_to_log_in_to_microsoft__v (
+   label(),
+   active(true),
+   default_value('Unable to log in to Microsoft.'),
+   system_managed(false)
+);

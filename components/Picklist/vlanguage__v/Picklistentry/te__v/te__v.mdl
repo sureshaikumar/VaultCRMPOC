@@ -1,0 +1,5 @@
+Picklistentry te__v (
+   value('Telugu'),
+   order(314),
+   active(false)
+);

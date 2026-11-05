@@ -1,0 +1,19 @@
+Field user_profile__v (
+   label('User Profile'),
+   type('String'),
+   active(true),
+   description('Profile name of the user who last modified this record at the time that the monitoring rules evaluated this text'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

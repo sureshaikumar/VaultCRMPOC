@@ -1,0 +1,6 @@
+Picklistentry bw-jw__v (
+   value('Jwaneng'),
+   order(535),
+   active(true),
+   controlling_entries('bw__v')
+);

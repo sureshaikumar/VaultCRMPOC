@@ -1,0 +1,20 @@
+Field order_disclaimer__v (
+   label('ORDER DISCLAIMER'),
+   type('String'),
+   active(true),
+   description('It is used to be displayed on an order signature page, and to be saved to the order once the order is signed. Set it to a Veeva Message, i.e. DISCLAIMER;;ORDER_MANAGEMENT, then define the disclaimer in that Veeva Message.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(237),
+   default_value('"DISCLAIMER;;ORDER_MANAGEMENT"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

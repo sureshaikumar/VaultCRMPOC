@@ -1,0 +1,6 @@
+Picklistentry is-eyf__v (
+   value('Eyjafjarðarsveit'),
+   order(2101),
+   active(true),
+   controlling_entries('is__v')
+);

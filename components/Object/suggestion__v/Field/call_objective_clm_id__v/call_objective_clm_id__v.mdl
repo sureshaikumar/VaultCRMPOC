@@ -1,0 +1,19 @@
+Field call_objective_clm_id__v (
+   label('Call Objective CLM ID'),
+   type('String'),
+   active(true),
+   description('Controls which CLM presentation will be pulled through to the Call Objective'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

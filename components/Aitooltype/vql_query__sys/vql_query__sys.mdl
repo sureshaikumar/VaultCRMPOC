@@ -1,0 +1,9 @@
+RECREATE Aitooltype vql_query__sys (
+   label('VQL Query'),
+   active(true),
+   admin_configurable(true),
+   configuration_code('Aitooltypeconfigurationcode.com.veeva.vault.system.ai.VqlQueryConfigurationToolType'),
+   configuration_layout(),
+   runtime_code('Aitooltyperuntimecode.com.veeva.vault.system.ai.VqlQueryRuntimeToolType'),
+   support_custom_action(true)
+);

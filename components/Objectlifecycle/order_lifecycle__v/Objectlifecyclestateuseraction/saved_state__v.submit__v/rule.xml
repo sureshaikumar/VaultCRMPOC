@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="Objectaction.order__v.submit__v">
+            <lcActionLabelXmlIdentifier>Submit</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

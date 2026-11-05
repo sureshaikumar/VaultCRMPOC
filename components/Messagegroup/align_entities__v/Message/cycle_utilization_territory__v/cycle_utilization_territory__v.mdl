@@ -1,0 +1,6 @@
+Message cycle_utilization_territory__v (
+   label(),
+   active(true),
+   default_value('TERRITORY'),
+   system_managed(false)
+);

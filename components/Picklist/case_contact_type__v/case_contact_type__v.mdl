@@ -1,0 +1,10 @@
+RECREATE Picklist case_contact_type__v (
+   label('Case Contact Type'),
+   active(true),
+   Picklistentry(@Picklistentry/account__v.mdl),
+   Picklistentry(@Picklistentry/associate__v.mdl),
+   Picklistentry(@Picklistentry/user__v.mdl),
+   Picklistentry(@Picklistentry/patient__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

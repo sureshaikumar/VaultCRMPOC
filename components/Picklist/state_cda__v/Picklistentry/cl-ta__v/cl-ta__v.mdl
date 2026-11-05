@@ -1,0 +1,6 @@
+Picklistentry cl-ta__v (
+   value('Tarapacá'),
+   order(681),
+   active(true),
+   controlling_entries('cl__v')
+);

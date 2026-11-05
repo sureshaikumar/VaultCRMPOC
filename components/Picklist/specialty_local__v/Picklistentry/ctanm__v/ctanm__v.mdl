@@ -1,0 +1,6 @@
+Picklistentry ctanm__v (
+   value('Computed Tomographic and Nuclear Magnetic Resonance Diagnostics'),
+   order(324),
+   active(true),
+   controlling_entries('am__v')
+);

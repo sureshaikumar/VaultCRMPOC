@@ -1,0 +1,5 @@
+Picklistentry ulcers__v (
+   value('Ulcers'),
+   order(55),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_fort_nelson__sys (
+   value('(GMT-07:00) Mountain Standard Time (America/Fort_Nelson)'),
+   order(24),
+   active(true)
+);

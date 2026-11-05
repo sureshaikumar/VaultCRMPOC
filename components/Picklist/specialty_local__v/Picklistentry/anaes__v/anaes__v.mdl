@@ -1,0 +1,7 @@
+Picklistentry anaes__v (
+   value('Anaesthesia'),
+   order(51),
+   active(true),
+   controlling_entries('ng__v',
+         'nz__v')
+);

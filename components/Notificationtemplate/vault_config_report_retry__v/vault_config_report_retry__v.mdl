@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_config_report_retry__v (
+   label('Configuration Report Retry'),
+   active(true),
+   description('Configuration Report Job Notification retry template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Vault Configuration Report is in the queue'),
+   notification('<p>Your Vault Configuration Report is in the queue</p></br><p>Component updates are still being processed on this Vault and your configuration report request is in the queue. Once all component updates have been processed, the configuration report will be generated and another notification will be sent.</p></br><p>Details: </p><ul><li>Include Vault Settings: ${includeVaultSettings} </li><li>Include Document & Binder Templates: ${includeDocumentBinderTemplates} </li><li>Include Inactive Components: ${includeInactiveComponents} </li><li>Suppress Empty Results: ${suppressEmptyResults} </li><li>Include Components Modified Since: ${includeComponentsModifiedSince} </li><li>Output Format: ${outputFormat} </li></ul>'),
+   email_body('<p>Your Vault Configuration Report is in the queue</p></br><p>Component updates are still being processed on this Vault and your configuration report request is in the queue. Once all component updates have been processed, the configuration report will be generated and another notification will be sent.</p></br><p>Details: </p><ul><li>Include Vault Settings: ${includeVaultSettings} </li><li>Include Document & Binder Templates: ${includeDocumentBinderTemplates} </li><li>Include Inactive Components: ${includeInactiveComponents} </li><li>Suppress Empty Results: ${suppressEmptyResults} </li><li>Include Components Modified Since: ${includeComponentsModifiedSince} </li><li>Output Format: ${outputFormat} </li></ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

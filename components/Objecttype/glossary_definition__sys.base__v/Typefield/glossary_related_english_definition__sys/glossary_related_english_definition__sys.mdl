@@ -1,0 +1,4 @@
+Typefield glossary_related_english_definition__sys (
+   source('standard'),
+   required(false)
+);

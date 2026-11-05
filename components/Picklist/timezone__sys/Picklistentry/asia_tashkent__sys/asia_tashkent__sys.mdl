@@ -1,0 +1,5 @@
+Picklistentry asia_tashkent__sys (
+   value('(GMT+05:00) Uzbekistan Time (Asia/Tashkent)'),
+   order(229),
+   active(true)
+);

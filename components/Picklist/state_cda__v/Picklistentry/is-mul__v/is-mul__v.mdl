@@ -1,0 +1,6 @@
+Picklistentry is-mul__v (
+   value('Múlaþing'),
+   order(2124),
+   active(true),
+   controlling_entries('is__v')
+);

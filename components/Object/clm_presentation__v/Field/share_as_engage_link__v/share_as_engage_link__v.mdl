@@ -1,0 +1,18 @@
+Field share_as_engage_link__v (
+   label('Share as Engage Link'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Denotes if content can be shared as Engage Link'),
+   list_column(false),
+   order(36),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

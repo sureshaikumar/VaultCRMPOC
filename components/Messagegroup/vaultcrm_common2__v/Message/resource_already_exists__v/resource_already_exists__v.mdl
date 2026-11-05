@@ -1,0 +1,6 @@
+Message resource_already_exists__v (
+   label(),
+   active(true),
+   default_value('Another resource already exists with [${identifier}=${duplicate_value}]'),
+   system_managed(false)
+);

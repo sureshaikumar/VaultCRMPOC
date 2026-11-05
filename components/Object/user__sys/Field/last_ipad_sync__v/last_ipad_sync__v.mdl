@@ -1,0 +1,17 @@
+Field last_ipad_sync__v (
+   label('Last iPad Sync'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The Date/Time of the last successful iPad Sync made by each user. This field is useful for building reports to track usage of the mobile products.'),
+   list_column(false),
+   order(79),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

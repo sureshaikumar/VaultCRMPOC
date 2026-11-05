@@ -1,0 +1,6 @@
+Message veeva_data_cloud__v (
+   label(),
+   active(true),
+   default_value('Veeva Data Cloud'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+Objectlayout call2_medical_inquiry_fulfillment__c (
+   label('Call Medical Inquiry Fulfillment'),
+   active(true),
+   pagelayouts('Pagelayout.medical_inquiry_fulfillment_detail_page1__c'),
+   object('Object.call2__v'),
+   objecttype('Objecttype.call2__v.medical_inquiry_fulfillment__v'),
+   record_creation_layout()
+);

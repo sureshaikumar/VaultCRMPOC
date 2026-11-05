@@ -1,0 +1,5 @@
+Picklistentry vef__sys (
+   value('VEF'),
+   order(198),
+   active(true)
+);

@@ -1,0 +1,9 @@
+Typefield monitored_text_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.monitored_text_status__v.closed__v',
+         'Picklist.monitored_text_status__v.further_review_needed__v',
+         'Picklist.monitored_text_status__v.in_review__v',
+         'Picklist.monitored_text_status__v.open__v'),
+   default_value('Picklist.monitored_text_status__v.open__v')
+);

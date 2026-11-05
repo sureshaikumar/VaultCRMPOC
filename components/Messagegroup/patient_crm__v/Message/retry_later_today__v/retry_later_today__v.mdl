@@ -1,0 +1,6 @@
+Message retry_later_today__v (
+   label(),
+   active(true),
+   default_value('Retry Later Today'),
+   system_managed(false)
+);

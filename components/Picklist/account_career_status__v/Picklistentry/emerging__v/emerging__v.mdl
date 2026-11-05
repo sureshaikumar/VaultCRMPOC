@@ -1,0 +1,5 @@
+Picklistentry emerging__v (
+   value('Emerging'),
+   order(1),
+   active(true)
+);

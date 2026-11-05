@@ -1,0 +1,6 @@
+Message add_documents__v (
+   label(),
+   active(true),
+   default_value('Add Documents'),
+   system_managed(false)
+);

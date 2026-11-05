@@ -1,0 +1,5 @@
+Picklistentry pf__v (
+   value('French Polynesia'),
+   order(78),
+   active(true)
+);

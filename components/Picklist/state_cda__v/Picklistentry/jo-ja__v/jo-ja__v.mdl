@@ -1,0 +1,6 @@
+Picklistentry jo-ja__v (
+   value('Jarash'),
+   order(2302),
+   active(true),
+   controlling_entries('jo__v')
+);

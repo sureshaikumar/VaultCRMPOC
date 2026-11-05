@@ -1,0 +1,6 @@
+Picklistentry cz-204__v (
+   value('Kolín'),
+   order(818),
+   active(true),
+   controlling_entries('cz__v')
+);

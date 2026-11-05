@@ -1,0 +1,6 @@
+Picklistentry tt-ctt__v (
+   value('Couva-Tabaquite-Talparo'),
+   order(4542),
+   active(true),
+   controlling_entries('tt__v')
+);

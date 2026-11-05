@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The full display name of the country (e.g., \''United States\'', \''Germany\''). Use this field when searching for or displaying countries by their complete human-readable name.'),
+   example_values(),
+   synonyms('country name',
+         'full name',
+         'label'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

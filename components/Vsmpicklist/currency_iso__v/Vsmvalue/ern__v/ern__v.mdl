@@ -1,0 +1,10 @@
+Vsmvalue ern__v (
+   label('ERN'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Eritrea.'),
+   synonyms('Eritrean Nakfa',
+         'Eritrea Nakfa',
+         'Nakfa'),
+   target('ern__sys'),
+   target_label('ERN')
+);

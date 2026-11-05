@@ -1,0 +1,4 @@
+Typefield group_discount__v (
+   source('standard'),
+   required(false)
+);

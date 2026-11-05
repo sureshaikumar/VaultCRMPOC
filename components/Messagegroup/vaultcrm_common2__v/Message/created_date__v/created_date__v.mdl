@@ -1,0 +1,6 @@
+Message created_date__v (
+   label(),
+   active(true),
+   default_value('Created Date'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message footprint_startd_later_than_terr_footp__v (
+   label(),
+   active(true),
+   default_value('Footprint start date cannot be later than the start date for its Territory Footprint records'),
+   system_managed(false)
+);

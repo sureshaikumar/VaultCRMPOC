@@ -1,0 +1,10 @@
+RECREATE Jobmetadata speaker_ytd_cap_reset_job__v (
+   label('EM_Speaker YTD Cap Reset'),
+   active(true),
+   chunk_size(1),
+   description('This job is responsible for recalculating Speaker caps.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.SpeakerYtdCalculationJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

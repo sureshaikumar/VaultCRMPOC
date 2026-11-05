@@ -1,0 +1,6 @@
+Picklistentry ma-sal__v (
+   value('Salé'),
+   order(2832),
+   active(true),
+   controlling_entries('ma__v')
+);

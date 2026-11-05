@@ -1,0 +1,6 @@
+Picklistentry no-15__v (
+   value('Møre og Romsdal'),
+   order(3394),
+   active(true),
+   controlling_entries('no__v')
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist dynamic_attribute_configuration_status__v (
+   label('Dynamic Attribute Configuration Status'),
+   active(true),
+   Picklistentry(@Picklistentry/inactive__v.mdl),
+   Picklistentry(@Picklistentry/active__v.mdl),
+   Picklistentry(@Picklistentry/staged__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

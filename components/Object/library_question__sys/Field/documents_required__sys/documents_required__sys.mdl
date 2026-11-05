@@ -1,0 +1,19 @@
+Field documents_required__sys (
+   label('Documents Required'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Specify if a single document or multiple documents must be provided with a response in a checklist.  If a document does not need to be provided, select the Not Required option.'),
+   list_column(false),
+   order(23),
+   multi_value(false),
+   picklist('Picklist.documents_required__sys'),
+   default_value('{not_required__sys}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

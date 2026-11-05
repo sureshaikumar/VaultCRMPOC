@@ -1,0 +1,19 @@
+Picklistentry icnat__v (
+   value('Interventional Cardiology'),
+   order(822),
+   active(true),
+   controlling_entries('am__v',
+         'bh__v',
+         'cz__v',
+         'fr__v',
+         'ge__v',
+         'in__v',
+         'ke__v',
+         'mc__v',
+         'om__v',
+         'ph__v',
+         'pk__v',
+         'pt__v',
+         'ua__v',
+         'us__v')
+);

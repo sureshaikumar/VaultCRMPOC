@@ -1,0 +1,6 @@
+Message vault_compass_connection_management__v (
+   label(),
+   active(true),
+   default_value('Vault and Compass Connection Management'),
+   system_managed(false)
+);

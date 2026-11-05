@@ -1,0 +1,9 @@
+Typefield device_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.contract_line_device_type__v.data_load__v',
+         'Picklist.contract_line_device_type__v.online__v',
+         'Picklist.contract_line_device_type__v.tablet__v',
+         'Picklist.contract_line_device_type__v.winmodern__v',
+         'Picklist.contract_line_device_type__v.ipad__v')
+);

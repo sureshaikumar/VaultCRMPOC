@@ -1,0 +1,5 @@
+Picklistentry cuc__sys (
+   value('CUC'),
+   order(47),
+   active(true)
+);

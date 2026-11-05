@@ -1,0 +1,19 @@
+Field challenge_reasons_keep_account__v (
+   label('Challenge Reasons (Keep Account)'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The reasons available for selection when the user makes a "Keep Account" challenge.'),
+   list_column(false),
+   order(20),
+   multi_value(true),
+   picklist('Picklist.aln_challenge_reason__v'),
+   default_value('{good_access__c},{high_priority__c},{other__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

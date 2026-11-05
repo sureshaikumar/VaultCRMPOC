@@ -1,0 +1,6 @@
+Picklistentry namde__v (
+   value('Nervous and Mental Diseases'),
+   order(1002),
+   active(true),
+   controlling_entries('nl__v')
+);

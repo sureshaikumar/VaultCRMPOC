@@ -1,0 +1,5 @@
+Picklistentry adlg__v (
+   value('Legal Medicine'),
+   order(39),
+   active(true)
+);

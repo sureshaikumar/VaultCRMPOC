@@ -1,0 +1,6 @@
+Index application_role_status__c (
+   description(),
+   fields('application_role__sys',
+         'status__v'),
+   label('application_role_status__c')
+);

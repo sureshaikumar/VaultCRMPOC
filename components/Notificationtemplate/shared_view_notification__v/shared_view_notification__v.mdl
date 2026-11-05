@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate shared_view_notification__v (
+   label('Shared View Notification'),
+   active(true),
+   description('Notifies users when a view has been shared with them'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('A View Has Been Shared With You: ${Custom.viewName}'),
+   notification('<b>${Custom.senderName}</b> has shared the following view with you in the <b>${Custom.vaultName}</b> Vault: <a href="${Custom.viewUrl}">${Custom.viewName}</a>'),
+   email_body('<b>${Custom.senderName}</b> has shared the following view with you in the <b>${Custom.vaultName}</b> Vault: <a href="${Custom.viewUrl}">${Custom.viewName}</a>'),
+   entity_type('document'),
+   notification_category('shared_views__sys')
+);

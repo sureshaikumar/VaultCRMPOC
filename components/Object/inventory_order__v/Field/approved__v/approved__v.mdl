@@ -1,0 +1,18 @@
+Field approved__v (
+   label('Approved'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether or not this order has been approved.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

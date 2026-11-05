@@ -1,0 +1,14 @@
+Vsmfield glossary_event_search_type__v (
+   label('Search Type'),
+   active(true),
+   description('Picklist indicating the type of search that triggered this glossary event, such as searching the Vault Glossary Definitions or searching an external site. Use this to understand where users might be searching for terms that are not contained in the Glossary Definitions within Vault.'),
+   example_values(),
+   synonyms('search type',
+         'lookup type',
+         'how searched',
+         'search method'),
+   target('glossary_event_search_type__sys'),
+   target_label('Search Type'),
+   vsm_picklist('Vsmpicklist.glossary_event_search_type__v'),
+   vsm_picklist_local()
+);

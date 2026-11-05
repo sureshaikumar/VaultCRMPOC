@@ -1,0 +1,13 @@
+Vsmfield description__v (
+   label('Description'),
+   active(true),
+   description('Free-text description providing detailed information about the outbound package, its purpose, and contents. Use this field to capture context that goes beyond the summary, such as specific components included or deployment notes.'),
+   example_values(),
+   synonyms('details',
+         'notes',
+         'package details'),
+   target('description__v'),
+   target_label('Description'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

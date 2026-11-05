@@ -1,0 +1,6 @@
+Message error_adding_targets_description__v (
+   label(),
+   active(true),
+   default_value('Please select at least one target to add'),
+   system_managed(false)
+);

@@ -1,0 +1,23 @@
+Field align_mode__v (
+   label('Align Mode'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

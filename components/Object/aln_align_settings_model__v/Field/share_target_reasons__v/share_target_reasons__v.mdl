@@ -1,0 +1,18 @@
+Field share_target_reasons__v (
+   label('Share Target Reasons'),
+   type('Picklist'),
+   active(true),
+   description('The reasons available for selection when the user makes a Share Target With request'),
+   required(false),
+   unique(false),
+   help_content('The reasons available for selection when the user makes a Share Target With request'),
+   list_column(false),
+   order(38),
+   multi_value(true),
+   picklist('Picklist.aln_challenge_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

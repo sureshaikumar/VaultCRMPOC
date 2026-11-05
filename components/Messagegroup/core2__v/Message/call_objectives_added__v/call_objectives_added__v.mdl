@@ -1,0 +1,6 @@
+Message call_objectives_added__v (
+   label(),
+   active(true),
+   default_value('Call objectives added'),
+   system_managed(false)
+);

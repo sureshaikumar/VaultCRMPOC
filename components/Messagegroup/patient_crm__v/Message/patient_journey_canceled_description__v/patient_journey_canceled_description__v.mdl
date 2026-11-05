@@ -1,0 +1,6 @@
+Message patient_journey_canceled_description__v (
+   label(),
+   active(true),
+   default_value('${patient_full_name}''s ${patient_journey_name} is Canceled.'),
+   system_managed(false)
+);

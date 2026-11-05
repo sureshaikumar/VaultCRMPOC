@@ -1,0 +1,14 @@
+RECREATE Picklist step_log_event__v (
+   label('Step Log Event'),
+   active(true),
+   Picklistentry(@Picklistentry/send__v.mdl),
+   Picklistentry(@Picklistentry/open__v.mdl),
+   Picklistentry(@Picklistentry/click__v.mdl),
+   Picklistentry(@Picklistentry/spam__v.mdl),
+   Picklistentry(@Picklistentry/unsubscribe__v.mdl),
+   Picklistentry(@Picklistentry/deliver__v.mdl),
+   Picklistentry(@Picklistentry/bounce__v.mdl),
+   Picklistentry(@Picklistentry/drop__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

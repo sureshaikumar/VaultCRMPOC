@@ -1,0 +1,20 @@
+Field unresolved_phone__v (
+   label('Phone'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Placeholder for an HCP phone number of an HCP that does not exist as a Person Account. Refer to help docs for more information.'),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

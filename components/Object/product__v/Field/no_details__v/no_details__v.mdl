@@ -1,0 +1,18 @@
+Field no_details__v (
+   label('No Details'),
+   type('Boolean'),
+   active(true),
+   description('For Detail-type products, checking this box prevents the product from showing up in the "Detailing Priority" section of a call report. However the product will still be displayed in My Setup and child products will still be selectable as samples or promot'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(29),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

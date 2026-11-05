@@ -1,0 +1,6 @@
+Message project_terr_import_district_confirm__v (
+   label(),
+   active(true),
+   default_value('Import entire {0}?'),
+   system_managed(false)
+);

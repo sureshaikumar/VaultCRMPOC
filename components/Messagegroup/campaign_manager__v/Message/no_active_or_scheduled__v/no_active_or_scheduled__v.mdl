@@ -1,0 +1,6 @@
+Message no_active_or_scheduled__v (
+   label(),
+   active(true),
+   default_value('No Active or Scheduled'),
+   system_managed(false)
+);

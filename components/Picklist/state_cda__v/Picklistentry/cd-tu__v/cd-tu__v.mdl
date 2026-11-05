@@ -1,0 +1,6 @@
+Picklistentry cd-tu__v (
+   value('Tshuapa'),
+   order(597),
+   active(true),
+   controlling_entries('cd__v')
+);

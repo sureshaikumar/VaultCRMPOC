@@ -1,0 +1,19 @@
+Field lot__v (
+   label('Lot Number'),
+   type('String'),
+   active(true),
+   description('Lot Number for the sample line item on the Call record.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

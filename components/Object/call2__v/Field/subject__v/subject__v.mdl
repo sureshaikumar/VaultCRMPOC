@@ -1,0 +1,19 @@
+Field subject__v (
+   label('Subject'),
+   type('String'),
+   active(true),
+   description('Subject of the call. This is purely an optional text field with no special processing.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(151),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

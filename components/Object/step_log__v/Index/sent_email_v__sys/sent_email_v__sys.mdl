@@ -1,0 +1,5 @@
+Index sent_email_v__sys (
+   description(),
+   fields('sent_email__v'),
+   label('Sent Email')
+);

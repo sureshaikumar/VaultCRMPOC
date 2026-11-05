@@ -1,0 +1,19 @@
+Field state_cda__v (
+   label('State'),
+   type('Picklist'),
+   active(true),
+   description('Name of state, province, or regional area.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(107),
+   multi_value(false),
+   picklist('Picklist.state_cda__v'),
+   controlling_picklist('country_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

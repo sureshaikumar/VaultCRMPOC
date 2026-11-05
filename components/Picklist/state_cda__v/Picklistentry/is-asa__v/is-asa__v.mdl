@@ -1,0 +1,6 @@
+Picklistentry is-asa__v (
+   value('Ásahreppur'),
+   order(2094),
+   active(true),
+   controlling_entries('is__v')
+);

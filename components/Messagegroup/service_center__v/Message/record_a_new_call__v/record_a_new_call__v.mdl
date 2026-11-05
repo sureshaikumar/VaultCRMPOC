@@ -1,0 +1,6 @@
+Message record_a_new_call__v (
+   label(),
+   active(true),
+   default_value('Record a new call'),
+   system_managed(false)
+);

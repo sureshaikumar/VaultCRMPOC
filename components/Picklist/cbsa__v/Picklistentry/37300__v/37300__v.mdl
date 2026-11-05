@@ -1,0 +1,5 @@
+Picklistentry 37300__v (
+   value('Palestine, TX Micropolitan Statistical Area'),
+   order(516),
+   active(true)
+);

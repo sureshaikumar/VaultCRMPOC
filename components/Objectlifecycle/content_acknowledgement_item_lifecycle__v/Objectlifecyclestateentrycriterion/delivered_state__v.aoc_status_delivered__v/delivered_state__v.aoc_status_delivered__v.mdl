@@ -1,0 +1,4 @@
+Objectlifecyclestateentrycriterion delivered_state__v.aoc_status_delivered__v (
+   rule(@rule.xml),
+   order(1000)
+);

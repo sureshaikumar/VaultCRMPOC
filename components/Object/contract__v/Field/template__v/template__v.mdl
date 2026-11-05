@@ -1,0 +1,18 @@
+Field template__v (
+   label('Template'),
+   type('Boolean'),
+   active(true),
+   description('Flags the Contract record as a Template. Records flagged as Templates do not appear in Order Management and Inventory Monitoring.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(32),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

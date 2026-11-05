@@ -1,0 +1,6 @@
+Message edit_query_subheader__v (
+   label(),
+   active(true),
+   default_value('Edit your advanced query'),
+   system_managed(false)
+);

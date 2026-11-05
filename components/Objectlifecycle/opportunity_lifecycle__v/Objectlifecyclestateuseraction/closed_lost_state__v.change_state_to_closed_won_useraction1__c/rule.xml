@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="LIFECYCLE_STATE_CHANGE_ACTION" transitionState="Objectlifecyclestate.closed_won_state__v" />
+    </actions>
+</rule>

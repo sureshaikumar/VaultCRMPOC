@@ -1,0 +1,6 @@
+Picklistentry pmnrh__v (
+   value('Physical Medicine & Rehabilitation'),
+   order(1539),
+   active(true),
+   controlling_entries('in__v')
+);

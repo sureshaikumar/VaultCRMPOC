@@ -1,0 +1,22 @@
+RECREATE Savedview test_objects_view__c (
+   label('Test Objects view'),
+   description(),
+   tab('Tab.ba_test_object__v'),
+   created_by('vijayasanthi.ramamirtham@sb-accenture.com'),
+   icon(),
+   search_criteria('{"doFacetSearch":"false","doAccurateCount":"false","maxResults":"25","runSmartFilter":"false"}'),
+   view_layout(),
+   mandatory(true),
+   view_layout_type('REPORTING'),
+   search_criteria_list(),
+   collection(),
+   report_layouts(),
+   vql_search_criteria('status__v!='''''),
+   managed(true),
+   owner('vijayasanthi.ramamirtham@sb-accenture.com'),
+   status('active__v'),
+   grid_id(),
+   grid_location(),
+   object_public_key(),
+   view_type('tab')
+);

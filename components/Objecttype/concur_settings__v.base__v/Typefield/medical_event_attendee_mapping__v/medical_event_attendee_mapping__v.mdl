@@ -1,0 +1,4 @@
+Typefield medical_event_attendee_mapping__v (
+   source('standard'),
+   required(false)
+);

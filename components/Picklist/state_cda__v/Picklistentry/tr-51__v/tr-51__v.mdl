@@ -1,0 +1,6 @@
+Picklistentry tr-51__v (
+   value('Niğde'),
+   order(4509),
+   active(true),
+   controlling_entries('tr__v')
+);

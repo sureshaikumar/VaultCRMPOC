@@ -1,0 +1,5 @@
+Picklistentry ichl__v (
+   value('IHS Clinic'),
+   order(117),
+   active(true)
+);

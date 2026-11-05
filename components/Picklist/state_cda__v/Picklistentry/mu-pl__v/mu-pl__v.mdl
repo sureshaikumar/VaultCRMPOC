@@ -1,0 +1,6 @@
+Picklistentry mu-pl__v (
+   value('Port Louis'),
+   order(3182),
+   active(true),
+   controlling_entries('mu__v')
+);

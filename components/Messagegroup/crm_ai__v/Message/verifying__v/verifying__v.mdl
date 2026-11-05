@@ -1,0 +1,6 @@
+Message verifying__v (
+   label(),
+   active(true),
+   default_value('Verifying'),
+   system_managed(false)
+);

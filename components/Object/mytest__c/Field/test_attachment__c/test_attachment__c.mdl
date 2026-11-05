@@ -1,0 +1,15 @@
+Field test_attachment__c (
+   label('test attachment'),
+   type('Attachment'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

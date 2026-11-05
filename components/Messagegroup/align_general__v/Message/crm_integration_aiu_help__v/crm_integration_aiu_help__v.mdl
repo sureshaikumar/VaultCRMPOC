@@ -1,0 +1,6 @@
+Message crm_integration_aiu_help__v (
+   label(),
+   active(true),
+   default_value('This section lists the designated Align Integration User.'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist call2_detail_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/edetail__v.mdl),
+   Picklistentry(@Picklistentry/paper_detail__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

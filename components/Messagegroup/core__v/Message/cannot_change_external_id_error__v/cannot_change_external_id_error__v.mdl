@@ -1,0 +1,6 @@
+Message cannot_change_external_id_error__v (
+   label(),
+   active(true),
+   default_value('Cannot change field value: Veeva External ID'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry azn__sys (
+   value('AZN'),
+   order(14),
+   active(true)
+);

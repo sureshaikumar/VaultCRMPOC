@@ -1,0 +1,6 @@
+Message file_size__v (
+   label(),
+   active(true),
+   default_value('File Size'),
+   system_managed(false)
+);

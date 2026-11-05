@@ -1,0 +1,21 @@
+RECREATE Job gateway_certificate_expiry__v (
+   active(true),
+   active_after_clone(true),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('Gateway Certificate Expiry'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   time('0:00'),
+   timezone(),
+   trigger_date(),
+   type('Jobtype.gateway_certificate_expiry__v'),
+   usages(),
+   use_vault_time(true),
+   week_day(),
+   week_number(0)
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate package_comparison_sandbox_error__v (
+   label('Package Comp Sandbox Error'),
+   active(true),
+   description('Sent when Package Component Comparison fails because the sandbox has exceeded its data limit'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Unable to Complete Package Component Comparison'),
+   notification('<b><p>An error has occurred processing the Package Component Comparison for Inbound Package ${package_name}.</p></b><br/><li>Reason for Failure: ${failureMessage}</li>'),
+   email_body('<b><p>An error has occurred processing the Package Component Comparison for Inbound Package ${package_name}.</p></b><br/><li>Reason for Failure: ${failureMessage}</li>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

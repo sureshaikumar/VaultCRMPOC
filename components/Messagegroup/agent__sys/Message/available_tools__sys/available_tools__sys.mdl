@@ -1,0 +1,6 @@
+Message available_tools__sys (
+   label(),
+   active(true),
+   default_value('Available Tools'),
+   system_managed(true)
+);

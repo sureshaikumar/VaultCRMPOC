@@ -1,0 +1,6 @@
+Message reply_to__v (
+   label(),
+   active(true),
+   default_value('Reply To'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message invalid_whatsapp_number__v (
+   label(),
+   active(true),
+   default_value('Invalid WhatsApp Number'),
+   system_managed(false)
+);

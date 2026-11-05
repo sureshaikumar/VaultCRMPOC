@@ -1,0 +1,6 @@
+Picklistentry otp_em_speaker_contract1__sys (
+   value('EM Speaker Contract'),
+   order(51),
+   active(true),
+   controlling_entries('olc_contract_partner__sys')
+);

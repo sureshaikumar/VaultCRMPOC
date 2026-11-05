@@ -1,0 +1,14 @@
+RECREATE Page remote_meetings_admin_page__v (
+   label('Engage Group Management'),
+   active(true),
+   client_distribution(),
+   default_client_code(),
+   description('Engage Group Management Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.engage.controls.page.EngageGroupManagementPageController'),
+   url_path_name('remote-meetings-admin')
+);

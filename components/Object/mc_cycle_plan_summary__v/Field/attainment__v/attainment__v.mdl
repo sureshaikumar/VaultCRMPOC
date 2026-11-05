@@ -1,0 +1,23 @@
+Field attainment__v (
+   label('Attainment'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Interactions_Earned_vod / Interactions_Goal_vod. If no goals then value is blank.'),
+   required(false),
+   unique(false),
+   max_value(9999999.99),
+   min_value(0),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

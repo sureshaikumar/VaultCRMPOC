@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_pending_ops__v (
+   label(),
+   active(true),
+   default_value('One or more Model Territories in this branch of the hierarchy contain Target Transfer Requests that are pending. These must be approved or rejected before proceeding.'),
+   system_managed(false)
+);

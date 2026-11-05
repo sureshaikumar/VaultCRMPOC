@@ -1,0 +1,6 @@
+Picklistentry radxi__v (
+   value('Radio-Diagnosis'),
+   order(1673),
+   active(true),
+   controlling_entries('mu__v')
+);

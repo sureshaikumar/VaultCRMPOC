@@ -1,0 +1,6 @@
+Picklistentry ug-402__v (
+   value('Bushenyi'),
+   order(4744),
+   active(true),
+   controlling_entries('ug__v')
+);

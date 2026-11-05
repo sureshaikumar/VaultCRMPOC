@@ -1,0 +1,6 @@
+Picklistentry th-80__v (
+   value('Nakhon Si Thammarat'),
+   order(4391),
+   active(true),
+   controlling_entries('th__v')
+);

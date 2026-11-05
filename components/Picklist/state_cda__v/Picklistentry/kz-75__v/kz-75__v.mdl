@@ -1,0 +1,6 @@
+Picklistentry kz-75__v (
+   value('Almaty'),
+   order(2511),
+   active(true),
+   controlling_entries('kz__v')
+);

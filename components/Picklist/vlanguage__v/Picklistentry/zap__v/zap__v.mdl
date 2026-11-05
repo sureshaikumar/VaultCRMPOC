@@ -1,0 +1,5 @@
+Picklistentry zap__v (
+   value('Zapotec'),
+   order(359),
+   active(false)
+);

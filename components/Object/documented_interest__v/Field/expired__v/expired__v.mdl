@@ -1,0 +1,19 @@
+Field expired__v (
+   label('Expired?'),
+   type('Boolean'),
+   active(true),
+   description('Used to flag Documented Interest record that have an expiration date less than or equal than today''s date'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(28),
+   formula('expiration_date__v<=Today("user")'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

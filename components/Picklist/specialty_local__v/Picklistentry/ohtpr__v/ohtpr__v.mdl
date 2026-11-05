@@ -1,0 +1,6 @@
+Picklistentry ohtpr__v (
+   value('Oral Health Therapy Practice'),
+   order(1170),
+   active(true),
+   controlling_entries('nz__v')
+);

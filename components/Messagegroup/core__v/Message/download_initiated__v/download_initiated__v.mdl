@@ -1,0 +1,6 @@
+Message download_initiated__v (
+   label(),
+   active(true),
+   default_value('Download Initiated'),
+   system_managed(false)
+);

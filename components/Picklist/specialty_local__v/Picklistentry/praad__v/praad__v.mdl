@@ -1,0 +1,7 @@
+Picklistentry praad__v (
+   value('Pediatric Respiratory and Allergic Diseases'),
+   order(1449),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

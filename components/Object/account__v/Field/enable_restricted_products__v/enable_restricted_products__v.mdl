@@ -1,0 +1,18 @@
+Field enable_restricted_products__v (
+   label('Enable Restricted Products'),
+   type('Boolean'),
+   active(true),
+   description('If set to true then trigger online will populate the Restricted Products on Insert.  Used to allow data loading to bypass the setting of the Restricted Products'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(37),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

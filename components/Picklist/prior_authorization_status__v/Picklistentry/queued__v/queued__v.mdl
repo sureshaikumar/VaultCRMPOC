@@ -1,0 +1,5 @@
+Picklistentry queued__v (
+   value('Queued'),
+   order(0),
+   active(true)
+);

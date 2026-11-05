@@ -1,0 +1,6 @@
+Picklistentry si-107__v (
+   value('Rogatec'),
+   order(4081),
+   active(true),
+   controlling_entries('si__v')
+);

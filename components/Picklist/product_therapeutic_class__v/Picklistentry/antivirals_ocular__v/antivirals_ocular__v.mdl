@@ -1,0 +1,5 @@
+Picklistentry antivirals_ocular__v (
+   value('Antivirals (Ocular)'),
+   order(83),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-crf__v (
+   value('Cardiff'),
+   order(1492),
+   active(true),
+   controlling_entries('gb__v')
+);

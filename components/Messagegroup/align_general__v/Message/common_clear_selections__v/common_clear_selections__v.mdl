@@ -1,0 +1,6 @@
+Message common_clear_selections__v (
+   label(),
+   active(true),
+   default_value('Clear Selections'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry partner__v (
+   value('Partner'),
+   order(4),
+   active(true)
+);

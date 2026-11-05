@@ -1,0 +1,8 @@
+RECREATE Pagelayout sms_detail_page_layout__v (
+   active(true),
+   default_layout(false),
+   description('Page layout for SMS Message Template Business Account'),
+   display_lifecycle_stages(false),
+   label('SMS Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

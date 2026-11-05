@@ -1,0 +1,5 @@
+Picklistentry 15100__v (
+   value('Brookings, SD Micropolitan Statistical Area'),
+   order(919),
+   active(true)
+);

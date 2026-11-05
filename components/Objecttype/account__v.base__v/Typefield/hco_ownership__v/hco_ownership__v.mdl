@@ -1,0 +1,4 @@
+Typefield hco_ownership__v (
+   source('standard'),
+   required(false)
+);

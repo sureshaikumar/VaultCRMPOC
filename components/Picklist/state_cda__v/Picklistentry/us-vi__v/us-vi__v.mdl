@@ -1,0 +1,6 @@
+Picklistentry us-vi__v (
+   value('Virgin Islands'),
+   order(4842),
+   active(true),
+   controlling_entries('us__v')
+);

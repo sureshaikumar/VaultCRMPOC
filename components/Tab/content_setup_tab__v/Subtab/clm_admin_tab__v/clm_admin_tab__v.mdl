@@ -1,0 +1,11 @@
+Subtab clm_admin_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('CLM'),
+   order(100),
+   page('Page.clm_administration_page__v'),
+   parent('content_setup_tab__v'),
+   prevent_create(false),
+   url(@url.txt)
+);

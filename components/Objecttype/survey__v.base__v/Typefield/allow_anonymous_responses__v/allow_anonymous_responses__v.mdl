@@ -1,0 +1,4 @@
+Typefield allow_anonymous_responses__v (
+   source('standard'),
+   required(false)
+);

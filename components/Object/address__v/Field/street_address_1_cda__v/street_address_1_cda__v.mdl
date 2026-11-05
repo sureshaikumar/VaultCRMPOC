@@ -1,0 +1,21 @@
+Field street_address_1_cda__v (
+   label('Street Address 1'),
+   type('String'),
+   active(true),
+   description('Residential or business street address information including house number and street name.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(93),
+   formula('name__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

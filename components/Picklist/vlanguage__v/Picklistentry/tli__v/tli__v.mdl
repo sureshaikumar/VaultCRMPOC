@@ -1,0 +1,5 @@
+Picklistentry tli__v (
+   value('Tlingit'),
+   order(322),
+   active(false)
+);

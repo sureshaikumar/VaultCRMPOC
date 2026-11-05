@@ -1,0 +1,5 @@
+Picklistentry available__v (
+   value('Available'),
+   order(1),
+   active(true)
+);

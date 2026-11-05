@@ -1,0 +1,22 @@
+Field om_quantity_target__v (
+   label('OM Quantity Target'),
+   type('Number'),
+   active(true),
+   description('Contract Line corresponding field to Quantity_vod in OM and OM Lines.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(40),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

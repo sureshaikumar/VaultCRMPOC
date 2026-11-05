@@ -1,0 +1,22 @@
+Field attempt_count__v (
+   label('Attempt Count'),
+   type('Number'),
+   active(true),
+   description('Number indicating the count of the Check-In Detail.'),
+   required(false),
+   unique(false),
+   max_value(9007199254740991),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(12),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

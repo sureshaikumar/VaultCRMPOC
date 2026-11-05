@@ -1,0 +1,18 @@
+Field exception_type__v (
+   label('Exception Type'),
+   type('Picklist'),
+   active(true),
+   description('This field identifies which attribute gave rise to an exception'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.inventory_order_line_exception_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield om_enable_enhanced_bundle_packs__v (
+   source('standard'),
+   required(false)
+);

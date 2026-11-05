@@ -1,0 +1,5 @@
+Picklistentry sent_email__v (
+   value('sent_email__v'),
+   order(3),
+   active(true)
+);

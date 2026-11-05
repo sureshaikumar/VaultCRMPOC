@@ -1,0 +1,6 @@
+Message common_align__v (
+   label(),
+   active(true),
+   default_value('Veeva Align'),
+   system_managed(false)
+);

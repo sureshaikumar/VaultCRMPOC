@@ -1,0 +1,18 @@
+Field mc_cycle_plan_summary_status__v (
+   label('MC Cycle Plan Summary Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Comparing the Cycle Plan ''s Attainment and the % Cycle Completed.'),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.mc_cycle_plan_summary_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

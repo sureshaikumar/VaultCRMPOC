@@ -1,0 +1,8 @@
+Picklistentry gagen__v (
+   value('Geriatrics and Gerontology'),
+   order(631),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v',
+         'ro__v')
+);

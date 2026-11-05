@@ -1,0 +1,18 @@
+Field rating_other__v (
+   label('Rating: Other'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Stores the Remote Meeting Attendee response to the ''Other'' question on the Experience Rating questionnaire.'),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

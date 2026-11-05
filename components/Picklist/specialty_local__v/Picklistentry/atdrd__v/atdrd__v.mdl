@@ -1,0 +1,6 @@
+Picklistentry atdrd__v (
+   value('Addiction Treatment'),
+   order(13),
+   active(true),
+   controlling_entries('vn__v')
+);

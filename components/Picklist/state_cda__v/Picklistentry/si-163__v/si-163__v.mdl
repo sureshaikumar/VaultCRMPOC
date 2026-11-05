@@ -1,0 +1,6 @@
+Picklistentry si-163__v (
+   value('Jezersko'),
+   order(4136),
+   active(true),
+   controlling_entries('si__v')
+);

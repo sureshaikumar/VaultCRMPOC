@@ -1,0 +1,4 @@
+Typefield enable_participant_url_child_event__v (
+   source('standard'),
+   required(false)
+);

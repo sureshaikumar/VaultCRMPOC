@@ -1,0 +1,4 @@
+Typefield campaign_activity_object_type__v (
+   source('standard'),
+   required(false)
+);

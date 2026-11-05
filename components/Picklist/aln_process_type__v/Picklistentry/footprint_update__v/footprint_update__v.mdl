@@ -1,0 +1,5 @@
+Picklistentry footprint_update__v (
+   value('Footprint Update'),
+   order(18),
+   active(true)
+);

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="objectLifecycleEntryAction.all.relatedRecordStateChange">
+            <relationshipField>Object.call2__v.parent_call__v</relationshipField>
+            <targetLifecycle>Objectlifecycle.call_lifecycle__v.submitted_state__v</targetLifecycle>
+            <direction>INBOUND</direction>
+        </action>
+    </actions>
+</rule>

@@ -1,0 +1,6 @@
+Picklistentry pl-12__v (
+   value('Małopolskie'),
+   order(3627),
+   active(true),
+   controlling_entries('pl__v')
+);

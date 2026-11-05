@@ -1,0 +1,5 @@
+Picklistentry stlp__v (
+   value('Specialized Technical Level'),
+   order(242),
+   active(true)
+);

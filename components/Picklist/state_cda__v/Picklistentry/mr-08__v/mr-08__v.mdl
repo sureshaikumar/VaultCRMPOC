@@ -1,0 +1,6 @@
+Picklistentry mr-08__v (
+   value('Dakhlet Nouâdhibou'),
+   order(3099),
+   active(true),
+   controlling_entries('mr__v')
+);

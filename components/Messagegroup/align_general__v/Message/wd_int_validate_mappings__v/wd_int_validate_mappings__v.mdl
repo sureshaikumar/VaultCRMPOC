@@ -1,0 +1,6 @@
+Message wd_int_validate_mappings__v (
+   label(),
+   active(true),
+   default_value('You must set field mappings for the following required fields: {0}'),
+   system_managed(false)
+);

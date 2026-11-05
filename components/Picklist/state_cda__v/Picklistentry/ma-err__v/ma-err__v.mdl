@@ -1,0 +1,6 @@
+Picklistentry ma-err__v (
+   value('Errachidia'),
+   order(2793),
+   active(true),
+   controlling_entries('ma__v')
+);

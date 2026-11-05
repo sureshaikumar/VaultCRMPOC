@@ -1,0 +1,5 @@
+Picklistentry invalid_group_name__v (
+   value('Invalid Group Name'),
+   order(2),
+   active(true)
+);

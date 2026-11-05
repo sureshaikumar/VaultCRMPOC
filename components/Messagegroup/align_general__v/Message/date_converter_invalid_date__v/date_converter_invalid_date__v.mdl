@@ -1,0 +1,6 @@
+Message date_converter_invalid_date__v (
+   label(),
+   active(true),
+   default_value('Invalid date'),
+   system_managed(false)
+);

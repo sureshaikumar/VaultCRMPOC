@@ -1,0 +1,6 @@
+Message zip_max_file_count_exceeded_error__v (
+   label(),
+   active(true),
+   default_value('The uploaded ZIP must contain no more than ${count} files.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 21900__v (
+   value('Fairmont, WV Micropolitan Statistical Area'),
+   order(88),
+   active(true)
+);

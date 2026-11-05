@@ -1,0 +1,7 @@
+Typefield network_collab_agree_required__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_network_collab_agree_required__v.hrs__v',
+         'Picklist.address_network_collab_agree_required__v.n__v',
+         'Picklist.address_network_collab_agree_required__v.y__v')
+);

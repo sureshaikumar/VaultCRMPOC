@@ -1,0 +1,6 @@
+Picklistentry shass__v (
+   value('Surgery Head and Shoulder Surgery Neck'),
+   order(1814),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,18 @@
+Field inactive__v (
+   label('Inactive'),
+   type('Boolean'),
+   active(true),
+   description('The Inactive checkbox determines if the Address record will be displayed in the Call Report and My Schedule Address Picklist for both online and offline implementations.  If the Inactive checkbox is checked, then the Address record will not be displayed.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(37),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

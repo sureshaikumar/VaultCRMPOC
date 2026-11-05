@@ -1,0 +1,5 @@
+Picklistentry inactive_picklist_value__c (
+   value('Inactive Picklist Value'),
+   order(3),
+   active(true)
+);

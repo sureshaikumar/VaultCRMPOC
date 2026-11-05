@@ -1,0 +1,4 @@
+Typefield suppress_lot__v (
+   source('standard'),
+   required(false)
+);

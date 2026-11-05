@@ -1,0 +1,6 @@
+Message zoom_meeting_details__v (
+   label(),
+   active(true),
+   default_value('Zoom Meeting Details'),
+   system_managed(false)
+);

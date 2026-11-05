@@ -1,0 +1,6 @@
+Picklistentry pmxba__v (
+   value('Physical Medicine and Balneology'),
+   order(1540),
+   active(true),
+   controlling_entries('ge__v')
+);

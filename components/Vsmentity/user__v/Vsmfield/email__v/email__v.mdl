@@ -1,0 +1,11 @@
+Vsmfield email__v (
+   label('Email'),
+   active(true),
+   description('Email address for the user where Vault will send emails'),
+   example_values(),
+   synonyms(),
+   target('email__sys'),
+   target_label('Email'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

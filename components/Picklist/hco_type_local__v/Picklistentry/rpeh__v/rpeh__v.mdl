@@ -1,0 +1,5 @@
+Picklistentry rpeh__v (
+   value('Retail Pharmacy'),
+   order(231),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction connection__sys.manage_certificates__sys (
+   label('Manage Signing Certificate'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.connection.ManageCertificates'),
+   active(true),
+   available_all_states(true)
+);

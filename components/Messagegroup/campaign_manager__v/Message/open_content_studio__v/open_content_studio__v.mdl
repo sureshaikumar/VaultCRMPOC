@@ -1,0 +1,6 @@
+Message open_content_studio__v (
+   label(),
+   active(true),
+   default_value('Open Content Studio'),
+   system_managed(false)
+);

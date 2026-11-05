@@ -1,0 +1,6 @@
+Picklistentry ma-reh__v (
+   value('Rehamna'),
+   order(2830),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry radiation__c (
+   value('Radiation'),
+   order(1),
+   active(true)
+);

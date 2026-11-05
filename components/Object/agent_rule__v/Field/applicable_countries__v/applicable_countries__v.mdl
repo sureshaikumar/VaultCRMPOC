@@ -1,0 +1,18 @@
+Field applicable_countries__v (
+   label('Applicable Countries'),
+   type('Picklist'),
+   active(true),
+   description('A picklist of all countries where the rule should be applied.'),
+   required(false),
+   unique(false),
+   help_content('Select each country where the rule applies.'),
+   list_column(false),
+   order(20),
+   multi_value(true),
+   picklist('Picklist.country_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

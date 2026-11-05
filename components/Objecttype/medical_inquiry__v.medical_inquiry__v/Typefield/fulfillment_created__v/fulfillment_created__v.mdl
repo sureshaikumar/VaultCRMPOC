@@ -1,0 +1,4 @@
+Typefield fulfillment_created__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry is-eom__v (
+   value('Eyja- og Miklaholtshreppur'),
+   order(2100),
+   active(true),
+   controlling_entries('is__v')
+);

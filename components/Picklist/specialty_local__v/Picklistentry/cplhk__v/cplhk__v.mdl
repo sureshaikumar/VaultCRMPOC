@@ -1,0 +1,8 @@
+Picklistentry cplhk__v (
+   value('Clinical Physiology'),
+   order(285),
+   active(true),
+   controlling_entries('lv__v',
+         'se__v',
+         'si__v')
+);

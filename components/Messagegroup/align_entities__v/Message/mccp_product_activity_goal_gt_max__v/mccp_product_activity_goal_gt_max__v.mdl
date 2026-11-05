@@ -1,0 +1,6 @@
+Message mccp_product_activity_goal_gt_max__v (
+   label(),
+   active(true),
+   default_value('Edited Activity Goal cannot be larger than Activity Max.'),
+   system_managed(false)
+);

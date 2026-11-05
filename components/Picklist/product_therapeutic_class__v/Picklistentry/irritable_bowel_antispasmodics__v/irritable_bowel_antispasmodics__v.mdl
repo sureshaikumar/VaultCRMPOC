@@ -1,0 +1,5 @@
+Picklistentry irritable_bowel_antispasmodics__v (
+   value('Irritable Bowel (Antispasmodics)'),
+   order(52),
+   active(true)
+);

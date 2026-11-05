@@ -1,0 +1,6 @@
+Picklistentry si-022__v (
+   value('Dol pri Ljubljani'),
+   order(3996),
+   active(true),
+   controlling_entries('si__v')
+);

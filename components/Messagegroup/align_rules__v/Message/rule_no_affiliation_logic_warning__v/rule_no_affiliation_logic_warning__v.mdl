@@ -1,0 +1,6 @@
+Message rule_no_affiliation_logic_warning__v (
+   label(),
+   active(true),
+   default_value('No criteria selected for Affiliation. All Affiliations will be included.'),
+   system_managed(false)
+);

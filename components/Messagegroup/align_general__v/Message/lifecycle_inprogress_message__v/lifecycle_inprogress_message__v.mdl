@@ -1,0 +1,6 @@
+Message lifecycle_inprogress_message__v (
+   label(),
+   active(true),
+   default_value('This record''s lifecycle state is currently being updated by process task {0}. Its lifecycle state cannot be edited until that process task concludes.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message account_plan_overview__v (
+   label(),
+   active(true),
+   default_value('Account Plan Overview'),
+   system_managed(false)
+);

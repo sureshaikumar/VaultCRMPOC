@@ -1,0 +1,5 @@
+Picklistentry ltcf__v (
+   value('Long-Term Care Facility'),
+   order(139),
+   active(true)
+);

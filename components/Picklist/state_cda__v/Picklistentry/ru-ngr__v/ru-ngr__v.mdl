@@ -1,0 +1,6 @@
+Picklistentry ru-ngr__v (
+   value('Novgorodskaya oblast'''),
+   order(3835),
+   active(true),
+   controlling_entries('ru__v')
+);

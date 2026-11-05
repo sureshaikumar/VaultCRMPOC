@@ -1,0 +1,7 @@
+Typefield contract_partner_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.contract_partner_status__v.activated__v',
+         'Picklist.contract_partner_status__v.saved__v'),
+   default_value('Picklist.contract_partner_status__v.saved__v')
+);

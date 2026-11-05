@@ -1,0 +1,4 @@
+Typefield speaker_fields__v (
+   source('standard'),
+   required(false)
+);

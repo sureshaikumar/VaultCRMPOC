@@ -1,0 +1,6 @@
+Picklistentry si-066__v (
+   value('Loški Potok'),
+   order(4040),
+   active(true),
+   controlling_entries('si__v')
+);

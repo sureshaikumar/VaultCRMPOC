@@ -1,0 +1,6 @@
+Message mccp_feedback_invalid_default_priority__v (
+   label(),
+   active(true),
+   default_value('Default Detail Priority must be a whole number greater than zero. Its value must not exceed the total number of products in the channel.'),
+   system_managed(false)
+);

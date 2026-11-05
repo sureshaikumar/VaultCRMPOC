@@ -1,0 +1,18 @@
+Field enable_survey_overlay__v (
+   label('Enable Survey Overlay'),
+   type('Boolean'),
+   active(true),
+   description('Allows the survey associated to the presentation to appear in the CRM overlay.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry saaap__v (
+   value('Skin and Adnexa Anatomical Pathology'),
+   order(1770),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,6 @@
+Message no_active_or_upcoming__v (
+   label(),
+   active(true),
+   default_value('No Active or Upcoming'),
+   system_managed(false)
+);

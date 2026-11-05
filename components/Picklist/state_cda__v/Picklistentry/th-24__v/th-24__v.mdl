@@ -1,0 +1,6 @@
+Picklistentry th-24__v (
+   value('Chachoengsao'),
+   order(4342),
+   active(true),
+   controlling_entries('th__v')
+);

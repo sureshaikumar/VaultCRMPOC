@@ -1,0 +1,6 @@
+Picklistentry ge-mm__v (
+   value('Mtskheta-Mtianeti'),
+   order(1682),
+   active(true),
+   controlling_entries('ge__v')
+);

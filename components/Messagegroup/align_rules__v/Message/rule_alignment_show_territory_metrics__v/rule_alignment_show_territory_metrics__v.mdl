@@ -1,0 +1,6 @@
+Message rule_alignment_show_territory_metrics__v (
+   label(),
+   active(true),
+   default_value('Show Territory Metrics'),
+   system_managed(false)
+);

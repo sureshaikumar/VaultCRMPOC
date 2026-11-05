@@ -1,0 +1,5 @@
+Picklistentry crm_desktop_macos__v (
+   value('CRM Desktop MacOS'),
+   order(5),
+   active(true)
+);

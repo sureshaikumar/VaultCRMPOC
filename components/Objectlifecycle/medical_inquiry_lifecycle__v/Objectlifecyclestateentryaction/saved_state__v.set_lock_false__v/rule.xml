@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.medical_inquiry__v.lock__v</targetField>
+            <expression>false</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

@@ -1,0 +1,6 @@
+Message ctav_warn_src_obj_no_object_type__v (
+   label(),
+   active(true),
+   default_value('Target Vault CRM object ${object_name} has object types enabled which the source Vault CRM object does not. New records will be copied with the default object type. Old records will keep the old object types.'),
+   system_managed(false)
+);

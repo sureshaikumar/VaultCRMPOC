@@ -1,0 +1,5 @@
+Picklistentry chw__sys (
+   value('CHW'),
+   order(39),
+   active(true)
+);

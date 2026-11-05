@@ -1,0 +1,6 @@
+Picklistentry bs-fp__v (
+   value('City of Freeport'),
+   order(489),
+   active(true),
+   controlling_entries('bs__v')
+);

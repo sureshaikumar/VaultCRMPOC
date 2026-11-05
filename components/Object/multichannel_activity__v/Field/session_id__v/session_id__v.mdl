@@ -1,0 +1,19 @@
+Field session_id__v (
+   label('Session Id'),
+   type('String'),
+   active(true),
+   description('Session Id from the browser'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

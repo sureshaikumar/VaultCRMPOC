@@ -1,0 +1,6 @@
+Message common_view_more__v (
+   label(),
+   active(true),
+   default_value('View More'),
+   system_managed(false)
+);

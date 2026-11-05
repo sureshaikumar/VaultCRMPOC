@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns="https://www.veevavault.com/schema/vault-sdk/view-model" version="3">
+    <section name="general">
+        <property name="fieldNames">
+            <list>
+                <item value="name__v"/>
+                <item value="first_name__sys"/>
+                <item value="last_name__sys"/>
+                <item value="alias__sys"/>
+                <item value="title__sys"/>
+                <item value="company__sys"/>
+                <item value="office_phone__sys"/>
+                <item value="mobile_phone__sys"/>
+                <item value="fax__sys"/>
+                <item value="location__sys"/>
+                <item value="timezone__sys"/>
+                <item value="language__sys"/>
+                <item value="locale__sys"/>
+            </list>
+        </property>
+        <property name="readOnlyFieldNames"/>
+    </section>
+    <section name="notifications">
+        <property name="fieldNames">
+            <list>
+                <item value="product_announcement_emails__sys"/>
+                <item value="system_availability_emails__sys"/>
+                <item value="annotation_replies__sys"/>
+                <item value="send_as_link__sys"/>
+                <item value="shared_views__sys"/>
+                <item value="favorite_documents__sys"/>
+                <item value="summary_email_interval__sys"/>
+            </list>
+        </property>
+        <property name="readOnlyFieldNames"/>
+    </section>
+    <section name="mobileAppRegistrations"/>
+    <section name="searchPreferences"/>
+    <section name="apiAccessTokens"/>
+</layout>

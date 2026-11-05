@@ -1,0 +1,22 @@
+Field location_services_status__v (
+   label('Location Services Status'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the state of location services at the time a signature was  captured.
+
+Enabled_vod – location services are turned on and the system is able to get the user’s location.
+Disabled_vod – location services are turned off.
+No_Connection_vod – no netwo'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(86),
+   multi_value(false),
+   picklist('Picklist.call2_location_services_status__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

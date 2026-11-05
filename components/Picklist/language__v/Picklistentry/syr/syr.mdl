@@ -1,0 +1,5 @@
+Picklistentry syr (
+   value('Syriac'),
+   order(316),
+   active(true)
+);

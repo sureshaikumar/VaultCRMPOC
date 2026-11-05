@@ -1,0 +1,7 @@
+Typefield fulfillment_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_inquiry_fulfillment_status1__v.assigned__v',
+         'Picklist.medical_inquiry_fulfillment_status1__v.completed__v',
+         'Picklist.medical_inquiry_fulfillment_status1__v.new__v')
+);

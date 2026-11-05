@@ -1,0 +1,5 @@
+Picklistentry 28900__v (
+   value('Klamath Falls, OR Micropolitan Statistical Area'),
+   order(282),
+   active(true)
+);

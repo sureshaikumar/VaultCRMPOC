@@ -1,0 +1,4 @@
+Typefield filter_inactive_network_records__v (
+   source('standard'),
+   required(false)
+);

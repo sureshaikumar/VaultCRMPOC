@@ -1,0 +1,10 @@
+RECREATE Jobmetadata survey_export_results_job__v (
+   label('Export Results Job'),
+   active(true),
+   chunk_size(1),
+   description('A job that exports survey results into a spreadsheet file'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.survey.jobs.SurveyExportResultsJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

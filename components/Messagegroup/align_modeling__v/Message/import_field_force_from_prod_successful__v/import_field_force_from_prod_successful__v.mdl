@@ -1,0 +1,6 @@
+Message import_field_force_from_prod_successful__v (
+   label(),
+   active(true),
+   default_value('Field Force import completed for ${entity_name}'),
+   system_managed(false)
+);

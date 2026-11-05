@@ -1,0 +1,9 @@
+Vsmvalue eek__v (
+   label('EEK'),
+   active(true),
+   description('Use when recording historical monetary amounts in the Estonian Kroon, which was replaced by the Euro in 2011.'),
+   synonyms('Estonian Kroon',
+         'Estonia Kroon'),
+   target('eek__sys'),
+   target_label('EEK')
+);

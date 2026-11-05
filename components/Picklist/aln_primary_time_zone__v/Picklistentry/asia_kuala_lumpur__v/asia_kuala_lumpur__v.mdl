@@ -1,0 +1,5 @@
+Picklistentry asia_kuala_lumpur__v (
+   value('Asia/Kuala_Lumpur'),
+   order(65),
+   active(true)
+);

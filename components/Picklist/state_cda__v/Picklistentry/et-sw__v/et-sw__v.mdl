@@ -1,0 +1,6 @@
+Picklistentry et-sw__v (
+   value('Southwest Ethiopia Peoples'),
+   order(1271),
+   active(true),
+   controlling_entries('et__v')
+);

@@ -1,0 +1,6 @@
+Message vaultid_session_mismatch_login__v (
+   label(),
+   active(true),
+   default_value('The Vault ID ${expected_vault_id} does not match the Vault ID ${received_vault_id} associated with this session.'),
+   system_managed(false)
+);

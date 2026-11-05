@@ -1,0 +1,6 @@
+Picklistentry jo-az__v (
+   value('Az Zarqā’'),
+   order(2299),
+   active(true),
+   controlling_entries('jo__v')
+);

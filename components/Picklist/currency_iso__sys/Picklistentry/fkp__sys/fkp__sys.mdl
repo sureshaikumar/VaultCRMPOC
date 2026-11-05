@@ -1,0 +1,5 @@
+Picklistentry fkp__sys (
+   value('FKP'),
+   order(65),
+   active(true)
+);

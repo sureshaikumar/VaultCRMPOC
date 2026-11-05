@@ -1,0 +1,6 @@
+Message street_address__v (
+   label(),
+   active(true),
+   default_value('Street Address'),
+   system_managed(false)
+);

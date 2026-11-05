@@ -1,0 +1,6 @@
+Message display_score__v (
+   label(),
+   active(true),
+   default_value('Display Score'),
+   system_managed(false)
+);

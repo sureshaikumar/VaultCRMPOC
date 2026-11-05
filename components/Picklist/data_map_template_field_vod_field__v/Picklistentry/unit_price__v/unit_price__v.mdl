@@ -1,0 +1,5 @@
+Picklistentry unit_price__v (
+   value('Unit_Price_vod__c'),
+   order(225),
+   active(true)
+);

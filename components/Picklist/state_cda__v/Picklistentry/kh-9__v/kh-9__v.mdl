@@ -1,0 +1,6 @@
+Picklistentry kh-9__v (
+   value('Kaoh Kong [Kaôh Kŏng]'),
+   order(2434),
+   active(true),
+   controlling_entries('kh__v')
+);

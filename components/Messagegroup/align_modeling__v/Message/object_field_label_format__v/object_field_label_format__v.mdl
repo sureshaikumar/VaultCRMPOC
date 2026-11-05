@@ -1,0 +1,6 @@
+Message object_field_label_format__v (
+   label(),
+   active(true),
+   default_value('The ${external_id_label} of the ${object_label} must include ${project_label} ${project_id_label} (${project_id_value}) at the end, in the format "[external_id_prefix]::${project_id_value}".'),
+   system_managed(false)
+);

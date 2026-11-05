@@ -1,0 +1,6 @@
+Message date_added__v (
+   label(),
+   active(true),
+   default_value('Date Added'),
+   system_managed(false)
+);

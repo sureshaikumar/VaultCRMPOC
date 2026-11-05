@@ -1,0 +1,5 @@
+Picklistentry default_for_device__v (
+   value('Default for Device'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 31060__v (
+   value('Los Alamos, NM Micropolitan Statistical Area'),
+   order(543),
+   active(true)
+);

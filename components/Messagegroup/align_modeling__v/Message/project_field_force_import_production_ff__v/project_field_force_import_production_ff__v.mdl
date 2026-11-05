@@ -1,0 +1,6 @@
+Message project_field_force_import_production_ff__v (
+   label(),
+   active(true),
+   default_value('Import field forces from production'),
+   system_managed(false)
+);

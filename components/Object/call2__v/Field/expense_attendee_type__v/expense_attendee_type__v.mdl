@@ -1,0 +1,19 @@
+Field expense_attendee_type__v (
+   label('Expense Attendee Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The Expense Attendee Type is meant to be placed in the Attendee Specific Fields section of the Call Report page layout. The values of this picklist should match the values available in the third-party expense system, such as Concur.'),
+   list_column(false),
+   order(67),
+   multi_value(false),
+   picklist('Picklist.call2_expense_attendee_type1__v'),
+   default_value('{busguest__v}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

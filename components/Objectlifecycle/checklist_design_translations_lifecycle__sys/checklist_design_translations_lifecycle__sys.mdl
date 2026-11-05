@@ -1,0 +1,23 @@
+RECREATE Objectlifecycle checklist_design_translations_lifecycle__sys (
+   label('Checklist Design Translations Lifecycle'),
+   state_labels(),
+   labeled_states(),
+   active(true),
+   starting_state('Objectlifecyclestate.draft_state__sys'),
+   description('The Checklist Design Translation lifecycle tracks the status of the language translations for a Checklist Design record.'),
+   Objectlifecyclestate(@Objectlifecyclestate/approved_state__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/draft_state__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/obsolete_state__sys.mdl),
+   Objectlifecyclestateuseraction(@Objectlifecyclestateuseraction/approved_state__sys.change_state_to_draft_useraction__c.mdl),
+   Objectlifecyclestateuseraction(@Objectlifecyclestateuseraction/draft_state__sys.change_state_to_approved_useraction__c.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/owner__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/editor__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/viewer__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_edit__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_delete__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_edit__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_delete__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/viewer_read__c.mdl)
+);

@@ -1,0 +1,10 @@
+RECREATE Layout user_profile_layout__sys (
+   label('User Profile Layout'),
+   active(true),
+   description(),
+   layout_markup(@layout_markup.xml),
+   page('Page.user_profile_page__sys'),
+   properties(@properties.xml),
+   url_path_name('default'),
+   validator_code('Formvalidatorcode.com.veeva.vault.system.page.UserProfileConfigValidator')
+);

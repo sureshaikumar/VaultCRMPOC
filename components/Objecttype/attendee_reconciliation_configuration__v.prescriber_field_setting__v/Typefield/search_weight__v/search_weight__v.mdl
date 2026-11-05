@@ -1,0 +1,4 @@
+Typefield search_weight__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,19 @@
+Field challenge_reasons_add_target__v (
+   label('Challenge Reasons (Add Target)'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The reasons available for selection when the user makes an "Add Target" challenge.'),
+   list_column(false),
+   order(13),
+   multi_value(true),
+   picklist('Picklist.aln_challenge_reason__v'),
+   default_value('{good_access__c},{high_priority__c},{new_prospect__c},{returned_from_leave__c},{other__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

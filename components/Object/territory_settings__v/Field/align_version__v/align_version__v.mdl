@@ -1,0 +1,19 @@
+Field align_version__v (
+   label('Align Version'),
+   type('String'),
+   active(true),
+   description('The Align Version that is integrated to this Veeva CRM Org.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

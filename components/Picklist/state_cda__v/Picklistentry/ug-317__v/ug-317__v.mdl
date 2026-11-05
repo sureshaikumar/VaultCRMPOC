@@ -1,0 +1,6 @@
+Picklistentry ug-317__v (
+   value('Dokolo'),
+   order(4722),
+   active(true),
+   controlling_entries('ug__v')
+);

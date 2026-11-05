@@ -1,0 +1,6 @@
+Message rule_rule_type_selection__v (
+   label(),
+   active(true),
+   default_value('Select the types of rules to process'),
+   system_managed(false)
+);

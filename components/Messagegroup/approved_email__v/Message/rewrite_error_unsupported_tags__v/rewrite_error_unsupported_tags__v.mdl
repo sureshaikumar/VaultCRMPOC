@@ -1,0 +1,6 @@
+Message rewrite_error_unsupported_tags__v (
+   label(),
+   active(true),
+   default_value('Unsupported HTML tags are contained within {{aiRewriteStart}} and {{aiRewriteEnd}}'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield responsive_to_audience__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field collapse_by_default__v (
+   label('Collapse By Default?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('When enabled, the corresponding section will be in a collapsed state by default; users will have to manually expand it'),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

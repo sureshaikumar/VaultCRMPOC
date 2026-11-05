@@ -1,0 +1,6 @@
+Message title_has_been_discarded__v (
+   label(),
+   active(true),
+   default_value('${title} has been discarded'),
+   system_managed(false)
+);

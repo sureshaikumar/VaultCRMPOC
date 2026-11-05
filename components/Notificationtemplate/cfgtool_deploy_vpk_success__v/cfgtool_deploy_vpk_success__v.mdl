@@ -1,0 +1,40 @@
+RECREATE Notificationtemplate cfgtool_deploy_vpk_success__v (
+   label('deployVPKSuccess'),
+   active(true),
+   description('Deploy package success template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Package Deployment Complete'),
+   notification('<b><p>Package ${package_name} has been successfully deployed.</p></b>
+<br/>
+Details:<br/>
+Total Steps: ${total_step_count}<br/>
+Component Steps - Deployed: ${count_component_deployed}<br/>
+Component Steps - Deployed with warnings: ${count_component_warning}<br/>
+Component Steps - Failed: ${count_component_error}<br/>
+Component Steps - Skipped: ${count_component_skipped}<br/>
+Data Steps - Deployed: ${count_data_deployed}<br/>
+Data Steps - Deployed with failures: ${count_data_deployed_with_failure}<br/>
+Data Steps - Deployed with error: ${count_data_deployed_with_error}<br/>
+Data Steps - Failed: ${count_data_error}<br/>
+Data Steps - Skipped: ${count_data_skipped}<br/>
+<br/>
+For details, please see <a href="${url_download_log}">deployment log</a>.'),
+   email_body('<b><p>Package ${package_name} has been successfully deployed.</p></b>
+<br/>
+Details:<br/>
+Total Steps: ${total_step_count}<br/>
+Component Steps - Deployed: ${count_component_deployed}<br/>
+Component Steps - Deployed with warnings: ${count_component_warning}<br/>
+Component Steps - Failed: ${count_component_error}<br/>
+Component Steps - Skipped: ${count_component_skipped}<br/>
+Data Steps - Deployed: ${count_data_deployed}<br/>
+Data Steps - Deployed with failures: ${count_data_deployed_with_failure}<br/>
+Data Steps - Deployed with error: ${count_data_deployed_with_error}<br/>
+Data Steps - Failed: ${count_data_error}<br/>
+Data Steps - Skipped: ${count_data_skipped}<br/>
+<br/>
+For details, please see <a href="${url_download_log}">deployment log</a>.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

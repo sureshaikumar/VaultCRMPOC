@@ -1,0 +1,6 @@
+Message all_emails_rejected__v (
+   label(),
+   active(true),
+   default_value('All Emails Rejected'),
+   system_managed(false)
+);

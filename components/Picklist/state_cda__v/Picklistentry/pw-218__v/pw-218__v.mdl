@@ -1,0 +1,6 @@
+Picklistentry pw-218__v (
+   value('Ngarchelong'),
+   order(3682),
+   active(true),
+   controlling_entries('pw__v')
+);

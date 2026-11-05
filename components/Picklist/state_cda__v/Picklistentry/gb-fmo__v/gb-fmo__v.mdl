@@ -1,0 +1,6 @@
+Picklistentry gb-fmo__v (
+   value('Fermanagh and Omagh'),
+   order(1522),
+   active(true),
+   controlling_entries('gb__v')
+);

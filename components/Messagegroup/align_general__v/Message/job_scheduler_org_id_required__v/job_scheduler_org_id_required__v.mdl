@@ -1,0 +1,6 @@
+Message job_scheduler_org_id_required__v (
+   label(),
+   active(true),
+   default_value('Query parameter orgId is required.'),
+   system_managed(false)
+);

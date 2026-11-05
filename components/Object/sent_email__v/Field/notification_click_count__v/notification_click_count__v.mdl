@@ -1,0 +1,23 @@
+Field notification_click_count__v (
+   label('Total Secure Message Notification Clicks'),
+   type('Number'),
+   active(true),
+   description('Roll-up summary which captures the total numbers of times the Secure Message Notification was opened based on related Email Activity records'),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(102),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

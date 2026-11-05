@@ -1,0 +1,16 @@
+RECREATE Vsmpicklist glossary_definition_lifecycle__v (
+   label('Glossary Definition Lifecycle'),
+   active(true),
+   description('Defines the lifecycle states that a glossary definition record moves through, such as draft, review, approved, and withdrawn, governing how glossary terms are created, validated, and maintained within the system.'),
+   synonyms('glossary term lifecycle',
+      'definition workflow states',
+      'glossary entry status',
+      'term approval stages',
+      'definition lifecycle'),
+   target('Objectlifecycle.glossary_definition_lifecycle__sys'),
+   target_label('Glossary Definition Lifecycle'),
+   Vsmvalue(@Vsmvalue/approved_state__v.mdl),
+   Vsmvalue(@Vsmvalue/draft_state__v.mdl),
+   Vsmvalue(@Vsmvalue/in_review_state__v.mdl),
+   Vsmvalue(@Vsmvalue/withdrawn_state__v.mdl)
+);

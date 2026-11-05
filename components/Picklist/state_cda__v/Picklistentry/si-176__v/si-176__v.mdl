@@ -1,0 +1,6 @@
+Picklistentry si-176__v (
+   value('Razkrižje'),
+   order(4149),
+   active(true),
+   controlling_entries('si__v')
+);

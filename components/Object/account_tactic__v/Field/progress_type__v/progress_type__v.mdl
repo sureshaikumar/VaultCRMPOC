@@ -1,0 +1,19 @@
+Field progress_type__v (
+   label('Progress Type'),
+   type('Picklist'),
+   active(true),
+   description('Drives how progress is defined: whether Call Objective completion or manually (set by Key Account Manager).'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.account_tactic_progress_type__v'),
+   default_value('{call_objective__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

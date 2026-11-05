@@ -1,0 +1,6 @@
+Message mccp_feedback_mng_removed_accounts__v (
+   label(),
+   active(true),
+   default_value('Manage Removed Accounts'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry invitation__v (
+   value('Invitation'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield tlist_state__v (
+   source('standard'),
+   required(true)
+);

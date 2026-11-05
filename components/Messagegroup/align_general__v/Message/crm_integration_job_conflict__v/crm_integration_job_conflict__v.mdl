@@ -1,0 +1,6 @@
+Message crm_integration_job_conflict__v (
+   label(),
+   active(true),
+   default_value('This job has failed due to a conflict with a previously running job.'),
+   system_managed(false)
+);

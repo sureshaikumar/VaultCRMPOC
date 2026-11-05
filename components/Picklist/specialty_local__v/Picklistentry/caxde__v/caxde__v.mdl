@@ -1,0 +1,7 @@
+Picklistentry caxde__v (
+   value('Cosmetic & Aesthetic Dentistry'),
+   order(336),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

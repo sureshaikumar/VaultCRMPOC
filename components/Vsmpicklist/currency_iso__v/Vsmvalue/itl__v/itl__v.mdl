@@ -1,0 +1,10 @@
+Vsmvalue itl__v (
+   label('ITL'),
+   active(true),
+   description('The Italian Lira (ITL), the former official currency of Italy prior to its replacement by the Euro in 2002, used for legacy or historical financial records denominated in Italian lira.'),
+   synonyms('Italian lira',
+         'lira',
+         'ITL'),
+   target('itl__sys'),
+   target_label('ITL')
+);

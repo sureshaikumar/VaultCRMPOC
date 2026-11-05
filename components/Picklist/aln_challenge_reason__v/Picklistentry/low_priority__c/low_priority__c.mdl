@@ -1,0 +1,5 @@
+Picklistentry low_priority__c (
+   value('Low Priority'),
+   order(5),
+   active(true)
+);

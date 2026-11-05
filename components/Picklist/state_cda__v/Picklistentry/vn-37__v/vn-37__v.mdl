@@ -1,0 +1,6 @@
+Picklistentry vn-37__v (
+   value('Tây Ninh'),
+   order(4940),
+   active(true),
+   controlling_entries('vn__v')
+);

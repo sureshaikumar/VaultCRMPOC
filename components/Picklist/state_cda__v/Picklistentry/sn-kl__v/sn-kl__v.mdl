@@ -1,0 +1,6 @@
+Picklistentry sn-kl__v (
+   value('Kaolack'),
+   order(4215),
+   active(true),
+   controlling_entries('sn__v')
+);

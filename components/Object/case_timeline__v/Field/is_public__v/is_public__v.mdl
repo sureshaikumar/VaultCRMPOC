@@ -1,0 +1,17 @@
+Field is_public__v (
+   label('Is Public?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Indicates whether the comment entry is visible publicly or internally.'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

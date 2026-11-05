@@ -1,0 +1,6 @@
+Message select_object_type__v (
+   label(),
+   active(true),
+   default_value('Select ${object_label} Object Type'),
+   system_managed(false)
+);

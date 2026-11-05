@@ -1,0 +1,6 @@
+Picklistentry bf-gna__v (
+   value('Gnagna'),
+   order(337),
+   active(true),
+   controlling_entries('bf__v')
+);

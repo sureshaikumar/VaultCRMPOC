@@ -1,0 +1,5 @@
+Picklistentry africa_windhoek__sys (
+   value('(GMT+02:00) Central Africa Time (Africa/Windhoek)'),
+   order(173),
+   active(true)
+);

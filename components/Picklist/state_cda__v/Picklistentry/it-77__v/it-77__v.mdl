@@ -1,0 +1,6 @@
+Picklistentry it-77__v (
+   value('Basilicata'),
+   order(2171),
+   active(true),
+   controlling_entries('it__v')
+);

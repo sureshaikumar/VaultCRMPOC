@@ -1,0 +1,3 @@
+Typeaction login_as__sys (
+   action('user__sys.login_as__sys')
+);

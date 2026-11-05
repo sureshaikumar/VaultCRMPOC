@@ -1,0 +1,6 @@
+Message mccp_missing_criteria_plural__v (
+   label(),
+   active(true),
+   default_value('These records will not be used to generate channel or product assignments during an assignment preview.'),
+   system_managed(false)
+);

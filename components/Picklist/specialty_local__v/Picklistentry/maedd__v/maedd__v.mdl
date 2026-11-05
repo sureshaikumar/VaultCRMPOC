@@ -1,0 +1,9 @@
+Picklistentry maedd__v (
+   value('Medical Administration'),
+   order(894),
+   active(true),
+   controlling_entries('au__v',
+         'il__v',
+         'nz__v',
+         'qa__v')
+);

@@ -1,0 +1,6 @@
+Message no_one_sampled_online__v (
+   label(),
+   active(true),
+   default_value('Sample Recipient must be selected.'),
+   system_managed(false)
+);

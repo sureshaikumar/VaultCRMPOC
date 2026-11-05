@@ -1,0 +1,6 @@
+Picklistentry et-sn__v (
+   value('Southern Nations, Nationalities and Peoples'),
+   order(1269),
+   active(true),
+   controlling_entries('et__v')
+);

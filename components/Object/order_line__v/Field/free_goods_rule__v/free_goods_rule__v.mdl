@@ -1,0 +1,22 @@
+Field free_goods_rule__v (
+   label('Free Goods Rule'),
+   type('Number'),
+   active(true),
+   description('Shows and stores the exact amount of free goods the pricing rule has determined, not editable by users'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

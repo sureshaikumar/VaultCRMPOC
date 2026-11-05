@@ -1,0 +1,14 @@
+RECREATE Page package_label_preview_page__v (
+   label('Preview Transfer/Return Package Label'),
+   active(true),
+   client_distribution(),
+   default_client_code('package_label_preview_page__v'),
+   description('The package label preview page allows users to print generated package label.'),
+   disable_chrome(true),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.samplemanagement.controls.PackageLabelPreviewAppPageController'),
+   url_path_name('package-label-preview-page')
+);

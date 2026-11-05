@@ -1,0 +1,19 @@
+Field main_org_veevaid__v (
+   label('Main Org Veeva ID'),
+   type('String'),
+   active(true),
+   description('Primary institution-level facility Veeva ID (e.g., hospital/clinic). Acts as an HCP''s main workplace or the overarching institution for a smaller HCO (e.g., ''Seattle General'' for an ''Oncology Lab''). Excludes corporate parents and internal sub-units'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(false),
+   order(232),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field em_business_rule_configuration_id__v (
+   label('Event Business Rule Configuration'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Rule ID of the Event Business Rule Configuration that ran for an EM Event.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

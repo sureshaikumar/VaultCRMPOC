@@ -1,0 +1,7 @@
+Picklistentry pgane__v (
+   value('Pediatric Gastroenterology and Nutrition'),
+   order(1376),
+   active(true),
+   controlling_entries('am__v',
+         'ph__v')
+);

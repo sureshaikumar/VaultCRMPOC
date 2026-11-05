@@ -1,0 +1,6 @@
+Picklistentry nnoan__v (
+   value('Neurology Neuro-Ophthalmology and Neuro-Otology'),
+   order(1017),
+   active(true),
+   controlling_entries('id__v')
+);

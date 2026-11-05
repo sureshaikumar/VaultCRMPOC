@@ -1,0 +1,6 @@
+Message unable_to_edit_solved_or_closed__v (
+   label(),
+   active(true),
+   default_value('Unable to edit Solved or Closed cases.'),
+   system_managed(false)
+);

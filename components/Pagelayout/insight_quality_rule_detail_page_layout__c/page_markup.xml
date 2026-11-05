@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.agent_rule__v.insight_quality_rule__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="guideline__v" required="true" />
+            <vault:field reference="insight_type__v" required="true" />
+            <vault:field reference="display_order__v" required="true" />
+            <vault:field reference="translated_rule_name__v" />
+            <vault:field reference="translated_guideline__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Instruction" name="instruction__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="instruction__v" required="true" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="vexternal_id__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,4 @@
+Typefield enable_tablet_mysamples__v (
+   source('standard'),
+   required(false)
+);

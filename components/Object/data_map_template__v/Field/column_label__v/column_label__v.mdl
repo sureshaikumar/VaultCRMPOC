@@ -1,0 +1,19 @@
+Field column_label__v (
+   label('Column Label'),
+   type('String'),
+   active(true),
+   description('The Column label defines the type of data for the data template that corresponds to the data stored within the uploaded file. A few standard examples include: TRx, NRx, NQt, TQt, DDD$, etc. This value is used to display the Units type on the Analytics Rep'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

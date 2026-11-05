@@ -1,0 +1,18 @@
+Field goal_edit_status__v (
+   label('Goal Edit Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of the goal editing process'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.mc_cycle_plan_goal_edit_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

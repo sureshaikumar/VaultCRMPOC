@@ -1,0 +1,6 @@
+Picklistentry gb-wbk__v (
+   value('West Berkshire'),
+   order(1647),
+   active(true),
+   controlling_entries('gb__v')
+);

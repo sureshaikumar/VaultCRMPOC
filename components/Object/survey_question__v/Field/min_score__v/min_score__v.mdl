@@ -1,0 +1,23 @@
+Field min_score__v (
+   label('Min Score'),
+   type('Number'),
+   active(true),
+   description('Set by trigger every time response values are updated.  This stores the minimum possible score for a given question.  It only appears on picklist, multiselect picklist, and radio questions where at least one score is entered.  If no scores are entered, th'),
+   required(false),
+   unique(false),
+   max_value(99999999999),
+   min_value(-99999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

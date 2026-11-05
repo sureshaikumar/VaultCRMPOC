@@ -1,0 +1,6 @@
+Message field_action_email_description__v (
+   label(),
+   active(true),
+   default_value('Notify field users to send an email'),
+   system_managed(false)
+);

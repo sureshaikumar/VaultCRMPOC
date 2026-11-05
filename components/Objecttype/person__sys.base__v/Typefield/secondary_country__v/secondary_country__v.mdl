@@ -1,0 +1,4 @@
+Typefield secondary_country__v (
+   source('standard'),
+   required(false)
+);

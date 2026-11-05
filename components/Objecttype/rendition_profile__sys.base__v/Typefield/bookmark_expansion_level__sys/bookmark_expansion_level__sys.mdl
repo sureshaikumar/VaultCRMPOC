@@ -1,0 +1,4 @@
+Typefield bookmark_expansion_level__sys (
+   source('standard'),
+   required(false)
+);

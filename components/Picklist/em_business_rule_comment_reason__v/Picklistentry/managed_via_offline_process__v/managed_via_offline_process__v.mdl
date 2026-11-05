@@ -1,0 +1,5 @@
+Picklistentry managed_via_offline_process__v (
+   value('Managed via offline process'),
+   order(3),
+   active(true)
+);

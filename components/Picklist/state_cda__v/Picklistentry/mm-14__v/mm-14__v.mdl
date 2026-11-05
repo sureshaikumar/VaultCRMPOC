@@ -1,0 +1,6 @@
+Picklistentry mm-14__v (
+   value('Chin'),
+   order(3065),
+   active(true),
+   controlling_entries('mm__v')
+);

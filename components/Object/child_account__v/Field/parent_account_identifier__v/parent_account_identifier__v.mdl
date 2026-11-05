@@ -1,0 +1,20 @@
+Field parent_account_identifier__v (
+   label('Parent Account Identifier'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name('parent_account__vr'),
+   lookup_source_field('account_identifier__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   format_mask(),
+   control_binding()
+);

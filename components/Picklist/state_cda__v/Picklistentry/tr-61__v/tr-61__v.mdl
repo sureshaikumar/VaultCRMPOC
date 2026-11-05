@@ -1,0 +1,6 @@
+Picklistentry tr-61__v (
+   value('Trabzon'),
+   order(4519),
+   active(true),
+   controlling_entries('tr__v')
+);

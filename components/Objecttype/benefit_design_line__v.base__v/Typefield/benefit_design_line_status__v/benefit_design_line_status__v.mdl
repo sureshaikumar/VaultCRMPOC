@@ -1,0 +1,4 @@
+Typefield benefit_design_line_status__v (
+   source('standard'),
+   required(false)
+);

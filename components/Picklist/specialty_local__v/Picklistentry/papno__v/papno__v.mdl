@@ -1,0 +1,7 @@
+Picklistentry papno__v (
+   value('Pneumology and Phthisiology'),
+   order(1579),
+   active(true),
+   controlling_entries('cz__v',
+         'sk__v')
+);

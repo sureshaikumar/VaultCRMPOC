@@ -1,0 +1,6 @@
+Message change_content_group_status_to_inactive__v (
+   label(),
+   active(true),
+   default_value('Change Content Group Status to Inactive before deleting Content Group.'),
+   system_managed(false)
+);

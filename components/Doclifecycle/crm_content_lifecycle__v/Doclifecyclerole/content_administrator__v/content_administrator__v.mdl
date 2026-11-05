@@ -1,0 +1,8 @@
+Doclifecyclerole content_administrator__v (
+   label('Content Administrator'),
+   active(true),
+   description('System Provided Role'),
+   application_role('content_administrator__v'),
+   note_color(),
+   security_options(@security_options.xml)
+);

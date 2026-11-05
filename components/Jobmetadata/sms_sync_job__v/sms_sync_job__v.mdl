@@ -1,0 +1,10 @@
+RECREATE Jobmetadata sms_sync_job__v (
+   label('SMS Sync Job'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to sync AWS accounts and phone number connection statuses to SMS messaging business accounts and messaging phone number records.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.engage.jobs.SmsSyncJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

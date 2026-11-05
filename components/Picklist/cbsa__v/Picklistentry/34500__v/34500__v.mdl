@@ -1,0 +1,5 @@
+Picklistentry 34500__v (
+   value('Mount Vernon, IL Micropolitan Statistical Area'),
+   order(166),
+   active(true)
+);

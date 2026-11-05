@@ -1,0 +1,9 @@
+RECREATE Permissionset admin_agentic_text_monitoring__c (
+   label('Admin Agentic Text Monitoring'),
+   active(true),
+   description(),
+   object.ai_settings__v.application_profile__v.field_actions('edit'),
+   object.ai_settings__v.object_actions('edit'),
+   object.ai_settings__v.vector_sync_scope__v.field_actions('edit'),
+   vault_actions.search('suggest')
+);

@@ -1,0 +1,3 @@
+Typeaction submit__v (
+   action('sample_inventory__v.submit__v')
+);

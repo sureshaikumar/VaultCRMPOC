@@ -1,0 +1,4 @@
+Typefield allocation_impact_quantity__v (
+   source('custom'),
+   required(false)
+);

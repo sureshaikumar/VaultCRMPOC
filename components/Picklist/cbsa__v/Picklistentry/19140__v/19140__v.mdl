@@ -1,0 +1,5 @@
+Picklistentry 19140__v (
+   value('Dalton, GA Metropolitan Statistical Area'),
+   order(312),
+   active(true)
+);

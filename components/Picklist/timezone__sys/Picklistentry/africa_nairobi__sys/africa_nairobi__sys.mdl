@@ -1,0 +1,5 @@
+Picklistentry africa_nairobi__sys (
+   value('(GMT+03:00) Eastern African Time (Africa/Nairobi)'),
+   order(200),
+   active(true)
+);

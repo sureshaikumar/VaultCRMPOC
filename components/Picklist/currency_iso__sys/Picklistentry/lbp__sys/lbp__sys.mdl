@@ -1,0 +1,5 @@
+Picklistentry lbp__sys (
+   value('LBP'),
+   order(104),
+   active(true)
+);

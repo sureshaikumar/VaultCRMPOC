@@ -1,0 +1,6 @@
+Picklistentry sm-05__v (
+   value('Fiorentino'),
+   order(4204),
+   active(true),
+   controlling_entries('sm__v')
+);

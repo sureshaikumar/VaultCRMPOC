@@ -1,0 +1,8 @@
+RECREATE Objectvalidation action_item__v.action_item_due_date__v (
+   label('Action Item Due Date'),
+   active(true),
+   expression('isBlank(due_date__v) || start_date__v <= due_date__v || isBlank(start_date__v)'),
+   description('Action item due date must be the same day as or later than the start date.'),
+   error_message('The due date must be the same day as or later than the start date.'),
+   error_location('due_date__v')
+);

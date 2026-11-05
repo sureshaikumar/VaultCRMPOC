@@ -1,0 +1,5 @@
+Picklistentry object__sys (
+   value('Object'),
+   order(1),
+   active(true)
+);

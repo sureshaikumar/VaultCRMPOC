@@ -1,0 +1,6 @@
+Picklistentry mw-lk__v (
+   value('Likoma'),
+   order(3219),
+   active(true),
+   controlling_entries('mw__v')
+);

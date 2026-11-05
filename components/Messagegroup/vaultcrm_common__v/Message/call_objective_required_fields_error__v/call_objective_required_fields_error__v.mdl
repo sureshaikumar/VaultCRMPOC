@@ -1,0 +1,6 @@
+Message call_objective_required_fields_error__v (
+   label(),
+   active(true),
+   default_value('The following fields are required to Save/Submit an ${eppv_object_type_label} or ${pi_object_type_label} ${call_objective_label}:'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ro-dj__v (
+   value('Dolj'),
+   order(3733),
+   active(true),
+   controlling_entries('ro__v')
+);

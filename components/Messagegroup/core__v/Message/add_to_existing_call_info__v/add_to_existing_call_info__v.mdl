@@ -1,0 +1,6 @@
+Message add_to_existing_call_info__v (
+   label(),
+   active(true),
+   default_value('Enter the following information to add to an existing call'),
+   system_managed(false)
+);

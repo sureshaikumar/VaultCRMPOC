@@ -1,0 +1,6 @@
+Picklistentry pw-100__v (
+   value('Kayangel'),
+   order(3678),
+   active(true),
+   controlling_entries('pw__v')
+);

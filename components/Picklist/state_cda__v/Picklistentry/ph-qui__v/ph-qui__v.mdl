@@ -1,0 +1,6 @@
+Picklistentry ph-qui__v (
+   value('Quirino'),
+   order(3596),
+   active(true),
+   controlling_entries('ph__v')
+);

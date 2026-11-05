@@ -1,0 +1,5 @@
+Objectlifecyclerole vendor__v (
+   active(true),
+   application_role('Applicationrole.vendor__v'),
+   permissions()
+);

@@ -1,0 +1,6 @@
+Picklistentry az-gor__v (
+   value('Goranboy'),
+   order(158),
+   active(true),
+   controlling_entries('az__v')
+);

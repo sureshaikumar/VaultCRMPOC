@@ -1,0 +1,6 @@
+Message actions_menu__v (
+   label(),
+   active(true),
+   default_value('Actions menu'),
+   system_managed(false)
+);

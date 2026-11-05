@@ -1,0 +1,6 @@
+Message case_save_system_error__v (
+   label(),
+   active(true),
+   default_value('A system error was encountered attempting to save: Return to the Case Details tab to resolve.'),
+   system_managed(false)
+);

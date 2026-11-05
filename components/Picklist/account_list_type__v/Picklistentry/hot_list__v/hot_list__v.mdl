@@ -1,0 +1,5 @@
+Picklistentry hot_list__v (
+   value('Hot List'),
+   order(0),
+   active(true)
+);

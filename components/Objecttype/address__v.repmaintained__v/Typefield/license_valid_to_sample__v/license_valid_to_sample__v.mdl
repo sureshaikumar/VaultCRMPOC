@@ -1,0 +1,4 @@
+Typefield license_valid_to_sample__v (
+   source('custom'),
+   required(false)
+);

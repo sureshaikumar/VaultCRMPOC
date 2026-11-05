@@ -1,0 +1,6 @@
+Message close_window_to_continue__v (
+   label(),
+   active(true),
+   default_value('Please close this window and refresh Vault CRM to continue.'),
+   system_managed(false)
+);

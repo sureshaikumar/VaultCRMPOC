@@ -1,0 +1,14 @@
+Picklistentry rtahd__v (
+   value('Radiation Therapy'),
+   order(1671),
+   active(true),
+   controlling_entries('az__v',
+         'bg__v',
+         'eg__v',
+         'ge__v',
+         'hu__v',
+         'jo__v',
+         'nz__v',
+         'ua__v',
+         'us__v')
+);

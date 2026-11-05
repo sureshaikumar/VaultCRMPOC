@@ -1,0 +1,12 @@
+RECREATE Picklist em_attendee_attendee_type__v (
+   label('Attendee Type'),
+   active(true),
+   Picklistentry(@Picklistentry/account__v.mdl),
+   Picklistentry(@Picklistentry/child_account__v.mdl),
+   Picklistentry(@Picklistentry/person__v.mdl),
+   Picklistentry(@Picklistentry/user__v.mdl),
+   Picklistentry(@Picklistentry/walk_in__v.mdl),
+   Picklistentry(@Picklistentry/online_registrant__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

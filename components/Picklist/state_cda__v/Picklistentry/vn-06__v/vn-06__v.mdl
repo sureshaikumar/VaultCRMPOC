@@ -1,0 +1,6 @@
+Picklistentry vn-06__v (
+   value('Yên Bái'),
+   order(4917),
+   active(true),
+   controlling_entries('vn__v')
+);

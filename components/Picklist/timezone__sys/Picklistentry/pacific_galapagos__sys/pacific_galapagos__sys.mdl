@@ -1,0 +1,5 @@
+Picklistentry pacific_galapagos__sys (
+   value('(GMT-06:00) Galapagos Time (Pacific/Galapagos)'),
+   order(56),
+   active(true)
+);

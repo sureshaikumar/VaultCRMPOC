@@ -1,0 +1,6 @@
+Message concur_call_expense_successes__v (
+   label(),
+   active(true),
+   default_value('Call Expense Successes'),
+   system_managed(false)
+);

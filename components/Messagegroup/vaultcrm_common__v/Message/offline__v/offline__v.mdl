@@ -1,0 +1,6 @@
+Message offline__v (
+   label(),
+   active(true),
+   default_value('Offline'),
+   system_managed(false)
+);

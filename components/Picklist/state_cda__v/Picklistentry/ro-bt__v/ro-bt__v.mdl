@@ -1,0 +1,6 @@
+Picklistentry ro-bt__v (
+   value('Botoșani'),
+   order(3724),
+   active(true),
+   controlling_entries('ro__v')
+);

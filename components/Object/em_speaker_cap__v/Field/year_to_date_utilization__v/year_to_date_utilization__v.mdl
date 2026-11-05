@@ -1,0 +1,22 @@
+Field year_to_date_utilization__v (
+   label('Year to Date Utilization'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Typefield case_category__v (
+   source('standard'),
+   required(true),
+   pickentries('Picklist.case_category__v.adverse_event__v',
+         'Picklist.case_category__v.financial__v',
+         'Picklist.case_category__v.general__v',
+         'Picklist.case_category__v.medical_inquiry__v',
+         'Picklist.case_category__v.order__v',
+         'Picklist.case_category__v.other__v',
+         'Picklist.case_category__v.product__v',
+         'Picklist.case_category__v.product_quality_complaint__v',
+         'Picklist.case_category__v.sample__v',
+         'Picklist.case_category__v.technical_support__v')
+);

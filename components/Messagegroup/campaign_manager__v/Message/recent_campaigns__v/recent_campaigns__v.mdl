@@ -1,0 +1,6 @@
+Message recent_campaigns__v (
+   label(),
+   active(true),
+   default_value('Recent Campaigns'),
+   system_managed(false)
+);

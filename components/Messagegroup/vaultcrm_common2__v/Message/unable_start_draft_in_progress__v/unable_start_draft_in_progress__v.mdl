@@ -1,0 +1,6 @@
+Message unable_start_draft_in_progress__v (
+   label(),
+   active(true),
+   default_value('Unable to start a new draft when one is in progress'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Picklistentry imaci__v (
+   value('Internal Medicine and Clinical Immunology'),
+   order(784),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

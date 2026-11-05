@@ -1,0 +1,6 @@
+Message type__sys (
+   label(),
+   active(true),
+   default_value('Type'),
+   system_managed(true)
+);

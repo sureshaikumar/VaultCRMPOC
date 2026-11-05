@@ -1,0 +1,20 @@
+Field audience_url_on24__v (
+   label('Audience URL On24'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Field used to store the On24 audience url'),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('LinkFormat("new_window")'),
+   control_binding()
+);

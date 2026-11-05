@@ -1,0 +1,5 @@
+Picklistentry 33260__v (
+   value('Midland, TX Metropolitan Statistical Area'),
+   order(858),
+   active(true)
+);

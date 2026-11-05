@@ -1,0 +1,4 @@
+Typefield location_child__v (
+   source('standard'),
+   required(false)
+);

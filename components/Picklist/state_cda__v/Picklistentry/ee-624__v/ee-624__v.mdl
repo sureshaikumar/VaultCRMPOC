@@ -1,0 +1,6 @@
+Picklistentry ee-624__v (
+   value('Pärnu'),
+   order(1116),
+   active(true),
+   controlling_entries('ee__v')
+);

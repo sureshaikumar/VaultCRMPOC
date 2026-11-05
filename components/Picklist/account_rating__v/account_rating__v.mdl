@@ -1,0 +1,9 @@
+RECREATE Picklist account_rating__v (
+   label('Rating'),
+   active(true),
+   Picklistentry(@Picklistentry/hot__v.mdl),
+   Picklistentry(@Picklistentry/warm__v.mdl),
+   Picklistentry(@Picklistentry/cold__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message edit_mode_details__v (
+   label(),
+   active(true),
+   default_value('Edit ${mode} Details'),
+   system_managed(false)
+);

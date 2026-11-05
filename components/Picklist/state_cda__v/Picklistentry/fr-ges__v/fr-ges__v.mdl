@@ -1,0 +1,6 @@
+Picklistentry fr-ges__v (
+   value('Grand-Est'),
+   order(1425),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-092__v (
+   value('Podčetrtek'),
+   order(4066),
+   active(true),
+   controlling_entries('si__v')
+);

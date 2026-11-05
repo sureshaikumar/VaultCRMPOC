@@ -1,0 +1,19 @@
+Field expense_estimate_layout__v (
+   label('Expense Estimate Layout'),
+   type('String'),
+   active(true),
+   description('The page layout that should be used when a user views or edits an Expense Estimate record for an event. The layout will be based on the user''s profile or role as defined in this Event Layout record.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

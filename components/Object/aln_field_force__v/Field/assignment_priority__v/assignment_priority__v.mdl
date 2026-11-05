@@ -1,0 +1,22 @@
+Field assignment_priority__v (
+   label('Assignment Priority'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(100),
+   min_value(0),
+   scale(0),
+   help_content('This field determines the priority of a field force within its group for the purpose of assignment exclusivity.'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

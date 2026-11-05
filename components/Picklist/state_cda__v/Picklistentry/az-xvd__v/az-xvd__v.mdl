@@ -1,0 +1,6 @@
+Picklistentry az-xvd__v (
+   value('Xocavənd'),
+   order(209),
+   active(true),
+   controlling_entries('az__v')
+);

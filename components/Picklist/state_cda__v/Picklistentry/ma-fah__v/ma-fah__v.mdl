@@ -1,0 +1,6 @@
+Picklistentry ma-fah__v (
+   value('Fahs-Anjra'),
+   order(2796),
+   active(true),
+   controlling_entries('ma__v')
+);

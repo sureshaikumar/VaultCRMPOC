@@ -1,0 +1,6 @@
+Picklistentry nr-09__v (
+   value('Ewa'),
+   order(3420),
+   active(true),
+   controlling_entries('nr__v')
+);

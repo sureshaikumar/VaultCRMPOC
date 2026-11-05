@@ -1,0 +1,6 @@
+Message rewrite_direct__v (
+   label(),
+   active(true),
+   default_value('Direct'),
+   system_managed(false)
+);

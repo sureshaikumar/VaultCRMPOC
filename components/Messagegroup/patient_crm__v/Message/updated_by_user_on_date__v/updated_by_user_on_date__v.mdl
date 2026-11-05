@@ -1,0 +1,6 @@
+Message updated_by_user_on_date__v (
+   label(),
+   active(true),
+   default_value('Updated by ${user} on ${date}'),
+   system_managed(false)
+);

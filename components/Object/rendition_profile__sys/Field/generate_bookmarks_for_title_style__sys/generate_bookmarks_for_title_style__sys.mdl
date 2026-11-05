@@ -1,0 +1,17 @@
+Field generate_bookmarks_for_title_style__sys (
+   label('Generate bookmarks for Title Style'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, Vault generates bookmarks for Title Style. These bookmarks appear at the root level in the hierarchy, grouping headings 1 through 9 and caption bookmarks.'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

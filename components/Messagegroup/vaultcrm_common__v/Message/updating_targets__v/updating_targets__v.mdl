@@ -1,0 +1,6 @@
+Message updating_targets__v (
+   label(),
+   active(true),
+   default_value('Updating targets for your campaign...'),
+   system_managed(false)
+);

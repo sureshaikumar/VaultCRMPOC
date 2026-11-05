@@ -1,0 +1,8 @@
+RECREATE Picklist console_application_transfer_type__v (
+   label('Console Application Transfer Type'),
+   active(true),
+   Picklistentry(@Picklistentry/cold__v.mdl),
+   Picklistentry(@Picklistentry/warm__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

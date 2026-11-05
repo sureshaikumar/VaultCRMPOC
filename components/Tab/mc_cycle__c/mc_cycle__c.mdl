@@ -1,0 +1,15 @@
+RECREATE Tab mc_cycle__c (
+   active(true),
+   all_view_label('All MC Cycle'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('MC Cycle'),
+   modal_create_record(false),
+   my_view_label('My MC Cycle'),
+   object('mc_cycle__v'),
+   order(5100),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent MC Cycle')
+);

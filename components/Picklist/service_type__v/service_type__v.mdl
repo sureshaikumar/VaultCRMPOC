@@ -1,0 +1,9 @@
+RECREATE Picklist service_type__v (
+   label('Service Type'),
+   active(true),
+   Picklistentry(@Picklistentry/program__v.mdl),
+   Picklistentry(@Picklistentry/training__v.mdl),
+   Picklistentry(@Picklistentry/travel__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

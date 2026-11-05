@@ -1,0 +1,5 @@
+Picklistentry 17860__v (
+   value('Columbia, MO Metropolitan Statistical Area'),
+   order(113),
+   active(true)
+);

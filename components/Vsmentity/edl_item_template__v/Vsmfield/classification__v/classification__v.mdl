@@ -1,0 +1,13 @@
+Vsmfield classification__v (
+   label('Document Classification'),
+   active(true),
+   description('The document classification associated with this EDL item template, representing the third level of the document type hierarchy (Type > Subtype > Classification). Use this to filter or identify templates scoped to a specific document classification.'),
+   example_values(),
+   synonyms('doc classification',
+         'document class',
+         'classification'),
+   target('classification__v'),
+   target_label('Document Classification'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

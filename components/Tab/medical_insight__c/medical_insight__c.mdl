@@ -1,0 +1,15 @@
+RECREATE Tab medical_insight__c (
+   active(true),
+   all_view_label('All Medical Insight'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Medical Insight'),
+   modal_create_record(false),
+   my_view_label('My Medical Insight'),
+   object('medical_insight__v'),
+   order(7700),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Medical Insight')
+);

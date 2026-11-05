@@ -1,0 +1,6 @@
+Message template_could_not_be_sent__v (
+   label(),
+   active(true),
+   default_value('${template_name} could not be sent.'),
+   system_managed(false)
+);

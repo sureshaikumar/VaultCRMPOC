@@ -1,0 +1,6 @@
+Message crm_integration_align_user__v (
+   label(),
+   active(true),
+   default_value('Align User'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Picklistentry pmafr__v (
+   value('Physical Medicine and Functional Rehabilitation'),
+   order(1541),
+   active(true),
+   controlling_entries('ma__v',
+         'sn__v')
+);

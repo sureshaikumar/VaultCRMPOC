@@ -1,0 +1,14 @@
+Vsmfield source_edl_template__v (
+   label('Source EDL Template'),
+   active(true),
+   description('Reference to the EDL template from which this EDL was created. Identifies the standardized template used to define the structure and expected document types for this EDL, enabling traceability back to the governing template.'),
+   example_values(),
+   synonyms('EDL template',
+         'template',
+         'source template',
+         'based on template'),
+   target('source_edl_template__v'),
+   target_label('Source EDL Template'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

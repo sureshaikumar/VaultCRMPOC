@@ -1,0 +1,4 @@
+Typefield registrant_email__sys (
+   source('standard'),
+   required(true)
+);

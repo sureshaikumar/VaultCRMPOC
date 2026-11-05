@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_loader_load_complete__v (
+   label('Loader Job Success'),
+   active(true),
+   description('Loader job success template.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Loader Job completed'),
+   notification('<p>Your Loader Job has completed</p><p>${vaultLoaderNumSuccesses} ${vaultLoaderNumFailures}</p><p>Details:</p><ul><li>CSV File: <a href="${vaultLoaderFileLink}">${vaultLoaderFileName}</a></li><li>Action Type: ${vaultLoaderActionType}</li><li>Object Type: ${vaultLoaderObjectType}</li><li>Record Migration Mode: ${vaultLoaderRecordMigrationMode}</li><li>Document Migration Mode: ${vaultLoaderDocumentMigrationMode}</li><li>Load Start Time: ${vaultLoaderStartTime} </li><li>Duration: ${vaultLoaderDuration} (${vaultLoaderRecordsPerSecond} records per second)</li></ul>'),
+   email_body('<p>Your Loader Job has completed</p><p>Details:</p><ul><li>CSV File: <a href="${vaultLoaderFileLink}">${vaultLoaderFileName}</a></li><li>Action Type: ${vaultLoaderActionType}</li><li>Object Type: ${vaultLoaderObjectType}</li><li>Record Migration Mode: ${vaultLoaderRecordMigrationMode}</li><li>Document Migration Mode: ${vaultLoaderDocumentMigrationMode}</li><li>Load Start Time: ${vaultLoaderStartTime} </li><li>Duration: ${vaultLoaderDuration} (${vaultLoaderRecordsPerSecond} records per second)</li><li>${vaultLoaderNumSuccesses}</li><li>${vaultLoaderNumFailures} </li></ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

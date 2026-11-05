@@ -1,0 +1,6 @@
+Picklistentry gn-f__v (
+   value('Faranah'),
+   order(1726),
+   active(true),
+   controlling_entries('gn__v')
+);

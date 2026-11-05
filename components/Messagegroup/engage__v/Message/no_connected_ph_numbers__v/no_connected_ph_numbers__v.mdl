@@ -1,0 +1,6 @@
+Message no_connected_ph_numbers__v (
+   label(),
+   active(true),
+   default_value('No connected phone numbers.'),
+   system_managed(false)
+);

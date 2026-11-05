@@ -1,0 +1,6 @@
+RECREATE Securityprofile crm_ai_int__v (
+   label('CRM AI Integration'),
+   active(true),
+   description(),
+   permission_sets('crm_ai_permission__v')
+);

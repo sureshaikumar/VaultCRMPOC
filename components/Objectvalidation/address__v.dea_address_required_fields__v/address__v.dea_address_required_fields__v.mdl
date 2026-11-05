@@ -1,0 +1,13 @@
+RECREATE Objectvalidation address__v.dea_address_required_fields__v (
+   label('DEA Address Required Fields'),
+   active(true),
+   expression('dea_address__v!=true ||
+                  (Not(IsBlank(Trim(dea_schedule__v))) && Not(IsBlank(Trim(dea__v))) && Not(IsBlank(Trim(Text(dea_status__v)))) && Not(IsBlank(dea_expiration_date__v))) ||
+                      account__vr.ispersonaccount__v!=true'),
+   description('DEA Number, DEA Schedule, DEA Status, and DEA Expiration Date are required when creating a DEA Address.  if any of these fields is not populated, display an error.'),
+   error_message('The DEA Number, DEA Schedule, DEA Status, and DEA Expiration Date are required when creating a DEA Address.'),
+   error_location('dea__v',
+      'dea_expiration_date__v',
+      'dea_schedule__v',
+      'dea_status__v')
+);

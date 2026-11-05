@@ -1,0 +1,15 @@
+Field logo__v (
+   label('Logo'),
+   type('Attachment'),
+   active(true),
+   description('The logo to show for this X-Page.'),
+   required(false),
+   help_content('The logo to show for this X-Page.'),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

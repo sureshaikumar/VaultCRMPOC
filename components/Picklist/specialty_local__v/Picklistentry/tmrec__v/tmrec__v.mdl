@@ -1,0 +1,7 @@
+Picklistentry tmrec__v (
+   value('Travel Medicine'),
+   order(1871),
+   active(true),
+   controlling_entries('pt__v',
+         'th__v')
+);

@@ -1,0 +1,4 @@
+Typefield vehicle__v (
+   source('standard'),
+   required(false)
+);

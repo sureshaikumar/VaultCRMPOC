@@ -1,0 +1,6 @@
+Picklistentry az-cal__v (
+   value('Cəlilabad'),
+   order(152),
+   active(true),
+   controlling_entries('az__v')
+);

@@ -1,0 +1,18 @@
+Field consent_expires_in__v (
+   label('Consent Expires In'),
+   type('Picklist'),
+   active(true),
+   description('Sets the Opt_Expiration_Date_vod on Multichannel_Consent_vod for Opt ins from the Capture_Datetime_vod. If NULL, then the Opt_Expiration_Date_vod is NULL as well.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.consent_type_consent_expires_in__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

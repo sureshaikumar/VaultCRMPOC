@@ -1,0 +1,5 @@
+Picklistentry 3m_pharmaceuticals_division__v (
+   value('3M Pharmaceuticals Division'),
+   order(0),
+   active(true)
+);

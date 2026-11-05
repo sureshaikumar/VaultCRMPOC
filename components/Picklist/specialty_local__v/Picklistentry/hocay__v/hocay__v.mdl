@@ -1,0 +1,6 @@
+Picklistentry hocay__v (
+   value('Hygiene of Children and Youth'),
+   order(728),
+   active(true),
+   controlling_entries('sk__v')
+);

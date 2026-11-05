@@ -1,0 +1,22 @@
+RECREATE Objecttype campaign_query_builder__v.base__v (
+   label('Base Campaign Query Builder'),
+   label_plural('Base Campaign Query Builders'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/campaign__v.mdl),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/query_exclude__v.mdl),
+   Typefield(@Typefield/query_include__v.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

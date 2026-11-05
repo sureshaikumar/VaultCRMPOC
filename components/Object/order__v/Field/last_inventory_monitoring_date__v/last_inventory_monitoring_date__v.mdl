@@ -1,0 +1,17 @@
+Field last_inventory_monitoring_date__v (
+   label('Last Inventory Monitoring Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Pulls the last Inventory Monitoring date (Inventory_Monitoring.Inventory_Monitoring_Date_vod__c) into the Order Header'),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

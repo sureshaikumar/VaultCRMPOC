@@ -1,0 +1,16 @@
+RECREATE Vsmentity user_role__v (
+   label('User Role'),
+   active(true),
+   description('Represents a role assigned to users within the Vault system, assigning additional permissions via associated Permission Sets. User Roles allow additional permissions to be granted to individual users without changing permissions in Security Profiles (which would affect a greater number of users).'),
+   synonyms('role',
+      'user roles',
+      'access role',
+      'permission role'),
+   target('Object.user_role__sys'),
+   target_label('User Role'),
+   Vsmfield(@Vsmfield/application_role__v.mdl),
+   Vsmfield(@Vsmfield/description__v.mdl),
+   Vsmfield(@Vsmfield/user__v.mdl),
+   Vsmrelationship(@Vsmrelationship/application_role__v.mdl),
+   Vsmrelationship(@Vsmrelationship/user__v.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry olc_model_account_rule__sys (
+   value('Model Account Rule'),
+   order(54),
+   active(true)
+);

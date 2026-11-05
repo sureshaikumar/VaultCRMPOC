@@ -1,0 +1,6 @@
+Message job_name__v (
+   label(),
+   active(true),
+   default_value('Job Name'),
+   system_managed(false)
+);

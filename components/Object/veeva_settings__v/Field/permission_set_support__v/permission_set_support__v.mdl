@@ -1,0 +1,18 @@
+Field permission_set_support__v (
+   label('PermissionSet Support'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('When checked, turns on Veeva support for PermissionSets. See field description for additional requirements.'),
+   list_column(false),
+   order(242),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

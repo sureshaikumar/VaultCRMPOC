@@ -1,0 +1,18 @@
+Field lock__v (
+   label('Lock'),
+   type('Boolean'),
+   active(true),
+   description('If the "Locked" field is set to true, only users with the "Modify All Data" privilege can edit the "Address Line 1(Name)" field or delete the record. If the "Locked" field is null, false or absent, then the trigger should do nothing. The "Locked" field wo'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(43),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

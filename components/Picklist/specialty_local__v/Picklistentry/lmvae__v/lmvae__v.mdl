@@ -1,0 +1,6 @@
+Picklistentry lmvae__v (
+   value('Laboratory Medicine / Virology'),
+   order(854),
+   active(true),
+   controlling_entries('qa__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry kh-1__v (
+   value('Banteay Mean Chey [Bântéay Méanchey]'),
+   order(2410),
+   active(true),
+   controlling_entries('kh__v')
+);

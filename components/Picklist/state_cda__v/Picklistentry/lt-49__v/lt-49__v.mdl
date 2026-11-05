@@ -1,0 +1,6 @@
+Picklistentry lt-49__v (
+   value('Švenčionys'),
+   order(2667),
+   active(true),
+   controlling_entries('lt__v')
+);

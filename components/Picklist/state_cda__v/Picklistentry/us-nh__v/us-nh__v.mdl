@@ -1,0 +1,6 @@
+Picklistentry us-nh__v (
+   value('New Hampshire'),
+   order(4824),
+   active(true),
+   controlling_entries('us__v')
+);

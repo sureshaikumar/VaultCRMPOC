@@ -1,0 +1,4 @@
+Typefield high_focus_score__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,4 @@
+Typefield display_future_meetings__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Pagelink aln_veeva_workday_org_view__v (
+   label('Veeva Workday Org View'),
+   url('https://valign-sbx-us-east-2-prod-app.veevavault.com/entities/veevaWorkdayOrgDetail.xhtml?vaulturl={{Vault.domain}}&vaultid={{Vault.id}}&pageMode=VIEW&objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.aln_veeva_workday_org__v'),
+   active(true),
+   disable_type_select(false)
+);

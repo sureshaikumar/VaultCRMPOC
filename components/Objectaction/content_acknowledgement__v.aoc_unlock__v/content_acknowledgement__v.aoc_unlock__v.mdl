@@ -1,0 +1,8 @@
+RECREATE Objectaction content_acknowledgement__v.aoc_unlock__v (
+   label('Unlock'),
+   description('This action unlocks the record for editing.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.contentacknowledgement.actions.ContentAcknowledgementUnlockAction'),
+   active(true),
+   available_all_states(false)
+);

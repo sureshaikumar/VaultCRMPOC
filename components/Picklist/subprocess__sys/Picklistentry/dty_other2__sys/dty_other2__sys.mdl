@@ -1,0 +1,6 @@
+Picklistentry dty_other2__sys (
+   value('Other'),
+   order(112),
+   active(true),
+   controlling_entries('dlc_patient_intake__sys')
+);

@@ -1,0 +1,6 @@
+Message zoom_attendance_process_history__v (
+   label(),
+   active(true),
+   default_value('Zoom Attendance Process History'),
+   system_managed(false)
+);

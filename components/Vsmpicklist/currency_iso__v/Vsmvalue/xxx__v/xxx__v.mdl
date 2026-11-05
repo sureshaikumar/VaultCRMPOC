@@ -1,0 +1,10 @@
+Vsmvalue xxx__v (
+   label('XXX'),
+   active(true),
+   description('Used to indicate that a transaction has no currency or is non-monetary in nature, per the ISO 4217 standard designation for transactions where currency is not applicable.'),
+   synonyms('no currency',
+         'currency-less transaction',
+         'non-monetary'),
+   target('xxx__sys'),
+   target_label('XXX')
+);

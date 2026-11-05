@@ -1,0 +1,19 @@
+Field territory__v (
+   label('Territory Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content('Related to Remove from Territory functionality. When submitting a remove from territory request, the territory id is stamped on the DCR record. This is helpful for reporting and is used by Veeva Align.'),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

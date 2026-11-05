@@ -1,0 +1,6 @@
+Picklistentry bd-24__v (
+   value('Jaipurhat'),
+   order(253),
+   active(true),
+   controlling_entries('bd__v')
+);

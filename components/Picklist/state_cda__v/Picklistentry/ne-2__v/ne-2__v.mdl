@@ -1,0 +1,6 @@
+Picklistentry ne-2__v (
+   value('Diffa'),
+   order(3313),
+   active(true),
+   controlling_entries('ne__v')
+);

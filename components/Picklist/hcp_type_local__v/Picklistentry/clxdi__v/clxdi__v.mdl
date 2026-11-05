@@ -1,0 +1,5 @@
+Picklistentry clxdi__v (
+   value('Clinical Dietitian'),
+   order(22),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message cannot_update_status__v (
+   label(),
+   active(true),
+   default_value('You cannot update the status of a previously canceled task.  If the target should be reopened or repurchased, please contact your business admin to reopen or repurchase the target.'),
+   system_managed(false)
+);

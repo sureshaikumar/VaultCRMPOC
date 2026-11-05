@@ -1,0 +1,5 @@
+Picklistentry duplicate__sys (
+   value('Duplicate'),
+   order(0),
+   active(true)
+);

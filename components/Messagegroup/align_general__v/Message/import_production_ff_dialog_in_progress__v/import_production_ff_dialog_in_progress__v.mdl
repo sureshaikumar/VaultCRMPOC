@@ -1,0 +1,6 @@
+Message import_production_ff_dialog_in_progress__v (
+   label(),
+   active(true),
+   default_value('Importing production field forces and assignments'),
+   system_managed(false)
+);

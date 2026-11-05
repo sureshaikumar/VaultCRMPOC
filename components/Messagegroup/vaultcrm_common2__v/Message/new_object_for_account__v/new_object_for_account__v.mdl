@@ -1,0 +1,6 @@
+Message new_object_for_account__v (
+   label(),
+   active(true),
+   default_value('New ${object} for ${account}'),
+   system_managed(false)
+);

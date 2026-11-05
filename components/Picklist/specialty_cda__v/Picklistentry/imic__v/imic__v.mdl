@@ -1,0 +1,5 @@
+Picklistentry imic__v (
+   value('Intensive Care Medicine'),
+   order(35),
+   active(true)
+);

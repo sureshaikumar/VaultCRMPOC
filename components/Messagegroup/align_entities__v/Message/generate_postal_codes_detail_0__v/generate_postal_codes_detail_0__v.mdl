@@ -1,0 +1,6 @@
+Message generate_postal_codes_detail_0__v (
+   label(),
+   active(true),
+   default_value('The following will occur:'),
+   system_managed(false)
+);

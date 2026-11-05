@@ -1,0 +1,6 @@
+Message quantity_per_case__v (
+   label(),
+   active(true),
+   default_value('${quantity} per Case'),
+   system_managed(false)
+);

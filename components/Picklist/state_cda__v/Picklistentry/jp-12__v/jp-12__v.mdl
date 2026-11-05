@@ -1,0 +1,6 @@
+Picklistentry jp-12__v (
+   value('Chiba'),
+   order(2318),
+   active(true),
+   controlling_entries('jp__v')
+);

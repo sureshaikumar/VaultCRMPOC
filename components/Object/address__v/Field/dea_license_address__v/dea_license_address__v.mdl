@@ -1,0 +1,17 @@
+Field dea_license_address__v (
+   label('DEA License Address'),
+   type('LongText'),
+   active(true),
+   description('DEA License Address is the Address stored on the physical DEA License for the Account.  The DEA License Address field is compared to the Address fields for this specific record and is used in the DEA License validation for controlled substance sampling.'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

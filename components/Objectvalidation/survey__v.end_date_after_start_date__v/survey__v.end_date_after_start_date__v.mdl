@@ -1,0 +1,8 @@
+RECREATE Objectvalidation survey__v.end_date_after_start_date__v (
+   label('End Date After Start Date'),
+   active(true),
+   expression('start_date__v <= end_date__v'),
+   description('Survey end date must be later than start date.'),
+   error_message('The end date must be later than the start date.'),
+   error_location('end_date__v')
+);

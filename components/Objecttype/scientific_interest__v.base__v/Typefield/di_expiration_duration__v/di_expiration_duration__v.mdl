@@ -1,0 +1,4 @@
+Typefield di_expiration_duration__v (
+   source('standard'),
+   required(false)
+);

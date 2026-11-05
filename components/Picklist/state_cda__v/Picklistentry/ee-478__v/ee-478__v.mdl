@@ -1,0 +1,6 @@
+Picklistentry ee-478__v (
+   value('Muhu'),
+   order(1099),
+   active(true),
+   controlling_entries('ee__v')
+);

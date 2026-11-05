@@ -1,0 +1,18 @@
+Field product__c (
+   label('Product'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Picklist of products associated with this tactic - for display in the related list'),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.product_tactic_product__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

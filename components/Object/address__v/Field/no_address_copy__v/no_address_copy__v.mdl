@@ -1,0 +1,18 @@
+Field no_address_copy__v (
+   label('No Address Copy'),
+   type('Boolean'),
+   active(true),
+   description('Override automated push of address.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(62),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

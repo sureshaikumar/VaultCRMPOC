@@ -1,0 +1,10 @@
+Vsmvalue irr__v (
+   label('IRR'),
+   active(true),
+   description('The Iranian Rial (IRR), the official currency of Iran, used for transactions and financial records involving business operations in Iran.'),
+   synonyms('Iranian rial',
+         'rial',
+         'Iran currency'),
+   target('irr__sys'),
+   target_label('IRR')
+);

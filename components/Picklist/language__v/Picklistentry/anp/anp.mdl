@@ -1,0 +1,5 @@
+Picklistentry anp (
+   value('Angika'),
+   order(125),
+   active(true)
+);

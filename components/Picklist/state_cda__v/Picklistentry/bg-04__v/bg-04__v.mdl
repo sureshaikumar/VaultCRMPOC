@@ -1,0 +1,6 @@
+Picklistentry bg-04__v (
+   value('Veliko Tarnovo'),
+   order(376),
+   active(true),
+   controlling_entries('bg__v')
+);

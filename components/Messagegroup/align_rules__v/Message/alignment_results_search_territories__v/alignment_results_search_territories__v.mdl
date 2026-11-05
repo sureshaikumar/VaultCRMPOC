@@ -1,0 +1,6 @@
+Message alignment_results_search_territories__v (
+   label(),
+   active(true),
+   default_value('Search Territories'),
+   system_managed(false)
+);

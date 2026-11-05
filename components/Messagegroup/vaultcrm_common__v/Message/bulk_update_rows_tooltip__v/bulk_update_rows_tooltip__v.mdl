@@ -1,0 +1,6 @@
+Message bulk_update_rows_tooltip__v (
+   label(),
+   active(true),
+   default_value('${selected_records} rows will be updated'),
+   system_managed(false)
+);

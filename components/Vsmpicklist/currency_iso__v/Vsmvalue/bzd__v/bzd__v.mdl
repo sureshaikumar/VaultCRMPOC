@@ -1,0 +1,9 @@
+Vsmvalue bzd__v (
+   label('BZD'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Belize.'),
+   synonyms('Belize Dollar',
+         'BZ Dollar'),
+   target('bzd__sys'),
+   target_label('BZD')
+);

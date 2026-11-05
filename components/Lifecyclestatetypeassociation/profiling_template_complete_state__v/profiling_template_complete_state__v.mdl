@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation profiling_template_complete_state__v (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.profiling_template_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.closed_state__v'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

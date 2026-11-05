@@ -1,0 +1,6 @@
+Message territory_project_mismatch__v (
+   label(),
+   active(true),
+   default_value('Model Account Exclusion''s Project (${exclusion_project}) must be the same as Model Territory''s Project (${territory_project}).'),
+   system_managed(false)
+);

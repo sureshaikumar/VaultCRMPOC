@@ -1,0 +1,20 @@
+Field record_type_name__v (
+   label('Record Type Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('Record Type DeveloperName of the record. Field is
+   referenced in trigger.'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry prxdm__v (
+   value('Pediatric Rehabilitation / Developmental Medicine'),
+   order(1447),
+   active(true),
+   controlling_entries('qa__v')
+);

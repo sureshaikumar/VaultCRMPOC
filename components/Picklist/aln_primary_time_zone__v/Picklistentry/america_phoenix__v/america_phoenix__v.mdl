@@ -1,0 +1,5 @@
+Picklistentry america_phoenix__v (
+   value('America/Phoenix'),
+   order(7),
+   active(true)
+);

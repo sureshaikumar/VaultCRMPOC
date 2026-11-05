@@ -1,0 +1,4 @@
+Typefield crm_managed_account_types__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 25420__v (
+   value('Harrisburg-Carlisle, PA Metropolitan Statistical Area'),
+   order(573),
+   active(true)
+);

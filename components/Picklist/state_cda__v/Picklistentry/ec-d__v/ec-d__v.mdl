@@ -1,0 +1,6 @@
+Picklistentry ec-d__v (
+   value('Orellana'),
+   order(1043),
+   active(true),
+   controlling_entries('ec__v')
+);

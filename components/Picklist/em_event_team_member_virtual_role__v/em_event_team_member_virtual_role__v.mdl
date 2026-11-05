@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_team_member_virtual_role__v (
+   label('Virtual Role'),
+   active(true),
+   Picklistentry(@Picklistentry/host__v.mdl),
+   Picklistentry(@Picklistentry/alternative_host__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

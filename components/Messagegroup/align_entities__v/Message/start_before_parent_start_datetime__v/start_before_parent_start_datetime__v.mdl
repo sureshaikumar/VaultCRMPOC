@@ -1,0 +1,6 @@
+Message start_before_parent_start_datetime__v (
+   label(),
+   active(true),
+   default_value('Start Datetime cannot be before parent record''s Start Datetime.'),
+   system_managed(false)
+);

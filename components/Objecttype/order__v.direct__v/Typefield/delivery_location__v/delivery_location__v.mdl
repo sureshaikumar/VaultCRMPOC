@@ -1,0 +1,4 @@
+Typefield delivery_location__v (
+   source('custom'),
+   required(false)
+);

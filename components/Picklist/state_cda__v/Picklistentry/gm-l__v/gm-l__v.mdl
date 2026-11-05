@@ -1,0 +1,6 @@
+Picklistentry gm-l__v (
+   value('Lower River'),
+   order(1710),
+   active(true),
+   controlling_entries('gm__v')
+);

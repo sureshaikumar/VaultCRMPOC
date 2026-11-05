@@ -1,0 +1,17 @@
+Field preprocess_pdf__sys (
+   label('Generate compliant Source PDF rendition'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, non-compliant PDF documents will be rendered according to ICH Standards. Learn more < https://vaulthelp.vod309.com/wordpress/userhelp/document-renditions/configuring-rendition-profiles/>'),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

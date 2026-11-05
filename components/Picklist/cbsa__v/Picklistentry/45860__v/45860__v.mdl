@@ -1,0 +1,5 @@
+Picklistentry 45860__v (
+   value('Torrington, CT Micropolitan Statistical Area'),
+   order(64),
+   active(true)
+);

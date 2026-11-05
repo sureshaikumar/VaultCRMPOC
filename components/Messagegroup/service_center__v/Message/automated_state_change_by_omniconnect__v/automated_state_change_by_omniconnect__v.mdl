@@ -1,0 +1,6 @@
+Message automated_state_change_by_omniconnect__v (
+   label(),
+   active(true),
+   default_value('Automated state change by OmniConnect.'),
+   system_managed(false)
+);

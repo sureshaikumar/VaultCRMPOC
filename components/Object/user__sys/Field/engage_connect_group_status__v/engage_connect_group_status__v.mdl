@@ -1,0 +1,18 @@
+Field engage_connect_group_status__v (
+   label('Engage Connect Group Provisioning Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Specifies the status of the request to add, update or delete an Engage Connect Group from a user.'),
+   list_column(false),
+   order(68),
+   multi_value(false),
+   picklist('Picklist.user_engage_connect_group_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+RECREATE Page translate_question_page__v (
+   label('Translate Question'),
+   active(true),
+   client_distribution(),
+   default_client_code('translate_question_page__v'),
+   description('Custom app page for translate question'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.survey.controls.page.TranslateQuestionPageController'),
+   url_path_name('translate-question')
+);

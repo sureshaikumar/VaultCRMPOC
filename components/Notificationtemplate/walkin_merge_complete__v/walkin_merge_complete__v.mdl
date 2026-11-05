@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate walkin_merge_complete__v (
+   label('Walk-In Merge Complete'),
+   active(true),
+   description('Notifies the user their Walk-In merge request is successful'),
+   email_preferences('never__sys'),
+   referenced_component('Object.em_attendee__v'),
+   subject('Notification: Walk-In Merge Request Completed'),
+   notification('<p> Your walk-in was successfully merged into the existing attendee ${Custom.attendee_name__v}.</p>'),
+   email_body('<p> Your walk-in was successfully merged into the existing attendee ${Custom.attendee_name__v}.</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

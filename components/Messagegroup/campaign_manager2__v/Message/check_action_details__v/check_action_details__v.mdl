@@ -1,0 +1,6 @@
+Message check_action_details__v (
+   label(),
+   active(true),
+   default_value('${action_name}: ${node_action_details}'),
+   system_managed(false)
+);

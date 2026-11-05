@@ -1,0 +1,6 @@
+Message cancel_sample_order_not_owner__v (
+   label(),
+   active(true),
+   default_value('You may not cancel an Order that you do not own.'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field case_category_tab_visibility__v (
+   label('Case Category Tab Visibility'),
+   type('Picklist'),
+   active(true),
+   description('Used to select case category values to control visibility of an X-Page in a case view when the matching category is selected for the case.'),
+   required(false),
+   unique(false),
+   help_content('Used to select case category values to control visibility of an X-Page in a case view when the matching category is selected for the case.'),
+   list_column(false),
+   order(35),
+   multi_value(true),
+   picklist('Picklist.case_category__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

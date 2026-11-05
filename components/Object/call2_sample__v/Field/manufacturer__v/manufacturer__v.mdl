@@ -1,0 +1,19 @@
+Field manufacturer__v (
+   label('Manufacturer'),
+   type('String'),
+   active(true),
+   description('Name of Manufacturer of the sampled product – stored at the time of sample capture.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

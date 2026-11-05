@@ -1,0 +1,6 @@
+Picklistentry hr-04__v (
+   value('Karlovačka županija'),
+   order(1845),
+   active(true),
+   controlling_entries('hr__v')
+);

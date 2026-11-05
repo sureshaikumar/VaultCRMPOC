@@ -1,0 +1,18 @@
+Field mccp_activity_type_switch__v (
+   label('MCCP Activity Type Switch'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Last setting of the My/Team Activity switch'),
+   list_column(false),
+   order(47),
+   multi_value(false),
+   picklist('Picklist.preferences_mccp_activity_type_switch__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

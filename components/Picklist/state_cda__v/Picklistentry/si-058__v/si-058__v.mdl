@@ -1,0 +1,6 @@
+Picklistentry si-058__v (
+   value('Lenart'),
+   order(4032),
+   active(true),
+   controlling_entries('si__v')
+);

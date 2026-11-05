@@ -1,0 +1,5 @@
+Picklistentry restolar__c (
+   value('Restolar'),
+   order(1),
+   active(true)
+);

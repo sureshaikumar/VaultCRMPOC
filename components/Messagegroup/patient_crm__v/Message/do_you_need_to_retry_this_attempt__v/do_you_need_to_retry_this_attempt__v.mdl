@@ -1,0 +1,6 @@
+Message do_you_need_to_retry_this_attempt__v (
+   label(),
+   active(true),
+   default_value('Do you need to retry this attempt?'),
+   system_managed(false)
+);

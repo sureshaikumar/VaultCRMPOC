@@ -1,0 +1,20 @@
+Field start_time_local__v (
+   label('Start Time (Local)'),
+   type('String'),
+   subtype('Time'),
+   active(true),
+   description('Local start time of the event'),
+   required(false),
+   unique(false),
+   max_length(8),
+   help_content('Local start time of the event'),
+   list_column(false),
+   order(123),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('TimeFormat()'),
+   control_binding()
+);

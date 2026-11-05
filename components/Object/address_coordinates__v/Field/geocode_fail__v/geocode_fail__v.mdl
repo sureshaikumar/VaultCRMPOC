@@ -1,0 +1,22 @@
+Field geocode_fail__v (
+   label('GeoCode Fail'),
+   type('Number'),
+   active(true),
+   description('Indicates that the address could not be geocoded'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

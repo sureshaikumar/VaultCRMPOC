@@ -1,0 +1,63 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_geography__v">
+    <vault:section title="Geography Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="administrative_area__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="geography_type__v" />
+            <vault:field reference="legacy_align_id__v" />
+            <vault:field reference="map_shape__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Geography Territories" name="geography_territories__c">
+        <vault:relatedObject relationship="aln_geography_territories__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="end_datetime__v" width="200px" />
+            <vault:field reference="start_datetime__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="geography_object__v" width="200px" />
+            <vault:field reference="geography_object_type__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Footprint Geographies" name="footprint_geographies__c">
+        <vault:relatedObject relationship="aln_footprint_geographies__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="footprint__v" width="200px" />
+            <vault:field reference="geography_object__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="source__v" width="200px" />
+            <vault:field reference="geography_object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Footprint Geographies" name="model_footprint_geographies__c">
+        <vault:relatedObject relationship="aln_footprint_geography_model__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="geography_object__v" width="200px" />
+            <vault:field reference="source__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="geography_object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Geography Territories" name="model_geography_territories__c">
+        <vault:relatedObject relationship="aln_geography_territory_model__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="end_datetime__v" width="200px" />
+            <vault:field reference="geography_object__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="start_datetime__v" width="200px" />
+            <vault:field reference="territory_model__v" width="200px" />
+            <vault:field reference="geography_object_type__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,6 @@
+Message bold__v (
+   label(),
+   active(true),
+   default_value('Bold'),
+   system_managed(false)
+);

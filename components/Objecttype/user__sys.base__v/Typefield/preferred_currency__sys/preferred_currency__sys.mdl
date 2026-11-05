@@ -1,0 +1,4 @@
+Typefield preferred_currency__sys (
+   source('standard'),
+   required(false)
+);

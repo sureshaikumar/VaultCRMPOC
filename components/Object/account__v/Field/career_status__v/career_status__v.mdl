@@ -1,0 +1,18 @@
+Field career_status__v (
+   label('Career Status'),
+   type('Picklist'),
+   active(true),
+   description('Picklist of current career status'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(22),
+   multi_value(false),
+   picklist('Picklist.account_career_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

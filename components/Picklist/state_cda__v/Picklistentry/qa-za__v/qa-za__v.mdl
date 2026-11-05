@@ -1,0 +1,6 @@
+Picklistentry qa-za__v (
+   value('Az̧ Za̧`āyin'),
+   order(3715),
+   active(true),
+   controlling_entries('qa__v')
+);

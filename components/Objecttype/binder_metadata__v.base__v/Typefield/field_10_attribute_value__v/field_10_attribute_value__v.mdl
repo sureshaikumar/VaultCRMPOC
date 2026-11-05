@@ -1,0 +1,4 @@
+Typefield field_10_attribute_value__v (
+   source('standard'),
+   required(false)
+);

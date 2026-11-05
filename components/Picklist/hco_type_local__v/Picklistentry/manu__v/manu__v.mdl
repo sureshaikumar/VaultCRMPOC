@@ -1,0 +1,5 @@
+Picklistentry manu__v (
+   value('Manufacturer'),
+   order(143),
+   active(true)
+);

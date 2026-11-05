@@ -1,0 +1,6 @@
+Message objective__sys (
+   label(),
+   active(true),
+   default_value('Objective'),
+   system_managed(true)
+);

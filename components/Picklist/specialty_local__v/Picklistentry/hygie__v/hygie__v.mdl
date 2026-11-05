@@ -1,0 +1,13 @@
+Picklistentry hygie__v (
+   value('Hygiene'),
+   order(722),
+   active(true),
+   controlling_entries('az__v',
+         'fr__v',
+         'ma__v',
+         'mc__v',
+         'md__v',
+         'me__v',
+         'ro__v',
+         'rs__v')
+);

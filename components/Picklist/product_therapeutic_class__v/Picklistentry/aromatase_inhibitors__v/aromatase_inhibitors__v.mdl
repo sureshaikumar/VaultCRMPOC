@@ -1,0 +1,5 @@
+Picklistentry aromatase_inhibitors__v (
+   value('Aromatase Inhibitors'),
+   order(76),
+   active(true)
+);

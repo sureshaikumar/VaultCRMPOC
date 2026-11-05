@@ -1,0 +1,13 @@
+Vsmfield lifecycle__v (
+   label('Lifecycle'),
+   active(true),
+   description('The lifecycle governing this glossary definition record, controlling the valid states and transitions it can go through. Determines the approval and review workflow applied to the definition.'),
+   example_values(),
+   synonyms('lifecycle',
+         'workflow',
+         'process lifecycle'),
+   target('lifecycle__v'),
+   target_label('Lifecycle'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

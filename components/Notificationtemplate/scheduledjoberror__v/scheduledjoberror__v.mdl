@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate scheduledjoberror__v (
+   label('scheduledJobError'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('${jobTitle} did not finish successfully'),
+   notification('As an Owner of this job, this notification is to inform you that the job was unable to complete its execution (ID: ${jobInstanceId}), and ended with a status of: ${jobStatusAsLinkToDetail}.'),
+   email_body('<p>${notificationMessage}</p><br><br>Job Details:<br>${failuresList}<br><br>The full execution log is available here: ${jobHistoryLogLink} <p>If you require additional information, please contact Vault Support.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

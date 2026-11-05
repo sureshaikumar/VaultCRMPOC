@@ -1,0 +1,6 @@
+Message prerequisites_text_longitude__v (
+   label(),
+   active(true),
+   default_value('Longitude is populated'),
+   system_managed(false)
+);

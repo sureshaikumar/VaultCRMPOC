@@ -1,0 +1,6 @@
+Message remove_target_confirmation__v (
+   label(),
+   active(true),
+   default_value('Would you like to remove ${target_name}?'),
+   system_managed(false)
+);

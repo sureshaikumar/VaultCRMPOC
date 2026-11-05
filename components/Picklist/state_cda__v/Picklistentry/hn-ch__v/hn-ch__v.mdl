@@ -1,0 +1,6 @@
+Picklistentry hn-ch__v (
+   value('Choluteca'),
+   order(1825),
+   active(true),
+   controlling_entries('hn__v')
+);

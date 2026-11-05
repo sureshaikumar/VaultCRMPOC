@@ -1,0 +1,6 @@
+Picklistentry ge-im__v (
+   value('Imereti'),
+   order(1679),
+   active(true),
+   controlling_entries('ge__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry vn-24__v (
+   value('Quảng Bình'),
+   order(4927),
+   active(true),
+   controlling_entries('vn__v')
+);

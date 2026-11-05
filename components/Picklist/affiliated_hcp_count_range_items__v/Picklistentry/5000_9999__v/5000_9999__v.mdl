@@ -1,0 +1,5 @@
+Picklistentry 5000_9999__v (
+   value('5,000 to 9,999'),
+   order(8),
+   active(true)
+);

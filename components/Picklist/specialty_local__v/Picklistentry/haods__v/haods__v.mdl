@@ -1,0 +1,6 @@
+Picklistentry haods__v (
+   value('Hospital Administration'),
+   order(716),
+   active(true),
+   controlling_entries('in__v')
+);

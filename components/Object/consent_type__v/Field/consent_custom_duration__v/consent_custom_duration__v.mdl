@@ -1,0 +1,22 @@
+Field consent_custom_duration__v (
+   label('Consent Custom Duration'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content('Duration is in months'),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

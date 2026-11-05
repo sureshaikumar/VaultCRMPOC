@@ -1,0 +1,5 @@
+Picklistentry 45980__v (
+   value('Troy, AL Micropolitan Statistical Area'),
+   order(62),
+   active(true)
+);

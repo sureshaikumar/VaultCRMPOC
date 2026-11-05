@@ -1,0 +1,6 @@
+Message concur_expense_line_to_entry__v (
+   label(),
+   active(true),
+   default_value('Expense Line to Expense Entry'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Page opportunity_overview_page__v (
+   label('Opportunity Overview'),
+   active(true),
+   client_distribution(),
+   default_client_code('opportunity_overview_page__v'),
+   description('View Opportunity Overview'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.opportunitymanagement.controls.page.OpportunityOverviewPageController'),
+   url_path_name('opportunity-overview')
+);

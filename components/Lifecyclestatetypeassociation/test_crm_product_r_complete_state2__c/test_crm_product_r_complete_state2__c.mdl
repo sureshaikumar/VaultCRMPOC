@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation test_crm_product_r_complete_state2__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.test_crm_product_request_1_lifecycle__c'),
+   object_lifecycle_state(),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

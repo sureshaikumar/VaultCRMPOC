@@ -1,0 +1,6 @@
+Message italic__v (
+   label(),
+   active(true),
+   default_value('Italic'),
+   system_managed(false)
+);

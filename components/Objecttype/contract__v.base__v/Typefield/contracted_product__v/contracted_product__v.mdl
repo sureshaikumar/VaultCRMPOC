@@ -1,0 +1,4 @@
+Typefield contracted_product__v (
+   source('standard'),
+   required(false)
+);

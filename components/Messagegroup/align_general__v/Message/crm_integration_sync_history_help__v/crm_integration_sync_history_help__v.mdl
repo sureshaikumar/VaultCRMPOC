@@ -1,0 +1,6 @@
+Message crm_integration_sync_history_help__v (
+   label(),
+   active(true),
+   default_value('This section lists the most recent CRM Integration jobs, status of each job, and error logs.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ir-16__v (
+   value('Īlām'),
+   order(2068),
+   active(true),
+   controlling_entries('ir__v')
+);

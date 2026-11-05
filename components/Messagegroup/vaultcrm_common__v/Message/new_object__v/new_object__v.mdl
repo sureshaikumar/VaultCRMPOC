@@ -1,0 +1,6 @@
+Message new_object__v (
+   label(),
+   active(true),
+   default_value('New ${object_label}'),
+   system_managed(false)
+);

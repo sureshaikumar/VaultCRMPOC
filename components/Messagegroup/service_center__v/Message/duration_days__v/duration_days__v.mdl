@@ -1,0 +1,6 @@
+Message duration_days__v (
+   label(),
+   active(true),
+   default_value('${duration_days}d ${duration_hours}h ${duration_minutes}m ${duration_seconds}s'),
+   system_managed(false)
+);

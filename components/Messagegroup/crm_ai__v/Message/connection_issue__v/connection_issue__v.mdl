@@ -1,0 +1,6 @@
+Message connection_issue__v (
+   label(),
+   active(true),
+   default_value('There was a connection issue!'),
+   system_managed(false)
+);

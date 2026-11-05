@@ -1,0 +1,6 @@
+Picklistentry tr-33__v (
+   value('Mersin'),
+   order(4491),
+   active(true),
+   controlling_entries('tr__v')
+);

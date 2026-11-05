@@ -1,0 +1,6 @@
+Picklistentry pw-212__v (
+   value('Melekeok'),
+   order(3680),
+   active(true),
+   controlling_entries('pw__v')
+);

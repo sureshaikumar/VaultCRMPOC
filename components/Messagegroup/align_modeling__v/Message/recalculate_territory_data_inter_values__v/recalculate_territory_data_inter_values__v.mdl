@@ -1,0 +1,6 @@
+Message recalculate_territory_data_inter_values__v (
+   label(),
+   active(true),
+   default_value('Interaction values are recalculated'),
+   system_managed(false)
+);

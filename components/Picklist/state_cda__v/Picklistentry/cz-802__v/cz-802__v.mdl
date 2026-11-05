@@ -1,0 +1,6 @@
+Picklistentry cz-802__v (
+   value('Frýdek-Místek'),
+   order(898),
+   active(true),
+   controlling_entries('cz__v')
+);

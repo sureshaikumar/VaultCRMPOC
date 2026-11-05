@@ -1,0 +1,6 @@
+Message device_push_notifications_toggle__v (
+   label(),
+   active(true),
+   default_value('Device Push Notifications'),
+   system_managed(false)
+);

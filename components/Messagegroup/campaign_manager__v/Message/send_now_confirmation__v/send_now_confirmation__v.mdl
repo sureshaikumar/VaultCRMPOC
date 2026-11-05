@@ -1,0 +1,6 @@
+Message send_now_confirmation__v (
+   label(),
+   active(true),
+   default_value('You are about to send an email to'),
+   system_managed(false)
+);

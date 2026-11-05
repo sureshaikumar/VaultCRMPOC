@@ -1,0 +1,6 @@
+Picklistentry ne-7__v (
+   value('Zinder'),
+   order(3318),
+   active(true),
+   controlling_entries('ne__v')
+);

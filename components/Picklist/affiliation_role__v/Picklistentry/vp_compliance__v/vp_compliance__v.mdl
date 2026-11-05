@@ -1,0 +1,5 @@
+Picklistentry vp_compliance__v (
+   value('VP Compliance'),
+   order(14),
+   active(true)
+);

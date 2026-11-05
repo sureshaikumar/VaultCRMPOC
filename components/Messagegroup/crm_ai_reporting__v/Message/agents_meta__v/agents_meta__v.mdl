@@ -1,0 +1,6 @@
+Message agents_meta__v (
+   label(),
+   active(true),
+   default_value('${executions} executions · ${avg} avg tokens/execution'),
+   system_managed(false)
+);

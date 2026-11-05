@@ -1,0 +1,8 @@
+RECREATE Objectaction territory__v.run_assignment_rules__v (
+   label('Run Assignment Rules'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.territorymanagement.assignmentrules.actions.RunAssignmentRulesAction'),
+   active(true),
+   available_all_states(true)
+);

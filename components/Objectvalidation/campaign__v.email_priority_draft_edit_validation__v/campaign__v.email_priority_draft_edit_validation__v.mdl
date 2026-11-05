@@ -1,0 +1,8 @@
+RECREATE Objectvalidation campaign__v.email_priority_draft_edit_validation__v (
+   label('Email Priority Draft Edit Validation'),
+   active(true),
+   expression('If(IsChanged(email_address_priority__v), campaign_status__v=''draft__v'', true)'),
+   description('Validates campaign is in draft when editing email address priority field'),
+   error_message('Unable to change Email Address Priority: Status is not Draft'),
+   error_location('email_address_priority__v')
+);

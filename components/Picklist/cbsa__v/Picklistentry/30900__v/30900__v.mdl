@@ -1,0 +1,5 @@
+Picklistentry 30900__v (
+   value('Logansport, IN Micropolitan Statistical Area'),
+   order(470),
+   active(true)
+);

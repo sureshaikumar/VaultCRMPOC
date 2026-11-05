@@ -1,0 +1,6 @@
+Message last_check_in_note__v (
+   label(),
+   active(true),
+   default_value('Last Check-In Note'),
+   system_managed(false)
+);

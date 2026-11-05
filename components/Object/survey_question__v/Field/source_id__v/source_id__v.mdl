@@ -1,0 +1,19 @@
+Field source_id__v (
+   label('Source ID'),
+   type('String'),
+   active(true),
+   description('This field is used to set an identifier on parent questions. This field is referenced in the branching condition logic.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,11 @@
+Objectlifecyclestate frozen__v (
+   label('Frozen'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('Rules in this state are not included in assignment previews
+but their assignments will be maintained.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

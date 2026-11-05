@@ -1,0 +1,5 @@
+Picklistentry 26220__v (
+   value('Hood River, OR Micropolitan Statistical Area'),
+   order(742),
+   active(true)
+);

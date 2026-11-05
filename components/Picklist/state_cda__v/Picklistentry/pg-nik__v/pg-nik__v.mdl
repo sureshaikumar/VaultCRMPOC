@@ -1,0 +1,6 @@
+Picklistentry pg-nik__v (
+   value('New Ireland'),
+   order(3508),
+   active(true),
+   controlling_entries('pg__v')
+);

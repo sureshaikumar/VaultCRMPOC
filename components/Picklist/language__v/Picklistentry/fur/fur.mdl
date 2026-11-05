@@ -1,0 +1,5 @@
+Picklistentry fur (
+   value('Friulian'),
+   order(183),
+   active(true)
+);

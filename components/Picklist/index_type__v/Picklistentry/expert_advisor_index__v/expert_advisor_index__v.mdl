@@ -1,0 +1,5 @@
+Picklistentry expert_advisor_index__v (
+   value('Expert Advisor Index'),
+   order(2),
+   active(true)
+);

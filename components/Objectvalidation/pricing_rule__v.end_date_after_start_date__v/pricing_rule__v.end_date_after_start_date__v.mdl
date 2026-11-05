@@ -1,0 +1,10 @@
+RECREATE Objectvalidation pricing_rule__v.end_date_after_start_date__v (
+   label('End Date After Start Date'),
+   active(true),
+   expression('Not(
+    start_date__v > end_date__v
+)'),
+   description('End date cannot be earlier than the start date'),
+   error_message('Start date after end date'),
+   error_location('start_date__v')
+);

@@ -1,0 +1,6 @@
+Message territory_model_vault_crm_instance_null__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Instance cannot be null when Send to CRM = Yes'),
+   system_managed(false)
+);

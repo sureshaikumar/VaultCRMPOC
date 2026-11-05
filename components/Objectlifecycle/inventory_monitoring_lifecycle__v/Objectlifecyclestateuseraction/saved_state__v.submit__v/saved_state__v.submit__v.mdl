@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction saved_state__v.submit__v (
+   label('Submit'),
+   rule(@rule.xml),
+   order(1000)
+);

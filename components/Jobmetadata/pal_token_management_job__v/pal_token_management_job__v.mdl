@@ -1,0 +1,12 @@
+RECREATE Jobmetadata pal_token_management_job__v (
+   label('PAL Integration Token Management'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to manage Vault CRM PAL integration tokens.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.common.palintegration.jobs.PalIntegrationTokenManagementJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

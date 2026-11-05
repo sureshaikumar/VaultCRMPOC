@@ -1,0 +1,6 @@
+Picklistentry do-12__v (
+   value('La Romana'),
+   order(951),
+   active(true),
+   controlling_entries('do__v')
+);

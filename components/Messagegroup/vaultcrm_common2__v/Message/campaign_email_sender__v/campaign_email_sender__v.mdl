@@ -1,0 +1,6 @@
+Message campaign_email_sender__v (
+   label(),
+   active(true),
+   default_value('Campaign Email - ${sender_name}'),
+   system_managed(false)
+);

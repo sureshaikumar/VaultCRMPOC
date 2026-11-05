@@ -1,0 +1,18 @@
+Field inventory_monitoring_date__v (
+   label('Inventory Monitoring Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Date the Inventory Monitoring record was captured. Default: current date.'),
+   list_column(false),
+   order(15),
+   default_value('today()'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

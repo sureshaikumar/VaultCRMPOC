@@ -1,0 +1,10 @@
+RECREATE Tab pre_call__v (
+   active(false),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Pre-Call'),
+   order(197),
+   page('Page.pre_call__v'),
+   parent(),
+   url(@url.txt)
+);

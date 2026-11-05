@@ -1,0 +1,6 @@
+Picklistentry lv-089__v (
+   value('Saulkrastu novads'),
+   order(2726),
+   active(true),
+   controlling_entries('lv__v')
+);

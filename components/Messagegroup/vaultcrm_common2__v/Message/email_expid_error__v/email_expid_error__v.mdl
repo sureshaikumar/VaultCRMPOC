@@ -1,0 +1,6 @@
+Message email_expid_error__v (
+   label(),
+   active(true),
+   default_value('This email will not be sent'),
+   system_managed(false)
+);

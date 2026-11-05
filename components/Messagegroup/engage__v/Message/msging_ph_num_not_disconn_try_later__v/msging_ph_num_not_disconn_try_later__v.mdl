@@ -1,0 +1,6 @@
+Message msging_ph_num_not_disconn_try_later__v (
+   label(),
+   active(true),
+   default_value('Messaging Phone Number could not be disconnected. Try again later.'),
+   system_managed(false)
+);

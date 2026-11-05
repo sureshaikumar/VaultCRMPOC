@@ -1,0 +1,20 @@
+Field online_tab_url__v (
+   label('Online_Tab_URL'),
+   type('String'),
+   active(true),
+   description('The URL a user is navigated to when the Go Online option is selected in the VMobile iPad application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(240),
+   default_value('"Online_Tab_URL;;iPad"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

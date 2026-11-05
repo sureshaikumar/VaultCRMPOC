@@ -1,0 +1,6 @@
+Message unable_to_remove_user_ph_num_try_later__v (
+   label(),
+   active(true),
+   default_value('Unable to remove users from this phone number. Try again later.'),
+   system_managed(false)
+);

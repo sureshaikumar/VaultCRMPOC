@@ -1,0 +1,5 @@
+Picklistentry smip__v (
+   value('Special Medical Institution'),
+   order(236),
+   active(true)
+);

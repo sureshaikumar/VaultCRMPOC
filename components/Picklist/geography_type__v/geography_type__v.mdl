@@ -1,0 +1,8 @@
+RECREATE Picklist geography_type__v (
+   label('Geography Type'),
+   active(true),
+   Picklistentry(@Picklistentry/postal_code__v.mdl),
+   Picklistentry(@Picklistentry/brick__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

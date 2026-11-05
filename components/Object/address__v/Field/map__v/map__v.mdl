@@ -1,0 +1,22 @@
+Field map__v (
+   label('Map'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description('Displays a hyperlink to view the address in Google maps.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(86),
+   formula('Hyperlink(Concat(''https://maps.google.com/maps?f=q&hl=en&q='', Substitute(name__v, '' '', ''+''), ''+'', postal_code_cda__v), ''map'', ''new_window'')'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

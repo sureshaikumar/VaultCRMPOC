@@ -1,0 +1,7 @@
+Picklistentry heecb__v (
+   value('Health Ecology'),
+   order(663),
+   active(true),
+   controlling_entries('hr__v',
+         'sk__v')
+);

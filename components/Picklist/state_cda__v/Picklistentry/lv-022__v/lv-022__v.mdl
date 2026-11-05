@@ -1,0 +1,6 @@
+Picklistentry lv-022__v (
+   value('Cēsu novads'),
+   order(2706),
+   active(true),
+   controlling_entries('lv__v')
+);

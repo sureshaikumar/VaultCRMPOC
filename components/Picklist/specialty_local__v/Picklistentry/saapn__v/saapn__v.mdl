@@ -1,0 +1,6 @@
+Picklistentry saapn__v (
+   value('Speech and Audiology'),
+   order(1790),
+   active(true),
+   controlling_entries('bw__v')
+);

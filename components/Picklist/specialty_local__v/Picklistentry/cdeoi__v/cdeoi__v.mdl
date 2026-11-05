@@ -1,0 +1,6 @@
+Picklistentry cdeoi__v (
+   value('Communicable Disease Epidemiology'),
+   order(306),
+   active(true),
+   controlling_entries('my__v')
+);

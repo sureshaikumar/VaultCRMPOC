@@ -1,0 +1,6 @@
+Message object_cycle_targeting_rule_model__v (
+   label(),
+   active(true),
+   default_value('Model Cycle Targeting Rule'),
+   system_managed(false)
+);

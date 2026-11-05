@@ -1,0 +1,19 @@
+Field dea__v (
+   label('DEA #'),
+   type('String'),
+   active(true),
+   description('The DEA # stores the DEA License # for the Physician receving Controlled Substance Samples.'),
+   required(false),
+   unique(false),
+   max_length(9),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

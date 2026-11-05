@@ -1,0 +1,16 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.answer_library_design__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="answer_text__sys" />
+            <vault:field reference="library_question__sys" />
+            <vault:field reference="order__sys" />
+            <vault:field reference="reference_media__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

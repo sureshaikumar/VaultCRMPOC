@@ -1,0 +1,6 @@
+Message device_offline__v (
+   label(),
+   active(true),
+   default_value('Your device is currently offline.'),
+   system_managed(false)
+);

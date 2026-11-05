@@ -1,0 +1,4 @@
+Typefield disable_affiliation_autocreate__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,12 @@
+Agentaction capture_commercial_insight__v (
+   label('Capture Commercial Insight'),
+   active(false),
+   api_access(false),
+   description('Takes the transcription and transposes it into a Commercial Insight record.'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

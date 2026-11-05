@@ -1,0 +1,6 @@
+Message hco_information__v (
+   label(),
+   active(true),
+   default_value('HCO Information'),
+   system_managed(false)
+);

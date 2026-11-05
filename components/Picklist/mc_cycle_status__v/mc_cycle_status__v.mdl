@@ -1,0 +1,9 @@
+RECREATE Picklist mc_cycle_status__v (
+   label('MC Cycle Status'),
+   active(true),
+   Picklistentry(@Picklistentry/planned__v.mdl),
+   Picklistentry(@Picklistentry/in_progress__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

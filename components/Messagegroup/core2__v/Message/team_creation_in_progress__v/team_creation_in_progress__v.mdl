@@ -1,0 +1,6 @@
+Message team_creation_in_progress__v (
+   label(),
+   active(true),
+   default_value('The Team creation is already in progress.'),
+   system_managed(false)
+);

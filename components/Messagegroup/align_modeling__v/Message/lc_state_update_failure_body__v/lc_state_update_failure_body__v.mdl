@@ -1,0 +1,6 @@
+Message lc_state_update_failure_body__v (
+   label(),
+   active(true),
+   default_value('Your request to move ${0} to the next lifecycle state completed with the following errors:'),
+   system_managed(false)
+);

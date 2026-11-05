@@ -1,0 +1,10 @@
+RECREATE Pagelink report_record_detail_to_viewer_redirect__c (
+   label('Report Record Detail to Viewer Redirect'),
+   description('Redirects Report Object record detail pages to the Report viewer page'),
+   url('https://{{Vault.domain}}/ui/#reporting/viewer/{{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.report__sys'),
+   active(true),
+   disable_type_select(false)
+);

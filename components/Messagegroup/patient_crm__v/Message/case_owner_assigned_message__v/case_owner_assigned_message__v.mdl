@@ -1,0 +1,6 @@
+Message case_owner_assigned_message__v (
+   label(),
+   active(true),
+   default_value('${name} was assigned as the Case Owner'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield expense_post_status__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message template_preview_not_available__v (
+   label(),
+   active(true),
+   default_value('Template Preview Not Available'),
+   system_managed(false)
+);

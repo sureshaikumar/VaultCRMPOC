@@ -1,0 +1,6 @@
+Picklistentry imaha__v (
+   value('Internal Medicine and Hematology and Oncology'),
+   order(790),
+   active(true),
+   controlling_entries('de__v')
+);

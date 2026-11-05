@@ -1,0 +1,6 @@
+Picklistentry ke-37__v (
+   value('Samburu'),
+   order(2390),
+   active(true),
+   controlling_entries('ke__v')
+);

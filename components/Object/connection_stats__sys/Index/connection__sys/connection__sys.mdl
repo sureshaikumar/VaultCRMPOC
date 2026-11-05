@@ -1,0 +1,5 @@
+Index connection__sys (
+   description(),
+   fields('connection__sys'),
+   label('Connection')
+);

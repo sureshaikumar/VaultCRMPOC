@@ -1,0 +1,6 @@
+Message more_than_10_documents__v (
+   label(),
+   active(true),
+   default_value('More than 10 documents cannot be uploaded at once.'),
+   system_managed(false)
+);

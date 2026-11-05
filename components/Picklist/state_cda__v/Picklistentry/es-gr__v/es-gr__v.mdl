@@ -1,0 +1,6 @@
+Picklistentry es-gr__v (
+   value('Granada'),
+   order(1219),
+   active(true),
+   controlling_entries('es__v')
+);

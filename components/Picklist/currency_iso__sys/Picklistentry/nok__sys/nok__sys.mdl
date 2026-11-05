@@ -1,0 +1,5 @@
+Picklistentry nok__sys (
+   value('NOK'),
+   order(135),
+   active(true)
+);

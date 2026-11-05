@@ -1,0 +1,6 @@
+Picklistentry in-kl__v (
+   value('Kerala'),
+   order(2013),
+   active(true),
+   controlling_entries('in__v')
+);

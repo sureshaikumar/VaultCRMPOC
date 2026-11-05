@@ -1,0 +1,19 @@
+Field child_account_external_id__v (
+   label('Child Account External ID'),
+   type('String'),
+   active(true),
+   description('Child Account External ID'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,12 @@
+RECREATE Picklist custom_mapping_type__v (
+   label('Custom Mapping Type'),
+   active(true),
+   Picklistentry(@Picklistentry/object__v.mdl),
+   Picklistentry(@Picklistentry/field__v.mdl),
+   Picklistentry(@Picklistentry/picklist__v.mdl),
+   Picklistentry(@Picklistentry/picklist_value__v.mdl),
+   Picklistentry(@Picklistentry/object_type__v.mdl),
+   Picklistentry(@Picklistentry/relationship__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

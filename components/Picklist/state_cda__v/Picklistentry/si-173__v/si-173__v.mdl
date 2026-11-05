@@ -1,0 +1,6 @@
+Picklistentry si-173__v (
+   value('Polzela'),
+   order(4146),
+   active(true),
+   controlling_entries('si__v')
+);

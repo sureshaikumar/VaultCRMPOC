@@ -1,0 +1,5 @@
+Picklistentry darkmaroon__v (
+   value('DarkMaroon'),
+   order(25),
+   active(true)
+);

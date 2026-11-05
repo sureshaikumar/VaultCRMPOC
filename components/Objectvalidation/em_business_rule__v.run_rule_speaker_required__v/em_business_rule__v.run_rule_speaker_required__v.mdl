@@ -1,0 +1,17 @@
+RECREATE Objectvalidation em_business_rule__v.run_rule_speaker_required__v (
+   label('Run Rule on Event Action Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_speaker_engagement_limit_rule__v", true,
+            "em_cross_event_per_speaker_engagement__v", true,
+            "em_speaker_attendance_expense_cap_rul__v", true,
+            "speaker_attendance_product_cap_rule__v", true,
+            "em_per_event_speaker_limit_rule__v", true,
+            "em_per_event_speaker_ratio_rule__v", true,
+            false
+        ) = false || Not(IsBlank(run_rule_event_action__v))'),
+   description('Valid input for run_rule_event_action__v is not added to the Speaker Rule.'),
+   error_message('This field is required.'),
+   error_location('run_rule_event_action__v')
+);

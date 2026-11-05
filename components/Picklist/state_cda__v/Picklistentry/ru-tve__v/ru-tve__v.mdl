@@ -1,0 +1,6 @@
+Picklistentry ru-tve__v (
+   value('Tverskaya oblast'''),
+   order(3860),
+   active(true),
+   controlling_entries('ru__v')
+);

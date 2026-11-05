@@ -1,0 +1,18 @@
+Field clm_nav_bar_hide_content__v (
+   label('CLM_NAV_BAR_HIDE_CONTENT'),
+   type('Boolean'),
+   active(true),
+   description('When checked, when a CLM user displays the navigation bar at the bottom of the iPad’s screen, the top part of the screen will fade out to black to hide the content.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(58),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

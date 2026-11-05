@@ -1,0 +1,6 @@
+Message return_to_vault_crm__v (
+   label(),
+   active(true),
+   default_value('Return to Vault CRM App'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message tomorrow__v (
+   label(),
+   active(true),
+   default_value('Tomorrow'),
+   system_managed(false)
+);

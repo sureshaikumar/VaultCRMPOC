@@ -1,0 +1,5 @@
+Picklistentry atlantic_azores__sys (
+   value('(GMT-01:00) Azores Time (Atlantic/Azores)'),
+   order(132),
+   active(true)
+);

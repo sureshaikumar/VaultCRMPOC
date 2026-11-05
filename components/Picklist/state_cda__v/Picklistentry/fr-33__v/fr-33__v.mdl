@@ -1,0 +1,6 @@
+Picklistentry fr-33__v (
+   value('Gironde'),
+   order(1349),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry sv-un__v (
+   value('La Unión'),
+   order(4280),
+   active(true),
+   controlling_entries('sv__v')
+);

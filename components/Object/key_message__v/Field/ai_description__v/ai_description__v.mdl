@@ -1,0 +1,19 @@
+Field ai_description__v (
+   label('AI Description'),
+   type('String'),
+   active(true),
+   description('A plain-language description that provides AI Agents with the necessary context to interpret the record accurately.'),
+   required(false),
+   unique(false),
+   max_length(500),
+   help_content(),
+   list_column(false),
+   order(53),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

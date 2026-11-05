@@ -1,0 +1,5 @@
+Picklistentry 23980__v (
+   value('Glasgow, KY Micropolitan Statistical Area'),
+   order(377),
+   active(true)
+);

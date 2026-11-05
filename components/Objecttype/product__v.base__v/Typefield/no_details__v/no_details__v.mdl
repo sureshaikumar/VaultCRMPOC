@@ -1,0 +1,4 @@
+Typefield no_details__v (
+   source('standard'),
+   required(false)
+);

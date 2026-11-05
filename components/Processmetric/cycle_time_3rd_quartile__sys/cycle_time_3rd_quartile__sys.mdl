@@ -1,0 +1,9 @@
+RECREATE Processmetric cycle_time_3rd_quartile__sys (
+   label('3rd Quartile'),
+   active(true),
+   default(true),
+   default_type_order(4),
+   description('The 75th percentile of time between the start and end states. Only records that enter the end state are included in this calculation.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.cycle_time__sys')
+);

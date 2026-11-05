@@ -1,0 +1,6 @@
+Message contract_line_product_bound_agreement__v (
+   label(),
+   active(true),
+   default_value('A Contract Line cannot be edited for a Product Bound Agreement Contract.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message admin_no_fls_error__v (
+   label(),
+   active(true),
+   default_value('You do not have permission to access this page. Please contact your admin.'),
+   system_managed(false)
+);

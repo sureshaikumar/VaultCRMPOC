@@ -1,0 +1,6 @@
+Picklistentry phxsp__v (
+   value('Pharmacy Specialty'),
+   order(1528),
+   active(true),
+   controlling_entries('om__v')
+);

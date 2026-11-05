@@ -1,0 +1,18 @@
+Field hco_ownership__v (
+   label('Ownership'),
+   type('Picklist'),
+   active(true),
+   description('Defines the ownership body of an HCO private or public.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(204),
+   multi_value(false),
+   picklist('Picklist.hco_ownership__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

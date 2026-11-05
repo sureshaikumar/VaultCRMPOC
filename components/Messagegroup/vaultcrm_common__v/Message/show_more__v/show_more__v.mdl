@@ -1,0 +1,6 @@
+Message show_more__v (
+   label(),
+   active(true),
+   default_value('Show More'),
+   system_managed(false)
+);

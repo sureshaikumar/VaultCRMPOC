@@ -1,0 +1,7 @@
+Picklistentry catvs__v (
+   value('Cardiac and Thoracic Vascular Surgery'),
+   order(146),
+   active(true),
+   controlling_entries('ch__v',
+         'li__v')
+);

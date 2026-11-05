@@ -1,0 +1,5 @@
+Picklistentry education__v (
+   value('Education'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field submitted_source_system_id__v (
+   label('Submitted Source System ID'),
+   type('String'),
+   active(true),
+   description('Identifier for the submitting external system.'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('"Vault Record"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

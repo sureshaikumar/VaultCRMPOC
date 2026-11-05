@@ -1,0 +1,5 @@
+Picklistentry 36980__v (
+   value('Owensboro, KY Metropolitan Statistical Area'),
+   order(565),
+   active(true)
+);

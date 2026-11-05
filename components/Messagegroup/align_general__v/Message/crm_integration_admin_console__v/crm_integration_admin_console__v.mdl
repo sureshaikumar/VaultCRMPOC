@@ -1,0 +1,6 @@
+Message crm_integration_admin_console__v (
+   label(),
+   active(true),
+   default_value('Align Integration Administration Console'),
+   system_managed(false)
+);

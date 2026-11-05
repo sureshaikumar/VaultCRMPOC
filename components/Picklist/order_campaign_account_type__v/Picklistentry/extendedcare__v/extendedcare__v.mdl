@@ -1,0 +1,5 @@
+Picklistentry extendedcare__v (
+   value('Extended Care'),
+   order(4),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Message no_content_group_record_error__v (
+   label(),
+   active(true),
+   default_value('Reference to non-existing Content Group record'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message immediately__v (
+   label(),
+   active(true),
+   default_value('Immediately'),
+   system_managed(false)
+);

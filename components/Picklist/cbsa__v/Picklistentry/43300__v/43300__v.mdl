@@ -1,0 +1,5 @@
+Picklistentry 43300__v (
+   value('Sherman-Denison, TX Metropolitan Statistical Area'),
+   order(648),
+   active(true)
+);

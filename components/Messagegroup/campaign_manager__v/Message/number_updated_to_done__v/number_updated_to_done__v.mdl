@@ -1,0 +1,6 @@
+Message number_updated_to_done__v (
+   label(),
+   active(true),
+   default_value('${count} updated to done'),
+   system_managed(false)
+);

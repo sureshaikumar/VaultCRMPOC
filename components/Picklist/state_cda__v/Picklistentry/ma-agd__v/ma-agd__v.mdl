@@ -1,0 +1,6 @@
+Picklistentry ma-agd__v (
+   value('Agadir-Ida-Ou-Tanane'),
+   order(2778),
+   active(true),
+   controlling_entries('ma__v')
+);

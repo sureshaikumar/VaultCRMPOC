@@ -1,0 +1,20 @@
+Field unresolved_email__v (
+   label('Email'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('Placeholder for an HCP email address of an HCP that does not exist as a Person Account. Refer to help docs for more information.'),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

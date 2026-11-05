@@ -1,0 +1,14 @@
+Vsmfield include_java_sdk_code__v (
+   label('Include Vault Java SDK Code'),
+   active(true),
+   description('Boolean flag indicating whether Vault Java SDK code (custom Java classes and triggers) is bundled within this outbound package. Set to true when the package contains custom server-side Java logic that must be deployed alongside configuration.'),
+   example_values(),
+   synonyms('include SDK',
+         'SDK code',
+         'Java SDK included',
+         'with SDK'),
+   target('include_java_sdk_code__sys'),
+   target_label('Include Vault Java SDK Code'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

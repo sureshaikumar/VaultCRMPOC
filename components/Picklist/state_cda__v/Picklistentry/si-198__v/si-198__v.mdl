@@ -1,0 +1,6 @@
+Picklistentry si-198__v (
+   value('Makole'),
+   order(4171),
+   active(true),
+   controlling_entries('si__v')
+);

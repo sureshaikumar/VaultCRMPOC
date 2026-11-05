@@ -1,0 +1,6 @@
+Message max_event_budgets__v (
+   label(),
+   active(true),
+   default_value('The maximum number of Event Budgets (20) allowed for cost sharing has been exceeded. Please reduce the number of selected budgets to continue.'),
+   system_managed(false)
+);

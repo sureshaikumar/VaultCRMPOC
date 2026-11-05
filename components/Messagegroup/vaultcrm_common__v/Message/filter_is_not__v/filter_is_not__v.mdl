@@ -1,0 +1,6 @@
+Message filter_is_not__v (
+   label(),
+   active(true),
+   default_value('is not'),
+   system_managed(false)
+);

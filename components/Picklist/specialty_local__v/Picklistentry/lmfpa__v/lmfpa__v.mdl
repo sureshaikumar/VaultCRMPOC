@@ -1,0 +1,6 @@
+Picklistentry lmfpa__v (
+   value('Laboratory Medicine / Forensic Pathology'),
+   order(849),
+   active(true),
+   controlling_entries('qa__v')
+);

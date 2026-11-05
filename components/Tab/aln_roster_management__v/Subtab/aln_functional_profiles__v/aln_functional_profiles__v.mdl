@@ -1,0 +1,10 @@
+Subtab aln_functional_profiles__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Functional Profiles'),
+   order(100),
+   parent('aln_roster_management__v'),
+   send_session_via_post_message(true),
+   url(@url.txt)
+);

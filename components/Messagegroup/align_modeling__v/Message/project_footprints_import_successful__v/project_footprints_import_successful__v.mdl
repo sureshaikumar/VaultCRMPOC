@@ -1,0 +1,6 @@
+Message project_footprints_import_successful__v (
+   label(),
+   active(true),
+   default_value('Successfully finished creating footprints process'),
+   system_managed(false)
+);

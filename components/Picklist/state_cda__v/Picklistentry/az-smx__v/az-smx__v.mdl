@@ -1,0 +1,6 @@
+Picklistentry az-smx__v (
+   value('Samux'),
+   order(199),
+   active(true),
+   controlling_entries('az__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry cycle_time__sys (
+   value('Cycle Time'),
+   order(0),
+   active(true)
+);

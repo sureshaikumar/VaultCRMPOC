@@ -1,0 +1,6 @@
+Picklistentry pnape__v (
+   value('Pediatrics Neonatology and Perinatology'),
+   order(1483),
+   active(true),
+   controlling_entries('id__v')
+);

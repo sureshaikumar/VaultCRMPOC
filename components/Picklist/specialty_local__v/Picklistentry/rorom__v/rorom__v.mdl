@@ -1,0 +1,6 @@
+Picklistentry rorom__v (
+   value('Radiation Oncology Radiation Oncology Malignancy'),
+   order(1669),
+   active(true),
+   controlling_entries('id__v')
+);

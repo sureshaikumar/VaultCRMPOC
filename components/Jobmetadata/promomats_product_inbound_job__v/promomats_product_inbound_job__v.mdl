@@ -1,0 +1,10 @@
+RECREATE Jobmetadata promomats_product_inbound_job__v (
+   label('PromoMats to CRM product inbound job'),
+   active(true),
+   chunk_size(500),
+   description('A job that queries the status of the Product from PromoMats App Family Vaults.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.productintegration.jobs.promomats.PromoMatsProductInboundJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

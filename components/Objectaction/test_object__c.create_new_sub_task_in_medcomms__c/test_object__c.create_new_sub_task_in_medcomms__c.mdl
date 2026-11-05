@@ -1,0 +1,8 @@
+RECREATE Objectaction test_object__c.create_new_sub_task_in_medcomms__c (
+   label('Create New Sub Task in MedComms'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.custom.actions.CreateCRMSubTaskRecordUserAction'),
+   active(true),
+   available_all_states(false)
+);

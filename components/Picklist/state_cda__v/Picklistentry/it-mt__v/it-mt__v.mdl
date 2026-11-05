@@ -1,0 +1,6 @@
+Picklistentry it-mt__v (
+   value('Matera'),
+   order(2230),
+   active(true),
+   controlling_entries('it__v')
+);

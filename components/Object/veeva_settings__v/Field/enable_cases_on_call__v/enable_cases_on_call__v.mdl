@@ -1,0 +1,18 @@
+Field enable_cases_on_call__v (
+   label('ENABLE_CASES_ON_CALL'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(353),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

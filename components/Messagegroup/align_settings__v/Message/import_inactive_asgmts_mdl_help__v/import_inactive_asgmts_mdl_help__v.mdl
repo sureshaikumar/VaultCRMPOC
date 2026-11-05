@@ -1,0 +1,6 @@
+Message import_inactive_asgmts_mdl_help__v (
+   label(),
+   active(true),
+   default_value('Enables importing assignments of inactive accounts from CRM into Align. This is a global production setting only and does not impact modeling behavior.'),
+   system_managed(false)
+);

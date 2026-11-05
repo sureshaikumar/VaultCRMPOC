@@ -1,0 +1,11 @@
+Vsmfield object_detail_view_count__v (
+   label('Object Detail View Count'),
+   active(true),
+   description('Number of times users loaded the detail view for any object record (Product, Study, et cetera) on a given day'),
+   example_values(),
+   synonyms(),
+   target('object_detail_view_count__v'),
+   target_label('Object Detail View Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

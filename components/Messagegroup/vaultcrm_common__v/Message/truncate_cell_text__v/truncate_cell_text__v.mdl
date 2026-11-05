@@ -1,0 +1,6 @@
+Message truncate_cell_text__v (
+   label(),
+   active(true),
+   default_value('Truncate Cell Text'),
+   system_managed(false)
+);

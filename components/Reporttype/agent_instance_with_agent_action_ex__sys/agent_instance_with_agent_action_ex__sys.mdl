@@ -1,0 +1,9 @@
+RECREATE Reporttype agent_instance_with_agent_action_ex__sys (
+   label('Agent Instance with Agent Action Execution'),
+   active(true),
+   description('Agent Instance with Agent Action Executions (Child)'),
+   primary_object('agent_instance__sys'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

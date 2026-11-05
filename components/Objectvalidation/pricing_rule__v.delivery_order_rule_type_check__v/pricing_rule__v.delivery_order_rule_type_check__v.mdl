@@ -1,0 +1,16 @@
+RECREATE Objectvalidation pricing_rule__v.delivery_order_rule_type_check__v (
+   label('Delivery Order Rule Type Check'),
+   active(true),
+   expression('Not(
+    And(
+           delivery_order__v = true,
+           And(
+               Not(object_type__vr.api_name__v = ''limit_rule__v''),
+               Not(object_type__vr.api_name__v = ''payment_terms_rule__v'')
+           )
+    )
+)'),
+   description('Only Limit Rules or Payment Term rules can be flagged as Delivery Order'),
+   error_message('Only Limit Rules or Payment Term rules can be flagged as Delivery Order'),
+   error_location('delivery_order__v')
+);

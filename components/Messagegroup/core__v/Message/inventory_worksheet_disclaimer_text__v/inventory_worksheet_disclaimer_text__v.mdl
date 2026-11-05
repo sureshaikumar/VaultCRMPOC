@@ -1,0 +1,6 @@
+Message inventory_worksheet_disclaimer_text__v (
+   label(),
+   active(true),
+   default_value('The following Sample Inventory is for Sales Reps to capture data. Please record all data in the Online system and submit. Copies of this Sample Inventory may be destroyed.'),
+   system_managed(false)
+);

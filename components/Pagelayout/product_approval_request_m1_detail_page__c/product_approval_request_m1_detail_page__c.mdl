@@ -1,0 +1,8 @@
+RECREATE Pagelayout product_approval_request_m1_detail_page__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Product Approval Request m1 Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

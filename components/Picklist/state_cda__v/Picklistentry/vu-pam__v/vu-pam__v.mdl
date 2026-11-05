@@ -1,0 +1,6 @@
+Picklistentry vu-pam__v (
+   value('Pénama'),
+   order(4976),
+   active(true),
+   controlling_entries('vu__v')
+);

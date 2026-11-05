@@ -1,0 +1,8 @@
+Objectworkflowstep task_review__c (
+   label('Task review'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.decision__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

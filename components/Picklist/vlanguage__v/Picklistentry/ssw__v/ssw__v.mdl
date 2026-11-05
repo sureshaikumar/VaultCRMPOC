@@ -1,0 +1,5 @@
+Picklistentry ssw__v (
+   value('Swati'),
+   order(305),
+   active(false)
+);

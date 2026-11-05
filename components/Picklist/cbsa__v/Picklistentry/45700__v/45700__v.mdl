@@ -1,0 +1,5 @@
+Picklistentry 45700__v (
+   value('Tifton, GA Micropolitan Statistical Area'),
+   order(29),
+   active(true)
+);

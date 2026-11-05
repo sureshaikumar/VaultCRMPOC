@@ -1,0 +1,5 @@
+Picklistentry 25820__v (
+   value('Hereford, TX Micropolitan Statistical Area'),
+   order(700),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry tsi__v (
+   value('Tsimshian'),
+   order(326),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry tier_3__v (
+   value('Tier 3'),
+   order(18),
+   active(true)
+);

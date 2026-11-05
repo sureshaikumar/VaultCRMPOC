@@ -1,0 +1,6 @@
+Message am_merge_accounts_unavailable__v (
+   label(),
+   active(true),
+   default_value('Merge Accounts Unavailable'),
+   system_managed(false)
+);

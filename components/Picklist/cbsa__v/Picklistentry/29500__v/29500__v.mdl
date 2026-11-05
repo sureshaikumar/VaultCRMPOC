@@ -1,0 +1,5 @@
+Picklistentry 29500__v (
+   value('Lamesa, TX Micropolitan Statistical Area'),
+   order(287),
+   active(true)
+);

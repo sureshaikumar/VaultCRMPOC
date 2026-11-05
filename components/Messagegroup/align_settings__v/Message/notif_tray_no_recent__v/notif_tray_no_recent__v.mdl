@@ -1,0 +1,6 @@
+Message notif_tray_no_recent__v (
+   label(),
+   active(true),
+   default_value('No Recent Jobs'),
+   system_managed(false)
+);

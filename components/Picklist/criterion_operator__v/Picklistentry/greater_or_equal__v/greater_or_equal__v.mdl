@@ -1,0 +1,5 @@
+Picklistentry greater_or_equal__v (
+   value('greater than or equals'),
+   order(9),
+   active(true)
+);

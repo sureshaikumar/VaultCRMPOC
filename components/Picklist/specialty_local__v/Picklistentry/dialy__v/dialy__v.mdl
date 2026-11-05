@@ -1,0 +1,6 @@
+Picklistentry dialy__v (
+   value('Dialysis'),
+   order(440),
+   active(true),
+   controlling_entries('kr__v')
+);

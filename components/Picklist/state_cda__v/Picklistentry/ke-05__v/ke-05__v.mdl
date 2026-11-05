@@ -1,0 +1,6 @@
+Picklistentry ke-05__v (
+   value('Elgeyo/Marakwet'),
+   order(2358),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry jo-ba__v (
+   value('Al Balqā’'),
+   order(2300),
+   active(true),
+   controlling_entries('jo__v')
+);

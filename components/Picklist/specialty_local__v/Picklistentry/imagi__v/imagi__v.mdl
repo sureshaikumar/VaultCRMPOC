@@ -1,0 +1,6 @@
+Picklistentry imagi__v (
+   value('Imaging'),
+   order(732),
+   active(true),
+   controlling_entries('us__v')
+);

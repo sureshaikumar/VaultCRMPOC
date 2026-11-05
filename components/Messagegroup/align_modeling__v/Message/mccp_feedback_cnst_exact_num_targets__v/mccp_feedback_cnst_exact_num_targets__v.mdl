@@ -1,0 +1,6 @@
+Message mccp_feedback_cnst_exact_num_targets__v (
+   label(),
+   active(true),
+   default_value('Plan must contain exactly ${target_count} targets. Current total is ${current_count}.'),
+   system_managed(false)
+);

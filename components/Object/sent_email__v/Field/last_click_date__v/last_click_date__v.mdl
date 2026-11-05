@@ -1,0 +1,17 @@
+Field last_click_date__v (
+   label('Last Click'),
+   type('DateTime'),
+   active(true),
+   description('Last_Click_Date_vod is a roll-up summary which captures the date of the last time the email was clicked based on related Email_Activity_vod records. Emails can be clicked multiple times.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(67),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+Tabcollectionitem patients__v (
+   label(),
+   active(true),
+   tabs(),
+   order(20),
+   tab('Tab.patients__v'),
+   type('Tab')
+);

@@ -1,0 +1,6 @@
+Message concur_expense_attribution_person__v (
+   label(),
+   active(true),
+   default_value('If Person'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-glg__v (
+   value('Glasgow City'),
+   order(1524),
+   active(true),
+   controlling_entries('gb__v')
+);

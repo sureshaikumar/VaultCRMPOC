@@ -1,0 +1,6 @@
+Picklistentry nz-tas__v (
+   value('Tasman District'),
+   order(3438),
+   active(true),
+   controlling_entries('nz__v')
+);

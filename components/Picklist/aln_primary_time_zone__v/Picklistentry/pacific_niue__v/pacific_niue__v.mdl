@@ -1,0 +1,5 @@
+Picklistentry pacific_niue__v (
+   value('Pacific/Niue'),
+   order(0),
+   active(true)
+);

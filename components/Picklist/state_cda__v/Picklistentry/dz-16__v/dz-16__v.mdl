@@ -1,0 +1,6 @@
+Picklistentry dz-16__v (
+   value('Alger'),
+   order(997),
+   active(true),
+   controlling_entries('dz__v')
+);

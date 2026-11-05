@@ -1,0 +1,6 @@
+Picklistentry cl-nb__v (
+   value('Ñuble'),
+   order(679),
+   active(true),
+   controlling_entries('cl__v')
+);

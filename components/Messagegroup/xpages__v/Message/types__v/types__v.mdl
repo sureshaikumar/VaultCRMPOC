@@ -1,0 +1,6 @@
+Message types__v (
+   label(),
+   active(true),
+   default_value('Types'),
+   system_managed(false)
+);

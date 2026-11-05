@@ -1,0 +1,4 @@
+Typefield key_stakeholder_name__v (
+   source('standard'),
+   required(false)
+);

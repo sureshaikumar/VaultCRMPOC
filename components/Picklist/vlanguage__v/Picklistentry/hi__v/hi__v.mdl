@@ -1,0 +1,5 @@
+Picklistentry hi__v (
+   value('Hindi'),
+   order(129),
+   active(false)
+);

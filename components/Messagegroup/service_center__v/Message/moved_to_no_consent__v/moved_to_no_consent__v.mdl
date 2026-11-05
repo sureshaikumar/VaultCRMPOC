@@ -1,0 +1,6 @@
+Message moved_to_no_consent__v (
+   label(),
+   active(true),
+   default_value('Moved to No Consent'),
+   system_managed(false)
+);

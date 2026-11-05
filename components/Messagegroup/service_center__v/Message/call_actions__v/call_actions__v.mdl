@@ -1,0 +1,6 @@
+Message call_actions__v (
+   label(),
+   active(true),
+   default_value('Call Actions'),
+   system_managed(false)
+);

@@ -1,0 +1,11 @@
+RECREATE Pagelink address_create_pagelink__v (
+   label('Address Create'),
+   description('Redirect Address Creation to Address App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.address__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.address_page__v')
+);

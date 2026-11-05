@@ -1,0 +1,6 @@
+Message account_search_rule_filter_logic_label__v (
+   label(),
+   active(true),
+   default_value('Field Logic Filter'),
+   system_managed(false)
+);

@@ -1,0 +1,11 @@
+Vsmfield active_user_count__v (
+   label('Active User Count'),
+   active(true),
+   description('Number of users in the Vault with Active status'),
+   example_values(),
+   synonyms(),
+   target('active_user_count__v'),
+   target_label('Active User Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

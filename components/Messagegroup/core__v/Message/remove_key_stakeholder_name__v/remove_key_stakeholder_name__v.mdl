@@ -1,0 +1,6 @@
+Message remove_key_stakeholder_name__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to remove ${key_stakeholder_name} as a key stakeholder?'),
+   system_managed(false)
+);

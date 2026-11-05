@@ -1,0 +1,6 @@
+Message search_targets__v (
+   label(),
+   active(true),
+   default_value('Search Targets'),
+   system_managed(false)
+);

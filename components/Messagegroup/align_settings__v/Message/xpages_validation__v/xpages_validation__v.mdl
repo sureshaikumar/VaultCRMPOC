@@ -1,0 +1,6 @@
+Message xpages_validation__v (
+   label(),
+   active(true),
+   default_value('MyInsights Report must be in the format ''<external_id>:<height_in_pixels>'''),
+   system_managed(false)
+);

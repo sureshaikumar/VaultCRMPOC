@@ -1,0 +1,6 @@
+Message scheduled_job_processes__v (
+   label(),
+   active(true),
+   default_value('The scheduled job executes the following processes across the entire Align instance:'),
+   system_managed(false)
+);

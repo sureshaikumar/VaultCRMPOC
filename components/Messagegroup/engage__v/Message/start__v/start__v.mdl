@@ -1,0 +1,6 @@
+Message start__v (
+   label(),
+   active(true),
+   default_value('Start'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field hcp_ext_id__v (
+   label('HCP Engage Connect ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('HCP ID in Engage Connect'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

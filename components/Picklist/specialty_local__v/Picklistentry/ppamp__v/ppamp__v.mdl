@@ -1,0 +1,6 @@
+Picklistentry ppamp__v (
+   value('Psychiatry Psychosexual and Marital Psychiatry'),
+   order(1623),
+   active(true),
+   controlling_entries('id__v')
+);

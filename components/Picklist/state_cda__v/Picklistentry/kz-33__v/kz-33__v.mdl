@@ -1,0 +1,6 @@
+Picklistentry kz-33__v (
+   value('Zhetisū oblysy'),
+   order(2500),
+   active(true),
+   controlling_entries('kz__v')
+);

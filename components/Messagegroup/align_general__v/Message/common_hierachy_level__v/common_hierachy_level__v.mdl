@@ -1,0 +1,6 @@
+Message common_hierachy_level__v (
+   label(),
+   active(true),
+   default_value('Hierarchy Level'),
+   system_managed(false)
+);

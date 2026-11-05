@@ -1,0 +1,3 @@
+Typeaction remove_from_territory__v (
+   action('account__v.remove_from_territory__v')
+);

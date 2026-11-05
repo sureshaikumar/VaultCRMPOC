@@ -1,0 +1,4 @@
+Typefield aln_align_rule_id__v (
+   source('standard'),
+   required(false)
+);

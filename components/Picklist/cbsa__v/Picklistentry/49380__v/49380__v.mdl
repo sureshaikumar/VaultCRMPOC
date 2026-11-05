@@ -1,0 +1,5 @@
+Picklistentry 49380__v (
+   value('Worthington, MN Micropolitan Statistical Area'),
+   order(525),
+   active(true)
+);

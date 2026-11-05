@@ -1,0 +1,6 @@
+Message product_specialty_restriction_error_text__v (
+   label(),
+   active(true),
+   default_value('Your administrator has restricted the specialties applicable to each product. It was not possible to generate records for this combination.'),
+   system_managed(false)
+);

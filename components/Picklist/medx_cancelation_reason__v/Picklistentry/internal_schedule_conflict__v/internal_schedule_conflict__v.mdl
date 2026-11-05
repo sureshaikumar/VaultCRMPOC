@@ -1,0 +1,5 @@
+Picklistentry internal_schedule_conflict__v (
+   value('Internal Schedule Conflict'),
+   order(2),
+   active(true)
+);

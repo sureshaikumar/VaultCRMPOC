@@ -1,0 +1,5 @@
+Index channel_v__sys (
+   description(),
+   fields('channel__v'),
+   label('Channel')
+);

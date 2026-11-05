@@ -1,0 +1,6 @@
+Picklistentry bd-h__v (
+   value('Mymensingh'),
+   order(301),
+   active(true),
+   controlling_entries('bd__v')
+);

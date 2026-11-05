@@ -1,0 +1,6 @@
+Picklistentry pmtee__v (
+   value('Pediatric Medical Toxicology'),
+   order(1408),
+   active(true),
+   controlling_entries('us__v')
+);

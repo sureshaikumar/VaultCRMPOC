@@ -1,0 +1,6 @@
+Picklistentry nnnee__v (
+   value('Neurosurgery Neurofunctional Neurosurgery'),
+   order(1043),
+   active(true),
+   controlling_entries('id__v')
+);

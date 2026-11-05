@@ -1,0 +1,6 @@
+Message and__v (
+   label(),
+   active(true),
+   default_value('AND'),
+   system_managed(false)
+);

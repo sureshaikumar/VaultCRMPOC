@@ -1,0 +1,17 @@
+Field additional_details__sys (
+   label('Additional Details'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(true),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

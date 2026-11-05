@@ -1,0 +1,5 @@
+Picklistentry kh__v (
+   value('KH'),
+   order(116),
+   active(true)
+);

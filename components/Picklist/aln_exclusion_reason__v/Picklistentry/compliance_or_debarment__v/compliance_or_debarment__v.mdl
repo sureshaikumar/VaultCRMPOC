@@ -1,0 +1,5 @@
+Picklistentry compliance_or_debarment__v (
+   value('Compliance or Debarment'),
+   order(1),
+   active(true)
+);

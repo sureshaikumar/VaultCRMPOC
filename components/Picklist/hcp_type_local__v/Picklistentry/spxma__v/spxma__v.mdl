@@ -1,0 +1,5 @@
+Picklistentry spxma__v (
+   value('Specialized Medical Assistant'),
+   order(151),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry create_new_slides__v (
+   value('Create New Slides'),
+   order(0),
+   active(true)
+);

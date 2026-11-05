@@ -1,0 +1,17 @@
+Field delivered_datetime__v (
+   label('Delivered Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Delivered_Datetime_vod is the datetime when the message has reached the recipient''s inbox'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

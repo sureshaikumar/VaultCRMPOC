@@ -1,0 +1,19 @@
+Field medical_discussions__v (
+   label('Medical Discussions'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used to display the list of Products discussed on a Medical Interaction. Product names are delimited by double-spaces and alphabetical from left to right. This field does not control processing.'),
+   list_column(false),
+   order(89),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

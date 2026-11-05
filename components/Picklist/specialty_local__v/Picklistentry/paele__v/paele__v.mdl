@@ -1,0 +1,10 @@
+Picklistentry paele__v (
+   value('Pediatric Allergology'),
+   order(1307),
+   active(true),
+   controlling_entries('ee__v',
+         'gr__v',
+         'il__v',
+         'kg__v',
+         'ua__v')
+);

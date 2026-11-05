@@ -1,0 +1,6 @@
+Picklistentry ps-tkm__v (
+   value('Tulkarm'),
+   order(3653),
+   active(true),
+   controlling_entries('ps__v')
+);

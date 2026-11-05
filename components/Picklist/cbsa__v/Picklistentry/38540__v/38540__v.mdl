@@ -1,0 +1,5 @@
+Picklistentry 38540__v (
+   value('Pocatello, ID Metropolitan Statistical Area'),
+   order(791),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message continue_building__v (
+   label(),
+   active(true),
+   default_value('Continue Building'),
+   system_managed(false)
+);

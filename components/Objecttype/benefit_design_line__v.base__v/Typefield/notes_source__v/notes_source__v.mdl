@@ -1,0 +1,4 @@
+Typefield notes_source__v (
+   source('standard'),
+   required(false)
+);

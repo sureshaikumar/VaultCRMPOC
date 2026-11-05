@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.annotation_keywords__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="match_text__sys" />
+            <vault:field reference="annotation_keyword_category__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="References" name="related_link_targets__c">
+        <vault:uiwidget name="related_link_target_section__c" />
+    </vault:section>
+    <vault:section title="Match Text Variations" name="match_text_variations__c">
+        <vault:relatedObject relationship="match_text_variations__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="150px" />
+            <vault:field reference="match_text__sys" width="400px" />
+            <vault:field reference="state__v" width="150px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+    <vault:section title="Where Used" name="suggested_links_section_control__c" reference="suggested_links_section_control__sys" />
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="lifecycle__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,6 @@
+Message validate_veeva_message__v (
+   label(),
+   active(true),
+   default_value('Please remove any invalid characters from the ${category} or ${message_name} field'),
+   system_managed(true)
+);

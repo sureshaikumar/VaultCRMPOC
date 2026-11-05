@@ -1,0 +1,22 @@
+RECREATE Objecttype connection_settings__v.doc_transfer_integration_settings__v (
+   label('Document Transfer Integration Settings'),
+   label_plural('Document Transfer Integration Settings'),
+   active(true),
+   description('Integration Settings for the document transfer from Commercial Vaults'),
+   additional_type_validations(),
+   default_type(false),
+   summary_fields(),
+   Typefield(@Typefield/country_filter__v.mdl),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/object_type__v.mdl),
+   Typefield(@Typefield/status__v.mdl),
+   Typefield(@Typefield/vault_crm_id__v.mdl)
+);

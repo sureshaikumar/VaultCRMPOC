@@ -1,0 +1,5 @@
+Picklistentry aym (
+   value('Aymara'),
+   order(133),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry in-od__v (
+   value('Odisha'),
+   order(2022),
+   active(true),
+   controlling_entries('in__v')
+);

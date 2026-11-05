@@ -1,0 +1,6 @@
+Picklistentry ua-51__v (
+   value('Odeska oblast'),
+   order(4632),
+   active(true),
+   controlling_entries('ua__v')
+);

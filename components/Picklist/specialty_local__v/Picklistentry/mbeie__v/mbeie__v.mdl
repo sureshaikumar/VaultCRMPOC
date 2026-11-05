@@ -1,0 +1,9 @@
+Picklistentry mbeie__v (
+   value('Medical Biology'),
+   order(901),
+   active(true),
+   controlling_entries('az__v',
+         'fr__v',
+         'ma__v',
+         'mc__v')
+);

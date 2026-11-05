@@ -1,0 +1,5 @@
+Picklistentry europe_zurich__sys (
+   value('(GMT+01:00) Central European Time (Europe/Zurich)'),
+   order(166),
+   active(true)
+);

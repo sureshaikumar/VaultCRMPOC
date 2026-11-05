@@ -1,0 +1,6 @@
+Message aws_account_existing_challenge_body__v (
+   label(),
+   active(true),
+   default_value('This AWS account has been connected to another Vault. To connect it to this Vault, please enter your IAM Role ARN and the External ID that was provided during the original setup.'),
+   system_managed(false)
+);

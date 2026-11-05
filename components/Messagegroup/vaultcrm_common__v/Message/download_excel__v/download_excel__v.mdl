@@ -1,0 +1,6 @@
+Message download_excel__v (
+   label(),
+   active(true),
+   default_value('Download Excel'),
+   system_managed(false)
+);

@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_field_force_model__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="assignment_priority__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="effective_datetime__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="end_datetime__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="field_force_group__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="modeling_id__v" />
+            <vault:field reference="parent_field_force_model__v" />
+            <vault:field reference="parent_production_field_force__v" />
+            <vault:field reference="production_field_force__v" />
+            <vault:field reference="project__v" />
+            <vault:field reference="source__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="start_datetime__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

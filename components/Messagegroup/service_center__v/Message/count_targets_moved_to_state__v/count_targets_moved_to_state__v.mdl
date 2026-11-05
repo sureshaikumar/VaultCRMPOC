@@ -1,0 +1,6 @@
+Message count_targets_moved_to_state__v (
+   label(),
+   active(true),
+   default_value('${count} Targets moved to ${state_label}'),
+   system_managed(false)
+);

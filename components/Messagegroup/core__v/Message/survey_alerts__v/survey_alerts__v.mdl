@@ -1,0 +1,6 @@
+Message survey_alerts__v (
+   label(),
+   active(true),
+   default_value('Survey Alerts'),
+   system_managed(false)
+);

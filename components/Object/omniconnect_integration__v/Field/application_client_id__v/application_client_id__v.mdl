@@ -1,0 +1,19 @@
+Field application_client_id__v (
+   label('Application Client Id'),
+   type('String'),
+   active(true),
+   description('Stores the Application Id of the Azure Communications Services application to use with Microsoft Phone integrations.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

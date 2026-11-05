@@ -1,0 +1,6 @@
+Message first_contact_resolution__v (
+   label(),
+   active(true),
+   default_value('First Contact Resolution'),
+   system_managed(false)
+);

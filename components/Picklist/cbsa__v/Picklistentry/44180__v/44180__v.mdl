@@ -1,0 +1,5 @@
+Picklistentry 44180__v (
+   value('Springfield, MO Metropolitan Statistical Area'),
+   order(792),
+   active(true)
+);

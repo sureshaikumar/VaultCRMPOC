@@ -1,0 +1,5 @@
+Picklistentry sw (
+   value('Swahili'),
+   order(87),
+   active(true)
+);

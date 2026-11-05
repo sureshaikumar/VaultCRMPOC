@@ -1,0 +1,8 @@
+RECREATE Picklist aln_aggregate_attribute__v (
+   label('Aggregate Attribute'),
+   active(true),
+   Picklistentry(@Picklistentry/assignment_count__v.mdl),
+   Picklistentry(@Picklistentry/utilization__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

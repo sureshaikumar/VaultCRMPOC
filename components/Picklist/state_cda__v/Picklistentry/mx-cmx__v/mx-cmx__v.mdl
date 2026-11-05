@@ -1,0 +1,6 @@
+Picklistentry mx-cmx__v (
+   value('Mexico City'),
+   order(3245),
+   active(true),
+   controlling_entries('mx__v')
+);

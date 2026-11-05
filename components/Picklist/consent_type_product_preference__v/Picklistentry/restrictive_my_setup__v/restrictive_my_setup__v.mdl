@@ -1,0 +1,5 @@
+Picklistentry restrictive_my_setup__v (
+   value('Restrictive_My_Setup'),
+   order(3),
+   active(true)
+);

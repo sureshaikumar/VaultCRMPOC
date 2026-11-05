@@ -1,0 +1,4 @@
+Typefield hco_name_cda__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry sausr__v (
+   value('Surgical Assistant'),
+   order(157),
+   active(true)
+);

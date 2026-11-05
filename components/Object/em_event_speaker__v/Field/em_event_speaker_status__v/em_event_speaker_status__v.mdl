@@ -1,0 +1,19 @@
+Field em_event_speaker_status__v (
+   label('Event Speaker Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of the speaker for the event.'),
+   list_column(false),
+   order(33),
+   multi_value(false),
+   picklist('Picklist.em_event_speaker_status__v'),
+   default_value('{invited__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

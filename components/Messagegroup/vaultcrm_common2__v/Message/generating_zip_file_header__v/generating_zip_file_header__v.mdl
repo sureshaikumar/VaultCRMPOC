@@ -1,0 +1,6 @@
+Message generating_zip_file_header__v (
+   label(),
+   active(true),
+   default_value('Generating ZIP File'),
+   system_managed(false)
+);

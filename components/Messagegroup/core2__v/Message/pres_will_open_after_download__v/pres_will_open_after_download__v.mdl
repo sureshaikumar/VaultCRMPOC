@@ -1,0 +1,6 @@
+Message pres_will_open_after_download__v (
+   label(),
+   active(true),
+   default_value('${presentation_name} will open once the download is complete'),
+   system_managed(false)
+);

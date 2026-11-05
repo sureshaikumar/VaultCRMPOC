@@ -1,0 +1,5 @@
+Picklistentry 30060__v (
+   value('Lebanon, MO Micropolitan Statistical Area'),
+   order(386),
+   active(true)
+);

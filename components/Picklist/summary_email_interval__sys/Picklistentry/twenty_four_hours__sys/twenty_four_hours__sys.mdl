@@ -1,0 +1,5 @@
+Picklistentry twenty_four_hours__sys (
+   value('24 Hours'),
+   order(6),
+   active(true)
+);

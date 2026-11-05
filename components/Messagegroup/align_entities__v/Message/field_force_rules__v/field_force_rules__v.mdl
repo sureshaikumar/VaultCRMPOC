@@ -1,0 +1,6 @@
+Message field_force_rules__v (
+   label(),
+   active(true),
+   default_value('Rules Inherited from Field Force'),
+   system_managed(false)
+);

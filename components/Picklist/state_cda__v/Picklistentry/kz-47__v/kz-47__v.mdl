@@ -1,0 +1,6 @@
+Picklistentry kz-47__v (
+   value('Mangghystaū oblysy'),
+   order(2504),
+   active(true),
+   controlling_entries('kz__v')
+);

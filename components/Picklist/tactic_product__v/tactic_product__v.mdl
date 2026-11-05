@@ -1,0 +1,9 @@
+RECREATE Picklist tactic_product__v (
+   label('Tactic Product'),
+   active(true),
+   Picklistentry(@Picklistentry/cholecap__v.mdl),
+   Picklistentry(@Picklistentry/natevba__v.mdl),
+   Picklistentry(@Picklistentry/restolar__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

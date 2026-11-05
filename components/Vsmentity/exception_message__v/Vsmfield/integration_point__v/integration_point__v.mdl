@@ -1,0 +1,13 @@
+Vsmfield integration_point__v (
+   label('Integration Point'),
+   active(true),
+   description('Reference to the specific Integration Point object where the exception occurred within an integration. Use this to pinpoint the exact step or endpoint in the integration flow that failed.'),
+   example_values(),
+   synonyms('integration endpoint',
+         'connection point',
+         'integration step'),
+   target('integration_point__sys'),
+   target_label('Integration Point'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

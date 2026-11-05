@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_rule_event_timing__v (
+   label('Event Timing'),
+   active(true),
+   Picklistentry(@Picklistentry/before_event__v.mdl),
+   Picklistentry(@Picklistentry/after_event__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

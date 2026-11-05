@@ -1,0 +1,4 @@
+Typefield auto_close_time__v (
+   source('custom'),
+   required(true)
+);

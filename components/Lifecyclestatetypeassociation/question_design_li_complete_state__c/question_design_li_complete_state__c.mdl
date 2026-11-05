@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation question_design_li_complete_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.question_design_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.approved_state__sys'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

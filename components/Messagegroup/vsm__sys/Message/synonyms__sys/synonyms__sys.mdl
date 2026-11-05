@@ -1,0 +1,6 @@
+Message synonyms__sys (
+   label(),
+   active(true),
+   default_value('Synonyms'),
+   system_managed(true)
+);

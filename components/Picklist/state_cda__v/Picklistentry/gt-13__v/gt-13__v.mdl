@@ -1,0 +1,6 @@
+Picklistentry gt-13__v (
+   value('Huehuetenango'),
+   order(1792),
+   active(true),
+   controlling_entries('gt__v')
+);

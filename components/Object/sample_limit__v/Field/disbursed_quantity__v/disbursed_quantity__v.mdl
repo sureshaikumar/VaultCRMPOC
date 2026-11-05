@@ -1,0 +1,23 @@
+Field disbursed_quantity__v (
+   label('Disbursed Quantity'),
+   type('Number'),
+   active(true),
+   description('Total quantity distributed for the designated product during the defined time period; Value must be a non-fractional number; Based upon sample disbursement requests created for a User and/or Account; Default value is zero.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry bn (
+   value('Bengali'),
+   order(45),
+   active(true)
+);

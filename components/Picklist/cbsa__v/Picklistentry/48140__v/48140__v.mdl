@@ -1,0 +1,5 @@
+Picklistentry 48140__v (
+   value('Wausau, WI Metropolitan Statistical Area'),
+   order(398),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field html_template__v (
+   label('HTML_TEMPLATE'),
+   type('String'),
+   active(true),
+   description('Reference to the HTML template used when printing a Sample Receipt.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(190),
+   default_value('"HTML_TEMPLATE;;SampleReceipt"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

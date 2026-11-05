@@ -1,0 +1,5 @@
+Picklistentry non_formulary_prior_authorization__v (
+   value('Non-Formulary / Prior Authorization'),
+   order(6),
+   active(true)
+);

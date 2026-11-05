@@ -1,0 +1,5 @@
+Picklistentry olc_team8__sys (
+   value('team8'),
+   order(80),
+   active(true)
+);

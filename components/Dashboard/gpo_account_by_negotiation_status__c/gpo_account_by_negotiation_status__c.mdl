@@ -1,0 +1,14 @@
+RECREATE Dashboard gpo_account_by_negotiation_status__c (
+   active(true),
+   label('GPO Account Contracting Information'),
+   description(),
+   editors(),
+   viewers('User.prashant.r.desarda@sb-accenture.com',
+      'User.SAL@sb-accenture.com',
+      'User.VFR@sb-accenture.com',
+      'User.TAM@sb-accenture.com',
+      'User.selena.hunter@sb-accenture.com'),
+   owners('User.prashant.r.desarda@sb-accenture.com'),
+   dashboard_markup(@dashboard_markup.xml),
+   tags()
+);

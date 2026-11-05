@@ -1,0 +1,5 @@
+Picklistentry pacific_guadalcanal__v (
+   value('Solomon Islands Time'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry ee-615__v (
+   value('Põhja-Sakala'),
+   order(1113),
+   active(true),
+   controlling_entries('ee__v')
+);

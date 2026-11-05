@@ -1,0 +1,6 @@
+Picklistentry umahm__v (
+   value('Underwater Medicine and Hyperbaric Medicine'),
+   order(1885),
+   active(true),
+   controlling_entries('tr__v')
+);

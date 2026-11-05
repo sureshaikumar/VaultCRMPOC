@@ -1,0 +1,6 @@
+Picklistentry ug-336__v (
+   value('Madi-Okollo'),
+   order(4741),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,15 @@
+RECREATE Tab service_center_library__v (
+   active(true),
+   all_view_label('All Documents'),
+   doctype('base_document__v'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Knowledge Base'),
+   modal_create_record(false),
+   my_view_label('My Documents'),
+   order(6300),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Documents')
+);

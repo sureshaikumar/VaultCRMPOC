@@ -1,0 +1,6 @@
+Picklistentry imemh__v (
+   value('Internal Medicine: Endocrinology (Medical Hormone Disorders)'),
+   order(811),
+   active(true),
+   controlling_entries('dk__v')
+);

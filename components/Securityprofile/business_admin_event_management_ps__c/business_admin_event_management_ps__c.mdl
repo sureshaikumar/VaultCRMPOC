@@ -1,0 +1,6 @@
+RECREATE Securityprofile business_admin_event_management_ps__c (
+   label('End User Event Management PS'),
+   active(true),
+   description(),
+   permission_sets('end_user_event_management_ps__c')
+);

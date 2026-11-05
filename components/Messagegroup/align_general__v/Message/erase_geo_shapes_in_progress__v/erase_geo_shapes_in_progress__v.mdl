@@ -1,0 +1,6 @@
+Message erase_geo_shapes_in_progress__v (
+   label(),
+   active(true),
+   default_value('Geo shapes of type {0} for {1} are currently being erased. Please wait until the process completes before trying again.'),
+   system_managed(false)
+);

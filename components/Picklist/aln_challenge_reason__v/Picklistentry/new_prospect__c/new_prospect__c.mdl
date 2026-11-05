@@ -1,0 +1,5 @@
+Picklistentry new_prospect__c (
+   value('New Prospect'),
+   order(6),
+   active(true)
+);

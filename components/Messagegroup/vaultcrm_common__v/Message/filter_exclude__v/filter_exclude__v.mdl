@@ -1,0 +1,6 @@
+Message filter_exclude__v (
+   label(),
+   active(true),
+   default_value('Exclude'),
+   system_managed(false)
+);

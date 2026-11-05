@@ -1,0 +1,6 @@
+Message requires_fragments__v (
+   label(),
+   active(true),
+   default_value('Requires fragments'),
+   system_managed(false)
+);

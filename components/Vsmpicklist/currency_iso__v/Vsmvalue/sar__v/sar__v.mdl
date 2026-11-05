@@ -1,0 +1,10 @@
+Vsmvalue sar__v (
+   label('SAR'),
+   active(true),
+   description('Applies when transactions are denominated in the Saudi Riyal, the official currency of Saudi Arabia.'),
+   synonyms('Saudi riyal',
+         'Saudi Arabia currency',
+         'riyal'),
+   target('sar__sys'),
+   target_label('SAR')
+);

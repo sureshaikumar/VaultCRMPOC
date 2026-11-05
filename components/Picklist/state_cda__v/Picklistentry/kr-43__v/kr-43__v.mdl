@@ -1,0 +1,6 @@
+Picklistentry kr-43__v (
+   value('North Chungcheong'),
+   order(2479),
+   active(true),
+   controlling_entries('kr__v')
+);

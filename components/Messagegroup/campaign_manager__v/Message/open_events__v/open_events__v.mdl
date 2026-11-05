@@ -1,0 +1,6 @@
+Message open_events__v (
+   label(),
+   active(true),
+   default_value('Open Events'),
+   system_managed(false)
+);

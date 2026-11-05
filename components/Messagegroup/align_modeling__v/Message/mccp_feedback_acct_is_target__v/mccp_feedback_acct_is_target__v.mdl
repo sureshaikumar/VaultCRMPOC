@@ -1,0 +1,6 @@
+Message mccp_feedback_acct_is_target__v (
+   label(),
+   active(true),
+   default_value('This account is a target'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message mccp_approval_rule_invalid_cycle_select__v (
+   label(),
+   active(true),
+   default_value('Invalid Cycle Selected'),
+   system_managed(false)
+);

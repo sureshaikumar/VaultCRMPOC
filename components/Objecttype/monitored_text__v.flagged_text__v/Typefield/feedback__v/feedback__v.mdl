@@ -1,0 +1,6 @@
+Typefield feedback__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.monitored_text_feedback__v.no__v',
+         'Picklist.monitored_text_feedback__v.yes__v')
+);

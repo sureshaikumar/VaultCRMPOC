@@ -1,0 +1,17 @@
+Field activity_comment__v (
+   label('Activity Comment'),
+   type('RichText'),
+   active(true),
+   description('Stores any notes the user made for a given Check-In Detail at the time of activity.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(true),
+   order(9),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   control_binding()
+);

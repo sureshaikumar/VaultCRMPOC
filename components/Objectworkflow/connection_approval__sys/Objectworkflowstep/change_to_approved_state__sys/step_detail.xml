@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:nextstate>Objectlifecyclestate.connection_lifecycle__sys.approved_state__sys</vwf:nextstate>
+</vwf:stepdetails>

@@ -1,0 +1,11 @@
+Typefield query_reporting_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.query_reporting_status__v.disabled__v',
+         'Picklist.query_reporting_status__v.disablement_in_progress__v',
+         'Picklist.query_reporting_status__v.disablement_failed__v',
+         'Picklist.query_reporting_status__v.enabled__v',
+         'Picklist.query_reporting_status__v.enablement_in_progress__v',
+         'Picklist.query_reporting_status__v.enablement_failed__v'),
+   default_value('Picklist.query_reporting_status__v.disabled__v')
+);

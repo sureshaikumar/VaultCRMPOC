@@ -1,0 +1,5 @@
+Picklistentry or (
+   value('Oriya'),
+   order(75),
+   active(true)
+);

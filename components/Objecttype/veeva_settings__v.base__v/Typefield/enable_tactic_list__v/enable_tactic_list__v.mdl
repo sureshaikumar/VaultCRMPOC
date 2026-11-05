@@ -1,0 +1,4 @@
+Typefield enable_tactic_list__v (
+   source('standard'),
+   required(false)
+);

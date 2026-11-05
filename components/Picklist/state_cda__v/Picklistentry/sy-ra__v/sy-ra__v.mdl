@@ -1,0 +1,6 @@
+Picklistentry sy-ra__v (
+   value('Ar Raqqah'),
+   order(4292),
+   active(true),
+   controlling_entries('sy__v')
+);

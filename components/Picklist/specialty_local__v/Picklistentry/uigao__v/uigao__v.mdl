@@ -1,0 +1,6 @@
+Picklistentry uigao__v (
+   value('Ultrasound in Gynecology and Obstetrics'),
+   order(1881),
+   active(true),
+   controlling_entries('sk__v')
+);

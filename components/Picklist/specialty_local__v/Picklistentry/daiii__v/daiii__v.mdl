@@ -1,0 +1,6 @@
+Picklistentry daiii__v (
+   value('Diagnostic and Investigative Immunology'),
+   order(428),
+   active(true),
+   controlling_entries('kw__v')
+);

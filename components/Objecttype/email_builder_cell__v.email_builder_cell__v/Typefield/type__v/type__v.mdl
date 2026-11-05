@@ -1,0 +1,11 @@
+Typefield type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.email_builder_cell_type__v.closing__v',
+         'Picklist.email_builder_cell_type__v.document__v',
+         'Picklist.email_builder_cell_type__v.greeting__v',
+         'Picklist.email_builder_cell_type__v.paragraph_1__v',
+         'Picklist.email_builder_cell_type__v.paragraph_2__v',
+         'Picklist.email_builder_cell_type__v.paragraph_3__v',
+         'Picklist.email_builder_cell_type__v.subject__v')
+);

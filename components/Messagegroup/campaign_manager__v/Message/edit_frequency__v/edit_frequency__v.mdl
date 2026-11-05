@@ -1,0 +1,6 @@
+Message edit_frequency__v (
+   label(),
+   active(true),
+   default_value('Edit Frequency'),
+   system_managed(false)
+);

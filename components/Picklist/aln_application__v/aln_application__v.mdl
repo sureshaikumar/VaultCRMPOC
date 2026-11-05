@@ -1,0 +1,9 @@
+RECREATE Picklist aln_application__v (
+   label('Application'),
+   active(true),
+   Picklistentry(@Picklistentry/crm__v.mdl),
+   Picklistentry(@Picklistentry/align__v.mdl),
+   Picklistentry(@Picklistentry/workday__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

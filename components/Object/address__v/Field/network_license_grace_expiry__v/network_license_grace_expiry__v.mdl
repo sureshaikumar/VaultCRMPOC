@@ -1,0 +1,17 @@
+Field network_license_grace_expiry__v (
+   label('Network License Grace Expiry'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('License Expiration Date that includes the state grace period as reflected in Veeva OpenData. The field is mapped to grace_period__v from Network.'),
+   list_column(false),
+   order(58),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

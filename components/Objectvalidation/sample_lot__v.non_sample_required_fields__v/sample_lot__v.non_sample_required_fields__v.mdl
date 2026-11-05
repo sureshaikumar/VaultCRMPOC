@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_lot__v.non_sample_required_fields__v (
+   label('Non Sample Required Fields'),
+   active(true),
+   expression('not(suppress_lot__v) || not(IsBlank(product__v))'),
+   description('Ensures that a value is selected for the Product Name when creating a Lot Catalog record for a non-Sample product that has no associated Lot #s. This field is required to determine both the Product and Product type the record is being created for.'),
+   error_message('Product Name field is required to create a Sample Lot record for non-Sample product with no Lot #.'),
+   error_location('product__v')
+);

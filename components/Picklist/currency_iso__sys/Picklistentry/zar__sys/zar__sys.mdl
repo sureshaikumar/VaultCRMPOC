@@ -1,0 +1,5 @@
+Picklistentry zar__sys (
+   value('ZAR'),
+   order(224),
+   active(true)
+);

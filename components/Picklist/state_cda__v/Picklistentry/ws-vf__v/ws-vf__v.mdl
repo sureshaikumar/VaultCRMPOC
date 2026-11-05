@@ -1,0 +1,6 @@
+Picklistentry ws-vf__v (
+   value('Va''a-o-Fonoti'),
+   order(4993),
+   active(true),
+   controlling_entries('ws__v')
+);

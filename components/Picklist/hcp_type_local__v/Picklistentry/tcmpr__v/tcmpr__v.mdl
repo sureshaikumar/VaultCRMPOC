@@ -1,0 +1,5 @@
+Picklistentry tcmpr__v (
+   value('Traditional Chinese Medicine Practitioner'),
+   order(159),
+   active(true)
+);

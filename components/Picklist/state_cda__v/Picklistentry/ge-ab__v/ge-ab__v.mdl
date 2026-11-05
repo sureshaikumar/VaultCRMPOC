@@ -1,0 +1,6 @@
+Picklistentry ge-ab__v (
+   value('Abkhazia'),
+   order(1676),
+   active(true),
+   controlling_entries('ge__v')
+);

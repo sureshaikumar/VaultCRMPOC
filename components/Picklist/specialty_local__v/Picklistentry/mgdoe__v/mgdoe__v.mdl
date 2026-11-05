@@ -1,0 +1,6 @@
+Picklistentry mgdoe__v (
+   value('Molecular Genetic Diagnostics'),
+   order(975),
+   active(true),
+   controlling_entries('hu__v')
+);

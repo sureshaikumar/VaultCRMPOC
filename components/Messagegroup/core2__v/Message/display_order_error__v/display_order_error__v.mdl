@@ -1,0 +1,6 @@
+Message display_order_error__v (
+   label(),
+   active(true),
+   default_value('Section order could not be moved'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Picklistentry fmaoe__v (
+   value('Fetal Medicine and Obstetrics'),
+   order(542),
+   active(true),
+   controlling_entries('ba__v',
+         'hr__v')
+);

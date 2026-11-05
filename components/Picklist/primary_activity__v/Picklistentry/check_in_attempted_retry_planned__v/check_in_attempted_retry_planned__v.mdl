@@ -1,0 +1,5 @@
+Picklistentry check_in_attempted_retry_planned__v (
+   value('Check-In Attempted (Retry Planned)'),
+   order(6),
+   active(true)
+);

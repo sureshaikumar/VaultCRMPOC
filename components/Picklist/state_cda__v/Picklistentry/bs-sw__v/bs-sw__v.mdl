@@ -1,0 +1,6 @@
+Picklistentry bs-sw__v (
+   value('Spanish Wells'),
+   order(508),
+   active(true),
+   controlling_entries('bs__v')
+);

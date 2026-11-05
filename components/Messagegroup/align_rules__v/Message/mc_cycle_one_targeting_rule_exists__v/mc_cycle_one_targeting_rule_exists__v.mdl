@@ -1,0 +1,6 @@
+Message mc_cycle_one_targeting_rule_exists__v (
+   label(),
+   active(true),
+   default_value('A maximum of one Targeting Rule can exist against an MC Cycle.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry hormonal_oncologic_agents__v (
+   value('Hormonal Oncologic Agents'),
+   order(78),
+   active(true)
+);

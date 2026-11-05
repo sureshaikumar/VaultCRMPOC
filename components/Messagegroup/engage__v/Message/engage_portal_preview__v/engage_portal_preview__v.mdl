@@ -1,0 +1,6 @@
+Message engage_portal_preview__v (
+   label(),
+   active(true),
+   default_value('Portal Branding Preview'),
+   system_managed(false)
+);

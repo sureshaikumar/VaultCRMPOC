@@ -1,0 +1,15 @@
+RECREATE Layoutrule person_detail_page_layout__c.hidden_email__v (
+   active(true),
+   description(),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('email__sys'),
+   hide_sections(),
+   hide_layout(false),
+   label('Hide Email Field'),
+   order(100)
+);

@@ -1,0 +1,5 @@
+Picklistentry csb (
+   value('Kashubian'),
+   order(217),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry ua-46__v (
+   value('Lvivska oblast'),
+   order(4630),
+   active(true),
+   controlling_entries('ua__v')
+);

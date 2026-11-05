@@ -1,0 +1,5 @@
+Picklistentry rur__sys (
+   value('RUR'),
+   order(152),
+   active(true)
+);

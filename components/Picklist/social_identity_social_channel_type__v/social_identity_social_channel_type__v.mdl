@@ -1,0 +1,8 @@
+RECREATE Picklist social_identity_social_channel_type__v (
+   label('Social Channel Type'),
+   active(true),
+   Picklistentry(@Picklistentry/wechat_work__v.mdl),
+   Picklistentry(@Picklistentry/service_account__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

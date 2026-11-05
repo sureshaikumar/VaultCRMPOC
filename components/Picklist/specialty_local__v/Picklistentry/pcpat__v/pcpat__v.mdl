@@ -1,0 +1,6 @@
+Picklistentry pcpat__v (
+   value('Pediatric Clinical Pharmacology and Toxicology'),
+   order(1352),
+   active(true),
+   controlling_entries('hr__v')
+);

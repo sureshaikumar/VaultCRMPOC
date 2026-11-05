@@ -1,0 +1,6 @@
+Picklistentry nnaic__v (
+   value('Neurology Neurocritical and Intensive Care'),
+   order(1019),
+   active(true),
+   controlling_entries('id__v')
+);

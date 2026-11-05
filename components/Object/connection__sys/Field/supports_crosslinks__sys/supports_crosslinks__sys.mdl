@@ -1,0 +1,17 @@
+Field supports_crosslinks__sys (
+   label('Supports Crosslinks'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the connection supports crosslinks.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   control_binding()
+);

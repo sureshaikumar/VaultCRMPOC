@@ -1,0 +1,5 @@
+Picklistentry digital__v (
+   value('Digital'),
+   order(4),
+   active(true)
+);

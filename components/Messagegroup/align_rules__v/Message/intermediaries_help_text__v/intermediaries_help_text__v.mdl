@@ -1,0 +1,6 @@
+Message intermediaries_help_text__v (
+   label(),
+   active(true),
+   default_value('Determines whether all intermediary accounts are assigned or none of the intermediaries are assigned.'),
+   system_managed(false)
+);

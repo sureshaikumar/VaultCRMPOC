@@ -1,0 +1,6 @@
+Message no_shared_inboxes__v (
+   label(),
+   active(true),
+   default_value('No Shared Inboxes'),
+   system_managed(false)
+);

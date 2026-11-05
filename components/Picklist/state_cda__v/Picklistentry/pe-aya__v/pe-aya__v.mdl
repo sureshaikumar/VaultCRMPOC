@@ -1,0 +1,6 @@
+Picklistentry pe-aya__v (
+   value('Ayacucho'),
+   order(3472),
+   active(true),
+   controlling_entries('pe__v')
+);

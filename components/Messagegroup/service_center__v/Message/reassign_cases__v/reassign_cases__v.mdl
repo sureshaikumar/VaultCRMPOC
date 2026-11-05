@@ -1,0 +1,6 @@
+Message reassign_cases__v (
+   label(),
+   active(true),
+   default_value('Reassign Cases'),
+   system_managed(false)
+);

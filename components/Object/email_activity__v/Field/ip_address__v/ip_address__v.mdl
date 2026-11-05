@@ -1,0 +1,19 @@
+Field ip_address__v (
+   label('IP Address'),
+   type('String'),
+   active(true),
+   description('IP_Address_vod captures the IP address as reported by the Multichannel Email Engine of the device on which the email was viewed.'),
+   required(false),
+   unique(false),
+   max_length(32),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

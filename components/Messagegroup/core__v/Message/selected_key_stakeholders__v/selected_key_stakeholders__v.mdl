@@ -1,0 +1,6 @@
+Message selected_key_stakeholders__v (
+   label(),
+   active(true),
+   default_value('Selected Key Stakeholders'),
+   system_managed(false)
+);

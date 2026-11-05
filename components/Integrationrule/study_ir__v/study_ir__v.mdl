@@ -1,0 +1,17 @@
+RECREATE Integrationrule study_ir__v (
+   label('Clinical Study Integration Rule'),
+   active(true),
+   connection('clinops_crm__v'),
+   integration_point('clinical_study_iip__v'),
+   primary_query_object('study__v'),
+   Fieldrule(@Fieldrule/lifecycle_state__v.mdl),
+   Fieldrule(@Fieldrule/link__v.mdl),
+   Fieldrule(@Fieldrule/name__v.mdl),
+   Fieldrule(@Fieldrule/protocol_title__v.mdl),
+   Fieldrule(@Fieldrule/status__v.mdl),
+   Fieldrule(@Fieldrule/study_name__v.mdl),
+   Fieldrule(@Fieldrule/study_phase__v.mdl),
+   Fieldrule(@Fieldrule/study_recruitment_status__v.mdl),
+   Fieldrule(@Fieldrule/study_start_date__v.mdl),
+   Queryobjectrule(@Queryobjectrule/study__v.mdl)
+);

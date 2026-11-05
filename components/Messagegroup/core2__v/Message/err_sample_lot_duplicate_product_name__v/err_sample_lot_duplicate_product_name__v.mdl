@@ -1,0 +1,6 @@
+Message err_sample_lot_duplicate_product_name__v (
+   label(),
+   active(true),
+   default_value('Cannot retrieve sample lots due to duplicate product names. Contact admin.'),
+   system_managed(false)
+);

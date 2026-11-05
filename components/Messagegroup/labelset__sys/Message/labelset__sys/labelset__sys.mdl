@@ -1,0 +1,6 @@
+Message labelset__sys (
+   label(),
+   active(true),
+   default_value('Label Set'),
+   system_managed(true)
+);

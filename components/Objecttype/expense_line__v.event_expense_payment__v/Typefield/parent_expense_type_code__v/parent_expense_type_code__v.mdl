@@ -1,0 +1,4 @@
+Typefield parent_expense_type_code__v (
+   source('custom'),
+   required(false)
+);

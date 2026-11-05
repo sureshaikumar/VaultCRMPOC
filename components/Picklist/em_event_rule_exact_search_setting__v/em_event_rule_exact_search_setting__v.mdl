@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_rule_exact_search_setting__v (
+   label('Exact Search Setting'),
+   active(true),
+   Picklistentry(@Picklistentry/exact_name_match__v.mdl),
+   Picklistentry(@Picklistentry/off__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry 33180__v (
+   value('Middlesborough, KY Micropolitan Statistical Area'),
+   order(810),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout sample_adjustment_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description('Page Layout for Sample Transaction: Adjustment.'),
+   display_lifecycle_stages(false),
+   label('Sample Adjustment Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

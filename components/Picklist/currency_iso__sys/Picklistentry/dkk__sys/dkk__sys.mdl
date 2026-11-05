@@ -1,0 +1,5 @@
+Picklistentry dkk__sys (
+   value('DKK'),
+   order(54),
+   active(true)
+);

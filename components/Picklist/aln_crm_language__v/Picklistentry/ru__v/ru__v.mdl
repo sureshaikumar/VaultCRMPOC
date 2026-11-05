@@ -1,0 +1,5 @@
+Picklistentry ru__v (
+   value('Russian'),
+   order(24),
+   active(true)
+);

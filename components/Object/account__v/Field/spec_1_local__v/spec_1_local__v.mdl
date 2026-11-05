@@ -1,0 +1,19 @@
+Field spec_1_local__v (
+   label('Specialty Local'),
+   type('Picklist'),
+   active(true),
+   description('Primary, locally recognized medical field or expertise area for the healthcare professional or organization. Values are drawn from the list of local specialties.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(222),
+   multi_value(false),
+   picklist('Picklist.specialty_local__v'),
+   controlling_picklist('country_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

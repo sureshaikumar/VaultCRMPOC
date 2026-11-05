@@ -1,0 +1,21 @@
+Field qr_server_url__v (
+   label('QR Server URL'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description('Used to store the QR Sign-In Server''s URL.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('"https://signin-app-us.veevacrm.com"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('LinkFormat("new_window")'),
+   control_binding()
+);

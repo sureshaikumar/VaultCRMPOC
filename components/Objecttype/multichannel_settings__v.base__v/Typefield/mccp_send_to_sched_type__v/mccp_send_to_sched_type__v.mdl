@@ -1,0 +1,4 @@
+Typefield mccp_send_to_sched_type__v (
+   source('standard'),
+   required(false)
+);

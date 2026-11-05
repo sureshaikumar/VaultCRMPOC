@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_event_rule__v.automated_emails__v.invalid_timing_value_hours__v (
+   label('Invalid Timing Value - Hours'),
+   active(true),
+   expression('timing_measure__v != Picklist.em_event_rule_timing_measure__v.hours__v || (timing_value__v >= 0 && timing_value__v <= 24)'),
+   description('Error message displayed when invalid timing value is configured by the hour'),
+   error_message('Only timing values between 0 - 24 allowed for hours measurement.'),
+   error_location('timing_value__v')
+);

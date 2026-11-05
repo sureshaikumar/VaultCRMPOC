@@ -1,0 +1,10 @@
+Vsmvalue sgd__v (
+   label('SGD'),
+   active(true),
+   description('Applies when transactions are denominated in the Singapore Dollar, the official currency of Singapore.'),
+   synonyms('Singapore dollar',
+         'Singapore currency',
+         'dollar'),
+   target('sgd__sys'),
+   target_label('SGD')
+);

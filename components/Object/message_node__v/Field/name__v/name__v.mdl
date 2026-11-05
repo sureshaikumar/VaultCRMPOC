@@ -1,0 +1,23 @@
+Field name__v (
+   label('Message Node'),
+   type('String'),
+   active(true),
+   description('System managed unique identifier'),
+   required(true),
+   unique(true),
+   max_length(128),
+   help_content('System managed unique identifier'),
+   list_column(true),
+   order(3),
+   system_managed_name(true),
+   sequential_naming(true),
+   start_number(1),
+   value_format('MN-{######}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

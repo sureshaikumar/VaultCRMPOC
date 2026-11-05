@@ -1,0 +1,5 @@
+Picklistentry 35220__v (
+   value('New Castle, IN Micropolitan Statistical Area'),
+   order(247),
+   active(true)
+);

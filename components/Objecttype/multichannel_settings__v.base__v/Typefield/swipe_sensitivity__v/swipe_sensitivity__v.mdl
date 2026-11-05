@@ -1,0 +1,4 @@
+Typefield swipe_sensitivity__v (
+   source('standard'),
+   required(false)
+);

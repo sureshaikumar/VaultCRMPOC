@@ -1,0 +1,6 @@
+Picklistentry be-wht__v (
+   value('Hainaut'),
+   order(311),
+   active(true),
+   controlling_entries('be__v')
+);

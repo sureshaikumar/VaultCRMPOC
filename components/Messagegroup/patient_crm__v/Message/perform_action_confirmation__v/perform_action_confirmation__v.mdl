@@ -1,0 +1,6 @@
+Message perform_action_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you wish to perform the action "${action}"?'),
+   system_managed(false)
+);

@@ -1,0 +1,11 @@
+Vsmvalue active_state__v (
+   label('Active'),
+   active(true),
+   description('The connection is currently established and functioning, allowing data or integration flows to proceed normally.'),
+   synonyms('live',
+         'enabled',
+         'in use',
+         'operational'),
+   target('active_state__sys'),
+   target_label('Active')
+);

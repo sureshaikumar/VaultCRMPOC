@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction draft_state__c.create_new_sub_task_in_medcomms_useracti__c (
+   label('Create New Sub Task in MedComms'),
+   rule(@rule.xml),
+   order(2001)
+);

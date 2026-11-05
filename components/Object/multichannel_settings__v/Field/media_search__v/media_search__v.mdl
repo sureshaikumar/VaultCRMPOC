@@ -1,0 +1,24 @@
+Field media_search__v (
+   label('Media Search'),
+   type('Number'),
+   active(true),
+   description('0 or Null - Media search is disabled
+1 - Media search is enabled'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(29),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

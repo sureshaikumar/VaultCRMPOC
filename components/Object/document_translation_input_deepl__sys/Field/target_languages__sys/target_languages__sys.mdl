@@ -1,0 +1,18 @@
+Field target_languages__sys (
+   label('Target Languages'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(2),
+   multi_value(true),
+   picklist('Picklist.document_translation_language_deepl__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

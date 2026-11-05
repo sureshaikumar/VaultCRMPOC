@@ -1,0 +1,6 @@
+Message prescription__v (
+   label(),
+   active(true),
+   default_value('Prescription'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 33380__v (
+   value('Minden, LA Micropolitan Statistical Area'),
+   order(47),
+   active(true)
+);

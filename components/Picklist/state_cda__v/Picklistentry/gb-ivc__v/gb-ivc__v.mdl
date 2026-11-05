@@ -1,0 +1,6 @@
+Picklistentry gb-ivc__v (
+   value('Inverclyde'),
+   order(1544),
+   active(true),
+   controlling_entries('gb__v')
+);

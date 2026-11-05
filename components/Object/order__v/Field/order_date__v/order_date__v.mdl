@@ -1,0 +1,17 @@
+Field order_date__v (
+   label('Order Date'),
+   type('Date'),
+   active(true),
+   description('Default value is current date.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

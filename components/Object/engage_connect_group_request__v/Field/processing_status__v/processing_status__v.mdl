@@ -1,0 +1,18 @@
+Field processing_status__v (
+   label('Processing Status'),
+   type('Picklist'),
+   active(true),
+   description('Status of the Engage Connect Group creation in Engage Connect. Leave blank when creating a new Engage Connect Group Request. Will be set to Success or Failure based on whether Engage Connect was able to create/update the group.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.engage_connect_group_r_processing_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

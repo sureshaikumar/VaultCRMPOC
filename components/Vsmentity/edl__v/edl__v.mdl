@@ -1,0 +1,19 @@
+RECREATE Vsmentity edl__v (
+   label('EDL'),
+   active(true),
+   description('An EDL (Expected Document List) represents a structured list of Expected Documents. EDLs are used to track and manage what documents are expected vs. what documents have been collected.'),
+   synonyms('EDLs',
+      'engineering drawing list',
+      'equipment drawing list',
+      'drawing list'),
+   target('Object.edl__v'),
+   target_label('EDL'),
+   Vsmfield(@Vsmfield/batch_update__v.mdl),
+   Vsmfield(@Vsmfield/copied_from__v.mdl),
+   Vsmfield(@Vsmfield/last_matched_time__v.mdl),
+   Vsmfield(@Vsmfield/lock_matched_documents__v.mdl),
+   Vsmfield(@Vsmfield/matching_fields__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/parent__v.mdl),
+   Vsmfield(@Vsmfield/source_edl_template__v.mdl)
+);

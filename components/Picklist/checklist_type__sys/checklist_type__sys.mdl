@@ -1,0 +1,7 @@
+RECREATE Picklist checklist_type__sys (
+   label('Checklist Type'),
+   active(true),
+   Picklistentry(@Picklistentry/use_checklist_type_matching_fields__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

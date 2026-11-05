@@ -1,0 +1,6 @@
+Message accounts_need_attention_count__v (
+   label(),
+   active(true),
+   default_value('${count} account(s) need attention'),
+   system_managed(false)
+);

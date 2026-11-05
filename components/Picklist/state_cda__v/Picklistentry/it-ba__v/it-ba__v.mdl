@@ -1,0 +1,6 @@
+Picklistentry it-ba__v (
+   value('Bari'),
+   order(2183),
+   active(true),
+   controlling_entries('it__v')
+);

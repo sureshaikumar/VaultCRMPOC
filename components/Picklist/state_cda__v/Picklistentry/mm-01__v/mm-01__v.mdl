@@ -1,0 +1,6 @@
+Picklistentry mm-01__v (
+   value('Sagaing'),
+   order(3055),
+   active(true),
+   controlling_entries('mm__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-me__v (
+   value('Messina'),
+   order(2225),
+   active(true),
+   controlling_entries('it__v')
+);

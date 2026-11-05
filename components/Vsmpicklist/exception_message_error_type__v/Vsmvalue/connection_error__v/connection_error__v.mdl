@@ -1,0 +1,12 @@
+Vsmvalue connection_error__v (
+   label('CONNECTION_ERROR'),
+   active(true),
+   description('Indicates a failure to establish or maintain a connection to an external system or service during processing.'),
+   synonyms('connectivity issue',
+         'network error',
+         'integration failure',
+         'communication error',
+         'timeout'),
+   target('connection_error__sys'),
+   target_label('CONNECTION_ERROR')
+);

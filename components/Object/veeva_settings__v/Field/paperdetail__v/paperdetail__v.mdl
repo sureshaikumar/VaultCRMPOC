@@ -1,0 +1,20 @@
+Field paperdetail__v (
+   label('PaperDetail'),
+   type('String'),
+   active(true),
+   description('Value displayed in parentheses next to a Detail record on a Call Report to differentiate between electronic and paper details.  For use when detailing via a 3rd party electronic detailing solution.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(248),
+   default_value('"PaperDetail;;CallReport"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

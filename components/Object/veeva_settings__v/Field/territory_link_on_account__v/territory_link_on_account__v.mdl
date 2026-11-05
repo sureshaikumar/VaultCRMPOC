@@ -1,0 +1,18 @@
+Field territory_link_on_account__v (
+   label('Territory Link on Account'),
+   type('Boolean'),
+   active(true),
+   description('Setting to determine the display of the Territory field on the Account Details page'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(290),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

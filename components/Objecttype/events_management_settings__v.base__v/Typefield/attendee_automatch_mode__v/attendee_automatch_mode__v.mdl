@@ -1,0 +1,4 @@
+Typefield attendee_automatch_mode__v (
+   source('standard'),
+   required(false)
+);

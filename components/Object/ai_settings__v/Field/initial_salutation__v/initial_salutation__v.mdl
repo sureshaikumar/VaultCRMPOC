@@ -1,0 +1,20 @@
+Field initial_salutation__v (
+   label('Initial Salutation'),
+   type('String'),
+   active(true),
+   description('Reference to a Veeva Message. Format is Name;;Category'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('"initial_salutation__v;;crm_ai__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

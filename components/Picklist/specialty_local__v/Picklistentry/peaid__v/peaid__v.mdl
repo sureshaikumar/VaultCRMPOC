@@ -1,0 +1,6 @@
+Picklistentry peaid__v (
+   value('Pediatric Emergency and Intensive Care Medicine'),
+   order(1365),
+   active(true),
+   controlling_entries('hr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-076__v (
+   value('Mislinja'),
+   order(4050),
+   active(true),
+   controlling_entries('si__v')
+);

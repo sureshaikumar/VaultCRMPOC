@@ -1,0 +1,6 @@
+Picklistentry pg-nsb__v (
+   value('Bougainville'),
+   order(3510),
+   active(true),
+   controlling_entries('pg__v')
+);

@@ -1,0 +1,22 @@
+Field negative_reactions__v (
+   label('Negative Reactions'),
+   type('Number'),
+   active(true),
+   description('The number of times the document/record was shown in a call with a negative reaction. This is calculated from the call2_key_message__v records created where reaction__v = negative__v.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

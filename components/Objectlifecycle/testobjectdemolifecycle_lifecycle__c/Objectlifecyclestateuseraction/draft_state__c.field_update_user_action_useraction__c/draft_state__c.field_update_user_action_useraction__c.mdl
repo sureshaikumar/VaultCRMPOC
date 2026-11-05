@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction draft_state__c.field_update_user_action_useraction__c (
+   label('Field Update User Action'),
+   rule(@rule.xml),
+   order(2000)
+);

@@ -1,0 +1,6 @@
+Picklistentry cldla__v (
+   value('Clinical Laboratory Diagnosis'),
+   order(238),
+   active(true),
+   controlling_entries('am__v')
+);

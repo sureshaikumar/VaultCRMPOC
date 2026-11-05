@@ -1,0 +1,5 @@
+Picklistentry 43140__v (
+   value('Shelby, NC Micropolitan Statistical Area'),
+   order(571),
+   active(true)
+);

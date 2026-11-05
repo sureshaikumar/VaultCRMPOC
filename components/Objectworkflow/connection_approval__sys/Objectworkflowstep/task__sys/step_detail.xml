@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Review Connection</vwf:label>
+    <vwf:controls>
+      <vwf:control name="please_review_the_remote_vault_informati__sys" label="Please review the remote vault information in this record to ensure it is the vault to which you want to connect. When both vaults approve the connection, the connection will become active." type="instructions">
+        <vwf:instructions>Please review the remote vault information in this record to ensure it is the vault to which you want to connect. When both vaults approve the connection, the connection will become active.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="verdict_public_key__sys" type="verdict">
+        <vwf:verdict label="Approve Connection" name="verdict_approve_connection__sys" />
+        <vwf:verdict label="Reject Connection" name="verdict_reject_connection__sys" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="workflow_initiator__v" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="true" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

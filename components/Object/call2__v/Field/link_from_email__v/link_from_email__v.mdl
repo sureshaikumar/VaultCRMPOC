@@ -1,0 +1,20 @@
+Field link_from_email__v (
+   label('From Email'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('Specifies user information for calls loaded from outside Veeva CRM'),
+   list_column(false),
+   order(83),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

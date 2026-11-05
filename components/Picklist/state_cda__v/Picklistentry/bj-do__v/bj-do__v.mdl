@@ -1,0 +1,6 @@
+Picklistentry bj-do__v (
+   value('Donga'),
+   order(428),
+   active(true),
+   controlling_entries('bj__v')
+);

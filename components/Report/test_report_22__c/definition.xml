@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account_plan__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account_tactic__v___account_plan__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="INNER" leftValue="InnerJoin.account_plan__v" rightValue="account_tactic__v___account_plan__v" labelLanguage="en" type="INNER" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="account_plan__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

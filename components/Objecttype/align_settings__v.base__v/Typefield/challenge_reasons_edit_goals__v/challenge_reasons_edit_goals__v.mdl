@@ -1,0 +1,4 @@
+Typefield challenge_reasons_edit_goals__v (
+   source('standard'),
+   required(false)
+);

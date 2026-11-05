@@ -1,0 +1,22 @@
+Field rank__v (
+   label('Rank'),
+   type('Number'),
+   active(true),
+   description('Used only for Hot Lists to define the Account''s rank on the list.'),
+   required(false),
+   unique(false),
+   max_value(1000),
+   min_value(1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

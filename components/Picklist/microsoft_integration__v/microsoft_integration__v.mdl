@@ -1,0 +1,11 @@
+RECREATE Picklist microsoft_integration__v (
+   label('Console App Microsoft Integration'),
+   active(true),
+   Picklistentry(@Picklistentry/ms_teams__v.mdl),
+   Picklistentry(@Picklistentry/none__v.mdl),
+   Picklistentry(@Picklistentry/onenote__v.mdl),
+   Picklistentry(@Picklistentry/shared_inbox__v.mdl),
+   Picklistentry(@Picklistentry/ms_teams_and_onenote__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

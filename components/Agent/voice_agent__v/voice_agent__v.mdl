@@ -1,0 +1,14 @@
+RECREATE Agent voice_agent__v (
+   label('Voice Agent'),
+   active(true),
+   agent_user('[agent]voice_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.VoiceAgent'),
+   description('This agent performs voice capture and voice entry actions in Vault CRM. It converts voice entry into records within Vault CRM. Outputs are Calls and records related to Calls.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/transpose_call__v.mdl)
+);

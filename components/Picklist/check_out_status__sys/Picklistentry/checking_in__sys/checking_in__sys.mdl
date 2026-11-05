@@ -1,0 +1,5 @@
+Picklistentry checking_in__sys (
+   value('Checking In'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_lima__sys (
+   value('(GMT-05:00) Peru Time (America/Lima)'),
+   order(79),
+   active(true)
+);

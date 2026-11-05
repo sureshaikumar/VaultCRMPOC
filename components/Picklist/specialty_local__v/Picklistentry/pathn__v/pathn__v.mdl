@@ -1,0 +1,6 @@
+Picklistentry pathn__v (
+   value('Pharmacology and Therapeutics'),
+   order(1519),
+   active(true),
+   controlling_entries('pk__v')
+);

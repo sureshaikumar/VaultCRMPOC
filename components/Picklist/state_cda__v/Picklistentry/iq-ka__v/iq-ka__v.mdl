@@ -1,0 +1,6 @@
+Picklistentry iq-ka__v (
+   value('Karbalā'''),
+   order(2041),
+   active(true),
+   controlling_entries('iq__v')
+);

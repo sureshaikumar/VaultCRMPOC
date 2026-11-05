@@ -1,0 +1,5 @@
+Picklistentry as__v (
+   value('American Samoa'),
+   order(10),
+   active(true)
+);

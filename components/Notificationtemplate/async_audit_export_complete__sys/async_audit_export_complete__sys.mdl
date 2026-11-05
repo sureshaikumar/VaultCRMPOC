@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate async_audit_export_complete__sys (
+   label('Asynchronous Audit Export Complete'),
+   active(true),
+   description('Asynchronous Audit Export Complete Notification Template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Audit Export Completed'),
+   notification('<b>Summary:</b><br> ${auditExportResultSummary} ${auditExportResult}'),
+   email_body('<b>Summary:</b><br> ${auditExportResultSummary} <br><b>Results:</b> <br> ${auditExportResult}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

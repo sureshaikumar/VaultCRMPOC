@@ -1,0 +1,6 @@
+Picklistentry cy-05__v (
+   value('Pafos'),
+   order(811),
+   active(true),
+   controlling_entries('cy__v')
+);

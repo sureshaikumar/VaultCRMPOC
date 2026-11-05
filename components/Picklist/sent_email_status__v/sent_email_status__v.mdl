@@ -1,0 +1,23 @@
+RECREATE Picklist sent_email_status__v (
+   label('Sent Email Status'),
+   active(true),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/sent__v.mdl),
+   Picklistentry(@Picklistentry/delivered__v.mdl),
+   Picklistentry(@Picklistentry/bounced__v.mdl),
+   Picklistentry(@Picklistentry/unsubscribed__v.mdl),
+   Picklistentry(@Picklistentry/failed__v.mdl),
+   Picklistentry(@Picklistentry/marked_spam__v.mdl),
+   Picklistentry(@Picklistentry/dropped__v.mdl),
+   Picklistentry(@Picklistentry/group__v.mdl),
+   Picklistentry(@Picklistentry/scheduled__v.mdl),
+   Picklistentry(@Picklistentry/pending_approval__v.mdl),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   Picklistentry(@Picklistentry/rejected__v.mdl),
+   Picklistentry(@Picklistentry/draft__v.mdl),
+   Picklistentry(@Picklistentry/discarded__v.mdl),
+   Picklistentry(@Picklistentry/pending_field_review__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

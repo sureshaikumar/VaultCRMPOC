@@ -1,0 +1,5 @@
+Picklistentry 10880__v (
+   value('Allegan, MI Micropolitan Statistical Area'),
+   order(595),
+   active(true)
+);

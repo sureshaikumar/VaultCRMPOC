@@ -1,0 +1,6 @@
+Picklistentry riavr__v (
+   value('Radiology Interventional and Vascular Radiology/Interventional'),
+   order(1693),
+   active(true),
+   controlling_entries('id__v')
+);

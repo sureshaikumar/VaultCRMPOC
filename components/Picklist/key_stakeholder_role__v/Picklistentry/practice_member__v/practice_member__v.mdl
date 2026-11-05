@@ -1,0 +1,5 @@
+Picklistentry practice_member__v (
+   value('Practice member'),
+   order(4),
+   active(true)
+);

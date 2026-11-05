@@ -1,0 +1,7 @@
+Picklistentry dheyn__v (
+   value('Dental Hygiene'),
+   order(359),
+   active(true),
+   controlling_entries('au__v',
+         'sa__v')
+);

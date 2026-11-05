@@ -1,0 +1,8 @@
+RECREATE Pagelayout patient_attribute_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Patient Attribute Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

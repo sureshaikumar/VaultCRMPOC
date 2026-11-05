@@ -1,0 +1,6 @@
+Picklistentry gr-a__v (
+   value('Anatolikí Makedonía kai Thráki'),
+   order(1767),
+   active(true),
+   controlling_entries('gr__v')
+);

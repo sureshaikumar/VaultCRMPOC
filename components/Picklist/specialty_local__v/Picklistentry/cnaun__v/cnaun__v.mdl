@@ -1,0 +1,6 @@
+Picklistentry cnaun__v (
+   value('Cancer Nursing'),
+   order(144),
+   active(true),
+   controlling_entries('dk__v')
+);

@@ -1,0 +1,4 @@
+Typefield field_force_product_inheritance__v (
+   source('standard'),
+   required(false)
+);

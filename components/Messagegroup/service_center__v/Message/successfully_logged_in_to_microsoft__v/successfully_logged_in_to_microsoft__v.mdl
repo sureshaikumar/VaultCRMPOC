@@ -1,0 +1,6 @@
+Message successfully_logged_in_to_microsoft__v (
+   label(),
+   active(true),
+   default_value('Successfully logged in to Microsoft.'),
+   system_managed(false)
+);

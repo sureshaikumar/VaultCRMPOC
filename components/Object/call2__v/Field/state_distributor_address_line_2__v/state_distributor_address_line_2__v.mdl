@@ -1,0 +1,19 @@
+Field state_distributor_address_line_2__v (
+   label('State Distributor Address Line 2'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Address line 2 of the State Distributor Address'),
+   list_column(false),
+   order(142),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

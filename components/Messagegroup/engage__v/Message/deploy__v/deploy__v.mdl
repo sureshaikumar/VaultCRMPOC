@@ -1,0 +1,6 @@
+Message deploy__v (
+   label(),
+   active(true),
+   default_value('Deploy'),
+   system_managed(false)
+);

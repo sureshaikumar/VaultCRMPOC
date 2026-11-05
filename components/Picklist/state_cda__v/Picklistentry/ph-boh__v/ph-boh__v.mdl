@@ -1,0 +1,6 @@
+Picklistentry ph-boh__v (
+   value('Bohol'),
+   order(3545),
+   active(true),
+   controlling_entries('ph__v')
+);

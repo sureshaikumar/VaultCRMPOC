@@ -1,0 +1,9 @@
+RECREATE Picklist content_acknowledgement_status__v (
+   label('Content Acknowledgement Status'),
+   active(true),
+   Picklistentry(@Picklistentry/shipped__v.mdl),
+   Picklistentry(@Picklistentry/delivered__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

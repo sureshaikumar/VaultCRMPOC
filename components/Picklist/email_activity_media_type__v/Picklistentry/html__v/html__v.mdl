@@ -1,0 +1,5 @@
+Picklistentry html__v (
+   value('HTML'),
+   order(6),
+   active(true)
+);

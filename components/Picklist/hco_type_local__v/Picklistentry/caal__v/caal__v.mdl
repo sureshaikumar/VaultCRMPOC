@@ -1,0 +1,5 @@
+Picklistentry caal__v (
+   value('Cancer Alliance'),
+   order(17),
+   active(true)
+);

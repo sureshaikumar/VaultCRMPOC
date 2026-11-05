@@ -1,0 +1,6 @@
+Picklistentry dm-09__v (
+   value('Saint Patrick'),
+   order(937),
+   active(true),
+   controlling_entries('dm__v')
+);

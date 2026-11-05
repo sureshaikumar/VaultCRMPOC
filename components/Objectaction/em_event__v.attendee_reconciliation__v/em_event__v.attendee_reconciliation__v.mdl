@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.attendee_reconciliation__v (
+   label('Attendee Reconciliation'),
+   description('Launches the Event Attendee Reconciliation page. This page is used to verify that attendee records for an event are associated with the correct entity in the CRM system.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.AttendeeReconciliationAction'),
+   active(true),
+   available_all_states(true)
+);

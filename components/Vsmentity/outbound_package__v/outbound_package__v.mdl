@@ -1,0 +1,20 @@
+RECREATE Vsmentity outbound_package__v (
+   label('Outbound Package'),
+   active(true),
+   description('Represents a package of configuration, data and/or SDK code to be exported from a given Vault, in order to be deployed to another Vault as an Inbound Package. Migration packages can contain components, data, and Vault Java SDK code and are used to migrate configuration and reference object data from one Vault to another'),
+   synonyms('outbound packages',
+      'outbound shipment',
+      'export package',
+      'dispatch package'),
+   target('Object.outbound_package__v'),
+   target_label('Outbound Package'),
+   Vsmfield(@Vsmfield/description__v.mdl),
+   Vsmfield(@Vsmfield/include_java_sdk_code__v.mdl),
+   Vsmfield(@Vsmfield/java_sdk_deployment_option__v.mdl),
+   Vsmfield(@Vsmfield/object_type__v.mdl),
+   Vsmfield(@Vsmfield/owner__v.mdl),
+   Vsmfield(@Vsmfield/source_vault__v.mdl),
+   Vsmfield(@Vsmfield/summary__v.mdl),
+   Vsmfield(@Vsmfield/target_vault__v.mdl),
+   Vsmfield(@Vsmfield/test_data_user__v.mdl)
+);

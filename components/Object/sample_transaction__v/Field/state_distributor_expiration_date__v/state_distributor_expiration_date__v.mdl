@@ -1,0 +1,17 @@
+Field state_distributor_expiration_date__v (
+   label('State Distributor Expiration Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The Expiration date of the State Distributor number for the corresponding Call Business Address'),
+   list_column(false),
+   order(55),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

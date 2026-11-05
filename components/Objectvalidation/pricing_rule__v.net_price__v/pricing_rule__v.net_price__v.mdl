@@ -1,0 +1,15 @@
+RECREATE Objectvalidation pricing_rule__v.net_price__v (
+   label('Net Price'),
+   active(true),
+   expression('Not(
+    And(
+        Not(IsBlank(net_price__v)),
+        Not(IsBlank(net_price_min__v)),
+        net_price_min__v > net_price__v
+    )
+)'),
+   description('Net Price Min is greater than net price'),
+   error_message('Net Price Min is greater than net price'),
+   error_location('net_price__v',
+      'net_price_min__v')
+);

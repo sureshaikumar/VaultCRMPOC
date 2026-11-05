@@ -1,0 +1,14 @@
+Vsmrelationship target_comp_comp_rel__v (
+   label('Target Comp Comp Rel'),
+   active(false),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship from vault_component_relationship__sys where this component is the target. Represents component relationships in which this component is the destination/target side, useful for identifying which other components reference or depend on this one. Distinct from source_comp_comp_rel__sysr, which covers relationships where this component is the source.'),
+   join_object('Object.vault_component_relationship__sys'),
+   synonyms('target relationships',
+         'incoming relationships',
+         'depended on by',
+         'target of'),
+   target('target_comp_comp_rel__sysr'),
+   target_label('Target Component'),
+   target_object('vault_component_relationship__sys')
+);

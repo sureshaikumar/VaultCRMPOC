@@ -1,0 +1,6 @@
+Message publish__v (
+   label(),
+   active(true),
+   default_value('Publish'),
+   system_managed(false)
+);

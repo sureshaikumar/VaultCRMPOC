@@ -1,0 +1,5 @@
+Picklistentry sd__v (
+   value('Sudan'),
+   order(196),
+   active(true)
+);

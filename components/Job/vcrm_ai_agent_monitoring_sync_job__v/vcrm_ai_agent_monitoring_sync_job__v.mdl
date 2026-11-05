@@ -1,0 +1,22 @@
+RECREATE Job vcrm_ai_agent_monitoring_sync_job__v (
+   active(true),
+   active_after_clone(true),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(1),
+   label('Agent Monitoring Sync'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('hourly'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/vcrm_ai_agent_monitoring_sync_job__v.mdl),
+   time('0:00'),
+   timezone('GMT'),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

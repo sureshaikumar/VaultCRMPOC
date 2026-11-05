@@ -1,0 +1,17 @@
+Field intake_form_mapping__v (
+   label('Intake Form Mapping'),
+   type('LongText'),
+   active(true),
+   description('Mapping between the Patient CRM objects and the Patient Intake Form for Intelligent Form Fill. The following format is accepted: object_name__v.field_name__v:"text_on_form";;object_name__v.field_name__v:"text_on_form"'),
+   required(false),
+   max_length(32000),
+   help_content('Displays next to the field on standard VOF pages'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

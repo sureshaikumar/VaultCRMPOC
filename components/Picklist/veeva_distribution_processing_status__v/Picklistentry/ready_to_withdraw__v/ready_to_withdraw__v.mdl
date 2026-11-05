@@ -1,0 +1,5 @@
+Picklistentry ready_to_withdraw__v (
+   value('Ready to Withdraw'),
+   order(1),
+   active(true)
+);

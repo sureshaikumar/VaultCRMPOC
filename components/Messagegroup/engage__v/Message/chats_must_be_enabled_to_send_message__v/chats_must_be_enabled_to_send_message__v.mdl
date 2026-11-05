@@ -1,0 +1,6 @@
+Message chats_must_be_enabled_to_send_message__v (
+   label(),
+   active(true),
+   default_value('Chats must be enabled to send a message'),
+   system_managed(false)
+);

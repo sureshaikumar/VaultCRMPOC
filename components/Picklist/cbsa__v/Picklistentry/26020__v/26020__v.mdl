@@ -1,0 +1,5 @@
+Picklistentry 26020__v (
+   value('Hobbs, NM Micropolitan Statistical Area'),
+   order(674),
+   active(true)
+);

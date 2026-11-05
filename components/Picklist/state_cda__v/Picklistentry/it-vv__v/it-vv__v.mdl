@@ -1,0 +1,6 @@
+Picklistentry it-vv__v (
+   value('Vibo Valentia'),
+   order(2280),
+   active(true),
+   controlling_entries('it__v')
+);

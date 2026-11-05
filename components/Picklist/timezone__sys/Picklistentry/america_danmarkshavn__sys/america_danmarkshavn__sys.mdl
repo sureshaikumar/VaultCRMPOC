@@ -1,0 +1,5 @@
+Picklistentry america_danmarkshavn__sys (
+   value('(GMT+00:00) Greenwich Mean Time (America/Danmarkshavn)'),
+   order(139),
+   active(true)
+);

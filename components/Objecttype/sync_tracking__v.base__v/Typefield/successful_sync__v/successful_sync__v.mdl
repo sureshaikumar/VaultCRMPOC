@@ -1,0 +1,4 @@
+Typefield successful_sync__v (
+   source('standard'),
+   required(false)
+);

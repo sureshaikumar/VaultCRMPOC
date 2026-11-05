@@ -1,0 +1,5 @@
+Picklistentry pm__v (
+   value('Saint Pierre and Miquelon'),
+   order(190),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_adak__v (
+   value('Hawaii-Aleutian Time (Adak)'),
+   order(64),
+   active(true)
+);

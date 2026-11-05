@@ -1,0 +1,6 @@
+Picklistentry pcaht__v (
+   value('Pathology (Chemical)'),
+   order(1297),
+   active(true),
+   controlling_entries('za__v')
+);

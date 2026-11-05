@@ -1,0 +1,19 @@
+Field group_warning__v (
+   label('Group Warning'),
+   type('String'),
+   active(true),
+   description('Stores any warnings on group Level'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

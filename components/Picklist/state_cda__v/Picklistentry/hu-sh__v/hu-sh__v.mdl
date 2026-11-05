@@ -1,0 +1,6 @@
+Picklistentry hu-sh__v (
+   value('Szombathely'),
+   order(1902),
+   active(true),
+   controlling_entries('hu__v')
+);

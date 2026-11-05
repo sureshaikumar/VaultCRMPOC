@@ -1,0 +1,5 @@
+Picklistentry pinch_to_exit__v (
+   value('Pinch To Exit'),
+   order(1),
+   active(true)
+);

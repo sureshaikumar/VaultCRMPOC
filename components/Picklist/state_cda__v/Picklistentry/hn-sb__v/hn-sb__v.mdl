@@ -1,0 +1,6 @@
+Picklistentry hn-sb__v (
+   value('Santa Bárbara'),
+   order(1839),
+   active(true),
+   controlling_entries('hn__v')
+);

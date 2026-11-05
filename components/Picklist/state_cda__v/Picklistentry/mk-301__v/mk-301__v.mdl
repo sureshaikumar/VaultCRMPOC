@@ -1,0 +1,6 @@
+Picklistentry mk-301__v (
+   value('Vevčani'),
+   order(2984),
+   active(true),
+   controlling_entries('mk__v')
+);

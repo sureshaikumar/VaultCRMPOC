@@ -1,0 +1,6 @@
+Message rule_location_based_targets__v (
+   label(),
+   active(true),
+   default_value('Create Location-Based Targets'),
+   system_managed(false)
+);

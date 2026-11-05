@@ -1,0 +1,6 @@
+Picklistentry paiel__v (
+   value('Pediatrics Allergy Immunology'),
+   order(1472),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,6 @@
+Message rule_feedback_cloning__v (
+   label(),
+   active(true),
+   default_value('Feedback Cloning'),
+   system_managed(false)
+);

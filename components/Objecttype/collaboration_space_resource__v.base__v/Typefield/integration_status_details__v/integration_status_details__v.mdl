@@ -1,0 +1,4 @@
+Typefield integration_status_details__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message ms_outlook_calendar_edit_warning__v (
+   label(),
+   active(true),
+   default_value('-- Any updates to this event should be made in Vault CRM. --'),
+   system_managed(false)
+);

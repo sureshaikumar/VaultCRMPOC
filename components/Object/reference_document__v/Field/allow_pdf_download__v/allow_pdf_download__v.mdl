@@ -1,0 +1,17 @@
+Field allow_pdf_download__v (
+   label('Allow PDF Download'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the PDF file of the Reference Document can be downloaded.'),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if the PDF file of the Reference Document can be downloaded.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

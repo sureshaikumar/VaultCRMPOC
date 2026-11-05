@@ -1,0 +1,6 @@
+Message wd_int_refresh_token_help__v (
+   label(),
+   active(true),
+   default_value('The Refresh Token can be created and viewed by accessing the "View API Clients" Workday task, viewing the "API Clients for Integrations" tab, clicking the options icon next to the respective Client name, and finally accessing the "API Client" and "Manage Refresh Tokens for Integrations" submenus.'),
+   system_managed(false)
+);

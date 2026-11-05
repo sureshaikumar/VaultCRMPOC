@@ -1,0 +1,6 @@
+Picklistentry ru-bry__v (
+   value('Bryanskaya oblast'''),
+   order(3798),
+   active(true),
+   controlling_entries('ru__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry detail__v (
+   value('Detail'),
+   order(4),
+   active(true)
+);

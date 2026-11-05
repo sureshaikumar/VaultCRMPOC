@@ -1,0 +1,12 @@
+Picklistentry neurw__v (
+   value('Neuropsychiatry'),
+   order(1037),
+   active(true),
+   controlling_entries('be__v',
+         'fr__v',
+         'il__v',
+         'lu__v',
+         'mc__v',
+         'sk__v',
+         'za__v')
+);

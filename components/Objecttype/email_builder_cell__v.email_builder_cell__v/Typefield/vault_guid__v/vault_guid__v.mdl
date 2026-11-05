@@ -1,0 +1,4 @@
+Typefield vault_guid__v (
+   source('custom'),
+   required(false)
+);

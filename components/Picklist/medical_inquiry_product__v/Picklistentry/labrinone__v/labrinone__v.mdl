@@ -1,0 +1,5 @@
+Picklistentry labrinone__v (
+   value('Labrinone'),
+   order(2),
+   active(false)
+);

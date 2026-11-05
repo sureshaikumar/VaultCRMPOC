@@ -1,0 +1,6 @@
+Message visibility__v (
+   label(),
+   active(true),
+   default_value('Visibility'),
+   system_managed(false)
+);

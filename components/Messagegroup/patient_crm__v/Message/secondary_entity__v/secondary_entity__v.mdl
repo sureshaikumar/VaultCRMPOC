@@ -1,0 +1,6 @@
+Message secondary_entity__v (
+   label(),
+   active(true),
+   default_value('Secondary ${entity}'),
+   system_managed(false)
+);

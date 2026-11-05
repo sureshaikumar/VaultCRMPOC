@@ -1,0 +1,6 @@
+Picklistentry af-kan__v (
+   value('Kandahār'),
+   order(28),
+   active(true),
+   controlling_entries('af__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry barr_laboratories__v (
+   value('Barr Laboratories'),
+   order(6),
+   active(true)
+);

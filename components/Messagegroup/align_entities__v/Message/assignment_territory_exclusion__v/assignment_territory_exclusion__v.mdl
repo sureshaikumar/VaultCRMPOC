@@ -1,0 +1,6 @@
+Message assignment_territory_exclusion__v (
+   label(),
+   active(true),
+   default_value('{0} cannot be aligned to {1} between {2} and {3} due to an exclusion.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message title_multiple_drafts_saved__v (
+   label(),
+   active(true),
+   default_value('Drafts Saved'),
+   system_managed(false)
+);

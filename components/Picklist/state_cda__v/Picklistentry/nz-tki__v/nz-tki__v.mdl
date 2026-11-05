@@ -1,0 +1,6 @@
+Picklistentry nz-tki__v (
+   value('Taranaki'),
+   order(3439),
+   active(true),
+   controlling_entries('nz__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-065__v (
+   value('Loška Dolina'),
+   order(4039),
+   active(true),
+   controlling_entries('si__v')
+);

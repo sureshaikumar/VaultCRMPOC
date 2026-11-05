@@ -1,0 +1,6 @@
+Message file_upload_errors__v (
+   label(),
+   active(true),
+   default_value('Upload Error(s)'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message no_fax_number__v (
+   label(),
+   active(true),
+   default_value('No Fax Number'),
+   system_managed(false)
+);

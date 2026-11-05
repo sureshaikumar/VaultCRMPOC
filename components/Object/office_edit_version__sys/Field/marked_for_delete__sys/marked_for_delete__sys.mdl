@@ -1,0 +1,17 @@
+Field marked_for_delete__sys (
+   label('Marked for Delete'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(true),
+   checkbox(false),
+   help_content('Set to true when an edit version is checked in. Will be used to process deletions.'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

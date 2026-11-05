@@ -1,0 +1,6 @@
+Message general_key_message_label__v (
+   label(),
+   active(true),
+   default_value('General'),
+   system_managed(false)
+);

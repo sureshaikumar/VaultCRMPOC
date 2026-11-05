@@ -1,0 +1,6 @@
+Picklistentry uz-fa__v (
+   value('Farg‘ona'),
+   order(4869),
+   active(true),
+   controlling_entries('uz__v')
+);

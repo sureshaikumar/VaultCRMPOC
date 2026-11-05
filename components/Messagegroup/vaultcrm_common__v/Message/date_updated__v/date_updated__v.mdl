@@ -1,0 +1,6 @@
+Message date_updated__v (
+   label(),
+   active(true),
+   default_value('Date Updated'),
+   system_managed(false)
+);

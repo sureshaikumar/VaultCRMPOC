@@ -1,0 +1,5 @@
+Picklistentry europe_madrid__sys (
+   value('(GMT+01:00) Central European Time (Europe/Madrid)'),
+   order(159),
+   active(true)
+);

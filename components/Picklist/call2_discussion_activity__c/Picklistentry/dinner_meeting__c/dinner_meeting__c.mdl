@@ -1,0 +1,5 @@
+Picklistentry dinner_meeting__c (
+   value('Dinner meeting'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry territory_comparison__v (
+   value('Territory Comparison'),
+   order(4),
+   active(true)
+);

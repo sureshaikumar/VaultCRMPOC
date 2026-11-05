@@ -1,0 +1,18 @@
+Field active__v (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description('Active checkbox determines if the Sample Lot is available for selection for Sample Transactions and Sample Inventory Line Items.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

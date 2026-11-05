@@ -1,0 +1,6 @@
+Picklistentry dz-41__v (
+   value('Souk Ahras'),
+   order(1022),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,13 @@
+<p>Welcome to Veeva Vault!  Your user name is given below:</p>
+
+<p>
+User Name: <b>${userName}</b><br>
+</p>
+
+<p>Your Vault account has been configured to use your company''s Single Sign-On (SSO) solution.  </p>
+
+<#setting url_escaping_charset=''utf-8''>
+
+<p><a href="${authIdpLoginUrl}">Click here to go to your SSO login page.</a> </p>
+
+Once again, welcome to Veeva Vault!

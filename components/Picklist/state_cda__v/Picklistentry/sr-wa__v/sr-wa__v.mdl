@@ -1,0 +1,6 @@
+Picklistentry sr-wa__v (
+   value('Wanica'),
+   order(4250),
+   active(true),
+   controlling_entries('sr__v')
+);

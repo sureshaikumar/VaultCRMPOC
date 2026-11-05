@@ -1,0 +1,6 @@
+Picklistentry ru-che__v (
+   value('Chelyabinskaya oblast'''),
+   order(3801),
+   active(true),
+   controlling_entries('ru__v')
+);

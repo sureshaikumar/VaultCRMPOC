@@ -1,0 +1,19 @@
+Field webinar_participant_id__v (
+   label('Participant ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('Engage Webinar participant identifier'),
+   list_column(false),
+   order(52),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field media_file_name__v (
+   label('Media File Name'),
+   type('String'),
+   active(true),
+   description('Name of the Media File (including the file extension). A media file is linked to a key message using this field. The file name is case sensitive.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry eddm__v (
+   value('Diabetes'),
+   order(16),
+   active(true)
+);

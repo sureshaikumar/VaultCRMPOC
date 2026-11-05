@@ -1,0 +1,6 @@
+Message review_and_import__v (
+   label(),
+   active(true),
+   default_value('Review and Import'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist homepage_widget_width__v (
+   label('Homepage Widget Width'),
+   active(true),
+   Picklistentry(@Picklistentry/one_third__v.mdl),
+   Picklistentry(@Picklistentry/one_half__v.mdl),
+   Picklistentry(@Picklistentry/two_thirds__v.mdl),
+   Picklistentry(@Picklistentry/full__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

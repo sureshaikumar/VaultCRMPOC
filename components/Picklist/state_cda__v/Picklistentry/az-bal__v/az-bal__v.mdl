@@ -1,0 +1,6 @@
+Picklistentry az-bal__v (
+   value('Balakən'),
+   order(147),
+   active(true),
+   controlling_entries('az__v')
+);

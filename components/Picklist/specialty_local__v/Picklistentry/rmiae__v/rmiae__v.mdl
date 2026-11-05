@@ -1,0 +1,6 @@
+Picklistentry rmiae__v (
+   value('Radiology - Medical Imaging'),
+   order(1682),
+   active(true),
+   controlling_entries('gr__v')
+);

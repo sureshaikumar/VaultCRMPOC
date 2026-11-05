@@ -1,0 +1,5 @@
+Picklistentry 27460__v (
+   value('Jamestown-Dunkirk-Fredonia, NY Micropolitan Statistical Area'),
+   order(114),
+   active(true)
+);

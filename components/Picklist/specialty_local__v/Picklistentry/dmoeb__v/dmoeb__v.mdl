@@ -1,0 +1,6 @@
+Picklistentry dmoeb__v (
+   value('Dento-Maxillary Orthopedics'),
+   order(384),
+   active(true),
+   controlling_entries('nl__v')
+);

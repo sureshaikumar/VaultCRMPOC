@@ -1,0 +1,5 @@
+Picklistentry sdna__v (
+   value('Outpatient Specialist Medical Care (ASV)'),
+   order(184),
+   active(true)
+);

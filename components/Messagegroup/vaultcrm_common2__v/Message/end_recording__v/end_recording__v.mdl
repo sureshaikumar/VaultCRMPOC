@@ -1,0 +1,6 @@
+Message end_recording__v (
+   label(),
+   active(true),
+   default_value('End Recording'),
+   system_managed(false)
+);

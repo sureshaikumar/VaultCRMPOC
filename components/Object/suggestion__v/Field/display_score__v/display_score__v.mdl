@@ -1,0 +1,18 @@
+Field display_score__v (
+   label('Score'),
+   type('Boolean'),
+   active(true),
+   description('When set to True, Suggestion will display the Score on Homepage'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(23),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,11 @@
+Vsmfield status__v (
+   label('Status'),
+   active(true),
+   description('Indicates if the user is Active or Inactive. Inactive users cannot log in.'),
+   example_values(),
+   synonyms(),
+   target('status__v'),
+   target_label('Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

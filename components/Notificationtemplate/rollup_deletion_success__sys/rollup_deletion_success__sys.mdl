@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate rollup_deletion_success__sys (
+   label('Roll-up Deletion Success'),
+   active(true),
+   description('Notification template notifying roll-up field deletion was successful'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Roll-up Field Removed'),
+   notification('The roll-up field <b>${rollup_field_label}</b> on object <b>${object_label}</b> has been removed.'),
+   email_body('The roll-up field <b>${rollup_field_label}</b> on object <b>${object_label}</b> has been removed.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

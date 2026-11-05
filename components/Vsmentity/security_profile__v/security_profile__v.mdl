@@ -1,0 +1,16 @@
+RECREATE Vsmentity security_profile__v (
+   label('Security Profile'),
+   active(true),
+   description('Security profiles define and enforce access control configurations within Vault, governing what users or groups can see and do across the system. They are reusable across users making it easier to standardize security settings across users or organizational units. Security profiles are typically assigned to users and play a central role in compliance and security.'),
+   synonyms('security profiles',
+      'access profile',
+      'permission profile',
+      'security config'),
+   target('Object.security_profile__sys'),
+   target_label('Security Profile'),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/profile_key__v.mdl),
+   Vsmfield(@Vsmfield/profile_name__v.mdl),
+   Vsmrelationship(@Vsmrelationship/users_securityprofile__v.mdl),
+   Vsmrelationship(@Vsmrelationship/veevaid_invites_vault_user_creations__v.mdl)
+);

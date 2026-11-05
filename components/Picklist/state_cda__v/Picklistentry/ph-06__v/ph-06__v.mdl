@@ -1,0 +1,6 @@
+Picklistentry ph-06__v (
+   value('Western Visayas (Region VI)'),
+   order(3521),
+   active(true),
+   controlling_entries('ph__v')
+);

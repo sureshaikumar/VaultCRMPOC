@@ -1,0 +1,6 @@
+Message unable_to_edit_fields_in_multiple_places__v (
+   label(),
+   active(true),
+   default_value('You are unable to edit fields in multiple places.'),
+   system_managed(false)
+);

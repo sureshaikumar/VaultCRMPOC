@@ -1,0 +1,18 @@
+Field enable_external_calendars__v (
+   label('ENABLE_APPLE_CALENDARS'),
+   type('Boolean'),
+   active(true),
+   description('Allows users to view events from iPad calendars within iRep'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(132),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry tg-c__v (
+   value('Centre'),
+   order(4323),
+   active(true),
+   controlling_entries('tg__v')
+);

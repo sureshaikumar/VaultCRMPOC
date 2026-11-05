@@ -1,0 +1,10 @@
+Picklistentry reaie__v (
+   value('Reproductive Endocrinology and Infertility'),
+   order(1732),
+   active(true),
+   controlling_entries('au__v',
+         'nz__v',
+         'ph__v',
+         'pk__v',
+         'tw__v')
+);

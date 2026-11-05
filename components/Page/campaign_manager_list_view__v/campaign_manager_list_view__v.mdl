@@ -1,0 +1,14 @@
+RECREATE Page campaign_manager_list_view__v (
+   label('Campaign Manager'),
+   active(true),
+   client_distribution(),
+   default_client_code('campaign_manager_list_view__v'),
+   description('Campaign Manager'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.campaignmanager.controls.page.ListViewPageController'),
+   url_path_name('campaign-manager-list-view')
+);

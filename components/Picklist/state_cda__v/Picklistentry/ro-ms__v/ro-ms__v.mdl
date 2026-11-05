@@ -1,0 +1,6 @@
+Picklistentry ro-ms__v (
+   value('Mureș'),
+   order(3744),
+   active(true),
+   controlling_entries('ro__v')
+);

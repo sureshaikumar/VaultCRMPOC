@@ -1,0 +1,6 @@
+Message activate_campaign__v (
+   label(),
+   active(true),
+   default_value('Activate Campaign'),
+   system_managed(false)
+);

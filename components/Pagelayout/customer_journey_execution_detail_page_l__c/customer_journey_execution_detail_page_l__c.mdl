@@ -1,0 +1,8 @@
+RECREATE Pagelayout customer_journey_execution_detail_page_l__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Customer Journey Execution Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

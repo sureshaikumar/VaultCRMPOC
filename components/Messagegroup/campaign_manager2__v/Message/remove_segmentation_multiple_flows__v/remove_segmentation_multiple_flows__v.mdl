@@ -1,0 +1,6 @@
+Message remove_segmentation_multiple_flows__v (
+   label(),
+   active(true),
+   default_value('By removing segmentation, all targets will be assigned to ${flow_name}. Other flows and any associated actions will be removed. Would you like to proceed?'),
+   system_managed(false)
+);

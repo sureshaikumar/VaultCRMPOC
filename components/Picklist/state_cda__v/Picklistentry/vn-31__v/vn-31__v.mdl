@@ -1,0 +1,6 @@
+Picklistentry vn-31__v (
+   value('Bình Định'),
+   order(4934),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-231__v (
+   value('Ngora'),
+   order(4699),
+   active(true),
+   controlling_entries('ug__v')
+);

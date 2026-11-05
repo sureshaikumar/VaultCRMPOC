@@ -1,0 +1,6 @@
+Message scheduling_failed_zoom__v (
+   label(),
+   active(true),
+   default_value('Zoom meeting failed to schedule. Please try again.'),
+   system_managed(false)
+);

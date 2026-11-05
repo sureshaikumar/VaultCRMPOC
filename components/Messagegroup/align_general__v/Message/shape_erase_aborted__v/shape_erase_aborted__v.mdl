@@ -1,0 +1,6 @@
+Message shape_erase_aborted__v (
+   label(),
+   active(true),
+   default_value('Geo shape erasure aborted for ${entity_name}'),
+   system_managed(false)
+);

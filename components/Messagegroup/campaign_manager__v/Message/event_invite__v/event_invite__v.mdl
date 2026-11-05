@@ -1,0 +1,6 @@
+Message event_invite__v (
+   label(),
+   active(true),
+   default_value('Event Invite'),
+   system_managed(false)
+);

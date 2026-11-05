@@ -1,0 +1,5 @@
+Picklistentry kmf__sys (
+   value('KMF'),
+   order(97),
+   active(true)
+);

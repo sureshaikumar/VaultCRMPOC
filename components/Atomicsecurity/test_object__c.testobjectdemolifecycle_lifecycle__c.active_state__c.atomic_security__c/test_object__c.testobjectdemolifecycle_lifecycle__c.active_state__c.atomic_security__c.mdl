@@ -1,0 +1,10 @@
+RECREATE Atomicsecurity test_object__c.testobjectdemolifecycle_lifecycle__c.active_state__c.atomic_security__c (
+   label('Test Object-TestObjectDemoLife-Active'),
+   active(true),
+   object('Object.test_object__c'),
+   object_lifecycle('Objectlifecycle.testobjectdemolifecycle_lifecycle__c'),
+   state('Objectlifecyclestate.active_state__c'),
+   Fieldsecurity(@Fieldsecurity/DEFAULT.read__v.field_security__c.mdl),
+   Fieldsecurity(@Fieldsecurity/editor__v.edit__v.field_security__c.mdl),
+   Fieldsecurity(@Fieldsecurity/viewer__v.hide__v.field_security__c.mdl)
+);

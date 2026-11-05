@@ -1,0 +1,6 @@
+Message remove_document_from_patient__v (
+   label(),
+   active(true),
+   default_value('Remove Document from Patient?'),
+   system_managed(false)
+);

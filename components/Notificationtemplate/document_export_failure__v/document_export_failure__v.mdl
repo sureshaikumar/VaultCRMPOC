@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate document_export_failure__v (
+   label('documentExportFail'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: document export failed.'),
+   notification('<p>An error occurred while trying to prepare your document export. Please contact your Vault Administrator.</p>'),
+   email_body('<p>An error occurred while trying to prepare your document export. Please contact your Vault Administrator.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

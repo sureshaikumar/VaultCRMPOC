@@ -1,0 +1,6 @@
+Message assignment_update_aborted__v (
+   label(),
+   active(true),
+   default_value('Assignment update aborted for ${entity_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field enrolled__v (
+   label('Enrolled'),
+   type('Boolean'),
+   active(true),
+   description('This field is used to capture Patient Journey Associations records with a Lifecycle State = Active/Enrolled; For X-Pages use'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('TRUE'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

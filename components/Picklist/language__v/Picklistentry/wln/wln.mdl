@@ -1,0 +1,5 @@
+Picklistentry wln (
+   value('Walloon'),
+   order(344),
+   active(true)
+);

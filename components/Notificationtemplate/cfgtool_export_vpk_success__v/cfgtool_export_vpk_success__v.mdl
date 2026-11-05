@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate cfgtool_export_vpk_success__v (
+   label('ExportVPKSuccess'),
+   active(true),
+   description('Export package success template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Outbound Package: ${packageName} has been successfully exported.'),
+   notification('<b><p>Your Outbound Package: ${packageName} has been successfully exported.</p></b>
+<br/>
+<li> Start Time: ${startTime} </li>
+<li> Duration: ${duration} </li>
+<li> <a href="${urlDownloadExportVpk}">${exportVpkName} </a></li>'),
+   email_body('<b><p>Your Outbound Package: ${packageName} has been successfully exported.</p></b>
+<br/>
+<li> Start Time: ${startTime} </li>
+<li> Duration: ${duration} </li>
+<li> <a href="${urlDownloadExportVpk}">${exportVpkName} </a></li>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

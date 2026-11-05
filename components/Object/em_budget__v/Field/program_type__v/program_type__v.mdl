@@ -1,0 +1,18 @@
+Field program_type__v (
+   label('Program Type'),
+   type('Picklist'),
+   active(true),
+   description('Used by Events Management to assign a Program Type to records.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(31),
+   multi_value(true),
+   picklist('Picklist.program_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message launch_desktop_app__v (
+   label(),
+   active(true),
+   default_value('Launch Desktop App'),
+   system_managed(false)
+);

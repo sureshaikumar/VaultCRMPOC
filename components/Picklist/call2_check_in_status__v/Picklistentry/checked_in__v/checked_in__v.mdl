@@ -1,0 +1,5 @@
+Picklistentry checked_in__v (
+   value('Checked In'),
+   order(0),
+   active(true)
+);

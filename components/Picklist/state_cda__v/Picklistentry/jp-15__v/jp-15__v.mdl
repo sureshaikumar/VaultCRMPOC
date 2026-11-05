@@ -1,0 +1,6 @@
+Picklistentry jp-15__v (
+   value('Niigata'),
+   order(2321),
+   active(true),
+   controlling_entries('jp__v')
+);

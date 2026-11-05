@@ -1,0 +1,5 @@
+Picklistentry uyu__sys (
+   value('UYU'),
+   order(193),
+   active(true)
+);

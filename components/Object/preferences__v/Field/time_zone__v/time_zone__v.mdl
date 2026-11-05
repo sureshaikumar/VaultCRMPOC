@@ -1,0 +1,19 @@
+Field time_zone__v (
+   label('Time Zone'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Time zone used by the user'),
+   list_column(false),
+   order(51),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

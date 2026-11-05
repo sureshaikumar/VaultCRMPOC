@@ -1,0 +1,5 @@
+Picklistentry 12180__v (
+   value('Auburn, NY Micropolitan Statistical Area'),
+   order(783),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field client_id__sys (
+   label('Client ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(true),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

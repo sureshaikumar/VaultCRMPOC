@@ -1,0 +1,5 @@
+Picklistentry 17180__v (
+   value('City of The Dalles, OR Micropolitan Statistical Area'),
+   order(6),
+   active(true)
+);

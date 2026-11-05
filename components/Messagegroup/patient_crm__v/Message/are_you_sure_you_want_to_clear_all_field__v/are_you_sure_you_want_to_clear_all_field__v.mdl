@@ -1,0 +1,6 @@
+Message are_you_sure_you_want_to_clear_all_field__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to clear all fields in this intake section?'),
+   system_managed(false)
+);

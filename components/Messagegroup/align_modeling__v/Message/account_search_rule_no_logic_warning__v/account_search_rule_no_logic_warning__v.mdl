@@ -1,0 +1,6 @@
+Message account_search_rule_no_logic_warning__v (
+   label(),
+   active(true),
+   default_value('No criteria selected.'),
+   system_managed(false)
+);

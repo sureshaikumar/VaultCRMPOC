@@ -1,0 +1,5 @@
+Picklistentry 43580__v (
+   value('Sioux City, IA-NE-SD Metropolitan Statistical Area'),
+   order(709),
+   active(true)
+);

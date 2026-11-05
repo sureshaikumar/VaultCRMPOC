@@ -1,0 +1,6 @@
+Message pres_not_available_in_media_session__v (
+   label(),
+   active(true),
+   default_value('This presentation is not available for this media session'),
+   system_managed(false)
+);

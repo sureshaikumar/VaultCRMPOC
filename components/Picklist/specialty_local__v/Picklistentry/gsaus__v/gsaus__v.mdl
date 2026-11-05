@@ -1,0 +1,12 @@
+Picklistentry gsaus__v (
+   value('Gastrointestinal Surgery'),
+   order(584),
+   active(true),
+   controlling_entries('ae__v',
+         'cy__v',
+         'in__v',
+         'kr__v',
+         'sa__v',
+         'tr__v',
+         'tw__v')
+);

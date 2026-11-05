@@ -1,0 +1,6 @@
+Picklistentry fr-974__v (
+   value('La Réunion'),
+   order(1417),
+   active(true),
+   controlling_entries('fr__v')
+);

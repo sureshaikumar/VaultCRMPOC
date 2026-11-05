@@ -1,0 +1,6 @@
+Picklistentry rs-07__v (
+   value('Sremski okrug'),
+   order(3765),
+   active(true),
+   controlling_entries('rs__v')
+);

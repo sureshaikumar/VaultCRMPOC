@@ -1,0 +1,6 @@
+Message messaging_via_sms__v (
+   label(),
+   active(true),
+   default_value('Messaging via SMS'),
+   system_managed(false)
+);

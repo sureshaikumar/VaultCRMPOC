@@ -1,0 +1,6 @@
+Message mc_cycle_sale_cycle__v (
+   label(),
+   active(true),
+   default_value('Sale Cycle'),
+   system_managed(false)
+);

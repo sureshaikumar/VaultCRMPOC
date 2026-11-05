@@ -1,0 +1,5 @@
+Picklistentry deactivate_product__c (
+   value('Deactivate Product'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_filter_targets__v (
+   label(),
+   active(true),
+   default_value('Targets'),
+   system_managed(false)
+);

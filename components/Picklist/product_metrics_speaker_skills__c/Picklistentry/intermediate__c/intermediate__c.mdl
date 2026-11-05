@@ -1,0 +1,5 @@
+Picklistentry intermediate__c (
+   value('Intermediate'),
+   order(2),
+   active(true)
+);

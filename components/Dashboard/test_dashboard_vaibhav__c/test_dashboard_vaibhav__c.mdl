@@ -1,0 +1,10 @@
+RECREATE Dashboard test_dashboard_vaibhav__c (
+   active(true),
+   label('Test Dashboard - Vaibhav'),
+   description('For Testing purposes'),
+   editors(),
+   viewers(),
+   owners('User.vaibhav.edakkadan@sb-accenture.com'),
+   dashboard_markup(@dashboard_markup.xml),
+   tags()
+);

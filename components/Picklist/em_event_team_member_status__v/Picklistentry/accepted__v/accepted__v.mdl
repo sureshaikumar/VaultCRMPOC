@@ -1,0 +1,5 @@
+Picklistentry accepted__v (
+   value('Accepted'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry vhac__v (
+   value('Veterinary Hospital and Clinic'),
+   order(265),
+   active(true)
+);

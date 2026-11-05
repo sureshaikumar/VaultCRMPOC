@@ -1,0 +1,5 @@
+Picklistentry non_formulary__v (
+   value('Non-Formulary'),
+   order(2),
+   active(true)
+);

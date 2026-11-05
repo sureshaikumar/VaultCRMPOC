@@ -1,0 +1,5 @@
+Picklistentry device_authentication__v (
+   value('Device Authentication'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry cmlei__v (
+   value('Climacteric Medicine'),
+   order(207),
+   active(true),
+   controlling_entries('ph__v')
+);

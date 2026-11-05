@@ -1,0 +1,6 @@
+Picklistentry kh-19__v (
+   value('Stueng Traeng [Stœ̆ng Trêng]'),
+   order(2420),
+   active(true),
+   controlling_entries('kh__v')
+);

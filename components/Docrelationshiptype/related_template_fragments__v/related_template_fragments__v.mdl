@@ -1,0 +1,11 @@
+RECREATE Docrelationshiptype related_template_fragments__v (
+   label('Related Template Fragments'),
+   active(true),
+   single_use(true),
+   target_doctype('template_fragment__v'),
+   source_version_specific(false),
+   carry_forward_source_specific(false),
+   target_version_specific(false),
+   carry_forward_target_specific(false),
+   relationship_filter()
+);

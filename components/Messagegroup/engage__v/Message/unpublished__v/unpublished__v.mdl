@@ -1,0 +1,6 @@
+Message unpublished__v (
+   label(),
+   active(true),
+   default_value('Unpublished'),
+   system_managed(false)
+);

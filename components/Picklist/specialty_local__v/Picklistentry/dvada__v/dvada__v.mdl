@@ -1,0 +1,6 @@
+Picklistentry dvada__v (
+   value('Dermatology Venereology Aesthetics Dermato-Allergo-Immunology'),
+   order(403),
+   active(true),
+   controlling_entries('id__v')
+);

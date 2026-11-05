@@ -1,0 +1,6 @@
+Message team_max_greater_goal__v (
+   label(),
+   active(true),
+   default_value('Channel ${channel_name} team channel activity max ${max} must be equal to or greater than its team channel activity goal ${goal}.'),
+   system_managed(false)
+);

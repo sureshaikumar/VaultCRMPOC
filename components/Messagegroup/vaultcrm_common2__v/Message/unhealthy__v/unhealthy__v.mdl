@@ -1,0 +1,6 @@
+Message unhealthy__v (
+   label(),
+   active(true),
+   default_value('Unhealthy'),
+   system_managed(false)
+);

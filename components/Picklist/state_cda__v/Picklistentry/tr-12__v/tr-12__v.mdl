@@ -1,0 +1,6 @@
+Picklistentry tr-12__v (
+   value('Bingöl'),
+   order(4470),
+   active(true),
+   controlling_entries('tr__v')
+);

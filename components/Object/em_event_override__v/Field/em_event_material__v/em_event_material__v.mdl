@@ -1,0 +1,19 @@
+Field em_event_material__v (
+   label('Event Material'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Field to store EM_Event_Material_vod ID of the Event Material that had a missing required attachment/file.'),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

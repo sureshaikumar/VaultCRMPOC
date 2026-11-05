@@ -1,0 +1,6 @@
+Picklistentry hnxnr__v (
+   value('Head and Neck Imaging / Neuroradiology'),
+   order(660),
+   active(true),
+   controlling_entries('pt__v')
+);

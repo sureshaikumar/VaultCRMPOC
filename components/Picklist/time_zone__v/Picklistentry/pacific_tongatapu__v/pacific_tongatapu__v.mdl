@@ -1,0 +1,5 @@
+Picklistentry pacific_tongatapu__v (
+   value('Tonga Time'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,21 @@
+RECREATE Objecttype omniconnect_integration__v.standalone_phone__v (
+   label('Standalone Phone'),
+   label_plural('Standalone Phone'),
+   active(true),
+   description('Allows users to conduct outbound activities using an independent phone provider.'),
+   additional_type_validations(),
+   default_type(false),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/object_type__v.mdl),
+   Typefield(@Typefield/platform__v.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

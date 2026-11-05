@@ -1,0 +1,17 @@
+Field predictions__sys (
+   label('Predictions'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Predictions contains details about one or more predictions made for the related record. '),
+   list_column(true),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry eaamm__v (
+   value('Emergency and Accident Medicine'),
+   order(475),
+   active(true),
+   controlling_entries('jo__v')
+);

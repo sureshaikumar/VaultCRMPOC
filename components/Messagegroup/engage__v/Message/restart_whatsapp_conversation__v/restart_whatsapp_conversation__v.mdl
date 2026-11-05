@@ -1,0 +1,6 @@
+Message restart_whatsapp_conversation__v (
+   label(),
+   active(true),
+   default_value('Choose a message template to restart the conversation via WhatsApp.'),
+   system_managed(false)
+);

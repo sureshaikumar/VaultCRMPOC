@@ -1,0 +1,6 @@
+Message characters_left__v (
+   label(),
+   active(true),
+   default_value('${num_chars} Characters Left'),
+   system_managed(false)
+);

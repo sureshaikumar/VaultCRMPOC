@@ -1,0 +1,5 @@
+Picklistentry msse__v (
+   value('Medical Supply Store'),
+   order(153),
+   active(true)
+);

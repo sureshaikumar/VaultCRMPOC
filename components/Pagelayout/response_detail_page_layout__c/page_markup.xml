@@ -1,0 +1,45 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.response__sys.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="attachment_allowed__sys" />
+            <vault:field reference="doc_attachment_allowed__sys" />
+            <vault:field reference="doc_attachment__sys" />
+            <vault:field reference="attachment_required__sys" />
+            <vault:field reference="doc_attachment_required__sys" />
+            <vault:field reference="checklist__sys" />
+            <vault:field reference="comment__sys" />
+            <vault:field reference="comment_allowed__sys" />
+            <vault:field reference="comment_required__sys" />
+            <vault:field reference="maximum_answer_value__sys" />
+            <vault:field reference="minimum_answer_value__sys" />
+            <vault:field reference="question_text__sys" />
+            <vault:field reference="required_response__sys" />
+            <vault:field reference="response_text__sys" />
+            <vault:field reference="response_number__sys" />
+            <vault:field reference="response_date__sys" />
+            <vault:field reference="maximum_selectable_answers__sys" />
+            <vault:field reference="checklist_answer_type__sys" />
+            <vault:field reference="checklist_design__sys" />
+            <vault:field reference="sorting_order__sys" />
+            <vault:field reference="display_order__sys" />
+            <vault:field reference="enabled__sys" />
+            <vault:field reference="section__sys" />
+            <vault:field reference="question_design__sys" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

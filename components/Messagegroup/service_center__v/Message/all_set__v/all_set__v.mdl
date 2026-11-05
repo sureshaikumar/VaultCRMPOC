@@ -1,0 +1,6 @@
+Message all_set__v (
+   label(),
+   active(true),
+   default_value('All Set!'),
+   system_managed(false)
+);

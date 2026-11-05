@@ -1,0 +1,6 @@
+Picklistentry ppxme__v (
+   value('Pediatric Physical Medicine'),
+   order(1440),
+   active(true),
+   controlling_entries('rs__v')
+);

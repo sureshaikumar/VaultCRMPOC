@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The full display name of the currency (e.g., US Dollar, Euro, British Pound). Use this field when searching for or displaying currencies by their complete human-readable name.'),
+   example_values(),
+   synonyms('currency name',
+         'full name',
+         'currency label'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

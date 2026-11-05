@@ -1,0 +1,5 @@
+Picklistentry iku__v (
+   value('Inuktitut'),
+   order(144),
+   active(false)
+);

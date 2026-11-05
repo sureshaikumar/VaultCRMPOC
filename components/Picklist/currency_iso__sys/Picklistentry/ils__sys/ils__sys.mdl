@@ -1,0 +1,5 @@
+Picklistentry ils__sys (
+   value('ILS'),
+   order(85),
+   active(true)
+);

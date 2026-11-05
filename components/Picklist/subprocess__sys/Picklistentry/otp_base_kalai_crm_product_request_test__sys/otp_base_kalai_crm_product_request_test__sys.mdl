@@ -1,0 +1,6 @@
+Picklistentry otp_base_kalai_crm_product_request_test__sys (
+   value('Base Kalai CRM Product Request Test '),
+   order(17),
+   active(true),
+   controlling_entries('olc_crm_product_request_test__sys')
+);

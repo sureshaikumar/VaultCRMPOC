@@ -1,0 +1,6 @@
+Message connect_phone_numbers_partial_error__v (
+   label(),
+   active(true),
+   default_value('${count} phone number(s) could not be connected. Please try again.'),
+   system_managed(false)
+);

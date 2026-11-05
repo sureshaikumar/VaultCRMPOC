@@ -1,0 +1,6 @@
+Message veeva_crm_app_required__v (
+   label(),
+   active(true),
+   default_value('Veeva CRM App Required'),
+   system_managed(false)
+);

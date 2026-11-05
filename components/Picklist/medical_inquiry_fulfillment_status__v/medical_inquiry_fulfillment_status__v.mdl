@@ -1,0 +1,9 @@
+RECREATE Picklist medical_inquiry_fulfillment_status__v (
+   label('Medical Inquiry Fulfillment Status'),
+   active(true),
+   Picklistentry(@Picklistentry/new__v.mdl),
+   Picklistentry(@Picklistentry/assigned__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

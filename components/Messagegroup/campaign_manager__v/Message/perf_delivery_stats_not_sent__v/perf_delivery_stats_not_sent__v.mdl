@@ -1,0 +1,6 @@
+Message perf_delivery_stats_not_sent__v (
+   label(),
+   active(true),
+   default_value('Not Sent'),
+   system_managed(false)
+);

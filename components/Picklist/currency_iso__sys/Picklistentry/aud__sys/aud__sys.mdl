@@ -1,0 +1,5 @@
+Picklistentry aud__sys (
+   value('AUD'),
+   order(10),
+   active(true)
+);

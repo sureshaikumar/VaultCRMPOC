@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.campaign__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="objectives__v" />
+            <vault:field reference="campaign_status__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="parent_campaign__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="country_user__v" />
+            <vault:field reference="country_code__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="vcountry__v" />
+            <vault:field reference="target_list_description__v" />
+            <vault:field reference="segmentation_field__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Campaign Targets" name="campaign_targets__c">
+        <vault:relatedObject relationship="campaign_targets__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

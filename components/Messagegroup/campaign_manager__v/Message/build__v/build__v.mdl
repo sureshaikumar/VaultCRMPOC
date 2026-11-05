@@ -1,0 +1,6 @@
+Message build__v (
+   label(),
+   active(true),
+   default_value('Build'),
+   system_managed(false)
+);

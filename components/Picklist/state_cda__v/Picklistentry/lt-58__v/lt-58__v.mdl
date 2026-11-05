@@ -1,0 +1,6 @@
+Picklistentry lt-58__v (
+   value('Vilnius'),
+   order(2676),
+   active(true),
+   controlling_entries('lt__v')
+);

@@ -1,0 +1,19 @@
+Field document_type_name__v (
+   label('Document Type Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(200),
+   help_content('The public API name for this mapped document type.'),
+   list_column(true),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

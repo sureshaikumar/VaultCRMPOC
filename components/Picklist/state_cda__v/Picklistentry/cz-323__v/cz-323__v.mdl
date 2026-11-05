@@ -1,0 +1,6 @@
+Picklistentry cz-323__v (
+   value('Plzeň-město'),
+   order(838),
+   active(true),
+   controlling_entries('cz__v')
+);

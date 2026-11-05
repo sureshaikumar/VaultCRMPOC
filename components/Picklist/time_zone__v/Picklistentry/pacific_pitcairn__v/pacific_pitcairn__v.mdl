@@ -1,0 +1,5 @@
+Picklistentry pacific_pitcairn__v (
+   value('Pitcairn Time'),
+   order(71),
+   active(true)
+);

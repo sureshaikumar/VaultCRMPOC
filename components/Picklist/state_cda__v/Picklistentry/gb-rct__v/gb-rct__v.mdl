@@ -1,0 +1,6 @@
+Picklistentry gb-rct__v (
+   value('Rhondda, Cynon, Taff'),
+   order(1602),
+   active(true),
+   controlling_entries('gb__v')
+);

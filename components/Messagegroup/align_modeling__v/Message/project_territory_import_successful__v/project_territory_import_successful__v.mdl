@@ -1,0 +1,6 @@
+Message project_territory_import_successful__v (
+   label(),
+   active(true),
+   default_value('Successfully finished creating territory process'),
+   system_managed(false)
+);

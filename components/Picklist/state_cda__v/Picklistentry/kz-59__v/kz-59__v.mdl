@@ -1,0 +1,6 @@
+Picklistentry kz-59__v (
+   value('Soltüstik Qazaqstan oblysy'),
+   order(2506),
+   active(true),
+   controlling_entries('kz__v')
+);

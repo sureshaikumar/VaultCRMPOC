@@ -1,0 +1,5 @@
+Picklistentry 17340__v (
+   value('Clearlake, CA Micropolitan Statistical Area'),
+   order(23),
+   active(true)
+);

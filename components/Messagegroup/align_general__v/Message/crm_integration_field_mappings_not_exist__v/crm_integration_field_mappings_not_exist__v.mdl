@@ -1,0 +1,6 @@
+Message crm_integration_field_mappings_not_exist__v (
+   label(),
+   active(true),
+   default_value('The following required field mappings do not exist for {0}:'),
+   system_managed(false)
+);

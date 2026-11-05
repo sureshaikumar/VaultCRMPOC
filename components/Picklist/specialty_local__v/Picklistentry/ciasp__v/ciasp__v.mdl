@@ -1,0 +1,6 @@
+Picklistentry ciasp__v (
+   value('Clinical Immunology and Specific Prophylaxis and Tropical Medicine'),
+   order(232),
+   active(true),
+   controlling_entries('at__v')
+);

@@ -1,0 +1,6 @@
+Message open_in_browser__v (
+   label(),
+   active(true),
+   default_value('Open in Browser'),
+   system_managed(false)
+);

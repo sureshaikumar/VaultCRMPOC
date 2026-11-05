@@ -1,0 +1,4 @@
+Typefield requested_promotion_eligibility__v (
+   source('standard'),
+   required(false)
+);

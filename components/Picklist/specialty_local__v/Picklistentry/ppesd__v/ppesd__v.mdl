@@ -1,0 +1,15 @@
+Picklistentry ppesd__v (
+   value('Pediatric Psychiatry'),
+   order(1443),
+   active(true),
+   controlling_entries('bg__v',
+         'fi__v',
+         'fr__v',
+         'kr__v',
+         'lb__v',
+         'mc__v',
+         'om__v',
+         'ro__v',
+         'sk__v',
+         'us__v')
+);

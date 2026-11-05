@@ -1,0 +1,4 @@
+Typefield delivery_net_price__v (
+   source('custom'),
+   required(false)
+);

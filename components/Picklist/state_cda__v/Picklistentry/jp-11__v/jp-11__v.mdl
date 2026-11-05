@@ -1,0 +1,6 @@
+Picklistentry jp-11__v (
+   value('Saitama'),
+   order(2317),
+   active(true),
+   controlling_entries('jp__v')
+);

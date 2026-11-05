@@ -1,0 +1,5 @@
+Picklistentry pharmacy_id__v (
+   value('Pharmacy_Id_vod__c'),
+   order(221),
+   active(true)
+);

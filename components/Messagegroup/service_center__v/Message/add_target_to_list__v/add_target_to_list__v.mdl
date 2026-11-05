@@ -1,0 +1,6 @@
+Message add_target_to_list__v (
+   label(),
+   active(true),
+   default_value('Add Target to List'),
+   system_managed(false)
+);

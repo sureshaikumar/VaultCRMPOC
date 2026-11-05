@@ -1,0 +1,6 @@
+Message all_active_cases__v (
+   label(),
+   active(true),
+   default_value('All Active Cases'),
+   system_managed(false)
+);

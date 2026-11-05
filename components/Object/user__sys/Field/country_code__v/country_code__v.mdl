@@ -1,0 +1,20 @@
+Field country_code__v (
+   label('Country'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content('Specifies the country code of the country in which the user primarily works.'),
+   list_column(false),
+   order(125),
+   no_copy(false),
+   lookup_relationship_name('country__vr'),
+   lookup_source_field('code__sys'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   format_mask(),
+   control_binding()
+);

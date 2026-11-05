@@ -1,0 +1,6 @@
+Picklistentry gm-u__v (
+   value('Upper River'),
+   order(1713),
+   active(true),
+   controlling_entries('gm__v')
+);

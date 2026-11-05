@@ -1,0 +1,19 @@
+Field payment_max__v (
+   label('Payment Max'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Defines the allowed values of the manual Payment Term override that a rep can enter.'),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

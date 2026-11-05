@@ -1,0 +1,10 @@
+RECREATE Tab aln_crm_data__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('CRM Data'),
+   order(6500),
+   parent(),
+   Subtab(@Subtab/aln_accounts__v.mdl),
+   Subtab(@Subtab/aln_products__v.mdl)
+);

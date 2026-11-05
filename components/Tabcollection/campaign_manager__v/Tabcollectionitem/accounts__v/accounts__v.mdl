@@ -1,0 +1,8 @@
+Tabcollectionitem accounts__v (
+   label(),
+   active(true),
+   tabs(),
+   order(30),
+   tab('Tab.campaign_manager_accounts__v'),
+   type('Tab')
+);

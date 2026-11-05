@@ -1,0 +1,7 @@
+Objectlifecyclestage new__v (
+   label('New'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.new_state__v'),
+   order(1)
+);

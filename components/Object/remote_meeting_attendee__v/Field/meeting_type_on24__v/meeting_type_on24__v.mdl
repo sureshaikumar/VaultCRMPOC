@@ -1,0 +1,18 @@
+Field meeting_type_on24__v (
+   label('Meeting Type On24'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Field used to store the On24 meeting type'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.remote_meeting_attende_meeting_type_on24__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

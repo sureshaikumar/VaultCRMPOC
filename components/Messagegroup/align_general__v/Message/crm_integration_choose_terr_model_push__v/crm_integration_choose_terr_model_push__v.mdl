@@ -1,0 +1,6 @@
+Message crm_integration_choose_terr_model_push__v (
+   label(),
+   active(true),
+   default_value('Please choose which territory model to push to:'),
+   system_managed(false)
+);

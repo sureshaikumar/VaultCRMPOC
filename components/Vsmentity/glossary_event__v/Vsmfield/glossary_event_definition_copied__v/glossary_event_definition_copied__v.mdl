@@ -1,0 +1,14 @@
+Vsmfield glossary_event_definition_copied__v (
+   label('Definition Copied'),
+   active(true),
+   description('Boolean indicating whether the user copied the glossary definition text during this event. Useful for measuring user engagement with glossary content and identifying high-value definitions.'),
+   example_values(),
+   synonyms('copied',
+         'definition copied',
+         'was copied',
+         'copy flag'),
+   target('glossary_event_definition_copied__sys'),
+   target_label('Definition Copied'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

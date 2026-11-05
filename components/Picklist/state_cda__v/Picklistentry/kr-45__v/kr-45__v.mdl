@@ -1,0 +1,6 @@
+Picklistentry kr-45__v (
+   value('North Jeolla'),
+   order(2481),
+   active(true),
+   controlling_entries('kr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 20340__v (
+   value('Duncan, OK Micropolitan Statistical Area'),
+   order(610),
+   active(true)
+);

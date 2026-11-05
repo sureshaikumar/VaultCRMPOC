@@ -1,0 +1,13 @@
+RECREATE Picklist summary_email_interval__sys (
+   label('Summary Email Interval'),
+   active(true),
+   Picklistentry(@Picklistentry/one_hour__sys.mdl),
+   Picklistentry(@Picklistentry/two_hours__sys.mdl),
+   Picklistentry(@Picklistentry/three_hours__sys.mdl),
+   Picklistentry(@Picklistentry/four_hours__sys.mdl),
+   Picklistentry(@Picklistentry/eight_hours__sys.mdl),
+   Picklistentry(@Picklistentry/twelve_hours__sys.mdl),
+   Picklistentry(@Picklistentry/twenty_four_hours__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

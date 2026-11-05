@@ -1,0 +1,5 @@
+Picklistentry gu (
+   value('Gujarati'),
+   order(48),
+   active(true)
+);

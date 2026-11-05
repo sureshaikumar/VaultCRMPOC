@@ -1,0 +1,4 @@
+Typefield fatal_error__v (
+   source('standard'),
+   required(false)
+);

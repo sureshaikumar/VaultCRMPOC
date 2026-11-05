@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.content_acknowledgement_item__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="content_acknowledgement__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="distributor__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="lot__v" />
+            <vault:field reference="manufacturer__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="product_name__v" />
+            <vault:field reference="received_quantity__v" />
+            <vault:field reference="ship_quantity__v" />
+            <vault:field reference="tracking__v" />
+            <vault:field reference="u_m__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

@@ -1,0 +1,13 @@
+Vsmfield email__v (
+   label('Email'),
+   active(true),
+   description('The prior email address associated with this person record before a profile change. Used to track historical contact information and audit identity changes over time.'),
+   example_values(),
+   synonyms('email address',
+         'e-mail',
+         'contact email'),
+   target('email__sys'),
+   target_label('Email'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

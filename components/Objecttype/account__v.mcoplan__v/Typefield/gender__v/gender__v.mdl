@@ -1,0 +1,6 @@
+Typefield gender__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_gender__v.f__v',
+         'Picklist.account_gender__v.m__v')
+);

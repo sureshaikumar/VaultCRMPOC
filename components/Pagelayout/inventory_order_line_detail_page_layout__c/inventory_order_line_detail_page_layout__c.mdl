@@ -1,0 +1,8 @@
+RECREATE Pagelayout inventory_order_line_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description('Page Layout is used to display the line item fields while creating an Inventory Order Allocation record.'),
+   display_lifecycle_stages(false),
+   label('Inventory Order Line Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

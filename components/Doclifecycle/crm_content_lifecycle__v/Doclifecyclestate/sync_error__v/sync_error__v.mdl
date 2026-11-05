@@ -1,0 +1,13 @@
+Doclifecyclestate sync_error__v (
+   label('Sync Error'),
+   active(true),
+   description('Documents in this state have encountered a sync error in the CLM Integration to PromoMats/Medical.'),
+   order(6),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false),
+   entry_criteria(),
+   entry_action(),
+   user_action(),
+   security_settings(@security_settings.xml)
+);

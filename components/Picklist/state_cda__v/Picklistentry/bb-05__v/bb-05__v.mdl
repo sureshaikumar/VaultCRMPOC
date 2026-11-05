@@ -1,0 +1,6 @@
+Picklistentry bb-05__v (
+   value('Saint John'),
+   order(223),
+   active(true),
+   controlling_entries('bb__v')
+);

@@ -1,0 +1,6 @@
+Message check_for_updates__v (
+   label(),
+   active(true),
+   default_value('Check for Updates'),
+   system_managed(false)
+);

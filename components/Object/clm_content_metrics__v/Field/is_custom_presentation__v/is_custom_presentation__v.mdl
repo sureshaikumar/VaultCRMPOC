@@ -1,0 +1,17 @@
+Field is_custom_presentation__v (
+   label('Is Custom Presentation?'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if this usage metrics record is for a custom presentation'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

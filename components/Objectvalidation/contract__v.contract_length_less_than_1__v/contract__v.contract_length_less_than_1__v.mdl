@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.contract_length_less_than_1__v (
+   label('Contract Length Less Than 1'),
+   active(true),
+   expression('Not((object_type__vr.api_name__v=''series_contract__v'')&&(period_type__v=''calendar__v'' || period_type__v=''rolling__v'')&&(contract_length__v=0))'),
+   description('The Contract Length must be greater than 0.'),
+   error_message('Contract Length must be greater than 0.'),
+   error_location('contract_length__v')
+);

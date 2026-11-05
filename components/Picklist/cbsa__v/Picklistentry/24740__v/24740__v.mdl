@@ -1,0 +1,5 @@
+Picklistentry 24740__v (
+   value('Greenville, MS Micropolitan Statistical Area'),
+   order(469),
+   active(true)
+);

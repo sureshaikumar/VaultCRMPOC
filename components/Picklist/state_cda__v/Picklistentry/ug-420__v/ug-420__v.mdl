@@ -1,0 +1,6 @@
+Picklistentry ug-420__v (
+   value('Buhweju'),
+   order(4762),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,6 @@
+Message alert_emails_not_delivered__v (
+   label(),
+   active(true),
+   default_value('1 or more emails were not delivered'),
+   system_managed(false)
+);

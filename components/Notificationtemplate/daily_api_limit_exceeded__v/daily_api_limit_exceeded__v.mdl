@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate daily_api_limit_exceeded__v (
+   label('Daily API Limit Exceeded'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Attention: Daily API Limit Exceeded'),
+   notification('<p>The vault has exceeded the daily limit of ${dailyAPICount} API calls over the past 24 hours and is no longer accepting API calls until the rolling 24 hour API count drops below the limit.</p>
+
+<p>Please review the programs and scripts calling the Vault API to ensure they are operating correctly. The daily API count is the summary of all API calls over the past 24 hours and is constantly updated.</p>
+
+<p>You are receiving this notification from Vault due to the API limit notification setting within Vault and the fact you have indicated you want to receive system notifications in your User Profile. Please contact Veeva support if you have any questions about this notification.</p>'),
+   email_body('<p>The vault has exceeded the daily limit of ${dailyAPICount} API calls over the past 24 hours and is no longer accepting API calls until the rolling 24 hour API count drops below the limit.</p>
+
+<p>Please review the programs and scripts calling the Vault API to ensure they are operating correctly. The daily API count is the summary of all API calls over the past 24 hours and is constantly updated.</p>
+
+<p>You are receiving this notification from Vault due to the API limit notification setting within Vault and the fact you have indicated you want to receive system notifications in your User Profile. Please contact Veeva support if you have any questions about this notification.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

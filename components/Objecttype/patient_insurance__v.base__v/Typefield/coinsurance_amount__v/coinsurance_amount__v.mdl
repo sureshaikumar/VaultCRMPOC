@@ -1,0 +1,4 @@
+Typefield coinsurance_amount__v (
+   source('standard'),
+   required(false)
+);

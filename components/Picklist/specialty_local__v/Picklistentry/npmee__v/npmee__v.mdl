@@ -1,0 +1,9 @@
+Picklistentry npmee__v (
+   value('Neonatal-Perinatal Medicine'),
+   order(994),
+   active(true),
+   controlling_entries('ca__v',
+         'qa__v',
+         'th__v',
+         'us__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry fr-52__v (
+   value('Haute-Marne'),
+   order(1368),
+   active(true),
+   controlling_entries('fr__v')
+);

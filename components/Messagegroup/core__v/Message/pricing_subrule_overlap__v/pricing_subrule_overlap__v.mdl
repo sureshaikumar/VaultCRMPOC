@@ -1,0 +1,6 @@
+Message pricing_subrule_overlap__v (
+   label(),
+   active(true),
+   default_value('Pricing Subrules cannot overlap within a Pricing Rule.'),
+   system_managed(false)
+);

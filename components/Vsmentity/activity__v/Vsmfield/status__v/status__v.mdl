@@ -1,0 +1,13 @@
+Vsmfield status__v (
+   label('Status'),
+   active(true),
+   description('The business-level status of the activity as defined by a picklist (e.g., not started, in progress, on hold, completed). IMPORTANT: This is a picklist-driven business status; for workflow lifecycle state, use activity_state__v instead.'),
+   example_values(),
+   synonyms('activity status',
+         'current status',
+         'state'),
+   target('status__v'),
+   target_label('Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

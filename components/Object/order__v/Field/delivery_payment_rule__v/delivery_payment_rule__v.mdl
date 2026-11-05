@@ -1,0 +1,19 @@
+Field delivery_payment_rule__v (
+   label('Delivery Payment Rule'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Shows and stores the Delivery Payment Term that the rule has determined, not editable by users'),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

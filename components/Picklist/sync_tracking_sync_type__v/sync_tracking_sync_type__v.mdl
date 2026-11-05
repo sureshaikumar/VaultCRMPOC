@@ -1,0 +1,11 @@
+RECREATE Picklist sync_tracking_sync_type__v (
+   label('Sync Type'),
+   active(true),
+   Picklistentry(@Picklistentry/incremental_sync__v.mdl),
+   Picklistentry(@Picklistentry/user_full_sync__v.mdl),
+   Picklistentry(@Picklistentry/forced_full_sync__v.mdl),
+   Picklistentry(@Picklistentry/autosend__v.mdl),
+   Picklistentry(@Picklistentry/vds__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

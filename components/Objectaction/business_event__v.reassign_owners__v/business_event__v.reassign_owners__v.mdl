@@ -1,0 +1,8 @@
+RECREATE Objectaction business_event__v.reassign_owners__v (
+   label('Reassign Owners'),
+   description('Executing this action will reassign the owners of the related business event targets and tasks using the existing logic to assign owners.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.eppvpi.actions.BusinessEventReassignOwnersAction'),
+   active(true),
+   available_all_states(true)
+);

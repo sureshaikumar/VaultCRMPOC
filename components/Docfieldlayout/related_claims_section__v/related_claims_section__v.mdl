@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout related_claims_section__v (
+   label('Claims'),
+   active(true),
+   icon('UNDEFINED'),
+   order(7),
+   fields('Docfield.related_claims__v'),
+   show_in_edit_mode(false),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_information__sys')
+);

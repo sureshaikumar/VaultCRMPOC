@@ -1,0 +1,10 @@
+Vsmvalue mkd__v (
+   label('MKD'),
+   active(true),
+   description('The Macedonian Denar (MKD), the official currency of North Macedonia, used for transactions, pricing, and financial records involving North Macedonian markets.'),
+   synonyms('Macedonian denar',
+         'North Macedonia denar',
+         'MKD'),
+   target('mkd__sys'),
+   target_label('MKD')
+);

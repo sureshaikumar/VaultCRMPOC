@@ -1,0 +1,18 @@
+Field additional_zoom_dial_in_countries__v (
+   label('Additional Zoom Dial In Countries'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to send dial-in numbers for the countries chosen in Engage Meeting invitations'),
+   list_column(false),
+   order(20),
+   multi_value(true),
+   picklist('Picklist.user_d_additional_zoom_dial_in_countries__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

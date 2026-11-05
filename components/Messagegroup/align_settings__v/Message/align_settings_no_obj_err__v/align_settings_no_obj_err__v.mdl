@@ -1,0 +1,6 @@
+Message align_settings_no_obj_err__v (
+   label(),
+   active(true),
+   default_value('{0} does not have a specified object'),
+   system_managed(false)
+);

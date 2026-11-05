@@ -1,0 +1,6 @@
+Message click_rate_percent__v (
+   label(),
+   active(true),
+   default_value('${percent_click_rate} Click Rate'),
+   system_managed(false)
+);

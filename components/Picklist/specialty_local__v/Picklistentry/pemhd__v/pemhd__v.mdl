@@ -1,0 +1,7 @@
+Picklistentry pemhd__v (
+   value('Physical Education Medicine'),
+   order(1537),
+   active(true),
+   controlling_entries('cz__v',
+         'sk__v')
+);

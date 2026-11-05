@@ -1,0 +1,5 @@
+Picklistentry olc_trained_model__sys (
+   value('Trained Model'),
+   order(87),
+   active(true)
+);

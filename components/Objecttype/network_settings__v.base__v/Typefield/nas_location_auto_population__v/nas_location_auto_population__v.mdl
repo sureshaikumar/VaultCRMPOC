@@ -1,0 +1,4 @@
+Typefield nas_location_auto_population__v (
+   source('standard'),
+   required(false)
+);

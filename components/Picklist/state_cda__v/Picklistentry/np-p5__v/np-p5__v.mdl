@@ -1,0 +1,6 @@
+Picklistentry np-p5__v (
+   value('Lumbini'),
+   order(3409),
+   active(true),
+   controlling_entries('np__v')
+);

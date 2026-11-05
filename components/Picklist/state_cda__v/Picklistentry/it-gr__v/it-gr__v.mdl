@@ -1,0 +1,6 @@
+Picklistentry it-gr__v (
+   value('Grosseto'),
+   order(2213),
+   active(true),
+   controlling_entries('it__v')
+);

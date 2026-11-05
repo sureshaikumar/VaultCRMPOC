@@ -1,0 +1,6 @@
+Picklistentry bg-09__v (
+   value('Kardzhali'),
+   order(381),
+   active(true),
+   controlling_entries('bg__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gy-ut__v (
+   value('Upper Takutu-Upper Essequibo'),
+   order(1823),
+   active(true),
+   controlling_entries('gy__v')
+);

@@ -1,0 +1,6 @@
+Message childaccount_details__v (
+   label(),
+   active(true),
+   default_value('Child Account Details'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry sche__v (
+   value('Secondary Care Hospital'),
+   order(234),
+   active(true)
+);

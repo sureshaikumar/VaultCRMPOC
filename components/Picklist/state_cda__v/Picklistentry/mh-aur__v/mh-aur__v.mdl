@@ -1,0 +1,6 @@
+Picklistentry mh-aur__v (
+   value('Aur'),
+   order(2941),
+   active(true),
+   controlling_entries('mh__v')
+);

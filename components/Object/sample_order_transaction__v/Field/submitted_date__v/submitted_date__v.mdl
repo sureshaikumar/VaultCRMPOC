@@ -1,0 +1,17 @@
+Field submitted_date__v (
+   label('Submitted Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Submitted Date is the date when the Sample Transaction was set to a status of Submitted.'),
+   list_column(false),
+   order(68),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

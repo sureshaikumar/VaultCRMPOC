@@ -1,0 +1,5 @@
+Picklistentry europe_minsk__v (
+   value('Europe/Minsk'),
+   order(47),
+   active(true)
+);

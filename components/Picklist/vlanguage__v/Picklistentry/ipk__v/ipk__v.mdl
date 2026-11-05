@@ -1,0 +1,5 @@
+Picklistentry ipk__v (
+   value('Inupiaq'),
+   order(145),
+   active(false)
+);

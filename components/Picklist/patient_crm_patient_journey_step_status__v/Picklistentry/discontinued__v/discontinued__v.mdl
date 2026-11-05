@@ -1,0 +1,5 @@
+Picklistentry discontinued__v (
+   value('Discontinued'),
+   order(3),
+   active(true)
+);

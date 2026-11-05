@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation vault_membership_l_complete_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.vault_membership_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.inactive_state__sys'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

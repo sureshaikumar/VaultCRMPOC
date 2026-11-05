@@ -1,0 +1,3 @@
+Typeaction view_timeline__v (
+   action('account__v.view_timeline__v')
+);

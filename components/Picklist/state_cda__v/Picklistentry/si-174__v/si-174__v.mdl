@@ -1,0 +1,6 @@
+Picklistentry si-174__v (
+   value('Prebold'),
+   order(4147),
+   active(true),
+   controlling_entries('si__v')
+);

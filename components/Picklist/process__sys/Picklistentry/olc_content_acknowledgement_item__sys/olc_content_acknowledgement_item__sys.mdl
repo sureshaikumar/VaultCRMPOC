@@ -1,0 +1,5 @@
+Picklistentry olc_content_acknowledgement_item__sys (
+   value('Content Acknowledgement Item'),
+   order(22),
+   active(true)
+);

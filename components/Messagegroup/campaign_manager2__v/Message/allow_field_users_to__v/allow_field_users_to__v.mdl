@@ -1,0 +1,6 @@
+Message allow_field_users_to__v (
+   label(),
+   active(true),
+   default_value('Allow Field users to:'),
+   system_managed(false)
+);

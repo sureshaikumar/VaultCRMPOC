@@ -1,0 +1,6 @@
+Picklistentry lu-me__v (
+   value('Mersch'),
+   order(2696),
+   active(true),
+   controlling_entries('lu__v')
+);

@@ -1,0 +1,6 @@
+Message token_dash_disclaimer__v (
+   label(),
+   active(true),
+   default_value('This dashboard reflects token usage for the current Vault only. Billing includes the token spend of all associated sandbox Vaults. The monthly token budget is recalculated on the 1st of each month.'),
+   system_managed(false)
+);

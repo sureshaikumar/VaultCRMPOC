@@ -1,0 +1,19 @@
+Field ship_assmca__v (
+   label('Ship ASSMCA #'),
+   type('String'),
+   active(true),
+   description('Stores the ASSMCA # of the practitioner that requested the BRC product shipment for shipments to PR.'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

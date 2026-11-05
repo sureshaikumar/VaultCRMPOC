@@ -1,0 +1,6 @@
+Message discontinuation_note__v (
+   label(),
+   active(true),
+   default_value('Discontinuation Note'),
+   system_managed(false)
+);

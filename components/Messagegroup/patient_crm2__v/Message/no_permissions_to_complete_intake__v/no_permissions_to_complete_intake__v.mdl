@@ -1,0 +1,6 @@
+Message no_permissions_to_complete_intake__v (
+   label(),
+   active(true),
+   default_value('You do not have the correct permissions to complete the intake process. Please contact your administrator.'),
+   system_managed(false)
+);

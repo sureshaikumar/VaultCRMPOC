@@ -1,0 +1,6 @@
+Message local_email_attachment_unavailable__v (
+   label(),
+   active(true),
+   default_value('Attached email files are unavailable. Please retry sending email.'),
+   system_managed(false)
+);

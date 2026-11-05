@@ -1,0 +1,6 @@
+Message select_topic_instruction__v (
+   label(),
+   active(true),
+   default_value('Which topic are you adding speakers for?'),
+   system_managed(false)
+);

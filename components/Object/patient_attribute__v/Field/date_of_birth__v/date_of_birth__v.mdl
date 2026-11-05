@@ -1,0 +1,17 @@
+Field date_of_birth__v (
+   label('Date of Birth'),
+   type('Date'),
+   active(true),
+   description('Date of birth of the patient'),
+   required(false),
+   help_content(),
+   list_column(true),
+   order(11),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

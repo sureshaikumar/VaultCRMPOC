@@ -1,0 +1,18 @@
+Field connected_with__v (
+   label('Connected with:'),
+   type('Picklist'),
+   active(true),
+   description('The person with whom the user connected during the check-in.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.connected_with__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

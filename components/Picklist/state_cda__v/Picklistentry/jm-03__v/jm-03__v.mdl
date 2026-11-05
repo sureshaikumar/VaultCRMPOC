@@ -1,0 +1,6 @@
+Picklistentry jm-03__v (
+   value('Saint Thomas'),
+   order(2283),
+   active(true),
+   controlling_entries('jm__v')
+);

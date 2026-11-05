@@ -1,0 +1,19 @@
+Field ship_assmca__v (
+   label('Ship ASSMCA #'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('The ASSMCA number corresponding to the ship to address.'),
+   list_column(false),
+   order(111),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

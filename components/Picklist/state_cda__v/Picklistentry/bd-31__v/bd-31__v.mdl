@@ -1,0 +1,6 @@
+Picklistentry bd-31__v (
+   value('Lakshmipur'),
+   order(260),
+   active(true),
+   controlling_entries('bd__v')
+);

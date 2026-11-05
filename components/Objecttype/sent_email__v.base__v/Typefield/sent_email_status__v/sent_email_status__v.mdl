@@ -1,0 +1,4 @@
+Typefield sent_email_status__v (
+   source('standard'),
+   required(false)
+);

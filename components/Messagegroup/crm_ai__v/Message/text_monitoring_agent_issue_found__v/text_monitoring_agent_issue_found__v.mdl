@@ -1,0 +1,6 @@
+Message text_monitoring_agent_issue_found__v (
+   label(),
+   active(true),
+   default_value('Resolve issues detected by the Text Monitoring Agent on ${field_label} before proceeding.'),
+   system_managed(false)
+);

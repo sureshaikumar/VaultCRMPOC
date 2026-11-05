@@ -1,0 +1,6 @@
+Picklistentry bbatm__v (
+   value('Blood Banking and Transfusion Medicine'),
+   order(130),
+   active(true),
+   controlling_entries('us__v')
+);

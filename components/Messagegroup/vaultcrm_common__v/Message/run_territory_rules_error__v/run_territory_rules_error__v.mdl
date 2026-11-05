@@ -1,0 +1,6 @@
+Message run_territory_rules_error__v (
+   label(),
+   active(true),
+   default_value('The Territory Rules have encountered an error: ${error_message}.'),
+   system_managed(false)
+);

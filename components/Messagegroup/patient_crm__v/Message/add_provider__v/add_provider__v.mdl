@@ -1,0 +1,6 @@
+Message add_provider__v (
+   label(),
+   active(true),
+   default_value('Add Provider'),
+   system_managed(false)
+);

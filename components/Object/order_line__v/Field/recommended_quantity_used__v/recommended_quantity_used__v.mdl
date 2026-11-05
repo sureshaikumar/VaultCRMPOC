@@ -1,0 +1,18 @@
+Field recommended_quantity_used__v (
+   label('Recommendation Used?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Logical field that gets automatically enabled when a quantity recommendation was used on the Order Line. Do not modify'),
+   list_column(false),
+   order(59),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction inactive_state__sys.make_connection_active_useraction__sys (
+   label('Make Connection Active'),
+   rule(@rule.xml),
+   order(2000)
+);

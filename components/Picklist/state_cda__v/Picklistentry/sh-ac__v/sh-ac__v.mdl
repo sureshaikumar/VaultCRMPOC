@@ -1,0 +1,6 @@
+Picklistentry sh-ac__v (
+   value('Ascension'),
+   order(3972),
+   active(true),
+   controlling_entries('sh__v')
+);

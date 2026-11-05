@@ -1,0 +1,8 @@
+RECREATE Picklist text_monitoring_publish_findings__v (
+   label('Text Monitoring Publish Findings'),
+   active(true),
+   Picklistentry(@Picklistentry/never__v.mdl),
+   Picklistentry(@Picklistentry/issues_only__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

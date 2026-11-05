@@ -1,0 +1,6 @@
+Message slide_is_currently_unavailable__v (
+   label(),
+   active(true),
+   default_value('This slide is currently unavailable'),
+   system_managed(false)
+);

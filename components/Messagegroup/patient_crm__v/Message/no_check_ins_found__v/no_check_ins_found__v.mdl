@@ -1,0 +1,6 @@
+Message no_check_ins_found__v (
+   label(),
+   active(true),
+   default_value('No Check-Ins Found'),
+   system_managed(false)
+);

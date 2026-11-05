@@ -1,0 +1,6 @@
+Picklistentry si-118__v (
+   value('Šentilj'),
+   order(4092),
+   active(true),
+   controlling_entries('si__v')
+);

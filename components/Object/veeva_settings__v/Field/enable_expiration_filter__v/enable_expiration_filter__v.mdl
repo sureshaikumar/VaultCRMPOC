@@ -1,0 +1,18 @@
+Field enable_expiration_filter__v (
+   label('ENABLE_EXPIRATION_FILTER'),
+   type('Boolean'),
+   active(true),
+   description('Prevents expired Sample Lots from displaying in the Lot # picklist when creating a Call Report.  Default Value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(131),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

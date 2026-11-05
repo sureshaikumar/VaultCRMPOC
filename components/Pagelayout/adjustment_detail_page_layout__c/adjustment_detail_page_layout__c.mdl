@@ -1,0 +1,8 @@
+RECREATE Pagelayout adjustment_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description('Page layout for the Sample Order Adjustment transaction.'),
+   display_lifecycle_stages(false),
+   label('Allocation Adjustment Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

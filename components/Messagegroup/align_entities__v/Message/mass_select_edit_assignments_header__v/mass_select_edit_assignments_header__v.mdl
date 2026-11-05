@@ -1,0 +1,6 @@
+Message mass_select_edit_assignments_header__v (
+   label(),
+   active(true),
+   default_value('Edit {0} assignments for {1} ({2} selected)'),
+   system_managed(false)
+);

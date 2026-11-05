@@ -1,0 +1,18 @@
+Field enable_secure_messaging__v (
+   label('Enable Secure Messaging'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether users have access to secure messaging'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(38),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

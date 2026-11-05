@@ -1,0 +1,11 @@
+RECREATE Pagelink address_edit_pagelink__v (
+   label('Address Edit'),
+   description('Redirect Address editing to Address App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/edit/{{Object.id}}'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.address__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.address_page__v')
+);

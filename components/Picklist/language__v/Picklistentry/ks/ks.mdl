@@ -1,0 +1,5 @@
+Picklistentry ks (
+   value('Kashmiri'),
+   order(74),
+   active(true)
+);

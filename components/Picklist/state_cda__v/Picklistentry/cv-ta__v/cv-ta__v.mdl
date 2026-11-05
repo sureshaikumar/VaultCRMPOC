@@ -1,0 +1,6 @@
+Picklistentry cv-ta__v (
+   value('Tarrafal'),
+   order(805),
+   active(true),
+   controlling_entries('cv__v')
+);

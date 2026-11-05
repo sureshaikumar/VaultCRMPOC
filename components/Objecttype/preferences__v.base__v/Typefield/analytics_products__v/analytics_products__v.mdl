@@ -1,0 +1,4 @@
+Typefield analytics_products__v (
+   source('standard'),
+   required(false)
+);

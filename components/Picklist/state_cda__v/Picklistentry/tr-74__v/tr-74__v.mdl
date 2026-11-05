@@ -1,0 +1,6 @@
+Picklistentry tr-74__v (
+   value('Bartın'),
+   order(4532),
+   active(true),
+   controlling_entries('tr__v')
+);

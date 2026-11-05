@@ -1,0 +1,6 @@
+Picklistentry galan__v (
+   value('Gastroenterology and Liver'),
+   order(578),
+   active(true),
+   controlling_entries('kw__v')
+);

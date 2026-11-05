@@ -1,0 +1,6 @@
+Message duration_seconds__v (
+   label(),
+   active(true),
+   default_value('${duration_seconds}s'),
+   system_managed(false)
+);

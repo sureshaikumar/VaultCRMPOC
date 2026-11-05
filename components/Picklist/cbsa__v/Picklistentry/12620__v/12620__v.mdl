@@ -1,0 +1,5 @@
+Picklistentry 12620__v (
+   value('Bangor, ME Metropolitan Statistical Area'),
+   order(817),
+   active(true)
+);

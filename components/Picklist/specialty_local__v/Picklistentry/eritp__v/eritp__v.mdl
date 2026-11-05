@@ -1,0 +1,7 @@
+Picklistentry eritp__v (
+   value('Emergency Reception in the Pediatric Department'),
+   order(488),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

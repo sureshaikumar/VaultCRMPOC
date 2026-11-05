@@ -1,0 +1,5 @@
+Picklistentry ny__v (
+   value('NY'),
+   order(36),
+   active(true)
+);

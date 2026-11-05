@@ -1,0 +1,6 @@
+Picklistentry gw-s__v (
+   value('Sul'),
+   order(1812),
+   active(true),
+   controlling_entries('gw__v')
+);

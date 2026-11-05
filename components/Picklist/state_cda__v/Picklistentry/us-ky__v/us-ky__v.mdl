@@ -1,0 +1,6 @@
+Picklistentry us-ky__v (
+   value('Kentucky'),
+   order(4810),
+   active(true),
+   controlling_entries('us__v')
+);

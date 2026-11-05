@@ -1,0 +1,18 @@
+Field home_office_text_monitoring__v (
+   label('Home Office Text Monitoring'),
+   type('Picklist'),
+   active(true),
+   description('When On Submit is selected, records submitted by the user with an applicable Agent Rule will be monitored.'),
+   required(false),
+   unique(false),
+   help_content('Choose an option to enable back end monitoring'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.home_office_text_monitoring__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

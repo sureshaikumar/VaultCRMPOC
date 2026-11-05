@@ -1,0 +1,10 @@
+RECREATE Tab vault_ai__v (
+   active(false),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('AI'),
+   order(7800),
+   page('Page.vault_ai__sys'),
+   parent(),
+   url(@url.txt)
+);

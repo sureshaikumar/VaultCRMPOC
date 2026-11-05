@@ -1,0 +1,17 @@
+Field header_includes_page_numbers__v (
+   label('Header Includes Page Numbers'),
+   type('Boolean'),
+   active(true),
+   description('Indicates the fax will include page numbers in the header'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

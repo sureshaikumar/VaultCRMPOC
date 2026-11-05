@@ -1,0 +1,11 @@
+RECREATE Picklist remote_meeting_attendee_attendee_type__v (
+   label('Attendee Type'),
+   active(true),
+   Picklistentry(@Picklistentry/host__v.mdl),
+   Picklistentry(@Picklistentry/external_attendee__v.mdl),
+   Picklistentry(@Picklistentry/user_attendee__v.mdl),
+   Picklistentry(@Picklistentry/speaker__v.mdl),
+   Picklistentry(@Picklistentry/alternative_host__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist user_usage_level__sys (
+   label('User Usage Level'),
+   active(true),
+   Picklistentry(@Picklistentry/occasional__sys.mdl),
+   Picklistentry(@Picklistentry/light__sys.mdl),
+   Picklistentry(@Picklistentry/medium__sys.mdl),
+   Picklistentry(@Picklistentry/heavy__sys.mdl),
+   Picklistentry(@Picklistentry/very_heavy__sys.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

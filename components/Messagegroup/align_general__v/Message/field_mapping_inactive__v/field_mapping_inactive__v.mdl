@@ -1,0 +1,6 @@
+Message field_mapping_inactive__v (
+   label(),
+   active(true),
+   default_value('Inactive'),
+   system_managed(false)
+);

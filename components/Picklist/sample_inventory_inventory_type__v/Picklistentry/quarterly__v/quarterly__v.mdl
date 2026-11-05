@@ -1,0 +1,5 @@
+Picklistentry quarterly__v (
+   value('Quarterly'),
+   order(1),
+   active(true)
+);

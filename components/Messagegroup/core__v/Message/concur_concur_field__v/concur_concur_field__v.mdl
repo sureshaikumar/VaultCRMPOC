@@ -1,0 +1,6 @@
+Message concur_concur_field__v (
+   label(),
+   active(true),
+   default_value('Concur Field'),
+   system_managed(false)
+);

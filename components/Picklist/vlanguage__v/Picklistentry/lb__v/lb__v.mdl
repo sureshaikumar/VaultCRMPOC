@@ -1,0 +1,5 @@
+Picklistentry lb__v (
+   value('Luxembourgish'),
+   order(198),
+   active(false)
+);

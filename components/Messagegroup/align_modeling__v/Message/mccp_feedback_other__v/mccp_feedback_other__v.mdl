@@ -1,0 +1,6 @@
+Message mccp_feedback_other__v (
+   label(),
+   active(true),
+   default_value('Other'),
+   system_managed(false)
+);

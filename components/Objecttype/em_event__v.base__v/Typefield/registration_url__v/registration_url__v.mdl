@@ -1,0 +1,4 @@
+Typefield registration_url__v (
+   source('standard'),
+   required(false)
+);

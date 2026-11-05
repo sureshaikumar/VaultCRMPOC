@@ -1,0 +1,6 @@
+Picklistentry ro-nt__v (
+   value('Neamț'),
+   order(3745),
+   active(true),
+   controlling_entries('ro__v')
+);

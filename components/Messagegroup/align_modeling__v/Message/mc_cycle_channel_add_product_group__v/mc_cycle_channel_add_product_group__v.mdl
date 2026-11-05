@@ -1,0 +1,6 @@
+Message mc_cycle_channel_add_product_group__v (
+   label(),
+   active(true),
+   default_value('Add Product Group'),
+   system_managed(false)
+);

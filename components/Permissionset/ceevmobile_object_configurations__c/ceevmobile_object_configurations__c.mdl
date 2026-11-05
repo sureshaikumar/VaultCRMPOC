@@ -1,0 +1,14 @@
+RECREATE Permissionset ceevmobile_object_configurations__c (
+   label('CEE-VMobile Object Configurations'),
+   active(true),
+   description(),
+   object.vmobile_home_page_layout__v.home_page_suggestions_section__v.controls('view'),
+   object.vmobile_home_page_layout__v.home_page_surveys_section__v.controls('view'),
+   object.vmobile_home_page_layout__v.ipad__v.object_actions('read'),
+   object.vmobile_home_page_layout__v.sync_stats_section__v.controls('view'),
+   object.vmobile_home_page_layout__v.windowsmodern__v.object_actions('read'),
+   object.vmobile_object_configuration__v.base__v.object_actions('read'),
+   object.vmobile_object_configuration__v.field_actions('read'),
+   object.vmobile_object_configuration__v.tablet__v.object_actions('read'),
+   vault_actions.search('suggest')
+);

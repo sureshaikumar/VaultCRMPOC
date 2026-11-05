@@ -1,0 +1,6 @@
+Message bulk_update_rows_selected__v (
+   label(),
+   active(true),
+   default_value('${selected_records} out of ${all_records} records selected.'),
+   system_managed(false)
+);

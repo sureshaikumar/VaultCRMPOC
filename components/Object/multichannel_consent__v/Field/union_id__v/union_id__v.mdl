@@ -1,0 +1,19 @@
+Field union_id__v (
+   label('Union ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Store HCP''s UnionID'),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

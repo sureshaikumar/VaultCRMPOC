@@ -1,0 +1,5 @@
+Picklistentry regular__v (
+   value('Regular'),
+   order(1),
+   active(true)
+);

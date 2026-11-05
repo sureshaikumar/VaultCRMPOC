@@ -1,0 +1,6 @@
+Message stakeholder_navigator__v (
+   label(),
+   active(true),
+   default_value('Stakeholder Navigator'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry gyn__v (
+   value('Guyanese Creole'),
+   order(122),
+   active(false)
+);

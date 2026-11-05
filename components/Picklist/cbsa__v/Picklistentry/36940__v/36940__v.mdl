@@ -1,0 +1,5 @@
+Picklistentry 36940__v (
+   value('Owatonna, MN Micropolitan Statistical Area'),
+   order(511),
+   active(true)
+);

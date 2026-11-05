@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction pending_state__v.entryaction5__c (
+   rule(@rule.xml),
+   order(1000)
+);

@@ -1,0 +1,6 @@
+Picklistentry ppead__v (
+   value('Pediatric Pathology'),
+   order(1437),
+   active(true),
+   controlling_entries('us__v')
+);

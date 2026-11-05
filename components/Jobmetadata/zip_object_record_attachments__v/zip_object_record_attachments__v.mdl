@@ -1,0 +1,10 @@
+RECREATE Jobmetadata zip_object_record_attachments__v (
+   label('Zip Object Record Attachments Job'),
+   active(true),
+   chunk_size(1),
+   description('Job for zipping attachments on a record.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.ZipObjectRecordAttachmentsJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

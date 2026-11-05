@@ -1,0 +1,6 @@
+RECREATE Securityprofile view_based_user__v (
+   label('View-Based User'),
+   active(true),
+   description('System provided security profile for View-Based users. Users with this profile have read only access to the Vault and their license provides for a limited number of document views.'),
+   permission_sets('view_based_user_actions__v')
+);

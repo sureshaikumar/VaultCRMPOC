@@ -1,0 +1,16 @@
+RECREATE Picklist target_failure_reason__v (
+   label('Failure Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/no_match_found__v.mdl),
+   Picklistentry(@Picklistentry/multiple_matches__v.mdl),
+   Picklistentry(@Picklistentry/duplicate_submission__v.mdl),
+   Picklistentry(@Picklistentry/campaign_ended__v.mdl),
+   Picklistentry(@Picklistentry/campaign_not_found__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   Picklistentry(@Picklistentry/required_field_missing__v.mdl),
+   Picklistentry(@Picklistentry/field_length_exceeded__v.mdl),
+   Picklistentry(@Picklistentry/invalid_external_id_field__v.mdl),
+   Picklistentry(@Picklistentry/service_unavailable__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

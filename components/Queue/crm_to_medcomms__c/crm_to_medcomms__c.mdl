@@ -1,0 +1,13 @@
+RECREATE Queue crm_to_medcomms__c (
+   label('CRM to MedComms'),
+   active(true),
+   description(),
+   message_delivery_event_handler(),
+   message_delivery_event_handler_user(''),
+   message_processor(),
+   message_processor_user(),
+   rollback_on_error(true),
+   sequential(false),
+   type('outbound'),
+   Queueconnection(@Queueconnection/crm_to_medcomms_vault_medcomms_connectio__c.mdl)
+);

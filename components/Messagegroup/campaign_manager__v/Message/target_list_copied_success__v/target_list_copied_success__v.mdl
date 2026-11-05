@@ -1,0 +1,6 @@
+Message target_list_copied_success__v (
+   label(),
+   active(true),
+   default_value('Target list copied: ${count} targets added'),
+   system_managed(false)
+);

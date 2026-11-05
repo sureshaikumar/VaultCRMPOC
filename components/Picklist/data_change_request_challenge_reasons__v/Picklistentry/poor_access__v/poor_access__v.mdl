@@ -1,0 +1,5 @@
+Picklistentry poor_access__v (
+   value('Poor Access'),
+   order(5),
+   active(true)
+);

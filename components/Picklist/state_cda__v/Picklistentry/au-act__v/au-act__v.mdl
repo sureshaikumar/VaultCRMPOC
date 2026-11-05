@@ -1,0 +1,6 @@
+Picklistentry au-act__v (
+   value('Australian Capital Territory'),
+   order(130),
+   active(true),
+   controlling_entries('au__v')
+);

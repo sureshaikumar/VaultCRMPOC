@@ -1,0 +1,4 @@
+Typefield analytics_count_attendees__v (
+   source('standard'),
+   required(false)
+);

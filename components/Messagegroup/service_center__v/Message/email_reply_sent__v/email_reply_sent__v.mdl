@@ -1,0 +1,6 @@
+Message email_reply_sent__v (
+   label(),
+   active(true),
+   default_value('Email Reply Sent'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field whatsapp_business_phone_number_id__v (
+   label('WhatsApp Business Phone Number Id'),
+   type('String'),
+   active(true),
+   description('The unique identifier assigned by Meta to the WhatsApp phone number.'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

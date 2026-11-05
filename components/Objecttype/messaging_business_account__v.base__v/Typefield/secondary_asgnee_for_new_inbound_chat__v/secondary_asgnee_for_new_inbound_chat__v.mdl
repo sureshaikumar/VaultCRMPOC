@@ -1,0 +1,4 @@
+Typefield secondary_asgnee_for_new_inbound_chat__v (
+   source('standard'),
+   required(false)
+);

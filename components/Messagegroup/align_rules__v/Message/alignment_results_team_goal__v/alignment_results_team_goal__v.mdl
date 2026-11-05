@@ -1,0 +1,6 @@
+Message alignment_results_team_goal__v (
+   label(),
+   active(true),
+   default_value('Team Channel Interaction Goal'),
+   system_managed(false)
+);

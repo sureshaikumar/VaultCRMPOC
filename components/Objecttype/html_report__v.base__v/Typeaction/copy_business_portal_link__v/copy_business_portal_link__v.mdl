@@ -1,0 +1,3 @@
+Typeaction copy_business_portal_link__v (
+   action('html_report__v.copy_business_portal_link__v')
+);

@@ -1,0 +1,22 @@
+Field dynamic_attribute_value_number__v (
+   label('Dynamic Attribute Value (Number)'),
+   type('Number'),
+   active(true),
+   description('This field holds the Dynamic Attribute value if the record type of the Dynamic Attribute Configuration record is Number_vod.'),
+   required(false),
+   unique(false),
+   max_value(99999999999999),
+   min_value(-99999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

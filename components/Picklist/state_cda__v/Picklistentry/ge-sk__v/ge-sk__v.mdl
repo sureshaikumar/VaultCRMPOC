@@ -1,0 +1,6 @@
+Picklistentry ge-sk__v (
+   value('Shida Kartli'),
+   order(1685),
+   active(true),
+   controlling_entries('ge__v')
+);

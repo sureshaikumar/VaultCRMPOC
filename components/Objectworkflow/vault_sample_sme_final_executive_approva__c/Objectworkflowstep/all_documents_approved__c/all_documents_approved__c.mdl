@@ -1,0 +1,8 @@
+Objectworkflowstep all_documents_approved__c (
+   label('All documents approved?'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('If all documents have been approved, approval notification is sent and workflow ends, otherwise documents are sent for revision.')
+);

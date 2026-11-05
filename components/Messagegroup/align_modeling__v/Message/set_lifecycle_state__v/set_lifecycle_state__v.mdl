@@ -1,0 +1,6 @@
+Message set_lifecycle_state__v (
+   label(),
+   active(true),
+   default_value('Change Lifecycle State'),
+   system_managed(false)
+);

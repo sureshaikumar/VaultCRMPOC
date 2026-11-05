@@ -1,0 +1,6 @@
+Picklistentry adidi__v (
+   value('Advanced Diagnostic Imaging'),
+   order(23),
+   active(true),
+   controlling_entries('th__v')
+);

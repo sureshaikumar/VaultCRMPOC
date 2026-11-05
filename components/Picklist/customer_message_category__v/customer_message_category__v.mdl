@@ -1,0 +1,9 @@
+RECREATE Picklist customer_message_category__v (
+   label('Customer Message Category'),
+   active(true),
+   Picklistentry(@Picklistentry/common__v.mdl),
+   Picklistentry(@Picklistentry/authentication__v.mdl),
+   Picklistentry(@Picklistentry/documents__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

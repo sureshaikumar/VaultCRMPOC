@@ -1,0 +1,6 @@
+Picklistentry th-48__v (
+   value('Nakhon Phanom'),
+   order(4364),
+   active(true),
+   controlling_entries('th__v')
+);

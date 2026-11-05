@@ -1,0 +1,19 @@
+RECREATE Notificationtemplate referencelookuploaderjobfailure__v (
+   label('referenceLookupLoaderJobFailure'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Your Reference Lookup Job has failed'),
+   notification('<p>Your Reference Lookup Job has Failed</p>
+<p>Details:
+<ul>
+<li>Reason for Failure: ${vaultLoaderFailureReason}</li>
+<li>Action Type: ${vaultLoaderActionType}</li>
+<li>Job Start Time: ${vaultLoaderStartTime} </li>
+</ul>
+</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

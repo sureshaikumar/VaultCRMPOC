@@ -1,0 +1,11 @@
+Vsmrelationship locale__v (
+   label('Locale'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('Outbound reference to the user\''s locale record. Locale determines local formatting of numbers and dates'),
+   join_object(),
+   synonyms(),
+   target('locale__sysr'),
+   target_label('Locale'),
+   target_object('locale__sys')
+);

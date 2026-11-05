@@ -1,0 +1,6 @@
+Picklistentry bd-25__v (
+   value('Jhalakati'),
+   order(254),
+   active(true),
+   controlling_entries('bd__v')
+);

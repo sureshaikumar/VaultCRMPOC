@@ -1,0 +1,6 @@
+Picklistentry cz-424__v (
+   value('Louny'),
+   order(851),
+   active(true),
+   controlling_entries('cz__v')
+);

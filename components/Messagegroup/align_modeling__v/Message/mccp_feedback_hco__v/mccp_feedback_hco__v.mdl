@@ -1,0 +1,6 @@
+Message mccp_feedback_hco__v (
+   label(),
+   active(true),
+   default_value('HCO'),
+   system_managed(false)
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate deep_copy_checklist_design_failure__v (
+   label('Deep Copy Checklist Design Failure'),
+   active(true),
+   description('Notification template notifying user that the deep copy checklist design action failed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Failed to copy ${checklist_design__sys_label} ${target_checklist_design__sys_name} from ${source_checklist_design__sys_name}'),
+   notification('<p>Errors were encountered while copying <a href="${urlSourceChecklistDesign}">${source_checklist_design__sys_name}</a> to ${target_checklist_design__sys_name}. For additional details, download the <a href="${urlChecklistDesignErrorFile}">error file</a>. <a href="${urlChecklistHelp}">Learn more</a>.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

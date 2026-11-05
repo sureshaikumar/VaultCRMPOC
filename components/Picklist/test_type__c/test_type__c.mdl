@@ -1,0 +1,9 @@
+RECREATE Picklist test_type__c (
+   label('Test Type'),
+   active(true),
+   Picklistentry(@Picklistentry/type_1__c.mdl),
+   Picklistentry(@Picklistentry/type_2__c.mdl),
+   Picklistentry(@Picklistentry/type_3__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-pa__v (
+   value('Palermo'),
+   order(2235),
+   active(true),
+   controlling_entries('it__v')
+);

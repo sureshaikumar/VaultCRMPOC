@@ -1,0 +1,6 @@
+Message invalid_license_error__v (
+   label(),
+   active(true),
+   default_value('The user cannot be assigned the selected license as it is invalid for the user''s country.'),
+   system_managed(false)
+);

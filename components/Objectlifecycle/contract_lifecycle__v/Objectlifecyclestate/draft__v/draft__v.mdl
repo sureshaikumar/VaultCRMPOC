@@ -1,0 +1,10 @@
+Objectlifecyclestate draft__v (
+   label('Draft'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('Corresponds to the Contract Status of Draft'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

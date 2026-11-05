@@ -1,0 +1,6 @@
+Picklistentry ws-ge__v (
+   value('Gaga''emauga'),
+   order(4988),
+   active(true),
+   controlling_entries('ws__v')
+);

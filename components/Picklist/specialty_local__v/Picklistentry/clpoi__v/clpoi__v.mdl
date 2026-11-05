@@ -1,0 +1,6 @@
+Picklistentry clpoi__v (
+   value('Consultation-Liaison Psychiatry'),
+   order(332),
+   active(true),
+   controlling_entries('za__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry kw-mu__v (
+   value('Mubārak al Kabīr'),
+   order(2492),
+   active(true),
+   controlling_entries('kw__v')
+);

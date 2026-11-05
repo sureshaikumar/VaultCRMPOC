@@ -1,0 +1,5 @@
+Picklistentry olc_expense_line__sys (
+   value('Expense Line'),
+   order(42),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 28260__v (
+   value('Kearney, NE Micropolitan Statistical Area'),
+   order(189),
+   active(true)
+);

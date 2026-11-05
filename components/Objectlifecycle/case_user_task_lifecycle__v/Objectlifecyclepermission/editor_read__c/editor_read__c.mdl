@@ -1,0 +1,6 @@
+Objectlifecyclepermission editor_read__c (
+   states('Objectlifecyclestate.complete_state__c',
+         'Objectlifecyclestate.open_state__c'),
+   role('Objectlifecyclerole.editor__v'),
+   permission('Read')
+);

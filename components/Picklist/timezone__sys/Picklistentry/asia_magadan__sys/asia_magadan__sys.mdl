@@ -1,0 +1,5 @@
+Picklistentry asia_magadan__sys (
+   value('(GMT+11:00) Magadan Time (Asia/Magadan)'),
+   order(295),
+   active(true)
+);

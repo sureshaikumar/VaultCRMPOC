@@ -1,0 +1,6 @@
+Message crm_integration_tm2_setup_error_message__v (
+   label(),
+   active(true),
+   default_value('Please delete all territory models not created by Align and try again.'),
+   system_managed(false)
+);

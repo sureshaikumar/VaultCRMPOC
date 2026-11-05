@@ -1,0 +1,20 @@
+Field clm_presentation_grouping__v (
+   label('CLM Presentation Grouping'),
+   type('String'),
+   active(true),
+   description('Comma delimited list of Field API names on CLM_Presentation_vod__c which defines possible groupings of CLM presentations'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(59),
+   default_value('"CLM_PRESENTATION_GROUPING;;CLM"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

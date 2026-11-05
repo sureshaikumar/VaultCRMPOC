@@ -1,0 +1,5 @@
+Picklistentry natur__v (
+   value('Naturopath'),
+   order(74),
+   active(true)
+);

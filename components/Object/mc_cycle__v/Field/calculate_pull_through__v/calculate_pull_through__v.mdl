@@ -1,0 +1,18 @@
+Field calculate_pull_through__v (
+   label('Calculate Pull Through'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If true and pull-through fields exist on the MC_Target_vod object, when the MCCP integration runs it will populate the pull-through fields. It is not advised to set this often, only when pull-through values are needed to be populated.'),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

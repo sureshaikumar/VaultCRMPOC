@@ -1,0 +1,19 @@
+Field failure_msg__v (
+   label('Status Details'),
+   type('String'),
+   active(true),
+   description('Failure_Msg_vod captures the specific reason for an email send failures and will only be populated when Sent_Email_vod.Status_vod = Failed_vod. The reasons stored in this field will pertain for document validation errors, i.e. if a Email Template, Email F'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

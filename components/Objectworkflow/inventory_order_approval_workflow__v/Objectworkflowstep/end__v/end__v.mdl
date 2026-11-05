@@ -1,0 +1,8 @@
+Objectworkflowstep end__v (
+   label('End'),
+   type('end'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

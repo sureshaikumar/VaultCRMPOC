@@ -1,0 +1,4 @@
+Typefield enhanced_coaching_mode__v (
+   source('standard'),
+   required(false)
+);

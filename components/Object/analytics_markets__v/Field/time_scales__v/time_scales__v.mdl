@@ -1,0 +1,18 @@
+Field time_scales__v (
+   label('Time Scales'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Configurable list of time scales to display in the Time Scale filter for the specified market. VInsights uses these code values along with Veeva messages to construct the displayed text in the pickllist.'),
+   list_column(false),
+   order(10),
+   multi_value(true),
+   picklist('Picklist.analytics_markets_time_scales__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

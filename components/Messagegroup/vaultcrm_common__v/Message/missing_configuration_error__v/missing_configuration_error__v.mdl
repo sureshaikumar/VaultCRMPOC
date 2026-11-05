@@ -1,0 +1,6 @@
+Message missing_configuration_error__v (
+   label(),
+   active(true),
+   default_value('Missing Configuration: ${error_message}'),
+   system_managed(false)
+);

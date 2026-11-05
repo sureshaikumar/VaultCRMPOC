@@ -1,0 +1,6 @@
+Message description__v (
+   label(),
+   active(true),
+   default_value('Description'),
+   system_managed(false)
+);

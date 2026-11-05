@@ -1,0 +1,9 @@
+RECREATE Picklist connection_failed_reason__v (
+   label('Connection Failed Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/not_available__v.mdl),
+   Picklistentry(@Picklistentry/voicemail__v.mdl),
+   Picklistentry(@Picklistentry/wrong_number__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry mscm__v (
+   value('Master of Medicine'),
+   order(9),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Doclifecyclerole reviewer__c (
+   label('Reviewer'),
+   active(true),
+   description('System Provided Role'),
+   application_role('reviewer__c'),
+   note_color(),
+   security_options(@security_options.xml)
+);

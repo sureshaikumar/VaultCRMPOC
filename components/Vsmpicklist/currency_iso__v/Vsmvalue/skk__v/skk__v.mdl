@@ -1,0 +1,10 @@
+Vsmvalue skk__v (
+   label('SKK'),
+   active(true),
+   description('Applies when referencing the Slovak Koruna, the historical currency of Slovakia before it adopted the Euro in 2009.'),
+   synonyms('Slovak koruna',
+         'Slovakia legacy currency',
+         'koruna'),
+   target('skk__sys'),
+   target_label('SKK')
+);

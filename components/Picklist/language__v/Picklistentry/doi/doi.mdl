@@ -1,0 +1,5 @@
+Picklistentry doi (
+   value('Dogri'),
+   order(165),
+   active(true)
+);

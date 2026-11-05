@@ -1,0 +1,6 @@
+Picklistentry bg-06__v (
+   value('Vratsa'),
+   order(378),
+   active(true),
+   controlling_entries('bg__v')
+);

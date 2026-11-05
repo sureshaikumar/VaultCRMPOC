@@ -1,0 +1,5 @@
+Picklistentry noram_canada__v (
+   value('NORAM - Canada'),
+   order(13),
+   active(true)
+);

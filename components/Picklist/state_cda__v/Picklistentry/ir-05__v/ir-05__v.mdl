@@ -1,0 +1,6 @@
+Picklistentry ir-05__v (
+   value('Kermānshāh'),
+   order(2057),
+   active(true),
+   controlling_entries('ir__v')
+);

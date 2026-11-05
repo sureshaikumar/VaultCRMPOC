@@ -1,0 +1,12 @@
+Listlayoutitem meal_opt_in__v (
+   label('Meal Opt-in'),
+   active(true),
+   control_label(),
+   field_key('meal_opt_in__v'),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Field'),
+   object_control(),
+   object_control_properties(),
+   omit_header_label()
+);

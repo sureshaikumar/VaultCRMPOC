@@ -1,0 +1,6 @@
+Picklistentry td-si__v (
+   value('Sīlā'),
+   order(4319),
+   active(true),
+   controlling_entries('td__v')
+);

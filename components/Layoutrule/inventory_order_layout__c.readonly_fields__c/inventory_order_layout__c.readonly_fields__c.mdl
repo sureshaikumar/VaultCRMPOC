@@ -1,0 +1,16 @@
+RECREATE Layoutrule inventory_order_layout__c.readonly_fields__c (
+   active(true),
+   description('Layout rule to make Order For User and Order Create Date once Inventory Order is saved.'),
+   displayed_as_readonly_fields('order_for_user__v',
+      'order_create_date__v'),
+   displayed_as_required_fields(),
+   expression('not(IsBlank(created_date__v))'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Read-Only Fields'),
+   order(200)
+);

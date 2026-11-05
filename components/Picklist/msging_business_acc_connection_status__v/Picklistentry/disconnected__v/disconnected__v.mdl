@@ -1,0 +1,5 @@
+Picklistentry disconnected__v (
+   value('Disconnected'),
+   order(1),
+   active(true)
+);

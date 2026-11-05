@@ -1,0 +1,6 @@
+Message target_added_to__v (
+   label(),
+   active(true),
+   default_value('Target Added to ${target_list_name}'),
+   system_managed(false)
+);

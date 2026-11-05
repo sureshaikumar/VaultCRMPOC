@@ -1,0 +1,18 @@
+Field select_clm_call_record_type__v (
+   label('Select CLM Call Record Type'),
+   type('Boolean'),
+   active(true),
+   description('Allows users to select the call record type for a CLM Call'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(32),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

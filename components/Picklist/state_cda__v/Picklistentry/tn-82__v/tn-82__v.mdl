@@ -1,0 +1,6 @@
+Picklistentry tn-82__v (
+   value('Medenine'),
+   order(4452),
+   active(true),
+   controlling_entries('tn__v')
+);

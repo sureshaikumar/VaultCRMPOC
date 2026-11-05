@@ -1,0 +1,5 @@
+Picklistentry cholesterol_reducer__v (
+   value('Cholesterol Reducer'),
+   order(0),
+   active(true)
+);

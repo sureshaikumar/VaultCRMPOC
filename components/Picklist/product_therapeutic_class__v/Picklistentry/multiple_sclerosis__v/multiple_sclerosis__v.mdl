@@ -1,0 +1,5 @@
+Picklistentry multiple_sclerosis__v (
+   value('Multiple Sclerosis'),
+   order(72),
+   active(true)
+);

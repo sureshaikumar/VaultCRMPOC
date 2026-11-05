@@ -1,0 +1,6 @@
+Picklistentry si-192__v (
+   value('Žirovnica'),
+   order(4165),
+   active(true),
+   controlling_entries('si__v')
+);

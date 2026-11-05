@@ -1,0 +1,6 @@
+Message campaign_type_description__v (
+   label(),
+   active(true),
+   default_value('Lock target list at campaign activation'),
+   system_managed(false)
+);

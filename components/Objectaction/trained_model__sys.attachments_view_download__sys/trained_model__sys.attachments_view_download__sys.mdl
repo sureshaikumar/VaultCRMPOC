@@ -1,0 +1,8 @@
+RECREATE Objectaction trained_model__sys.attachments_view_download__sys (
+   label('Attachments: View and Download'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.AttachmentsViewandDownload'),
+   active(true),
+   available_all_states(true)
+);

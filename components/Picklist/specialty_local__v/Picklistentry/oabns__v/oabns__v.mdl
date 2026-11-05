@@ -1,0 +1,6 @@
+Picklistentry oabns__v (
+   value('Obstetric Anesthesiology'),
+   order(1073),
+   active(true),
+   controlling_entries('ph__v')
+);

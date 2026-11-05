@@ -1,0 +1,18 @@
+Picklistentry chlei__v (
+   value('Clinical Hematology'),
+   order(227),
+   active(true),
+   controlling_entries('ae__v',
+         'be__v',
+         'bg__v',
+         'bh__v',
+         'bw__v',
+         'cm__v',
+         'fi__v',
+         'lu__v',
+         'ma__v',
+         'pt__v',
+         'sn__v',
+         'tn__v',
+         'za__v')
+);

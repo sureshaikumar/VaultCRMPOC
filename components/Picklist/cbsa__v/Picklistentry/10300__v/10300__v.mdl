@@ -1,0 +1,5 @@
+Picklistentry 10300__v (
+   value('Adrian, MI Micropolitan Statistical Area'),
+   order(420),
+   active(true)
+);

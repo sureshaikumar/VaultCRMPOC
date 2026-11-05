@@ -1,0 +1,19 @@
+Field email_fragment_order__v (
+   label('Email Fragment Order'),
+   type('String'),
+   active(true),
+   description('Specifies order in which attachments are attached to email template'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

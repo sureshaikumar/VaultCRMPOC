@@ -1,0 +1,6 @@
+Picklistentry cu-06__v (
+   value('Cienfuegos'),
+   order(771),
+   active(true),
+   controlling_entries('cu__v')
+);

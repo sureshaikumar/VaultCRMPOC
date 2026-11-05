@@ -1,0 +1,5 @@
+Picklistentry mccp__v (
+   value('MCCP'),
+   order(5),
+   active(true)
+);

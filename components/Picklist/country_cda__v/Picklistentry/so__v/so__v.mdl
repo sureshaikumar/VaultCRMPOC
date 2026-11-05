@@ -1,0 +1,5 @@
+Picklistentry so__v (
+   value('Somalia'),
+   order(205),
+   active(true)
+);

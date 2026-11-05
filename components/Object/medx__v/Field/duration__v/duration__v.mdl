@@ -1,0 +1,23 @@
+Field duration__v (
+   label('Duration'),
+   type('Number'),
+   active(true),
+   description('The duration, in minutes, of the medical interaction.'),
+   required(false),
+   unique(false),
+   max_value(10000),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(21),
+   default_value('30'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

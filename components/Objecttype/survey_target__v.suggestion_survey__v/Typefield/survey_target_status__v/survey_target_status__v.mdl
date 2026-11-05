@@ -1,0 +1,10 @@
+Typefield survey_target_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.survey_target_status__v.development__v',
+         'Picklist.survey_target_status__v.late_submission__v',
+         'Picklist.survey_target_status__v.pending__v',
+         'Picklist.survey_target_status__v.saved__v',
+         'Picklist.survey_target_status__v.submitted__v'),
+   default_value('Picklist.survey_target_status__v.development__v')
+);

@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation redaction_lc_complete_state__sys (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.redaction_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.complete__sys'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

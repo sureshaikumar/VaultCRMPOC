@@ -1,0 +1,19 @@
+Field pdf_format__sys (
+   label('PDF Format'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(50),
+   help_content('Set the format for PDF Viewable Renditions to be rendered by Vault.'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

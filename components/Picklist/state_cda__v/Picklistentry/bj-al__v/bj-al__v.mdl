@@ -1,0 +1,6 @@
+Picklistentry bj-al__v (
+   value('Alibori'),
+   order(424),
+   active(true),
+   controlling_entries('bj__v')
+);

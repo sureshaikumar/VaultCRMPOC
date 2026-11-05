@@ -1,0 +1,17 @@
+Field no_mark_up__sys (
+   label('Do not show Markup in Viewable Rendition'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, all new Viewable Renditions for Word documents will be rendered with No Markup.'),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

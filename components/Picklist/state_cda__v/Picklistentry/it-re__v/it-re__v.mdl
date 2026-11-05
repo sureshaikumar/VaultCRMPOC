@@ -1,0 +1,6 @@
+Picklistentry it-re__v (
+   value('Reggio Emilia'),
+   order(2250),
+   active(true),
+   controlling_entries('it__v')
+);

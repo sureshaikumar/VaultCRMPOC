@@ -1,0 +1,13 @@
+Vsmrelationship person_prior_locale__v (
+   label('Person Prior Locale'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('The person prior records that reference this locale as a previously assigned locale. Use this to identify persons who had this locale set as a prior/historical locale.'),
+   join_object(),
+   synonyms('prior locale persons',
+         'previous locale users',
+         'formerly assigned persons'),
+   target('person_prior_locale__sysr'),
+   target_label('Prior Persons'),
+   target_object('person_prior__sys')
+);

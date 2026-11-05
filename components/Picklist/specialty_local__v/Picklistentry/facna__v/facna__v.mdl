@@ -1,0 +1,7 @@
+Picklistentry facna__v (
+   value('Family and Community Nursing'),
+   order(530),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

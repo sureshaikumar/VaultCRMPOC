@@ -1,0 +1,6 @@
+Message mccp_approval_rule_header__v (
+   label(),
+   active(true),
+   default_value('Rule Criteria'),
+   system_managed(false)
+);

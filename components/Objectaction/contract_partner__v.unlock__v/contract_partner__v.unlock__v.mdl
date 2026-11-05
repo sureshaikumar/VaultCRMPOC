@@ -1,0 +1,8 @@
+RECREATE Objectaction contract_partner__v.unlock__v (
+   label('Unlock'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.contractsmanagement.contractpartner.actions.UnlockAction'),
+   active(true),
+   available_all_states(true)
+);

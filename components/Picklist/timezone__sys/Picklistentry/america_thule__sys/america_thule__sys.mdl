@@ -1,0 +1,5 @@
+Picklistentry america_thule__sys (
+   value('(GMT-04:00) Atlantic Standard Time (America/Thule)'),
+   order(93),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message am_mccp_reassociated_with_id__v (
+   label(),
+   active(true),
+   default_value('MCCP Target record {0} will be re-associated from the losing account to the winning account.'),
+   system_managed(false)
+);

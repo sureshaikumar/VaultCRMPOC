@@ -1,0 +1,6 @@
+Picklistentry il-ha__v (
+   value('Haifa'),
+   order(1992),
+   active(true),
+   controlling_entries('il__v')
+);

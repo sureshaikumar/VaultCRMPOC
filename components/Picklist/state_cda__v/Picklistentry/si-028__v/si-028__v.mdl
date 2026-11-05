@@ -1,0 +1,6 @@
+Picklistentry si-028__v (
+   value('Gorišnica'),
+   order(4002),
+   active(true),
+   controlling_entries('si__v')
+);

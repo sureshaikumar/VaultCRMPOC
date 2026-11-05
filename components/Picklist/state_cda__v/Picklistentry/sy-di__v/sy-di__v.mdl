@@ -1,0 +1,6 @@
+Picklistentry sy-di__v (
+   value('Dimashq'),
+   order(4282),
+   active(true),
+   controlling_entries('sy__v')
+);

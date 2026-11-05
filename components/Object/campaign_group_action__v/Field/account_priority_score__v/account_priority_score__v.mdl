@@ -1,0 +1,22 @@
+Field account_priority_score__v (
+   label('Account Priority Score'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(-99999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

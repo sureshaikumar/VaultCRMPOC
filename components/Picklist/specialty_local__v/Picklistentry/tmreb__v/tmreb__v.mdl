@@ -1,0 +1,6 @@
+Picklistentry tmreb__v (
+   value('Traffic Medicine'),
+   order(1850),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bf-kop__v (
+   value('Koulpélogo'),
+   order(345),
+   active(true),
+   controlling_entries('bf__v')
+);

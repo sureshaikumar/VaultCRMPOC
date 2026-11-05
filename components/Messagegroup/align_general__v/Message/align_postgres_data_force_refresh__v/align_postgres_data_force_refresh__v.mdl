@@ -1,0 +1,6 @@
+Message align_postgres_data_force_refresh__v (
+   label(),
+   active(true),
+   default_value('Force Full Refresh'),
+   system_managed(false)
+);

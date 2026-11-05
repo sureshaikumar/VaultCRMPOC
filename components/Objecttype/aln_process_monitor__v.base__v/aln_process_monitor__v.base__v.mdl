@@ -1,0 +1,23 @@
+RECREATE Objecttype aln_process_monitor__v.base__v (
+   label('Base Process Monitor'),
+   label_plural('Base Process Monitors'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/external_id__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_completed_import_datetime__v.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/process_type__v.mdl),
+   Typefield(@Typefield/source_system__v.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

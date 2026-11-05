@@ -1,0 +1,6 @@
+Picklistentry cz-531__v (
+   value('Chrudim'),
+   order(867),
+   active(true),
+   controlling_entries('cz__v')
+);

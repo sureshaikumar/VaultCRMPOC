@@ -1,0 +1,4 @@
+Typefield delivery_order_warning__v (
+   source('standard'),
+   required(false)
+);

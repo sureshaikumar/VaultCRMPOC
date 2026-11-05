@@ -1,0 +1,5 @@
+Index context_v__sys (
+   description(),
+   fields('context__v'),
+   label('Context')
+);

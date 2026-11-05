@@ -1,0 +1,17 @@
+Picklistentry pemem__v (
+   value('Pediatric Emergency Medicine'),
+   order(1366),
+   active(true),
+   controlling_entries('au__v',
+         'bh__v',
+         'ca__v',
+         'il__v',
+         'kr__v',
+         'nz__v',
+         'qa__v',
+         'sk__v',
+         'tr__v',
+         'tw__v',
+         'us__v',
+         'za__v')
+);

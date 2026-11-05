@@ -1,0 +1,21 @@
+Field call_channel_formula__v (
+   label('Call Channel Formula'),
+   type('String'),
+   active(true),
+   description('If a user has read FLS to this formula field, the result of the formula auto-populates call_channel__v. To use, replace OOTB formula with custom formula.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(' '),
+   list_column(false),
+   order(233),
+   formula('Text(call_channel__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

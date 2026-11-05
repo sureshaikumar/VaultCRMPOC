@@ -1,0 +1,5 @@
+Picklistentry q3__c (
+   value('Q3'),
+   order(2),
+   active(true)
+);

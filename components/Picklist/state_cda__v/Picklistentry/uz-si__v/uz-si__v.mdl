@@ -1,0 +1,6 @@
+Picklistentry uz-si__v (
+   value('Sirdaryo'),
+   order(4876),
+   active(true),
+   controlling_entries('uz__v')
+);

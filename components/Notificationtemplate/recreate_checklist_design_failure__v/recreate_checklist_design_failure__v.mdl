@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate recreate_checklist_design_failure__v (
+   label('recreateChecklistDesignFailure'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: ${checklist_design__sys_label} Upload failed'),
+   notification('<p>Your ${checklist_design__sys_label} upload attempt has failed. Records were not created because errors were encountered during processing. For additional details, download the <a href="${urlChecklistDesignErrorFile}">error file</a>. <a href="${urlChecklistHelp}">Learn more</a>.</p>
+'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

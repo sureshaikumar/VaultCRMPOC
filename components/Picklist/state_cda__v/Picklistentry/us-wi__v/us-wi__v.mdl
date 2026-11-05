@@ -1,0 +1,6 @@
+Picklistentry us-wi__v (
+   value('Wisconsin'),
+   order(4845),
+   active(true),
+   controlling_entries('us__v')
+);

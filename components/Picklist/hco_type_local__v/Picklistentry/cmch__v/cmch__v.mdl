@@ -1,0 +1,5 @@
+Picklistentry cmch__v (
+   value('Chinese Medicine Clinic'),
+   order(23),
+   active(true)
+);

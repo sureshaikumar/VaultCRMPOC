@@ -1,0 +1,6 @@
+Message change_open_and_start_call__v (
+   label(),
+   active(true),
+   default_value('Change to Open and Start Call'),
+   system_managed(false)
+);

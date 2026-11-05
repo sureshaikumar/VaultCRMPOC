@@ -1,0 +1,6 @@
+Message no_ph_num_available_to_connect__v (
+   label(),
+   active(true),
+   default_value('No phone numbers available to connect.'),
+   system_managed(false)
+);

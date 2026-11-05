@@ -1,0 +1,4 @@
+Typefield allow_user_level_assignment__sys (
+   source('standard'),
+   required(false)
+);

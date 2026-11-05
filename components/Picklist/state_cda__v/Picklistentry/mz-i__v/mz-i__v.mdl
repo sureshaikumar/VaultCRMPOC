@@ -1,0 +1,6 @@
+Picklistentry mz-i__v (
+   value('Inhambane'),
+   order(3290),
+   active(true),
+   controlling_entries('mz__v')
+);

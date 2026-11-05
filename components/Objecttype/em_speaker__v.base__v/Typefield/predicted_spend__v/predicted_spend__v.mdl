@@ -1,0 +1,4 @@
+Typefield predicted_spend__v (
+   source('standard'),
+   required(false)
+);

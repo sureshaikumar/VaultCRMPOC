@@ -1,0 +1,8 @@
+RECREATE Objectaction account_plan__v.record_call__v (
+   label('Record a Call'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.accountmanagement.actions.AccountPlanRecordCallAction'),
+   active(true),
+   available_all_states(true)
+);

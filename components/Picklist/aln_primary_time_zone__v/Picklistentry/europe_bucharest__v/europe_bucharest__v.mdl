@@ -1,0 +1,5 @@
+Picklistentry europe_bucharest__v (
+   value('Europe/Bucharest'),
+   order(40),
+   active(true)
+);

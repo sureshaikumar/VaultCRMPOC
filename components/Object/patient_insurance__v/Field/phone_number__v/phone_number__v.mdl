@@ -1,0 +1,20 @@
+Field phone_number__v (
+   label('Phone Number'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('Phone number of the insurance provider'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(true),
+   order(15),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

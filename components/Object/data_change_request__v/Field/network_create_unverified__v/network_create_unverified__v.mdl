@@ -1,0 +1,22 @@
+Field network_create_unverified__v (
+   label('Network Create Unverified'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content('Determines if the DCR will override the Network workflow settings and create an Unverified Record in Network.'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

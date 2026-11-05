@@ -1,0 +1,6 @@
+Picklistentry pmaps__v (
+   value('Psychosomatic Medicine and Psychotherapy'),
+   order(1628),
+   active(true),
+   controlling_entries('de__v')
+);

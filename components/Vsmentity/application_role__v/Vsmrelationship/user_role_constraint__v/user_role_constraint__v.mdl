@@ -1,0 +1,14 @@
+Vsmrelationship user_role_constraint__v (
+   label('User Role Constraint'),
+   active(false),
+   cardinality('ONE_TO_MANY'),
+   description('User role constraint records associated with this application role, defining any scoping or limiting rules applied to the role assignment. Use this to identify constraints that narrow the scope of access granted by this role.'),
+   join_object('Object.user_role_constraint__v'),
+   synonyms('role constraints',
+         'access constraints',
+         'restrictions',
+         'role restrictions'),
+   target('user_role_constraint__vr'),
+   target_label('User Role Constraints'),
+   target_object('user_role_constraint__v')
+);

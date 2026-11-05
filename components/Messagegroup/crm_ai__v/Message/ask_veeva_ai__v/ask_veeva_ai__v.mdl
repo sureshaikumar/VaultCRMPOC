@@ -1,0 +1,6 @@
+Message ask_veeva_ai__v (
+   label(),
+   active(true),
+   default_value('Ask Vault AI'),
+   system_managed(false)
+);

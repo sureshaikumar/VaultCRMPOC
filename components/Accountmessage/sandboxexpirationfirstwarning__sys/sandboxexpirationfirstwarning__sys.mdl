@@ -1,0 +1,7 @@
+RECREATE Accountmessage sandboxexpirationfirstwarning__sys (
+   label('Sandbox Expiration First Warning'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Notification: ${sandboxSize} Sandbox Inactivity Warning')
+);

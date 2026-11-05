@@ -1,0 +1,6 @@
+Picklistentry fsoco__v (
+   value('Food Science'),
+   order(544),
+   active(true),
+   controlling_entries('it__v')
+);

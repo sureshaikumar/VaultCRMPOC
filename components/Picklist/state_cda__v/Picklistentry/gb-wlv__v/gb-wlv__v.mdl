@@ -1,0 +1,6 @@
+Picklistentry gb-wlv__v (
+   value('Wolverhampton'),
+   order(1656),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,13 @@
+Doclifecyclestate approved__v (
+   label('Approved'),
+   active(true),
+   description('Approved templates will be available for end-users to select in the Export to PowerPoint action on Account Plan'),
+   order(1),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false),
+   entry_criteria(@entry_criteria.xml),
+   entry_action(@entry_action.xml),
+   user_action(@user_action.xml),
+   security_settings(@security_settings.xml)
+);

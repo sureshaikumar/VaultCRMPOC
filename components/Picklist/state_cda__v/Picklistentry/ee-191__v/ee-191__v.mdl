@@ -1,0 +1,6 @@
+Picklistentry ee-191__v (
+   value('Haljala'),
+   order(1069),
+   active(true),
+   controlling_entries('ee__v')
+);

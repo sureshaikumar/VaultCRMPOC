@@ -1,0 +1,6 @@
+Message lc_state_update_success_body__v (
+   label(),
+   active(true),
+   default_value('Your request to move ${0} to the next lifecycle state has completed successfully.'),
+   system_managed(false)
+);

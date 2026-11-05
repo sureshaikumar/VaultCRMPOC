@@ -1,0 +1,6 @@
+Message successes__v (
+   label(),
+   active(true),
+   default_value('${count} Successes'),
+   system_managed(false)
+);

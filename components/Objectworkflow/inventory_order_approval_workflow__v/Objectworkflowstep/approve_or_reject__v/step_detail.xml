@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Approve or Reject</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="the_following_inventory_order_has_been_s__v" label="The following Inventory Order has been submitted for approval. Please review to approve or reject.&#xD;&#xA;&#xD;&#xA;Order ID: $\{Object.name__v\}&#xD;&#xA;Order For: $\{Object.order_for_user__v\}" type="instructions">
+        <vwf:instructions>The following Inventory Order has been submitted for approval. Please review to approve or reject.&#xD;
+&#xD;
+Order ID: $\{Object.name__v\}&#xD;
+Order For: $\{Object.order_for_user__v\}</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="verdict_public_key__v" type="verdict">
+        <vwf:verdict label="Approved" name="verdict_approved__v" />
+        <vwf:verdict label="Rejected" name="verdict_rejected__v" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="part_inventory_order_approver__v" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+</vwf:stepdetails>

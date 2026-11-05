@@ -1,0 +1,6 @@
+Message recent_object_filters__v (
+   label(),
+   active(true),
+   default_value('Recent ${object} Filters'),
+   system_managed(false)
+);

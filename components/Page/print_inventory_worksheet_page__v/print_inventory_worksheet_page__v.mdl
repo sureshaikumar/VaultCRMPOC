@@ -1,0 +1,14 @@
+RECREATE Page print_inventory_worksheet_page__v (
+   label('Print Inventory Worksheet'),
+   active(true),
+   client_distribution(),
+   default_client_code('print_inventory_worksheet_page__v'),
+   description('App Page to generate a Sample Inventory Worksheet.'),
+   disable_chrome(true),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.mysamples.controls.PrintInventoryWorksheetPageController'),
+   url_path_name('print-inventory-worksheet')
+);

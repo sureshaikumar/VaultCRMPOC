@@ -1,0 +1,10 @@
+Vsmvalue xpd__v (
+   label('XPD'),
+   active(true),
+   description('Used for transactions or contracts valued in Palladium, a precious metal traded as a commodity on international markets and priced per troy ounce.'),
+   synonyms('Palladium',
+         'palladium ounce',
+         'palladium commodity'),
+   target('xpd__sys'),
+   target_label('XPD')
+);

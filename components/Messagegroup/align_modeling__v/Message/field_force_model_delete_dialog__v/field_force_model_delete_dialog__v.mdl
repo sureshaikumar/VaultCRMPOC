@@ -1,0 +1,6 @@
+Message field_force_model_delete_dialog__v (
+   label(),
+   active(true),
+   default_value('Deleting Field Force Model data'),
+   system_managed(false)
+);

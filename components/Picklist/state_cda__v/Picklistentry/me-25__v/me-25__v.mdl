@@ -1,0 +1,6 @@
+Picklistentry me-25__v (
+   value('Zeta'),
+   order(2931),
+   active(true),
+   controlling_entries('me__v')
+);

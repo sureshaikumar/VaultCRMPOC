@@ -1,0 +1,5 @@
+Picklistentry award_winner__v (
+   value('Award_Winner'),
+   order(0),
+   active(true)
+);

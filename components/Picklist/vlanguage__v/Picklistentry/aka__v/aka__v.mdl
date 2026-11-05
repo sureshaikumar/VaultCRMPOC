@@ -1,0 +1,5 @@
+Picklistentry aka__v (
+   value('Akan'),
+   order(9),
+   active(false)
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata overdue_task_job__c (
+   label('Overdue Task Job'),
+   active(true),
+   chunk_size(100),
+   description(),
+   job_code('Sdkjob.com.veeva.vault.custom.processors.OverdueTaskJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

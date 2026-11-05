@@ -1,0 +1,6 @@
+Picklistentry fr-69m__v (
+   value('Métropole de Lyon'),
+   order(1386),
+   active(true),
+   controlling_entries('fr__v')
+);

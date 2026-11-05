@@ -1,0 +1,5 @@
+Picklistentry 39500__v (
+   value('Quincy, IL-MO Micropolitan Statistical Area'),
+   order(116),
+   active(true)
+);

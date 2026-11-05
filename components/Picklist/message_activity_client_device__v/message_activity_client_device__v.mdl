@@ -1,0 +1,11 @@
+RECREATE Picklist message_activity_client_device__v (
+   label('Client Device'),
+   active(true),
+   Picklistentry(@Picklistentry/desktop__v.mdl),
+   Picklistentry(@Picklistentry/mobile__v.mdl),
+   Picklistentry(@Picklistentry/tablet__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   Picklistentry(@Picklistentry/unknown__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

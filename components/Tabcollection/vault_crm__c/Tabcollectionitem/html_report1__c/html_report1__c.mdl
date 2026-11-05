@@ -1,0 +1,8 @@
+Tabcollectionitem html_report1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(11),
+   tab('Tab.html_report__c'),
+   type('Tab')
+);

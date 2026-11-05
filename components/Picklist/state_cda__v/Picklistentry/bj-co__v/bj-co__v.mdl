@@ -1,0 +1,6 @@
+Picklistentry bj-co__v (
+   value('Collines'),
+   order(427),
+   active(true),
+   controlling_entries('bj__v')
+);

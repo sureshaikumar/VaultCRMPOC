@@ -1,0 +1,6 @@
+Message hide_in_chat__sys (
+   label(),
+   active(true),
+   default_value('Hide in Chat Action List'),
+   system_managed(true)
+);

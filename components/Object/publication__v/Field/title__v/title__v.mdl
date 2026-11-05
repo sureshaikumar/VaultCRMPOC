@@ -1,0 +1,19 @@
+Field title__v (
+   label('Title'),
+   type('String'),
+   active(true),
+   description('Title of the publication'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

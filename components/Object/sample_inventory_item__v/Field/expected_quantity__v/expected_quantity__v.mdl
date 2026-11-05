@@ -1,0 +1,22 @@
+Field expected_quantity__v (
+   label('Expected Quantity'),
+   type('Number'),
+   active(true),
+   description('Expected Quantity represents the quantity that the system expects for a Sample Lot as part of a Sample Inventory Item.  The Expected Quantity is calculated based on the summation of the Inventory Impact Quantity field for  all Sample Transactions by the u'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,18 @@
+Field event_attendee_status__v (
+   label('Event Attendee Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Event_Attendee_Status_vod picklist value defines what the status of the of the attendee should be updated to in EM_Attendee_vod.Status_vod.'),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.multichannel_messa_event_attendee_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

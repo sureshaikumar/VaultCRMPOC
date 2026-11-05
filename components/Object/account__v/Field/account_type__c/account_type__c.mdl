@@ -1,0 +1,18 @@
+Field account_type__c (
+   label('Account Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Account type (e.g. Plan Provider, Network or Specialty Org). Used by MCO and MCO Plan accounts.'),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.account_account_type__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

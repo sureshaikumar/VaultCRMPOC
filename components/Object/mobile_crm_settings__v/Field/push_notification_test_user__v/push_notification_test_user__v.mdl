@@ -1,0 +1,19 @@
+Field push_notification_test_user__v (
+   label('Push Notification Test User'),
+   type('String'),
+   active(true),
+   description('This is an org-level override to support sandbox testing. Populated with a double semi-colon delimited list of usernames who can receive push notifications in the sandbox.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

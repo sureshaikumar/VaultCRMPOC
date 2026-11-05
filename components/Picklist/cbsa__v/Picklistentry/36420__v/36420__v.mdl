@@ -1,0 +1,5 @@
+Picklistentry 36420__v (
+   value('Oklahoma City, OK Metropolitan Statistical Area'),
+   order(445),
+   active(true)
+);

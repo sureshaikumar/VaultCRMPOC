@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="Objectaction.survey__v.publish__v">
+            <lcActionLabelXmlIdentifier>Publish</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

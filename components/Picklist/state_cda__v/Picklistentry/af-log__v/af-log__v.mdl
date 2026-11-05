@@ -1,0 +1,6 @@
+Picklistentry af-log__v (
+   value('Lōgar'),
+   order(34),
+   active(true),
+   controlling_entries('af__v')
+);

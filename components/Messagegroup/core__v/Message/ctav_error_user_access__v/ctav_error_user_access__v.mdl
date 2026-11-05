@@ -1,0 +1,6 @@
+Message ctav_error_user_access__v (
+   label(),
+   active(true),
+   default_value('Error when accessing target Vault CRM user information: ${error}'),
+   system_managed(false)
+);

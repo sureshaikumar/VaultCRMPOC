@@ -1,0 +1,6 @@
+Message concur_id__v (
+   label(),
+   active(true),
+   default_value('ID'),
+   system_managed(false)
+);

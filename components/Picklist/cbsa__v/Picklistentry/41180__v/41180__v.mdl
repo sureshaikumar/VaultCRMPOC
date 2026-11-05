@@ -1,0 +1,5 @@
+Picklistentry 41180__v (
+   value('St. Louis, MO-IL Metropolitan Statistical Area'),
+   order(301),
+   active(true)
+);

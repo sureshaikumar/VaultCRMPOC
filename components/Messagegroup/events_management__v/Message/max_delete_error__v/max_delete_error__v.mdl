@@ -1,0 +1,6 @@
+Message max_delete_error__v (
+   label(),
+   active(true),
+   default_value('You cannot remove more than ${max_limit} ${object_name} at a time.'),
+   system_managed(false)
+);

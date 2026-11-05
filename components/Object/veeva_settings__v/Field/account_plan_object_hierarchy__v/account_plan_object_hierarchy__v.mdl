@@ -1,0 +1,20 @@
+Field account_plan_object_hierarchy__v (
+   label('Account Plan Object Hierarchy'),
+   type('String'),
+   active(true),
+   description('Comma delimited list of object API names and relationship names used to determine the Account Plan progress object hierarchy. Each value should be the name of an object followed by the name of the relationship separated by a dot. The first object.relation'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(27),
+   default_value('"plan_tactic__v.account_plan__vr,account_tactic__v.plan_tactic__vr,action_item__v.account_tactic__vr"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

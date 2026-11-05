@@ -1,0 +1,4 @@
+Typefield aln_detail_priority_feedback__v (
+   source('custom'),
+   required(false)
+);

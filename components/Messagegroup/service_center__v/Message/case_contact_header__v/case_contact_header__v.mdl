@@ -1,0 +1,6 @@
+Message case_contact_header__v (
+   label(),
+   active(true),
+   default_value('${case_label} Contact (${case_contact_type_label})'),
+   system_managed(false)
+);

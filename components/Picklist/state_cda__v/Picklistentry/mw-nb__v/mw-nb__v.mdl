@@ -1,0 +1,6 @@
+Picklistentry mw-nb__v (
+   value('Nkhata Bay'),
+   order(3227),
+   active(true),
+   controlling_entries('mw__v')
+);

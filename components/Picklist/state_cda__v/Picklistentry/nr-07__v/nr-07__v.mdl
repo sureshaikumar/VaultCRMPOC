@@ -1,0 +1,6 @@
+Picklistentry nr-07__v (
+   value('Buada'),
+   order(3418),
+   active(true),
+   controlling_entries('nr__v')
+);

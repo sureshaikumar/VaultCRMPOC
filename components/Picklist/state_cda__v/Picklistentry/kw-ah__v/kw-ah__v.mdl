@@ -1,0 +1,6 @@
+Picklistentry kw-ah__v (
+   value('Al Aḩmadi'),
+   order(2487),
+   active(true),
+   controlling_entries('kw__v')
+);

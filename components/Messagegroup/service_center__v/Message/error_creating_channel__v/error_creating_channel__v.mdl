@@ -1,0 +1,6 @@
+Message error_creating_channel__v (
+   label(),
+   active(true),
+   default_value('Error Creating Channel'),
+   system_managed(false)
+);

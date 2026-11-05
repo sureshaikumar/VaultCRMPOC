@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate get_link_annotation_data_failure__v (
+   label('Get Link Annotation Data Failure'),
+   active(true),
+   description('Get Link Annotation Data Job Notification failure template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Get link annotation data failed'),
+   notification('<p>An error occurred while trying to prepare your link annotation data. Please contact your Vault Administrator.</p>'),
+   email_body('<p>An error occurred while trying to prepare your link annotation data. Please contact your Vault Administrator.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

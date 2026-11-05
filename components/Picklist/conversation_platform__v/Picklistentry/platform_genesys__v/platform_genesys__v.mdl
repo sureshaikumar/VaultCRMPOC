@@ -1,0 +1,5 @@
+Picklistentry platform_genesys__v (
+   value('Genesys'),
+   order(3),
+   active(true)
+);

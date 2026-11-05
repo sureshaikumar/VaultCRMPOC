@@ -1,0 +1,4 @@
+Typefield reminder_minutes_before_start__v (
+   source('standard'),
+   required(false)
+);

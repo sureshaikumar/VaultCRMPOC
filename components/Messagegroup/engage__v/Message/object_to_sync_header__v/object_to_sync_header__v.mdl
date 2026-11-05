@@ -1,0 +1,6 @@
+Message object_to_sync_header__v (
+   label(),
+   active(true),
+   default_value('${object_label} Object (${object_name})'),
+   system_managed(false)
+);

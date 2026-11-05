@@ -1,0 +1,5 @@
+Picklistentry olc_test_lifecycle_t2__sys (
+   value('test lifecycle T2'),
+   order(83),
+   active(true)
+);

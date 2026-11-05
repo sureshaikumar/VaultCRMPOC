@@ -1,0 +1,4 @@
+Typefield primary_color__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message cant_set_account_inactive__v (
+   label(),
+   active(true),
+   default_value('Field Force level settings cannot have Account Status Inactive Values.'),
+   system_managed(false)
+);

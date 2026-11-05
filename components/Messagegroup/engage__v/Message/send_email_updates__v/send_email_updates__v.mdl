@@ -1,0 +1,6 @@
+Message send_email_updates__v (
+   label(),
+   active(true),
+   default_value('Send Email Updates'),
+   system_managed(false)
+);

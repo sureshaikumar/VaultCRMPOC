@@ -1,0 +1,5 @@
+Picklistentry crm_online__v (
+   value('CRM Online'),
+   order(6),
+   active(true)
+);

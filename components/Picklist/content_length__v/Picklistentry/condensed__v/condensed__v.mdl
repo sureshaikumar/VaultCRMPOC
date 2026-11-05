@@ -1,0 +1,5 @@
+Picklistentry condensed__v (
+   value('Condensed'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message mass_add_permission_error__v (
+   label(),
+   active(true),
+   default_value('User Security Profile Permission Error'),
+   system_managed(false)
+);

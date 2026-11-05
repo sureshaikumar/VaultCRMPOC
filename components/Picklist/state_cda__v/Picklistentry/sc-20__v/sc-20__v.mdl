@@ -1,0 +1,6 @@
+Picklistentry sc-20__v (
+   value('Pointe Larue'),
+   order(3920),
+   active(true),
+   controlling_entries('sc__v')
+);

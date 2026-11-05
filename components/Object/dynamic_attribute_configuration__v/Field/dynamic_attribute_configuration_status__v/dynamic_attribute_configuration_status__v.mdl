@@ -1,0 +1,19 @@
+Field dynamic_attribute_configuration_status__v (
+   label('Dynamic Attribute Configuration Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The status of the Dynamic Attribute is defined based on the picklist value selected. Only attributes set to "Active_vod" will be visible to the end-user.'),
+   list_column(false),
+   order(21),
+   multi_value(false),
+   picklist('Picklist.dynamic_attribute_configuration_status__v'),
+   default_value('{inactive__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

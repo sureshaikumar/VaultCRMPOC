@@ -1,0 +1,6 @@
+Message call_voice_notes__v (
+   label(),
+   active(true),
+   default_value('Call Voice Notes'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message try_adjusting_your_search__v (
+   label(),
+   active(true),
+   default_value('Try adjusting your search'),
+   system_managed(false)
+);

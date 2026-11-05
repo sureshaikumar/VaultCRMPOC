@@ -1,0 +1,6 @@
+Message mc_cycle_clone_confirm_targeting_rule__v (
+   label(),
+   active(true),
+   default_value('Targeting Rule'),
+   system_managed(false)
+);

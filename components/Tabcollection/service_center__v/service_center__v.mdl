@@ -1,0 +1,8 @@
+RECREATE Tabcollection service_center__v (
+   label('Service Center'),
+   active(true),
+   help_content('Tab Collection for Service Center users.'),
+   Tabcollectionitem(@Tabcollectionitem/my_accounts__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/service_center__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/service_center_library__v.mdl)
+);

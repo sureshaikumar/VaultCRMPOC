@@ -1,0 +1,6 @@
+Message medx_remove_attendee_confirmation__v (
+   label(),
+   active(true),
+   default_value('Removing the attendee from the Medical Interaction will also remove them from any associated sections.'),
+   system_managed(false)
+);

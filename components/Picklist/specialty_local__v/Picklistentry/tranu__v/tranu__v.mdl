@@ -1,0 +1,8 @@
+Picklistentry tranu__v (
+   value('Transplantology'),
+   order(1860),
+   active(true),
+   controlling_entries('ge__v',
+         'kg__v',
+         'ua__v')
+);

@@ -1,0 +1,14 @@
+RECREATE Page package_label_list_page__v (
+   label('Transfer/Return Package Label'),
+   active(true),
+   client_distribution(),
+   default_client_code('package_label_list_page__v'),
+   description('The package label list page allows users to select transactions to generate the package label.'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.samplemanagement.controls.PackageLabelListAppPageController'),
+   url_path_name('package-label-list-page')
+);

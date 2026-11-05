@@ -1,0 +1,6 @@
+Picklistentry us-nv__v (
+   value('Nevada'),
+   order(4827),
+   active(true),
+   controlling_entries('us__v')
+);

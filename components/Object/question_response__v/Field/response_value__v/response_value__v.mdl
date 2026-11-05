@@ -1,0 +1,17 @@
+Field response_value__v (
+   label('Response Value'),
+   type('LongText'),
+   active(true),
+   description('Stores the response value for all question types as a text string.'),
+   required(false),
+   max_length(6500),
+   help_content(),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction order__v.void__v (
+   label('Void'),
+   description('Voids the order'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.ordermanagement.actions.OrderVoidAction'),
+   active(true),
+   available_all_states(false)
+);

@@ -1,0 +1,6 @@
+Message align_settings_rule_selection_label__v (
+   label(),
+   active(true),
+   default_value('Rule Selection Criteria'),
+   system_managed(false)
+);

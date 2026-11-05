@@ -1,0 +1,5 @@
+Picklistentry salesforce__v (
+   value('Salesforce'),
+   order(0),
+   active(true)
+);

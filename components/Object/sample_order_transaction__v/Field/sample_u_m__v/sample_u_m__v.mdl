@@ -1,0 +1,19 @@
+Field sample_u_m__v (
+   label('Sample U/M'),
+   type('String'),
+   active(true),
+   description('The Sample U/M field stores the Units of Measurement for the Sample being requested.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,15 @@
+Fieldrule start_date__v (
+   label('Start Date'),
+   active(true),
+   query_object('documents'),
+   query_field('crm_start_date__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.start_date__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_date__sys'),
+   target_field_lookup()
+);

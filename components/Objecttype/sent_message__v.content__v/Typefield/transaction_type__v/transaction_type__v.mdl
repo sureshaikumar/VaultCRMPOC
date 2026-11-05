@@ -1,0 +1,6 @@
+Typefield transaction_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sent_message_transaction_type__v.website_content__v',
+         'Picklist.sent_message_transaction_type__v.vault_content__v')
+);

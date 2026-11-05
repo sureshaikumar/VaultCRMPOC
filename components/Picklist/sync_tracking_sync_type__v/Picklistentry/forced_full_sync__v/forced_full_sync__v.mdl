@@ -1,0 +1,5 @@
+Picklistentry forced_full_sync__v (
+   value('Forced Full Sync'),
+   order(2),
+   active(true)
+);

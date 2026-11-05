@@ -1,0 +1,6 @@
+Picklistentry edned__v (
+   value('Endodontic Dentistry'),
+   order(508),
+   active(true),
+   controlling_entries('sa__v')
+);

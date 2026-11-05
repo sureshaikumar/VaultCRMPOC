@@ -1,0 +1,6 @@
+Message no_emails_pending_approval__v (
+   label(),
+   active(true),
+   default_value('No emails pending approval'),
+   system_managed(false)
+);

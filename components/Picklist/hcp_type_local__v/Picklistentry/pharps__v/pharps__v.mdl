@@ -1,0 +1,5 @@
+Picklistentry pharps__v (
+   value('Pharmacist Prescriber'),
+   order(102),
+   active(true)
+);

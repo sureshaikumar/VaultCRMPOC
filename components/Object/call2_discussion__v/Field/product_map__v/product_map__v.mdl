@@ -1,0 +1,18 @@
+Field product_map__v (
+   label('Product'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Field to create dependency relationships on call discussion fields based on product. The picklist values for this field are the textual names of detailed products. The values must be an exact match. This field should not be placed on any layouts.'),
+   list_column(false),
+   order(42),
+   multi_value(false),
+   picklist('Picklist.call2_discussion_product_map__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

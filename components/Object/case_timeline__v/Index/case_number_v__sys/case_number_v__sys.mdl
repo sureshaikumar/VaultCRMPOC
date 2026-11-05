@@ -1,0 +1,5 @@
+Index case_number_v__sys (
+   description(),
+   fields('case_number__v'),
+   label('Case Number')
+);

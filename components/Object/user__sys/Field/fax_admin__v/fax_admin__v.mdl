@@ -1,0 +1,18 @@
+Field fax_admin__v (
+   label('Fax Admin'),
+   type('Boolean'),
+   active(true),
+   description('If enabled, the user has access to staged content and faxes do not get sent to the provider'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(171),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

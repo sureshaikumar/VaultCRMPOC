@@ -1,0 +1,19 @@
+Field primary_territory__v (
+   label('Primary Territory'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('The primary territory the user is aligned to. Used to identify which sales to display when account and user are aligned to multiple territories.'),
+   list_column(false),
+   order(92),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

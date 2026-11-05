@@ -1,0 +1,6 @@
+Picklistentry ee-514__v (
+   value('Narva-Jõesuu'),
+   order(1105),
+   active(true),
+   controlling_entries('ee__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry kh-17__v (
+   value('Siem Reab [Siĕmréab]'),
+   order(2418),
+   active(true),
+   controlling_entries('kh__v')
+);

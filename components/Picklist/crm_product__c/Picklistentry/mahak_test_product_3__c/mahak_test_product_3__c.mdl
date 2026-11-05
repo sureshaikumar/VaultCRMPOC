@@ -1,0 +1,5 @@
+Picklistentry mahak_test_product_3__c (
+   value('Updated Product 3'),
+   order(28),
+   active(true)
+);

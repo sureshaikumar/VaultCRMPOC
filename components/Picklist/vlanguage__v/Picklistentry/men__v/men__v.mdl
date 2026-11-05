@@ -1,0 +1,5 @@
+Picklistentry men__v (
+   value('Mende'),
+   order(220),
+   active(false)
+);

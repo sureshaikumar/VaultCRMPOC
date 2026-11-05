@@ -1,0 +1,4 @@
+Typefield expense_category__v (
+   source('custom'),
+   required(false)
+);

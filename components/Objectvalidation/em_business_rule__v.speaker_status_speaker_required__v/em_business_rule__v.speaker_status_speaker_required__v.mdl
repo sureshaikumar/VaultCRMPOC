@@ -1,0 +1,16 @@
+RECREATE Objectvalidation em_business_rule__v.speaker_status_speaker_required__v (
+   label('Speaker Status Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_speaker_engagement_limit_rule__v", true,
+            "em_cross_event_per_speaker_engagement__v", true,
+            "em_per_event_speaker_limit_rule__v", true,
+            "em_per_event_speaker_ratio_rule__v", true,
+            "expense_estimate_speaker_rate_rule__v", true,
+            false
+        ) = false || Not(IsBlank(speaker_status__v))'),
+   description('speaker_status__v field is not added to the Speaker Rule.'),
+   error_message('This field is required.'),
+   error_location('speaker_status__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry mw-do__v (
+   value('Dowa'),
+   order(3215),
+   active(true),
+   controlling_entries('mw__v')
+);

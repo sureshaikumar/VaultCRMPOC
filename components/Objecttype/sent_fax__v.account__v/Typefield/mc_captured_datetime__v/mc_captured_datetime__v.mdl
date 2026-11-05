@@ -1,0 +1,4 @@
+Typefield mc_captured_datetime__v (
+   source('standard'),
+   required(false)
+);

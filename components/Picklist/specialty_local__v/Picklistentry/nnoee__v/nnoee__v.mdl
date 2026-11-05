@@ -1,0 +1,6 @@
+Picklistentry nnoee__v (
+   value('Neurology Neuro-Oncology'),
+   order(1016),
+   active(true),
+   controlling_entries('id__v')
+);

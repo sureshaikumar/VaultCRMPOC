@@ -1,0 +1,6 @@
+Message recalculate_territory_data_click_ok__v (
+   label(),
+   active(true),
+   default_value('Clicking OK performs the following actions:'),
+   system_managed(false)
+);

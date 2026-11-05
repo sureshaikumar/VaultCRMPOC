@@ -1,0 +1,6 @@
+Picklistentry st-03__v (
+   value('Caué'),
+   order(4263),
+   active(true),
+   controlling_entries('st__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry mh-t__v (
+   value('Ratak chain'),
+   order(2959),
+   active(true),
+   controlling_entries('mh__v')
+);

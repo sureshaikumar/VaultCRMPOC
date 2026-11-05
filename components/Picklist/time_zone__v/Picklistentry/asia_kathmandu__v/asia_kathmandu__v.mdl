@@ -1,0 +1,5 @@
+Picklistentry asia_kathmandu__v (
+   value('Nepal Time'),
+   order(27),
+   active(true)
+);

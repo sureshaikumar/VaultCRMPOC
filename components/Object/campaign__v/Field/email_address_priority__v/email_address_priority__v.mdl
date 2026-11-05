@@ -1,0 +1,20 @@
+Field email_address_priority__v (
+   label('Email Address Priority'),
+   type('String'),
+   active(true),
+   description('Stores the object and field API names to determine the email address priority for Campaign Targets. Can be a comma delimited list. (i.e. account__v.email_cda__v, account__v.email_2__c)'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(33),
+   default_value('"email_cda__v"'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,30 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.coaching_report__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="business_account_planning__c" />
+            <vault:field reference="call_productivity__c" />
+            <vault:field reference="comments__c" />
+            <vault:field reference="customer_focus__c" />
+            <vault:field reference="knowledge_expertise__c" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="review_date__v" />
+            <vault:field reference="review_period__c" />
+            <vault:field reference="coaching_report_status__v" />
+            <vault:field reference="strategic_planning__c" />
+            <vault:field reference="employee__v" />
+            <vault:field reference="manager__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="overall_rating__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

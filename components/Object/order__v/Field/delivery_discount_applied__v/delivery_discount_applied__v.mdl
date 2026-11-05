@@ -1,0 +1,18 @@
+Field delivery_discount_applied__v (
+   label('Delivery Discount Applied'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(93),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

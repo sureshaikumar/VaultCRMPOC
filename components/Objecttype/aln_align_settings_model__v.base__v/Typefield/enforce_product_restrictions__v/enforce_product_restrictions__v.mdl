@@ -1,0 +1,4 @@
+Typefield enforce_product_restrictions__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message business_events__v (
+   label(),
+   active(true),
+   default_value('Business Events'),
+   system_managed(false)
+);

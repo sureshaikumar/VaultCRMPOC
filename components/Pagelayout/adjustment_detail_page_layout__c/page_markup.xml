@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_order_transaction__v.adjustment__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="adjust_for__v" />
+            <vault:field reference="adjusted_date__v" />
+            <vault:field reference="reason__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="submitted_date__v" />
+            <vault:field reference="sample_order_transaction_status__v" />
+            <vault:field reference="comments__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="BRC Information" name="brc_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:control reference="sot_sample_field_control__v" name="sot_sample_field_control__c" label="Sample" />
+            <vault:control reference="sot_lot_field_control__v" name="sot_lot_field_control__c" label="Lot #" />
+            <vault:control reference="sot_quantity_field_control__v" name="sot_quantity_field_control__c" label="Quantity" />
+            <vault:control reference="sot_u_m_field_control__v" name="sot_u_m_field_control__c" label="U/M" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

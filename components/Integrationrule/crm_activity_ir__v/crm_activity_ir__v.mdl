@@ -1,0 +1,12 @@
+RECREATE Integrationrule crm_activity_ir__v (
+   label('CRM Activity Integration Rule'),
+   active(true),
+   connection('clinops_crm__v'),
+   integration_point('activity_to_call_iip__v'),
+   primary_query_object('crm_activity__v'),
+   Fieldrule(@Fieldrule/call2_status__v.mdl),
+   Fieldrule(@Fieldrule/call_channel__v.mdl),
+   Fieldrule(@Fieldrule/call_date__v.mdl),
+   Fieldrule(@Fieldrule/link__v.mdl),
+   Fieldrule(@Fieldrule/subject__v.mdl)
+);

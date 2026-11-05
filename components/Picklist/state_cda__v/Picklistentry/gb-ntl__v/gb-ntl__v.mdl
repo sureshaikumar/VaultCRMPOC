@@ -1,0 +1,6 @@
+Picklistentry gb-ntl__v (
+   value('Neath Port Talbot'),
+   order(1585),
+   active(true),
+   controlling_entries('gb__v')
+);

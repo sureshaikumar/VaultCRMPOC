@@ -1,0 +1,6 @@
+Picklistentry ee-245__v (
+   value('Jõelähtme'),
+   order(1073),
+   active(true),
+   controlling_entries('ee__v')
+);

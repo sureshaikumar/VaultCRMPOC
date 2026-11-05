@@ -1,0 +1,18 @@
+Field enable_child_account__v (
+   label('Enable Child Account'),
+   type('Boolean'),
+   active(true),
+   description('When enabled, specified CRM activity is performed against the Child Account records instead of the Account records. This setting is used to replace the Business Professional record type. The activity performed against Child Account records are: My Account'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(174),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

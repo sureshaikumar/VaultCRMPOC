@@ -1,0 +1,6 @@
+Message mc_cycle_clone_field_source_cycle_help__v (
+   label(),
+   active(true),
+   default_value('Cloning functionality enables you to copy an existing MC Cycle and use it as the basis for the next sales cycle. Please select an existing MC Cycle (from production) to use as the source for the clone.'),
+   system_managed(false)
+);

@@ -1,0 +1,16 @@
+RECREATE Objectlifecycle batch_approval__v (
+   label('Batch Approval'),
+   state_labels(),
+   labeled_states(),
+   active(true),
+   starting_state('Objectlifecyclestate.draft_state__v'),
+   description(),
+   Objectlifecyclestate(@Objectlifecyclestate/complete_state__c.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/draft_state__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/owner__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/editor__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/viewer__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/viewer_read__c.mdl)
+);

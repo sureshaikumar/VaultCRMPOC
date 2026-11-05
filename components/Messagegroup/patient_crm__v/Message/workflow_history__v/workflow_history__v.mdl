@@ -1,0 +1,6 @@
+Message workflow_history__v (
+   label(),
+   active(true),
+   default_value('${workflow_label} History'),
+   system_managed(false)
+);

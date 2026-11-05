@@ -1,0 +1,10 @@
+RECREATE Tab aln_targeting__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Targeting'),
+   order(6800),
+   parent(),
+   Subtab(@Subtab/aln_cycles__v.mdl),
+   Subtab(@Subtab/aln_channel_templates__v.mdl)
+);

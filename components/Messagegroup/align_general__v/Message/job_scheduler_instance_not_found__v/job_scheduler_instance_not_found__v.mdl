@@ -1,0 +1,6 @@
+Message job_scheduler_instance_not_found__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Instance not found'),
+   system_managed(false)
+);

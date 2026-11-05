@@ -1,0 +1,6 @@
+Message workday_import_aborted__v (
+   label(),
+   active(true),
+   default_value('Workday import aborted'),
+   system_managed(false)
+);

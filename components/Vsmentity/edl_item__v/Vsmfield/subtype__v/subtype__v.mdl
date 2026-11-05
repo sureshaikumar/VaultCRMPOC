@@ -1,0 +1,13 @@
+Vsmfield subtype__v (
+   label('Document Subtype'),
+   active(true),
+   description('Reference to the document subtype associated with this EDL item, representing the second level of the document type hierarchy (Type > Subtype > Classification). Use in combination with type__v and classification__v to precisely define the document category expected for this item.'),
+   example_values(),
+   synonyms('doc subtype',
+         'document subtype',
+         'subtype'),
+   target('subtype__v'),
+   target_label('Document Subtype'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

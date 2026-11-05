@@ -1,0 +1,20 @@
+Field sn_acct_plan_types__v (
+   label('Stakeholder Navigator Account Plan Types'),
+   type('String'),
+   active(true),
+   description('Identifies the Veeva Message used to define which Account Plan Record Types the Stakeholder Navigator tab will be enabled for on iPad.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(314),
+   default_value('"STAKEHOLDER_NAVIGATOR_ACCT_PLAN_TYPES;;STAKEHOLDER_NAVIGATOR"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

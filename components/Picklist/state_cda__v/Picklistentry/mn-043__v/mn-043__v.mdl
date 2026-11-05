@@ -1,0 +1,6 @@
+Picklistentry mn-043__v (
+   value('Hovd'),
+   order(3074),
+   active(true),
+   controlling_entries('mn__v')
+);

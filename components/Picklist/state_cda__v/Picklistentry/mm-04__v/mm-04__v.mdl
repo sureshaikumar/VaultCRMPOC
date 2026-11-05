@@ -1,0 +1,6 @@
+Picklistentry mm-04__v (
+   value('Mandalay'),
+   order(3058),
+   active(true),
+   controlling_entries('mm__v')
+);

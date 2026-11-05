@@ -1,0 +1,6 @@
+Picklistentry bf-oub__v (
+   value('Oubritenga'),
+   order(356),
+   active(true),
+   controlling_entries('bf__v')
+);

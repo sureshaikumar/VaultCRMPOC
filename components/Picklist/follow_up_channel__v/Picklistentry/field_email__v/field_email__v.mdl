@@ -1,0 +1,5 @@
+Picklistentry field_email__v (
+   value('Field Email'),
+   order(1),
+   active(true)
+);

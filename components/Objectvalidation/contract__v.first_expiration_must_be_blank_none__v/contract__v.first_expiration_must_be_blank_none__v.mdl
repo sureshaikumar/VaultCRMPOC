@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.first_expiration_must_be_blank_none__v (
+   label('1st Exp Date Must be Blank For None'),
+   active(true),
+   expression('Not((object_type__vr.api_name__v=''series_contract__v'')&&(IsBlank(period_type__v))&&(Not(IsBlank(first_expiration_date__v))))'),
+   description('First Expiration Date cannot contain a value for a Period Type of "None"'),
+   error_message('First Expiration Date cannot contain a value for a Period Type of "None".'),
+   error_location('first_expiration_date__v')
+);

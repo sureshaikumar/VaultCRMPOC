@@ -1,0 +1,6 @@
+Message am_account_territory_reassociated__v (
+   label(),
+   active(true),
+   default_value('Account Territory records are re-associated to winning account.'),
+   system_managed(false)
+);

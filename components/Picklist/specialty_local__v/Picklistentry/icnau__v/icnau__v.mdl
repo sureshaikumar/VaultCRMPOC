@@ -1,0 +1,11 @@
+Picklistentry icnau__v (
+   value('Intensive Care'),
+   order(766),
+   active(true),
+   controlling_entries('be__v',
+         'eg__v',
+         'gr__v',
+         'lu__v',
+         'pl__v',
+         'tr__v')
+);

@@ -1,0 +1,23 @@
+Field order_discount_rule__v (
+   label('Order Discount Rule'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Stores the Order level discount, based on pricing rule „Discount_Rule_vod“ with no product association'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(4),
+   help_content(),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message channel_field_email_description__v (
+   label(),
+   active(true),
+   default_value('Send a personal field email'),
+   system_managed(false)
+);

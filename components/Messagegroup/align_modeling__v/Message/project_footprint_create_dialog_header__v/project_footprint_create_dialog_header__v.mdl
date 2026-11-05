@@ -1,0 +1,6 @@
+Message project_footprint_create_dialog_header__v (
+   label(),
+   active(true),
+   default_value('Add Footprints to {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,3 @@
+Typeaction manage_deliveries__v (
+   action('order__v.manage_deliveries__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry imcne__v (
+   value('Internal Medicine Cardiovascular'),
+   order(797),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry america_managua__sys (
+   value('(GMT-06:00) Central Standard Time (America/Managua)'),
+   order(39),
+   active(true)
+);

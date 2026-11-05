@@ -1,0 +1,6 @@
+Picklistentry ug-216__v (
+   value('Amuria'),
+   order(4684),
+   active(true),
+   controlling_entries('ug__v')
+);

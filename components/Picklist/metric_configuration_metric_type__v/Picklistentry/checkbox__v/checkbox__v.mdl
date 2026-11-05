@@ -1,0 +1,5 @@
+Picklistentry checkbox__v (
+   value('Checkbox'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry lr-gb__v (
+   value('Grand Bassa'),
+   order(2597),
+   active(true),
+   controlling_entries('lr__v')
+);

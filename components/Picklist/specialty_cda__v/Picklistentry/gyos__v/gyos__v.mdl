@@ -1,0 +1,5 @@
+Picklistentry gyos__v (
+   value('Obstetrics'),
+   order(52),
+   active(true)
+);

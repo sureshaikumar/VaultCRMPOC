@@ -1,0 +1,6 @@
+Picklistentry lk-9__v (
+   value('Sabaragamuwa Province'),
+   order(2591),
+   active(true),
+   controlling_entries('lk__v')
+);

@@ -1,0 +1,6 @@
+Message aws_account_previously_connected__v (
+   label(),
+   active(true),
+   default_value('AWS Account Previously Connected'),
+   system_managed(false)
+);

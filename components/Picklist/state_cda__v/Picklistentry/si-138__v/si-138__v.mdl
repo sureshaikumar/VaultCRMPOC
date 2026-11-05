@@ -1,0 +1,6 @@
+Picklistentry si-138__v (
+   value('Vodice'),
+   order(4112),
+   active(true),
+   controlling_entries('si__v')
+);

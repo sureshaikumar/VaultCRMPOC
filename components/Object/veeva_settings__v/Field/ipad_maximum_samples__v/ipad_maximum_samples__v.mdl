@@ -1,0 +1,23 @@
+Field ipad_maximum_samples__v (
+   label('iPad Maximum Samples'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content('Identifies the value for the maximum number of samples allowed to be signed for on the iPad. Default value is 8; increasing the value may result in scrolling signature page.'),
+   list_column(false),
+   order(195),
+   default_value('8'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

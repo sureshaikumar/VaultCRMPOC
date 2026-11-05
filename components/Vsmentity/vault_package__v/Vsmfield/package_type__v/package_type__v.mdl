@@ -1,0 +1,13 @@
+Vsmfield package_type__v (
+   label('Package Type'),
+   active(true),
+   description('Categorizes the inbound package by its type or purpose (e.g., configuration, data, component). Use this field to filter or group packages by their intended function within the Vault environment.'),
+   example_values(),
+   synonyms('type',
+         'package category',
+         'kind'),
+   target('package_type__v'),
+   target_label('Package Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

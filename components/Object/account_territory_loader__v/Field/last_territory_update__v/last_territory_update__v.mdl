@@ -1,0 +1,17 @@
+Field last_territory_update__v (
+   label('Last Territory Update'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Do not modify. Set automatically by internal process.'),
+   list_column(false),
+   order(18),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   rollup(false),
+   control_binding()
+);

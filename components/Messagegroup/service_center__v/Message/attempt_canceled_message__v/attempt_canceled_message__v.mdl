@@ -1,0 +1,6 @@
+Message attempt_canceled_message__v (
+   label(),
+   active(true),
+   default_value('Attempts for ${account_name} have been reset'),
+   system_managed(false)
+);

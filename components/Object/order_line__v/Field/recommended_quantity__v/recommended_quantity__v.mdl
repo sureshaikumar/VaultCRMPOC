@@ -1,0 +1,22 @@
+Field recommended_quantity__v (
+   label('Recommended Quantity'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(0),
+   scale(0),
+   help_content('Pull in field that shows the recommended quantity loaded in the Product Information object and that stamps it on the Order Line. Do not modify'),
+   list_column(false),
+   order(57),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,18 @@
+Field enable_group_call_attendee_display__v (
+   label('Enable_Group_Call_Attendee_Display'),
+   type('Boolean'),
+   active(true),
+   description('Enables the display of the number of attendees for a group call or for individual call with attendees in the My Schedule Day and Week views.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(178),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field outbound_email_status__sys (
+   label('Outbound Email Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates the status of an outbound email address in the Email field if an Outbound Email Domain was created. An outbound email address needs to be successfully verified to be Active.'),
+   list_column(false),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.default_status__v'),
+   default_value('{inactive__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(false),
+   control_binding()
+);

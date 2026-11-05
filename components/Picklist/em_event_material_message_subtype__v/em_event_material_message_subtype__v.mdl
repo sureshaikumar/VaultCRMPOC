@@ -1,0 +1,12 @@
+RECREATE Picklist em_event_material_message_subtype__v (
+   label('Message Subtype'),
+   active(true),
+   Picklistentry(@Picklistentry/save_the_date__v.mdl),
+   Picklistentry(@Picklistentry/reminder__v.mdl),
+   Picklistentry(@Picklistentry/invitation__v.mdl),
+   Picklistentry(@Picklistentry/follow_up__v.mdl),
+   Picklistentry(@Picklistentry/registration_confirmation__v.mdl),
+   Picklistentry(@Picklistentry/rsvp_response__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

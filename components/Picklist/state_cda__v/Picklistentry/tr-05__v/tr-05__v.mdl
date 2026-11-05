@@ -1,0 +1,6 @@
+Picklistentry tr-05__v (
+   value('Amasya'),
+   order(4463),
+   active(true),
+   controlling_entries('tr__v')
+);

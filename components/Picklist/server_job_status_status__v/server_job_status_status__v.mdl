@@ -1,0 +1,10 @@
+RECREATE Picklist server_job_status_status__v (
+   label('Server Job Status'),
+   active(true),
+   Picklistentry(@Picklistentry/processing__v.mdl),
+   Picklistentry(@Picklistentry/finished__v.mdl),
+   Picklistentry(@Picklistentry/failed__v.mdl),
+   Picklistentry(@Picklistentry/starting__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

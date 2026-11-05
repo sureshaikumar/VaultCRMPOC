@@ -1,0 +1,6 @@
+Picklistentry vn-ct__v (
+   value('Cần Thơ'),
+   order(4970),
+   active(true),
+   controlling_entries('vn__v')
+);

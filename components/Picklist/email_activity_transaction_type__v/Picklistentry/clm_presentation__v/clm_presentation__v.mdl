@@ -1,0 +1,5 @@
+Picklistentry clm_presentation__v (
+   value('CLM Presentation'),
+   order(2),
+   active(true)
+);

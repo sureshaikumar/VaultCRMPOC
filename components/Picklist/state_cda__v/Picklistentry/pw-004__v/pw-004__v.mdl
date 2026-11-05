@@ -1,0 +1,6 @@
+Picklistentry pw-004__v (
+   value('Airai'),
+   order(3675),
+   active(true),
+   controlling_entries('pw__v')
+);

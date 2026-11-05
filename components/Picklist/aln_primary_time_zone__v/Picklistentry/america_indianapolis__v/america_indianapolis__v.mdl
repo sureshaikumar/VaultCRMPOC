@@ -1,0 +1,5 @@
+Picklistentry america_indianapolis__v (
+   value('America/Indianapolis'),
+   order(12),
+   active(true)
+);

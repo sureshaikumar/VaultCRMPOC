@@ -1,0 +1,6 @@
+Picklistentry paxcy__v (
+   value('Pathology and Cytology'),
+   order(1303),
+   active(true),
+   controlling_entries('tn__v')
+);

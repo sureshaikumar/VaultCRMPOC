@@ -1,0 +1,6 @@
+Picklistentry otp_opportunity__sys (
+   value('Opportunity'),
+   order(111),
+   active(true),
+   controlling_entries('olc_opportunity__sys')
+);

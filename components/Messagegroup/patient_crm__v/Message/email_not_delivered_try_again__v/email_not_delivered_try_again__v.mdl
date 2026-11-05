@@ -1,0 +1,6 @@
+Message email_not_delivered_try_again__v (
+   label(),
+   active(true),
+   default_value('Your email could not be delivered to ${recipient}. Please check or update the email and try again.'),
+   system_managed(false)
+);

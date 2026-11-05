@@ -1,0 +1,13 @@
+Vsmfield urs_source__v (
+   label('Source'),
+   active(true),
+   description('Indicates the origin or mechanism by which this user role setup assignment was created (e.g., manually assigned, system-generated, or via integration). Use this field to distinguish between automated and manual role assignments.'),
+   example_values(),
+   synonyms('assignment source',
+         'origin',
+         'source type'),
+   target('urs_source__sys'),
+   target_label('Source'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

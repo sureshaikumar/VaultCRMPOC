@@ -1,0 +1,6 @@
+Message recheck_warnings__v (
+   label(),
+   active(true),
+   default_value('Recheck Warnings'),
+   system_managed(false)
+);

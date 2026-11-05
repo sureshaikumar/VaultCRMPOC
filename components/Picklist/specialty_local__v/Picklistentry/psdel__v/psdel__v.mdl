@@ -1,0 +1,6 @@
+Picklistentry psdel__v (
+   value('Pediatric Sleep Disorder'),
+   order(1457),
+   active(true),
+   controlling_entries('kw__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-139__v (
+   value('Vojnik'),
+   order(4113),
+   active(true),
+   controlling_entries('si__v')
+);

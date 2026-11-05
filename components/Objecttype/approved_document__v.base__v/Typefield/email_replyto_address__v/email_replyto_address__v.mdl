@@ -1,0 +1,4 @@
+Typefield email_replyto_address__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,10 @@
+Vsmvalue xts__v (
+   label('XTS'),
+   active(true),
+   description('Reserved for testing purposes only; used in system or application testing scenarios where a currency code is required but no real monetary transaction is involved.'),
+   synonyms('test currency',
+         'currency testing code',
+         'reserved test code'),
+   target('xts__sys'),
+   target_label('XTS')
+);

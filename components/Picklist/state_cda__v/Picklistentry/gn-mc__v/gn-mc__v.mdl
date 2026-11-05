@@ -1,0 +1,6 @@
+Picklistentry gn-mc__v (
+   value('Macenta'),
+   order(1745),
+   active(true),
+   controlling_entries('gn__v')
+);

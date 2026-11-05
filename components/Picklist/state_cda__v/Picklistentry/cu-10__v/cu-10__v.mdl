@@ -1,0 +1,6 @@
+Picklistentry cu-10__v (
+   value('Las Tunas'),
+   order(775),
+   active(true),
+   controlling_entries('cu__v')
+);

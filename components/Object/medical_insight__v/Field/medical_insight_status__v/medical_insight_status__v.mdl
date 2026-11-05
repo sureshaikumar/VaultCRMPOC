@@ -1,0 +1,18 @@
+Field medical_insight_status__v (
+   label('Medical Insight Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The state of the Medical Insight record. A Medical Insight record with a status of Saved may still be modified. A Medical Insight record with a status of Submitted is locked and read-only.'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.medical_insight_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

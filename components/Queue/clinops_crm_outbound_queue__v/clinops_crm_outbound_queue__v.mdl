@@ -1,0 +1,13 @@
+RECREATE Queue clinops_crm_outbound_queue__v (
+   label('CRM to ClinOps outbound queue'),
+   active(true),
+   description(),
+   message_delivery_event_handler(),
+   message_delivery_event_handler_user(''),
+   message_processor(),
+   message_processor_user(),
+   rollback_on_error(true),
+   sequential(false),
+   type('outbound'),
+   Queueconnection(@Queueconnection/clinops_crm_oqc__v.mdl)
+);

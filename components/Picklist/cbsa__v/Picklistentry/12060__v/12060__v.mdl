@@ -1,0 +1,5 @@
+Picklistentry 12060__v (
+   value('Atlanta-Sandy Springs-Marietta, GA Metropolitan Statistical Area'),
+   order(710),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry ag-07__v (
+   value('Saint Peter'),
+   order(52),
+   active(true),
+   controlling_entries('ag__v')
+);

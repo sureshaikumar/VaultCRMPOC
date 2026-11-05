@@ -1,0 +1,11 @@
+RECREATE Picklist program_type__v (
+   label('Program Type'),
+   active(true),
+   Picklistentry(@Picklistentry/host__v.mdl),
+   Picklistentry(@Picklistentry/satellite__v.mdl),
+   Picklistentry(@Picklistentry/tour__v.mdl),
+   Picklistentry(@Picklistentry/series__v.mdl),
+   Picklistentry(@Picklistentry/standalone__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

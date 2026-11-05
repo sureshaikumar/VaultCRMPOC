@@ -1,0 +1,5 @@
+Picklistentry executive_sponsor__v (
+   value('Executive Sponsor'),
+   order(1),
+   active(true)
+);

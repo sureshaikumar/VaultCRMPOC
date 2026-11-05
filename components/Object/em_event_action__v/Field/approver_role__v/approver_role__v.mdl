@@ -1,0 +1,18 @@
+Field approver_role__v (
+   label('Approver Role'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Default role given to any approvers added in this step. This field can be used in conjunction with the Veeva "submit_for_approval__v" button'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.em_event_action_approver_role__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

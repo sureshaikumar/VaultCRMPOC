@@ -1,0 +1,6 @@
+Picklistentry dz-57__v (
+   value('El Meghaier'),
+   order(1038),
+   active(true),
+   controlling_entries('dz__v')
+);

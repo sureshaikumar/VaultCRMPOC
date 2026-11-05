@@ -1,0 +1,5 @@
+Picklistentry clin__v (
+   value('Clinic'),
+   order(25),
+   active(true)
+);

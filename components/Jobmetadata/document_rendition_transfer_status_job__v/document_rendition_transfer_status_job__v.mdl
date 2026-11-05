@@ -1,0 +1,12 @@
+RECREATE Jobmetadata document_rendition_transfer_status_job__v (
+   label('Document Rendition Transfer Status Job'),
+   active(true),
+   chunk_size(500),
+   description('Polls for rendition arrival on documents transferred via CrossLinks. Drives rendition_transfer_status__v from In Progress to Complete.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.documentrenditiontransfer.jobs.DocumentRenditionTransferStatusJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

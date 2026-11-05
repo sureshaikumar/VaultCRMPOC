@@ -1,0 +1,8 @@
+Typefield type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_change_request_type__v.delete__v',
+         'Picklist.data_change_request_type__v.edit__v',
+         'Picklist.data_change_request_type__v.new__v'),
+   default_value('Picklist.data_change_request_type__v.edit__v')
+);

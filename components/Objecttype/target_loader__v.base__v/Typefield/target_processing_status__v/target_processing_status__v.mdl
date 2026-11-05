@@ -1,0 +1,4 @@
+Typefield target_processing_status__v (
+   source('standard'),
+   required(false)
+);

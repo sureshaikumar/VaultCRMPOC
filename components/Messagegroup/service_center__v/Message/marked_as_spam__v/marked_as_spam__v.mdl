@@ -1,0 +1,6 @@
+Message marked_as_spam__v (
+   label(),
+   active(true),
+   default_value('Marked as Spam'),
+   system_managed(false)
+);

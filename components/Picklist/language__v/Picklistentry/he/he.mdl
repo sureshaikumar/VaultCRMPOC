@@ -1,0 +1,5 @@
+Picklistentry he (
+   value('Hebrew'),
+   order(49),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry mk-805__v (
+   value('Gjorče Petrov †'),
+   order(3031),
+   active(true),
+   controlling_entries('mk__v')
+);

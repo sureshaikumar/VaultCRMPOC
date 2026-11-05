@@ -1,0 +1,16 @@
+RECREATE Vsmpicklist exception_item_error_type__v (
+   label('User Exception Item Error Type'),
+   active(true),
+   description('Categorizes the type of error associated with a user exception item, enabling classification and routing of exceptions encountered during processing or validation workflows.'),
+   synonyms('exception error type',
+      'user exception error category',
+      'exception item issue type',
+      'error classification',
+      'exception error code'),
+   target('Picklist.exception_item_error_type__sys'),
+   target_label('User Exception Item Error Type'),
+   Vsmvalue(@Vsmvalue/invalid_data__v.mdl),
+   Vsmvalue(@Vsmvalue/item_not_found__v.mdl),
+   Vsmvalue(@Vsmvalue/operation_not_allowed__v.mdl),
+   Vsmvalue(@Vsmvalue/reference_not_found__v.mdl)
+);

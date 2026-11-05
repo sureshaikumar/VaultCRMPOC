@@ -1,0 +1,8 @@
+Objectworkflowstep csactive__c (
+   label('CS: Active'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

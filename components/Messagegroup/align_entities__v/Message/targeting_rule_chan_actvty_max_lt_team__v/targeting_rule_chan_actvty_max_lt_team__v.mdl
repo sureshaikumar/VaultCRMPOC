@@ -1,0 +1,6 @@
+Message targeting_rule_chan_actvty_max_lt_team__v (
+   label(),
+   active(true),
+   default_value('Activity max must be smaller than or equal to team activity max.'),
+   system_managed(false)
+);

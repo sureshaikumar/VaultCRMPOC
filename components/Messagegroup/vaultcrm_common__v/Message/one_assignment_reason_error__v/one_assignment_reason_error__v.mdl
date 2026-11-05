@@ -1,0 +1,6 @@
+Message one_assignment_reason_error__v (
+   label(),
+   active(true),
+   default_value('At least one assignment reason must be selected.'),
+   system_managed(false)
+);

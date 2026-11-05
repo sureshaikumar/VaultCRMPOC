@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation envelope_lifecycle_initial_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.envelope_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.active__sys'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

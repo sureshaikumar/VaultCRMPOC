@@ -1,0 +1,6 @@
+Picklistentry ec-h__v (
+   value('Chimborazo'),
+   order(1047),
+   active(true),
+   controlling_entries('ec__v')
+);

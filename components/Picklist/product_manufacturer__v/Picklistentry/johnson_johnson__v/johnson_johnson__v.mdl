@@ -1,0 +1,5 @@
+Picklistentry johnson_johnson__v (
+   value('Johnson & Johnson'),
+   order(22),
+   active(true)
+);

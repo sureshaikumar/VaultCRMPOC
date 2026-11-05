@@ -1,0 +1,17 @@
+Field secure_email_body__v (
+   label('Secure Email Body'),
+   type('LongText'),
+   active(true),
+   description('Securely populated for every email, allows for searching of the first 32K chars of text.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(true),
+   order(31),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   control_binding()
+);

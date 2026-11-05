@@ -1,0 +1,6 @@
+Message launch_channel__v (
+   label(),
+   active(true),
+   default_value('Launch Channel'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-415__v (
+   value('Kyenjojo'),
+   order(4757),
+   active(true),
+   controlling_entries('ug__v')
+);

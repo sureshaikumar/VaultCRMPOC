@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.delivery_period_date_check__v (
+   label('Delivery Period Date Check'),
+   active(true),
+   expression('Not(
+     And(
+         Not(IsBlank(delivery_start_date__v)),
+         Not(IsBlank(delivery_end_date__v)),
+         delivery_end_date__v < delivery_start_date__v
+    )
+)'),
+   description('Delivery End date must be greater than Delivery Start date'),
+   error_message('Delivery End date must be greater than Delivery Start date'),
+   error_location('delivery_end_date__v')
+);

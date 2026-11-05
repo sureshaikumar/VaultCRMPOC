@@ -1,0 +1,6 @@
+Picklistentry us-um__v (
+   value('United States Minor Outlying Islands'),
+   order(4839),
+   active(true),
+   controlling_entries('us__v')
+);

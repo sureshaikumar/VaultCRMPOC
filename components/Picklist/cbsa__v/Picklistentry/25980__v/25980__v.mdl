@@ -1,0 +1,5 @@
+Picklistentry 25980__v (
+   value('Hinesville-Fort Stewart, GA Metropolitan Statistical Area'),
+   order(678),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message unlock__v (
+   label(),
+   active(true),
+   default_value('Unlock'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ndeiu__v (
+   value('Neurodegenerative Diseases'),
+   order(1008),
+   active(true),
+   controlling_entries('hr__v')
+);

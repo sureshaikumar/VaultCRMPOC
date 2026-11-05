@@ -1,0 +1,6 @@
+Message confirm_remove_target__v (
+   label(),
+   active(true),
+   default_value('Would you like to remove ${name}?'),
+   system_managed(false)
+);

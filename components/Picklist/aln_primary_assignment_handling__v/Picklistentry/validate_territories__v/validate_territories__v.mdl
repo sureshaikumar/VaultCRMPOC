@@ -1,0 +1,5 @@
+Picklistentry validate_territories__v (
+   value('Validate Territories'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 40540__v (
+   value('Rock Springs, WY Micropolitan Statistical Area'),
+   order(223),
+   active(true)
+);

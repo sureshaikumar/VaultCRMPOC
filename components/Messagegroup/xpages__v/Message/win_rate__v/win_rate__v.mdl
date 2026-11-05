@@ -1,0 +1,6 @@
+Message win_rate__v (
+   label(),
+   active(true),
+   default_value('Win Rate'),
+   system_managed(false)
+);

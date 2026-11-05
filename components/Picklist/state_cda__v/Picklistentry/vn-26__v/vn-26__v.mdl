@@ -1,0 +1,6 @@
+Picklistentry vn-26__v (
+   value('Thừa Thiên-Huế'),
+   order(4929),
+   active(true),
+   controlling_entries('vn__v')
+);

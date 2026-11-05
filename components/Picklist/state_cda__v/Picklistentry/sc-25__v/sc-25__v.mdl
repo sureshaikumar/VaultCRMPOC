@@ -1,0 +1,6 @@
+Picklistentry sc-25__v (
+   value('Roche Caiman'),
+   order(3925),
+   active(true),
+   controlling_entries('sc__v')
+);

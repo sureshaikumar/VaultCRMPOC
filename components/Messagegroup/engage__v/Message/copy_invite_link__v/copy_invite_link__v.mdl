@@ -1,0 +1,6 @@
+Message copy_invite_link__v (
+   label(),
+   active(true),
+   default_value('Copy Invite Link'),
+   system_managed(false)
+);

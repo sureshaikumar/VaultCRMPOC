@@ -1,0 +1,6 @@
+Picklistentry no-21__v (
+   value('Svalbard'),
+   order(3396),
+   active(true),
+   controlling_entries('no__v')
+);

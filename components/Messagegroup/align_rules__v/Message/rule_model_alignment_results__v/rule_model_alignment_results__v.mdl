@@ -1,0 +1,6 @@
+Message rule_model_alignment_results__v (
+   label(),
+   active(true),
+   default_value('Model Account Alignment Results'),
+   system_managed(false)
+);

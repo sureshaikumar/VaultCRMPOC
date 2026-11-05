@@ -1,0 +1,6 @@
+Message home_search_docs__v (
+   label(),
+   active(true),
+   default_value('Search Align Documentation'),
+   system_managed(false)
+);

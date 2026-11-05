@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.suggestion_feedback__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="suggestion__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="activity_execution_type__v" />
+            <vault:field reference="dismissfeedback1__v" />
+            <vault:field reference="dismissfeedback2__v" />
+            <vault:field reference="dismissfeedback3__v" />
+            <vault:field reference="dismissfeedback4__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="call2__v" />
+            <vault:field reference="call_objective__v" />
+            <vault:field reference="sent_email__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

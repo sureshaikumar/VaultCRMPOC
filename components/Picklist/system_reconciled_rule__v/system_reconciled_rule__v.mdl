@@ -1,0 +1,8 @@
+RECREATE Picklist system_reconciled_rule__v (
+   label('System Reconciled Rule'),
+   active(true),
+   Picklistentry(@Picklistentry/email_match__v.mdl),
+   Picklistentry(@Picklistentry/one_attendee_on_call__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

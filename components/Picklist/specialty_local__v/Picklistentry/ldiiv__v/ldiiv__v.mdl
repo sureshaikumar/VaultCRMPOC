@@ -1,0 +1,6 @@
+Picklistentry ldiiv__v (
+   value('Liver Diseases'),
+   order(865),
+   active(true),
+   controlling_entries('pt__v')
+);

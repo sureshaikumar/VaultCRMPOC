@@ -1,0 +1,6 @@
+Message end_date__v (
+   label(),
+   active(true),
+   default_value('End Date'),
+   system_managed(false)
+);

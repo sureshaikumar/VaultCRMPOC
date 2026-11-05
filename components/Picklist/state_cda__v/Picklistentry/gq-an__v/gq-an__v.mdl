@@ -1,0 +1,6 @@
+Picklistentry gq-an__v (
+   value('Annobón'),
+   order(1756),
+   active(true),
+   controlling_entries('gq__v')
+);

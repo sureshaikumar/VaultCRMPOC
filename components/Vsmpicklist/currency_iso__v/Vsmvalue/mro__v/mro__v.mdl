@@ -1,0 +1,10 @@
+Vsmvalue mro__v (
+   label('MRO'),
+   active(true),
+   description('The pre-2018 Mauritanian ouguiya (MRO), the former official currency of Mauritania before it was replaced by the MRU at a rate of 10:1.'),
+   synonyms('Mauritanian ouguiya',
+         'old ouguiya',
+         'MRO'),
+   target('mro__sys'),
+   target_label('MRO')
+);

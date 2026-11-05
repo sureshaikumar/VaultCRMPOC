@@ -1,0 +1,6 @@
+Picklistentry ee-184__v (
+   value('Haapsalu'),
+   order(1068),
+   active(true),
+   controlling_entries('ee__v')
+);

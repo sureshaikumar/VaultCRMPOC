@@ -1,0 +1,5 @@
+Picklistentry raxte__v (
+   value('Radiology Technician'),
+   order(131),
+   active(true)
+);

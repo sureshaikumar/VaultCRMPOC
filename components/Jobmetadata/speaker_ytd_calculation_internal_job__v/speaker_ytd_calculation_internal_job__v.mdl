@@ -1,0 +1,10 @@
+RECREATE Jobmetadata speaker_ytd_calculation_internal_job__v (
+   label('EM Speaker YTD Calculation Internal Job'),
+   active(true),
+   chunk_size(1),
+   description('This job is used for calculating speaker caps in triggers'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.SpeakerYtdCalculationInternalJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_katmandu__sys (
+   value('(GMT+05:45) Nepal Time (Asia/Kathmandu)'),
+   order(234),
+   active(true)
+);

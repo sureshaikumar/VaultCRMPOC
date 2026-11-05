@@ -1,0 +1,5 @@
+Picklistentry europe_lisbon__sys (
+   value('(GMT+00:00) Western European Time (Europe/Lisbon)'),
+   order(148),
+   active(true)
+);

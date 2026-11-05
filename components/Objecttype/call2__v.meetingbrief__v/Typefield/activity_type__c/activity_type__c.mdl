@@ -1,0 +1,9 @@
+Typefield activity_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_activity_type__c.contracts_discussion__c',
+         'Picklist.call2_activity_type__c.disease_management__c',
+         'Picklist.call2_activity_type__c.general_meeting__c',
+         'Picklist.call2_activity_type__c.marketing_program__c',
+         'Picklist.call2_activity_type__c.tactical_discussion__c')
+);

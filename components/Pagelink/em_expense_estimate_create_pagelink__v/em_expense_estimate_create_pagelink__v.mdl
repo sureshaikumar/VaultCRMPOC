@@ -1,0 +1,11 @@
+RECREATE Pagelink em_expense_estimate_create_pagelink__v (
+   label('EM Expense Estimate Create'),
+   description('Redirects creating Expense Estimate to the EM Expense Estimate Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.em_expense_estimate__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.em_expense_estimate_detail_app_page__v')
+);

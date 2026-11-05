@@ -1,0 +1,5 @@
+Picklistentry postal_code__v (
+   value('postal_code__v'),
+   order(1),
+   active(true)
+);

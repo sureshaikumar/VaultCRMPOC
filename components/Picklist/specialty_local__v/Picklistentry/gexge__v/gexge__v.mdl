@@ -1,0 +1,6 @@
+Picklistentry gexge__v (
+   value('Geriatrics / Gerontology'),
+   order(630),
+   active(true),
+   controlling_entries('ee__v')
+);

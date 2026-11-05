@@ -1,0 +1,5 @@
+Picklistentry phar__v (
+   value('Pharmacist'),
+   order(1),
+   active(true)
+);

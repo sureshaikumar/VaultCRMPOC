@@ -1,0 +1,6 @@
+Picklistentry um-71__v (
+   value('Midway Islands'),
+   order(4783),
+   active(true),
+   controlling_entries('um__v')
+);

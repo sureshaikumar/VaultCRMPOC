@@ -1,0 +1,6 @@
+Picklistentry gh-bo__v (
+   value('Bono'),
+   order(1692),
+   active(true),
+   controlling_entries('gh__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry rynm__v (
+   value('Nuclear Medicine'),
+   order(48),
+   active(true)
+);

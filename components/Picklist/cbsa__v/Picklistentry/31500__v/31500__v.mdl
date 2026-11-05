@@ -1,0 +1,5 @@
+Picklistentry 31500__v (
+   value('Madison, IN Micropolitan Statistical Area'),
+   order(578),
+   active(true)
+);

@@ -1,0 +1,22 @@
+Field total_order_fulfilled_quantity__v (
+   label('Total Order Quantity'),
+   type('Number'),
+   active(true),
+   description('This field represents the sum of the fulfilled quantity from all order lines that match this user, product, and allocation record.'),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(4),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry nj__v (
+   value('NJ'),
+   order(34),
+   active(true)
+);

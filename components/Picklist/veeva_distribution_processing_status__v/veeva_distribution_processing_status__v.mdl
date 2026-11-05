@@ -1,0 +1,15 @@
+RECREATE Picklist veeva_distribution_processing_status__v (
+   label('Processing Status'),
+   active(true),
+   Picklistentry(@Picklistentry/ready_to_publish__v.mdl),
+   Picklistentry(@Picklistentry/ready_to_withdraw__v.mdl),
+   Picklistentry(@Picklistentry/publish_in_progress__v.mdl),
+   Picklistentry(@Picklistentry/withdraw_in_progress__v.mdl),
+   Picklistentry(@Picklistentry/success__v.mdl),
+   Picklistentry(@Picklistentry/failed_to_publish__v.mdl),
+   Picklistentry(@Picklistentry/failed_to_withdraw__v.mdl),
+   Picklistentry(@Picklistentry/waiting_for_assets__v.mdl),
+   Picklistentry(@Picklistentry/waiting_for_renditions__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

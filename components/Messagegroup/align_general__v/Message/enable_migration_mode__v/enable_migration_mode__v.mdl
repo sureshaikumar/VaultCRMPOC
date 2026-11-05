@@ -1,0 +1,6 @@
+Message enable_migration_mode__v (
+   label(),
+   active(true),
+   default_value('Enable Migration Mode'),
+   system_managed(false)
+);

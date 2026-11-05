@@ -1,0 +1,7 @@
+Typefield customer_journey_account_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.customer_journey_account_status__v.active__v',
+         'Picklist.customer_journey_account_status__v.inactive__v'),
+   default_value('Picklist.customer_journey_account_status__v.active__v')
+);

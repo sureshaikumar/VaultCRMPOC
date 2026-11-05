@@ -1,0 +1,6 @@
+Picklistentry mh-mal__v (
+   value('Maloelap'),
+   order(2953),
+   active(true),
+   controlling_entries('mh__v')
+);

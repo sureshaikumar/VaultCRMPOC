@@ -1,0 +1,6 @@
+Picklistentry us-az__v (
+   value('Arizona'),
+   order(4795),
+   active(true),
+   controlling_entries('us__v')
+);

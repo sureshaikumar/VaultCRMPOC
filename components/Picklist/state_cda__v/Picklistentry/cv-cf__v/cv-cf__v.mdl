@@ -1,0 +1,6 @@
+Picklistentry cv-cf__v (
+   value('Santa Catarina do Fogo'),
+   order(787),
+   active(true),
+   controlling_entries('cv__v')
+);

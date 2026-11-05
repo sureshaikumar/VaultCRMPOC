@@ -1,0 +1,6 @@
+Message edit_entity__v (
+   label(),
+   active(true),
+   default_value('Edit ${entity}'),
+   system_managed(false)
+);

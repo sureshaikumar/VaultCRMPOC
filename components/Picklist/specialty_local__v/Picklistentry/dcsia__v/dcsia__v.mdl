@@ -1,0 +1,7 @@
+Picklistentry dcsia__v (
+   value('Digestive Cancer Surgery'),
+   order(445),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

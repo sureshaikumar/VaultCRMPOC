@@ -1,0 +1,6 @@
+Message copy_target_list_from_previous_campaign__v (
+   label(),
+   active(true),
+   default_value('Copy Target List from Previous Campaign'),
+   system_managed(false)
+);

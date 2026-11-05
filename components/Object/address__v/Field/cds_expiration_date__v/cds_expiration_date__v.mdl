@@ -1,0 +1,17 @@
+Field cds_expiration_date__v (
+   label('CDS Expiration Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The expiration date of the CDS registration number.'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

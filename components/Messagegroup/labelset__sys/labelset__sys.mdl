@@ -1,0 +1,9 @@
+RECREATE Messagegroup labelset__sys (
+   label('Label Set Messages'),
+   active(true),
+   Message(@Message/description__sys.mdl),
+   Message(@Message/labelset__sys.mdl),
+   Message(@Message/labelset_help_content__sys.mdl),
+   Message(@Message/labelset_plural__sys.mdl),
+   Message(@Message/language__sys.mdl)
+);

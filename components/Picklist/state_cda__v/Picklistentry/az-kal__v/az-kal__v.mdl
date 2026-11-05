@@ -1,0 +1,6 @@
+Picklistentry az-kal__v (
+   value('Kəlbəcər'),
+   order(164),
+   active(true),
+   controlling_entries('az__v')
+);

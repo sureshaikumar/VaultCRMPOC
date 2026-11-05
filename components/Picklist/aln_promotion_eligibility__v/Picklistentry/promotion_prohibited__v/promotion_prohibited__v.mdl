@@ -1,0 +1,5 @@
+Picklistentry promotion_prohibited__v (
+   value('Promotion Prohibited'),
+   order(1),
+   active(true)
+);

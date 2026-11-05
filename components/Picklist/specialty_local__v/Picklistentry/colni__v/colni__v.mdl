@@ -1,0 +1,14 @@
+Picklistentry colni__v (
+   value('Clinical Oncology'),
+   order(258),
+   active(true),
+   controlling_entries('cz__v',
+         'dk__v',
+         'gb__v',
+         'hu__v',
+         'ke__v',
+         'mu__v',
+         'pl__v',
+         'sk__v',
+         'ua__v')
+);

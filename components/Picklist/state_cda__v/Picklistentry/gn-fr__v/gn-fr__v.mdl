@@ -1,0 +1,6 @@
+Picklistentry gn-fr__v (
+   value('Fria'),
+   order(1729),
+   active(true),
+   controlling_entries('gn__v')
+);

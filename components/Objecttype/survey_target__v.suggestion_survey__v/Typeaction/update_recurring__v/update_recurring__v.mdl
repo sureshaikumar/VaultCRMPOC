@@ -1,0 +1,3 @@
+Typeaction update_recurring__v (
+   action('survey_target__v.update_recurring__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ph-sur__v (
+   value('Surigao del Sur'),
+   order(3607),
+   active(true),
+   controlling_entries('ph__v')
+);

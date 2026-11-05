@@ -1,0 +1,6 @@
+Message channel_sms_description__v (
+   label(),
+   active(true),
+   default_value('Send an SMS text'),
+   system_managed(false)
+);

@@ -1,0 +1,22 @@
+Field total_mds_dos__c (
+   label('Total # MDs/DOs'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content('Total # MDs/DOs at this account.  Used by Practice and Hospital type accounts.  Included in HMS data load.'),
+   list_column(false),
+   order(94),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

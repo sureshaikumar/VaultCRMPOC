@@ -1,0 +1,19 @@
+Field microsoft_resource_id__v (
+   label('Microsoft Resource ID'),
+   type('String'),
+   active(true),
+   description('Unique identifier of the Team or Channel provided by Microsoft'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

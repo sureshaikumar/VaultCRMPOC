@@ -1,0 +1,6 @@
+Picklistentry mk-403__v (
+   value('Valandovo'),
+   order(2995),
+   active(true),
+   controlling_entries('mk__v')
+);

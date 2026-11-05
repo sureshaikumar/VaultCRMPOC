@@ -1,0 +1,6 @@
+Picklistentry it-lc__v (
+   value('Lecco'),
+   order(2217),
+   active(true),
+   controlling_entries('it__v')
+);

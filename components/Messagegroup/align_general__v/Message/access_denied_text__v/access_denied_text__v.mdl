@@ -1,0 +1,6 @@
+Message access_denied_text__v (
+   label(),
+   active(true),
+   default_value('You do not have permission to view this page. Please return to the main website by clicking on one of the links above.'),
+   system_managed(false)
+);

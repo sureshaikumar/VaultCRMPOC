@@ -1,0 +1,9 @@
+RECREATE Aitooltype json_response__sys (
+   label('JSON Response'),
+   active(true),
+   admin_configurable(true),
+   configuration_code('Aitooltypeconfigurationcode.com.veeva.vault.system.ai.JsonResponseConfigurationToolType'),
+   configuration_layout(),
+   runtime_code('Aitooltyperuntimecode.com.veeva.vault.system.ai.JsonResponseRuntimeToolType'),
+   support_custom_action(true)
+);

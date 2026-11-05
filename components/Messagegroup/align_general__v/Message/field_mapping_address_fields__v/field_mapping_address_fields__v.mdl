@@ -1,0 +1,6 @@
+Message field_mapping_address_fields__v (
+   label(),
+   active(true),
+   default_value('Address Fields'),
+   system_managed(false)
+);

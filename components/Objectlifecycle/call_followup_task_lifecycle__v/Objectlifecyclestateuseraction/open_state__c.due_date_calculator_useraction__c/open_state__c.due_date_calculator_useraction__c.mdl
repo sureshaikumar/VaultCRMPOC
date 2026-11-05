@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction open_state__c.due_date_calculator_useraction__c (
+   label('Due Date Calculator'),
+   rule(@rule.xml),
+   order(2000)
+);

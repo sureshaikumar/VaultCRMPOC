@@ -1,0 +1,19 @@
+Field subject__v (
+   label('Subject'),
+   type('String'),
+   active(true),
+   description('Subject of the email.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Subject of the email.'),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

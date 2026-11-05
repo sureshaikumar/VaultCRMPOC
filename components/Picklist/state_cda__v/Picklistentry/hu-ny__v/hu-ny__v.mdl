@@ -1,0 +1,6 @@
+Picklistentry hu-ny__v (
+   value('Nyíregyháza'),
+   order(1897),
+   active(true),
+   controlling_entries('hu__v')
+);

@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.free_good_no_percent_max_allowed__v (
+   label('Free Good No Percent Max Allowed'),
+   active(true),
+   expression('Not(
+     And(
+         object_type__vr.api_name__v = ''free_goods_rule__v'',
+         Not(IsBlank(free_goods_percentage_max__v))
+    )
+)'),
+   description('Throw error if Percentage Free Good Max used for regular Free Good rules'),
+   error_message('Percentage Free Good Max cannot be populated for regular Free Good rules'),
+   error_location('free_goods_percentage_max__v')
+);

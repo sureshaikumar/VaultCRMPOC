@@ -1,0 +1,6 @@
+Picklistentry totls__v (
+   value('Traumatology of the Locomotor System'),
+   order(1869),
+   active(true),
+   controlling_entries('hr__v')
+);

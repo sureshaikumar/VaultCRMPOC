@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved__v.change_state_to_published_useraction1__v (
+   label('Move to Published'),
+   rule(@rule.xml),
+   order(1001)
+);

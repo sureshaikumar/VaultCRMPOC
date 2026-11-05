@@ -1,0 +1,6 @@
+Picklistentry ke-01__v (
+   value('Baringo'),
+   order(2354),
+   active(true),
+   controlling_entries('ke__v')
+);

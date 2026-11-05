@@ -1,0 +1,4 @@
+Typefield per_event_topic_category__v (
+   source('standard'),
+   required(false)
+);

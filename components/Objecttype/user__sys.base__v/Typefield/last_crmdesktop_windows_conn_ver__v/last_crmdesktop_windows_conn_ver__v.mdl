@@ -1,0 +1,4 @@
+Typefield last_crmdesktop_windows_conn_ver__v (
+   source('standard'),
+   required(false)
+);

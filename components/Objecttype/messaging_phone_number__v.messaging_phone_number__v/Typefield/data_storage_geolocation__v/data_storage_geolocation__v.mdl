@@ -1,0 +1,18 @@
+Typefield data_storage_geolocation__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.msg_ph_num_data_storage_geoloc__v.apac_australia__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.apac_indonesia__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.apac_india__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.apac_japan__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.apac_singapore__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.apac_south_korea__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.europe_germany__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.europe_switzerland__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.europe_united_kingdom__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.latam_brazil__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.mea_bahrian__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.mea_south_africa__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.mea_united_arab_emirates__v',
+         'Picklist.msg_ph_num_data_storage_geoloc__v.noram_canada__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-hpl__v (
+   value('Hartlepool'),
+   order(1537),
+   active(true),
+   controlling_entries('gb__v')
+);

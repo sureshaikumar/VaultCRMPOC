@@ -1,0 +1,5 @@
+Picklistentry business_partner_affiliate__v (
+   value('Business Partner/Affiliate'),
+   order(2),
+   active(true)
+);

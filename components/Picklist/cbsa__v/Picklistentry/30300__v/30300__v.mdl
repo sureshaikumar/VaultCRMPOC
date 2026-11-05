@@ -1,0 +1,5 @@
+Picklistentry 30300__v (
+   value('Lewiston, ID-WA Metropolitan Statistical Area'),
+   order(458),
+   active(true)
+);

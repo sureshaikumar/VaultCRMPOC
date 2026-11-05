@@ -1,0 +1,4 @@
+Typefield reject_channel_source_edit_on_cancel__v (
+   source('standard'),
+   required(false)
+);

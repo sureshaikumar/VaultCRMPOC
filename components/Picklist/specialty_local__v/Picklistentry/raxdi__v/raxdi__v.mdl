@@ -1,0 +1,6 @@
+Picklistentry raxdi__v (
+   value('Radiology / Diagnostic Imaging'),
+   order(1685),
+   active(true),
+   controlling_entries('cy__v')
+);

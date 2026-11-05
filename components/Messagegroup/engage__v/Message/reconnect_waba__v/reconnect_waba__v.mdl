@@ -1,0 +1,6 @@
+Message reconnect_waba__v (
+   label(),
+   active(true),
+   default_value('Reconnect WhatsApp Business Account'),
+   system_managed(false)
+);

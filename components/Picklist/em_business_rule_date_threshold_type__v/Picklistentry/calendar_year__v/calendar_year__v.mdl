@@ -1,0 +1,5 @@
+Picklistentry calendar_year__v (
+   value('Calendar Year'),
+   order(2),
+   active(true)
+);

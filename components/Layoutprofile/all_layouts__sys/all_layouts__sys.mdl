@@ -1,0 +1,5 @@
+RECREATE Layoutprofile all_layouts__sys (
+   label('All Layouts'),
+   active(true),
+   description('This profile contains all layouts. It can be assigned to users, such as Vault Owners, System Administrators, and Business Administrators who need to see every layout on all objects.')
+);

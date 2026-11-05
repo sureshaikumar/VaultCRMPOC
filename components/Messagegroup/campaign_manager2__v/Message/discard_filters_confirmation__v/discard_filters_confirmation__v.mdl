@@ -1,0 +1,6 @@
+Message discard_filters_confirmation__v (
+   label(),
+   active(true),
+   default_value('By discarding filters, you will lose any filter selections you have made. Would you like to proceed?'),
+   system_managed(false)
+);

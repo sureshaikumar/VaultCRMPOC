@@ -1,0 +1,19 @@
+Field flat_fee_expense__v (
+   label('Flat Fee Expense'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used to add Flat Fee Expenses to an event and calculate expenses.'),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

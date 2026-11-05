@@ -1,0 +1,5 @@
+Picklistentry adverse_event_ae__c (
+   value('Adverse Event (AE)'),
+   order(2),
+   active(true)
+);

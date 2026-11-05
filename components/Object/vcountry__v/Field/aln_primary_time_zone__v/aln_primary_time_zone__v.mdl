@@ -1,0 +1,18 @@
+Field aln_primary_time_zone__v (
+   label('Primary Time Zone'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.aln_primary_time_zone__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

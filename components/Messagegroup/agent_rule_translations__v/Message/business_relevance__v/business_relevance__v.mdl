@@ -1,0 +1,6 @@
+Message business_relevance__v (
+   label(),
+   active(true),
+   default_value('Business Relevance'),
+   system_managed(false)
+);

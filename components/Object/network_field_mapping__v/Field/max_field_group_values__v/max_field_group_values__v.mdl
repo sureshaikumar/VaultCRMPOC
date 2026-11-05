@@ -1,0 +1,22 @@
+Field max_field_group_values__v (
+   label('Maximum FieldGroup Values'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(0),
+   scale(0),
+   help_content('Relevant only for mappings of Multi-Select Picklists to FieldGroups in Network. Holds the maximum number of values available for selection in a multi-select picklist that is mapped to a Field Group in Network.'),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

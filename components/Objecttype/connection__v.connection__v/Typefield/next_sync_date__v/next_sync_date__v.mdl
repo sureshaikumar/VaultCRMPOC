@@ -1,0 +1,4 @@
+Typefield next_sync_date__v (
+   source('custom'),
+   required(false)
+);

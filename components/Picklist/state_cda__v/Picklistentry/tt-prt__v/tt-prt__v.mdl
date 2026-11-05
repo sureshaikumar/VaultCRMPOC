@@ -1,0 +1,6 @@
+Picklistentry tt-prt__v (
+   value('Princes Town'),
+   order(4547),
+   active(true),
+   controlling_entries('tt__v')
+);

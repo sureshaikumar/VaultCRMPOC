@@ -1,0 +1,6 @@
+Picklistentry lt-45__v (
+   value('Šilalė'),
+   order(2663),
+   active(true),
+   controlling_entries('lt__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry pacific_kosrae__sys (
+   value('(GMT+11:00) Kosrae Time (Pacific/Kosrae)'),
+   order(294),
+   active(true)
+);

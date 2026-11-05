@@ -1,0 +1,6 @@
+Picklistentry hn-va__v (
+   value('Valle'),
+   order(1840),
+   active(true),
+   controlling_entries('hn__v')
+);

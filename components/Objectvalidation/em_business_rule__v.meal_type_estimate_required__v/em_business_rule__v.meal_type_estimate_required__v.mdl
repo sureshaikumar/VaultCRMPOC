@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule__v.meal_type_estimate_required__v (
+   label('Meal Type Required'),
+   active(true),
+   expression('object_type__vr.api_name__v != "expense_estimate_meal_rule__v" || Not(IsBlank(meal_type__v))'),
+   description('Valid input for meal_type__v is not added to the Meal Expense Estimate Creation Rule.'),
+   error_message('This field is required.'),
+   error_location('meal_type__v')
+);

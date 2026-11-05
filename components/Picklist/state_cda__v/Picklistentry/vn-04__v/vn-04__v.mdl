@@ -1,0 +1,6 @@
+Picklistentry vn-04__v (
+   value('Cao Bằng'),
+   order(4915),
+   active(true),
+   controlling_entries('vn__v')
+);

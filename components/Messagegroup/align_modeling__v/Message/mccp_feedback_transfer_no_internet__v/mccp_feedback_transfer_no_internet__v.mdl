@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_no_internet__v (
+   label(),
+   active(true),
+   default_value('Unable to save transfer request against ${account_name}. Restore internet connection to save challenge.'),
+   system_managed(false)
+);

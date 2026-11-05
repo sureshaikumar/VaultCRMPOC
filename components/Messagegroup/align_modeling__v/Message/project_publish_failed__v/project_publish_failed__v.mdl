@@ -1,0 +1,6 @@
+Message project_publish_failed__v (
+   label(),
+   active(true),
+   default_value('Failed to publish project'),
+   system_managed(false)
+);

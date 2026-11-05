@@ -1,0 +1,5 @@
+Picklistentry europe_andorra__sys (
+   value('(GMT+01:00) Central European Time (Europe/Andorra)'),
+   order(153),
+   active(true)
+);

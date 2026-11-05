@@ -1,0 +1,6 @@
+Picklistentry ni-ji__v (
+   value('Jinotega'),
+   order(3365),
+   active(true),
+   controlling_entries('ni__v')
+);

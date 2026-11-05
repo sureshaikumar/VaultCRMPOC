@@ -1,0 +1,6 @@
+Picklistentry bt-43__v (
+   value('Pemagatshel'),
+   order(525),
+   active(true),
+   controlling_entries('bt__v')
+);

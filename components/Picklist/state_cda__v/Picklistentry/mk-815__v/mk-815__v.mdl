@@ -1,0 +1,6 @@
+Picklistentry mk-815__v (
+   value('Čair †'),
+   order(3041),
+   active(true),
+   controlling_entries('mk__v')
+);

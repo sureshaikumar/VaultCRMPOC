@@ -1,0 +1,6 @@
+Picklistentry az-zan__v (
+   value('Zəngilan'),
+   order(213),
+   active(true),
+   controlling_entries('az__v')
+);

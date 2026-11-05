@@ -1,0 +1,5 @@
+Picklistentry biologics__v (
+   value('Biologics'),
+   order(1),
+   active(true)
+);

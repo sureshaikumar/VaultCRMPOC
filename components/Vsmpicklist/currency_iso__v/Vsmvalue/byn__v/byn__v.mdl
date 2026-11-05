@@ -1,0 +1,10 @@
+Vsmvalue byn__v (
+   label('BYN'),
+   active(true),
+   description('Use when recording monetary amounts in the current official currency of Belarus, introduced in 2016.'),
+   synonyms('Belarusian Ruble',
+         'Belarus Ruble',
+         'BYN Ruble'),
+   target('byn__sys'),
+   target_label('BYN')
+);

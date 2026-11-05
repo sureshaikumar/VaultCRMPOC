@@ -1,0 +1,6 @@
+Picklistentry is-6__v (
+   value('Norðurland eystra'),
+   order(2088),
+   active(true),
+   controlling_entries('is__v')
+);

@@ -1,0 +1,10 @@
+Vsmvalue sek__v (
+   label('SEK'),
+   active(true),
+   description('Applies when transactions are denominated in the Swedish Krona, the official currency of Sweden.'),
+   synonyms('Swedish krona',
+         'Sweden currency',
+         'krona'),
+   target('sek__sys'),
+   target_label('SEK')
+);

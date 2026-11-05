@@ -1,0 +1,6 @@
+Picklistentry gy-eb__v (
+   value('East Berbice-Corentyne'),
+   order(1817),
+   active(true),
+   controlling_entries('gy__v')
+);

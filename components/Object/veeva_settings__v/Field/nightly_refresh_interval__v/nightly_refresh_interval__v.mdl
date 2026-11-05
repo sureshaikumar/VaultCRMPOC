@@ -1,0 +1,23 @@
+Field nightly_refresh_interval__v (
+   label('NIGHTLY_REFRESH_INTERVAL'),
+   type('Number'),
+   active(true),
+   description('Interval, in days, at which the VMobile BlackBerry application nightly refresh process will run.  Default value is 1 day.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(227),
+   default_value('1'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

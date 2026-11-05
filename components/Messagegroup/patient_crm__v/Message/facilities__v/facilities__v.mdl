@@ -1,0 +1,6 @@
+Message facilities__v (
+   label(),
+   active(true),
+   default_value('Facilities'),
+   system_managed(false)
+);

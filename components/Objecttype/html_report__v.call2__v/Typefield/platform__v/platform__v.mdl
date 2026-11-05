@@ -1,0 +1,6 @@
+Typefield platform__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.html_report_platform__v.mobile_device__v',
+         'Picklist.html_report_platform__v.phone__v')
+);

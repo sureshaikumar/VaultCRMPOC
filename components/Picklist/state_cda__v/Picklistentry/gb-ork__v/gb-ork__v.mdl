@@ -1,0 +1,6 @@
+Picklistentry gb-ork__v (
+   value('Orkney Islands'),
+   order(1592),
+   active(true),
+   controlling_entries('gb__v')
+);

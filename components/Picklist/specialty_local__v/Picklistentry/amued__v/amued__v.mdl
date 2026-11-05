@@ -1,0 +1,8 @@
+Picklistentry amued__v (
+   value('Audiovestibular Medicine'),
+   order(104),
+   active(true),
+   controlling_entries('gb__v',
+         'mt__v',
+         'qa__v')
+);

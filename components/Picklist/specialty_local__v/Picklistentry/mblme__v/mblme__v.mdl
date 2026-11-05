@@ -1,0 +1,7 @@
+Picklistentry mblme__v (
+   value('Medical Biopathology / Laboratory Medicine'),
+   order(902),
+   active(true),
+   controlling_entries('cy__v',
+         'gr__v')
+);

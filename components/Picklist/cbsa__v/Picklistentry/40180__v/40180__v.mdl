@@ -1,0 +1,5 @@
+Picklistentry 40180__v (
+   value('Riverton, WY Micropolitan Statistical Area'),
+   order(179),
+   active(true)
+);

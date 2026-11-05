@@ -1,0 +1,5 @@
+Picklistentry powerpoint__v (
+   value('PowerPoint'),
+   order(4),
+   active(true)
+);

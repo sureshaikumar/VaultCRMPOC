@@ -1,0 +1,10 @@
+Objectlifecyclestate canceled_state__v (
+   label('Canceled'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('The Medical Interaction is canceled.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

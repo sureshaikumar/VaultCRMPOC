@@ -1,0 +1,6 @@
+Message start_call__v (
+   label(),
+   active(true),
+   default_value('Start Call'),
+   system_managed(false)
+);

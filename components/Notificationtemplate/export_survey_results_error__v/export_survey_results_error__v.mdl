@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate export_survey_results_error__v (
+   label('Export Survey Results Error'),
+   active(true),
+   description('Notifies the user their survey results export is not successful.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.survey__v'),
+   subject('Notification: Survey Results Export Encountered Errors'),
+   notification('<p>Your survey results export encountered an error.</p> <p>Details: <ul>  <li>Survey: ${Custom.survey_name}</li> <li>Error Messages: Errors encountered when attempting to export results for ${Custom.survey_name} Survey. In your vault, visit Admin > Operations > Job Status to Download Log for Job ID ${Custom.job_id} for more details. </li> </ul> </p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

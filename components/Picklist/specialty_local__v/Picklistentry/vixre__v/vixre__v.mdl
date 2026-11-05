@@ -1,0 +1,6 @@
+Picklistentry vixre__v (
+   value('Vitreo-Retina'),
+   order(1922),
+   active(true),
+   controlling_entries('ng__v')
+);

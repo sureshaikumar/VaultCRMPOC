@@ -1,0 +1,9 @@
+Objectlifecyclepermission owner_read__c (
+   states('Objectlifecyclestate.active_state__c',
+         'Objectlifecyclestate.approved_state__c',
+         'Objectlifecyclestate.draft_state__c',
+         'Objectlifecyclestate.in_review_state__c',
+         'Objectlifecyclestate.inactive_state__c'),
+   role('Objectlifecyclerole.owner__v'),
+   permission('Read')
+);

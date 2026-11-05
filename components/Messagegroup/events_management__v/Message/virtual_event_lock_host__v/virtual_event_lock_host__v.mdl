@@ -1,0 +1,6 @@
+Message virtual_event_lock_host__v (
+   label(),
+   active(true),
+   default_value('You are not allowed to update or remove the Host of a scheduled virtual event.'),
+   system_managed(false)
+);

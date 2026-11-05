@@ -1,0 +1,6 @@
+Picklistentry gb-esx__v (
+   value('East Sussex'),
+   order(1518),
+   active(true),
+   controlling_entries('gb__v')
+);

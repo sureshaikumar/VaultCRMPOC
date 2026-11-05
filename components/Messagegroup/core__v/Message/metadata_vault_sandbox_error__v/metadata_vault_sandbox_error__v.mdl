@@ -1,0 +1,6 @@
+Message metadata_vault_sandbox_error__v (
+   label(),
+   active(true),
+   default_value('Cannot perform Metadata Sync from a Sandbox CRM to a Production Vault.'),
+   system_managed(false)
+);

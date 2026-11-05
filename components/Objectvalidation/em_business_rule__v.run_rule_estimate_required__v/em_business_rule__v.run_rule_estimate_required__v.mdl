@@ -1,0 +1,17 @@
+RECREATE Objectvalidation em_business_rule__v.run_rule_estimate_required__v (
+   label('Run Rule on Event Action Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "expense_estimate_av_equipment_rule__v", true,
+            "expense_estimate_flat_fee_rule__v", true,
+            "expense_estimate_meal_rule__v", true,
+            "expense_estimate_speaker_lodging_rule__v", true,
+            "expense_estimate_speaker_travel_rule__v", true,
+            "expense_estimate_speaker_rate_rule__v", true,
+            false
+        ) = false || Not(IsBlank(run_rule_event_action__v))'),
+   description('Valid input for run_rule_event_action__v is not added to the Expense Estimate Creation Rule.'),
+   error_message('This field is required.'),
+   error_location('run_rule_event_action__v')
+);

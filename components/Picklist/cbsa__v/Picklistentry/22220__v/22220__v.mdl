@@ -1,0 +1,5 @@
+Picklistentry 22220__v (
+   value('Fayetteville-Springdale-Rogers, AR-MO Metropolitan Statistical Area'),
+   order(158),
+   active(true)
+);

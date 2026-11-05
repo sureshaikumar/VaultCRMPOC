@@ -1,0 +1,6 @@
+Picklistentry bw-lo__v (
+   value('Lobatse'),
+   order(539),
+   active(true),
+   controlling_entries('bw__v')
+);

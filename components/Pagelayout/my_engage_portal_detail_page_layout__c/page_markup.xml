@@ -1,0 +1,33 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.engage_portal__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="display_name__v" />
+            <vault:field reference="company_name__v" />
+            <vault:field reference="logo__v" />
+            <vault:field reference="favicon__v" />
+            <vault:field reference="theme_color__v" />
+            <vault:field reference="secondary_theme_color__v" />
+            <vault:field reference="support_email__v" />
+            <vault:field reference="support_phone__v" />
+            <vault:field reference="terms_of_use__v" />
+            <vault:field reference="privacy_policy__v" />
+            <vault:field reference="engage_portal_status__v" />
+            <vault:field reference="deployment_status__v" />
+            <vault:field reference="deployment_details__v" />
+            <vault:field reference="last_deployment_start_date__v" />
+            <vault:field reference="last_deployment_end_date__v" />
+            <vault:field reference="has_undeployed_changes__v" />
+            <vault:field reference="engage_portal_domain__v" />
+            <vault:field reference="last_successful_deployment_date__v" />
+            <vault:field reference="enable_inbox__v" />
+            <vault:field reference="url_path__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

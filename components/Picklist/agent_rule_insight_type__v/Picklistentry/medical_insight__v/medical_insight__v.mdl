@@ -1,0 +1,5 @@
+Picklistentry medical_insight__v (
+   value('Medical Insight'),
+   order(1),
+   active(true)
+);

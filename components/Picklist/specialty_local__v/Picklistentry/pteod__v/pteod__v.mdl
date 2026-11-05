@@ -1,0 +1,6 @@
+Picklistentry pteod__v (
+   value('Pediatric Toxicology'),
+   order(1464),
+   active(true),
+   controlling_entries('ge__v')
+);

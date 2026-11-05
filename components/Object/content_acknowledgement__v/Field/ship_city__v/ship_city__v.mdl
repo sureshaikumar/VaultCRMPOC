@@ -1,0 +1,19 @@
+Field ship_city__v (
+   label('Ship City'),
+   type('String'),
+   active(true),
+   description('Stores the city of the Ship to Address for the product shipment.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,7 @@
+Picklistentry radiq__v (
+   value('Radiodiagnosis'),
+   order(1675),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

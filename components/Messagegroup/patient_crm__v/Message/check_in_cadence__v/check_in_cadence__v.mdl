@@ -1,0 +1,6 @@
+Message check_in_cadence__v (
+   label(),
+   active(true),
+   default_value('Check-In Cadence'),
+   system_managed(false)
+);

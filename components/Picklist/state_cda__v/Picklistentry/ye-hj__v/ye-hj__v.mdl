@@ -1,0 +1,6 @@
+Picklistentry ye-hj__v (
+   value('Ḩajjah'),
+   order(5002),
+   active(true),
+   controlling_entries('ye__v')
+);

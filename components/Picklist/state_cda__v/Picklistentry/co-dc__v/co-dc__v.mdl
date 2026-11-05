@@ -1,0 +1,6 @@
+Picklistentry co-dc__v (
+   value('Distrito Capital de Bogotá'),
+   order(741),
+   active(true),
+   controlling_entries('co__v')
+);

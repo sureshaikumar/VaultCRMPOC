@@ -1,0 +1,14 @@
+RECREATE Page start_media_medx__v (
+   label('Start Media from MedX'),
+   active(true),
+   client_distribution(),
+   default_client_code('start_media_medx__v'),
+   description('App page to redirect to opening the Media Player when media is started from a Medical Interaction'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.medicalinteraction.controls.MedicalInteractionStartMediaPageController'),
+   url_path_name('start-media-medx')
+);

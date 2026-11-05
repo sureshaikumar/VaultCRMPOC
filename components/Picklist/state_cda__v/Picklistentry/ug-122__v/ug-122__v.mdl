@@ -1,0 +1,6 @@
+Picklistentry ug-122__v (
+   value('Kalungu'),
+   order(4664),
+   active(true),
+   controlling_entries('ug__v')
+);

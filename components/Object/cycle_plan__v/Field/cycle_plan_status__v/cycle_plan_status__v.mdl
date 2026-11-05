@@ -1,0 +1,18 @@
+Field cycle_plan_status__v (
+   label('Cycle Plan Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Holds the status of the Cycle Plan.'),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.cycle_plan_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

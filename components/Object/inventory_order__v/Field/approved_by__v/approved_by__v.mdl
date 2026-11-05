@@ -1,0 +1,19 @@
+Field approved_by__v (
+   label('Approved By'),
+   type('String'),
+   active(true),
+   description('Captures the name of the user approving the record, given that it may be different than the selected Approver User'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message affiliation__v (
+   label(),
+   active(true),
+   default_value('Affiliation'),
+   system_managed(false)
+);

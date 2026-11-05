@@ -1,0 +1,19 @@
+Field ship_country__v (
+   label('Ship Country'),
+   type('String'),
+   active(true),
+   description('Stores the country of the Ship to Address for the product shipment.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

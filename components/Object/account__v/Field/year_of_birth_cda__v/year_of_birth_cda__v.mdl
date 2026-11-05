@@ -1,0 +1,22 @@
+Field year_of_birth_cda__v (
+   label('Year of Birth'),
+   type('Number'),
+   active(true),
+   description('Birth year of the HCP.'),
+   required(false),
+   unique(false),
+   max_value(9999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(151),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

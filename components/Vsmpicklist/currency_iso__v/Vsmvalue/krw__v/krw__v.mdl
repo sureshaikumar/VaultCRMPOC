@@ -1,0 +1,10 @@
+Vsmvalue krw__v (
+   label('KRW'),
+   active(true),
+   description('The South Korean Won (KRW), the official currency of the Republic of Korea, used for transactions, pricing, and financial records involving South Korean markets.'),
+   synonyms('South Korean won',
+         'Korean won',
+         'KRW'),
+   target('krw__sys'),
+   target_label('KRW')
+);

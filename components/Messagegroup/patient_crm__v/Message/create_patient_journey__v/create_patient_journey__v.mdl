@@ -1,0 +1,6 @@
+Message create_patient_journey__v (
+   label(),
+   active(true),
+   default_value('Create Patient Journey'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 43900__v (
+   value('Spartanburg, SC Metropolitan Statistical Area'),
+   order(758),
+   active(true)
+);

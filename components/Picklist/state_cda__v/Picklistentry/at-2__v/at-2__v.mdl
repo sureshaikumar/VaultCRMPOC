@@ -1,0 +1,6 @@
+Picklistentry at-2__v (
+   value('Kärnten'),
+   order(122),
+   active(true),
+   controlling_entries('at__v')
+);

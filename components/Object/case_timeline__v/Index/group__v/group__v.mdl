@@ -1,0 +1,5 @@
+Index group__v (
+   description(),
+   fields('group__v'),
+   label('Group')
+);

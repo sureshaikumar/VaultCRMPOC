@@ -1,0 +1,5 @@
+Picklistentry smn (
+   value('Inari Sami'),
+   order(203),
+   active(true)
+);

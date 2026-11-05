@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction inactive_state__sys.reconnect_vaults_useraction__sys (
+   label('Reconnect Vaults'),
+   rule(@rule.xml),
+   order(1000)
+);

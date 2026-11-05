@@ -1,0 +1,5 @@
+Picklistentry tj__v (
+   value('Tajikistan'),
+   order(218),
+   active(true)
+);

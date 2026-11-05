@@ -1,0 +1,6 @@
+Picklistentry es-sa__v (
+   value('Salamanca'),
+   order(1245),
+   active(true),
+   controlling_entries('es__v')
+);

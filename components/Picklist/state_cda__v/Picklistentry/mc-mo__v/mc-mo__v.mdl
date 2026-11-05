@@ -1,0 +1,6 @@
+Picklistentry mc-mo__v (
+   value('Monaco-Ville'),
+   order(2862),
+   active(true),
+   controlling_entries('mc__v')
+);

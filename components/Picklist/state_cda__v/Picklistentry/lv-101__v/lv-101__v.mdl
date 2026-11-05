@@ -1,0 +1,6 @@
+Picklistentry lv-101__v (
+   value('Valkas novads'),
+   order(2731),
+   active(true),
+   controlling_entries('lv__v')
+);

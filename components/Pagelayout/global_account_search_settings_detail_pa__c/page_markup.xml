@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.global_account_search_settings__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="enable_global_account_search__v" />
+            <vault:field reference="gas_implicit_filters__v" />
+            <vault:field reference="my_accounts_redirect__v" />
+            <vault:field reference="gas_user_filters__v" />
+            <vault:field reference="gas_preview_fields__v" />
+            <vault:field reference="gas_online_columns__v" />
+            <vault:field reference="setupownerid__v" />
+            <vault:field reference="security_profile__v" />
+            <vault:field reference="application_profile__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

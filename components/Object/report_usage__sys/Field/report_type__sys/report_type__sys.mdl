@@ -1,0 +1,18 @@
+Field report_type__sys (
+   label('Report Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.report_type__sys'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

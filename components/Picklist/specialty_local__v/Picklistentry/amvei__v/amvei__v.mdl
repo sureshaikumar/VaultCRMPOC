@@ -1,0 +1,20 @@
+Picklistentry amvei__v (
+   value('Aviation Medicine'),
+   order(107),
+   active(true),
+   controlling_entries('ae__v',
+         'am__v',
+         'bg__v',
+         'hu__v',
+         'id__v',
+         'in__v',
+         'ke__v',
+         'me__v',
+         'mk__v',
+         'pl__v',
+         'qa__v',
+         'rs__v',
+         'sg__v',
+         'sk__v',
+         'th__v')
+);

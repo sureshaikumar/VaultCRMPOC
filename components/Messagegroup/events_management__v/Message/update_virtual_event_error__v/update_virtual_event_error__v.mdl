@@ -1,0 +1,6 @@
+Message update_virtual_event_error__v (
+   label(),
+   active(true),
+   default_value('Unable to update ${meeting_type} information. Please retry or manually update the meeting in ${meeting_type}.'),
+   system_managed(false)
+);

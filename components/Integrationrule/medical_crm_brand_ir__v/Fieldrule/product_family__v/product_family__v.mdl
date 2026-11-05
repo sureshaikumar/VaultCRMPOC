@@ -1,0 +1,15 @@
+Fieldrule product_family__v (
+   label('Product Family'),
+   active(true),
+   query_object('local_product__v'),
+   query_field('product__vr.global_id__sys'),
+   target_object('Object.brand__v'),
+   target_object_field('Field.product_family__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_object_reference__sys'),
+   target_field_lookup('Field.link__sys')
+);

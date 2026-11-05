@@ -1,0 +1,6 @@
+Message unsaved_errors_prompt__v (
+   label(),
+   active(true),
+   default_value('There are errors on this page that won’t be saved. Continue to move away from this page?'),
+   system_managed(false)
+);

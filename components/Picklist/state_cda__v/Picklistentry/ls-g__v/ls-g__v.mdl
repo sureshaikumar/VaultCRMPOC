@@ -1,0 +1,6 @@
+Picklistentry ls-g__v (
+   value('Quthing'),
+   order(2615),
+   active(true),
+   controlling_entries('ls__v')
+);

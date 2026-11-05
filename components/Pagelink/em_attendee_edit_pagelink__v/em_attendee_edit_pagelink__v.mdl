@@ -1,0 +1,11 @@
+RECREATE Pagelink em_attendee_edit_pagelink__v (
+   label('EM Attendee Edit'),
+   description('Redirects editing Attendee to the EM Attendee Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Metadata.name}}/{{Object.id}}/edit'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.em_attendee__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.em_router_page__v')
+);

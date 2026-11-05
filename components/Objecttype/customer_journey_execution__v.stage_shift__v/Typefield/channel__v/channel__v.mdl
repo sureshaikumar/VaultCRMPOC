@@ -1,0 +1,10 @@
+Typefield channel__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.channels__v.email__v',
+         'Picklist.channels__v.face_to_face__v',
+         'Picklist.channels__v.message__v',
+         'Picklist.channels__v.other__v',
+         'Picklist.channels__v.phone__v',
+         'Picklist.channels__v.video__v')
+);

@@ -1,0 +1,4 @@
+Typefield jdnet_detail_cols__v (
+   source('standard'),
+   required(false)
+);

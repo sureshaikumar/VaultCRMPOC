@@ -1,0 +1,6 @@
+Message functional_profile_field_force_no_edit__v (
+   label(),
+   active(true),
+   default_value('It is not possible to modify the functional_profile__v, field_force__v or hierarchy_level__v fields on existing aln_functional_profile_field_force__v records.'),
+   system_managed(false)
+);

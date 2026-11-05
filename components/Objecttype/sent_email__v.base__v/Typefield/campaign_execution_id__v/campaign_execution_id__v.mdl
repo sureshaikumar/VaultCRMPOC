@@ -1,0 +1,4 @@
+Typefield campaign_execution_id__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,20 @@
+Field disclaimer_mi__v (
+   label('DISCLAIMER'),
+   type('String'),
+   active(true),
+   description('The Disclaimer statement text that is displayed in the Medical Inquiry Signature page.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(108),
+   default_value('"DISCLAIMER;;MEDICAL_INQUIRY"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

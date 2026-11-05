@@ -1,0 +1,18 @@
+Field em_vendor_status__v (
+   label('Vendor Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to determine if a vendor is eligible for use. Custom values can be added, though only eligible vendors can be selected for events.'),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.em_vendor_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

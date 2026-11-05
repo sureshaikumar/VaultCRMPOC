@@ -1,0 +1,19 @@
+Field day_title__v (
+   label('Day Title'),
+   type('String'),
+   active(true),
+   description('Label for a day of a call cycle.  This label is editable at the top of each day in Call Cycle view in VMobile.  It appears in search results for that call cycle and can be searched on to find call cycles by day name.  Warning: The day title and day/week a'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

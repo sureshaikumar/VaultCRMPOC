@@ -1,0 +1,18 @@
+Field template_in_use__v (
+   label('Template in Use'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('flag used to determine if the selected Sample Limit Template has already been used to generate a Sample Limit record.'),
+   list_column(false),
+   order(29),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

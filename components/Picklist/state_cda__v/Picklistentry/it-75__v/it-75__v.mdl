@@ -1,0 +1,6 @@
+Picklistentry it-75__v (
+   value('Apulia'),
+   order(2170),
+   active(true),
+   controlling_entries('it__v')
+);

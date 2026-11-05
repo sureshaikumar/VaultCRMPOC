@@ -1,0 +1,5 @@
+Picklistentry america_mexico_city__v (
+   value('America/Mexico_City'),
+   order(10),
+   active(true)
+);

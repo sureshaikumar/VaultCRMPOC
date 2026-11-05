@@ -1,0 +1,6 @@
+Message view_or_edit_connected_wabas__v (
+   label(),
+   active(true),
+   default_value('View or make edits to your connected WhatsApp Business Accounts'),
+   system_managed(false)
+);

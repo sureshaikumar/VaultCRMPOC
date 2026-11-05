@@ -1,0 +1,6 @@
+Picklistentry msasa__v (
+   value('Maxillofacial Surgery and Stomatology'),
+   order(890),
+   active(true),
+   controlling_entries('sn__v')
+);

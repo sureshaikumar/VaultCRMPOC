@@ -1,0 +1,18 @@
+Field professionalism__c (
+   label('Professionalism'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('How professional was this speaker before, during and after the engagement?'),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.speaker_evaluation_professionalism__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

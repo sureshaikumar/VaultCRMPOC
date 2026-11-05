@@ -1,0 +1,18 @@
+Field commercial_insight_status__v (
+   label('Commercial Insight Status'),
+   type('Picklist'),
+   active(true),
+   description('The status of the commercial insight. A commercial insight in the Saved status can still be modified. A commercial insight in the Submitted status is locked and cannot be modified without being unlocked first.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.commercial_insight_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

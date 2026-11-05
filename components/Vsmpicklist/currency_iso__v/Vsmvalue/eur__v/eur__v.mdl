@@ -1,0 +1,10 @@
+Vsmvalue eur__v (
+   label('EUR'),
+   active(true),
+   description('The Euro (EUR), the official currency shared by eurozone member states of the European Union, used for transactions across a wide range of European countries.'),
+   synonyms('Euro',
+         'eurozone currency',
+         'European currency'),
+   target('eur__sys'),
+   target_label('EUR')
+);

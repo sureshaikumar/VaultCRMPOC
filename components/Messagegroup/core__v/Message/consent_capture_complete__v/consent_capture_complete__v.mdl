@@ -1,0 +1,6 @@
+Message consent_capture_complete__v (
+   label(),
+   active(true),
+   default_value('Consent Capture Complete'),
+   system_managed(false)
+);

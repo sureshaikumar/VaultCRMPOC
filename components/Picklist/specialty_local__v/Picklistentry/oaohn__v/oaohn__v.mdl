@@ -1,0 +1,7 @@
+Picklistentry oaohn__v (
+   value('Oncology and Onco-Hematology'),
+   order(1118),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

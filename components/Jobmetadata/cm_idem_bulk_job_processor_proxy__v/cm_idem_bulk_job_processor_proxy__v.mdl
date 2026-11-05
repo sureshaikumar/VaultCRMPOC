@@ -1,0 +1,10 @@
+RECREATE Jobmetadata cm_idem_bulk_job_processor_proxy__v (
+   label('Campaign Manager Idempotent Bulk Job Processor Proxy'),
+   active(true),
+   chunk_size(500),
+   description('Campaign Manager Idempotent Bulk Job Processor Proxy'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.campaignmanager.job.CampaignManagerIdempotentBulkJobProcessorProxy'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

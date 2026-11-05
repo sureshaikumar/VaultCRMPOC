@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.document_number__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.created_by__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="documents.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

@@ -1,0 +1,23 @@
+Field event_grid_view__v (
+   label('Event Grid View'),
+   type('Number'),
+   active(true),
+   description('Setting to turn on the Event Grid View for iPad. Please see documentation for more information.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(170),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

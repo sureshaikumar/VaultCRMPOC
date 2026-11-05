@@ -1,0 +1,6 @@
+Message undo__v (
+   label(),
+   active(true),
+   default_value('Undo'),
+   system_managed(false)
+);

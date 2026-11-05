@@ -1,0 +1,6 @@
+Picklistentry tt-sge__v (
+   value('Sangre Grande'),
+   order(4550),
+   active(true),
+   controlling_entries('tt__v')
+);

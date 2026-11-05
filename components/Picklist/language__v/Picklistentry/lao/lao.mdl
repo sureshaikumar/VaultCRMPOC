@@ -1,0 +1,5 @@
+Picklistentry lao (
+   value('Lao'),
+   order(234),
+   active(true)
+);

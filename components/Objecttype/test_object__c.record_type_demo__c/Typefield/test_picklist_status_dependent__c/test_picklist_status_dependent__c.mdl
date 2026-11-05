@@ -1,0 +1,4 @@
+Typefield test_picklist_status_dependent__c (
+   source('custom'),
+   required(false)
+);

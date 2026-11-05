@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate videotranscode__v (
+   label('video-Transcode'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Video Transcoding Completed for "${docNameNoLink}"'),
+   notification('<b><a href="${uiBaseExtUrl}/#doc_info/${docId}">${docNameNoLink}</a></b> has completed transcoding and is available for viewing and download in Vault.
+'),
+   email_body('<p><b><a target="_blank" href="${uiBaseExtUrl}/#doc_info/${docId}">${docNameNoLink}</a></b> has completed transcoding and is available for viewing and download in Vault.</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

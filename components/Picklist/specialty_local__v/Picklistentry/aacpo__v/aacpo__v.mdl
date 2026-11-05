@@ -1,0 +1,8 @@
+Picklistentry aacpo__v (
+   value('Anatomical and Cytopathological Pathology'),
+   order(59),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v',
+         'sn__v')
+);

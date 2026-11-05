@@ -1,0 +1,6 @@
+Message import_territory_from_prod_successful__v (
+   label(),
+   active(true),
+   default_value('Territory import completed for ${entity_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+Picklistentry iaamn__v (
+   value('Immunology and Allergy'),
+   order(740),
+   active(true),
+   controlling_entries('au__v',
+         'kw__v',
+         'tr__v')
+);

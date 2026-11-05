@@ -1,0 +1,6 @@
+Message eppv_date_validation__v (
+   label(),
+   active(true),
+   default_value('${date1__v} must be before ${date2__v}.'),
+   system_managed(false)
+);

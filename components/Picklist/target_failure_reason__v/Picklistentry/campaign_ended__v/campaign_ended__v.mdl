@@ -1,0 +1,5 @@
+Picklistentry campaign_ended__v (
+   value('Campaign Ended'),
+   order(3),
+   active(true)
+);

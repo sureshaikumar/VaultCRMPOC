@@ -1,0 +1,6 @@
+Message fax_details__v (
+   label(),
+   active(true),
+   default_value('Fax Details'),
+   system_managed(false)
+);

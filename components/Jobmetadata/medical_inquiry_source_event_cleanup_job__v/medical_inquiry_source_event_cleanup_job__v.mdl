@@ -1,0 +1,11 @@
+RECREATE Jobmetadata medical_inquiry_source_event_cleanup_job__v (
+   label('Medical Inquiry Source Event Cleanup Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that is scheduled to delete records from the Medical Inquiry Source Event table that are older than 15 days.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.medical.jobs.MedicalInquirySourceEventCleanupJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

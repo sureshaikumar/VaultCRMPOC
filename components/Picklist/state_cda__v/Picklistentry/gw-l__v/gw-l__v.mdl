@@ -1,0 +1,6 @@
+Picklistentry gw-l__v (
+   value('Leste'),
+   order(1808),
+   active(true),
+   controlling_entries('gw__v')
+);

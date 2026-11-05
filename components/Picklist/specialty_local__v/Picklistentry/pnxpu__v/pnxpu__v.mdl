@@ -1,0 +1,6 @@
+Picklistentry pnxpu__v (
+   value('Pneumology (Pulmonology)'),
+   order(1578),
+   active(true),
+   controlling_entries('ao__v')
+);

@@ -1,0 +1,18 @@
+Field type__v (
+   label('Type'),
+   type('Picklist'),
+   active(true),
+   description('The type field is the type of benefit design (commercial, VA, Medicade, etc.)  It is populated by a trigger, which pulls down the value from the type field on the parent benefit design object. The type field needs to be replicated to the benefit design li'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.benefit_design_line_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

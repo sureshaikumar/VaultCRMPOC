@@ -1,0 +1,4 @@
+Typefield feedback_account_assignment_columns__v (
+   source('standard'),
+   required(false)
+);

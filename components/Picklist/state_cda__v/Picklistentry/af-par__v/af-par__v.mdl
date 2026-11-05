@@ -1,0 +1,6 @@
+Picklistentry af-par__v (
+   value('Parwān'),
+   order(39),
+   active(true),
+   controlling_entries('af__v')
+);

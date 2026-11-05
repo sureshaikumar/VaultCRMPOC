@@ -1,0 +1,4 @@
+Typefield smallphotourl__v (
+   source('standard'),
+   required(false)
+);

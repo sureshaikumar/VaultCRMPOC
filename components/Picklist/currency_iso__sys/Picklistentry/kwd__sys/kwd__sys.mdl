@@ -1,0 +1,5 @@
+Picklistentry kwd__sys (
+   value('KWD'),
+   order(100),
+   active(true)
+);

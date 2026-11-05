@@ -1,0 +1,18 @@
+Field type__c (
+   label('Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Type of account plan such as National, Regional or Local.'),
+   list_column(false),
+   order(23),
+   multi_value(false),
+   picklist('Picklist.account_plan_type__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <actions>
+            <action type="CHECK_USER_ACTION">
+                <UserAction actionType="StateChange" newState="approved__v" label="Approve" publicKey="approve__v" />
+            </action>
+        </actions>
+    </rule>
+</rules>

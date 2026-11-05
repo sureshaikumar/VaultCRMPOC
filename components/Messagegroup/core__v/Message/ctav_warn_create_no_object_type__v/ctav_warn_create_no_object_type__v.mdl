@@ -1,0 +1,6 @@
+Message ctav_warn_create_no_object_type__v (
+   label(),
+   active(true),
+   default_value('Source record ${record_id} has an object type which the target Vault CRM user does not have create access to. The record will be copied with the default object type.'),
+   system_managed(false)
+);

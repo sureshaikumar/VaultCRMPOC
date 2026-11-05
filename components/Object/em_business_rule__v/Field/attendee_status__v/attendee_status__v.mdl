@@ -1,0 +1,17 @@
+Field attendee_status__v (
+   label('Attendee Status'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Restrict this rule to apply for Attendee Statuses based on Event Status. See documentation for details. Syntax: (Event Status1:Attendee Status1,Attendee Status2;;Event Status2:Attendee Status1) Use API name for each value.'),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry meeting_not_started_and_attendees_joined__v (
+   value('Meeting Not Started and Attendees Joined'),
+   order(7),
+   active(true)
+);

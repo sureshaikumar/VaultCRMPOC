@@ -1,0 +1,6 @@
+Message custom_pres_email_body_text__v (
+   label(),
+   active(true),
+   default_value('One or more of your custom presentations has been modified because the source slide has been updated or is no longer approved for use. The slide and the custom presentation(s) impacted are listed below. You can view the updated presentations on your CRM application after syncing.'),
+   system_managed(false)
+);

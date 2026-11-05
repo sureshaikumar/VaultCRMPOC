@@ -1,0 +1,5 @@
+Picklistentry antarctica_macquarie__sys (
+   value('(GMT+10:00) Australian Eastern Standard Time (Antarctica/Macquarie)'),
+   order(281),
+   active(true)
+);

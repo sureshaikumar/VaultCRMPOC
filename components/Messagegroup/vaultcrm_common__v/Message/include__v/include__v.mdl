@@ -1,0 +1,6 @@
+Message include__v (
+   label(),
+   active(true),
+   default_value('Include'),
+   system_managed(false)
+);

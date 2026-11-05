@@ -1,0 +1,10 @@
+Vsmvalue zwl__v (
+   label('ZWL'),
+   active(true),
+   description('Used for transactions denominated in the fourth Zimbabwe Dollar (ZWL), introduced in 2009 as part of Zimbabwe''s currency reforms following periods of extreme hyperinflation.'),
+   synonyms('Zimbabwe dollar fourth',
+         'ZWL',
+         'Zimbabwe dollar 2009'),
+   target('zwl__sys'),
+   target_label('ZWL')
+);

@@ -1,0 +1,19 @@
+Field job_title__v (
+   label('Job Title'),
+   type('String'),
+   active(true),
+   description('Job Title of stakeholder at Institution example: Clinical Researcher'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Vsmrelationship package_component__v (
+   label('Package Component'),
+   active(true),
+   cardinality('MANY_TO_MANY'),
+   description('Inbound relationship identifying which outbound packages include this vault component. Use this to find all packages that contain a specific component (e.g., query package_component__v records linked to this component).'),
+   join_object('package_component__v'),
+   synonyms('package',
+         'included in package',
+         'part of package',
+         'bundled in'),
+   target('package_component__vr'),
+   target_label('Outbound Packages'),
+   target_object('outbound_package__v')
+);

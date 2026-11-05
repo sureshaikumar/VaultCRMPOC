@@ -1,0 +1,6 @@
+Message crm_integration_last_15_days_del_objs__v (
+   label(),
+   active(true),
+   default_value('Retrieved deleted objects for the last 15 days only.'),
+   system_managed(false)
+);

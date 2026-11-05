@@ -1,0 +1,5 @@
+Picklistentry crm__v (
+   value('CRM'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry us-wy__v (
+   value('Wyoming'),
+   order(4847),
+   active(true),
+   controlling_entries('us__v')
+);

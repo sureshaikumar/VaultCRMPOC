@@ -1,0 +1,19 @@
+Field product_identifier__v (
+   label('Product Identifier'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('This is a pull-in field that allows the display of the Product Identifier field from the Product Catalog object on Inventory Monitoring Lines.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

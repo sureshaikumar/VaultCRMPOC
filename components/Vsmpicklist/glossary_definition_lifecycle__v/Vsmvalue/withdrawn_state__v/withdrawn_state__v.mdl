@@ -1,0 +1,12 @@
+Vsmvalue withdrawn_state__v (
+   label('Withdrawn'),
+   active(true),
+   description('The glossary definition has been pulled from active use and is no longer considered valid or current.'),
+   synonyms('retired',
+         'deprecated',
+         'deactivated',
+         'removed',
+         'obsolete'),
+   target('withdrawn_state__sys'),
+   target_label('Withdrawn')
+);

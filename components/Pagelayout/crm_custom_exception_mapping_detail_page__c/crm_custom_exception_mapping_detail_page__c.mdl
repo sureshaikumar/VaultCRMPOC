@@ -1,0 +1,8 @@
+RECREATE Pagelayout crm_custom_exception_mapping_detail_page__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('CRM Custom Exception Mapping Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,4 @@
+Typefield reporters_country_code__c (
+   source('custom'),
+   required(false)
+);

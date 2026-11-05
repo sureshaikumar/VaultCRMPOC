@@ -1,0 +1,11 @@
+Vsmfield avg_time_report__v (
+   label('Avg Time Report'),
+   active(true),
+   description('Average time (in seconds) to run a report'),
+   example_values(),
+   synonyms(),
+   target('avg_time_report__v'),
+   target_label('Avg Time Report'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

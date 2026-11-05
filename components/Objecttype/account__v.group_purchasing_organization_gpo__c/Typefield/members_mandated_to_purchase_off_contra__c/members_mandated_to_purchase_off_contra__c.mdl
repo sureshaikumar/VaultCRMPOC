@@ -1,0 +1,4 @@
+Typefield members_mandated_to_purchase_off_contra__c (
+   source('custom'),
+   required(false)
+);

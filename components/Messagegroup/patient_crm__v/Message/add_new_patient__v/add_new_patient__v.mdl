@@ -1,0 +1,6 @@
+Message add_new_patient__v (
+   label(),
+   active(true),
+   default_value('Add New Patient'),
+   system_managed(false)
+);

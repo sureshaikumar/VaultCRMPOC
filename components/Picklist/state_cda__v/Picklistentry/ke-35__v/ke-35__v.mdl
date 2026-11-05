@@ -1,0 +1,6 @@
+Picklistentry ke-35__v (
+   value('Nyandarua'),
+   order(2388),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bg-27__v (
+   value('Shumen'),
+   order(399),
+   active(true),
+   controlling_entries('bg__v')
+);

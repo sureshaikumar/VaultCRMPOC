@@ -1,0 +1,8 @@
+RECREATE Pagelayout omniconnect_integration_detail_page_layo__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('OmniConnect Integration Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

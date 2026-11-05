@@ -1,0 +1,6 @@
+Message reopen_target__v (
+   label(),
+   active(true),
+   default_value('Reopen Target'),
+   system_managed(false)
+);

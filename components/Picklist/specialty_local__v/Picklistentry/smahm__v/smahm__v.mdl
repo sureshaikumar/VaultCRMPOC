@@ -1,0 +1,6 @@
+Picklistentry smahm__v (
+   value('Social Medicine and Health Management'),
+   order(1777),
+   active(true),
+   controlling_entries('bg__v')
+);

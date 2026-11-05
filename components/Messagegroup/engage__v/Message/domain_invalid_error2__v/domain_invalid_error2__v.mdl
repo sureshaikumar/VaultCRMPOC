@@ -1,0 +1,6 @@
+Message domain_invalid_error2__v (
+   label(),
+   active(true),
+   default_value('Domain cannot begin or end with a dash.'),
+   system_managed(false)
+);

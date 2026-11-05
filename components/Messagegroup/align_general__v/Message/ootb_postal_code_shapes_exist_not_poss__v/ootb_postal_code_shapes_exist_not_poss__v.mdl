@@ -1,0 +1,6 @@
+Message ootb_postal_code_shapes_exist_not_poss__v (
+   label(),
+   active(true),
+   default_value('Veeva Align already provides postal code shapes for {0} out-of-the-box. It is not possible to use Geo Shape Generator to generate postal codes for {0}.'),
+   system_managed(false)
+);

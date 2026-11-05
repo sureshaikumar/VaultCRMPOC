@@ -1,0 +1,8 @@
+RECREATE Securityprofile vault_owner__v (
+   label('Vault Owner'),
+   active(true),
+   description('System provided security profile for Vault Owners. Users with this profile have rights to perform all actions.'),
+   permission_sets('business_admin_actions__v',
+      'system_admin_actions__v',
+      'vault_owner_actions__v')
+);

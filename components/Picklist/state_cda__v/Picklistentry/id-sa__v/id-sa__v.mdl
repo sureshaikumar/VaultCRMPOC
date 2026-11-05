@@ -1,0 +1,6 @@
+Picklistentry id-sa__v (
+   value('Sulawesi Utara'),
+   order(1950),
+   active(true),
+   controlling_entries('id__v')
+);

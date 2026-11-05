@@ -1,0 +1,7 @@
+Picklistentry cvlii__v (
+   value('Clinical Virology'),
+   order(298),
+   active(true),
+   controlling_entries('bg__v',
+         'kw__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry mc-cl__v (
+   value('La Colle'),
+   order(2853),
+   active(true),
+   controlling_entries('mc__v')
+);

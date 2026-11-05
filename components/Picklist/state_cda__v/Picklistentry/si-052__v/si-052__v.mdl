@@ -1,0 +1,6 @@
+Picklistentry si-052__v (
+   value('Kranj'),
+   order(4026),
+   active(true),
+   controlling_entries('si__v')
+);

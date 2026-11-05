@@ -1,0 +1,6 @@
+Picklistentry de-hh__v (
+   value('Hamburg'),
+   order(909),
+   active(true),
+   controlling_entries('de__v')
+);

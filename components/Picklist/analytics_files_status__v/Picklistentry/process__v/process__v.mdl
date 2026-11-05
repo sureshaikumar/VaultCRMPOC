@@ -1,0 +1,5 @@
+Picklistentry process__v (
+   value('Process'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction completed_state__v.completed_state_entry_action__v (
+   rule(@rule.xml),
+   order(1000)
+);

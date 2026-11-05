@@ -1,0 +1,6 @@
+Message concur_call_to_expense_entry__v (
+   label(),
+   active(true),
+   default_value('Call to Expense Entry'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry er-sk__v (
+   value('Shimālī al Baḩrī al Aḩmar'),
+   order(1190),
+   active(true),
+   controlling_entries('er__v')
+);

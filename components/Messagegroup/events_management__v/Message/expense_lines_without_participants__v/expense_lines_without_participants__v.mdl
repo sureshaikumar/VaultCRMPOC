@@ -1,0 +1,6 @@
+Message expense_lines_without_participants__v (
+   label(),
+   active(true),
+   default_value('Expense Lines Without Participants'),
+   system_managed(false)
+);

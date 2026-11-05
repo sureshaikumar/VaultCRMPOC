@@ -1,0 +1,6 @@
+Message error_invalid_state__v (
+   label(),
+   active(true),
+   default_value('Invalid state: ${state}'),
+   system_managed(false)
+);

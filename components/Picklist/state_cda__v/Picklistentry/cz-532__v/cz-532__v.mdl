@@ -1,0 +1,6 @@
+Picklistentry cz-532__v (
+   value('Pardubice'),
+   order(868),
+   active(true),
+   controlling_entries('cz__v')
+);

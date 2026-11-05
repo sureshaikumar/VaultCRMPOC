@@ -1,0 +1,5 @@
+Picklistentry zoom__v (
+   value('Zoom'),
+   order(2),
+   active(true)
+);

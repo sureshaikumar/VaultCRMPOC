@@ -1,0 +1,8 @@
+RECREATE Pagelayout text_only_template_detail_page_layout__v (
+   active(true),
+   default_layout(false),
+   description('Templated text message meant to be sent on its own.'),
+   display_lifecycle_stages(false),
+   label('Text Only Template Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

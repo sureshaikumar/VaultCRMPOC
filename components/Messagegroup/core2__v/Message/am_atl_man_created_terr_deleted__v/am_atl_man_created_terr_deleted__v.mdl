@@ -1,0 +1,6 @@
+Message am_atl_man_created_terr_deleted__v (
+   label(),
+   active(true),
+   default_value('Manually created Account Territory records associated to the losing and winning account are deleted. Rule-based Account Territory records are re-associated to the winning account.'),
+   system_managed(false)
+);

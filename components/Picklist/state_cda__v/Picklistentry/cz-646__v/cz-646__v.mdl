@@ -1,0 +1,6 @@
+Picklistentry cz-646__v (
+   value('Vyškov'),
+   order(883),
+   active(true),
+   controlling_entries('cz__v')
+);

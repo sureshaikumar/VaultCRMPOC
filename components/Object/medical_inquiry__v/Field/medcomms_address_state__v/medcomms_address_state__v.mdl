@@ -1,0 +1,18 @@
+Field medcomms_address_state__v (
+   label('State'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('MedComms address state field'),
+   list_column(false),
+   order(37),
+   multi_value(false),
+   picklist('Picklist.medical_inquiry_medcomms_address_state__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

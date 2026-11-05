@@ -1,0 +1,6 @@
+Message field_mapping_account_fields__v (
+   label(),
+   active(true),
+   default_value('Account Fields'),
+   system_managed(false)
+);

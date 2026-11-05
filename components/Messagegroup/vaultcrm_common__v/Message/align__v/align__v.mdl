@@ -1,0 +1,6 @@
+Message align__v (
+   label(),
+   active(true),
+   default_value('Align'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry hospitaldepartment__v (
+   value('Hospital Department'),
+   order(9),
+   active(true)
+);

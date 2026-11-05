@@ -1,0 +1,6 @@
+Picklistentry cz-713__v (
+   value('Prostějov'),
+   order(888),
+   active(true),
+   controlling_entries('cz__v')
+);

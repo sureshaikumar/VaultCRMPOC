@@ -1,0 +1,8 @@
+Objectworkflowstep approve_or_reject__c (
+   label('Approve or Reject'),
+   type('contenttask'),
+   next_steps('Objectworkflowstep.decision__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

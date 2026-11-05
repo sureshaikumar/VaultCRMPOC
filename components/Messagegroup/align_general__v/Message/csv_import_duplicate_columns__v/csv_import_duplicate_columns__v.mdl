@@ -1,0 +1,6 @@
+Message csv_import_duplicate_columns__v (
+   label(),
+   active(true),
+   default_value('The header contains duplicate column names'),
+   system_managed(false)
+);

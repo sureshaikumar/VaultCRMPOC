@@ -1,0 +1,6 @@
+Message read_only_page__v (
+   label(),
+   active(true),
+   default_value('This page is read-only.'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist location_type__v (
+   label('Location Type'),
+   active(true),
+   Picklistentry(@Picklistentry/in_office__v.mdl),
+   Picklistentry(@Picklistentry/out_of_office__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

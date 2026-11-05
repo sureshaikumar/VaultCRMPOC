@@ -1,0 +1,6 @@
+Picklistentry lr-rg__v (
+   value('River Gee'),
+   order(2606),
+   active(true),
+   controlling_entries('lr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ru-amu__v (
+   value('Amurskaya oblast'''),
+   order(3793),
+   active(true),
+   controlling_entries('ru__v')
+);

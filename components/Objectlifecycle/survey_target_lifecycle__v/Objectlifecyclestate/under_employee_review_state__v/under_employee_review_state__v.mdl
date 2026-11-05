@@ -1,0 +1,10 @@
+Objectlifecyclestate under_employee_review_state__v (
+   label('Under Employee Review'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('The Coaching Report has been assigned to an Employee to review.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

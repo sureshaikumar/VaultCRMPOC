@@ -1,0 +1,23 @@
+RECREATE Objecttype remote_meeting_integration_settings__v.ms_teams__v (
+   label('Microsoft Teams'),
+   label_plural('Microsoft Teams'),
+   active(true),
+   description('This object stores the integration settings for Microsoft Teams Meetings.'),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/enable_attendance_reporting__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/object_type__v.mdl),
+   Typefield(@Typefield/optional_attendance_reporting_fields__v.mdl),
+   Typefield(@Typefield/status__v.mdl),
+   Typefield(@Typefield/vexternal_id__v.mdl)
+);

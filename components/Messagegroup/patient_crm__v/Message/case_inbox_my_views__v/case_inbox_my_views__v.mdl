@@ -1,0 +1,6 @@
+Message case_inbox_my_views__v (
+   label(),
+   active(true),
+   default_value('My Views'),
+   system_managed(false)
+);

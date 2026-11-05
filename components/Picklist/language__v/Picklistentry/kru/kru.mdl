@@ -1,0 +1,5 @@
+Picklistentry kru (
+   value('Kurukh'),
+   order(229),
+   active(true)
+);

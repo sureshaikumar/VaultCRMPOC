@@ -1,0 +1,5 @@
+Picklistentry snd (
+   value('Sindhi'),
+   order(304),
+   active(true)
+);

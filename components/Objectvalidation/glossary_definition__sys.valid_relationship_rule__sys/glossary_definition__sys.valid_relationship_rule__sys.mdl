@@ -1,0 +1,8 @@
+RECREATE Objectvalidation glossary_definition__sys.valid_relationship_rule__sys (
+   label('Validate Relationship Rule'),
+   active(true),
+   expression('Not(And(glossary_definition_language__sysr.name__v = "English", Not(IsBlank(glossary_related_english_definition__sysr.name__v))))'),
+   description('Prevent saving an English-language record with an outbound relationship to another Definition.'),
+   error_message('English-language definitions cannot have outbound relationships to other definitions.'),
+   error_location('glossary_related_english_definition__sys')
+);

@@ -1,0 +1,12 @@
+RECREATE Picklist expense_attributio_incurred_expense_type__v (
+   label('Incurred Expense Type'),
+   active(true),
+   Picklistentry(@Picklistentry/account__v.mdl),
+   Picklistentry(@Picklistentry/attendee__v.mdl),
+   Picklistentry(@Picklistentry/event_speaker__v.mdl),
+   Picklistentry(@Picklistentry/event_team_member__v.mdl),
+   Picklistentry(@Picklistentry/vendor__v.mdl),
+   Picklistentry(@Picklistentry/venue__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

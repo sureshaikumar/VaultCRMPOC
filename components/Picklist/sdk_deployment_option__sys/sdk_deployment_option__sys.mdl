@@ -1,0 +1,8 @@
+RECREATE Picklist sdk_deployment_option__sys (
+   label('Java SDK Deployment Option'),
+   active(true),
+   Picklistentry(@Picklistentry/replace_all__sys.mdl),
+   Picklistentry(@Picklistentry/delete_all__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,4 @@
+Typefield median_slide_view_order__v (
+   source('standard'),
+   required(false)
+);

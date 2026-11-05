@@ -1,0 +1,8 @@
+Picklistentry cdair__v (
+   value('Cardiovascular Disease'),
+   order(178),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v',
+         'vn__v')
+);

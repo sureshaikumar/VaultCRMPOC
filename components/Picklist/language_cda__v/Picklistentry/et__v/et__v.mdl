@@ -1,0 +1,5 @@
+Picklistentry et__v (
+   value('Estonian'),
+   order(17),
+   active(true)
+);

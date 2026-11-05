@@ -1,0 +1,10 @@
+Vsmvalue lbp__v (
+   label('LBP'),
+   active(true),
+   description('The Lebanese Pound (LBP), the official currency of Lebanon, used for transactions, pricing, and financial records involving Lebanese markets.'),
+   synonyms('Lebanese pound',
+         'Lebanon pound',
+         'LBP'),
+   target('lbp__sys'),
+   target_label('LBP')
+);

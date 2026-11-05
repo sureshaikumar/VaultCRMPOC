@@ -1,0 +1,6 @@
+Picklistentry py-asu__v (
+   value('Asunción'),
+   order(3707),
+   active(true),
+   controlling_entries('py__v')
+);

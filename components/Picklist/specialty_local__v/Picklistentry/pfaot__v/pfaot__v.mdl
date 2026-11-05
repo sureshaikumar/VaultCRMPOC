@@ -1,0 +1,6 @@
+Picklistentry pfaot__v (
+   value('Pathology (Forensic)'),
+   order(1299),
+   active(true),
+   controlling_entries('za__v')
+);

@@ -1,0 +1,18 @@
+Field rl_study_leverage__c (
+   label('RL Study Leverage'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('How likely is the KOL to leverage Restolar study findings in peer discussions?'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.assessment_rl_study_leverage__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

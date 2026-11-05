@@ -1,0 +1,19 @@
+Field attendee__v (
+   label('Attendee'),
+   type('String'),
+   active(true),
+   description('The text of the Person that is selected either in the Account, Contact, or User Lookup.  This is populated by a Trigger on Save.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message mccp_object_type_not_set_err_msg__v (
+   label(),
+   active(true),
+   default_value('Object Type field must be set for {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry australia_perth__sys (
+   value('(GMT+08:00) Australian Western Standard Time (Australia/Perth)'),
+   order(255),
+   active(true)
+);

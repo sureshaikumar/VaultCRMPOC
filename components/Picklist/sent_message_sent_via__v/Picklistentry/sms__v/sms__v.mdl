@@ -1,0 +1,5 @@
+Picklistentry sms__v (
+   value('SMS'),
+   order(0),
+   active(true)
+);

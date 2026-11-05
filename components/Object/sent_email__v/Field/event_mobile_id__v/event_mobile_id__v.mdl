@@ -1,0 +1,19 @@
+Field event_mobile_id__v (
+   label('Event Mobile Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Stores the Mobile ID of the Event from which the Sent Email was initiated'),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

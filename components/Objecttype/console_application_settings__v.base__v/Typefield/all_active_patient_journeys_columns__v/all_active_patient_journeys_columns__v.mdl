@@ -1,0 +1,4 @@
+Typefield all_active_patient_journeys_columns__v (
+   source('standard'),
+   required(false)
+);

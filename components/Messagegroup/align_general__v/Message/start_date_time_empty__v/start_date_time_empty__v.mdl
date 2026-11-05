@@ -1,0 +1,6 @@
+Message start_date_time_empty__v (
+   label(),
+   active(true),
+   default_value('Start Date cannot be empty'),
+   system_managed(false)
+);

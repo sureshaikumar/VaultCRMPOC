@@ -1,0 +1,6 @@
+Picklistentry la-kh__v (
+   value('Khammouan'),
+   order(2518),
+   active(true),
+   controlling_entries('la__v')
+);

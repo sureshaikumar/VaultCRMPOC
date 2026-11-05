@@ -1,0 +1,11 @@
+Picklistentry idnif__v (
+   value('Infectious Disease'),
+   order(755),
+   active(true),
+   controlling_entries('al__v',
+         'in__v',
+         'ke__v',
+         'ng__v',
+         'qa__v',
+         'vn__v')
+);

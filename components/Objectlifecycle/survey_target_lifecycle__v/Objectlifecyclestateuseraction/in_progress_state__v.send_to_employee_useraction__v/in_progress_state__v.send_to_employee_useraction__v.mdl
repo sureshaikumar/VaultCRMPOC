@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction in_progress_state__v.send_to_employee_useraction__v (
+   label('Send to Employee'),
+   rule(@rule.xml),
+   order(2000)
+);

@@ -1,0 +1,6 @@
+Message fax_title_name__v (
+   label(),
+   active(true),
+   default_value('Fax: ${faxName}'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist in_merge__sys (
+   label('In Merge'),
+   active(true),
+   Picklistentry(@Picklistentry/duplicate__sys.mdl),
+   Picklistentry(@Picklistentry/main__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

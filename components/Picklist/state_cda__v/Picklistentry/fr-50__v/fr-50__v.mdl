@@ -1,0 +1,6 @@
+Picklistentry fr-50__v (
+   value('Manche'),
+   order(1366),
+   active(true),
+   controlling_entries('fr__v')
+);

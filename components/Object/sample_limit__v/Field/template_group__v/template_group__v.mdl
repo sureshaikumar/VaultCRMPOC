@@ -1,0 +1,19 @@
+Field template_group__v (
+   label('Template Group'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content('To allow customers to separate sample templates by sharing rules for profiles/user groups'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

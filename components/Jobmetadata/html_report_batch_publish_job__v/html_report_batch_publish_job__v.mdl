@@ -1,0 +1,12 @@
+RECREATE Jobmetadata html_report_batch_publish_job__v (
+   label('Html Report Batch Publish Job'),
+   active(true),
+   chunk_size(1),
+   description('A batch job that publishes attached content of HTML Report records'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.myinsights.jobs.HtmlReportBatchPublishJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

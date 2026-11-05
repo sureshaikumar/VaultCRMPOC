@@ -1,0 +1,6 @@
+Message application_profile_plural__v (
+   label(),
+   active(true),
+   default_value('Application Profiles'),
+   system_managed(false)
+);

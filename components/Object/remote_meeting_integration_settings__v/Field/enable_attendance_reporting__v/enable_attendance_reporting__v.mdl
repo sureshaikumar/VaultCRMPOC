@@ -1,0 +1,18 @@
+Field enable_attendance_reporting__v (
+   label('Enable Attendance Reporting'),
+   type('Boolean'),
+   active(true),
+   description('When TRUE, this field enables the remote meeting attendance reporting process to run.'),
+   required(false),
+   checkbox(true),
+   help_content('When TRUE, this field enables the remote meeting attendance reporting process to run.'),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

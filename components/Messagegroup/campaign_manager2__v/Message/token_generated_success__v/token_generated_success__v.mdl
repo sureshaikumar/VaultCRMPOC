@@ -1,0 +1,6 @@
+Message token_generated_success__v (
+   label(),
+   active(true),
+   default_value('Token generated. Copy it now and store it somewhere safe.'),
+   system_managed(false)
+);

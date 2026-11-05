@@ -1,0 +1,6 @@
+Picklistentry it-is__v (
+   value('Isernia'),
+   order(2215),
+   active(true),
+   controlling_entries('it__v')
+);

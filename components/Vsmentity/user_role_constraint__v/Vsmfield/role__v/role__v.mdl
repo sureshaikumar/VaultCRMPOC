@@ -1,0 +1,14 @@
+Vsmfield role__v (
+   label('Role'),
+   active(true),
+   description('The Vault role associated with this constraint, defining what permissions or access level is being restricted or scoped for the user. Use this field to filter constraints by a specific role or to find all users constrained under a particular role.'),
+   example_values(),
+   synonyms('assigned role',
+         'vault role',
+         'permission role',
+         'role assignment'),
+   target('role__v'),
+   target_label('Role'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

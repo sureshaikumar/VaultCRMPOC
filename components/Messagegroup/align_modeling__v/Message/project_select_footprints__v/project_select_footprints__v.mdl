@@ -1,0 +1,6 @@
+Message project_select_footprints__v (
+   label(),
+   active(true),
+   default_value('Select Footprints'),
+   system_managed(false)
+);

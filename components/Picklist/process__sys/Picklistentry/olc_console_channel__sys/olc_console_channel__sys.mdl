@@ -1,0 +1,5 @@
+Picklistentry olc_console_channel__sys (
+   value('Console Channel'),
+   order(20),
+   active(true)
+);

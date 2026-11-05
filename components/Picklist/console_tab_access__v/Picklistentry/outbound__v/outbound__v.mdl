@@ -1,0 +1,5 @@
+Picklistentry outbound__v (
+   value('Outbound'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry che__sys (
+   value('CHE'),
+   order(37),
+   active(true)
+);

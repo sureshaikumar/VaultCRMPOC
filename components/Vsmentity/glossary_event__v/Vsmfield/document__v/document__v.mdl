@@ -1,0 +1,14 @@
+Vsmfield document__v (
+   label('Document'),
+   active(true),
+   description('Reference to the Vault document associated with this glossary event. Use this to identify which document was being viewed or searched when the glossary lookup occurred.'),
+   example_values(),
+   synonyms('doc',
+         'linked document',
+         'associated document',
+         'bound document'),
+   target('document__v'),
+   target_label('Document'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

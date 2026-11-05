@@ -1,0 +1,6 @@
+Message closed_lost__v (
+   label(),
+   active(true),
+   default_value('Closed (Lost)'),
+   system_managed(false)
+);

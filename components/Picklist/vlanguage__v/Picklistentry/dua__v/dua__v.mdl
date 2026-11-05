@@ -1,0 +1,5 @@
+Picklistentry dua__v (
+   value('Duala'),
+   order(79),
+   active(false)
+);

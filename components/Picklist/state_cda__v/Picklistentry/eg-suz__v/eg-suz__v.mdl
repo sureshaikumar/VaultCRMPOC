@@ -1,0 +1,6 @@
+Picklistentry eg-suz__v (
+   value('As Suways'),
+   order(1183),
+   active(true),
+   controlling_entries('eg__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lv-099__v (
+   value('Tukuma novads'),
+   order(2730),
+   active(true),
+   controlling_entries('lv__v')
+);

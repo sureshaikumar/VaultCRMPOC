@@ -1,0 +1,19 @@
+Field ai_source__v (
+   label('AI Source'),
+   type('String'),
+   active(true),
+   description('Stamps the Name of the AI Agent responsible for creating the Call.'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(238),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

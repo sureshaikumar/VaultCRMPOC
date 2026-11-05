@@ -1,0 +1,8 @@
+RECREATE Objectaction aln_territory_model__v.challenge__v (
+   label('Challenge'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.align.actions.ChallengeAction'),
+   active(true),
+   available_all_states(true)
+);

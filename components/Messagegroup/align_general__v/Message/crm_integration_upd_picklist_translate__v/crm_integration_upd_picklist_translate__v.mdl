@@ -1,0 +1,6 @@
+Message crm_integration_upd_picklist_translate__v (
+   label(),
+   active(true),
+   default_value('Successfully updated the picklist label translations.'),
+   system_managed(false)
+);

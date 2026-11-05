@@ -1,0 +1,6 @@
+Picklistentry ru-sa__v (
+   value('Sakha, Respublika [Yakutiya]'),
+   order(3847),
+   active(true),
+   controlling_entries('ru__v')
+);

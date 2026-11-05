@@ -1,0 +1,6 @@
+Picklistentry cd-kn__v (
+   value('Kinshasa'),
+   order(583),
+   active(true),
+   controlling_entries('cd__v')
+);

@@ -1,0 +1,23 @@
+Field atl_mode__v (
+   label('ATL Mode'),
+   type('Number'),
+   active(true),
+   description('0 or null = classic ATL mode that fully masters manual territory assignments for an Account. Each ATL record insert or update will initially delete all Territories with AccountShare.RowCause=TerritoryManual for the Account, and subsequently insert only th'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

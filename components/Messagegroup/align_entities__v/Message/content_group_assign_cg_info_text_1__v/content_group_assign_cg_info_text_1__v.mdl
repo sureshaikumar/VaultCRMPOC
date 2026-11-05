@@ -1,0 +1,6 @@
+Message content_group_assign_cg_info_text_1__v (
+   label(),
+   active(true),
+   default_value('Assign this Content Group by populating one or both of the following fields:'),
+   system_managed(false)
+);

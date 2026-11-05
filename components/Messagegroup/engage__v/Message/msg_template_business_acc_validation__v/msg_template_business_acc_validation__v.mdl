@@ -1,0 +1,6 @@
+Message msg_template_business_acc_validation__v (
+   label(),
+   active(true),
+   default_value('Message Template and Messaging Business Account are required fields.'),
+   system_managed(false)
+);

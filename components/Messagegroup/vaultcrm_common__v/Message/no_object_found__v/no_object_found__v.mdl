@@ -1,0 +1,6 @@
+Message no_object_found__v (
+   label(),
+   active(true),
+   default_value('No ${object_plural_label} found'),
+   system_managed(false)
+);

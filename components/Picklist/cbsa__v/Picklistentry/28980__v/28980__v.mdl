@@ -1,0 +1,5 @@
+Picklistentry 28980__v (
+   value('Kodiak, AK Micropolitan Statistical Area'),
+   order(270),
+   active(true)
+);

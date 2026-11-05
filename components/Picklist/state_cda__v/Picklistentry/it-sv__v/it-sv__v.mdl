@@ -1,0 +1,6 @@
+Picklistentry it-sv__v (
+   value('Savona'),
+   order(2263),
+   active(true),
+   controlling_entries('it__v')
+);

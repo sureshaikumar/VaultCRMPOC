@@ -1,0 +1,6 @@
+Picklistentry pqahu__v (
+   value('Pharmacy Quality Assurance'),
+   order(1527),
+   active(true),
+   controlling_entries('hu__v')
+);

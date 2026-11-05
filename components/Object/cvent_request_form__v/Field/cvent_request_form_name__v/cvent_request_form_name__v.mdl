@@ -1,0 +1,19 @@
+Field cvent_request_form_name__v (
+   label('Cvent Request Form Name'),
+   type('String'),
+   active(true),
+   description('Stores the Cvent Request Form Name.'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

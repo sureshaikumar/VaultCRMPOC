@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.business_event_task__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="business_event__v" />
+            <vault:field reference="business_event_target__v" />
+            <vault:field reference="task_status__v" />
+            <vault:field reference="task_type__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="completed_date__v" />
+            <vault:field reference="completed_by__v" />
+            <vault:field reference="adverse_event_reported__v" />
+            <vault:field reference="channel__v" />
+            <vault:field reference="call2__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="child_account__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

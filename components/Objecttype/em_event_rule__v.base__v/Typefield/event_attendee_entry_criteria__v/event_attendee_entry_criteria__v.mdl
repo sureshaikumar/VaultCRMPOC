@@ -1,0 +1,4 @@
+Typefield event_attendee_entry_criteria__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message permission_missing_performance_data__v (
+   label(),
+   active(true),
+   default_value('You do not have the necessary permissions to view the performance data'),
+   system_managed(false)
+);

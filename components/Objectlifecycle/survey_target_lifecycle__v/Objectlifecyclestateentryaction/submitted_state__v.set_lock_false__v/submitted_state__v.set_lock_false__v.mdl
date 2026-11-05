@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction submitted_state__v.set_lock_false__v (
+   rule(@rule.xml),
+   order(2000)
+);

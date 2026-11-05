@@ -1,0 +1,6 @@
+Message om_delivery__v (
+   label(),
+   active(true),
+   default_value('Delivery ${delivery_rank}'),
+   system_managed(false)
+);

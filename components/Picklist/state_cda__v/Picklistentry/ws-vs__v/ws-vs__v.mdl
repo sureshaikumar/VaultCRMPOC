@@ -1,0 +1,6 @@
+Picklistentry ws-vs__v (
+   value('Vaisigano'),
+   order(4994),
+   active(true),
+   controlling_entries('ws__v')
+);

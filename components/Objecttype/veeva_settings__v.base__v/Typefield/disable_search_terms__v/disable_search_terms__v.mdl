@@ -1,0 +1,4 @@
+Typefield disable_search_terms__v (
+   source('standard'),
+   required(false)
+);

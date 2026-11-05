@@ -1,0 +1,5 @@
+Picklistentry ampy__v (
+   value('Addiction Psychiatry'),
+   order(2),
+   active(true)
+);

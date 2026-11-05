@@ -1,0 +1,13 @@
+RECREATE Picklist aln_manage_crm_features__v (
+   label('Manage CRM Features'),
+   active(true),
+   Picklistentry(@Picklistentry/application_roles__v.mdl),
+   Picklistentry(@Picklistentry/groups__v.mdl),
+   Picklistentry(@Picklistentry/security_tree__v.mdl),
+   Picklistentry(@Picklistentry/engage__v.mdl),
+   Picklistentry(@Picklistentry/preferences__v.mdl),
+   Picklistentry(@Picklistentry/content_groups_and_membership__v.mdl),
+   Picklistentry(@Picklistentry/engage_connect__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

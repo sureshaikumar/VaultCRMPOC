@@ -1,0 +1,6 @@
+Picklistentry ls-j__v (
+   value('Mokhotlong'),
+   order(2617),
+   active(true),
+   controlling_entries('ls__v')
+);

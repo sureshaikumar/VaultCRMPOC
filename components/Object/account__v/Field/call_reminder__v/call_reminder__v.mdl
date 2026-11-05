@@ -1,0 +1,19 @@
+Field call_reminder__v (
+   label('Call Reminder'),
+   type('String'),
+   active(true),
+   description('The contents of this field are displayed on every call against this account in the zvod_Account_Call_Reminder_vod_c_vod location.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

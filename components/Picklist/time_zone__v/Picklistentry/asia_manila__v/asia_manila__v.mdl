@@ -1,0 +1,5 @@
+Picklistentry asia_manila__v (
+   value('Philippine Time'),
+   order(18),
+   active(true)
+);

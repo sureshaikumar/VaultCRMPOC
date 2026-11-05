@@ -1,0 +1,15 @@
+Subtab sample_order_transactions__c (
+   active(true),
+   all_view_label('All Sample Order Transactions'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Sample Order Transactions'),
+   modal_create_record(false),
+   my_view_label('My Sample Order Transactions'),
+   object('sample_order_transaction__v'),
+   order(200),
+   parent('sample_management__c'),
+   prevent_create(false),
+   recent_view_label('Recent Sample Order Transactions')
+);

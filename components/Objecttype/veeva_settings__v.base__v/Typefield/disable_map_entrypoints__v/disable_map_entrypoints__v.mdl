@@ -1,0 +1,4 @@
+Typefield disable_map_entrypoints__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,4 @@
+Typefield response_number__sys (
+   source('standard'),
+   required(false)
+);

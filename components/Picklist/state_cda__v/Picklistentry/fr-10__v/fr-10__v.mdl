@@ -1,0 +1,6 @@
+Picklistentry fr-10__v (
+   value('Aube'),
+   order(1324),
+   active(true),
+   controlling_entries('fr__v')
+);

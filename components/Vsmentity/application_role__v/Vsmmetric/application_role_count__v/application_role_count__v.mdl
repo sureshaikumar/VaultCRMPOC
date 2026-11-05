@@ -1,0 +1,11 @@
+Vsmmetric application_role_count__v (
+   label('Application Role Count'),
+   active(true),
+   description('Total number of application roles defined in the system. Use this to understand the breadth of role configurations, audit access control structures, or summarize role assignments across the Vault.'),
+   instructions('Count all application_role__v records in the current query scope.'),
+   synonyms('number of application roles',
+         'how many application roles',
+         'total application roles',
+         'count of roles'),
+   target_fields('id')
+);

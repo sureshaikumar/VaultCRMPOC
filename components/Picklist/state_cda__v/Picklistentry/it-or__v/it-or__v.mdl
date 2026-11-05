@@ -1,0 +1,6 @@
+Picklistentry it-or__v (
+   value('Oristano'),
+   order(2234),
+   active(true),
+   controlling_entries('it__v')
+);

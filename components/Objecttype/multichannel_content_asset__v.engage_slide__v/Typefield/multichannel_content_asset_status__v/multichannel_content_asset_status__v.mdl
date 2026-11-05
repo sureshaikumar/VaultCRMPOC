@@ -1,0 +1,7 @@
+Typefield multichannel_content_asset_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.multichannel_content_asset_status__v.approved__v',
+         'Picklist.multichannel_content_asset_status__v.expired__v',
+         'Picklist.multichannel_content_asset_status__v.staged__v')
+);

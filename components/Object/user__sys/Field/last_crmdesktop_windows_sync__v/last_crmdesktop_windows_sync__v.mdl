@@ -1,0 +1,17 @@
+Field last_crmdesktop_windows_sync__v (
+   label('Last CRM Desktop Windows Sync'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('This field is stamped by CRM Desktop.'),
+   list_column(false),
+   order(107),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

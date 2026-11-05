@@ -1,0 +1,6 @@
+Message vmi_validation_message_footer__v (
+   label(),
+   active(true),
+   default_value('Here are the potential problems found:'),
+   system_managed(false)
+);

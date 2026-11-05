@@ -1,0 +1,8 @@
+Actionsecurity aln_feedback_manager__v.execute__v.action_security__c (
+   label('Feedback Manager-Execute'),
+   active(true),
+   role('Objectlifecyclerole.aln_feedback_manager__v'),
+   type('execute__v'),
+   object_actions('Objectaction.aln_territory_model__v.view__v'),
+   lifecycle_actions()
+);

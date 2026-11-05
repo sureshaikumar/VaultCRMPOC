@@ -1,0 +1,18 @@
+Field rush_delivery__v (
+   label('Rush Delivery'),
+   type('Boolean'),
+   active(true),
+   description('Rush Delivery is an example of a field that can be leveraged on Medical Inquiry.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(49),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry version__v (
+   value('Specific document version'),
+   order(2),
+   active(true)
+);

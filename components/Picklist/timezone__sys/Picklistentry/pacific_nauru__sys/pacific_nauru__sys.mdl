@@ -1,0 +1,5 @@
+Picklistentry pacific_nauru__sys (
+   value('(GMT+12:00) Nauru Time (Pacific/Nauru)'),
+   order(306),
+   active(true)
+);

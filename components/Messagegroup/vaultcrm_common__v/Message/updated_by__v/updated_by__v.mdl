@@ -1,0 +1,6 @@
+Message updated_by__v (
+   label(),
+   active(true),
+   default_value('Updated By'),
+   system_managed(false)
+);

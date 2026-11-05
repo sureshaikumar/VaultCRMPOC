@@ -1,0 +1,6 @@
+Picklistentry es-co__v (
+   value('Córdoba'),
+   order(1210),
+   active(true),
+   controlling_entries('es__v')
+);

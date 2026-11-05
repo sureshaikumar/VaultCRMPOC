@@ -1,0 +1,18 @@
+Field collect_patient_journey_details__v (
+   label('Collect Patient Journey Details'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the patient intake process includes Patient Journey Details and if following patient enrollment the Patient Journey Details section appears within the Key Journey Details helper tab when viewing the Patient Overview or Task Cases.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(true),
+   order(25),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

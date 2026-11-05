@@ -1,0 +1,6 @@
+Picklistentry oartn__v (
+   value('Oncology and Radiation Therapy'),
+   order(1119),
+   active(true),
+   controlling_entries('gh__v')
+);

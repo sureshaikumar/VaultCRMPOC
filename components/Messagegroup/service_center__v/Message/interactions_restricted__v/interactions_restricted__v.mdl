@@ -1,0 +1,6 @@
+Message interactions_restricted__v (
+   label(),
+   active(true),
+   default_value('All interactions with this Account have been restricted.'),
+   system_managed(false)
+);

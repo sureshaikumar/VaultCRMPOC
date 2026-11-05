@@ -1,0 +1,6 @@
+Message potential_warning_no_internet__v (
+   label(),
+   active(true),
+   default_value('Potential Rule violations can not be checked at this time as there is no internet connection'),
+   system_managed(false)
+);

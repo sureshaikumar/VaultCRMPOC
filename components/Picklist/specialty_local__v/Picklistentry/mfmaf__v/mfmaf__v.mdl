@@ -1,0 +1,8 @@
+Picklistentry mfmaf__v (
+   value('Maternal-Fetal Medicine'),
+   order(888),
+   active(true),
+   controlling_entries('au__v',
+         'ca__v',
+         'sk__v')
+);

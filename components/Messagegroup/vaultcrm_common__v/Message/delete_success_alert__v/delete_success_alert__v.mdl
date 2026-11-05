@@ -1,0 +1,6 @@
+Message delete_success_alert__v (
+   label(),
+   active(true),
+   default_value('Successfully deleted {0}'),
+   system_managed(false)
+);

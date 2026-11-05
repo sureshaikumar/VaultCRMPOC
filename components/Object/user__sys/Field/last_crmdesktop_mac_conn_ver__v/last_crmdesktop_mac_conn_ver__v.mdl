@@ -1,0 +1,19 @@
+Field last_crmdesktop_mac_conn_ver__v (
+   label('Last CRM Desktop Mac Connect Version'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(133),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

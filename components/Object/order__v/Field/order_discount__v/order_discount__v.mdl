@@ -1,0 +1,23 @@
+Field order_discount__v (
+   label('Order Discount'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Also gets its value from an order level pricing rule, but can be changed by the user'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(4),
+   help_content(),
+   list_column(false),
+   order(43),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

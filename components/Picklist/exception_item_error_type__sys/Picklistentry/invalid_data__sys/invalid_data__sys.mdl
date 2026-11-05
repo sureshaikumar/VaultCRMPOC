@@ -1,0 +1,5 @@
+Picklistentry invalid_data__sys (
+   value('INVALID_DATA'),
+   order(1),
+   active(true)
+);

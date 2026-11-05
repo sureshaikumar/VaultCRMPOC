@@ -1,0 +1,5 @@
+Picklistentry state__v (
+   value('State'),
+   order(9),
+   active(true)
+);

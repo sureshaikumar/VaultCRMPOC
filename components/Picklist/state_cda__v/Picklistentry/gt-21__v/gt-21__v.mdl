@@ -1,0 +1,6 @@
+Picklistentry gt-21__v (
+   value('Jalapa'),
+   order(1800),
+   active(true),
+   controlling_entries('gt__v')
+);

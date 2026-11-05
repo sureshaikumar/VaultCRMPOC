@@ -1,0 +1,6 @@
+Picklistentry az-qab__v (
+   value('Qəbələ'),
+   order(179),
+   active(true),
+   controlling_entries('az__v')
+);

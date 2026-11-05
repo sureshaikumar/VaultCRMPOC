@@ -1,0 +1,5 @@
+Picklistentry 47460__v (
+   value('Walla Walla, WA Micropolitan Statistical Area'),
+   order(255),
+   active(true)
+);

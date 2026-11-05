@@ -1,0 +1,6 @@
+Picklistentry hospi__v (
+   value('Hospice'),
+   order(714),
+   active(true),
+   controlling_entries('us__v')
+);

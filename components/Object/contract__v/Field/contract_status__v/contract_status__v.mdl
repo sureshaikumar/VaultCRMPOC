@@ -1,0 +1,19 @@
+Field contract_status__v (
+   label('Contract Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Stores and shows the status of the contract.'),
+   list_column(false),
+   order(30),
+   multi_value(false),
+   picklist('Picklist.contract_status__v'),
+   default_value('{draft__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

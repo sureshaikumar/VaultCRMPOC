@@ -1,0 +1,6 @@
+Message mccp_feedback_approve__v (
+   label(),
+   active(true),
+   default_value('Approve'),
+   system_managed(false)
+);

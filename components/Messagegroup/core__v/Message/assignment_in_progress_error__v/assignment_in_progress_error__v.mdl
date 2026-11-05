@@ -1,0 +1,6 @@
+Message assignment_in_progress_error__v (
+   label(),
+   active(true),
+   default_value('Assignment Rules are currently being run against a part of territory hierarchy that overlaps with the "${territory_name}" branch. Please wait until they have completed to perform this action. '),
+   system_managed(false)
+);

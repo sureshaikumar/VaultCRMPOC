@@ -1,0 +1,20 @@
+Field search_outside_territory__v (
+   label('Search Outside My Territory'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('True: Allow user to search outside my territory.
+False: Don''t allow user to search outside my territory.
+Default: False'),
+   list_column(false),
+   order(28),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

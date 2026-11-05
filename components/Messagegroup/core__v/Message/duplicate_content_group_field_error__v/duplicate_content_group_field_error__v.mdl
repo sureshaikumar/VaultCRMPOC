@@ -1,0 +1,6 @@
+Message duplicate_content_group_field_error__v (
+   label(),
+   active(true),
+   default_value('Content Group with duplicate ${duplicate_field} already exists'),
+   system_managed(false)
+);

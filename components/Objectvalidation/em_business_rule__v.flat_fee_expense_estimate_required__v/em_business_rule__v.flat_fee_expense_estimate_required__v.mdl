@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule__v.flat_fee_expense_estimate_required__v (
+   label('Flat Fee Expense Required'),
+   active(true),
+   expression('object_type__vr.api_name__v != "expense_estimate_flat_fee_rule__v" || Not(IsBlank(flat_fee_expense__v))'),
+   description('Valid input for flat_fee_expense__v is not added to the Flat Fee Expense Estimate Creation Rule.'),
+   error_message('This field is required.'),
+   error_location('flat_fee_expense__v')
+);

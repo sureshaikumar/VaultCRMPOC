@@ -1,0 +1,6 @@
+Message filter_is_after__v (
+   label(),
+   active(true),
+   default_value('is after'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field allow_quantity_exceptions__v (
+   label('Allow Quantity Exceptions'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the appropriate actions when a user attempts to submit an order for a quantity that exceeds their current allocation.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.inventory_orde_allow_quantity_exceptions__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield agent_flagged_phrase__v (
+   source('standard'),
+   required(false)
+);

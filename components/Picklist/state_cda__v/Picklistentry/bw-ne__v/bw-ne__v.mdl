@@ -1,0 +1,6 @@
+Picklistentry bw-ne__v (
+   value('North East'),
+   order(540),
+   active(true),
+   controlling_entries('bw__v')
+);

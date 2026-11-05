@@ -1,0 +1,6 @@
+Message journey_duration_subheader__v (
+   label(),
+   active(true),
+   default_value('This journey will be active from'),
+   system_managed(false)
+);

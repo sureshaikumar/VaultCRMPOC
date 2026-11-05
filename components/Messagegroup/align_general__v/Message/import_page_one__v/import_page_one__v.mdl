@@ -1,0 +1,6 @@
+Message import_page_one__v (
+   label(),
+   active(true),
+   default_value('Page 1 of 3'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+Objectlifecyclepermission checklist_respondent_read__sys (
+   states('Objectlifecyclestate.completed_state__sys',
+         'Objectlifecyclestate.in_progress_state__sys',
+         'Objectlifecyclestate.inactive_state__sys',
+         'Objectlifecyclestate.not_started_state__sys'),
+   role('Objectlifecyclerole.checklist_respondent__sys'),
+   permission('Read')
+);

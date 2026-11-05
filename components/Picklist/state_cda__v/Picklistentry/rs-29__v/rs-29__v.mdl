@@ -1,0 +1,6 @@
+Picklistentry rs-29__v (
+   value('Kosovsko-Pomoravski okrug'),
+   order(3787),
+   active(true),
+   controlling_entries('rs__v')
+);

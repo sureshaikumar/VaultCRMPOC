@@ -1,0 +1,22 @@
+Field team_channel_interactions_max__v (
+   label('Team Channel Interactions Max'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999.99),
+   min_value(0),
+   scale(2),
+   help_content('Maximum number of interactions a team can earn for a Target from all channel activities. This provides the ability to cap the interactions Earned for the Target as a whole (eg. cannot exceed 100% attainment).'),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

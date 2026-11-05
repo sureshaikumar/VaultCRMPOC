@@ -1,0 +1,23 @@
+Picklistentry cplaj__v (
+   value('Clinical Pathology'),
+   order(263),
+   active(true),
+   controlling_entries('ad__v',
+         'ae__v',
+         'am__v',
+         'ao__v',
+         'bh__v',
+         'bw__v',
+         'es__v',
+         'id__v',
+         'is__v',
+         'ke__v',
+         'kw__v',
+         'na__v',
+         'pt__v',
+         'rs__v',
+         'sa__v',
+         'se__v',
+         'th__v',
+         'tw__v')
+);

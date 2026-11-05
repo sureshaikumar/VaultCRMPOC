@@ -1,0 +1,5 @@
+Picklistentry 26460__v (
+   value('Hudson, NY Micropolitan Statistical Area'),
+   order(795),
+   active(true)
+);

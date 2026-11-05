@@ -1,0 +1,7 @@
+Typefield walk_in_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.event_attendee_walk_in_type__v.non_prescriber__v',
+         'Picklist.event_attendee_walk_in_type__v.other__v',
+         'Picklist.event_attendee_walk_in_type__v.prescriber__v')
+);

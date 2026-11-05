@@ -1,0 +1,14 @@
+RECREATE Page approved_notes_administration_page__v (
+   label('Approved Notes Admin'),
+   active(true),
+   client_distribution(),
+   default_client_code('approved_notes_administration_page__v'),
+   description('Approved Notes Administration page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.approvednotes.controls.ApprovedNotesAdminPageController'),
+   url_path_name('approved-notes-administration')
+);

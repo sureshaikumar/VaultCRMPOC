@@ -1,0 +1,12 @@
+RECREATE Picklist report_run_type__sys (
+   label('Report Run Type'),
+   active(true),
+   Picklistentry(@Picklistentry/click_and_run__sys.mdl),
+   Picklistentry(@Picklistentry/flash_report__sys.mdl),
+   Picklistentry(@Picklistentry/run_in_background__sys.mdl),
+   Picklistentry(@Picklistentry/dashboard__sys.mdl),
+   Picklistentry(@Picklistentry/ad_hoc__sys.mdl),
+   Picklistentry(@Picklistentry/export__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

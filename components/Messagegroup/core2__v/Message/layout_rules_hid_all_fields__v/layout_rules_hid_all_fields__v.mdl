@@ -1,0 +1,6 @@
+Message layout_rules_hid_all_fields__v (
+   label(),
+   active(true),
+   default_value('All contents are hidden through rules set by your administrator. Please contact your administrator for assistance.'),
+   system_managed(false)
+);

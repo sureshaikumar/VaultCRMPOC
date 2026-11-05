@@ -1,0 +1,6 @@
+Picklistentry bg-21__v (
+   value('Smolyan'),
+   order(393),
+   active(true),
+   controlling_entries('bg__v')
+);

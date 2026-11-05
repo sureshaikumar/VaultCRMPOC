@@ -1,0 +1,6 @@
+Message dial_pad__v (
+   label(),
+   active(true),
+   default_value('Dial Pad'),
+   system_managed(false)
+);

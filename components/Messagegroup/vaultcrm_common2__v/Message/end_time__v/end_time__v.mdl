@@ -1,0 +1,6 @@
+Message end_time__v (
+   label(),
+   active(true),
+   default_value('End Time'),
+   system_managed(false)
+);

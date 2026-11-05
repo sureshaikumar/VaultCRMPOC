@@ -1,0 +1,4 @@
+Typefield notebook_client_url__v (
+   source('standard'),
+   required(false)
+);

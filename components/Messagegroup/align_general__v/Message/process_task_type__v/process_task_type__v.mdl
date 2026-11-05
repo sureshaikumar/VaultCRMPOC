@@ -1,0 +1,6 @@
+Message process_task_type__v (
+   label(),
+   active(true),
+   default_value('Process Type'),
+   system_managed(false)
+);

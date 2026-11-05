@@ -1,0 +1,4 @@
+Typefield strategic_planning__c (
+   source('standard'),
+   required(false)
+);

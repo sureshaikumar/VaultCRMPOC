@@ -1,0 +1,5 @@
+Picklistentry ky__v (
+   value('KY'),
+   order(20),
+   active(true)
+);

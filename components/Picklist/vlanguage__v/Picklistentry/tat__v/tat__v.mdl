@@ -1,0 +1,5 @@
+Picklistentry tat__v (
+   value('Tatar'),
+   order(313),
+   active(false)
+);

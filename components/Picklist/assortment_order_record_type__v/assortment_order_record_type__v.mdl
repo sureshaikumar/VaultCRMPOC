@@ -1,0 +1,8 @@
+RECREATE Picklist assortment_order_record_type__v (
+   label('Order Record Type'),
+   active(true),
+   Picklistentry(@Picklistentry/direct__v.mdl),
+   Picklistentry(@Picklistentry/transfer__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

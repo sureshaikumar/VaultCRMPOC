@@ -1,0 +1,5 @@
+Picklistentry ceb (
+   value('Cebuano'),
+   order(46),
+   active(true)
+);

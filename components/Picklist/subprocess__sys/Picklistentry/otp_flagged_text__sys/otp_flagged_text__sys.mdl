@@ -1,0 +1,6 @@
+Picklistentry otp_flagged_text__sys (
+   value('Flagged Text'),
+   order(74),
+   active(true),
+   controlling_entries('olc_monitored_text__sys')
+);

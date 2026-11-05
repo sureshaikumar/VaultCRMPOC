@@ -1,0 +1,10 @@
+RECREATE Tab account_merge_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Merge Accounts'),
+   order(7100),
+   page('Page.account_merge_page__v'),
+   parent(),
+   url(@url.txt)
+);

@@ -1,0 +1,6 @@
+Picklistentry tr-17__v (
+   value('Çanakkale'),
+   order(4475),
+   active(true),
+   controlling_entries('tr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry mga__sys (
+   value('MGA'),
+   order(114),
+   active(true)
+);

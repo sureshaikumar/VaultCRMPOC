@@ -1,0 +1,6 @@
+Message manage_accounts__v (
+   label(),
+   active(true),
+   default_value('Manage accounts'),
+   system_managed(false)
+);

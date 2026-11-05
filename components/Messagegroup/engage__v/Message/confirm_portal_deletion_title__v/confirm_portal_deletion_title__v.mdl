@@ -1,0 +1,6 @@
+Message confirm_portal_deletion_title__v (
+   label(),
+   active(true),
+   default_value('Confirm Portal Deletion'),
+   system_managed(false)
+);

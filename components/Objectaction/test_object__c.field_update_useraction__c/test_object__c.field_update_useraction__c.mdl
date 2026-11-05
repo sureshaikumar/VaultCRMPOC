@@ -1,0 +1,8 @@
+RECREATE Objectaction test_object__c.field_update_useraction__c (
+   label('Field Update UserAction'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.custom.actions.FieldUpdateRecordUserAction'),
+   active(true),
+   available_all_states(false)
+);

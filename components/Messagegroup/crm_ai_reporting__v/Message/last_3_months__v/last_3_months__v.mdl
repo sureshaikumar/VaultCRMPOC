@@ -1,0 +1,6 @@
+Message last_3_months__v (
+   label(),
+   active(true),
+   default_value('Last 3 months'),
+   system_managed(false)
+);

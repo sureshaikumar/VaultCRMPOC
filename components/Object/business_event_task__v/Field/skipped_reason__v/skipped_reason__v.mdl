@@ -1,0 +1,20 @@
+Field skipped_reason__v (
+   label('Skipped Reason'),
+   type('Picklist'),
+   active(true),
+   description('Defines the reason why the task was not completed'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(25),
+   multi_value(false),
+   picklist('Picklist.task_skipped_reason__v'),
+   controlling_picklist('task_status__v'),
+   picklist_dependencies('{"skipped__v":["other__v","could_not_meet_with_hcp__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

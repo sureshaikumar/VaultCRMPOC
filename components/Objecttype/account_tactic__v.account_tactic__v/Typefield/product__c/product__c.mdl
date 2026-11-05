@@ -1,0 +1,7 @@
+Typefield product__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_tactic_product__c.cholecap__c',
+         'Picklist.account_tactic_product__c.labrinone__c',
+         'Picklist.account_tactic_product__c.restolar__c')
+);

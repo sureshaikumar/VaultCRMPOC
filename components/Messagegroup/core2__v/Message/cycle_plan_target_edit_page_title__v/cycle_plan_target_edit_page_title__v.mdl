@@ -1,0 +1,6 @@
+Message cycle_plan_target_edit_page_title__v (
+   label(),
+   active(true),
+   default_value('Edit Target Account: ${account_name}'),
+   system_managed(false)
+);

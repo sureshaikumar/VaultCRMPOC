@@ -1,0 +1,6 @@
+Picklistentry mz-g__v (
+   value('Gaza'),
+   order(3289),
+   active(true),
+   controlling_entries('mz__v')
+);

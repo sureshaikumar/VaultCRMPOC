@@ -1,0 +1,6 @@
+Message manage_consent_optional__v (
+   label(),
+   active(true),
+   default_value('Manage Consent (optional)'),
+   system_managed(false)
+);

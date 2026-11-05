@@ -1,0 +1,5 @@
+Picklistentry signature_disabled__v (
+   value('Signature Disabled'),
+   order(0),
+   active(true)
+);

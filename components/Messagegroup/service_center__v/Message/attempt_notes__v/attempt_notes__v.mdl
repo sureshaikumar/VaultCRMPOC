@@ -1,0 +1,6 @@
+Message attempt_notes__v (
+   label(),
+   active(true),
+   default_value('Attempt Notes'),
+   system_managed(false)
+);

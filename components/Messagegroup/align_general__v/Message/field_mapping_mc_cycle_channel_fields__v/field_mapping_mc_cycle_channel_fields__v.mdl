@@ -1,0 +1,6 @@
+Message field_mapping_mc_cycle_channel_fields__v (
+   label(),
+   active(true),
+   default_value('MC Cycle Channel Fields'),
+   system_managed(false)
+);

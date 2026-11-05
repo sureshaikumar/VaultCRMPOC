@@ -1,0 +1,4 @@
+Typefield source_connection_record_reference__sys (
+   source('standard'),
+   required(true)
+);

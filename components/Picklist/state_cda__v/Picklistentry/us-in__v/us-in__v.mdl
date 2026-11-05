@@ -1,0 +1,6 @@
+Picklistentry us-in__v (
+   value('Indiana'),
+   order(4808),
+   active(true),
+   controlling_entries('us__v')
+);

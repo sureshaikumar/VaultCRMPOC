@@ -1,0 +1,6 @@
+Message faxes_sent_in_past_30_days__v (
+   label(),
+   active(true),
+   default_value('Faxes Sent in Past 30 Days'),
+   system_managed(false)
+);

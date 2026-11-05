@@ -1,0 +1,6 @@
+Picklistentry hr-19__v (
+   value('Dubrovačko-neretvanska županija'),
+   order(1860),
+   active(true),
+   controlling_entries('hr__v')
+);

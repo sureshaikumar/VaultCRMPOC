@@ -1,0 +1,4 @@
+Typefield text_monitoring_block_save__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,19 @@
+Field dynamic_attribute_value_text__v (
+   label('Dynamic Attribute Value (Text)'),
+   type('String'),
+   active(true),
+   description('This field holds the Dynamic Attribute value if the record type of the Dynamic Attribute Configuration record is Text_vod.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Vsmrelationship application_role__v (
+   label('Application Role'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The application role associated with this user role assignment, defining the set of permissions and access rights granted. Use this to filter user roles by role name or type (e.g., application_role__sysr.name__v = ''Vault Owner'').'),
+   join_object(),
+   synonyms('app role',
+         'role',
+         'assigned role',
+         'permission role'),
+   target('application_role__sysr'),
+   target_label('Application Role'),
+   target_object('application_role__v')
+);

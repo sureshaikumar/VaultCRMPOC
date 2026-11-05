@@ -1,0 +1,5 @@
+Picklistentry asia_seoul__v (
+   value('Korean Time'),
+   order(14),
+   active(true)
+);

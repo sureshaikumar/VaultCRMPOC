@@ -1,0 +1,6 @@
+Picklistentry mc-co__v (
+   value('La Condamine'),
+   order(2854),
+   active(true),
+   controlling_entries('mc__v')
+);

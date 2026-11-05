@@ -1,0 +1,4 @@
+Typefield monitored_text_status__v (
+   source('standard'),
+   required(false)
+);

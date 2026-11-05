@@ -1,0 +1,20 @@
+Field personotherphone__v (
+   label('Other Phone'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('Other Phone'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(115),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

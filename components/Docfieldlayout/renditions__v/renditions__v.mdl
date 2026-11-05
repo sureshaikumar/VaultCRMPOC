@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout renditions__v (
+   label('Renditions'),
+   active(true),
+   icon('UNDEFINED'),
+   order(17),
+   fields(),
+   show_in_edit_mode(false),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_files__sys')
+);

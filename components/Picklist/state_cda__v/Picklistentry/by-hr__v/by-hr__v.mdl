@@ -1,0 +1,6 @@
+Picklistentry by-hr__v (
+   value('Hrodna Region'),
+   order(549),
+   active(true),
+   controlling_entries('by__v')
+);

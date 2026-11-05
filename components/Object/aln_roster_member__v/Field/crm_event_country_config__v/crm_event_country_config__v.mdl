@@ -1,0 +1,19 @@
+Field crm_event_country_config__v (
+   label('CRM Event Country Config'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content('Contains two parameters: default country ISO Code (2) for Veeva EM creation, and a value (0 or 1) indicating if the user can change the country. If 0, they cannot, and if 1, they can.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

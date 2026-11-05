@@ -1,0 +1,19 @@
+Field mobile_id__v (
+   label('Mobile Id'),
+   type('String'),
+   active(true),
+   description('The Mobile Id of the Medical Discussion record.'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message assignment_cascade_in_progress_message__v (
+   label(),
+   active(true),
+   default_value('Updating {0} and assignments.'),
+   system_managed(false)
+);

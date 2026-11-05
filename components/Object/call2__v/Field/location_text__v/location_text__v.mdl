@@ -1,0 +1,19 @@
+Field location_text__v (
+   label('Location'),
+   type('String'),
+   active(true),
+   description('This field stores the text value of the zvod_Business_Account_vod__c. This field should not be displayed on the Page Layout.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(87),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

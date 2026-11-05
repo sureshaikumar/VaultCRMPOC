@@ -1,0 +1,9 @@
+RECREATE Picklist source_version_binding_rule__v (
+   label('Source Binding Rule'),
+   active(true),
+   Picklistentry(@Picklistentry/latest__v.mdl),
+   Picklistentry(@Picklistentry/steady_state__v.mdl),
+   Picklistentry(@Picklistentry/version__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

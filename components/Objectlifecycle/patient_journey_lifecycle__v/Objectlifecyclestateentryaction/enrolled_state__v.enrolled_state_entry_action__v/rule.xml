@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.patient_journey_association__v.enrolled__v</targetField>
+            <expression>TRUE</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.patient_journey_association__v.is_discontinued__v</targetField>
+            <expression>FALSE</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

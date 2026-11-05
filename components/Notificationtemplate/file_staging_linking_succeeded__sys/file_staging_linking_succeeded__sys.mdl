@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate file_staging_linking_succeeded__sys (
+   label('File Staging Linking Succeeded'),
+   active(true),
+   description('Notification sent when File Staging linking succeeded'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: File Staging linking has succeeded'),
+   notification('<p>The File Staging linking has completed successfully.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry 34060__v (
+   value('Morgantown, WV Metropolitan Statistical Area'),
+   order(133),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field product__v (
+   label('Product'),
+   type('String'),
+   active(true),
+   description('The Product for which the Inquiry Text pertains to on the associated Medical Inquiry request.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

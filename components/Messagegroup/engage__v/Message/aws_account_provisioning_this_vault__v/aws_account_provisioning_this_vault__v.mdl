@@ -1,0 +1,6 @@
+Message aws_account_provisioning_this_vault__v (
+   label(),
+   active(true),
+   default_value('AWS Account Currently Provisioning'),
+   system_managed(false)
+);

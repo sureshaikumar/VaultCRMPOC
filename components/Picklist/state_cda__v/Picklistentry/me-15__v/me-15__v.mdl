@@ -1,0 +1,6 @@
+Picklistentry me-15__v (
+   value('Plužine'),
+   order(2921),
+   active(true),
+   controlling_entries('me__v')
+);

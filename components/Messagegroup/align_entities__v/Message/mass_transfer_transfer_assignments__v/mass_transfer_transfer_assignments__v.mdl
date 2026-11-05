@@ -1,0 +1,6 @@
+Message mass_transfer_transfer_assignments__v (
+   label(),
+   active(true),
+   default_value('Transfer {0} assignment ({1})'),
+   system_managed(false)
+);

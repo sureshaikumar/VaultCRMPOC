@@ -1,0 +1,8 @@
+RECREATE Picklist rule_object_header_status__v (
+   label('Rule Object Header Status'),
+   active(true),
+   Picklistentry(@Picklistentry/enabled__v.mdl),
+   Picklistentry(@Picklistentry/disabled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

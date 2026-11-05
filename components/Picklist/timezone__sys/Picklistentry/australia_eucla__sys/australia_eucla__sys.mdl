@@ -1,0 +1,5 @@
+Picklistentry australia_eucla__sys (
+   value('(GMT+08:45) Central Western Time (Australia/Eucla)'),
+   order(268),
+   active(true)
+);

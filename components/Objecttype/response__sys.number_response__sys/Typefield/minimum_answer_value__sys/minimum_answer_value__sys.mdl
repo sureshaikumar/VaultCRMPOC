@@ -1,0 +1,4 @@
+Typefield minimum_answer_value__sys (
+   source('system'),
+   required(true)
+);

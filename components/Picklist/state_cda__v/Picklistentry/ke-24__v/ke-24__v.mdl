@@ -1,0 +1,6 @@
+Picklistentry ke-24__v (
+   value('Mandera'),
+   order(2377),
+   active(true),
+   controlling_entries('ke__v')
+);

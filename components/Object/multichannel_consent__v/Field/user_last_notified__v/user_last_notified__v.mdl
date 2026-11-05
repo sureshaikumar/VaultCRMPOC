@@ -1,0 +1,17 @@
+Field user_last_notified__v (
+   label('User Last Notified'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('User_Last_Notified_vod__v contains the datetime of when the User has been notified that an Account has been verified'),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

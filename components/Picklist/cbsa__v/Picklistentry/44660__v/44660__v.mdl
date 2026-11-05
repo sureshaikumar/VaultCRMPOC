@@ -1,0 +1,5 @@
+Picklistentry 44660__v (
+   value('Stillwater, OK Micropolitan Statistical Area'),
+   order(816),
+   active(true)
+);

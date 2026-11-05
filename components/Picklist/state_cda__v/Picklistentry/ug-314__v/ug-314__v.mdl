@@ -1,0 +1,6 @@
+Picklistentry ug-314__v (
+   value('Abim'),
+   order(4719),
+   active(true),
+   controlling_entries('ug__v')
+);

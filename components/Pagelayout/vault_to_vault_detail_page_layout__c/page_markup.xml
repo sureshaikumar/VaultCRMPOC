@@ -1,0 +1,63 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.connection__sys.vault_to_vault__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="api_name__sys" />
+            <vault:field reference="remote_vault_id__sys" />
+            <vault:field reference="description__sys" />
+            <vault:field reference="authorized_connection_user__sys" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="certificate_id__sys" />
+            <vault:field reference="system_managed__sys" />
+            <vault:field reference="supports_crosslinks__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Remote Vault Details" name="remote_vault__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="remote_vault_name__sys" />
+            <vault:field reference="remote_contact_name__sys" />
+            <vault:field reference="remote_domain_name__sys" />
+            <vault:field reference="remote_contact_email__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+    <vault:section title="Integrations" name="integrations_section__c">
+        <vault:relatedObject relationship="integration__sysr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="integration_api_name__sys" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Reference Lookups" name="reference_lookups_section__c">
+        <vault:uiwidget name="reference_lookup_widget__sys" />
+    </vault:section>
+    <vault:section title="Connection Client" name="connection_client__c">
+        <vault:relatedObject relationship="connection_client__sysr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="connection__sys" width="200px" />
+            <vault:field reference="client_id__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="state__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Connection Stats" name="connection_stats__c">
+        <vault:relatedObject relationship="connection_stats__sysr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="connection__sys" width="200px" />
+            <vault:field reference="messages_sent__sys" width="200px" />
+            <vault:field reference="messages_received__sys" width="200px" />
+            <vault:field reference="messages_failed__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

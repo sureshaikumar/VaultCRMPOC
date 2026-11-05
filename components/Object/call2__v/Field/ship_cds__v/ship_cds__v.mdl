@@ -1,0 +1,19 @@
+Field ship_cds__v (
+   label('Ship CDS #'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content('The CDS registration number for the corresponding state of the ship to address.'),
+   list_column(false),
+   order(115),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

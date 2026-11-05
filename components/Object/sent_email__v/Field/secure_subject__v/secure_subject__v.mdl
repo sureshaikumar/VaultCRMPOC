@@ -1,0 +1,19 @@
+Field secure_subject__v (
+   label('Secure Subject'),
+   type('String'),
+   active(true),
+   description('Securely captures the subject of the email.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(true),
+   order(111),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

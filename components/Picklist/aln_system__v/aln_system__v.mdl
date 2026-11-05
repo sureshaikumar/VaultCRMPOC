@@ -1,0 +1,8 @@
+RECREATE Picklist aln_system__v (
+   label('System'),
+   active(true),
+   Picklistentry(@Picklistentry/align__v.mdl),
+   Picklistentry(@Picklistentry/crm__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry splse__v (
+   value('Sleep Psychiatry'),
+   order(1775),
+   active(true),
+   controlling_entries('th__v')
+);

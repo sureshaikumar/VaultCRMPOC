@@ -1,0 +1,6 @@
+Message mccp_feedback_no_exclusions__v (
+   label(),
+   active(true),
+   default_value('No exclusions'),
+   system_managed(false)
+);

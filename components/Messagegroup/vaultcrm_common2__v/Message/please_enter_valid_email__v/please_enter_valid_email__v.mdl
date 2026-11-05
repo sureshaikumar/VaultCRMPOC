@@ -1,0 +1,6 @@
+Message please_enter_valid_email__v (
+   label(),
+   active(true),
+   default_value('Please enter a valid email address'),
+   system_managed(false)
+);

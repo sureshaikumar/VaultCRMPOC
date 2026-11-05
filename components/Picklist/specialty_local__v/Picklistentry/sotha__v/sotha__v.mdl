@@ -1,0 +1,6 @@
+Picklistentry sotha__v (
+   value('Surgery of the Heart and Main Vessels'),
+   order(1815),
+   active(true),
+   controlling_entries('ua__v')
+);

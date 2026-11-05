@@ -1,0 +1,10 @@
+Vsmvalue scr__v (
+   label('SCR'),
+   active(true),
+   description('Applies when transactions are denominated in the Seychellois Rupee, the official currency of the Seychelles.'),
+   synonyms('Seychellois rupee',
+         'Seychelles currency',
+         'rupee'),
+   target('scr__sys'),
+   target_label('SCR')
+);

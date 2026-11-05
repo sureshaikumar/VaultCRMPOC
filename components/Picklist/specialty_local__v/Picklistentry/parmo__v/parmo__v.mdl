@@ -1,0 +1,6 @@
+Picklistentry parmo__v (
+   value('Pulmonology and Respiratory Medicine Occupational and Environmental Pulmonary'),
+   order(1659),
+   active(true),
+   controlling_entries('id__v')
+);

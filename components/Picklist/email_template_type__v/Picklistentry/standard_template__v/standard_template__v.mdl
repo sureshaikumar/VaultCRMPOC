@@ -1,0 +1,5 @@
+Picklistentry standard_template__v (
+   value('Standard Template'),
+   order(0),
+   active(true)
+);

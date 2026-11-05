@@ -1,0 +1,11 @@
+RECREATE Picklist mc_cycle_channel_channel_object__v (
+   label('Channel Object'),
+   active(true),
+   Picklistentry(@Picklistentry/call2__v.mdl),
+   Picklistentry(@Picklistentry/sent_email__v.mdl),
+   Picklistentry(@Picklistentry/multichannel_activity__v.mdl),
+   Picklistentry(@Picklistentry/event_attendee__v.mdl),
+   Picklistentry(@Picklistentry/em_attendee__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

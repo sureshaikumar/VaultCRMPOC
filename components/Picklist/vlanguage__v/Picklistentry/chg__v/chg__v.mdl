@@ -1,0 +1,5 @@
+Picklistentry chg__v (
+   value('Chagatai'),
+   order(51),
+   active(false)
+);

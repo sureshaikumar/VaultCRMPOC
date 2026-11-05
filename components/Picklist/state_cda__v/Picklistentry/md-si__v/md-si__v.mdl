@@ -1,0 +1,6 @@
+Picklistentry md-si__v (
+   value('Sîngerei'),
+   order(2899),
+   active(true),
+   controlling_entries('md__v')
+);

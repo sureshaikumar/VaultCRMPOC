@@ -1,0 +1,6 @@
+Picklistentry si-199__v (
+   value('Mokronog-Trebelno'),
+   order(4172),
+   active(true),
+   controlling_entries('si__v')
+);

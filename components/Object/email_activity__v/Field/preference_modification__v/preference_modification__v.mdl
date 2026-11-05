@@ -1,0 +1,17 @@
+Field preference_modification__v (
+   label('Preference Modification'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Used to store the type of preference modification that resulted from the related sent email'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

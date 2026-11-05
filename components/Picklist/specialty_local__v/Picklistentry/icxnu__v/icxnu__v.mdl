@@ -1,0 +1,6 @@
+Picklistentry icxnu__v (
+   value('Intensive Care Nursing'),
+   order(771),
+   active(true),
+   controlling_entries('ee__v')
+);

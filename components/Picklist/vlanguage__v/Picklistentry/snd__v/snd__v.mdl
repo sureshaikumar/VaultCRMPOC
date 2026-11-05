@@ -1,0 +1,5 @@
+Picklistentry snd__v (
+   value('Sindhi'),
+   order(287),
+   active(false)
+);

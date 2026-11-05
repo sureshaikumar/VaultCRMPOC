@@ -1,0 +1,4 @@
+<control>
+    <bind property="text" value="" />
+    <bind property="url" value="" />
+</control>

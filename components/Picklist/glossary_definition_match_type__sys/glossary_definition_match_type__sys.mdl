@@ -1,0 +1,9 @@
+RECREATE Picklist glossary_definition_match_type__sys (
+   label('Glossary Definition Match Type'),
+   active(true),
+   Picklistentry(@Picklistentry/precise__sys.mdl),
+   Picklistentry(@Picklistentry/fuzzy__sys.mdl),
+   Picklistentry(@Picklistentry/none__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

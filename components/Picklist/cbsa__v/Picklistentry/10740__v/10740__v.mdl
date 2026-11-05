@@ -1,0 +1,5 @@
+Picklistentry 10740__v (
+   value('Albuquerque, NM Metropolitan Statistical Area'),
+   order(526),
+   active(true)
+);

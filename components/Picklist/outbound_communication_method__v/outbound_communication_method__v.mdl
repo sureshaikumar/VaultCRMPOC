@@ -1,0 +1,8 @@
+RECREATE Picklist outbound_communication_method__v (
+   label('Outbound Communication Method'),
+   active(true),
+   Picklistentry(@Picklistentry/fax__v.mdl),
+   Picklistentry(@Picklistentry/email__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry box__v (
+   value('Box'),
+   order(2),
+   active(true)
+);

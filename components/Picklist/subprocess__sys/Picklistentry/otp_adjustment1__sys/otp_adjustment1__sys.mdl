@@ -1,0 +1,6 @@
+Picklistentry otp_adjustment1__sys (
+   value('Adjustment'),
+   order(5),
+   active(true),
+   controlling_entries('olc_sample_transaction__sys')
+);

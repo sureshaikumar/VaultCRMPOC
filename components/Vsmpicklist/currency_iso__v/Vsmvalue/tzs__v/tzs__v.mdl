@@ -1,0 +1,9 @@
+Vsmvalue tzs__v (
+   label('TZS'),
+   active(true),
+   description('Applies when transactions are denominated in the Tanzanian Shilling, the official currency of Tanzania.'),
+   synonyms('Tanzanian shilling',
+         'Tanzania currency'),
+   target('tzs__sys'),
+   target_label('TZS')
+);

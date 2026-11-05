@@ -1,0 +1,6 @@
+Picklistentry uy-cl__v (
+   value('Cerro Largo'),
+   order(4850),
+   active(true),
+   controlling_entries('uy__v')
+);

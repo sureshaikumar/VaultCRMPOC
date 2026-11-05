@@ -1,0 +1,5 @@
+Picklistentry mc_cycle__v (
+   value('MC Cycle'),
+   order(9),
+   active(false)
+);

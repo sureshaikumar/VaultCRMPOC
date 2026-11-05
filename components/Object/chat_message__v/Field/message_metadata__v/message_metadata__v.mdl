@@ -1,0 +1,17 @@
+Field message_metadata__v (
+   label('Message Metadata'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Metadata used for certain types of messages. Will not always be populated.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

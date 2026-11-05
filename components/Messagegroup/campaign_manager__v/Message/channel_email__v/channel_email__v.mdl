@@ -1,0 +1,6 @@
+Message channel_email__v (
+   label(),
+   active(true),
+   default_value('Email'),
+   system_managed(false)
+);

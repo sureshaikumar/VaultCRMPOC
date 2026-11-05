@@ -1,0 +1,4 @@
+Typefield last_inventory_monitoring_date__v (
+   source('standard'),
+   required(false)
+);

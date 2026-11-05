@@ -1,0 +1,5 @@
+Picklistentry ewo (
+   value('Ewondo'),
+   order(176),
+   active(true)
+);

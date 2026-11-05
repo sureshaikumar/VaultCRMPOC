@@ -1,0 +1,6 @@
+Message notebook__v (
+   label(),
+   active(true),
+   default_value('Notebook'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 35700__v (
+   value('Nogales, AZ Micropolitan Statistical Area'),
+   order(358),
+   active(true)
+);

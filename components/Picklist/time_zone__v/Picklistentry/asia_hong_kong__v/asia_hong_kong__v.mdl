@@ -1,0 +1,5 @@
+Picklistentry asia_hong_kong__v (
+   value('Hong Kong Time'),
+   order(16),
+   active(true)
+);

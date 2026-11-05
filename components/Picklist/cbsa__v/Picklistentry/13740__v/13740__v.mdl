@@ -1,0 +1,5 @@
+Picklistentry 13740__v (
+   value('Billings, MT Metropolitan Statistical Area'),
+   order(883),
+   active(true)
+);

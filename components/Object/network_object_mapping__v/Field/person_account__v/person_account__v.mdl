@@ -1,0 +1,19 @@
+Field person_account__v (
+   label('Person Account'),
+   type('Boolean'),
+   active(true),
+   description('Flag for Person Account mappings. Should be set to True for the following mappings:
+HCP - Account, HCP Address - Address, HCP Licence - Address, Parent HCO for HCP - Child Account'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

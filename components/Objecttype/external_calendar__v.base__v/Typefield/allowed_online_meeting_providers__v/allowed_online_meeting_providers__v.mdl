@@ -1,0 +1,4 @@
+Typefield allowed_online_meeting_providers__v (
+   source('standard'),
+   required(false)
+);

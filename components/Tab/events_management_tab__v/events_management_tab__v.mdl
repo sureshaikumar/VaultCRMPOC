@@ -1,0 +1,12 @@
+RECREATE Tab events_management_tab__v (
+   active(true),
+   all_view_label('All Events'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Events Management'),
+   my_view_label('My Events Management'),
+   object('em_event__v'),
+   order(2100),
+   parent(),
+   recent_view_label('Recent Events')
+);

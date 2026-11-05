@@ -1,0 +1,19 @@
+Field related_transaction_id__v (
+   label('Related Transaction ID'),
+   type('String'),
+   active(true),
+   description('Stores the Mobile ID or the SFDC ID of the transaction that initiated the Sent Email'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

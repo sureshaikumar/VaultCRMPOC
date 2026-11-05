@@ -1,0 +1,18 @@
+Field allow_remote_clm__v (
+   label('Allow Remote CLM'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates this presentation is allowed to be used in a Remote CLM session'),
+   list_column(false),
+   order(37),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

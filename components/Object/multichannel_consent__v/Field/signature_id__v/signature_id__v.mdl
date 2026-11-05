@@ -1,0 +1,19 @@
+Field signature_id__v (
+   label('Paper Consent ID'),
+   type('String'),
+   active(true),
+   description('Signature_ID_vod captures the Paper Consent ID should a signature be captured on paper instead of electronically. Placing this field on the layout associated to the Approved_Email_vod record type will render the field during the Opt-In process.'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

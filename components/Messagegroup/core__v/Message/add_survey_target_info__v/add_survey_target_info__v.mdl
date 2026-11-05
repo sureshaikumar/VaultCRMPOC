@@ -1,0 +1,6 @@
+Message add_survey_target_info__v (
+   label(),
+   active(true),
+   default_value('Select an account to view available survey templates. Then, select a survey template to add a survey target.'),
+   system_managed(false)
+);

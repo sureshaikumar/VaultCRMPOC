@@ -1,0 +1,6 @@
+Picklistentry az-yev__v (
+   value('Yevlax (Rayon)'),
+   order(212),
+   active(true),
+   controlling_entries('az__v')
+);

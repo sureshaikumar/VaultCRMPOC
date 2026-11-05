@@ -1,0 +1,6 @@
+Message delete_object__v (
+   label(),
+   active(true),
+   default_value('Delete ${object_name}'),
+   system_managed(false)
+);

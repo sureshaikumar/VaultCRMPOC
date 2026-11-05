@@ -1,0 +1,4 @@
+Typefield sms_connection_status__v (
+   source('standard'),
+   required(false)
+);

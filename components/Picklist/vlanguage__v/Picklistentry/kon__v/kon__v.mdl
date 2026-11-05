@@ -1,0 +1,5 @@
+Picklistentry kon__v (
+   value('Kongo'),
+   order(172),
+   active(false)
+);

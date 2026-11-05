@@ -1,0 +1,6 @@
+Message common_back_to_page__v (
+   label(),
+   active(true),
+   default_value('Back to {0}'),
+   system_managed(false)
+);

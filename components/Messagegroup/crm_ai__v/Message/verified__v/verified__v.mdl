@@ -1,0 +1,6 @@
+Message verified__v (
+   label(),
+   active(true),
+   default_value('Verified'),
+   system_managed(false)
+);

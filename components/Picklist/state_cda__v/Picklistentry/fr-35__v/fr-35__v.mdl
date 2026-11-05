@@ -1,0 +1,6 @@
+Picklistentry fr-35__v (
+   value('Ille-et-Vilaine'),
+   order(1351),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry africa_nairobi__v (
+   value('East Africa Time'),
+   order(38),
+   active(true)
+);

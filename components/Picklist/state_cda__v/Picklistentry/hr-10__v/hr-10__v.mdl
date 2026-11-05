@@ -1,0 +1,6 @@
+Picklistentry hr-10__v (
+   value('Virovitičko-podravska županija'),
+   order(1851),
+   active(true),
+   controlling_entries('hr__v')
+);

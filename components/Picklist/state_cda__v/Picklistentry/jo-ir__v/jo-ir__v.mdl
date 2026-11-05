@@ -1,0 +1,6 @@
+Picklistentry jo-ir__v (
+   value('Irbid'),
+   order(2301),
+   active(true),
+   controlling_entries('jo__v')
+);

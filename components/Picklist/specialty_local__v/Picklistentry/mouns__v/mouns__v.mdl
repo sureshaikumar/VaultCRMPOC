@@ -1,0 +1,6 @@
+Picklistentry mouns__v (
+   value('Musculoskeletal Oncology'),
+   order(983),
+   active(true),
+   controlling_entries('th__v')
+);

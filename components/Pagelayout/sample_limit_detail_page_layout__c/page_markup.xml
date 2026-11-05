@@ -1,0 +1,44 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.sample_limit__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account_types__v" />
+            <vault:field reference="disable_txn_create__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="disbursed_amount__v" />
+            <vault:field reference="disbursed_quantity__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="enforce_limit__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="group_id__v" />
+            <vault:field reference="limit_amount__v" />
+            <vault:field reference="limit_per_call__v" />
+            <vault:field reference="limit_quantity__v" />
+            <vault:field reference="merge_conflict_id__v" />
+            <vault:field reference="merged__v" />
+            <vault:field reference="original_account_id__v" />
+            <vault:field reference="rolling_period__v" />
+            <vault:field reference="sample_limit_type__v" />
+            <vault:field reference="split_period__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="template_group__v" />
+            <vault:field reference="template_in_use__v" />
+            <vault:field reference="template_unique_key__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="remaining_amount__v" />
+            <vault:field reference="remaining_quantity__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

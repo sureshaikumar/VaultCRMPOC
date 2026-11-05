@@ -1,0 +1,16 @@
+RECREATE Picklist assessment_tumor_types__c (
+   label('Tumor Types'),
+   active(true),
+   Picklistentry(@Picklistentry/breast__c.mdl),
+   Picklistentry(@Picklistentry/bone__c.mdl),
+   Picklistentry(@Picklistentry/colon__c.mdl),
+   Picklistentry(@Picklistentry/kidney__c.mdl),
+   Picklistentry(@Picklistentry/liver__c.mdl),
+   Picklistentry(@Picklistentry/lung__c.mdl),
+   Picklistentry(@Picklistentry/stomach__c.mdl),
+   Picklistentry(@Picklistentry/pancreas__c.mdl),
+   Picklistentry(@Picklistentry/prostate__c.mdl),
+   Picklistentry(@Picklistentry/ovary_uterus_cervix__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

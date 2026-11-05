@@ -1,0 +1,6 @@
+Message ctav_error_login__v (
+   label(),
+   active(true),
+   default_value('Login to target Vault CRM failed: ${error}'),
+   system_managed(false)
+);

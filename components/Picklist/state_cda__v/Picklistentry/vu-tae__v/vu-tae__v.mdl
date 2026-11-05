@@ -1,0 +1,6 @@
+Picklistentry vu-tae__v (
+   value('Taféa'),
+   order(4979),
+   active(true),
+   controlling_entries('vu__v')
+);

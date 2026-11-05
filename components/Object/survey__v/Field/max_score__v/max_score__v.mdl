@@ -1,0 +1,22 @@
+Field max_score__v (
+   label('Maximum Possible Score'),
+   type('Number'),
+   active(true),
+   description('Maximum possible score on a survey.'),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(-9223372036854775808),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

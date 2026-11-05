@@ -1,0 +1,6 @@
+Message concur_export_csv__v (
+   label(),
+   active(true),
+   default_value('Export CSV'),
+   system_managed(false)
+);

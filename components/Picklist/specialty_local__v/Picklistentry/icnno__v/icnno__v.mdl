@@ -1,0 +1,6 @@
+Picklistentry icnno__v (
+   value('Infection Control Nursing'),
+   order(753),
+   active(true),
+   controlling_entries('ee__v')
+);

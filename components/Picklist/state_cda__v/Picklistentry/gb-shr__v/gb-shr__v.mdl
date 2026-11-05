@@ -1,0 +1,6 @@
+Picklistentry gb-shr__v (
+   value('Shropshire'),
+   order(1618),
+   active(true),
+   controlling_entries('gb__v')
+);

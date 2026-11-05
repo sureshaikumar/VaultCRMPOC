@@ -1,0 +1,6 @@
+Message mccp_cycle_lifespan_greater_than_limit__v (
+   label(),
+   active(true),
+   default_value('New MC Cycle length cannot exceed 500 days.'),
+   system_managed(false)
+);

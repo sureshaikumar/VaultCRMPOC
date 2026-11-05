@@ -1,0 +1,4 @@
+Typefield product_attainment__v (
+   source('custom'),
+   required(false)
+);

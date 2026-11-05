@@ -1,0 +1,6 @@
+Message vault_crm_instance_failed_save_cred__v (
+   label(),
+   active(true),
+   default_value('Failed to save credentials'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message cannot_change_owner_group__v (
+   label(),
+   active(true),
+   default_value('The Owner Group cannot be changed once the Team is provisioned. Manage membership within the CRM Group record.'),
+   system_managed(false)
+);

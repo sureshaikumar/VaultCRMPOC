@@ -1,0 +1,5 @@
+Picklistentry 36700__v (
+   value('Orangeburg, SC Micropolitan Statistical Area'),
+   order(495),
+   active(true)
+);

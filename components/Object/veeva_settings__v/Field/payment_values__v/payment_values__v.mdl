@@ -1,0 +1,19 @@
+Field payment_values__v (
+   label('Payment Values'),
+   type('String'),
+   active(true),
+   description('Used to drive the allowed values that will be visible by the user in the fields Payment_vod__c, Payment_Group_vod__c, Payment_Brand_vod__c at the Order Line level, and Payment_vod__c at the Order Header level.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(250),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

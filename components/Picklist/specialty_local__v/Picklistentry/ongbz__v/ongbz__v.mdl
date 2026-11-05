@@ -1,0 +1,6 @@
+Picklistentry ongbz__v (
+   value('Obstetrics & Gynecology'),
+   order(1079),
+   active(true),
+   controlling_entries('ph__v')
+);

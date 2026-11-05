@@ -1,0 +1,6 @@
+Picklistentry lu-ca__v (
+   value('Capellen'),
+   order(2689),
+   active(true),
+   controlling_entries('lu__v')
+);

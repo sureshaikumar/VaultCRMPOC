@@ -1,0 +1,6 @@
+Message model_dialog_num_geo_terr_assignments__v (
+   label(),
+   active(true),
+   default_value('Model Geography Territory Assignments'),
+   system_managed(false)
+);

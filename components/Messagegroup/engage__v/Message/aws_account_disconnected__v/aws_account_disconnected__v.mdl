@@ -1,0 +1,6 @@
+Message aws_account_disconnected__v (
+   label(),
+   active(true),
+   default_value('This AWS account has been disconnected.'),
+   system_managed(false)
+);

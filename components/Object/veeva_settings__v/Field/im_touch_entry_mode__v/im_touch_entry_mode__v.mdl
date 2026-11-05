@@ -1,0 +1,23 @@
+Field im_touch_entry_mode__v (
+   label('Inventory Monitoring Touch Entry Mode'),
+   type('Number'),
+   active(true),
+   description('Determines the IM entry mode behavior on touch devices: 0 = no change, 1 = Mass Add, 2 = Save Valid Lines, 3 = Mass Add and Save Valid Lines, 4 = Contract Products Mass Add (saves valid lines only)'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(193),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

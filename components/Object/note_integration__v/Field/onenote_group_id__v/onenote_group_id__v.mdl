@@ -1,0 +1,19 @@
+Field onenote_group_id__v (
+   label('OneNote Group ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('UUID of the Microsoft Group used to add users to the OneNote Notebook for case notes.'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Typefield mc_cycle_plan_target_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.mc_cycle_plan_target_status__v.active__v',
+         'Picklist.mc_cycle_plan_target_status__v.merged__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry extended__v (
+   value('Extended'),
+   order(2),
+   active(true)
+);

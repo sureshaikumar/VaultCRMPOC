@@ -1,0 +1,6 @@
+Picklistentry es-lo__v (
+   value('La Rioja'),
+   order(1227),
+   active(true),
+   controlling_entries('es__v')
+);

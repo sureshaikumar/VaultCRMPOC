@@ -1,0 +1,8 @@
+Typefield consent_expires_in__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.consent_type_consent_expires_in__v.end_of_calendar_year__v',
+         'Picklist.consent_type_consent_expires_in__v.end_of_next_calendar_year__v',
+         'Picklist.consent_type_consent_expires_in__v.one_year__v',
+         'Picklist.consent_type_consent_expires_in__v.custom_duration__v')
+);

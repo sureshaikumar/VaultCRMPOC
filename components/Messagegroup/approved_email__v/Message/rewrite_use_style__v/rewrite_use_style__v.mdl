@@ -1,0 +1,6 @@
+Message rewrite_use_style__v (
+   label(),
+   active(true),
+   default_value('Use this Style'),
+   system_managed(false)
+);

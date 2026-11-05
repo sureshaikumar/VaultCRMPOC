@@ -1,0 +1,6 @@
+Message field_mapping_conflict__v (
+   label(),
+   active(true),
+   default_value('${field_mapping_object_label} conflicts with existing ${field_mapping_object_label} records.'),
+   system_managed(false)
+);

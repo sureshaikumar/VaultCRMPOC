@@ -1,0 +1,18 @@
+Field flagged_text__v (
+   label('Flagged Text'),
+   type('Picklist'),
+   active(true),
+   description('If True, the agent found issues. If False Positive, the agent found issues but a human reviewer did not agree. If False Negative, the agent did not find issues but a human reviewer did not agree.'),
+   required(false),
+   unique(false),
+   help_content('Indicates when Text Monitoring for Home Office Agent found issues'),
+   list_column(false),
+   order(33),
+   multi_value(false),
+   picklist('Picklist.issues_found__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

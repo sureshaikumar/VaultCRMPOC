@@ -1,0 +1,18 @@
+Field signature_required_on_opt_out__v (
+   label('Signature Required On Opt-Out'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Flag used to determine if Signature/ Paper Consent ID is required if only opt outs are being captured'),
+   list_column(false),
+   order(17),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

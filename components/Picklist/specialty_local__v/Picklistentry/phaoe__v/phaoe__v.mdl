@@ -1,0 +1,6 @@
+Picklistentry phaoe__v (
+   value('Pediatric Haematology and Oncology'),
+   order(1383),
+   active(true),
+   controlling_entries('my__v')
+);

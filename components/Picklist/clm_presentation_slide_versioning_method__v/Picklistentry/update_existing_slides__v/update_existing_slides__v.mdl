@@ -1,0 +1,5 @@
+Picklistentry update_existing_slides__v (
+   value('Update Existing Slides'),
+   order(1),
+   active(true)
+);

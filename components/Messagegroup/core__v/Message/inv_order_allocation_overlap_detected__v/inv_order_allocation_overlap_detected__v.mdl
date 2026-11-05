@@ -1,0 +1,6 @@
+Message inv_order_allocation_overlap_detected__v (
+   label(),
+   active(true),
+   default_value('Overlap detected with ${id}.'),
+   system_managed(false)
+);

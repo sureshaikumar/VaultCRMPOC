@@ -1,0 +1,6 @@
+Message next_check_in__v (
+   label(),
+   active(true),
+   default_value('Next Check-In'),
+   system_managed(false)
+);

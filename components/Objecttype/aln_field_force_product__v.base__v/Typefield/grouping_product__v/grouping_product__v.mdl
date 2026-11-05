@@ -1,0 +1,4 @@
+Typefield grouping_product__v (
+   source('standard'),
+   required(false)
+);

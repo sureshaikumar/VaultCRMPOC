@@ -1,0 +1,6 @@
+Picklistentry si-140__v (
+   value('Vrhnika'),
+   order(4114),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry africa_cairo__sys (
+   value('(GMT+02:00) Eastern European Time (Africa/Cairo)'),
+   order(174),
+   active(true)
+);

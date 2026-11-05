@@ -1,0 +1,14 @@
+RECREATE Page vcd_router_page__sys (
+   label('Visual Checklist Designer Router Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('vcd_router_page__sys'),
+   description(),
+   disable_chrome(false),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.VcdRouterPage'),
+   url_path_name('vcdrouter')
+);

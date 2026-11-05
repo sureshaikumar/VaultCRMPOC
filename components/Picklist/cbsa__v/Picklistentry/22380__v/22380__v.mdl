@@ -1,0 +1,5 @@
+Picklistentry 22380__v (
+   value('Flagstaff, AZ Metropolitan Statistical Area'),
+   order(214),
+   active(true)
+);

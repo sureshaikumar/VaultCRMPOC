@@ -1,0 +1,6 @@
+Message recording_process_history__v (
+   label(),
+   active(true),
+   default_value('Recording Process History'),
+   system_managed(false)
+);

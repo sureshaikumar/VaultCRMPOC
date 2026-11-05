@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.sl_template_required_field_end_date__v (
+   label('SL Template Required Field End Date'),
+   active(true),
+   expression('If(IsBlank(account_types__v) || (Not(IsBlank(product__v)) && Not(IsBlank(limit_quantity__v)) && Not(IsBlank(start_date__v)) && Not(IsBlank(end_date__v))), true, Not(IsBlank(end_date__v)))'),
+   description('End Date is required if Account Types is used.'),
+   error_message('This field is required if Account Types is used'),
+   error_location('end_date__v')
+);

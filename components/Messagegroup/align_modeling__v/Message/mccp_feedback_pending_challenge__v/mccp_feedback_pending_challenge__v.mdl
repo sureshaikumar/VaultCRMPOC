@@ -1,0 +1,6 @@
+Message mccp_feedback_pending_challenge__v (
+   label(),
+   active(true),
+   default_value('This challenge is pending approved by a manager'),
+   system_managed(false)
+);

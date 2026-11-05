@@ -1,0 +1,6 @@
+Message survey_anonymous_response__v (
+   label(),
+   active(true),
+   default_value('Anonymous Response'),
+   system_managed(false)
+);

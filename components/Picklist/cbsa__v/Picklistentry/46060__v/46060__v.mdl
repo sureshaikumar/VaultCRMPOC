@@ -1,0 +1,5 @@
+Picklistentry 46060__v (
+   value('Tucson, AZ Metropolitan Statistical Area'),
+   order(60),
+   active(true)
+);

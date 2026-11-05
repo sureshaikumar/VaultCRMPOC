@@ -1,0 +1,6 @@
+Picklistentry nr-01__v (
+   value('Aiwo'),
+   order(3412),
+   active(true),
+   controlling_entries('nr__v')
+);

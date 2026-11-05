@@ -1,0 +1,19 @@
+Field product_preference__v (
+   label('Product Preference'),
+   type('Picklist'),
+   active(true),
+   description('Defines which products/ sub channels are shown on the Consent Capture page for the channel.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(21),
+   multi_value(false),
+   picklist('Picklist.consent_type_product_preference__v'),
+   default_value('{my_setup__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

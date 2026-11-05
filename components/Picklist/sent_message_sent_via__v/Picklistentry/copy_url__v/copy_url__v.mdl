@@ -1,0 +1,5 @@
+Picklistentry copy_url__v (
+   value('Copy URL'),
+   order(6),
+   active(true)
+);

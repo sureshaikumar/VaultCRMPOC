@@ -1,0 +1,6 @@
+Message voice_note_discard_warning_header__v (
+   label(),
+   active(true),
+   default_value('Discard Voice Note'),
+   system_managed(false)
+);

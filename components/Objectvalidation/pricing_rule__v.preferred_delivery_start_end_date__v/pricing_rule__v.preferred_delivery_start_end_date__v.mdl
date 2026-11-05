@@ -1,0 +1,16 @@
+RECREATE Objectvalidation pricing_rule__v.preferred_delivery_start_end_date__v (
+   label('Preferred Delivery Start End Date'),
+   active(true),
+   expression('Not(
+    And(
+    Not(IsBlank(preferred_delivery_start_date__v)),
+    Or(
+        preferred_delivery_start_date__v < start_date__v,
+        And(Not(IsBlank(preferred_delivery_end_date__v)), preferred_delivery_start_date__v > preferred_delivery_end_date__v)
+    )
+    )
+)'),
+   description('Preferred Delivery Start Date must start after the Start date of the Delivery Pricing Rule, and start before the Preferred Delivery End Date'),
+   error_message('Preferred Delivery Start Date must start after the Start date of the Delivery Pricing Rule, and start before the Preferred Delivery End Date'),
+   error_location('preferred_delivery_start_date__v')
+);

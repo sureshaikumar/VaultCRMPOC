@@ -1,0 +1,6 @@
+Picklistentry sc-19__v (
+   value('Plaisance'),
+   order(3919),
+   active(true),
+   controlling_entries('sc__v')
+);

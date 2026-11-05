@@ -1,0 +1,5 @@
+Picklistentry 48060__v (
+   value('Watertown-Fort Drum, NY Micropolitan Statistical Area'),
+   order(410),
+   active(true)
+);

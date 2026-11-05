@@ -1,0 +1,6 @@
+Picklistentry fr-bre__v (
+   value('Bretagne'),
+   order(1422),
+   active(true),
+   controlling_entries('fr__v')
+);

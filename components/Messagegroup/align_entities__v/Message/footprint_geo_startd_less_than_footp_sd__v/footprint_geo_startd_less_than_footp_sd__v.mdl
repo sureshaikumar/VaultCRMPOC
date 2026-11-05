@@ -1,0 +1,6 @@
+Message footprint_geo_startd_less_than_footp_sd__v (
+   label(),
+   active(true),
+   default_value('Footprint Geography Start Date cannot be earlier than its parent Footprint''s Start Date.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message terrs_user_exceeded__v (
+   label(),
+   active(true),
+   default_value('You have exceeded the maximum number (${limit_number}) of territories this User can be assigned to.'),
+   system_managed(false)
+);

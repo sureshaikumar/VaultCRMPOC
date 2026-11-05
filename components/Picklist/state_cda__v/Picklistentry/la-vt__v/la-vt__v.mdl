@@ -1,0 +1,6 @@
+Picklistentry la-vt__v (
+   value('Vientiane (Prefecture)'),
+   order(2526),
+   active(true),
+   controlling_entries('la__v')
+);

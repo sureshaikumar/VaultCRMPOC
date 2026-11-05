@@ -1,0 +1,5 @@
+Picklistentry benefits_specialist__v (
+   value('Benefits Specialist'),
+   order(0),
+   active(true)
+);

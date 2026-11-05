@@ -1,0 +1,6 @@
+Picklistentry pharq__v (
+   value('Pharmacovigilance'),
+   order(1523),
+   active(true),
+   controlling_entries('hu__v')
+);

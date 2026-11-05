@@ -1,0 +1,6 @@
+Message select_segmentation_subheader__v (
+   label(),
+   active(true),
+   default_value('Define segmentation type'),
+   system_managed(false)
+);

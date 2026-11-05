@@ -1,0 +1,19 @@
+Field insight_quality_check__v (
+   label('Insight Quality Check'),
+   type('Picklist'),
+   active(true),
+   description('When Automatic from Agentic Entry, the agent will perform a quality check when an insight is created through another agent. When On-Demand, the agent will perform a quality check only when the user initiates it.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(23),
+   multi_value(false),
+   picklist('Picklist.insight_quality_check__v'),
+   default_value('{automatic_from_agentic_entry__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

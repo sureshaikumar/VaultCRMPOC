@@ -1,0 +1,6 @@
+Message cancel_task__v (
+   label(),
+   active(true),
+   default_value('Cancel Task'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 22020__v (
+   value('Fargo, ND-MN Metropolitan Statistical Area'),
+   order(188),
+   active(true)
+);

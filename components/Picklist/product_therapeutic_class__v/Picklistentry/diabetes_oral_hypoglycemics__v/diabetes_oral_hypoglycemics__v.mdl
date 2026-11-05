@@ -1,0 +1,5 @@
+Picklistentry diabetes_oral_hypoglycemics__v (
+   value('Diabetes (Oral Hypoglycemics)'),
+   order(38),
+   active(true)
+);

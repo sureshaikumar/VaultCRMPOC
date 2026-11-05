@@ -1,0 +1,18 @@
+Field restricted__v (
+   label('Restricted'),
+   type('Boolean'),
+   active(true),
+   description('Defines that a “Detail” product is considered Restricted.  Used for defaulting restricted products on accounts, and unassigned calls.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(42),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

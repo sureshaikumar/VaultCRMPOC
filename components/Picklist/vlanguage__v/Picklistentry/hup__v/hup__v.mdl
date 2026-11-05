@@ -1,0 +1,5 @@
+Picklistentry hup__v (
+   value('Hupa'),
+   order(133),
+   active(false)
+);

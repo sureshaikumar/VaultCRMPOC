@@ -1,0 +1,15 @@
+RECREATE Docfieldlayout source_vault_details__v (
+   label('Source Vault Details'),
+   active(true),
+   icon('UNDEFINED'),
+   order(24),
+   fields('Docfield.source_vault_dns__v',
+      'Docfield.source_vault_document_id__v',
+      'Docfield.source_vault_document_version__v',
+      'Docfield.source_vault_external_id__v',
+      'Docfield.source_vault_guid__v',
+      'Docfield.source_vault_last_modified__v'),
+   show_in_edit_mode(true),
+   allow_field_assignment(true),
+   panel('Documentpanel.doc_info_information__sys')
+);

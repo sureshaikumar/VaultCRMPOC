@@ -1,0 +1,5 @@
+Picklistentry net_value__v (
+   value('Net Value'),
+   order(2),
+   active(true)
+);

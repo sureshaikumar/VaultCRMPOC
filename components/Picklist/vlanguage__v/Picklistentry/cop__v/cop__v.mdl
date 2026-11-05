@@ -1,0 +1,5 @@
+Picklistentry cop__v (
+   value('Coptic'),
+   order(63),
+   active(false)
+);

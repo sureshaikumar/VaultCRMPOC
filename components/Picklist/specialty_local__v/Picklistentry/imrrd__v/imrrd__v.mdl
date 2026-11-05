@@ -1,0 +1,6 @@
+Picklistentry imrrd__v (
+   value('Internal Medicine: Rheumatology (Rheumatic Diseases)'),
+   order(818),
+   active(true),
+   controlling_entries('dk__v')
+);

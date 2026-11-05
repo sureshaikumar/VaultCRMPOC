@@ -1,0 +1,43 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.message_template__v.whatsapp_message_template__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="message_template_status__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="category__v" />
+            <vault:field reference="hidden__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="message_template_id__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="product__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="WhatsApp Fields" name="whatsapp_fields__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="template_type__v" />
+            <vault:field reference="whatsapp_header_type__v" />
+            <vault:field reference="whatsapp_header_text__v" />
+            <vault:field reference="whatsapp_header_placeholder__v" />
+            <vault:field reference="whatsapp_body_text__v" />
+            <vault:field reference="whatsapp_body_placeholder__v" />
+            <vault:field reference="whatsapp_footer_text__v" />
+            <vault:field reference="whatsapp_button_1_type__v" />
+            <vault:field reference="whatsapp_button_1_value__v" />
+            <vault:field reference="whatsapp_button_1_text__v" />
+            <vault:field reference="whatsapp_button_1_placeholder__v" />
+            <vault:field reference="whatsapp_button_2_type__v" />
+            <vault:field reference="whatsapp_button_2_value__v" />
+            <vault:field reference="whatsapp_button_2_placeholder__v" />
+            <vault:field reference="whatsapp_button_2_text__v" />
+            <vault:field reference="whatsapp_button_3_type__v" />
+            <vault:field reference="whatsapp_button_3_value__v" />
+            <vault:field reference="whatsapp_button_3_text__v" />
+            <vault:field reference="whatsapp_button_3_placeholder__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

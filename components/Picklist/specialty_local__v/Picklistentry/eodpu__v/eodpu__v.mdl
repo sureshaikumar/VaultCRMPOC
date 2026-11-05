@@ -1,0 +1,6 @@
+Picklistentry eodpu__v (
+   value('Educator Optometry'),
+   order(472),
+   active(true),
+   controlling_entries('nz__v')
+);

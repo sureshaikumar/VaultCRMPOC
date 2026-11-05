@@ -1,0 +1,19 @@
+Field dynamic_attribute_record_type__v (
+   label('Dynamic Attribute Record Type'),
+   type('String'),
+   active(true),
+   description('This field holds the Dynamic Attribute''s Record Type for reporting purposes.'),
+   required(true),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

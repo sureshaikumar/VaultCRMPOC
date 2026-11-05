@@ -1,0 +1,6 @@
+Picklistentry ph-mgs__v (
+   value('Maguindanao del Sur'),
+   order(3582),
+   active(true),
+   controlling_entries('ph__v')
+);

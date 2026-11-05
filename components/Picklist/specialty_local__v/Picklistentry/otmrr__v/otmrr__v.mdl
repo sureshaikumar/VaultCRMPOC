@@ -1,0 +1,6 @@
+Picklistentry otmrr__v (
+   value('Organ Transplant Medicine'),
+   order(1181),
+   active(true),
+   controlling_entries('kr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry pdree__v (
+   value('Preventive Dentistry'),
+   order(1590),
+   active(true),
+   controlling_entries('kr__v')
+);

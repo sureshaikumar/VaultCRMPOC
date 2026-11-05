@@ -1,0 +1,6 @@
+Picklistentry sd-si__v (
+   value('Sennar'),
+   order(3945),
+   active(true),
+   controlling_entries('sd__v')
+);

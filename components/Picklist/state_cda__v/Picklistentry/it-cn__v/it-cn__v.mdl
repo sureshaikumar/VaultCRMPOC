@@ -1,0 +1,6 @@
+Picklistentry it-cn__v (
+   value('Cuneo'),
+   order(2198),
+   active(true),
+   controlling_entries('it__v')
+);

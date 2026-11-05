@@ -1,0 +1,4 @@
+Typefield clm_order_navigation_mode__v (
+   source('standard'),
+   required(false)
+);

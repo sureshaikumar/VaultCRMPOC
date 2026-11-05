@@ -1,0 +1,6 @@
+Message generate__v (
+   label(),
+   active(true),
+   default_value('Generate'),
+   system_managed(false)
+);

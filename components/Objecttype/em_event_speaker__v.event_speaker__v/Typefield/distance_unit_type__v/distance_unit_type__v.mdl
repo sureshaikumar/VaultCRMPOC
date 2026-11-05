@@ -1,0 +1,6 @@
+Typefield distance_unit_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_speaker_distance_unit_type__v.kilometers__v',
+         'Picklist.em_event_speaker_distance_unit_type__v.miles__v')
+);

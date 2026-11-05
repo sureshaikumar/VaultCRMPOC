@@ -1,0 +1,6 @@
+Picklistentry do-23__v (
+   value('San Pedro de Macorís'),
+   order(962),
+   active(true),
+   controlling_entries('do__v')
+);

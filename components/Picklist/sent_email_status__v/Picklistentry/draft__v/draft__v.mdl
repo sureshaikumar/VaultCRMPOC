@@ -1,0 +1,5 @@
+Picklistentry draft__v (
+   value('Draft'),
+   order(14),
+   active(true)
+);

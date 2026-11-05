@@ -1,0 +1,8 @@
+RECREATE Picklist medx_audio_and_transcript__v (
+   label('MedX Audio and Transcript'),
+   active(true),
+   Picklistentry(@Picklistentry/recording_disabled__v.mdl),
+   Picklistentry(@Picklistentry/local_audio_and_transcript__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

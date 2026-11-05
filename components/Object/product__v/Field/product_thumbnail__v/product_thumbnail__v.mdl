@@ -1,0 +1,17 @@
+Field product_thumbnail__v (
+   label('Product Thumbnail'),
+   type('LongText'),
+   active(true),
+   description('Stores the picture thumbnail of the product as a Base64 string'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

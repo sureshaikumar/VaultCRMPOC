@@ -1,0 +1,6 @@
+Message territory_model_delete_dialog_alarm_1__v (
+   label(),
+   active(true),
+   default_value('This territory model has records assigned to it. Deleting it will delete all assignments related to it.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ru-tul__v (
+   value('Tul''skaya oblast'''),
+   order(3859),
+   active(true),
+   controlling_entries('ru__v')
+);

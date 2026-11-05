@@ -1,0 +1,6 @@
+Picklistentry cpamp__v (
+   value('Clinical Pathology and Molecular Pathology'),
+   order(265),
+   active(true),
+   controlling_entries('at__v')
+);

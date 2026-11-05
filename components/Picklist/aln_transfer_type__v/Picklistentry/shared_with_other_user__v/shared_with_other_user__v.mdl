@@ -1,0 +1,5 @@
+Picklistentry shared_with_other_user__v (
+   value('Shared with other user'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry teva_pharmaceutical_industries__v (
+   value('Teva Pharmaceutical Industries'),
+   order(38),
+   active(true)
+);

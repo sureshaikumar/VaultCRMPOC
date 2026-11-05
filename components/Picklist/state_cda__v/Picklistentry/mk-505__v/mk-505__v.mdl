@@ -1,0 +1,6 @@
+Picklistentry mk-505__v (
+   value('Kruševo'),
+   order(3007),
+   active(true),
+   controlling_entries('mk__v')
+);

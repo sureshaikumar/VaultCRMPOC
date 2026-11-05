@@ -1,0 +1,6 @@
+Picklistentry gt-09__v (
+   value('Quetzaltenango'),
+   order(1788),
+   active(true),
+   controlling_entries('gt__v')
+);

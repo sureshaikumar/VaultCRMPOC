@@ -1,0 +1,19 @@
+Field vexternal_id__v (
+   label('Veeva External ID'),
+   type('String'),
+   active(true),
+   description('System set to prevent duplicate Products for a Cycle Plan Channel. Cycle_Plan_Channel_vod__c.Id +__+ Cycle_Product_vod__c.Id'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

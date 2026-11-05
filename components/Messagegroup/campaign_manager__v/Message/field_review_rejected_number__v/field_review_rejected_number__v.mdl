@@ -1,0 +1,6 @@
+Message field_review_rejected_number__v (
+   label(),
+   active(true),
+   default_value('Rejected: ${rejected_approval_count}'),
+   system_managed(false)
+);

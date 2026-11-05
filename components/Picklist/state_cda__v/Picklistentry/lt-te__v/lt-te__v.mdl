@@ -1,0 +1,6 @@
+Picklistentry lt-te__v (
+   value('Telšiai County'),
+   order(2686),
+   active(true),
+   controlling_entries('lt__v')
+);

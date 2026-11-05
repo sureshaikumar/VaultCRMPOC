@@ -1,0 +1,5 @@
+Picklistentry 44380__v (
+   value('Statesville-Mooresville, NC Micropolitan Statistical Area'),
+   order(777),
+   active(true)
+);

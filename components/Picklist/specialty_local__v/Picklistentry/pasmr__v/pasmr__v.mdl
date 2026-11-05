@@ -1,0 +1,6 @@
+Picklistentry pasmr__v (
+   value('Preventive and Social Medicine'),
+   order(1589),
+   active(true),
+   controlling_entries('mu__v')
+);

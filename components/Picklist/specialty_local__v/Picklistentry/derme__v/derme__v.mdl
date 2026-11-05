@@ -1,0 +1,23 @@
+Picklistentry derme__v (
+   value('Dermatovenerology'),
+   order(412),
+   active(true),
+   controlling_entries('az__v',
+         'ba__v',
+         'be__v',
+         'cz__v',
+         'ee__v',
+         'kg__v',
+         'kz__v',
+         'lt__v',
+         'lu__v',
+         'md__v',
+         'me__v',
+         'mk__v',
+         'pt__v',
+         'ro__v',
+         'rs__v',
+         'si__v',
+         'sk__v',
+         'ua__v')
+);

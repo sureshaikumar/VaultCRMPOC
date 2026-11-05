@@ -1,0 +1,5 @@
+Picklistentry parent__v (
+   value('Parent'),
+   order(2),
+   active(true)
+);

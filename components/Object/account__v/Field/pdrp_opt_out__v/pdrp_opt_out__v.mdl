@@ -1,0 +1,18 @@
+Field pdrp_opt_out__v (
+   label('PDRP Opt-Out'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the professional opted out of the PDRP (AMA) program.  Used for person accounts.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(71),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

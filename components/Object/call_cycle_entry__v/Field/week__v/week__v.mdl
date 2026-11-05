@@ -1,0 +1,23 @@
+Field week__v (
+   label('Week'),
+   type('Number'),
+   active(true),
+   description('A call cycle entry is located at a (Week#, Day of Week, and Time). When applied to a week, a call cycle is placed on the week according to its (Day of Week, Time).  A user can have as many call cycle weeks as they choose.  Only non-empty weeks are visible'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('1'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

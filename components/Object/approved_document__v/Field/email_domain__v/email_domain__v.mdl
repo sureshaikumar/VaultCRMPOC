@@ -1,0 +1,19 @@
+Field email_domain__v (
+   label('Email Domain'),
+   type('String'),
+   active(true),
+   description('The Rackspace Email Domain used for this Email Template. Allows emails to be sent authenticated when sent ''from'' this domain. This field is typically used in global orgs when email templates are used by specific countries, and email domains have country-s'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

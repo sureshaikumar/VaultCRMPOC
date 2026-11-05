@@ -1,0 +1,6 @@
+Picklistentry pdave__v (
+   value('Pediatric Dermatology and Venereology'),
+   order(1360),
+   active(true),
+   controlling_entries('us__v')
+);

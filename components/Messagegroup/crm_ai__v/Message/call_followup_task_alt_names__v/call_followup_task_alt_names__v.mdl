@@ -1,0 +1,6 @@
+Message call_followup_task_alt_names__v (
+   label(),
+   active(true),
+   default_value('Call Follow Up Task;;Call Follow Up Activity;;Follow Up Task;;Follow Up Activity;;Follow Up;;Task'),
+   system_managed(false)
+);

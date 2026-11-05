@@ -1,0 +1,6 @@
+Message switch_to_ms_teams_meeting__v (
+   label(),
+   active(true),
+   default_value('Switch to Microsoft Teams Meeting'),
+   system_managed(false)
+);

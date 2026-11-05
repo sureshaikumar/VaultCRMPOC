@@ -1,0 +1,6 @@
+Message do_not_disturb__v (
+   label(),
+   active(true),
+   default_value('Do Not Disturb'),
+   system_managed(false)
+);

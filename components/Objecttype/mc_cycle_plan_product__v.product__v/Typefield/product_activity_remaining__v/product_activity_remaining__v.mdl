@@ -1,0 +1,4 @@
+Typefield product_activity_remaining__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry pacific_honolulu__v (
+   value('Hawaii-Aleutian Time'),
+   order(65),
+   active(true)
+);

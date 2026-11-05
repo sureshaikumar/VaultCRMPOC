@@ -1,0 +1,6 @@
+Picklistentry cz-411__v (
+   value('Cheb'),
+   order(844),
+   active(true),
+   controlling_entries('cz__v')
+);

@@ -1,0 +1,4 @@
+Typefield last_deployment_end_date__v (
+   source('standard'),
+   required(false)
+);

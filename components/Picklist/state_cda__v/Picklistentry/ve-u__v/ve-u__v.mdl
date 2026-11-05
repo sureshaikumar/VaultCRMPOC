@@ -1,0 +1,6 @@
+Picklistentry ve-u__v (
+   value('Yaracuy'),
+   order(4906),
+   active(true),
+   controlling_entries('ve__v')
+);

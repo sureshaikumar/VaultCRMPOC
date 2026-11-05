@@ -1,0 +1,5 @@
+Picklistentry manual_assignment__sys (
+   value('Manual Assignment'),
+   order(0),
+   active(true)
+);

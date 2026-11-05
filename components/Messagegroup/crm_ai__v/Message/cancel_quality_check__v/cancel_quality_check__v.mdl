@@ -1,0 +1,6 @@
+Message cancel_quality_check__v (
+   label(),
+   active(true),
+   default_value('Cancel Quality Check'),
+   system_managed(false)
+);

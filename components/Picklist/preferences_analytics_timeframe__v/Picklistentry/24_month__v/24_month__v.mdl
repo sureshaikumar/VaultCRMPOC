@@ -1,0 +1,5 @@
+Picklistentry 24_month__v (
+   value('24;Month'),
+   order(3),
+   active(true)
+);

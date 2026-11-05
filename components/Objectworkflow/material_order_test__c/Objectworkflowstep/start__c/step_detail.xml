@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad" name="start__c">
+    <vwf:label>Start</vwf:label>
+    <vwf:controls>
+      <vwf:control name="field_150_0__c" type="field">
+        <vwf:field reference="Object.material_order__c.date__c" required="true" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+</vwf:stepdetails>

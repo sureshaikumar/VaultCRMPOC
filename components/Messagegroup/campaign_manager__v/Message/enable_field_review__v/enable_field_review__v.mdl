@@ -1,0 +1,6 @@
+Message enable_field_review__v (
+   label(),
+   active(true),
+   default_value('Enable Field Review'),
+   system_managed(false)
+);

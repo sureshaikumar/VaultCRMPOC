@@ -1,0 +1,28 @@
+Field default_account_profile__v (
+   label('Default Account Profile'),
+   type('Number'),
+   active(true),
+   description('Setting for determining default homepage for Account when Account is not flagged as a KOL.
+For Commercial CRM:
+   •   0 or 2 = Account Detail (default)
+   •   1 or 3 = Account Overview Timeline (default)
+For Medical CRM:
+   •   0 or 1 = Account Overview T'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(79),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

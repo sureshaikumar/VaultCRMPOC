@@ -1,0 +1,6 @@
+Picklistentry bf-hou__v (
+   value('Houet'),
+   order(339),
+   active(true),
+   controlling_entries('bf__v')
+);

@@ -1,0 +1,6 @@
+Message multi_topic_duplicate_enablement_error__v (
+   label(),
+   active(true),
+   default_value('You cannot update the topic because multiple configurations are enabled.'),
+   system_managed(false)
+);

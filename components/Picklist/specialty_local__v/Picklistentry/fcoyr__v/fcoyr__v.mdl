@@ -1,0 +1,6 @@
+Picklistentry fcoyr__v (
+   value('Forensic Cytology'),
+   order(547),
+   active(true),
+   controlling_entries('ua__v')
+);

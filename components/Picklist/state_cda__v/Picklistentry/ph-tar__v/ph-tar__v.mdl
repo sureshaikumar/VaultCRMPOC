@@ -1,0 +1,6 @@
+Picklistentry ph-tar__v (
+   value('Tarlac'),
+   order(3608),
+   active(true),
+   controlling_entries('ph__v')
+);

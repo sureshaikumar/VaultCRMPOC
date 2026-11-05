@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate where_used_object__v (
+   label('Where Used Object'),
+   active(true),
+   description('Message template for exporting references for object'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Reference Report for ${objectLabel} ${recordName}'),
+   notification('<p>Your reference report has completed successfully for ${objectLabel} ${recordName}.</p><p><a href="${linkToFile}">${fileName}</a></p>'),
+   email_body('<p>Your reference report has completed successfully for ${objectLabel} ${recordName}.</p><p><a href="${linkToFile}">${fileName}</a></p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

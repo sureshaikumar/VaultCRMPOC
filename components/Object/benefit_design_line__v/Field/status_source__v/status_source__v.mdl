@@ -1,0 +1,18 @@
+Field status_source__v (
+   label('Status (Source)'),
+   type('Picklist'),
+   active(true),
+   description('This data is meant to be loaded and refreshed by the customer from the source data provider, such as MediMedia and not changed by end users. If the Status field is filled in, it will override the Status (Source) field in the display of the formulary contr'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.benefit_design_line_status_source__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

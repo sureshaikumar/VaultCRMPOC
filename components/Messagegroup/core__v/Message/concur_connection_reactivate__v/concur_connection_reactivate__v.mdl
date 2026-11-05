@@ -1,0 +1,6 @@
+Message concur_connection_reactivate__v (
+   label(),
+   active(true),
+   default_value('To enable or reactivate the connection, log into Concur as a system administrator and find the Veeva Connector app in the App Center.'),
+   system_managed(false)
+);

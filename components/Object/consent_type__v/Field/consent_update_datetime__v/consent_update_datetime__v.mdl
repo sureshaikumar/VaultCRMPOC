@@ -1,0 +1,17 @@
+Field consent_update_datetime__v (
+   label('Consent Update Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('It represents the DateTime when the admin updates new consent'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

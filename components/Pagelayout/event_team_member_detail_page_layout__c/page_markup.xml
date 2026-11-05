@@ -1,0 +1,39 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_team_member__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="event__v" />
+            <vault:field reference="role__v" />
+            <vault:field reference="phone_number__v" />
+            <vault:field reference="email__v" />
+            <vault:spacer />
+            <vault:field reference="stub_mobile_id__v" />
+            <vault:field reference="stub_sfdc_id__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="team_member_type__v" />
+            <vault:field reference="virtual_role__v" />
+            <vault:field reference="team_member__v" />
+            <vault:field reference="group_name__v" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="last_name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

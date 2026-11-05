@@ -1,0 +1,8 @@
+Objectworkflowstep sme_approval_task__c (
+   label('SME Approval Task'),
+   type('contenttask'),
+   next_steps('Objectworkflowstep.update_document_states_based_on_verdicts__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('SME''s approve documents by selecting "Approve" or "Reject" verdict for each document.')
+);

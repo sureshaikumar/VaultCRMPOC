@@ -1,0 +1,19 @@
+Field country__v (
+   label('Country'),
+   type('String'),
+   active(true),
+   description('Semi-colon delimited ISO 3166 Alpha-2 country codes'),
+   required(true),
+   unique(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

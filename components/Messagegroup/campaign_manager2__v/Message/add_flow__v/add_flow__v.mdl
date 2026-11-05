@@ -1,0 +1,6 @@
+Message add_flow__v (
+   label(),
+   active(true),
+   default_value('Add Flow'),
+   system_managed(false)
+);

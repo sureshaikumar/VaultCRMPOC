@@ -1,0 +1,6 @@
+Picklistentry it-ss__v (
+   value('Sassari'),
+   order(2261),
+   active(true),
+   controlling_entries('it__v')
+);

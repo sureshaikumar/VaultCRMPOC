@@ -1,0 +1,6 @@
+Message field_mapping_fls__v (
+   label(),
+   active(true),
+   default_value('CRM FLS'),
+   system_managed(false)
+);

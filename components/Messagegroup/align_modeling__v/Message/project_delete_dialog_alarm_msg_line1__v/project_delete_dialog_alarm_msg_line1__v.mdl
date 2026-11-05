@@ -1,0 +1,6 @@
+Message project_delete_dialog_alarm_msg_line1__v (
+   label(),
+   active(true),
+   default_value('Deleting this project will delete all Territory, Field Force, and Footprint models associated with it, and their child objects.'),
+   system_managed(false)
+);

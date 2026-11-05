@@ -1,0 +1,6 @@
+Picklistentry ee-661__v (
+   value('Rakvere'),
+   order(1121),
+   active(true),
+   controlling_entries('ee__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-711__v (
+   value('Jeseník'),
+   order(886),
+   active(true),
+   controlling_entries('cz__v')
+);

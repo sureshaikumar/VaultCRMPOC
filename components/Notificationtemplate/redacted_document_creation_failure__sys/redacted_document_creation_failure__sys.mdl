@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate redacted_document_creation_failure__sys (
+   label('Redacted Document Creation Failure'),
+   active(true),
+   description('Notification template used for notifying users that the redacted version of their document failed to create.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Redacted Document creation failed: ${docNameNoLink}'),
+   notification('The Redacted Document for <b>${docNameNoLink} (v${docMajor}.${docMinor})</b> failed during creation. Your redactions are saved and the redaction has returned to the Redacting Source state.<br/>Review your redactions and try again.'),
+   email_body('The Redacted Document for <b>${docNameNoLink} (v${docMajor}.${docMinor})</b> failed during creation. Your redactions are saved and the redaction has returned to the Redacting Source state.<br/>Review your redactions and try again.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

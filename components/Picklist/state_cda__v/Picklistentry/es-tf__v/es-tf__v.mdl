@@ -1,0 +1,6 @@
+Picklistentry es-tf__v (
+   value('Santa Cruz de Tenerife'),
+   order(1252),
+   active(true),
+   controlling_entries('es__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry tv-nui__v (
+   value('Nui'),
+   order(4561),
+   active(true),
+   controlling_entries('tv__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate add_teams_owners__v (
+   label('Add Teams Owners'),
+   active(true),
+   description('This notification is sent if there is only one active user associated to the Owner Group of a Collaboration Space Configuration record.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.collaboration_space_configuration__v'),
+   subject('Action Required: Collaboration Space Configuration Needs Additional Owners'),
+   notification('The Collaboration Space Configuration "${Custom.collaboration_space_config_name}" only has one active owner, and the Microsoft Teams integration is at risk of becoming disconnected. Please add at least one additional user to the group <a href=${Custom.link_to_owner_group}>Link to Owner Group</a>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

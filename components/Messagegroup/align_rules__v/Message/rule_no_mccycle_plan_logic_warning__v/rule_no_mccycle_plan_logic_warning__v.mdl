@@ -1,0 +1,6 @@
+Message rule_no_mccycle_plan_logic_warning__v (
+   label(),
+   active(true),
+   default_value('No criteria selected for Mc Cycle Plan. Mc Cycle Plans will not be used to filter Account results.'),
+   system_managed(false)
+);

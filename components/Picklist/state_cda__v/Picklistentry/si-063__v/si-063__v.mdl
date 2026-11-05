@@ -1,0 +1,6 @@
+Picklistentry si-063__v (
+   value('Ljutomer'),
+   order(4037),
+   active(true),
+   controlling_entries('si__v')
+);

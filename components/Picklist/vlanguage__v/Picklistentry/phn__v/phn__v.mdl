@@ -1,0 +1,5 @@
+Picklistentry phn__v (
+   value('Phoenician'),
+   order(254),
+   active(false)
+);

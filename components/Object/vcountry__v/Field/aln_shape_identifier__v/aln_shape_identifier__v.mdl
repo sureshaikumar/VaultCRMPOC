@@ -1,0 +1,18 @@
+Field aln_shape_identifier__v (
+   label('Shape Identifier'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used by the Geo Shape Generator to determine which shape an address record belongs to. Values represent the API names of Text fields on the Address object (e.g. "postal_code__aln").'),
+   list_column(true),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.aln_shape_identifier__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

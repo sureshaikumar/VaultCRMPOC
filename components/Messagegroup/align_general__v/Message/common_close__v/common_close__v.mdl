@@ -1,0 +1,6 @@
+Message common_close__v (
+   label(),
+   active(true),
+   default_value('Close'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message checking_for_errors__v (
+   label(),
+   active(true),
+   default_value('Checking for errors and warnings'),
+   system_managed(false)
+);

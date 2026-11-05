@@ -1,0 +1,22 @@
+Field ppo_pos__c (
+   label('PPO/POS'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content('# Lives covered by a PPO/POS offering.  Used by MCO and MCO Plan accounts.'),
+   list_column(false),
+   order(73),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

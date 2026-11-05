@@ -1,0 +1,5 @@
+Picklistentry bayer_pharmaceutical__v (
+   value('Bayer Pharmaceutical'),
+   order(9),
+   active(true)
+);

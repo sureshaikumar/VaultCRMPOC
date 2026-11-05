@@ -1,0 +1,6 @@
+Message cancel_attempt_message__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to cancel this attempt? Any information you captured will not be saved.'),
+   system_managed(false)
+);

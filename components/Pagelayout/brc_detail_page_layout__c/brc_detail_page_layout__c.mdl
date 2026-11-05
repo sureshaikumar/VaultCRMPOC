@@ -1,0 +1,8 @@
+RECREATE Pagelayout brc_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description('Page Layout for Sample Order Transaction: BRC'),
+   display_lifecycle_stages(false),
+   label('BRC Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

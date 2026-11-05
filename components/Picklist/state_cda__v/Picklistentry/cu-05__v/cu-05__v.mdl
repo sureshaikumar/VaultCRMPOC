@@ -1,0 +1,6 @@
+Picklistentry cu-05__v (
+   value('Villa Clara'),
+   order(770),
+   active(true),
+   controlling_entries('cu__v')
+);

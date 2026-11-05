@@ -1,0 +1,6 @@
+Picklistentry paasl__v (
+   value('Plastic and Aesthetic Surgery'),
+   order(1563),
+   active(true),
+   controlling_entries('il__v')
+);

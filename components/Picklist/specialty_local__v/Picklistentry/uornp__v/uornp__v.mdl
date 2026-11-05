@@ -1,0 +1,6 @@
+Picklistentry uornp__v (
+   value('Urological Oncology'),
+   order(1899),
+   active(true),
+   controlling_entries('hr__v')
+);

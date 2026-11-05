@@ -1,0 +1,4 @@
+Typefield batch__v (
+   source('custom'),
+   required(false)
+);

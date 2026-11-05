@@ -1,0 +1,6 @@
+Message enable_phone__v (
+   label(),
+   active(true),
+   default_value('Enable Phone'),
+   system_managed(false)
+);

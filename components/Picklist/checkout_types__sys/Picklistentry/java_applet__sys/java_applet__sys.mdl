@@ -1,0 +1,5 @@
+Picklistentry java_applet__sys (
+   value('Java Applet'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry hu-ps__v (
+   value('Pécs'),
+   order(1899),
+   active(true),
+   controlling_entries('hu__v')
+);

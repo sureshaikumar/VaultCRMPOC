@@ -1,0 +1,18 @@
+Field detail_topic__v (
+   label('Detail Topic'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If checked, this metric applies to Detail Topic, not Detail'),
+   list_column(false),
+   order(12),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

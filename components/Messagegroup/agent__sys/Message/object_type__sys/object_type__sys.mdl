@@ -1,0 +1,6 @@
+Message object_type__sys (
+   label(),
+   active(true),
+   default_value('Object Type'),
+   system_managed(true)
+);

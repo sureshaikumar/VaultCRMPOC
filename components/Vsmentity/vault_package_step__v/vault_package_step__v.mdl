@@ -1,0 +1,21 @@
+RECREATE Vsmentity vault_package_step__v (
+   label('Inbound Package Step'),
+   active(true),
+   description('Represents an individual step or stage within an inbound package deployment process in Vault. Inbound Package Steps define the sequential or structured processing stages that a received package must pass through, such as intake, review, or approval.'),
+   synonyms('package step',
+      'inbound step',
+      'package stage',
+      'intake step'),
+   target('Object.vault_package_step__v'),
+   target_label('Inbound Package Step'),
+   Vsmfield(@Vsmfield/deployment_status__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/status__v.mdl),
+   Vsmfield(@Vsmfield/step_label__v.mdl),
+   Vsmfield(@Vsmfield/step_name__v.mdl),
+   Vsmfield(@Vsmfield/step_required__v.mdl),
+   Vsmfield(@Vsmfield/step_type__v.mdl),
+   Vsmfield(@Vsmfield/stop_on_error__v.mdl),
+   Vsmfield(@Vsmfield/type__v.mdl),
+   Vsmfield(@Vsmfield/vault_package__v.mdl)
+);

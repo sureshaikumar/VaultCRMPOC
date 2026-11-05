@@ -1,0 +1,19 @@
+Field npi__v (
+   label('NPI #'),
+   type('String'),
+   active(true),
+   description('National Provider Identifier.'),
+   required(false),
+   unique(false),
+   max_length(200),
+   help_content(),
+   list_column(false),
+   order(65),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

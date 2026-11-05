@@ -1,0 +1,11 @@
+Vsmfield avg_time_object_list_view__v (
+   label('Avg Time Object List View'),
+   active(true),
+   description('Average time (in seconds) to load the record list view (in Business Admin or a custom tab) across all objects (Product, Study, et cetera)'),
+   example_values(),
+   synonyms(),
+   target('avg_time_object_list_view__v'),
+   target_label('Avg Time Object List View'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

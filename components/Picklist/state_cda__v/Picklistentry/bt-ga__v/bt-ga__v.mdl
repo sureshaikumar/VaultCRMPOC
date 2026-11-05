@@ -1,0 +1,6 @@
+Picklistentry bt-ga__v (
+   value('Gasa'),
+   order(528),
+   active(true),
+   controlling_entries('bt__v')
+);

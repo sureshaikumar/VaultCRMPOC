@@ -1,0 +1,19 @@
+Field scientific_name__v (
+   label('Scientific Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(500),
+   help_content('Scientific name as listed on product labelling.'),
+   list_column(true),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-215__v (
+   value('Sironko'),
+   order(4683),
+   active(true),
+   controlling_entries('ug__v')
+);

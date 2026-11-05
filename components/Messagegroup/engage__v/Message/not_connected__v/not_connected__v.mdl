@@ -1,0 +1,6 @@
+Message not_connected__v (
+   label(),
+   active(true),
+   default_value('Not Connected'),
+   system_managed(false)
+);

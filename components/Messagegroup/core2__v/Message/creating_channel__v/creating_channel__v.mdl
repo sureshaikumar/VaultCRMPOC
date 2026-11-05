@@ -1,0 +1,6 @@
+Message creating_channel__v (
+   label(),
+   active(true),
+   default_value('Creating Teams Channel'),
+   system_managed(false)
+);

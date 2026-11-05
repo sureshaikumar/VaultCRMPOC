@@ -1,0 +1,11 @@
+RECREATE Picklist dpv_confirmed_indicator__v (
+   label('DPV Confirmed Indicator'),
+   active(true),
+   Picklistentry(@Picklistentry/y__v.mdl),
+   Picklistentry(@Picklistentry/s__v.mdl),
+   Picklistentry(@Picklistentry/n__v.mdl),
+   Picklistentry(@Picklistentry/d__v.mdl),
+   Picklistentry(@Picklistentry/x__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

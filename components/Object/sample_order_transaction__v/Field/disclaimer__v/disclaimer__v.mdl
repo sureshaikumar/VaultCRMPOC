@@ -1,0 +1,17 @@
+Field disclaimer__v (
+   label('Disclaimer'),
+   type('LongText'),
+   active(true),
+   description('The Disclaimer field stores the Disclaimer displayed to the Physician when signing for the Sampel Order.'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

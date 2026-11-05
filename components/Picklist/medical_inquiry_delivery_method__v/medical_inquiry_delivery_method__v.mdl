@@ -1,0 +1,14 @@
+RECREATE Picklist medical_inquiry_delivery_method__v (
+   label('Delivery Method'),
+   active(true),
+   Picklistentry(@Picklistentry/urgent_mail__v.mdl),
+   Picklistentry(@Picklistentry/mail__v.mdl),
+   Picklistentry(@Picklistentry/phone__v.mdl),
+   Picklistentry(@Picklistentry/fax__v.mdl),
+   Picklistentry(@Picklistentry/email__v.mdl),
+   Picklistentry(@Picklistentry/chat__c.mdl),
+   Picklistentry(@Picklistentry/webform__c.mdl),
+   Picklistentry(@Picklistentry/call__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-pc__v (
+   value('Piacenza'),
+   order(2236),
+   active(true),
+   controlling_entries('it__v')
+);

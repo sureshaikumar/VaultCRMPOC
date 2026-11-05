@@ -1,0 +1,18 @@
+Field incremental__v (
+   label('Incremental'),
+   type('Boolean'),
+   active(true),
+   description('Flag to determine whether the data file is to be loaded using the JD-NET upload process'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(23),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

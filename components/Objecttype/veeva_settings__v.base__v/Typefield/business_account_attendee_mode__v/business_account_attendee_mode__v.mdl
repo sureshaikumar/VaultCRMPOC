@@ -1,0 +1,4 @@
+Typefield business_account_attendee_mode__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Typefield type__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.microsoft_resource_type__v.private__v',
+         'Picklist.microsoft_resource_type__v.public__v')
+);

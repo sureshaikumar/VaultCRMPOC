@@ -1,0 +1,4 @@
+Typefield original_end_timezone__v (
+   source('custom'),
+   required(false)
+);

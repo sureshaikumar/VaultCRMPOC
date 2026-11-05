@@ -1,0 +1,6 @@
+Message message_templates__v (
+   label(),
+   active(true),
+   default_value('Message Templates'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 32180__v (
+   value('Marshall, MO Micropolitan Statistical Area'),
+   order(684),
+   active(true)
+);

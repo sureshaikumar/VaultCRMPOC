@@ -1,0 +1,7 @@
+Picklistentry rneuh__v (
+   value('Rehabilitation Nursing'),
+   order(1728),
+   active(true),
+   controlling_entries('ee__v',
+         'pt__v')
+);

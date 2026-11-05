@@ -1,0 +1,6 @@
+Message pct_used__v (
+   label(),
+   active(true),
+   default_value('${pct}% of budget used'),
+   system_managed(false)
+);

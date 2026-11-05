@@ -1,0 +1,12 @@
+Picklistentry gimen__v (
+   value('General Internal Medicine'),
+   order(600),
+   active(true),
+   controlling_entries('ba__v',
+         'ca__v',
+         'ch__v',
+         'gb__v',
+         'hr__v',
+         'ie__v',
+         'li__v')
+);

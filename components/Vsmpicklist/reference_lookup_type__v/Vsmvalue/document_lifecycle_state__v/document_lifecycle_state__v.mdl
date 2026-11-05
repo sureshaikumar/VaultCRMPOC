@@ -1,0 +1,10 @@
+Vsmvalue document_lifecycle_state__v (
+   label('Document Lifecycle State'),
+   active(true),
+   description('Use when the reference field should look up lifecycle states associated with a document, enabling users to reference a specific stage in a document''s review or approval workflow.'),
+   synonyms('document state',
+         'document status',
+         'document workflow stage'),
+   target('document_lifecycle_state__sys'),
+   target_label('Document Lifecycle State')
+);

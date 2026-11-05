@@ -1,0 +1,4 @@
+Typefield allow_login_via_salesforce__sys (
+   source('standard'),
+   required(false)
+);

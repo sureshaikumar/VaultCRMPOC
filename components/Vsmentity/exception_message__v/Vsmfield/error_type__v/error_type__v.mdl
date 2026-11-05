@@ -1,0 +1,14 @@
+Vsmfield error_type__v (
+   label('Error Type'),
+   active(true),
+   description('Categorizes the type of error or exception that occurred during integration processing. Use this picklist field to filter and group exceptions by their nature (e.g., validation errors, connection failures, data errors) for triage and reporting.'),
+   example_values(),
+   synonyms('error category',
+         'exception type',
+         'failure type',
+         'error kind'),
+   target('error_type__sys'),
+   target_label('Error Type'),
+   vsm_picklist('Vsmpicklist.exception_message_error_type__v'),
+   vsm_picklist_local()
+);

@@ -1,0 +1,5 @@
+Picklistentry meal__v (
+   value('Meal'),
+   order(5),
+   active(true)
+);

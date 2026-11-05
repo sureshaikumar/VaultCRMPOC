@@ -1,0 +1,18 @@
+RECREATE Picklist index_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/researcher_index__v.mdl),
+   Picklistentry(@Picklistentry/clinical_investigator_index__v.mdl),
+   Picklistentry(@Picklistentry/expert_advisor_index__v.mdl),
+   Picklistentry(@Picklistentry/regulatory_advisor_index__v.mdl),
+   Picklistentry(@Picklistentry/budgetary_advisor_index__v.mdl),
+   Picklistentry(@Picklistentry/guideline_expert_index__v.mdl),
+   Picklistentry(@Picklistentry/disease_advocate_index__v.mdl),
+   Picklistentry(@Picklistentry/overall_index__v.mdl),
+   Picklistentry(@Picklistentry/publication_activity_index__v.mdl),
+   Picklistentry(@Picklistentry/clinical_trial_activity_index__v.mdl),
+   Picklistentry(@Picklistentry/medical_events_activity_index__v.mdl),
+   Picklistentry(@Picklistentry/connections__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

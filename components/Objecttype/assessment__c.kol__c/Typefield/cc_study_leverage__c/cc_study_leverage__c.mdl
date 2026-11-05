@@ -1,0 +1,7 @@
+Typefield cc_study_leverage__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.assessment_cc_study_leverage__c.somewhat_likely__c',
+         'Picklist.assessment_cc_study_leverage__c.unlikely__c',
+         'Picklist.assessment_cc_study_leverage__c.very_likely__c')
+);

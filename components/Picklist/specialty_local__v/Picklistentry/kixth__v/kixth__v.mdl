@@ -1,0 +1,6 @@
+Picklistentry kixth__v (
+   value('Kinesitherapy'),
+   order(835),
+   active(true),
+   controlling_entries('am__v')
+);

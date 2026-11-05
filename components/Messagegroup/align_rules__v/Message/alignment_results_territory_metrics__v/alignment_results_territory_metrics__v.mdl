@@ -1,0 +1,6 @@
+Message alignment_results_territory_metrics__v (
+   label(),
+   active(true),
+   default_value('Territory Metrics'),
+   system_managed(false)
+);

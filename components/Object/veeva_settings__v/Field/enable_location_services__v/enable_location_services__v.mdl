@@ -1,0 +1,18 @@
+Field enable_location_services__v (
+   label('Enable Location Services'),
+   type('Boolean'),
+   active(true),
+   description('Enables location-based functionality.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(139),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

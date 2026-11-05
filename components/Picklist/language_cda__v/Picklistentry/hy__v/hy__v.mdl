@@ -1,0 +1,5 @@
+Picklistentry hy__v (
+   value('Armenian'),
+   order(3),
+   active(true)
+);

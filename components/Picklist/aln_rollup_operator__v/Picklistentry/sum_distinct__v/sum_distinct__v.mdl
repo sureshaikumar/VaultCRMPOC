@@ -1,0 +1,5 @@
+Picklistentry sum_distinct__v (
+   value('Sum Distinct'),
+   order(0),
+   active(true)
+);

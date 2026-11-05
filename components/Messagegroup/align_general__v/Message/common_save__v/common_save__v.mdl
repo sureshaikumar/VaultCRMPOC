@@ -1,0 +1,6 @@
+Message common_save__v (
+   label(),
+   active(true),
+   default_value('Save'),
+   system_managed(false)
+);

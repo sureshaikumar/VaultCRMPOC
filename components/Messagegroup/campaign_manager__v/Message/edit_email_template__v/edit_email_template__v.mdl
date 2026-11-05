@@ -1,0 +1,6 @@
+Message edit_email_template__v (
+   label(),
+   active(true),
+   default_value('Edit Email Template'),
+   system_managed(false)
+);

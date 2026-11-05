@@ -1,0 +1,5 @@
+Picklistentry foot_ulcers__v (
+   value('Foot Ulcers'),
+   order(27),
+   active(true)
+);

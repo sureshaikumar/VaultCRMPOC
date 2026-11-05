@@ -1,0 +1,6 @@
+Message medx_select_or_drop_document__v (
+   label(),
+   active(true),
+   default_value('Select or drop files here to upload'),
+   system_managed(false)
+);

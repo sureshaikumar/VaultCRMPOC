@@ -1,0 +1,8 @@
+Picklistentry chlai__v (
+   value('Clinical Haematology'),
+   order(226),
+   active(true),
+   controlling_entries('my__v',
+         'ng__v',
+         'pk__v')
+);

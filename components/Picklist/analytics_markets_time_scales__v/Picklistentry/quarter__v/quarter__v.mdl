@@ -1,0 +1,5 @@
+Picklistentry quarter__v (
+   value('Quarter'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry crm_ipad__v (
+   value('CRM iPad'),
+   order(1),
+   active(true)
+);

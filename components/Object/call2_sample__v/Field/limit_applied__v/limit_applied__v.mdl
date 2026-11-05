@@ -1,0 +1,18 @@
+Field limit_applied__v (
+   label('Limit Applied'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether Sample Limits have been applied against a Call Sample to prevent duplicate transactions from being created against a Sample Limit for a single call.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(21),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

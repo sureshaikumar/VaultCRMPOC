@@ -1,0 +1,6 @@
+Picklistentry mt-59__v (
+   value('Tarxien'),
+   order(3165),
+   active(true),
+   controlling_entries('mt__v')
+);

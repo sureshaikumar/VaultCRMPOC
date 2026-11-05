@@ -1,0 +1,4 @@
+Typefield last_open_date__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry us-nd__v (
+   value('North Dakota'),
+   order(4822),
+   active(true),
+   controlling_entries('us__v')
+);

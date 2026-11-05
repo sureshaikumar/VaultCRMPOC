@@ -1,0 +1,17 @@
+Field available_values__v (
+   label('Available Values'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('The list of available picklist values for the specified product/metric value-pair. Each value specified here must match an API value in the metric picklist.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

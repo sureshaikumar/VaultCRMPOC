@@ -1,0 +1,5 @@
+Picklistentry medical_event__v (
+   value('Medical Event'),
+   order(3),
+   active(true)
+);

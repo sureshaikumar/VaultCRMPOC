@@ -1,0 +1,6 @@
+Message model_territory_deletion_aborted__v (
+   label(),
+   active(true),
+   default_value('Model territory deletion aborted for ${entity_name}'),
+   system_managed(false)
+);

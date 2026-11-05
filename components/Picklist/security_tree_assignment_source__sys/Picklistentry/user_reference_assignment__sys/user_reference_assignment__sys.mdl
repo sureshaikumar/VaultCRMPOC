@@ -1,0 +1,5 @@
+Picklistentry user_reference_assignment__sys (
+   value('User Reference Assignment'),
+   order(1),
+   active(true)
+);

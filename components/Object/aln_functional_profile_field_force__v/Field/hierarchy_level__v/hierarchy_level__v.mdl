@@ -1,0 +1,18 @@
+Field hierarchy_level__v (
+   label('Hierarchy Level'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content('Hierarchy Level within the Field Force to which the Functional Profile should apply'),
+   list_column(true),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.aln_hierarchy_level__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry kz-15__v (
+   value('Aqtöbe oblysy'),
+   order(2495),
+   active(true),
+   controlling_entries('kz__v')
+);

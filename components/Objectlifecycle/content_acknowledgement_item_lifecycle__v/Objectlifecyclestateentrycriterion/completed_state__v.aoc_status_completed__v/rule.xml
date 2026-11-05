@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="objectLifecycleEntryCriteria.all.validateRelatedRecordEntryCrit">
+            <expression operator="function" qualifier="platform.all.validateRelatedRecord">
+                <expression operator="method" qualifier="platform.all.validateRelatedRecord" type="string">
+                    <value>EQUALS</value>
+                </expression>
+                <expression operator="argumentGroup" type="string">
+                    <value>ARGUMENT_GROUP1</value>
+                    <expression operator="argument" type="string">
+                        <value>Object.content_acknowledgement_item__v.content_acknowledgement__v</value>
+                    </expression>
+                </expression>
+                <expression operator="argumentGroup" type="string">
+                    <value>ARGUMENT_GROUP2</value>
+                    <expression operator="argument" type="string">
+                        <value>Objectlifecycle.content_acknowledgement_lifecycle__v.completed_state__v</value>
+                    </expression>
+                </expression>
+                <expression operator="argumentGroup" type="string">
+                    <value>ARGUMENT_GROUP3</value>
+                    <expression operator="argument" type="string">
+                        <value>OUTBOUND</value>
+                    </expression>
+                </expression>
+            </expression>
+        </action>
+    </actions>
+</rule>

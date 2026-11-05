@@ -1,0 +1,6 @@
+Message model_dialog_num_tgt_rule_channels__v (
+   label(),
+   active(true),
+   default_value('Model Targeting Group Channels'),
+   system_managed(false)
+);

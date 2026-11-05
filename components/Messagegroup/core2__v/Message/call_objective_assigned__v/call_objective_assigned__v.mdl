@@ -1,0 +1,6 @@
+Message call_objective_assigned__v (
+   label(),
+   active(true),
+   default_value('Call Objective Assigned'),
+   system_managed(false)
+);

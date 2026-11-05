@@ -1,0 +1,12 @@
+RECREATE Tab vof_reports__v (
+   active(true),
+   all_view_label('All Reports'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Reports'),
+   my_view_label('My Reports'),
+   object('report__sys'),
+   order(3000),
+   parent(),
+   recent_view_label('Recently Viewed Reports')
+);

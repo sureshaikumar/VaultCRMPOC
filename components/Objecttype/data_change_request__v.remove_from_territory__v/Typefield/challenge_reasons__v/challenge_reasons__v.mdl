@@ -1,0 +1,10 @@
+Typefield challenge_reasons__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_change_request_challenge_reasons__v.bad_data__v',
+         'Picklist.data_change_request_challenge_reasons__v.distance__v',
+         'Picklist.data_change_request_challenge_reasons__v.low_priority__v',
+         'Picklist.data_change_request_challenge_reasons__v.no_longer_at_location__v',
+         'Picklist.data_change_request_challenge_reasons__v.on_leave__v',
+         'Picklist.data_change_request_challenge_reasons__v.poor_access__v')
+);

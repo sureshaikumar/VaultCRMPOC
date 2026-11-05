@@ -1,0 +1,6 @@
+Message unable_to_load_teams_information__v (
+   label(),
+   active(true),
+   default_value('Unable to load teams information. Please contact your administrator.'),
+   system_managed(false)
+);

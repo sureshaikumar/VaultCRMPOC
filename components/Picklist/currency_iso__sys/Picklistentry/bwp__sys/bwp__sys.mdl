@@ -1,0 +1,5 @@
+Picklistentry bwp__sys (
+   value('BWP'),
+   order(30),
+   active(true)
+);

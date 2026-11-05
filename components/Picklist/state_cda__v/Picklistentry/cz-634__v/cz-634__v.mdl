@@ -1,0 +1,6 @@
+Picklistentry cz-634__v (
+   value('Třebíč'),
+   order(875),
+   active(true),
+   controlling_entries('cz__v')
+);

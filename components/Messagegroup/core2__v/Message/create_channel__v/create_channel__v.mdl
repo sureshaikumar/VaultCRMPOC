@@ -1,0 +1,6 @@
+Message create_channel__v (
+   label(),
+   active(true),
+   default_value('Create Channel'),
+   system_managed(false)
+);

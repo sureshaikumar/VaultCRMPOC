@@ -1,0 +1,6 @@
+Message update_or_removal__v (
+   label(),
+   active(true),
+   default_value('Update or Removal'),
+   system_managed(false)
+);

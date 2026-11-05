@@ -1,0 +1,6 @@
+Message survey_tab_submitted__v (
+   label(),
+   active(true),
+   default_value('Submitted'),
+   system_managed(false)
+);

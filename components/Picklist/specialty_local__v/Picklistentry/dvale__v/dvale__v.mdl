@@ -1,0 +1,6 @@
+Picklistentry dvale__v (
+   value('Dermatology, Venereology and Leprosy'),
+   order(410),
+   active(true),
+   controlling_entries('in__v')
+);

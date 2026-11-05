@@ -1,0 +1,19 @@
+Field how_does_gpo_support_product_launch__c (
+   label('How Does GPO Support Product Launch?'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('How does the GPO support product launch once a contract is signed?'),
+   list_column(false),
+   order(191),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

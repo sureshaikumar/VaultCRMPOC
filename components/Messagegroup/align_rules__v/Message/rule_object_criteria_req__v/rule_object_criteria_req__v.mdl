@@ -1,0 +1,6 @@
+Message rule_object_criteria_req__v (
+   label(),
+   active(true),
+   default_value('At least one Object Criterion is required to save a rule.'),
+   system_managed(false)
+);

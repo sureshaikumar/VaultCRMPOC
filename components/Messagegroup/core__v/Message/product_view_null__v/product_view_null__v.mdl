@@ -1,0 +1,6 @@
+Message product_view_null__v (
+   label(),
+   active(true),
+   default_value('The null value is only supported for the != operator.'),
+   system_managed(false)
+);

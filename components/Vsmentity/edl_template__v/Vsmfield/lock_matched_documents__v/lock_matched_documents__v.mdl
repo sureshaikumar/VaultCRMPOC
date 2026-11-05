@@ -1,0 +1,14 @@
+Vsmfield lock_matched_documents__v (
+   label('Lock Matched Documents on Steady State'),
+   active(true),
+   description('Boolean flag indicating whether EDL Items associated to this EDL Template should be locked once the template reaches steady state. When true, EDL Items stop matching documents once their matched document becomes steady state.'),
+   example_values(),
+   synonyms('lock documents',
+         'steady state lock',
+         'document lock',
+         'freeze matched docs'),
+   target('lock_matched_documents__v'),
+   target_label('Lock Matched Documents on Steady State'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

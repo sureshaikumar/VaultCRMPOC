@@ -1,0 +1,8 @@
+Objectworkflowstep ready_for_executive_approval__c (
+   label('Ready for Executive Approval?'),
+   type('decision'),
+   next_steps(),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('Route all documents for Final Executive Approval when none have been rejected, otherwise send documents for revision.')
+);

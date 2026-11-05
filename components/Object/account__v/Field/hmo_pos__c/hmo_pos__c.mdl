@@ -1,0 +1,22 @@
+Field hmo_pos__c (
+   label('HMO/POS'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content('# Lives covered by a HMO/POS offering.  Used by MCO and MCO Plan accounts.'),
+   list_column(false),
+   order(45),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

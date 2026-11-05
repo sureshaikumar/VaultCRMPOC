@@ -1,0 +1,6 @@
+Picklistentry tr-27__v (
+   value('Gaziantep'),
+   order(4485),
+   active(true),
+   controlling_entries('tr__v')
+);

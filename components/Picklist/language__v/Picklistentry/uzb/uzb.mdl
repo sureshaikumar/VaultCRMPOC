@@ -1,0 +1,5 @@
+Picklistentry uzb (
+   value('Uzbek'),
+   order(339),
+   active(true)
+);

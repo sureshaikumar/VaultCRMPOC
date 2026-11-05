@@ -1,0 +1,6 @@
+Picklistentry hyper__v (
+   value('Hypertension'),
+   order(730),
+   active(true),
+   controlling_entries('kw__v')
+);

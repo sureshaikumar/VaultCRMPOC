@@ -1,0 +1,12 @@
+RECREATE Picklist commercial_insight_source__v (
+   label('Commercial Insight Source'),
+   active(true),
+   Picklistentry(@Picklistentry/call__v.mdl),
+   Picklistentry(@Picklistentry/event__v.mdl),
+   Picklistentry(@Picklistentry/congress__v.mdl),
+   Picklistentry(@Picklistentry/advisory_board__v.mdl),
+   Picklistentry(@Picklistentry/digital__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

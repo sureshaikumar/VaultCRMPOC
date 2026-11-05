@@ -1,0 +1,4 @@
+Typefield primary_address_reconcile__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ma-07__v (
+   value('Marrakech-Safi'),
+   order(2772),
+   active(true),
+   controlling_entries('ma__v')
+);

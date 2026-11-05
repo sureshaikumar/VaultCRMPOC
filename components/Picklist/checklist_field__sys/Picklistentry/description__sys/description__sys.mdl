@@ -1,0 +1,5 @@
+Picklistentry description__sys (
+   value('Description'),
+   order(2),
+   active(true)
+);

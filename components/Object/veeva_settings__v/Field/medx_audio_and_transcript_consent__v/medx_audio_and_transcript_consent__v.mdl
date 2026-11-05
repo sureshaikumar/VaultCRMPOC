@@ -1,0 +1,18 @@
+Field medx_audio_and_transcript_consent__v (
+   label('MedX Audio and Transcript Consent'),
+   type('Picklist'),
+   active(true),
+   description('Determines the method of consent capture for medical interaction audio and transcript.'),
+   required(false),
+   unique(false),
+   help_content('Button: Agree button is required to begin audio recording. Signature: Signature capture is required to begin audio recording.'),
+   list_column(false),
+   order(343),
+   multi_value(false),
+   picklist('Picklist.medx_audio_and_transcript_consent__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

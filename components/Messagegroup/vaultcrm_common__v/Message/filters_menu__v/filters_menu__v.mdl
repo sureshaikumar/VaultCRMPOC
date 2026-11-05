@@ -1,0 +1,6 @@
+Message filters_menu__v (
+   label(),
+   active(true),
+   default_value('Filters Menu'),
+   system_managed(false)
+);

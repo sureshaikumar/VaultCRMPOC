@@ -1,0 +1,6 @@
+Message vcrm_setup_true_import_prod_cat_not__v (
+   label(),
+   active(true),
+   default_value('The Import Product Catalog field has to be set to Yes if the Manage My Setup Products field is set to Yes.'),
+   system_managed(false)
+);

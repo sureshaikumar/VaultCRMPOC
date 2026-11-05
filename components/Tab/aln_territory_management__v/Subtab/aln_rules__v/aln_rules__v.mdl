@@ -1,0 +1,10 @@
+Subtab aln_rules__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Rules'),
+   order(400),
+   parent('aln_territory_management__v'),
+   send_session_via_post_message(true),
+   url(@url.txt)
+);

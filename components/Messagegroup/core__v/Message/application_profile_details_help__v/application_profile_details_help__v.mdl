@@ -1,0 +1,6 @@
+Message application_profile_details_help__v (
+   label(),
+   active(true),
+   default_value('Use this tab to modify details for the application profile.'),
+   system_managed(false)
+);

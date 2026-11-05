@@ -1,0 +1,4 @@
+Typefield tablet_object_exclude_list__v (
+   source('standard'),
+   required(false)
+);

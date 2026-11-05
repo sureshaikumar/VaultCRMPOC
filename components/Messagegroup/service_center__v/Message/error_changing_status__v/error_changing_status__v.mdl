@@ -1,0 +1,6 @@
+Message error_changing_status__v (
+   label(),
+   active(true),
+   default_value('Error Changing Status'),
+   system_managed(false)
+);

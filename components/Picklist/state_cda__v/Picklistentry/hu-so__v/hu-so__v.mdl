@@ -1,0 +1,6 @@
+Picklistentry hu-so__v (
+   value('Somogy'),
+   order(1905),
+   active(true),
+   controlling_entries('hu__v')
+);

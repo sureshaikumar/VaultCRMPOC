@@ -1,0 +1,9 @@
+RECREATE Picklist implicit_filter_location__v (
+   label('Location'),
+   active(true),
+   Picklistentry(@Picklistentry/profile__v.mdl),
+   Picklistentry(@Picklistentry/org_default__v.mdl),
+   Picklistentry(@Picklistentry/territory__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

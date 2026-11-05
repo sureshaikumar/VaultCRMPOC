@@ -1,0 +1,6 @@
+Picklistentry si-046__v (
+   value('Kobarid'),
+   order(4020),
+   active(true),
+   controlling_entries('si__v')
+);

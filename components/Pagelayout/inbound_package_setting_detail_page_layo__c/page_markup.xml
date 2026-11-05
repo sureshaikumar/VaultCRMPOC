@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.vault_package_setting__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="last_initiated_by__sys" />
+            <vault:field reference="vault_package_step__v" />
+            <vault:field reference="setting_type__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

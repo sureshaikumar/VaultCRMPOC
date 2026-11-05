@@ -1,0 +1,9 @@
+RECREATE Pagelink checklist_respondent__sys (
+   label('Checklist Respondent'),
+   url('https://{{Vault.domain}}/ui/checklist/{{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.checklist__sys'),
+   active(true),
+   disable_type_select(false)
+);

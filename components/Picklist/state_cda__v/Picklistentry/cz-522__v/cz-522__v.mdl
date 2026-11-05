@@ -1,0 +1,6 @@
+Picklistentry cz-522__v (
+   value('Jičín'),
+   order(862),
+   active(true),
+   controlling_entries('cz__v')
+);

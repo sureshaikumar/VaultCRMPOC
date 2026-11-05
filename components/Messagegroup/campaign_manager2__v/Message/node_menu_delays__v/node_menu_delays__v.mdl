@@ -1,0 +1,6 @@
+Message node_menu_delays__v (
+   label(),
+   active(true),
+   default_value('Delays'),
+   system_managed(false)
+);

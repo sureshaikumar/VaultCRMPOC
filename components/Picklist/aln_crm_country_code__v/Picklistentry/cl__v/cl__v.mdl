@@ -1,0 +1,5 @@
+Picklistentry cl__v (
+   value('Chile'),
+   order(45),
+   active(true)
+);

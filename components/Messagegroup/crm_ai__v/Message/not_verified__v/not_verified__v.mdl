@@ -1,0 +1,6 @@
+Message not_verified__v (
+   label(),
+   active(true),
+   default_value('Not Verified'),
+   system_managed(false)
+);

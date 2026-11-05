@@ -1,0 +1,10 @@
+Picklistentry poepd__v (
+   value('Pediatric Ophthalmology'),
+   order(1427),
+   active(true),
+   controlling_entries('am__v',
+         'gr__v',
+         'sk__v',
+         'ua__v',
+         'us__v')
+);

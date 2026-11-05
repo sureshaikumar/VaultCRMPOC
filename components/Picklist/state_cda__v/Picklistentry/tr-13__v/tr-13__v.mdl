@@ -1,0 +1,6 @@
+Picklistentry tr-13__v (
+   value('Bitlis'),
+   order(4471),
+   active(true),
+   controlling_entries('tr__v')
+);

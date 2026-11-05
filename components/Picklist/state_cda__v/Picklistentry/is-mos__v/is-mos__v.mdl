@@ -1,0 +1,6 @@
+Picklistentry is-mos__v (
+   value('Mosfellsbær'),
+   order(2123),
+   active(true),
+   controlling_entries('is__v')
+);

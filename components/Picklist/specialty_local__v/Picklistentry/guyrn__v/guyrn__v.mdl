@@ -1,0 +1,6 @@
+Picklistentry guyrn__v (
+   value('Gynecological Urology'),
+   order(649),
+   active(true),
+   controlling_entries('sk__v')
+);

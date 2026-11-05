@@ -1,0 +1,6 @@
+Message error_email_template_product_validation__v (
+   label(),
+   active(true),
+   default_value('Product validation failure'),
+   system_managed(false)
+);

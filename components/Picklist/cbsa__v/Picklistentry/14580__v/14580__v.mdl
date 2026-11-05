@@ -1,0 +1,5 @@
+Picklistentry 14580__v (
+   value('Bozeman, MT Micropolitan Statistical Area'),
+   order(914),
+   active(true)
+);

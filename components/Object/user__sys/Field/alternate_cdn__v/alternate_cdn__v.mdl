@@ -1,0 +1,18 @@
+Field alternate_cdn__v (
+   label('Alternate CDN'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Leave to "None" if user should rely on the Global CDN for content Sync. Select the appropriate value if the content sync needs to be routed through an alternate CDN instead.'),
+   list_column(false),
+   order(55),
+   multi_value(false),
+   picklist('Picklist.alternate_cdn__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

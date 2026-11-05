@@ -1,0 +1,6 @@
+Picklistentry npeeo__v (
+   value('Neonatal Pediatrics'),
+   order(993),
+   active(true),
+   controlling_entries('pk__v')
+);

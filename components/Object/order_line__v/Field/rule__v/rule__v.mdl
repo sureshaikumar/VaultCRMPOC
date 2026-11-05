@@ -1,0 +1,19 @@
+Field rule__v (
+   label('Rule'),
+   type('String'),
+   active(true),
+   description('The pricing rule that was used to determine the price of this line item. Copied over from Pricing_Rule_vod.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(49),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message reset__v (
+   label(),
+   active(true),
+   default_value('Reset'),
+   system_managed(false)
+);

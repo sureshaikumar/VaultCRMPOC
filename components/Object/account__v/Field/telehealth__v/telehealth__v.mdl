@@ -1,0 +1,17 @@
+Field telehealth__v (
+   label('Telehealth'),
+   type('Boolean'),
+   active(true),
+   description('Flag to indicate whether a clinician offers telehealth services over audio and/or video.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(214),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

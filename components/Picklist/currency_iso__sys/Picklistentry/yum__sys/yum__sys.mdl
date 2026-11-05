@@ -1,0 +1,5 @@
+Picklistentry yum__sys (
+   value('YUM'),
+   order(223),
+   active(true)
+);

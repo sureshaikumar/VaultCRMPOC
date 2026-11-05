@@ -1,0 +1,8 @@
+RECREATE Permissionset cee_ai_admin_permissions__c (
+   label('CEE - AI Admin Permissions'),
+   active(true),
+   description(),
+   object.ai_settings__v.field_actions('read'),
+   object.ai_settings__v.object_actions('read'),
+   vault_actions.search('suggest')
+);

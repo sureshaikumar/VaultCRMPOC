@@ -1,0 +1,5 @@
+Picklistentry australia_brisbane__sys (
+   value('(GMT+10:00) Australian Eastern Standard Time (Queensland) (Australia/Brisbane)'),
+   order(286),
+   active(true)
+);

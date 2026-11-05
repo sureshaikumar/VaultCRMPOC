@@ -1,0 +1,5 @@
+Picklistentry 42620__v (
+   value('Searcy, AR Micropolitan Statistical Area'),
+   order(566),
+   active(true)
+);

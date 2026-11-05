@@ -1,0 +1,11 @@
+RECREATE Atomicsecurity aln_territory_model__v.aln_territory_model_lifecycle__v.feedback__v.atomic_security__c (
+   label('Model Territory-Territory Model Li-Feedback'),
+   active(true),
+   object('Object.aln_territory_model__v'),
+   object_lifecycle('Objectlifecycle.aln_territory_model_lifecycle__v'),
+   state('Objectlifecyclestate.feedback__v'),
+   Actionsecurity(@Actionsecurity/aln_feedback_manager__v.execute__v.action_security__c.mdl),
+   Actionsecurity(@Actionsecurity/aln_feedback_manager__v.hide__v.action_security__c.mdl),
+   Actionsecurity(@Actionsecurity/aln_feedback_rep__v.execute__v.action_security__c.mdl),
+   Actionsecurity(@Actionsecurity/aln_feedback_rep__v.hide__v.action_security__c.mdl)
+);

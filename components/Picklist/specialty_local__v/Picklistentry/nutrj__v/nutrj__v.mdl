@@ -1,0 +1,6 @@
+Picklistentry nutrj__v (
+   value('Nutritionology'),
+   order(1069),
+   active(true),
+   controlling_entries('ge__v')
+);

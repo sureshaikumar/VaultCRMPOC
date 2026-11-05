@@ -1,0 +1,20 @@
+Field enable_offline_call_objectives__v (
+   label('ENABLE_OFFLINE_CALL_OBJECTIVES'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Checking this box will display the Call Objectives widget or tab on iRep for iOS only.
+
+If, however, the TAB_NAV_DISPLAY Veeva Setting is populated or contains a Veeva Message whose text field is populated, this setting will be ignored.'),
+   list_column(false),
+   order(145),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

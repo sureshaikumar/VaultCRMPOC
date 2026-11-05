@@ -1,0 +1,6 @@
+Message no_activity__v (
+   label(),
+   active(true),
+   default_value('No Activity'),
+   system_managed(false)
+);

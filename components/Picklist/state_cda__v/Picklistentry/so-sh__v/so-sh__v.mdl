@@ -1,0 +1,6 @@
+Picklistentry so-sh__v (
+   value('Shabeellaha Hoose'),
+   order(4237),
+   active(true),
+   controlling_entries('so__v')
+);

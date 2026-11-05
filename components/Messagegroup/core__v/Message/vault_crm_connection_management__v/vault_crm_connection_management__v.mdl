@@ -1,0 +1,6 @@
+Message vault_crm_connection_management__v (
+   label(),
+   active(true),
+   default_value('Vault Crm Connection Management'),
+   system_managed(false)
+);

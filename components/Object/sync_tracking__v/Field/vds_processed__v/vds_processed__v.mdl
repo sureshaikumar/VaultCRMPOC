@@ -1,0 +1,18 @@
+Field vds_processed__v (
+   label('VDS Processed'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Checked if the download of VDS from the server to VMobile completed with no errors. This will always be unchecked for orgs that are not configured for VDS.'),
+   list_column(false),
+   order(21),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

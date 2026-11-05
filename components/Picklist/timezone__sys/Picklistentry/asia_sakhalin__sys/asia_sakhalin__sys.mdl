@@ -1,0 +1,5 @@
+Picklistentry asia_sakhalin__sys (
+   value('(GMT+11:00) Sakhalin Time (Asia/Sakhalin)'),
+   order(298),
+   active(true)
+);

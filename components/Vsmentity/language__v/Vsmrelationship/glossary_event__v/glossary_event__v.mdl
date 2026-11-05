@@ -1,0 +1,13 @@
+Vsmrelationship glossary_event__v (
+   label('Glossary Event'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Glossary events linked to this language, representing workflow or lifecycle events on glossary content in this language. Use to audit or track glossary activity by language.'),
+   join_object(),
+   synonyms('glossary events',
+         'language events',
+         'events for this language'),
+   target('glossary_event__sysr'),
+   target_label('Glossary Events'),
+   target_object('glossary_event__sys')
+);

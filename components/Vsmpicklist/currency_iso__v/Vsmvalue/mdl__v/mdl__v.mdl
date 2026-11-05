@@ -1,0 +1,10 @@
+Vsmvalue mdl__v (
+   label('MDL'),
+   active(true),
+   description('The Moldovan Leu (MDL), the official currency of Moldova, used for transactions, pricing, and financial records involving Moldovan markets.'),
+   synonyms('Moldovan leu',
+         'Moldova leu',
+         'MDL'),
+   target('mdl__sys'),
+   target_label('MDL')
+);

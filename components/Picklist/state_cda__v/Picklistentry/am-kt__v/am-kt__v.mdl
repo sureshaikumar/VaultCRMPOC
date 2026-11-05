@@ -1,0 +1,6 @@
+Picklistentry am-kt__v (
+   value('Kotayk'''),
+   order(73),
+   active(true),
+   controlling_entries('am__v')
+);

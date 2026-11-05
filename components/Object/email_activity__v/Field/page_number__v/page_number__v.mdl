@@ -1,0 +1,22 @@
+Field page_number__v (
+   label('Page Number'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9999),
+   min_value(-9999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

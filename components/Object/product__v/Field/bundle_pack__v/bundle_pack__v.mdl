@@ -1,0 +1,18 @@
+Field bundle_pack__v (
+   label('Bundle Pack'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used to identify Product Groups that represent a Bundle Pack in Order Management'),
+   list_column(false),
+   order(9),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

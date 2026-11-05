@@ -1,0 +1,14 @@
+RECREATE Agent conversational_agent__v (
+   label('Conversational Agent'),
+   active(false),
+   agent_user('[agent]conversational_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.ConversationalAgent'),
+   description('This agent owns the conversational experience that users have what the Chat Interface'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/converse__v.mdl)
+);

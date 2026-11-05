@@ -1,0 +1,20 @@
+Field sender__v (
+   label('Sender'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('The sender, or initiator, of an email message record.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('The sender, or initiator, of an email message record.'),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

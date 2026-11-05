@@ -1,0 +1,18 @@
+Field sample_quantity_bound__v (
+   label('Sample Quantity Bound'),
+   type('Boolean'),
+   active(true),
+   description('The Sample Quantity Bound checkbox determines if the User will be restricted to only selecting the values defined in the Sample Quantity field or if the User has the ability to edit the Quantity picklist and enter in a value that is not contained in the S'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(43),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

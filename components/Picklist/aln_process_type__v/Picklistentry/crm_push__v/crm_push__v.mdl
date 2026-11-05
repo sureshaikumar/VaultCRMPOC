@@ -1,0 +1,5 @@
+Picklistentry crm_push__v (
+   value('Push to CRM'),
+   order(4),
+   active(true)
+);

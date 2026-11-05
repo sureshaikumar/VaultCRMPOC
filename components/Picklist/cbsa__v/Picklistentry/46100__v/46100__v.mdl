@@ -1,0 +1,5 @@
+Picklistentry 46100__v (
+   value('Tullahoma, TN Micropolitan Statistical Area'),
+   order(111),
+   active(true)
+);

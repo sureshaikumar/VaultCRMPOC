@@ -1,0 +1,41 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_business_rule__v.em_per_event_expense_limit_rule__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Rule Definition" name="rule_definition__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="run_rule_event_action__v" />
+            <vault:field reference="expense_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Rule Parameters" name="rule_parameters__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="expense_category__v" />
+            <vault:field reference="event_status__v" />
+            <vault:spacer />
+            <vault:field reference="warning_type__v" />
+            <vault:field reference="warning_text__v" />
+            <vault:field reference="comment_required__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Event Business Rule Configurations" name="event_business_rule_configurations__c">
+        <vault:relatedObject relationship="em_business_rule_configuration__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="rule_start_date__v" width="200px" />
+            <vault:field reference="rule_end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

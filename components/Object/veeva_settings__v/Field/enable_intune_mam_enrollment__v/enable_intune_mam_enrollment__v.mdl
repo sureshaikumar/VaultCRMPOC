@@ -1,0 +1,18 @@
+Field enable_intune_mam_enrollment__v (
+   label('Enable Intune MAM Enrollment'),
+   type('Boolean'),
+   active(true),
+   description('Setting that determines whether mobile applications should enforce Intune Mobile Application Management (MAM). When enabled, the CRM app will verify if the device and user are subject to Intune App Protection Policies.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(338),
+   default_value('FALSE'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

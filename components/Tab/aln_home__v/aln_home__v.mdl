@@ -1,0 +1,10 @@
+RECREATE Tab aln_home__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Home'),
+   order(6400),
+   parent(),
+   send_session_via_post_message(true),
+   url(@url.txt)
+);

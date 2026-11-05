@@ -1,0 +1,6 @@
+Message account_territory_cant_align_terr_excl__v (
+   label(),
+   active(true),
+   default_value('Account ${account_name} cannot be aligned to Territory ${territory} between ${start_date} and ${end_date} due to an exclusion.'),
+   system_managed(false)
+);

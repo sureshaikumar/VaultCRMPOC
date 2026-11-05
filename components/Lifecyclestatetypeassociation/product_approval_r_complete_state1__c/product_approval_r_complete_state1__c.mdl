@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation product_approval_r_complete_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.product_approval_request_lifecycle__c'),
+   object_lifecycle_state(),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

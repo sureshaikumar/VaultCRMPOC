@@ -1,0 +1,8 @@
+RECREATE Picklist microsoft_member_type__v (
+   label('Microsoft Member Type'),
+   active(true),
+   Picklistentry(@Picklistentry/owner__v.mdl),
+   Picklistentry(@Picklistentry/member__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <actions>
+            <action type="CHECK_ENTRY_CRITERIA">
+                <EntryCriterion type="PropertyMeetsRuleCondition">
+                    <expression operator="in">
+                        <expression operator="field" type="string">
+                            <value>Document.format__v</value>
+                        </expression>
+                        <expression operator="value" type="string">
+                            <value>application/vnd.ms-powerpoint</value>
+                        </expression>
+                        <expression operator="value" type="string">
+                            <value>application/vnd.openxmlformats-officedocument.presentationml.presentation</value>
+                        </expression>
+                    </expression>
+                </EntryCriterion>
+            </action>
+            <action type="CHECK_ENTRY_CRITERIA">
+                <EntryCriterion type="PropertyMeetsRuleCondition">
+                    <expression operator="lte">
+                        <expression operator="field" type="number">
+                            <value>Document.size__v</value>
+                        </expression>
+                        <expression operator="value" type="number">
+                            <value>16777216</value>
+                        </expression>
+                    </expression>
+                </EntryCriterion>
+            </action>
+        </actions>
+    </rule>
+</rules>

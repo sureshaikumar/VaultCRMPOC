@@ -1,0 +1,6 @@
+Message home_git_commit__v (
+   label(),
+   active(true),
+   default_value('Latest git commit hash: {0}'),
+   system_managed(false)
+);

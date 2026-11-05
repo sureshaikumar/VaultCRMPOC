@@ -1,0 +1,6 @@
+Picklistentry ua-56__v (
+   value('Rivnenska oblast'),
+   order(4634),
+   active(true),
+   controlling_entries('ua__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_thimphu__sys (
+   value('(GMT+06:00) Bhutan Time (Asia/Thimphu)'),
+   order(239),
+   active(true)
+);

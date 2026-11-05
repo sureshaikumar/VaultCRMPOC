@@ -1,0 +1,6 @@
+Message providers_and_facilities__v (
+   label(),
+   active(true),
+   default_value('Providers and Facilities'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message product_specialty_no_records_error__v (
+   label(),
+   active(true),
+   default_value('No Records Generated'),
+   system_managed(false)
+);

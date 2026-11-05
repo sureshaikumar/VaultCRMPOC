@@ -1,0 +1,6 @@
+Picklistentry gicen__v (
+   value('General Intensive Care'),
+   order(598),
+   active(true),
+   controlling_entries('il__v')
+);

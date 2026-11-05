@@ -1,0 +1,6 @@
+Message continue_adding__v (
+   label(),
+   active(true),
+   default_value('Continue Adding'),
+   system_managed(false)
+);

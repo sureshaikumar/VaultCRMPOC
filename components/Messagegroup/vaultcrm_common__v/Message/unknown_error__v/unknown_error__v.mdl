@@ -1,0 +1,6 @@
+Message unknown_error__v (
+   label(),
+   active(true),
+   default_value('An unknown error occurred.'),
+   system_managed(false)
+);

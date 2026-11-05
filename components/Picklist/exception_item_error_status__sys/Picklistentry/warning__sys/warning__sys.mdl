@@ -1,0 +1,5 @@
+Picklistentry warning__sys (
+   value('WARNING'),
+   order(2),
+   active(true)
+);

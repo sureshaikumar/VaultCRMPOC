@@ -1,0 +1,6 @@
+Message mccp_feedback_total__v (
+   label(),
+   active(true),
+   default_value('Total'),
+   system_managed(false)
+);

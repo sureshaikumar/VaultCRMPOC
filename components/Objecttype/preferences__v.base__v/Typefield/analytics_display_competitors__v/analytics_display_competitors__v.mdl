@@ -1,0 +1,4 @@
+Typefield analytics_display_competitors__v (
+   source('standard'),
+   required(false)
+);

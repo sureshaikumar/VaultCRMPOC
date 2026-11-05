@@ -1,0 +1,19 @@
+Field whatsapp_button_1_crm_action__v (
+   label('WhatsApp Button 1 CRM Action'),
+   type('String'),
+   active(true),
+   description('Used to map the button to the corresponding CRM Action.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used to map the button to the corresponding CRM Action.'),
+   list_column(false),
+   order(46),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

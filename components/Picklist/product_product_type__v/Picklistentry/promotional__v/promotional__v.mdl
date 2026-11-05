@@ -1,0 +1,5 @@
+Picklistentry promotional__v (
+   value('Promotional'),
+   order(6),
+   active(true)
+);

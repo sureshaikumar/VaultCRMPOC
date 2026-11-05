@@ -1,0 +1,6 @@
+Message map_legend_hco__v (
+   label(),
+   active(true),
+   default_value('HCOs'),
+   system_managed(false)
+);

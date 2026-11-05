@@ -1,0 +1,7 @@
+Picklistentry hoenn__v (
+   value('Hematology Oncology'),
+   order(690),
+   active(true),
+   controlling_entries('bh__v',
+         'om__v')
+);

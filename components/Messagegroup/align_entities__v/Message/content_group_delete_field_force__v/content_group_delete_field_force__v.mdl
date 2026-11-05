@@ -1,0 +1,6 @@
+Message content_group_delete_field_force__v (
+   label(),
+   active(true),
+   default_value('Unassigning this Content Group will impact:'),
+   system_managed(false)
+);

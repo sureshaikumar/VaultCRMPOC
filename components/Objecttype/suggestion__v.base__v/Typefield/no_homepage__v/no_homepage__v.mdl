@@ -1,0 +1,4 @@
+Typefield no_homepage__v (
+   source('standard'),
+   required(false)
+);

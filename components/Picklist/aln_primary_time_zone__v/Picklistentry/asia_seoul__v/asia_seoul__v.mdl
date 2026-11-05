@@ -1,0 +1,5 @@
+Picklistentry asia_seoul__v (
+   value('Asia/Seoul'),
+   order(70),
+   active(true)
+);

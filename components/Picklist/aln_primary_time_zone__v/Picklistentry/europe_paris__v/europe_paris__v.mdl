@@ -1,0 +1,5 @@
+Picklistentry europe_paris__v (
+   value('Europe/Paris'),
+   order(33),
+   active(true)
+);

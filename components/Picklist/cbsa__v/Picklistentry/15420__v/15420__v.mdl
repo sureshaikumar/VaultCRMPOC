@@ -1,0 +1,5 @@
+Picklistentry 15420__v (
+   value('Burley, ID Micropolitan Statistical Area'),
+   order(945),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message no_email_templates_available__v (
+   label(),
+   active(true),
+   default_value('No Email Templates Available'),
+   system_managed(false)
+);

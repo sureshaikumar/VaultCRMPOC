@@ -1,0 +1,6 @@
+Picklistentry ma-ken__v (
+   value('Kénitra'),
+   order(2809),
+   active(true),
+   controlling_entries('ma__v')
+);

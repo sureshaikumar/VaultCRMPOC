@@ -1,0 +1,4 @@
+Typefield ctrl_patient_journey__v (
+   source('standard'),
+   required(false)
+);

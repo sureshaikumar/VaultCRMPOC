@@ -1,0 +1,6 @@
+Picklistentry md-st__v (
+   value('Străşeni'),
+   order(2902),
+   active(true),
+   controlling_entries('md__v')
+);

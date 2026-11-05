@@ -1,0 +1,6 @@
+Message country_filter_duplicated_country_filter__v (
+   label(),
+   active(true),
+   default_value('A mapping record already exists for this Vault CRM Instance and {0}.'),
+   system_managed(false)
+);

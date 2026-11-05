@@ -1,0 +1,6 @@
+Picklistentry zm-02__v (
+   value('Central'),
+   order(5027),
+   active(true),
+   controlling_entries('zm__v')
+);

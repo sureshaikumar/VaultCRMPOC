@@ -1,0 +1,6 @@
+Picklistentry smoae__v (
+   value('Social Medicine, Organization and Economics of Healthcare'),
+   order(1779),
+   active(true),
+   controlling_entries('ba__v')
+);

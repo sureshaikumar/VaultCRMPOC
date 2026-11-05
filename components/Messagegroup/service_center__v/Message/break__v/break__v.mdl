@@ -1,0 +1,6 @@
+Message break__v (
+   label(),
+   active(true),
+   default_value('Break'),
+   system_managed(false)
+);

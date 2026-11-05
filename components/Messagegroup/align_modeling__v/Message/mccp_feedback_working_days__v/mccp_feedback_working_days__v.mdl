@@ -1,0 +1,6 @@
+Message mccp_feedback_working_days__v (
+   label(),
+   active(true),
+   default_value('Working Days'),
+   system_managed(false)
+);

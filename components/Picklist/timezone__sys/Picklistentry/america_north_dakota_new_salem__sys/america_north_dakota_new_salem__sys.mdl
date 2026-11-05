@@ -1,0 +1,5 @@
+Picklistentry america_north_dakota_new_salem__sys (
+   value('(GMT-06:00) Central Standard Time (America/North_Dakota/New_Salem)'),
+   order(47),
+   active(true)
+);

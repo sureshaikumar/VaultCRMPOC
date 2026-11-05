@@ -1,0 +1,6 @@
+Picklistentry dz-55__v (
+   value('Touggourt'),
+   order(1036),
+   active(true),
+   controlling_entries('dz__v')
+);

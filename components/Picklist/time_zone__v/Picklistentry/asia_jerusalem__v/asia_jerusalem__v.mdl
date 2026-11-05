@@ -1,0 +1,5 @@
+Picklistentry asia_jerusalem__v (
+   value('Israel Time'),
+   order(47),
+   active(true)
+);

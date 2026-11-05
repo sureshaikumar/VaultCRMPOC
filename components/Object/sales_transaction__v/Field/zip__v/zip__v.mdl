@@ -1,0 +1,19 @@
+Field zip__v (
+   label('Zip'),
+   type('String'),
+   active(true),
+   description('The Zip code is leveraged to store the Zip Code where the Sales Transaction took place.'),
+   required(false),
+   unique(false),
+   max_length(6),
+   help_content(),
+   list_column(false),
+   order(227),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

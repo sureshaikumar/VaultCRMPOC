@@ -1,0 +1,6 @@
+Message select_territory_alert__v (
+   label(),
+   active(true),
+   default_value('Select the parent territory of the field team who should own any field actions for the targets'),
+   system_managed(false)
+);

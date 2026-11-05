@@ -1,0 +1,3 @@
+Typeaction reassign_owners__v (
+   action('business_event__v.reassign_owners__v')
+);

@@ -1,0 +1,6 @@
+Objectlifecyclepermission assigned_to_edit__c (
+   states('Objectlifecyclestate.complete_state__c',
+         'Objectlifecyclestate.open_state__c'),
+   role('Objectlifecyclerole.assigned_to__v'),
+   permission('Edit')
+);

@@ -1,0 +1,6 @@
+Picklistentry cn-sh__v (
+   value('Shanghai Shi'),
+   order(718),
+   active(true),
+   controlling_entries('cn__v')
+);

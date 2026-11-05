@@ -1,0 +1,10 @@
+Vsmvalue lyd__v (
+   label('LYD'),
+   active(true),
+   description('The Libyan Dinar (LYD), the official currency of Libya, used for transactions, pricing, and financial records involving Libyan markets.'),
+   synonyms('Libyan dinar',
+         'Libya dinar',
+         'LYD'),
+   target('lyd__sys'),
+   target_label('LYD')
+);

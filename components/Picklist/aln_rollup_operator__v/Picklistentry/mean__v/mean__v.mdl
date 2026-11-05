@@ -1,0 +1,5 @@
+Picklistentry mean__v (
+   value('Mean'),
+   order(2),
+   active(true)
+);

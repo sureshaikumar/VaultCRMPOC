@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate suggestedlinks__v (
+   label('suggestedLinks'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Suggested Links action on "${docNameNoLink}" completed'),
+   notification('Suggested Links action on <b><a href= ${docLinkAnnotateMode}>${docNameNoLink}</a></b> has completed.'),
+   email_body('Suggested Links action on <b><a href= ${docLinkAnnotateMode}>${docNameNoLink}</a></b> (v${docMajor}.${docMinor}) has completed.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

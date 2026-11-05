@@ -1,0 +1,5 @@
+Picklistentry front_of_counter__v (
+   value('Front of counter'),
+   order(0),
+   active(true)
+);

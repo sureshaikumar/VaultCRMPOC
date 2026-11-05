@@ -1,0 +1,6 @@
+Picklistentry si-088__v (
+   value('Osilnica'),
+   order(4062),
+   active(true),
+   controlling_entries('si__v')
+);

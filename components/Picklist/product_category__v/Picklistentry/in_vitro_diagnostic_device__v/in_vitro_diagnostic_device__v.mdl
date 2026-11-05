@@ -1,0 +1,5 @@
+Picklistentry in_vitro_diagnostic_device__v (
+   value('In Vitro Diagnostic Device'),
+   order(4),
+   active(true)
+);

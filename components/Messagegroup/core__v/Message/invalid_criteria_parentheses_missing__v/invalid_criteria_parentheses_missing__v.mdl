@@ -1,0 +1,6 @@
+Message invalid_criteria_parentheses_missing__v (
+   label(),
+   active(true),
+   default_value('Parentheses missing from successive AND and OR operators.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message user_made_responsible_for_check_ins__v (
+   label(),
+   active(true),
+   default_value('${user} has been made responsible for Check Ins'),
+   system_managed(false)
+);

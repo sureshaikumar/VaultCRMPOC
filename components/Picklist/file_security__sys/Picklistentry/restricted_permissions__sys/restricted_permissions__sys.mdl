@@ -1,0 +1,5 @@
+Picklistentry restricted_permissions__sys (
+   value('Restricted Permissions'),
+   order(3),
+   active(true)
+);

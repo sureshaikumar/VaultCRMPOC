@@ -1,0 +1,6 @@
+Picklistentry ht-ce__v (
+   value('Centre'),
+   order(1864),
+   active(true),
+   controlling_entries('ht__v')
+);

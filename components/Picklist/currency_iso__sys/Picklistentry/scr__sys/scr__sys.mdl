@@ -1,0 +1,5 @@
+Picklistentry scr__sys (
+   value('SCR'),
+   order(156),
+   active(true)
+);

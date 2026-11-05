@@ -1,0 +1,6 @@
+Message vcrm_instance_import_product_cat_help__v (
+   label(),
+   active(true),
+   default_value('Import Vault CRM products from the Vault CRM product__v object.<br/>Field Mapping must be setup to indicate which Vault CRM field<br/>to map to the Align External Id field for record matching.'),
+   system_managed(false)
+);

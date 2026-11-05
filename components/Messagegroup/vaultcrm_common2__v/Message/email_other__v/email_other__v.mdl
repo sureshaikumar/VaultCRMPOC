@@ -1,0 +1,6 @@
+Message email_other__v (
+   label(),
+   active(true),
+   default_value('Email Other'),
+   system_managed(false)
+);

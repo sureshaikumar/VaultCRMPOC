@@ -1,0 +1,6 @@
+Picklistentry me-23__v (
+   value('Petnjica'),
+   order(2929),
+   active(true),
+   controlling_entries('me__v')
+);

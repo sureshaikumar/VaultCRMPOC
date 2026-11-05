@@ -1,0 +1,19 @@
+Field whatsapp_button_2_text__v (
+   label('WhatsApp Button 2 Text'),
+   type('String'),
+   active(true),
+   description('Label shown for the second button.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

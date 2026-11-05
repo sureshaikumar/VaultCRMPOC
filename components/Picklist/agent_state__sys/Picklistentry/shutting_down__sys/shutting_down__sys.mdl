@@ -1,0 +1,5 @@
+Picklistentry shutting_down__sys (
+   value('Shutting Down'),
+   order(3),
+   active(true)
+);

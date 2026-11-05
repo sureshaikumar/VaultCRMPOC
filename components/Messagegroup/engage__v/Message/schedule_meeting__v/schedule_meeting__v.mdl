@@ -1,0 +1,6 @@
+Message schedule_meeting__v (
+   label(),
+   active(true),
+   default_value('Schedule Meeting'),
+   system_managed(false)
+);

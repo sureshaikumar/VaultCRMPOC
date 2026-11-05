@@ -1,0 +1,10 @@
+Typefield case_category__v (
+   source('standard'),
+   required(true),
+   pickentries('Picklist.case_category__v.prior_authorization__v',
+         'Picklist.case_category__v.benefits_verification__v',
+         'Picklist.case_category__v.copay_assistance__v',
+         'Picklist.case_category__v.intake__v',
+         'Picklist.case_category__v.appeal__v',
+         'Picklist.case_category__v.pharmacy_fulfillment__v')
+);

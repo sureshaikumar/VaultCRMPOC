@@ -1,0 +1,6 @@
+Picklistentry dz-37__v (
+   value('Tindouf'),
+   order(1018),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist connected_with__v (
+   label('Connected with'),
+   active(true),
+   Picklistentry(@Picklistentry/patient__v.mdl),
+   Picklistentry(@Picklistentry/caregiver__v.mdl),
+   Picklistentry(@Picklistentry/someone_else__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry 49540__v (
+   value('Yazoo City, MS Micropolitan Statistical Area'),
+   order(601),
+   active(true)
+);

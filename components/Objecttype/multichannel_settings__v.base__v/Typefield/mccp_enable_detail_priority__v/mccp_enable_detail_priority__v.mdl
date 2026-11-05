@@ -1,0 +1,4 @@
+Typefield mccp_enable_detail_priority__v (
+   source('standard'),
+   required(false)
+);

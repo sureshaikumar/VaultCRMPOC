@@ -1,0 +1,22 @@
+Field product_interactions_goal__v (
+   label('Product Interactions Goal'),
+   type('Number'),
+   active(true),
+   description('Product Activity Goal x Product Weight. If no goals then value is blank.'),
+   required(false),
+   unique(false),
+   max_value(999999999.99),
+   min_value(-999999999.99),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

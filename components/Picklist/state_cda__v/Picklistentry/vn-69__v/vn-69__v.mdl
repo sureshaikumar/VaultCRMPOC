@@ -1,0 +1,6 @@
+Picklistentry vn-69__v (
+   value('Thái Nguyên'),
+   order(4965),
+   active(true),
+   controlling_entries('vn__v')
+);

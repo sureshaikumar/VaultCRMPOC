@@ -1,0 +1,6 @@
+Picklistentry lt-43__v (
+   value('Šiaulių miestas'),
+   order(2661),
+   active(true),
+   controlling_entries('lt__v')
+);

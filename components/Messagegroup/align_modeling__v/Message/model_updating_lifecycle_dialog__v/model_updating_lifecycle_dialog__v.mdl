@@ -1,0 +1,6 @@
+Message model_updating_lifecycle_dialog__v (
+   label(),
+   active(true),
+   default_value('Updating Lifecycle'),
+   system_managed(false)
+);

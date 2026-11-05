@@ -1,0 +1,19 @@
+Field next_approver_group__v (
+   label('Next Approver Group'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(43),
+   help_content('Stores the name of the queue that is the next approver.'),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

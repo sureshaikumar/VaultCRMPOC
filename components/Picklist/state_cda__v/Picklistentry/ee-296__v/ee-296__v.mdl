@@ -1,0 +1,6 @@
+Picklistentry ee-296__v (
+   value('Keila'),
+   order(1082),
+   active(true),
+   controlling_entries('ee__v')
+);

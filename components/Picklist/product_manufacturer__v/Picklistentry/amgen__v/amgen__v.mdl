@@ -1,0 +1,5 @@
+Picklistentry amgen__v (
+   value('Amgen'),
+   order(4),
+   active(true)
+);

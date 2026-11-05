@@ -1,0 +1,19 @@
+Field middle_name_cda__v (
+   label('Middle Name'),
+   type('String'),
+   active(true),
+   description('Secondary given name or initial as officially recorded in professional or legal documents.'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content('Middle name of the professional (Person Account).'),
+   list_column(false),
+   order(60),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

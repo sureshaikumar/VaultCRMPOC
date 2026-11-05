@@ -1,0 +1,6 @@
+Picklistentry ee-338__v (
+   value('Kose'),
+   order(1087),
+   active(true),
+   controlling_entries('ee__v')
+);

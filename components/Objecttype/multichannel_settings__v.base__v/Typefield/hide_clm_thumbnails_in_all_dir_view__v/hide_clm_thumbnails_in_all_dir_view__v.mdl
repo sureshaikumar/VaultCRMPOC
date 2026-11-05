@@ -1,0 +1,4 @@
+Typefield hide_clm_thumbnails_in_all_dir_view__v (
+   source('standard'),
+   required(false)
+);

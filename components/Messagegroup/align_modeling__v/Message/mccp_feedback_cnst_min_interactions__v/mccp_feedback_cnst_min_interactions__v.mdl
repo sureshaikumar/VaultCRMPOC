@@ -1,0 +1,6 @@
+Message mccp_feedback_cnst_min_interactions__v (
+   label(),
+   active(true),
+   default_value('Plan must contain at least ${min_interactions} interactions. Current total is ${current_count}.'),
+   system_managed(false)
+);

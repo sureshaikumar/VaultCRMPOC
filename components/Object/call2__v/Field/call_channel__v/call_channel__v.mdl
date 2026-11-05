@@ -1,0 +1,18 @@
+Field call_channel__v (
+   label('Channel'),
+   type('Picklist'),
+   active(true),
+   description('Specifies the channel of communication for this interaction.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(30),
+   multi_value(false),
+   picklist('Picklist.channels__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

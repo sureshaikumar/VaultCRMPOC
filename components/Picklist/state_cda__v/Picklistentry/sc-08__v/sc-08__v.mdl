@@ -1,0 +1,6 @@
+Picklistentry sc-08__v (
+   value('Beau Vallon'),
+   order(3908),
+   active(true),
+   controlling_entries('sc__v')
+);

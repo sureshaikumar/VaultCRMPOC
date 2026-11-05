@@ -1,0 +1,6 @@
+Message consent_read_only_tooltip__v (
+   label(),
+   active(true),
+   default_value('This view is read-only. Consent status cannot be changed'),
+   system_managed(false)
+);

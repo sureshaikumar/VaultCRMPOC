@@ -1,0 +1,19 @@
+Field region__v (
+   label('Region'),
+   type('String'),
+   active(true),
+   description('Region_vod captures the two-letter or two digit region code the event came from or ‘unknown’ if it couldn’t be determined. This is reported by the Multichannel Email Engine.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

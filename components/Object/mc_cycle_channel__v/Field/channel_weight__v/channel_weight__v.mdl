@@ -1,0 +1,22 @@
+Field channel_weight__v (
+   label('Weight'),
+   type('Number'),
+   active(true),
+   description('Interaction value associated to the activities for this channel.'),
+   required(true),
+   unique(false),
+   max_value(999.99),
+   min_value(0),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

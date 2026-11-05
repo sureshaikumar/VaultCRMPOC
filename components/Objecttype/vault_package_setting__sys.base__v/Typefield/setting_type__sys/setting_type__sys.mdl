@@ -1,0 +1,4 @@
+Typefield setting_type__sys (
+   source('standard'),
+   required(true)
+);

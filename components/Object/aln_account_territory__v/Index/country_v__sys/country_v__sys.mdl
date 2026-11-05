@@ -1,0 +1,5 @@
+Index country_v__sys (
+   description(),
+   fields('country__v'),
+   label('Country')
+);

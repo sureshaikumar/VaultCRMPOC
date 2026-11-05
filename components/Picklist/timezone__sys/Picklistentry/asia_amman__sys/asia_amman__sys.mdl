@@ -1,0 +1,5 @@
+Picklistentry asia_amman__sys (
+   value('(GMT+03:00) Arabia Standard Time (Asia/Amman)'),
+   order(194),
+   active(true)
+);

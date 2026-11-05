@@ -1,0 +1,8 @@
+RECREATE Objectaction patient_attribute__v.consent_capture_action__v (
+   label('Consent Capture'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.patientcrm.actions.ConsentCaptureAction'),
+   active(true),
+   available_all_states(true)
+);

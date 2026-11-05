@@ -1,0 +1,19 @@
+Field year_to_date_reset_month__v (
+   label('Year to Date Reset Month'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Month of YTD caps reset.'),
+   list_column(false),
+   order(36),
+   multi_value(false),
+   picklist('Picklist.em_speaker_year_to_date_reset_month__v'),
+   default_value('{1__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

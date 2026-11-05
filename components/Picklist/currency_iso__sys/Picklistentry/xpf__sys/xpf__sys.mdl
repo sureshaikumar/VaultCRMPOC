@@ -1,0 +1,5 @@
+Picklistentry xpf__sys (
+   value('XPF'),
+   order(216),
+   active(true)
+);

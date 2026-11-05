@@ -1,0 +1,5 @@
+Picklistentry 49180__v (
+   value('Winston-Salem, NC Metropolitan Statistical Area'),
+   order(553),
+   active(true)
+);

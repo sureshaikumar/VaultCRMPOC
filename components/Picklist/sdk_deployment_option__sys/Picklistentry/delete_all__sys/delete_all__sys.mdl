@@ -1,0 +1,5 @@
+Picklistentry delete_all__sys (
+   value('Delete All'),
+   order(1),
+   active(true)
+);

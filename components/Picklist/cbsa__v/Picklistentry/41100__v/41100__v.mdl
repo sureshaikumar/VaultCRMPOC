@@ -1,0 +1,5 @@
+Picklistentry 41100__v (
+   value('St. George, UT Metropolitan Statistical Area'),
+   order(311),
+   active(true)
+);

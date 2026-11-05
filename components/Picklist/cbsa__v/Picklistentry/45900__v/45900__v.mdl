@@ -1,0 +1,5 @@
+Picklistentry 45900__v (
+   value('Traverse City, MI Micropolitan Statistical Area'),
+   order(65),
+   active(true)
+);

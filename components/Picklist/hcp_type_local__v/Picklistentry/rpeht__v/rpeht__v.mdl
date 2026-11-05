@@ -1,0 +1,5 @@
+Picklistentry rpeht__v (
+   value('Retail Pharmacist'),
+   order(143),
+   active(true)
+);

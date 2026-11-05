@@ -1,0 +1,6 @@
+Message cancel_reason_help_text__v (
+   label(),
+   active(true),
+   default_value('Canceling this task will cancel all future tasks related to this business event target.'),
+   system_managed(false)
+);

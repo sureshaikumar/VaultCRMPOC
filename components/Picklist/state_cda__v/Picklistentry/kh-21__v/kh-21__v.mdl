@@ -1,0 +1,6 @@
+Picklistentry kh-21__v (
+   value('Taakaev [Takêv]'),
+   order(2423),
+   active(true),
+   controlling_entries('kh__v')
+);

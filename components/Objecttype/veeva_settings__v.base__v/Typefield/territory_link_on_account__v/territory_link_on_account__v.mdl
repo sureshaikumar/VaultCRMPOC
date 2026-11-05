@@ -1,0 +1,4 @@
+Typefield territory_link_on_account__v (
+   source('standard'),
+   required(false)
+);

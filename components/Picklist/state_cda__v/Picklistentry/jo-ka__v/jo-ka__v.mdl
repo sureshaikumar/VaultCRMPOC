@@ -1,0 +1,6 @@
+Picklistentry jo-ka__v (
+   value('Al Karak'),
+   order(2303),
+   active(true),
+   controlling_entries('jo__v')
+);

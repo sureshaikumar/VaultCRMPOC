@@ -1,0 +1,6 @@
+Message am_account_field_information__v (
+   label(),
+   active(true),
+   default_value('Account Field Information'),
+   system_managed(false)
+);

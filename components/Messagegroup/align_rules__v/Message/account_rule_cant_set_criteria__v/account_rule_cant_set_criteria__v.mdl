@@ -1,0 +1,6 @@
+Message account_rule_cant_set_criteria__v (
+   label(),
+   active(true),
+   default_value('Account Hierarchy criteria cannot be set for a non-Account Hierarchy rule.'),
+   system_managed(false)
+);

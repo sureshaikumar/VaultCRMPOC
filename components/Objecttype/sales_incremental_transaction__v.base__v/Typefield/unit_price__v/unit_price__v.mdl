@@ -1,0 +1,4 @@
+Typefield unit_price__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field delivery_order__v (
+   label('Delivery Order'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('When checked, this field flags the rule as delivery order specific.'),
+   list_column(false),
+   order(17),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

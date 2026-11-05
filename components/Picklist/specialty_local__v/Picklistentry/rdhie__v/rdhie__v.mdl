@@ -1,0 +1,6 @@
+Picklistentry rdhie__v (
+   value('Rheumatic Diseases'),
+   order(1750),
+   active(true),
+   controlling_entries('jo__v')
+);

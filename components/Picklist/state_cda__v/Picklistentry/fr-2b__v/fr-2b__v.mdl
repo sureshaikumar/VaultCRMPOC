@@ -1,0 +1,6 @@
+Picklistentry fr-2b__v (
+   value('Haute-Corse'),
+   order(1345),
+   active(true),
+   controlling_entries('fr__v')
+);

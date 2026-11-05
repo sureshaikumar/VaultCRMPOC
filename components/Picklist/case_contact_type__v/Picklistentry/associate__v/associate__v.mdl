@@ -1,0 +1,5 @@
+Picklistentry associate__v (
+   value('Associate'),
+   order(1),
+   active(true)
+);

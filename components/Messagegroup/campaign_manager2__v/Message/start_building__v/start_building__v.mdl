@@ -1,0 +1,6 @@
+Message start_building__v (
+   label(),
+   active(true),
+   default_value('Start Building'),
+   system_managed(false)
+);

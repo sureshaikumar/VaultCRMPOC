@@ -1,0 +1,17 @@
+Field randomize_answers__sys (
+   label('Randomize Answers'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates whether the multiple-choice answers are randomized for the question in the checklist.'),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

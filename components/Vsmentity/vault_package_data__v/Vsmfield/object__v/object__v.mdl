@@ -1,0 +1,13 @@
+Vsmfield object__v (
+   label('Object'),
+   active(true),
+   description('The Vault object type that this package data entry targets, such as a specific business object or configuration object. Use this to filter package data by the object being deployed or migrated.'),
+   example_values(),
+   synonyms('vault object',
+         'target object',
+         'object type'),
+   target('object__v'),
+   target_label('Object'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

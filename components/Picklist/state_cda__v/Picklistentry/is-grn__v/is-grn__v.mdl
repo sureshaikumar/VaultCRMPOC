@@ -1,0 +1,6 @@
+Picklistentry is-grn__v (
+   value('Grindavíkurbær'),
+   order(2108),
+   active(true),
+   controlling_entries('is__v')
+);

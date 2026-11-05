@@ -1,0 +1,5 @@
+Picklistentry msec__v (
+   value('Medical School'),
+   order(150),
+   active(true)
+);

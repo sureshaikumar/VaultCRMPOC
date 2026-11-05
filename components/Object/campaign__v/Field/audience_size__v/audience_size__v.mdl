@@ -1,0 +1,22 @@
+Field audience_size__v (
+   label('Audience Size'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1000000),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

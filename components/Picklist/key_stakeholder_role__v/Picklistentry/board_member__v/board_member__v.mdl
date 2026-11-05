@@ -1,0 +1,5 @@
+Picklistentry board_member__v (
+   value('Board Member'),
+   order(1),
+   active(true)
+);

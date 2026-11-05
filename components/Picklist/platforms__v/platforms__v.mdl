@@ -1,0 +1,19 @@
+RECREATE Picklist platforms__v (
+   label('Platforms'),
+   active(true),
+   Picklistentry(@Picklistentry/wechat__v.mdl),
+   Picklistentry(@Picklistentry/crm_ipad__v.mdl),
+   Picklistentry(@Picklistentry/crm_desktop_windows__v.mdl),
+   Picklistentry(@Picklistentry/crm_desktop_macos__v.mdl),
+   Picklistentry(@Picklistentry/crm_iphone__v.mdl),
+   Picklistentry(@Picklistentry/crm_android__v.mdl),
+   Picklistentry(@Picklistentry/crm_online__v.mdl),
+   Picklistentry(@Picklistentry/engage_connect__v.mdl),
+   Picklistentry(@Picklistentry/iphone__v.mdl),
+   Picklistentry(@Picklistentry/online__v.mdl),
+   Picklistentry(@Picklistentry/ipad__v.mdl),
+   Picklistentry(@Picklistentry/windows__v.mdl),
+   Picklistentry(@Picklistentry/winmodern__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

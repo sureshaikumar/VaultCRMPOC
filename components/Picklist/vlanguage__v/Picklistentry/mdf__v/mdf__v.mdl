@@ -1,0 +1,5 @@
+Picklistentry mdf__v (
+   value('Moksha'),
+   order(224),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry bidirectional__v (
+   value('Bidirectional'),
+   order(0),
+   active(true)
+);

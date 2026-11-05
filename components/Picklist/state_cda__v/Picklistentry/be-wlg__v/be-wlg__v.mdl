@@ -1,0 +1,6 @@
+Picklistentry be-wlg__v (
+   value('Liège'),
+   order(312),
+   active(true),
+   controlling_entries('be__v')
+);

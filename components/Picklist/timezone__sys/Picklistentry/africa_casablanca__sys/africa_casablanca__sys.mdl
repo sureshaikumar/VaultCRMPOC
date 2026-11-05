@@ -1,0 +1,5 @@
+Picklistentry africa_casablanca__sys (
+   value('(GMT+01:00) Western Africa Time (Africa/Casablanca)'),
+   order(167),
+   active(true)
+);

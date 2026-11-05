@@ -1,0 +1,10 @@
+Vsmvalue dkk__v (
+   label('DKK'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Denmark, Greenland, and the Faroe Islands.'),
+   synonyms('Danish Krone',
+         'Denmark Krone',
+         'Krone'),
+   target('dkk__sys'),
+   target_label('DKK')
+);

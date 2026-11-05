@@ -1,0 +1,11 @@
+Typefield event_attendee_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.event_attendee_status__v.accepted__v',
+         'Picklist.event_attendee_status__v.attended__v',
+         'Picklist.event_attendee_status__v.cleared_signature__v',
+         'Picklist.event_attendee_status__v.invited__v',
+         'Picklist.event_attendee_status__v.rejected__v',
+         'Picklist.event_attendee_status__v.signed__v'),
+   default_value('Picklist.event_attendee_status__v.invited__v')
+);

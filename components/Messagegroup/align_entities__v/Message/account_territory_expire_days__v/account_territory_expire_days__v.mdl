@@ -1,0 +1,6 @@
+Message account_territory_expire_days__v (
+   label(),
+   active(true),
+   default_value('Days CRM Sourced Assignments Expire'),
+   system_managed(false)
+);

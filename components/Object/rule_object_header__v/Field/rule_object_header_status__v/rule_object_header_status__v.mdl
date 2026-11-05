@@ -1,0 +1,19 @@
+Field rule_object_header_status__v (
+   label('Rule Object Header Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of the overall object deployment.'),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.rule_object_header_status__v'),
+   default_value('{enabled__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

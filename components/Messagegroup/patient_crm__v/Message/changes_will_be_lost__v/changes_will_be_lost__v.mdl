@@ -1,0 +1,6 @@
+Message changes_will_be_lost__v (
+   label(),
+   active(true),
+   default_value('Any changes will be lost. Are you sure you wish to continue?'),
+   system_managed(false)
+);

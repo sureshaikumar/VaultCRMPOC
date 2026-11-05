@@ -1,0 +1,7 @@
+Picklistentry paars__v (
+   value('Plastic, Aesthetic and Reconstructive Surgery'),
+   order(1574),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

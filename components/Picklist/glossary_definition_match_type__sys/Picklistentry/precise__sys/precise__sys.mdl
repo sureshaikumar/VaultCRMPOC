@@ -1,0 +1,5 @@
+Picklistentry precise__sys (
+   value('Precise'),
+   order(0),
+   active(true)
+);

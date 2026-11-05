@@ -1,0 +1,6 @@
+Message character_count__v (
+   label(),
+   active(true),
+   default_value('Character Count: ${num_chars}'),
+   system_managed(false)
+);

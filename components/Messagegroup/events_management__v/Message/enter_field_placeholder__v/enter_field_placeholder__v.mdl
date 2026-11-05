@@ -1,0 +1,6 @@
+Message enter_field_placeholder__v (
+   label(),
+   active(true),
+   default_value('Enter ${field_label}'),
+   system_managed(false)
+);

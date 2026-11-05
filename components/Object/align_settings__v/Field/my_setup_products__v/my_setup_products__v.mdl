@@ -1,0 +1,17 @@
+Field my_setup_products__v (
+   label('Manage My Setup Products'),
+   type('Boolean'),
+   active(true),
+   description('Control whether Align manages My Setup Products in CRM.'),
+   required(false),
+   checkbox(false),
+   help_content('Control whether Align manages My Setup Products in CRM.'),
+   list_column(false),
+   order(40),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message field_force_model_delete_dialog_alarm1__v (
+   label(),
+   active(true),
+   default_value('This field force model has records assigned to it. Deleting it will delete all of its rules and product assignments related to it.'),
+   system_managed(false)
+);

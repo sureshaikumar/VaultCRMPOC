@@ -1,0 +1,4 @@
+Typefield portal_access__v (
+   source('standard'),
+   required(false)
+);

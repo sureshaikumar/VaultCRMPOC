@@ -1,0 +1,6 @@
+Picklistentry cm-sw__v (
+   value('South-West'),
+   order(692),
+   active(true),
+   controlling_entries('cm__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry fello__v (
+   value('Fellow'),
+   order(41),
+   active(true)
+);

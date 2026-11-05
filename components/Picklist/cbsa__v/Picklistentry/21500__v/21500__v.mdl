@@ -1,0 +1,5 @@
+Picklistentry 21500__v (
+   value('Erie, PA Metropolitan Statistical Area'),
+   order(828),
+   active(true)
+);

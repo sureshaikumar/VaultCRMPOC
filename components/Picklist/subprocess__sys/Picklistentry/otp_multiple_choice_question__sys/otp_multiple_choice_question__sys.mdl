@@ -1,0 +1,6 @@
+Picklistentry otp_multiple_choice_question__sys (
+   value('Multiple Choice Question'),
+   order(104),
+   active(true),
+   controlling_entries('olc_question_design__sys')
+);

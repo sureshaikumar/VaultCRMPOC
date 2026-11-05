@@ -1,0 +1,6 @@
+Picklistentry ru-ore__v (
+   value('Orenburgskaya oblast'''),
+   order(3839),
+   active(true),
+   controlling_entries('ru__v')
+);

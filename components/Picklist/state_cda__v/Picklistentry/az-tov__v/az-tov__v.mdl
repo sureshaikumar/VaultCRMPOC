@@ -1,0 +1,6 @@
+Picklistentry az-tov__v (
+   value('Tovuz'),
+   order(203),
+   active(true),
+   controlling_entries('az__v')
+);

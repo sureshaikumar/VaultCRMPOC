@@ -1,0 +1,6 @@
+Message cancel_draft__v (
+   label(),
+   active(true),
+   default_value('Cancel Draft'),
+   system_managed(false)
+);

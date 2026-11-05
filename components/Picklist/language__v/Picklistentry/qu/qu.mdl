@@ -1,0 +1,5 @@
+Picklistentry qu (
+   value('Quechua'),
+   order(83),
+   active(true)
+);

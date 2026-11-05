@@ -1,0 +1,6 @@
+Picklistentry hu-cs__v (
+   value('Csongrád'),
+   order(1879),
+   active(true),
+   controlling_entries('hu__v')
+);

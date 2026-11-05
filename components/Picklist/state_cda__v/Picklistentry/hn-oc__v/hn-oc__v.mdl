@@ -1,0 +1,6 @@
+Picklistentry hn-oc__v (
+   value('Ocotepeque'),
+   order(1837),
+   active(true),
+   controlling_entries('hn__v')
+);

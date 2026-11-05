@@ -1,0 +1,5 @@
+Picklistentry eaap__v (
+   value('Emergency Aid and Patient Transfer'),
+   order(59),
+   active(true)
+);

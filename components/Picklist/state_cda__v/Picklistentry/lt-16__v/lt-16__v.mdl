@@ -1,0 +1,6 @@
+Picklistentry lt-16__v (
+   value('Kaunas'),
+   order(2634),
+   active(true),
+   controlling_entries('lt__v')
+);

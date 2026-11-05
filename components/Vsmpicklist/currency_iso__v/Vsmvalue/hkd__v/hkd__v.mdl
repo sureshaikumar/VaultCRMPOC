@@ -1,0 +1,10 @@
+Vsmvalue hkd__v (
+   label('HKD'),
+   active(true),
+   description('The Hong Kong Dollar (HKD), the official currency of Hong Kong, used for transactions and financial records involving business operations in Hong Kong.'),
+   synonyms('Hong Kong dollar',
+         'HK dollar',
+         'Hong Kong currency'),
+   target('hkd__sys'),
+   target_label('HKD')
+);

@@ -1,0 +1,14 @@
+Vsmfield end__v (
+   label('End'),
+   active(true),
+   description('The scheduled or actual end date and time of the activity. Typically used for time-boxed activities such as meetings or calls. IMPORTANT: This is a precise datetime, distinct from due_date__v which is a date-only deadline.'),
+   example_values(),
+   synonyms('end time',
+         'end datetime',
+         'finish time',
+         'scheduled end'),
+   target('end__v'),
+   target_label('End'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

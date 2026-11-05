@@ -1,0 +1,18 @@
+RECREATE Notificationtemplate reassign_object_task__v (
+   label('reassignObjectTask'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Task reassigned'),
+   notification('Task ${taskName} for ${Object.name__v} has been reassigned.'),
+   email_body('The following task has been reassigned:
+
+<p>${taskName}</p>
+
+<p>Object name: ${Object.name__v}<br>
+Workflow owner: ${workflowInitiatorName}<br></p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

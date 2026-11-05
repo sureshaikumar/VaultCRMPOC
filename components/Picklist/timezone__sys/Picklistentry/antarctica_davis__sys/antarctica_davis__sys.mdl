@@ -1,0 +1,5 @@
+Picklistentry antarctica_davis__sys (
+   value('(GMT+07:00) Davis Time (Antarctica/Davis)'),
+   order(244),
+   active(true)
+);

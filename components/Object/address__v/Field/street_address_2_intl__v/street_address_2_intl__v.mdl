@@ -1,0 +1,19 @@
+Field street_address_2_intl__v (
+   label('Street Address 2 (International)'),
+   type('String'),
+   active(true),
+   description('Additional address details, such as apartment, suite, or building number written in English.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(103),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

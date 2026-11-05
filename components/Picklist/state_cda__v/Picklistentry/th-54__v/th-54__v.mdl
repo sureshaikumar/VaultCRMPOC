@@ -1,0 +1,6 @@
+Picklistentry th-54__v (
+   value('Phrae'),
+   order(4370),
+   active(true),
+   controlling_entries('th__v')
+);

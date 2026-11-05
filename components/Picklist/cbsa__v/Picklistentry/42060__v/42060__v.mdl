@@ -1,0 +1,5 @@
+Picklistentry 42060__v (
+   value('Santa Barbara-Santa Maria-Goleta, CA Metropolitan Statistical Area'),
+   order(467),
+   active(true)
+);

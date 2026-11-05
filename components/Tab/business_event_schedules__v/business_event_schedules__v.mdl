@@ -1,0 +1,14 @@
+RECREATE Tab business_event_schedules__v (
+   active(true),
+   all_view_label('All Business Event Schedules'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Business Event Schedules'),
+   modal_create_record(false),
+   my_view_label('My Business Event Schedules'),
+   object('business_event_schedule__v'),
+   order(100),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Business Event Schedules')
+);

@@ -1,0 +1,6 @@
+Message internal_message__v (
+   label(),
+   active(true),
+   default_value('Internal Message'),
+   system_managed(false)
+);

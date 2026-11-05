@@ -1,0 +1,5 @@
+Picklistentry tkl (
+   value('Tokelau'),
+   order(329),
+   active(true)
+);

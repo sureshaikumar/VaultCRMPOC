@@ -1,0 +1,6 @@
+Picklistentry pe-huc__v (
+   value('Huánuco'),
+   order(3476),
+   active(true),
+   controlling_entries('pe__v')
+);

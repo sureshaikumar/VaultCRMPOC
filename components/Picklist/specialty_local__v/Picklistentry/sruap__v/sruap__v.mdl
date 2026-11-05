@@ -1,0 +1,6 @@
+Picklistentry sruap__v (
+   value('Supervoltage Radiotherapy'),
+   order(1809),
+   active(true),
+   controlling_entries('mk__v')
+);

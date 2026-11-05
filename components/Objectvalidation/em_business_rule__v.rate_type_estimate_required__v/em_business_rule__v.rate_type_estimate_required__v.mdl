@@ -1,0 +1,15 @@
+RECREATE Objectvalidation em_business_rule__v.rate_type_estimate_required__v (
+   label('Rate Type Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "expense_estimate_av_equipment_rule__v", true,
+            "expense_estimate_flat_fee_rule__v", true,
+            "expense_estimate_speaker_lodging_rule__v", true,
+            "expense_estimate_speaker_rate_rule__v", true,
+            false
+        ) = false || Not(IsBlank(rate_type__v))'),
+   description('Valid input for rate_type__v is not added.'),
+   error_message('This field is required.'),
+   error_location('rate_type__v')
+);

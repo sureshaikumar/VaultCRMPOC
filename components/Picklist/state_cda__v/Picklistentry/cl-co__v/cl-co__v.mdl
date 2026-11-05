@@ -1,0 +1,6 @@
+Picklistentry cl-co__v (
+   value('Coquimbo'),
+   order(673),
+   active(true),
+   controlling_entries('cl__v')
+);

@@ -1,0 +1,4 @@
+Typefield sent_email_fragment_document_unbound__v (
+   source('custom'),
+   required(false)
+);

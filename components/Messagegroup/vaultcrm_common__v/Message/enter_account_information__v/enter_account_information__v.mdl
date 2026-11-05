@@ -1,0 +1,6 @@
+Message enter_account_information__v (
+   label(),
+   active(true),
+   default_value('Enter Account Information'),
+   system_managed(false)
+);

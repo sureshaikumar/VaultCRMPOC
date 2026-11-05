@@ -1,0 +1,6 @@
+Picklistentry dz-28__v (
+   value('Msila'),
+   order(1009),
+   active(true),
+   controlling_entries('dz__v')
+);

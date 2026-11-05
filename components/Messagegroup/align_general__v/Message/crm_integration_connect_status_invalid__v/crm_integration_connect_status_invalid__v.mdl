@@ -1,0 +1,6 @@
+Message crm_integration_connect_status_invalid__v (
+   label(),
+   active(true),
+   default_value('The login credentials to {0} are currently invalid. Integration tasks cannot resume until this has been resolved. Please contact your System Administrator.'),
+   system_managed(false)
+);

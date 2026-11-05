@@ -1,0 +1,6 @@
+Typefield comment_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_business_rule_comment_type__v.free_text__v',
+         'Picklist.em_business_rule_comment_type__v.picklist__v')
+);

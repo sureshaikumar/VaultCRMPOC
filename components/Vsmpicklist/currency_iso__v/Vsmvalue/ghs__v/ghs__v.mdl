@@ -1,0 +1,10 @@
+Vsmvalue ghs__v (
+   label('GHS'),
+   active(true),
+   description('The Ghana Cedi (GHS), the official currency of Ghana introduced in 2007, used for transactions and financial records involving Ghanaian business operations.'),
+   synonyms('Ghanaian cedi',
+         'Ghana cedi',
+         'Ghana currency'),
+   target('ghs__sys'),
+   target_label('GHS')
+);

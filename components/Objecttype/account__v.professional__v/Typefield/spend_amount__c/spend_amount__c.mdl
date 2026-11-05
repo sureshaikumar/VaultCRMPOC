@@ -1,0 +1,4 @@
+Typefield spend_amount__c (
+   source('custom'),
+   required(false)
+);

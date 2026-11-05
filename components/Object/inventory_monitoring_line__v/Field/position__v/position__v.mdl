@@ -1,0 +1,18 @@
+Field position__v (
+   label('Position'),
+   type('Picklist'),
+   active(true),
+   description('Position of the product on the shelf/counter (Front of Counter, Back of Counter, Open Shelf). Customer can add values to this picklist.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(22),
+   multi_value(false),
+   picklist('Picklist.inventory_monitoring_line_position__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield functional_profile__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,6 @@
+Message project_delete_project__v (
+   label(),
+   active(true),
+   default_value('Delete Project'),
+   system_managed(false)
+);

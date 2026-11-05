@@ -1,0 +1,6 @@
+Picklistentry is-myr__v (
+   value('Mýrdalshreppur'),
+   order(2125),
+   active(true),
+   controlling_entries('is__v')
+);

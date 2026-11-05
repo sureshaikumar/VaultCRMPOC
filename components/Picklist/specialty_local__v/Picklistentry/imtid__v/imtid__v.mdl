@@ -1,0 +1,6 @@
+Picklistentry imtid__v (
+   value('Internal Medicine Tropical-Infectious Diseases'),
+   order(807),
+   active(true),
+   controlling_entries('id__v')
+);

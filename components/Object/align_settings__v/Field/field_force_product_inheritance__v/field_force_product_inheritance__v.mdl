@@ -1,0 +1,19 @@
+Field field_force_product_inheritance__v (
+   label('Field Force Product Inheritance'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('This controls whether product assignments of a field force are inherited by the territories assigned to their related field force.'),
+   list_column(false),
+   order(28),
+   multi_value(false),
+   picklist('Picklist.aln_field_force_product_inheritance__v'),
+   default_value('{no_inheritance__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

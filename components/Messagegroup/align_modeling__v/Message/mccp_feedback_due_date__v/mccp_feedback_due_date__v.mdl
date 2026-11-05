@@ -1,0 +1,6 @@
+Message mccp_feedback_due_date__v (
+   label(),
+   active(true),
+   default_value('Due Date'),
+   system_managed(false)
+);

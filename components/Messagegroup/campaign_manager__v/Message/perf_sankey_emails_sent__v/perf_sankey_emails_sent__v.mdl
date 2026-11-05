@@ -1,0 +1,6 @@
+Message perf_sankey_emails_sent__v (
+   label(),
+   active(true),
+   default_value('Emails Sent'),
+   system_managed(false)
+);

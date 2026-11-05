@@ -1,0 +1,6 @@
+Picklistentry praic__v (
+   value('Pediatric Resuscitation and Intensive Care'),
+   order(1454),
+   active(true),
+   controlling_entries('am__v')
+);

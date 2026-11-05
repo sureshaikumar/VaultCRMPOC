@@ -1,0 +1,5 @@
+Picklistentry remote_clm_link__v (
+   value('Remote CLM Link'),
+   order(2),
+   active(true)
+);

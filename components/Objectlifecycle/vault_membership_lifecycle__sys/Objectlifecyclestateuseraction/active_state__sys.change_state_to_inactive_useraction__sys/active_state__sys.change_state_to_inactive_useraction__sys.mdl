@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction active_state__sys.change_state_to_inactive_useraction__sys (
+   label('Make User Inactive'),
+   rule(@rule.xml),
+   order(1000)
+);

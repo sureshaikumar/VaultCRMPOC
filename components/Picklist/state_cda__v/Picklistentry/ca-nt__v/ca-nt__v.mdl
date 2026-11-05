@@ -1,0 +1,6 @@
+Picklistentry ca-nt__v (
+   value('Northwest Territories'),
+   order(565),
+   active(true),
+   controlling_entries('ca__v')
+);

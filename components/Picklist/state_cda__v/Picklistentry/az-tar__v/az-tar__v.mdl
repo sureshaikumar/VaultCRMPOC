@@ -1,0 +1,6 @@
+Picklistentry az-tar__v (
+   value('Tərtər'),
+   order(202),
+   active(true),
+   controlling_entries('az__v')
+);

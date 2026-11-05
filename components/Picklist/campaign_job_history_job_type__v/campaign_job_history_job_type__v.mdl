@@ -1,0 +1,7 @@
+RECREATE Picklist campaign_job_history_job_type__v (
+   label('Job Type'),
+   active(true),
+   Picklistentry(@Picklistentry/sent_email__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

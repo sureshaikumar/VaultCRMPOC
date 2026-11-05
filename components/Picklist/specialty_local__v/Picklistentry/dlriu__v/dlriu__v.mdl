@@ -1,0 +1,6 @@
+Picklistentry dlriu__v (
+   value('Drug Licensing'),
+   order(459),
+   active(true),
+   controlling_entries('hu__v')
+);

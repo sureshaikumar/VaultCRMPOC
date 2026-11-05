@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction active_state__sys.schedule_flash_report_useraction__sys (
+   label('Schedule Flash Report'),
+   rule(@rule.xml),
+   order(1000)
+);

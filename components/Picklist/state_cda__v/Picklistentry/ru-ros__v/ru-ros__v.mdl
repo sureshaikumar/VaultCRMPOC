@@ -1,0 +1,6 @@
+Picklistentry ru-ros__v (
+   value('Rostovskaya oblast'''),
+   order(3845),
+   active(true),
+   controlling_entries('ru__v')
+);

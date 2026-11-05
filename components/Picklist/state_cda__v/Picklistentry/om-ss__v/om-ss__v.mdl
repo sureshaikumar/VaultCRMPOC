@@ -1,0 +1,6 @@
+Picklistentry om-ss__v (
+   value('Shamāl ash Sharqīyah'),
+   order(3450),
+   active(true),
+   controlling_entries('om__v')
+);

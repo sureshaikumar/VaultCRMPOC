@@ -1,0 +1,6 @@
+Message no_template_selected__v (
+   label(),
+   active(true),
+   default_value('No template selected'),
+   system_managed(false)
+);

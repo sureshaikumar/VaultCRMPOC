@@ -1,0 +1,5 @@
+Picklistentry pded__v (
+   value('Pediatric Endocrinology'),
+   order(64),
+   active(true)
+);

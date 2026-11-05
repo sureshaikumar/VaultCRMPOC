@@ -1,0 +1,7 @@
+RECREATE Accountmessage security_policy_change__v (
+   label('Notification of security policy change'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Your Veeva Vault security policy has been updated')
+);

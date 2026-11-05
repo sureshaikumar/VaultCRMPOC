@@ -1,0 +1,5 @@
+Picklistentry call_sample__v (
+   value('Call Sample'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message document_fields__sys (
+   label(),
+   active(true),
+   default_value('Document Fields'),
+   system_managed(true)
+);

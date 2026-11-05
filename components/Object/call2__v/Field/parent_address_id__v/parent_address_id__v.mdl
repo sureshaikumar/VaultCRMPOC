@@ -1,0 +1,19 @@
+Field parent_address_id__v (
+   label('Parent Address Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('The Id of the Parent Address that was used when the Call was created; the text value of the Parent_Address_vod field.'),
+   list_column(false),
+   order(96),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,18 @@
+Field report_status__v (
+   label('Report Status'),
+   type('Picklist'),
+   active(true),
+   description('Picklist that indicates the status of the coaching report. When ''In Progress'', the manager can update the report. When ''Under Employee Review'', the report has been sent to the Employee. When ''Completed'' the employee has indicated that the responses have b'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(28),
+   multi_value(false),
+   picklist('Picklist.survey_target_report_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+Picklistentry nadun__v (
+   value('Nutrition and Dietetics'),
+   order(1064),
+   active(true),
+   controlling_entries('bg__v',
+         'md__v',
+         'ph__v')
+);

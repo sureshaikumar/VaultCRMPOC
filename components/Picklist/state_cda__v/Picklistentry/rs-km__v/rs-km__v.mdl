@@ -1,0 +1,6 @@
+Picklistentry rs-km__v (
+   value('Kosovo-Metohija'),
+   order(3788),
+   active(true),
+   controlling_entries('rs__v')
+);

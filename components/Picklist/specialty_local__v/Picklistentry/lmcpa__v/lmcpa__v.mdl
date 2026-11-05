@@ -1,0 +1,6 @@
+Picklistentry lmcpa__v (
+   value('Laboratory Medicine / Clinical Pathology'),
+   order(848),
+   active(true),
+   controlling_entries('qa__v')
+);

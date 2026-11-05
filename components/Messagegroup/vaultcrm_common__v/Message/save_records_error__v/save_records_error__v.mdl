@@ -1,0 +1,6 @@
+Message save_records_error__v (
+   label(),
+   active(true),
+   default_value('Cannot save the object at this moment: ${errorMessage}'),
+   system_managed(false)
+);

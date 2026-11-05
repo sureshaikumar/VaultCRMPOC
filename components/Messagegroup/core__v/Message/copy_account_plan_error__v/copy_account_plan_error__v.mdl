@@ -1,0 +1,6 @@
+Message copy_account_plan_error__v (
+   label(),
+   active(true),
+   default_value('Copy Account Plan Unavailable'),
+   system_managed(false)
+);

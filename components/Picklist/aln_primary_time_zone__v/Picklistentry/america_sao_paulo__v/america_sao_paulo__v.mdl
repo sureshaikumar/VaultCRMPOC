@@ -1,0 +1,5 @@
+Picklistentry america_sao_paulo__v (
+   value('America/Sao_Paulo'),
+   order(23),
+   active(true)
+);

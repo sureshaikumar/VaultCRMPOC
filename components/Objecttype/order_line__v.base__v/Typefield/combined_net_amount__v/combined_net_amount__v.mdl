@@ -1,0 +1,4 @@
+Typefield combined_net_amount__v (
+   source('standard'),
+   required(false)
+);

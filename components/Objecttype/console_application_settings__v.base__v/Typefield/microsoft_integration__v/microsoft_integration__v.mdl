@@ -1,0 +1,4 @@
+Typefield microsoft_integration__v (
+   source('standard'),
+   required(false)
+);

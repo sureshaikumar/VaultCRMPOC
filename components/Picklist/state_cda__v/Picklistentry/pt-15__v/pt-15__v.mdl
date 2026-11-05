@@ -1,0 +1,6 @@
+Picklistentry pt-15__v (
+   value('Setúbal'),
+   order(3668),
+   active(true),
+   controlling_entries('pt__v')
+);

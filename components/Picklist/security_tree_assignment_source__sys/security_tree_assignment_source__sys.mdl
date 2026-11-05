@@ -1,0 +1,8 @@
+RECREATE Picklist security_tree_assignment_source__sys (
+   label('Tree Assignment Source'),
+   active(true),
+   Picklistentry(@Picklistentry/manual__sys.mdl),
+   Picklistentry(@Picklistentry/user_reference_assignment__sys.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

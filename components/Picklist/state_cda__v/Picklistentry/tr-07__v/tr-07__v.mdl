@@ -1,0 +1,6 @@
+Picklistentry tr-07__v (
+   value('Antalya'),
+   order(4465),
+   active(true),
+   controlling_entries('tr__v')
+);

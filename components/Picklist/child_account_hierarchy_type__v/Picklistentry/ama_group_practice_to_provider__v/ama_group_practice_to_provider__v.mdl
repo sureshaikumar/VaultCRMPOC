@@ -1,0 +1,5 @@
+Picklistentry ama_group_practice_to_provider__v (
+   value('AMA Group Practice to Provider'),
+   order(0),
+   active(true)
+);

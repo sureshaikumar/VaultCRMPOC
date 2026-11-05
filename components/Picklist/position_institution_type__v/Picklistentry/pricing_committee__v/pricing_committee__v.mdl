@@ -1,0 +1,5 @@
+Picklistentry pricing_committee__v (
+   value('Pricing Committee'),
+   order(16),
+   active(true)
+);

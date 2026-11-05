@@ -1,0 +1,5 @@
+Picklistentry 13860__v (
+   value('Bishop, CA Micropolitan Statistical Area'),
+   order(877),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry emxte__v (
+   value('Emergency Medical Technician / Paramedic'),
+   order(40),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry zwr__sys (
+   value('ZWR'),
+   order(230),
+   active(true)
+);

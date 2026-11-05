@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation checklist_design_l_initial_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.checklist_design_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.draft_state__sys'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

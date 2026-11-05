@@ -1,0 +1,5 @@
+Picklistentry ongy__v (
+   value('Gynecological Oncology'),
+   order(26),
+   active(true)
+);

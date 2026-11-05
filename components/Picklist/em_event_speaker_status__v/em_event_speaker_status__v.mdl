@@ -1,0 +1,15 @@
+RECREATE Picklist em_event_speaker_status__v (
+   label('Event Speaker Status'),
+   active(true),
+   Picklistentry(@Picklistentry/nominated__v.mdl),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   Picklistentry(@Picklistentry/invited__v.mdl),
+   Picklistentry(@Picklistentry/accepted__v.mdl),
+   Picklistentry(@Picklistentry/rejected__v.mdl),
+   Picklistentry(@Picklistentry/attended__v.mdl),
+   Picklistentry(@Picklistentry/signed__v.mdl),
+   Picklistentry(@Picklistentry/cleared_signature__v.mdl),
+   Picklistentry(@Picklistentry/registered__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

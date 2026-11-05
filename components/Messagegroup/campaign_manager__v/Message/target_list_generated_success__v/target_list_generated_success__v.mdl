@@ -1,0 +1,6 @@
+Message target_list_generated_success__v (
+   label(),
+   active(true),
+   default_value('Target list generated: ${count} targets added'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-127__v (
+   value('Štore'),
+   order(4101),
+   active(true),
+   controlling_entries('si__v')
+);

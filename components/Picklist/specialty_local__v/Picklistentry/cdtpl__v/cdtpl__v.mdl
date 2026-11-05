@@ -1,0 +1,6 @@
+Picklistentry cdtpl__v (
+   value('Clinical Dental Technology Practice'),
+   order(217),
+   active(true),
+   controlling_entries('nz__v')
+);

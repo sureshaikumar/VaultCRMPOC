@@ -1,0 +1,9 @@
+RECREATE Objectvalidation em_business_rule__v.warning_type_material_required__v (
+   label('Warning Type Required'),
+   active(true),
+   expression('
+        object_type__vr.api_name__v != "em_required_event_material_rule__v" || Not(IsBlank(warning_type__v))'),
+   description('Valid input for warning_type__v is not added to the Material Rule.'),
+   error_message('This field is required.'),
+   error_location('warning_type__v')
+);

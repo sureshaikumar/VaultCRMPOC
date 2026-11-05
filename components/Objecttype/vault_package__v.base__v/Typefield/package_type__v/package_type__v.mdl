@@ -1,0 +1,4 @@
+Typefield package_type__v (
+   source('standard'),
+   required(true)
+);

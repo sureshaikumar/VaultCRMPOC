@@ -1,0 +1,17 @@
+Field suggestion_reason__v (
+   label('Suggestion Reason'),
+   type('LongText'),
+   active(true),
+   description('Reason from Originating Suggestion, when Call has been scheduled by accepting a Schedule Call Suggestion'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(157),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

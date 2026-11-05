@@ -1,0 +1,5 @@
+Picklistentry enable_edit_team_goal_to_zero__v (
+   value('Enable Edit Team Goal to Zero'),
+   order(1),
+   active(true)
+);

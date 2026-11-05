@@ -1,0 +1,5 @@
+Picklistentry 16900__v (
+   value('Chester, SC Micropolitan Statistical Area'),
+   order(942),
+   active(true)
+);

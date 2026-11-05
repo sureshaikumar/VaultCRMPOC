@@ -1,0 +1,5 @@
+Picklistentry 21540__v (
+   value('Escanaba, MI Micropolitan Statistical Area'),
+   order(823),
+   active(true)
+);

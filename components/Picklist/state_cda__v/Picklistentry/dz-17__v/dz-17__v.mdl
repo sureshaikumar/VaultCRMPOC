@@ -1,0 +1,6 @@
+Picklistentry dz-17__v (
+   value('Djelfa'),
+   order(998),
+   active(true),
+   controlling_entries('dz__v')
+);

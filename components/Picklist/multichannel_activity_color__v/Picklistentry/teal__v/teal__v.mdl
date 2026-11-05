@@ -1,0 +1,5 @@
+Picklistentry teal__v (
+   value('Teal'),
+   order(6),
+   active(true)
+);

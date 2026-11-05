@@ -1,0 +1,6 @@
+Picklistentry mg-f__v (
+   value('Fianarantsoa'),
+   order(2934),
+   active(true),
+   controlling_entries('mg__v')
+);

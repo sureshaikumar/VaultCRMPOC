@@ -1,0 +1,6 @@
+Message split__v (
+   label(),
+   active(true),
+   default_value('Split'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry fi-07__v (
+   value('Central Ostrobothnia'),
+   order(1279),
+   active(true),
+   controlling_entries('fi__v')
+);

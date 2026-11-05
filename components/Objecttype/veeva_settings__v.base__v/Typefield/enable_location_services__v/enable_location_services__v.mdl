@@ -1,0 +1,4 @@
+Typefield enable_location_services__v (
+   source('standard'),
+   required(false)
+);

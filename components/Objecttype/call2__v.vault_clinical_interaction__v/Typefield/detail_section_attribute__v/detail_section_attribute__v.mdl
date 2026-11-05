@@ -1,0 +1,4 @@
+Typefield detail_section_attribute__v (
+   source('custom'),
+   required(false)
+);

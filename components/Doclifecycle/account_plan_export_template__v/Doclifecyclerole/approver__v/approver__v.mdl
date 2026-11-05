@@ -1,0 +1,8 @@
+Doclifecyclerole approver__v (
+   label('Approver'),
+   active(true),
+   description('System Provided Role'),
+   application_role('approver__v'),
+   note_color(),
+   security_options(@security_options.xml)
+);

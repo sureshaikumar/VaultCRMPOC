@@ -1,0 +1,5 @@
+Picklistentry kok__v (
+   value('Konkani'),
+   order(173),
+   active(false)
+);

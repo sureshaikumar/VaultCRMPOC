@@ -1,0 +1,6 @@
+Picklistentry ie-ww__v (
+   value('Wicklow'),
+   order(1989),
+   active(true),
+   controlling_entries('ie__v')
+);

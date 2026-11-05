@@ -1,0 +1,5 @@
+Picklistentry ge__v (
+   value('Georgia'),
+   order(78),
+   active(true)
+);

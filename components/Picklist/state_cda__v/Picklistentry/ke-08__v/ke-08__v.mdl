@@ -1,0 +1,6 @@
+Picklistentry ke-08__v (
+   value('Homa Bay'),
+   order(2361),
+   active(true),
+   controlling_entries('ke__v')
+);

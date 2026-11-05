@@ -1,0 +1,6 @@
+Picklistentry gasts__v (
+   value('Gastrohepatology'),
+   order(580),
+   active(true),
+   controlling_entries('al__v')
+);

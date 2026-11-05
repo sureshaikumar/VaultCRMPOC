@@ -1,0 +1,6 @@
+Picklistentry no-38__v (
+   value('Vestfold og Telemark'),
+   order(3400),
+   active(true),
+   controlling_entries('no__v')
+);

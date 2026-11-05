@@ -1,0 +1,4 @@
+Typefield training_date__sys (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,19 @@
+Field external_id__v (
+   label('External ID'),
+   type('String'),
+   active(true),
+   description('The unique identifier of this field force. Used by external systems and for data loading.'),
+   required(false),
+   unique(true),
+   max_length(120),
+   help_content('The unique identifier of this field force. Used by external systems and for data loading.'),
+   list_column(true),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

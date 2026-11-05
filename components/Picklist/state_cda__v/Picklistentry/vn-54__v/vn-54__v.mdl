@@ -1,0 +1,6 @@
+Picklistentry vn-54__v (
+   value('Bắc Giang'),
+   order(4954),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,7 @@
+Picklistentry onmsr__v (
+   value('Oral & Maxillofacial Surgery'),
+   order(1152),
+   active(true),
+   controlling_entries('ca__v',
+         'nz__v')
+);

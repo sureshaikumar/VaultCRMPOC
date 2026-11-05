@@ -1,0 +1,6 @@
+Picklistentry it-im__v (
+   value('Imperia'),
+   order(2214),
+   active(true),
+   controlling_entries('it__v')
+);

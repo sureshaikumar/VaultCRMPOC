@@ -1,0 +1,5 @@
+Index aggregation_date__sys (
+   description(),
+   fields('aggregation_date__sys'),
+   label('Date (UTC)')
+);

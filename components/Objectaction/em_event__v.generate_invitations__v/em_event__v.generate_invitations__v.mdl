@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.generate_invitations__v (
+   label('Generate Invitations'),
+   description('Clicking this button opens up a list of available invitations for the user to select. Once selected, the template is merged with data from the event. An attachment with the final invitations is added to the Event for the user to print.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.GenerateInvitationsAction'),
+   active(true),
+   available_all_states(true)
+);

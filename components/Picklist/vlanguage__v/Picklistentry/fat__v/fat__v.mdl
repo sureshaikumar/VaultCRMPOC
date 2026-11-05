@@ -1,0 +1,5 @@
+Picklistentry fat__v (
+   value('Fanti'),
+   order(95),
+   active(false)
+);

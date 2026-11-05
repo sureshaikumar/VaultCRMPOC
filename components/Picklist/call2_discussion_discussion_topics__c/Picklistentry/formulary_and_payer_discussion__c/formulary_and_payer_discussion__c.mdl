@@ -1,0 +1,5 @@
+Picklistentry formulary_and_payer_discussion__c (
+   value('Formulary and Payer Discussion'),
+   order(10),
+   active(true)
+);

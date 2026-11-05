@@ -1,0 +1,18 @@
+Field source_type__v (
+   label('Source Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The source of the case timeline entry:  User, Account or System.'),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.case_timeline_source__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

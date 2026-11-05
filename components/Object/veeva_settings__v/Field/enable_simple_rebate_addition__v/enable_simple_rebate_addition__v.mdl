@@ -1,0 +1,18 @@
+Field enable_simple_rebate_addition__v (
+   label('Enable Simple Rebate Addition'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the algorithm for combining Pricing Rules of different types is linear (simple) or iterative.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(184),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield pricing_rule__v (
+   source('standard'),
+   required(true)
+);

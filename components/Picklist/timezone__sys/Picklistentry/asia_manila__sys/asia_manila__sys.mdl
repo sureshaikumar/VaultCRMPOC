@@ -1,0 +1,5 @@
+Picklistentry asia_manila__sys (
+   value('(GMT+08:00) Philippines Standard Time (Asia/Manila)'),
+   order(265),
+   active(true)
+);

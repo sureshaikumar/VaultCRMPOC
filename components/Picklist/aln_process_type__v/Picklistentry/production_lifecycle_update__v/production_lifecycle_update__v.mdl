@@ -1,0 +1,5 @@
+Picklistentry production_lifecycle_update__v (
+   value('Production Lifecycle Update'),
+   order(21),
+   active(true)
+);

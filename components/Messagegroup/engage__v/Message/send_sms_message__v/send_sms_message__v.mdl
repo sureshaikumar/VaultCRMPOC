@@ -1,0 +1,6 @@
+Message send_sms_message__v (
+   label(),
+   active(true),
+   default_value('Send SMS Message'),
+   system_managed(false)
+);

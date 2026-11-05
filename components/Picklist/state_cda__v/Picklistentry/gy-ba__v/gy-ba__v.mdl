@@ -1,0 +1,6 @@
+Picklistentry gy-ba__v (
+   value('Barima-Waini'),
+   order(1814),
+   active(true),
+   controlling_entries('gy__v')
+);

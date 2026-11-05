@@ -1,0 +1,6 @@
+Picklistentry caido__v (
+   value('Contagious and Infectious Diseases'),
+   order(333),
+   active(true),
+   controlling_entries('jo__v')
+);

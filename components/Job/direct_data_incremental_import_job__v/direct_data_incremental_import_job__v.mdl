@@ -1,0 +1,22 @@
+RECREATE Job direct_data_incremental_import_job__v (
+   active(true),
+   active_after_clone(true),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(0.25),
+   label('CRM Direct Data Transfer - Incremental'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('hourly'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/direct_data_incremental_import_job__v.mdl),
+   time('0:05'),
+   timezone('GMT'),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

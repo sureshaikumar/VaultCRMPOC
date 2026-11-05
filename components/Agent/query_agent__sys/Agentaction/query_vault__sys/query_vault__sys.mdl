@@ -1,0 +1,13 @@
+Agentaction query_vault__sys (
+   label('Query Vault'),
+   active(true),
+   api_access(true),
+   description('This action takes the natural-language question and turns it into validated, executed VQL using the schema-discovery, document-type, VQL-knowledge, validation, and execution tools. It chooses the query root, preserves the asked filters and result shape, runs a bounded plan+react loop within the turn and step budget, and produces the final result object. It is not responsible for free-form conversation or for any task outside VQL retrieval and calculation over retrieved rows.
+'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

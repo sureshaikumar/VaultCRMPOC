@@ -1,0 +1,6 @@
+Message country_filter_no_country__v (
+   label(),
+   active(true),
+   default_value('Country field is not specified.'),
+   system_managed(false)
+);

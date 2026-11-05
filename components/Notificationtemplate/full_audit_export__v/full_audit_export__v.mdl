@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate full_audit_export__v (
+   label('Full Audit Trail Export'),
+   active(true),
+   description('Notification template for full audit trail exports'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Full Audit Export Completed'),
+   notification('<b>Summary:</b><br> ${fullAuditExportList} ${fullAuditExportResultsList}'),
+   email_body('<b>Summary:</b><br> ${fullAuditExportList} <br><b>Results:</b> <br> ${fullAuditExportResultsList}
+'),
+   entity_type('custom'),
+   notification_category('none__sys')
+);

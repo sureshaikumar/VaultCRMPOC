@@ -1,0 +1,5 @@
+Picklistentry bind__v (
+   value('Bind'),
+   order(1),
+   active(true)
+);

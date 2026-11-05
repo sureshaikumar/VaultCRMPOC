@@ -1,0 +1,6 @@
+Picklistentry mn-053__v (
+   value('Ömnögovĭ'),
+   order(3079),
+   active(true),
+   controlling_entries('mn__v')
+);

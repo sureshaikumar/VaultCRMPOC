@@ -1,0 +1,6 @@
+Message tool_type__sys (
+   label(),
+   active(true),
+   default_value('Tool Type'),
+   system_managed(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ma__v (
+   value('Morocco'),
+   order(150),
+   active(true)
+);

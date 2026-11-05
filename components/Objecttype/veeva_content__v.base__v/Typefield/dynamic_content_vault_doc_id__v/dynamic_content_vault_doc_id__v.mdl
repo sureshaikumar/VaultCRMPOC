@@ -1,0 +1,4 @@
+Typefield dynamic_content_vault_doc_id__v (
+   source('standard'),
+   required(false)
+);

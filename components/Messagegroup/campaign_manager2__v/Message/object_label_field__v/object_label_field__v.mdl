@@ -1,0 +1,6 @@
+Message object_label_field__v (
+   label(),
+   active(true),
+   default_value('${object_label} Field'),
+   system_managed(false)
+);

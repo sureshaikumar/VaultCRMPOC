@@ -1,0 +1,7 @@
+Picklistentry osteo__v (
+   value('Osteopathy'),
+   order(1225),
+   active(true),
+   controlling_entries('au__v',
+         'us__v')
+);

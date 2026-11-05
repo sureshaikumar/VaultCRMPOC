@@ -1,0 +1,5 @@
+Picklistentry map__v (
+   value('Map'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field conversation_direction__v (
+   label('Conversation Direction'),
+   type('Picklist'),
+   active(true),
+   description('The direction of the conversation'),
+   required(false),
+   unique(false),
+   help_content('The direction of the conversation'),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.conversation_direction__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

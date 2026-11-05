@@ -1,0 +1,6 @@
+Picklistentry lt-05__v (
+   value('Birštonas'),
+   order(2623),
+   active(true),
+   controlling_entries('lt__v')
+);

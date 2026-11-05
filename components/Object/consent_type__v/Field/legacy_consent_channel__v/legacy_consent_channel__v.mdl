@@ -1,0 +1,19 @@
+Field legacy_consent_channel__v (
+   label('Legacy Consent Channel'),
+   type('String'),
+   active(true),
+   description('Used to reference consent collected from a legacy custom channel and reused for Veeva channel.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

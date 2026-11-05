@@ -1,0 +1,3 @@
+Typeaction send_overdue_reminders__c (
+   action('account__v.send_overdue_reminders__c')
+);

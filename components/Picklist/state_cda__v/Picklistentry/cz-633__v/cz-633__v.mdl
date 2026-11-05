@@ -1,0 +1,6 @@
+Picklistentry cz-633__v (
+   value('Pelhřimov'),
+   order(874),
+   active(true),
+   controlling_entries('cz__v')
+);

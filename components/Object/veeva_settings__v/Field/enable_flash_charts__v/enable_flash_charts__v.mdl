@@ -1,0 +1,18 @@
+Field enable_flash_charts__v (
+   label('ENABLE_FLASH_CHARTS'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether Flash based charts or native WPF charts will be displayed in the VMobile Tablet application. Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(133),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

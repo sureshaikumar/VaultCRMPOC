@@ -1,0 +1,6 @@
+Picklistentry tw-khh__v (
+   value('Kaohsiung'),
+   order(4571),
+   active(true),
+   controlling_entries('tw__v')
+);

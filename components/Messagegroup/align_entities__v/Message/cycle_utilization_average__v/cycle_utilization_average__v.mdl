@@ -1,0 +1,6 @@
+Message cycle_utilization_average__v (
+   label(),
+   active(true),
+   default_value('Avg.'),
+   system_managed(false)
+);

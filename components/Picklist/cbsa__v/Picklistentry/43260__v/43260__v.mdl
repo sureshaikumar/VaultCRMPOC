@@ -1,0 +1,5 @@
+Picklistentry 43260__v (
+   value('Sheridan, WY Micropolitan Statistical Area'),
+   order(667),
+   active(true)
+);

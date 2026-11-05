@@ -1,0 +1,6 @@
+Message concur_concur_list__v (
+   label(),
+   active(true),
+   default_value('Concur List'),
+   system_managed(false)
+);

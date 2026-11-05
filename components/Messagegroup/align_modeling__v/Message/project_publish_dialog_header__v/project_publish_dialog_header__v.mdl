@@ -1,0 +1,6 @@
+Message project_publish_dialog_header__v (
+   label(),
+   active(true),
+   default_value('Publish {0} to Align Production'),
+   system_managed(false)
+);

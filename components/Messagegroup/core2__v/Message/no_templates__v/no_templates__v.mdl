@@ -1,0 +1,6 @@
+Message no_templates__v (
+   label(),
+   active(true),
+   default_value('No profiling templates'),
+   system_managed(false)
+);

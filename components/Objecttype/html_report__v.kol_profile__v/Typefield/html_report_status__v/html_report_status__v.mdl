@@ -1,0 +1,8 @@
+Typefield html_report_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.html_report_status__v.failed__v',
+         'Picklist.html_report_status__v.in_progress__v',
+         'Picklist.html_report_status__v.published__v',
+         'Picklist.html_report_status__v.unpublished__v')
+);

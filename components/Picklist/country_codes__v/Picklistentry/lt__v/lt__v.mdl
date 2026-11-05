@@ -1,0 +1,5 @@
+Picklistentry lt__v (
+   value('LT'),
+   order(133),
+   active(true)
+);

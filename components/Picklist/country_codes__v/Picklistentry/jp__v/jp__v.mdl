@@ -1,0 +1,5 @@
+Picklistentry jp__v (
+   value('JP'),
+   order(113),
+   active(true)
+);

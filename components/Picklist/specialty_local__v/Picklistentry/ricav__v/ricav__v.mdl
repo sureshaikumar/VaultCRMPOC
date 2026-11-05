@@ -1,0 +1,6 @@
+Picklistentry ricav__v (
+   value('Radiology in Cardiac and Vascular Imaging'),
+   order(1692),
+   active(true),
+   controlling_entries('pt__v')
+);

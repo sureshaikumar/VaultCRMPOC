@@ -1,0 +1,6 @@
+Message remove_from_territory_submit_toast__v (
+   label(),
+   active(true),
+   default_value('Request Submitted'),
+   system_managed(false)
+);

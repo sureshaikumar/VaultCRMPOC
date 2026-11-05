@@ -1,0 +1,8 @@
+Picklistentry hmeaa__v (
+   value('Health Management'),
+   order(668),
+   active(true),
+   controlling_entries('ba__v',
+         'is__v',
+         'my__v')
+);

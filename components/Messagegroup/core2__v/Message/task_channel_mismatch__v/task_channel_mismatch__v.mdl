@@ -1,0 +1,6 @@
+Message task_channel_mismatch__v (
+   label(),
+   active(true),
+   default_value('You have selected a channel on the call report that is not valid for completing Business Event Tasks.  Please de-select the Business Event Task or change the call channel.'),
+   system_managed(false)
+);

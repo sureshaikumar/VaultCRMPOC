@@ -1,0 +1,13 @@
+Vsmfield email__v (
+   label('Email'),
+   active(true),
+   description('Primary email address associated with the person''s account. Used for communication, user lookup, and identity verification within the Vault system.'),
+   example_values(),
+   synonyms('email address',
+         'work email',
+         'contact email'),
+   target('email__sys'),
+   target_label('Email'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

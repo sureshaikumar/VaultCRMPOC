@@ -1,0 +1,5 @@
+Picklistentry il__v (
+   value('Israel'),
+   order(102),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message filter_selected_is_between__v (
+   label(),
+   active(true),
+   default_value('${filter_field_label} (${filter_object_label}) is between ${selection_1} and ${selection_2}'),
+   system_managed(false)
+);

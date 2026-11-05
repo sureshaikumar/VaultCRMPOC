@@ -1,0 +1,6 @@
+Picklistentry bf-gan__v (
+   value('Ganzourgou'),
+   order(336),
+   active(true),
+   controlling_entries('bf__v')
+);

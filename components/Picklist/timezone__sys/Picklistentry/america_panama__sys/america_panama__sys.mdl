@@ -1,0 +1,5 @@
+Picklistentry america_panama__sys (
+   value('(GMT-05:00) Eastern Standard Time (America/Panama)'),
+   order(75),
+   active(true)
+);

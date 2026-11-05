@@ -1,0 +1,6 @@
+Picklistentry hu-sz__v (
+   value('Szabolcs-Szatmár-Bereg'),
+   order(1908),
+   active(true),
+   controlling_entries('hu__v')
+);

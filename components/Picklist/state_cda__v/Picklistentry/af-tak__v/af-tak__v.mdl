@@ -1,0 +1,6 @@
+Picklistentry af-tak__v (
+   value('Takhār'),
+   order(44),
+   active(true),
+   controlling_entries('af__v')
+);

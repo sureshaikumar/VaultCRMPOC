@@ -1,0 +1,11 @@
+Vsmvalue approved_state__v (
+   label('Approved'),
+   active(true),
+   description('The legal hold has been reviewed and formally approved, making it active and enforceable for preserving relevant records and data.'),
+   synonyms('active hold',
+         'confirmed hold',
+         'hold approved',
+         'legally active'),
+   target('approved_state__v'),
+   target_label('Approved')
+);

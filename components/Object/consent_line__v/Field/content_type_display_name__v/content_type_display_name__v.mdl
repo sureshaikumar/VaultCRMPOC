@@ -1,0 +1,19 @@
+Field content_type_display_name__v (
+   label('Content Type Display Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Displays the text for Content Type on consent capture page. If NULL, Content_Type_vod.Name is displayed.'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

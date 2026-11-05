@@ -1,0 +1,6 @@
+Message account_exclusion_model_cant_set_terr_ff__v (
+   label(),
+   active(true),
+   default_value('Model Account Exclusion with "global" exclusion type must not set Model Territory or Model Field Force.'),
+   system_managed(false)
+);

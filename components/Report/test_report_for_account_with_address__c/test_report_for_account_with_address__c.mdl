@@ -1,0 +1,20 @@
+RECREATE Report test_report_for_account_with_address__c (
+   label('test report for account with address'),
+   active(true),
+   description(),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.account_with_address__c'),
+   editors(),
+   viewers(),
+   owners('User.tanmai.reshma.giri@sb-accenture.com'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

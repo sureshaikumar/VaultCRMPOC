@@ -1,0 +1,7 @@
+Picklistentry doenr__v (
+   value('Dermatological Oncology'),
+   order(392),
+   active(true),
+   controlling_entries('ba__v',
+         'hr__v')
+);

@@ -1,0 +1,7 @@
+Picklistentry neurv__v (
+   value('Neurophysiology'),
+   order(1035),
+   active(true),
+   controlling_entries('mt__v',
+         'om__v')
+);

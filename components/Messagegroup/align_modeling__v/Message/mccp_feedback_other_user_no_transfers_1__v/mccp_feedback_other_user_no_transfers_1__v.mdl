@@ -1,0 +1,6 @@
+Message mccp_feedback_other_user_no_transfers_1__v (
+   label(),
+   active(true),
+   default_value('You cannot transfer this target because the other user''s field force is not configured to receive transfer requests.'),
+   system_managed(false)
+);

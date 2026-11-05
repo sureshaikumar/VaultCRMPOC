@@ -1,0 +1,10 @@
+Typefield media_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.email_activity_media_type__v.audio__v',
+         'Picklist.email_activity_media_type__v.image__v',
+         'Picklist.email_activity_media_type__v.microsoft_office__v',
+         'Picklist.email_activity_media_type__v.pdf__v',
+         'Picklist.email_activity_media_type__v.video__v',
+         'Picklist.email_activity_media_type__v.zip__v')
+);

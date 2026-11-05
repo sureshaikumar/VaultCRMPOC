@@ -1,0 +1,8 @@
+RECREATE Picklist model_update_status__v (
+   label('Model Update Status'),
+   active(true),
+   Picklistentry(@Picklistentry/active__v.mdl),
+   Picklistentry(@Picklistentry/inactive__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

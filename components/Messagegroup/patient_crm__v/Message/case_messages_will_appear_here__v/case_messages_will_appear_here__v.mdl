@@ -1,0 +1,6 @@
+Message case_messages_will_appear_here__v (
+   label(),
+   active(true),
+   default_value('Case Messages will appear here'),
+   system_managed(false)
+);

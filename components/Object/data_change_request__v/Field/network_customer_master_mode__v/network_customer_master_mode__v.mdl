@@ -1,0 +1,22 @@
+Field network_customer_master_mode__v (
+   label('Network Customer Master Mode'),
+   type('Number'),
+   active(true),
+   description('Contains a value indicating where the DCR should be sent for processing'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

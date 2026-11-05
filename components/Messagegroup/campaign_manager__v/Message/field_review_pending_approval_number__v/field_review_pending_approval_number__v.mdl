@@ -1,0 +1,6 @@
+Message field_review_pending_approval_number__v (
+   label(),
+   active(true),
+   default_value('Pending Approval: ${pending_approval_count}'),
+   system_managed(false)
+);

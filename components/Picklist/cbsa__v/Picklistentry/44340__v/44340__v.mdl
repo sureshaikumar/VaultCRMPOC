@@ -1,0 +1,5 @@
+Picklistentry 44340__v (
+   value('Statesboro, GA Micropolitan Statistical Area'),
+   order(772),
+   active(true)
+);

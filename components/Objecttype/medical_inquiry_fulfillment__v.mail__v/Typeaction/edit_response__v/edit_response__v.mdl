@@ -1,0 +1,3 @@
+Typeaction edit_response__v (
+   action('medical_inquiry_fulfillment__v.edit_response__v')
+);

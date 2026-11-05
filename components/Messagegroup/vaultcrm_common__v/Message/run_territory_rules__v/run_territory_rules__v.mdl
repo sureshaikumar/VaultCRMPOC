@@ -1,0 +1,6 @@
+Message run_territory_rules__v (
+   label(),
+   active(true),
+   default_value('Recalculate'),
+   system_managed(false)
+);

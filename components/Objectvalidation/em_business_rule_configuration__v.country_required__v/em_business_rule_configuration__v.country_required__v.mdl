@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.country_required__v (
+   label('Country Required'),
+   active(true),
+   expression('event_business_rule__vr.global_rule__v || Not(IsBlank(country__v))'),
+   description('global_rule__v is "false" and country__v field is blank.'),
+   error_message('Country required.'),
+   error_location('country__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ly-mi__v (
+   value('Mişrātah'),
+   order(2754),
+   active(true),
+   controlling_entries('ly__v')
+);

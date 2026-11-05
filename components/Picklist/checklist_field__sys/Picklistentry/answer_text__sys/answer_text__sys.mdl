@@ -1,0 +1,5 @@
+Picklistentry answer_text__sys (
+   value('Answer Text'),
+   order(5),
+   active(true)
+);

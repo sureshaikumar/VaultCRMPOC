@@ -1,0 +1,6 @@
+Message select_call_objective_type__v (
+   label(),
+   active(true),
+   default_value('Select the type of call objective record your are creating'),
+   system_managed(false)
+);

@@ -1,0 +1,45 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.remote_meeting_attendee__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="remote_meeting__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="attendee_type__v" />
+            <vault:field reference="device__v" />
+            <vault:field reference="ip_address__v" />
+            <vault:field reference="join_time__v" />
+            <vault:field reference="leave_time__v" />
+            <vault:field reference="meeting_end_time__v" />
+            <vault:field reference="meeting_start_time__v" />
+            <vault:field reference="meeting_type_on24__v" />
+            <vault:field reference="display_name__v" />
+            <vault:field reference="network_type__v" />
+            <vault:field reference="participant_id__v" />
+            <vault:field reference="spotme_attended_session_flag__v" />
+            <vault:field reference="spotme_live_claps__v" />
+            <vault:field reference="spotme_live_questions__v" />
+            <vault:field reference="spotme_live_viewing_seconds__v" />
+            <vault:field reference="spotme_replay_viewing_seconds__v" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="veeva_remote_meeting_id__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="call__v" />
+            <vault:field reference="em_attendee__v" />
+            <vault:field reference="em_event_session_attendee__v" />
+            <vault:field reference="em_event_session__v" />
+            <vault:field reference="em_event_speaker__v" />
+            <vault:field reference="event__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="meeting_duration__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

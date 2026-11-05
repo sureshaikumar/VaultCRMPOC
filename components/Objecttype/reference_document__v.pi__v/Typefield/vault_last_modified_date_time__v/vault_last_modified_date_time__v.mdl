@@ -1,0 +1,4 @@
+Typefield vault_last_modified_date_time__v (
+   source('custom'),
+   required(false)
+);

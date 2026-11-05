@@ -1,0 +1,6 @@
+Picklistentry phagp__v (
+   value('Public Health and General Preventive Medicine'),
+   order(1636),
+   active(true),
+   controlling_entries('ae__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cd-mn__v (
+   value('Mai-Ndombe'),
+   order(588),
+   active(true),
+   controlling_entries('cd__v')
+);

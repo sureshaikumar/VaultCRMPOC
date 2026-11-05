@@ -1,0 +1,19 @@
+Field remote_clm_presenter_url__v (
+   label('Remote CLM Presenter URL'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Stores the Remote CLM URL for the presenter'),
+   list_column(false),
+   order(74),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

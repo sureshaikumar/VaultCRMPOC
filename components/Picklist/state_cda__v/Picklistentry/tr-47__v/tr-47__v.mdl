@@ -1,0 +1,6 @@
+Picklistentry tr-47__v (
+   value('Mardin'),
+   order(4505),
+   active(true),
+   controlling_entries('tr__v')
+);

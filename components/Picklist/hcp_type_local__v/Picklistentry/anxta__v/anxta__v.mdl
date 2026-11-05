@@ -1,0 +1,5 @@
+Picklistentry anxta__v (
+   value('Anesthesia Technical Assistant (ATA)'),
+   order(7),
+   active(true)
+);

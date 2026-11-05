@@ -1,0 +1,4 @@
+Typefield name_of_drug_as_reported__c (
+   source('custom'),
+   required(false)
+);

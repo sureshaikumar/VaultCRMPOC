@@ -1,0 +1,6 @@
+Message template_name__v (
+   label(),
+   active(true),
+   default_value('Template Name'),
+   system_managed(false)
+);

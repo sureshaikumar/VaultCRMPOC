@@ -1,0 +1,6 @@
+Picklistentry mm-06__v (
+   value('Yangon'),
+   order(3060),
+   active(true),
+   controlling_entries('mm__v')
+);

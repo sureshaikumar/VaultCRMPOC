@@ -1,0 +1,6 @@
+Message crm_integration_aiu_record_inactive__v (
+   label(),
+   active(true),
+   default_value('The Align Integration User record is currently inactive.'),
+   system_managed(false)
+);

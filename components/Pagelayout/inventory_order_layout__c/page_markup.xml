@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.inventory_order__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="order_create_date__v" />
+            <vault:control reference="io_order_for_user_field_control__v" name="io_order_for_user_field_control__c" />
+            <vault:field reference="order_status__v" />
+            <vault:field reference="order_type__v" />
+            <vault:field reference="order_submit_date__v" />
+            <vault:field reference="total_order_fulfilled_quantity__v" />
+            <vault:field reference="approver_user_id__v" />
+            <vault:field reference="approved_date__v" />
+            <vault:field reference="approved_by__v" />
+            <vault:field reference="approved__v" />
+            <vault:field reference="require_approval__v" />
+            <vault:field reference="order_for_user__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Inventory Order Lines" name="io_lines_section_control__c" reference="io_lines_section_control__v" />
+</vault:page>

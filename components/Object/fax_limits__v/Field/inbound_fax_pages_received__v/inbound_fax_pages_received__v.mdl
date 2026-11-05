@@ -1,0 +1,22 @@
+Field inbound_fax_pages_received__v (
+   label('Inbound Fax Pages Received'),
+   type('Number'),
+   active(true),
+   description('The total number of inbound fax pages received by this Vault within the defined period. Automatically incremented as faxes are received. Resets every calendar year.'),
+   required(false),
+   unique(false),
+   max_value(9999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

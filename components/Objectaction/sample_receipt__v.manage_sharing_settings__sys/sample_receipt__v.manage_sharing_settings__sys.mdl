@@ -1,0 +1,8 @@
+RECREATE Objectaction sample_receipt__v.manage_sharing_settings__sys (
+   label('Sharing Settings'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.ManageSharingSettings'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,19 @@
+Field workday_field__v (
+   label('Workday Field'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('The XML column headers in the returned Workday Report using the JSON Report URL'),
+   list_column(true),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

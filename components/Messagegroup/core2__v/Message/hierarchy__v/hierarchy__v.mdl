@@ -1,0 +1,6 @@
+Message hierarchy__v (
+   label(),
+   active(true),
+   default_value('Hierarchy'),
+   system_managed(false)
+);

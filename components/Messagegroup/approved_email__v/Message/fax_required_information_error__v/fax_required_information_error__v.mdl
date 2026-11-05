@@ -1,0 +1,6 @@
+Message fax_required_information_error__v (
+   label(),
+   active(true),
+   default_value('Information required to send this fax is unavailable - ${required_information}'),
+   system_managed(false)
+);

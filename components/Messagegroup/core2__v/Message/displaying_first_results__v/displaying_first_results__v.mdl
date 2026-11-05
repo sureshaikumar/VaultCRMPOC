@@ -1,0 +1,6 @@
+Message displaying_first_results__v (
+   label(),
+   active(true),
+   default_value('Only displaying the first ${number} ${plural_object_label} loaded'),
+   system_managed(false)
+);

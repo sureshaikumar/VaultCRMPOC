@@ -1,0 +1,6 @@
+Message continue_to_review_sent_to_preview_fax__v (
+   label(),
+   active(true),
+   default_value('Continue to Review & Send to preview fax content'),
+   system_managed(false)
+);

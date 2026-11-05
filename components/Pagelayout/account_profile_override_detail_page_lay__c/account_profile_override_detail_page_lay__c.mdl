@@ -1,0 +1,8 @@
+RECREATE Pagelayout account_profile_override_detail_page_lay__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Account Profile Override Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

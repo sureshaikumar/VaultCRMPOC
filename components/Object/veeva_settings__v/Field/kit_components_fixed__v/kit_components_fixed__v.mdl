@@ -1,0 +1,18 @@
+Field kit_components_fixed__v (
+   label('Kit_Components_Fixed'),
+   type('Boolean'),
+   active(true),
+   description('Designates whether users enter an order quantity for a Product Kit or enter order quantities for individual Kit Items. Default value is Checked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(200),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

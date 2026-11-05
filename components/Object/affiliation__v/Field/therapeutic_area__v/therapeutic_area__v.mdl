@@ -1,0 +1,18 @@
+Field therapeutic_area__v (
+   label('Therapeutic Area'),
+   type('Picklist'),
+   active(true),
+   description('The therapeutic area of the affiliation. An affiliation can have one to many therapeutic areas. This is not required but can be set to Read Only for filtering purposes only.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   multi_value(true),
+   picklist('Picklist.affiliation_therapeutic_area__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

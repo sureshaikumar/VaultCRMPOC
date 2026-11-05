@@ -1,0 +1,19 @@
+Field webinar_host_id__v (
+   label('Webinar Host Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content('Webinar Host Id is the user Id assigned by Zoom for the webinar host.'),
+   list_column(false),
+   order(103),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

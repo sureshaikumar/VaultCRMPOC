@@ -1,0 +1,6 @@
+Message entity_was_removed_from_target_entity__v (
+   label(),
+   active(true),
+   default_value('${entity} was removed from ${target_entity}'),
+   system_managed(false)
+);

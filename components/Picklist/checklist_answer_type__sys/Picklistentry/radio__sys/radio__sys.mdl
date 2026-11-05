@@ -1,0 +1,5 @@
+Picklistentry radio__sys (
+   value('Radio'),
+   order(1),
+   active(true)
+);

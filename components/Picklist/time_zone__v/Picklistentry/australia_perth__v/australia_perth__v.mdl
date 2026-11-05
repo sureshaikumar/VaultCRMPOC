@@ -1,0 +1,5 @@
+Picklistentry australia_perth__v (
+   value('Australian Western Time'),
+   order(22),
+   active(true)
+);

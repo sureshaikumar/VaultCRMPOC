@@ -1,0 +1,7 @@
+Typefield do_not_call__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_do_not_call__v.no__v',
+         'Picklist.account_do_not_call__v.yes__v'),
+   default_value('Picklist.account_do_not_call__v.no__v')
+);

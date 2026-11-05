@@ -1,0 +1,5 @@
+Docmatchingcriterion doc_type_group__v (
+   object_field('Field.doc_type_group__v'),
+   data_field('Docfield.doc_type_group__v'),
+   object('Object.user_role_setup__v')
+);

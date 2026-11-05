@@ -1,0 +1,7 @@
+Typefield interest_category__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.documented_interest_interest_category__v.clinical_trial_update__v',
+         'Picklist.documented_interest_interest_category__v.congress_update__v',
+         'Picklist.documented_interest_interest_category__v.safety_label_update__v')
+);

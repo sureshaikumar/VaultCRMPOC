@@ -1,0 +1,6 @@
+Message add_translation__v (
+   label(),
+   active(true),
+   default_value('Add Translation'),
+   system_managed(false)
+);

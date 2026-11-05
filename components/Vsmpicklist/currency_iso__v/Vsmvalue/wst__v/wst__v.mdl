@@ -1,0 +1,9 @@
+Vsmvalue wst__v (
+   label('WST'),
+   active(true),
+   description('Applies when transactions are denominated in the Samoan Tālā, the official currency of the Independent State of Samoa.'),
+   synonyms('Samoan tālā',
+         'Samoa currency'),
+   target('wst__sys'),
+   target_label('WST')
+);

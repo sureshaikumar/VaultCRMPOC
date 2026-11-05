@@ -1,0 +1,6 @@
+Picklistentry fi-08__v (
+   value('Central Finland'),
+   order(1280),
+   active(true),
+   controlling_entries('fi__v')
+);

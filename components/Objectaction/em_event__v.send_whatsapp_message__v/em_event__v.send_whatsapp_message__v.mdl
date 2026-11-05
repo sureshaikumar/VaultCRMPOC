@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.send_whatsapp_message__v (
+   label('Send WhatsApp Message'),
+   description('Launches the chat workflow for Events Management, allowing users to select a message template and define recipients.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.SendWhatsAppMessageAction'),
+   active(true),
+   available_all_states(true)
+);

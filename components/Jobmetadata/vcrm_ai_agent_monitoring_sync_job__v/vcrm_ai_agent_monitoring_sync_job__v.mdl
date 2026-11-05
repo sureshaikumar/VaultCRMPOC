@@ -1,0 +1,10 @@
+RECREATE Jobmetadata vcrm_ai_agent_monitoring_sync_job__v (
+   label('Agent Monitoring Sync'),
+   active(true),
+   chunk_size(1),
+   description('Incrementally syncs Agent Monitoring data to the Agent Activity objects for standard CRM agents'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.crmai.jobs.AgentMonitoringSyncJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

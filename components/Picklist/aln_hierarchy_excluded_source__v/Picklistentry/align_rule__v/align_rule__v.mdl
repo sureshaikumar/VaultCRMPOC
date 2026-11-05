@@ -1,0 +1,5 @@
+Picklistentry align_rule__v (
+   value('Align Rule'),
+   order(4),
+   active(true)
+);

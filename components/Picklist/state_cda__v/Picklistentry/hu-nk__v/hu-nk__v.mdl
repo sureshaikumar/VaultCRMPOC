@@ -1,0 +1,6 @@
+Picklistentry hu-nk__v (
+   value('Nagykanizsa'),
+   order(1895),
+   active(true),
+   controlling_entries('hu__v')
+);

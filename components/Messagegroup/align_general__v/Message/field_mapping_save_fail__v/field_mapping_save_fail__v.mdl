@@ -1,0 +1,6 @@
+Message field_mapping_save_fail__v (
+   label(),
+   active(true),
+   default_value('Failed to save field mappings for {0}.'),
+   system_managed(false)
+);

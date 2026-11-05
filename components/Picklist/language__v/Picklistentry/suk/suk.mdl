@@ -1,0 +1,5 @@
+Picklistentry suk (
+   value('Sukuma'),
+   order(311),
+   active(true)
+);

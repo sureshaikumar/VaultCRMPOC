@@ -1,0 +1,5 @@
+Picklistentry america_panama__v (
+   value('America/Panama'),
+   order(15),
+   active(true)
+);

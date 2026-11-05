@@ -1,0 +1,5 @@
+Picklistentry kum__v (
+   value('Kumyk'),
+   order(177),
+   active(false)
+);

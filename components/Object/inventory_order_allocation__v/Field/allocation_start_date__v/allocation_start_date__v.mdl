@@ -1,0 +1,17 @@
+Field allocation_start_date__v (
+   label('Allocation Start Date'),
+   type('Date'),
+   active(true),
+   description('This date reflects the first date this order allocation quantity is available for selection during order entry.'),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(7),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

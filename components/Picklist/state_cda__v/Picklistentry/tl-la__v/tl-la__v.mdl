@@ -1,0 +1,6 @@
+Picklistentry tl-la__v (
+   value('Lautém'),
+   order(4418),
+   active(true),
+   controlling_entries('tl__v')
+);

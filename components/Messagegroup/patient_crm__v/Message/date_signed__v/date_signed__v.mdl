@@ -1,0 +1,6 @@
+Message date_signed__v (
+   label(),
+   active(true),
+   default_value('Date Signed'),
+   system_managed(false)
+);

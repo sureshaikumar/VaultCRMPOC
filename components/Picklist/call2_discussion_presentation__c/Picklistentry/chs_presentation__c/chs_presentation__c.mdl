@@ -1,0 +1,5 @@
+Picklistentry chs_presentation__c (
+   value('CHS Presentation'),
+   order(1),
+   active(true)
+);

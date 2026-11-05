@@ -1,0 +1,6 @@
+Message manually_add_targets__v (
+   label(),
+   active(true),
+   default_value('Manually Add Targets'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ws-sa__v (
+   value('Satupa''itea'),
+   order(4991),
+   active(true),
+   controlling_entries('ws__v')
+);

@@ -1,0 +1,18 @@
+Field is_hidden__v (
+   label('Is Hidden?'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if a Meeting Request shows on My Schedule'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

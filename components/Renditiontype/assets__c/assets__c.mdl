@@ -1,0 +1,4 @@
+RECREATE Renditiontype assets__c (
+   label('Assets'),
+   active(true)
+);

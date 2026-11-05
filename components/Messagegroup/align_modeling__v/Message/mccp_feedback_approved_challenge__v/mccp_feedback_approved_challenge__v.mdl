@@ -1,0 +1,6 @@
+Message mccp_feedback_approved_challenge__v (
+   label(),
+   active(true),
+   default_value('This challenge has been approved'),
+   system_managed(false)
+);

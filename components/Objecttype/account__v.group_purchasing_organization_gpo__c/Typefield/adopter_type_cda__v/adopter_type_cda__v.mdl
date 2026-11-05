@@ -1,0 +1,4 @@
+Typefield adopter_type_cda__v (
+   source('custom'),
+   required(false)
+);

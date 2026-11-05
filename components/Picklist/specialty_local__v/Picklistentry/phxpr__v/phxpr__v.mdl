@@ -1,0 +1,6 @@
+Picklistentry phxpr__v (
+   value('Pharmacy Practice'),
+   order(1526),
+   active(true),
+   controlling_entries('pl__v')
+);

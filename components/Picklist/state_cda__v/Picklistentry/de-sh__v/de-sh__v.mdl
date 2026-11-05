@@ -1,0 +1,6 @@
+Picklistentry de-sh__v (
+   value('Schleswig-Holstein'),
+   order(914),
+   active(true),
+   controlling_entries('de__v')
+);

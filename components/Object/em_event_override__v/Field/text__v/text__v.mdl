@@ -1,0 +1,19 @@
+Field text__v (
+   label('Text'),
+   type('String'),
+   active(true),
+   description('Field used to define the warning message that appears when clicking an Event Action.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

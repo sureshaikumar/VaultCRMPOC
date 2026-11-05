@@ -1,0 +1,12 @@
+RECREATE Tab my_schedule_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('My Schedule'),
+   modal_create_record(false),
+   order(1400),
+   page('Page.my_schedule_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

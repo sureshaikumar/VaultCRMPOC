@@ -1,0 +1,6 @@
+Message available_context__sys (
+   label(),
+   active(true),
+   default_value('Available Context'),
+   system_managed(true)
+);

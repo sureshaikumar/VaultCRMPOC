@@ -1,0 +1,10 @@
+Httppostjobaction exturl_action__c (
+   external_url('https://lambda.veeva-vcrm.com/api/latest/process/crmImport?vaulturl=${Vault.domain}&vaultid=${Vault.id}
+
+'),
+   label('Import data from Vault CRM'),
+   post_session_creds(true),
+   primary_action(true),
+   run_as_user('align.integrationuser@sb-accenture.com'),
+   session_granted_by('kavita.singh@sb-accenture.com')
+);

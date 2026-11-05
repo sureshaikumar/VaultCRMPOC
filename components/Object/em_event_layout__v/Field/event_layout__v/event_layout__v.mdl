@@ -1,0 +1,19 @@
+Field event_layout__v (
+   label('Event Layout'),
+   type('String'),
+   active(true),
+   description('The page layout to be used for the event, based on the event status, user profile, and event team role of the user viewing the event. Maps to the page layouts available on the em_event__v object.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message number_value_validation__v (
+   label(),
+   active(true),
+   default_value('Please enter a value between ${min_value} and ${max_value} for ${field_name}'),
+   system_managed(false)
+);

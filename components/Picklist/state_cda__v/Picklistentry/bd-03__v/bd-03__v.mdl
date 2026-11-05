@@ -1,0 +1,6 @@
+Picklistentry bd-03__v (
+   value('Bogra'),
+   order(232),
+   active(true),
+   controlling_entries('bd__v')
+);

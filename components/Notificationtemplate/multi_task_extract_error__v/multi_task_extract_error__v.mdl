@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate multi_task_extract_error__v (
+   label('MultiTaskExtractError'),
+   active(true),
+   description('MultiTask extract job error template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Loader extract job has failed'),
+   notification('<p>Your Loader extract job ${job_id} has failed. Result files can be retrieved from the Job Status page: <a href="${jobStatusPageLink}">${jobStatusPageLinkText} </a></p>
+<p>Message: ${multiTaskFailureMessage}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

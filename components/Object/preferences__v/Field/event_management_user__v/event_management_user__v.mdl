@@ -1,0 +1,18 @@
+Field event_management_user__v (
+   label('Event Management User'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field is used to indicate if a user has Veeva Event Management. To turn on Event Management, the user must have read permission to this field. The checkbox does not need to be checked.'),
+   list_column(false),
+   order(35),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

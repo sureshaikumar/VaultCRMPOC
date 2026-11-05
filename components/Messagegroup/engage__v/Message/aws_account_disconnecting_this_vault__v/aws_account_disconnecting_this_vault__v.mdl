@@ -1,0 +1,6 @@
+Message aws_account_disconnecting_this_vault__v (
+   label(),
+   active(true),
+   default_value('AWS Account Currently Disconnecting'),
+   system_managed(false)
+);

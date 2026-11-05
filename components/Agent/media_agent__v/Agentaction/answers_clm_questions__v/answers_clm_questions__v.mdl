@@ -1,0 +1,12 @@
+Agentaction answers_clm_questions__v (
+   label('Answers CLM Questions'),
+   active(true),
+   api_access(),
+   description('Answers questions and provides citations when using the chat to talk about CLM'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

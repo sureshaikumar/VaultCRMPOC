@@ -1,0 +1,5 @@
+Picklistentry cott__v (
+   value('Cottage Hospital'),
+   order(40),
+   active(true)
+);

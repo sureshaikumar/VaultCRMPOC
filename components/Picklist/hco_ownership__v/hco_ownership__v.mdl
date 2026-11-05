@@ -1,0 +1,9 @@
+RECREATE Picklist hco_ownership__v (
+   label('HCO Ownership'),
+   active(true),
+   Picklistentry(@Picklistentry/pub__v.mdl),
+   Picklistentry(@Picklistentry/priv__v.mdl),
+   Picklistentry(@Picklistentry/unkn__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

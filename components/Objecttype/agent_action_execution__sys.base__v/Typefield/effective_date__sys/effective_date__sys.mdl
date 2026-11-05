@@ -1,0 +1,4 @@
+Typefield effective_date__sys (
+   source('standard'),
+   required(false)
+);

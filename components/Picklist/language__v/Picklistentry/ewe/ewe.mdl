@@ -1,0 +1,5 @@
+Picklistentry ewe (
+   value('Ewe'),
+   order(175),
+   active(true)
+);

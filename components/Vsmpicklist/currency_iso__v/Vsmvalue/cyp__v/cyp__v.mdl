@@ -1,0 +1,9 @@
+Vsmvalue cyp__v (
+   label('CYP'),
+   active(true),
+   description('Use when recording historical monetary amounts in the Cypriot Pound, which was replaced by the Euro in 2008.'),
+   synonyms('Cypriot Pound',
+         'Cyprus Pound'),
+   target('cyp__sys'),
+   target_label('CYP')
+);

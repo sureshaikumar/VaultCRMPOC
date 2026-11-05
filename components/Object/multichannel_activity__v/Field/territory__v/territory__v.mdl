@@ -1,0 +1,19 @@
+Field territory__v (
+   label('Territory'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('The Territory of the User at the time the multichannel activity was created, if applicable. Not all multichannel activity will have a Territory.'),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

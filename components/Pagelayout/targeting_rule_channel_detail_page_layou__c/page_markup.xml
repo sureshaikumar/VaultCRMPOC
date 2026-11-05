@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_targeting_rule_channel__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="account_filter_logic__v" />
+            <vault:field reference="account_rule__v" />
+            <vault:field reference="account_rule_model__v" />
+            <vault:field reference="channel_activity_goal__v" />
+            <vault:field reference="channel_activity_max__v" />
+            <vault:field reference="channel_interactions_goal__v" />
+            <vault:field reference="channel_interactions_max__v" />
+            <vault:field reference="clone_source__v" />
+            <vault:field reference="create_location_based_target__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="ctrl_mc_cycle__v" />
+            <vault:field reference="mc_cycle_channel__v" />
+            <vault:field reference="parent_hco_filter_logic__v" />
+            <vault:field reference="parent_hco_product_metric_filter_logic__v" />
+            <vault:field reference="priority__v" />
+            <vault:field reference="product_interactions_goal__v" />
+            <vault:field reference="product_metric_filter_logic__v" />
+            <vault:field reference="source__v" />
+            <vault:field reference="team_channel_activity_goal__v" />
+            <vault:field reference="team_channel_activity_max__v" />
+            <vault:field reference="team_channel_interactions_goal__v" />
+            <vault:field reference="team_channel_interactions_max__v" />
+            <vault:field reference="team_product_interactions_goal__v" />
+            <vault:field reference="crm_object_type__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,18 @@
+Field recurring__v (
+   label('Recurring'),
+   type('Boolean'),
+   active(true),
+   description('If this checkbox is checked, the call objective is recurring. It will repeatedly show on the call report until the To date has been reached, It can be completed multiple times. Each time it is completed, a new call objective record is created.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(27),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

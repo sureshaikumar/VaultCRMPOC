@@ -1,0 +1,5 @@
+Picklistentry specialist__v (
+   value('Specialist'),
+   order(3),
+   active(true)
+);

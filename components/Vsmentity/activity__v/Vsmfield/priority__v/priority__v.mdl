@@ -1,0 +1,14 @@
+Vsmfield priority__v (
+   label('Priority'),
+   active(false),
+   description('Numeric value representing the priority of the activity, where a lower number typically indicates higher priority. Use to sort or filter activities by urgency, or to identify the most critical tasks in a queue.'),
+   example_values(),
+   synonyms('priority level',
+         'priority rank',
+         'urgency',
+         'importance'),
+   target('priority__sys'),
+   target_label('Priority'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

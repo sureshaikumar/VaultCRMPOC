@@ -1,0 +1,22 @@
+Field monthly_token_budget__v (
+   label('Monthly Token Budget'),
+   type('Number'),
+   active(true),
+   description('Admin defined value for the monthly token budget that displays on the AI Reporting page'),
+   required(false),
+   unique(false),
+   max_value(1000000000000),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

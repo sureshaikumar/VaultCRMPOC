@@ -1,0 +1,6 @@
+Picklistentry otp_one_time1__sys (
+   value('One Time'),
+   order(110),
+   active(true),
+   controlling_entries('olc_survey_target__sys')
+);

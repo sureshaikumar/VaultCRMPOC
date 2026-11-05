@@ -1,0 +1,5 @@
+Picklistentry ful (
+   value('Fulah'),
+   order(184),
+   active(true)
+);

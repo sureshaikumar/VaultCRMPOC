@@ -1,0 +1,5 @@
+Picklistentry 41420__v (
+   value('Salem, OR Metropolitan Statistical Area'),
+   order(365),
+   active(true)
+);

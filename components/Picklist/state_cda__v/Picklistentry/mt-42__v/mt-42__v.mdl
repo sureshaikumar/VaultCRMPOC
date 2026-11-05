@@ -1,0 +1,6 @@
+Picklistentry mt-42__v (
+   value('Qala'),
+   order(3148),
+   active(true),
+   controlling_entries('mt__v')
+);

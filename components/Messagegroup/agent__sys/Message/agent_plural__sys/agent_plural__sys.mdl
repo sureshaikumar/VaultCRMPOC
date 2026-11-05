@@ -1,0 +1,6 @@
+Message agent_plural__sys (
+   label(),
+   active(true),
+   default_value('Agents'),
+   system_managed(true)
+);

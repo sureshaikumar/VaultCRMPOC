@@ -1,0 +1,4 @@
+Typefield speaker_travel_distance__v (
+   source('custom'),
+   required(false)
+);

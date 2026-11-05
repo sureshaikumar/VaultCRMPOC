@@ -1,0 +1,6 @@
+Message navigation_error__v (
+   label(),
+   active(true),
+   default_value('Navigation Error'),
+   system_managed(false)
+);

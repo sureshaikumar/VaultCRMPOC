@@ -1,0 +1,6 @@
+Picklistentry pfpso__v (
+   value('Psychiatry Forensic Psychiatry'),
+   order(1619),
+   active(true),
+   controlling_entries('id__v')
+);

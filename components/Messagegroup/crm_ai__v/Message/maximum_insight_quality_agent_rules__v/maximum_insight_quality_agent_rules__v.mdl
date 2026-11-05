@@ -1,0 +1,6 @@
+Message maximum_insight_quality_agent_rules__v (
+   label(),
+   active(true),
+   default_value('You have exceeded the maximum number of Agent Rules for this type. See Vault CRM Help documentation to learn more'),
+   system_managed(false)
+);

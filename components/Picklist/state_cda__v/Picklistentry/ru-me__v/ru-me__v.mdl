@@ -1,0 +1,6 @@
+Picklistentry ru-me__v (
+   value('Mariy El, Respublika'),
+   order(3829),
+   active(true),
+   controlling_entries('ru__v')
+);

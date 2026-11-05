@@ -1,0 +1,4 @@
+Typefield media_file_crc__v (
+   source('standard'),
+   required(false)
+);

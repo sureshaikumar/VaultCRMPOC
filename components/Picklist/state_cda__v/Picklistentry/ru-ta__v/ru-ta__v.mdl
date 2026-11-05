@@ -1,0 +1,6 @@
+Picklistentry ru-ta__v (
+   value('Tatarstan, Respublika'),
+   order(3856),
+   active(true),
+   controlling_entries('ru__v')
+);

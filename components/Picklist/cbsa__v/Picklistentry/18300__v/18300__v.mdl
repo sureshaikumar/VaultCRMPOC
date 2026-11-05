@@ -1,0 +1,5 @@
+Picklistentry 18300__v (
+   value('Coos Bay, OR Micropolitan Statistical Area'),
+   order(181),
+   active(true)
+);

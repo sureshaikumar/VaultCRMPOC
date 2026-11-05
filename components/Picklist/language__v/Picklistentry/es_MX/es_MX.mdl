@@ -1,0 +1,5 @@
+Picklistentry es_MX (
+   value('Spanish (Mexico)'),
+   order(26),
+   active(true)
+);

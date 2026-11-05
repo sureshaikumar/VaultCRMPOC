@@ -1,0 +1,18 @@
+Field my_accounts_redirect__v (
+   label('My Accounts Redirect'),
+   type('Boolean'),
+   active(true),
+   description('When set to True, clicking the New button in the My Accounts page will redirect the user to the Global Account Search tab.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

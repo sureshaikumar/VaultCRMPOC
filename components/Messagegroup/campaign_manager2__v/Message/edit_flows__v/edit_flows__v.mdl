@@ -1,0 +1,6 @@
+Message edit_flows__v (
+   label(),
+   active(true),
+   default_value('Edit Flows'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry inhalers_steroids__v (
+   value('Inhalers (Steroids)'),
+   order(102),
+   active(true)
+);

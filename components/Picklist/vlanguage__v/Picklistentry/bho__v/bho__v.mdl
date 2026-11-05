@@ -1,0 +1,5 @@
+Picklistentry bho__v (
+   value('Bhojpuri'),
+   order(36),
+   active(false)
+);

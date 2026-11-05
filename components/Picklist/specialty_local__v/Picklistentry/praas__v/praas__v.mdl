@@ -1,0 +1,23 @@
+Picklistentry praas__v (
+   value('Plastic, Reconstructive and Aesthetic Surgery'),
+   order(1575),
+   active(true),
+   controlling_entries('at__v',
+         'ba__v',
+         'ch__v',
+         'cy__v',
+         'de__v',
+         'fr__v',
+         'gr__v',
+         'hr__v',
+         'ie__v',
+         'li__v',
+         'mc__v',
+         'me__v',
+         'mk__v',
+         'ph__v',
+         'pt__v',
+         'rs__v',
+         'si__v',
+         'tr__v')
+);

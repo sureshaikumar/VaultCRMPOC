@@ -1,0 +1,6 @@
+Picklistentry ee-793__v (
+   value('Tartu'),
+   order(1139),
+   active(true),
+   controlling_entries('ee__v')
+);

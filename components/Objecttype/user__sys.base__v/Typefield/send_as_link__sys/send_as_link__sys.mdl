@@ -1,0 +1,4 @@
+Typefield send_as_link__sys (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message mc_cycle_feedback__v (
+   label(),
+   active(true),
+   default_value('Feedback'),
+   system_managed(false)
+);

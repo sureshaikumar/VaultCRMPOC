@@ -1,0 +1,6 @@
+Picklistentry ug-432__v (
+   value('Kikuube'),
+   order(4774),
+   active(true),
+   controlling_entries('ug__v')
+);

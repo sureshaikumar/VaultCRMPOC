@@ -1,0 +1,5 @@
+Picklistentry multichannel_consent__v (
+   value('Multichannel Consent'),
+   order(3),
+   active(true)
+);

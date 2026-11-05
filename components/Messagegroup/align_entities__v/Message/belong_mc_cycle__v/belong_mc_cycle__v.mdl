@@ -1,0 +1,6 @@
+Message belong_mc_cycle__v (
+   label(),
+   active(true),
+   default_value('MC Cycle Channel ${channel_name} does not belong to MC Cycle ${cycle_name}'),
+   system_managed(false)
+);

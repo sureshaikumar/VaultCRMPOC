@@ -1,0 +1,6 @@
+Picklistentry mw-n__v (
+   value('Chakumpoto'),
+   order(3226),
+   active(true),
+   controlling_entries('mw__v')
+);

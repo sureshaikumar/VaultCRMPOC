@@ -1,0 +1,18 @@
+Field specialty_1__v (
+   label('Specialty'),
+   type('Picklist'),
+   active(true),
+   description('Speaker Primary Specialty'),
+   required(false),
+   unique(false),
+   help_content('Picklist of the professional''s specialty. Edit the picklist to change the available values.'),
+   list_column(false),
+   order(64),
+   multi_value(false),
+   picklist('Picklist.account_specialty_1__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

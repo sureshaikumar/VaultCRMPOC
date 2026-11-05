@@ -1,0 +1,9 @@
+Vsmvalue dop__v (
+   label('DOP'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of the Dominican Republic.'),
+   synonyms('Dominican Peso',
+         'Dominican Republic Peso'),
+   target('dop__sys'),
+   target_label('DOP')
+);

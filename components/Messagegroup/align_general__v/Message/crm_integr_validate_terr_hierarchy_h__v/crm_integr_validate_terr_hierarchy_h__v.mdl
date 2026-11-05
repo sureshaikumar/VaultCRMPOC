@@ -1,0 +1,6 @@
+Message crm_integr_validate_terr_hierarchy_h__v (
+   label(),
+   active(true),
+   default_value('Validate Territory Hierarchy'),
+   system_managed(false)
+);

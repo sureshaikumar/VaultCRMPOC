@@ -1,0 +1,6 @@
+Picklistentry lr-si__v (
+   value('Sinoe'),
+   order(2608),
+   active(true),
+   controlling_entries('lr__v')
+);

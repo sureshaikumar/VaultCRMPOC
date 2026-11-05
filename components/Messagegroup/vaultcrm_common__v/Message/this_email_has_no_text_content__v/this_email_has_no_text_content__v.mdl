@@ -1,0 +1,6 @@
+Message this_email_has_no_text_content__v (
+   label(),
+   active(true),
+   default_value('This email has no text content'),
+   system_managed(false)
+);

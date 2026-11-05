@@ -1,0 +1,21 @@
+Picklistentry irnat__v (
+   value('Interventional Radiology'),
+   order(827),
+   active(true),
+   controlling_entries('ae__v',
+         'am__v',
+         'ba__v',
+         'bh__v',
+         'ca__v',
+         'cz__v',
+         'eg__v',
+         'gb__v',
+         'hr__v',
+         'ng__v',
+         'ph__v',
+         'pk__v',
+         'pt__v',
+         'qa__v',
+         'rs__v',
+         'us__v')
+);

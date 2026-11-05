@@ -1,0 +1,23 @@
+Field nas_location_auto_population__v (
+   label('NAS Location Auto Population'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(2),
+   min_value(0),
+   scale(0),
+   help_content('Use 0 to disable, 1 to enable'),
+   list_column(false),
+   order(20),
+   default_value('1'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

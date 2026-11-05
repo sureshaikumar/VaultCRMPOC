@@ -1,0 +1,19 @@
+Field address_line_1__v (
+   label('Address Line 1'),
+   type('String'),
+   active(true),
+   description('First Line of the Address for the Rep.  The First Line of the Address on Rep Roster is utilized for Transfer Transactions to auto-populate the First Line of the Address for a Transfer Sample Transaction based on the selected Transfer To User.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

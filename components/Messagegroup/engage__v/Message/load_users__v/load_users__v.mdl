@@ -1,0 +1,6 @@
+Message load_users__v (
+   label(),
+   active(true),
+   default_value('Load Users'),
+   system_managed(false)
+);

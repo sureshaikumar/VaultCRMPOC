@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <expression operator="and">
+            <expression operator="eq">
+                <expression operator="field" type="boolean">
+                    <value>Document.crosslink__v</value>
+                </expression>
+                <expression operator="value" type="boolean">
+                    <value>false</value>
+                </expression>
+            </expression>
+            <expression operator="eq">
+                <expression operator="field" type="string">
+                    <value>Document.type__v</value>
+                </expression>
+                <expression operator="value" type="string">
+                    <value>slide__v</value>
+                </expression>
+            </expression>
+        </expression>
+        <actions>
+            <action type="CHECK_ENTRY_CRITERIA" actionPublicKey="check_entry_criteria_rhqxzzqx8c8q__c">
+                <EntryCriterion type="RenditionExists" compareValue="distribution_package__v" />
+            </action>
+        </actions>
+    </rule>
+    <rule>
+        <expression operator="and">
+            <expression operator="eq">
+                <expression operator="field" type="string">
+                    <value>Document.type__v</value>
+                </expression>
+                <expression operator="value" type="string">
+                    <value>shared_resource__v</value>
+                </expression>
+            </expression>
+            <expression operator="eq">
+                <expression operator="field" type="boolean">
+                    <value>Document.crosslink__v</value>
+                </expression>
+                <expression operator="value" type="boolean">
+                    <value>false</value>
+                </expression>
+            </expression>
+        </expression>
+        <actions>
+            <action type="CHECK_ENTRY_CRITERIA" actionPublicKey="check_entry_criteria_1pkbjb3jxnozs__c">
+                <EntryCriterion type="RenditionExists" compareValue="distribution_package__v" />
+            </action>
+        </actions>
+    </rule>
+</rules>

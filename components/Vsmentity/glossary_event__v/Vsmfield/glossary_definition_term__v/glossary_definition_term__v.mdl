@@ -1,0 +1,14 @@
+Vsmfield glossary_definition_term__v (
+   label('Glossary Term'),
+   active(true),
+   description('The specific glossary term that was matched and returned during this event. Use this to identify which terms are most frequently looked up or to audit glossary coverage.'),
+   example_values(),
+   synonyms('term',
+         'glossary term',
+         'matched term',
+         'definition term'),
+   target('glossary_definition_term__sys'),
+   target_label('Glossary Term'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

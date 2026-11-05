@@ -1,0 +1,6 @@
+Message manage_approval_process__v (
+   label(),
+   active(true),
+   default_value('Manage Approval Process'),
+   system_managed(false)
+);

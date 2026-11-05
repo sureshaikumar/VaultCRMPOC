@@ -1,0 +1,6 @@
+Message ms_phone_unable_to_initialize__v (
+   label(),
+   active(true),
+   default_value('Unable to start Microsoft Phone. Try again or contact the administrator.'),
+   system_managed(false)
+);

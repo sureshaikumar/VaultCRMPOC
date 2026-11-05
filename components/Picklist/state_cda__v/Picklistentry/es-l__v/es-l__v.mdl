@@ -1,0 +1,6 @@
+Picklistentry es-l__v (
+   value('Lleida'),
+   order(1225),
+   active(true),
+   controlling_entries('es__v')
+);

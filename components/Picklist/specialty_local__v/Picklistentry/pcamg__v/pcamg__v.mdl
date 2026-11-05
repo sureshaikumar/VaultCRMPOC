@@ -1,0 +1,6 @@
+Picklistentry pcamg__v (
+   value('Pediatric Clinical and Metabolic Genetics'),
+   order(1348),
+   active(true),
+   controlling_entries('qa__v')
+);

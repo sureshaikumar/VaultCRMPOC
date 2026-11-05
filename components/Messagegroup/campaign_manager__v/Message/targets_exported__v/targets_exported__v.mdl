@@ -1,0 +1,6 @@
+Message targets_exported__v (
+   label(),
+   active(true),
+   default_value('${count} targets exported'),
+   system_managed(false)
+);

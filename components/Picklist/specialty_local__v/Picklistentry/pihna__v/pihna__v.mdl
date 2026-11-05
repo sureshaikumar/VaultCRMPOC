@@ -1,0 +1,6 @@
+Picklistentry pihna__v (
+   value('Pharmaceutical Information'),
+   order(1510),
+   active(true),
+   controlling_entries('kr__v')
+);

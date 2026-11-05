@@ -1,0 +1,6 @@
+Picklistentry enthb__v (
+   value('Ear Nose Throat Head and Neck Surgery Laryngo-Pharyngology'),
+   order(462),
+   active(true),
+   controlling_entries('id__v')
+);

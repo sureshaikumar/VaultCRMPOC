@@ -1,0 +1,23 @@
+Field data_change_request_mode__v (
+   label('Data Change Request Mode'),
+   type('Number'),
+   active(true),
+   description('Determines if a user can create Data Change Requests. See documentation for more details.'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(76),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

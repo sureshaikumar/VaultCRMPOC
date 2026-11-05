@@ -1,0 +1,11 @@
+RECREATE Jobmetadata promomats_indication_inbound_job__v (
+   label('PromoMats to CRM indication inbound job'),
+   active(true),
+   chunk_size(500),
+   description('A job that queries the status of Indications from PromoMats App Family Vaults.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.indicationintegration.jobs.promomats.PromoMatsIndicationInboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

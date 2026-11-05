@@ -1,0 +1,19 @@
+Field target_list_status__v (
+   label('Target List Status'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the current status of the Outbound Target List.'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.outbound_target_list_status__v'),
+   default_value('Picklist.outbound_target_list_status__v.draft__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

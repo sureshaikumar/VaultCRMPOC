@@ -1,0 +1,5 @@
+Index external_id__sys (
+   description(),
+   fields('external_id__sys'),
+   label('External ID')
+);

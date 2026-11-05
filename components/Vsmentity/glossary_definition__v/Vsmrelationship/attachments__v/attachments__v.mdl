@@ -1,0 +1,14 @@
+Vsmrelationship attachments__v (
+   label('Attachments'),
+   active(false),
+   cardinality(),
+   description('Files and documents attached to this glossary definition, such as reference materials, screenshots, or supporting documentation. Use this to access or filter definitions that have specific attachments.'),
+   join_object(),
+   synonyms('files',
+         'documents',
+         'attached files',
+         'supporting documents'),
+   target('attachments__sysr'),
+   target_label('Attachments'),
+   target_object('Object.attachment_object__sys')
+);

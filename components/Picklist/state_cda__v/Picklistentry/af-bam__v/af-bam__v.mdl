@@ -1,0 +1,6 @@
+Picklistentry af-bam__v (
+   value('Bāmyān'),
+   order(15),
+   active(true),
+   controlling_entries('af__v')
+);

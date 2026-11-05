@@ -1,0 +1,4 @@
+Typefield study_country__v (
+   source('custom'),
+   required(false)
+);

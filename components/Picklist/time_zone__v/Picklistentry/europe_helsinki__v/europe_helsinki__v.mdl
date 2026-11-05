@@ -1,0 +1,5 @@
+Picklistentry europe_helsinki__v (
+   value('Eastern European Time (Helsinki)'),
+   order(50),
+   active(true)
+);

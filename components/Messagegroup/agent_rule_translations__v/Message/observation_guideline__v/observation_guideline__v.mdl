@@ -1,0 +1,6 @@
+Message observation_guideline__v (
+   label(),
+   active(true),
+   default_value('Include what was observed. Ensure for each insight, there is only one observation'),
+   system_managed(false)
+);

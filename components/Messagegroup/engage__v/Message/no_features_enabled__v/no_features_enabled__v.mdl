@@ -1,0 +1,6 @@
+Message no_features_enabled__v (
+   label(),
+   active(true),
+   default_value('You must enable at least one feature in order to deploy this My Engage Portal.'),
+   system_managed(false)
+);

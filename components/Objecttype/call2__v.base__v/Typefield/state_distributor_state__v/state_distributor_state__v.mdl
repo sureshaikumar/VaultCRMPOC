@@ -1,0 +1,4 @@
+Typefield state_distributor_state__v (
+   source('standard'),
+   required(false)
+);

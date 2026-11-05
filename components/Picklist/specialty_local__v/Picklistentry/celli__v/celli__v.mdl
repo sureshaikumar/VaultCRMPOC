@@ -1,0 +1,6 @@
+Picklistentry celli__v (
+   value('Clinical Electrophysiology'),
+   order(221),
+   active(true),
+   controlling_entries('pt__v')
+);

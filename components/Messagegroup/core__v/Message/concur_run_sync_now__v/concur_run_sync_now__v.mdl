@@ -1,0 +1,6 @@
+Message concur_run_sync_now__v (
+   label(),
+   active(true),
+   default_value('Run Concur Sync Now'),
+   system_managed(false)
+);

@@ -1,0 +1,22 @@
+Field actual_calls__v (
+   label('Actual Calls'),
+   type('Number'),
+   active(true),
+   description('number of calls the user has made to date against his/her targeted accounts'),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

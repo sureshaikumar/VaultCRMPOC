@@ -1,0 +1,6 @@
+Picklistentry tz-28__v (
+   value('Katavi'),
+   order(4612),
+   active(true),
+   controlling_entries('tz__v')
+);

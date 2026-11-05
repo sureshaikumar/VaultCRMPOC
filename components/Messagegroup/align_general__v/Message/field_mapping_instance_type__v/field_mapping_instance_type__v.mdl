@@ -1,0 +1,6 @@
+Message field_mapping_instance_type__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Instance Type:'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry bd-52__v (
+   value('Panchagarh'),
+   order(281),
+   active(true),
+   controlling_entries('bd__v')
+);

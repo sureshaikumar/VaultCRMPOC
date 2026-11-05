@@ -1,0 +1,20 @@
+Field caregiver_email__v (
+   label('Caregiver Email'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('Caregiver''s email'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

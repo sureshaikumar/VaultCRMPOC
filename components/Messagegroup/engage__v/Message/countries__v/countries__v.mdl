@@ -1,0 +1,6 @@
+Message countries__v (
+   label(),
+   active(true),
+   default_value('Countries'),
+   system_managed(false)
+);

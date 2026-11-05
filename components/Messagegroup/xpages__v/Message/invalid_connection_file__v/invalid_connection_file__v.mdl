@@ -1,0 +1,6 @@
+Message invalid_connection_file__v (
+   label(),
+   active(true),
+   default_value('Invalid Connection File'),
+   system_managed(false)
+);

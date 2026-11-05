@@ -1,0 +1,6 @@
+Message target_list_sample__v (
+   label(),
+   active(true),
+   default_value('Target List Sample'),
+   system_managed(false)
+);

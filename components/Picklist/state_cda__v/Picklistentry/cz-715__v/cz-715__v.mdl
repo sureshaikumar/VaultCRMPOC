@@ -1,0 +1,6 @@
+Picklistentry cz-715__v (
+   value('Šumperk'),
+   order(890),
+   active(true),
+   controlling_entries('cz__v')
+);

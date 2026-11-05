@@ -1,0 +1,18 @@
+Field competitor__v (
+   label('Competitor'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the product belongs to a competitor. If not, the product is assumed to be a company product and shows up in bold in the formulary viewer.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

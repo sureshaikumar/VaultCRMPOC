@@ -1,0 +1,6 @@
+Message rule_rule_type_selection_help__v (
+   label(),
+   active(true),
+   default_value('This section controls which rules will be run based on their send_to_crm__v values. This assignment preview will only generate or end date assignments related to rules of the selected send_to_crm__v value. To run all rules, select "{0}".'),
+   system_managed(false)
+);

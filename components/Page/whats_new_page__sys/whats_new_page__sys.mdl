@@ -1,0 +1,14 @@
+RECREATE Page whats_new_page__sys (
+   label('What''s New Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('whats_new_page__sys'),
+   description('What''s New is a page displayed to users after an upgrade to inform them of changes in Vault that impact all users.'),
+   disable_chrome(true),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.whatsnew.WhatsNewPage'),
+   url_path_name('whatsnew')
+);

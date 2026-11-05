@@ -1,0 +1,8 @@
+RECREATE Objectaction clm_presentation__v.view_all_media__v (
+   label('View All Media'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.clm.actions.ViewAllMediaAction'),
+   active(true),
+   available_all_states(true)
+);

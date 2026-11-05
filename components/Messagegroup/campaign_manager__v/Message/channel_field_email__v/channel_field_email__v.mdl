@@ -1,0 +1,6 @@
+Message channel_field_email__v (
+   label(),
+   active(true),
+   default_value('Field Email'),
+   system_managed(false)
+);

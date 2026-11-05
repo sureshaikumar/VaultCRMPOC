@@ -1,0 +1,5 @@
+Picklistentry frf__sys (
+   value('FRF'),
+   order(66),
+   active(true)
+);

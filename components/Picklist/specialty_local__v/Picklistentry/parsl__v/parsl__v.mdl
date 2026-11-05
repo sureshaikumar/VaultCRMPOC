@@ -1,0 +1,23 @@
+Picklistentry parsl__v (
+   value('Plastic and Reconstructive Surgery'),
+   order(1567),
+   active(true),
+   controlling_entries('al__v',
+         'am__v',
+         'cm__v',
+         'dz__v',
+         'ge__v',
+         'gh__v',
+         'it__v',
+         'jo__v',
+         'ke__v',
+         'lb__v',
+         'lt__v',
+         'ma__v',
+         'mu__v',
+         'na__v',
+         'nz__v',
+         'qa__v',
+         'us__v',
+         'za__v')
+);

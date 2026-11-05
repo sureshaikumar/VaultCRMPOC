@@ -1,0 +1,5 @@
+Picklistentry crm_desktop_windows__v (
+   value('CRM_Desktop_Windows'),
+   order(6),
+   active(true)
+);

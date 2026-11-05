@@ -1,0 +1,10 @@
+RECREATE Tab hierarchy_explorer_tab__v (
+   active(false),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Hierarchy Explorer'),
+   order(7200),
+   page('Page.hierarchy_explorer_page__v'),
+   parent(),
+   url(@url.txt)
+);

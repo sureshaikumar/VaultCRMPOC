@@ -1,0 +1,6 @@
+Picklistentry ee-293__v (
+   value('Kehtna'),
+   order(1081),
+   active(true),
+   controlling_entries('ee__v')
+);

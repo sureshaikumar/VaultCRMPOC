@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.chain_and_cross_product__v (
+   label('Chain and Cross Product'),
+   active(true),
+   expression('Not(
+    And(
+        chain_rule__v,
+        cross_product_rule__v
+    )
+)'),
+   description('Only one of Chain and Cross Product Rule should be checked'),
+   error_message('Only one of Chain and Cross Product Rule should be checked'),
+   error_location('chain_rule__v',
+      'cross_product_rule__v')
+);

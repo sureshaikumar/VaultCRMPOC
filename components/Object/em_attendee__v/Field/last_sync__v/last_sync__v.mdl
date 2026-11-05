@@ -1,0 +1,17 @@
+Field last_sync__v (
+   label('Last Sync'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Stores the date/time of the last successful sync with Cvent'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

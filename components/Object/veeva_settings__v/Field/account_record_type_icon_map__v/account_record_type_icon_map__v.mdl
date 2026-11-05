@@ -1,0 +1,23 @@
+Field account_record_type_icon_map__v (
+   label('ACCOUNT_RECORD_TYPE_ICON_MAP'),
+   type('String'),
+   active(true),
+   description('The value of this setting is a reference to a Veeva message that contains a delimited string of the format: 
+<ICON_NAME>:<CUSTOM_RECORD_TYPE>,<CUSTOM_RECORD_TYPE>;<ICON_NAME>:<CUSTOM_RECORD_TYPE>,<CUSTOM_RECORD_TYPE> 
+
+ICON_NAME is one of the standard ico'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('"ACCOUNT_RECORD_TYPE_ICON_MAP;;Common"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

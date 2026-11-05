@@ -1,0 +1,6 @@
+Picklistentry ppuhb__v (
+   value('Public Pharmacy'),
+   order(1645),
+   active(true),
+   controlling_entries('nl__v')
+);

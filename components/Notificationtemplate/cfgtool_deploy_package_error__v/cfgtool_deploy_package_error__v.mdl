@@ -1,0 +1,30 @@
+RECREATE Notificationtemplate cfgtool_deploy_package_error__v (
+   label('cfgToolDeployPackageError'),
+   active(true),
+   description('Deploy package error template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Unable to Complete Deployment'),
+   notification('<b><p>Deployment of Package ${package_name} has not completed due to errors.</p></b>
+<br/>
+Details:<br/>
+Total components: ${count_total}<br/>
+Deployed components: ${count_deployed}<br/>
+Deployed with warnings: ${count_warning}<br/>
+Failed components: ${count_error}<br/>
+Skipped components: ${count_skipped}<br/>
+<br/>
+For details, please see <a href="${url_download_log}">deployment log</a>.'),
+   email_body('<b><p>Deployment of Package ${package_name} has not completed due to errors.</p></b>
+<br/>
+Details:<br/>
+Total components: ${count_total}<br/>
+Deployed components: ${count_deployed}<br/>
+Deployed with warnings: ${count_warning}<br/>
+Failed components: ${count_error}<br/>
+Skipped components: ${count_skipped}<br/>
+<br/>
+For details, please see <a href="${url_download_log}">deployment log</a>.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

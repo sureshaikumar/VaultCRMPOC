@@ -1,0 +1,8 @@
+RECREATE Objectaction connection__sys.make_connection_pending__sys (
+   label('Reset Connection'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.connection.MakeConnectionPending'),
+   active(true),
+   available_all_states(true)
+);

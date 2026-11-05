@@ -1,0 +1,6 @@
+Message country_conflict_error__v (
+   label(),
+   active(true),
+   default_value('One or more countries conflict with existing active ${mapping_object_label} records.'),
+   system_managed(false)
+);

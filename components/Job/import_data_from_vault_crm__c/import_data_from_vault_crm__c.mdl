@@ -1,0 +1,22 @@
+RECREATE Job import_data_from_vault_crm__c (
+   active(true),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   Httppostjobaction(@Httppostjobaction/exturl_action__c.mdl),
+   hourly_interval(),
+   label('Import data from Vault CRM'),
+   month_repeat_type(),
+   owner('user:User.kavita.singh@sb-accenture.com'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   time('0:00'),
+   timezone('America/New_York'),
+   trigger_date(),
+   type('Jobtype.external_url__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

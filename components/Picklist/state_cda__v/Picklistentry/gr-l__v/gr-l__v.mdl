@@ -1,0 +1,6 @@
+Picklistentry gr-l__v (
+   value('Nótio Aigaío'),
+   order(1778),
+   active(true),
+   controlling_entries('gr__v')
+);

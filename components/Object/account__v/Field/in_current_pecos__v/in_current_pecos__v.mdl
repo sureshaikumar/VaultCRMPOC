@@ -1,0 +1,17 @@
+Field in_current_pecos__v (
+   label('In Current PECOS'),
+   type('Boolean'),
+   active(true),
+   description('Is NPI included in the current Provider Enrollment, Chain and Ownership System (PECOS) file? PECOS is an electronic US Medicare enrolment system used to track Medicare program enrolment information. N = NPI is no longer included in file but had been.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(206),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

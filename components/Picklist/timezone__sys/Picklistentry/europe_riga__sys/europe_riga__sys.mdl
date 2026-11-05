@@ -1,0 +1,5 @@
+Picklistentry europe_riga__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Riga)'),
+   order(187),
+   active(true)
+);

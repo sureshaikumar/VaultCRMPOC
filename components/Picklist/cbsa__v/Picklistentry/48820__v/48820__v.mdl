@@ -1,0 +1,5 @@
+Picklistentry 48820__v (
+   value('Willmar, MN Micropolitan Statistical Area'),
+   order(481),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field short_object_list_metadata_only__v (
+   label('Short_OBJECT_LIST_Metadata_Only'),
+   type('String'),
+   active(true),
+   description('Designates the objects for which only meta data, not records, will be downloaded to the VMobile BlackBerry application when the number of Accounts exceeds the Short_Account_Level setting value.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(280),
+   default_value('"Short_OBJECT_LIST_Metadata_Only;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

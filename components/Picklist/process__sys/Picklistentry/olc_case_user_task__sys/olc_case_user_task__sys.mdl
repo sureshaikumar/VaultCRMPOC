@@ -1,0 +1,5 @@
+Picklistentry olc_case_user_task__sys (
+   value('Case User Task'),
+   order(10),
+   active(true)
+);

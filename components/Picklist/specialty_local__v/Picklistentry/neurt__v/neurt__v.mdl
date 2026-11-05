@@ -1,0 +1,13 @@
+Picklistentry neurt__v (
+   value('Neuropathology'),
+   order(1033),
+   active(true),
+   controlling_entries('ca__v',
+         'de__v',
+         'ie__v',
+         'is__v',
+         'pl__v',
+         'pt__v',
+         'sa__v',
+         'us__v')
+);

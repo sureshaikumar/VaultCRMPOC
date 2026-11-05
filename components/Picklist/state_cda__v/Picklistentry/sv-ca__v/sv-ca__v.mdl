@@ -1,0 +1,6 @@
+Picklistentry sv-ca__v (
+   value('Cabañas'),
+   order(4269),
+   active(true),
+   controlling_entries('sv__v')
+);

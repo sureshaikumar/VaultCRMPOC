@@ -1,0 +1,8 @@
+Typefield receipt_entity_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sent_email_receipt_entity_type__v.call__v',
+         'Picklist.sent_email_receipt_entity_type__v.medical_inquiry__v',
+         'Picklist.sent_email_receipt_entity_type__v.multichannel_consent__v',
+         'Picklist.sent_email_receipt_entity_type__v.order__v')
+);

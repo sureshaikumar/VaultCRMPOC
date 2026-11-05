@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The display name of the EDL Template record. Used to identify and distinguish templates in lists, searches, and references throughout the application.'),
+   example_values(),
+   synonyms('template name',
+         'EDL template title',
+         'title'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

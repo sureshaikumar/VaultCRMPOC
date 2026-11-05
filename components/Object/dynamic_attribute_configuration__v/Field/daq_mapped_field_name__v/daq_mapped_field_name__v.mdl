@@ -1,0 +1,19 @@
+Field daq_mapped_field_name__v (
+   label('Mapped Query Field Name'),
+   type('String'),
+   active(true),
+   description('Stores the mapped field name generated for the dynamic_attribute_query__v object when enabling Query and Reporting for a Dynamic Attribute.'),
+   required(false),
+   unique(true),
+   max_length(43),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_prod_transferred_to__v (
+   label(),
+   active(true),
+   default_value('Product transferred to ${account_name}'),
+   system_managed(false)
+);

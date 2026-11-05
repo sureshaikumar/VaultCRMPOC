@@ -1,0 +1,5 @@
+Picklistentry carton__v (
+   value('Carton'),
+   order(2),
+   active(true)
+);

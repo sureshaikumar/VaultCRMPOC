@@ -1,0 +1,6 @@
+Message calling_number__v (
+   label(),
+   active(true),
+   default_value('Calling ${phone_number}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message case_documents_label__v (
+   label(),
+   active(true),
+   default_value('Case Documents'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-124__v (
+   value('Šmarje pri Jelšah'),
+   order(4098),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Message disconnect_aws_account__v (
+   label(),
+   active(true),
+   default_value('Disconnect AWS Account'),
+   system_managed(false)
+);

@@ -1,0 +1,9 @@
+Objectworkflowstep start__c (
+   label('Start'),
+   type('start'),
+   next_steps('Objectworkflowstep.end__c',
+         'Objectworkflowstep.approval__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

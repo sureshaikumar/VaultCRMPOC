@@ -1,0 +1,5 @@
+Picklistentry matches_territorys_geographies__v (
+   value('matches territory''s geographies'),
+   order(0),
+   active(true)
+);

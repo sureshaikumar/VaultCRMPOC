@@ -1,0 +1,6 @@
+Message concur_associated_account__v (
+   label(),
+   active(true),
+   default_value('for the associated business account'),
+   system_managed(false)
+);

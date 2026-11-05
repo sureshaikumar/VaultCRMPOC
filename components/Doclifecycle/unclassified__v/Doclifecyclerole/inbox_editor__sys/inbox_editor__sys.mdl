@@ -1,0 +1,8 @@
+Doclifecyclerole inbox_editor__sys (
+   label('Inbox Editor'),
+   active(true),
+   description('System Provided Role'),
+   application_role('inbox_editor__sys'),
+   note_color(),
+   security_options(@security_options.xml)
+);

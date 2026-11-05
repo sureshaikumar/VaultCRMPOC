@@ -1,0 +1,6 @@
+Picklistentry si-070__v (
+   value('Maribor'),
+   order(4044),
+   active(true),
+   controlling_entries('si__v')
+);

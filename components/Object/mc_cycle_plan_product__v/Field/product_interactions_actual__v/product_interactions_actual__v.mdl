@@ -1,0 +1,22 @@
+Field product_interactions_actual__v (
+   label('Product Interactions Actual'),
+   type('Number'),
+   active(true),
+   description('Product Actual Activity x Product Activity Weight'),
+   required(false),
+   unique(false),
+   max_value(999999999.99),
+   min_value(-999999999.99),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

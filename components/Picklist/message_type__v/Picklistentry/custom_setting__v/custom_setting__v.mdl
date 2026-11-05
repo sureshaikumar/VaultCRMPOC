@@ -1,0 +1,5 @@
+Picklistentry custom_setting__v (
+   value('Custom_Setting'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,22 @@
+Field search_weight__v (
+   label('Search Weight'),
+   type('Number'),
+   active(true),
+   description('The walk-in field search weight for the attendee reconciliation config.'),
+   required(false),
+   unique(false),
+   max_value(9999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

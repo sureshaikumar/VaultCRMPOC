@@ -1,0 +1,18 @@
+Field state_distributor_required__v (
+   label('State Distributor Required'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Defines whether or not a State Distributor  license (e.g TDDD)  is required for sampling in a particular state. Used to determine if State Distributor license validation occurs on a call.'),
+   list_column(false),
+   order(12),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

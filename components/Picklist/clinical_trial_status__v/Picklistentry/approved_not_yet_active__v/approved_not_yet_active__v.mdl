@@ -1,0 +1,5 @@
+Picklistentry approved_not_yet_active__v (
+   value('Approved - Not Yet Active'),
+   order(1),
+   active(true)
+);

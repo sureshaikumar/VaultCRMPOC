@@ -1,0 +1,5 @@
+Picklistentry mxv__sys (
+   value('MXV'),
+   order(127),
+   active(true)
+);

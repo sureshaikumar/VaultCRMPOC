@@ -1,0 +1,9 @@
+Vsmvalue bbd__v (
+   label('BBD'),
+   active(true),
+   description('The Barbadian Dollar (BBD), the official currency of Barbados, pegged to the US Dollar at a fixed rate.'),
+   synonyms('Barbadian dollar',
+         'Barbados currency'),
+   target('bbd__sys'),
+   target_label('BBD')
+);

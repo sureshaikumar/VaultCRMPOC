@@ -1,0 +1,6 @@
+Picklistentry ao-bie__v (
+   value('Bié'),
+   order(81),
+   active(true),
+   controlling_entries('ao__v')
+);

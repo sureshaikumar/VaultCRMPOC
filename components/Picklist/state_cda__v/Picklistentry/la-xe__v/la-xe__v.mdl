@@ -1,0 +1,6 @@
+Picklistentry la-xe__v (
+   value('Xékong [Sékong]'),
+   order(2528),
+   active(true),
+   controlling_entries('la__v')
+);

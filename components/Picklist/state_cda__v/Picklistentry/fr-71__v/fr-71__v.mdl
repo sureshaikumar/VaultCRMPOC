@@ -1,0 +1,6 @@
+Picklistentry fr-71__v (
+   value('Saône-et-Loire'),
+   order(1389),
+   active(true),
+   controlling_entries('fr__v')
+);

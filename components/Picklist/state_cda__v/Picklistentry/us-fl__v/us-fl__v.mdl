@@ -1,0 +1,6 @@
+Picklistentry us-fl__v (
+   value('Florida'),
+   order(4801),
+   active(true),
+   controlling_entries('us__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bw-kg__v (
+   value('Kgalagadi'),
+   order(536),
+   active(true),
+   controlling_entries('bw__v')
+);

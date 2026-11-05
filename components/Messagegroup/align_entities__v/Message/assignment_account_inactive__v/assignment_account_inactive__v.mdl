@@ -1,0 +1,6 @@
+Message assignment_account_inactive__v (
+   label(),
+   active(true),
+   default_value('Account {0} is inactive and cannot be assigned.'),
+   system_managed(false)
+);

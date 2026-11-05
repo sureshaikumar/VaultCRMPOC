@@ -1,0 +1,6 @@
+Picklistentry si-014__v (
+   value('Cerkno'),
+   order(3988),
+   active(true),
+   controlling_entries('si__v')
+);

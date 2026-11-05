@@ -1,0 +1,11 @@
+RECREATE Docrelationshiptype related_shared_resource__v (
+   label('Related Shared Resource'),
+   active(true),
+   single_use(true),
+   target_doctype('shared_resource__v'),
+   source_version_specific(false),
+   carry_forward_source_specific(false),
+   target_version_specific(false),
+   carry_forward_target_specific(false),
+   relationship_filter()
+);

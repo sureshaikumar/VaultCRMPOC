@@ -1,0 +1,6 @@
+Picklistentry pg-ncd__v (
+   value('National Capital District (Port Moresby)'),
+   order(3507),
+   active(true),
+   controlling_entries('pg__v')
+);

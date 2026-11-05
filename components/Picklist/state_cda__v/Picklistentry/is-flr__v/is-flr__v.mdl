@@ -1,0 +1,6 @@
+Picklistentry is-flr__v (
+   value('Fljótsdalshreppur'),
+   order(2105),
+   active(true),
+   controlling_entries('is__v')
+);

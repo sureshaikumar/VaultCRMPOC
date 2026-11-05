@@ -1,0 +1,6 @@
+Message synced_accounts_sync_error__v (
+   label(),
+   active(true),
+   default_value('Sync failed due to the use of the @@SYNCED_ACCOUNTS@@ MetaVQL parameter in an Account VMobile Object Configuration Record. Please contact your administrator for assistance.'),
+   system_managed(false)
+);

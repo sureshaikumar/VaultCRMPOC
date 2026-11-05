@@ -1,0 +1,5 @@
+Index integration_point__sys (
+   description(),
+   fields('integration_point__sys'),
+   label('Integration Point')
+);

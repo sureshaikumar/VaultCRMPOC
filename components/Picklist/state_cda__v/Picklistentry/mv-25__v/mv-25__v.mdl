@@ -1,0 +1,6 @@
+Picklistentry mv-25__v (
+   value('South Miladhunmadulu'),
+   order(3202),
+   active(true),
+   controlling_entries('mv__v')
+);

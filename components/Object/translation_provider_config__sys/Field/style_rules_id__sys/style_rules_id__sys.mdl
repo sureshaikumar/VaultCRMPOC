@@ -1,0 +1,19 @@
+Field style_rules_id__sys (
+   label('Style Rules ID'),
+   type('String'),
+   active(false),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('The unique identifier for the style rules you want to use.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

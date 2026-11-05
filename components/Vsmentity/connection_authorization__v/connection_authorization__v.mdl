@@ -1,0 +1,19 @@
+RECREATE Vsmentity connection_authorization__v (
+   label('Connection Authorization'),
+   active(true),
+   description('Represents an authorization record that governs secure connections between Vault and external systems or integrations. Connection Authorizations define the credentials, permissions, and access controls required to establish trusted communication channels. These records are typically managed by system administrators and are referenced when configuring integration endpoints or cross-vault connections.'),
+   synonyms('connection auth',
+      'auth',
+      'authorization',
+      'integration authorization',
+      'connection permission'),
+   target('Object.connection_authorization__sys'),
+   target_label('Connection Authorization'),
+   Vsmfield(@Vsmfield/api_key__v.mdl),
+   Vsmfield(@Vsmfield/client_id__v.mdl),
+   Vsmfield(@Vsmfield/client_secret__v.mdl),
+   Vsmfield(@Vsmfield/object_type__v.mdl),
+   Vsmfield(@Vsmfield/password__v.mdl),
+   Vsmfield(@Vsmfield/username__v.mdl),
+   Vsmrelationship(@Vsmrelationship/connections__v.mdl)
+);

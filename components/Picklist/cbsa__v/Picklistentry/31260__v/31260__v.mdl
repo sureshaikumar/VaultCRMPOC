@@ -1,0 +1,5 @@
+Picklistentry 31260__v (
+   value('Lufkin, TX Micropolitan Statistical Area'),
+   order(515),
+   active(true)
+);

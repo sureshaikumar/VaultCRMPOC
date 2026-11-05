@@ -1,0 +1,6 @@
+Message change_case_state_to__v (
+   label(),
+   active(true),
+   default_value('Change ${case_label} ${lifecycle_state_field_label} to ${case_state}'),
+   system_managed(false)
+);

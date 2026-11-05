@@ -1,0 +1,3 @@
+Typeaction cp_submit__v (
+   action('cycle_plan__v.cp_submit__v')
+);

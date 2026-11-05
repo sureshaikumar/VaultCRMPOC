@@ -1,0 +1,6 @@
+Message mccp_feedback_cancel_request__v (
+   label(),
+   active(true),
+   default_value('Cancel Request'),
+   system_managed(false)
+);

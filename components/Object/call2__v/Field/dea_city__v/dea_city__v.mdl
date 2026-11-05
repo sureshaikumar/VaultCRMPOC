@@ -1,0 +1,19 @@
+Field dea_city__v (
+   label('DEA City'),
+   type('String'),
+   active(true),
+   description('City of the DEA Address.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(53),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

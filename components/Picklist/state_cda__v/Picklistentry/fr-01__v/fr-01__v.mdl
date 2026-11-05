@@ -1,0 +1,6 @@
+Picklistentry fr-01__v (
+   value('Ain'),
+   order(1315),
+   active(true),
+   controlling_entries('fr__v')
+);

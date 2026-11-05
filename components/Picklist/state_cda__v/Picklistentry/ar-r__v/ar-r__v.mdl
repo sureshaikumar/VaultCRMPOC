@@ -1,0 +1,6 @@
+Picklistentry ar-r__v (
+   value('Río Negro'),
+   order(112),
+   active(true),
+   controlling_entries('ar__v')
+);

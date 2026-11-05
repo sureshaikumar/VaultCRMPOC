@@ -1,0 +1,5 @@
+Picklistentry europe_sofia__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Sofia)'),
+   order(188),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry acida__v (
+   value('Advanced Cardiovascular Imaging'),
+   order(22),
+   active(true),
+   controlling_entries('pk__v')
+);

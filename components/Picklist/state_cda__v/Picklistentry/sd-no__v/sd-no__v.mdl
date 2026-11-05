@@ -1,0 +1,6 @@
+Picklistentry sd-no__v (
+   value('Northern'),
+   order(3941),
+   active(true),
+   controlling_entries('sd__v')
+);

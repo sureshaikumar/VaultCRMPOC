@@ -1,0 +1,6 @@
+Message away__v (
+   label(),
+   active(true),
+   default_value('Away'),
+   system_managed(false)
+);

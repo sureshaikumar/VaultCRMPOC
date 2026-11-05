@@ -1,0 +1,6 @@
+Typefield engage_profile_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_engage_profile_status__v.no_profile_associated__v',
+         'Picklist.account_engage_profile_status__v.profile_associated__v')
+);

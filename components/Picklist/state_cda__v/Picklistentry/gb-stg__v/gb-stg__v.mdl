@@ -1,0 +1,6 @@
+Picklistentry gb-stg__v (
+   value('Stirling'),
+   order(1629),
+   active(true),
+   controlling_entries('gb__v')
+);

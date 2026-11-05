@@ -1,0 +1,6 @@
+Picklistentry ua-53__v (
+   value('Poltavska oblast'),
+   order(4633),
+   active(true),
+   controlling_entries('ua__v')
+);

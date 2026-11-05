@@ -1,0 +1,6 @@
+Message medx_date_and_time__v (
+   label(),
+   active(true),
+   default_value('Date & Time'),
+   system_managed(false)
+);

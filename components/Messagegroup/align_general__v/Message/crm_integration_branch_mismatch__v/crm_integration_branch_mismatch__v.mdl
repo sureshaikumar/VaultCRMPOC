@@ -1,0 +1,6 @@
+Message crm_integration_branch_mismatch__v (
+   label(),
+   active(true),
+   default_value('Cannot Push territories or assignments to {0}. If Send to CRM = Yes for a territory, all active territories below it in the hierarchy must also have Send to CRM = Yes.'),
+   system_managed(false)
+);

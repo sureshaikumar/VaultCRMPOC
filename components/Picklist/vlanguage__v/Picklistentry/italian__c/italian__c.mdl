@@ -1,0 +1,5 @@
+Picklistentry italian__c (
+   value('Italian'),
+   order(374),
+   active(true)
+);

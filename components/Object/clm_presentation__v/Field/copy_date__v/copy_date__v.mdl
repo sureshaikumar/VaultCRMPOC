@@ -1,0 +1,17 @@
+Field copy_date__v (
+   label('Copied On'),
+   type('DateTime'),
+   active(true),
+   description('Populated with the Date and Time when the presentation record was copied from a different org.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

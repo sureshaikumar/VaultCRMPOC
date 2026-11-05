@@ -1,0 +1,17 @@
+Field mobile_last_modified_datetime__v (
+   label('Mobile Last Modified Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Date and Time the Event was last saved on the mobile device'),
+   list_column(false),
+   order(114),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

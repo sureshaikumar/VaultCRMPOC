@@ -1,0 +1,5 @@
+Picklistentry haeia__v (
+   value('Healthcare Aid'),
+   order(47),
+   active(true)
+);

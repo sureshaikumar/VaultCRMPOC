@@ -1,0 +1,5 @@
+Picklistentry 47820__v (
+   value('Washington, NC Micropolitan Statistical Area'),
+   order(360),
+   active(true)
+);

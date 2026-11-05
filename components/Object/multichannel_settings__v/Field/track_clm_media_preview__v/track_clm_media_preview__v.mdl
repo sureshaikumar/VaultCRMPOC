@@ -1,0 +1,22 @@
+Field track_clm_media_preview__v (
+   label('Track CLM Media Preview'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(2),
+   min_value(0),
+   scale(0),
+   help_content('0 or NULL - disabled, 1 - All activity, 2 - Training only'),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

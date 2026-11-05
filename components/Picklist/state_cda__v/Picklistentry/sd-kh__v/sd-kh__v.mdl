@@ -1,0 +1,6 @@
+Picklistentry sd-kh__v (
+   value('Khartoum'),
+   order(3937),
+   active(true),
+   controlling_entries('sd__v')
+);

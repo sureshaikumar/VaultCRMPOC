@@ -1,0 +1,6 @@
+Picklistentry in-as__v (
+   value('Assam'),
+   order(2000),
+   active(true),
+   controlling_entries('in__v')
+);

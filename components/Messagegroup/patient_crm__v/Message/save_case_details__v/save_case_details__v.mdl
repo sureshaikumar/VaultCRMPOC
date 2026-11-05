@@ -1,0 +1,6 @@
+Message save_case_details__v (
+   label(),
+   active(true),
+   default_value('Save Case Details'),
+   system_managed(false)
+);

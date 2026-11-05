@@ -1,0 +1,6 @@
+Message case_messages__v (
+   label(),
+   active(true),
+   default_value('Case Messages'),
+   system_managed(false)
+);

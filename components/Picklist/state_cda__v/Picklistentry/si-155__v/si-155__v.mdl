@@ -1,0 +1,6 @@
+Picklistentry si-155__v (
+   value('Dobrna'),
+   order(4128),
+   active(true),
+   controlling_entries('si__v')
+);

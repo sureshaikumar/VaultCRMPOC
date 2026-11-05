@@ -1,0 +1,18 @@
+Field signature_captured_remotely__v (
+   label('Signature Captured Remotely'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('A system field set by Veeva if the Medical Inquiry signature was collected remotely through Engage.'),
+   list_column(false),
+   order(50),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

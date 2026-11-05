@@ -1,0 +1,15 @@
+RECREATE Layoutrule user_detail_page_layout__sys.conditionally_hide_account_info__sys (
+   active(true),
+   description('Hide Account Information section on user creation'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('isBlank(created_date__v)'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections('user_account_details__c'),
+   hide_layout(false),
+   label('Conditionally hide account information'),
+   order(300)
+);

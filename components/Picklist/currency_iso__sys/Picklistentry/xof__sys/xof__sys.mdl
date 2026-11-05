@@ -1,0 +1,5 @@
+Picklistentry xof__sys (
+   value('XOF'),
+   order(214),
+   active(true)
+);

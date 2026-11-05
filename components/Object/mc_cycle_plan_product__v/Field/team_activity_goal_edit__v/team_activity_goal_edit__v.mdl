@@ -1,0 +1,22 @@
+Field team_activity_goal_edit__v (
+   label('Team Activity Goal Edit'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(-999999999),
+   scale(0),
+   help_content('Edited number of team product activities for the Channel and Target'),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

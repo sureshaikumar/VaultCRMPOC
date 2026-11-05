@@ -1,0 +1,5 @@
+Picklistentry chy__v (
+   value('Cheyenne'),
+   order(56),
+   active(false)
+);

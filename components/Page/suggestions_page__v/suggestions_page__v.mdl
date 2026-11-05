@@ -1,0 +1,14 @@
+RECREATE Page suggestions_page__v (
+   label('Suggestions'),
+   active(true),
+   client_distribution(),
+   default_client_code('suggestions_page__v'),
+   description('View Suggestions'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.suggestions.controls.page.SuggestionsPageController'),
+   url_path_name('suggestions')
+);

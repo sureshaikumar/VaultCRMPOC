@@ -1,0 +1,6 @@
+Message split_name__v (
+   label(),
+   active(true),
+   default_value('Split Name'),
+   system_managed(false)
+);

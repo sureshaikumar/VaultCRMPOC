@@ -1,0 +1,10 @@
+RECREATE Jobmetadata migrate_category_and_preferences__sys (
+   label('Migrate Notification Category and Email Preferences'),
+   active(true),
+   chunk_size(1),
+   description('This job migrates notification templates category and email preferences'),
+   job_code('Sdkjob.com.veeva.vault.system.job.MigrateNotificationTemplateCategoryAndPreferencesJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

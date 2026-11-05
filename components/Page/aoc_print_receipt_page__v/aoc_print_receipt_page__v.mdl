@@ -1,0 +1,14 @@
+RECREATE Page aoc_print_receipt_page__v (
+   label('AOC Print Receipt'),
+   active(true),
+   client_distribution(),
+   default_client_code('aoc_print_receipt_page__v'),
+   description('The app page is used to display the AOC print receipt in the browser.'),
+   disable_chrome(true),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.contentacknowledgement.controls.page.AocPrintReceiptPageController'),
+   url_path_name('aoc-print-receipt-page')
+);

@@ -1,0 +1,6 @@
+Picklistentry us-wv__v (
+   value('West Virginia'),
+   order(4846),
+   active(true),
+   controlling_entries('us__v')
+);

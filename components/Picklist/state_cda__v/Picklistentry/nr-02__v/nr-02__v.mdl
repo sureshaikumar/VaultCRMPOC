@@ -1,0 +1,6 @@
+Picklistentry nr-02__v (
+   value('Anabar'),
+   order(3413),
+   active(true),
+   controlling_entries('nr__v')
+);

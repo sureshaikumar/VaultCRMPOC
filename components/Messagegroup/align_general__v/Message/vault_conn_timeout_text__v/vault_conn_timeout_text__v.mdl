@@ -1,0 +1,6 @@
+Message vault_conn_timeout_text__v (
+   label(),
+   active(true),
+   default_value('Unable to establish a connection with Vault. Please try again later. If the issue persists, please contact Align support.'),
+   system_managed(false)
+);

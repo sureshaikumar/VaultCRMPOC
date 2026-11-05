@@ -1,0 +1,5 @@
+Picklistentry vai__v (
+   value('Vai'),
+   order(342),
+   active(false)
+);

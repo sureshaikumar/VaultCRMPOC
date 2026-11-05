@@ -1,0 +1,6 @@
+Message territory_cant_set_future_start_date__v (
+   label(),
+   active(true),
+   default_value('Cannot set a future Start Date for an existing Field Force.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-078__v (
+   value('Moravske Toplice'),
+   order(4052),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,8 @@
+Typefield direction__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.network_reference_mapping_direction__v.bidirectional__v',
+         'Picklist.network_reference_mapping_direction__v.inbound__v',
+         'Picklist.network_reference_mapping_direction__v.outbound__v'),
+   default_value('Picklist.network_reference_mapping_direction__v.bidirectional__v')
+);

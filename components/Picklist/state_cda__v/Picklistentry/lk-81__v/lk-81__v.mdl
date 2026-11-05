@@ -1,0 +1,6 @@
+Picklistentry lk-81__v (
+   value('Badulla'),
+   order(2589),
+   active(true),
+   controlling_entries('lk__v')
+);

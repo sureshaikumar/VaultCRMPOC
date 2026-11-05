@@ -1,0 +1,6 @@
+Picklistentry si-032__v (
+   value('Grosuplje'),
+   order(4006),
+   active(true),
+   controlling_entries('si__v')
+);

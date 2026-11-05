@@ -1,0 +1,8 @@
+Objectworkflowstep csdraft__c (
+   label('CS: Draft'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

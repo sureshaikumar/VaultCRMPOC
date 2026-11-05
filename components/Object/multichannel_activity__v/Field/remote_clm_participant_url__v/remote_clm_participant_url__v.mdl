@@ -1,0 +1,19 @@
+Field remote_clm_participant_url__v (
+   label('Remote CLM Participant URL'),
+   type('String'),
+   active(true),
+   description('Stores the Remote CLM URL for the participant'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(63),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

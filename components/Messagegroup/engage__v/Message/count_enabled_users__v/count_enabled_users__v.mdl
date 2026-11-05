@@ -1,0 +1,6 @@
+Message count_enabled_users__v (
+   label(),
+   active(true),
+   default_value('${count} enabled users'),
+   system_managed(false)
+);

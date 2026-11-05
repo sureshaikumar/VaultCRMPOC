@@ -1,0 +1,7 @@
+Picklistentry hocaa__v (
+   value('Hygiene of Children and Adolescents'),
+   order(727),
+   active(true),
+   controlling_entries('kg__v',
+         'ua__v')
+);

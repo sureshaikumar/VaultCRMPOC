@@ -1,0 +1,6 @@
+Typefield meal_optin_for_qr_signin__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.em_event_meal_optin_for_qr_signin__v.enabled__v',
+         'Picklist.em_event_meal_optin_for_qr_signin__v.disabled__v')
+);

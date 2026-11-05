@@ -1,0 +1,6 @@
+Message due_soon__v (
+   label(),
+   active(true),
+   default_value('Due Soon'),
+   system_managed(false)
+);

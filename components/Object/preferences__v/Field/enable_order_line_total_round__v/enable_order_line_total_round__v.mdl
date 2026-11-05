@@ -1,0 +1,18 @@
+Field enable_order_line_total_round__v (
+   label('ENABLE ORDER LINE TOTAL ROUND'),
+   type('Boolean'),
+   active(true),
+   description('Determines when to perform the rounding for the Order Management product. If the field is visible based on field level security then the calculation will be ROUND(QTY * PRICE * DISCOUNT). If the field is not visible based on field level security then the'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(32),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

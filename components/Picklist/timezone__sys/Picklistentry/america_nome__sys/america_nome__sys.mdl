@@ -1,0 +1,5 @@
+Picklistentry america_nome__sys (
+   value('(GMT-09:00) Alaska Standard Time (America/Nome)'),
+   order(10),
+   active(true)
+);

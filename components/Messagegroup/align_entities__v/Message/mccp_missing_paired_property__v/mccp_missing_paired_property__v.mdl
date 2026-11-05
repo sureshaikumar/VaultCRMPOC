@@ -1,0 +1,6 @@
+Message mccp_missing_paired_property__v (
+   label(),
+   active(true),
+   default_value('The value of {0} is missing.'),
+   system_managed(false)
+);

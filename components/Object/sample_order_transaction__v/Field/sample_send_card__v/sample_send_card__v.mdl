@@ -1,0 +1,19 @@
+Field sample_send_card__v (
+   label('Sample Send Card #'),
+   type('String'),
+   active(true),
+   description('Sample Send Card # represents the Sample Send Card Identifier for a Paper Disbursement Receipt. This field is populated from a Call by the Call_Header_trigger_vod trigger.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

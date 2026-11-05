@@ -1,0 +1,6 @@
+Picklistentry cf-kg__v (
+   value('Kémo-Gribingui'),
+   order(606),
+   active(true),
+   controlling_entries('cf__v')
+);

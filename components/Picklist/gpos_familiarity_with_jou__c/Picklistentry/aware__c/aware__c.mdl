@@ -1,0 +1,5 @@
+Picklistentry aware__c (
+   value('Aware'),
+   order(1),
+   active(true)
+);

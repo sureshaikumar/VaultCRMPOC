@@ -1,0 +1,5 @@
+Picklistentry antineoplastics__v (
+   value('Antineoplastics'),
+   order(75),
+   active(true)
+);

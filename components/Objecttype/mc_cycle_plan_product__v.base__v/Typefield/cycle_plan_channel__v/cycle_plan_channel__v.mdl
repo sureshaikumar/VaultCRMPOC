@@ -1,0 +1,4 @@
+Typefield cycle_plan_channel__v (
+   source('standard'),
+   required(true)
+);

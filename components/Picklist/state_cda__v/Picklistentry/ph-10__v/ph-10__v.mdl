@@ -1,0 +1,6 @@
+Picklistentry ph-10__v (
+   value('Northern Mindanao (Region X)'),
+   order(3525),
+   active(true),
+   controlling_entries('ph__v')
+);

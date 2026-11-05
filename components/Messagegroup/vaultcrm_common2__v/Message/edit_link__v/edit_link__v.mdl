@@ -1,0 +1,6 @@
+Message edit_link__v (
+   label(),
+   active(true),
+   default_value('Edit Link'),
+   system_managed(false)
+);

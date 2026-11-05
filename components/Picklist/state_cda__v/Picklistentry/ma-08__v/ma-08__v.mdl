@@ -1,0 +1,6 @@
+Picklistentry ma-08__v (
+   value('Drâa-Tafilalet'),
+   order(2773),
+   active(true),
+   controlling_entries('ma__v')
+);

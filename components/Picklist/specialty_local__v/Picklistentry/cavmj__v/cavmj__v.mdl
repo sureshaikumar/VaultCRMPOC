@@ -1,0 +1,6 @@
+Picklistentry cavmj__v (
+   value('Cardiology and Vascular Medicine Interventional Cardiology'),
+   order(159),
+   active(true),
+   controlling_entries('id__v')
+);

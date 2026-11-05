@@ -1,0 +1,5 @@
+Picklistentry hr (
+   value('Croatian'),
+   order(33),
+   active(true)
+);

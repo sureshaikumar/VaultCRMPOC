@@ -1,0 +1,6 @@
+Picklistentry il-ta__v (
+   value('Tel Aviv'),
+   order(1995),
+   active(true),
+   controlling_entries('il__v')
+);

@@ -1,0 +1,6 @@
+Message fax_template_requires_from_number_error__v (
+   label(),
+   active(true),
+   default_value('Populate ''Fax From Number'' before enabling the document for fax.'),
+   system_managed(false)
+);

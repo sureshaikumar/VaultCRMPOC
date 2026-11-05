@@ -1,0 +1,5 @@
+Picklistentry pris__v (
+   value('Prison'),
+   order(24),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry la-ho__v (
+   value('Houaphan'),
+   order(2517),
+   active(true),
+   controlling_entries('la__v')
+);

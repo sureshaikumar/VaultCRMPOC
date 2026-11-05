@@ -1,0 +1,6 @@
+Picklistentry ro-bh__v (
+   value('Bihor'),
+   order(3721),
+   active(true),
+   controlling_entries('ro__v')
+);

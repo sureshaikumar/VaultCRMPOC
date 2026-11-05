@@ -1,0 +1,6 @@
+Picklistentry ug-101__v (
+   value('Kalangala'),
+   order(4643),
+   active(true),
+   controlling_entries('ug__v')
+);

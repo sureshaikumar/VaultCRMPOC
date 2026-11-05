@@ -1,0 +1,6 @@
+Message mc_cycle_product_default_goal__v (
+   label(),
+   active(true),
+   default_value('Default Goal for a product must not exceed the Default Goal of its Channel.'),
+   system_managed(false)
+);

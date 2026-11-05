@@ -1,0 +1,17 @@
+Field email_builder_values__v (
+   label('Email Builder Values'),
+   type('LongText'),
+   active(true),
+   description('The details of the Email Builder and associated records that were used to compose the Sent Email'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(85),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

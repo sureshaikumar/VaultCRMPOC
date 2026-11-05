@@ -1,0 +1,22 @@
+Field display_future_meetings__v (
+   label('Display Future Meetings'),
+   type('Picklist'),
+   active(true),
+   description('Determines which upcoming Engage meetings will be shown to HCPs. Available values are:
+
+Invited – Displays all upcoming Engage Meetings that have a corresponding Approved Email that was sent to the HCP. This is the default selection.
+Invited or Ad hoc Mee'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.engage_connect_g_display_future_meetings__v'),
+   default_value('{invited__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

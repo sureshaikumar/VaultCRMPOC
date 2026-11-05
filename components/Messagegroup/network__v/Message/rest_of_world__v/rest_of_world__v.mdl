@@ -1,0 +1,6 @@
+Message rest_of_world__v (
+   label(),
+   active(true),
+   default_value('REST OF WORLD'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field platform__v (
+   label('Platform'),
+   type('Picklist'),
+   active(true),
+   description('The CTI platform of the conversation.'),
+   required(false),
+   unique(false),
+   help_content('The CTI platform of the conversation.'),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.conversation_platform__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

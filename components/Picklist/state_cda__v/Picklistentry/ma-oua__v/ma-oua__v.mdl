@@ -1,0 +1,6 @@
+Picklistentry ma-oua__v (
+   value('Ouarzazate'),
+   order(2825),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry pomhc__v (
+   value('Physics Occupational Medicine'),
+   order(1554),
+   active(true),
+   controlling_entries('id__v')
+);

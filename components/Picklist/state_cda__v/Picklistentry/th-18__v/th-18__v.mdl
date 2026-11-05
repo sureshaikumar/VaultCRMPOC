@@ -1,0 +1,6 @@
+Picklistentry th-18__v (
+   value('Chai Nat'),
+   order(4336),
+   active(true),
+   controlling_entries('th__v')
+);

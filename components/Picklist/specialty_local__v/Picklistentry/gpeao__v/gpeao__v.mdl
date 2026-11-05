@@ -1,0 +1,7 @@
+Picklistentry gpeao__v (
+   value('Genetic Pathology'),
+   order(618),
+   active(true),
+   controlling_entries('my__v',
+         'nz__v')
+);

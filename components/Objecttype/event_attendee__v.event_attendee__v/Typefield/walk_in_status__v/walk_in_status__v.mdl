@@ -1,0 +1,10 @@
+Typefield walk_in_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.event_attendee_walk_in_status__v.dismissed__v',
+         'Picklist.event_attendee_walk_in_status__v.needs_reconciliation__v',
+         'Picklist.event_attendee_walk_in_status__v.reconciled_to_customer_master__v',
+         'Picklist.event_attendee_walk_in_status__v.reconciled_to_existing_account__v',
+         'Picklist.event_attendee_walk_in_status__v.reconciled_to_existing_user__v',
+         'Picklist.event_attendee_walk_in_status__v.reconciled_to_new_account__v')
+);

@@ -1,0 +1,6 @@
+Message am_account_territory_deleted_with_id__v (
+   label(),
+   active(true),
+   default_value('Account Territory record {0} associated to the losing account will be deleted.'),
+   system_managed(false)
+);

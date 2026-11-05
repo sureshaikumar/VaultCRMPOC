@@ -1,0 +1,4 @@
+Objectlifecyclestateentrycriterion draft_state__c.entrycriteria1__c (
+   rule(@rule.xml),
+   order(1000)
+);

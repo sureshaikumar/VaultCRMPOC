@@ -1,0 +1,5 @@
+Picklistentry customer_direct__v (
+   value('Customer - Direct'),
+   order(1),
+   active(true)
+);

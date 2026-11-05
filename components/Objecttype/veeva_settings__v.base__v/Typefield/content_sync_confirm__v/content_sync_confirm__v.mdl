@@ -1,0 +1,4 @@
+Typefield content_sync_confirm__v (
+   source('standard'),
+   required(false)
+);

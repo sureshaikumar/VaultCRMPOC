@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_business_rule__v.percent_threshold_speaker_required__v (
+   label('Percent Threshold Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_speaker_attendance_expense_cap_rul__v", true,
+            "speaker_attendance_product_cap_rule__v", true,
+            false
+        ) = false || Not(IsBlank(percent_threshold__v))'),
+   description('percent_threshold__v is not added to the Event Business Rule.'),
+   error_message('This field is required.'),
+   error_location('percent_threshold__v')
+);

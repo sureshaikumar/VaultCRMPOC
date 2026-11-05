@@ -1,0 +1,6 @@
+Message func_profile_application_role_no_edit__v (
+   label(),
+   active(true),
+   default_value('It is not possible to modify the functional_profile__v or crm_application_role__v fields on existing aln_functional_profile_application_role__v records.'),
+   system_managed(false)
+);

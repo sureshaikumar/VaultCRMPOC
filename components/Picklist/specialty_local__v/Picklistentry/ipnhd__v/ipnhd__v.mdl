@@ -1,0 +1,8 @@
+Picklistentry ipnhd__v (
+   value('Industrial Pharmacy'),
+   order(748),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v',
+         'pl__v')
+);

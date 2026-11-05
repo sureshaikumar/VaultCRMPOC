@@ -1,0 +1,5 @@
+Picklistentry partial_payment__v (
+   value('Partial Payment'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry az-qob__v (
+   value('Qobustan'),
+   order(184),
+   active(true),
+   controlling_entries('az__v')
+);

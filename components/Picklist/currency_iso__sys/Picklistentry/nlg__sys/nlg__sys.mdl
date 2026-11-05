@@ -1,0 +1,5 @@
+Picklistentry nlg__sys (
+   value('NLG'),
+   order(134),
+   active(true)
+);

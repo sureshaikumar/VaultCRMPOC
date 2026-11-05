@@ -1,0 +1,17 @@
+Field disable_order_line_total_round__v (
+   label('Disable Order Line Total Round'),
+   type('Boolean'),
+   active(true),
+   description('Determines if Order Line Total Round Mode or Final Net Price Round Mode is used when calculating Order Line Net Amount.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(349),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

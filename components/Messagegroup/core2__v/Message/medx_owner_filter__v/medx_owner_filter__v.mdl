@@ -1,0 +1,6 @@
+Message medx_owner_filter__v (
+   label(),
+   active(true),
+   default_value('Only Show Mine'),
+   system_managed(false)
+);

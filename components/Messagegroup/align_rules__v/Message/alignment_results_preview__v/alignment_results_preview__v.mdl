@@ -1,0 +1,6 @@
+Message alignment_results_preview__v (
+   label(),
+   active(true),
+   default_value('Preview'),
+   system_managed(false)
+);

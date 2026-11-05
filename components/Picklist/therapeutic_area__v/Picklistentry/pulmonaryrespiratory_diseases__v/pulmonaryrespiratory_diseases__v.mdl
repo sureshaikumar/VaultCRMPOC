@@ -1,0 +1,5 @@
+Picklistentry pulmonaryrespiratory_diseases__v (
+   value('Pulmonary/Respiratory Diseases'),
+   order(17),
+   active(true)
+);

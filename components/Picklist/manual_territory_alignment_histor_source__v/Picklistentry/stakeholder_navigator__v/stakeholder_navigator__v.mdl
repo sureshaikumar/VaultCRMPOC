@@ -1,0 +1,5 @@
+Picklistentry stakeholder_navigator__v (
+   value('Stakeholder Navigator'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-111__v (
+   value('Sežana'),
+   order(4085),
+   active(true),
+   controlling_entries('si__v')
+);

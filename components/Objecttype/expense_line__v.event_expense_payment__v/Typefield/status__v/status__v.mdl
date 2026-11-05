@@ -1,0 +1,4 @@
+Typefield status__v (
+   source('standard'),
+   required(true)
+);

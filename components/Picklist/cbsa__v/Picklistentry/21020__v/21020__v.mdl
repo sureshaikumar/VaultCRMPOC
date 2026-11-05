@@ -1,0 +1,5 @@
+Picklistentry 21020__v (
+   value('Elizabeth City, NC Micropolitan Statistical Area'),
+   order(755),
+   active(true)
+);

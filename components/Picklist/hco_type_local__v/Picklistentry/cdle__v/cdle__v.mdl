@@ -1,0 +1,5 @@
+Picklistentry cdle__v (
+   value('Clinical Department'),
+   order(27),
+   active(true)
+);

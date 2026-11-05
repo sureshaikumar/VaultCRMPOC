@@ -1,0 +1,6 @@
+Picklistentry gb-nnh__v (
+   value('North Northamptonshire'),
+   order(1583),
+   active(true),
+   controlling_entries('gb__v')
+);

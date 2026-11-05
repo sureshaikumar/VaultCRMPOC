@@ -1,0 +1,6 @@
+Picklistentry ug-301__v (
+   value('Adjumani'),
+   order(4706),
+   active(true),
+   controlling_entries('ug__v')
+);

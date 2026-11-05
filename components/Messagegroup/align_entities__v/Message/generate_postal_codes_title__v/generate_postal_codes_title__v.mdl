@@ -1,0 +1,6 @@
+Message generate_postal_codes_title__v (
+   label(),
+   active(true),
+   default_value('Generate Postal Codes'),
+   system_managed(false)
+);

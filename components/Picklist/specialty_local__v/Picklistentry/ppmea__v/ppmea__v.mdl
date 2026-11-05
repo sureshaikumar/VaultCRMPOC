@@ -1,0 +1,8 @@
+Picklistentry ppmea__v (
+   value('Pediatric Palliative Medicine'),
+   order(1435),
+   active(true),
+   controlling_entries('au__v',
+         'nz__v',
+         'us__v')
+);

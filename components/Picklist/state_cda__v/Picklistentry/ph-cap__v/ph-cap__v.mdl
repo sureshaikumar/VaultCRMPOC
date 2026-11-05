@@ -1,0 +1,6 @@
+Picklistentry ph-cap__v (
+   value('Capiz'),
+   order(3553),
+   active(true),
+   controlling_entries('ph__v')
+);

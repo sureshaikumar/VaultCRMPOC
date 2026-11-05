@@ -1,0 +1,23 @@
+Field order_touch_entry_mode__v (
+   label('Order Touch Entry Mode'),
+   type('Number'),
+   active(true),
+   description('Determines the OM entry mode behavior on touch devices: 0 = no change. 1 = enables Mass Add Lines. 2 = enables Saving of Valid Lines Only. 3 = enables Mass Add Lines AND Saving of Valid Lines Only.'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(239),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

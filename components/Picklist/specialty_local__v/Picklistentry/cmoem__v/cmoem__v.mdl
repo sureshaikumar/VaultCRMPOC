@@ -1,0 +1,15 @@
+Picklistentry cmoem__v (
+   value('Community Medicine'),
+   order(312),
+   active(true),
+   controlling_entries('ae__v',
+         'dk__v',
+         'eg__v',
+         'in__v',
+         'it__v',
+         'jo__v',
+         'mu__v',
+         'no__v',
+         'pk__v',
+         'qa__v')
+);

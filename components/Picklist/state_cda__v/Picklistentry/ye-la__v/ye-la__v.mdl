@@ -1,0 +1,6 @@
+Picklistentry ye-la__v (
+   value('Laḩij'),
+   order(5006),
+   active(true),
+   controlling_entries('ye__v')
+);

@@ -1,0 +1,6 @@
+Message studio_id__v (
+   label(),
+   active(true),
+   default_value('Studio ID'),
+   system_managed(false)
+);

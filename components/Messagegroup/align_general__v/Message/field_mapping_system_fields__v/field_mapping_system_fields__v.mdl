@@ -1,0 +1,6 @@
+Message field_mapping_system_fields__v (
+   label(),
+   active(true),
+   default_value('System Field Mapping'),
+   system_managed(false)
+);

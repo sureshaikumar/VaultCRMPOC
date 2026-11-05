@@ -1,0 +1,9 @@
+RECREATE Picklist em_business_rule_comment_required__v (
+   label('Comment Required'),
+   active(true),
+   Picklistentry(@Picklistentry/required__v.mdl),
+   Picklistentry(@Picklistentry/optional__v.mdl),
+   Picklistentry(@Picklistentry/hidden__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

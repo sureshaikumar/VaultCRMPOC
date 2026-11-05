@@ -1,0 +1,18 @@
+Field message_language__v (
+   label('Message Language'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The language that the text is displayed in.'),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.vlanguage__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

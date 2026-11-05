@@ -1,0 +1,6 @@
+Picklistentry dk-84__v (
+   value('Hovedstaden'),
+   order(928),
+   active(true),
+   controlling_entries('dk__v')
+);

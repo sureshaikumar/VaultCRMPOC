@@ -1,0 +1,15 @@
+RECREATE Layoutrule doc_translation_input_default_google__c.hide_status__sys (
+   active(true),
+   description('Always hide the required status__v field from the pre-execution dialog; it is read-only on the layout and never user-relevant.'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('status__v'),
+   hide_sections(),
+   hide_layout(false),
+   label('Hide Status'),
+   order(100)
+);

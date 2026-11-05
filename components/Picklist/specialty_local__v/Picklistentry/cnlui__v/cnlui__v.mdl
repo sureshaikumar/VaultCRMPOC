@@ -1,0 +1,8 @@
+Picklistentry cnlui__v (
+   value('Clinical Nutrition'),
+   order(252),
+   active(true),
+   controlling_entries('eg__v',
+         'id__v',
+         'pt__v')
+);

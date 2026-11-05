@@ -1,0 +1,6 @@
+Message remove_link__v (
+   label(),
+   active(true),
+   default_value('Remove Link'),
+   system_managed(false)
+);

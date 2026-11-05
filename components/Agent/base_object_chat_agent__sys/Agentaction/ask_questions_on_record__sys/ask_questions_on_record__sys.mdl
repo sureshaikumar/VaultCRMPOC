@@ -1,0 +1,12 @@
+Agentaction ask_questions_on_record__sys (
+   label('Ask Questions'),
+   active(true),
+   api_access(true),
+   description('This action is used for inquiries about the current record and related records. It also handles questions that are not about the data found in the record context view. It can provide answers for vague, unrelated, or off-topic questions, such as "tell me where jim lives", "how many defects?", "who''s michael?", and etc.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(true),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

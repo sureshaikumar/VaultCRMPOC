@@ -1,0 +1,18 @@
+Field display_in_reports__v (
+   label('Display In Reports?'),
+   type('Boolean'),
+   active(true),
+   description('Field to determine if the Analytics Product Group should be displayed in the Analytics Reports.   If checked, the group will be displayed on Reports.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

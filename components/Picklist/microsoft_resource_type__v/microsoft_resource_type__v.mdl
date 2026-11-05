@@ -1,0 +1,10 @@
+RECREATE Picklist microsoft_resource_type__v (
+   label('Microsoft Resource Type'),
+   active(true),
+   Picklistentry(@Picklistentry/shared__v.mdl),
+   Picklistentry(@Picklistentry/standard__v.mdl),
+   Picklistentry(@Picklistentry/public__v.mdl),
+   Picklistentry(@Picklistentry/private__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

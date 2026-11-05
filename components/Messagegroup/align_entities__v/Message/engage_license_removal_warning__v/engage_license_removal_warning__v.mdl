@@ -1,0 +1,6 @@
+Message engage_license_removal_warning__v (
+   label(),
+   active(true),
+   default_value('Roster Members with an Engage license will automatically have their group membership removed.'),
+   system_managed(false)
+);

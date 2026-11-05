@@ -1,0 +1,6 @@
+Message mccp_no_object_types_imported_vcrm_inst__v (
+   label(),
+   active(true),
+   default_value('No object type imported from Vault CRM for Vault CRM Instance {0}.'),
+   system_managed(false)
+);

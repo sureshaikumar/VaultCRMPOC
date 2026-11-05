@@ -1,0 +1,6 @@
+Picklistentry spsue__v (
+   value('Surgery Pediatric Surgery'),
+   order(1817),
+   active(true),
+   controlling_entries('id__v')
+);

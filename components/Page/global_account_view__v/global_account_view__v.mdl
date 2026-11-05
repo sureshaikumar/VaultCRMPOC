@@ -1,0 +1,14 @@
+RECREATE Page global_account_view__v (
+   label('Global Account View'),
+   active(true),
+   client_distribution(),
+   default_client_code('global_account_view__v'),
+   description('Custom app page for global account view'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('global-account-view')
+);

@@ -1,0 +1,19 @@
+Field facetime_email__v (
+   label('Facetime Email'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Stores the email address that the user has registered with Facetime.'),
+   list_column(false),
+   order(73),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

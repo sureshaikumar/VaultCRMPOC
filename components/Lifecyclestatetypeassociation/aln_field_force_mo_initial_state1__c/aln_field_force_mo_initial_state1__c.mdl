@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation aln_field_force_mo_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.aln_field_force_model_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.draft__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry wyeth__v (
+   value('Wyeth'),
+   order(41),
+   active(true)
+);

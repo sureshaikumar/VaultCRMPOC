@@ -1,0 +1,5 @@
+Picklistentry crc__sys (
+   value('CRC'),
+   order(45),
+   active(true)
+);

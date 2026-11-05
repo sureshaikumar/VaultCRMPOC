@@ -1,0 +1,5 @@
+Picklistentry labrinone__c (
+   value('Labrinone'),
+   order(1),
+   active(true)
+);

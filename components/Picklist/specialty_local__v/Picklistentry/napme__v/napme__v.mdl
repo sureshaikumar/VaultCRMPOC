@@ -1,0 +1,6 @@
+Picklistentry napme__v (
+   value('Neonatal and Perinatal Medicine'),
+   order(989),
+   active(true),
+   controlling_entries('au__v')
+);

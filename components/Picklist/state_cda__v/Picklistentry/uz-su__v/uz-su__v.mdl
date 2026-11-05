@@ -1,0 +1,6 @@
+Picklistentry uz-su__v (
+   value('Surxondaryo'),
+   order(4877),
+   active(true),
+   controlling_entries('uz__v')
+);

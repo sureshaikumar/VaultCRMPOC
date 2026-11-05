@@ -1,0 +1,19 @@
+Field vexternal_id__v (
+   label('Veeva External ID'),
+   type('String'),
+   active(true),
+   description('Used as a unique identifier for Agent Rules, leveraged specifically by Veeva'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

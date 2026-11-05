@@ -1,0 +1,19 @@
+Field cds_schedule__v (
+   label('CDS Schedule'),
+   type('String'),
+   active(true),
+   description('This is the comma-delimited list of state-designated schedule(s) for which the person Account is eligible to receive samples at this address, ex: II, III, IV, V, VI. Format is schedule, schedule, schedule where each schedule is a text value that will exactly match a schedule listed in Product_vod.CDS_State_Schedule_vod for this state.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(95),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry dty_staged__sys (
+   value('Staged'),
+   order(160),
+   active(true),
+   controlling_entries('dlc_staged__sys')
+);

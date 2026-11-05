@@ -1,0 +1,6 @@
+Message account_team__v (
+   label(),
+   active(true),
+   default_value('Account Team'),
+   system_managed(false)
+);

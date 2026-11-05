@@ -1,0 +1,6 @@
+Message ends_on__v (
+   label(),
+   active(true),
+   default_value('Ends on'),
+   system_managed(false)
+);

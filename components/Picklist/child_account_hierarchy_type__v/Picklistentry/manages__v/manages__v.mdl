@@ -1,0 +1,5 @@
+Picklistentry manages__v (
+   value('Manages'),
+   order(3),
+   active(true)
+);

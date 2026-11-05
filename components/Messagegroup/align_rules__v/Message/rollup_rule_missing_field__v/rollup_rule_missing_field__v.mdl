@@ -1,0 +1,6 @@
+Message rollup_rule_missing_field__v (
+   label(),
+   active(true),
+   default_value('{0} field is required.'),
+   system_managed(false)
+);

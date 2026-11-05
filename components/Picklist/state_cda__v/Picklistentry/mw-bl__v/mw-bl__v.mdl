@@ -1,0 +1,6 @@
+Picklistentry mw-bl__v (
+   value('Blantyre'),
+   order(3209),
+   active(true),
+   controlling_entries('mw__v')
+);

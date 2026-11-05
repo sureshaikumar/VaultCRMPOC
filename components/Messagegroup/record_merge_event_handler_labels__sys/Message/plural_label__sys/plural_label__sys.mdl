@@ -1,0 +1,6 @@
+Message plural_label__sys (
+   label(),
+   active(true),
+   default_value('Record Merge Event Handlers'),
+   system_managed(true)
+);

@@ -1,0 +1,6 @@
+Message no_insurance__v (
+   label(),
+   active(true),
+   default_value('No Insurance'),
+   system_managed(false)
+);

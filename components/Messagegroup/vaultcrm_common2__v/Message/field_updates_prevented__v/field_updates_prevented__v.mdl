@@ -1,0 +1,6 @@
+Message field_updates_prevented__v (
+   label(),
+   active(true),
+   default_value('Cannot update system field ${field}.'),
+   system_managed(false)
+);

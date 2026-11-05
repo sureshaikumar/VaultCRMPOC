@@ -1,0 +1,6 @@
+Picklistentry bd-23__v (
+   value('Jhenaidah'),
+   order(252),
+   active(true),
+   controlling_entries('bd__v')
+);

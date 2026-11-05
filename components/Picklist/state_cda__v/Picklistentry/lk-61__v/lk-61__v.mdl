@@ -1,0 +1,6 @@
+Picklistentry lk-61__v (
+   value('Kurunegala'),
+   order(2583),
+   active(true),
+   controlling_entries('lk__v')
+);

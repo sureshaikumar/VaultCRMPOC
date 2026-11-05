@@ -1,0 +1,20 @@
+RECREATE Picklist em_speaker_cap_starting_year__v (
+   label('Starting Year'),
+   active(true),
+   Picklistentry(@Picklistentry/2022__v.mdl),
+   Picklistentry(@Picklistentry/2023__v.mdl),
+   Picklistentry(@Picklistentry/2024__v.mdl),
+   Picklistentry(@Picklistentry/2025__v.mdl),
+   Picklistentry(@Picklistentry/2026__v.mdl),
+   Picklistentry(@Picklistentry/2027__v.mdl),
+   Picklistentry(@Picklistentry/2028__v.mdl),
+   Picklistentry(@Picklistentry/2029__v.mdl),
+   Picklistentry(@Picklistentry/2030__v.mdl),
+   Picklistentry(@Picklistentry/2031__v.mdl),
+   Picklistentry(@Picklistentry/2032__v.mdl),
+   Picklistentry(@Picklistentry/2033__v.mdl),
+   Picklistentry(@Picklistentry/2034__v.mdl),
+   Picklistentry(@Picklistentry/2035__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

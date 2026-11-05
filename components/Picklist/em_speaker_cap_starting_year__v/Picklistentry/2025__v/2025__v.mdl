@@ -1,0 +1,5 @@
+Picklistentry 2025__v (
+   value('2025'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message retry__v (
+   label(),
+   active(true),
+   default_value('Retry'),
+   system_managed(false)
+);

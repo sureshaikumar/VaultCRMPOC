@@ -1,0 +1,6 @@
+Picklistentry ug-326__v (
+   value('Lamwo'),
+   order(4731),
+   active(true),
+   controlling_entries('ug__v')
+);

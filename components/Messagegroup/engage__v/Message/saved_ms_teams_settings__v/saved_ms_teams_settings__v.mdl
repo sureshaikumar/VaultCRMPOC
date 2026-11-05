@@ -1,0 +1,6 @@
+Message saved_ms_teams_settings__v (
+   label(),
+   active(true),
+   default_value('Saved Microsoft Teams Settings'),
+   system_managed(false)
+);

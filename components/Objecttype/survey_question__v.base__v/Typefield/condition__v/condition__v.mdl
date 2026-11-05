@@ -1,0 +1,4 @@
+Typefield condition__v (
+   source('standard'),
+   required(false)
+);

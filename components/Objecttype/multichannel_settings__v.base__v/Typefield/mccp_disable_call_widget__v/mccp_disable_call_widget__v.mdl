@@ -1,0 +1,4 @@
+Typefield mccp_disable_call_widget__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="Objectaction.survey_target__v.save__v">
+            <lcActionLabelXmlIdentifier>Save</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

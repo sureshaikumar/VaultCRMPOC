@@ -1,0 +1,5 @@
+Picklistentry acupu__v (
+   value('Acupuncturist'),
+   order(0),
+   active(true)
+);

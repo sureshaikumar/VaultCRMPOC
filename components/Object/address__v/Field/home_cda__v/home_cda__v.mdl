@@ -1,0 +1,18 @@
+Field home_cda__v (
+   label('Home'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether this represents a home address.'),
+   required(false),
+   checkbox(true),
+   help_content('Checkbox that determines if the Address serves as a home address.'),
+   list_column(false),
+   order(36),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry mcil__v (
+   value('Military Clinic'),
+   order(158),
+   active(true)
+);

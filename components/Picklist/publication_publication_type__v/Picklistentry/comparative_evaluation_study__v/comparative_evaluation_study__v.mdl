@@ -1,0 +1,5 @@
+Picklistentry comparative_evaluation_study__v (
+   value('Comparative/Evaluation Study'),
+   order(3),
+   active(true)
+);

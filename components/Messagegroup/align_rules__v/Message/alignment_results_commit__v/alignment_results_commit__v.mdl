@@ -1,0 +1,6 @@
+Message alignment_results_commit__v (
+   label(),
+   active(true),
+   default_value('Commit To Align'),
+   system_managed(false)
+);

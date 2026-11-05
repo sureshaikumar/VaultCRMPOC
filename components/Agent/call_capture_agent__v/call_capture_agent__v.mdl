@@ -1,0 +1,14 @@
+RECREATE Agent call_capture_agent__v (
+   label('Call Capture Agent'),
+   active(true),
+   agent_user('[agent]call_capture_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.CallCaptureAgent'),
+   description('This agent performs call capture actions in Vault CRM. It converts voice entries or other inputs into records within Vault CRM. Outputs are Calls and records related to Calls.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/capture_call_from_summary__v.mdl)
+);

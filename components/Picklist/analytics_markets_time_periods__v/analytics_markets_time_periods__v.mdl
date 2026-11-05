@@ -1,0 +1,15 @@
+RECREATE Picklist analytics_markets_time_periods__v (
+   label('Time Periods'),
+   active(true),
+   Picklistentry(@Picklistentry/4_week__v.mdl),
+   Picklistentry(@Picklistentry/13_week__v.mdl),
+   Picklistentry(@Picklistentry/1_month__v.mdl),
+   Picklistentry(@Picklistentry/3_month__v.mdl),
+   Picklistentry(@Picklistentry/6_month__v.mdl),
+   Picklistentry(@Picklistentry/12_month__v.mdl),
+   Picklistentry(@Picklistentry/24_month__v.mdl),
+   Picklistentry(@Picklistentry/ytd__v.mdl),
+   Picklistentry(@Picklistentry/custom__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

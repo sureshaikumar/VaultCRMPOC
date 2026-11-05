@@ -1,0 +1,22 @@
+Field team_channel_interactions_goal__v (
+   label('Team Channel Interactions Goal'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1000000000),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(43),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

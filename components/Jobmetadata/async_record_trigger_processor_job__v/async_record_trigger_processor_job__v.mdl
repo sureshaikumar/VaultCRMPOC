@@ -1,0 +1,11 @@
+RECREATE Jobmetadata async_record_trigger_processor_job__v (
+   label('Async Record Trigger Processor Job'),
+   active(true),
+   chunk_size(1),
+   description('Processes staged asynchronous record triggers from the async trigger framework.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.common.asynctrigger.jobs.AsyncRecordTriggerProcessorJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

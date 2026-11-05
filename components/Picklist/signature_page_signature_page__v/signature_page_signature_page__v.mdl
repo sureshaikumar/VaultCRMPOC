@@ -1,0 +1,16 @@
+RECREATE Picklist signature_page_signature_page__v (
+   label('Signature Page'),
+   active(true),
+   Picklistentry(@Picklistentry/content_acknowledgement__v.mdl),
+   Picklistentry(@Picklistentry/medical_event__v.mdl),
+   Picklistentry(@Picklistentry/approved_email_consent__v.mdl),
+   Picklistentry(@Picklistentry/call_sample__v.mdl),
+   Picklistentry(@Picklistentry/call_detail__v.mdl),
+   Picklistentry(@Picklistentry/call_acknowledgement__v.mdl),
+   Picklistentry(@Picklistentry/contract__v.mdl),
+   Picklistentry(@Picklistentry/medical_inquiry__v.mdl),
+   Picklistentry(@Picklistentry/order__v.mdl),
+   Picklistentry(@Picklistentry/sample_consent__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

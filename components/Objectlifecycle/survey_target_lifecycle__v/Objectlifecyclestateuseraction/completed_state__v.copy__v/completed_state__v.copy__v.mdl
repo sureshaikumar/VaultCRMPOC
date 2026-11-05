@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction completed_state__v.copy__v (
+   label('Copy Survey Target'),
+   rule(@rule.xml),
+   order(1000)
+);

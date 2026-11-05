@@ -1,0 +1,5 @@
+Picklistentry vertex__sys (
+   value('Google Cloud'),
+   order(3),
+   active(true)
+);

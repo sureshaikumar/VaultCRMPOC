@@ -1,0 +1,6 @@
+Message merge__v (
+   label(),
+   active(true),
+   default_value('Merge'),
+   system_managed(false)
+);

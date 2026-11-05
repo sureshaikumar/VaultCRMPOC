@@ -1,0 +1,9 @@
+RECREATE Reporttype binder_section_with_document_and_bind__v (
+   label('Binder Section with Document and Binder'),
+   active(true),
+   description(),
+   primary_object('binder_section'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

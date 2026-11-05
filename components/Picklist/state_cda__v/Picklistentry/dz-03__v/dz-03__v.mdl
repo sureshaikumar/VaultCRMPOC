@@ -1,0 +1,6 @@
+Picklistentry dz-03__v (
+   value('Laghouat'),
+   order(984),
+   active(true),
+   controlling_entries('dz__v')
+);

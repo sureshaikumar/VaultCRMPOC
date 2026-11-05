@@ -1,0 +1,6 @@
+Message expense_total_committed__v (
+   label(),
+   active(true),
+   default_value('Total Committed'),
+   system_managed(false)
+);

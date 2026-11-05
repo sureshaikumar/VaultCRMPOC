@@ -1,0 +1,5 @@
+Picklistentry antarctica_troll__sys (
+   value('(GMT+00:00) Troll Station Time (Antarctica/Troll)'),
+   order(142),
+   active(true)
+);

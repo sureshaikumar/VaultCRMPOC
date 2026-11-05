@@ -1,0 +1,6 @@
+Picklistentry lk-5__v (
+   value('Eastern Province'),
+   order(2578),
+   active(true),
+   controlling_entries('lk__v')
+);

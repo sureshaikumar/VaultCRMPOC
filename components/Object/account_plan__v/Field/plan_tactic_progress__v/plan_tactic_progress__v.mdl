@@ -1,0 +1,23 @@
+Field plan_tactic_progress__v (
+   label('Plan Tactic Progress'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9999999999999999.99),
+   min_value(0),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

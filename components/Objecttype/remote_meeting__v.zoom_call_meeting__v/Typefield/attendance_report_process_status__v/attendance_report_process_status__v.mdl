@@ -1,0 +1,4 @@
+Typefield attendance_report_process_status__v (
+   source('custom'),
+   required(false)
+);

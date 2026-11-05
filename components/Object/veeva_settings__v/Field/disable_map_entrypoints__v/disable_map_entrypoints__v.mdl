@@ -1,0 +1,20 @@
+Field disable_map_entrypoints__v (
+   label('Disable Map Entry Points'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This setting will disable entry points into the Account Map page. Disabling multiple entry point should be delimited with a double semi-colon.'),
+   list_column(false),
+   order(92),
+   default_value('"All_vod"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

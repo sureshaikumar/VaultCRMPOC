@@ -1,0 +1,6 @@
+Picklistentry fj-03__v (
+   value('Cakaudrove'),
+   order(1294),
+   active(true),
+   controlling_entries('fj__v')
+);

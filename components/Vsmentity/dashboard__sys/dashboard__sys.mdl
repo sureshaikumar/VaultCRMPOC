@@ -1,0 +1,11 @@
+RECREATE Vsmentity dashboard__sys (
+   label('Dashboard'),
+   active(false),
+   description('Represents a single dashboard setup in Vault. Dashboards are utilized to visualize data from Vault Reports.'),
+   synonyms('chart',
+      'visualization'),
+   target('Object.dashboard__sys'),
+   target_label('Dashboard'),
+   Vsmfield(@Vsmfield/description__sys.mdl),
+   Vsmfield(@Vsmfield/tags__sys.mdl)
+);

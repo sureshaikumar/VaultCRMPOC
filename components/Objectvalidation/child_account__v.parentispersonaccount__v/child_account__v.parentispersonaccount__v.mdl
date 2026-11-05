@@ -1,0 +1,8 @@
+RECREATE Objectvalidation child_account__v.parentispersonaccount__v (
+   label('Parent Is Person Account'),
+   active(true),
+   expression('parent_account__vr.ispersonaccount__v != true'),
+   description(),
+   error_message('The parent account must be a business account.'),
+   error_location('parent_account__v')
+);

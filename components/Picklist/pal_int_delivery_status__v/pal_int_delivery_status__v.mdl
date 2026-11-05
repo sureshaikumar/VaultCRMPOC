@@ -1,0 +1,9 @@
+RECREATE Picklist pal_int_delivery_status__v (
+   label('Delivery Status'),
+   active(true),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/delivered__v.mdl),
+   Picklistentry(@Picklistentry/failed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

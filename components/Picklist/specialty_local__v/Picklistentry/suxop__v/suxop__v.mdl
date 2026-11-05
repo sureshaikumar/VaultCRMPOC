@@ -1,0 +1,6 @@
+Picklistentry suxop__v (
+   value('Surgical Opthalmology'),
+   order(1827),
+   active(true),
+   controlling_entries('ie__v')
+);

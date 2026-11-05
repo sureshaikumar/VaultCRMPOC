@@ -1,0 +1,6 @@
+Message crm_push_engage_warning__v (
+   label(),
+   active(true),
+   default_value('This Roster Member will be inactivated in CRM after their end date. If this roster member has an Engage or Engage Connect license, their group membership will also be removed after their end date.'),
+   system_managed(false)
+);

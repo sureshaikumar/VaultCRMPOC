@@ -1,0 +1,19 @@
+Field address_line_2__v (
+   label('Address Line 2'),
+   type('String'),
+   active(true),
+   description('Address Line 2 is the second line of the Address for Return, Transfer, and Disbursement Sample Transactions.  Address Line 1 for a Transfer To Sample Transaction is auto-populated based on the Selected Transfer To user and their corresponding record in th'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

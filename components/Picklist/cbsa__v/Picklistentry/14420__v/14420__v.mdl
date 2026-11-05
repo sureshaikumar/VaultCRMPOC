@@ -1,0 +1,5 @@
+Picklistentry 14420__v (
+   value('Borger, TX Micropolitan Statistical Area'),
+   order(899),
+   active(true)
+);

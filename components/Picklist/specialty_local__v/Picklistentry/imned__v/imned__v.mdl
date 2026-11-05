@@ -1,0 +1,6 @@
+Picklistentry imned__v (
+   value('Industrial Medicine'),
+   order(747),
+   active(true),
+   controlling_entries('lb__v')
+);

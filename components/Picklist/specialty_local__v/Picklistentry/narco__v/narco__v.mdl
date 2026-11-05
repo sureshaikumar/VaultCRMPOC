@@ -1,0 +1,10 @@
+Picklistentry narco__v (
+   value('Narcology'),
+   order(985),
+   active(true),
+   controlling_entries('am__v',
+         'az__v',
+         'ge__v',
+         'kg__v',
+         'ua__v')
+);

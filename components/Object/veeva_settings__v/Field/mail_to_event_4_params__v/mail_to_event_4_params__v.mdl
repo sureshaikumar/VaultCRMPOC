@@ -1,0 +1,20 @@
+Field mail_to_event_4_params__v (
+   label('MAIL_TO_EVENT_4_PARAMS'),
+   type('String'),
+   active(true),
+   description('Mail-to format for Event data with 4 parameters.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(204),
+   default_value('"MAIL_TO_EVENT_4_PARAMS;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

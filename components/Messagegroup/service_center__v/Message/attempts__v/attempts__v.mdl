@@ -1,0 +1,6 @@
+Message attempts__v (
+   label(),
+   active(true),
+   default_value('Attempts'),
+   system_managed(false)
+);

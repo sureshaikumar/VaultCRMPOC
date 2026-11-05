@@ -1,0 +1,6 @@
+Picklistentry paaea__v (
+   value('Pediatric and Adolescent Endocrinology and Diabetology'),
+   order(1320),
+   active(true),
+   controlling_entries('de__v')
+);

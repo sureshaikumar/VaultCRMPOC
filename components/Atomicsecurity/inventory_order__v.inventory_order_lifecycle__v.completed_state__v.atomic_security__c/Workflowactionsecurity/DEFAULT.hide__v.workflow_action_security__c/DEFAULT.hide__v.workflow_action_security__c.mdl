@@ -1,0 +1,14 @@
+Workflowactionsecurity DEFAULT.hide__v.workflow_action_security__c (
+   label('DEFAULT-Hide'),
+   active(true),
+   role('Objectlifecyclerole.DEFAULT'),
+   type('hide__v'),
+   workflow_actions('addparticipants',
+         'cancel',
+         'emailparticipants',
+         'removecontent',
+         'updateworkflowduedate'),
+   workflow_task_actions('cancel',
+         'reassign',
+         'updateduedate')
+);

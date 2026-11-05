@@ -1,0 +1,6 @@
+Picklistentry lt-ut__v (
+   value('Utena County'),
+   order(2687),
+   active(true),
+   controlling_entries('lt__v')
+);

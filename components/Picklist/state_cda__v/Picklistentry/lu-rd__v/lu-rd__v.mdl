@@ -1,0 +1,6 @@
+Picklistentry lu-rd__v (
+   value('Redange'),
+   order(2697),
+   active(true),
+   controlling_entries('lu__v')
+);

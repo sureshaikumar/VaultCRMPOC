@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate export_checklist_design_success__v (
+   label('Export Checklist Design Success'),
+   active(true),
+   description('Notification template notifying user that their Checklist Design is ready to download'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: ${checklist_design__sys_label} exported successfully'),
+   notification('<p>Your Checklist Design ${checklist_design__sys_name} was successfully exported. Please <a href="${urlChecklistDesignDownload}">download the file</a>. For further instructions, please check the <a href="${urlChecklistHelp}">Help</a> section.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

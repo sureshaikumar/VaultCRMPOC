@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate checklist_design_state_failure__v (
+   label('Sync Checklist Design Lifecycle State Failure'),
+   active(true),
+   description('Notification template notifying user that Checklist Design Lifecycle State sync failed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Checklist Design Lifecycle State Sync Failed for ${checklist_design__sys_name}'),
+   notification('Checklist Design <a href="${urlSourceChecklistDesign}">${checklist_design__sys_name}</a> could not be changed to the ${checklist_design__sys_state} lifecycle state.<br>Details:<p>${listOfErrors}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

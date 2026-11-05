@@ -1,0 +1,6 @@
+Message rule_alignment_show_gain_loss__v (
+   label(),
+   active(true),
+   default_value('Show Gain/Loss'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry pa-nt__v (
+   value('Naso Tjër Di'),
+   order(3467),
+   active(true),
+   controlling_entries('pa__v')
+);

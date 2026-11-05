@@ -1,0 +1,14 @@
+RECREATE Agent pre_call_agent__v (
+   label('Account Summary Agent'),
+   active(true),
+   agent_user('[agent]pre_call_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.PreCallAgent'),
+   description('This agent supports pharmaceutical users in preparing for interactions with healthcare professionals (HCPs)—also called calls, meetings, or engagements. It gathers and summarizes HCP data such as call notes, emails, events, prescribing history, and formulary access. Outputs include interaction summaries, key insights, talking points, next-best actions, and engagement strategies.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/summarize_account__v.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry urology_times_article__v (
+   value('Urology Times Article'),
+   order(3),
+   active(true)
+);

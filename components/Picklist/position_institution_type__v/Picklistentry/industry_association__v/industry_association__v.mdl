@@ -1,0 +1,5 @@
+Picklistentry industry_association__v (
+   value('Industry Association'),
+   order(9),
+   active(true)
+);

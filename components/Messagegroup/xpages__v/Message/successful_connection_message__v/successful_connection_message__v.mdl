@@ -1,0 +1,6 @@
+Message successful_connection_message__v (
+   label(),
+   active(true),
+   default_value('${studio_name} has been connected to this Vault.'),
+   system_managed(false)
+);

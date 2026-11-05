@@ -1,0 +1,6 @@
+Message align_settings_product_inheritance_label__v (
+   label(),
+   active(true),
+   default_value('Field Force Product Inheritance'),
+   system_managed(false)
+);

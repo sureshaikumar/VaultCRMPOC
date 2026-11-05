@@ -1,0 +1,7 @@
+Typefield u_m__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sample_lot_u_m__v.box__v',
+         'Picklist.sample_lot_u_m__v.boxes__v',
+         'Picklist.sample_lot_u_m__v.cases__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ohtre__v (
+   value('Oral Health Therapist'),
+   order(1169),
+   active(true),
+   controlling_entries('au__v')
+);

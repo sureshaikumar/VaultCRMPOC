@@ -1,0 +1,6 @@
+Message start_building_subheader__v (
+   label(),
+   active(true),
+   default_value('Add actions using visual builder'),
+   system_managed(false)
+);

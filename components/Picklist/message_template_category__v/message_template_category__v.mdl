@@ -1,0 +1,9 @@
+RECREATE Picklist message_template_category__v (
+   label('Category'),
+   active(true),
+   Picklistentry(@Picklistentry/conversation_starter__v.mdl),
+   Picklistentry(@Picklistentry/restart_conversation__v.mdl),
+   Picklistentry(@Picklistentry/end_conversation__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

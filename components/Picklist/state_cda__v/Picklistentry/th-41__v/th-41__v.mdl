@@ -1,0 +1,6 @@
+Picklistentry th-41__v (
+   value('Udon Thani'),
+   order(4357),
+   active(true),
+   controlling_entries('th__v')
+);

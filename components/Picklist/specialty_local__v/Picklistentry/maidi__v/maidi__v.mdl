@@ -1,0 +1,6 @@
+Picklistentry maidi__v (
+   value('Microbiology and Infectious Diseases'),
+   order(963),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,18 @@
+Field allow_confirmation_by_email__v (
+   label('Allow Confirmation by Email'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Allow the user to select Email as Confirmation method for Consent'),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

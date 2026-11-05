@@ -1,0 +1,20 @@
+Field phone__v (
+   label('Phone'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Used to store the attendee''s phone number.'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

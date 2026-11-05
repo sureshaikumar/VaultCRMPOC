@@ -1,0 +1,6 @@
+Message crm_integration_upd_picklist_label__v (
+   label(),
+   active(true),
+   default_value('Successfully updated the picklist label.'),
+   system_managed(false)
+);

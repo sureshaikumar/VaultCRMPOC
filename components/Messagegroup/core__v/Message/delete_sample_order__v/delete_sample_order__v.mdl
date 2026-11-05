@@ -1,0 +1,6 @@
+Message delete_sample_order__v (
+   label(),
+   active(true),
+   default_value('Cannot delete a submitted Sample Order.'),
+   system_managed(false)
+);

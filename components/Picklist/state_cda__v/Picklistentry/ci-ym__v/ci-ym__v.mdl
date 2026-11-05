@@ -1,0 +1,6 @@
+Picklistentry ci-ym__v (
+   value('Yamoussoukro'),
+   order(665),
+   active(true),
+   controlling_entries('ci__v')
+);

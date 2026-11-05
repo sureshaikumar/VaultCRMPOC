@@ -1,0 +1,6 @@
+Picklistentry za-kzn__v (
+   value('Kwazulu-Natal'),
+   order(5020),
+   active(true),
+   controlling_entries('za__v')
+);

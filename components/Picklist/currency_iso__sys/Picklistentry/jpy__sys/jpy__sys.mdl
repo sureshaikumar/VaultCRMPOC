@@ -1,0 +1,5 @@
+Picklistentry jpy__sys (
+   value('JPY'),
+   order(93),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry sl-s__v (
+   value('Southern'),
+   order(4198),
+   active(true),
+   controlling_entries('sl__v')
+);

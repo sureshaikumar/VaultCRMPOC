@@ -1,0 +1,6 @@
+Picklistentry us-sc__v (
+   value('South Carolina'),
+   order(4835),
+   active(true),
+   controlling_entries('us__v')
+);

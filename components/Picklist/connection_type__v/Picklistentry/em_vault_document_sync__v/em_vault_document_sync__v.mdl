@@ -1,0 +1,5 @@
+Picklistentry em_vault_document_sync__v (
+   value('EM_Vault_Document_Sync'),
+   order(0),
+   active(true)
+);

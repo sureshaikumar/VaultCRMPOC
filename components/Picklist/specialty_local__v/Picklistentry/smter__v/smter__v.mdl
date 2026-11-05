@@ -1,0 +1,6 @@
+Picklistentry smter__v (
+   value('Stroke Medicine'),
+   order(1807),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry caanr__v (
+   value('Cardiac-Anaesthesia'),
+   order(151),
+   active(true),
+   controlling_entries('in__v')
+);

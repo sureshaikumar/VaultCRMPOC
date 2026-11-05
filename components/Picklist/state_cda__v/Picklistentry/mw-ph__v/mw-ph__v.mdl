@@ -1,0 +1,6 @@
+Picklistentry mw-ph__v (
+   value('Phalombe'),
+   order(3233),
+   active(true),
+   controlling_entries('mw__v')
+);

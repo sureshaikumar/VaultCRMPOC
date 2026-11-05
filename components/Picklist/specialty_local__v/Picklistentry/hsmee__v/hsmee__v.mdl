@@ -1,0 +1,6 @@
+Picklistentry hsmee__v (
+   value('Health Services Management'),
+   order(673),
+   active(true),
+   controlling_entries('pt__v')
+);

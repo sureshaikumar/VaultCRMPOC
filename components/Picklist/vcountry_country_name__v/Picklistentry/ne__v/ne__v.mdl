@@ -1,0 +1,5 @@
+Picklistentry ne__v (
+   value('Niger'),
+   order(162),
+   active(true)
+);

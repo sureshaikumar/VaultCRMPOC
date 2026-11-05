@@ -1,0 +1,6 @@
+Picklistentry ug-234__v (
+   value('Namisindwa'),
+   order(4702),
+   active(true),
+   controlling_entries('ug__v')
+);

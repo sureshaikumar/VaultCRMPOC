@@ -1,0 +1,6 @@
+Message unmodified_call_date_message__v (
+   label(),
+   active(true),
+   default_value('You have not modified the call date.'),
+   system_managed(false)
+);

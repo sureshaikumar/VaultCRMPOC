@@ -1,0 +1,6 @@
+Picklistentry pcrea__v (
+   value('Pediatric Cardiology-Rheumatology'),
+   order(1344),
+   active(true),
+   controlling_entries('ge__v')
+);

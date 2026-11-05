@@ -1,0 +1,6 @@
+Picklistentry ve-e__v (
+   value('Barinas'),
+   order(4891),
+   active(true),
+   controlling_entries('ve__v')
+);

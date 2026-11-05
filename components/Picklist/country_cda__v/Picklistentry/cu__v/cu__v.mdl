@@ -1,0 +1,5 @@
+Picklistentry cu__v (
+   value('Cuba'),
+   order(56),
+   active(true)
+);

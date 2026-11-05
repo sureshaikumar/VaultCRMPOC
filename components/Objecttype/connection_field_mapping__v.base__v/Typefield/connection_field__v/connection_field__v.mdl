@@ -1,0 +1,4 @@
+Typefield connection_field__v (
+   source('standard'),
+   required(false)
+);

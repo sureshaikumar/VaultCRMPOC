@@ -1,0 +1,6 @@
+Message average_days_to_close__v (
+   label(),
+   active(true),
+   default_value('Average Days to Close'),
+   system_managed(false)
+);

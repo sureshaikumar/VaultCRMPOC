@@ -1,0 +1,6 @@
+Picklistentry ng-kw__v (
+   value('Kwara'),
+   order(3343),
+   active(true),
+   controlling_entries('ng__v')
+);

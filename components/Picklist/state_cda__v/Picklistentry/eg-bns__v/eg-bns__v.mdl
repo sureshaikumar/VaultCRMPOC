@@ -1,0 +1,6 @@
+Picklistentry eg-bns__v (
+   value('Banī Suwayf'),
+   order(1163),
+   active(true),
+   controlling_entries('eg__v')
+);

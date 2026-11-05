@@ -1,0 +1,23 @@
+Field name__v (
+   label('AffiliationNumber'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(3),
+   system_managed_name(true),
+   sequential_naming(true),
+   start_number(1),
+   value_format('{#}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

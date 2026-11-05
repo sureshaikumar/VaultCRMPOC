@@ -1,0 +1,6 @@
+Message support_chat__sys (
+   label(),
+   active(true),
+   default_value('Support Chat'),
+   system_managed(true)
+);

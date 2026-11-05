@@ -1,0 +1,5 @@
+Picklistentry 44940__v (
+   value('Sumter, SC Metropolitan Statistical Area'),
+   order(16),
+   active(true)
+);

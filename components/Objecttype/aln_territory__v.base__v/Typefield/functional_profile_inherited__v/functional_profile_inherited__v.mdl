@@ -1,0 +1,4 @@
+Typefield functional_profile_inherited__v (
+   source('standard'),
+   required(false)
+);

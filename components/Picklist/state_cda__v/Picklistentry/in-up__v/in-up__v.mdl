@@ -1,0 +1,6 @@
+Picklistentry in-up__v (
+   value('Uttar Pradesh'),
+   order(2031),
+   active(true),
+   controlling_entries('in__v')
+);

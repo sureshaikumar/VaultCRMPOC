@@ -1,0 +1,10 @@
+Vsmvalue php__v (
+   label('PHP'),
+   active(true),
+   description('The official currency of the Philippines (PHP), widely used in Southeast Asian trade and remittance flows from the large Filipino diaspora.'),
+   synonyms('Philippine peso',
+         'Filipino peso',
+         'PHP'),
+   target('php__sys'),
+   target_label('PHP')
+);

@@ -1,0 +1,6 @@
+Message budget_allocation_title__v (
+   label(),
+   active(true),
+   default_value('Budget Allocation'),
+   system_managed(false)
+);

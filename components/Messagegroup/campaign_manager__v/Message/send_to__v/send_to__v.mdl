@@ -1,0 +1,6 @@
+Message send_to__v (
+   label(),
+   active(true),
+   default_value('Send to ${entered_text}'),
+   system_managed(false)
+);

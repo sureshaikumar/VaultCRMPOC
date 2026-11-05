@@ -1,0 +1,6 @@
+Picklistentry si-045__v (
+   value('Kidričevo'),
+   order(4019),
+   active(true),
+   controlling_entries('si__v')
+);

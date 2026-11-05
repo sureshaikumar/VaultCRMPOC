@@ -1,0 +1,6 @@
+Picklistentry diata__v (
+   value('Drug Information and Therapeutic Advice'),
+   order(458),
+   active(true),
+   controlling_entries('hu__v')
+);

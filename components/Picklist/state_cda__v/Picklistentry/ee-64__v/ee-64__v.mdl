@@ -1,0 +1,6 @@
+Picklistentry ee-64__v (
+   value('Põlvamaa'),
+   order(1118),
+   active(true),
+   controlling_entries('ee__v')
+);

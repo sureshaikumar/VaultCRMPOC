@@ -1,0 +1,19 @@
+Field record_type_name__v (
+   label('Record Type Name'),
+   type('String'),
+   active(true),
+   description('Designates what record type Stakeholder uses'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

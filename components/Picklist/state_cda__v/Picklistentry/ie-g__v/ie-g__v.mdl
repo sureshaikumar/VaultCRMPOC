@@ -1,0 +1,6 @@
+Picklistentry ie-g__v (
+   value('Galway'),
+   order(1968),
+   active(true),
+   controlling_entries('ie__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry migration__v (
+   value('Migration'),
+   order(0),
+   active(true)
+);

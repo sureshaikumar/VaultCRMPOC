@@ -1,0 +1,6 @@
+Message import_task_history_success_rows__v (
+   label(),
+   active(true),
+   default_value('Success Rows'),
+   system_managed(false)
+);

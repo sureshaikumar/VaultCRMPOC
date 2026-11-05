@@ -1,0 +1,34 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.affiliation__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="comments__v" />
+            <vault:field reference="disable_trigger__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="influence__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="parent__v" />
+            <vault:field reference="relationship_strength__v" />
+            <vault:field reference="role__v" />
+            <vault:field reference="therapeutic_area__v" />
+            <vault:field reference="to_account_affiliation_count__v" />
+            <vault:field reference="destroy__v" />
+            <vault:field reference="child_affiliation__v" />
+            <vault:field reference="from_account__v" />
+            <vault:field reference="to_account__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="to_account_identifier__v" />
+            <vault:field reference="to_account_name__v" />
+            <vault:field reference="to_account_record_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

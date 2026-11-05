@@ -1,0 +1,24 @@
+RECREATE Notificationtemplate deepcopycomplete__v (
+   label('DeepCopyComplete'),
+   active(true),
+   description('Deep copy Notifications template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Copy job has completed
+
+'),
+   notification('<p> Your Copy Record job has completed </p>
+<p> Details </p>
+<ul>
+<li> Hierarchical copy for ${objectName} - &quot;${recordName}&quot; completed for the following related objects <br>
+${objectHierarchy} </li>
+<li> Start Time: ${startTime} </li>
+<li> Duration : ${duration} </li>
+<li> ${failureCountLink} </li>
+</ul>
+'),
+   email_body('${notificationMessage}
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

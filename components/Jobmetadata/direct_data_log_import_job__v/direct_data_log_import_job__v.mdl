@@ -1,0 +1,10 @@
+RECREATE Jobmetadata direct_data_log_import_job__v (
+   label('CRM Direct Data Transfer - Log'),
+   active(true),
+   chunk_size(1),
+   description('Generates a complete extract of all Audit Logs.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.directdata.jobs.DirectDataImportJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

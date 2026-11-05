@@ -1,0 +1,8 @@
+RECREATE Picklist auto_match_status__v (
+   label('Auto Match Status'),
+   active(true),
+   Picklistentry(@Picklistentry/match_found__v.mdl),
+   Picklistentry(@Picklistentry/match_not_found__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

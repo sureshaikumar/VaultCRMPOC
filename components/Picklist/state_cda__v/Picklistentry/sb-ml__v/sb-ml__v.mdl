@@ -1,0 +1,6 @@
+Picklistentry sb-ml__v (
+   value('Malaita'),
+   order(3897),
+   active(true),
+   controlling_entries('sb__v')
+);

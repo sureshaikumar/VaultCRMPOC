@@ -1,0 +1,17 @@
+Field enable_zoom__v (
+   label('Enable Zoom'),
+   type('Boolean'),
+   active(true),
+   description('Setting this to true enables the Zoom integration for this user.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(170),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

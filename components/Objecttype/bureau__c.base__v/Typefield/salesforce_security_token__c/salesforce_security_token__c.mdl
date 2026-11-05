@@ -1,0 +1,4 @@
+Typefield salesforce_security_token__c (
+   source('standard'),
+   required(false)
+);

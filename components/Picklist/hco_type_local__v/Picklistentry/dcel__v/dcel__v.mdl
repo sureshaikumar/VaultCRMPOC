@@ -1,0 +1,5 @@
+Picklistentry dcel__v (
+   value('Dental Clinic'),
+   order(43),
+   active(true)
+);

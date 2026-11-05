@@ -1,0 +1,6 @@
+Message request_timeout__v (
+   label(),
+   active(true),
+   default_value('Sorry, this action took too long. Try again or move on'),
+   system_managed(false)
+);

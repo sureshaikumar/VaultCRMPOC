@@ -1,0 +1,6 @@
+Message search_results__v (
+   label(),
+   active(true),
+   default_value('Search Results'),
+   system_managed(false)
+);

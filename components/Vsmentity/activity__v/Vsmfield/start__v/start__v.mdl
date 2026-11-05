@@ -1,0 +1,14 @@
+Vsmfield start__v (
+   label('Start'),
+   active(true),
+   description('The scheduled or actual start date and time of the activity. Used alongside end__v to define the duration of time-bound activities such as meetings or events.'),
+   example_values(),
+   synonyms('start time',
+         'start datetime',
+         'begin time',
+         'scheduled start'),
+   target('start__v'),
+   target_label('Start'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,5 @@
+Picklistentry cy__v (
+   value('Cyprus'),
+   order(54),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction survey_target__v.complete__v (
+   label('Complete'),
+   description('Stamps completed_datetime__v and changes report_status__v to completed__v'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.survey.actions.SurveyTargetCompleteAction'),
+   active(true),
+   available_all_states(false)
+);

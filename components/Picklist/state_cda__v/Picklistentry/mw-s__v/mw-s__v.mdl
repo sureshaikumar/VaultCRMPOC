@@ -1,0 +1,6 @@
+Picklistentry mw-s__v (
+   value('Chakumwera'),
+   order(3235),
+   active(true),
+   controlling_entries('mw__v')
+);

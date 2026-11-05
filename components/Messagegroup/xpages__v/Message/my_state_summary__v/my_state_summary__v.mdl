@@ -1,0 +1,6 @@
+Message my_state_summary__v (
+   label(),
+   active(true),
+   default_value('My State Summary'),
+   system_managed(false)
+);

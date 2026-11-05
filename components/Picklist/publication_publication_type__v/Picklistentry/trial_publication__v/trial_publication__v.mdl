@@ -1,0 +1,5 @@
+Picklistentry trial_publication__v (
+   value('Trial Publication'),
+   order(9),
+   active(true)
+);

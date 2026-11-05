@@ -1,0 +1,8 @@
+RECREATE Pagelayout patient_journey_care_team_member_detail__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Patient Journey Care Team Member Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

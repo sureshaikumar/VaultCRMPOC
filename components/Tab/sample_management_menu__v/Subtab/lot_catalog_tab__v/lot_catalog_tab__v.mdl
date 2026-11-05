@@ -1,0 +1,12 @@
+Subtab lot_catalog_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Lot Catalog'),
+   modal_create_record(false),
+   order(100),
+   page('Page.lot_catalog_page__v'),
+   parent('sample_management_menu__v'),
+   prevent_create(false),
+   url(@url.txt)
+);

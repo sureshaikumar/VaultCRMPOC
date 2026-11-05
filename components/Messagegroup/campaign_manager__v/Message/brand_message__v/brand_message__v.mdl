@@ -1,0 +1,6 @@
+Message brand_message__v (
+   label(),
+   active(true),
+   default_value('Brand Message'),
+   system_managed(false)
+);

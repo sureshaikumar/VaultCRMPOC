@@ -1,0 +1,17 @@
+Field data_date__v (
+   label('Data Date'),
+   type('Date'),
+   active(true),
+   description('The Data Date is the Date for the most current Bucket of Sales Data for the Analytics File.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

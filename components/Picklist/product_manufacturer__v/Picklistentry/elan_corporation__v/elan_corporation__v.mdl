@@ -1,0 +1,5 @@
+Picklistentry elan_corporation__v (
+   value('Elan Corporation'),
+   order(13),
+   active(true)
+);

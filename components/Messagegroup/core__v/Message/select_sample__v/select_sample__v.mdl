@@ -1,0 +1,6 @@
+Message select_sample__v (
+   label(),
+   active(true),
+   default_value('At least one sample must be selected to submit.'),
+   system_managed(false)
+);

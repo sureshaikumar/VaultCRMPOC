@@ -1,0 +1,6 @@
+Picklistentry aarnp__v (
+   value('Anesthesiology and Reanimation'),
+   order(86),
+   active(true),
+   controlling_entries('tr__v')
+);

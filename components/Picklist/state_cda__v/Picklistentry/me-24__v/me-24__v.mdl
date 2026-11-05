@@ -1,0 +1,6 @@
+Picklistentry me-24__v (
+   value('Tuzi'),
+   order(2930),
+   active(true),
+   controlling_entries('me__v')
+);

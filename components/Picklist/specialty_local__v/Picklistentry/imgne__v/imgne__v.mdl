@@ -1,0 +1,6 @@
+Picklistentry imgne__v (
+   value('Internal Medicine Geriatrics'),
+   order(800),
+   active(true),
+   controlling_entries('id__v')
+);

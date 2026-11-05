@@ -1,0 +1,4 @@
+Typefield signature_declined_datetime__v (
+   source('custom'),
+   required(false)
+);

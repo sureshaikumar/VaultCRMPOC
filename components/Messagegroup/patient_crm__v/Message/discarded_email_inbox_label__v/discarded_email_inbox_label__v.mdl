@@ -1,0 +1,6 @@
+Message discarded_email_inbox_label__v (
+   label(),
+   active(true),
+   default_value('Discarded Emails'),
+   system_managed(false)
+);

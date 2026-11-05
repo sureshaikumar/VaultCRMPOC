@@ -1,0 +1,19 @@
+Field description__c (
+   label('Description'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

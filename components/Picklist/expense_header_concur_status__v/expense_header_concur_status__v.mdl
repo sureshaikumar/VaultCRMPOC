@@ -1,0 +1,13 @@
+RECREATE Picklist expense_header_concur_status__v (
+   label('Concur Submission Status'),
+   active(true),
+   Picklistentry(@Picklistentry/unsubmitted__v.mdl),
+   Picklistentry(@Picklistentry/sending__v.mdl),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   Picklistentry(@Picklistentry/failed_connection__v.mdl),
+   Picklistentry(@Picklistentry/failed_config__v.mdl),
+   Picklistentry(@Picklistentry/failed_duplicate__v.mdl),
+   Picklistentry(@Picklistentry/canceled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

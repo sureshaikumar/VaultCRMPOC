@@ -1,0 +1,20 @@
+Field call_header_where__v (
+   label('CALL_HEADER_WHERE'),
+   type('String'),
+   active(true),
+   description('String used by application. Contains the SOQL where clause to filter the number of calls downloaded to the mobile application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(49),
+   default_value('"CALL_HEADER_WHERE;;MOBILE_SOQL"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

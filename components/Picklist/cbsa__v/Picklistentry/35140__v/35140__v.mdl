@@ -1,0 +1,5 @@
+Picklistentry 35140__v (
+   value('Newberry, SC Micropolitan Statistical Area'),
+   order(253),
+   active(true)
+);

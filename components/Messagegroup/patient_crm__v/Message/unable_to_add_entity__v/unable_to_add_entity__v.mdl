@@ -1,0 +1,6 @@
+Message unable_to_add_entity__v (
+   label(),
+   active(true),
+   default_value('Unable to Add ${entity}'),
+   system_managed(false)
+);

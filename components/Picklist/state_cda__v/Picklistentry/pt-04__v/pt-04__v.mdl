@@ -1,0 +1,6 @@
+Picklistentry pt-04__v (
+   value('Bragança'),
+   order(3657),
+   active(true),
+   controlling_entries('pt__v')
+);

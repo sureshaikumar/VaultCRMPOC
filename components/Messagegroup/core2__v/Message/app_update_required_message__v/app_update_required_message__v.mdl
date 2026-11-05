@@ -1,0 +1,6 @@
+Message app_update_required_message__v (
+   label(),
+   active(true),
+   default_value('Please update to the latest version of the iOS Vault CRM app to ensure ${object_name} continues to function properly.'),
+   system_managed(false)
+);

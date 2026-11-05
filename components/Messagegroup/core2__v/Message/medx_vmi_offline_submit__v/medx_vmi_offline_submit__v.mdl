@@ -1,0 +1,6 @@
+Message medx_vmi_offline_submit__v (
+   label(),
+   active(true),
+   default_value('Medical Interactions containing Medical Insights cannot be submitted while offline.'),
+   system_managed(false)
+);

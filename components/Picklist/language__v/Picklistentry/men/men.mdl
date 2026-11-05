@@ -1,0 +1,5 @@
+Picklistentry men (
+   value('Mende'),
+   order(257),
+   active(true)
+);

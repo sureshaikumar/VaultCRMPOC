@@ -1,0 +1,7 @@
+Picklistentry amlet__v (
+   value('Alternative Medicine'),
+   order(50),
+   active(true),
+   controlling_entries('om__v',
+         'us__v')
+);

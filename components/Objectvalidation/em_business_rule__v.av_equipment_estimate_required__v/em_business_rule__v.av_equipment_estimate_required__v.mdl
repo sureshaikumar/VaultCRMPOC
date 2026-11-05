@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule__v.av_equipment_estimate_required__v (
+   label('AV Equipment Required'),
+   active(true),
+   expression('object_type__vr.api_name__v != "expense_estimate_av_equipment_rule__v" || Not(IsBlank(av_equipment__v))'),
+   description('Valid input for av_equipment__v is not added to the AV Equipment Expense Estimate Creation Rule.'),
+   error_message('This field is required.'),
+   error_location('av_equipment__v')
+);

@@ -1,0 +1,4 @@
+Typefield account_address_merge_behavior__v (
+   source('standard'),
+   required(false)
+);

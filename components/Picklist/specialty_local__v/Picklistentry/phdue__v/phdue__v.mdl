@@ -1,0 +1,7 @@
+Picklistentry phdue__v (
+   value('Public Health Dentistry'),
+   order(1640),
+   active(true),
+   controlling_entries('nz__v',
+         'qa__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ported_in__v (
+   value('Ported In'),
+   order(1),
+   active(true)
+);

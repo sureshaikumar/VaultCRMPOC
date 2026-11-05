@@ -1,0 +1,4 @@
+Typefield estimated_attendance__v (
+   source('standard'),
+   required(false)
+);

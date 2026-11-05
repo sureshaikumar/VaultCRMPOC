@@ -1,0 +1,6 @@
+Message stay_on_page__v (
+   label(),
+   active(true),
+   default_value('Stay on Page'),
+   system_managed(false)
+);

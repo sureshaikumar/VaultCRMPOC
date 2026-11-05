@@ -1,0 +1,6 @@
+Message generate_no_qr_sign_in_code_found__v (
+   label(),
+   active(true),
+   default_value('Unable to generate material. Sign-In QR Code is required for this template.'),
+   system_managed(false)
+);

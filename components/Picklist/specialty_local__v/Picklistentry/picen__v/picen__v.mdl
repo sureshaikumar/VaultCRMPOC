@@ -1,0 +1,16 @@
+Picklistentry picen__v (
+   value('Pediatric Intensive Care'),
+   order(1401),
+   active(true),
+   controlling_entries('bw__v',
+         'ge__v',
+         'il__v',
+         'in__v',
+         'lb__v',
+         'lt__v',
+         'my__v',
+         'qa__v',
+         'sg__v',
+         'sk__v',
+         'tr__v')
+);

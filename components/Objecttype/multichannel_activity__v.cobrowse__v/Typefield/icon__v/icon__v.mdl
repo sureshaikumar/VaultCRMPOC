@@ -1,0 +1,13 @@
+Typefield icon__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.multichannel_activity_icon__v.call__v',
+         'Picklist.multichannel_activity_icon__v.event__v',
+         'Picklist.multichannel_activity_icon__v.inventory_monitoring__v',
+         'Picklist.multichannel_activity_icon__v.marketing__v',
+         'Picklist.multichannel_activity_icon__v.medical_event__v',
+         'Picklist.multichannel_activity_icon__v.medical_inquiry__v',
+         'Picklist.multichannel_activity_icon__v.multichannel_activity__v',
+         'Picklist.multichannel_activity_icon__v.order__v',
+         'Picklist.multichannel_activity_icon__v.sent_email__v')
+);

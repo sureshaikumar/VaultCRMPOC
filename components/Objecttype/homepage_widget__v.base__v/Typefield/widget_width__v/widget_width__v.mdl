@@ -1,0 +1,4 @@
+Typefield widget_width__v (
+   source('standard'),
+   required(true)
+);

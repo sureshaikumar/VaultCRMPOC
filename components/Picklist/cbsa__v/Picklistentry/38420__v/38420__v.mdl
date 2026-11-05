@@ -1,0 +1,5 @@
+Picklistentry 38420__v (
+   value('Platteville, WI Micropolitan Statistical Area'),
+   order(720),
+   active(true)
+);

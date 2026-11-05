@@ -1,0 +1,9 @@
+RECREATE Picklist case_timeline_source__v (
+   label('Case Timeline Source'),
+   active(true),
+   Picklistentry(@Picklistentry/source_user__v.mdl),
+   Picklistentry(@Picklistentry/source_account__v.mdl),
+   Picklistentry(@Picklistentry/source_system__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

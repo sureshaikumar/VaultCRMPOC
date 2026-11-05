@@ -1,0 +1,6 @@
+Picklistentry me-10__v (
+   value('Kotor'),
+   order(2916),
+   active(true),
+   controlling_entries('me__v')
+);

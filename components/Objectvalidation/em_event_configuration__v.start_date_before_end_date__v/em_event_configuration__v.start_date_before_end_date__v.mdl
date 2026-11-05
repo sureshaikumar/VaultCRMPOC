@@ -1,0 +1,9 @@
+RECREATE Objectvalidation em_event_configuration__v.start_date_before_end_date__v (
+   label('Start Date Before End Date'),
+   active(true),
+   expression('start_date__v <= end_date__v'),
+   description('Start Date should not be after End Date'),
+   error_message('End date must be equal or greater than start date'),
+   error_location('end_date__v',
+      'start_date__v')
+);

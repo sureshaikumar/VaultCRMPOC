@@ -1,0 +1,6 @@
+Picklistentry ru-tyu__v (
+   value('Tyumenskaya oblast'''),
+   order(3862),
+   active(true),
+   controlling_entries('ru__v')
+);

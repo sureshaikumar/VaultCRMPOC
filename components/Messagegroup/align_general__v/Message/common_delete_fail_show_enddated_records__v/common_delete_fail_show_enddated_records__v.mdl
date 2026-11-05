@@ -1,0 +1,6 @@
+Message common_delete_fail_show_enddated_records__v (
+   label(),
+   active(true),
+   default_value('Please enable the "Show End-dated Records" filter to view end-dated assignments.'),
+   system_managed(false)
+);

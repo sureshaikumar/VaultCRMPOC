@@ -1,0 +1,6 @@
+Message mccp_feedback_cannot_tsfr_from_title__v (
+   label(),
+   active(true),
+   default_value('Cannot Transfer Target'),
+   system_managed(false)
+);

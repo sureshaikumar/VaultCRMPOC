@@ -1,0 +1,5 @@
+Picklistentry 12820__v (
+   value('Bastrop, LA Micropolitan Statistical Area'),
+   order(854),
+   active(true)
+);

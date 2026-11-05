@@ -1,0 +1,18 @@
+Field completed_flag__v (
+   label('Completed'),
+   type('Boolean'),
+   active(true),
+   description('If MR finish this task, this flag is true'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

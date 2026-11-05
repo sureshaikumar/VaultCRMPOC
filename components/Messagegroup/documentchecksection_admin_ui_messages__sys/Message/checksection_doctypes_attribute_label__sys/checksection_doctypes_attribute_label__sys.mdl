@@ -1,0 +1,6 @@
+Message checksection_doctypes_attribute_label__sys (
+   label(),
+   active(true),
+   default_value('Document Types'),
+   system_managed(false)
+);

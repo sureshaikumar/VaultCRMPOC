@@ -1,0 +1,6 @@
+Picklistentry vn-66__v (
+   value('Hưng Yên'),
+   order(4962),
+   active(true),
+   controlling_entries('vn__v')
+);

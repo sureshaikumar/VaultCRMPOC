@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="Objectaction.test_object__c.field_update_useraction__c">
+            <lcActionLabelXmlIdentifier>Field Update User Action</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

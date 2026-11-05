@@ -1,0 +1,6 @@
+Message draft_remove_scheduled_datetime__v (
+   label(),
+   active(true),
+   default_value('Saving this email as a draft will remove the scheduled send date and time.'),
+   system_managed(false)
+);

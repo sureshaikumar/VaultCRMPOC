@@ -1,0 +1,5 @@
+Picklistentry cta_visit_website__v (
+   value('Call to Action - Visit Website'),
+   order(0),
+   active(true)
+);

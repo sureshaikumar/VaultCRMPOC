@@ -1,0 +1,17 @@
+Field end_date_presented__v (
+   label('End Date Presented'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The ending DateTime of the time period for the usage metrics.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

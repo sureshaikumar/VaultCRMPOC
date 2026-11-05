@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Step'),
+   active(true),
+   description('The system-generated or assigned identifier for this package step. Use to reference or look up a specific step within an inbound package.'),
+   example_values(),
+   synonyms('step',
+         'step identifier',
+         'step ID'),
+   target('name__v'),
+   target_label('Step'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

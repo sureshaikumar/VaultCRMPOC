@@ -1,0 +1,5 @@
+Picklistentry 29260__v (
+   value('La Grande, OR Micropolitan Statistical Area'),
+   order(314),
+   active(true)
+);

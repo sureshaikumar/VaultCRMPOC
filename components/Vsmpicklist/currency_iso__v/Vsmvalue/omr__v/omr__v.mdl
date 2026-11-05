@@ -1,0 +1,10 @@
+Vsmvalue omr__v (
+   label('OMR'),
+   active(true),
+   description('The official currency of Oman (OMR), one of the highest-valued currency units in the world, pegged to the US dollar.'),
+   synonyms('Omani rial',
+         'rial',
+         'OMR'),
+   target('omr__sys'),
+   target_label('OMR')
+);

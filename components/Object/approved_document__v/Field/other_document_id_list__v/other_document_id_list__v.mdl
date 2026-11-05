@@ -1,0 +1,19 @@
+Field other_document_id_list__v (
+   label('Other Document IDs'),
+   type('String'),
+   active(true),
+   description('Delimited list of Vault document Ids which are related to the header Vault document.'),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

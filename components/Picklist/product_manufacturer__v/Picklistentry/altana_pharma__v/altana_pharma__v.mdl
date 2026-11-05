@@ -1,0 +1,5 @@
+Picklistentry altana_pharma__v (
+   value('ALTANA Pharma'),
+   order(2),
+   active(true)
+);

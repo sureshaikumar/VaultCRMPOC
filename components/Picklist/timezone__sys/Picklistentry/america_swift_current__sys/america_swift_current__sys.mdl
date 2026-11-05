@@ -1,0 +1,5 @@
+Picklistentry america_swift_current__sys (
+   value('(GMT-06:00) Central Standard Time (America/Swift_Current)'),
+   order(52),
+   active(true)
+);

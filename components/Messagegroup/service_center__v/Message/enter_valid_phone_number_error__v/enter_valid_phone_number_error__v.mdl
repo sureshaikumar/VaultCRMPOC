@@ -1,0 +1,6 @@
+Message enter_valid_phone_number_error__v (
+   label(),
+   active(true),
+   default_value('Error: Enter a valid phone number to start call'),
+   system_managed(false)
+);

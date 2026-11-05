@@ -1,0 +1,19 @@
+Field tag_alert_number__v (
+   label('Tag Alert Number'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('The Tag Alert Number for the corresponding Sample line item. Only pertains to samples that have been designated as cold chain product via the Product Catalog.'),
+   list_column(false),
+   order(63),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

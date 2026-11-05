@@ -1,0 +1,6 @@
+Message document_name__v (
+   label(),
+   active(true),
+   default_value('Document Name'),
+   system_managed(false)
+);

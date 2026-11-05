@@ -1,0 +1,6 @@
+Picklistentry npeeu__v (
+   value('Neurodevelopmental Pediatrics'),
+   order(1009),
+   active(true),
+   controlling_entries('pt__v')
+);

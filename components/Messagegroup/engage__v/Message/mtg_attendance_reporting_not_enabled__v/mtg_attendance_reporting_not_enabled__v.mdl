@@ -1,0 +1,6 @@
+Message mtg_attendance_reporting_not_enabled__v (
+   label(),
+   active(true),
+   default_value('Meeting Attendance Reporting is not enabled. Please contact your admin.'),
+   system_managed(false)
+);

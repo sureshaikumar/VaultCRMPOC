@@ -1,0 +1,10 @@
+Picklistentry edyie__v (
+   value('Eye Diseases'),
+   order(526),
+   active(true),
+   controlling_entries('fi__v',
+         'il__v',
+         'no__v',
+         'se__v',
+         'tr__v')
+);

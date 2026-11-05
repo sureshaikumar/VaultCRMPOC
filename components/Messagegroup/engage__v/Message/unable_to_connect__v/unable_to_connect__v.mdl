@@ -1,0 +1,6 @@
+Message unable_to_connect__v (
+   label(),
+   active(true),
+   default_value('Unable to Connect'),
+   system_managed(false)
+);

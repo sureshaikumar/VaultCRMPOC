@@ -1,0 +1,6 @@
+Picklistentry dnieb__v (
+   value('Diagnostic Neuroradiology'),
+   order(433),
+   active(true),
+   controlling_entries('kw__v')
+);

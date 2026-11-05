@@ -1,0 +1,6 @@
+Message concur_total_med_events__v (
+   label(),
+   active(true),
+   default_value('Total Medical Events'),
+   system_managed(false)
+);

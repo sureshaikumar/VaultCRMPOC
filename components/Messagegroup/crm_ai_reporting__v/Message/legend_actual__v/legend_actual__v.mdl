@@ -1,0 +1,6 @@
+Message legend_actual__v (
+   label(),
+   active(true),
+   default_value('Actual usage'),
+   system_managed(false)
+);

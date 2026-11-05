@@ -1,0 +1,22 @@
+RECREATE Job cycle_plan_progress_calculation__v (
+   active(false),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('Cycle Plan Progress Calculation Job'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/cycle_plan_progress_calculation__v.mdl),
+   time('0:00'),
+   timezone(),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(true),
+   week_day(),
+   week_number(0)
+);

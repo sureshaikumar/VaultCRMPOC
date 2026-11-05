@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile test_applicationprofile__c (
+   label('Test Application Profile'),
+   active(true),
+   description()
+);

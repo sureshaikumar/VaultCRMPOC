@@ -1,0 +1,6 @@
+Message fax_intake_sidebar__v (
+   label(),
+   active(true),
+   default_value('Patient Intake Form'),
+   system_managed(false)
+);

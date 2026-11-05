@@ -1,0 +1,6 @@
+Picklistentry qa-ms__v (
+   value('Ash Shamāl'),
+   order(3710),
+   active(true),
+   controlling_entries('qa__v')
+);

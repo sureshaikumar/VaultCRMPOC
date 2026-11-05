@@ -1,0 +1,6 @@
+Message rule_confirm_run_alignment_ter_subo_lab__v (
+   label(),
+   active(true),
+   default_value('Territory + Subordinates'),
+   system_managed(false)
+);

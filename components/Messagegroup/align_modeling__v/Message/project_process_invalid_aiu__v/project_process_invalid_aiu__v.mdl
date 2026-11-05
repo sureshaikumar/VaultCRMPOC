@@ -1,0 +1,6 @@
+Message project_process_invalid_aiu__v (
+   label(),
+   active(true),
+   default_value('Your login attempt has failed. To run the process the Align Integration User(AIU) should be setup and contain a valid password.'),
+   system_managed(false)
+);

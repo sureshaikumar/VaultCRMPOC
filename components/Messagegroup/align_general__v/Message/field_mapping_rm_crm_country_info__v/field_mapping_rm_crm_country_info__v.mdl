@@ -1,0 +1,6 @@
+Message field_mapping_rm_crm_country_info__v (
+   label(),
+   active(true),
+   default_value('Two inbound mappings exist for aln_country__v. When users are imported from CRM, values from the vcountry__v field are prioritized.'),
+   system_managed(false)
+);

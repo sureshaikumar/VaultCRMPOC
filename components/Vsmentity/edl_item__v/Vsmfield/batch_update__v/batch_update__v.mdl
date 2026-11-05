@@ -1,0 +1,13 @@
+Vsmfield batch_update__v (
+   label('Batch Update'),
+   active(true),
+   description('Boolean flag indicating whether this EDL item is automatically matching documents based on the EDL Matching Job.'),
+   example_values(),
+   synonyms('bulk update',
+         'batch flag',
+         'batch processed'),
+   target('batch_update__v'),
+   target_label('Batch Update'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

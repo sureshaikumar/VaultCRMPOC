@@ -1,0 +1,6 @@
+Message removing_all_targets__v (
+   label(),
+   active(true),
+   default_value('Removing All Targets'),
+   system_managed(false)
+);

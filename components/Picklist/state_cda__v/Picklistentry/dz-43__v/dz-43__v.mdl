@@ -1,0 +1,6 @@
+Picklistentry dz-43__v (
+   value('Mila'),
+   order(1024),
+   active(true),
+   controlling_entries('dz__v')
+);

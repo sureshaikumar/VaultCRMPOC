@@ -1,0 +1,5 @@
+Picklistentry part_time__c (
+   value('Part Time'),
+   order(9),
+   active(true)
+);

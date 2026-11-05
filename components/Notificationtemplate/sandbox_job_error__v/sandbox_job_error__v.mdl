@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate sandbox_job_error__v (
+   label('sandboxJobError'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Build Failed'),
+   notification('Your sandbox build ${sandboxName} was unable to complete its execution (Source Vault ID: ${sandboxSourceId}). The full execution log is available <a href="${jobHistoryLogLink}">here</a>.
+<br/><br/>
+If you require additional information, please contact Vault Support.'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

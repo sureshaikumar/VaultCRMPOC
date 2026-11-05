@@ -1,0 +1,6 @@
+Picklistentry cl-at__v (
+   value('Atacama'),
+   order(671),
+   active(true),
+   controlling_entries('cl__v')
+);

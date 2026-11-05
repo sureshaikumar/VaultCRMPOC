@@ -1,0 +1,6 @@
+Picklistentry mk-703__v (
+   value('Kumanovo'),
+   order(3023),
+   active(true),
+   controlling_entries('mk__v')
+);

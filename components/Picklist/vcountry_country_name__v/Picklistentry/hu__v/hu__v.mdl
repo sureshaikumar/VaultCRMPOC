@@ -1,0 +1,5 @@
+Picklistentry hu__v (
+   value('Hungary'),
+   order(99),
+   active(true)
+);

@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate mergefieldsnotifications__v (
+   label('MergeFieldsNotifications'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Document field merging failed.'),
+   notification('Merge fields failed for document <b>${docName}</b>.'),
+   email_body('<p>${notificationMessage}</p>
+
+<p>There will be fields in this document that have not correctly been merged with the Vault properties. Please contact your system administrator or Vault Support.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

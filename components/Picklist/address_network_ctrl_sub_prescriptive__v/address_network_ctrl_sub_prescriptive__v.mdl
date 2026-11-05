@@ -1,0 +1,10 @@
+RECREATE Picklist address_network_ctrl_sub_prescriptive__v (
+   label('Network Ctrl Sub Prescriptive Authority'),
+   active(true),
+   Picklistentry(@Picklistentry/n__v.mdl),
+   Picklistentry(@Picklistentry/sb__v.mdl),
+   Picklistentry(@Picklistentry/u__v.mdl),
+   Picklistentry(@Picklistentry/y__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

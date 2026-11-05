@@ -1,0 +1,6 @@
+Picklistentry gm-n__v (
+   value('North Bank'),
+   order(1712),
+   active(true),
+   controlling_entries('gm__v')
+);

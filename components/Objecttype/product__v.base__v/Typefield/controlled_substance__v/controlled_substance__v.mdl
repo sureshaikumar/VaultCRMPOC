@@ -1,0 +1,4 @@
+Typefield controlled_substance__v (
+   source('standard'),
+   required(false)
+);

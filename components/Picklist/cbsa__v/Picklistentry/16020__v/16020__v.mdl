@@ -1,0 +1,5 @@
+Picklistentry 16020__v (
+   value('Cape Girardeau-Jackson, MO-IL Micropolitan Statistical Area'),
+   order(878),
+   active(true)
+);

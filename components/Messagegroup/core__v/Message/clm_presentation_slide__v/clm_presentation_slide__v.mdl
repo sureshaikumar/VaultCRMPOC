@@ -1,0 +1,6 @@
+Message clm_presentation_slide__v (
+   label(),
+   active(true),
+   default_value('CLM Presentation Slide'),
+   system_managed(false)
+);

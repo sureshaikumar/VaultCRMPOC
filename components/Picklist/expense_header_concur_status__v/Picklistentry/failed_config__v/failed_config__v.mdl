@@ -1,0 +1,5 @@
+Picklistentry failed_config__v (
+   value('Failed Config'),
+   order(4),
+   active(true)
+);

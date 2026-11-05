@@ -1,0 +1,14 @@
+RECREATE Tab aln_product_specialty__v (
+   active(true),
+   all_view_label('All Product Specialty'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Product Specialty'),
+   modal_create_record(true),
+   my_view_label('My Product Specialty'),
+   object_type('Objecttype.aln_product_specialty__v.product_specialty__v'),
+   order(4070),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Product Specialty')
+);

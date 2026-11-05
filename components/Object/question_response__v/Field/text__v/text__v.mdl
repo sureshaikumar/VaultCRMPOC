@@ -1,0 +1,17 @@
+Field text__v (
+   label('Text'),
+   type('LongText'),
+   active(true),
+   description('Stores the answer value for both text and long-text questions'),
+   required(false),
+   max_length(6500),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

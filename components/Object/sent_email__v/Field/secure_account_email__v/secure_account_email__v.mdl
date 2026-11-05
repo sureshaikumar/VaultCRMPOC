@@ -1,0 +1,20 @@
+Field secure_account_email__v (
+   label('Secure To Address'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('Securely captures the email address to which this email was sent.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(110),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

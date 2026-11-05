@@ -1,0 +1,6 @@
+Message rule_confirm_run_alignment_conflict_cont__v (
+   label(),
+   active(true),
+   default_value('Cancel the Previews listed above and keep my Preview'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry xfu__sys (
+   value('XFU'),
+   order(213),
+   active(true)
+);

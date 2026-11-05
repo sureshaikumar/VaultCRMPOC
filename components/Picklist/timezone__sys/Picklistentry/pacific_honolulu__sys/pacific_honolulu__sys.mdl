@@ -1,0 +1,5 @@
+Picklistentry pacific_honolulu__sys (
+   value('(GMT-10:00) Hawaii Standard Time (Pacific/Honolulu)'),
+   order(4),
+   active(true)
+);

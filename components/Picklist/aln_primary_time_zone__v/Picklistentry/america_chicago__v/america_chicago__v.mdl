@@ -1,0 +1,5 @@
+Picklistentry america_chicago__v (
+   value('America/Chicago'),
+   order(8),
+   active(true)
+);

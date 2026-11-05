@@ -1,0 +1,6 @@
+Message run_territory_rules_successfully__v (
+   label(),
+   active(true),
+   default_value('The Territory Rules have been run successfully.'),
+   system_managed(false)
+);

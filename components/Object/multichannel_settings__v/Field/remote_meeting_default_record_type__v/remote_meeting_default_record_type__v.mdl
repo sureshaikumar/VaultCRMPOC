@@ -1,0 +1,19 @@
+Field remote_meeting_default_record_type__v (
+   label('Remote Meeting Default Call RecordType'),
+   type('String'),
+   active(true),
+   description('Stores the default call record type name to be used when directly creating a remote meeting (such as through My Schedule) rather making an existing call a remote meeting.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

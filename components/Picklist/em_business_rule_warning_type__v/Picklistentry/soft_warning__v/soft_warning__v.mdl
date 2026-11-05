@@ -1,0 +1,5 @@
+Picklistentry soft_warning__v (
+   value('Soft Warning'),
+   order(1),
+   active(true)
+);

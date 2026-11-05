@@ -1,0 +1,4 @@
+Typefield display_configuration__v (
+   source('custom'),
+   required(false)
+);

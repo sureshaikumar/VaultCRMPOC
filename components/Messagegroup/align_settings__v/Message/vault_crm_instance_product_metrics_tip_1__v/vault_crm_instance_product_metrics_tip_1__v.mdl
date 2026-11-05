@@ -1,0 +1,6 @@
+Message vault_crm_instance_product_metrics_tip_1__v (
+   label(),
+   active(true),
+   default_value('Please use standard VQL syntax. Syntax should not include the operator &#8220;WHERE&#8221; Some examples:'),
+   system_managed(false)
+);

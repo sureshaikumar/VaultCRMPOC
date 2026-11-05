@@ -1,0 +1,6 @@
+Message version__v (
+   label(),
+   active(true),
+   default_value('Version'),
+   system_managed(false)
+);

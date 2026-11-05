@@ -1,0 +1,6 @@
+Message template_selection_error_details__v (
+   label(),
+   active(true),
+   default_value('There is an issue with the selected template: ${issue_reason}. Please select another template.'),
+   system_managed(false)
+);

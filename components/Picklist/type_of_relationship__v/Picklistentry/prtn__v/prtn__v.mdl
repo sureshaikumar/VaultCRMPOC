@@ -1,0 +1,5 @@
+Picklistentry prtn__v (
+   value('HCO Partners With'),
+   order(5),
+   active(true)
+);

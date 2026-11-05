@@ -1,0 +1,18 @@
+Field clm__v (
+   label('CLM'),
+   type('Boolean'),
+   active(true),
+   description('If checked indicates CLM has been run for this call and the call contents were populated from CLM.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(29),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

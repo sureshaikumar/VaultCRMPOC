@@ -1,0 +1,6 @@
+Picklistentry bz-tol__v (
+   value('Toledo'),
+   order(558),
+   active(true),
+   controlling_entries('bz__v')
+);

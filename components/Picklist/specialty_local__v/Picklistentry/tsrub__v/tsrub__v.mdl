@@ -1,0 +1,12 @@
+Picklistentry tsrub__v (
+   value('Trauma Surgery'),
+   order(1864),
+   active(true),
+   controlling_entries('cz__v',
+         'ph__v',
+         'qa__v',
+         'sk__v',
+         'th__v',
+         'tw__v',
+         'za__v')
+);

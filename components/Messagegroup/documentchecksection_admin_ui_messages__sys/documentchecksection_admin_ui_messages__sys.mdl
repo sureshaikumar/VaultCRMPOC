@@ -1,0 +1,17 @@
+RECREATE Messagegroup documentchecksection_admin_ui_messages__sys (
+   label('Document Checks UI Messages'),
+   active(true),
+   Message(@Message/check_plural_label__sys.mdl),
+   Message(@Message/checksection_doctypes_attribute_label__sys.mdl),
+   Message(@Message/checksection_helptext_attribute_label__sys.mdl),
+   Message(@Message/checksection_label__sys.mdl),
+   Message(@Message/checksection_label_attribute_label__sys.mdl),
+   Message(@Message/checksection_name_attribute_label__sys.mdl),
+   Message(@Message/checksection_plural_label__sys.mdl),
+   Message(@Message/checksection_status_attribute_label__sys.mdl),
+   Message(@Message/documentcheck_label__sys.mdl),
+   Message(@Message/documentcheck_plural_label__sys.mdl),
+   Message(@Message/documentchecksection_help_content__sys.mdl),
+   Message(@Message/documentchecksection_label__sys.mdl),
+   Message(@Message/documentchecksection_plural_label__sys.mdl)
+);

@@ -1,0 +1,6 @@
+Message email_required__v (
+   label(),
+   active(true),
+   default_value('${input} must be an email address.'),
+   system_managed(false)
+);

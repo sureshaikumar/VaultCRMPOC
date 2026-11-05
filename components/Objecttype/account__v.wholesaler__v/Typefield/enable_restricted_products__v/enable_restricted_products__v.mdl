@@ -1,0 +1,4 @@
+Typefield enable_restricted_products__v (
+   source('custom'),
+   required(false)
+);

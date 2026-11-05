@@ -1,0 +1,4 @@
+Typefield lock_matched_documents__v (
+   source('standard'),
+   required(false)
+);

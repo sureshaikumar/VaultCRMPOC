@@ -1,0 +1,14 @@
+Vsmrelationship persons_language__v (
+   label('Persons Language'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Person records whose primary or assigned language is this language. Use to find all people associated with a specific language (e.g., persons_language__sysr.name__v to list person names).'),
+   join_object(),
+   synonyms('people speaking this language',
+         'persons',
+         'contacts with this language',
+         'speakers'),
+   target('persons_language__sysr'),
+   target_label('Persons'),
+   target_object('person__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry af-pia__v (
+   value('Paktia'),
+   order(40),
+   active(true),
+   controlling_entries('af__v')
+);

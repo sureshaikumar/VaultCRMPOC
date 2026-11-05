@@ -1,0 +1,6 @@
+Picklistentry gacpe__v (
+   value('General and Clinical Pathology'),
+   order(588),
+   active(true),
+   controlling_entries('bg__v')
+);

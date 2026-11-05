@@ -1,0 +1,34 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.vaultcrmtrn1__c.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="trn1_name__c" />
+            <vault:field reference="category__c" />
+            <vault:field reference="testlookupcountry__c" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="country__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Test Objects" name="test_objects__c">
+        <vault:relatedObject relationship="test_objects__cr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="country__c" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+            <vault:field reference="description__c" width="200px" />
+            <vault:field reference="expected_date__c" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

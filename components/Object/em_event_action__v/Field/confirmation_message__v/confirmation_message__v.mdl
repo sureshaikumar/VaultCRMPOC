@@ -1,0 +1,19 @@
+Field confirmation_message__v (
+   label('Confirmation Message'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used to store the name and category of a Veeva Message. If populated, this Veeva Message will display when the Event Action is executed. The format for this field is: Name;;Category of the Veeva Message. (e.g. EVENT_CRITERIA_US_ADVISORY;;VERTEO_CUSTOM). C'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

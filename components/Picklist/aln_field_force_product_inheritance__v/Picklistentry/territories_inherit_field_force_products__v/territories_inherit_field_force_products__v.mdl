@@ -1,0 +1,5 @@
+Picklistentry territories_inherit_field_force_products__v (
+   value('Territories Inherit Field Force Products'),
+   order(1),
+   active(true)
+);

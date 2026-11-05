@@ -1,0 +1,5 @@
+Picklistentry ootpp__v (
+   value('Optometric / Ophthalmic Technician'),
+   order(86),
+   active(true)
+);

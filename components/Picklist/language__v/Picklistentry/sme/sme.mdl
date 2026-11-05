@@ -1,0 +1,5 @@
+Picklistentry sme (
+   value('Northern Sami'),
+   order(271),
+   active(true)
+);

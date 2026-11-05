@@ -1,0 +1,6 @@
+Message scheduled__v (
+   label(),
+   active(true),
+   default_value('Scheduled'),
+   system_managed(false)
+);

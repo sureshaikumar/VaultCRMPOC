@@ -1,0 +1,5 @@
+Picklistentry tig (
+   value('Tigre'),
+   order(323),
+   active(true)
+);

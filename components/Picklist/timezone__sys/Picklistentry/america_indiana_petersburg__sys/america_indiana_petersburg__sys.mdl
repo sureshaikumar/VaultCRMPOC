@@ -1,0 +1,5 @@
+Picklistentry america_indiana_petersburg__sys (
+   value('(GMT-05:00) Eastern Standard Time (America/Indiana/Petersburg)'),
+   order(66),
+   active(true)
+);

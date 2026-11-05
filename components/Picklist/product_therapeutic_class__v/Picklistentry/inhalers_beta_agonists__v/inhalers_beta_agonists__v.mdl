@@ -1,0 +1,5 @@
+Picklistentry inhalers_beta_agonists__v (
+   value('Inhalers (Beta Agonists)'),
+   order(100),
+   active(true)
+);

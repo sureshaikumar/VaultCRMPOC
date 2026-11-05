@@ -1,0 +1,4 @@
+Typefield who_is_on_the_pharmacy_committee__c (
+   source('custom'),
+   required(false)
+);

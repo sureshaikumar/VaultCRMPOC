@@ -1,0 +1,6 @@
+Picklistentry si-121__v (
+   value('Škocjan'),
+   order(4095),
+   active(true),
+   controlling_entries('si__v')
+);

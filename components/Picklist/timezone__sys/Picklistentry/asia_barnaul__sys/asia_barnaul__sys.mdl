@@ -1,0 +1,5 @@
+Picklistentry asia_barnaul__sys (
+   value('(GMT+07:00) Indochina Time (Asia/Barnaul)'),
+   order(247),
+   active(true)
+);

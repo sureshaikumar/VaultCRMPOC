@@ -1,0 +1,6 @@
+Picklistentry ye-ra__v (
+   value('Raymah'),
+   order(5010),
+   active(true),
+   controlling_entries('ye__v')
+);

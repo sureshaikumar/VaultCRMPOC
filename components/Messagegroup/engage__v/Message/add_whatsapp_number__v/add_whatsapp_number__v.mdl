@@ -1,0 +1,6 @@
+Message add_whatsapp_number__v (
+   label(),
+   active(true),
+   default_value('Add WhatsApp Number'),
+   system_managed(false)
+);

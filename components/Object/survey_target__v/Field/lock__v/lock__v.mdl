@@ -1,0 +1,18 @@
+Field lock__v (
+   label('Lock'),
+   type('Boolean'),
+   active(true),
+   description('Users with edit privileges to this field will be able to unlock a survey and edit its contents after it has been published.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(22),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

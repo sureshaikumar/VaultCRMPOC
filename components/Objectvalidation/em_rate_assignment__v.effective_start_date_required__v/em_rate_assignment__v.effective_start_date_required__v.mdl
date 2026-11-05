@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_rate_assignment__v.effective_start_date_required__v (
+   label('Effective Start Date Required'),
+   active(true),
+   expression('Not(IsBlank(start_date__v))'),
+   description('Effective Start Date is Required.'),
+   error_message('Effective Start Date is Required.'),
+   error_location('start_date__v')
+);

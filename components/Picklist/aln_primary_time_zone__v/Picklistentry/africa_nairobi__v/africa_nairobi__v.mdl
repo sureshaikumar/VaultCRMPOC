@@ -1,0 +1,5 @@
+Picklistentry africa_nairobi__v (
+   value('Africa/Nairobi'),
+   order(43),
+   active(true)
+);

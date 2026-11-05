@@ -1,0 +1,6 @@
+Picklistentry tt-sjl__v (
+   value('San Juan-Laventille'),
+   order(4552),
+   active(true),
+   controlling_entries('tt__v')
+);

@@ -1,0 +1,6 @@
+Message am_smpl_limit_transact_to_account_w_id__v (
+   label(),
+   active(true),
+   default_value('Sample Limit Transaction record {0} will be re-associated to the winning account.'),
+   system_managed(false)
+);

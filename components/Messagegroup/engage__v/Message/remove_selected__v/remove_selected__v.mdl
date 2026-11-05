@@ -1,0 +1,6 @@
+Message remove_selected__v (
+   label(),
+   active(true),
+   default_value('Remove Selected (${count})'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+Vsmfield error_status__v (
+   label('Error Status'),
+   active(true),
+   description('Picklist indicating the current status of the error associated with this exception item (e.g., unresolved, resolved, in progress). Use this to filter for outstanding or addressed exceptions requiring attention.'),
+   example_values(),
+   synonyms('error state',
+         'failure status',
+         'exception status',
+         'processing status'),
+   target('error_status__sys'),
+   target_label('Error Status'),
+   vsm_picklist('Vsmpicklist.exception_item_error_status__v'),
+   vsm_picklist_local()
+);

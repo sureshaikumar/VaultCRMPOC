@@ -1,0 +1,4 @@
+Typefield sync_delete_refresh_mode__v (
+   source('standard'),
+   required(false)
+);

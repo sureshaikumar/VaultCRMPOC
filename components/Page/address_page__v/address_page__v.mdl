@@ -1,0 +1,14 @@
+RECREATE Page address_page__v (
+   label('Address'),
+   active(true),
+   client_distribution(),
+   default_client_code('address_page__v'),
+   description('Address App Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.datachangerequests.controls.AddressPageController'),
+   url_path_name('address')
+);

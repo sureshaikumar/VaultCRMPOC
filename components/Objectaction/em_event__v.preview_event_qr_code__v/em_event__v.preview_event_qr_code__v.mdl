@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.preview_event_qr_code__v (
+   label('Preview Event QR Code'),
+   description('Action that generates a high-resolution QR code image for the QR Code Sign-In'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.PreviewEventQrCodeAction'),
+   active(true),
+   available_all_states(true)
+);

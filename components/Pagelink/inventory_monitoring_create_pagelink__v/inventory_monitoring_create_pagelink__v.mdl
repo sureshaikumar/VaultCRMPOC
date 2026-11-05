@@ -1,0 +1,11 @@
+RECREATE Pagelink inventory_monitoring_create_pagelink__v (
+   label('Inventory Monitoring Create'),
+   description('Redirects creating Inventory Monitorings to the Inventory Monitoring Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.inventory_monitoring__v'),
+   active(true),
+   disable_type_select(true),
+   page('Page.inventory_monitoring_detail_page__v')
+);

@@ -1,0 +1,22 @@
+RECREATE Job vault_to_veeva_message_copy_job__v (
+   active(true),
+   active_after_clone(true),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('Vault Message to Veeva Message Copy'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/vault_to_veeva_message_batch_copy_job__v.mdl),
+   time('2:00'),
+   timezone(),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(true),
+   week_day(),
+   week_number(0)
+);

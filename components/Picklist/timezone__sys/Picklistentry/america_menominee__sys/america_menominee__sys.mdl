@@ -1,0 +1,5 @@
+Picklistentry america_menominee__sys (
+   value('(GMT-06:00) Central Standard Time (America/Menominee)'),
+   order(41),
+   active(true)
+);

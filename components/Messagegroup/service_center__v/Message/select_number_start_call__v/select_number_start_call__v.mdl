@@ -1,0 +1,6 @@
+Message select_number_start_call__v (
+   label(),
+   active(true),
+   default_value('Select a phone number to start a call'),
+   system_managed(false)
+);

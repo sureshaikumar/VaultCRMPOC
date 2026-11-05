@@ -1,0 +1,8 @@
+Typefield registration_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_attendee_registration_status__v.approved__v',
+         'Picklist.em_attendee_registration_status__v.pending_approval__v',
+         'Picklist.em_attendee_registration_status__v.registered__v',
+         'Picklist.em_attendee_registration_status__v.rejected__v')
+);

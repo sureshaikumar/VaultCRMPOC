@@ -1,0 +1,5 @@
+Picklistentry ytd__v (
+   value('YTD'),
+   order(4),
+   active(true)
+);

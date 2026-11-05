@@ -1,0 +1,18 @@
+Field enable_flash_sphere__v (
+   label('Enable Flash Sphere'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the prior Flash based version or the HTML5 version of the Sphere of Influence is displayed in the Account Detail page. Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(177),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

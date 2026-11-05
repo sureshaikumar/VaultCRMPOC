@@ -1,0 +1,6 @@
+Picklistentry cv-sf__v (
+   value('São Filipe'),
+   order(799),
+   active(true),
+   controlling_entries('cv__v')
+);

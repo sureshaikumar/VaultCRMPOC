@@ -1,0 +1,6 @@
+Picklistentry cz-52__v (
+   value('Královéhradecký kraj'),
+   order(861),
+   active(true),
+   controlling_entries('cz__v')
+);

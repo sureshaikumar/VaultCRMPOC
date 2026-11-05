@@ -1,0 +1,6 @@
+Message default_settings_error__v (
+   label(),
+   active(true),
+   default_value('Only one default ${object_label} record can exist'),
+   system_managed(false)
+);

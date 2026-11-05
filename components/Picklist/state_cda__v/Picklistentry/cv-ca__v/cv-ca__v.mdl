@@ -1,0 +1,6 @@
+Picklistentry cv-ca__v (
+   value('Santa Catarina'),
+   order(786),
+   active(true),
+   controlling_entries('cv__v')
+);

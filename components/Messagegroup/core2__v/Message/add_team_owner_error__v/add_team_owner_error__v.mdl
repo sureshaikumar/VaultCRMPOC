@@ -1,0 +1,6 @@
+Message add_team_owner_error__v (
+   label(),
+   active(true),
+   default_value('An error occurred while adding the user to the Team. Please contact your administrator.'),
+   system_managed(false)
+);

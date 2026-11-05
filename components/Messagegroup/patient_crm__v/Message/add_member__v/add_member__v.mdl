@@ -1,0 +1,6 @@
+Message add_member__v (
+   label(),
+   active(true),
+   default_value('Add Member'),
+   system_managed(false)
+);

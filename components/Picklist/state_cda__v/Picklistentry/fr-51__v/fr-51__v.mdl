@@ -1,0 +1,6 @@
+Picklistentry fr-51__v (
+   value('Marne'),
+   order(1367),
+   active(true),
+   controlling_entries('fr__v')
+);

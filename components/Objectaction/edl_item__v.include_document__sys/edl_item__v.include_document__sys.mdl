@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.include_document__sys (
+   label('Include Document'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.match.IncludeDocumentAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-207__v (
+   value('Mladá Boleslav'),
+   order(821),
+   active(true),
+   controlling_entries('cz__v')
+);

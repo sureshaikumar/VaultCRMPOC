@@ -1,0 +1,6 @@
+Picklistentry cd-sa__v (
+   value('Sankuru'),
+   order(592),
+   active(true),
+   controlling_entries('cd__v')
+);

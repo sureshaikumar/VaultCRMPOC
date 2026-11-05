@@ -1,0 +1,6 @@
+Message concur_save_error_msg__v (
+   label(),
+   active(true),
+   default_value('Unable to save changes due to the following error:'),
+   system_managed(false)
+);

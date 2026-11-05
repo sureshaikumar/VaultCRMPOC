@@ -1,0 +1,18 @@
+Field enable_dual_license_check__v (
+   label('ENABLE_DUAL_LICENSE_CHECK'),
+   type('Boolean'),
+   active(true),
+   description('Designates whether dual license validation is performed when sampling a controlled substance. Default value is Checked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(130),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

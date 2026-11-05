@@ -1,0 +1,5 @@
+Picklistentry pn__v (
+   value('PN'),
+   order(181),
+   active(true)
+);

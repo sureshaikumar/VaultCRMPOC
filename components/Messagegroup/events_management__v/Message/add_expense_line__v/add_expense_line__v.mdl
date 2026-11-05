@@ -1,0 +1,6 @@
+Message add_expense_line__v (
+   label(),
+   active(true),
+   default_value('Add Expense'),
+   system_managed(false)
+);

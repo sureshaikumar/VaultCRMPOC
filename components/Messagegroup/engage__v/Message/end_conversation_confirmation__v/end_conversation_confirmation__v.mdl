@@ -1,0 +1,6 @@
+Message end_conversation_confirmation__v (
+   label(),
+   active(true),
+   default_value('A message template must be sent to start a new conversation. Are you sure you want to end the conversation?'),
+   system_managed(false)
+);

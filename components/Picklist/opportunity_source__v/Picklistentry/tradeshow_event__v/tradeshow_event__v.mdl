@@ -1,0 +1,5 @@
+Picklistentry tradeshow_event__v (
+   value('Tradeshow or Event'),
+   order(3),
+   active(true)
+);

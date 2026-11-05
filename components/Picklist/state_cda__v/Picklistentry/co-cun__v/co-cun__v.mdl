@@ -1,0 +1,6 @@
+Picklistentry co-cun__v (
+   value('Cundinamarca'),
+   order(740),
+   active(true),
+   controlling_entries('co__v')
+);

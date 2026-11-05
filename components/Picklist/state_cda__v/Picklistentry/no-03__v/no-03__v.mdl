@@ -1,0 +1,6 @@
+Picklistentry no-03__v (
+   value('Oslo'),
+   order(3392),
+   active(true),
+   controlling_entries('no__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry tn-71__v (
+   value('Gafsa'),
+   order(4448),
+   active(true),
+   controlling_entries('tn__v')
+);

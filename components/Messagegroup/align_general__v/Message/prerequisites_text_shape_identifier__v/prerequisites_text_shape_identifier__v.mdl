@@ -1,0 +1,6 @@
+Message prerequisites_text_shape_identifier__v (
+   label(),
+   active(true),
+   default_value('{0} is populated'),
+   system_managed(false)
+);

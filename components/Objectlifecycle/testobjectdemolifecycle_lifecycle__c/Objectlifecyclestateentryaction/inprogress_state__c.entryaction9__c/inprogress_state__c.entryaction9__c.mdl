@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction inprogress_state__c.entryaction9__c (
+   rule(@rule.xml),
+   order(1000)
+);

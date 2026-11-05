@@ -1,0 +1,8 @@
+Picklistentry shmee__v (
+   value('Sexual Health Medicine'),
+   order(1767),
+   active(true),
+   controlling_entries('ae__v',
+         'au__v',
+         'nz__v')
+);

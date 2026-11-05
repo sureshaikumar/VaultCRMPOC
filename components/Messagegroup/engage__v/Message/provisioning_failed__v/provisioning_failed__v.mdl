@@ -1,0 +1,6 @@
+Message provisioning_failed__v (
+   label(),
+   active(true),
+   default_value('Provisioning Failed'),
+   system_managed(false)
+);

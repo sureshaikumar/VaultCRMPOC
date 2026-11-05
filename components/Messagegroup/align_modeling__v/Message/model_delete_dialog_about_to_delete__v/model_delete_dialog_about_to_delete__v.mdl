@@ -1,0 +1,6 @@
+Message model_delete_dialog_about_to_delete__v (
+   label(),
+   active(true),
+   default_value('You are about to delete:'),
+   system_managed(false)
+);

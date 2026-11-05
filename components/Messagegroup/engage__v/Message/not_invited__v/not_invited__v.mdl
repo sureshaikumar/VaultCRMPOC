@@ -1,0 +1,6 @@
+Message not_invited__v (
+   label(),
+   active(true),
+   default_value('Not Invited'),
+   system_managed(false)
+);

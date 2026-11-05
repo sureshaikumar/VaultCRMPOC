@@ -1,0 +1,5 @@
+Picklistentry yes__v (
+   value('Yes'),
+   order(1),
+   active(true)
+);

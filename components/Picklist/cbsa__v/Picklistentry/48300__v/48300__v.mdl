@@ -1,0 +1,5 @@
+Picklistentry 48300__v (
+   value('Wenatchee, WA Metropolitan Statistical Area'),
+   order(468),
+   active(true)
+);

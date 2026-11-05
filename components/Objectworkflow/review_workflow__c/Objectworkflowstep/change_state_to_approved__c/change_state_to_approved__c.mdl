@@ -1,0 +1,8 @@
+Objectworkflowstep change_state_to_approved__c (
+   label('Change State to Approved'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.notification_approved__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

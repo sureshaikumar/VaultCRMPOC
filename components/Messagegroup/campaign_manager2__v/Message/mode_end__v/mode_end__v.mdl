@@ -1,0 +1,6 @@
+Message mode_end__v (
+   label(),
+   active(true),
+   default_value('${mode} End'),
+   system_managed(false)
+);

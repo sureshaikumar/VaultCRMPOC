@@ -1,0 +1,13 @@
+Typefield signature_page__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.signature_page_signature_page__v.approved_email_consent__v',
+         'Picklist.signature_page_signature_page__v.call_acknowledgement__v',
+         'Picklist.signature_page_signature_page__v.call_detail__v',
+         'Picklist.signature_page_signature_page__v.call_sample__v',
+         'Picklist.signature_page_signature_page__v.content_acknowledgement__v',
+         'Picklist.signature_page_signature_page__v.contract__v',
+         'Picklist.signature_page_signature_page__v.medical_inquiry__v',
+         'Picklist.signature_page_signature_page__v.order__v',
+         'Picklist.signature_page_signature_page__v.sample_consent__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Jobmetadata process_overdue_check_ins_job__v (
+   label('Patient CRM Process Overdue Check-Ins'),
+   active(true),
+   chunk_size(500),
+   description('This job processes overdue Patient CRM Adherence Check-Ins.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.patientcrm.jobs.ProcessOverdueCheckInsJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

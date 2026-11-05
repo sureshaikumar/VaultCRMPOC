@@ -1,0 +1,6 @@
+Picklistentry hapmo__v (
+   value('Hospice and Palliative Medicine'),
+   order(715),
+   active(true),
+   controlling_entries('ph__v')
+);

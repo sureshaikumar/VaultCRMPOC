@@ -1,0 +1,5 @@
+Picklistentry amd__sys (
+   value('AMD'),
+   order(5),
+   active(true)
+);

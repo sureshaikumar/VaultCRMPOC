@@ -1,0 +1,5 @@
+Picklistentry es (
+   value('Spanish'),
+   order(25),
+   active(true)
+);

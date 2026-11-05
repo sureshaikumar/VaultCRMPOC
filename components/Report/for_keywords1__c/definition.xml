@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_key_message__v___call2__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="INNER" leftValue="InnerJoin.call2__v" rightValue="call2_key_message__v___call2__v" labelLanguage="en" type="INNER" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="INNER_N" leftValue="InnerJoin.call2__v" rightValue="call2_key_message__v___call2__v" labelLanguage="en" type="INNER" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="IN" leftValue="call2__v.account__v" rightValue="Aaron Halstead;;;Adam Barksdale" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="ISNULL" leftValue="call2__v.address__v" rightValue="" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="ISNOTNULL" leftValue="call2__v.add_detail__v" rightValue="" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="NE" leftValue="call2__v.account__v" rightValue="Abigayle Wylie" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="STARTSWITH" leftValue="call2__v.name__v" rightValue="kko" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="CONTAINS" leftValue="call2__v.child_account_id__v" rightValue="777" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="BETWEEN" leftValue="call2__v.created_date__v" rightValue="2025-03-17;;;2025-03-25" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="GT" leftValue="call2__v.created_date__v" rightValue="2025-03-25" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="LT" leftValue="call2__v.created_date__v" rightValue="2025-03-31" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="INLASTDAYS" leftValue="call2__v.call_date__v" rightValue="52" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="INLASTWEEK" leftValue="call2__v.call_date__v" rightValue="14" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="INLASTMONTH" leftValue="call2__v.cds_expiration_date__v" rightValue="150" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="INLASTYEAR" leftValue="call2__v.created_date__v" rightValue="365" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="INNEXTDAYS" leftValue="call2__v.call_date__v" rightValue="2" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="NOTINLASTDAYS" leftValue="call2__v.call_date__v" rightValue="2" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="CURRENTMONTH" leftValue="call2__v.created_date__v" rightValue="2025-03-01;;;2025-03-31" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="PREVIOUSMONTH" leftValue="call2_key_message__v___call2__v.call_date__v" rightValue="2025-02-01;;;2025-02-28" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="NEXTMONTH" leftValue="call2__v.call_date__v" rightValue="2025-04-01;;;2025-04-30" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="CURRENTCQ" leftValue="call2__v.call_date__v" rightValue="2025-01-01;;;2025-03-31" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="PREVIOUSCQ" leftValue="call2__v.call_date__v" rightValue="2024-10-01;;;2024-12-31" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="NEXTCQ" leftValue="call2__v.created_date__v" rightValue="2025-04-01;;;2025-06-30" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="CURRENTCY" leftValue="call2__v.call_date__v" rightValue="2025-01-01;;;2025-12-31" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="PREVIOUSCY" leftValue="call2__v.call_date__v" rightValue="2024-01-01;;;2024-12-31" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="NEXTCY" leftValue="call2_key_message__v___call2__v.call_date__v" rightValue="2026-01-01;;;2026-12-31" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="call2__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

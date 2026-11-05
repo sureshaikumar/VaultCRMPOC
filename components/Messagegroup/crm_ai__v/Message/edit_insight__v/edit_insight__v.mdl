@@ -1,0 +1,6 @@
+Message edit_insight__v (
+   label(),
+   active(true),
+   default_value('Edit Insight'),
+   system_managed(false)
+);

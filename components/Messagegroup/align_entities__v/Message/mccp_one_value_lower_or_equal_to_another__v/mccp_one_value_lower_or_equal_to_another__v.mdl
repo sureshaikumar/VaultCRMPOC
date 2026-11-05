@@ -1,0 +1,6 @@
+Message mccp_one_value_lower_or_equal_to_another__v (
+   label(),
+   active(true),
+   default_value('The value of {0} must be lower than or equal to the value of {1}.'),
+   system_managed(false)
+);

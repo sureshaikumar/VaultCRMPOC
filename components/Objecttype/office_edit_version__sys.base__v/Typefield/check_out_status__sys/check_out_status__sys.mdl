@@ -1,0 +1,4 @@
+Typefield check_out_status__sys (
+   source('standard'),
+   required(true)
+);

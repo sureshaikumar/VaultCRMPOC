@@ -1,0 +1,19 @@
+Field all_others__v (
+   label('All Others'),
+   type('Boolean'),
+   active(true),
+   description('Used to determine if the Assortment should include a section containing all remaining
+products not included in any other section'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

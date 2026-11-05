@@ -1,0 +1,6 @@
+Picklistentry pooas__v (
+   value('Psychiatry of Old Age'),
+   order(1622),
+   active(true),
+   controlling_entries('ie__v')
+);

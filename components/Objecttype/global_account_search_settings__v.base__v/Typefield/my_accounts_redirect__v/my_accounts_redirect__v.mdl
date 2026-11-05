@@ -1,0 +1,4 @@
+Typefield my_accounts_redirect__v (
+   source('standard'),
+   required(false)
+);

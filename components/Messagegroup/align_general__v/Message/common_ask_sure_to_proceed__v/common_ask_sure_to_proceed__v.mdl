@@ -1,0 +1,6 @@
+Message common_ask_sure_to_proceed__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to proceed?'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist aln_manage_crm_users__v (
+   label('Manage CRM Users'),
+   active(true),
+   Picklistentry(@Picklistentry/enabled__v.mdl),
+   Picklistentry(@Picklistentry/disabled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

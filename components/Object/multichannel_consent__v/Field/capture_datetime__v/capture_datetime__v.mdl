@@ -1,0 +1,17 @@
+Field capture_datetime__v (
+   label('Capture Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Capture_Datetime_vod captures the current time of consent capture. This is a server datetime if captured online and a mobile client time if captured offline.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

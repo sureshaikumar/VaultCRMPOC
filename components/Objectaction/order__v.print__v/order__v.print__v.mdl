@@ -1,0 +1,8 @@
+RECREATE Objectaction order__v.print__v (
+   label('Print'),
+   description('Print order header and order lines'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.ordermanagement.actions.OrderPrintAction'),
+   active(true),
+   available_all_states(false)
+);

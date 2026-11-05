@@ -1,0 +1,6 @@
+Message account_not_found_gas__v (
+   label(),
+   active(true),
+   default_value('Search for and add the account via Global Account Search.'),
+   system_managed(false)
+);

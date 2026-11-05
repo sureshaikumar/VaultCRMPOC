@@ -1,0 +1,6 @@
+Message log_in__v (
+   label(),
+   active(true),
+   default_value('Log In'),
+   system_managed(false)
+);

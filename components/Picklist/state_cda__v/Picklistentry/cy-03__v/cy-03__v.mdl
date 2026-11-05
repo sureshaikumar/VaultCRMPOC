@@ -1,0 +1,6 @@
+Picklistentry cy-03__v (
+   value('Larnaka'),
+   order(809),
+   active(true),
+   controlling_entries('cy__v')
+);

@@ -1,0 +1,19 @@
+Field whatsapp__v (
+   label('WhatsApp'),
+   type('String'),
+   active(true),
+   description('Stores the WhatsApp information of the account'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(102),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry mrasm__v (
+   value('Medical Rehabilitation and Sports Medicine'),
+   order(939),
+   active(true),
+   controlling_entries('ge__v')
+);

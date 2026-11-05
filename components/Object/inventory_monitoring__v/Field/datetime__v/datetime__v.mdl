@@ -1,0 +1,17 @@
+Field datetime__v (
+   label('DateTime'),
+   type('DateTime'),
+   active(true),
+   description('Date and time the Inventory Monitoring was submitted.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

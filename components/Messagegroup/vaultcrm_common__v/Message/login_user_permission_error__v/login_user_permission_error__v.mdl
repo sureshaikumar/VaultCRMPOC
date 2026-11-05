@@ -1,0 +1,6 @@
+Message login_user_permission_error__v (
+   label(),
+   active(true),
+   default_value('The login user doesn''t have Read permission to the ${object_label} object or Read permission to ${field_labels} fields.'),
+   system_managed(false)
+);

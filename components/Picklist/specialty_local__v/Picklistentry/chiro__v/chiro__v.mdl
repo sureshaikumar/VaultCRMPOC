@@ -1,0 +1,6 @@
+Picklistentry chiro__v (
+   value('Chiropractic'),
+   order(204),
+   active(true),
+   controlling_entries('au__v')
+);

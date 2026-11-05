@@ -1,0 +1,6 @@
+Message aws_account_name_help_text__v (
+   label(),
+   active(true),
+   default_value('Enter a name to help you identify this AWS account within Vault CRM. This is for your reference only.'),
+   system_managed(false)
+);

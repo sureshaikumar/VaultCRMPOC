@@ -1,0 +1,6 @@
+Message suggestions_no_access__v (
+   label(),
+   active(true),
+   default_value('You do not have permission to access Suggestions. Please contact your admin.'),
+   system_managed(false)
+);

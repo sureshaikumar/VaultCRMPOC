@@ -1,0 +1,6 @@
+Picklistentry jm-05__v (
+   value('Saint Mary'),
+   order(2285),
+   active(true),
+   controlling_entries('jm__v')
+);

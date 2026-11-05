@@ -1,0 +1,5 @@
+Picklistentry 39980__v (
+   value('Richmond, IN Micropolitan Statistical Area'),
+   order(126),
+   active(true)
+);

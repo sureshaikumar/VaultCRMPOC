@@ -1,0 +1,17 @@
+Field generate_toc_lofs_bookmarks__sys (
+   label('Generate bookmarks based on ToC and LoF'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, Vault will generate bookmarks in subsequent Word renditions based on links in the Table of Contents and List of Figures. If neither TOC no LOF are present, Vault generates bookmarks based on headings 1 through 9 and captions.'),
+   list_column(false),
+   order(8),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

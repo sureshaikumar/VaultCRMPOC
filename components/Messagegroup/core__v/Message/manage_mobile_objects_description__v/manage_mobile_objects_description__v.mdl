@@ -1,0 +1,6 @@
+Message manage_mobile_objects_description__v (
+   label(),
+   active(true),
+   default_value('Select an object to enable it for mobile. Only custom objects can be enabled for mobile, and the action cannot be undone.'),
+   system_managed(false)
+);

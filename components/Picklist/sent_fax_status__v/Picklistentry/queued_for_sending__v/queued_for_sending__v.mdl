@@ -1,0 +1,5 @@
+Picklistentry queued_for_sending__v (
+   value('Queued for sending'),
+   order(0),
+   active(true)
+);

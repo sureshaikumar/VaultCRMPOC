@@ -1,0 +1,4 @@
+Typefield city_cda__v (
+   source('standard'),
+   required(false)
+);

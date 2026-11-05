@@ -1,0 +1,4 @@
+Typefield redaction_owner__sys (
+   source('standard'),
+   required(false)
+);

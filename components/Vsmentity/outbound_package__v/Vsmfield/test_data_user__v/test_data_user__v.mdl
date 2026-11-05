@@ -1,0 +1,13 @@
+Vsmfield test_data_user__v (
+   label('Test Data User'),
+   active(true),
+   description('Username or identifier associated with the test data user context for this outbound package. Relevant when the package includes test data configurations that are tied to a specific user account in the source vault.'),
+   example_values(),
+   synonyms('test user',
+         'test data owner',
+         'sandbox user'),
+   target('test_data_user__sys'),
+   target_label('Test Data User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

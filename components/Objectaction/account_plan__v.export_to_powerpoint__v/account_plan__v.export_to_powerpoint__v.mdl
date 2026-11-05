@@ -1,0 +1,8 @@
+RECREATE Objectaction account_plan__v.export_to_powerpoint__v (
+   label('Export to PowerPoint'),
+   description('Allows users to select a pptx template and initiate the Export to Powerpoint process on Account Plans.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.accountplan.actions.ExportToPowerPointAction'),
+   active(true),
+   available_all_states(true)
+);

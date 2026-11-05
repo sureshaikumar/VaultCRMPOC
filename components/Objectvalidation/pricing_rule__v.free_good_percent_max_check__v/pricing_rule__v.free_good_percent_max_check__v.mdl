@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.free_good_percent_max_check__v (
+   label('Free Good Percent Max Check'),
+   active(true),
+   expression('Not(
+     And(
+         Not(IsBlank(free_goods_percentage__v)),
+         Not(IsBlank(free_goods_percentage_max__v)),
+         free_goods_percentage_max__v < free_goods_percentage__v
+    )
+)'),
+   description('Percentage Max cannot be lower than Percentage Free Good'),
+   error_message('Percentage Max cannot be lower than Percentage Free Good'),
+   error_location('free_goods_percentage_max__v')
+);

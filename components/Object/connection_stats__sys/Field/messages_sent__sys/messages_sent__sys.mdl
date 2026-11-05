@@ -1,0 +1,23 @@
+Field messages_sent__sys (
+   label('Messages Sent'),
+   type('Number'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_value(1000000),
+   min_value(0),
+   scale(0),
+   help_content('Messages Sent'),
+   list_column(true),
+   order(10),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

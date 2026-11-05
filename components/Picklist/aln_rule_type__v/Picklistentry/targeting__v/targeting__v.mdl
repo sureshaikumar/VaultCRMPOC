@@ -1,0 +1,5 @@
+Picklistentry targeting__v (
+   value('Targeting'),
+   order(2),
+   active(true)
+);

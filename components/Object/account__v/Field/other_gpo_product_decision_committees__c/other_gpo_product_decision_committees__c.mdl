@@ -1,0 +1,19 @@
+Field other_gpo_product_decision_committees__c (
+   label('other GPO Product Decision Committees'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Are there any other committees that help the GPO make product decisions?'),
+   list_column(false),
+   order(185),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

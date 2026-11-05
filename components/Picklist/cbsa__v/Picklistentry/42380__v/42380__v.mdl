@@ -1,0 +1,5 @@
+Picklistentry 42380__v (
+   value('Sayre, PA Micropolitan Statistical Area'),
+   order(508),
+   active(true)
+);

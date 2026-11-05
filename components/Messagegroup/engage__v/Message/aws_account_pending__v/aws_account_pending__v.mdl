@@ -1,0 +1,6 @@
+Message aws_account_pending__v (
+   label(),
+   active(true),
+   default_value('AWS account setup is incomplete. Please provide your IAM Role ARN to complete the connection.'),
+   system_managed(false)
+);

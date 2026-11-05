@@ -1,0 +1,6 @@
+Picklistentry sk-tc__v (
+   value('Trenčiansky Region'),
+   order(4193),
+   active(true),
+   controlling_entries('sk__v')
+);

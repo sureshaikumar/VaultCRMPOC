@@ -1,0 +1,15 @@
+RECREATE Objectvalidation em_business_rule__v.date_threshold_type_attendee_required__v (
+   label('Date Threshold Type Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_attendee_attendance_limit_rule__v", true,
+            "em_meal_opt_in_attendance_limit_rule__v", true,
+            "em_cross_event_per_attendee_attendanc__v", true,
+            "em_cross_event_meal_opt_in_attendance__v", true,
+            false
+        ) = false || Not(IsBlank(date_threshold_type__v))'),
+   description('date_threshold_type__v is not added to the Attendee Rule.'),
+   error_message('This field is required.'),
+   error_location('date_threshold_type__v')
+);

@@ -1,0 +1,7 @@
+Typefield rating__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_rating__v.cold__v',
+         'Picklist.account_rating__v.hot__v',
+         'Picklist.account_rating__v.warm__v')
+);

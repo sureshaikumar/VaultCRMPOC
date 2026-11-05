@@ -1,0 +1,6 @@
+Message fieldf_cant_have_acct_status_inact_vals__v (
+   label(),
+   active(true),
+   default_value('Field Force level settings cannot have Account Status Inactive Values.'),
+   system_managed(false)
+);

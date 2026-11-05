@@ -1,0 +1,4 @@
+Typefield write_in_event_attendee_type_code__v (
+   source('standard'),
+   required(false)
+);

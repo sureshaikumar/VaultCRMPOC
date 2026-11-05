@@ -1,0 +1,5 @@
+Picklistentry adjustment__v (
+   value('Adjustment'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message already_added_to_journey__v (
+   label(),
+   active(true),
+   default_value('Already Added to Journey'),
+   system_managed(false)
+);

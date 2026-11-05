@@ -1,0 +1,6 @@
+Picklistentry gb-ham__v (
+   value('Hampshire'),
+   order(1529),
+   active(true),
+   controlling_entries('gb__v')
+);

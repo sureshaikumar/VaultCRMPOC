@@ -1,0 +1,4 @@
+Typefield website_cda__v (
+   source('standard'),
+   required(false)
+);

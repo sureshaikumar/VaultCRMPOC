@@ -1,0 +1,6 @@
+Message remove_all__v (
+   label(),
+   active(true),
+   default_value('Remove All'),
+   system_managed(false)
+);

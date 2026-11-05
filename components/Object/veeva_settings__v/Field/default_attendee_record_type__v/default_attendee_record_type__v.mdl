@@ -1,0 +1,20 @@
+Field default_attendee_record_type__v (
+   label('Default Attendee Record Type'),
+   type('String'),
+   active(true),
+   description('Name of the Veeva Message which stores the mapping between event record types and attendee record types. Default value is DEFAULT_ATTENDEE_RECORD_TYPE;;MEDICAL_EVENTS.Syntax is MessageName;;MessageCategory'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(80),
+   default_value('"DEFAULT_ATTENDEE_RECORD_TYPE;;MEDICAL_EVENTS"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry brick__v (
+   value('Brick_vod__c'),
+   order(4),
+   active(true)
+);

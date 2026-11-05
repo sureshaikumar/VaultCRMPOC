@@ -1,0 +1,14 @@
+Vsmfield registrant_email__v (
+   label('Registrant Email'),
+   active(true),
+   description('Email address of the person being invited to register and have a Vault user account created. This is the primary contact address used during the VeevaID registration and invite workflow.'),
+   example_values(),
+   synonyms('email',
+         'user email',
+         'invitee email',
+         'registrant email address'),
+   target('registrant_email__sys'),
+   target_label('Registrant Email'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

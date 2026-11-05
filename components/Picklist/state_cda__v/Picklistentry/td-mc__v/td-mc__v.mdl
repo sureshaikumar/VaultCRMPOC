@@ -1,0 +1,6 @@
+Picklistentry td-mc__v (
+   value('Shārī al Awsaṭ'),
+   order(4313),
+   active(true),
+   controlling_entries('td__v')
+);

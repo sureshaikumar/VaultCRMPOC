@@ -1,0 +1,5 @@
+Picklistentry approved_with_restrictions__v (
+   value('Approved with Restrictions'),
+   order(1),
+   active(true)
+);

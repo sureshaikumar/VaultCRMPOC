@@ -1,0 +1,6 @@
+Message cannot_upload_empty_file__v (
+   label(),
+   active(true),
+   default_value('Cannot upload an empty file as an attachment.'),
+   system_managed(false)
+);

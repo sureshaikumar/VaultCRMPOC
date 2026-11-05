@@ -1,0 +1,6 @@
+Picklistentry um-67__v (
+   value('Johnston Atoll'),
+   order(4782),
+   active(true),
+   controlling_entries('um__v')
+);

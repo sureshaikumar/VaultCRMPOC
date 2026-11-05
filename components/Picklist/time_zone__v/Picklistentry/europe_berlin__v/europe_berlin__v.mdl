@@ -1,0 +1,5 @@
+Picklistentry europe_berlin__v (
+   value('Central European Time (Berlin)'),
+   order(53),
+   active(true)
+);

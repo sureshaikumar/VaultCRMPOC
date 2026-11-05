@@ -1,0 +1,6 @@
+Picklistentry pmagr__v (
+   value('Physical Medicine and General Rehabilitation'),
+   order(1542),
+   active(true),
+   controlling_entries('at__v')
+);

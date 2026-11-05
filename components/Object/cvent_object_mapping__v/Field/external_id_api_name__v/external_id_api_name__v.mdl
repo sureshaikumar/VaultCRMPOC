@@ -1,0 +1,19 @@
+Field external_id_api_name__v (
+   label('External ID API Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Stores the API name of the CRM object field that will be used to search for Contacts in Cvent.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

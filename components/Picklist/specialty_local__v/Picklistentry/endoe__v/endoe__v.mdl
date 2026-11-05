@@ -1,0 +1,6 @@
+Picklistentry endoe__v (
+   value('Endocrine'),
+   order(490),
+   active(true),
+   controlling_entries('vn__v')
+);

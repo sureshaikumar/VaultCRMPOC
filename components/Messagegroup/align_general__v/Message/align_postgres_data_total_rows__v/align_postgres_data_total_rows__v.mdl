@@ -1,0 +1,6 @@
+Message align_postgres_data_total_rows__v (
+   label(),
+   active(true),
+   default_value('Total Rows'),
+   system_managed(false)
+);

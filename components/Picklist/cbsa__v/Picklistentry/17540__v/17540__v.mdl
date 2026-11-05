@@ -1,0 +1,5 @@
+Picklistentry 17540__v (
+   value('Clinton, IA Micropolitan Statistical Area'),
+   order(46),
+   active(true)
+);

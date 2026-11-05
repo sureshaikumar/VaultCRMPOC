@@ -1,0 +1,5 @@
+Picklistentry gnf__sys (
+   value('GNF'),
+   order(73),
+   active(true)
+);

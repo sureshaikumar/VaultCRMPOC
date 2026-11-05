@@ -1,0 +1,17 @@
+Field action_context__v (
+   label('Action Context'),
+   type('LongText'),
+   active(true),
+   description('Contains a JSON object to be used by the domain-specific handler logic'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

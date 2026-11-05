@@ -1,0 +1,5 @@
+Picklistentry 47780__v (
+   value('Washington, IN Micropolitan Statistical Area'),
+   order(354),
+   active(true)
+);

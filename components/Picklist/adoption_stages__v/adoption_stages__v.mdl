@@ -1,0 +1,12 @@
+RECREATE Picklist adoption_stages__v (
+   label('Adoption Stages'),
+   active(true),
+   Picklistentry(@Picklistentry/stage_0__v.mdl),
+   Picklistentry(@Picklistentry/stage_1__v.mdl),
+   Picklistentry(@Picklistentry/stage_2__v.mdl),
+   Picklistentry(@Picklistentry/stage_3__v.mdl),
+   Picklistentry(@Picklistentry/stage_4__v.mdl),
+   Picklistentry(@Picklistentry/stage_5__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

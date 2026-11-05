@@ -1,0 +1,6 @@
+Message media_session_initiated__v (
+   label(),
+   active(true),
+   default_value('Media Session Initiated'),
+   system_managed(false)
+);

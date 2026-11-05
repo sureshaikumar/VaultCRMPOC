@@ -1,0 +1,8 @@
+RECREATE Picklist connection_field_mapping_crm_object__v (
+   label('CRM Object'),
+   active(true),
+   Picklistentry(@Picklistentry/em_catalog__v.mdl),
+   Picklistentry(@Picklistentry/em_event_material__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

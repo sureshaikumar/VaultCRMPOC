@@ -1,0 +1,6 @@
+Picklistentry edadn__v (
+   value('Endocrine Diseases and Diabetes'),
+   order(491),
+   active(true),
+   controlling_entries('jo__v')
+);

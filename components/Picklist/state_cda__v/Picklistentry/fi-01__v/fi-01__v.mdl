@@ -1,0 +1,6 @@
+Picklistentry fi-01__v (
+   value('Åland'),
+   order(1273),
+   active(true),
+   controlling_entries('fi__v')
+);

@@ -1,0 +1,19 @@
+Field fulfillment_materials__v (
+   label('Fulfillment Materials'),
+   type('String'),
+   active(true),
+   description('Used to capture the Fulfillment Materials used to respond to the Medical Inquiry request.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

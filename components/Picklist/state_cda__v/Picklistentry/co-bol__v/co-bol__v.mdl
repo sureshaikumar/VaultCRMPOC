@@ -1,0 +1,6 @@
+Picklistentry co-bol__v (
+   value('Bolívar'),
+   order(731),
+   active(true),
+   controlling_entries('co__v')
+);

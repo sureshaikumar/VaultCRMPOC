@@ -1,0 +1,14 @@
+Vsmfield document_id__v (
+   label('Document'),
+   active(true),
+   description('Reference to the Vault document that was used or engaged with. This is the primary link connecting a usage record to the specific document object. Use to look up all usage records for a particular document.'),
+   example_values(),
+   synonyms('document',
+         'doc',
+         'linked document',
+         'content'),
+   target('document_id__v'),
+   target_label('Document'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

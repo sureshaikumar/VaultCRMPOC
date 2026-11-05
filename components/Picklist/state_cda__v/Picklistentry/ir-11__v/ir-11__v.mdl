@@ -1,0 +1,6 @@
+Picklistentry ir-11__v (
+   value('Sīstān va Balūchestān'),
+   order(2063),
+   active(true),
+   controlling_entries('ir__v')
+);

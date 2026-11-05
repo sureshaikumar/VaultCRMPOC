@@ -1,0 +1,6 @@
+Message budget_allocation_override_body__v (
+   label(),
+   active(true),
+   default_value('Enter percentages that total 100%. Expenses will be allocated based on the entered percentages.'),
+   system_managed(false)
+);

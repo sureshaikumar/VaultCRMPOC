@@ -1,0 +1,50 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_order_transaction__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="call_name__v" />
+            <vault:field reference="account_name__v" />
+            <vault:field reference="sample_order_transaction_status__v" />
+            <vault:field reference="ship_license__v" />
+            <vault:field reference="signature_date__v" />
+            <vault:field reference="unlock__v" />
+            <vault:field reference="ship_address_line_1__v" />
+            <vault:field reference="ship_address_line_2__v" />
+            <vault:field reference="ship_city__v" />
+            <vault:field reference="ship_state__v" />
+            <vault:field reference="ship_country__v" />
+            <vault:field reference="ship_zip__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="ship_license_expiration_date__v" />
+            <vault:field reference="ship_license_status__v" />
+            <vault:field reference="bcr__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sample Information" name="sample_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="sample__v" />
+            <vault:field reference="quantity__v" />
+            <vault:field reference="sample_u_m__v" />
+            <vault:field reference="distributor__v" />
+            <vault:field reference="manufacturer__v" />
+            <vault:field reference="confirmed_quantity__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="territory__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

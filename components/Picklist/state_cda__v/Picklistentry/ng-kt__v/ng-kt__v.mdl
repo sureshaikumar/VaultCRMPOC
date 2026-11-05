@@ -1,0 +1,6 @@
+Picklistentry ng-kt__v (
+   value('Katsina'),
+   order(3342),
+   active(true),
+   controlling_entries('ng__v')
+);

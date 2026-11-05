@@ -1,0 +1,6 @@
+Picklistentry ug-307__v (
+   value('Lira'),
+   order(4712),
+   active(true),
+   controlling_entries('ug__v')
+);

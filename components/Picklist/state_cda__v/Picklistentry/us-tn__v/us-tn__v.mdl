@@ -1,0 +1,6 @@
+Picklistentry us-tn__v (
+   value('Tennessee'),
+   order(4837),
+   active(true),
+   controlling_entries('us__v')
+);

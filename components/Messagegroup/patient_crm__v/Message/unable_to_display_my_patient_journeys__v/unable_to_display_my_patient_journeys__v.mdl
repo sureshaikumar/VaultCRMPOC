@@ -1,0 +1,6 @@
+Message unable_to_display_my_patient_journeys__v (
+   label(),
+   active(true),
+   default_value('Unable to display My Patient Journeys'),
+   system_managed(false)
+);

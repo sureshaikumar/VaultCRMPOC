@@ -1,0 +1,5 @@
+Picklistentry xsm (
+   value('Kasem'),
+   order(216),
+   active(true)
+);

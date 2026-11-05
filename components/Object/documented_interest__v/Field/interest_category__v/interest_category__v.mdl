@@ -1,0 +1,18 @@
+Field interest_category__v (
+   label('Interest Category'),
+   type('Picklist'),
+   active(true),
+   description('List of updates HCP would like to be contacted for.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(true),
+   picklist('Picklist.documented_interest_interest_category__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

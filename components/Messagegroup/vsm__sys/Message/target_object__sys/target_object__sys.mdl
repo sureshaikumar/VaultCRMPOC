@@ -1,0 +1,6 @@
+Message target_object__sys (
+   label(),
+   active(true),
+   default_value('Target Object'),
+   system_managed(true)
+);

@@ -1,0 +1,4 @@
+Typefield planned_publish_datetime__v (
+   source('standard'),
+   required(true)
+);

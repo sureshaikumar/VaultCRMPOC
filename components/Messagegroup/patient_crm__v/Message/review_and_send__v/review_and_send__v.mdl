@@ -1,0 +1,6 @@
+Message review_and_send__v (
+   label(),
+   active(true),
+   default_value('Review & Send'),
+   system_managed(false)
+);

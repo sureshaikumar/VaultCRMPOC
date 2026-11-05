@@ -1,0 +1,6 @@
+Picklistentry pamel__v (
+   value('Pediatric Allergy Medicine'),
+   order(1314),
+   active(true),
+   controlling_entries('is__v')
+);

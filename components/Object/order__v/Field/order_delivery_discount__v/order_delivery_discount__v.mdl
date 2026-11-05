@@ -1,0 +1,23 @@
+Field order_delivery_discount__v (
+   label('Order Delivery Discount'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9.9999),
+   min_value(-9.9999),
+   scale(4),
+   help_content(),
+   list_column(false),
+   order(98),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

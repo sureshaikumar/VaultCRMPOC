@@ -1,0 +1,6 @@
+Message inactive_secondary_user_tooltip__v (
+   label(),
+   active(true),
+   default_value('Secondary User is inactive. Select a new secondary user as backup to receive inbound message.'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Page vault_mobile_info_page__sys (
+   label('Vault Mobile Information Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('vault_mobile_info_page__sys'),
+   description('Page to display information about Vault Mobile'),
+   disable_chrome(false),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.mobile.VaultMobileInfoPage'),
+   url_path_name('vaultmobileinfo')
+);

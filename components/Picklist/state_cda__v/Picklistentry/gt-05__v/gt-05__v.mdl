@@ -1,0 +1,6 @@
+Picklistentry gt-05__v (
+   value('Escuintla'),
+   order(1784),
+   active(true),
+   controlling_entries('gt__v')
+);

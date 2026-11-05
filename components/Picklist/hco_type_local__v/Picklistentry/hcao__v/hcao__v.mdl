@@ -1,0 +1,5 @@
+Picklistentry hcao__v (
+   value('Hospital - Class A'),
+   order(108),
+   active(true)
+);

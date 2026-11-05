@@ -1,0 +1,4 @@
+Typefield doc_id_major_minor__v (
+   source('standard'),
+   required(false)
+);

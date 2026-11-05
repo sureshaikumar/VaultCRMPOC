@@ -1,0 +1,5 @@
+Picklistentry km__v (
+   value('KM'),
+   order(118),
+   active(true)
+);

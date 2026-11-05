@@ -1,0 +1,5 @@
+Picklistentry deployed__v (
+   value('Deployed'),
+   order(4),
+   active(true)
+);

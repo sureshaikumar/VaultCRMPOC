@@ -1,0 +1,10 @@
+Vsmvalue thb__v (
+   label('THB'),
+   active(true),
+   description('Applies when transactions are denominated in the Thai Baht, the official currency of Thailand.'),
+   synonyms('Thai baht',
+         'Thailand currency',
+         'baht'),
+   target('thb__sys'),
+   target_label('THB')
+);

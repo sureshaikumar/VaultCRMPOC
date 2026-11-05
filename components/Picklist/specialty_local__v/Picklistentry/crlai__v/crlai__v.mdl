@@ -1,0 +1,8 @@
+Picklistentry crlai__v (
+   value('Clinical Radiology'),
+   order(293),
+   active(true),
+   controlling_entries('gb__v',
+         'hr__v',
+         'my__v')
+);

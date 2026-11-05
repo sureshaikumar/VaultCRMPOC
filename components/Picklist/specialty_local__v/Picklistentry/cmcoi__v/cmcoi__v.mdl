@@ -1,0 +1,6 @@
+Picklistentry cmcoi__v (
+   value('Community Midwife (CMW)'),
+   order(314),
+   active(true),
+   controlling_entries('pk__v')
+);

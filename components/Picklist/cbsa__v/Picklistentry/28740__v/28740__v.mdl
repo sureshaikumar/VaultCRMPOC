@@ -1,0 +1,5 @@
+Picklistentry 28740__v (
+   value('Kingston, NY Metropolitan Statistical Area'),
+   order(210),
+   active(true)
+);

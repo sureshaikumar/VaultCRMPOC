@@ -1,0 +1,15 @@
+RECREATE Picklist multichannel_activity_icon__v (
+   label('Icon'),
+   active(true),
+   Picklistentry(@Picklistentry/call__v.mdl),
+   Picklistentry(@Picklistentry/event__v.mdl),
+   Picklistentry(@Picklistentry/inventory_monitoring__v.mdl),
+   Picklistentry(@Picklistentry/medical_event__v.mdl),
+   Picklistentry(@Picklistentry/medical_inquiry__v.mdl),
+   Picklistentry(@Picklistentry/multichannel_activity__v.mdl),
+   Picklistentry(@Picklistentry/order__v.mdl),
+   Picklistentry(@Picklistentry/sent_email__v.mdl),
+   Picklistentry(@Picklistentry/marketing__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

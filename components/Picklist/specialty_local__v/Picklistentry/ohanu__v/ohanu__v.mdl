@@ -1,0 +1,6 @@
+Picklistentry ohanu__v (
+   value('Otorhinolaryngology Head and Neck Surgery Head and Neck Oncology'),
+   order(1243),
+   active(true),
+   controlling_entries('id__v')
+);

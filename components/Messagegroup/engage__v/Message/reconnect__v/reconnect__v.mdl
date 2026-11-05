@@ -1,0 +1,6 @@
+Message reconnect__v (
+   label(),
+   active(true),
+   default_value('Reconnect'),
+   system_managed(false)
+);

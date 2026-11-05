@@ -1,0 +1,6 @@
+Message engage_meeting_not_scheduled__v (
+   label(),
+   active(true),
+   default_value('Engage Meeting could not be scheduled'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field clear_gps_coordinates__v (
+   label('Clear GPS Coordinates'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If True, Latitude_vod and Longitude_vod are cleared upon address change, if they have not been updated. If False, Latitude_vod and Longitude_vod are maintained.'),
+   list_column(false),
+   order(21),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

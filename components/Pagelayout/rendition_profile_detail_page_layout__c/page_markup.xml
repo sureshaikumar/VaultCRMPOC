@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.rendition_profile__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="embed_fonts__sys" />
+            <vault:field reference="generate_toc_lofs_bookmarks__sys" />
+            <vault:field reference="generate_bookmarks_for_title_style__sys" />
+            <vault:field reference="set_link_text_to_blue__sys" />
+            <vault:field reference="generate_caption_bookmarks_tree__sys" />
+            <vault:field reference="bookmark_expansion_level__sys" />
+            <vault:field reference="no_mark_up__sys" />
+            <vault:field reference="render_ppt_speaker_notes__sys" />
+            <vault:field reference="pdf_format__sys" />
+            <vault:field reference="protected_pdf__sys" />
+            <vault:field reference="pdf_print_settings__sys" />
+            <vault:field reference="pdf_edit_settings__sys" />
+            <vault:field reference="content_copying_settings__sys" />
+            <vault:field reference="include_metadata__sys" />
+            <vault:field reference="bookmark_list_per_caption_type__sys" />
+            <vault:field reference="caption_bookmarks_exclusion_types__sys" />
+            <vault:field reference="render_ppt_hidden_slides__sys" />
+            <vault:field reference="view_protected_pdf__sys" />
+            <vault:field reference="prevent_steady_state_merge__sys" />
+            <vault:field reference="clear_rendition_properties__sys" />
+            <vault:field reference="post_process_restricted_pdf__sys" />
+            <vault:field reference="show_standardized_inline_markup__sys" />
+            <vault:field reference="carry_forward_accessibility_information__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

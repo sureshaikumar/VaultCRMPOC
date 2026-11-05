@@ -1,0 +1,11 @@
+Vsmvalue glossary_lookup__v (
+   label('Glossary Lookup'),
+   active(true),
+   description('Applies when a glossary event results in a term being identified within the internal Vault glossary.'),
+   synonyms('internal glossary search',
+         'term lookup',
+         'glossary reference',
+         'dictionary lookup'),
+   target('glossary_lookup__sys'),
+   target_label('Glossary Lookup')
+);

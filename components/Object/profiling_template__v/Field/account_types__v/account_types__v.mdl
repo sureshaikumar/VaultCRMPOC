@@ -1,0 +1,17 @@
+Field account_types__v (
+   label('Account Types'),
+   type('LongText'),
+   active(true),
+   description('Filters which account types will be visible on the profiling sheet'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

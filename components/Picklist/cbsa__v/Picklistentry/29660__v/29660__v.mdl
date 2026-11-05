@@ -1,0 +1,5 @@
+Picklistentry 29660__v (
+   value('Laramie, WY Micropolitan Statistical Area'),
+   order(357),
+   active(true)
+);

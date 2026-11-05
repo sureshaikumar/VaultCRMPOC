@@ -1,0 +1,6 @@
+Picklistentry si-144__v (
+   value('Zreče'),
+   order(4118),
+   active(true),
+   controlling_entries('si__v')
+);

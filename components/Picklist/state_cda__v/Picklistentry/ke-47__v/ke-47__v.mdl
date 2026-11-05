@@ -1,0 +1,6 @@
+Picklistentry ke-47__v (
+   value('West Pokot'),
+   order(2400),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-115__v (
+   value('Mityana'),
+   order(4657),
+   active(true),
+   controlling_entries('ug__v')
+);

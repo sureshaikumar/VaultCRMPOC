@@ -1,0 +1,5 @@
+Picklistentry appeal__v (
+   value('Appeal'),
+   order(15),
+   active(true)
+);

@@ -1,0 +1,11 @@
+Picklistentry gahan__v (
+   value('Gastroenterology and Hepatology'),
+   order(577),
+   active(true),
+   controlling_entries('au__v',
+         'ba__v',
+         'mk__v',
+         'my__v',
+         'rs__v',
+         'se__v')
+);

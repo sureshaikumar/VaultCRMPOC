@@ -1,0 +1,6 @@
+Message error_end_date_must_be_in_future__v (
+   label(),
+   active(true),
+   default_value('Campaign End Date must be in the future'),
+   system_managed(false)
+);

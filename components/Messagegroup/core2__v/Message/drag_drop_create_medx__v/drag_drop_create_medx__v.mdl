@@ -1,0 +1,6 @@
+Message drag_drop_create_medx__v (
+   label(),
+   active(true),
+   default_value('Drag and drop to create medical interaction'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message unable_to_discard_count_emails__v (
+   label(),
+   active(true),
+   default_value('Unable to Discard ${count} Emails'),
+   system_managed(false)
+);

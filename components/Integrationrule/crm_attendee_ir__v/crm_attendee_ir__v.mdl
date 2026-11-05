@@ -1,0 +1,10 @@
+RECREATE Integrationrule crm_attendee_ir__v (
+   label('CRM Attendee Integration Rule'),
+   active(true),
+   connection('clinops_crm__v'),
+   integration_point('attendee_to_call_iip__v'),
+   primary_query_object('crm_attendee__v'),
+   Fieldrule(@Fieldrule/call2_status__v.mdl),
+   Fieldrule(@Fieldrule/link__v.mdl),
+   Fieldrule(@Fieldrule/parent_call__v.mdl)
+);

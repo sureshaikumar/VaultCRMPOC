@@ -1,0 +1,6 @@
+Picklistentry cz-643__v (
+   value('Brno-venkov'),
+   order(880),
+   active(true),
+   controlling_entries('cz__v')
+);

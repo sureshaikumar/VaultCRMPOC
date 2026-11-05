@@ -1,0 +1,6 @@
+Picklistentry vn-20__v (
+   value('Thái Bình'),
+   order(4923),
+   active(true),
+   controlling_entries('vn__v')
+);

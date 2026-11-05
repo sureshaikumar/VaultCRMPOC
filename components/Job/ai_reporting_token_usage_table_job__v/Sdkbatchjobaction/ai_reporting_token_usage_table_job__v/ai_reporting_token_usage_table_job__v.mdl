@@ -1,0 +1,6 @@
+Sdkbatchjobaction ai_reporting_token_usage_table_job__v (
+   job_metadata('Jobmetadata.ai_reporting_token_usage_table_job__v'),
+   label('AI Reporting Token Usage Table Job'),
+   parameters(),
+   primary_action(true)
+);

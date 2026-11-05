@@ -1,0 +1,58 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.approved_document__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="allow_any_product_fragment__v" />
+            <vault:field reference="allowed_document_ids__v" />
+            <vault:field reference="audience__v" />
+            <vault:field reference="bcc__v" />
+            <vault:field reference="check_consent__v" />
+            <vault:field reference="document_description__v" />
+            <vault:field reference="document_host_url__v" />
+            <vault:field reference="document_id__v" />
+            <vault:field reference="document_last_mod_datetime__v" />
+            <vault:field reference="email_allows_documents__v" />
+            <vault:field reference="email_domain__v" />
+            <vault:field reference="email_from_address__v" />
+            <vault:field reference="email_from_name__v" />
+            <vault:field reference="email_replyto_address__v" />
+            <vault:field reference="email_replyto_name__v" />
+            <vault:field reference="email_subject__v" />
+            <vault:field reference="email_template_fragment_document_id__v" />
+            <vault:field reference="engage_document_id__v" />
+            <vault:field reference="events_management_subtype__v" />
+            <vault:field reference="isi_document_id__v" />
+            <vault:field reference="other_document_id_list__v" />
+            <vault:field reference="pi_document_id__v" />
+            <vault:field reference="piece_document_id__v" />
+            <vault:field reference="publish_method__v" />
+            <vault:field reference="approved_document_status__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="vault_document_id__v" />
+            <vault:field reference="vault_instance_id__v" />
+            <vault:field reference="content_type__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="key_message__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="survey__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="veeva_content__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="email_html_file__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Approved Document Preview" name="approved_document_preview_section__c" reference="approved_document_preview_section__v" />
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

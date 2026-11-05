@@ -1,0 +1,6 @@
+Picklistentry rotpa__v (
+   value('Radiation Oncology Thoracic, Pediatric and Lympho-Musculoskeletal Malignancies'),
+   order(1670),
+   active(true),
+   controlling_entries('id__v')
+);

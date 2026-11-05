@@ -1,0 +1,5 @@
+Picklistentry on_schedule__v (
+   value('On Schedule'),
+   order(2),
+   active(true)
+);

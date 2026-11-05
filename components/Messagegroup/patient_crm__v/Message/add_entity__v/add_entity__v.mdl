@@ -1,0 +1,6 @@
+Message add_entity__v (
+   label(),
+   active(true),
+   default_value('Add ${entity}'),
+   system_managed(false)
+);

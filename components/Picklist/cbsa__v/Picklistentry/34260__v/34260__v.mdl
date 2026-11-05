@@ -1,0 +1,5 @@
+Picklistentry 34260__v (
+   value('Mountain Home, AR Micropolitan Statistical Area'),
+   order(150),
+   active(true)
+);

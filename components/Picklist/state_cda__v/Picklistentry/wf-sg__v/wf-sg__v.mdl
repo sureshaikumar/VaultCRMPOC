@@ -1,0 +1,6 @@
+Picklistentry wf-sg__v (
+   value('Sigave'),
+   order(4982),
+   active(true),
+   controlling_entries('wf__v')
+);

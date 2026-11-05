@@ -1,0 +1,6 @@
+Message remove__v (
+   label(),
+   active(true),
+   default_value('Remove'),
+   system_managed(false)
+);

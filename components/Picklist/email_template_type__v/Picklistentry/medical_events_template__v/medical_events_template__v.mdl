@@ -1,0 +1,5 @@
+Picklistentry medical_events_template__v (
+   value('Medical Events Template'),
+   order(6),
+   active(true)
+);

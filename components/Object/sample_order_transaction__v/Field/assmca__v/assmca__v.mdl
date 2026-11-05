@@ -1,0 +1,19 @@
+Field assmca__v (
+   label('ASSMCA'),
+   type('String'),
+   active(true),
+   description('The ASSMCA field stores the ASSMCA # for all controlled substance requests to be sent to Puerto Rico.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

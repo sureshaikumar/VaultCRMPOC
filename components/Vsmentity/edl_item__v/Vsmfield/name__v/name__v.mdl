@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The system-generated or user-defined name of the EDL item, typically used as a unique identifier label within the EDL. Use for searching or displaying EDL items in lists and reports.'),
+   example_values(),
+   synonyms('item name',
+         'EDL item name',
+         'title'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

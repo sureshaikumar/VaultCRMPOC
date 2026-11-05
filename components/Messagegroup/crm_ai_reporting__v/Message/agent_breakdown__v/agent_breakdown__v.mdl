@@ -1,0 +1,6 @@
+Message agent_breakdown__v (
+   label(),
+   active(true),
+   default_value('Agent Breakdown'),
+   system_managed(false)
+);

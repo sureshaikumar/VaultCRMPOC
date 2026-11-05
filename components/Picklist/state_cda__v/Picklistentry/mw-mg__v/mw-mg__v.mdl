@@ -1,0 +1,6 @@
+Picklistentry mw-mg__v (
+   value('Mangochi'),
+   order(3221),
+   active(true),
+   controlling_entries('mw__v')
+);

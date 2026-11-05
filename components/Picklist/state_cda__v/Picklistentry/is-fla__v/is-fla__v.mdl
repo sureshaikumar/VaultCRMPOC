@@ -1,0 +1,6 @@
+Picklistentry is-fla__v (
+   value('Flóahreppur'),
+   order(2104),
+   active(true),
+   controlling_entries('is__v')
+);

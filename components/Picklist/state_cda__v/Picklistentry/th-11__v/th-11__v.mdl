@@ -1,0 +1,6 @@
+Picklistentry th-11__v (
+   value('Samut Prakan'),
+   order(4329),
+   active(true),
+   controlling_entries('th__v')
+);

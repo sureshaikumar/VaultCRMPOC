@@ -1,0 +1,9 @@
+Typefield account_plan_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_plan_status__v.approved__v',
+         'Picklist.account_plan_status__v.in_progress__v',
+         'Picklist.account_plan_status__v.pending__v',
+         'Picklist.account_plan_status__v.rejected__v'),
+   default_value('Picklist.account_plan_status__v.in_progress__v')
+);

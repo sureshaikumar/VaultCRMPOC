@@ -1,0 +1,6 @@
+Message continuing_will_overwrite_with_ai__v (
+   label(),
+   active(true),
+   default_value('Some intake fields have been manually filled out. Continuing will overwrite all fields with AI Auto-Fill.'),
+   system_managed(false)
+);

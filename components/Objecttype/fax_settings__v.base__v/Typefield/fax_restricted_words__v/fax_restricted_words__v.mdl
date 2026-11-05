@@ -1,0 +1,4 @@
+Typefield fax_restricted_words__v (
+   source('standard'),
+   required(false)
+);

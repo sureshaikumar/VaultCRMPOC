@@ -1,0 +1,4 @@
+Typefield aln_vcountry__v (
+   source('standard'),
+   required(false)
+);

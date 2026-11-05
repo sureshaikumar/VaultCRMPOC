@@ -1,0 +1,6 @@
+Message rule_confirm_run_align_conflict_header__v (
+   label(),
+   active(true),
+   default_value('Preview Account Assignment Conflict'),
+   system_managed(false)
+);

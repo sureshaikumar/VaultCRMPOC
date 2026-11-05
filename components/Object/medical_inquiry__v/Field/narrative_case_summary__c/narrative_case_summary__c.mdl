@@ -1,0 +1,17 @@
+Field narrative_case_summary__c (
+   label('Narrative Case summary'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(106),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

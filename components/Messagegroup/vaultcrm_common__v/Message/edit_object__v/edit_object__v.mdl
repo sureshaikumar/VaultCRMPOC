@@ -1,0 +1,6 @@
+Message edit_object__v (
+   label(),
+   active(true),
+   default_value('Edit ${object_name}'),
+   system_managed(false)
+);

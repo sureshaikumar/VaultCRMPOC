@@ -1,0 +1,8 @@
+Tabcollectionitem coaching_reports1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(16),
+   tab('Tab.advanced_coaching_reports_tab__v'),
+   type('Tab')
+);

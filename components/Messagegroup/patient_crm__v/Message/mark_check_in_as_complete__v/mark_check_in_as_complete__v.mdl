@@ -1,0 +1,6 @@
+Message mark_check_in_as_complete__v (
+   label(),
+   active(true),
+   default_value('Mark Check-in as Complete'),
+   system_managed(false)
+);

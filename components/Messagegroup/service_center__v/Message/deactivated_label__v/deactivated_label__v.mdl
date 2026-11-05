@@ -1,0 +1,6 @@
+Message deactivated_label__v (
+   label(),
+   active(true),
+   default_value('Deactivated'),
+   system_managed(false)
+);

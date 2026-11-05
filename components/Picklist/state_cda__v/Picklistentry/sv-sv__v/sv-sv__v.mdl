@@ -1,0 +1,6 @@
+Picklistentry sv-sv__v (
+   value('San Vicente'),
+   order(4279),
+   active(true),
+   controlling_entries('sv__v')
+);

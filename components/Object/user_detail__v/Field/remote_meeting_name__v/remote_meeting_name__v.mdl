@@ -1,0 +1,17 @@
+Field remote_meeting_name__v (
+   label('Remote Meeting Display Name'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(300),
+   help_content('Used as the default Meeting Topic text for Remote Meetings'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

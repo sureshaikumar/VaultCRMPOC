@@ -1,0 +1,5 @@
+Picklistentry distributed__v (
+   value('Distributed'),
+   order(0),
+   active(true)
+);

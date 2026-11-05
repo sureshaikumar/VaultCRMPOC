@@ -1,0 +1,5 @@
+Picklistentry mni__v (
+   value('Manipuri'),
+   order(212),
+   active(false)
+);

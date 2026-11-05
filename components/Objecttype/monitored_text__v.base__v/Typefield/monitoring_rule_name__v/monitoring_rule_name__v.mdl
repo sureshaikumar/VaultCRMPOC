@@ -1,0 +1,4 @@
+Typefield monitoring_rule_name__v (
+   source('standard'),
+   required(false)
+);

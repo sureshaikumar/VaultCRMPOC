@@ -1,0 +1,9 @@
+Vsmvalue byb__v (
+   label('BYB'),
+   active(true),
+   description('Use when recording legacy monetary amounts in the pre-2000 Belarusian Ruble, superseded by BYR and later BYN.'),
+   synonyms('Belarusian Ruble (old)',
+         'Belarus Ruble pre-2000'),
+   target('byb__sys'),
+   target_label('BYB')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction commercial_insight__v.submit__v (
+   label('Submit'),
+   description('Allows users to submit a Commercial Insight'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.commercialinsights.actions.CommercialInsightSubmitAction'),
+   active(true),
+   available_all_states(true)
+);

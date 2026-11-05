@@ -1,0 +1,5 @@
+Picklistentry mro__sys (
+   value('MRO'),
+   order(120),
+   active(true)
+);

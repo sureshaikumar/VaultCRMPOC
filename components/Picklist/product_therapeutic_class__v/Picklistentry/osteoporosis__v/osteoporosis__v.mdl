@@ -1,0 +1,5 @@
+Picklistentry osteoporosis__v (
+   value('Osteoporosis'),
+   order(43),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Sdkbatchjobaction call_capture_agent_add_permission_job__v (
+   job_metadata('Jobmetadata.call_capture_agent_add_permission_job__v'),
+   label('Call Capture Agent Add Permission Job'),
+   parameters(),
+   primary_action(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry gn-le__v (
+   value('Lélouma'),
+   order(1742),
+   active(true),
+   controlling_entries('gn__v')
+);

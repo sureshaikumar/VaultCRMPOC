@@ -1,0 +1,19 @@
+Field client_os__v (
+   label('Client OS'),
+   type('String'),
+   active(true),
+   description('Client_OS_vod captures the name of the OS family running the client software, i.e. ''Linux'', ''Windows'', ''OSX''. This is reported by the Multichannel Email Engine.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

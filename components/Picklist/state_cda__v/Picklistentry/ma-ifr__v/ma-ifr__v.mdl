@@ -1,0 +1,6 @@
+Picklistentry ma-ifr__v (
+   value('Ifrane'),
+   order(2805),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bd-14__v (
+   value('Dinajpur'),
+   order(243),
+   active(true),
+   controlling_entries('bd__v')
+);

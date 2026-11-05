@@ -1,0 +1,6 @@
+Message fax_intake__v (
+   label(),
+   active(true),
+   default_value('Fax Intake from ${fax_source}'),
+   system_managed(false)
+);

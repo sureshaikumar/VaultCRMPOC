@@ -1,0 +1,6 @@
+Picklistentry gb-edu__v (
+   value('East Dunbartonshire'),
+   order(1510),
+   active(true),
+   controlling_entries('gb__v')
+);

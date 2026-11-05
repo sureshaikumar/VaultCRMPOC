@@ -1,0 +1,23 @@
+RECREATE Notificationtemplate qual_bulk_controlledcopy_delivery__v (
+   label('bulkControlledCopyComplete'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Controlled Copy Job Completed'),
+   notification('<p>Your Controlled Copies have been prepared</p>
+<p>Details:
+<ul>
+<li>Copy Type: ${dist_copy_type__v}</li>
+<li>Document: ${docNumber}</li>
+<li>Audience Details: ${dist_audience_details__v}</li>
+<li>Reason/Justification: ${dist_reason_justification__v}</li>
+<li>Number of Copies: ${numCopies}</li>
+<li>${numCopiesPrepared} copies prepared <a href=${controlledCopyDownloadLink}>here</a></li>
+</ul>
+</p>
+'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

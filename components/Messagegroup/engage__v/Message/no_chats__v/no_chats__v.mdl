@@ -1,0 +1,6 @@
+Message no_chats__v (
+   label(),
+   active(true),
+   default_value('No chats'),
+   system_managed(false)
+);

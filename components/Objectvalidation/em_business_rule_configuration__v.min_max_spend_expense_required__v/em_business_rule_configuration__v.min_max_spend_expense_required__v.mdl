@@ -1,0 +1,15 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.min_max_spend_expense_required__v (
+   label('Min or Max Spend Limit Required'),
+   active(true),
+   expression('
+        Case(event_business_rule_type__vr.api_name__v,
+            "em_per_event_expense_limit_rule__v", true,
+            "em_per_event_attendee_expense_limit_r__v", true,
+            "em_attendee_expense_cap_rule__v", true,
+            "em_per_event_speaker_expense_limit_ru__v", true,
+            false
+        ) = false || Not(IsBlank(minimum_spend_limit__v) && IsBlank(maximum_spend_limit__v))'),
+   description('Minimum Spend Limit or Maximum Spend Limit Required'),
+   error_message('Either a valid Minimum Spend Limit or Maximum Spend Limit is not added to the Event Business Rule'),
+   error_location('minimum_spend_limit__v')
+);

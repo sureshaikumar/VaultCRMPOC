@@ -1,0 +1,6 @@
+Message microsoft_teams_country_error__v (
+   label(),
+   active(true),
+   default_value('A configuration already exists for ${object_type} and ${country}.'),
+   system_managed(false)
+);

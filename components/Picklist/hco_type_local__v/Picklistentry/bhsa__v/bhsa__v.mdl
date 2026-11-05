@@ -1,0 +1,5 @@
+Picklistentry bhsa__v (
+   value('Barangay Health Station'),
+   order(13),
+   active(true)
+);

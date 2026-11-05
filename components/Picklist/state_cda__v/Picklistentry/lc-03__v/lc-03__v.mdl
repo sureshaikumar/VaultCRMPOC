@@ -1,0 +1,6 @@
+Picklistentry lc-03__v (
+   value('Choiseul'),
+   order(2541),
+   active(true),
+   controlling_entries('lc__v')
+);

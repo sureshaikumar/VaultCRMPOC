@@ -1,0 +1,19 @@
+Field external_thread_index__v (
+   label('External Thread Index'),
+   type('String'),
+   active(true),
+   description('Index number received from the email provider which orders email messages in a thread on the email provider''s platform.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Index number received from the email provider which orders email messages in a thread on the email provider''s platform.'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

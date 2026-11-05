@@ -1,0 +1,6 @@
+Message no_conversations_selected__v (
+   label(),
+   active(true),
+   default_value('No conversations selected'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry lv-rix__v (
+   value('Rīga'),
+   order(2742),
+   active(true),
+   controlling_entries('lv__v')
+);

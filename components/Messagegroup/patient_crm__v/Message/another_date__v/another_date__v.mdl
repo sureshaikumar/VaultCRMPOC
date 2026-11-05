@@ -1,0 +1,6 @@
+Message another_date__v (
+   label(),
+   active(true),
+   default_value('Another Date'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ee-52__v (
+   value('Järvamaa'),
+   order(1106),
+   active(true),
+   controlling_entries('ee__v')
+);

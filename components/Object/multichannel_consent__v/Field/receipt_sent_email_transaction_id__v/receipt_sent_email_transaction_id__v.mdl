@@ -1,0 +1,19 @@
+Field receipt_sent_email_transaction_id__v (
+   label('Receipt Sent Email Transaction Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Stores the Mobile Id of the Sent_Email record created for sending the receipt email.'),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,15 @@
+RECREATE Vsmpicklist exception_item_error_status__v (
+   label('User Exception Item Error Status'),
+   active(true),
+   description('Defines the allowable error status values for user exception items, indicating success, failure or completed with warning.'),
+   synonyms('exception error status',
+      'user exception error codes',
+      'exception item failure status',
+      'error state for exceptions',
+      'exception processing errors'),
+   target('Picklist.exception_item_error_status__sys'),
+   target_label('User Exception Item Error Status'),
+   Vsmvalue(@Vsmvalue/failed__v.mdl),
+   Vsmvalue(@Vsmvalue/success__v.mdl),
+   Vsmvalue(@Vsmvalue/warning__v.mdl)
+);

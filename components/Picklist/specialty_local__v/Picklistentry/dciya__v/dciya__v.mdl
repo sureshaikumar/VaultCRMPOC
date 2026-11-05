@@ -1,0 +1,6 @@
+Picklistentry dciya__v (
+   value('Diagnostic Cytology'),
+   order(430),
+   active(true),
+   controlling_entries('hu__v')
+);

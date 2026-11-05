@@ -1,0 +1,6 @@
+Picklistentry az-qus__v (
+   value('Qusar'),
+   order(185),
+   active(true),
+   controlling_entries('az__v')
+);

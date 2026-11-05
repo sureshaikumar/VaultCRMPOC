@@ -1,0 +1,5 @@
+Picklistentry antarctica_rothera__sys (
+   value('(GMT-03:00) Argentine Time (Antarctica/Rothera)'),
+   order(113),
+   active(true)
+);

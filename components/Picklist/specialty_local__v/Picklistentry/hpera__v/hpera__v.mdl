@@ -1,0 +1,6 @@
+Picklistentry hpera__v (
+   value('Health Promotion'),
+   order(669),
+   active(true),
+   controlling_entries('ba__v')
+);

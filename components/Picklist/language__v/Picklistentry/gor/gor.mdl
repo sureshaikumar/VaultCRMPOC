@@ -1,0 +1,5 @@
+Picklistentry gor (
+   value('Gorontalo'),
+   order(191),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field override_systemmodstamp_timestamp__v (
+   label('Override Timestamp'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Field used to support incremental synchronization. Visibility to this field is required for VMobile synchronization.  The value in this field should not be updated or loaded.'),
+   list_column(false),
+   order(91),
+   default_value('Now()'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

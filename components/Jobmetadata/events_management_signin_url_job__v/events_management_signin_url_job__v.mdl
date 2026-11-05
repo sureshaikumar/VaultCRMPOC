@@ -1,0 +1,10 @@
+RECREATE Jobmetadata events_management_signin_url_job__v (
+   label('Event Management Signin URL Job'),
+   active(true),
+   chunk_size(500),
+   description('This job is for the Events Management Sign-in server to populate sigininURL.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.EventsManagementSigninUrlJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

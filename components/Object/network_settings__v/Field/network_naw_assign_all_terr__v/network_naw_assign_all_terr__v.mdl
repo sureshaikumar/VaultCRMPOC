@@ -1,0 +1,18 @@
+Field network_naw_assign_all_terr__v (
+   label('NETWORK_NAW_ASSIGN_ALL_TERR'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This flag, when true, will determine if all of the User''s territories are assigned to an Account in the New Account Wizard.'),
+   list_column(false),
+   order(25),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

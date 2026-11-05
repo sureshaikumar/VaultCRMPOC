@@ -1,0 +1,19 @@
+Field applies_to__v (
+   label('Applies To'),
+   type('Picklist'),
+   active(true),
+   description('Shows which record types of accounts this metric is used for.  For example, Awareness might be relevant for a Professional and KOL record type, but not a Hospital record type. If a new record type of Account is added to the Account object, it should also'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(true),
+   picklist('Picklist.metric_configuration_applies_to__v'),
+   default_value('{all__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

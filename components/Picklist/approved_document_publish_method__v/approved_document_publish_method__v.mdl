@@ -1,0 +1,9 @@
+RECREATE Picklist approved_document_publish_method__v (
+   label('Publish Method'),
+   active(true),
+   Picklistentry(@Picklistentry/vault_auto_published__v.mdl),
+   Picklistentry(@Picklistentry/vault_user_published__v.mdl),
+   Picklistentry(@Picklistentry/crm_auto_published__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

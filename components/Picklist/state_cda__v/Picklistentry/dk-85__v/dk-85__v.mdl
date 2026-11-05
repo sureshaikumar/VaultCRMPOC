@@ -1,0 +1,6 @@
+Picklistentry dk-85__v (
+   value('Sjælland'),
+   order(929),
+   active(true),
+   controlling_entries('dk__v')
+);

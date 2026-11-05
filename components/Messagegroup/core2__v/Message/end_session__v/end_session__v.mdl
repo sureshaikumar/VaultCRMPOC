@@ -1,0 +1,6 @@
+Message end_session__v (
+   label(),
+   active(true),
+   default_value('End Session'),
+   system_managed(false)
+);

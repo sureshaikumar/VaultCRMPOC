@@ -1,0 +1,5 @@
+Picklistentry ndo (
+   value('Ndonga'),
+   order(265),
+   active(true)
+);

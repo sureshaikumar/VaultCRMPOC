@@ -1,0 +1,6 @@
+Picklistentry aaics__v (
+   value('Anesthesiology and Intensive Care Neuroanesthesia'),
+   order(81),
+   active(true),
+   controlling_entries('id__v')
+);

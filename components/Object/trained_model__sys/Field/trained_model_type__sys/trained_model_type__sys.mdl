@@ -1,0 +1,18 @@
+Field trained_model_type__sys (
+   label('Trained Model Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content('This field contains the current list of available trained models in your Vault. '),
+   list_column(true),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.trained_model_type__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

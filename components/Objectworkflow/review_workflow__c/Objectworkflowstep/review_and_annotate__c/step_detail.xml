@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Review and Annotate</vwf:label>
+    <vwf:hideHomePageLink>false</vwf:hideHomePageLink>
+    <vwf:controls>
+      <vwf:control name="completion_of_this_task_indicates_that_y__c" label="Completion of this task indicates that you have conducted review and annotation of the document." type="instructions">
+        <vwf:instructions>Completion of this task indicates that you have conducted review and annotation of the document.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="date_review_due_date__c" label="label" type="date">
+        <vwf:datefield type="date" />
+        <vwf:offset>
+          <vwf:amount>0</vwf:amount>
+          <vwf:unit>days</vwf:unit>
+        </vwf:offset>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="part_reviewer__c" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:updateSharingSettingsRules>
+    <vwf:rule event="taskAssignment" operator="add">
+      <vwf:roles>
+        <vwf:role>Doclifecyclerole.reviewer__v</vwf:role>
+      </vwf:roles>
+    </vwf:rule>
+  </vwf:updateSharingSettingsRules>
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+  <vwf:enablePromptExclusionStateTypes value="false" />
+  <vwf:enablePromptInclusionDocTypes value="false" />
+</vwf:stepdetails>

@@ -1,0 +1,19 @@
+Field language__v (
+   label('Language'),
+   type('String'),
+   active(true),
+   description('Language of the translations'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+Doclifecyclerole account_plan_template_consumer__v (
+   label('Account Plan Template Consumer'),
+   active(true),
+   description(''),
+   application_role('account_plan_template_consumer__v'),
+   note_color(),
+   security_options(@security_options.xml)
+);

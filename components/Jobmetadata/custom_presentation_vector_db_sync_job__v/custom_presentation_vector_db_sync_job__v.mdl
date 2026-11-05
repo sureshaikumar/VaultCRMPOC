@@ -1,0 +1,10 @@
+RECREATE Jobmetadata custom_presentation_vector_db_sync_job__v (
+   label('CLM Object Model Custom Presentations'),
+   active(true),
+   chunk_size(1),
+   description('Incrementally syncs Custom CLM Presentations to the Vector Database'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.crmai.jobs.CustomPresentationVectorDbSyncJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

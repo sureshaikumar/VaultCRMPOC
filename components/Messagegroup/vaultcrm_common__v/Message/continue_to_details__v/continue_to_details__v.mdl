@@ -1,0 +1,6 @@
+Message continue_to_details__v (
+   label(),
+   active(true),
+   default_value('Continue to ${object_label} Details'),
+   system_managed(false)
+);

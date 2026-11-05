@@ -1,0 +1,6 @@
+Message only_one_file__v (
+   label(),
+   active(true),
+   default_value('Only one file can be uploaded'),
+   system_managed(false)
+);

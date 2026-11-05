@@ -1,0 +1,6 @@
+Message ensure_no_phi_pii_is_discussed__v (
+   label(),
+   active(true),
+   default_value('Ensure no PHI/PII is discussed with someone other than the Patient, their Caregiver, or the Prescriber.'),
+   system_managed(false)
+);

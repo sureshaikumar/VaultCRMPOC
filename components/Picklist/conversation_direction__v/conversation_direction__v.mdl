@@ -1,0 +1,9 @@
+RECREATE Picklist conversation_direction__v (
+   label('Conversation Direction'),
+   active(true),
+   Picklistentry(@Picklistentry/inbound__v.mdl),
+   Picklistentry(@Picklistentry/outbound__v.mdl),
+   Picklistentry(@Picklistentry/transfer__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

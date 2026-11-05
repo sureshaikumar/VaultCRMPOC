@@ -1,0 +1,5 @@
+Picklistentry 12780__v (
+   value('Bartlesville, OK Micropolitan Statistical Area'),
+   order(856),
+   active(true)
+);

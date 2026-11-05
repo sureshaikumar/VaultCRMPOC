@@ -1,0 +1,4 @@
+Typefield snap_doc_total__v (
+   source('standard'),
+   required(false)
+);

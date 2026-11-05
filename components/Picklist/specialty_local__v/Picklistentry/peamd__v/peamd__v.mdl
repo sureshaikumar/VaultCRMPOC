@@ -1,0 +1,7 @@
+Picklistentry peamd__v (
+   value('Pediatric Endocrinology and Metabolic Diseases'),
+   order(1371),
+   active(true),
+   controlling_entries('bg__v',
+         'us__v')
+);

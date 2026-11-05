@@ -1,0 +1,6 @@
+Message mc_cycle_value_range__v (
+   label(),
+   active(true),
+   default_value('Value must be a number between 0 and {0} with no decimal point.'),
+   system_managed(false)
+);

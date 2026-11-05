@@ -1,0 +1,7 @@
+Picklistentry rdeec__v (
+   value('Reconstructive Dentistry'),
+   order(1715),
+   active(true),
+   controlling_entries('ch__v',
+         'li__v')
+);

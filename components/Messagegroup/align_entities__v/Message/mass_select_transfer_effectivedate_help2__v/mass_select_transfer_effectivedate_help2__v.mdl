@@ -1,0 +1,6 @@
+Message mass_select_transfer_effectivedate_help2__v (
+   label(),
+   active(true),
+   default_value('The Effective Date is the date at which this assignment will be transferred from the old territory to the new territory. The old assignment will be end-dated one day prior to the effective date of the new assignment.'),
+   system_managed(false)
+);

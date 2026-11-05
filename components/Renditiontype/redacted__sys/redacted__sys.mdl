@@ -1,0 +1,4 @@
+RECREATE Renditiontype redacted__sys (
+   label('Redacted Rendition'),
+   active(true)
+);

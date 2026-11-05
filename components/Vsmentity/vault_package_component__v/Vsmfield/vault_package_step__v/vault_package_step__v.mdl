@@ -1,0 +1,14 @@
+Vsmfield vault_package_step__v (
+   label('Inbound Package Step'),
+   active(true),
+   description('Reference to the Inbound Package Step record that this component belongs to. Use this to associate a component with its parent deployment step or to retrieve all components within a specific step.'),
+   example_values(),
+   synonyms('package step',
+         'inbound step',
+         'deployment step',
+         'step'),
+   target('vault_package_step__v'),
+   target_label('Inbound Package Step'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

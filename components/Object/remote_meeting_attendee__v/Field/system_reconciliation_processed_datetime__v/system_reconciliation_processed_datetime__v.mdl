@@ -1,0 +1,17 @@
+Field system_reconciliation_processed_datetime__v (
+   label('System Reconciliation Processed Datetime'),
+   type('DateTime'),
+   active(true),
+   description('The datetime the system attempted to reconcile this remote meeting attendee with an attendee on the call report.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(6),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

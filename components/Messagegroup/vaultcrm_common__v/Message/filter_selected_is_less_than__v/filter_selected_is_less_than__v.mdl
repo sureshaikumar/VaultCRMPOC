@@ -1,0 +1,6 @@
+Message filter_selected_is_less_than__v (
+   label(),
+   active(true),
+   default_value('${filter_field_label} (${filter_object_label}) is less than ${selection}'),
+   system_managed(false)
+);

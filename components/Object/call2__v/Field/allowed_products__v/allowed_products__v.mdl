@@ -1,0 +1,17 @@
+Field allowed_products__v (
+   label('Allowed Products'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('When populated, only listed products will be detail-able when a rep views this call.  The format is a double semi-colon delimited list of Product Names. These will be textual Product Catalog records of type = Detail. For example,  Cholecap;;Labrinone.'),
+   list_column(false),
+   order(17),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

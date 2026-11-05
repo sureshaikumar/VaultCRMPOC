@@ -1,0 +1,16 @@
+RECREATE Notificationtemplate cancelworkflow__v (
+   label('cancelWorkflow'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" workflow has been canceled'),
+   notification('The "${workflowActionName}" workflow for <b>${docName}</b> has been canceled.
+'),
+   email_body('<p>${notificationMessage}</p>
+
+<p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

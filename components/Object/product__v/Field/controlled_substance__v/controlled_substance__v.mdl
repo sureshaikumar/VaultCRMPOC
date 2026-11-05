@@ -1,0 +1,18 @@
+Field controlled_substance__v (
+   label('Controlled Substance'),
+   type('Boolean'),
+   active(true),
+   description('Checking this checkbox denotes the product as a controlled substance. Call reporting and samples management read this value.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

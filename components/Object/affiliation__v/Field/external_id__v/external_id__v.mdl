@@ -1,0 +1,19 @@
+Field external_id__v (
+   label('External Id'),
+   type('String'),
+   active(true),
+   description('External Id that is populated by a Veeva Trigger.   The field is populate on insert\update with a composite index of rom_Account_vod__c + '':'' + From_Contact_vod__c + '':'' + To_Account_vod__c + '':''  + To_Contact_vod__c + '':'' Role_vod__c.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

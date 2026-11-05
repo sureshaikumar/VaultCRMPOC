@@ -1,0 +1,5 @@
+Picklistentry es_mx__v (
+   value('Spanish (Mexico)'),
+   order(298),
+   active(false)
+);

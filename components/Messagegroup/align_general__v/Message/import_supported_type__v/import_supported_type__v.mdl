@@ -1,0 +1,6 @@
+Message import_supported_type__v (
+   label(),
+   active(true),
+   default_value('Align supports CSV and tab-delimited files. Encoding can be UTF-8, UTF-16, UTF-32, Big Endian or Little Endian.'),
+   system_managed(false)
+);

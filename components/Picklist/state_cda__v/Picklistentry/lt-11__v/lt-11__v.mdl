@@ -1,0 +1,6 @@
+Picklistentry lt-11__v (
+   value('Joniškis'),
+   order(2629),
+   active(true),
+   controlling_entries('lt__v')
+);

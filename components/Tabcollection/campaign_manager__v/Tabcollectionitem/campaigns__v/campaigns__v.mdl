@@ -1,0 +1,8 @@
+Tabcollectionitem campaigns__v (
+   label(),
+   active(true),
+   tabs(),
+   order(20),
+   tab('Tab.campaigns__v'),
+   type('Tab')
+);

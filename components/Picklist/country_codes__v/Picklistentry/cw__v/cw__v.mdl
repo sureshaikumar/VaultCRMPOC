@@ -1,0 +1,5 @@
+Picklistentry cw__v (
+   value('CW'),
+   order(52),
+   active(true)
+);

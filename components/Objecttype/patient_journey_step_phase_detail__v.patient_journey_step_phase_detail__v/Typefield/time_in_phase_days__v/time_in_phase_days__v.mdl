@@ -1,0 +1,4 @@
+Typefield time_in_phase_days__v (
+   source('standard'),
+   required(false)
+);

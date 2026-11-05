@@ -1,0 +1,6 @@
+Message not_found__v (
+   label(),
+   active(true),
+   default_value('${object_name} not found.'),
+   system_managed(false)
+);

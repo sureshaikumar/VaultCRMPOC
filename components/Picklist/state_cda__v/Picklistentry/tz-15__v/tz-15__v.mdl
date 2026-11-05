@@ -1,0 +1,6 @@
+Picklistentry tz-15__v (
+   value('Mjini Magharibi'),
+   order(4599),
+   active(true),
+   controlling_entries('tz__v')
+);

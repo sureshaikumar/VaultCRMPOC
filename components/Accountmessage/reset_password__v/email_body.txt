@@ -1,0 +1,17 @@
+<p>A password reset has been requested for the Veeva Vault account associated with this email address. If you did 
+not request this reset contact your system administrator.</p>
+
+<p>Your user name and temporary password are given below:</p>
+
+<p>
+User Name: <b>${userName}</b><br>
+Password: <b>${userPassword}</b>
+</p>
+
+<p><#setting url_escaping_charset=''utf-8''>
+<a href="${authServiceExtUrl}/changepassword?utp=${utp?url}&selectedLang=${userLanguage}">Click here to change your password.</a></p>
+
+<p>If you experience problems with the above link, please contact your administrator for assistance.</p>
+
+<p>You''ll be asked to change your password when you first log in.  Note that passwords are case-sensitive.
+Make sure that you choose a password that you can remember, but complex enough not to be guessed by others.</p>

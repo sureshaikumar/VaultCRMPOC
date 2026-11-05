@@ -1,0 +1,6 @@
+Picklistentry id-nb__v (
+   value('Nusa Tenggara Barat'),
+   order(1939),
+   active(true),
+   controlling_entries('id__v')
+);

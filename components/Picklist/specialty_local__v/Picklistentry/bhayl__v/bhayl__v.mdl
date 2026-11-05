@@ -1,0 +1,6 @@
+Picklistentry bhayl__v (
+   value('Balneotherapy (Hydrotherapy)'),
+   order(114),
+   active(true),
+   controlling_entries('am__v')
+);

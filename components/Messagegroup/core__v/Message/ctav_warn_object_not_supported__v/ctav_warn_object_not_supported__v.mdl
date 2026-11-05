@@ -1,0 +1,6 @@
+Message ctav_warn_object_not_supported__v (
+   label(),
+   active(true),
+   default_value('Field ${field_name} on object ${supported_object} refers to an object ${unsupported_object} which is not supported via copy to another vault.  Data in this field will not be copied to the target Vault CRM.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry fl__v (
+   value('Flemish'),
+   order(101),
+   active(false)
+);

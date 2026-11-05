@@ -1,0 +1,6 @@
+Message job_scheduler_job_name_required__v (
+   label(),
+   active(true),
+   default_value('Query parameter jobName is required.'),
+   system_managed(false)
+);

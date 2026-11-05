@@ -1,0 +1,5 @@
+Index source_connection_record_reference__sys (
+   description(),
+   fields('source_connection_record_reference__sys'),
+   label('Source Connection Record Reference')
+);

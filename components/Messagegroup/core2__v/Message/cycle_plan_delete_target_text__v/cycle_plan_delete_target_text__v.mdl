@@ -1,0 +1,6 @@
+Message cycle_plan_delete_target_text__v (
+   label(),
+   active(true),
+   default_value('Continue to delete ${count_of_account_selected} target accounts?'),
+   system_managed(false)
+);

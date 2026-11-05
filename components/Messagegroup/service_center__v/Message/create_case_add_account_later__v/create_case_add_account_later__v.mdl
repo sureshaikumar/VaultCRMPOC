@@ -1,0 +1,6 @@
+Message create_case_add_account_later__v (
+   label(),
+   active(true),
+   default_value('Create a case and add the account later.'),
+   system_managed(false)
+);

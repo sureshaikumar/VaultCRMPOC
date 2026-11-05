@@ -1,0 +1,10 @@
+Typefield external_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_change_request_external_status__v.change_cancelled__v',
+         'Picklist.data_change_request_external_status__v.change_new__v',
+         'Picklist.data_change_request_external_status__v.change_partiallyprocessed__v',
+         'Picklist.data_change_request_external_status__v.change_pendingreview__v',
+         'Picklist.data_change_request_external_status__v.change_processed__v'),
+   default_value('Picklist.data_change_request_external_status__v.change_new__v')
+);

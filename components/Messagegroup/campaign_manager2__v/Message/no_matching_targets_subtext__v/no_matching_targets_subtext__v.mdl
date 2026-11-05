@@ -1,0 +1,6 @@
+Message no_matching_targets_subtext__v (
+   label(),
+   active(true),
+   default_value('No targets match your current filters. Try adjusting your filters to broaden your audience.'),
+   system_managed(false)
+);

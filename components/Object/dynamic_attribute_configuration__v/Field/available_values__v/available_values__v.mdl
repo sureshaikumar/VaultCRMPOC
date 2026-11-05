@@ -1,0 +1,17 @@
+Field available_values__v (
+   label('Available Values'),
+   type('LongText'),
+   active(true),
+   description('This field will hold a double semi-colon separated list of options that will be presented to the field-user in the form of a picklist when the Dynamic Attribute record type is "Picklist_vod".'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

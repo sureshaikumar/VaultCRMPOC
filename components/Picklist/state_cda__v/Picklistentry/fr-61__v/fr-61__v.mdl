@@ -1,0 +1,6 @@
+Picklistentry fr-61__v (
+   value('Orne'),
+   order(1377),
+   active(true),
+   controlling_entries('fr__v')
+);

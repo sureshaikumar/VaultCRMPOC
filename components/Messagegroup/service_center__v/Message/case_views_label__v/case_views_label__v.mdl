@@ -1,0 +1,6 @@
+Message case_views_label__v (
+   label(),
+   active(true),
+   default_value('Case Views'),
+   system_managed(false)
+);

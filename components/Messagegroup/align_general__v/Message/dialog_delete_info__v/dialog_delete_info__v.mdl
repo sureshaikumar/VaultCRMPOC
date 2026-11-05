@@ -1,0 +1,6 @@
+Message dialog_delete_info__v (
+   label(),
+   active(true),
+   default_value('You are about to delete a {0}.'),
+   system_managed(false)
+);

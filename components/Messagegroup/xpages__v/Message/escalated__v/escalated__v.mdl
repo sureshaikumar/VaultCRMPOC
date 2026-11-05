@@ -1,0 +1,6 @@
+Message escalated__v (
+   label(),
+   active(true),
+   default_value('Escalated'),
+   system_managed(false)
+);

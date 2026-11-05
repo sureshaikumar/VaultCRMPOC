@@ -1,0 +1,6 @@
+Picklistentry hmafe__v (
+   value('Healthcare Management and Financing'),
+   order(678),
+   active(true),
+   controlling_entries('sk__v')
+);

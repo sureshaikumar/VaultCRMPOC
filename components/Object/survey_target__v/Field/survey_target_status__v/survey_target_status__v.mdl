@@ -1,0 +1,23 @@
+Field survey_target_status__v (
+   label('Survey Target Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('•Development – survey has not been published
+•Pending – survey has been published; awaiting rep response
+•Saved – rep response has been saved
+•Submitted – rep response has been submitted
+•Late Submission - the survey was submitted after the end date'),
+   list_column(false),
+   order(34),
+   multi_value(false),
+   picklist('Picklist.survey_target_status__v'),
+   default_value('{development__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

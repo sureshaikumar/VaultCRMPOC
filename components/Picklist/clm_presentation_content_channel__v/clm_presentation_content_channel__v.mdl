@@ -1,0 +1,8 @@
+RECREATE Picklist clm_presentation_content_channel__v (
+   label('Content Channel'),
+   active(true),
+   Picklistentry(@Picklistentry/events__v.mdl),
+   Picklistentry(@Picklistentry/clm__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

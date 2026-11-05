@@ -1,0 +1,5 @@
+Picklistentry 33700__v (
+   value('Modesto, CA Metropolitan Statistical Area'),
+   order(97),
+   active(true)
+);

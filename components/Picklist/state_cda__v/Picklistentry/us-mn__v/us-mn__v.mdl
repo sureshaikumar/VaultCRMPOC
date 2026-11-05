@@ -1,0 +1,6 @@
+Picklistentry us-mn__v (
+   value('Minnesota'),
+   order(4816),
+   active(true),
+   controlling_entries('us__v')
+);

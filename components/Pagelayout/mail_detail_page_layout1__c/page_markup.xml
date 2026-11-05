@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.medical_inquiry_fulfillment_response__v.mail__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="medical_inquiry_fulfillment__v" />
+            <vault:field reference="interaction__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="medical_inquiry_fulfillment_respo_status__v" />
+            <vault:field reference="fulfillment_response__v" />
+            <vault:field reference="fulfillment_materials__v" />
+            <vault:field reference="reassign__v" />
+            <vault:control reference="mifr_assign_to_user_field_control__v" name="mifr_assign_to_user_field_control__c" />
+            <vault:field reference="assign_to_comments__v" />
+            <vault:field reference="completed_by__v" />
+            <vault:field reference="completed_datetime__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

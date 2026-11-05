@@ -1,0 +1,6 @@
+Picklistentry bf-zou__v (
+   value('Zoundwéogo'),
+   order(372),
+   active(true),
+   controlling_entries('bf__v')
+);

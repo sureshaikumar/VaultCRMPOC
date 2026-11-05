@@ -1,0 +1,5 @@
+Picklistentry sl (
+   value('Slovene'),
+   order(41),
+   active(true)
+);

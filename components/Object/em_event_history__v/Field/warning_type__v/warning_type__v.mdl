@@ -1,0 +1,19 @@
+Field warning_type__v (
+   label('Warning Type'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Warning Type of Event Business Rule that ran.'),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

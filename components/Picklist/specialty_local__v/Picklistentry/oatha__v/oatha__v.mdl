@@ -1,0 +1,6 @@
+Picklistentry oatha__v (
+   value('Orthopedics and Traumatology Hand, Arm and Microsurgery'),
+   order(1216),
+   active(true),
+   controlling_entries('id__v')
+);

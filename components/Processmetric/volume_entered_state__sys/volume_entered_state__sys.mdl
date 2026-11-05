@@ -1,0 +1,9 @@
+RECREATE Processmetric volume_entered_state__sys (
+   label('Entered X State'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The number of unique records that entered a specific state ''X''.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.volume__sys')
+);

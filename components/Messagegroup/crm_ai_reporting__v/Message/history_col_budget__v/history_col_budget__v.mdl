@@ -1,0 +1,6 @@
+Message history_col_budget__v (
+   label(),
+   active(true),
+   default_value('Budget'),
+   system_managed(false)
+);

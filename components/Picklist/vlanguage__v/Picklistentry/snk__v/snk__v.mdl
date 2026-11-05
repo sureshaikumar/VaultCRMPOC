@@ -1,0 +1,5 @@
+Picklistentry snk__v (
+   value('Soninke'),
+   order(294),
+   active(false)
+);

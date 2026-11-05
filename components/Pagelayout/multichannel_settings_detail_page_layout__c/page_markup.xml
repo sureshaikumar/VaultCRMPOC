@@ -1,0 +1,50 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.multichannel_settings__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="access_clm_from_online_call__v" />
+            <vault:field reference="allow_insecure_local_file_access__v" />
+            <vault:field reference="clm_content_search__v" />
+            <vault:field reference="clm_explicit_opt_in__v" />
+            <vault:field reference="clm_filter_fields__v" />
+            <vault:field reference="clm_laser_pointer__v" />
+            <vault:field reference="clm_opt_out_behavior__v" />
+            <vault:field reference="cobrowse_default_record_type__v" />
+            <vault:field reference="content_note_batch_size__v" />
+            <vault:field reference="custom_presentation_management__v" />
+            <vault:field reference="default_directory__v" />
+            <vault:field reference="enable_clm_from_orders__v" />
+            <vault:field reference="enhanced_sub_presentations__v" />
+            <vault:field reference="hide_clm_thumbnails_in_all_dir_view__v" />
+            <vault:field reference="mccp_disable_call_widget__v" />
+            <vault:field reference="mccp_enable_actions_my_plan__v" />
+            <vault:field reference="mccp_enable_detail_priority__v" />
+            <vault:field reference="mccp_enable_goals_rem__v" />
+            <vault:field reference="mccp_popup_fields__v" />
+            <vault:field reference="mccp_send_to_sched_type__v" />
+            <vault:field reference="media_search__v" />
+            <vault:field reference="medical_inquiry_overlay__v" />
+            <vault:field reference="remote_meeting_default_record_type__v" />
+            <vault:field reference="select_clm_call_record_type__v" />
+            <vault:field reference="swipe_sensitivity__v" />
+            <vault:field reference="track_clm_media_preview__v" />
+            <vault:field reference="setupownerid__v" />
+            <vault:field reference="security_profile__v" />
+            <vault:field reference="content_document_batch_size__v" />
+            <vault:field reference="cycle_plan_target_merge__v" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="enable_binders_docs__v" />
+            <vault:field reference="reply_to_for_custom_clm_changes__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry mk__v (
+   value('North Macedonia'),
+   order(164),
+   active(true)
+);

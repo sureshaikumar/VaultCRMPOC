@@ -1,0 +1,6 @@
+Message show_additional_accounts__v (
+   label(),
+   active(true),
+   default_value('Show Additional Inside Territory Accounts'),
+   system_managed(false)
+);

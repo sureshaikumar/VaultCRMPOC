@@ -1,0 +1,6 @@
+Picklistentry burns__v (
+   value('Burns'),
+   order(141),
+   active(true),
+   controlling_entries('vn__v')
+);

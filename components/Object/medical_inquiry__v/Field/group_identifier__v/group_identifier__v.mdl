@@ -1,0 +1,19 @@
+Field group_identifier__v (
+   label('Group Identifier'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('If present, it is an identifier grouping multiple Medical Inquiries together.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

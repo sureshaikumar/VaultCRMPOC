@@ -1,0 +1,6 @@
+Picklistentry ps-qqa__v (
+   value('Qalqilya'),
+   order(3648),
+   active(true),
+   controlling_entries('ps__v')
+);

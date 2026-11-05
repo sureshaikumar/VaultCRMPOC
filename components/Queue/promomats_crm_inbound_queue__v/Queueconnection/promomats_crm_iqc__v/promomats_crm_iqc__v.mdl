@@ -1,0 +1,7 @@
+Queueconnection promomats_crm_iqc__v (
+   label('PromoMats-CRM Connection'),
+   active(true),
+   connection_name('promomats_crm__v'),
+   connection_type('vault_to_vault__sys'),
+   deliver_to_queue()
+);

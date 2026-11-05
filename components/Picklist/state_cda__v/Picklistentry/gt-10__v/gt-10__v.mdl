@@ -1,0 +1,6 @@
+Picklistentry gt-10__v (
+   value('Suchitepéquez'),
+   order(1789),
+   active(true),
+   controlling_entries('gt__v')
+);

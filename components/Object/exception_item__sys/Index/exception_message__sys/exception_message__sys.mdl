@@ -1,0 +1,5 @@
+Index exception_message__sys (
+   description(),
+   fields('exception_message__sys'),
+   label('Exception Message')
+);

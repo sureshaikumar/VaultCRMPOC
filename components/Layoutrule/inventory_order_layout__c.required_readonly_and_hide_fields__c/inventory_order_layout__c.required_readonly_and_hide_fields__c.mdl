@@ -1,0 +1,19 @@
+RECREATE Layoutrule inventory_order_layout__c.required_readonly_and_hide_fields__c (
+   active(true),
+   description('Layout rule to make fields required, hide and read-only on page layout'),
+   displayed_as_readonly_fields('approved_by__v',
+      'approved_date__v',
+      'approved__v',
+      'require_approval__v',
+      'order_submit_date__v'),
+   displayed_as_required_fields('order_for_user__v'),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('order_for_user__v'),
+   hide_sections(),
+   hide_layout(false),
+   label('Required, Read-Only and Hide Fields'),
+   order(100)
+);

@@ -1,0 +1,6 @@
+Message renew_to__v (
+   label(),
+   active(true),
+   default_value('Renew to ${date}'),
+   system_managed(false)
+);

@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_catalog__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="em_catalog_name__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="base_language_name__v" />
+            <vault:field reference="vault_document_version_id__v" />
+            <vault:field reference="connection__v" />
+            <vault:field reference="approval_required__v" />
+            <vault:field reference="disclaimer_text__v" />
+            <vault:field reference="event_fields__v" />
+            <vault:field reference="registration_fields__v" />
+            <vault:field reference="registration_type__v" />
+            <vault:field reference="confirmation_email_template__v" />
+            <vault:field reference="rejection_email_template__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,12 @@
+Vsmfield last_name__v (
+   label('Last Name'),
+   active(true),
+   description('The prior last name of the person as it existed before a name change. Use this field to search historical records or trace identity changes when a person''s surname has been updated.'),
+   example_values(),
+   synonyms('surname',
+         'family name'),
+   target('last_name__sys'),
+   target_label('Last Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

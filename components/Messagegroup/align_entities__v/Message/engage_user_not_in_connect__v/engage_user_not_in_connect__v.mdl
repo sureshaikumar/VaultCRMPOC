@@ -1,0 +1,6 @@
+Message engage_user_not_in_connect__v (
+   label(),
+   active(true),
+   default_value('Failed to update Engage Connect license for Roster Member ${rm}. REASON: User not in Engage Connect.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry bzd__sys (
+   value('BZD'),
+   order(34),
+   active(true)
+);

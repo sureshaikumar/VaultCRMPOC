@@ -1,0 +1,5 @@
+Picklistentry engage_chat__v (
+   value('Engage Chat'),
+   order(8),
+   active(true)
+);

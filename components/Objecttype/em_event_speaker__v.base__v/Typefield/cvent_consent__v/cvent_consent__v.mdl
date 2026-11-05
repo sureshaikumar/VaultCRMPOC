@@ -1,0 +1,4 @@
+Typefield cvent_consent__v (
+   source('standard'),
+   required(false)
+);

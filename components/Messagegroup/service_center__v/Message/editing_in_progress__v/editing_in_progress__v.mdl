@@ -1,0 +1,6 @@
+Message editing_in_progress__v (
+   label(),
+   active(true),
+   default_value('Editing In Progress'),
+   system_managed(false)
+);

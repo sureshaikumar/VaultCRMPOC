@@ -1,0 +1,6 @@
+Picklistentry choym__v (
+   value('Communal Hygiene'),
+   order(305),
+   active(true),
+   controlling_entries('ua__v')
+);

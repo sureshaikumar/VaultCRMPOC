@@ -1,0 +1,6 @@
+Message implicit_opt_out__v (
+   label(),
+   active(true),
+   default_value('Implicit Opt-Out'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.sample_opt_in__v (
+   label('Sample Opt In'),
+   description('Action to capture a new Sample Opt In record from Account'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.accountmanagement.actions.AccountSampleOptInAction'),
+   active(true),
+   available_all_states(true)
+);

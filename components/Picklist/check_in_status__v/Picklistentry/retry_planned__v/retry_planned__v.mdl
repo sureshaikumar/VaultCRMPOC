@@ -1,0 +1,5 @@
+Picklistentry retry_planned__v (
+   value('Retry Planned'),
+   order(5),
+   active(true)
+);

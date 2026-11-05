@@ -1,0 +1,6 @@
+Message expired__v (
+   label(),
+   active(true),
+   default_value('Expired'),
+   system_managed(false)
+);

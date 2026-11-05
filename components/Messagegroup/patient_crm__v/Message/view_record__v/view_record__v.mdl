@@ -1,0 +1,6 @@
+Message view_record__v (
+   label(),
+   active(true),
+   default_value('View Record'),
+   system_managed(false)
+);

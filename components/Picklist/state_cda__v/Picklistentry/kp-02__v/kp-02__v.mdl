@@ -1,0 +1,6 @@
+Picklistentry kp-02__v (
+   value('South Pyongan'),
+   order(2458),
+   active(true),
+   controlling_entries('kp__v')
+);

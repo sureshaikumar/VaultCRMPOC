@@ -1,0 +1,22 @@
+Field priority__v (
+   label('Priority'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content('If populated, used by the pricing engine to determine which price book to apply in case of conflict. The lowest value (1) represents the highest priority. If left empty, best pricing logic will be applied among conflicting price books. If not all conflict'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

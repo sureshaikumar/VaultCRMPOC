@@ -1,0 +1,5 @@
+Picklistentry del (
+   value('Delaware'),
+   order(163),
+   active(true)
+);

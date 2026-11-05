@@ -1,0 +1,6 @@
+Message validate_max_length__v (
+   label(),
+   active(true),
+   default_value('Please enter no more than {0} characters.'),
+   system_managed(false)
+);

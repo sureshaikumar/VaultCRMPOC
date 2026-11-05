@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate translation_complete__v (
+   label('Translation Complete'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('${translationCompleteSubject}'),
+   notification('${translationCompleteSubject}<br><b>${translationCompleteSummaryLabel}:</b><br> ${translationCompleteSummary}'),
+   email_body('<b>${translationCompleteSummaryLabel}:</b><br> ${translationCompleteSummary}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

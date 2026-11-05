@@ -1,0 +1,6 @@
+Message tokens_remaining__v (
+   label(),
+   active(true),
+   default_value('Tokens remaining'),
+   system_managed(false)
+);

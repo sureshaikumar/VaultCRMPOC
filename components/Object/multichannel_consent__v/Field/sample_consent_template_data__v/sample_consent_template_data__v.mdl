@@ -1,0 +1,19 @@
+Field sample_consent_template_data__v (
+   label('Sample Consent Template Data'),
+   type('String'),
+   active(true),
+   description('Stores the relevant data from the Consent Template record used to determine Expiration Date. Concatenation of Expiration Type, Expiration Threshold, Start Date, End Date, Last Modified Datetime'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

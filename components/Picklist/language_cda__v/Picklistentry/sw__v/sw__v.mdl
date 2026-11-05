@@ -1,0 +1,5 @@
+Picklistentry sw__v (
+   value('Swahili'),
+   order(55),
+   active(true)
+);

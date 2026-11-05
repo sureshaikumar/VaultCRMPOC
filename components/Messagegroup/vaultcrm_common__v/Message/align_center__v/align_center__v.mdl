@@ -1,0 +1,6 @@
+Message align_center__v (
+   label(),
+   active(true),
+   default_value('Align Center'),
+   system_managed(false)
+);

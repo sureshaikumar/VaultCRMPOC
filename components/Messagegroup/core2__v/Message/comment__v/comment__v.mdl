@@ -1,0 +1,6 @@
+Message comment__v (
+   label(),
+   active(true),
+   default_value('Comment'),
+   system_managed(false)
+);

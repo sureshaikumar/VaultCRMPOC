@@ -1,0 +1,6 @@
+Message rules_failure_object_load_error__v (
+   label(),
+   active(true),
+   default_value('Could not load ${object_label} data: ${error}'),
+   system_managed(false)
+);

@@ -1,0 +1,13 @@
+RECREATE Picklist email_activity_media_type__v (
+   label('Media Type'),
+   active(true),
+   Picklistentry(@Picklistentry/video__v.mdl),
+   Picklistentry(@Picklistentry/image__v.mdl),
+   Picklistentry(@Picklistentry/pdf__v.mdl),
+   Picklistentry(@Picklistentry/audio__v.mdl),
+   Picklistentry(@Picklistentry/zip__v.mdl),
+   Picklistentry(@Picklistentry/microsoft_office__v.mdl),
+   Picklistentry(@Picklistentry/html__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

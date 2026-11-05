@@ -1,0 +1,6 @@
+Message edit_permission_error__v (
+   label(),
+   active(true),
+   default_value('You do not have permission to edit ${field_labels} on ${object_label}.'),
+   system_managed(false)
+);

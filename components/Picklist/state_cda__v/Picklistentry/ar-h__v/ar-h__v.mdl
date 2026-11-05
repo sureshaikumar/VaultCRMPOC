@@ -1,0 +1,6 @@
+Picklistentry ar-h__v (
+   value('Chaco'),
+   order(104),
+   active(true),
+   controlling_entries('ar__v')
+);

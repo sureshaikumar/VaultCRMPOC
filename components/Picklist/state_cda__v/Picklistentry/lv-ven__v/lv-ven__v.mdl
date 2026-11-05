@@ -1,0 +1,6 @@
+Picklistentry lv-ven__v (
+   value('Ventspils'),
+   order(2743),
+   active(true),
+   controlling_entries('lv__v')
+);

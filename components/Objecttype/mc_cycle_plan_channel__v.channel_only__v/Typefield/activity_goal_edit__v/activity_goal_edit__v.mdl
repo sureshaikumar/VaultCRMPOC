@@ -1,0 +1,4 @@
+Typefield activity_goal_edit__v (
+   source('custom'),
+   required(false)
+);

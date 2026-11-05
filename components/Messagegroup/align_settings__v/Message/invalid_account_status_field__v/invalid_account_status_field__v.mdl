@@ -1,0 +1,6 @@
+Message invalid_account_status_field__v (
+   label(),
+   active(true),
+   default_value('Account Status Field value must be the name of a text or picklist field on the Account object.'),
+   system_managed(false)
+);

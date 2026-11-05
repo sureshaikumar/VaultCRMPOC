@@ -1,0 +1,6 @@
+Picklistentry ua-26__v (
+   value('Ivano-Frankivska oblast'),
+   order(4624),
+   active(true),
+   controlling_entries('ua__v')
+);

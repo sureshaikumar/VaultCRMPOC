@@ -1,0 +1,5 @@
+Picklistentry min (
+   value('Minangkabau'),
+   order(258),
+   active(true)
+);

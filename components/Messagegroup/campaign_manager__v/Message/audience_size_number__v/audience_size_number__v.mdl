@@ -1,0 +1,6 @@
+Message audience_size_number__v (
+   label(),
+   active(true),
+   default_value('Audience Size: ${count}'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep assess_review_outcome__c (
+   label('Assess Review Outcome'),
+   type('contenttask'),
+   next_steps('Objectworkflowstep.decision__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout mc_cycle_plan_channel_detail_page_layou1__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('MC Cycle Plan Channel Detail Page Layout1'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,6 @@
+Picklistentry imhbd__v (
+   value('Internal Medicine: Hematology (Blood Diseases)'),
+   order(814),
+   active(true),
+   controlling_entries('dk__v')
+);

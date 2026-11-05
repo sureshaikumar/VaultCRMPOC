@@ -1,0 +1,6 @@
+Message passcode__v (
+   label(),
+   active(true),
+   default_value('Passcode'),
+   system_managed(false)
+);

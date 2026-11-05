@@ -1,0 +1,5 @@
+Picklistentry registered__v (
+   value('Registered'),
+   order(8),
+   active(true)
+);

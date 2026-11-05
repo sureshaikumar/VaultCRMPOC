@@ -1,0 +1,6 @@
+Message veeva_settings_cannot_add_profile__v (
+   label(),
+   active(true),
+   default_value('Cannot add an application profile to the default Veeva Settings record'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message attempts_max__v (
+   label(),
+   active(true),
+   default_value('Attempts (Max ${number})'),
+   system_managed(false)
+);

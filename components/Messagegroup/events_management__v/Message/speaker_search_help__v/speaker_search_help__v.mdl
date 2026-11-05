@@ -1,0 +1,6 @@
+Message speaker_search_help__v (
+   label(),
+   active(true),
+   default_value('Use search bar to find a ${object_name}, and then use the table below to make selection.'),
+   system_managed(false)
+);

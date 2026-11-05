@@ -1,0 +1,18 @@
+Picklistentry ccmra__v (
+   value('Critical Care Medicine'),
+   order(344),
+   active(true),
+   controlling_entries('ae__v',
+         'bh__v',
+         'ca__v',
+         'ge__v',
+         'in__v',
+         'ke__v',
+         'kr__v',
+         'ph__v',
+         'pk__v',
+         'qa__v',
+         'sa__v',
+         'th__v',
+         'us__v')
+);

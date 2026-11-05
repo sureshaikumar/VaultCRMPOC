@@ -1,0 +1,4 @@
+Typefield opportunity__v (
+   source('standard'),
+   required(true)
+);

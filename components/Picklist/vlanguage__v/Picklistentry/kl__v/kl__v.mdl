@@ -1,0 +1,5 @@
+Picklistentry kl__v (
+   value('Kalaallisut-Greenlandic'),
+   order(154),
+   active(false)
+);

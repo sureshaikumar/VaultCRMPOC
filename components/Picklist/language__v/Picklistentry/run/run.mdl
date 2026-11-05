@@ -1,0 +1,5 @@
+Picklistentry run (
+   value('Rundi'),
+   order(289),
+   active(true)
+);

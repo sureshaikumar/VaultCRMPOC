@@ -1,0 +1,4 @@
+Typefield translated_rule_name__v (
+   source('custom'),
+   required(false)
+);

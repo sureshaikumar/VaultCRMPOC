@@ -1,0 +1,6 @@
+Picklistentry bb-09__v (
+   value('Saint Peter'),
+   order(227),
+   active(true),
+   controlling_entries('bb__v')
+);

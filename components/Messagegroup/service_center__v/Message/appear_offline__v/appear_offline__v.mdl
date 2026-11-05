@@ -1,0 +1,6 @@
+Message appear_offline__v (
+   label(),
+   active(true),
+   default_value('Appear Offline'),
+   system_managed(false)
+);

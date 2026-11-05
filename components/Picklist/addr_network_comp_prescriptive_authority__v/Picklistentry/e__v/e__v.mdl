@@ -1,0 +1,5 @@
+Picklistentry e__v (
+   value('E'),
+   order(0),
+   active(true)
+);

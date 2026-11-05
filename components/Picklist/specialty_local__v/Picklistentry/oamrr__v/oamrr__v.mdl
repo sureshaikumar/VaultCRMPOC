@@ -1,0 +1,9 @@
+Picklistentry oamrr__v (
+   value('Oral and Maxillofacial Radiology'),
+   order(1158),
+   active(true),
+   controlling_entries('jo__v',
+         'kr__v',
+         'qa__v',
+         'sa__v')
+);

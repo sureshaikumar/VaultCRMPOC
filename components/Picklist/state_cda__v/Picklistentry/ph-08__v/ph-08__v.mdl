@@ -1,0 +1,6 @@
+Picklistentry ph-08__v (
+   value('Eastern Visayas (Region VIII)'),
+   order(3523),
+   active(true),
+   controlling_entries('ph__v')
+);

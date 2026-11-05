@@ -1,0 +1,6 @@
+Picklistentry gb-nfk__v (
+   value('Norfolk'),
+   order(1577),
+   active(true),
+   controlling_entries('gb__v')
+);

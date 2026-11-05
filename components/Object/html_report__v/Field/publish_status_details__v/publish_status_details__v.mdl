@@ -1,0 +1,19 @@
+Field publish_status_details__v (
+   label('Status Details'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Failure_Msg_vod captures the reasons for instances when file publishing is not completed successfully. It will be populated only when HTML_Report_vod.Status_vod = Failed_vod.'),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

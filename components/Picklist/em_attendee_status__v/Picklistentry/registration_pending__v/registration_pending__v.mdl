@@ -1,0 +1,5 @@
+Picklistentry registration_pending__v (
+   value('Registration Pending'),
+   order(10),
+   active(true)
+);

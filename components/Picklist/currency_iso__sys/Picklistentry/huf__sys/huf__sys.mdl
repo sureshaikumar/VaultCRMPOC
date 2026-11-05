@@ -1,0 +1,5 @@
+Picklistentry huf__sys (
+   value('HUF'),
+   order(82),
+   active(true)
+);

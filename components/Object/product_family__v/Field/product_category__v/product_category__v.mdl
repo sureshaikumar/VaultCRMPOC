@@ -1,0 +1,18 @@
+Field product_category__v (
+   label('Product Category'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Select the product category'),
+   list_column(true),
+   order(15),
+   multi_value(true),
+   picklist('Picklist.product_category__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

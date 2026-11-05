@@ -1,0 +1,6 @@
+Message target_attempt_info_will_appear_here__v (
+   label(),
+   active(true),
+   default_value('Target Attempt information will appear here.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ph-btn__v (
+   value('Batanes'),
+   order(3547),
+   active(true),
+   controlling_entries('ph__v')
+);

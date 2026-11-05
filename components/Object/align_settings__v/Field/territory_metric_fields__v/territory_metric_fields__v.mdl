@@ -1,0 +1,19 @@
+Field territory_metric_fields__v (
+   label('Territory Metric Fields'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('This determines which territory fields are to be included in the territory metrics panel on the territory detail page.'),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

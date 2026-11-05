@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.create_document_from_template__sys (
+   label('Create Document From Template'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.CreateDocumentFromTemplateAction'),
+   active(true),
+   available_all_states(true)
+);

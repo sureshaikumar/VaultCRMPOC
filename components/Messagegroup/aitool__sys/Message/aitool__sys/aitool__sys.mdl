@@ -1,0 +1,6 @@
+Message aitool__sys (
+   label(),
+   active(true),
+   default_value('AI Tool'),
+   system_managed(true)
+);

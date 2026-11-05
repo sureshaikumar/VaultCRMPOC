@@ -1,0 +1,6 @@
+Picklistentry az-nv__v (
+   value('Naxçıvan (Municipality)'),
+   order(175),
+   active(true),
+   controlling_entries('az__v')
+);

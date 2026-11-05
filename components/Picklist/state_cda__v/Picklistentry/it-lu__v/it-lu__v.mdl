@@ -1,0 +1,6 @@
+Picklistentry it-lu__v (
+   value('Lucca'),
+   order(2222),
+   active(true),
+   controlling_entries('it__v')
+);

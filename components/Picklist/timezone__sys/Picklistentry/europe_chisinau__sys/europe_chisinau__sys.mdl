@@ -1,0 +1,5 @@
+Picklistentry europe_chisinau__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Chisinau)'),
+   order(183),
+   active(true)
+);

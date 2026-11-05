@@ -1,0 +1,17 @@
+Field event_attendee_entry_criteria__v (
+   label('Event Attendee Entry Criteria'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Restrict this rule to apply only for Event Attendees with a specific Status_vod value. Field accepts multiple Status_vod values separated by a comma. Leaving the field empty will cause the rule to be applied to all Event Attendees.'),
+   list_column(false),
+   order(44),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

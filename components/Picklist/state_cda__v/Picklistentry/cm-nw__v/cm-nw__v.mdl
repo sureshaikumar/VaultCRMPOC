@@ -1,0 +1,6 @@
+Picklistentry cm-nw__v (
+   value('North-West'),
+   order(689),
+   active(true),
+   controlling_entries('cm__v')
+);

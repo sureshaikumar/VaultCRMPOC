@@ -1,0 +1,6 @@
+Message add_account_hierarchy__v (
+   label(),
+   active(true),
+   default_value('Add an account to view Hierarchy'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Typefield health__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_plan_health__v.green__v',
+         'Picklist.account_plan_health__v.red__v',
+         'Picklist.account_plan_health__v.yellow__v')
+);

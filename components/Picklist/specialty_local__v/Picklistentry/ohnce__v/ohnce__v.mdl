@@ -1,0 +1,8 @@
+Picklistentry ohnce__v (
+   value('Occupational Health Nursing'),
+   order(1094),
+   active(true),
+   controlling_entries('ad__v',
+         'ee__v',
+         'es__v')
+);

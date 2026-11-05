@@ -1,0 +1,14 @@
+RECREATE Page account_wizard_page__v (
+   label('Account Wizard'),
+   active(true),
+   client_distribution(),
+   default_client_code('account_wizard_page__v'),
+   description('Account Wizard Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.accountwizard.controls.AccountWizardPageController'),
+   url_path_name('account-wizard')
+);

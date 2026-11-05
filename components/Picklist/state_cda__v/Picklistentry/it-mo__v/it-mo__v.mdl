@@ -1,0 +1,6 @@
+Picklistentry it-mo__v (
+   value('Modena'),
+   order(2228),
+   active(true),
+   controlling_entries('it__v')
+);

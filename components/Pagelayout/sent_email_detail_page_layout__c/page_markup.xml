@@ -1,0 +1,55 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sent_email__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="account_email__v" />
+            <vault:field reference="email_sent_date__v" />
+            <vault:field reference="sent_email_status__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="product_display__v" />
+            <vault:field reference="approved_email_template__v" />
+            <vault:field reference="failure_msg__v" />
+            <vault:field reference="last_device__v" />
+            <vault:field reference="last_open_date__v" />
+            <vault:field reference="last_click_date__v" />
+            <vault:field reference="open_count__v" />
+            <vault:field reference="click_count__v" />
+            <vault:field reference="approved_document_views__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="event_attendee__v" />
+            <vault:field reference="em_event_team_member__v" />
+            <vault:field reference="medical_event__v" />
+            <vault:field reference="event__v" />
+            <vault:field reference="campaign_execution_id__v" />
+            <vault:field reference="email_files__v" />
+            <vault:field reference="veeva_distributions__v" />
+            <vault:field reference="ctrl_campaign__v" />
+            <vault:field reference="campaign_activity__v" />
+            <vault:field reference="campaign_target__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Email Activity" name="email_activity__c">
+        <vault:relatedObject relationship="email_activity__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="vault_doc_name__v" width="200px" />
+            <vault:field reference="activity_datetime__v" width="200px" />
+            <vault:field reference="event_type__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

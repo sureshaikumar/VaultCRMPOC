@@ -1,0 +1,6 @@
+Picklistentry gb-cma__v (
+   value('Cumbria'),
+   order(1487),
+   active(true),
+   controlling_entries('gb__v')
+);

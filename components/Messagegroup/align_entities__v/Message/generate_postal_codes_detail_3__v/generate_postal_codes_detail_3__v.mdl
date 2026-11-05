@@ -1,0 +1,6 @@
+Message generate_postal_codes_detail_3__v (
+   label(),
+   active(true),
+   default_value('Existing Veeva-provided Geography records that have been retired will be deleted, unless they are assigned to a territory.'),
+   system_managed(false)
+);

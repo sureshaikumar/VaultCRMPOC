@@ -1,0 +1,18 @@
+Field console_tab_access__v (
+   label('Console Tab Access'),
+   type('Picklist'),
+   active(true),
+   description('Configures the Application Profile to be used with the current object record to control application and UI behavior.'),
+   required(false),
+   unique(false),
+   help_content('Configures the Application Profile to be used with the current object record to control application and UI behavior.'),
+   list_column(false),
+   order(20),
+   multi_value(true),
+   picklist('Picklist.console_tab_access__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

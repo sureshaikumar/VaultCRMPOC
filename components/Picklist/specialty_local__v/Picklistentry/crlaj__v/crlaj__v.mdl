@@ -1,0 +1,6 @@
+Picklistentry crlaj__v (
+   value('Clinical Radiopharmacy'),
+   order(294),
+   active(true),
+   controlling_entries('hu__v')
+);

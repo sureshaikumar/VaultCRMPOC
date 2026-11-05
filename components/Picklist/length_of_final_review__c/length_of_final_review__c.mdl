@@ -1,0 +1,9 @@
+RECREATE Picklist length_of_final_review__c (
+   label('Length of Final Review'),
+   active(true),
+   Picklistentry(@Picklistentry/1_week__c.mdl),
+   Picklistentry(@Picklistentry/1_week1__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

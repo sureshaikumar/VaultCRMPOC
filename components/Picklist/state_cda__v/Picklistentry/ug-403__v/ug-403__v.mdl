@@ -1,0 +1,6 @@
+Picklistentry ug-403__v (
+   value('Hoima'),
+   order(4745),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry co-cho__v (
+   value('Chocó'),
+   order(738),
+   active(true),
+   controlling_entries('co__v')
+);

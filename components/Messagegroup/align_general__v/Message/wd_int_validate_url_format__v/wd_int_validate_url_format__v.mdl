@@ -1,0 +1,6 @@
+Message wd_int_validate_url_format__v (
+   label(),
+   active(true),
+   default_value('Your Workday Report is not a JSON Web URL format.'),
+   system_managed(false)
+);

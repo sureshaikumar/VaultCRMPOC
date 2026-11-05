@@ -1,0 +1,5 @@
+Picklistentry olc_subchecklist_design__sys (
+   value('Sub-Checklist Design'),
+   order(77),
+   active(true)
+);

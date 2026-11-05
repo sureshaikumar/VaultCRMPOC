@@ -1,0 +1,73 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.mc_cycle_plan__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="days_total__v" />
+            <vault:field reference="days_remaining__v" />
+            <vault:field reference="percent_cycle_completed__v" />
+            <vault:field reference="mc_cycle_plan_status__v" />
+            <vault:field reference="lock__v" />
+            <vault:field reference="cycle__v" />
+            <vault:field reference="last_calculated__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="aln_activity_goals__v" />
+            <vault:field reference="aln_align_rule_id__v" />
+            <vault:field reference="aln_legacy_align_id__v" />
+            <vault:field reference="aln_targeting_id__v" />
+            <vault:field reference="aln_territory_assigned_accounts__v" />
+            <vault:field reference="aln_territory_model__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Calculations" name="calculations__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="channel_interactions_goal__v" />
+            <vault:field reference="channel_interactions_earned__v" />
+            <vault:field reference="channel_interaction_attainment__v" />
+            <vault:field reference="channel_interaction_status__v" />
+            <vault:field reference="product_interactions_goal__v" />
+            <vault:field reference="product_interactions_earned__v" />
+            <vault:field reference="product_interaction_attainment__v" />
+            <vault:field reference="product_interaction_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Description" name="description__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="description__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Cycle Plan Summary" name="cycle_plan_summary__c">
+        <vault:relatedObject relationship="mc_cycle_plan_summaries__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="summary_for__v" width="200px" />
+            <vault:field reference="attainment__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="MC Cycle Plan Targets" name="mc_cycle_plan_targets__c">
+        <vault:relatedObject relationship="mc_cycle_plan_targets__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="target__v" width="200px" />
+            <vault:field reference="channel_attainment__v" width="200px" />
+            <vault:field reference="channel_status__v" width="200px" />
+            <vault:field reference="product_attainment__v" width="200px" />
+            <vault:field reference="product_status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="external_id__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

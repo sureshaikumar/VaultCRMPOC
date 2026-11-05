@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_topic_material__v.material_email__v (
+   label('Material Email'),
+   active(true),
+   expression('Or(
+            And(IsBlank(material__v), Not(IsBlank(email_template__v))),
+            And(IsBlank(email_template__v), Not(IsBlank(material__v))),
+            And(IsBlank(email_template__v), IsBlank(material__v))
+        )'),
+   description('A single rule cannot have both Material and Email Templates populate. Please create separate rules for these two items'),
+   error_message('A single rule cannot have both Material and Email Templates populate. Please create separate rules for these two items'),
+   error_location('email_template__v',
+      'material__v')
+);

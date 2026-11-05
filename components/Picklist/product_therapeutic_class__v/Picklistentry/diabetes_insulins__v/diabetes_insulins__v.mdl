@@ -1,0 +1,5 @@
+Picklistentry diabetes_insulins__v (
+   value('Diabetes (Insulins)'),
+   order(37),
+   active(true)
+);

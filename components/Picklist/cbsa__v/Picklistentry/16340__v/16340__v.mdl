@@ -1,0 +1,5 @@
+Picklistentry 16340__v (
+   value('Cedartown, GA Micropolitan Statistical Area'),
+   order(930),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry phduf__v (
+   value('Public Health (Dentistry)'),
+   order(1633),
+   active(true),
+   controlling_entries('de__v')
+);

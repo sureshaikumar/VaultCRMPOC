@@ -1,0 +1,5 @@
+Picklistentry uah__sys (
+   value('UAH'),
+   order(187),
+   active(true)
+);

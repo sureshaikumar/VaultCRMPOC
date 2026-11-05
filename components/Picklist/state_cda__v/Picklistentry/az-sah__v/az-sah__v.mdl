@@ -1,0 +1,6 @@
+Picklistentry az-sah__v (
+   value('Şahbuz'),
+   order(189),
+   active(true),
+   controlling_entries('az__v')
+);

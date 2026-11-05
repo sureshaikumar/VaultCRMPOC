@@ -1,0 +1,5 @@
+Picklistentry asia_chita__sys (
+   value('(GMT+09:00) Yakutsk Time (Asia/Chita)'),
+   order(275),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry cipln__v (
+   value('Clinical Investigator Program'),
+   order(235),
+   active(true),
+   controlling_entries('ca__v')
+);

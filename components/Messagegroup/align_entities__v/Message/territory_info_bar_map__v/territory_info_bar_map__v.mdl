@@ -1,0 +1,6 @@
+Message territory_info_bar_map__v (
+   label(),
+   active(true),
+   default_value('Map'),
+   system_managed(false)
+);

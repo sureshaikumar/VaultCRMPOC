@@ -1,0 +1,5 @@
+Picklistentry hormonal_agents_sex_hormones__c (
+   value('Hormonal Agents (Sex Hormones)'),
+   order(117),
+   active(true)
+);

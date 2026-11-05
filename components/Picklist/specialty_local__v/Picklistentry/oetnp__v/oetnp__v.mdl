@@ -1,0 +1,17 @@
+Picklistentry oetnp__v (
+   value('Otolaryngology (ENT)'),
+   order(1231),
+   active(true),
+   controlling_entries('ae__v',
+         'bh__v',
+         'gb__v',
+         'it__v',
+         'lv__v',
+         'mu__v',
+         'om__v',
+         'qa__v',
+         'th__v',
+         'tw__v',
+         'ua__v',
+         'us__v')
+);

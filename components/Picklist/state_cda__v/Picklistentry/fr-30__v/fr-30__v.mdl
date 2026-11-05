@@ -1,0 +1,6 @@
+Picklistentry fr-30__v (
+   value('Gard'),
+   order(1346),
+   active(true),
+   controlling_entries('fr__v')
+);

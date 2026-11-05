@@ -1,0 +1,6 @@
+Message remove_account_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to remove accounts from {0}'),
+   system_managed(false)
+);

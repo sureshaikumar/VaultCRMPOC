@@ -1,0 +1,6 @@
+Message account_territory_model_cant_assign_acc__v (
+   label(),
+   active(true),
+   default_value('Account ${account_name} is inactive and cannot be assigned to the Territory.'),
+   system_managed(false)
+);

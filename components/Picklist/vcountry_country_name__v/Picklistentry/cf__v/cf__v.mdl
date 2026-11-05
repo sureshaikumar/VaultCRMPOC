@@ -1,0 +1,5 @@
+Picklistentry cf__v (
+   value('Central African Republic'),
+   order(40),
+   active(true)
+);

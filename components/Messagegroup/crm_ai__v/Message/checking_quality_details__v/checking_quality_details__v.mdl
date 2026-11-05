@@ -1,0 +1,6 @@
+Message checking_quality_details__v (
+   label(),
+   active(true),
+   default_value('Please wait for the check to finish or cancel to end the quality check.'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield message_template_id__v (
+   source('custom'),
+   required(false)
+);

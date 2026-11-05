@@ -1,0 +1,23 @@
+Field max_sample_lines__v (
+   label('MAX_SAMPLE_LINES'),
+   type('Number'),
+   active(true),
+   description('Maximum number of sample lines in a group. Default is 10.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(211),
+   default_value('10'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,7 @@
+RECREATE Picklist inventory_order_al_user_allocation_group__v (
+   label('User Allocation Group'),
+   active(true),
+   Picklistentry(@Picklistentry/group_a__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

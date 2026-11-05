@@ -1,0 +1,6 @@
+Picklistentry ph-lan__v (
+   value('Lanao del Norte'),
+   order(3573),
+   active(true),
+   controlling_entries('ph__v')
+);

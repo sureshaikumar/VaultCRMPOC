@@ -1,0 +1,6 @@
+Picklistentry imaga__v (
+   value('Internal Medicine and Gastroenterology and Hepatology'),
+   order(788),
+   active(true),
+   controlling_entries('at__v')
+);

@@ -1,0 +1,6 @@
+Message upload_attachments__v (
+   label(),
+   active(true),
+   default_value('Upload attachments'),
+   system_managed(false)
+);

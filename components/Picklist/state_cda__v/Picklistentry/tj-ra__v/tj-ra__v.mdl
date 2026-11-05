@@ -1,0 +1,6 @@
+Picklistentry tj-ra__v (
+   value('nohiyahoi tobei jumhurí'),
+   order(4409),
+   active(true),
+   controlling_entries('tj__v')
+);

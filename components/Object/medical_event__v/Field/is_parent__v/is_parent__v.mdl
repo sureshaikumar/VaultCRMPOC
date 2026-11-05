@@ -1,0 +1,19 @@
+Field is_parent__v (
+   label('Is Parent'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field is used by the system. It must be visible to users of Veeva Event Management.'),
+   list_column(false),
+   order(57),
+   formula('IsBlank( Id(em_event__vr.parent_event__v) )'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

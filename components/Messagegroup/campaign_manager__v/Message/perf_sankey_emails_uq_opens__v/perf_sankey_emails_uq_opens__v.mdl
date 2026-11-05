@@ -1,0 +1,6 @@
+Message perf_sankey_emails_uq_opens__v (
+   label(),
+   active(true),
+   default_value('Unique Opens'),
+   system_managed(false)
+);

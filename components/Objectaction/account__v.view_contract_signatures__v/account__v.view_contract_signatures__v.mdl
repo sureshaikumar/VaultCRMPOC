@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.view_contract_signatures__v (
+   label('View Contract Signatures'),
+   description('View signatures for contract partner records for the account'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.contractsmanagement.contractsignatures.actions.AccountViewContractSignaturesAction'),
+   active(true),
+   available_all_states(true)
+);

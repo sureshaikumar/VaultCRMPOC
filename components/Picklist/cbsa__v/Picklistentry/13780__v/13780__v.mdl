@@ -1,0 +1,5 @@
+Picklistentry 13780__v (
+   value('Binghamton, NY Metropolitan Statistical Area'),
+   order(881),
+   active(true)
+);

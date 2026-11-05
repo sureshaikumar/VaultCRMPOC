@@ -1,0 +1,6 @@
+Message circular_terr_reference_exists_error__v (
+   label(),
+   active(true),
+   default_value('Failed to create CRM Territory ${name__v}. A circular reference exists.'),
+   system_managed(false)
+);

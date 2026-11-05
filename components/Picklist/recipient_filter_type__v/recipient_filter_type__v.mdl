@@ -1,0 +1,8 @@
+RECREATE Picklist recipient_filter_type__v (
+   label('Recipient Filter Type'),
+   active(true),
+   Picklistentry(@Picklistentry/optional_on__v.mdl),
+   Picklistentry(@Picklistentry/mandatory__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

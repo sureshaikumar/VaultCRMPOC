@@ -1,0 +1,6 @@
+Picklistentry us-mo__v (
+   value('Missouri'),
+   order(4817),
+   active(true),
+   controlling_entries('us__v')
+);

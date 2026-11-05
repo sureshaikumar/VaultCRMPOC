@@ -1,0 +1,6 @@
+Message insight_quality_help_text__v (
+   label(),
+   active(true),
+   default_value('The quality check displays how your text compares to the guidelines.'),
+   system_managed(false)
+);

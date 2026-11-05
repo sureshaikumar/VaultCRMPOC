@@ -1,0 +1,6 @@
+Message microphone_in_use_message__v (
+   label(),
+   active(true),
+   default_value('Vault CRM cannot record audio because the device''s microphone is already in use by another app.'),
+   system_managed(false)
+);

@@ -1,0 +1,32 @@
+RECREATE Notificationtemplate flash_report_success__v (
+   label('flashReportSuccess'),
+   active(true),
+   description('Job notification success template for flash report execution'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Report: ${reportName} ran at ${reportRunTime}'),
+   notification('<p>
+${reportViewerUrl}
+</p>
+
+<p>
+Ran as: ${reportRunAsUserFullName}<br />
+Ran at: ${reportRunTime}
+</p>
+'),
+   email_body('<p>
+${reportViewerUrl}
+</p>
+
+<p>
+Ran as: ${reportRunAsUserFullName}<br />
+Ran at: ${reportRunTime}
+</p>
+
+<p>
+${reportHtml}
+</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

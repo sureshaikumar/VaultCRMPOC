@@ -1,0 +1,9 @@
+RECREATE Objectvalidation sample_limit__v.sl_template_required_amount_quantity__v (
+   label('SL Template Required Amount or Quantity'),
+   active(true),
+   expression('If(IsBlank(account_types__v) || (Not(IsBlank(product__v)) && (Not(IsBlank(limit_quantity__v)) || Not(IsBlank(limit_amount__v))) && Not(IsBlank(start_date__v)) && Not(IsBlank(end_date__v))), true, Not(IsBlank(limit_quantity__v)) || Not(IsBlank(limit_amount__v)))'),
+   description('Limit Quantity or Limit Amount is required if Account Types is used.'),
+   error_message('Limit Amount or Limit Quantity is required if Account Types is used'),
+   error_location('limit_quantity__v',
+      'limit_amount__v')
+);

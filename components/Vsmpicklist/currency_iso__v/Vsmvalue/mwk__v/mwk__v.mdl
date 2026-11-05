@@ -1,0 +1,10 @@
+Vsmvalue mwk__v (
+   label('MWK'),
+   active(true),
+   description('The official currency of Malawi (MWK), used for all domestic financial and commercial transactions in the country.'),
+   synonyms('Malawian kwacha',
+         'kwacha',
+         'MWK'),
+   target('mwk__sys'),
+   target_label('MWK')
+);

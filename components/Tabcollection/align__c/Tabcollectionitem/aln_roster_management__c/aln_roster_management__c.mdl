@@ -1,0 +1,8 @@
+Tabcollectionitem aln_roster_management__c (
+   label(),
+   active(true),
+   tabs(),
+   order(20),
+   tab('Tab.aln_roster_management__v'),
+   type('Tab')
+);

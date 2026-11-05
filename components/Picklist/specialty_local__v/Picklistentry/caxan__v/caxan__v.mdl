@@ -1,0 +1,6 @@
+Picklistentry caxan__v (
+   value('Cardiothoracic Anaesthesia'),
+   order(166),
+   active(true),
+   controlling_entries('ng__v')
+);

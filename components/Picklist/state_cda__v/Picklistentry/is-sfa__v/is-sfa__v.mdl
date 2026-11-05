@@ -1,0 +1,6 @@
+Picklistentry is-sfa__v (
+   value('Sveitarfélagið Árborg'),
+   order(2136),
+   active(true),
+   controlling_entries('is__v')
+);

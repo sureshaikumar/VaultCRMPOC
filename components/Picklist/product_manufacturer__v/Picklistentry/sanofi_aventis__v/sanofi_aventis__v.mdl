@@ -1,0 +1,5 @@
+Picklistentry sanofi_aventis__v (
+   value('sanofi-aventis'),
+   order(43),
+   active(true)
+);

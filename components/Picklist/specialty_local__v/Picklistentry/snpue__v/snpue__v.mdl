@@ -1,0 +1,6 @@
+Picklistentry snpue__v (
+   value('Specialized Nursing'),
+   order(1788),
+   active(true),
+   controlling_entries('sa__v')
+);

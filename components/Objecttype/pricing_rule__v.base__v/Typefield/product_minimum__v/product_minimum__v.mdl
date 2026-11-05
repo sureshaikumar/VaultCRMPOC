@@ -1,0 +1,4 @@
+Typefield product_minimum__v (
+   source('standard'),
+   required(false)
+);

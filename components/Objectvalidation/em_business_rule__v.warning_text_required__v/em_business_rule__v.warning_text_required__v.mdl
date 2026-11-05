@@ -1,0 +1,15 @@
+RECREATE Objectvalidation em_business_rule__v.warning_text_required__v (
+   label('Warning Text Required'),
+   active(true),
+   expression('Case(object_type__vr.api_name__v,
+                    "expense_estimate_av_equipment_rule__v", true,
+                    "expense_estimate_flat_fee_rule__v", true,
+                    "expense_estimate_meal_rule__v", true,
+                    "expense_estimate_speaker_travel_rule__v", true,
+                    "expense_estimate_speaker_lodging_rule__v", true,
+                    false
+                ) = true || Not(IsBlank(warning_text__v))'),
+   description('warning_text__v is not added to the Event Business Rule.'),
+   error_message('This field is required.'),
+   error_location('warning_text__v')
+);

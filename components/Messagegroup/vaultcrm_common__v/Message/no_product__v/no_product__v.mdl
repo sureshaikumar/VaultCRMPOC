@@ -1,0 +1,6 @@
+Message no_product__v (
+   label(),
+   active(true),
+   default_value('No Products.'),
+   system_managed(false)
+);

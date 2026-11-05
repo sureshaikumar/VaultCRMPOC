@@ -1,0 +1,3 @@
+Typeaction retry_user_creation__sys (
+   action('veevaid_invite_vault_user_creation__sys.retry_user_creation__sys')
+);

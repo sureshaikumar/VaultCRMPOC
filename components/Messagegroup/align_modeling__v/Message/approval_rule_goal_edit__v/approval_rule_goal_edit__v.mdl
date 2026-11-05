@@ -1,0 +1,6 @@
+Message approval_rule_goal_edit__v (
+   label(),
+   active(true),
+   default_value('Goal Edit'),
+   system_managed(false)
+);

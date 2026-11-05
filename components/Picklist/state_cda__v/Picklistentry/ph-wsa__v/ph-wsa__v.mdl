@@ -1,0 +1,6 @@
+Picklistentry ph-wsa__v (
+   value('Samar'),
+   order(3610),
+   active(true),
+   controlling_entries('ph__v')
+);

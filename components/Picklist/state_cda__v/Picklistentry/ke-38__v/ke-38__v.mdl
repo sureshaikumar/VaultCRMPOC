@@ -1,0 +1,6 @@
+Picklistentry ke-38__v (
+   value('Siaya'),
+   order(2391),
+   active(true),
+   controlling_entries('ke__v')
+);

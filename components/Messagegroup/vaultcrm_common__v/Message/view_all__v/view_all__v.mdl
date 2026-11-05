@@ -1,0 +1,6 @@
+Message view_all__v (
+   label(),
+   active(true),
+   default_value('View All'),
+   system_managed(false)
+);

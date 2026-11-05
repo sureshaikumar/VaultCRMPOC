@@ -1,0 +1,6 @@
+Message rewrite__v (
+   label(),
+   active(true),
+   default_value('Rewrite'),
+   system_managed(false)
+);

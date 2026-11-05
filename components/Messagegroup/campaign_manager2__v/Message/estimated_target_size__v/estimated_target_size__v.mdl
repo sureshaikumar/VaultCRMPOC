@@ -1,0 +1,6 @@
+Message estimated_target_size__v (
+   label(),
+   active(true),
+   default_value('Estimated Target Size: ${total}'),
+   system_managed(false)
+);

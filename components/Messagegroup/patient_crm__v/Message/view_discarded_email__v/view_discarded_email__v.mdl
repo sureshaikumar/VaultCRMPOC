@@ -1,0 +1,6 @@
+Message view_discarded_email__v (
+   label(),
+   active(true),
+   default_value('View Discarded'),
+   system_managed(false)
+);

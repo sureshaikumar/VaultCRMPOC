@@ -1,0 +1,6 @@
+Picklistentry mk-108__v (
+   value('Sveti Nikole'),
+   order(2971),
+   active(true),
+   controlling_entries('mk__v')
+);

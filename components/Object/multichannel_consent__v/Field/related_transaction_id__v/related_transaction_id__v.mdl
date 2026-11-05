@@ -1,0 +1,19 @@
+Field related_transaction_id__v (
+   label('Related Transaction Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content('Stores the Mobile Id of the Sent_Email record created for sending the confirmation of opt in'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

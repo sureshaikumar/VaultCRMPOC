@@ -1,0 +1,18 @@
+Field non_executable__v (
+   label('Non Executable'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field indicates that whether a Call Objective is good for execution (based on prerequisite execution), it works in conjunction with the Prerequisite field and uses negative logic'),
+   list_column(false),
+   order(21),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

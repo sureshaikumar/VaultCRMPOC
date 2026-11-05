@@ -1,0 +1,4 @@
+Typefield analytics_count_weekend_calls__v (
+   source('standard'),
+   required(false)
+);

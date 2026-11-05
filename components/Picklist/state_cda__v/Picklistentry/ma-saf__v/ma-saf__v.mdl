@@ -1,0 +1,6 @@
+Picklistentry ma-saf__v (
+   value('Safi'),
+   order(2831),
+   active(true),
+   controlling_entries('ma__v')
+);

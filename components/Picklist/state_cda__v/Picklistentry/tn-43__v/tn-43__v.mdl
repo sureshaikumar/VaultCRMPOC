@@ -1,0 +1,6 @@
+Picklistentry tn-43__v (
+   value('Sidi Bouzid'),
+   order(4443),
+   active(true),
+   controlling_entries('tn__v')
+);

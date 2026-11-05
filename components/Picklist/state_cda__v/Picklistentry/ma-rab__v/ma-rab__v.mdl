@@ -1,0 +1,6 @@
+Picklistentry ma-rab__v (
+   value('Rabat'),
+   order(2829),
+   active(true),
+   controlling_entries('ma__v')
+);

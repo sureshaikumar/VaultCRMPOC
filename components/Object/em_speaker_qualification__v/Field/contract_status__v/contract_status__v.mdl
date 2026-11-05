@@ -1,0 +1,18 @@
+Field contract_status__v (
+   label('Contract Status'),
+   type('Picklist'),
+   active(true),
+   description('The status of the contract that includes the speaker''s services.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.em_speaker_qualification_contract_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

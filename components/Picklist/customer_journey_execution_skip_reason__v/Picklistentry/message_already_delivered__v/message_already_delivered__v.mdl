@@ -1,0 +1,5 @@
+Picklistentry message_already_delivered__v (
+   value('Message Already Delivered'),
+   order(4),
+   active(true)
+);

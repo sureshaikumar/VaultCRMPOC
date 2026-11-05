@@ -1,0 +1,6 @@
+Picklistentry ma-hoc__v (
+   value('Al Hoceïma'),
+   order(2804),
+   active(true),
+   controlling_entries('ma__v')
+);

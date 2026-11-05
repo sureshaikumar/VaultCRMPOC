@@ -1,0 +1,6 @@
+Picklistentry th-33__v (
+   value('Si Sa Ket'),
+   order(4349),
+   active(true),
+   controlling_entries('th__v')
+);

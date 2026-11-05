@@ -1,0 +1,5 @@
+Picklistentry zip__v (
+   value('Zip'),
+   order(5),
+   active(true)
+);

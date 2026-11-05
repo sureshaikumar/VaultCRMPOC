@@ -1,0 +1,4 @@
+Typefield speaker_transportation_method__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field inactive_condition__v (
+   label('Inactive Condition'),
+   type('Boolean'),
+   active(true),
+   description('This flag is true if a child questions condition is not met and therefore the question is not visible.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

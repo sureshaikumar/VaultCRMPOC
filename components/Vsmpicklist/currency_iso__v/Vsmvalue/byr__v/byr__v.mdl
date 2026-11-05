@@ -1,0 +1,9 @@
+Vsmvalue byr__v (
+   label('BYR'),
+   active(true),
+   description('Use when recording historical monetary amounts in the Belarusian Ruble that was in circulation from 2000 to 2016.'),
+   synonyms('Belarusian Ruble (2000–2016)',
+         'Old Belarus Ruble'),
+   target('byr__sys'),
+   target_label('BYR')
+);

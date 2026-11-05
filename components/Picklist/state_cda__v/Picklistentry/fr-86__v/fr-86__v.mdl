@@ -1,0 +1,6 @@
+Picklistentry fr-86__v (
+   value('Vienne'),
+   order(1404),
+   active(true),
+   controlling_entries('fr__v')
+);

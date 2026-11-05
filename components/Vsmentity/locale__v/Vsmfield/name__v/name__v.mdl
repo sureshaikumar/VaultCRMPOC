@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('Human-readable name of the locale (e.g., ''English (United States)'', ''French (Canada)''). This is the primary display identifier used when presenting locale options to users or administrators.'),
+   example_values(),
+   synonyms('locale name',
+         'display name',
+         'label'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

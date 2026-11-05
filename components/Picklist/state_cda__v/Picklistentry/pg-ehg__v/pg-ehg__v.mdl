@@ -1,0 +1,6 @@
+Picklistentry pg-ehg__v (
+   value('Eastern Highlands'),
+   order(3497),
+   active(true),
+   controlling_entries('pg__v')
+);

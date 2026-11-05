@@ -1,0 +1,4 @@
+Typefield group_identifier__v (
+   source('custom'),
+   required(false)
+);

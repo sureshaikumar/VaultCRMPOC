@@ -1,0 +1,7 @@
+Typefield fixture_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.planogram_line_fixture_type__v.hanging_bar__v',
+         'Picklist.planogram_line_fixture_type__v.pegboard__v',
+         'Picklist.planogram_line_fixture_type__v.shelf__v')
+);

@@ -1,0 +1,24 @@
+Field disable_search_terms__v (
+   label('Disable Search Terms'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This holds a list of search terms that would be disabled for the User.
+
+            <Object1>.<Field_API_name1>,<Object1>.<Field_API_name2>,<Object2>.<Field_API_name1>...
+
+                For example: "Account.Account_Identifier,Address_Vod.Phone_1_vod__c'),
+   list_column(false),
+   order(100),
+   default_value('"DISABLE_SEARCH_TERMS_VOD;;Common"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

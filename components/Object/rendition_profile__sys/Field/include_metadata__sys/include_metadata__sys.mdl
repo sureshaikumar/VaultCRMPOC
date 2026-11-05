@@ -1,0 +1,17 @@
+Field include_metadata__sys (
+   label('Include source document properties'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, all new Viewable Renditions for Microsoft Word, Excel and PowerPoint source documents will include Title, Author, Subject and Keywords fields in the rendition’s properties.'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

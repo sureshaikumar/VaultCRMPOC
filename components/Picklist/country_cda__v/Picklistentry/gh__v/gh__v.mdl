@@ -1,0 +1,5 @@
+Picklistentry gh__v (
+   value('Ghana'),
+   order(84),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 34100__v (
+   value('Morristown, TN Metropolitan Statistical Area'),
+   order(129),
+   active(true)
+);

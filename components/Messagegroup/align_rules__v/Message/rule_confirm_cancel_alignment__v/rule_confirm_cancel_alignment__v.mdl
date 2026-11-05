@@ -1,0 +1,6 @@
+Message rule_confirm_cancel_alignment__v (
+   label(),
+   active(true),
+   default_value('Cancel Account Assignment Preview'),
+   system_managed(false)
+);

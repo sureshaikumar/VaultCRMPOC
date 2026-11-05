@@ -1,0 +1,6 @@
+Picklistentry es-o__v (
+   value('Asturias'),
+   order(1237),
+   active(true),
+   controlling_entries('es__v')
+);

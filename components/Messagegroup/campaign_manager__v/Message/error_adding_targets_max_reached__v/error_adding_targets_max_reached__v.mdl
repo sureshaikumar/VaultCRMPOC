@@ -1,0 +1,6 @@
+Message error_adding_targets_max_reached__v (
+   label(),
+   active(true),
+   default_value('Unable to add more than 2,000 targets at once'),
+   system_managed(false)
+);

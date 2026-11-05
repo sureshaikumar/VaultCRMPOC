@@ -1,0 +1,5 @@
+Picklistentry equals__v (
+   value('equals'),
+   order(1),
+   active(true)
+);

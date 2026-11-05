@@ -1,0 +1,5 @@
+Picklistentry ipad__v (
+   value('iPad'),
+   order(0),
+   active(true)
+);

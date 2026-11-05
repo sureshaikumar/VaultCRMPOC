@@ -1,0 +1,6 @@
+Message no_task_selected__v (
+   label(),
+   active(true),
+   default_value('No Task Selected'),
+   system_managed(false)
+);

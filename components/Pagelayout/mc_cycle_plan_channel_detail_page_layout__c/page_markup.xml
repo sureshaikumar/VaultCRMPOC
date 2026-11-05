@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.mc_cycle_plan_channel__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="cycle_plan_target__v" />
+            <vault:field reference="cycle_channel__v" />
+            <vault:field reference="channel_activity_goal__v" />
+            <vault:field reference="channel_activity_actual__v" />
+            <vault:field reference="channel_interactions_actual__v" />
+            <vault:field reference="channel_interactions_earned__v" />
+            <vault:field reference="aln_source_goal__v" />
+            <vault:field reference="aln_targeting_id__v" />
+            <vault:field reference="aln_targeting_rule_channel_group__v" />
+            <vault:field reference="aln_channel_label__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="MC Cycle Plan Products" name="mc_cycle_plan_products__c">
+        <vault:relatedObject relationship="mc_cycle_plan_products__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="cycle_product__v" width="200px" />
+            <vault:field reference="product_interactions_actual__v" width="200px" />
+            <vault:field reference="product_interactions_earned__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="ctrl_mc_cycle__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

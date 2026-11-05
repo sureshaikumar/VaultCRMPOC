@@ -1,0 +1,17 @@
+RECREATE Vsmentity user_task__v (
+   label('User Task'),
+   active(true),
+   description('A user task is an object record with the User Task object class applied. A user task represents an individual unit of work. For example, a Clinical Research Associate at VeePharm may create user tasks to represent the work involved with bringing a site up to compliance after a site visit. User tasks are independent from Workflows.'),
+   synonyms('Ad-hoc tasks',
+      'To-Do',
+      'Manual Assignment'),
+   target('Object.user_task__v'),
+   target_label('User Task'),
+   Vsmfield(@Vsmfield/assigned_to__v.mdl),
+   Vsmfield(@Vsmfield/completion_date__v.mdl),
+   Vsmfield(@Vsmfield/created_by__v.mdl),
+   Vsmfield(@Vsmfield/description__v.mdl),
+   Vsmfield(@Vsmfield/due_date__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmrelationship(@Vsmrelationship/assigned_to__v.mdl)
+);

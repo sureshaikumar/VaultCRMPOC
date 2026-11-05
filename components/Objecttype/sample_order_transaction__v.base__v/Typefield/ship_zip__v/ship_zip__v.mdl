@@ -1,0 +1,4 @@
+Typefield ship_zip__v (
+   source('standard'),
+   required(false)
+);

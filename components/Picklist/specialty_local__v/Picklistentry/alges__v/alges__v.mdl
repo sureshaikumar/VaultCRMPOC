@@ -1,0 +1,6 @@
+Picklistentry alges__v (
+   value('Algesiology'),
+   order(37),
+   active(true),
+   controlling_entries('sk__v')
+);

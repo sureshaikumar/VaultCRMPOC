@@ -1,0 +1,6 @@
+Message scheduled_job_email_subject__v (
+   label(),
+   active(true),
+   default_value('${process_type} process ${process_id} aborted by scheduled job'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry qa-wa__v (
+   value('Al Wakrah'),
+   order(3714),
+   active(true),
+   controlling_entries('qa__v')
+);

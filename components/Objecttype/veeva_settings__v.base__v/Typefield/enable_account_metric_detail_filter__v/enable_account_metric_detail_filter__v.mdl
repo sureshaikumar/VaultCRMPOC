@@ -1,0 +1,4 @@
+Typefield enable_account_metric_detail_filter__v (
+   source('standard'),
+   required(false)
+);

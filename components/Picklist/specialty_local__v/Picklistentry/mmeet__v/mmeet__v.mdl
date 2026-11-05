@@ -1,0 +1,6 @@
+Picklistentry mmeet__v (
+   value('Metabolic Medicine'),
+   order(958),
+   active(true),
+   controlling_entries('nz__v')
+);

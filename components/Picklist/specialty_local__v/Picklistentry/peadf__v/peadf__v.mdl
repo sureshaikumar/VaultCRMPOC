@@ -1,0 +1,9 @@
+Picklistentry peadf__v (
+   value('Pediatric Endocrinology and Diabetology'),
+   order(1370),
+   active(true),
+   controlling_entries('ba__v',
+         'cz__v',
+         'hr__v',
+         'pl__v')
+);

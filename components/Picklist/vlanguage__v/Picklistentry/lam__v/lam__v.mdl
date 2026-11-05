@@ -1,0 +1,5 @@
+Picklistentry lam__v (
+   value('Lamba'),
+   order(183),
+   active(false)
+);

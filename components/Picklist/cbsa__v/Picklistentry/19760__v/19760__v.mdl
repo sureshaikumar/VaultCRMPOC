@@ -1,0 +1,5 @@
+Picklistentry 19760__v (
+   value('De Ridder, LA Micropolitan Statistical Area'),
+   order(456),
+   active(true)
+);

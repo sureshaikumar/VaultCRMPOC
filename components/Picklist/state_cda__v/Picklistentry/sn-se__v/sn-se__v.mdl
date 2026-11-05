@@ -1,0 +1,6 @@
+Picklistentry sn-se__v (
+   value('Sédhiou'),
+   order(4218),
+   active(true),
+   controlling_entries('sn__v')
+);

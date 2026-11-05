@@ -1,0 +1,6 @@
+Message patient_journey_exists__v (
+   label(),
+   active(true),
+   default_value('A ${journey_name} Patient Journey already exists for this Patient'),
+   system_managed(false)
+);

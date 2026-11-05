@@ -1,0 +1,9 @@
+Typefield offerings__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_offerings__c.hmo__c',
+         'Picklist.account_offerings__c.hra__c',
+         'Picklist.account_offerings__c.hsa__c',
+         'Picklist.account_offerings__c.pos__c',
+         'Picklist.account_offerings__c.ppo__c')
+);

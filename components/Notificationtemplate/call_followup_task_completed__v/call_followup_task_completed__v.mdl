@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate call_followup_task_completed__v (
+   label('Call Followup Task Completed'),
+   active(true),
+   description('Notification to the task Owner that the Assigned To user has completed his task.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.call_followup_task__v'),
+   subject('Task Completed: ${Object.name__v}'),
+   notification('The task ${Object.name__v} has been completed'),
+   email_body('The task ${Object.name__v} has been completed'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry cv-sl__v (
+   value('Sal'),
+   order(800),
+   active(true),
+   controlling_entries('cv__v')
+);

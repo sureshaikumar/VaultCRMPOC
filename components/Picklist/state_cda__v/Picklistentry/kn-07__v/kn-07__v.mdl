@@ -1,0 +1,6 @@
+Picklistentry kn-07__v (
+   value('Saint John Figtree'),
+   order(2447),
+   active(true),
+   controlling_entries('kn__v')
+);

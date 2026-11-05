@@ -1,0 +1,6 @@
+Message coverage__v (
+   label(),
+   active(true),
+   default_value('Coverage'),
+   system_managed(false)
+);

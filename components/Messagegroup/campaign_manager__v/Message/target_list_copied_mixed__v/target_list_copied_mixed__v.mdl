@@ -1,0 +1,6 @@
+Message target_list_copied_mixed__v (
+   label(),
+   active(true),
+   default_value('Target list copied: ${success_count} targets added, ${error_count} targets failed.'),
+   system_managed(false)
+);

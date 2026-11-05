@@ -1,0 +1,6 @@
+Picklistentry habte__v (
+   value('Hematology and Blood Transfusion'),
+   order(685),
+   active(true),
+   controlling_entries('ph__v')
+);

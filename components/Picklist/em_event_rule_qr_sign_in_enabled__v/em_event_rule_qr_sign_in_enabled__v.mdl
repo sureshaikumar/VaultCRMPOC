@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_rule_qr_sign_in_enabled__v (
+   label('QR Sign-In Enabled?'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

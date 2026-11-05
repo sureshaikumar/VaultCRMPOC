@@ -1,0 +1,6 @@
+Typefield cobrowse_session_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_event_cobrowse_session_status__v.completed__v',
+         'Picklist.medical_event_cobrowse_session_status__v.scheduled__v')
+);

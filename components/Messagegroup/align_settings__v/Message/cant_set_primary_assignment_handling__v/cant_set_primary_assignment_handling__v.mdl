@@ -1,0 +1,6 @@
+Message cant_set_primary_assignment_handling__v (
+   label(),
+   active(true),
+   default_value('Primary Assignment Handling can only be enabled for Global Settings.'),
+   system_managed(false)
+);

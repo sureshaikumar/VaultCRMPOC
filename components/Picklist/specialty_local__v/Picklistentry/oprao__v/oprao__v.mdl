@@ -1,0 +1,7 @@
+Picklistentry oprao__v (
+   value('Orofacial Pain'),
+   order(1187),
+   active(true),
+   controlling_entries('qa__v',
+         'sa__v')
+);

@@ -1,0 +1,6 @@
+Message cycle_utilization_covered__v (
+   label(),
+   active(true),
+   default_value('Covered'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry corp_owned__v (
+   value('Corp. Owned'),
+   order(17),
+   active(true)
+);

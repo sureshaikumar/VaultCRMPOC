@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17531272111078200__c (
+   label('Strategic Account Lead'),
+   active(true),
+   application_role('l__c'),
+   permission_sets('Permissionset.strategic_account_lead_account_managemen__c')
+);

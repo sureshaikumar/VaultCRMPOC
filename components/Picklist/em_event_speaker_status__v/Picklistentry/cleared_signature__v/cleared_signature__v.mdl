@@ -1,0 +1,5 @@
+Picklistentry cleared_signature__v (
+   value('Cleared Signature'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,17 @@
+Field sub_channel_description__v (
+   label('Sub Channel Description'),
+   type('LongText'),
+   active(true),
+   description('Optional field to add description for a sub channel.'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

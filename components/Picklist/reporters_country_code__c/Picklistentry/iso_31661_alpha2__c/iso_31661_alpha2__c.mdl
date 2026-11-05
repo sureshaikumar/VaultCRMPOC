@@ -1,0 +1,5 @@
+Picklistentry iso_31661_alpha2__c (
+   value('ISO 3166-1 alpha-2'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field error__v (
+   label('Error'),
+   type('String'),
+   active(true),
+   description('Details of any errors that occurred during outbound DCR requests to Veeva Network, or inbound DCR updates from Veeva Network. Errors are cleared after DCR is successfully processed.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

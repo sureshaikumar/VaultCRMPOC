@@ -1,0 +1,6 @@
+Message remove_decision_confirmation_1__v (
+   label(),
+   active(true),
+   default_value('By removing this decision, any details entered for this decision will be removed. Would you like to remove this decision?'),
+   system_managed(false)
+);

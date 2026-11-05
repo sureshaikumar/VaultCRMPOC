@@ -1,0 +1,6 @@
+Message submit_no_deleting__v (
+   label(),
+   active(true),
+   default_value('You cannot delete any information from a submitted ${call_label}'),
+   system_managed(false)
+);

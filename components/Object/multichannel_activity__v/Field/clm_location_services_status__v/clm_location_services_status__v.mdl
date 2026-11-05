@@ -1,0 +1,21 @@
+Field clm_location_services_status__v (
+   label('CLM Location Services Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates the state of location services at the time the key messages is shown
+Enabled_vod - location services are turned on and the system is able to get the user''s location
+Disabled_vod - location services are turned off
+No_connection_vod - no network c'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.multichanne_clm_location_services_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

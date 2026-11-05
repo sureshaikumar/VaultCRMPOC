@@ -1,0 +1,5 @@
+Picklistentry 33780__v (
+   value('Monroe, MI Metropolitan Statistical Area'),
+   order(85),
+   active(true)
+);

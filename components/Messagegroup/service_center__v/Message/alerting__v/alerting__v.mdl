@@ -1,0 +1,6 @@
+Message alerting__v (
+   label(),
+   active(true),
+   default_value('Alerting'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry mitem__v (
+   value('Medical Imaging Technologist'),
+   order(62),
+   active(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Sharingrule administer_dashboards__v (
+   label('Administer Dashboards'),
+   active(true),
+   description(),
+   object('dashboard__sys'),
+   criteria(),
+   Sharingrole(@Sharingrole/editor__v.mdl),
+   Sharingrole(@Sharingrole/owner__v.mdl)
+);

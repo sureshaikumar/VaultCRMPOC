@@ -1,0 +1,6 @@
+Message vmi_national_reach__v (
+   label(),
+   active(true),
+   default_value('National Reach'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry b30__v (
+   value('B30_vod__c'),
+   order(37),
+   active(true)
+);

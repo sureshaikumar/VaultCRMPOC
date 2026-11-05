@@ -1,0 +1,6 @@
+Message dest_copy_errors_found__v (
+   label(),
+   active(true),
+   default_value('${error_count} errors found while copying records to another ${vault_name}. Address the errors before trying again.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message download_synced_ids__v (
+   label(),
+   active(true),
+   default_value('Download Synced IDs'),
+   system_managed(false)
+);

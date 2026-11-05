@@ -1,0 +1,6 @@
+Picklistentry cl-an__v (
+   value('Antofagasta'),
+   order(668),
+   active(true),
+   controlling_entries('cl__v')
+);

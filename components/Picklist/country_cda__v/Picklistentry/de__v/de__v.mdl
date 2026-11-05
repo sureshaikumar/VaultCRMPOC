@@ -1,0 +1,5 @@
+Picklistentry de__v (
+   value('Germany'),
+   order(83),
+   active(true)
+);

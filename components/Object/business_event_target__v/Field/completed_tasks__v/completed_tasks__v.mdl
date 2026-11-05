@@ -1,0 +1,22 @@
+Field completed_tasks__v (
+   label('Completed Tasks'),
+   type('Number'),
+   active(true),
+   description('The number of tasks that have been completed for this target'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

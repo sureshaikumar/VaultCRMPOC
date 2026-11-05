@@ -1,0 +1,18 @@
+Field is_email_builder__v (
+   label('Is Email Builder'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the Email Template is an Email Builder'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(56),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

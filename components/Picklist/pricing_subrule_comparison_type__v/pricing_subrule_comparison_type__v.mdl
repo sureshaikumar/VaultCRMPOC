@@ -1,0 +1,10 @@
+RECREATE Picklist pricing_subrule_comparison_type__v (
+   label('Comparison Type'),
+   active(true),
+   Picklistentry(@Picklistentry/quantity__v.mdl),
+   Picklistentry(@Picklistentry/list_value__v.mdl),
+   Picklistentry(@Picklistentry/sku_count__v.mdl),
+   Picklistentry(@Picklistentry/inventory_monitoring_value__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

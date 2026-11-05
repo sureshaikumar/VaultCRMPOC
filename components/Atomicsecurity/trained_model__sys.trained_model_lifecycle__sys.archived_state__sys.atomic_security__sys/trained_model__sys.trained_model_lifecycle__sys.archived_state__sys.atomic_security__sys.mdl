@@ -1,0 +1,7 @@
+RECREATE Atomicsecurity trained_model__sys.trained_model_lifecycle__sys.archived_state__sys.atomic_security__sys (
+   label('Trained Model-Lifecycle-Archived'),
+   active(true),
+   object('Object.trained_model__sys'),
+   object_lifecycle('Objectlifecycle.trained_model_lifecycle__sys'),
+   state('Objectlifecyclestate.archived_state__sys')
+);

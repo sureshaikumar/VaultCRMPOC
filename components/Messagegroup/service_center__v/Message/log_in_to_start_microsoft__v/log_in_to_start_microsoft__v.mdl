@@ -1,0 +1,6 @@
+Message log_in_to_start_microsoft__v (
+   label(),
+   active(true),
+   default_value('Please sign in to start using Microsoft.'),
+   system_managed(false)
+);

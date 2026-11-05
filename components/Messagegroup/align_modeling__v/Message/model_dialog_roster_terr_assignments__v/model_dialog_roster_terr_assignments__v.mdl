@@ -1,0 +1,6 @@
+Message model_dialog_roster_terr_assignments__v (
+   label(),
+   active(true),
+   default_value('Model Roster Member Territory Assignments'),
+   system_managed(false)
+);

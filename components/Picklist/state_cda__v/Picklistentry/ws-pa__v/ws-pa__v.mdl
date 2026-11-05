@@ -1,0 +1,6 @@
+Picklistentry ws-pa__v (
+   value('Palauli'),
+   order(4990),
+   active(true),
+   controlling_entries('ws__v')
+);

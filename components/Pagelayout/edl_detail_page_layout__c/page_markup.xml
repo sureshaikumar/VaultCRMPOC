@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.edl__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="matching_fields__v" />
+            <vault:field reference="batch_update__v" />
+            <vault:field reference="last_matched_time__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="copied_from__v" />
+            <vault:field reference="source_edl_template__v" />
+            <vault:field reference="parent__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="EDL Items" name="edl_items__c">
+        <vault:relatedObject relationship="edl_item__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="subtype__v" width="200px" />
+            <vault:field reference="classification__v" width="200px" />
+            <vault:field reference="steady_state_doc_count__v" width="200px" />
+            <vault:field reference="all_doc_count__v" width="200px" />
+            <vault:field reference="expected_steady_state_count__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

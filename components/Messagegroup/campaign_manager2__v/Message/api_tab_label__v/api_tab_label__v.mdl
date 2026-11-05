@@ -1,0 +1,6 @@
+Message api_tab_label__v (
+   label(),
+   active(true),
+   default_value('API'),
+   system_managed(false)
+);

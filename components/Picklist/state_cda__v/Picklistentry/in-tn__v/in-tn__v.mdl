@@ -1,0 +1,6 @@
+Picklistentry in-tn__v (
+   value('Tamil Nādu'),
+   order(2027),
+   active(true),
+   controlling_entries('in__v')
+);

@@ -1,0 +1,11 @@
+Vsmfield unique_login_count__v (
+   label('Unique Login Count'),
+   active(true),
+   description('Number of unique logins on a given day; unique means that a single user logging in twice is only counted once'),
+   example_values(),
+   synonyms(),
+   target('unique_login_count__v'),
+   target_label('Unique Login Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

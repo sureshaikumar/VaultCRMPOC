@@ -1,0 +1,5 @@
+Picklistentry events_management_invite_template__v (
+   value('Events Management Template'),
+   order(4),
+   active(true)
+);

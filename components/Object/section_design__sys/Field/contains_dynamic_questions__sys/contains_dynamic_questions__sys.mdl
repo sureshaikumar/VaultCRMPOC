@@ -1,0 +1,17 @@
+Field contains_dynamic_questions__sys (
+   label('Contains Dynamic Questions'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Indicates if the Section Design contains dynamic questions.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

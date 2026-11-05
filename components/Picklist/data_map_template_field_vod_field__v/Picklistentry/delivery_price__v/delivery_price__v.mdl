@@ -1,0 +1,5 @@
+Picklistentry delivery_price__v (
+   value('Delivery_Price_vod__c'),
+   order(229),
+   active(true)
+);

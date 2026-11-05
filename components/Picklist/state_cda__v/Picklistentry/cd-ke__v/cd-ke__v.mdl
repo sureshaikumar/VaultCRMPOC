@@ -1,0 +1,6 @@
+Picklistentry cd-ke__v (
+   value('Kasai-Oriental'),
+   order(580),
+   active(true),
+   controlling_entries('cd__v')
+);

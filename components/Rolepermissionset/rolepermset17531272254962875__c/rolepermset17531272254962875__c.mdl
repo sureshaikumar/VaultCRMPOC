@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17531272254962875__c (
+   label('Territory Account Manager'),
+   active(true),
+   application_role('m__c'),
+   permission_sets('Permissionset.territory_account_manager__c')
+);

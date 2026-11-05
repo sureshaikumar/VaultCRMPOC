@@ -1,0 +1,6 @@
+Message disconnect_aws_account_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to disconnect ${aws_account_name} (AWS Account ID: ${aws_account_id})? All phone numbers associated with this account will be disconnected from this Vault.'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+Field speaker_rollup_status_filter__v (
+   label('SPEAKER_ROLLUP_STATUS_FILTER'),
+   type('String'),
+   active(true),
+   description('Comma separated list of values to limit the selection of EM_Event_Speaker__v records based on EM_Event_Speaker_Status__v values for counting Year_to_Date_Utilization__v and showing recent Events on the Speaker selection screen.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('"SPEAKER_ROLLUP_STATUS_FILTER;;EVENT_MANAGEMENT"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

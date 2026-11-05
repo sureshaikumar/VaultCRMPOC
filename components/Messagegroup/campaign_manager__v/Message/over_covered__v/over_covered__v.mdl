@@ -1,0 +1,6 @@
+Message over_covered__v (
+   label(),
+   active(true),
+   default_value('Over-Covered'),
+   system_managed(false)
+);

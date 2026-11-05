@@ -1,0 +1,6 @@
+Picklistentry ng-za__v (
+   value('Zamfara'),
+   order(3356),
+   active(true),
+   controlling_entries('ng__v')
+);

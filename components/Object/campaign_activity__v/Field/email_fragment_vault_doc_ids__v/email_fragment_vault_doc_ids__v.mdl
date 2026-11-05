@@ -1,0 +1,17 @@
+Field email_fragment_vault_doc_ids__v (
+   label('Email Fragment Vault Doc IDs'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

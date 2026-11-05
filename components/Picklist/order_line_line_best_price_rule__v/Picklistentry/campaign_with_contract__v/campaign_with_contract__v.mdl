@@ -1,0 +1,5 @@
+Picklistentry campaign_with_contract__v (
+   value('Campaign with Contract'),
+   order(0),
+   active(true)
+);

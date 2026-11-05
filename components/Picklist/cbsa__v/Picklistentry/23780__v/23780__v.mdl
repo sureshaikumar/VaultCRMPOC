@@ -1,0 +1,5 @@
+Picklistentry 23780__v (
+   value('Garden City, KS Micropolitan Statistical Area'),
+   order(400),
+   active(true)
+);

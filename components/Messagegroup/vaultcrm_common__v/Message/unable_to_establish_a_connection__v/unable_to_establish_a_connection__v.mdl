@@ -1,0 +1,6 @@
+Message unable_to_establish_a_connection__v (
+   label(),
+   active(true),
+   default_value('Unable to establish a connection.'),
+   system_managed(false)
+);

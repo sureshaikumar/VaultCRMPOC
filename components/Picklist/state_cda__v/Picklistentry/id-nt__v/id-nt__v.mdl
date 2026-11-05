@@ -1,0 +1,6 @@
+Picklistentry id-nt__v (
+   value('Nusa Tenggara Timur'),
+   order(1940),
+   active(true),
+   controlling_entries('id__v')
+);

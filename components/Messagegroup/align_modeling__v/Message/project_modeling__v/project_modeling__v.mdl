@@ -1,0 +1,6 @@
+Message project_modeling__v (
+   label(),
+   active(true),
+   default_value('Modeling {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message out_of_territory__v (
+   label(),
+   active(true),
+   default_value('Out of Territory'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+Tabcollectionitem territory_management1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(17),
+   tab('Tab.aln_territory_management__v'),
+   type('Tab')
+);

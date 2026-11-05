@@ -1,0 +1,6 @@
+Message unable_to_display_all_cases__v (
+   label(),
+   active(true),
+   default_value('Unable to display Cases'),
+   system_managed(false)
+);

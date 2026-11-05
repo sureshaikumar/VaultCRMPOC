@@ -1,0 +1,6 @@
+Message picklist_value__v (
+   label(),
+   active(true),
+   default_value('Picklist Value'),
+   system_managed(false)
+);

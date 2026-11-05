@@ -1,0 +1,6 @@
+Message cycle_utilization_under_target__v (
+   label(),
+   active(true),
+   default_value('Under Target'),
+   system_managed(false)
+);

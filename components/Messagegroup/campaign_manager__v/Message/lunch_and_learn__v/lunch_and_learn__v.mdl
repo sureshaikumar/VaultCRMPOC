@@ -1,0 +1,6 @@
+Message lunch_and_learn__v (
+   label(),
+   active(true),
+   default_value('Lunch and Learn'),
+   system_managed(false)
+);

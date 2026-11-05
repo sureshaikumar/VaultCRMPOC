@@ -1,0 +1,6 @@
+Message mccp_feedback_field_force__v (
+   label(),
+   active(true),
+   default_value('Field Force'),
+   system_managed(false)
+);

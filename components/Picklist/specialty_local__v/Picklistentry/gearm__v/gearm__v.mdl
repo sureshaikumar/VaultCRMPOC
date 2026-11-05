@@ -1,0 +1,6 @@
+Picklistentry gearm__v (
+   value('Gynecological Endocrinology and Reproductive Medicine'),
+   order(644),
+   active(true),
+   controlling_entries('de__v')
+);

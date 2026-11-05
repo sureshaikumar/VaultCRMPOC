@@ -1,0 +1,6 @@
+Picklistentry ng-ba__v (
+   value('Bauchi'),
+   order(3324),
+   active(true),
+   controlling_entries('ng__v')
+);

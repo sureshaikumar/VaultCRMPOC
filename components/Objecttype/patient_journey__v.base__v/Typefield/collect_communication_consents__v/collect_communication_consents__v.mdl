@@ -1,0 +1,4 @@
+Typefield collect_communication_consents__v (
+   source('standard'),
+   required(false)
+);

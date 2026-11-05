@@ -1,0 +1,19 @@
+Field vexternal_id__v (
+   label('Veeva External ID'),
+   type('String'),
+   active(true),
+   description('System set to prevent creation of duplicate Microsoft Graph Integration Settings records of the same object type.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('System set to prevent creation of duplicate Microsoft Graph Integration Settings records of the same object type.'),
+   list_column(false),
+   order(11),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

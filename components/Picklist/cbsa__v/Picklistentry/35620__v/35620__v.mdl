@@ -1,0 +1,5 @@
+Picklistentry 35620__v (
+   value('New York-Northern New Jersey-Long Island, NY-NJ-PA Metropolitan Statistical'),
+   order(370),
+   active(true)
+);

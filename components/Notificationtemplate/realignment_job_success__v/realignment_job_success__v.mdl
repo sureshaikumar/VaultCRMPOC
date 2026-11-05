@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate realignment_job_success__v (
+   label('Realignment Success'),
+   active(true),
+   description('Notifies the integration user when Realignment completes successfully'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Content Alignment Realignment Complete'),
+   notification('Your request to realign Content Alignment has successfully completed.'),
+   email_body('Your request to realign Content Alignment has successfully completed.'),
+   entity_type('custom'),
+   notification_category('none__sys')
+);

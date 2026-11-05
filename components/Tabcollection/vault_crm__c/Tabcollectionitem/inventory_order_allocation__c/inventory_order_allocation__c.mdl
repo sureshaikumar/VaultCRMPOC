@@ -1,0 +1,8 @@
+Tabcollectionitem inventory_order_allocation__c (
+   label(),
+   active(false),
+   tabs(),
+   order(13),
+   tab('Tab.inventory_order_allocation__c'),
+   type('Tab')
+);

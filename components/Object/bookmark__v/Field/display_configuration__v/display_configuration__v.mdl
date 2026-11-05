@@ -1,0 +1,19 @@
+Field display_configuration__v (
+   label('Display Configuration'),
+   type('String'),
+   active(true),
+   description('Field to hold the display configuration for the Bookmark. Format of the value is: CONTEXT::ATTRIBUTE::DETAIL_ATTRIBUTE'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

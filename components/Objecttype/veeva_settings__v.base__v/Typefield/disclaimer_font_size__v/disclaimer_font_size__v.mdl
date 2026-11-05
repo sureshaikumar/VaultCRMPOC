@@ -1,0 +1,4 @@
+Typefield disclaimer_font_size__v (
+   source('standard'),
+   required(false)
+);

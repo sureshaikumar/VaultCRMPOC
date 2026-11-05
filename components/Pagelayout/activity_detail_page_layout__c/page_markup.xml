@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.activity__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="assigned_to__v" />
+            <vault:field reference="due_date__v" />
+            <vault:field reference="first_assigned_date__v" />
+            <vault:field reference="last_assigned_date__v" />
+            <vault:field reference="start__v" />
+            <vault:field reference="end__v" />
+            <vault:field reference="activity_state__v" />
+            <vault:field reference="completion_date__v" />
+            <vault:field reference="complete__v" />
+            <vault:field reference="assigned__v" />
+            <vault:field reference="object__v" />
+            <vault:field reference="parent__v" />
+            <vault:field reference="task_object_type__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="priority__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

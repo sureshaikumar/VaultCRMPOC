@@ -1,0 +1,6 @@
+Picklistentry is-rgy__v (
+   value('Rangárþing ytra'),
+   order(2128),
+   active(true),
+   controlling_entries('is__v')
+);

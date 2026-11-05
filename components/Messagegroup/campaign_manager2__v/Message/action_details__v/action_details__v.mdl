@@ -1,0 +1,6 @@
+Message action_details__v (
+   label(),
+   active(true),
+   default_value('Action Details'),
+   system_managed(false)
+);

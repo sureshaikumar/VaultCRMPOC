@@ -1,0 +1,5 @@
+Picklistentry 48660__v (
+   value('Wichita Falls, TX Metropolitan Statistical Area'),
+   order(503),
+   active(true)
+);

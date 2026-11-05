@@ -1,0 +1,6 @@
+Picklistentry tn-81__v (
+   value('Gabès'),
+   order(4451),
+   active(true),
+   controlling_entries('tn__v')
+);

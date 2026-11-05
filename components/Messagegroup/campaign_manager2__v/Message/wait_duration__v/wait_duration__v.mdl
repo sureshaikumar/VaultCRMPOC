@@ -1,0 +1,6 @@
+Message wait_duration__v (
+   label(),
+   active(true),
+   default_value('Wait Duration'),
+   system_managed(false)
+);

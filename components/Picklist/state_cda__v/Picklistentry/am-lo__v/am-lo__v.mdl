@@ -1,0 +1,6 @@
+Picklistentry am-lo__v (
+   value('Loṙi'),
+   order(74),
+   active(true),
+   controlling_entries('am__v')
+);

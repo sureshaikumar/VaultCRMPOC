@@ -1,0 +1,14 @@
+RECREATE Page view_hierarchy__v (
+   label('View Hierarchy'),
+   active(true),
+   client_distribution(),
+   default_client_code('view_hierarchy__v'),
+   description('View Hierarchy page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.accounthierarchy.controls.page.ViewHierarchyPageController'),
+   url_path_name('view-hierarchy')
+);

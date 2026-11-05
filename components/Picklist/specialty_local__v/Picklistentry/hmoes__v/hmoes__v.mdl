@@ -1,0 +1,7 @@
+Picklistentry hmoes__v (
+   value('Hospital Medicine'),
+   order(717),
+   active(true),
+   controlling_entries('om__v',
+         'us__v')
+);

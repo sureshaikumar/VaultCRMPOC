@@ -1,0 +1,5 @@
+Picklistentry 100_499__v (
+   value('100 to 499'),
+   order(5),
+   active(true)
+);

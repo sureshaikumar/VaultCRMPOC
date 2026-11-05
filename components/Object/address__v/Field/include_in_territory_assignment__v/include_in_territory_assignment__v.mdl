@@ -1,0 +1,18 @@
+Field include_in_territory_assignment__v (
+   label('Include in Territory Assignment'),
+   type('Boolean'),
+   active(true),
+   description('When this is checked the address will be included in the territory assignment process even if it is not a primary address.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(38),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry bg-16__v (
+   value('Plovdiv'),
+   order(388),
+   active(true),
+   controlling_entries('bg__v')
+);

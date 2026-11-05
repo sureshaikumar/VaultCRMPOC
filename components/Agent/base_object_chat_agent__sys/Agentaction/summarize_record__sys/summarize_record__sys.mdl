@@ -1,0 +1,12 @@
+Agentaction summarize_record__sys (
+   label('Summarize Record'),
+   active(true),
+   api_access(true),
+   description('This Action summarizes the record context for the user to quickly understand the main theme and key points of the primary record and its related data.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(true),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

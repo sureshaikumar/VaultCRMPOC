@@ -1,0 +1,5 @@
+Picklistentry 38460__v (
+   value('Plattsburgh, NY Micropolitan Statistical Area'),
+   order(714),
+   active(true)
+);

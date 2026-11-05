@@ -1,0 +1,3 @@
+Typeaction lock_version__sys (
+   action('edl_item__v.lock_version__sys')
+);

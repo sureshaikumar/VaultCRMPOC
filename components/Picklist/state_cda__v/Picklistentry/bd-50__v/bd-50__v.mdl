@@ -1,0 +1,6 @@
+Picklistentry bd-50__v (
+   value('Pirojpur'),
+   order(279),
+   active(true),
+   controlling_entries('bd__v')
+);

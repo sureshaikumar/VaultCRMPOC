@@ -1,0 +1,6 @@
+Picklistentry gy-ma__v (
+   value('Mahaica-Berbice'),
+   order(1819),
+   active(true),
+   controlling_entries('gy__v')
+);

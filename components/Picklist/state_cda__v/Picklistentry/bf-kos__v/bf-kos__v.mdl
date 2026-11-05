@@ -1,0 +1,6 @@
+Picklistentry bf-kos__v (
+   value('Kossi'),
+   order(346),
+   active(true),
+   controlling_entries('bf__v')
+);

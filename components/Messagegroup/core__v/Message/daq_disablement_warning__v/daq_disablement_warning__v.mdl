@@ -1,0 +1,6 @@
+Message daq_disablement_warning__v (
+   label(),
+   active(true),
+   default_value('Deselecting "${enable_query_reporting_label}" will remove the "${custom_field_api_name}" from the Dynamic Attribute Query object. This Dynamic Attribute will not be useable in My Account Views. The latest Dynamic Attribute data will still be available in the Dynamic Attribute object. Are you sure you want to proceed?'),
+   system_managed(false)
+);

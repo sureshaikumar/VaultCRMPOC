@@ -1,0 +1,5 @@
+Picklistentry 10620__v (
+   value('Albemarle, NC Micropolitan Statistical Area'),
+   order(547),
+   active(true)
+);

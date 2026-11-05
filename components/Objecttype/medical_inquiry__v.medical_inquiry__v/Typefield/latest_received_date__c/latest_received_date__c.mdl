@@ -1,0 +1,4 @@
+Typefield latest_received_date__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.email_opt_in_action__v (
+   label('Email Opt In'),
+   description('Capture opt-in consent to send Approved Emails to an Account'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.approvedemail.actions.EmailOptInAction'),
+   active(true),
+   available_all_states(true)
+);

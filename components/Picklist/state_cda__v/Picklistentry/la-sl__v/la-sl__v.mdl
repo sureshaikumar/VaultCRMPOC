@@ -1,0 +1,6 @@
+Picklistentry la-sl__v (
+   value('Salavan [Saravane]'),
+   order(2523),
+   active(true),
+   controlling_entries('la__v')
+);

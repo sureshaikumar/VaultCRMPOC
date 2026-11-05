@@ -1,0 +1,6 @@
+Picklistentry mn-1__v (
+   value('Ulaanbaatar'),
+   order(3091),
+   active(true),
+   controlling_entries('mn__v')
+);

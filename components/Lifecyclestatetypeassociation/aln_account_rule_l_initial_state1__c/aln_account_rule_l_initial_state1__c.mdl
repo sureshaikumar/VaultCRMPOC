@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation aln_account_rule_l_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.aln_account_rule_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.active__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

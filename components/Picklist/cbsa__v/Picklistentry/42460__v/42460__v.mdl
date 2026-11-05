@@ -1,0 +1,5 @@
+Picklistentry 42460__v (
+   value('Scottsboro, AL Micropolitan Statistical Area'),
+   order(496),
+   active(true)
+);

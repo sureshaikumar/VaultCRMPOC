@@ -1,0 +1,5 @@
+Picklistentry practice__v (
+   value('Practice'),
+   order(16),
+   active(false)
+);

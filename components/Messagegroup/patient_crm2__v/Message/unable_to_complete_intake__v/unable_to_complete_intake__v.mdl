@@ -1,0 +1,6 @@
+Message unable_to_complete_intake__v (
+   label(),
+   active(true),
+   default_value('Unable to Complete Intake'),
+   system_managed(false)
+);

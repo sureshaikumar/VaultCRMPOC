@@ -1,0 +1,6 @@
+Message group_error_unassigned_level__v (
+   label(),
+   active(true),
+   default_value('All levels must be assigned to a group'),
+   system_managed(false)
+);

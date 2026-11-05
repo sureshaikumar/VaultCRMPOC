@@ -1,0 +1,6 @@
+Picklistentry mt-36__v (
+   value('Munxar'),
+   order(3142),
+   active(true),
+   controlling_entries('mt__v')
+);

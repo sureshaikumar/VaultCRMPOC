@@ -1,0 +1,6 @@
+Message sign_request_cancelled__v (
+   label(),
+   active(true),
+   default_value('Signature request cancelled on ${0}. ${1} items are cancelled.'),
+   system_managed(false)
+);

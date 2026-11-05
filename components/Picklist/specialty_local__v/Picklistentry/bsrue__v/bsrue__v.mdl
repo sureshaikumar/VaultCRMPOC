@@ -1,0 +1,8 @@
+Picklistentry bsrue__v (
+   value('Breast Surgery'),
+   order(138),
+   active(true),
+   controlling_entries('kr__v',
+         'ph__v',
+         'pk__v')
+);

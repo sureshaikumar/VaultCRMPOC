@@ -1,0 +1,6 @@
+Message clear_selection__v (
+   label(),
+   active(true),
+   default_value('Clear Selection'),
+   system_managed(false)
+);

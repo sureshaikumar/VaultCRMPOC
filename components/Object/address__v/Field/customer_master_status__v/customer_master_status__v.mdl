@@ -1,0 +1,19 @@
+Field customer_master_status__v (
+   label('Customer Master Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Corresponds to the validation status of a record in the customer master. This field should not be modified.'),
+   list_column(false),
+   order(25),
+   multi_value(false),
+   picklist('Picklist.address_customer_master_status__v'),
+   default_value('{valid__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

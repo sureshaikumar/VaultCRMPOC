@@ -1,0 +1,3 @@
+Typeaction publish_to_new_targets__v (
+   action('survey__v.publish_to_new_targets__v')
+);

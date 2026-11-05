@@ -1,0 +1,5 @@
+Picklistentry tir__v (
+   value('Tigrinya'),
+   order(319),
+   active(false)
+);

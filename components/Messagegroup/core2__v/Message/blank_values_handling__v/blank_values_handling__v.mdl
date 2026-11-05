@@ -1,0 +1,6 @@
+Message blank_values_handling__v (
+   label(),
+   active(true),
+   default_value('Blank Values Handling'),
+   system_managed(false)
+);

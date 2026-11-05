@@ -1,0 +1,6 @@
+Message disconnect_ph_number_error__v (
+   label(),
+   active(true),
+   default_value('Unable to disconnect this phone number. Please try again.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ro-is__v (
+   value('Iași'),
+   order(3741),
+   active(true),
+   controlling_entries('ro__v')
+);

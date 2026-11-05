@@ -1,0 +1,6 @@
+Message align_data_model_validation_date_msg__v (
+   label(),
+   active(true),
+   default_value('Date outside of allowed range'),
+   system_managed(false)
+);

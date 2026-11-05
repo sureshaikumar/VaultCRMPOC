@@ -1,0 +1,18 @@
+Field user_type__v (
+   label('User Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content('Specifies the role of the User. Do not add, delete or modify values.'),
+   list_column(false),
+   order(101),
+   multi_value(false),
+   picklist('Picklist.user_user_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

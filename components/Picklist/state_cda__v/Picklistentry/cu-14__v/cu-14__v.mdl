@@ -1,0 +1,6 @@
+Picklistentry cu-14__v (
+   value('Guantánamo'),
+   order(779),
+   active(true),
+   controlling_entries('cu__v')
+);

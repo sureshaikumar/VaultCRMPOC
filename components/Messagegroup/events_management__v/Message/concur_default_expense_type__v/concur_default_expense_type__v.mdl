@@ -1,0 +1,6 @@
+Message concur_default_expense_type__v (
+   label(),
+   active(true),
+   default_value('Default Expense Type'),
+   system_managed(false)
+);

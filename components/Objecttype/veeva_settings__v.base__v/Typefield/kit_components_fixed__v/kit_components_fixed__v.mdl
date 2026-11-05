@@ -1,0 +1,4 @@
+Typefield kit_components_fixed__v (
+   source('standard'),
+   required(false)
+);

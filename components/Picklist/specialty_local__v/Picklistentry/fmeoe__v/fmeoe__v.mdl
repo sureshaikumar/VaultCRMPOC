@@ -1,0 +1,10 @@
+Picklistentry fmeoe__v (
+   value('Forensic Medical Examination'),
+   order(552),
+   active(true),
+   controlling_entries('am__v',
+         'az__v',
+         'kg__v',
+         'kz__v',
+         'ua__v')
+);

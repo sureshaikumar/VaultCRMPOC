@@ -1,0 +1,20 @@
+Field sample_card_reg_express__v (
+   label('SAMPLE_CARD_REG_EXPRESS'),
+   type('String'),
+   active(true),
+   description('Expression used to validate the Sample Card value on Save or Submit of a Call.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(264),
+   default_value('"SAMPLE_CARD_REG_EXPRESS;;CallReport"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Vsmfield source_edl_item_template__v (
+   label('Source EDL Item Template'),
+   active(true),
+   description('Reference to the EDL Item Template from which this EDL item was created. Useful for tracing the origin of an item back to its template definition, especially when EDLs are generated from standardized templates for regulatory submissions.'),
+   example_values(),
+   synonyms('item template',
+         'source item template',
+         'template item',
+         'originating item template'),
+   target('source_edl_item_template__v'),
+   target_label('Source EDL Item Template'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

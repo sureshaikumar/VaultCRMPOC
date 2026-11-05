@@ -1,0 +1,6 @@
+Picklistentry ni-bo__v (
+   value('Boaco'),
+   order(3359),
+   active(true),
+   controlling_entries('ni__v')
+);

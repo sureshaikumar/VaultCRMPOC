@@ -1,0 +1,6 @@
+Picklistentry gb-nwp__v (
+   value('Newport'),
+   order(1589),
+   active(true),
+   controlling_entries('gb__v')
+);

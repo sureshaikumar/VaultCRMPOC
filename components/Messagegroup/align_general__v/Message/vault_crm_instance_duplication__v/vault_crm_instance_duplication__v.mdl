@@ -1,0 +1,6 @@
+Message vault_crm_instance_duplication__v (
+   label(),
+   active(true),
+   default_value('An existing integration already exists for this Vault.'),
+   system_managed(false)
+);

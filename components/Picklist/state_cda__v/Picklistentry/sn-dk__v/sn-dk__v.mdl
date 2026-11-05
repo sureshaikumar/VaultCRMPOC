@@ -1,0 +1,6 @@
+Picklistentry sn-dk__v (
+   value('Dakar'),
+   order(4210),
+   active(true),
+   controlling_entries('sn__v')
+);

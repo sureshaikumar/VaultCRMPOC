@@ -1,0 +1,5 @@
+Picklistentry pacific_easter__sys (
+   value('(GMT-06:00) Easter Island Standard Time (Pacific/Easter)'),
+   order(55),
+   active(true)
+);

@@ -1,0 +1,17 @@
+Field all_active_cases_columns__v (
+   label('All Active Cases Columns'),
+   type('LongText'),
+   active(true),
+   description('Defines up to 50 Case (case__v) fields, including custom fields ending in __c, to display as columns in the All Active Cases view, in the order listed. Long Text, Rich Text, Attachment, Rollup, and Formula field types are not supported. Enter as a double semicolon (;;)-delimited list, for example: case__v.fieldname__v;;case__v.fieldname__v'),
+   required(false),
+   max_length(5000),
+   help_content('Case object field API names, maximum 50, to display as columns in the All Active Cases view. Fields are rendered in the order listed. Format: case__v.fieldname1__v;;case__v.fieldname2__v;;case__v.fieldname3__v'),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

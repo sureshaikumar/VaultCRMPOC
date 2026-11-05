@@ -1,0 +1,10 @@
+Objectlifecyclestate approved_state__sys (
+   label('Approved'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description(),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

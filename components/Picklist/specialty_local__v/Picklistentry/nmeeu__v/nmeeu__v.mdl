@@ -1,0 +1,7 @@
+Picklistentry nmeeu__v (
+   value('Neuromuscular Medicine'),
+   order(1032),
+   active(true),
+   controlling_entries('om__v',
+         'us__v')
+);

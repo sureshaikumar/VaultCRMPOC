@@ -1,0 +1,5 @@
+Picklistentry daic__v (
+   value('Dialysis and Infusion Center'),
+   order(47),
+   active(true)
+);

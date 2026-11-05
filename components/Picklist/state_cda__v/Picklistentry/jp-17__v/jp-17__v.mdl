@@ -1,0 +1,6 @@
+Picklistentry jp-17__v (
+   value('Ishikawa'),
+   order(2323),
+   active(true),
+   controlling_entries('jp__v')
+);

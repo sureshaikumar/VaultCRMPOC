@@ -1,0 +1,10 @@
+Vsmvalue zwr__v (
+   label('ZWR'),
+   active(true),
+   description('Used for legacy transactions denominated in the second Zimbabwe Dollar (ZWR), introduced in 2008 as a redenomination of the first Zimbabwe Dollar during the country''s hyperinflationary crisis.'),
+   synonyms('Zimbabwe dollar second',
+         'ZWR',
+         'Zimbabwe dollar 2008 redenomination'),
+   target('zwr__sys'),
+   target_label('ZWR')
+);

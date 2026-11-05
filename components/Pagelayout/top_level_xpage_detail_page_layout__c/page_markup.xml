@@ -1,0 +1,30 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.html_report__v.top_level__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="publish_status_details__v" />
+            <vault:field reference="platform__v" />
+            <vault:field reference="publish_process_timestamp__v" />
+            <vault:field reference="sharing_group__v" />
+            <vault:field reference="html_report_status__v" />
+            <vault:field reference="studio_id__v" />
+            <vault:field reference="studio_version__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="legacy_crm_id__v" />
+            <vault:field reference="target_platform__v" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="page_url__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

@@ -1,0 +1,6 @@
+Message add_selected_no_count__v (
+   label(),
+   active(true),
+   default_value('Add Selected'),
+   system_managed(false)
+);

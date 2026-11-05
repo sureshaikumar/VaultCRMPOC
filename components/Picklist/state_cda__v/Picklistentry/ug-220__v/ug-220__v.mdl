@@ -1,0 +1,6 @@
+Picklistentry ug-220__v (
+   value('Bukwo'),
+   order(4688),
+   active(true),
+   controlling_entries('ug__v')
+);

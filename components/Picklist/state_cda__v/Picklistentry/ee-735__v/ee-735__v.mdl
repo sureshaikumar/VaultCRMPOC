@@ -1,0 +1,6 @@
+Picklistentry ee-735__v (
+   value('Sillamäe'),
+   order(1134),
+   active(true),
+   controlling_entries('ee__v')
+);

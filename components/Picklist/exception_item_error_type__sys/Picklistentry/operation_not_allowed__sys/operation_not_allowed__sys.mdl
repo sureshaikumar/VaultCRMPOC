@@ -1,0 +1,5 @@
+Picklistentry operation_not_allowed__sys (
+   value('OPERATION_NOT_ALLOWED'),
+   order(3),
+   active(true)
+);

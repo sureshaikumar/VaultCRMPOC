@@ -1,0 +1,6 @@
+Message cant_disable_child_targets__v (
+   label(),
+   active(true),
+   default_value('The aln_support_child_account_targets__v field cannot be reset to No.'),
+   system_managed(false)
+);

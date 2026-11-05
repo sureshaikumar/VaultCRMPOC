@@ -1,0 +1,6 @@
+Message confirm_domain_update_title__v (
+   label(),
+   active(true),
+   default_value('Confirm Publish'),
+   system_managed(false)
+);

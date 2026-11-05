@@ -1,0 +1,5 @@
+Picklistentry bbd__sys (
+   value('BBD'),
+   order(16),
+   active(true)
+);

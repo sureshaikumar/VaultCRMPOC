@@ -1,0 +1,6 @@
+Picklistentry es-pm__v (
+   value('Balears'),
+   order(1240),
+   active(true),
+   controlling_entries('es__v')
+);

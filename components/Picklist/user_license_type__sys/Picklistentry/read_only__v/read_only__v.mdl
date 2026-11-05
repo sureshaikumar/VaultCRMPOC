@@ -1,0 +1,5 @@
+Picklistentry read_only__v (
+   value('Read-only User'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry mx-tla__v (
+   value('Tlaxcala'),
+   order(3267),
+   active(true),
+   controlling_entries('mx__v')
+);

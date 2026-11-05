@@ -1,0 +1,17 @@
+Field last_iphone_connect__v (
+   label('Last iPhone  Connect'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The Date/Time of the last successful iPhone connection made by each user.'),
+   list_column(false),
+   order(82),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

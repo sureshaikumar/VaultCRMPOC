@@ -1,0 +1,4 @@
+Typefield resolution_note__v (
+   source('standard'),
+   required(false)
+);

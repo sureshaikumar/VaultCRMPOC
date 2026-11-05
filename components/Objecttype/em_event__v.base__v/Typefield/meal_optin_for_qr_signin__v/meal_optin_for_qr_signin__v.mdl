@@ -1,0 +1,4 @@
+Typefield meal_optin_for_qr_signin__v (
+   source('standard'),
+   required(false)
+);

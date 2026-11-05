@@ -1,0 +1,6 @@
+Message unable_to_remove__v (
+   label(),
+   active(true),
+   default_value('Unable to Remove'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry rs-10__v (
+   value('Podunavski okrug'),
+   order(3768),
+   active(true),
+   controlling_entries('rs__v')
+);

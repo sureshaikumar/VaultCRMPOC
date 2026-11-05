@@ -1,0 +1,6 @@
+Picklistentry kn-04__v (
+   value('Saint George Gingerland'),
+   order(2444),
+   active(true),
+   controlling_entries('kn__v')
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist case_severity__v (
+   label('Case Severity'),
+   active(true),
+   Picklistentry(@Picklistentry/severity_low__v.mdl),
+   Picklistentry(@Picklistentry/severity_normal__v.mdl),
+   Picklistentry(@Picklistentry/severity_high__v.mdl),
+   Picklistentry(@Picklistentry/severity_urgent__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

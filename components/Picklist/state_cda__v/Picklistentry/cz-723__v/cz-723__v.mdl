@@ -1,0 +1,6 @@
+Picklistentry cz-723__v (
+   value('Vsetín'),
+   order(894),
+   active(true),
+   controlling_entries('cz__v')
+);

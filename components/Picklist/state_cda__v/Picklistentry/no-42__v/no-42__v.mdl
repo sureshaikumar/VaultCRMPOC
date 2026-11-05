@@ -1,0 +1,6 @@
+Picklistentry no-42__v (
+   value('Agder'),
+   order(3401),
+   active(true),
+   controlling_entries('no__v')
+);

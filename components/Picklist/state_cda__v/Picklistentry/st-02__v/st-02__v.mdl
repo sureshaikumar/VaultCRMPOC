@@ -1,0 +1,6 @@
+Picklistentry st-02__v (
+   value('Cantagalo'),
+   order(4262),
+   active(true),
+   controlling_entries('st__v')
+);

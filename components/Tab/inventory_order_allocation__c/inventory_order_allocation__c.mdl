@@ -1,0 +1,15 @@
+RECREATE Tab inventory_order_allocation__c (
+   active(true),
+   all_view_label('All Inventory Order Allocation'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Inventory Order Allocation'),
+   modal_create_record(false),
+   my_view_label('My Inventory Order Allocation'),
+   object('inventory_order_allocation__v'),
+   order(4500),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Inventory Order Allocation')
+);

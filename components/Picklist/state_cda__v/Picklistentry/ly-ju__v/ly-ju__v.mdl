@@ -1,0 +1,6 @@
+Picklistentry ly-ju__v (
+   value('Al Jufrah'),
+   order(2751),
+   active(true),
+   controlling_entries('ly__v')
+);

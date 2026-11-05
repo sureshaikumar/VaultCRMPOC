@@ -1,0 +1,5 @@
+Picklistentry test_data__sys (
+   value('Test Data'),
+   order(2),
+   active(true)
+);

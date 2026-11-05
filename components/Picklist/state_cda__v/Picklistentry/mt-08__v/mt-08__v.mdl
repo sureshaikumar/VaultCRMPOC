@@ -1,0 +1,6 @@
+Picklistentry mt-08__v (
+   value('Fgura'),
+   order(3114),
+   active(true),
+   controlling_entries('mt__v')
+);

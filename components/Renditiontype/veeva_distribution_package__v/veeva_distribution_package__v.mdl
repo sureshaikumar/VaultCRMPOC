@@ -1,0 +1,4 @@
+RECREATE Renditiontype veeva_distribution_package__v (
+   label('Veeva Distribution Package'),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message entities__sys (
+   label(),
+   active(true),
+   default_value('Entities'),
+   system_managed(true)
+);

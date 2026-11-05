@@ -1,0 +1,5 @@
+Picklistentry idr__sys (
+   value('IDR'),
+   order(83),
+   active(true)
+);

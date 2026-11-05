@@ -1,0 +1,5 @@
+Picklistentry joint_venture__v (
+   value('Joint Venture'),
+   order(15),
+   active(true)
+);

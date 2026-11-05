@@ -1,0 +1,9 @@
+Vsmvalue uyu__v (
+   label('UYU'),
+   active(true),
+   description('Applies when transactions are denominated in the Uruguayan Peso, the official currency of Uruguay.'),
+   synonyms('Uruguayan peso',
+         'Uruguay currency'),
+   target('uyu__sys'),
+   target_label('UYU')
+);

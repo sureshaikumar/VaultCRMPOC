@@ -1,0 +1,6 @@
+Picklistentry lt-35__v (
+   value('Plungė'),
+   order(2653),
+   active(true),
+   controlling_entries('lt__v')
+);

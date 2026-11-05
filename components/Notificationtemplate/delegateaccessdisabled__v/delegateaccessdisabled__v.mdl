@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate delegateaccessdisabled__v (
+   label('DelegateAccessDisabled'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Delegate access has been disabled'),
+   notification('${senderName} has disabled your delegate access to Vault'),
+   email_body('${senderName} has disabled your delegate access to Vault. You can no longer log in as ${senderName}.
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

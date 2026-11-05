@@ -1,0 +1,43 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.multichannel_activity_line__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="multichannel_activity__v" />
+            <vault:spacer />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="event_type__v" />
+            <vault:field reference="event_subtype__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Interaction Details" name="internation_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="call__v" />
+            <vault:field reference="sent_email__v" />
+            <vault:field reference="view_order__v" />
+            <vault:field reference="key_message__v" />
+            <vault:spacer />
+            <vault:field reference="datetime__v" />
+            <vault:field reference="duration__v" />
+            <vault:field reference="video_total_time_spent__v" />
+            <vault:field reference="video_length__v" />
+            <vault:field reference="video_last_viewed_time__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Content Details" name="content_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="multichannel_content__v" />
+            <vault:field reference="multichannel_content_asset_version__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="product__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

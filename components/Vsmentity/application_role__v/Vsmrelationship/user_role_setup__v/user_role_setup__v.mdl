@@ -1,0 +1,13 @@
+Vsmrelationship user_role_setup__v (
+   label('User Role Setup'),
+   active(false),
+   cardinality('ONE_TO_MANY'),
+   description('User role setup records that configure how this application role is applied within the Vault, including object-level role mappings. Use this to understand how the application role is configured across different objects or lifecycle states.'),
+   join_object('Object.user_role_setup__v'),
+   synonyms('role setup',
+         'role configuration',
+         'user role setup'),
+   target('user_role_setup__vr'),
+   target_label('User Role Setup'),
+   target_object('user_role_setup__v')
+);

@@ -1,0 +1,6 @@
+Message account_exclusion_sources__v (
+   label(),
+   active(true),
+   default_value('Account Sources*'),
+   system_managed(false)
+);

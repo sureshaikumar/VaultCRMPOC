@@ -1,0 +1,5 @@
+Picklistentry az (
+   value('Azerbaijani'),
+   order(79),
+   active(true)
+);

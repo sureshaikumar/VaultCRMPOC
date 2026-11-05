@@ -1,0 +1,6 @@
+Message what_to_do_with_current_attempt__v (
+   label(),
+   active(true),
+   default_value('What would you like to do with the current attempt?'),
+   system_managed(false)
+);

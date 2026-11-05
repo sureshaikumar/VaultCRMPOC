@@ -1,0 +1,5 @@
+Index report_id__sys (
+   description(),
+   fields('report_id__sys'),
+   label('Report ID')
+);

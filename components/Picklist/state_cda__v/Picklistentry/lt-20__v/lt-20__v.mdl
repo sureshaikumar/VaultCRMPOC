@@ -1,0 +1,6 @@
+Picklistentry lt-20__v (
+   value('Klaipėdos miestas'),
+   order(2638),
+   active(true),
+   controlling_entries('lt__v')
+);

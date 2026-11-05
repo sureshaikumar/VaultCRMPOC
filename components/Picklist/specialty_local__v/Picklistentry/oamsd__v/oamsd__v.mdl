@@ -1,0 +1,6 @@
+Picklistentry oamsd__v (
+   value('Oral and Maxillofacial Surgery Dental Maxillofacial Implant Surgery'),
+   order(1160),
+   active(true),
+   controlling_entries('id__v')
+);

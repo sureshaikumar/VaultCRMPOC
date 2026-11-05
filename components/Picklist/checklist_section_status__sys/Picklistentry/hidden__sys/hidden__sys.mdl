@@ -1,0 +1,5 @@
+Picklistentry hidden__sys (
+   value('Hidden'),
+   order(0),
+   active(true)
+);

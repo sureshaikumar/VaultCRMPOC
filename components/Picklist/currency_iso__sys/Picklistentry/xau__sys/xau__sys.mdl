@@ -1,0 +1,5 @@
+Picklistentry xau__sys (
+   value('XAU'),
+   order(205),
+   active(true)
+);

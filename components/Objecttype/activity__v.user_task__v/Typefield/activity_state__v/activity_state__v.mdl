@@ -1,0 +1,4 @@
+Typefield activity_state__v (
+   source('custom'),
+   required(false)
+);

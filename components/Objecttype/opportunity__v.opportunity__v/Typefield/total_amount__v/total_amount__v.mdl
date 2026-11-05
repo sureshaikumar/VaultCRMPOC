@@ -1,0 +1,4 @@
+Typefield total_amount__v (
+   source('custom'),
+   required(false)
+);

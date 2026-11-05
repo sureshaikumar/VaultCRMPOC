@@ -1,0 +1,6 @@
+Message concur_integration_admin__v (
+   label(),
+   active(true),
+   default_value('Concur Integration Administration'),
+   system_managed(false)
+);

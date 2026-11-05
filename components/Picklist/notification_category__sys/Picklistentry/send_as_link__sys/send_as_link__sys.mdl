@@ -1,0 +1,5 @@
+Picklistentry send_as_link__sys (
+   value('Send As Link'),
+   order(1),
+   active(true)
+);

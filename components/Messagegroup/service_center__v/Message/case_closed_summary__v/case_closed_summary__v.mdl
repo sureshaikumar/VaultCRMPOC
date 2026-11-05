@@ -1,0 +1,6 @@
+Message case_closed_summary__v (
+   label(),
+   active(true),
+   default_value('${case_label} Closed Summary'),
+   system_managed(false)
+);

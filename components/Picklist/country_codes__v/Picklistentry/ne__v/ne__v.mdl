@@ -1,0 +1,5 @@
+Picklistentry ne__v (
+   value('NE'),
+   order(162),
+   active(true)
+);

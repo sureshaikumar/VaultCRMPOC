@@ -1,0 +1,6 @@
+Picklistentry caxim__v (
+   value('Clinical Allergy and Immunology'),
+   order(210),
+   active(true),
+   controlling_entries('it__v')
+);

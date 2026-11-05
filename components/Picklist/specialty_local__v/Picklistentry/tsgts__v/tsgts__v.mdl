@@ -1,0 +1,6 @@
+Picklistentry tsgts__v (
+   value('Thoracic Surgery - General Thoracic Surgery Track'),
+   order(1840),
+   active(true),
+   controlling_entries('il__v')
+);

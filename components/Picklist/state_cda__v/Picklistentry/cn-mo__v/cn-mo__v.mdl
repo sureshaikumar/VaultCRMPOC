@@ -1,0 +1,6 @@
+Picklistentry cn-mo__v (
+   value('Aomen Tebiexingzhengqu'),
+   order(712),
+   active(true),
+   controlling_entries('cn__v')
+);

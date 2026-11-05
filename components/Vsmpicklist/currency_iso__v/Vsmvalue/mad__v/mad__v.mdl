@@ -1,0 +1,10 @@
+Vsmvalue mad__v (
+   label('MAD'),
+   active(true),
+   description('The Moroccan Dirham (MAD), the official currency of Morocco, used for transactions, pricing, and financial records involving Moroccan markets.'),
+   synonyms('Moroccan dirham',
+         'Morocco dirham',
+         'MAD'),
+   target('mad__sys'),
+   target_label('MAD')
+);

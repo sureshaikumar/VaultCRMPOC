@@ -1,0 +1,14 @@
+Vsmfield edl_template__v (
+   label('EDL Template'),
+   active(true),
+   description('Reference to the parent EDL (Expected Document List) Template that this item belongs to. Use this to identify which EDL template a specific item template is associated with, or to retrieve all item templates under a given EDL template.'),
+   example_values(),
+   synonyms('parent template',
+         'EDL',
+         'expected document list template',
+         'parent EDL'),
+   target('edl_template__v'),
+   target_label('EDL Template'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

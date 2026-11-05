@@ -1,0 +1,7 @@
+Picklistentry onxch__v (
+   value('Oncology Chemotherapy'),
+   order(1122),
+   active(true),
+   controlling_entries('lt__v',
+         'lv__v')
+);

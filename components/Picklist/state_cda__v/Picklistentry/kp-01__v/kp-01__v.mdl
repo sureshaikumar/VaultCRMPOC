@@ -1,0 +1,6 @@
+Picklistentry kp-01__v (
+   value('Pyongyang'),
+   order(2457),
+   active(true),
+   controlling_entries('kp__v')
+);

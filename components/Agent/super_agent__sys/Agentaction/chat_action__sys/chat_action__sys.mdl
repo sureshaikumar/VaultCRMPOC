@@ -1,0 +1,12 @@
+Agentaction chat_action__sys (
+   label('Chat Action'),
+   active(true),
+   api_access(false),
+   description('This action is responsible for identifying, orchestrating, and executing the necessary tools and agents to respond to chat messages.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

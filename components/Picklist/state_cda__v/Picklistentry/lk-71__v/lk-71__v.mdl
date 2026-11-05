@@ -1,0 +1,6 @@
+Picklistentry lk-71__v (
+   value('Anuradhapura'),
+   order(2586),
+   active(true),
+   controlling_entries('lk__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_vault_clinical_interaction__sys (
+   value('Vault Clinical Interaction'),
+   order(179),
+   active(true),
+   controlling_entries('olc_call__sys')
+);

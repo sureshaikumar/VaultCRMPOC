@@ -1,0 +1,6 @@
+Message object_type_label__v (
+   label(),
+   active(true),
+   default_value('Object Type of new record'),
+   system_managed(false)
+);

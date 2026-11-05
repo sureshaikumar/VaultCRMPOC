@@ -1,0 +1,6 @@
+Message no_available_actions__v (
+   label(),
+   active(true),
+   default_value('No available actions'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry hbxbt__v (
+   value('Hemobiology and Blood Transfusion'),
+   order(694),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,17 @@
+Field zoom_meeting_join_link__v (
+   label('Zoom Meeting Join Link'),
+   type('LongText'),
+   active(true),
+   description('This is the meeting link that can be used to start or join the Zoom meetings.'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,18 @@
+Field company_product__v (
+   label('Company Product'),
+   type('Boolean'),
+   active(true),
+   description('When checked, this field denotes a product that is distributed by the company. Only products marked as a company product will displayed in My Setup and be available for detailing on call reports. Un-check for competitor''s products.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

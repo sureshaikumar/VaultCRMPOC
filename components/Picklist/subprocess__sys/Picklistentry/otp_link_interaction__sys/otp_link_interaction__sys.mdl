@@ -1,0 +1,6 @@
+Picklistentry otp_link_interaction__sys (
+   value('Link Interaction'),
+   order(89),
+   active(true),
+   controlling_entries('olc_call__sys')
+);

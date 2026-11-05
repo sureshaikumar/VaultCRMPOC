@@ -1,0 +1,16 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.fax_number__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="fax_number__v" />
+            <vault:field reference="service_status__v" />
+            <vault:field reference="fax_direction__v" />
+            <vault:field reference="porting_status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

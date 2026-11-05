@@ -1,0 +1,7 @@
+Picklistentry arait__v (
+   value('Anesthesiology, Resuscitation and Intensive Therapy'),
+   order(90),
+   active(true),
+   controlling_entries('me__v',
+         'rs__v')
+);

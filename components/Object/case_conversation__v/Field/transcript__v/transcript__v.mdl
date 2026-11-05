@@ -1,0 +1,15 @@
+Field transcript__v (
+   label('Transcript'),
+   type('Attachment'),
+   active(true),
+   description('Full transcript of a case conversation'),
+   required(false),
+   help_content('Full transcript of a case conversation'),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,46 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.test_object__c.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account__c" />
+            <vault:field reference="test_value__c" />
+            <vault:field reference="test_type__c" />
+            <vault:field reference="test_validation__c" />
+            <vault:field reference="address__c" />
+            <vault:field reference="test_picklist_status_dependent__c" />
+            <vault:field reference="addressprimary__c" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="country__c" />
+            <vault:field reference="description__c" />
+            <vault:field reference="expected_date__c" />
+            <vault:field reference="reviewer__c" />
+            <vault:field reference="code_value__c" />
+            <vault:field reference="test__c" />
+            <vault:field reference="trn1__c" />
+            <vault:field reference="test_atttets__c" />
+            <vault:field reference="external_id__c" />
+            <vault:field reference="medcoms_subtask__c" />
+            <vault:field reference="product_name__c" />
+            <vault:field reference="product_create_status__c" />
+            <vault:field reference="product_requestor__c" />
+            <vault:field reference="crm_product__c" />
+            <vault:field reference="test_field__c" />
+            <vault:field reference="product__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

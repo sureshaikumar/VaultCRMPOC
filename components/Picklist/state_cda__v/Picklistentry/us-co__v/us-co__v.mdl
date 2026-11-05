@@ -1,0 +1,6 @@
+Picklistentry us-co__v (
+   value('Colorado'),
+   order(4797),
+   active(true),
+   controlling_entries('us__v')
+);

@@ -1,0 +1,19 @@
+Field no_orders__v (
+   label('No Orders'),
+   type('Picklist'),
+   active(true),
+   description('If set to Yes_vod,  no orders of any type can be placed against the account.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(67),
+   multi_value(false),
+   picklist('Picklist.account_no_orders__v'),
+   default_value('{no__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

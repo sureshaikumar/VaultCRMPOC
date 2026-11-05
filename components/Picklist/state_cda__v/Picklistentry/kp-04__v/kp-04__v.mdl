@@ -1,0 +1,6 @@
+Picklistentry kp-04__v (
+   value('Chagang'),
+   order(2460),
+   active(true),
+   controlling_entries('kp__v')
+);

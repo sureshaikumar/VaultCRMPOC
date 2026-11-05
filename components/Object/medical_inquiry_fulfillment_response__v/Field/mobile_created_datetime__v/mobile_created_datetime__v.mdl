@@ -1,0 +1,17 @@
+Field mobile_created_datetime__v (
+   label('Mobile Created Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Date and time the Medical Inquiry Fulfillment Response record was created on the mobile device.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

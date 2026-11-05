@@ -1,0 +1,6 @@
+Message generate_postal_codes_detail_2__v (
+   label(),
+   active(true),
+   default_value('Existing Veeva-provided Geography records that are still active will remain and will not be modified.'),
+   system_managed(false)
+);

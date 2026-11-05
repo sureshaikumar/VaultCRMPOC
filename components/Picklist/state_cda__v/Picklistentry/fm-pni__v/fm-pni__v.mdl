@@ -1,0 +1,6 @@
+Picklistentry fm-pni__v (
+   value('Pohnpei'),
+   order(1312),
+   active(true),
+   controlling_entries('fm__v')
+);

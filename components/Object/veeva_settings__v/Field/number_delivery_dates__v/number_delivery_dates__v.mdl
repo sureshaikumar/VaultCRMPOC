@@ -1,0 +1,22 @@
+Field number_delivery_dates__v (
+   label('Number Delivery Dates'),
+   type('Number'),
+   active(true),
+   description('Number, range from 2 to 12, Defines how many delivery dates the user can add to the order.'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(228),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

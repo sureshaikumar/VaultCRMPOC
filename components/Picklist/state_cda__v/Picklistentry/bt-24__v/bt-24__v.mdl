@@ -1,0 +1,6 @@
+Picklistentry bt-24__v (
+   value('Wangdue Phodrang'),
+   order(518),
+   active(true),
+   controlling_entries('bt__v')
+);

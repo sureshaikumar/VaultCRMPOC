@@ -1,0 +1,6 @@
+Message am_object_records__v (
+   label(),
+   active(true),
+   default_value('{0} Records'),
+   system_managed(false)
+);

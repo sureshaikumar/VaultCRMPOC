@@ -1,0 +1,17 @@
+Field spotme_invitation_link__v (
+   label('SpotMe Invitation Link'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(450),
+   help_content('Invitation URL for SpotMe events.'),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field jdnet_segment__v (
+   label('JDNET Segment'),
+   type('String'),
+   active(true),
+   description('This field is used to store the last segment that was selected for the JDNET reports in VInsights.'),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content(),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

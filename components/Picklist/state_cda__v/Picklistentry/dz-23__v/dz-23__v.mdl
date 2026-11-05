@@ -1,0 +1,6 @@
+Picklistentry dz-23__v (
+   value('Annaba'),
+   order(1004),
+   active(true),
+   controlling_entries('dz__v')
+);

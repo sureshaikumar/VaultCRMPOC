@@ -1,0 +1,4 @@
+Typefield client_device__v (
+   source('standard'),
+   required(false)
+);

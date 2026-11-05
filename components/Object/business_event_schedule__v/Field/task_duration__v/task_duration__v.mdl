@@ -1,0 +1,23 @@
+Field task_duration__v (
+   label('Task Duration'),
+   type('Number'),
+   active(true),
+   description('Defines the number of days between the start and end dates of individual tasks'),
+   required(true),
+   unique(false),
+   max_value(100),
+   min_value(1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('7'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

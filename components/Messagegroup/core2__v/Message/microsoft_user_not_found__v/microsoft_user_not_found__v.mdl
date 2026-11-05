@@ -1,0 +1,6 @@
+Message microsoft_user_not_found__v (
+   label(),
+   active(true),
+   default_value('User could not be added to the Team because their Microsoft account was not found. Please verify that the user’s email is correct and that they have an active Microsoft 365 account.'),
+   system_managed(false)
+);

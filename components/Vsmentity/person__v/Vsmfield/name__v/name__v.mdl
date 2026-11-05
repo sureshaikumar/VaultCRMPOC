@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The system-generated or display name for the person record, typically a combination of first and last name. This is the primary label used to identify the person across Vault.'),
+   example_values(),
+   synonyms('full name',
+         'display name',
+         'person name'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

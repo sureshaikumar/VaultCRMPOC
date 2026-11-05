@@ -1,0 +1,6 @@
+Message daq_max_limit_error__v (
+   label(),
+   active(true),
+   default_value('You’ve reached the maximum limit of Dynamic Attributes enabled for Query & Reporting. Please deselect other Dynamic Attribute(s) before enabling a new one. For more details, refer to this documentation.'),
+   system_managed(false)
+);

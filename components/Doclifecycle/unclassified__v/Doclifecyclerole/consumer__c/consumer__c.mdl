@@ -1,0 +1,8 @@
+Doclifecyclerole consumer__c (
+   label('Consumer'),
+   active(true),
+   description('System Provided Role'),
+   application_role('consumer__c'),
+   note_color(),
+   security_options(@security_options.xml)
+);

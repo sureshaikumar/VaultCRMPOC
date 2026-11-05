@@ -1,0 +1,11 @@
+RECREATE Picklist account_salutation__v (
+   label('Salutation'),
+   active(true),
+   Picklistentry(@Picklistentry/mr__v.mdl),
+   Picklistentry(@Picklistentry/mrs__v.mdl),
+   Picklistentry(@Picklistentry/ms__v.mdl),
+   Picklistentry(@Picklistentry/dr__v.mdl),
+   Picklistentry(@Picklistentry/prof__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,10 @@
+Vsmvalue ssp__v (
+   label('SSP'),
+   active(true),
+   description('Applies when transactions are denominated in the South Sudanese Pound, the official currency of South Sudan.'),
+   synonyms('South Sudanese pound',
+         'South Sudan currency',
+         'pound'),
+   target('ssp__sys'),
+   target_label('SSP')
+);

@@ -1,0 +1,6 @@
+Message microphone_in_use__v (
+   label(),
+   active(true),
+   default_value('Microphone In Use'),
+   system_managed(false)
+);

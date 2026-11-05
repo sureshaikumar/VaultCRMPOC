@@ -1,0 +1,6 @@
+Picklistentry pqxqc__v (
+   value('Pharmaceutical Quality Control'),
+   order(1514),
+   active(true),
+   controlling_entries('hu__v')
+);

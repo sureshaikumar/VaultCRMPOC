@@ -1,0 +1,19 @@
+Field monitored_text_status__v (
+   label('Monitored Text Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Stores status of the flagged record being reviewed'),
+   list_column(false),
+   order(22),
+   multi_value(false),
+   picklist('Picklist.monitored_text_status__v'),
+   default_value('{open__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_compare_report_retry__v (
+   label('Compare Report Retry'),
+   active(true),
+   description('Compare Components Job Notification retry template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Vault Comparison Report is in the queue'),
+   notification('<p>Your Vault Comparison Report is in the queue</p></br><p>Component updates are still being processed on this Vault and your comparison report request is in the queue. Once all component updates have been processed, the comparison report will be generated and another notification will be sent.</p></br><p>Details: </p><ul><li>Source Vault : ${sourceVaultName} (${sourceVaultId}) </li><li>Target Vault : ${targetVaultName} (${targetVaultId}) </li><li>Results Type : ${resultsType} </li><li>Details Type: ${detailsType} </li><li>Include Documents & Binder Templates: ${includeDocsAndBinderTemplates} </li><li>Include Vault Settings: ${includeVaultSettings} </li><li>Component Types: ${componentTypes} </li><li>Generate Outbound Packages: ${generateOutboundPackages} </li></ul>'),
+   email_body('<p>Your Vault Comparison Report is in the queue</p></br><p>Component updates are still being processed on this Vault and your comparison report request is in the queue. Once all component updates have been processed, the comparison report will be generated and another notification will be sent.</p></br><p>Details: </p><ul><li>Source Vault : ${sourceVaultName} (${sourceVaultId}) </li><li>Target Vault : ${targetVaultName} (${targetVaultId}) </li><li>Results Type : ${resultsType} </li><li>Details Type: ${detailsType} </li><li>Include Documents & Binder Templates: ${includeDocsAndBinderTemplates} </li><li>Include Vault Settings: ${includeVaultSettings} </li><li>Component Types: ${componentTypes} </li><li>Generate Outbound Packages: ${generateOutboundPackages} </li></ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

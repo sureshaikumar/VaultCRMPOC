@@ -1,0 +1,5 @@
+Picklistentry alza_corporation__v (
+   value('Alza Corporation'),
+   order(3),
+   active(true)
+);

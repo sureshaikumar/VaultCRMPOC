@@ -1,0 +1,6 @@
+Picklistentry so-ge__v (
+   value('Gedo'),
+   order(4229),
+   active(true),
+   controlling_entries('so__v')
+);

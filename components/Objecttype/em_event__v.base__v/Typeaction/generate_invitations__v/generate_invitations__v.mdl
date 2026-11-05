@@ -1,0 +1,3 @@
+Typeaction generate_invitations__v (
+   action('em_event__v.generate_invitations__v')
+);

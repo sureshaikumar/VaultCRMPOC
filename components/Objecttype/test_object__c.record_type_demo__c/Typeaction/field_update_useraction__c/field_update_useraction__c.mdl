@@ -1,0 +1,3 @@
+Typeaction field_update_useraction__c (
+   action('test_object__c.field_update_useraction__c')
+);

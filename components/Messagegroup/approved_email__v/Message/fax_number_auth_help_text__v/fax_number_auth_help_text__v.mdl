@@ -1,0 +1,6 @@
+Message fax_number_auth_help_text__v (
+   label(),
+   active(true),
+   default_value('To port or release a fax number, or to manage which Vault CRM instances can use the fax number, please visit the Vault CRM Help page for instructions.'),
+   system_managed(false)
+);

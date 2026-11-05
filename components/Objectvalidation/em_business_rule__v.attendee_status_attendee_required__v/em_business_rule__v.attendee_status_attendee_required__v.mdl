@@ -1,0 +1,17 @@
+RECREATE Objectvalidation em_business_rule__v.attendee_status_attendee_required__v (
+   label('Attendee Status Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_attendee_attendance_limit_rule__v", true,
+            "em_meal_opt_in_attendance_limit_rule__v", true,
+            "em_cross_event_per_attendee_attendanc__v", true,
+            "em_cross_event_meal_opt_in_attendance__v", true,
+            "em_per_event_attendance_limit_rule__v", true,
+            "em_attendee_product_restriction_rule__v", true,
+            false
+        ) = false || Not(IsBlank(attendee_status__v))'),
+   description('attendee_status__v is not added to the Attendee Rule.'),
+   error_message('This field is required.'),
+   error_location('attendee_status__v')
+);

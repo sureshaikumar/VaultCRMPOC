@@ -1,0 +1,6 @@
+Picklistentry tz-06__v (
+   value('Pemba North'),
+   order(4590),
+   active(true),
+   controlling_entries('tz__v')
+);

@@ -1,0 +1,17 @@
+Field event_status__v (
+   label('Event Status'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Restrict this rule to run for Events in specific Event Statuses. See documentation for details. Syntax: (Event Status1;;Event Status2) Use API name for each event status value.'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

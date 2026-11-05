@@ -1,0 +1,6 @@
+Message cannot_modify_budget_allocations__v (
+   label(),
+   active(true),
+   default_value('Event Budgets and Budget Allocations cannot be added, updated, or deleted because Expense Estimates or Expense Lines are already associated with one or more Event Budgets for this Event.'),
+   system_managed(false)
+);

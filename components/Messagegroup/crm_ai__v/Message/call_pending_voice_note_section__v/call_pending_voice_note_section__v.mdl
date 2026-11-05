@@ -1,0 +1,6 @@
+Message call_pending_voice_note_section__v (
+   label(),
+   active(true),
+   default_value('Pending'),
+   system_managed(false)
+);

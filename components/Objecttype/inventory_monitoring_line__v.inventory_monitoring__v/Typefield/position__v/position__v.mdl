@@ -1,0 +1,7 @@
+Typefield position__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.inventory_monitoring_line_position__v.back_of_counter__v',
+         'Picklist.inventory_monitoring_line_position__v.front_of_counter__v',
+         'Picklist.inventory_monitoring_line_position__v.open_shelf__v')
+);

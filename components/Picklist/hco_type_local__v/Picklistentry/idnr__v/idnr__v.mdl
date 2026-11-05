@@ -1,0 +1,5 @@
+Picklistentry idnr__v (
+   value('Independent Drugstore'),
+   order(122),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message rewrite_limit__v (
+   label(),
+   active(true),
+   default_value('Generation limit reached'),
+   system_managed(false)
+);

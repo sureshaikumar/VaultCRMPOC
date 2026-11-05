@@ -1,0 +1,6 @@
+Message align_settings_product_inheritance_help__v (
+   label(),
+   active(true),
+   default_value('This controls whether product assignments of a field force are inherited by the model territories assigned to their related field force.'),
+   system_managed(false)
+);

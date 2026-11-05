@@ -1,0 +1,5 @@
+Picklistentry gtq__sys (
+   value('GTQ'),
+   order(75),
+   active(true)
+);

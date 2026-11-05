@@ -1,0 +1,6 @@
+Picklistentry na-ca__v (
+   value('Zambezi'),
+   order(3298),
+   active(true),
+   controlling_entries('na__v')
+);

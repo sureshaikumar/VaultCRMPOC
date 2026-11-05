@@ -1,0 +1,6 @@
+Message cancel_outbound_attempt_message__v (
+   label(),
+   active(true),
+   default_value('Discard changes and reset this attempt'),
+   system_managed(false)
+);

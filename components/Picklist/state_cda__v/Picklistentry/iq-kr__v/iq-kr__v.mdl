@@ -1,0 +1,6 @@
+Picklistentry iq-kr__v (
+   value('Iqlīm Kūrdistān'),
+   order(2043),
+   active(true),
+   controlling_entries('iq__v')
+);

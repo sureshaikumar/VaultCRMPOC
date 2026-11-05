@@ -1,0 +1,12 @@
+RECREATE Picklist suggestion_feedb_activity_execution_type__v (
+   label('Activity Execution Type'),
+   active(true),
+   Picklistentry(@Picklistentry/call__v.mdl),
+   Picklistentry(@Picklistentry/call_objective__v.mdl),
+   Picklistentry(@Picklistentry/email__v.mdl),
+   Picklistentry(@Picklistentry/wechat_call__v.mdl),
+   Picklistentry(@Picklistentry/wechat_content__v.mdl),
+   Picklistentry(@Picklistentry/em_attendee__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

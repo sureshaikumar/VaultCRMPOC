@@ -1,0 +1,8 @@
+RECREATE Pagelayout material_order_line_item_detail_page_lay__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Material Order Line Item Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

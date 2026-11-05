@@ -1,0 +1,6 @@
+Picklistentry lc-01__v (
+   value('Anse la Raye'),
+   order(2539),
+   active(true),
+   controlling_entries('lc__v')
+);

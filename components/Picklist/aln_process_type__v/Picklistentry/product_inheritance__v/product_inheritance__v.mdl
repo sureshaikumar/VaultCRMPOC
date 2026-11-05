@@ -1,0 +1,5 @@
+Picklistentry product_inheritance__v (
+   value('Product Inheritance'),
+   order(19),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry rs-28__v (
+   value('Kosovsko-Mitrovački okrug'),
+   order(3786),
+   active(true),
+   controlling_entries('rs__v')
+);

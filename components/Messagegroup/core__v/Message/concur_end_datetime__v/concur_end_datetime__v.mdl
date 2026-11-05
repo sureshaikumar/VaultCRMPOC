@@ -1,0 +1,6 @@
+Message concur_end_datetime__v (
+   label(),
+   active(true),
+   default_value('End Datetime'),
+   system_managed(false)
+);

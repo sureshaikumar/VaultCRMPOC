@@ -1,0 +1,5 @@
+Picklistentry sog (
+   value('Sogdian'),
+   order(306),
+   active(true)
+);

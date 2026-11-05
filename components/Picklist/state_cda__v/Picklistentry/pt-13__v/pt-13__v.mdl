@@ -1,0 +1,6 @@
+Picklistentry pt-13__v (
+   value('Porto'),
+   order(3666),
+   active(true),
+   controlling_entries('pt__v')
+);

@@ -1,0 +1,19 @@
+Field photo_crop_properties__v (
+   label('Photo Crop Properties'),
+   type('String'),
+   active(true),
+   description('Stores the dimensions and position for a square crop of the photo in the photo_file__v field. The value is stored in the format (x, y, w, h), where x and y indicate the top-left corner of the crop area, and w and h specify the width and height.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(true),
+   order(37),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

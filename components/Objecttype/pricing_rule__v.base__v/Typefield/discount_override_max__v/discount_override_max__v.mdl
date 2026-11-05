@@ -1,0 +1,4 @@
+Typefield discount_override_max__v (
+   source('standard'),
+   required(false)
+);

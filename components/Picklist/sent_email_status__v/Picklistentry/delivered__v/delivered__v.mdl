@@ -1,0 +1,5 @@
+Picklistentry delivered__v (
+   value('Delivered'),
+   order(3),
+   active(true)
+);

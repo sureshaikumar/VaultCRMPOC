@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.business_event__v.pi__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="date_parameter__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="issue_date__v" />
+            <vault:field reference="number_of_pages__v" />
+            <vault:field reference="product_launch_date__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

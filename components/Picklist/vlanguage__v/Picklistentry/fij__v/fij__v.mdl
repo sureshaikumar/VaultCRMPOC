@@ -1,0 +1,5 @@
+Picklistentry fij__v (
+   value('Fijian'),
+   order(98),
+   active(false)
+);

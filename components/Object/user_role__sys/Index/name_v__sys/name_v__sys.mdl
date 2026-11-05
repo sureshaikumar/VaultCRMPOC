@@ -1,0 +1,7 @@
+Index name_v__sys (
+   description(),
+   fields('name__v',
+         'application_role__sys',
+         'user__sys'),
+   label('Name')
+);

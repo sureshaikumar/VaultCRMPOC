@@ -1,0 +1,5 @@
+Picklistentry 45500__v (
+   value('Texarkana, TX-Texarkana, AR Metropolitan Statistical Area'),
+   order(53),
+   active(true)
+);

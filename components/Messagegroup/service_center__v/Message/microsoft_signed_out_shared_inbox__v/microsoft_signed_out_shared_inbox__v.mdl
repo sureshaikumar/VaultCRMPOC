@@ -1,0 +1,6 @@
+Message microsoft_signed_out_shared_inbox__v (
+   label(),
+   active(true),
+   default_value('Signed out of Microsoft 365: Unable to receive new emails from Outlook.'),
+   system_managed(false)
+);

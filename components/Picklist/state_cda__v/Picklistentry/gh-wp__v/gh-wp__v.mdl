@@ -1,0 +1,6 @@
+Picklistentry gh-wp__v (
+   value('Western'),
+   order(1703),
+   active(true),
+   controlling_entries('gh__v')
+);

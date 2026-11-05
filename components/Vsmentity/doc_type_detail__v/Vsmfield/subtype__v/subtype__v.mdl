@@ -1,0 +1,13 @@
+Vsmfield subtype__v (
+   label('Parent Subtype'),
+   active(true),
+   description('Reference to the parent subtype object associated with this document type detail. Use this to navigate up the document type hierarchy from a classification or to find all detail records belonging to a specific subtype.'),
+   example_values(),
+   synonyms('parent subtype',
+         'subtype reference',
+         'owning subtype'),
+   target('subtype__v'),
+   target_label('Parent Subtype'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

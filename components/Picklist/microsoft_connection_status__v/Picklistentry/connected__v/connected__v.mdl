@@ -1,0 +1,5 @@
+Picklistentry connected__v (
+   value('Connected'),
+   order(2),
+   active(true)
+);

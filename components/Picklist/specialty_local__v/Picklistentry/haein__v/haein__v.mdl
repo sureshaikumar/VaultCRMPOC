@@ -1,0 +1,6 @@
+Picklistentry haein__v (
+   value('Histology and Embryology'),
+   order(707),
+   active(true),
+   controlling_entries('tr__v')
+);

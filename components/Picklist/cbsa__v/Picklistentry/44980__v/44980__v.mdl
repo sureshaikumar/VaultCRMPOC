@@ -1,0 +1,5 @@
+Picklistentry 44980__v (
+   value('Sunbury, PA Micropolitan Statistical Area'),
+   order(9),
+   active(true)
+);

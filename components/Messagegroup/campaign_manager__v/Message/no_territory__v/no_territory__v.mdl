@@ -1,0 +1,6 @@
+Message no_territory__v (
+   label(),
+   active(true),
+   default_value('No Territory'),
+   system_managed(false)
+);

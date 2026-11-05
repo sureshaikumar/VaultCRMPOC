@@ -1,0 +1,6 @@
+Picklistentry cz-511__v (
+   value('Česká Lípa'),
+   order(856),
+   active(true),
+   controlling_entries('cz__v')
+);

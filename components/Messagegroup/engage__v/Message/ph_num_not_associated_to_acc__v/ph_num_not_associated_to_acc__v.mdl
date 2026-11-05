@@ -1,0 +1,6 @@
+Message ph_num_not_associated_to_acc__v (
+   label(),
+   active(true),
+   default_value('This phone number is not associated with an account.'),
+   system_managed(false)
+);

@@ -1,0 +1,3 @@
+Typeaction attachments_delete__sys (
+   action('trained_model__sys.attachments_delete__sys')
+);

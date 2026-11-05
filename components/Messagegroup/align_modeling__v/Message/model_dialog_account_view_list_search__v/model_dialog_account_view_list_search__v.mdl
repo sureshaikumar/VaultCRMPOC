@@ -1,0 +1,6 @@
+Message model_dialog_account_view_list_search__v (
+   label(),
+   active(true),
+   default_value('Search View Icon is a simple page to provide quick<br/>access to search an Account.<br/>The List View Icon will show the classic list of Accounts<br/>and the ability to search.'),
+   system_managed(false)
+);

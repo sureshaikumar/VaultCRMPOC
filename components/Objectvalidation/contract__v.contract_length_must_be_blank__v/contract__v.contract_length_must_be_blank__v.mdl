@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.contract_length_must_be_blank__v (
+   label('Contract Length Must be Blank'),
+   active(true),
+   expression('Not((object_type__vr.api_name__v=''series_contract__v'')&&(IsBlank(period_type__v))&&(Not(IsBlank(contract_length__v))))'),
+   description('Contract Length cannot contain a value for a Period Type of "None".'),
+   error_message('Contract Length cannot contain a value for a Period Type of "None".'),
+   error_location('contract_length__v')
+);

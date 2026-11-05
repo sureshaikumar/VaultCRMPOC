@@ -1,0 +1,6 @@
+Picklistentry dj-ar__v (
+   value('Arta'),
+   order(919),
+   active(true),
+   controlling_entries('dj__v')
+);

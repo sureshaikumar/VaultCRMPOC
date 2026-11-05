@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.first_name__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.last_name__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.email__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.country_code__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.last_login__sys" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.application_profile__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.profile_name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="user__sys.security_profile__sys" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="NOTINLASTDAYS" leftValue="user__sys.last_login__sys" rightValue="90" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="user__sys.country_code__v" groupBySortOn="user__sys.country_code__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="user__sys.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

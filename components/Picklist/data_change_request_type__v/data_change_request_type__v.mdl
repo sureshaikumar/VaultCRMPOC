@@ -1,0 +1,9 @@
+RECREATE Picklist data_change_request_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/new__v.mdl),
+   Picklistentry(@Picklistentry/edit__v.mdl),
+   Picklistentry(@Picklistentry/delete__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,4 @@
+Typefield recipient_name_in_email_header__v (
+   source('standard'),
+   required(false)
+);

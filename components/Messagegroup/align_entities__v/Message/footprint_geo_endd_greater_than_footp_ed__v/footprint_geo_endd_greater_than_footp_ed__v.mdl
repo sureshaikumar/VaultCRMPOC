@@ -1,0 +1,6 @@
+Message footprint_geo_endd_greater_than_footp_ed__v (
+   label(),
+   active(true),
+   default_value('Footprint Geography End Date cannot be later than its parent Footprint''s End Date.'),
+   system_managed(false)
+);

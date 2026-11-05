@@ -1,0 +1,6 @@
+Picklistentry ortna__v (
+   value('Oncology - Radiation Therapy'),
+   order(1117),
+   active(true),
+   controlling_entries('vn__v')
+);

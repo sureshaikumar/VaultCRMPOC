@@ -1,0 +1,5 @@
+Picklistentry ssw (
+   value('Swati'),
+   order(315),
+   active(true)
+);

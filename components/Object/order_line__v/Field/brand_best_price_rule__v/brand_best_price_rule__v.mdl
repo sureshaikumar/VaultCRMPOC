@@ -1,0 +1,18 @@
+Field brand_best_price_rule__v (
+   label('Brand Best Rule'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Shows and stores the pricing cluster that triggered Best Price discount at the brand level'),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.order_line_brand_best_price_rule__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

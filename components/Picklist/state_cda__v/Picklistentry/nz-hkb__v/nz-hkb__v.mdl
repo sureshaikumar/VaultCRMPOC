@@ -1,0 +1,6 @@
+Picklistentry nz-hkb__v (
+   value('Hawke''s Bay'),
+   order(3431),
+   active(true),
+   controlling_entries('nz__v')
+);

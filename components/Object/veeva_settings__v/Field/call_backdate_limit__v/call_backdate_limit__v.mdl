@@ -1,0 +1,23 @@
+Field call_backdate_limit__v (
+   label('Call Backdate Limit'),
+   type('Number'),
+   active(true),
+   description('Represents the number of days in the past that a user cannot save a call before. Example: If the value is 30, then a user cannot save a call where the date is more than 30 days in the past.'),
+   required(false),
+   unique(false),
+   max_value(3650),
+   min_value(-1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(45),
+   default_value('-1'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

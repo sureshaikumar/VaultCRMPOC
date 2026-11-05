@@ -1,0 +1,5 @@
+Picklistentry lsl__sys (
+   value('LSL'),
+   order(107),
+   active(true)
+);

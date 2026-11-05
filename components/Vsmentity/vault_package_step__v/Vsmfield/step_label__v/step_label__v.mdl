@@ -1,0 +1,13 @@
+Vsmfield step_label__v (
+   label('Label'),
+   active(true),
+   description('The human-readable label for this package step as it appears in the Vault UI. Use this field when searching for steps by their visible name rather than their internal system name.'),
+   example_values(),
+   synonyms('label',
+         'display name',
+         'step display label'),
+   target('step_label__v'),
+   target_label('Label'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

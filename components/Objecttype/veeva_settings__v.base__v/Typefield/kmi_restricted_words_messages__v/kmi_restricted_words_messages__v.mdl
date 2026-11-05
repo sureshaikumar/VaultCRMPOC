@@ -1,0 +1,4 @@
+Typefield kmi_restricted_words_messages__v (
+   source('standard'),
+   required(false)
+);

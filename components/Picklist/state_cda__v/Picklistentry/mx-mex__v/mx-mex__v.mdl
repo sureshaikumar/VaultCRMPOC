@@ -1,0 +1,6 @@
+Picklistentry mx-mex__v (
+   value('México'),
+   order(3253),
+   active(true),
+   controlling_entries('mx__v')
+);

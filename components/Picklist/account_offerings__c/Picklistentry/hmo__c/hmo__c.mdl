@@ -1,0 +1,5 @@
+Picklistentry hmo__c (
+   value('HMO'),
+   order(0),
+   active(true)
+);

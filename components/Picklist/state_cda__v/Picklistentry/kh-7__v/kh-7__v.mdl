@@ -1,0 +1,6 @@
+Picklistentry kh-7__v (
+   value('Kampot [Kâmpôt]'),
+   order(2432),
+   active(true),
+   controlling_entries('kh__v')
+);

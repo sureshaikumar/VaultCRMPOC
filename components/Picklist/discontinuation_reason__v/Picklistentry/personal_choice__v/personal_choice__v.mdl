@@ -1,0 +1,5 @@
+Picklistentry personal_choice__v (
+   value('Personal Choice'),
+   order(2),
+   active(true)
+);

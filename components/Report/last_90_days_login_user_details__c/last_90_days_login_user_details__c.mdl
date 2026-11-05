@@ -1,0 +1,20 @@
+RECREATE Report last_90_days_login_user_details__c (
+   label('Last 90 Days Login User Details'),
+   active(true),
+   description(),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.user__v'),
+   editors(),
+   viewers(),
+   owners('User.basavaraja.shivajappa@sb-accenture.com'),
+   class('View'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

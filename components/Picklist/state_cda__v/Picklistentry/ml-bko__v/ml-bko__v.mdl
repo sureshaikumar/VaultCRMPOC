@@ -1,0 +1,6 @@
+Picklistentry ml-bko__v (
+   value('Bamako'),
+   order(3054),
+   active(true),
+   controlling_entries('ml__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry clp__sys (
+   value('CLP'),
+   order(41),
+   active(true)
+);

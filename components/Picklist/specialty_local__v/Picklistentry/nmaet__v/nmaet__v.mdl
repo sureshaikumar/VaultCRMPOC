@@ -1,0 +1,6 @@
+Picklistentry nmaet__v (
+   value('Naturopathic Medicine'),
+   order(986),
+   active(true),
+   controlling_entries('us__v')
+);

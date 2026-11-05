@@ -1,0 +1,5 @@
+Picklistentry schlegel_reprint__v (
+   value('Schlegel reprint'),
+   order(2),
+   active(true)
+);

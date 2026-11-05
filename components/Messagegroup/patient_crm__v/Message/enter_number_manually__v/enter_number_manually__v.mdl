@@ -1,0 +1,6 @@
+Message enter_number_manually__v (
+   label(),
+   active(true),
+   default_value('Enter number manually'),
+   system_managed(false)
+);

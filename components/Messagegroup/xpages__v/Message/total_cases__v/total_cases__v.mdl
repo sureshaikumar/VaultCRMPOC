@@ -1,0 +1,6 @@
+Message total_cases__v (
+   label(),
+   active(true),
+   default_value('Total Cases'),
+   system_managed(false)
+);

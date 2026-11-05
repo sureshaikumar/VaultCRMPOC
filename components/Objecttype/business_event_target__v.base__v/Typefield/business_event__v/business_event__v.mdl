@@ -1,0 +1,4 @@
+Typefield business_event__v (
+   source('standard'),
+   required(true)
+);

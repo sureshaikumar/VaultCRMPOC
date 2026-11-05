@@ -1,0 +1,6 @@
+Picklistentry it-nu__v (
+   value('Nuoro'),
+   order(2233),
+   active(true),
+   controlling_entries('it__v')
+);

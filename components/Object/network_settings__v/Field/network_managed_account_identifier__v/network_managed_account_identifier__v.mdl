@@ -1,0 +1,23 @@
+Field network_managed_account_identifier__v (
+   label('Network Managed Account Identifier'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(2),
+   min_value(0),
+   scale(0),
+   help_content('This flag determines whether Network Hashtags values are displayed in NAS and if Network controls the values in Account Identifier.  Refer to documentation for details.'),
+   list_column(false),
+   order(29),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,18 @@
+Field rating_submitted__v (
+   label('Rating Submitted?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field is checked when at least one experience rating questionnaire is submitted related to this meeting.'),
+   list_column(false),
+   order(22),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

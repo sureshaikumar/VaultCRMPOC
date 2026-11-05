@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.bookmark__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="display_configuration__v" />
+            <vault:field reference="filter_criteria__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="sort_definition__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

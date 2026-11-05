@@ -1,0 +1,6 @@
+Picklistentry vroie__v (
+   value('Vitreo-Retinal Ophthalmology'),
+   order(1923),
+   active(true),
+   controlling_entries('pk__v')
+);

@@ -1,0 +1,4 @@
+Typefield auth_for_exiting_signature_pages__v (
+   source('standard'),
+   required(false)
+);

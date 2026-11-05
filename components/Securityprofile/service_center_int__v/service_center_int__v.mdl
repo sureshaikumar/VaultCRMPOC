@@ -1,0 +1,6 @@
+RECREATE Securityprofile service_center_int__v (
+   label('Service Center Integration'),
+   active(true),
+   description(),
+   permission_sets()
+);

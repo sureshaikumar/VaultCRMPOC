@@ -1,0 +1,6 @@
+Message document_upload_failure__v (
+   label(),
+   active(true),
+   default_value('Upload failed: ${file_name}'),
+   system_managed(false)
+);

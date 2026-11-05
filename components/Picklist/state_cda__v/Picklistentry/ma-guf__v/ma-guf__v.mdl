@@ -1,0 +1,6 @@
+Picklistentry ma-guf__v (
+   value('Guercif'),
+   order(2801),
+   active(true),
+   controlling_entries('ma__v')
+);

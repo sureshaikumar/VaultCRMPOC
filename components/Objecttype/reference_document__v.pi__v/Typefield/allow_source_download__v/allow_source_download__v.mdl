@@ -1,0 +1,4 @@
+Typefield allow_source_download__v (
+   source('custom'),
+   required(false)
+);

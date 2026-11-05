@@ -1,0 +1,6 @@
+Picklistentry ug-125__v (
+   value('Kyotera'),
+   order(4667),
+   active(true),
+   controlling_entries('ug__v')
+);

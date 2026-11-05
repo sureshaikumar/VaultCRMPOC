@@ -1,0 +1,6 @@
+Message waba_admin__v (
+   label(),
+   active(true),
+   default_value('WhatsApp Business Administration'),
+   system_managed(false)
+);

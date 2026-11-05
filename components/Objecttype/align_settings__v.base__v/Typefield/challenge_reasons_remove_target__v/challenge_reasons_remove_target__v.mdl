@@ -1,0 +1,4 @@
+Typefield challenge_reasons_remove_target__v (
+   source('standard'),
+   required(false)
+);

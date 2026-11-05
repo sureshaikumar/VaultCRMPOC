@@ -1,0 +1,6 @@
+Message cancel_without_saving__v (
+   label(),
+   active(true),
+   default_value('Cancel Without Saving'),
+   system_managed(false)
+);

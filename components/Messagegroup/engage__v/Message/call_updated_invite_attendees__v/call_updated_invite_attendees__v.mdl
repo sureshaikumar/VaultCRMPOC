@@ -1,0 +1,6 @@
+Message call_updated_invite_attendees__v (
+   label(),
+   active(true),
+   default_value('Call has been updated to occur on {0}. Send an invitation to attendees?'),
+   system_managed(false)
+);

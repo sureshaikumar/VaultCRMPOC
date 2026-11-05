@@ -1,0 +1,6 @@
+Picklistentry bf-smt__v (
+   value('Sanmatenga'),
+   order(362),
+   active(true),
+   controlling_entries('bf__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction child_account__v.new_medical_inquiry__v (
+   label('New Medical Inquiry'),
+   description('Create a New Medical Inquiry from a Child Account.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinquiry.actions.ChildAccountNewMedicalInquiryAction'),
+   active(true),
+   available_all_states(true)
+);

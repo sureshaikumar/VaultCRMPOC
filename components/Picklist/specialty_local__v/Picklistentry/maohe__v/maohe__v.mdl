@@ -1,0 +1,7 @@
+Picklistentry maohe__v (
+   value('Medicine and Occupational Health'),
+   order(949),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

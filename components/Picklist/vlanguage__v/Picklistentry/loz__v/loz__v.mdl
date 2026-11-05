@@ -1,0 +1,5 @@
+Picklistentry loz__v (
+   value('Lozi'),
+   order(191),
+   active(false)
+);

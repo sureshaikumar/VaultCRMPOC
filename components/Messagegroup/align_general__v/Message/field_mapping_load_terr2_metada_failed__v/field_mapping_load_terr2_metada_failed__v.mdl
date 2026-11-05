@@ -1,0 +1,6 @@
+Message field_mapping_load_terr2_metada_failed__v (
+   label(),
+   active(true),
+   default_value('Territory field mapping only works with the Territory2 CRM Object.'),
+   system_managed(false)
+);

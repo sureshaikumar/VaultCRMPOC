@@ -1,0 +1,14 @@
+Vsmfield matching_fields__v (
+   label('Matching EDL Item Fields'),
+   active(true),
+   description('Picklist indicating which document fields are used to match documents to this EDL item (e.g., document type, classification, lifecycle state). Helps users understand the matching logic applied when determining if a document satisfies this EDL item.'),
+   example_values(),
+   synonyms('matched fields',
+         'EDL match criteria',
+         'matching criteria',
+         'item match fields'),
+   target('matching_fields__v'),
+   target_label('Matching EDL Item Fields'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

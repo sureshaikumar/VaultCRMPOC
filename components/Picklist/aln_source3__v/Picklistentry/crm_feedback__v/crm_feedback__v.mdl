@@ -1,0 +1,5 @@
+Picklistentry crm_feedback__v (
+   value('CRM Feedback'),
+   order(6),
+   active(true)
+);

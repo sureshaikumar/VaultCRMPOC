@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_action_add_delegates_to_event__v (
+   label('Add Delegates to Event'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

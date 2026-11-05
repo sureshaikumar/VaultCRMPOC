@@ -1,0 +1,5 @@
+Index activity_type_v__sys (
+   description(),
+   fields('activity_type__v'),
+   label('Activity Type')
+);

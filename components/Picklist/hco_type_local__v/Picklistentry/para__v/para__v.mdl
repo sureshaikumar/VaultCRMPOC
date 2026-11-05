@@ -1,0 +1,5 @@
+Picklistentry para__v (
+   value('Parapharmacy'),
+   order(185),
+   active(true)
+);

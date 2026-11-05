@@ -1,0 +1,11 @@
+Vsmfield completion_date__v (
+   label('Completion Date'),
+   active(true),
+   description('This field stores the datetime when a user task is completed by the user'),
+   example_values(),
+   synonyms('Completed Date'),
+   target('completion_date__v'),
+   target_label('Completion Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,10 @@
+Picklistentry urogy__v (
+   value('Urogynaecology'),
+   order(1893),
+   active(true),
+   controlling_entries('au__v',
+         'gb__v',
+         'ng__v',
+         'nz__v',
+         'pk__v')
+);

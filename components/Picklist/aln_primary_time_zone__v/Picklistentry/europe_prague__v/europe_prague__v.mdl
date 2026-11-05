@@ -1,0 +1,5 @@
+Picklistentry europe_prague__v (
+   value('Europe/Prague'),
+   order(34),
+   active(true)
+);

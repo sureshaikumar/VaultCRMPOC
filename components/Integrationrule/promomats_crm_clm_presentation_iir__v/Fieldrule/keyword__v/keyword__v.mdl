@@ -1,0 +1,15 @@
+Fieldrule keyword__v (
+   label('Keyword'),
+   active(true),
+   query_object('document_crm_keyword__vr'),
+   query_field('external_id__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.keyword__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select('(SELECT external_id__v FROM document_crm_keyword__vr)'),
+   query_field_type('vobject_text__sys'),
+   target_field_lookup()
+);

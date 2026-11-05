@@ -1,0 +1,5 @@
+Picklistentry si (
+   value('Sinhalese'),
+   order(81),
+   active(true)
+);

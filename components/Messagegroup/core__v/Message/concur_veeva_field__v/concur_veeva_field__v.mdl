@@ -1,0 +1,6 @@
+Message concur_veeva_field__v (
+   label(),
+   active(true),
+   default_value('Veeva Field'),
+   system_managed(false)
+);

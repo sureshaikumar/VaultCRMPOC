@@ -1,0 +1,23 @@
+Field to_account_name__v (
+   label('To Account Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('The Account Name of the To Account. Defaults to the same formula on Account.Formatted_Name.'),
+   list_column(false),
+   order(27),
+   formula('If(to_account__vr.ispersonaccount__v, to_account__vr.last_name_cda__v & ", " &
+        If(Not(IsBlank(to_account__vr.first_name_cda__v)), to_account__vr.first_name_cda__v & " ", "") &
+        If(IsBlank(to_account__vr.suffix_cda__v), "", to_account__vr.suffix_cda__v),  to_account__vr.name__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

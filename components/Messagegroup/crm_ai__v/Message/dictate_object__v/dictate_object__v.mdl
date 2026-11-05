@@ -1,0 +1,6 @@
+Message dictate_object__v (
+   label(),
+   active(true),
+   default_value('Dictate ${object}'),
+   system_managed(false)
+);

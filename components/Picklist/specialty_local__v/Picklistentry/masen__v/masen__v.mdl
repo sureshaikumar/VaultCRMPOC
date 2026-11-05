@@ -1,0 +1,6 @@
+Picklistentry masen__v (
+   value('Medicine and Surgery'),
+   order(950),
+   active(true),
+   controlling_entries('kw__v')
+);

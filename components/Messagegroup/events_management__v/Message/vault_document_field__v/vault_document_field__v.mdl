@@ -1,0 +1,6 @@
+Message vault_document_field__v (
+   label(),
+   active(true),
+   default_value('Vault Document Field'),
+   system_managed(false)
+);

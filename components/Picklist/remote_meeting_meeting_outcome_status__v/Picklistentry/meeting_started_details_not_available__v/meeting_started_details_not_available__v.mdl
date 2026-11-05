@@ -1,0 +1,5 @@
+Picklistentry meeting_started_details_not_available__v (
+   value('Meeting Started Details, Not Available'),
+   order(2),
+   active(true)
+);

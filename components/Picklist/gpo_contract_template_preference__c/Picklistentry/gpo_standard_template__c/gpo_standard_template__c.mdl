@@ -1,0 +1,5 @@
+Picklistentry gpo_standard_template__c (
+   value('GPO Standard Template'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,17 @@
+Field institution_signature__v (
+   label('Institution Signature'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Used by Events Management to store the signature from a Speaker''s employer/institution.'),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

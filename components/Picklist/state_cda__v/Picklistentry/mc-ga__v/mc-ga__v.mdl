@@ -1,0 +1,6 @@
+Picklistentry mc-ga__v (
+   value('La Gare'),
+   order(2856),
+   active(true),
+   controlling_entries('mc__v')
+);

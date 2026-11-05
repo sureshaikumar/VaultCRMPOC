@@ -1,0 +1,5 @@
+Picklistentry em_event_team_member__v (
+   value('EM_Event_Team_Member'),
+   order(5),
+   active(true)
+);

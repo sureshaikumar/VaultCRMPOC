@@ -1,0 +1,6 @@
+Picklistentry sy-ta__v (
+   value('Ţarţūs'),
+   order(4295),
+   active(true),
+   controlling_entries('sy__v')
+);

@@ -1,0 +1,6 @@
+Message align_manage_crm_features__v (
+   label(),
+   active(true),
+   default_value('These records will not be sent to CRM until this feature is enabled.'),
+   system_managed(false)
+);

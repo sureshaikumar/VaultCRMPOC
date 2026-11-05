@@ -1,0 +1,6 @@
+Message sign_in_to_microsoft__v (
+   label(),
+   active(true),
+   default_value('Sign in to Microsoft 365'),
+   system_managed(false)
+);

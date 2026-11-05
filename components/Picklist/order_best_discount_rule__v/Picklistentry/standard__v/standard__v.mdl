@@ -1,0 +1,5 @@
+Picklistentry standard__v (
+   value('Standard'),
+   order(3),
+   active(true)
+);

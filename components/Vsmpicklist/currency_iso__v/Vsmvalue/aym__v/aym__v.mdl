@@ -1,0 +1,9 @@
+Vsmvalue aym__v (
+   label('AYM'),
+   active(true),
+   description('The old Azerbaijani Manat (AYM), a former currency of Azerbaijan that was replaced by the redenominated AZN in 2006.'),
+   synonyms('Azerbaijani manat old',
+         'Azerbaijan old currency'),
+   target('aym__sys'),
+   target_label('AYM')
+);

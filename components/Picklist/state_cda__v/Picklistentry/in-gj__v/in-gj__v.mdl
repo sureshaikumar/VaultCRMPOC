@@ -1,0 +1,6 @@
+Picklistentry in-gj__v (
+   value('Gujarāt'),
+   order(2007),
+   active(true),
+   controlling_entries('in__v')
+);

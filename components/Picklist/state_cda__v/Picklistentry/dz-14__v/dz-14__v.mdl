@@ -1,0 +1,6 @@
+Picklistentry dz-14__v (
+   value('Tiaret'),
+   order(995),
+   active(true),
+   controlling_entries('dz__v')
+);

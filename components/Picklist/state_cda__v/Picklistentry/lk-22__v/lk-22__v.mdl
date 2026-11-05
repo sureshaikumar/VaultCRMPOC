@@ -1,0 +1,6 @@
+Picklistentry lk-22__v (
+   value('Matale'),
+   order(2566),
+   active(true),
+   controlling_entries('lk__v')
+);

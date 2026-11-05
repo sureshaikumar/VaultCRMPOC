@@ -1,0 +1,6 @@
+Picklistentry cv-so__v (
+   value('São Lourenço dos Órgãos'),
+   order(802),
+   active(true),
+   controlling_entries('cv__v')
+);

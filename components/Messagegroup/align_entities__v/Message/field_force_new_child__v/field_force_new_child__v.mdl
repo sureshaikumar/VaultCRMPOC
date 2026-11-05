@@ -1,0 +1,6 @@
+Message field_force_new_child__v (
+   label(),
+   active(true),
+   default_value('New Child Field Force'),
+   system_managed(false)
+);

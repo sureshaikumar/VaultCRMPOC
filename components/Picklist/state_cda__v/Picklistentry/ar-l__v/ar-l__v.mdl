@@ -1,0 +1,6 @@
+Picklistentry ar-l__v (
+   value('La Pampa'),
+   order(107),
+   active(true),
+   controlling_entries('ar__v')
+);

@@ -1,0 +1,7 @@
+Picklistentry noenu__v (
+   value('Neuro-Oncology'),
+   order(1004),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

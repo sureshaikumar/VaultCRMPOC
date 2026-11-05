@@ -1,0 +1,5 @@
+Picklistentry australia_darwin__sys (
+   value('(GMT+09:30) Australian Central Standard Time (Northern Territory) (Australia/Darwin)'),
+   order(279),
+   active(true)
+);

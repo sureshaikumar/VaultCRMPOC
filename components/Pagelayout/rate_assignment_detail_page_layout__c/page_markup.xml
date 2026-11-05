@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_rate_assignment__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="event_content_length__v" />
+            <vault:field reference="event_event_format__v" />
+            <vault:field reference="event_location_type__v" />
+            <vault:field reference="event_object_type__v" />
+            <vault:field reference="event_product__v" />
+            <vault:field reference="event_program_type__v" />
+            <vault:field reference="event_speaker_role__v" />
+            <vault:field reference="event_speaker_tier__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="rate__v" />
+            <vault:field reference="rate_assignment_id__v" />
+            <vault:field reference="speaker_country__v" />
+            <vault:field reference="speaker_credentials__v" />
+            <vault:field reference="speaker_reach__v" />
+            <vault:field reference="speaker_specialty_1__v" />
+            <vault:field reference="speaker_tier__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="event_speaker_country__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

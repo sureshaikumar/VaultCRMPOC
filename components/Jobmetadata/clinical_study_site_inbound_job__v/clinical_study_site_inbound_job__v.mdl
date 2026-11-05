@@ -1,0 +1,11 @@
+RECREATE Jobmetadata clinical_study_site_inbound_job__v (
+   label('Clinical Study Site Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('The job responsible for pulling all Clinical Study Sites to VaultCRM.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clinicalintegration.jobs.ClinicalStudySiteInboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

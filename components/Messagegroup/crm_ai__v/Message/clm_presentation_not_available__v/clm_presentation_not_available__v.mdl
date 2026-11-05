@@ -1,0 +1,6 @@
+Message clm_presentation_not_available__v (
+   label(),
+   active(true),
+   default_value('This presentation is no longer available.'),
+   system_managed(false)
+);

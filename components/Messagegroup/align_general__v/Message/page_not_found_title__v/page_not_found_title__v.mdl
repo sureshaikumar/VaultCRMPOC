@@ -1,0 +1,6 @@
+Message page_not_found_title__v (
+   label(),
+   active(true),
+   default_value('Sorry, the page you tried to access does not exist.'),
+   system_managed(false)
+);

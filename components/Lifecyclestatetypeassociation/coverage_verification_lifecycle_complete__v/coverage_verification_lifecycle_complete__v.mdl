@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation coverage_verification_lifecycle_complete__v (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.coverage_verification_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.complete_state__v'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

@@ -1,0 +1,6 @@
+Message mapping_skipped_set_to_manual__v (
+   label(),
+   active(true),
+   default_value('Completed - Mapping skipped (set to manual)'),
+   system_managed(false)
+);

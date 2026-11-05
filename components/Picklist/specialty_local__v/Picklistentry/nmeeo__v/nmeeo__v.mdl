@@ -1,0 +1,6 @@
+Picklistentry nmeeo__v (
+   value('Neonatal Medicine'),
+   order(991),
+   active(true),
+   controlling_entries('gb__v')
+);

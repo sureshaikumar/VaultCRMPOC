@@ -1,0 +1,20 @@
+Field pubmed_url__v (
+   label('PubMed URL'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Hyperlink URL for PubMed Article'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('LinkFormat("new_window")'),
+   control_binding()
+);

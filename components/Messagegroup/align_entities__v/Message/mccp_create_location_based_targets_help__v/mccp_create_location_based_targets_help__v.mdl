@@ -1,0 +1,6 @@
+Message mccp_create_location_based_targets_help__v (
+   label(),
+   active(true),
+   default_value('Setting this field to Yes will allow this channel to create targets for accounts based on their location.'),
+   system_managed(false)
+);

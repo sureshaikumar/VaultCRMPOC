@@ -1,0 +1,6 @@
+Message microsoft_outlook__v (
+   label(),
+   active(true),
+   default_value('Microsoft Outlook'),
+   system_managed(false)
+);

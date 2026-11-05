@@ -1,0 +1,18 @@
+Field enable_tablet_vinsights_tab__v (
+   label('ENABLE_TABLET_VINSIGHTS_TAB'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the VInsights tab is available in the VMobile Tablet application.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(160),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

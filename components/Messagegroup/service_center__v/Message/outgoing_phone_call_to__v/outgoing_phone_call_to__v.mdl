@@ -1,0 +1,6 @@
+Message outgoing_phone_call_to__v (
+   label(),
+   active(true),
+   default_value('Outgoing Phone Call to ${phone_number}'),
+   system_managed(false)
+);

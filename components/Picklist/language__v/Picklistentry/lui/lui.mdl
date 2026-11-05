@@ -1,0 +1,5 @@
+Picklistentry lui (
+   value('Luiseno'),
+   order(240),
+   active(true)
+);

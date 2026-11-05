@@ -1,0 +1,6 @@
+Message start_end_datetime_empty__v (
+   label(),
+   active(true),
+   default_value('Start Datetime and End Datetime cannot be empty.'),
+   system_managed(false)
+);

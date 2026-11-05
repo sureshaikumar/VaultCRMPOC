@@ -1,0 +1,6 @@
+Message targets_without_goals_not_permitted__v (
+   label(),
+   active(true),
+   default_value('Target Goals cannot be created against this MC Cycle Plan.'),
+   system_managed(false)
+);

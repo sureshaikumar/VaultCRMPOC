@@ -1,0 +1,10 @@
+RECREATE Layout notification_list_layout__sys (
+   label('Notification Page Layout'),
+   active(true),
+   description(),
+   layout_markup(),
+   page('Page.notification_page__sys'),
+   properties(),
+   url_path_name('default'),
+   validator_code()
+);

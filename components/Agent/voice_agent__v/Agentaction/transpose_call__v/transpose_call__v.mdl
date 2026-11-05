@@ -1,0 +1,12 @@
+Agentaction transpose_call__v (
+   label('Transpose Call'),
+   active(true),
+   api_access(),
+   description('Takes the transcription and transposes it into a Call record'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

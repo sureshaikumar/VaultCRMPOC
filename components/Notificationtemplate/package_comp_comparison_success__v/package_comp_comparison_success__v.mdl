@@ -1,0 +1,19 @@
+RECREATE Notificationtemplate package_comp_comparison_success__v (
+   label('packageComparisonSuccess'),
+   active(true),
+   description('Package component comparison success template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Package Component Comparison Complete'),
+   notification('<b><p>Package component comparison has been successfully completed.</p></b>
+<br/>
+The requested Package Comparison for Inbound Package ${package_name} is ready. You may download the comparison export here: ${package_comparison_url}.
+<br/>
+'),
+   email_body('<b><p>The requested Package Comparison for Inbound Package ${package_name} is ready. You may download the comparison export here: ${package_comparison_url}.</p></b><br/>
+<br/>
+<p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

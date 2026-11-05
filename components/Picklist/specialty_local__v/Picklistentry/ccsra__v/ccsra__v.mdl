@@ -1,0 +1,6 @@
+Picklistentry ccsra__v (
+   value('Critical Care Surgery'),
+   order(348),
+   active(true),
+   controlling_entries('us__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry america_santiago__v (
+   value('America/Santiago'),
+   order(19),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message make_primary__v (
+   label(),
+   active(true),
+   default_value('Make Primary'),
+   system_managed(false)
+);

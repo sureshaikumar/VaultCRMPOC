@@ -1,0 +1,6 @@
+Message import_page_two__v (
+   label(),
+   active(true),
+   default_value('Page 2 of 3'),
+   system_managed(false)
+);

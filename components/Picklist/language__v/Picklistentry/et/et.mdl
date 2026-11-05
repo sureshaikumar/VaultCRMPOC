@@ -1,0 +1,5 @@
+Picklistentry et (
+   value('Estonian'),
+   order(34),
+   active(true)
+);

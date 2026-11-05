@@ -1,0 +1,6 @@
+Picklistentry cz-421__v (
+   value('Děčín'),
+   order(848),
+   active(true),
+   controlling_entries('cz__v')
+);

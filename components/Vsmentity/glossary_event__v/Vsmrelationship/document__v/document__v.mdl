@@ -1,0 +1,14 @@
+Vsmrelationship document__v (
+   label('Document'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The Vault document associated with this Glossary Event, such as the document in which the glossary term or definition change was triggered. Use to filter events by document name or type (e.g., document__vr.name__v = ''My Document'').'),
+   join_object(),
+   synonyms('linked document',
+         'vault document',
+         'related document',
+         'source document'),
+   target('document__vr'),
+   target_label('Document'),
+   target_object('documents')
+);

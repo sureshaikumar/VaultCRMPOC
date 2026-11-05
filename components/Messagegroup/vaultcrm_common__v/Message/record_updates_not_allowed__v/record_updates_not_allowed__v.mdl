@@ -1,0 +1,6 @@
+Message record_updates_not_allowed__v (
+   label(),
+   active(true),
+   default_value('You cannot modify, add or delete records in the ${object_label} object.'),
+   system_managed(false)
+);

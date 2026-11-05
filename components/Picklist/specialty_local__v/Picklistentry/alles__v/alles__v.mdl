@@ -1,0 +1,9 @@
+Picklistentry alles__v (
+   value('Allergy'),
+   order(44),
+   active(true),
+   controlling_entries('ae__v',
+         'gb__v',
+         'om__v',
+         'us__v')
+);

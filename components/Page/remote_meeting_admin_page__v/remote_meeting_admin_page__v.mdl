@@ -1,0 +1,14 @@
+RECREATE Page remote_meeting_admin_page__v (
+   label('Remote Meeting'),
+   active(true),
+   client_distribution(),
+   default_client_code('remote_meeting_admin_page__v'),
+   description('Remote Meeting Admin Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.engage.controls.page.RemoteMeetingAdminPageController'),
+   url_path_name('remote-meeting-admin')
+);

@@ -1,0 +1,6 @@
+Picklistentry psaar__v (
+   value('Plastic Surgery, Aesthetic and Reconstructive Microsurgery'),
+   order(1571),
+   active(true),
+   controlling_entries('md__v')
+);

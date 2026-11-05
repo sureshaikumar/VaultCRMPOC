@@ -1,0 +1,6 @@
+Picklistentry rhxme__v (
+   value('Rheumatology Medicine'),
+   order(1753),
+   active(true),
+   controlling_entries('ie__v')
+);

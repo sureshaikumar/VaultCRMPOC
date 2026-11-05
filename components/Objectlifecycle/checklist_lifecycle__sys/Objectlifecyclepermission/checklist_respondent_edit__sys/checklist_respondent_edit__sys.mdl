@@ -1,0 +1,5 @@
+Objectlifecyclepermission checklist_respondent_edit__sys (
+   states('Objectlifecyclestate.in_progress_state__sys'),
+   role('Objectlifecyclerole.checklist_respondent__sys'),
+   permission('Edit')
+);

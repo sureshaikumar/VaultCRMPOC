@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation vault_membership_l_initial_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.vault_membership_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.active_state__sys'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

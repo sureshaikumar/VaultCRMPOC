@@ -1,0 +1,20 @@
+RECREATE Agent base_document_chat_agent__sys (
+   label('Base Document Chat Agent'),
+   active(true),
+   agent_user('[agent]base_document_chat_agent__sys'),
+   class('Agentclass.com.veeva.vault.system.agent.BaseDocumentAgent'),
+   description('The Base Document Chat Agent is intended for use in AI Chat. It uses extracted text from the current document as the Context. Users can use this Agent to perform the following Actions: Summarize Document, Translate Document, and Ask Questions, while viewing a document.'),
+   document_type('Doctype.base_document__v'),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(),
+   supplemental_objective(),
+   Agentaction(@Agentaction/ask_questions_on_document__sys.mdl),
+   Agentaction(@Agentaction/summarize_document__sys.mdl),
+   Agentaction(@Agentaction/translate_document_page__sys.mdl),
+   Agentactiontool(@Agentactiontool/ask_questions_on_document_ask_user__sys.mdl),
+   Agentactiontool(@Agentactiontool/translate_document_page_ask_user__sys.mdl),
+   Agentcontext(@Agentcontext/document_text_context__sys.mdl),
+   Agentcontext(@Agentcontext/document_type_fields_context__sys.mdl)
+);

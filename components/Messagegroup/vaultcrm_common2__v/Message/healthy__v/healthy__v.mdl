@@ -1,0 +1,6 @@
+Message healthy__v (
+   label(),
+   active(true),
+   default_value('Healthy'),
+   system_managed(false)
+);

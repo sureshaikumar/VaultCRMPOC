@@ -1,0 +1,6 @@
+Message expanded_view__v (
+   label(),
+   active(true),
+   default_value('Expanded View'),
+   system_managed(false)
+);

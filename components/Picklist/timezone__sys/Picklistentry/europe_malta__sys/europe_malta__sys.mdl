@@ -1,0 +1,5 @@
+Picklistentry europe_malta__sys (
+   value('(GMT+01:00) Central European Time (Europe/Malta)'),
+   order(160),
+   active(true)
+);

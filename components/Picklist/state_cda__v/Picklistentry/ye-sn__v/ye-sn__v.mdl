@@ -1,0 +1,6 @@
+Picklistentry ye-sn__v (
+   value('Şan‘ā'''),
+   order(5014),
+   active(true),
+   controlling_entries('ye__v')
+);

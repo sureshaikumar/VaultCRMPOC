@@ -1,0 +1,7 @@
+Picklistentry imaid__v (
+   value('Internal Medicine and Infectious Diseases'),
+   order(791),
+   active(true),
+   controlling_entries('at__v',
+         'de__v')
+);

@@ -1,0 +1,18 @@
+Field event__v (
+   label('Event'),
+   type('Picklist'),
+   active(true),
+   description('The event that triggers sending of the Message Template.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(22),
+   multi_value(false),
+   picklist('Picklist.multichannel_route_event__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

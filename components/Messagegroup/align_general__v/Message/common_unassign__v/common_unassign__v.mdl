@@ -1,0 +1,6 @@
+Message common_unassign__v (
+   label(),
+   active(true),
+   default_value('Unassign {0}'),
+   system_managed(false)
+);

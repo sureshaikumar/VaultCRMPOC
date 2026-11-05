@@ -1,0 +1,11 @@
+RECREATE Jobmetadata clinical_outbound_poke_job__v (
+   label('Activity Data to Clinical Outbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that sends a spark message to Clinical indicating that there is updated Activity Data ready to be transferred from Vault CRM to Clinical.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clinicalintegration.jobs.ClinicalOutboundPokeJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

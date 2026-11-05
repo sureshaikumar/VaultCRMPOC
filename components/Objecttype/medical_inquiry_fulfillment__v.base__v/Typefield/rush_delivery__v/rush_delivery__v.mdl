@@ -1,0 +1,4 @@
+Typefield rush_delivery__v (
+   source('standard'),
+   required(false)
+);

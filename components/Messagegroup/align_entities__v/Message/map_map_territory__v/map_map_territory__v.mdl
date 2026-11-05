@@ -1,0 +1,6 @@
+Message map_map_territory__v (
+   label(),
+   active(true),
+   default_value('Map Territory'),
+   system_managed(false)
+);

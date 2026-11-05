@@ -1,0 +1,6 @@
+Picklistentry paend__v (
+   value('Pediatric Anaesthesia'),
+   order(1316),
+   active(true),
+   controlling_entries('in__v')
+);

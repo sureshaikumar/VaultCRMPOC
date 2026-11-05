@@ -1,0 +1,6 @@
+Message save_query__v (
+   label(),
+   active(true),
+   default_value('Save Query'),
+   system_managed(false)
+);

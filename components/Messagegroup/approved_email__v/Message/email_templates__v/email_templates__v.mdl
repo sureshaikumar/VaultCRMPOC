@@ -1,0 +1,6 @@
+Message email_templates__v (
+   label(),
+   active(true),
+   default_value('Email Templates'),
+   system_managed(false)
+);

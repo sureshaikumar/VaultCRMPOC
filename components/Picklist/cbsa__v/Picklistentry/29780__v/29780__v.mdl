@@ -1,0 +1,5 @@
+Picklistentry 29780__v (
+   value('Las Vegas, NM Micropolitan Statistical Area'),
+   order(339),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field vmi_listening_priorities_id__v (
+   label('Listening Priorities ID'),
+   type('String'),
+   active(true),
+   description('Stores the Veeva Medical Insights IDs of the selected Listening Priorities'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

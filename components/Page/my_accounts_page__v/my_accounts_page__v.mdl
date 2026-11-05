@@ -1,0 +1,14 @@
+RECREATE Page my_accounts_page__v (
+   label('My Accounts'),
+   active(true),
+   client_distribution(),
+   default_client_code('my_accounts_page__v'),
+   description('View accounts and filter by territory'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.myaccounts.controls.MyAccountsPageController'),
+   url_path_name('my-accounts')
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_anadyr__sys (
+   value('(GMT+12:00) Anadyr Time (Asia/Anadyr)'),
+   order(302),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message am_address_merge_behavior_active__v (
+   label(),
+   active(true),
+   default_value('Addresses are re-associated to the winning account as active.'),
+   system_managed(false)
+);

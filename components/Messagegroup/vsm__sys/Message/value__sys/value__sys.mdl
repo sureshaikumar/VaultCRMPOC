@@ -1,0 +1,6 @@
+Message value__sys (
+   label(),
+   active(true),
+   default_value('Value'),
+   system_managed(true)
+);

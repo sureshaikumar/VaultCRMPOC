@@ -1,0 +1,6 @@
+Picklistentry si-021__v (
+   value('Dobrova-Polhov Gradec'),
+   order(3995),
+   active(true),
+   controlling_entries('si__v')
+);

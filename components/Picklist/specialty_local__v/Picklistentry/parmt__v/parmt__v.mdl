@@ -1,0 +1,6 @@
+Picklistentry parmt__v (
+   value('Pulmonology and Respiratory Medicine Thoracic Oncology'),
+   order(1660),
+   active(true),
+   controlling_entries('id__v')
+);

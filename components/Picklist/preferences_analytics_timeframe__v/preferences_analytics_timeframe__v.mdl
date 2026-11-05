@@ -1,0 +1,12 @@
+RECREATE Picklist preferences_analytics_timeframe__v (
+   label('Analytics Timeframe'),
+   active(true),
+   Picklistentry(@Picklistentry/3_month__v.mdl),
+   Picklistentry(@Picklistentry/6_month__v.mdl),
+   Picklistentry(@Picklistentry/12_month__v.mdl),
+   Picklistentry(@Picklistentry/24_month__v.mdl),
+   Picklistentry(@Picklistentry/ytd__v.mdl),
+   Picklistentry(@Picklistentry/quarterly__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

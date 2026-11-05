@@ -1,0 +1,6 @@
+Picklistentry td-sa__v (
+   value('Salāmāt'),
+   order(4318),
+   active(true),
+   controlling_entries('td__v')
+);

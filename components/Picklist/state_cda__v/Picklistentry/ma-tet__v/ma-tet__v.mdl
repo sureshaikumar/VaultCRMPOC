@@ -1,0 +1,6 @@
+Picklistentry ma-tet__v (
+   value('Tétouan'),
+   order(2846),
+   active(true),
+   controlling_entries('ma__v')
+);

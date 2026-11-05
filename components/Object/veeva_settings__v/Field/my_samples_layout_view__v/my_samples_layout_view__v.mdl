@@ -1,0 +1,20 @@
+Field my_samples_layout_view__v (
+   label('MY_SAMPLES_LAYOUT_VIEW'),
+   type('String'),
+   active(true),
+   description('Salesforce CSS for the My Samples View page layout icon and header bar in the Veeva CRM online application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(222),
+   default_value('"MY_SAMPLES_LAYOUT_VIEW;;SAMPLES_MGMT"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

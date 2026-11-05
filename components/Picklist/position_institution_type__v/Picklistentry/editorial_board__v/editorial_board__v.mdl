@@ -1,0 +1,5 @@
+Picklistentry editorial_board__v (
+   value('Editorial_Board'),
+   order(2),
+   active(true)
+);

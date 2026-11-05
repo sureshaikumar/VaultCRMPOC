@@ -1,0 +1,17 @@
+Field reason__v (
+   label('Reason'),
+   type('LongText'),
+   active(true),
+   description('Used only for certain Account Lists. Used by the end-user to view the reason why the account is on the list.'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,7 @@
+Picklistentry cavma__v (
+   value('Cardiology and Vascular Medicine'),
+   order(154),
+   active(true),
+   controlling_entries('id__v',
+         'si__v')
+);

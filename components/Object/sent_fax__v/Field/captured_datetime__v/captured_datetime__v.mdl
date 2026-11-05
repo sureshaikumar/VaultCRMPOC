@@ -1,0 +1,17 @@
+Field captured_datetime__v (
+   label('Captured Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Datetime of when the fax was initially captured by the user. Uses server time for online sends and device time for offline sends.'),
+   required(false),
+   help_content(),
+   list_column(true),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

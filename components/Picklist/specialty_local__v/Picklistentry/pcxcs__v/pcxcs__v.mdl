@@ -1,0 +1,6 @@
+Picklistentry pcxcs__v (
+   value('Cardiothoracic Surgery – Pediatric Cardiac Track'),
+   order(174),
+   active(true),
+   controlling_entries('il__v')
+);

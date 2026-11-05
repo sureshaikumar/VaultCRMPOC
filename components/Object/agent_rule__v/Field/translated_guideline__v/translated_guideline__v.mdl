@@ -1,0 +1,19 @@
+Field translated_guideline__v (
+   label('Translated Guideline'),
+   type('String'),
+   active(true),
+   description('Used to drive translations for Guidelines for the Insight Quality Agent'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

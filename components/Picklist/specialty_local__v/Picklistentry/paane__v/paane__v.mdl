@@ -1,0 +1,6 @@
+Picklistentry paane__v (
+   value('Pediatric and Adolescent Nephrology'),
+   order(1325),
+   active(true),
+   controlling_entries('de__v')
+);

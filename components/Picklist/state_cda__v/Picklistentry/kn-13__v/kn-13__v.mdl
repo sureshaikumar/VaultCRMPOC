@@ -1,0 +1,6 @@
+Picklistentry kn-13__v (
+   value('Saint Thomas Middle Island'),
+   order(2453),
+   active(true),
+   controlling_entries('kn__v')
+);

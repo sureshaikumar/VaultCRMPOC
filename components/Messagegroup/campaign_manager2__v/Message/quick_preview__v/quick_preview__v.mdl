@@ -1,0 +1,6 @@
+Message quick_preview__v (
+   label(),
+   active(true),
+   default_value('Quick Preview'),
+   system_managed(false)
+);

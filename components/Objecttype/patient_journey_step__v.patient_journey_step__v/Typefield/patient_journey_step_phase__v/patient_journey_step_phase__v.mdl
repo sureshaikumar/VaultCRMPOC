@@ -1,0 +1,4 @@
+Typefield patient_journey_step_phase__v (
+   source('custom'),
+   required(false)
+);

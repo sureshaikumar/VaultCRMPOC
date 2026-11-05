@@ -1,0 +1,6 @@
+Picklistentry ug-109__v (
+   value('Nakasongola'),
+   order(4651),
+   active(true),
+   controlling_entries('ug__v')
+);

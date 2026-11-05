@@ -1,0 +1,6 @@
+Message language__sys (
+   label(),
+   active(true),
+   default_value('Language'),
+   system_managed(true)
+);

@@ -1,0 +1,18 @@
+Field consent_restricted_to__v (
+   label('Consent Restricted To'),
+   type('Picklist'),
+   active(true),
+   description('Specifies the operational intent and the scope to which this consent is restricted to.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(37),
+   multi_value(false),
+   picklist('Picklist.consent_restricted_to__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

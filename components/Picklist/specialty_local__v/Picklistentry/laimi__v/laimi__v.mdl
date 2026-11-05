@@ -1,0 +1,6 @@
+Picklistentry laimi__v (
+   value('Laboratory and Investigation Methods in Healthcare'),
+   order(836),
+   active(true),
+   controlling_entries('cz__v')
+);

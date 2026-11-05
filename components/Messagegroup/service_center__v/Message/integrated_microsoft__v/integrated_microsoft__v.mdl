@@ -1,0 +1,6 @@
+Message integrated_microsoft__v (
+   label(),
+   active(true),
+   default_value('Service Center is integrated with Microsoft applications to help you more easily collaborate with your team.'),
+   system_managed(false)
+);

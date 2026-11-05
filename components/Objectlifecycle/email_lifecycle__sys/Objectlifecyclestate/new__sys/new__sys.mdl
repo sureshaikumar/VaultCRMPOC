@@ -1,0 +1,10 @@
+Objectlifecyclestate new__sys (
+   label('New'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('Vault has not yet run the Email Processor to process this record.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

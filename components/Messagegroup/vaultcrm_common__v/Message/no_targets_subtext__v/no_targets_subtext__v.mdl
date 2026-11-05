@@ -1,0 +1,6 @@
+Message no_targets_subtext__v (
+   label(),
+   active(true),
+   default_value('Data will show after generating the target list'),
+   system_managed(false)
+);

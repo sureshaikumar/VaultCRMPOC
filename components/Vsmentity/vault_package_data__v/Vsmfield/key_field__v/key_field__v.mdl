@@ -1,0 +1,14 @@
+Vsmfield key_field__v (
+   label('Key Field'),
+   active(true),
+   description('Specifies the field used to uniquely identify and match records during package deployment, typically for upsert operations. This determines how incoming records are mapped to existing records in the target Vault.'),
+   example_values(),
+   synonyms('match field',
+         'identifier field',
+         'lookup field',
+         'unique key'),
+   target('key_field__sys'),
+   target_label('Key Field'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

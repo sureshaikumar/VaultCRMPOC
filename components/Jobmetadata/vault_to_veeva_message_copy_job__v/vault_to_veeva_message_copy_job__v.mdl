@@ -1,0 +1,12 @@
+RECREATE Jobmetadata vault_to_veeva_message_copy_job__v (
+   label('Vault Message to Veeva Message Copy'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to copy Vault CRM Message Catalog messages and create corresponding Veeva Messages from them, for use in Vault CRM offline apps.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.common.jobs.VaultMessageToVeevaMessageCopyJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

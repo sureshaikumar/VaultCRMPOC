@@ -1,0 +1,6 @@
+Message target_entity__sys (
+   label(),
+   active(true),
+   default_value('Target Entity'),
+   system_managed(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry np-p6__v (
+   value('Karnali'),
+   order(3410),
+   active(true),
+   controlling_entries('np__v')
+);

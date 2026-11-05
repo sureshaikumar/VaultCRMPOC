@@ -1,0 +1,9 @@
+RECREATE Picklist issues_found__v (
+   label('Issues Found'),
+   active(true),
+   Picklistentry(@Picklistentry/true__v.mdl),
+   Picklistentry(@Picklistentry/false_positive__v.mdl),
+   Picklistentry(@Picklistentry/false_negative__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

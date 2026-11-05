@@ -1,0 +1,6 @@
+Picklistentry am-er__v (
+   value('Erevan'),
+   order(71),
+   active(true),
+   controlling_entries('am__v')
+);

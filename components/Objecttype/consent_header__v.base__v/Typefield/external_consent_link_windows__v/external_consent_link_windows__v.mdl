@@ -1,0 +1,4 @@
+Typefield external_consent_link_windows__v (
+   source('standard'),
+   required(false)
+);

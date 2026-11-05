@@ -1,0 +1,5 @@
+Picklistentry ec__v (
+   value('Ecuador'),
+   order(62),
+   active(true)
+);

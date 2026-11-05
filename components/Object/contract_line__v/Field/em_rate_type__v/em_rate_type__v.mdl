@@ -1,0 +1,18 @@
+Field em_rate_type__v (
+   label('Rate Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates the rate type for a service. This field is only used by Veeva Event Management.'),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.contract_line_em_rate_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

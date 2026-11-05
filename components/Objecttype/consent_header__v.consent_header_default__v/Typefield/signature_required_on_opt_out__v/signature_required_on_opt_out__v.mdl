@@ -1,0 +1,4 @@
+Typefield signature_required_on_opt_out__v (
+   source('custom'),
+   required(false)
+);

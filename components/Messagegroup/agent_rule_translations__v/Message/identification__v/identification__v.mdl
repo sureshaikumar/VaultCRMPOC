@@ -1,0 +1,6 @@
+Message identification__v (
+   label(),
+   active(true),
+   default_value('Identification'),
+   system_managed(false)
+);

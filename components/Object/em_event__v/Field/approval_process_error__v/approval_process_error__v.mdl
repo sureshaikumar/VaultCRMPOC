@@ -1,0 +1,19 @@
+Field approval_process_error__v (
+   label('Approval Process Error'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('Used to capture the error message if an Approval Process did not meet any entry criteria'),
+   list_column(false),
+   order(121),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

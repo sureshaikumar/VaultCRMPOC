@@ -1,0 +1,6 @@
+Picklistentry imxal__v (
+   value('Immunoallergology'),
+   order(737),
+   active(true),
+   controlling_entries('ao__v')
+);

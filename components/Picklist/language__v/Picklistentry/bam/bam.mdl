@@ -1,0 +1,5 @@
+Picklistentry bam (
+   value('Bambara'),
+   order(136),
+   active(true)
+);

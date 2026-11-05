@@ -1,0 +1,11 @@
+Subtab remote_meetings_admin_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Engage Group Management'),
+   order(0),
+   page('Page.remote_meetings_admin_page__v'),
+   parent('engage_setup_tab__v'),
+   prevent_create(false),
+   url(@url.txt)
+);

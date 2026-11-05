@@ -1,0 +1,6 @@
+Message filter_is_greater_than__v (
+   label(),
+   active(true),
+   default_value('is greater than'),
+   system_managed(false)
+);

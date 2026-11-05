@@ -1,0 +1,6 @@
+Message email_sent_state_change__v (
+   label(),
+   active(true),
+   default_value('Email message sent. Case state changed to ${lifecycle_state}.'),
+   system_managed(false)
+);

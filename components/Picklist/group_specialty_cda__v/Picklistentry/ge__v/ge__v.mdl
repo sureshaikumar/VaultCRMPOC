@@ -1,0 +1,5 @@
+Picklistentry ge__v (
+   value('Gastroenterology'),
+   order(9),
+   active(true)
+);

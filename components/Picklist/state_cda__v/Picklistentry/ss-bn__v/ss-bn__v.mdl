@@ -1,0 +1,6 @@
+Picklistentry ss-bn__v (
+   value('Northern Bahr el-Ghazal'),
+   order(4251),
+   active(true),
+   controlling_entries('ss__v')
+);

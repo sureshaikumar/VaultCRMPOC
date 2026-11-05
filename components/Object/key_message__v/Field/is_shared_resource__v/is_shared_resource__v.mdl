@@ -1,0 +1,18 @@
+Field is_shared_resource__v (
+   label('Is Shared Resource'),
+   type('Boolean'),
+   active(true),
+   description('Denotes if a Key Message is a CLM Shared resource'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(17),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

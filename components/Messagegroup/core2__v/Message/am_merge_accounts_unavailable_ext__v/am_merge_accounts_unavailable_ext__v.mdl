@@ -1,0 +1,6 @@
+Message am_merge_accounts_unavailable_ext__v (
+   label(),
+   active(true),
+   default_value('Merging accounts cannot be accessed. Update Veeva Settings or contact your administrator for additional help.'),
+   system_managed(false)
+);

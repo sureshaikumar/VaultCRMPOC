@@ -1,0 +1,11 @@
+Vsmvalue disconnected_state__v (
+   label('Disconnected'),
+   active(true),
+   description('The connection has been intentionally or unintentionally severed and is no longer transmitting data or maintaining an active link.'),
+   synonyms('unlinked',
+         'severed',
+         'offline',
+         'terminated'),
+   target('disconnected_state__sys'),
+   target_label('Disconnected')
+);

@@ -1,0 +1,6 @@
+Message node_decision_opened__v (
+   label(),
+   active(true),
+   default_value('Opened?'),
+   system_managed(false)
+);

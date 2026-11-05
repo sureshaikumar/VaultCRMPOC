@@ -1,0 +1,6 @@
+Message abort_process_purpose__v (
+   label(),
+   active(true),
+   default_value('The purpose of the scheduled job is to ensure that CRM has up-to-date assignments based on the latest account data.'),
+   system_managed(false)
+);

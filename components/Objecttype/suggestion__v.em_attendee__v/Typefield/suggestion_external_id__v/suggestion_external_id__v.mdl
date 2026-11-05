@@ -1,0 +1,4 @@
+Typefield suggestion_external_id__v (
+   source('custom'),
+   required(false)
+);

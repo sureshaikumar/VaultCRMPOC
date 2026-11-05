@@ -1,0 +1,11 @@
+RECREATE Picklist svcctr_system_source__v (
+   label('Service Center System Source'),
+   active(true),
+   Picklistentry(@Picklistentry/case_lifecycle__v.mdl),
+   Picklistentry(@Picklistentry/case_detail__v.mdl),
+   Picklistentry(@Picklistentry/omniconnect_event__v.mdl),
+   Picklistentry(@Picklistentry/ms_integration__v.mdl),
+   Picklistentry(@Picklistentry/inbox_integration__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,4 @@
+Typefield free_goods_rule__v (
+   source('custom'),
+   required(false)
+);

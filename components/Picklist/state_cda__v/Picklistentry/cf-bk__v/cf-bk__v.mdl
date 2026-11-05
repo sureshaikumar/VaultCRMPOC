@@ -1,0 +1,6 @@
+Picklistentry cf-bk__v (
+   value('Basse-Kotto'),
+   order(601),
+   active(true),
+   controlling_entries('cf__v')
+);

@@ -1,0 +1,6 @@
+Message something_went_wrong_subheader__v (
+   label(),
+   active(true),
+   default_value('Contact your admin or try again later'),
+   system_managed(false)
+);

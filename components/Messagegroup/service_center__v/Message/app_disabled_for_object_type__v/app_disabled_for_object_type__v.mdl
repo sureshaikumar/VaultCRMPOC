@@ -1,0 +1,6 @@
+Message app_disabled_for_object_type__v (
+   label(),
+   active(true),
+   default_value('Object Type ${object_type_label} is not supported because the corresponding application is not enabled.'),
+   system_managed(false)
+);

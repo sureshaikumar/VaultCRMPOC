@@ -1,0 +1,6 @@
+Picklistentry piare__v (
+   value('Pediatric Immunology and Rheumatology'),
+   order(1395),
+   active(true),
+   controlling_entries('ba__v')
+);

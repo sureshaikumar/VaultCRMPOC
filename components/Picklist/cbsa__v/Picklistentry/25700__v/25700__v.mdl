@@ -1,0 +1,5 @@
+Picklistentry 25700__v (
+   value('Hays, KS Micropolitan Statistical Area'),
+   order(633),
+   active(true)
+);

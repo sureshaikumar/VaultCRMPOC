@@ -1,0 +1,6 @@
+Picklistentry mt-24__v (
+   value('Lija'),
+   order(3130),
+   active(true),
+   controlling_entries('mt__v')
+);

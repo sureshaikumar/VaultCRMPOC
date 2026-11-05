@@ -1,0 +1,19 @@
+Field veeva_link_key_people_profile_exists__v (
+   label('Veeva Link Key People Profile Exists'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether a Veeva Link Key People Profile exists for this Account.'),
+   required(false),
+   checkbox(true),
+   help_content('Indicates whether a Veeva Link Key People Profile exists for this Account.'),
+   list_column(false),
+   order(229),
+   formula('Not(IsBlank(veeva_link_key_people_id__v))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

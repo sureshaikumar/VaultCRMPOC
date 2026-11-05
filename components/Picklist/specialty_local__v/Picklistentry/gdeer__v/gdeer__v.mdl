@@ -1,0 +1,6 @@
+Picklistentry gdeer__v (
+   value('Geriatric Dentistry'),
+   order(622),
+   active(true),
+   controlling_entries('sa__v')
+);

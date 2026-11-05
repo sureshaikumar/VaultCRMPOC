@@ -1,0 +1,6 @@
+Message done__v (
+   label(),
+   active(true),
+   default_value('Done'),
+   system_managed(false)
+);

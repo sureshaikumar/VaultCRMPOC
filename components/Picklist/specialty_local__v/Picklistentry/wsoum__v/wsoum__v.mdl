@@ -1,0 +1,6 @@
+Picklistentry wsoum__v (
+   value('Women''s Surgery'),
+   order(1928),
+   active(true),
+   controlling_entries('ph__v')
+);

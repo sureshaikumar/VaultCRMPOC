@@ -1,0 +1,5 @@
+Picklistentry tyv (
+   value('Tuvinian'),
+   order(333),
+   active(true)
+);

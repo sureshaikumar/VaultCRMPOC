@@ -1,0 +1,6 @@
+Message rule_confirm_alignment_dialog_duration__v (
+   label(),
+   active(true),
+   default_value('The calculation of assignments may take several minutes depending on the data volume and the complexity of the assignment rules. You may access the results from the system tray upon completion.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry es-t__v (
+   value('Tarragona'),
+   order(1250),
+   active(true),
+   controlling_entries('es__v')
+);

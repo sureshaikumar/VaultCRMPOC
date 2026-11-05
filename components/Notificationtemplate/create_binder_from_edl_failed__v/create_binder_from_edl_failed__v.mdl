@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate create_binder_from_edl_failed__v (
+   label('Create Binder from EDL Failed'),
+   active(true),
+   description('Message template for use with the unsuccessful completion of creating a binder from EDL.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Binder creation from ${edlObjectLabel} has failed to complete.'),
+   notification('An error occurred while trying to create binder from ${edlObjectLabel} <b>${edlNameHierarchyLink}</b>. Please see notification email for details.'),
+   email_body('<p>An error occurred while trying to create binder from ${edlObjectLabel} <b>${edlNameHierarchyLink}</b>. Please contact your Vault Administrator.</p><p>${createBinderFromEDLErrorMessage}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

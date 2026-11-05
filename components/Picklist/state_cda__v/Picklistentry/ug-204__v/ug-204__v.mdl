@@ -1,0 +1,6 @@
+Picklistentry ug-204__v (
+   value('Jinja'),
+   order(4672),
+   active(true),
+   controlling_entries('ug__v')
+);

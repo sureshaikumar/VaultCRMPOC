@@ -1,0 +1,6 @@
+Message close_window_to_try_again__v (
+   label(),
+   active(true),
+   default_value('Please close this window and refresh Vault CRM to try again.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message no_message_templates_available__v (
+   label(),
+   active(true),
+   default_value('No message templates available'),
+   system_managed(false)
+);

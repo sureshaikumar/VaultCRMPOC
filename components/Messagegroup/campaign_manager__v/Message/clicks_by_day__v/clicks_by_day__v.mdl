@@ -1,0 +1,6 @@
+Message clicks_by_day__v (
+   label(),
+   active(true),
+   default_value('Clicks by Day'),
+   system_managed(false)
+);

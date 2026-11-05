@@ -1,0 +1,23 @@
+Field recipient_name_in_email_header__v (
+   label('Recipient Name in Email Header'),
+   type('Number'),
+   active(true),
+   description('Include the recipient''s name in the email. If RECIPIENT_NAME_IN_EMAIL_HEADER_vod = 1, the To: field should contain just the email address nishant@veeva.com, instead of having both the name and the email address, eg Nishant Bafna nishant@veeva.com.'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(27),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

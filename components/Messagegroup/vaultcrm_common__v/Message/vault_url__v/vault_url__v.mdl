@@ -1,0 +1,6 @@
+Message vault_url__v (
+   label(),
+   active(true),
+   default_value('Vault URL'),
+   system_managed(false)
+);

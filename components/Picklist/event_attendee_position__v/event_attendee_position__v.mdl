@@ -1,0 +1,11 @@
+RECREATE Picklist event_attendee_position__v (
+   label('Position'),
+   active(true),
+   Picklistentry(@Picklistentry/award_winner__v.mdl),
+   Picklistentry(@Picklistentry/chair_person__v.mdl),
+   Picklistentry(@Picklistentry/organizer__v.mdl),
+   Picklistentry(@Picklistentry/participant__v.mdl),
+   Picklistentry(@Picklistentry/speaker__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

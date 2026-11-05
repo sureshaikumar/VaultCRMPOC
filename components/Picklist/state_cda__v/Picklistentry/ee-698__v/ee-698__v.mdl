@@ -1,0 +1,6 @@
+Picklistentry ee-698__v (
+   value('Rõuge'),
+   order(1126),
+   active(true),
+   controlling_entries('ee__v')
+);

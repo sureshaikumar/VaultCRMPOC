@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction closed_won_state__v.entryaction2__c (
+   rule(@rule.xml),
+   order(1000)
+);

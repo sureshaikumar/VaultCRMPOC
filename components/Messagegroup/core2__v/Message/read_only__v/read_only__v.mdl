@@ -1,0 +1,6 @@
+Message read_only__v (
+   label(),
+   active(true),
+   default_value('Read-only'),
+   system_managed(false)
+);

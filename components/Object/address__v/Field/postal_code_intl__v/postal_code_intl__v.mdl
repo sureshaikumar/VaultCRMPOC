@@ -1,0 +1,19 @@
+Field postal_code_intl__v (
+   label('Postal Code (International)'),
+   type('String'),
+   active(true),
+   description('The extended postal format required for international correspondence, ensuring correct routing from outside the destination country.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(101),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

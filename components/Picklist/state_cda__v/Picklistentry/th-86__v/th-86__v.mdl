@@ -1,0 +1,6 @@
+Picklistentry th-86__v (
+   value('Chumphon'),
+   order(4397),
+   active(true),
+   controlling_entries('th__v')
+);

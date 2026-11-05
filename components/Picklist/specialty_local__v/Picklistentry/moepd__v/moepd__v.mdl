@@ -1,0 +1,7 @@
+Picklistentry moepd__v (
+   value('Medical Ophthalmology'),
+   order(929),
+   active(true),
+   controlling_entries('ae__v',
+         'gb__v')
+);

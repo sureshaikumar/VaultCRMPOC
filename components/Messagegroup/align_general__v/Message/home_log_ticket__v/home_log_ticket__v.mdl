@@ -1,0 +1,6 @@
+Message home_log_ticket__v (
+   label(),
+   active(true),
+   default_value('Need help? Log a ticket in the {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message rollup_rule_last_run_datetime_help__v (
+   label(),
+   active(true),
+   default_value('Custom Rollup Rules are calculated at the following entry points:<br/>Assignment Preview, CRM Integration, and Data Loading.'),
+   system_managed(false)
+);

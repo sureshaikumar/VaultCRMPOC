@@ -1,0 +1,6 @@
+Message valid__v (
+   label(),
+   active(true),
+   default_value('Valid'),
+   system_managed(false)
+);

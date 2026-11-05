@@ -1,0 +1,6 @@
+Message send_invite__v (
+   label(),
+   active(true),
+   default_value('Send Invite'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry uy-so__v (
+   value('Soriano'),
+   order(4864),
+   active(true),
+   controlling_entries('uy__v')
+);

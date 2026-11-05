@@ -1,0 +1,6 @@
+Picklistentry vn-53__v (
+   value('Bắc Kạn'),
+   order(4953),
+   active(true),
+   controlling_entries('vn__v')
+);

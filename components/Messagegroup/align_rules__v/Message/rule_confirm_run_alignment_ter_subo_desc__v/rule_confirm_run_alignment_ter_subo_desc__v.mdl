@@ -1,0 +1,6 @@
+Message rule_confirm_run_alignment_ter_subo_desc__v (
+   label(),
+   active(true),
+   default_value('The Preview will display an assignment matrix for {0} and all subordinate territories.'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+Vsmvalue pln__v (
+   label('PLN'),
+   active(true),
+   description('The official currency of Poland (PLN), the primary currency of one of the largest economies in Central Europe and a key currency in EU trade.'),
+   synonyms('Polish zloty',
+         'zloty',
+         'PLN'),
+   target('pln__sys'),
+   target_label('PLN')
+);

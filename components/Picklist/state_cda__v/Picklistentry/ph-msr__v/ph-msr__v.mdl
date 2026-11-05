@@ -1,0 +1,6 @@
+Picklistentry ph-msr__v (
+   value('Misamis Oriental'),
+   order(3585),
+   active(true),
+   controlling_entries('ph__v')
+);

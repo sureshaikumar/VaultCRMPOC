@@ -1,0 +1,14 @@
+Vsmfield document_type__v (
+   label('Document Type'),
+   active(true),
+   description('Reference to the classification or type of the document that was used, such as a detail aid, leave-behind, or clinical study. Use this field to segment document usage analytics by content category.'),
+   example_values(),
+   synonyms('doc type',
+         'content type',
+         'document category',
+         'type'),
+   target('document_type__v'),
+   target_label('Document Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

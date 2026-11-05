@@ -1,0 +1,5 @@
+Picklistentry pre_launch__c (
+   value('Pre-Launch'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field specialty_pharmacy_name__v (
+   label('Specialty Pharmacy Name'),
+   type('String'),
+   active(true),
+   description('Specialty pharmacy information for fulfillment tracking'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Name of the specialty pharmacy involved in this case'),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

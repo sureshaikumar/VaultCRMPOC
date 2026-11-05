@@ -1,0 +1,6 @@
+Picklistentry jp-28__v (
+   value('Hyogo'),
+   order(2334),
+   active(true),
+   controlling_entries('jp__v')
+);

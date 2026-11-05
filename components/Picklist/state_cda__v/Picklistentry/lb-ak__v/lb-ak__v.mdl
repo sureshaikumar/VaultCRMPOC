@@ -1,0 +1,6 @@
+Picklistentry lb-ak__v (
+   value('Aakkâr'),
+   order(2531),
+   active(true),
+   controlling_entries('lb__v')
+);

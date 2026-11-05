@@ -1,0 +1,18 @@
+Field autotarget__v (
+   label('Automatically create target records'),
+   type('Boolean'),
+   active(true),
+   description('If checked, targets will automatically be created based on the selected territories and products. Supports the Territories_vod long text area field (not the Territory_vod text field).'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

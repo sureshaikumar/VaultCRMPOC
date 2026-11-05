@@ -1,0 +1,5 @@
+Picklistentry marked_spam__v (
+   value('Marked Spam'),
+   order(5),
+   active(true)
+);

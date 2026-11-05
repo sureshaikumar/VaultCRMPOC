@@ -1,0 +1,6 @@
+Message crm_integration_user__v (
+   label(),
+   active(true),
+   default_value('User'),
+   system_managed(false)
+);

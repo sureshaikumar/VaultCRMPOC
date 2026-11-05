@@ -1,0 +1,6 @@
+Message add_targets__v (
+   label(),
+   active(true),
+   default_value('Add Targets'),
+   system_managed(false)
+);

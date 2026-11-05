@@ -1,0 +1,4 @@
+Typefield account_search_rule__v (
+   source('standard'),
+   required(true)
+);

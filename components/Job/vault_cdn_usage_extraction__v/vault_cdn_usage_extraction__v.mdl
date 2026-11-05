@@ -1,0 +1,21 @@
+RECREATE Job vault_cdn_usage_extraction__v (
+   active(false),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('Vault CDN Usage Extraction'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   time('0:00'),
+   timezone('America/New_York'),
+   trigger_date(),
+   type('vault_cdn_usage_extraction__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

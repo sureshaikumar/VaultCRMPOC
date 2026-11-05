@@ -1,0 +1,6 @@
+Message content_group_user_change_error__v (
+   label(),
+   active(true),
+   default_value('Field cannot be changed. Please delete this Content Group User and create a new one.'),
+   system_managed(false)
+);

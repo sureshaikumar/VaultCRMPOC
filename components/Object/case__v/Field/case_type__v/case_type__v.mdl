@@ -1,0 +1,19 @@
+Field case_type__v (
+   label('Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Case Type value is used to categorize a case as an incident, question, problem or task.'),
+   list_column(true),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.case_type__v'),
+   default_value('{question_type__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

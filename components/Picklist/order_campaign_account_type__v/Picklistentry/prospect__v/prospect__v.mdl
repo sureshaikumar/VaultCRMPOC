@@ -1,0 +1,5 @@
+Picklistentry prospect__v (
+   value('Prospect'),
+   order(20),
+   active(false)
+);

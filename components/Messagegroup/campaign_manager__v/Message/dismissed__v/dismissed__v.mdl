@@ -1,0 +1,6 @@
+Message dismissed__v (
+   label(),
+   active(true),
+   default_value('Dismissed'),
+   system_managed(false)
+);

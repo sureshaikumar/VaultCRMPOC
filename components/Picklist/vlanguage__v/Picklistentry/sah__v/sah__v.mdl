@@ -1,0 +1,5 @@
+Picklistentry sah__v (
+   value('Yakut'),
+   order(354),
+   active(false)
+);

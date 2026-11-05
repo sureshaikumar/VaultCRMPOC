@@ -1,0 +1,4 @@
+Typefield checklist_design_translation__sys (
+   source('standard'),
+   required(true)
+);

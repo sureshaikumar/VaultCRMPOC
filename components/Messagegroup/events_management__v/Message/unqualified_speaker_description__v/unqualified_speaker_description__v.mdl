@@ -1,0 +1,8 @@
+Message unqualified_speaker_description__v (
+   label(),
+   active(true),
+   default_value('This change cannot be saved because the following Speaker(s) would no longer be qualified to speak at this event:
+
+${speaker_names}'),
+   system_managed(false)
+);

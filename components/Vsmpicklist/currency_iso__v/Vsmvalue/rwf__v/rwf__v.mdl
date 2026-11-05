@@ -1,0 +1,10 @@
+Vsmvalue rwf__v (
+   label('RWF'),
+   active(true),
+   description('Applies when transactions are denominated in the Rwandan Franc, the official currency of Rwanda.'),
+   synonyms('Rwandan franc',
+         'Rwanda currency',
+         'franc'),
+   target('rwf__sys'),
+   target_label('RWF')
+);

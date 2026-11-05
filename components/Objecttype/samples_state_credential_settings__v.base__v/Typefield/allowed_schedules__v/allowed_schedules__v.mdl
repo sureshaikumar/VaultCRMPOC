@@ -1,0 +1,4 @@
+Typefield allowed_schedules__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry thora__v (
+   value('Thoracoscopy'),
+   order(1846),
+   active(true),
+   controlling_entries('ge__v')
+);

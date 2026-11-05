@@ -1,0 +1,6 @@
+Message mccp_remove_location_based_criteria__v (
+   label(),
+   active(true),
+   default_value('Removing Location-based Channels and Products'),
+   system_managed(false)
+);

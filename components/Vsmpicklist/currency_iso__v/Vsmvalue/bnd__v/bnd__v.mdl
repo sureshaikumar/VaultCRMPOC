@@ -1,0 +1,9 @@
+Vsmvalue bnd__v (
+   label('BND'),
+   active(true),
+   description('The Brunei Dollar (BND), the official currency of Brunei Darussalam, interchangeable at parity with the Singapore Dollar.'),
+   synonyms('Brunei dollar',
+         'Brunei currency'),
+   target('bnd__sys'),
+   target_label('BND')
+);

@@ -1,0 +1,19 @@
+RECREATE Agent base_object_chat_agent__sys (
+   label('Base Object Chat Agent'),
+   active(true),
+   agent_user('[agent]base_object_chat_agent__sys'),
+   class('Agentclass.com.veeva.vault.system.agent.BaseObjectAgent'),
+   description('The Base Object Chat Agent is intended for use in AI Chat. It uses the primary record and its related records from the current layout as context. Users can use this Agent to perform the following Actions: Summarize Record, Translate Record, and Ask Questions, while viewing the current record.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(),
+   supplemental_objective(),
+   Agentaction(@Agentaction/ask_questions_on_record__sys.mdl),
+   Agentaction(@Agentaction/summarize_record__sys.mdl),
+   Agentaction(@Agentaction/translate_record__sys.mdl),
+   Agentactiontool(@Agentactiontool/ask_questions_on_record_ask_user__sys.mdl),
+   Agentactiontool(@Agentactiontool/translate_record_ask_user__sys.mdl),
+   Agentcontext(@Agentcontext/object_layout_fields_context__sys.mdl)
+);

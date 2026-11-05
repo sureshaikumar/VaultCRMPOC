@@ -1,0 +1,6 @@
+Message last_thirty_days__v (
+   label(),
+   active(true),
+   default_value('Last 30 Days'),
+   system_managed(false)
+);

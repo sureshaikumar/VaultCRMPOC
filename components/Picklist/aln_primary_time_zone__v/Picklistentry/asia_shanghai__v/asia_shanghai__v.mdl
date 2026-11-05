@@ -1,0 +1,5 @@
+Picklistentry asia_shanghai__v (
+   value('Asia/Shanghai'),
+   order(67),
+   active(true)
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate ml_model_deploy_failure__sys (
+   label('Model Deploy Failure'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.trained_model__sys'),
+   subject('Deployment of the Trained Model ''${Object.name__v}'' has failed.'),
+   notification('<p>Deployment of the Trained Model ''${Object.name__v}'' has failed for the following reason:</p><p>${Custom.mlFailureReason}</p>'),
+   email_body('<p>${notificationMessage}</p> <p>Please <a href="${uiBaseExtUrl}">login to Vault</a> to view all of your tasks and notifications.</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

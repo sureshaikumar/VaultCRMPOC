@@ -1,0 +1,6 @@
+Message model_proj_planned_publish_date_in_range__v (
+   label(),
+   active(true),
+   default_value('Planned Publish Date must be between {0} and {1}.'),
+   system_managed(false)
+);

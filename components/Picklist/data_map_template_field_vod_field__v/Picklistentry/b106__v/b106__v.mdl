@@ -1,0 +1,5 @@
+Picklistentry b106__v (
+   value('B106_vod__c'),
+   order(115),
+   active(true)
+);

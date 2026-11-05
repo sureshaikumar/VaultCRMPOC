@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="test_object__c.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="test_object__c.account__c" type="documentProperty" index="1" columnWidth="155" />
+    <vrp:column key="test_object__c.status__v" type="documentProperty" index="2" columnWidth="155" />
+    <vrp:column key="test_object__c.object_type__v" type="documentProperty" index="3" columnWidth="155" />
+    <vrp:column key="test_object__c.test_type__c" type="documentProperty" index="4" columnWidth="155" />
+    <vrp:column key="test_object__c.test_validation__c" type="documentProperty" index="5" columnWidth="155" />
+    <vrp:column key="test_object__c.test_value__c" type="documentProperty" index="6" columnWidth="155" />
+    <vrp:column key="test_object__c.object_count__v" type="documentProperty" index="7" columnWidth="155" />
+    <vrp:column key="test_object__c___account__c.name__v" type="documentProperty" index="8" columnWidth="200" />
+  </vrp:columns>
+</vrp:reportFormat>

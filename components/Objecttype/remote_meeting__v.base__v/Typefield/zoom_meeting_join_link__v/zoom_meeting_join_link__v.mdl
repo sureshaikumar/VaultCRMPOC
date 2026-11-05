@@ -1,0 +1,4 @@
+Typefield zoom_meeting_join_link__v (
+   source('standard'),
+   required(false)
+);

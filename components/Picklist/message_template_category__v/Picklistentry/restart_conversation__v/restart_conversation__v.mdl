@@ -1,0 +1,5 @@
+Picklistentry restart_conversation__v (
+   value('Restart Conversation'),
+   order(1),
+   active(true)
+);

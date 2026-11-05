@@ -1,0 +1,3 @@
+Typeaction delete_campaign__v (
+   action('campaign__v.delete_campaign__v')
+);

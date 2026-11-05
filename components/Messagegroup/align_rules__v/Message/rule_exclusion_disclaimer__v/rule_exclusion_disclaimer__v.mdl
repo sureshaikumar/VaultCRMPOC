@@ -1,0 +1,6 @@
+Message rule_exclusion_disclaimer__v (
+   label(),
+   active(true),
+   default_value('The Exclusions tab represents the list of Accounts that meet Account Assignment Rule criteria but are not currently assigned to their respective Territories due to the exclusions listed below.'),
+   system_managed(false)
+);

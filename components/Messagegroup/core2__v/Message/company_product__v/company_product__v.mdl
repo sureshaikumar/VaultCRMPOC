@@ -1,0 +1,6 @@
+Message company_product__v (
+   label(),
+   active(true),
+   default_value('Company Product'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+RECREATE Tab ai_reporting__v (
+   active(false),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('AI Reporting'),
+   order(6100),
+   page('Page.ai_reporting__v'),
+   parent(),
+   url(@url.txt)
+);

@@ -1,0 +1,6 @@
+Message view_journey__v (
+   label(),
+   active(true),
+   default_value('View Journey'),
+   system_managed(false)
+);

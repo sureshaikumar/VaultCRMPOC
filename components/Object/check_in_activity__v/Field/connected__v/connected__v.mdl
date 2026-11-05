@@ -1,0 +1,17 @@
+Field connected__v (
+   label('Connected?'),
+   type('Boolean'),
+   active(true),
+   description('This field identifies if the user was able to connect with a person during the check-in.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(true),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

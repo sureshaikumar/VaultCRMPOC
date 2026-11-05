@@ -1,0 +1,5 @@
+Picklistentry import__v (
+   value('Import'),
+   order(1),
+   active(true)
+);

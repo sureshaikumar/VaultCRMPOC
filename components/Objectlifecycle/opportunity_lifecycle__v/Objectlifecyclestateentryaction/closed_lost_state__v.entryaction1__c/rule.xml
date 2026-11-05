@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.opportunity__v.probability__v</targetField>
+            <expression>0</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

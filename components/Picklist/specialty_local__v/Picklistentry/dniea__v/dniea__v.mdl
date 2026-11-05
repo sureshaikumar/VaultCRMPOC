@@ -1,0 +1,6 @@
+Picklistentry dniea__v (
+   value('Diagnostic Neuropathology'),
+   order(432),
+   active(true),
+   controlling_entries('gb__v')
+);

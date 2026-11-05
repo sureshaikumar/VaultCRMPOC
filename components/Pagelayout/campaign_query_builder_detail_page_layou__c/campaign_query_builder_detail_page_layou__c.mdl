@@ -1,0 +1,8 @@
+RECREATE Pagelayout campaign_query_builder_detail_page_layou__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Campaign Query Builder Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

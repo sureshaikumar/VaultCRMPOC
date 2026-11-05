@@ -1,0 +1,6 @@
+Message generate_geo_shapes__v (
+   label(),
+   active(true),
+   default_value('Generate Geo Shapes'),
+   system_managed(false)
+);

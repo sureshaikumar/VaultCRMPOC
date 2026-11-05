@@ -1,0 +1,7 @@
+Picklistentry oornt__v (
+   value('Orthopedic Oncology'),
+   order(1203),
+   active(true),
+   controlling_entries('au__v',
+         'my__v')
+);

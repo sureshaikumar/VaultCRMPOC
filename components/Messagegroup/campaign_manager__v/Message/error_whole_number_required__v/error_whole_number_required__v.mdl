@@ -1,0 +1,6 @@
+Message error_whole_number_required__v (
+   label(),
+   active(true),
+   default_value('Please input a whole number'),
+   system_managed(false)
+);

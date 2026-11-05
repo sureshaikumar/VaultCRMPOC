@@ -1,0 +1,6 @@
+Message loading_object__v (
+   label(),
+   active(true),
+   default_value('Loading ${object_label}'),
+   system_managed(false)
+);

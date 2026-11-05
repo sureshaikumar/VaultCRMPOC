@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate cancelobjectworkflow__v (
+   label('cancelObjectWorkflow'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Workflow has been canceled'),
+   notification('The workflow for record ${Object.name__v} has been canceled.'),
+   email_body('The workflow for record ${Object.name__v} has been canceled.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

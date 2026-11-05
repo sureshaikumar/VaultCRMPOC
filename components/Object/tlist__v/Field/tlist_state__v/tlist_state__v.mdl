@@ -1,0 +1,19 @@
+Field tlist_state__v (
+   label('State'),
+   type('Picklist'),
+   active(true),
+   description('Represents the current state of the Target relative to the campaign steps.'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.tlist_state__v'),
+   default_value('Picklist.tlist_state__v.active__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

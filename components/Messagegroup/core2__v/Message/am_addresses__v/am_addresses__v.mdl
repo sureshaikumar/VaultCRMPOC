@@ -1,0 +1,6 @@
+Message am_addresses__v (
+   label(),
+   active(true),
+   default_value('Addresses'),
+   system_managed(false)
+);

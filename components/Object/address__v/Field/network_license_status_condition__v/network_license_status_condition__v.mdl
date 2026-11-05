@@ -1,0 +1,18 @@
+Field network_license_status_condition__v (
+   label('Network License Status Condition'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Additional information about the license status as reflected in Veeva OpenData. The field is mapped to license_status_condition__v from Network.'),
+   list_column(false),
+   order(59),
+   multi_value(false),
+   picklist('Picklist.address_network_license_status_condition__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

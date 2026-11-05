@@ -1,0 +1,5 @@
+Picklistentry asia_kabul__v (
+   value('Afghanistan Time'),
+   order(32),
+   active(true)
+);

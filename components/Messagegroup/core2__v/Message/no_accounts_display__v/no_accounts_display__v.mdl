@@ -1,0 +1,6 @@
+Message no_accounts_display__v (
+   label(),
+   active(true),
+   default_value('No accounts to display'),
+   system_managed(false)
+);

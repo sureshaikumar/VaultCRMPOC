@@ -1,0 +1,6 @@
+Picklistentry oamsr__v (
+   value('Oral and Maxillofacial Surgery Pediatric Oral and Maxillofacial Surgery'),
+   order(1163),
+   active(true),
+   controlling_entries('id__v')
+);

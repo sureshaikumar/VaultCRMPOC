@@ -1,0 +1,7 @@
+RECREATE Searchablefield medx_v_title_v__v (
+   label(),
+   active(true),
+   field('Field.title__v'),
+   object('Object.medx__v'),
+   required(false)
+);

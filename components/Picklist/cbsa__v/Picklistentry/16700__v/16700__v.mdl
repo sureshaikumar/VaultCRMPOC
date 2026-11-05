@@ -1,0 +1,5 @@
+Picklistentry 16700__v (
+   value('Charleston-North Charleston, SC Metropolitan Statistical Area'),
+   order(933),
+   active(true)
+);

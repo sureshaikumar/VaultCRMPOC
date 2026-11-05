@@ -1,0 +1,6 @@
+Message mccp_feedback_cannot_submit_request_txt__v (
+   label(),
+   active(true),
+   default_value('A transfer request already exists for yourself or the other user for the following products: ${products}.'),
+   system_managed(false)
+);

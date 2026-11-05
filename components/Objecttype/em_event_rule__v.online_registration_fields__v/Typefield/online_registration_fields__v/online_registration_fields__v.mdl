@@ -1,0 +1,4 @@
+Typefield online_registration_fields__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message rule_product_group__v (
+   label(),
+   active(true),
+   default_value('Product Group'),
+   system_managed(false)
+);

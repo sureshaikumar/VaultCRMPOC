@@ -1,0 +1,5 @@
+Picklistentry receipt__v (
+   value('Receipt'),
+   order(1),
+   active(true)
+);

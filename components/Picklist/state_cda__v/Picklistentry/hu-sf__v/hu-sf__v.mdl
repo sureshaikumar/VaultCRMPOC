@@ -1,0 +1,6 @@
+Picklistentry hu-sf__v (
+   value('Székesfehérvár'),
+   order(1901),
+   active(true),
+   controlling_entries('hu__v')
+);

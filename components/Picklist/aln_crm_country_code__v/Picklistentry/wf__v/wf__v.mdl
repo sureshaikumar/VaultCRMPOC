@@ -1,0 +1,5 @@
+Picklistentry wf__v (
+   value('Wallis and Futuna'),
+   order(243),
+   active(true)
+);

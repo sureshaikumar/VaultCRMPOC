@@ -1,0 +1,4 @@
+Typefield hvo_detail_view_count__v (
+   source('standard'),
+   required(false)
+);

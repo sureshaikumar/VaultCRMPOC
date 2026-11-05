@@ -1,0 +1,19 @@
+Field matching_fields__v (
+   label('Matching EDL Item Fields'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   multi_value(true),
+   picklist('Picklist.edl_matching_field__v'),
+   no_copy(false),
+   lookup_relationship_name('edl__vr'),
+   lookup_source_field('matching_fields__v'),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

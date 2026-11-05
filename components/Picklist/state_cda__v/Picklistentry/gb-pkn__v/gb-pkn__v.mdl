@@ -1,0 +1,6 @@
+Picklistentry gb-pkn__v (
+   value('Perth and Kinross'),
+   order(1595),
+   active(true),
+   controlling_entries('gb__v')
+);

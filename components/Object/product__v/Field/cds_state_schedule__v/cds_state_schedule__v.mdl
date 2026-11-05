@@ -1,0 +1,19 @@
+Field cds_state_schedule__v (
+   label('CDS State Schedule'),
+   type('String'),
+   active(true),
+   description('This is the semi-colon delimited list of state-designated schedule(s) of the product, ex: MA: V; CA: 06. Format is state:schedule;state:schedule;state:schedule where state is the API name of the corresponding picklist value in Address_vod.State_vod and schedule is the text value of the schedule designated in that state.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(61),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

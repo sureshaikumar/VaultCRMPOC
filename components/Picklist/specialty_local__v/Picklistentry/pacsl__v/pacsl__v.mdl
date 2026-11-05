@@ -1,0 +1,6 @@
+Picklistentry pacsl__v (
+   value('Plastic and Cosmetic Surgery'),
+   order(1565),
+   active(true),
+   controlling_entries('sn__v')
+);

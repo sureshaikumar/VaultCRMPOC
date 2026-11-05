@@ -1,0 +1,5 @@
+Picklistentry pal (
+   value('Pahlavi'),
+   order(279),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry se__v (
+   value('Sweden'),
+   order(197),
+   active(true)
+);

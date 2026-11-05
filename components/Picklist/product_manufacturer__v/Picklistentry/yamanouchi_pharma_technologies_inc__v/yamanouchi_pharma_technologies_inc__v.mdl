@@ -1,0 +1,5 @@
+Picklistentry yamanouchi_pharma_technologies_inc__v (
+   value('Yamanouchi Pharma Technologies, Inc.'),
+   order(42),
+   active(true)
+);

@@ -1,0 +1,12 @@
+Listlayoutitem address_cell__v (
+   label('Address'),
+   active(true),
+   control_label('Address'),
+   field_key(),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Control'),
+   object_control('Objectcontrol.address_cell_control__v'),
+   object_control_properties(),
+   omit_header_label()
+);

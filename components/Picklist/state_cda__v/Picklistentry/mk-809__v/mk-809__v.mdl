@@ -1,0 +1,6 @@
+Picklistentry mk-809__v (
+   value('Kisela Voda †'),
+   order(3035),
+   active(true),
+   controlling_entries('mk__v')
+);

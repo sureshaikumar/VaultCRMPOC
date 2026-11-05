@@ -1,0 +1,5 @@
+Picklistentry antivirals__v (
+   value('Antivirals'),
+   order(59),
+   active(true)
+);

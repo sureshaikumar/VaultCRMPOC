@@ -1,0 +1,5 @@
+Picklistentry common__v (
+   value('Common'),
+   order(0),
+   active(true)
+);

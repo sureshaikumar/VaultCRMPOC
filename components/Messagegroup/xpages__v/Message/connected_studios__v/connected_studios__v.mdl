@@ -1,0 +1,6 @@
+Message connected_studios__v (
+   label(),
+   active(true),
+   default_value('Connected Studios'),
+   system_managed(false)
+);

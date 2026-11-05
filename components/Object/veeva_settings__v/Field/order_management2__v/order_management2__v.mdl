@@ -1,0 +1,18 @@
+Field order_management2__v (
+   label('Order Management2'),
+   type('Boolean'),
+   active(true),
+   description('Enables the Order Management capabilities in Veeva CRM online and the VMobile Tablet application.  Default is checked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(241),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

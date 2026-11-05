@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_inventory_item__v.sample_inventory_count__v (
+   label('Sample Inventory Count'),
+   active(true),
+   expression('floor(count__v) = count__v && count__v >= 0'),
+   description('Count value should be greater than or equal to zero'),
+   error_message('Quantity: Invalid Number'),
+   error_location('count__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry knj (
+   value('Q’anjob’al'),
+   order(361),
+   active(true)
+);

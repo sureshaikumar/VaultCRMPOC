@@ -1,0 +1,6 @@
+Picklistentry ma-sif__v (
+   value('Sidi Ifni'),
+   order(2836),
+   active(true),
+   controlling_entries('ma__v')
+);

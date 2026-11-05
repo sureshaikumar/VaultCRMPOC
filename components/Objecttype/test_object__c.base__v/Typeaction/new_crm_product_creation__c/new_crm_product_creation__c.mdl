@@ -1,0 +1,3 @@
+Typeaction new_crm_product_creation__c (
+   action('test_object__c.new_crm_product_creation__c')
+);

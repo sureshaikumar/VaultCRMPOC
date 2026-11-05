@@ -1,0 +1,5 @@
+Picklistentry sn__v (
+   value('Senegal'),
+   order(205),
+   active(true)
+);

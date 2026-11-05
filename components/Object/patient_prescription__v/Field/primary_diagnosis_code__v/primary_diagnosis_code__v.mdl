@@ -1,0 +1,19 @@
+Field primary_diagnosis_code__v (
+   label('Primary Diagnosis Code'),
+   type('String'),
+   active(true),
+   description('The specific ICD-10 code that identifies the main medical condition or chief complaint treated by this prescription, establishing the medical necessity for the drug.'),
+   required(false),
+   unique(false),
+   max_length(7),
+   help_content(),
+   list_column(true),
+   order(25),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry dty_product_dispensing__sys (
+   value('Product & Dispensing'),
+   order(127),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

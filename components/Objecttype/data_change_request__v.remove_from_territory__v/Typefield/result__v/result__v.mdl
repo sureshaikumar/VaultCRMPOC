@@ -1,0 +1,9 @@
+Typefield result__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_change_request_result__v.change_accepted__v',
+         'Picklist.data_change_request_result__v.change_alreadyapplied__v',
+         'Picklist.data_change_request_result__v.change_modified__v',
+         'Picklist.data_change_request_result__v.change_partial__v',
+         'Picklist.data_change_request_result__v.change_rejected__v')
+);

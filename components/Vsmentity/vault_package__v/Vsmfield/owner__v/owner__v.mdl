@@ -1,0 +1,13 @@
+Vsmfield owner__v (
+   label('Owner'),
+   active(true),
+   description('The Vault user responsible for managing or overseeing this inbound package. Use to filter packages by ownership or identify who to contact regarding a specific package.'),
+   example_values(),
+   synonyms('package owner',
+         'responsible user',
+         'assigned to'),
+   target('owner__v'),
+   target_label('Owner'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

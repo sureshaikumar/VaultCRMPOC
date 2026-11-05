@@ -1,0 +1,4 @@
+Typefield enable_offline_call_objectives__v (
+   source('standard'),
+   required(false)
+);

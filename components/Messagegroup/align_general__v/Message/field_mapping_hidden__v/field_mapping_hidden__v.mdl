@@ -1,0 +1,6 @@
+Message field_mapping_hidden__v (
+   label(),
+   active(true),
+   default_value('Hidden'),
+   system_managed(false)
+);

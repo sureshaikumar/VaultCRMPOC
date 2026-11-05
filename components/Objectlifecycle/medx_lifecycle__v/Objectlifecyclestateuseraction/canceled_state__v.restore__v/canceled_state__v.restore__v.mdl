@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction canceled_state__v.restore__v (
+   label('Restore'),
+   rule(@rule.xml),
+   order(1000)
+);

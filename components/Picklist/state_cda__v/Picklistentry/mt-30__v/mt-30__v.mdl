@@ -1,0 +1,6 @@
+Picklistentry mt-30__v (
+   value('Mellieħa'),
+   order(3136),
+   active(true),
+   controlling_entries('mt__v')
+);

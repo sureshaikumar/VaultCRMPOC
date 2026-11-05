@@ -1,0 +1,17 @@
+Field call_objective_from_date__v (
+   label('Call Objective From Date'),
+   type('Date'),
+   active(true),
+   description('The date range for each Suggestion of type Call_Objective'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

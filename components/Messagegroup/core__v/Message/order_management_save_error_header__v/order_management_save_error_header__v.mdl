@@ -1,0 +1,6 @@
+Message order_management_save_error_header__v (
+   label(),
+   active(true),
+   default_value('The order could not be saved for the following reasons:'),
+   system_managed(false)
+);

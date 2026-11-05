@@ -1,0 +1,6 @@
+Picklistentry mw-cr__v (
+   value('Chiradzulu'),
+   order(3212),
+   active(true),
+   controlling_entries('mw__v')
+);

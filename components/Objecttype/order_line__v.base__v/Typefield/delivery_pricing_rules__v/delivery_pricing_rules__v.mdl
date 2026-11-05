@@ -1,0 +1,4 @@
+Typefield delivery_pricing_rules__v (
+   source('standard'),
+   required(false)
+);

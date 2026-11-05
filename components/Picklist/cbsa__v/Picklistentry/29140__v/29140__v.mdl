@@ -1,0 +1,5 @@
+Picklistentry 29140__v (
+   value('Lafayette, IN Metropolitan Statistical Area'),
+   order(246),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry it-so__v (
+   value('Sondrio'),
+   order(2258),
+   active(true),
+   controlling_entries('it__v')
+);

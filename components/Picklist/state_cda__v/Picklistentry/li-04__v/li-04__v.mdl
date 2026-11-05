@@ -1,0 +1,6 @@
+Picklistentry li-04__v (
+   value('Mauren'),
+   order(2552),
+   active(true),
+   controlling_entries('li__v')
+);

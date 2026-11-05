@@ -1,0 +1,6 @@
+Picklistentry in-jk__v (
+   value('Jammu and Kashmir'),
+   order(2011),
+   active(true),
+   controlling_entries('in__v')
+);

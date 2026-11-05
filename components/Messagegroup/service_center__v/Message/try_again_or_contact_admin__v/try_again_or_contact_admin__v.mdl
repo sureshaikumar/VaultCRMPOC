@@ -1,0 +1,6 @@
+Message try_again_or_contact_admin__v (
+   label(),
+   active(true),
+   default_value('Try again or contact your administrator'),
+   system_managed(false)
+);

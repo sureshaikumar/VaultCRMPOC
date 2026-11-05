@@ -1,0 +1,6 @@
+Picklistentry gr-d__v (
+   value('Ípeiros'),
+   order(1770),
+   active(true),
+   controlling_entries('gr__v')
+);

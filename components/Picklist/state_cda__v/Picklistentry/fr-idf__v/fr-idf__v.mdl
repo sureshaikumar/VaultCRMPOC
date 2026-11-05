@@ -1,0 +1,6 @@
+Picklistentry fr-idf__v (
+   value('Île-de-France'),
+   order(1427),
+   active(true),
+   controlling_entries('fr__v')
+);

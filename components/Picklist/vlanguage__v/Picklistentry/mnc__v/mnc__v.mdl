@@ -1,0 +1,5 @@
+Picklistentry mnc__v (
+   value('Manchu'),
+   order(208),
+   active(false)
+);

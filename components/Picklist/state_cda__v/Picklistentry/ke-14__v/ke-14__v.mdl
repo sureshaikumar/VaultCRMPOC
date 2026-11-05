@@ -1,0 +1,6 @@
+Picklistentry ke-14__v (
+   value('Kilifi'),
+   order(2367),
+   active(true),
+   controlling_entries('ke__v')
+);

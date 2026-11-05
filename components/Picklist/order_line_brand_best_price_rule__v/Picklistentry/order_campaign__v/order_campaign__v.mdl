@@ -1,0 +1,5 @@
+Picklistentry order_campaign__v (
+   value('Order Campaign'),
+   order(1),
+   active(true)
+);

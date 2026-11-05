@@ -1,0 +1,12 @@
+Vsmfield bounce_support__v (
+   label('VeevaId Bounce Support'),
+   active(true),
+   description('Boolean flag indicating whether VeevaID bounce support is enabled for this invite. When true, the system can handle email bounce scenarios during the user creation process. This is automatically true for all invites sent after April 2025.'),
+   example_values(),
+   synonyms('bounce enabled',
+         'supports bounce'),
+   target('bounce_support__sys'),
+   target_label('VeevaId Bounce Support'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

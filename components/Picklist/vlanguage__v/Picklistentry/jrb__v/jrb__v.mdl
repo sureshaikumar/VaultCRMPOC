@@ -1,0 +1,5 @@
+Picklistentry jrb__v (
+   value('Judeo-Arabic'),
+   order(150),
+   active(false)
+);

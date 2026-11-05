@@ -1,0 +1,6 @@
+Picklistentry ohans__v (
+   value('Otorhinolaryngology Head and Neck Surgery Allergy Immunology'),
+   order(1240),
+   active(true),
+   controlling_entries('id__v')
+);

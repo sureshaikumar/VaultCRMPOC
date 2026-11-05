@@ -1,0 +1,6 @@
+Message blocking_dialog_body_confirm_continue__v (
+   label(),
+   active(true),
+   default_value('Do you wish to continue?'),
+   system_managed(false)
+);

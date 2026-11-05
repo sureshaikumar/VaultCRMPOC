@@ -1,0 +1,6 @@
+Message mc_cycle_channel_object_with_wild_card__v (
+   label(),
+   active(true),
+   default_value('Channel Object *'),
+   system_managed(false)
+);

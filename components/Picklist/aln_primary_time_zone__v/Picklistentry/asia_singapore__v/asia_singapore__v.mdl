@@ -1,0 +1,5 @@
+Picklistentry asia_singapore__v (
+   value('Asia/Singapore'),
+   order(68),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield net_amount__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message validate__v (
+   label(),
+   active(true),
+   default_value('Validate'),
+   system_managed(false)
+);

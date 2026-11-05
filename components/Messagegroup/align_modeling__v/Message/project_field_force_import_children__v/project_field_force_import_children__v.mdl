@@ -1,0 +1,6 @@
+Message project_field_force_import_children__v (
+   label(),
+   active(true),
+   default_value('Child Field Forces and Assignments'),
+   system_managed(false)
+);

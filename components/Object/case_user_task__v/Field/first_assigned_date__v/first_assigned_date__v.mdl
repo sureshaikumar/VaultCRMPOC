@@ -1,0 +1,17 @@
+Field first_assigned_date__v (
+   label('First Assigned Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Date upon which the task was first assigned to a user.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry dz-02__v (
+   value('Chlef'),
+   order(983),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cv-s__v (
+   value('Ilhas de Sotavento'),
+   order(797),
+   active(true),
+   controlling_entries('cv__v')
+);

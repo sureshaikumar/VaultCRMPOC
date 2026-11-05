@@ -1,0 +1,6 @@
+Picklistentry in-hp__v (
+   value('Himāchal Pradesh'),
+   order(2008),
+   active(true),
+   controlling_entries('in__v')
+);

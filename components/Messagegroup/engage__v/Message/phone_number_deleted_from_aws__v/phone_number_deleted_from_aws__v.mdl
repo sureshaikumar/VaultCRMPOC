@@ -1,0 +1,6 @@
+Message phone_number_deleted_from_aws__v (
+   label(),
+   active(true),
+   default_value('This phone number has been deleted from the AWS account and is no longer available.'),
+   system_managed(false)
+);

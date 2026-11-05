@@ -1,0 +1,6 @@
+Message search_text__v (
+   label(),
+   active(true),
+   default_value('Use search bar to find an item, and then use the table below to make selection'),
+   system_managed(false)
+);

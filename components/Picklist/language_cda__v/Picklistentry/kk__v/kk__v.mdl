@@ -1,0 +1,5 @@
+Picklistentry kk__v (
+   value('Kazakh'),
+   order(32),
+   active(true)
+);

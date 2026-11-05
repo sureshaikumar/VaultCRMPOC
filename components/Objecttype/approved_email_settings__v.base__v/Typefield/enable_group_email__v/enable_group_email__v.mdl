@@ -1,0 +1,4 @@
+Typefield enable_group_email__v (
+   source('standard'),
+   required(false)
+);

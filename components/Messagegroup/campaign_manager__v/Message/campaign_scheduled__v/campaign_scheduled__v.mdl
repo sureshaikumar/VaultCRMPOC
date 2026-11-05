@@ -1,0 +1,6 @@
+Message campaign_scheduled__v (
+   label(),
+   active(true),
+   default_value('Campaign Scheduled'),
+   system_managed(false)
+);

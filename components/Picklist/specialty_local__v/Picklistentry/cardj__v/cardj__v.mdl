@@ -1,0 +1,6 @@
+Picklistentry cardj__v (
+   value('Cardiorheumatology'),
+   order(165),
+   active(true),
+   controlling_entries('kg__v')
+);

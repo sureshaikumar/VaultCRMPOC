@@ -1,0 +1,7 @@
+Picklistentry gafme__v (
+   value('General and Family Medicine'),
+   order(590),
+   active(true),
+   controlling_entries('ao__v',
+         'pt__v')
+);

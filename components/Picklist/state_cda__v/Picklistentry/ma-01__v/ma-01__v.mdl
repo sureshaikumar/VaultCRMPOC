@@ -1,0 +1,6 @@
+Picklistentry ma-01__v (
+   value('Tanger-Tétouan-Al Hoceïma'),
+   order(2766),
+   active(true),
+   controlling_entries('ma__v')
+);

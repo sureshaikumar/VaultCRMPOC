@@ -1,0 +1,4 @@
+Typefield whatsapp_header_type__v (
+   source('standard'),
+   required(false)
+);

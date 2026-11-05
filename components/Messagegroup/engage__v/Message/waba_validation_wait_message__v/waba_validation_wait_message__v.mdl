@@ -1,0 +1,6 @@
+Message waba_validation_wait_message__v (
+   label(),
+   active(true),
+   default_value('Validating the information. This will take a few moments.'),
+   system_managed(false)
+);

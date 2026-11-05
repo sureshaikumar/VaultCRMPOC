@@ -1,0 +1,21 @@
+Field furigana__v (
+   label('Furigana'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Field for Japanese users. Furigana for the target.'),
+   list_column(false),
+   order(42),
+   formula('If(Not(IsBlank(Id(location__v))), location__vr.furigana__v & " " & target__vr.furigana__v, target__vr.furigana__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

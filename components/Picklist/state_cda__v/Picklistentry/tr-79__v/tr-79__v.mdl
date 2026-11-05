@@ -1,0 +1,6 @@
+Picklistentry tr-79__v (
+   value('Kilis'),
+   order(4537),
+   active(true),
+   controlling_entries('tr__v')
+);

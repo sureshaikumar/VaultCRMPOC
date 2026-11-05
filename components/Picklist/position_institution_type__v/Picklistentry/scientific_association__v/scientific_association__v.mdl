@@ -1,0 +1,5 @@
+Picklistentry scientific_association__v (
+   value('Scientific Association'),
+   order(22),
+   active(true)
+);

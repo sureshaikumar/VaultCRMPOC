@@ -1,0 +1,6 @@
+Message project_publish_aborted__v (
+   label(),
+   active(true),
+   default_value('Project publishing aborted for ${entity_name}'),
+   system_managed(false)
+);

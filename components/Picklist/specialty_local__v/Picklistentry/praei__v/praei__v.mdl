@@ -1,0 +1,6 @@
+Picklistentry praei__v (
+   value('Pain Relief'),
+   order(1278),
+   active(true),
+   controlling_entries('se__v')
+);

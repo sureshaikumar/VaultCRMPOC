@@ -1,0 +1,4 @@
+Typefield product_tactic__v (
+   source('custom'),
+   required(false)
+);

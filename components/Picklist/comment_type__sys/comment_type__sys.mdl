@@ -1,0 +1,9 @@
+RECREATE Picklist comment_type__sys (
+   label('Comment Type'),
+   active(true),
+   Picklistentry(@Picklistentry/text__sys.mdl),
+   Picklistentry(@Picklistentry/long_text__sys.mdl),
+   Picklistentry(@Picklistentry/rich_text__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

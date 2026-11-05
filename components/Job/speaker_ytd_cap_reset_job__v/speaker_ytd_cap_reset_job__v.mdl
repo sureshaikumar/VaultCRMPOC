@@ -1,0 +1,22 @@
+RECREATE Job speaker_ytd_cap_reset_job__v (
+   active(false),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('EM_Speaker YTD Cap Reset'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/speaker_ytd_cap_reset_batch_job__v.mdl),
+   time('0:00'),
+   timezone('GMT'),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(false),
+   week_day('Sun'),
+   week_number(0)
+);

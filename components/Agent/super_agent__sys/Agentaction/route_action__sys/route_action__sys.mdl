@@ -1,0 +1,12 @@
+Agentaction route_action__sys (
+   label('Route Action'),
+   active(true),
+   api_access(false),
+   description('This action routes user requests to an appropriate agent action to execute.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

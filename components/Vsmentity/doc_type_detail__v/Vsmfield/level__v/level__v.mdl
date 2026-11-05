@@ -1,0 +1,14 @@
+Vsmfield level__v (
+   label('Level'),
+   active(true),
+   description('Represents the position of this document type detail within the document type hierarchy (e.g., type, subtype, classification). Use this field to filter or group records by their depth in the document type tree.'),
+   example_values(),
+   synonyms('hierarchy level',
+         'depth',
+         'tier',
+         'classification level'),
+   target('level__v'),
+   target_label('Level'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,5 @@
+Picklistentry nappl__v (
+   value('Not Applicable'),
+   order(2),
+   active(true)
+);

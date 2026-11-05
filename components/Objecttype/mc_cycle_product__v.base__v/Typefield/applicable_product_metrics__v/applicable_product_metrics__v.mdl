@@ -1,0 +1,4 @@
+Typefield applicable_product_metrics__v (
+   source('standard'),
+   required(false)
+);

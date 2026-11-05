@@ -1,0 +1,6 @@
+Message cant_reassign_production_exclusion__v (
+   label(),
+   active(true),
+   default_value('Cannot reassign Model Account Exclusion to a different production Account Exclusion.'),
+   system_managed(false)
+);

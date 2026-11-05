@@ -1,0 +1,5 @@
+Picklistentry vg__v (
+   value('VG'),
+   order(117),
+   active(true)
+);

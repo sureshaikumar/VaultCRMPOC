@@ -1,0 +1,5 @@
+Picklistentry olc_monitored_text__sys (
+   value('Monitored Text'),
+   order(55),
+   active(true)
+);

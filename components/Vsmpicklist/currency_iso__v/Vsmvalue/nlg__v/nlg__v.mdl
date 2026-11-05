@@ -1,0 +1,11 @@
+Vsmvalue nlg__v (
+   label('NLG'),
+   active(true),
+   description('The former official currency of the Netherlands (NLG), replaced by the euro (EUR) in 2002 when the Netherlands joined the eurozone.'),
+   synonyms('Dutch guilder',
+         'Netherlands guilder',
+         'florin',
+         'NLG'),
+   target('nlg__sys'),
+   target_label('NLG')
+);

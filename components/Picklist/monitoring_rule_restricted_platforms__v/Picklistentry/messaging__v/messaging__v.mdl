@@ -1,0 +1,5 @@
+Picklistentry messaging__v (
+   value('Messaging'),
+   order(0),
+   active(true)
+);

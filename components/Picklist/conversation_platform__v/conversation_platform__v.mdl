@@ -1,0 +1,14 @@
+RECREATE Picklist conversation_platform__v (
+   label('Conversation Platform'),
+   active(true),
+   Picklistentry(@Picklistentry/platform_amazonconnect__v.mdl),
+   Picklistentry(@Picklistentry/platform_cxone__v.mdl),
+   Picklistentry(@Picklistentry/platform_five9__v.mdl),
+   Picklistentry(@Picklistentry/platform_genesys__v.mdl),
+   Picklistentry(@Picklistentry/platform_msteams__v.mdl),
+   Picklistentry(@Picklistentry/platform_zoom__v.mdl),
+   Picklistentry(@Picklistentry/microsoft_phone__v.mdl),
+   Picklistentry(@Picklistentry/standalone_phone__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

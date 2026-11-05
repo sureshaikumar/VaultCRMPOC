@@ -1,0 +1,11 @@
+Subtab engage_meeting_process_admin_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Engage Platform Process Administration'),
+   order(300),
+   page('Page.engage_meeting_process_admin_page__v'),
+   parent('engage_setup_tab__v'),
+   prevent_create(false),
+   url(@url.txt)
+);

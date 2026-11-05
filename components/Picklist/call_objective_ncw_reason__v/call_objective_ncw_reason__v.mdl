@@ -1,0 +1,10 @@
+RECREATE Picklist call_objective_ncw_reason__v (
+   label('NCW Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/pass_this_ms__v.mdl),
+   Picklistentry(@Picklistentry/recall__v.mdl),
+   Picklistentry(@Picklistentry/no_time__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

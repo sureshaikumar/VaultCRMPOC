@@ -1,0 +1,5 @@
+Picklistentry pacific_apia__sys (
+   value('(GMT+13:00) Samoa Time (Pacific/Apia)'),
+   order(311),
+   active(true)
+);

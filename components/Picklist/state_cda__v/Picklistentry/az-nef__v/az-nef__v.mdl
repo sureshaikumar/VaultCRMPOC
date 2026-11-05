@@ -1,0 +1,6 @@
+Picklistentry az-nef__v (
+   value('Neftçala'),
+   order(174),
+   active(true),
+   controlling_entries('az__v')
+);

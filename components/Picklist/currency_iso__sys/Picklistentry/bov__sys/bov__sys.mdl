@@ -1,0 +1,5 @@
+Picklistentry bov__sys (
+   value('BOV'),
+   order(26),
+   active(true)
+);

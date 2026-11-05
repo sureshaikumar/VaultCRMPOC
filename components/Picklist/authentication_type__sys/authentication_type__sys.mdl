@@ -1,0 +1,12 @@
+RECREATE Picklist authentication_type__sys (
+   label('Authentication Type'),
+   active(true),
+   Picklistentry(@Picklistentry/password__sys.mdl),
+   Picklistentry(@Picklistentry/single_sign_on__sys.mdl),
+   Picklistentry(@Picklistentry/cross_domain__sys.mdl),
+   Picklistentry(@Picklistentry/system_managed__sys.mdl),
+   Picklistentry(@Picklistentry/veeva_id__sys.mdl),
+   Picklistentry(@Picklistentry/locked__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

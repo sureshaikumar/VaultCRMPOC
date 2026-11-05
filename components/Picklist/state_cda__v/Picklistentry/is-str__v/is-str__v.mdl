@@ -1,0 +1,6 @@
+Picklistentry is-str__v (
+   value('Strandabyggð'),
+   order(2146),
+   active(true),
+   controlling_entries('is__v')
+);

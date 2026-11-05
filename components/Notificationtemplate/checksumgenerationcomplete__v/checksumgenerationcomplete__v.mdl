@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate checksumgenerationcomplete__v (
+   label('checksumGenerationComplete'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Checksum generation complete'),
+   notification('Checksum generation complete'),
+   email_body('As part of the Duplicate Content Detection feature, Vault has successfully generated a unique content identifier (a checksum value) for each of the documents in your vault.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

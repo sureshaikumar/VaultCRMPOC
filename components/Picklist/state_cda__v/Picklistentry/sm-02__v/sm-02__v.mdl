@@ -1,0 +1,6 @@
+Picklistentry sm-02__v (
+   value('Chiesanuova'),
+   order(4201),
+   active(true),
+   controlling_entries('sm__v')
+);

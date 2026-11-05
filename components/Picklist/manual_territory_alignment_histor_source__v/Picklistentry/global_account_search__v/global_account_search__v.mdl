@@ -1,0 +1,5 @@
+Picklistentry global_account_search__v (
+   value('Global Account Search'),
+   order(0),
+   active(true)
+);

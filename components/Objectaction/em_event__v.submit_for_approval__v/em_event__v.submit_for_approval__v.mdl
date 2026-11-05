@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.submit_for_approval__v (
+   label('Submit for Approval'),
+   description('Submit for Approval'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.SubmitForApprovalAction'),
+   active(true),
+   available_all_states(true)
+);

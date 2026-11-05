@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile cee_primary_care_sales_rep__c (
+   label('CEE Primary Care Sales Rep'),
+   active(true),
+   description('Primary Care Sales Rep profile specific to CEE user groups')
+);

@@ -1,0 +1,6 @@
+Message generate_token_button__v (
+   label(),
+   active(true),
+   default_value('Generate Token'),
+   system_managed(false)
+);

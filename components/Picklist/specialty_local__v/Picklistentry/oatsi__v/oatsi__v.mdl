@@ -1,0 +1,6 @@
+Picklistentry oatsi__v (
+   value('Orthopedics and Traumatology Sports Injury'),
+   order(1223),
+   active(true),
+   controlling_entries('id__v')
+);

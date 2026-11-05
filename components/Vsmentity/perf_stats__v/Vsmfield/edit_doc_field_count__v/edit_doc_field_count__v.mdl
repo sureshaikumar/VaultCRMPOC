@@ -1,0 +1,11 @@
+Vsmfield edit_doc_field_count__v (
+   label('Edit Doc Field Count'),
+   active(true),
+   description('Number of times users edited document fields from the Doc Info page on a given day'),
+   example_values(),
+   synonyms(),
+   target('edit_doc_field_count__v'),
+   target_label('Edit Doc Field Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

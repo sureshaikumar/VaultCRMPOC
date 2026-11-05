@@ -1,0 +1,6 @@
+Picklistentry cz-325__v (
+   value('Plzeň-sever'),
+   order(840),
+   active(true),
+   controlling_entries('cz__v')
+);

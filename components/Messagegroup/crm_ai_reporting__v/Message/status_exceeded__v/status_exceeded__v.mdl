@@ -1,0 +1,6 @@
+Message status_exceeded__v (
+   label(),
+   active(true),
+   default_value('Exceeded'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry zwl__sys (
+   value('ZWL'),
+   order(228),
+   active(true)
+);

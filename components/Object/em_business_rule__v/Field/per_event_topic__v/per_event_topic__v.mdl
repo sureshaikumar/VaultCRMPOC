@@ -1,0 +1,18 @@
+Field per_event_topic__v (
+   label('Per Event Topic'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Restrict this rule to apply limits per each unique event topic. See documentation for details.'),
+   list_column(false),
+   order(29),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

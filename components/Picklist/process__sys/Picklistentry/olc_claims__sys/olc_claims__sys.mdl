@@ -1,0 +1,5 @@
+Picklistentry olc_claims__sys (
+   value('Claims'),
+   order(15),
+   active(true)
+);

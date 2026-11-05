@@ -1,0 +1,6 @@
+Message max_create_error__v (
+   label(),
+   active(true),
+   default_value('You cannot add more than ${max_limit} ${object_name} at a time.'),
+   system_managed(false)
+);

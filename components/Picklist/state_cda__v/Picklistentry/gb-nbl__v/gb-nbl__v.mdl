@@ -1,0 +1,6 @@
+Picklistentry gb-nbl__v (
+   value('Northumberland'),
+   order(1574),
+   active(true),
+   controlling_entries('gb__v')
+);

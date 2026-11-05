@@ -1,0 +1,4 @@
+Typefield multichannel_activity__v (
+   source('custom'),
+   required(false)
+);

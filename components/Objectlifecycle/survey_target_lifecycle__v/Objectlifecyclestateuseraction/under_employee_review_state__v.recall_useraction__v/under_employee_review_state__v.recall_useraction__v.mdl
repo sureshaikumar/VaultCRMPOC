@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction under_employee_review_state__v.recall_useraction__v (
+   label('Recall'),
+   rule(@rule.xml),
+   order(1001)
+);

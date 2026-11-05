@@ -1,0 +1,4 @@
+Typefield reporters_postcode__c (
+   source('custom'),
+   required(false)
+);

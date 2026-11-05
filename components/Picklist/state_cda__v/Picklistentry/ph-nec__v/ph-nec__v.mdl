@@ -1,0 +1,6 @@
+Picklistentry ph-nec__v (
+   value('Negros Occidental'),
+   order(3587),
+   active(true),
+   controlling_entries('ph__v')
+);

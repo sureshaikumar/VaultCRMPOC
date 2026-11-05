@@ -1,0 +1,6 @@
+Picklistentry ph-sle__v (
+   value('Southern Leyte'),
+   order(3602),
+   active(true),
+   controlling_entries('ph__v')
+);

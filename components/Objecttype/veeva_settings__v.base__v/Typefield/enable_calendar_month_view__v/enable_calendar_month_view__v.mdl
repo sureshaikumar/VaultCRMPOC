@@ -1,0 +1,4 @@
+Typefield enable_calendar_month_view__v (
+   source('standard'),
+   required(false)
+);

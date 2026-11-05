@@ -1,0 +1,8 @@
+RECREATE Picklist veeva_distribution_distribution_channel__v (
+   label('Distribution Channel'),
+   active(true),
+   Picklistentry(@Picklistentry/approved_email__v.mdl),
+   Picklistentry(@Picklistentry/published_content__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

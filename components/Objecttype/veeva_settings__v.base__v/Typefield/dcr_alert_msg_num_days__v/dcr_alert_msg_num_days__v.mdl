@@ -1,0 +1,4 @@
+Typefield dcr_alert_msg_num_days__v (
+   source('standard'),
+   required(false)
+);

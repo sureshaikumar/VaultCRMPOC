@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_transaction__v.transfer__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="transferred_from__v" />
+            <vault:field reference="transferred_date__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="sample_transaction_status__v" />
+            <vault:field reference="comments__v" />
+            <vault:field reference="submitted_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Transfer To Information" name="transfer_to_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="transfer_to__v" />
+            <vault:field reference="address_line_1__v" />
+            <vault:field reference="address_line_2__v" />
+            <vault:field reference="city__v" />
+            <vault:control reference="st_state_province_field_control__v" name="st_state_province_field_control__c" label="State" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="zip__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sample Information" name="sample_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:control reference="st_sample_field_control__v" name="st_sample_field_control__c" label="Sample" />
+            <vault:control reference="st_lot_field_control__v" name="st_lot_field_control__c" label="Lot #" />
+            <vault:control reference="st_quantity_field_control__v" name="st_quantity_field_control__c" label="Quantity" />
+            <vault:control reference="st_u_m_field_control__v" name="st_u_m_field_control__c" label="U/M" />
+            <vault:field reference="discrepancy__v" />
+            <vault:field reference="confirmed_quantity__v" />
+            <vault:field reference="lot__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

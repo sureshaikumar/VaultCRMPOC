@@ -1,0 +1,6 @@
+Picklistentry cu-13__v (
+   value('Santiago de Cuba'),
+   order(778),
+   active(true),
+   controlling_entries('cu__v')
+);

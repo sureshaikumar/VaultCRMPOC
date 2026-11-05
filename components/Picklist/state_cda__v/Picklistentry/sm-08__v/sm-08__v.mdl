@@ -1,0 +1,6 @@
+Picklistentry sm-08__v (
+   value('Montegiardino'),
+   order(4207),
+   active(true),
+   controlling_entries('sm__v')
+);

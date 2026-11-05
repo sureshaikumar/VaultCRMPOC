@@ -1,0 +1,20 @@
+Field fax_number__v (
+   label('Fax Number'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('The Fax Number captured for fulfillment of the assoicated Medical Inquiry request.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

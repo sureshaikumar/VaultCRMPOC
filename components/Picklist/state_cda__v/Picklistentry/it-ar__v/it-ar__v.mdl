@@ -1,0 +1,6 @@
+Picklistentry it-ar__v (
+   value('Arezzo'),
+   order(2180),
+   active(true),
+   controlling_entries('it__v')
+);

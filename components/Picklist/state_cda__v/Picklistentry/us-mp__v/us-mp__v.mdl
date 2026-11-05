@@ -1,0 +1,6 @@
+Picklistentry us-mp__v (
+   value('Northern Mariana Islands'),
+   order(4818),
+   active(true),
+   controlling_entries('us__v')
+);

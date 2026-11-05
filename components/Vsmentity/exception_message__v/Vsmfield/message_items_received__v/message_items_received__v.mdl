@@ -1,0 +1,14 @@
+Vsmfield message_items_received__v (
+   label('Received Message Items'),
+   active(true),
+   description('The total number of individual items or records that were received in the message for processing. Compare with failed items to understand the scope of partial failures in an integration batch.'),
+   example_values(),
+   synonyms('received items',
+         'total items',
+         'item count',
+         'records received'),
+   target('message_items_received__sys'),
+   target_label('Received Message Items'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

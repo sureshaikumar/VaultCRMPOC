@@ -1,0 +1,6 @@
+Picklistentry st-04__v (
+   value('Lembá'),
+   order(4264),
+   active(true),
+   controlling_entries('st__v')
+);

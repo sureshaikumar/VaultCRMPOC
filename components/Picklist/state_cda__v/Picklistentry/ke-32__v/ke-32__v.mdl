@@ -1,0 +1,6 @@
+Picklistentry ke-32__v (
+   value('Nandi'),
+   order(2385),
+   active(true),
+   controlling_entries('ke__v')
+);

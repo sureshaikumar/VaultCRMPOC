@@ -1,0 +1,6 @@
+Typefield action_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_action_action_type__v.recall_approval_request__v',
+         'Picklist.em_event_action_action_type__v.submit_for_approval__v')
+);

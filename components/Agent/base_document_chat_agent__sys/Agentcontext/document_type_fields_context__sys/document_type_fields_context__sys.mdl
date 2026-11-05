@@ -1,0 +1,8 @@
+Agentcontext document_type_fields_context__sys (
+   label('Document Type Fields Context'),
+   active(true),
+   always_include(true),
+   context_configuration(@context_configuration.xml),
+   context_type('Aicontexttype.doctype_fields__sys'),
+   description('This context retrieves all fields for the current document''s document type. The field label and value are available for all actions in this agent.')
+);

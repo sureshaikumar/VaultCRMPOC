@@ -1,0 +1,17 @@
+Field email_config_values__v (
+   label('Email Values'),
+   type('LongText'),
+   active(true),
+   description('Email_Config_Values_vod captures a comma delimited list of text qualified key-value pairs of email configuration values. The data in this field will be enclosed in curly brackets. Typically this will contain selected picklist values (body picklists or sub'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

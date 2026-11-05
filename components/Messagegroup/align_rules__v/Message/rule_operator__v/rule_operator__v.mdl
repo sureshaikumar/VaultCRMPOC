@@ -1,0 +1,6 @@
+Message rule_operator__v (
+   label(),
+   active(true),
+   default_value('Operator'),
+   system_managed(false)
+);

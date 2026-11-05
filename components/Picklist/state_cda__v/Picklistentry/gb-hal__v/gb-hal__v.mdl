@@ -1,0 +1,6 @@
+Picklistentry gb-hal__v (
+   value('Halton'),
+   order(1528),
+   active(true),
+   controlling_entries('gb__v')
+);

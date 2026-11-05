@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:upRelationships>
+    <vrt:upRelationship key="affiliation__v.from_account__v" />
+    <vrt:upRelationship key="affiliation__v.from_person__v" />
+  </vrt:upRelationships>
+</vrt:reportType>

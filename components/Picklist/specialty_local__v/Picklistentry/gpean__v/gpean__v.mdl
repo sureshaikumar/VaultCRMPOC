@@ -1,0 +1,11 @@
+Picklistentry gpean__v (
+   value('General Pathology'),
+   order(604),
+   active(true),
+   controlling_entries('au__v',
+         'ba__v',
+         'ca__v',
+         'ke__v',
+         'my__v',
+         'nz__v')
+);

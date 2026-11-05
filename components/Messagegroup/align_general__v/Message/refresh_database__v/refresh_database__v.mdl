@@ -1,0 +1,6 @@
+Message refresh_database__v (
+   label(),
+   active(true),
+   default_value('Refresh Database'),
+   system_managed(false)
+);

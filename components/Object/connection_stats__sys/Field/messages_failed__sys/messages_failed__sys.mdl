@@ -1,0 +1,23 @@
+Field messages_failed__sys (
+   label('Messages Failed'),
+   type('Number'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_value(1000000),
+   min_value(0),
+   scale(0),
+   help_content('Messages Failed'),
+   list_column(true),
+   order(12),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

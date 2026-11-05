@@ -1,0 +1,7 @@
+RECREATE Picklist key_message_ios_viewer__v (
+   label('iOS Viewer'),
+   active(true),
+   Picklistentry(@Picklistentry/wkwebview__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

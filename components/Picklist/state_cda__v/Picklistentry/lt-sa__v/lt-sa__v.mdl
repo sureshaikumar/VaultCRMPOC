@@ -1,0 +1,6 @@
+Picklistentry lt-sa__v (
+   value('Šiauliai County'),
+   order(2684),
+   active(true),
+   controlling_entries('lt__v')
+);

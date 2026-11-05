@@ -1,0 +1,6 @@
+Picklistentry in-tr__v (
+   value('Tripura'),
+   order(2028),
+   active(true),
+   controlling_entries('in__v')
+);

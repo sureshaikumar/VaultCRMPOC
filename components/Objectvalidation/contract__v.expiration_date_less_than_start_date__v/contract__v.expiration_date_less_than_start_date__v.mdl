@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.expiration_date_less_than_start_date__v (
+   label('Expiration Date Less Than Start Date'),
+   active(true),
+   expression('Not((object_type__vr.api_name__v=''series_contract__v'')&&(period_type__v=''calendar__v'')&&(first_expiration_date__v<start_date__v)&&(Not(IsBlank(first_expiration_date__v))))'),
+   description('First Expiration Date must be greater than the Start Date.'),
+   error_message('First Expiration Date must be greater than the Start Date.'),
+   error_location('first_expiration_date__v')
+);

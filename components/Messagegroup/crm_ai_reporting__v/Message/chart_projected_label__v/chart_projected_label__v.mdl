@@ -1,0 +1,6 @@
+Message chart_projected_label__v (
+   label(),
+   active(true),
+   default_value('Projected · ${value}'),
+   system_managed(false)
+);

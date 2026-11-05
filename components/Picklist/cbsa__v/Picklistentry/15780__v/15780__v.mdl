@@ -1,0 +1,5 @@
+Picklistentry 15780__v (
+   value('Camden, AR Micropolitan Statistical Area'),
+   order(14),
+   active(true)
+);

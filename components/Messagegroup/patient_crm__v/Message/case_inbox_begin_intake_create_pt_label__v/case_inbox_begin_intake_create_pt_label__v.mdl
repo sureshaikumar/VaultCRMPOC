@@ -1,0 +1,6 @@
+Message case_inbox_begin_intake_create_pt_label__v (
+   label(),
+   active(true),
+   default_value('Begin Intake and Create Patient'),
+   system_managed(false)
+);

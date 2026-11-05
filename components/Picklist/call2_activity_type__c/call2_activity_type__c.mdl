@@ -1,0 +1,11 @@
+RECREATE Picklist call2_activity_type__c (
+   label('Call Activity Type'),
+   active(true),
+   Picklistentry(@Picklistentry/general_meeting__c.mdl),
+   Picklistentry(@Picklistentry/contracts_discussion__c.mdl),
+   Picklistentry(@Picklistentry/tactical_discussion__c.mdl),
+   Picklistentry(@Picklistentry/marketing_program__c.mdl),
+   Picklistentry(@Picklistentry/disease_management__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

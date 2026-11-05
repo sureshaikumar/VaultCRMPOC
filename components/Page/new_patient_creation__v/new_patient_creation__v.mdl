@@ -1,0 +1,14 @@
+RECREATE Page new_patient_creation__v (
+   label('New Patient Creation'),
+   active(true),
+   client_distribution(),
+   default_client_code('new_patient_creation__v'),
+   description('New Patient Creation application page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.patientcrm.controls.NewPatientCreationPageController'),
+   url_path_name('new-patient-creation')
+);

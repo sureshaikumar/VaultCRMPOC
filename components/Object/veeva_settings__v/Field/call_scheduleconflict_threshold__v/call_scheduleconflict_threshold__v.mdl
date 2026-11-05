@@ -1,0 +1,25 @@
+Field call_scheduleconflict_threshold__v (
+   label('Call Schedule Conflict Threshold'),
+   type('Number'),
+   active(true),
+   description('Conflict Status Threshold.
+Values possible: 0, 1, 2, 3
+0: no conflict control is done'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(71),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

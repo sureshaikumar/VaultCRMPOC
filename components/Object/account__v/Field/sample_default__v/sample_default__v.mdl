@@ -1,0 +1,19 @@
+Field sample_default__v (
+   label('Sample Default'),
+   type('LongText'),
+   active(true),
+   description('Double semi-colon delimited list of samples to default on a new or planned call.
+The value is formatted as follows: [Textual String of Sample]::[Default Quantity];;
+For example, Cholecap 10mg::1;;Cholecap 20mg::2;;Cholecap 30mg::2'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(82),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

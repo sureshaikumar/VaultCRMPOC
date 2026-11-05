@@ -1,0 +1,8 @@
+Doclifecyclerole media_consumer__v (
+   label('Media Consumer'),
+   active(true),
+   description('System Provided Role'),
+   application_role('media_consumer__v'),
+   note_color(),
+   security_options(@security_options.xml)
+);

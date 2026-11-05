@@ -1,0 +1,19 @@
+Field copay_source__v (
+   label('Copay (Source)'),
+   type('String'),
+   active(true),
+   description('Copay (Source) value for this benefit design line.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

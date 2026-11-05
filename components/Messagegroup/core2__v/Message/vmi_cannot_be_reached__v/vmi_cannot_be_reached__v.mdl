@@ -1,0 +1,6 @@
+Message vmi_cannot_be_reached__v (
+   label(),
+   active(true),
+   default_value('Veeva Medical Insights cannot be reached.'),
+   system_managed(false)
+);

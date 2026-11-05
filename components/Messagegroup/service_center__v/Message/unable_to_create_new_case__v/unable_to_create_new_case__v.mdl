@@ -1,0 +1,6 @@
+Message unable_to_create_new_case__v (
+   label(),
+   active(true),
+   default_value('Unable to create a new ${case_label} due to ${error}. Please try again later.'),
+   system_managed(false)
+);

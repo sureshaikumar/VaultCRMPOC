@@ -1,0 +1,13 @@
+Vsmrelationship connection__v (
+   label('Connection'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The connection record associated with these statistics. Use this to filter or retrieve connection stats by connection details (e.g., connection__sysr.name__v = ''MyConnection'').'),
+   join_object(),
+   synonyms('connection',
+         'linked connection',
+         'associated connection'),
+   target('connection__sysr'),
+   target_label('Connection'),
+   target_object('connection__sys')
+);

@@ -1,0 +1,17 @@
+Field calculated_expiration_date__v (
+   label('Calculated Expiration Date'),
+   type('Date'),
+   active(true),
+   description('Created Date + DI Expiration Duration on Scientific Interest. This field will be used to track the original expiration date when the record is created.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry chm__v (
+   value('Mari'),
+   order(215),
+   active(false)
+);

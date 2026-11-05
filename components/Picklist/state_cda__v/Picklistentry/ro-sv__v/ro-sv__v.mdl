@@ -1,0 +1,6 @@
+Picklistentry ro-sv__v (
+   value('Suceava'),
+   order(3751),
+   active(true),
+   controlling_entries('ro__v')
+);

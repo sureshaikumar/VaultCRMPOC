@@ -1,0 +1,6 @@
+Message xpages_studio_administration__v (
+   label(),
+   active(true),
+   default_value('X-Pages Studio Administration'),
+   system_managed(false)
+);

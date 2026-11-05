@@ -1,0 +1,19 @@
+Field approved_email_admin__v (
+   label('Approved Email Admin'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Flag used to determine if user can access Approved_Document_vod records where Status_vod = ''Staged_vod''.
+This flag, if set to true, will also direct all email sent by this user to the User.Email field.'),
+   list_column(false),
+   order(58),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

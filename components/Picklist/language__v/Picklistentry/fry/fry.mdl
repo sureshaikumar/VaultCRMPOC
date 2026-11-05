@@ -1,0 +1,5 @@
+Picklistentry fry (
+   value('Western Frisian'),
+   order(347),
+   active(true)
+);

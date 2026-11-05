@@ -1,0 +1,5 @@
+Picklistentry wol (
+   value('Wolof'),
+   order(348),
+   active(true)
+);

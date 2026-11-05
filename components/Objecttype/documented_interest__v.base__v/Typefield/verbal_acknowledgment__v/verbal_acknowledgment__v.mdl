@@ -1,0 +1,4 @@
+Typefield verbal_acknowledgment__v (
+   source('standard'),
+   required(false)
+);

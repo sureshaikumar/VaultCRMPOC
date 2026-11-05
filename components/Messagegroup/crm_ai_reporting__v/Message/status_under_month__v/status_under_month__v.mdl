@@ -1,0 +1,6 @@
+Message status_under_month__v (
+   label(),
+   active(true),
+   default_value('Ended under budget'),
+   system_managed(false)
+);

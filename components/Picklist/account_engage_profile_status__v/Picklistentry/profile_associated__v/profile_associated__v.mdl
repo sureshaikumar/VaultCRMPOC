@@ -1,0 +1,5 @@
+Picklistentry profile_associated__v (
+   value('Profile Associated'),
+   order(0),
+   active(true)
+);

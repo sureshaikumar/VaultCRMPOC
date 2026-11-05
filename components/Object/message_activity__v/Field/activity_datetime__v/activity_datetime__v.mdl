@@ -1,0 +1,17 @@
+Field activity_datetime__v (
+   label('Activity Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The datetime at which the Activity occurred'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message select_license_error__v (
+   label(),
+   active(true),
+   default_value('Please select the appropriate ${app_label} license type for this user.'),
+   system_managed(false)
+);

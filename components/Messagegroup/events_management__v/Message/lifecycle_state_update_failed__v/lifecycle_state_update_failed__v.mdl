@@ -1,0 +1,6 @@
+Message lifecycle_state_update_failed__v (
+   label(),
+   active(true),
+   default_value('An Event Lifecycle State cannot be updated directly'),
+   system_managed(false)
+);

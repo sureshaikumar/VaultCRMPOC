@@ -1,0 +1,15 @@
+Field email_fragment_html_file__v (
+   label('Email Fragment HTML'),
+   type('Attachment'),
+   active(true),
+   description('HTML content of the Email Fragment.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(59),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+Vsmvalue picklist__v (
+   label('Picklist'),
+   active(true),
+   description('Use when the reference field should look up and display values from a configured picklist, allowing users to select from a predefined set of options.'),
+   synonyms('dropdown list',
+         'selection list',
+         'enumerated values'),
+   target('picklist__sys'),
+   target_label('Picklist')
+);

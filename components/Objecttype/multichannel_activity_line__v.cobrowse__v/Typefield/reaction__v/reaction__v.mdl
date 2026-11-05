@@ -1,0 +1,7 @@
+Typefield reaction__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.multichannel_activity_line_reaction__v.negative__v',
+         'Picklist.multichannel_activity_line_reaction__v.neutral__v',
+         'Picklist.multichannel_activity_line_reaction__v.positive__v')
+);

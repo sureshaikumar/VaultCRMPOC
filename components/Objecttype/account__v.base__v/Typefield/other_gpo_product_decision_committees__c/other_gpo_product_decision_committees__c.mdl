@@ -1,0 +1,4 @@
+Typefield other_gpo_product_decision_committees__c (
+   source('standard'),
+   required(false)
+);

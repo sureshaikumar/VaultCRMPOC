@@ -1,0 +1,6 @@
+Picklistentry fm-trk__v (
+   value('Chuuk'),
+   order(1313),
+   active(true),
+   controlling_entries('fm__v')
+);

@@ -1,0 +1,6 @@
+Message blanks__v (
+   label(),
+   active(true),
+   default_value('(Blanks)'),
+   system_managed(false)
+);

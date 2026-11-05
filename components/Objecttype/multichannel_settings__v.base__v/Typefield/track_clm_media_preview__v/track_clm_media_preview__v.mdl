@@ -1,0 +1,4 @@
+Typefield track_clm_media_preview__v (
+   source('standard'),
+   required(false)
+);

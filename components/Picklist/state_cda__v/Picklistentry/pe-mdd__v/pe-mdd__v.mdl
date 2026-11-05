@@ -1,0 +1,6 @@
+Picklistentry pe-mdd__v (
+   value('Madre de Dios'),
+   order(3485),
+   active(true),
+   controlling_entries('pe__v')
+);

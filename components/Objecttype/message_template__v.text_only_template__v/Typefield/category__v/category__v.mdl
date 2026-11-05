@@ -1,0 +1,7 @@
+Typefield category__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.message_template_category__v.conversation_starter__v',
+         'Picklist.message_template_category__v.restart_conversation__v',
+         'Picklist.message_template_category__v.end_conversation__v')
+);

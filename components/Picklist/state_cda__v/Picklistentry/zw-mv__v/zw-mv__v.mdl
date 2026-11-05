@@ -1,0 +1,6 @@
+Picklistentry zw-mv__v (
+   value('Masvingo'),
+   order(5044),
+   active(true),
+   controlling_entries('zw__v')
+);

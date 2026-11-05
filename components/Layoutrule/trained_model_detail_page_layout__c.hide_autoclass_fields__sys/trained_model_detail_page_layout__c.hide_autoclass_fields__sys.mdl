@@ -1,0 +1,15 @@
+RECREATE Layoutrule trained_model_detail_page_layout__c.hide_autoclass_fields__sys (
+   active(true),
+   description(),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('trained_model_type__sys = "metadata_extraction__sys"'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('prediction_confidence_threshold__sys'),
+   hide_sections(),
+   hide_layout(false),
+   label('Hide Auto-class fields'),
+   order(200)
+);

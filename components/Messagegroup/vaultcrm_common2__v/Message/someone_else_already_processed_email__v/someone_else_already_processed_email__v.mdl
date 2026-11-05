@@ -1,0 +1,6 @@
+Message someone_else_already_processed_email__v (
+   label(),
+   active(true),
+   default_value('Someone else on your team has already processed this email. Please refresh this view.'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field mapped_fields__v (
+   label('Mapped Fields'),
+   type('String'),
+   active(true),
+   description('Holds a comma delimited list of certain Data Map Template fields that were mapped when the Analytics File was processed. Fields that will be listed here can include Zip_vod, Brick_vod, Data_Channel_vod.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

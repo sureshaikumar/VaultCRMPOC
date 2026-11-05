@@ -1,0 +1,6 @@
+Picklistentry imnmk__v (
+   value('Internal Medicine: Nephrology (Medical Kidney Diseases)'),
+   order(816),
+   active(true),
+   controlling_entries('dk__v')
+);

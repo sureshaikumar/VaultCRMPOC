@@ -1,0 +1,6 @@
+Message assignment_endd_after_parent_endd__v (
+   label(),
+   active(true),
+   default_value('Assignment End Date cannot be after Parent End Date.'),
+   system_managed(false)
+);

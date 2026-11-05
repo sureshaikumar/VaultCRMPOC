@@ -1,0 +1,6 @@
+Message am_license_info__v (
+   label(),
+   active(true),
+   default_value('License Info'),
+   system_managed(false)
+);

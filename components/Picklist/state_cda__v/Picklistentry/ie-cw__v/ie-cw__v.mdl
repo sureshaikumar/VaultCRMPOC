@@ -1,0 +1,6 @@
+Picklistentry ie-cw__v (
+   value('Carlow'),
+   order(1965),
+   active(true),
+   controlling_entries('ie__v')
+);

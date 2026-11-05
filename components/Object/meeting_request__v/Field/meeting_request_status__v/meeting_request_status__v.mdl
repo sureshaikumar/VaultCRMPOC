@@ -1,0 +1,18 @@
+Field meeting_request_status__v (
+   label('Meeting Request Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of the Meeting Request.'),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.meeting_request_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

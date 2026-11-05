@@ -1,0 +1,6 @@
+Picklistentry bd-e__v (
+   value('Rajshahi'),
+   order(298),
+   active(true),
+   controlling_entries('bd__v')
+);

@@ -1,0 +1,6 @@
+Message my_queues__v (
+   label(),
+   active(true),
+   default_value('My Queues'),
+   system_managed(false)
+);

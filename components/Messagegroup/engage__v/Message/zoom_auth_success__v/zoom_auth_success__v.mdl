@@ -1,0 +1,6 @@
+Message zoom_auth_success__v (
+   label(),
+   active(true),
+   default_value('Successfully authenticated to Zoom. Please return to Vault CRM.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry in-uk__v (
+   value('Uttarākhand'),
+   order(2030),
+   active(true),
+   controlling_entries('in__v')
+);

@@ -1,0 +1,19 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.messaging_business_account__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="primary_asgnee_for_new_inbound_chat__v" />
+            <vault:field reference="secondary_asgnee_for_new_inbound_chat__v" />
+            <vault:field reference="connection_status__v" />
+            <vault:field reference="connection_datetime__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

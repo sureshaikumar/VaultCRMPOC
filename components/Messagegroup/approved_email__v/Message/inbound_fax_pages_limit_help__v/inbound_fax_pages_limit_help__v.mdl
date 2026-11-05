@@ -1,0 +1,6 @@
+Message inbound_fax_pages_limit_help__v (
+   label(),
+   active(true),
+   default_value('Your yearly limit for inbound fax pages is ${inbound_fax_pages_limit} and it resets every calendar year. If you require a higher limit, please submit a Veeva Support ticket.'),
+   system_managed(false)
+);

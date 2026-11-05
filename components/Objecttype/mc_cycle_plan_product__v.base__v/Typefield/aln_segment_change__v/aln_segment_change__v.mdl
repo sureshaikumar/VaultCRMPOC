@@ -1,0 +1,4 @@
+Typefield aln_segment_change__v (
+   source('standard'),
+   required(false)
+);

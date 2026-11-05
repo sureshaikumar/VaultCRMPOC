@@ -1,0 +1,5 @@
+Picklistentry africa_el_aaiun__sys (
+   value('(GMT+00:00) Western European Time (Africa/El_Aaiun)'),
+   order(144),
+   active(true)
+);

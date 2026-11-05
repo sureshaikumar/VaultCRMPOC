@@ -1,0 +1,7 @@
+Typefield content_length__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.content_length__v.condensed__v',
+         'Picklist.content_length__v.extended__v',
+         'Picklist.content_length__v.full__v')
+);

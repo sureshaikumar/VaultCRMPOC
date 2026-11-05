@@ -1,0 +1,6 @@
+Message model_dialog_num_field_forces__v (
+   label(),
+   active(true),
+   default_value('Field Forces'),
+   system_managed(false)
+);

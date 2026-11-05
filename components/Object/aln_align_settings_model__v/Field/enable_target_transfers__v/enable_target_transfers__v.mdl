@@ -1,0 +1,18 @@
+Field enable_target_transfers__v (
+   label('Enable Target Transfers'),
+   type('Boolean'),
+   active(true),
+   description('Enables users to transfer targets between themselves during feedback'),
+   required(false),
+   checkbox(false),
+   help_content('Enables users to transfer targets between themselves during feedback'),
+   list_column(false),
+   order(34),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

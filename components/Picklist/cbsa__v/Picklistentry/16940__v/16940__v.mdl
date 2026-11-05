@@ -1,0 +1,5 @@
+Picklistentry 16940__v (
+   value('Cheyenne, WY Metropolitan Statistical Area'),
+   order(940),
+   active(true)
+);

@@ -1,0 +1,11 @@
+RECREATE Docrelationshiptype original_source__v (
+   label('Original Source'),
+   active(true),
+   single_use(false),
+   target_doctype(),
+   source_version_specific(false),
+   carry_forward_source_specific(false),
+   target_version_specific(true),
+   carry_forward_target_specific(false),
+   relationship_filter()
+);

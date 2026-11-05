@@ -1,0 +1,6 @@
+Typefield attachment_requirement__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_material_attachment_requirement__v.optional__v',
+         'Picklist.em_event_material_attachment_requirement__v.required__v')
+);

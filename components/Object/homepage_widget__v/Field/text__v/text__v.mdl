@@ -1,0 +1,17 @@
+Field text__v (
+   label('Text'),
+   type('RichText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(3200),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

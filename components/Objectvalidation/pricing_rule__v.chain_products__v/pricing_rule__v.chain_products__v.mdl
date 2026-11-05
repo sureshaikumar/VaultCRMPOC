@@ -1,0 +1,16 @@
+RECREATE Objectvalidation pricing_rule__v.chain_products__v (
+   label('Chain Products'),
+   active(true),
+   expression('Not(
+     And(
+        chain_rule__v = true,
+         Or(
+            IsBlank(product__v),
+            product__vr.product_type__v = ''kit_item__v''
+        )
+    )
+)'),
+   description('Product must have a value and cannot equal Kit Item when Chain Rule is enabled'),
+   error_message('Product must have a value and cannot equal Kit Item when Chain Rule is enabled'),
+   error_location('product__v')
+);

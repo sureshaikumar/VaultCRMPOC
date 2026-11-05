@@ -1,0 +1,6 @@
+Picklistentry ru-ad__v (
+   value('Adygeya, Respublika'),
+   order(3790),
+   active(true),
+   controlling_entries('ru__v')
+);

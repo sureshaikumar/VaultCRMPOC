@@ -1,0 +1,5 @@
+Picklistentry iyal__v (
+   value('Allergy'),
+   order(5),
+   active(true)
+);

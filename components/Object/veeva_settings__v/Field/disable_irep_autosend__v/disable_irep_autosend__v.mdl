@@ -1,0 +1,18 @@
+Field disable_irep_autosend__v (
+   label('Disable iRep Autosend'),
+   type('Boolean'),
+   active(true),
+   description('Disable autosend functionality on the iRep platform.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(117),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

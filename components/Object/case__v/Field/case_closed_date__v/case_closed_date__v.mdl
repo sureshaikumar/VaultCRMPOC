@@ -1,0 +1,17 @@
+Field case_closed_date__v (
+   label('Closed Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The closed date is automatically set upon the system closure of the case.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message rules_failure_criteria_logic_error__v (
+   label(),
+   active(true),
+   default_value('Rule "${rule_name}" contains invalid criteria logic.'),
+   system_managed(false)
+);

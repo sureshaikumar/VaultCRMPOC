@@ -1,0 +1,4 @@
+Typefield inventory_order_uom__v (
+   source('standard'),
+   required(false)
+);

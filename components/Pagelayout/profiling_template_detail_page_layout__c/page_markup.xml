@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.profiling_template__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="due_date__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="instructions__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="user_type__v" />
+            <vault:control reference="account_types_field_control__v" name="account_types_field_control__c" label="Account Types" />
+            <vault:control reference="product_field_control__v" name="product_field_control__c" label="Product" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Columns" name="columns_section_control__c" reference="columns_section_control__v" />
+    <vault:section title="Profiling Sheets" name="profiling_sheets__c">
+        <vault:relatedObject relationship="profiling_sheets__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="profiling_template__v" width="200px" />
+            <vault:field reference="ownerid__v" width="200px" />
+            <vault:field reference="number_of_changes__v" width="200px" />
+            <vault:field reference="profiling_sheet_status__v" width="200px" />
+            <vault:field reference="link__sys" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

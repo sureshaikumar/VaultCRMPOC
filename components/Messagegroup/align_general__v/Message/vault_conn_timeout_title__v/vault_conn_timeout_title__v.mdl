@@ -1,0 +1,6 @@
+Message vault_conn_timeout_title__v (
+   label(),
+   active(true),
+   default_value('Vault Connection Error'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry tr-45__v (
+   value('Manisa'),
+   order(4503),
+   active(true),
+   controlling_entries('tr__v')
+);

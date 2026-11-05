@@ -1,0 +1,8 @@
+RECREATE Tab vault_loader__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Loader'),
+   order(3400),
+   parent()
+);

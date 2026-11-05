@@ -1,0 +1,5 @@
+Picklistentry quantitydate__v (
+   value('QuantityDate'),
+   order(0),
+   active(true)
+);

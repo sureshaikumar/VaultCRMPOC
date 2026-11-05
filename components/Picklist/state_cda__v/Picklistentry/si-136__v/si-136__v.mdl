@@ -1,0 +1,6 @@
+Picklistentry si-136__v (
+   value('Vipava'),
+   order(4110),
+   active(true),
+   controlling_entries('si__v')
+);

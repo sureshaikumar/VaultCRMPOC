@@ -1,0 +1,19 @@
+Field concur_status__v (
+   label('Concur Submission Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of sending an expense to Concur'),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.expense_header_concur_status__v'),
+   default_value('{unsubmitted__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

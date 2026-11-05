@@ -1,0 +1,6 @@
+Message reschedule__v (
+   label(),
+   active(true),
+   default_value('Reschedule'),
+   system_managed(false)
+);

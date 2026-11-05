@@ -1,0 +1,6 @@
+Picklistentry it-55__v (
+   value('Umbria'),
+   order(2164),
+   active(true),
+   controlling_entries('it__v')
+);

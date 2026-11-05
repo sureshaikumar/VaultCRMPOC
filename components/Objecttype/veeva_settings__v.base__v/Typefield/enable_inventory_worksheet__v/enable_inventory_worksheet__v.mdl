@@ -1,0 +1,4 @@
+Typefield enable_inventory_worksheet__v (
+   source('standard'),
+   required(false)
+);

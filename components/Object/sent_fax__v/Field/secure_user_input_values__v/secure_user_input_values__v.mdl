@@ -1,0 +1,17 @@
+Field secure_user_input_values__v (
+   label('Secure User Input Values'),
+   type('LongText'),
+   active(true),
+   description('Secure values for user input tokens, such as picklist selections and free text entries.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(true),
+   order(42),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   control_binding()
+);

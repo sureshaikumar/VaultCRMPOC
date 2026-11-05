@@ -1,0 +1,17 @@
+Field locked_date__v (
+   label('Locked Date'),
+   type('DateTime'),
+   active(true),
+   description('The date when this account list was last locked.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

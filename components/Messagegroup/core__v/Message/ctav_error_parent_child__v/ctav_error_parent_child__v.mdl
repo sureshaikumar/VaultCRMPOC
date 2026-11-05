@@ -1,0 +1,6 @@
+Message ctav_error_parent_child__v (
+   label(),
+   active(true),
+   default_value('Field ${field_name} on object ${source_object} is a parent-child lookup to ${target_object}. Custom parent-child  are not supported via copy to another vault.'),
+   system_managed(false)
+);

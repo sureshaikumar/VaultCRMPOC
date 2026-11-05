@@ -1,0 +1,6 @@
+Message prerequisites__v (
+   label(),
+   active(true),
+   default_value('Prerequisites'),
+   system_managed(false)
+);

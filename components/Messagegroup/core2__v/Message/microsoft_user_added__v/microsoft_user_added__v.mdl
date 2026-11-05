@@ -1,0 +1,6 @@
+Message microsoft_user_added__v (
+   label(),
+   active(true),
+   default_value('User was successfully added to the Team.'),
+   system_managed(false)
+);

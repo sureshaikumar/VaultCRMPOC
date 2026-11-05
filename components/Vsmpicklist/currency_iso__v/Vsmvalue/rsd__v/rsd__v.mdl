@@ -1,0 +1,10 @@
+Vsmvalue rsd__v (
+   label('RSD'),
+   active(true),
+   description('Applies when transactions are denominated in the Serbian Dinar, the official currency of Serbia.'),
+   synonyms('Serbian dinar',
+         'Serbia currency',
+         'dinar'),
+   target('rsd__sys'),
+   target_label('RSD')
+);

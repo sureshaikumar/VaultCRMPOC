@@ -1,0 +1,4 @@
+Typefield domain_secondary_theme_color__v (
+   source('standard'),
+   required(false)
+);

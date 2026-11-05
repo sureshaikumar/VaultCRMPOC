@@ -1,0 +1,5 @@
+Picklistentry mw__v (
+   value('Malawi'),
+   order(133),
+   active(true)
+);

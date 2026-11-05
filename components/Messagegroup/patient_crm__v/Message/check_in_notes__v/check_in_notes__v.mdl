@@ -1,0 +1,6 @@
+Message check_in_notes__v (
+   label(),
+   active(true),
+   default_value('Check-In Notes'),
+   system_managed(false)
+);

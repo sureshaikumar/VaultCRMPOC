@@ -1,0 +1,6 @@
+Message conversation_ended_datetime__v (
+   label(),
+   active(true),
+   default_value('Conversation ended on ${datetime}'),
+   system_managed(false)
+);

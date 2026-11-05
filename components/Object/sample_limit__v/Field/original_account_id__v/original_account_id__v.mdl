@@ -1,0 +1,19 @@
+Field original_account_id__v (
+   label('Original Account Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('When a Sample Limit record is transferred during an Account Merge, maintains the SFDC Id of the original Account the Sample Limit record was created for.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

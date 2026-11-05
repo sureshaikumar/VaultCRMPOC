@@ -1,0 +1,6 @@
+Picklistentry tr-38__v (
+   value('Kayseri'),
+   order(4496),
+   active(true),
+   controlling_entries('tr__v')
+);

@@ -1,0 +1,6 @@
+Message import_task_console_label__v (
+   label(),
+   active(true),
+   default_value('Import Task Console'),
+   system_managed(false)
+);

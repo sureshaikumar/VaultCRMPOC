@@ -1,0 +1,5 @@
+Index view_count__sys (
+   description(),
+   fields('view_count__sys'),
+   label('View Count')
+);

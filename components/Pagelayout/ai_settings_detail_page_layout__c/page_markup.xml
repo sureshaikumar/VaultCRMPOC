@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.ai_settings__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="initial_salutation__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="text_monitoring_check__v" />
+            <vault:field reference="text_monitoring_block_save__v" />
+            <vault:field reference="vector_sync_scope__v" />
+            <vault:field reference="clm_vector_scope__v" />
+            <vault:field reference="clm_product_vector_scope__v" />
+            <vault:field reference="parent_call_account_type_preference__v" />
+            <vault:field reference="text_monitoring_publish_findings__v" />
+            <vault:field reference="enable_agentic_call__v" />
+            <vault:field reference="monthly_token_budget__v" />
+            <vault:field reference="insight_quality_check__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

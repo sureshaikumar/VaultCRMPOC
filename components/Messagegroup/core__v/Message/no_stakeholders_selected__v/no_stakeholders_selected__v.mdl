@@ -1,0 +1,6 @@
+Message no_stakeholders_selected__v (
+   label(),
+   active(true),
+   default_value('No key stakeholders selected.'),
+   system_managed(false)
+);

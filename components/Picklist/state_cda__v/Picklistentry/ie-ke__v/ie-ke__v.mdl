@@ -1,0 +1,6 @@
+Picklistentry ie-ke__v (
+   value('Kildare'),
+   order(1969),
+   active(true),
+   controlling_entries('ie__v')
+);

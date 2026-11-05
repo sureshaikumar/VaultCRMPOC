@@ -1,0 +1,6 @@
+Message filter_selected_is__v (
+   label(),
+   active(true),
+   default_value('${filter_field_label} (${filter_object_label}) is ${selection}'),
+   system_managed(false)
+);

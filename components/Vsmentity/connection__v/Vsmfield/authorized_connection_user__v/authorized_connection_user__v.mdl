@@ -1,0 +1,13 @@
+Vsmfield authorized_connection_user__v (
+   label('Authorized Connection User'),
+   active(true),
+   description('The Vault user account that is authorized to act on behalf of this connection when executing authenticated requests. Use this field to identify which user''s credentials or permissions are associated with the connection''s authorization context.'),
+   example_values(),
+   synonyms('auth user',
+         'connection user',
+         'authorized user'),
+   target('authorized_connection_user__sys'),
+   target_label('Authorized Connection User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

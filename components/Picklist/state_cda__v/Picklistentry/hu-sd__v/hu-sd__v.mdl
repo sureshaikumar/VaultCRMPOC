@@ -1,0 +1,6 @@
+Picklistentry hu-sd__v (
+   value('Szeged'),
+   order(1900),
+   active(true),
+   controlling_entries('hu__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ph-ags__v (
+   value('Agusan del Sur'),
+   order(3535),
+   active(true),
+   controlling_entries('ph__v')
+);

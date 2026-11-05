@@ -1,0 +1,13 @@
+Picklistentry paene__v (
+   value('Pediatric Anesthesiology'),
+   order(1338),
+   active(true),
+   controlling_entries('am__v',
+         'mk__v',
+         'ph__v',
+         'rs__v',
+         'sk__v',
+         'th__v',
+         'ua__v',
+         'us__v')
+);

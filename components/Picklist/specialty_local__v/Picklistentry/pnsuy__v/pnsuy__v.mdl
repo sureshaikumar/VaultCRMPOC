@@ -1,0 +1,6 @@
+Picklistentry pnsuy__v (
+   value('Psychiatric Nursing'),
+   order(1606),
+   active(true),
+   controlling_entries('ee__v')
+);

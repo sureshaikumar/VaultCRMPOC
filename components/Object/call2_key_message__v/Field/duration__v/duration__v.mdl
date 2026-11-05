@@ -1,0 +1,22 @@
+Field duration__v (
+   label('Duration'),
+   type('Number'),
+   active(true),
+   description('Duration of the visit to the slide. From Exploria, the value is in ticks (10,000,000 ticks = 1 second). Otherwise, the value is in seconds.'),
+   required(false),
+   unique(false),
+   max_value(99999999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry tier_1__v (
+   value('Tier 1'),
+   order(16),
+   active(true)
+);

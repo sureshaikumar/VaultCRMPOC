@@ -1,0 +1,6 @@
+Sdkbatchjobaction link_migration_continuity_job__v (
+   job_metadata('Jobmetadata.link_migration_continuity_job__v'),
+   label('Link Continuity for Migrating Customers'),
+   parameters(),
+   primary_action(true)
+);

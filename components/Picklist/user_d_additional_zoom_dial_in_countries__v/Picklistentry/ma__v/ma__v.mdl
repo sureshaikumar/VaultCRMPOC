@@ -1,0 +1,5 @@
+Picklistentry ma__v (
+   value('MA'),
+   order(69),
+   active(true)
+);

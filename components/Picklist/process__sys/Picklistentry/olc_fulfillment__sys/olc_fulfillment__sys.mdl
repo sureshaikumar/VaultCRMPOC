@@ -1,0 +1,5 @@
+Picklistentry olc_fulfillment__sys (
+   value('Fulfillment'),
+   order(44),
+   active(true)
+);

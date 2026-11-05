@@ -1,0 +1,6 @@
+Message delete_app_profile_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you wish to delete "${application_profile_label}"?'),
+   system_managed(false)
+);

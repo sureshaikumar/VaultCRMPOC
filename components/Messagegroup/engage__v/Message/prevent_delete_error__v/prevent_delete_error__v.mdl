@@ -1,0 +1,6 @@
+Message prevent_delete_error__v (
+   label(),
+   active(true),
+   default_value('Your domain has been published and cannot be edited or deleted. To make updates to fields other than the domain, please visit the My Engage Portal Administration page to make updates and publish them.'),
+   system_managed(false)
+);

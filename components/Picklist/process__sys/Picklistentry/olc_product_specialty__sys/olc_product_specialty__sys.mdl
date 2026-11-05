@@ -1,0 +1,5 @@
+Picklistentry olc_product_specialty__sys (
+   value('Product Specialty'),
+   order(60),
+   active(true)
+);

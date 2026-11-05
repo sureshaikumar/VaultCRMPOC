@@ -1,0 +1,5 @@
+Picklistentry rw__v (
+   value('RW'),
+   order(192),
+   active(true)
+);

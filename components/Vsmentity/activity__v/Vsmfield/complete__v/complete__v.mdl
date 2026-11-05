@@ -1,0 +1,14 @@
+Vsmfield complete__v (
+   label('Complete'),
+   active(true),
+   description('Boolean flag indicating whether this activity has been marked as complete. Use to quickly filter for outstanding versus finished activities without relying on status or state values.'),
+   example_values(),
+   synonyms('is complete',
+         'finished',
+         'done',
+         'completed flag'),
+   target('complete__v'),
+   target_label('Complete'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

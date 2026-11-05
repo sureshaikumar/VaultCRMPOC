@@ -1,0 +1,6 @@
+Picklistentry emaes__v (
+   value('Eastern Medicine'),
+   order(470),
+   active(true),
+   controlling_entries('kg__v')
+);

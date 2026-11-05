@@ -1,0 +1,9 @@
+Vsmvalue bdt__v (
+   label('BDT'),
+   active(true),
+   description('The Bangladeshi Taka (BDT), the official currency of Bangladesh, used for all domestic and international financial transactions.'),
+   synonyms('Bangladeshi taka',
+         'Bangladesh currency'),
+   target('bdt__sys'),
+   target_label('BDT')
+);

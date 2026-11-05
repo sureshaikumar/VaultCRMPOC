@@ -1,0 +1,6 @@
+Picklistentry ph-kal__v (
+   value('Kalinga'),
+   order(3571),
+   active(true),
+   controlling_entries('ph__v')
+);

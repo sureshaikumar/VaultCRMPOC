@@ -1,0 +1,19 @@
+Field cobrowse_default_record_type__v (
+   label('CoBrowse Default Call RecordType'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Stores the default recordtype name to be used when starting a CoBrowse session from the Account Detail page'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

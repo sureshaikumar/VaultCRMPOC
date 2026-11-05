@@ -1,0 +1,15 @@
+RECREATE Tab order__c (
+   active(true),
+   all_view_label('All Order'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Order'),
+   modal_create_record(false),
+   my_view_label('My Order'),
+   object('order__v'),
+   order(4800),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Order')
+);

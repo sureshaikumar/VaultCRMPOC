@@ -1,0 +1,6 @@
+Message target_added__v (
+   label(),
+   active(true),
+   default_value('Target has been added'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry eg__v (
+   value('EG'),
+   order(64),
+   active(true)
+);

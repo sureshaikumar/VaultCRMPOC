@@ -1,0 +1,18 @@
+Field cascade_down_hierarchy__v (
+   label('Cascade Down Hierarchy'),
+   type('Boolean'),
+   active(true),
+   description('When true, this budget is shared to descendants of territories defined in the Territory field.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(33),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,7 @@
+Picklistentry oetxo__v (
+   value('Ear, Nose, and Throat Diseases (ENT)'),
+   order(469),
+   active(true),
+   controlling_entries('ch__v',
+         'li__v')
+);

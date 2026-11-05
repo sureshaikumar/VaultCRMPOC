@@ -1,0 +1,6 @@
+Picklistentry pt-07__v (
+   value('Évora'),
+   order(3660),
+   active(true),
+   controlling_entries('pt__v')
+);

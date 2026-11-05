@@ -1,0 +1,6 @@
+Picklistentry fr-19__v (
+   value('Corrèze'),
+   order(1333),
+   active(true),
+   controlling_entries('fr__v')
+);

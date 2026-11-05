@@ -1,0 +1,5 @@
+Picklistentry 36580__v (
+   value('Oneonta, NY Micropolitan Statistical Area'),
+   order(417),
+   active(true)
+);

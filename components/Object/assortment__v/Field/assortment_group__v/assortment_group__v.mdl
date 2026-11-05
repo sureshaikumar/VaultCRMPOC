@@ -1,0 +1,20 @@
+Field assortment_group__v (
+   label('Assortment Group'),
+   type('String'),
+   active(true),
+   description('Used together with sharing settings to limit visibility to specific sets of users
+(e.g. country level, role, division, etc.)'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

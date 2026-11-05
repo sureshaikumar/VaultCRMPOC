@@ -1,0 +1,6 @@
+Picklistentry tr-14__v (
+   value('Bolu'),
+   order(4472),
+   active(true),
+   controlling_entries('tr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry md__v (
+   value('Moldova'),
+   order(145),
+   active(true)
+);

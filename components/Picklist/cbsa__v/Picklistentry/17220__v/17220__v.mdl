@@ -1,0 +1,5 @@
+Picklistentry 17220__v (
+   value('Clarksburg, WV Micropolitan Statistical Area'),
+   order(2),
+   active(true)
+);

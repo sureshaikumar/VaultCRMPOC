@@ -1,0 +1,19 @@
+Field vault_binder_path__v (
+   label('Vault Binder Path'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Path to the Vault Binder for the event.'),
+   list_column(false),
+   order(78),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry dz-48__v (
+   value('Relizane'),
+   order(1029),
+   active(true),
+   controlling_entries('dz__v')
+);

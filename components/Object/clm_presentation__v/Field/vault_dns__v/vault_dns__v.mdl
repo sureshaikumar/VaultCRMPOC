@@ -1,0 +1,19 @@
+Field vault_dns__v (
+   label('Vault DNS'),
+   type('String'),
+   active(true),
+   description('Vault DNS of the document.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

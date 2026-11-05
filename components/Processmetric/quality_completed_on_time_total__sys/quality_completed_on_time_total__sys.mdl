@@ -1,0 +1,9 @@
+RECREATE Processmetric quality_completed_on_time_total__sys (
+   label('Completed on Time'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The number of records where the time between the start and end states is less than the cycle time target. The cycle time target must be set to calculate this metric.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.quality__sys')
+);

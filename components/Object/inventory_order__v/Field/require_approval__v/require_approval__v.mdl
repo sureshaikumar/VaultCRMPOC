@@ -1,0 +1,18 @@
+Field require_approval__v (
+   label('Require Approval'),
+   type('Boolean'),
+   active(true),
+   description('This checkbox will be set if at least one of the order lines on the order require approval for an exception.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(17),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

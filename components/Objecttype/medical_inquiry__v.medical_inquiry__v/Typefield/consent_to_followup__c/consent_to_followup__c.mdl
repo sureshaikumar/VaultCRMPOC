@@ -1,0 +1,4 @@
+Typefield consent_to_followup__c (
+   source('custom'),
+   required(false)
+);

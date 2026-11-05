@@ -1,0 +1,6 @@
+Message unable_to_create_record__v (
+   label(),
+   active(true),
+   default_value('Unable to Create ${record_label}'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation survey_lifecycle_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.survey_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.development_state__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

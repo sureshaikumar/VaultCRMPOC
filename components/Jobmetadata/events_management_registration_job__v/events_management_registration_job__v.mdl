@@ -1,0 +1,10 @@
+RECREATE Jobmetadata events_management_registration_job__v (
+   label('Event Management Registration Job'),
+   active(true),
+   chunk_size(500),
+   description('Job for Events Management to do registration post save process such as sending confirmation email.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.EventsManagementRegistrationJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

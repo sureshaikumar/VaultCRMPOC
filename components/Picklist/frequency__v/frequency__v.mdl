@@ -1,0 +1,9 @@
+RECREATE Picklist frequency__v (
+   label('Frequency'),
+   active(true),
+   Picklistentry(@Picklistentry/daily__v.mdl),
+   Picklistentry(@Picklistentry/weekly__v.mdl),
+   Picklistentry(@Picklistentry/monthly__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

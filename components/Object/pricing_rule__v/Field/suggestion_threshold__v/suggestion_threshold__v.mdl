@@ -1,0 +1,22 @@
+Field suggestion_threshold__v (
+   label('Suggestion Threshold'),
+   type('Number'),
+   active(true),
+   description('If the quantity entered on the line item passes this threshold, then the Suggestion Text will be displayed.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(46),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message affiliation_duplicate_record__v (
+   label(),
+   active(true),
+   default_value('Affiliation cannot be saved because the affiliation already exists between the specified parties'),
+   system_managed(false)
+);

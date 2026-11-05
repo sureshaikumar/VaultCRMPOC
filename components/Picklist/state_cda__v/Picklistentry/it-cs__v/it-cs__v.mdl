@@ -1,0 +1,6 @@
+Picklistentry it-cs__v (
+   value('Cosenza'),
+   order(2201),
+   active(true),
+   controlling_entries('it__v')
+);

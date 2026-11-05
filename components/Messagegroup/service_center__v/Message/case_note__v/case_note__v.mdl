@@ -1,0 +1,6 @@
+Message case_note__v (
+   label(),
+   active(true),
+   default_value('Case Note'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_venue__sys (
+   value('Venue'),
+   order(182),
+   active(true),
+   controlling_entries('olc_venue__sys')
+);

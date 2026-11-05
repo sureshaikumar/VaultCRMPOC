@@ -1,0 +1,18 @@
+Field enable_license_exp_date_bypass__v (
+   label('ENABLE_LICENSE_EXP_DATE_BYPASS'),
+   type('Boolean'),
+   active(true),
+   description('Designates whether the License Expiration Date validation should be bypassed to allow for one-time sample disbursements.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(137),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,24 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.speaker_evaluation__c">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="comments__c" />
+            <vault:field reference="credibility__c" />
+            <vault:field reference="date__c" />
+            <vault:field reference="overall_rating__c" />
+            <vault:field reference="preparedness__c" />
+            <vault:field reference="presentation_skills__c" />
+            <vault:field reference="professionalism__c" />
+            <vault:field reference="responsive_to_audience__c" />
+            <vault:field reference="subject_knowledge__c" />
+            <vault:field reference="subject__c" />
+            <vault:field reference="account__c" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

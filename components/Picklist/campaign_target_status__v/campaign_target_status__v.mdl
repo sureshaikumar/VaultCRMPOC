@@ -1,0 +1,8 @@
+RECREATE Picklist campaign_target_status__v (
+   label('Target Status'),
+   active(true),
+   Picklistentry(@Picklistentry/active__v.mdl),
+   Picklistentry(@Picklistentry/inactive__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

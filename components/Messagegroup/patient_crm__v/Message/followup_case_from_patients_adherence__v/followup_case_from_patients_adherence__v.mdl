@@ -1,0 +1,6 @@
+Message followup_case_from_patients_adherence__v (
+   label(),
+   active(true),
+   default_value('Follow-up case from Patient''s Adherence Check-Ins.'),
+   system_managed(false)
+);

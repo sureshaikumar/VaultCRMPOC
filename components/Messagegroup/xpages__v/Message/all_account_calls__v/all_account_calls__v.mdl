@@ -1,0 +1,6 @@
+Message all_account_calls__v (
+   label(),
+   active(true),
+   default_value('All Account Calls'),
+   system_managed(false)
+);

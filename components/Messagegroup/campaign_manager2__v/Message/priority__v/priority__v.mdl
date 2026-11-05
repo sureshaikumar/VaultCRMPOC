@@ -1,0 +1,6 @@
+Message priority__v (
+   label(),
+   active(true),
+   default_value('Priority ${number}'),
+   system_managed(false)
+);

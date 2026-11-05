@@ -1,0 +1,6 @@
+Message unable_to_use_chats__v (
+   label(),
+   active(true),
+   default_value('Unable to Use Chats'),
+   system_managed(false)
+);

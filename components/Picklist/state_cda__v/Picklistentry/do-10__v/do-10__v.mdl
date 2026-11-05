@@ -1,0 +1,6 @@
+Picklistentry do-10__v (
+   value('Independencia'),
+   order(949),
+   active(true),
+   controlling_entries('do__v')
+);

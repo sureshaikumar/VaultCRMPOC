@@ -1,0 +1,5 @@
+Picklistentry mseed__v (
+   value('Medical Secretary'),
+   order(66),
+   active(true)
+);

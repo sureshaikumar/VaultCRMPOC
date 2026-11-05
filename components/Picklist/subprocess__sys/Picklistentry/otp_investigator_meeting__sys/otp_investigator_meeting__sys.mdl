@@ -1,0 +1,6 @@
+Picklistentry otp_investigator_meeting__sys (
+   value('Investigator Meeting'),
+   order(85),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

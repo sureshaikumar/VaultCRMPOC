@@ -1,0 +1,14 @@
+RECREATE Page copy_presentation_page__v (
+   label('Copy Presentation'),
+   active(true),
+   client_distribution(),
+   default_client_code('copy_presentation_page__v'),
+   description('Deep Copy of CLM Presentation Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.clm.controls.CopyPresentationPageController'),
+   url_path_name('copy-presentation')
+);

@@ -1,0 +1,6 @@
+Picklistentry kp-15__v (
+   value('Kaeseong'),
+   order(2469),
+   active(true),
+   controlling_entries('kp__v')
+);

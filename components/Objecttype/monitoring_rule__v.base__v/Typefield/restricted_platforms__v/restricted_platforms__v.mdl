@@ -1,0 +1,4 @@
+Typefield restricted_platforms__v (
+   source('standard'),
+   required(false)
+);

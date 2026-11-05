@@ -1,0 +1,6 @@
+Message fax__v (
+   label(),
+   active(true),
+   default_value('Fax'),
+   system_managed(false)
+);

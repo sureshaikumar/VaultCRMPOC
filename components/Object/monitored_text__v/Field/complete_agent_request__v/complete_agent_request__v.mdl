@@ -1,0 +1,15 @@
+Field complete_agent_request__v (
+   label('Complete Agent Request'),
+   type('Attachment'),
+   active(true),
+   description('Contains the complete agent request, including User Text'),
+   required(false),
+   help_content('Contains the complete agent request, including User Text'),
+   list_column(false),
+   order(48),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

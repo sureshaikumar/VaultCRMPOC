@@ -1,0 +1,5 @@
+Picklistentry africa_sao_tome__sys (
+   value('(GMT+00:00) Greenwich Mean Time (Africa/Sao_Tome)'),
+   order(138),
+   active(true)
+);

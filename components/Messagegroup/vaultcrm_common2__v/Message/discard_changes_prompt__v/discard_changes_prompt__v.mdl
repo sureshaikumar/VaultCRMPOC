@@ -1,0 +1,6 @@
+Message discard_changes_prompt__v (
+   label(),
+   active(true),
+   default_value('Discarding changes will lose all unsaved data. Are you sure you want to continue?'),
+   system_managed(false)
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate microsoft_owner_inactive__v (
+   label('Microsoft Owner Inactive'),
+   active(true),
+   description('This notification is sent if the owner of a Collaboration Space Configuration record is no longer active'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.collaboration_space_configuration__v'),
+   subject('Action Required: Collaboration Space Configuration Owner Inactive'),
+   notification('The Owner of the Collaboration Space Configuration "${Custom.collaboration_space_config_name}" is no longer active (ownerid__vr.status__v != active__v), and can no longer be used for the Microsoft Teams integration. Please update the Owner Id in Vault CRM: <a href=${Custom.link_to_record}>Link to Record</a>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

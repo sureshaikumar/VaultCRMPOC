@@ -1,0 +1,6 @@
+Picklistentry bf-08__v (
+   value('Est'),
+   order(322),
+   active(true),
+   controlling_entries('bf__v')
+);

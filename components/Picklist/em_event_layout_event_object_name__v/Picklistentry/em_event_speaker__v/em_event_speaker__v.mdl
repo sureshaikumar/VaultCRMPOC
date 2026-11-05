@@ -1,0 +1,5 @@
+Picklistentry em_event_speaker__v (
+   value('EM_Event_Speaker'),
+   order(2),
+   active(true)
+);

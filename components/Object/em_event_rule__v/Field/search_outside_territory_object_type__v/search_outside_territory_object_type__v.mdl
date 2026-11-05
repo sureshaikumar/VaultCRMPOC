@@ -1,0 +1,17 @@
+Field search_outside_territory_object_type__v (
+   label('Search Outside Territory Object Types'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(4099),
+   help_content('Semicolon separated list of Account Object Types to be included in the result list for Search Outside Territory'),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

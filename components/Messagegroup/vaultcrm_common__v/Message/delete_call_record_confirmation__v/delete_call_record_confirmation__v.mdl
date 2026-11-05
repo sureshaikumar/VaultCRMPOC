@@ -1,0 +1,6 @@
+Message delete_call_record_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to delete the record {0}?'),
+   system_managed(false)
+);

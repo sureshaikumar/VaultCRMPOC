@@ -1,0 +1,5 @@
+Picklistentry diabetes_injection_hypoglycemic__v (
+   value('Diabetes (Injection Hypoglycemic)'),
+   order(36),
+   active(true)
+);

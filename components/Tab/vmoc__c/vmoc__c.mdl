@@ -1,0 +1,15 @@
+RECREATE Tab vmoc__c (
+   active(true),
+   all_view_label('All VMOC'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('VMOC'),
+   modal_create_record(false),
+   my_view_label('My VMOC'),
+   object('vmobile_object_configuration__v'),
+   order(5400),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent VMOC')
+);

@@ -1,0 +1,14 @@
+RECREATE Page ae_admin_page__v (
+   label('Approved Email Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code(),
+   description('Approved Email Administration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.approvedemail.controls.pages.ApprovedEmailAdministrationPageController'),
+   url_path_name('approved-email-administration')
+);

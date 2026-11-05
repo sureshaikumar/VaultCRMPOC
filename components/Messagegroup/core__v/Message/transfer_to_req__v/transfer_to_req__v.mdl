@@ -1,0 +1,6 @@
+Message transfer_to_req__v (
+   label(),
+   active(true),
+   default_value('The "Transfer To" field is required for a transfer.'),
+   system_managed(false)
+);

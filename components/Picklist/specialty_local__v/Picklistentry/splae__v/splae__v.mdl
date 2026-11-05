@@ -1,0 +1,7 @@
+Picklistentry splae__v (
+   value('Sleep Pathology'),
+   order(1774),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

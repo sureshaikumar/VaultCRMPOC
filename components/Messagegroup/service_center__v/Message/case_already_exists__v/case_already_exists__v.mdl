@@ -1,0 +1,6 @@
+Message case_already_exists__v (
+   label(),
+   active(true),
+   default_value('Case Already Exists'),
+   system_managed(false)
+);

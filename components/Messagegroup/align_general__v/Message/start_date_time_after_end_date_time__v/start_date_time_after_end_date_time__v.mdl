@@ -1,0 +1,6 @@
+Message start_date_time_after_end_date_time__v (
+   label(),
+   active(true),
+   default_value('Start Date cannot be after End Date'),
+   system_managed(false)
+);

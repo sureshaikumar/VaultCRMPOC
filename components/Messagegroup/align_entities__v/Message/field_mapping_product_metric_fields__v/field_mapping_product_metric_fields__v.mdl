@@ -1,0 +1,6 @@
+Message field_mapping_product_metric_fields__v (
+   label(),
+   active(true),
+   default_value('Product Metric Fields'),
+   system_managed(false)
+);

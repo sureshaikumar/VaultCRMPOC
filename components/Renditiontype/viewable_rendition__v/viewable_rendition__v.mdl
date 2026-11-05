@@ -1,0 +1,4 @@
+RECREATE Renditiontype viewable_rendition__v (
+   label('Viewable Rendition'),
+   active(true)
+);

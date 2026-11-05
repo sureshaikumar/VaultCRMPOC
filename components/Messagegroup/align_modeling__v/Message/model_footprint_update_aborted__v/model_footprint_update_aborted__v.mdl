@@ -1,0 +1,6 @@
+Message model_footprint_update_aborted__v (
+   label(),
+   active(true),
+   default_value('Model footprint update aborted for ${entity_name}'),
+   system_managed(false)
+);

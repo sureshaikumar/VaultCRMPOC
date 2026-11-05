@@ -1,0 +1,8 @@
+Tabcollectionitem scheduler_administration_tab__v (
+   label(),
+   active(true),
+   tabs(),
+   order(1),
+   tab('Tab.scheduler_administration_tab__v'),
+   type('Tab')
+);

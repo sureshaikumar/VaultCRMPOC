@@ -1,0 +1,6 @@
+Picklistentry cf-hm__v (
+   value('Haut-Mbomou'),
+   order(603),
+   active(true),
+   controlling_entries('cf__v')
+);

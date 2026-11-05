@@ -1,0 +1,6 @@
+Picklistentry barom__v (
+   value('Baromedicine'),
+   order(117),
+   active(true),
+   controlling_entries('mt__v')
+);

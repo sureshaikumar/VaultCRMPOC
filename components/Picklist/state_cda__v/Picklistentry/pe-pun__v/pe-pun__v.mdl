@@ -1,0 +1,6 @@
+Picklistentry pe-pun__v (
+   value('Puno'),
+   order(3489),
+   active(true),
+   controlling_entries('pe__v')
+);

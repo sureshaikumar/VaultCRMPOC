@@ -1,0 +1,6 @@
+Picklistentry ls-h__v (
+   value('Qacha''s Nek'),
+   order(2616),
+   active(true),
+   controlling_entries('ls__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry cm__v (
+   value('Cameroon'),
+   order(39),
+   active(true)
+);

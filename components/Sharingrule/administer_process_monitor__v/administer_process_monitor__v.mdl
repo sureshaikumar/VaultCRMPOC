@@ -1,0 +1,8 @@
+RECREATE Sharingrule administer_process_monitor__v (
+   label('Administer Process Monitor'),
+   active(true),
+   description(),
+   object('process_view__sys'),
+   criteria(),
+   Sharingrole(@Sharingrole/owner__v.mdl)
+);

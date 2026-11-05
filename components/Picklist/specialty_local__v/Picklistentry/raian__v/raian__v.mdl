@@ -1,0 +1,6 @@
+Picklistentry raian__v (
+   value('Radiology and Imaging'),
+   order(1688),
+   active(true),
+   controlling_entries('ke__v')
+);

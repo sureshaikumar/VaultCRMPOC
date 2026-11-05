@@ -1,0 +1,6 @@
+Message aws_account_disconnected_this_vault_body__v (
+   label(),
+   active(true),
+   default_value('${aws_account_name} (AWS Account ID: ${aws_account_id}) was previously connected to this Vault.'),
+   system_managed(false)
+);

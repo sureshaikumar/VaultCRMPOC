@@ -1,0 +1,6 @@
+Message number_of_targets_failed__v (
+   label(),
+   active(true),
+   default_value('Targets: ${count} failed'),
+   system_managed(false)
+);

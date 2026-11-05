@@ -1,0 +1,6 @@
+Message no_account_access__v (
+   label(),
+   active(true),
+   default_value('Account is out of territory and cannot be viewed'),
+   system_managed(false)
+);

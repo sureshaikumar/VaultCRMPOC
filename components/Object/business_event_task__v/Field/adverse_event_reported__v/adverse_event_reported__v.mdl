@@ -1,0 +1,17 @@
+Field adverse_event_reported__v (
+   label('Adverse Event Reported'),
+   type('Boolean'),
+   active(true),
+   description('Defines whether an adverse event was reported as a result of this task'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

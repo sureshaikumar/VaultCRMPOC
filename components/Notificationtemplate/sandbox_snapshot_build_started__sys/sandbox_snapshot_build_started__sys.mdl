@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sandbox_snapshot_build_started__sys (
+   label('Snapshot Build Started'),
+   active(true),
+   description('Notification template notifying user that the sandbox snapshot build has started and the Vault is now unavailable.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Snapshot Build Started. Sandbox Vault Unavailable.'),
+   notification('<p>Your sandbox Snapshot: ${snapshotName} is being built. The Vault will be unavailable for the time the Snapshot is being created.</p><p>A follow-up notification will be sent when the Vault is back online.</p>'),
+   email_body('<p>Your sandbox Snapshot: ${snapshotName} is being built. The Vault will be unavailable for the time the Snapshot is being created.</p><p>A follow-up notification will be sent when the Vault is back online.</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

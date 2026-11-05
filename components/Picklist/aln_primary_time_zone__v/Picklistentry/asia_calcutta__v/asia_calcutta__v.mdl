@@ -1,0 +1,5 @@
+Picklistentry asia_calcutta__v (
+   value('Asia/Calcutta'),
+   order(55),
+   active(true)
+);

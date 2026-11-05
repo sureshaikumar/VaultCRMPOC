@@ -1,0 +1,6 @@
+Picklistentry qa-sh__v (
+   value('Ash Shīḩānīyah'),
+   order(3712),
+   active(true),
+   controlling_entries('qa__v')
+);

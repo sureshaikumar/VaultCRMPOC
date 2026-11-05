@@ -1,0 +1,6 @@
+Picklistentry af-nur__v (
+   value('Nūristān'),
+   order(37),
+   active(true),
+   controlling_entries('af__v')
+);

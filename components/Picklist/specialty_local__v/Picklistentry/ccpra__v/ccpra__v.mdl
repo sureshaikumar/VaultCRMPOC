@@ -1,0 +1,6 @@
+Picklistentry ccpra__v (
+   value('Critical Care Pharmacy'),
+   order(347),
+   active(true),
+   controlling_entries('sg__v')
+);

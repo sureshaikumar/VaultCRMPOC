@@ -1,0 +1,5 @@
+Picklistentry document_version__sys (
+   value('Document Version'),
+   order(1),
+   active(true)
+);

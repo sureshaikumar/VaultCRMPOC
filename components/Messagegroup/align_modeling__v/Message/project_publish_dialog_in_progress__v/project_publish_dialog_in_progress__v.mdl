@@ -1,0 +1,6 @@
+Message project_publish_dialog_in_progress__v (
+   label(),
+   active(true),
+   default_value('Publishing project data'),
+   system_managed(false)
+);

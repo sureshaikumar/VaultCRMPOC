@@ -1,0 +1,17 @@
+RECREATE Picklist sent_message_sent_via__v (
+   label('Sent Via'),
+   active(true),
+   Picklistentry(@Picklistentry/sms__v.mdl),
+   Picklistentry(@Picklistentry/whatsapp__v.mdl),
+   Picklistentry(@Picklistentry/qr_code__v.mdl),
+   Picklistentry(@Picklistentry/line__v.mdl),
+   Picklistentry(@Picklistentry/line_works__v.mdl),
+   Picklistentry(@Picklistentry/messages__v.mdl),
+   Picklistentry(@Picklistentry/copy_url__v.mdl),
+   Picklistentry(@Picklistentry/engage_connect__v.mdl),
+   Picklistentry(@Picklistentry/engage_chat__v.mdl),
+   Picklistentry(@Picklistentry/wallet__v.mdl),
+   Picklistentry(@Picklistentry/whatsapp_business__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

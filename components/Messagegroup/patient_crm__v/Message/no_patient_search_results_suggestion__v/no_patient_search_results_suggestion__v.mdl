@@ -1,0 +1,6 @@
+Message no_patient_search_results_suggestion__v (
+   label(),
+   active(true),
+   default_value('Try adjusting your search or creating a case without a Patient.'),
+   system_managed(false)
+);

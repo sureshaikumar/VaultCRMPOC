@@ -1,0 +1,6 @@
+Picklistentry iq-na__v (
+   value('An Najaf'),
+   order(2046),
+   active(true),
+   controlling_entries('iq__v')
+);

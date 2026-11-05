@@ -1,0 +1,5 @@
+Picklistentry irritable_bowel_syndrome_ibs__v (
+   value('Irritable Bowel Syndrome (IBS)'),
+   order(53),
+   active(true)
+);

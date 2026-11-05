@@ -1,0 +1,6 @@
+Message rule_preview_discarded_message__v (
+   label(),
+   active(true),
+   default_value('Your request cannot be processed. At {0}, {1} discarded your preview results due to a conflict with one or more Territories that were included in this Preview.'),
+   system_managed(false)
+);

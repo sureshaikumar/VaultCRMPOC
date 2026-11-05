@@ -1,0 +1,9 @@
+RECREATE Picklist site_related_content__v (
+   label('Related Content'),
+   active(true),
+   Picklistentry(@Picklistentry/disabled__v.mdl),
+   Picklistentry(@Picklistentry/right__v.mdl),
+   Picklistentry(@Picklistentry/bottom__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry tf__v (
+   value('French Southern Territories'),
+   order(79),
+   active(true)
+);

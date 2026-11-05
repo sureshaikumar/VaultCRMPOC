@@ -1,0 +1,18 @@
+Field usage_level__sys (
+   label('Usage Level'),
+   type('Picklist'),
+   active(false),
+   description('Classifies users based on login frequency and active time within the Vault.'),
+   required(false),
+   unique(false),
+   help_content('Classifies the user based on login frequency and active time within the Vault.'),
+   list_column(false),
+   order(166),
+   multi_value(false),
+   picklist('Picklist.user_usage_level__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(false),
+   control_binding()
+);

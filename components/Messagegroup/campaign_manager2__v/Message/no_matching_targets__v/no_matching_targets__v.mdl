@@ -1,0 +1,6 @@
+Message no_matching_targets__v (
+   label(),
+   active(true),
+   default_value('No Matching Targets'),
+   system_managed(false)
+);

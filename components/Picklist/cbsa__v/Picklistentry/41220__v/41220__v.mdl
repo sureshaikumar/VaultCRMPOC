@@ -1,0 +1,5 @@
+Picklistentry 41220__v (
+   value('St. Marys, GA Micropolitan Statistical Area'),
+   order(288),
+   active(true)
+);

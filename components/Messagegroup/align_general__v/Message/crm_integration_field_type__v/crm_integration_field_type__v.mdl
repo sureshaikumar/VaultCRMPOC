@@ -1,0 +1,6 @@
+Message crm_integration_field_type__v (
+   label(),
+   active(true),
+   default_value('CRM Field Type'),
+   system_managed(false)
+);

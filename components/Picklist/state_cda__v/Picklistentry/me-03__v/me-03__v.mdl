@@ -1,0 +1,6 @@
+Picklistentry me-03__v (
+   value('Berane'),
+   order(2909),
+   active(true),
+   controlling_entries('me__v')
+);

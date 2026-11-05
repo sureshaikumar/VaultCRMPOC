@@ -1,0 +1,6 @@
+Message msging_busines_acc_not_created_try_later__v (
+   label(),
+   active(true),
+   default_value('Messaging Business Account could not be created. Try again later.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry zoom_meeting_invite_template__v (
+   value('Zoom Meeting Invite Template'),
+   order(10),
+   active(true)
+);

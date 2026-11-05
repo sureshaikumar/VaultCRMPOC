@@ -1,0 +1,18 @@
+Field disable_actions__v (
+   label('Disable Actions'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Disable these actions: Swipe between slides. Pinch to Exit media. Zoom in/out of slide. Rotation Lock reorients slide. History Buttons return to previous slide. Navigation Bar opens a selector.'),
+   list_column(false),
+   order(15),
+   multi_value(true),
+   picklist('Picklist.key_message_disable_actions__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

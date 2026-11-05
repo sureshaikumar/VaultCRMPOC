@@ -1,0 +1,6 @@
+Picklistentry si-175__v (
+   value('Prevalje'),
+   order(4148),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Message cycle_plan_utilization__v (
+   label(),
+   active(true),
+   default_value('Utilization for {0}'),
+   system_managed(false)
+);

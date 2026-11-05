@@ -1,0 +1,19 @@
+Field expense_attendee_type__v (
+   label('Expense Attendee Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates the type of attendee. The values of this picklist should match the values available in the third-party expense system, such as Concur.'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.event_attendee_expense_attendee_type__v'),
+   default_value('{busguest__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

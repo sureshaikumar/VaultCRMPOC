@@ -1,0 +1,11 @@
+RECREATE Pagelink account_plan_view_pagelink__v (
+   label('Account Plan View'),
+   description('Redirects viewing Account Plans to the Account Plan App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/view/{{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.account_plan__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.account_plan_page__v')
+);

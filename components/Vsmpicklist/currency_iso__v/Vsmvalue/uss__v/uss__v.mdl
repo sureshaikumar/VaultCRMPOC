@@ -1,0 +1,9 @@
+Vsmvalue uss__v (
+   label('USS'),
+   active(true),
+   description('Applies when transactions use the US Dollar Same Day funds code, representing USD settlements processed on the same business day.'),
+   synonyms('US dollar same day',
+         'USD same day funds'),
+   target('uss__sys'),
+   target_label('USS')
+);

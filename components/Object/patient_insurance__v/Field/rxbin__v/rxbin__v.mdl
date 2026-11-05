@@ -1,0 +1,19 @@
+Field rxbin__v (
+   label('RxBin'),
+   type('String'),
+   active(true),
+   description('Bank Identification Number, identifies the overall insurance company or the Pharmacy Benefit Manager (PBM).'),
+   required(false),
+   unique(false),
+   max_length(6),
+   help_content(),
+   list_column(true),
+   order(20),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

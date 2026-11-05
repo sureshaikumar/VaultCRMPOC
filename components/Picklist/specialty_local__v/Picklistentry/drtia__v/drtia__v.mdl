@@ -1,0 +1,6 @@
+Picklistentry drtia__v (
+   value('Diagnostic Radiology (Tele)'),
+   order(438),
+   active(true),
+   controlling_entries('qa__v')
+);

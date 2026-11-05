@@ -1,0 +1,6 @@
+Message system_error_when_save__v (
+   label(),
+   active(true),
+   default_value('A system error was encountered attempting to save: ${error_message}'),
+   system_managed(false)
+);

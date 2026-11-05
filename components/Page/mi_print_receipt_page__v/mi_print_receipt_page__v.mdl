@@ -1,0 +1,14 @@
+RECREATE Page mi_print_receipt_page__v (
+   label('MI Print Receipt'),
+   active(true),
+   client_distribution(),
+   default_client_code('mi_print_receipt_page__v'),
+   description('The app page is used to display the Medical Inquiry receipt in the browser.'),
+   disable_chrome(true),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.medicalinquiry.controls.page.MedicalInquiryPrintReceiptPageController'),
+   url_path_name('mi-print-receipt-page')
+);

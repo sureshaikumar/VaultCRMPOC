@@ -1,0 +1,6 @@
+Message activate_now_disabled_tooltip__v (
+   label(),
+   active(true),
+   default_value('Not available if Field Review is enabled'),
+   system_managed(false)
+);

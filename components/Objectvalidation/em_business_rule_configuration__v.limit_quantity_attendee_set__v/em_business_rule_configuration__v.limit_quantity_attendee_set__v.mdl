@@ -1,0 +1,14 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.limit_quantity_attendee_set__v (
+   label('Cannot add Limit Quantity'),
+   active(true),
+   expression('
+        Case(event_business_rule_type__vr.api_name__v,
+            "em_cross_event_per_attendee_attendanc__v", true,
+            "em_cross_event_meal_opt_in_attendance__v", true,
+            "em_per_event_attendance_limit_rule__v", true,
+            false
+        ) = false || IsBlank(limit_quantity__v)'),
+   description('limit_quantity__v added to Event Business Rule.'),
+   error_message('Cannot add Limit Quantity for this rule.'),
+   error_location('limit_quantity__v')
+);

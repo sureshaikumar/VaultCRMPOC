@@ -1,0 +1,5 @@
+Picklistentry asia_oral__sys (
+   value('(GMT+05:00) Oral Time (Asia/Oral)'),
+   order(223),
+   active(true)
+);

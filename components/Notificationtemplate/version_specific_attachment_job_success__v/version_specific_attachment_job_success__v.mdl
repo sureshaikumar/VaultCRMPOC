@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate version_specific_attachment_job_success__v (
+   label('versionSpecificAttachmentJobSuccess'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Assigning attachments to documents completed'),
+   notification('<p>All existing attachments successfully assigned to documents or document versions.</p>'),
+   email_body('<p>Vault has completed assigning attachments to document versions.</p>
+<br/>
+<p>Kind Regards,<br/>Veeva Vault</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

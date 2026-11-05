@@ -1,0 +1,6 @@
+Picklistentry ug-218__v (
+   value('Bududa'),
+   order(4686),
+   active(true),
+   controlling_entries('ug__v')
+);

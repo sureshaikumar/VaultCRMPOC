@@ -1,0 +1,6 @@
+Picklistentry si-012__v (
+   value('Cerklje na Gorenjskem'),
+   order(3986),
+   active(true),
+   controlling_entries('si__v')
+);

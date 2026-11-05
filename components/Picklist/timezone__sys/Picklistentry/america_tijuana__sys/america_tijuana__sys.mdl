@@ -1,0 +1,5 @@
+Picklistentry america_tijuana__sys (
+   value('(GMT-08:00) Pacific Standard Time (America/Tijuana)'),
+   order(15),
+   active(true)
+);

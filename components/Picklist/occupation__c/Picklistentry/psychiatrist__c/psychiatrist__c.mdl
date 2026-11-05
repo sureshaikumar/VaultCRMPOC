@@ -1,0 +1,5 @@
+Picklistentry psychiatrist__c (
+   value('Psychiatrist'),
+   order(7),
+   active(true)
+);

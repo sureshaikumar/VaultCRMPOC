@@ -1,0 +1,6 @@
+Message last_completed__v (
+   label(),
+   active(true),
+   default_value('Last Completed'),
+   system_managed(false)
+);

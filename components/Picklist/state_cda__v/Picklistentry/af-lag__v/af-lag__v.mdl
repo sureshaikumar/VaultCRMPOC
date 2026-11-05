@@ -1,0 +1,6 @@
+Picklistentry af-lag__v (
+   value('Laghmān'),
+   order(33),
+   active(true),
+   controlling_entries('af__v')
+);

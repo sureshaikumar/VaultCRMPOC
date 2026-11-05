@@ -1,0 +1,5 @@
+Picklistentry fj__v (
+   value('Fiji'),
+   order(74),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry wechat_content__v (
+   value('WeChat Content'),
+   order(4),
+   active(false)
+);

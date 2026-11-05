@@ -1,0 +1,6 @@
+Message next_error__v (
+   label(),
+   active(true),
+   default_value('Next error'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield document_type_label__sys (
+   source('standard'),
+   required(false)
+);

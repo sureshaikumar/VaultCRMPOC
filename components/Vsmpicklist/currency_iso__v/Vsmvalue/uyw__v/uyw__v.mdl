@@ -1,0 +1,9 @@
+Vsmvalue uyw__v (
+   label('UYW'),
+   active(true),
+   description('Applies when transactions reference the Unidad Previsional, Uruguay''s nominal wage index unit used for pension and social security calculations.'),
+   synonyms('Uruguayan nominal wage index unit',
+         'Uruguay wage unit'),
+   target('uyw__sys'),
+   target_label('UYW')
+);

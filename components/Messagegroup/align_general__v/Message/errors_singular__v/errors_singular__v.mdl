@@ -1,0 +1,6 @@
+Message errors_singular__v (
+   label(),
+   active(true),
+   default_value('${count} Error'),
+   system_managed(false)
+);

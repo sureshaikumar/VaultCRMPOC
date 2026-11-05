@@ -1,0 +1,19 @@
+Field ship_zip_4__v (
+   label('Ship Zip 4'),
+   type('String'),
+   active(true),
+   description('The Ship Zip 4 field stores the Zip Code 4 of the Ship to Address for a BRC Sample. This field should not be displayed on the Page Layout.'),
+   required(false),
+   unique(false),
+   max_length(4),
+   help_content(),
+   list_column(false),
+   order(128),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

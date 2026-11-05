@@ -1,0 +1,5 @@
+Picklistentry pacific_kiritimati__v (
+   value('Line Islands Time'),
+   order(0),
+   active(true)
+);

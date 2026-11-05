@@ -1,0 +1,6 @@
+Picklistentry om-bs__v (
+   value('Shamāl al Bāţinah'),
+   order(3444),
+   active(true),
+   controlling_entries('om__v')
+);

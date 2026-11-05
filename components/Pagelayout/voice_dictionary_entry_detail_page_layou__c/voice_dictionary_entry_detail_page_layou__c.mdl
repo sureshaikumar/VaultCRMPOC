@@ -1,0 +1,8 @@
+RECREATE Pagelayout voice_dictionary_entry_detail_page_layou__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Voice Dictionary Entry Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

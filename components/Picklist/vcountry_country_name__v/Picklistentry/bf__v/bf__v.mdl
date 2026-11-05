@@ -1,0 +1,5 @@
+Picklistentry bf__v (
+   value('Burkina Faso'),
+   order(20),
+   active(true)
+);

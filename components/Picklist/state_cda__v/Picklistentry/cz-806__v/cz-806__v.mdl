@@ -1,0 +1,6 @@
+Picklistentry cz-806__v (
+   value('Ostrava-město'),
+   order(902),
+   active(true),
+   controlling_entries('cz__v')
+);

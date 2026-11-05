@@ -1,0 +1,3 @@
+Typeaction reject__v (
+   action('em_event__v.reject__v')
+);

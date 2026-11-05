@@ -1,0 +1,8 @@
+RECREATE Pagelayout account_external_id_map_detail_page_layo__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Account External ID Map Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

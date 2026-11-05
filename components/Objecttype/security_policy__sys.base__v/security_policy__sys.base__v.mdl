@@ -1,0 +1,23 @@
+RECREATE Objecttype security_policy__sys.base__v (
+   label('Base Security Policy'),
+   label_plural('Base Security Policies'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/allow_login_via_salesforce__sys.mdl),
+   Typefield(@Typefield/authentication_type__sys.mdl),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/description__sys.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/policy_key__sys.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

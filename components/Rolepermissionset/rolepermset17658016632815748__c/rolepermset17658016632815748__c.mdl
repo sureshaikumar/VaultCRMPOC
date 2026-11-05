@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17658016632815748__c (
+   label('Sales Rep'),
+   active(true),
+   application_role('sales_rep__c'),
+   permission_sets('Permissionset.test_permission__c')
+);

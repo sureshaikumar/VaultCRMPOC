@@ -1,0 +1,6 @@
+Picklistentry usdot__v (
+   value('Urology (Surgical Diseases of the Urinary Tract)'),
+   order(1903),
+   active(true),
+   controlling_entries('dk__v')
+);

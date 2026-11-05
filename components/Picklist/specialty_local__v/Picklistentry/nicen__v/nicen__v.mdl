@@ -1,0 +1,7 @@
+Picklistentry nicen__v (
+   value('Neonatal Intensive Care'),
+   order(990),
+   active(true),
+   controlling_entries('cy__v',
+         'sa__v')
+);

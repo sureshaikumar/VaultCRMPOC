@@ -1,0 +1,9 @@
+Vsmvalue brl__v (
+   label('BRL'),
+   active(true),
+   description('The Brazilian Real (BRL), the official currency of Brazil and one of the most traded currencies in Latin America.'),
+   synonyms('Brazilian real',
+         'Brazil currency'),
+   target('brl__sys'),
+   target_label('BRL')
+);

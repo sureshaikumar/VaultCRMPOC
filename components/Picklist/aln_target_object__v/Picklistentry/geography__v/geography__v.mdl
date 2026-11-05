@@ -1,0 +1,5 @@
+Picklistentry geography__v (
+   value('Geography'),
+   order(1),
+   active(true)
+);

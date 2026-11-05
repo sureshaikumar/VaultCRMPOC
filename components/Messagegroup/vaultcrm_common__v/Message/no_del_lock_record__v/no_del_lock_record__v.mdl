@@ -1,0 +1,6 @@
+Message no_del_lock_record__v (
+   label(),
+   active(true),
+   default_value('You cannot update or delete a locked ${objectName} record or any of the related data.'),
+   system_managed(false)
+);

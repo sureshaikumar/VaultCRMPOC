@@ -1,0 +1,19 @@
+Field applicable_fields__v (
+   label('Applicable Fields'),
+   type('String'),
+   active(true),
+   description('A semi-colon delimited list of API names for fields to which this rule applies using dot notation for the object and field name (ex: call2__v.call_notes__v; call2_discussion__v.objections__c).'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Include a semi-colon delimited list of API names for fields to which this rule applies using dot notation for the object and field name (ex: call2__v.call_notes__v; call2_discussion__v.objections__c).'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

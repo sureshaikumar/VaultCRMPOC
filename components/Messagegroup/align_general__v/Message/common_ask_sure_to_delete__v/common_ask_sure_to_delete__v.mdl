@@ -1,0 +1,6 @@
+Message common_ask_sure_to_delete__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to delete {0}?'),
+   system_managed(false)
+);

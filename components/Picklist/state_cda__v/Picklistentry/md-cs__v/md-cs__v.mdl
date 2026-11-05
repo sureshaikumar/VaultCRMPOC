@@ -1,0 +1,6 @@
+Picklistentry md-cs__v (
+   value('Căuşeni'),
+   order(2879),
+   active(true),
+   controlling_entries('md__v')
+);

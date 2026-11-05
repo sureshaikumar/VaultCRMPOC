@@ -1,0 +1,6 @@
+Message no_data_exported__v (
+   label(),
+   active(true),
+   default_value('No data exported'),
+   system_managed(false)
+);

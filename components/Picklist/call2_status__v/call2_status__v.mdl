@@ -1,0 +1,9 @@
+RECREATE Picklist call2_status__v (
+   label('Call Status'),
+   active(true),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   Picklistentry(@Picklistentry/planned__v.mdl),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

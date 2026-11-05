@@ -1,0 +1,6 @@
+Message no_delete_cycle_plan__v (
+   label(),
+   active(true),
+   default_value('You may not delete a locked Cycle Plan.'),
+   system_managed(false)
+);

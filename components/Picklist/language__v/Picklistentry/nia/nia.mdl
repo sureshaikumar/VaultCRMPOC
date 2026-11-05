@@ -1,0 +1,5 @@
+Picklistentry nia (
+   value('Nias'),
+   order(267),
+   active(true)
+);

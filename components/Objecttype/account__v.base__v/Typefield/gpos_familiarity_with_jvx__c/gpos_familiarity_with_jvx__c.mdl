@@ -1,0 +1,4 @@
+Typefield gpos_familiarity_with_jvx__c (
+   source('standard'),
+   required(false)
+);

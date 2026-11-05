@@ -1,0 +1,24 @@
+RECREATE Notificationtemplate assignment_rules_failure__v (
+   label('Assignment Rules Failure'),
+   active(true),
+   description('Notifies the operational user when assignment rule execution is aborted before any assignment changes were committed.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.assignment_rule__v'),
+   subject('Assignment Rules Failure for "${Custom.territory_name}"'),
+   notification('
+    Execution of assignment rules for "${Custom.territory_name}" was unable to complete due to the following error(s):
+    ${Custom.failure_text}
+    
+    Rule execution was aborted, and no assignment changes were made.<br/><br/>
+
+    Try again, or contact your administrator.'),
+   email_body('
+    Execution of assignment rules for "${Custom.territory_name}" was unable to complete due to the following error(s):
+    ${Custom.failure_text}
+
+    Rule execution was aborted, and no assignment changes were made.<br/><br/>
+    
+    Try again, or contact your administrator.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

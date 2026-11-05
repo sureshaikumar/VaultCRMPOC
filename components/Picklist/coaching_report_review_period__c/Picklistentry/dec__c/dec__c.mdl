@@ -1,0 +1,5 @@
+Picklistentry dec__c (
+   value('Dec'),
+   order(16),
+   active(true)
+);

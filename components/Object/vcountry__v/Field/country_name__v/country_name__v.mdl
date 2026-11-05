@@ -1,0 +1,19 @@
+Field country_name__v (
+   label('Country Name'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Translatable country name.
+Includes all values in the ISO standard. http://en.wikipedia.org/wiki/ISO_3166-1'),
+   list_column(true),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.vcountry_country_name__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

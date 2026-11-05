@@ -1,0 +1,19 @@
+Field expense_header_expense_type_code__v (
+   label('Expense Header Expense Type Code'),
+   type('String'),
+   active(true),
+   description('Stores the default Expense Type Code to be used when creating an expense entry in Concur. Based on Expense Key value.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry banmi__v (
+   value('Biophysics and Nuclear Medicine'),
+   order(127),
+   active(true),
+   controlling_entries('tn__v')
+);

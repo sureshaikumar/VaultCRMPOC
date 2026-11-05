@@ -1,0 +1,6 @@
+Picklistentry pmxge__v (
+   value('Pediatric Medical Genetics'),
+   order(1406),
+   active(true),
+   controlling_entries('tr__v')
+);

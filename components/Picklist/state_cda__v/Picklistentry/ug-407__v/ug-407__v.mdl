@@ -1,0 +1,6 @@
+Picklistentry ug-407__v (
+   value('Kibaale'),
+   order(4749),
+   active(true),
+   controlling_entries('ug__v')
+);

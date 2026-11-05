@@ -1,0 +1,18 @@
+Field acknowledged__v (
+   label('Acknowledged'),
+   type('Boolean'),
+   active(true),
+   description('Used only for certain Account Lists. Used by the end-user to ''check'' an account off the list.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

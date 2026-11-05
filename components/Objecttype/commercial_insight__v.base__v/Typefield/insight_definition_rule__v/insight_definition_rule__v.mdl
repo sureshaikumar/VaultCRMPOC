@@ -1,0 +1,4 @@
+Typefield insight_definition_rule__v (
+   source('standard'),
+   required(false)
+);

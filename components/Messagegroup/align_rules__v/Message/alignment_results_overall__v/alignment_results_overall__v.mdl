@@ -1,0 +1,6 @@
+Message alignment_results_overall__v (
+   label(),
+   active(true),
+   default_value('Overall Total'),
+   system_managed(false)
+);

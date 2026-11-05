@@ -1,0 +1,22 @@
+Field required_number_of_hcp_targets__v (
+   label('Required number of HCP targets'),
+   type('Number'),
+   active(true),
+   description('Enforces a specific number of targets within the plan'),
+   required(false),
+   unique(false),
+   max_value(9999),
+   min_value(1),
+   scale(0),
+   help_content('Enforces a specific number of targets within the plan'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

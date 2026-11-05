@@ -1,0 +1,6 @@
+Message territory_exceeds_max_assignment__v (
+   label(),
+   active(true),
+   default_value('Number of Accounts {0} assigned to Territory Model Id {1} exceeds maximum {2}.'),
+   system_managed(false)
+);

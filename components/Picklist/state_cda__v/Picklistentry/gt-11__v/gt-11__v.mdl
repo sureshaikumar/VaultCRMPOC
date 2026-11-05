@@ -1,0 +1,6 @@
+Picklistentry gt-11__v (
+   value('Retalhuleu'),
+   order(1790),
+   active(true),
+   controlling_entries('gt__v')
+);

@@ -1,0 +1,19 @@
+Field account_status_field__v (
+   label('Account Status Field'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Specifies which field on the Account represents its status. If blank, then the customer_master_status__v field is used.'),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

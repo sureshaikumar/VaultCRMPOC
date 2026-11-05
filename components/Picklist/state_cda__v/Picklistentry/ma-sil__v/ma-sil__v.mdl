@@ -1,0 +1,6 @@
+Picklistentry ma-sil__v (
+   value('Sidi Slimane'),
+   order(2838),
+   active(true),
+   controlling_entries('ma__v')
+);

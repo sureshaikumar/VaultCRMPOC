@@ -1,0 +1,8 @@
+Objectworkflowstep change_to_approved_state__sys (
+   label('Change to Approved State'),
+   type('changestate'),
+   next_steps('Objectworkflowstep.end__sys'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

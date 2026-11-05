@@ -1,0 +1,6 @@
+Picklistentry us-ak__v (
+   value('Alaska'),
+   order(4791),
+   active(true),
+   controlling_entries('us__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry meeting_started_with_speakers_only__v (
+   value('Meeting Started With Speakers Only'),
+   order(5),
+   active(true)
+);

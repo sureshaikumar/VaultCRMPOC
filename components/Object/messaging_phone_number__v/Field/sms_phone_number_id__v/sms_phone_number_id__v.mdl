@@ -1,0 +1,19 @@
+Field sms_phone_number_id__v (
+   label('SMS Phone Number ID'),
+   type('String'),
+   active(true),
+   description('The unique identifier assigned by the SMS Business Account to the SMS phone number.'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

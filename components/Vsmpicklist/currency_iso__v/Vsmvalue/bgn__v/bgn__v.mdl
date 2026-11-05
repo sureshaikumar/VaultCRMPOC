@@ -1,0 +1,9 @@
+Vsmvalue bgn__v (
+   label('BGN'),
+   active(true),
+   description('The Bulgarian Lev (BGN), the official currency of Bulgaria, pegged to the Euro and used for all domestic transactions.'),
+   synonyms('Bulgarian lev',
+         'Bulgaria currency'),
+   target('bgn__sys'),
+   target_label('BGN')
+);

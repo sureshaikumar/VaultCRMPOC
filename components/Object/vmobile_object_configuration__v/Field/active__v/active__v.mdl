@@ -1,0 +1,18 @@
+Field active__v (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description('This field determines if the row is used when calculating the a user tablet configuration.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

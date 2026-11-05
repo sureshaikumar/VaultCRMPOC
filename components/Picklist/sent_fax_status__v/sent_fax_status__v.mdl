@@ -1,0 +1,10 @@
+RECREATE Picklist sent_fax_status__v (
+   label('Sent Fax Status'),
+   active(true),
+   Picklistentry(@Picklistentry/queued_for_sending__v.mdl),
+   Picklistentry(@Picklistentry/sent__v.mdl),
+   Picklistentry(@Picklistentry/delivered__v.mdl),
+   Picklistentry(@Picklistentry/failed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry on_formulary__c (
+   value('On Formulary'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field engage_provisioning_status__v (
+   label('Engage Provisioning Status'),
+   type('Picklist'),
+   active(true),
+   description('This field describes whether a participant URL was generated for this record.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.em_event_spea_engage_provisioning_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

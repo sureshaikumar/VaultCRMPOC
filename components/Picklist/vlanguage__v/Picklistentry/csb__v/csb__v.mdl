@@ -1,0 +1,5 @@
+Picklistentry csb__v (
+   value('Kashubian'),
+   order(163),
+   active(false)
+);

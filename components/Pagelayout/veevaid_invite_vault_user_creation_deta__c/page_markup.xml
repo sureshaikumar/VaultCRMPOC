@@ -1,0 +1,21 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.veevaid_invite_vault_user_creation__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="application_registration_id__sys" />
+            <vault:field reference="system_registration_id__sys" />
+            <vault:field reference="status__v" />
+            <vault:field reference="initiating_user__sys" />
+            <vault:field reference="registrant_user__sys" />
+            <vault:field reference="registrant_email__sys" />
+            <vault:field reference="security_profile__sys" />
+            <vault:field reference="license_type__sys" />
+            <vault:field reference="vault_user_creation__sys" />
+            <vault:field reference="failure_reason__sys" />
+            <vault:field reference="bounce_support__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

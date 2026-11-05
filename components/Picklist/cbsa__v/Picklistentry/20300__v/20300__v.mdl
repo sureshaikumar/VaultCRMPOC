@@ -1,0 +1,5 @@
+Picklistentry 20300__v (
+   value('Dumas, TX Micropolitan Statistical Area'),
+   order(513),
+   active(true)
+);

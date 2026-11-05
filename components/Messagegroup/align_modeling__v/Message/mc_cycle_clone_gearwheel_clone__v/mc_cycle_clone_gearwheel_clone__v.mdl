@@ -1,0 +1,6 @@
+Message mc_cycle_clone_gearwheel_clone__v (
+   label(),
+   active(true),
+   default_value('Clone an existing MC Cycle'),
+   system_managed(false)
+);

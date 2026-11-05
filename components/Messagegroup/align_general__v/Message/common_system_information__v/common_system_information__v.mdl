@@ -1,0 +1,6 @@
+Message common_system_information__v (
+   label(),
+   active(true),
+   default_value('System Information'),
+   system_managed(false)
+);

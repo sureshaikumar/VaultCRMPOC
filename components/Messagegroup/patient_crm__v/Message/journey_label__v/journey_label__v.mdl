@@ -1,0 +1,6 @@
+Message journey_label__v (
+   label(),
+   active(true),
+   default_value('Journey'),
+   system_managed(false)
+);

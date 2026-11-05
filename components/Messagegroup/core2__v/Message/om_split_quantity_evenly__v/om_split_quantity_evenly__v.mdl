@@ -1,0 +1,6 @@
+Message om_split_quantity_evenly__v (
+   label(),
+   active(true),
+   default_value('Split Quantity Evenly'),
+   system_managed(false)
+);

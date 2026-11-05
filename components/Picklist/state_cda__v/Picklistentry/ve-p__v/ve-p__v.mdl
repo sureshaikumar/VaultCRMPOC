@@ -1,0 +1,6 @@
+Picklistentry ve-p__v (
+   value('Portuguesa'),
+   order(4902),
+   active(true),
+   controlling_entries('ve__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist clm_order_navigation_mode__v (
+   label('CLM Order Navigation Mode'),
+   active(true),
+   Picklistentry(@Picklistentry/menu_navigation__v.mdl),
+   Picklistentry(@Picklistentry/one_tap_navigation__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

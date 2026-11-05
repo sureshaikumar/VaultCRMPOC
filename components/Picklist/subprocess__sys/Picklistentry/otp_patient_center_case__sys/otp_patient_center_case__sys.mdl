@@ -1,0 +1,6 @@
+Picklistentry otp_patient_center_case__sys (
+   value('Patient Center Case'),
+   order(115),
+   active(true),
+   controlling_entries('olc_case__sys')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate assignment_rules_success__v (
+   label('Assignment Rules Success'),
+   active(true),
+   description('Notifies the operational user when assignment rule execution is completed successfully.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.assignment_rule__v'),
+   subject('Assignment Rules Complete for "${Custom.territory_name}"'),
+   notification('Execution of assignment rules for "${Custom.territory_name}" has completed.'),
+   email_body('Execution of assignment rules for "${Custom.territory_name}" has completed.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

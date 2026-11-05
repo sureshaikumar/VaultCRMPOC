@@ -1,0 +1,6 @@
+Message add_key_message_modal__v (
+   label(),
+   active(true),
+   default_value('Add ${product_group} Key Message'),
+   system_managed(false)
+);

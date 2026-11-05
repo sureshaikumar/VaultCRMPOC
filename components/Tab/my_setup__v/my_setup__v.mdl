@@ -1,0 +1,12 @@
+RECREATE Tab my_setup__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('My Setup'),
+   modal_create_record(false),
+   order(1000),
+   page('Page.my_setup_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

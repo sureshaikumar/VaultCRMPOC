@@ -1,0 +1,5 @@
+Picklistentry ng__v (
+   value('Nigeria'),
+   order(164),
+   active(true)
+);

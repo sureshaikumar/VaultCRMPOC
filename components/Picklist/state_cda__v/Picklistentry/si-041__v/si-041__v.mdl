@@ -1,0 +1,6 @@
+Picklistentry si-041__v (
+   value('Jesenice'),
+   order(4015),
+   active(true),
+   controlling_entries('si__v')
+);

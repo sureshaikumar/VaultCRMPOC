@@ -1,0 +1,6 @@
+Message download_log__v (
+   label(),
+   active(true),
+   default_value('Please download log for details.'),
+   system_managed(false)
+);

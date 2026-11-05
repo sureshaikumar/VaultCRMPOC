@@ -1,0 +1,17 @@
+Field trigger_timestamp__v (
+   label('Trigger Timestamp'),
+   type('DateTime'),
+   active(true),
+   description('This field is used by triggers to update the modified_date__v of the Monitoring Rule record.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message change_to_clm_vector_scope__v (
+   label(),
+   active(true),
+   default_value('You are changing the scope included in the Vector Database Sync. Remember to Refresh the CLM Presentations in the AI Configurations admin console once changes are finalized.'),
+   system_managed(false)
+);

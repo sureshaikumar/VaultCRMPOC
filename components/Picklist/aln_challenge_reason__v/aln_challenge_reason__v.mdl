@@ -1,0 +1,21 @@
+RECREATE Picklist aln_challenge_reason__v (
+   label('Challenge Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/bad_data__c.mdl),
+   Picklistentry(@Picklistentry/distance__c.mdl),
+   Picklistentry(@Picklistentry/good_access__c.mdl),
+   Picklistentry(@Picklistentry/poor_access__c.mdl),
+   Picklistentry(@Picklistentry/high_priority__c.mdl),
+   Picklistentry(@Picklistentry/low_priority__c.mdl),
+   Picklistentry(@Picklistentry/new_prospect__c.mdl),
+   Picklistentry(@Picklistentry/no_longer_at_location__c.mdl),
+   Picklistentry(@Picklistentry/on_leave__c.mdl),
+   Picklistentry(@Picklistentry/part_time__c.mdl),
+   Picklistentry(@Picklistentry/returned_from_leave__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   Picklistentry(@Picklistentry/access__c.mdl),
+   Picklistentry(@Picklistentry/no_longer_in_practice__c.mdl),
+   Picklistentry(@Picklistentry/add_account_to_territory__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

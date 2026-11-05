@@ -1,0 +1,13 @@
+Vsmfield integration__v (
+   label('Integration'),
+   active(true),
+   description('Reference to the Integration object that generated this exception message. Use this to identify which integration flow or connection is responsible for the error and to group exceptions by integration.'),
+   example_values(),
+   synonyms('integration name',
+         'source integration',
+         'connected integration'),
+   target('integration__sys'),
+   target_label('Integration'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

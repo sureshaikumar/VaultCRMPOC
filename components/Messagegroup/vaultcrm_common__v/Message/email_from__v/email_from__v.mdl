@@ -1,0 +1,6 @@
+Message email_from__v (
+   label(),
+   active(true),
+   default_value('Email from ${entity}'),
+   system_managed(false)
+);

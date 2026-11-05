@@ -1,0 +1,6 @@
+Picklistentry gb-tam__v (
+   value('Tameside'),
+   order(1638),
+   active(true),
+   controlling_entries('gb__v')
+);

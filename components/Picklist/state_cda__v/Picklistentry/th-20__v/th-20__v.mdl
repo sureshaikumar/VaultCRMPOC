@@ -1,0 +1,6 @@
+Picklistentry th-20__v (
+   value('Chon Buri'),
+   order(4338),
+   active(true),
+   controlling_entries('th__v')
+);

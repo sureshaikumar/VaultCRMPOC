@@ -1,0 +1,6 @@
+Picklistentry it-ri__v (
+   value('Rieti'),
+   order(2252),
+   active(true),
+   controlling_entries('it__v')
+);

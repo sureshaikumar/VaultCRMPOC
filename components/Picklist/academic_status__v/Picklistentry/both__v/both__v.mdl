@@ -1,0 +1,5 @@
+Picklistentry both__v (
+   value('Academic and Community'),
+   order(3),
+   active(true)
+);

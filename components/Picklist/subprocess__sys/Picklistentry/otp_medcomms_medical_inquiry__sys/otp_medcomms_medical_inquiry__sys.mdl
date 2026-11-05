@@ -1,0 +1,6 @@
+Picklistentry otp_medcomms_medical_inquiry__sys (
+   value('MedComms Medical Inquiry'),
+   order(95),
+   active(true),
+   controlling_entries('olc_medical_inquiry__sys')
+);

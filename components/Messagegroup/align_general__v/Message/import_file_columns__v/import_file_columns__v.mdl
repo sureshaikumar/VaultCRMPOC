@@ -1,0 +1,6 @@
+Message import_file_columns__v (
+   label(),
+   active(true),
+   default_value('File Columns'),
+   system_managed(false)
+);

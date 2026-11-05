@@ -1,0 +1,6 @@
+Index component_type_component_name__sys (
+   description(),
+   fields('component_type__v',
+         'component_name__v'),
+   label('Component Type and Component Name')
+);

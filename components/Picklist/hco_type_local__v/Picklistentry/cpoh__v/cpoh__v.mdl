@@ -1,0 +1,5 @@
+Picklistentry cpoh__v (
+   value('Community Pharmacy'),
+   order(34),
+   active(true)
+);

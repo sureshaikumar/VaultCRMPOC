@@ -1,0 +1,5 @@
+Picklistentry mt (
+   value('Maltese'),
+   order(59),
+   active(true)
+);

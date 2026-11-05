@@ -1,0 +1,6 @@
+Picklistentry gr-i__v (
+   value('Attikí'),
+   order(1775),
+   active(true),
+   controlling_entries('gr__v')
+);

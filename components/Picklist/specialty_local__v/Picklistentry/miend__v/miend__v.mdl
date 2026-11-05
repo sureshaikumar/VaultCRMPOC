@@ -1,0 +1,7 @@
+Picklistentry miend__v (
+   value('Medical Informatics'),
+   order(917),
+   active(true),
+   controlling_entries('cm__v',
+         'ma__v')
+);

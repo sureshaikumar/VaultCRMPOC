@@ -1,0 +1,6 @@
+Picklistentry sd-gk__v (
+   value('West Kordofan'),
+   order(3934),
+   active(true),
+   controlling_entries('sd__v')
+);

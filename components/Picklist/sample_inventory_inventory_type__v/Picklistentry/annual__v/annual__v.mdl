@@ -1,0 +1,5 @@
+Picklistentry annual__v (
+   value('Annual'),
+   order(4),
+   active(true)
+);

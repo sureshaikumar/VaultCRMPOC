@@ -1,0 +1,6 @@
+Message vault_job_details__v (
+   label(),
+   active(true),
+   default_value('Vault Job Details'),
+   system_managed(false)
+);

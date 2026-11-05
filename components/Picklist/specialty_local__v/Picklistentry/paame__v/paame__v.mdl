@@ -1,0 +1,10 @@
+Picklistentry paame__v (
+   value('Pediatrics and Adolescent Medicine'),
+   order(1473),
+   active(true),
+   controlling_entries('at__v',
+         'ch__v',
+         'de__v',
+         'li__v',
+         'se__v')
+);

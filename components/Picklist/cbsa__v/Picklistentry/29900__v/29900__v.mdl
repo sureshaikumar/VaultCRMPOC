@@ -1,0 +1,5 @@
+Picklistentry 29900__v (
+   value('Laurinburg, NC Micropolitan Statistical Area'),
+   order(407),
+   active(true)
+);

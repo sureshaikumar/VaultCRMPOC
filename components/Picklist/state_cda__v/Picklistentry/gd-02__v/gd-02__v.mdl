@@ -1,0 +1,6 @@
+Picklistentry gd-02__v (
+   value('Saint David'),
+   order(1670),
+   active(true),
+   controlling_entries('gd__v')
+);

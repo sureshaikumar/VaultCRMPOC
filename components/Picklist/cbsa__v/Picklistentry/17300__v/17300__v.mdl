@@ -1,0 +1,5 @@
+Picklistentry 17300__v (
+   value('Clarksville, TN-KY Metropolitan Statistical Area'),
+   order(25),
+   active(true)
+);

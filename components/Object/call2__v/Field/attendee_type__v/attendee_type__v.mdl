@@ -1,0 +1,18 @@
+Field attendee_type__v (
+   label('Attendee Type'),
+   type('Picklist'),
+   active(true),
+   description('The type of entity who the call is created for. This field is used in reporting. For performance reasons, this is not set by an APEX  trigger. For data import, this field should be set correctly otherwise reports that depend on this field may not run corr'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.call2_attendee_type__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry ormna__v (
+   value('Oncologic Radiotherapy Medicine'),
+   order(1112),
+   active(true),
+   controlling_entries('lb__v')
+);

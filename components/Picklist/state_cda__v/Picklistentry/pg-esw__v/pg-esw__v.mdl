@@ -1,0 +1,6 @@
+Picklistentry pg-esw__v (
+   value('East Sepik'),
+   order(3499),
+   active(true),
+   controlling_entries('pg__v')
+);

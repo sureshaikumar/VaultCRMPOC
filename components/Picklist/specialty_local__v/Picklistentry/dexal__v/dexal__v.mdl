@@ -1,0 +1,6 @@
+Picklistentry dexal__v (
+   value('Dermatology and Allergology'),
+   order(395),
+   active(true),
+   controlling_entries('fi__v')
+);

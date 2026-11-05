@@ -1,0 +1,18 @@
+Field contact_type__v (
+   label('Contact Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Contact type value is used to indicate if the case is on behalf of an Account.'),
+   list_column(true),
+   order(33),
+   multi_value(false),
+   picklist('Picklist.case_contact_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

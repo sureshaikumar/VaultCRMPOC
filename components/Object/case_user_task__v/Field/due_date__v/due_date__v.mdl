@@ -1,0 +1,17 @@
+Field due_date__v (
+   label('Due Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Date upon which the task is scheduled to be completed.'),
+   list_column(true),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

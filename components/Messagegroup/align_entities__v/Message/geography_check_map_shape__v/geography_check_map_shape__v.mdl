@@ -1,0 +1,6 @@
+Message geography_check_map_shape__v (
+   label(),
+   active(true),
+   default_value('Check Map Shape'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry bj-pl__v (
+   value('Plateau'),
+   order(433),
+   active(true),
+   controlling_entries('bj__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry gr__v (
+   value('Greece'),
+   order(86),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-160__v (
+   value('Hoče-Slivnica'),
+   order(4133),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Message care_team_added_message__v (
+   label(),
+   active(true),
+   default_value('${name} was added as ${role}'),
+   system_managed(false)
+);

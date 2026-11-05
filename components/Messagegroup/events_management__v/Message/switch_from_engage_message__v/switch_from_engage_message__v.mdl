@@ -1,0 +1,6 @@
+Message switch_from_engage_message__v (
+   label(),
+   active(true),
+   default_value('This will remove Engage and any participant join URLs from this event.'),
+   system_managed(false)
+);

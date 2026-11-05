@@ -1,0 +1,5 @@
+Picklistentry hmo__v (
+   value('HMO - Health Maintenance Organization'),
+   order(0),
+   active(true)
+);

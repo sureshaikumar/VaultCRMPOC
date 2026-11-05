@@ -1,0 +1,4 @@
+Typefield analytics_report__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field virtual_role__v (
+   label('Virtual Role'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Field to define a Team Member''s Role in a virtual event.'),
+   list_column(false),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.em_event_team_member_virtual_role__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

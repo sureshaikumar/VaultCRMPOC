@@ -1,0 +1,9 @@
+RECREATE Picklist aln_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/managed_healthcare_services__v.mdl),
+   Picklistentry(@Picklistentry/medical__v.mdl),
+   Picklistentry(@Picklistentry/sales__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

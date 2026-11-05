@@ -1,0 +1,9 @@
+Vsmvalue cop__v (
+   label('COP'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Colombia.'),
+   synonyms('Colombian Peso',
+         'Colombia Peso'),
+   target('cop__sys'),
+   target_label('COP')
+);

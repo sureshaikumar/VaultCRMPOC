@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vmc_model_training_complete__sys (
+   label('Model Training VMC Action Complete'),
+   active(true),
+   description('Notification template notifying user that model training triggered by VMC action has completed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('VMC Model Training Complete'),
+   notification('Your Model Training for Model Tag ${Custom.modelTag} has completed.<br>Details:<br><p>Review the results <a href="${Custom.resultsFileUrl}">here</a></p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

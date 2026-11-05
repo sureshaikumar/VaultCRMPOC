@@ -1,0 +1,5 @@
+Picklistentry ocpl__v (
+   value('Optical Clinic'),
+   order(176),
+   active(true)
+);

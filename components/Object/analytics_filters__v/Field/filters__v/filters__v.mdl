@@ -1,0 +1,17 @@
+Field filters__v (
+   label('Filters'),
+   type('LongText'),
+   active(true),
+   description('Define a delimited list of Filter and Filter Values'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

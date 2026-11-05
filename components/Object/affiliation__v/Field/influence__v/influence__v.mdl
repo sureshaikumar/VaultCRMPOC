@@ -1,0 +1,19 @@
+Field influence__v (
+   label('Influence'),
+   type('Picklist'),
+   active(true),
+   description('Influence that the source of the affiliation has on the target.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.affiliation_influence__v'),
+   default_value('{no_influence__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

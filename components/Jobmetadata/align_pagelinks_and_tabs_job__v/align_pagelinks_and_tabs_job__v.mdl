@@ -1,0 +1,12 @@
+RECREATE Jobmetadata align_pagelinks_and_tabs_job__v (
+   label('Align Pagelinks and Tabs Updates'),
+   active(true),
+   chunk_size(1),
+   description('Job to update Align pagelinks and Tabs to ensure they are pointed to the correct resources'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.align.jobs.AlignPagelinksAndTabsJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

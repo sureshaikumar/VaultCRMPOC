@@ -1,0 +1,23 @@
+Field photo_quality__v (
+   label('Photo Quality'),
+   type('Number'),
+   active(true),
+   description('Determines the quality of photos uploaded from offline platforms. A value of "0" indicates that this feature is disabled. Please see the documentation for more details.'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(243),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

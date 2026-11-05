@@ -1,0 +1,6 @@
+Picklistentry ph-lun__v (
+   value('La Union'),
+   order(3576),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,6 @@
+Message targets_not_added__v (
+   label(),
+   active(true),
+   default_value('Targets not Added'),
+   system_managed(false)
+);

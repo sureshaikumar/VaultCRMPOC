@@ -1,0 +1,6 @@
+Picklistentry ma-09__v (
+   value('Souss-Massa'),
+   order(2774),
+   active(true),
+   controlling_entries('ma__v')
+);

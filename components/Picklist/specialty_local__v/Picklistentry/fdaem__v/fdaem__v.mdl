@@ -1,0 +1,8 @@
+Picklistentry fdaem__v (
+   value('Family Dentistry'),
+   order(532),
+   active(true),
+   controlling_entries('ng__v',
+         'sa__v',
+         'tw__v')
+);

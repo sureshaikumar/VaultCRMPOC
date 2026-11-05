@@ -1,0 +1,5 @@
+Picklistentry distributor_comment__v (
+   value('Distributor_Comment_vod__c'),
+   order(235),
+   active(true)
+);

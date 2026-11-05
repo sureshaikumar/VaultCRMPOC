@@ -1,0 +1,19 @@
+Field email_source__v (
+   label('Email Source'),
+   type('String'),
+   active(true),
+   description('Stores the object and field API names of the email.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

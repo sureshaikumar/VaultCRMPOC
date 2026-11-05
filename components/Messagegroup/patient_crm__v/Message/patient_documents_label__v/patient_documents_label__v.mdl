@@ -1,0 +1,6 @@
+Message patient_documents_label__v (
+   label(),
+   active(true),
+   default_value('Patient Documents'),
+   system_managed(false)
+);

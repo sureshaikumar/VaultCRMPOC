@@ -1,0 +1,5 @@
+Picklistentry sh__v (
+   value('SH'),
+   order(199),
+   active(true)
+);

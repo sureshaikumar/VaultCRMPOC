@@ -1,0 +1,18 @@
+Field active__v (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description('This field has been deprecated and is no longer in use'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

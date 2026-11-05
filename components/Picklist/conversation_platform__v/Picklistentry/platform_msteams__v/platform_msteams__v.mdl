@@ -1,0 +1,5 @@
+Picklistentry platform_msteams__v (
+   value('MS Teams'),
+   order(4),
+   active(true)
+);

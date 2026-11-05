@@ -1,0 +1,6 @@
+Message use_case_notes_to_document_case_info__v (
+   label(),
+   active(true),
+   default_value('Use case notes to document relevant case information.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry dcr_editable_required__v (
+   value('DCR Editable Required'),
+   order(5),
+   active(true)
+);

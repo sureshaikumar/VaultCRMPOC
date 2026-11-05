@@ -1,0 +1,6 @@
+Picklistentry idime__v (
+   value('Intellectual Disability Medicine'),
+   order(765),
+   active(true),
+   controlling_entries('nl__v')
+);

@@ -1,0 +1,6 @@
+Message create_all_products__v (
+   label(),
+   active(true),
+   default_value('Create ${product_specialty} records for all products'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry product_quality_complaint_pqc__c (
+   value('Product quality Complaint (PQC)'),
+   order(1),
+   active(true)
+);

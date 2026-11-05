@@ -1,0 +1,19 @@
+Field ending_status__v (
+   label('Ending Status'),
+   type('String'),
+   active(true),
+   description('Indicates the resulting status the event is changed to after the action is complete.'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

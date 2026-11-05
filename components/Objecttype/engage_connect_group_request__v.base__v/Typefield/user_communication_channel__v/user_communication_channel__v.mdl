@@ -1,0 +1,4 @@
+Typefield user_communication_channel__v (
+   source('standard'),
+   required(false)
+);

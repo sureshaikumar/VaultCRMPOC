@@ -1,0 +1,6 @@
+Message crm_int_missing_rm_country__v (
+   label(),
+   active(true),
+   default_value('The (${country__v}) value from Align''s aln_country__v was not found in CRM''s vcountry__v. Either remove the Roster Member''s aln_country__v value in Align, or add a matching vcountry__v value to CRM.'),
+   system_managed(false)
+);

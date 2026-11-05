@@ -1,0 +1,6 @@
+Picklistentry bf-mou__v (
+   value('Mouhoun'),
+   order(351),
+   active(true),
+   controlling_entries('bf__v')
+);

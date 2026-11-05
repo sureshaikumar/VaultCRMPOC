@@ -1,0 +1,6 @@
+Picklistentry amlel__v (
+   value('Allergy Medicine'),
+   order(48),
+   active(true),
+   controlling_entries('is__v')
+);

@@ -1,0 +1,19 @@
+Field text_monitoring_check__v (
+   label('Text Monitoring Check'),
+   type('Picklist'),
+   active(true),
+   description('When On Save and Submit, the agent will only analyze on save/submit/send. When In Edit, the agent will analyze every time the user removes focus from the field after editing.'),
+   required(true),
+   unique(false),
+   help_content('Choose an option for when the Text Monitoring Agent checks the end user''s text'),
+   list_column(true),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.text_monitoring_check__v'),
+   default_value('{in_edit__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

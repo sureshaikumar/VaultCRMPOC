@@ -1,0 +1,6 @@
+Picklistentry ne-5__v (
+   value('Tahoua'),
+   order(3316),
+   active(true),
+   controlling_entries('ne__v')
+);

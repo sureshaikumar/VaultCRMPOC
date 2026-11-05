@@ -1,0 +1,6 @@
+Picklistentry zw-ms__v (
+   value('Matabeleland South'),
+   order(5043),
+   active(true),
+   controlling_entries('zw__v')
+);

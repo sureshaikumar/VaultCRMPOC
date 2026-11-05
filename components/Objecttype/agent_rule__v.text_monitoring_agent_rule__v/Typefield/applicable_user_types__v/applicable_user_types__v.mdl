@@ -1,0 +1,4 @@
+Typefield applicable_user_types__v (
+   source('custom'),
+   required(false)
+);

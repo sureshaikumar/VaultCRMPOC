@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="task">
+    <vwf:label>Revise Rejected Documents</vwf:label>
+    <vwf:controls>
+      <vwf:control name="at_least_one_document_has_been_rejected__c" label="At least one document has been rejected.  Revise and resubmit for review and approval." type="instructions">
+        <vwf:instructions>At least one document has been rejected.  Revise and resubmit for review and approval.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="task_creation_date__v" label="label" type="date">
+        <vwf:datefield type="date" />
+        <vwf:offset>
+          <vwf:amount>5</vwf:amount>
+          <vwf:unit>days</vwf:unit>
+        </vwf:offset>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+  <vwf:assignment participant="workflow_initiator__v" excludeowner="false" />
+  <vwf:assignmentType type="every" />
+  <vwf:notifications />
+  <vwf:reminders />
+  <vwf:completeWithoutViewing value="false" />
+  <vwf:taskRequirement requirement="required" />
+  <vwf:enablePromptExclusionStateTypes value="false" />
+  <vwf:enablePromptInclusionDocTypes value="false" />
+</vwf:stepdetails>

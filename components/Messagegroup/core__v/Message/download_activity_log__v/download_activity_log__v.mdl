@@ -1,0 +1,6 @@
+Message download_activity_log__v (
+   label(),
+   active(true),
+   default_value('Download Activity Log'),
+   system_managed(false)
+);

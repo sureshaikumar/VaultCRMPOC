@@ -1,0 +1,22 @@
+Field product_interactions_earned__v (
+   label('Product Interactions Earned'),
+   type('Number'),
+   active(true),
+   description('Sum of all Target Product Interactions Earned.'),
+   required(false),
+   unique(false),
+   max_value(999999999.99),
+   min_value(0),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

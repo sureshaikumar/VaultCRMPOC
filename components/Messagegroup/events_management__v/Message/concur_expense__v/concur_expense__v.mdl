@@ -1,0 +1,6 @@
+Message concur_expense__v (
+   label(),
+   active(true),
+   default_value('Expense'),
+   system_managed(false)
+);

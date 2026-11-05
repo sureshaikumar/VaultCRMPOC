@@ -1,0 +1,5 @@
+Picklistentry war (
+   value('Waray'),
+   order(345),
+   active(true)
+);

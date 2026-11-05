@@ -1,0 +1,10 @@
+Typefield transaction_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sent_message_transaction_type__v.custom_content__v',
+         'Picklist.sent_message_transaction_type__v.engage_connection_invite__v',
+         'Picklist.sent_message_transaction_type__v.ms_teams_join_url__v',
+         'Picklist.sent_message_transaction_type__v.remote_clm_link__v',
+         'Picklist.sent_message_transaction_type__v.vault_content__v',
+         'Picklist.sent_message_transaction_type__v.website_content__v')
+);

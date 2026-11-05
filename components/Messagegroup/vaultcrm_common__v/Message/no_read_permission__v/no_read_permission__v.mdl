@@ -1,0 +1,6 @@
+Message no_read_permission__v (
+   label(),
+   active(true),
+   default_value('User does not have read permission for ${label}.'),
+   system_managed(false)
+);

@@ -1,0 +1,25 @@
+Field record_type_sort_behavior__v (
+   label('Record Type Sort Behavior'),
+   type('Number'),
+   active(true),
+   description('Determines the Record Type sorting on Call for iPad. Setting options:
+0 or null - Default Record Type sorting to alphabetical based on untranslated Record Type Label (Default)
+1 - Default Call Record Type sorting to alphabetical based on Record Type Devel'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(262),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

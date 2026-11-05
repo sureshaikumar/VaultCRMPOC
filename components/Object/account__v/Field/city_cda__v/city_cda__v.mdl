@@ -1,0 +1,19 @@
+Field city_cda__v (
+   label('Primary City'),
+   type('String'),
+   active(true),
+   description('City or municipality from primary address.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(135),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

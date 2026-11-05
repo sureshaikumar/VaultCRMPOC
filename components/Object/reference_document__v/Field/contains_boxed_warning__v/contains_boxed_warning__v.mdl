@@ -1,0 +1,17 @@
+Field contains_boxed_warning__v (
+   label('Contains Boxed Warning'),
+   type('Boolean'),
+   active(true),
+   description('When true, it indicates this product discussed in this content has a boxed warning.'),
+   required(false),
+   checkbox(true),
+   help_content('When true, it indicates this product discussed in this content has a boxed warning.'),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

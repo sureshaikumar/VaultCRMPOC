@@ -1,0 +1,7 @@
+Typefield event_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.multichannel_activity_line_event_type__v.chat__v',
+         'Picklist.multichannel_activity_line_event_type__v.clickstream__v',
+         'Picklist.multichannel_activity_line_event_type__v.slide_view__v')
+);

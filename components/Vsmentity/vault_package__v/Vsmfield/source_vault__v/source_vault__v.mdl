@@ -1,0 +1,14 @@
+Vsmfield source_vault__v (
+   label('Source Vault'),
+   active(true),
+   description('Numeric identifier of the Vault environment that sent or originated this inbound package. Use to trace where a package came from, especially in multi-vault or cross-environment deployment workflows.'),
+   example_values(),
+   synonyms('source',
+         'origin vault',
+         'sending vault',
+         'source vault ID'),
+   target('source_vault__v'),
+   target_label('Source Vault'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

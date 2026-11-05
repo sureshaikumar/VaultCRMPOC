@@ -1,0 +1,71 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.multichannel_activity__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="account_external_id_map__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="multichannel_activity__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Interaction Details" name="interaction_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="call__v" />
+            <vault:field reference="sent_email__v" />
+            <vault:field reference="site__v" />
+            <vault:field reference="session_id__v" />
+            <vault:field reference="start_datetime__v" />
+            <vault:field reference="total_duration__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Presentation Details" name="presentation_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="viewport_height__v" />
+            <vault:field reference="viewport_width__v" />
+            <vault:field reference="url__v" />
+            <vault:field reference="referring_site__v" />
+            <vault:field reference="debug__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Device Details" name="device_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="device__v" />
+            <vault:field reference="client_os__v" />
+            <vault:field reference="user_agent__v" />
+            <vault:field reference="client_type__v" />
+            <vault:field reference="client_name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Location" name="location__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="country__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="region__v" />
+            <vault:field reference="ip_address__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Multichannel Activity Lines" name="multichannel_activity_lines__c">
+        <vault:relatedObject relationship="multichannel_activity_lines__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="event_type__v" width="200px" />
+            <vault:field reference="event_subtype__v" width="200px" />
+            <vault:field reference="view_order__v" width="200px" />
+            <vault:field reference="duration__v" width="200px" />
+            <vault:field reference="multichannel_content__v" width="200px" />
+            <vault:field reference="video_length__v" width="200px" />
+            <vault:field reference="video_total_time_spent__v" width="200px" />
+            <vault:field reference="video_last_viewed_time__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="vexternal_id__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

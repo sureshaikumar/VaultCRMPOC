@@ -1,0 +1,10 @@
+Vsmvalue nzd__v (
+   label('NZD'),
+   active(true),
+   description('The official currency of New Zealand (NZD), also used in the Cook Islands, Niue, and Tokelau, and a commonly traded currency in the Asia-Pacific region.'),
+   synonyms('New Zealand dollar',
+         'Kiwi dollar',
+         'NZD'),
+   target('nzd__sys'),
+   target_label('NZD')
+);

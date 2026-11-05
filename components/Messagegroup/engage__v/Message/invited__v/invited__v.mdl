@@ -1,0 +1,6 @@
+Message invited__v (
+   label(),
+   active(true),
+   default_value('Invited'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+Vsmvalue tnd__v (
+   label('TND'),
+   active(true),
+   description('Applies when transactions are denominated in the Tunisian Dinar, the official currency of Tunisia.'),
+   synonyms('Tunisian dinar',
+         'Tunisia currency',
+         'dinar'),
+   target('tnd__sys'),
+   target_label('TND')
+);

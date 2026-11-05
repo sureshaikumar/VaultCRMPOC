@@ -1,0 +1,6 @@
+Picklistentry ro-vs__v (
+   value('Vaslui'),
+   order(3757),
+   active(true),
+   controlling_entries('ro__v')
+);

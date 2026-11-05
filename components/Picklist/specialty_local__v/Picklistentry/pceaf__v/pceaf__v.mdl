@@ -1,0 +1,7 @@
+Picklistentry pceaf__v (
+   value('Pediatric Cardiorheumatology'),
+   order(1345),
+   active(true),
+   controlling_entries('kg__v',
+         'ua__v')
+);

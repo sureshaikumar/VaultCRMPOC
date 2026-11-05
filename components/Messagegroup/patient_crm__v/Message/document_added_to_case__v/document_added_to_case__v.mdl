@@ -1,0 +1,6 @@
+Message document_added_to_case__v (
+   label(),
+   active(true),
+   default_value('Document added to Case'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-khl__v (
+   value('Kingston Upon Hull'),
+   order(1547),
+   active(true),
+   controlling_entries('gb__v')
+);

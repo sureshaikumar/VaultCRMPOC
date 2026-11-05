@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction pending_state__sys.change_state_to_active_useraction__sys (
+   label('Make User Active'),
+   rule(@rule.xml),
+   order(1000)
+);

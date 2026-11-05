@@ -1,0 +1,5 @@
+Picklistentry scpl__v (
+   value('Specialized Clinic'),
+   order(239),
+   active(true)
+);

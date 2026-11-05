@@ -1,0 +1,5 @@
+Picklistentry vnd__sys (
+   value('VND'),
+   order(200),
+   active(true)
+);

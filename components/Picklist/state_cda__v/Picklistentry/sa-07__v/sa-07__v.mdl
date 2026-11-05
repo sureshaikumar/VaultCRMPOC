@@ -1,0 +1,6 @@
+Picklistentry sa-07__v (
+   value('Tabūk'),
+   order(3884),
+   active(true),
+   controlling_entries('sa__v')
+);

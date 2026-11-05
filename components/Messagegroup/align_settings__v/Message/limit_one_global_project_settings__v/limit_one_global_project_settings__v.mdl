@@ -1,0 +1,6 @@
+Message limit_one_global_project_settings__v (
+   label(),
+   active(true),
+   default_value('Only one global setting record can be active in a project.'),
+   system_managed(false)
+);

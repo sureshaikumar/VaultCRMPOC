@@ -1,0 +1,18 @@
+Field allow_for_joining_event_via_zoom__v (
+   label('Allow for Joining Event via Zoom'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates that this virtual Event allows participants to join via the native Zoom applications'),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

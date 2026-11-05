@@ -1,0 +1,5 @@
+Picklistentry 16540__v (
+   value('Chambersburg, PA Micropolitan Statistical Area'),
+   order(920),
+   active(true)
+);

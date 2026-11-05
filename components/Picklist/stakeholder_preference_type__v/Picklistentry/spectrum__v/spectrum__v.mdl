@@ -1,0 +1,5 @@
+Picklistentry spectrum__v (
+   value('Spectrum'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,14 @@
+Vsmfield checksum__v (
+   label('Checksum'),
+   active(true),
+   description('Cryptographic checksum or hash value used to verify the integrity of the package component. Used to detect corruption or tampering during inbound package processing.'),
+   example_values(),
+   synonyms('hash',
+         'integrity check',
+         'checksum value',
+         'file hash'),
+   target('checksum__v'),
+   target_label('Checksum'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

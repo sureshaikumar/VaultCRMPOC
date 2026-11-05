@@ -1,0 +1,5 @@
+Picklistentry 49100__v (
+   value('Winona, MN Micropolitan Statistical Area'),
+   order(546),
+   active(true)
+);

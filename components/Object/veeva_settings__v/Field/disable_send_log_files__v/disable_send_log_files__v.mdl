@@ -1,0 +1,18 @@
+Field disable_send_log_files__v (
+   label('DISABLE_SEND_LOG_FILES'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the Send Log Files button displays in the Options for the VMobile Tablet application.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(101),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

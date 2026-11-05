@@ -1,0 +1,4 @@
+Typefield clear_client_sync_errors__v (
+   source('standard'),
+   required(false)
+);

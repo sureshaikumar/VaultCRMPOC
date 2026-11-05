@@ -1,0 +1,6 @@
+Picklistentry cd-bu__v (
+   value('Bas-Uélé'),
+   order(573),
+   active(true),
+   controlling_entries('cd__v')
+);

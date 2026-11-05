@@ -1,0 +1,6 @@
+Message mccp_retrieving_mccycle_in_progress_msg__v (
+   label(),
+   active(true),
+   default_value('Retrieving MCCycle Channels and Products details.'),
+   system_managed(false)
+);

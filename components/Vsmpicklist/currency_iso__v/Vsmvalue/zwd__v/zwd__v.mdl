@@ -1,0 +1,10 @@
+Vsmvalue zwd__v (
+   label('ZWD'),
+   active(true),
+   description('Used for legacy transactions denominated in the first Zimbabwe Dollar (ZWD), a historical currency that was demonetized due to hyperinflation and replaced by subsequent currency series.'),
+   synonyms('Zimbabwe dollar first',
+         'ZWD',
+         'legacy Zimbabwe dollar'),
+   target('zwd__sys'),
+   target_label('ZWD')
+);

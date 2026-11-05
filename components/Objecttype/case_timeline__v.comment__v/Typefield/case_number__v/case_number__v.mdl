@@ -1,0 +1,4 @@
+Typefield case_number__v (
+   source('standard'),
+   required(true)
+);

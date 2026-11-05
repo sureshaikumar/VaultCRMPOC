@@ -1,0 +1,5 @@
+Picklistentry ta__v (
+   value('Tamil'),
+   order(312),
+   active(false)
+);

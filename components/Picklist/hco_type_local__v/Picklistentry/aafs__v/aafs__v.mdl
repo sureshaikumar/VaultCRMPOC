@@ -1,0 +1,5 @@
+Picklistentry aafs__v (
+   value('Association and Foundation'),
+   order(11),
+   active(true)
+);

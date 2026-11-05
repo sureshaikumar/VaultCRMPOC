@@ -1,0 +1,6 @@
+Message ask_away__v (
+   label(),
+   active(true),
+   default_value('Ask Away'),
+   system_managed(false)
+);

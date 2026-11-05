@@ -1,0 +1,22 @@
+Field limit_quantity__v (
+   label('Limit Quantity'),
+   type('Number'),
+   active(true),
+   description('Allocated quantity for the associated product for the defined time period; Value must be a positive number; Default value is zero.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

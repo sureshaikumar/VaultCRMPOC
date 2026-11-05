@@ -1,0 +1,6 @@
+Message back_to_preview__v (
+   label(),
+   active(true),
+   default_value('Back to Preview'),
+   system_managed(false)
+);

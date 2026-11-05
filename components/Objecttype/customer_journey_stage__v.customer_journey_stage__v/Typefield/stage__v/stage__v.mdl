@@ -1,0 +1,10 @@
+Typefield stage__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.adoption_stages__v.stage_0__v',
+         'Picklist.adoption_stages__v.stage_1__v',
+         'Picklist.adoption_stages__v.stage_2__v',
+         'Picklist.adoption_stages__v.stage_3__v',
+         'Picklist.adoption_stages__v.stage_4__v',
+         'Picklist.adoption_stages__v.stage_5__v')
+);

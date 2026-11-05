@@ -1,0 +1,6 @@
+Message field_required_consent_type__v (
+   label(),
+   active(true),
+   default_value('${consent_type_channel_label} requires ${field_name} in order to capture consent.'),
+   system_managed(false)
+);

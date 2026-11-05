@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Component'),
+   active(true),
+   description('The primary name or identifier of the inbound package component record. This is the standard Vault record name field used to uniquely identify and reference the component within the package.'),
+   example_values(),
+   synonyms('component',
+         'record name',
+         'package component name'),
+   target('name__v'),
+   target_label('Component'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

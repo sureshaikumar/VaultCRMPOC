@@ -1,0 +1,5 @@
+Picklistentry basic__sys (
+   value('Basic'),
+   order(0),
+   active(true)
+);

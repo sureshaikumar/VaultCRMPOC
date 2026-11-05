@@ -1,0 +1,19 @@
+Field transfer_to_name__v (
+   label('Transfer To Name'),
+   type('String'),
+   active(true),
+   description('Transfer To represents the textual Username that is the recipient of the Transfer Sample Transaction.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(64),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

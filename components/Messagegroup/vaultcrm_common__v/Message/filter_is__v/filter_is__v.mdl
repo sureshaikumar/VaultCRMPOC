@@ -1,0 +1,6 @@
+Message filter_is__v (
+   label(),
+   active(true),
+   default_value('is'),
+   system_managed(false)
+);

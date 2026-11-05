@@ -1,0 +1,6 @@
+Picklistentry ne-8__v (
+   value('Niamey'),
+   order(3319),
+   active(true),
+   controlling_entries('ne__v')
+);

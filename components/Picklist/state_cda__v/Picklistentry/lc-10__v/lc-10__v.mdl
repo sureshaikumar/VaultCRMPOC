@@ -1,0 +1,6 @@
+Picklistentry lc-10__v (
+   value('Soufrière'),
+   order(2546),
+   active(true),
+   controlling_entries('lc__v')
+);

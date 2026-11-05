@@ -1,0 +1,6 @@
+Picklistentry tr-60__v (
+   value('Tokat'),
+   order(4518),
+   active(true),
+   controlling_entries('tr__v')
+);

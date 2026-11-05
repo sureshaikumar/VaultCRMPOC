@@ -1,0 +1,6 @@
+Message picklist_override_section_helptext__sys (
+   label(),
+   active(true),
+   default_value('Override the picklist description for this field. Only available when the field type is picklist and a target picklist has already been defined.'),
+   system_managed(true)
+);

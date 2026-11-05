@@ -1,0 +1,5 @@
+Picklistentry cox_2_inhibitors__v (
+   value('Cox-2 Inhibitors'),
+   order(1),
+   active(true)
+);

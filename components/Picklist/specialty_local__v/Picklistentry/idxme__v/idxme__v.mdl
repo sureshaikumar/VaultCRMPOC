@@ -1,0 +1,6 @@
+Picklistentry idxme__v (
+   value('Infectious Diseases Medicine'),
+   order(760),
+   active(true),
+   controlling_entries('ie__v')
+);

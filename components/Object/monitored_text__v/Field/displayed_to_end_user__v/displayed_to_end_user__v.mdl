@@ -1,0 +1,17 @@
+Field displayed_to_end_user__v (
+   label('Displayed to End User'),
+   type('Boolean'),
+   active(true),
+   description('When this field is checked, the monitoring was performed by an agent that displays results to the end user in the UI.'),
+   required(false),
+   checkbox(false),
+   help_content('When this field is checked, the monitoring was performed by an agent that displays results to the end user in the UI.'),
+   list_column(false),
+   order(54),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

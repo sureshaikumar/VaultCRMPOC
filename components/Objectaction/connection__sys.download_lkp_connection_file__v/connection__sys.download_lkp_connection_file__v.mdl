@@ -1,0 +1,8 @@
+RECREATE Objectaction connection__sys.download_lkp_connection_file__v (
+   label('Download Link Key People Connection File'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.datacloudadministration.actions.DownloadLinkKeyPeopleConnectionFileAction'),
+   active(true),
+   available_all_states(true)
+);

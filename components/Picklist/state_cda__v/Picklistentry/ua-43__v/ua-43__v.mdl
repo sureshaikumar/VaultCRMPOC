@@ -1,0 +1,6 @@
+Picklistentry ua-43__v (
+   value('Avtonomna Respublika Krym'),
+   order(4629),
+   active(true),
+   controlling_entries('ua__v')
+);

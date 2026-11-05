@@ -1,0 +1,6 @@
+Message email_draft_in_progress__v (
+   label(),
+   active(true),
+   default_value('Draft in Progress'),
+   system_managed(false)
+);

@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.min_max_quantity_required__v (
+   label('Min or Max Quantity Required'),
+   active(true),
+   expression('
+        Case(event_business_rule_type__vr.api_name__v,
+            "em_per_event_attendance_limit_rule__v", true,
+            "em_per_event_speaker_limit_rule__v", true,
+            false
+        ) = false || (Not(IsBlank(minimum_quantity__v)) || Not(IsBlank(maximum_quantity__v)))'),
+   description('Either a valid minimum_quantity__v or maximum_quantity__v is not added to the Event Business Rule Configuration.'),
+   error_message('Minimum Quantity or Maximum Quantity required.'),
+   error_location('minimum_quantity__v')
+);

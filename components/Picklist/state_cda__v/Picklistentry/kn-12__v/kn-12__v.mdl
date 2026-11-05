@@ -1,0 +1,6 @@
+Picklistentry kn-12__v (
+   value('Saint Thomas Lowland'),
+   order(2452),
+   active(true),
+   controlling_entries('kn__v')
+);

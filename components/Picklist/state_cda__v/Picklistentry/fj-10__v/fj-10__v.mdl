@@ -1,0 +1,6 @@
+Picklistentry fj-10__v (
+   value('Namosi'),
+   order(1301),
+   active(true),
+   controlling_entries('fj__v')
+);

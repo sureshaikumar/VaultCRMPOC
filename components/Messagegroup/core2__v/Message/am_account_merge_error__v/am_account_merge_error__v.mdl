@@ -1,0 +1,6 @@
+Message am_account_merge_error__v (
+   label(),
+   active(true),
+   default_value('Account Merge Error'),
+   system_managed(false)
+);

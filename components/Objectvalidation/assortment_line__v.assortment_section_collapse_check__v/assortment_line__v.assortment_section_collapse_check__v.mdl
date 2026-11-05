@@ -1,0 +1,14 @@
+RECREATE Objectvalidation assortment_line__v.assortment_section_collapse_check__v (
+   label('Assortment_Section_Collapse_Check'),
+   active(true),
+   expression('not(
+            and(
+                object_type__vr.api_name__v != ''im_assortment_section__v'',
+                object_type__vr.api_name__v != ''om_assortment_section__v'',
+                collapse_by_default__v
+            )
+        )'),
+   description('Can only be enabled for assortment section records'),
+   error_message('Can only be enabled for assortment section records'),
+   error_location('collapse_by_default__v')
+);

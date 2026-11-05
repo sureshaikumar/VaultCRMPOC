@@ -1,0 +1,19 @@
+Field approved_email_test_address__v (
+   label('Approved Email Test Email Address'),
+   type('String'),
+   active(true),
+   description('This is an org-level override to support sandbox testing. When an email address value is present, all Approved Emails generated will be sent to this address. This overrides the value set in Sent_Email_vod.Account_Email_vod'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

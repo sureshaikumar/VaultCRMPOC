@@ -1,0 +1,6 @@
+Picklistentry pneek__v (
+   value('Pediatric Neuroradiology'),
+   order(1418),
+   active(true),
+   controlling_entries('pt__v')
+);

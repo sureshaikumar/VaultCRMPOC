@@ -1,0 +1,18 @@
+Field layer__v (
+   label('Layer'),
+   type('Picklist'),
+   active(true),
+   description('The visibility layer the facings are seen (eye level, above eye level, below eye level). Customers can add values to this picklist.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.inventory_monitoring_line_layer__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 10900__v (
+   value('Allentown-Bethlehem-Easton, PA-NJ Metropolitan Statistical Area'),
+   order(588),
+   active(true)
+);

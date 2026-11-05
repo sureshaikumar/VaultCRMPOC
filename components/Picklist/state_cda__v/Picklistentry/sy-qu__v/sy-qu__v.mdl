@@ -1,0 +1,6 @@
+Picklistentry sy-qu__v (
+   value('Al Qunayţirah'),
+   order(4291),
+   active(true),
+   controlling_entries('sy__v')
+);

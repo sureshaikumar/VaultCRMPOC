@@ -1,0 +1,6 @@
+Picklistentry it-tn__v (
+   value('Trento'),
+   order(2266),
+   active(true),
+   controlling_entries('it__v')
+);

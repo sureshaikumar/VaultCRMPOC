@@ -1,0 +1,6 @@
+Picklistentry th-67__v (
+   value('Phetchabun'),
+   order(4382),
+   active(true),
+   controlling_entries('th__v')
+);

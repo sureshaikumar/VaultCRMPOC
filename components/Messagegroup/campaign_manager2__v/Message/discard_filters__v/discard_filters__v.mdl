@@ -1,0 +1,6 @@
+Message discard_filters__v (
+   label(),
+   active(true),
+   default_value('Discard Filters'),
+   system_managed(false)
+);

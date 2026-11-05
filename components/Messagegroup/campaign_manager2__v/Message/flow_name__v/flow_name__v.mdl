@@ -1,0 +1,6 @@
+Message flow_name__v (
+   label(),
+   active(true),
+   default_value('Flow Name'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield max_number_hco_targets__v (
+   source('standard'),
+   required(false)
+);

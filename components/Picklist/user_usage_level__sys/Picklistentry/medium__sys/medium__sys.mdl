@@ -1,0 +1,5 @@
+Picklistentry medium__sys (
+   value('Medium'),
+   order(2),
+   active(true)
+);

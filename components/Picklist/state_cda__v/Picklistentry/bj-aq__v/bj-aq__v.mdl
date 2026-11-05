@@ -1,0 +1,6 @@
+Picklistentry bj-aq__v (
+   value('Atlantique'),
+   order(425),
+   active(true),
+   controlling_entries('bj__v')
+);

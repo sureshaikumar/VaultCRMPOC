@@ -1,0 +1,6 @@
+Picklistentry kg-b__v (
+   value('Batken'),
+   order(2401),
+   active(true),
+   controlling_entries('kg__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry dz-24__v (
+   value('Guelma'),
+   order(1005),
+   active(true),
+   controlling_entries('dz__v')
+);

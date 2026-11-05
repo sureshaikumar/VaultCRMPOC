@@ -1,0 +1,18 @@
+Field double_opt_in__v (
+   label('Double Opt In'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Double_Opt_In_vod when checked turns on the Double Op In feature for the Channel.'),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,15 @@
+RECREATE Layoutrule inventory_order_allocation_layout__c.required_fields__c (
+   active(true),
+   description('Layout rule to make fields required to create a record.'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields('product__v'),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Required Fields'),
+   order(100)
+);

@@ -1,0 +1,6 @@
+Picklistentry us-mt__v (
+   value('Montana'),
+   order(4820),
+   active(true),
+   controlling_entries('us__v')
+);

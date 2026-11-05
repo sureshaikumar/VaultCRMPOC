@@ -1,0 +1,7 @@
+Picklistentry diabf__v (
+   value('Diabetes'),
+   order(417),
+   active(true),
+   controlling_entries('eg__v',
+         'om__v')
+);

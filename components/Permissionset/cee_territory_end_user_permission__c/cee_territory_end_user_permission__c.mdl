@@ -1,0 +1,15 @@
+RECREATE Permissionset cee_territory_end_user_permission__c (
+   label('CEE - Territory End User Permission'),
+   active(true),
+   description('Territory Management for end users'),
+   object.account_territory__v.field_actions('read'),
+   object.account_territory__v.object_actions('read'),
+   object.account_territory_loader__v.field_actions('edit',
+      'read'),
+   object.account_territory_loader__v.object_actions('create'),
+   object.territory__v.field_actions('read'),
+   object.territory__v.object_actions('read'),
+   object.user_territory__v.field_actions('read'),
+   object.user_territory__v.object_actions('read'),
+   vault_actions.search('suggest')
+);

@@ -1,0 +1,19 @@
+Field key_message_vexternal_id__v (
+   label('Key Message VExternal Id'),
+   type('String'),
+   active(true),
+   description('Stamped Key Message VExternal ID'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

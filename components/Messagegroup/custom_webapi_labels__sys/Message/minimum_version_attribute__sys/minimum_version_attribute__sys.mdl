@@ -1,0 +1,6 @@
+Message minimum_version_attribute__sys (
+   label(),
+   active(true),
+   default_value('Minimum API Version'),
+   system_managed(true)
+);

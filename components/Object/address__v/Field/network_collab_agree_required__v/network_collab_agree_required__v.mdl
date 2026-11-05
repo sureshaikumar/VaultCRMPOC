@@ -1,0 +1,18 @@
+Field network_collab_agree_required__v (
+   label('Network Collaborative Agreement Required'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates whether a collaborative agreement (CA) is required for the HCP as reflected in Veeva OpenData. The field is mapped to collab_agree_required__v from Network.'),
+   list_column(false),
+   order(50),
+   multi_value(false),
+   picklist('Picklist.address_network_collab_agree_required__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

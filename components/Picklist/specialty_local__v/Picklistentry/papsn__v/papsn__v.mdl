@@ -1,0 +1,8 @@
+Picklistentry papsn__v (
+   value('Psychiatry and Psychotherapy'),
+   order(1613),
+   active(true),
+   controlling_entries('ch__v',
+         'de__v',
+         'li__v')
+);

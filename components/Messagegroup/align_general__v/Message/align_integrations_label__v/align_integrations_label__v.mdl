@@ -1,0 +1,6 @@
+Message align_integrations_label__v (
+   label(),
+   active(true),
+   default_value('Align Integrations'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry omniconnect_event__v (
+   value('Omnichannel Event'),
+   order(2),
+   active(true)
+);

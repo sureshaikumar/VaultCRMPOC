@@ -1,0 +1,6 @@
+Message username_session_mismatch_login__v (
+   label(),
+   active(true),
+   default_value('The username ${expected_username} does not match the user ${received_username} associated with this session.'),
+   system_managed(false)
+);

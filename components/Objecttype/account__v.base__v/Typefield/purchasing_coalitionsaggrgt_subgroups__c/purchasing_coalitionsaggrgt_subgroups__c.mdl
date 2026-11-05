@@ -1,0 +1,4 @@
+Typefield purchasing_coalitionsaggrgt_subgroups__c (
+   source('standard'),
+   required(false)
+);

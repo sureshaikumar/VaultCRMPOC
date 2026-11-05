@@ -1,0 +1,6 @@
+Sdkbatchjobaction custom_presentation_vector_db_sync_job__v (
+   job_metadata('Jobmetadata.custom_presentation_vector_db_sync_job__v'),
+   label('Custom Presentation Vector Db Sync'),
+   parameters(),
+   primary_action(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry o365_email__v (
+   value('O365 Email'),
+   order(0),
+   active(true)
+);

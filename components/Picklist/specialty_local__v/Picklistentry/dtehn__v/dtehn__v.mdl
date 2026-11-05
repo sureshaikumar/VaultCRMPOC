@@ -1,0 +1,6 @@
+Picklistentry dtehn__v (
+   value('Dental Therapy'),
+   order(369),
+   active(true),
+   controlling_entries('au__v')
+);

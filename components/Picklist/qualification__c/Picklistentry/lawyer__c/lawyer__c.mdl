@@ -1,0 +1,5 @@
+Picklistentry lawyer__c (
+   value('Lawyer'),
+   order(3),
+   active(true)
+);

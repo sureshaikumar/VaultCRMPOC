@@ -1,0 +1,6 @@
+Message invalid_for_sampling__v (
+   label(),
+   active(true),
+   default_value('Invalid for Sampling'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message reply_sent_by__v (
+   label(),
+   active(true),
+   default_value('Reply Sent by ${entity}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message cancel_activation__v (
+   label(),
+   active(true),
+   default_value('Cancel Activation'),
+   system_managed(false)
+);

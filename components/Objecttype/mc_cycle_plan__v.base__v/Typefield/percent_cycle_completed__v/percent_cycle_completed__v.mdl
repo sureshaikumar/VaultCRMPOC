@@ -1,0 +1,4 @@
+Typefield percent_cycle_completed__v (
+   source('standard'),
+   required(false)
+);

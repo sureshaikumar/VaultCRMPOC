@@ -1,0 +1,6 @@
+Picklistentry ug-225__v (
+   value('Bulambuli'),
+   order(4693),
+   active(true),
+   controlling_entries('ug__v')
+);

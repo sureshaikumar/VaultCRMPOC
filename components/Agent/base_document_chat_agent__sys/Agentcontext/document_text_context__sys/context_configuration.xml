@@ -1,0 +1,5 @@
+<vault:configuration xmlns:vault="VeevaVault">
+    <vault:input name="documentContentTypes" type="JsonArray">["TEXT_EXTRACT"]</vault:input>
+    <vault:input name="useStructuredText" type="Boolean">true</vault:input>
+    <vault:input name="documentVersion" type="String">SELECTED</vault:input>
+</vault:configuration>

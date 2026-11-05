@@ -1,0 +1,6 @@
+Message unable_to_send_test_email_error__v (
+   label(),
+   active(true),
+   default_value('No targets available for test email preview'),
+   system_managed(false)
+);

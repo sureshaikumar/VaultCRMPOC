@@ -1,0 +1,6 @@
+Picklistentry pe-caj__v (
+   value('Cajamarca'),
+   order(3473),
+   active(true),
+   controlling_entries('pe__v')
+);

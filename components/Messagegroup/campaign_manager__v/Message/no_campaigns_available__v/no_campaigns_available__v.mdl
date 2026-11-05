@@ -1,0 +1,6 @@
+Message no_campaigns_available__v (
+   label(),
+   active(true),
+   default_value('No Campaigns Available'),
+   system_managed(false)
+);

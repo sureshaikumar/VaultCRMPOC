@@ -1,0 +1,6 @@
+Message bulk_success_update__v (
+   label(),
+   active(true),
+   default_value('${records} out of ${all_records} records successfully updated'),
+   system_managed(false)
+);

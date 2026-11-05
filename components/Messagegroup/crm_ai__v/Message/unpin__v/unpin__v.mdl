@@ -1,0 +1,6 @@
+Message unpin__v (
+   label(),
+   active(true),
+   default_value('Unpin'),
+   system_managed(false)
+);

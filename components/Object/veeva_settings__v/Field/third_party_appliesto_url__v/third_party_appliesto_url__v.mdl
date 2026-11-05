@@ -1,0 +1,20 @@
+Field third_party_appliesto_url__v (
+   label('THIRD_PARTY_APPLIESTO_URL'),
+   type('String'),
+   active(true),
+   description('URL that goes into the AppliesTo section of the WS-Trust based token request'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(293),
+   default_value('"THIRD_PARTY_APPLIESTO_URL;;iPad"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

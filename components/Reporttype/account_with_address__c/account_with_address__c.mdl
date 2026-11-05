@@ -1,0 +1,9 @@
+RECREATE Reporttype account_with_address__c (
+   label('Account with Address'),
+   active(true),
+   description('Account with Addresses (Child)'),
+   primary_object('account__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

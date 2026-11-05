@@ -1,0 +1,6 @@
+Message view_api_docs_link__v (
+   label(),
+   active(true),
+   default_value('View API docs'),
+   system_managed(false)
+);

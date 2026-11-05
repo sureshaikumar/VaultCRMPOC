@@ -1,0 +1,5 @@
+Picklistentry america_cayenne__sys (
+   value('(GMT-03:00) French Guiana Time (America/Cayenne)'),
+   order(124),
+   active(true)
+);

@@ -1,0 +1,10 @@
+Vsmvalue kyd__v (
+   label('KYD'),
+   active(true),
+   description('The Cayman Islands Dollar (KYD), the official currency of the Cayman Islands, used for transactions, pricing, and financial records involving Cayman Islands markets.'),
+   synonyms('Cayman Islands dollar',
+         'Cayman dollar',
+         'KYD'),
+   target('kyd__sys'),
+   target_label('KYD')
+);

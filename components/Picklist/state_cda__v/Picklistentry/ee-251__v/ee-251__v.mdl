@@ -1,0 +1,6 @@
+Picklistentry ee-251__v (
+   value('Jõhvi'),
+   order(1075),
+   active(true),
+   controlling_entries('ee__v')
+);

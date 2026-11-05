@@ -1,0 +1,6 @@
+Typefield sync_direction__v (
+   source('custom'),
+   required(true),
+   pickentries('Picklist.cvent_field_mapping_sync_direction__v.inbound__v',
+         'Picklist.cvent_field_mapping_sync_direction__v.outbound__v')
+);

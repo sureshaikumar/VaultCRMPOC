@@ -1,0 +1,6 @@
+Message start_call_report__v (
+   label(),
+   active(true),
+   default_value('Start Call Report'),
+   system_managed(false)
+);

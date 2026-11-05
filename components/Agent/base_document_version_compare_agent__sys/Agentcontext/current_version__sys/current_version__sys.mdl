@@ -1,0 +1,8 @@
+Agentcontext current_version__sys (
+   label('Current Version'),
+   active(true),
+   always_include(true),
+   context_configuration(@context_configuration.xml),
+   context_type('Aicontexttype.document_data_content__sys'),
+   description('This is the Current Version - the version the user is looking at. This is baseline. It is considered the modified version. Changes must be described from this version''s perspective. Changes detected MUST be changes on this version NOT the Previous Major Version. Provided as extracted text with document metadata (name, version, page count).')
+);

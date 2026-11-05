@@ -1,0 +1,6 @@
+Typefield dismissfeedback3__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.suggestion_feedback_dismissfeedback3__v.false__v',
+         'Picklist.suggestion_feedback_dismissfeedback3__v.true__v')
+);

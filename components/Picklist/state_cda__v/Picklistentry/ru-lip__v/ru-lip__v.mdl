@@ -1,0 +1,6 @@
+Picklistentry ru-lip__v (
+   value('Lipetskaya oblast'''),
+   order(3827),
+   active(true),
+   controlling_entries('ru__v')
+);

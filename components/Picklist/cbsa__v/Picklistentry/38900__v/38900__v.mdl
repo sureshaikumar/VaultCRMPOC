@@ -1,0 +1,5 @@
+Picklistentry 38900__v (
+   value('Portland-Vancouver-Beaverton, OR-WA Metropolitan Statistical Area'),
+   order(836),
+   active(true)
+);

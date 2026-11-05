@@ -1,0 +1,6 @@
+Picklistentry ug-425__v (
+   value('Rubirizi'),
+   order(4767),
+   active(true),
+   controlling_entries('ug__v')
+);

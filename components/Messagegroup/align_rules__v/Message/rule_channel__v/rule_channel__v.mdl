@@ -1,0 +1,6 @@
+Message rule_channel__v (
+   label(),
+   active(true),
+   default_value('Channel'),
+   system_managed(false)
+);

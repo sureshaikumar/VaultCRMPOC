@@ -1,0 +1,5 @@
+Picklistentry hrs__v (
+   value('HRS'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message remove_all_targets_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to remove all ${num_targets} targets?'),
+   system_managed(false)
+);

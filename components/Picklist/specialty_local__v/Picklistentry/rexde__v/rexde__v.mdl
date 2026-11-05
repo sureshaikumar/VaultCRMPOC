@@ -1,0 +1,6 @@
+Picklistentry rexde__v (
+   value('Research and Development'),
+   order(1735),
+   active(true),
+   controlling_entries('om__v')
+);

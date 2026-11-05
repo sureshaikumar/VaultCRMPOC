@@ -1,0 +1,4 @@
+Typefield total_revenue_000__c (
+   source('standard'),
+   required(false)
+);

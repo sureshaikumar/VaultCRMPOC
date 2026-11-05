@@ -1,0 +1,6 @@
+Message patient_intake_completed__v (
+   label(),
+   active(true),
+   default_value('Patient Intake Completed'),
+   system_managed(false)
+);

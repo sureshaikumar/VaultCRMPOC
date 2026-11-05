@@ -1,0 +1,6 @@
+Picklistentry bf-zir__v (
+   value('Ziro'),
+   order(370),
+   active(true),
+   controlling_entries('bf__v')
+);

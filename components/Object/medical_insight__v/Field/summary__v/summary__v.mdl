@@ -1,0 +1,19 @@
+Field summary__v (
+   label('Summary'),
+   type('String'),
+   active(true),
+   description('Summary title of the Key Medical Insight'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

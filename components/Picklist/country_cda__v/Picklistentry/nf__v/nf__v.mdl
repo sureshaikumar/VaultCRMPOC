@@ -1,0 +1,5 @@
+Picklistentry nf__v (
+   value('Norfolk Island'),
+   order(163),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield clm_video_autoplay__v (
+   source('standard'),
+   required(false)
+);

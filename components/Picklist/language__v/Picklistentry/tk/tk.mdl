@@ -1,0 +1,5 @@
+Picklistentry tk (
+   value('Turkmen'),
+   order(104),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field column_labels_included__v (
+   label('Column Labels Included'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If the file will have the column labels as the first line for this template, then check this box.'),
+   list_column(false),
+   order(13),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

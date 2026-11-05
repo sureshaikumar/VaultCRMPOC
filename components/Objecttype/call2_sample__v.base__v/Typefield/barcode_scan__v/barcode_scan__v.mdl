@@ -1,0 +1,4 @@
+Typefield barcode_scan__v (
+   source('standard'),
+   required(false)
+);

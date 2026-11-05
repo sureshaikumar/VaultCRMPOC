@@ -1,0 +1,5 @@
+Picklistentry renominate__v (
+   value('Renominate'),
+   order(1),
+   active(true)
+);

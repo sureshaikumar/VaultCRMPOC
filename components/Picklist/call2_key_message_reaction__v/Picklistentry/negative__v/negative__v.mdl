@@ -1,0 +1,5 @@
+Picklistentry negative__v (
+   value('Negative'),
+   order(2),
+   active(true)
+);

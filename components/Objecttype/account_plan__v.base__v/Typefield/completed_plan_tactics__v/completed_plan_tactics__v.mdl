@@ -1,0 +1,4 @@
+Typefield completed_plan_tactics__v (
+   source('standard'),
+   required(false)
+);

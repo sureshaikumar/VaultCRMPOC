@@ -1,0 +1,17 @@
+Field question__v (
+   label('Survey Question'),
+   type('LongText'),
+   active(true),
+   description('Survey Question'),
+   required(false),
+   max_length(2000),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

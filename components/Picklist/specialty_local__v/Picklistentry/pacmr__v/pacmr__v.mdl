@@ -1,0 +1,7 @@
+Picklistentry pacmr__v (
+   value('Preventive and Community Medicine'),
+   order(1587),
+   active(true),
+   controlling_entries('ma__v',
+         'tn__v')
+);

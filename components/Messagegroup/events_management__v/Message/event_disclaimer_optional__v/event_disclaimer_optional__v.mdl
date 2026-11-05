@@ -1,0 +1,6 @@
+Message event_disclaimer_optional__v (
+   label(),
+   active(true),
+   default_value('${object_label} Disclaimer (optional)'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message microsoft_teams_default_error__v (
+   label(),
+   active(true),
+   default_value('A default configuration already exists for ${object_type}.'),
+   system_managed(false)
+);

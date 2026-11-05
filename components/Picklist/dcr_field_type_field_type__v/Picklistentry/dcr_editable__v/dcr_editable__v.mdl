@@ -1,0 +1,5 @@
+Picklistentry dcr_editable__v (
+   value('DCR Editable'),
+   order(2),
+   active(true)
+);

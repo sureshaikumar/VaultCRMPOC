@@ -1,0 +1,6 @@
+Message am_use_as_winning_account__v (
+   label(),
+   active(true),
+   default_value('Use as Winning Account'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 28940__v (
+   value('Knoxville, TN Metropolitan Statistical Area'),
+   order(276),
+   active(true)
+);

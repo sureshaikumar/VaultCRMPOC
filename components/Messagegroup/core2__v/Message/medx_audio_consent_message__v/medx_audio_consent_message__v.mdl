@@ -1,0 +1,6 @@
+Message medx_audio_consent_message__v (
+   label(),
+   active(true),
+   default_value('You consent to the audio recording of this session. The audio recording will be used solely for the purpose of creating accurate and detailed meeting notes. Verteo will handle recordings in accordance with applicable laws and regulations, and will take reasonable measures to protect the privacy and confidentiality of any personal information captured in the recordings.'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist aln_targeting_rule_channel_object_type__v (
+   label('Targeting Rule Channel'),
+   active(true),
+   Picklistentry(@Picklistentry/call__v.mdl),
+   Picklistentry(@Picklistentry/call_with_products__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

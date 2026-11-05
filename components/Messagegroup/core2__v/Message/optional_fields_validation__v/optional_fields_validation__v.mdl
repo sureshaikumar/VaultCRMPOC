@@ -1,0 +1,6 @@
+Message optional_fields_validation__v (
+   label(),
+   active(true),
+   default_value('Please double check formatting. Use a double semicolon-separated list of object.field API names. For example: external_calendar__v.color__v;;external_calendar_event__v.categories__v'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry az-xci__v (
+   value('Xocalı'),
+   order(207),
+   active(true),
+   controlling_entries('az__v')
+);

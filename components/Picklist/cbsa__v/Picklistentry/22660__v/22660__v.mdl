@@ -1,0 +1,5 @@
+Picklistentry 22660__v (
+   value('Fort Collins-Loveland, CO Metropolitan Statistical Area'),
+   order(275),
+   active(true)
+);

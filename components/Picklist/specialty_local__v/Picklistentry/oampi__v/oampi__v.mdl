@@ -1,0 +1,6 @@
+Picklistentry oampi__v (
+   value('Oral and Maxillofacial Pathology Infectious Diseases'),
+   order(1157),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,21 @@
+Field ship_to_address_text__v (
+   label('Ship To Address Text'),
+   type('String'),
+   active(true),
+   description('A textual representation of the different address components.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(88),
+   formula('ship_address_line_1__v &  If(Length(ship_address_line_2__v) > 0, ", " & ship_address_line_2__v, "")  & If(Length(ship_city__v) > 0, ", " & ship_city__v, "")  & If(Length(Text(ship_state__v)) > 0, ", " & Text(ship_state__v),"") & If(Length(ship_postal_code__v) > 0, " " & ship_postal_code__v, "")  & If(Length(ship_postal_code_4__v) > 0, "-" & ship_postal_code_4__v, "")  & If(Length(ship_country__v) > 0, ", " & ship_country__v, "")'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

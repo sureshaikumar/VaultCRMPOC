@@ -1,0 +1,6 @@
+Message rerun_territory_rules_help__v (
+   label(),
+   active(true),
+   default_value('Recalculating territory sharing will re-evaluate territory-based account visibility. This action is required if a user is unable to access an account in their territory or subordinate territories.'),
+   system_managed(false)
+);

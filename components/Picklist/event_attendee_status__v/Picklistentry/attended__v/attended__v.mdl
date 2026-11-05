@@ -1,0 +1,5 @@
+Picklistentry attended__v (
+   value('Attended'),
+   order(2),
+   active(true)
+);

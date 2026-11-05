@@ -1,0 +1,18 @@
+Field sample_u_m__v (
+   label('Sample U/M'),
+   type('Picklist'),
+   active(true),
+   description('The Sample U/M field defines the Units of Measurement for records with a Product Type of BRC or Order.  This field should only be populated for BRC or Order entries.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(45),
+   multi_value(false),
+   picklist('Picklist.product_sample_u_m__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

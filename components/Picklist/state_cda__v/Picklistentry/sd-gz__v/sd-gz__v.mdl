@@ -1,0 +1,6 @@
+Picklistentry sd-gz__v (
+   value('Gezira'),
+   order(3935),
+   active(true),
+   controlling_entries('sd__v')
+);

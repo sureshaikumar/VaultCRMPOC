@@ -1,0 +1,5 @@
+Picklistentry 18860__v (
+   value('Crescent City, CA Micropolitan Statistical Area'),
+   order(268),
+   active(true)
+);

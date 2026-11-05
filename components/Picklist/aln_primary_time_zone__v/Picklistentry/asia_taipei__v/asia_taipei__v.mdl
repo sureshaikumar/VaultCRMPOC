@@ -1,0 +1,5 @@
+Picklistentry asia_taipei__v (
+   value('Asia/Taipei'),
+   order(69),
+   active(true)
+);

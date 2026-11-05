@@ -1,0 +1,5 @@
+Picklistentry bw__v (
+   value('BW'),
+   order(34),
+   active(true)
+);

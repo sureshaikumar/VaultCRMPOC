@@ -1,0 +1,5 @@
+Picklistentry cphh__v (
+   value('Chain Pharmacy'),
+   order(21),
+   active(true)
+);

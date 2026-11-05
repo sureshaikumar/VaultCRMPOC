@@ -1,0 +1,9 @@
+Vsmvalue sle__v (
+   label('SLE'),
+   active(true),
+   description('Applies when transactions are denominated in the new Sierra Leonean Leone (redenominated 2022), the official currency of Sierra Leone.'),
+   synonyms('Sierra Leone leone new',
+         'Sierra Leone currency redenominated'),
+   target('sle__sys'),
+   target_label('SLE')
+);

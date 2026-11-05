@@ -1,0 +1,18 @@
+Field disable_account_download_csv_excel__v (
+   label('Disable Account Download CSV Excel'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Checking this checkbox suppresses the ability to download Accounts via CSV or Excel data from the My Accounts page.'),
+   list_column(false),
+   order(85),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

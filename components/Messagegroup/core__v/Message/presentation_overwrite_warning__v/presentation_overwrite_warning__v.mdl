@@ -1,0 +1,6 @@
+Message presentation_overwrite_warning__v (
+   label(),
+   active(true),
+   default_value('The target Vault CRM already has the presentation ${presentation_name} being copied. Do you want to overwrite it? If yes, the slides and media files of the presentation could also be overwritten.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry eg-pts__v (
+   value('Būr Sa‘īd'),
+   order(1179),
+   active(true),
+   controlling_entries('eg__v')
+);

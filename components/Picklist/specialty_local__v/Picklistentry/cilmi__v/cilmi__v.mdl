@@ -1,0 +1,11 @@
+Picklistentry cilmi__v (
+   value('Clinical Immunology'),
+   order(229),
+   active(true),
+   controlling_entries('at__v',
+         'ba__v',
+         'bg__v',
+         'dk__v',
+         'nz__v',
+         'pl__v')
+);

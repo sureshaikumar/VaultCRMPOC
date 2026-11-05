@@ -1,0 +1,6 @@
+Message acct_exclu_help__v (
+   label(),
+   active(true),
+   default_value('This determines whether or not an account can be assigned to multiple territories within the same field force or not.'),
+   system_managed(false)
+);

@@ -1,0 +1,28 @@
+RECREATE Notificationtemplate cfgtool_validate_package_error__v (
+   label('Validate Package Error'),
+   active(true),
+   description('Validate package error template.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Inbound Package: ${packageName} has failed to be validated.'),
+   notification('
+   <b><p>Your Inbound Package: <a href="${urlInboundPackagePage}">${packageName}</a> has failed to be validated.</p></b>
+   <br/>
+   <ul>
+        <li>Reason for Failure: ${failureMessage} </li>
+        <li>Start Time: ${startTime} </li>
+        <li>Duration: ${duration} </li>
+   </ul>
+   '),
+   email_body('
+   <b><p>Your Inbound Package: <a href="${urlInboundPackagePage}">${packageName}</a> has failed to be validated.</p></b>
+   <br/>
+   <ul>
+       <li>Reason for Failure: ${failureMessage} </li>
+       <li>Start Time: ${startTime} </li>
+       <li>Duration: ${duration} </li>
+   </ul>
+   '),
+   entity_type('document'),
+   notification_category('none__sys')
+);

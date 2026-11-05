@@ -1,0 +1,4 @@
+Typefield do_not_sync_sales_data__v (
+   source('standard'),
+   required(false)
+);

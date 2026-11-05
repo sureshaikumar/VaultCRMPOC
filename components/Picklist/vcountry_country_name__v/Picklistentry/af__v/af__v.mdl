@@ -1,0 +1,5 @@
+Picklistentry af__v (
+   value('Afghanistan'),
+   order(2),
+   active(true)
+);

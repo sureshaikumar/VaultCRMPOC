@@ -1,0 +1,6 @@
+Message job_scheduler_limit_nonnegative__v (
+   label(),
+   active(true),
+   default_value('Query parameter lowerLimit and upperLimit must be non-negative integers.'),
+   system_managed(false)
+);

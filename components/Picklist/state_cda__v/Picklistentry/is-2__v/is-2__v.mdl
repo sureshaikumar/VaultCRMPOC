@@ -1,0 +1,6 @@
+Picklistentry is-2__v (
+   value('Suðurnes'),
+   order(2084),
+   active(true),
+   controlling_entries('is__v')
+);

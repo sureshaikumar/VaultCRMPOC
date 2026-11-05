@@ -1,0 +1,6 @@
+Message my_cases_label__v (
+   label(),
+   active(true),
+   default_value('My Cases'),
+   system_managed(false)
+);

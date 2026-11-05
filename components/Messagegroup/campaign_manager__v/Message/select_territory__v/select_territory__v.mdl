@@ -1,0 +1,6 @@
+Message select_territory__v (
+   label(),
+   active(true),
+   default_value('Select Territory'),
+   system_managed(false)
+);

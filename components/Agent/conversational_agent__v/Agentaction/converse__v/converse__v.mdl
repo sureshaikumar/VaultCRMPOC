@@ -1,0 +1,12 @@
+Agentaction converse__v (
+   label('Converse'),
+   active(false),
+   api_access(false),
+   description('Converses with the user'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

@@ -1,0 +1,6 @@
+Message failed_to_deliver_detail__v (
+   label(),
+   active(true),
+   default_value('You message was failed to deliver. Please contact your administrator to resolve this issue.'),
+   system_managed(false)
+);

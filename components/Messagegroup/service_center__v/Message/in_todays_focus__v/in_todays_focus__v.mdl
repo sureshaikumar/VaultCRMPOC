@@ -1,0 +1,6 @@
+Message in_todays_focus__v (
+   label(),
+   active(true),
+   default_value('In Today''s Focus'),
+   system_managed(false)
+);

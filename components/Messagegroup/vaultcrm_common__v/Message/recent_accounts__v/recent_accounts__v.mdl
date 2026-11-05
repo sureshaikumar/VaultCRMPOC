@@ -1,0 +1,6 @@
+Message recent_accounts__v (
+   label(),
+   active(true),
+   default_value('Recent Accounts'),
+   system_managed(false)
+);

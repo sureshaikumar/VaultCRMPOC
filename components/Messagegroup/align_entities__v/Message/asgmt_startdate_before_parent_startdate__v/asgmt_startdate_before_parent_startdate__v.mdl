@@ -1,0 +1,6 @@
+Message asgmt_startdate_before_parent_startdate__v (
+   label(),
+   active(true),
+   default_value('Assignment Start Date cannot be before Parent Start Date.'),
+   system_managed(false)
+);

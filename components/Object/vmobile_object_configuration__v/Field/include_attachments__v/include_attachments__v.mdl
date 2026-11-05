@@ -1,0 +1,18 @@
+Field include_attachments__v (
+   label('Include Attachments'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Include attachment information when synchronizing object.'),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

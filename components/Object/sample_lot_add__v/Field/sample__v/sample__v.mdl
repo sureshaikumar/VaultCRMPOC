@@ -1,0 +1,18 @@
+Field sample__v (
+   label('Sample'),
+   type('Picklist'),
+   active(true),
+   description('Field to capture the Sample Name of the Found Sample Lot.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.sample_lot_add_sample__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

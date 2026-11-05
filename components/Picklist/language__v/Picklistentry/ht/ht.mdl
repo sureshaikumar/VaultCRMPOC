@@ -1,0 +1,5 @@
+Picklistentry ht (
+   value('Haitian'),
+   order(73),
+   active(true)
+);

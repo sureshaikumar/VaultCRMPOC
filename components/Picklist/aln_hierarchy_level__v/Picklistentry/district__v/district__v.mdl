@@ -1,0 +1,5 @@
+Picklistentry district__v (
+   value('District'),
+   order(1),
+   active(true)
+);

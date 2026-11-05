@@ -1,0 +1,12 @@
+RECREATE Tab campaigns__v (
+   active(true),
+   enable_global_search(true),
+   global_search_placeholder('Search Campaigns'),
+   label('Campaigns'),
+   modal_create_record(false),
+   order(6200),
+   page('Page.campaign_manager_campaigns_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

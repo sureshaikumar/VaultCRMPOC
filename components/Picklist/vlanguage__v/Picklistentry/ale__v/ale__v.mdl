@@ -1,0 +1,5 @@
+Picklistentry ale__v (
+   value('Aleut'),
+   order(12),
+   active(false)
+);

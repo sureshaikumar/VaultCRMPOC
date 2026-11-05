@@ -1,0 +1,6 @@
+Picklistentry ly-gt__v (
+   value('Ghāt'),
+   order(2747),
+   active(true),
+   controlling_entries('ly__v')
+);

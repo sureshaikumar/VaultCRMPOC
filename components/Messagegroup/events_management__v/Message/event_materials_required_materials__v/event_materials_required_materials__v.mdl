@@ -1,0 +1,6 @@
+Message event_materials_required_materials__v (
+   label(),
+   active(true),
+   default_value('Upload Materials'),
+   system_managed(false)
+);

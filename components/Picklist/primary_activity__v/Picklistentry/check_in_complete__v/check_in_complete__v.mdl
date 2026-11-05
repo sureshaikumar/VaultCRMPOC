@@ -1,0 +1,5 @@
+Picklistentry check_in_complete__v (
+   value('Check-In: Complete'),
+   order(0),
+   active(true)
+);

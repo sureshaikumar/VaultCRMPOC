@@ -1,0 +1,6 @@
+Message concur_total_exp_receipts__v (
+   label(),
+   active(true),
+   default_value('Total Expense Receipts'),
+   system_managed(false)
+);

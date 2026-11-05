@@ -1,0 +1,14 @@
+Vsmrelationship application_roles__v (
+   label('Application Roles'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('The application roles associated with this permission set, defining what access and capabilities are granted through the use of User Roles. Use this to find all roles linked to a permission set or filter permission sets by a specific role (e.g., application_roles__sysr.name__v = ''Reviewer'').'),
+   join_object(),
+   synonyms('roles',
+         'assigned roles',
+         'app roles',
+         'role assignments'),
+   target('application_roles__sysr'),
+   target_label('Role Permission Set'),
+   target_object('application_role__v')
+);

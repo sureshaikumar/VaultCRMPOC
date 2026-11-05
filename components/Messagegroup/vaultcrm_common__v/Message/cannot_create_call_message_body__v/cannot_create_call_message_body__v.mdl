@@ -1,0 +1,6 @@
+Message cannot_create_call_message_body__v (
+   label(),
+   active(true),
+   default_value('Creating a ${call_label} from this entry point is currently not supported.'),
+   system_managed(false)
+);

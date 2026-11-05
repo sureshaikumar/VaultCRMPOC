@@ -1,0 +1,5 @@
+Picklistentry menu_navigation__v (
+   value('Menu Navigation'),
+   order(0),
+   active(true)
+);

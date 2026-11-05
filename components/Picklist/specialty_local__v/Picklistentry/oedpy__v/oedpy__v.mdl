@@ -1,0 +1,6 @@
+Picklistentry oedpy__v (
+   value('Ophthalmology (Eye Diseases)'),
+   order(1138),
+   active(true),
+   controlling_entries('dk__v')
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist em_speaker_nomination_justification__v (
+   label('Justification'),
+   active(true),
+   Picklistentry(@Picklistentry/prior_speaking_experience__v.mdl),
+   Picklistentry(@Picklistentry/research_and_publications__v.mdl),
+   Picklistentry(@Picklistentry/knowledge_of_therapeutic_area_and_diseas__v.mdl),
+   Picklistentry(@Picklistentry/medical_thought_leader_or_expertise__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

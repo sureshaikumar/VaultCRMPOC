@@ -1,0 +1,5 @@
+Picklistentry san__v (
+   value('Sanskrit'),
+   order(271),
+   active(false)
+);

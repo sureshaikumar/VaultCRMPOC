@@ -1,0 +1,6 @@
+Picklistentry mm-12__v (
+   value('Kayah'),
+   order(3063),
+   active(true),
+   controlling_entries('mm__v')
+);

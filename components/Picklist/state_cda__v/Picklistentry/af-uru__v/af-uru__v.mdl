@@ -1,0 +1,6 @@
+Picklistentry af-uru__v (
+   value('Uruzgān'),
+   order(45),
+   active(true),
+   controlling_entries('af__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry fmaeo__v (
+   value('Forensic Medicine and Expertise'),
+   order(556),
+   active(true),
+   controlling_entries('sn__v')
+);

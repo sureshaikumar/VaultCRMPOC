@@ -1,0 +1,6 @@
+Message model_rule_commit_successful__v (
+   label(),
+   active(true),
+   default_value('Model rule commit completed for ${entity_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry sspuj__v (
+   value('Spinal Surgery'),
+   order(1795),
+   active(true),
+   controlling_entries('cz__v')
+);

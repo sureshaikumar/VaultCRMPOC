@@ -1,0 +1,7 @@
+Picklistentry ppaht__v (
+   value('Pathological Physiology'),
+   order(1294),
+   active(true),
+   controlling_entries('am__v',
+         'kg__v')
+);

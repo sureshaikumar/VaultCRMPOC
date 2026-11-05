@@ -1,0 +1,17 @@
+Field documented_interest_text__v (
+   label('Documented Text'),
+   type('RichText'),
+   active(true),
+   description('The text field captures the specific Interests of the HCP.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

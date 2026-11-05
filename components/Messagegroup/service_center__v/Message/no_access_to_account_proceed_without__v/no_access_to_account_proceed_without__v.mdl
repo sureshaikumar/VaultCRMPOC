@@ -1,0 +1,6 @@
+Message no_access_to_account_proceed_without__v (
+   label(),
+   active(true),
+   default_value('You do not have access to the account ${account_name}. Click continue to proceed and open a new case without an assigned account.'),
+   system_managed(false)
+);

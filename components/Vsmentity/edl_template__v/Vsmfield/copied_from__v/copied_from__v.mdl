@@ -1,0 +1,14 @@
+Vsmfield copied_from__v (
+   label('Copied From'),
+   active(true),
+   description('References the EDL Template this record was copied or cloned from. Use this field to trace template lineage, identify derived templates, or find all templates created from a common source.'),
+   example_values(),
+   synonyms('source template',
+         'cloned from',
+         'original template',
+         'based on'),
+   target('copied_from__v'),
+   target_label('Copied From'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

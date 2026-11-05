@@ -1,0 +1,14 @@
+RECREATE Page view_contract_signatures_page__v (
+   label('View Contract Signatures'),
+   active(true),
+   client_distribution(),
+   default_client_code('view_contract_signatures_page__v'),
+   description('View contract partner signatures by account, contract, or contract partner'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.contractsmanagement.controls.page.ViewContractSignaturesPageController'),
+   url_path_name('view-contract-signatures')
+);

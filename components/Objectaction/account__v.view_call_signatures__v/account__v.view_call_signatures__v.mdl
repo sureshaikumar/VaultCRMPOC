@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.view_call_signatures__v (
+   label('View Call Signatures'),
+   description('Record action to view the Account Signatures for the Calls.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.account.actions.ViewCallSignaturesAction'),
+   active(true),
+   available_all_states(true)
+);

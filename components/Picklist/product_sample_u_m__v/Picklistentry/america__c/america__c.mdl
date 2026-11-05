@@ -1,0 +1,5 @@
+Picklistentry america__c (
+   value('America'),
+   order(5),
+   active(true)
+);

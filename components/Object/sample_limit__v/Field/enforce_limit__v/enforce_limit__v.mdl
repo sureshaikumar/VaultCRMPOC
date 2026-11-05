@@ -1,0 +1,18 @@
+Field enforce_limit__v (
+   label('Enforce Limit'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the limit should be strictly enforced or if requests can exceed the defined limit quantity; Default value is checked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

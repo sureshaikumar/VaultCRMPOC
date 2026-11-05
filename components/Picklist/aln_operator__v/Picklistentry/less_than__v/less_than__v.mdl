@@ -1,0 +1,5 @@
+Picklistentry less_than__v (
+   value('less than'),
+   order(5),
+   active(true)
+);

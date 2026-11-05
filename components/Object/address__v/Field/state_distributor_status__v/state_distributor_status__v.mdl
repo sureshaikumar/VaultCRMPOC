@@ -1,0 +1,18 @@
+Field state_distributor_status__v (
+   label('State Distributor Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('State Distributor Status for the Business Address. This field should be set to either Valid_vod or Invalid_vod. Valid_vod will allow the Health Care Professional to receive samples at this Business Address.'),
+   list_column(false),
+   order(74),
+   multi_value(false),
+   picklist('Picklist.address_state_distributor_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

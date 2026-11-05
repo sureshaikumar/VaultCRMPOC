@@ -1,0 +1,14 @@
+RECREATE Agent insight_capture_agent__v (
+   label('Insight Capture Agent'),
+   active(false),
+   agent_user('[agent]insight_capture_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.InsightCaptureClass'),
+   description('This agent performs insight capture actions in Vault CRM. It converts voice entries or other inputs into records within Vault CRM. Outputs are Insights.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/capture_commercial_insight__v.mdl)
+);

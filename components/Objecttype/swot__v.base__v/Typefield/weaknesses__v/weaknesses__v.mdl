@@ -1,0 +1,4 @@
+Typefield weaknesses__v (
+   source('standard'),
+   required(false)
+);

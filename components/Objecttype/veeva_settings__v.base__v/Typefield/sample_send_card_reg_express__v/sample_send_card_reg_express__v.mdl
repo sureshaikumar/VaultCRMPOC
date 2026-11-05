@@ -1,0 +1,4 @@
+Typefield sample_send_card_reg_express__v (
+   source('standard'),
+   required(false)
+);

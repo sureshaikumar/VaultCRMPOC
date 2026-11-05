@@ -1,0 +1,6 @@
+Picklistentry dz-06__v (
+   value('Béjaïa'),
+   order(987),
+   active(true),
+   controlling_entries('dz__v')
+);

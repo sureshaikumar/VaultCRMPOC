@@ -1,0 +1,6 @@
+Picklistentry rheun__v (
+   value('Rheumatism'),
+   order(1751),
+   active(true),
+   controlling_entries('vn__v')
+);

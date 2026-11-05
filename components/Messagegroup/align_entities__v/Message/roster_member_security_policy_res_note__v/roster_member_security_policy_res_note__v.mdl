@@ -1,0 +1,6 @@
+Message roster_member_security_policy_res_note__v (
+   label(),
+   active(true),
+   default_value('This roster member''s primary territory assignment (${terr}) is being used to determine their CRM Security Policy (${crmSecurityPolicyName}).'),
+   system_managed(false)
+);

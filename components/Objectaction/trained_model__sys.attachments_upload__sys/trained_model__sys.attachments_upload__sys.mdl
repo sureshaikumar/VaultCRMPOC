@@ -1,0 +1,8 @@
+RECREATE Objectaction trained_model__sys.attachments_upload__sys (
+   label('Attachments: Upload'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.AttachmentsUpload'),
+   active(true),
+   available_all_states(true)
+);

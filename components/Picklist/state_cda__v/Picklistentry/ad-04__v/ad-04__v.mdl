@@ -1,0 +1,6 @@
+Picklistentry ad-04__v (
+   value('La Massana'),
+   order(2),
+   active(true),
+   controlling_entries('ad__v')
+);

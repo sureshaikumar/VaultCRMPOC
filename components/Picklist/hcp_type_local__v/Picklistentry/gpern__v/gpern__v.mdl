@@ -1,0 +1,5 @@
+Picklistentry gpern__v (
+   value('General Practitioner'),
+   order(42),
+   active(true)
+);

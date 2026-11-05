@@ -1,0 +1,6 @@
+Message scheduled_email_alert__v (
+   label(),
+   active(true),
+   default_value('You have selected to send this email on ${scheduled_date} at ${scheduled_time}.'),
+   system_managed(false)
+);

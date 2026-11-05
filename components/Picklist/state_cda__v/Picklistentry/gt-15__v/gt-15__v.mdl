@@ -1,0 +1,6 @@
+Picklistentry gt-15__v (
+   value('Baja Verapaz'),
+   order(1794),
+   active(true),
+   controlling_entries('gt__v')
+);

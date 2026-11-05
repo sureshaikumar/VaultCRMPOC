@@ -1,0 +1,4 @@
+Typefield channels__v (
+   source('standard'),
+   required(false)
+);

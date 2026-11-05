@@ -1,0 +1,23 @@
+Field approved_email_consent_mode__v (
+   label('Approved Email Consent Mode'),
+   type('Number'),
+   active(true),
+   description('Determines whether or not the old Email opt in button is visible to user when Consent Capture is enabled on mobile devices. When 0, existing behavior. When 1, hide Email Opt in button on mobile devices.'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

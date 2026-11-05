@@ -1,0 +1,6 @@
+Message wd_refresh_token_label__v (
+   label(),
+   active(true),
+   default_value('Refresh Token'),
+   system_managed(false)
+);

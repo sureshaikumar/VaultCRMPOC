@@ -1,0 +1,6 @@
+Message leaving_unsaved_changes__v (
+   label(),
+   active(true),
+   default_value('Leaving this page will discard all unsaved changes. Do you wish to continue?'),
+   system_managed(false)
+);

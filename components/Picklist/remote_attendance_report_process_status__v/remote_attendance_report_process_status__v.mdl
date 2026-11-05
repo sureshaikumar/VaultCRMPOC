@@ -1,0 +1,13 @@
+RECREATE Picklist remote_attendance_report_process_status__v (
+   label('Processing Status'),
+   active(true),
+   Picklistentry(@Picklistentry/meeting_not_started__v.mdl),
+   Picklistentry(@Picklistentry/meeting_occurred__v.mdl),
+   Picklistentry(@Picklistentry/retry__v.mdl),
+   Picklistentry(@Picklistentry/success__v.mdl),
+   Picklistentry(@Picklistentry/retries_maxed__v.mdl),
+   Picklistentry(@Picklistentry/retry_recording__v.mdl),
+   Picklistentry(@Picklistentry/retry_attendance__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

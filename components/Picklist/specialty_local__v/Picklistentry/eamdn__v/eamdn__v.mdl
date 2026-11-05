@@ -1,0 +1,10 @@
+Picklistentry eamdn__v (
+   value('Endocrinology and Metabolic Diseases'),
+   order(500),
+   active(true),
+   controlling_entries('bg__v',
+         'hu__v',
+         'ma__v',
+         'tr__v',
+         'us__v')
+);

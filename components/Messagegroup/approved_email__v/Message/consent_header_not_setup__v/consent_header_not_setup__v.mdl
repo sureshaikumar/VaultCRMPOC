@@ -1,0 +1,6 @@
+Message consent_header_not_setup__v (
+   label(),
+   active(true),
+   default_value('There are no Consent Header records applicable for this Account. Please review your Consent Capture setup.'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+Field remove_from_territory_dcr_acct_types__v (
+   label('REMOVE_FROM_TERRITORY_DCR_ACCT_TYPES'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Controls which account types the Remove from Territory button is added to on iPad.'),
+   list_column(false),
+   order(253),
+   default_value('"REMOVE_FROM_TERRITORY_DCR_ACCT_TYPES;;Feedback"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

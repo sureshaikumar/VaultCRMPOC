@@ -1,0 +1,6 @@
+Picklistentry is-rkn__v (
+   value('Reykjanesbær'),
+   order(2130),
+   active(true),
+   controlling_entries('is__v')
+);

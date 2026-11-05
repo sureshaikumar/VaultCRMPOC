@@ -1,0 +1,6 @@
+Message data_grid_loader_duplicate_record__v (
+   label(),
+   active(true),
+   default_value('Duplicate Row: ${record_identifier}. Another row exists with the same identifier.'),
+   system_managed(false)
+);

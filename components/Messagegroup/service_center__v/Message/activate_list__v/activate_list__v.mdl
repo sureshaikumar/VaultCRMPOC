@@ -1,0 +1,6 @@
+Message activate_list__v (
+   label(),
+   active(true),
+   default_value('Activate List'),
+   system_managed(false)
+);

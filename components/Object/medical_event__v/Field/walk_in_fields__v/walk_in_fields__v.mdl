@@ -1,0 +1,21 @@
+Field walk_in_fields__v (
+   label('Walk-In Fields'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This field is used to support disconnected signature capture for the Events Management product.
+                     Used to store fields that are entered by walk-in attendees. Format is: ;FieldName1;FieldName2;...FieldNameX;
+                     Fields c'),
+   list_column(false),
+   order(45),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

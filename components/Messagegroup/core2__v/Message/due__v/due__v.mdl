@@ -1,0 +1,6 @@
+Message due__v (
+   label(),
+   active(true),
+   default_value('Due ${due_date}'),
+   system_managed(false)
+);

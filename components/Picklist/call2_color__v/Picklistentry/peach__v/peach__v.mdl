@@ -1,0 +1,5 @@
+Picklistentry peach__v (
+   value('Peach'),
+   order(5),
+   active(true)
+);

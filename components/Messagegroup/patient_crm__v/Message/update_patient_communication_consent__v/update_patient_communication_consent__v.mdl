@@ -1,0 +1,6 @@
+Message update_patient_communication_consent__v (
+   label(),
+   active(true),
+   default_value('Update Patient''s Communication Consent?'),
+   system_managed(false)
+);

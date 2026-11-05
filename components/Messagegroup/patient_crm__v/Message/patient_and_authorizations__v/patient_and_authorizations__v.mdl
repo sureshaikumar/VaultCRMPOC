@@ -1,0 +1,6 @@
+Message patient_and_authorizations__v (
+   label(),
+   active(true),
+   default_value('Patient and Authorizations'),
+   system_managed(false)
+);

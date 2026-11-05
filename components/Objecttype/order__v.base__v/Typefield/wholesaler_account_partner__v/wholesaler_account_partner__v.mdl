@@ -1,0 +1,4 @@
+Typefield wholesaler_account_partner__v (
+   source('standard'),
+   required(false)
+);

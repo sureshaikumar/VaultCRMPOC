@@ -1,0 +1,13 @@
+Picklistentry psycl__v (
+   value('Psychotherapy'),
+   order(1629),
+   active(true),
+   controlling_entries('am__v',
+         'ba__v',
+         'ge__v',
+         'hr__v',
+         'hu__v',
+         'kg__v',
+         'mk__v',
+         'ua__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-an__v (
+   value('Ancona'),
+   order(2177),
+   active(true),
+   controlling_entries('it__v')
+);

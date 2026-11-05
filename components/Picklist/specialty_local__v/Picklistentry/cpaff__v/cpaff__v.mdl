@@ -1,0 +1,6 @@
+Picklistentry cpaff__v (
+   value('Clinical Physiology and Functional Exploration and Nutrition'),
+   order(287),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry fr-mf__v (
+   value('Saint-Martin'),
+   order(1428),
+   active(true),
+   controlling_entries('fr__v')
+);

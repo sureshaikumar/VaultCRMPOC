@@ -1,0 +1,6 @@
+Picklistentry tn-83__v (
+   value('Tataouine'),
+   order(4453),
+   active(true),
+   controlling_entries('tn__v')
+);

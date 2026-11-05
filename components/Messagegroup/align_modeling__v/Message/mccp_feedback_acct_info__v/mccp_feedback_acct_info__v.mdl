@@ -1,0 +1,6 @@
+Message mccp_feedback_acct_info__v (
+   label(),
+   active(true),
+   default_value('Account Information'),
+   system_managed(false)
+);

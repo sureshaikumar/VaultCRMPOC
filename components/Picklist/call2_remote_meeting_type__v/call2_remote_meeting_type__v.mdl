@@ -1,0 +1,9 @@
+RECREATE Picklist call2_remote_meeting_type__v (
+   label('Remote Meeting Type'),
+   active(true),
+   Picklistentry(@Picklistentry/engage_meeting__v.mdl),
+   Picklistentry(@Picklistentry/ms_teams_meeting__v.mdl),
+   Picklistentry(@Picklistentry/zoom_meeting__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

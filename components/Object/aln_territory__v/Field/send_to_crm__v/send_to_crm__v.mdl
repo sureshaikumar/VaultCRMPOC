@@ -1,0 +1,18 @@
+Field send_to_crm__v (
+   label('Send to CRM'),
+   type('Boolean'),
+   active(true),
+   description('The indication for if this territory should be sent to Vault CRM. This is most commonly used to ensure Incentive Compensation alignments are not sent to the Field.'),
+   required(true),
+   checkbox(false),
+   help_content('The indication for if this territory should be sent to Vault CRM. This is most commonly used to ensure Incentive Compensation alignments are not sent to the Field.'),
+   list_column(true),
+   order(23),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,23 @@
+Field maximum_samples__v (
+   label('MAXIMUM_SAMPLES'),
+   type('Number'),
+   active(true),
+   description('Configured value for the maximum number of samples to be displayed in the Signature page for VMobile Tablet application.  Default value is 20.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(205),
+   default_value('20'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message survey_select_response_type__v (
+   label(),
+   active(true),
+   default_value('Select response type'),
+   system_managed(false)
+);

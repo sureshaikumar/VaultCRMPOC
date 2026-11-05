@@ -1,0 +1,4 @@
+Typefield html_message_file__v (
+   source('custom'),
+   required(false)
+);

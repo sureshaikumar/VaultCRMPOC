@@ -1,0 +1,18 @@
+Field disable_trigger__v (
+   label('Disable Trigger'),
+   type('Boolean'),
+   active(true),
+   description('If true then the affiliation triggers will not update the mirror affiliation.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message no_targets__v (
+   label(),
+   active(true),
+   default_value('No Targets'),
+   system_managed(false)
+);

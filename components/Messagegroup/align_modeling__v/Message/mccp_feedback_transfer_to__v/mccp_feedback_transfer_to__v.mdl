@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_to__v (
+   label(),
+   active(true),
+   default_value('Transfer To'),
+   system_managed(false)
+);

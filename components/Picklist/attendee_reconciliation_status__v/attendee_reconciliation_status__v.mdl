@@ -1,0 +1,8 @@
+RECREATE Picklist attendee_reconciliation_status__v (
+   label('Attendee Reconciliation Status'),
+   active(true),
+   Picklistentry(@Picklistentry/pending_reconciliation__v.mdl),
+   Picklistentry(@Picklistentry/reconciled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

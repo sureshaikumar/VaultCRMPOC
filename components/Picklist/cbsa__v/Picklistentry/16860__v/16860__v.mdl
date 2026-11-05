@@ -1,0 +1,5 @@
+Picklistentry 16860__v (
+   value('Chattanooga, TN-GA Metropolitan Statistical Area'),
+   order(944),
+   active(true)
+);

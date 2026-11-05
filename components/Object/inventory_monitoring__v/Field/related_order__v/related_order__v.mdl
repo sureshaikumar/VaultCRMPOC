@@ -1,0 +1,19 @@
+Field related_order__v (
+   label('Related Order'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Stamps in a text format and displays a link to the ID of the order that benefited from this Inventory Monitoring record to get inventory monitoring driven discounts'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

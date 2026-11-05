@@ -1,0 +1,4 @@
+Typefield b106__v (
+   source('standard'),
+   required(false)
+);

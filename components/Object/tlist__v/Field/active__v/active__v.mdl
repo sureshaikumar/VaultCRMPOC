@@ -1,0 +1,17 @@
+Field active__v (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the target is (or was) included in the campaign.'),
+   required(true),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

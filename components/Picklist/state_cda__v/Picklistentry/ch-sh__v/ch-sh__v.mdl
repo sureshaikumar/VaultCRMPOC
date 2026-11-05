@@ -1,0 +1,6 @@
+Picklistentry ch-sh__v (
+   value('Schaffhausen'),
+   order(643),
+   active(true),
+   controlling_entries('ch__v')
+);

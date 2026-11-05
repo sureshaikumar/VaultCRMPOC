@@ -1,0 +1,4 @@
+Typefield valid_consent_exists__v (
+   source('custom'),
+   required(false)
+);

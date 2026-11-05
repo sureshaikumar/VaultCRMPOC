@@ -1,0 +1,17 @@
+Field expiration_date__v (
+   label('Expiration Date'),
+   type('Date'),
+   active(true),
+   description('Date the Documented Interest is no longer available for selection on call or displayed on the Manage Interest screen. This field when on page layout derives special UX behavior to renew or expire the Documented Interest.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

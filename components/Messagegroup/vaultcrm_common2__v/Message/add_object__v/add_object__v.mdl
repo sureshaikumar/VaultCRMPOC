@@ -1,0 +1,6 @@
+Message add_object__v (
+   label(),
+   active(true),
+   default_value('Add ${object_label}'),
+   system_managed(false)
+);

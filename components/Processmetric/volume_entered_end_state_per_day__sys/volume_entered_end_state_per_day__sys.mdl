@@ -1,0 +1,9 @@
+RECREATE Processmetric volume_entered_end_state_per_day__sys (
+   label('Entered End State / Day'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The average number of unique records that entered the end state per day.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.volume__sys')
+);

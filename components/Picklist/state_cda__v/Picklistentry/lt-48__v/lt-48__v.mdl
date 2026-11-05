@@ -1,0 +1,6 @@
+Picklistentry lt-48__v (
+   value('Skuodas'),
+   order(2666),
+   active(true),
+   controlling_entries('lt__v')
+);

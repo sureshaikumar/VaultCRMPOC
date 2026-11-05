@@ -1,0 +1,19 @@
+Field sync_delete_refresh_mode__v (
+   label('SYNC_DELETE_REFRESH_MODE_vod'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(16),
+   help_content('Set to one of OFF, PRODUCTION, or TEST. Use OFF unless planning large numbers of deletes.'),
+   list_column(false),
+   order(273),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

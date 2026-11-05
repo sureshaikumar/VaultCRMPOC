@@ -1,0 +1,6 @@
+Picklistentry az-sab__v (
+   value('Sabirabad'),
+   order(187),
+   active(true),
+   controlling_entries('az__v')
+);

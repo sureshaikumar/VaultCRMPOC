@@ -1,0 +1,5 @@
+Picklistentry on_prior_auth__c (
+   value('On/Prior Auth'),
+   order(2),
+   active(true)
+);

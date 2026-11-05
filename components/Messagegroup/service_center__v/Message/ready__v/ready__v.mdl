@@ -1,0 +1,6 @@
+Message ready__v (
+   label(),
+   active(true),
+   default_value('Ready'),
+   system_managed(false)
+);

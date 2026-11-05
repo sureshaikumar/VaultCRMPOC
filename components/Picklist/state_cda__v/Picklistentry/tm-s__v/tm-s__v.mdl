@@ -1,0 +1,6 @@
+Picklistentry tm-s__v (
+   value('Aşgabat'),
+   order(4429),
+   active(true),
+   controlling_entries('tm__v')
+);

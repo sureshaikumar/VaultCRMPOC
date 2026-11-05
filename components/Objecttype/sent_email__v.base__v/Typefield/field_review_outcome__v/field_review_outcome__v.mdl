@@ -1,0 +1,4 @@
+Typefield field_review_outcome__v (
+   source('standard'),
+   required(false)
+);

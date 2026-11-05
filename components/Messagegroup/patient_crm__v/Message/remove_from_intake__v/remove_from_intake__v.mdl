@@ -1,0 +1,6 @@
+Message remove_from_intake__v (
+   label(),
+   active(true),
+   default_value('Remove from Intake'),
+   system_managed(false)
+);

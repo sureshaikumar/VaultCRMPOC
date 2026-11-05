@@ -1,0 +1,5 @@
+Picklistentry new_product_request_name__c (
+   value('Update Picklist Label'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry ocue__v (
+   value('Outpatient Center'),
+   order(182),
+   active(true)
+);

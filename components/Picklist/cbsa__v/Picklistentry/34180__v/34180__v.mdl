@@ -1,0 +1,5 @@
+Picklistentry 34180__v (
+   value('Moses Lake, WA Micropolitan Statistical Area'),
+   order(123),
+   active(true)
+);

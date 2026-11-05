@@ -1,0 +1,6 @@
+Message reassign_target_message__v (
+   label(),
+   active(true),
+   default_value('All business event target assignees will be updated based on territory alignments. Continue to reassign?'),
+   system_managed(false)
+);

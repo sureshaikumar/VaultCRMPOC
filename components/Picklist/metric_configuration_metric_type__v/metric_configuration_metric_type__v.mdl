@@ -1,0 +1,11 @@
+RECREATE Picklist metric_configuration_metric_type__v (
+   label('Metric Type'),
+   active(true),
+   Picklistentry(@Picklistentry/number__v.mdl),
+   Picklistentry(@Picklistentry/text__v.mdl),
+   Picklistentry(@Picklistentry/box__v.mdl),
+   Picklistentry(@Picklistentry/arrows__v.mdl),
+   Picklistentry(@Picklistentry/checkbox__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

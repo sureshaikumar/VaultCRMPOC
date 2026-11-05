@@ -1,0 +1,6 @@
+Picklistentry lt-pn__v (
+   value('Panevėžys County'),
+   order(2683),
+   active(true),
+   controlling_entries('lt__v')
+);

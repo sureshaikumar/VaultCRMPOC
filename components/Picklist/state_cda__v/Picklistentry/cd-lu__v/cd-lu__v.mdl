@@ -1,0 +1,6 @@
+Picklistentry cd-lu__v (
+   value('Lualaba'),
+   order(586),
+   active(true),
+   controlling_entries('cd__v')
+);

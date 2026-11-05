@@ -1,0 +1,4 @@
+Typefield channel_activity_remaining__v (
+   source('standard'),
+   required(false)
+);

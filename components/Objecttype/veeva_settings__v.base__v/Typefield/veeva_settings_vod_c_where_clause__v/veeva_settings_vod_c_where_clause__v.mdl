@@ -1,0 +1,4 @@
+Typefield veeva_settings_vod_c_where_clause__v (
+   source('standard'),
+   required(false)
+);

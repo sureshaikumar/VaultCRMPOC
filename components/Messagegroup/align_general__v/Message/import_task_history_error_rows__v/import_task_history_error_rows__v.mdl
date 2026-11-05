@@ -1,0 +1,6 @@
+Message import_task_history_error_rows__v (
+   label(),
+   active(true),
+   default_value('Error Rows'),
+   system_managed(false)
+);

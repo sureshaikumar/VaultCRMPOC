@@ -1,0 +1,6 @@
+Message rule_product_metric_logic_label__v (
+   label(),
+   active(true),
+   default_value('Product Metric Logic'),
+   system_managed(false)
+);

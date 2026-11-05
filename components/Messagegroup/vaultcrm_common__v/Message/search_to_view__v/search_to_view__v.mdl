@@ -1,0 +1,6 @@
+Message search_to_view__v (
+   label(),
+   active(true),
+   default_value('Search to view available items'),
+   system_managed(false)
+);

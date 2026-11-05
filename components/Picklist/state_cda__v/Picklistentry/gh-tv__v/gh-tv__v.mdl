@@ -1,0 +1,6 @@
+Picklistentry gh-tv__v (
+   value('Volta'),
+   order(1699),
+   active(true),
+   controlling_entries('gh__v')
+);

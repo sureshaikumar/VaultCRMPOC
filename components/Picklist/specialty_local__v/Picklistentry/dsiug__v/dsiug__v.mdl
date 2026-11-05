@@ -1,0 +1,6 @@
+Picklistentry dsiug__v (
+   value('Digestive Surgery'),
+   order(447),
+   active(true),
+   controlling_entries('mk__v')
+);

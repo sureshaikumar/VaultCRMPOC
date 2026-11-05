@@ -1,0 +1,6 @@
+Picklistentry ug-413__v (
+   value('Kamwenge'),
+   order(4755),
+   active(true),
+   controlling_entries('ug__v')
+);

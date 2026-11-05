@@ -1,0 +1,6 @@
+Message microsoft_sign_in_preview_case_note__v (
+   label(),
+   active(true),
+   default_value('You are not signed in to Microsoft 365. Sign in to preview this case note.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message feedback_guidance__v (
+   label(),
+   active(true),
+   default_value('Guidance'),
+   system_managed(false)
+);

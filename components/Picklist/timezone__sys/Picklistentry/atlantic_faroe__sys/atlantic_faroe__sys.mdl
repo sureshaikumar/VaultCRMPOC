@@ -1,0 +1,5 @@
+Picklistentry atlantic_faroe__sys (
+   value('(GMT+00:00) Western European Time (Atlantic/Faroe)'),
+   order(146),
+   active(true)
+);

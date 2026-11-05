@@ -1,0 +1,18 @@
+Field analytics_report__v (
+   label('Analytics Report'),
+   type('Picklist'),
+   active(true),
+   description('The Analytics report for which the filters are saved'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(9),
+   multi_value(false),
+   picklist('Picklist.analytics_filters_analytics_report__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

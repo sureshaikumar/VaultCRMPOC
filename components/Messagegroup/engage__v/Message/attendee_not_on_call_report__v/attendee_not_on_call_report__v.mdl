@@ -1,0 +1,6 @@
+Message attendee_not_on_call_report__v (
+   label(),
+   active(true),
+   default_value('Attendee not on call report'),
+   system_managed(false)
+);

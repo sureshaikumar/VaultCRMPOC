@@ -1,0 +1,7 @@
+Picklistentry ciaal__v (
+   value('Clinical Immunology and Allergy'),
+   order(231),
+   active(true),
+   controlling_entries('ca__v',
+         'th__v')
+);

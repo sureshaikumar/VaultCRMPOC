@@ -1,0 +1,4 @@
+Typefield consent_custom_duration__v (
+   source('standard'),
+   required(false)
+);

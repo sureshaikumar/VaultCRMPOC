@@ -1,0 +1,5 @@
+Picklistentry ve__v (
+   value('Venezuela'),
+   order(240),
+   active(true)
+);

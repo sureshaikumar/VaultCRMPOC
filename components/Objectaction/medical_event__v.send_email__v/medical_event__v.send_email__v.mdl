@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_event__v.send_email__v (
+   label('Send Email'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalevents.actions.SendEmailAction'),
+   active(true),
+   available_all_states(true)
+);

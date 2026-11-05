@@ -1,0 +1,5 @@
+Picklistentry anti_inflammatory_medicines_nsaids__v (
+   value('Anti-Inflammatory Medicines (NSAIDs)'),
+   order(0),
+   active(true)
+);

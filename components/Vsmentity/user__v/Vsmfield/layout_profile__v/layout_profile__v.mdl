@@ -1,0 +1,11 @@
+Vsmfield layout_profile__v (
+   label('Layout Profile'),
+   active(true),
+   description('Field that determines which specific page layouts a user sees when viewing, editing, or creating object records in Veeva Vault'),
+   example_values(),
+   synonyms(),
+   target('layout_profile__sys'),
+   target_label('Layout Profile'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

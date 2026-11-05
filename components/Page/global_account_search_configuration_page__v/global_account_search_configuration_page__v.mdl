@@ -1,0 +1,14 @@
+RECREATE Page global_account_search_configuration_page__v (
+   label('Global Account Search Configuration'),
+   active(true),
+   client_distribution(),
+   default_client_code('global_account_search_configuration_page__v'),
+   description('Global Account Search Configuration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.globalaccountsearch.controls.GlobalAccountSearchConfigurationPageController'),
+   url_path_name('global-account-search-configuration')
+);

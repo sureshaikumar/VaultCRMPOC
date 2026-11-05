@@ -1,0 +1,14 @@
+RECREATE Page patient_center__v (
+   label('Patient Center'),
+   active(true),
+   client_distribution(),
+   default_client_code('patient_center__v'),
+   description('Patient Center application page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.patientcrm.controls.PatientCenterPageController'),
+   url_path_name('patient-center')
+);

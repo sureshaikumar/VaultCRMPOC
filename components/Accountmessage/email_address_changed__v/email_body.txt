@@ -1,0 +1,10 @@
+<p>The email address associated with your Veeva Vault account has been changed.</p>
+
+<p>Your new email address is:</p>
+
+<p>
+User Name: <b>${userName}</b><br>
+Email: <b>${userEmail}</b><br>
+</p>
+
+If you think your email address was changed in error, please contact your system administrator.

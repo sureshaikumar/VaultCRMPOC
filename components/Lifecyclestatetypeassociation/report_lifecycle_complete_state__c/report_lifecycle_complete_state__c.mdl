@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation report_lifecycle_complete_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.report_lifecycle__sys'),
+   object_lifecycle_state(),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

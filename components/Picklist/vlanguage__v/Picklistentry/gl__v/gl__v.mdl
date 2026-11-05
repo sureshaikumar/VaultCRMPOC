@@ -1,0 +1,5 @@
+Picklistentry gl__v (
+   value('Galician'),
+   order(108),
+   active(false)
+);

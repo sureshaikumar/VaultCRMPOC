@@ -1,0 +1,5 @@
+Picklistentry asia_baku__v (
+   value('Azerbaijan Time'),
+   order(33),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message click_to_dial_disabled_when_solved_case__v (
+   label(),
+   active(true),
+   default_value('Click-to-dial is disabled when a case is solved. Change the case to Open and try again.'),
+   system_managed(false)
+);

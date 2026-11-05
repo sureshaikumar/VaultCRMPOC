@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The name or label of the EDL item template record. Typically reflects the document type or category this template item represents within the parent EDL template.'),
+   example_values(),
+   synonyms('template name',
+         'item name',
+         'title'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

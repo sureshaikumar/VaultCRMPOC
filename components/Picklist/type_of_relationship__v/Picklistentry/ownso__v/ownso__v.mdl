@@ -1,0 +1,5 @@
+Picklistentry ownso__v (
+   value('HCO Owns'),
+   order(6),
+   active(true)
+);

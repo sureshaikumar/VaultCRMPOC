@@ -1,0 +1,5 @@
+Picklistentry europe_tallinn__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Tallinn)'),
+   order(189),
+   active(true)
+);

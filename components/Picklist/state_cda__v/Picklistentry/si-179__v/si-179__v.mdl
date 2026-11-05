@@ -1,0 +1,6 @@
+Picklistentry si-179__v (
+   value('Sodražica'),
+   order(4152),
+   active(true),
+   controlling_entries('si__v')
+);

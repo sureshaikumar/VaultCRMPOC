@@ -1,0 +1,6 @@
+Picklistentry sd-dw__v (
+   value('West Darfur'),
+   order(3932),
+   active(true),
+   controlling_entries('sd__v')
+);

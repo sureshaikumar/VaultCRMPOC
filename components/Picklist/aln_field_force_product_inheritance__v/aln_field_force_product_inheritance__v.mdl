@@ -1,0 +1,8 @@
+RECREATE Picklist aln_field_force_product_inheritance__v (
+   label('Field Force Product Inheritance'),
+   active(true),
+   Picklistentry(@Picklistentry/no_inheritance__v.mdl),
+   Picklistentry(@Picklistentry/territories_inherit_field_force_products__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction inprogress_state__c.reviewtask_useraction__c (
+   label('reviewtestobjectrecord'),
+   rule(@rule.xml),
+   order(1000)
+);

@@ -1,0 +1,4 @@
+Typefield how_does_gpo_support_product_launch__c (
+   source('custom'),
+   required(false)
+);

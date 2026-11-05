@@ -1,0 +1,5 @@
+Picklistentry mead_johnson__v (
+   value('Mead Johnson'),
+   order(24),
+   active(true)
+);

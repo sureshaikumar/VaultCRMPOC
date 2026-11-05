@@ -1,0 +1,6 @@
+Message find_research_prepare_content__v (
+   label(),
+   active(true),
+   default_value('Find, research, and prepare your content'),
+   system_managed(false)
+);

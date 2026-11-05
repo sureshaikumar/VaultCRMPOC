@@ -1,0 +1,17 @@
+Field channel_source__v (
+   label('Channel Source'),
+   type('LongText'),
+   active(true),
+   description('Store the values of the pull through fields that will be used to create the picklist values for Channel Fields. This is a double semi colon delimited set. Eg - Account.Email;;Account.Email2__c'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry doc_type_details__c (
+   value('Type, Subtype, Classification'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation medx_lifecycle_complete__v (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.medx_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.submitted_state__v'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

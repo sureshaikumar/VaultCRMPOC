@@ -1,0 +1,6 @@
+Picklistentry is-lan__v (
+   value('Langanesbyggð'),
+   order(2122),
+   active(true),
+   controlling_entries('is__v')
+);

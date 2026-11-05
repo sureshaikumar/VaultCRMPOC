@@ -1,0 +1,6 @@
+Message ready_to_connect__v (
+   label(),
+   active(true),
+   default_value('Ready to connect'),
+   system_managed(false)
+);

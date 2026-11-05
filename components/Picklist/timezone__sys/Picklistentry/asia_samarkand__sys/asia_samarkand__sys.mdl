@@ -1,0 +1,5 @@
+Picklistentry asia_samarkand__sys (
+   value('(GMT+05:00) Uzbekistan Time (Asia/Samarkand)'),
+   order(228),
+   active(true)
+);

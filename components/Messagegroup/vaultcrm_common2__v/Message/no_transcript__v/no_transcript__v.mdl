@@ -1,0 +1,6 @@
+Message no_transcript__v (
+   label(),
+   active(true),
+   default_value('No Transcript'),
+   system_managed(false)
+);

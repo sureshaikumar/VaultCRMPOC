@@ -1,0 +1,6 @@
+Picklistentry gw-bl__v (
+   value('Bolama'),
+   order(1803),
+   active(true),
+   controlling_entries('gw__v')
+);

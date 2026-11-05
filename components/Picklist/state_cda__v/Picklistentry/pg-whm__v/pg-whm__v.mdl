@@ -1,0 +1,6 @@
+Picklistentry pg-whm__v (
+   value('Western Highlands'),
+   order(3514),
+   active(true),
+   controlling_entries('pg__v')
+);

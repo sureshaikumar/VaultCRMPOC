@@ -1,0 +1,5 @@
+Picklistentry meeting_not_scheduled__v (
+   value('Meeting Not Scheduled'),
+   order(0),
+   active(true)
+);

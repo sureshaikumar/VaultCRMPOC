@@ -1,0 +1,6 @@
+Message fax_information_will_appear_here_once__v (
+   label(),
+   active(true),
+   default_value('Fax information will appear here once delivered'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-wll__v (
+   value('Walsall'),
+   order(1653),
+   active(true),
+   controlling_entries('gb__v')
+);

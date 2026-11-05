@@ -1,0 +1,6 @@
+Message accept_disclaimer_to_proceed__v (
+   label(),
+   active(true),
+   default_value('Required: Please accept the ${object_label} disclaimer to proceed.'),
+   system_managed(false)
+);

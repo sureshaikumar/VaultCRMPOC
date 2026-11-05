@@ -1,0 +1,6 @@
+Picklistentry gb-nmd__v (
+   value('Newry, Mourne and Down'),
+   order(1582),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,7 @@
+Typefield connection_status__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.msging_business_acc_connection_status__v.connected__v',
+         'Picklist.msging_business_acc_connection_status__v.disconnected__v',
+         'Picklist.msging_business_acc_connection_status__v.expired__v')
+);

@@ -1,0 +1,17 @@
+Field hq_slide_notes__v (
+   label('Slide Notes'),
+   type('RichText'),
+   active(true),
+   description('Allows storing speaker notes managed by HQ for the Key Message'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

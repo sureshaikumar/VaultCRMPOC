@@ -1,0 +1,5 @@
+Picklistentry patient_stopped_treatment__v (
+   value('Patient Stopped Treatment'),
+   order(1),
+   active(true)
+);

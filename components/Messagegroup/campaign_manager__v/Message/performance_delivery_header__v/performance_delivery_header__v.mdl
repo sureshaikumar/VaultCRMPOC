@@ -1,0 +1,6 @@
+Message performance_delivery_header__v (
+   label(),
+   active(true),
+   default_value('Delivery'),
+   system_managed(false)
+);

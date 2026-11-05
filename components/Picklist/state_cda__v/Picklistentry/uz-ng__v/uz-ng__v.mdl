@@ -1,0 +1,6 @@
+Picklistentry uz-ng__v (
+   value('Namangan'),
+   order(4871),
+   active(true),
+   controlling_entries('uz__v')
+);

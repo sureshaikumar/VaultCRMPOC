@@ -1,0 +1,20 @@
+Field click_url__v (
+   label('Clicked URL'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description('Click_URL_vod captures the URL for the clicked activity as reported by the Multichannel Email Engine. This may contain NULL.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('LinkFormat("new_window")'),
+   control_binding()
+);

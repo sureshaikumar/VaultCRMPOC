@@ -1,0 +1,18 @@
+Field platform__v (
+   label('Platform'),
+   type('Picklist'),
+   active(true),
+   description('Indicates which platforms this MyInsights content can be viewed on'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(true),
+   picklist('Picklist.html_report_platform__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

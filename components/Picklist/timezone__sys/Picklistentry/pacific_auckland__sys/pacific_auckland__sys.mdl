@@ -1,0 +1,5 @@
+Picklistentry pacific_auckland__sys (
+   value('(GMT+12:00) New Zealand Standard Time (Pacific/Auckland)'),
+   order(307),
+   active(true)
+);

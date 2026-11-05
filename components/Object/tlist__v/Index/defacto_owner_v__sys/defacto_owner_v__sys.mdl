@@ -1,0 +1,5 @@
+Index defacto_owner_v__sys (
+   description(),
+   fields('defacto_owner__v'),
+   label('Defacto Owner')
+);

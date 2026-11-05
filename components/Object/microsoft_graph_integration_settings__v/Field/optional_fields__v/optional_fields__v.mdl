@@ -1,0 +1,17 @@
+Field optional_fields__v (
+   label('Optional Fields'),
+   type('LongText'),
+   active(true),
+   description('This setting specifies optional fields. Provide a double semicolon-separated list of object.field API names. For example, when pulling calendar event information from Microsoft Outlook into Vault CRM:  "external_calendar__v.default_online_meeting_provider__v;;external_calendar_event__v.categories__v"'),
+   required(false),
+   max_length(32000),
+   help_content('This setting specifies optional fields to include. Provide a double semicolon-separated list of object.field API names.'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

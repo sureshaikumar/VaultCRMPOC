@@ -1,0 +1,8 @@
+RECREATE Objectvalidation product__v.product_bundle_check__v (
+   label('Product Bundle Check'),
+   active(true),
+   expression('if(bundle_pack__v, product_type__v = "product_group__v", true)'),
+   description('Verifies that the Product Type is a Product Group if the Bundle Pack field is enabled.'),
+   error_message('Bundle Pack can be set to TRUE only if the Product Type = Product Group.'),
+   error_location('bundle_pack__v')
+);

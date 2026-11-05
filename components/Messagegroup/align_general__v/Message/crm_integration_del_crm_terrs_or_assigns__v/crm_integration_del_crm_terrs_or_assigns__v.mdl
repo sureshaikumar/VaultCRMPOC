@@ -1,0 +1,6 @@
+Message crm_integration_del_crm_terrs_or_assigns__v (
+   label(),
+   active(true),
+   default_value('Deletion of CRM Territories or Assignments detected.'),
+   system_managed(false)
+);

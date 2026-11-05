@@ -1,0 +1,6 @@
+Picklistentry roxco__v (
+   value('Radiation Oncology (Clinical Oncology)'),
+   order(1667),
+   active(true),
+   controlling_entries('ae__v')
+);

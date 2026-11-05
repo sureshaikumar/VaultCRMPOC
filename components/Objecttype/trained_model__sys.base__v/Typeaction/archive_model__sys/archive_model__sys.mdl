@@ -1,0 +1,3 @@
+Typeaction archive_model__sys (
+   action('trained_model__sys.archive_model__sys')
+);

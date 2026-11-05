@@ -1,0 +1,5 @@
+Picklistentry on__v (
+   value('On'),
+   order(1),
+   active(true)
+);

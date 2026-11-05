@@ -1,0 +1,7 @@
+Index target_component_type_name_id__sys (
+   description(),
+   fields('target_component_type__sys',
+         'target_component_name__sys',
+         'target_component__sys'),
+   label('Target Component by Type, Name, and Id')
+);

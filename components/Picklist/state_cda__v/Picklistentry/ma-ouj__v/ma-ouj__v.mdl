@@ -1,0 +1,6 @@
+Picklistentry ma-ouj__v (
+   value('Oujda-Angad'),
+   order(2827),
+   active(true),
+   controlling_entries('ma__v')
+);

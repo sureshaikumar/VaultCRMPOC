@@ -1,0 +1,5 @@
+Picklistentry high_cholesterol_statins__v (
+   value('High Cholesterol (Statins)'),
+   order(24),
+   active(true)
+);

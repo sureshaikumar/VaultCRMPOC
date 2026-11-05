@@ -1,0 +1,4 @@
+Typefield decimal_places__v (
+   source('custom'),
+   required(false)
+);

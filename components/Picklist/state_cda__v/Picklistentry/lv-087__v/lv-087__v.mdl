@@ -1,0 +1,6 @@
+Picklistentry lv-087__v (
+   value('Salaspils novads'),
+   order(2724),
+   active(true),
+   controlling_entries('lv__v')
+);

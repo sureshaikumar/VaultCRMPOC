@@ -1,0 +1,5 @@
+Picklistentry jp__v (
+   value('Japan'),
+   order(112),
+   active(true)
+);

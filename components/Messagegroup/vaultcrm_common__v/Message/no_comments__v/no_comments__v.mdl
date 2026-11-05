@@ -1,0 +1,6 @@
+Message no_comments__v (
+   label(),
+   active(true),
+   default_value('No Comments'),
+   system_managed(false)
+);

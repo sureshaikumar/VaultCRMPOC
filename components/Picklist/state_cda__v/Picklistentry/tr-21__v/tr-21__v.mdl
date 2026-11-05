@@ -1,0 +1,6 @@
+Picklistentry tr-21__v (
+   value('Diyarbakır'),
+   order(4479),
+   active(true),
+   controlling_entries('tr__v')
+);

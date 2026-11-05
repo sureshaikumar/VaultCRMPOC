@@ -1,0 +1,7 @@
+Picklistentry gadss__v (
+   value('General and Digestive System Surgery'),
+   order(589),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

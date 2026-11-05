@@ -1,0 +1,5 @@
+Picklistentry mnc (
+   value('Manchu'),
+   order(249),
+   active(true)
+);

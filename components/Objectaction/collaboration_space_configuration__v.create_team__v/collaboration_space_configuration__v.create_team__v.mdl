@@ -1,0 +1,8 @@
+RECREATE Objectaction collaboration_space_configuration__v.create_team__v (
+   label('Create Team'),
+   description('Allows users to initiate the initial Team creation in Microsoft'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.collaborationspaceconfiguration.actions.CreateTeamAction'),
+   active(true),
+   available_all_states(true)
+);

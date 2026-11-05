@@ -1,0 +1,5 @@
+Picklistentry 11300__v (
+   value('Anderson, IN Metropolitan Statistical Area'),
+   order(643),
+   active(true)
+);

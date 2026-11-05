@@ -1,0 +1,6 @@
+Picklistentry um-76__v (
+   value('Navassa Island'),
+   order(4784),
+   active(true),
+   controlling_entries('um__v')
+);

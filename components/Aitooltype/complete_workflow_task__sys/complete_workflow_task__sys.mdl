@@ -1,0 +1,9 @@
+RECREATE Aitooltype complete_workflow_task__sys (
+   label('Single item workflow task completion'),
+   active(true),
+   admin_configurable(false),
+   configuration_code(),
+   configuration_layout(),
+   runtime_code('Aitooltyperuntimecode.com.veeva.vault.system.ai.SingleItemWorkflowTaskCompletionToolType'),
+   support_custom_action(true)
+);

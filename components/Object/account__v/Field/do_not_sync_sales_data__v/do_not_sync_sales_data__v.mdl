@@ -1,0 +1,18 @@
+Field do_not_sync_sales_data__v (
+   label('Do Not Sync Sales Data'),
+   type('Boolean'),
+   active(true),
+   description('The Do Not Sync Sales Data field is used to determine if the Analytics Sales Data should be synced to the VMobile Tablet Edition.  If this field is checked, then the Sales Data will not be synced.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(36),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry mc-sp__v (
+   value('Spélugues'),
+   order(2867),
+   active(true),
+   controlling_entries('mc__v')
+);

@@ -1,0 +1,10 @@
+Vsmvalue myr__v (
+   label('MYR'),
+   active(true),
+   description('The official currency of Malaysia (MYR), used for all financial and commercial transactions in the country and a key currency in Southeast Asian trade.'),
+   synonyms('Malaysian ringgit',
+         'ringgit',
+         'MYR'),
+   target('myr__sys'),
+   target_label('MYR')
+);

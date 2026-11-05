@@ -1,0 +1,6 @@
+Message send_fax__v (
+   label(),
+   active(true),
+   default_value('Send Fax'),
+   system_managed(false)
+);

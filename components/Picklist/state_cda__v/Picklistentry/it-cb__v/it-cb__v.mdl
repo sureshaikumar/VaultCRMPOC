@@ -1,0 +1,6 @@
+Picklistentry it-cb__v (
+   value('Campobasso'),
+   order(2194),
+   active(true),
+   controlling_entries('it__v')
+);

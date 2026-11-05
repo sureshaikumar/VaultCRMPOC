@@ -1,0 +1,18 @@
+Field submitted__v (
+   label('Submitted'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the inventory been submitted.  Default value is false.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

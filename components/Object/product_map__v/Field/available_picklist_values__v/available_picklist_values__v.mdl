@@ -1,0 +1,17 @@
+Field available_picklist_values__v (
+   label('Available Picklist Values'),
+   type('LongText'),
+   active(true),
+   description('Semi-colon delimited list of picklist values that are available in the dependent picklist when the Controlling Detail or Detail Topic and Controlling Detail Group are selected'),
+   required(false),
+   max_length(32000),
+   help_content('Enter a semi-colon delimited list of API names for dependent picklist values available when the controlling Detail/Detail Group is selected. Values must match active values in the dependent field''s Picklist.'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

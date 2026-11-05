@@ -1,0 +1,8 @@
+Tabcollectionitem patient_center__v (
+   label(),
+   active(true),
+   tabs(),
+   order(10),
+   tab('Tab.patient_center__v'),
+   type('Tab')
+);

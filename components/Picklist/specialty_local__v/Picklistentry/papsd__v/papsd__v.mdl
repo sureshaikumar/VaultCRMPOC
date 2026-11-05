@@ -1,0 +1,6 @@
+Picklistentry papsd__v (
+   value('Psychiatry Addiction Psychiatry'),
+   order(1610),
+   active(true),
+   controlling_entries('id__v')
+);

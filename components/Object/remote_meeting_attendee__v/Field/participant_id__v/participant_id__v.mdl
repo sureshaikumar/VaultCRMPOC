@@ -1,0 +1,19 @@
+Field participant_id__v (
+   label('Participant Id'),
+   type('String'),
+   active(true),
+   description('Participant Id for the attendee when joining the Remote Meeting'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,12 @@
+Picklistentry ctloi__v (
+   value('Clinical Toxicology'),
+   order(295),
+   active(true),
+   controlling_entries('al__v',
+         'bg__v',
+         'eg__v',
+         'ge__v',
+         'ph__v',
+         'pl__v',
+         'rs__v')
+);

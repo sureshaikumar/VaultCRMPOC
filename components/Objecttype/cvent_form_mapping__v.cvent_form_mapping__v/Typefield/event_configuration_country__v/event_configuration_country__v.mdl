@@ -1,0 +1,4 @@
+Typefield event_configuration_country__v (
+   source('custom'),
+   required(false)
+);

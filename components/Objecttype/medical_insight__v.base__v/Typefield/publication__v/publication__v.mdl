@@ -1,0 +1,4 @@
+Typefield publication__v (
+   source('standard'),
+   required(false)
+);

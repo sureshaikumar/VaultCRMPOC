@@ -1,0 +1,6 @@
+Message medx_meeting_material_type__v (
+   label(),
+   active(true),
+   default_value('Meeting Material Type'),
+   system_managed(false)
+);

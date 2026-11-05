@@ -1,0 +1,6 @@
+Message error_please_enter_a_valid_fax_number__v (
+   label(),
+   active(true),
+   default_value('Error: Please enter a valid fax number'),
+   system_managed(false)
+);

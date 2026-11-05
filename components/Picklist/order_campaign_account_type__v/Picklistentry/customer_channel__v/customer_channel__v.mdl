@@ -1,0 +1,5 @@
+Picklistentry customer_channel__v (
+   value('Customer - Channel'),
+   order(22),
+   active(false)
+);

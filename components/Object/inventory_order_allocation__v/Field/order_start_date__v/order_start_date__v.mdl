@@ -1,0 +1,17 @@
+Field order_start_date__v (
+   label('Order Start Date'),
+   type('Date'),
+   active(true),
+   description('The last date in which orders can begin to be submitted against this allocation.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

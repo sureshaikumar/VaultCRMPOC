@@ -1,0 +1,7 @@
+Picklistentry gaboy__v (
+   value('Gynecological and Breast Oncology'),
+   order(642),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

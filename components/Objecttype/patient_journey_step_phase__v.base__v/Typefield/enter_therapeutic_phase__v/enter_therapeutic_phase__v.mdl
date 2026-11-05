@@ -1,0 +1,4 @@
+Typefield enter_therapeutic_phase__v (
+   source('standard'),
+   required(false)
+);

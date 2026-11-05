@@ -1,0 +1,6 @@
+Message mass_select_current_entity__v (
+   label(),
+   active(true),
+   default_value('Current {0}'),
+   system_managed(false)
+);

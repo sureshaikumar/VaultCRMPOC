@@ -1,0 +1,66 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.call2__v.meetingbrief__v">
+    <vault:section title="Buttons" name="buttons__c">
+        <vault:detailform type="One-Column">
+            <vault:control reference="save__v" name="save__c" />
+            <vault:field reference="controlling_parent_account__v" />
+            <vault:field reference="parent_address__v" />
+            <vault:field reference="allowed_products__v" />
+            <vault:field reference="account_identifier__v" />
+            <vault:field reference="primary_parent__v" />
+            <vault:field reference="country_user__v" />
+            <vault:field reference="unavailable_for_scheduling__v" />
+            <vault:field reference="call_channel__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" />
+            <vault:field reference="address__v" />
+            <vault:field reference="call_datetime__v" />
+            <vault:field reference="account_plan__v" />
+            <vault:field reference="assignment_datetime__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="location_text__v" />
+            <vault:field reference="significant_event__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attendees" name="call_attendees_section__c" reference="call_attendees_section__v">
+        <vault:bind property="paa" value="false" />
+        <vault:bind property="ao" value="false" />
+        <vault:bind property="atf" value="false" />
+        <vault:bind property="st" value="false" />
+        <vault:bind property="su" value="false" />
+        <vault:bind property="ns" value="true" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Call Details" name="call_details_section__c" reference="call_details_section__v">
+        <vault:bind property="rd" value="false" />
+        <vault:bind property="eed" value="false" />
+        <vault:bind property="htp" value="false" />
+        <vault:bind property="sd" value="false" />
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Product Discussion" name="product_discussion_section__c" reference="product_discussion_section__v">
+        <vault:bind property="fieldNames">
+            <vault:list />
+        </vault:bind>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

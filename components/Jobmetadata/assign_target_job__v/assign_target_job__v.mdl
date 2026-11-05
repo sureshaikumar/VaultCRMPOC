@@ -1,0 +1,11 @@
+RECREATE Jobmetadata assign_target_job__v (
+   label('Assign Target Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that processes recently created Business Event Targets and assign them to a user'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.eppvpi.jobs.AssignTargetJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

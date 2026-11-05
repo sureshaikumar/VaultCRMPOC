@@ -1,0 +1,4 @@
+Typefield affiliation_account__v (
+   source('standard'),
+   required(false)
+);

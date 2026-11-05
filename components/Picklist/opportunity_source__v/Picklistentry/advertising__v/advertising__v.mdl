@@ -1,0 +1,5 @@
+Picklistentry advertising__v (
+   value('Advertising'),
+   order(0),
+   active(true)
+);

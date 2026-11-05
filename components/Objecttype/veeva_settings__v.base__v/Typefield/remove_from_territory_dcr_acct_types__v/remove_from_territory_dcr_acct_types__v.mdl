@@ -1,0 +1,4 @@
+Typefield remove_from_territory_dcr_acct_types__v (
+   source('standard'),
+   required(false)
+);

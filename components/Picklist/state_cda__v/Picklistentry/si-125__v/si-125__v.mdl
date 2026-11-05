@@ -1,0 +1,6 @@
+Picklistentry si-125__v (
+   value('Šmartno ob Paki'),
+   order(4099),
+   active(true),
+   controlling_entries('si__v')
+);

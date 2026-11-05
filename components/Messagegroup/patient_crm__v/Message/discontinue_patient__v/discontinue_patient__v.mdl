@@ -1,0 +1,6 @@
+Message discontinue_patient__v (
+   label(),
+   active(true),
+   default_value('Discontinue Patient'),
+   system_managed(false)
+);

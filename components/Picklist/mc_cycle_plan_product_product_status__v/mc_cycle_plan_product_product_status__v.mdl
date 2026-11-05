@@ -1,0 +1,9 @@
+RECREATE Picklist mc_cycle_plan_product_product_status__v (
+   label('Product Status'),
+   active(true),
+   Picklistentry(@Picklistentry/over_reached__v.mdl),
+   Picklistentry(@Picklistentry/under_reached__v.mdl),
+   Picklistentry(@Picklistentry/on_schedule__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

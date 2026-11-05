@@ -1,0 +1,14 @@
+RECREATE Integrationrule study_country_ir__v (
+   label('Clinical Study Country Integration Rule'),
+   active(true),
+   connection('clinops_crm__v'),
+   integration_point('clinical_study_country_iip__v'),
+   primary_query_object('study_country__v'),
+   Fieldrule(@Fieldrule/country__v.mdl),
+   Fieldrule(@Fieldrule/lifecycle_state__v.mdl),
+   Fieldrule(@Fieldrule/link__v.mdl),
+   Fieldrule(@Fieldrule/name__v.mdl),
+   Fieldrule(@Fieldrule/status__v.mdl),
+   Fieldrule(@Fieldrule/study__v.mdl),
+   Queryobjectrule(@Queryobjectrule/study_country__v.mdl)
+);

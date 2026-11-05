@@ -1,0 +1,6 @@
+Message field_mapping_describe_date__v (
+   label(),
+   active(true),
+   default_value('Last Describe Date:'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-521__v (
+   value('Hradec Králové'),
+   order(860),
+   active(true),
+   controlling_entries('cz__v')
+);

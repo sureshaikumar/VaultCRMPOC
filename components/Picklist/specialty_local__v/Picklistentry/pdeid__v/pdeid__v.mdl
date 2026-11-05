@@ -1,0 +1,6 @@
+Picklistentry pdeid__v (
+   value('Pediatric Diseases'),
+   order(1363),
+   active(true),
+   controlling_entries('fi__v')
+);

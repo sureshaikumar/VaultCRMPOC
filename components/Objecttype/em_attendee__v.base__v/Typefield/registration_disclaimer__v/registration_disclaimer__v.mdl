@@ -1,0 +1,4 @@
+Typefield registration_disclaimer__v (
+   source('standard'),
+   required(false)
+);

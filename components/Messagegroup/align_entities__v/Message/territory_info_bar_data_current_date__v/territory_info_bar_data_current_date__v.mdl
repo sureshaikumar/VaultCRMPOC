@@ -1,0 +1,6 @@
+Message territory_info_bar_data_current_date__v (
+   label(),
+   active(true),
+   default_value('Data is current as of {0}'),
+   system_managed(false)
+);

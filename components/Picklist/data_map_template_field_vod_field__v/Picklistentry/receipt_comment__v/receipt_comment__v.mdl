@@ -1,0 +1,5 @@
+Picklistentry receipt_comment__v (
+   value('Receipt_Comment_vod__c'),
+   order(234),
+   active(true)
+);

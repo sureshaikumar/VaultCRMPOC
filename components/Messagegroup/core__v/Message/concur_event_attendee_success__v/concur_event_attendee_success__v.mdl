@@ -1,0 +1,6 @@
+Message concur_event_attendee_success__v (
+   label(),
+   active(true),
+   default_value('Event Attendee Successes'),
+   system_managed(false)
+);

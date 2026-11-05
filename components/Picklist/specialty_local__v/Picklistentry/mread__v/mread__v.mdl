@@ -1,0 +1,7 @@
+Picklistentry mread__v (
+   value('Medical Radiology'),
+   order(937),
+   active(true),
+   controlling_entries('bg__v',
+         'ge__v')
+);

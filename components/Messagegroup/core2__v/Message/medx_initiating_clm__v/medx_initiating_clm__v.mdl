@@ -1,0 +1,6 @@
+Message medx_initiating_clm__v (
+   label(),
+   active(true),
+   default_value('Initiating Medical Interaction...'),
+   system_managed(false)
+);

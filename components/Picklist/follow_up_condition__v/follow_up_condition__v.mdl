@@ -1,0 +1,10 @@
+RECREATE Picklist follow_up_condition__v (
+   label('Follow-up Condition'),
+   active(true),
+   Picklistentry(@Picklistentry/opened__v.mdl),
+   Picklistentry(@Picklistentry/did_not_open__v.mdl),
+   Picklistentry(@Picklistentry/clicked__v.mdl),
+   Picklistentry(@Picklistentry/did_not_click__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

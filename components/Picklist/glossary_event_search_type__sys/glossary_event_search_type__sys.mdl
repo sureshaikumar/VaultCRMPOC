@@ -1,0 +1,8 @@
+RECREATE Picklist glossary_event_search_type__sys (
+   label('Glossary Event Search Type'),
+   active(true),
+   Picklistentry(@Picklistentry/glossary_lookup__sys.mdl),
+   Picklistentry(@Picklistentry/external_search__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

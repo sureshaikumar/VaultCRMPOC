@@ -1,0 +1,19 @@
+Field disabled_approved_email_entrypoints__v (
+   label('Disabled Approved Email Entry Points'),
+   type('String'),
+   active(true),
+   description('List of entry points disabled for Approved Email'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

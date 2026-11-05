@@ -1,0 +1,23 @@
+Field im_continuous_monitoring__v (
+   label('Continuous Inventory Monitoring'),
+   type('Number'),
+   active(true),
+   description('Enables copy of values from last submitted Inventory Monitoring record: 0= disabled, 1 = copies values from last submitted IM.'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(191),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

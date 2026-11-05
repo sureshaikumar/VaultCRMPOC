@@ -1,0 +1,6 @@
+Picklistentry otp_number_response__sys (
+   value('Number Response'),
+   order(108),
+   active(true),
+   controlling_entries('olc_response__sys')
+);

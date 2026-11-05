@@ -1,0 +1,10 @@
+Picklistentry vmaes__v (
+   value('Vascular Medicine'),
+   order(1914),
+   active(true),
+   controlling_entries('eg__v',
+         'fr__v',
+         'mc__v',
+         'ph__v',
+         'us__v')
+);

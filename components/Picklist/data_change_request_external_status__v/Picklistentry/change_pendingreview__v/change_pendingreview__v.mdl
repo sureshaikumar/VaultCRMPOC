@@ -1,0 +1,5 @@
+Picklistentry change_pendingreview__v (
+   value('CHANGE_PENDINGREVIEW'),
+   order(1),
+   active(true)
+);

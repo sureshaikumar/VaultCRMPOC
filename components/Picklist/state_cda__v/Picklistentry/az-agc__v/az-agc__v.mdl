@@ -1,0 +1,6 @@
+Picklistentry az-agc__v (
+   value('Ağcabədi'),
+   order(140),
+   active(true),
+   controlling_entries('az__v')
+);

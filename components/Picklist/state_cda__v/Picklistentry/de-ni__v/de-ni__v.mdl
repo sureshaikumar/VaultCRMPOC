@@ -1,0 +1,6 @@
+Picklistentry de-ni__v (
+   value('Niedersachsen'),
+   order(911),
+   active(true),
+   controlling_entries('de__v')
+);

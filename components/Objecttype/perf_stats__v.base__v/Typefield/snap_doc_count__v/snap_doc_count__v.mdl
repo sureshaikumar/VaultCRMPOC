@@ -1,0 +1,4 @@
+Typefield snap_doc_count__v (
+   source('standard'),
+   required(false)
+);

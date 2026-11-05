@@ -1,0 +1,6 @@
+Picklistentry nz-bop__v (
+   value('Bay of Plenty'),
+   order(3427),
+   active(true),
+   controlling_entries('nz__v')
+);

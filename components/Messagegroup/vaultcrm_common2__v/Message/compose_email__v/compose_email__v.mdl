@@ -1,0 +1,6 @@
+Message compose_email__v (
+   label(),
+   active(true),
+   default_value('Compose Email'),
+   system_managed(false)
+);

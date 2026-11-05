@@ -1,0 +1,6 @@
+Picklistentry lk-53__v (
+   value('Trincomalee'),
+   order(2581),
+   active(true),
+   controlling_entries('lk__v')
+);

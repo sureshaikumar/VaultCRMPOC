@@ -1,0 +1,18 @@
+Field unlock__v (
+   label('Unlock'),
+   type('Boolean'),
+   active(true),
+   description('Unlock checkbox is used by the VBioPharma application to determine if a user has access to Unlock a Sample Transaction that has been Submitted. Access is controlled by Field Level security on the Unlock checkbox.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(69),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

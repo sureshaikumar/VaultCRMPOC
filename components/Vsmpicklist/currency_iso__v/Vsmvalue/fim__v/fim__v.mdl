@@ -1,0 +1,10 @@
+Vsmvalue fim__v (
+   label('FIM'),
+   active(true),
+   description('The Finnish Markka (FIM), the former official currency of Finland prior to the adoption of the Euro in 2002, used for historical or legacy financial records.'),
+   synonyms('Finnish markka',
+         'markka',
+         'Finland currency'),
+   target('fim__sys'),
+   target_label('FIM')
+);

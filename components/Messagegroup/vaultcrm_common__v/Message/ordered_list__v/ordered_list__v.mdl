@@ -1,0 +1,6 @@
+Message ordered_list__v (
+   label(),
+   active(true),
+   default_value('Ordered List'),
+   system_managed(false)
+);

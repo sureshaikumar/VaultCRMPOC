@@ -1,0 +1,6 @@
+Picklistentry at-8__v (
+   value('Vorarlberg'),
+   order(128),
+   active(true),
+   controlling_entries('at__v')
+);

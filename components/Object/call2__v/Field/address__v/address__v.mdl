@@ -1,0 +1,17 @@
+Field address__v (
+   label('Address'),
+   type('LongText'),
+   active(true),
+   description('A field used to denormalize the address information associated with a call. This aids in data loading and displaying information on related lists.'),
+   required(false),
+   max_length(500),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

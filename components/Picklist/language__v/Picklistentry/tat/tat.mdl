@@ -1,0 +1,5 @@
+Picklistentry tat (
+   value('Tatar'),
+   order(320),
+   active(true)
+);

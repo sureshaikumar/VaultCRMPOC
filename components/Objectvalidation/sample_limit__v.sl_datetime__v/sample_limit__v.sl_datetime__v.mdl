@@ -1,0 +1,9 @@
+RECREATE Objectvalidation sample_limit__v.sl_datetime__v (
+   label('Sample Limit Datetime'),
+   active(true),
+   expression('end_date__v >= start_date__v'),
+   description('End Date must be greater than or equal to Start Date.'),
+   error_message('End Date must be greater than or equal to Start Date'),
+   error_location('start_date__v',
+      'end_date__v')
+);

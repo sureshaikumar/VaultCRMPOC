@@ -1,0 +1,8 @@
+Picklistentry dermb__v (
+   value('Dermatopathology'),
+   order(411),
+   active(true),
+   controlling_entries('ph__v',
+         'th__v',
+         'us__v')
+);

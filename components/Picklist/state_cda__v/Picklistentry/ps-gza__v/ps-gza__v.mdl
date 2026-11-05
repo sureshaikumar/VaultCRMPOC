@@ -1,0 +1,6 @@
+Picklistentry ps-gza__v (
+   value('Gaza'),
+   order(3640),
+   active(true),
+   controlling_entries('ps__v')
+);

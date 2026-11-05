@@ -1,0 +1,14 @@
+Vsmfield mobile_phone__v (
+   label('Mobile'),
+   active(true),
+   description('The prior mobile phone number associated with this person before a contact information update. Useful for auditing historical contact details or recovering previous phone records.'),
+   example_values(),
+   synonyms('cell phone',
+         'mobile number',
+         'cell number',
+         'phone number'),
+   target('mobile_phone__sys'),
+   target_label('Mobile'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

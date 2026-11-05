@@ -1,0 +1,18 @@
+Field unlock__v (
+   label('Unlock'),
+   type('Boolean'),
+   active(true),
+   description('When editable to a user, displays an Unlock button which allows the User to unlock and edit a record with a Completed status.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(44),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field group_id__v (
+   label('Group Id'),
+   type('String'),
+   active(true),
+   description('Used to search for limits to apply to a Call Report; Concatenation of Account/User/Product IDs on the sample limit record.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

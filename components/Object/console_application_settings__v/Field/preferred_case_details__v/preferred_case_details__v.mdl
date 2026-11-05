@@ -1,0 +1,20 @@
+Field preferred_case_details__v (
+   label('Preferred Case Details'),
+   type('String'),
+   active(true),
+   description('Defines up to 6 Case (case__v) fields, custom or standard, that the Console Application uses to customize user-visible case fields, in the order listed. Enter as a double semicolon (;;)-delimited list, for example: case__v.fieldname__v;;case__v.fieldname__v. See the Service Center or Patient Center documentation for details.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(29),
+   default_value('"case__v.subcategory__v;;case__v.case_type__v;;case__v.case_severity__v;;case__v.contact_type__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

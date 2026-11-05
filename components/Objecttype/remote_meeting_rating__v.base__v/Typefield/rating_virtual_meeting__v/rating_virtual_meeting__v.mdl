@@ -1,0 +1,4 @@
+Typefield rating_virtual_meeting__v (
+   source('standard'),
+   required(false)
+);

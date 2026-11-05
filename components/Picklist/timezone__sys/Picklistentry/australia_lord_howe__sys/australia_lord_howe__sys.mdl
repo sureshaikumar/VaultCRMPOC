@@ -1,0 +1,5 @@
+Picklistentry australia_lord_howe__sys (
+   value('(GMT+10:30) Lord Howe Standard Time (Australia/Lord_Howe)'),
+   order(291),
+   active(true)
+);

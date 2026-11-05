@@ -1,0 +1,4 @@
+Typefield approved_email_vault_query__v (
+   source('standard'),
+   required(false)
+);

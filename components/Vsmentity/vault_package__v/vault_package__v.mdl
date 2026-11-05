@@ -1,0 +1,19 @@
+RECREATE Vsmentity vault_package__v (
+   label('Inbound Package'),
+   active(true),
+   description('Represents an inbound configuration migration package received into Vault, containing configuration and/or data to be migrated into a Vault environment that can be reviewed and deployed into the environment.'),
+   synonyms('package',
+      'vault package',
+      'incoming package'),
+   target('Object.vault_package__v'),
+   target_label('Inbound Package'),
+   Vsmfield(@Vsmfield/app_key__v.mdl),
+   Vsmfield(@Vsmfield/author__v.mdl),
+   Vsmfield(@Vsmfield/deployment_status__v.mdl),
+   Vsmfield(@Vsmfield/description__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/owner__v.mdl),
+   Vsmfield(@Vsmfield/package_type__v.mdl),
+   Vsmfield(@Vsmfield/source_vault__v.mdl),
+   Vsmfield(@Vsmfield/summary__v.mdl)
+);

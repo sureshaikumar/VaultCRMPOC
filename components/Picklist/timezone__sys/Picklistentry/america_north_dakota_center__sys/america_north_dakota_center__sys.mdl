@@ -1,0 +1,5 @@
+Picklistentry america_north_dakota_center__sys (
+   value('(GMT-06:00) Central Standard Time (America/North_Dakota/Center)'),
+   order(46),
+   active(true)
+);

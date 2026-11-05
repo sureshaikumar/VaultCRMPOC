@@ -1,0 +1,21 @@
+Field profile_name__v (
+   label('Profile Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Populates the Name of the profile the user belongs to. This field is used in offline platform validation rules evaluation'),
+   list_column(false),
+   order(123),
+   formula('"Function does not exist"'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

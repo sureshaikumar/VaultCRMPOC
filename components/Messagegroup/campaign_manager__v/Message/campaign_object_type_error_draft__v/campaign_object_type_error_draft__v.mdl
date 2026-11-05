@@ -1,0 +1,6 @@
+Message campaign_object_type_error_draft__v (
+   label(),
+   active(true),
+   default_value('Unable to change Object Type: Campaign Status is not Draft'),
+   system_managed(false)
+);

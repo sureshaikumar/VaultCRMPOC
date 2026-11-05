@@ -1,0 +1,6 @@
+Message medx_upcoming__v (
+   label(),
+   active(true),
+   default_value('Upcoming'),
+   system_managed(false)
+);

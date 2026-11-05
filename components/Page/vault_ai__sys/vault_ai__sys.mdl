@@ -1,0 +1,14 @@
+RECREATE Page vault_ai__sys (
+   label('AI'),
+   active(true),
+   client_distribution(),
+   default_client_code('vault_ai__sys'),
+   description(),
+   disable_chrome(false),
+   disable_configuration(true),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.vaultai.VaultAIAppPage'),
+   url_path_name('vault-ai')
+);

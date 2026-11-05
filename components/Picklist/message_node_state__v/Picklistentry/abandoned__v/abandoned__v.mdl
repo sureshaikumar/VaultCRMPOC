@@ -1,0 +1,5 @@
+Picklistentry abandoned__v (
+   value('Abandoned'),
+   order(6),
+   active(true)
+);

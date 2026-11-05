@@ -1,0 +1,8 @@
+RECREATE Objectaction survey__v.calculate_sharing__v (
+   label('Calculate Sharing'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.survey.actions.SurveyCalculateSharingAction'),
+   active(true),
+   available_all_states(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry ct__v (
+   value('CT'),
+   order(8),
+   active(true)
+);

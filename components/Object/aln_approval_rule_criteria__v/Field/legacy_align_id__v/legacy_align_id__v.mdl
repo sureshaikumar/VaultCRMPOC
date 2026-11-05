@@ -1,0 +1,19 @@
+Field legacy_align_id__v (
+   label('Legacy Align ID'),
+   type('String'),
+   active(true),
+   description('Only displays in Configuration'),
+   required(false),
+   unique(true),
+   max_length(40),
+   help_content('Displays next to the field on standard VOF pages'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

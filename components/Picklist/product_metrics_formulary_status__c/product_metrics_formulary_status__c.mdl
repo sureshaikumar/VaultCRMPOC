@@ -1,0 +1,12 @@
+RECREATE Picklist product_metrics_formulary_status__c (
+   label('Formulary Status'),
+   active(true),
+   Picklistentry(@Picklistentry/on_formulary__c.mdl),
+   Picklistentry(@Picklistentry/on_restricted__c.mdl),
+   Picklistentry(@Picklistentry/on_prior_auth__c.mdl),
+   Picklistentry(@Picklistentry/on_exclusive__c.mdl),
+   Picklistentry(@Picklistentry/tier_3__c.mdl),
+   Picklistentry(@Picklistentry/tier_4__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

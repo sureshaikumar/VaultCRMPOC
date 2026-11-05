@@ -1,0 +1,6 @@
+Message add_to__v (
+   label(),
+   active(true),
+   default_value('Add to ${Item}'),
+   system_managed(false)
+);

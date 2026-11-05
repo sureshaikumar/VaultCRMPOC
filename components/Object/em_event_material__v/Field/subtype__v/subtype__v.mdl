@@ -1,0 +1,18 @@
+Field subtype__v (
+   label('Subtype'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to indicate the subtype of the material.'),
+   list_column(false),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.em_event_material_subtype__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

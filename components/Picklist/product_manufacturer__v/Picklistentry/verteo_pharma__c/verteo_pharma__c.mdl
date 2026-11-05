@@ -1,0 +1,5 @@
+Picklistentry verteo_pharma__c (
+   value('Verteo Pharma'),
+   order(50),
+   active(true)
+);

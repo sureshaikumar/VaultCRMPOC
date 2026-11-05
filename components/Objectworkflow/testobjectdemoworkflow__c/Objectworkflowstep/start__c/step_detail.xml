@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad" name="start__c">
+    <vwf:label>Start</vwf:label>
+    <vwf:controls>
+      <vwf:control name="part_reviewer_to_review_task__c" label="Reviewer to review task" type="participant">
+        <vwf:strategy source="task_owner__v" />
+        <vwf:constrainroles>
+          <vwf:role reference="Objectlifecyclerole.editor__v" />
+          <vwf:role reference="Objectlifecyclerole.viewer__v" />
+        </vwf:constrainroles>
+        <vwf:defaultusers enabled="true" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+</vwf:stepdetails>

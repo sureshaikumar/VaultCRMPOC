@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.exclude_document__sys (
+   label('Exclude Document'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.match.ExcludeDocumentAction'),
+   active(true),
+   available_all_states(true)
+);

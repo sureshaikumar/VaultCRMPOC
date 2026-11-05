@@ -1,0 +1,23 @@
+Field vault_id_link__v (
+   label('Vault Link ID'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Links to the original Vault record that contains the flagged text and phrase'),
+   list_column(false),
+   order(34),
+   formula('hyperlink(concat("https://",@Vault.domain,"/ui/#object/",monitored_object__v,"/",vault_id__v), "View",
+                      "new_window")'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

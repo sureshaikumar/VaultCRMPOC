@@ -1,0 +1,5 @@
+Picklistentry 41620__v (
+   value('Salt Lake City, UT Metropolitan Statistical Area'),
+   order(347),
+   active(true)
+);

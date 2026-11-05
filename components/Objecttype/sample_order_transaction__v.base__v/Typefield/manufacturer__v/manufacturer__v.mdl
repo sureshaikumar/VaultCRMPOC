@@ -1,0 +1,4 @@
+Typefield manufacturer__v (
+   source('standard'),
+   required(false)
+);

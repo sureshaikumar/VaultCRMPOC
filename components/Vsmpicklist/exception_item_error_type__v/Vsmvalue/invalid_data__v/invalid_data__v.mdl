@@ -1,0 +1,11 @@
+Vsmvalue invalid_data__v (
+   label('INVALID_DATA'),
+   active(true),
+   description('Applies when the submitted data fails validation, such as an incorrect data type, out-of-range value, or improperly formatted field.'),
+   synonyms('bad data',
+         'malformed value',
+         'data validation failure',
+         'incorrect format'),
+   target('invalid_data__sys'),
+   target_label('INVALID_DATA')
+);

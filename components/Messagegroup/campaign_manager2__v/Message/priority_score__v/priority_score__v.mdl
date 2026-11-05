@@ -1,0 +1,6 @@
+Message priority_score__v (
+   label(),
+   active(true),
+   default_value('Priority Score'),
+   system_managed(false)
+);

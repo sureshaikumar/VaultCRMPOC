@@ -1,0 +1,8 @@
+Typefield contact_type__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.case_contact_type__v.account__v',
+         'Picklist.case_contact_type__v.associate__v',
+         'Picklist.case_contact_type__v.user__v'),
+   default_value('Picklist.case_contact_type__v.account__v')
+);

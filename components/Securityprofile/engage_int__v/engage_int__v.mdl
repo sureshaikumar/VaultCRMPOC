@@ -1,0 +1,6 @@
+RECREATE Securityprofile engage_int__v (
+   label('Engage Integration'),
+   active(true),
+   description(),
+   permission_sets('engage_integration_permission_set__v')
+);

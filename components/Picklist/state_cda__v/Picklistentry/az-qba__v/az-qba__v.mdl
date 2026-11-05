@@ -1,0 +1,6 @@
+Picklistentry az-qba__v (
+   value('Quba'),
+   order(182),
+   active(true),
+   controlling_entries('az__v')
+);

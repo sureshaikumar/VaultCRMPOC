@@ -1,0 +1,6 @@
+Message rule_date_selection__v (
+   label(),
+   active(true),
+   default_value('Select a date for which the assignment preview will be calculated'),
+   system_managed(false)
+);

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <actions>
+            <action type="CHECK_ENTRY_ACTION">
+                <EntryAction type="SetNewMajorVersion" />
+            </action>
+            <action type="CHECK_ENTRY_ACTION">
+                <EntryAction type="SetPreviouslyApprovedToSuperseded" />
+            </action>
+        </actions>
+    </rule>
+    <rule>
+        <expression operator="in">
+            <expression operator="field" type="string">
+                <value>Document.type__v</value>
+            </expression>
+            <expression operator="value" type="string">
+                <value>presentation__v</value>
+            </expression>
+            <expression operator="value" type="string">
+                <value>slide__v</value>
+            </expression>
+            <expression operator="value" type="string">
+                <value>shared_resource__v</value>
+            </expression>
+        </expression>
+        <actions>
+            <action type="CHECK_ENTRY_ACTION">
+                <EntryAction type="SetFieldFromFormula" property="Document.vexternal_id__v" expression="Document.id__v&amp;&quot;_Approved&quot;" treatBlankAsZero="false" errorHandlingType="smartErrorHandling" />
+            </action>
+        </actions>
+    </rule>
+</rules>

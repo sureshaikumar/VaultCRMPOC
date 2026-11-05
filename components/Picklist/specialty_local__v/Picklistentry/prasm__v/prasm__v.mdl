@@ -1,0 +1,6 @@
+Picklistentry prasm__v (
+   value('Pediatric Respiratory and Sleep Medicine'),
+   order(1450),
+   active(true),
+   controlling_entries('au__v')
+);

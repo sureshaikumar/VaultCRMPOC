@@ -1,0 +1,14 @@
+RECREATE Page campaign_manager_home_page__v (
+   label('Home'),
+   active(true),
+   client_distribution(),
+   default_client_code('campaign_manager_home_page__v'),
+   description('Campaign Manager application''s Home page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.campaignmanager.controls.page.CampaignManagerHomePageController'),
+   url_path_name('campaign-manager-home')
+);

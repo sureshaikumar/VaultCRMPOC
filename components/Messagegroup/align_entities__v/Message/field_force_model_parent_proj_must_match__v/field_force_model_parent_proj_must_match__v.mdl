@@ -1,0 +1,6 @@
+Message field_force_model_parent_proj_must_match__v (
+   label(),
+   active(true),
+   default_value('Model Field Force''s Project (${project}) must be the same as the parent Model Field Force''s Project (${parent_project}).'),
+   system_managed(false)
+);

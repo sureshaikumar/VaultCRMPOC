@@ -1,0 +1,6 @@
+Picklistentry ug-221__v (
+   value('Butaleja'),
+   order(4689),
+   active(true),
+   controlling_entries('ug__v')
+);

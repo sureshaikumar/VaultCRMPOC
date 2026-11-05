@@ -1,0 +1,12 @@
+Vsmvalue warning__v (
+   label('WARNING'),
+   active(true),
+   description('Indicates the exception item was processed but encountered a non-critical issue that may require review or follow-up action.'),
+   synonyms('caution',
+         'partial issue',
+         'needs review',
+         'alert',
+         'non-critical error'),
+   target('warning__sys'),
+   target_label('WARNING')
+);

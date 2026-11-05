@@ -1,0 +1,4 @@
+Typefield delivery_brand_discount_rule__v (
+   source('standard'),
+   required(false)
+);

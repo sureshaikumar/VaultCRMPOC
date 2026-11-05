@@ -1,0 +1,5 @@
+Picklistentry eka (
+   value('Ekajuk'),
+   order(171),
+   active(true)
+);

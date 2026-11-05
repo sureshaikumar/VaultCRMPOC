@@ -1,0 +1,5 @@
+Picklistentry tr__v (
+   value('Turkey'),
+   order(227),
+   active(true)
+);

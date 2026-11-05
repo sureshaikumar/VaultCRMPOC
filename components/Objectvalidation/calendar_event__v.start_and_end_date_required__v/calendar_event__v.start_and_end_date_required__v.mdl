@@ -1,0 +1,14 @@
+RECREATE Objectvalidation calendar_event__v.start_and_end_date_required__v (
+   label('StartAndEndDateRequired'),
+   active(true),
+   expression('Not(
+			Or(
+				And(Not(IsBlank(start_date__v)), IsBlank(end_date__v)),
+				And(IsBlank(start_date__v), Not(IsBlank(end_date__v)))
+			)
+		)'),
+   description('Start Date and End Date are required.'),
+   error_message('Start Date and End Date are required.'),
+   error_location('start_date__v',
+      'end_date__v')
+);

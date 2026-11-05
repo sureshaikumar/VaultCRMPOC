@@ -1,0 +1,6 @@
+Picklistentry dz-27__v (
+   value('Mostaganem'),
+   order(1008),
+   active(true),
+   controlling_entries('dz__v')
+);

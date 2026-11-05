@@ -1,0 +1,23 @@
+Field minimum_documents_per_document_type__sys (
+   label('Minimum Documents per Document Type'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1000),
+   min_value(10),
+   scale(0),
+   help_content('This Trained Model parameter allows you to select how many documents must be in a particular document type within the training set of documents before this model will predict that document type.'),
+   list_column(false),
+   order(19),
+   default_value('10'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

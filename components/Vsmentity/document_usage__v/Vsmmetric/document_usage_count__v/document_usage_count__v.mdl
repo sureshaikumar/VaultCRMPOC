@@ -1,0 +1,12 @@
+Vsmmetric document_usage_count__v (
+   label('Document Usage Count'),
+   active(true),
+   description('Total number of document usage events recorded within the query scope. Use this to measure document engagement, track content reach across channels, or analyze activity volume by document type or user.'),
+   instructions('Count all document usage records in the current query scope.'),
+   synonyms('number of document usages',
+         'how many document views',
+         'total document activities',
+         'document engagement count',
+         'usage events'),
+   target_fields('id')
+);

@@ -1,0 +1,6 @@
+Message wait_while_uploading__v (
+   label(),
+   active(true),
+   default_value('Please wait while we upload your attachments'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+Field medical_insights_columns__v (
+   label('Medical Insights Columns'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Comma delimited list of fields to show as columns in the home page Medical Insights list. Maximum number of fields is 15.'),
+   list_column(false),
+   order(212),
+   default_value('"Date_vod__c,Summary_vod__c,Account_vod__c,Medical_Event_vod__c,Clinical_Trial_vod__c,Publication_vod__c"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

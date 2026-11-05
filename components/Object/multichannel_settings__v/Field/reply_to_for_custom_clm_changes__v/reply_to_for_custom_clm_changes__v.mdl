@@ -1,0 +1,20 @@
+Field reply_to_for_custom_clm_changes__v (
+   label('Reply-To for Custom CLM Changes'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('This setting enables automated email notifications to Custom Presentation Owners when changes to slides affect their Custom Presentations. The email provided will receive alerts for any errors in sending the notifications and be used as the reply to email address in the email notifications sent out.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(60),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

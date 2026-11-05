@@ -1,0 +1,13 @@
+RECREATE Picklist notification_category__sys (
+   label('Notification Categories'),
+   active(true),
+   Picklistentry(@Picklistentry/annotation_replies__sys.mdl),
+   Picklistentry(@Picklistentry/send_as_link__sys.mdl),
+   Picklistentry(@Picklistentry/shared_views__sys.mdl),
+   Picklistentry(@Picklistentry/tasks__sys.mdl),
+   Picklistentry(@Picklistentry/user_mentions__sys.mdl),
+   Picklistentry(@Picklistentry/favorite_documents__sys.mdl),
+   Picklistentry(@Picklistentry/none__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

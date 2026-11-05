@@ -1,0 +1,15 @@
+Vsmfield user__v (
+   label('User'),
+   active(true),
+   description('Reference to the Vault user who performed the document usage activity. Use this field to filter usage records by a specific individual or to analyze engagement patterns across users or teams.'),
+   example_values(),
+   synonyms('rep',
+         'user',
+         'who used',
+         'accessed by',
+         'employee'),
+   target('user__v'),
+   target_label('User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

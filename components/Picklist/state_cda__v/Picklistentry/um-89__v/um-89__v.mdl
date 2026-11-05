@@ -1,0 +1,6 @@
+Picklistentry um-89__v (
+   value('Kingman Reef'),
+   order(4789),
+   active(true),
+   controlling_entries('um__v')
+);

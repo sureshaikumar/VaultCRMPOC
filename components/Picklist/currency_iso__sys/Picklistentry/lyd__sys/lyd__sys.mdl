@@ -1,0 +1,5 @@
+Picklistentry lyd__sys (
+   value('LYD'),
+   order(111),
+   active(true)
+);

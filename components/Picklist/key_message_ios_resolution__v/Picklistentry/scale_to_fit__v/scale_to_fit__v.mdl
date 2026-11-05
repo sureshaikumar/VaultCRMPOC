@@ -1,0 +1,5 @@
+Picklistentry scale_to_fit__v (
+   value('Scale to Fit'),
+   order(2),
+   active(true)
+);

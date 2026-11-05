@@ -1,0 +1,5 @@
+Picklistentry 39300__v (
+   value('Providence-New Bedford-Fall River, RI-MA Metropolitan Statistical Area'),
+   order(32),
+   active(true)
+);

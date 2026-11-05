@@ -1,0 +1,6 @@
+Message not_live__v (
+   label(),
+   active(true),
+   default_value('Not Live'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field start_date__v (
+   label('Start Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(31),
+   default_value('DateValue(created_date__v)'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

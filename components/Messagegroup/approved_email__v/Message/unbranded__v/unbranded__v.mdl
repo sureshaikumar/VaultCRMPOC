@@ -1,0 +1,6 @@
+Message unbranded__v (
+   label(),
+   active(true),
+   default_value('Unbranded'),
+   system_managed(false)
+);

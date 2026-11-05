@@ -1,0 +1,18 @@
+Field dynamic_attribute_value_checkbox__v (
+   label('Dynamic Attribute Value (Checkbox)'),
+   type('Boolean'),
+   active(true),
+   description('This field holds the Dynamic Attribute value if the record type of the Dynamic Attribute Configuration record is Checkbox_vod.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

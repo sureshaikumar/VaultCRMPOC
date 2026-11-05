@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.first_expiration_date_calendar_required__v (
+   label('1st Exp Date is required For Calendar'),
+   active(true),
+   expression('Not((object_type__vr.api_name__v=''series_contract__v'')&&(period_type__v=''calendar__v'')&&(IsBlank(first_expiration_date__v)))'),
+   description('First Expiration Date is required for a Period Type of "Calendar".'),
+   error_message('First Expiration Date is required for a Period Type of "Calendar".'),
+   error_location('first_expiration_date__v')
+);

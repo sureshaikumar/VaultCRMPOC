@@ -1,0 +1,19 @@
+Field sort_definition__v (
+   label('Sort Definition'),
+   type('String'),
+   active(true),
+   description('Field to hold the column being sorted by in the Bookmark. Schedule views can only be sorted on one field. Format is one ObjectName.FieldName follwed by sort order, ASC or DESC. Example, "Account.Formatted_Name_vod__c::ASC"'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

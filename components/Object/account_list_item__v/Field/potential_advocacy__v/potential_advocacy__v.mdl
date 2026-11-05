@@ -1,0 +1,22 @@
+Field potential_advocacy__v (
+   label('Potential Advocacy'),
+   type('Number'),
+   active(true),
+   description('Used only for certain Account Lists to display the potential prescribing influence of the Account.'),
+   required(false),
+   unique(false),
+   max_value(1000),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

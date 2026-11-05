@@ -1,0 +1,6 @@
+Picklistentry gb-cry__v (
+   value('Croydon'),
+   order(1493),
+   active(true),
+   controlling_entries('gb__v')
+);

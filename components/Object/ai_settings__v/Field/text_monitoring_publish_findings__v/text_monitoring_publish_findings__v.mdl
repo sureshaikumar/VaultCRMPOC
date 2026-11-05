@@ -1,0 +1,19 @@
+Field text_monitoring_publish_findings__v (
+   label('Text Monitoring Publish Findings'),
+   type('Picklist'),
+   active(true),
+   description('Setting to determine whether Text Monitoring Agent findings that are shown to the end user in the UI have a corresponding Monitored Text record created in the Vault for compliance admins to review.'),
+   required(true),
+   unique(false),
+   help_content('Default is "Never" so that no Monitored Text records are created from end-user facing Text Monitoring Agent events. Set to "Issues Only" to create a Monitored Text record when the agent returns a Problems Detected result for the monitored field.'),
+   list_column(false),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.text_monitoring_publish_findings__v'),
+   default_value('{never__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

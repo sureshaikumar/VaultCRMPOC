@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_history__v.em_business_rule_history__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="event__v" />
+            <vault:field reference="em_business_rule_id__v" />
+            <vault:field reference="em_business_rule_configuration_id__v" />
+            <vault:field reference="em_business_rule_type__v" />
+            <vault:field reference="action_type__v" />
+            <vault:field reference="action_datetime__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="run_rule_type__v" />
+            <vault:field reference="event_action__v" />
+            <vault:field reference="warning_type__v" />
+            <vault:field reference="record_violated_name__v" />
+            <vault:field reference="expense_type__v" />
+            <vault:field reference="platform__v" />
+            <vault:field reference="ending_stage__v" />
+            <vault:field reference="starting_stage__v" />
+            <vault:field reference="task_completed__v" />
+            <vault:field reference="workflow_instance_id__v" />
+            <vault:field reference="verdict__v" />
+            <vault:field reference="task_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

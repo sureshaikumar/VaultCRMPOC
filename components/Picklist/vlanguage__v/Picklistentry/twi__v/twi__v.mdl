@@ -1,0 +1,5 @@
+Picklistentry twi__v (
+   value('Twi'),
+   order(334),
+   active(false)
+);

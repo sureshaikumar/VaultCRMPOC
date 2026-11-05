@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_business_rule__v.rolling_period_speaker_not_set__v (
+   label('Rolling Period Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_speaker_engagement_limit_rule__v", true,
+            "em_cross_event_per_speaker_engagement__v", true,
+            false
+        ) = false || date_threshold_type__v != "rolling__v" || Not(IsBlank(rolling_period__v))'),
+   description('date_threshold_type__v is "Rolling" and rolling_period__v is not added to the Event Business Rule.'),
+   error_message('This field is required.'),
+   error_location('rolling_period__v')
+);

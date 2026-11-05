@@ -1,0 +1,5 @@
+Picklistentry preferred__v (
+   value('Preferred'),
+   order(14),
+   active(true)
+);

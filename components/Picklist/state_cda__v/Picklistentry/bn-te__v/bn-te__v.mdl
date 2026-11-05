@@ -1,0 +1,6 @@
+Picklistentry bn-te__v (
+   value('Temburong'),
+   order(437),
+   active(true),
+   controlling_entries('bn__v')
+);

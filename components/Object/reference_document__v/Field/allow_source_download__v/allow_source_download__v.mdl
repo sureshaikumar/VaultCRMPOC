@@ -1,0 +1,17 @@
+Field allow_source_download__v (
+   label('Allow Source Download'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the source rendition of the Reference Document can be downloaded.'),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if the source rendition of the Reference Document can be downloaded.'),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

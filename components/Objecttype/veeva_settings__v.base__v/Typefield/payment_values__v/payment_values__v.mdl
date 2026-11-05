@@ -1,0 +1,4 @@
+Typefield payment_values__v (
+   source('standard'),
+   required(false)
+);

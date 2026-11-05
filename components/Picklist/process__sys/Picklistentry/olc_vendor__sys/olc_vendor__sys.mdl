@@ -1,0 +1,5 @@
+Picklistentry olc_vendor__sys (
+   value('Vendor'),
+   order(92),
+   active(true)
+);

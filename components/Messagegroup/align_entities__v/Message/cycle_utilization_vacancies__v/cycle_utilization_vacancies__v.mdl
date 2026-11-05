@@ -1,0 +1,6 @@
+Message cycle_utilization_vacancies__v (
+   label(),
+   active(true),
+   default_value('Vacancies'),
+   system_managed(false)
+);

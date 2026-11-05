@@ -1,0 +1,8 @@
+RECREATE Objectvalidation product__v.fixed_multiple_check__v (
+   label('Fixed Multiple Check'),
+   active(true),
+   expression('fixed_um__v != true || not(IsBlank(quantity_per_case__v))'),
+   description('Create a formula to ensure that the field quantity_per_case__v is populated if the field fixed_um__v is set to TRUE'),
+   error_message('Quantity Per Case must be populated if this product is enabled with fixed multiples'),
+   error_location('quantity_per_case__v')
+);

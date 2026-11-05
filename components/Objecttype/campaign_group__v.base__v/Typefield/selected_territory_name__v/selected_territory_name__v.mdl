@@ -1,0 +1,4 @@
+Typefield selected_territory_name__v (
+   source('standard'),
+   required(false)
+);

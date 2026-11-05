@@ -1,0 +1,8 @@
+RECREATE Pagelayout model_roster_member_territory_detail_pag__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Model Roster Member Territory Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

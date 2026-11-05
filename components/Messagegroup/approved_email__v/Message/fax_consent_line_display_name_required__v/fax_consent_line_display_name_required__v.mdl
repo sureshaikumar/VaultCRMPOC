@@ -1,0 +1,6 @@
+Message fax_consent_line_display_name_required__v (
+   label(),
+   active(true),
+   default_value('Unbranded Consent Lines require a display name.'),
+   system_managed(false)
+);

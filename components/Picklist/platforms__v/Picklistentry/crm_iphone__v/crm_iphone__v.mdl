@@ -1,0 +1,5 @@
+Picklistentry crm_iphone__v (
+   value('CRM iPhone'),
+   order(4),
+   active(true)
+);

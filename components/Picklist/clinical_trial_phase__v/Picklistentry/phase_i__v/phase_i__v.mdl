@@ -1,0 +1,5 @@
+Picklistentry phase_i__v (
+   value('Phase I'),
+   order(0),
+   active(true)
+);

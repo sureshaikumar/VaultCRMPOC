@@ -1,0 +1,6 @@
+Message preparing_to_export__v (
+   label(),
+   active(true),
+   default_value('Preparing to Export'),
+   system_managed(false)
+);

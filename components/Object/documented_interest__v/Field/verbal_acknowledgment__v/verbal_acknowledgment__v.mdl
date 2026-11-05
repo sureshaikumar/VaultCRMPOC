@@ -1,0 +1,17 @@
+Field verbal_acknowledgment__v (
+   label('Verbal Acknowledgment'),
+   type('Boolean'),
+   active(true),
+   description('Field when checked indicates the verbal agreement from HCP to receive updates about the interest proactively.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry nr-03__v (
+   value('Anetan'),
+   order(3414),
+   active(true),
+   controlling_entries('nr__v')
+);

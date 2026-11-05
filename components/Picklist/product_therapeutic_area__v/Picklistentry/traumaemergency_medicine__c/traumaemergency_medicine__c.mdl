@@ -1,0 +1,5 @@
+Picklistentry traumaemergency_medicine__c (
+   value('Trauma/Emergency Medicine'),
+   order(16),
+   active(true)
+);

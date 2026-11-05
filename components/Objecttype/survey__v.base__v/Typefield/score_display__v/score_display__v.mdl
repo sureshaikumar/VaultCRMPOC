@@ -1,0 +1,4 @@
+Typefield score_display__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,9 @@
+Vsmvalue azn__v (
+   label('AZN'),
+   active(true),
+   description('The Azerbaijani Manat (AZN), the official currency of Azerbaijan introduced in 2006 following currency redenomination.'),
+   synonyms('Azerbaijani manat',
+         'Azerbaijan currency'),
+   target('azn__sys'),
+   target_label('AZN')
+);

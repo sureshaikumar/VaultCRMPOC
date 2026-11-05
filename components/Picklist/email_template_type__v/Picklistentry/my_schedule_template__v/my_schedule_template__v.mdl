@@ -1,0 +1,5 @@
+Picklistentry my_schedule_template__v (
+   value('My Schedule Template'),
+   order(7),
+   active(true)
+);

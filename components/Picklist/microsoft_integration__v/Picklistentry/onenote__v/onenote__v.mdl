@@ -1,0 +1,5 @@
+Picklistentry onenote__v (
+   value('OneNote'),
+   order(2),
+   active(true)
+);

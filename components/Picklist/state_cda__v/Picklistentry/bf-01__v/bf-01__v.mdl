@@ -1,0 +1,6 @@
+Picklistentry bf-01__v (
+   value('Boucle du Mouhoun'),
+   order(315),
+   active(true),
+   controlling_entries('bf__v')
+);

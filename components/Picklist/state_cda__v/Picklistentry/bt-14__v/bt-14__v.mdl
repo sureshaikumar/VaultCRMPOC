@@ -1,0 +1,6 @@
+Picklistentry bt-14__v (
+   value('Samtse'),
+   order(513),
+   active(true),
+   controlling_entries('bt__v')
+);

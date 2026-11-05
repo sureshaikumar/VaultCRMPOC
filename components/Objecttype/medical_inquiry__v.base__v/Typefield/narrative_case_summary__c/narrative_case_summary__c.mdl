@@ -1,0 +1,4 @@
+Typefield narrative_case_summary__c (
+   source('standard'),
+   required(false)
+);

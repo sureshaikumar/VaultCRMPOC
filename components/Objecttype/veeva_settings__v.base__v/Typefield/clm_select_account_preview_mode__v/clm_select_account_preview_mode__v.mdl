@@ -1,0 +1,4 @@
+Typefield clm_select_account_preview_mode__v (
+   source('standard'),
+   required(false)
+);

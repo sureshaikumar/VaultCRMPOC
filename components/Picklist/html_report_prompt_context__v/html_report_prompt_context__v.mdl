@@ -1,0 +1,14 @@
+RECREATE Picklist html_report_prompt_context__v (
+   label('Prompt Context'),
+   active(true),
+   Picklistentry(@Picklistentry/home__v.mdl),
+   Picklistentry(@Picklistentry/top_level_xpage_1__v.mdl),
+   Picklistentry(@Picklistentry/top_level_xpage_2__v.mdl),
+   Picklistentry(@Picklistentry/top_level_xpage_3__v.mdl),
+   Picklistentry(@Picklistentry/account__v.mdl),
+   Picklistentry(@Picklistentry/call2__v.mdl),
+   Picklistentry(@Picklistentry/account_plan__v.mdl),
+   Picklistentry(@Picklistentry/pre_call__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

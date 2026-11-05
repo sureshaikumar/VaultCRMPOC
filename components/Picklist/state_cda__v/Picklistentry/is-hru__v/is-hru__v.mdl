@@ -1,0 +1,6 @@
+Picklistentry is-hru__v (
+   value('Hrunamannahreppur'),
+   order(2113),
+   active(true),
+   controlling_entries('is__v')
+);

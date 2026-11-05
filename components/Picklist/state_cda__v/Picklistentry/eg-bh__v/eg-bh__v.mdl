@@ -1,0 +1,6 @@
+Picklistentry eg-bh__v (
+   value('Al Buḩayrah'),
+   order(1162),
+   active(true),
+   controlling_entries('eg__v')
+);

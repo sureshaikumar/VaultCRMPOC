@@ -1,0 +1,6 @@
+Picklistentry mixsu__v (
+   value('Military Surgery'),
+   order(973),
+   active(true),
+   controlling_entries('tr__v')
+);

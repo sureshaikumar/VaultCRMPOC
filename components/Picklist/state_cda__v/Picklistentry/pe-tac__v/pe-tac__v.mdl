@@ -1,0 +1,6 @@
+Picklistentry pe-tac__v (
+   value('Tacna'),
+   order(3491),
+   active(true),
+   controlling_entries('pe__v')
+);

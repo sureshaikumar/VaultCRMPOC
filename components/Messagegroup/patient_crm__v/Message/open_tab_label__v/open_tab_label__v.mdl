@@ -1,0 +1,6 @@
+Message open_tab_label__v (
+   label(),
+   active(true),
+   default_value('Open in New Tab'),
+   system_managed(false)
+);

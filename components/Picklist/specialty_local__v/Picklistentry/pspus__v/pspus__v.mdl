@@ -1,0 +1,6 @@
+Picklistentry pspus__v (
+   value('Pediatric Surgery Pediatric Urogenital Surgery (K)'),
+   order(1461),
+   active(true),
+   controlling_entries('id__v')
+);

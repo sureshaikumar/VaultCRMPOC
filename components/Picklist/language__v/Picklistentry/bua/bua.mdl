@@ -1,0 +1,5 @@
+Picklistentry bua (
+   value('Buriat'),
+   order(146),
+   active(true)
+);

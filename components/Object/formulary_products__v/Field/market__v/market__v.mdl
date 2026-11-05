@@ -1,0 +1,18 @@
+Field market__v (
+   label('Market'),
+   type('Picklist'),
+   active(true),
+   description('Market (such as Cholesterol Reducer) that this product belongs to.  This field is used as a filter in the formulary viewer.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.formulary_products_market__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry tt-ped__v (
+   value('Penal-Debe'),
+   order(4545),
+   active(true),
+   controlling_entries('tt__v')
+);

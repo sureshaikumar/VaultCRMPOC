@@ -1,0 +1,14 @@
+RECREATE Picklist em_event_session_session_type__v (
+   label('Session Type'),
+   active(true),
+   Picklistentry(@Picklistentry/kol_session__v.mdl),
+   Picklistentry(@Picklistentry/introduction__v.mdl),
+   Picklistentry(@Picklistentry/presentation__v.mdl),
+   Picklistentry(@Picklistentry/discussion__v.mdl),
+   Picklistentry(@Picklistentry/q_a__v.mdl),
+   Picklistentry(@Picklistentry/meal__v.mdl),
+   Picklistentry(@Picklistentry/break__v.mdl),
+   Picklistentry(@Picklistentry/closing__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

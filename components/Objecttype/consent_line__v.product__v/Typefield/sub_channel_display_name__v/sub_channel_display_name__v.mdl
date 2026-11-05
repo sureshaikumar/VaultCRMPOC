@@ -1,0 +1,4 @@
+Typefield sub_channel_display_name__v (
+   source('custom'),
+   required(false)
+);

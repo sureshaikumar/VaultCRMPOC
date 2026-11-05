@@ -1,0 +1,5 @@
+Picklistentry tetracyclines__v (
+   value('Tetracyclines'),
+   order(69),
+   active(true)
+);

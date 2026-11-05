@@ -1,0 +1,4 @@
+Typefield external_user_id__v (
+   source('custom'),
+   required(false)
+);

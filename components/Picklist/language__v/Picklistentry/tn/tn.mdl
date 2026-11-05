@@ -1,0 +1,5 @@
+Picklistentry tn (
+   value('Tswana'),
+   order(92),
+   active(true)
+);

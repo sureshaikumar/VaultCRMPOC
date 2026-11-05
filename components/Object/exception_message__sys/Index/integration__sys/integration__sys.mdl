@@ -1,0 +1,5 @@
+Index integration__sys (
+   description(),
+   fields('integration__sys'),
+   label('Integration')
+);

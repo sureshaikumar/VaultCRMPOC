@@ -1,0 +1,12 @@
+Picklistentry goynn__v (
+   value('Gynecologic Oncology'),
+   order(638),
+   active(true),
+   controlling_entries('ca__v',
+         'cz__v',
+         'my__v',
+         'ph__v',
+         'pl__v',
+         'th__v',
+         'ua__v')
+);

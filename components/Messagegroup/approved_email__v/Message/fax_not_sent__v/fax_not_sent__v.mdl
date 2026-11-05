@@ -1,0 +1,6 @@
+Message fax_not_sent__v (
+   label(),
+   active(true),
+   default_value('Fax Not Sent'),
+   system_managed(false)
+);

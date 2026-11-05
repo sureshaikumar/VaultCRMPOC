@@ -1,0 +1,4 @@
+Typefield doc_attachment__sys (
+   source('standard'),
+   required(false)
+);

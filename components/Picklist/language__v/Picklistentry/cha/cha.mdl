@@ -1,0 +1,5 @@
+Picklistentry cha (
+   value('Chamorro'),
+   order(150),
+   active(true)
+);

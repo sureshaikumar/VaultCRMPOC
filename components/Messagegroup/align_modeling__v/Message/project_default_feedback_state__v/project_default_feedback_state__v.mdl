@@ -1,0 +1,6 @@
+Message project_default_feedback_state__v (
+   label(),
+   active(true),
+   default_value('Default Feedback State'),
+   system_managed(false)
+);

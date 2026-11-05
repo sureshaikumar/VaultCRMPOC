@@ -1,0 +1,5 @@
+Picklistentry diuretics_combination_water_pills__v (
+   value('Diuretics (Combination "Water" Pills)'),
+   order(9),
+   active(true)
+);

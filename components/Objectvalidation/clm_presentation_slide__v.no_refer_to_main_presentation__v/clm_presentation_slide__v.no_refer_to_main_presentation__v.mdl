@@ -1,0 +1,8 @@
+RECREATE Objectvalidation clm_presentation_slide__v.no_refer_to_main_presentation__v (
+   label('NoReferToMainPresentation'),
+   active(true),
+   expression('Text(clm_presentation__vr.id) != Text(sub_presentation__vr.id)'),
+   description('The sub-presentation of one slide should not be linked back to the main presentation.'),
+   error_message('You cannot make the parent presentation refer to itself as a sub presentation'),
+   error_location('sub_presentation__v')
+);

@@ -1,0 +1,171 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.user__sys">
+    <vault:section title="Domain User" name="domain_user__v">
+        <vault:domainUser />
+    </vault:section>
+    <vault:section title="General Info" name="general_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="first_name__sys" />
+            <vault:field reference="last_name__sys" />
+            <vault:field reference="username__sys" />
+            <vault:field reference="email__sys" />
+            <vault:field reference="language__sys" />
+            <vault:field reference="locale__sys" />
+            <vault:field reference="timezone__sys" />
+            <vault:field reference="user_type__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="alias__sys" />
+            <vault:field reference="company__sys" />
+            <vault:field reference="title__sys" />
+            <vault:field reference="manager__sys" />
+            <vault:field reference="department__v" />
+            <vault:field reference="image__sys" />
+            <vault:field reference="address__v" />
+            <vault:field reference="street__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="postalcode__v" />
+            <vault:field reference="location__sys" />
+            <vault:field reference="office_phone__sys" />
+            <vault:field reference="mobile_phone__sys" />
+            <vault:field reference="fax__sys" />
+            <vault:field reference="preferred_currency__sys" />
+            <vault:field reference="holiday_schedule__sys" />
+            <vault:field reference="preferred_tab_col__sys" />
+            <vault:field reference="analytics_admin__v" />
+            <vault:field reference="available__v" />
+            <vault:field reference="consent_admin__v" />
+            <vault:field reference="content_admin__v" />
+            <vault:field reference="custom_application__v" />
+            <vault:field reference="engage_connect_group_request__v" />
+            <vault:field reference="engage_connect_group__v" />
+            <vault:field reference="engage_connect_group_status__v" />
+            <vault:field reference="enable_clm_testing_features__v" />
+            <vault:field reference="engage_group__v" />
+            <vault:field reference="engage_group_provisioning_status__v" />
+            <vault:field reference="engage_group_request__v" />
+            <vault:field reference="force_full_refresh__v" />
+            <vault:field reference="clear_client_sync_errors__v" />
+            <vault:field reference="upload_vtrans__v" />
+            <vault:field reference="mccp_admin__v" />
+            <vault:field reference="network_admin__v" />
+            <vault:field reference="override_systemmodstamp_timestamp__v" />
+            <vault:field reference="primary_territory__v" />
+            <vault:field reference="user_identifier__v" />
+            <vault:field reference="smallphotourl__v" />
+            <vault:field reference="communitynickname__v" />
+            <vault:field reference="delegatedapproverid__v" />
+            <vault:field reference="profile_name__v" />
+            <vault:field reference="country_code__v" />
+            <vault:field reference="enable_ms_outlook_calendar__v" />
+            <vault:field reference="enable_ms_teams__v" />
+            <vault:field reference="ms_graph_api_authorized__v" />
+            <vault:field reference="inventory_order_allocation_group__v" />
+            <vault:field reference="vcountry__v" />
+            <vault:field reference="language_code__v" />
+            <vault:field reference="ccaas_external_user_id__v" />
+            <vault:field reference="omniconnect_integration__v" />
+            <vault:field reference="license_vaultcrmcampaignmanager__sys" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="license_vaultcrmpatientcrm__sys" />
+            <vault:field reference="approved_email_admin__v" />
+            <vault:field reference="localized_language__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="license_type__sys" />
+            <vault:control reference="user_security_profile_field_control__sys" name="user_security_profile_field_control__c" />
+            <vault:field reference="layout_profile__sys" />
+            <vault:field reference="domain_admin__sys" />
+            <vault:field reference="state__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="last_login__sys" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="federated_id__sys" />
+            <vault:field reference="security_policy__sys" />
+            <vault:field reference="salesforce_username__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Email Preferences" name="email_preferences__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="product_announcement_emails__sys" />
+            <vault:field reference="favorite_documents__sys" />
+            <vault:field reference="summary_email_interval__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Mobile Device Details" name="mobile_device_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="last_crmdesktop_mac_sync__v" />
+            <vault:field reference="last_crmdesktop_mac_version__v" />
+            <vault:field reference="last_crmdesktop_windows_sync__v" />
+            <vault:field reference="last_crmdesktop_windows_version__v" />
+            <vault:field reference="last_ipad_connect__v" />
+            <vault:field reference="last_ipad_connect_version__v" />
+            <vault:field reference="last_ipad_ios_version__v" />
+            <vault:field reference="last_iphone_connect__v" />
+            <vault:field reference="last_ipad_sync__v" />
+            <vault:field reference="last_iphone_connect_version__v" />
+            <vault:field reference="last_iphone_ios_version__v" />
+            <vault:field reference="last_iphone_sync__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="User Role Setup" name="user_role_setup__c">
+        <vault:relatedObject relationship="user_role_setup__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="199px" />
+            <vault:field reference="user__v" width="199px" />
+            <vault:field reference="role__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+    <vault:section title="Application Licensing" name="application_licensing__c" helpContent="At least one application license type must be selected. If none are selected, all application licenses are set by default.">
+        <vault:detailform type="One-Column">
+            <vault:control reference="vaultcrmcore_lic_control__sys" name="vaultcrmcore_lic_control__c" />
+            <vault:control reference="vaultcrmapprovedemail_lic_control__sys" name="vaultcrmapprovedemail_lic_control__c" />
+            <vault:control reference="vaultcrmengage_lic_control__sys" name="vaultcrmengage_lic_control__c" />
+            <vault:control reference="vaultcrmservicecenter_lic_control__sys" name="vaultcrmservicecenter_lic_control__c" />
+            <vault:control reference="vaultcrmeventsmanagement_lic_control__sys" name="vaultcrmeventsmanagement_lic_control__c" />
+            <vault:control reference="vaultcrmalign_lic_control__sys" name="vaultcrmalign_lic_control__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Groups" name="user_groups_section_control__c" reference="user_groups_section_control__sys" />
+    <vault:section title="Inbox Documents: Sharing" name="user_share_inbox_section_control__c" reference="user_share_inbox_section_control__sys" />
+    <vault:section title="Delegate Access" name="user_delegate_access_section_control__c" reference="user_delegate_access_section_control__sys" />
+    <vault:section title="Security Overrides" name="user_security_overrides_section_control__c" reference="user_security_overrides_section_control__sys" />
+    <vault:section title="Veeva Support" name="user_support_access_section_control__c" reference="user_support_access_section_control__sys" />
+    <vault:section title="Devices" name="mobile_app_registrations__c" reference="mobile_app_registrations_detail_control__sys" />
+    <vault:section title="Search Preferences" name="search_preferences__c" reference="search_preferences_detail_control__sys" />
+    <vault:section title="User Role" name="user_role__c">
+        <vault:relatedObject relationship="user_role__sysr" preventRecordCreate="false" modalCreateRecord="true" displayAsSimple="false">
+            <vault:field reference="name__v" width="199px" />
+            <vault:field reference="status__v" width="199px" />
+            <vault:field reference="user__sys" width="199px" />
+            <vault:field reference="application_role__sys" width="199px" />
+            <vault:field reference="application_role__sysr.name__v" width="199px" />
+            <vault:field reference="application_role__sysr.status__v" width="199px" />
+            <vault:field reference="application_role__sysr.description__v" width="199px" />
+            <vault:field reference="application_role__sysr.api_name__v" width="199px" />
+            <vault:field reference="application_role__sysr.enforce_role_constraint__sys" width="199px" />
+            <vault:field reference="application_role__sysr.permission_set__sys" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="User Territories" name="user_territories__c">
+        <vault:relatedObject relationship="user_territories__vr" preventRecordCreate="false" modalCreateRecord="false" displayAsSimple="false">
+            <vault:field reference="name__v" width="199px" />
+            <vault:field reference="user__v" width="199px" />
+            <vault:field reference="territory__v" width="199px" />
+            <vault:field reference="external_id__v" width="199px" />
+            <vault:field reference="territory__vr.name__v" width="199px" />
+            <vault:field reference="territory__vr.parent_territory__v" width="199px" />
+            <vault:field reference="territory__vr.description__v" width="199px" />
+            <vault:field reference="territory__vr.country__v" width="199px" />
+            <vault:field reference="territory__vr.api_name__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

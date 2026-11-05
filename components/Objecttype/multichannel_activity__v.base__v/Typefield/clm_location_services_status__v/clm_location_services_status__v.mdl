@@ -1,0 +1,4 @@
+Typefield clm_location_services_status__v (
+   source('standard'),
+   required(false)
+);

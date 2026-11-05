@@ -1,0 +1,6 @@
+Message crm_integration_validate_crm_connection__v (
+   label(),
+   active(true),
+   default_value('Validating CRM and Align integration login credentials'),
+   system_managed(false)
+);

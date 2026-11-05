@@ -1,0 +1,4 @@
+Typefield system_registration_id__sys (
+   source('standard'),
+   required(true)
+);

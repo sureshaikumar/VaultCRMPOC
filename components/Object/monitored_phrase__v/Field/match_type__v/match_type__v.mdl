@@ -1,0 +1,19 @@
+Field match_type__v (
+   label('Match Type'),
+   type('Picklist'),
+   active(true),
+   description('The kind of keyword matching that needs to be done for the phrase.'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.monitored_phrase_match_type__v'),
+   default_value('{exact__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

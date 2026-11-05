@@ -1,0 +1,6 @@
+Picklistentry na-ha__v (
+   value('Hardap'),
+   order(3300),
+   active(true),
+   controlling_entries('na__v')
+);

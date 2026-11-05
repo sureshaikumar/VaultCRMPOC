@@ -1,0 +1,5 @@
+Picklistentry partner_referral__v (
+   value('Partner Referral'),
+   order(2),
+   active(true)
+);

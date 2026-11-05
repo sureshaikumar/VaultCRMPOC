@@ -1,0 +1,6 @@
+Picklistentry lsaup__v (
+   value('Laparoscopic Surgery'),
+   order(859),
+   active(true),
+   controlling_entries('ge__v')
+);

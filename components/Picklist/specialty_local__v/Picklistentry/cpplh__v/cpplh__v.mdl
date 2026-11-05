@@ -1,0 +1,6 @@
+Picklistentry cpplh__v (
+   value('Clinical Pharmacology (Pharmacy)'),
+   order(277),
+   active(true),
+   controlling_entries('am__v')
+);

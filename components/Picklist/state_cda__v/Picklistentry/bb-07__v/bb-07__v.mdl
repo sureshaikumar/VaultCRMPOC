@@ -1,0 +1,6 @@
+Picklistentry bb-07__v (
+   value('Saint Lucy'),
+   order(225),
+   active(true),
+   controlling_entries('bb__v')
+);

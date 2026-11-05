@@ -1,0 +1,5 @@
+Picklistentry sl__v (
+   value('SL'),
+   order(203),
+   active(true)
+);

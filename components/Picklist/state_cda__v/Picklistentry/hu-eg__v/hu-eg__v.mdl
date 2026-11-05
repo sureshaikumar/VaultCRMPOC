@@ -1,0 +1,6 @@
+Picklistentry hu-eg__v (
+   value('Eger'),
+   order(1882),
+   active(true),
+   controlling_entries('hu__v')
+);

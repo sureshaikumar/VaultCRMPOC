@@ -1,0 +1,6 @@
+Message mccp_ff_and_ffm_coexist_in_cycle_err_msg__v (
+   label(),
+   active(true),
+   default_value('MC Cycle cannot belong to both a field force and a field force model'),
+   system_managed(false)
+);

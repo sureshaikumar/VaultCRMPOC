@@ -1,0 +1,4 @@
+Typefield account_rule_model__v (
+   source('standard'),
+   required(true)
+);

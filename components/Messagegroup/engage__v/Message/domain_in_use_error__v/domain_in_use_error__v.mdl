@@ -1,0 +1,6 @@
+Message domain_in_use_error__v (
+   label(),
+   active(true),
+   default_value('This domain is already in use'),
+   system_managed(false)
+);

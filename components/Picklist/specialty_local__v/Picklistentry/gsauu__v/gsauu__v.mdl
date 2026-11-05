@@ -1,0 +1,6 @@
+Picklistentry gsauu__v (
+   value('Gastroenterology Surgery'),
+   order(579),
+   active(true),
+   controlling_entries('fi__v')
+);

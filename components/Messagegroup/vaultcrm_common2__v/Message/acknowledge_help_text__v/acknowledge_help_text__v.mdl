@@ -1,0 +1,6 @@
+Message acknowledge_help_text__v (
+   label(),
+   active(true),
+   default_value('Acknowledge that outreach is complete'),
+   system_managed(false)
+);

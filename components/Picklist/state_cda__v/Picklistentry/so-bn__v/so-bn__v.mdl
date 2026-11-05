@@ -1,0 +1,6 @@
+Picklistentry so-bn__v (
+   value('Banaadir'),
+   order(4225),
+   active(true),
+   controlling_entries('so__v')
+);

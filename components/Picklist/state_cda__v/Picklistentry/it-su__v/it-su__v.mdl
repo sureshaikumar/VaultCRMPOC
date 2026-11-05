@@ -1,0 +1,6 @@
+Picklistentry it-su__v (
+   value('South Sardinia'),
+   order(2262),
+   active(true),
+   controlling_entries('it__v')
+);

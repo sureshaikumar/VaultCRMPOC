@@ -1,0 +1,5 @@
+Picklistentry xfo__sys (
+   value('XFO'),
+   order(212),
+   active(true)
+);

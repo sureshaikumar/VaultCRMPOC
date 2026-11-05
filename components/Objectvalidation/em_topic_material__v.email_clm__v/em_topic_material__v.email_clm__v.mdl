@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_topic_material__v.email_clm__v (
+   label('Email CLM'),
+   active(true),
+   expression('Or(
+            And(IsBlank(clm_presentation__v), Not(IsBlank(email_template__v))),
+            And(IsBlank(email_template__v), Not(IsBlank(clm_presentation__v))),
+            And(IsBlank(email_template__v), IsBlank(clm_presentation__v))
+        )'),
+   description('A single rule cannot have both Email Template and CLM Presentation populated. Please create separate rules for these two items.'),
+   error_message('A single rule cannot have both Email Template and CLM Presentation populated. Please create separate rules for these two items.'),
+   error_location('email_template__v',
+      'clm_presentation__v')
+);

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true">
+  <vrp:docType>base_document__v</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:enableMergeCells>false</vrp:enableMergeCells>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="account__v.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="dynamic_attribute__v___account__v.name__v" type="documentProperty" index="1" columnWidth="200" />
+    <vrp:column key="dynamic_attribute__v___account__v.dynamic_attribute_label__v" type="documentProperty" index="2" columnWidth="161" />
+    <vrp:column key="dynamic_attribute__v___account__v.dynamic_attribute_value_text__v" type="documentProperty" index="3" columnWidth="193" />
+  </vrp:columns>
+  <vrp:relationshipObjectJoinTypes>
+    <vrp:relationshipObjectJoinType relationshipKeyRef="reportTypeRef1753797495955" vobjectJoinType="NONE" />
+  </vrp:relationshipObjectJoinTypes>
+</vrp:reportFormat>

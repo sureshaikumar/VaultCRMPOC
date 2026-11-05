@@ -1,0 +1,5 @@
+Picklistentry standalone__v (
+   value('Standalone'),
+   order(4),
+   active(true)
+);

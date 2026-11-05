@@ -1,0 +1,4 @@
+Typefield disable_new_calendar__v (
+   source('standard'),
+   required(false)
+);

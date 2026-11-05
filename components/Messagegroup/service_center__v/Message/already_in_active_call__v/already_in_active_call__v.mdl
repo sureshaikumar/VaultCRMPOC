@@ -1,0 +1,6 @@
+Message already_in_active_call__v (
+   label(),
+   active(true),
+   default_value('Already in an active call'),
+   system_managed(false)
+);

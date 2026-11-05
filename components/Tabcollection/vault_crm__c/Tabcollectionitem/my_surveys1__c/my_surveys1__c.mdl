@@ -1,0 +1,8 @@
+Tabcollectionitem my_surveys1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(6),
+   tab('Tab.my_surveys_tab__v'),
+   type('Tab')
+);

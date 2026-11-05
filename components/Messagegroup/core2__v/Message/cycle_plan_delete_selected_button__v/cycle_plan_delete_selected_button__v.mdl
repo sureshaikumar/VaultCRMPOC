@@ -1,0 +1,6 @@
+Message cycle_plan_delete_selected_button__v (
+   label(),
+   active(true),
+   default_value('Delete Selected (${count_of_accounts_selected})'),
+   system_managed(false)
+);

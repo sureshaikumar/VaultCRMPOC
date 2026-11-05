@@ -1,0 +1,5 @@
+Picklistentry prevent__v (
+   value('Prevent'),
+   order(0),
+   active(true)
+);

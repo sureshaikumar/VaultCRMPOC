@@ -1,0 +1,6 @@
+Message mccp_rule_ch_duplicated_priority_err_msg__v (
+   label(),
+   active(true),
+   default_value('Channel groups under cycle channel {0} contains duplicated priorities {1}'),
+   system_managed(false)
+);

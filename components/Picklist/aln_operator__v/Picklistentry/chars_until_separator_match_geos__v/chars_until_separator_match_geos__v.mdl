@@ -1,0 +1,5 @@
+Picklistentry chars_until_separator_match_geos__v (
+   value('characters until separator match territory''s geographies'),
+   order(18),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry olc_batch_approval__sys (
+   value('Batch Approval'),
+   order(6),
+   active(true)
+);

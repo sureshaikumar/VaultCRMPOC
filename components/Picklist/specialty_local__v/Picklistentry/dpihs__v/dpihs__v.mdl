@@ -1,0 +1,7 @@
+Picklistentry dpihs__v (
+   value('Distribution Pharmacy'),
+   order(454),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

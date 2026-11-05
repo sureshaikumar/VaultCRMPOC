@@ -1,0 +1,14 @@
+RECREATE Page business_portal_page__v (
+   label('Business Portal'),
+   active(true),
+   client_distribution(),
+   default_client_code('business_portal_xpages__v'),
+   description(),
+   disable_chrome(true),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.myinsights.controls.page.BusinessPortalXPagesController'),
+   url_path_name('business-portal')
+);

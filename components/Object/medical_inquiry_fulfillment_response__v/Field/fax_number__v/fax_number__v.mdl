@@ -1,0 +1,20 @@
+Field fax_number__v (
+   label('Fax Number'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Fax value captured for Medical Inquiry Fulfillment Response.'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

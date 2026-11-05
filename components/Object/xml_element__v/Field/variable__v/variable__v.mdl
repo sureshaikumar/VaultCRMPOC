@@ -1,0 +1,19 @@
+Field variable__v (
+   label('Variable'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(60),
+   help_content('When defining a table, give it a variable name that you can refer back to when defining a formula field. This allows you to define the level you''re pulling data from when entering formulas for XML Elements within tables.'),
+   list_column(true),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

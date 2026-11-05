@@ -1,0 +1,15 @@
+RECREATE Notificationtemplate binder_export_fail__v (
+   label('binderExportFail'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: ${docNameNoLink} binder export failed.'),
+   notification('<p>An error occurred while trying to prepare your binder ${docName} for export. Please see notification email for details.</p>
+'),
+   email_body('<p>An error occurred while trying to prepare your binder ${docName} for export. Please contact your Vault Administrator.</p>
+<p>${binderExportErrorMessage}</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

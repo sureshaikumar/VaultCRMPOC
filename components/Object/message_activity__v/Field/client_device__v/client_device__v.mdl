@@ -1,0 +1,18 @@
+Field client_device__v (
+   label('Client Device'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Device_Type_vod captures the device type the Engage Link was accessed on.'),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.message_activity_client_device__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

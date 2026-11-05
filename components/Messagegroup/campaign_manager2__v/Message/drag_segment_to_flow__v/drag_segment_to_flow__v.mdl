@@ -1,0 +1,6 @@
+Message drag_segment_to_flow__v (
+   label(),
+   active(true),
+   default_value('Drag segment into flow'),
+   system_managed(false)
+);

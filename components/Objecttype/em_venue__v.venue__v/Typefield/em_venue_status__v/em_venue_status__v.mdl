@@ -1,0 +1,6 @@
+Typefield em_venue_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_venue_status__v.eligible__v',
+         'Picklist.em_venue_status__v.inactive__v')
+);

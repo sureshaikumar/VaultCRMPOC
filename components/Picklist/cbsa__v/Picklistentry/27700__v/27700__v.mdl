@@ -1,0 +1,5 @@
+Picklistentry 27700__v (
+   value('Jesup, GA Micropolitan Statistical Area'),
+   order(78),
+   active(true)
+);

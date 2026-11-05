@@ -1,0 +1,5 @@
+Picklistentry chb__v (
+   value('Chibcha'),
+   order(57),
+   active(false)
+);

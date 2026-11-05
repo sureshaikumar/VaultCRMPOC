@@ -1,0 +1,6 @@
+Message content_group_detail_group_prod_val__v (
+   label(),
+   active(true),
+   default_value('Only products of type ''Detail Group'' may be selected for ''Detail Group.'''),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry inger__v (
+   value('Internal Medicine: Geriatrics'),
+   order(813),
+   active(true),
+   controlling_entries('dk__v')
+);

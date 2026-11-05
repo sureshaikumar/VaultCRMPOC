@@ -1,0 +1,6 @@
+Message case_reassigned_to_self_body__v (
+   label(),
+   active(true),
+   default_value('1 Case Reassigned to you'),
+   system_managed(false)
+);

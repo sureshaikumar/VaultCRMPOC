@@ -1,0 +1,6 @@
+Picklistentry om-sj__v (
+   value('Janūb ash Sharqīyah'),
+   order(3449),
+   active(true),
+   controlling_entries('om__v')
+);

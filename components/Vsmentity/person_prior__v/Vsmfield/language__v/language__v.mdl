@@ -1,0 +1,13 @@
+Vsmfield language__v (
+   label('Language'),
+   active(true),
+   description('The prior language setting associated with the person, referencing a language object. Captures the language preference the person had before it was changed, useful for auditing profile history.'),
+   example_values(),
+   synonyms('preferred language',
+         'user language',
+         'locale language'),
+   target('language__sys'),
+   target_label('Language'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

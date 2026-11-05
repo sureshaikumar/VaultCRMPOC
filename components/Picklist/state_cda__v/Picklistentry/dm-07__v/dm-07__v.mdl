@@ -1,0 +1,6 @@
+Picklistentry dm-07__v (
+   value('Saint Luke'),
+   order(935),
+   active(true),
+   controlling_entries('dm__v')
+);

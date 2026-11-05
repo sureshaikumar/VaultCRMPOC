@@ -1,0 +1,14 @@
+RECREATE Page em_router_page__v (
+   label('EM Router Page'),
+   active(true),
+   client_distribution(),
+   default_client_code(),
+   description('App page to route em traffic to the correct pages'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.eventsmanagement.page.EmRouterPageController'),
+   url_path_name('em-router')
+);

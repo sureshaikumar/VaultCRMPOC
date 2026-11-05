@@ -1,0 +1,6 @@
+Message search_for__v (
+   label(),
+   active(true),
+   default_value('Search for: '),
+   system_managed(false)
+);

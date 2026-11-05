@@ -1,0 +1,6 @@
+Picklistentry vn-09__v (
+   value('Lạng Sơn'),
+   order(4919),
+   active(true),
+   controlling_entries('vn__v')
+);

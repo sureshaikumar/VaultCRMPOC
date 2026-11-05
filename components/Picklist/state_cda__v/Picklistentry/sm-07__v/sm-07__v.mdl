@@ -1,0 +1,6 @@
+Picklistentry sm-07__v (
+   value('San Marino'),
+   order(4206),
+   active(true),
+   controlling_entries('sm__v')
+);

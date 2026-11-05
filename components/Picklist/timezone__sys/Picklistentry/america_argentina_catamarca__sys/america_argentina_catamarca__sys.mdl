@@ -1,0 +1,5 @@
+Picklistentry america_argentina_catamarca__sys (
+   value('(GMT-03:00) Argentine Time (America/Argentina/Catamarca)'),
+   order(101),
+   active(true)
+);

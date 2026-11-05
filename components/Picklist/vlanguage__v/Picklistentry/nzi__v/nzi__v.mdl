@@ -1,0 +1,5 @@
+Picklistentry nzi__v (
+   value('Nzima'),
+   order(243),
+   active(false)
+);

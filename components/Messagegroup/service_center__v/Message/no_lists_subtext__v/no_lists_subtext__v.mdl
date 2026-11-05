@@ -1,0 +1,6 @@
+Message no_lists_subtext__v (
+   label(),
+   active(true),
+   default_value('Target Lists will appear here once Deactivated.'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+Vsmvalue gel__v (
+   label('GEL'),
+   active(true),
+   description('The Georgian Lari (GEL), the official currency of Georgia, used for transactions and financial records involving business operations in Georgia.'),
+   synonyms('Georgian lari',
+         'lari',
+         'Georgia currency'),
+   target('gel__sys'),
+   target_label('GEL')
+);

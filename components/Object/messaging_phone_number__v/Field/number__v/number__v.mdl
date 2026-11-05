@@ -1,0 +1,19 @@
+Field number__v (
+   label('Number'),
+   type('String'),
+   active(true),
+   description('The actual phone number used for messaging, linked to the Messaging Business Account.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

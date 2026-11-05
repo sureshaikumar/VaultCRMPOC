@@ -1,0 +1,6 @@
+Message controls__v (
+   label(),
+   active(true),
+   default_value('Controls'),
+   system_managed(false)
+);

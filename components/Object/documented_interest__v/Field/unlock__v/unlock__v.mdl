@@ -1,0 +1,17 @@
+Field unlock__v (
+   label('Unlock_vod'),
+   type('Boolean'),
+   active(true),
+   description('When editable to a user, displays an Unlock button which allows the User to unlock and edit a record with a Submitted status.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

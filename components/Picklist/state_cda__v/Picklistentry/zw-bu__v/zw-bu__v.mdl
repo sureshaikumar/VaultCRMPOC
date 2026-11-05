@@ -1,0 +1,6 @@
+Picklistentry zw-bu__v (
+   value('Bulawayo'),
+   order(5036),
+   active(true),
+   controlling_entries('zw__v')
+);

@@ -1,0 +1,22 @@
+Field swipe_sensitivity__v (
+   label('Swipe Sensitivity'),
+   type('Number'),
+   active(true),
+   description('Controls the width of the swipe gesture needed to proceed to previous/next Slide. Enter 0 (or leave blank) for the default swipe. Enter 1 for swipe that is less than the default swipe. Enter 2 for the least wide swipe.'),
+   required(false),
+   unique(false),
+   max_value(2),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

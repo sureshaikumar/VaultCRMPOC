@@ -1,0 +1,8 @@
+RECREATE Pagelayout model_approval_mapping_detail_page_layou__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Model Approval Mapping Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

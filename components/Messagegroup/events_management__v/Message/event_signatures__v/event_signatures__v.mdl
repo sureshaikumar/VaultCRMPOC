@@ -1,0 +1,6 @@
+Message event_signatures__v (
+   label(),
+   active(true),
+   default_value('Event Signatures'),
+   system_managed(false)
+);

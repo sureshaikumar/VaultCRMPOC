@@ -1,0 +1,6 @@
+Message mccp_feedback_manage_transfer_requests__v (
+   label(),
+   active(true),
+   default_value('Manage Transfer Requests'),
+   system_managed(false)
+);

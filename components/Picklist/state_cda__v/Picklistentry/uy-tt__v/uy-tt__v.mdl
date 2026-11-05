@@ -1,0 +1,6 @@
+Picklistentry uy-tt__v (
+   value('Treinta y Tres'),
+   order(4866),
+   active(true),
+   controlling_entries('uy__v')
+);

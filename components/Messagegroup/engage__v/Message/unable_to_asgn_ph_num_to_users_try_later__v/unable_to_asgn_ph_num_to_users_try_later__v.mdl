@@ -1,0 +1,6 @@
+Message unable_to_asgn_ph_num_to_users_try_later__v (
+   label(),
+   active(true),
+   default_value('Unable to assign phone numbers to other users. Try again later.'),
+   system_managed(false)
+);

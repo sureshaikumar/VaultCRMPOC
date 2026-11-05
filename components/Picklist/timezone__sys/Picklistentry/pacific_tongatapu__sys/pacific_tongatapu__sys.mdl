@@ -1,0 +1,5 @@
+Picklistentry pacific_tongatapu__sys (
+   value('(GMT+13:00) Tonga Time (Pacific/Tongatapu)'),
+   order(313),
+   active(true)
+);

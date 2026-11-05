@@ -1,0 +1,6 @@
+Picklistentry mk-401__v (
+   value('Bogdanci'),
+   order(2993),
+   active(true),
+   controlling_entries('mk__v')
+);

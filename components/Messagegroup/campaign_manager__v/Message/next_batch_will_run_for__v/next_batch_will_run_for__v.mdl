@@ -1,0 +1,6 @@
+Message next_batch_will_run_for__v (
+   label(),
+   active(true),
+   default_value('Next batch will run for'),
+   system_managed(false)
+);

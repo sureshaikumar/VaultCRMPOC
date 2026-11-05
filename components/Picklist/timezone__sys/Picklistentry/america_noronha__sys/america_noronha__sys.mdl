@@ -1,0 +1,5 @@
+Picklistentry america_noronha__sys (
+   value('(GMT-02:00) Fernando de Noronha Time (America/Noronha)'),
+   order(130),
+   active(true)
+);

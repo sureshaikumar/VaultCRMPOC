@@ -1,0 +1,8 @@
+RECREATE Picklist clm_vector_scope__v (
+   label('CLM Vector Scope'),
+   active(true),
+   Picklistentry(@Picklistentry/all__v.mdl),
+   Picklistentry(@Picklistentry/product__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

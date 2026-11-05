@@ -1,0 +1,23 @@
+Field line_discount__v (
+   label('Line Discount'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Shows and stores the exact amount of discount the pricing rule for this order line has determined, the customer can decide if he wants to'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(4),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

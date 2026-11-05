@@ -1,0 +1,6 @@
+Message clm_segmentation_account_warning__v (
+   label(),
+   active(true),
+   default_value('This response contains information from presentations for a segmentation that are not allowed for ${account_name}.'),
+   system_managed(false)
+);

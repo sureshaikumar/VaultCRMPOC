@@ -1,0 +1,6 @@
+Message able_to_start_call_with_target__v (
+   label(),
+   active(true),
+   default_value('You are able to start calls with ${target_name}'),
+   system_managed(false)
+);

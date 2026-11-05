@@ -1,0 +1,6 @@
+Message concur_call_expense_failures__v (
+   label(),
+   active(true),
+   default_value('Call Expense Failures'),
+   system_managed(false)
+);

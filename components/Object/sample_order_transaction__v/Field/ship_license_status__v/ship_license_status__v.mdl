@@ -1,0 +1,19 @@
+Field ship_license_status__v (
+   label('Ship License Status'),
+   type('String'),
+   active(true),
+   description('The Ship License Status field stores the current status of the requesting Physicians''s license.'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(false),
+   order(51),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

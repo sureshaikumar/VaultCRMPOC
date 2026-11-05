@@ -1,0 +1,6 @@
+Picklistentry it-67__v (
+   value('Molise'),
+   order(2168),
+   active(true),
+   controlling_entries('it__v')
+);

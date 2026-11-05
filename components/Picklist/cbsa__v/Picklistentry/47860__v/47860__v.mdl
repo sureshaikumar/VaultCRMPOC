@@ -1,0 +1,5 @@
+Picklistentry 47860__v (
+   value('Washington, OH Micropolitan Statistical Area'),
+   order(342),
+   active(true)
+);

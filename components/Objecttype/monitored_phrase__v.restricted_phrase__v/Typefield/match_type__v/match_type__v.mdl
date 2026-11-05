@@ -1,0 +1,7 @@
+Typefield match_type__v (
+   source('custom'),
+   required(true),
+   pickentries('Picklist.monitored_phrase_match_type__v.exact__v',
+         'Picklist.monitored_phrase_match_type__v.contains__v'),
+   default_value('Picklist.monitored_phrase_match_type__v.exact__v')
+);

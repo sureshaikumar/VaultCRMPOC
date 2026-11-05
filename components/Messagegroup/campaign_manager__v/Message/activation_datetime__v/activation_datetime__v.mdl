@@ -1,0 +1,6 @@
+Message activation_datetime__v (
+   label(),
+   active(true),
+   default_value('Activation Datetime'),
+   system_managed(false)
+);

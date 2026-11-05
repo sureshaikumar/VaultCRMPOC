@@ -1,0 +1,6 @@
+Message am_confirmation_message__v (
+   label(),
+   active(true),
+   default_value('Merging accounts will result in permanent data changes and losses. Are you sure you want to continue?'),
+   system_managed(false)
+);

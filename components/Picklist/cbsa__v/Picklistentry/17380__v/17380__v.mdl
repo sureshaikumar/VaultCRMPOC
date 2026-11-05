@@ -1,0 +1,5 @@
+Picklistentry 17380__v (
+   value('Cleveland, MS Micropolitan Statistical Area'),
+   order(21),
+   active(true)
+);

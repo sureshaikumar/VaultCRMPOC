@@ -1,0 +1,11 @@
+RECREATE Pagelink contract_line_edit_pagelink__v (
+   label('Contract Line Edit'),
+   description('Redirects editing Contract Lines to the Contract Line App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Object.id}}/edit'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.contract_line__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.contract_line_app_page__v')
+);

@@ -1,0 +1,6 @@
+Message maximum_file_size__v (
+   label(),
+   active(true),
+   default_value('The maximum file size is 50 Megabytes'),
+   system_managed(false)
+);

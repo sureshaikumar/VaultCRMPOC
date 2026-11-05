@@ -1,0 +1,6 @@
+Picklistentry otp_receipt1__sys (
+   value('Receipt'),
+   order(136),
+   active(true),
+   controlling_entries('olc_sample_transaction__sys')
+);

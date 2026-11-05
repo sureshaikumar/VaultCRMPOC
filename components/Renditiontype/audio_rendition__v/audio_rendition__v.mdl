@@ -1,0 +1,4 @@
+RECREATE Renditiontype audio_rendition__v (
+   label('Audio Rendition'),
+   active(true)
+);

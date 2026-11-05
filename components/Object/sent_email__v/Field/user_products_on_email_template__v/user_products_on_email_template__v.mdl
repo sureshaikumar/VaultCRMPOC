@@ -1,0 +1,19 @@
+Field user_products_on_email_template__v (
+   label('User Products on Email Template'),
+   type('String'),
+   active(true),
+   description('The products on the Email Template Document that the user could detail when it was sent. These values are stored as the names of the products in a semicolon delimited list. If detail groups are used, they are stored as a | delimited pair with the detail product.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('The names of the detail products and detail groups assigned to the Email Template document version sent that the user can detail.'),
+   list_column(false),
+   order(117),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

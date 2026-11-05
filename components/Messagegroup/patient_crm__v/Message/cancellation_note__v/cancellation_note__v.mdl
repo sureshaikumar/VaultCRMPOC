@@ -1,0 +1,6 @@
+Message cancellation_note__v (
+   label(),
+   active(true),
+   default_value('Cancellation Note'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield postal_code_cda__v (
+   source('custom'),
+   required(false)
+);

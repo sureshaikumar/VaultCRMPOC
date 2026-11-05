@@ -1,0 +1,5 @@
+Picklistentry diet_nutrition_alternative__c (
+   value('Diet/Nutrition/Alternative'),
+   order(3),
+   active(true)
+);

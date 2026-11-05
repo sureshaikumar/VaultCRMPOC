@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.remove_document__sys (
+   label('Remove Document'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.match.RemoveDocumentAction'),
+   active(true),
+   available_all_states(true)
+);

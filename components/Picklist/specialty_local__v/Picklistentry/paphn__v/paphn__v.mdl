@@ -1,0 +1,6 @@
+Picklistentry paphn__v (
+   value('Physiology and Pathophysiology'),
+   order(1557),
+   active(true),
+   controlling_entries('at__v')
+);

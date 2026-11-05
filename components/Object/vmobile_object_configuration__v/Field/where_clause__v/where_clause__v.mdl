@@ -1,0 +1,17 @@
+Field where_clause__v (
+   label('Where Clause'),
+   type('LongText'),
+   active(true),
+   description('This field contains the where clause that will be added to the query of  a Top Level or Full Sync object.  Example : Where Account.Name != null'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

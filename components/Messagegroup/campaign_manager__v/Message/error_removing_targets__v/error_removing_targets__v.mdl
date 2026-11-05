@@ -1,0 +1,6 @@
+Message error_removing_targets__v (
+   label(),
+   active(true),
+   default_value('Error Removing Targets'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 24460__v (
+   value('Great Bend, KS Micropolitan Statistical Area'),
+   order(505),
+   active(true)
+);

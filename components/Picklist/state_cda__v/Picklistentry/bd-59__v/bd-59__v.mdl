@@ -1,0 +1,6 @@
+Picklistentry bd-59__v (
+   value('Sirajganj'),
+   order(288),
+   active(true),
+   controlling_entries('bd__v')
+);

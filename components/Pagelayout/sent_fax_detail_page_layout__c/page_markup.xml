@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sent_fax__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="to_fax_number_source__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="from_fax_number__v" />
+            <vault:field reference="fax_template__v" />
+            <vault:field reference="page_count__v" />
+            <vault:field reference="captured_datetime__v" />
+            <vault:field reference="sent_fax_status__v" />
+            <vault:field reference="mobile_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

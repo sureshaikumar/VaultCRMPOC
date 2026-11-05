@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2" combinePromptsBy="referencedField">
+  <vault:chart name="gpo_account_overview__c" label="GPO Account Overview" type="table" report="Report.gpo_with_daq__c">
+    <vault:position row="0" col="0" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="account__v.name__v" label="Account &gt; Name" property="link" />
+      <vault:reportColumn key="dynamic_attribute_query__v___account__v.gposfamiliaritywithjvx__c" label="Dynamic Attribute Query &gt; GPO's familiarity with JVX?" property="data" />
+      <vault:reportColumn key="dynamic_attribute_query__v___account__v.gpos_general_attitude_toward_jvx__c" label="Dynamic Attribute Query &gt; GPO's General Attitute Toward JVX?" property="data" />
+      <vault:reportColumn key="dynamic_attribute_query__v___account__v.gporequiresadherencetocontracts__c" label="Dynamic Attribute Query &gt; GPO Requires Adherence to Contracts?" property="data" />
+      <vault:reportColumn key="dynamic_attribute_query__v___account__v.marketingopportunitiesforsuppliers__c" label="Dynamic Attribute Query &gt; Marketing Opportunities for Suppliers?" property="data" />
+      <vault:reportColumn key="dynamic_attribute_query__v___account__v.contractnegotiationstatus__c" label="Dynamic Attribute Query &gt; Contract Negotiation Status" property="data" />
+      <vault:reportColumn key="dynamic_attribute_query__v___account__v.typicallengthofnegotiation__c" label="Dynamic Attribute Query &gt; Typical Length of Negotiation" property="data" />
+      <vault:reportColumn key="dynamic_attribute_query__v___account__v.lengthoffinalreview__c" label="Dynamic Attribute Query &gt; Length of Final Review" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+</vault:dashboard>

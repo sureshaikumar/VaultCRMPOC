@@ -1,0 +1,5 @@
+Picklistentry olc_patient_journey__sys (
+   value('Patient Journey'),
+   order(59),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message schedule_send_before_publish_error__v (
+   label(),
+   active(true),
+   default_value('The Scheduled Send Datetime must be on or after the Publish Date.'),
+   system_managed(false)
+);

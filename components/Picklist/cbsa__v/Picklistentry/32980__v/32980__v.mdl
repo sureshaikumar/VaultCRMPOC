@@ -1,0 +1,5 @@
+Picklistentry 32980__v (
+   value('Merrill, WI Micropolitan Statistical Area'),
+   order(835),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message do_this_later__v (
+   label(),
+   active(true),
+   default_value('Do This Later'),
+   system_managed(false)
+);

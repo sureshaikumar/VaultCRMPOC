@@ -1,0 +1,10 @@
+RECREATE Picklist survey_score_display__v (
+   label('Score Display'),
+   active(true),
+   Picklistentry(@Picklistentry/question_max_score__v.mdl),
+   Picklistentry(@Picklistentry/response_score__v.mdl),
+   Picklistentry(@Picklistentry/survey_max_score__v.mdl),
+   Picklistentry(@Picklistentry/survey_score__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

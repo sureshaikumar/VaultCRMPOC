@@ -1,0 +1,6 @@
+Message vmi_regional_reach__v (
+   label(),
+   active(true),
+   default_value('Regional Reach'),
+   system_managed(false)
+);

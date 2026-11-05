@@ -1,0 +1,6 @@
+Picklistentry ug-118__v (
+   value('Bukomansibi'),
+   order(4660),
+   active(true),
+   controlling_entries('ug__v')
+);

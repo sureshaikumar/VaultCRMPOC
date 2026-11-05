@@ -1,0 +1,5 @@
+Picklistentry cdhr__v (
+   value('Chain Drugstore'),
+   order(20),
+   active(true)
+);

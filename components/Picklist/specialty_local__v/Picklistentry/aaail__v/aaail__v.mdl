@@ -1,0 +1,6 @@
+Picklistentry aaail__v (
+   value('Allergy, Asthma and Immunology'),
+   order(49),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,19 @@
+Field territory_budget_status__v (
+   label('Territory Budget Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('This field describes the current status of the budget within the organization. Customers can add/edit the values to match their needs.'),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.territory_budget_status__v'),
+   default_value('{new__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

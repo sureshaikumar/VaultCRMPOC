@@ -1,0 +1,5 @@
+Picklistentry sla_interval_minutes__v (
+   value('Minutes'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation medx_lifecycle_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.medx_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.saved_state__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

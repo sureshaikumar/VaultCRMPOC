@@ -1,0 +1,5 @@
+Picklistentry ownership__v (
+   value('Ownership'),
+   order(1),
+   active(true)
+);

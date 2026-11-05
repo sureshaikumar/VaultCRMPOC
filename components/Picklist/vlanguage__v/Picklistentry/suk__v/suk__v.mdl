@@ -1,0 +1,5 @@
+Picklistentry suk__v (
+   value('Sukuma'),
+   order(300),
+   active(false)
+);

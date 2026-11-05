@@ -1,0 +1,6 @@
+Message integration_user_cred_management__v (
+   label(),
+   active(true),
+   default_value('Integration User Credential Management'),
+   system_managed(false)
+);

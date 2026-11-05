@@ -1,0 +1,6 @@
+Message reassign_role__v (
+   label(),
+   active(true),
+   default_value('Reassign Role'),
+   system_managed(false)
+);

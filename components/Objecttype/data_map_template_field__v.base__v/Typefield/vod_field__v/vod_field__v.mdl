@@ -1,0 +1,4 @@
+Typefield vod_field__v (
+   source('standard'),
+   required(false)
+);

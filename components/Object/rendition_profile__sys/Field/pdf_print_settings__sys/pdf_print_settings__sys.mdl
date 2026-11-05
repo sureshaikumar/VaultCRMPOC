@@ -1,0 +1,19 @@
+Field pdf_print_settings__sys (
+   label('PDF Print Settings'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(25),
+   help_content('PDF Security is applied to the downloaded viewable rendition, this value determines the print quality allowed.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

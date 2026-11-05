@@ -1,0 +1,6 @@
+RECREATE Securityprofile configuration_only__sys (
+   label('Configuration Only'),
+   active(true),
+   description('System provided security profile for Configuration. Users with this profile have rights to perform most Vault Configuration tasks without access to data or documents.'),
+   permission_sets('configuration_only_actions__sys')
+);

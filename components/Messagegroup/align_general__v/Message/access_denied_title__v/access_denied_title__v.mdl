@@ -1,0 +1,6 @@
+Message access_denied_title__v (
+   label(),
+   active(true),
+   default_value('Access Denied'),
+   system_managed(false)
+);

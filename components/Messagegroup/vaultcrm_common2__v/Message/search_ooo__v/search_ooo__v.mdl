@@ -1,0 +1,6 @@
+Message search_ooo__v (
+   label(),
+   active(true),
+   default_value('Search...'),
+   system_managed(false)
+);

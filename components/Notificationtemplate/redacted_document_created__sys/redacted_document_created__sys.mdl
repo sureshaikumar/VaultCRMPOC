@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate redacted_document_created__sys (
+   label('Redacted Document Created'),
+   active(true),
+   description('Notification template used for notifying users that the redacted version of their document was created.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Redacted Document created: ${docNameNoLink}'),
+   notification('A Redacted Document was created from <b>${originalDocName} (v${originalVersion})</b>. The redaction is now Complete.<br/><br/><a href="${redactedDocUrl}">Open Redacted Document</a>'),
+   email_body('A Redacted Document was created from <b>${originalDocName} (v${originalVersion})</b>. The redaction is now Complete.<br/><br/><a href="${redactedDocUrl}">Open Redacted Document</a>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

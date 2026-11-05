@@ -1,0 +1,5 @@
+Picklistentry fr (
+   value('French'),
+   order(10),
+   active(true)
+);

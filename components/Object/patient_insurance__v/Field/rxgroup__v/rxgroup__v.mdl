@@ -1,0 +1,19 @@
+Field rxgroup__v (
+   label('RxGroup'),
+   type('String'),
+   active(true),
+   description('Identifies the specific benefit plan or employer group the member belongs to. It helps the system determine the member''s co-pay, deductible, and coverage rules.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(true),
+   order(22),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

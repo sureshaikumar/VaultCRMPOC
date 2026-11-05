@@ -1,0 +1,6 @@
+Message impending_scheduled_job__v (
+   label(),
+   active(true),
+   default_value('A scheduled job is due to start within the next hour, which may conflict with the process you are about to initiate. Depending on the configured behavior, this may result in either your process or the scheduled job aborting.'),
+   system_managed(false)
+);

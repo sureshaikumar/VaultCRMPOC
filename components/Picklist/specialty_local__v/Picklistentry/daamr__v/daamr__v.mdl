@@ -1,0 +1,6 @@
+Picklistentry daamr__v (
+   value('Drug and Addiction Medicine'),
+   order(457),
+   active(true),
+   controlling_entries('no__v')
+);

@@ -1,0 +1,6 @@
+Message field_mapping_load_crm_obj_metad_failed__v (
+   label(),
+   active(true),
+   default_value('Load CRM Object {0} metadata failed.'),
+   system_managed(false)
+);

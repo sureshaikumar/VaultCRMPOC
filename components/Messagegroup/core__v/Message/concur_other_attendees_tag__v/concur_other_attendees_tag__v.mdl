@@ -1,0 +1,6 @@
+Message concur_other_attendees_tag__v (
+   label(),
+   active(true),
+   default_value('"Other Attendees" Designation'),
+   system_managed(false)
+);

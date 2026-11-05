@@ -1,0 +1,23 @@
+Field max_attach_size__v (
+   label('MAX_ATTACH_SIZE'),
+   type('Number'),
+   active(true),
+   description('Maximum size in bytes for attachments. Default limit is 5000000 bytes.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(209),
+   default_value('5000000'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

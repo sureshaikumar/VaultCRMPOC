@@ -1,0 +1,18 @@
+Field inventory_type__v (
+   label('Inventory Type'),
+   type('Picklist'),
+   active(true),
+   description('Inventory Type represents the type of physical inventory being conducted.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(2),
+   multi_value(false),
+   picklist('Picklist.sample_inventory_inventory_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

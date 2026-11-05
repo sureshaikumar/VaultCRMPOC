@@ -1,0 +1,6 @@
+Message contact_party__v (
+   label(),
+   active(true),
+   default_value('Contact ${party_label}'),
+   system_managed(false)
+);

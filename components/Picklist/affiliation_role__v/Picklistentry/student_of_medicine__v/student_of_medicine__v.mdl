@@ -1,0 +1,5 @@
+Picklistentry student_of_medicine__v (
+   value('Student_of_Medicine'),
+   order(13),
+   active(true)
+);

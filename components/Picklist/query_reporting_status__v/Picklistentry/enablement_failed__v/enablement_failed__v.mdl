@@ -1,0 +1,5 @@
+Picklistentry enablement_failed__v (
+   value('Enablement Failed'),
+   order(5),
+   active(true)
+);

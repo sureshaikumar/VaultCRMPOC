@@ -1,0 +1,7 @@
+Picklistentry cphsi__v (
+   value('Child Psychiatry'),
+   order(200),
+   active(true),
+   controlling_entries('tn__v',
+         'za__v')
+);

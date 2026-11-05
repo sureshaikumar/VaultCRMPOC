@@ -1,0 +1,6 @@
+Message strikethrough__v (
+   label(),
+   active(true),
+   default_value('Strikethrough'),
+   system_managed(false)
+);

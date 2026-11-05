@@ -1,0 +1,5 @@
+Picklistentry hpohs__v (
+   value('Hospital Pharmacist'),
+   order(52),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry gd-03__v (
+   value('Saint George'),
+   order(1671),
+   active(true),
+   controlling_entries('gd__v')
+);

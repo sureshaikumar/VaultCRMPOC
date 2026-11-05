@@ -1,0 +1,6 @@
+Picklistentry lt-57__v (
+   value('Vilniaus miestas'),
+   order(2675),
+   active(true),
+   controlling_entries('lt__v')
+);

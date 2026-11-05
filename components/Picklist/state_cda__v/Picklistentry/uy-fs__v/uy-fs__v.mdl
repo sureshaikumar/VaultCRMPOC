@@ -1,0 +1,6 @@
+Picklistentry uy-fs__v (
+   value('Flores'),
+   order(4854),
+   active(true),
+   controlling_entries('uy__v')
+);

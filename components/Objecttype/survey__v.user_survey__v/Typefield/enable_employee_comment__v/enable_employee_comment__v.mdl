@@ -1,0 +1,8 @@
+Typefield enable_employee_comment__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.survey_enable_employee_comment__v.comment_optional__v',
+         'Picklist.survey_enable_employee_comment__v.comment_required__v',
+         'Picklist.survey_enable_employee_comment__v.disabled__v'),
+   default_value('Picklist.survey_enable_employee_comment__v.disabled__v')
+);

@@ -1,0 +1,4 @@
+Typefield specialty__v (
+   source('standard'),
+   required(true)
+);

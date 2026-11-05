@@ -1,0 +1,6 @@
+Picklistentry ug-120__v (
+   value('Buvuma'),
+   order(4662),
+   active(true),
+   controlling_entries('ug__v')
+);

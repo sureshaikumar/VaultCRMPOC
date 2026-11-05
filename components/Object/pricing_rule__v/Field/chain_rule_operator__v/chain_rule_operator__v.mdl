@@ -1,0 +1,18 @@
+Field chain_rule_operator__v (
+   label('Chain Rule Operator'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to indicate the logical operator to be used between comparison product conditions in chain pricing rules.'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.pricing_rule_chain_rule_operator__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

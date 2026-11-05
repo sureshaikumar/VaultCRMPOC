@@ -1,0 +1,6 @@
+Picklistentry gr-g__v (
+   value('Dytikí Elláda'),
+   order(1773),
+   active(true),
+   controlling_entries('gr__v')
+);

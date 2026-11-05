@@ -1,0 +1,5 @@
+Picklistentry america_vancouver__sys (
+   value('(GMT-08:00) Pacific Standard Time (America/Vancouver)'),
+   order(16),
+   active(true)
+);

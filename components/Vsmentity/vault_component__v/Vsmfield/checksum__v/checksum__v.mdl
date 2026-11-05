@@ -1,0 +1,13 @@
+Vsmfield checksum__v (
+   label('Checksum'),
+   active(true),
+   description('A cryptographic hash or checksum value used to verify the integrity of the vault component. Use this field to detect changes, validate component authenticity, or compare component versions.'),
+   example_values(),
+   synonyms('hash',
+         'fingerprint',
+         'integrity check'),
+   target('checksum__v'),
+   target_label('Checksum'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

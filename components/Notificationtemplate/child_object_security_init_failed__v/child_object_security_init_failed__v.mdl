@@ -1,0 +1,32 @@
+RECREATE Notificationtemplate child_object_security_init_failed__v (
+   label('Child Object Security Init Failed'),
+   active(true),
+   description('Child Object Security Initialization Failure Notification Template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Child Object security initialization failed.'),
+   notification('
+        <p>Your child object security initialization has failed. Please contact Veeva Support.</p>
+        <ul>
+            <li>Error ID: ${Custom.uuid}</li>
+            <li>Child Object: ${Custom.childObject}</li>
+            <li>Child Object field: ${Custom.childObjectField}</li>
+            <li>Parent Object: ${Custom.parentObject}</li>
+            <li>Start Time: ${startTime}</li>
+            <li>Duration: ${Custom.taskDuration}</li>
+        </ul>
+   '),
+   email_body('
+        <p>Your child object security initialization has completed.</p>
+        <ul>
+            <li>Error ID: ${Custom.uuid}</li>
+            <li>Child Object: ${Custom.childObject}</li>
+            <li>Child Object field: ${Custom.childObjectField}</li>
+            <li>Parent Object: ${Custom.parentObject}</li>
+            <li>Start Time: ${startTime}</li>
+            <li>Duration: ${Custom.taskDuration}</li>
+        </ul>
+   '),
+   entity_type('object'),
+   notification_category('none__sys')
+);

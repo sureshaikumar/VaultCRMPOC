@@ -1,0 +1,9 @@
+RECREATE Objectvalidation sample_limit__v.sl_template_no_user__v (
+   label('SL Template No User'),
+   active(true),
+   expression('IsBlank(user__v) || IsBlank(account_types__v)'),
+   description('Exclude user for templates.'),
+   error_message('User and Account Types cannot both be set'),
+   error_location('user__v',
+      'account_types__v')
+);

@@ -1,0 +1,6 @@
+Message territory_vault_crm_instance_not_allowed__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Instance must be empty if Send to CRM is "No".'),
+   system_managed(false)
+);

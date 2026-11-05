@@ -1,0 +1,6 @@
+Picklistentry egnyd__v (
+   value('Endocrine Gynecology'),
+   order(492),
+   active(true),
+   controlling_entries('am__v')
+);

@@ -1,0 +1,18 @@
+Field enable_speaker_portal__v (
+   label('Enable Speaker Portal'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Field to enable and disable the Speaker Portal'),
+   list_column(false),
+   order(12),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

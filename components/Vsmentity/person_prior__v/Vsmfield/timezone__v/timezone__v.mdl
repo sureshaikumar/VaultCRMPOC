@@ -1,0 +1,13 @@
+Vsmfield timezone__v (
+   label('Timezone'),
+   active(true),
+   description('The prior timezone setting for this person, stored as a picklist value (e.g., America/New_York, Europe/London). Captures the timezone preference the person had before it was changed, useful for auditing profile history.'),
+   example_values(),
+   synonyms('time zone',
+         'prior timezone',
+         'tz'),
+   target('timezone__sys'),
+   target_label('Timezone'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

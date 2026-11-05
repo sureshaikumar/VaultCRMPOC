@@ -1,0 +1,5 @@
+Picklistentry ltch__v (
+   value('Long-Term Care Hospital'),
+   order(140),
+   active(true)
+);

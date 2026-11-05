@@ -1,0 +1,10 @@
+Vsmvalue fjd__v (
+   label('FJD'),
+   active(true),
+   description('The Fijian Dollar (FJD), the official currency of Fiji, used for transactions and financial records involving business operations in Fiji.'),
+   synonyms('Fijian dollar',
+         'Fiji dollar',
+         'Fiji currency'),
+   target('fjd__sys'),
+   target_label('FJD')
+);

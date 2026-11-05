@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+    <permission name="create_anchors__v" roles="owner__c" />
+    <permission name="delete__v" roles="owner__c" />
+    <permission name="download_source__v" roles="owner__c" />
+    <permission name="download_viewable_rendition__v" roles="owner__c" />
+    <permission name="edit_document__v" roles="owner__c" />
+    <permission name="edit_fields__v" roles="owner__c" />
+    <permission name="edit_relationships__v" roles="owner__c" />
+    <permission name="reclassify__v" roles="owner__c" />
+    <permission name="view_document_content__v" roles="owner__c" />
+    <permission name="view_documents__v" roles="owner__c" />
+</permissions>

@@ -1,0 +1,6 @@
+Message view_in_onenote__v (
+   label(),
+   active(true),
+   default_value('View in OneNote'),
+   system_managed(false)
+);

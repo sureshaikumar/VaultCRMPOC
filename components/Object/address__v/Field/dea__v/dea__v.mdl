@@ -1,0 +1,19 @@
+Field dea__v (
+   label('DEA #'),
+   type('String'),
+   active(true),
+   description('DEA license number.  Determines if a Physician is able to receive Controlled Substance Samples at this Address.'),
+   required(false),
+   unique(false),
+   max_length(9),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

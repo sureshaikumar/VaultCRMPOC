@@ -1,0 +1,5 @@
+Picklistentry wi__v (
+   value('WI'),
+   order(57),
+   active(true)
+);

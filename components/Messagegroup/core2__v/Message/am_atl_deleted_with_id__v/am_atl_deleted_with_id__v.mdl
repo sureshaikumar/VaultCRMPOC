@@ -1,0 +1,6 @@
+Message am_atl_deleted_with_id__v (
+   label(),
+   active(true),
+   default_value('Account Territory Loader record {0} associated to the losing account will be deleted.'),
+   system_managed(false)
+);

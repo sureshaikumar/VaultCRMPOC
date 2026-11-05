@@ -1,0 +1,6 @@
+Message mccp_approval_rule_message__v (
+   label(),
+   active(true),
+   default_value('Message'),
+   system_managed(false)
+);

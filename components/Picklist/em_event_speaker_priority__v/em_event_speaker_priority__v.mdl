@@ -1,0 +1,9 @@
+RECREATE Picklist em_event_speaker_priority__v (
+   label('Priority'),
+   active(true),
+   Picklistentry(@Picklistentry/1__v.mdl),
+   Picklistentry(@Picklistentry/2__v.mdl),
+   Picklistentry(@Picklistentry/3__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

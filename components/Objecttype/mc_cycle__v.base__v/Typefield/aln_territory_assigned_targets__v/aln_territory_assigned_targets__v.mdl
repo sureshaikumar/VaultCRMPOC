@@ -1,0 +1,4 @@
+Typefield aln_territory_assigned_targets__v (
+   source('standard'),
+   required(false)
+);

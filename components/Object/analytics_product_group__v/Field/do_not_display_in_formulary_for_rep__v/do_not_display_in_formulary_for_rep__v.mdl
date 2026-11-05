@@ -1,0 +1,18 @@
+Field do_not_display_in_formulary_for_rep__v (
+   label('Do Not Display in Formulary for Rep'),
+   type('Boolean'),
+   active(true),
+   description('If checked this Analytics Product Group record in the Formulary for the Rep will not be displayed.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

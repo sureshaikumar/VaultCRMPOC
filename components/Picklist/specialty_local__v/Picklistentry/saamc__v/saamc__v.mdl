@@ -1,0 +1,6 @@
+Picklistentry saamc__v (
+   value('School and Adolescent Medicine'),
+   order(1759),
+   active(true),
+   controlling_entries('hr__v')
+);

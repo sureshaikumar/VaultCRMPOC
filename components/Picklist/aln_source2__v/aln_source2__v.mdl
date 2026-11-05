@@ -1,0 +1,10 @@
+RECREATE Picklist aln_source2__v (
+   label('Source'),
+   active(true),
+   Picklistentry(@Picklistentry/crm__v.mdl),
+   Picklistentry(@Picklistentry/dl__v.mdl),
+   Picklistentry(@Picklistentry/external_source__v.mdl),
+   Picklistentry(@Picklistentry/network__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

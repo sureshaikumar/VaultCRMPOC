@@ -1,0 +1,6 @@
+Picklistentry gn-md__v (
+   value('Mandiana'),
+   order(1746),
+   active(true),
+   controlling_entries('gn__v')
+);

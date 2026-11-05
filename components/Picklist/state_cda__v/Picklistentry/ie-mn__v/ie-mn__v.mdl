@@ -1,0 +1,6 @@
+Picklistentry ie-mn__v (
+   value('Monaghan'),
+   order(1980),
+   active(true),
+   controlling_entries('ie__v')
+);

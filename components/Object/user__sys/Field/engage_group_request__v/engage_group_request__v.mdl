@@ -1,0 +1,19 @@
+Field engage_group_request__v (
+   label('Engage Group Request'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This stores with the name of the Engage Group the user is intended to be assigned to. The actual group assignment is stored in the Engage Group field on the User object.'),
+   list_column(false),
+   order(72),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

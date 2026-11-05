@@ -1,0 +1,5 @@
+Picklistentry sun__v (
+   value('Sundanese'),
+   order(302),
+   active(false)
+);

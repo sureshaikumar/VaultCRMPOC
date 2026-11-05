@@ -1,0 +1,4 @@
+Typefield sample_management_product_types__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message assignment_confirm_cascade_header__v (
+   label(),
+   active(true),
+   default_value('Updating {0} and Assignments'),
+   system_managed(false)
+);

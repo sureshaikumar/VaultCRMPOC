@@ -1,0 +1,13 @@
+Vsmrelationship integration_point__v (
+   label('Integration Point'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The specific integration point (endpoint or step within an integration) that produced this exception message. Use this to narrow down which part of an integration workflow triggered the error, e.g., integration_point__sysr.name__v to identify the failing point.'),
+   join_object(),
+   synonyms('integration point',
+         'endpoint',
+         'integration step'),
+   target('integration_point__sysr'),
+   target_label('Integration Point'),
+   target_object('integration_point__sys')
+);

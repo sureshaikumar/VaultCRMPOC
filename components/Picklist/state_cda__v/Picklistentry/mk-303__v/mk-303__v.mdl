@@ -1,0 +1,6 @@
+Picklistentry mk-303__v (
+   value('Debar'),
+   order(2985),
+   active(true),
+   controlling_entries('mk__v')
+);

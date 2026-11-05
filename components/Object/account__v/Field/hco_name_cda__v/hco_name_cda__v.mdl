@@ -1,0 +1,21 @@
+Field hco_name_cda__v (
+   label('HCO Name'),
+   type('String'),
+   active(true),
+   description('Official, legal name of the healthcare organization as registered with relevant regulatory or government authorities.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(169),
+   formula('If(ispersonaccount__v != true, name__v, null)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

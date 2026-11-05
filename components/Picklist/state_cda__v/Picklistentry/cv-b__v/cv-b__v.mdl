@@ -1,0 +1,6 @@
+Picklistentry cv-b__v (
+   value('Ilhas de Barlavento'),
+   order(783),
+   active(true),
+   controlling_entries('cv__v')
+);

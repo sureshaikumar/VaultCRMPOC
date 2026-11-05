@@ -1,0 +1,6 @@
+Picklistentry mrimt__v (
+   value('Magnetic Resonance Imaging (MRI) Technology'),
+   order(871),
+   active(true),
+   controlling_entries('nz__v')
+);

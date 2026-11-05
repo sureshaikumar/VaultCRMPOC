@@ -1,0 +1,6 @@
+Picklistentry tr-71__v (
+   value('Kırıkkale'),
+   order(4529),
+   active(true),
+   controlling_entries('tr__v')
+);

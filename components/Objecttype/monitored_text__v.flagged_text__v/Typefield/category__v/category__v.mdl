@@ -1,0 +1,9 @@
+Typefield category__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.monitored_text_category__v.false_claims__v',
+         'Picklist.monitored_text_category__v.kickbacks__v',
+         'Picklist.monitored_text_category__v.off_label__v',
+         'Picklist.monitored_text_category__v.offensive__v',
+         'Picklist.monitored_text_category__v.other__v')
+);

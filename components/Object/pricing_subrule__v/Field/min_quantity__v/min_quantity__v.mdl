@@ -1,0 +1,23 @@
+Field min_quantity__v (
+   label('Minimum Quantity'),
+   type('Number'),
+   active(true),
+   description('Defines the lowest acceptable value. Default 0. Value required.'),
+   required(true),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield em_catalog_name__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry manual__v (
+   value('Manual'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message portals__v (
+   label(),
+   active(true),
+   default_value('Portals'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_inquiry__v.print_receipt__v (
+   label('Print Receipt'),
+   description('Generates a PDF representation of a Medical Inquiry receipt.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinquiry.actions.MedicalInquiryPrintReceiptAction'),
+   active(true),
+   available_all_states(true)
+);

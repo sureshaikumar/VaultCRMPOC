@@ -1,0 +1,9 @@
+RECREATE Picklist network_reference_mapping_direction__v (
+   label('Direction'),
+   active(true),
+   Picklistentry(@Picklistentry/bidirectional__v.mdl),
+   Picklistentry(@Picklistentry/inbound__v.mdl),
+   Picklistentry(@Picklistentry/outbound__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry mreed__v (
+   value('Medical Research'),
+   order(940),
+   active(true),
+   controlling_entries('vn__v')
+);

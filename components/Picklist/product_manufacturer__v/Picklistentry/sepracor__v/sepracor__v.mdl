@@ -1,0 +1,5 @@
+Picklistentry sepracor__v (
+   value('Sepracor'),
+   order(36),
+   active(true)
+);

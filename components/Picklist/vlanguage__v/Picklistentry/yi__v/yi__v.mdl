@@ -1,0 +1,5 @@
+Picklistentry yi__v (
+   value('Yiddish'),
+   order(357),
+   active(false)
+);

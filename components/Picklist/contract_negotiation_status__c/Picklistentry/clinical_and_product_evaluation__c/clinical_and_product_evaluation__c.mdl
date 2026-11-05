@@ -1,0 +1,5 @@
+Picklistentry clinical_and_product_evaluation__c (
+   value('Clinical and Product Evaluation'),
+   order(1),
+   active(true)
+);

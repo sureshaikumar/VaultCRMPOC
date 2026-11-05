@@ -1,0 +1,6 @@
+Picklistentry fi-06__v (
+   value('Tavastia Proper'),
+   order(1278),
+   active(true),
+   controlling_entries('fi__v')
+);

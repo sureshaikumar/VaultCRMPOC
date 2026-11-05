@@ -1,0 +1,6 @@
+Message opportunity_pipeline__v (
+   label(),
+   active(true),
+   default_value('Opportunity Pipeline'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry rule_is_not_applicable__v (
+   value('Rule is not applicable'),
+   order(2),
+   active(true)
+);

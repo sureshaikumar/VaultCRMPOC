@@ -1,0 +1,6 @@
+Picklistentry ch-ne__v (
+   value('Neuchâtel'),
+   order(639),
+   active(true),
+   controlling_entries('ch__v')
+);

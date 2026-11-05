@@ -1,0 +1,19 @@
+Field account_plan_hierarchy_lvl_3_cols__v (
+   label('Account Plan Hierarchy Level 3 Columns'),
+   type('String'),
+   active(true),
+   description('Contains a comma-delimited, ordered list of fields that display as columns on the hierarchy tab of an account plan for the third level in the account plan hierarchy. Only the first 10 fields will display.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Add up to 10 fields to display as columns in the hierarchy tab for the third level beneath the account plan in the hierarchy. The fields should be formatted as object_name__v.field_name__v'),
+   list_column(false),
+   order(356),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry sg-02__v (
+   value('North East'),
+   order(3968),
+   active(true),
+   controlling_entries('sg__v')
+);

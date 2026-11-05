@@ -1,0 +1,5 @@
+Picklistentry signature_captured__v (
+   value('Signature Captured'),
+   order(1),
+   active(true)
+);

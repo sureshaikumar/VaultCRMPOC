@@ -1,0 +1,9 @@
+Picklistentry cytol__v (
+   value('Cytology'),
+   order(351),
+   active(true),
+   controlling_entries('cy__v',
+         'gr__v',
+         'kg__v',
+         'us__v')
+);

@@ -1,0 +1,7 @@
+RECREATE Accountmessage notification_summary__v (
+   label('Notification Summary'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Vault Notification Summary (${vaultName})')
+);

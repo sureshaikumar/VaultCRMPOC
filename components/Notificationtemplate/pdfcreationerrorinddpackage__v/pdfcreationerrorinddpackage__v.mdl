@@ -1,0 +1,18 @@
+RECREATE Notificationtemplate pdfcreationerrorinddpackage__v (
+   label('pdfCreationError-INDD-Package'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Document PDF creation completed with errors'),
+   notification('PDF creation completed with errors for InDesign Package <b>${docName}</b>.  Please refer to your email for rendition error details.
+'),
+   email_body('<p>PDF creation completed with errors for InDesign Package <b>${docName}</b>.</p>
+<p>The following errors were found:</p>
+
+    ${RenditionErrors}
+
+<p>If the current Viewable Rendition is not the desired result, check-in or upload a new InDesign Package to Vault or replace the Viewable Rendition if permitted by your security settings.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

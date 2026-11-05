@@ -1,0 +1,4 @@
+Typefield key_message_vexternal_id__v (
+   source('standard'),
+   required(false)
+);

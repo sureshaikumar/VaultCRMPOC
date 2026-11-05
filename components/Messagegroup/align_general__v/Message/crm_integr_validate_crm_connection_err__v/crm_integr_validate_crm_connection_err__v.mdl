@@ -1,0 +1,6 @@
+Message crm_integr_validate_crm_connection_err__v (
+   label(),
+   active(true),
+   default_value('Failed to validate CRM credentials. Response was: {0}'),
+   system_managed(false)
+);

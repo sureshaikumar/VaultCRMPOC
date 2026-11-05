@@ -1,0 +1,6 @@
+Picklistentry th-90__v (
+   value('Songkhla'),
+   order(4398),
+   active(true),
+   controlling_entries('th__v')
+);

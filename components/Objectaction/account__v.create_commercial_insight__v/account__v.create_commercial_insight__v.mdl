@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.create_commercial_insight__v (
+   label('Create Commercial Insight'),
+   description('Allows users to create a Commercial Insight for an Account'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.commercialinsights.actions.AccountCreateCommercialInsightAction'),
+   active(true),
+   available_all_states(true)
+);

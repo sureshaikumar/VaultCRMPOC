@@ -1,0 +1,6 @@
+Picklistentry ug-320__v (
+   value('Maracha'),
+   order(4725),
+   active(true),
+   controlling_entries('ug__v')
+);

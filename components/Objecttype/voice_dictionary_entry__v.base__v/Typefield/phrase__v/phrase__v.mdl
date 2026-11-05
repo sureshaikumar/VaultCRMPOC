@@ -1,0 +1,4 @@
+Typefield phrase__v (
+   source('standard'),
+   required(true)
+);

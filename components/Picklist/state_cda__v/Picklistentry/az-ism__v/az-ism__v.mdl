@@ -1,0 +1,6 @@
+Picklistentry az-ism__v (
+   value('İsmayıllı'),
+   order(163),
+   active(true),
+   controlling_entries('az__v')
+);

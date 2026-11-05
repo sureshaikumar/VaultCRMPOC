@@ -1,0 +1,6 @@
+Message opted_out_of_phone_calls__v (
+   label(),
+   active(true),
+   default_value('Opted Out of Phone Calls'),
+   system_managed(false)
+);

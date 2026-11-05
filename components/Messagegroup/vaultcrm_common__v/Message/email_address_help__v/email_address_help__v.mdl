@@ -1,0 +1,6 @@
+Message email_address_help__v (
+   label(),
+   active(true),
+   default_value('Use this page to view a list of Email Addresses that have been configured in your org.'),
+   system_managed(false)
+);

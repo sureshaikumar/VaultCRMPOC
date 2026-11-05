@@ -1,0 +1,6 @@
+Message action_success_alert__v (
+   label(),
+   active(true),
+   default_value('Successfully completed "${action}"'),
+   system_managed(false)
+);

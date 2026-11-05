@@ -1,0 +1,5 @@
+Picklistentry detail_only__v (
+   value('Detail Only'),
+   order(1),
+   active(true)
+);

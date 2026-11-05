@@ -1,0 +1,10 @@
+RECREATE Jobmetadata promomats_ae_doc_ib_job__v (
+   label('PromoMats to CRM AE Integration Docs Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that brings over AE docs from PromoMats'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.aeintegration.jobs.promomats.PromoMatsAeIntegrationDocsInboundJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

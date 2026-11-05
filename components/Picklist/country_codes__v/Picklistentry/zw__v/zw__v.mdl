@@ -1,0 +1,5 @@
+Picklistentry zw__v (
+   value('ZW'),
+   order(251),
+   active(true)
+);

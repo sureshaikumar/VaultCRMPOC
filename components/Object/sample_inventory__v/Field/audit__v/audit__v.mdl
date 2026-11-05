@@ -1,0 +1,18 @@
+Field audit__v (
+   label('Audit'),
+   type('Boolean'),
+   active(true),
+   description('Audit checkbox represents a field to designate of the Sample Inventory being conducted is a yearly Audit.  Access to be controlled by Field Level Security'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

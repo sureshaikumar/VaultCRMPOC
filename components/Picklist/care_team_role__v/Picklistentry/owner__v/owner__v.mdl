@@ -1,0 +1,5 @@
+Picklistentry owner__v (
+   value('Owner'),
+   order(4),
+   active(true)
+);

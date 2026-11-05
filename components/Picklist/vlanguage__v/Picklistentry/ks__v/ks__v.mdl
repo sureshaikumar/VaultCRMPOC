@@ -1,0 +1,5 @@
+Picklistentry ks__v (
+   value('Kashmiri'),
+   order(162),
+   active(false)
+);

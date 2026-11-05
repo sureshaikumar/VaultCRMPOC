@@ -1,0 +1,15 @@
+Fieldrule restrict_fragments_by_product__v (
+   label('Restrict Fragments By Product'),
+   active(true),
+   query_object('documents'),
+   query_field('restrict_fragments_by_product__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.restrict_fragments_by_product__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_boolean__sys'),
+   target_field_lookup()
+);

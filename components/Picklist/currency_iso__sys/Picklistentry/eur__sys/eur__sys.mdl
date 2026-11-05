@@ -1,0 +1,5 @@
+Picklistentry eur__sys (
+   value('EUR'),
+   order(62),
+   active(true)
+);

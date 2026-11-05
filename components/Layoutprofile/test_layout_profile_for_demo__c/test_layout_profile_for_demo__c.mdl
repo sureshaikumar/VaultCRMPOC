@@ -1,0 +1,7 @@
+RECREATE Layoutprofile test_layout_profile_for_demo__c (
+   label('Test Layout Profile for demo'),
+   active(true),
+   description(),
+   Objectlayout(@Objectlayout/account_professional__c.mdl),
+   Objectlayout(@Objectlayout/call2_callreport__c.mdl)
+);

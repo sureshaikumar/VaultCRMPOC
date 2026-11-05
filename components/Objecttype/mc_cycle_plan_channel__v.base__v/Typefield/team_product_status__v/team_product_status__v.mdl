@@ -1,0 +1,4 @@
+Typefield team_product_status__v (
+   source('standard'),
+   required(false)
+);

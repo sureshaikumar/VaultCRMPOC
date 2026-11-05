@@ -1,0 +1,6 @@
+Picklistentry si-023__v (
+   value('Domžale'),
+   order(3997),
+   active(true),
+   controlling_entries('si__v')
+);

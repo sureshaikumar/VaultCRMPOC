@@ -1,0 +1,5 @@
+Picklistentry asia_dubai__sys (
+   value('(GMT+04:00) Gulf Standard Time (Asia/Dubai)'),
+   order(211),
+   active(true)
+);

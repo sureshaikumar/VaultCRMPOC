@@ -1,0 +1,6 @@
+Message outlook_integration_user__v (
+   label(),
+   active(true),
+   default_value('Outlook Integration User'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message cannot_create_title__v (
+   label(),
+   active(true),
+   default_value('Cannot Create ${object_label}'),
+   system_managed(false)
+);

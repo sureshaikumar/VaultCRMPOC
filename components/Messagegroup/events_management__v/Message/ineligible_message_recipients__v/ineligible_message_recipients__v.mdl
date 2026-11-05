@@ -1,0 +1,6 @@
+Message ineligible_message_recipients__v (
+   label(),
+   active(true),
+   default_value('${error_count} of ${selected_count} recipients cannot receive this message.'),
+   system_managed(false)
+);

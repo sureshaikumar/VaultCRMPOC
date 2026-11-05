@@ -1,0 +1,8 @@
+RECREATE Objectvalidation inventory_order_allocation__v.order_end_date_check__v (
+   label('Order End Date Check'),
+   active(true),
+   expression('IsBlank(order_end_date__v) || (order_end_date__v <= allocation_end_date__v && order_end_date__v >= allocation_start_date__v)'),
+   description('This validation rule enforces Order Dates falling within the Allocation Dates.'),
+   error_message('Order End Date must fall between the Allocation Start and End Dates'),
+   error_location('order_end_date__v')
+);

@@ -1,0 +1,6 @@
+Typefield template_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.message_template_type__v.marketing__v',
+         'Picklist.message_template_type__v.utility__v')
+);

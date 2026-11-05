@@ -1,0 +1,6 @@
+Picklistentry laesa__v (
+   value('Laparoscopic and Endoscopic Surgery'),
+   order(858),
+   active(true),
+   controlling_entries('ph__v')
+);

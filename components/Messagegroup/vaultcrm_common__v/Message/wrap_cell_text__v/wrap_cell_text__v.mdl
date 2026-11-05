@@ -1,0 +1,6 @@
+Message wrap_cell_text__v (
+   label(),
+   active(true),
+   default_value('Wrap Cell Text'),
+   system_managed(false)
+);

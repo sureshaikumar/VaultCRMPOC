@@ -1,0 +1,7 @@
+RECREATE Picklist step_log_action_type__v (
+   label('Step Log Action Type'),
+   active(true),
+   Picklistentry(@Picklistentry/email__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

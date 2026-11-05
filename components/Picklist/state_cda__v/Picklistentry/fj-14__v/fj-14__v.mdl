@@ -1,0 +1,6 @@
+Picklistentry fj-14__v (
+   value('Tailevu'),
+   order(1305),
+   active(true),
+   controlling_entries('fj__v')
+);

@@ -1,0 +1,6 @@
+Message project_select_footprints_to_import__v (
+   label(),
+   active(true),
+   default_value('Please select footprints to import.'),
+   system_managed(false)
+);

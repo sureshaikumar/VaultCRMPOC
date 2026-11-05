@@ -1,0 +1,20 @@
+Field account_email__v (
+   label('To Address'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('Account_Email_vod captures the email address to which this email was sent.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

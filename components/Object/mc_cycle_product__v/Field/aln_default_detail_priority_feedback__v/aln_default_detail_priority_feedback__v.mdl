@@ -1,0 +1,19 @@
+Field aln_default_detail_priority_feedback__v (
+   label('Default Detail Priority Feedback'),
+   type('Picklist'),
+   active(true),
+   description('Enables field users to edit the Detail Priority value for targets they''ve added themselves.'),
+   required(false),
+   unique(false),
+   help_content('Enables field users to edit the Detail Priority value for targets they''ve added themselves.'),
+   list_column(false),
+   order(33),
+   multi_value(false),
+   picklist('Picklist.aln_detail_priority_feedback__v'),
+   default_value('Picklist.aln_detail_priority_feedback__v.not_allowed__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

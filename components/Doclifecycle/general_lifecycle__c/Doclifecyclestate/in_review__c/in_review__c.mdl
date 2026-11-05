@@ -1,0 +1,13 @@
+Doclifecyclestate in_review__c (
+   label('In Review'),
+   active(true),
+   description(''),
+   order(4),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false),
+   entry_criteria(),
+   entry_action(),
+   user_action(),
+   security_settings(@security_settings.xml)
+);

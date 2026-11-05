@@ -1,0 +1,6 @@
+Picklistentry mmmaw__v (
+   value('Marine Medicine Maritime and Water Transportation'),
+   order(878),
+   active(true),
+   controlling_entries('id__v')
+);

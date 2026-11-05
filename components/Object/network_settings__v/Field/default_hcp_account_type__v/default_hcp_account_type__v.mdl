@@ -1,0 +1,19 @@
+Field default_hcp_account_type__v (
+   label('Default HCP Account Type'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('The setting is used to determine the default HCP account object type if no object_type__v field mapping exists for HCP.'),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

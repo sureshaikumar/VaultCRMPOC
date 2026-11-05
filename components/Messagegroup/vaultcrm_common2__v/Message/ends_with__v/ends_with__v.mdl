@@ -1,0 +1,6 @@
+Message ends_with__v (
+   label(),
+   active(true),
+   default_value('Ends with'),
+   system_managed(false)
+);

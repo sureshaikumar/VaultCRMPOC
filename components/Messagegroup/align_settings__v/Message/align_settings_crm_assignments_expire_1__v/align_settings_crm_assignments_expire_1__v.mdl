@@ -1,0 +1,6 @@
+Message align_settings_crm_assignments_expire_1__v (
+   label(),
+   active(true),
+   default_value('Number value between 1-730 indicating the number of days after the Account assignment Start Date that a self-assignment will be end-dated. This only applies to CRM self-assignments that are subsequently imported into Align (where source__v = crm__v).'),
+   system_managed(false)
+);

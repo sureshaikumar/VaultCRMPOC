@@ -1,0 +1,17 @@
+Field registration_timestamp_on24__v (
+   label('Registration Timestamp On24'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Field used to store On24 registration date and time'),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

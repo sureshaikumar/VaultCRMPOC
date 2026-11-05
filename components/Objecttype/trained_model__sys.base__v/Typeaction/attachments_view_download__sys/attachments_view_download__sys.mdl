@@ -1,0 +1,3 @@
+Typeaction attachments_view_download__sys (
+   action('trained_model__sys.attachments_view_download__sys')
+);

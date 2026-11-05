@@ -1,0 +1,6 @@
+Picklistentry cz-804__v (
+   value('Nový Jičín'),
+   order(900),
+   active(true),
+   controlling_entries('cz__v')
+);

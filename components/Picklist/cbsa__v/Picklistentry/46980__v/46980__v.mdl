@@ -1,0 +1,5 @@
+Picklistentry 46980__v (
+   value('Vicksburg, MS Micropolitan Statistical Area'),
+   order(156),
+   active(true)
+);

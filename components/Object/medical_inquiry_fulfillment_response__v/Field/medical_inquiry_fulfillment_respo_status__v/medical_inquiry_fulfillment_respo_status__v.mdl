@@ -1,0 +1,18 @@
+Field medical_inquiry_fulfillment_respo_status__v (
+   label('Medical Inquiry Fulfillment Response Sta'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The state of the Medical Inquiry Fulfillment Response record. When a Medical Inquiry Fulfillment Response record has a status of Saved, the Edit option is displayed. When a Medical Inquiry Fulfillment Response record has a status of Completed, the Edit op'),
+   list_column(false),
+   order(26),
+   multi_value(false),
+   picklist('Picklist.medical_inquiry_fulfillment_respo_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

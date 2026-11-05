@@ -1,0 +1,6 @@
+Picklistentry th-95__v (
+   value('Yala'),
+   order(4403),
+   active(true),
+   controlling_entries('th__v')
+);

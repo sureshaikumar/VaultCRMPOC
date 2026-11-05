@@ -1,0 +1,6 @@
+Picklistentry zw-ha__v (
+   value('Harare'),
+   order(5037),
+   active(true),
+   controlling_entries('zw__v')
+);

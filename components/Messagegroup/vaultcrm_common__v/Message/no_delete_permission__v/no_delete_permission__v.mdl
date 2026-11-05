@@ -1,0 +1,6 @@
+Message no_delete_permission__v (
+   label(),
+   active(true),
+   default_value('User does not have delete permission for ${label}.'),
+   system_managed(false)
+);

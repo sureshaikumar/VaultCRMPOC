@@ -1,0 +1,19 @@
+Field address_line_2__v (
+   label('Address Line 2'),
+   type('String'),
+   active(true),
+   description('Address Line 2 represents the second line of the Address.  This field should not be added to the Page Layout as the special Delivery control wil display appropriately.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

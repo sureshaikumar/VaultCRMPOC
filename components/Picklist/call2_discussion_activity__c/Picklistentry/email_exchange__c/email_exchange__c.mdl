@@ -1,0 +1,5 @@
+Picklistentry email_exchange__c (
+   value('Email exchange'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry iccna__v (
+   value('Interventional Cardiac Catheterization'),
+   order(821),
+   active(true),
+   controlling_entries('eg__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ie-kk__v (
+   value('Kilkenny'),
+   order(1970),
+   active(true),
+   controlling_entries('ie__v')
+);

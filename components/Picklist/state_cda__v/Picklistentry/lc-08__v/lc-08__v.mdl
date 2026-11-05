@@ -1,0 +1,6 @@
+Picklistentry lc-08__v (
+   value('Micoud'),
+   order(2545),
+   active(true),
+   controlling_entries('lc__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cn-yn__v (
+   value('Yunnan Sheng'),
+   order(725),
+   active(true),
+   controlling_entries('cn__v')
+);

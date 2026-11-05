@@ -1,0 +1,6 @@
+Picklistentry gb-mry__v (
+   value('Moray'),
+   order(1570),
+   active(true),
+   controlling_entries('gb__v')
+);

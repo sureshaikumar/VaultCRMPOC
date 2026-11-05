@@ -1,0 +1,11 @@
+RECREATE Pagelink call_report_create_pagelink__v (
+   label('Call Report Create'),
+   description('Redirects Call Report Creation to the App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.call2__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.call_report_page__v')
+);

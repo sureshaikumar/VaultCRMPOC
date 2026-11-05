@@ -1,0 +1,5 @@
+Picklistentry outp__v (
+   value('Outpatient Center'),
+   order(19),
+   active(true)
+);

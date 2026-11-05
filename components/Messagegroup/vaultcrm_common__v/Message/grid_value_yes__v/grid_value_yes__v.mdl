@@ -1,0 +1,6 @@
+Message grid_value_yes__v (
+   label(),
+   active(true),
+   default_value('Yes'),
+   system_managed(false)
+);

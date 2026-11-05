@@ -1,0 +1,6 @@
+Message default_error_message__v (
+   label(),
+   active(true),
+   default_value('An unexpected error occurred.'),
+   system_managed(false)
+);

@@ -1,0 +1,15 @@
+Fieldrule clm_id__v (
+   label('CLM ID'),
+   active(true),
+   query_object('documents'),
+   query_field('clm_id__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.clm_id__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_text__sys'),
+   target_field_lookup()
+);

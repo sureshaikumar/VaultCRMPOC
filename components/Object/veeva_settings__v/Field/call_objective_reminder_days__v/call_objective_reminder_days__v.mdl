@@ -1,0 +1,23 @@
+Field call_objective_reminder_days__v (
+   label('Call Objective Reminder Days'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content('Used to indicate the number of of lead days to indicate to the User of any upcoming deadlines for Call Objectives'),
+   list_column(false),
+   order(52),
+   default_value('2'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

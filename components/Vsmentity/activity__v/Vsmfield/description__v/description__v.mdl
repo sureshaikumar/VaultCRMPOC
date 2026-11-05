@@ -1,0 +1,14 @@
+Vsmfield description__v (
+   label('Description'),
+   active(true),
+   description('Free-text field containing a detailed description or notes about the activity. Use for keyword searches to find activities related to a specific topic or to understand the context and purpose of the task. Only populated for User Tasks.'),
+   example_values(),
+   synonyms('details',
+         'notes',
+         'summary',
+         'activity notes'),
+   target('description__v'),
+   target_label('Description'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

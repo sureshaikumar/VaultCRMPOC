@@ -1,0 +1,13 @@
+Picklistentry pharn__v (
+   value('Pharmacology'),
+   order(1517),
+   active(true),
+   controlling_entries('cm__v',
+         'eg__v',
+         'in__v',
+         'ma__v',
+         'om__v',
+         'pl__v',
+         'tn__v',
+         'us__v')
+);

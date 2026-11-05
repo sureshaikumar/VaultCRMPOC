@@ -1,0 +1,6 @@
+Picklistentry pl-06__v (
+   value('Lubelskie'),
+   order(3624),
+   active(true),
+   controlling_entries('pl__v')
+);

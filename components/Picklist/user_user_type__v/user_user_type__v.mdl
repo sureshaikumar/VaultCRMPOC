@@ -1,0 +1,14 @@
+RECREATE Picklist user_user_type__v (
+   label('User Type'),
+   active(true),
+   Picklistentry(@Picklistentry/sales__v.mdl),
+   Picklistentry(@Picklistentry/medical__v.mdl),
+   Picklistentry(@Picklistentry/kam__v.mdl),
+   Picklistentry(@Picklistentry/marketing__v.mdl),
+   Picklistentry(@Picklistentry/service__v.mdl),
+   Picklistentry(@Picklistentry/frm__v.mdl),
+   Picklistentry(@Picklistentry/clinical__v.mdl),
+   Picklistentry(@Picklistentry/admin__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

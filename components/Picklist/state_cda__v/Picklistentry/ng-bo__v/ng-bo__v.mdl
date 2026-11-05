@@ -1,0 +1,6 @@
+Picklistentry ng-bo__v (
+   value('Borno'),
+   order(3326),
+   active(true),
+   controlling_entries('ng__v')
+);

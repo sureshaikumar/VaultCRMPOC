@@ -1,0 +1,6 @@
+Picklistentry af-kap__v (
+   value('Kāpīsā'),
+   order(29),
+   active(true),
+   controlling_entries('af__v')
+);

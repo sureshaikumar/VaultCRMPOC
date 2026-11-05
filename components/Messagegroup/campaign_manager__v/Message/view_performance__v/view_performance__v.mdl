@@ -1,0 +1,6 @@
+Message view_performance__v (
+   label(),
+   active(true),
+   default_value('View Performance'),
+   system_managed(false)
+);

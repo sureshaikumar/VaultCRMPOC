@@ -1,0 +1,14 @@
+Vsmfield failure_reason__v (
+   label('Failure Reason'),
+   active(true),
+   description('Descriptive message explaining why the vault user creation process failed. Use this field to diagnose and troubleshoot unsuccessful VeevaID invite or user provisioning attempts.'),
+   example_values(),
+   synonyms('error reason',
+         'failure message',
+         'error detail',
+         'why failed'),
+   target('failure_reason__sys'),
+   target_label('Failure Reason'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

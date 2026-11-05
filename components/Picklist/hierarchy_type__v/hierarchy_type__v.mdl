@@ -1,0 +1,10 @@
+RECREATE Picklist hierarchy_type__v (
+   label('Hierarchy Type'),
+   active(true),
+   Picklistentry(@Picklistentry/mlhn__v.mdl),
+   Picklistentry(@Picklistentry/ipha__v.mdl),
+   Picklistentry(@Picklistentry/slhn__v.mdl),
+   Picklistentry(@Picklistentry/indp__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,18 @@
+Field status_cda__v (
+   label('Status'),
+   type('Picklist'),
+   active(true),
+   description('Indicates whether this address is currently usable for contact purposes.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(92),
+   multi_value(false),
+   picklist('Picklist.status_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

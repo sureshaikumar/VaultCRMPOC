@@ -1,0 +1,4 @@
+Typefield reporting_url_on24__v (
+   source('standard'),
+   required(false)
+);

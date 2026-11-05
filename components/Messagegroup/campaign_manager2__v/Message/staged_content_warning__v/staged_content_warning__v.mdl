@@ -1,0 +1,6 @@
+Message staged_content_warning__v (
+   label(),
+   active(true),
+   default_value('This template is staged and must be approved before you can activate the campaign.'),
+   system_managed(false)
+);

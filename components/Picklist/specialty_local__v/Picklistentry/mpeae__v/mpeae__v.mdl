@@ -1,0 +1,6 @@
+Picklistentry mpeae__v (
+   value('Medical Pathology'),
+   order(931),
+   active(true),
+   controlling_entries('tr__v')
+);

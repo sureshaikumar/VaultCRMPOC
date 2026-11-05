@@ -1,0 +1,4 @@
+Typefield zvod_consent_default_consent_text_file__v (
+   source('custom'),
+   required(false)
+);

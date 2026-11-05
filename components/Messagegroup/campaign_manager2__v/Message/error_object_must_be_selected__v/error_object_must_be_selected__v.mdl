@@ -1,0 +1,6 @@
+Message error_object_must_be_selected__v (
+   label(),
+   active(true),
+   default_value('An object must be selected'),
+   system_managed(false)
+);

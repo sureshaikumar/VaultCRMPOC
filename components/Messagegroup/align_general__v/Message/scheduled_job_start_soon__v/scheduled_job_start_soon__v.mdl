@@ -1,0 +1,6 @@
+Message scheduled_job_start_soon__v (
+   label(),
+   active(true),
+   default_value('Scheduled job starting soon'),
+   system_managed(false)
+);

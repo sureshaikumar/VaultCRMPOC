@@ -1,0 +1,6 @@
+Message users_for_new_inbound_chats__v (
+   label(),
+   active(true),
+   default_value('Users for New Inbound Chats'),
+   system_managed(false)
+);

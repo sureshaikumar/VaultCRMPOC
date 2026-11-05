@@ -1,0 +1,3 @@
+Typeaction view_med_inquiry_signatures__v (
+   action('rep_roster__v.view_med_inquiry_signatures__v')
+);

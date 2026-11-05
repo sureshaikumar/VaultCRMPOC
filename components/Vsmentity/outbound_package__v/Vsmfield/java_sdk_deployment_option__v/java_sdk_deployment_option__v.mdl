@@ -1,0 +1,14 @@
+Vsmfield java_sdk_deployment_option__v (
+   label('Vault Java SDK Deployment Option'),
+   active(true),
+   description('Picklist specifying how the Vault Java SDK code within this package should be deployed to the target vault. Controls deployment behavior such as whether SDK code is compiled and activated immediately or staged for manual activation.'),
+   example_values(),
+   synonyms('SDK deployment',
+         'Java deployment option',
+         'SDK option',
+         'deployment mode'),
+   target('java_sdk_deployment_option__sys'),
+   target_label('Vault Java SDK Deployment Option'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,19 @@
+Field iframe_landingpage_url__v (
+   label('iFrame Landing Page URL'),
+   type('String'),
+   active(true),
+   description('URL of the custom webpage which hosts the Survey iFrame. If this field is blank, then default to the Veeva hosted site.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

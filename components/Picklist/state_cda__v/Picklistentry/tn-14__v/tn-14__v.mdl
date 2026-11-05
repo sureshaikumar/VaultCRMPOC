@@ -1,0 +1,6 @@
+Picklistentry tn-14__v (
+   value('La Manouba'),
+   order(4433),
+   active(true),
+   controlling_entries('tn__v')
+);

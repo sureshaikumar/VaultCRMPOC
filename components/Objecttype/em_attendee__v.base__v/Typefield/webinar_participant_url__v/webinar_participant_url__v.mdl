@@ -1,0 +1,4 @@
+Typefield webinar_participant_url__v (
+   source('standard'),
+   required(false)
+);

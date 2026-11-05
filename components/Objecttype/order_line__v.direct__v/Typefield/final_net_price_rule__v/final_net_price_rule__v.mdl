@@ -1,0 +1,4 @@
+Typefield final_net_price_rule__v (
+   source('custom'),
+   required(false)
+);

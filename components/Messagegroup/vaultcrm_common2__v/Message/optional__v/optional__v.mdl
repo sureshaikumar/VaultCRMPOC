@@ -1,0 +1,6 @@
+Message optional__v (
+   label(),
+   active(true),
+   default_value('Optional'),
+   system_managed(false)
+);

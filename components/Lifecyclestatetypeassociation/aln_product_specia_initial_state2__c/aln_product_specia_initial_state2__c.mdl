@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation aln_product_specia_initial_state2__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.aln_product_specialty_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.new__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

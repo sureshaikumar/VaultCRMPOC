@@ -1,0 +1,5 @@
+Picklistentry 11380__v (
+   value('Andrews, TX Micropolitan Statistical Area'),
+   order(631),
+   active(true)
+);

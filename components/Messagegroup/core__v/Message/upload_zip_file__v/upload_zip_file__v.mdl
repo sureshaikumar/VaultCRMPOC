@@ -1,0 +1,6 @@
+Message upload_zip_file__v (
+   label(),
+   active(true),
+   default_value('Upload ZIP File'),
+   system_managed(false)
+);

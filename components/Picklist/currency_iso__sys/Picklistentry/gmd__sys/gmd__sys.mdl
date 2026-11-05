@@ -1,0 +1,5 @@
+Picklistentry gmd__sys (
+   value('GMD'),
+   order(72),
+   active(true)
+);

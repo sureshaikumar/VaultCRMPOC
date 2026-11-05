@@ -1,0 +1,6 @@
+Picklistentry by-mi__v (
+   value('Minsk Region'),
+   order(551),
+   active(true),
+   controlling_entries('by__v')
+);

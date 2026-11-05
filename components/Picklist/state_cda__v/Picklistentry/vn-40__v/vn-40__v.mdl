@@ -1,0 +1,6 @@
+Picklistentry vn-40__v (
+   value('Bình Thuận'),
+   order(4942),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ag__v (
+   value('Antigua and Barbuda'),
+   order(9),
+   active(true)
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist company_collaborat_relationship_strength__v (
+   label('Relationship Strength'),
+   active(true),
+   Picklistentry(@Picklistentry/none__v.mdl),
+   Picklistentry(@Picklistentry/strong__v.mdl),
+   Picklistentry(@Picklistentry/weak__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

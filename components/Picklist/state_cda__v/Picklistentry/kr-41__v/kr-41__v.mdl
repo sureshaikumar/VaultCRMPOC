@@ -1,0 +1,6 @@
+Picklistentry kr-41__v (
+   value('Gyeonggi'),
+   order(2477),
+   active(true),
+   controlling_entries('kr__v')
+);

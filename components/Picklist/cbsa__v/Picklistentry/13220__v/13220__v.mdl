@@ -1,0 +1,5 @@
+Picklistentry 13220__v (
+   value('Beckley, WV Micropolitan Statistical Area'),
+   order(861),
+   active(true)
+);

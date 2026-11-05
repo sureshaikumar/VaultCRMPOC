@@ -1,0 +1,5 @@
+Picklistentry africa_ceuta__sys (
+   value('(GMT+01:00) Central European Time (Africa/Ceuta)'),
+   order(150),
+   active(true)
+);

@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.messaging_business_account__v.sms__v">
+    <vault:section title="Details" name="details__v">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="connection_status__v" />
+            <vault:field reference="last_synced_datetime__v" />
+            <vault:field reference="primary_asgnee_for_new_inbound_chat__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="last_error_message__v" />
+            <vault:field reference="secondary_asgnee_for_new_inbound_chat__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__v">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Message Template Business Accounts" name="message_template_business_accounts__v">
+        <vault:relatedObject relationship="message_template_business_accounts__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="message_template__v" width="200px" />
+            <vault:field reference="messaging_business_account__v" width="200px" />
+            <vault:field reference="vexternal_id__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

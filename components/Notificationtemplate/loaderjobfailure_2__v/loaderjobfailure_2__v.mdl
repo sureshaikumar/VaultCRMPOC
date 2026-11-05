@@ -1,0 +1,21 @@
+RECREATE Notificationtemplate loaderjobfailure_2__v (
+   label('loaderJobFailure'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Loader Job has failed'),
+   notification('<p>Your Loader Job has Failed</p>
+<p>Details:
+<ul>
+<li>Reason for Failure: ${vaultLoaderFailureReason}</li>
+<li> CSV File: <a href="${vaultLoaderFileLink}">${vaultLoaderFileName}</a></li>
+<li>Action Type: ${vaultLoaderActionType}</li>
+<li>Object Type: ${vaultLoaderObjectType}</li>
+<li>Record Migration Mode: ${vaultLoaderRecordMigrationMode}</li>
+<li>Load Start Time: ${vaultLoaderStartTime} </li>
+</ul>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,4 @@
+Typefield vin__c (
+   source('standard'),
+   required(false)
+);

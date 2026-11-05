@@ -1,0 +1,6 @@
+Picklistentry it-ms__v (
+   value('Massa-Carrara'),
+   order(2229),
+   active(true),
+   controlling_entries('it__v')
+);

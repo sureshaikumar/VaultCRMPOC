@@ -1,0 +1,4 @@
+Typefield disable_send_log_files__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message display_text__v (
+   label(),
+   active(true),
+   default_value('Display Text'),
+   system_managed(false)
+);

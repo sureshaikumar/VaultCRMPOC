@@ -1,0 +1,10 @@
+Vsmvalue ngn__v (
+   label('NGN'),
+   active(true),
+   description('The official currency of Nigeria (NGN), the most widely used currency in West Africa and central to the continent''s largest economy.'),
+   synonyms('Nigerian naira',
+         'naira',
+         'NGN'),
+   target('ngn__sys'),
+   target_label('NGN')
+);

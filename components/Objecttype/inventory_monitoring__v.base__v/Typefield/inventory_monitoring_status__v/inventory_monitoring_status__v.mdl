@@ -1,0 +1,4 @@
+Typefield inventory_monitoring_status__v (
+   source('standard'),
+   required(false)
+);

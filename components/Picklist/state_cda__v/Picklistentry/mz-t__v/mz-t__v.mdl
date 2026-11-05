@@ -1,0 +1,6 @@
+Picklistentry mz-t__v (
+   value('Tete'),
+   order(3297),
+   active(true),
+   controlling_entries('mz__v')
+);

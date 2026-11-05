@@ -1,0 +1,5 @@
+Picklistentry vn__v (
+   value('VN'),
+   order(241),
+   active(true)
+);

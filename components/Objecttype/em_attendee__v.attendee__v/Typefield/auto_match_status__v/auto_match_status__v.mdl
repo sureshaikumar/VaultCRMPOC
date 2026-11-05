@@ -1,0 +1,6 @@
+Typefield auto_match_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.auto_match_status__v.match_found__v',
+         'Picklist.auto_match_status__v.match_not_found__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry trch__v (
+   value('Traditional Chinese Hospital'),
+   order(256),
+   active(true)
+);

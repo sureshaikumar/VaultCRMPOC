@@ -1,0 +1,7 @@
+Picklistentry heeca__v (
+   value('Health Economics'),
+   order(664),
+   active(true),
+   controlling_entries('ba__v',
+         'cm__v')
+);

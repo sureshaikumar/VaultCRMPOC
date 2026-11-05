@@ -1,0 +1,18 @@
+Field document_query_modifier__v (
+   label('Document Query Modifier'),
+   type('Picklist'),
+   active(true),
+   description('When object_name = "documents", control how different versions are queried for mobile clients'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(35),
+   multi_value(false),
+   picklist('Picklist.document_query_modifier__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

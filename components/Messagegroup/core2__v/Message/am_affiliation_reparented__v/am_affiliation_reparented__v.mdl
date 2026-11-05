@@ -1,0 +1,6 @@
+Message am_affiliation_reparented__v (
+   label(),
+   active(true),
+   default_value('The losing account''s Affiliation records are re-associated to the winning account.'),
+   system_managed(false)
+);

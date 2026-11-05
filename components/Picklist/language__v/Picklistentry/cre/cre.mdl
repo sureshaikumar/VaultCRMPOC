@@ -1,0 +1,5 @@
+Picklistentry cre (
+   value('Cree'),
+   order(159),
+   active(true)
+);

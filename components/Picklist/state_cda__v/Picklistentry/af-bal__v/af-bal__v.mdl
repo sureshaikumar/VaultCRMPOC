@@ -1,0 +1,6 @@
+Picklistentry af-bal__v (
+   value('Balkh'),
+   order(14),
+   active(true),
+   controlling_entries('af__v')
+);

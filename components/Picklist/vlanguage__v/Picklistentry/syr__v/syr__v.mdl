@@ -1,0 +1,5 @@
+Picklistentry syr__v (
+   value('Syriac'),
+   order(307),
+   active(false)
+);

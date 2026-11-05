@@ -1,0 +1,8 @@
+Picklistentry pieme__v (
+   value('Pediatric Immunology'),
+   order(1391),
+   active(true),
+   controlling_entries('gr__v',
+         'ua__v',
+         'us__v')
+);

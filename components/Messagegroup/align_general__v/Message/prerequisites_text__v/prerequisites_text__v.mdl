@@ -1,0 +1,6 @@
+Message prerequisites_text__v (
+   label(),
+   active(true),
+   default_value('Please ensure that your Address records for {0} meet the following requirements:'),
+   system_managed(false)
+);

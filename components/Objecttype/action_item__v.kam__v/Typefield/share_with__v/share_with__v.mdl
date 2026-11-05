@@ -1,0 +1,7 @@
+Typefield share_with__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_team_member_role__v.market_access__v',
+         'Picklist.account_team_member_role__v.medical__v',
+         'Picklist.account_team_member_role__v.sales__v')
+);

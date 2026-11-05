@@ -1,0 +1,6 @@
+Picklistentry es-ce__v (
+   value('Ceuta'),
+   order(1206),
+   active(true),
+   controlling_entries('es__v')
+);

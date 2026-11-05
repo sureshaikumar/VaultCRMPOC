@@ -1,0 +1,6 @@
+Message rule_prod_alignment_results__v (
+   label(),
+   active(true),
+   default_value('Account Alignment Results'),
+   system_managed(false)
+);

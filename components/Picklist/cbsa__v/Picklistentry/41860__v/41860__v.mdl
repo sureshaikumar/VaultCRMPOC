@@ -1,0 +1,5 @@
+Picklistentry 41860__v (
+   value('San Francisco-Oakland-Fremont, CA Metropolitan Statistical Area'),
+   order(397),
+   active(true)
+);

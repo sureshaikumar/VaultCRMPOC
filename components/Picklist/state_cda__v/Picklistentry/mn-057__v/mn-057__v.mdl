@@ -1,0 +1,6 @@
+Picklistentry mn-057__v (
+   value('Dzavhan'),
+   order(3081),
+   active(true),
+   controlling_entries('mn__v')
+);

@@ -1,0 +1,6 @@
+Message open__v (
+   label(),
+   active(true),
+   default_value('Open'),
+   system_managed(false)
+);

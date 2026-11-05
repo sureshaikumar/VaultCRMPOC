@@ -1,0 +1,6 @@
+Picklistentry md-le__v (
+   value('Leova'),
+   order(2892),
+   active(true),
+   controlling_entries('md__v')
+);

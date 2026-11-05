@@ -1,0 +1,6 @@
+Picklistentry dveet__v (
+   value('Dermatology-Venereology'),
+   order(409),
+   active(true),
+   controlling_entries('cm__v')
+);

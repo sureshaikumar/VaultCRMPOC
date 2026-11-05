@@ -1,0 +1,6 @@
+Picklistentry ug-323__v (
+   value('Alebtong'),
+   order(4728),
+   active(true),
+   controlling_entries('ug__v')
+);

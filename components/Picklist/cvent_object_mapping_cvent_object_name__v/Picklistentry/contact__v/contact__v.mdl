@@ -1,0 +1,5 @@
+Picklistentry contact__v (
+   value('Contact'),
+   order(2),
+   active(true)
+);

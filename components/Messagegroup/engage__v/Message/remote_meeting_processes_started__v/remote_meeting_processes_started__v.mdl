@@ -1,0 +1,6 @@
+Message remote_meeting_processes_started__v (
+   label(),
+   active(true),
+   default_value('“Remote Meeting Scheduled Processes” successfully started'),
+   system_managed(false)
+);

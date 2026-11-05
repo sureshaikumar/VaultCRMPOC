@@ -1,0 +1,6 @@
+Picklistentry tr-23__v (
+   value('Elazığ'),
+   order(4481),
+   active(true),
+   controlling_entries('tr__v')
+);

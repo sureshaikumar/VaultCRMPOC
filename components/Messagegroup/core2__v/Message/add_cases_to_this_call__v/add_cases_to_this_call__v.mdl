@@ -1,0 +1,6 @@
+Message add_cases_to_this_call__v (
+   label(),
+   active(true),
+   default_value('Add Cases to This Call'),
+   system_managed(false)
+);

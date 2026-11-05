@@ -1,0 +1,3 @@
+Typeaction generate_sign_in__v (
+   action('em_event__v.generate_sign_in__v')
+);

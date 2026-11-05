@@ -1,0 +1,6 @@
+Message rule_product_metric_criteria_header__v (
+   label(),
+   active(true),
+   default_value('Product Metric Criteria'),
+   system_managed(false)
+);

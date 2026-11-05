@@ -1,0 +1,11 @@
+RECREATE Picklist porting_status__v (
+   label('Porting Status'),
+   active(true),
+   Picklistentry(@Picklistentry/porting_in_progress__v.mdl),
+   Picklistentry(@Picklistentry/ported_in__v.mdl),
+   Picklistentry(@Picklistentry/port_rejected__v.mdl),
+   Picklistentry(@Picklistentry/porting_out_in_progress__v.mdl),
+   Picklistentry(@Picklistentry/ported_out__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

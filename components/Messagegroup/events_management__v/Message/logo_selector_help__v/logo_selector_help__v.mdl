@@ -1,0 +1,6 @@
+Message logo_selector_help__v (
+   label(),
+   active(true),
+   default_value('No welcome image provided. Contact your admin.'),
+   system_managed(false)
+);

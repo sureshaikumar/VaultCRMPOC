@@ -1,0 +1,19 @@
+Field signature_page_display_name__v (
+   label('Signature Page Display Name'),
+   type('String'),
+   active(true),
+   description('The text value of the account''s signature page display name at the time of signature capture.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(61),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry imcmh__v (
+   value('Internal Medicine: Cardiology (Medical Heart and Circulatory Diseases)'),
+   order(810),
+   active(true),
+   controlling_entries('dk__v')
+);

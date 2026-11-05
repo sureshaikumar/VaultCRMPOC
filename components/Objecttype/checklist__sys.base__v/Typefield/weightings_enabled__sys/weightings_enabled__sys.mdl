@@ -1,0 +1,4 @@
+Typefield weightings_enabled__sys (
+   source('standard'),
+   required(false)
+);

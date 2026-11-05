@@ -1,0 +1,5 @@
+Picklistentry europe_istanbul__sys (
+   value('(GMT+03:00) Turkey Time (Europe/Istanbul)'),
+   order(206),
+   active(true)
+);

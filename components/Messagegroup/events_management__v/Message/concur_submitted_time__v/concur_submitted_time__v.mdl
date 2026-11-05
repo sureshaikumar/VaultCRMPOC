@@ -1,0 +1,6 @@
+Message concur_submitted_time__v (
+   label(),
+   active(true),
+   default_value('Submitted Time'),
+   system_managed(false)
+);

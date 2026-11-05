@@ -1,0 +1,6 @@
+Picklistentry mamaa__v (
+   value('Medical Acupuncture Medical Acupuncture Analgesia Anesthesia (K)'),
+   order(893),
+   active(true),
+   controlling_entries('id__v')
+);

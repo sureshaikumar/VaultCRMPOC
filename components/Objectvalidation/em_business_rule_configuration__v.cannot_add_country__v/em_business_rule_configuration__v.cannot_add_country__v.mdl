@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.cannot_add_country__v (
+   label('Cannot Add Country'),
+   active(true),
+   expression('event_business_rule__vr.global_rule__v = false || IsBlank(country__v)'),
+   description('global_rule__v is "true" and country__v field has an input.'),
+   error_message('Cannot add Country for this rule.'),
+   error_location('country__v')
+);

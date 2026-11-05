@@ -1,0 +1,6 @@
+Picklistentry duila__v (
+   value('Diagnostic Ultrasound'),
+   order(439),
+   active(true),
+   controlling_entries('au__v')
+);

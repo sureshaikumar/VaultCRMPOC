@@ -1,0 +1,6 @@
+Message what_would_you_like_to_know__v (
+   label(),
+   active(true),
+   default_value('What would you like to know?'),
+   system_managed(false)
+);

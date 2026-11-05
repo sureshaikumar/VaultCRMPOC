@@ -1,0 +1,6 @@
+Typefield default_order_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_default_order_type__v.direct__v',
+         'Picklist.account_default_order_type__v.transfer__v')
+);

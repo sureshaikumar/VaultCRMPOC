@@ -1,0 +1,6 @@
+Message problem_detected__v (
+   label(),
+   active(true),
+   default_value('Problem Detected'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 25300__v (
+   value('Hannibal, MO Micropolitan Statistical Area'),
+   order(590),
+   active(true)
+);

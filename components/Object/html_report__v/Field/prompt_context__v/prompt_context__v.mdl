@@ -1,0 +1,18 @@
+Field prompt_context__v (
+   label('Prompt Context'),
+   type('Picklist'),
+   active(true),
+   description('The context(s) in which this X-Page should be available.'),
+   required(false),
+   unique(false),
+   help_content('The context(s) in which this X-Page should be available.'),
+   list_column(false),
+   order(33),
+   multi_value(true),
+   picklist('Picklist.html_report_prompt_context__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message filter_and_sort__v (
+   label(),
+   active(true),
+   default_value('Filter and Sort'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry eg-dk__v (
+   value('Ad Daqahlīyah'),
+   order(1165),
+   active(true),
+   controlling_entries('eg__v')
+);

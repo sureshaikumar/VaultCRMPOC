@@ -1,0 +1,6 @@
+Message job_scheduler_success_header__v (
+   label(),
+   active(true),
+   default_value('Scheduled job {0} completed successfully'),
+   system_managed(false)
+);

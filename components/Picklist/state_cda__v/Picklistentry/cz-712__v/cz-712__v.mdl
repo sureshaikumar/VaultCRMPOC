@@ -1,0 +1,6 @@
+Picklistentry cz-712__v (
+   value('Olomouc'),
+   order(887),
+   active(true),
+   controlling_entries('cz__v')
+);

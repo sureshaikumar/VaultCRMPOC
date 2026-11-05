@@ -1,0 +1,6 @@
+Picklistentry co-sap__v (
+   value('San Andrés, Providencia y Santa Catalina'),
+   order(754),
+   active(true),
+   controlling_entries('co__v')
+);

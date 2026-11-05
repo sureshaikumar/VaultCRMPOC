@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.office_edit_version__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="item_id__sys" />
+            <vault:field reference="drive_id__sys" />
+            <vault:field reference="web_urn__sys" />
+            <vault:field reference="file_name__sys" />
+            <vault:field reference="document__sys" />
+            <vault:field reference="document_unbound__sys" />
+            <vault:field reference="marked_for_delete__sys" />
+            <vault:field reference="check_out_status__sys" />
+            <vault:field reference="placeholder_one__sys" />
+            <vault:field reference="placeholder_two__sys" />
+            <vault:field reference="placeholder_three__sys" />
+            <vault:field reference="placeholder_four__sys" />
+            <vault:field reference="placeholder_five__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

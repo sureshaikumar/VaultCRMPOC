@@ -1,0 +1,8 @@
+RECREATE Pagelayout my_engage_portal_domain_detail_page_layo__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('My Engage Portal Domain Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

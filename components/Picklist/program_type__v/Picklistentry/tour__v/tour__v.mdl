@@ -1,0 +1,5 @@
+Picklistentry tour__v (
+   value('Tour'),
+   order(2),
+   active(true)
+);

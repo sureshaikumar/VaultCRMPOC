@@ -1,0 +1,6 @@
+Picklistentry is-rkv__v (
+   value('Reykjavíkurborg'),
+   order(2131),
+   active(true),
+   controlling_entries('is__v')
+);

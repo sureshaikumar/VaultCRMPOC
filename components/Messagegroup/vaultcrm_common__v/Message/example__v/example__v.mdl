@@ -1,0 +1,6 @@
+Message example__v (
+   label(),
+   active(true),
+   default_value('Example: "${example}"'),
+   system_managed(false)
+);

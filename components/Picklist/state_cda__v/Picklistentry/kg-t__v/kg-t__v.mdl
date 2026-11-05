@@ -1,0 +1,6 @@
+Picklistentry kg-t__v (
+   value('Talas'),
+   order(2408),
+   active(true),
+   controlling_entries('kg__v')
+);

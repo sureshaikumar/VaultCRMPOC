@@ -1,0 +1,18 @@
+Field clm_explicit_opt_in__v (
+   label('CLM Explicit Opt In'),
+   type('Boolean'),
+   active(true),
+   description('Determines NULL behavior of Account.CLM_Opt_Type_vod attribute. If FALSE, then CLM consent will be Implicity Opt-In. When TRUE, this assumes that all accounts are Opted Out by default, and must be Explicitly Opted-In to receive email'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

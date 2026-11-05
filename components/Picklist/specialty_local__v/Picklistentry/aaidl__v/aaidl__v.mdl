@@ -1,0 +1,6 @@
+Picklistentry aaidl__v (
+   value('Allergy and Immunology Diseases'),
+   order(47),
+   active(true),
+   controlling_entries('jo__v')
+);

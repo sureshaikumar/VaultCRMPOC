@@ -1,0 +1,19 @@
+Field hco_name_intl__v (
+   label('Name (International)'),
+   type('String'),
+   active(true),
+   description('The Health Care Organization''s registered local name, converted to Latin script via transliteration. Used globally for cross-border searching, entity resolution, international reporting, and accessibility for non-local staff.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(202),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

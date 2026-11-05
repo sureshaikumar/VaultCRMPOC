@@ -1,0 +1,4 @@
+Typefield last_crmdesktop_mac_connect__v (
+   source('standard'),
+   required(false)
+);

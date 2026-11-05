@@ -1,0 +1,5 @@
+Picklistentry sl__v (
+   value('Slovene'),
+   order(291),
+   active(false)
+);

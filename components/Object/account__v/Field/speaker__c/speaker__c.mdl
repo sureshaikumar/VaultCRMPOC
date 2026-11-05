@@ -1,0 +1,18 @@
+Field speaker__c (
+   label('Speaker?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if this professional is a speaker.  Used by person accounts.'),
+   list_column(false),
+   order(84),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

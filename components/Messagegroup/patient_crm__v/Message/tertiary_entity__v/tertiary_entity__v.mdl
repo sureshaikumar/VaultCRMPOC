@@ -1,0 +1,6 @@
+Message tertiary_entity__v (
+   label(),
+   active(true),
+   default_value('Tertiary ${entity}'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+RECREATE Vsmpicklist connection_lifecycle__v (
+   label('Connection Lifecycle'),
+   active(true),
+   description('Defines the lifecycle states and transitions governing a connection object, tracking its progression through stages such as creation, activation, and termination within Vault.'),
+   synonyms('connection workflow',
+      'integration lifecycle',
+      'connection status flow',
+      'partner connection stages',
+      'connection process states'),
+   target('Objectlifecycle.connection_lifecycle__sys'),
+   target_label('Connection Lifecycle'),
+   Vsmvalue(@Vsmvalue/active_state__v.mdl),
+   Vsmvalue(@Vsmvalue/approved_state__v.mdl),
+   Vsmvalue(@Vsmvalue/disconnected_state__v.mdl),
+   Vsmvalue(@Vsmvalue/inactive_state__v.mdl),
+   Vsmvalue(@Vsmvalue/pending_state__v.mdl),
+   Vsmvalue(@Vsmvalue/rejected_state__v.mdl)
+);

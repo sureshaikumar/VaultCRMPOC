@@ -1,0 +1,19 @@
+Field new_product_review_process__c (
+   label('New Product Review Process'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('What is the GPO review process for adding new products to your membership''s contract?'),
+   list_column(false),
+   order(182),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

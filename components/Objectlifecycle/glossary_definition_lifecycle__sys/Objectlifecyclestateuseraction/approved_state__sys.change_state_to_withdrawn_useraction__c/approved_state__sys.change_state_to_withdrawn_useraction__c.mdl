@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved_state__sys.change_state_to_withdrawn_useraction__c (
+   label('Change State to Withdrawn'),
+   rule(@rule.xml),
+   order(1001)
+);

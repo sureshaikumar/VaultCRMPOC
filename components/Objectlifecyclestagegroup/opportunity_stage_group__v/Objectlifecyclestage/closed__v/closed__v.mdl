@@ -1,0 +1,8 @@
+Objectlifecyclestage closed__v (
+   label('Closed'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.closed_lost_state__v',
+         'Objectlifecyclestate.closed_won_state__v'),
+   order(5)
+);

@@ -1,0 +1,5 @@
+Picklistentry 40740__v (
+   value('Roswell, NM Micropolitan Statistical Area'),
+   order(266),
+   active(true)
+);

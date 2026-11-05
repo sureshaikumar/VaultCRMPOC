@@ -1,0 +1,5 @@
+RECREATE Crmapplicationprofile system_user_application_profile__v (
+   label('System User Application Profile'),
+   active(true),
+   description('This Application Profile can be used to define which settings records (for example, Veeva Settings) will be utilized for various integrations. It is automatically assigned to all System Owned Users that support integrations.')
+);

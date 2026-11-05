@@ -1,0 +1,6 @@
+Message rule_mccycle_plan_criteria_header__v (
+   label(),
+   active(true),
+   default_value('MC Cycle Plan Criteria'),
+   system_managed(false)
+);

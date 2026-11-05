@@ -1,0 +1,5 @@
+Picklistentry 12940__v (
+   value('Baton Rouge, LA Metropolitan Statistical Area'),
+   order(848),
+   active(true)
+);

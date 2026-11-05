@@ -1,0 +1,5 @@
+Objectlifecyclerole assigned_to__v (
+   active(true),
+   application_role('Applicationrole.assigned_to__v'),
+   permissions()
+);

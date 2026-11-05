@@ -1,0 +1,5 @@
+Picklistentry europe_simferopol__sys (
+   value('(GMT+03:00) Moscow Standard Time (Europe/Simferopol)'),
+   order(204),
+   active(true)
+);

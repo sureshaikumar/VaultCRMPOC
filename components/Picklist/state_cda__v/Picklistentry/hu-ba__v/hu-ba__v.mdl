@@ -1,0 +1,6 @@
+Picklistentry hu-ba__v (
+   value('Baranya'),
+   order(1873),
+   active(true),
+   controlling_entries('hu__v')
+);

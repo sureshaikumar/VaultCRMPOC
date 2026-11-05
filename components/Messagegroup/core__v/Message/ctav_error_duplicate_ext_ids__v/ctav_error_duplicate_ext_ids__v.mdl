@@ -1,0 +1,6 @@
+Message ctav_error_duplicate_ext_ids__v (
+   label(),
+   active(true),
+   default_value('Object ${object_name} has more than one records that have the same external id value : ${target_id} for ${field_name}'),
+   system_managed(false)
+);

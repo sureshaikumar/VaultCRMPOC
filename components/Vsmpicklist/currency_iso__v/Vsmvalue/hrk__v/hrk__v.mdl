@@ -1,0 +1,10 @@
+Vsmvalue hrk__v (
+   label('HRK'),
+   active(true),
+   description('The Croatian Kuna (HRK), the former official currency of Croatia prior to the adoption of the Euro in 2023, used for historical or legacy financial records.'),
+   synonyms('Croatian kuna',
+         'kuna',
+         'Croatia currency'),
+   target('hrk__sys'),
+   target_label('HRK')
+);

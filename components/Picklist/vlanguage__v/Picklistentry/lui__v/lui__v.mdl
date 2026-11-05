@@ -1,0 +1,5 @@
+Picklistentry lui__v (
+   value('Luiseno'),
+   order(193),
+   active(false)
+);

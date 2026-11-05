@@ -1,0 +1,6 @@
+Message cycle_plan_apply_list_error_body__v (
+   label(),
+   active(true),
+   default_value('${count_of_accounts} Accounts could not be added.'),
+   system_managed(false)
+);

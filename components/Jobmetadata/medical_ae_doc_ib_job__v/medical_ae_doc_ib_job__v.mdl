@@ -1,0 +1,10 @@
+RECREATE Jobmetadata medical_ae_doc_ib_job__v (
+   label('Medical to CRM AE Integration Docs Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that brings over AE docs from Medical'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.aeintegration.jobs.medical.MedicalAeIntegrationDocsInboundJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

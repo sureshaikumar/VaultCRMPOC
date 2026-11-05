@@ -1,0 +1,5 @@
+Picklistentry series__v (
+   value('Series'),
+   order(3),
+   active(true)
+);

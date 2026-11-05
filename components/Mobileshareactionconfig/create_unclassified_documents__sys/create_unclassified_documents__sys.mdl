@@ -1,0 +1,8 @@
+RECREATE Mobileshareactionconfig create_unclassified_documents__sys (
+   label('Create Unclassified Documents'),
+   active(true),
+   allowed_for('ANYONE'),
+   allowed_for_groups(),
+   description('Creates documents as Unclassified in the Document Inbox.  Visit Vault through the web browser to classify the documents.'),
+   mobile_share_action('Mobileshareaction.com.veeva.vault.system.sharetovault.CreateUnclassifiedDocuments')
+);

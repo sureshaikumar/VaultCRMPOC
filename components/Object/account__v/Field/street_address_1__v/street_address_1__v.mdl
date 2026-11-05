@@ -1,0 +1,19 @@
+Field street_address_1__v (
+   label('Street Address 1'),
+   type('String'),
+   active(true),
+   description('Residential or business street address information including house number and street name written in local language. Reflects primary address.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(211),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

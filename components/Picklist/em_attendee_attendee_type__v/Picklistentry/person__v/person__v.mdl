@@ -1,0 +1,5 @@
+Picklistentry person__v (
+   value('Person'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message journey_stage_advanced_description__v (
+   label(),
+   active(true),
+   default_value('${patient_full_name} advanced to ${patient_journey_phase_name}.'),
+   system_managed(false)
+);

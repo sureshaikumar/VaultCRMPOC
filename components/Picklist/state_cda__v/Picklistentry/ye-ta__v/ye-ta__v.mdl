@@ -1,0 +1,6 @@
+Picklistentry ye-ta__v (
+   value('Tā‘izz'),
+   order(5016),
+   active(true),
+   controlling_entries('ye__v')
+);

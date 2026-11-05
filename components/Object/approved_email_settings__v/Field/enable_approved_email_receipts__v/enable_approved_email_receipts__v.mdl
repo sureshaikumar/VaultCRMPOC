@@ -1,0 +1,24 @@
+Field enable_approved_email_receipts__v (
+   label('Enable Approved Email Receipts'),
+   type('Number'),
+   active(true),
+   description('0 = feature is disabled
+1 = feature is enabled'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(23),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

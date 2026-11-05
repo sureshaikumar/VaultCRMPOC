@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The human-readable name of the language-locale record, typically combining language and region for easy identification (e.g., ''English (United States)''). Use this field for display purposes or to search for a specific language-locale entry by name.'),
+   example_values(),
+   synonyms('label',
+         'locale name',
+         'display name'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,5 @@
+Picklistentry smj (
+   value('Lule Sami'),
+   order(241),
+   active(true)
+);

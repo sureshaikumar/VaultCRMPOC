@@ -1,0 +1,7 @@
+Picklistentry mpese__v (
+   value('Medical Psychotherapy'),
+   order(935),
+   active(true),
+   controlling_entries('cz__v',
+         'gb__v')
+);

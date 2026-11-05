@@ -1,0 +1,6 @@
+Message crm_integration_activate_aiu__v (
+   label(),
+   active(true),
+   default_value('Please activate the Vault User account that will be used to insert/edit data in Align.'),
+   system_managed(false)
+);

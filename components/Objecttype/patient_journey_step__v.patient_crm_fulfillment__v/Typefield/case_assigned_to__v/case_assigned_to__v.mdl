@@ -1,0 +1,4 @@
+Typefield case_assigned_to__v (
+   source('standard'),
+   required(false)
+);

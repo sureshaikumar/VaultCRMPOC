@@ -1,0 +1,6 @@
+Picklistentry cz-32__v (
+   value('Pilsen Region'),
+   order(835),
+   active(true),
+   controlling_entries('cz__v')
+);

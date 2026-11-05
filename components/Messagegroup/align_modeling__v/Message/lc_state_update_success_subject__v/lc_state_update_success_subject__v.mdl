@@ -1,0 +1,6 @@
+Message lc_state_update_success_subject__v (
+   label(),
+   active(true),
+   default_value('Notification: Territory Feedback Job Completed Successfully'),
+   system_managed(false)
+);

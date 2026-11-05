@@ -1,0 +1,5 @@
+Picklistentry custom_duration__v (
+   value('Custom Duration'),
+   order(3),
+   active(true)
+);

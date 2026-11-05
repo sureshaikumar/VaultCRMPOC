@@ -1,0 +1,5 @@
+Picklistentry assigned__v (
+   value('Assigned'),
+   order(1),
+   active(true)
+);

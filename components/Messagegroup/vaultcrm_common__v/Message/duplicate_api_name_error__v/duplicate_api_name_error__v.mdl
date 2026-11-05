@@ -1,0 +1,6 @@
+Message duplicate_api_name_error__v (
+   label(),
+   active(true),
+   default_value('Another resource already exists with [api_name__v=${api_name}]'),
+   system_managed(false)
+);

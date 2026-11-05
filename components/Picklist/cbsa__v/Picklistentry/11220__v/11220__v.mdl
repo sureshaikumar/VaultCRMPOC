@@ -1,0 +1,5 @@
+Picklistentry 11220__v (
+   value('Amsterdam, NY Micropolitan Statistical Area'),
+   order(655),
+   active(true)
+);

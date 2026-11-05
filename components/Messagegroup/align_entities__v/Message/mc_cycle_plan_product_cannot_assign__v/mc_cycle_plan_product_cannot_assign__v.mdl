@@ -1,0 +1,6 @@
+Message mc_cycle_plan_product_cannot_assign__v (
+   label(),
+   active(true),
+   default_value('MC Cycle Plan Product ${product_name} cannot be assigned to MC Cycle Plan Channel ${channel_name} because the latter''s Object Type is not Channel with Products.'),
+   system_managed(false)
+);

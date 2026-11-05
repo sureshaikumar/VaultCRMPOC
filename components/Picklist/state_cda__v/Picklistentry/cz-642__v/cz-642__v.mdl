@@ -1,0 +1,6 @@
+Picklistentry cz-642__v (
+   value('Brno-město'),
+   order(879),
+   active(true),
+   controlling_entries('cz__v')
+);

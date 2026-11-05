@@ -1,0 +1,6 @@
+Message voice_note_discard__v (
+   label(),
+   active(true),
+   default_value('Discard'),
+   system_managed(false)
+);

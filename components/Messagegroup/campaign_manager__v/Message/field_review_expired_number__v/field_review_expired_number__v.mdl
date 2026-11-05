@@ -1,0 +1,6 @@
+Message field_review_expired_number__v (
+   label(),
+   active(true),
+   default_value('Expired: ${expired_approval_count}'),
+   system_managed(false)
+);

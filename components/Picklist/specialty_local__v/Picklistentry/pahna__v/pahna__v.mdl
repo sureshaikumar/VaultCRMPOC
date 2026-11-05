@@ -1,0 +1,6 @@
+Picklistentry pahna__v (
+   value('Pharmaceutical Analytics'),
+   order(1503),
+   active(true),
+   controlling_entries('pl__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry br-rr__v (
+   value('Roraima'),
+   order(472),
+   active(true),
+   controlling_entries('br__v')
+);

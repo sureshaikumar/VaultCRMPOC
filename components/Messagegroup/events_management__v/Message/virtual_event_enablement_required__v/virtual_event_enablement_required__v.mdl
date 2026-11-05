@@ -1,0 +1,6 @@
+Message virtual_event_enablement_required__v (
+   label(),
+   active(true),
+   default_value('This Event Team Member is not allowed to have a virtual role.'),
+   system_managed(false)
+);

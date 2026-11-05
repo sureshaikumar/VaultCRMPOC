@@ -1,0 +1,6 @@
+Message am_atl_deleted__v (
+   label(),
+   active(true),
+   default_value('The ATL record associated to the losing account is deleted.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-099__v (
+   value('Radeče'),
+   order(4073),
+   active(true),
+   controlling_entries('si__v')
+);

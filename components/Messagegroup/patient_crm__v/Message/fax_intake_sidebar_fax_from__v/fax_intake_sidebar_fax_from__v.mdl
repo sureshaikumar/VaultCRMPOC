@@ -1,0 +1,6 @@
+Message fax_intake_sidebar_fax_from__v (
+   label(),
+   active(true),
+   default_value('Fax from ${fax_source}'),
+   system_managed(false)
+);

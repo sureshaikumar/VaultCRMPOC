@@ -1,0 +1,6 @@
+Picklistentry bd-09__v (
+   value('Chandpur'),
+   order(238),
+   active(true),
+   controlling_entries('bd__v')
+);

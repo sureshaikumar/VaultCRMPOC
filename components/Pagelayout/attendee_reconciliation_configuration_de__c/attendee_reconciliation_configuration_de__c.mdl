@@ -1,0 +1,8 @@
+RECREATE Pagelayout attendee_reconciliation_configuration_de__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Attendee Reconciliation Configuration Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,4 @@
+Typefield event_attendee_vod_c_where_clause__v (
+   source('standard'),
+   required(false)
+);

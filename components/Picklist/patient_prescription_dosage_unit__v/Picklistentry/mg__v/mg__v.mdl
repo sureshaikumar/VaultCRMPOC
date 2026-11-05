@@ -1,0 +1,5 @@
+Picklistentry mg__v (
+   value('mg - Milligram'),
+   order(0),
+   active(true)
+);

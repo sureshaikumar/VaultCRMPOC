@@ -1,0 +1,5 @@
+Picklistentry fail__v (
+   value('Fail'),
+   order(1),
+   active(true)
+);

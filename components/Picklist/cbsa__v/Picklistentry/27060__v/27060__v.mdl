@@ -1,0 +1,5 @@
+Picklistentry 27060__v (
+   value('Ithaca, NY Metropolitan Statistical Area'),
+   order(804),
+   active(true)
+);

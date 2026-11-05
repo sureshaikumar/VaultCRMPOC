@@ -1,0 +1,4 @@
+Typefield atl_last_update_date_time__v (
+   source('custom'),
+   required(false)
+);

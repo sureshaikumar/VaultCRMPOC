@@ -1,0 +1,5 @@
+Picklistentry 32540__v (
+   value('McAlester, OK Micropolitan Statistical Area'),
+   order(713),
+   active(true)
+);

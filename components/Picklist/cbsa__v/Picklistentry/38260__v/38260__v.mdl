@@ -1,0 +1,5 @@
+Picklistentry 38260__v (
+   value('Pittsburg, KS Micropolitan Statistical Area'),
+   order(744),
+   active(true)
+);

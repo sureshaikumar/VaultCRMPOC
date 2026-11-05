@@ -1,0 +1,6 @@
+Picklistentry lt-51__v (
+   value('Telšiai'),
+   order(2669),
+   active(true),
+   controlling_entries('lt__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry insight__v (
+   value('Insight'),
+   order(2),
+   active(true)
+);

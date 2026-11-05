@@ -1,0 +1,5 @@
+Picklistentry mg__v (
+   value('MG'),
+   order(142),
+   active(true)
+);

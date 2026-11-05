@@ -1,0 +1,19 @@
+Field multichannel_content_asset_version__v (
+   label('Asset Version'),
+   type('String'),
+   active(true),
+   description('Stamped Multichannel Content Asset Version'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

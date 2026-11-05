@@ -1,0 +1,4 @@
+Typefield enable_mysamples_login__v (
+   source('standard'),
+   required(false)
+);

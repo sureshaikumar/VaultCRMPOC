@@ -1,0 +1,5 @@
+Picklistentry ccph__v (
+   value('Chain Community Pharmacy'),
+   order(19),
+   active(true)
+);

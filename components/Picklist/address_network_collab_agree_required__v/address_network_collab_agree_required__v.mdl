@@ -1,0 +1,9 @@
+RECREATE Picklist address_network_collab_agree_required__v (
+   label('Network Collaborative Agreement Required'),
+   active(true),
+   Picklistentry(@Picklistentry/n__v.mdl),
+   Picklistentry(@Picklistentry/y__v.mdl),
+   Picklistentry(@Picklistentry/hrs__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

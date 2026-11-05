@@ -1,0 +1,6 @@
+Message align_settings_crm_assignments_expire_2__v (
+   label(),
+   active(true),
+   default_value('For visibility purposes, this number value will also be populated on each aln_account_territory__v records. It is suggested to place the aln_account_territory__v.crm_assignments_expire__v field onto the aln_account_territory__v and aln_account_territory_model__v Page Layouts.'),
+   system_managed(false)
+);

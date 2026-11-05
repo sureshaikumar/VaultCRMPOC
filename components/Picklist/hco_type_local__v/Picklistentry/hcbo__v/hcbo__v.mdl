@@ -1,0 +1,5 @@
+Picklistentry hcbo__v (
+   value('Hospital - Class B'),
+   order(109),
+   active(true)
+);

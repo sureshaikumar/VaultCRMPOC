@@ -1,0 +1,6 @@
+Message reply_from__v (
+   label(),
+   active(true),
+   default_value('Reply from ${entity}'),
+   system_managed(false)
+);

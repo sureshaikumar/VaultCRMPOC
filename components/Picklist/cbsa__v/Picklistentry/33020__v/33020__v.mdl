@@ -1,0 +1,5 @@
+Picklistentry 33020__v (
+   value('Mexico, MO Micropolitan Statistical Area'),
+   order(830),
+   active(true)
+);

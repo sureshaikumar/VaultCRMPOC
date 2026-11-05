@@ -1,0 +1,6 @@
+Message account_not_found_nas__v (
+   label(),
+   active(true),
+   default_value('Search for and add the account via Network Account Search.'),
+   system_managed(false)
+);

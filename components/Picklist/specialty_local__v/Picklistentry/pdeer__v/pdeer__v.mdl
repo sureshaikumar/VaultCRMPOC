@@ -1,0 +1,6 @@
+Picklistentry pdeer__v (
+   value('Periodontic Dentistry'),
+   order(1493),
+   active(true),
+   controlling_entries('sa__v')
+);

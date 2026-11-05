@@ -1,0 +1,6 @@
+Picklistentry pw-150__v (
+   value('Koror'),
+   order(3679),
+   active(true),
+   controlling_entries('pw__v')
+);

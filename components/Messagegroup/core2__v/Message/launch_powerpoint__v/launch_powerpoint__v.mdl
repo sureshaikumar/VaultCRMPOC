@@ -1,0 +1,6 @@
+Message launch_powerpoint__v (
+   label(),
+   active(true),
+   default_value('Launch PowerPoint'),
+   system_managed(false)
+);

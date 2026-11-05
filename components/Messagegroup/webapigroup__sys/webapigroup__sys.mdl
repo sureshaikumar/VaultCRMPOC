@@ -1,0 +1,8 @@
+RECREATE Messagegroup webapigroup__sys (
+   label('Web API Group Messages'),
+   active(true),
+   Message(@Message/description__sys.mdl),
+   Message(@Message/webapigroup__sys.mdl),
+   Message(@Message/webapigroups_help_content__sys.mdl),
+   Message(@Message/webapigroups_plural__sys.mdl)
+);

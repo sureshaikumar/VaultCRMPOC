@@ -1,0 +1,10 @@
+RECREATE Objectvalidation metric_configuration__v.product_lookup_validation_check__v (
+   label('Product Lookup Validation Check'),
+   active(true),
+   expression('IsBlank(product__vr.product_type__v) ||
+Text(product__vr.product_type__v) = ''Detail Topic'' ||
+Text(product__vr.product_type__v) = ''Detail'''),
+   description(),
+   error_message('Error: Invalid product type for Product lookup field. This field may only have products that are Detail or Detail Topic.'),
+   error_location('product__v')
+);

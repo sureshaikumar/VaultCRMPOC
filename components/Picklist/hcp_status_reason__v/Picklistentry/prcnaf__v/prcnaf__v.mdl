@@ -1,0 +1,5 @@
+Picklistentry prcnaf__v (
+   value('Undetermined'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 13540__v (
+   value('Bennington, VT Micropolitan Statistical Area'),
+   order(868),
+   active(true)
+);

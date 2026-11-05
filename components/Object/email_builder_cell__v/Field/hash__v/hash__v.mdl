@@ -1,0 +1,19 @@
+Field hash__v (
+   label('Hash'),
+   type('String'),
+   active(true),
+   description('Hash value generated for the Email Builder Cell'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

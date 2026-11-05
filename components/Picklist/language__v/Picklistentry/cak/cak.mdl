@@ -1,0 +1,5 @@
+Picklistentry cak (
+   value('Kaqchikel'),
+   order(358),
+   active(true)
+);

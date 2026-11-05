@@ -1,0 +1,5 @@
+Picklistentry mvr__sys (
+   value('MVR'),
+   order(124),
+   active(true)
+);

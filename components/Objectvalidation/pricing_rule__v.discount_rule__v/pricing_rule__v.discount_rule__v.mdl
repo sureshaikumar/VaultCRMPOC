@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.discount_rule__v (
+   label('Discount Rule'),
+   active(true),
+   expression('Not(
+    And(
+        Not(IsBlank(discount_override_max__v)),
+        Not(IsBlank(discount_override__v)),
+        discount_override_max__v < discount_override__v
+    )
+)'),
+   description('Discount Override Max value cannot be lower than the Discount Override value'),
+   error_message('Discount Override Max is lower than Discount'),
+   error_location('discount_override_max__v')
+);

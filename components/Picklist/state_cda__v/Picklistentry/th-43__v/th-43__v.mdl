@@ -1,0 +1,6 @@
+Picklistentry th-43__v (
+   value('Nong Khai'),
+   order(4359),
+   active(true),
+   controlling_entries('th__v')
+);

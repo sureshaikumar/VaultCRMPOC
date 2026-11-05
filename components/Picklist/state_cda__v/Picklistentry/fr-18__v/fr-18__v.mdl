@@ -1,0 +1,6 @@
+Picklistentry fr-18__v (
+   value('Cher'),
+   order(1332),
+   active(true),
+   controlling_entries('fr__v')
+);

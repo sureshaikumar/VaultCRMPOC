@@ -1,0 +1,5 @@
+Picklistentry rom__v (
+   value('Romany'),
+   order(265),
+   active(false)
+);

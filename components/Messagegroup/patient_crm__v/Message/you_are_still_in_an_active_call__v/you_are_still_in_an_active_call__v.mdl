@@ -1,0 +1,6 @@
+Message you_are_still_in_an_active_call__v (
+   label(),
+   active(true),
+   default_value('You are still in an active call. Please save the attempt once the call has ended.'),
+   system_managed(false)
+);

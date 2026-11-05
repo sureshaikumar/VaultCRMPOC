@@ -1,0 +1,4 @@
+Typefield enable_global_account_search__v (
+   source('standard'),
+   required(false)
+);

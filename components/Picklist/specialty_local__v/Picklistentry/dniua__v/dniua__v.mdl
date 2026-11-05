@@ -1,0 +1,6 @@
+Picklistentry dniua__v (
+   value('Diabetes Nursing'),
+   order(419),
+   active(true),
+   controlling_entries('ee__v')
+);

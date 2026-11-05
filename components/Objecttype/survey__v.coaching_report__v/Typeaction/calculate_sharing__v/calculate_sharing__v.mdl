@@ -1,0 +1,3 @@
+Typeaction calculate_sharing__v (
+   action('survey__v.calculate_sharing__v')
+);

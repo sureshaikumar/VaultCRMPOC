@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.payment_terms_rule_kit_item__v (
+   label('Payment Terms Rule Kit Item'),
+   active(true),
+   expression('Not(
+    And(
+        object_type__vr.api_name__v = ''payment_terms_rule__v'',
+        product__vr.product_type__v = ''kit_item__v''
+    )
+)'),
+   description('Payment Terms Rule does not support Kit Item product type.'),
+   error_message('Payment Terms Rule does not support Kit Item product type.'),
+   error_location('product__v')
+);

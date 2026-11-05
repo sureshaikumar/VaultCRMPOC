@@ -1,0 +1,6 @@
+Message crm_integration_cant_send_dialog_header__v (
+   label(),
+   active(true),
+   default_value('Error: Cannot Send to CRM'),
+   system_managed(false)
+);

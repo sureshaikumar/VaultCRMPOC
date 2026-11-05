@@ -1,0 +1,6 @@
+Message parent_attribute__sys (
+   label(),
+   active(true),
+   default_value('Parent'),
+   system_managed(true)
+);

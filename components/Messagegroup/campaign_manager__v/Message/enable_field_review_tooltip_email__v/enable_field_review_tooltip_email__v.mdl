@@ -1,0 +1,6 @@
+Message enable_field_review_tooltip_email__v (
+   label(),
+   active(true),
+   default_value('Field users are notified to review this email'),
+   system_managed(false)
+);

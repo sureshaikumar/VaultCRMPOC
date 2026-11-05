@@ -1,0 +1,22 @@
+Field yellow_green__v (
+   label('Yellow/Green'),
+   type('Number'),
+   active(true),
+   description('Only used for the arrows_vod type metric, this gives the breakpoint between yellow and green colors.'),
+   required(false),
+   unique(false),
+   max_value(99.99),
+   min_value(-99.99),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

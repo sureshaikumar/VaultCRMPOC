@@ -1,0 +1,30 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.integration_point__sys.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="integration_point_api_name__sys" />
+            <vault:field reference="integration__sys" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="description__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="User Exception Messages" name="user_exception_messages_section__c">
+        <vault:relatedObject relationship="user_exception_messages__sysr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+            <vault:field reference="error_type__sys" width="200px" />
+            <vault:field reference="error_message__sys" width="200px" />
+            <vault:field reference="message_items_received__sys" width="200px" />
+            <vault:field reference="message_items_failed__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

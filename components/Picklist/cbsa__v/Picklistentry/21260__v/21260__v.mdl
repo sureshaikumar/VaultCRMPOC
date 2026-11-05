@@ -1,0 +1,5 @@
+Picklistentry 21260__v (
+   value('Ellensburg, WA Micropolitan Statistical Area'),
+   order(723),
+   active(true)
+);

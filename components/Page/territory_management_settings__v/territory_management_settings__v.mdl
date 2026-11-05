@@ -1,0 +1,14 @@
+RECREATE Page territory_management_settings__v (
+   label('Territory Management Settings'),
+   active(true),
+   client_distribution(),
+   default_client_code('territory_management_settings__v'),
+   description('Territory Management Settings Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.myaccounts.settings.controls.TerritorySettingsPageController'),
+   url_path_name('territory-management-settings')
+);

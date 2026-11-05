@@ -1,0 +1,6 @@
+Message mc_cycle_one_targeting_rule__v (
+   label(),
+   active(true),
+   default_value('MC Cycle ${cycle_id} cannot have more than one assigned targeting rule.'),
+   system_managed(false)
+);

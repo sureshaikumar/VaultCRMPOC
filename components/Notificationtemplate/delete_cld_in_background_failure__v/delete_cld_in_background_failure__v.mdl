@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate delete_cld_in_background_failure__v (
+   label('Delete In Background Failed'),
+   active(true),
+   description('Notification template notifying user that the checklist design delete in background action failed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Delete Checklist Design in Background Failed'),
+   notification('<p>Errors were encountered while deleting Checklist Design <a href=${urlSourceChecklistDesign}>${checklist_design__sys_name}</a>.<br>Details:<p>${listOfErrors}</p><a href=${urlChecklistHelp}>Learn more</a><br>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

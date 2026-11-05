@@ -1,0 +1,5 @@
+Picklistentry patient_is_deceased__v (
+   value('Patient is Deceased'),
+   order(5),
+   active(true)
+);

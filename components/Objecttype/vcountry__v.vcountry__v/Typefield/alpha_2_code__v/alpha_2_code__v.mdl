@@ -1,0 +1,4 @@
+Typefield alpha_2_code__v (
+   source('standard'),
+   required(false)
+);

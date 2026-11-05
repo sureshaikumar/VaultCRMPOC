@@ -1,0 +1,23 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.order_line__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="order__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="order_discount__v" />
+            <vault:field reference="quantity__v" />
+            <vault:field reference="product_group__v" />
+            <vault:field reference="product__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

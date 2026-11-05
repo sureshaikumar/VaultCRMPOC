@@ -1,0 +1,18 @@
+Field open__v (
+   label('Allow users to choose targets?'),
+   type('Boolean'),
+   active(true),
+   description('If checked, any user can complete the survey for any account they have visibility for. Limits can be set on which users can complete the survey by entering a territory value in the Territory_vod field.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

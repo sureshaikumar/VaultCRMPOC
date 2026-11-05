@@ -1,0 +1,6 @@
+Picklistentry si-141__v (
+   value('Vuzenica'),
+   order(4115),
+   active(true),
+   controlling_entries('si__v')
+);

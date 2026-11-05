@@ -1,0 +1,6 @@
+Picklistentry it-lo__v (
+   value('Lodi'),
+   order(2220),
+   active(true),
+   controlling_entries('it__v')
+);

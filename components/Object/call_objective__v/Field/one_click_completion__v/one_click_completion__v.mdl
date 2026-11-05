@@ -1,0 +1,18 @@
+Field one_click_completion__v (
+   label('One click completion'),
+   type('Boolean'),
+   active(true),
+   description('If this box is checked, a call objective can be completed by checking the box on the call report. The call objective''s page layout will not display within the call report.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(25),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

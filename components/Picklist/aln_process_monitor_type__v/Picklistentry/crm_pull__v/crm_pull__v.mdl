@@ -1,0 +1,5 @@
+Picklistentry crm_pull__v (
+   value('Import from CRM'),
+   order(0),
+   active(true)
+);

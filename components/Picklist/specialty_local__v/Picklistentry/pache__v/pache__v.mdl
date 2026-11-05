@@ -1,0 +1,9 @@
+Picklistentry pache__v (
+   value('Pediatrics and Child Health'),
+   order(1474),
+   active(true),
+   controlling_entries('au__v',
+         'gh__v',
+         'ke__v',
+         'my__v')
+);

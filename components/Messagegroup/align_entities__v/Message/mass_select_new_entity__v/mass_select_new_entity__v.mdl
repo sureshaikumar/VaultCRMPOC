@@ -1,0 +1,6 @@
+Message mass_select_new_entity__v (
+   label(),
+   active(true),
+   default_value('New {0}'),
+   system_managed(false)
+);

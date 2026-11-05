@@ -1,0 +1,5 @@
+Picklistentry edetail__v (
+   value('EDetail'),
+   order(0),
+   active(true)
+);

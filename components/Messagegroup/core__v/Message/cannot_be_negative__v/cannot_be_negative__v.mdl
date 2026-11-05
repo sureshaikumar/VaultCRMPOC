@@ -1,0 +1,6 @@
+Message cannot_be_negative__v (
+   label(),
+   active(true),
+   default_value('${field_label} cannot be a negative value. Please adjust the allocated quantity.'),
+   system_managed(false)
+);

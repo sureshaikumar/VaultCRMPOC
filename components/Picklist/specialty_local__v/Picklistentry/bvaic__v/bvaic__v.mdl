@@ -1,0 +1,6 @@
+Picklistentry bvaic__v (
+   value('Bacteriology-Virology'),
+   order(111),
+   active(true),
+   controlling_entries('sn__v')
+);

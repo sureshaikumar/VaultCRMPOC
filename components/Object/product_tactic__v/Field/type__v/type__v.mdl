@@ -1,0 +1,18 @@
+Field type__v (
+   label('Type'),
+   type('Picklist'),
+   active(true),
+   description('Picklist describing the type of this product tactic.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.product_tactic_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,9 @@
+Vsmvalue ugx__v (
+   label('UGX'),
+   active(true),
+   description('Applies when transactions are denominated in the Ugandan Shilling, the official currency of Uganda.'),
+   synonyms('Ugandan shilling',
+         'Uganda currency'),
+   target('ugx__sys'),
+   target_label('UGX')
+);

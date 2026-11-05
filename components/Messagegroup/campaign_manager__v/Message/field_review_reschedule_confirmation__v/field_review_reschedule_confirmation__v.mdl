@@ -1,0 +1,6 @@
+Message field_review_reschedule_confirmation__v (
+   label(),
+   active(true),
+   default_value('By confirming, field users will be notified to review all emails with field review enabled, including any previously approved or rejected. Would you like to proceed?'),
+   system_managed(false)
+);

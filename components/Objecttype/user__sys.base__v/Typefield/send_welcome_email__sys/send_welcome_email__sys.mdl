@@ -1,0 +1,4 @@
+Typefield send_welcome_email__sys (
+   source('standard'),
+   required(false)
+);

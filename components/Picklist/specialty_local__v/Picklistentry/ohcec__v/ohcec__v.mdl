@@ -1,0 +1,8 @@
+Picklistentry ohcec__v (
+   value('Occupational Health'),
+   order(1093),
+   active(true),
+   controlling_entries('bw__v',
+         'my__v',
+         'sn__v')
+);

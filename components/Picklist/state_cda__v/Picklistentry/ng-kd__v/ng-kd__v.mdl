@@ -1,0 +1,6 @@
+Picklistentry ng-kd__v (
+   value('Kaduna'),
+   order(3338),
+   active(true),
+   controlling_entries('ng__v')
+);

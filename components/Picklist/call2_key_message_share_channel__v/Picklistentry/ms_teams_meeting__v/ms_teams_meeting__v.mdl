@@ -1,0 +1,5 @@
+Picklistentry ms_teams_meeting__v (
+   value('Microsoft Teams Meeting'),
+   order(3),
+   active(true)
+);

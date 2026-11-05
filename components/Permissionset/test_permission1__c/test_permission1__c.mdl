@@ -1,0 +1,6 @@
+RECREATE Permissionset test_permission1__c (
+   label('test_permission'),
+   active(true),
+   description(),
+   vault_actions.search('suggest')
+);

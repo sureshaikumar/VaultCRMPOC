@@ -1,0 +1,6 @@
+Message account_territory_model_expire_days__v (
+   label(),
+   active(true),
+   default_value('Number of days after the Account assignment Start Date that a self-assignment will be end-dated. This only applies to CRM self-assignments that are subsequently imported into Align (where source__v = crm__v).'),
+   system_managed(false)
+);

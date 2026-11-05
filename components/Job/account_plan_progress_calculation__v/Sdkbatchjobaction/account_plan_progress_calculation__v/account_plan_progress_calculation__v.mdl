@@ -1,0 +1,6 @@
+Sdkbatchjobaction account_plan_progress_calculation__v (
+   job_metadata('Jobmetadata.account_plan_progress_calculation__v'),
+   label('Account Plan Calculation Job'),
+   parameters(),
+   primary_action(true)
+);

@@ -1,0 +1,4 @@
+RECREATE Renditiontype redaction_proposal__sys (
+   label('Proposed Redaction Rendition'),
+   active(true)
+);

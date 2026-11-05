@@ -1,0 +1,9 @@
+RECREATE Picklist aln_source5__v (
+   label('Source'),
+   active(true),
+   Picklistentry(@Picklistentry/align_manual__v.mdl),
+   Picklistentry(@Picklistentry/import__v.mdl),
+   Picklistentry(@Picklistentry/footprint__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

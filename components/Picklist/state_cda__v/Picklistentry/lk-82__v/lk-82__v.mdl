@@ -1,0 +1,6 @@
+Picklistentry lk-82__v (
+   value('Monaragala'),
+   order(2590),
+   active(true),
+   controlling_entries('lk__v')
+);

@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.glossary_event__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="glossary_event_search_phrase__sys" />
+            <vault:field reference="glossary_definition_term__sys" />
+            <vault:field reference="glossary_definition_id__sys" />
+            <vault:field reference="glossary_definition_language__sys" />
+            <vault:field reference="glossary_definition_match_type__sys" />
+            <vault:field reference="document__v" />
+            <vault:field reference="glossary_event_search_type__sys" />
+            <vault:field reference="glossary_event_definition_copied__sys" />
+            <vault:field reference="performed_by_user__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry sv__v (
+   value('Swedish'),
+   order(306),
+   active(false)
+);

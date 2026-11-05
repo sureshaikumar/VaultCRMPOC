@@ -1,0 +1,10 @@
+RECREATE Picklist mc_cycle_plan_goal_edit_status__v (
+   label('Goal Edit Status'),
+   active(true),
+   Picklistentry(@Picklistentry/new__v.mdl),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

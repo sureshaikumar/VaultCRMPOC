@@ -1,0 +1,6 @@
+Picklistentry ro-sm__v (
+   value('Satu Mare'),
+   order(3750),
+   active(true),
+   controlling_entries('ro__v')
+);

@@ -1,0 +1,9 @@
+Vsmvalue bwp__v (
+   label('BWP'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Botswana.'),
+   synonyms('Botswana Pula',
+         'Pula'),
+   target('bwp__sys'),
+   target_label('BWP')
+);

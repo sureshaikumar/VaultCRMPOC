@@ -1,0 +1,5 @@
+Picklistentry custom_sharing_rule__sys (
+   value('Custom Sharing Rule'),
+   order(1),
+   active(true)
+);

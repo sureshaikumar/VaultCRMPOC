@@ -1,0 +1,6 @@
+Picklistentry rrami__v (
+   value('Radiology - Radiodiagnosis and Medical Imaging'),
+   order(1683),
+   active(true),
+   controlling_entries('cm__v')
+);

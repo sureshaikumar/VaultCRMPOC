@@ -1,0 +1,6 @@
+Message suggestion_limit__v (
+   label(),
+   active(true),
+   default_value('Showing the first 500 suggestions'),
+   system_managed(false)
+);

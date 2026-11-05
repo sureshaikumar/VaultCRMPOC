@@ -1,0 +1,4 @@
+Typefield naw_alignment__v (
+   source('standard'),
+   required(false)
+);

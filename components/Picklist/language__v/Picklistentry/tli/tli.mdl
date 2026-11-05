@@ -1,0 +1,5 @@
+Picklistentry tli (
+   value('Tlingit'),
+   order(327),
+   active(true)
+);

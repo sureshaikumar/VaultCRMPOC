@@ -1,0 +1,5 @@
+Picklistentry novo_nordisk__v (
+   value('Novo Nordisk'),
+   order(27),
+   active(true)
+);

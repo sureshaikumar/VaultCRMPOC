@@ -1,0 +1,6 @@
+Picklistentry kz-10__v (
+   value('Abay oblysy'),
+   order(2493),
+   active(true),
+   controlling_entries('kz__v')
+);

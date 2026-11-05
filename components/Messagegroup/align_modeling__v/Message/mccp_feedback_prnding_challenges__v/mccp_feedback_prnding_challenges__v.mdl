@@ -1,0 +1,6 @@
+Message mccp_feedback_prnding_challenges__v (
+   label(),
+   active(true),
+   default_value('Pending Challenges'),
+   system_managed(false)
+);

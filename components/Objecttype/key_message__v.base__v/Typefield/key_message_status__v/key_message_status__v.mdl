@@ -1,0 +1,4 @@
+Typefield key_message_status__v (
+   source('standard'),
+   required(false)
+);

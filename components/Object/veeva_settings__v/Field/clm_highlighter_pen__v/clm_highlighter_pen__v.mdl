@@ -1,0 +1,18 @@
+Field clm_highlighter_pen__v (
+   label('CLM Highlighter Pen'),
+   type('Boolean'),
+   active(true),
+   description('When checked, enables the highlighter pen in CLM.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(57),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

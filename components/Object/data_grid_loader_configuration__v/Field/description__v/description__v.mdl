@@ -1,0 +1,19 @@
+Field description__v (
+   label('Description'),
+   type('String'),
+   active(true),
+   description('This field is used to store the description of this configuration template that displays when using the Data Grid Loader.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

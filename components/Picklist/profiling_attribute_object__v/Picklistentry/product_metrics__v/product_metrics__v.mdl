@@ -1,0 +1,5 @@
+Picklistentry product_metrics__v (
+   value('Product Metrics'),
+   order(3),
+   active(true)
+);

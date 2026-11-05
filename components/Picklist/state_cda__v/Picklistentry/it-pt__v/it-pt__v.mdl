@@ -1,0 +1,6 @@
+Picklistentry it-pt__v (
+   value('Pistoia'),
+   order(2244),
+   active(true),
+   controlling_entries('it__v')
+);

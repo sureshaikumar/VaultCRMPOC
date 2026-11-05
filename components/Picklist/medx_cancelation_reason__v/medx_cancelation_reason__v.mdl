@@ -1,0 +1,12 @@
+RECREATE Picklist medx_cancelation_reason__v (
+   label('Cancelation Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/attendee_canceled__v.mdl),
+   Picklistentry(@Picklistentry/external_schedule_conflict__v.mdl),
+   Picklistentry(@Picklistentry/internal_schedule_conflict__v.mdl),
+   Picklistentry(@Picklistentry/unforeseen_circumstance__v.mdl),
+   Picklistentry(@Picklistentry/no_longer_needed__v.mdl),
+   Picklistentry(@Picklistentry/no_reason_provided__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

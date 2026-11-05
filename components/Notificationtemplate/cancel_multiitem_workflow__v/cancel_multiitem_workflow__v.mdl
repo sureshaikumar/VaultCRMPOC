@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate cancel_multiitem_workflow__v (
+   label('Multi-item Workflow Cancellation'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('Notification: Workflow has been cancelled'),
+   notification('The workflow for ${workflowTargetLink} has been cancelled.'),
+   email_body('The workflow for ${workflowTargetLink} has been cancelled.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

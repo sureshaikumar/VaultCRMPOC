@@ -1,0 +1,6 @@
+Picklistentry uy-ma__v (
+   value('Maldonado'),
+   order(4856),
+   active(true),
+   controlling_entries('uy__v')
+);

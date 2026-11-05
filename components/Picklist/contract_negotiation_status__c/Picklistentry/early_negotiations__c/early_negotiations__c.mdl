@@ -1,0 +1,5 @@
+Picklistentry early_negotiations__c (
+   value('Early Negotiations'),
+   order(0),
+   active(true)
+);

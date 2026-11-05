@@ -1,0 +1,5 @@
+Picklistentry 46780__v (
+   value('Van Wert, OH Micropolitan Statistical Area'),
+   order(180),
+   active(true)
+);

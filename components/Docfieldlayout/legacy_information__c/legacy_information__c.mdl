@@ -1,0 +1,11 @@
+RECREATE Docfieldlayout legacy_information__c (
+   label('Legacy Information'),
+   active(true),
+   icon('UNDEFINED'),
+   order(13),
+   fields('Docfield.clm_id__v',
+      'Docfield.legacy_crm_id__v',
+      'Docfield.presentation_id__v',
+      'Docfield.target_platform__v'),
+   panel('Documentpanel.doc_info_information__sys')
+);

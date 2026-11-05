@@ -1,0 +1,5 @@
+Picklistentry 30940__v (
+   value('London, KY Micropolitan Statistical Area'),
+   order(564),
+   active(true)
+);

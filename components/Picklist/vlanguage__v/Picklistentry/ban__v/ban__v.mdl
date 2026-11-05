@@ -1,0 +1,5 @@
+Picklistentry ban__v (
+   value('Balinese'),
+   order(27),
+   active(false)
+);

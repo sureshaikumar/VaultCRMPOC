@@ -1,0 +1,20 @@
+Field speaker_tab_columns__v (
+   label('Speaker Tab Columns'),
+   type('String'),
+   active(true),
+   description('Comma delimited list of Speaker fields to display on mobile device. (e.g. Status_vod__c, Title_vod__c,Credentials_vod__c,Year_to_Date_Utilization_vod__c)'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('"em_speaker_status__v,title__v,credentials__v,year_to_date_utilization__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

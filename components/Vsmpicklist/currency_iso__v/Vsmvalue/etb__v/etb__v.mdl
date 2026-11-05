@@ -1,0 +1,10 @@
+Vsmvalue etb__v (
+   label('ETB'),
+   active(true),
+   description('The Ethiopian Birr (ETB), the official currency of Ethiopia, used for transactions and financial records involving Ethiopian business operations.'),
+   synonyms('Ethiopian birr',
+         'birr',
+         'Ethiopia currency'),
+   target('etb__sys'),
+   target_label('ETB')
+);

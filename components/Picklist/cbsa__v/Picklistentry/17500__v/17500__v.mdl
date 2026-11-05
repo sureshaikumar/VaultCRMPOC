@@ -1,0 +1,5 @@
+Picklistentry 17500__v (
+   value('Clewiston, FL Micropolitan Statistical Area'),
+   order(50),
+   active(true)
+);

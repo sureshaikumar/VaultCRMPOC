@@ -1,0 +1,6 @@
+Picklistentry mv-17__v (
+   value('South Nilandhe Atoll'),
+   order(3198),
+   active(true),
+   controlling_entries('mv__v')
+);

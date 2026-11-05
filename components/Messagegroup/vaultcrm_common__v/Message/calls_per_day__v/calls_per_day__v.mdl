@@ -1,0 +1,6 @@
+Message calls_per_day__v (
+   label(),
+   active(true),
+   default_value('Calls per Day'),
+   system_managed(false)
+);

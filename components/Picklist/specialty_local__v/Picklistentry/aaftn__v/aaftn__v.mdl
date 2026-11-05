@@ -1,0 +1,6 @@
+Picklistentry aaftn__v (
+   value('Analytical and Forensic Toxicology'),
+   order(54),
+   active(true),
+   controlling_entries('ba__v')
+);

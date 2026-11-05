@@ -1,0 +1,12 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.min_spend_not_allowed__v (
+   label('Cannot add Minimum Spend Limit'),
+   active(true),
+   expression('
+        Case(event_business_rule_type__vr.api_name__v,
+            "em_cross_event_attendee_expense_cap_r__v", true,
+            false
+        ) = false || IsBlank(minimum_spend_limit__v)'),
+   description('Cannot add Minimum Spend Limit'),
+   error_message('Cannot add Minimum Spend Limit for this rule.'),
+   error_location('minimum_spend_limit__v')
+);

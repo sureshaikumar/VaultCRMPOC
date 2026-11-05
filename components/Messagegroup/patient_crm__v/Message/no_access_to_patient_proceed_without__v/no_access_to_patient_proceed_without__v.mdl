@@ -1,0 +1,6 @@
+Message no_access_to_patient_proceed_without__v (
+   label(),
+   active(true),
+   default_value('You do not have access to the patient ${patient_attributes__v.full.name__v}. Click continue to proceed and open a new case without an assigned patient.'),
+   system_managed(false)
+);

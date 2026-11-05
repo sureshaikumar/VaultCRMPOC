@@ -1,0 +1,6 @@
+Message no_event_action__v (
+   label(),
+   active(true),
+   default_value('Cannot find Event Action for the button: ${button_name}'),
+   system_managed(false)
+);

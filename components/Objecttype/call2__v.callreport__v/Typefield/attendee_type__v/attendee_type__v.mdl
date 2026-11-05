@@ -1,0 +1,9 @@
+Typefield attendee_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_attendee_type__v.contact__v',
+         'Picklist.call2_attendee_type__v.event__v',
+         'Picklist.call2_attendee_type__v.group_account__v',
+         'Picklist.call2_attendee_type__v.person_account__v',
+         'Picklist.call2_attendee_type__v.user__v')
+);

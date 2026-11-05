@@ -1,0 +1,6 @@
+Message system_user_outlook_integration_notice__v (
+   label(),
+   active(true),
+   default_value('This Vault uses a system-owned user to run the Outlook Integration. Legacy integration user setup is no longer required. This page will be deprecated in a future release. Please see ${vault_crm_help} for more details.'),
+   system_managed(false)
+);

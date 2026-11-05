@@ -1,0 +1,6 @@
+Picklistentry pe-sam__v (
+   value('San Martín'),
+   order(3490),
+   active(true),
+   controlling_entries('pe__v')
+);

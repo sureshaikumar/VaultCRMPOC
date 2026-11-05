@@ -1,0 +1,8 @@
+RECREATE Pagelayout cee_hospital_detail_page_layout__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('CEE_Hospital Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

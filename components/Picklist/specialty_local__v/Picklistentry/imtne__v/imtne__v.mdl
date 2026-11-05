@@ -1,0 +1,6 @@
+Picklistentry imtne__v (
+   value('Internal Medicine (Therapy)'),
+   order(780),
+   active(true),
+   controlling_entries('ge__v')
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist component_blocking_type__sys (
+   label('Component Blocking Type'),
+   active(true),
+   Picklistentry(@Picklistentry/block__sys.mdl),
+   Picklistentry(@Picklistentry/cascade_create__sys.mdl),
+   Picklistentry(@Picklistentry/ignore__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

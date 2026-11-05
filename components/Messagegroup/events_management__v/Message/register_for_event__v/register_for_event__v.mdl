@@ -1,0 +1,6 @@
+Message register_for_event__v (
+   label(),
+   active(true),
+   default_value('Register for ${object_label}'),
+   system_managed(false)
+);

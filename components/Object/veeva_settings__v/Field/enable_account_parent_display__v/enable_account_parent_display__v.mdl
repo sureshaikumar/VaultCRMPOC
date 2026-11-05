@@ -1,0 +1,18 @@
+Field enable_account_parent_display__v (
+   label('ENABLE_ACCOUNT_PARENT_DISPLAY'),
+   type('Boolean'),
+   active(true),
+   description('This flag, when true, will enable the display of the Account''s TSF Preferred Location, or the Account''s Primary Parent when available.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(119),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

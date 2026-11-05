@@ -1,0 +1,5 @@
+Picklistentry pnrua__v (
+   value('Practical Nurse'),
+   order(117),
+   active(true)
+);

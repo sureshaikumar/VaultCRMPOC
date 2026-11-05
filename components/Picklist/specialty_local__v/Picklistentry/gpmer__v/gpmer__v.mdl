@@ -1,0 +1,6 @@
+Picklistentry gpmer__v (
+   value('General Preventive Medicine'),
+   order(611),
+   active(true),
+   controlling_entries('th__v')
+);

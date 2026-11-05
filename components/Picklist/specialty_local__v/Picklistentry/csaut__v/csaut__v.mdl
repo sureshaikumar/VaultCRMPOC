@@ -1,0 +1,23 @@
+Picklistentry csaut__v (
+   value('Cardiovascular Surgery'),
+   order(183),
+   active(true),
+   controlling_entries('ad__v',
+         'ae__v',
+         'am__v',
+         'az__v',
+         'bh__v',
+         'cm__v',
+         'dz__v',
+         'es__v',
+         'ma__v',
+         'mk__v',
+         'mu__v',
+         'qa__v',
+         'ro__v',
+         'si__v',
+         'tn__v',
+         'tr__v',
+         'tw__v',
+         'vn__v')
+);

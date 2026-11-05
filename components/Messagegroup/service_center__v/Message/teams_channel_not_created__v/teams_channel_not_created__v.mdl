@@ -1,0 +1,6 @@
+Message teams_channel_not_created__v (
+   label(),
+   active(true),
+   default_value('Teams Channel not Created'),
+   system_managed(false)
+);

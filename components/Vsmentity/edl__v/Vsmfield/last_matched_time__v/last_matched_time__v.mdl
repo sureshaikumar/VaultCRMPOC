@@ -1,0 +1,14 @@
+Vsmfield last_matched_time__v (
+   label('Last Matched Time'),
+   active(true),
+   description('Timestamp of the most recent time this EDL was matched against documents in the vault. Use this to determine how current the EDL\''s matched document set is, or to identify EDLs that have not been matched recently.'),
+   example_values(),
+   synonyms('last match',
+         'last matched',
+         'matched on',
+         'match timestamp'),
+   target('last_matched_time__v'),
+   target_label('Last Matched Time'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

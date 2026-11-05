@@ -1,0 +1,18 @@
+Field engage_portal_status__v (
+   label('Engage Portal Status'),
+   type('Picklist'),
+   active(true),
+   description('Indicates whether this Engage Portal is currently live and accessible to end users.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.engage_portal_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

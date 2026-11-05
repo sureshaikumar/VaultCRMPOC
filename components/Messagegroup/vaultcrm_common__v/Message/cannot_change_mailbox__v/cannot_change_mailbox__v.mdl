@@ -1,0 +1,6 @@
+Message cannot_change_mailbox__v (
+   label(),
+   active(true),
+   default_value('Cannot change to another mailbox because email address does not match'),
+   system_managed(false)
+);

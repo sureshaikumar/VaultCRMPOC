@@ -1,0 +1,5 @@
+Index account_v__sys (
+   description(),
+   fields('account__v'),
+   label('Account')
+);

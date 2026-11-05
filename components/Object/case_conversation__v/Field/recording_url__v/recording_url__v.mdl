@@ -1,0 +1,20 @@
+Field recording_url__v (
+   label('Recording URL'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('URL used to access case conversation recordings.'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('LinkFormat("new_window")'),
+   control_binding()
+);

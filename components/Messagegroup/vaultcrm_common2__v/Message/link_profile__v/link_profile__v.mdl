@@ -1,0 +1,6 @@
+Message link_profile__v (
+   label(),
+   active(true),
+   default_value('Link Profile'),
+   system_managed(false)
+);

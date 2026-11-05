@@ -1,0 +1,6 @@
+Message space__v (
+   label(),
+   active(true),
+   default_value('space'),
+   system_managed(false)
+);

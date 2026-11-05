@@ -1,0 +1,8 @@
+RECREATE Objectvalidation mc_cycle_plan_product__v.max_validations__v (
+   label('Max_Validations'),
+   active(true),
+   expression('Or(IsBlank(product_activity_max__v),IsBlank(product_activity_goal__v),product_activity_max__v >= product_activity_goal__v)'),
+   description('product_activity_max__v cannot be less than product_activity_goal__v'),
+   error_message('Product Activity Max cannot be less than Product Activity Goal.'),
+   error_location('product_activity_max__v')
+);

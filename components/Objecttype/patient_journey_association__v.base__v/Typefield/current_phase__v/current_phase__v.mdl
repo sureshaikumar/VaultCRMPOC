@@ -1,0 +1,4 @@
+Typefield current_phase__v (
+   source('standard'),
+   required(false)
+);

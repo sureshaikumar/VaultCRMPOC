@@ -1,0 +1,6 @@
+Picklistentry pneeh__v (
+   value('Pediatric Neonatology'),
+   order(1412),
+   active(true),
+   controlling_entries('ee__v')
+);

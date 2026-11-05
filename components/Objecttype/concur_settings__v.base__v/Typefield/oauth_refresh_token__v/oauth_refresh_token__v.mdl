@@ -1,0 +1,4 @@
+Typefield oauth_refresh_token__v (
+   source('standard'),
+   required(false)
+);

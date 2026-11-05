@@ -1,0 +1,11 @@
+RECREATE Jobmetadata clinical_discussion_inbound_job__v (
+   label('Clinical Discussion Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('The job responsible for pulling relevant Clinical Discussions to VaultCRM.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clinicalintegration.jobs.ClinicalDiscussionInboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

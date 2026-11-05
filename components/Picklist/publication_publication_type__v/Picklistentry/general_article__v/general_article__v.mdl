@@ -1,0 +1,5 @@
+Picklistentry general_article__v (
+   value('General Article'),
+   order(4),
+   active(true)
+);

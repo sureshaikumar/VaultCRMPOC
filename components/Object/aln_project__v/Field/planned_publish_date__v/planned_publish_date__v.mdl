@@ -1,0 +1,17 @@
+Field planned_publish_date__v (
+   label('Planned Publish Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(2),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

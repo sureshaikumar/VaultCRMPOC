@@ -1,0 +1,17 @@
+Field all_active_patient_journeys_columns__v (
+   label('All Active Patient Journeys Columns'),
+   type('LongText'),
+   active(true),
+   description('Defines the columns and column order displayed to end users in the All Active Patient Journeys view. The field stores patient journey association object field API names used to render the All Active Patient Journeys grid for the applicable Console Application Settings record'),
+   required(false),
+   max_length(5000),
+   help_content('(;;) delimited Patient Journey Association field list (max 50) for All Active Patient Journeys in order. No Long & Rich Text, Attachment, Rollup, Formula. Format: patient_journey_association__v.fieldname__v;;patient_journey_association__v.fieldname__v'),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

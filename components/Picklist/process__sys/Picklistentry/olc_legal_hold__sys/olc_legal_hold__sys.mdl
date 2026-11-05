@@ -1,0 +1,5 @@
+Picklistentry olc_legal_hold__sys (
+   value('Legal Hold'),
+   order(49),
+   active(true)
+);

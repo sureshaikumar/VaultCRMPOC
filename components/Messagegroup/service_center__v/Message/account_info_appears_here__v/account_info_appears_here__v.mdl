@@ -1,0 +1,6 @@
+Message account_info_appears_here__v (
+   label(),
+   active(true),
+   default_value('Account information will appear here once an Account is selected'),
+   system_managed(false)
+);

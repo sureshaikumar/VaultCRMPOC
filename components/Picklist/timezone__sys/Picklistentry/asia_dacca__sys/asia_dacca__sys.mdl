@@ -1,0 +1,5 @@
+Picklistentry asia_dacca__sys (
+   value('(GMT+06:00) Bangladesh Time (Asia/Dhaka)'),
+   order(236),
+   active(true)
+);

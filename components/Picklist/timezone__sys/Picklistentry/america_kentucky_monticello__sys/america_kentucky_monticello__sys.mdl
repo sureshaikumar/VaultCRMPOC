@@ -1,0 +1,5 @@
+Picklistentry america_kentucky_monticello__sys (
+   value('(GMT-05:00) Eastern Standard Time (America/Kentucky/Monticello)'),
+   order(73),
+   active(true)
+);

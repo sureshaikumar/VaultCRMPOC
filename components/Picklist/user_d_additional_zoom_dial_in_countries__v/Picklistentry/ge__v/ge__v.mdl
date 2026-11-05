@@ -1,0 +1,5 @@
+Picklistentry ge__v (
+   value('GE'),
+   order(40),
+   active(true)
+);

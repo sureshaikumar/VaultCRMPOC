@@ -1,0 +1,6 @@
+Picklistentry peemd__v (
+   value('Pediatric Emergency'),
+   order(1364),
+   active(true),
+   controlling_entries('kw__v')
+);

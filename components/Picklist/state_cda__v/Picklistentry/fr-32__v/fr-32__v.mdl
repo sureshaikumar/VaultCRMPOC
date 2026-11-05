@@ -1,0 +1,6 @@
+Picklistentry fr-32__v (
+   value('Gers'),
+   order(1348),
+   active(true),
+   controlling_entries('fr__v')
+);

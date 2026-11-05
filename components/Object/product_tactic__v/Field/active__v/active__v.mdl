@@ -1,0 +1,18 @@
+Field active__v (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if this Tactic is Active.  Only Product Tactics with this field checked will be copied over during the "Apply Product Plan" process.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

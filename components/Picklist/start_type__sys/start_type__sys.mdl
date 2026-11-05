@@ -1,0 +1,8 @@
+RECREATE Picklist start_type__sys (
+   label('Start Type'),
+   active(true),
+   Picklistentry(@Picklistentry/bound__sys.mdl),
+   Picklistentry(@Picklistentry/unbound__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

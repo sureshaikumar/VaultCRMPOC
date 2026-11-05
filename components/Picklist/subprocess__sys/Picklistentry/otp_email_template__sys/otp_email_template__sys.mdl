@@ -1,0 +1,6 @@
+Picklistentry otp_email_template__sys (
+   value('Email Template'),
+   order(54),
+   active(true),
+   controlling_entries('olc_event_material__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry oncoh__v (
+   value('Oncohematology'),
+   order(1111),
+   active(true),
+   controlling_entries('ge__v')
+);

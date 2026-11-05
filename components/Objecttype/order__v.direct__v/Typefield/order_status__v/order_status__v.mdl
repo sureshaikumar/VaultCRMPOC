@@ -1,0 +1,7 @@
+Typefield order_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.order_status__v.saved__v',
+         'Picklist.order_status__v.submitted__v',
+         'Picklist.order_status__v.voided__v')
+);

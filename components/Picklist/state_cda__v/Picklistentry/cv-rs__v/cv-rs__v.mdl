@@ -1,0 +1,6 @@
+Picklistentry cv-rs__v (
+   value('Ribeira Grande de Santiago'),
+   order(796),
+   active(true),
+   controlling_entries('cv__v')
+);

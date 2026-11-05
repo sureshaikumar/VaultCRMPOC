@@ -1,0 +1,6 @@
+Picklistentry us-hi__v (
+   value('Hawaii'),
+   order(4804),
+   active(true),
+   controlling_entries('us__v')
+);

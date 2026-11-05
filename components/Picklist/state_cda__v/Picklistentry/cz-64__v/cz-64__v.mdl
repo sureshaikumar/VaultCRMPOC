@@ -1,0 +1,6 @@
+Picklistentry cz-64__v (
+   value('South Moravia'),
+   order(877),
+   active(true),
+   controlling_entries('cz__v')
+);

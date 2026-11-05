@@ -1,0 +1,6 @@
+Picklistentry am-tv__v (
+   value('Tavuš'),
+   order(77),
+   active(true),
+   controlling_entries('am__v')
+);

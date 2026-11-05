@@ -1,0 +1,6 @@
+Picklistentry ph-ceb__v (
+   value('Cebu'),
+   order(3557),
+   active(true),
+   controlling_entries('ph__v')
+);

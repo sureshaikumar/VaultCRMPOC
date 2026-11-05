@@ -1,0 +1,6 @@
+Picklistentry mw-ck__v (
+   value('Chikwawa'),
+   order(3211),
+   active(true),
+   controlling_entries('mw__v')
+);

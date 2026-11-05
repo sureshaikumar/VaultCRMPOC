@@ -1,0 +1,6 @@
+Picklistentry dm-11__v (
+   value('Saint Peter'),
+   order(939),
+   active(true),
+   controlling_entries('dm__v')
+);

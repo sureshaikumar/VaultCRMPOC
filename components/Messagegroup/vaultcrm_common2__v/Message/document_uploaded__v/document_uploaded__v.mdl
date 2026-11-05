@@ -1,0 +1,6 @@
+Message document_uploaded__v (
+   label(),
+   active(true),
+   default_value('Uploaded'),
+   system_managed(false)
+);

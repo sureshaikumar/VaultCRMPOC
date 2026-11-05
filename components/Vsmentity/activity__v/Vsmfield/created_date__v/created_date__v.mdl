@@ -1,0 +1,14 @@
+Vsmfield created_date__v (
+   label('Created Date'),
+   active(true),
+   description('The date and time when the activity record was originally created in the system. Useful for auditing, trend analysis, and filtering activities created within a specific time window.'),
+   example_values(),
+   synonyms('creation date',
+         'created on',
+         'date created',
+         'opened date'),
+   target('created_date__v'),
+   target_label('Created Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

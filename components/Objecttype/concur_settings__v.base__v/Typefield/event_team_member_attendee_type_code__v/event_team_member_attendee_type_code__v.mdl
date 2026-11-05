@@ -1,0 +1,4 @@
+Typefield event_team_member_attendee_type_code__v (
+   source('standard'),
+   required(false)
+);

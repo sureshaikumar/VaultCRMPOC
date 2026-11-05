@@ -1,0 +1,6 @@
+Picklistentry mmpac__v (
+   value('Marine Medicine Port and Coastal'),
+   order(879),
+   active(true),
+   controlling_entries('id__v')
+);

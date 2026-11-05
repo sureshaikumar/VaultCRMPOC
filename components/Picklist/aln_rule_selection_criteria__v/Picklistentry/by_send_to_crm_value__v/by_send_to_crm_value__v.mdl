@@ -1,0 +1,5 @@
+Picklistentry by_send_to_crm_value__v (
+   value('By Send to CRM Value'),
+   order(1),
+   active(true)
+);

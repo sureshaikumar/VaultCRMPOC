@@ -1,0 +1,6 @@
+Message fax_test_mode_message__v (
+   label(),
+   active(true),
+   default_value('ALERT: All outbound faxes will not be sent to the Account fax number. The final fax content can still be reviewed under the Sent Fax record. The Sent Fax record will have the Transaction ID of: ${transaction_id}.'),
+   system_managed(false)
+);

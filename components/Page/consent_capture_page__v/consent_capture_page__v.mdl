@@ -1,0 +1,14 @@
+RECREATE Page consent_capture_page__v (
+   label('Consent Capture'),
+   active(true),
+   client_distribution(),
+   default_client_code('consent_capture_page__v'),
+   description(),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.consentcapture.controls.pages.ConsentCapturePageController'),
+   url_path_name('consent-capture')
+);

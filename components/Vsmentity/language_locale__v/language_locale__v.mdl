@@ -1,0 +1,16 @@
+RECREATE Vsmentity language_locale__v (
+   label('Language Locale'),
+   active(true),
+   description('Joins Locale records to Language records, allowing multiple Locales to be associated to a given Language, supporting internationalization and localization.'),
+   synonyms('locale',
+      'language',
+      'language setting',
+      'locale setting'),
+   target('Object.language_locale__sys'),
+   target_label('Language Locale'),
+   Vsmfield(@Vsmfield/language__v.mdl),
+   Vsmfield(@Vsmfield/locale__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmrelationship(@Vsmrelationship/language__v.mdl),
+   Vsmrelationship(@Vsmrelationship/locale__v.mdl)
+);

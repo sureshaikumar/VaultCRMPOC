@@ -1,0 +1,11 @@
+RECREATE Jobmetadata async_record_trigger_cleanup_job__v (
+   label('Async Record Trigger Cleanup Job'),
+   active(true),
+   chunk_size(1),
+   description('Deletes orphaned async record change batches that have no remaining trigger tasks.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.common.asynctrigger.jobs.AsyncRecordTriggerCleanupJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

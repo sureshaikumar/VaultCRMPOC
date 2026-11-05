@@ -1,0 +1,6 @@
+Picklistentry uy-ro__v (
+   value('Rocha'),
+   order(4860),
+   active(true),
+   controlling_entries('uy__v')
+);

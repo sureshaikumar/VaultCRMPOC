@@ -1,0 +1,8 @@
+Picklistentry enatd__v (
+   value('Ear, Nose and Throat Diseases'),
+   order(466),
+   active(true),
+   controlling_entries('fi__v',
+         'il__v',
+         'se__v')
+);

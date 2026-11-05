@@ -1,0 +1,6 @@
+Message case_inbox_add_to_patient_label__v (
+   label(),
+   active(true),
+   default_value('Add to Patient'),
+   system_managed(false)
+);

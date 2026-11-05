@@ -1,0 +1,6 @@
+Message one_issue_found__v (
+   label(),
+   active(true),
+   default_value('1 Issue Found'),
+   system_managed(false)
+);

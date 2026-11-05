@@ -1,0 +1,6 @@
+Message model_lifecycle_update_successful__v (
+   label(),
+   active(true),
+   default_value('Model lifecycle update completed'),
+   system_managed(false)
+);

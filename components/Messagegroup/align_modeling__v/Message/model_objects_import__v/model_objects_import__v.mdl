@@ -1,0 +1,6 @@
+Message model_objects_import__v (
+   label(),
+   active(true),
+   default_value('Modeling Objects Import'),
+   system_managed(false)
+);

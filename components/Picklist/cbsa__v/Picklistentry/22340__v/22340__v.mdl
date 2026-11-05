@@ -1,0 +1,5 @@
+Picklistentry 22340__v (
+   value('Fitzgerald, GA Micropolitan Statistical Area'),
+   order(220),
+   active(true)
+);

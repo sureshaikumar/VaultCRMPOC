@@ -1,0 +1,8 @@
+Objectlayout mc_cycle_channel_channel_product__c (
+   label('MC Cycle Channel Channel Product'),
+   active(true),
+   pagelayouts('Pagelayout.channel_product_detail_page_layout1__c'),
+   object('Object.mc_cycle_channel__v'),
+   objecttype('Objecttype.mc_cycle_channel__v.channel_product__v'),
+   record_creation_layout('Pagelayout.channel_product_detail_page_layout1__c')
+);

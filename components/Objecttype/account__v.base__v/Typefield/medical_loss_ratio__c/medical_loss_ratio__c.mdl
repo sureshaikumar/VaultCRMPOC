@@ -1,0 +1,4 @@
+Typefield medical_loss_ratio__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist account_career_status__v (
+   label('Career Status'),
+   active(true),
+   Picklistentry(@Picklistentry/peak__v.mdl),
+   Picklistentry(@Picklistentry/emerging__v.mdl),
+   Picklistentry(@Picklistentry/retired__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

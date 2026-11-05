@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The unique name or identifier for this user role constraint record. Used to distinguish individual constraint configurations when multiple constraints exist for the same user or role.'),
+   example_values(),
+   synonyms('constraint name',
+         'record name',
+         'identifier'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

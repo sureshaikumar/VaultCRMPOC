@@ -1,0 +1,6 @@
+Picklistentry vn-28__v (
+   value('Kon Tum'),
+   order(4931),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,6 @@
+Message rule_confirm_run_align_conflict_choice__v (
+   label(),
+   active(true),
+   default_value('Select which Preview to keep'),
+   system_managed(false)
+);

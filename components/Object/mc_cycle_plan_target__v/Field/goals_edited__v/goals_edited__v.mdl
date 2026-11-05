@@ -1,0 +1,18 @@
+Field goals_edited__v (
+   label('Goals Edited'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Set by triggers. If true, then one of the goals for this target has been edited.'),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

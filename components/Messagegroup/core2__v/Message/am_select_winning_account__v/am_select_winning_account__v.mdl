@@ -1,0 +1,6 @@
+Message am_select_winning_account__v (
+   label(),
+   active(true),
+   default_value('Select Winning Account'),
+   system_managed(false)
+);

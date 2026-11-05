@@ -1,0 +1,18 @@
+Field field_review_outcome__v (
+   label('Field Review Outcome'),
+   type('Picklist'),
+   active(true),
+   description('Outcome of the review by the field team, used for the Campaign Manager Field Review feature'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(97),
+   multi_value(false),
+   picklist('Picklist.field_review_outcome__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

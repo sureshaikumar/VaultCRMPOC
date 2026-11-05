@@ -1,0 +1,6 @@
+Message last_edited__v (
+   label(),
+   active(true),
+   default_value('Last edited on ${last_modified_date}'),
+   system_managed(false)
+);

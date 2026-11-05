@@ -1,0 +1,6 @@
+Message builder__v (
+   label(),
+   active(true),
+   default_value('Builder'),
+   system_managed(false)
+);

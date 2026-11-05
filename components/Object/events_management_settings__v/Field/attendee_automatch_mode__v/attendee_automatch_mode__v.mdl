@@ -1,0 +1,23 @@
+Field attendee_automatch_mode__v (
+   label('Attendee_Automatch_Mode_vod'),
+   type('Number'),
+   active(true),
+   description('Controls the behavior of automatching attendees that need reconciliation to a system account or user record'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('1'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

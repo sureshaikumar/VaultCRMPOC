@@ -1,0 +1,6 @@
+Picklistentry ma-esm__v (
+   value('Es-Semara (EH-partial)'),
+   order(2795),
+   active(true),
+   controlling_entries('ma__v')
+);

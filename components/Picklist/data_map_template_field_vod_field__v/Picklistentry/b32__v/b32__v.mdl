@@ -1,0 +1,5 @@
+Picklistentry b32__v (
+   value('B32_vod__c'),
+   order(39),
+   active(true)
+);

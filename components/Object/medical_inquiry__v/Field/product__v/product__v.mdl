@@ -1,0 +1,18 @@
+Field product__v (
+   label('Product'),
+   type('Picklist'),
+   active(true),
+   description('The Product field represents the Product in question for the Medical Inquiry.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(43),
+   multi_value(false),
+   picklist('Picklist.medical_inquiry_product__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

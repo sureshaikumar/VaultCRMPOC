@@ -1,0 +1,5 @@
+Index source_component__sys (
+   description(),
+   fields('source_component__sys'),
+   label('Source Component')
+);

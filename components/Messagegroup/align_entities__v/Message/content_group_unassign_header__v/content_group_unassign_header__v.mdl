@@ -1,0 +1,6 @@
+Message content_group_unassign_header__v (
+   label(),
+   active(true),
+   default_value('Unassign Content Group'),
+   system_managed(false)
+);

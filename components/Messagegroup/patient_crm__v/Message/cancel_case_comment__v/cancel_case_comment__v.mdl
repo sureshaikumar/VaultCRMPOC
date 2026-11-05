@@ -1,0 +1,6 @@
+Message cancel_case_comment__v (
+   label(),
+   active(true),
+   default_value('Cancellation Reason: ${cancellation_reason}'),
+   system_managed(false)
+);

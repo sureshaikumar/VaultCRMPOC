@@ -1,0 +1,7 @@
+RECREATE Picklist email_delivery_error__v (
+   label('Email Delivery Error'),
+   active(true),
+   Picklistentry(@Picklistentry/bounced__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

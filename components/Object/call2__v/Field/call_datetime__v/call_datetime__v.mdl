@@ -1,0 +1,17 @@
+Field call_datetime__v (
+   label('Datetime'),
+   type('DateTime'),
+   active(true),
+   description('The time when the rep specified for the call unless the call was signed, in which case this is the signature time.  This field is optional for users who which to plan their calls down to a specific hour or minute.  If a datetime is specified, a correspond'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

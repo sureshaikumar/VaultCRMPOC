@@ -1,0 +1,5 @@
+Picklistentry cdhf__v (
+   value('Advanced Heart Failure'),
+   order(4),
+   active(true)
+);

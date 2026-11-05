@@ -1,0 +1,9 @@
+RECREATE Pagelink aln_footprint_model_view__v (
+   label('Model Footprint View'),
+   url('https://valign-sbx-us-east-2-prod-app.veevavault.com/entities/footprintModelDetail.xhtml?vaulturl={{Vault.domain}}&vaultid={{Vault.id}}&pageMode=VIEW&objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.aln_footprint_model__v'),
+   active(true),
+   disable_type_select(false)
+);

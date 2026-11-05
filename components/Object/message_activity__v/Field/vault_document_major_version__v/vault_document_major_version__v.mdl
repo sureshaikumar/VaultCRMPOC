@@ -1,0 +1,22 @@
+Field vault_document_major_version__v (
+   label('Document Major Version'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999999),
+   min_value(0),
+   scale(0),
+   help_content('The major version of the Vault document that was viewed or downloaded.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

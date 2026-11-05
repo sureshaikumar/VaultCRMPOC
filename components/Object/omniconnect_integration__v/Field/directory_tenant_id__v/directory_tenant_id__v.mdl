@@ -1,0 +1,19 @@
+Field directory_tenant_id__v (
+   label('Directory Id'),
+   type('String'),
+   active(true),
+   description('Stores the Microsoft Tenant Id for Microsoft Phone integrations.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

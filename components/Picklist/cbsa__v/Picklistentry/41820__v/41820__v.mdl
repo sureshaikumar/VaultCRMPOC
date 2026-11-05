@@ -1,0 +1,5 @@
+Picklistentry 41820__v (
+   value('Sanford, NC Micropolitan Statistical Area'),
+   order(392),
+   active(true)
+);

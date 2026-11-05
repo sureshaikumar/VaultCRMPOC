@@ -1,0 +1,6 @@
+Message pause__v (
+   label(),
+   active(true),
+   default_value('Pause'),
+   system_managed(false)
+);

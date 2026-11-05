@@ -1,0 +1,5 @@
+Picklistentry tso__v (
+   value('Tsonga'),
+   order(327),
+   active(false)
+);

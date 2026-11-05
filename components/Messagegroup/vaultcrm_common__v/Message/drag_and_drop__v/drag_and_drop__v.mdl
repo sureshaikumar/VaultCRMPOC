@@ -1,0 +1,6 @@
+Message drag_and_drop__v (
+   label(),
+   active(true),
+   default_value('Drag and drop files here to upload as attachments'),
+   system_managed(false)
+);

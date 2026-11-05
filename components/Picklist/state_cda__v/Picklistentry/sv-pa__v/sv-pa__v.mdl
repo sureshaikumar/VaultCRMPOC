@@ -1,0 +1,6 @@
+Picklistentry sv-pa__v (
+   value('La Paz'),
+   order(4274),
+   active(true),
+   controlling_entries('sv__v')
+);

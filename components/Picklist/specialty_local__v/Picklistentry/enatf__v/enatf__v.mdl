@@ -1,0 +1,6 @@
+Picklistentry enatf__v (
+   value('Ear, Nose and Throat Diseases and Surgery'),
+   order(467),
+   active(true),
+   controlling_entries('jo__v')
+);

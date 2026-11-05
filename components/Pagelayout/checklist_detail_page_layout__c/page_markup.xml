@@ -1,0 +1,24 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.checklist__sys.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="checklist_type__sys" />
+            <vault:field reference="respondent__sys" />
+            <vault:field reference="checklist_design__sys" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="score__sys" />
+            <vault:field reference="field_matching_enabled__sys" />
+            <vault:field reference="weightings_enabled__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

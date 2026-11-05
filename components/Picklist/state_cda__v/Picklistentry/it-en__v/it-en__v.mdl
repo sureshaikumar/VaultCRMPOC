@@ -1,0 +1,6 @@
+Picklistentry it-en__v (
+   value('Enna'),
+   order(2204),
+   active(true),
+   controlling_entries('it__v')
+);

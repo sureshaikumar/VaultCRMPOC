@@ -1,0 +1,5 @@
+Picklistentry africa_tunis__sys (
+   value('(GMT+01:00) Central European Time (Africa/Tunis)'),
+   order(151),
+   active(true)
+);

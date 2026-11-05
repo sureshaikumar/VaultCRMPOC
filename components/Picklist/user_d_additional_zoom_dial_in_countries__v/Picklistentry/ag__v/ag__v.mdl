@@ -1,0 +1,5 @@
+Picklistentry ag__v (
+   value('AG'),
+   order(1),
+   active(true)
+);

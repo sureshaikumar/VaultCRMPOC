@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="LIFECYCLE_ENTRY_CRITERIA_FIELD">
+            <expression operator="isNotBlank">
+                <expression operator="field" type="string">
+                    <value>Object.case__v.case_owner__v</value>
+                </expression>
+            </expression>
+        </action>
+    </actions>
+</rule>

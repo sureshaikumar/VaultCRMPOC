@@ -1,0 +1,6 @@
+Picklistentry az-agu__v (
+   value('Ağsu'),
+   order(143),
+   active(true),
+   controlling_entries('az__v')
+);

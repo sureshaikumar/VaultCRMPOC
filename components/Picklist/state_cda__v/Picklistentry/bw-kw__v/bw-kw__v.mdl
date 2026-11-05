@@ -1,0 +1,6 @@
+Picklistentry bw-kw__v (
+   value('Kweneng'),
+   order(538),
+   active(true),
+   controlling_entries('bw__v')
+);

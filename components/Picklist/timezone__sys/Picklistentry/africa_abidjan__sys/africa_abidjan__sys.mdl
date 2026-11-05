@@ -1,0 +1,5 @@
+Picklistentry africa_abidjan__sys (
+   value('(GMT+00:00) Greenwich Mean Time (Africa/Abidjan)'),
+   order(135),
+   active(true)
+);

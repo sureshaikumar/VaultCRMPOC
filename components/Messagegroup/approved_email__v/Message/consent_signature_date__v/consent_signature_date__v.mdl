@@ -1,0 +1,6 @@
+Message consent_signature_date__v (
+   label(),
+   active(true),
+   default_value('Consent Signature Date'),
+   system_managed(false)
+);

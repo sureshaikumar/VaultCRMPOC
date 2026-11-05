@@ -1,0 +1,4 @@
+Typefield budget_allocation_split_equal__v (
+   source('custom'),
+   required(false)
+);

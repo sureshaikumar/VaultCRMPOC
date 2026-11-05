@@ -1,0 +1,4 @@
+Typefield last_inventory_monitoring__v (
+   source('custom'),
+   required(false)
+);

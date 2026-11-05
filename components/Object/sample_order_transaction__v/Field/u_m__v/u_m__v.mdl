@@ -1,0 +1,18 @@
+Field u_m__v (
+   label('U/M'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('U/M represents the Unit of Measurement of the Sample Lot for the Sample Transaction.'),
+   list_column(false),
+   order(74),
+   multi_value(false),
+   picklist('Picklist.sample_order_transaction_u_m__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Vsmrelationship authorized_connection_user__v (
+   label('Authorized Connection User'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The Vault user authorized to use this connection. Use this to filter connections by authorized user and find more information about the authorized user.'),
+   join_object(),
+   synonyms('authorized user',
+         'permitted user',
+         'connection user',
+         'allowed user'),
+   target('authorized_connection_user__sysr'),
+   target_label('Authorized Connection User'),
+   target_object('user__sys')
+);

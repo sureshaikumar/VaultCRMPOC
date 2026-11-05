@@ -1,0 +1,6 @@
+Picklistentry fm-ksa__v (
+   value('Kosrae'),
+   order(1311),
+   active(true),
+   controlling_entries('fm__v')
+);

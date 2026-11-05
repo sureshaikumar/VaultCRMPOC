@@ -1,0 +1,6 @@
+Message unresolved_contact_information__v (
+   label(),
+   active(true),
+   default_value('Unresolved Contact Information'),
+   system_managed(false)
+);

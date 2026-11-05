@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate compare_components_success3__v (
+   label('compareComponentsSuccess'),
+   active(true),
+   description('Compare Components Job Notification success template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Vault Comparison has completed'),
+   notification('<p>Your Vault Comparison has completed </p><p>Details: </p><ul><li>Source Vault : ${sourceVaultName} (${sourceVaultId}) </li><li>Target Vault : ${targetVaultName} (${targetVaultId}) </li><li>Results Type : ${resultsType} </li><li>Details Type: ${detailsType} </li><li>Include Documents & Binder Templates: ${includeDocsAndBinderTemplates} </li><li>Include Vault Settings: ${includeVaultSettings} </li><li>Component Types: ${componentTypes} </li><li>Generate Outbound Packages: ${generateOutboundPackages} </li><li style="${outboundPackagesDisplayStyle}">Outbound Packages: ${outboundPackagesMessage} </li><li>Start Time: ${startTime} </li><li>Duration : ${duration} </li><li>Components compared: ${comparedCount} </li></ul><p><a href="${urlExport}">Download report</a> </p>'),
+   email_body('<p>Your Vault Comparison has completed </p><p>Details: </p><ul><li>Source Vault : ${sourceVaultName} (${sourceVaultId}) </li><li>Target Vault : ${targetVaultName} (${targetVaultId}) </li><li>Results Type : ${resultsType} </li><li>Details Type: ${detailsType} </li><li>Include Documents & Binder Templates: ${includeDocsAndBinderTemplates} </li><li>Include Vault Settings: ${includeVaultSettings} </li><li>Component Types: ${componentTypes} </li><li>Generate Outbound Packages: ${generateOutboundPackages} </li><li style="${outboundPackagesDisplayStyle}">Outbound Packages: ${outboundPackagesMessage} </li><li>Start Time: ${startTime} </li><li>Duration : ${duration} </li><li>Components compared: ${comparedCount} </li></ul><p><a href="${urlExport}">Download report</a> </p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

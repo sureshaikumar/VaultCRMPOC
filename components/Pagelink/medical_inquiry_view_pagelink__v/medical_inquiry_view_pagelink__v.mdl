@@ -1,0 +1,11 @@
+RECREATE Pagelink medical_inquiry_view_pagelink__v (
+   label('Medical Inquiry View'),
+   description('Redirects Medical Inquiry selection to the App View Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/view?id={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.medical_inquiry__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.medical_inquiry_page__v')
+);

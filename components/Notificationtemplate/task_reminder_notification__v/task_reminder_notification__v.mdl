@@ -1,0 +1,16 @@
+RECREATE Notificationtemplate task_reminder_notification__v (
+   label('TaskReminderNotification'),
+   active(true),
+   description('Created to support the Task Reminder Notification functionality, set up within User Task workflow steps.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Task Reminder: ${taskName}'),
+   notification('This is a reminder that the task "${taskName}" has not yet been completed for the document: "${docName}".'),
+   email_body('<p>${recipientName},</p>
+<p>${notificationMessage}</p>
+<p><b>Task Due Date:</b> ${taskDueDate}<br>
+<b>Workflow Due Date:</b> ${dueDate}</p>
+<p>Access your Vault here: <a href="${uiBaseExtUrl}">${vaultName}</a></p>'),
+   entity_type('document'),
+   notification_category('tasks__sys')
+);

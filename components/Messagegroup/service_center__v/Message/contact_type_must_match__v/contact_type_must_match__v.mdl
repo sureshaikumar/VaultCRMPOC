@@ -1,0 +1,6 @@
+Message contact_type_must_match__v (
+   label(),
+   active(true),
+   default_value('The Contact Type is set to ${contact_type}. The Case Contact must match the Contact Type in order to save the Case.'),
+   system_managed(false)
+);

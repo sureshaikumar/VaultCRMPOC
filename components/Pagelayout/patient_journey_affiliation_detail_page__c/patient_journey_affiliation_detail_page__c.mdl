@@ -1,0 +1,8 @@
+RECREATE Pagelayout patient_journey_affiliation_detail_page__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Patient Journey Affiliation Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

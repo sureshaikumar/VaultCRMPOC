@@ -1,0 +1,5 @@
+Picklistentry very_good__c (
+   value('Very Good'),
+   order(1),
+   active(true)
+);

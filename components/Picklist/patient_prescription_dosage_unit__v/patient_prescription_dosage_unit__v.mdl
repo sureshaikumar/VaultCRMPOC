@@ -1,0 +1,18 @@
+RECREATE Picklist patient_prescription_dosage_unit__v (
+   label('Patient Prescription Dosage Unit'),
+   active(true),
+   Picklistentry(@Picklistentry/mg__v.mdl),
+   Picklistentry(@Picklistentry/ug__v.mdl),
+   Picklistentry(@Picklistentry/g__v.mdl),
+   Picklistentry(@Picklistentry/mililiter__v.mdl),
+   Picklistentry(@Picklistentry/liter__v.mdl),
+   Picklistentry(@Picklistentry/tablet__v.mdl),
+   Picklistentry(@Picklistentry/capsule__v.mdl),
+   Picklistentry(@Picklistentry/lozenge__v.mdl),
+   Picklistentry(@Picklistentry/puff_inhalation__v.mdl),
+   Picklistentry(@Picklistentry/patch__v.mdl),
+   Picklistentry(@Picklistentry/drop__v.mdl),
+   Picklistentry(@Picklistentry/unit__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

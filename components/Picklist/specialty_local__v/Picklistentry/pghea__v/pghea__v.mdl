@@ -1,0 +1,6 @@
+Picklistentry pghea__v (
+   value('Pediatrics Gastro-Hepatology'),
+   order(1478),
+   active(true),
+   controlling_entries('id__v')
+);

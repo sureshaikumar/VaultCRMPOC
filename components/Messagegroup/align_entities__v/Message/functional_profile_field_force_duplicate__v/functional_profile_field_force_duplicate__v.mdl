@@ -1,0 +1,6 @@
+Message functional_profile_field_force_duplicate__v (
+   label(),
+   active(true),
+   default_value('Multiple aln_functional_profile_field_force__v records cannot share the same field_force__v and hierarchy_level__v combination.'),
+   system_managed(false)
+);

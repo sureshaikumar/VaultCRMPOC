@@ -1,0 +1,6 @@
+Picklistentry ad-03__v (
+   value('Encamp'),
+   order(1),
+   active(true),
+   controlling_entries('ad__v')
+);

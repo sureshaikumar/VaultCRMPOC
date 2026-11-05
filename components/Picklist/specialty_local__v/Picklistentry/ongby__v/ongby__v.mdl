@@ -1,0 +1,8 @@
+Picklistentry ongby__v (
+   value('Obstetrics & Gynaecology'),
+   order(1078),
+   active(true),
+   controlling_entries('in__v',
+         'nz__v',
+         'sg__v')
+);

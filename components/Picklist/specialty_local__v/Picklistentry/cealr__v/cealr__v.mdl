@@ -1,0 +1,9 @@
+Picklistentry cealr__v (
+   value('Cardiac Electrophysiology'),
+   order(149),
+   active(true),
+   controlling_entries('bh__v',
+         'eg__v',
+         'om__v',
+         'us__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate case_user_task_reassignment__v (
+   label('Case User Task Reassignment'),
+   active(true),
+   description('Notification to the previous Assigned To user that a task has been reassigned to another user.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.case_user_task__v'),
+   subject('Task Reassigned: ${Object.name__v}'),
+   notification('Your task has been reassigned to another user.  Task Reassigned: ${Object.name__v}'),
+   email_body('Your task has been reassigned to another user.  Task Reassigned: ${Object.name__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

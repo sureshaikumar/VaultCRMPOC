@@ -1,0 +1,5 @@
+Picklistentry zu__v (
+   value('Zulu'),
+   order(370),
+   active(false)
+);

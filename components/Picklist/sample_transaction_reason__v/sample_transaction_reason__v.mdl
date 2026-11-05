@@ -1,0 +1,9 @@
+RECREATE Picklist sample_transaction_reason__v (
+   label('Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/lost__v.mdl),
+   Picklistentry(@Picklistentry/stolen__v.mdl),
+   Picklistentry(@Picklistentry/destroyed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

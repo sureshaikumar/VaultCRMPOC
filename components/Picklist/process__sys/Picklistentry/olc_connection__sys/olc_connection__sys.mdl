@@ -1,0 +1,5 @@
+Picklistentry olc_connection__sys (
+   value('Connection'),
+   order(16),
+   active(true)
+);

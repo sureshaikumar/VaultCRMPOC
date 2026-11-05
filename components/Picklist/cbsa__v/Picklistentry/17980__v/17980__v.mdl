@@ -1,0 +1,5 @@
+Picklistentry 17980__v (
+   value('Columbus, GA-AL Metropolitan Statistical Area'),
+   order(95),
+   active(true)
+);

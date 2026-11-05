@@ -1,0 +1,5 @@
+Picklistentry 18260__v (
+   value('Cookeville, TN Micropolitan Statistical Area'),
+   order(187),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry az-ye__v (
+   value('Yevlax (Municipality)'),
+   order(211),
+   active(true),
+   controlling_entries('az__v')
+);

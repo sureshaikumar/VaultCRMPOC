@@ -1,0 +1,6 @@
+Picklistentry si-185__v (
+   value('Trnovska Vas'),
+   order(4158),
+   active(true),
+   controlling_entries('si__v')
+);

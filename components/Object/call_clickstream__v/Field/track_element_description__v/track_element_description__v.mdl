@@ -1,0 +1,19 @@
+Field track_element_description__v (
+   label('Track Element Description'),
+   type('String'),
+   active(true),
+   description('Description of the track element, from CLM System.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata sample_transaction_owner_reconciliation__v (
+   label('Sample Transaction Owner Field Reconciliation'),
+   active(true),
+   chunk_size(500),
+   description('Job to ensure that the Owner (ownerid__v) field is populated for Sample Transaction records. Any existing values are not modified.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.samplemanagement.jobs.SampleTransactionOwnerIdReconciliationJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

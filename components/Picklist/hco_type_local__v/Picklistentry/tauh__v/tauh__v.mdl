@@ -1,0 +1,5 @@
+Picklistentry tauh__v (
+   value('Teaching and University Hospital'),
+   order(250),
+   active(true)
+);

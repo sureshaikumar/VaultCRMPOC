@@ -1,0 +1,13 @@
+Subtab account_territories_tab__v (
+   active(true),
+   all_view_label('All Account Territories'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Account Territories'),
+   modal_create_record(true),
+   my_view_label('My Account Territories'),
+   object('account_territory__v'),
+   order(100),
+   parent('territory_management_menu__v'),
+   recent_view_label('Recent Account Territories')
+);

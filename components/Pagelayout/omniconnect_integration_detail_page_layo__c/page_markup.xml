@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.omniconnect_integration__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="display_name__v" />
+            <vault:field reference="platform__v" />
+            <vault:field reference="ui_height__v" />
+            <vault:field reference="ui_width__v" />
+            <vault:field reference="omniconnect_url__v" />
+            <vault:field reference="sso_redirect_url__v" />
+            <vault:field reference="directory_tenant_id__v" />
+            <vault:field reference="acs_connection_string__v" />
+            <vault:field reference="application_client_id__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

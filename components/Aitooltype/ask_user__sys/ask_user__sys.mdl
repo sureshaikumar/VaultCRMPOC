@@ -1,0 +1,9 @@
+RECREATE Aitooltype ask_user__sys (
+   label('Ask User'),
+   active(true),
+   admin_configurable(false),
+   configuration_code('Aitooltypeconfigurationcode.com.veeva.vault.system.ai.AskUserConfigurationToolType'),
+   configuration_layout(@configuration_layout.xml),
+   runtime_code('Aitooltyperuntimecode.com.veeva.vault.system.ai.AskUserRuntimeToolType'),
+   support_custom_action(true)
+);

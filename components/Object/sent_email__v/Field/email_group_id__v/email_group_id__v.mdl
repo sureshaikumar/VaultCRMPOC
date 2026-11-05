@@ -1,0 +1,19 @@
+Field email_group_id__v (
+   label('Email Group ID'),
+   type('String'),
+   active(true),
+   description('Unique identifier to group together Sent Email records for multiple recipients of the same composed email'),
+   required(false),
+   unique(false),
+   max_length(36),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

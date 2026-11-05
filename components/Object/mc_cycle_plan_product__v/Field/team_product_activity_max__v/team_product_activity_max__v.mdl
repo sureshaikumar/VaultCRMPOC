@@ -1,0 +1,22 @@
+Field team_product_activity_max__v (
+   label('Team Product Activity Max'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content('Maximum number of team product activities allowed toward team product attainment'),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

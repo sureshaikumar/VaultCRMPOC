@@ -1,0 +1,6 @@
+Message errors_encountered__v (
+   label(),
+   active(true),
+   default_value('Errors Encountered'),
+   system_managed(false)
+);

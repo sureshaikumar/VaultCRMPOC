@@ -1,0 +1,5 @@
+Picklistentry mgf__sys (
+   value('MGF'),
+   order(115),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield journal__v (
+   source('standard'),
+   required(false)
+);

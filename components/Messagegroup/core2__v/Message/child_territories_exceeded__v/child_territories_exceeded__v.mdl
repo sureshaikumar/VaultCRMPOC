@@ -1,0 +1,6 @@
+Message child_territories_exceeded__v (
+   label(),
+   active(true),
+   default_value('You have exceeded the maximum number (${limit_number}) of child territories for this territory.'),
+   system_managed(false)
+);

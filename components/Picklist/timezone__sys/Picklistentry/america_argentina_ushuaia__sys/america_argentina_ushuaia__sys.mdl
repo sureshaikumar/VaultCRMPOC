@@ -1,0 +1,5 @@
+Picklistentry america_argentina_ushuaia__sys (
+   value('(GMT-03:00) Argentine Time (America/Argentina/Ushuaia)'),
+   order(111),
+   active(true)
+);

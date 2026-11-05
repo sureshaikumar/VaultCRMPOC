@@ -1,0 +1,6 @@
+Message supplemental_objective__sys (
+   label(),
+   active(true),
+   default_value('Supplemental Objective'),
+   system_managed(true)
+);

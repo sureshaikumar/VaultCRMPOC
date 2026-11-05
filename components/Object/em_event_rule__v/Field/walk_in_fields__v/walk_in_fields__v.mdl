@@ -1,0 +1,19 @@
+Field walk_in_fields__v (
+   label('Walk-In Fields'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(500),
+   help_content('Used to store fields that are entered by walk-in attendees. Format is: ;FieldName1;FieldName2;...FieldNameX; Fields can be marked as "Required" on the walk-in form by adding a <R> tag after a field name. For example, ;last_name__v<R>;first_name__v<R>;'),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

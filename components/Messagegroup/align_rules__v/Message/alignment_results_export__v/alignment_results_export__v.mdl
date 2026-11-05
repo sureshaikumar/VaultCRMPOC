@@ -1,0 +1,6 @@
+Message alignment_results_export__v (
+   label(),
+   active(true),
+   default_value('Export Results'),
+   system_managed(false)
+);

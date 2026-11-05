@@ -1,0 +1,5 @@
+Picklistentry srn__v (
+   value('Sranan Tongo'),
+   order(299),
+   active(false)
+);

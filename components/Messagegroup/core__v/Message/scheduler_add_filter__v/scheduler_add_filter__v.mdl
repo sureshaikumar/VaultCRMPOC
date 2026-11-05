@@ -1,0 +1,6 @@
+Message scheduler_add_filter__v (
+   label(),
+   active(true),
+   default_value('To add a filter, select an object and field to filter on. Then, select the filter operator and value.'),
+   system_managed(false)
+);

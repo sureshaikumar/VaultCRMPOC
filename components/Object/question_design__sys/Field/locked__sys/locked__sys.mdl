@@ -1,0 +1,18 @@
+Field locked__sys (
+   label('Locked'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('This field determines whether the question is locked from being edited.'),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name('library_question__sysr'),
+   lookup_source_field('locked__sys'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

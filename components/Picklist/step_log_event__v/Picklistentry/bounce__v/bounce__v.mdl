@@ -1,0 +1,5 @@
+Picklistentry bounce__v (
+   value('Bounce'),
+   order(6),
+   active(true)
+);

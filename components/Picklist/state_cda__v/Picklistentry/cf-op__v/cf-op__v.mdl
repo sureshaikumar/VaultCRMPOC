@@ -1,0 +1,6 @@
+Picklistentry cf-op__v (
+   value('Ouham-Pendé'),
+   order(611),
+   active(true),
+   controlling_entries('cf__v')
+);

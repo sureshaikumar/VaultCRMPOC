@@ -1,0 +1,11 @@
+RECREATE Picklist speaker_evaluation_subject_knowledge__c (
+   label('Subject Knowledge'),
+   active(true),
+   Picklistentry(@Picklistentry/excellent__c.mdl),
+   Picklistentry(@Picklistentry/very_good__c.mdl),
+   Picklistentry(@Picklistentry/good__c.mdl),
+   Picklistentry(@Picklistentry/fair__c.mdl),
+   Picklistentry(@Picklistentry/poor__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

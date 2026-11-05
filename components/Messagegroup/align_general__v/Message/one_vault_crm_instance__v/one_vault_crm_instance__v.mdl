@@ -1,0 +1,6 @@
+Message one_vault_crm_instance__v (
+   label(),
+   active(true),
+   default_value('Field Mapping must have either a Vault CRM Instance or a Veeva Workday Org, but not both.'),
+   system_managed(false)
+);

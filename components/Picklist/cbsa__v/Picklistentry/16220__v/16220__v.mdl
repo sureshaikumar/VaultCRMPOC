@@ -1,0 +1,5 @@
+Picklistentry 16220__v (
+   value('Casper, WY Metropolitan Statistical Area'),
+   order(904),
+   active(true)
+);

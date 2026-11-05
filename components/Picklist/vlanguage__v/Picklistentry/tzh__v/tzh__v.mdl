@@ -1,0 +1,5 @@
+Picklistentry tzh__v (
+   value('Tzeltal'),
+   order(367),
+   active(false)
+);

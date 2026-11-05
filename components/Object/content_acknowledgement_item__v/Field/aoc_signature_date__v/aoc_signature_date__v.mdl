@@ -1,0 +1,18 @@
+Field aoc_signature_date__v (
+   label('AOC Signature Date'),
+   type('DateTime'),
+   active(true),
+   description('Signature date when the Content Acknowledgement record is signed. This field displays the value of the signature Date field from the related Content Acknowledgement record.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(true),
+   lookup_relationship_name('content_acknowledgement__vr'),
+   lookup_source_field('signature_date__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   rollup(false),
+   control_binding()
+);

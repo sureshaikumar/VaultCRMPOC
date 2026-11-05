@@ -1,0 +1,6 @@
+Picklistentry hamey__v (
+   value('Hygiene and Medical Ecology'),
+   order(726),
+   active(true),
+   controlling_entries('ba__v')
+);

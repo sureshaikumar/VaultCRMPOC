@@ -1,0 +1,6 @@
+Message no_approval_process__v (
+   label(),
+   active(true),
+   default_value('No applicable approval process was found.'),
+   system_managed(false)
+);

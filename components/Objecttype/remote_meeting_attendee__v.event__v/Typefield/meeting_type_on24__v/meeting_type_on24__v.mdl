@@ -1,0 +1,6 @@
+Typefield meeting_type_on24__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.remote_meeting_attende_meeting_type_on24__v.archived__v',
+         'Picklist.remote_meeting_attende_meeting_type_on24__v.live__v')
+);

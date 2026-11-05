@@ -1,0 +1,6 @@
+Message my_engage_portal_url__v (
+   label(),
+   active(true),
+   default_value('My Engage Portal URL:'),
+   system_managed(false)
+);

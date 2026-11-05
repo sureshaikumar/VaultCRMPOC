@@ -1,0 +1,5 @@
+Picklistentry 37100__v (
+   value('Oxnard-Thousand Oaks-Ventura, CA Metropolitan Statistical Area'),
+   order(544),
+   active(true)
+);

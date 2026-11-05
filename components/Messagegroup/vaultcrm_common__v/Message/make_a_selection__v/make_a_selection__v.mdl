@@ -1,0 +1,6 @@
+Message make_a_selection__v (
+   label(),
+   active(true),
+   default_value('Make a selection'),
+   system_managed(false)
+);

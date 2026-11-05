@@ -1,0 +1,5 @@
+Picklistentry desktop__v (
+   value('Desktop'),
+   order(0),
+   active(true)
+);

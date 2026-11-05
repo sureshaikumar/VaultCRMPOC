@@ -1,0 +1,10 @@
+Vsmvalue esp__v (
+   label('ESP'),
+   active(true),
+   description('The Spanish Peseta (ESP), the former official currency of Spain prior to the adoption of the Euro in 2002, used for historical or legacy financial records.'),
+   synonyms('Spanish peseta',
+         'peseta',
+         'Spain currency'),
+   target('esp__sys'),
+   target_label('ESP')
+);

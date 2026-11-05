@@ -1,0 +1,5 @@
+Picklistentry gbp__sys (
+   value('GBP'),
+   order(67),
+   active(true)
+);

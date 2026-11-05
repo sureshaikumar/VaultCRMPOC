@@ -1,0 +1,5 @@
+Picklistentry europe_paris__v (
+   value('Central European Time (Paris)'),
+   order(55),
+   active(true)
+);

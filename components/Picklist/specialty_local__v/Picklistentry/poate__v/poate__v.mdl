@@ -1,0 +1,6 @@
+Picklistentry poate__v (
+   value('Pediatric Orthopedics and Traumatology'),
+   order(1432),
+   active(true),
+   controlling_entries('ua__v')
+);

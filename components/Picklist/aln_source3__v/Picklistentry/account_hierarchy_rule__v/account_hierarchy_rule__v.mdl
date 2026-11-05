@@ -1,0 +1,5 @@
+Picklistentry account_hierarchy_rule__v (
+   value('Account Hierarchy Rule'),
+   order(0),
+   active(true)
+);

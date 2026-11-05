@@ -1,0 +1,9 @@
+RECREATE Picklist email_preferences__sys (
+   label('Email Preferences'),
+   active(true),
+   Picklistentry(@Picklistentry/never__sys.mdl),
+   Picklistentry(@Picklistentry/every_occurrence__sys.mdl),
+   Picklistentry(@Picklistentry/summary__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

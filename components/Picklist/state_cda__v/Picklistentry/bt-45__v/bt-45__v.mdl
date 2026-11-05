@@ -1,0 +1,6 @@
+Picklistentry bt-45__v (
+   value('Samdrup Jongkha'),
+   order(527),
+   active(true),
+   controlling_entries('bt__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry vn-44__v (
+   value('An Giang'),
+   order(4945),
+   active(true),
+   controlling_entries('vn__v')
+);

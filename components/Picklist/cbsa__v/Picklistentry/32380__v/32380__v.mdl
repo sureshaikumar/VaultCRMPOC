@@ -1,0 +1,5 @@
+Picklistentry 32380__v (
+   value('Mason City, IA Micropolitan Statistical Area'),
+   order(737),
+   active(true)
+);

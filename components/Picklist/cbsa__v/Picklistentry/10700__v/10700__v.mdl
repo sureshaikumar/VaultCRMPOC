@@ -1,0 +1,5 @@
+Picklistentry 10700__v (
+   value('Albertville, AL Micropolitan Statistical Area'),
+   order(533),
+   active(true)
+);

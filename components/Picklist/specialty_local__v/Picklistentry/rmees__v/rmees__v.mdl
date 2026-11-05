@@ -1,0 +1,12 @@
+Picklistentry rmees__v (
+   value('Respiratory Medicine'),
+   order(1741),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v',
+         'mu__v',
+         'my__v',
+         'ng__v',
+         'nz__v',
+         'sg__v')
+);

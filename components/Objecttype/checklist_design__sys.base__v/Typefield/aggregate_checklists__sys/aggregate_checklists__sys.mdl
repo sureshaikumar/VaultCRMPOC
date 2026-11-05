@@ -1,0 +1,4 @@
+Typefield aggregate_checklists__sys (
+   source('standard'),
+   required(false)
+);

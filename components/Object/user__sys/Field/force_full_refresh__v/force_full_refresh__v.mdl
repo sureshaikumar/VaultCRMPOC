@@ -1,0 +1,18 @@
+Field force_full_refresh__v (
+   label('Force Full Refresh'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If checked forces a refresh on the tablet.'),
+   list_column(false),
+   order(75),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

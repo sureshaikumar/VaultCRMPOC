@@ -1,0 +1,5 @@
+Picklistentry ki__v (
+   value('KI'),
+   order(117),
+   active(true)
+);

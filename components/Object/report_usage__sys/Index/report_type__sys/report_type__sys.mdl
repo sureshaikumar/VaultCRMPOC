@@ -1,0 +1,5 @@
+Index report_type__sys (
+   description(),
+   fields('report_type__sys'),
+   label('Report Type')
+);

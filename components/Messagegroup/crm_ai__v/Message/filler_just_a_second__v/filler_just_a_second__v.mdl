@@ -1,0 +1,6 @@
+Message filler_just_a_second__v (
+   label(),
+   active(true),
+   default_value('Just a second...'),
+   system_managed(false)
+);

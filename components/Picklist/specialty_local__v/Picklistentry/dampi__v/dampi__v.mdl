@@ -1,0 +1,6 @@
+Picklistentry dampi__v (
+   value('Diagnostic and Molecular Pathology'),
+   order(429),
+   active(true),
+   controlling_entries('ca__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry az-smi__v (
+   value('Şamaxı'),
+   order(198),
+   active(true),
+   controlling_entries('az__v')
+);

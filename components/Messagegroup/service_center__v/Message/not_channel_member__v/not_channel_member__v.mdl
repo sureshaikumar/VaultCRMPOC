@@ -1,0 +1,6 @@
+Message not_channel_member__v (
+   label(),
+   active(true),
+   default_value('You are not a member of this channel. Join channel to collaborate on this case.'),
+   system_managed(false)
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist em_attendee_online_registration_status__v (
+   label('Online Registration Status'),
+   active(true),
+   Picklistentry(@Picklistentry/needs_reconciliation__v.mdl),
+   Picklistentry(@Picklistentry/reconciled_to_existing_account__v.mdl),
+   Picklistentry(@Picklistentry/reconciled_to_existing_user__v.mdl),
+   Picklistentry(@Picklistentry/reconciled_to_new_account__v.mdl),
+   Picklistentry(@Picklistentry/dismissed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

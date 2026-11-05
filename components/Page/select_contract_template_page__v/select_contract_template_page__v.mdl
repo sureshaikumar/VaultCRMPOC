@@ -1,0 +1,14 @@
+RECREATE Page select_contract_template_page__v (
+   label('Select Contract Template'),
+   active(true),
+   client_distribution(),
+   default_client_code('select_contract_template_page__v'),
+   description('Select contract template to create agreement from'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.contractsmanagement.controls.page.SelectContractTemplatePageController'),
+   url_path_name('select-contract-template')
+);

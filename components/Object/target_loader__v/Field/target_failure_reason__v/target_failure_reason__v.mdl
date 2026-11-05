@@ -1,0 +1,18 @@
+Field target_failure_reason__v (
+   label('Failure Reason'),
+   type('Picklist'),
+   active(true),
+   description('Description of why processing failed; blank when successful.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.target_failure_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

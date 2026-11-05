@@ -1,0 +1,5 @@
+Picklistentry check_in_cadence_updated__v (
+   value('Check-In Cadence Updated'),
+   order(10),
+   active(true)
+);

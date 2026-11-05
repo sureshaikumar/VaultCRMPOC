@@ -1,0 +1,6 @@
+Picklistentry om-za__v (
+   value('Az̧ Z̧āhirah'),
+   order(3452),
+   active(true),
+   controlling_entries('om__v')
+);

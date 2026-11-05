@@ -1,0 +1,6 @@
+Picklistentry si-186__v (
+   value('Trzin'),
+   order(4159),
+   active(true),
+   controlling_entries('si__v')
+);

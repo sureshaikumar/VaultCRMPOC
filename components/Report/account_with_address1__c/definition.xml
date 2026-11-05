@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.do_not_call__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.account_type__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="address__v___account__v.name__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="INNER" leftValue="InnerJoin.account__v" rightValue="address__v___account__v" labelLanguage="en" type="INNER" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="account__v.do_not_call__v" rightValue="yes__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="IN" leftValue="address__v___account__v.object_type__v" rightValue="Company Maintained;;;Rep Maintained" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="account__v.specialty_1__v" rightValue="oncology__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="account__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

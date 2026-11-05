@@ -1,0 +1,6 @@
+Message duplicate_in_upsert__v (
+   label(),
+   active(true),
+   default_value('Upsert contains duplicate overlapping assignments where ${account_name} is assigned to ${territory_name}'),
+   system_managed(false)
+);

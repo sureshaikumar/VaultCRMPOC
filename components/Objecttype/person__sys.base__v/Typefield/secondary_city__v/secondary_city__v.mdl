@@ -1,0 +1,4 @@
+Typefield secondary_city__v (
+   source('standard'),
+   required(false)
+);

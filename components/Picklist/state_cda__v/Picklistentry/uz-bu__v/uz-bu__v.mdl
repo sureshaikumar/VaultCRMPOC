@@ -1,0 +1,6 @@
+Picklistentry uz-bu__v (
+   value('Buxoro'),
+   order(4868),
+   active(true),
+   controlling_entries('uz__v')
+);

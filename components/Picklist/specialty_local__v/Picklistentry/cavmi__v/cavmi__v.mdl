@@ -1,0 +1,6 @@
+Picklistentry cavmi__v (
+   value('Cardiology and Vascular Medicine Intensive Care and Emergency'),
+   order(158),
+   active(true),
+   controlling_entries('id__v')
+);

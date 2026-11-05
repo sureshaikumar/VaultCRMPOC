@@ -1,0 +1,6 @@
+Message concur_export_all__v (
+   label(),
+   active(true),
+   default_value('Export All'),
+   system_managed(false)
+);

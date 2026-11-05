@@ -1,0 +1,6 @@
+Picklistentry hacin__v (
+   value('Histopathology and Cytopathology'),
+   order(712),
+   active(true),
+   controlling_entries('kw__v')
+);

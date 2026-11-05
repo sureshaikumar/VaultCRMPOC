@@ -1,0 +1,5 @@
+Picklistentry 32700__v (
+   value('McPherson, KS Micropolitan Statistical Area'),
+   order(780),
+   active(true)
+);

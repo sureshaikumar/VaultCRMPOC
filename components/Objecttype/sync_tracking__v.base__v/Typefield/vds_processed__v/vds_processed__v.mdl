@@ -1,0 +1,4 @@
+Typefield vds_processed__v (
+   source('standard'),
+   required(false)
+);

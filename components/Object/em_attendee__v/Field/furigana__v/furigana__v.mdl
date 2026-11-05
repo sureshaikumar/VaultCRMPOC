@@ -1,0 +1,19 @@
+Field furigana__v (
+   label('Furigana'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Furigana for Japanese name. If the attendee is an Account, this data is copied from the Furigana field on the account.'),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,21 @@
+Field vl_link__v (
+   label('Veeva Link'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Displays ''Profile'' as a hyperlink to the Veeva Link Profile of the Account using the value of VL URL, or displays ''No Profile'' in case VL URL is blank.'),
+   list_column(false),
+   order(133),
+   formula('If(IsBlank(vl_url__v),"No Profile", vl_url__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

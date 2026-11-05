@@ -1,0 +1,6 @@
+Picklistentry otp_account__sys (
+   value('Account'),
+   order(0),
+   active(true),
+   controlling_entries('olc_case__sys')
+);

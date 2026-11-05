@@ -1,0 +1,5 @@
+Picklistentry ck__v (
+   value('CK'),
+   order(44),
+   active(true)
+);

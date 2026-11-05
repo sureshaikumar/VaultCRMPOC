@@ -1,0 +1,7 @@
+RECREATE Picklist indexed_permissions__sys (
+   label('Indexed Permissions'),
+   active(true),
+   Picklistentry(@Picklistentry/allow_as_delegate__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

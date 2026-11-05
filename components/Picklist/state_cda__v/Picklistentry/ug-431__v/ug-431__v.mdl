@@ -1,0 +1,6 @@
+Picklistentry ug-431__v (
+   value('Rukiga'),
+   order(4773),
+   active(true),
+   controlling_entries('ug__v')
+);

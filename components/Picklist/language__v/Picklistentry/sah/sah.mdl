@@ -1,0 +1,5 @@
+Picklistentry sah (
+   value('Yakut'),
+   order(349),
+   active(true)
+);

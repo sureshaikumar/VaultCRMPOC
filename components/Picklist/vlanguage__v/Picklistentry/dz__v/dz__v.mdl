@@ -1,0 +1,5 @@
+Picklistentry dz__v (
+   value('Dzongkha'),
+   order(82),
+   active(false)
+);

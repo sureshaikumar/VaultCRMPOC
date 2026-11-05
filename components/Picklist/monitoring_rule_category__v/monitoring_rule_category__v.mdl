@@ -1,0 +1,11 @@
+RECREATE Picklist monitoring_rule_category__v (
+   label('Category'),
+   active(true),
+   Picklistentry(@Picklistentry/offensive__v.mdl),
+   Picklistentry(@Picklistentry/off_label__v.mdl),
+   Picklistentry(@Picklistentry/false_claims__v.mdl),
+   Picklistentry(@Picklistentry/kickbacks__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

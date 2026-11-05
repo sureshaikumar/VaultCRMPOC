@@ -1,0 +1,5 @@
+Picklistentry 38020__v (
+   value('Phoenix Lake-Cedar Ridge, CA Micropolitan Statistical Area'),
+   order(685),
+   active(true)
+);

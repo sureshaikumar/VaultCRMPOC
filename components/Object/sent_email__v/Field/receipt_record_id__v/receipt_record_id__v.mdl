@@ -1,0 +1,19 @@
+Field receipt_record_id__v (
+   label('Receipt Record Id'),
+   type('String'),
+   active(true),
+   description('SFDC ID of the record, or MedInq.Group_Identifier_vod__c if more than one MI'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

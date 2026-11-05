@@ -1,0 +1,6 @@
+Message generating_printable_rendition__v (
+   label(),
+   active(true),
+   default_value('Generating a printable rendition. This may take several seconds.'),
+   system_managed(false)
+);

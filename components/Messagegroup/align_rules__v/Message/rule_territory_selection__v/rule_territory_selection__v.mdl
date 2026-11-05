@@ -1,0 +1,6 @@
+Message rule_territory_selection__v (
+   label(),
+   active(true),
+   default_value('Select the scope of territories'),
+   system_managed(false)
+);

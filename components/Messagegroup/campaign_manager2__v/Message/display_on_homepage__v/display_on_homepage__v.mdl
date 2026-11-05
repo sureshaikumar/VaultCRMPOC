@@ -1,0 +1,6 @@
+Message display_on_homepage__v (
+   label(),
+   active(true),
+   default_value('Display on Homepage:'),
+   system_managed(false)
+);

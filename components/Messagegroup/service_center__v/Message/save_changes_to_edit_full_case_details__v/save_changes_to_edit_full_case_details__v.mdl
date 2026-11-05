@@ -1,0 +1,6 @@
+Message save_changes_to_edit_full_case_details__v (
+   label(),
+   active(true),
+   default_value('Save your changes to edit the full Case Details.'),
+   system_managed(false)
+);

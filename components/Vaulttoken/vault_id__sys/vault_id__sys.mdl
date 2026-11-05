@@ -1,0 +1,8 @@
+RECREATE Vaulttoken vault_id__sys (
+   label('Vault ID'),
+   active(true),
+   clone_behavior('clear__sys'),
+   system_managed(false),
+   type('number__sys'),
+   value('217416')
+);

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="objectLifecycleEntryAction.all.relatedRecordStateChange">
+            <relationshipField>Object.consent_line__v.consent_type__v</relationshipField>
+            <targetLifecycle>Objectlifecycle.consent_line_lifecycle__v.active_state__v</targetLifecycle>
+            <direction>INBOUND</direction>
+        </action>
+    </actions>
+</rule>

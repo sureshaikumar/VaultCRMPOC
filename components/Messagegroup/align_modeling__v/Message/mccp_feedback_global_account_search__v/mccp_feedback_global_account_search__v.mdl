@@ -1,0 +1,6 @@
+Message mccp_feedback_global_account_search__v (
+   label(),
+   active(true),
+   default_value('Global Account Search'),
+   system_managed(false)
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist account_accountsource__v (
+   label('Account Source'),
+   active(true),
+   Picklistentry(@Picklistentry/web__v.mdl),
+   Picklistentry(@Picklistentry/phone_inquiry__v.mdl),
+   Picklistentry(@Picklistentry/partner_referral__v.mdl),
+   Picklistentry(@Picklistentry/purchased_list__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,22 @@
+Field ui_height__v (
+   label('Embedded UI Height'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(800),
+   min_value(200),
+   scale(0),
+   help_content('Set to the desired height of the embedded Omnichannel UI.'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

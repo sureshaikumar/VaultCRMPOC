@@ -1,0 +1,20 @@
+Field approved_email_vault_endpoints__v (
+   label('Approved Email Vault Endpoints'),
+   type('String'),
+   active(true),
+   description('This is a delimited list of Vault endpoints to be used by the Approved Email process to pull documents into the Approved Documents object. Requires that a SFDC user be created and registered within the Vault domain security profile. The query string value'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('"APPROVED_EMAIL_VAULT_ENDPOINTS;;ApprovedEmail"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

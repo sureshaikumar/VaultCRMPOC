@@ -1,0 +1,5 @@
+Picklistentry severity_low__v (
+   value('Low'),
+   order(0),
+   active(true)
+);

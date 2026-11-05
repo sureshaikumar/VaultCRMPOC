@@ -1,0 +1,14 @@
+RECREATE Page cycle_plan_target_page__v (
+   label('Cycle Plan Target'),
+   active(true),
+   client_distribution(),
+   default_client_code('cycle_plan_target_page__v'),
+   description('Custom app page for creating and editing targets from the Cycle Plan detail page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.cycleplan.controls.page.CyclePlanTargetPageController'),
+   url_path_name('cycle-plan-target')
+);

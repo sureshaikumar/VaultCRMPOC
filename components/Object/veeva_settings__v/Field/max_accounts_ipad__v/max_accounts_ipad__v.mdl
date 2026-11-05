@@ -1,0 +1,23 @@
+Field max_accounts_ipad__v (
+   label('Max Accounts iPad'),
+   type('Number'),
+   active(true),
+   description('Maximum number of Accounts allowed for download to the VMobile iPad application.  Maximum value is 15000.'),
+   required(false),
+   unique(false),
+   max_value(999999),
+   min_value(-999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(206),
+   default_value('15000'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message active_and_upcoming__v (
+   label(),
+   active(true),
+   default_value('Active and Upcoming'),
+   system_managed(false)
+);

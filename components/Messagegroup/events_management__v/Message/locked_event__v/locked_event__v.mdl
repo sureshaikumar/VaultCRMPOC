@@ -1,0 +1,6 @@
+Message locked_event__v (
+   label(),
+   active(true),
+   default_value('Event is Locked'),
+   system_managed(false)
+);

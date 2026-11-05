@@ -1,0 +1,6 @@
+Message country_filter_no_vault_crm_instance__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Instance field is not specified.'),
+   system_managed(false)
+);

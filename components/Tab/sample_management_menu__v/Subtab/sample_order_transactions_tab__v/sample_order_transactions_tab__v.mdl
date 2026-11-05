@@ -1,0 +1,13 @@
+Subtab sample_order_transactions_tab__v (
+   active(true),
+   all_view_label('All Sample Order Transactions'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Sample Order Transactions'),
+   modal_create_record(true),
+   my_view_label('My Sample Order Transactions'),
+   object('sample_order_transaction__v'),
+   order(300),
+   parent('sample_management_menu__v'),
+   recent_view_label('Recent Sample Order Transactions')
+);

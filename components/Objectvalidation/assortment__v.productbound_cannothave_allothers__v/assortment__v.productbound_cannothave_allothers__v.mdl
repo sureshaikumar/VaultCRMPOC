@@ -1,0 +1,13 @@
+RECREATE Objectvalidation assortment__v.productbound_cannothave_allothers__v (
+   label('ProductBound_CannotHave_AllOthers'),
+   active(true),
+   expression('not(
+            and(
+                product_bound__v,
+                all_others__v
+            )
+        )'),
+   description('A Product Bound Assortment cannot have the All Others section displayed'),
+   error_message('A Product Bound Assortment cannot have the All Others section displayed'),
+   error_location('all_others__v')
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata em_speaker_upcoming_costs_job__v (
+   label('Event Management Em Speaker Upcoming Costs Job'),
+   active(true),
+   chunk_size(1),
+   description('This job is used to calculate upcoming costs for em speaker asynchronously.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.EventsManagementEmSpeakerUpcomingCostsJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

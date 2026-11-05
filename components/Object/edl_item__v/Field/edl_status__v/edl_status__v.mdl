@@ -1,0 +1,19 @@
+Field edl_status__v (
+   label('EDL Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(20),
+   multi_value(false),
+   picklist('Picklist.default_status__v'),
+   no_copy(false),
+   lookup_relationship_name('edl__vr'),
+   lookup_source_field('status__v'),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

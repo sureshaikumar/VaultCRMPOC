@@ -1,0 +1,5 @@
+Picklistentry automatic_from_agentic_entry__v (
+   value('Automatic from Agentic Entry'),
+   order(0),
+   active(true)
+);

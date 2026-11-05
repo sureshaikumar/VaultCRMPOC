@@ -1,0 +1,6 @@
+Message saved_zoom_settings__v (
+   label(),
+   active(true),
+   default_value('Saved Zoom Settings'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry tw-hsz__v (
+   value('Hsinchu City'),
+   order(4567),
+   active(true),
+   controlling_entries('tw__v')
+);

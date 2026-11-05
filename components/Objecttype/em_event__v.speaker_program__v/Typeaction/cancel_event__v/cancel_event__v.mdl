@@ -1,0 +1,3 @@
+Typeaction cancel_event__v (
+   action('em_event__v.cancel_event__v')
+);

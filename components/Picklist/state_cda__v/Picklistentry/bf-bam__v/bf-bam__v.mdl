@@ -1,0 +1,6 @@
+Picklistentry bf-bam__v (
+   value('Bam'),
+   order(329),
+   active(true),
+   controlling_entries('bf__v')
+);

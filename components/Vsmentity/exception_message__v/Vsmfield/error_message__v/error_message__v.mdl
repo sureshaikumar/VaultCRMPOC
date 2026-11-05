@@ -1,0 +1,14 @@
+Vsmfield error_message__v (
+   label('Error Message'),
+   active(true),
+   description('The human-readable error message generated when an exception occurs during integration processing. Use this field to diagnose what went wrong during a failed integration run or message processing event.'),
+   example_values(),
+   synonyms('error text',
+         'error detail',
+         'failure message',
+         'exception text'),
+   target('error_message__sys'),
+   target_label('Error Message'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

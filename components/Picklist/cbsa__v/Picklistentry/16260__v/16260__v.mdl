@@ -1,0 +1,5 @@
+Picklistentry 16260__v (
+   value('Cedar City, UT Micropolitan Statistical Area'),
+   order(902),
+   active(true)
+);

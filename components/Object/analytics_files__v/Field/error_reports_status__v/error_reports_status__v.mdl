@@ -1,0 +1,18 @@
+Field error_reports_status__v (
+   label('Error Reports Status'),
+   type('Boolean'),
+   active(true),
+   description('Display "true" or "false" to indicate whether there is any error when running Error Reports'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

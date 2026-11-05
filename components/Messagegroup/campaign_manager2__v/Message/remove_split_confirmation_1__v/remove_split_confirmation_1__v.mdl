@@ -1,0 +1,6 @@
+Message remove_split_confirmation_1__v (
+   label(),
+   active(true),
+   default_value('By removing this split, any details entered for this split will be removed. Would you like to remove this split?'),
+   system_managed(false)
+);

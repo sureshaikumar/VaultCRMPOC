@@ -1,0 +1,18 @@
+Field override_lock__v (
+   label('Override Lock'),
+   type('Boolean'),
+   active(true),
+   description('Helper field for data loads.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(22),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

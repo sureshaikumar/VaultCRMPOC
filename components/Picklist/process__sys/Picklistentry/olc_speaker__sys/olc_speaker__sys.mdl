@@ -1,0 +1,5 @@
+Picklistentry olc_speaker__sys (
+   value('Speaker'),
+   order(74),
+   active(true)
+);

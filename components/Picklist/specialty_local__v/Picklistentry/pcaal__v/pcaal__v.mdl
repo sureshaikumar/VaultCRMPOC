@@ -1,0 +1,7 @@
+Picklistentry pcaal__v (
+   value('Palliative Care'),
+   order(1280),
+   active(true),
+   controlling_entries('jo__v',
+         'lv__v')
+);

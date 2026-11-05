@@ -1,0 +1,6 @@
+Picklistentry lt-34__v (
+   value('Pasvalys'),
+   order(2652),
+   active(true),
+   controlling_entries('lt__v')
+);

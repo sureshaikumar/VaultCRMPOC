@@ -1,0 +1,19 @@
+Field oauth_token__v (
+   label('OAuth Access Token'),
+   type('String'),
+   active(true),
+   description('Storage of the OAuth Token from Concur'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

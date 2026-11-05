@@ -1,0 +1,13 @@
+Vsmfield vault_user__v (
+   label('User'),
+   active(true),
+   description('Reference to the associated Vault user account for this person. Links the person record to the system user object, enabling access control and permission management. IMPORTANT: This is the system user linkage, not just contact information.'),
+   example_values(),
+   synonyms('user account',
+         'linked user',
+         'Vault account'),
+   target('vault_user__sys'),
+   target_label('User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

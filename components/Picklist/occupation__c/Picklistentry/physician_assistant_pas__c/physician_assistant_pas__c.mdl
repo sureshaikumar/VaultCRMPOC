@@ -1,0 +1,5 @@
+Picklistentry physician_assistant_pas__c (
+   value('Physician Assistant (PAs)'),
+   order(15),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield due_date__v (
+   source('standard'),
+   required(true)
+);

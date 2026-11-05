@@ -1,0 +1,6 @@
+Message number_of_targets_updated_partial__v (
+   label(),
+   active(true),
+   default_value('Targets: ${added_count} added, ${removed_count} removed, ${unchanged_count} unchanged, ${failed_count} failed'),
+   system_managed(false)
+);

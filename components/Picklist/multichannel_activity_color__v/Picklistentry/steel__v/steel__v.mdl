@@ -1,0 +1,5 @@
+Picklistentry steel__v (
+   value('Steel'),
+   order(11),
+   active(true)
+);

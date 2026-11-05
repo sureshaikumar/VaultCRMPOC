@@ -1,0 +1,6 @@
+Picklistentry it-pg__v (
+   value('Perugia'),
+   order(2239),
+   active(true),
+   controlling_entries('it__v')
+);

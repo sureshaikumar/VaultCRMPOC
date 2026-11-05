@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate multiitem_task_due_date_updated__v (
+   label('Multi-item Task Due Date Updated'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('Due Date for task "${taskName}" changed to "${taskDueDate}"'),
+   notification('The Workflow task "${taskName}" due date for "${workflowTargetLink}" has been changed to "${taskDueDate}"'),
+   email_body('The Workflow task "${taskName}" due date for "${workflowTargetLink}" has been changed to "${taskDueDate}"'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Message email_activity_details__v (
+   label(),
+   active(true),
+   default_value('Email Activity Details'),
+   system_managed(false)
+);

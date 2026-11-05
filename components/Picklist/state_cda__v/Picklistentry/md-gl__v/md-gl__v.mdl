@@ -1,0 +1,6 @@
+Picklistentry md-gl__v (
+   value('Glodeni'),
+   order(2889),
+   active(true),
+   controlling_entries('md__v')
+);

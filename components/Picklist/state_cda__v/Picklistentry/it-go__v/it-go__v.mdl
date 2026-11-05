@@ -1,0 +1,6 @@
+Picklistentry it-go__v (
+   value('Gorizia'),
+   order(2212),
+   active(true),
+   controlling_entries('it__v')
+);

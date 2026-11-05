@@ -1,0 +1,18 @@
+Field analytics_payer_top_products__v (
+   label('Analytics Payer Top Products'),
+   type('Boolean'),
+   active(true),
+   description('This setting retains a users selection of the Top Products checkbox in VInsights.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

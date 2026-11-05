@@ -1,0 +1,5 @@
+Picklistentry no__v (
+   value('Norway'),
+   order(167),
+   active(true)
+);

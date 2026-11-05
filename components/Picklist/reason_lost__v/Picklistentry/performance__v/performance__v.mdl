@@ -1,0 +1,5 @@
+Picklistentry performance__v (
+   value('Performance'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The system-generated or user-defined name identifying this User Role Setup record. Used as the primary label for the record in lists and lookups.'),
+   example_values(),
+   synonyms('title',
+         'record name',
+         'setup name'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

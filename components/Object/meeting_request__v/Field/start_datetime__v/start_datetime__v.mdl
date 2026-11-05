@@ -1,0 +1,17 @@
+Field start_datetime__v (
+   label('Start Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Start Date/Time of the Meeting Request.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

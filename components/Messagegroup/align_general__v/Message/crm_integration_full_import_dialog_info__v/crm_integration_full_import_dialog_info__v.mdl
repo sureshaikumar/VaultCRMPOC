@@ -1,0 +1,6 @@
+Message crm_integration_full_import_dialog_info__v (
+   label(),
+   active(true),
+   default_value('Full imports can be used if errors were logged during a previous import. Unlike a regular import which only imports data modified since the last import, a full import will attempt to re-import all data, regardless of last modified date.'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Objectlifecyclestage negotiation_review__v (
+   label('Negotiation/Review'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.negotiation_review_state__v'),
+   order(4)
+);

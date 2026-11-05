@@ -1,0 +1,6 @@
+Picklistentry tv-nkl__v (
+   value('Nukulaelae'),
+   order(4558),
+   active(true),
+   controlling_entries('tv__v')
+);

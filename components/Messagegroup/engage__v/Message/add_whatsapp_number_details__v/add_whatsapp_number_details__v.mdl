@@ -1,0 +1,6 @@
+Message add_whatsapp_number_details__v (
+   label(),
+   active(true),
+   default_value('Add WhatsApp number, including country code.'),
+   system_managed(false)
+);

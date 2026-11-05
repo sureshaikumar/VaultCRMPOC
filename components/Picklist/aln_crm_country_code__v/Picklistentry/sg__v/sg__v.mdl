@@ -1,0 +1,5 @@
+Picklistentry sg__v (
+   value('Singapore'),
+   order(198),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field ship_dea__v (
+   label('Ship DEA #'),
+   type('String'),
+   active(true),
+   description('Stores the DEA # of the practitioner that requested the BRC product shipment when the product shipped is a controlled substance.'),
+   required(false),
+   unique(false),
+   max_length(9),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

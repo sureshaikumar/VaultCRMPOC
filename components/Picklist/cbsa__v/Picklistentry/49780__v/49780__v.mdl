@@ -1,0 +1,5 @@
+Picklistentry 49780__v (
+   value('Zanesville, OH Micropolitan Statistical Area'),
+   order(759),
+   active(true)
+);

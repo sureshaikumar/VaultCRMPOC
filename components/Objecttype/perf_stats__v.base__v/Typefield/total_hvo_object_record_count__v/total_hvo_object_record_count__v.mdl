@@ -1,0 +1,4 @@
+Typefield total_hvo_object_record_count__v (
+   source('standard'),
+   required(false)
+);

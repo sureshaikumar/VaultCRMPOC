@@ -1,0 +1,6 @@
+Message rerun_territory_rules_for_territory__v (
+   label(),
+   active(true),
+   default_value('Recalculate territory sharing for all territories'),
+   system_managed(false)
+);

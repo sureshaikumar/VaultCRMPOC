@@ -1,0 +1,19 @@
+Field transaction_id__v (
+   label('Transaction Id'),
+   type('String'),
+   active(true),
+   description('Unique identifier for the fax transaction'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

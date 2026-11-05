@@ -1,0 +1,6 @@
+Picklistentry pk-is__v (
+   value('Islamabad'),
+   order(3617),
+   active(true),
+   controlling_entries('pk__v')
+);

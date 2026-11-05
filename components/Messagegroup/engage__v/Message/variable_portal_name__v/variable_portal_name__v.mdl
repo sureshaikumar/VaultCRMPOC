@@ -1,0 +1,6 @@
+Message variable_portal_name__v (
+   label(),
+   active(true),
+   default_value('${text} (actual display name varies based on user language)'),
+   system_managed(false)
+);

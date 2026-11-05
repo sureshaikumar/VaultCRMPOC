@@ -1,0 +1,6 @@
+Message public__v (
+   label(),
+   active(true),
+   default_value('Public'),
+   system_managed(false)
+);

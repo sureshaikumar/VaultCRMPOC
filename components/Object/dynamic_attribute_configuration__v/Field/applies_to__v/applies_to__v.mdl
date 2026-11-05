@@ -1,0 +1,17 @@
+Field applies_to__v (
+   label('Applies To'),
+   type('LongText'),
+   active(true),
+   description('Dynamic Attributes will be applicable and displayed for Accounts based on the Account Record Types listed in the "Applies To" field.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

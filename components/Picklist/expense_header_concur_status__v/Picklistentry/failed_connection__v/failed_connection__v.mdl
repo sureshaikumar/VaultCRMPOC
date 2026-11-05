@@ -1,0 +1,5 @@
+Picklistentry failed_connection__v (
+   value('Failed Connection'),
+   order(3),
+   active(true)
+);

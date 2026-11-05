@@ -1,0 +1,6 @@
+Message hierarchy_explorer_unavailable__v (
+   label(),
+   active(true),
+   default_value('Hierarchy Explorer Unavailable'),
+   system_managed(false)
+);

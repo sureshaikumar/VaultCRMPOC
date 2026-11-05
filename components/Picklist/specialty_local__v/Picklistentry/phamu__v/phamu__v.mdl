@@ -1,0 +1,6 @@
+Picklistentry phamu__v (
+   value('Public Health and Management'),
+   order(1637),
+   active(true),
+   controlling_entries('ro__v')
+);

@@ -1,0 +1,6 @@
+Message product_specialty_success_toast_title__v (
+   label(),
+   active(true),
+   default_value('Product Specialties Generated'),
+   system_managed(false)
+);

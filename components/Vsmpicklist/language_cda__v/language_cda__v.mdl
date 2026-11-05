@@ -1,0 +1,14 @@
+RECREATE Vsmpicklist language_cda__v (
+   label('Language'),
+   active(true),
+   description('Identifies a standard list of Languages that can be referenced by different objects or documents in Vault. Provides a standard list across all Vaults.'),
+   synonyms('language',
+      'document language',
+      'content language',
+      'CDA language',
+      'language code',
+      'spoken language',
+      'text language'),
+   target('Picklist.language_cda__v'),
+   target_label('Language')
+);

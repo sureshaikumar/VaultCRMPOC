@@ -1,0 +1,6 @@
+Picklistentry gn-b__v (
+   value('Boké'),
+   order(1715),
+   active(true),
+   controlling_entries('gn__v')
+);

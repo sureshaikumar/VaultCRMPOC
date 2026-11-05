@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.application_role__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="api_name__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="enforce_role_constraint__sys" />
+            <vault:field reference="permission_set__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

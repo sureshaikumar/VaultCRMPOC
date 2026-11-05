@@ -1,0 +1,18 @@
+Field batch_update__v (
+   label('Batch Update'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name('edl__vr'),
+   lookup_source_field('batch_update__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

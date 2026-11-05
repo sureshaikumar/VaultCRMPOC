@@ -1,0 +1,6 @@
+Picklistentry cm-en__v (
+   value('Far North'),
+   order(685),
+   active(true),
+   controlling_entries('cm__v')
+);

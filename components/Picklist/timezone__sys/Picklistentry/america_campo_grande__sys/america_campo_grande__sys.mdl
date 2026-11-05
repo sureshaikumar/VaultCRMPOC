@@ -1,0 +1,5 @@
+Picklistentry america_campo_grande__sys (
+   value('(GMT-04:00) Amazon Time (America/Campo_Grande)'),
+   order(81),
+   active(true)
+);

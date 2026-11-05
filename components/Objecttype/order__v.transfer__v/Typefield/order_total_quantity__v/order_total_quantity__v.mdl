@@ -1,0 +1,4 @@
+Typefield order_total_quantity__v (
+   source('custom'),
+   required(false)
+);

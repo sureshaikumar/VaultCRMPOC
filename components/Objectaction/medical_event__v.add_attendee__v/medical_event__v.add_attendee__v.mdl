@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_event__v.add_attendee__v (
+   label('Add Attendee'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalevents.actions.AddAttendeeAction'),
+   active(true),
+   available_all_states(true)
+);

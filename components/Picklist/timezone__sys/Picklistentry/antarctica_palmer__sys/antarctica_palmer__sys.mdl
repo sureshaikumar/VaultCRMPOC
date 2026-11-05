@@ -1,0 +1,5 @@
+Picklistentry antarctica_palmer__sys (
+   value('(GMT-03:00) Argentine Time (Antarctica/Palmer)'),
+   order(112),
+   active(true)
+);

@@ -1,0 +1,10 @@
+Vsmvalue xaf__v (
+   label('XAF'),
+   active(true),
+   description('Applies when transactions are denominated in the Central African CFA Franc, the common currency used by six Central African Economic and Monetary Community member states.'),
+   synonyms('CFA franc BEAC',
+         'Central African CFA franc',
+         'Central Africa currency'),
+   target('xaf__sys'),
+   target_label('XAF')
+);

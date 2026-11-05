@@ -1,0 +1,5 @@
+Picklistentry 49020__v (
+   value('Winchester, VA-WV Metropolitan Statistical Area'),
+   order(560),
+   active(true)
+);

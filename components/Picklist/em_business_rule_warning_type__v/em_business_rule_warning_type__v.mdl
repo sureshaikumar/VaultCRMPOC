@@ -1,0 +1,8 @@
+RECREATE Picklist em_business_rule_warning_type__v (
+   label('Warning Type'),
+   active(true),
+   Picklistentry(@Picklistentry/hard_warning__v.mdl),
+   Picklistentry(@Picklistentry/soft_warning__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

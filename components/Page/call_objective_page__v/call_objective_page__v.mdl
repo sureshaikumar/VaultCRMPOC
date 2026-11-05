@@ -1,0 +1,14 @@
+RECREATE Page call_objective_page__v (
+   label('Call Objective'),
+   active(true),
+   client_distribution(),
+   default_client_code('call_objective_page__v'),
+   description('App Page for bulk creating call objective records'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.accountplan.controls.pages.CallObjectivePageController'),
+   url_path_name('call-objective')
+);

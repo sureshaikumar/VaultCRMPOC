@@ -1,0 +1,6 @@
+Message rule_feedback_cloning_unlinking__v (
+   label(),
+   active(true),
+   default_value('Unlinking'),
+   system_managed(false)
+);

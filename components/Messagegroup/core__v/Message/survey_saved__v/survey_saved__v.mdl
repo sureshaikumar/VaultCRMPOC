@@ -1,0 +1,6 @@
+Message survey_saved__v (
+   label(),
+   active(true),
+   default_value('Survey Target Saved'),
+   system_managed(false)
+);

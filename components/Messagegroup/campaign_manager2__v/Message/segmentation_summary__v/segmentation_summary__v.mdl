@@ -1,0 +1,6 @@
+Message segmentation_summary__v (
+   label(),
+   active(true),
+   default_value('Segmentation Summary'),
+   system_managed(false)
+);

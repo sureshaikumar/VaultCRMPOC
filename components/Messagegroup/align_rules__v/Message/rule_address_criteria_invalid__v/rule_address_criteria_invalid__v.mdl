@@ -1,0 +1,6 @@
+Message rule_address_criteria_invalid__v (
+   label(),
+   active(true),
+   default_value('The current Address Logic is not restrictive enough: Addresses must match at least one geography in order to be included in the rollup.'),
+   system_managed(false)
+);

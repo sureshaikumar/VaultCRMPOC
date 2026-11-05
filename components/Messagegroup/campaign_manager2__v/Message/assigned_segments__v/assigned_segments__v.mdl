@@ -1,0 +1,6 @@
+Message assigned_segments__v (
+   label(),
+   active(true),
+   default_value('Assigned Segments'),
+   system_managed(false)
+);

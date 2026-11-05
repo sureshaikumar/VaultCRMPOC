@@ -1,0 +1,6 @@
+Picklistentry bf-oud__v (
+   value('Oudalan'),
+   order(357),
+   active(true),
+   controlling_entries('bf__v')
+);

@@ -1,0 +1,18 @@
+Field clm_select_account_preview_mode__v (
+   label('CLM_Select_Account_Preview_Mode'),
+   type('Boolean'),
+   active(true),
+   description('When checked, enables ability to create a call after selecting an account while previewing media in the Media Player.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(60),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,18 @@
+Field request_receipt__v (
+   label('Request Receipt'),
+   type('Boolean'),
+   active(true),
+   description('Mark true to if a receipt was requested for a disbursement.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(105),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

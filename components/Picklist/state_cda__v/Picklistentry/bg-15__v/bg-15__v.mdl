@@ -1,0 +1,6 @@
+Picklistentry bg-15__v (
+   value('Pleven'),
+   order(387),
+   active(true),
+   controlling_entries('bg__v')
+);

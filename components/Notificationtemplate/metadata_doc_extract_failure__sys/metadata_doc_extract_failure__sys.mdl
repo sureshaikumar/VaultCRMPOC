@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate metadata_doc_extract_failure__sys (
+   label('Document Extraction Failure'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.trained_model__sys'),
+   subject('Document Extract for the Trained Model ''${Object.name__v}'' has failed.'),
+   notification('<p>Document Extract for the Trained Model ''${Object.name__v}'' has failed for the following reason:</p><p>${Custom.mlFailureReason}</p>'),
+   email_body('<p>${notificationMessage}</p> <p>Please <a href="${uiBaseExtUrl}">login to Vault</a> to view all of your tasks and notifications.</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

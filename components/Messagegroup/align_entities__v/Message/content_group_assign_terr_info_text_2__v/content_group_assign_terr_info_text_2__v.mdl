@@ -1,0 +1,6 @@
+Message content_group_assign_terr_info_text_2__v (
+   label(),
+   active(true),
+   default_value('Optionally, populate the Field Force for each row to assign the Content Group to roster members associated with this territory and its descendants in the selected Field Force.'),
+   system_managed(false)
+);

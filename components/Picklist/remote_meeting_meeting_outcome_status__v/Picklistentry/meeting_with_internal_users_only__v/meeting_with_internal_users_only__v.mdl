@@ -1,0 +1,5 @@
+Picklistentry meeting_with_internal_users_only__v (
+   value('Meeting With Internal Users Only'),
+   order(6),
+   active(true)
+);

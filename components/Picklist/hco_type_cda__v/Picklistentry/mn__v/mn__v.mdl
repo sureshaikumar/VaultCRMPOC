@@ -1,0 +1,5 @@
+Picklistentry mn__v (
+   value('Manufacturer'),
+   order(17),
+   active(true)
+);

@@ -1,0 +1,22 @@
+Field estimated_attendance__v (
+   label('Estimated Attendance'),
+   type('Number'),
+   active(true),
+   description('Estimate of the number of people who will attend an event. Used for planning purposes.'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sandbox_snapshot_upgrade_started__sys (
+   label('Snapshot Upgrade Started'),
+   active(true),
+   description('Notification template notifying user that the sandbox snapshot upgrade has started and the snapshot is temporarily unavailable.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Snapshot Upgrade Started.'),
+   notification('<p>Your sandbox Snapshot: ${snapshotName} for Sandbox: ${sandboxName} is being upgraded. The Snapshot will be unavailable for the time it is being upgraded.</p>'),
+   email_body('<p>Your sandbox Snapshot: ${snapshotName} for Sandbox: ${sandboxName} is being upgraded. The Snapshot will be unavailable for the time it is being upgraded.</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

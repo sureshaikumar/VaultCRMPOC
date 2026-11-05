@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+    <permission name="change_owner__v" roles="account_plan_document_creator__v,owner__v" />
+    <permission name="download_source__v" roles="account_plan_document_creator__v,editor__v,owner__v,viewer__v" />
+    <permission name="edit_relationships__v" roles="account_plan_document_creator__v,editor__v,owner__v" />
+    <permission name="edit_sharing_settings__v" roles="account_plan_document_creator__v,editor__v,owner__v" />
+    <permission name="multi_channel_actions__v" roles="editor__v,owner__v" />
+    <permission name="version__v" roles="account_plan_document_creator__v,editor__v,owner__v" />
+    <permission name="view_document_content__v" roles="account_plan_document_creator__v,editor__v,owner__v,viewer__v" />
+    <permission name="view_documents__v" roles="account_plan_document_creator__v,editor__v,owner__v,viewer__v" />
+</permissions>

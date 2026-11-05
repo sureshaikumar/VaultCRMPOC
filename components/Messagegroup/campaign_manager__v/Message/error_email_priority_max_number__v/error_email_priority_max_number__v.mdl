@@ -1,0 +1,6 @@
+Message error_email_priority_max_number__v (
+   label(),
+   active(true),
+   default_value('Exceeds max value of 5 Email Address fields'),
+   system_managed(false)
+);

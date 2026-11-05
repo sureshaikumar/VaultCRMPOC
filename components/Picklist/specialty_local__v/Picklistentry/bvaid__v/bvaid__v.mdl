@@ -1,0 +1,6 @@
+Picklistentry bvaid__v (
+   value('Bacteriology, Virology'),
+   order(112),
+   active(true),
+   controlling_entries('cm__v')
+);

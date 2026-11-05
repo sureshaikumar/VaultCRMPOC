@@ -1,0 +1,10 @@
+RECREATE Jobmetadata reassign_target_job__v (
+   label('Reassign Target Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that reassigns all Business Event Targets under a Business Event'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.eppvpi.jobs.ReassignTargetJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

@@ -1,0 +1,4 @@
+Typefield crm_layout_profile__v (
+   source('standard'),
+   required(false)
+);

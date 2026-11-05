@@ -1,0 +1,10 @@
+Vsmvalue xdr__v (
+   label('XDR'),
+   active(true),
+   description('Used for transactions or valuations denominated in Special Drawing Rights, an international reserve asset created by the IMF and based on a basket of major world currencies.'),
+   synonyms('Special Drawing Rights',
+         'IMF reserve asset',
+         'SDR'),
+   target('xdr__sys'),
+   target_label('XDR')
+);

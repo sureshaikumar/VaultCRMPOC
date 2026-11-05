@@ -1,0 +1,12 @@
+RECREATE Objectvalidation em_business_rule__v.percent_threshold_not_negative__v (
+   label('Percent Threshold is negative.'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_actual_versus_estimate_expense_thr__v", true,
+            false
+        ) = false || percent_threshold__v >= 0'),
+   description('Percent Threshold may not be negative.'),
+   error_message('Percent Threshold may not be negative.'),
+   error_location('percent_threshold__v')
+);

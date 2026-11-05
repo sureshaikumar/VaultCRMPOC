@@ -1,0 +1,11 @@
+RECREATE Picklist em_speaker_status__v (
+   label('Speaker Status'),
+   active(true),
+   Picklistentry(@Picklistentry/nominated__v.mdl),
+   Picklistentry(@Picklistentry/eligible__v.mdl),
+   Picklistentry(@Picklistentry/expired__v.mdl),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   Picklistentry(@Picklistentry/rejected__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

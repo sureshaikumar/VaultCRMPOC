@@ -1,0 +1,6 @@
+Message assignment_by_inheritance_not_editable__v (
+   label(),
+   active(true),
+   default_value('Territory Product created by a Field Force Product may not be manually altered.'),
+   system_managed(false)
+);

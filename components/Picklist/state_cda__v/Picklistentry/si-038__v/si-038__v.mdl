@@ -1,0 +1,6 @@
+Picklistentry si-038__v (
+   value('Ilirska Bistrica'),
+   order(4012),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-102__v (
+   value('Kampala'),
+   order(4644),
+   active(true),
+   controlling_entries('ug__v')
+);

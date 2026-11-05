@@ -1,0 +1,5 @@
+Picklistentry cmn__v (
+   value('Mandarin'),
+   order(210),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry cho (
+   value('Choctaw'),
+   order(155),
+   active(true)
+);

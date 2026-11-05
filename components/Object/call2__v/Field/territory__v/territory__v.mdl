@@ -1,0 +1,19 @@
+Field territory__v (
+   label('Territory'),
+   type('String'),
+   active(true),
+   description('The name of the territory for the call.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(162),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

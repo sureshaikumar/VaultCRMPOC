@@ -1,0 +1,6 @@
+Picklistentry empec__v (
+   value('Emergency Medicine Prehospital Emergency Care'),
+   order(484),
+   active(true),
+   controlling_entries('id__v')
+);

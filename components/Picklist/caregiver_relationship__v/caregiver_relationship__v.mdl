@@ -1,0 +1,13 @@
+RECREATE Picklist caregiver_relationship__v (
+   label('Caregiver Relationship'),
+   active(true),
+   Picklistentry(@Picklistentry/child__v.mdl),
+   Picklistentry(@Picklistentry/grandchild__v.mdl),
+   Picklistentry(@Picklistentry/legal_guardian__v.mdl),
+   Picklistentry(@Picklistentry/parent__v.mdl),
+   Picklistentry(@Picklistentry/power_of_attorney__v.mdl),
+   Picklistentry(@Picklistentry/sibling__v.mdl),
+   Picklistentry(@Picklistentry/spouse__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

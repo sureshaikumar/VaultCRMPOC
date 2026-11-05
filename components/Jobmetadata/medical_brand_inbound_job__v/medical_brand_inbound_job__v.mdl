@@ -1,0 +1,10 @@
+RECREATE Jobmetadata medical_brand_inbound_job__v (
+   label('Medical to CRM brand inbound job'),
+   active(true),
+   chunk_size(500),
+   description('A job that queries the status of the Brand from Medical App Family Vaults.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.productintegration.jobs.medical.MedicalBrandInboundJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

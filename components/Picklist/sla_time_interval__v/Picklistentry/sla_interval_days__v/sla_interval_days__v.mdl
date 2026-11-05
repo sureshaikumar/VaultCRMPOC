@@ -1,0 +1,5 @@
+Picklistentry sla_interval_days__v (
+   value('Days'),
+   order(3),
+   active(true)
+);

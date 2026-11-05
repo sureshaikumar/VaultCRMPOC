@@ -1,0 +1,6 @@
+Message territory_new_child__v (
+   label(),
+   active(true),
+   default_value('New Child Territory'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry inbound_and_outbound__v (
+   value('Inbound and Outbound'),
+   order(2),
+   active(true)
+);

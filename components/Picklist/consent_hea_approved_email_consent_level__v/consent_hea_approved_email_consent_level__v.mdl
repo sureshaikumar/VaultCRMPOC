@@ -1,0 +1,8 @@
+RECREATE Picklist consent_hea_approved_email_consent_level__v (
+   label('Approved Email Consent Level'),
+   active(true),
+   Picklistentry(@Picklistentry/product__v.mdl),
+   Picklistentry(@Picklistentry/content_type__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

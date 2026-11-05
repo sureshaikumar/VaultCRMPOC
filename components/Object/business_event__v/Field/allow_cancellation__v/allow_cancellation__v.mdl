@@ -1,0 +1,17 @@
+Field allow_cancellation__v (
+   label('Allow Cancellation'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether users are allowed to cancel Business Event Targets for this Business Event'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

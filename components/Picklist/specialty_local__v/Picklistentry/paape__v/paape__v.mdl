@@ -1,0 +1,7 @@
+Picklistentry paape__v (
+   value('Pediatric and Adolescent Psychology'),
+   order(1327),
+   active(true),
+   controlling_entries('ch__v',
+         'li__v')
+);

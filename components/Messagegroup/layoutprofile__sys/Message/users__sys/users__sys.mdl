@@ -1,0 +1,6 @@
+Message users__sys (
+   label(),
+   active(true),
+   default_value('Users'),
+   system_managed(false)
+);

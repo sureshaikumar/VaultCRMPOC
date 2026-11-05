@@ -1,0 +1,8 @@
+RECREATE Pagelayout daily_agent_action_activity_detail_page__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Daily Agent Action Activity Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

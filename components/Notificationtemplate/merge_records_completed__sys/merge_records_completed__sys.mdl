@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate merge_records_completed__sys (
+   label('Merge Records Completed'),
+   active(true),
+   description('Notification sent when merge record job has completed'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Merge records job has completed'),
+   notification('<p>Your merge records job has completed.</p> <p>Details:</p><ul><li>Object: ${Metadata.label} (${objectName})</li><li>Status: ${mergeRecordStatus}</li><li>Start Time: ${mergeRecordStartTime}</li><li>Duration: ${mergeRecordDuration}</li><li>Job ID: ${mergeRecordJobId}</li></ul><p>Merge Results:</p>${mergeRecordResult}'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

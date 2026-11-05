@@ -1,0 +1,6 @@
+Message align_postgres_data_last_new__v (
+   label(),
+   active(true),
+   default_value('Last New Sync'),
+   system_managed(false)
+);

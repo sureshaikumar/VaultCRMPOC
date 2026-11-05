@@ -1,0 +1,10 @@
+Vsmvalue failed__v (
+   label('Failed'),
+   active(true),
+   description('Indicates that the user was unable to successfully register for VeevaID.'),
+   synonyms('creation error',
+         'user setup failed',
+         'unsuccessful'),
+   target('failed__v'),
+   target_label('Failed')
+);

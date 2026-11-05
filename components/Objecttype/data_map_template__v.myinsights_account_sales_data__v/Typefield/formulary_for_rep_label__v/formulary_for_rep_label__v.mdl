@@ -1,0 +1,7 @@
+Typefield formulary_for_rep_label__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_map_templat_formulary_for_rep_label__v.first_column_label__v',
+         'Picklist.data_map_templat_formulary_for_rep_label__v.none__v',
+         'Picklist.data_map_templat_formulary_for_rep_label__v.second_column_label__v')
+);

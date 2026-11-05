@@ -1,0 +1,5 @@
+Picklistentry 11060__v (
+   value('Altus, OK Micropolitan Statistical Area'),
+   order(568),
+   active(true)
+);

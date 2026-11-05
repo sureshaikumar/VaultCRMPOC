@@ -1,0 +1,6 @@
+Picklistentry ug-103__v (
+   value('Kiboga'),
+   order(4645),
+   active(true),
+   controlling_entries('ug__v')
+);

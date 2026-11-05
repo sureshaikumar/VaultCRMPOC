@@ -1,0 +1,6 @@
+Message no_update_veeva_agent_rules__v (
+   label(),
+   active(true),
+   default_value('You can only update a few fields on Veeva owned Agent Rules. See Vault CRM Help documentation to learn more'),
+   system_managed(false)
+);

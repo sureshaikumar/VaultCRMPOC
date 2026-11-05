@@ -1,0 +1,5 @@
+Picklistentry pacific_noumea__sys (
+   value('(GMT+11:00) New Caledonia Time (Pacific/Noumea)'),
+   order(296),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_denver__sys (
+   value('(GMT-07:00) Mountain Standard Time (America/Denver)'),
+   order(22),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield rejection_email_template__v (
+   source('standard'),
+   required(false)
+);

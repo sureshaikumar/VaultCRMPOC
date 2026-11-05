@@ -1,0 +1,18 @@
+Field system_reconciled_rule__v (
+   label('System Reconciled Rule'),
+   type('Picklist'),
+   active(true),
+   description('When the system reconciles a remote meeting attendee with an account or user on the call report, this field identifies the matching rule. If the field is empty, the system was not able to reconcile the record.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.system_reconciled_rule__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

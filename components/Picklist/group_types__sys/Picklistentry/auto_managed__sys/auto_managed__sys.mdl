@@ -1,0 +1,5 @@
+Picklistentry auto_managed__sys (
+   value('Auto Managed'),
+   order(2),
+   active(true)
+);

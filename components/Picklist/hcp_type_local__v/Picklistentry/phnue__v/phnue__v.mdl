@@ -1,0 +1,5 @@
+Picklistentry phnue__v (
+   value('Public Health Nurse'),
+   order(127),
+   active(true)
+);

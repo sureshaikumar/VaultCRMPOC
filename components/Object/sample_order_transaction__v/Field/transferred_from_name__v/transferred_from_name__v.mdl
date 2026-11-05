@@ -1,0 +1,19 @@
+Field transferred_from_name__v (
+   label('Transferred From Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Transferred From Name is the textual representation of the User that a Transfer Sample Order Transaction is being performed for.'),
+   list_column(false),
+   order(72),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

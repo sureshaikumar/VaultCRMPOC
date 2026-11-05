@@ -1,0 +1,6 @@
+Message switch_from_zoom_meeting__v (
+   label(),
+   active(true),
+   default_value('This will remove your scheduled Zoom Meeting.'),
+   system_managed(false)
+);

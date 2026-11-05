@@ -1,0 +1,6 @@
+Picklistentry mh-alk__v (
+   value('Ailuk'),
+   order(2938),
+   active(true),
+   controlling_entries('mh__v')
+);

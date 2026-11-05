@@ -1,0 +1,19 @@
+Field comment_box__v (
+   label('Comment Box'),
+   type('String'),
+   active(true),
+   description('Field used to indicate that the comment box behavior when clicking an Event Action. See documentation for details.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

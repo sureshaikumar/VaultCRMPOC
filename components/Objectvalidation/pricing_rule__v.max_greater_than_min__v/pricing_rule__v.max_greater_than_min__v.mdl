@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.max_greater_than_min__v (
+   label('Max Greater than Min'),
+   active(true),
+   expression('Not(
+     If(
+         IsBlank(quantity_max__v),
+         false,
+         quantity_min__v > quantity_max__v
+    )
+)'),
+   description('The Maximum Quantity must be greater than the Minimum Quantity'),
+   error_message('The Maximum Quantity must be greater than the Minimum Quantity'),
+   error_location('quantity_max__v')
+);

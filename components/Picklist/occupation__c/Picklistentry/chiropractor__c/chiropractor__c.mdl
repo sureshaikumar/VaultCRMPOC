@@ -1,0 +1,5 @@
+Picklistentry chiropractor__c (
+   value('Chiropractor'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry em_attendee__v (
+   value('EM_Attendee'),
+   order(0),
+   active(true)
+);

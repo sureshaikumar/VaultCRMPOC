@@ -1,0 +1,6 @@
+Picklistentry iccac__v (
+   value('Intensive Care Cardiology and Cardioreanimation'),
+   order(768),
+   active(true),
+   controlling_entries('am__v')
+);

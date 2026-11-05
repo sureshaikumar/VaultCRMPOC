@@ -1,0 +1,9 @@
+Picklistentry enten__v (
+   value('ENT'),
+   order(515),
+   active(true),
+   controlling_entries('bh__v',
+         'bw__v',
+         'in__v',
+         'vn__v')
+);

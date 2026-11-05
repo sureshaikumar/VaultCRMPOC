@@ -1,0 +1,6 @@
+Picklistentry co-boy__v (
+   value('Boyacá'),
+   order(732),
+   active(true),
+   controlling_entries('co__v')
+);

@@ -1,0 +1,6 @@
+Message crm_integration_connection_status_header__v (
+   label(),
+   active(true),
+   default_value('Connection Status'),
+   system_managed(false)
+);

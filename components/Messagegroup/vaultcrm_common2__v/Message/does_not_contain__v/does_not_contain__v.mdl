@@ -1,0 +1,6 @@
+Message does_not_contain__v (
+   label(),
+   active(true),
+   default_value('Does not contain'),
+   system_managed(false)
+);

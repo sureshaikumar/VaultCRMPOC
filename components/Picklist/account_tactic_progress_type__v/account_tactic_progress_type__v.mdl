@@ -1,0 +1,8 @@
+RECREATE Picklist account_tactic_progress_type__v (
+   label('Progress Type'),
+   active(true),
+   Picklistentry(@Picklistentry/manual__v.mdl),
+   Picklistentry(@Picklistentry/call_objective__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

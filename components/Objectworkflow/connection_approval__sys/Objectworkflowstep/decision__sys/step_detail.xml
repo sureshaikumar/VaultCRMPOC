@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1543531730095">
+      <expression operator="function" qualifier="veeva.ecm.flowclient.interfaces.web.contract.decision.userTask">
+        <expression operator="method" qualifier="veeva.ecm.flowclient.interfaces.web.contract.decision.userTask" type="string">
+          <value>all_labels</value>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP1</value>
+          <expression operator="argument" type="string">
+            <value>Objectworkflowstep.task__sys</value>
+          </expression>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP2</value>
+          <expression operator="argument" type="string">
+            <value>Approve Connection</value>
+          </expression>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP3</value>
+          <expression operator="argument" type="string">
+            <value>en</value>
+          </expression>
+        </expression>
+      </expression>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.change_to_approved_state__sys</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+    <vwf:rule key="nt-1-1543531746424">
+      <expression operator="function" qualifier="veeva.ecm.flowclient.interfaces.web.contract.decision.userTask">
+        <expression operator="method" qualifier="veeva.ecm.flowclient.interfaces.web.contract.decision.userTask" type="string">
+          <value>all_labels</value>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP1</value>
+          <expression operator="argument" type="string">
+            <value>Objectworkflowstep.task__sys</value>
+          </expression>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP2</value>
+          <expression operator="argument" type="string">
+            <value>Reject Connection</value>
+          </expression>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP3</value>
+          <expression operator="argument" type="string">
+            <value>en</value>
+          </expression>
+        </expression>
+      </expression>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.change_to_rejected_state__sys</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+    <vwf:rule>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.end__sys</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

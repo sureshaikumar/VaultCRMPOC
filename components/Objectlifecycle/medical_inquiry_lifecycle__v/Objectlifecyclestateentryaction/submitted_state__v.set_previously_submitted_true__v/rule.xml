@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <expression operator="eq" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="boolean">
+            <value>Object.medical_inquiry__v.previously_submitted__v</value>
+        </expression>
+        <expression operator="value" type="boolean">
+            <value>false</value>
+        </expression>
+    </expression>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.medical_inquiry__v.previously_submitted__v</targetField>
+            <expression>true</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

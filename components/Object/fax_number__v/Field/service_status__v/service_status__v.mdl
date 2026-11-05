@@ -1,0 +1,19 @@
+Field service_status__v (
+   label('Service Status'),
+   type('Picklist'),
+   active(true),
+   description('Indicates whether the fax number is currently available for use.
+        This status is managed by the Fax Authorization Tool and cannot be edited directly in Vault.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.service_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

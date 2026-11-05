@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate auth_microsoft_teams__v (
+   label('Auth Microsoft Teams'),
+   active(true),
+   description('This notification is sent if the Microsoft authentication associated to the owner of a Collaboration Space Configuration record is not valid.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.collaboration_space_configuration__v'),
+   subject('Action Required: Please Authenticate with Microsoft'),
+   notification('A valid Microsoft connection is required for ${Custom.collaboration_space_config_name}. Please log in to authenticate or update your credentials in Vault CRM: <a href=${Custom.link_to_record}>Link to Record</a>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

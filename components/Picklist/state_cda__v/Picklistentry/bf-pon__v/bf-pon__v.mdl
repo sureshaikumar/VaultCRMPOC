@@ -1,0 +1,6 @@
+Picklistentry bf-pon__v (
+   value('Poni'),
+   order(359),
+   active(true),
+   controlling_entries('bf__v')
+);

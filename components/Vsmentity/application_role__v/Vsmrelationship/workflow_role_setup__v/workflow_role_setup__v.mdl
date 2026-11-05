@@ -1,0 +1,13 @@
+Vsmrelationship workflow_role_setup__v (
+   label('Workflow Role Setup'),
+   active(false),
+   cardinality('ONE_TO_MANY'),
+   description('Workflow role setup records that map this application role to workflow participant roles, determining who can act on workflow tasks. Use this to find which workflows and workflow steps this application role is involved in.'),
+   join_object('Object.workflow_role_setup__v'),
+   synonyms('workflow roles',
+         'workflow configuration',
+         'workflow role mapping'),
+   target('workflow_role_setup__vr'),
+   target_label('Workflow Role Setup'),
+   target_object('workflow_role_setup__v')
+);

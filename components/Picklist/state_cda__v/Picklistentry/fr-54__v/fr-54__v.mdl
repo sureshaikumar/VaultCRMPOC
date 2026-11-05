@@ -1,0 +1,6 @@
+Picklistentry fr-54__v (
+   value('Meurthe-et-Moselle'),
+   order(1370),
+   active(true),
+   controlling_entries('fr__v')
+);

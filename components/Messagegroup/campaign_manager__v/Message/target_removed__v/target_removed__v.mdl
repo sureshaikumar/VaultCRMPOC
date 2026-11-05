@@ -1,0 +1,6 @@
+Message target_removed__v (
+   label(),
+   active(true),
+   default_value('Target has been removed'),
+   system_managed(false)
+);

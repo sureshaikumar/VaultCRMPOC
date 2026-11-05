@@ -1,0 +1,6 @@
+Message activate_now_subheader__v (
+   label(),
+   active(true),
+   default_value('This campaign will activate immediately'),
+   system_managed(false)
+);

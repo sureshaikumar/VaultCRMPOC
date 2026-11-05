@@ -1,0 +1,17 @@
+Field transferred_date__v (
+   label('Transferred Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Transferred Date is the effective date that a Transfer Sample Order Transaction occurred.'),
+   list_column(false),
+   order(71),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

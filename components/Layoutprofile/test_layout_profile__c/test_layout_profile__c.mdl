@@ -1,0 +1,6 @@
+RECREATE Layoutprofile test_layout_profile__c (
+   label('test layout profile'),
+   active(true),
+   description('Test'),
+   Objectlayout(@Objectlayout/test_object_base__c.mdl)
+);

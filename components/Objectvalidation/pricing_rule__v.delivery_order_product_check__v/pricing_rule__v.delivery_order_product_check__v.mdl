@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.delivery_order_product_check__v (
+   label('Delivery Order Product Check'),
+   active(true),
+   expression('Not(
+     And(
+         delivery_order__v = true,
+         Not(IsBlank(product__v))
+    )
+)'),
+   description('Rules flagged as Delivery Order cannot be associated with a particular product. Product field must be blank for Delivery Order rules'),
+   error_message('Delivery Order Rules cannot be associated to a particular product'),
+   error_location('product__v')
+);

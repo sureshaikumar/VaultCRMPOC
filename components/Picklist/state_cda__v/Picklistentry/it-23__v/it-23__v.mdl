@@ -1,0 +1,6 @@
+Picklistentry it-23__v (
+   value('Aosta Valley'),
+   order(2156),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,6 @@
+Message mc_cycle_channel_external_id__v (
+   label(),
+   active(true),
+   default_value('External ID'),
+   system_managed(false)
+);

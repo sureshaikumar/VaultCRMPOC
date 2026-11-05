@@ -1,0 +1,8 @@
+RECREATE Pagelayout translation_provider_config_detail_page__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Translation Provider Config Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

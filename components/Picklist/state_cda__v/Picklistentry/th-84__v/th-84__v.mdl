@@ -1,0 +1,6 @@
+Picklistentry th-84__v (
+   value('Surat Thani'),
+   order(4395),
+   active(true),
+   controlling_entries('th__v')
+);

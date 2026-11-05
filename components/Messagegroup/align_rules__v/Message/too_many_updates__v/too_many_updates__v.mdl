@@ -1,0 +1,6 @@
+Message too_many_updates__v (
+   label(),
+   active(true),
+   default_value('More than ${max_record_updates} records have been modified since the rules database was last updated. Please wait 15 minutes and try again. If this issue persists, please contact your administrator.'),
+   system_managed(false)
+);

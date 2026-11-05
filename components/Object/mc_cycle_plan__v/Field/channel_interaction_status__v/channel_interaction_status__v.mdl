@@ -1,0 +1,18 @@
+Field channel_interaction_status__v (
+   label('Channel Interaction Status'),
+   type('Picklist'),
+   active(true),
+   description('Comparing the Cycle Plan''s Channel Attainment and the % Cycle Completed.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.mc_cycle_plan_channel_interaction_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

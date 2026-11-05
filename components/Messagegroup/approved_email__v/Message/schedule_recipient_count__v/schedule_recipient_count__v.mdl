@@ -1,0 +1,6 @@
+Message schedule_recipient_count__v (
+   label(),
+   active(true),
+   default_value('Schedule (${recipient_count})'),
+   system_managed(false)
+);

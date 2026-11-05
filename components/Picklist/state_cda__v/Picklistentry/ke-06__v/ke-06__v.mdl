@@ -1,0 +1,6 @@
+Picklistentry ke-06__v (
+   value('Embu'),
+   order(2359),
+   active(true),
+   controlling_entries('ke__v')
+);

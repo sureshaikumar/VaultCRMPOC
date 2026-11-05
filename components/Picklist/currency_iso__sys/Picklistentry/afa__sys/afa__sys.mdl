@@ -1,0 +1,5 @@
+Picklistentry afa__sys (
+   value('AFA'),
+   order(2),
+   active(true)
+);

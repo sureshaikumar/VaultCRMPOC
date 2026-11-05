@@ -1,0 +1,5 @@
+Index security_tree_node__sys (
+   description(),
+   fields('security_tree_node__sys'),
+   label('Security Tree Node')
+);

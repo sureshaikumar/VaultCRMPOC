@@ -1,0 +1,6 @@
+Picklistentry ca-nl__v (
+   value('Newfoundland and Labrador'),
+   order(563),
+   active(true),
+   controlling_entries('ca__v')
+);

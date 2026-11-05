@@ -1,0 +1,7 @@
+Picklistentry pmoee__v (
+   value('Pediatric Medical Oncology'),
+   order(1407),
+   active(true),
+   controlling_entries('au__v',
+         'nz__v')
+);

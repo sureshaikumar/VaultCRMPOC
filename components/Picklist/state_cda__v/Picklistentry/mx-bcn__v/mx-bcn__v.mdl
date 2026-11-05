@@ -1,0 +1,6 @@
+Picklistentry mx-bcn__v (
+   value('Baja California'),
+   order(3240),
+   active(true),
+   controlling_entries('mx__v')
+);

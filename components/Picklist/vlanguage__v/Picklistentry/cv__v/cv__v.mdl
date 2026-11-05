@@ -1,0 +1,5 @@
+Picklistentry cv__v (
+   value('Chuvash'),
+   order(62),
+   active(false)
+);

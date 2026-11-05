@@ -1,0 +1,5 @@
+Picklistentry somewhat__c (
+   value('Somewhat'),
+   order(1),
+   active(true)
+);

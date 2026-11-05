@@ -1,0 +1,6 @@
+Message mccp_feedback_you_have__v (
+   label(),
+   active(true),
+   default_value('You have'),
+   system_managed(false)
+);

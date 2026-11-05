@@ -1,0 +1,20 @@
+Field hco_active_statuses__v (
+   label('HCO Active Statuses'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('The setting to define a broader set of active statuses using Network reference code, statuses other than "A" can be added in this setting, delimited by comma.'),
+   list_column(false),
+   order(16),
+   default_value('"A"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

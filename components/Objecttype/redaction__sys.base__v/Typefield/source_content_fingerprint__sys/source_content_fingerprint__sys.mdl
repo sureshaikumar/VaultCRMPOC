@@ -1,0 +1,4 @@
+Typefield source_content_fingerprint__sys (
+   source('standard'),
+   required(false)
+);

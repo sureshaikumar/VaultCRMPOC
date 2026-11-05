@@ -1,0 +1,6 @@
+Picklistentry tr-31__v (
+   value('Hatay'),
+   order(4489),
+   active(true),
+   controlling_entries('tr__v')
+);

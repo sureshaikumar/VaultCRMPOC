@@ -1,0 +1,6 @@
+Message allow_field_fallback_only_for_marketing__v (
+   label(),
+   active(true),
+   default_value('Allow Field Consent Fallback can only be enabled for Consent types restricted to marketing'),
+   system_managed(false)
+);

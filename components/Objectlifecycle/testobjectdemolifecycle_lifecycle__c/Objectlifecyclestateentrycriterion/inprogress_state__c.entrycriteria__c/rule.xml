@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="LIFECYCLE_ENTRY_CRITERIA_FIELD" actionPublicKey="lifecycle_entry_criteria_fi_pox0rlldxr7w__c">
+            <expression operator="eq">
+                <expression operator="field" type="string">
+                    <value>Object.test_object__c.test_type__c</value>
+                </expression>
+                <expression operator="value" type="string">
+                    <value>type_2__c</value>
+                </expression>
+            </expression>
+        </action>
+    </actions>
+</rule>

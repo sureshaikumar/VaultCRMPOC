@@ -1,0 +1,5 @@
+Picklistentry atlantic_cape_verde__v (
+   value('Cape Verde Time'),
+   order(94),
+   active(true)
+);

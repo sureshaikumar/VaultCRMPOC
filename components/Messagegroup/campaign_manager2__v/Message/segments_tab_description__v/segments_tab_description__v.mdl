@@ -1,0 +1,6 @@
+Message segments_tab_description__v (
+   label(),
+   active(true),
+   default_value('Targets are evaluated in priority order and assigned to the first segment they match'),
+   system_managed(false)
+);

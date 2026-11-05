@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate usermentionnotifications__v (
+   label('userMentionNotifications'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Mentioned in comment on ${docNameNoLink}.'),
+   notification('<b>${senderName}</b> mentioned you in a <a href= ${linkToAnnotation}>comment</a> on <b>${docName}</b>.'),
+   email_body('<b>${senderName}</b> mentioned you in a <b><a href= ${linkToAnnotation}>comment</a></b> on <b> ${docName} (v${docMajor}.${docMinor}). <br><ul><li>Comment:
+${noteComment}</li></ul><br><br>The above link will take you directly to the note where you are mentioned. (If you do not have access to this document, please contact the user listed above.)'),
+   entity_type('document'),
+   notification_category('user_mentions__sys')
+);

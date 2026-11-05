@@ -1,0 +1,6 @@
+Message my_notes__v (
+   label(),
+   active(true),
+   default_value('My Notes'),
+   system_managed(false)
+);

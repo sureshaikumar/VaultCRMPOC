@@ -1,0 +1,18 @@
+Field message_state__v (
+   label('Message State'),
+   type('Picklist'),
+   active(true),
+   description('Current state of the message thread, for example discarded.'),
+   required(false),
+   unique(false),
+   help_content('Current state of the message thread, for example discarded.'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.message_node_state__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

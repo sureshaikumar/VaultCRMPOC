@@ -1,0 +1,14 @@
+RECREATE Page signature_printable_view_page__v (
+   label('View Signature Printable View'),
+   active(true),
+   client_distribution(),
+   default_client_code('signature_printable_view_page__v'),
+   description('View Signature Printable View Page'),
+   disable_chrome(true),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.medicalevents.controls.page.SignaturePrintableViewPageController'),
+   url_path_name('view-signature-printable-view')
+);

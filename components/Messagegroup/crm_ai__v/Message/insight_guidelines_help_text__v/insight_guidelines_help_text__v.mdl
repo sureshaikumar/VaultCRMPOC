@@ -1,0 +1,6 @@
+Message insight_guidelines_help_text__v (
+   label(),
+   active(true),
+   default_value('Use this framework to enter a high quality insight'),
+   system_managed(false)
+);

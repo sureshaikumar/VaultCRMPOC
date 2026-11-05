@@ -1,0 +1,6 @@
+Picklistentry so-nu__v (
+   value('Nugaal'),
+   order(4234),
+   active(true),
+   controlling_entries('so__v')
+);

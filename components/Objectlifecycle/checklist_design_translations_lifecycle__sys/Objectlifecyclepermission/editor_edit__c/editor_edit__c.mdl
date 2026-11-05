@@ -1,0 +1,6 @@
+Objectlifecyclepermission editor_edit__c (
+   states('Objectlifecyclestate.draft_state__sys',
+         'Objectlifecyclestate.obsolete_state__sys'),
+   role('Objectlifecyclerole.editor__v'),
+   permission('Edit')
+);

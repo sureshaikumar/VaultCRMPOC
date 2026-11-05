@@ -1,0 +1,19 @@
+Field last_ipad_ios_version__v (
+   label('Last iPad iOS Version'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content('Stores the iOS version running on the iPad at the time of the most recent sync.'),
+   list_column(false),
+   order(80),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield activity_tracking__v (
+   source('custom'),
+   required(false)
+);

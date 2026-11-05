@@ -1,0 +1,10 @@
+Vsmvalue frf__v (
+   label('FRF'),
+   active(true),
+   description('The French Franc (FRF), the former official currency of France prior to the adoption of the Euro in 2002, used for historical or legacy financial records.'),
+   synonyms('French franc',
+         'franc',
+         'France currency'),
+   target('frf__sys'),
+   target_label('FRF')
+);

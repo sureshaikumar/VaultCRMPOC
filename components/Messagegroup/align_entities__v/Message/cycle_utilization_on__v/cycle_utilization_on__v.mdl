@@ -1,0 +1,6 @@
+Message cycle_utilization_on__v (
+   label(),
+   active(true),
+   default_value('On'),
+   system_managed(false)
+);

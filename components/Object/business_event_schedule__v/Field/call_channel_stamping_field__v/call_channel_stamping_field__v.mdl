@@ -1,0 +1,19 @@
+Field call_channel_stamping_field__v (
+   label('Call Channel Stamping Field'),
+   type('String'),
+   active(true),
+   description('API name of the call2__v field that will be used to stamp the channel onto tasks that are completed from the call report.  If blank, the standard call_channel__v field will be used.'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

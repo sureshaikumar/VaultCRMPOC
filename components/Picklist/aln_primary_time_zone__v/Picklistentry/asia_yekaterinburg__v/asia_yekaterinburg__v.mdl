@@ -1,0 +1,5 @@
+Picklistentry asia_yekaterinburg__v (
+   value('Asia/Yekaterinburg'),
+   order(59),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout cvent_object_mapping_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Cvent Object Mapping Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

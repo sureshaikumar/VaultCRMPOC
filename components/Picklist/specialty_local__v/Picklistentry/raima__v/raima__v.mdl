@@ -1,0 +1,6 @@
+Picklistentry raima__v (
+   value('Radiology and Imaging Methods'),
+   order(1689),
+   active(true),
+   controlling_entries('cz__v')
+);

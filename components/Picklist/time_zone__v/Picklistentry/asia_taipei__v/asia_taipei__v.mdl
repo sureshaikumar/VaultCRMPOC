@@ -1,0 +1,5 @@
+Picklistentry asia_taipei__v (
+   value('Taipei Time'),
+   order(21),
+   active(true)
+);

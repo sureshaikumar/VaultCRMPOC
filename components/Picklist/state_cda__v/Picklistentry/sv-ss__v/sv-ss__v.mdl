@@ -1,0 +1,6 @@
+Picklistentry sv-ss__v (
+   value('San Salvador'),
+   order(4278),
+   active(true),
+   controlling_entries('sv__v')
+);

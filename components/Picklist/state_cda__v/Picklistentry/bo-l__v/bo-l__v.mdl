@@ -1,0 +1,6 @@
+Picklistentry bo-l__v (
+   value('La Paz'),
+   order(442),
+   active(true),
+   controlling_entries('bo__v')
+);

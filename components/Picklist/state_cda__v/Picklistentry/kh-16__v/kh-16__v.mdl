@@ -1,0 +1,6 @@
+Picklistentry kh-16__v (
+   value('Rotanak Kiri [Rôtânôkiri]'),
+   order(2417),
+   active(true),
+   controlling_entries('kh__v')
+);

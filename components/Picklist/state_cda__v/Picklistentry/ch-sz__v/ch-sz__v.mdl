@@ -1,0 +1,6 @@
+Picklistentry ch-sz__v (
+   value('Schwyz'),
+   order(645),
+   active(true),
+   controlling_entries('ch__v')
+);

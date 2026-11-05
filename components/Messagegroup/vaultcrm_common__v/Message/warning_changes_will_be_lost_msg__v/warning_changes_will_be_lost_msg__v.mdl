@@ -1,0 +1,6 @@
+Message warning_changes_will_be_lost_msg__v (
+   label(),
+   active(true),
+   default_value('Closing this page will discard all your changes.'),
+   system_managed(false)
+);

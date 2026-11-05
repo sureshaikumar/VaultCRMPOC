@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout related_cross_links__v (
+   label('Related CrossLinks'),
+   active(true),
+   icon('UNDEFINED'),
+   order(20),
+   fields(),
+   show_in_edit_mode(false),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_relationships__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry phxpm__v (
+   value('Public Health and Preventive Medicine'),
+   order(1638),
+   active(true),
+   controlling_entries('it__v')
+);

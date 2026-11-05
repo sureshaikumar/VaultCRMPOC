@@ -1,0 +1,5 @@
+Picklistentry kom (
+   value('Komi'),
+   order(222),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message field_force_assignment_priority_null_err__v (
+   label(),
+   active(true),
+   default_value('Assignment priority must be set for field forces within a group'),
+   system_managed(false)
+);

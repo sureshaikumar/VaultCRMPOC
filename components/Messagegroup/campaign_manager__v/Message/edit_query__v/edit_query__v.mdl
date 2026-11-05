@@ -1,0 +1,6 @@
+Message edit_query__v (
+   label(),
+   active(true),
+   default_value('Edit Query'),
+   system_managed(false)
+);

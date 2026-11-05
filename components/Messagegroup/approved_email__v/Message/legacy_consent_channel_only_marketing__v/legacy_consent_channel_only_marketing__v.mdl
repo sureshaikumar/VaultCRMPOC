@@ -1,0 +1,6 @@
+Message legacy_consent_channel_only_marketing__v (
+   label(),
+   active(true),
+   default_value('Legacy consent channel can only be populated for Approved Email Consent Type records restricted to Marketing'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry mc-ma__v (
+   value('Malbousquet'),
+   order(2859),
+   active(true),
+   controlling_entries('mc__v')
+);

@@ -1,0 +1,6 @@
+Message none_selected__v (
+   label(),
+   active(true),
+   default_value('None selected'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-10__v (
+   value('Prague'),
+   order(813),
+   active(true),
+   controlling_entries('cz__v')
+);

@@ -1,0 +1,4 @@
+Typefield activity_sync_process_life_time__v (
+   source('standard'),
+   required(false)
+);

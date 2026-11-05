@@ -1,0 +1,5 @@
+Picklistentry cpohm__v (
+   value('Community Pharmacist'),
+   order(23),
+   active(true)
+);

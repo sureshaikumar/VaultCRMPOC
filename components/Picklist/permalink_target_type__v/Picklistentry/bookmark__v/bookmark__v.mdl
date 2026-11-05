@@ -1,0 +1,5 @@
+Picklistentry bookmark__v (
+   value('Bookmark'),
+   order(0),
+   active(true)
+);

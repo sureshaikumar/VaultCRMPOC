@@ -1,0 +1,23 @@
+Field bulk_call_objective_creation__v (
+   label('Bulk Call Objective Creation'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content('Enables bulk call objective creation from the Plan_Tactic_View visual force page.'),
+   list_column(false),
+   order(35),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

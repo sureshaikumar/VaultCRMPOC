@@ -1,0 +1,6 @@
+Message opted_in__v (
+   label(),
+   active(true),
+   default_value('Opted In'),
+   system_managed(false)
+);

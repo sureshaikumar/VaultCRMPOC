@@ -1,0 +1,20 @@
+Field expense_customized_fields__v (
+   label('Expense Customized Fields'),
+   type('String'),
+   active(true),
+   description('Map Concur Expense report custom fields to Veeva Call report fields
+Custom15=Total_Expense_Attendees_Count_vod__c,Custom16=Id'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

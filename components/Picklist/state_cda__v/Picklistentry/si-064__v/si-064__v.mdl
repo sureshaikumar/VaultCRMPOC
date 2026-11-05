@@ -1,0 +1,6 @@
+Picklistentry si-064__v (
+   value('Logatec'),
+   order(4038),
+   active(true),
+   controlling_entries('si__v')
+);

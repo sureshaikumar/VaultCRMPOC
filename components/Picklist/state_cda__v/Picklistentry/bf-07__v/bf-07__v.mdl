@@ -1,0 +1,6 @@
+Picklistentry bf-07__v (
+   value('Centre-Sud'),
+   order(321),
+   active(true),
+   controlling_entries('bf__v')
+);

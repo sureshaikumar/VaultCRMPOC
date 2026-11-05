@@ -1,0 +1,6 @@
+Message edited__v (
+   label(),
+   active(true),
+   default_value('Edited'),
+   system_managed(false)
+);

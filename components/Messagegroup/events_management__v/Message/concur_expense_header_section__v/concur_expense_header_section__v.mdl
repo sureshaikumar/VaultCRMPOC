@@ -1,0 +1,6 @@
+Message concur_expense_header_section__v (
+   label(),
+   active(true),
+   default_value('Expense Header to Expense Entry'),
+   system_managed(false)
+);

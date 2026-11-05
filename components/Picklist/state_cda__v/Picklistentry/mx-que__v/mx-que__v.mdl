@@ -1,0 +1,6 @@
+Picklistentry mx-que__v (
+   value('Querétaro'),
+   order(3260),
+   active(true),
+   controlling_entries('mx__v')
+);

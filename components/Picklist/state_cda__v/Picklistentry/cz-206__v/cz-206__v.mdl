@@ -1,0 +1,6 @@
+Picklistentry cz-206__v (
+   value('Mělník'),
+   order(820),
+   active(true),
+   controlling_entries('cz__v')
+);

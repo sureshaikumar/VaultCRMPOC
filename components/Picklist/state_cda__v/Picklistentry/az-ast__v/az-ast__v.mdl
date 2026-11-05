@@ -1,0 +1,6 @@
+Picklistentry az-ast__v (
+   value('Astara'),
+   order(144),
+   active(true),
+   controlling_entries('az__v')
+);

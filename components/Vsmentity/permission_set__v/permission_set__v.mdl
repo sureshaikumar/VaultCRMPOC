@@ -1,0 +1,15 @@
+RECREATE Vsmentity permission_set__v (
+   label('Permission Set'),
+   active(true),
+   description('Permission sets define the access rights and privileges granted to users within Vault, controlling what actions they can perform and what data they can view or modify. They are a core component of Vault''s security model, grouping together specific permissions for document actions, object operations, and administrative functions. Permission sets are assigned to users via Security Profiles or User Roles to enforce access control policies across the organization. Administrators commonly query permission sets to audit user access, troubleshoot permission issues, or configure role-based security configurations.'),
+   synonyms('permission sets',
+      'permissions',
+      'access profile',
+      'security profile'),
+   target('Object.permission_set__sys'),
+   target_label('Permission Set'),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/permission_set_key__v.mdl),
+   Vsmfield(@Vsmfield/permission_set_name__v.mdl),
+   Vsmrelationship(@Vsmrelationship/application_roles__v.mdl)
+);

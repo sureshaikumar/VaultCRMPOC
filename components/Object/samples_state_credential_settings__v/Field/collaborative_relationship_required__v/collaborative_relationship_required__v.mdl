@@ -1,0 +1,18 @@
+Field collaborative_relationship_required__v (
+   label('Collaborative Relationship Required'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Defines whether or not a collaborative agreement between a midlevel practitioner and a supervising physician is required for a particular state and credential combination. Used to determine if the Supervising Physician picklist field is rendered on the Ca'),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

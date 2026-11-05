@@ -1,0 +1,6 @@
+Picklistentry ye-ja__v (
+   value('Al Jawf'),
+   order(5005),
+   active(true),
+   controlling_entries('ye__v')
+);

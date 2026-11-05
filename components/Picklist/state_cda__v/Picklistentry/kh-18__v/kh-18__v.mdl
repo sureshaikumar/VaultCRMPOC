@@ -1,0 +1,6 @@
+Picklistentry kh-18__v (
+   value('Krong Preah Sihanouk [Krŏng Preăh Sihanouk]'),
+   order(2419),
+   active(true),
+   controlling_entries('kh__v')
+);

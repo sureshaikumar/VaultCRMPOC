@@ -1,0 +1,5 @@
+Picklistentry medx__v (
+   value('Medical Interaction'),
+   order(1),
+   active(true)
+);

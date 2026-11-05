@@ -1,0 +1,6 @@
+Message select_object__v (
+   label(),
+   active(true),
+   default_value('Select Object'),
+   system_managed(false)
+);

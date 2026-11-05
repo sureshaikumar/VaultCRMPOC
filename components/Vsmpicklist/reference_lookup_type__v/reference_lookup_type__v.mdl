@@ -1,0 +1,18 @@
+RECREATE Vsmpicklist reference_lookup_type__v (
+   label('Reference Lookup Type'),
+   active(true),
+   description('Defines the method or category used to look up and resolve references between records in Vault, controlling how related objects or documents are searched and linked.'),
+   synonyms('reference lookup type',
+      'lookup method',
+      'reference search type',
+      'link resolution type',
+      'cross-reference type'),
+   target('Picklist.reference_lookup_type__sys'),
+   target_label('Reference Lookup Type'),
+   Vsmvalue(@Vsmvalue/document_lifecycle_state__v.mdl),
+   Vsmvalue(@Vsmvalue/document_type__v.mdl),
+   Vsmvalue(@Vsmvalue/generic__v.mdl),
+   Vsmvalue(@Vsmvalue/object__v.mdl),
+   Vsmvalue(@Vsmvalue/object_lifecycle_state__v.mdl),
+   Vsmvalue(@Vsmvalue/picklist__v.mdl)
+);

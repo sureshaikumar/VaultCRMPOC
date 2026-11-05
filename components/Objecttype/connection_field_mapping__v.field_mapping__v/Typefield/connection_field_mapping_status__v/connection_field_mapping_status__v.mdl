@@ -1,0 +1,6 @@
+Typefield connection_field_mapping_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.connection_field_mapping_status__v.active__v',
+         'Picklist.connection_field_mapping_status__v.inactive__v')
+);

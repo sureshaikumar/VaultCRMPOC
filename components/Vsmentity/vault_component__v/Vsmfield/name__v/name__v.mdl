@@ -1,0 +1,12 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The system-level name field for the vault component record, used as the primary identifier within the Vault object framework. This is the standard Vault name field and may mirror or differ from component_name__v depending on the component type.'),
+   example_values(),
+   synonyms('record name',
+         'title'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

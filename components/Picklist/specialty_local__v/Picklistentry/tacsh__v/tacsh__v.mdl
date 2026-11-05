@@ -1,0 +1,10 @@
+Picklistentry tacsh__v (
+   value('Thoracic and Cardiovascular Surgery'),
+   order(1836),
+   active(true),
+   controlling_entries('cm__v',
+         'fr__v',
+         'kr__v',
+         'lb__v',
+         'mc__v')
+);

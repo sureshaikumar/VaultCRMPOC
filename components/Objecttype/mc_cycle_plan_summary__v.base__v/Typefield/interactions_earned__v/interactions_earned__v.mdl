@@ -1,0 +1,4 @@
+Typefield interactions_earned__v (
+   source('standard'),
+   required(false)
+);

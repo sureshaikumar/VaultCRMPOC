@@ -1,0 +1,6 @@
+Picklistentry ve-z__v (
+   value('Amazonas'),
+   order(4911),
+   active(true),
+   controlling_entries('ve__v')
+);

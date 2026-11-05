@@ -1,0 +1,6 @@
+Picklistentry fj-r__v (
+   value('Rotuma'),
+   order(1309),
+   active(true),
+   controlling_entries('fj__v')
+);

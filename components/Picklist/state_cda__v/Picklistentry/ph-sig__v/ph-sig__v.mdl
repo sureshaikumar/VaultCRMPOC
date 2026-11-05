@@ -1,0 +1,6 @@
+Picklistentry ph-sig__v (
+   value('Siquijor'),
+   order(3601),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry pchoa__v (
+   value('Pharmaceutical Control'),
+   order(1507),
+   active(true),
+   controlling_entries('cz__v')
+);

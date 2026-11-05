@@ -1,0 +1,6 @@
+Picklistentry sd-nr__v (
+   value('River Nile'),
+   order(3942),
+   active(true),
+   controlling_entries('sd__v')
+);

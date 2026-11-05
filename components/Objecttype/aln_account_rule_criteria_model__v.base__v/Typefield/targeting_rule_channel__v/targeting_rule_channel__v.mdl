@@ -1,0 +1,4 @@
+Typefield targeting_rule_channel__v (
+   source('standard'),
+   required(false)
+);

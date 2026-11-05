@@ -1,0 +1,6 @@
+Message am_pricing_rule_reassociated_with_id__v (
+   label(),
+   active(true),
+   default_value('Pricing Rule record {0} will be re-associated from the losing account to the winning account and active will be set to false.'),
+   system_managed(false)
+);

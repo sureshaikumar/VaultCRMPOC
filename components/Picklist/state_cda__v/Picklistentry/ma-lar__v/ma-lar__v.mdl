@@ -1,0 +1,6 @@
+Picklistentry ma-lar__v (
+   value('Larache'),
+   order(2815),
+   active(true),
+   controlling_entries('ma__v')
+);

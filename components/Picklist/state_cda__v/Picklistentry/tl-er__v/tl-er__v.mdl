@@ -1,0 +1,6 @@
+Picklistentry tl-er__v (
+   value('Ermera'),
+   order(4417),
+   active(true),
+   controlling_entries('tl__v')
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist documented_interest_status__v (
+   label('Documented Interest Status'),
+   active(true),
+   Picklistentry(@Picklistentry/new__v.mdl),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message no_zoom_meeting_attendance__v (
+   label(),
+   active(true),
+   default_value('No Zoom meeting attendance'),
+   system_managed(false)
+);

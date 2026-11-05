@@ -1,0 +1,6 @@
+Typefield warning_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_business_rule_warning_type__v.hard_warning__v',
+         'Picklist.em_business_rule_warning_type__v.soft_warning__v')
+);

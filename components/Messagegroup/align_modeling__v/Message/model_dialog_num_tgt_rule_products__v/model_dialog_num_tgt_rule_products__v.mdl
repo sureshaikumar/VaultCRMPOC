@@ -1,0 +1,6 @@
+Message model_dialog_num_tgt_rule_products__v (
+   label(),
+   active(true),
+   default_value('Model Targeting Group Products'),
+   system_managed(false)
+);

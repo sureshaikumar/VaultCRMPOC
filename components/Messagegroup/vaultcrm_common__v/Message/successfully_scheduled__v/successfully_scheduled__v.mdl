@@ -1,0 +1,6 @@
+Message successfully_scheduled__v (
+   label(),
+   active(true),
+   default_value('Successfully Scheduled'),
+   system_managed(false)
+);

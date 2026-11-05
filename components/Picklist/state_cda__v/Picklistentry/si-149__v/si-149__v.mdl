@@ -1,0 +1,6 @@
+Picklistentry si-149__v (
+   value('Bistrica ob Sotli'),
+   order(4122),
+   active(true),
+   controlling_entries('si__v')
+);

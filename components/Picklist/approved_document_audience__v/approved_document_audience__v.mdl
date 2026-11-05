@@ -1,0 +1,9 @@
+RECREATE Picklist approved_document_audience__v (
+   label('Audience'),
+   active(true),
+   Picklistentry(@Picklistentry/attendee__v.mdl),
+   Picklistentry(@Picklistentry/speaker__v.mdl),
+   Picklistentry(@Picklistentry/team_member__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

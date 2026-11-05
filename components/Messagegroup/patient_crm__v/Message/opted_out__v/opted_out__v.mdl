@@ -1,0 +1,6 @@
+Message opted_out__v (
+   label(),
+   active(true),
+   default_value('Opted Out'),
+   system_managed(false)
+);

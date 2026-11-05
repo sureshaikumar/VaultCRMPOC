@@ -1,0 +1,8 @@
+RECREATE Pagelayout child_event_rule_related_detail_page__v (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Child Event Rule Related List Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

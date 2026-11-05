@@ -1,0 +1,17 @@
+Field allow_field_consent_fallback__v (
+   label('Allow Field Consent Fallback'),
+   type('Boolean'),
+   active(true),
+   description('When enabled, if specific Campaign consent is unavailable, the system checks for valid Approved Email consent where ''Consent Restricted To'' is either field__v or empty.'),
+   required(false),
+   checkbox(true),
+   help_content('Enables fallback to standard Approved Email consent if specific marketing consent is unavailable.'),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

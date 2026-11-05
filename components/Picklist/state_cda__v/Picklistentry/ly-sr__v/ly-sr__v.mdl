@@ -1,0 +1,6 @@
+Picklistentry ly-sr__v (
+   value('Surt'),
+   order(2760),
+   active(true),
+   controlling_entries('ly__v')
+);

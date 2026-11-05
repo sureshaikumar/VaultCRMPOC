@@ -1,0 +1,19 @@
+Field do_not_call__v (
+   label('Do Not Call?'),
+   type('Picklist'),
+   active(true),
+   description('If set to Yes_vod then calls cannot be recorded against this account.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(34),
+   multi_value(false),
+   picklist('Picklist.account_do_not_call__v'),
+   default_value('{no__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

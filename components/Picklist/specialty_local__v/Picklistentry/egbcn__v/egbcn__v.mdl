@@ -1,0 +1,6 @@
+Picklistentry egbcn__v (
+   value('Endoscopy (Gastroduodenoscopy, Bronchoscopy, Colonoscopy)'),
+   order(514),
+   active(true),
+   controlling_entries('ge__v')
+);

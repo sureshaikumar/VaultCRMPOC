@@ -1,0 +1,5 @@
+Picklistentry nia__v (
+   value('Nias'),
+   order(234),
+   active(false)
+);

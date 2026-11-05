@@ -1,0 +1,6 @@
+Message mccp_feedback_acct_and_target_challenges__v (
+   label(),
+   active(true),
+   default_value('Approvals and Rejections at this level will affect all target challenges for this account.'),
+   system_managed(false)
+);

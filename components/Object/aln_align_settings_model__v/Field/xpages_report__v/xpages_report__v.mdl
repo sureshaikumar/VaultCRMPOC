@@ -1,0 +1,19 @@
+Field xpages_report__v (
+   label('MyInsights Report'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('To embed a MyInsights report in the Feedback Dashboard, specify its External ID and height in pixels, separated by a colon.'),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

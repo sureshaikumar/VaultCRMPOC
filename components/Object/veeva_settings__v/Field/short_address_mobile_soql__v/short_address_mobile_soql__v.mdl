@@ -1,0 +1,20 @@
+Field short_address_mobile_soql__v (
+   label('Short_Address_Mobile_SOQL'),
+   type('String'),
+   active(true),
+   description('List of Address fields to download to the VMobile BlackBerry application when the Account record count exceeds Short_Account_Level setting value.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(279),
+   default_value('"Short_Address_Mobile_SOQL;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

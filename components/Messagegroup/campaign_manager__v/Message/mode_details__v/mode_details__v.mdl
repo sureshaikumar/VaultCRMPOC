@@ -1,0 +1,6 @@
+Message mode_details__v (
+   label(),
+   active(true),
+   default_value('${mode} Details'),
+   system_managed(false)
+);

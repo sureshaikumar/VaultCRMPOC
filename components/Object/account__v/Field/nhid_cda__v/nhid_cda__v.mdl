@@ -1,0 +1,19 @@
+Field nhid_cda__v (
+   label('National Healthcare ID'),
+   type('String'),
+   active(true),
+   description('Unique identifier assigned to healthcare professionals within a country''s healthcare system.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('National, healthcare-specific identifier. Applies to HCP and HCO. (i.e. NPI, Adeli, RPPS)'),
+   list_column(false),
+   order(64),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message copy_warnings_found__v (
+   label(),
+   active(true),
+   default_value('${warning_count} warnings found.'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Picklistentry rapme__v (
+   value('Rehabilitation and Physical Medicine'),
+   order(1725),
+   active(true),
+   controlling_entries('cz__v',
+         'md__v')
+);

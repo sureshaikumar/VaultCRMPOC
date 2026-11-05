@@ -1,0 +1,5 @@
+Picklistentry sux (
+   value('Sumerian'),
+   order(312),
+   active(true)
+);

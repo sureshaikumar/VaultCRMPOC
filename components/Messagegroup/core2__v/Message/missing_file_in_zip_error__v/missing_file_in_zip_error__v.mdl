@@ -1,0 +1,6 @@
+Message missing_file_in_zip_error__v (
+   label(),
+   active(true),
+   default_value('The uploaded ZIP is missing the ${document_type} file.'),
+   system_managed(false)
+);

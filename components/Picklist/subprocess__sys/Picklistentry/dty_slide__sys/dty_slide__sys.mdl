@@ -1,0 +1,6 @@
+Picklistentry dty_slide__sys (
+   value('Slide'),
+   order(154),
+   active(true),
+   controlling_entries('dlc_crm_content__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry ad-05__v (
+   value('Ordino'),
+   order(3),
+   active(true),
+   controlling_entries('ad__v')
+);

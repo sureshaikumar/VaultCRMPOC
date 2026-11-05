@@ -1,0 +1,6 @@
+Message unordered_list__v (
+   label(),
+   active(true),
+   default_value('Unordered List'),
+   system_managed(false)
+);

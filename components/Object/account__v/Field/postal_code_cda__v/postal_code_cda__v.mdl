@@ -1,0 +1,19 @@
+Field postal_code_cda__v (
+   label('Primary Postal Code'),
+   type('String'),
+   active(true),
+   description('Postal code from primary address. May include non-alphanumeric characters. e.g. -'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(138),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

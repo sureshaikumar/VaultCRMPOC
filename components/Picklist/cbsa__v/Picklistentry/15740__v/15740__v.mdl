@@ -1,0 +1,5 @@
+Picklistentry 15740__v (
+   value('Cambridge, OH Micropolitan Statistical Area'),
+   order(950),
+   active(true)
+);

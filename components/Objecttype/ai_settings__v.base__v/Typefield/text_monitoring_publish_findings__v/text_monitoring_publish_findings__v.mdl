@@ -1,0 +1,4 @@
+Typefield text_monitoring_publish_findings__v (
+   source('standard'),
+   required(true)
+);

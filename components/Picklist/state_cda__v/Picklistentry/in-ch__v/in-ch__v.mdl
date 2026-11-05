@@ -1,0 +1,6 @@
+Picklistentry in-ch__v (
+   value('Chandigarh'),
+   order(2003),
+   active(true),
+   controlling_entries('in__v')
+);

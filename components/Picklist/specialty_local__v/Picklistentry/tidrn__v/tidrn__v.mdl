@@ -1,0 +1,6 @@
+Picklistentry tidrn__v (
+   value('Tropical Infectious Diseases'),
+   order(1874),
+   active(true),
+   controlling_entries('sn__v')
+);

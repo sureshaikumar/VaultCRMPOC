@@ -1,0 +1,8 @@
+RECREATE Pagelayout em_actual_versus_estimate_expense_thresh__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('EM Actual Versus Estimate Expense Thresh Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry depression_mao_inhibitors__v (
+   value('Depression (MAO Inhibitors)'),
+   order(91),
+   active(true)
+);

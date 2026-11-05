@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1663094178849">
+      <actions>
+        <action type="workflowContentAction.base.changeContentLifecycleState">
+          <lifecycle>general_lifecycle__c</lifecycle>
+          <lifecycleState>draft__c</lifecycleState>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

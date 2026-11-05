@@ -1,0 +1,6 @@
+Picklistentry tn-52__v (
+   value('Monastir'),
+   order(4445),
+   active(true),
+   controlling_entries('tn__v')
+);

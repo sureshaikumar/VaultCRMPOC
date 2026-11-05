@@ -1,0 +1,6 @@
+Picklistentry gb-nty__v (
+   value('North Tyneside'),
+   order(1587),
+   active(true),
+   controlling_entries('gb__v')
+);

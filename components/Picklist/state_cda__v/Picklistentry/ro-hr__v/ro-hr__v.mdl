@@ -1,0 +1,6 @@
+Picklistentry ro-hr__v (
+   value('Harghita'),
+   order(3738),
+   active(true),
+   controlling_entries('ro__v')
+);

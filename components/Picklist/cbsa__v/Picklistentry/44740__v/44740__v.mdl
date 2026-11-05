@@ -1,0 +1,5 @@
+Picklistentry 44740__v (
+   value('Storm Lake, IA Micropolitan Statistical Area'),
+   order(806),
+   active(true)
+);

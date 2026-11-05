@@ -1,0 +1,6 @@
+Message am_account_information__v (
+   label(),
+   active(true),
+   default_value('Account Information'),
+   system_managed(false)
+);

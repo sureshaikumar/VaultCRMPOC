@@ -1,0 +1,18 @@
+Field return_to_clm_after_sign__v (
+   label('RETURN TO CLM AFTER SIGN'),
+   type('Boolean'),
+   active(true),
+   description('When in CLM, enables users to return to CLM after capturing a signature'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(259),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,17 @@
+Field generate_caption_bookmarks_tree__sys (
+   label('Auto generate bookmarks for captions'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, Vault generates bookmarks for in-line MS Word captions under parent heading styles in the bookmark hierarchy. Vault defaults to bookmarks based on TOC/LOF if this feature is also enabled and a TOC/LOF exists in the document.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

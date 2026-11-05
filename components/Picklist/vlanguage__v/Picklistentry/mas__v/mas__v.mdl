@@ -1,0 +1,5 @@
+Picklistentry mas__v (
+   value('Masai'),
+   order(218),
+   active(false)
+);

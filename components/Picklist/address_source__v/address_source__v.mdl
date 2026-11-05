@@ -1,0 +1,8 @@
+RECREATE Picklist address_source__v (
+   label('Source'),
+   active(true),
+   Picklistentry(@Picklistentry/manual__v.mdl),
+   Picklistentry(@Picklistentry/hms__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

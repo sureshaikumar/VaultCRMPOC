@@ -1,0 +1,17 @@
+Field prevent_steady_state_merge__sys (
+   label('Prevent merge in steady state'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, documents with Merge Fields will be updated prior to entering steady state. Once in steady state, they will no longer merge unless transitioned out.'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

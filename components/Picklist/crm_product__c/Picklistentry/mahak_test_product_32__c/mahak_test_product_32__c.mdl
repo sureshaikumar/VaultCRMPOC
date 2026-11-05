@@ -1,0 +1,5 @@
+Picklistentry mahak_test_product_32__c (
+   value('Mahak Test Product 3'),
+   order(30),
+   active(true)
+);

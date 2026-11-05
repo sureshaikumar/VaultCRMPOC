@@ -1,0 +1,5 @@
+Picklistentry fair__c (
+   value('Fair'),
+   order(3),
+   active(true)
+);

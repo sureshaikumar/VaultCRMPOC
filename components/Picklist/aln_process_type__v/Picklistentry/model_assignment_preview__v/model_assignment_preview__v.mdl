@@ -1,0 +1,5 @@
+Picklistentry model_assignment_preview__v (
+   value('Model Assignment Preview'),
+   order(15),
+   active(true)
+);

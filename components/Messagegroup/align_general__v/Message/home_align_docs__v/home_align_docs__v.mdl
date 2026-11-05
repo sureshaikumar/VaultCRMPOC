@@ -1,0 +1,6 @@
+Message home_align_docs__v (
+   label(),
+   active(true),
+   default_value('Align documentation'),
+   system_managed(false)
+);

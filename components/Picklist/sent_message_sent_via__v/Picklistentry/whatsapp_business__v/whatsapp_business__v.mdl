@@ -1,0 +1,5 @@
+Picklistentry whatsapp_business__v (
+   value('WhatsApp Business'),
+   order(10),
+   active(true)
+);

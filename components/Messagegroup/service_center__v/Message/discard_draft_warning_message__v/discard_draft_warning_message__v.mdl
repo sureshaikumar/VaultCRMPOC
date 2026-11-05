@@ -1,0 +1,6 @@
+Message discard_draft_warning_message__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to discard this draft?'),
+   system_managed(false)
+);

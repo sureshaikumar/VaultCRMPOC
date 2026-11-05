@@ -1,0 +1,4 @@
+Typefield state_distributor_license_exempt__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,4 @@
+Typefield sfdc_value__v (
+   source('standard'),
+   required(true)
+);

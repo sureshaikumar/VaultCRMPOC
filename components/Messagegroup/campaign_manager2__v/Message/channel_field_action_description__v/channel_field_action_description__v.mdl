@@ -1,0 +1,6 @@
+Message channel_field_action_description__v (
+   label(),
+   active(true),
+   default_value('Notify field users to take an action'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message rule_criteria_operator_invalid__v (
+   label(),
+   active(true),
+   default_value('Operator not valid for specified field.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message media_unavailable__v (
+   label(),
+   active(true),
+   default_value('Media Unavailable'),
+   system_managed(false)
+);

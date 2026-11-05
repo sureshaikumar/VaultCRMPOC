@@ -1,0 +1,5 @@
+Picklistentry del__v (
+   value('Delaware'),
+   order(75),
+   active(false)
+);

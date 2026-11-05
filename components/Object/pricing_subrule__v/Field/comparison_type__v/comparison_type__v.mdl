@@ -1,0 +1,18 @@
+Field comparison_type__v (
+   label('Comparison Type'),
+   type('Picklist'),
+   active(true),
+   description('This defines, if the field values in Quantity_Min_vod__c and Quantity_Max_vod__c are counted against the quantities or against the list or net values ordered. SKU count is used to determine how many product references within a group of products are used t'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(9),
+   multi_value(false),
+   picklist('Picklist.pricing_subrule_comparison_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

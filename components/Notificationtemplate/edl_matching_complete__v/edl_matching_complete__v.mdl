@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate edl_matching_complete__v (
+   label('Match EDL Items Complete Notification'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('The Match EDL Items to Documents job matched items belonging to ${numberOfEDLsProcessed} EDL records.'),
+   notification('The Match EDL Items job started at ${jobStartTime} and finished at ${jobFinishTime}. The job processed ${numberOfEDLsProcessed} EDL records containing ${numberOfEDLItemsProcessed} EDL Items.'),
+   email_body('<p>The Match EDL Items job started at ${jobStartTime} and finished at ${jobFinishTime}. The job processed ${numberOfEDLsProcessed} EDL records containing ${numberOfEDLItemsProcessed} EDL Items.</p>
+<p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,8 @@
+RECREATE Aicontexttype related_doc_data_content__sys (
+   label('Related Document Data and Content'),
+   active(true),
+   admin_configurable(true),
+   configuration_code('Aicontexttypeconfigurationcode.com.veeva.vault.system.context.RelatedDocumentDataAndContentConfigurationContextType'),
+   configuration_layout(),
+   runtime_code('Aicontexttyperuntimecode.com.veeva.vault.system.context.RelatedDocumentDataAndContentRuntimeContextType')
+);

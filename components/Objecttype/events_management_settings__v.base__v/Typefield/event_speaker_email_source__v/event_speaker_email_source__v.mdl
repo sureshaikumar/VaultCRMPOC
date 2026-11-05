@@ -1,0 +1,4 @@
+Typefield event_speaker_email_source__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry sc-26__v (
+   value('Ile Perseverance I'),
+   order(3926),
+   active(true),
+   controlling_entries('sc__v')
+);

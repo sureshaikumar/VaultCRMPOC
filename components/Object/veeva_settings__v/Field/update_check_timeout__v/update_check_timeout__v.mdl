@@ -1,0 +1,23 @@
+Field update_check_timeout__v (
+   label('UPDATE_CHECK_TIMEOUT'),
+   type('Number'),
+   active(true),
+   description('Controls the wait time for Just in Time sync of Call data already downloaded to the VMobile BlackBerry application.  Default value is 10 minutes.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(302),
+   default_value('10'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

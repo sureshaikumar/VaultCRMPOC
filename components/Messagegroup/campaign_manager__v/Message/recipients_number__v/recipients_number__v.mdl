@@ -1,0 +1,6 @@
+Message recipients_number__v (
+   label(),
+   active(true),
+   default_value('Recipients: ${number_of_recipients}'),
+   system_managed(false)
+);

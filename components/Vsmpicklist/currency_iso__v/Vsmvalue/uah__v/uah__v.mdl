@@ -1,0 +1,10 @@
+Vsmvalue uah__v (
+   label('UAH'),
+   active(true),
+   description('Applies when transactions are denominated in the Ukrainian Hryvnia, the official currency of Ukraine.'),
+   synonyms('Ukrainian hryvnia',
+         'Ukraine currency',
+         'hryvna'),
+   target('uah__sys'),
+   target_label('UAH')
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata engage_membership_management_job__v (
+   label('Engage Membership Management Job'),
+   active(true),
+   chunk_size(500),
+   description('This job is responsible for sending Engage Group Requests to the Off-Platform Engage Services'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.engage.jobs.EngageMembershipManagementJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

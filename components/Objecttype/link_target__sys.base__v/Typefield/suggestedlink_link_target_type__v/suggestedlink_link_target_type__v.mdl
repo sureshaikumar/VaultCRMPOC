@@ -1,0 +1,4 @@
+Typefield suggestedlink_link_target_type__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,8 @@
+Typefield treatment_volume__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.assessment_treatment_volume__c.0_50__c',
+         'Picklist.assessment_treatment_volume__c.100_150__c',
+         'Picklist.assessment_treatment_volume__c.150__c',
+         'Picklist.assessment_treatment_volume__c.50_100__c')
+);

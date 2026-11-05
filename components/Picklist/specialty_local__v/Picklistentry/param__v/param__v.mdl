@@ -1,0 +1,6 @@
+Picklistentry param__v (
+   value('Paramedicine'),
+   order(1284),
+   active(true),
+   controlling_entries('au__v')
+);

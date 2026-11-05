@@ -1,0 +1,6 @@
+Picklistentry cz-209__v (
+   value('Praha-východ'),
+   order(823),
+   active(true),
+   controlling_entries('cz__v')
+);

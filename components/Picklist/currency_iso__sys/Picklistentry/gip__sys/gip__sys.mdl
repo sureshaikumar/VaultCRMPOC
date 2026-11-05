@@ -1,0 +1,5 @@
+Picklistentry gip__sys (
+   value('GIP'),
+   order(71),
+   active(true)
+);

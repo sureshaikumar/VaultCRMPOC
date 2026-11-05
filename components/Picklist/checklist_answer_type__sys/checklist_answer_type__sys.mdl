@@ -1,0 +1,9 @@
+RECREATE Picklist checklist_answer_type__sys (
+   label('Checklist Answer Type'),
+   active(true),
+   Picklistentry(@Picklistentry/drop_down_list__sys.mdl),
+   Picklistentry(@Picklistentry/radio__sys.mdl),
+   Picklistentry(@Picklistentry/checkbox__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

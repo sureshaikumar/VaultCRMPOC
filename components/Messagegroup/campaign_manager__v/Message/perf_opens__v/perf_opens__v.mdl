@@ -1,0 +1,6 @@
+Message perf_opens__v (
+   label(),
+   active(true),
+   default_value('Opens'),
+   system_managed(false)
+);

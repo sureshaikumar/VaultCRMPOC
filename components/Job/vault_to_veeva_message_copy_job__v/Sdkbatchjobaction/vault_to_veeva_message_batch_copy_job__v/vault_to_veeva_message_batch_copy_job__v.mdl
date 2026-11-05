@@ -1,0 +1,6 @@
+Sdkbatchjobaction vault_to_veeva_message_batch_copy_job__v (
+   job_metadata('Jobmetadata.vault_to_veeva_message_copy_job__v'),
+   label('Vault Message to Veeva Message Copy'),
+   parameters(),
+   primary_action(true)
+);

@@ -1,0 +1,15 @@
+RECREATE Permissionset direct_data_api_actions__v (
+   label('Direct Data API Actions'),
+   active(true),
+   description('Direct Data API permission set'),
+   configuration.logs('data_audit',
+      'document_audit',
+      'login_audit',
+      'system_audit'),
+   object.process_view__sys.field_actions('edit'),
+   vault_actions.api('all_api'),
+   vault_actions.search('suggest'),
+   vault_actions.workflow('query'),
+   vault_owner_actions.all_documents('all_document_read'),
+   vault_owner_actions.all_object_records('all_object_record_read')
+);

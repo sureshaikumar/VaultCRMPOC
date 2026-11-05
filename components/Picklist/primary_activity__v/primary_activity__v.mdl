@@ -1,0 +1,21 @@
+RECREATE Picklist primary_activity__v (
+   label('Primary Activity'),
+   active(true),
+   Picklistentry(@Picklistentry/check_in_complete__v.mdl),
+   Picklistentry(@Picklistentry/check_in_not_available__v.mdl),
+   Picklistentry(@Picklistentry/check_in_voicemail__v.mdl),
+   Picklistentry(@Picklistentry/check_in_wrong_number__v.mdl),
+   Picklistentry(@Picklistentry/check_in_overdue__v.mdl),
+   Picklistentry(@Picklistentry/check_in_attempted_retry_later_today__v.mdl),
+   Picklistentry(@Picklistentry/check_in_attempted_retry_planned__v.mdl),
+   Picklistentry(@Picklistentry/check_in_calls_stopped__v.mdl),
+   Picklistentry(@Picklistentry/check_in_calls_restarted__v.mdl),
+   Picklistentry(@Picklistentry/check_ins_user_updated__v.mdl),
+   Picklistentry(@Picklistentry/check_in_cadence_updated__v.mdl),
+   Picklistentry(@Picklistentry/check_in_date_updated__v.mdl),
+   Picklistentry(@Picklistentry/next_check_in_date_updated__v.mdl),
+   Picklistentry(@Picklistentry/new__v.mdl),
+   Picklistentry(@Picklistentry/enrolled_in_check_in_calls__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

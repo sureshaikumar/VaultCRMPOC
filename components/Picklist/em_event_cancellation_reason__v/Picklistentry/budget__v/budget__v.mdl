@@ -1,0 +1,5 @@
+Picklistentry budget__v (
+   value('Budget'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry pamps__v (
+   value('Psychiatry and Medical Psychology'),
+   order(1611),
+   active(true),
+   controlling_entries('am__v')
+);

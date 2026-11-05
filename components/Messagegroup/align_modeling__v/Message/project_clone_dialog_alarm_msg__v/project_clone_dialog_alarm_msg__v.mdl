@@ -1,0 +1,6 @@
+Message project_clone_dialog_alarm_msg__v (
+   label(),
+   active(true),
+   default_value('Cloning this project will clone all Territory, Field Force, and Footprint models associated with it, and their child objects.'),
+   system_managed(false)
+);

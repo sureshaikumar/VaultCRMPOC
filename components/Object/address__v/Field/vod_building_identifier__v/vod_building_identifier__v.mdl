@@ -1,0 +1,19 @@
+Field vod_building_identifier__v (
+   label('OpenData Building Identifier'),
+   type('String'),
+   active(true),
+   description('An OpenData managed identifier that can be used to find similar addresses. It is a combination of the values in the premise, thoroughfare and postal_code fields.'),
+   required(false),
+   unique(false),
+   max_length(150),
+   help_content(),
+   list_column(false),
+   order(105),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

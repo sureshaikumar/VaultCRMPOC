@@ -1,0 +1,11 @@
+Objectlifecyclestate approved__v (
+   label('Approved'),
+   active(true),
+   record_inactive(),
+   record_status('inactive__v'),
+   description('This is the state that all territory models must be in before a project can be Published.
+Territory Models in this state can no longer be edited, unless they are moved back to Draft.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

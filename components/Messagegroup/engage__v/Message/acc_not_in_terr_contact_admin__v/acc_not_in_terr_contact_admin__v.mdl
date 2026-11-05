@@ -1,0 +1,6 @@
+Message acc_not_in_terr_contact_admin__v (
+   label(),
+   active(true),
+   default_value('This account is not in your territory. Contact your administrator to add this account to your territory to begin messaging.'),
+   system_managed(false)
+);

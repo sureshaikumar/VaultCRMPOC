@@ -1,0 +1,6 @@
+Message vmi_details_section__v (
+   label(),
+   active(true),
+   default_value('Details'),
+   system_managed(false)
+);

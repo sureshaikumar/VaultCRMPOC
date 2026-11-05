@@ -1,0 +1,6 @@
+Message schedule_activation_subheader__v (
+   label(),
+   active(true),
+   default_value('Select a date and time to activate campaign'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message filler_check_on_that__v (
+   label(),
+   active(true),
+   default_value('Let me check on that...'),
+   system_managed(false)
+);

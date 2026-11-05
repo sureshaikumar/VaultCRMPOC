@@ -1,0 +1,8 @@
+Typefield meeting_request_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.meeting_request_status__v.accepted__v',
+         'Picklist.meeting_request_status__v.declined__v',
+         'Picklist.meeting_request_status__v.requested__v',
+         'Picklist.meeting_request_status__v.reschedule_requested__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry inactive__v (
+   value('INACTIVE'),
+   order(2),
+   active(true)
+);

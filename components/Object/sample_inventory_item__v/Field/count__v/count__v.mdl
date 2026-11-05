@@ -1,0 +1,22 @@
+Field count__v (
+   label('Count'),
+   type('Number'),
+   active(true),
+   description('Count represents the user entered physical count  for a Sample Lot as part of a Sample Inventory Item.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

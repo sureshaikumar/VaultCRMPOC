@@ -1,0 +1,4 @@
+Typefield feature_key__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,6 @@
+Message filter_partial_results__v (
+   label(),
+   active(true),
+   default_value('Displaying partial list of items. Type into the field to search all.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message javax_validation_not_null_msg__v (
+   label(),
+   active(true),
+   default_value('This field is required.'),
+   system_managed(false)
+);

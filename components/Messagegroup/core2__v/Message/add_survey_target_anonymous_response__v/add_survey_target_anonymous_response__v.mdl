@@ -1,0 +1,6 @@
+Message add_survey_target_anonymous_response__v (
+   label(),
+   active(true),
+   default_value('Complete a survey without an account'),
+   system_managed(false)
+);

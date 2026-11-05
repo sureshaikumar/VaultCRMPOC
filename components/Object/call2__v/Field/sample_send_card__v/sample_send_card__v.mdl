@@ -1,0 +1,19 @@
+Field sample_send_card__v (
+   label('Sample Send Card #'),
+   type('String'),
+   active(true),
+   description('Sample send card number if a disbursement was made with a sample send card.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(110),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

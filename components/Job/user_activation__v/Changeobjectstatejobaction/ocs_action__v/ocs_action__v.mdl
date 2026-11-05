@@ -1,0 +1,8 @@
+Changeobjectstatejobaction ocs_action__v (
+   destination_state('user__sys.vault_membership_lifecycle__sys.active_state__sys'),
+   conditions('{"lhs":"Today()","operator":">=","rhs":["Trigger date","+","0"],"expressionType":"TRIGGER_DATE_TYPE","type":"Expression"}'),
+   label('User Account Activation'),
+   object('user__sys'),
+   primary_action(true),
+   terminate_existing_workflows(false)
+);

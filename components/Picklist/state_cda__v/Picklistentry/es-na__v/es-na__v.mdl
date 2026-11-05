@@ -1,0 +1,6 @@
+Picklistentry es-na__v (
+   value('Navarra'),
+   order(1235),
+   active(true),
+   controlling_entries('es__v')
+);

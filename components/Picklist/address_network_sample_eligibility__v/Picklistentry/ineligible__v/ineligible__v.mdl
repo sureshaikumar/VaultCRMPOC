@@ -1,0 +1,5 @@
+Picklistentry ineligible__v (
+   value('Ineligible'),
+   order(1),
+   active(true)
+);

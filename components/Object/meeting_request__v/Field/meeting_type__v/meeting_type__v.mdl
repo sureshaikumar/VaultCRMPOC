@@ -1,0 +1,18 @@
+Field meeting_type__v (
+   label('Meeting Type'),
+   type('Picklist'),
+   active(true),
+   description('Specifies the Meeting Type as requested from the booking site.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.channels__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

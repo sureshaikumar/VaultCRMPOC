@@ -1,0 +1,6 @@
+Picklistentry si-203__v (
+   value('Straža'),
+   order(4176),
+   active(true),
+   controlling_entries('si__v')
+);

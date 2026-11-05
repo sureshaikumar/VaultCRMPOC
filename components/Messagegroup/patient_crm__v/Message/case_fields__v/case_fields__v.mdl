@@ -1,0 +1,6 @@
+Message case_fields__v (
+   label(),
+   active(true),
+   default_value('Case Fields'),
+   system_managed(false)
+);

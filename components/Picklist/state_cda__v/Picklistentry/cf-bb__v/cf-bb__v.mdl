@@ -1,0 +1,6 @@
+Picklistentry cf-bb__v (
+   value('Bamingui-Bangoran'),
+   order(599),
+   active(true),
+   controlling_entries('cf__v')
+);

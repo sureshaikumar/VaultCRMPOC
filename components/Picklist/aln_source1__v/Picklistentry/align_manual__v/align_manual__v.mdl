@@ -1,0 +1,5 @@
+Picklistentry align_manual__v (
+   value('Align Manual'),
+   order(2),
+   active(true)
+);

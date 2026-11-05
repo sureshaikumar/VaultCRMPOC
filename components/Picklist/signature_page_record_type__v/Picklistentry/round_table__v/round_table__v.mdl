@@ -1,0 +1,5 @@
+Picklistentry round_table__v (
+   value('Round Table'),
+   order(2),
+   active(true)
+);

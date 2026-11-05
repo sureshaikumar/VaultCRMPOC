@@ -1,0 +1,4 @@
+Typefield check_in_detail__v (
+   source('standard'),
+   required(true)
+);

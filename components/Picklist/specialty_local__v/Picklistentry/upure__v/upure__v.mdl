@@ -1,0 +1,6 @@
+Picklistentry upure__v (
+   value('Urology Pediatric Urology'),
+   order(1908),
+   active(true),
+   controlling_entries('id__v')
+);

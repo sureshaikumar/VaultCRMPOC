@@ -1,0 +1,21 @@
+Field detail_group_name__v (
+   label('Detail Group'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Detail Group label from the Cycle Product'),
+   list_column(false),
+   order(41),
+   formula('Text(cycle_product__vr.detail_group__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

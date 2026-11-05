@@ -1,0 +1,6 @@
+Message mc_cycle_channel_product_weight_of__v (
+   label(),
+   active(true),
+   default_value('Product Weight of {0}'),
+   system_managed(false)
+);

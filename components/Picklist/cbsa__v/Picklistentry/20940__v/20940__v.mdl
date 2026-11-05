@@ -1,0 +1,5 @@
+Picklistentry 20940__v (
+   value('El Centro, CA Metropolitan Statistical Area'),
+   order(699),
+   active(true)
+);

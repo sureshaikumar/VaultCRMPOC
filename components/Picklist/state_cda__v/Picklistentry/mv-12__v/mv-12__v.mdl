@@ -1,0 +1,6 @@
+Picklistentry mv-12__v (
+   value('Mulaku Atoll'),
+   order(3195),
+   active(true),
+   controlling_entries('mv__v')
+);

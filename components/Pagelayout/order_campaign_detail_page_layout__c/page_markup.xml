@@ -1,0 +1,36 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.order_campaign__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="account_group__v" />
+            <vault:field reference="account_type__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="default__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="order_campaign_bound__v" />
+            <vault:field reference="order_record_type__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Orders" name="orders__c">
+        <vault:relatedObject relationship="orders__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Pricing Rules" name="pricing_rules__c">
+        <vault:relatedObject relationship="pricing_rules__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

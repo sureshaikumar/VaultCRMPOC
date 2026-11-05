@@ -1,0 +1,6 @@
+Message alignment_results_target__v (
+   label(),
+   active(true),
+   default_value('Target'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Picklist product_category__v (
+   label('Product Category'),
+   active(true),
+   Picklistentry(@Picklistentry/pharmaceutical_product__v.mdl),
+   Picklistentry(@Picklistentry/biologics__v.mdl),
+   Picklistentry(@Picklistentry/vaccine__v.mdl),
+   Picklistentry(@Picklistentry/medical_device__v.mdl),
+   Picklistentry(@Picklistentry/in_vitro_diagnostic_device__v.mdl),
+   Picklistentry(@Picklistentry/cosmetic__v.mdl),
+   Picklistentry(@Picklistentry/supplements__v.mdl),
+   Picklistentry(@Picklistentry/generic__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry rdaif__v (
+   value('Radionuclide Diagnostics'),
+   order(1700),
+   active(true),
+   controlling_entries('ua__v')
+);

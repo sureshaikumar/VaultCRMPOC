@@ -1,0 +1,5 @@
+Picklistentry iphone__v (
+   value('iPhone'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field api_name__sys (
+   label('API Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

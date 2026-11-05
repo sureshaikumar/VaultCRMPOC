@@ -1,0 +1,6 @@
+Message media_one_zip_file__v (
+   label(),
+   active(true),
+   default_value('Media (Attach as 1 ZIP file)'),
+   system_managed(false)
+);

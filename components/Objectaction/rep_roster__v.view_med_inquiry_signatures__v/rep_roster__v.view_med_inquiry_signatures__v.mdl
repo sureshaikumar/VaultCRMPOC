@@ -1,0 +1,8 @@
+RECREATE Objectaction rep_roster__v.view_med_inquiry_signatures__v (
+   label('View Medical Inquiry Signatures'),
+   description('Record action to view the Account Signatures for Medical Inquiries logged by the User.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.reproster.actions.ViewMedicalInquirySignatureAction'),
+   active(true),
+   available_all_states(true)
+);

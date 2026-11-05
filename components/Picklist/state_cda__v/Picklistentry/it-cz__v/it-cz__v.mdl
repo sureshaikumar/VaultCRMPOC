@@ -1,0 +1,6 @@
+Picklistentry it-cz__v (
+   value('Catanzaro'),
+   order(2203),
+   active(true),
+   controlling_entries('it__v')
+);

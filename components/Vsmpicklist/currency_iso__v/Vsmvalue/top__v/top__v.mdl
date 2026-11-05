@@ -1,0 +1,9 @@
+Vsmvalue top__v (
+   label('TOP'),
+   active(true),
+   description('Applies when transactions are denominated in the Tongan Paʻanga, the official currency of the Kingdom of Tonga.'),
+   synonyms('Tongan paʻanga',
+         'Tonga currency'),
+   target('top__sys'),
+   target_label('TOP')
+);

@@ -1,0 +1,6 @@
+Message summary__v (
+   label(),
+   active(true),
+   default_value('Summary'),
+   system_managed(false)
+);

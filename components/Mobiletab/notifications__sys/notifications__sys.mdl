@@ -1,0 +1,9 @@
+RECREATE Mobiletab notifications__sys (
+   label('Notifications'),
+   active(true),
+   icon('vv_notifications'),
+   minimum_app_version('22.2.3'),
+   mobile_label('Notifications'),
+   order(4),
+   page()
+);

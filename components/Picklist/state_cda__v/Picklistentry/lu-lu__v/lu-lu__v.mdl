@@ -1,0 +1,6 @@
+Picklistentry lu-lu__v (
+   value('Luxembourg'),
+   order(2695),
+   active(true),
+   controlling_entries('lu__v')
+);

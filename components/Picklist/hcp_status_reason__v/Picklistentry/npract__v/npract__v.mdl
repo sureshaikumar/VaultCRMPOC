@@ -1,0 +1,5 @@
+Picklistentry npract__v (
+   value('Non-practicing and contributing'),
+   order(2),
+   active(true)
+);

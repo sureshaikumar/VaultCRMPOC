@@ -1,0 +1,4 @@
+Typefield photo_upload_status_details__v (
+   source('custom'),
+   required(false)
+);

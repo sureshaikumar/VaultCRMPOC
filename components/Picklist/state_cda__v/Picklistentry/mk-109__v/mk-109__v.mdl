@@ -1,0 +1,6 @@
+Picklistentry mk-109__v (
+   value('Čaška'),
+   order(2972),
+   active(true),
+   controlling_entries('mk__v')
+);

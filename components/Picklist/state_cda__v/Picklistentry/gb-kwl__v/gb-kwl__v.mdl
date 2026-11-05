@@ -1,0 +1,6 @@
+Picklistentry gb-kwl__v (
+   value('Knowsley'),
+   order(1550),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry nneeu__v (
+   value('Neurology Neurodegenerative'),
+   order(1020),
+   active(true),
+   controlling_entries('id__v')
+);

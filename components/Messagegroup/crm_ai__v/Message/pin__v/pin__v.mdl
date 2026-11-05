@@ -1,0 +1,6 @@
+Message pin__v (
+   label(),
+   active(true),
+   default_value('Pin'),
+   system_managed(false)
+);

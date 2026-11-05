@@ -1,0 +1,22 @@
+Field channel_interactions_actual__v (
+   label('Channel Interactions Actual'),
+   type('Number'),
+   active(true),
+   description('Channel Actual Activity x Cycle Channel Weight'),
+   required(false),
+   unique(false),
+   max_value(999999999.99),
+   min_value(0),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

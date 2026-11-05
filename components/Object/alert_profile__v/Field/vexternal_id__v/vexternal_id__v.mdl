@@ -1,0 +1,19 @@
+Field vexternal_id__v (
+   label('Veeva External ID'),
+   type('String'),
+   active(true),
+   description('System set to prevent creation of duplicate profiles for a given Alert. Value will be set to alert__v + __ + application_profile__v'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

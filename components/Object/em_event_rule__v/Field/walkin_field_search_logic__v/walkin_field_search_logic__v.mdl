@@ -1,0 +1,17 @@
+Field walkin_field_search_logic__v (
+   label('Search Logic'),
+   type('LongText'),
+   active(true),
+   description('Field that stores the search logic that is used when custom scoring is applied to attendee reconciliation searches performed against walk-ins that don''t have a type.'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(55),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 21860__v (
+   value('Fairmont, MN Micropolitan Statistical Area'),
+   order(94),
+   active(true)
+);

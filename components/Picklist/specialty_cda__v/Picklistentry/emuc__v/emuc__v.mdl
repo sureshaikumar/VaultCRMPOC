@@ -1,0 +1,5 @@
+Picklistentry emuc__v (
+   value('Urgent Care Medicine'),
+   order(96),
+   active(true)
+);

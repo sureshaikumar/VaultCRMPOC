@@ -1,0 +1,5 @@
+Picklistentry existing_product_name__c (
+   value('existing_product_name'),
+   order(2),
+   active(true)
+);

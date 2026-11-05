@@ -1,0 +1,22 @@
+RECREATE Notificationtemplate cascadedeletefailure__v (
+   label('CascadeDeleteFailureTemplate'),
+   active(true),
+   description('Cascade Delete Failure Notifications template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Delete Job Terminated Unexpectedly'),
+   notification('<p> Your Delete Record job has terminated unexpectedly </p>
+<p> Details </p>
+<ul>
+<li> Delete ${objectName} record: &quot;${recordName}&quot; ended unexpectedly. Some records were deleted but not all records in the hierarchy were deleted <br>
+${objectHierarchy} </li>
+<li> Start Time: ${startTime} </li>
+<li> Duration : ${duration} </li>
+<li> ${successCountLink} </li>
+<li> ${failureCountLink} </li>
+</ul>
+'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

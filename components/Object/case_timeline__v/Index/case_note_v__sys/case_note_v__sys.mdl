@@ -1,0 +1,5 @@
+Index case_note_v__sys (
+   description(),
+   fields('case_note__v'),
+   label('Case Note')
+);

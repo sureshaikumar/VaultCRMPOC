@@ -1,0 +1,15 @@
+RECREATE Tab html_report__c (
+   active(true),
+   all_view_label('All HTML Report'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('HTML Report'),
+   modal_create_record(false),
+   my_view_label('My HTML Report'),
+   object('html_report__v'),
+   order(4100),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent HTML Report')
+);

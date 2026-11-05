@@ -1,0 +1,11 @@
+Picklistentry histo__v (
+   value('Histopathology'),
+   order(711),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v',
+         'kw__v',
+         'mt__v',
+         'nz__v',
+         'pk__v')
+);

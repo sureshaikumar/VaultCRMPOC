@@ -1,0 +1,5 @@
+Picklistentry fon (
+   value('Fon'),
+   order(181),
+   active(true)
+);

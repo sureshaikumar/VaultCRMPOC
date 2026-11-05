@@ -1,0 +1,5 @@
+Picklistentry 12300__v (
+   value('Augusta-Waterville, ME Micropolitan Statistical Area'),
+   order(768),
+   active(true)
+);

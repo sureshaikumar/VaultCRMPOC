@@ -1,0 +1,6 @@
+Picklistentry smeex__v (
+   value('Sexual Medicine'),
+   order(1768),
+   active(true),
+   controlling_entries('th__v')
+);

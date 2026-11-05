@@ -1,0 +1,6 @@
+Message cycle_utilization_reach_percent__v (
+   label(),
+   active(true),
+   default_value('REACH %'),
+   system_managed(false)
+);

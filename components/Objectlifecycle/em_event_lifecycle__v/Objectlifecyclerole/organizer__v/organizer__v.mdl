@@ -1,0 +1,5 @@
+Objectlifecyclerole organizer__v (
+   active(true),
+   application_role('Applicationrole.organizer__v'),
+   permissions()
+);

@@ -1,0 +1,14 @@
+Vsmfield user__v (
+   label('User'),
+   active(true),
+   description('The Vault user associated with this role setup record. Identifies which user has been granted the specified role. Use this field to look up all role assignments for a specific user or to audit user access.'),
+   example_values(),
+   synonyms('assigned user',
+         'person',
+         'vault user',
+         'who'),
+   target('user__v'),
+   target_label('User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

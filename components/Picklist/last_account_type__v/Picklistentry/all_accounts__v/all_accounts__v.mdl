@@ -1,0 +1,5 @@
+Picklistentry all_accounts__v (
+   value('All Accounts'),
+   order(0),
+   active(true)
+);

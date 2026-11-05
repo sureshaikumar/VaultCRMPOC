@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_speaker_qualification__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="contract_partner_status__v" />
+            <vault:field reference="contract_status__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="rate_type__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="rate__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="ctrl_contract__v" />
+            <vault:field reference="contract_line__v" />
+            <vault:field reference="qualification__v" />
+            <vault:field reference="speaker__v" />
+            <vault:field reference="vendor__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="qualification_name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

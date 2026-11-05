@@ -1,0 +1,6 @@
+Sdkbatchjobaction sms_sync_job__v (
+   job_metadata('Jobmetadata.sms_sync_job__v'),
+   label('SMS Sync Job'),
+   parameters(),
+   primary_action(true)
+);

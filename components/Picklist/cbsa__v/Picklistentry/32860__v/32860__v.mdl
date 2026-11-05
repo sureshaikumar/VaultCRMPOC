@@ -1,0 +1,5 @@
+Picklistentry 32860__v (
+   value('Menomonie, WI Micropolitan Statistical Area'),
+   order(761),
+   active(true)
+);

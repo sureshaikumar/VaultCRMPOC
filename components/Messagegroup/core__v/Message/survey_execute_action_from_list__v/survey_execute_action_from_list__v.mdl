@@ -1,0 +1,6 @@
+Message survey_execute_action_from_list__v (
+   label(),
+   active(true),
+   default_value('Please answer survey questions before executing this action.'),
+   system_managed(false)
+);

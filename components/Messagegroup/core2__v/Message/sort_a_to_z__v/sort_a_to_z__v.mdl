@@ -1,0 +1,6 @@
+Message sort_a_to_z__v (
+   label(),
+   active(true),
+   default_value('Sort A to Z'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message generate_postal_codes_select_country__v (
+   label(),
+   active(true),
+   default_value('Select a country'),
+   system_managed(false)
+);

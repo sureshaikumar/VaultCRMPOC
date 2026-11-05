@@ -1,0 +1,5 @@
+Picklistentry jury_duty__v (
+   value('Jury Duty'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message overlap_existing__v (
+   label(),
+   active(true),
+   default_value('Record overlapping with existing ${id}.'),
+   system_managed(false)
+);

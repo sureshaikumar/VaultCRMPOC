@@ -1,0 +1,6 @@
+Message journey_scheduled__v (
+   label(),
+   active(true),
+   default_value('Journey Scheduled'),
+   system_managed(false)
+);

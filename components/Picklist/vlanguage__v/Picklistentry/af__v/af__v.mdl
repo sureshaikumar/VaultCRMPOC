@@ -1,0 +1,5 @@
+Picklistentry af__v (
+   value('Afrikaans'),
+   order(7),
+   active(false)
+);

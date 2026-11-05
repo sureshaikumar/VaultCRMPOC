@@ -1,0 +1,5 @@
+Picklistentry america_santiago__v (
+   value('Chile Time'),
+   order(86),
+   active(true)
+);

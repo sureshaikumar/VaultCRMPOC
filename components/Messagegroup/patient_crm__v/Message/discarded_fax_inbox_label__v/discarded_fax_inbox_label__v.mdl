@@ -1,0 +1,6 @@
+Message discarded_fax_inbox_label__v (
+   label(),
+   active(true),
+   default_value('Discarded Faxes'),
+   system_managed(false)
+);

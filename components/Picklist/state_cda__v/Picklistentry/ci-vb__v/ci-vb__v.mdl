@@ -1,0 +1,6 @@
+Picklistentry ci-vb__v (
+   value('Vallée du Bandama'),
+   order(663),
+   active(true),
+   controlling_entries('ci__v')
+);

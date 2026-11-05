@@ -1,0 +1,6 @@
+Message no_hot_list_available__v (
+   label(),
+   active(true),
+   default_value('No Hot List Available'),
+   system_managed(false)
+);

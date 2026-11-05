@@ -1,0 +1,8 @@
+RECREATE Picklist em_business_rule_distance_unit_type__v (
+   label('Distance Unit Type'),
+   active(true),
+   Picklistentry(@Picklistentry/kilometers__v.mdl),
+   Picklistentry(@Picklistentry/miles__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

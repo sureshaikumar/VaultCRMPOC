@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate microsoft_reauth_notification__v (
+   label('Microsoft Re-auth notification'),
+   active(true),
+   description('Notifies a user when they are required to sign back in to access Microsoft 365 features.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('null'),
+   notification('You have been signed out of Microsoft. Sign back in to access Microsoft features.<br><a href="${Custom.vault_dns}/?microsoft-auth=true" target="_blank">Sign In</a>'),
+   email_body('null'),
+   entity_type('custom'),
+   notification_category('none__sys')
+);

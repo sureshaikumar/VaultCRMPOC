@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.require_end_date__v (
+   label('Require End Date'),
+   active(true),
+   expression('Not(IsBlank(end_date__v))'),
+   description('Require an End Date.'),
+   error_message('This field is required'),
+   error_location('end_date__v')
+);

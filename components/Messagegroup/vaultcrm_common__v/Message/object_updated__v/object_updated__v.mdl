@@ -1,0 +1,6 @@
+Message object_updated__v (
+   label(),
+   active(true),
+   default_value('${object_label} Updated'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry th-72__v (
+   value('Suphan Buri'),
+   order(4385),
+   active(true),
+   controlling_entries('th__v')
+);

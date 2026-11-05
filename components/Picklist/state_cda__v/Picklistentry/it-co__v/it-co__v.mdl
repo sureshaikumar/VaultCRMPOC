@@ -1,0 +1,6 @@
+Picklistentry it-co__v (
+   value('Como'),
+   order(2199),
+   active(true),
+   controlling_entries('it__v')
+);

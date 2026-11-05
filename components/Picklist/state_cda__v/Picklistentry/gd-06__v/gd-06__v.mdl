@@ -1,0 +1,6 @@
+Picklistentry gd-06__v (
+   value('Saint Patrick'),
+   order(1674),
+   active(true),
+   controlling_entries('gd__v')
+);

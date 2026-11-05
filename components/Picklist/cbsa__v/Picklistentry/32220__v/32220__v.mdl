@@ -1,0 +1,5 @@
+Picklistentry 32220__v (
+   value('Marshall, TX Micropolitan Statistical Area'),
+   order(679),
+   active(true)
+);

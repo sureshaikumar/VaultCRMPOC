@@ -1,0 +1,10 @@
+Vsmvalue object_lifecycle_state__v (
+   label('Object Lifecycle State'),
+   active(true),
+   description('Use when the reference field should look up available lifecycle states associated with a Vault object, allowing users to reference a specific stage in an object''s lifecycle.'),
+   synonyms('object state',
+         'record status',
+         'object workflow state'),
+   target('object_lifecycle_state__sys'),
+   target_label('Object Lifecycle State')
+);

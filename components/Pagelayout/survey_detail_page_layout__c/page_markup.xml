@@ -1,0 +1,45 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.survey__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="survey_status__v" />
+            <vault:field reference="channels__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="autotarget__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Assignment Rules" name="assignment_rules__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="assignment_type__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="open__v" />
+            <vault:field reference="territories__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Questions" name="questions_section__c" reference="questions_section__v">
+        <vault:bind property="qbo" value="false" />
+    </vault:section>
+    <vault:section title="Segments" name="segments_section__c" reference="segments_section__v" />
+    <vault:section title="Targets" name="targets_section__c" reference="targets_section__v" />
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry 42780__v (
+   value('Selinsgrove, PA Micropolitan Statistical Area'),
+   order(517),
+   active(true)
+);

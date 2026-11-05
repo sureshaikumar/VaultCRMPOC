@@ -1,0 +1,6 @@
+Picklistentry fr-23__v (
+   value('Creuse'),
+   order(1337),
+   active(true),
+   controlling_entries('fr__v')
+);

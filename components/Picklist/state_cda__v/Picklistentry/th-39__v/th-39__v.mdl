@@ -1,0 +1,6 @@
+Picklistentry th-39__v (
+   value('Nong Bua Lam Phu'),
+   order(4355),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,6 @@
+Message assigned_to_flow_name__v (
+   label(),
+   active(true),
+   default_value('Assigned to ${flow_name}'),
+   system_managed(false)
+);

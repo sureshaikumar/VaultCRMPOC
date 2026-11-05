@@ -1,0 +1,18 @@
+Field registration_type__v (
+   label('Registration Type'),
+   type('Picklist'),
+   active(true),
+   description('Denotes whether the registration form is open (allowing unknown registrants) or closed (restricted to known CRM recipients).'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(32),
+   multi_value(false),
+   picklist('Picklist.em_catalog_registration_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry it-ta__v (
+   value('Taranto'),
+   order(2264),
+   active(true),
+   controlling_entries('it__v')
+);

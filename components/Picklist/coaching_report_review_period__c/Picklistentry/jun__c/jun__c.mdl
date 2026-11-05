@@ -1,0 +1,5 @@
+Picklistentry jun__c (
+   value('Jun'),
+   order(10),
+   active(true)
+);

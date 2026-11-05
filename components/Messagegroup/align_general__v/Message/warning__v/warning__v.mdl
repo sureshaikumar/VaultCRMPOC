@@ -1,0 +1,6 @@
+Message warning__v (
+   label(),
+   active(true),
+   default_value('Warning: Geography records of type {0} for {1} will have their Map Shape values erased and overridden.'),
+   system_managed(false)
+);

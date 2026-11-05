@@ -1,0 +1,7 @@
+Picklistentry odret__v (
+   value('Orthopedic Dentistry'),
+   order(1202),
+   active(true),
+   controlling_entries('az__v',
+         'ua__v')
+);

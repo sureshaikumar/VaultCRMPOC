@@ -1,0 +1,5 @@
+Picklistentry 11180__v (
+   value('Ames, IA Metropolitan Statistical Area'),
+   order(662),
+   active(true)
+);

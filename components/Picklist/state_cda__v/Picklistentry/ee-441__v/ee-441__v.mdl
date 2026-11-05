@@ -1,0 +1,6 @@
+Picklistentry ee-441__v (
+   value('Lääne-Nigula'),
+   order(1095),
+   active(true),
+   controlling_entries('ee__v')
+);

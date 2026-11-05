@@ -1,0 +1,5 @@
+Picklistentry sv (
+   value('Swedish'),
+   order(27),
+   active(true)
+);

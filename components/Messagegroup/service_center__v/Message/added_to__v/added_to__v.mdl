@@ -1,0 +1,6 @@
+Message added_to__v (
+   label(),
+   active(true),
+   default_value('Added to'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field disable_affiliation_autocreate__v (
+   label('Disable Affiliation Autocreate'),
+   type('Boolean'),
+   active(true),
+   description('Prevents the creation of an Affiliation when creating a new account using the New Record Type Wizard or Parent Account Wizard.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(111),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry ma-laa__v (
+   value('Laâyoune (EH)'),
+   order(2814),
+   active(true),
+   controlling_entries('ma__v')
+);

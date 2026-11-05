@@ -1,0 +1,5 @@
+Picklistentry ve__v (
+   value('VE'),
+   order(238),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_introduction_section__sys (
+   value('Introduction Section'),
+   order(83),
+   active(true),
+   controlling_entries('olc_section_design__sys')
+);

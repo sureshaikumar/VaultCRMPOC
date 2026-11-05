@@ -1,0 +1,6 @@
+Message api_token_regenerate_link__v (
+   label(),
+   active(true),
+   default_value('Regenerate'),
+   system_managed(false)
+);

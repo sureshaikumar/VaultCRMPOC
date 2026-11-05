@@ -1,0 +1,6 @@
+Message clear_all_fields__v (
+   label(),
+   active(true),
+   default_value('Clear All Fields'),
+   system_managed(false)
+);

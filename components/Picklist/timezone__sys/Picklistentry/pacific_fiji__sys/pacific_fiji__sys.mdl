@@ -1,0 +1,5 @@
+Picklistentry pacific_fiji__sys (
+   value('(GMT+12:00) Fiji Time (Pacific/Fiji)'),
+   order(303),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry kn-n__v (
+   value('Nevis'),
+   order(2456),
+   active(true),
+   controlling_entries('kn__v')
+);

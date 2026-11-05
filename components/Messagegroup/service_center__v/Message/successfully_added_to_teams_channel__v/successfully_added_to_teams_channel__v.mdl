@@ -1,0 +1,6 @@
+Message successfully_added_to_teams_channel__v (
+   label(),
+   active(true),
+   default_value('You have been successfully added to a Teams Channel for ${subject}'),
+   system_managed(false)
+);

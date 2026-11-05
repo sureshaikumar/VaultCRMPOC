@@ -1,0 +1,6 @@
+Message insufficient_access_error__v (
+   label(),
+   active(true),
+   default_value('Insufficient access. Contact your administrator.'),
+   system_managed(false)
+);

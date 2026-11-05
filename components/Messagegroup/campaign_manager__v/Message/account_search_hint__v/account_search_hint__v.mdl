@@ -1,0 +1,6 @@
+Message account_search_hint__v (
+   label(),
+   active(true),
+   default_value('Search by name, specialty, etc.'),
+   system_managed(false)
+);

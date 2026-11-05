@@ -1,0 +1,6 @@
+Picklistentry ye-sh__v (
+   value('Shabwah'),
+   order(5013),
+   active(true),
+   controlling_entries('ye__v')
+);

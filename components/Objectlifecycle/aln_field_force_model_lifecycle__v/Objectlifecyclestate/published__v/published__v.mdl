@@ -1,0 +1,10 @@
+Objectlifecyclestate published__v (
+   label('Published'),
+   active(true),
+   record_inactive(),
+   record_status('inactive__v'),
+   description('Field Force models in this state have been published to production and can no longer be edited.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

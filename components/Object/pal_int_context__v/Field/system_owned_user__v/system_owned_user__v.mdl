@@ -1,0 +1,19 @@
+Field system_owned_user__v (
+   label('System Owned User'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(64),
+   help_content(),
+   list_column(true),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

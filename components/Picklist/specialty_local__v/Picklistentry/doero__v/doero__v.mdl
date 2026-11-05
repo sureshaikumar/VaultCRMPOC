@@ -1,0 +1,6 @@
+Picklistentry doero__v (
+   value('Dentofacial Orthopedics'),
+   order(387),
+   active(true),
+   controlling_entries('dz__v')
+);

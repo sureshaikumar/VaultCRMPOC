@@ -1,0 +1,6 @@
+Picklistentry eg-alx__v (
+   value('Al Iskandarīyah'),
+   order(1158),
+   active(true),
+   controlling_entries('eg__v')
+);

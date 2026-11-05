@@ -1,0 +1,6 @@
+Message check_action__v (
+   label(),
+   active(true),
+   default_value('Check Action'),
+   system_managed(false)
+);

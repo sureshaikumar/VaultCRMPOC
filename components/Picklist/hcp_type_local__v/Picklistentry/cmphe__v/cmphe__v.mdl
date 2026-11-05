@@ -1,0 +1,5 @@
+Picklistentry cmphe__v (
+   value('Chinese medicine practitioner'),
+   order(20),
+   active(true)
+);

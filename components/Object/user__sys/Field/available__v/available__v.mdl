@@ -1,0 +1,19 @@
+Field available__v (
+   label('Available'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates the user’s availability to have a remote interaction (i.e. Facetime video chat). Values: Available_vod, Unavailable_vod, On Call_vod.'),
+   list_column(false),
+   order(59),
+   multi_value(false),
+   picklist('Picklist.user_available__v'),
+   default_value('{unavailable__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

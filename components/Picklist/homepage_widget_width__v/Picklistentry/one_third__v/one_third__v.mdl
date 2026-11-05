@@ -1,0 +1,5 @@
+Picklistentry one_third__v (
+   value('1/3'),
+   order(0),
+   active(true)
+);

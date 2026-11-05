@@ -1,0 +1,6 @@
+Message phone_channel__v (
+   label(),
+   active(true),
+   default_value('Phone'),
+   system_managed(false)
+);

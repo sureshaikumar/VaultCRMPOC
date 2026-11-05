@@ -1,0 +1,6 @@
+Picklistentry chapn__v (
+   value('Child Health and Pediatric Nursing'),
+   order(197),
+   active(true),
+   controlling_entries('pt__v')
+);

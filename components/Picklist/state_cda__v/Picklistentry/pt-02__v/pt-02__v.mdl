@@ -1,0 +1,6 @@
+Picklistentry pt-02__v (
+   value('Beja'),
+   order(3655),
+   active(true),
+   controlling_entries('pt__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry sv-ch__v (
+   value('Chalatenango'),
+   order(4270),
+   active(true),
+   controlling_entries('sv__v')
+);

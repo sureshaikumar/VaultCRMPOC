@@ -1,0 +1,6 @@
+Picklistentry mw-ba__v (
+   value('Balaka'),
+   order(3208),
+   active(true),
+   controlling_entries('mw__v')
+);

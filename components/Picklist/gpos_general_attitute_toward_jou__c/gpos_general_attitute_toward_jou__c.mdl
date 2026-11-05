@@ -1,0 +1,9 @@
+RECREATE Picklist gpos_general_attitute_toward_jou__c (
+   label('GPO''s General Attitute Toward JOU?'),
+   active(true),
+   Picklistentry(@Picklistentry/positive__c.mdl),
+   Picklistentry(@Picklistentry/neutral__c.mdl),
+   Picklistentry(@Picklistentry/negative__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

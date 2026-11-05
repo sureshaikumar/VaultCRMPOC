@@ -1,0 +1,6 @@
+Picklistentry pe-anc__v (
+   value('Ancash'),
+   order(3469),
+   active(true),
+   controlling_entries('pe__v')
+);

@@ -1,0 +1,17 @@
+Field llm_call_custom_fields__v (
+   label('LLM Call Custom Fields'),
+   type('LongText'),
+   active(true),
+   description('Customer opt-in list of custom (__c) fields to include in the custom fields section of the markdown.'),
+   required(false),
+   max_length(32000),
+   help_content('Semi-colon delimited list of API names of custom fields to include in the LLM Call.'),
+   list_column(false),
+   order(358),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

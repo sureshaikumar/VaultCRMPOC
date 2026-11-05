@@ -1,0 +1,6 @@
+Message no_action_for_aborted_process__v (
+   label(),
+   active(true),
+   default_value('It is not required for you to take any action, as the scope of your ${process_type} is covered by the scheduled job.'),
+   system_managed(false)
+);

@@ -1,0 +1,3 @@
+Typeaction business_portals__v (
+   action('account_plan__v.business_portals__v')
+);

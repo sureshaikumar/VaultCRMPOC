@@ -1,0 +1,18 @@
+Field delivery_status__v (
+   label('Delivery Status'),
+   type('Picklist'),
+   active(true),
+   description('Contains a list of possible statuses for a Call Sample.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.call2_sample_delivery_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

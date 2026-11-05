@@ -1,0 +1,24 @@
+Field parent_name__v (
+   label('Parent Name'),
+   type('String'),
+   active(true),
+   description('The Account formatted_name__v for the Parent Account.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(34),
+   formula('If(parent_account__vr.ispersonaccount__v, parent_account__vr.last_name_cda__v & ", " &
+        If(Not(IsBlank(parent_account__vr.first_name_cda__v)), parent_account__vr.first_name_cda__v & " ", "") &
+        If(IsBlank(parent_account__vr.suffix_cda__v), "", parent_account__vr.suffix_cda__v),
+        parent_account__vr.name__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

@@ -1,0 +1,22 @@
+RECREATE Job pal_token_management_job__v (
+   active(true),
+   active_after_clone(true),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('PAL Integration Token Management'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/pal_token_management_job__v.mdl),
+   time('2:00'),
+   timezone(),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(true),
+   week_day(),
+   week_number(0)
+);

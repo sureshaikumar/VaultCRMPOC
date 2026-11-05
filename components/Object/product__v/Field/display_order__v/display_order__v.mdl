@@ -1,0 +1,22 @@
+Field display_order__v (
+   label('Display Order'),
+   type('Number'),
+   active(true),
+   description('The order (top to bottom) that the product will be displayed in. The absolute number is not important, but lower numbered products are displayed above of higher numbered products.'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(-99999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 30820__v (
+   value('Lock Haven, PA Micropolitan Statistical Area'),
+   order(478),
+   active(true)
+);

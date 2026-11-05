@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.directory__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="parent_directory__v" />
+            <vault:field reference="level__v" />
+            <vault:field reference="display_order__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="external_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

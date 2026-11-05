@@ -1,0 +1,10 @@
+Vsmvalue mur__v (
+   label('MUR'),
+   active(true),
+   description('The official currency of Mauritius (MUR), used for all financial transactions on the island nation in the Indian Ocean.'),
+   synonyms('Mauritian rupee',
+         'Mauritius rupee',
+         'MUR'),
+   target('mur__sys'),
+   target_label('MUR')
+);

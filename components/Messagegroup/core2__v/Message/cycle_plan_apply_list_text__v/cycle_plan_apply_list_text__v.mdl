@@ -1,0 +1,6 @@
+Message cycle_plan_apply_list_text__v (
+   label(),
+   active(true),
+   default_value('Select an account list to add as target accounts'),
+   system_managed(false)
+);

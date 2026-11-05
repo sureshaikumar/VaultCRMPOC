@@ -1,0 +1,5 @@
+Picklistentry olc_medical_interaction__sys (
+   value('Medical Interaction'),
+   order(53),
+   active(true)
+);

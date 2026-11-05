@@ -1,0 +1,6 @@
+Message manage_mobile_objects__v (
+   label(),
+   active(true),
+   default_value('Manage Mobile Objects'),
+   system_managed(false)
+);

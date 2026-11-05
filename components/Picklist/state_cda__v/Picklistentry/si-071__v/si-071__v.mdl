@@ -1,0 +1,6 @@
+Picklistentry si-071__v (
+   value('Medvode'),
+   order(4045),
+   active(true),
+   controlling_entries('si__v')
+);

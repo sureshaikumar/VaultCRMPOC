@@ -1,0 +1,6 @@
+Index name_v__sys (
+   description(),
+   fields('name__v',
+         'agent_instance__sys'),
+   label('Name')
+);

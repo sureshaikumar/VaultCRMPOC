@@ -1,0 +1,6 @@
+Message journey_builder__v (
+   label(),
+   active(true),
+   default_value('Journey Builder'),
+   system_managed(false)
+);

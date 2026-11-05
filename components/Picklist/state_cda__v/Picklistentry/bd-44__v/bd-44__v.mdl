@@ -1,0 +1,6 @@
+Picklistentry bd-44__v (
+   value('Natore'),
+   order(273),
+   active(true),
+   controlling_entries('bd__v')
+);

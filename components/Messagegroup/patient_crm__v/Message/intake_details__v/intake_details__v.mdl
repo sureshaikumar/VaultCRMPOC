@@ -1,0 +1,6 @@
+Message intake_details__v (
+   label(),
+   active(true),
+   default_value('Intake Details'),
+   system_managed(false)
+);

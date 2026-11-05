@@ -1,0 +1,5 @@
+Picklistentry 12860__v (
+   value('Batavia, NY Micropolitan Statistical Area'),
+   order(852),
+   active(true)
+);

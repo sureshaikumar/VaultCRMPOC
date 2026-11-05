@@ -1,0 +1,7 @@
+Typefield type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_plan_type__c.local__c',
+         'Picklist.account_plan_type__c.national__c',
+         'Picklist.account_plan_type__c.regional__c')
+);

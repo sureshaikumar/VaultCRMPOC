@@ -1,0 +1,6 @@
+Picklistentry nl-bq1__v (
+   value('Bonaire'),
+   order(3375),
+   active(true),
+   controlling_entries('nl__v')
+);

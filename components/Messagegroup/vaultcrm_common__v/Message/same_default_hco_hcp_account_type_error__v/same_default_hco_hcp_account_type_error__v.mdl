@@ -1,0 +1,6 @@
+Message same_default_hco_hcp_account_type_error__v (
+   label(),
+   active(true),
+   default_value('The values for Default HCO and HCP Account Type cannot be the same.'),
+   system_managed(false)
+);

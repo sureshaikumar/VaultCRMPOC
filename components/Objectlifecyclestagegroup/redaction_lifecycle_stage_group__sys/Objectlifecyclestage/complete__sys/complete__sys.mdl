@@ -1,0 +1,7 @@
+Objectlifecyclestage complete__sys (
+   label('Complete'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.complete__sys'),
+   order(3)
+);

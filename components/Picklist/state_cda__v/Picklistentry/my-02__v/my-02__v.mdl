@@ -1,0 +1,6 @@
+Picklistentry my-02__v (
+   value('Kedah'),
+   order(3272),
+   active(true),
+   controlling_entries('my__v')
+);

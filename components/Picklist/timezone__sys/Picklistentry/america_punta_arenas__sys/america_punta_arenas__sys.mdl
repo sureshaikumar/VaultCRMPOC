@@ -1,0 +1,5 @@
+Picklistentry america_punta_arenas__sys (
+   value('(GMT-03:00) Chile Time (America/Punta_Arenas)'),
+   order(122),
+   active(true)
+);

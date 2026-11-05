@@ -1,0 +1,7 @@
+Picklistentry tuber__v (
+   value('Tuberculosis'),
+   order(1876),
+   active(true),
+   controlling_entries('kr__v',
+         'vn__v')
+);

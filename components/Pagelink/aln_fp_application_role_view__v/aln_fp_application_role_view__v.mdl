@@ -1,0 +1,9 @@
+RECREATE Pagelink aln_fp_application_role_view__v (
+   label('Functional Profile Application Role View'),
+   url('https://valign-sbx-us-east-2-prod-app.veevavault.com/entities/functionalProfileApplicationRoleDetail.xhtml?vaulturl={{Vault.domain}}&vaultid={{Vault.id}}&pageMode=VIEW&objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.aln_functional_profile_application_role__v'),
+   active(true),
+   disable_type_select(false)
+);

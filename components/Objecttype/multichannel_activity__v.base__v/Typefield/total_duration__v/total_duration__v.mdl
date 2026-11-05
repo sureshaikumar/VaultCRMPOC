@@ -1,0 +1,4 @@
+Typefield total_duration__v (
+   source('standard'),
+   required(false)
+);

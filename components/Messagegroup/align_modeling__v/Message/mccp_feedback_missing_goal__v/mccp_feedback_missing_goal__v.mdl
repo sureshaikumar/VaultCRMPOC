@@ -1,0 +1,6 @@
+Message mccp_feedback_missing_goal__v (
+   label(),
+   active(true),
+   default_value('Please enter a goal as a part of your feedback'),
+   system_managed(false)
+);

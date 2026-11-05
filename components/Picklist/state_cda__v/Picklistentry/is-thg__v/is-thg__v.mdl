@@ -1,0 +1,6 @@
+Picklistentry is-thg__v (
+   value('Þingeyjarsveit'),
+   order(2150),
+   active(true),
+   controlling_entries('is__v')
+);

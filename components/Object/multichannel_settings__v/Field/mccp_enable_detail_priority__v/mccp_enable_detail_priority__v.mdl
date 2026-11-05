@@ -1,0 +1,24 @@
+Field mccp_enable_detail_priority__v (
+   label('MCCP Enable Detail Priority'),
+   type('Number'),
+   active(true),
+   description('0 or null = disabled
+1 = enables the MCCP sub-section in the Call Detail Priority section. Columns displayed will be Detail Priority and Product'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(25),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

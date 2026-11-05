@@ -1,0 +1,5 @@
+Picklistentry application_unavailable__v (
+   value('Application Unavailable'),
+   order(1),
+   active(true)
+);

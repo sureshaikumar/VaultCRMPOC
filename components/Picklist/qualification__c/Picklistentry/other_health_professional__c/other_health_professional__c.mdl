@@ -1,0 +1,5 @@
+Picklistentry other_health_professional__c (
+   value('Other health professional'),
+   order(2),
+   active(true)
+);

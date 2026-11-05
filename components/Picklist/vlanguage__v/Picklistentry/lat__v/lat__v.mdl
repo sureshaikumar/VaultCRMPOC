@@ -1,0 +1,5 @@
+Picklistentry lat__v (
+   value('Latin'),
+   order(185),
+   active(false)
+);

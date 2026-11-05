@@ -1,0 +1,10 @@
+Typefield sent_from_platform__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.platforms__v.crm_ipad__v',
+         'Picklist.platforms__v.crm_desktop_windows__v',
+         'Picklist.platforms__v.crm_desktop_macos__v',
+         'Picklist.platforms__v.crm_iphone__v',
+         'Picklist.platforms__v.crm_android__v',
+         'Picklist.platforms__v.crm_online__v')
+);

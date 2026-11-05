@@ -1,0 +1,6 @@
+Message title_has_already_been_created__v (
+   label(),
+   active(true),
+   default_value('${title} has already been created'),
+   system_managed(false)
+);

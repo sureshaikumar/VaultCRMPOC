@@ -1,0 +1,22 @@
+Field talk_time__v (
+   label('Talk Time'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(3154000000),
+   min_value(0),
+   scale(0),
+   help_content('The Talk Time duration of a conversation. Measured from the time the user is connected with the customer until the conversation is disconnected.'),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

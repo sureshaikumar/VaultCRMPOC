@@ -1,0 +1,5 @@
+Picklistentry 42420__v (
+   value('Scottsbluff, NE Micropolitan Statistical Area'),
+   order(490),
+   active(true)
+);

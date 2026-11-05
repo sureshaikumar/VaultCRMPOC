@@ -1,0 +1,15 @@
+Typefield role__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.key_stakeholder_role__v.affiliated_with__v',
+         'Picklist.key_stakeholder_role__v.board_member__v',
+         'Picklist.key_stakeholder_role__v.cfo__v',
+         'Picklist.key_stakeholder_role__v.contracts_administrator__v',
+         'Picklist.key_stakeholder_role__v.department_head__v',
+         'Picklist.key_stakeholder_role__v.medical_director__v',
+         'Picklist.key_stakeholder_role__v.p_t_committee_member__v',
+         'Picklist.key_stakeholder_role__v.plan_administrator__v',
+         'Picklist.key_stakeholder_role__v.practice_member__v',
+         'Picklist.key_stakeholder_role__v.vp_compliance__v',
+         'Picklist.key_stakeholder_role__v.vp_marketing__v')
+);

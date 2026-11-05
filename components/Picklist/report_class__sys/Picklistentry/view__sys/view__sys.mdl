@@ -1,0 +1,5 @@
+Picklistentry view__sys (
+   value('View'),
+   order(1),
+   active(true)
+);

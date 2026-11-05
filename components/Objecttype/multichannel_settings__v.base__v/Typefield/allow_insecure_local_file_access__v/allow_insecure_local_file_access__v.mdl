@@ -1,0 +1,4 @@
+Typefield allow_insecure_local_file_access__v (
+   source('standard'),
+   required(false)
+);

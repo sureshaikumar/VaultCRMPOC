@@ -1,0 +1,8 @@
+RECREATE Vaulttoken vault_dns__sys (
+   label('Vault DNS'),
+   active(true),
+   clone_behavior('clear__sys'),
+   system_managed(false),
+   type('string__sys'),
+   value('sb-accenture-crm.veevavault.com')
+);

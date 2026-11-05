@@ -1,0 +1,6 @@
+Picklistentry tt-sip__v (
+   value('Siparia'),
+   order(4551),
+   active(true),
+   controlling_entries('tt__v')
+);

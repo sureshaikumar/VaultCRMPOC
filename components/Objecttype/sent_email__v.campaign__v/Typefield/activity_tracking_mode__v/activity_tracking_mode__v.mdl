@@ -1,0 +1,6 @@
+Typefield activity_tracking_mode__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sent_email_activity_tracking_mode__v.anonymous__v',
+         'Picklist.sent_email_activity_tracking_mode__v.regular__v')
+);

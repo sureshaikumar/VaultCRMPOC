@@ -1,0 +1,18 @@
+Field events_management_subtype__v (
+   label('Events Management Subtype'),
+   type('Picklist'),
+   active(true),
+   description('Used to indicate the subtype of the message template for use within the Events Management module.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(45),
+   multi_value(false),
+   picklist('Picklist.message_template_em_subtype__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

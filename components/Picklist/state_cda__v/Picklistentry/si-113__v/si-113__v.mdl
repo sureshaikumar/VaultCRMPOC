@@ -1,0 +1,6 @@
+Picklistentry si-113__v (
+   value('Slovenska Bistrica'),
+   order(4087),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,19 @@
+Field remote_contact_email__sys (
+   label('Contact Email'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(200),
+   help_content(),
+   list_column(true),
+   order(13),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

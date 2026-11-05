@@ -1,0 +1,6 @@
+Picklistentry pg-san__v (
+   value('Sandaun [West Sepik]'),
+   order(3511),
+   active(true),
+   controlling_entries('pg__v')
+);

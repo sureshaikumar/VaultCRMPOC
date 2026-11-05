@@ -1,0 +1,6 @@
+Message model_territory_footprint_start_date__v (
+   label(),
+   active(true),
+   default_value('Child Model Territory Footprint cannot begin earlier than Model Footprint''s Start Date: ${territory_footprint_name} (${territory_footprint_id}).'),
+   system_managed(false)
+);

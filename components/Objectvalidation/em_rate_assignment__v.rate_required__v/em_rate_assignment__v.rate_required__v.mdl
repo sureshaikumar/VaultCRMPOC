@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_rate_assignment__v.rate_required__v (
+   label('Rate Required'),
+   active(true),
+   expression('Not(IsBlank(rate__v))'),
+   description('Rate Required.'),
+   error_message('Rate Required.'),
+   error_location('rate__v')
+);

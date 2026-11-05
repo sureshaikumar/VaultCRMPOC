@@ -1,0 +1,5 @@
+Picklistentry redacted__sys (
+   value('Redacted'),
+   order(1),
+   active(true)
+);

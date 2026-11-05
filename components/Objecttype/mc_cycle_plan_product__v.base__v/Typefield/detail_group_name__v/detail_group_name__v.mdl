@@ -1,0 +1,4 @@
+Typefield detail_group_name__v (
+   source('standard'),
+   required(false)
+);

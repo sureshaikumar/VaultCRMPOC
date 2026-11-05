@@ -1,0 +1,6 @@
+Message mccp_feedback_constraint_errors__v (
+   label(),
+   active(true),
+   default_value('${error_count} Errors'),
+   system_managed(false)
+);

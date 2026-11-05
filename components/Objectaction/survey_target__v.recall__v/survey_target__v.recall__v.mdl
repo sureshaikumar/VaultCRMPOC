@@ -1,0 +1,8 @@
+RECREATE Objectaction survey_target__v.recall__v (
+   label('Recall'),
+   description('Stamps recalled_datetime__v field and changes ownerid__v to coach__v'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.survey.actions.SurveyTargetRecallAction'),
+   active(true),
+   available_all_states(false)
+);

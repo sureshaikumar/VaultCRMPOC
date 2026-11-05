@@ -1,0 +1,5 @@
+Picklistentry try__sys (
+   value('TRY'),
+   order(183),
+   active(true)
+);

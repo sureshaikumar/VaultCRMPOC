@@ -1,0 +1,22 @@
+Field view_based_views__v (
+   label('View Based Views'),
+   type('Number'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_value(2147483647),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

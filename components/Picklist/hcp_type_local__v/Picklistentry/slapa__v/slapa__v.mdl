@@ -1,0 +1,5 @@
+Picklistentry slapa__v (
+   value('Speech-Language Assistant'),
+   order(154),
+   active(true)
+);

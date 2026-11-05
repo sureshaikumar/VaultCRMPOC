@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2" combinePromptsBy="referencedField">
+  <vault:chart name="total_tokens_consumed_per_agent_type__c" label="Total Tokens Consumed per Agent Type" type="bar" report="Report.total_tokens_consumed_per_agent_typ__sys" description="Total tokens including both input and output tokens per agent" footer="">
+    <vault:position row="16" col="0" sizeX="9" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Agent Label" yaxislabel="Total Tokens" />
+    <vault:series metric="daily_agent_activity__sys.total_tokens__sys">
+      <vault:grouping key="daily_agent_activity__sys.agent_label__sys" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="average_tokens_per_action_by_agent__c" label="Average Tokens per Action by Agent" type="bar" report="Report.average_tokens_per_agent__sys" description="Provides an average per week of token consumption by agent" footer="">
+    <vault:position row="16" col="9" sizeX="9" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Agent Label" yaxislabel="Total Tokens" />
+    <vault:series metric="agent_action_execution__sys___agent_instance__sys.total_tokens__sys">
+      <vault:grouping key="agent_instance__sys.agent_label__sys" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="total_vault_ai_tokens_consumed__c" label="Total Vault AI Tokens Consumed" type="gauge" report="Report.total_tokens_consumed__sys" description="Displays a gauge of the total token usage in millions" footer="">
+    <vault:position row="0" col="6" sizeX="6" sizeY="7" />
+    <vault:format showmetrics="true" showgroupings="true" showvalue="true" min="0.0" max="400.0">
+      <vault:range color="#427B2E" min="0.0" max="300.0" />
+      <vault:range color="#D9780D" min="300.0" max="350.0" />
+      <vault:range color="#B71307" min="350.0" max="400.0" />
+    </vault:format>
+    <vault:series metric="daily_agent_activity__sys.FF_mtokens__c" unitlabel="     Million Tokens">
+      <vault:grouping key="daily_agent_activity__sys.total_tokens__sys" value="AllValues" labelLanguage="en" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="most_used_agent_actions__c" label="Most Used Agent Actions" type="table" report="Report.agent_actions_by_popularity__sys" description="Displays the top 3 most used agent actions" footer="">
+    <vault:position row="25" col="0" sizeX="9" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="3" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="agent_action_execution__sys.agent_action_label__sys" value="" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="false">
+      <vault:reportColumn key="grp_agent_action_execution__sys.agent_action_label__sys" label="Agent Action Execution &gt; Agent Action Label" property="data" />
+      <vault:reportColumn key="agent_action_execution__sys.object_count__v" label="Agent Action Execution &gt; Agent Action Execution Count" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="least_used_agent_actions__c" label="Least Used Agent Actions" type="table" report="Report.agent_actions_least_used__sys" description="Displays the 3 least used agent actions" footer="">
+    <vault:position row="25" col="9" sizeX="9" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="3" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="agent_action_execution__sys.agent_action_label__sys" value="" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="false">
+      <vault:reportColumn key="grp_agent_action_execution__sys.agent_action_label__sys" label="Agent Action Execution &gt; Agent Action Label" property="data" />
+      <vault:reportColumn key="agent_action_execution__sys.object_count__v" label="Agent Action Execution &gt; Agent Action Execution Count" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+  <vault:chart name="total_agent_actions_by_week__c" label="Total Agent Actions by Week" type="line" report="Report.agent_actions_by_week_and_agent__sys" description="Trends the total number of agent actions being performed for each week" footer="">
+    <vault:position row="7" col="0" sizeX="9" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Created Date (Week Ending)" yaxislabel="Record Count (Agent Action Execution)" />
+    <vault:series metric="RecordCount.agent_action_execution__sys___agent_instance__sys">
+      <vault:grouping key="agent_instance__sys.created_date__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="total_agent_actions_by_agent_and_week__c" label="Total Agent Actions by Agent and Week" type="column" report="Report.agent_actions_by_week_and_agent__sys" description="Displays a per week view of agent action usage to compare which actions are being used most often over time" footer="">
+    <vault:position row="7" col="9" sizeX="9" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Created Date (Week Ending)" yaxislabel="Record Count (Agent Action Execution)" stacking="percent" />
+    <vault:series metric="RecordCount.agent_action_execution__sys___agent_instance__sys">
+      <vault:grouping key="agent_instance__sys.created_date__v" value="" />
+      <vault:grouping key="agent_instance__sys.agent_label__sys" value="" />
+    </vault:series>
+  </vault:chart>
+</vault:dashboard>

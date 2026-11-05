@@ -1,0 +1,20 @@
+RECREATE Picklist msg_ph_num_data_storage_geoloc__v (
+   label('Data Storage Geolocation'),
+   active(true),
+   Picklistentry(@Picklistentry/apac_australia__v.mdl),
+   Picklistentry(@Picklistentry/apac_indonesia__v.mdl),
+   Picklistentry(@Picklistentry/apac_india__v.mdl),
+   Picklistentry(@Picklistentry/apac_japan__v.mdl),
+   Picklistentry(@Picklistentry/apac_singapore__v.mdl),
+   Picklistentry(@Picklistentry/apac_south_korea__v.mdl),
+   Picklistentry(@Picklistentry/europe_germany__v.mdl),
+   Picklistentry(@Picklistentry/europe_switzerland__v.mdl),
+   Picklistentry(@Picklistentry/europe_united_kingdom__v.mdl),
+   Picklistentry(@Picklistentry/latam_brazil__v.mdl),
+   Picklistentry(@Picklistentry/mea_bahrian__v.mdl),
+   Picklistentry(@Picklistentry/mea_south_africa__v.mdl),
+   Picklistentry(@Picklistentry/mea_united_arab_emirates__v.mdl),
+   Picklistentry(@Picklistentry/noram_canada__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

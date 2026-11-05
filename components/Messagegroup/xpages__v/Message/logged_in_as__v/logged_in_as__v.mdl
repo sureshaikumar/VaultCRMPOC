@@ -1,0 +1,6 @@
+Message logged_in_as__v (
+   label(),
+   active(true),
+   default_value('Logged in as ${username}'),
+   system_managed(false)
+);

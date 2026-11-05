@@ -1,0 +1,6 @@
+Picklistentry es-cb__v (
+   value('Cantabria (Autonomous Community)'),
+   order(1204),
+   active(true),
+   controlling_entries('es__v')
+);

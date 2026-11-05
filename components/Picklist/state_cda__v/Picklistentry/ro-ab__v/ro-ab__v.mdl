@@ -1,0 +1,6 @@
+Picklistentry ro-ab__v (
+   value('Alba'),
+   order(3716),
+   active(true),
+   controlling_entries('ro__v')
+);

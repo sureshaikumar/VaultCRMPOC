@@ -1,0 +1,9 @@
+Typefield skip_reason__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.customer_journey_execution_skip_reason__v.channel_not_relevant__v',
+         'Picklist.customer_journey_execution_skip_reason__v.content_not_relevant__v',
+         'Picklist.customer_journey_execution_skip_reason__v.message_already_delivered__v',
+         'Picklist.customer_journey_execution_skip_reason__v.message_not_appropriate__v',
+         'Picklist.customer_journey_execution_skip_reason__v.timing__v')
+);

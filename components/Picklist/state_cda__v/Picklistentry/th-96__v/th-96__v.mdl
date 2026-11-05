@@ -1,0 +1,6 @@
+Picklistentry th-96__v (
+   value('Narathiwat'),
+   order(4404),
+   active(true),
+   controlling_entries('th__v')
+);

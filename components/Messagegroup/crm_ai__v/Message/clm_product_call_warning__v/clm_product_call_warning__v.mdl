@@ -1,0 +1,6 @@
+Message clm_product_call_warning__v (
+   label(),
+   active(true),
+   default_value('This response contains information from presentations for products which are not allowed in the current call report: ${product_names}'),
+   system_managed(false)
+);

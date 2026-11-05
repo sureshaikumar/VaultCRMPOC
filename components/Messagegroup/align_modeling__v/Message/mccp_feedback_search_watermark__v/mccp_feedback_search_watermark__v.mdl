@@ -1,0 +1,6 @@
+Message mccp_feedback_search_watermark__v (
+   label(),
+   active(true),
+   default_value('Search (Name, Specialty, City)'),
+   system_managed(false)
+);

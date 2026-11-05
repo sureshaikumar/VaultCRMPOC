@@ -1,0 +1,5 @@
+Picklistentry phxka__v (
+   value('Pharmaceutical-commercial assistant (PKA)'),
+   order(100),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Typefield sync_settings__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.connection_sync_settings__v.download_from_vault_content__v',
+         'Picklist.connection_sync_settings__v.upload_to_vault_content__v')
+);

@@ -1,0 +1,17 @@
+Field vmi_entities__v (
+   label('Entities'),
+   type('LongText'),
+   active(true),
+   description('Stores the IDs, Types, and Tokens of the tagged entities in the Veeva Medical Insights.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(40),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

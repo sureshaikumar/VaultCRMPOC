@@ -1,0 +1,5 @@
+Picklistentry veeva__sys (
+   value('Veeva'),
+   order(0),
+   active(true)
+);

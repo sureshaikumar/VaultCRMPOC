@@ -1,0 +1,6 @@
+Message add_filter_group__v (
+   label(),
+   active(true),
+   default_value('Add Filter Group'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry is-huv__v (
+   value('Húnaþing vestra'),
+   order(2115),
+   active(true),
+   controlling_entries('is__v')
+);

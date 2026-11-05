@@ -1,0 +1,5 @@
+Picklistentry ava__v (
+   value('Avaric'),
+   order(22),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Message search_check_ins__v (
+   label(),
+   active(true),
+   default_value('Search Check-Ins'),
+   system_managed(false)
+);

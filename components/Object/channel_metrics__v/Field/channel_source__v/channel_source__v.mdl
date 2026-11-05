@@ -1,0 +1,19 @@
+Field channel_source__v (
+   label('Channel Source'),
+   type('String'),
+   active(true),
+   description('Contains the API names of the object and field related to the channel value (ex: account__v.personemail__v)'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

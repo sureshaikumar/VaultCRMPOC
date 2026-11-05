@@ -1,0 +1,5 @@
+Picklistentry ocul__v (
+   value('Outpatient Clinic'),
+   order(183),
+   active(true)
+);

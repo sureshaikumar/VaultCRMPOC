@@ -1,0 +1,6 @@
+Picklistentry ci-sv__v (
+   value('Savanes'),
+   order(662),
+   active(true),
+   controlling_entries('ci__v')
+);

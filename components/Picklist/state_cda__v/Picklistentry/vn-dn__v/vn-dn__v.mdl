@@ -1,0 +1,6 @@
+Picklistentry vn-dn__v (
+   value('Đà Nẵng'),
+   order(4971),
+   active(true),
+   controlling_entries('vn__v')
+);

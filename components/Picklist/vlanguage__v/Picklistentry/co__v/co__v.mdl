@@ -1,0 +1,5 @@
+Picklistentry co__v (
+   value('Corsican'),
+   order(65),
+   active(false)
+);

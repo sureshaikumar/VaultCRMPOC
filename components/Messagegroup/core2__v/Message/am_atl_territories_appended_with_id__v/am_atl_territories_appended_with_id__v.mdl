@@ -1,0 +1,6 @@
+Message am_atl_territories_appended_with_id__v (
+   label(),
+   active(true),
+   default_value('Territories in the Territory Field in the Account Territory Loader record {0} will be appended to the winning account.'),
+   system_managed(false)
+);

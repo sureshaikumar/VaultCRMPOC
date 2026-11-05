@@ -1,0 +1,6 @@
+Message results_appear_here_when_search_matches__v (
+   label(),
+   active(true),
+   default_value('Results will appear here when there are matches to your search terms'),
+   system_managed(false)
+);

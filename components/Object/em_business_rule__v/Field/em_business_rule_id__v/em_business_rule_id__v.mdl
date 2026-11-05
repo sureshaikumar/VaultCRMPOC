@@ -1,0 +1,19 @@
+Field em_business_rule_id__v (
+   label('EM Business Rule Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('EM Business Rule Id is a concatenated value of unique parameters that make up the EM Business Rule.'),
+   list_column(false),
+   order(15),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield focus_area_account__v (
+   source('standard'),
+   required(false)
+);

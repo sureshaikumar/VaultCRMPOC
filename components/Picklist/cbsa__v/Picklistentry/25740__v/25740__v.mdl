@@ -1,0 +1,5 @@
+Picklistentry 25740__v (
+   value('Helena, MT Micropolitan Statistical Area'),
+   order(621),
+   active(true)
+);

@@ -1,0 +1,17 @@
+Field sent_datetime__v (
+   label('Sent Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Timestamp when the chat was sent'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

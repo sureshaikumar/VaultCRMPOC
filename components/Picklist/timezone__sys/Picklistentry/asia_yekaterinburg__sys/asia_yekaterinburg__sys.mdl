@@ -1,0 +1,5 @@
+Picklistentry asia_yekaterinburg__sys (
+   value('(GMT+05:00) Yekaterinburg Time (Asia/Yekaterinburg)'),
+   order(231),
+   active(true)
+);

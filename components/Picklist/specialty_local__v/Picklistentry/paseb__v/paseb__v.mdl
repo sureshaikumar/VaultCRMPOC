@@ -1,0 +1,6 @@
+Picklistentry paseb__v (
+   value('Pediatric Abdominal Surgery'),
+   order(1306),
+   active(true),
+   controlling_entries('ba__v')
+);

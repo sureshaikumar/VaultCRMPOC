@@ -1,0 +1,18 @@
+Field key_message_status__v (
+   label('Key Message Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of the slide on the CDN. A piece of content will either be ''Approved'', ''Staged'', or ''Expired'''),
+   list_column(false),
+   order(27),
+   multi_value(false),
+   picklist('Picklist.key_message_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

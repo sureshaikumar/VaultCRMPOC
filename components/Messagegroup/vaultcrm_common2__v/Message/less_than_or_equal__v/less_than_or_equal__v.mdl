@@ -1,0 +1,6 @@
+Message less_than_or_equal__v (
+   label(),
+   active(true),
+   default_value('Less than or equal'),
+   system_managed(false)
+);

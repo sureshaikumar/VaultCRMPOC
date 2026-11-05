@@ -1,0 +1,19 @@
+Field street_address_1_intl__v (
+   label('Street Address 1 (International)'),
+   type('String'),
+   active(true),
+   description('Residential or business street address information, including house number and street name, written in English. Used for international correspondence, validation, and readability by non-local staff.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(102),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

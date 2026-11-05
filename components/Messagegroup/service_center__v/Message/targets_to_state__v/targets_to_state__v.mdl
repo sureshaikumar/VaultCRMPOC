@@ -1,0 +1,6 @@
+Message targets_to_state__v (
+   label(),
+   active(true),
+   default_value('1 target will move to ${workflow_state}'),
+   system_managed(false)
+);

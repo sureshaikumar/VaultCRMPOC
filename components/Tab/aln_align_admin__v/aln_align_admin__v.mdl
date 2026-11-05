@@ -1,0 +1,13 @@
+RECREATE Tab aln_align_admin__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Align Admin'),
+   order(7000),
+   parent(),
+   Subtab(@Subtab/aln_settings_production__v.mdl),
+   Subtab(@Subtab/aln_settings_modeling__v.mdl),
+   Subtab(@Subtab/aln_custom_rollup_rules__v.mdl),
+   Subtab(@Subtab/aln_integrations__v.mdl),
+   Subtab(@Subtab/aln_countries__v.mdl)
+);

@@ -1,0 +1,5 @@
+Typefield checklist_field__sys (
+   source('system'),
+   required(true),
+   pickentries('Picklist.checklist_field__sys.document__sys')
+);

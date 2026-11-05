@@ -1,0 +1,6 @@
+Picklistentry tmred__v (
+   value('Transplant Medicine'),
+   order(1857),
+   active(true),
+   controlling_entries('us__v')
+);

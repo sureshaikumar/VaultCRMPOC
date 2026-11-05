@@ -1,0 +1,9 @@
+RECREATE Processmetric quality_variant_total__sys (
+   label('Number of Variants'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The total number of unique process paths.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.quality__sys')
+);

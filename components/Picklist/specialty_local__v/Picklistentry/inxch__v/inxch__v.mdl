@@ -1,0 +1,6 @@
+Picklistentry inxch__v (
+   value('Inorganic Chemistry'),
+   order(764),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry co-nar__v (
+   value('Nariño'),
+   order(748),
+   active(true),
+   controlling_entries('co__v')
+);

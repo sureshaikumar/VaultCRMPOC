@@ -1,0 +1,6 @@
+Message max_goal_exceeded__v (
+   label(),
+   active(true),
+   default_value('Goal amount cannot exceed ${max}'),
+   system_managed(false)
+);

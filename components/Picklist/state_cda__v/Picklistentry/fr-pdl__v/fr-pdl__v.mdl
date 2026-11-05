@@ -1,0 +1,6 @@
+Picklistentry fr-pdl__v (
+   value('Pays-de-la-Loire'),
+   order(1434),
+   active(true),
+   controlling_entries('fr__v')
+);

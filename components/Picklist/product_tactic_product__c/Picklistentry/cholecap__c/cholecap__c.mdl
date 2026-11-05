@@ -1,0 +1,5 @@
+Picklistentry cholecap__c (
+   value('Cholecap'),
+   order(0),
+   active(true)
+);

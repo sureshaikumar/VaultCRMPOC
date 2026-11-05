@@ -1,0 +1,22 @@
+Field row_count__v (
+   label('Row Count'),
+   type('Number'),
+   active(true),
+   description('Row Count is the number of records contained in the database for the Analytics file.  The Row Count is updated by the loading process.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

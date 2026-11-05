@@ -1,0 +1,5 @@
+Picklistentry orm (
+   value('Oromo'),
+   order(277),
+   active(true)
+);

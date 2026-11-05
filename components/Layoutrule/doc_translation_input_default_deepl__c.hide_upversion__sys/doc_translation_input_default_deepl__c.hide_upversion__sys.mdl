@@ -1,0 +1,16 @@
+RECREATE Layoutrule doc_translation_input_default_deepl__c.hide_upversion__sys (
+   active(true),
+   description('Hide up_version_target_document__sys field from the pre-execution dialog if create_new_document__sys is true'),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('create_new_document__sys = true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('upversion_existing_document_unbound__sys',
+      'up_version_target_document__sys'),
+   hide_sections(),
+   hide_layout(false),
+   label('Hide Up-Version'),
+   order(101)
+);

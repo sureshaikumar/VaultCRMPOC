@@ -1,0 +1,6 @@
+Message fax_intake_document_not_available_button__v (
+   label(),
+   active(true),
+   default_value('Refresh Inbox'),
+   system_managed(false)
+);

@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.chat_message__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="channel_ext_id__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="hcp_ext_id__v" />
+            <vault:field reference="last_name__v" />
+            <vault:field reference="message_metadata__v" />
+            <vault:field reference="message__v" />
+            <vault:field reference="sender_type__v" />
+            <vault:field reference="sent_datetime__v" />
+            <vault:field reference="user_ext_id__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="forwarded_comment__v" />
+            <vault:field reference="original_author_ext_id__v" />
+            <vault:field reference="original_author_name__v" />
+            <vault:field reference="original_message_external_id__v" />
+            <vault:field reference="country_code__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,6 @@
+Picklistentry vexte__v (
+   value('Veterinary'),
+   order(1918),
+   active(true),
+   controlling_entries('om__v')
+);

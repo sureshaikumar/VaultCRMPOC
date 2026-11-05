@@ -1,0 +1,13 @@
+RECREATE Vsmentity doc_type_group__v (
+   label('Document Type Group'),
+   active(true),
+   description('A grouping for document types within Vault, used as a matching criteria for Dynamic Access Control for Documents. This allows for access to be controlled based on Document Types, Subtypes, or Classifications.'),
+   synonyms('doc type group',
+      'document category group',
+      'type group',
+      'content group'),
+   target('Object.doc_type_group__v'),
+   target_label('Document Type Group'),
+   Vsmfield(@Vsmfield/description__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl)
+);

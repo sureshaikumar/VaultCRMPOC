@@ -1,0 +1,22 @@
+Field veeva_row_count__v (
+   label('Veeva Row Count'),
+   type('Number'),
+   active(true),
+   description('The total number of rows that Veeva has for a particular object.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

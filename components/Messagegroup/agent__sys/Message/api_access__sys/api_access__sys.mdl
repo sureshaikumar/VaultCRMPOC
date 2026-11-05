@@ -1,0 +1,6 @@
+Message api_access__sys (
+   label(),
+   active(true),
+   default_value('API Access'),
+   system_managed(true)
+);

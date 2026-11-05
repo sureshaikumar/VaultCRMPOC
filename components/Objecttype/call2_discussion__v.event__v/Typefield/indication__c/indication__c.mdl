@@ -1,0 +1,7 @@
+Typefield indication__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_discussion_indication__c.indication_1__c',
+         'Picklist.call2_discussion_indication__c.indication_2__c',
+         'Picklist.call2_discussion_indication__c.indication_3__c')
+);

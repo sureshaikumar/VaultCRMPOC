@@ -1,0 +1,6 @@
+Message deselect_msg_recipients_to_continue__v (
+   label(),
+   active(true),
+   default_value('A maximum of ${message_recipients_limit} accounts can be selected to send a message. Deselect accounts to continue.'),
+   system_managed(false)
+);

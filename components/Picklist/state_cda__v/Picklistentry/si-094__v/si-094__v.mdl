@@ -1,0 +1,6 @@
+Picklistentry si-094__v (
+   value('Postojna'),
+   order(4068),
+   active(true),
+   controlling_entries('si__v')
+);

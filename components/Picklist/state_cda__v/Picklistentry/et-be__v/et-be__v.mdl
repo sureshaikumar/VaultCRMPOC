@@ -1,0 +1,6 @@
+Picklistentry et-be__v (
+   value('Benshangul-Gumaz'),
+   order(1263),
+   active(true),
+   controlling_entries('et__v')
+);

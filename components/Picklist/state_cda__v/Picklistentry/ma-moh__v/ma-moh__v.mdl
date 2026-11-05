@@ -1,0 +1,6 @@
+Picklistentry ma-moh__v (
+   value('Mohammadia'),
+   order(2821),
+   active(true),
+   controlling_entries('ma__v')
+);

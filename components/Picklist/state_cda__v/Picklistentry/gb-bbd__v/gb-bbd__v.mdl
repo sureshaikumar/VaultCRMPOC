@@ -1,0 +1,6 @@
+Picklistentry gb-bbd__v (
+   value('Blackburn with Darwen'),
+   order(1457),
+   active(true),
+   controlling_entries('gb__v')
+);

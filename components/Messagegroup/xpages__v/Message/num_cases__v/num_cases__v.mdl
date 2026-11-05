@@ -1,0 +1,6 @@
+Message num_cases__v (
+   label(),
+   active(true),
+   default_value('# of Cases'),
+   system_managed(false)
+);

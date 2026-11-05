@@ -1,0 +1,20 @@
+RECREATE Objectvalidation pricing_rule__v.preferred_delivery_period_null_check__v (
+   label('Preferred Delivery Period Null Check'),
+   active(true),
+   expression('Not(
+    Or(
+        And(
+            IsBlank(preferred_delivery_start_date__v),
+            Not(IsBlank(preferred_delivery_end_date__v))
+        ),
+        And(
+            Not(IsBlank(preferred_delivery_start_date__v)),
+            IsBlank(preferred_delivery_end_date__v)
+        )
+    )
+)'),
+   description('Both Preferred Delivery Start Date and Preferred Delivery End Date fields must be populated to define a preferred delivery period'),
+   error_message('Both Preferred Delivery Start Date and Preferred Delivery End Date fields must be populated to define a preferred delivery period'),
+   error_location('preferred_delivery_end_date__v',
+      'preferred_delivery_start_date__v')
+);

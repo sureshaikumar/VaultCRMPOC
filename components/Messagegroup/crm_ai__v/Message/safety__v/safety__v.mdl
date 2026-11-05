@@ -1,0 +1,6 @@
+Message safety__v (
+   label(),
+   active(true),
+   default_value('Safety'),
+   system_managed(false)
+);

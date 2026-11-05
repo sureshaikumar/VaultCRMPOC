@@ -1,0 +1,14 @@
+Vsmfield enforce_role_constraint__v (
+   label('Constrain User Role Setup'),
+   active(true),
+   description('Boolean flag indicating whether user role setup constraints are enforced for this application role. When true, limits which roles can be assigned via User Role Setup in combination with this application role, helping enforce security and compliance policies.'),
+   example_values(),
+   synonyms('role constraint',
+         'constrained',
+         'restrict role setup',
+         'role restriction enabled'),
+   target('enforce_role_constraint__sys'),
+   target_label('Constrain User Role Setup'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

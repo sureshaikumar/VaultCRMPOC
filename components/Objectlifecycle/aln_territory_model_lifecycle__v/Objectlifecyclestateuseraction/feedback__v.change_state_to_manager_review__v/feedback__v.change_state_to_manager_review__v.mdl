@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction feedback__v.change_state_to_manager_review__v (
+   label('Move to Manager Review'),
+   rule(@rule.xml),
+   order(1000)
+);

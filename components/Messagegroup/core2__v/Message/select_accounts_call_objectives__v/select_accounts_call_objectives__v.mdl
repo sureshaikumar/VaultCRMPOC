@@ -1,0 +1,6 @@
+Message select_accounts_call_objectives__v (
+   label(),
+   active(true),
+   default_value('Select which accounts you want to add these call objectives to'),
+   system_managed(false)
+);

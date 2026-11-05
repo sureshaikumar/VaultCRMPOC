@@ -1,0 +1,4 @@
+Typefield disable_tot_weekends__v (
+   source('standard'),
+   required(false)
+);

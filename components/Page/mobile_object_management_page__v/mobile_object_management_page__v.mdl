@@ -1,0 +1,14 @@
+RECREATE Page mobile_object_management_page__v (
+   label('Manage Mobile Objects'),
+   active(true),
+   client_distribution(),
+   default_client_code('mobile_object_management_page__v'),
+   description('Manage Mobile Objects'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.mobileobjectmanagement.controls.MobileObjectManagementPageController'),
+   url_path_name('mobile-objects')
+);

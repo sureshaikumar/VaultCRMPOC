@@ -1,0 +1,5 @@
+Picklistentry efi (
+   value('Efik'),
+   order(170),
+   active(true)
+);

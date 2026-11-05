@@ -1,0 +1,23 @@
+Field work_hours__v (
+   label('WORK_HOURS'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content('This setting describes the number of hours in the work day and is used in the VInsights call activity calculations. Value should be a whole number between 1 and 24. If the value is not between 1 and 24, the default will be used.'),
+   list_column(false),
+   order(312),
+   default_value('8'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

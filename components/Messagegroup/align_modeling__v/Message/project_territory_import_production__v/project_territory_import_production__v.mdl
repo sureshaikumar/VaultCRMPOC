@@ -1,0 +1,6 @@
+Message project_territory_import_production__v (
+   label(),
+   active(true),
+   default_value('Import Production Territory'),
+   system_managed(false)
+);

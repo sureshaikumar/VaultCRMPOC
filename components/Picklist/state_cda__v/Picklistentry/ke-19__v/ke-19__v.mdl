@@ -1,0 +1,6 @@
+Picklistentry ke-19__v (
+   value('Kwale'),
+   order(2372),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry osa__v (
+   value('Osage'),
+   order(247),
+   active(false)
+);

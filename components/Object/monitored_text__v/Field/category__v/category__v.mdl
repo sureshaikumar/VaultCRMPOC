@@ -1,0 +1,18 @@
+Field category__v (
+   label('Category'),
+   type('Picklist'),
+   active(true),
+   description('Category of the monitoring rule stamped at the time the text was evaluated'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.monitored_text_category__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

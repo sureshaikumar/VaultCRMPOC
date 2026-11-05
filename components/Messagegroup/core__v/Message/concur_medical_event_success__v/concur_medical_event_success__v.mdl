@@ -1,0 +1,6 @@
+Message concur_medical_event_success__v (
+   label(),
+   active(true),
+   default_value('Medical Event Successes'),
+   system_managed(false)
+);

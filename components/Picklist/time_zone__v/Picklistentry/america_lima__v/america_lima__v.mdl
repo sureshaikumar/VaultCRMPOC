@@ -1,0 +1,5 @@
+Picklistentry america_lima__v (
+   value('Peru Time'),
+   order(80),
+   active(true)
+);

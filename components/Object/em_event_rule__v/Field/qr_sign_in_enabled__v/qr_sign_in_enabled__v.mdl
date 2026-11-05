@@ -1,0 +1,19 @@
+Field qr_sign_in_enabled__v (
+   label('QR Sign-In Enabled?'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to enable QR Sign-In for the Event Type.'),
+   list_column(false),
+   order(25),
+   multi_value(false),
+   picklist('Picklist.em_event_rule_qr_sign_in_enabled__v'),
+   default_value('{no__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

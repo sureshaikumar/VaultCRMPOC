@@ -1,0 +1,5 @@
+Picklistentry bug__v (
+   value('Buginese'),
+   order(42),
+   active(false)
+);

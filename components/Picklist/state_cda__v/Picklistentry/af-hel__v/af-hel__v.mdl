@@ -1,0 +1,6 @@
+Picklistentry af-hel__v (
+   value('Helmand'),
+   order(24),
+   active(true),
+   controlling_entries('af__v')
+);

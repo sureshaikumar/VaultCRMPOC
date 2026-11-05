@@ -1,0 +1,8 @@
+Agentcontext object_layout_fields_context__sys (
+   label('Object Layout Fields Context'),
+   active(true),
+   always_include(true),
+   context_configuration(@context_configuration.xml),
+   context_type('Aicontexttype.object_layout_fields__sys'),
+   description('This context retrieves all fields in Detail Sections and related records in Related List Sections in the current layout. The field label and value are available for all actions in this agent.')
+);

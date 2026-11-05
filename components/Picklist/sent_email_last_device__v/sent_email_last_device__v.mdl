@@ -1,0 +1,15 @@
+RECREATE Picklist sent_email_last_device__v (
+   label('Last Device'),
+   active(true),
+   Picklistentry(@Picklistentry/data_load__v.mdl),
+   Picklistentry(@Picklistentry/iphone__v.mdl),
+   Picklistentry(@Picklistentry/mobile__v.mdl),
+   Picklistentry(@Picklistentry/online__v.mdl),
+   Picklistentry(@Picklistentry/tablet__v.mdl),
+   Picklistentry(@Picklistentry/blackberry__v.mdl),
+   Picklistentry(@Picklistentry/ipad__v.mdl),
+   Picklistentry(@Picklistentry/crm_desktop_windows__v.mdl),
+   Picklistentry(@Picklistentry/winmodern__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

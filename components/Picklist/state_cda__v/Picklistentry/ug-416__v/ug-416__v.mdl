@@ -1,0 +1,6 @@
+Picklistentry ug-416__v (
+   value('Buliisa'),
+   order(4758),
+   active(true),
+   controlling_entries('ug__v')
+);

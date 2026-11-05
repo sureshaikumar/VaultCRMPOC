@@ -1,0 +1,6 @@
+Picklistentry mx-zac__v (
+   value('Zacatecas'),
+   order(3270),
+   active(true),
+   controlling_entries('mx__v')
+);

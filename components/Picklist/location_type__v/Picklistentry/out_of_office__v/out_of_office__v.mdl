@@ -1,0 +1,5 @@
+Picklistentry out_of_office__v (
+   value('Out of Office'),
+   order(1),
+   active(true)
+);

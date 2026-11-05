@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate refresh_autofiling_exceed_binder_limit__sys (
+   label('Refresh Auto-filing Exceed Binder Limit'),
+   active(true),
+   description('Notification sent upon completion of a request to refresh auto-filing on a binder, but auto-filing was not able to file some documents because the binder limit is exceeded.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" Auto-filing Refresh Completed'),
+   notification('<p>Refresh auto-filing request for <b>${docName}</b> has completed.</p><b>Successfully filed ${addedDocsCount} documents into ${addedSectionsCount} sections. Removed ${removedDocsCount} documents from ${removedSectionsCount} sections. Retained ${manuallyFiledDocsCount} because they are manually filed.<br><br>${autofileExceedBinderLimitMsg}<br>'),
+   email_body('<p><b>Binder:</b> ${docName} <br><b>Refresh Requested:</b> ${autofileStartDateTime}<br><b>Refresh Completed:</b> ${autofileEndDateTime}</p><p><b>Results:</b></p><p>${autofileAddedDocsHeader} ${autofileAddedDocs}</p><p>${autofileRemovedDocsHeader} ${autofileRemovedDocs}</p><p>${autofileExceedBinderLimitHeader} ${autofileExceedBinderLimitDocs}</p><p>${autofileManuallyFiledDocsHeader} ${autofileManuallyFiledDocs}</p><p>${autofileVersionBoundDocsHeader} ${autofileVersionBoundDocs}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

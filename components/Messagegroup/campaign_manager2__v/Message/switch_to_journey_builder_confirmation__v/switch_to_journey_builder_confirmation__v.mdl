@@ -1,0 +1,6 @@
+Message switch_to_journey_builder_confirmation__v (
+   label(),
+   active(true),
+   default_value('By switching to Journey Builder, any segments, flows, and actions will be removed. Would you like to proceed?'),
+   system_managed(false)
+);

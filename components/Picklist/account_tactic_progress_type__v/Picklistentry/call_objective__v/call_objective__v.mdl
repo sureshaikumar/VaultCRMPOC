@@ -1,0 +1,5 @@
+Picklistentry call_objective__v (
+   value('Call Objective'),
+   order(1),
+   active(true)
+);

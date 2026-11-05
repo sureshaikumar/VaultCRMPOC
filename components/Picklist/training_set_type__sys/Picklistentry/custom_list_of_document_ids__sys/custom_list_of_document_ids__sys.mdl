@@ -1,0 +1,5 @@
+Picklistentry custom_list_of_document_ids__sys (
+   value('Custom List of Document IDs'),
+   order(1),
+   active(true)
+);

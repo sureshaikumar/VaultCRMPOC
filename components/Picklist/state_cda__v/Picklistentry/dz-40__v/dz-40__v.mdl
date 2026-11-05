@@ -1,0 +1,6 @@
+Picklistentry dz-40__v (
+   value('Khenchela'),
+   order(1021),
+   active(true),
+   controlling_entries('dz__v')
+);

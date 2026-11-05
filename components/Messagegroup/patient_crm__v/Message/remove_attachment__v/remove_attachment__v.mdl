@@ -1,0 +1,6 @@
+Message remove_attachment__v (
+   label(),
+   active(true),
+   default_value('Remove Attachment'),
+   system_managed(false)
+);

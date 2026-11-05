@@ -1,0 +1,5 @@
+Picklistentry india__c (
+   value('India'),
+   order(4),
+   active(false)
+);

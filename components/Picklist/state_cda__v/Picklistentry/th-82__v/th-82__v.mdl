@@ -1,0 +1,6 @@
+Picklistentry th-82__v (
+   value('Phangnga'),
+   order(4393),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry nausr__v (
+   value('Nursing Assistant'),
+   order(79),
+   active(true)
+);

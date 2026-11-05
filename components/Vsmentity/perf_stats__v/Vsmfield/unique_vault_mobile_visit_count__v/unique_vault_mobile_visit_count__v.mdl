@@ -1,0 +1,11 @@
+Vsmfield unique_vault_mobile_visit_count__v (
+   label('Unique Vault Mobile Visit Count'),
+   active(true),
+   description('Number of unique user logins on Vault Mobile on a given day'),
+   example_values(),
+   synonyms(),
+   target('unique_vault_mobile_visit_count__v'),
+   target_label('Unique Vault Mobile Visit Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

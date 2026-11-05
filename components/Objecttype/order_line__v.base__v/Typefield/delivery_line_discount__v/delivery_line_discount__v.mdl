@@ -1,0 +1,4 @@
+Typefield delivery_line_discount__v (
+   source('standard'),
+   required(false)
+);

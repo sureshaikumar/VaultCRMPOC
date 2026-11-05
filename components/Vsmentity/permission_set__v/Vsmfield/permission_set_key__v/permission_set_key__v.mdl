@@ -1,0 +1,14 @@
+Vsmfield permission_set_key__v (
+   label('Permission Set Key'),
+   active(true),
+   description('A unique system-level key that programmatically identifies the permission set. Used for API references, integrations, and system configurations where a stable, non-display identifier is required.'),
+   example_values(),
+   synonyms('perm set key',
+         'key',
+         'unique key',
+         'system key'),
+   target('permission_set_key__sys'),
+   target_label('Permission Set Key'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

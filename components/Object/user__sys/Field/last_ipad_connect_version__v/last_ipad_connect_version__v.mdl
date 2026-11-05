@@ -1,0 +1,19 @@
+Field last_ipad_connect_version__v (
+   label('Last iPad Connect Version'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content('The application version of the last successful iPad connection made by each user. This field is useful for building reports to track usage of the mobile products.'),
+   list_column(false),
+   order(77),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Vsmfield mdl_content__v (
+   label('MDL Content'),
+   active(true),
+   description('The raw MDL (Metadata Definition Language) content describing the configuration of this component. Use this field to inspect or audit the exact metadata definition included in the inbound package.'),
+   example_values(),
+   synonyms('MDL',
+         'metadata definition',
+         'MDL script',
+         'vault definition language'),
+   target('mdl_content__v'),
+   target_label('MDL Content'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

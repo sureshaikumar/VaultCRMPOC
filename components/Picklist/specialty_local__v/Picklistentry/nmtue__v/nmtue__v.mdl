@@ -1,0 +1,7 @@
+Picklistentry nmtue__v (
+   value('Nuclear Medicine Technologist'),
+   order(1059),
+   active(true),
+   controlling_entries('au__v',
+         'nz__v')
+);

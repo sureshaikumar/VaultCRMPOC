@@ -1,0 +1,4 @@
+Typefield last_connected_date__sys (
+   source('standard'),
+   required(true)
+);

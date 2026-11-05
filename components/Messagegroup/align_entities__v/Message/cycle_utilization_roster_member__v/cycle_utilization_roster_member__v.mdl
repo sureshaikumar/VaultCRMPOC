@@ -1,0 +1,6 @@
+Message cycle_utilization_roster_member__v (
+   label(),
+   active(true),
+   default_value('ROSTER MEMBER'),
+   system_managed(false)
+);

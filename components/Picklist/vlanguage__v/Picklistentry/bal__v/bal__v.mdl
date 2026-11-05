@@ -1,0 +1,5 @@
+Picklistentry bal__v (
+   value('Baluchi'),
+   order(28),
+   active(false)
+);

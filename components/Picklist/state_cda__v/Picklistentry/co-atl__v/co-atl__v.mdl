@@ -1,0 +1,6 @@
+Picklistentry co-atl__v (
+   value('Atlántico'),
+   order(730),
+   active(true),
+   controlling_entries('co__v')
+);

@@ -1,0 +1,21 @@
+Field parent_child_name__v (
+   label('Parent Child Name'),
+   type('String'),
+   active(true),
+   description('Determines the format for how the Parent and Child name entity is displayed. Default is "Business Location AccountName"'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(33),
+   formula('If (child_account__vr.ispersonaccount__v, parent_account__vr.name__v & " " & child_account__vr.last_name_cda__v & " " & child_account__vr.first_name_cda__v, parent_account__vr.name__v & " " & child_account__vr.name__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

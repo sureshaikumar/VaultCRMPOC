@@ -1,0 +1,5 @@
+Picklistentry ken (
+   value('Kenyang'),
+   order(219),
+   active(true)
+);

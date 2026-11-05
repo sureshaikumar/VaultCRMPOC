@@ -1,0 +1,6 @@
+Picklistentry ke-33__v (
+   value('Narok'),
+   order(2386),
+   active(true),
+   controlling_entries('ke__v')
+);

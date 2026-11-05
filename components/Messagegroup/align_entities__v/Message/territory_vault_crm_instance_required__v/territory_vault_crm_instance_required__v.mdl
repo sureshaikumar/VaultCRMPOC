@@ -1,0 +1,6 @@
+Message territory_vault_crm_instance_required__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Instance is required if Send to CRM is "Yes".'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message remote_meeting_administration__v (
+   label(),
+   active(true),
+   default_value('Remote Meeting'),
+   system_managed(false)
+);

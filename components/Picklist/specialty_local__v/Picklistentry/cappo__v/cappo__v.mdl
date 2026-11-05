@@ -1,0 +1,6 @@
+Picklistentry cappo__v (
+   value('Community and Preventive Pediatrics'),
+   order(308),
+   active(true),
+   controlling_entries('pk__v')
+);

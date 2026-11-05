@@ -1,0 +1,8 @@
+RECREATE Objectaction account_plan__v.copy_account_plan__v (
+   label('Copy Account Plan'),
+   description('Enables users to copy Account Plans and related records'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.accountplan.actions.AccountPlanDeepCopyAction'),
+   active(true),
+   available_all_states(true)
+);

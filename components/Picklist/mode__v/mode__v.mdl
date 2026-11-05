@@ -1,0 +1,8 @@
+RECREATE Picklist mode__v (
+   label('Mode'),
+   active(true),
+   Picklistentry(@Picklistentry/campaign__v.mdl),
+   Picklistentry(@Picklistentry/journey__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

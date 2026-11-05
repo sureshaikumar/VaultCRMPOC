@@ -1,0 +1,6 @@
+Message information__v (
+   label(),
+   active(true),
+   default_value('Information'),
+   system_managed(false)
+);

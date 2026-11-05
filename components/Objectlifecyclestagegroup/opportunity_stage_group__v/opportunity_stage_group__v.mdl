@@ -1,0 +1,12 @@
+RECREATE Objectlifecyclestagegroup opportunity_stage_group__v (
+   label('Opportunity Stage Group'),
+   active(true),
+   description(),
+   object_lifecycle('Objectlifecycle.opportunity_lifecycle__v'),
+   object_type('Objecttype.opportunity__v.opportunity__v'),
+   Objectlifecyclestage(@Objectlifecyclestage/closed__v.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/needs_analysis__v.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/negotiation_review__v.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/new__v.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/proposal__v.mdl)
+);

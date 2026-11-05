@@ -1,0 +1,19 @@
+Field delegate_approver_participant__v (
+   label('Delegate Approver Participant'),
+   type('String'),
+   active(true),
+   description('Stores the name of the next delegate approver(s) based on the next approver(s) defined by the Vault Workflow.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(53),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

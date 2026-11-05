@@ -1,0 +1,3 @@
+Typeaction preview_event_qr_code__v (
+   action('em_event__v.preview_event_qr_code__v')
+);

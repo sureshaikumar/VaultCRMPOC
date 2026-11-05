@@ -1,0 +1,19 @@
+Field domain__v (
+   label('Domain'),
+   type('String'),
+   active(true),
+   description('Unique domain used in My Engage Portal URL.'),
+   required(true),
+   unique(false),
+   max_length(55),
+   help_content(),
+   list_column(false),
+   order(2),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 19020__v (
+   value('Culpeper, VA Micropolitan Statistical Area'),
+   order(244),
+   active(true)
+);

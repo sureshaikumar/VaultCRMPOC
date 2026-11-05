@@ -1,0 +1,6 @@
+Picklistentry sn-zg__v (
+   value('Ziguinchor'),
+   order(4222),
+   active(true),
+   controlling_entries('sn__v')
+);

@@ -1,0 +1,6 @@
+Message job_scheduler_failure_header__v (
+   label(),
+   active(true),
+   default_value('Scheduled job {0} has aborted'),
+   system_managed(false)
+);

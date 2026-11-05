@@ -1,0 +1,6 @@
+Picklistentry co-suc__v (
+   value('Sucre'),
+   order(755),
+   active(true),
+   controlling_entries('co__v')
+);

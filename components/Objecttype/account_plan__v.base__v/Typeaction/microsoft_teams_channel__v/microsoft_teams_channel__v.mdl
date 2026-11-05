@@ -1,0 +1,3 @@
+Typeaction microsoft_teams_channel__v (
+   action('account_plan__v.microsoft_teams_channel__v')
+);

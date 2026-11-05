@@ -1,0 +1,4 @@
+Typefield territory_footprint_model__v (
+   source('standard'),
+   required(false)
+);

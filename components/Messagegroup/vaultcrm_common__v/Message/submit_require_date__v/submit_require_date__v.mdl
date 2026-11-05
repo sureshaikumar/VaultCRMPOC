@@ -1,0 +1,6 @@
+Message submit_require_date__v (
+   label(),
+   active(true),
+   default_value('Either ${call_date_label} or ${call_datetime_label} must be populated to submit a ${call_label}'),
+   system_managed(false)
+);

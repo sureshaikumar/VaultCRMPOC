@@ -1,0 +1,6 @@
+Message mc_cycle_today__v (
+   label(),
+   active(true),
+   default_value('Today'),
+   system_managed(false)
+);

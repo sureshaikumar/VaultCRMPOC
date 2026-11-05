@@ -1,0 +1,6 @@
+Message vmi_trials__v (
+   label(),
+   active(true),
+   default_value('Trials'),
+   system_managed(false)
+);

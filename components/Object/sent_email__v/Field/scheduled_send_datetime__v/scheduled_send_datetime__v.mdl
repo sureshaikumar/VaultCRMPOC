@@ -1,0 +1,17 @@
+Field scheduled_send_datetime__v (
+   label('Scheduled Send Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Scheduled_Send_Datetime_vod represents the date time for which the email was scheduled to be sent by User.'),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

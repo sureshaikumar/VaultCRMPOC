@@ -1,0 +1,8 @@
+RECREATE Picklist em_business_rule_comment_type__v (
+   label('Comment Type'),
+   active(true),
+   Picklistentry(@Picklistentry/free_text__v.mdl),
+   Picklistentry(@Picklistentry/picklist__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

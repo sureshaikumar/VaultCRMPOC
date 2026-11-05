@@ -1,0 +1,6 @@
+Picklistentry de-th__v (
+   value('Thüringen'),
+   order(918),
+   active(true),
+   controlling_entries('de__v')
+);

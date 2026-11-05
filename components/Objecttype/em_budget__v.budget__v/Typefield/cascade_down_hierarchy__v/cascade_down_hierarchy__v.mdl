@@ -1,0 +1,4 @@
+Typefield cascade_down_hierarchy__v (
+   source('custom'),
+   required(false)
+);

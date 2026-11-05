@@ -1,0 +1,6 @@
+Message error_starting_call_report_message__v (
+   label(),
+   active(true),
+   default_value('Call Report not started. Please try again.'),
+   system_managed(false)
+);

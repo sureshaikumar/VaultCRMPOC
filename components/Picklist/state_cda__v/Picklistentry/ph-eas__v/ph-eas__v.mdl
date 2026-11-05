@@ -1,0 +1,6 @@
+Picklistentry ph-eas__v (
+   value('Eastern Samar'),
+   order(3564),
+   active(true),
+   controlling_entries('ph__v')
+);

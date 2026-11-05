@@ -1,0 +1,22 @@
+RECREATE Vsmentity exception_message__v (
+   label('User Exception Message'),
+   active(true),
+   description('System-generated messages displayed to users when an exception or error occurs with a Connection. Vault Java SDK developers can define these messages. These messages are used to communicate actionable feedback to admins, helping them understand what went wrong and how to resolve the issue.'),
+   synonyms('user exception',
+      'exception alert',
+      'error message',
+      'user error notification'),
+   target('Object.exception_message__sys'),
+   target_label('User Exception Message'),
+   Vsmfield(@Vsmfield/error_message__v.mdl),
+   Vsmfield(@Vsmfield/error_type__v.mdl),
+   Vsmfield(@Vsmfield/integration__v.mdl),
+   Vsmfield(@Vsmfield/integration_point__v.mdl),
+   Vsmfield(@Vsmfield/message_body_json__v.mdl),
+   Vsmfield(@Vsmfield/message_items_failed__v.mdl),
+   Vsmfield(@Vsmfield/message_items_received__v.mdl),
+   Vsmfield(@Vsmfield/message_processor__v.mdl),
+   Vsmrelationship(@Vsmrelationship/exception_items__v.mdl),
+   Vsmrelationship(@Vsmrelationship/integration__v.mdl),
+   Vsmrelationship(@Vsmrelationship/integration_point__v.mdl)
+);

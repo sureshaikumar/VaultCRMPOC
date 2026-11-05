@@ -1,0 +1,19 @@
+Field primary_insurance__v (
+   label('Primary Insurance'),
+   type('String'),
+   active(true),
+   description('Primary insurance coverage details'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Primary insurance plan information'),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

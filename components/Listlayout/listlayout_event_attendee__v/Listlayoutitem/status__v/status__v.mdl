@@ -1,0 +1,12 @@
+Listlayoutitem status__v (
+   label('Status'),
+   active(true),
+   control_label(),
+   field_key('event_attendee_status__v'),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Field'),
+   object_control(),
+   object_control_properties(),
+   omit_header_label()
+);

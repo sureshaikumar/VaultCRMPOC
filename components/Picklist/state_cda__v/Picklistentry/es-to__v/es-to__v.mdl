@@ -1,0 +1,6 @@
+Picklistentry es-to__v (
+   value('Toledo'),
+   order(1253),
+   active(true),
+   controlling_entries('es__v')
+);

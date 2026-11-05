@@ -1,0 +1,6 @@
+Message delete_territory__v (
+   label(),
+   active(true),
+   default_value('Deleting the ${territory_name} record will delete any related records of the following objects: '),
+   system_managed(false)
+);

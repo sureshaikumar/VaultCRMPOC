@@ -1,0 +1,6 @@
+Picklistentry sy-dy__v (
+   value('Dayr az Zawr'),
+   order(4284),
+   active(true),
+   controlling_entries('sy__v')
+);

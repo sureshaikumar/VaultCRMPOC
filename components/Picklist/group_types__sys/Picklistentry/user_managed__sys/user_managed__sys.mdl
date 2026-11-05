@@ -1,0 +1,5 @@
+Picklistentry user_managed__sys (
+   value('User Managed'),
+   order(0),
+   active(true)
+);

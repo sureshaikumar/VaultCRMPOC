@@ -1,0 +1,7 @@
+RECREATE Picklist disable_homepage_ai_widget__v (
+   label('Disable Homepage AI Widget'),
+   active(true),
+   Picklistentry(@Picklistentry/media_agent__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

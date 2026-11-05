@@ -1,0 +1,6 @@
+Picklistentry dermc__v (
+   value('Dermatohistopathology'),
+   order(390),
+   active(true),
+   controlling_entries('ba__v')
+);

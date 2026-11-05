@@ -1,0 +1,5 @@
+Picklistentry 22820__v (
+   value('Fort Morgan, CO Micropolitan Statistical Area'),
+   order(251),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry ee-486__v (
+   value('Mustvee'),
+   order(1101),
+   active(true),
+   controlling_entries('ee__v')
+);

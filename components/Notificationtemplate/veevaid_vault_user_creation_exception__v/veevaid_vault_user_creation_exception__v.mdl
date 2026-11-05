@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate veevaid_vault_user_creation_exception__v (
+   label('VeevaID Vault User Creation Exception'),
+   active(true),
+   description('Exception notification sent to the person who initiated the VeevaID registration invite if the creation of the new Vault user account is unsuccessful following the VeevaID registration completion.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.veevaid_invite_vault_user_creation__sys'),
+   subject('Exception when creating a Vault User account following a new VeevaID account registration.'),
+   notification('The following exception was encountered when attempting to create a Vault user account for VeevaID: <br><b>${Object.registrant_email__sys}</b><p>${failureReason}</p><p>Exception processing registration Id: ${Object.system_registration_id__sys}</p><p>${failureDate} - Error Id: ${errorID}</p><br>If you require additional information, please contact Vault Support.'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry sa-10__v (
+   value('Najrān'),
+   order(3887),
+   active(true),
+   controlling_entries('sa__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 47340__v (
+   value('Wabash, IN Micropolitan Statistical Area'),
+   order(285),
+   active(true)
+);

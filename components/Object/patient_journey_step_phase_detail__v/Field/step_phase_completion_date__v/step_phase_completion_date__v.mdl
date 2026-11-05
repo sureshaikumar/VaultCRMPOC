@@ -1,0 +1,17 @@
+Field step_phase_completion_date__v (
+   label('Step Phase Completion Date'),
+   type('DateTime'),
+   active(true),
+   description('This field auto-populates the date/timestamp (UTC) when a Patient Journey Step Phase Detail ''Step Status'' = Complete, this value is needed to calculate the average time patients spend in a phase.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

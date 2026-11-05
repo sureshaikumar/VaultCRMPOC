@@ -1,0 +1,5 @@
+Picklistentry mexma__v (
+   value('Medical Technical Assistant (MTA)'),
+   order(67),
+   active(true)
+);

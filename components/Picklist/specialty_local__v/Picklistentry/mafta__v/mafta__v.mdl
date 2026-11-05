@@ -1,0 +1,6 @@
+Picklistentry mafta__v (
+   value('Marriage and Family Therapy'),
+   order(881),
+   active(true),
+   controlling_entries('us__v')
+);

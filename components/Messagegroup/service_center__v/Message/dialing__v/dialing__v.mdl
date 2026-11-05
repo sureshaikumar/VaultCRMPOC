@@ -1,0 +1,6 @@
+Message dialing__v (
+   label(),
+   active(true),
+   default_value('Dialing'),
+   system_managed(false)
+);

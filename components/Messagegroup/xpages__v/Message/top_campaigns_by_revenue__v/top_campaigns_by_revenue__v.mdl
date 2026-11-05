@@ -1,0 +1,6 @@
+Message top_campaigns_by_revenue__v (
+   label(),
+   active(true),
+   default_value('Top Campaigns by Revenue'),
+   system_managed(false)
+);

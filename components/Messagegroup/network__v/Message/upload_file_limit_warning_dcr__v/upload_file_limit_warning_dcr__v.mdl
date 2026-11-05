@@ -1,0 +1,6 @@
+Message upload_file_limit_warning_dcr__v (
+   label(),
+   active(true),
+   default_value('Maximum 3 attachments. Remove an attachment to add another.'),
+   system_managed(false)
+);

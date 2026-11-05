@@ -1,0 +1,5 @@
+Typefield restricted_platforms__v (
+   source('standard'),
+   required(true),
+   pickentries('Picklist.monitoring_rule_restricted_platforms__v.messaging__v')
+);

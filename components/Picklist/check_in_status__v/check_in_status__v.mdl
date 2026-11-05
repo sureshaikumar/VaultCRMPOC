@@ -1,0 +1,12 @@
+RECREATE Picklist check_in_status__v (
+   label('Check-In Status'),
+   active(true),
+   Picklistentry(@Picklistentry/closed__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   Picklistentry(@Picklistentry/open__v.mdl),
+   Picklistentry(@Picklistentry/overdue__v.mdl),
+   Picklistentry(@Picklistentry/retry_later_today__v.mdl),
+   Picklistentry(@Picklistentry/retry_planned__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry smgpe__v (
+   value('Sports Medicine - General'),
+   order(1801),
+   active(true),
+   controlling_entries('vn__v')
+);

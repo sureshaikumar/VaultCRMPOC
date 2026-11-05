@@ -1,0 +1,10 @@
+Vsmvalue htg__v (
+   label('HTG'),
+   active(true),
+   description('The Haitian Gourde (HTG), the official currency of Haiti, used for transactions and financial records involving business operations in Haiti.'),
+   synonyms('Haitian gourde',
+         'gourde',
+         'Haiti currency'),
+   target('htg__sys'),
+   target_label('HTG')
+);

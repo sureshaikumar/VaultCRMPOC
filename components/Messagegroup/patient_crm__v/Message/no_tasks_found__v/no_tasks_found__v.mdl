@@ -1,0 +1,6 @@
+Message no_tasks_found__v (
+   label(),
+   active(true),
+   default_value('No Tasks Found'),
+   system_managed(false)
+);

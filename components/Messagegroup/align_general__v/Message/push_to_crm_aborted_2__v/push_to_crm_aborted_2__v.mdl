@@ -1,0 +1,6 @@
+Message push_to_crm_aborted_2__v (
+   label(),
+   active(true),
+   default_value('Push to CRM from ${entity_name} aborted'),
+   system_managed(false)
+);

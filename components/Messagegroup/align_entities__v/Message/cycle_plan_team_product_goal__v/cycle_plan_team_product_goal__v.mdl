@@ -1,0 +1,6 @@
+Message cycle_plan_team_product_goal__v (
+   label(),
+   active(true),
+   default_value('Team Product Activity Goal'),
+   system_managed(false)
+);

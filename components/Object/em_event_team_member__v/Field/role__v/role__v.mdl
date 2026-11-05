@@ -1,0 +1,19 @@
+Field role__v (
+   label('Role'),
+   type('Picklist'),
+   active(true),
+   description('Role of an event team member. Team members will automatically have read/write access to an event. Roles can be used in the Event Configuration Page Layout Engine. Custom values can be added to this fied.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.em_event_team_member_role__v'),
+   default_value('{organizer__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

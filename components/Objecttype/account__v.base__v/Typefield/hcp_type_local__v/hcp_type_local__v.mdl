@@ -1,0 +1,4 @@
+Typefield hcp_type_local__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry oncuc__v (
+   value('Occupational Nursing'),
+   order(1103),
+   active(true),
+   controlling_entries('pt__v')
+);

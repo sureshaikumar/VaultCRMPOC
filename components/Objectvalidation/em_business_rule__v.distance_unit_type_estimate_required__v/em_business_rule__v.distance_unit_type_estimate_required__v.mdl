@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule__v.distance_unit_type_estimate_required__v (
+   label('Distance Unit Type Required'),
+   active(true),
+   expression('object_type__vr.api_name__v != "expense_estimate_speaker_travel_rule__v" || Not(IsBlank(distance_unit_type__v))'),
+   description('Valid input for distance_unit_type__v is not added to the Speaker Travel Expense Estimate Creation Rule.'),
+   error_message('This field is required.'),
+   error_location('distance_unit_type__v')
+);

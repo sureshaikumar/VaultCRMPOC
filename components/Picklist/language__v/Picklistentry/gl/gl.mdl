@@ -1,0 +1,5 @@
+Picklistentry gl (
+   value('Galician'),
+   order(108),
+   active(true)
+);

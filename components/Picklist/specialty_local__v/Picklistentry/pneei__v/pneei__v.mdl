@@ -1,0 +1,6 @@
+Picklistentry pneei__v (
+   value('Pediatric Neuropsychiatry'),
+   order(1417),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry iq-sd__v (
+   value('Şalāḩ ad Dīn'),
+   order(2049),
+   active(true),
+   controlling_entries('iq__v')
+);

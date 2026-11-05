@@ -1,0 +1,10 @@
+Picklistentry pgeyd__v (
+   value('Pediatric Gynecology'),
+   order(1381),
+   active(true),
+   controlling_entries('am__v',
+         'hu__v',
+         'kg__v',
+         'sk__v',
+         'ua__v')
+);

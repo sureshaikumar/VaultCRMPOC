@@ -1,0 +1,6 @@
+Picklistentry pdreo__v (
+   value('Prosthetic Dentistry'),
+   order(1599),
+   active(true),
+   controlling_entries('tr__v')
+);

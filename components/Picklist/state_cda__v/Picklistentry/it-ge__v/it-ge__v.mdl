@@ -1,0 +1,6 @@
+Picklistentry it-ge__v (
+   value('Genoa'),
+   order(2211),
+   active(true),
+   controlling_entries('it__v')
+);

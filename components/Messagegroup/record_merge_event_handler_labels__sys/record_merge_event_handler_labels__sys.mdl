@@ -1,0 +1,6 @@
+RECREATE Messagegroup record_merge_event_handler_labels__sys (
+   label('Record Merge Event Handler Labels'),
+   active(true),
+   Message(@Message/object_attribute__sys.mdl),
+   Message(@Message/plural_label__sys.mdl)
+);

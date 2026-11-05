@@ -1,0 +1,8 @@
+Tabcollectionitem home__v (
+   label(),
+   active(true),
+   tabs(),
+   order(10),
+   tab('Tab.campaign_manager_home__v'),
+   type('Tab')
+);

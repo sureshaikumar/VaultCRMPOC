@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.unsubscribe_product__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="content_type_display_name__v" />
+            <vault:field reference="detail_group_display__v" />
+            <vault:field reference="display_order__v" />
+            <vault:field reference="product_display__v" />
+            <vault:field reference="content_type__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="unsubscribe__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

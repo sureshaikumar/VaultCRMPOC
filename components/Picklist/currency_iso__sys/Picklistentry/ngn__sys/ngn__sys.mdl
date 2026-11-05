@@ -1,0 +1,5 @@
+Picklistentry ngn__sys (
+   value('NGN'),
+   order(132),
+   active(true)
+);

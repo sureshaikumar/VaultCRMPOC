@@ -1,0 +1,17 @@
+Field segment__v (
+   label('Segments'),
+   type('LongText'),
+   active(true),
+   description('List of segments and min / max scoring rules.  Segments are based on the sum of an account’s response scores.  Segments are limited to 10 entries.  Example: Late Adopter; 0; 50; Early Adopter; 51; 100;'),
+   required(false),
+   max_length(800),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

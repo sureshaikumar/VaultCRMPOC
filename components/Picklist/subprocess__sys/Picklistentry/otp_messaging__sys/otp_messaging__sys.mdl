@@ -1,0 +1,6 @@
+Picklistentry otp_messaging__sys (
+   value('Messaging'),
+   order(102),
+   active(true),
+   controlling_entries('olc_consent_type__sys')
+);

@@ -1,0 +1,4 @@
+Typefield restrict_open_surveys_by_product__v (
+   source('standard'),
+   required(false)
+);

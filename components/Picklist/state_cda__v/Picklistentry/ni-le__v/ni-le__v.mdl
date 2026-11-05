@@ -1,0 +1,6 @@
+Picklistentry ni-le__v (
+   value('León'),
+   order(3366),
+   active(true),
+   controlling_entries('ni__v')
+);

@@ -1,0 +1,10 @@
+Vsmvalue gtq__v (
+   label('GTQ'),
+   active(true),
+   description('The Guatemalan Quetzal (GTQ), the official currency of Guatemala, used for transactions and financial records involving Guatemalan business operations.'),
+   synonyms('Guatemalan quetzal',
+         'quetzal',
+         'Guatemala currency'),
+   target('gtq__sys'),
+   target_label('GTQ')
+);

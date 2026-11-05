@@ -1,0 +1,19 @@
+Field challenge_reasons_remove_target__v (
+   label('Challenge Reasons (Remove Target)'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The reasons available for selection when the user makes a "Remove Target" challenge.'),
+   list_column(false),
+   order(17),
+   multi_value(true),
+   picklist('Picklist.aln_challenge_reason__v'),
+   default_value('{distance__c},{poor_access__c},{low_priority__c},{no_longer_at_location__c},{on_leave__c},{part_time__c},{other__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

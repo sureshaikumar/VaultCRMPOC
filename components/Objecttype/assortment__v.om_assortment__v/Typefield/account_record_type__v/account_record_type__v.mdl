@@ -1,0 +1,6 @@
+Typefield account_record_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.assortment_account_record_type__v.pharmacy__v',
+         'Picklist.assortment_account_record_type__v.wholesaler__v')
+);

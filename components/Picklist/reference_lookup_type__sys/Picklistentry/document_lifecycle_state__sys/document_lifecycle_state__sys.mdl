@@ -1,0 +1,5 @@
+Picklistentry document_lifecycle_state__sys (
+   value('Document Lifecycle State'),
+   order(4),
+   active(true)
+);

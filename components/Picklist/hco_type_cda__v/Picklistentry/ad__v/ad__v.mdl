@@ -1,0 +1,5 @@
+Picklistentry ad__v (
+   value('Administration'),
+   order(1),
+   active(true)
+);

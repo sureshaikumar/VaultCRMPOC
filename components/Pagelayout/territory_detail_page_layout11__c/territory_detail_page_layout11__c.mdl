@@ -1,0 +1,8 @@
+RECREATE Pagelayout territory_detail_page_layout11__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Territory Detail Page Layout_dec25demo'),
+   page_markup(@page_markup.xml)
+);

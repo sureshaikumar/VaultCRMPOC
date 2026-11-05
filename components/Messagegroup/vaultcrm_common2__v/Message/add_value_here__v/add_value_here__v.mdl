@@ -1,0 +1,6 @@
+Message add_value_here__v (
+   label(),
+   active(true),
+   default_value('Add ${value} here...'),
+   system_managed(false)
+);

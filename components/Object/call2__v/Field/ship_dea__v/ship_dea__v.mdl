@@ -1,0 +1,19 @@
+Field ship_dea__v (
+   label('Ship DEA #'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(9),
+   help_content('The DEA number corresponding to the ship to address.'),
+   list_column(false),
+   order(119),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

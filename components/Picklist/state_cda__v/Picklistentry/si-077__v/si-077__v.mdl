@@ -1,0 +1,6 @@
+Picklistentry si-077__v (
+   value('Moravče'),
+   order(4051),
+   active(true),
+   controlling_entries('si__v')
+);

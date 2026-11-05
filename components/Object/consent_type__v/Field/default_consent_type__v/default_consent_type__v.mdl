@@ -1,0 +1,19 @@
+Field default_consent_type__v (
+   label('Default Consent Type'),
+   type('Picklist'),
+   active(true),
+   description('Defines the default consent type that will be applied for the channel if no prior consents exist. For Approved Email, Account.Approved_Email_Consent_Type_vod takes precedence.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.consent_type_default_consent_type__v'),
+   default_value('{explicit__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

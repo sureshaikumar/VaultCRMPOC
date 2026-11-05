@@ -1,0 +1,4 @@
+Typefield allow_pdf_download__v (
+   source('standard'),
+   required(false)
+);

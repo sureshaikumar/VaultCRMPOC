@@ -1,0 +1,6 @@
+Picklistentry gb-ste__v (
+   value('Stoke-on-Trent'),
+   order(1628),
+   active(true),
+   controlling_entries('gb__v')
+);

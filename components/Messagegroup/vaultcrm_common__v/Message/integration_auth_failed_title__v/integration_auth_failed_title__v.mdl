@@ -1,0 +1,6 @@
+Message integration_auth_failed_title__v (
+   label(),
+   active(true),
+   default_value('Authentication Failed'),
+   system_managed(false)
+);

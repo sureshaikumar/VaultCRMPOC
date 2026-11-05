@@ -1,0 +1,6 @@
+Picklistentry ua-14__v (
+   value('Donetska oblast'),
+   order(4620),
+   active(true),
+   controlling_entries('ua__v')
+);

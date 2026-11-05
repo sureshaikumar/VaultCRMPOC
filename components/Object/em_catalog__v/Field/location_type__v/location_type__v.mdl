@@ -1,0 +1,18 @@
+Field location_type__v (
+   label('Location Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used by Events Management to assign a Location Type to a Catalog record.'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.location_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

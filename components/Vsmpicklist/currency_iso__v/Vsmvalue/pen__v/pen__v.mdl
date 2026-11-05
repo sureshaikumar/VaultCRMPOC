@@ -1,0 +1,10 @@
+Vsmvalue pen__v (
+   label('PEN'),
+   active(true),
+   description('The official currency of Peru (PEN), used for all financial and commercial transactions in the country and a key currency in South American markets.'),
+   synonyms('Peruvian sol',
+         'sol',
+         'PEN'),
+   target('pen__sys'),
+   target_label('PEN')
+);

@@ -1,0 +1,5 @@
+Picklistentry publish_in_progress__v (
+   value('Publish In Progress'),
+   order(2),
+   active(true)
+);

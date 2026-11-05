@@ -1,0 +1,4 @@
+Typefield pricing_group__v (
+   source('custom'),
+   required(false)
+);

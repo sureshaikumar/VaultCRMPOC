@@ -1,0 +1,6 @@
+Message erase_geo_shapes_are_you_sure__v (
+   label(),
+   active(true),
+   default_value('This action will erase Map Shape values in all Geography records of type {0} for {1}.'),
+   system_managed(false)
+);

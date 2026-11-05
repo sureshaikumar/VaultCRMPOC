@@ -1,0 +1,18 @@
+Field incurred_expense__v (
+   label('Incurred Expense'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Attendees with the Incurred Expense checkbox checked will be posted as Attendees to Concur.'),
+   list_column(false),
+   order(21),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

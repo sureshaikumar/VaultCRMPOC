@@ -1,0 +1,6 @@
+Message error_updating_inventory_order_status__v (
+   label(),
+   active(true),
+   default_value('Inventory Order cannot be modified because of the Order Status.'),
+   system_managed(false)
+);

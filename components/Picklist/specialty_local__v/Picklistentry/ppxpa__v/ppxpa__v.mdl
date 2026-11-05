@@ -1,0 +1,6 @@
+Picklistentry ppxpa__v (
+   value('Pediatric and Perinatal Pathology'),
+   order(1334),
+   active(true),
+   controlling_entries('ae__v')
+);

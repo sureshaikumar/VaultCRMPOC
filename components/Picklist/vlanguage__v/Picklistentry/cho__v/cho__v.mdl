@@ -1,0 +1,5 @@
+Picklistentry cho__v (
+   value('Choctaw'),
+   order(60),
+   active(false)
+);

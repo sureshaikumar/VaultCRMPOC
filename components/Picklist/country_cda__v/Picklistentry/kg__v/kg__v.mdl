@@ -1,0 +1,5 @@
+Picklistentry kg__v (
+   value('Kyrgyzstan'),
+   order(121),
+   active(true)
+);

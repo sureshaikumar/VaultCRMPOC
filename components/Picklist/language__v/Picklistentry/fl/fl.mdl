@@ -1,0 +1,5 @@
+Picklistentry fl (
+   value('Flemish'),
+   order(9),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield consent_text_required__v (
+   source('custom'),
+   required(false)
+);

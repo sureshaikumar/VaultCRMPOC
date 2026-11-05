@@ -1,0 +1,6 @@
+Message rule_target_feedback_cloning_yes_single__v (
+   label(),
+   active(true),
+   default_value('Approved feedback, manual edits and imported targets will be cloned from {0} into {1}.'),
+   system_managed(false)
+);

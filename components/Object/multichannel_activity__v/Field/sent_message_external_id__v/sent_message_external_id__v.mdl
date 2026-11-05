@@ -1,0 +1,19 @@
+Field sent_message_external_id__v (
+   label('Sent Message External Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('External ID to determine which Sent Message to write Multichannel Activity for'),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

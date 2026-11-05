@@ -1,0 +1,9 @@
+RECREATE Picklist key_message_ios_resolution__v (
+   label('iOS Resolution'),
+   active(true),
+   Picklistentry(@Picklistentry/default_for_device__v.mdl),
+   Picklistentry(@Picklistentry/scale_to_1024x768__v.mdl),
+   Picklistentry(@Picklistentry/scale_to_fit__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

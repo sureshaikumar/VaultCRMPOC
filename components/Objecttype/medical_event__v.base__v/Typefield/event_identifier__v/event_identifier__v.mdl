@@ -1,0 +1,4 @@
+Typefield event_identifier__v (
+   source('standard'),
+   required(false)
+);

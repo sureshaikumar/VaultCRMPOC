@@ -1,0 +1,6 @@
+Message start_another_fax__v (
+   label(),
+   active(true),
+   default_value('Start Another Fax'),
+   system_managed(false)
+);

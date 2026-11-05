@@ -1,0 +1,22 @@
+Field signature_timestamp__v (
+   label('Signature Timestamp'),
+   type('Number'),
+   active(true),
+   description('Device up-time in seconds, at the time the signature was captured.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(137),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+Vsmvalue mxn__v (
+   label('MXN'),
+   active(true),
+   description('The official currency of Mexico (MXN), widely used in North American trade and one of the most traded currencies in Latin America.'),
+   synonyms('Mexican peso',
+         'peso',
+         'MXN'),
+   target('mxn__sys'),
+   target_label('MXN')
+);

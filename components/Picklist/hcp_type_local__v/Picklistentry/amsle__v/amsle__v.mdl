@@ -1,0 +1,5 @@
+Picklistentry amsle__v (
+   value('Allopathic Medical Student'),
+   order(5),
+   active(true)
+);

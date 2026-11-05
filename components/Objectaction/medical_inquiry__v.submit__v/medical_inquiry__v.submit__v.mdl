@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_inquiry__v.submit__v (
+   label('Submit'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinquiry.actions.MedicalInquirySavedRecordSubmitAction'),
+   active(true),
+   available_all_states(true)
+);

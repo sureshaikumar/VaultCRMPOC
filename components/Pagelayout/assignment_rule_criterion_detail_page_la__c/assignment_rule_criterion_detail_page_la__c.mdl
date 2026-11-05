@@ -1,0 +1,8 @@
+RECREATE Pagelayout assignment_rule_criterion_detail_page_la__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Assignment Rule Criterion Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

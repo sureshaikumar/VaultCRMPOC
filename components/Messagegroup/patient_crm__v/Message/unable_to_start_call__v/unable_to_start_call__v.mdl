@@ -1,0 +1,6 @@
+Message unable_to_start_call__v (
+   label(),
+   active(true),
+   default_value('Unable to start call'),
+   system_managed(false)
+);

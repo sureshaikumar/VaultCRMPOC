@@ -1,0 +1,6 @@
+Picklistentry za-mp__v (
+   value('Mpumalanga'),
+   order(5022),
+   active(true),
+   controlling_entries('za__v')
+);

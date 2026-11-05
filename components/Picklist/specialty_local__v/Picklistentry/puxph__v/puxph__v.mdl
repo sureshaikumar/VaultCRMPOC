@@ -1,0 +1,6 @@
+Picklistentry puxph__v (
+   value('Pulmonology and Phthisiology'),
+   order(1653),
+   active(true),
+   controlling_entries('bg__v')
+);

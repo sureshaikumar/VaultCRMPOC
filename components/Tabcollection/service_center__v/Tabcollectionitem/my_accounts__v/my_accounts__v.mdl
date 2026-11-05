@@ -1,0 +1,8 @@
+Tabcollectionitem my_accounts__v (
+   label(),
+   active(true),
+   tabs(),
+   order(20),
+   tab('Tab.my_accounts__v'),
+   type('Tab')
+);

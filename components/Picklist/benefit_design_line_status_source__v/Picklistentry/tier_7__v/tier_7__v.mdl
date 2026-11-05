@@ -1,0 +1,5 @@
+Picklistentry tier_7__v (
+   value('Tier 7'),
+   order(22),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry mdf (
+   value('Moksha'),
+   order(261),
+   active(true)
+);

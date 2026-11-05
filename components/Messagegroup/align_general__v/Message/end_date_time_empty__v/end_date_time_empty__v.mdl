@@ -1,0 +1,6 @@
+Message end_date_time_empty__v (
+   label(),
+   active(true),
+   default_value('End Date cannot be empty'),
+   system_managed(false)
+);

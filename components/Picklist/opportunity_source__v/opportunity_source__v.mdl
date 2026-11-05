@@ -1,0 +1,13 @@
+RECREATE Picklist opportunity_source__v (
+   label('Source'),
+   active(true),
+   Picklistentry(@Picklistentry/advertising__v.mdl),
+   Picklistentry(@Picklistentry/email__v.mdl),
+   Picklistentry(@Picklistentry/referral__v.mdl),
+   Picklistentry(@Picklistentry/tradeshow_event__v.mdl),
+   Picklistentry(@Picklistentry/partner__v.mdl),
+   Picklistentry(@Picklistentry/webinar__v.mdl),
+   Picklistentry(@Picklistentry/website__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

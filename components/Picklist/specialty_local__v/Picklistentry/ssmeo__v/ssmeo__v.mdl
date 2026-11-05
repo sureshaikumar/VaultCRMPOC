@@ -1,0 +1,6 @@
+Picklistentry ssmeo__v (
+   value('Social Security Medical Examination'),
+   order(1781),
+   active(true),
+   controlling_entries('pt__v')
+);

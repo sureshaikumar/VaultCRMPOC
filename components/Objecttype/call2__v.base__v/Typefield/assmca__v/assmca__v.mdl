@@ -1,0 +1,4 @@
+Typefield assmca__v (
+   source('standard'),
+   required(false)
+);

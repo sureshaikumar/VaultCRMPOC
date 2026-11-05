@@ -1,0 +1,5 @@
+Picklistentry atlantic_bermuda__v (
+   value('Atlantic/Bermuda'),
+   order(20),
+   active(true)
+);

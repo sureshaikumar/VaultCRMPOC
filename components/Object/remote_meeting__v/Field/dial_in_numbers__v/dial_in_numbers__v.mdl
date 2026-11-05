@@ -1,0 +1,17 @@
+Field dial_in_numbers__v (
+   label('Dial In Numbers'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Remote Meeting Dial-In Phone Numbers'),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

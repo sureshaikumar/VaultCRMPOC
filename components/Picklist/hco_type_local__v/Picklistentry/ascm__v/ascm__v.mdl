@@ -1,0 +1,5 @@
+Picklistentry ascm__v (
+   value('Ambulatory Surgery Center'),
+   order(6),
+   active(true)
+);

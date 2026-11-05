@@ -1,0 +1,6 @@
+Picklistentry ua-09__v (
+   value('Luhanska oblast'),
+   order(4618),
+   active(true),
+   controlling_entries('ua__v')
+);

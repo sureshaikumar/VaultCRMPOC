@@ -1,0 +1,6 @@
+Message enable_for_mobile__v (
+   label(),
+   active(true),
+   default_value('Enable for Mobile'),
+   system_managed(false)
+);

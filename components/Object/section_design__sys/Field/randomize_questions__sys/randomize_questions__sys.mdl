@@ -1,0 +1,17 @@
+Field randomize_questions__sys (
+   label('Randomize Questions'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates whether the questions are randomized for the section in the checklist.'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

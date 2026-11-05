@@ -1,0 +1,5 @@
+Picklistentry corp_managed__v (
+   value('Corp. Managed'),
+   order(20),
+   active(true)
+);

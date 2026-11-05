@@ -1,0 +1,6 @@
+Picklistentry kh-4__v (
+   value('Kampong Chhnang [Kâmpóng Chhnăng]'),
+   order(2429),
+   active(true),
+   controlling_entries('kh__v')
+);

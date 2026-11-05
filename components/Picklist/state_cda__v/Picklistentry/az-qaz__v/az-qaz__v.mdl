@@ -1,0 +1,6 @@
+Picklistentry az-qaz__v (
+   value('Qazax'),
+   order(181),
+   active(true),
+   controlling_entries('az__v')
+);

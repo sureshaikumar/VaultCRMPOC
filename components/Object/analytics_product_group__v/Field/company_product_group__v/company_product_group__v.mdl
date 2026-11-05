@@ -1,0 +1,18 @@
+Field company_product_group__v (
+   label('Company Product Group'),
+   type('Boolean'),
+   active(true),
+   description('Checkbox to define if the Product Group is a Company product.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

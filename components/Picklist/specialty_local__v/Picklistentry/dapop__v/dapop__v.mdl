@@ -1,0 +1,6 @@
+Picklistentry dapop__v (
+   value('Development and Production of Plant-Based Drugs, Pharmacognosy'),
+   order(414),
+   active(true),
+   controlling_entries('hu__v')
+);

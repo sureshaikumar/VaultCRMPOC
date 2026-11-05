@@ -1,0 +1,4 @@
+Typefield enable_order_approval__v (
+   source('standard'),
+   required(false)
+);

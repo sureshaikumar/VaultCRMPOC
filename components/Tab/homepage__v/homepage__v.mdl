@@ -1,0 +1,12 @@
+RECREATE Tab homepage__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Home'),
+   modal_create_record(false),
+   order(0),
+   page('Page.homepage__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

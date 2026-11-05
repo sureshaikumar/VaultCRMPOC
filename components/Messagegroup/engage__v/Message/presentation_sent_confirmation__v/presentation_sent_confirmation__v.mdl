@@ -1,0 +1,6 @@
+Message presentation_sent_confirmation__v (
+   label(),
+   active(true),
+   default_value('Presentation Sent'),
+   system_managed(false)
+);

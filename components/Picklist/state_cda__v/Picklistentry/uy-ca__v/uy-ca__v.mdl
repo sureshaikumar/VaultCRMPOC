@@ -1,0 +1,6 @@
+Picklistentry uy-ca__v (
+   value('Canelones'),
+   order(4849),
+   active(true),
+   controlling_entries('uy__v')
+);

@@ -1,0 +1,12 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.translation_provider_config__sys.deepl__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="api_name__sys" />
+            <vault:field reference="status__v" />
+            <vault:field reference="glossary_id__sys" />
+            <vault:field reference="style_rules_id__sys" />
+            <vault:field reference="translation_memory_id__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

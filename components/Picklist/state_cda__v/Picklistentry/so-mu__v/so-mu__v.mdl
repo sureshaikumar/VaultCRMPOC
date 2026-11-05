@@ -1,0 +1,6 @@
+Picklistentry so-mu__v (
+   value('Mudug'),
+   order(4233),
+   active(true),
+   controlling_entries('so__v')
+);

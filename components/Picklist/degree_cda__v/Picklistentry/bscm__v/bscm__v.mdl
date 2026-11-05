@@ -1,0 +1,5 @@
+Picklistentry bscm__v (
+   value('Bachelor of Medicine'),
+   order(10),
+   active(true)
+);

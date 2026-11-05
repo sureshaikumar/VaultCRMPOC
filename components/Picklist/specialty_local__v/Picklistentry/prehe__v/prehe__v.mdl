@@ -1,0 +1,6 @@
+Picklistentry prehe__v (
+   value('Pediatric Rheumocardiology'),
+   order(1456),
+   active(true),
+   controlling_entries('bg__v')
+);

@@ -1,0 +1,6 @@
+Message uploading_could_not_complete__v (
+   label(),
+   active(true),
+   default_value('Uploading could not complete for the following reasons:'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field acceptance_id__v (
+   label('Acceptance #'),
+   type('String'),
+   active(true),
+   description('To be filled to enable the partner record if no signature is captured.'),
+   required(false),
+   unique(false),
+   max_length(15),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

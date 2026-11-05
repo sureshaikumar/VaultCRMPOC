@@ -1,0 +1,5 @@
+Picklistentry europe_samara__sys (
+   value('(GMT+04:00) Samara Time (Europe/Samara)'),
+   order(214),
+   active(true)
+);

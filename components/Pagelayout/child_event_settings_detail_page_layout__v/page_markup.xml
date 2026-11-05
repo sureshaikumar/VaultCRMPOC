@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_rule__v.child_event_settings__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="child_event_object_type__v" />
+            <vault:field reference="event_configuration__v" />
+            <vault:field reference="country_override__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Child Event Rules" name="child_event_rules__c">
+        <vault:relatedObject relationship="child_event_rule_configurations__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="parent_event_field__v" width="200px" />
+            <vault:field reference="parent_event_related_list__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

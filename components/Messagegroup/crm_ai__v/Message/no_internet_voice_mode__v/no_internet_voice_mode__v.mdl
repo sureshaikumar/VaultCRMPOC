@@ -1,0 +1,6 @@
+Message no_internet_voice_mode__v (
+   label(),
+   active(true),
+   default_value('You must be connected to the internet to use voice mode.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message scheduled_send_modal_title__v (
+   label(),
+   active(true),
+   default_value('When do you want to send this email?'),
+   system_managed(false)
+);

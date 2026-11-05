@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.schedule_zoom__v (
+   label('Schedule Zoom'),
+   description('Schedules a Zoom Meeting that is linked to the event.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.EmEventScheduleZoomAction'),
+   active(true),
+   available_all_states(true)
+);

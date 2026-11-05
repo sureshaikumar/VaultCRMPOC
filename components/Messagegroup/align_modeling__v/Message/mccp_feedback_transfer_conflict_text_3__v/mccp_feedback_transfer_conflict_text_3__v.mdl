@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_conflict_text_3__v (
+   label(),
+   active(true),
+   default_value('The below accounts cannot be removed as targets due to accepted transfer requests. Continue to remove the remaining accounts.'),
+   system_managed(false)
+);

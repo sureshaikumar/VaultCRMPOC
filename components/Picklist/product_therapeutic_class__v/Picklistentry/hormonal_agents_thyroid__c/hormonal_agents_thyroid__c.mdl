@@ -1,0 +1,5 @@
+Picklistentry hormonal_agents_thyroid__c (
+   value('Hormonal Agents (Thyroid)'),
+   order(120),
+   active(true)
+);

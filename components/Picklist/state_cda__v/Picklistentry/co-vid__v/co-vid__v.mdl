@@ -1,0 +1,6 @@
+Picklistentry co-vid__v (
+   value('Vichada'),
+   order(759),
+   active(true),
+   controlling_entries('co__v')
+);

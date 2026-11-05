@@ -1,0 +1,5 @@
+Picklistentry kg__v (
+   value('KG'),
+   order(115),
+   active(true)
+);

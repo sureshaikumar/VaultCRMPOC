@@ -1,0 +1,5 @@
+Picklistentry 28420__v (
+   value('Kennewick-Richland-Pasco, WA Metropolitan Statistical Area'),
+   order(165),
+   active(true)
+);

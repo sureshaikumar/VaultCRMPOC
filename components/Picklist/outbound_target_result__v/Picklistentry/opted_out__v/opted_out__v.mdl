@@ -1,0 +1,5 @@
+Picklistentry opted_out__v (
+   value('Opted Out'),
+   order(10),
+   active(true)
+);

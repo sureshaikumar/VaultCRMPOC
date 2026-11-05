@@ -1,0 +1,10 @@
+Vsmvalue rol__v (
+   label('ROL'),
+   active(true),
+   description('The former official currency of Romania (ROL), replaced by the new Romanian leu (RON) in 2005 at a rate of 10,000:1 as part of a currency redenomination.'),
+   synonyms('old Romanian leu',
+         'former leu',
+         'ROL'),
+   target('rol__sys'),
+   target_label('ROL')
+);

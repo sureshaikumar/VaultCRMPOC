@@ -1,0 +1,6 @@
+Message grant_permission_to_microphone__v (
+   label(),
+   active(true),
+   default_value('Grant access to the microphone through the browser and refresh the page'),
+   system_managed(false)
+);

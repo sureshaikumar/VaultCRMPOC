@@ -1,0 +1,6 @@
+Message discarded_emails_will_appear_here__v (
+   label(),
+   active(true),
+   default_value('Discarded emails will appear here'),
+   system_managed(false)
+);

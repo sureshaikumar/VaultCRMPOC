@@ -1,0 +1,6 @@
+Picklistentry lpisa__v (
+   value('Liaison Psychiatry'),
+   order(863),
+   active(true),
+   controlling_entries('gb__v')
+);

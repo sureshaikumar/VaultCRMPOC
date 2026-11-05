@@ -1,0 +1,13 @@
+Vsmfield object_type__v (
+   label('Connection Type'),
+   active(true),
+   description('Classifies the connection by its type (e.g., Vault-to-Vault, External, Local or LLM). IMPORTANT: This field represents the category/type of the connection, not its lifecycle state. Use this to filter connections by integration type.'),
+   example_values(),
+   synonyms('connection type',
+         'type',
+         'kind'),
+   target('object_type__v'),
+   target_label('Connection Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

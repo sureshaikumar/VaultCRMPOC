@@ -1,0 +1,5 @@
+Picklistentry tnd__sys (
+   value('TND'),
+   order(179),
+   active(true)
+);

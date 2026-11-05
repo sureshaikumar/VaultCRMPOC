@@ -1,0 +1,4 @@
+Typefield cbsa__v (
+   source('standard'),
+   required(false)
+);

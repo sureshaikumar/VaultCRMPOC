@@ -1,0 +1,6 @@
+Message schedule_activation_journey_duration__v (
+   label(),
+   active(true),
+   default_value('${start_date} - ${end_date}'),
+   system_managed(false)
+);

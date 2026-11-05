@@ -1,0 +1,6 @@
+Picklistentry otp_base_test_crm_product_request_1__sys (
+   value('Base test_crm_product_request_1'),
+   order(23),
+   active(true),
+   controlling_entries('olc_test_crm_product_request_1__sys')
+);

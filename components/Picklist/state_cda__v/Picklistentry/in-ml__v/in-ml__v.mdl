@@ -1,0 +1,6 @@
+Picklistentry in-ml__v (
+   value('Meghālaya'),
+   order(2017),
+   active(true),
+   controlling_entries('in__v')
+);

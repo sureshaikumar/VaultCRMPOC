@@ -1,0 +1,18 @@
+Field walk_in_type__v (
+   label('Walk-In Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Walk-In Types to be captured during digital sign in by attendees.'),
+   list_column(false),
+   order(38),
+   multi_value(false),
+   picklist('Picklist.event_attendee_walk_in_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

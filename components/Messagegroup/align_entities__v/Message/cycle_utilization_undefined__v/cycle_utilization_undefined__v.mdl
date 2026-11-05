@@ -1,0 +1,6 @@
+Message cycle_utilization_undefined__v (
+   label(),
+   active(true),
+   default_value('Undefined'),
+   system_managed(false)
+);

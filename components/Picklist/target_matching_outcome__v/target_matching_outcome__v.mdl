@@ -1,0 +1,9 @@
+RECREATE Picklist target_matching_outcome__v (
+   label('Matching Outcome'),
+   active(true),
+   Picklistentry(@Picklistentry/matched__v.mdl),
+   Picklistentry(@Picklistentry/no_match__v.mdl),
+   Picklistentry(@Picklistentry/multiple_matches__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

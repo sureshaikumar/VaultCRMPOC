@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2" combinePromptsBy="referencedField">
+  <vault:chart name="test__c" label="Test " type="gauge" report="Report.test_report_22__c" description="" footer="">
+    <vault:position row="0" col="0" sizeX="6" sizeY="7" />
+    <vault:format showmetrics="true" showgroupings="true" showvalue="true" min="0.0" max="100.0">
+      <vault:range color="#427B2E" min="0.0" max="30.0" />
+      <vault:range color="#D9780D" min="30.0" max="70.0" />
+      <vault:range color="#B71307" min="70.0" max="100.0" />
+    </vault:format>
+    <vault:series metric="RecordCount" unitlabel="  ">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="new_list__c" label="New list" type="table" report="Report.account_with_address1__c" description="" footer="">
+    <vault:position row="0" col="6" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="account__v.name__v" label="Account &gt; Name" property="link" />
+      <vault:reportColumn key="account__v.do_not_call__v" label="Account &gt; Do Not Call?" property="data" />
+      <vault:reportColumn key="account__v.type__v" label="Account &gt; Account Type" property="data" />
+      <vault:reportColumn key="account__v.account_type__c" label="Account &gt; Account Type" property="data" />
+      <vault:reportColumn key="address__v___account__v.name__v" label="Address &gt; Address line 1" property="link" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+</vault:dashboard>

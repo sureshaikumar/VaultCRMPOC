@@ -1,0 +1,5 @@
+Picklistentry mailbox_full__v (
+   value('Mailbox Full'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 13060__v (
+   value('Bay City, TX Micropolitan Statistical Area'),
+   order(865),
+   active(true)
+);

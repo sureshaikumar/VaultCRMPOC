@@ -1,0 +1,14 @@
+Picklistentry omrea__v (
+   value('Oral Medicine'),
+   order(1172),
+   active(true),
+   controlling_entries('fr__v',
+         'in__v',
+         'jo__v',
+         'kr__v',
+         'mc__v',
+         'ng__v',
+         'nz__v',
+         'qa__v',
+         'sa__v')
+);

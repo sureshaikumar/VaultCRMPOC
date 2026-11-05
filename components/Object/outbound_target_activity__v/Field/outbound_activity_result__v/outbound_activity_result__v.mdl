@@ -1,0 +1,18 @@
+Field outbound_activity_result__v (
+   label('Outbound Activity Result'),
+   type('Picklist'),
+   active(true),
+   description('Outcome, or result, of the target attempt.'),
+   required(false),
+   unique(false),
+   help_content('Outcome, or result, of the target attempt.'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.outbound_target_result__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

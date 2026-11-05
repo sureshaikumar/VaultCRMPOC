@@ -1,0 +1,6 @@
+Picklistentry vssbv__v (
+   value('Vascular Surgery (Surgical Blood Vessel Diseases)'),
+   order(1916),
+   active(true),
+   controlling_entries('dk__v')
+);

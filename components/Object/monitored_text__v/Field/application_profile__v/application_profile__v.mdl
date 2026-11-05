@@ -1,0 +1,19 @@
+Field application_profile__v (
+   label('Application Profile'),
+   type('String'),
+   active(true),
+   description('Application profile of the user who last modified this record at the time that the monitoring rules evaluated this text'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('Application profile of the user who last modified this record at the time that the monitoring rules evaluated this text'),
+   list_column(false),
+   order(43),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

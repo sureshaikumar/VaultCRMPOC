@@ -1,0 +1,6 @@
+Message event_materials_available_materials__v (
+   label(),
+   active(true),
+   default_value('Available Materials'),
+   system_managed(false)
+);

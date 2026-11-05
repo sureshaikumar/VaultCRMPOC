@@ -1,0 +1,19 @@
+Field vault_document_title__v (
+   label('Document Title'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Vault_Document_Title_vod captures the title of the viewed or downloaded document as it exists in Vault.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

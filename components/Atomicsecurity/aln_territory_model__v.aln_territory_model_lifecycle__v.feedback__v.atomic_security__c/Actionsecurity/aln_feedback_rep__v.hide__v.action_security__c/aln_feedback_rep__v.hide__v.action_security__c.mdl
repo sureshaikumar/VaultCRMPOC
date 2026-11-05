@@ -1,0 +1,8 @@
+Actionsecurity aln_feedback_rep__v.hide__v.action_security__c (
+   label('Feedback Rep-Hide'),
+   active(true),
+   role('Objectlifecyclerole.aln_feedback_rep__v'),
+   type('hide__v'),
+   object_actions('Objectaction.aln_territory_model__v.review__v'),
+   lifecycle_actions()
+);

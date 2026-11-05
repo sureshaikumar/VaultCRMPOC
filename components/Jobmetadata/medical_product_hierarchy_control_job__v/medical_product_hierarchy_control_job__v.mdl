@@ -1,0 +1,12 @@
+RECREATE Jobmetadata medical_product_hierarchy_control_job__v (
+   label('Medical to CRM product hierarchy control job inbound job'),
+   active(true),
+   chunk_size(1),
+   description('A job handles the product hierarchy job flow to ensure proper order between jobs'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.productintegration.jobs.medical.MedicalProductHierarchyInboundControlJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

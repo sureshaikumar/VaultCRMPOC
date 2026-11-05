@@ -1,0 +1,5 @@
+Picklistentry 37060__v (
+   value('Oxford, MS Micropolitan Statistical Area'),
+   order(551),
+   active(true)
+);

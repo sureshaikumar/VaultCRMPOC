@@ -1,0 +1,19 @@
+Field secure_ip_address__v (
+   label('Secure IP Address'),
+   type('String'),
+   active(true),
+   description('Securely captures the IP address as reported by the Multichannel Email Engine of the device on which the email was viewed.'),
+   required(false),
+   unique(false),
+   max_length(45),
+   help_content(),
+   list_column(true),
+   order(59),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

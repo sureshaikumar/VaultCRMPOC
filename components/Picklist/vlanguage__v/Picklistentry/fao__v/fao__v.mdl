@@ -1,0 +1,5 @@
+Picklistentry fao__v (
+   value('Faroese'),
+   order(96),
+   active(false)
+);

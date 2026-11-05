@@ -1,0 +1,10 @@
+Objectlifecyclestate inactive_state__v (
+   label('Inactive'),
+   active(true),
+   record_inactive(),
+   record_status('inactive__v'),
+   description('The Medical Interaction is inactive.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

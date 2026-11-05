@@ -1,0 +1,6 @@
+Message csv_import_in_progress_dialog_message__v (
+   label(),
+   active(true),
+   default_value('{0} is in progress and may take several minutes depending on the volume of data within the file.'),
+   system_managed(false)
+);

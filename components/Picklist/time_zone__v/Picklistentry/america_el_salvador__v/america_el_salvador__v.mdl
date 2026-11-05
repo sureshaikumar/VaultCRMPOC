@@ -1,0 +1,5 @@
+Picklistentry america_el_salvador__v (
+   value('Central Time (El Salvador)'),
+   order(76),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 45640__v (
+   value('Thomasville-Lexington, NC Micropolitan Statistical Area'),
+   order(37),
+   active(true)
+);

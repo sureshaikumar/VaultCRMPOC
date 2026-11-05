@@ -1,0 +1,18 @@
+Field destroy__v (
+   label('Destroy'),
+   type('Boolean'),
+   active(true),
+   description('System field.  This is used by the update trigger to delete the affiliation (and its child or parent) regardless of the owner of the affiliation.   Without this trigger users can only delete affiliations that they create or affiliations that are owned by'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

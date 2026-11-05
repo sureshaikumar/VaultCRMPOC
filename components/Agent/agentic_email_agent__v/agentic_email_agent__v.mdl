@@ -1,0 +1,14 @@
+RECREATE Agent agentic_email_agent__v (
+   label('Agentic Email Agent'),
+   active(true),
+   agent_user('[agent]agentic_email_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.AgenticEmailAgent'),
+   description('This agent provides AI assistance when composing emails.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/rewrite__v.mdl)
+);

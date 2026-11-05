@@ -1,0 +1,6 @@
+Picklistentry si-143__v (
+   value('Zavrč'),
+   order(4117),
+   active(true),
+   controlling_entries('si__v')
+);

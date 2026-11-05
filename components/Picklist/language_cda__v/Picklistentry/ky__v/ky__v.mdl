@@ -1,0 +1,5 @@
+Picklistentry ky__v (
+   value('Kyrgyz'),
+   order(34),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry checking_out__sys (
+   value('Checking Out'),
+   order(0),
+   active(true)
+);

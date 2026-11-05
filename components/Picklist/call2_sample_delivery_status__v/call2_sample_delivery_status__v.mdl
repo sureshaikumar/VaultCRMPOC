@@ -1,0 +1,11 @@
+RECREATE Picklist call2_sample_delivery_status__v (
+   label('Delivery Status'),
+   active(true),
+   Picklistentry(@Picklistentry/in_progress__v.mdl),
+   Picklistentry(@Picklistentry/shipped__v.mdl),
+   Picklistentry(@Picklistentry/delivered__v.mdl),
+   Picklistentry(@Picklistentry/cancel_request__v.mdl),
+   Picklistentry(@Picklistentry/cancelled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

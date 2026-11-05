@@ -1,0 +1,6 @@
+Message account_types__v (
+   label(),
+   active(true),
+   default_value('Account Types'),
+   system_managed(false)
+);

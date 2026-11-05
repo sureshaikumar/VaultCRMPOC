@@ -1,0 +1,6 @@
+Picklistentry az-bab__v (
+   value('Babək'),
+   order(146),
+   active(true),
+   controlling_entries('az__v')
+);

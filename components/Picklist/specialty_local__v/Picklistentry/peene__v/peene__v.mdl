@@ -1,0 +1,7 @@
+Picklistentry peene__v (
+   value('Pediatrics Endocrinology'),
+   order(1477),
+   active(true),
+   controlling_entries('id__v',
+         'tw__v')
+);

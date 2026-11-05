@@ -1,0 +1,6 @@
+Picklistentry bi-ci__v (
+   value('Cibitoke'),
+   order(410),
+   active(true),
+   controlling_entries('bi__v')
+);

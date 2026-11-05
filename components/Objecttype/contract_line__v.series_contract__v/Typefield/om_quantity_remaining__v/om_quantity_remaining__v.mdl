@@ -1,0 +1,4 @@
+Typefield om_quantity_remaining__v (
+   source('custom'),
+   required(false)
+);

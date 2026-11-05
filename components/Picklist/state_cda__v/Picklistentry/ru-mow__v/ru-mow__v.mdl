@@ -1,0 +1,6 @@
+Picklistentry ru-mow__v (
+   value('Moskva'),
+   order(3832),
+   active(true),
+   controlling_entries('ru__v')
+);

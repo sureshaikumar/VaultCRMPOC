@@ -1,0 +1,10 @@
+Vsmvalue std__v (
+   label('STD'),
+   active(true),
+   description('Applies when referencing the legacy São Tomé and Príncipe Dobra, the historical currency replaced by the STN in 2018.'),
+   synonyms('São Tomé dobra legacy',
+         'Sao Tome old dobra',
+         'dobra'),
+   target('std__sys'),
+   target_label('STD')
+);

@@ -1,0 +1,20 @@
+RECREATE Report testcompliance__c (
+   label('Test-Compliance'),
+   active(true),
+   description(),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Document'),
+   report_type('Reporttype.document__sys'),
+   editors(),
+   viewers(),
+   owners('User.bts.user@sb-accenture.com'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

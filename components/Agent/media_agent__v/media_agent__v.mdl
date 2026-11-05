@@ -1,0 +1,15 @@
+RECREATE Agent media_agent__v (
+   label('Media Agent'),
+   active(true),
+   agent_user('[agent]media_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.MediaAgent'),
+   description('This agent performs a deep search across all available approved content sources to find answers that other specialized agents may not cover. Route here for any pharmaceutical or life sciences question that is factual, specific, or where the answer is likely documented somewhere.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/answers_clm_questions__v.mdl),
+   Agentaction(@Agentaction/summarize_clm_visuals__v.mdl)
+);

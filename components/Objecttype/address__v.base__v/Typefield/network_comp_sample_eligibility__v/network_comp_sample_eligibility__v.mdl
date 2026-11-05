@@ -1,0 +1,4 @@
+Typefield network_comp_sample_eligibility__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message exit_view_cancel_adding_targets_warning__v (
+   label(),
+   active(true),
+   default_value('Exiting this view will cancel adding the selected ${object_name} as Targets'),
+   system_managed(false)
+);

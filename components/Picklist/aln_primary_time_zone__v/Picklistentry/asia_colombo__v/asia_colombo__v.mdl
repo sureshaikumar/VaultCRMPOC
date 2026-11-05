@@ -1,0 +1,5 @@
+Picklistentry asia_colombo__v (
+   value('Asia/Colombo'),
+   order(56),
+   active(true)
+);

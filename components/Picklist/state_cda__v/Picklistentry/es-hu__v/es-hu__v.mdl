@@ -1,0 +1,6 @@
+Picklistentry es-hu__v (
+   value('Huesca'),
+   order(1222),
+   active(true),
+   controlling_entries('es__v')
+);

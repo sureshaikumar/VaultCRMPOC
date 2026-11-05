@@ -1,0 +1,5 @@
+Picklistentry ltaeb__v (
+   value('Laboratory Technician'),
+   order(55),
+   active(true)
+);

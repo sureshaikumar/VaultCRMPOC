@@ -1,0 +1,6 @@
+Picklistentry ye-ba__v (
+   value('Al Bayḑā'''),
+   order(4998),
+   active(true),
+   controlling_entries('ye__v')
+);

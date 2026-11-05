@@ -1,0 +1,4 @@
+Typefield product_name__c (
+   source('custom'),
+   required(false)
+);

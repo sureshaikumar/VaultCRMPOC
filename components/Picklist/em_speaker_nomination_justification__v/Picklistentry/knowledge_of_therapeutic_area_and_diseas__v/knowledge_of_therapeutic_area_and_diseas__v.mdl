@@ -1,0 +1,5 @@
+Picklistentry knowledge_of_therapeutic_area_and_diseas__v (
+   value('Knowledge of therapeutic area and disease state'),
+   order(2),
+   active(true)
+);

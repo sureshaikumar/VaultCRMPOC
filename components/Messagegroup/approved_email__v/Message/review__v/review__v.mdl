@@ -1,0 +1,6 @@
+Message review__v (
+   label(),
+   active(true),
+   default_value('Review'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ec-z__v (
+   value('Zamora Chinchipe'),
+   order(1063),
+   active(true),
+   controlling_entries('ec__v')
+);

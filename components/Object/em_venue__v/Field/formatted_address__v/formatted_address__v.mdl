@@ -1,0 +1,21 @@
+Field formatted_address__v (
+   label('Formatted Address'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Concatenation of address fields. This formula can be modified to display a venue address in a different format.'),
+   list_column(false),
+   order(18),
+   formula('address__v & If(IsBlank( address_line_2__v ), "", ", " & address_line_2__v) & If(IsBlank( city__v ), "", ", " & city__v) & If(IsBlank( state_province__v ), "", ", " & state_province__v) & If(IsBlank( postal_code__v ), "", ", " & postal_code__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

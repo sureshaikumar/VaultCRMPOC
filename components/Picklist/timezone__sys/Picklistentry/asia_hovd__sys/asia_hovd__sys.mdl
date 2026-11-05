@@ -1,0 +1,5 @@
+Picklistentry asia_hovd__sys (
+   value('(GMT+07:00) Hovd Time (Asia/Hovd)'),
+   order(245),
+   active(true)
+);

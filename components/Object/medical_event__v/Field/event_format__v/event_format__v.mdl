@@ -1,0 +1,21 @@
+Field event_format__v (
+   label('Event Format'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('This field is used by the system. It must be visible to users of Veeva Event Management.'),
+   list_column(false),
+   order(56),
+   formula('Text(em_event__vr.event_format__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

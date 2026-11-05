@@ -1,0 +1,5 @@
+Picklistentry 15820__v (
+   value('Campbellsville, KY Micropolitan Statistical Area'),
+   order(888),
+   active(true)
+);

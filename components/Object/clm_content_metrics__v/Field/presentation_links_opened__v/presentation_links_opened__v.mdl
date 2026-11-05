@@ -1,0 +1,22 @@
+Field presentation_links_opened__v (
+   label('Presentation Links Opened'),
+   type('Number'),
+   active(true),
+   description('The number of times links generated for presentation were opened. This is calculated from the message_activity__v records created where activity__v = clicked__v.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

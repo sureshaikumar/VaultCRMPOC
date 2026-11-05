@@ -1,0 +1,6 @@
+Message mccp_feedback_show_targets_details__v (
+   label(),
+   active(true),
+   default_value('Show Target Details'),
+   system_managed(false)
+);

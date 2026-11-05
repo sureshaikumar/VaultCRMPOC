@@ -1,0 +1,4 @@
+Typefield reference_document__v (
+   source('custom'),
+   required(false)
+);

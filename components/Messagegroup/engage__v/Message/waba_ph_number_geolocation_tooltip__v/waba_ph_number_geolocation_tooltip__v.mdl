@@ -1,0 +1,6 @@
+Message waba_ph_number_geolocation_tooltip__v (
+   label(),
+   active(true),
+   default_value('Choose the geolocation of the Meta server to store the data generated for this phone number.'),
+   system_managed(false)
+);

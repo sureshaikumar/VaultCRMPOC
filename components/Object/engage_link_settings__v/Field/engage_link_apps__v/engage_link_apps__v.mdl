@@ -1,0 +1,20 @@
+Field engage_link_apps__v (
+   label('Engage Link Apps'),
+   type('String'),
+   active(true),
+   description('The list of Apps that are available when sharing Engage Link'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('"ENGAGE_LINK_APPS;;EngageLink"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

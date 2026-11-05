@@ -1,0 +1,6 @@
+Message default_consent_for_msging_error__v (
+   label(),
+   active(true),
+   default_value('Default Consent Type for Messaging channel should always be Explicit.'),
+   system_managed(false)
+);

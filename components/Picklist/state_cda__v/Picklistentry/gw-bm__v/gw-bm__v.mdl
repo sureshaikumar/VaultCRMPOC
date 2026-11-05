@@ -1,0 +1,6 @@
+Picklistentry gw-bm__v (
+   value('Biombo'),
+   order(1804),
+   active(true),
+   controlling_entries('gw__v')
+);

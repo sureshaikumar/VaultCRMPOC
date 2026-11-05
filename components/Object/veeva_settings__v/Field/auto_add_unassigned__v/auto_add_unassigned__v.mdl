@@ -1,0 +1,18 @@
+Field auto_add_unassigned__v (
+   label('AUTO_ADD_UNASSIGNED'),
+   type('Boolean'),
+   active(true),
+   description('Enables the automatic creation of an unassigned call with the Exploria integration.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(25),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

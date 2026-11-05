@@ -1,0 +1,6 @@
+Picklistentry ptmeh__v (
+   value('Pediatric Thoracic Medicine'),
+   order(1462),
+   active(true),
+   controlling_entries('tw__v')
+);

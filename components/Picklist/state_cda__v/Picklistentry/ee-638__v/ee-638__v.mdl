@@ -1,0 +1,6 @@
+Picklistentry ee-638__v (
+   value('Põhja-Pärnumaa'),
+   order(1117),
+   active(true),
+   controlling_entries('ee__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-tfw__v (
+   value('Telford and Wrekin'),
+   order(1639),
+   active(true),
+   controlling_entries('gb__v')
+);

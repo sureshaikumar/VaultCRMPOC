@@ -1,0 +1,11 @@
+Vsmrelationship manager__v (
+   label('Manager'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('Outbound object reference to a user\''s manager record'),
+   join_object(),
+   synonyms(),
+   target('manager__sysr'),
+   target_label('Manager'),
+   target_object('user__sys')
+);

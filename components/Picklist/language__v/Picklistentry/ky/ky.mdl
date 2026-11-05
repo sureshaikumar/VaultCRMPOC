@@ -1,0 +1,5 @@
+Picklistentry ky (
+   value('Kirghiz-Kyrgyz'),
+   order(100),
+   active(true)
+);

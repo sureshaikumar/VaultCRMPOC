@@ -1,0 +1,19 @@
+Field lot_catalog_external_id__v (
+   label('Lot Catalog External Id'),
+   type('String'),
+   active(true),
+   description('Lot Catalog External Id is an external Id field to support data loading and upsert functionality of an organization''s Lot Catalog.  Lot Catalog External Id is equal to the Lot # of Lot Catalog and is managed by a workflow on Lot Catalog.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

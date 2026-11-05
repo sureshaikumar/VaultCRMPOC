@@ -1,0 +1,6 @@
+Message min_characters__v (
+   label(),
+   active(true),
+   default_value('Enter at least ${character_count} characters'),
+   system_managed(false)
+);

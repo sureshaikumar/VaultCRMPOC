@@ -1,0 +1,6 @@
+Picklistentry co-caq__v (
+   value('Caquetá'),
+   order(734),
+   active(true),
+   controlling_entries('co__v')
+);

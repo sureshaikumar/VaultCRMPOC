@@ -1,0 +1,20 @@
+RECREATE Layoutrule sample_receipt_transa_detail_page_layout__c.receipt_required_hide_and_readonly__c (
+   active(true),
+   description('This rule defines the fields that are read only and required on the create and edit view of Sample Receipt Transaction.'),
+   displayed_as_readonly_fields('comments__v',
+      'sample_transaction_status__v',
+      'type__v',
+      'submitted_date__v',
+      'transferred_from_name__v',
+      'transferred_from__v'),
+   displayed_as_required_fields('transferred_date__v'),
+   expression('type__v = ''receipt__v'''),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('lot__v'),
+   hide_sections(),
+   hide_layout(false),
+   label('Receipt: Required, hide and Read-Only'),
+   order(100)
+);

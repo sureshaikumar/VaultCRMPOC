@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout embedded_viewer__v (
+   label('Embedded Viewer'),
+   active(true),
+   icon('UNDEFINED'),
+   order(27),
+   fields('Docfield.document_host_url__v'),
+   show_in_edit_mode(true),
+   allow_field_assignment(true),
+   panel('Documentpanel.doc_info_information__sys')
+);

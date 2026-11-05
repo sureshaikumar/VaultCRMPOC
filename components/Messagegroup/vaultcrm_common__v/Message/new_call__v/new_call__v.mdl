@@ -1,0 +1,6 @@
+Message new_call__v (
+   label(),
+   active(true),
+   default_value('New ${call_label}: ${call_object_type_label}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry phyto__v (
+   value('Phytopharmacy'),
+   order(1561),
+   active(true),
+   controlling_entries('ba__v')
+);

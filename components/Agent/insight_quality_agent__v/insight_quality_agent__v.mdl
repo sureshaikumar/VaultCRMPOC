@@ -1,0 +1,14 @@
+RECREATE Agent insight_quality_agent__v (
+   label('Insight Quality Agent'),
+   active(true),
+   agent_user('[agent]insight_quality_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.InsightQualityAgent'),
+   description('This agent evaluates the text insights against a set of rules to assess completeness, specificity, and relevance.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/analyze_insight__v.mdl)
+);

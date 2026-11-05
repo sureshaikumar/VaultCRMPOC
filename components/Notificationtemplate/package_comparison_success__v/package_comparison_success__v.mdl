@@ -1,0 +1,15 @@
+RECREATE Notificationtemplate package_comparison_success__v (
+   label('Package Comp Comparison Success'),
+   active(true),
+   description('Package component comparison success template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Package Component Comparison Complete'),
+   notification('<b><p><a href="${package_comparison_url}">Package component comparison</a> has been successfully completed.</p></b>
+                             <br/>
+                             The requested Package Comparison for Inbound Package ${package_name} is ready. You may download the comparison export here: <a href="${package_comparison_url}">${package_comparison_report_name}</a>.
+'),
+   email_body('<b><p>The requested Package Comparison for Inbound Package ${package_name} is ready. You may download the comparison export here: <a href="${package_comparison_url}">${package_comparison_report_name}</a>.</p></b>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

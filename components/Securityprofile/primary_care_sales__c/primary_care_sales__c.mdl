@@ -1,0 +1,14 @@
+RECREATE Securityprofile primary_care_sales__c (
+   label('Primary Care Sales'),
+   active(true),
+   description(),
+   permission_sets('agentic_text_monitoring__c',
+      'agentic_voice__c',
+      'ai_agent__c',
+      'clm_end_user_permission_set__c',
+      'consent_capture_end_user_permission_set__c',
+      'primary_care_sales_permissions__c',
+      'sal_ai_settings__c',
+      'test_permission__c',
+      'xpage_end_user_permissions__c')
+);

@@ -1,0 +1,6 @@
+Message common_empty_message__v (
+   label(),
+   active(true),
+   default_value('No items found'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Index event_datetime_index__v (
+   description(),
+   fields('event_datetime__v'),
+   label('Event Datetime')
+);

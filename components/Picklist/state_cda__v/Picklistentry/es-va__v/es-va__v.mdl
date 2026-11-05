@@ -1,0 +1,6 @@
+Picklistentry es-va__v (
+   value('Valladolid'),
+   order(1255),
+   active(true),
+   controlling_entries('es__v')
+);

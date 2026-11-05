@@ -1,0 +1,12 @@
+Listlayoutitem attendee__v (
+   label('Attendee'),
+   active(true),
+   control_label(),
+   field_key('attendee__v'),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Field'),
+   object_control(),
+   object_control_properties(),
+   omit_header_label()
+);

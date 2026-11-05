@@ -1,0 +1,6 @@
+Message portal_url_invalid_error__v (
+   label(),
+   active(true),
+   default_value('URL Path must only contain single dashes and alphanumeric characters.'),
+   system_managed(false)
+);

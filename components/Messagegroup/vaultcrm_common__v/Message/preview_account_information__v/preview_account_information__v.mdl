@@ -1,0 +1,6 @@
+Message preview_account_information__v (
+   label(),
+   active(true),
+   default_value('Preview Account Information'),
+   system_managed(false)
+);

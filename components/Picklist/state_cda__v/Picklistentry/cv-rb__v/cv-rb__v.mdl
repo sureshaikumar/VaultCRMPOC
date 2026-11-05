@@ -1,0 +1,6 @@
+Picklistentry cv-rb__v (
+   value('Ribeira Brava'),
+   order(794),
+   active(true),
+   controlling_entries('cv__v')
+);

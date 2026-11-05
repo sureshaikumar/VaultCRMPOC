@@ -1,0 +1,6 @@
+Picklistentry ncdeo__v (
+   value('Non-Communicable Disease Epidemiology'),
+   order(1050),
+   active(true),
+   controlling_entries('my__v')
+);

@@ -1,0 +1,12 @@
+Vsmvalue failed__v (
+   label('FAILED'),
+   active(true),
+   description('Indicates the exception item encountered a critical error during processing and could not be completed successfully.'),
+   synonyms('error',
+         'rejected',
+         'unsuccessful',
+         'broken',
+         'could not process'),
+   target('failed__sys'),
+   target_label('FAILED')
+);

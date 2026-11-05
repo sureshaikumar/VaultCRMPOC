@@ -1,0 +1,4 @@
+Typefield record_type_sort_behavior__v (
+   source('standard'),
+   required(false)
+);

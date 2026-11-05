@@ -1,0 +1,13 @@
+Vsmfield step_type__v (
+   label('Step Type'),
+   active(true),
+   description('Describes the functional type or category of the package step (e.g., configuration, data, code). Use to filter or group steps by their operational role within the deployment process.'),
+   example_values(),
+   synonyms('type of step',
+         'step category',
+         'step kind'),
+   target('step_type__v'),
+   target_label('Step Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

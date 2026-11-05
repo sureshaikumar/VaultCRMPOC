@@ -1,0 +1,6 @@
+Picklistentry bg-08__v (
+   value('Dobrich'),
+   order(380),
+   active(true),
+   controlling_entries('bg__v')
+);

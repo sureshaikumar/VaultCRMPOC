@@ -1,0 +1,10 @@
+Vsmvalue xpt__v (
+   label('XPT'),
+   active(true),
+   description('Used for transactions or contracts valued in Platinum, a precious metal traded as a commodity on international markets and priced per troy ounce.'),
+   synonyms('Platinum',
+         'platinum ounce',
+         'platinum commodity'),
+   target('xpt__sys'),
+   target_label('XPT')
+);

@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The display name or title of the EDL record. Used to identify and search for specific EDLs by their human-readable label within the vault.'),
+   example_values(),
+   synonyms('EDL name',
+         'title',
+         'EDL title'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

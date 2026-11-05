@@ -1,0 +1,6 @@
+Message fax_consent_line_content_type_mismatch__v (
+   label(),
+   active(true),
+   default_value('When Fax Consent Level is set to Content Type, Child Consent Lines must be of type Content Type only.'),
+   system_managed(false)
+);

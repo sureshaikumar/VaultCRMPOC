@@ -1,0 +1,4 @@
+Typefield vinsights_calendar_config__v (
+   source('standard'),
+   required(false)
+);

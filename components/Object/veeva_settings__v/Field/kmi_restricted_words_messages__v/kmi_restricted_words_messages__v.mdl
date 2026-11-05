@@ -1,0 +1,20 @@
+Field kmi_restricted_words_messages__v (
+   label('KMI Restricted Words Veeva Messages'),
+   type('String'),
+   active(true),
+   description('This setting works with the corresponding Veeva Messages listed. It is used to filter for words or phrases that a customer wants to prevent a rep from entering in a Medical Insights record.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(199),
+   default_value('"MEDICAL_INSIGHTS_RESTRICTED_WORDS;;Medical"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

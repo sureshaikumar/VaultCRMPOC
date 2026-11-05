@@ -1,0 +1,11 @@
+RECREATE Picklist permalink_target_type__v (
+   label('Permalink Target Type'),
+   active(true),
+   Picklistentry(@Picklistentry/bookmark__v.mdl),
+   Picklistentry(@Picklistentry/destination__v.mdl),
+   Picklistentry(@Picklistentry/page__v.mdl),
+   Picklistentry(@Picklistentry/note__v.mdl),
+   Picklistentry(@Picklistentry/document__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

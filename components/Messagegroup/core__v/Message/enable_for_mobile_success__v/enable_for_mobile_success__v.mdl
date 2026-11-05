@@ -1,0 +1,6 @@
+Message enable_for_mobile_success__v (
+   label(),
+   active(true),
+   default_value('${object_label} has been enabled for mobile.'),
+   system_managed(false)
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate create_binder_from_edl_complete__v (
+   label('Create Binder from EDL Complete'),
+   active(true),
+   description('Notification sent upon completion of binder creation from EDL.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: “${docNameNoLink}" binder creation from ${edlObjectLabel} completed'),
+   notification('Your binder, <b>${docName}</b>, created from ${edlObjectLabel} <b>${edlNameHierarchyLink}</b> is now available in Vault.'),
+   email_body('<p>Your binder, <b>${docName}</b>, created from ${edlObjectLabel} <b>${edlNameHierarchyLink}</b> is now available in Vault.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

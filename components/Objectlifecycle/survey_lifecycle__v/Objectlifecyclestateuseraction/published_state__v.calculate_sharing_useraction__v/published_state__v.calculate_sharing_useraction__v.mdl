@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction published_state__v.calculate_sharing_useraction__v (
+   label('Calculate Sharing'),
+   rule(@rule.xml),
+   order(3000)
+);

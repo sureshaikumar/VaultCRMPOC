@@ -1,0 +1,6 @@
+Picklistentry pl-02__v (
+   value('Dolnośląskie'),
+   order(3622),
+   active(true),
+   controlling_entries('pl__v')
+);

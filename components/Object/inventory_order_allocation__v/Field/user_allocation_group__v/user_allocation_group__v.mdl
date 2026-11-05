@@ -1,0 +1,18 @@
+Field user_allocation_group__v (
+   label('User Allocation Group'),
+   type('Picklist'),
+   active(true),
+   description('Is used to match to the User Record new field for UserGroupAttribute. If the allocation field matches the user''s allocation field, this allocation record applies to that user.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(6),
+   multi_value(false),
+   picklist('Picklist.inventory_order_al_user_allocation_group__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

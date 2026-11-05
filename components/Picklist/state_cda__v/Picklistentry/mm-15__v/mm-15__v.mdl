@@ -1,0 +1,6 @@
+Picklistentry mm-15__v (
+   value('Mon'),
+   order(3066),
+   active(true),
+   controlling_entries('mm__v')
+);

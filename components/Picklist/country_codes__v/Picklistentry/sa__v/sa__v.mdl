@@ -1,0 +1,5 @@
+Picklistentry sa__v (
+   value('SA'),
+   order(193),
+   active(true)
+);

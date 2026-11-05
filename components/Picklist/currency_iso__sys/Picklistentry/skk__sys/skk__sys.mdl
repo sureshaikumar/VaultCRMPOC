@@ -1,0 +1,5 @@
+Picklistentry skk__sys (
+   value('SKK'),
+   order(163),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry arthr__v (
+   value('Arthroplasty'),
+   order(98),
+   active(true),
+   controlling_entries('my__v')
+);

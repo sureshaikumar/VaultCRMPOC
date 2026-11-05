@@ -1,0 +1,6 @@
+Picklistentry mx-nle__v (
+   value('Nuevo León'),
+   order(3257),
+   active(true),
+   controlling_entries('mx__v')
+);

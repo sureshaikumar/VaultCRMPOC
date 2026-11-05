@@ -1,0 +1,12 @@
+RECREATE Picklist vmobile_object_configuration_device__v (
+   label('Device'),
+   active(true),
+   Picklistentry(@Picklistentry/tablet__v.mdl),
+   Picklistentry(@Picklistentry/ipad__v.mdl),
+   Picklistentry(@Picklistentry/winmodern__v.mdl),
+   Picklistentry(@Picklistentry/iphone__v.mdl),
+   Picklistentry(@Picklistentry/crm_engage__v.mdl),
+   Picklistentry(@Picklistentry/crm_desktop_macos__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

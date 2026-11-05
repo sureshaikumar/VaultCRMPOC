@@ -1,0 +1,11 @@
+RECREATE Docrelationshiptype related_email_fragments__v (
+   label('Related Email Fragments'),
+   active(true),
+   single_use(false),
+   target_doctype('email_fragment__v'),
+   source_version_specific(false),
+   carry_forward_source_specific(false),
+   target_version_specific(false),
+   carry_forward_target_specific(false),
+   relationship_filter()
+);

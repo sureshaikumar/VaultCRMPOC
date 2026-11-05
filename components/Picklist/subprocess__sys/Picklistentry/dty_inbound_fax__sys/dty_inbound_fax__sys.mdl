@@ -1,0 +1,6 @@
+Picklistentry dty_inbound_fax__sys (
+   value('Inbound Fax'),
+   order(82),
+   active(true),
+   controlling_entries('dlc_patient_intake__sys')
+);

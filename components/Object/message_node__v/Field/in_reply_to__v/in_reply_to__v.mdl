@@ -1,0 +1,19 @@
+Field in_reply_to__v (
+   label('In-Reply-To'),
+   type('String'),
+   active(true),
+   description('Value of the In-Reply-To email header.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Value of the In-Reply-To email header. As per RFC 822 section 4.6.2'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);
