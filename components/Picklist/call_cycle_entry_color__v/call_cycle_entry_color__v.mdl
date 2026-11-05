@@ -1,0 +1,9 @@
+RECREATE Picklist call_cycle_entry_color__v (
+   label('Color'),
+   active(true),
+   Picklistentry(@Picklistentry/gray__v.mdl),
+   Picklistentry(@Picklistentry/green__v.mdl),
+   Picklistentry(@Picklistentry/yellow__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,17 @@
+Field user_attendee_fields__v (
+   label('User Attendee Fields'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Fields that display on the User List on the Attendee Selection interface. Fields can be fields that exist on the User object, or keywords that display special sections, such as recent events.'),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

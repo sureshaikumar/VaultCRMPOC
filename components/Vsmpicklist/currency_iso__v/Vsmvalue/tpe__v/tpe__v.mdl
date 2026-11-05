@@ -1,0 +1,9 @@
+Vsmvalue tpe__v (
+   label('TPE'),
+   active(true),
+   description('Applies when referencing the legacy New Taiwan Dollar predecessor code used in older financial records or historical transactions.'),
+   synonyms('Taiwan old dollar',
+         'legacy Taiwan currency'),
+   target('tpe__sys'),
+   target_label('TPE')
+);

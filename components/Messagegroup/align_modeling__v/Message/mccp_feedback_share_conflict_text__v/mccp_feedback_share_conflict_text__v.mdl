@@ -1,0 +1,6 @@
+Message mccp_feedback_share_conflict_text__v (
+   label(),
+   active(true),
+   default_value('This action cannot be completed because of a conflicting share target request.'),
+   system_managed(false)
+);

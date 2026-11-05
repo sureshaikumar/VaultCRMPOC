@@ -1,0 +1,6 @@
+Message last_exported__v (
+   label(),
+   active(true),
+   default_value('Last exported on'),
+   system_managed(false)
+);

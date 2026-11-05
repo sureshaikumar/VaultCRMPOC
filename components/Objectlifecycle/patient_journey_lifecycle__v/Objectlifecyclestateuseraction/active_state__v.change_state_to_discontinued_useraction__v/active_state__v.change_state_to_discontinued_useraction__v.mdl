@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction active_state__v.change_state_to_discontinued_useraction__v (
+   label('Change State to Discontinued'),
+   rule(@rule.xml),
+   order(1000)
+);

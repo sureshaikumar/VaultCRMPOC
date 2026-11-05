@@ -1,0 +1,19 @@
+Field required_event_action__v (
+   label('Required Event Action'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used by the EM Business Rules engine to to store the Event Action that will enforce a Required Event Material Rule.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

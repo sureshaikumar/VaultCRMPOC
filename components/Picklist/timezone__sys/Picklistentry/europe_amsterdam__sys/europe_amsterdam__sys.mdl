@@ -1,0 +1,5 @@
+Picklistentry europe_amsterdam__sys (
+   value('(GMT+01:00) Central European Time (Europe/Amsterdam)'),
+   order(152),
+   active(true)
+);

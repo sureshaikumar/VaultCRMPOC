@@ -1,0 +1,4 @@
+Typefield location_address_line_2__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message unmatched_targets_description__v (
+   label(),
+   active(true),
+   default_value('Targets that do not fit in a segment'),
+   system_managed(false)
+);

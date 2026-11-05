@@ -1,0 +1,17 @@
+Field vmi_insight__v (
+   label('VMI Insight'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the medical insight was created as part of the Veeva Medical Insights Integration'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(43),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

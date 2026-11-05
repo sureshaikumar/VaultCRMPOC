@@ -1,0 +1,15 @@
+Fieldrule vault_clinical_study__v (
+   label('Clinical Study'),
+   active(true),
+   query_object('crm_discussion__v'),
+   query_field('study__vr.global_id__sys'),
+   target_object('Object.medical_discussion__v'),
+   target_object_field('Field.vault_clinical_study__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_text__sys'),
+   target_field_lookup('Field.link__sys')
+);

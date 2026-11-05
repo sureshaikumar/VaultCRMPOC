@@ -1,0 +1,6 @@
+Picklistentry se-w__v (
+   value('Dalarnas County'),
+   order(3963),
+   active(true),
+   controlling_entries('se__v')
+);

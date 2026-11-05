@@ -1,0 +1,5 @@
+Picklistentry publication_support__c (
+   value('Publication Support'),
+   order(5),
+   active(true)
+);

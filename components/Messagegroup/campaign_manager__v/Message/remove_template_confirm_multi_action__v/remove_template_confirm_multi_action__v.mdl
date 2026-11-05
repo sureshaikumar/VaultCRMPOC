@@ -1,0 +1,6 @@
+Message remove_template_confirm_multi_action__v (
+   label(),
+   active(true),
+   default_value('By removing this email template, all follow-up actions will also be removed. Would you like to remove this template?'),
+   system_managed(false)
+);

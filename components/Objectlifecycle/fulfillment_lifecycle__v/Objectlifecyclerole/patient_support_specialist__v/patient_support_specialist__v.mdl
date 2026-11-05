@@ -1,0 +1,5 @@
+Objectlifecyclerole patient_support_specialist__v (
+   active(true),
+   application_role('Applicationrole.patient_support_specialist__v'),
+   permissions()
+);

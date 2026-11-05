@@ -1,0 +1,6 @@
+Message campaign_performance_summary__v (
+   label(),
+   active(true),
+   default_value('Campaign Performance Summary'),
+   system_managed(false)
+);

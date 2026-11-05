@@ -1,0 +1,18 @@
+Field toggle_button_on__v (
+   label('Toggle Button On'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether a toggle button on a slide is on or off, from CLM System.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(24),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

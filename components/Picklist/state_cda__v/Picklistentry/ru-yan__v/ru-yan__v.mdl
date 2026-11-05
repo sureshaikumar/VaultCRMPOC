@@ -1,0 +1,6 @@
+Picklistentry ru-yan__v (
+   value('Yamalo-Nenetskiy avtonomnyy okrug'),
+   order(3869),
+   active(true),
+   controlling_entries('ru__v')
+);

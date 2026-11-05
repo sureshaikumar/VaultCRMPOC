@@ -1,0 +1,3 @@
+Typeaction print_receipt__v (
+   action('content_acknowledgement__v.print_receipt__v')
+);

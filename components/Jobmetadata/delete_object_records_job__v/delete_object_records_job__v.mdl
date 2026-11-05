@@ -1,0 +1,10 @@
+RECREATE Jobmetadata delete_object_records_job__v (
+   label('Delete Object Records'),
+   active(true),
+   chunk_size(500),
+   description('Job to delete all records for an Object'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.common.jobs.DeleteObjectRecordsJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

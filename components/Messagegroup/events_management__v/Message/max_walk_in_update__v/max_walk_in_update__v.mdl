@@ -1,0 +1,6 @@
+Message max_walk_in_update__v (
+   label(),
+   active(true),
+   default_value('You cannot dismiss more than ${max_limit} walk-ins at a time.'),
+   system_managed(false)
+);

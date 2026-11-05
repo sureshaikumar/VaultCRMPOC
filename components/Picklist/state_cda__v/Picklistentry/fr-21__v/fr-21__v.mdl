@@ -1,0 +1,6 @@
+Picklistentry fr-21__v (
+   value('Côte-d''Or'),
+   order(1335),
+   active(true),
+   controlling_entries('fr__v')
+);

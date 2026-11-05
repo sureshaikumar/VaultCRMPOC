@@ -1,0 +1,8 @@
+Typefield treatment_preferences__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.assessment_treatment_preferences__c.chemo__c',
+         'Picklist.assessment_treatment_preferences__c.chemo_radiation__c',
+         'Picklist.assessment_treatment_preferences__c.diet_nutrition_alternative__c',
+         'Picklist.assessment_treatment_preferences__c.radiation__c')
+);

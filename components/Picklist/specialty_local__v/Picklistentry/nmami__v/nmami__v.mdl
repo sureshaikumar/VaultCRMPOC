@@ -1,0 +1,6 @@
+Picklistentry nmami__v (
+   value('Nuclear Medicine and Molecular Imaging'),
+   order(1053),
+   active(true),
+   controlling_entries('dz__v')
+);

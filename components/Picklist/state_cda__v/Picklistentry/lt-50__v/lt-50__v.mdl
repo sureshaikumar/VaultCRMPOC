@@ -1,0 +1,6 @@
+Picklistentry lt-50__v (
+   value('Tauragė'),
+   order(2668),
+   active(true),
+   controlling_entries('lt__v')
+);

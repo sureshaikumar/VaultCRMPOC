@@ -1,0 +1,8 @@
+RECREATE Objectaction campaign__v.delete_campaign__v (
+   label('Delete Campaign'),
+   description('Delete a single campaign and related records including campaign_group__v, campaign_group_action__v, campaign_activity__v.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.campaignmanager.actions.CampaignDeletionAction'),
+   active(true),
+   available_all_states(true)
+);

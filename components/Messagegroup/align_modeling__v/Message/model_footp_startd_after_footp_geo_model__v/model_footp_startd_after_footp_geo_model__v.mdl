@@ -1,0 +1,6 @@
+Message model_footp_startd_after_footp_geo_model__v (
+   label(),
+   active(true),
+   default_value('Model Footprint start date cannot be later than the start date for its Model Footprint Geography records'),
+   system_managed(false)
+);

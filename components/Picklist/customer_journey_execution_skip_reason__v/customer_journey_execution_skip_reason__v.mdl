@@ -1,0 +1,11 @@
+RECREATE Picklist customer_journey_execution_skip_reason__v (
+   label('Skip Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/message_not_appropriate__v.mdl),
+   Picklistentry(@Picklistentry/content_not_relevant__v.mdl),
+   Picklistentry(@Picklistentry/channel_not_relevant__v.mdl),
+   Picklistentry(@Picklistentry/timing__v.mdl),
+   Picklistentry(@Picklistentry/message_already_delivered__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

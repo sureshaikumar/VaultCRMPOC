@@ -1,0 +1,6 @@
+Picklistentry gn-gu__v (
+   value('Guékédou'),
+   order(1731),
+   active(true),
+   controlling_entries('gn__v')
+);

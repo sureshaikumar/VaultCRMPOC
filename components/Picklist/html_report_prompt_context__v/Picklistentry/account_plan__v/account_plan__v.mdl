@@ -1,0 +1,5 @@
+Picklistentry account_plan__v (
+   value('Account Plan'),
+   order(6),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message days__v (
+   label(),
+   active(true),
+   default_value('Days'),
+   system_managed(false)
+);

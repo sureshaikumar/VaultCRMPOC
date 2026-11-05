@@ -1,0 +1,8 @@
+RECREATE Picklist aln_geography_challenge_reason__v (
+   label('Geography Challenge Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/distance__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

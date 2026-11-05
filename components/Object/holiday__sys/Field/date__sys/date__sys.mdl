@@ -1,0 +1,17 @@
+Field date__sys (
+   label('Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 24620__v (
+   value('Greeneville, TN Micropolitan Statistical Area'),
+   order(482),
+   active(true)
+);

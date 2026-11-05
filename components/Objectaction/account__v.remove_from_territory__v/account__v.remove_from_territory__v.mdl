@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.remove_from_territory__v (
+   label('Remove From Territory'),
+   description('Enables the end user to submit an unalignment DCR request.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.datachangerequests.actions.RemoveFromTerritoryAction'),
+   active(true),
+   available_all_states(true)
+);

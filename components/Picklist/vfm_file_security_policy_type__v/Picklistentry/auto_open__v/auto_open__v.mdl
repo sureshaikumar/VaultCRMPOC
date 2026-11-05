@@ -1,0 +1,5 @@
+Picklistentry auto_open__v (
+   value('Auto Open'),
+   order(0),
+   active(true)
+);

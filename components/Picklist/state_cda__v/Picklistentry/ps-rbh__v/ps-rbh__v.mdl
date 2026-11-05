@@ -1,0 +1,6 @@
+Picklistentry ps-rbh__v (
+   value('Ramallah'),
+   order(3649),
+   active(true),
+   controlling_entries('ps__v')
+);

@@ -1,0 +1,22 @@
+RECREATE Notificationtemplate large_size_asset_uploaded__v (
+   label('Large Size Asset Uploaded'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Large size asset uploaded to - "${docNameNoLink}"'),
+   notification('Your large size asset has been successfully uploaded to ${docLatestName}. Access your Document Inbox, and classify the document to enter it into your asset library.
+'),
+   email_body('<p>${recipientTitle} ${recipientName},</p>
+
+<p><b>Vault: </b>${vaultName}
+<br><b>Status: </b>${docStatus}</p>
+<br><b>Document: </b>"${docLatestName}".</p>
+
+<p>A large size asset rendition has been uploaded to Vault by ${senderName}.
+To enter this asset into your library, you must access your Document Inbox, and classify the document it has been uploaded to.</p>
+
+<p>Access your Vault here: <a href="${uiBaseExtUrl}">${vaultName}</a></p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

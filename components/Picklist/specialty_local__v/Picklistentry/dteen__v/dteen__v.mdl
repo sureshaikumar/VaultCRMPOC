@@ -1,0 +1,7 @@
+Picklistentry dteen__v (
+   value('Dental Technology'),
+   order(367),
+   active(true),
+   controlling_entries('sa__v',
+         'tw__v')
+);

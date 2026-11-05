@@ -1,0 +1,17 @@
+Field speaker_cda__v (
+   label('Speaker'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the individual is engaged in speaking roles at professional gatherings or educational events for the company.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(true),
+   order(152),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

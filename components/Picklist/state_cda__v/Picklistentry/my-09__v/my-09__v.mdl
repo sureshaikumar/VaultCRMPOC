@@ -1,0 +1,6 @@
+Picklistentry my-09__v (
+   value('Perlis'),
+   order(3279),
+   active(true),
+   controlling_entries('my__v')
+);

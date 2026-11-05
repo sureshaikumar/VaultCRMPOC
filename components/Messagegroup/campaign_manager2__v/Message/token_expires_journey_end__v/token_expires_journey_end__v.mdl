@@ -1,0 +1,6 @@
+Message token_expires_journey_end__v (
+   label(),
+   active(true),
+   default_value('Journey End (${journey_end_date})'),
+   system_managed(false)
+);

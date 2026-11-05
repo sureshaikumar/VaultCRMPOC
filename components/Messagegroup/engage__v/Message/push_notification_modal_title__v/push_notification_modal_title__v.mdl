@@ -1,0 +1,6 @@
+Message push_notification_modal_title__v (
+   label(),
+   active(true),
+   default_value('Make sure you see new messages!'),
+   system_managed(false)
+);

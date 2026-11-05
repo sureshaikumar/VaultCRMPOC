@@ -1,0 +1,5 @@
+Picklistentry deleted_in_vault_clinical__v (
+   value('Deleted_in_Vault_Clinical'),
+   order(3),
+   active(true)
+);

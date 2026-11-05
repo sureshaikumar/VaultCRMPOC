@@ -1,0 +1,5 @@
+Picklistentry chat__v (
+   value('Chat'),
+   order(1),
+   active(true)
+);

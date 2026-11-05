@@ -1,0 +1,4 @@
+Typefield crm_event_country_selection__v (
+   source('standard'),
+   required(false)
+);

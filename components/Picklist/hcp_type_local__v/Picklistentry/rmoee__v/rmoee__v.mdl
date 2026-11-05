@@ -1,0 +1,5 @@
+Picklistentry rmoee__v (
+   value('Resident Medical Officer'),
+   order(140),
+   active(true)
+);

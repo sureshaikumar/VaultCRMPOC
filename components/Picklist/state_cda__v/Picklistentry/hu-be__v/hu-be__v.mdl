@@ -1,0 +1,6 @@
+Picklistentry hu-be__v (
+   value('Békés'),
+   order(1875),
+   active(true),
+   controlling_entries('hu__v')
+);

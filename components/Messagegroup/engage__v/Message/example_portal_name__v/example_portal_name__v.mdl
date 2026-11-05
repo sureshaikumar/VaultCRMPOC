@@ -1,0 +1,6 @@
+Message example_portal_name__v (
+   label(),
+   active(true),
+   default_value('Example Portal Name'),
+   system_managed(false)
+);

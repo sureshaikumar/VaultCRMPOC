@@ -1,0 +1,19 @@
+Field sample_limit_name__v (
+   label('Sample Limit Name'),
+   type('String'),
+   active(true),
+   description('Sample Limit applied to the transaction.  Text value of Sample Limit Name.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

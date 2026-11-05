@@ -1,0 +1,17 @@
+Field last_synced_datetime__v (
+   label('Last Synced Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Stores the datetime of the most recent successful sync for this Messaging Business Account with backend.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

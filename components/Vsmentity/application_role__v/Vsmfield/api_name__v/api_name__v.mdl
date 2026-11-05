@@ -1,0 +1,14 @@
+Vsmfield api_name__v (
+   label('Name'),
+   active(true),
+   description('The unique programmatic identifier for the application role, used in API calls and VQL queries. Use this field when referencing roles in integrations, scripts, or system configurations rather than display purposes.'),
+   example_values(),
+   synonyms('API name',
+         'technical name',
+         'system name',
+         'programmatic name'),
+   target('api_name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

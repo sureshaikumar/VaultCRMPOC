@@ -1,0 +1,6 @@
+Picklistentry cz-202__v (
+   value('Beroun'),
+   order(816),
+   active(true),
+   controlling_entries('cz__v')
+);

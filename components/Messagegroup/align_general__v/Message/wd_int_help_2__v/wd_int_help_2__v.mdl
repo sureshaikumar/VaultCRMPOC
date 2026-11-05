@@ -1,0 +1,6 @@
+Message wd_int_help_2__v (
+   label(),
+   active(true),
+   default_value('Align can integrate with Workday using a JSON web service report URL.'),
+   system_managed(false)
+);

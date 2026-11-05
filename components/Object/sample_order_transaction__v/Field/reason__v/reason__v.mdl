@@ -1,0 +1,18 @@
+Field reason__v (
+   label('Reason'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Reason represents the type of Adjustment Sample Order Transaction being performed.'),
+   list_column(false),
+   order(35),
+   multi_value(false),
+   picklist('Picklist.sample_order_transaction_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

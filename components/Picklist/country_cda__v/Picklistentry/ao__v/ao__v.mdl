@@ -1,0 +1,5 @@
+Picklistentry ao__v (
+   value('Angola'),
+   order(6),
+   active(true)
+);

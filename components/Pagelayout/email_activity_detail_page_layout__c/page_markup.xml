@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.email_activity__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="sent_email__v" />
+            <vault:field reference="transaction_type__v" />
+            <vault:field reference="veeva_distribution__v" />
+            <vault:field reference="duration__v" />
+            <vault:field reference="media_type__v" />
+            <vault:field reference="page_number__v" />
+            <vault:field reference="video_last_viewed_time__v" />
+            <vault:field reference="video_length__v" />
+            <vault:field reference="video_start_time__v" />
+            <vault:field reference="video_total_time_spent__v" />
+            <vault:field reference="veeva_content__v" />
+            <vault:field reference="tracking_source__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,7 @@
+Picklistentry oncou__v (
+   value('Oncourology'),
+   order(1132),
+   active(true),
+   controlling_entries('cz__v',
+         'ge__v')
+);

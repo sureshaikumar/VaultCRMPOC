@@ -1,0 +1,10 @@
+Vsmvalue zwn__v (
+   label('ZWN'),
+   active(true),
+   description('Used for legacy transactions denominated in the third Zimbabwe Dollar (ZWN), a short-lived currency introduced in 2008 during Zimbabwe''s hyperinflationary period.'),
+   synonyms('Zimbabwe dollar third',
+         'ZWN',
+         'Zimbabwe dollar 2008'),
+   target('zwn__sys'),
+   target_label('ZWN')
+);

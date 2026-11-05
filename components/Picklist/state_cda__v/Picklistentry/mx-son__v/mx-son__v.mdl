@@ -1,0 +1,6 @@
+Picklistentry mx-son__v (
+   value('Sonora'),
+   order(3264),
+   active(true),
+   controlling_entries('mx__v')
+);

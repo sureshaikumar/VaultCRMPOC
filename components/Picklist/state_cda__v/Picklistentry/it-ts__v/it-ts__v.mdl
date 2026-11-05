@@ -1,0 +1,6 @@
+Picklistentry it-ts__v (
+   value('Trieste'),
+   order(2270),
+   active(true),
+   controlling_entries('it__v')
+);

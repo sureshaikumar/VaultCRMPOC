@@ -1,0 +1,13 @@
+Vsmfield assigned__v (
+   label('Assigned'),
+   active(true),
+   description('Boolean flag indicating whether this activity has been assigned to a user. Use to find unassigned activities that may need owner allocation, or to confirm assignment before querying the assigned_to__v field.'),
+   example_values(),
+   synonyms('is assigned',
+         'has assignee',
+         'been assigned'),
+   target('assigned__v'),
+   target_label('Assigned'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

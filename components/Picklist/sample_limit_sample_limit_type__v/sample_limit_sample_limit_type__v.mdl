@@ -1,0 +1,16 @@
+RECREATE Picklist sample_limit_sample_limit_type__v (
+   label('Sample Limit Type'),
+   active(true),
+   Picklistentry(@Picklistentry/01__v.mdl),
+   Picklistentry(@Picklistentry/02__v.mdl),
+   Picklistentry(@Picklistentry/03__v.mdl),
+   Picklistentry(@Picklistentry/04__v.mdl),
+   Picklistentry(@Picklistentry/1__v.mdl),
+   Picklistentry(@Picklistentry/2__v.mdl),
+   Picklistentry(@Picklistentry/3__v.mdl),
+   Picklistentry(@Picklistentry/4__v.mdl),
+   Picklistentry(@Picklistentry/5__v.mdl),
+   Picklistentry(@Picklistentry/05__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

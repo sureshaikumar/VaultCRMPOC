@@ -1,0 +1,5 @@
+Picklistentry nu__v (
+   value('Nursing'),
+   order(49),
+   active(true)
+);

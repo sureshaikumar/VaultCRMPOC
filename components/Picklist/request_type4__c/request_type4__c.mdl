@@ -1,0 +1,10 @@
+RECREATE Picklist request_type4__c (
+   label('request_type'),
+   active(true),
+   Picklistentry(@Picklistentry/new_product__c.mdl),
+   Picklistentry(@Picklistentry/update_product__c.mdl),
+   Picklistentry(@Picklistentry/deactivate_product__c.mdl),
+   Picklistentry(@Picklistentry/new_product1__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

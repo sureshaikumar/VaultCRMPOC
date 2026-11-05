@@ -1,0 +1,6 @@
+Message assign_segments_description__v (
+   label(),
+   active(true),
+   default_value('Assign segments to this flow'),
+   system_managed(false)
+);

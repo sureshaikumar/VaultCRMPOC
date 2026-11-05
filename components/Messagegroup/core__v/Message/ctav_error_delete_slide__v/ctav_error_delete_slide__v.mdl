@@ -1,0 +1,6 @@
+Message ctav_error_delete_slide__v (
+   label(),
+   active(true),
+   default_value('Error happened when deleting slide ${slide_id}: ${error}'),
+   system_managed(false)
+);

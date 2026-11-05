@@ -1,0 +1,6 @@
+Picklistentry mteed__v (
+   value('Medical Technology'),
+   order(943),
+   active(true),
+   controlling_entries('ph__v')
+);

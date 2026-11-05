@@ -1,0 +1,6 @@
+Typefield crm_object__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.connection_field_mapping_crm_object__v.em_catalog__v',
+         'Picklist.connection_field_mapping_crm_object__v.em_event_material__v')
+);

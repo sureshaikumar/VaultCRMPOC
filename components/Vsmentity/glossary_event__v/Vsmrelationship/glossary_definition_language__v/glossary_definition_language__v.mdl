@@ -1,0 +1,14 @@
+Vsmrelationship glossary_definition_language__v (
+   label('Glossary Definition Language'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The language associated with the glossary definition involved in this event. Use this to filter Glossary Events by a specific language (e.g., glossary_definition_language__sysr.name__v = ''English'').'),
+   join_object(),
+   synonyms('language',
+         'definition language',
+         'locale',
+         'translation language'),
+   target('glossary_definition_language__sysr'),
+   target_label('Glossary Definition Language'),
+   target_object('language__sys')
+);

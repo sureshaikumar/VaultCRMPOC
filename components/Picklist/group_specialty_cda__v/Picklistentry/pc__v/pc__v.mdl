@@ -1,0 +1,5 @@
+Picklistentry pc__v (
+   value('Pharmacy Specialty'),
+   order(29),
+   active(true)
+);

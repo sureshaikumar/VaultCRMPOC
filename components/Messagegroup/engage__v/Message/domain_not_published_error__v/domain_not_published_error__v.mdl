@@ -1,0 +1,6 @@
+Message domain_not_published_error__v (
+   label(),
+   active(true),
+   default_value('An Engage Portal Domain must be published before you can create a My Portal Settings record.'),
+   system_managed(false)
+);

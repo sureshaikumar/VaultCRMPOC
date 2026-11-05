@@ -1,0 +1,6 @@
+Picklistentry pmaai__v (
+   value('Pain Management'),
+   order(1275),
+   active(true),
+   controlling_entries('am__v')
+);

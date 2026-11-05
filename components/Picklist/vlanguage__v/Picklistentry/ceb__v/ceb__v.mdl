@@ -1,0 +1,5 @@
+Picklistentry ceb__v (
+   value('Cebuano'),
+   order(48),
+   active(false)
+);

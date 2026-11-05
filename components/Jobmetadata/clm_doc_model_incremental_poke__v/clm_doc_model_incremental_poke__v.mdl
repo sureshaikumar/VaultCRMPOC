@@ -1,0 +1,11 @@
+RECREATE Jobmetadata clm_doc_model_incremental_poke__v (
+   label('Vault CRM Managed Presentation Vector Db Sync'),
+   active(true),
+   chunk_size(1),
+   description('Incrementally syncs CLM Presentations created in Vault CRM to the Vector Database'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.crmai.jobs.ClmDocumentModelIncrementalVectorDbSyncJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

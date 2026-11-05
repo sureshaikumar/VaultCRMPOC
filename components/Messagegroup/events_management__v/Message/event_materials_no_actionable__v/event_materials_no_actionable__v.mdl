@@ -1,0 +1,6 @@
+Message event_materials_no_actionable__v (
+   label(),
+   active(true),
+   default_value('No Actionable Event Materials To Display'),
+   system_managed(false)
+);

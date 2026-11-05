@@ -1,0 +1,6 @@
+Picklistentry it-vi__v (
+   value('Vicenza'),
+   order(2277),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cmrmp__v (
+   value('Chest Medicine / Respiratory Medicine / Pulmonology'),
+   order(190),
+   active(true),
+   controlling_entries('ke__v')
+);

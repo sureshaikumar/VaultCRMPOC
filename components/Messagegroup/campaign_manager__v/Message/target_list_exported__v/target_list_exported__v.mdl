@@ -1,0 +1,6 @@
+Message target_list_exported__v (
+   label(),
+   active(true),
+   default_value('Target List Exported'),
+   system_managed(false)
+);

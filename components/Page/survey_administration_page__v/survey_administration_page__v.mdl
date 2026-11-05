@@ -1,0 +1,14 @@
+RECREATE Page survey_administration_page__v (
+   label('Survey Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code(),
+   description(),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.surveyadmin.controls.page.SurveyAdministrationPageController'),
+   url_path_name('survey-admin')
+);

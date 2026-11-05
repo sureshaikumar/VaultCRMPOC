@@ -1,0 +1,18 @@
+Field source_version_event__sys (
+   label('Source Version Event'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.source_version_event__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry tr-36__v (
+   value('Kars'),
+   order(4494),
+   active(true),
+   controlling_entries('tr__v')
+);

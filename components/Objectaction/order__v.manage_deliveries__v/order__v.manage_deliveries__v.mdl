@@ -1,0 +1,8 @@
+RECREATE Objectaction order__v.manage_deliveries__v (
+   label('Manage Deliveries'),
+   description('Allows users to add and manage deliveries for the order when Post-Negotiation Delivery Splitting is enabled'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.ordermanagement.actions.OrderManageDeliveriesAction'),
+   active(true),
+   available_all_states(false)
+);

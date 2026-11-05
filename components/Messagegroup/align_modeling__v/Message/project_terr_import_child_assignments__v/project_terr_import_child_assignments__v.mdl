@@ -1,0 +1,6 @@
+Message project_terr_import_child_assignments__v (
+   label(),
+   active(true),
+   default_value('Child Territories and Assignments'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield site_name_text__v (
+   source('standard'),
+   required(false)
+);

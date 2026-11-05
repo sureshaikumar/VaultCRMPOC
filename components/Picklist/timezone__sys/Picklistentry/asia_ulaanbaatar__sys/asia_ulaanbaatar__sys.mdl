@@ -1,0 +1,5 @@
+Picklistentry asia_ulaanbaatar__sys (
+   value('(GMT+08:00) Ulaanbaatar Time (Asia/Ulaanbaatar)'),
+   order(267),
+   active(true)
+);

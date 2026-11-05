@@ -1,0 +1,6 @@
+Message use_only_numbers__v (
+   label(),
+   active(true),
+   default_value('Use only numbers'),
+   system_managed(false)
+);

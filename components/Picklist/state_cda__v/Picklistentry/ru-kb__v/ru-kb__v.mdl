@@ -1,0 +1,6 @@
+Picklistentry ru-kb__v (
+   value('Kabardino-Balkarskaya Respublika'),
+   order(3809),
+   active(true),
+   controlling_entries('ru__v')
+);

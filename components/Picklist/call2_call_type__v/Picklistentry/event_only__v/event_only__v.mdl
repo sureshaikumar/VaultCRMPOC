@@ -1,0 +1,5 @@
+Picklistentry event_only__v (
+   value('Event Only'),
+   order(7),
+   active(true)
+);

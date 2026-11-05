@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <actions>
+            <action type="CHECK_USER_ACTION">
+                <UserAction actionType="StateChange" newState="obsolete__v" label="Make Obsolete" publicKey="make_obsolete__v" />
+            </action>
+        </actions>
+    </rule>
+</rules>

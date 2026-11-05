@@ -1,0 +1,4 @@
+Typefield selling_stage__c (
+   source('standard'),
+   required(false)
+);

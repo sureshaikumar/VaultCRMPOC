@@ -1,0 +1,6 @@
+Message case_details__v (
+   label(),
+   active(true),
+   default_value('${case_label} Details'),
+   system_managed(false)
+);

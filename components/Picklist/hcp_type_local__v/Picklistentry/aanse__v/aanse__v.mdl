@@ -1,0 +1,5 @@
+Picklistentry aanse__v (
+   value('Anesthesiology Assistant'),
+   order(8),
+   active(true)
+);

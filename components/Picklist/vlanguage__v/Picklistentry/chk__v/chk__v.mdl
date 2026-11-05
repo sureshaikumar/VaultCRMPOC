@@ -1,0 +1,5 @@
+Picklistentry chk__v (
+   value('Chuukese'),
+   order(61),
+   active(false)
+);

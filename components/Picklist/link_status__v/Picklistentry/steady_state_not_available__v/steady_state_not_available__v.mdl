@@ -1,0 +1,5 @@
+Picklistentry steady_state_not_available__v (
+   value('Steady State Not Available'),
+   order(4),
+   active(true)
+);

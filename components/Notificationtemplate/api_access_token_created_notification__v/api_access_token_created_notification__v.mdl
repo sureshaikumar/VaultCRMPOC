@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate api_access_token_created_notification__v (
+   label('API Access Token Created'),
+   active(true),
+   description('Notification sent when a new API Access Token object is created.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.api_access_token__sys'),
+   subject('A new API Access Token was created'),
+   notification('<p>A new API Access Token, ${Custom.tokenName}, was created for user ${Custom.username}</p>'),
+   email_body('<p>A new API Access Token, ${Custom.tokenName}, was created for user ${Custom.username}</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

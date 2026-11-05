@@ -1,0 +1,6 @@
+Message excel_file__v (
+   label(),
+   active(true),
+   default_value('Excel File'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry mw-ni__v (
+   value('Ntchisi'),
+   order(3229),
+   active(true),
+   controlling_entries('mw__v')
+);

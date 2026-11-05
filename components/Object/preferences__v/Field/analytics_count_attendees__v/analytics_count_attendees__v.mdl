@@ -1,0 +1,18 @@
+Field analytics_count_attendees__v (
+   label('Analytics Count Attendees'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if group calls should be counted as one call or if each attendee should be counted as a separate call - used for average calls per day and other fields.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

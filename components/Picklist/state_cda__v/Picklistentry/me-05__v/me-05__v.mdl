@@ -1,0 +1,6 @@
+Picklistentry me-05__v (
+   value('Budva'),
+   order(2911),
+   active(true),
+   controlling_entries('me__v')
+);

@@ -1,0 +1,6 @@
+Message unassigned__v (
+   label(),
+   active(true),
+   default_value('Unassigned'),
+   system_managed(false)
+);

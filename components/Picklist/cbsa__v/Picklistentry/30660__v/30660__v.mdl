@@ -1,0 +1,5 @@
+Picklistentry 30660__v (
+   value('Lincoln, IL Micropolitan Statistical Area'),
+   order(500),
+   active(true)
+);

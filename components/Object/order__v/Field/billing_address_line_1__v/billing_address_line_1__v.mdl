@@ -1,0 +1,19 @@
+Field billing_address_line_1__v (
+   label('Billing Address Line 1'),
+   type('String'),
+   active(true),
+   description('Line 1 of the billing address of the account placing the order.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry berlex_laboratories_inc__v (
+   value('Berlex Laboratories, Inc.'),
+   order(10),
+   active(true)
+);

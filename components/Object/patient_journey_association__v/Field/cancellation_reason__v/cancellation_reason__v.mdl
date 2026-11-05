@@ -1,0 +1,18 @@
+Field cancellation_reason__v (
+   label('Cancellation Reason'),
+   type('Picklist'),
+   active(true),
+   description('Reason for Patient''s Cancellation. Prompted when cancellation action is triggered'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(38),
+   multi_value(false),
+   picklist('Picklist.discontinuation_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

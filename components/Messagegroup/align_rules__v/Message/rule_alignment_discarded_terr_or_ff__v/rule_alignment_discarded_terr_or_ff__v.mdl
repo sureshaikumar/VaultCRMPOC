@@ -1,0 +1,6 @@
+Message rule_alignment_discarded_terr_or_ff__v (
+   label(),
+   active(true),
+   default_value('Account Assignment Preview discarded by {0} on {1} for {2}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry supplements__v (
+   value('Supplements'),
+   order(6),
+   active(true)
+);

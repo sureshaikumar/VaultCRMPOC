@@ -1,0 +1,17 @@
+Field disbursed_to__v (
+   label('Disbursed To'),
+   type('LongText'),
+   active(true),
+   description('Disbursed To represents the concatenated fields of Account Name, Account Title, Account License, Call Address and Call Date for a Disbursement Sample Transaction. This field is populated from a Call by the Call_Header_trigger_vod trigger.'),
+   required(false),
+   max_length(2000),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

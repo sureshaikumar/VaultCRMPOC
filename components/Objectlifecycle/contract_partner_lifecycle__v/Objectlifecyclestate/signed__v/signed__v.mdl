@@ -1,0 +1,10 @@
+Objectlifecyclestate signed__v (
+   label('Signed'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('Corresponds to the Contract Partner Status of Signed'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

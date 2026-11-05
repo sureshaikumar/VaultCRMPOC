@@ -1,0 +1,6 @@
+Message syncing_phone_numbers__v (
+   label(),
+   active(true),
+   default_value('Syncing phone numbers from AWS...'),
+   system_managed(false)
+);

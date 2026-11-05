@@ -1,0 +1,5 @@
+Picklistentry 39020__v (
+   value('Portsmouth, OH Micropolitan Statistical Area'),
+   order(57),
+   active(true)
+);

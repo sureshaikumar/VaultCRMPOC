@@ -1,0 +1,9 @@
+RECREATE Objectvalidation samples_state_settings__v.state_distributor_required_cds_required__v (
+   label('State Distributor Required CDS Required'),
+   active(true),
+   expression('state_distributor_required__v != true || cds_required__v != true'),
+   description('State Distributor Requirements and CDS Requirements cannot be defined in the same record. If state_distributor_required__v and cds_required__v, display an error.'),
+   error_message('Cannot define State Distributor Requirements and CDS Requirements in the same record'),
+   error_location('state_distributor_required__v',
+      'cds_required__v')
+);

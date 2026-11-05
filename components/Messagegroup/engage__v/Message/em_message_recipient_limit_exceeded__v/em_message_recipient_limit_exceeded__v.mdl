@@ -1,0 +1,6 @@
+Message em_message_recipient_limit_exceeded__v (
+   label(),
+   active(true),
+   default_value('Too Many Recipients Selected'),
+   system_managed(false)
+);

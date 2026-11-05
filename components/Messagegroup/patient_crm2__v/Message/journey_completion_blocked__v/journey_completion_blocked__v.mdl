@@ -1,0 +1,6 @@
+Message journey_completion_blocked__v (
+   label(),
+   active(true),
+   default_value('All in-progress phases (including optional ones) must be completed or cancelled before completing the journey.'),
+   system_managed(false)
+);

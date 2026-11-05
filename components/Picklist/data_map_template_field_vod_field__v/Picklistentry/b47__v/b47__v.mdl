@@ -1,0 +1,5 @@
+Picklistentry b47__v (
+   value('B47_vod__c'),
+   order(54),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry ec-g__v (
+   value('Guayas'),
+   order(1046),
+   active(true),
+   controlling_entries('ec__v')
+);

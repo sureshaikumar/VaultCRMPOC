@@ -1,0 +1,5 @@
+Picklistentry kh__v (
+   value('Cambodia'),
+   order(38),
+   active(true)
+);

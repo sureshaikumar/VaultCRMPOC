@@ -1,0 +1,18 @@
+Field caption_bookmarks_exclusion_types__sys (
+   label('Exclude captions of type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Exclude bookmarks for all caption types specified.'),
+   list_column(false),
+   order(24),
+   multi_value(true),
+   picklist('Picklist.caption_exlusions__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

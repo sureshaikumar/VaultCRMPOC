@@ -1,0 +1,6 @@
+Message application_profile_help__v (
+   label(),
+   active(true),
+   default_value('Use this page to manage application profiles, which group users in order to define specific Vault CRM configuration for that group.'),
+   system_managed(false)
+);

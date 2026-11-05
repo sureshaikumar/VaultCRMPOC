@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate baseapprovalworkflowstarted__c (
+   label('BASE-approvalWorkflowStarted'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" is in approval'),
+   notification('<b>${docName}</b> is currently in Approval. You will receive an update on the outcome of the approval process.'),
+   email_body('<p>${notificationMessage}</p> <p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

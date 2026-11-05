@@ -1,0 +1,22 @@
+Field total_duration__v (
+   label('Total Duration'),
+   type('Number'),
+   active(true),
+   description('The sum of the duration that the account views the content (in seconds). This is updated by an APEX class job.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

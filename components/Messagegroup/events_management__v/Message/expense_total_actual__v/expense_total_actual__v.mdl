@@ -1,0 +1,6 @@
+Message expense_total_actual__v (
+   label(),
+   active(true),
+   default_value('Total Actual'),
+   system_managed(false)
+);

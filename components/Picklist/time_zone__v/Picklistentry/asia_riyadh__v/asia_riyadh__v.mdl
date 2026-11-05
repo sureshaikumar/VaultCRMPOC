@@ -1,0 +1,5 @@
+Picklistentry asia_riyadh__v (
+   value('Arabian Time (Riyadh)'),
+   order(40),
+   active(true)
+);

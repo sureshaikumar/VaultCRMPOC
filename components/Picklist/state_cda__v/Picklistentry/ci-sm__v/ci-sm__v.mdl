@@ -1,0 +1,6 @@
+Picklistentry ci-sm__v (
+   value('Sassandra-Marahoué'),
+   order(661),
+   active(true),
+   controlling_entries('ci__v')
+);

@@ -1,0 +1,18 @@
+Field auto_match_status__v (
+   label('Auto Match Status'),
+   type('Picklist'),
+   active(true),
+   description('Field that stores the results of the Auto Match process.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(91),
+   multi_value(false),
+   picklist('Picklist.auto_match_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

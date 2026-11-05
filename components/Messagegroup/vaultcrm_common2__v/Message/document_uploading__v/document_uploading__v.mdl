@@ -1,0 +1,6 @@
+Message document_uploading__v (
+   label(),
+   active(true),
+   default_value('Uploading to your Vault Library...'),
+   system_managed(false)
+);

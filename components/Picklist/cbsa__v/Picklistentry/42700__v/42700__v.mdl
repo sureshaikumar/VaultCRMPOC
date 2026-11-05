@@ -1,0 +1,5 @@
+Picklistentry 42700__v (
+   value('Sebring, FL Micropolitan Statistical Area'),
+   order(531),
+   active(true)
+);

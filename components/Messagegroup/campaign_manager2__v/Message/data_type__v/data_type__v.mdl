@@ -1,0 +1,6 @@
+Message data_type__v (
+   label(),
+   active(true),
+   default_value('Data Type'),
+   system_managed(false)
+);

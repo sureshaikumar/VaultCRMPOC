@@ -1,0 +1,19 @@
+Field ship_city__v (
+   label('Ship City'),
+   type('String'),
+   active(true),
+   description('The Ship City field stores the City of the Ship to Address for a BRC Sample.  This field should not be displayed on the Page Layout.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(116),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

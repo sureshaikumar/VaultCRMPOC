@@ -1,0 +1,6 @@
+Typefield console_tab_access__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.console_tab_access__v.inbound__v',
+         'Picklist.console_tab_access__v.outbound__v')
+);

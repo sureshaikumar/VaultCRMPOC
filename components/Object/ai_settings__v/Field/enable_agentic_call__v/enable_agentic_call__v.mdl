@@ -1,0 +1,17 @@
+Field enable_agentic_call__v (
+   label('Enable Agentic Call'),
+   type('Boolean'),
+   active(true),
+   description('On/off toggle for the Agentic View; gated behind Agentic Call enablement.'),
+   required(false),
+   checkbox(false),
+   help_content('Enable the read-only Agentic View for call reports.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

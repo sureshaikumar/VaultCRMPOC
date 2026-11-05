@@ -1,0 +1,18 @@
+Field transfer_reasons_transfer_to__v (
+   label('Transfer Reasons (Transfer To)'),
+   type('Picklist'),
+   active(true),
+   description('The reasons available for selection when the user makes a Transfer Target To request'),
+   required(false),
+   unique(false),
+   help_content('The reasons available for selection when the user makes a Transfer Target To request'),
+   list_column(false),
+   order(35),
+   multi_value(true),
+   picklist('Picklist.aln_challenge_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

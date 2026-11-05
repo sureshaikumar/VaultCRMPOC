@@ -1,0 +1,4 @@
+Typefield capacity_adjustment_percentage__v (
+   source('standard'),
+   required(false)
+);

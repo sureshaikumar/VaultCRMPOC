@@ -1,0 +1,6 @@
+Message blank_assignee__v (
+   label(),
+   active(true),
+   default_value('Assignee cannot be blank'),
+   system_managed(false)
+);

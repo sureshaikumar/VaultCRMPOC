@@ -1,0 +1,5 @@
+Picklistentry inventory_monitoring_value__v (
+   value('Inventory Monitoring Value'),
+   order(3),
+   active(true)
+);

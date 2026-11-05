@@ -1,0 +1,19 @@
+Field job_id__v (
+   label('Job Id'),
+   type('String'),
+   active(true),
+   description('Job Id that is generated when the Approved Notes Process is initiated'),
+   required(false),
+   unique(false),
+   max_length(30),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

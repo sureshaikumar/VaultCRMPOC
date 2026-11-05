@@ -1,0 +1,10 @@
+Picklistentry opraa__v (
+   value('Oral Pathology'),
+   order(1176),
+   active(true),
+   controlling_entries('in__v',
+         'kr__v',
+         'nz__v',
+         'qa__v',
+         'tw__v')
+);

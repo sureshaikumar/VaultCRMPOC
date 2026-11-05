@@ -1,0 +1,6 @@
+Picklistentry dvave__v (
+   value('Dermatology Venereology Aesthetics Venereology'),
+   order(408),
+   active(true),
+   controlling_entries('id__v')
+);

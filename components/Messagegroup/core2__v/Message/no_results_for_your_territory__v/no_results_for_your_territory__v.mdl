@@ -1,0 +1,6 @@
+Message no_results_for_your_territory__v (
+   label(),
+   active(true),
+   default_value('No results for your territory'),
+   system_managed(false)
+);

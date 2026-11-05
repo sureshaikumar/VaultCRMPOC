@@ -1,0 +1,5 @@
+Picklistentry asia_shanghai__v (
+   value('China Time'),
+   order(19),
+   active(true)
+);

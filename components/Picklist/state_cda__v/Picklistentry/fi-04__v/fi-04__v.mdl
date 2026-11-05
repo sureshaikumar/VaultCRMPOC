@@ -1,0 +1,6 @@
+Picklistentry fi-04__v (
+   value('Southern Savonia'),
+   order(1276),
+   active(true),
+   controlling_entries('fi__v')
+);

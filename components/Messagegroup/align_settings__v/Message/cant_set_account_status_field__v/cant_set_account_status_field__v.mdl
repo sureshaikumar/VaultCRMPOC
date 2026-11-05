@@ -1,0 +1,6 @@
+Message cant_set_account_status_field__v (
+   label(),
+   active(true),
+   default_value('Field Force level settings cannot have an Account Status Field value.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-202__v (
+   value('Središče ob Dravi'),
+   order(4175),
+   active(true),
+   controlling_entries('si__v')
+);

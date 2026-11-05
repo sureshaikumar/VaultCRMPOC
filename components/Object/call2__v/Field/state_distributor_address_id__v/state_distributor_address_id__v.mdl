@@ -1,0 +1,19 @@
+Field state_distributor_address_id__v (
+   label('State Distributor Address Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content('The Id of the State Distributor Address that was used when the Call was created.'),
+   list_column(false),
+   order(140),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

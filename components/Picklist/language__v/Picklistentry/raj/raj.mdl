@@ -1,0 +1,5 @@
+Picklistentry raj (
+   value('Rajasthani'),
+   order(286),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pharmacy__v (
+   value('Pharmacy'),
+   order(17),
+   active(true)
+);

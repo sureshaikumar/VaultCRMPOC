@@ -1,0 +1,5 @@
+Picklistentry america_rankin_inlet__sys (
+   value('(GMT-06:00) Central Standard Time (America/Rankin_Inlet)'),
+   order(49),
+   active(true)
+);

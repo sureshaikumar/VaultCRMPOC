@@ -1,0 +1,33 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.console_application_settings__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account_fields__v" />
+            <vault:field reference="associate_fields__v" />
+            <vault:field reference="auto_close_time__v" />
+            <vault:field reference="default_queue__v" />
+            <vault:field reference="email_import_days__v" />
+            <vault:field reference="hco_result_card_fields__v" />
+            <vault:field reference="hcp_result_card_fields__v" />
+            <vault:field reference="microsoft_integration__v" />
+            <vault:field reference="user_fields__v" />
+            <vault:field reference="console_application_profile__v" />
+            <vault:field reference="console_tab_access__v" />
+            <vault:field reference="patient_fields__v" />
+            <vault:field reference="patient_result_card_fields__v" />
+            <vault:field reference="caregiver_fields__v" />
+            <vault:field reference="patient_insurance_card_fields__v" />
+            <vault:field reference="patient_prescription_card_fields__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="preferred_phone_search__v" />
+            <vault:field reference="all_active_cases_columns__v" />
+            <vault:field reference="all_active_patient_journeys_columns__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

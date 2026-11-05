@@ -1,0 +1,6 @@
+Picklistentry id-sr__v (
+   value('Sulawesi Barat'),
+   order(1956),
+   active(true),
+   controlling_entries('id__v')
+);

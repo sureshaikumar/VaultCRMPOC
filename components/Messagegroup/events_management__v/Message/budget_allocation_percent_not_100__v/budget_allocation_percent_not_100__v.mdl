@@ -1,0 +1,6 @@
+Message budget_allocation_percent_not_100__v (
+   label(),
+   active(true),
+   default_value('The total Budget Allocation percentage must equal 100%, and allocation percentages cannot be 0%.'),
+   system_managed(false)
+);

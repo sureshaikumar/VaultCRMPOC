@@ -1,0 +1,6 @@
+Message cgm_null_validation__v (
+   label(),
+   active(true),
+   default_value('Territory and Field Force cannot both be null for a Content Group Membership assignment. Please populate at least one.'),
+   system_managed(false)
+);

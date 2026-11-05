@@ -1,0 +1,6 @@
+Picklistentry pw-226__v (
+   value('Ngchesar'),
+   order(3685),
+   active(true),
+   controlling_entries('pw__v')
+);

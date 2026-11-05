@@ -1,0 +1,4 @@
+Typefield transaction_datetime__v (
+   source('standard'),
+   required(false)
+);

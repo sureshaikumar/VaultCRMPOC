@@ -1,0 +1,4 @@
+Typefield specialty_pharmacy_name__v (
+   source('standard'),
+   required(false)
+);

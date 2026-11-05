@@ -1,0 +1,5 @@
+Picklistentry 36780__v (
+   value('Oshkosh-Neenah, WI Metropolitan Statistical Area'),
+   order(484),
+   active(true)
+);

@@ -1,0 +1,14 @@
+RECREATE Page email_opt_in_page__v (
+   label('Email Opt in'),
+   active(true),
+   client_distribution(),
+   default_client_code('email_opt_in_page__v'),
+   description('Email Opt in Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.approvedemail.controls.pages.EmailOptInPageController'),
+   url_path_name('email-opt-in')
+);

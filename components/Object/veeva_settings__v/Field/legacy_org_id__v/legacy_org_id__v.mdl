@@ -1,0 +1,19 @@
+Field legacy_org_id__v (
+   label('Legacy Org Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content(),
+   list_column(false),
+   order(337),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

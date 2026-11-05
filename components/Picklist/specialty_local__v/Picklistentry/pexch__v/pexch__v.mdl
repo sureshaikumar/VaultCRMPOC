@@ -1,0 +1,6 @@
+Picklistentry pexch__v (
+   value('Pediatrics / Childhood Diseases'),
+   order(1470),
+   active(true),
+   controlling_entries('lt__v')
+);

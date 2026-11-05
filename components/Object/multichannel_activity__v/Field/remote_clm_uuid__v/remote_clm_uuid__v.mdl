@@ -1,0 +1,19 @@
+Field remote_clm_uuid__v (
+   label('Remote CLM UUID'),
+   type('String'),
+   active(true),
+   description('Stores the UUID of the Remote CLM session'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(65),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

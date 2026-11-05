@@ -1,0 +1,12 @@
+Vsmfield last_name__v (
+   label('Last Name'),
+   active(true),
+   description('The person''s last (family) name. Used in combination with first_name__sys to identify individuals and display their full name.'),
+   example_values(),
+   synonyms('surname',
+         'family name'),
+   target('last_name__sys'),
+   target_label('Last Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

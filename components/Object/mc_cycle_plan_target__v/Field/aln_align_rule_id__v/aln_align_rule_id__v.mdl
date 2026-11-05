@@ -1,0 +1,19 @@
+Field aln_align_rule_id__v (
+   label('Align Rule ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(36),
+   help_content(),
+   list_column(false),
+   order(46),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

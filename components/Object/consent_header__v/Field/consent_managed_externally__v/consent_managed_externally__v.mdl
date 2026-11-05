@@ -1,0 +1,17 @@
+Field consent_managed_externally__v (
+   label('Consent Managed Externally'),
+   type('Boolean'),
+   active(true),
+   description('When enabled, this field prevent users from updating consent while keeping consent validation when sending emails'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

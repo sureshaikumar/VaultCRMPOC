@@ -1,0 +1,5 @@
+Picklistentry pacific_rarotonga__sys (
+   value('(GMT-10:00) Cook Island Time (Pacific/Rarotonga)'),
+   order(2),
+   active(true)
+);

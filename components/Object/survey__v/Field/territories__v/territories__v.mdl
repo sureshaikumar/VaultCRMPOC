@@ -1,0 +1,17 @@
+Field territories__v (
+   label('Included user territories:'),
+   type('LongText'),
+   active(true),
+   description('Allows selection of multiple territories when creating a survey. When publishing a survey, only users in these territories will be selected for target assignment. On open surveys, only users within these territories will be able to select their own target'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

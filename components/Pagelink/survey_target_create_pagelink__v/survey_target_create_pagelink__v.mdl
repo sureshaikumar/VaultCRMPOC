@@ -1,0 +1,11 @@
+RECREATE Pagelink survey_target_create_pagelink__v (
+   label('Survey Target Create'),
+   description('Redirect Survey Target Create to Add Survey Target Page.'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.survey_target__v'),
+   active(true),
+   disable_type_select(true),
+   page('Page.add_survey_target_page__v')
+);

@@ -1,0 +1,4 @@
+Typefield registration_timestamp_on24__v (
+   source('custom'),
+   required(false)
+);

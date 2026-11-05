@@ -1,0 +1,5 @@
+Picklistentry cpoi__v (
+   value('Compounding Pharmacy'),
+   order(35),
+   active(true)
+);

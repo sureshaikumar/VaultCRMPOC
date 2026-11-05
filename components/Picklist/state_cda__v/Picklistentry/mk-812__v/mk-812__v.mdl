@@ -1,0 +1,6 @@
+Picklistentry mk-812__v (
+   value('Sopište'),
+   order(3038),
+   active(true),
+   controlling_entries('mk__v')
+);

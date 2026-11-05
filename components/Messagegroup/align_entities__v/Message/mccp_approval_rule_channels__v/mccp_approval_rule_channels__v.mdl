@@ -1,0 +1,6 @@
+Message mccp_approval_rule_channels__v (
+   label(),
+   active(true),
+   default_value('Channels'),
+   system_managed(false)
+);

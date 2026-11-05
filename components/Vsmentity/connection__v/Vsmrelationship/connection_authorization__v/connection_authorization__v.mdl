@@ -1,0 +1,14 @@
+Vsmrelationship connection_authorization__v (
+   label('Authorization'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The authorization record associated with this connection, storing credential and OAuth token details. Use this to check authorization status or filter connections by their authorization configuration. Applicable to External connections.'),
+   join_object(),
+   synonyms('authorization',
+         'auth record',
+         'connection auth',
+         'OAuth authorization'),
+   target('connection_authorization__sysr'),
+   target_label('Authorization'),
+   target_object('connection_authorization__sys')
+);

@@ -1,0 +1,23 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.agent_rule__v.media_agent_action__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="translated_rule_name__v" />
+            <vault:field reference="instruction__v" />
+            <vault:field reference="order__v" />
+            <vault:field reference="applicable_product__v" />
+            <vault:field reference="applicable_countries__v" />
+            <vault:field reference="applicable_user_types__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

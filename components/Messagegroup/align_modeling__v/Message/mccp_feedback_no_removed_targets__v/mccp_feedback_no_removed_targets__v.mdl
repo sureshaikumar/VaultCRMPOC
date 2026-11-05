@@ -1,0 +1,6 @@
+Message mccp_feedback_no_removed_targets__v (
+   label(),
+   active(true),
+   default_value('No removed targets'),
+   system_managed(false)
+);

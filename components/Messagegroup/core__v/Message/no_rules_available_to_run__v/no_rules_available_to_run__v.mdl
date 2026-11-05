@@ -1,0 +1,6 @@
+Message no_rules_available_to_run__v (
+   label(),
+   active(true),
+   default_value('No rules available to run.'),
+   system_managed(false)
+);

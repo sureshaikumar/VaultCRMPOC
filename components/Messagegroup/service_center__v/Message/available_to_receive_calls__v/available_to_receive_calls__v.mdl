@@ -1,0 +1,6 @@
+Message available_to_receive_calls__v (
+   label(),
+   active(true),
+   default_value('You are available to receive calls or click on a phone number to start a call'),
+   system_managed(false)
+);

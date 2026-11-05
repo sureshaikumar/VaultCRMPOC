@@ -1,0 +1,4 @@
+Typefield allowed_products__v (
+   source('standard'),
+   required(false)
+);

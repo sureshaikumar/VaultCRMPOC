@@ -1,0 +1,17 @@
+Field submitted_with_text_monitor_issues__v (
+   label('Submitted with Text Monitoring Issues'),
+   type('DateTime'),
+   active(true),
+   description('When a user submits a call without resolving all issues that were detected by the Text Monitoring Agent, this field is stamped with the current datetime.'),
+   required(false),
+   help_content('The most recent datetime a user submitted a record without resolving all issues that were detected by the Text Monitoring Agent.'),
+   list_column(false),
+   order(240),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

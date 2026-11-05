@@ -1,0 +1,6 @@
+Message insufficient_access_product_plan__v (
+   label(),
+   active(true),
+   default_value('You do not have access to Apply Product Plan.'),
+   system_managed(false)
+);

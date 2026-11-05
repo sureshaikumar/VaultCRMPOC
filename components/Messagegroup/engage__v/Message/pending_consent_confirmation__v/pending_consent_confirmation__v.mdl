@@ -1,0 +1,6 @@
+Message pending_consent_confirmation__v (
+   label(),
+   active(true),
+   default_value('Pending consent confirmation.'),
+   system_managed(false)
+);

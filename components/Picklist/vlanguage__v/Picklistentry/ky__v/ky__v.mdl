@@ -1,0 +1,5 @@
+Picklistentry ky__v (
+   value('Kirghiz-Kyrgyz'),
+   order(170),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry pink__c (
+   value('Pink'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield meeting_request_status__v (
+   source('standard'),
+   required(false)
+);

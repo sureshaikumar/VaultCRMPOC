@@ -1,0 +1,23 @@
+Field discount_override_max__v (
+   label('Discount Override Max'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Defines the upper boundary of manual discount override that the rep can enter (in %).'),
+   required(false),
+   unique(false),
+   max_value(9.9999),
+   min_value(-9.9999),
+   scale(4),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field align_integration_user__v (
+   label('Align Integration User'),
+   type('String'),
+   active(true),
+   description('The Align Integration User that is integrated to this Veeva CRM Org.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist cvent_field_mapping_sync_direction__v (
+   label('Sync Direction'),
+   active(true),
+   Picklistentry(@Picklistentry/outbound__v.mdl),
+   Picklistentry(@Picklistentry/inbound__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry europe_lisbon__v (
+   value('Europe/Lisbon'),
+   order(28),
+   active(true)
+);

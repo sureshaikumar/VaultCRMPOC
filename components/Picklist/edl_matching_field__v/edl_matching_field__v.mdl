@@ -1,0 +1,8 @@
+RECREATE Picklist edl_matching_field__v (
+   label('EDL Matching Field'),
+   active(true),
+   Picklistentry(@Picklistentry/name__c.mdl),
+   Picklistentry(@Picklistentry/doc_type_details__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

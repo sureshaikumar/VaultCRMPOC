@@ -1,0 +1,5 @@
+Picklistentry ltcp__v (
+   value('Long-Term Care Pharmacy'),
+   order(141),
+   active(true)
+);

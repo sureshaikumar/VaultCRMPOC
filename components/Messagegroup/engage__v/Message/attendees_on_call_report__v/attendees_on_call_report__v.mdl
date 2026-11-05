@@ -1,0 +1,6 @@
+Message attendees_on_call_report__v (
+   label(),
+   active(true),
+   default_value('Attendees on Call Report'),
+   system_managed(false)
+);

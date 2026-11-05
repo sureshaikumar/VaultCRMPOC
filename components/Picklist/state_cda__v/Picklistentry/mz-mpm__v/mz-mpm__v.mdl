@@ -1,0 +1,6 @@
+Picklistentry mz-mpm__v (
+   value('Maputo city'),
+   order(3292),
+   active(true),
+   controlling_entries('mz__v')
+);

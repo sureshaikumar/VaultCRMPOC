@@ -1,0 +1,6 @@
+Message missing__v (
+   label(),
+   active(true),
+   default_value('Missing'),
+   system_managed(false)
+);

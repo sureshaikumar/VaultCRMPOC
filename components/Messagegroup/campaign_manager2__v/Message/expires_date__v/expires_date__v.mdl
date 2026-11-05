@@ -1,0 +1,6 @@
+Message expires_date__v (
+   label(),
+   active(true),
+   default_value('Expires ${expiry_date}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_meeting_brief__sys (
+   value('Meeting Brief'),
+   order(100),
+   active(true),
+   controlling_entries('olc_call__sys')
+);

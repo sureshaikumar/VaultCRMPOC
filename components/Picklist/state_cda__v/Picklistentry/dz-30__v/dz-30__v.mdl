@@ -1,0 +1,6 @@
+Picklistentry dz-30__v (
+   value('Ouargla'),
+   order(1011),
+   active(true),
+   controlling_entries('dz__v')
+);

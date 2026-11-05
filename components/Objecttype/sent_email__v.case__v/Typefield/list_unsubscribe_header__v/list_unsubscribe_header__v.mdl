@@ -1,0 +1,4 @@
+Typefield list_unsubscribe_header__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message rule_preparing_alignment_execution__v (
+   label(),
+   active(true),
+   default_value('Preparing Assignment Preview'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field attempted_to_add__v (
+   label('Attempted to Add?'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the field user attempted to add the account as a target during feedback'),
+   required(true),
+   checkbox(false),
+   help_content('Indicates whether the field user attempted to add the account as a target during feedback'),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

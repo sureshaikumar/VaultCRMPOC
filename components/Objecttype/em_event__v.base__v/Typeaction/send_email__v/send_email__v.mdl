@@ -1,0 +1,3 @@
+Typeaction send_email__v (
+   action('em_event__v.send_email__v')
+);

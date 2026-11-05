@@ -1,0 +1,6 @@
+Message assignment_created_footprint_not_edit__v (
+   label(),
+   active(true),
+   default_value('Geography Territories created by a Territory Footprint may not be manually altered.'),
+   system_managed(false)
+);

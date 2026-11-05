@@ -1,0 +1,5 @@
+Picklistentry hm__v (
+   value('Heard Island and McDonald Islands'),
+   order(97),
+   active(true)
+);

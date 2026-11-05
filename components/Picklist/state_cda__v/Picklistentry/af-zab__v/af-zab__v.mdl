@@ -1,0 +1,6 @@
+Picklistentry af-zab__v (
+   value('Zābul'),
+   order(47),
+   active(true),
+   controlling_entries('af__v')
+);

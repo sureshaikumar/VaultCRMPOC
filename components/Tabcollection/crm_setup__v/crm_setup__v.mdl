@@ -1,0 +1,11 @@
+RECREATE Tabcollection crm_setup__v (
+   label('CRM Setup'),
+   active(true),
+   help_content(),
+   Tabcollectionitem(@Tabcollectionitem/content_setup_tab__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/crm_processes_tab__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/engage_setup_tab__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/global_account_search_configuration_tab__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/scheduler_administration_tab__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/territory_management_menu__v.mdl)
+);

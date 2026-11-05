@@ -1,0 +1,6 @@
+Message care_team_removed_message__v (
+   label(),
+   active(true),
+   default_value('${name} was removed as ${role}'),
+   system_managed(false)
+);

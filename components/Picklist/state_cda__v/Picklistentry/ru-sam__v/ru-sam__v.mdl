@@ -1,0 +1,6 @@
+Picklistentry ru-sam__v (
+   value('Samarskaya oblast'''),
+   order(3849),
+   active(true),
+   controlling_entries('ru__v')
+);

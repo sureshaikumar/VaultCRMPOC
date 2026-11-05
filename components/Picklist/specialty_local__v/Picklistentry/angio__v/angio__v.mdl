@@ -1,0 +1,16 @@
+Picklistentry angio__v (
+   value('Angiology'),
+   order(92),
+   active(true),
+   controlling_entries('ba__v',
+         'bg__v',
+         'ch__v',
+         'cz__v',
+         'ge__v',
+         'lb__v',
+         'li__v',
+         'om__v',
+         'pl__v',
+         'rs__v',
+         'sk__v')
+);

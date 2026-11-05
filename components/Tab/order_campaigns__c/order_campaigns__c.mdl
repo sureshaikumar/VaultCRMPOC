@@ -1,0 +1,15 @@
+RECREATE Tab order_campaigns__c (
+   active(true),
+   all_view_label('All Order Campaigns'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Order Campaigns'),
+   modal_create_record(false),
+   my_view_label('My Order Campaigns'),
+   object('order_campaign__v'),
+   order(5800),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Order Campaigns')
+);

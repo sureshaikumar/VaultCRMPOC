@@ -1,0 +1,6 @@
+Message no_message__v (
+   label(),
+   active(true),
+   default_value('No Message'),
+   system_managed(false)
+);

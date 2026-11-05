@@ -1,0 +1,6 @@
+Picklistentry it-lt__v (
+   value('Latina'),
+   order(2221),
+   active(true),
+   controlling_entries('it__v')
+);

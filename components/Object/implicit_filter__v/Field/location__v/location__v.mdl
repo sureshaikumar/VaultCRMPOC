@@ -1,0 +1,18 @@
+Field location__v (
+   label('Location'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content('The type of location to which the implicit filter will be applied.'),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.implicit_filter_location__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

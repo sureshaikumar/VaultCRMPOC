@@ -1,0 +1,6 @@
+Message mccp_feedback_exclusion_type__v (
+   label(),
+   active(true),
+   default_value('Type'),
+   system_managed(false)
+);

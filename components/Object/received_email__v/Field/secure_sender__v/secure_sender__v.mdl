@@ -1,0 +1,20 @@
+Field secure_sender__v (
+   label('Secure Sender'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('The secure sender, or initiator, of an email message record.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(29),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

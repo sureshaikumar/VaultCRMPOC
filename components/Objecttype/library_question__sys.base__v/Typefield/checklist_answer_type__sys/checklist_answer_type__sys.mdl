@@ -1,0 +1,4 @@
+Typefield checklist_answer_type__sys (
+   source('standard'),
+   required(false)
+);

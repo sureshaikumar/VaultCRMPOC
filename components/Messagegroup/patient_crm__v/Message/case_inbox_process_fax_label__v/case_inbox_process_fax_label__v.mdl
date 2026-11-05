@@ -1,0 +1,6 @@
+Message case_inbox_process_fax_label__v (
+   label(),
+   active(true),
+   default_value('Process Fax'),
+   system_managed(false)
+);

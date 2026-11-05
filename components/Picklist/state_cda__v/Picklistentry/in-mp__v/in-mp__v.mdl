@@ -1,0 +1,6 @@
+Picklistentry in-mp__v (
+   value('Madhya Pradesh'),
+   order(2019),
+   active(true),
+   controlling_entries('in__v')
+);

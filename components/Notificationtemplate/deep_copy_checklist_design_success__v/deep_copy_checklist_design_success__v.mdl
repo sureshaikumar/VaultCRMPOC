@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate deep_copy_checklist_design_success__v (
+   label('Deep Copy Checklist Design Success'),
+   active(true),
+   description('Notification template notifying user that their target checklist design has been copied.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: ${checklist_design__sys_label} ${target_checklist_design__sys_name} was successfully copied from ${source_checklist_design__sys_name}'),
+   notification('<p>${checklist_design__sys_label} <a href="${urlTargetChecklistDesign}">${target_checklist_design__sys_name}</a> was successfully copied from <a href="${urlSourceChecklistDesign}">${source_checklist_design__sys_name}</a>.</p><p> Details: </p><ul><li> ${rec_count_section_design__sys} ${section_design__sys_label} records were created </li><li> ${rec_count_question_design__sys} ${question_design__sys_label} records were created </li><li> ${rec_count_available_answer_design__sys} ${available_answer_design__sys_label} records were created </li><li> ${rec_count_dependency_design__sys} ${dependency_design__sys_label} records were created </li></ul><p> Please check the ${checklist_design__sys_label} <a href="${urlTargetChecklistDesign}">${target_checklist_design__sys_name}</a> to review the records that were created. </p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

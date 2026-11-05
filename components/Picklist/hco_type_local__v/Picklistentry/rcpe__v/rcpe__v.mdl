@@ -1,0 +1,5 @@
+Picklistentry rcpe__v (
+   value('Retail Chain Pharmacy'),
+   order(229),
+   active(true)
+);

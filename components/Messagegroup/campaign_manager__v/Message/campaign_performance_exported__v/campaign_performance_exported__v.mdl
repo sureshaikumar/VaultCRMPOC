@@ -1,0 +1,6 @@
+Message campaign_performance_exported__v (
+   label(),
+   active(true),
+   default_value('Campaign Performance Exported'),
+   system_managed(false)
+);

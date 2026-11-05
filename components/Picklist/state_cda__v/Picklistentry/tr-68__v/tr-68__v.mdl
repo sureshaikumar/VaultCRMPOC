@@ -1,0 +1,6 @@
+Picklistentry tr-68__v (
+   value('Aksaray'),
+   order(4526),
+   active(true),
+   controlling_entries('tr__v')
+);

@@ -1,0 +1,18 @@
+Field default_order_type__v (
+   label('Default Order Type'),
+   type('Picklist'),
+   active(true),
+   description('The order type that is created by default for this account, when creating a new order.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(32),
+   multi_value(false),
+   picklist('Picklist.account_default_order_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry kg-go__v (
+   value('Osh (City)'),
+   order(2404),
+   active(true),
+   controlling_entries('kg__v')
+);

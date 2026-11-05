@@ -1,0 +1,5 @@
+Picklistentry 38060__v (
+   value('Phoenix-Mesa-Scottsdale, AZ Metropolitan Statistical Area'),
+   order(680),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message writing_style__v (
+   label(),
+   active(true),
+   default_value('Writing Style'),
+   system_managed(false)
+);

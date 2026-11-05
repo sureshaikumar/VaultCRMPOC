@@ -1,0 +1,6 @@
+Picklistentry ec-x__v (
+   value('Cotopaxi'),
+   order(1061),
+   active(true),
+   controlling_entries('ec__v')
+);

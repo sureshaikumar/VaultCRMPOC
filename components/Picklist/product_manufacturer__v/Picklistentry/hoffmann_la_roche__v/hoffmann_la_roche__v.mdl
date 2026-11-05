@@ -1,0 +1,5 @@
+Picklistentry hoffmann_la_roche__v (
+   value('Hoffmann-La Roche'),
+   order(19),
+   active(true)
+);

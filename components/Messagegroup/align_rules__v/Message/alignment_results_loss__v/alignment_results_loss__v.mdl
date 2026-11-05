@@ -1,0 +1,6 @@
+Message alignment_results_loss__v (
+   label(),
+   active(true),
+   default_value('Loss'),
+   system_managed(false)
+);

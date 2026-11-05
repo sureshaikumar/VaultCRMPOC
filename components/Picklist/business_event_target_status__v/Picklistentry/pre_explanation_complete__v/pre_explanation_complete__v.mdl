@@ -1,0 +1,5 @@
+Picklistentry pre_explanation_complete__v (
+   value('Pre-Explanation Complete'),
+   order(1),
+   active(true)
+);

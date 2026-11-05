@@ -1,0 +1,6 @@
+Message eppv_check_off__v (
+   label(),
+   active(true),
+   default_value('Check off after discussing with the provider'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry cn-fj__v (
+   value('Fujian Sheng'),
+   order(696),
+   active(true),
+   controlling_entries('cn__v')
+);

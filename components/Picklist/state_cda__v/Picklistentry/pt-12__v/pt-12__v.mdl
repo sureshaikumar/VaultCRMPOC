@@ -1,0 +1,6 @@
+Picklistentry pt-12__v (
+   value('Portalegre'),
+   order(3665),
+   active(true),
+   controlling_entries('pt__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate direct_data_api_job_failure__v (
+   label('Direct Data API Job Failure'),
+   active(true),
+   description('Direct Data API job failure template.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Direct Data API Job has failed'),
+   notification('<p>Direct Data API job ${directDataJobTitle} (JobId: ${directDataJobId}) failed with following status: ${directDataFailureReason}</p> <p>Job Details:</p> <li>Start Time: ${directDataJobStartTime}, Stop Time: ${directDataJobStopTime}</li> <p>The next attempt to publish the failed Direct Data API file will be at ${directDataJobNextTimeToRun}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

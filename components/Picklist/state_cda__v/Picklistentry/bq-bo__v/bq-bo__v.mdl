@@ -1,0 +1,6 @@
+Picklistentry bq-bo__v (
+   value('Bonaire'),
+   order(448),
+   active(true),
+   controlling_entries('bq__v')
+);

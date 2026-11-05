@@ -1,0 +1,20 @@
+Field user_mobile_soql__v (
+   label('USER_MOBILE_SOQL'),
+   type('String'),
+   active(true),
+   description('Limit the columns that are downloaded to the blackberry client for the User object'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(304),
+   default_value('"USER_MOBILE_SOQL;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

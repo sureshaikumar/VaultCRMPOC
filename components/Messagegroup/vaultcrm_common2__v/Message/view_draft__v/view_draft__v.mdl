@@ -1,0 +1,6 @@
+Message view_draft__v (
+   label(),
+   active(true),
+   default_value('View Draft'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message cycle_plan_target_section_name__v (
+   label(),
+   active(true),
+   default_value('Target Account Details'),
+   system_managed(false)
+);

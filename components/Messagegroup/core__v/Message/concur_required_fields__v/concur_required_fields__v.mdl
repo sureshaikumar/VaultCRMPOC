@@ -1,0 +1,6 @@
+Message concur_required_fields__v (
+   label(),
+   active(true),
+   default_value('Please fill in all required fields'),
+   system_managed(false)
+);

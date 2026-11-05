@@ -1,0 +1,13 @@
+Vsmfield vault_package__v (
+   label('Inbound Package'),
+   active(true),
+   description('Reference to the parent Inbound Package record that this step belongs to. Use to navigate from a step to its containing package or to filter all steps associated with a specific inbound package.'),
+   example_values(),
+   synonyms('package',
+         'inbound package',
+         'parent package'),
+   target('vault_package__v'),
+   target_label('Inbound Package'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

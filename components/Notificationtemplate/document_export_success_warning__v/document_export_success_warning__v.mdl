@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate document_export_success_warning__v (
+   label('Document export warning notification'),
+   active(true),
+   description('Notification template notifying user after document export complete with some warning.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: document export completed.'),
+   notification('<p>Document export is ready for download. Click on the link below to download the export file.</p> <p>${documentExportDownloadLink}</p> <p>This link will expire on ${documentExportExpirationDate}.</p> <br><b>Export Results</b> <br>Artifacts processed: ${docsProcessed} <br>Artifacts downloaded: ${docsDownloaded} <br><br> <b>WARNINGS</b> <br>${docsFailed} artifacts failed to download due to unexpected error.<br><p>Please check result file for list of detailed errors</p>'),
+   email_body('<p>Document export is ready for download. Click on the link below to download the export file.</p> <p>${documentExportDownloadLink}</p> <p>This link will expire on ${documentExportExpirationDate}.</p> <br> <b>Export Results</b> <br>Artifacts processed: ${docsProcessed} <br>Artifacts: ${docsDownloaded} <br><br> <b>WARNINGS</b> <br>${docsFailed} artifacts failed to download due to unexpected error.<br><p>Please check result file for list of detailed errors</p> <p>You can see all your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

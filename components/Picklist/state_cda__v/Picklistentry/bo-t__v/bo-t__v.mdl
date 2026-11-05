@@ -1,0 +1,6 @@
+Picklistentry bo-t__v (
+   value('Tarija'),
+   order(447),
+   active(true),
+   controlling_entries('bo__v')
+);

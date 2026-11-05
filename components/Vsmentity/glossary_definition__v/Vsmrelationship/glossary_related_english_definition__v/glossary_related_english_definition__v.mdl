@@ -1,0 +1,14 @@
+Vsmrelationship glossary_related_english_definition__v (
+   label('Related English Definition'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The related English glossary definition that this definition is linked to, typically used to associate a translated or localized definition back to its English source. Use this to filter definitions by their English counterpart (e.g., glossary_related_english_definition__sysr.name__v = ''Adverse Event'').'),
+   join_object(),
+   synonyms('English definition',
+         'related English term',
+         'base definition',
+         'English equivalent'),
+   target('glossary_related_english_definition__sysr'),
+   target_label('Related English Definition'),
+   target_object('glossary_definition__sys')
+);

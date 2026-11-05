@@ -1,0 +1,18 @@
+Field time_zone__v (
+   label('Time Zone'),
+   type('Picklist'),
+   active(true),
+   description('Time zone of the event'),
+   required(false),
+   unique(false),
+   help_content('Time zone of the event'),
+   list_column(false),
+   order(122),
+   multi_value(false),
+   picklist('Picklist.timezone__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

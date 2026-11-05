@@ -1,0 +1,6 @@
+Picklistentry ke-22__v (
+   value('Machakos'),
+   order(2375),
+   active(true),
+   controlling_entries('ke__v')
+);

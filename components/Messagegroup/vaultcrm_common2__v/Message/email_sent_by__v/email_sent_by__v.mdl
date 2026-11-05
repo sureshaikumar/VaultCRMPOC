@@ -1,0 +1,6 @@
+Message email_sent_by__v (
+   label(),
+   active(true),
+   default_value('Email Sent by ${entity}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry picma__v (
+   value('Paediatric Intensive Care Medicine'),
+   order(1261),
+   active(true),
+   controlling_entries('gb__v')
+);

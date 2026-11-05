@@ -1,0 +1,20 @@
+RECREATE Report interactions_by_type__c (
+   label('Interactions by Type- Matrix'),
+   active(true),
+   description('Interactions by Type'),
+   format('matrix'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.call_with_call_sample__c'),
+   editors(),
+   viewers('Group.sales__c'),
+   owners('User.r.bhadra@sb-accenture.com'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

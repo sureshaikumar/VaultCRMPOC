@@ -1,0 +1,6 @@
+Picklistentry es-ss__v (
+   value('Guipúzcoa'),
+   order(1249),
+   active(true),
+   controlling_entries('es__v')
+);

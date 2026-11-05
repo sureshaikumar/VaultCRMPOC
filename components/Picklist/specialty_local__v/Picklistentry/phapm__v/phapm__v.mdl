@@ -1,0 +1,6 @@
+Picklistentry phapm__v (
+   value('Public Health and Preventive Medicine (Community Medicine)'),
+   order(1639),
+   active(true),
+   controlling_entries('ca__v')
+);

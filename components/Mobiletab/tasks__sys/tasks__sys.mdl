@@ -1,0 +1,9 @@
+RECREATE Mobiletab tasks__sys (
+   label('Tasks'),
+   active(true),
+   icon('vv_tasks'),
+   minimum_app_version(),
+   mobile_label('Tasks'),
+   order(2),
+   page()
+);

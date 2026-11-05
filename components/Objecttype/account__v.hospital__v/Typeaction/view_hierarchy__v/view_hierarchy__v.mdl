@@ -1,0 +1,3 @@
+Typeaction view_hierarchy__v (
+   action('account__v.view_hierarchy__v')
+);

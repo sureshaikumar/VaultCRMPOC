@@ -1,0 +1,6 @@
+Message unsaved_changes__v (
+   label(),
+   active(true),
+   default_value('Unsaved Changes'),
+   system_managed(false)
+);

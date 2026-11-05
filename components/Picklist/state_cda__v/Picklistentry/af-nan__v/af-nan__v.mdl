@@ -1,0 +1,6 @@
+Picklistentry af-nan__v (
+   value('Nangarhār'),
+   order(35),
+   active(true),
+   controlling_entries('af__v')
+);

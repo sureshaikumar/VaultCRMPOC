@@ -1,0 +1,4 @@
+Typefield survey_alert_threshold__v (
+   source('standard'),
+   required(false)
+);

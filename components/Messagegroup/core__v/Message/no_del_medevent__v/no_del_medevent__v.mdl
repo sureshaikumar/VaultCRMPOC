@@ -1,0 +1,6 @@
+Message no_del_medevent__v (
+   label(),
+   active(true),
+   default_value('You cannot delete this object because some call report references it.'),
+   system_managed(false)
+);

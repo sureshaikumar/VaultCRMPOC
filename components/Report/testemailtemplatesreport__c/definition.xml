@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.document_number__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="documents.created_by__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="documents.type__v" rightValue="email_template__c" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="documents.title__v" rightValue="" type="PROPERTY" rightValueType="VALUE" runtime="true" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="role.accountPlanTemplateAdministrat1763695489717" groupBySortOn="role.accountPlanTemplateAdministrat1763695489717" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="COUNT" property="COUNT" display="NUMBER" />
+      </vrp:function>
+    </vrp:groupItem>
+    <vrp:groupItem index="1" name="role.accountPlanDocumentCreator1763695490426" groupBySortOn="role.accountPlanDocumentCreator1763695490426" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="COUNT" property="COUNT" display="NUMBER" />
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

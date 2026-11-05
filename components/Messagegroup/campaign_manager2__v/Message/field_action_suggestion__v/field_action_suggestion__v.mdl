@@ -1,0 +1,6 @@
+Message field_action_suggestion__v (
+   label(),
+   active(true),
+   default_value('Field Action Suggestion'),
+   system_managed(false)
+);

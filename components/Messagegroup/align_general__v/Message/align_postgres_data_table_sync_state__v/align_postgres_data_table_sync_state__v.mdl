@@ -1,0 +1,6 @@
+Message align_postgres_data_table_sync_state__v (
+   label(),
+   active(true),
+   default_value('Table Sync State'),
+   system_managed(false)
+);

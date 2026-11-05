@@ -1,0 +1,17 @@
+Field updated_via_walkin_merge__v (
+   label('Updated via Walk-In Merge'),
+   type('Boolean'),
+   active(true),
+   description('Used to indicate that an attendee record was updated via walk-in merging.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(85),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

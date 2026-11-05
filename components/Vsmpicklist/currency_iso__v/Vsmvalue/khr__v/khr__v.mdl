@@ -1,0 +1,10 @@
+Vsmvalue khr__v (
+   label('KHR'),
+   active(true),
+   description('The Cambodian Riel (KHR), the official currency of Cambodia, used for transactions, pricing, and financial records involving Cambodian markets.'),
+   synonyms('Cambodian riel',
+         'riel',
+         'KHR'),
+   target('khr__sys'),
+   target_label('KHR')
+);

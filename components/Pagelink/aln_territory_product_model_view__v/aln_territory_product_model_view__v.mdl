@@ -1,0 +1,9 @@
+RECREATE Pagelink aln_territory_product_model_view__v (
+   label('Model Territory Product View'),
+   url('https://valign-sbx-us-east-2-prod-app.veevavault.com/entities/territoryProductModelDetail.xhtml?vaulturl={{Vault.domain}}&vaultid={{Vault.id}}&pageMode=VIEW&objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.aln_territory_product_model__v'),
+   active(true),
+   disable_type_select(false)
+);

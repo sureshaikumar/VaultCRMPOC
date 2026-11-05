@@ -1,0 +1,6 @@
+Message reason__v (
+   label(),
+   active(true),
+   default_value('Reason'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message patient_journey_discontinued_title__v (
+   label(),
+   active(true),
+   default_value('Patient Journey Discontinued'),
+   system_managed(false)
+);

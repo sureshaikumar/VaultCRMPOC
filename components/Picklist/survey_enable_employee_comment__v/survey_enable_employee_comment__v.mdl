@@ -1,0 +1,9 @@
+RECREATE Picklist survey_enable_employee_comment__v (
+   label('Enable Employee Comment'),
+   active(true),
+   Picklistentry(@Picklistentry/disabled__v.mdl),
+   Picklistentry(@Picklistentry/comment_optional__v.mdl),
+   Picklistentry(@Picklistentry/comment_required__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

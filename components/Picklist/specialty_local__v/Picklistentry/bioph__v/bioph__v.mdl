@@ -1,0 +1,8 @@
+Picklistentry bioph__v (
+   value('Biophysics'),
+   order(126),
+   active(true),
+   controlling_entries('dz__v',
+         'in__v',
+         'ma__v')
+);

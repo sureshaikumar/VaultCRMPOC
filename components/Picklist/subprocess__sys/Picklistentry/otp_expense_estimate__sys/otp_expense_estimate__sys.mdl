@@ -1,0 +1,6 @@
+Picklistentry otp_expense_estimate__sys (
+   value('Expense Estimate'),
+   order(69),
+   active(true),
+   controlling_entries('olc_expense_estimate__sys')
+);

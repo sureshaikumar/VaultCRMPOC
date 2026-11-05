@@ -1,0 +1,6 @@
+Picklistentry ee-142__v (
+   value('Antsla'),
+   order(1066),
+   active(true),
+   controlling_entries('ee__v')
+);

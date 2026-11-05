@@ -1,0 +1,5 @@
+Picklistentry cd__v (
+   value('Cardiology'),
+   order(10),
+   active(true)
+);

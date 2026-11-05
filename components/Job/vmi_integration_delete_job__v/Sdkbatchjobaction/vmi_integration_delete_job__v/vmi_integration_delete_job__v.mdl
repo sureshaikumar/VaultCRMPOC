@@ -1,0 +1,6 @@
+Sdkbatchjobaction vmi_integration_delete_job__v (
+   job_metadata('Jobmetadata.vmi_integration_delete_job__v'),
+   label('Veeva Medical Insights Integration Delete Job'),
+   parameters(),
+   primary_action(true)
+);

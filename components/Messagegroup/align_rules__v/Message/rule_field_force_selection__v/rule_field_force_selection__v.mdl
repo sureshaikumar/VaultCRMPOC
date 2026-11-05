@@ -1,0 +1,6 @@
+Message rule_field_force_selection__v (
+   label(),
+   active(true),
+   default_value('Field Force Assignment Rule'),
+   system_managed(false)
+);

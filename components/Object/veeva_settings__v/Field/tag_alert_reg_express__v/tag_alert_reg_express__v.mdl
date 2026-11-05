@@ -1,0 +1,20 @@
+Field tag_alert_reg_express__v (
+   label('Tag Alert Reg Express'),
+   type('String'),
+   active(true),
+   description('Regular expression used to validate the Tag Alert Number value on confirmation of Sample Receipts. If the value is left blank, no validation is performed.
+             Example regular expression to validate the sample card is exactly 10 numeric values: ^['),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(301),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

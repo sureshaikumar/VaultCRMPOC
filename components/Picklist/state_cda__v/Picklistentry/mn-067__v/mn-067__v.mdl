@@ -1,0 +1,6 @@
+Picklistentry mn-067__v (
+   value('Bulgan'),
+   order(3087),
+   active(true),
+   controlling_entries('mn__v')
+);

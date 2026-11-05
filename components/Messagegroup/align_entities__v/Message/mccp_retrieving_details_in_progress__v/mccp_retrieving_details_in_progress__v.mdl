@@ -1,0 +1,6 @@
+Message mccp_retrieving_details_in_progress__v (
+   label(),
+   active(true),
+   default_value('Retrieving details from {0}'),
+   system_managed(false)
+);

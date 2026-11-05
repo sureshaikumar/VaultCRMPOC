@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate updatetaskduedate__v (
+   label('updateTaskDueDate'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Due date for task "${taskName}" changed to ${taskDueDate}'),
+   notification('The task "${taskName}" due date for <b>"${docLatestName}"</b> has been changed to ${taskDueDate}'),
+   email_body('<p>${notificationMessage}</p><p>See all of your notification messages from the <a href="${notificationHome}">Notifications</a> page in Vault.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-cr__v (
+   value('Cremona'),
+   order(2200),
+   active(true),
+   controlling_entries('it__v')
+);

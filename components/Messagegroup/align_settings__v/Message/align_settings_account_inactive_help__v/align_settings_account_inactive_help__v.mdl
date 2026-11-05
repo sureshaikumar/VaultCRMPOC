@@ -1,0 +1,6 @@
+Message align_settings_account_inactive_help__v (
+   label(),
+   active(true),
+   default_value('This field cannot be set for field force level settings.'),
+   system_managed(false)
+);

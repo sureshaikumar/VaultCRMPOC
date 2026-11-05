@@ -1,0 +1,5 @@
+Picklistentry verified__v (
+   value('Verified'),
+   order(1),
+   active(true)
+);

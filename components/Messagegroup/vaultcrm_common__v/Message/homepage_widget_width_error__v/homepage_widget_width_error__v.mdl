@@ -1,0 +1,6 @@
+Message homepage_widget_width_error__v (
+   label(),
+   active(true),
+   default_value('Total width of active widgets in the row exceeds 100%'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry is-tal__v (
+   value('Tálknafjarðarhreppur'),
+   order(2149),
+   active(true),
+   controlling_entries('is__v')
+);

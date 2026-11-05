@@ -1,0 +1,6 @@
+Picklistentry arapi__v (
+   value('Anesthesiology, Resuscitation and Perioperative Intensive Care Medicine'),
+   order(91),
+   active(true),
+   controlling_entries('si__v')
+);

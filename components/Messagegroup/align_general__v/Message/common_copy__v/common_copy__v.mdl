@@ -1,0 +1,6 @@
+Message common_copy__v (
+   label(),
+   active(true),
+   default_value('Copy'),
+   system_managed(false)
+);

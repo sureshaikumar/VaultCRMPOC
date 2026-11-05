@@ -1,0 +1,6 @@
+Picklistentry lmiae__v (
+   value('Laboratory Medicine / Immunology'),
+   order(851),
+   active(true),
+   controlling_entries('qa__v')
+);

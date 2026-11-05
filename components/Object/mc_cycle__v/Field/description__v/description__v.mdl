@@ -1,0 +1,17 @@
+Field description__v (
+   label('Description'),
+   type('LongText'),
+   active(true),
+   description('Brief description of the Cycle.'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

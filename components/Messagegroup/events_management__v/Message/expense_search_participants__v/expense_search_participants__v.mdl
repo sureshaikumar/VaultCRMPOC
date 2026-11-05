@@ -1,0 +1,6 @@
+Message expense_search_participants__v (
+   label(),
+   active(true),
+   default_value('Search Participants'),
+   system_managed(false)
+);

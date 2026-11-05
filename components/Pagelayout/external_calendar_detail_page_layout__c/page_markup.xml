@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.external_calendar__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="hex_color__v" />
+            <vault:field reference="is_default_calendar__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="allowed_online_meeting_providers__v" />
+            <vault:field reference="can_edit__v" />
+            <vault:field reference="can_share__v" />
+            <vault:field reference="can_view_private_items__v" />
+            <vault:field reference="change_key__v" />
+            <vault:field reference="color__v" />
+            <vault:field reference="default_online_meeting_provider__v" />
+            <vault:field reference="external_calendar_id__v" />
+            <vault:field reference="is_removable__v" />
+            <vault:field reference="is_tallying_responses__v" />
+            <vault:field reference="owner_name_and_address__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

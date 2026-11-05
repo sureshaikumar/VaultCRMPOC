@@ -1,0 +1,6 @@
+Message rule_criteria_incomplete__v (
+   label(),
+   active(true),
+   default_value('At least one criterion is incomplete.'),
+   system_managed(false)
+);

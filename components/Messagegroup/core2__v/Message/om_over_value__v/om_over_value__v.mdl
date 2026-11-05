@@ -1,0 +1,6 @@
+Message om_over_value__v (
+   label(),
+   active(true),
+   default_value('Over: ${over_value}'),
+   system_managed(false)
+);

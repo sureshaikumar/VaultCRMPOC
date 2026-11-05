@@ -1,0 +1,4 @@
+Typefield notification_click_count__v (
+   source('custom'),
+   required(false)
+);

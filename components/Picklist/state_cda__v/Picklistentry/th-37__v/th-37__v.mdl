@@ -1,0 +1,6 @@
+Picklistentry th-37__v (
+   value('Amnat Charoen'),
+   order(4353),
+   active(true),
+   controlling_entries('th__v')
+);

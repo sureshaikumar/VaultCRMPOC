@@ -1,0 +1,10 @@
+Vsmvalue jmd__v (
+   label('JMD'),
+   active(true),
+   description('The Jamaican Dollar (JMD), the official currency of Jamaica, used for transactions, pricing, and financial records involving Jamaican markets.'),
+   synonyms('Jamaican dollar',
+         'Jamaica dollar',
+         'JMD'),
+   target('jmd__sys'),
+   target_label('JMD')
+);

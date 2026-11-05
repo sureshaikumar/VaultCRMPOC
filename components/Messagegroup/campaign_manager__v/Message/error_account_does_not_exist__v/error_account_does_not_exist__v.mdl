@@ -1,0 +1,6 @@
+Message error_account_does_not_exist__v (
+   label(),
+   active(true),
+   default_value('Account does not exist'),
+   system_managed(false)
+);

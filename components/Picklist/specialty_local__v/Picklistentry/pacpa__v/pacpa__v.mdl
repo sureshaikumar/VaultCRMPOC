@@ -1,0 +1,6 @@
+Picklistentry pacpa__v (
+   value('Pathological Anatomy - Clinical Pathology'),
+   order(1289),
+   active(true),
+   controlling_entries('ge__v')
+);

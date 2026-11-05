@@ -1,0 +1,6 @@
+Picklistentry ng-im__v (
+   value('Imo'),
+   order(3336),
+   active(true),
+   controlling_entries('ng__v')
+);

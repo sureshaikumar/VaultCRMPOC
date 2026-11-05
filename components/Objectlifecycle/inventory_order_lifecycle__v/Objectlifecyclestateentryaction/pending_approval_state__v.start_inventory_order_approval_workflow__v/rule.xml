@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="objectLifecycleEntryAction.all.runWorkflow" objectWorkflow="Objectworkflow.inventory_order_approval_workflow__v" />
+    </actions>
+</rule>

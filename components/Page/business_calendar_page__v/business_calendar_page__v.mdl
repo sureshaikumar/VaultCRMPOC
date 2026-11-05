@@ -1,0 +1,14 @@
+RECREATE Page business_calendar_page__v (
+   label('Business Calendar'),
+   active(true),
+   client_distribution(),
+   default_client_code('business_calendar__v'),
+   description('Business Calendar page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('business-calendar')
+);

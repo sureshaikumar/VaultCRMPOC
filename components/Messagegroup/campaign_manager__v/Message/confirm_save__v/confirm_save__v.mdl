@@ -1,0 +1,6 @@
+Message confirm_save__v (
+   label(),
+   active(true),
+   default_value('Confirm Save'),
+   system_managed(false)
+);

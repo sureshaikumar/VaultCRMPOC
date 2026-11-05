@@ -1,0 +1,5 @@
+Picklistentry bra__v (
+   value('Braj'),
+   order(40),
+   active(false)
+);

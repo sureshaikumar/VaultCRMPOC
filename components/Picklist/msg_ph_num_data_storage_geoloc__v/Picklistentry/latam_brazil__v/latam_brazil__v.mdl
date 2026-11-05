@@ -1,0 +1,5 @@
+Picklistentry latam_brazil__v (
+   value('LATAM - Brazil'),
+   order(9),
+   active(true)
+);

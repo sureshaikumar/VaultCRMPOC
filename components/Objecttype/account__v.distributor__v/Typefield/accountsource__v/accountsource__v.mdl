@@ -1,0 +1,9 @@
+Typefield accountsource__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_accountsource__v.other__v',
+         'Picklist.account_accountsource__v.partner_referral__v',
+         'Picklist.account_accountsource__v.phone_inquiry__v',
+         'Picklist.account_accountsource__v.purchased_list__v',
+         'Picklist.account_accountsource__v.web__v')
+);

@@ -1,0 +1,19 @@
+Field last_scheduler_account_list__v (
+   label('Last Scheduler Account List'),
+   type('String'),
+   active(true),
+   description('Name of the Last Scheduler Account List that was selected, so that it can be sticky'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(43),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

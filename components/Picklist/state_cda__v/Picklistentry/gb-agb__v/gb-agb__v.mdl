@@ -1,0 +1,6 @@
+Picklistentry gb-agb__v (
+   value('Argyll and Bute'),
+   order(1451),
+   active(true),
+   controlling_entries('gb__v')
+);

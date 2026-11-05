@@ -1,0 +1,20 @@
+Field account_list_cols__v (
+   label('ACCOUNT_LIST_COLS'),
+   type('String'),
+   active(true),
+   description('List of columns to display for an Account List in the VMobile Tablet application.   Enter column names in the following format: Object_Name.API_Name.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('"ACCOUNT_LIST_COLS;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

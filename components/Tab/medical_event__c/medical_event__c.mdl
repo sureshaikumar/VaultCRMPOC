@@ -1,0 +1,15 @@
+RECREATE Tab medical_event__c (
+   active(true),
+   all_view_label('All Medical Event'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Medical Event'),
+   modal_create_record(false),
+   my_view_label('My Medical Event'),
+   object('medical_event__v'),
+   order(5300),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Medical Event')
+);

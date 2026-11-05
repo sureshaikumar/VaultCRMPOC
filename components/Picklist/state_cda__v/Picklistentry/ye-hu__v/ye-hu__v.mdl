@@ -1,0 +1,6 @@
+Picklistentry ye-hu__v (
+   value('Al Ḩudaydah'),
+   order(5003),
+   active(true),
+   controlling_entries('ye__v')
+);

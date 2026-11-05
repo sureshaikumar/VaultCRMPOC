@@ -1,0 +1,6 @@
+Picklistentry cdlei__v (
+   value('Clinical Dentistry'),
+   order(218),
+   active(true),
+   controlling_entries('cz__v')
+);

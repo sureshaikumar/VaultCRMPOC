@@ -1,0 +1,8 @@
+RECREATE Pagelayout message_template_content_detail_page_lay__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Message Template Content Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

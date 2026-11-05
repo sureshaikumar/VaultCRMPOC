@@ -1,0 +1,5 @@
+Picklistentry sach__v (
+   value('Short Term Acute Care Hospital'),
+   order(235),
+   active(true)
+);

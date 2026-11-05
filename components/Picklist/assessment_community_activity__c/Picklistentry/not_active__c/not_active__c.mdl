@@ -1,0 +1,5 @@
+Picklistentry not_active__c (
+   value('Not Active'),
+   order(3),
+   active(true)
+);

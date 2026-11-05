@@ -1,0 +1,17 @@
+Field prescriber_cda__v (
+   label('Prescriber'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the individual is authorized to prescribe medications.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(true),
+   order(150),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

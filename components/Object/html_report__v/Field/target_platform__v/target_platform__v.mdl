@@ -1,0 +1,19 @@
+Field target_platform__v (
+   label('Content Target Platform'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The target platform that the MyInsights page is written for.'),
+   list_column(false),
+   order(28),
+   multi_value(false),
+   picklist('Picklist.target_platform__v'),
+   default_value('{vault__v}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

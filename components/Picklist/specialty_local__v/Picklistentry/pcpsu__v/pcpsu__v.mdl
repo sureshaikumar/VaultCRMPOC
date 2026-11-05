@@ -1,0 +1,6 @@
+Picklistentry pcpsu__v (
+   value('Psychiatry Cultural Psychiatry'),
+   order(1618),
+   active(true),
+   controlling_entries('id__v')
+);

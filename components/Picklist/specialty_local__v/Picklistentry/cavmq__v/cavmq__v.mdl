@@ -1,0 +1,6 @@
+Picklistentry cavmq__v (
+   value('Cardiology and Vascular Medicine Prevention and Rehabilitation'),
+   order(161),
+   active(true),
+   controlling_entries('id__v')
+);

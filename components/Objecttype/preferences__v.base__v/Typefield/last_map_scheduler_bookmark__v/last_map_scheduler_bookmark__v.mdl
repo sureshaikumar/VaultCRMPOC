@@ -1,0 +1,4 @@
+Typefield last_map_scheduler_bookmark__v (
+   source('standard'),
+   required(false)
+);

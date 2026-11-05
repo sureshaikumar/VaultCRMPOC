@@ -1,0 +1,5 @@
+Picklistentry asia_rangoon__sys (
+   value('(GMT+06:30) Myanmar Time (Asia/Yangon)'),
+   order(243),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message project_field_force_import_select__v (
+   label(),
+   active(true),
+   default_value('Select Production Field Force*'),
+   system_managed(false)
+);

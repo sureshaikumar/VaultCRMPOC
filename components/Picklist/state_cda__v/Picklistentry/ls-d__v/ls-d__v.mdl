@@ -1,0 +1,6 @@
+Picklistentry ls-d__v (
+   value('Berea'),
+   order(2612),
+   active(true),
+   controlling_entries('ls__v')
+);

@@ -1,0 +1,19 @@
+Field city__v (
+   label('City'),
+   type('String'),
+   active(true),
+   description('City of the Address for the Rep.  The City of the Address on Rep Roster is utilized for Transfer Transactions to auto-populate the City of the Address for a Transfer Sample Transaction based on the selected Transfer To User.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry macular_degeneration__v (
+   value('Macular Degeneration'),
+   order(85),
+   active(true)
+);

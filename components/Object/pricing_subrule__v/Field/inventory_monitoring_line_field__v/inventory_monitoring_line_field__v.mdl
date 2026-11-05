@@ -1,0 +1,19 @@
+Field inventory_monitoring_line_field__v (
+   label('Inventory Monitoring Line Field'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used by the OM Pricing Engine to determine from which Inventory Monitoring field it should read data to trigger IM Driven Discounts. The field name must be a literal match of the original untranslated Inventory Monitoring Line field name.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

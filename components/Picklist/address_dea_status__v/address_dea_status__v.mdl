@@ -1,0 +1,8 @@
+RECREATE Picklist address_dea_status__v (
+   label('DEA Status'),
+   active(true),
+   Picklistentry(@Picklistentry/valid__v.mdl),
+   Picklistentry(@Picklistentry/invalid__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

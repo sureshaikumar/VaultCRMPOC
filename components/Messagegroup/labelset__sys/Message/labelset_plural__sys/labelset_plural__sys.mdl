@@ -1,0 +1,6 @@
+Message labelset_plural__sys (
+   label(),
+   active(true),
+   default_value('Label Sets'),
+   system_managed(true)
+);

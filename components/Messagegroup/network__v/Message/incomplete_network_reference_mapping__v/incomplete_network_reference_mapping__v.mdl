@@ -1,0 +1,6 @@
+Message incomplete_network_reference_mapping__v (
+   label(),
+   active(true),
+   default_value('One or more reference mappings are incomplete.'),
+   system_managed(false)
+);

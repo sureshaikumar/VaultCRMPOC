@@ -1,0 +1,19 @@
+Field em_event_type__v (
+   label('Event Type'),
+   type('String'),
+   active(true),
+   description('Used to define the Event object type for an EM Attendee type Suggestion'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(50),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

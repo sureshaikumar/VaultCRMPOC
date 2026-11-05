@@ -1,0 +1,5 @@
+Picklistentry din (
+   value('Dinka'),
+   order(164),
+   active(true)
+);

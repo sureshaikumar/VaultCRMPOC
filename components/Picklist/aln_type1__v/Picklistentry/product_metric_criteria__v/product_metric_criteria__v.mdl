@@ -1,0 +1,5 @@
+Picklistentry product_metric_criteria__v (
+   value('Product Metric Criteria'),
+   order(3),
+   active(true)
+);

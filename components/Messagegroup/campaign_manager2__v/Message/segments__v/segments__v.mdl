@@ -1,0 +1,6 @@
+Message segments__v (
+   label(),
+   active(true),
+   default_value('Segments'),
+   system_managed(false)
+);

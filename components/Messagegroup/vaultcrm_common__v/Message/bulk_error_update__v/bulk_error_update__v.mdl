@@ -1,0 +1,6 @@
+Message bulk_error_update__v (
+   label(),
+   active(true),
+   default_value('${records} out of ${all_records} records cannot be updated'),
+   system_managed(false)
+);

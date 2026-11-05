@@ -1,0 +1,6 @@
+Picklistentry tl-ba__v (
+   value('Baucau'),
+   order(4413),
+   active(true),
+   controlling_entries('tl__v')
+);

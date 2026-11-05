@@ -1,0 +1,6 @@
+Picklistentry am-av__v (
+   value('Armavir'),
+   order(70),
+   active(true),
+   controlling_entries('am__v')
+);

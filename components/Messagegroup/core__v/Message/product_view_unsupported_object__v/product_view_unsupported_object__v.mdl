@@ -1,0 +1,6 @@
+Message product_view_unsupported_object__v (
+   label(),
+   active(true),
+   default_value('Only the product__v and product_information__v objects are supported for Product Views.'),
+   system_managed(false)
+);

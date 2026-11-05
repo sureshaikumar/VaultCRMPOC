@@ -1,0 +1,6 @@
+Picklistentry th-27__v (
+   value('Sa Kaeo'),
+   order(4345),
+   active(true),
+   controlling_entries('th__v')
+);

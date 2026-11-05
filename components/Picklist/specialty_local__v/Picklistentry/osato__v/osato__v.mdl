@@ -1,0 +1,7 @@
+Picklistentry osato__v (
+   value('Orthopedic Surgery and Traumatology of the Musculoskeletal System'),
+   order(1208),
+   active(true),
+   controlling_entries('ch__v',
+         'li__v')
+);

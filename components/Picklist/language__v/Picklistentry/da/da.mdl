@@ -1,0 +1,5 @@
+Picklistentry da (
+   value('Danish'),
+   order(5),
+   active(true)
+);

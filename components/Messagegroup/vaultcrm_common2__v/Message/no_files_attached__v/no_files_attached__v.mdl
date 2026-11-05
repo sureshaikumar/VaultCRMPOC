@@ -1,0 +1,6 @@
+Message no_files_attached__v (
+   label(),
+   active(true),
+   default_value('No files attached'),
+   system_managed(false)
+);

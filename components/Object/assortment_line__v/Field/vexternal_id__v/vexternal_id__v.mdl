@@ -1,0 +1,19 @@
+Field vexternal_id__v (
+   label('Veeva External ID'),
+   type('String'),
+   active(true),
+   description('Stores the concatenation of the key fields that make an Assortment Line unique'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('Key used by the pricing engine to verify the unicity of an Assortment Line record'),
+   list_column(false),
+   order(18),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field medical_inquiry_fulfillment_default__v (
+   label('Medical Inquiry Fulfillment Default'),
+   type('String'),
+   active(true),
+   description('The username that a Medical Inquiry Fulfillment record is assigned to if the Medical Inquiry Fulfillment feature is enabled and the Assign To User field on a Medical Inquiry record is empty.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(223),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

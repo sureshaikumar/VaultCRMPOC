@@ -1,0 +1,5 @@
+Picklistentry cdic__v (
+   value('Interventional Cardiology'),
+   order(37),
+   active(true)
+);

@@ -1,0 +1,13 @@
+Vsmrelationship language__v (
+   label('Language'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The language associated with this locale, linking the locale to its parent language record. Use this to filter locales by language (e.g., language__sysr.name__v = ''English'').'),
+   join_object(),
+   synonyms('language',
+         'associated language',
+         'locale language'),
+   target('language__sysr'),
+   target_label('Language'),
+   target_object('language__sys')
+);

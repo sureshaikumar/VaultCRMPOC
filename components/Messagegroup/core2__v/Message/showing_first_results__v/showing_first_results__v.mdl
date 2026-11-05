@@ -1,0 +1,6 @@
+Message showing_first_results__v (
+   label(),
+   active(true),
+   default_value('Showing the first ${number} results'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry so-by__v (
+   value('Bay'),
+   order(4227),
+   active(true),
+   controlling_entries('so__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry bw__v (
+   value('Botswana'),
+   order(34),
+   active(true)
+);

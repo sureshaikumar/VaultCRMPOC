@@ -1,0 +1,4 @@
+Typefield my_domain__v (
+   source('standard'),
+   required(false)
+);

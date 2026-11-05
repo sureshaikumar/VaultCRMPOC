@@ -1,0 +1,6 @@
+Message concur_user_field_maps__v (
+   label(),
+   active(true),
+   default_value('User Field Mappings'),
+   system_managed(false)
+);

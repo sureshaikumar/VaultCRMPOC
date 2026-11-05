@@ -1,0 +1,6 @@
+Picklistentry ye-su__v (
+   value('Arkhabīl Suquţrá'),
+   order(5015),
+   active(true),
+   controlling_entries('ye__v')
+);

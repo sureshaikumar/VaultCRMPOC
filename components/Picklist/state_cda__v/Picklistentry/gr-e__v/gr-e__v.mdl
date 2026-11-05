@@ -1,0 +1,6 @@
+Picklistentry gr-e__v (
+   value('Thessalía'),
+   order(1771),
+   active(true),
+   controlling_entries('gr__v')
+);

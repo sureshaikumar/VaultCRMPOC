@@ -1,0 +1,6 @@
+Message not_configured__v (
+   label(),
+   active(true),
+   default_value('Not Configured'),
+   system_managed(false)
+);

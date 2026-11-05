@@ -1,0 +1,6 @@
+Picklistentry pmraf__v (
+   value('Physical Medicine, Rehabilitation and Functional Rehabilitation'),
+   order(1551),
+   active(true),
+   controlling_entries('tn__v')
+);

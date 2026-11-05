@@ -1,0 +1,5 @@
+Picklistentry dentu__v (
+   value('Denturist'),
+   order(33),
+   active(true)
+);

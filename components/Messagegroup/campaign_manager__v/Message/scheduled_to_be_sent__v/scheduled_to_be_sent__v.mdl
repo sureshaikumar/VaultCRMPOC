@@ -1,0 +1,6 @@
+Message scheduled_to_be_sent__v (
+   label(),
+   active(true),
+   default_value('Scheduled to be sent on'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message x_additional_budgets__v (
+   label(),
+   active(true),
+   default_value('${resource_identity} additional budgets'),
+   system_managed(false)
+);

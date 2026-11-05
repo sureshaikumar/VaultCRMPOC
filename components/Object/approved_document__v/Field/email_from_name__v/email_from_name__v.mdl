@@ -1,0 +1,19 @@
+Field email_from_name__v (
+   label('From Name'),
+   type('String'),
+   active(true),
+   description('''From'' name that will be used in the Vault Email Template. Will either be set to a constant value or using the {{userName}} markup token can be set dynamically to the end user''s full name'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

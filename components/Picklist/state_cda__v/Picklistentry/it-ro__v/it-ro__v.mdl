@@ -1,0 +1,6 @@
+Picklistentry it-ro__v (
+   value('Rovigo'),
+   order(2255),
+   active(true),
+   controlling_entries('it__v')
+);

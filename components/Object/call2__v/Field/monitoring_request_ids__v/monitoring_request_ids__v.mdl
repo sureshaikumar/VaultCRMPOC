@@ -1,0 +1,17 @@
+Field monitoring_request_ids__v (
+   label('Monitoring Request IDs'),
+   type('LongText'),
+   active(true),
+   description('System reference field to link Request IDs for monitoring events to monitored records that have not yet been assigned an ID. Contains a semicolon delimited list of Request IDs.'),
+   required(false),
+   max_length(32000),
+   help_content('System Use Only'),
+   list_column(false),
+   order(241),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

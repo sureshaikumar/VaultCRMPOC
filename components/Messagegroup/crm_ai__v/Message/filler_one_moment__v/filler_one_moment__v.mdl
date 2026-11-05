@@ -1,0 +1,6 @@
+Message filler_one_moment__v (
+   label(),
+   active(true),
+   default_value('One moment...'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ro-db__v (
+   value('Dâmbovița'),
+   order(3732),
+   active(true),
+   controlling_entries('ro__v')
+);

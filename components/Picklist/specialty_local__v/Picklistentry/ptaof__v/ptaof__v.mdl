@@ -1,0 +1,6 @@
+Picklistentry ptaof__v (
+   value('Pediatric Traumatology and Orthopedics'),
+   order(1466),
+   active(true),
+   controlling_entries('kg__v')
+);

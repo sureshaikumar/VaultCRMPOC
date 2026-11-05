@@ -1,0 +1,6 @@
+Message mc_cycle_add_channel__v (
+   label(),
+   active(true),
+   default_value('Add Channel'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_reload_text_3__v (
+   label(),
+   active(true),
+   default_value('The user has cancelled their request. To continue to provide feedback, transfer requests must be reloaded.'),
+   system_managed(false)
+);

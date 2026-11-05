@@ -1,0 +1,14 @@
+Vsmfield parent__v (
+   label('Parent'),
+   active(true),
+   description('References the parent EDL Template in a hierarchical template structure. Use this field to navigate template hierarchies, identify child templates, or filter templates belonging to a specific parent.'),
+   example_values(),
+   synonyms('parent template',
+         'parent EDL',
+         'hierarchy parent',
+         'belongs to'),
+   target('parent__v'),
+   target_label('Parent'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

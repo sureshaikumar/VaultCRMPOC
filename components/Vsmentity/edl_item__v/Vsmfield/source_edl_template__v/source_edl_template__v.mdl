@@ -1,0 +1,14 @@
+Vsmfield source_edl_template__v (
+   label('Source EDL Template'),
+   active(true),
+   description('Reference to the EDL Template that was used to generate the parent EDL for this item. Use to identify all EDL items derived from a specific template, enabling template-level analysis and consistency checks across submissions.'),
+   example_values(),
+   synonyms('EDL template',
+         'source template',
+         'originating template',
+         'parent template'),
+   target('source_edl_template__v'),
+   target_label('Source EDL Template'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,8 @@
+Typefield data_change_request_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_change_request_status__v.cancelled__v',
+         'Picklist.data_change_request_status__v.pending__v',
+         'Picklist.data_change_request_status__v.processed__v',
+         'Picklist.data_change_request_status__v.submitted__v')
+);

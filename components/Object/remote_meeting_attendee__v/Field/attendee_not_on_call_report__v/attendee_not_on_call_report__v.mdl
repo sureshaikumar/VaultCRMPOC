@@ -1,0 +1,18 @@
+Field attendee_not_on_call_report__v (
+   label('Attendee not on call report'),
+   type('Boolean'),
+   active(true),
+   description('If Yes, this fields indicates the call owner selected Attendee not on call report when reconciling this remote meeting attendee.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(44),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

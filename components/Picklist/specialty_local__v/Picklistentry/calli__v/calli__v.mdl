@@ -1,0 +1,6 @@
+Picklistentry calli__v (
+   value('Clinical Allergology'),
+   order(209),
+   active(true),
+   controlling_entries('bg__v')
+);

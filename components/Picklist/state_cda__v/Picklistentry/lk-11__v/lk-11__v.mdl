@@ -1,0 +1,6 @@
+Picklistentry lk-11__v (
+   value('Colombo'),
+   order(2561),
+   active(true),
+   controlling_entries('lk__v')
+);

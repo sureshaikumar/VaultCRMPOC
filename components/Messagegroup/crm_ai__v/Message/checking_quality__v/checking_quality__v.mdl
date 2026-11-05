@@ -1,0 +1,6 @@
+Message checking_quality__v (
+   label(),
+   active(true),
+   default_value('Checking quality'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message file_name_max_bytes__v (
+   label(),
+   active(true),
+   default_value('File names cannot exceed {0} bytes, including the file extension. Note that one (1) character does not always equal one (1) byte.'),
+   system_managed(false)
+);

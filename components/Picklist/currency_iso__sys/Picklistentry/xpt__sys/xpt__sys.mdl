@@ -1,0 +1,5 @@
+Picklistentry xpt__sys (
+   value('XPT'),
+   order(217),
+   active(true)
+);

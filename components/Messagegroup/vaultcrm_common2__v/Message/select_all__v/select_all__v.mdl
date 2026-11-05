@@ -1,0 +1,6 @@
+Message select_all__v (
+   label(),
+   active(true),
+   default_value('(Select All)'),
+   system_managed(false)
+);

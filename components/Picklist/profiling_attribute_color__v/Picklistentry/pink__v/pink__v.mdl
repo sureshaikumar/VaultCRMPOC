@@ -1,0 +1,5 @@
+Picklistentry pink__v (
+   value('Pink'),
+   order(5),
+   active(true)
+);

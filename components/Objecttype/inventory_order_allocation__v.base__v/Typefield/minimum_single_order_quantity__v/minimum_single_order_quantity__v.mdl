@@ -1,0 +1,4 @@
+Typefield minimum_single_order_quantity__v (
+   source('standard'),
+   required(false)
+);

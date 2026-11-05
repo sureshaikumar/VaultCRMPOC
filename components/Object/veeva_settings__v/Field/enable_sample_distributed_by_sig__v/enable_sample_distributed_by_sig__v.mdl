@@ -1,0 +1,18 @@
+Field enable_sample_distributed_by_sig__v (
+   label('ENABLE_SAMPLE_DISTRIBUTED_BY_SIG'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the Distributed By value is displayed on the signature page. If the Company Name is available the field value will be automatically populated.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(155),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message contains_phi_or_pii__v (
+   label(),
+   active(true),
+   default_value('Contains Protected Health Information (PHI) or Personally Identifiable Information (PII)'),
+   system_managed(false)
+);

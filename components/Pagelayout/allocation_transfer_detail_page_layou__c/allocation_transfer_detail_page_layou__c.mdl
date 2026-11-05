@@ -1,0 +1,8 @@
+RECREATE Pagelayout allocation_transfer_detail_page_layou__c (
+   active(true),
+   default_layout(true),
+   description('Page layout for the Sample Order Transfer transaction.'),
+   display_lifecycle_stages(false),
+   label('Allocation Transfer Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

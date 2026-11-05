@@ -1,0 +1,5 @@
+Picklistentry nym (
+   value('Nyamwezi'),
+   order(272),
+   active(true)
+);

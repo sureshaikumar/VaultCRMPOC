@@ -1,0 +1,6 @@
+Picklistentry si-093__v (
+   value('Podvelka'),
+   order(4067),
+   active(true),
+   controlling_entries('si__v')
+);

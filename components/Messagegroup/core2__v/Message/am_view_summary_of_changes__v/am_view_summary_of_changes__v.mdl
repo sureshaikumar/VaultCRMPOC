@@ -1,0 +1,6 @@
+Message am_view_summary_of_changes__v (
+   label(),
+   active(true),
+   default_value('View Summary of Changes'),
+   system_managed(false)
+);

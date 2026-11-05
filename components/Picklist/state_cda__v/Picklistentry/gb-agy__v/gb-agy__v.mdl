@@ -1,0 +1,6 @@
+Picklistentry gb-agy__v (
+   value('Isle of Anglesey'),
+   order(1452),
+   active(true),
+   controlling_entries('gb__v')
+);

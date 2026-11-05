@@ -1,0 +1,6 @@
+Picklistentry dz-52__v (
+   value('Béni Abbès'),
+   order(1033),
+   active(true),
+   controlling_entries('dz__v')
+);

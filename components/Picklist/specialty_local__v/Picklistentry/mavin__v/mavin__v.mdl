@@ -1,0 +1,7 @@
+Picklistentry mavin__v (
+   value('Microbiology and Virology'),
+   order(965),
+   active(true),
+   controlling_entries('it__v',
+         'ua__v')
+);

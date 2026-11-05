@@ -1,0 +1,5 @@
+Picklistentry 37020__v (
+   value('Owosso, MI Micropolitan Statistical Area'),
+   order(558),
+   active(true)
+);

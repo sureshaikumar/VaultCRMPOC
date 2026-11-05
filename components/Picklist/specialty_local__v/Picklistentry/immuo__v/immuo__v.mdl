@@ -1,0 +1,6 @@
+Picklistentry immuo__v (
+   value('Immunopathology'),
+   order(743),
+   active(true),
+   controlling_entries('nz__v')
+);

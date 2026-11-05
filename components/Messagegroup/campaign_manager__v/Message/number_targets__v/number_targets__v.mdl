@@ -1,0 +1,6 @@
+Message number_targets__v (
+   label(),
+   active(true),
+   default_value('${count} targets'),
+   system_managed(false)
+);

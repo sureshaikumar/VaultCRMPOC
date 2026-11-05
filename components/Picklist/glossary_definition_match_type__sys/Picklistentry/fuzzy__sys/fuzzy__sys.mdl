@@ -1,0 +1,5 @@
+Picklistentry fuzzy__sys (
+   value('Fuzzy'),
+   order(1),
+   active(true)
+);

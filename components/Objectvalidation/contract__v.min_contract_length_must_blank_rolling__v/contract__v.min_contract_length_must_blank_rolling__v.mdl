@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.min_contract_length_must_blank_rolling__v (
+   label('Min Contract Length Blank For Rolling'),
+   active(true),
+   expression('Not((object_type__vr.api_name__v=''series_contract__v'')&&(period_type__v=''rolling__v'')&&(Not(IsBlank(minimum_contract_length__v))))'),
+   description('Minimum Contract Length cannot contain a value for Rolling Period Type.'),
+   error_message('Minimum Contract Length cannot contain a value for Rolling Period Type.'),
+   error_location('minimum_contract_length__v')
+);

@@ -1,0 +1,6 @@
+Message remove_flow_confirmation__v (
+   label(),
+   active(true),
+   default_value('By removing 1 or more flows, any associated actions will be removed and any assigned segments will be unassigned. Would you like to proceed?'),
+   system_managed(false)
+);

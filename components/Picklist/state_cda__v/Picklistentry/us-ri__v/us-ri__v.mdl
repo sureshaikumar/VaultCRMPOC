@@ -1,0 +1,6 @@
+Picklistentry us-ri__v (
+   value('Rhode Island'),
+   order(4834),
+   active(true),
+   controlling_entries('us__v')
+);

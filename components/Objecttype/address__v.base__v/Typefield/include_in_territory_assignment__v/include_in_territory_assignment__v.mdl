@@ -1,0 +1,4 @@
+Typefield include_in_territory_assignment__v (
+   source('standard'),
+   required(false)
+);

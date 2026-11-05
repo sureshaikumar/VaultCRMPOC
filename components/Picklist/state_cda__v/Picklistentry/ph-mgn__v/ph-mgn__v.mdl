@@ -1,0 +1,6 @@
+Picklistentry ph-mgn__v (
+   value('Maguindanao del Norte'),
+   order(3581),
+   active(true),
+   controlling_entries('ph__v')
+);

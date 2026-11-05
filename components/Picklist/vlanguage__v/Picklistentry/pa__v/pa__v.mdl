@@ -1,0 +1,5 @@
+Picklistentry pa__v (
+   value('Punjabi'),
+   order(259),
+   active(false)
+);

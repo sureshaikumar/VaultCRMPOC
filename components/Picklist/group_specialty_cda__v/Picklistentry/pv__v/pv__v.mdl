@@ -1,0 +1,5 @@
+Picklistentry pv__v (
+   value('Palliative Medicine'),
+   order(25),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry az-agm__v (
+   value('Ağdam'),
+   order(141),
+   active(true),
+   controlling_entries('az__v')
+);

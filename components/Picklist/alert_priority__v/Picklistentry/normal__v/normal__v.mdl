@@ -1,0 +1,5 @@
+Picklistentry normal__v (
+   value('Normal'),
+   order(2),
+   active(true)
+);

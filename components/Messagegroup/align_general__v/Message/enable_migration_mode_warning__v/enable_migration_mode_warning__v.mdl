@@ -1,0 +1,6 @@
+Message enable_migration_mode_warning__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to enable migration mode? This will refresh the database and allow data to be imported without validation checks until migration mode is disabled.'),
+   system_managed(false)
+);

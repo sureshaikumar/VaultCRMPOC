@@ -1,0 +1,6 @@
+Picklistentry vn-hn__v (
+   value('Hà Nội'),
+   order(4972),
+   active(true),
+   controlling_entries('vn__v')
+);

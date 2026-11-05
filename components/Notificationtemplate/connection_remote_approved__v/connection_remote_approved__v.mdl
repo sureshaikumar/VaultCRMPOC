@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate connection_remote_approved__v (
+   label('connectionRemoteApproved'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Remote Connection Has Been Approved'),
+   notification('The Connection ${connectionLink} in the remote vault has been approved. You also have to approve this connection in order to make it active. <p>&nbsp;</p> <p> &emsp;Remote Domain: ${connectionDomain}<br> &emsp;Remote Vault: ${connectionVault}<br> &emsp;Contact Name: ${connectionContact}<br> &emsp;Contact Email: ${connectionEmail} </p>'),
+   email_body('The Connection ${connectionLink} in the remote vault has been approved. You also have to approve this connection in order to make it active. <p>&nbsp;</p> <p> &emsp;Remote Domain: ${connectionDomain}<br> &emsp;Remote Vault: ${connectionVault}<br> &emsp;Contact Name: ${connectionContact}<br> &emsp;Contact Email: ${connectionEmail} </p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

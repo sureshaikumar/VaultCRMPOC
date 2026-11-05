@@ -1,0 +1,6 @@
+Message missing_token_mapping_file_error__v (
+   label(),
+   active(true),
+   default_value('The DOCX file includes merge fields but is missing a corresponding token mapping file.'),
+   system_managed(false)
+);

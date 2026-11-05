@@ -1,0 +1,17 @@
+Field custom_list_unsubscribe_header__v (
+   label('Custom List Unsubscribe Header'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(2000),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

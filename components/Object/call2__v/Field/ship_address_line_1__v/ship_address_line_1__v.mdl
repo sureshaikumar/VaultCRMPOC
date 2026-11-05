@@ -1,0 +1,19 @@
+Field ship_address_line_1__v (
+   label('Ship Address Line 1'),
+   type('String'),
+   active(true),
+   description('The Ship Address Line 1 field stores the first line of the Ship to Address for a BRC Sample.  This field should not be displayed on the Page Layout.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(112),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

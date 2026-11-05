@@ -1,0 +1,5 @@
+Picklistentry regulatory_advisor_index__v (
+   value('Regulatory Advisor Index'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry bd-61__v (
+   value('Sunamganj'),
+   order(290),
+   active(true),
+   controlling_entries('bd__v')
+);

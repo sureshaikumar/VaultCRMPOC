@@ -1,0 +1,6 @@
+Message targeting_rule_same_field_force_mc_cycle__v (
+   label(),
+   active(true),
+   default_value('Targeting Rule must be assigned to the same Field Force (${field_force_id}) as MC Cycle ${cycle_name}.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry oisnn__v (
+   value('Oncology in Surgery'),
+   order(1124),
+   active(true),
+   controlling_entries('sk__v')
+);

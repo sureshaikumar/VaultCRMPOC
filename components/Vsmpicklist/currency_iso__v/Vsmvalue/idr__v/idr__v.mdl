@@ -1,0 +1,10 @@
+Vsmvalue idr__v (
+   label('IDR'),
+   active(true),
+   description('The Indonesian Rupiah (IDR), the official currency of Indonesia, used for transactions and financial records involving Indonesian business operations.'),
+   synonyms('Indonesian rupiah',
+         'rupiah',
+         'Indonesia currency'),
+   target('idr__sys'),
+   target_label('IDR')
+);

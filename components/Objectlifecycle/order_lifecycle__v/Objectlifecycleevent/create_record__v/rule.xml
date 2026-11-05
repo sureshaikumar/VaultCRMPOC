@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <expression operator="isBlank" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+            <value>Object.order__v.order_status__v</value>
+        </expression>
+    </expression>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.order__v.order_status__v</targetField>
+            <expression>'saved__v'</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

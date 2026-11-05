@@ -1,0 +1,14 @@
+Vsmfield outbound_package__v (
+   label('Outbound Packages'),
+   active(true),
+   description('Reference to the outbound package that this component belongs to. Use this to identify which deployment package contains this component or to filter components by their associated package.'),
+   example_values(),
+   synonyms('package',
+         'outbound pkg',
+         'deployment package',
+         'parent package'),
+   target('outbound_package__v'),
+   target_label('Outbound Packages'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Message recipients_require_email_template_error__v (
+   label(),
+   active(true),
+   default_value('Please choose an email template before selecting email recipients.'),
+   system_managed(false)
+);

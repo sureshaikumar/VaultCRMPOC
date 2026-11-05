@@ -1,0 +1,6 @@
+Picklistentry cu-11__v (
+   value('Holguín'),
+   order(776),
+   active(true),
+   controlling_entries('cu__v')
+);

@@ -1,0 +1,6 @@
+Message views__v (
+   label(),
+   active(true),
+   default_value('Views'),
+   system_managed(false)
+);

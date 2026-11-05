@@ -1,0 +1,6 @@
+Picklistentry ph-ban__v (
+   value('Bataan'),
+   order(3541),
+   active(true),
+   controlling_entries('ph__v')
+);

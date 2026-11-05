@@ -1,0 +1,4 @@
+Typefield shared_resource__v (
+   source('standard'),
+   required(false)
+);

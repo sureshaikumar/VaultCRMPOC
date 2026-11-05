@@ -1,0 +1,8 @@
+Objectworkflowstep update_document_states_based_on_verdicts__c (
+   label('Update document states based on verdicts'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.ready_for_executive_approval__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('For each document, IF all SME Approvers submitted an "Approve" verdict, THEN change state of the document to "Pre-Approval" state type.  Documents will then be routed for Executive Approval.')
+);

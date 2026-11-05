@@ -1,0 +1,5 @@
+Picklistentry high_cholesterol_others__v (
+   value('High Cholesterol (Others)'),
+   order(23),
+   active(true)
+);

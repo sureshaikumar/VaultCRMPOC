@@ -1,0 +1,17 @@
+Field photo__v (
+   label('Photo'),
+   type('LongText'),
+   active(true),
+   description('Base64 encoded User''s photo, uploaded from the User Detail tab.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

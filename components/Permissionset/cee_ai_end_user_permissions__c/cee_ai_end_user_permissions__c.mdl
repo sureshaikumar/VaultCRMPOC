@@ -1,0 +1,6 @@
+RECREATE Permissionset cee_ai_end_user_permissions__c (
+   label('CEE - AI End User Permissions'),
+   active(true),
+   description(),
+   vault_actions.search('suggest')
+);

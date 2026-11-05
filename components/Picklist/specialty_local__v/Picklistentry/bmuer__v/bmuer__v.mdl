@@ -1,0 +1,8 @@
+Picklistentry bmuer__v (
+   value('Burn Medicine'),
+   order(140),
+   active(true),
+   controlling_entries('am__v',
+         'cz__v',
+         'us__v')
+);

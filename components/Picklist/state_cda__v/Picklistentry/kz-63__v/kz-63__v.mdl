@@ -1,0 +1,6 @@
+Picklistentry kz-63__v (
+   value('Shyghys Qazaqstan oblysy'),
+   order(2509),
+   active(true),
+   controlling_entries('kz__v')
+);

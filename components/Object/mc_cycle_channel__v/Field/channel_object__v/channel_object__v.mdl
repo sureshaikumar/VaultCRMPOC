@@ -1,0 +1,18 @@
+Field channel_object__v (
+   label('Channel Object'),
+   type('Picklist'),
+   active(true),
+   description('Full API Label of the transaction object. Example: Call2_vod__c or Sent_Email_vod__c.'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.mc_cycle_channel_channel_object__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

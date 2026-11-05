@@ -1,0 +1,9 @@
+Typefield method__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_inquiry_fulfillment_respo_method__v.email__v',
+         'Picklist.medical_inquiry_fulfillment_respo_method__v.face_to_face__v',
+         'Picklist.medical_inquiry_fulfillment_respo_method__v.fax__v',
+         'Picklist.medical_inquiry_fulfillment_respo_method__v.mail__v',
+         'Picklist.medical_inquiry_fulfillment_respo_method__v.phone__v')
+);

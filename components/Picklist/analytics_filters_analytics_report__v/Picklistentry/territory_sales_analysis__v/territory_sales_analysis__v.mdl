@@ -1,0 +1,5 @@
+Picklistentry territory_sales_analysis__v (
+   value('Territory Sales Analysis'),
+   order(3),
+   active(true)
+);

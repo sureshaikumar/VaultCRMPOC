@@ -1,0 +1,18 @@
+Field read_only__v (
+   label('Read-Only'),
+   type('Boolean'),
+   active(true),
+   description('This field''s setting controls whether an end-user can add or modify the value for the Dynamic Attribute defined.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

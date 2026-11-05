@@ -1,0 +1,21 @@
+Field mccp_enable_actions_my_plan__v (
+   label('MCCP Enable Actions from My Plan'),
+   type('String'),
+   active(true),
+   description('Setting for enabling action buttons from the "My Plan" menu. Values should be double semi-colon delimited.
+Call2_vod - Enables the Schedule Calls button'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(24),
+   default_value('"Call2_vod"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,18 @@
+Field unlock__v (
+   label('Unlock'),
+   type('Boolean'),
+   active(true),
+   description('If this field is updated to true on a submitted order, the order status will changed to "Saved" by the order trigger. Note that the value "True" is never actually saved in the unlock field. It is simply a way to unlock submitted calls. Normally only admin'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

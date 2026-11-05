@@ -1,0 +1,6 @@
+Message mccp_product_grp_details_help__v (
+   label(),
+   active(true),
+   default_value('Displays the goals for this product group and the criteria that accounts must meet to receive it'),
+   system_managed(false)
+);

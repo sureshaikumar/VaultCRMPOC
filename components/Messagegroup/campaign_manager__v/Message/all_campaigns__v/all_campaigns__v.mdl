@@ -1,0 +1,6 @@
+Message all_campaigns__v (
+   label(),
+   active(true),
+   default_value('All Campaigns'),
+   system_managed(false)
+);

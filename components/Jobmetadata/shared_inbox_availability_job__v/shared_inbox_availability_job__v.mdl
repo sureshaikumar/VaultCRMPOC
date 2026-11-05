@@ -1,0 +1,12 @@
+RECREATE Jobmetadata shared_inbox_availability_job__v (
+   label('Shared Inbox Availability Job'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to verify shared email inbox availability to Console Application.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.casemanagement.jobs.SharedInboxAvailabilityJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

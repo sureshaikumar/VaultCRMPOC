@@ -1,0 +1,6 @@
+Message no_cases_found__v (
+   label(),
+   active(true),
+   default_value('No Cases Found'),
+   system_managed(false)
+);

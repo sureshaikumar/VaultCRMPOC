@@ -1,0 +1,9 @@
+RECREATE Picklist call_error_cause__v (
+   label('Cause'),
+   active(true),
+   Picklistentry(@Picklistentry/account_access__v.mdl),
+   Picklistentry(@Picklistentry/call_locked__v.mdl),
+   Picklistentry(@Picklistentry/object_access__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

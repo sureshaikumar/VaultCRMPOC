@@ -1,0 +1,6 @@
+Message perf_sankey_emails_scheduled__v (
+   label(),
+   active(true),
+   default_value('Emails Scheduled'),
+   system_managed(false)
+);

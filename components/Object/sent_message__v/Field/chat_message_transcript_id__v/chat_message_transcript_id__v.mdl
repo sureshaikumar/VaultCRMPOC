@@ -1,0 +1,19 @@
+Field chat_message_transcript_id__v (
+   label('Chat Message Transcript ID'),
+   type('String'),
+   active(true),
+   description('The unique identifier of the corresponding message record in the chat transcript database.'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(59),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

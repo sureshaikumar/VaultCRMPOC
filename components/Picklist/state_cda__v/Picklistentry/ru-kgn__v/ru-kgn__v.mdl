@@ -1,0 +1,6 @@
+Picklistentry ru-kgn__v (
+   value('Kurganskaya oblast'''),
+   order(3814),
+   active(true),
+   controlling_entries('ru__v')
+);

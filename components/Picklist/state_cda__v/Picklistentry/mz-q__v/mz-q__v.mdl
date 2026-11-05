@@ -1,0 +1,6 @@
+Picklistentry mz-q__v (
+   value('Zambézia'),
+   order(3295),
+   active(true),
+   controlling_entries('mz__v')
+);

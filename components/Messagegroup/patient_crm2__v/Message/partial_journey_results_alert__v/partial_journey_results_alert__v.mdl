@@ -1,0 +1,6 @@
+Message partial_journey_results_alert__v (
+   label(),
+   active(true),
+   default_value('Unable to load all results. Refresh to load all patient journeys'),
+   system_managed(false)
+);

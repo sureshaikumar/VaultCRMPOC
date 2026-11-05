@@ -1,0 +1,6 @@
+Message microsoft_sign_in_view_inbox__v (
+   label(),
+   active(true),
+   default_value('Sign in to view updated inbox'),
+   system_managed(false)
+);

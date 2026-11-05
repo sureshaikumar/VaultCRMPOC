@@ -1,0 +1,15 @@
+RECREATE Tab patients__v (
+   active(true),
+   all_view_label('All Patients'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Patients'),
+   modal_create_record(false),
+   my_view_label('My Patients'),
+   object('patient_attribute__v'),
+   order(6000),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Patients')
+);

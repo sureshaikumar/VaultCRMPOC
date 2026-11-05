@@ -1,0 +1,6 @@
+Picklistentry lt-38__v (
+   value('Raseiniai'),
+   order(2656),
+   active(true),
+   controlling_entries('lt__v')
+);

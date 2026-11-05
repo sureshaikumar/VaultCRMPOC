@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17598295041187010__c (
+   label('Medical Events Access'),
+   active(true),
+   application_role('med_access__c'),
+   permission_sets('Permissionset.medical_events_end_user_ps__c')
+);

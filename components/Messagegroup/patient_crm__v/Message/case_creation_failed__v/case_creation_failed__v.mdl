@@ -1,0 +1,6 @@
+Message case_creation_failed__v (
+   label(),
+   active(true),
+   default_value('${case_label} Creation Failed'),
+   system_managed(false)
+);

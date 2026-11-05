@@ -1,0 +1,4 @@
+Typefield veeva_distribution_file_name__v (
+   source('standard'),
+   required(false)
+);

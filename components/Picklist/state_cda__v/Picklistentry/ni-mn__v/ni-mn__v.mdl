@@ -1,0 +1,6 @@
+Picklistentry ni-mn__v (
+   value('Managua'),
+   order(3368),
+   active(true),
+   controlling_entries('ni__v')
+);

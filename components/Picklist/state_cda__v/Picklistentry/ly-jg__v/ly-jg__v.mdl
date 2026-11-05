@@ -1,0 +1,6 @@
+Picklistentry ly-jg__v (
+   value('Al Jabal al Gharbī'),
+   order(2749),
+   active(true),
+   controlling_entries('ly__v')
+);

@@ -1,0 +1,17 @@
+Field new_localized_value__v (
+   label('New Value (Localized)'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(4000),
+   help_content('The localized/translated modified value of the field, as requested by the end user'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

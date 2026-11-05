@@ -1,0 +1,9 @@
+Typefield em_speaker_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_status__v.approved__v',
+         'Picklist.em_speaker_status__v.eligible__v',
+         'Picklist.em_speaker_status__v.expired__v',
+         'Picklist.em_speaker_status__v.nominated__v',
+         'Picklist.em_speaker_status__v.rejected__v')
+);

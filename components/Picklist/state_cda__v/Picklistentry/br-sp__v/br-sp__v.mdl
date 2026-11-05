@@ -1,0 +1,6 @@
+Picklistentry br-sp__v (
+   value('São Paulo'),
+   order(476),
+   active(true),
+   controlling_entries('br__v')
+);

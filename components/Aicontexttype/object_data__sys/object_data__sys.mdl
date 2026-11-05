@@ -1,0 +1,8 @@
+RECREATE Aicontexttype object_data__sys (
+   label('Object Data'),
+   active(true),
+   admin_configurable(true),
+   configuration_code('Aicontexttypeconfigurationcode.com.veeva.vault.system.context.ObjectDataConfigurationContextType'),
+   configuration_layout(),
+   runtime_code('Aicontexttyperuntimecode.com.veeva.vault.system.context.ObjectDataRuntimeContextType')
+);

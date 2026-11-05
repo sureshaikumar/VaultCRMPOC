@@ -1,0 +1,5 @@
+Picklistentry schein_pharmaceutical_inc__v (
+   value('Schein Pharmaceutical, Inc.'),
+   order(33),
+   active(true)
+);

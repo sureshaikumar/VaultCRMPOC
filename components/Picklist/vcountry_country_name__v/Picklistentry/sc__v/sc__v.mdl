@@ -1,0 +1,5 @@
+Picklistentry sc__v (
+   value('Seychelles'),
+   order(195),
+   active(true)
+);

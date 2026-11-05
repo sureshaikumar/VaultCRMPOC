@@ -1,0 +1,6 @@
+Message greater_than_or_equal__v (
+   label(),
+   active(true),
+   default_value('Greater than or equal'),
+   system_managed(false)
+);

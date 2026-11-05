@@ -1,0 +1,18 @@
+Field category__v (
+   label('Category'),
+   type('Picklist'),
+   active(true),
+   description('Allows the Key Message to be categorized e.g. Efficacy or Safety.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.key_message_category__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

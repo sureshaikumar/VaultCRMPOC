@@ -1,0 +1,20 @@
+RECREATE Picklist outbound_target_result__v (
+   label('Outbound Target Result'),
+   active(true),
+   Picklistentry(@Picklistentry/content_share__v.mdl),
+   Picklistentry(@Picklistentry/schedule__v.mdl),
+   Picklistentry(@Picklistentry/not_interested__v.mdl),
+   Picklistentry(@Picklistentry/in_progress__v.mdl),
+   Picklistentry(@Picklistentry/not_available__v.mdl),
+   Picklistentry(@Picklistentry/voicemail__v.mdl),
+   Picklistentry(@Picklistentry/wrong_number__v.mdl),
+   Picklistentry(@Picklistentry/do_not_call__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   Picklistentry(@Picklistentry/consent_check_passed__v.mdl),
+   Picklistentry(@Picklistentry/opted_out__v.mdl),
+   Picklistentry(@Picklistentry/not_opted_in__v.mdl),
+   Picklistentry(@Picklistentry/account_do_not_call__v.mdl),
+   Picklistentry(@Picklistentry/opted_in__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

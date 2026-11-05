@@ -1,0 +1,14 @@
+Vsmfield glossary_definition_language__v (
+   label('Language'),
+   active(true),
+   description('The language in which this glossary definition is written. Used to filter or retrieve definitions for a specific language locale, supporting multilingual glossary management.'),
+   example_values(),
+   synonyms('definition language',
+         'language',
+         'locale',
+         'translation language'),
+   target('glossary_definition_language__sys'),
+   target_label('Language'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

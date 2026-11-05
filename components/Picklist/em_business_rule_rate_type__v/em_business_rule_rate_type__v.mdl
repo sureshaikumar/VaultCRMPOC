@@ -1,0 +1,11 @@
+RECREATE Picklist em_business_rule_rate_type__v (
+   label('Rate Type'),
+   active(true),
+   Picklistentry(@Picklistentry/hour__v.mdl),
+   Picklistentry(@Picklistentry/day__v.mdl),
+   Picklistentry(@Picklistentry/event__v.mdl),
+   Picklistentry(@Picklistentry/daily__v.mdl),
+   Picklistentry(@Picklistentry/per_event__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

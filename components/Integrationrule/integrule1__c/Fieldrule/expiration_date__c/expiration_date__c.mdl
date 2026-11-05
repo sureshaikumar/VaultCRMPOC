@@ -1,0 +1,15 @@
+Fieldrule expiration_date__c (
+   label('Expiration Date'),
+   active(true),
+   query_object('documents'),
+   query_field('expiration_date1__c'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.expiration_date__c'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type(),
+   target_field_lookup()
+);

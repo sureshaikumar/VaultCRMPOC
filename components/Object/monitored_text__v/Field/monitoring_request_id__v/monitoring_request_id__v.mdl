@@ -1,0 +1,19 @@
+Field monitoring_request_id__v (
+   label('Monitoring Request ID'),
+   type('String'),
+   active(true),
+   description('System reference field to link Request IDs for monitoring events to monitored records that have not yet been assigned an ID.'),
+   required(false),
+   unique(true),
+   max_length(128),
+   help_content('System Use Only'),
+   list_column(false),
+   order(55),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

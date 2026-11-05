@@ -1,0 +1,5 @@
+Picklistentry light__sys (
+   value('Light'),
+   order(1),
+   active(true)
+);

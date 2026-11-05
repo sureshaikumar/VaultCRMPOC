@@ -1,0 +1,6 @@
+Picklistentry ma-aou__v (
+   value('Aousserd (EH)'),
+   order(2779),
+   active(true),
+   controlling_entries('ma__v')
+);

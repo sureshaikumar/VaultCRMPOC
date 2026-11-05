@@ -1,0 +1,6 @@
+Picklistentry coxph__v (
+   value('Compounding Pharmacy'),
+   order(322),
+   active(true),
+   controlling_entries('hu__v')
+);

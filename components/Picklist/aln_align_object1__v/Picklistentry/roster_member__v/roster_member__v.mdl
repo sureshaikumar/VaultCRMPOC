@@ -1,0 +1,5 @@
+Picklistentry roster_member__v (
+   value('Roster Member'),
+   order(4),
+   active(false)
+);

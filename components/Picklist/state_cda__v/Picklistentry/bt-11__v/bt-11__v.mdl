@@ -1,0 +1,6 @@
+Picklistentry bt-11__v (
+   value('Paro'),
+   order(510),
+   active(true),
+   controlling_entries('bt__v')
+);

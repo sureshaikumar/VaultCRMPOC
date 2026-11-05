@@ -1,0 +1,6 @@
+Picklistentry th-70__v (
+   value('Ratchaburi'),
+   order(4383),
+   active(true),
+   controlling_entries('th__v')
+);

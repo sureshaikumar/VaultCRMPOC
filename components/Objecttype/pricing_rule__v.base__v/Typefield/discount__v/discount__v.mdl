@@ -1,0 +1,4 @@
+Typefield discount__v (
+   source('standard'),
+   required(false)
+);

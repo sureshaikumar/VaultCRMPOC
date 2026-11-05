@@ -1,0 +1,4 @@
+Typefield is_ms_teams_meeting__v (
+   source('standard'),
+   required(false)
+);

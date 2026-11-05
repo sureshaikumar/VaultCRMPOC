@@ -1,0 +1,4 @@
+Typefield distributor_comment__v (
+   source('standard'),
+   required(false)
+);

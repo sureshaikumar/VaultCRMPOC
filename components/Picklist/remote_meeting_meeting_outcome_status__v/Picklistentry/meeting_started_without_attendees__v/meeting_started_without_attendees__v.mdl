@@ -1,0 +1,5 @@
+Picklistentry meeting_started_without_attendees__v (
+   value('Meeting Without Attendees'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field sample_description__v (
+   label('Sample Description'),
+   type('String'),
+   active(true),
+   description('Sample Description is the textual description of a specific Sample.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message inherited_territory_product_field_force__v (
+   label(),
+   active(true),
+   default_value('Inherited Territory Product ${product_name} from previous Field Force cannot have a future Start Date.'),
+   system_managed(false)
+);

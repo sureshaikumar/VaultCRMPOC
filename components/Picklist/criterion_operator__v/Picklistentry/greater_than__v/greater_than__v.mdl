@@ -1,0 +1,5 @@
+Picklistentry greater_than__v (
+   value('greater than'),
+   order(8),
+   active(true)
+);

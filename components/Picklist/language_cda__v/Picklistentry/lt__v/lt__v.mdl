@@ -1,0 +1,5 @@
+Picklistentry lt__v (
+   value('Lithuanian'),
+   order(36),
+   active(true)
+);

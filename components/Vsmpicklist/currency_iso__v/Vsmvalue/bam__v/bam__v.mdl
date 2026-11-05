@@ -1,0 +1,10 @@
+Vsmvalue bam__v (
+   label('BAM'),
+   active(true),
+   description('The Bosnia and Herzegovina Convertible Mark (BAM), the official currency of Bosnia and Herzegovina, pegged to the Euro.'),
+   synonyms('Bosnia-Herzegovina convertible mark',
+         'Bosnia currency',
+         'convertible mark'),
+   target('bam__sys'),
+   target_label('BAM')
+);

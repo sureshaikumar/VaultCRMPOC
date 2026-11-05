@@ -1,0 +1,7 @@
+Typefield consent_header_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.consent_header_status__v.active__v',
+         'Picklist.consent_header_status__v.inactive__v',
+         'Picklist.consent_header_status__v.staged__v')
+);

@@ -1,0 +1,22 @@
+Picklistentry cnlej__v (
+   value('Clinical Neurophysiology'),
+   order(249),
+   active(true),
+   controlling_entries('ad__v',
+         'ba__v',
+         'es__v',
+         'fi__v',
+         'fr__v',
+         'gb__v',
+         'hu__v',
+         'ie__v',
+         'is__v',
+         'kw__v',
+         'mc__v',
+         'no__v',
+         'pt__v',
+         'qa__v',
+         'se__v',
+         'tr__v',
+         'us__v')
+);

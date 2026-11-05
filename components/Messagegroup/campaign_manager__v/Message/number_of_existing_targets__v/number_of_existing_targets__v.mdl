@@ -1,0 +1,6 @@
+Message number_of_existing_targets__v (
+   label(),
+   active(true),
+   default_value('${count} existing targets'),
+   system_managed(false)
+);

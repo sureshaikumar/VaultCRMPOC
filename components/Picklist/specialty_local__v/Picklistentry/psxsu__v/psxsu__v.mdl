@@ -1,0 +1,6 @@
+Picklistentry psxsu__v (
+   value('Posterior Segment Surgery'),
+   order(1582),
+   active(true),
+   controlling_entries('hr__v')
+);

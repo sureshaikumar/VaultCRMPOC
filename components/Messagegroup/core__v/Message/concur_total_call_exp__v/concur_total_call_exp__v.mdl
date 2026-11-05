@@ -1,0 +1,6 @@
+Message concur_total_call_exp__v (
+   label(),
+   active(true),
+   default_value('Total Call Expenses'),
+   system_managed(false)
+);

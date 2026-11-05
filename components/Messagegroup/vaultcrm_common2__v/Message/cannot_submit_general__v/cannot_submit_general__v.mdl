@@ -1,0 +1,6 @@
+Message cannot_submit_general__v (
+   label(),
+   active(true),
+   default_value('The ${object_label} cannot be submitted because some information is incorrect or missing.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message custom_countries_not_supported__v (
+   label(),
+   active(true),
+   default_value('Geo Shape Generator is only supported for out-of-the-box countries. Custom countries are not supported.'),
+   system_managed(false)
+);

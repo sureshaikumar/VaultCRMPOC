@@ -1,0 +1,19 @@
+Field file_extensions__v (
+   label('File Extensions'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(1500),
+   help_content('Please provide a comma separated list of file extensions'),
+   list_column(true),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

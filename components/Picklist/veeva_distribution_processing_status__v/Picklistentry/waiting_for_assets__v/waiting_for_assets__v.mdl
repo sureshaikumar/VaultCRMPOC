@@ -1,0 +1,5 @@
+Picklistentry waiting_for_assets__v (
+   value('Waiting_for_Assets'),
+   order(7),
+   active(false)
+);

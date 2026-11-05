@@ -1,0 +1,14 @@
+Vsmfield all_doc_count__v (
+   label('All Document Count'),
+   active(true),
+   description('Total number of documents associated with this EDL item, regardless of lifecycle state or version. Use this to assess overall document volume for a given item, including documents that may not yet meet steady-state criteria.'),
+   example_values(),
+   synonyms('total documents',
+         'document count',
+         'all docs',
+         'total doc count'),
+   target('all_doc_count__v'),
+   target_label('All Document Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Picklistentry kh-6__v (
+   value('Kampong Thum [Kâmpóng Thum]'),
+   order(2431),
+   active(true),
+   controlling_entries('kh__v')
+);

@@ -1,0 +1,18 @@
+Field aln_transferred__v (
+   label('Transferred?'),
+   type('Picklist'),
+   active(true),
+   description('Populated if the record was impacted by a transfer request. Provides context to the goal value.'),
+   required(false),
+   unique(false),
+   help_content('Populated if the record was impacted by a transfer request. Provides context to the goal value.'),
+   list_column(false),
+   order(67),
+   multi_value(false),
+   picklist('Picklist.aln_transfer_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

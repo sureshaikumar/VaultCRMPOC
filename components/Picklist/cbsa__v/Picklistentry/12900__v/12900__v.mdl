@@ -1,0 +1,5 @@
+Picklistentry 12900__v (
+   value('Batesville, AR Micropolitan Statistical Area'),
+   order(850),
+   active(true)
+);

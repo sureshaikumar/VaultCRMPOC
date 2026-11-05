@@ -1,0 +1,6 @@
+Picklistentry phxca__v (
+   value('Primary Health Care'),
+   order(1595),
+   active(true),
+   controlling_entries('kw__v')
+);

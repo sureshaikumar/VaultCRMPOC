@@ -1,0 +1,6 @@
+Picklistentry otp_flagged_phrase__sys (
+   value('Flagged Phrase'),
+   order(73),
+   active(true),
+   controlling_entries('olc_monitored_text__sys')
+);

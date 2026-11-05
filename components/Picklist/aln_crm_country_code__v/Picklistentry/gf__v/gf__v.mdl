@@ -1,0 +1,5 @@
+Picklistentry gf__v (
+   value('French Guiana'),
+   order(79),
+   active(true)
+);

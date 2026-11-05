@@ -1,0 +1,6 @@
+Picklistentry ph-abr__v (
+   value('Abra'),
+   order(3533),
+   active(true),
+   controlling_entries('ph__v')
+);

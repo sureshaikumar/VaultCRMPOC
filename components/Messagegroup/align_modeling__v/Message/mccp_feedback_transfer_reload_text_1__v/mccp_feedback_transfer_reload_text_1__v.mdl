@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_reload_text_1__v (
+   label(),
+   active(true),
+   default_value('A transfer request has been accepted. To continue to provide feedback, your alignment must be reloaded.'),
+   system_managed(false)
+);

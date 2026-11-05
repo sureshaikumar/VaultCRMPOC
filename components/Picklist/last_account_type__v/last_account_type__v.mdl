@@ -1,0 +1,9 @@
+RECREATE Picklist last_account_type__v (
+   label('Last Account Type'),
+   active(true),
+   Picklistentry(@Picklistentry/all_accounts__v.mdl),
+   Picklistentry(@Picklistentry/person_accounts__v.mdl),
+   Picklistentry(@Picklistentry/business_accounts__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

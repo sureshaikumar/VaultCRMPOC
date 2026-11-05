@@ -1,0 +1,6 @@
+Picklistentry gb-lut__v (
+   value('Luton'),
+   order(1561),
+   active(true),
+   controlling_entries('gb__v')
+);

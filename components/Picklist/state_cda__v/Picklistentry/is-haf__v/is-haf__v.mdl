@@ -1,0 +1,6 @@
+Picklistentry is-haf__v (
+   value('Hafnarfjarðarkaupstaður'),
+   order(2111),
+   active(true),
+   controlling_entries('is__v')
+);

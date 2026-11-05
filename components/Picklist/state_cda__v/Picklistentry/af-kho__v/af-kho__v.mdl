@@ -1,0 +1,6 @@
+Picklistentry af-kho__v (
+   value('Khōst'),
+   order(31),
+   active(true),
+   controlling_entries('af__v')
+);

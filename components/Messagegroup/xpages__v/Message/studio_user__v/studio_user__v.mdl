@@ -1,0 +1,6 @@
+Message studio_user__v (
+   label(),
+   active(true),
+   default_value('Studio User'),
+   system_managed(false)
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist multichannel_activity_line_event_type__v (
+   label('Event Type'),
+   active(true),
+   Picklistentry(@Picklistentry/slide_view__v.mdl),
+   Picklistentry(@Picklistentry/chat__v.mdl),
+   Picklistentry(@Picklistentry/clickstream__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

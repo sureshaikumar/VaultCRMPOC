@@ -1,0 +1,9 @@
+RECREATE Picklist multichannel_route_event__v (
+   label('Event'),
+   active(true),
+   Picklistentry(@Picklistentry/opt_in_confirmation__v.mdl),
+   Picklistentry(@Picklistentry/opt_out_confirmation__v.mdl),
+   Picklistentry(@Picklistentry/conversation_ended__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

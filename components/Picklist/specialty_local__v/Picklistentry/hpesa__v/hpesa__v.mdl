@@ -1,0 +1,8 @@
+Picklistentry hpesa__v (
+   value('Health Psychology'),
+   order(671),
+   active(true),
+   controlling_entries('au__v',
+         'ch__v',
+         'li__v')
+);

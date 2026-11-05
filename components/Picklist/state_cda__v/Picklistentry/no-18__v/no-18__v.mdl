@@ -1,0 +1,6 @@
+Picklistentry no-18__v (
+   value('Nordland'),
+   order(3395),
+   active(true),
+   controlling_entries('no__v')
+);

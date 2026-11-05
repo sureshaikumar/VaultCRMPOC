@@ -1,0 +1,6 @@
+Message am_smpl_limit_quantities_upd_with_id__v (
+   label(),
+   active(true),
+   default_value('Sample Limit record {0} will be updated with new Disbursed Quantity and Remaining Quantity values, updated from the losing account.'),
+   system_managed(false)
+);

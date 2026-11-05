@@ -1,0 +1,5 @@
+Picklistentry poor__c (
+   value('Poor'),
+   order(4),
+   active(true)
+);

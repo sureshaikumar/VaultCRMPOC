@@ -1,0 +1,6 @@
+Picklistentry dveer__v (
+   value('Dermato-Venereology'),
+   order(388),
+   active(true),
+   controlling_entries('ge__v')
+);

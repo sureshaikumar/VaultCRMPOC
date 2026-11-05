@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sandbox_snapshot_complete_success__sys (
+   label('Snapshot Create Success'),
+   active(true),
+   description('Notification template notifying user that the sandbox snapshot has been successfully created and is now available'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Snapshot Build Completed.'),
+   notification('<p>Your sandbox Snapshot: ${snapshotName} build is complete.</p><p>You can access your snapshot <a href=${snapshotLandingLink}><b>here.</b></a></p>'),
+   email_body('<p>Your sandbox Snapshot: ${snapshotName} build is complete.</p><p>You can access your snapshot <a href=${snapshotLandingLink}><b>here.</b></a></p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

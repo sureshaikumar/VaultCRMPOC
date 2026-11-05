@@ -1,0 +1,5 @@
+Picklistentry america_halifax__v (
+   value('America/Halifax'),
+   order(17),
+   active(true)
+);

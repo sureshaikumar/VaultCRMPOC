@@ -1,0 +1,15 @@
+Picklistentry tmreo__v (
+   value('Tropical Medicine'),
+   order(1875),
+   active(true),
+   controlling_entries('ae__v',
+         'bh__v',
+         'eg__v',
+         'gb__v',
+         'ie__v',
+         'om__v',
+         'pt__v',
+         'qa__v',
+         'sk__v',
+         'vn__v')
+);

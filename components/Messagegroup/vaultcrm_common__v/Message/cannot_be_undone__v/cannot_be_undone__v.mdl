@@ -1,0 +1,6 @@
+Message cannot_be_undone__v (
+   label(),
+   active(true),
+   default_value('This cannot be undone.'),
+   system_managed(false)
+);

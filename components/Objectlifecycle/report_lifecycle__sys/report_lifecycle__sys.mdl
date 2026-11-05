@@ -1,0 +1,23 @@
+RECREATE Objectlifecycle report_lifecycle__sys (
+   label('Report Lifecycle'),
+   state_labels(),
+   labeled_states(),
+   active(true),
+   starting_state('Objectlifecyclestate.active_state__sys'),
+   description(),
+   Objectlifecyclestate(@Objectlifecyclestate/active_state__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/flash_report_state__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/inactive_state__sys.mdl),
+   Objectlifecyclestateuseraction(@Objectlifecyclestateuseraction/active_state__sys.schedule_flash_report_useraction__sys.mdl),
+   Objectlifecyclestateuseraction(@Objectlifecyclestateuseraction/flash_report_state__sys.schedule_flash_report_useraction__sys.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/editor__sys.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/owner__sys.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/viewer__sys.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_read__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_edit__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_delete__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_read__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_edit__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_delete__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/viewer_read__v.mdl)
+);

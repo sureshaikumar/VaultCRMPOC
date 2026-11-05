@@ -1,0 +1,5 @@
+Picklistentry 48180__v (
+   value('Waycross, GA Micropolitan Statistical Area'),
+   order(384),
+   active(true)
+);

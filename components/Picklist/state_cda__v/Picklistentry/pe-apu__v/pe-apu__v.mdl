@@ -1,0 +1,6 @@
+Picklistentry pe-apu__v (
+   value('Apurímac'),
+   order(3470),
+   active(true),
+   controlling_entries('pe__v')
+);

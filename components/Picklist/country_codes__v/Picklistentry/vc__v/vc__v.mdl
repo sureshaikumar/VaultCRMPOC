@@ -1,0 +1,5 @@
+Picklistentry vc__v (
+   value('VC'),
+   order(237),
+   active(true)
+);

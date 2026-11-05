@@ -1,0 +1,4 @@
+Typefield concur_report_name__v (
+   source('custom'),
+   required(false)
+);

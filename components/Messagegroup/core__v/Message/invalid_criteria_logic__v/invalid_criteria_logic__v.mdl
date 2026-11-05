@@ -1,0 +1,6 @@
+Message invalid_criteria_logic__v (
+   label(),
+   active(true),
+   default_value('Invalid criteria logic.'),
+   system_managed(false)
+);

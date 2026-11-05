@@ -1,0 +1,8 @@
+RECREATE Objectaction checklist_design__sys.view_visual_designer__sys (
+   label('Visual Designer'),
+   description('Launches visual designer if checklist design record is in the draft state'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.checklist.ViewVisualDesignerAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry uy-pa__v (
+   value('Paysandú'),
+   order(4858),
+   active(true),
+   controlling_entries('uy__v')
+);

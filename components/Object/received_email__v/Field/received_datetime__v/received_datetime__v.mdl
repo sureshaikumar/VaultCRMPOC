@@ -1,0 +1,17 @@
+Field received_datetime__v (
+   label('Received DateTime'),
+   type('DateTime'),
+   active(true),
+   description('The precise time an inbound email was received.'),
+   required(true),
+   help_content('The precise time an inbound email was received.'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

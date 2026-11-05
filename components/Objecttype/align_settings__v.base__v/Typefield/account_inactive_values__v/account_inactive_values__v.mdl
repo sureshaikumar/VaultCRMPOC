@@ -1,0 +1,4 @@
+Typefield account_inactive_values__v (
+   source('standard'),
+   required(false)
+);

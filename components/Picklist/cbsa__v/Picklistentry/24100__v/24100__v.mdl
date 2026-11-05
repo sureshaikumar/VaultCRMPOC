@@ -1,0 +1,5 @@
+Picklistentry 24100__v (
+   value('Gloversville, NY Micropolitan Statistical Area'),
+   order(411),
+   active(true)
+);

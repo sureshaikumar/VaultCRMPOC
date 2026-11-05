@@ -1,0 +1,7 @@
+Typefield timing_measure__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_rule_timing_measure__v.days__v',
+         'Picklist.em_event_rule_timing_measure__v.hours__v'),
+   default_value('Picklist.em_event_rule_timing_measure__v.hours__v')
+);

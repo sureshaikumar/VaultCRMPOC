@@ -1,0 +1,6 @@
+Message ctav_error_copy_fail__v (
+   label(),
+   active(true),
+   default_value('Copying of media file failed: ${media_file}'),
+   system_managed(false)
+);

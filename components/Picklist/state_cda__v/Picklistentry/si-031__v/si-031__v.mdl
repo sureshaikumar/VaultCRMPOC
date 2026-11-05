@@ -1,0 +1,6 @@
+Picklistentry si-031__v (
+   value('Gornji Petrovci'),
+   order(4005),
+   active(true),
+   controlling_entries('si__v')
+);

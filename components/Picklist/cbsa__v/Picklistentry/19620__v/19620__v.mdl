@@ -1,0 +1,5 @@
+Picklistentry 19620__v (
+   value('Del Rio, TX Micropolitan Statistical Area'),
+   order(325),
+   active(true)
+);

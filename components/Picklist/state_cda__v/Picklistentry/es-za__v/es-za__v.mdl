@@ -1,0 +1,6 @@
+Picklistentry es-za__v (
+   value('Zamora'),
+   order(1259),
+   active(true),
+   controlling_entries('es__v')
+);

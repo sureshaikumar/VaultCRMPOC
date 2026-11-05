@@ -1,0 +1,6 @@
+Picklistentry mk-816__v (
+   value('Čučer-Sandevo'),
+   order(3042),
+   active(true),
+   controlling_entries('mk__v')
+);

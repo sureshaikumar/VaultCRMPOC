@@ -1,0 +1,5 @@
+Picklistentry sus__v (
+   value('Susu'),
+   order(303),
+   active(false)
+);

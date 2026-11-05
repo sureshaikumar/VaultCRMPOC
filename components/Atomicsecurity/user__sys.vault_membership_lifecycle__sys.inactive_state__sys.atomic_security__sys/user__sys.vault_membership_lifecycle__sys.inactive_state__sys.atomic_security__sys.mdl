@@ -1,0 +1,7 @@
+RECREATE Atomicsecurity user__sys.vault_membership_lifecycle__sys.inactive_state__sys.atomic_security__sys (
+   label('User-Vault Membership-Inactive'),
+   active(true),
+   object('Object.user__sys'),
+   object_lifecycle('Objectlifecycle.vault_membership_lifecycle__sys'),
+   state('Objectlifecyclestate.inactive_state__sys')
+);

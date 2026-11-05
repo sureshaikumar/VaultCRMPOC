@@ -1,0 +1,10 @@
+Objectlifecyclestate published__v (
+   label('Published'),
+   active(true),
+   record_inactive(),
+   record_status('inactive__v'),
+   description('Entered after Align Admins publish the project to production. Records cannot be edited.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

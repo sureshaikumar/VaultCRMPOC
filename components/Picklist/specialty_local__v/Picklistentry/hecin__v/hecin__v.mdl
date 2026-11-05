@@ -1,0 +1,7 @@
+Picklistentry hecin__v (
+   value('Histology, Embryology, Cytogenetics'),
+   order(710),
+   active(true),
+   controlling_entries('cm__v',
+         'ma__v')
+);

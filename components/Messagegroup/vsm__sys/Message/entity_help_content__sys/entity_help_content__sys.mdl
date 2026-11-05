@@ -1,0 +1,6 @@
+Message entity_help_content__sys (
+   label(),
+   active(true),
+   default_value('Use this page to manage Entity configurations.'),
+   system_managed(true)
+);

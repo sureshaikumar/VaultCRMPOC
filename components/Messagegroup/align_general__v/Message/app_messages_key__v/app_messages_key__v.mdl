@@ -1,0 +1,6 @@
+Message app_messages_key__v (
+   label(),
+   active(true),
+   default_value('Message Key'),
+   system_managed(false)
+);

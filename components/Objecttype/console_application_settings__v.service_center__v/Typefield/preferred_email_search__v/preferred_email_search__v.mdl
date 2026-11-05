@@ -1,0 +1,5 @@
+Typefield preferred_email_search__v (
+   source('standard'),
+   required(false),
+   default_value('"account__v.email_cda__v"')
+);

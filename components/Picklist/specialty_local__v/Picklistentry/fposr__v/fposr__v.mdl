@@ -1,0 +1,6 @@
+Picklistentry fposr__v (
+   value('Forensic Psychology'),
+   order(569),
+   active(true),
+   controlling_entries('au__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gr-b__v (
+   value('Kentrikí Makedonía'),
+   order(1768),
+   active(true),
+   controlling_entries('gr__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist aln_intermediaries__v (
+   label('Intermediaries'),
+   active(true),
+   Picklistentry(@Picklistentry/do_not_assign__v.mdl),
+   Picklistentry(@Picklistentry/assign__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

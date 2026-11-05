@@ -1,0 +1,5 @@
+Picklistentry asia_irkutsk__sys (
+   value('(GMT+08:00) Irkutsk Time (Asia/Irkutsk)'),
+   order(262),
+   active(true)
+);

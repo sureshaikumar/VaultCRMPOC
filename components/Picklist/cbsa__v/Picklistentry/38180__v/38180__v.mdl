@@ -1,0 +1,5 @@
+Picklistentry 38180__v (
+   value('Pierre, SD Micropolitan Statistical Area'),
+   order(671),
+   active(true)
+);

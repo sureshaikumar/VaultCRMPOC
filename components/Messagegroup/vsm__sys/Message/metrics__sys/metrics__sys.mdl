@@ -1,0 +1,6 @@
+Message metrics__sys (
+   label(),
+   active(true),
+   default_value('Metrics'),
+   system_managed(true)
+);

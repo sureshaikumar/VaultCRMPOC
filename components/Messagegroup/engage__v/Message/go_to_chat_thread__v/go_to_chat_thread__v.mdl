@@ -1,0 +1,6 @@
+Message go_to_chat_thread__v (
+   label(),
+   active(true),
+   default_value('Go to Chat Thread'),
+   system_managed(false)
+);

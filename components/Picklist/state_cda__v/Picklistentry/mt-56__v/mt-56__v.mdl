@@ -1,0 +1,6 @@
+Picklistentry mt-56__v (
+   value('Sliema'),
+   order(3162),
+   active(true),
+   controlling_entries('mt__v')
+);

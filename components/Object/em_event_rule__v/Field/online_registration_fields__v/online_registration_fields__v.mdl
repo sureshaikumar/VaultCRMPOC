@@ -1,0 +1,17 @@
+Field online_registration_fields__v (
+   label('Online Registration Fields'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(5000),
+   help_content('Used to store fields that are required by online registrants. This value is automatically copied down to all event records that use this event configuration. If using the Veeva API to create attendees from an online portal, the API will validate that thes'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

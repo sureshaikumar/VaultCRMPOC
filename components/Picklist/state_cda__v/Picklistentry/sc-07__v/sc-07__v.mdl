@@ -1,0 +1,6 @@
+Picklistentry sc-07__v (
+   value('Baie Sainte Anne'),
+   order(3907),
+   active(true),
+   controlling_entries('sc__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-tv__v (
+   value('Treviso'),
+   order(2271),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry so-aw__v (
+   value('Awdal'),
+   order(4223),
+   active(true),
+   controlling_entries('so__v')
+);

@@ -1,0 +1,14 @@
+Typefield tumor_types__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.assessment_tumor_types__c.bone__c',
+         'Picklist.assessment_tumor_types__c.breast__c',
+         'Picklist.assessment_tumor_types__c.colon__c',
+         'Picklist.assessment_tumor_types__c.kidney__c',
+         'Picklist.assessment_tumor_types__c.liver__c',
+         'Picklist.assessment_tumor_types__c.lung__c',
+         'Picklist.assessment_tumor_types__c.ovary_uterus_cervix__c',
+         'Picklist.assessment_tumor_types__c.pancreas__c',
+         'Picklist.assessment_tumor_types__c.prostate__c',
+         'Picklist.assessment_tumor_types__c.stomach__c')
+);

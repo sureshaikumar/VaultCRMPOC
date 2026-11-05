@@ -1,0 +1,11 @@
+Vsmfield doc_version_count__v (
+   label('Doc Version Count'),
+   active(true),
+   description('Total number of document versions'),
+   example_values(),
+   synonyms(),
+   target('doc_version_count__v'),
+   target_label('Doc Version Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

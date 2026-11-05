@@ -1,0 +1,23 @@
+Field analytic_account_cap__v (
+   label('ANALYTIC_ACCOUNT_CAP'),
+   type('Number'),
+   active(true),
+   description('The threshold value for the number of accounts for which VInsights Sales Data is synchronized to the VMobile Tablet application.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(21),
+   default_value('50000'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

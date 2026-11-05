@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate formattedoutputerror__v (
+   label('formattedOutputError'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Formatted Output Job Encountered Errors'),
+   notification('<p>Your Formatted Output Job has encountered an error</p>
+<p>Details:
+<ul>
+<li>Output Template: ${vaultFormattedOutputTemplateName}</li>
+<li>Source Record: ${vaultFormattedOutputSourceRecord}</li>
+<li>Settings: ${vaultFormattedOutputIncludeAttachments}, ${vaultFormattedOutputAttachToRecord}</li>
+<li>Error Messages: ${vaultFormattedOutputErrorList}</li>
+</ul>
+</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

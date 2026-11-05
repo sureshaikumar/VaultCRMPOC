@@ -1,0 +1,4 @@
+Typefield allow_confirmation_by_email__v (
+   source('standard'),
+   required(false)
+);

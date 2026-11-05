@@ -1,0 +1,17 @@
+RECREATE Notificationtemplate export_hierarchy_complete__v (
+   label('Export Hierarchy Complete'),
+   active(true),
+   description('Message template for use with the successful completion of the hierarchy export.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Export of ${hierarchyRootName} completed export and is available for download.'),
+   notification('<p>Export of ${hierarchyRootName} completed export and is available for download. Click on the link below to download the export file.</p>
+<p>${hierarchyExportLink}</p>
+<p>This link will expire on ${hierarchyExportExpirationDate}.</p>'),
+   email_body('<p>Export of ${hierarchyRootName} completed export and is available for download. Click on the link below to download the export file.</p>
+<p>${hierarchyExportLink}</p>
+<p>This link will expire on ${hierarchyExportExpirationDate}.</p>
+<p>You can see all your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,20 @@
+Field number_dialed__v (
+   label('Phone Number'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('Phone number dialed for the target attempt.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Phone number dialed for the target attempt.'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

@@ -1,0 +1,12 @@
+RECREATE Tab collaboration_space_configuration__v (
+   active(true),
+   all_view_label('All Collaboration Space Configurations'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Collaboration Space Configurations'),
+   my_view_label('My Collaboration Space Configurations'),
+   object('collaboration_space_configuration__v'),
+   order(3600),
+   parent(),
+   recent_view_label('Recent Collaboration Space Configurations')
+);

@@ -1,0 +1,6 @@
+Message not_enough_owners__v (
+   label(),
+   active(true),
+   default_value('The Owner Group needs at least two users to proceed. Please add them and try again.'),
+   system_managed(false)
+);

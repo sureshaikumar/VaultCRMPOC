@@ -1,0 +1,5 @@
+Index application_role__sys (
+   description(),
+   fields('application_role__sys'),
+   label('Application Role')
+);

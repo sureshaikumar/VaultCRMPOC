@@ -1,0 +1,6 @@
+Message messaging_via_whatsapp__v (
+   label(),
+   active(true),
+   default_value('Messaging via WhatsApp'),
+   system_managed(false)
+);

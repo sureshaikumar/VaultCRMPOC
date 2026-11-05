@@ -1,0 +1,6 @@
+Message portal_changes__v (
+   label(),
+   active(true),
+   default_value('Portal Changes'),
+   system_managed(false)
+);

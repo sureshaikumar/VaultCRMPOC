@@ -1,0 +1,20 @@
+Field mccp_popup_fields__v (
+   label('MCCP Fields in MySchedule Pop-Up'),
+   type('String'),
+   active(true),
+   description('List of API field names from MC_Cycle_Plan_Product_vod to be displayed in the product grid in MCCP pop-up of MySchedule'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(27),
+   default_value('";Product_Attainment_vod__c;Product_Activity_Goal_vod__c;Product_Actual_Activity_vod__c;Product_Activity_Remaining_vod__c;"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

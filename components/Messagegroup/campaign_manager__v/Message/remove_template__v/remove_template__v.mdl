@@ -1,0 +1,6 @@
+Message remove_template__v (
+   label(),
+   active(true),
+   default_value('Remove Template'),
+   system_managed(false)
+);

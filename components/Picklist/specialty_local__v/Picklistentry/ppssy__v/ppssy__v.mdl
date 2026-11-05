@@ -1,0 +1,6 @@
+Picklistentry ppssy__v (
+   value('Psychiatry Psychotherapy'),
+   order(1624),
+   active(true),
+   controlling_entries('id__v')
+);

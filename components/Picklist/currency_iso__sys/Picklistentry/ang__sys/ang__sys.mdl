@@ -1,0 +1,5 @@
+Picklistentry ang__sys (
+   value('ANG'),
+   order(6),
+   active(true)
+);

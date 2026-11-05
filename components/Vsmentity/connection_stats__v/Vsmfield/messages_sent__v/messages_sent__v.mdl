@@ -1,0 +1,14 @@
+Vsmfield messages_sent__v (
+   label('Messages Sent'),
+   active(true),
+   description('Total number of messages successfully sent through this connection. Represents outbound message volume and is useful for tracking integration output and comparing against failed or received counts.'),
+   example_values(),
+   synonyms('sent messages',
+         'outbound messages',
+         'outgoing count',
+         'sent count'),
+   target('messages_sent__sys'),
+   target_label('Messages Sent'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

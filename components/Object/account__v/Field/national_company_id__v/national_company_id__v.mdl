@@ -1,0 +1,19 @@
+Field national_company_id__v (
+   label('National Company ID'),
+   type('String'),
+   active(true),
+   description('National, industry agnostic identifier. Applies to HCOs. (i.e. VAT, Tax ID, Stamp ID, SIRET)'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(63),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

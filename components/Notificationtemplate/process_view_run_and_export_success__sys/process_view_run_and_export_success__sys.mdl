@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate process_view_run_and_export_success__sys (
+   label('Process View Run + Export Success'),
+   active(true),
+   description('Notification template notifying user process view execution and file export has completed successfully.'),
+   email_preferences('never__sys'),
+   referenced_component(),
+   subject('Your Process Monitor Run and file export has completed for ${processLabel}'),
+   notification('<p>Your Process Monitor Run and file export has completed for ${processLabel}. Click the link below to see your results and start your export.<br /><a href="${processViewResultUrl}">${processViewLinkSummary}</a></p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

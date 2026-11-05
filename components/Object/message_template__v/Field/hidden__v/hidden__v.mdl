@@ -1,0 +1,17 @@
+Field hidden__v (
+   label('Hidden?'),
+   type('Boolean'),
+   active(true),
+   description('Flag to indicate if the template should be hidden from the chat UI for manual selection.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

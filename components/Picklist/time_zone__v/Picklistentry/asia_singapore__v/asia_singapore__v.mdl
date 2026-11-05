@@ -1,0 +1,5 @@
+Picklistentry asia_singapore__v (
+   value('Singapore Time'),
+   order(20),
+   active(true)
+);

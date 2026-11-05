@@ -1,0 +1,5 @@
+Picklistentry asia_jayapura__sys (
+   value('(GMT+09:00) Eastern Indonesia Time (Asia/Jayapura)'),
+   order(269),
+   active(true)
+);

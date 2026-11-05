@@ -1,0 +1,6 @@
+Picklistentry bavan__v (
+   value('Bacteriology and Virology'),
+   order(110),
+   active(true),
+   controlling_entries('is__v')
+);

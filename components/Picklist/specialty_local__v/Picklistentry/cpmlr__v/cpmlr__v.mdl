@@ -1,0 +1,6 @@
+Picklistentry cpmlr__v (
+   value('Clinical Preventive Medicine'),
+   order(289),
+   active(true),
+   controlling_entries('th__v')
+);

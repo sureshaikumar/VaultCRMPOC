@@ -1,0 +1,6 @@
+Picklistentry sb-mk__v (
+   value('Makira'),
+   order(3896),
+   active(true),
+   controlling_entries('sb__v')
+);

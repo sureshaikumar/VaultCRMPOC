@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.check_in_activity__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="activity_comment__v" />
+            <vault:field reference="adherence__v" />
+            <vault:field reference="adherence_check_in_enrollment_date__v" />
+            <vault:field reference="adherence_check_in_stop_date__v" />
+            <vault:field reference="check_in_date__v" />
+            <vault:field reference="check_in_detail__v" />
+            <vault:field reference="check_in_status__v" />
+            <vault:field reference="connected__v" />
+            <vault:field reference="connected_with__v" />
+            <vault:field reference="connection_failed_reason__v" />
+            <vault:field reference="next_check_in_date__v" />
+            <vault:field reference="number_dialed__v" />
+            <vault:field reference="override_cadence_timeframe__v" />
+            <vault:field reference="override_number_of_cadence_timeframes__v" />
+            <vault:field reference="primary_activity__v" />
+            <vault:field reference="responsible_for_check_ins__v" />
+            <vault:field reference="talk_time__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

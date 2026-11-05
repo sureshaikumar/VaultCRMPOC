@@ -1,0 +1,19 @@
+Field user_agent__v (
+   label('User Agent'),
+   type('String'),
+   active(true),
+   description('String provided in the HTTP header which identifies the application type, operating system, software vendor, and software revision.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

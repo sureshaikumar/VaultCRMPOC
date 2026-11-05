@@ -1,0 +1,3 @@
+Typeaction preview_link_target_action__sys (
+   action('link_target__sys.preview_link_target_action__sys')
+);

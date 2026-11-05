@@ -1,0 +1,6 @@
+Queryobjectrule study_country__v (
+   label('Study Country'),
+   active(true),
+   filter_clause([modified_date__v >= '{{STARTDATETIME}}' AND modified_date__v < '{{ENDDATETIME}}']),
+   query_object('study_country__v')
+);

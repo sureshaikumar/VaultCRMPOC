@@ -1,0 +1,6 @@
+Picklistentry nsuut__v (
+   value('Nutritional Support'),
+   order(1068),
+   active(true),
+   controlling_entries('cz__v')
+);

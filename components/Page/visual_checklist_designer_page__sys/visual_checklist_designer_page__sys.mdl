@@ -1,0 +1,14 @@
+RECREATE Page visual_checklist_designer_page__sys (
+   label('Visual Checklist Designer Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('visual_checklist_designer_page__sys'),
+   description(),
+   disable_chrome(false),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.VisualChecklistDesignerPage'),
+   url_path_name('visualchecklistdesigner')
+);

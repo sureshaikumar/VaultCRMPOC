@@ -1,0 +1,6 @@
+Picklistentry dty_email_fragment__sys (
+   value('Email Fragment'),
+   order(53),
+   active(true),
+   controlling_entries('dlc_crm_content__sys')
+);

@@ -1,0 +1,6 @@
+Message business_relevance_guideline__v (
+   label(),
+   active(true),
+   default_value('Include how this might impact the business'),
+   system_managed(false)
+);

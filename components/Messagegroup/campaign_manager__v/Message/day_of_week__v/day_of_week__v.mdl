@@ -1,0 +1,6 @@
+Message day_of_week__v (
+   label(),
+   active(true),
+   default_value('Day of Week'),
+   system_managed(false)
+);

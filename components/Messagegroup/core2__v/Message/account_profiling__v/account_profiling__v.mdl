@@ -1,0 +1,6 @@
+Message account_profiling__v (
+   label(),
+   active(true),
+   default_value('Account Profiling'),
+   system_managed(false)
+);

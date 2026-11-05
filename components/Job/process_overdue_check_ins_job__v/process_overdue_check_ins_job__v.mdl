@@ -1,0 +1,22 @@
+RECREATE Job process_overdue_check_ins_job__v (
+   active(false),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('Patient CRM Process Overdue Check-Ins'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/process_overdue_check_ins_job__v.mdl),
+   time('6:00'),
+   timezone('GMT'),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

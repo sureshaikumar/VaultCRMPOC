@@ -1,0 +1,5 @@
+Picklistentry verteo_biotech_inc__v (
+   value('Verteo Biotech, Inc.'),
+   order(44),
+   active(true)
+);

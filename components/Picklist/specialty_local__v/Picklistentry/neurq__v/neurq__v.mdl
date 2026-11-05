@@ -1,0 +1,18 @@
+Picklistentry neurq__v (
+   value('Neuroradiology'),
+   order(1039),
+   active(true),
+   controlling_entries('ca__v',
+         'de__v',
+         'ge__v',
+         'hr__v',
+         'hu__v',
+         'in__v',
+         'is__v',
+         'mk__v',
+         'pt__v',
+         'rs__v',
+         'se__v',
+         'th__v',
+         'us__v')
+);

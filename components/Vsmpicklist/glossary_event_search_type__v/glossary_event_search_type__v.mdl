@@ -1,0 +1,14 @@
+RECREATE Vsmpicklist glossary_event_search_type__v (
+   label('Glossary Event Search Type'),
+   active(true),
+   description('Defines the type or method of search used when looking up glossary events, allowing users to categorize whether glossary-related event searches resulted in definitions from Vault or from an external source.'),
+   synonyms('glossary search type',
+      'event search category',
+      'search method',
+      'glossary lookup type',
+      'event query type'),
+   target('Picklist.glossary_event_search_type__sys'),
+   target_label('Glossary Event Search Type'),
+   Vsmvalue(@Vsmvalue/external_search__v.mdl),
+   Vsmvalue(@Vsmvalue/glossary_lookup__v.mdl)
+);

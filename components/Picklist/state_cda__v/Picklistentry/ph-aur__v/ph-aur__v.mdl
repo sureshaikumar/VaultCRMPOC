@@ -1,0 +1,6 @@
+Picklistentry ph-aur__v (
+   value('Aurora'),
+   order(3540),
+   active(true),
+   controlling_entries('ph__v')
+);

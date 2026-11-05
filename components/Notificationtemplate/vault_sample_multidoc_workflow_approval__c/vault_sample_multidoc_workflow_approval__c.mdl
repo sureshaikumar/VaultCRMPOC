@@ -1,0 +1,16 @@
+RECREATE Notificationtemplate vault_sample_multidoc_workflow_approval__c (
+   label('Multi-document Workflow Approval'),
+   active(true),
+   description('Notify participants that all documents in Multi-document workflow has been approved.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('${Object.name__v}: All documents have been approved.'),
+   notification('Multi-document Workflow for ${Object.name__v}.
+
+All documents have been approved.
+
+${multiDocDocumentsList}'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

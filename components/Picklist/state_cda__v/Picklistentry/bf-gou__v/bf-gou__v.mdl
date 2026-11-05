@@ -1,0 +1,6 @@
+Picklistentry bf-gou__v (
+   value('Gourma'),
+   order(338),
+   active(true),
+   controlling_entries('bf__v')
+);

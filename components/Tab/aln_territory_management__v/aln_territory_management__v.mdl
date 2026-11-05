@@ -1,0 +1,13 @@
+RECREATE Tab aln_territory_management__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Territory Management'),
+   order(6700),
+   parent(),
+   Subtab(@Subtab/aln_territories__v.mdl),
+   Subtab(@Subtab/aln_field_forces__v.mdl),
+   Subtab(@Subtab/aln_geographies__v.mdl),
+   Subtab(@Subtab/aln_footprints__v.mdl),
+   Subtab(@Subtab/aln_rules__v.mdl)
+);

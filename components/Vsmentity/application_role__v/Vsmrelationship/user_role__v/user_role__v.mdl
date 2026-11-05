@@ -1,0 +1,14 @@
+Vsmrelationship user_role__v (
+   label('User Role'),
+   active(true),
+   cardinality('MANY_TO_MANY'),
+   description('The user role records that reference this application role, linking specific users or groups to this role. Use this to find all user assignments tied to a particular application role.'),
+   join_object('user_role__sys'),
+   synonyms('user roles',
+         'assigned users',
+         'role assignments',
+         'users with this role'),
+   target('user_role__sysr'),
+   target_label('User Role'),
+   target_object('user__sys')
+);

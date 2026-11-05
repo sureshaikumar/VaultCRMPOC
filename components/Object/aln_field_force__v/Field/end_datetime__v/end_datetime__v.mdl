@@ -1,0 +1,17 @@
+Field end_datetime__v (
+   label('End Date/Time'),
+   type('DateTime'),
+   active(true),
+   description('The DateTime in which this field force is no longer recognizable by Veeva applications. This field is populated automatically based on the end date.'),
+   required(false),
+   help_content('The DateTime in which this field force is no longer recognizable by Veeva applications. This field is populated automatically based on the end date.'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

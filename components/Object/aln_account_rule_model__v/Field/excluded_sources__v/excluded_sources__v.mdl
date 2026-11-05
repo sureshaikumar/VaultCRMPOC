@@ -1,0 +1,18 @@
+Field excluded_sources__v (
+   label('Excluded Sources'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Hierarchy rules will not run based on assignments with these sources.'),
+   list_column(false),
+   order(16),
+   multi_value(true),
+   picklist('Picklist.aln_hierarchy_excluded_source__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

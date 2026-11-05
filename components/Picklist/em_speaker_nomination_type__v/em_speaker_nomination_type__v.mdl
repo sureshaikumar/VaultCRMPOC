@@ -1,0 +1,9 @@
+RECREATE Picklist em_speaker_nomination_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/new_speaker__v.mdl),
+   Picklistentry(@Picklistentry/renominate__v.mdl),
+   Picklistentry(@Picklistentry/new_product__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

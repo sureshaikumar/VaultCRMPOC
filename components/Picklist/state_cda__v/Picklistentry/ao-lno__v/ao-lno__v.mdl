@@ -1,0 +1,6 @@
+Picklistentry ao-lno__v (
+   value('Lunda Norte'),
+   order(89),
+   active(true),
+   controlling_entries('ao__v')
+);

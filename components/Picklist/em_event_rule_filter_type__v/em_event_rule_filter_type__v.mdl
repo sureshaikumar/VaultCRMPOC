@@ -1,0 +1,9 @@
+RECREATE Picklist em_event_rule_filter_type__v (
+   label('Filter Type'),
+   active(true),
+   Picklistentry(@Picklistentry/mandatory__v.mdl),
+   Picklistentry(@Picklistentry/optional_on__v.mdl),
+   Picklistentry(@Picklistentry/optional_off__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

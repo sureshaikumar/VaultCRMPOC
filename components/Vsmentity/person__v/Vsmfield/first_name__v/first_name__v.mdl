@@ -1,0 +1,12 @@
+Vsmfield first_name__v (
+   label('First Name'),
+   active(true),
+   description('The person''s first (given) name. Used in combination with last_name__sys to identify individuals and display their full name.'),
+   example_values(),
+   synonyms('given name',
+         'forename'),
+   target('first_name__sys'),
+   target_label('First Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

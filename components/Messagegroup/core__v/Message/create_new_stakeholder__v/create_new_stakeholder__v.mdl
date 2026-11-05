@@ -1,0 +1,6 @@
+Message create_new_stakeholder__v (
+   label(),
+   active(true),
+   default_value('Create New Stakeholder'),
+   system_managed(false)
+);

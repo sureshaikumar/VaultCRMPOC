@@ -1,0 +1,6 @@
+Message approval_rule_percentage_goal_edit__v (
+   label(),
+   active(true),
+   default_value('Percentage Goal Edit'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ctdoo__v (
+   value('Computed Tomographic Diagnostics'),
+   order(325),
+   active(true),
+   controlling_entries('ge__v')
+);

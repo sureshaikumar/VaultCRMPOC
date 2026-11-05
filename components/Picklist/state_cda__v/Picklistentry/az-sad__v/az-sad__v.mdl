@@ -1,0 +1,6 @@
+Picklistentry az-sad__v (
+   value('Sədərək'),
+   order(188),
+   active(true),
+   controlling_entries('az__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 21220__v (
+   value('Elko, NV Micropolitan Statistical Area'),
+   order(729),
+   active(true)
+);

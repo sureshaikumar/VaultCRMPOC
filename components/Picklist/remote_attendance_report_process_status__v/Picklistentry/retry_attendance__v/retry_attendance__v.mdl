@@ -1,0 +1,5 @@
+Picklistentry retry_attendance__v (
+   value('Retry Attendance'),
+   order(6),
+   active(true)
+);

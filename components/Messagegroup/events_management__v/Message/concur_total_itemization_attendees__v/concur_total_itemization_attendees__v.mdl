@@ -1,0 +1,6 @@
+Message concur_total_itemization_attendees__v (
+   label(),
+   active(true),
+   default_value('Total Itemization Attendees'),
+   system_managed(false)
+);

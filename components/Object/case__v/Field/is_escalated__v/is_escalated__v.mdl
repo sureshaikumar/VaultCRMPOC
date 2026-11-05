@@ -1,0 +1,18 @@
+Field is_escalated__v (
+   label('Escalated'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if the case was ever placed into the Escalated state.  Once a case is Escalated, this value is permanently set to true.  The value should never be changed by a user.'),
+   list_column(true),
+   order(21),
+   default_value('FALSE'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

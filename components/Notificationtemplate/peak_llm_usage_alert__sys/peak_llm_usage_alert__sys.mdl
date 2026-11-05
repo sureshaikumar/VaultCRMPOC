@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate peak_llm_usage_alert__sys (
+   label('LLM Peak Usage Alert'),
+   active(true),
+   description('Usage alert on high daily usage'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Token usage alert'),
+   notification('<span>Usage from ${dailyAggregationDate} ${dailyAggregationTime} ${timeZone} to ${date} ${time} ${timeZone}:</span><br><br><span>${tokenUsage} million tokens</span><br><br><span><b>Usage is high given your 30-day alert limit set at ${alertLimit} million tokens.</b></span>'),
+   email_body('<span style="${paddingStyle}">Vault name: ${vaultName}</span><br><br><span style="${paddingStyle}">Usage from ${dailyAggregationDate} ${dailyAggregationTime} ${timeZone} to ${date} ${time} ${timeZone}:</span><br><br><span style="${paddingStyle}">${tokenUsage} million tokens</span><br><br><span style="${paddingStyle}"><b>Usage is high given your 30-day alert limit set at ${alertLimit} million tokens.</b></span>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

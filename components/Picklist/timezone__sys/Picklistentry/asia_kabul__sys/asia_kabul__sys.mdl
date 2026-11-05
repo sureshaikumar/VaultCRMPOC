@@ -1,0 +1,5 @@
+Picklistentry asia_kabul__sys (
+   value('(GMT+04:30) Afghanistan Time (Asia/Kabul)'),
+   order(217),
+   active(true)
+);

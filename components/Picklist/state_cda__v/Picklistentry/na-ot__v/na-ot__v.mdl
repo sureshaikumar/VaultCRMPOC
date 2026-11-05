@@ -1,0 +1,6 @@
+Picklistentry na-ot__v (
+   value('Oshikoto'),
+   order(3310),
+   active(true),
+   controlling_entries('na__v')
+);

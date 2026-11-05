@@ -1,0 +1,6 @@
+Picklistentry ls-k__v (
+   value('Thaba-Tseka'),
+   order(2618),
+   active(true),
+   controlling_entries('ls__v')
+);

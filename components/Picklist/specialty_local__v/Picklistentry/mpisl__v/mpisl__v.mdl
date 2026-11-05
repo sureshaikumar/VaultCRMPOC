@@ -1,0 +1,6 @@
+Picklistentry mpisl__v (
+   value('Military Psychiatry'),
+   order(972),
+   active(true),
+   controlling_entries('tr__v')
+);

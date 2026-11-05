@@ -1,0 +1,6 @@
+Picklistentry lt-32__v (
+   value('Panevėžio miestas'),
+   order(2650),
+   active(true),
+   controlling_entries('lt__v')
+);

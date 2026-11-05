@@ -1,0 +1,5 @@
+Picklistentry cd__v (
+   value('CD'),
+   order(39),
+   active(true)
+);

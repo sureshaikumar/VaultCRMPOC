@@ -1,0 +1,5 @@
+Picklistentry 29220__v (
+   value('La Follette, TN Micropolitan Statistical Area'),
+   order(320),
+   active(true)
+);

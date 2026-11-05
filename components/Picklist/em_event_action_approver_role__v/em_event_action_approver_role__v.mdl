@@ -1,0 +1,7 @@
+RECREATE Picklist em_event_action_approver_role__v (
+   label('Approver Role'),
+   active(true),
+   Picklistentry(@Picklistentry/approver__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

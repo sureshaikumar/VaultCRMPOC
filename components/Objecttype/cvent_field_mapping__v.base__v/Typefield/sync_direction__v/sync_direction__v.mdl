@@ -1,0 +1,4 @@
+Typefield sync_direction__v (
+   source('standard'),
+   required(true)
+);

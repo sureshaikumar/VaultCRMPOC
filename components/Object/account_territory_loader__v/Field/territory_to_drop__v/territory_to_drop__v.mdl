@@ -1,0 +1,19 @@
+Field territory_to_drop__v (
+   label('Territory to Drop'),
+   type('String'),
+   active(true),
+   description('If a value is present, a trigger will remove the value from the list of territories in Territory_vod__c. The value in the field will then be removed.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

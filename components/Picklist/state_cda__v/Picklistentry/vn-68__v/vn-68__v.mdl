@@ -1,0 +1,6 @@
+Picklistentry vn-68__v (
+   value('Phú Thọ'),
+   order(4964),
+   active(true),
+   controlling_entries('vn__v')
+);

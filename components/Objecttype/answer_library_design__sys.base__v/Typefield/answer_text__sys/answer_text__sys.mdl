@@ -1,0 +1,4 @@
+Typefield answer_text__sys (
+   source('standard'),
+   required(true)
+);

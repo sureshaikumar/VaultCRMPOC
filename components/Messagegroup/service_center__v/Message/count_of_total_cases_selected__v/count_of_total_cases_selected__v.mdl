@@ -1,0 +1,6 @@
+Message count_of_total_cases_selected__v (
+   label(),
+   active(true),
+   default_value('${count} of ${total} Cases selected'),
+   system_managed(false)
+);

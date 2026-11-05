@@ -1,0 +1,4 @@
+Typefield outbound_email_status__sys (
+   source('standard'),
+   required(false)
+);

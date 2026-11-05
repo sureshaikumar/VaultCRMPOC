@@ -1,0 +1,6 @@
+Picklistentry kr-11__v (
+   value('Seoul'),
+   order(2470),
+   active(true),
+   controlling_entries('kr__v')
+);

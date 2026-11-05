@@ -1,0 +1,4 @@
+Typefield em_total_payment_corpv__sys (
+   source('standard'),
+   required(false)
+);

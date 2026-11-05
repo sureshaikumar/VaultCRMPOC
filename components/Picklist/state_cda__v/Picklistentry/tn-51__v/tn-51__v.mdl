@@ -1,0 +1,6 @@
+Picklistentry tn-51__v (
+   value('Sousse'),
+   order(4444),
+   active(true),
+   controlling_entries('tn__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry psycj__v (
+   value('Psychophysiology'),
+   order(1626),
+   active(true),
+   controlling_entries('ua__v')
+);

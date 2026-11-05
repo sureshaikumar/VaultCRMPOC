@@ -1,0 +1,19 @@
+Field vault_doc_id__v (
+   label('Vault Document ID'),
+   type('String'),
+   active(true),
+   description('Vault Id of the document.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message no_assigned_cases_label__v (
+   label(),
+   active(true),
+   default_value('No Assigned Cases'),
+   system_managed(false)
+);

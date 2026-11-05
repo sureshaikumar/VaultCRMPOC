@@ -1,0 +1,9 @@
+Objectlifecyclepermission owner_edit__c (
+   states('Objectlifecyclestate.delivered_state__v',
+         'Objectlifecyclestate.fulfillment_request_sent_state__v',
+         'Objectlifecyclestate.inactive_state__v',
+         'Objectlifecyclestate.new_state__v',
+         'Objectlifecyclestate.shipment_confirmed_state__v'),
+   role('Objectlifecyclerole.owner__v'),
+   permission('Edit')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-003__v (
+   value('Bled'),
+   order(3977),
+   active(true),
+   controlling_entries('si__v')
+);

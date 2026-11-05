@@ -1,0 +1,6 @@
+Picklistentry otp_series_contract__sys (
+   value('Series Contract'),
+   order(151),
+   active(true),
+   controlling_entries('olc_contract__sys')
+);

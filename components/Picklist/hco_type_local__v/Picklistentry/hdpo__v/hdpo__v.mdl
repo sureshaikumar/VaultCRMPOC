@@ -1,0 +1,5 @@
+Picklistentry hdpo__v (
+   value('Hospital / District Pharmacy'),
+   order(112),
+   active(true)
+);

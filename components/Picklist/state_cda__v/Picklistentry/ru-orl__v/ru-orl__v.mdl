@@ -1,0 +1,6 @@
+Picklistentry ru-orl__v (
+   value('Orlovskaya oblast'''),
+   order(3840),
+   active(true),
+   controlling_entries('ru__v')
+);

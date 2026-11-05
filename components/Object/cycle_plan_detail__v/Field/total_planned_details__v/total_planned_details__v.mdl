@@ -1,0 +1,23 @@
+Field total_planned_details__v (
+   label('Planned Total Details'),
+   type('Number'),
+   active(true),
+   description('It holds the number of details for the product planned by the team of representatives against the Cycle Plan Target.'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

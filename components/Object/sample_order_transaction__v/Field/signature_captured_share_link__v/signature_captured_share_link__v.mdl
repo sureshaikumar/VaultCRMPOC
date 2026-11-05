@@ -1,0 +1,18 @@
+Field signature_captured_share_link__v (
+   label('Signature Captured Share Link'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field indicates the signature was captured via the Share Link signature method'),
+   list_column(false),
+   order(61),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry om-bj__v (
+   value('Janūb al Bāţinah'),
+   order(3443),
+   active(true),
+   controlling_entries('om__v')
+);

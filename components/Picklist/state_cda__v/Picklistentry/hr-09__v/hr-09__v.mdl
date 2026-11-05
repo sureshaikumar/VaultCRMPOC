@@ -1,0 +1,6 @@
+Picklistentry hr-09__v (
+   value('Ličko-senjska županija'),
+   order(1850),
+   active(true),
+   controlling_entries('hr__v')
+);

@@ -1,0 +1,7 @@
+Typefield event__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.multichannel_route_event__v.opt_in_confirmation__v',
+         'Picklist.multichannel_route_event__v.opt_out_confirmation__v',
+         'Picklist.multichannel_route_event__v.conversation_ended__v')
+);

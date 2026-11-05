@@ -1,0 +1,6 @@
+Picklistentry shcyh__v (
+   value('School Hygiene'),
+   order(1762),
+   active(true),
+   controlling_entries('ba__v')
+);

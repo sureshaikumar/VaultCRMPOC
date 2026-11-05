@@ -1,0 +1,5 @@
+Picklistentry colon__c (
+   value('Colon'),
+   order(2),
+   active(true)
+);

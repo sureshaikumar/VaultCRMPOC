@@ -1,0 +1,5 @@
+Picklistentry complex_product__v (
+   value('Complex Product'),
+   order(2),
+   active(true)
+);

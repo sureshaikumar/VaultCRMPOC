@@ -1,0 +1,6 @@
+Picklistentry btmlr__v (
+   value('Blood Transfusion Medicine'),
+   order(132),
+   active(true),
+   controlling_entries('sa__v')
+);

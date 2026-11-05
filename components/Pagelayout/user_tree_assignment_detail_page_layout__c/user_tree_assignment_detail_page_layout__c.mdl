@@ -1,0 +1,8 @@
+RECREATE Pagelayout user_tree_assignment_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('user_tree_assignment Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

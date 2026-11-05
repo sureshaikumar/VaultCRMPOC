@@ -1,0 +1,5 @@
+Picklistentry pshta__v (
+   value('Pharmacy Staff'),
+   order(104),
+   active(true)
+);

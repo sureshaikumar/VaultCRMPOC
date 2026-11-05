@@ -1,0 +1,6 @@
+Message integration_user_profile_error__v (
+   label(),
+   active(true),
+   default_value('Cannot save credentials. Vault CRM integration user cannot be a Vault Owner or System Admin.'),
+   system_managed(false)
+);

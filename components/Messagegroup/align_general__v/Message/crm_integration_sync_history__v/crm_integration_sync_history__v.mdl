@@ -1,0 +1,6 @@
+Message crm_integration_sync_history__v (
+   label(),
+   active(true),
+   default_value('CRM Sync History'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field publication_type__v (
+   label('Publication Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The type of Publication'),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.publication_publication_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

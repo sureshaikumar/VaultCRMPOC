@@ -1,0 +1,5 @@
+Picklistentry asia_kamchatka__v (
+   value('Asia/Kamchatka'),
+   order(79),
+   active(true)
+);

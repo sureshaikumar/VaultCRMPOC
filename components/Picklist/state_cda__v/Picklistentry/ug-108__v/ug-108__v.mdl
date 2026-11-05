@@ -1,0 +1,6 @@
+Picklistentry ug-108__v (
+   value('Mukono'),
+   order(4650),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry no_protection__sys (
+   value('No Protection'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,7 @@
+Picklistentry ctmlr__v (
+   value('Clinical Transfusion Medicine'),
+   order(296),
+   active(true),
+   controlling_entries('pl__v',
+         'rs__v')
+);

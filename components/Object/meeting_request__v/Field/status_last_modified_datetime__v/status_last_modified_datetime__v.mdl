@@ -1,0 +1,17 @@
+Field status_last_modified_datetime__v (
+   label('Status Last Modified DateTime'),
+   type('DateTime'),
+   active(true),
+   description('Indicates the date and time that the Meeting Request Status was last changed.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

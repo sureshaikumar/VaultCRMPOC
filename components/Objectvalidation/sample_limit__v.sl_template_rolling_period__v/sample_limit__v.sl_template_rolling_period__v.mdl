@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.sl_template_rolling_period__v (
+   label('SL Template Rolling Period'),
+   active(true),
+   expression('Not(IsBlank(account_types__v)) || IsBlank(rolling_period__v)'),
+   description('Rolling Period must be empty if Account Types is empty.'),
+   error_message('Rolling Period must be empty if Account Types is empty'),
+   error_location('rolling_period__v')
+);

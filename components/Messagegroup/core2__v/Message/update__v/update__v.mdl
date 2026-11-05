@@ -1,0 +1,6 @@
+Message update__v (
+   label(),
+   active(true),
+   default_value('Update'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_tegucigalpa__sys (
+   value('(GMT-06:00) Central Standard Time (America/Tegucigalpa)'),
+   order(53),
+   active(true)
+);

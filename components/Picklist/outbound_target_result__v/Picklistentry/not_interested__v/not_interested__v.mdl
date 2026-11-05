@@ -1,0 +1,5 @@
+Picklistentry not_interested__v (
+   value('Not Interested'),
+   order(2),
+   active(true)
+);

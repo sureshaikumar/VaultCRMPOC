@@ -1,0 +1,6 @@
+Picklistentry hu-hb__v (
+   value('Hajdú-Bihar'),
+   order(1887),
+   active(true),
+   controlling_entries('hu__v')
+);

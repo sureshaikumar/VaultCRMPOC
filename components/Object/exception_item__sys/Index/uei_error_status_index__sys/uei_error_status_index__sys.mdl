@@ -1,0 +1,5 @@
+Index uei_error_status_index__sys (
+   description(),
+   fields('error_status__sys'),
+   label('User Exception Item Error Status Index')
+);

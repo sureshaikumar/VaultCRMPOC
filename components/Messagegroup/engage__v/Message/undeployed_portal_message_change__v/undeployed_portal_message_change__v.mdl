@@ -1,0 +1,6 @@
+Message undeployed_portal_message_change__v (
+   label(),
+   active(true),
+   default_value('Undeployed Portal-Specific ${customer_message_label} Changes'),
+   system_managed(false)
+);

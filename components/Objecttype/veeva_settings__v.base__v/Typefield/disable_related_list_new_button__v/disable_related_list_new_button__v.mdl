@@ -1,0 +1,4 @@
+Typefield disable_related_list_new_button__v (
+   source('standard'),
+   required(false)
+);

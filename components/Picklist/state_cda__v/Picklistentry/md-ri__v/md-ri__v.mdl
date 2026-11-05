@@ -1,0 +1,6 @@
+Picklistentry md-ri__v (
+   value('Rîşcani'),
+   order(2897),
+   active(true),
+   controlling_entries('md__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry narcotics__v (
+   value('Narcotics'),
+   order(3),
+   active(true)
+);

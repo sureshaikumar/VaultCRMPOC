@@ -1,0 +1,6 @@
+Message primary__v (
+   label(),
+   active(true),
+   default_value('Primary'),
+   system_managed(false)
+);

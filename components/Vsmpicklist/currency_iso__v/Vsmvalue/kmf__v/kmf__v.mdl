@@ -1,0 +1,10 @@
+Vsmvalue kmf__v (
+   label('KMF'),
+   active(true),
+   description('The Comorian Franc (KMF), the official currency of the Comoros, used for transactions, pricing, and financial records involving Comorian markets.'),
+   synonyms('Comorian franc',
+         'Comoros franc',
+         'KMF'),
+   target('kmf__sys'),
+   target_label('KMF')
+);

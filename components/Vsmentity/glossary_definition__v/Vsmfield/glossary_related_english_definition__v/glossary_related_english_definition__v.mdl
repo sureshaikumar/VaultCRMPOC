@@ -1,0 +1,14 @@
+Vsmfield glossary_related_english_definition__v (
+   label('Related English Definition'),
+   active(true),
+   description('Reference to the corresponding English-language glossary definition record. Used to link translated definitions back to the canonical English version, enabling cross-language traceability and consistency checks. This field would be blank when the definition is in English.'),
+   example_values(),
+   synonyms('English definition',
+         'related English term',
+         'base definition',
+         'source definition'),
+   target('glossary_related_english_definition__sys'),
+   target_label('Related English Definition'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

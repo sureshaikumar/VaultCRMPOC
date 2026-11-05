@@ -1,0 +1,6 @@
+Picklistentry bs-hi__v (
+   value('Harbour Island'),
+   order(491),
+   active(true),
+   controlling_entries('bs__v')
+);

@@ -1,0 +1,6 @@
+Message cancel_case_reason__v (
+   label(),
+   active(true),
+   default_value('Cancellation Reason: ${cancellation_reason} Cancellation Date: ${cancellation_date}'),
+   system_managed(false)
+);

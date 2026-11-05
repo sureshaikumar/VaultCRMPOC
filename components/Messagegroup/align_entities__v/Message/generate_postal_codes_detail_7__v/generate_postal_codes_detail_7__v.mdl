@@ -1,0 +1,6 @@
+Message generate_postal_codes_detail_7__v (
+   label(),
+   active(true),
+   default_value('Existing Geography Territory records will remain and will not be modified.'),
+   system_managed(false)
+);

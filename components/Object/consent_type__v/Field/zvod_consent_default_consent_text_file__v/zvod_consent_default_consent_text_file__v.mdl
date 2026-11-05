@@ -1,0 +1,15 @@
+Field zvod_consent_default_consent_text_file__v (
+   label('zvod_Consent_Default_Consent_Text_vod'),
+   type('Attachment'),
+   active(true),
+   description('The text that will be displayed on the review panel. A checkbox will be added before the text that is stored in this field.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

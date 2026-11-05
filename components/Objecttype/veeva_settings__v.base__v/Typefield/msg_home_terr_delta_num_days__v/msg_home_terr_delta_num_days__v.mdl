@@ -1,0 +1,4 @@
+Typefield msg_home_terr_delta_num_days__v (
+   source('standard'),
+   required(false)
+);

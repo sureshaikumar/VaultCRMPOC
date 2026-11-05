@@ -1,0 +1,6 @@
+Picklistentry la-at__v (
+   value('Attapu [Attopeu]'),
+   order(2513),
+   active(true),
+   controlling_entries('la__v')
+);

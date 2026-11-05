@@ -1,0 +1,5 @@
+Picklistentry mt__v (
+   value('Maltese'),
+   order(207),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry vn-07__v (
+   value('Tuyên Quang'),
+   order(4918),
+   active(true),
+   controlling_entries('vn__v')
+);

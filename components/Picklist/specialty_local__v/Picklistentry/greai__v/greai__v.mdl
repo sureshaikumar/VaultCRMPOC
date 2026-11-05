@@ -1,0 +1,6 @@
+Picklistentry greai__v (
+   value('Gynecologic Reproductive Endocrinology and Infertility'),
+   order(641),
+   active(true),
+   controlling_entries('ca__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry paxpu__v (
+   value('Paediatric Pulmonology'),
+   order(1269),
+   active(true),
+   controlling_entries('ng__v')
+);

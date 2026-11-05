@@ -1,0 +1,6 @@
+Picklistentry ar-j__v (
+   value('San Juan'),
+   order(105),
+   active(true),
+   controlling_entries('ar__v')
+);

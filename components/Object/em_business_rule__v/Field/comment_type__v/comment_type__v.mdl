@@ -1,0 +1,20 @@
+Field comment_type__v (
+   label('Comment Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Field used to indicate the type of comment when soft warnings are triggered. API name must match the API names in em_event_override__v.comment_reason__v'),
+   list_column(false),
+   order(45),
+   multi_value(false),
+   picklist('Picklist.em_business_rule_comment_type__v'),
+   controlling_picklist('comment_required__v'),
+   picklist_dependencies('{"required__v":["free_text__v","picklist__v"],"optional__v":["free_text__v","picklist__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

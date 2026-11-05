@@ -1,0 +1,5 @@
+Picklistentry kz__v (
+   value('KZ'),
+   order(64),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry sb-ch__v (
+   value('Choiseul'),
+   order(3892),
+   active(true),
+   controlling_entries('sb__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry kh-10__v (
+   value('Kracheh [Krâchéh]'),
+   order(2411),
+   active(true),
+   controlling_entries('kh__v')
+);

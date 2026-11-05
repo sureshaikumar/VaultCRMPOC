@@ -1,0 +1,4 @@
+Typefield comment_required__v (
+   source('standard'),
+   required(false)
+);

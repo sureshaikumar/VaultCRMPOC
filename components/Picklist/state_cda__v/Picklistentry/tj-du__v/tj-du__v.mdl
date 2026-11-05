@@ -1,0 +1,6 @@
+Picklistentry tj-du__v (
+   value('Dushanbe'),
+   order(4406),
+   active(true),
+   controlling_entries('tj__v')
+);

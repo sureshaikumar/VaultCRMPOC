@@ -1,0 +1,10 @@
+Vsmvalue svc__v (
+   label('SVC'),
+   active(true),
+   description('Applies when referencing the Salvadoran Colón, the historical currency of El Salvador before the US Dollar became legal tender in 2001.'),
+   synonyms('Salvadoran colón',
+         'El Salvador legacy currency',
+         'colón'),
+   target('svc__sys'),
+   target_label('SVC')
+);

@@ -1,0 +1,5 @@
+Picklistentry 18220__v (
+   value('Connersville, IN Micropolitan Statistical Area'),
+   order(193),
+   active(true)
+);

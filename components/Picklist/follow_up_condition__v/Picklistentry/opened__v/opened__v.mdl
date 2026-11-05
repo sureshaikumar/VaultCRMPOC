@@ -1,0 +1,5 @@
+Picklistentry opened__v (
+   value('Opened'),
+   order(0),
+   active(true)
+);

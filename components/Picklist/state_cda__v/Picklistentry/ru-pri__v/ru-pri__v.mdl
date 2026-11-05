@@ -1,0 +1,6 @@
+Picklistentry ru-pri__v (
+   value('Primorskiy kray'),
+   order(3843),
+   active(true),
+   controlling_entries('ru__v')
+);

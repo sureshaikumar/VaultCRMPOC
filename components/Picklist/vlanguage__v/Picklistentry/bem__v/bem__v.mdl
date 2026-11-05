@@ -1,0 +1,5 @@
+Picklistentry bem__v (
+   value('Bemba'),
+   order(34),
+   active(false)
+);

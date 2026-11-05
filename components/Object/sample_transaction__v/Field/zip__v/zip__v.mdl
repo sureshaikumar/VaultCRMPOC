@@ -1,0 +1,19 @@
+Field zip__v (
+   label('Zip'),
+   type('String'),
+   active(true),
+   description('Zip is the zip code of the Address for Return, Transfer, and Disbursement Sample Transactions. For a Transfer To Sample Transaction, this field is auto-populated based on the Selected Transfer To user and their corresponding record in the Rep Roster.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(71),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

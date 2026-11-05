@@ -1,0 +1,6 @@
+Picklistentry pt-11__v (
+   value('Lisboa'),
+   order(3664),
+   active(true),
+   controlling_entries('pt__v')
+);

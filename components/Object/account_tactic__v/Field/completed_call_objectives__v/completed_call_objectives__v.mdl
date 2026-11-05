@@ -1,0 +1,22 @@
+Field completed_call_objectives__v (
+   label('Completed Call Objectives'),
+   type('Number'),
+   active(true),
+   description('Contains the total number of COMPLETED Call Objectives (Completed_flag_vod = true) associated with Account Tactics within a given Account Plan'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message account_rule_select_source__v (
+   label(),
+   active(true),
+   default_value('At least one Account Source must be selected.'),
+   system_managed(false)
+);

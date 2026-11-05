@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule__v.event_action_not_supported__v (
+   label('Event Action Not Supported'),
+   active(true),
+   expression('run_rule_event_action__v != "reschedule__v" && run_rule_event_action__v != "cancel_event__v"'),
+   description('Event Action input is not supported.'),
+   error_message('This Event Action is not supported.'),
+   error_location('run_rule_event_action__v')
+);

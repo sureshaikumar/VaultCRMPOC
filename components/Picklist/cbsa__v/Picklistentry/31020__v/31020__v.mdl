@@ -1,0 +1,5 @@
+Picklistentry 31020__v (
+   value('Longview, WA Metropolitan Statistical Area'),
+   order(550),
+   active(true)
+);

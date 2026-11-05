@@ -1,0 +1,5 @@
+Picklistentry thyroid_hormones__v (
+   value('Thyroid Hormones'),
+   order(45),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Index search_type__sys (
+   description(),
+   fields('glossary_event_search_type__sys'),
+   label('Search Type')
+);

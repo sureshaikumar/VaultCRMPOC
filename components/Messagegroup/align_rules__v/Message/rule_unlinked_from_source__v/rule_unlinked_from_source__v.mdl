@@ -1,0 +1,6 @@
+Message rule_unlinked_from_source__v (
+   label(),
+   active(true),
+   default_value('unlinked from source'),
+   system_managed(false)
+);

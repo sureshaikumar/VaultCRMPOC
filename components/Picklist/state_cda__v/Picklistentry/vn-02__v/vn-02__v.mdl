@@ -1,0 +1,6 @@
+Picklistentry vn-02__v (
+   value('Lào Cai'),
+   order(4913),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,6 @@
+Message flows__v (
+   label(),
+   active(true),
+   default_value('Flows'),
+   system_managed(false)
+);

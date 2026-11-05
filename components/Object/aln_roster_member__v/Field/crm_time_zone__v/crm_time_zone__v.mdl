@@ -1,0 +1,18 @@
+Field crm_time_zone__v (
+   label('CRM Time Zone'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The time zone of the User in CRM.'),
+   list_column(false),
+   order(31),
+   multi_value(false),
+   picklist('Picklist.timezone__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

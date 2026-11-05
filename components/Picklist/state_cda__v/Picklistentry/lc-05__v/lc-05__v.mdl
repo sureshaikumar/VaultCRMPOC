@@ -1,0 +1,6 @@
+Picklistentry lc-05__v (
+   value('Dennery'),
+   order(2542),
+   active(true),
+   controlling_entries('lc__v')
+);

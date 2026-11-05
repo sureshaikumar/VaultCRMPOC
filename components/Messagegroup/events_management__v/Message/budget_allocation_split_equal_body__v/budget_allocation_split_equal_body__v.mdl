@@ -1,0 +1,6 @@
+Message budget_allocation_split_equal_body__v (
+   label(),
+   active(true),
+   default_value('Expenses will be automatically allocated evenly across all Event Budgets.'),
+   system_managed(false)
+);

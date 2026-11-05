@@ -1,0 +1,4 @@
+Typefield adverse_event_reported__v (
+   source('standard'),
+   required(false)
+);

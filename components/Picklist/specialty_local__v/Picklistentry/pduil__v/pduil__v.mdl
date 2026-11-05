@@ -1,0 +1,6 @@
+Picklistentry pduil__v (
+   value('Pulmonary Disease'),
+   order(1647),
+   active(true),
+   controlling_entries('bh__v')
+);

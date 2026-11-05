@@ -1,0 +1,6 @@
+Message create_email_activity_subheader__v (
+   label(),
+   active(true),
+   default_value('Select a template'),
+   system_managed(false)
+);

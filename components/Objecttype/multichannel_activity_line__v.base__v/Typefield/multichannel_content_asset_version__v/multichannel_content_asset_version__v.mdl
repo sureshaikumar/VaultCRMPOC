@@ -1,0 +1,4 @@
+Typefield multichannel_content_asset_version__v (
+   source('standard'),
+   required(false)
+);

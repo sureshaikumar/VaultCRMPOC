@@ -1,0 +1,5 @@
+Picklistentry asia_kuwait__v (
+   value('Asia/Kuwait'),
+   order(45),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry mk-810__v (
+   value('Petrovec'),
+   order(3036),
+   active(true),
+   controlling_entries('mk__v')
+);

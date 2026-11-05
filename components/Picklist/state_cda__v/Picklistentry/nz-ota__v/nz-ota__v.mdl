@@ -1,0 +1,6 @@
+Picklistentry nz-ota__v (
+   value('Otago'),
+   order(3436),
+   active(true),
+   controlling_entries('nz__v')
+);

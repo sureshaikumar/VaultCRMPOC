@@ -1,0 +1,6 @@
+Picklistentry ianmm__v (
+   value('Imaging and Nuclear Medicine'),
+   order(733),
+   active(true),
+   controlling_entries('mu__v')
+);

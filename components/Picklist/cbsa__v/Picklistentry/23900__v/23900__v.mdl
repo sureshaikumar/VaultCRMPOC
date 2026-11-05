@@ -1,0 +1,5 @@
+Picklistentry 23900__v (
+   value('Gettysburg, PA Micropolitan Statistical Area'),
+   order(385),
+   active(true)
+);

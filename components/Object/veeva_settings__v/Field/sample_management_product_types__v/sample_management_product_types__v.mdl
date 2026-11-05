@@ -1,0 +1,19 @@
+Field sample_management_product_types__v (
+   label('Sample Management Product Types'),
+   type('String'),
+   active(true),
+   description('Contains the non-Sample product types that are included in the Sample Management functionality including product availability on Call indicated by a double semi colon list that may include BRC, Alternative Sample, High Value Promotional, Promotional, Repr'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(276),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

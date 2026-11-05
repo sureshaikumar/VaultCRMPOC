@@ -1,0 +1,5 @@
+Picklistentry 43980__v (
+   value('Spencer, IA Micropolitan Statistical Area'),
+   order(745),
+   active(true)
+);

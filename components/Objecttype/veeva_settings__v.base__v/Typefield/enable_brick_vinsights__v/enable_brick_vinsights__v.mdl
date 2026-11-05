@@ -1,0 +1,4 @@
+Typefield enable_brick_vinsights__v (
+   source('standard'),
+   required(false)
+);

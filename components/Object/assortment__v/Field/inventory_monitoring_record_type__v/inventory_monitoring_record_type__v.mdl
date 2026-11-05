@@ -1,0 +1,19 @@
+Field inventory_monitoring_record_type__v (
+   label('Inventory Monitoring Record Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The type of IM the Assortment is valid for.
+Values need to match the IM Record Type in Inventory_Monitoring_vod'),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.assortm_inventory_monitoring_record_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

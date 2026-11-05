@@ -1,0 +1,5 @@
+Picklistentry hz (
+   value('Herero'),
+   order(98),
+   active(true)
+);

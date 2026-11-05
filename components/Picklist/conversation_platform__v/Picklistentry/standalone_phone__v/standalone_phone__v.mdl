@@ -1,0 +1,5 @@
+Picklistentry standalone_phone__v (
+   value('Standalone Phone'),
+   order(7),
+   active(true)
+);

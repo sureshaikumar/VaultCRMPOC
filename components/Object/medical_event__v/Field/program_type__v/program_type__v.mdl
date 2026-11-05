@@ -1,0 +1,21 @@
+Field program_type__v (
+   label('Program Type'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('This field is used by the system. It must be visible to users of Veeva Event Management.'),
+   list_column(false),
+   order(59),
+   formula('Text(em_event__vr.program_type__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

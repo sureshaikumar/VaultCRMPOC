@@ -1,0 +1,5 @@
+Picklistentry 37540__v (
+   value('Paris, TN Micropolitan Statistical Area'),
+   order(579),
+   active(true)
+);

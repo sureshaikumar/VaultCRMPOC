@@ -1,0 +1,6 @@
+Message case_contact__v (
+   label(),
+   active(true),
+   default_value('Case Contact'),
+   system_managed(false)
+);

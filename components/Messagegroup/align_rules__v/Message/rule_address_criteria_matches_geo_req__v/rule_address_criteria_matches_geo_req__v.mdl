@@ -1,0 +1,6 @@
+Message rule_address_criteria_matches_geo_req__v (
+   label(),
+   active(true),
+   default_value('At least one address criterion must use the "matches geography name" operator for this rollup to be calculated.'),
+   system_managed(false)
+);

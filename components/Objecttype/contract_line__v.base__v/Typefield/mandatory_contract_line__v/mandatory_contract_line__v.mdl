@@ -1,0 +1,4 @@
+Typefield mandatory_contract_line__v (
+   source('standard'),
+   required(false)
+);

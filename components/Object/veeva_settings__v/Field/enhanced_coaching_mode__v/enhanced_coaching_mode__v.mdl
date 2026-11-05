@@ -1,0 +1,25 @@
+Field enhanced_coaching_mode__v (
+   label('Enhanced Coaching Mode'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content('This setting determines which enhanced coaching mode is to be used. A value of 1 will cause the Advanced Coaching Reports tab to display.
+
+If, however, the TAB_NAV_DISPLAY Veeva Setting is populated or contains a Veeva Message whose text field is populate'),
+   list_column(false),
+   order(167),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

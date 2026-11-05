@@ -1,0 +1,11 @@
+Vsmfield security_profile__v (
+   label('Security Profile'),
+   active(true),
+   description('Defines the base permissions and access level the user has across the Vault.'),
+   example_values(),
+   synonyms(),
+   target('security_profile__sys'),
+   target_label('Security Profile'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Picklistentry tr-30__v (
+   value('Hakkâri'),
+   order(4488),
+   active(true),
+   controlling_entries('tr__v')
+);

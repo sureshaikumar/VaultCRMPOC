@@ -1,0 +1,5 @@
+Picklistentry survey_score__v (
+   value('Survey Score'),
+   order(3),
+   active(true)
+);

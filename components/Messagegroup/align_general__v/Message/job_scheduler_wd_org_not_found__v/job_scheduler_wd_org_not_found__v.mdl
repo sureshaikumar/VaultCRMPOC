@@ -1,0 +1,6 @@
+Message job_scheduler_wd_org_not_found__v (
+   label(),
+   active(true),
+   default_value('Veeva Workday Org with ID {0} not found.'),
+   system_managed(false)
+);

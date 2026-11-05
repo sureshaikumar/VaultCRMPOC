@@ -1,0 +1,6 @@
+Picklistentry paarf__v (
+   value('Pediatric and Adolescent Radiology'),
+   order(1329),
+   active(true),
+   controlling_entries('de__v')
+);

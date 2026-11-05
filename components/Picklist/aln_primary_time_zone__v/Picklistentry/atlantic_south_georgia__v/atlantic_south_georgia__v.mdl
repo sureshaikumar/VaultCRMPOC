@@ -1,0 +1,5 @@
+Picklistentry atlantic_south_georgia__v (
+   value('Atlantic/South_Georgia'),
+   order(24),
+   active(true)
+);

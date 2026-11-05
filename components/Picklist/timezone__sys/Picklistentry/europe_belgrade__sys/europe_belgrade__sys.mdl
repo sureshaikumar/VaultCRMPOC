@@ -1,0 +1,5 @@
+Picklistentry europe_belgrade__sys (
+   value('(GMT+01:00) Central European Time (Europe/Belgrade)'),
+   order(154),
+   active(true)
+);

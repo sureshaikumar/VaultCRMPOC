@@ -1,0 +1,6 @@
+Picklistentry gn-kn__v (
+   value('Koundara'),
+   order(1737),
+   active(true),
+   controlling_entries('gn__v')
+);

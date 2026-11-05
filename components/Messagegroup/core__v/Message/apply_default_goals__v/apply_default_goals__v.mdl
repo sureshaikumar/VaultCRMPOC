@@ -1,0 +1,6 @@
+Message apply_default_goals__v (
+   label(),
+   active(true),
+   default_value('Apply Default Goals'),
+   system_managed(false)
+);

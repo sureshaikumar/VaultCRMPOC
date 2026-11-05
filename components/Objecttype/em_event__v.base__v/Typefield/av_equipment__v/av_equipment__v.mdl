@@ -1,0 +1,4 @@
+Typefield av_equipment__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,19 @@
+Field mobile_number__c (
+   label('Mobile Number'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Mobile Number for the Rep.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('Case(Length(Text(this)),7,"###-####",10,"###-###-####",11,"+#-###-###-####",null)'),
+   control_binding()
+);

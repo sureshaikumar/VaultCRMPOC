@@ -1,0 +1,7 @@
+Typefield activity__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.message_activity_activity__v.clicked__v',
+         'Picklist.message_activity_activity__v.viewed__v',
+         'Picklist.message_activity_activity__v.downloaded__v')
+);

@@ -1,0 +1,4 @@
+Typefield connection_status__sys (
+   source('standard'),
+   required(false)
+);

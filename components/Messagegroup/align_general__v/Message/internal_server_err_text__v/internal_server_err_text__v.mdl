@@ -1,0 +1,6 @@
+Message internal_server_err_text__v (
+   label(),
+   active(true),
+   default_value('Please click the back button on your browser and try again. If the issue persists, please contact Veeva Support and copy the error code below into the support ticket.'),
+   system_managed(false)
+);

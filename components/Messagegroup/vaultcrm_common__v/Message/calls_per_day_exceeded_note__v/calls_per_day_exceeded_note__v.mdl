@@ -1,0 +1,6 @@
+Message calls_per_day_exceeded_note__v (
+   label(),
+   active(true),
+   default_value('The selected date currently has ${call_number} ${call_label}(s) scheduled. By scheduling ${call_plural_label} for the selected accounts, the selected ${call_plural_label} per day will be exceeded resulting in some ${call_plural_label} being scheduled on business day(s) after the start date.'),
+   system_managed(false)
+);

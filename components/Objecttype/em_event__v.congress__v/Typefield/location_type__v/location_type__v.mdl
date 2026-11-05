@@ -1,0 +1,6 @@
+Typefield location_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.location_type__v.in_office__v',
+         'Picklist.location_type__v.out_of_office__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist suggestion_feedback_dismissfeedback4__v (
+   label('Dismiss Feedback4'),
+   active(true),
+   Picklistentry(@Picklistentry/true__v.mdl),
+   Picklistentry(@Picklistentry/false__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

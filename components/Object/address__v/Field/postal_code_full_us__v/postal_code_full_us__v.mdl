@@ -1,0 +1,19 @@
+Field postal_code_full_us__v (
+   label('Postal Code Full US'),
+   type('String'),
+   active(true),
+   description('This field is only relevant for U.S. addresses. It contains the complete, nine-digit postal code, including both the five-digit ZIP Code and the four-digit ZIP+4 Code. For example, this field would contain "90210-1234".'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(100),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

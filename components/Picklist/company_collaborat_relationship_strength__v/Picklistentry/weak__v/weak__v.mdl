@@ -1,0 +1,5 @@
+Picklistentry weak__v (
+   value('Weak'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message siri_cannot_execute__v (
+   label(),
+   active(true),
+   default_value('I can''t navigate away from your current page in Vault CRM.'),
+   system_managed(false)
+);

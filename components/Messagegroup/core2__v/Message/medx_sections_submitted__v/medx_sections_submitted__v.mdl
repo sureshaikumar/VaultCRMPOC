@@ -1,0 +1,6 @@
+Message medx_sections_submitted__v (
+   label(),
+   active(true),
+   default_value('One or more sections have already been submitted.'),
+   system_managed(false)
+);

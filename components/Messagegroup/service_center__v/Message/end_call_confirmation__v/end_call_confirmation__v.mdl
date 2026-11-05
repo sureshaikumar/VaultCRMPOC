@@ -1,0 +1,6 @@
+Message end_call_confirmation__v (
+   label(),
+   active(true),
+   default_value('End Call?'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry jp-44__v (
+   value('Oita'),
+   order(2350),
+   active(true),
+   controlling_entries('jp__v')
+);

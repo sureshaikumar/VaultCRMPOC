@@ -1,0 +1,5 @@
+Picklistentry somewhat_likely__c (
+   value('Somewhat Likely'),
+   order(1),
+   active(true)
+);

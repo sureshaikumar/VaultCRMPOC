@@ -1,0 +1,3 @@
+Typeaction add_document__sys (
+   action('edl_item__v.add_document__sys')
+);

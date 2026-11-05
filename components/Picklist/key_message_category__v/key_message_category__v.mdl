@@ -1,0 +1,11 @@
+RECREATE Picklist key_message_category__v (
+   label('Category'),
+   active(true),
+   Picklistentry(@Picklistentry/efficacy__v.mdl),
+   Picklistentry(@Picklistentry/safety__v.mdl),
+   Picklistentry(@Picklistentry/tolerability__v.mdl),
+   Picklistentry(@Picklistentry/efficiencies__v.mdl),
+   Picklistentry(@Picklistentry/general__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

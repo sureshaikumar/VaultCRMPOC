@@ -1,0 +1,9 @@
+RECREATE Listlayout dataset_item_data_grid__sys (
+   label('Dataset Item Data Grid'),
+   active(true),
+   description('Dataset Item List'),
+   object('dataset_item__sys'),
+   Listlayoutitem(@Listlayoutitem/dataset__sys.mdl),
+   Listlayoutitem(@Listlayoutitem/key_field_label__sys.mdl),
+   Listlayoutitem(@Listlayoutitem/object_label__sys.mdl)
+);

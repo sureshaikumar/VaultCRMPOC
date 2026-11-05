@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction online_state__v.entryaction6__c (
+   rule(@rule.xml),
+   order(1000)
+);

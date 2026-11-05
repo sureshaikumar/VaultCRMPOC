@@ -1,0 +1,6 @@
+Picklistentry gy-pm__v (
+   value('Pomeroon-Supenaam'),
+   order(1820),
+   active(true),
+   controlling_entries('gy__v')
+);

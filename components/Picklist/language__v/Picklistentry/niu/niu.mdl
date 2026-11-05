@@ -1,0 +1,5 @@
+Picklistentry niu (
+   value('Niuean'),
+   order(268),
+   active(true)
+);

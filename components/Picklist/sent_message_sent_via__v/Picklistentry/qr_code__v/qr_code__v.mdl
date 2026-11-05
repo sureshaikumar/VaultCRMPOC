@@ -1,0 +1,5 @@
+Picklistentry qr_code__v (
+   value('QR Code'),
+   order(2),
+   active(true)
+);

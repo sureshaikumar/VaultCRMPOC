@@ -1,0 +1,6 @@
+Picklistentry ni-an__v (
+   value('Costa Caribe Norte'),
+   order(3357),
+   active(true),
+   controlling_entries('ni__v')
+);

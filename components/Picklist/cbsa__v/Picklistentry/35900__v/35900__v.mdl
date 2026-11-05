@@ -1,0 +1,5 @@
+Picklistentry 35900__v (
+   value('North Wilkesboro, NC Micropolitan Statistical Area'),
+   order(334),
+   active(true)
+);

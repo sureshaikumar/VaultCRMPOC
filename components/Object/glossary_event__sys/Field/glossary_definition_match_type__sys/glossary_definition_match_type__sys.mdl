@@ -1,0 +1,18 @@
+Field glossary_definition_match_type__sys (
+   label('Match Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Precision of match to selected term. A value of "None" is presented when no match is found.'),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.glossary_definition_match_type__sys'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message missing_settings_record_error__v (
+   label(),
+   active(true),
+   default_value('No ${object_label} record found'),
+   system_managed(false)
+);

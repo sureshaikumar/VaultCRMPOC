@@ -1,0 +1,11 @@
+Vsmvalue item_not_found__v (
+   label('ITEM_NOT_FOUND'),
+   active(true),
+   description('Applies when the specified item cannot be located in the system, typically because it was never created or has been deleted.'),
+   synonyms('missing record',
+         'record not found',
+         'unknown item',
+         'does not exist'),
+   target('item_not_found__sys'),
+   target_label('ITEM_NOT_FOUND')
+);

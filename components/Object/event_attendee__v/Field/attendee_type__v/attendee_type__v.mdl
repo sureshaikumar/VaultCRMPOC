@@ -1,0 +1,21 @@
+Field attendee_type__v (
+   label('Attendee Type'),
+   type('String'),
+   active(true),
+   description('This field defines what type of Attendee has been selected for the Event.  This formula can be modified to meet the naming conventions of a Customer''s organization.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(49),
+   formula('If(Length( Id(account__v)) > 0, "Account",  If(Length( Id(person__v)) > 0, "Person",  "User") )'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message follow_up_in_1_day__v (
+   label(),
+   active(true),
+   default_value('Follow up in 1 day'),
+   system_managed(false)
+);

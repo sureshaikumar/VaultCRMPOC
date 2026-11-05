@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate verify_outbound_email_address__sys (
+   label('Verify Outbound Email Address'),
+   active(true),
+   description('Notification template informing a person to confirm the use of their email address for outbound email'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Verify Outbound Email Address for ${vaultName}'),
+   notification('<p>A Veeva Vault admin provided your email address as an outbound email for ${personName}. <a href="${verificationLink}">Click here to confirm.</a></p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Message actual_potential_help_text__v (
+   label(),
+   active(true),
+   default_value('Actual Prescribing · Potential Prescribing'),
+   system_managed(false)
+);

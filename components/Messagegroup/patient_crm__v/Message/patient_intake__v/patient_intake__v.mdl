@@ -1,0 +1,6 @@
+Message patient_intake__v (
+   label(),
+   active(true),
+   default_value('Patient Intake'),
+   system_managed(false)
+);

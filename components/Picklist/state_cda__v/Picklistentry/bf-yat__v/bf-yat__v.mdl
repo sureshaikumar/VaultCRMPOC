@@ -1,0 +1,6 @@
+Picklistentry bf-yat__v (
+   value('Yatenga'),
+   order(369),
+   active(true),
+   controlling_entries('bf__v')
+);

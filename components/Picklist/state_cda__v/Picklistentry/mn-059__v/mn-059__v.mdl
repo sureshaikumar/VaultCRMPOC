@@ -1,0 +1,6 @@
+Picklistentry mn-059__v (
+   value('Dundgovĭ'),
+   order(3082),
+   active(true),
+   controlling_entries('mn__v')
+);

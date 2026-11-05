@@ -1,0 +1,4 @@
+Typefield product_interactions_actual__v (
+   source('standard'),
+   required(false)
+);

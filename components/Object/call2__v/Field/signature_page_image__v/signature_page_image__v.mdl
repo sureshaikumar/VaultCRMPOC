@@ -1,0 +1,19 @@
+Field signature_page_image__v (
+   label('Signature Page Image'),
+   type('String'),
+   active(true),
+   description('The string displayed in the Signature Page Image picklist'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(136),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

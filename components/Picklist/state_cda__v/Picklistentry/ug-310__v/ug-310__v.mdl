@@ -1,0 +1,6 @@
+Picklistentry ug-310__v (
+   value('Nebbi'),
+   order(4715),
+   active(true),
+   controlling_entries('ug__v')
+);

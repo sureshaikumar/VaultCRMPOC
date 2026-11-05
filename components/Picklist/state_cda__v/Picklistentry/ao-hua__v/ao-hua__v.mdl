@@ -1,0 +1,6 @@
+Picklistentry ao-hua__v (
+   value('Huambo'),
+   order(87),
+   active(true),
+   controlling_entries('ao__v')
+);

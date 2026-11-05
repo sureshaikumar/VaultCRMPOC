@@ -1,0 +1,6 @@
+Message select_email_template__v (
+   label(),
+   active(true),
+   default_value('Select Email Template'),
+   system_managed(false)
+);

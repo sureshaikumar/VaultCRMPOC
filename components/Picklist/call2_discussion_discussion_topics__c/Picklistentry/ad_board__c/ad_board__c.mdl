@@ -1,0 +1,5 @@
+Picklistentry ad_board__c (
+   value('Ad Board'),
+   order(8),
+   active(true)
+);

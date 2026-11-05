@@ -1,0 +1,6 @@
+Picklistentry bi-ry__v (
+   value('Ruyigi'),
+   order(422),
+   active(true),
+   controlling_entries('bi__v')
+);

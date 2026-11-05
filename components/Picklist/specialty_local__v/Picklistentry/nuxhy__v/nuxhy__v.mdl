@@ -1,0 +1,8 @@
+Picklistentry nuxhy__v (
+   value('Nutritional Hygiene'),
+   order(1067),
+   active(true),
+   controlling_entries('mk__v',
+         'sk__v',
+         'ua__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry peadg__v (
+   value('Pediatric Endocrine and Diabetes'),
+   order(1367),
+   active(true),
+   controlling_entries('qa__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Aitool ask_user__sys (
+   label('Ask User'),
+   active(true),
+   configuration(),
+   description('This tool pauses the action to ask the user questions before continuing execution. The questions can be presented to the user with 2 styles of user input: textbox or selection.'),
+   input(),
+   tool_type('Aitooltype.ask_user__sys')
+);

@@ -1,0 +1,6 @@
+Message filter_selected_is_not__v (
+   label(),
+   active(true),
+   default_value('${filter_field_label} (${filter_object_label}) is not ${selection}'),
+   system_managed(false)
+);

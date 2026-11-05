@@ -1,0 +1,7 @@
+Typefield role__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_speaker_role__v.chair__v',
+         'Picklist.em_event_speaker_role__v.participant__v',
+         'Picklist.em_event_speaker_role__v.presenter__v')
+);

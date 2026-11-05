@@ -1,0 +1,6 @@
+Message all_filters__v (
+   label(),
+   active(true),
+   default_value('All Filters'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 46900__v (
+   value('Vernon, TX Micropolitan Statistical Area'),
+   order(174),
+   active(true)
+);

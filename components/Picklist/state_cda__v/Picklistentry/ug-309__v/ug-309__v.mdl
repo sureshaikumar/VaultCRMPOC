@@ -1,0 +1,6 @@
+Picklistentry ug-309__v (
+   value('Moyo'),
+   order(4714),
+   active(true),
+   controlling_entries('ug__v')
+);

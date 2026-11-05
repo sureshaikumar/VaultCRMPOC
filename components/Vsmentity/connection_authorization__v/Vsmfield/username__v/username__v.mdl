@@ -1,0 +1,14 @@
+Vsmfield username__v (
+   label('User Name'),
+   active(true),
+   description('The username or account identifier used for basic authentication with an external system or service. Paired with the password field to establish credentials for non-OAuth connection authorizations.'),
+   example_values(),
+   synonyms('user',
+         'login',
+         'account name',
+         'login name'),
+   target('username__sys'),
+   target_label('User Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

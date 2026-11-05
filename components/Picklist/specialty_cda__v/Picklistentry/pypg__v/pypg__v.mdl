@@ -1,0 +1,5 @@
+Picklistentry pypg__v (
+   value('Psychology'),
+   order(80),
+   active(true)
+);

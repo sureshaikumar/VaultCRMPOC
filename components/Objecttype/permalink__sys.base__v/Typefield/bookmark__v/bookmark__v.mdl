@@ -1,0 +1,4 @@
+Typefield bookmark__v (
+   source('standard'),
+   required(false)
+);

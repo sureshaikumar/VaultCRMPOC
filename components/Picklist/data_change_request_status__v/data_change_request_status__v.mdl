@@ -1,0 +1,10 @@
+RECREATE Picklist data_change_request_status__v (
+   label('Data Change Request Status'),
+   active(true),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/processed__v.mdl),
+   Picklistentry(@Picklistentry/cancelled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

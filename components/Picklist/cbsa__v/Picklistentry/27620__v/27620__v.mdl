@@ -1,0 +1,5 @@
+Picklistentry 27620__v (
+   value('Jefferson City, MO Metropolitan Statistical Area'),
+   order(90),
+   active(true)
+);

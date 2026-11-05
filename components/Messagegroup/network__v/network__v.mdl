@@ -1,0 +1,18 @@
+RECREATE Messagegroup network__v (
+   label('Network'),
+   active(true),
+   Message(@Message/conflicting_network_field_mapping_error__v.mdl),
+   Message(@Message/country_conflict_error__v.mdl),
+   Message(@Message/data_provider__v.mdl),
+   Message(@Message/enter_vault_credentials__v.mdl),
+   Message(@Message/field_mapping_conflict__v.mdl),
+   Message(@Message/hierarchy_explorer_unavailable__v.mdl),
+   Message(@Message/incomplete_network_reference_mapping__v.mdl),
+   Message(@Message/rest_of_world__v.mdl),
+   Message(@Message/switch_network_user__v.mdl),
+   Message(@Message/switch_network_user_disclaimer__v.mdl),
+   Message(@Message/switch_network_user_help__v.mdl),
+   Message(@Message/upload_file_limit_warning_dcr__v.mdl),
+   Message(@Message/vault_credentials__v.mdl),
+   Message(@Message/vault_url__v.mdl)
+);

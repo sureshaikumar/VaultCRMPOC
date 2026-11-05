@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate async_audit_export_failed__sys (
+   label('Asynchronous Audit Export Failed'),
+   active(true),
+   description('Asynchronous Audit Export Failure Notification Template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Audit Export Failed'),
+   notification('<b>Summary:</b><br> ${auditExportResultSummary}'),
+   email_body('<b>Summary:</b><br> ${auditExportResultSummary}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

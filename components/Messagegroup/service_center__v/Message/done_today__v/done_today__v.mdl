@@ -1,0 +1,6 @@
+Message done_today__v (
+   label(),
+   active(true),
+   default_value('Done Today'),
+   system_managed(false)
+);

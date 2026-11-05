@@ -1,0 +1,12 @@
+Agentaction capture_call_from_summary__v (
+   label('Capture Call'),
+   active(true),
+   api_access(false),
+   description('Takes the transcription of the user''s summary of their meeting and transposes it into a Call and related records.'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

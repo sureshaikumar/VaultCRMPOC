@@ -1,0 +1,6 @@
+Message emails__v (
+   label(),
+   active(true),
+   default_value('Emails'),
+   system_managed(false)
+);

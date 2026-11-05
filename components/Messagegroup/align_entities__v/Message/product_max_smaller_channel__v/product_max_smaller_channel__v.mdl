@@ -1,0 +1,6 @@
+Message product_max_smaller_channel__v (
+   label(),
+   active(true),
+   default_value('Product activity max must be smaller than or equal to channel activity max.'),
+   system_managed(false)
+);

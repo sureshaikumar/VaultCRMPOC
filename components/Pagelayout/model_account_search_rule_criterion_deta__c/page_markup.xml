@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_account_search_rule_criteria_model__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="account_search_object__v" />
+            <vault:field reference="account_search_rule_model__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="field__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="operator__v" />
+            <vault:field reference="production_record__v" />
+            <vault:field reference="value__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

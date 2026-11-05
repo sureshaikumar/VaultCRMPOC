@@ -1,0 +1,4 @@
+Typefield confirmation_message_template__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry events_management__v (
+   value('Events Management'),
+   order(0),
+   active(true)
+);

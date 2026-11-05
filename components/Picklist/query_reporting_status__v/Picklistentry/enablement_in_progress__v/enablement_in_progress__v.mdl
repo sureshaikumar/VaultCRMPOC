@@ -1,0 +1,5 @@
+Picklistentry enablement_in_progress__v (
+   value('Enablement in Progress'),
+   order(4),
+   active(true)
+);

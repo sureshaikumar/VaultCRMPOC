@@ -1,0 +1,21 @@
+Field channel_formula__v (
+   label('Channel Formula'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(43),
+   help_content(),
+   list_column(false),
+   order(33),
+   formula('Text(channel__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

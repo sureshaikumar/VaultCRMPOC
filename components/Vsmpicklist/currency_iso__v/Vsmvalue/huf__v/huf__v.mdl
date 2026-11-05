@@ -1,0 +1,10 @@
+Vsmvalue huf__v (
+   label('HUF'),
+   active(true),
+   description('The Hungarian Forint (HUF), the official currency of Hungary, used for transactions and financial records involving Hungarian business operations.'),
+   synonyms('Hungarian forint',
+         'forint',
+         'Hungary currency'),
+   target('huf__sys'),
+   target_label('HUF')
+);

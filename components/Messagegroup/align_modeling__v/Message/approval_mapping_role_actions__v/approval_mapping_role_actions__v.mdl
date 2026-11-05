@@ -1,0 +1,6 @@
+Message approval_mapping_role_actions__v (
+   label(),
+   active(true),
+   default_value('Actions per Application Role and Lifecycle State'),
+   system_managed(false)
+);

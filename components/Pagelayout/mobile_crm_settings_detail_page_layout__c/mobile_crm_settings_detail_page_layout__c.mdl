@@ -1,0 +1,8 @@
+RECREATE Pagelayout mobile_crm_settings_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Mobile CRM Settings Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

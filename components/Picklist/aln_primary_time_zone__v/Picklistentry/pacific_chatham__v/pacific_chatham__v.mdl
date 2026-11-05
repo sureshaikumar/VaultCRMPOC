@@ -1,0 +1,5 @@
+Picklistentry pacific_chatham__v (
+   value('Pacific/Chatham'),
+   order(82),
+   active(true)
+);

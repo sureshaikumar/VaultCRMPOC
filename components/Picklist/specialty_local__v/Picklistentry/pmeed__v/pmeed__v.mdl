@@ -1,0 +1,7 @@
+Picklistentry pmeed__v (
+   value('Pediatric Medicine'),
+   order(1409),
+   active(true),
+   controlling_entries('kr__v',
+         'sg__v')
+);

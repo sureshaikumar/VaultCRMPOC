@@ -1,0 +1,6 @@
+Message add_users__v (
+   label(),
+   active(true),
+   default_value('Add Users'),
+   system_managed(false)
+);

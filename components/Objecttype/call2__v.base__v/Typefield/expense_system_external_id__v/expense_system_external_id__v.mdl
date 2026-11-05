@@ -1,0 +1,4 @@
+Typefield expense_system_external_id__v (
+   source('standard'),
+   required(false)
+);

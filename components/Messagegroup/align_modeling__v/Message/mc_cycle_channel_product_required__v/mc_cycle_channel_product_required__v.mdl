@@ -1,0 +1,6 @@
+Message mc_cycle_channel_product_required__v (
+   label(),
+   active(true),
+   default_value('Product*'),
+   system_managed(false)
+);

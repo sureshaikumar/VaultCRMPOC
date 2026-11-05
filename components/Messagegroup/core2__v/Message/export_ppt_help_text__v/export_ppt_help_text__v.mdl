@@ -1,0 +1,6 @@
+Message export_ppt_help_text__v (
+   label(),
+   active(true),
+   default_value('Use the search bar to find a template, and then use the table below to make a selection.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry na-od__v (
+   value('Otjozondjupa'),
+   order(3306),
+   active(true),
+   controlling_entries('na__v')
+);

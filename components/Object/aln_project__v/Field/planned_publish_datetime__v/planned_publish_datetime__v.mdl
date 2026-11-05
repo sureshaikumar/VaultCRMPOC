@@ -1,0 +1,17 @@
+Field planned_publish_datetime__v (
+   label('Planned Publish Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(3),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

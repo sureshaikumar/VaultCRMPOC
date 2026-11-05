@@ -1,0 +1,19 @@
+Field component_name__v (
+   label('Component Name'),
+   type('String'),
+   active(true),
+   description('Field value corresponds to the last component in Translation Workbench export. For Object type, use special values "Label" or "LabelPlural." For Custom Field type, must be "FieldLabel," "HelpText," or "RelatedListLabel." For all other types except Veeva Message, this is the API name of the corresponding component, e.g. action, picklist value, custom label, custom tab, or layout section.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('API name of relabeled component.'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

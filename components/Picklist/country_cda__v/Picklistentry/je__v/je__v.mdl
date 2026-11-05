@@ -1,0 +1,5 @@
+Picklistentry je__v (
+   value('Jersey'),
+   order(113),
+   active(true)
+);

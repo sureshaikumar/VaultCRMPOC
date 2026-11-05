@@ -1,0 +1,6 @@
+Message dynamic_attributes__v (
+   label(),
+   active(true),
+   default_value('Dynamic Attributes'),
+   system_managed(false)
+);

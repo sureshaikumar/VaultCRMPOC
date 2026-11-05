@@ -1,0 +1,6 @@
+Message select_split_field_description__v (
+   label(),
+   active(true),
+   default_value('Select which ${object_label} field to split by'),
+   system_managed(false)
+);

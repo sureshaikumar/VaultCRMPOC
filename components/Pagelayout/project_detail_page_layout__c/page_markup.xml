@@ -1,0 +1,31 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_project__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="actual_publish_date__v" />
+            <vault:field reference="actual_publish_datetime__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="default_feedback_state__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="expiration_date__v" />
+            <vault:field reference="feedback_instructions__v" />
+            <vault:field reference="planned_publish_date__v" />
+            <vault:field reference="planned_publish_datetime__v" />
+            <vault:field reference="project_owner__v" />
+            <vault:field reference="publication_result__v" />
+            <vault:field reference="review_date__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

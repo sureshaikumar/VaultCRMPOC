@@ -1,0 +1,5 @@
+Picklistentry 42__v (
+   value('42'),
+   order(41),
+   active(true)
+);

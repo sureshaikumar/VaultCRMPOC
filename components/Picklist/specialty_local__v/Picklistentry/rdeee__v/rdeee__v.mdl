@@ -1,0 +1,6 @@
+Picklistentry rdeee__v (
+   value('Restorative Dentistry / Endodontics'),
+   order(1747),
+   active(true),
+   controlling_entries('qa__v')
+);

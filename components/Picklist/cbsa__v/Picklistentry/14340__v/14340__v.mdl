@@ -1,0 +1,5 @@
+Picklistentry 14340__v (
+   value('Boone, IA Micropolitan Statistical Area'),
+   order(903),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry sk-pv__v (
+   value('Prešovský Region'),
+   order(4191),
+   active(true),
+   controlling_entries('sk__v')
+);

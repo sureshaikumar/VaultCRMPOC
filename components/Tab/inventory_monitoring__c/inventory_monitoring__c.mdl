@@ -1,0 +1,15 @@
+RECREATE Tab inventory_monitoring__c (
+   active(true),
+   all_view_label('All Inventory Monitoring'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Inventory Monitoring'),
+   modal_create_record(false),
+   my_view_label('My Inventory Monitoring'),
+   object('inventory_monitoring__v'),
+   order(4900),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Inventory Monitoring')
+);

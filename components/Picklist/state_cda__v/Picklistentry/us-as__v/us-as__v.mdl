@@ -1,0 +1,6 @@
+Picklistentry us-as__v (
+   value('American Samoa'),
+   order(4794),
+   active(true),
+   controlling_entries('us__v')
+);

@@ -1,0 +1,18 @@
+Field tracking_source__v (
+   label('Tracking Source'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the source of the tracking activity'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(56),
+   multi_value(false),
+   picklist('Picklist.tracking_source__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

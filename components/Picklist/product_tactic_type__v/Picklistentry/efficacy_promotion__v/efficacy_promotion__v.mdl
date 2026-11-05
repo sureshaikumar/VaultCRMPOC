@@ -1,0 +1,5 @@
+Picklistentry efficacy_promotion__v (
+   value('Efficacy promotion'),
+   order(2),
+   active(true)
+);

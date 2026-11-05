@@ -1,0 +1,4 @@
+Typefield report_views__v (
+   source('standard'),
+   required(true)
+);

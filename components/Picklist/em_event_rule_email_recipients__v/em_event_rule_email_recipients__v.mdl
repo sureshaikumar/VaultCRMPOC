@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_rule_email_recipients__v (
+   label('Email Recipients'),
+   active(true),
+   Picklistentry(@Picklistentry/event_speakers__v.mdl),
+   Picklistentry(@Picklistentry/event_attendees__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

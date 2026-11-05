@@ -1,0 +1,6 @@
+Message date_at_time__v (
+   label(),
+   active(true),
+   default_value('${date} at ${time}'),
+   system_managed(false)
+);

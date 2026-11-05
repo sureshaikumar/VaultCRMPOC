@@ -1,0 +1,5 @@
+Picklistentry regional__v (
+   value('Regional'),
+   order(1),
+   active(true)
+);

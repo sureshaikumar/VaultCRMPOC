@@ -1,0 +1,19 @@
+Field recommended_quantity_reason__v (
+   label('Recommendation Reason'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(248),
+   help_content('Pull in field that shows the quantity recommendation reason loaded in the Product Information object and that stamps it on the Order Line. Do not modify'),
+   list_column(false),
+   order(58),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

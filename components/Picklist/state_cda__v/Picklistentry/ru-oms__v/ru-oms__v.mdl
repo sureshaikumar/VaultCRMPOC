@@ -1,0 +1,6 @@
+Picklistentry ru-oms__v (
+   value('Omskaya oblast'''),
+   order(3838),
+   active(true),
+   controlling_entries('ru__v')
+);

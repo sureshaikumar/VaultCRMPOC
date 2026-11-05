@@ -1,0 +1,19 @@
+Field next_approver_participant__v (
+   label('Next Approver Participant'),
+   type('String'),
+   active(true),
+   description('Stores the name of the next approver(s) defined by the Vault Workflow participant group.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(52),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

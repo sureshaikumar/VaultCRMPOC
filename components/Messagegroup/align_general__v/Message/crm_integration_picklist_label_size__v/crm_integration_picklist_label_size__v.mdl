@@ -1,0 +1,6 @@
+Message crm_integration_picklist_label_size__v (
+   label(),
+   active(true),
+   default_value('The length of the CRM Picklist Value Label (${ValueLabel}) is larger than 128 characters.'),
+   system_managed(false)
+);

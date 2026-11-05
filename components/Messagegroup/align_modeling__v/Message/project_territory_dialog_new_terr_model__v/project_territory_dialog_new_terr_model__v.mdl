@@ -1,0 +1,6 @@
+Message project_territory_dialog_new_terr_model__v (
+   label(),
+   active(true),
+   default_value('Add a new territory to this model'),
+   system_managed(false)
+);

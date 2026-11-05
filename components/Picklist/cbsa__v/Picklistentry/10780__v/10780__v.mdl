@@ -1,0 +1,5 @@
+Picklistentry 10780__v (
+   value('Alexandria, LA Metropolitan Statistical Area'),
+   order(512),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry bapma__v (
+   value('Balneology and Physical Medicine'),
+   order(113),
+   active(true),
+   controlling_entries('pl__v')
+);

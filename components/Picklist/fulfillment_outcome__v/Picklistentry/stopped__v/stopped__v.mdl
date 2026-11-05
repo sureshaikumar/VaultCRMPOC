@@ -1,0 +1,5 @@
+Picklistentry stopped__v (
+   value('Stopped'),
+   order(6),
+   active(true)
+);

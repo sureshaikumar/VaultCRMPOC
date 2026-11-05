@@ -1,0 +1,8 @@
+RECREATE Picklist consent_template_expiration_type__v (
+   label('Expiration Type'),
+   active(true),
+   Picklistentry(@Picklistentry/calendar__v.mdl),
+   Picklistentry(@Picklistentry/rolling__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

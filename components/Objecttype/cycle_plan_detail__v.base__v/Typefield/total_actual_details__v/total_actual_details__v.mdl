@@ -1,0 +1,4 @@
+Typefield total_actual_details__v (
+   source('standard'),
+   required(false)
+);

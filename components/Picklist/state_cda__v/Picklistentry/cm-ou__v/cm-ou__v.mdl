@@ -1,0 +1,6 @@
+Picklistentry cm-ou__v (
+   value('West'),
+   order(690),
+   active(true),
+   controlling_entries('cm__v')
+);

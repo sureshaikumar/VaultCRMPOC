@@ -1,0 +1,5 @@
+Picklistentry vu__v (
+   value('Vanuatu'),
+   order(239),
+   active(true)
+);

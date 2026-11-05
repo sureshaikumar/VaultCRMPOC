@@ -1,0 +1,6 @@
+Picklistentry hn-ol__v (
+   value('Olancho'),
+   order(1838),
+   active(true),
+   controlling_entries('hn__v')
+);

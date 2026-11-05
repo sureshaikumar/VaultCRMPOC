@@ -1,0 +1,7 @@
+Objectlifecyclepermission testrole_edit__c (
+   states('Objectlifecyclestate.active_state__c',
+         'Objectlifecyclestate.draft_state__c',
+         'Objectlifecyclestate.in_progress_state__c'),
+   role('Objectlifecyclerole.testrole__c'),
+   permission('Edit')
+);

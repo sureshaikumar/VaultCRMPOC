@@ -1,0 +1,6 @@
+Picklistentry si-056__v (
+   value('Kuzma'),
+   order(4030),
+   active(true),
+   controlling_entries('si__v')
+);

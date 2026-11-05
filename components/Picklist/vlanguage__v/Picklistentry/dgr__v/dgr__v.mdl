@@ -1,0 +1,5 @@
+Picklistentry dgr__v (
+   value('Dogrib'),
+   order(78),
+   active(false)
+);

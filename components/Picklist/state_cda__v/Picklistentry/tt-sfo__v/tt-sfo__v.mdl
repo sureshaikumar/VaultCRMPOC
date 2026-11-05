@@ -1,0 +1,6 @@
+Picklistentry tt-sfo__v (
+   value('San Fernando'),
+   order(4549),
+   active(true),
+   controlling_entries('tt__v')
+);

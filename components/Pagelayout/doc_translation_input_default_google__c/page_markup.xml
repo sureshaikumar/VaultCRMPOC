@@ -1,0 +1,11 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.document_translation_input_google__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" readOnly="true" />
+            <vault:field reference="source_language__sys" />
+            <vault:field reference="target_languages__sys" />
+            <vault:field reference="create_new_document__sys" />
+            <vault:field reference="up_version_target_document__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

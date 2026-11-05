@@ -1,0 +1,6 @@
+Picklistentry lk-6__v (
+   value('North Western Province'),
+   order(2582),
+   active(true),
+   controlling_entries('lk__v')
+);

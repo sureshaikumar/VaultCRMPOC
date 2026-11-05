@@ -1,0 +1,6 @@
+Message repurchase_target_lock__v (
+   label(),
+   active(true),
+   default_value('You cannot modify a canceled target that has been repurchased.'),
+   system_managed(false)
+);

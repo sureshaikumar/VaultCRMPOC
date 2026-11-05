@@ -1,0 +1,4 @@
+Typefield crm_product__c (
+   source('custom'),
+   required(false)
+);

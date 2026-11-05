@@ -1,0 +1,10 @@
+RECREATE Picklist exception_message_error_type__sys (
+   label('User Exception Message Error Type'),
+   active(true),
+   Picklistentry(@Picklistentry/message_processing_error__sys.mdl),
+   Picklistentry(@Picklistentry/item_processing_error__sys.mdl),
+   Picklistentry(@Picklistentry/connection_error__sys.mdl),
+   Picklistentry(@Picklistentry/warning__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

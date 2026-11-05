@@ -1,0 +1,6 @@
+Message voice_note_delete_warning_header__v (
+   label(),
+   active(true),
+   default_value('Delete Voice Note'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry acnha__v (
+   value('Analytical Chemistry'),
+   order(55),
+   active(true),
+   controlling_entries('dz__v')
+);

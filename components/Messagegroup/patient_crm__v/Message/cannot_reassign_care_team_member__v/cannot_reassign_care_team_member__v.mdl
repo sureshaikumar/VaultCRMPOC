@@ -1,0 +1,6 @@
+Message cannot_reassign_care_team_member__v (
+   label(),
+   active(true),
+   default_value('Cannot reassign Care Team Member. Please try again'),
+   system_managed(false)
+);

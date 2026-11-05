@@ -1,0 +1,6 @@
+Message cannot_undo_deactivate__v (
+   label(),
+   active(true),
+   default_value('Deactivating a Target List cannot be undone'),
+   system_managed(false)
+);

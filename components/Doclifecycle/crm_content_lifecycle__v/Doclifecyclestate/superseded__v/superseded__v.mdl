@@ -1,0 +1,13 @@
+Doclifecyclestate superseded__v (
+   label('Superseded'),
+   active(true),
+   description('This is the state when the document has been replaced by a newer version.'),
+   order(5),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false),
+   entry_criteria(),
+   entry_action(@entry_action.xml),
+   user_action(),
+   security_settings(@security_settings.xml)
+);

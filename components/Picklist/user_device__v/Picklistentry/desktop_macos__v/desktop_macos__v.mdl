@@ -1,0 +1,5 @@
+Picklistentry desktop_macos__v (
+   value('Desktop Mac OS'),
+   order(5),
+   active(true)
+);

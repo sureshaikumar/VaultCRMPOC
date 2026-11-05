@@ -1,0 +1,4 @@
+Typefield mc_cycle_status__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.case_timeline__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="case_number__v" />
+            <vault:field reference="source_type__v" />
+            <vault:field reference="source_user__v" />
+            <vault:field reference="source_account__v" />
+            <vault:field reference="source_system__v" />
+            <vault:field reference="conversation__v" />
+            <vault:field reference="current_value__v" />
+            <vault:field reference="field__v" />
+            <vault:field reference="from_state__v" />
+            <vault:field reference="group__v" />
+            <vault:field reference="is_public__v" />
+            <vault:field reference="previous_value__v" />
+            <vault:field reference="time_in_state__v" />
+            <vault:field reference="to_state__v" />
+            <vault:field reference="case_note__v" />
+            <vault:field reference="note_integration__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

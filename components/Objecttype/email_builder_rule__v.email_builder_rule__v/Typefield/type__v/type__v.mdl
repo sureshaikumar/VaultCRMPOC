@@ -1,0 +1,5 @@
+Typefield type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.email_builder_rule_type__v.inclusive_combination__v')
+);

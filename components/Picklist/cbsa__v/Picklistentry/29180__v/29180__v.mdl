@@ -1,0 +1,5 @@
+Picklistentry 29180__v (
+   value('Lafayette, LA Metropolitan Statistical Area'),
+   order(240),
+   active(true)
+);

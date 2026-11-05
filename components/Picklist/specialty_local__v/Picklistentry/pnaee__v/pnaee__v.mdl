@@ -1,0 +1,7 @@
+Picklistentry pnaee__v (
+   value('Paediatric Nephrology'),
+   order(1263),
+   active(true),
+   controlling_entries('gb__v',
+         'ng__v')
+);

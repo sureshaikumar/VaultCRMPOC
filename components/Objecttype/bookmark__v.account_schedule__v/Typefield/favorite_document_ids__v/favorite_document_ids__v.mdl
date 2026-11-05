@@ -1,0 +1,4 @@
+Typefield favorite_document_ids__v (
+   source('custom'),
+   required(false)
+);

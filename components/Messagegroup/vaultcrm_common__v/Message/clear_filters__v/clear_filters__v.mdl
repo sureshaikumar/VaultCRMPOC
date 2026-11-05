@@ -1,0 +1,6 @@
+Message clear_filters__v (
+   label(),
+   active(true),
+   default_value('Clear Filters'),
+   system_managed(false)
+);

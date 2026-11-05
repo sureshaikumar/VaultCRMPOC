@@ -1,0 +1,6 @@
+Picklistentry is-kal__v (
+   value('Kaldrananeshreppur'),
+   order(2119),
+   active(true),
+   controlling_entries('is__v')
+);

@@ -1,0 +1,14 @@
+Vsmfield is_leaf__v (
+   label('Is Leaf'),
+   active(true),
+   description('Indicates whether this document type detail is a leaf node in the document type hierarchy, meaning it has no child subtypes or classifications beneath it. Leaf nodes represent the most granular level of document classification available for document assignment.'),
+   example_values(),
+   synonyms('leaf node',
+         'end node',
+         'no children',
+         'terminal'),
+   target('is_leaf__v'),
+   target_label('Is Leaf'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

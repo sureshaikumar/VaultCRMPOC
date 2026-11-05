@@ -1,0 +1,5 @@
+Picklistentry 31820__v (
+   value('Manitowoc, WI Micropolitan Statistical Area'),
+   order(646),
+   active(true)
+);

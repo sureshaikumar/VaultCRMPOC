@@ -1,0 +1,4 @@
+Typefield user_signature__v (
+   source('standard'),
+   required(false)
+);

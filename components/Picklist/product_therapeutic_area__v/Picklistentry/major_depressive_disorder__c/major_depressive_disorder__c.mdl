@@ -1,0 +1,5 @@
+Picklistentry major_depressive_disorder__c (
+   value('Major Depressive Disorder'),
+   order(19),
+   active(true)
+);

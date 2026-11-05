@@ -1,0 +1,6 @@
+Picklistentry ro-il__v (
+   value('Ialomița'),
+   order(3740),
+   active(true),
+   controlling_entries('ro__v')
+);

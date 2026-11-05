@@ -1,0 +1,5 @@
+Picklistentry change_accepted__v (
+   value('CHANGE_ACCEPTED'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,22 @@
+Field minimum_travel_distance__v (
+   label('Minimum Travel Distance'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99999.99),
+   min_value(0),
+   scale(2),
+   help_content('Used to define the minimum distance in a travel distance range.'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message failed_to_send__v (
+   label(),
+   active(true),
+   default_value('Failed to Send'),
+   system_managed(false)
+);

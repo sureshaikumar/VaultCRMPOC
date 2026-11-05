@@ -1,0 +1,5 @@
+Picklistentry pneud__v (
+   value('Pediatric Nurse'),
+   order(97),
+   active(true)
+);

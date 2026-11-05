@@ -1,0 +1,6 @@
+Picklistentry omxra__v (
+   value('Oral & Maxillofacial Radiology'),
+   order(1151),
+   active(true),
+   controlling_entries('ca__v')
+);

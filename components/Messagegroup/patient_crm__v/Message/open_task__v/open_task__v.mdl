@@ -1,0 +1,6 @@
+Message open_task__v (
+   label(),
+   active(true),
+   default_value('Open Task'),
+   system_managed(false)
+);

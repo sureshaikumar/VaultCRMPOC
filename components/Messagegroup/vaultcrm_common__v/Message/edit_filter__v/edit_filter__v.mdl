@@ -1,0 +1,6 @@
+Message edit_filter__v (
+   label(),
+   active(true),
+   default_value('Edit Filter'),
+   system_managed(false)
+);

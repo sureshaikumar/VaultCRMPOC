@@ -1,0 +1,5 @@
+Picklistentry america_montevideo__sys (
+   value('(GMT-03:00) Uruguay Time (America/Montevideo)'),
+   order(128),
+   active(true)
+);

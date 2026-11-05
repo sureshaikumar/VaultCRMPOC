@@ -1,0 +1,6 @@
+Message unscheduled__v (
+   label(),
+   active(true),
+   default_value('${template_name} has been unscheduled'),
+   system_managed(false)
+);

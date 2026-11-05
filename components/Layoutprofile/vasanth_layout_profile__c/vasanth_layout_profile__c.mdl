@@ -1,0 +1,15 @@
+RECREATE Layoutprofile vasanth_layout_profile__c (
+   label('Vasanth Layout Profile'),
+   active(true),
+   description(),
+   Objectlayout(@Objectlayout/call2_callreport__c.mdl),
+   Objectlayout(@Objectlayout/call2_event__c.mdl),
+   Objectlayout(@Objectlayout/call2_medical_inquiry_fulfillment__c.mdl),
+   Objectlayout(@Objectlayout/call2_meetingbrief__c.mdl),
+   Objectlayout(@Objectlayout/call2_mslmeetingbrief__c.mdl),
+   Objectlayout(@Objectlayout/mc_cycle_channel_base__c.mdl),
+   Objectlayout(@Objectlayout/mc_cycle_channel_channel_product__c.mdl),
+   Objectlayout(@Objectlayout/mc_cycle_plan_channel_base__c.mdl),
+   Objectlayout(@Objectlayout/mc_cycle_plan_channel_channel_only__c.mdl),
+   Objectlayout(@Objectlayout/mc_cycle_plan_channel_channel_with_produ__c.mdl)
+);

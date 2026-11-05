@@ -1,0 +1,19 @@
+Field product_group__v (
+   label('Product'),
+   type('String'),
+   active(true),
+   description('Product code. This code indicate SKU (Store Keeping Unit) level product code like Cholecap 120mm.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

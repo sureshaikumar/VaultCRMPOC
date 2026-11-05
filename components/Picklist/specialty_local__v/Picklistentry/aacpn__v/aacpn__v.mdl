@@ -1,0 +1,6 @@
+Picklistentry aacpn__v (
+   value('Anatomic and Clinical Pathology'),
+   order(56),
+   active(true),
+   controlling_entries('bh__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry caho__v (
+   value('Comprehensive Acute Hospital'),
+   order(36),
+   active(true)
+);

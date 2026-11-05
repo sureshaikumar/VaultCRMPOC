@@ -1,0 +1,6 @@
+Picklistentry gb-nay__v (
+   value('North Ayrshire'),
+   order(1573),
+   active(true),
+   controlling_entries('gb__v')
+);

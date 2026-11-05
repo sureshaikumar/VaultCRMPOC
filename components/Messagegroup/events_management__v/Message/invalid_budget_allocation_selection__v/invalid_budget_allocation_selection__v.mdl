@@ -1,0 +1,6 @@
+Message invalid_budget_allocation_selection__v (
+   label(),
+   active(true),
+   default_value('Budget Allocation is enabled for this event, so you must select either one Event Budget or all Event Budgets to continue.'),
+   system_managed(false)
+);

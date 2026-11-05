@@ -1,0 +1,6 @@
+Picklistentry cpeam__v (
+   value('Clinical Pathology Endocrinology and Metabolism'),
+   order(270),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry oaggo__v (
+   value('Obstetrics and Gynecology Gynecological Oncology (Konk)'),
+   order(1085),
+   active(true),
+   controlling_entries('id__v')
+);

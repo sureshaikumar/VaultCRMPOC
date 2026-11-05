@@ -1,0 +1,6 @@
+Picklistentry paarh__v (
+   value('Pediatric and Adolescent Rheumatology'),
+   order(1330),
+   active(true),
+   controlling_entries('de__v')
+);

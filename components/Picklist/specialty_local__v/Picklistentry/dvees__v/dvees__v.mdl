@@ -1,0 +1,6 @@
+Picklistentry dvees__v (
+   value('Dermatology - Venereology'),
+   order(394),
+   active(true),
+   controlling_entries('cy__v')
+);

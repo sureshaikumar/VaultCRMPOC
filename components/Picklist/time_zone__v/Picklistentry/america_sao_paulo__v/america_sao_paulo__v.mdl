@@ -1,0 +1,5 @@
+Picklistentry america_sao_paulo__v (
+   value('Brasilia Standard Time'),
+   order(90),
+   active(true)
+);

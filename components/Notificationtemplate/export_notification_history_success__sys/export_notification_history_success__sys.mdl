@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate export_notification_history_success__sys (
+   label('Export Notification History Success'),
+   active(true),
+   description('Notification template notifying user export history was successful'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('${emailNotificationHistory} Export Completed'),
+   notification('<p>Summary:<br>Successfully exported ${emailNotificationHistory} from Vault ${vaultName}<br><a href="${linkToZipFiles}">${zipFilesObjectName}</a></p>'),
+   email_body('<p>Summary:<br>Successfully exported ${emailNotificationHistory} from Vault ${vaultName}<br><br>Results:<br><a href="${linkToZipFiles}">${zipFilesObjectName}</a></p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

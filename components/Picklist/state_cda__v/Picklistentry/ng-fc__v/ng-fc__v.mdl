@@ -1,0 +1,6 @@
+Picklistentry ng-fc__v (
+   value('Abuja Federal Capital Territory'),
+   order(3334),
+   active(true),
+   controlling_entries('ng__v')
+);

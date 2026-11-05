@@ -1,0 +1,6 @@
+Picklistentry nafeo__v (
+   value('Neurophysiology and Functional Exploration of the Nervous System'),
+   order(1036),
+   active(true),
+   controlling_entries('dz__v')
+);

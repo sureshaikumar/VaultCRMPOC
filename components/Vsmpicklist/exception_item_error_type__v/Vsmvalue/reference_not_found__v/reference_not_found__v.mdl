@@ -1,0 +1,11 @@
+Vsmvalue reference_not_found__v (
+   label('REFERENCE_NOT_FOUND'),
+   active(true),
+   description('Applies when a referenced object or related record cannot be found, indicating a broken or invalid relationship between records.'),
+   synonyms('broken reference',
+         'missing lookup',
+         'linked record not found',
+         'unresolved relationship'),
+   target('reference_not_found__sys'),
+   target_label('REFERENCE_NOT_FOUND')
+);

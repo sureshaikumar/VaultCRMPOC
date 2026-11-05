@@ -1,0 +1,6 @@
+Message new_medx__v (
+   label(),
+   active(true),
+   default_value('New Medical Interaction'),
+   system_managed(false)
+);

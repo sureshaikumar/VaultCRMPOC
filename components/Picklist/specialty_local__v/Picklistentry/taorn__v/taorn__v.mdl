@@ -1,0 +1,8 @@
+Picklistentry taorn__v (
+   value('Traumatology and Orthopedics'),
+   order(1867),
+   active(true),
+   controlling_entries('az__v',
+         'kg__v',
+         'ma__v')
+);

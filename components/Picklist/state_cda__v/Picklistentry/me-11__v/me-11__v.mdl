@@ -1,0 +1,6 @@
+Picklistentry me-11__v (
+   value('Mojkovac'),
+   order(2917),
+   active(true),
+   controlling_entries('me__v')
+);

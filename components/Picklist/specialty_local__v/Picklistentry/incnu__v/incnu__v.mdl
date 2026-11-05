@@ -1,0 +1,6 @@
+Picklistentry incnu__v (
+   value('Intensive Nursing Care'),
+   order(775),
+   active(true),
+   controlling_entries('dk__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout remote_meeting_integration_settings_deta__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Remote Meeting Integration Settings Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

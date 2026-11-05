@@ -1,0 +1,5 @@
+Picklistentry effort_vs_results__v (
+   value('Effort vs Results'),
+   order(5),
+   active(true)
+);

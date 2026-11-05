@@ -1,0 +1,4 @@
+Typefield search_outside_territory_object_type__v (
+   source('standard'),
+   required(false)
+);

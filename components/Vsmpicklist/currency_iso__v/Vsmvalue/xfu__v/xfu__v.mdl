@@ -1,0 +1,10 @@
+Vsmvalue xfu__v (
+   label('XFU'),
+   active(true),
+   description('Used for legacy UIC CIF (Franc) denominated transactions, a historical unit employed in international rail freight cost calculations under the International Union of Railways.'),
+   synonyms('CIF franc',
+         'UIC CIF franc',
+         'railway CIF unit'),
+   target('xfu__sys'),
+   target_label('XFU')
+);

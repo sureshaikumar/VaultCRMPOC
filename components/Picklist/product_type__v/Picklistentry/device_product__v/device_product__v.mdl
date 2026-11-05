@@ -1,0 +1,5 @@
+Picklistentry device_product__v (
+   value('Device Product'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,14 @@
+Vsmfield type__v (
+   label('Parent Type'),
+   active(true),
+   description('Reference to the parent document type object associated with this document type detail. Use this to identify which top-level document type this detail record belongs to or to filter detail records by their parent type.'),
+   example_values(),
+   synonyms('parent type',
+         'doc type',
+         'owning type',
+         'document type reference'),
+   target('type__v'),
+   target_label('Parent Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

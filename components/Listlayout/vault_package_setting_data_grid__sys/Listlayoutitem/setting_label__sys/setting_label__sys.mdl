@@ -1,0 +1,12 @@
+Listlayoutitem setting_label__sys (
+   label(),
+   active(true),
+   control_label('Setting'),
+   field_key(),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Control'),
+   object_control('Objectcontrol.vault_package_setting_label_control__sys'),
+   object_control_properties(@object_control_properties.xml),
+   omit_header_label()
+);

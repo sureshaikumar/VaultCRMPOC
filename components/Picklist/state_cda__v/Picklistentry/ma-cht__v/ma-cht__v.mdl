@@ -1,0 +1,6 @@
+Picklistentry ma-cht__v (
+   value('Chtouka-Ait Baha'),
+   order(2791),
+   active(true),
+   controlling_entries('ma__v')
+);

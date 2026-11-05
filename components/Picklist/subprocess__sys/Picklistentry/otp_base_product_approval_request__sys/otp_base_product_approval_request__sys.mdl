@@ -1,0 +1,6 @@
+Picklistentry otp_base_product_approval_request__sys (
+   value('Base Product Approval Request'),
+   order(19),
+   active(true),
+   controlling_entries('olc_product_approval_request__sys')
+);

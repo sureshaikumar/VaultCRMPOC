@@ -1,0 +1,6 @@
+Picklistentry az-bar__v (
+   value('Bərdə'),
+   order(148),
+   active(true),
+   controlling_entries('az__v')
+);

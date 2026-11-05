@@ -1,0 +1,13 @@
+RECREATE Picklist cvent_object_mapp_salesforce_object_name__v (
+   label('Salesforce Object Name'),
+   active(true),
+   Picklistentry(@Picklistentry/em_event__v.mdl),
+   Picklistentry(@Picklistentry/em_attendee__v.mdl),
+   Picklistentry(@Picklistentry/em_event_speaker__v.mdl),
+   Picklistentry(@Picklistentry/account__v.mdl),
+   Picklistentry(@Picklistentry/contact__v.mdl),
+   Picklistentry(@Picklistentry/user__v.mdl),
+   Picklistentry(@Picklistentry/em_speaker__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

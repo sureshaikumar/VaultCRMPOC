@@ -1,0 +1,6 @@
+Picklistentry si-114__v (
+   value('Slovenske Konjice'),
+   order(4088),
+   active(true),
+   controlling_entries('si__v')
+);

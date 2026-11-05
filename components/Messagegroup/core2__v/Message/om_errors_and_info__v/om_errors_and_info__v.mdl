@@ -1,0 +1,6 @@
+Message om_errors_and_info__v (
+   label(),
+   active(true),
+   default_value('Errors and Information'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message unbranded_content__v (
+   label(),
+   active(true),
+   default_value('Unbranded Content'),
+   system_managed(false)
+);

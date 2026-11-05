@@ -1,0 +1,9 @@
+RECREATE Sharingrule test_object_sharing_rule_for_salesteam__c (
+   label('Test Object Sharing rule for Salesteam'),
+   active(true),
+   description(),
+   object('test_object__c'),
+   criteria([country__cr.name__v = 'United States']),
+   Sharingrole(@Sharingrole/editor__v.mdl),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

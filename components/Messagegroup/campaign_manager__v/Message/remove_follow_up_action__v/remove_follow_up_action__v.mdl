@@ -1,0 +1,6 @@
+Message remove_follow_up_action__v (
+   label(),
+   active(true),
+   default_value('Remove Follow-up Action'),
+   system_managed(false)
+);

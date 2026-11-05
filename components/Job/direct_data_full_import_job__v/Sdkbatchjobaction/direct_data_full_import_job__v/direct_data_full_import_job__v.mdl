@@ -1,0 +1,6 @@
+Sdkbatchjobaction direct_data_full_import_job__v (
+   job_metadata('Jobmetadata.direct_data_full_import_job__v'),
+   label('CRM Direct Data Transfer - Full'),
+   parameters(),
+   primary_action(true)
+);

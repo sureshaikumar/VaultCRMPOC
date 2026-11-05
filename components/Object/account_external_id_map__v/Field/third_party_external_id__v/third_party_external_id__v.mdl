@@ -1,0 +1,19 @@
+Field third_party_external_id__v (
+   label('Third Party External ID'),
+   type('String'),
+   active(true),
+   description('External ID of a user provided by a 3rd Party Site'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

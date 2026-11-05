@@ -1,0 +1,19 @@
+Field hex_color__v (
+   label('Hex Color'),
+   type('String'),
+   active(true),
+   description('Hex Color code of the External Calendar.'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

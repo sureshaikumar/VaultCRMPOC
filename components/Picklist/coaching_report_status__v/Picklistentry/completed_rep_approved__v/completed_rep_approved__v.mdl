@@ -1,0 +1,5 @@
+Picklistentry completed_rep_approved__v (
+   value('Completed – Rep Approved'),
+   order(1),
+   active(true)
+);

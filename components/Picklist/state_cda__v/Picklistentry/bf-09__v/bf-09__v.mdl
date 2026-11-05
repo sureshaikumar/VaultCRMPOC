@@ -1,0 +1,6 @@
+Picklistentry bf-09__v (
+   value('Hauts-Bassins'),
+   order(323),
+   active(true),
+   controlling_entries('bf__v')
+);

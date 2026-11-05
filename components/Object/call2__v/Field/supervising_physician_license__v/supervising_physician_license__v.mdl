@@ -1,0 +1,19 @@
+Field supervising_physician_license__v (
+   label('Supervising Physician License'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content('The state license number of the Supervising Physician at the time of the Call.'),
+   list_column(false),
+   order(160),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

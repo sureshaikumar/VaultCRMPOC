@@ -1,0 +1,20 @@
+Field mobile_phone_cda__v (
+   label('Mobile Phone'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('Primary mobile phone number. May include country code including non-alphanumeric characters. e.g. +, -, (, )'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Mobile Phone'),
+   list_column(false),
+   order(114),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry ma-10__v (
+   value('Guelmim-Oued Noun (EH-partial)'),
+   order(2775),
+   active(true),
+   controlling_entries('ma__v')
+);

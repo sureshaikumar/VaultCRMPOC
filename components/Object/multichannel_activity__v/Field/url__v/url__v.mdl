@@ -1,0 +1,19 @@
+Field url__v (
+   label('URL'),
+   type('String'),
+   active(true),
+   description('Full URL which was clicked on by the viewer.'),
+   required(false),
+   unique(false),
+   max_length(500),
+   help_content(),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry me-19__v (
+   value('Tivat'),
+   order(2925),
+   active(true),
+   controlling_entries('me__v')
+);

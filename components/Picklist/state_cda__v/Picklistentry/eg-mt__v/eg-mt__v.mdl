@@ -1,0 +1,6 @@
+Picklistentry eg-mt__v (
+   value('Maţrūḩ'),
+   order(1178),
+   active(true),
+   controlling_entries('eg__v')
+);

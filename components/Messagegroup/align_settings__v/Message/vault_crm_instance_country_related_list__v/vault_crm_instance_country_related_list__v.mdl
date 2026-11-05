@@ -1,0 +1,6 @@
+Message vault_crm_instance_country_related_list__v (
+   label(),
+   active(true),
+   default_value('Assigning countries in this table to this Vault CRM instance will restrict Align to importing and pushing only records that are assigned to these countries. If this table is left empty, Align will import and export all active records regardless of country.'),
+   system_managed(false)
+);

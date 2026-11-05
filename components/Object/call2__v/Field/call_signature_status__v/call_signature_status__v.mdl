@@ -1,0 +1,19 @@
+Field call_signature_status__v (
+   label('Call Signature Status'),
+   type('String'),
+   active(true),
+   description('For reporting purposes, this field contains the status of the related signature request.'),
+   required(false),
+   unique(false),
+   max_length(30),
+   help_content(),
+   list_column(false),
+   order(235),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

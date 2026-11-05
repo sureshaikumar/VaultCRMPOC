@@ -1,0 +1,3 @@
+Typeaction submit__v (
+   action('inventory_monitoring__v.submit__v')
+);

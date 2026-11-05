@@ -1,0 +1,44 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.analytics_files__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="analytics_location__v" />
+            <vault:field reference="buckets__v" />
+            <vault:field reference="column_label__v" />
+            <vault:field reference="contains_goals__v" />
+            <vault:field reference="data_date__v" />
+            <vault:field reference="data_map_template_id__v" />
+            <vault:field reference="date_processed__v" />
+            <vault:field reference="decimal_places__v" />
+            <vault:field reference="enable_market_sales_analysis_report__v" />
+            <vault:field reference="error_reports_status__v" />
+            <vault:field reference="ftp_user_name__v" />
+            <vault:field reference="file_name__v" />
+            <vault:field reference="formulary_for_rep_label__v" />
+            <vault:field reference="incremental_load_type__v" />
+            <vault:field reference="incremental__v" />
+            <vault:field reference="mapped_fields__v" />
+            <vault:field reference="markets_mapped__v" />
+            <vault:field reference="override_account_threshold__v" />
+            <vault:field reference="payer_plan_mapped__v" />
+            <vault:field reference="row_count__v" />
+            <vault:field reference="scale__v" />
+            <vault:field reference="second_column_label__v" />
+            <vault:field reference="simplified_indexing__v" />
+            <vault:field reference="analytics_files_status__v" />
+            <vault:field reference="territory_names_included__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="market__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

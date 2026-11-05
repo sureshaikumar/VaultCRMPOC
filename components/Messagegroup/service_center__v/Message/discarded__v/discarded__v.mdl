@@ -1,0 +1,6 @@
+Message discarded__v (
+   label(),
+   active(true),
+   default_value('Discarded'),
+   system_managed(false)
+);

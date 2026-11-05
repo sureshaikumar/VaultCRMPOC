@@ -1,0 +1,6 @@
+Message vcrm_mccp_true_import_prod_cat_not__v (
+   label(),
+   active(true),
+   default_value('The Import Product Catalog field has to be set to Yes if the Manage MCCP field is set to Yes.'),
+   system_managed(false)
+);

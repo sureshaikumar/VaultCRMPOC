@@ -1,0 +1,6 @@
+Message common_none__v (
+   label(),
+   active(true),
+   default_value('(None)'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-513__v (
+   value('Liberec'),
+   order(858),
+   active(true),
+   controlling_entries('cz__v')
+);

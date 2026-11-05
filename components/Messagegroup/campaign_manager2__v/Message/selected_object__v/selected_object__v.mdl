@@ -1,0 +1,6 @@
+Message selected_object__v (
+   label(),
+   active(true),
+   default_value('Object: ${selected_object}'),
+   system_managed(false)
+);

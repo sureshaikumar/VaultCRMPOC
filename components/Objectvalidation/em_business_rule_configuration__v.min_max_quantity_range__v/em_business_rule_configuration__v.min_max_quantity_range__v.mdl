@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.min_max_quantity_range__v (
+   label('Max Quantity greater than Min'),
+   active(true),
+   expression('
+        Case(event_business_rule_type__vr.api_name__v,
+            "em_per_event_attendance_limit_rule__v", true,
+            "em_per_event_speaker_limit_rule__v", true,
+            false
+        ) = false || IsBlank(minimum_quantity__v) || IsBlank(maximum_quantity__v) || maximum_quantity__v >= minimum_quantity__v'),
+   description('Maximum Quantity must be greater than or equal to Minimum Quantity.'),
+   error_message('Maximum Quantity must be greater than or equal to Minimum Quantity.'),
+   error_location('maximum_quantity__v')
+);

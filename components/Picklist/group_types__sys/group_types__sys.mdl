@@ -1,0 +1,9 @@
+RECREATE Picklist group_types__sys (
+   label('Group Types'),
+   active(true),
+   Picklistentry(@Picklistentry/user_managed__sys.mdl),
+   Picklistentry(@Picklistentry/system_managed__sys.mdl),
+   Picklistentry(@Picklistentry/auto_managed__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

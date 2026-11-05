@@ -1,0 +1,6 @@
+Message project_field_force_import_n_hierarchy__v (
+   label(),
+   active(true),
+   default_value('Note: Importing the entire hierarchy will import this field force''s entire descendants, and their rules and product assignments. It will not import territories related to this field force hierarchy.'),
+   system_managed(false)
+);

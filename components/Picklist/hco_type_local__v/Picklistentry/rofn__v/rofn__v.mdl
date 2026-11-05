@@ -1,0 +1,5 @@
+Picklistentry rofn__v (
+   value('Retail Outlet for Non-prescription Drug'),
+   order(230),
+   active(true)
+);

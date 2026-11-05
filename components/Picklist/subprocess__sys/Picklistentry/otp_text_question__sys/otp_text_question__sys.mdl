@@ -1,0 +1,6 @@
+Picklistentry otp_text_question__sys (
+   value('Text Question'),
+   order(168),
+   active(true),
+   controlling_entries('olc_question_design__sys')
+);

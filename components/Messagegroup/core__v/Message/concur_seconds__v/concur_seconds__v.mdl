@@ -1,0 +1,6 @@
+Message concur_seconds__v (
+   label(),
+   active(true),
+   default_value('seconds'),
+   system_managed(false)
+);

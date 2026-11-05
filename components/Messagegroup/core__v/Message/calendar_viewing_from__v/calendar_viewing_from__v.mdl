@@ -1,0 +1,6 @@
+Message calendar_viewing_from__v (
+   label(),
+   active(true),
+   default_value('Viewing From'),
+   system_managed(false)
+);

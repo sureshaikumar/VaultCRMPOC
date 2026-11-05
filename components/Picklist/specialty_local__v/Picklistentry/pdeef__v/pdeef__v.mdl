@@ -1,0 +1,8 @@
+Picklistentry pdeef__v (
+   value('Pediatric Dermatovenerology'),
+   order(1361),
+   active(true),
+   controlling_entries('cz__v',
+         'rs__v',
+         'ua__v')
+);

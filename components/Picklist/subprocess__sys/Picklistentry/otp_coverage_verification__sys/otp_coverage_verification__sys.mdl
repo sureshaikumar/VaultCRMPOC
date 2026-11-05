@@ -1,0 +1,6 @@
+Picklistentry otp_coverage_verification__sys (
+   value('Coverage Verification'),
+   order(44),
+   active(true),
+   controlling_entries('olc_coverage_verification__sys')
+);

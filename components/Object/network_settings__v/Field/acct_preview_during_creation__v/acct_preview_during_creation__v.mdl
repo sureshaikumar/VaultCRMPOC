@@ -1,0 +1,23 @@
+Field acct_preview_during_creation__v (
+   label('Account Preview During Creation'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content('This flag determines whether or not to display account preview page in new account creation process. Value 1 turns it ON.'),
+   list_column(false),
+   order(9),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

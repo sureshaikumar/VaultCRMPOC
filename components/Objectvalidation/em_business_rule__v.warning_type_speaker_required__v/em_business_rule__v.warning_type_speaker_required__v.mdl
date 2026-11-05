@@ -1,0 +1,17 @@
+RECREATE Objectvalidation em_business_rule__v.warning_type_speaker_required__v (
+   label('Warning Type Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_speaker_engagement_limit_rule__v", true,
+            "em_cross_event_per_speaker_engagement__v", true,
+            "em_speaker_attendance_expense_cap_rul__v", true,
+            "speaker_attendance_product_cap_rule__v", true,
+            "em_per_event_speaker_limit_rule__v", true,
+            "em_per_event_speaker_ratio_rule__v", true,
+            false
+        ) = false || Not(IsBlank(warning_type__v))'),
+   description('Valid input for warning_type__v is not added to the Speaker Rule.'),
+   error_message('This field is required.'),
+   error_location('warning_type__v')
+);

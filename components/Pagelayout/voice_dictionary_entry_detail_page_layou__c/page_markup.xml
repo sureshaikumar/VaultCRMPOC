@@ -1,0 +1,17 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.voice_dictionary_entry__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="phrase__v" />
+            <vault:field reference="pronunciation__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="country__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

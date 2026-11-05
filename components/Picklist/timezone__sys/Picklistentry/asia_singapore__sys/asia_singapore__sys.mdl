@@ -1,0 +1,5 @@
+Picklistentry asia_singapore__sys (
+   value('(GMT+08:00) Singapore Time (Asia/Singapore)'),
+   order(266),
+   active(true)
+);

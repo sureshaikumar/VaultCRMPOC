@@ -1,0 +1,23 @@
+Field multichannel_activity_alert_num_days__v (
+   label('Multichannel Activity Alert Duration'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content('The duration in days for which the alert for multichannel activity is displayed to the users.'),
+   list_column(false),
+   order(218),
+   default_value('15'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

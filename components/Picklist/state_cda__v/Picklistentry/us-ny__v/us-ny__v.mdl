@@ -1,0 +1,6 @@
+Picklistentry us-ny__v (
+   value('New York'),
+   order(4828),
+   active(true),
+   controlling_entries('us__v')
+);

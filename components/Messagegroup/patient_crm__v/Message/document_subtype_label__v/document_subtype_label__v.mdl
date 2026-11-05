@@ -1,0 +1,6 @@
+Message document_subtype_label__v (
+   label(),
+   active(true),
+   default_value('Subtype'),
+   system_managed(false)
+);

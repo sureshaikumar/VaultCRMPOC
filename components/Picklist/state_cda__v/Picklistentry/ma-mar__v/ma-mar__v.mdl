@@ -1,0 +1,6 @@
+Picklistentry ma-mar__v (
+   value('Marrakech'),
+   order(2816),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,19 @@
+Field budget_identifier__v (
+   label('Budget Identifier'),
+   type('String'),
+   active(true),
+   description('Used in the UI to help end users identify the correct budget. This field should be populated by an admin, and be read-only to end users.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

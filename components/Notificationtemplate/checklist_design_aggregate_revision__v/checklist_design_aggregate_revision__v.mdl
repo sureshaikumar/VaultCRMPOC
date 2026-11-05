@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate checklist_design_aggregate_revision__v (
+   label('Aggregated Checklist Design Needs Review'),
+   active(true),
+   description('Notification template notifying user that their aggregated checklist design needs to be reviewed.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('The ${checklist_design__sys_label} ${target_checklist_design__sys_name} is not available for use'),
+   notification('<p>The ${checklist_design__sys_label} <a href="${urlTargetChecklistDesign}">${target_checklist_design__sys_name}</a> is not available for use because one or more sub checklists have been modified. To make this checklist available for use, assess the sub checklist changes for required updates. </p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

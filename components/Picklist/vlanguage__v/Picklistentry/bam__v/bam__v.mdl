@@ -1,0 +1,5 @@
+Picklistentry bam__v (
+   value('Bambara'),
+   order(29),
+   active(false)
+);

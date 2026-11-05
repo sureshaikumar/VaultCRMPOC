@@ -1,0 +1,6 @@
+Picklistentry it-ap__v (
+   value('Ascoli Piceno'),
+   order(2178),
+   active(true),
+   controlling_entries('it__v')
+);

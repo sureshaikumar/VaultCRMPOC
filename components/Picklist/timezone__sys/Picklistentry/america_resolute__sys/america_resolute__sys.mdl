@@ -1,0 +1,5 @@
+Picklistentry america_resolute__sys (
+   value('(GMT-06:00) Central Standard Time (America/Resolute)'),
+   order(51),
+   active(true)
+);

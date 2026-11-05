@@ -1,0 +1,4 @@
+Typefield message_body_json__sys (
+   source('standard'),
+   required(false)
+);

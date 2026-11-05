@@ -1,0 +1,5 @@
+Picklistentry 47180__v (
+   value('Vincennes, IN Micropolitan Statistical Area'),
+   order(236),
+   active(true)
+);

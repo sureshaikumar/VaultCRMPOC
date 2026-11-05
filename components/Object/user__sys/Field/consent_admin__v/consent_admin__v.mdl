@@ -1,0 +1,18 @@
+Field consent_admin__v (
+   label('Consent Admin'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Flag used to determine if user can access Consent_Header_vod and child records where Status_vod = ''Staged_vod''.'),
+   list_column(false),
+   order(62),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield goal_editing_rules__v (
+   source('standard'),
+   required(false)
+);

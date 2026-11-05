@@ -1,0 +1,15 @@
+RECREATE Notificationtemplate canceltask__v (
+   label('cancelTask'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: The task "${taskName}" has been canceled'),
+   notification('The task "${taskName}" for <b>${docName}</b> has been canceled.'),
+   email_body('<p>${notificationMessage}</p>
+
+<p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

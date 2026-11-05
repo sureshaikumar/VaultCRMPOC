@@ -1,0 +1,5 @@
+Picklistentry 34660__v (
+   value('Murray, KY Micropolitan Statistical Area'),
+   order(228),
+   active(true)
+);

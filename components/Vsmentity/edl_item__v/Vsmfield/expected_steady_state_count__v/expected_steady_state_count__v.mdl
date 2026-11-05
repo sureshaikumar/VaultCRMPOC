@@ -1,0 +1,14 @@
+Vsmfield expected_steady_state_count__v (
+   label('Expected Steady State Count'),
+   active(true),
+   description('The expected number of documents in steady state that should satisfy this EDL item\''s requirements. Use this as the target threshold when evaluating whether the actual steady_state_doc_count__v meets submission expectations.'),
+   example_values(),
+   synonyms('expected count',
+         'target doc count',
+         'required count',
+         'steady state target'),
+   target('expected_steady_state_count__v'),
+   target_label('Expected Steady State Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

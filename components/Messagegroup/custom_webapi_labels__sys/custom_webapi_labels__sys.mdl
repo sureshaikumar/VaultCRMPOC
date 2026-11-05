@@ -1,0 +1,8 @@
+RECREATE Messagegroup custom_webapi_labels__sys (
+   label('Custom WebAPI Labels'),
+   active(true),
+   Message(@Message/api_group_attribute__sys.mdl),
+   Message(@Message/endpoint_name_attribute__sys.mdl),
+   Message(@Message/minimum_version_attribute__sys.mdl),
+   Message(@Message/plural_label__sys.mdl)
+);

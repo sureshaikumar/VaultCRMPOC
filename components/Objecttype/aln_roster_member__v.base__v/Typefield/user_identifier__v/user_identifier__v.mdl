@@ -1,0 +1,4 @@
+Typefield user_identifier__v (
+   source('standard'),
+   required(false)
+);

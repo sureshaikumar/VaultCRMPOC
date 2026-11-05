@@ -1,0 +1,6 @@
+Picklistentry cv-cr__v (
+   value('Santa Cruz'),
+   order(788),
+   active(true),
+   controlling_entries('cv__v')
+);

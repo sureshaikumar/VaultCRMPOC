@@ -1,0 +1,14 @@
+Vsmfield client_id__v (
+   label('Client ID'),
+   active(true),
+   description('The client identifier assigned by an OAuth provider or external application to identify this integration. Typically used alongside a client secret for OAuth 2.0 authentication flows.'),
+   example_values(),
+   synonyms('OAuth client ID',
+         'app ID',
+         'application ID',
+         'consumer key'),
+   target('client_id__sys'),
+   target_label('Client ID'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

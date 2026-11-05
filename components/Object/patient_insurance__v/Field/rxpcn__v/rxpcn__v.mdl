@@ -1,0 +1,19 @@
+Field rxpcn__v (
+   label('RxPCN'),
+   type('String'),
+   active(true),
+   description('Processor Control Number, used to further direct the claim within the PBM''s system, similar to an internal routing code.'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content(),
+   list_column(true),
+   order(21),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

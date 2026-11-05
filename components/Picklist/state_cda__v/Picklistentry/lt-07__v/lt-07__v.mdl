@@ -1,0 +1,6 @@
+Picklistentry lt-07__v (
+   value('Druskininkai'),
+   order(2625),
+   active(true),
+   controlling_entries('lt__v')
+);

@@ -1,0 +1,6 @@
+Message model_lifecycle_update_aborted__v (
+   label(),
+   active(true),
+   default_value('Model lifecycle update aborted'),
+   system_managed(false)
+);

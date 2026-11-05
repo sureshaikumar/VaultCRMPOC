@@ -1,0 +1,5 @@
+Picklistentry 28860__v (
+   value('Kirksville, MO Micropolitan Statistical Area'),
+   order(200),
+   active(true)
+);

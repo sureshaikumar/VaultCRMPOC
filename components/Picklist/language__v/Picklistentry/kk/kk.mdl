@@ -1,0 +1,5 @@
+Picklistentry kk (
+   value('Kazakh'),
+   order(82),
+   active(true)
+);

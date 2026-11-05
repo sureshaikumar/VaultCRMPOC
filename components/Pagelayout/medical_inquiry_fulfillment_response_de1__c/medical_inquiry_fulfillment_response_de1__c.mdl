@@ -1,0 +1,8 @@
+RECREATE Pagelayout medical_inquiry_fulfillment_response_de1__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Medical Inquiry Fulfillment Response Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

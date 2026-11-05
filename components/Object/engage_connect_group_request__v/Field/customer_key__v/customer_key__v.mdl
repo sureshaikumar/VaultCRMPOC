@@ -1,0 +1,19 @@
+Field customer_key__v (
+   label('Customer Key'),
+   type('String'),
+   active(true),
+   description('Unique customer-defined identifier for Engage Connect Groups, used for data loading only. Enter a group''s Customer Key from your external system if you wish to update an existing group.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry cm-lt__v (
+   value('Littoral'),
+   order(687),
+   active(true),
+   controlling_entries('cm__v')
+);

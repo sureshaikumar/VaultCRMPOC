@@ -1,0 +1,5 @@
+Picklistentry 12700__v (
+   value('Barnstable Town, MA Metropolitan Statistical Area'),
+   order(807),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction closed_lost_state__v.entryaction1__c (
+   rule(@rule.xml),
+   order(2000)
+);

@@ -1,0 +1,6 @@
+Message connection_issue_message__v (
+   label(),
+   active(true),
+   default_value('Connection issue encountered. Please ensure your device is online and try again, or contact your administrator if the issue persists.'),
+   system_managed(false)
+);

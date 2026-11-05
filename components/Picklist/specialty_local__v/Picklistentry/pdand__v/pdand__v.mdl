@@ -1,0 +1,6 @@
+Picklistentry pdand__v (
+   value('Pediatric Digestive and Nutritional Diseases'),
+   order(1362),
+   active(true),
+   controlling_entries('is__v')
+);

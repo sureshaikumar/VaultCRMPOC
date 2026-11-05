@@ -1,0 +1,6 @@
+Picklistentry cmavl__v (
+   value('Clinical Microbiology and Virology'),
+   order(244),
+   active(true),
+   controlling_entries('at__v')
+);

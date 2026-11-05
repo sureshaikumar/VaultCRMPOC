@@ -1,0 +1,6 @@
+Picklistentry sn-lg__v (
+   value('Louga'),
+   order(4216),
+   active(true),
+   controlling_entries('sn__v')
+);

@@ -1,0 +1,6 @@
+Message thinking__v (
+   label(),
+   active(true),
+   default_value('Thinking...'),
+   system_managed(false)
+);

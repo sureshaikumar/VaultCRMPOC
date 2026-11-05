@@ -1,0 +1,6 @@
+Picklistentry ke-10__v (
+   value('Kajiado'),
+   order(2363),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,4 @@
+Typefield pronunciation__v (
+   source('standard'),
+   required(true)
+);

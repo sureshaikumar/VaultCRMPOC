@@ -1,0 +1,6 @@
+Message attempt_number_result__v (
+   label(),
+   active(true),
+   default_value('Attempt ${number}: ${result}'),
+   system_managed(false)
+);

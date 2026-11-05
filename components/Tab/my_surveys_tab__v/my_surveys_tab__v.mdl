@@ -1,0 +1,15 @@
+RECREATE Tab my_surveys_tab__v (
+   active(true),
+   all_view_label('All My Surveys'),
+   enable_global_search(false),
+   filter_criteria('[{"filter":"ownerid__v=[\"0\"]","applyOnCreate":"false"}]'),
+   global_search_placeholder(''),
+   label('My Surveys'),
+   modal_create_record(false),
+   my_view_label('My Surveys'),
+   object_type('Objecttype.survey_target__v.one_time__v,recurring__v,user_survey__v'),
+   order(1600),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent My Surveys')
+);

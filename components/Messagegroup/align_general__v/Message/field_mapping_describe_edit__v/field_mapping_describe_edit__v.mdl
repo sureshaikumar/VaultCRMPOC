@@ -1,0 +1,6 @@
+Message field_mapping_describe_edit__v (
+   label(),
+   active(true),
+   default_value('Describe & Edit'),
+   system_managed(false)
+);

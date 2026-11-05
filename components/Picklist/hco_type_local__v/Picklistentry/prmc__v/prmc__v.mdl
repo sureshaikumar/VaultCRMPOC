@@ -1,0 +1,5 @@
+Picklistentry prmc__v (
+   value('Private Medical Center'),
+   order(210),
+   active(true)
+);

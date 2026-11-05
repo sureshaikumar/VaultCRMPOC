@@ -1,0 +1,5 @@
+Picklistentry eight_hours__sys (
+   value('8 Hours'),
+   order(4),
+   active(true)
+);

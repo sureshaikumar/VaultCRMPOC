@@ -1,0 +1,18 @@
+Field enable_transfer_worksheet__v (
+   label('ENABLE_TRANSFER_WORKSHEET'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the Print Transfer Worksheet link is displayed on the My Samples page.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(162),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

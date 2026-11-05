@@ -1,0 +1,20 @@
+Field email__v (
+   label('Email Address'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('User to store the speaker''s email address'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(56),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

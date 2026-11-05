@@ -1,0 +1,5 @@
+Picklistentry pfizer_inc__v (
+   value('Pfizer Inc.'),
+   order(30),
+   active(true)
+);

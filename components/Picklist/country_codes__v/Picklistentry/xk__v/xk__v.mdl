@@ -1,0 +1,5 @@
+Picklistentry xk__v (
+   value('XK'),
+   order(246),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message no_content__v (
+   label(),
+   active(true),
+   default_value('No Content'),
+   system_managed(false)
+);

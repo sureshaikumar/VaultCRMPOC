@@ -1,0 +1,6 @@
+Picklistentry gn-du__v (
+   value('Dubréka'),
+   order(1725),
+   active(true),
+   controlling_entries('gn__v')
+);

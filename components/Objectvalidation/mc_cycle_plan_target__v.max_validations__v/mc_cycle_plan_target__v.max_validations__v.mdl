@@ -1,0 +1,8 @@
+RECREATE Objectvalidation mc_cycle_plan_target__v.max_validations__v (
+   label('Max_Validations'),
+   active(true),
+   expression('Or(IsBlank(channel_interactions_max__v ),IsBlank(channel_interactions_goal__v),channel_interactions_max__v >= channel_interactions_goal__v)'),
+   description('channel_interactions_max__v cannot be less than channel_interactions_goal__v'),
+   error_message('Channel Interactions Max cannot be less than Channel Interactions Goal.'),
+   error_location('channel_interactions_max__v')
+);

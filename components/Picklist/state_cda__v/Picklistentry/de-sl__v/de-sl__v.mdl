@@ -1,0 +1,6 @@
+Picklistentry de-sl__v (
+   value('Saarland'),
+   order(915),
+   active(true),
+   controlling_entries('de__v')
+);

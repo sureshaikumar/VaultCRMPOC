@@ -1,0 +1,6 @@
+Picklistentry ni-ns__v (
+   value('Nueva Segovia'),
+   order(3371),
+   active(true),
+   controlling_entries('ni__v')
+);

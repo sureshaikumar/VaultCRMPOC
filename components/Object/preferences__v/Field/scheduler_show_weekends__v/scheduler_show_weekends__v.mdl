@@ -1,0 +1,18 @@
+Field scheduler_show_weekends__v (
+   label('Scheduler Show Weekends'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether weekends display when viewing My Schedule'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(66),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

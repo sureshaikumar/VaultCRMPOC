@@ -1,0 +1,5 @@
+Picklistentry eu (
+   value('Basque'),
+   order(88),
+   active(true)
+);

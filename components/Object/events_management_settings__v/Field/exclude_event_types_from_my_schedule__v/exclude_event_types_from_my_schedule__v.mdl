@@ -1,0 +1,19 @@
+Field exclude_event_types_from_my_schedule__v (
+   label('Exclude Event Types From My Schedule'),
+   type('String'),
+   active(true),
+   description('Used to indicate which Event Object Types should be excluded from My Schedule. Comma limited. Example: speaker_program__v, sponsorship__v'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

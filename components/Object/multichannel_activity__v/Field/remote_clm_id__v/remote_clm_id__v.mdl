@@ -1,0 +1,19 @@
+Field remote_clm_id__v (
+   label('Remote CLM ID'),
+   type('String'),
+   active(true),
+   description('Stores the ID of the Remote CLM session'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(62),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

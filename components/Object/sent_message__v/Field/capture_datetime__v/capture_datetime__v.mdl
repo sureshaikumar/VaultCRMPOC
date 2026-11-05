@@ -1,0 +1,17 @@
+Field capture_datetime__v (
+   label('Capture Datetime'),
+   type('DateTime'),
+   active(true),
+   description('The date time when the user trigger to send content to the HCP'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

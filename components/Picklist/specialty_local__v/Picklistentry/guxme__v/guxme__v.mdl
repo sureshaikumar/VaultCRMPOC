@@ -1,0 +1,6 @@
+Picklistentry guxme__v (
+   value('Genito-Urinary Medicine'),
+   order(620),
+   active(true),
+   controlling_entries('ae__v')
+);

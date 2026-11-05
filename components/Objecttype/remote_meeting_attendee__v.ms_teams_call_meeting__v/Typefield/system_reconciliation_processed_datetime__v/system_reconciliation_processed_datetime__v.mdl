@@ -1,0 +1,4 @@
+Typefield system_reconciliation_processed_datetime__v (
+   source('custom'),
+   required(false)
+);

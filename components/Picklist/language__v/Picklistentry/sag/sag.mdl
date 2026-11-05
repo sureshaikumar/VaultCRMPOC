@@ -1,0 +1,5 @@
+Picklistentry sag (
+   value('Sango'),
+   order(291),
+   active(true)
+);

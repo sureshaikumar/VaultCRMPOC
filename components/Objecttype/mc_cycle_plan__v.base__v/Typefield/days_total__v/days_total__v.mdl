@@ -1,0 +1,4 @@
+Typefield days_total__v (
+   source('standard'),
+   required(false)
+);

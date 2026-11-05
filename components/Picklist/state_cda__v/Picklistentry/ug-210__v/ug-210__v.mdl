@@ -1,0 +1,6 @@
+Picklistentry ug-210__v (
+   value('Pallisa'),
+   order(4678),
+   active(true),
+   controlling_entries('ug__v')
+);

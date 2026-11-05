@@ -1,0 +1,22 @@
+Field days_total__v (
+   label('Days Total'),
+   type('Number'),
+   active(true),
+   description('Total Days in the Cycle Plan'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

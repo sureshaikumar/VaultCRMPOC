@@ -1,0 +1,6 @@
+Picklistentry za-wc__v (
+   value('Western Cape'),
+   order(5025),
+   active(true),
+   controlling_entries('za__v')
+);

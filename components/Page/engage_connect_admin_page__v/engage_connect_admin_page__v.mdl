@@ -1,0 +1,14 @@
+RECREATE Page engage_connect_admin_page__v (
+   label('Engage Connect Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code(),
+   description('Engage Connect Administration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.engage.controls.page.EngageConnectAdministrationPageController'),
+   url_path_name('engage-connect-admin')
+);

@@ -1,0 +1,7 @@
+RECREATE Picklist home_office_text_monitoring__v (
+   label('Home Office Text Monitoring'),
+   active(true),
+   Picklistentry(@Picklistentry/on_submit__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

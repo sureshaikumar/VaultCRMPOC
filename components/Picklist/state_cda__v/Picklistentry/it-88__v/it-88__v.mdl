@@ -1,0 +1,6 @@
+Picklistentry it-88__v (
+   value('Sardinia'),
+   order(2174),
+   active(true),
+   controlling_entries('it__v')
+);

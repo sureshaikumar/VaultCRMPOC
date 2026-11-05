@@ -1,0 +1,6 @@
+Picklistentry nz-wko__v (
+   value('Waikato'),
+   order(3441),
+   active(true),
+   controlling_entries('nz__v')
+);

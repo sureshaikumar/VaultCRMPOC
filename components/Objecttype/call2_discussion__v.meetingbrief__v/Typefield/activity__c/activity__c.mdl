@@ -1,0 +1,11 @@
+Typefield activity__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_discussion_activity__c.contracts_discussion__c',
+         'Picklist.call2_discussion_activity__c.dinner_meeting__c',
+         'Picklist.call2_discussion_activity__c.email_exchange__c',
+         'Picklist.call2_discussion_activity__c.lunch_meeting__c',
+         'Picklist.call2_discussion_activity__c.meeting__c',
+         'Picklist.call2_discussion_activity__c.other__c',
+         'Picklist.call2_discussion_activity__c.presentation__c')
+);

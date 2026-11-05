@@ -1,0 +1,18 @@
+Field team_status__v (
+   label('Team Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Comparing the Target''s Team Attainment and the % Cycle Completed.'),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.mc_cycle_plan_summary_team_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry hextr__v (
+   value('Hematology and Transfusiology'),
+   order(688),
+   active(true),
+   controlling_entries('sk__v')
+);

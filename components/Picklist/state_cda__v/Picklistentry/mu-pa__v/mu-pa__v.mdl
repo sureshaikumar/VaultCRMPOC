@@ -1,0 +1,6 @@
+Picklistentry mu-pa__v (
+   value('Pamplemousses'),
+   order(3181),
+   active(true),
+   controlling_entries('mu__v')
+);

@@ -1,0 +1,4 @@
+Typefield omniconnect_integration__v (
+   source('standard'),
+   required(false)
+);

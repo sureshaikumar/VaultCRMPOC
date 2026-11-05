@@ -1,0 +1,19 @@
+Field sync_delete_refresh_objects__v (
+   label('SYNC_DELETE_REFRESH_OBJECTS_vod'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('ALL, NONE,  or a Message reference in the format MESSAGE_NAME;;CATEGORY.'),
+   list_column(false),
+   order(274),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

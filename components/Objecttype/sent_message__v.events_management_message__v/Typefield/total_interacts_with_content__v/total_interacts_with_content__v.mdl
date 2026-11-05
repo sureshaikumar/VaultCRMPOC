@@ -1,0 +1,4 @@
+Typefield total_interacts_with_content__v (
+   source('custom'),
+   required(false)
+);

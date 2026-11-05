@@ -1,0 +1,19 @@
+Field wholesaler_priority__v (
+   label('Wholesaler Priority'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Helper field to store the list and priority of wholesalers in an Order. Each wholesaler and priority must be separated by double semi-colon and ordered in priority from left to right'),
+   list_column(false),
+   order(68),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

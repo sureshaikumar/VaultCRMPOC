@@ -1,0 +1,4 @@
+Typefield cobrowse_mc_session__v (
+   source('standard'),
+   required(false)
+);

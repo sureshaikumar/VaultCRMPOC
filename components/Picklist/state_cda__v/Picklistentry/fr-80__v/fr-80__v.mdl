@@ -1,0 +1,6 @@
+Picklistentry fr-80__v (
+   value('Somme'),
+   order(1398),
+   active(true),
+   controlling_entries('fr__v')
+);

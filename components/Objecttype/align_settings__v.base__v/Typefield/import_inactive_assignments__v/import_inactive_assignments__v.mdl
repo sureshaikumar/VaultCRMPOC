@@ -1,0 +1,4 @@
+Typefield import_inactive_assignments__v (
+   source('standard'),
+   required(false)
+);

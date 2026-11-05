@@ -1,0 +1,6 @@
+Message duplicate_merge_fields_detected__v (
+   label(),
+   active(true),
+   default_value('Duplicate merge field labels detected in (${file_name}). Each field should only appear once.'),
+   system_managed(false)
+);

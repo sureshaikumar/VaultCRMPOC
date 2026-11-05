@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction active_state__v.update_consent_type_active__v (
+   rule(@rule.xml),
+   order(1000)
+);

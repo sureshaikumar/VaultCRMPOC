@@ -1,0 +1,19 @@
+Field walk_in_attendee_statuses__v (
+   label('Walk-In Attendee Statuses'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Controls values that display in the status field used when creating new walk-ins. Field accepts values from the em_attendee_status__v. Values display in the order listed with the first item displaying as the default value'),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

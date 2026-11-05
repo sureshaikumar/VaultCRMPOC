@@ -1,0 +1,6 @@
+Picklistentry cn-zj__v (
+   value('Zhejiang Sheng'),
+   order(726),
+   active(true),
+   controlling_entries('cn__v')
+);

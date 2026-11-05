@@ -1,0 +1,17 @@
+Field message__v (
+   label('Message'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(4096),
+   help_content('Chat message'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

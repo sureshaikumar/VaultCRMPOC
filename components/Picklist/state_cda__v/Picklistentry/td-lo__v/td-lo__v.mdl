@@ -1,0 +1,6 @@
+Picklistentry td-lo__v (
+   value('Lūqūn al Gharbī'),
+   order(4310),
+   active(true),
+   controlling_entries('td__v')
+);

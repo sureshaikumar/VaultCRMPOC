@@ -1,0 +1,17 @@
+Field latest_attachment_added_date__v (
+   label('Latest Attachment Added Date'),
+   type('DateTime'),
+   active(true),
+   description('Updated whenever external email provider uploads an attachment.'),
+   required(false),
+   help_content('Updated whenever external email provider uploads an attachment.'),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

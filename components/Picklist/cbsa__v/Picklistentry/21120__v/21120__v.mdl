@@ -1,0 +1,5 @@
+Picklistentry 21120__v (
+   value('Elk City, OK Micropolitan Statistical Area'),
+   order(741),
+   active(true)
+);

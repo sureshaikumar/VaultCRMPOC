@@ -1,0 +1,4 @@
+Typefield discussion_topics__c (
+   source('standard'),
+   required(false)
+);

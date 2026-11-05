@@ -1,0 +1,6 @@
+Message fax_intake_fax_discarded__v (
+   label(),
+   active(true),
+   default_value('Fax Discarded'),
+   system_managed(false)
+);

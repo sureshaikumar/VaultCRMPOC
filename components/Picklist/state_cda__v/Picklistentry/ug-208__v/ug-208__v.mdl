@@ -1,0 +1,6 @@
+Picklistentry ug-208__v (
+   value('Kumi'),
+   order(4676),
+   active(true),
+   controlling_entries('ug__v')
+);

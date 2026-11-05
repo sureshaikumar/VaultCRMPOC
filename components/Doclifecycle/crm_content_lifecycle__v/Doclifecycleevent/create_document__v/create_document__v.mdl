@@ -1,0 +1,6 @@
+Doclifecycleevent create_document__v (
+   active(true),
+   event('create_document'),
+   rule(@rule.xml),
+   order(0)
+);

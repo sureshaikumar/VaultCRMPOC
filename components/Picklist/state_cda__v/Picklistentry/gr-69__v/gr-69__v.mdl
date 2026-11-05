@@ -1,0 +1,6 @@
+Picklistentry gr-69__v (
+   value('Ágion Óros'),
+   order(1766),
+   active(true),
+   controlling_entries('gr__v')
+);

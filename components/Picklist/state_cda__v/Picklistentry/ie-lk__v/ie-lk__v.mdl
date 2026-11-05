@@ -1,0 +1,6 @@
+Picklistentry ie-lk__v (
+   value('Limerick'),
+   order(1975),
+   active(true),
+   controlling_entries('ie__v')
+);

@@ -1,0 +1,6 @@
+Message edit_flows_lock_tooltip__v (
+   label(),
+   active(true),
+   default_value('The first flow cannot be removed'),
+   system_managed(false)
+);

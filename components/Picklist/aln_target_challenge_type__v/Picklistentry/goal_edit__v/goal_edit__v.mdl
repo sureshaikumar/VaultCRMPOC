@@ -1,0 +1,5 @@
+Picklistentry goal_edit__v (
+   value('Goal Edit'),
+   order(0),
+   active(true)
+);

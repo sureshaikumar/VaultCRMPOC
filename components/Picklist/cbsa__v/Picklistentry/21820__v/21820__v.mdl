@@ -1,0 +1,5 @@
+Picklistentry 21820__v (
+   value('Fairbanks, AK Metropolitan Statistical Area'),
+   order(100),
+   active(true)
+);

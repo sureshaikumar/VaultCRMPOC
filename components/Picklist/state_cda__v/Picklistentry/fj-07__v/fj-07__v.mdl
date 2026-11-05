@@ -1,0 +1,6 @@
+Picklistentry fj-07__v (
+   value('Macuata'),
+   order(1298),
+   active(true),
+   controlling_entries('fj__v')
+);

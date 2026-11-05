@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.campaign_activity_target_execution__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="outcome__v" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="legacy_crm_id__v" />
+            <vault:field reference="campaign_activity__v" />
+            <vault:field reference="sent_email__v" />
+            <vault:field reference="campaign_target__v" />
+            <vault:field reference="ctrl_campaign__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

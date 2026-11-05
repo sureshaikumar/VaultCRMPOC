@@ -1,0 +1,6 @@
+Picklistentry phemr__v (
+   value('Pre-Hospital Emergency Medicine'),
+   order(1583),
+   active(true),
+   controlling_entries('gb__v')
+);

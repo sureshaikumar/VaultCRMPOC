@@ -1,0 +1,6 @@
+Message error_contains_required_user_input_token__v (
+   label(),
+   active(true),
+   default_value('Contains required user input tokens'),
+   system_managed(false)
+);

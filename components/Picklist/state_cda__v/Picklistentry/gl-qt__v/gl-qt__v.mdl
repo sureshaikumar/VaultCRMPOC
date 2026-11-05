@@ -1,0 +1,6 @@
+Picklistentry gl-qt__v (
+   value('Kommune Qeqertalik'),
+   order(1707),
+   active(true),
+   controlling_entries('gl__v')
+);

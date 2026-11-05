@@ -1,0 +1,6 @@
+Message import_from_crm_aborted__v (
+   label(),
+   active(true),
+   default_value('Import from CRM aborted'),
+   system_managed(false)
+);

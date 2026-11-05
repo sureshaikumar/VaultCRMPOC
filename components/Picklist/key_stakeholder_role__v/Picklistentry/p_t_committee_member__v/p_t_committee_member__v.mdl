@@ -1,0 +1,5 @@
+Picklistentry p_t_committee_member__v (
+   value('P&T Committee Member'),
+   order(3),
+   active(true)
+);

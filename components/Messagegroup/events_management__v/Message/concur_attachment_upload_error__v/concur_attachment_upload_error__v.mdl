@@ -1,0 +1,6 @@
+Message concur_attachment_upload_error__v (
+   label(),
+   active(true),
+   default_value('${object_name} could not be submitted to Concur because attachment(s) failed to upload.'),
+   system_managed(false)
+);

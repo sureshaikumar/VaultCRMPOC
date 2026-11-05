@@ -1,0 +1,6 @@
+Picklistentry cv-pr__v (
+   value('Praia'),
+   order(793),
+   active(true),
+   controlling_entries('cv__v')
+);

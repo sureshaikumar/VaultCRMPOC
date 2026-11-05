@@ -1,0 +1,6 @@
+Message mode_notes__v (
+   label(),
+   active(true),
+   default_value('${mode} Notes'),
+   system_managed(false)
+);

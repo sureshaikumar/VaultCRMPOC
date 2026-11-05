@@ -1,0 +1,18 @@
+Field cvent_object_name__v (
+   label('Cvent Object Name'),
+   type('Picklist'),
+   active(true),
+   description('Stores the Cvent object name.'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.cvent_object_mapping_cvent_object_name__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

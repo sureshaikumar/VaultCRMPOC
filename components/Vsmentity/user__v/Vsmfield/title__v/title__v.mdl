@@ -1,0 +1,11 @@
+Vsmfield title__v (
+   label('Title'),
+   active(true),
+   description('The user\''s professional job title.'),
+   example_values(),
+   synonyms(),
+   target('title__sys'),
+   target_label('Title'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

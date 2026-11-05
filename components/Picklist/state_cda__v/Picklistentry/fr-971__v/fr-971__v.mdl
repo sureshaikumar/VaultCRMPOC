@@ -1,0 +1,6 @@
+Picklistentry fr-971__v (
+   value('Guadeloupe'),
+   order(1414),
+   active(true),
+   controlling_entries('fr__v')
+);

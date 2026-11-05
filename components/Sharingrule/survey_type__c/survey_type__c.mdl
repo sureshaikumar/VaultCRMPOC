@@ -1,0 +1,9 @@
+RECREATE Sharingrule survey_type__c (
+   label('Survey Type'),
+   active(true),
+   description('Share survey of object type One Time, Recurring,
+    Suggestion, User, and Events with all internal users.'),
+   object('survey__v'),
+   criteria([object_type__vr.api_name__v = 'one_time__v' OR object_type__vr.api_name__v = 'recurring__v' OR object_type__vr.api_name__v = 'suggestion_survey__v' OR object_type__vr.api_name__v = 'event_survey__v' OR object_type__vr.api_name__v = 'user_survey__v']),
+   Sharingrole(@Sharingrole/viewer__v.mdl)
+);

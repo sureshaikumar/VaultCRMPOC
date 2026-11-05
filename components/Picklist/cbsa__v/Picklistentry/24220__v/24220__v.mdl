@@ -1,0 +1,5 @@
+Picklistentry 24220__v (
+   value('Grand Forks, ND-MN Metropolitan Statistical Area'),
+   order(450),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry is-sdn__v (
+   value('Suðurnesjabær'),
+   order(2133),
+   active(true),
+   controlling_entries('is__v')
+);

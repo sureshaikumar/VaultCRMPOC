@@ -1,0 +1,6 @@
+Message calculate_rollups__v (
+   label(),
+   active(true),
+   default_value('Calculate Rollups'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry sz-hh__v (
+   value('Hhohho'),
+   order(4296),
+   active(true),
+   controlling_entries('sz__v')
+);

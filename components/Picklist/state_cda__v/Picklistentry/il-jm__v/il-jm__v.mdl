@@ -1,0 +1,6 @@
+Picklistentry il-jm__v (
+   value('Jerusalem (Israel)'),
+   order(1993),
+   active(true),
+   controlling_entries('il__v')
+);

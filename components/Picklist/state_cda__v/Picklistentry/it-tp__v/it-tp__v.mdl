@@ -1,0 +1,6 @@
+Picklistentry it-tp__v (
+   value('Trapani'),
+   order(2268),
+   active(true),
+   controlling_entries('it__v')
+);

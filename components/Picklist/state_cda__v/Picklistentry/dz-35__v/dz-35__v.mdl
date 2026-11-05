@@ -1,0 +1,6 @@
+Picklistentry dz-35__v (
+   value('Boumerdès'),
+   order(1016),
+   active(true),
+   controlling_entries('dz__v')
+);

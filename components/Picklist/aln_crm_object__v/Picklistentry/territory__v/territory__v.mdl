@@ -1,0 +1,5 @@
+Picklistentry territory__v (
+   value('territory__v'),
+   order(14),
+   active(true)
+);

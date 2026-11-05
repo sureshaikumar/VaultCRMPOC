@@ -1,0 +1,4 @@
+Typefield last_android_connect_version__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,11 @@
+Picklistentry rdees__v (
+   value('Restorative Dentistry'),
+   order(1746),
+   active(true),
+   controlling_entries('ee__v',
+         'ng__v',
+         'nz__v',
+         'qa__v',
+         'sa__v',
+         'tr__v')
+);

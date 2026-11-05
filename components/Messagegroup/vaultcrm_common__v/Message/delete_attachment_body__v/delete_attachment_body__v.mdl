@@ -1,0 +1,6 @@
+Message delete_attachment_body__v (
+   label(),
+   active(true),
+   default_value('Are you sure you wish to delete all versions of "${attachment_name}"?'),
+   system_managed(false)
+);

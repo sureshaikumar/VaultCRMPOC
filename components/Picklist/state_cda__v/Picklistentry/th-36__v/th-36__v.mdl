@@ -1,0 +1,6 @@
+Picklistentry th-36__v (
+   value('Chaiyaphum'),
+   order(4352),
+   active(true),
+   controlling_entries('th__v')
+);

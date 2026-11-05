@@ -1,0 +1,4 @@
+Typefield invitee_locale__v (
+   source('standard'),
+   required(false)
+);

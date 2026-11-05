@@ -1,0 +1,6 @@
+Message context__sys (
+   label(),
+   active(true),
+   default_value('Context'),
+   system_managed(true)
+);

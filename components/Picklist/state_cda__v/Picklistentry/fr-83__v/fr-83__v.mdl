@@ -1,0 +1,6 @@
+Picklistentry fr-83__v (
+   value('Var'),
+   order(1401),
+   active(true),
+   controlling_entries('fr__v')
+);

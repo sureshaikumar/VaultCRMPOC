@@ -1,0 +1,6 @@
+Message crm_integration_record_inactive__v (
+   label(),
+   active(true),
+   default_value('Record Inactive'),
+   system_managed(false)
+);

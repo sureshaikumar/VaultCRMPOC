@@ -1,0 +1,10 @@
+Vsmvalue ghc__v (
+   label('GHC'),
+   active(true),
+   description('The Ghanaian Cedi (GHC), the former currency unit of Ghana replaced by the Ghana Cedi (GHS) in 2007, used for historical or legacy financial records.'),
+   synonyms('Ghanaian cedi old',
+         'old cedi',
+         'Ghana legacy currency'),
+   target('ghc__sys'),
+   target_label('GHC')
+);

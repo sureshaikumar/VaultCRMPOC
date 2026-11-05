@@ -1,0 +1,5 @@
+Picklistentry genentech_inc__v (
+   value('Genentech, Inc'),
+   order(16),
+   active(true)
+);

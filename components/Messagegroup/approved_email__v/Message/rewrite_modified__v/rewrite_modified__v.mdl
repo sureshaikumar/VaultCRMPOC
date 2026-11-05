@@ -1,0 +1,6 @@
+Message rewrite_modified__v (
+   label(),
+   active(true),
+   default_value('Modified: ${style_name}'),
+   system_managed(false)
+);

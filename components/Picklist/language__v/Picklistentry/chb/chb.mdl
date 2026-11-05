@@ -1,0 +1,5 @@
+Picklistentry chb (
+   value('Chibcha'),
+   order(154),
+   active(true)
+);

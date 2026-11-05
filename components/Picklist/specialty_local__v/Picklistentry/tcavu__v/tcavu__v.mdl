@@ -1,0 +1,6 @@
+Picklistentry tcavu__v (
+   value('Thoracic, Cardiac and Vascular Surgery Pediatric and Congenital Cardiac Surgery'),
+   order(1843),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,7 @@
+Picklistentry bmree__v (
+   value('Breast Medicine'),
+   order(137),
+   active(true),
+   controlling_entries('qa__v',
+         'tw__v')
+);

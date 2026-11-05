@@ -1,0 +1,19 @@
+Field address__v (
+   label('Address'),
+   type('String'),
+   active(true),
+   description('Full address of the patient. System-managed.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

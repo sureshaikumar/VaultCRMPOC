@@ -1,0 +1,7 @@
+Typefield event_timing__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_rule_event_timing__v.after_event__v',
+         'Picklist.em_event_rule_event_timing__v.before_event__v'),
+   default_value('Picklist.em_event_rule_event_timing__v.before_event__v')
+);

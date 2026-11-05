@@ -1,0 +1,6 @@
+Message mccp_feedback_other_users_targeting__v (
+   label(),
+   active(true),
+   default_value('Other Users Targeting this Account'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.child_event_rule_config__v.child_event_rule_related_list__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="parent_event_field__v" />
+            <vault:field reference="em_event_rule__v" />
+            <vault:field reference="parent_event_related_list__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

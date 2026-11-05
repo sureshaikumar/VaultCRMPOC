@@ -1,0 +1,17 @@
+RECREATE Vsmentity legalhold_item__v (
+   label('Legal Hold Item'),
+   active(true),
+   description('Represents an individual item placed under a legal hold as part of an organization\''s litigation or compliance preservation process. Legal Hold Items link specific documents to an active legal hold, ensuring that relevant materials are preserved and protected from modification or deletion. These items are typically managed by legal or compliance teams during investigations, audits, or litigation proceedings. Common use cases include identifying all content subject to a specific hold, tracking preservation status, and ensuring regulatory or legal obligations are met.'),
+   synonyms('legal hold',
+      'hold item',
+      'litigation hold',
+      'preservation item'),
+   target('Object.legalhold_item__v'),
+   target_label('Legal Hold Item'),
+   Vsmfield(@Vsmfield/doc_id_major_minor__v.mdl),
+   Vsmfield(@Vsmfield/doc_name__v.mdl),
+   Vsmfield(@Vsmfield/document__v.mdl),
+   Vsmfield(@Vsmfield/document_unbound__v.mdl),
+   Vsmfield(@Vsmfield/legalhold__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl)
+);

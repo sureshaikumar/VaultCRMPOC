@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate inventory_order_approved__v (
+   label('Inventory Order Approved'),
+   active(true),
+   description('An email template for email when the inventory order has been approved.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.inventory_order__v'),
+   subject(' Inventory Order: Approved'),
+   notification('Inventory Order ${Object.name__v}: Approved'),
+   email_body('Hello, The following Inventory Order has been approved. Order ID: ${Object.name__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

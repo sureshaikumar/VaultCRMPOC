@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:downRelationships>
+    <vrt:downRelationship key="agent_action_execution__sys.agent_instance__sys" />
+  </vrt:downRelationships>
+</vrt:reportType>

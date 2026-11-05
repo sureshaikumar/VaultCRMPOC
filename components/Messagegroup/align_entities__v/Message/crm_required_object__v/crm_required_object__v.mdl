@@ -1,0 +1,6 @@
+Message crm_required_object__v (
+   label(),
+   active(true),
+   default_value('When mastered_by_align__v = yes__v, ${field_name} must not be null.'),
+   system_managed(false)
+);

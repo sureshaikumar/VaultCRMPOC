@@ -1,0 +1,6 @@
+Picklistentry fr-76__v (
+   value('Seine-Maritime'),
+   order(1394),
+   active(true),
+   controlling_entries('fr__v')
+);

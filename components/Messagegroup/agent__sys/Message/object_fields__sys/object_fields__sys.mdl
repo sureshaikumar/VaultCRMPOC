@@ -1,0 +1,6 @@
+Message object_fields__sys (
+   label(),
+   active(true),
+   default_value('Object Fields'),
+   system_managed(true)
+);

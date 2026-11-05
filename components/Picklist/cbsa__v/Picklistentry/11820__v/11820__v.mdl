@@ -1,0 +1,5 @@
+Picklistentry 11820__v (
+   value('Astoria, OR Micropolitan Statistical Area'),
+   order(746),
+   active(true)
+);

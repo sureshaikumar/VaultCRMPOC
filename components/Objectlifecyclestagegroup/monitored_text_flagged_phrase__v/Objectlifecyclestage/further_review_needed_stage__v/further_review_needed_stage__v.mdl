@@ -1,0 +1,7 @@
+Objectlifecyclestage further_review_needed_stage__v (
+   label('Further Review Needed'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.further_review_needed_state__v'),
+   order(3)
+);

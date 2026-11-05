@@ -1,0 +1,6 @@
+Message create_email_activity__v (
+   label(),
+   active(true),
+   default_value('Create Email Activity'),
+   system_managed(false)
+);

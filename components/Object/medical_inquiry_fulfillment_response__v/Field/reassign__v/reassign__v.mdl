@@ -1,0 +1,18 @@
+Field reassign__v (
+   label('Reassign?'),
+   type('Boolean'),
+   active(true),
+   description('Used to indicate that the associated Medical Inquiry Fulfillment record requires an additional response for completion.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(24),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

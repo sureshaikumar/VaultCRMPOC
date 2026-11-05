@@ -1,0 +1,6 @@
+Message destination_vault_warnings__v (
+   label(),
+   active(true),
+   default_value('Destination Vault Warnings'),
+   system_managed(false)
+);

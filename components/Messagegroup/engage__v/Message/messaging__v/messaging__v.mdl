@@ -1,0 +1,6 @@
+Message messaging__v (
+   label(),
+   active(true),
+   default_value('Messaging'),
+   system_managed(false)
+);

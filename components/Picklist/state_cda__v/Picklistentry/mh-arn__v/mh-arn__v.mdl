@@ -1,0 +1,6 @@
+Picklistentry mh-arn__v (
+   value('Arno'),
+   order(2940),
+   active(true),
+   controlling_entries('mh__v')
+);

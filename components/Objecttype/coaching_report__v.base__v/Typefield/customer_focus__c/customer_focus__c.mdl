@@ -1,0 +1,4 @@
+Typefield customer_focus__c (
+   source('standard'),
+   required(false)
+);

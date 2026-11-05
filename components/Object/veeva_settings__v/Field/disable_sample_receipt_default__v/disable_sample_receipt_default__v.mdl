@@ -1,0 +1,18 @@
+Field disable_sample_receipt_default__v (
+   label('DISABLE_SAMPLE_RECEIPT_DEFAULT'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the Confirmed Quantity value on a Sample Receipt record is defaulted or if the user is required to enter in the quantity received for each line item.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(99),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

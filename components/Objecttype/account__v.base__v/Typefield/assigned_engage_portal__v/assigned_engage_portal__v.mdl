@@ -1,0 +1,4 @@
+Typefield assigned_engage_portal__v (
+   source('standard'),
+   required(false)
+);

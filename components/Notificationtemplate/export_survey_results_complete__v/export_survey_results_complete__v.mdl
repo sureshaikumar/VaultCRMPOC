@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate export_survey_results_complete__v (
+   label('Export Survey Results Complete'),
+   active(true),
+   description('Notifies the user their survey results export is successful.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.survey__v'),
+   subject('Notification: Survey Results Export Complete'),
+   notification('<p> Your survey results export for ${Custom.survey_name} successfully completed. </p> <p> <a href="${uiBaseExtUrl}/${Custom.report_url}">Download survey results</a> </p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

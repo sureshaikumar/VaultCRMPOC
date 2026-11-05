@@ -1,0 +1,5 @@
+Picklistentry mad__sys (
+   value('MAD'),
+   order(112),
+   active(true)
+);

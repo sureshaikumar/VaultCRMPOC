@@ -1,0 +1,13 @@
+Vsmfield admin_key__v (
+   label('Admin Key'),
+   active(true),
+   description('System-level administrative key that uniquely identifies the locale record. Used internally for programmatic references and integrations where a stable, non-display identifier is needed.'),
+   example_values(),
+   synonyms('locale code',
+         'locale identifier',
+         'locale key'),
+   target('admin_key__sys'),
+   target_label('Admin Key'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

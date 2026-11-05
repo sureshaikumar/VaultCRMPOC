@@ -1,0 +1,6 @@
+Message make_secondary__v (
+   label(),
+   active(true),
+   default_value('Make Secondary'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation inventory_order_allocation__v.allocation_start_before_end_date__v (
+   label('Allocation Start Date Before End Date'),
+   active(true),
+   expression('allocation_start_date__v <= allocation_end_date__v'),
+   description('This validation rule ensures that the Allocation Start Date always falls behind the Allocation End Date.'),
+   error_message('Allocation Start Date cannot be after Allocation End Date'),
+   error_location('allocation_start_date__v')
+);

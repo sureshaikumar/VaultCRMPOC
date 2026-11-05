@@ -1,0 +1,6 @@
+Picklistentry ao-lua__v (
+   value('Luanda'),
+   order(91),
+   active(true),
+   controlling_entries('ao__v')
+);

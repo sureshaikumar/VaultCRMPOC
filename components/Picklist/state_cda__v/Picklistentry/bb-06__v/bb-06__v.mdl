@@ -1,0 +1,6 @@
+Picklistentry bb-06__v (
+   value('Saint Joseph'),
+   order(224),
+   active(true),
+   controlling_entries('bb__v')
+);

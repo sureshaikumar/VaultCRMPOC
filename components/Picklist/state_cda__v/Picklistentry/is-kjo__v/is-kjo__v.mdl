@@ -1,0 +1,6 @@
+Picklistentry is-kjo__v (
+   value('Kjósarhreppur'),
+   order(2120),
+   active(true),
+   controlling_entries('is__v')
+);

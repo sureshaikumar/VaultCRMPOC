@@ -1,0 +1,6 @@
+Message import_choose__v (
+   label(),
+   active(true),
+   default_value('Choose File'),
+   system_managed(false)
+);

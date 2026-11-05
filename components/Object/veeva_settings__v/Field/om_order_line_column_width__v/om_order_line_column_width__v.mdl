@@ -1,0 +1,20 @@
+Field om_order_line_column_width__v (
+   label('OM_ORDER_LINE_COLUMN_WIDTH'),
+   type('String'),
+   active(true),
+   description('Reference to a Veeva message that defines pixel widths for columns in the Order Lines list in the order entry window.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(235),
+   default_value('"OM_ORDER_LINE_COLUMN_WIDTH;;ORDER_MANAGEMENT"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,9 @@
+RECREATE Permissionset ai_user_actions__sys (
+   label('Vault AI User Actions'),
+   active(true),
+   description('Additional permissions required to access Vault AI'),
+   agent.agent_permissions('execute'),
+   page.vault_ai__sys.page_actions('view'),
+   tab.vault_ai__v.tab_actions('view'),
+   vault_actions.veeva_ai_chat('use_chat')
+);

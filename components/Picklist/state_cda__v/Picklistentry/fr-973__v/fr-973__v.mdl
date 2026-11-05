@@ -1,0 +1,6 @@
+Picklistentry fr-973__v (
+   value('Guyane (française)'),
+   order(1416),
+   active(true),
+   controlling_entries('fr__v')
+);

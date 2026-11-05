@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.record_a_call__v (
+   label('Record a Call'),
+   description('Action that Records a Call from an Event'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.RecordACallAction'),
+   active(true),
+   available_all_states(true)
+);

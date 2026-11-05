@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17658748070762393__c (
+   label('Sales_Rep_team5'),
+   active(true),
+   application_role('team5__c'),
+   permission_sets('Permissionset.team5_permission__c')
+);

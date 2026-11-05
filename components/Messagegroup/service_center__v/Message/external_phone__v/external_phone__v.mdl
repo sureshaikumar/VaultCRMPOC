@@ -1,0 +1,6 @@
+Message external_phone__v (
+   label(),
+   active(true),
+   default_value('External Phone'),
+   system_managed(false)
+);

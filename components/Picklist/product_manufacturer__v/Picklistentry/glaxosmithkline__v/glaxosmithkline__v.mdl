@@ -1,0 +1,5 @@
+Picklistentry glaxosmithkline__v (
+   value('GlaxoSmithKline'),
+   order(18),
+   active(true)
+);

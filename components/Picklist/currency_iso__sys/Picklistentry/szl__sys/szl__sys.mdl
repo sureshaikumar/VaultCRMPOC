@@ -1,0 +1,5 @@
+Picklistentry szl__sys (
+   value('SZL'),
+   order(174),
+   active(true)
+);

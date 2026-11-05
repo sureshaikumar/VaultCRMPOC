@@ -1,0 +1,5 @@
+Picklistentry 2022__v (
+   value('2022'),
+   order(0),
+   active(true)
+);

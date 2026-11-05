@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <expression operator="eq" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+            <value>Object.channel_assignment__v.status_message__v</value>
+        </expression>
+        <expression operator="value" type="string">
+            <value>err_provider__v</value>
+        </expression>
+    </expression>
+    <actions>
+        <action type="LIFECYCLE_NOTIFICATION_ENTRY_ACTION" notificationTemplateKey="Notificationtemplate.prov_error_channel_assignment__v">
+            <notificationGroupIds>service_center_admins__c</notificationGroupIds>
+        </action>
+    </actions>
+</rule>

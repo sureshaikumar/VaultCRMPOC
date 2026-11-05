@@ -1,0 +1,6 @@
+Picklistentry ly-nl__v (
+   value('Nālūt'),
+   order(2757),
+   active(true),
+   controlling_entries('ly__v')
+);

@@ -1,0 +1,4 @@
+Typefield collaboration_resource_member__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field publish_event__v (
+   label('Publish Event'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether this event is available for external view such as registration.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(108),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

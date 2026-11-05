@@ -1,0 +1,6 @@
+Message generic_product_target_restricted__v (
+   label(),
+   active(true),
+   default_value('The below product goals cannot be created due to product restrictions.'),
+   system_managed(false)
+);

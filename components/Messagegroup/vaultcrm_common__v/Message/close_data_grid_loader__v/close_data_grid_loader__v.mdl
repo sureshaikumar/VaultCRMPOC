@@ -1,0 +1,6 @@
+Message close_data_grid_loader__v (
+   label(),
+   active(true),
+   default_value('Close Data Grid Loader'),
+   system_managed(false)
+);

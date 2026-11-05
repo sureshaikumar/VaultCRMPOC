@@ -1,0 +1,6 @@
+Message patients__v (
+   label(),
+   active(true),
+   default_value('Patients'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field received_by_middle__v (
+   label('Received By Middle Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(55),
+   help_content('Hosts the Middle name of the Receiver in the Content Acknowledgment form'),
+   list_column(false),
+   order(23),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

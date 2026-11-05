@@ -1,0 +1,6 @@
+RECREATE Picklist case_subcategory__v (
+   label('Case Subcategory'),
+   active(true),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

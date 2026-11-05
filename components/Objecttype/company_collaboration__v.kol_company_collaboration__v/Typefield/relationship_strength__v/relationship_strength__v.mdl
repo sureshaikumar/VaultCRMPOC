@@ -1,0 +1,7 @@
+Typefield relationship_strength__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.company_collaborat_relationship_strength__v.none__v',
+         'Picklist.company_collaborat_relationship_strength__v.strong__v',
+         'Picklist.company_collaborat_relationship_strength__v.weak__v')
+);

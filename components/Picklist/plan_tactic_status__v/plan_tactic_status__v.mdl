@@ -1,0 +1,8 @@
+RECREATE Picklist plan_tactic_status__v (
+   label('Plan Tactic Status'),
+   active(true),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

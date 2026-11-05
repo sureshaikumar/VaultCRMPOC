@@ -1,0 +1,10 @@
+RECREATE Tab medx_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Medical Interactions'),
+   order(900),
+   page('Page.medx_page__v'),
+   parent(),
+   url(@url.txt)
+);

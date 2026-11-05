@@ -1,0 +1,4 @@
+Typefield dose_frequency__v (
+   source('standard'),
+   required(false)
+);

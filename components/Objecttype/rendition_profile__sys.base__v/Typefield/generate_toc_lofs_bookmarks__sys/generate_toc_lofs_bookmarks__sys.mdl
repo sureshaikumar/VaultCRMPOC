@@ -1,0 +1,4 @@
+Typefield generate_toc_lofs_bookmarks__sys (
+   source('standard'),
+   required(false)
+);

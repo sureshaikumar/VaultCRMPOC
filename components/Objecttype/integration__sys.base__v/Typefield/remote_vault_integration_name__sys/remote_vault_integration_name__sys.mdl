@@ -1,0 +1,4 @@
+Typefield remote_vault_integration_name__sys (
+   source('standard'),
+   required(false)
+);

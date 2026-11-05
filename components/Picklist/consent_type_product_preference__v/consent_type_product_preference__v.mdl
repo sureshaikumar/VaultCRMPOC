@@ -1,0 +1,11 @@
+RECREATE Picklist consent_type_product_preference__v (
+   label('Product Preference'),
+   active(true),
+   Picklistentry(@Picklistentry/all_products__v.mdl),
+   Picklistentry(@Picklistentry/all_lines__v.mdl),
+   Picklistentry(@Picklistentry/my_setup__v.mdl),
+   Picklistentry(@Picklistentry/restrictive_my_setup__v.mdl),
+   Picklistentry(@Picklistentry/all_content_types__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

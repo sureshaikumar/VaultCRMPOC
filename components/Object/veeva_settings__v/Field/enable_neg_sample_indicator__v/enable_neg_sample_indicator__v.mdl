@@ -1,0 +1,18 @@
+Field enable_neg_sample_indicator__v (
+   label('ENABLE_NEG_SAMPLE_INDICATOR'),
+   type('Boolean'),
+   active(true),
+   description('Enables the display of an indicator when a sample drop or transfer will result in a negative balance of inventory for a given sample lot. Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(142),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

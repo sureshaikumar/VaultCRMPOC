@@ -1,0 +1,6 @@
+Message one_draft_in_progress__v (
+   label(),
+   active(true),
+   default_value('1 Draft in progress'),
+   system_managed(false)
+);

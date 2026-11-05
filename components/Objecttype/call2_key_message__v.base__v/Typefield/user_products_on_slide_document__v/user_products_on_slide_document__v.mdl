@@ -1,0 +1,4 @@
+Typefield user_products_on_slide_document__v (
+   source('standard'),
+   required(false)
+);

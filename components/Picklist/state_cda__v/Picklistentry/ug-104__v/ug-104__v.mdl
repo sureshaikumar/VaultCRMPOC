@@ -1,0 +1,6 @@
+Picklistentry ug-104__v (
+   value('Luwero'),
+   order(4646),
+   active(true),
+   controlling_entries('ug__v')
+);

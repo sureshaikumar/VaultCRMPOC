@@ -1,0 +1,8 @@
+Picklistentry thera__v (
+   value('Therapy'),
+   order(1832),
+   active(true),
+   controlling_entries('kg__v',
+         'kz__v',
+         'ua__v')
+);

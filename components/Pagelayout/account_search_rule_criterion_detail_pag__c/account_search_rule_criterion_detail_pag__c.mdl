@@ -1,0 +1,8 @@
+RECREATE Pagelayout account_search_rule_criterion_detail_pag__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Account Search Rule Criterion Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,6 @@
+Picklistentry ao-uig__v (
+   value('Uíge'),
+   order(95),
+   active(true),
+   controlling_entries('ao__v')
+);

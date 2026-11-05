@@ -1,0 +1,6 @@
+Picklistentry it-si__v (
+   value('Siena'),
+   order(2257),
+   active(true),
+   controlling_entries('it__v')
+);

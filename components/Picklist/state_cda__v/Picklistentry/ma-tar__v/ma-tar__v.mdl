@@ -1,0 +1,6 @@
+Picklistentry ma-tar__v (
+   value('Taroudannt'),
+   order(2843),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist product_metrics_segment__c (
+   label('Segment'),
+   active(true),
+   Picklistentry(@Picklistentry/inactive__c.mdl),
+   Picklistentry(@Picklistentry/maintain__c.mdl),
+   Picklistentry(@Picklistentry/grow__c.mdl),
+   Picklistentry(@Picklistentry/guard__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

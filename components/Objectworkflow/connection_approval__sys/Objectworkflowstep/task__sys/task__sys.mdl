@@ -1,0 +1,8 @@
+Objectworkflowstep task__sys (
+   label('Task'),
+   type('usertask'),
+   next_steps('Objectworkflowstep.decision__sys'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

@@ -1,0 +1,6 @@
+Message crm_integration_admin_user__v (
+   label(),
+   active(true),
+   default_value('Align Integration Admin User Account'),
+   system_managed(false)
+);

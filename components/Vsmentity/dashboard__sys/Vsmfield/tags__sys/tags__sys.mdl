@@ -1,0 +1,11 @@
+Vsmfield tags__sys (
+   label('Tags'),
+   active(false),
+   description('Used to categorize and group dashboards together based on their purpose. Leverages the Report Type picklist, which can be customized per Vault.'),
+   example_values(),
+   synonyms('category'),
+   target('tags__sys'),
+   target_label('Tags'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

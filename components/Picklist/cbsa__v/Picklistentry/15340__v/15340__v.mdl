@@ -1,0 +1,5 @@
+Picklistentry 15340__v (
+   value('Bucyrus, OH Micropolitan Statistical Area'),
+   order(931),
+   active(true)
+);

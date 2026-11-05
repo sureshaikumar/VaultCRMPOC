@@ -1,0 +1,4 @@
+Typefield receipt_sent_email_transaction_id__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message view_builder__v (
+   label(),
+   active(true),
+   default_value('View Builder'),
+   system_managed(false)
+);

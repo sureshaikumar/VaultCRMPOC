@@ -1,0 +1,6 @@
+Picklistentry mk-102__v (
+   value('Gradsko'),
+   order(2965),
+   active(true),
+   controlling_entries('mk__v')
+);

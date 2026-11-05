@@ -1,0 +1,4 @@
+Typefield gas_user_filters__v (
+   source('standard'),
+   required(false)
+);

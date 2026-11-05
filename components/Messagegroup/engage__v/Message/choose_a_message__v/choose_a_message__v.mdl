@@ -1,0 +1,6 @@
+Message choose_a_message__v (
+   label(),
+   active(true),
+   default_value('Choose a message'),
+   system_managed(false)
+);

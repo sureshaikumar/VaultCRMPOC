@@ -1,0 +1,21 @@
+RECREATE Report agent_actions_least_used__sys (
+   label('Least Used Agent Actions'),
+   active(true),
+   description('Least used actions'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.agent_action_execution__sys'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('vault_ai__sys',
+      'veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

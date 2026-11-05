@@ -1,0 +1,6 @@
+Message mc_cycle_clone_wizard_section_new_dates__v (
+   label(),
+   active(true),
+   default_value('New Start/End Dates'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield calendar_share_recent_items__v (
+   source('standard'),
+   required(false)
+);

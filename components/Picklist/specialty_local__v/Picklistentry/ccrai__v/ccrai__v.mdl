@@ -1,0 +1,6 @@
+Picklistentry ccrai__v (
+   value('Critical Care'),
+   order(343),
+   active(true),
+   controlling_entries('za__v')
+);

@@ -1,0 +1,20 @@
+Field approved_email_filter_fields__v (
+   label('Approved Email Filter Fields'),
+   type('String'),
+   active(true),
+   description('This field holds the values of the fields that are show up as filters on Approved Email page. Default value is to reference a Veeva Message of the same name.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(17),
+   default_value('"APPROVED_EMAIL_FILTER_FIELDS;;ApprovedEmail"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

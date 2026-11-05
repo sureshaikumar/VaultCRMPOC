@@ -1,0 +1,5 @@
+Picklistentry om__v (
+   value('Oromo'),
+   order(43),
+   active(true)
+);

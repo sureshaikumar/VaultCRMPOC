@@ -1,0 +1,5 @@
+Picklistentry less_than_or_equal_to__v (
+   value('less than or equal to'),
+   order(6),
+   active(true)
+);

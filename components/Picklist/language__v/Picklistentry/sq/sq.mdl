@@ -1,0 +1,5 @@
+Picklistentry sq (
+   value('Albanian'),
+   order(31),
+   active(true)
+);

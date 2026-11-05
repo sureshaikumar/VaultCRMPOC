@@ -1,0 +1,6 @@
+Picklistentry mt-47__v (
+   value('Safi'),
+   order(3153),
+   active(true),
+   controlling_entries('mt__v')
+);

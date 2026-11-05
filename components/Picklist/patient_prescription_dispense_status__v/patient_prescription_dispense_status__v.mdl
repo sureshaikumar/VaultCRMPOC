@@ -1,0 +1,15 @@
+RECREATE Picklist patient_prescription_dispense_status__v (
+   label('Patient Prescription Dispense Status'),
+   active(true),
+   Picklistentry(@Picklistentry/preparation__v.mdl),
+   Picklistentry(@Picklistentry/in_progress__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   Picklistentry(@Picklistentry/on_hold__v.mdl),
+   Picklistentry(@Picklistentry/stopped__v.mdl),
+   Picklistentry(@Picklistentry/cancelled__v.mdl),
+   Picklistentry(@Picklistentry/declined__v.mdl),
+   Picklistentry(@Picklistentry/entered_in_error__v.mdl),
+   Picklistentry(@Picklistentry/unknown__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

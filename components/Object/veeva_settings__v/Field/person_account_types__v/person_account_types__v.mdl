@@ -1,0 +1,20 @@
+Field person_account_types__v (
+   label('Person Account Object Types'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Select which Account object types are Person Accounts. This setting can only be configured on the global-level Veeva Settings record.'),
+   list_column(false),
+   order(317),
+   default_value('"personaccount__v,kol__v,business_professional__v,professional__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

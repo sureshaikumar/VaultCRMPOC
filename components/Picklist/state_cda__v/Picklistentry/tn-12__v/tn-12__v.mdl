@@ -1,0 +1,6 @@
+Picklistentry tn-12__v (
+   value('L''Ariana'),
+   order(4431),
+   active(true),
+   controlling_entries('tn__v')
+);

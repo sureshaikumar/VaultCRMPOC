@@ -1,0 +1,6 @@
+Message on_hold__v (
+   label(),
+   active(true),
+   default_value('On Hold'),
+   system_managed(false)
+);

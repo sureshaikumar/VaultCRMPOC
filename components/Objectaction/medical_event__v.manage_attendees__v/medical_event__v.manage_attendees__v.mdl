@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_event__v.manage_attendees__v (
+   label('Manage Attendees'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalevents.actions.ManageAttendeesAction'),
+   active(true),
+   available_all_states(true)
+);

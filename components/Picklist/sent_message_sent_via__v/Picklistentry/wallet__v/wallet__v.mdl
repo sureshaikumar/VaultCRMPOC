@@ -1,0 +1,5 @@
+Picklistentry wallet__v (
+   value('Wallet'),
+   order(9),
+   active(true)
+);

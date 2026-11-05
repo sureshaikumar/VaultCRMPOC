@@ -1,0 +1,6 @@
+Message success__v (
+   label(),
+   active(true),
+   default_value('Success'),
+   system_managed(false)
+);

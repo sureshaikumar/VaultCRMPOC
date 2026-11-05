@@ -1,0 +1,6 @@
+Picklistentry pdice__v (
+   value('Pediatrics (Diseases in Children)'),
+   order(1469),
+   active(true),
+   controlling_entries('dk__v')
+);

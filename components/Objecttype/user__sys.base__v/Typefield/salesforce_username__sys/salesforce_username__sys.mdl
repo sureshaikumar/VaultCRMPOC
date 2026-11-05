@@ -1,0 +1,4 @@
+Typefield salesforce_username__sys (
+   source('standard'),
+   required(false)
+);

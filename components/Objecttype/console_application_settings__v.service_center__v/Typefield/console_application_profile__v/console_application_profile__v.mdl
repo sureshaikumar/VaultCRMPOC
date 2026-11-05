@@ -1,0 +1,4 @@
+Typefield console_application_profile__v (
+   source('standard'),
+   required(false)
+);

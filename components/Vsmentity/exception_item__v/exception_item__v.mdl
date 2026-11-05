@@ -1,0 +1,16 @@
+RECREATE Vsmentity exception_item__v (
+   label('User Exception Item'),
+   active(true),
+   description('Represents an individual item associated with a Connection that tracks integration errors. User Exception Items allow administrators to monitor Connections and to track and resolve any issues. These items are linked to User Exception Messages, which define more details on the errors encountered, and Integration Points, which define the specific actions the integration is taking.'),
+   synonyms('exception item',
+      'user exception',
+      'exemption item',
+      'exception record'),
+   target('Object.exception_item__sys'),
+   target_label('User Exception Item'),
+   Vsmfield(@Vsmfield/error_message__v.mdl),
+   Vsmfield(@Vsmfield/error_status__v.mdl),
+   Vsmfield(@Vsmfield/error_type__v.mdl),
+   Vsmfield(@Vsmfield/exception_message__v.mdl),
+   Vsmrelationship(@Vsmrelationship/exception_message__v.mdl)
+);

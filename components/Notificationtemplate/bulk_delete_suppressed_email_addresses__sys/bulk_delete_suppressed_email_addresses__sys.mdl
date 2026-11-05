@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate bulk_delete_suppressed_email_addresses__sys (
+   label('Bulk Delete Suppressed Email Addresses'),
+   active(true),
+   description('Notification template used to provide users with the results of the Remove Multiple Email Addresses from Suppression List job'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Remove Multiple Email Addresses from Suppression List job has completed'),
+   notification('<p><b>Change Summary:</b></p><ul>${bulkSummary} ${bulkResultsList}</ul>'),
+   email_body('<p><b>Change Summary:</b></p><ul>${bulkSummary}</ul><p><b>Results:</b></p><ul>${bulkResultsList}</ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

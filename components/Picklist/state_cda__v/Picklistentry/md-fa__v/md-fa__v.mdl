@@ -1,0 +1,6 @@
+Picklistentry md-fa__v (
+   value('Făleşti'),
+   order(2886),
+   active(true),
+   controlling_entries('md__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ug__v (
+   value('UG'),
+   order(112),
+   active(true)
+);

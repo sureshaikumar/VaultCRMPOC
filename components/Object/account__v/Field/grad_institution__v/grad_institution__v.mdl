@@ -1,0 +1,19 @@
+Field grad_institution__v (
+   label('Graduation School'),
+   type('String'),
+   active(true),
+   description('Name of graduation school.'),
+   required(false),
+   unique(false),
+   max_length(200),
+   help_content(),
+   list_column(false),
+   order(199),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

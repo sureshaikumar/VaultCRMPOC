@@ -1,0 +1,6 @@
+Message job_col_completion_time__v (
+   label(),
+   active(true),
+   default_value('Completion Time'),
+   system_managed(false)
+);

@@ -1,0 +1,16 @@
+RECREATE Agent super_agent__sys (
+   label('Super Agent'),
+   active(true),
+   agent_user('[agent]super_agent__sys'),
+   class('Agentclass.com.veeva.vault.system.agent.SuperAgent'),
+   description('The super agent orchestrates, routes, and executes actions to perform a task.'),
+   document_type(),
+   model_level('BASIC'),
+   object(),
+   object_type(),
+   objective(),
+   supplemental_objective(),
+   Agentaction(@Agentaction/chat_action__sys.mdl),
+   Agentaction(@Agentaction/route_action__sys.mdl),
+   Agentaction(@Agentaction/workflow_task_execution__sys.mdl)
+);

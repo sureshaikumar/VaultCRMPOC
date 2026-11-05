@@ -1,0 +1,5 @@
+Picklistentry 42340__v (
+   value('Savannah, GA Metropolitan Statistical Area'),
+   order(502),
+   active(true)
+);

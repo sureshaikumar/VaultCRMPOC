@@ -1,0 +1,5 @@
+Picklistentry pm__v (
+   value('Preventive Medicine'),
+   order(78),
+   active(true)
+);

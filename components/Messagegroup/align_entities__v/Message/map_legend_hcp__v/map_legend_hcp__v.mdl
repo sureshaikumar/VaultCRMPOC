@@ -1,0 +1,6 @@
+Message map_legend_hcp__v (
+   label(),
+   active(true),
+   default_value('HCPs'),
+   system_managed(false)
+);

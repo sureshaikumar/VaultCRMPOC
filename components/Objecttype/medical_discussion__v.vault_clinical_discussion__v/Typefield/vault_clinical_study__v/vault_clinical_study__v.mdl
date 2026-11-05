@@ -1,0 +1,4 @@
+Typefield vault_clinical_study__v (
+   source('custom'),
+   required(false)
+);

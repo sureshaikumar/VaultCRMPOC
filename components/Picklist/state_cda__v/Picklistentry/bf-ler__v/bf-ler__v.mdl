@@ -1,0 +1,6 @@
+Picklistentry bf-ler__v (
+   value('Léraba'),
+   order(349),
+   active(true),
+   controlling_entries('bf__v')
+);

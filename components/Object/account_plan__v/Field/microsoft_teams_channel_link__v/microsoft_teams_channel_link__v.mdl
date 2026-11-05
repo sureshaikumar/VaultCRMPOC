@@ -1,0 +1,19 @@
+Field microsoft_teams_channel_link__v (
+   label('Microsoft Teams Channel Link'),
+   type('String'),
+   active(true),
+   description('The link to launch the Teams Channel in Microsoft Teams'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('LinkFormat("new_window")'),
+   control_binding()
+);

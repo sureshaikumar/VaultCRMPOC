@@ -1,0 +1,4 @@
+Typefield channel_interactions_goal__v (
+   source('standard'),
+   required(false)
+);

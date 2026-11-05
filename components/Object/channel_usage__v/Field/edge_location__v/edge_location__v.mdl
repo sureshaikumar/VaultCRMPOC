@@ -1,0 +1,19 @@
+Field edge_location__v (
+   label('Edge Location'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('Specific to CDN related activities.  The edge location that served the request. Each edge location is identified by a three-letter code and an arbitrarily assigned number.'),
+   list_column(true),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

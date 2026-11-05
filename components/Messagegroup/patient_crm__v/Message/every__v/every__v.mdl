@@ -1,0 +1,6 @@
+Message every__v (
+   label(),
+   active(true),
+   default_value('Every'),
+   system_managed(false)
+);

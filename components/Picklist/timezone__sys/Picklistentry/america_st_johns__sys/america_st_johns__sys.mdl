@@ -1,0 +1,5 @@
+Picklistentry america_st_johns__sys (
+   value('(GMT-03:30) Newfoundland Standard Time (America/St_Johns)'),
+   order(99),
+   active(true)
+);

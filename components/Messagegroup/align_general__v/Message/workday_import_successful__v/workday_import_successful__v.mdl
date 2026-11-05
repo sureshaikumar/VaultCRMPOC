@@ -1,0 +1,6 @@
+Message workday_import_successful__v (
+   label(),
+   active(true),
+   default_value('Workday import completed'),
+   system_managed(false)
+);

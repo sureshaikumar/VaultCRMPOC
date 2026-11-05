@@ -1,0 +1,6 @@
+Message crm_api_name__v (
+   label(),
+   active(true),
+   default_value('CRM API Name (${object_name} object)'),
+   system_managed(false)
+);

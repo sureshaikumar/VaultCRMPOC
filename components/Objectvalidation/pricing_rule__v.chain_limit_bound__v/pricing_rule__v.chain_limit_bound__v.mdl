@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.chain_limit_bound__v (
+   label('Chain Limit Bound'),
+   active(true),
+   expression('Not(
+     And(
+        chain_rule__v = true,
+        limit_bound__v = true
+    )
+)'),
+   description('Chain Rule cannot be limit bound'),
+   error_message('Chain Rule cannot be limit bound'),
+   error_location('limit_bound__v')
+);

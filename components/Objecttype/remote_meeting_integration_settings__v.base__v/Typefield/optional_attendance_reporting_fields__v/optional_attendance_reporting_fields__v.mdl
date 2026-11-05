@@ -1,0 +1,4 @@
+Typefield optional_attendance_reporting_fields__v (
+   source('standard'),
+   required(false)
+);

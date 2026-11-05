@@ -1,0 +1,6 @@
+Picklistentry bd-56__v (
+   value('Rangamati'),
+   order(285),
+   active(true),
+   controlling_entries('bd__v')
+);

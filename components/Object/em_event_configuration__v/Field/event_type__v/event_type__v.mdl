@@ -1,0 +1,19 @@
+Field event_type__v (
+   label('Event Type'),
+   type('String'),
+   active(true),
+   description('Event Type. Populate with an untranslated object type name from the em_event__v object'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(true),
+   order(2),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

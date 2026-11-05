@@ -1,0 +1,10 @@
+RECREATE Jobmetadata account_plan_sharing_migration_job__v (
+   label('Account Plan Sharing Migration Job'),
+   active(true),
+   chunk_size(1),
+   description('To support migration, this job synchronizes record roles within the account plan hierarchy for pending users, aligning them with defined account team member assignments.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.accountplan.jobs.AccountPlanSharingMigrationJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

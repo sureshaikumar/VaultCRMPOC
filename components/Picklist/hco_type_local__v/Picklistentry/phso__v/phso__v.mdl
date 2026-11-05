@@ -1,0 +1,5 @@
+Picklistentry phso__v (
+   value('Psychiatric Hospital'),
+   order(216),
+   active(true)
+);

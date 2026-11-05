@@ -1,0 +1,4 @@
+Typefield nas_business_result_fields__v (
+   source('standard'),
+   required(false)
+);

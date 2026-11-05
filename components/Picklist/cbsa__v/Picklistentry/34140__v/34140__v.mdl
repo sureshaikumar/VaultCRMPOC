@@ -1,0 +1,5 @@
+Picklistentry 34140__v (
+   value('Moscow, ID Micropolitan Statistical Area'),
+   order(125),
+   active(true)
+);

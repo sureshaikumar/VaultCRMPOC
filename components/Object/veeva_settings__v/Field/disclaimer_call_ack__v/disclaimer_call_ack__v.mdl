@@ -1,0 +1,20 @@
+Field disclaimer_call_ack__v (
+   label('Disclaimer Call Acknowledgement'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('References a Veeva message that gets displayed in the call signature page when no samples or details are selected for a call.'),
+   list_column(false),
+   order(105),
+   default_value('"DISCLAIMER_CALL_ACK;;CallReport"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

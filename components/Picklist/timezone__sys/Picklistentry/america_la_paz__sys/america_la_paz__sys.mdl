@@ -1,0 +1,5 @@
+Picklistentry america_la_paz__sys (
+   value('(GMT-04:00) Bolivia Time (America/La_Paz)'),
+   order(95),
+   active(true)
+);

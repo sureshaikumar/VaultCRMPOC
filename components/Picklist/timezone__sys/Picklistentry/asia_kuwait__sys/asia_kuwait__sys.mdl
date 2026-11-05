@@ -1,0 +1,5 @@
+Picklistentry asia_kuwait__sys (
+   value('(GMT+03:00) Arabia Standard Time (Asia/Kuwait)'),
+   order(197),
+   active(true)
+);

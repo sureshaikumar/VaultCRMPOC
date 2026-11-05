@@ -1,0 +1,4 @@
+Typefield confirmed_quantity__v (
+   source('standard'),
+   required(false)
+);

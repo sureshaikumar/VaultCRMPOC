@@ -1,0 +1,6 @@
+Message schedule_at__v (
+   label(),
+   active(true),
+   default_value('{0} {1} at {2}'),
+   system_managed(false)
+);

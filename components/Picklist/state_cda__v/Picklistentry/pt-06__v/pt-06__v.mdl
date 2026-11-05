@@ -1,0 +1,6 @@
+Picklistentry pt-06__v (
+   value('Coimbra'),
+   order(3659),
+   active(true),
+   controlling_entries('pt__v')
+);

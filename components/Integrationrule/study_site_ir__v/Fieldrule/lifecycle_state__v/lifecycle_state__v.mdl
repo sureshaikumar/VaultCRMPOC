@@ -1,0 +1,15 @@
+Fieldrule lifecycle_state__v (
+   label('Lifecycle State'),
+   active(true),
+   query_object('site__v'),
+   query_field('state__v'),
+   target_object('Object.vault_clinical_site__v'),
+   target_object_field('Field.lifecycle_state__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select('TOLABEL(state__v)'),
+   query_field_type('vobject_component__sys'),
+   target_field_lookup()
+);

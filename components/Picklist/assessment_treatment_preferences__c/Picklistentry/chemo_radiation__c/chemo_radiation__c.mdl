@@ -1,0 +1,5 @@
+Picklistentry chemo_radiation__c (
+   value('Chemo & Radiation'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field third_party_auth_url__v (
+   label('THIRD_PARTY_AUTH_URL'),
+   type('String'),
+   active(true),
+   description('URL points to endpoint where to send token request to for third party authentication on iRep'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(294),
+   default_value('"THIRD_PARTY_AUTH_URL;;iPad"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry gil__v (
+   value('Gilbertese'),
+   order(114),
+   active(false)
+);

@@ -1,0 +1,10 @@
+Vsmvalue inr__v (
+   label('INR'),
+   active(true),
+   description('The Indian Rupee (INR), the official currency of India, used for transactions and financial records involving Indian business operations.'),
+   synonyms('Indian rupee',
+         'rupee',
+         'India currency'),
+   target('inr__sys'),
+   target_label('INR')
+);

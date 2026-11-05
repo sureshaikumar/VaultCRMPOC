@@ -1,0 +1,5 @@
+Picklistentry 49700__v (
+   value('Yuba City, CA Metropolitan Statistical Area'),
+   order(668),
+   active(true)
+);

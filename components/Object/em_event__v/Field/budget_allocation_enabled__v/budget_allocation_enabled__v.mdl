@@ -1,0 +1,17 @@
+Field budget_allocation_enabled__v (
+   label('Budget Allocation Enabled'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether this event is available for cost-sharing across event budgets.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(126),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Vsmfield stop_on_error__v (
+   label('Stop On Error'),
+   active(false),
+   description('Boolean flag indicating whether the deployment process should stop if an error is encountered while processing this data entry. When true, errors will halt the entire deployment; when false, processing continues despite errors.'),
+   example_values(),
+   synonyms('halt on error',
+         'fail on error',
+         'error stop',
+         'abort on error'),
+   target('stop_on_error__v'),
+   target_label('Stop On Error'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

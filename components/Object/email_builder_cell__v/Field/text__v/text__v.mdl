@@ -1,0 +1,17 @@
+Field text__v (
+   label('Text'),
+   type('RichText'),
+   active(true),
+   description('The text of the Email Builder Cell that is used in the Email Builder'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

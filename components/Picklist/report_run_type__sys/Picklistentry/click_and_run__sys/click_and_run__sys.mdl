@@ -1,0 +1,5 @@
+Picklistentry click_and_run__sys (
+   value('Click and Run'),
+   order(0),
+   active(true)
+);

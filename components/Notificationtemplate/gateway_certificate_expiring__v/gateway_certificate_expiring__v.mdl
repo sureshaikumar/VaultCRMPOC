@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate gateway_certificate_expiring__v (
+   label('Upcoming Gateway Certificate Expiration'),
+   active(true),
+   description('Notifies users when a Gateway Certificate is nearing expiration.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Gateway Certificate Expiration Notification for Gateway Profile ${gatewayProfileLabel}'),
+   notification('<p>Gateway Certificate for ${gatewayProfileLabel} shall expire on ${certificateExpirationDate}.</p>'),
+   email_body('<p>Gateway Certificate for ${gatewayProfileLabel} shall expire on ${certificateExpirationDate}. Please update your Gateway Profile details.</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

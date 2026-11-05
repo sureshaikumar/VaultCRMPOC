@@ -1,0 +1,6 @@
+Picklistentry otp_link_key_people__sys (
+   value('Link Key People'),
+   order(90),
+   active(true),
+   controlling_entries('olc_connection__sys')
+);

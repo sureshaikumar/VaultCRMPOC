@@ -1,0 +1,6 @@
+Picklistentry rapen__v (
+   value('Rehabilitation and Physiatry'),
+   order(1724),
+   active(true),
+   controlling_entries('ee__v')
+);

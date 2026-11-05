@@ -1,0 +1,17 @@
+Field agent_rule_instruction__v (
+   label('Agent Rule Instruction'),
+   type('LongText'),
+   active(true),
+   description('Contains the Agent Rule Instruction that was violated'),
+   required(false),
+   max_length(32000),
+   help_content('Contains the Agent Rule Instruction that was violated'),
+   list_column(false),
+   order(47),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

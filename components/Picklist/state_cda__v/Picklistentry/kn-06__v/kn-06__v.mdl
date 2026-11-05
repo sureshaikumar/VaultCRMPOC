@@ -1,0 +1,6 @@
+Picklistentry kn-06__v (
+   value('Saint John Capisterre'),
+   order(2446),
+   active(true),
+   controlling_entries('kn__v')
+);

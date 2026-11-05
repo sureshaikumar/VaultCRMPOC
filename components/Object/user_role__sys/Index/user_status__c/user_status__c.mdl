@@ -1,0 +1,6 @@
+Index user_status__c (
+   description(),
+   fields('user__sys',
+         'status__v'),
+   label('user_status__c')
+);

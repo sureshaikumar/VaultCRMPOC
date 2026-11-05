@@ -1,0 +1,6 @@
+Picklistentry smita__v (
+   value('Sports Medicine in Training and Competition Care'),
+   order(1804),
+   active(true),
+   controlling_entries('id__v')
+);

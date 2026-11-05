@@ -1,0 +1,4 @@
+Typefield total_doc_pages__v (
+   source('custom'),
+   required(false)
+);

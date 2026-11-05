@@ -1,0 +1,4 @@
+Typefield online_registration_status__v (
+   source('standard'),
+   required(false)
+);

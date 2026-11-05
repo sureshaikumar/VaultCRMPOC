@@ -1,0 +1,5 @@
+Picklistentry olc_sample_order_transaction__sys (
+   value('Sample Order Transaction'),
+   order(71),
+   active(true)
+);

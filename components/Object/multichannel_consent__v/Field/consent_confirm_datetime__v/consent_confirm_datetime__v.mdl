@@ -1,0 +1,17 @@
+Field consent_confirm_datetime__v (
+   label('Consent Confirm Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The datetime when the Account confirmed the opt in'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

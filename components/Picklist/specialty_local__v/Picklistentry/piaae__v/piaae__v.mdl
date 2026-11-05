@@ -1,0 +1,7 @@
+Picklistentry piaae__v (
+   value('Pediatric Immunology and Allergy'),
+   order(1394),
+   active(true),
+   controlling_entries('au__v',
+         'bh__v')
+);

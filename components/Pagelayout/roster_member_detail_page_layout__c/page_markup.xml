@@ -1,0 +1,108 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_roster_member__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="address_line_1__v" />
+            <vault:field reference="address_line_2__v" />
+            <vault:field reference="alias__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="company_name__v" />
+            <vault:field reference="concur_userid__v" />
+            <vault:field reference="vcountry__v" />
+            <vault:field reference="crm_application_profile_override__v" />
+            <vault:field reference="crm_currency__v" />
+            <vault:field reference="crm_event_country_config__v" />
+            <vault:field reference="crm_event_country_selection__v" />
+            <vault:field reference="crm_events_user__v" />
+            <vault:field reference="crm_imported_application_profile__v" />
+            <vault:field reference="crm_imported_layout_profile__v" />
+            <vault:field reference="crm_imported_security_policy__v" />
+            <vault:field reference="crm_imported_security_profile__v" />
+            <vault:field reference="crm_language__v" />
+            <vault:field reference="crm_layout_profile_override__v" />
+            <vault:field reference="crm_locale__v" />
+            <vault:field reference="crm_security_policy_override__v" />
+            <vault:field reference="crm_security_profile__v" />
+            <vault:field reference="crm_time_zone__v" />
+            <vault:field reference="delegated_approver__v" />
+            <vault:field reference="department__v" />
+            <vault:field reference="division__v" />
+            <vault:field reference="email__v" />
+            <vault:field reference="employee_number__v" />
+            <vault:field reference="enable_ms_outlook_calendar__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="end_datetime__v" />
+            <vault:field reference="engage_connect_group__v" />
+            <vault:field reference="engage_connect_group_request__v" />
+            <vault:field reference="engage_group__v" />
+            <vault:field reference="engage_group_request__v" />
+            <vault:field reference="extension__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="fax__v" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="inventory_order_allocation_group__v" />
+            <vault:field reference="last_name__v" />
+            <vault:field reference="latitude__v" />
+            <vault:field reference="legacy_align_id__v" />
+            <vault:field reference="legacy_vault_crm_record_id__v" />
+            <vault:field reference="legacy_master_align_id__v" />
+            <vault:field reference="longitude__v" />
+            <vault:field reference="manager__v" />
+            <vault:field reference="mastered_by_align__v" />
+            <vault:field reference="mobile_phone__v" />
+            <vault:field reference="nas_filters__v" />
+            <vault:field reference="network_additional_countries__v" />
+            <vault:field reference="nickname__v" />
+            <vault:field reference="phone__v" />
+            <vault:field reference="postal_code__v" />
+            <vault:field reference="preferences_timezone__v" />
+            <vault:field reference="reset_crm_password__v" />
+            <vault:field reference="saml_federation_id__v" />
+            <vault:field reference="share_team__v" />
+            <vault:field reference="source__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="start_datetime__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="user_identifier__v" />
+            <vault:field reference="username__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="veeva_workday_org__v" />
+            <vault:field reference="workday_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="last_received_crm_datetime__v" />
+            <vault:field reference="last_sent_to_crm__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Roster Member Territories" name="roster_member_territories__c">
+        <vault:relatedObject relationship="aln_roster_member__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="end_datetime__v" width="200px" />
+            <vault:field reference="roster_member__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="start_datetime__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Roster Member Territories" name="model_roster_member_territories__c">
+        <vault:relatedObject relationship="aln_roster_member_territory_model__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="end_datetime__v" width="200px" />
+            <vault:field reference="roster_member__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="start_datetime__v" width="200px" />
+            <vault:field reference="territory_model__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

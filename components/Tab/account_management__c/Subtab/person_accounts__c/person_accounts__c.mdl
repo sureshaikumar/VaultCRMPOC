@@ -1,0 +1,15 @@
+Subtab person_accounts__c (
+   active(true),
+   all_view_label('All Person Accounts'),
+   enable_global_search(false),
+   filter_criteria('[{"filter":"ispersonaccount__v=[\"true\"]","applyOnCreate":"false"}]'),
+   global_search_placeholder(''),
+   label('Person Accounts'),
+   modal_create_record(true),
+   my_view_label('My Person Accounts'),
+   object('account__v'),
+   order(200),
+   parent('account_management__c'),
+   prevent_create(false),
+   recent_view_label('Recent Person Accounts')
+);

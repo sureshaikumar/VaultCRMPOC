@@ -1,0 +1,18 @@
+Field limit_per_call__v (
+   label('Limit Per Call'),
+   type('Boolean'),
+   active(true),
+   description('Defines whether the rule applies per call or not.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message disease_state__v (
+   label(),
+   active(true),
+   default_value('Disease State'),
+   system_managed(false)
+);

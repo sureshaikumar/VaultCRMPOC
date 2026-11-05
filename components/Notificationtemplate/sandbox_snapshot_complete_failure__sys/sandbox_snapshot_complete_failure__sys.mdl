@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sandbox_snapshot_complete_failure__sys (
+   label('Snapshot Create Failure'),
+   active(true),
+   description('Notification template notifying user that the sandbox snapshot has failed creation and the Vault is now available.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Snapshot Build Failed. Sandbox Vault Available.'),
+   notification('<p>Your sandbox Snapshot: ${snapshotName} build has failed to complete. The full execution log is available <a href=${jobExecutionLink}><b>here.</b></a> The Vault is now available to login.</p></br><p>You can login to your Vault <a href=${sandboxLoginLink}><b>here.</b></a></p>'),
+   email_body('<p>Your sandbox Snapshot: ${snapshotName} build has failed to complete. The full execution log is available <a href=${jobExecutionLink}><b>here.</b></a> The Vault is now available to login.</p></br><p>You can login to your Vault <a href=${sandboxLoginLink}><b>here.</b></a></p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,4 @@
+Typefield call_sign_request_expiry_period__v (
+   source('standard'),
+   required(false)
+);

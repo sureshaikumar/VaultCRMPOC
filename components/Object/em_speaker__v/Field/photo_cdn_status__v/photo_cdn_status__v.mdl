@@ -1,0 +1,18 @@
+Field photo_cdn_status__v (
+   label('Photo CDN Status'),
+   type('Picklist'),
+   active(true),
+   description('Indicates whether the content is published to the CDN'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(59),
+   multi_value(false),
+   picklist('Picklist.veeva_distribution_cdn_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

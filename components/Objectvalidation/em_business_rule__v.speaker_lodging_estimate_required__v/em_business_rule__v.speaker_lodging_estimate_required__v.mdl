@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule__v.speaker_lodging_estimate_required__v (
+   label('Speaker Lodging Type Required'),
+   active(true),
+   expression('object_type__vr.api_name__v != "expense_estimate_speaker_lodging_rule__v" || Not(IsBlank(speaker_lodging_type__v))'),
+   description('Valid input for speaker_lodging_type__v is not added to the Speaker Lodging Expense Estimate Creation Rule.'),
+   error_message('This field is required.'),
+   error_location('speaker_lodging_type__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry som__v (
+   value('Somali'),
+   order(293),
+   active(false)
+);

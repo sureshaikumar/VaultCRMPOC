@@ -1,0 +1,14 @@
+Vsmfield role__v (
+   label('Role'),
+   active(true),
+   description('The Vault Application Role assigned to the user in this setup record. Defines the permissions and access level granted to the associated user. Use this field to filter or audit which roles have been assigned across users. This Application Role is mapped to Lifecycle Roles, governing lifecycle-level permissions for users in this role.'),
+   example_values(),
+   synonyms('assigned role',
+         'vault role',
+         'permission role',
+         'user role'),
+   target('role__v'),
+   target_label('Role'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,5 @@
+Picklistentry dlc_crm_content__sys (
+   value('CRM Content'),
+   order(26),
+   active(true)
+);

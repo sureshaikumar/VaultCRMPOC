@@ -1,0 +1,11 @@
+RECREATE Pagelink em_attendee_view_pagelink__v (
+   label('EM Attendee View'),
+   description('Redirects viewing Attendee to the EM Attendee Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Object.id}}/view'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.em_attendee__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.em_attendee_detail_app_page__v')
+);

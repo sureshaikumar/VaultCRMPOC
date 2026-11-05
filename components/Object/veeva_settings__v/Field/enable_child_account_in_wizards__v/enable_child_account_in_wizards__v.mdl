@@ -1,0 +1,18 @@
+Field enable_child_account_in_wizards__v (
+   label('Child Account info in Account Wizard'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used to enable the display of the Child Account information section in the Account creation wizards.'),
+   list_column(false),
+   order(127),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

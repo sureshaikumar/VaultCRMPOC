@@ -1,0 +1,6 @@
+Message om_missing_value__v (
+   label(),
+   active(true),
+   default_value('Missing: ${missing_value}'),
+   system_managed(false)
+);

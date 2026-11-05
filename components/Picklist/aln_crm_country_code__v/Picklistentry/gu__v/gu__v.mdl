@@ -1,0 +1,5 @@
+Picklistentry gu__v (
+   value('Guam'),
+   order(91),
+   active(true)
+);

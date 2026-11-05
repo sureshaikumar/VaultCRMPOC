@@ -1,0 +1,12 @@
+Vsmfield description__v (
+   label('Description'),
+   active(true),
+   description('This field describes what the user must do to accomplish the user task'),
+   example_values(),
+   synonyms('Details',
+         'Instructions'),
+   target('description__v'),
+   target_label('Description'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

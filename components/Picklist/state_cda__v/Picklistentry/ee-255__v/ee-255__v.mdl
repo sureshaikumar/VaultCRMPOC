@@ -1,0 +1,6 @@
+Picklistentry ee-255__v (
+   value('Järva'),
+   order(1076),
+   active(true),
+   controlling_entries('ee__v')
+);

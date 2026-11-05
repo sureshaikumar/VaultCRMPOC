@@ -1,0 +1,6 @@
+Message crm_integration_ins_picklist_value__v (
+   label(),
+   active(true),
+   default_value('Successfully inserted picklist value.'),
+   system_managed(false)
+);

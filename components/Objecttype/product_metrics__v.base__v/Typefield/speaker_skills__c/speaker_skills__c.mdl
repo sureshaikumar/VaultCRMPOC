@@ -1,0 +1,4 @@
+Typefield speaker_skills__c (
+   source('standard'),
+   required(false)
+);

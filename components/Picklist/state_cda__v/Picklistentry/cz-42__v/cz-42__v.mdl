@@ -1,0 +1,6 @@
+Picklistentry cz-42__v (
+   value('Ústí nad Labem Region'),
+   order(847),
+   active(true),
+   controlling_entries('cz__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_katmandu__v (
+   value('Asia/Katmandu'),
+   order(57),
+   active(true)
+);

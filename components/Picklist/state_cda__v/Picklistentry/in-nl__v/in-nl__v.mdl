@@ -1,0 +1,6 @@
+Picklistentry in-nl__v (
+   value('Nāgāland'),
+   order(2021),
+   active(true),
+   controlling_entries('in__v')
+);

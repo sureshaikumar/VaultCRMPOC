@@ -1,0 +1,6 @@
+Picklistentry arnef__v (
+   value('Anesthesiology, Resuscitation'),
+   order(88),
+   active(true),
+   controlling_entries('lt__v')
+);

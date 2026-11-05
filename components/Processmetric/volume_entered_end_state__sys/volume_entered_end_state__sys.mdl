@@ -1,0 +1,9 @@
+RECREATE Processmetric volume_entered_end_state__sys (
+   label('Entered End State'),
+   active(true),
+   default(true),
+   default_type_order(2),
+   description('The number of unique records that entered the end state.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.volume__sys')
+);

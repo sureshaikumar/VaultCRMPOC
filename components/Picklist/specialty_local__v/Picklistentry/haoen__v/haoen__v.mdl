@@ -1,0 +1,6 @@
+Picklistentry haoen__v (
+   value('Hematology and Oncology'),
+   order(687),
+   active(true),
+   controlling_entries('us__v')
+);

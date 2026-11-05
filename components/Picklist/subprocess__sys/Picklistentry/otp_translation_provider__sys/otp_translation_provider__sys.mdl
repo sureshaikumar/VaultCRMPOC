@@ -1,0 +1,6 @@
+Picklistentry otp_translation_provider__sys (
+   value('Translation Provider'),
+   order(173),
+   active(true),
+   controlling_entries('olc_connection__sys')
+);

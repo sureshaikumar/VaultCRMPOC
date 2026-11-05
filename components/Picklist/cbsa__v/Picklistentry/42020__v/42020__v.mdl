@@ -1,0 +1,5 @@
+Picklistentry 42020__v (
+   value('San Luis Obispo-Paso Robles, CA Metropolitan Statistical Area'),
+   order(460),
+   active(true)
+);

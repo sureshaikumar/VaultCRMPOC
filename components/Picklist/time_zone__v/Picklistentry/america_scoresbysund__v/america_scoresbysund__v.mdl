@@ -1,0 +1,5 @@
+Picklistentry america_scoresbysund__v (
+   value('East Greenland Time'),
+   order(92),
+   active(true)
+);

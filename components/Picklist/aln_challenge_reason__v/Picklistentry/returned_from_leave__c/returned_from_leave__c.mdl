@@ -1,0 +1,5 @@
+Picklistentry returned_from_leave__c (
+   value('Returned from Leave'),
+   order(10),
+   active(true)
+);

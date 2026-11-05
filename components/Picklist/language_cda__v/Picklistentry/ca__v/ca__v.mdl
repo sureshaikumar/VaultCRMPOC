@@ -1,0 +1,5 @@
+Picklistentry ca__v (
+   value('Catalan'),
+   order(10),
+   active(true)
+);

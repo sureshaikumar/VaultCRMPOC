@@ -1,0 +1,6 @@
+Picklistentry ss-ee__v (
+   value('Eastern Equatoria'),
+   order(4254),
+   active(true),
+   controlling_entries('ss__v')
+);

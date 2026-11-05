@@ -1,0 +1,6 @@
+Picklistentry bt-44__v (
+   value('Lhuentse'),
+   order(526),
+   active(true),
+   controlling_entries('bt__v')
+);

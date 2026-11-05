@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="dynamic_attribute__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="dynamic_attribute__v___account__v.dynamic_attribute_label__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="dynamic_attribute__v___account__v.dynamic_attribute_value_text__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="account__v.object_type__v" rightValue="Group Purchasing Organization (GPO)" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="ISNOTNULL" leftValue="dynamic_attribute__v___account__v.account__v" rightValue="" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="dynamic_attribute__v___account__v.dynamic_attribute_label__v" rightValue="Contract Negotiation Status" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="account__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

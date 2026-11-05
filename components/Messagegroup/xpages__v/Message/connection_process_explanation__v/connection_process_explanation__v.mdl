@@ -1,0 +1,6 @@
+Message connection_process_explanation__v (
+   label(),
+   active(true),
+   default_value('To connect a Studio to this Vault, a Connection File is required. To get a Connection File for this Vault CRM, go to Connections inside X-Pages Studio and Create or Edit the Connection associated with this Vault CRM.'),
+   system_managed(false)
+);

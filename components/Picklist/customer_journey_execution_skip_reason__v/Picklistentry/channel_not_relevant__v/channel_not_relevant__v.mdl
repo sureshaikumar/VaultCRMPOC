@@ -1,0 +1,5 @@
+Picklistentry channel_not_relevant__v (
+   value('Channel Not Relevant'),
+   order(2),
+   active(true)
+);

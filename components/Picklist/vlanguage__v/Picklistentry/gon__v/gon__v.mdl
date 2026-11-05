@@ -1,0 +1,5 @@
+Picklistentry gon__v (
+   value('Gondi'),
+   order(115),
+   active(false)
+);

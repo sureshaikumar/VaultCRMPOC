@@ -1,0 +1,6 @@
+Message medx_recording_in_progress__v (
+   label(),
+   active(true),
+   default_value('Closing the medical interaction will also stop the recording. Do you want to continue?'),
+   system_managed(false)
+);

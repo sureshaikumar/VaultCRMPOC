@@ -1,0 +1,19 @@
+Field invitee_display_name__v (
+   label('Invitee'),
+   type('String'),
+   active(true),
+   description('Stores the name of the person who is invited to meet. When meeting requests are submitted through the Engage Scheduling Site, Invitee is stamped with the Account who received the initial scheduling link.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

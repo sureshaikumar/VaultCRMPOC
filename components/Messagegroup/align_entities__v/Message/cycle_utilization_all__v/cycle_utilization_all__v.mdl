@@ -1,0 +1,6 @@
+Message cycle_utilization_all__v (
+   label(),
+   active(true),
+   default_value('All'),
+   system_managed(false)
+);

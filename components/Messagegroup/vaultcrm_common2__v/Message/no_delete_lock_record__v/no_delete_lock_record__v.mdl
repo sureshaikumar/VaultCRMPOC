@@ -1,0 +1,6 @@
+Message no_delete_lock_record__v (
+   label(),
+   active(true),
+   default_value('You cannot delete a locked ${objectName} record.'),
+   system_managed(false)
+);

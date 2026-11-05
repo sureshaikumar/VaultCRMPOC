@@ -1,0 +1,7 @@
+RECREATE Permissionset service_center_ps__c (
+   label('Service Center PS'),
+   active(true),
+   description('This is for Service Center Configuration'),
+   object.case__v.base__v.object_actions('create'),
+   vault_actions.search('suggest')
+);

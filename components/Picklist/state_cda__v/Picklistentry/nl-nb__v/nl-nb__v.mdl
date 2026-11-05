@@ -1,0 +1,6 @@
+Picklistentry nl-nb__v (
+   value('Noord-Brabant'),
+   order(3385),
+   active(true),
+   controlling_entries('nl__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gh-af__v (
+   value('Ahafo'),
+   order(1689),
+   active(true),
+   controlling_entries('gh__v')
+);

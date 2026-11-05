@@ -1,0 +1,6 @@
+Message rule_preview_account_assignments__v (
+   label(),
+   active(true),
+   default_value('Preview Account Assignments'),
+   system_managed(false)
+);

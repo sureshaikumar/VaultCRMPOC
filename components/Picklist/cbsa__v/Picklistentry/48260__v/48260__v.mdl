@@ -1,0 +1,5 @@
+Picklistentry 48260__v (
+   value('Weirton-Steubenville, WV-OH Metropolitan Statistical Area'),
+   order(461),
+   active(true)
+);

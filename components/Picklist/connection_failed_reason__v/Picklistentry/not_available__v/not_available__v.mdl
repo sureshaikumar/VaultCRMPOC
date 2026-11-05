@@ -1,0 +1,5 @@
+Picklistentry not_available__v (
+   value('Not Available'),
+   order(0),
+   active(true)
+);

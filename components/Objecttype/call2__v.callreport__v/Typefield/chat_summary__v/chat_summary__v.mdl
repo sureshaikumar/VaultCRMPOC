@@ -1,0 +1,4 @@
+Typefield chat_summary__v (
+   source('custom'),
+   required(false)
+);

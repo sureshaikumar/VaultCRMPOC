@@ -1,0 +1,5 @@
+Picklistentry 17140__v (
+   value('Cincinnati-Middletown, OH-KY-IN Metropolitan Statistical Area'),
+   order(8),
+   active(true)
+);

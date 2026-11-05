@@ -1,0 +1,5 @@
+Picklistentry deployed_with_warning__v (
+   value('Deployed with warnings'),
+   order(5),
+   active(true)
+);

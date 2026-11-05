@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction pending_state__v.save_useraction__v (
+   label('Save'),
+   rule(@rule.xml),
+   order(1000)
+);

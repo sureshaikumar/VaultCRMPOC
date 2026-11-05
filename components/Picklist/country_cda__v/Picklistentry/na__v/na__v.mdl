@@ -1,0 +1,5 @@
+Picklistentry na__v (
+   value('Namibia'),
+   order(153),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message field_mapping_territory_fields__v (
+   label(),
+   active(true),
+   default_value('Territory Fields'),
+   system_managed(false)
+);

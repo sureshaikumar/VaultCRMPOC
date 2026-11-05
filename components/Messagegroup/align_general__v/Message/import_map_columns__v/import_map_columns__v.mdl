@@ -1,0 +1,6 @@
+Message import_map_columns__v (
+   label(),
+   active(true),
+   default_value('Map Columns'),
+   system_managed(false)
+);

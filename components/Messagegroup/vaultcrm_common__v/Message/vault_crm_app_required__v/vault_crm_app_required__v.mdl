@@ -1,0 +1,6 @@
+Message vault_crm_app_required__v (
+   label(),
+   active(true),
+   default_value('Vault CRM App Required'),
+   system_managed(false)
+);

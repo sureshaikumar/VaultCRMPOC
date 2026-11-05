@@ -1,0 +1,20 @@
+Field om_print_blocked_fields__v (
+   label('OM Print Blocked Fields'),
+   type('String'),
+   active(true),
+   description('List of Order Line fields to be omitted when printing. Set the value to a Veeva Message, i.e. ORDER_LINE_PRINT_BLOCKED_FIELDS;;ORDER_MANAGEMENT, then define the list in the Veeva Message, i.e. Direct_vod:Warning_vod__c, Freegoods_vod__c;Transfer_vod:Total'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(236),
+   default_value('"ORDER_LINE_PRINT_BLOCKED_FIELDS;;ORDER_MANAGEMENT"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

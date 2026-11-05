@@ -1,0 +1,6 @@
+Picklistentry th-31__v (
+   value('Buri Ram'),
+   order(4347),
+   active(true),
+   controlling_entries('th__v')
+);

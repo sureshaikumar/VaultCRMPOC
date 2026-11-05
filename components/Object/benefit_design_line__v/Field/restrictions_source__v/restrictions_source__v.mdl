@@ -1,0 +1,18 @@
+Field restrictions_source__v (
+   label('Restrictions (Source)'),
+   type('Picklist'),
+   active(true),
+   description('This data is meant to be loaded and refreshed by the customer from the source data provider, such as MediMedia and not changed by end users. If the Restrictions field is filled in, it will override the Restrictions (Source) field in the display of the for'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(true),
+   picklist('Picklist.benefit_design_line_restrictions_source__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

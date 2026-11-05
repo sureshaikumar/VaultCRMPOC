@@ -1,0 +1,8 @@
+RECREATE Pagelayout rep_maintained_detail_page_layout1__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Rep Maintained Detail Page Layout1'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry 42660__v (
+   value('Seattle-Tacoma-Bellevue, WA Metropolitan Statistical Area'),
+   order(545),
+   active(true)
+);

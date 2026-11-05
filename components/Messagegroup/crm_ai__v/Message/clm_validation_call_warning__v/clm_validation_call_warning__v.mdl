@@ -1,0 +1,6 @@
+Message clm_validation_call_warning__v (
+   label(),
+   active(true),
+   default_value('This presentation contains information for a product or segmentation not allowed in the current call report.'),
+   system_managed(false)
+);

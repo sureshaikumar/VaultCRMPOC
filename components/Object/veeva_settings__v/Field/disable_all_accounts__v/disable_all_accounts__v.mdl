@@ -1,0 +1,18 @@
+Field disable_all_accounts__v (
+   label('DISABLE_ALL_ACCOUNTS'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the All Accounts option is displayed in the My Accounts page Territory picklist for users aligned to at least one territory.  Default is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(86),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_goals_and_priority__v (
+   label(),
+   active(true),
+   default_value('Goals and Priority'),
+   system_managed(false)
+);

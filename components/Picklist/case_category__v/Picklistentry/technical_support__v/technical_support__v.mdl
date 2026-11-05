@@ -1,0 +1,5 @@
+Picklistentry technical_support__v (
+   value('Technical Support'),
+   order(10),
+   active(true)
+);

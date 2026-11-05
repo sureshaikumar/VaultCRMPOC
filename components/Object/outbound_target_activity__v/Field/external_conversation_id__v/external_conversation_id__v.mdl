@@ -1,0 +1,19 @@
+Field external_conversation_id__v (
+   label('External Conversation ID'),
+   type('String'),
+   active(true),
+   description('Id of the conversation on the CTI platform.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Id of the conversation on the CTI platform.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry bd-47__v (
+   value('Noakhali'),
+   order(276),
+   active(true),
+   controlling_entries('bd__v')
+);

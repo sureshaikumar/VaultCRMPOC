@@ -1,0 +1,6 @@
+Message project_delete_dialog_about_to_delete__v (
+   label(),
+   active(true),
+   default_value('These objects and their child records will be deleted:'),
+   system_managed(false)
+);

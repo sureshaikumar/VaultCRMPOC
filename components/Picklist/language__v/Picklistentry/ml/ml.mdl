@@ -1,0 +1,5 @@
+Picklistentry ml (
+   value('Malayalam'),
+   order(58),
+   active(true)
+);

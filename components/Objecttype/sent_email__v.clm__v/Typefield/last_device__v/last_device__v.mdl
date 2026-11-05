@@ -1,0 +1,5 @@
+Typefield last_device__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sent_email_last_device__v.data_load__v')
+);

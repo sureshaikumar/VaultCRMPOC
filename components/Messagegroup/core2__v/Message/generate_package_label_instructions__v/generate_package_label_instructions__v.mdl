@@ -1,0 +1,6 @@
+Message generate_package_label_instructions__v (
+   label(),
+   active(true),
+   default_value('Select transactions to include in the same package label.'),
+   system_managed(false)
+);

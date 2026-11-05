@@ -1,0 +1,6 @@
+Message disconnect_waba__v (
+   label(),
+   active(true),
+   default_value('Disconnect WhatsApp Business Account'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry omaps__v (
+   value('Oral Medicine and Periodontics'),
+   order(1174),
+   active(true),
+   controlling_entries('za__v')
+);

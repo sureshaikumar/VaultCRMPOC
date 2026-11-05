@@ -1,0 +1,6 @@
+Picklistentry ao-zai__v (
+   value('Zaire'),
+   order(96),
+   active(true),
+   controlling_entries('ao__v')
+);

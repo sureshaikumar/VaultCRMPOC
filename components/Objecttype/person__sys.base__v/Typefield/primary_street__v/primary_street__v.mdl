@@ -1,0 +1,4 @@
+Typefield primary_street__v (
+   source('standard'),
+   required(false)
+);

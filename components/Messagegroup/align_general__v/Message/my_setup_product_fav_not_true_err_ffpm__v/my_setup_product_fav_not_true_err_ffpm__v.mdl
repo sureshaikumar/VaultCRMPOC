@@ -1,0 +1,6 @@
+Message my_setup_product_fav_not_true_err_ffpm__v (
+   label(),
+   active(true),
+   default_value('Favorite field cannot be Yes if Send to CRM field of Model Field Force Product is No'),
+   system_managed(false)
+);

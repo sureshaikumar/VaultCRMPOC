@@ -1,0 +1,6 @@
+Picklistentry ma-11__v (
+   value('Laâyoune-Sakia El Hamra (EH-partial)'),
+   order(2776),
+   active(true),
+   controlling_entries('ma__v')
+);

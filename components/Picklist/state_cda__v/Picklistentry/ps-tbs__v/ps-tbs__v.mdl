@@ -1,0 +1,6 @@
+Picklistentry ps-tbs__v (
+   value('Tubas'),
+   order(3652),
+   active(true),
+   controlling_entries('ps__v')
+);

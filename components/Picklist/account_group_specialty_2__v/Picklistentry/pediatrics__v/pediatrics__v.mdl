@@ -1,0 +1,5 @@
+Picklistentry pediatrics__v (
+   value('Pediatrics'),
+   order(7),
+   active(true)
+);

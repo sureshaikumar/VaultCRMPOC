@@ -1,0 +1,19 @@
+Field vessel_number__v (
+   label('Vessel Number'),
+   type('String'),
+   active(true),
+   description('Used to store travel details, such as a flight or train number.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(37),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry vc-06__v (
+   value('Grenadines'),
+   order(4886),
+   active(true),
+   controlling_entries('vc__v')
+);

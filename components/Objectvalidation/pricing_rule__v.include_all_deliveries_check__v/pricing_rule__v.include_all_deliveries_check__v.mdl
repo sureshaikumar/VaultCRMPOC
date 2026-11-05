@@ -1,0 +1,16 @@
+RECREATE Objectvalidation pricing_rule__v.include_all_deliveries_check__v (
+   label('Include All Deliveries Check'),
+   active(true),
+   expression('Not(
+     And(
+         include_all_preferred_deliveries__v = true,
+         Or(
+             IsBlank(preferred_delivery_start_date__v),
+             IsBlank(preferred_delivery_end_date__v)
+        )
+    )
+)'),
+   description('Include All Deliveries cannot be enabled if Preferred Delivery Start Date and Preferred Delivery End Date are not populated'),
+   error_message('Include All Deliveries cannot be enabled if Preferred Delivery Start Date and Preferred Delivery End Date are not populated'),
+   error_location('include_all_preferred_deliveries__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry sr-br__v (
+   value('Brokopondo'),
+   order(4241),
+   active(true),
+   controlling_entries('sr__v')
+);

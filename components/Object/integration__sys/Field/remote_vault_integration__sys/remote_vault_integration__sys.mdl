@@ -1,0 +1,22 @@
+Field remote_vault_integration__sys (
+   label('Remote Vault Integration'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(16),
+   formula('Hyperlink(Concat(''ui/#admin/connections/'', Left(remote_vault_integration_id__sys, 3), ''/'', remote_vault_integration_id__sys), remote_vault_integration_name__sys, ''new_window'', connection__sysr.api_name__sys)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

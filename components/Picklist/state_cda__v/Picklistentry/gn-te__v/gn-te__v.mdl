@@ -1,0 +1,6 @@
+Picklistentry gn-te__v (
+   value('Télimélé'),
+   order(1753),
+   active(true),
+   controlling_entries('gn__v')
+);

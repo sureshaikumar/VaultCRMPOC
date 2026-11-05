@@ -1,0 +1,6 @@
+Message new_recipient__v (
+   label(),
+   active(true),
+   default_value('New Recipient'),
+   system_managed(false)
+);

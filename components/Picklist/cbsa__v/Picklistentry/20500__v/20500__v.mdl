@@ -1,0 +1,5 @@
+Picklistentry 20500__v (
+   value('Durham, NC Metropolitan Statistical Area'),
+   order(583),
+   active(true)
+);

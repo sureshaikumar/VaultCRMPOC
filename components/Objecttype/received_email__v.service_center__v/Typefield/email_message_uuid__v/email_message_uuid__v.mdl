@@ -1,0 +1,4 @@
+Typefield email_message_uuid__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,6 @@
+Message call_target_again__v (
+   label(),
+   active(true),
+   default_value('Call Again'),
+   system_managed(false)
+);

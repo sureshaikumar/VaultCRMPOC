@@ -1,0 +1,15 @@
+RECREATE Picklist aln_challenge_type__v (
+   label('Challenge Type'),
+   active(true),
+   Picklistentry(@Picklistentry/add_target__v.mdl),
+   Picklistentry(@Picklistentry/edit_goal__v.mdl),
+   Picklistentry(@Picklistentry/request_to_keep__v.mdl),
+   Picklistentry(@Picklistentry/request_to_remove__v.mdl),
+   Picklistentry(@Picklistentry/remove_target__v.mdl),
+   Picklistentry(@Picklistentry/add_account__v.mdl),
+   Picklistentry(@Picklistentry/transfer_from__v.mdl),
+   Picklistentry(@Picklistentry/transfer_to__v.mdl),
+   Picklistentry(@Picklistentry/share_with__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

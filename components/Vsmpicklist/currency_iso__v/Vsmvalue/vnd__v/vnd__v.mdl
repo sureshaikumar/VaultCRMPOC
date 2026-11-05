@@ -1,0 +1,9 @@
+Vsmvalue vnd__v (
+   label('VND'),
+   active(true),
+   description('Applies when transactions are denominated in the Vietnamese Đồng, the official currency of Vietnam.'),
+   synonyms('Vietnamese dong',
+         'Vietnam currency'),
+   target('vnd__sys'),
+   target_label('VND')
+);

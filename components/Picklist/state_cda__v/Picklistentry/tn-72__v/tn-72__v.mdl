@@ -1,0 +1,6 @@
+Picklistentry tn-72__v (
+   value('Tozeur'),
+   order(4449),
+   active(true),
+   controlling_entries('tn__v')
+);

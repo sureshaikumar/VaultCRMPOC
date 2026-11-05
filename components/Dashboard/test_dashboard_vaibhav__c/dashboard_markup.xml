@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2" combinePromptsBy="referencedField">
+  <vault:chart name="test_report__c" label="Test Report" type="table" report="Report.account__c" description="" footer="">
+    <vault:position row="0" col="0" sizeX="10" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="account__v.name__v" label="Account &gt; Name" property="link" />
+      <vault:reportColumn key="account__v.spend_status_value__v" label="Account &gt; Spend Status Value" property="data" />
+      <vault:reportColumn key="account__v.customer_master_status__v" label="Account &gt; Customer Master Status" property="data" />
+      <vault:reportColumn key="account__v.status__v" label="Account &gt; Record Status" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+</vault:dashboard>

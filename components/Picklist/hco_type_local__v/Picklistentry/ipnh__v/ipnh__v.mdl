@@ -1,0 +1,5 @@
+Picklistentry ipnh__v (
+   value('Independent Pharmacy'),
+   order(123),
+   active(true)
+);

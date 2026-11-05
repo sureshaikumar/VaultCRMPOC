@@ -1,0 +1,6 @@
+Picklistentry ocxor__v (
+   value('Oculoplastic and Orbital Surgery'),
+   order(1106),
+   active(true),
+   controlling_entries('hr__v')
+);

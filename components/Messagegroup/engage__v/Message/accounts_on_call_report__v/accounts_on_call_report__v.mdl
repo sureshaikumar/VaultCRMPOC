@@ -1,0 +1,6 @@
+Message accounts_on_call_report__v (
+   label(),
+   active(true),
+   default_value('Accounts on Call Report'),
+   system_managed(false)
+);

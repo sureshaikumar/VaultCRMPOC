@@ -1,0 +1,5 @@
+Picklistentry ige_inhibitors__v (
+   value('IgE Inhibitors'),
+   order(99),
+   active(true)
+);

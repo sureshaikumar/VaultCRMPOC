@@ -1,0 +1,5 @@
+Picklistentry 33420__v (
+   value('Mineral Wells, TX Micropolitan Statistical Area'),
+   order(43),
+   active(true)
+);

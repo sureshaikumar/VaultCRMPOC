@@ -1,0 +1,6 @@
+Picklistentry eg-gz__v (
+   value('Al Jīzah'),
+   order(1169),
+   active(true),
+   controlling_entries('eg__v')
+);

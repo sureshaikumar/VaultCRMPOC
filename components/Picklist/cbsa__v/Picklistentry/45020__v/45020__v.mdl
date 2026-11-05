@@ -1,0 +1,5 @@
+Picklistentry 45020__v (
+   value('Sweetwater, TX Micropolitan Statistical Area'),
+   order(5),
+   active(true)
+);

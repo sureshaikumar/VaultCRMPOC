@@ -1,0 +1,6 @@
+Message vault_crm_user__v (
+   label(),
+   active(true),
+   default_value('Vault CRM User'),
+   system_managed(false)
+);

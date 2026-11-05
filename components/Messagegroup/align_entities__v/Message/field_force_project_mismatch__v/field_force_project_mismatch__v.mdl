@@ -1,0 +1,6 @@
+Message field_force_project_mismatch__v (
+   label(),
+   active(true),
+   default_value('Model Account Exclusion''s Project (${exclusion_project}) must be the same as Model Field Force''s Project (${field_force_project}).'),
+   system_managed(false)
+);

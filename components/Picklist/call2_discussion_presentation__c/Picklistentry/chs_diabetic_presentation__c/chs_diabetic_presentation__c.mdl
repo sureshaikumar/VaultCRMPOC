@@ -1,0 +1,5 @@
+Picklistentry chs_diabetic_presentation__c (
+   value('CHS Diabetic Presentation'),
+   order(2),
+   active(true)
+);

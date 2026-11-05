@@ -1,0 +1,6 @@
+Message engage_invalid_group_name__v (
+   label(),
+   active(true),
+   default_value('Failed to update Engage license for Roster Member ${rm}. REASON: Invalid Group Name.'),
+   system_managed(false)
+);

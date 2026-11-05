@@ -1,0 +1,6 @@
+Picklistentry dz-15__v (
+   value('Tizi Ouzou'),
+   order(996),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,18 @@
+Field is_secure_message__v (
+   label('Is Secure Message?'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the Email Template is secured by a Secure Message Notification Template'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(65),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

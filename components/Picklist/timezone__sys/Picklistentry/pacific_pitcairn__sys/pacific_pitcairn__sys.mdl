@@ -1,0 +1,5 @@
+Picklistentry pacific_pitcairn__sys (
+   value('(GMT-08:00) Pitcairn Standard Time (Pacific/Pitcairn)'),
+   order(17),
+   active(true)
+);

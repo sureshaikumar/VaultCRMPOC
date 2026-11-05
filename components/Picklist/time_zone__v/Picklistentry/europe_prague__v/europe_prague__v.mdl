@@ -1,0 +1,5 @@
+Picklistentry europe_prague__v (
+   value('Central European Time (Prague)'),
+   order(56),
+   active(true)
+);

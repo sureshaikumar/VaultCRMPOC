@@ -1,0 +1,19 @@
+Field code__sys (
+   label('Code'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(2),
+   help_content('2-digit Country Code used by Vault Connections to map Country records between 2 Vaults'),
+   list_column(false),
+   order(10),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

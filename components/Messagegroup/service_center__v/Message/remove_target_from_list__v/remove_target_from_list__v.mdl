@@ -1,0 +1,6 @@
+Message remove_target_from_list__v (
+   label(),
+   active(true),
+   default_value('Remove Target from List'),
+   system_managed(false)
+);

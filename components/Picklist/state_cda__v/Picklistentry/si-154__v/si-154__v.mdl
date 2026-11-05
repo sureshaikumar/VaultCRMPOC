@@ -1,0 +1,6 @@
+Picklistentry si-154__v (
+   value('Dobje'),
+   order(4127),
+   active(true),
+   controlling_entries('si__v')
+);

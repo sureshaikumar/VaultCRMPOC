@@ -1,0 +1,6 @@
+Message veeva_settings_account_type_in_use__v (
+   label(),
+   active(true),
+   default_value('Object type in use, cannot add or remove object type from person account types setting if there is at least one record with that object type'),
+   system_managed(false)
+);

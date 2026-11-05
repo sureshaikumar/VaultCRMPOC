@@ -1,0 +1,6 @@
+Message assignment_created_by_rule_not_editable__v (
+   label(),
+   active(true),
+   default_value('Assignments created by a Rule may not be manually altered.'),
+   system_managed(false)
+);

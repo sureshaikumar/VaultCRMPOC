@@ -1,0 +1,6 @@
+Message campaign_script__v (
+   label(),
+   active(true),
+   default_value('Campaign Script'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message desktop__v (
+   label(),
+   active(true),
+   default_value('Desktop'),
+   system_managed(false)
+);

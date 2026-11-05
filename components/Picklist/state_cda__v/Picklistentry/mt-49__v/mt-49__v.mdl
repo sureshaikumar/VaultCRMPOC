@@ -1,0 +1,6 @@
+Picklistentry mt-49__v (
+   value('San Ġwann'),
+   order(3155),
+   active(true),
+   controlling_entries('mt__v')
+);

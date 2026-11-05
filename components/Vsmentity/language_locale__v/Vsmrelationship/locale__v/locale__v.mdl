@@ -1,0 +1,14 @@
+Vsmrelationship locale__v (
+   label('Locale'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The locale associated with this language-locale combination, representing a specific regional or cultural variant. Use this to filter by locale details such as region or country code (e.g., locale__sysr.name__v = ''en_US'').'),
+   join_object(),
+   synonyms('locale',
+         'region',
+         'associated locale',
+         'regional setting'),
+   target('locale__sysr'),
+   target_label('Locale'),
+   target_object('locale__sys')
+);

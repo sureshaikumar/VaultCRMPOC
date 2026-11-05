@@ -1,0 +1,51 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.suggestion__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account_priority_score__v" />
+            <vault:field reference="action_count__v" />
+            <vault:field reference="actioned__v" />
+            <vault:field reference="call_objective_clm_id__v" />
+            <vault:field reference="call_objective_from_date__v" />
+            <vault:field reference="call_objective_on_by_default__v" />
+            <vault:field reference="call_objective_record_type__v" />
+            <vault:field reference="call_objective_to_date__v" />
+            <vault:field reference="category__v" />
+            <vault:field reference="dismiss_count__v" />
+            <vault:field reference="dismissed__v" />
+            <vault:field reference="display_dismiss__v" />
+            <vault:field reference="display_mark_as_complete__v" />
+            <vault:field reference="display_score__v" />
+            <vault:field reference="email_template_id__v" />
+            <vault:field reference="email_template_vault_id__v" />
+            <vault:field reference="email_template__v" />
+            <vault:field reference="expiration_date__v" />
+            <vault:field reference="mark_complete_count__v" />
+            <vault:field reference="marked_as_complete__v" />
+            <vault:field reference="no_homepage__v" />
+            <vault:field reference="planned_call_date__v" />
+            <vault:field reference="posted_date__v" />
+            <vault:field reference="priority__v" />
+            <vault:field reference="reason__v" />
+            <vault:field reference="record_type_name__v" />
+            <vault:field reference="suggestion_external_id__v" />
+            <vault:field reference="suppress_reason__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="suggestion_survey__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="planned_call_channel__v" />
+            <vault:field reference="planned_call_datetime__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

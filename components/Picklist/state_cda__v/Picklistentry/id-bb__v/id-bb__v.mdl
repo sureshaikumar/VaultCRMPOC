@@ -1,0 +1,6 @@
+Picklistentry id-bb__v (
+   value('Kepulauan Bangka Belitung'),
+   order(1918),
+   active(true),
+   controlling_entries('id__v')
+);

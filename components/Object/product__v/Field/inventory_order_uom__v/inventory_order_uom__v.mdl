@@ -1,0 +1,18 @@
+Field inventory_order_uom__v (
+   label('Inventory Order UOM'),
+   type('Picklist'),
+   active(true),
+   description('The Unit of Measure for Sample and Promotional Item inventory order lines.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.product_inventory_order_uom__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry hu-gy__v (
+   value('Győr'),
+   order(1886),
+   active(true),
+   controlling_entries('hu__v')
+);

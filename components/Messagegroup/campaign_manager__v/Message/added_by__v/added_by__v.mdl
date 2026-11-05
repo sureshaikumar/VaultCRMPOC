@@ -1,0 +1,6 @@
+Message added_by__v (
+   label(),
+   active(true),
+   default_value('Added by'),
+   system_managed(false)
+);

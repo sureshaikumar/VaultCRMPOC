@@ -1,0 +1,4 @@
+Typefield cds_required__v (
+   source('standard'),
+   required(false)
+);

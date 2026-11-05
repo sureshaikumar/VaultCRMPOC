@@ -1,0 +1,15 @@
+RECREATE Tab test_demo__c (
+   active(true),
+   all_view_label('All Test Demo'),
+   enable_global_search(false),
+   filter_criteria('[{"filter":"status__v!="}]'),
+   global_search_placeholder(''),
+   label('Test Demo'),
+   modal_create_record(false),
+   my_view_label('My Test Demo'),
+   object('test_object__c'),
+   order(4000),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Test Demo')
+);

@@ -1,0 +1,5 @@
+Picklistentry 40760__v (
+   value('Ruidoso, NM Micropolitan Statistical Area'),
+   order(272),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message cases_reassigned_to_self_body__v (
+   label(),
+   active(true),
+   default_value('${case_count} Cases Reassigned to you'),
+   system_managed(false)
+);

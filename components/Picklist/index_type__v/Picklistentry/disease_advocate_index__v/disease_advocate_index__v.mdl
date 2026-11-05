@@ -1,0 +1,5 @@
+Picklistentry disease_advocate_index__v (
+   value('Disease Advocate Index'),
+   order(6),
+   active(true)
+);

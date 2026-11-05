@@ -1,0 +1,6 @@
+Message switch_network_user__v (
+   label(),
+   active(true),
+   default_value('Switch to Network System User'),
+   system_managed(false)
+);

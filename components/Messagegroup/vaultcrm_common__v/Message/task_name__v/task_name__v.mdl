@@ -1,0 +1,6 @@
+Message task_name__v (
+   label(),
+   active(true),
+   default_value('Task Name'),
+   system_managed(false)
+);

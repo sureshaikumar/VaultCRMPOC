@@ -1,0 +1,8 @@
+Picklistentry addic__v (
+   value('Addictology'),
+   order(14),
+   active(true),
+   controlling_entries('fr__v',
+         'hu__v',
+         'mc__v')
+);

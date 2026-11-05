@@ -1,0 +1,6 @@
+Picklistentry mr-15__v (
+   value('Nouakchott Sud'),
+   order(3106),
+   active(true),
+   controlling_entries('mr__v')
+);

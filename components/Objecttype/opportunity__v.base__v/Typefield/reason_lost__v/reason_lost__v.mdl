@@ -1,0 +1,4 @@
+Typefield reason_lost__v (
+   source('standard'),
+   required(false)
+);

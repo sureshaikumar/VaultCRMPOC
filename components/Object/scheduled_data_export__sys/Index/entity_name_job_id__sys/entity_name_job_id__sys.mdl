@@ -1,0 +1,6 @@
+Index entity_name_job_id__sys (
+   description(),
+   fields('entity_name__sys',
+         'job_id__sys'),
+   label('Entity Name by Job ID')
+);

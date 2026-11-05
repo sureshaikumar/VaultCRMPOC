@@ -1,0 +1,6 @@
+Picklistentry ornad__v (
+   value('Oncology-Radiotherapy'),
+   order(1130),
+   active(true),
+   controlling_entries('sn__v')
+);

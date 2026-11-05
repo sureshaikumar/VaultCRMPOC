@@ -1,0 +1,5 @@
+Picklistentry nzd__sys (
+   value('NZD'),
+   order(137),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message field_review__v (
+   label(),
+   active(true),
+   default_value('Field Review'),
+   system_managed(false)
+);

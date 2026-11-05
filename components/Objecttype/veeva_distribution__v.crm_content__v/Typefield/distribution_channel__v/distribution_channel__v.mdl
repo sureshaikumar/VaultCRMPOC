@@ -1,0 +1,5 @@
+Typefield distribution_channel__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.veeva_distribution_distribution_channel__v.approved_email__v')
+);

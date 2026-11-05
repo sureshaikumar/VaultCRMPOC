@@ -1,0 +1,5 @@
+Picklistentry dvm__v (
+   value('DVM'),
+   order(7),
+   active(true)
+);

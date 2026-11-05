@@ -1,0 +1,6 @@
+Picklistentry fi-17__v (
+   value('Satakunta'),
+   order(1289),
+   active(true),
+   controlling_entries('fi__v')
+);

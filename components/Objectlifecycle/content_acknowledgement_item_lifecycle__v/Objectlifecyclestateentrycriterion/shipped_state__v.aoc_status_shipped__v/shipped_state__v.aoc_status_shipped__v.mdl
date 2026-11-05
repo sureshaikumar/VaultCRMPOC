@@ -1,0 +1,4 @@
+Objectlifecyclestateentrycriterion shipped_state__v.aoc_status_shipped__v (
+   rule(@rule.xml),
+   order(1000)
+);

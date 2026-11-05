@@ -1,0 +1,18 @@
+Field enable_signature_graphic_picklist__v (
+   label('Enable_Signature_Graphic_Picklist'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the product graphic picklist displays in the signature page in the VMobile Tablet application.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(182),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

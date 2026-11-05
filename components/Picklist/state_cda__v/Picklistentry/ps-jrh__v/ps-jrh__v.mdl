@@ -1,0 +1,6 @@
+Picklistentry ps-jrh__v (
+   value('Jericho - Al Aghwar'),
+   order(3644),
+   active(true),
+   controlling_entries('ps__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry de-bb__v (
+   value('Brandenburg'),
+   order(903),
+   active(true),
+   controlling_entries('de__v')
+);

@@ -1,0 +1,10 @@
+Vsmvalue ils__v (
+   label('ILS'),
+   active(true),
+   description('The Israeli New Shekel (ILS), the official currency of Israel, used for transactions and financial records involving Israeli business operations.'),
+   synonyms('Israeli shekel',
+         'new shekel',
+         'Israel currency'),
+   target('ils__sys'),
+   target_label('ILS')
+);

@@ -1,0 +1,5 @@
+Picklistentry europe_minsk__v (
+   value('Moscow Time (Minsk)'),
+   order(42),
+   active(true)
+);

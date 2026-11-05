@@ -1,0 +1,6 @@
+Message number_unique_opens__v (
+   label(),
+   active(true),
+   default_value('${count} Unique Opens'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message deployment_history__v (
+   label(),
+   active(true),
+   default_value('Deployment History'),
+   system_managed(false)
+);

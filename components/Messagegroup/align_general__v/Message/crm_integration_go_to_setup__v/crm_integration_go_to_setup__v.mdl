@@ -1,0 +1,6 @@
+Message crm_integration_go_to_setup__v (
+   label(),
+   active(true),
+   default_value('Go to Setup'),
+   system_managed(false)
+);

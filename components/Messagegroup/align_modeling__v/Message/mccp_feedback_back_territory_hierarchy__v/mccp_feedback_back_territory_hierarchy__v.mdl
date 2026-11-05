@@ -1,0 +1,6 @@
+Message mccp_feedback_back_territory_hierarchy__v (
+   label(),
+   active(true),
+   default_value('Back to Territory Hierarchy'),
+   system_managed(false)
+);

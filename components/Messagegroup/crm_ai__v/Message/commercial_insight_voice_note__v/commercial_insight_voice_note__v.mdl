@@ -1,0 +1,6 @@
+Message commercial_insight_voice_note__v (
+   label(),
+   active(true),
+   default_value('Commercial Insight Voice Note'),
+   system_managed(false)
+);

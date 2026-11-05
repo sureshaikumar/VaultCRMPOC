@@ -1,0 +1,11 @@
+Vsmmetric prior_person_count__v (
+   label('Prior Person Count'),
+   active(true),
+   description('Total number of prior person records in the query scope. Use this to understand how many historical or previous person entries exist, useful for auditing identity changes, tracking personnel history, or analyzing workforce transitions over time.'),
+   instructions('Count all prior person records in the current query scope.'),
+   synonyms('number of prior persons',
+         'how many prior persons',
+         'count of prior people',
+         'total prior persons'),
+   target_fields('name__v')
+);

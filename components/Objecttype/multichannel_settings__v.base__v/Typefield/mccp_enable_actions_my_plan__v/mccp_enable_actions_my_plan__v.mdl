@@ -1,0 +1,4 @@
+Typefield mccp_enable_actions_my_plan__v (
+   source('standard'),
+   required(false)
+);

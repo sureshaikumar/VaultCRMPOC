@@ -1,0 +1,6 @@
+Message fax_recipient_not_opted__v (
+   label(),
+   active(true),
+   default_value('${recipient_name} is not opted to receive faxes for ${product_name}.'),
+   system_managed(false)
+);

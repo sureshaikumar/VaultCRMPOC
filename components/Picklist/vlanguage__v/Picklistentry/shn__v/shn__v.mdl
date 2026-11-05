@@ -1,0 +1,5 @@
+Picklistentry shn__v (
+   value('Shan'),
+   order(281),
+   active(false)
+);

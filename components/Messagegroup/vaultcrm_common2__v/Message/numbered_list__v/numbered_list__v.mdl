@@ -1,0 +1,6 @@
+Message numbered_list__v (
+   label(),
+   active(true),
+   default_value('Numbered List'),
+   system_managed(false)
+);

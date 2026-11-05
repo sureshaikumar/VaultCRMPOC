@@ -1,0 +1,12 @@
+RECREATE Tab suggestions_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Suggestions'),
+   modal_create_record(false),
+   order(800),
+   page('Page.suggestions_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist message_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/label__v.mdl),
+   Picklistentry(@Picklistentry/config__v.mdl),
+   Picklistentry(@Picklistentry/veeva__v.mdl),
+   Picklistentry(@Picklistentry/custom_setting__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

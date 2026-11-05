@@ -1,0 +1,24 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.campaign_target__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="campaign__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="target_owner_user__v" />
+            <vault:field reference="target_account__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="target_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,6 @@
+Picklistentry bi-mu__v (
+   value('Muramvya'),
+   order(416),
+   active(true),
+   controlling_entries('bi__v')
+);

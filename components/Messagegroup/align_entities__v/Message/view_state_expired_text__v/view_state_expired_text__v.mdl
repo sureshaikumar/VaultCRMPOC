@@ -1,0 +1,6 @@
+Message view_state_expired_text__v (
+   label(),
+   active(true),
+   default_value('The current view state has expired. Please refresh the page.'),
+   system_managed(false)
+);

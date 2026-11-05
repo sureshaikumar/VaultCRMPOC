@@ -1,0 +1,6 @@
+Message vault_crm_integration_instance_name__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Instance Name'),
+   system_managed(false)
+);

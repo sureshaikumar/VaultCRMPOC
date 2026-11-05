@@ -1,0 +1,22 @@
+Field aln_default_goal__v (
+   label('Default Goal'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1000000000),
+   min_value(0),
+   scale(0),
+   help_content('Provides field users with a default goal value whenever they add a target via Feedback. ADD Field users will still be able to modify this during feedback.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry field_suggestion__v (
+   value('Field Suggestion'),
+   order(2),
+   active(false)
+);

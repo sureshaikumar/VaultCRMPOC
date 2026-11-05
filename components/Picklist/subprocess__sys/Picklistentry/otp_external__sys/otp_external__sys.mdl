@@ -1,0 +1,6 @@
+Picklistentry otp_external__sys (
+   value('External'),
+   order(70),
+   active(true),
+   controlling_entries('olc_connection__sys')
+);

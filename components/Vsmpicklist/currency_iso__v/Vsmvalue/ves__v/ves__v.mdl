@@ -1,0 +1,10 @@
+Vsmvalue ves__v (
+   label('VES'),
+   active(true),
+   description('Applies when transactions are denominated in the Venezuelan Bolívar Soberano, the redenominated official currency of Venezuela introduced in 2018.'),
+   synonyms('Venezuelan bolívar soberano',
+         'sovereign bolívar',
+         'Venezuela currency'),
+   target('ves__sys'),
+   target_label('VES')
+);

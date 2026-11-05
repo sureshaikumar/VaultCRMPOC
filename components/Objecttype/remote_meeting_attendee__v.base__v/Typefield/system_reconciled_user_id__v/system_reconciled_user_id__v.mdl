@@ -1,0 +1,4 @@
+Typefield system_reconciled_user_id__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry speaker_development__c (
+   value('Speaker Development'),
+   order(7),
+   active(true)
+);

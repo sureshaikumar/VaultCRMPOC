@@ -1,0 +1,6 @@
+Picklistentry otp_trn1type1__sys (
+   value('TRN1Type1'),
+   order(174),
+   active(true),
+   controlling_entries('olc_test_demo__sys')
+);

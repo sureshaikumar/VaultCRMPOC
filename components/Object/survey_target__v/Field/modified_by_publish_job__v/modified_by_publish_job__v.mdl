@@ -1,0 +1,17 @@
+Field modified_by_publish_job__v (
+   label('Modified by Publish job'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Do not modify. Set automatically by Survey Publish Job.'),
+   list_column(false),
+   order(65),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   rollup(false),
+   control_binding()
+);

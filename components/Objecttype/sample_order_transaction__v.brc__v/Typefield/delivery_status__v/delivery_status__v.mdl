@@ -1,0 +1,10 @@
+Typefield delivery_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sample_order_transaction_delivery_status__v.cancel_request__v',
+         'Picklist.sample_order_transaction_delivery_status__v.cancelled__v',
+         'Picklist.sample_order_transaction_delivery_status__v.delivered__v',
+         'Picklist.sample_order_transaction_delivery_status__v.in_progress__v',
+         'Picklist.sample_order_transaction_delivery_status__v.shipped__v'),
+   default_value('Picklist.sample_order_transaction_delivery_status__v.in_progress__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry sy-su__v (
+   value('As Suwaydā'''),
+   order(4294),
+   active(true),
+   controlling_entries('sy__v')
+);

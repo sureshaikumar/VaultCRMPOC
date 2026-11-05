@@ -1,0 +1,6 @@
+Message inherited_territory_product_date__v (
+   label(),
+   active(true),
+   default_value('Inherited Territory Product ${product_name} cannot be outside the date range of Territory.'),
+   system_managed(false)
+);

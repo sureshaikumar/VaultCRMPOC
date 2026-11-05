@@ -1,0 +1,6 @@
+Message rule_rejected_commit_reason__v (
+   label(),
+   active(true),
+   default_value('Your request can not be processed. There is an Account Assignment commit in progress for one or more of the same Territories.'),
+   system_managed(false)
+);

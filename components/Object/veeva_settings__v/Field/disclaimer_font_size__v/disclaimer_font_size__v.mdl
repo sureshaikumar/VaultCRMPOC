@@ -1,0 +1,23 @@
+Field disclaimer_font_size__v (
+   label('DISCLAIMER_FONT_SIZE'),
+   type('Number'),
+   active(true),
+   description('Designates the font size of the Disclaimer statement text on the VMobile Tablet Signature page.  Default value is 16.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(107),
+   default_value('16'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

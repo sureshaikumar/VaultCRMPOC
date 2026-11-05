@@ -1,0 +1,5 @@
+Picklistentry removed__v (
+   value('Removed'),
+   order(1),
+   active(true)
+);

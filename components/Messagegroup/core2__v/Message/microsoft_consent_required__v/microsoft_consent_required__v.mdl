@@ -1,0 +1,6 @@
+Message microsoft_consent_required__v (
+   label(),
+   active(true),
+   default_value('Microsoft Admin Consent has not been granted for this integration. Please contact your administrator.'),
+   system_managed(false)
+);

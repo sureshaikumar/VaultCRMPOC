@@ -1,0 +1,17 @@
+Field add_key_message__v (
+   label('Add Key Message'),
+   type('LongText'),
+   active(true),
+   description('Field used to assist in the creation of Call2 Key Message records for a Call2 record. Input format is a list delimited by ";;;" of the following five fields (the last two, though, are optional) that are separated by "@@" - <Key_Message_ID>@@<Product_ID>@@'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

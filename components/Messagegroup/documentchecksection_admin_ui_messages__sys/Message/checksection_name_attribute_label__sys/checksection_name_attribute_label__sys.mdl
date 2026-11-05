@@ -1,0 +1,6 @@
+Message checksection_name_attribute_label__sys (
+   label(),
+   active(true),
+   default_value('Section Name'),
+   system_managed(false)
+);

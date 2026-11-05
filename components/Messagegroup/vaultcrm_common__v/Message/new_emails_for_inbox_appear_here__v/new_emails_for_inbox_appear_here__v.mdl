@@ -1,0 +1,6 @@
+Message new_emails_for_inbox_appear_here__v (
+   label(),
+   active(true),
+   default_value('New emails for this inbox will appear here'),
+   system_managed(false)
+);

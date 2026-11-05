@@ -1,0 +1,7 @@
+Picklistentry medic__v (
+   value('Medicine'),
+   order(948),
+   active(true),
+   controlling_entries('pk__v',
+         'za__v')
+);

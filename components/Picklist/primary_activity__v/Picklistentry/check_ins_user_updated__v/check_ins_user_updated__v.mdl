@@ -1,0 +1,5 @@
+Picklistentry check_ins_user_updated__v (
+   value('Check-Ins User Updated'),
+   order(9),
+   active(true)
+);

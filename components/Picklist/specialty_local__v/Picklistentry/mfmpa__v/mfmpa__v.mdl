@@ -1,0 +1,6 @@
+Picklistentry mfmpa__v (
+   value('Maternal Fetal Medicine/Perinatology'),
+   order(887),
+   active(true),
+   controlling_entries('ph__v')
+);

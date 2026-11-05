@@ -1,0 +1,5 @@
+Picklistentry 43700__v (
+   value('Somerset, KY Micropolitan Statistical Area'),
+   order(681),
+   active(true)
+);

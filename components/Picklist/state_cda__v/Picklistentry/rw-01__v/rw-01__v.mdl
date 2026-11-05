@@ -1,0 +1,6 @@
+Picklistentry rw-01__v (
+   value('Ville de Kigali'),
+   order(3873),
+   active(true),
+   controlling_entries('rw__v')
+);

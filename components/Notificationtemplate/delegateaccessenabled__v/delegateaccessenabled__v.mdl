@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate delegateaccessenabled__v (
+   label('DelegateAccessEnabled'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('User has delegated Vault access to you'),
+   notification('${senderName} has delegated Vault access to you'),
+   email_body('${senderName} has granted you Vault access ${delegationDateRange}. You can log in as ${senderName} from your vault.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,19 @@
+Field network_hierarchy_widget_name__v (
+   label('Hierarchy Explorer Widget Name'),
+   type('String'),
+   active(true),
+   description('The name of the Hierarchy Explorer widget that will be embedded in Vault CRM Online. You can find this name on the hierarchy explorer widget''s admin page in Veeva Network when you click "Embed in Vault CRM".'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('The name of the Hierarchy Explorer widget that will be embedded in Vault CRM Online. You can find this name on the hierarchy explorer widget''s admin page in Veeva Network when you click "Embed in Vault CRM".'),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

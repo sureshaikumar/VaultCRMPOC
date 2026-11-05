@@ -1,0 +1,6 @@
+Message update_sample_order__v (
+   label(),
+   active(true),
+   default_value('Cannot update a submitted Sample Order.'),
+   system_managed(false)
+);

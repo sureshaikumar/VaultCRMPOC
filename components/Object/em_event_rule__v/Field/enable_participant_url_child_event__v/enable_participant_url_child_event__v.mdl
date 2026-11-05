@@ -1,0 +1,20 @@
+Field enable_participant_url_child_event__v (
+   label('Enable Participant URL For Child Events'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('True: Generate virtual event Participant URLs for all Child Event Attendees and Speakers
+False: Do not generate virtual event Participant URLs for Child Event Attendees and Speakers
+Default: False'),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry pe-uca__v (
+   value('Ucayali'),
+   order(3493),
+   active(true),
+   controlling_entries('pe__v')
+);

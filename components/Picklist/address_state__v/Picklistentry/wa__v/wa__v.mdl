@@ -1,0 +1,5 @@
+Picklistentry wa__v (
+   value('WA'),
+   order(55),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message project_territory_import_select__v (
+   label(),
+   active(true),
+   default_value('Select Production Territory*'),
+   system_managed(false)
+);

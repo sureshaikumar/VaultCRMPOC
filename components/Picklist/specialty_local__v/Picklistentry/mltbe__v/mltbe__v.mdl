@@ -1,0 +1,6 @@
+Picklistentry mltbe__v (
+   value('Medical Laboratory Technology / Biochemistry'),
+   order(922),
+   active(true),
+   controlling_entries('vn__v')
+);

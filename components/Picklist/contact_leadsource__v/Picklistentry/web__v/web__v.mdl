@@ -1,0 +1,5 @@
+Picklistentry web__v (
+   value('Web'),
+   order(0),
+   active(true)
+);

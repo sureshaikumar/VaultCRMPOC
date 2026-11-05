@@ -1,0 +1,6 @@
+Message field_mapping_save_success__v (
+   label(),
+   active(true),
+   default_value('Successfully saved field mappings for {0}.'),
+   system_managed(false)
+);

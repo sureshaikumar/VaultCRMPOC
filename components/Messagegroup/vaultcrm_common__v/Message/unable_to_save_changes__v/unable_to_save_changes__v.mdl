@@ -1,0 +1,6 @@
+Message unable_to_save_changes__v (
+   label(),
+   active(true),
+   default_value('Unable to Save Proposed Changes'),
+   system_managed(false)
+);

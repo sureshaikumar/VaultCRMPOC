@@ -1,0 +1,5 @@
+Picklistentry permalink__v (
+   value('Permalink'),
+   order(2),
+   active(true)
+);

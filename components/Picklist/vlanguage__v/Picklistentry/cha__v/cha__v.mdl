@@ -1,0 +1,5 @@
+Picklistentry cha__v (
+   value('Chamorro'),
+   order(52),
+   active(false)
+);

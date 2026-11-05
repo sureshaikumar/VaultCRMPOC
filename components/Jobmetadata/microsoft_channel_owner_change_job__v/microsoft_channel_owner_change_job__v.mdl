@@ -1,0 +1,10 @@
+RECREATE Jobmetadata microsoft_channel_owner_change_job__v (
+   label('Microsoft Channel Owner Change Job'),
+   active(true),
+   chunk_size(20),
+   description('A job to process Microsoft channel owner change.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.common.commonfeature.microsoftintegration.jobs.MicrosoftChannelOwnerChangeJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

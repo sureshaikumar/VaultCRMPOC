@@ -1,0 +1,6 @@
+Picklistentry poane__v (
+   value('Paediatric Oncology'),
+   order(1266),
+   active(true),
+   controlling_entries('gb__v')
+);

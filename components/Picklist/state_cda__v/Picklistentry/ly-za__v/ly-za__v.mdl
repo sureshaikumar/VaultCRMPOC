@@ -1,0 +1,6 @@
+Picklistentry ly-za__v (
+   value('Az Zāwiyah'),
+   order(2765),
+   active(true),
+   controlling_entries('ly__v')
+);

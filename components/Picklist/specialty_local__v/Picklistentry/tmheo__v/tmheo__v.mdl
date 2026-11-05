@@ -1,0 +1,6 @@
+Picklistentry tmheo__v (
+   value('Thoracic Medicine'),
+   order(1837),
+   active(true),
+   controlling_entries('kw__v')
+);

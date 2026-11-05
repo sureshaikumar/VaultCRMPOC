@@ -1,0 +1,5 @@
+Picklistentry rich_text__sys (
+   value('Rich Text'),
+   order(2),
+   active(true)
+);

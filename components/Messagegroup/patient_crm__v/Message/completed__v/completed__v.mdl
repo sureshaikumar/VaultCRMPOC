@@ -1,0 +1,6 @@
+Message completed__v (
+   label(),
+   active(true),
+   default_value('Completed'),
+   system_managed(false)
+);

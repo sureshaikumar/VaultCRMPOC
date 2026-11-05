@@ -1,0 +1,17 @@
+Field threats__v (
+   label('Threats'),
+   type('LongText'),
+   active(true),
+   description('Threats'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

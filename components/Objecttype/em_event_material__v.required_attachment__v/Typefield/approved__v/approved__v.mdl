@@ -1,0 +1,6 @@
+Typefield approved__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_material_approved__v.no__v',
+         'Picklist.em_event_material_approved__v.yes__v')
+);

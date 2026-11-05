@@ -1,0 +1,6 @@
+Message unavailable_fax_number_tooltip__v (
+   label(),
+   active(true),
+   default_value('This fax number is no longer available for use in this Vault. To restore access, submit a Veeva Support ticket or update associated Fax Templates to use a different number.'),
+   system_managed(false)
+);

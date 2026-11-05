@@ -1,0 +1,5 @@
+Picklistentry 10820__v (
+   value('Alexandria, MN Micropolitan Statistical Area'),
+   order(609),
+   active(true)
+);

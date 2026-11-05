@@ -1,0 +1,22 @@
+RECREATE Objecttype crm_sub_tasks__c.base__v (
+   label('Base CRM Product'),
+   label_plural('Base CRM Products'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/crm_sub_task__c.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/sla_breach__c.mdl),
+   Typefield(@Typefield/status__v.mdl),
+   Typefield(@Typefield/subtask_status__c.mdl)
+);

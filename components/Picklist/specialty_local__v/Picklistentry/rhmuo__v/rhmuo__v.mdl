@@ -1,0 +1,6 @@
+Picklistentry rhmuo__v (
+   value('Rural Hospital Medicine'),
+   order(1757),
+   active(true),
+   controlling_entries('nz__v')
+);

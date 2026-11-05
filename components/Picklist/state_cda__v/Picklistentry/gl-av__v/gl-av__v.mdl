@@ -1,0 +1,6 @@
+Picklistentry gl-av__v (
+   value('Avannaata Kommunia'),
+   order(1704),
+   active(true),
+   controlling_entries('gl__v')
+);

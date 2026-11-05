@@ -1,0 +1,5 @@
+Picklistentry maxge__v (
+   value('Manager'),
+   order(56),
+   active(true)
+);

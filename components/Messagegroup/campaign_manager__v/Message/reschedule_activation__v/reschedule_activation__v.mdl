@@ -1,0 +1,6 @@
+Message reschedule_activation__v (
+   label(),
+   active(true),
+   default_value('Reschedule Activation'),
+   system_managed(false)
+);

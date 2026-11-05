@@ -1,0 +1,6 @@
+Message blank_cell_during_upload__v (
+   label(),
+   active(true),
+   default_value('For the columns below, rows with blank cells will clear existing data for those records upon upload. Cleared data cannot be recovered.'),
+   system_managed(false)
+);

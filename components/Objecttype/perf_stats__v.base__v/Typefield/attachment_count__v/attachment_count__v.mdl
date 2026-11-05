@@ -1,0 +1,4 @@
+Typefield attachment_count__v (
+   source('standard'),
+   required(true)
+);

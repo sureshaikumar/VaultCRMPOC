@@ -1,0 +1,15 @@
+Field email_template_fragment_html_file__v (
+   label('Email Footer HTML'),
+   type('Attachment'),
+   active(true),
+   description('HTML content of the Email Template Fragment. This HTML will be substituted for the {{emailTemplateFragment}} markup token in the main HTML body of the Email Template.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(61),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

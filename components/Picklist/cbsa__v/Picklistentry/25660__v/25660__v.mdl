@@ -1,0 +1,5 @@
+Picklistentry 25660__v (
+   value('Havre, MT Micropolitan Statistical Area'),
+   order(639),
+   active(true)
+);

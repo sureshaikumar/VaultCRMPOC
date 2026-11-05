@@ -1,0 +1,8 @@
+RECREATE Picklist integrated_integrated_survey_entry_point__v (
+   label('Integrated Survey Entry Point'),
+   active(true),
+   Picklistentry(@Picklistentry/hcp_post_engage_meeting__v.mdl),
+   Picklistentry(@Picklistentry/hcp_post_event__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

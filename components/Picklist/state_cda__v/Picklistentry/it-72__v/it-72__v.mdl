@@ -1,0 +1,6 @@
+Picklistentry it-72__v (
+   value('Campania'),
+   order(2169),
+   active(true),
+   controlling_entries('it__v')
+);

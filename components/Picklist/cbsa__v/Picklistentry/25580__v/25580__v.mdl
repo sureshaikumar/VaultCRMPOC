@@ -1,0 +1,5 @@
+Picklistentry 25580__v (
+   value('Hastings, NE Micropolitan Statistical Area'),
+   order(651),
+   active(true)
+);

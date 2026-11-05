@@ -1,0 +1,6 @@
+Picklistentry la-lm__v (
+   value('Louang Namtha'),
+   order(2519),
+   active(true),
+   controlling_entries('la__v')
+);

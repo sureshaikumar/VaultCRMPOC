@@ -1,0 +1,4 @@
+Typefield content_channel__v (
+   source('standard'),
+   required(false)
+);

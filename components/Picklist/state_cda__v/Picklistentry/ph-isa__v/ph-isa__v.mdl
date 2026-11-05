@@ -1,0 +1,6 @@
+Picklistentry ph-isa__v (
+   value('Isabela'),
+   order(3570),
+   active(true),
+   controlling_entries('ph__v')
+);

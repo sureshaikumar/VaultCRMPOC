@@ -1,0 +1,6 @@
+Picklistentry ug-422__v (
+   value('Kyegegwa'),
+   order(4764),
+   active(true),
+   controlling_entries('ug__v')
+);

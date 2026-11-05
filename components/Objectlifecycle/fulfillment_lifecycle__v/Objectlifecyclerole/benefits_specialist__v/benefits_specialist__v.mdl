@@ -1,0 +1,5 @@
+Objectlifecyclerole benefits_specialist__v (
+   active(true),
+   application_role('Applicationrole.benefits_specialist__v'),
+   permissions()
+);

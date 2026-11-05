@@ -1,0 +1,19 @@
+Field product_group__v (
+   label('Product_Group'),
+   type('String'),
+   active(true),
+   description('Product Group is the textual name that maps to the Name field of Analytics Product Group Map.  This determines the Product Group that corresponds to the Sales Transaction record.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(224),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

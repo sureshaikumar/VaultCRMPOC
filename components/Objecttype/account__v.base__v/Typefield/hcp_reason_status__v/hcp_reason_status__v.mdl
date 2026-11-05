@@ -1,0 +1,4 @@
+Typefield hcp_reason_status__v (
+   source('standard'),
+   required(false)
+);

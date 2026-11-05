@@ -1,0 +1,11 @@
+RECREATE Jobmetadata clm_user_role_setup_mapping_job__v (
+   label('CLM User Role Setup Mapping Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that maps My Setup Product and Content Group User records to User Role Setup records to assign document roles via Dynamic Access Control.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clm.jobs.ClmUserRoleSetupMappingJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

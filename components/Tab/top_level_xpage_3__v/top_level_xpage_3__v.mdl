@@ -1,0 +1,10 @@
+RECREATE Tab top_level_xpage_3__v (
+   active(false),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Top Level X-Page 3'),
+   order(500),
+   page('Page.top_level_xpage_3__v'),
+   parent(),
+   url(@url.txt)
+);

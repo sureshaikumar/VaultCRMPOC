@@ -1,0 +1,5 @@
+Picklistentry pacific_tahiti__sys (
+   value('(GMT-10:00) Tahiti Time (Pacific/Tahiti)'),
+   order(5),
+   active(true)
+);

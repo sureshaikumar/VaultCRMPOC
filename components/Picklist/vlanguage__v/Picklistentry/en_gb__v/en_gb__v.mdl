@@ -1,0 +1,5 @@
+Picklistentry en_gb__v (
+   value('English (United Kingdom)'),
+   order(88),
+   active(false)
+);

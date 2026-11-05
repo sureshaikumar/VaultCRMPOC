@@ -1,0 +1,3 @@
+Typeaction copy_to_another_vault_action__v (
+   action('clm_presentation__v.copy_to_another_vault_action__v')
+);

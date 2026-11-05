@@ -1,0 +1,6 @@
+Picklistentry ht-ga__v (
+   value('Grande-Anse'),
+   order(1865),
+   active(true),
+   controlling_entries('ht__v')
+);

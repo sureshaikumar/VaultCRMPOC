@@ -1,0 +1,14 @@
+Vsmfield state__v (
+   label('Lifecycle State'),
+   active(true),
+   description('The current lifecycle state of the glossary definition, such as draft, approved, or retired. Use this to filter definitions by their review or approval status within the workflow.'),
+   example_values(),
+   synonyms('lifecycle state',
+         'current state',
+         'workflow state',
+         'approval state'),
+   target('state__v'),
+   target_label('Lifecycle State'),
+   vsm_picklist('Vsmpicklist.glossary_definition_lifecycle__v'),
+   vsm_picklist_local()
+);

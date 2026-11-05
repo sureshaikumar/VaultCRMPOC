@@ -1,0 +1,6 @@
+Message microsoft_user_generic_error__v (
+   label(),
+   active(true),
+   default_value('User could not be added to the Team. Please contact your administrator.'),
+   system_managed(false)
+);

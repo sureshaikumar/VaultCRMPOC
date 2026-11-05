@@ -1,0 +1,7 @@
+Picklistentry spicu__v (
+   value('Surgical Practices in Cancerology'),
+   order(1828),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

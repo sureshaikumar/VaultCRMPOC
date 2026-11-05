@@ -1,0 +1,6 @@
+Picklistentry rs-26__v (
+   value('Pećki okrug'),
+   order(3784),
+   active(true),
+   controlling_entries('rs__v')
+);

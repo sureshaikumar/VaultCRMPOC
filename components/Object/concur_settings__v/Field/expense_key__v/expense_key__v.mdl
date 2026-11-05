@@ -1,0 +1,19 @@
+Field expense_key__v (
+   label('Expense Key'),
+   type('String'),
+   active(true),
+   description('Concur Expense report entry expense key type. The default value is "BUSML" if this field is blank.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry mgage__v (
+   value('Medical Genetics and Genomics'),
+   order(911),
+   active(true),
+   controlling_entries('ca__v')
+);

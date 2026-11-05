@@ -1,0 +1,6 @@
+Message add_documents_from_patient_name_journey__v (
+   label(),
+   active(true),
+   default_value('Add documents from ${patientName}''s ${patientJourney}'),
+   system_managed(false)
+);

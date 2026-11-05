@@ -1,0 +1,23 @@
+Field require_refresh_if_older_hours__v (
+   label('REQUIRE_REFRESH_IF_OLDER_HOURS'),
+   type('Number'),
+   active(true),
+   description('Indicates the number of hours at which a mandatory Refresh is required for the VMobile BlackBerry application.  Default value is 336 hours.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(256),
+   default_value('336'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

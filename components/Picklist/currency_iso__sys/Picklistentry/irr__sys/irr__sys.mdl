@@ -1,0 +1,5 @@
+Picklistentry irr__sys (
+   value('IRR'),
+   order(88),
+   active(true)
+);

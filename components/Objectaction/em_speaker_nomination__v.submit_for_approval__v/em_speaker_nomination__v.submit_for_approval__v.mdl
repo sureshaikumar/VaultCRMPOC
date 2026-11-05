@@ -1,0 +1,8 @@
+RECREATE Objectaction em_speaker_nomination__v.submit_for_approval__v (
+   label('Submit for Approval'),
+   description('Submits the speaker nomination for approval'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.EmSpeakerNominationSubmitForApprovalAction'),
+   active(true),
+   available_all_states(false)
+);

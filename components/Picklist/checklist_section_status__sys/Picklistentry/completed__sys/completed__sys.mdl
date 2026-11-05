@@ -1,0 +1,5 @@
+Picklistentry completed__sys (
+   value('Completed'),
+   order(3),
+   active(true)
+);

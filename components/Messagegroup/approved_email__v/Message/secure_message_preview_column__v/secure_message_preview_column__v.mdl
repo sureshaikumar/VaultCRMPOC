@@ -1,0 +1,6 @@
+Message secure_message_preview_column__v (
+   label(),
+   active(true),
+   default_value('Secured'),
+   system_managed(false)
+);

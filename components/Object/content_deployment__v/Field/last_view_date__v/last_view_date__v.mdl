@@ -1,0 +1,17 @@
+Field last_view_date__v (
+   label('Last Viewed Date'),
+   type('Date'),
+   active(true),
+   description('Last viewed date of the presentation on the Site.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry cu-15__v (
+   value('Artemisa'),
+   order(780),
+   active(true),
+   controlling_entries('cu__v')
+);

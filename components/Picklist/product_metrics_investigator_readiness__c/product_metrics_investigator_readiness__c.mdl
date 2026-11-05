@@ -1,0 +1,10 @@
+RECREATE Picklist product_metrics_investigator_readiness__c (
+   label('Investigator Readiness'),
+   active(true),
+   Picklistentry(@Picklistentry/green__c.mdl),
+   Picklistentry(@Picklistentry/beginner__c.mdl),
+   Picklistentry(@Picklistentry/experienced__c.mdl),
+   Picklistentry(@Picklistentry/leader__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

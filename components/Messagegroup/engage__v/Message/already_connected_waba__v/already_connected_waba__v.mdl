@@ -1,0 +1,6 @@
+Message already_connected_waba__v (
+   label(),
+   active(true),
+   default_value('Already Connected WhatsApp Business Account'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield territory_model__v (
+   source('standard'),
+   required(true)
+);

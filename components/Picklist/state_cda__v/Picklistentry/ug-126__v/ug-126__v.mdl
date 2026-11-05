@@ -1,0 +1,6 @@
+Picklistentry ug-126__v (
+   value('Kasanda'),
+   order(4668),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry fj-06__v (
+   value('Lomaiviti'),
+   order(1297),
+   active(true),
+   controlling_entries('fj__v')
+);

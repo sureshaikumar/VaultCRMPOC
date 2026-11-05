@@ -1,0 +1,23 @@
+Field default_kol_profile__v (
+   label('Default KOL Profile'),
+   type('Number'),
+   active(true),
+   description('Setting to determine the default page for KOL Profile. This does not apply to the Medical app. 0 is Detail page. 1 is KOL HTML Summary Profile page'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(82),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

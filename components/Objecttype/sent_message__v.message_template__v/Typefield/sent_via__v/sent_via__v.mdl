@@ -1,0 +1,15 @@
+Typefield sent_via__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sent_message_sent_via__v.whatsapp__v',
+         'Picklist.sent_message_sent_via__v.qr_code__v',
+         'Picklist.sent_message_sent_via__v.line__v',
+         'Picklist.sent_message_sent_via__v.line_works__v',
+         'Picklist.sent_message_sent_via__v.messages__v',
+         'Picklist.sent_message_sent_via__v.copy_url__v',
+         'Picklist.sent_message_sent_via__v.engage_connect__v',
+         'Picklist.sent_message_sent_via__v.engage_chat__v',
+         'Picklist.sent_message_sent_via__v.wallet__v',
+         'Picklist.sent_message_sent_via__v.whatsapp_business__v',
+         'Picklist.sent_message_sent_via__v.sms__v')
+);

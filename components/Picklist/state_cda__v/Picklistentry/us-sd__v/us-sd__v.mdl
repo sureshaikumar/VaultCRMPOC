@@ -1,0 +1,6 @@
+Picklistentry us-sd__v (
+   value('South Dakota'),
+   order(4836),
+   active(true),
+   controlling_entries('us__v')
+);

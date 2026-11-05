@@ -1,0 +1,6 @@
+Message generate_sign_in_required_data__v (
+   label(),
+   active(true),
+   default_value('Unable to generate the sign in sheet. The following fields are required: ${print_sign_in_error}'),
+   system_managed(false)
+);

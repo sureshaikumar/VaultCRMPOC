@@ -1,0 +1,3 @@
+Typeaction record_a_call__v (
+   action('child_account__v.record_a_call__v')
+);

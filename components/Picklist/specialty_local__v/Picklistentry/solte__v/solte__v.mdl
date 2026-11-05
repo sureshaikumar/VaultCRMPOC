@@ -1,0 +1,6 @@
+Picklistentry solte__v (
+   value('Sleep Otolaryngology'),
+   order(1773),
+   active(true),
+   controlling_entries('th__v')
+);

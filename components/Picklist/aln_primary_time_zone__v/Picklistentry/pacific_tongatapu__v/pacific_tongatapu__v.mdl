@@ -1,0 +1,5 @@
+Picklistentry pacific_tongatapu__v (
+   value('Pacific/Tongatapu'),
+   order(84),
+   active(true)
+);

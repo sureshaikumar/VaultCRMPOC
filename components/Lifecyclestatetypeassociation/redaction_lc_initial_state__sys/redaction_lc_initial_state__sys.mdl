@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation redaction_lc_initial_state__sys (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.redaction_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.redacting_source__sys'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

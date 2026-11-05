@@ -1,0 +1,6 @@
+Picklistentry mx-cam__v (
+   value('Campeche'),
+   order(3242),
+   active(true),
+   controlling_entries('mx__v')
+);

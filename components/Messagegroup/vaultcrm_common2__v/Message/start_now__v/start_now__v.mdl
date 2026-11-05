@@ -1,0 +1,6 @@
+Message start_now__v (
+   label(),
+   active(true),
+   default_value('Start Now'),
+   system_managed(false)
+);

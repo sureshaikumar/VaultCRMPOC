@@ -1,0 +1,5 @@
+Picklistentry aprnd__v (
+   value('Advanced Practice Registered Nurse'),
+   order(4),
+   active(true)
+);

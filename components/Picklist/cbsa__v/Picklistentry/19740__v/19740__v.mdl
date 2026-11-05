@@ -1,0 +1,5 @@
+Picklistentry 19740__v (
+   value('Denver-Aurora, CO Metropolitan Statistical Area'),
+   order(463),
+   active(true)
+);

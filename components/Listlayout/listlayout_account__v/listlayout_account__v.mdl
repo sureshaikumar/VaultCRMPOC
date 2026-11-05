@@ -1,0 +1,10 @@
+RECREATE Listlayout listlayout_account__v (
+   label('Account List Layout'),
+   active(true),
+   description('Account List Layout'),
+   object('account__v'),
+   Listlayoutitem(@Listlayoutitem/account_identifier__v.mdl),
+   Listlayoutitem(@Listlayoutitem/address_cell__v.mdl),
+   Listlayoutitem(@Listlayoutitem/formatted_name__v.mdl),
+   Listlayoutitem(@Listlayoutitem/primary_parent__v.mdl)
+);

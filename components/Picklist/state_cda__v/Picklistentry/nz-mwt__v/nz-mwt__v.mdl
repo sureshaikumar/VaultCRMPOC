@@ -1,0 +1,6 @@
+Picklistentry nz-mwt__v (
+   value('Manawatu-Wanganui'),
+   order(3433),
+   active(true),
+   controlling_entries('nz__v')
+);

@@ -1,0 +1,12 @@
+Agentaction translate_record__sys (
+   label('Translate Record'),
+   active(true),
+   api_access(true),
+   description('This Action translates the primary record and its related data to a language specified by the user.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(true),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

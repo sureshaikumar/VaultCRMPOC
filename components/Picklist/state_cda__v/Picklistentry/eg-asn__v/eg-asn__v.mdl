@@ -1,0 +1,6 @@
+Picklistentry eg-asn__v (
+   value('Aswān'),
+   order(1159),
+   active(true),
+   controlling_entries('eg__v')
+);

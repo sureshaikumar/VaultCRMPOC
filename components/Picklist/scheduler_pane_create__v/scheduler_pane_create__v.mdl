@@ -1,0 +1,8 @@
+RECREATE Picklist scheduler_pane_create__v (
+   label('Scheduler Pane Create'),
+   active(true),
+   Picklistentry(@Picklistentry/call2__v.mdl),
+   Picklistentry(@Picklistentry/medx__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

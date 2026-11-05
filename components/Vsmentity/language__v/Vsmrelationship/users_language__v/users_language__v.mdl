@@ -1,0 +1,14 @@
+Vsmrelationship users_language__v (
+   label('Users Language'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Vault user records whose preferred or assigned language is this language. Use to identify which users operate in a given language, helpful for localization and support analysis.'),
+   join_object(),
+   synonyms('users',
+         'system users with this language',
+         'user language preference',
+         'users speaking this language'),
+   target('users_language__sysr'),
+   target_label('Users'),
+   target_object('user__sys')
+);

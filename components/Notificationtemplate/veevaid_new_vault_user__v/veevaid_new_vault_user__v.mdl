@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate veevaid_new_vault_user__v (
+   label('VeevaId Invite: New Vault User Created'),
+   active(true),
+   description('Notification sent to the initiator of a new VeevaID registration invite from the Vault Users list page. The notification is sent when the Vault User is created upon VeevaID registration.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.veevaid_invite_vault_user_creation__sys'),
+   subject('VeevaID Invite processed for ${Object.registrant_email__sys}: New Vault User created'),
+   notification('<p>The new VeevaID registration invite you initiated for <b>${Object.registrant_email__sys}</b> is complete.</p><p>A new Vault User has been created for this VeevaID account.</p><p>Click <a target="_blank" href=${userLink}>here</a> to view the Vault user details.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

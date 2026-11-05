@@ -1,0 +1,6 @@
+Picklistentry mn-073__v (
+   value('Arhangay'),
+   order(3090),
+   active(true),
+   controlling_entries('mn__v')
+);

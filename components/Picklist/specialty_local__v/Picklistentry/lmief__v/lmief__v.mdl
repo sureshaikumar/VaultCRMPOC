@@ -1,0 +1,6 @@
+Picklistentry lmief__v (
+   value('Lifestyle Medicine'),
+   order(864),
+   active(true),
+   controlling_entries('th__v')
+);

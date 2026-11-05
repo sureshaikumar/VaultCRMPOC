@@ -1,0 +1,4 @@
+Typefield rating_screen_share__v (
+   source('standard'),
+   required(false)
+);

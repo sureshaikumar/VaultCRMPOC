@@ -1,0 +1,6 @@
+Message perf_sankey_target_label__v (
+   label(),
+   active(true),
+   default_value('Target Level ${level}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message fax_consent_line_product_mismatch__v (
+   label(),
+   active(true),
+   default_value('When Fax Consent Level is set to Product, Child Consent Lines must be of type Product or Unbranded.'),
+   system_managed(false)
+);

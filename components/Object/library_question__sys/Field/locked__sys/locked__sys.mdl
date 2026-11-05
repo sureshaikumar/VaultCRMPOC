@@ -1,0 +1,18 @@
+Field locked__sys (
+   label('Locked'),
+   type('Boolean'),
+   active(true),
+   description('This field determines whether a library question is locked from being edited. This field is not editable by admins and users.'),
+   required(false),
+   checkbox(false),
+   help_content('This field determines whether a library question is locked from being edited.'),
+   list_column(false),
+   order(27),
+   default_value('False'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

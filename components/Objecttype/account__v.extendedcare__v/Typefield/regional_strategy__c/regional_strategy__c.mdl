@@ -1,0 +1,4 @@
+Typefield regional_strategy__c (
+   source('custom'),
+   required(false)
+);

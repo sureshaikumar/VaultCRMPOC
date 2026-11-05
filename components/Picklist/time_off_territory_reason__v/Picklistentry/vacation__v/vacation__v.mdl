@@ -1,0 +1,5 @@
+Picklistentry vacation__v (
+   value('Vacation'),
+   order(0),
+   active(true)
+);

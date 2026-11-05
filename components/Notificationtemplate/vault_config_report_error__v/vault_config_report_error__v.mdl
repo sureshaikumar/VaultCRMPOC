@@ -1,0 +1,42 @@
+RECREATE Notificationtemplate vault_config_report_error__v (
+   label('Configuration Report Error'),
+   active(true),
+   description('Configuration Report Job Notification error template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Vault Configuration Report has failed'),
+   notification('
+   <b>Your Vault Configuration Report has failed </b>
+   <br><br>
+   Details:
+   <ul>
+        <li>Reason for failure: ${failureMessage} </li>
+        <li>Include Vault Settings: ${includeVaultSettings} </li>
+        <li>Include Document & Binder Templates: ${includeDocumentBinderTemplates} </li>
+        <li>Include Inactive Components: ${includeInactiveComponents} </li>
+        <li>Suppress Empty Results: ${suppressEmptyResults} </li>
+        <li>Include Components Modified Since: ${includeComponentsModifiedSince} </li>
+        <li>Output Format: ${outputFormat} </li>
+        <li>Start Time: ${startTime} </li>
+        <li>Duration: ${duration} </li>
+   </ul>
+   '),
+   email_body('
+   <b>Your Vault Configuration Report has failed </b>
+   <br><br>
+   <p>Details: </p>
+   <ul>
+        <li>Reason for failure: ${failureMessage} </li>
+        <li>Include Vault Settings: ${includeVaultSettings} </li>
+        <li>Include Document & Binder Templates: ${includeDocumentBinderTemplates} </li>
+        <li>Include Inactive Components: ${includeInactiveComponents} </li>
+        <li>Suppress Empty Results: ${suppressEmptyResults} </li>
+        <li>Include Components Modified Since: ${includeComponentsModifiedSince} </li>
+        <li>Output Format: ${outputFormat} </li>
+        <li>Start Time: ${startTime} </li>
+        <li>Duration: ${duration} </li>
+   </ul>
+   '),
+   entity_type('document'),
+   notification_category('none__sys')
+);

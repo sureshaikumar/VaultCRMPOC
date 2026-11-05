@@ -1,0 +1,6 @@
+Picklistentry am-vd__v (
+   value('Vayoc Jor'),
+   order(78),
+   active(true),
+   controlling_entries('am__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry america_denver__v (
+   value('America/Denver'),
+   order(6),
+   active(true)
+);

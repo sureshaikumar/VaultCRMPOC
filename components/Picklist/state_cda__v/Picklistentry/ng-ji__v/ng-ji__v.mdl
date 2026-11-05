@@ -1,0 +1,6 @@
+Picklistentry ng-ji__v (
+   value('Jigawa'),
+   order(3337),
+   active(true),
+   controlling_entries('ng__v')
+);

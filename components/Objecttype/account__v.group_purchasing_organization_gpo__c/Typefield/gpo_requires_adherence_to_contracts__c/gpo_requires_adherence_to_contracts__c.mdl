@@ -1,0 +1,4 @@
+Typefield gpo_requires_adherence_to_contracts__c (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message rule_mccycle_plan_logic_label__v (
+   label(),
+   active(true),
+   default_value('MC Cycle Plan Logic'),
+   system_managed(false)
+);

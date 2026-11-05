@@ -1,0 +1,6 @@
+Message email_not_delivered__v (
+   label(),
+   active(true),
+   default_value('Email could not be delivered'),
+   system_managed(false)
+);

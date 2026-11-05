@@ -1,0 +1,6 @@
+Picklistentry si-210__v (
+   value('Sveti Jurij v Slovenskih goricah'),
+   order(4183),
+   active(true),
+   controlling_entries('si__v')
+);

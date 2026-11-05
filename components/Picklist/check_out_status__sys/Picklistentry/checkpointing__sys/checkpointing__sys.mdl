@@ -1,0 +1,5 @@
+Picklistentry checkpointing__sys (
+   value('Checkpointing'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,14 @@
+Vsmrelationship registrant_user__v (
+   label('Registrant User'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The Vault user account that was created as a result of this VeevaID invite. Use this to look up the resulting user record after the invitation was accepted and the account was provisioned.'),
+   join_object(),
+   synonyms('new user',
+         'invited user',
+         'registrant',
+         'created user'),
+   target('registrant_user__sysr'),
+   target_label('Registrant User'),
+   target_object('user__sys')
+);

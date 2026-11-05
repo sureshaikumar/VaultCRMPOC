@@ -1,0 +1,6 @@
+Picklistentry bw-so__v (
+   value('Southern'),
+   order(543),
+   active(true),
+   controlling_entries('bw__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry srn (
+   value('Sranan Tongo'),
+   order(310),
+   active(true)
+);

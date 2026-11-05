@@ -1,0 +1,6 @@
+Message tags__v (
+   label(),
+   active(true),
+   default_value('Tags'),
+   system_managed(false)
+);

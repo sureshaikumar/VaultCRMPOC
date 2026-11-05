@@ -1,0 +1,11 @@
+Picklistentry amdeo__v (
+   value('Adolescent Medicine'),
+   order(17),
+   active(true),
+   controlling_entries('am__v',
+         'ca__v',
+         'gr__v',
+         'my__v',
+         'ph__v',
+         'tw__v')
+);

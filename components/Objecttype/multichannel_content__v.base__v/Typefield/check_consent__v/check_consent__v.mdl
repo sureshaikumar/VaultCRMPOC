@@ -1,0 +1,4 @@
+Typefield check_consent__v (
+   source('standard'),
+   required(false)
+);

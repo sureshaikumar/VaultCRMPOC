@@ -1,0 +1,6 @@
+Picklistentry msucl__v (
+   value('Multiple Sclerosis'),
+   order(979),
+   active(true),
+   controlling_entries('kw__v')
+);

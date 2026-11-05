@@ -1,0 +1,6 @@
+Picklistentry et-dd__v (
+   value('Dire Dawa'),
+   order(1264),
+   active(true),
+   controlling_entries('et__v')
+);

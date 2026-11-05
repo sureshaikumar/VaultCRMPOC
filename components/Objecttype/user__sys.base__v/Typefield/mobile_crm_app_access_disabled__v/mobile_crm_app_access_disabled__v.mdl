@@ -1,0 +1,4 @@
+Typefield mobile_crm_app_access_disabled__v (
+   source('standard'),
+   required(false)
+);

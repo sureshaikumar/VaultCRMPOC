@@ -1,0 +1,6 @@
+Picklistentry bf-ken__v (
+   value('Kénédougou'),
+   order(342),
+   active(true),
+   controlling_entries('bf__v')
+);

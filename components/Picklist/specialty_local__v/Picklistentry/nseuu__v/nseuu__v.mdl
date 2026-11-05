@@ -1,0 +1,10 @@
+Picklistentry nseuu__v (
+   value('Neurological Surgery'),
+   order(1011),
+   active(true),
+   controlling_entries('dz__v',
+         'ee__v',
+         'lv__v',
+         'th__v',
+         'tn__v')
+);

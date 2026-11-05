@@ -1,0 +1,17 @@
+Field event_format__v (
+   label('Event Format'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Restricts EM Business Rules by Event Format. Multiple values are delimited using double semicolons  (ex. In_Person_vod;;Virtual_vod).'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

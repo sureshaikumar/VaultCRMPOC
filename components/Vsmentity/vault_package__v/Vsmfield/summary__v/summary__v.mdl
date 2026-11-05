@@ -1,0 +1,13 @@
+Vsmfield summary__v (
+   label('Summary'),
+   active(true),
+   description('A concise summary of the inbound package\''s contents or intent. Shorter than the full description, this field provides a quick snapshot for users reviewing packages at a glance.'),
+   example_values(),
+   synonyms('overview',
+         'brief',
+         'short description'),
+   target('summary__v'),
+   target_label('Summary'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

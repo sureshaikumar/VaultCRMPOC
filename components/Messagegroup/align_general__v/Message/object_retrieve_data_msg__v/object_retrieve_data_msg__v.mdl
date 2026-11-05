@@ -1,0 +1,6 @@
+Message object_retrieve_data_msg__v (
+   label(),
+   active(true),
+   default_value('Retrieving ${obj_name} data'),
+   system_managed(false)
+);

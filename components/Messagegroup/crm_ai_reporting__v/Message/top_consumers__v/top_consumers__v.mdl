@@ -1,0 +1,6 @@
+Message top_consumers__v (
+   label(),
+   active(true),
+   default_value('Top consumers'),
+   system_managed(false)
+);

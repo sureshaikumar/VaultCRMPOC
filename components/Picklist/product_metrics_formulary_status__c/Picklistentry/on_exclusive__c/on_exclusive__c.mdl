@@ -1,0 +1,5 @@
+Picklistentry on_exclusive__c (
+   value('On/Exclusive'),
+   order(3),
+   active(true)
+);

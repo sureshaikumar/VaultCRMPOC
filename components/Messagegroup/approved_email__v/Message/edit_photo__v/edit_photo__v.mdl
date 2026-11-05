@@ -1,0 +1,6 @@
+Message edit_photo__v (
+   label(),
+   active(true),
+   default_value('Edit Photo'),
+   system_managed(false)
+);

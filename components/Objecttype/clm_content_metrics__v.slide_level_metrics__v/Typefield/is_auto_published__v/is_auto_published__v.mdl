@@ -1,0 +1,4 @@
+Typefield is_auto_published__v (
+   source('standard'),
+   required(false)
+);

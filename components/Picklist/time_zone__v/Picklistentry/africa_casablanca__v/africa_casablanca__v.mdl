@@ -1,0 +1,5 @@
+Picklistentry africa_casablanca__v (
+   value('Western European Time (Casablanca)'),
+   order(58),
+   active(true)
+);

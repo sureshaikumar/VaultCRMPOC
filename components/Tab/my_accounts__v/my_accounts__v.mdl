@@ -1,0 +1,10 @@
+RECREATE Tab my_accounts__v (
+   active(true),
+   enable_global_search(true),
+   global_search_placeholder(''),
+   label('My Accounts'),
+   order(1100),
+   page('Page.my_accounts_page__v'),
+   parent(),
+   url(@url.txt)
+);

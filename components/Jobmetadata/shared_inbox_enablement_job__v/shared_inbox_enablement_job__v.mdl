@@ -1,0 +1,10 @@
+RECREATE Jobmetadata shared_inbox_enablement_job__v (
+   label('Shared Inbox Enablement Job'),
+   active(true),
+   chunk_size(1),
+   description('A job to subscribe a mailbox for a user.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.casemanagement.jobs.SharedInboxEnablementJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

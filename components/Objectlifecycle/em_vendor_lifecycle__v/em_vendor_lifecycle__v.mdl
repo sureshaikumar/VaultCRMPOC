@@ -1,0 +1,20 @@
+RECREATE Objectlifecycle em_vendor_lifecycle__v (
+   label('Vendor Lifecycle'),
+   state_labels(),
+   labeled_states(),
+   active(true),
+   starting_state('Objectlifecyclestate.active_state__v'),
+   description('Lifecycle for Events Management'),
+   Objectlifecyclestate(@Objectlifecyclestate/active_state__v.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/inactive_state__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/owner__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/editor__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/viewer__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_read__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_edit__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_delete__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_read__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_edit__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_delete__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/viewer_read__v.mdl)
+);

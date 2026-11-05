@@ -1,0 +1,6 @@
+Picklistentry it-ce__v (
+   value('Caserta'),
+   order(2195),
+   active(true),
+   controlling_entries('it__v')
+);

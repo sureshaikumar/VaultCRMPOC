@@ -1,0 +1,11 @@
+Subtab engage_connect_process_admin_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Engage Connect Process Administration'),
+   order(200),
+   page('Page.engage_connect_process_admin_page__v'),
+   parent('engage_setup_tab__v'),
+   prevent_create(false),
+   url(@url.txt)
+);

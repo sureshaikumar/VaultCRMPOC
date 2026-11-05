@@ -1,0 +1,5 @@
+Picklistentry mn__v (
+   value('Mongolia'),
+   order(147),
+   active(true)
+);

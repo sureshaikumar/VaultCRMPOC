@@ -1,0 +1,4 @@
+Typefield delivery_discount_applied__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry pl-04__v (
+   value('Kujawsko-Pomorskie'),
+   order(3623),
+   active(true),
+   controlling_entries('pl__v')
+);

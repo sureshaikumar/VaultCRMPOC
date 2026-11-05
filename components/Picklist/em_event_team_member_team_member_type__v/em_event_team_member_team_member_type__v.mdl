@@ -1,0 +1,9 @@
+RECREATE Picklist em_event_team_member_team_member_type__v (
+   label('Team Member Type'),
+   active(true),
+   Picklistentry(@Picklistentry/user__v.mdl),
+   Picklistentry(@Picklistentry/group__v.mdl),
+   Picklistentry(@Picklistentry/write_in__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

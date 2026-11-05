@@ -1,0 +1,5 @@
+Picklistentry developing__c (
+   value('Developing'),
+   order(1),
+   active(true)
+);

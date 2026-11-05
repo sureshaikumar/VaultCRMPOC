@@ -1,0 +1,6 @@
+Picklistentry ptaoe__v (
+   value('Pediatric Trauma and Orthopedics'),
+   order(1465),
+   active(true),
+   controlling_entries('am__v')
+);

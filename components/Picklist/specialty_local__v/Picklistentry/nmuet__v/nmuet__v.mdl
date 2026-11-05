@@ -1,0 +1,6 @@
+Picklistentry nmuet__v (
+   value('Nutrition Medicine'),
+   order(1066),
+   active(true),
+   controlling_entries('kr__v')
+);

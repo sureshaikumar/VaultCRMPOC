@@ -1,0 +1,5 @@
+Picklistentry ru__v (
+   value('RU'),
+   order(98),
+   active(true)
+);

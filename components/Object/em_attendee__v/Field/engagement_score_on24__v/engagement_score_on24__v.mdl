@@ -1,0 +1,22 @@
+Field engagement_score_on24__v (
+   label('Engagement Score On24'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99.9),
+   min_value(-99.9),
+   scale(1),
+   help_content('Field used to store On24 engagement score'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

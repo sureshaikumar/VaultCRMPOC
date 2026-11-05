@@ -1,0 +1,5 @@
+Picklistentry asia_kabul__v (
+   value('Asia/Kabul'),
+   order(52),
+   active(true)
+);

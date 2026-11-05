@@ -1,0 +1,6 @@
+Picklistentry lk-12__v (
+   value('Gampaha'),
+   order(2562),
+   active(true),
+   controlling_entries('lk__v')
+);

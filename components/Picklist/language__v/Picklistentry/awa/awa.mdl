@@ -1,0 +1,5 @@
+Picklistentry awa (
+   value('Awadhi'),
+   order(132),
+   active(true)
+);

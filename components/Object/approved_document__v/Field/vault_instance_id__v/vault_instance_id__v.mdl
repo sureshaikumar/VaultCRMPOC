@@ -1,0 +1,19 @@
+Field vault_instance_id__v (
+   label('Vault ID'),
+   type('String'),
+   active(true),
+   description('URL endpoint for the Vault instance from which this document originated.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

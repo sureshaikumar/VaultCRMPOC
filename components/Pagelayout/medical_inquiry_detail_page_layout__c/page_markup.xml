@@ -1,0 +1,66 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.medical_inquiry__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="mode_of_delivery__c" />
+            <vault:field reference="log_date__c" />
+            <vault:field reference="call_log_id_tracking_number__c" />
+            <vault:field reference="initial_received_date__c" />
+            <vault:field reference="latest_received_date__c" />
+            <vault:field reference="report_category__c" />
+            <vault:field reference="country_account__v" />
+            <vault:field reference="reference_numbers__c" />
+            <vault:field reference="reconciliation_number__c" />
+            <vault:field reference="date_of_disposition__c" />
+            <vault:control reference="medical_inquiry_save__v" name="medical_inquiry_save__c" />
+            <vault:field reference="assign_to_user__v" />
+            <vault:field reference="test_field__c" />
+            <vault:field reference="account__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Reporter Section" name="reporter_section__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="reporters_title__c" />
+            <vault:field reference="reporters_given_name__c" />
+            <vault:field reference="reporters_family_name__c" />
+            <vault:field reference="reporters_country_code__c" />
+            <vault:field reference="reporters_city__c" />
+            <vault:field reference="reporters_email_id__c" />
+            <vault:field reference="reporters_fax_id__c" />
+            <vault:field reference="reporters_postcode__c" />
+            <vault:field reference="reporters_state_or_province__c" />
+            <vault:field reference="reporters_street__c" />
+            <vault:field reference="reporters_telephone__c" />
+            <vault:field reference="health_professional__c" />
+            <vault:field reference="consent_to_followup__c" />
+            <vault:field reference="occupation__c" />
+            <vault:field reference="patient_name__c" />
+            <vault:field reference="qualification__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Product" name="product__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name_of_drug_as_reported__c" />
+            <vault:field reference="inquiry_text__v" />
+            <vault:field reference="response__c" />
+            <vault:field reference="narrative_case_summary__c" />
+            <vault:control reference="multiple_product_inquiries_field_control__v" name="multiple_product_inquiries_field_control__c" label="Multiple Product Inquiries" />
+            <vault:field reference="product__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

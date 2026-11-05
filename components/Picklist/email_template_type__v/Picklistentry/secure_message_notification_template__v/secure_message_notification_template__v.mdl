@@ -1,0 +1,5 @@
+Picklistentry secure_message_notification_template__v (
+   value('Secure Message Notification Template'),
+   order(11),
+   active(true)
+);

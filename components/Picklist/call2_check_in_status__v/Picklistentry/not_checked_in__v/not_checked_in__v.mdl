@@ -1,0 +1,5 @@
+Picklistentry not_checked_in__v (
+   value('Not Checked In'),
+   order(1),
+   active(true)
+);

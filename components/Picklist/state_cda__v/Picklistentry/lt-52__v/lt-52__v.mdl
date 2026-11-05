@@ -1,0 +1,6 @@
+Picklistentry lt-52__v (
+   value('Trakai'),
+   order(2670),
+   active(true),
+   controlling_entries('lt__v')
+);

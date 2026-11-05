@@ -1,0 +1,6 @@
+Picklistentry cd-to__v (
+   value('Tshopo'),
+   order(596),
+   active(true),
+   controlling_entries('cd__v')
+);

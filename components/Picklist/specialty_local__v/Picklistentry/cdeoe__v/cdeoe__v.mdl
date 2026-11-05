@@ -1,0 +1,6 @@
+Picklistentry cdeoe__v (
+   value('Conservative Dentistry / Endodontics'),
+   order(328),
+   active(true),
+   controlling_entries('dz__v')
+);

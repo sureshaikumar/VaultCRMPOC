@@ -1,0 +1,6 @@
+Picklistentry apicn__v (
+   value('Anatomical Pathology (Including Cytopathology)'),
+   order(61),
+   active(true),
+   controlling_entries('au__v')
+);

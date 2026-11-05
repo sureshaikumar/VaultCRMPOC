@@ -1,0 +1,6 @@
+Picklistentry es-nc__v (
+   value('Navarra, Comunidad Foral de'),
+   order(1236),
+   active(true),
+   controlling_entries('es__v')
+);

@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17658586505308020__c (
+   label('Test Team 4 Role'),
+   active(true),
+   application_role('test_team_4_role__c'),
+   permission_sets('Permissionset.test_permission__c')
+);

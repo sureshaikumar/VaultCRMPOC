@@ -1,0 +1,14 @@
+Vsmfield legalhold__v (
+   label('Legal Hold'),
+   active(true),
+   description('Object reference to the parent Legal Hold record that this item belongs to. Use this to identify which legal hold case a document is associated with, or to retrieve all items under a specific hold for compliance review.'),
+   example_values(),
+   synonyms('hold',
+         'legal hold case',
+         'hold reference',
+         'associated hold'),
+   target('legalhold__v'),
+   target_label('Legal Hold'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

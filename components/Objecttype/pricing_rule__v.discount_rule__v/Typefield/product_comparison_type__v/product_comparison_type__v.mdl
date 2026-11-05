@@ -1,0 +1,6 @@
+Typefield product_comparison_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.pricing_rule_product_comparison_type__v.list_value__v',
+         'Picklist.pricing_rule_product_comparison_type__v.product_quantity__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry twd__sys (
+   value('TWD'),
+   order(185),
+   active(true)
+);

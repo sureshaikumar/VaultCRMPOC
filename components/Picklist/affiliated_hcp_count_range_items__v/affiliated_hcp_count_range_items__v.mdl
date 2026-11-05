@@ -1,0 +1,16 @@
+RECREATE Picklist affiliated_hcp_count_range_items__v (
+   label('Affiliated HCP count range items'),
+   active(true),
+   Picklistentry(@Picklistentry/0__v.mdl),
+   Picklistentry(@Picklistentry/1__v.mdl),
+   Picklistentry(@Picklistentry/2_9__v.mdl),
+   Picklistentry(@Picklistentry/10_24__v.mdl),
+   Picklistentry(@Picklistentry/25_99__v.mdl),
+   Picklistentry(@Picklistentry/100_499__v.mdl),
+   Picklistentry(@Picklistentry/500_999__v.mdl),
+   Picklistentry(@Picklistentry/1000_4999__v.mdl),
+   Picklistentry(@Picklistentry/5000_9999__v.mdl),
+   Picklistentry(@Picklistentry/10000p__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

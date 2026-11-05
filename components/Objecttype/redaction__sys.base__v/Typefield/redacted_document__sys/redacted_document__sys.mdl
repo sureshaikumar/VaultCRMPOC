@@ -1,0 +1,4 @@
+Typefield redacted_document__sys (
+   source('standard'),
+   required(false)
+);

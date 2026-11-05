@@ -1,0 +1,6 @@
+Message fax_preview_unavailable__v (
+   label(),
+   active(true),
+   default_value('Fax Preview Unavailable'),
+   system_managed(false)
+);

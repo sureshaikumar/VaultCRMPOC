@@ -1,0 +1,5 @@
+Picklistentry pacific_niue__sys (
+   value('(GMT-11:00) Niue Time (Pacific/Niue)'),
+   order(0),
+   active(true)
+);

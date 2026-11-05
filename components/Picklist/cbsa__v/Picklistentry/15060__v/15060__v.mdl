@@ -1,0 +1,5 @@
+Picklistentry 15060__v (
+   value('Brookings, OR Micropolitan Statistical Area'),
+   order(921),
+   active(true)
+);

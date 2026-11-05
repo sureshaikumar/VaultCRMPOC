@@ -1,0 +1,17 @@
+Field direct_idn_contracting_prevented__c (
+   label('Direct IDN Contracting Prevented?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Are there provisions to prevent direct integrated delivery network (IDN) / aggregated group contracting?'),
+   list_column(false),
+   order(176),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

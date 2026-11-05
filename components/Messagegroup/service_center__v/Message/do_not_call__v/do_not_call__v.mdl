@@ -1,0 +1,6 @@
+Message do_not_call__v (
+   label(),
+   active(true),
+   default_value('Do Not Call'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message pages__v (
+   label(),
+   active(true),
+   default_value('Pages'),
+   system_managed(false)
+);

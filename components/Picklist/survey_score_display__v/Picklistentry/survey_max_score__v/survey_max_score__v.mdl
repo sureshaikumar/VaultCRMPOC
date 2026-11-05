@@ -1,0 +1,5 @@
+Picklistentry survey_max_score__v (
+   value('Survey Max Score'),
+   order(2),
+   active(true)
+);

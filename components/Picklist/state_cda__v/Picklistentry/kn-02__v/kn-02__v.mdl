@@ -1,0 +1,6 @@
+Picklistentry kn-02__v (
+   value('Saint Anne Sandy Point'),
+   order(2442),
+   active(true),
+   controlling_entries('kn__v')
+);

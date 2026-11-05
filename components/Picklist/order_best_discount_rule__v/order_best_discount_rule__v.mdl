@@ -1,0 +1,11 @@
+RECREATE Picklist order_best_discount_rule__v (
+   label('Best Discount Rule'),
+   active(true),
+   Picklistentry(@Picklistentry/campaign_with_contract__v.mdl),
+   Picklistentry(@Picklistentry/order_campaign__v.mdl),
+   Picklistentry(@Picklistentry/contract__v.mdl),
+   Picklistentry(@Picklistentry/standard__v.mdl),
+   Picklistentry(@Picklistentry/combined__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

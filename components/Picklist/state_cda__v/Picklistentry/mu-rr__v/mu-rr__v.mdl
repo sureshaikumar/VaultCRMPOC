@@ -1,0 +1,6 @@
+Picklistentry mu-rr__v (
+   value('Rivière du Rempart'),
+   order(3185),
+   active(true),
+   controlling_entries('mu__v')
+);

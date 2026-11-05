@@ -1,0 +1,8 @@
+Tabcollectionitem my_schedule1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(2),
+   tab('Tab.my_schedule_tab__v'),
+   type('Tab')
+);

@@ -1,0 +1,5 @@
+Picklistentry 16500__v (
+   value('Centralia, WA Micropolitan Statistical Area'),
+   order(922),
+   active(true)
+);

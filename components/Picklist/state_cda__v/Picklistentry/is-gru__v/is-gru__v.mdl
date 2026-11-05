@@ -1,0 +1,6 @@
+Picklistentry is-gru__v (
+   value('Grundarfjarðarbær'),
+   order(2109),
+   active(true),
+   controlling_entries('is__v')
+);

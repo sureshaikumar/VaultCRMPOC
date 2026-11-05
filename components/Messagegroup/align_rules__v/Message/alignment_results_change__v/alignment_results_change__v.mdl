@@ -1,0 +1,6 @@
+Message alignment_results_change__v (
+   label(),
+   active(true),
+   default_value('Change'),
+   system_managed(false)
+);

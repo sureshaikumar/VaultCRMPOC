@@ -1,0 +1,5 @@
+Picklistentry stage_0__v (
+   value('Stage 0'),
+   order(0),
+   active(true)
+);

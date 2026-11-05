@@ -1,0 +1,10 @@
+Vsmvalue syp__v (
+   label('SYP'),
+   active(true),
+   description('Applies when transactions are denominated in the Syrian Pound, the official currency of Syria.'),
+   synonyms('Syrian pound',
+         'Syria currency',
+         'pound'),
+   target('syp__sys'),
+   target_label('SYP')
+);

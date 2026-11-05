@@ -1,0 +1,5 @@
+Picklistentry kes__sys (
+   value('KES'),
+   order(94),
+   active(true)
+);

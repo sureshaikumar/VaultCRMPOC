@@ -1,0 +1,6 @@
+Message sent_emails__v (
+   label(),
+   active(true),
+   default_value('Sent Emails'),
+   system_managed(false)
+);

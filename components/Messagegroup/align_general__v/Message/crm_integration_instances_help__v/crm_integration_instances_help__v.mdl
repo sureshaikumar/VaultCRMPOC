@@ -1,0 +1,6 @@
+Message crm_integration_instances_help__v (
+   label(),
+   active(true),
+   default_value('This section lists the CRM instances that are connected to this Align instance.'),
+   system_managed(false)
+);

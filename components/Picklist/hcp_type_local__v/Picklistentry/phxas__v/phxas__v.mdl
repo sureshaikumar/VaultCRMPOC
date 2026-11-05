@@ -1,0 +1,5 @@
+Picklistentry phxas__v (
+   value('Pharmacy Assistant'),
+   order(103),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield account_exclusivity__v (
+   source('standard'),
+   required(false)
+);

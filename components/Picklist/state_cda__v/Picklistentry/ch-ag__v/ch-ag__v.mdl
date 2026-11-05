@@ -1,0 +1,6 @@
+Picklistentry ch-ag__v (
+   value('Aargau'),
+   order(627),
+   active(true),
+   controlling_entries('ch__v')
+);

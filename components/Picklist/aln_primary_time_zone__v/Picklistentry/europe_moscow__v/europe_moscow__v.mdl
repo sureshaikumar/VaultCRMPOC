@@ -1,0 +1,5 @@
+Picklistentry europe_moscow__v (
+   value('Europe/Moscow'),
+   order(51),
+   active(true)
+);

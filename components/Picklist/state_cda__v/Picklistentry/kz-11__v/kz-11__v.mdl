@@ -1,0 +1,6 @@
+Picklistentry kz-11__v (
+   value('Aqmola oblysy'),
+   order(2494),
+   active(true),
+   controlling_entries('kz__v')
+);

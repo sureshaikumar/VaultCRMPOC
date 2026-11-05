@@ -1,0 +1,6 @@
+Picklistentry ua-71__v (
+   value('Cherkaska oblast'),
+   order(4640),
+   active(true),
+   controlling_entries('ua__v')
+);

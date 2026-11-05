@@ -1,0 +1,6 @@
+Picklistentry otp_section_dependency__sys (
+   value('Section Dependency'),
+   order(149),
+   active(true),
+   controlling_entries('olc_dependency_design__sys')
+);

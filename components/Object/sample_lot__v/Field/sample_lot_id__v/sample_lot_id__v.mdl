@@ -1,0 +1,19 @@
+Field sample_lot_id__v (
+   label('Sample Lot Id'),
+   type('String'),
+   active(true),
+   description('Sample Lot Id is an external Id used to allow upsert functionality for managing Sample Lots.  The Sample Lot Id can be utilized to support data loading of Sample Lots for users.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry lb__v (
+   value('LB'),
+   order(127),
+   active(true)
+);

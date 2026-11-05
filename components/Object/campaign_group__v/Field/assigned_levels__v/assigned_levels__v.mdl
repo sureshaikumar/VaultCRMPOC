@@ -1,0 +1,18 @@
+Field assigned_levels__v (
+   label('Assigned Levels'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   multi_value(true),
+   picklist('Picklist.campaign_group_levels__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

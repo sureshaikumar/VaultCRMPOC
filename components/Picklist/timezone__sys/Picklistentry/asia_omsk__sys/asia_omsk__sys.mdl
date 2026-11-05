@@ -1,0 +1,5 @@
+Picklistentry asia_omsk__sys (
+   value('(GMT+06:00) Bangladesh Time (Asia/Omsk)'),
+   order(237),
+   active(true)
+);

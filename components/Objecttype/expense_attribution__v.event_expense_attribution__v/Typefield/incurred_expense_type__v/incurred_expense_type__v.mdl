@@ -1,0 +1,10 @@
+Typefield incurred_expense_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.expense_attributio_incurred_expense_type__v.account__v',
+         'Picklist.expense_attributio_incurred_expense_type__v.attendee__v',
+         'Picklist.expense_attributio_incurred_expense_type__v.event_speaker__v',
+         'Picklist.expense_attributio_incurred_expense_type__v.event_team_member__v',
+         'Picklist.expense_attributio_incurred_expense_type__v.vendor__v',
+         'Picklist.expense_attributio_incurred_expense_type__v.venue__v')
+);

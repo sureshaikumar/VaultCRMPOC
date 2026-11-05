@@ -1,0 +1,6 @@
+Typefield past_position__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.position_past_position__v.no__v',
+         'Picklist.position_past_position__v.yes__v')
+);

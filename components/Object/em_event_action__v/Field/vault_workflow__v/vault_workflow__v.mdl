@@ -1,0 +1,19 @@
+Field vault_workflow__v (
+   label('Vault Workflow'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(43),
+   help_content('Used to define the workflow that launches on Button Click'),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

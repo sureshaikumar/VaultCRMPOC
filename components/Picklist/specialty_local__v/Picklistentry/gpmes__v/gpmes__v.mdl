@@ -1,0 +1,6 @@
+Picklistentry gpmes__v (
+   value('General Practice Medicine'),
+   order(610),
+   active(true),
+   controlling_entries('cz__v')
+);

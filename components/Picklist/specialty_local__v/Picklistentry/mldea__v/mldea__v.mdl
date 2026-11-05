@@ -1,0 +1,6 @@
+Picklistentry mldea__v (
+   value('Medical Laboratory Diagnostics'),
+   order(920),
+   active(true),
+   controlling_entries('hu__v')
+);

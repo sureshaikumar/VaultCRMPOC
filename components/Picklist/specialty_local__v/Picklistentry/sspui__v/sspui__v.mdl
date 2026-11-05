@@ -1,0 +1,11 @@
+Picklistentry sspui__v (
+   value('Spine Surgery'),
+   order(1796),
+   active(true),
+   controlling_entries('fr__v',
+         'lv__v',
+         'mc__v',
+         'my__v',
+         'ph__v',
+         'pk__v')
+);

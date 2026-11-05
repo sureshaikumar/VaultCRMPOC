@@ -1,0 +1,18 @@
+RECREATE Picklist email_activity_event_type__v (
+   label('Activity'),
+   active(true),
+   Picklistentry(@Picklistentry/delivered__v.mdl),
+   Picklistentry(@Picklistentry/bounced__v.mdl),
+   Picklistentry(@Picklistentry/opened__v.mdl),
+   Picklistentry(@Picklistentry/clicked__v.mdl),
+   Picklistentry(@Picklistentry/unsubscribed__v.mdl),
+   Picklistentry(@Picklistentry/marked_spam__v.mdl),
+   Picklistentry(@Picklistentry/viewed__v.mdl),
+   Picklistentry(@Picklistentry/dropped__v.mdl),
+   Picklistentry(@Picklistentry/downloaded__v.mdl),
+   Picklistentry(@Picklistentry/preferences_modified__v.mdl),
+   Picklistentry(@Picklistentry/unsubscribed_all__v.mdl),
+   Picklistentry(@Picklistentry/content_unavailable__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message edit_segments__v (
+   label(),
+   active(true),
+   default_value('Edit Segments'),
+   system_managed(false)
+);

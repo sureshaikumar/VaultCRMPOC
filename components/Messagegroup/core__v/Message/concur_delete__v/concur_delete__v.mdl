@@ -1,0 +1,6 @@
+Message concur_delete__v (
+   label(),
+   active(true),
+   default_value('Delete'),
+   system_managed(false)
+);

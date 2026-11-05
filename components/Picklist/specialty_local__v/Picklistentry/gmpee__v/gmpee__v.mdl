@@ -1,0 +1,6 @@
+Picklistentry gmpee__v (
+   value('General Medical Practice'),
+   order(601),
+   active(true),
+   controlling_entries('kz__v')
+);

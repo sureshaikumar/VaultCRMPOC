@@ -1,0 +1,6 @@
+Picklistentry dz-44__v (
+   value('Aïn Defla'),
+   order(1025),
+   active(true),
+   controlling_entries('dz__v')
+);

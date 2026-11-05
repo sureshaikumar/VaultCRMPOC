@@ -1,0 +1,6 @@
+Message must_assign_targeting_rule__v (
+   label(),
+   active(true),
+   default_value('Targeting channels must belong to one targeting rule or one model targeting rule.'),
+   system_managed(false)
+);

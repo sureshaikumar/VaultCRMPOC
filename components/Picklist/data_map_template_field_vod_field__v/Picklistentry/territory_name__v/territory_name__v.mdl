@@ -1,0 +1,5 @@
+Picklistentry territory_name__v (
+   value('Territory_Name_vod__c'),
+   order(113),
+   active(true)
+);

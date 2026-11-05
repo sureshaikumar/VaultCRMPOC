@@ -1,0 +1,5 @@
+Picklistentry shared__v (
+   value('Shared'),
+   order(0),
+   active(true)
+);

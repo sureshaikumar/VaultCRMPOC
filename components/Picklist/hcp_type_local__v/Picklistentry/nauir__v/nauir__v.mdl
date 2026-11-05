@@ -1,0 +1,5 @@
+Picklistentry nauir__v (
+   value('Nurse''s Aide'),
+   order(78),
+   active(true)
+);

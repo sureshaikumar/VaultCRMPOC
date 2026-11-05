@@ -1,0 +1,6 @@
+Message ready_for_checkin__v (
+   label(),
+   active(true),
+   default_value('Ready for Check-In'),
+   system_managed(false)
+);

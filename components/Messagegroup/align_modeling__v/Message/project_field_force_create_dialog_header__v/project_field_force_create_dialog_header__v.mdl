@@ -1,0 +1,6 @@
+Message project_field_force_create_dialog_header__v (
+   label(),
+   active(true),
+   default_value('Add Field Forces to {0}'),
+   system_managed(false)
+);

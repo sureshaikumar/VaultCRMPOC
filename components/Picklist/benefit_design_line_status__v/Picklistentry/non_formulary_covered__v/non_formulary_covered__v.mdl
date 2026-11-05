@@ -1,0 +1,5 @@
+Picklistentry non_formulary_covered__v (
+   value('Non-Formulary / Covered'),
+   order(3),
+   active(true)
+);

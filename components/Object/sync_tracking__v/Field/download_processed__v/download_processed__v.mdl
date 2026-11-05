@@ -1,0 +1,18 @@
+Field download_processed__v (
+   label('Download Processed'),
+   type('Boolean'),
+   active(true),
+   description('Marked as checked if the download from the server to VMobile completed with no errors.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

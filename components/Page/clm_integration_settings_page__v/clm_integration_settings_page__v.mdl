@@ -1,0 +1,14 @@
+RECREATE Page clm_integration_settings_page__v (
+   label('CLM Integration Settings'),
+   active(true),
+   client_distribution(),
+   default_client_code('clm_integration_settings_page__v'),
+   description('Connection Settings Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.clm.controls.ClmIntegrationSettingsPageController'),
+   url_path_name('clm-integration-settings')
+);

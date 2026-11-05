@@ -1,0 +1,9 @@
+RECREATE Objectvalidation em_event_rule__v.automated_emails__v.cannot_select_all_products__v (
+   label('Cannot Select All Products'),
+   active(true),
+   expression('Not(Not(IsBlank(product__v)) && all_products__v = TRUE)'),
+   description('Error message displayed when both a Product is entered and All Products is checked.'),
+   error_message('Product cannot be selected when All Products is checked.'),
+   error_location('product__v',
+      'all_products__v')
+);

@@ -1,0 +1,19 @@
+Field rating__v (
+   label('Account Rating'),
+   type('Picklist'),
+   active(true),
+   description('Rating'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(118),
+   multi_value(false),
+   picklist('Picklist.account_rating__v'),
+   default_value('{hot__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

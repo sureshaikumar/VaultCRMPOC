@@ -1,0 +1,14 @@
+Objectlifecyclepermission organizer_edit__v (
+   states('Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.approved__v',
+         'Objectlifecyclestate.canceled__v',
+         'Objectlifecyclestate.closed__v',
+         'Objectlifecyclestate.completed__v',
+         'Objectlifecyclestate.execute__v',
+         'Objectlifecyclestate.inactive_state__v',
+         'Objectlifecyclestate.pending_approval__v',
+         'Objectlifecyclestate.rejected__v',
+         'Objectlifecyclestate.requested__v'),
+   role('Objectlifecyclerole.organizer__v'),
+   permission('Edit')
+);

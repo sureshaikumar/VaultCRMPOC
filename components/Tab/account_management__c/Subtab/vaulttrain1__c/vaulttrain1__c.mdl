@@ -1,0 +1,15 @@
+Subtab vaulttrain1__c (
+   active(true),
+   all_view_label('All VaultTRAIN1'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('VaultTRAIN1'),
+   modal_create_record(false),
+   my_view_label('My VaultTRAIN1'),
+   object('vaultcrmtrn1__c'),
+   order(400),
+   parent('account_management__c'),
+   prevent_create(false),
+   recent_view_label('Recent VaultTRAIN1')
+);

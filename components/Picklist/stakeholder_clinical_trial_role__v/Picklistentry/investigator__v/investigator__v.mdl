@@ -1,0 +1,5 @@
+Picklistentry investigator__v (
+   value('Investigator'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field ship_license__v (
+   label('Ship License #'),
+   type('String'),
+   active(true),
+   description('Stores the License # of the practitioner that requested the BRC product shipment.'),
+   required(false),
+   unique(false),
+   max_length(25),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

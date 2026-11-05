@@ -1,0 +1,9 @@
+RECREATE Picklist affiliation_influence__v (
+   label('Influence'),
+   active(true),
+   Picklistentry(@Picklistentry/no_influence__v.mdl),
+   Picklistentry(@Picklistentry/has_influence__v.mdl),
+   Picklistentry(@Picklistentry/is_influenced__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

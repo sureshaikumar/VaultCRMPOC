@@ -1,0 +1,5 @@
+Picklistentry america_indiana_knox__sys (
+   value('(GMT-06:00) Central Standard Time (America/Indiana/Knox)'),
+   order(37),
+   active(true)
+);

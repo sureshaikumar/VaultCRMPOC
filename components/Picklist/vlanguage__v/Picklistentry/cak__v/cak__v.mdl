@@ -1,0 +1,5 @@
+Picklistentry cak__v (
+   value('Kaqchikel'),
+   order(362),
+   active(false)
+);

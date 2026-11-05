@@ -1,0 +1,6 @@
+Message upcoming_check_ins__v (
+   label(),
+   active(true),
+   default_value('Upcoming Check-Ins'),
+   system_managed(false)
+);

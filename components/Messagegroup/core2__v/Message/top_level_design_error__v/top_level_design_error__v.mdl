@@ -1,0 +1,6 @@
+Message top_level_design_error__v (
+   label(),
+   active(true),
+   default_value('The selected Parent Benefit Design must be a top level Benefit Design. Please select another Benefit Design.'),
+   system_managed(false)
+);

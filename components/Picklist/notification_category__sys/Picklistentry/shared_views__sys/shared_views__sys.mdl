@@ -1,0 +1,5 @@
+Picklistentry shared_views__sys (
+   value('Shared Views'),
+   order(2),
+   active(true)
+);

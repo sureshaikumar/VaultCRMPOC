@@ -1,0 +1,8 @@
+RECREATE Objectaction survey_target__v.send_to_employee__v (
+   label('Send to Employee'),
+   description('Stamps send_to_employee_datetime__v and changes report_status__v to under_employee_review__v'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.survey.actions.SurveyTargetSendToEmployeeAction'),
+   active(true),
+   available_all_states(false)
+);

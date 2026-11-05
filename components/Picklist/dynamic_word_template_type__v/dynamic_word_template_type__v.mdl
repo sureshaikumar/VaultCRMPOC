@@ -1,0 +1,9 @@
+RECREATE Picklist dynamic_word_template_type__v (
+   label('Dynamic Word Template Type'),
+   active(true),
+   Picklistentry(@Picklistentry/fax__v.mdl),
+   Picklistentry(@Picklistentry/sample_transfer_package_label__v.mdl),
+   Picklistentry(@Picklistentry/sample_return_package_label__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

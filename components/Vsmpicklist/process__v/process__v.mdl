@@ -1,0 +1,12 @@
+RECREATE Vsmpicklist process__v (
+   label('Process'),
+   active(true),
+   description('Categorizes records by the lifecycle they belong to, enabling filtering by a Process in Process Monitor. Each record maps to a document or object lifecycle.'),
+   synonyms('workflow',
+      'business process',
+      'procedure',
+      'operation',
+      'process type'),
+   target('Picklist.process__sys'),
+   target_label('Process')
+);

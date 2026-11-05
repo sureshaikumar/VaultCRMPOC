@@ -1,0 +1,6 @@
+Picklistentry sm-04__v (
+   value('Faetano'),
+   order(4203),
+   active(true),
+   controlling_entries('sm__v')
+);

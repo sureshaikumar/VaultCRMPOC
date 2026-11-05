@@ -1,0 +1,6 @@
+Picklistentry bt-23__v (
+   value('Punakha'),
+   order(517),
+   active(true),
+   controlling_entries('bt__v')
+);

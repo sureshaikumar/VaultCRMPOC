@@ -1,0 +1,5 @@
+Picklistentry tn__v (
+   value('Tswana'),
+   order(328),
+   active(false)
+);

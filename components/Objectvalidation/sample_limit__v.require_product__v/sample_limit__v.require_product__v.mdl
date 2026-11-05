@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.require_product__v (
+   label('Require Product'),
+   active(true),
+   expression('Not(IsBlank(product__v))'),
+   description('Require a Product.'),
+   error_message('This field is required'),
+   error_location('product__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry nexsu__v (
+   value('Neurology Surgery'),
+   order(1030),
+   active(true),
+   controlling_entries('kw__v')
+);

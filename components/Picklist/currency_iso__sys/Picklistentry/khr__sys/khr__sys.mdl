@@ -1,0 +1,5 @@
+Picklistentry khr__sys (
+   value('KHR'),
+   order(96),
+   active(true)
+);

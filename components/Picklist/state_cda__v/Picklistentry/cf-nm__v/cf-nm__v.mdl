@@ -1,0 +1,6 @@
+Picklistentry cf-nm__v (
+   value('Nana-Mambéré'),
+   order(610),
+   active(true),
+   controlling_entries('cf__v')
+);

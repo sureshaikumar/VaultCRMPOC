@@ -1,0 +1,6 @@
+Message ctav_error_target_externalid_access__v (
+   label(),
+   active(true),
+   default_value('Target Vault CRM user does not have access to External ID field ${external_id} on object ${object_name}'),
+   system_managed(false)
+);

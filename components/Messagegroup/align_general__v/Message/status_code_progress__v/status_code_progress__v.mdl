@@ -1,0 +1,6 @@
+Message status_code_progress__v (
+   label(),
+   active(true),
+   default_value('Progress'),
+   system_managed(false)
+);

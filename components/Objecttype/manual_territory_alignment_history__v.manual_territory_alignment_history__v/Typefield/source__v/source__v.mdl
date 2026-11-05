@@ -1,0 +1,7 @@
+Typefield source__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.manual_territory_alignment_histor_source__v.account_hierarchy__v',
+         'Picklist.manual_territory_alignment_histor_source__v.global_account_search__v',
+         'Picklist.manual_territory_alignment_histor_source__v.stakeholder_navigator__v')
+);

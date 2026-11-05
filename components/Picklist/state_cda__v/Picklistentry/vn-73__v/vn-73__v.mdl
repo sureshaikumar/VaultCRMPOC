@@ -1,0 +1,6 @@
+Picklistentry vn-73__v (
+   value('Hậu Giang'),
+   order(4969),
+   active(true),
+   controlling_entries('vn__v')
+);

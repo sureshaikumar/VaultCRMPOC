@@ -1,0 +1,5 @@
+Picklistentry yer__sys (
+   value('YER'),
+   order(222),
+   active(true)
+);

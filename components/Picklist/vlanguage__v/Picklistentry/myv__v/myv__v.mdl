@@ -1,0 +1,5 @@
+Picklistentry myv__v (
+   value('Erzya'),
+   order(89),
+   active(false)
+);

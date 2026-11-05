@@ -1,0 +1,13 @@
+Vsmfield object_type__v (
+   label('Activity Type'),
+   active(true),
+   description('The object type or subtype of the activity, defining its classification (e.g., call, meeting, task, follow-up). Use to filter or group activities by their functional category.'),
+   example_values(),
+   synonyms('activity type',
+         'type',
+         'category'),
+   target('object_type__v'),
+   target_label('Activity Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

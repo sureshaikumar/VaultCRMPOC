@@ -1,0 +1,6 @@
+Picklistentry tr-37__v (
+   value('Kastamonu'),
+   order(4495),
+   active(true),
+   controlling_entries('tr__v')
+);

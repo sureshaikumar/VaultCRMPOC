@@ -1,0 +1,6 @@
+Picklistentry lt-54__v (
+   value('Utena'),
+   order(2672),
+   active(true),
+   controlling_entries('lt__v')
+);

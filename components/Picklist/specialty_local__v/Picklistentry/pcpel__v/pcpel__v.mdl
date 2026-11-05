@@ -1,0 +1,7 @@
+Picklistentry pcpel__v (
+   value('Pediatric Clinical Pharmacology'),
+   order(1351),
+   active(true),
+   controlling_entries('au__v',
+         'nz__v')
+);

@@ -1,0 +1,19 @@
+Field source_external_id__v (
+   label('Source External ID'),
+   type('String'),
+   active(true),
+   description('External ID of the Activity'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(47),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

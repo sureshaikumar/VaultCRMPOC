@@ -1,0 +1,20 @@
+Field attendee_email__v (
+   label('Attendee Email'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description('Stores the email address provided by MS Graph.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

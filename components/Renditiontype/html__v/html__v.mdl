@@ -1,0 +1,4 @@
+RECREATE Renditiontype html__v (
+   label('Veeva HTML'),
+   active(true)
+);

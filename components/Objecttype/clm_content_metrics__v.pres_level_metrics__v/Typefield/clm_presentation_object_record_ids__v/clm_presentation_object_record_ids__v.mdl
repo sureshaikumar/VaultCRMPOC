@@ -1,0 +1,4 @@
+Typefield clm_presentation_object_record_ids__v (
+   source('standard'),
+   required(false)
+);

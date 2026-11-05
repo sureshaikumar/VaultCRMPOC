@@ -1,0 +1,10 @@
+Vsmvalue szl__v (
+   label('SZL'),
+   active(true),
+   description('Applies when transactions are denominated in the Swazi Lilangeni, the official currency of Eswatini (formerly Swaziland).'),
+   synonyms('Swazi lilangeni',
+         'Eswatini currency',
+         'lilangeni'),
+   target('szl__sys'),
+   target_label('SZL')
+);

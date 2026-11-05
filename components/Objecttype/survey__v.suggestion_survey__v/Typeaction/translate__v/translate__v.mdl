@@ -1,0 +1,3 @@
+Typeaction translate__v (
+   action('survey__v.translate__v')
+);

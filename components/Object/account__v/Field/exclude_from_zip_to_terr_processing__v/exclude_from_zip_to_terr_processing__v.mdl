@@ -1,0 +1,18 @@
+Field exclude_from_zip_to_terr_processing__v (
+   label('Exclude from Zip to Terr Processing'),
+   type('Boolean'),
+   active(true),
+   description('Territories_vod field will not be overwritten by Zip to Terr processing if this is checked'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(38),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

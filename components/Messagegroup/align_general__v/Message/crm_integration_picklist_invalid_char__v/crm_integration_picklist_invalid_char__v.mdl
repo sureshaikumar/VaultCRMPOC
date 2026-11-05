@@ -1,0 +1,6 @@
+Message crm_integration_picklist_invalid_char__v (
+   label(),
+   active(true),
+   default_value('Picklist values can only contain a-z, 0-9, a single ''_'', and cannot begin or end with an ''_''.'),
+   system_managed(false)
+);

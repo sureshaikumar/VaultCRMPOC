@@ -1,0 +1,8 @@
+RECREATE Picklist aln_lock_status__v (
+   label('Lock Status'),
+   active(true),
+   Picklistentry(@Picklistentry/unlocked__v.mdl),
+   Picklistentry(@Picklistentry/locked__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

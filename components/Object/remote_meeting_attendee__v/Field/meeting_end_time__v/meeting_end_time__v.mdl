@@ -1,0 +1,17 @@
+Field meeting_end_time__v (
+   label('Meeting End Time'),
+   type('DateTime'),
+   active(true),
+   description('Date and time of when the meeting ended'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry be-vli__v (
+   value('Limburg (Belgium)'),
+   order(306),
+   active(true),
+   controlling_entries('be__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ks__v (
+   value('KS'),
+   order(19),
+   active(true)
+);

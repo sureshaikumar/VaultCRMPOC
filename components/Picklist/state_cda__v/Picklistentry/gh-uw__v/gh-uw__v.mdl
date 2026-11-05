@@ -1,0 +1,6 @@
+Picklistentry gh-uw__v (
+   value('Upper West'),
+   order(1701),
+   active(true),
+   controlling_entries('gh__v')
+);

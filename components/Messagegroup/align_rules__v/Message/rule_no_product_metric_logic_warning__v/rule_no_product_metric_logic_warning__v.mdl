@@ -1,0 +1,6 @@
+Message rule_no_product_metric_logic_warning__v (
+   label(),
+   active(true),
+   default_value('No criteria selected for Product Metric. Product Metrics will not be used to filter Account results.'),
+   system_managed(false)
+);

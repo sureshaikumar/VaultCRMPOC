@@ -1,0 +1,6 @@
+Picklistentry es-cr__v (
+   value('Ciudad Real'),
+   order(1211),
+   active(true),
+   controlling_entries('es__v')
+);

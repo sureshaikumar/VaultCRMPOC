@@ -1,0 +1,4 @@
+Typefield crosslink_source_type__sys (
+   source('standard'),
+   required(true)
+);

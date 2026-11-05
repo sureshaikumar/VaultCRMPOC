@@ -1,0 +1,6 @@
+Message create_from_soi__v (
+   label(),
+   active(true),
+   default_value('Create from Sphere of Influence'),
+   system_managed(false)
+);

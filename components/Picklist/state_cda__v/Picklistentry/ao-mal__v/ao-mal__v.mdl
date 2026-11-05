@@ -1,0 +1,6 @@
+Picklistentry ao-mal__v (
+   value('Malange'),
+   order(92),
+   active(true),
+   controlling_entries('ao__v')
+);

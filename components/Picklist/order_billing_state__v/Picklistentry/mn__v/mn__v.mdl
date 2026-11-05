@@ -1,0 +1,5 @@
+Picklistentry mn__v (
+   value('MN'),
+   order(27),
+   active(true)
+);

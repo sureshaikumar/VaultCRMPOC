@@ -1,0 +1,11 @@
+Vsmvalue external_search__v (
+   label('External Search'),
+   active(true),
+   description('Applies when a glossary event is resolved by querying an external source or third-party service outside of the internal glossary.'),
+   synonyms('outside search',
+         'third-party lookup',
+         'web search',
+         'external source query'),
+   target('external_search__sys'),
+   target_label('External Search')
+);

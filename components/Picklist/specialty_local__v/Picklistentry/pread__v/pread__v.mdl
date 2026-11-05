@@ -1,0 +1,11 @@
+Picklistentry pread__v (
+   value('Pediatric Radiology'),
+   order(1446),
+   active(true),
+   controlling_entries('ca__v',
+         'gr__v',
+         'hu__v',
+         'nz__v',
+         'tr__v',
+         'us__v')
+);

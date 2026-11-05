@@ -1,0 +1,4 @@
+Typefield filter_criteria__v (
+   source('custom'),
+   required(false)
+);

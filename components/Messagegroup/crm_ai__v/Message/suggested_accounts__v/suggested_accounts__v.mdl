@@ -1,0 +1,6 @@
+Message suggested_accounts__v (
+   label(),
+   active(true),
+   default_value('Suggested Accounts'),
+   system_managed(false)
+);

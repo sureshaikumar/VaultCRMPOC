@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.generate_sign_in__v (
+   label('Generate Sign In Sheet'),
+   description('Clicking this button opens up a list of available Sign In Sheet for the user to select. Once selected, the template is merged with data from the event. An attachment with the final Sign In Sheet is added to the Event for the user to print.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.GenerateSignInSheetAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry sl-nw__v (
+   value('North Western'),
+   order(4197),
+   active(true),
+   controlling_entries('sl__v')
+);

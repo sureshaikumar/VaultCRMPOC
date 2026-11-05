@@ -1,0 +1,6 @@
+Picklistentry imemd__v (
+   value('Internal Medicine Endocrine-Metabolic-Diabetes'),
+   order(798),
+   active(true),
+   controlling_entries('id__v')
+);

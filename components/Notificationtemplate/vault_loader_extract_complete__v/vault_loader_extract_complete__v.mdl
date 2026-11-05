@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_loader_extract_complete__v (
+   label('Extract Job Success'),
+   active(true),
+   description('Extract job success template.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Loader Job completed'),
+   notification('<p>Your ${vaultLoaderLogFileLink} has completed</p><p>Details:</p><ul><li>Action Type: Extract</li><li>Object Type: ${vaultLoaderObjectType}</li><li>Settings: ${vaultLoaderSettings}</li><li>Where Clause: ${vaultLoaderWhereClause}</li><li>Load Start Time: ${vaultLoaderStartTime} </li><li>Duration: ${vaultLoaderDuration} (${vaultLoaderRecordsPerSecond} records per second)</li><li>${vaultLoaderNumSuccesses}</li></ul>'),
+   email_body('<p>Your Loader Job has completed</p><p>Details:</p><ul><li>Action Type: Extract</li><li>Object Type: ${vaultLoaderObjectType}</li><li>Settings: ${vaultLoaderSettings}</li><li>Where Clause: ${vaultLoaderWhereClause}</li><li>Load Start Time: ${vaultLoaderStartTime} </li><li>Duration: ${vaultLoaderDuration} (${vaultLoaderRecordsPerSecond} records per second)</li><li>${vaultLoaderNumSuccesses}</li></ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

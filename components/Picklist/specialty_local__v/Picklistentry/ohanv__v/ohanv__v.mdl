@@ -1,0 +1,6 @@
+Picklistentry ohanv__v (
+   value('Otorhinolaryngology Head and Neck Surgery Reconstructive Plastics'),
+   order(1244),
+   active(true),
+   controlling_entries('id__v')
+);

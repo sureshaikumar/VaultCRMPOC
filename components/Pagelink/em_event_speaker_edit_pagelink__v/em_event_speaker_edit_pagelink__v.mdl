@@ -1,0 +1,11 @@
+RECREATE Pagelink em_event_speaker_edit_pagelink__v (
+   label('EM Event Speaker Edit'),
+   description('Redirects editing Event Speaker to the EM Event Speaker Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Metadata.name}}/{{Object.id}}/edit'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.em_event_speaker__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.em_router_page__v')
+);

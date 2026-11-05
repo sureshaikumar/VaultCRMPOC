@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17397790786519742__c (
+   label('testrole'),
+   active(true),
+   application_role('testrole__c'),
+   permission_sets('Permissionset.test_permission__c')
+);

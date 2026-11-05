@@ -1,0 +1,6 @@
+Message concur_exp_receipts_success__v (
+   label(),
+   active(true),
+   default_value('Expense Receipts Successes'),
+   system_managed(false)
+);

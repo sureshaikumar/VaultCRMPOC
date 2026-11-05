@@ -1,0 +1,6 @@
+Message import_mccp_file__v (
+   label(),
+   active(true),
+   default_value('Import MCCP File'),
+   system_managed(false)
+);

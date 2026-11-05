@@ -1,0 +1,22 @@
+Field confirmed_quantity__v (
+   label('Confirmed Quantity'),
+   type('Number'),
+   active(true),
+   description('The Confirmed Quantity field is available for 3rd party distribution systems to populate information related to the Quantity of Samples that were delivered as part of the Shipment Order.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

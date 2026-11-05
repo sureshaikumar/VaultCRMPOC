@@ -1,0 +1,6 @@
+Message reopen_target_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to reopen this target? Reopening this target will move the remaining Canceled tasks to Not Started. This will allow you to work on and complete these tasks again.'),
+   system_managed(false)
+);

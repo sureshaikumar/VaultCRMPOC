@@ -1,0 +1,6 @@
+Picklistentry gw-n__v (
+   value('Norte'),
+   order(1809),
+   active(true),
+   controlling_entries('gw__v')
+);

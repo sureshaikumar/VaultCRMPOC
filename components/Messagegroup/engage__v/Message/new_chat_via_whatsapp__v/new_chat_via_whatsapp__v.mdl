@@ -1,0 +1,6 @@
+Message new_chat_via_whatsapp__v (
+   label(),
+   active(true),
+   default_value('New Chat via WhatsApp'),
+   system_managed(false)
+);

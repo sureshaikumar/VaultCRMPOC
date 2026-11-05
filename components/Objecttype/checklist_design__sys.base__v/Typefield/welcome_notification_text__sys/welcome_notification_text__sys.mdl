@@ -1,0 +1,4 @@
+Typefield welcome_notification_text__sys (
+   source('standard'),
+   required(false)
+);

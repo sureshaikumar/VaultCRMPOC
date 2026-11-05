@@ -1,0 +1,5 @@
+Picklistentry managed_healthcare_services__v (
+   value('Managed Healthcare Services'),
+   order(0),
+   active(true)
+);

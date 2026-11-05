@@ -1,0 +1,4 @@
+Typefield email_username__v (
+   source('standard'),
+   required(true)
+);

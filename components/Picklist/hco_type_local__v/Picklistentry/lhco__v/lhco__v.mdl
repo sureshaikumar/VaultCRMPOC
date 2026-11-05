@@ -1,0 +1,5 @@
+Picklistentry lhco__v (
+   value('Local Health Center'),
+   order(137),
+   active(true)
+);

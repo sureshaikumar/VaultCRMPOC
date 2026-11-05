@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1740646438793">
+      <actions>
+        <action type="workflowContentAction.base.changeContentRecordLifecycleSt">
+          <lifecycle>testobjectdemolifecycle_lifecycle__c</lifecycle>
+          <lifecycleState>active_state__c</lifecycleState>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

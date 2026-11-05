@@ -1,0 +1,5 @@
+Picklistentry pa__c (
+   value('PA'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message om_free_goods__v (
+   label(),
+   active(true),
+   default_value('(${free_goods_quantity} Free)'),
+   system_managed(false)
+);

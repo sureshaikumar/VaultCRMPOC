@@ -1,0 +1,5 @@
+Picklistentry 48700__v (
+   value('Williamsport, PA Metropolitan Statistical Area'),
+   order(509),
+   active(true)
+);

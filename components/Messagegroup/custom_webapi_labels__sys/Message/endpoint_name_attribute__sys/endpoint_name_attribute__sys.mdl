@@ -1,0 +1,6 @@
+Message endpoint_name_attribute__sys (
+   label(),
+   active(true),
+   default_value('Endpoint Name'),
+   system_managed(true)
+);

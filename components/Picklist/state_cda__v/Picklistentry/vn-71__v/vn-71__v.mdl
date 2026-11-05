@@ -1,0 +1,6 @@
+Picklistentry vn-71__v (
+   value('Điện Biên'),
+   order(4967),
+   active(true),
+   controlling_entries('vn__v')
+);

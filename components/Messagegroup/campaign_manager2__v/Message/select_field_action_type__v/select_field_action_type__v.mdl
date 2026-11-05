@@ -1,0 +1,6 @@
+Message select_field_action_type__v (
+   label(),
+   active(true),
+   default_value('Select Field Action type'),
+   system_managed(false)
+);

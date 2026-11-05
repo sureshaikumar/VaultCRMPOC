@@ -1,0 +1,8 @@
+Tabcollectionitem mc_cycle_plan1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(8),
+   tab('Tab.mc_cycle_plan__c'),
+   type('Tab')
+);

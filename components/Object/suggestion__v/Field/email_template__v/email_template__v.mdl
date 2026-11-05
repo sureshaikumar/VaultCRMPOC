@@ -1,0 +1,18 @@
+Field email_template__v (
+   label('Email Template'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether there is a specified template as part of the suggestion. Checked = True (Template)'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(26),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

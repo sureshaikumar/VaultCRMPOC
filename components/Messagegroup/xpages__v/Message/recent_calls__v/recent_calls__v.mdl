@@ -1,0 +1,6 @@
+Message recent_calls__v (
+   label(),
+   active(true),
+   default_value('Recent Calls'),
+   system_managed(false)
+);

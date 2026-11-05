@@ -1,0 +1,18 @@
+Field enforce_product_restrictions__v (
+   label('Enforce Product Restrictions'),
+   type('Boolean'),
+   active(true),
+   description('Prevents MCCP product records from being created for targets that are restricted for that product'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(33),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+Picklistentry dabpe__v (
+   value('Developmental and Behavioral Pediatrics'),
+   order(415),
+   active(true),
+   controlling_entries('ph__v',
+         'pk__v',
+         'th__v')
+);

@@ -1,0 +1,9 @@
+Vsmvalue gip__v (
+   label('GIP'),
+   active(true),
+   description('The Gibraltar Pound (GIP), the official currency of Gibraltar, used for transactions and financial records involving business operations in Gibraltar.'),
+   synonyms('Gibraltar pound',
+         'Gibraltar currency'),
+   target('gip__sys'),
+   target_label('GIP')
+);

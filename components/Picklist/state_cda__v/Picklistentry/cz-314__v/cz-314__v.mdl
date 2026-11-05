@@ -1,0 +1,6 @@
+Picklistentry cz-314__v (
+   value('Písek'),
+   order(831),
+   active(true),
+   controlling_entries('cz__v')
+);

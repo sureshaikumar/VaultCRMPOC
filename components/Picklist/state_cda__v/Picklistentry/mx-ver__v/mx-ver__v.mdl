@@ -1,0 +1,6 @@
+Picklistentry mx-ver__v (
+   value('Veracruz'),
+   order(3268),
+   active(true),
+   controlling_entries('mx__v')
+);

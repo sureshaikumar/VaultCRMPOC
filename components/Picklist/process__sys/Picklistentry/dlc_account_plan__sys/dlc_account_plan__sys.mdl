@@ -1,0 +1,5 @@
+Picklistentry dlc_account_plan__sys (
+   value('Account Plan'),
+   order(0),
+   active(true)
+);

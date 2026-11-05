@@ -1,0 +1,5 @@
+Picklistentry fan__v (
+   value('Fang'),
+   order(94),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-237__v (
+   value('Kalaki'),
+   order(4705),
+   active(true),
+   controlling_entries('ug__v')
+);

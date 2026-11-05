@@ -1,0 +1,6 @@
+Message rationale_guideline__v (
+   label(),
+   active(true),
+   default_value('Include the reason that drives the observation'),
+   system_managed(false)
+);

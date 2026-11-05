@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layoutProperties xmlns="https://www.veevavault.com/schema/vault-sdk/view-model" version="3">
+    <sectionDefinition name="general" label="General Information" required="true">
+        <propertyDefinition name="fieldNames" label="Fields" description="Select User Object fields that will be displayed on the User Profile page. The fields will be displayed in the order listed.">
+            <dataType type="String" required="false" multiValue="List"/>
+            <editor>
+                <control reference="object_field_list_control__sys">
+                    <property name="objectName" value="Object.user__sys"/>
+                </control>
+            </editor>
+        </propertyDefinition>
+        <propertyDefinition name="readOnlyFieldNames" label="Read Only Fields" description="Select User Object fields from the &quot;Fields&quot; listed above that should be displayed as read-only. Users will be able to see the field values but not edit them.">
+            <dataType type="String" required="false" multiValue="List"/>
+            <editor>
+                <control reference="object_field_list_control__sys">
+                    <property name="objectName" value="Object.user__sys"/>
+                </control>
+            </editor>
+        </propertyDefinition>
+    </sectionDefinition>
+    <sectionDefinition name="notifications" label="Notification and Email Preferences" required="true">
+        <propertyDefinition name="fieldNames" label="Fields" description="Select User Object fields that will be displayed on the User Profile page. The fields will be displayed in the order listed.">
+            <dataType type="String" required="false" multiValue="List"/>
+            <editor>
+                <control reference="object_field_list_control__sys">
+                    <property name="objectName" value="Object.user__sys"/>
+                </control>
+            </editor>
+        </propertyDefinition>
+        <propertyDefinition name="readOnlyFieldNames" label="Read Only Fields" description="Select User Object fields from the &quot;Fields&quot; listed above that should be displayed as read-only. Users will be able to see the field values but not edit them.">
+            <dataType type="String" required="false" multiValue="List"/>
+            <editor>
+                <control reference="object_field_list_control__sys">
+                    <property name="objectName" value="Object.user__sys"/>
+                </control>
+            </editor>
+        </propertyDefinition>
+    </sectionDefinition>
+    <sectionDefinition name="mobileAppRegistrations" label="Mobile App Registrations" description="This section displays the mobile apps registered to receive push notifications from Vault." required="true">
+        <propertyDefinition name="displaySection" label="Display Section?" description="Whether to show this section on the User Profile Page.">
+            <dataType type="Boolean" required="true"/>
+            <default value="true"/>
+        </propertyDefinition>
+    </sectionDefinition>
+    <sectionDefinition name="searchPreferences" label="Search Preferences" description="This section displays search preferences." required="true"/>
+    <sectionDefinition name="apiAccessTokens" label="API Access Tokens" description="This section displays the API access tokens for the user." required="true">
+        <propertyDefinition name="displaySection" label="Display Section?" description="Whether to show this section on the User Profile Page.">
+            <dataType type="Boolean" required="true"/>
+            <default value="true"/>
+        </propertyDefinition>
+    </sectionDefinition>
+</layoutProperties>

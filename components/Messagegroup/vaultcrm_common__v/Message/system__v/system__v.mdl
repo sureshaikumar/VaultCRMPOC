@@ -1,0 +1,6 @@
+Message system__v (
+   label(),
+   active(true),
+   default_value('System'),
+   system_managed(false)
+);

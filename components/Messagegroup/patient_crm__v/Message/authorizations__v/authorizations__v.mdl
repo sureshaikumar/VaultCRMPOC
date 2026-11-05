@@ -1,0 +1,6 @@
+Message authorizations__v (
+   label(),
+   active(true),
+   default_value('Authorizations'),
+   system_managed(false)
+);

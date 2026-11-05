@@ -1,0 +1,5 @@
+Picklistentry 30700__v (
+   value('Lincoln, NE Metropolitan Statistical Area'),
+   order(494),
+   active(true)
+);

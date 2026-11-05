@@ -1,0 +1,6 @@
+Picklistentry ma-che__v (
+   value('Chefchaouen'),
+   order(2789),
+   active(true),
+   controlling_entries('ma__v')
+);

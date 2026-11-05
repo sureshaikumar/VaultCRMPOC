@@ -1,0 +1,7 @@
+Picklistentry npeau__v (
+   value('Neurovascular Pathology'),
+   order(1048),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

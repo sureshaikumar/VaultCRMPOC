@@ -1,0 +1,5 @@
+Picklistentry 39140__v (
+   value('Prescott, AZ Metropolitan Statistical Area'),
+   order(36),
+   active(true)
+);

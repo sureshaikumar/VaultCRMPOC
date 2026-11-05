@@ -1,0 +1,6 @@
+Message crm_integration_product_external_id_aln__v (
+   label(),
+   active(true),
+   default_value('1. product__v.external_id__v'),
+   system_managed(false)
+);

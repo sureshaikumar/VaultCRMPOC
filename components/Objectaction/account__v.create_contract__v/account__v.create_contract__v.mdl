@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.create_contract__v (
+   label('Create Contract'),
+   description('Create a new agreement contract from template contract'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.contractsmanagement.contract.actions.AccountCreateContractAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,14 @@
+RECREATE Page data_cloud_administration_page__v (
+   label('Data Cloud Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code('data_cloud_administration_page__v'),
+   description('Data Cloud Administration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('data-cloud-settings')
+);

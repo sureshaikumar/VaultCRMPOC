@@ -1,0 +1,6 @@
+Picklistentry ke-31__v (
+   value('Nakuru'),
+   order(2384),
+   active(true),
+   controlling_entries('ke__v')
+);

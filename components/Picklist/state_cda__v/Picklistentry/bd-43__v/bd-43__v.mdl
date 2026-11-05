@@ -1,0 +1,6 @@
+Picklistentry bd-43__v (
+   value('Narail'),
+   order(272),
+   active(true),
+   controlling_entries('bd__v')
+);

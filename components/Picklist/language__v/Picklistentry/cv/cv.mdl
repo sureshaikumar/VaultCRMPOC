@@ -1,0 +1,5 @@
+Picklistentry cv (
+   value('Chuvash'),
+   order(96),
+   active(true)
+);

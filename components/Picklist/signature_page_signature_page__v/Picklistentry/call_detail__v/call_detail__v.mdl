@@ -1,0 +1,5 @@
+Picklistentry call_detail__v (
+   value('Call Detail'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field vault_workflow__v (
+   label('Vault Workflow'),
+   type('String'),
+   active(true),
+   description('Stores the workflow that is related to this Event History record'),
+   required(false),
+   unique(false),
+   max_length(43),
+   help_content(),
+   list_column(false),
+   order(51),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

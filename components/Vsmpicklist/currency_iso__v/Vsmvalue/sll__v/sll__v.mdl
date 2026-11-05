@@ -1,0 +1,10 @@
+Vsmvalue sll__v (
+   label('SLL'),
+   active(true),
+   description('Applies when transactions are denominated in the Sierra Leonean Leone, the currency of Sierra Leone prior to the 2022 redenomination.'),
+   synonyms('Sierra Leonean leone',
+         'Sierra Leone currency',
+         'leone'),
+   target('sll__sys'),
+   target_label('SLL')
+);

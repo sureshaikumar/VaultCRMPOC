@@ -1,0 +1,4 @@
+Typefield other_field_search_logic__v (
+   source('custom'),
+   required(false)
+);

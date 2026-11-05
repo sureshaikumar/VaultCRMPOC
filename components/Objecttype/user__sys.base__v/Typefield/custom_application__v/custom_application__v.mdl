@@ -1,0 +1,4 @@
+Typefield custom_application__v (
+   source('standard'),
+   required(false)
+);

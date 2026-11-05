@@ -1,0 +1,6 @@
+Message review_agreement_to_proceed__v (
+   label(),
+   active(true),
+   default_value('Required: Please open and review the ${field_label} to proceed.'),
+   system_managed(false)
+);

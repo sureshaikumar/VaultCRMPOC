@@ -1,0 +1,6 @@
+Message mccp_feedback_successfully_validated__v (
+   label(),
+   active(true),
+   default_value('Successfully Validated'),
+   system_managed(false)
+);

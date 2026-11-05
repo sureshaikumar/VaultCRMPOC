@@ -1,0 +1,19 @@
+Field client_id__v (
+   label('Workday Client Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('A clientId is created when you complete the Workday task "Register API Client for Integrations". You can look this up in the "View API Clients" Workday task.'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

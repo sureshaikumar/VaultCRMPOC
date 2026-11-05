@@ -1,0 +1,6 @@
+Message allow_device_push_notifications_title__v (
+   label(),
+   active(true),
+   default_value('Allow Push Notifications'),
+   system_managed(false)
+);

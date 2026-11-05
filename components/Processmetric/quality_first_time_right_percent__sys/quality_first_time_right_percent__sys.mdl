@@ -1,0 +1,9 @@
+RECREATE Processmetric quality_first_time_right_percent__sys (
+   label('First Time Right %'),
+   active(true),
+   default(true),
+   default_type_order(1),
+   description('The percentage of records that did not repeat any states out of all qualifying records.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.quality__sys')
+);

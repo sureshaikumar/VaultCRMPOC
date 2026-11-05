@@ -1,0 +1,19 @@
+Field ship_location__v (
+   label('Ship Location'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(120),
+   help_content('The Ship Location field stores the Business Account location for a BRC Sample. This field should not be displayed on the Page Layout.'),
+   list_column(false),
+   order(124),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

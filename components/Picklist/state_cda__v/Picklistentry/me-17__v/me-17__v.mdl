@@ -1,0 +1,6 @@
+Picklistentry me-17__v (
+   value('Rožaje'),
+   order(2923),
+   active(true),
+   controlling_entries('me__v')
+);

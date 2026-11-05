@@ -1,0 +1,6 @@
+RECREATE Permissionset test_training__c (
+   label('test training'),
+   active(true),
+   description(),
+   vault_actions.search('suggest')
+);

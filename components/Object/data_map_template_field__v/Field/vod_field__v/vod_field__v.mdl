@@ -1,0 +1,18 @@
+Field vod_field__v (
+   label('Vod Field'),
+   type('Picklist'),
+   active(true),
+   description('Vod Field is a picklist of the Vod Fields contained within the VoD database.  This picklist as well as the values contained within the picklist should not be modified.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.data_map_template_field_vod_field__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

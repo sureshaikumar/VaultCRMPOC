@@ -1,0 +1,17 @@
+Field disclaimer__v (
+   label('Disclaimer'),
+   type('LongText'),
+   active(true),
+   description('Disclaimer represents the Disclaimer from VoD Message that was displayed to the Signee upon signature for a Disbursement Sample Transaction. This field is populated from a Call by the Call_Header_trigger_vod trigger.'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry uz-to__v (
+   value('Toshkent (Region)'),
+   order(4879),
+   active(true),
+   controlling_entries('uz__v')
+);

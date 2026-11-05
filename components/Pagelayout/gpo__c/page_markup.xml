@@ -1,0 +1,103 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account__v.group_purchasing_organization_gpo__c">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="primary_parent__v" />
+            <vault:field reference="account_type__c" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="status_cda__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Dynamic Attributes" name="dynamic_attributes_section__c" reference="dynamic_attributes_section__v" />
+    <vault:section title="Calls (Account)" name="calls_account__c">
+        <vault:relatedObject relationship="call2__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="call2_status__v" width="200px" />
+            <vault:field reference="call_date__v" width="200px" />
+            <vault:field reference="detailed_products__v" width="200px" />
+            <vault:field reference="attendees__v" width="200px" />
+            <vault:field reference="created_by__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Members" name="members__c">
+        <vault:relatedObject relationship="parent_account__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="child_account__v" width="200px" />
+            <vault:field reference="hierarchy_type__v" width="200px" />
+            <vault:field reference="primary__v" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Member Of" name="member_of__c">
+        <vault:relatedObject relationship="child_account__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="parent_account__v" width="200px" />
+            <vault:field reference="hierarchy_type__v" width="200px" />
+            <vault:field reference="primary__v" width="200px" />
+            <vault:field reference="status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Addresses" name="addresses__c">
+        <vault:relatedObject relationship="address__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="city_cda__v" width="200px" />
+            <vault:field reference="state_province__v" width="200px" />
+            <vault:field reference="postal_code_cda__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+            <vault:field reference="primary_cda__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Data Change Requests" name="data_change_requests__c">
+        <vault:relatedObject relationship="data_change_requests__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Territory Fields" name="territory_fields__c">
+        <vault:relatedObject relationship="tsf__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Affiliations (From Account)" name="affiliations_from_account__c">
+        <vault:relatedObject relationship="affiliation__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Territories" name="account_territories__c">
+        <vault:relatedObject relationship="account_territories__vr" preventRecordCreate="false" modalCreateRecord="false" displayAsSimple="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="rule__v" width="200px" />
+            <vault:field reference="manual__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+            <vault:field reference="territory__vr.name__v" width="200px" />
+            <vault:field reference="territory__vr.parent_territory__v" width="200px" />
+            <vault:field reference="territory__vr.description__v" width="200px" />
+            <vault:field reference="territory__vr.country__v" width="200px" />
+            <vault:field reference="territory__vr.api_name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Territory Loaders" name="account_territory_loaders__c">
+        <vault:relatedObject relationship="account_territory_loaders__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Medical Insights" name="medical_insights__c">
+        <vault:relatedObject relationship="medical_insights__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

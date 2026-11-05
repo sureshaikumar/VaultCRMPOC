@@ -1,0 +1,26 @@
+Field timeline_view_email_link__v (
+   label('Timeline View Email Link'),
+   type('Number'),
+   active(true),
+   description('This setting restricts when the "View Email" link displays from the expanded view on Sent Email details on the Timeline
+0 - Everyone (default)
+1 - Owner and Above in Hierarchy
+2 - Owner Only'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(29),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

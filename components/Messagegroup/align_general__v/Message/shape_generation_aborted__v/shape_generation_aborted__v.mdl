@@ -1,0 +1,6 @@
+Message shape_generation_aborted__v (
+   label(),
+   active(true),
+   default_value('Geo shape generation aborted for ${entity_name}'),
+   system_managed(false)
+);

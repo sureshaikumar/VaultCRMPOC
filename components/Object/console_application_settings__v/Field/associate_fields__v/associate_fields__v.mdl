@@ -1,0 +1,20 @@
+Field associate_fields__v (
+   label('Associate Fields'),
+   type('String'),
+   active(true),
+   description('Defines up to 5 Person Account (person__sys) fields to display in the Case UI, in the order listed. Enter as a double semicolon (;;)-delimited list, for example: person__sys.fieldname__v;;person__sys.fieldname__v;;person__sys.fieldname__v'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Person Object (person__sys) fields to display in the Case UI (maximum 5). Fields are rendered in the order listed. Format fieldname__sys;;fieldname__sys;;fieldname__sys'),
+   list_column(false),
+   order(11),
+   default_value('"person__sys.mobile_phone__sys;;person__sys.email__sys;;person__sys.timezone__sys"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

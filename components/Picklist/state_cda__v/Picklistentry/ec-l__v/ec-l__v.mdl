@@ -1,0 +1,6 @@
+Picklistentry ec-l__v (
+   value('Loja'),
+   order(1049),
+   active(true),
+   controlling_entries('ec__v')
+);

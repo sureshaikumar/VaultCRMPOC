@@ -1,0 +1,8 @@
+RECREATE Tabcollection campaign_manager__v (
+   label('Campaign Manager'),
+   active(true),
+   help_content(),
+   Tabcollectionitem(@Tabcollectionitem/accounts__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/campaigns__v.mdl),
+   Tabcollectionitem(@Tabcollectionitem/home__v.mdl)
+);

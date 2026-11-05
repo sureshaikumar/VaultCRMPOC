@@ -1,0 +1,17 @@
+Field concur_response_timestamp_entry__v (
+   label('Concur Response Entry Timestamp'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Stores the time a response was received from Concur'),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

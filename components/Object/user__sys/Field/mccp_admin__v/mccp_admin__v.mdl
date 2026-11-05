@@ -1,0 +1,18 @@
+Field mccp_admin__v (
+   label('MCCP Admin'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates that the User will be able to edit locked Multichannel Cycle Plans.'),
+   list_column(false),
+   order(85),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

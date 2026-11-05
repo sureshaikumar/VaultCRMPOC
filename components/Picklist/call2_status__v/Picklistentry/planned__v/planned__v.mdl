@@ -1,0 +1,5 @@
+Picklistentry planned__v (
+   value('Planned'),
+   order(1),
+   active(true)
+);

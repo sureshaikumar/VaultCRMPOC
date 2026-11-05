@@ -1,0 +1,6 @@
+Picklistentry is-nor__v (
+   value('Norðurþing'),
+   order(2126),
+   active(true),
+   controlling_entries('is__v')
+);

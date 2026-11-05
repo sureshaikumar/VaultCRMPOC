@@ -1,0 +1,4 @@
+Typefield aln_targeting_rule_channel_group__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gn-kb__v (
+   value('Koubia'),
+   order(1734),
+   active(true),
+   controlling_entries('gn__v')
+);

@@ -1,0 +1,4 @@
+Typefield is_hidden__v (
+   source('standard'),
+   required(false)
+);

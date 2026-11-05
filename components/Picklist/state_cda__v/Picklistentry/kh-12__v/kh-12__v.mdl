@@ -1,0 +1,6 @@
+Picklistentry kh-12__v (
+   value('Phnom Penh [Phnum Pénh]'),
+   order(2413),
+   active(true),
+   controlling_entries('kh__v')
+);

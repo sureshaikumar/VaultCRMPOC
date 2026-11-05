@@ -1,0 +1,6 @@
+Message invalid_consent_rejected_msg__v (
+   label(),
+   active(true),
+   default_value('Failed to send message due to lack of consent.'),
+   system_managed(false)
+);

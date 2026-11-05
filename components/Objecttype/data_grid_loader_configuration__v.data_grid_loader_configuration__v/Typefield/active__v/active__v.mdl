@@ -1,0 +1,6 @@
+Typefield active__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.data_grid_loader_configuration_active__v.no__v',
+         'Picklist.data_grid_loader_configuration_active__v.yes__v')
+);

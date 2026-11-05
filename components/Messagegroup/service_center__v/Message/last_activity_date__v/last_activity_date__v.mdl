@@ -1,0 +1,6 @@
+Message last_activity_date__v (
+   label(),
+   active(true),
+   default_value('Last Activity Date'),
+   system_managed(false)
+);

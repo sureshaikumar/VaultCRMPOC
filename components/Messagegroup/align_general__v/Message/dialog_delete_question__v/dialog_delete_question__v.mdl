@@ -1,0 +1,6 @@
+Message dialog_delete_question__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to proceed?'),
+   system_managed(false)
+);

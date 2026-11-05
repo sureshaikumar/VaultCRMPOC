@@ -1,0 +1,7 @@
+Picklistentry ppehd__v (
+   value('Pediatric Pharmacy'),
+   order(1438),
+   active(true),
+   controlling_entries('hu__v',
+         'sg__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ag-10__v (
+   value('Barbuda'),
+   order(54),
+   active(true),
+   controlling_entries('ag__v')
+);

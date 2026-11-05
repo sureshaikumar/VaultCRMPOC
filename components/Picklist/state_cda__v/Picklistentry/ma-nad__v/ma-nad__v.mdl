@@ -1,0 +1,6 @@
+Picklistentry ma-nad__v (
+   value('Nador'),
+   order(2823),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lardu__v (
+   value('Lung and Respiratory Diseases'),
+   order(867),
+   active(true),
+   controlling_entries('vn__v')
+);

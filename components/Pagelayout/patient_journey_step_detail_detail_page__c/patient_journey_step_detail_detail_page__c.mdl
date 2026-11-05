@@ -1,0 +1,8 @@
+RECREATE Pagelayout patient_journey_step_detail_detail_page__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Patient Journey Step Detail Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

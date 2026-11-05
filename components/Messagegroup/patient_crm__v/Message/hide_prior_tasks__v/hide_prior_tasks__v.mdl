@@ -1,0 +1,6 @@
+Message hide_prior_tasks__v (
+   label(),
+   active(true),
+   default_value('Hide Prior Tasks'),
+   system_managed(false)
+);

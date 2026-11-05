@@ -1,0 +1,6 @@
+Message json__sys (
+   label(),
+   active(true),
+   default_value('JSON Response'),
+   system_managed(true)
+);

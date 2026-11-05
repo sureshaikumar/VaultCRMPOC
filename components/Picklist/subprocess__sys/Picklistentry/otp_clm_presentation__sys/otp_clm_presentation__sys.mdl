@@ -1,0 +1,6 @@
+Picklistentry otp_clm_presentation__sys (
+   value('CLM Presentation'),
+   order(33),
+   active(true),
+   controlling_entries('olc_event_material__sys')
+);

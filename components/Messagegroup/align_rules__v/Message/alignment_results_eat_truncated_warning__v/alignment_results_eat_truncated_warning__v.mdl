@@ -1,0 +1,6 @@
+Message alignment_results_eat_truncated_warning__v (
+   label(),
+   active(true),
+   default_value('Too many records to display. Please export the results to view the full list.'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field exclude_team_members_from_sign_in__v (
+   label('Exclude Team Members From Sign In'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(31),
+   multi_value(true),
+   picklist('Picklist.em_event_team_member_role__v'),
+   default_value('{approver__v},{vendor__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

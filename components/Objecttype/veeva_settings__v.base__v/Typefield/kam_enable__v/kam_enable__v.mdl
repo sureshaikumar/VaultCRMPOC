@@ -1,0 +1,4 @@
+Typefield kam_enable__v (
+   source('standard'),
+   required(false)
+);

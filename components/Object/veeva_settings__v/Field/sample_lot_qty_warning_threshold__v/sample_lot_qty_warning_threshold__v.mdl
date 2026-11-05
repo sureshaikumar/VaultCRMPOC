@@ -1,0 +1,22 @@
+Field sample_lot_qty_warning_threshold__v (
+   label('Sample Lot Quantity Warning Threshold'),
+   type('Number'),
+   active(true),
+   description('For sample lots only. If the remaining on hand quantity is less than or equal to  the setting value, then the user will see a warning in the call report.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(266),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message slide_to_fax__v (
+   label(),
+   active(true),
+   default_value('Slide To Fax'),
+   system_managed(false)
+);

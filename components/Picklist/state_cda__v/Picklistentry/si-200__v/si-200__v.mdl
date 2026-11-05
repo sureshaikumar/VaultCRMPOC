@@ -1,0 +1,6 @@
+Picklistentry si-200__v (
+   value('Poljčane'),
+   order(4173),
+   active(true),
+   controlling_entries('si__v')
+);

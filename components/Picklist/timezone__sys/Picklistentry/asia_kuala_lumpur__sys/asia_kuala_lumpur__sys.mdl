@@ -1,0 +1,5 @@
+Picklistentry asia_kuala_lumpur__sys (
+   value('(GMT+08:00) Malaysia Time (Asia/Kuala_Lumpur)'),
+   order(263),
+   active(true)
+);

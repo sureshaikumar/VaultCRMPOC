@@ -1,0 +1,18 @@
+RECREATE Docfieldlayout channel_details__v (
+   label('Channel Details'),
+   active(true),
+   icon('UNDEFINED'),
+   order(9),
+   fields('Docfield.allow_attachments_in_patient_crm__v',
+      'Docfield.consent_required_for_sending__v',
+      'Docfield.content_processing_error__v',
+      'Docfield.content_processing_status__v',
+      'Docfield.display_fax_header_page_numbers__v',
+      'Docfield.fax_header_text__v',
+      'Docfield.from_fax_number__v',
+      'Docfield.page_count__v',
+      'Docfield.publish_for_veeva_crm_fax__v'),
+   show_in_edit_mode(true),
+   allow_field_assignment(true),
+   panel('Documentpanel.doc_info_information__sys')
+);

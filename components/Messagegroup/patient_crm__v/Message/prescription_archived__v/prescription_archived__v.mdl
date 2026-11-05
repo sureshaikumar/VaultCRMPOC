@@ -1,0 +1,6 @@
+Message prescription_archived__v (
+   label(),
+   active(true),
+   default_value('Prescription Archived'),
+   system_managed(false)
+);

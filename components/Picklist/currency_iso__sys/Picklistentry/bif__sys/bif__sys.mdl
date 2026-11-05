@@ -1,0 +1,5 @@
+Picklistentry bif__sys (
+   value('BIF'),
+   order(22),
+   active(true)
+);

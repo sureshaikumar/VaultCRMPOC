@@ -1,0 +1,5 @@
+Picklistentry thyroid_disease__c (
+   value('Thyroid Disease'),
+   order(22),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry gcoca__v (
+   value('General Care of Children and Adolescents'),
+   order(591),
+   active(true),
+   controlling_entries('sk__v')
+);

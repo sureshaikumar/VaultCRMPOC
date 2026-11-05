@@ -1,0 +1,14 @@
+Vsmrelationship users_locale__v (
+   label('Users Locale'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('The system user accounts associated with this locale, representing all users whose locale preference or assignment matches this locale. Use this to find all users configured for a specific locale.'),
+   join_object(),
+   synonyms('users',
+         'system users',
+         'users with this locale',
+         'assigned users'),
+   target('users_locale__sysr'),
+   target_label('Users'),
+   target_object('user__sys')
+);

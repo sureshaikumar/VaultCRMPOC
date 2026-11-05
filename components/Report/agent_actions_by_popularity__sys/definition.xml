@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="agent_action_execution__sys.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="agent_action_execution__sys.object_count__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="agent_action_execution__sys.total_tokens__sys" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="NE" leftValue="agent_action_execution__sys.agent_action_label__sys" rightValue="Route Action" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="INLASTDAYS" leftValue="agent_action_execution__sys.created_date__v" rightValue="60" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="agent_action_execution__sys.agent_action_label__sys" groupBySortOn="agent_action_execution__sys.object_count__v" groupBySortOrder="DESCENDING" groupBySortAgrregateType="SUM">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="SUM" property="SUM" display="NUMBER">
+          <vrp:children>
+            <vrp:selectItem type="PROPERTY" action="NONE" property="agent_action_execution__sys.object_count__v" />
+          </vrp:children>
+        </vrp:selectItem>
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="agent_action_execution__sys.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

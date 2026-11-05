@@ -1,0 +1,6 @@
+Picklistentry uy-rn__v (
+   value('Río Negro'),
+   order(4859),
+   active(true),
+   controlling_entries('uy__v')
+);

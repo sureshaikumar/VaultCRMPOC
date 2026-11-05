@@ -1,0 +1,6 @@
+Message number_of_targets_added_unchanged__v (
+   label(),
+   active(true),
+   default_value('Targets: ${number_added} added, ${number_unchanged} unchanged'),
+   system_managed(false)
+);

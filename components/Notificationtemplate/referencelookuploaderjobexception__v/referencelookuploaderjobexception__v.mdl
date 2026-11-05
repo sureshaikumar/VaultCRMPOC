@@ -1,0 +1,22 @@
+RECREATE Notificationtemplate referencelookuploaderjobexception__v (
+   label('referenceLookupLoaderJobException'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Your Reference Lookup Job partially completed'),
+   notification('<p>Your Reference Lookup Job has Partially Completed</p>
+<p>Details:
+<ul>
+<li>Reason for Failure: ${vaultLoaderFailureReason}</li>
+<li>Action Type: ${vaultLoaderActionType}</li>
+<li>Job Start Time: ${vaultLoaderStartTime} </li>
+<li>Duration: ${vaultLoaderDuration} (${vaultLoaderRecordsPerSecond} records per second)</li>
+<li>${vaultLoaderNumSuccesses}</li>
+<li>${vaultLoaderNumFailures} </li>
+</ul>
+</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

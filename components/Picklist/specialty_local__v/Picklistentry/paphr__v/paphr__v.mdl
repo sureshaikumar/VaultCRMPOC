@@ -1,0 +1,7 @@
+Picklistentry paphr__v (
+   value('Prevention and Public Health'),
+   order(1586),
+   active(true),
+   controlling_entries('ch__v',
+         'li__v')
+);

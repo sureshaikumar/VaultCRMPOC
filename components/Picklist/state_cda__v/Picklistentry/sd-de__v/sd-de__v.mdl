@@ -1,0 +1,6 @@
+Picklistentry sd-de__v (
+   value('East Darfur'),
+   order(3929),
+   active(true),
+   controlling_entries('sd__v')
+);

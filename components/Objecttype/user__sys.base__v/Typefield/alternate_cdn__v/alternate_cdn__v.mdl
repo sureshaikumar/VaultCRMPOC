@@ -1,0 +1,4 @@
+Typefield alternate_cdn__v (
+   source('standard'),
+   required(false)
+);

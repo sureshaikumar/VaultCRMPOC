@@ -1,0 +1,5 @@
+Picklistentry cc__v (
+   value('CC'),
+   order(38),
+   active(true)
+);

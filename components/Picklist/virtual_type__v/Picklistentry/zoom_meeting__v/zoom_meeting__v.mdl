@@ -1,0 +1,5 @@
+Picklistentry zoom_meeting__v (
+   value('Zoom Meeting'),
+   order(1),
+   active(true)
+);

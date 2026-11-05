@@ -1,0 +1,5 @@
+Picklistentry approved_email__v (
+   value('Approved Email'),
+   order(1),
+   active(true)
+);

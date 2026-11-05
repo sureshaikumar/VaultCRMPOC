@@ -1,0 +1,6 @@
+Picklistentry ug-417__v (
+   value('Ibanda'),
+   order(4759),
+   active(true),
+   controlling_entries('ug__v')
+);

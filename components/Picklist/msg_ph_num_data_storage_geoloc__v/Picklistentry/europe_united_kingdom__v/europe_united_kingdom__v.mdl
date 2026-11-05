@@ -1,0 +1,5 @@
+Picklistentry europe_united_kingdom__v (
+   value('Europe - United Kingdom'),
+   order(8),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry mk-404__v (
+   value('Vasilevo'),
+   order(2996),
+   active(true),
+   controlling_entries('mk__v')
+);

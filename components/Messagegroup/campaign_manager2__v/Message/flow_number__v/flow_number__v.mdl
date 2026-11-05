@@ -1,0 +1,6 @@
+Message flow_number__v (
+   label(),
+   active(true),
+   default_value('Flow ${count}'),
+   system_managed(false)
+);

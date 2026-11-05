@@ -1,0 +1,23 @@
+Field hipaa_authorization_signature_unbound__v (
+   label('HIPAA Authorization Signature (unbound)'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(2147483647),
+   min_value(1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   related_document_reference_field('hipaa_authorization_signature__v'),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

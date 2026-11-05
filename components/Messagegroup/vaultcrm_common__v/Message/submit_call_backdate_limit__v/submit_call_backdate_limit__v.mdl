@@ -1,0 +1,6 @@
+Message submit_call_backdate_limit__v (
+   label(),
+   active(true),
+   default_value('The ${call_label} cannot be submitted as it has exceeded the allowed submission window'),
+   system_managed(false)
+);

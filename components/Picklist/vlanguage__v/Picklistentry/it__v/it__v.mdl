@@ -1,0 +1,5 @@
+Picklistentry it__v (
+   value('Italian'),
+   order(147),
+   active(false)
+);

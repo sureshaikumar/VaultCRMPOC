@@ -1,0 +1,5 @@
+Picklistentry estimate__v (
+   value('Estimate'),
+   order(0),
+   active(true)
+);

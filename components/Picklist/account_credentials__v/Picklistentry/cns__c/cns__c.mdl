@@ -1,0 +1,5 @@
+Picklistentry cns__c (
+   value('CNS'),
+   order(6),
+   active(true)
+);

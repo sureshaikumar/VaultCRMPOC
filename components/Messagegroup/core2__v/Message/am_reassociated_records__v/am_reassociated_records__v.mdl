@@ -1,0 +1,6 @@
+Message am_reassociated_records__v (
+   label(),
+   active(true),
+   default_value('Re-associated Records'),
+   system_managed(false)
+);

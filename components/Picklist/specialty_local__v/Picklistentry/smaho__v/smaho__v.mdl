@@ -1,0 +1,6 @@
+Picklistentry smaho__v (
+   value('Social Medicine and Healthcare Organization'),
+   order(1778),
+   active(true),
+   controlling_entries('sk__v')
+);

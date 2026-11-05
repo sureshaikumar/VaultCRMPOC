@@ -1,0 +1,6 @@
+Message uploaded_by_user_on_date__v (
+   label(),
+   active(true),
+   default_value('Uploaded by ${created_by__v} on ${document_creation_date__v}'),
+   system_managed(false)
+);

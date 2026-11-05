@@ -1,0 +1,10 @@
+Objectlifecyclepermission editor_edit__v (
+   states('Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.inactive_state__v',
+         'Objectlifecyclestate.pending_approval_state__v',
+         'Objectlifecyclestate.saved_state__v',
+         'Objectlifecyclestate.submitted_state__v',
+         'Objectlifecyclestate.voided_state__v'),
+   role('Objectlifecyclerole.editor__v'),
+   permission('Edit')
+);

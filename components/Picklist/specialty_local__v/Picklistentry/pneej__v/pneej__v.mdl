@@ -1,0 +1,12 @@
+Picklistentry pneej__v (
+   value('Pediatric Neurosurgery'),
+   order(1419),
+   active(true),
+   controlling_entries('fr__v',
+         'gr__v',
+         'kg__v',
+         'mc__v',
+         'pt__v',
+         'ua__v',
+         'us__v')
+);

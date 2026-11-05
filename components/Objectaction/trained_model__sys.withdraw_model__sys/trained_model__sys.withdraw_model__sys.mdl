@@ -1,0 +1,8 @@
+RECREATE Objectaction trained_model__sys.withdraw_model__sys (
+   label('Withdraw Model'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.WithdrawModel'),
+   active(true),
+   available_all_states(true)
+);

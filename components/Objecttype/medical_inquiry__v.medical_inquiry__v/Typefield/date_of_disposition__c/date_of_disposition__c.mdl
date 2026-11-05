@@ -1,0 +1,4 @@
+Typefield date_of_disposition__c (
+   source('custom'),
+   required(false)
+);

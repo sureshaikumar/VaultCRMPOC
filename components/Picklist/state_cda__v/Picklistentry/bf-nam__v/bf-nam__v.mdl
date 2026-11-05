@@ -1,0 +1,6 @@
+Picklistentry bf-nam__v (
+   value('Namentenga'),
+   order(352),
+   active(true),
+   controlling_entries('bf__v')
+);

@@ -1,0 +1,20 @@
+Field tablet_object_exclude_list__v (
+   label('TABLET_OBJECT_EXCLUDE_LIST'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Designates the objects to be excluded from download to the VMobile Tablet application.'),
+   list_column(false),
+   order(288),
+   default_value('"TABLET_OBJECT_EXCLUDE_LIST;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

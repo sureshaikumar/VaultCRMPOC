@@ -1,0 +1,6 @@
+Message import_modeling_file__v (
+   label(),
+   active(true),
+   default_value('Import Modeling File'),
+   system_managed(false)
+);

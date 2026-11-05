@@ -1,0 +1,13 @@
+Vsmfield status__v (
+   label('Record Status'),
+   active(true),
+   description('The lifecycle status of the document type detail record, typically indicating whether it is active or inactive. Use this field to filter for currently active document type configurations versus deprecated or disabled ones.'),
+   example_values(),
+   synonyms('record status',
+         'state',
+         'active status'),
+   target('status__v'),
+   target_label('Record Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

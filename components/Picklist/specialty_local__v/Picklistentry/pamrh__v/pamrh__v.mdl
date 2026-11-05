@@ -1,0 +1,6 @@
+Picklistentry pamrh__v (
+   value('Physiotherapy and Medical Rehabilitation'),
+   order(1559),
+   active(true),
+   controlling_entries('az__v')
+);

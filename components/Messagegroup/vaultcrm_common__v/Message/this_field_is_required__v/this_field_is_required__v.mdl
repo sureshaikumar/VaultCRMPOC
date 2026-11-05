@@ -1,0 +1,6 @@
+Message this_field_is_required__v (
+   label(),
+   active(true),
+   default_value('This field is required.'),
+   system_managed(false)
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist social_binding_activity_opt_type_status__v (
+   label('Opt Type Status'),
+   active(true),
+   Picklistentry(@Picklistentry/opt_in__v.mdl),
+   Picklistentry(@Picklistentry/opt_in_pending__v.mdl),
+   Picklistentry(@Picklistentry/opt_out__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

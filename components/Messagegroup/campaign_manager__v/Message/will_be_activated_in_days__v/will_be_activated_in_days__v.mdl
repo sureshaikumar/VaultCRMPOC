@@ -1,0 +1,6 @@
+Message will_be_activated_in_days__v (
+   label(),
+   active(true),
+   default_value('Will be activated in ${number_of_days} days'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field cds_for_non_controlled__v (
+   label('CDS for Non Controlled'),
+   type('Boolean'),
+   active(true),
+   description('Field to indicate that the state requires CDS validation for both controlled an non-controlled substances. CDS validation will be run for products where Product_vod.Controlled_Substance_vod = TRUE and Product_vod.Controlled_Substance_vod = FALSE.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

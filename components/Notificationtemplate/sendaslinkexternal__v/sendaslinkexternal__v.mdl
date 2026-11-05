@@ -1,0 +1,22 @@
+RECREATE Notificationtemplate sendaslinkexternal__v (
+   label('sendAsLink-External'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" has been sent to you'),
+   notification('<p>${notificationMessage}</p>
+'),
+   email_body('<p>${senderName} has sent you a link to a document in Veeva Vault: <b><a target="_blank" href="${uiBaseExtUrl}/externalUserLandingPage?token=${accessToken}">${docNameNoLink}</a></b></p>
+ 
+<p>Note: This link will expire on ${accessTokenExpiryDateTime}.</p>
+ 
+<p>Message:<br>
+ 
+<BLOCKQUOTE> ${dynamicMessage}</BLOCKQUOTE>
+ 
+</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

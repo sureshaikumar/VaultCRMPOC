@@ -1,0 +1,19 @@
+Field delivery_status__v (
+   label('Delivery Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.pal_int_delivery_status__v'),
+   default_value('{pending__v}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(false),
+   control_binding()
+);

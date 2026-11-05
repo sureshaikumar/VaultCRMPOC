@@ -1,0 +1,6 @@
+Picklistentry csrre__v (
+   value('Cross-Sectional Radiology'),
+   order(350),
+   active(true),
+   controlling_entries('kw__v')
+);

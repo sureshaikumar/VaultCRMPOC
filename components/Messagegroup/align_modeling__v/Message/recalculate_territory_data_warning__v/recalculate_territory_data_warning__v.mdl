@@ -1,0 +1,6 @@
+Message recalculate_territory_data_warning__v (
+   label(),
+   active(true),
+   default_value('Warning: Models currently open for feedback will be temporarily unavailable while the Feedback cache is refreshed.'),
+   system_managed(false)
+);

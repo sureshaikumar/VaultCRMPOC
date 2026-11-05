@@ -1,0 +1,19 @@
+Field call_primary_attendee_mapping__v (
+   label('Call Primary Attendee Mapping'),
+   type('String'),
+   active(true),
+   description('A configurable field for mapping a Salesforce field to a Concur field at the Call Primary Attendee level.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

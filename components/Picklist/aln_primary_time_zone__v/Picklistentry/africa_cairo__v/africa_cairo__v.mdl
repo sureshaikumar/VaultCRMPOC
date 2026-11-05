@@ -1,0 +1,5 @@
+Picklistentry africa_cairo__v (
+   value('Africa/Cairo'),
+   order(36),
+   active(true)
+);

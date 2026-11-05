@@ -1,0 +1,14 @@
+Vsmfield doc_type_details__v (
+   label('Full Document Type'),
+   active(true),
+   description('Reference to the full document type definition for this EDL item, capturing the complete type hierarchy in a single field. Use this when you need a consolidated view of the document type rather than querying type__v, subtype__v, and classification__v individually.'),
+   example_values(),
+   synonyms('full doc type',
+         'document type details',
+         'type hierarchy',
+         'full type'),
+   target('doc_type_details__v'),
+   target_label('Full Document Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

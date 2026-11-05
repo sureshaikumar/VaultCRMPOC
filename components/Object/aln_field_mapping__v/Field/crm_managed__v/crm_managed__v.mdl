@@ -1,0 +1,18 @@
+Field crm_managed__v (
+   label('CRM Managed?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('System use only. Field mappings with a ''CRM Managed?'' value of ''TRUE'' will be populated on initial record creation only - this field will be set to FALSE, otherwise TRUE.'),
+   list_column(true),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

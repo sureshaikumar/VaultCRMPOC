@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.product_group_level_rule_type__v (
+   label('Product Group Level Rule Type'),
+   active(true),
+   expression('Not(
+    And(
+        object_type__vr.api_name__v = ''product_group_level_rule__v'',
+        Not(product__vr.product_type__v = ''product_group__v'')
+    )
+)'),
+   description('Only product type of ''Product Group'' is allowed'),
+   error_message('Only product type of ''Product Group'' is allowed'),
+   error_location('product__v')
+);

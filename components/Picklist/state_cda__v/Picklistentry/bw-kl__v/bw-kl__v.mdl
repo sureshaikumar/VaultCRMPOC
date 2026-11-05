@@ -1,0 +1,6 @@
+Picklistentry bw-kl__v (
+   value('Kgatleng'),
+   order(537),
+   active(true),
+   controlling_entries('bw__v')
+);

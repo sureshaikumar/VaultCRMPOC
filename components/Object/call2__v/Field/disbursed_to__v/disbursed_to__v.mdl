@@ -1,0 +1,19 @@
+Field disbursed_to__v (
+   label('Disbursed To'),
+   type('String'),
+   active(true),
+   description('Used to record sample disbursement information (if any). This contains all PDMA required fields (name, address, etc.) in text format. This value is copied in to the sample transaction object via a trigger. It is maintained on call header for synchronizati'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(60),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

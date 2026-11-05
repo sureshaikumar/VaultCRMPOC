@@ -1,0 +1,6 @@
+Message concur_event_attendee_fail__v (
+   label(),
+   active(true),
+   default_value('Event Attendee Failures'),
+   system_managed(false)
+);

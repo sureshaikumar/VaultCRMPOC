@@ -1,0 +1,6 @@
+Picklistentry ug-337__v (
+   value('Obongi'),
+   order(4742),
+   active(true),
+   controlling_entries('ug__v')
+);

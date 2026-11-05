@@ -1,0 +1,6 @@
+Message job_col_mappings__v (
+   label(),
+   active(true),
+   default_value('Mappings'),
+   system_managed(false)
+);

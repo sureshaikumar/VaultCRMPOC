@@ -1,0 +1,22 @@
+Field hipaa_authorization_duration__v (
+   label('HIPAA Authorization Duration (days)'),
+   type('Number'),
+   active(true),
+   description('Indicated the duration of HIPAA Authorization. HIPAA Authorization Expiration Date is calculated based on the value provided.'),
+   required(false),
+   unique(false),
+   max_value(9999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

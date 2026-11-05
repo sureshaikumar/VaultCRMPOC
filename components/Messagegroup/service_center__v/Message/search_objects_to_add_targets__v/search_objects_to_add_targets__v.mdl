@@ -1,0 +1,6 @@
+Message search_objects_to_add_targets__v (
+   label(),
+   active(true),
+   default_value('Search ${object_name} to add Targets to ${target_list_name}'),
+   system_managed(false)
+);

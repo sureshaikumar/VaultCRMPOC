@@ -1,0 +1,6 @@
+Message compass_instance_id__v (
+   label(),
+   active(true),
+   default_value('Compass Instance ID'),
+   system_managed(false)
+);

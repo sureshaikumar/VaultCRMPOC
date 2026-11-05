@@ -1,0 +1,1 @@
+<p> Your Vault <a href=${upgradeVaultDNS}>${vaultName}</a> has been successfully upgraded and is now available.</p>

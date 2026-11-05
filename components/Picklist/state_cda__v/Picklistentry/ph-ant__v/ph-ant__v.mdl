@@ -1,0 +1,6 @@
+Picklistentry ph-ant__v (
+   value('Antique'),
+   order(3538),
+   active(true),
+   controlling_entries('ph__v')
+);

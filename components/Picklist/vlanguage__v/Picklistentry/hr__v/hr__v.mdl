@@ -1,0 +1,5 @@
+Picklistentry hr__v (
+   value('Croatian'),
+   order(69),
+   active(false)
+);

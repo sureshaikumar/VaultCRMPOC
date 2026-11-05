@@ -1,0 +1,6 @@
+Message cancel_check_in__v (
+   label(),
+   active(true),
+   default_value('Cancel Check-In'),
+   system_managed(false)
+);

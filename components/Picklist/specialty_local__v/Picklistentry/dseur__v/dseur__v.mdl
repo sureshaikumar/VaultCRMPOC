@@ -1,0 +1,6 @@
+Picklistentry dseur__v (
+   value('Dermatology Surgery'),
+   order(400),
+   active(true),
+   controlling_entries('us__v')
+);

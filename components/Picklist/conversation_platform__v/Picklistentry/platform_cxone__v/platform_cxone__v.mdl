@@ -1,0 +1,5 @@
+Picklistentry platform_cxone__v (
+   value('CXOne'),
+   order(1),
+   active(true)
+);

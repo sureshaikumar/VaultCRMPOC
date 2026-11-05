@@ -1,0 +1,6 @@
+Picklistentry bg-19__v (
+   value('Silistra'),
+   order(391),
+   active(true),
+   controlling_entries('bg__v')
+);

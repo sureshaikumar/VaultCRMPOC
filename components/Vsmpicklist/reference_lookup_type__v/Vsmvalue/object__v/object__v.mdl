@@ -1,0 +1,10 @@
+Vsmvalue object__v (
+   label('Object'),
+   active(true),
+   description('Use when the reference field should look up records from a Vault object, enabling users to link to specific object records such as accounts, contacts, or custom objects.'),
+   synonyms('vault object',
+         'record lookup',
+         'related object'),
+   target('object__sys'),
+   target_label('Object')
+);

@@ -1,0 +1,4 @@
+Typefield om_disable_quantity_split_rollup__v (
+   source('standard'),
+   required(false)
+);

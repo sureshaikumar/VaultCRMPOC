@@ -1,0 +1,5 @@
+Picklistentry em_expense_estimate__v (
+   value('EM_Expense_Estimate'),
+   order(7),
+   active(true)
+);

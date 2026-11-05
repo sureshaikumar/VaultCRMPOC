@@ -1,0 +1,6 @@
+Message alignment_results_exclusion_reason__v (
+   label(),
+   active(true),
+   default_value('Exclusion Reason'),
+   system_managed(false)
+);

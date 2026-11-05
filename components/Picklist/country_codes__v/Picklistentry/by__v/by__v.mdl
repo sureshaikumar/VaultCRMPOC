@@ -1,0 +1,5 @@
+Picklistentry by__v (
+   value('BY'),
+   order(35),
+   active(true)
+);

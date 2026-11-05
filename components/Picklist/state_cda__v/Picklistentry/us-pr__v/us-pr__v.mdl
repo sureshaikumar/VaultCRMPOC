@@ -1,0 +1,6 @@
+Picklistentry us-pr__v (
+   value('Puerto Rico'),
+   order(4833),
+   active(true),
+   controlling_entries('us__v')
+);

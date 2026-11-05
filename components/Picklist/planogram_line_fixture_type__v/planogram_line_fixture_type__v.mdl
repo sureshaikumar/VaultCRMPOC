@@ -1,0 +1,9 @@
+RECREATE Picklist planogram_line_fixture_type__v (
+   label('Fixture Type'),
+   active(true),
+   Picklistentry(@Picklistentry/shelf__v.mdl),
+   Picklistentry(@Picklistentry/pegboard__v.mdl),
+   Picklistentry(@Picklistentry/hanging_bar__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry um__v (
+   value('United States Minor Outlying Islands'),
+   order(235),
+   active(true)
+);

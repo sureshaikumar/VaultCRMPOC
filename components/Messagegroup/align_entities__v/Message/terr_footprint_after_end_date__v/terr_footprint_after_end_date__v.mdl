@@ -1,0 +1,6 @@
+Message terr_footprint_after_end_date__v (
+   label(),
+   active(true),
+   default_value('Territory footprint end date cannot be after ${end_date}'),
+   system_managed(false)
+);

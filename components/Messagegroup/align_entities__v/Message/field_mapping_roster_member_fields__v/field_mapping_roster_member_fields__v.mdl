@@ -1,0 +1,6 @@
+Message field_mapping_roster_member_fields__v (
+   label(),
+   active(true),
+   default_value('Roster Member Fields'),
+   system_managed(false)
+);

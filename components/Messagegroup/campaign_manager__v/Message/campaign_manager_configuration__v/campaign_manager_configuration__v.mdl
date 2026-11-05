@@ -1,0 +1,6 @@
+Message campaign_manager_configuration__v (
+   label(),
+   active(true),
+   default_value('Campaign Manager Configuration'),
+   system_managed(false)
+);

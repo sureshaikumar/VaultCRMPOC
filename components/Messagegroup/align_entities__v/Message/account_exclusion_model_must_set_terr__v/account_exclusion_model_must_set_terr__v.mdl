@@ -1,0 +1,6 @@
+Message account_exclusion_model_must_set_terr__v (
+   label(),
+   active(true),
+   default_value('Model Account Exclusion with "Territory" exclusion type must set Model Territory and must not set Model Field Force.'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield lost_to_product__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,7 @@
+Typefield clm_location_services_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_clm_location_services_status__v.disabled__v',
+         'Picklist.call2_clm_location_services_status__v.enabled__v',
+         'Picklist.call2_clm_location_services_status__v.no_connection__v')
+);

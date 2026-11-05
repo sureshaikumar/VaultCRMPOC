@@ -1,0 +1,6 @@
+Picklistentry tr-15__v (
+   value('Burdur'),
+   order(4473),
+   active(true),
+   controlling_entries('tr__v')
+);

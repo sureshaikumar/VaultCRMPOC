@@ -1,0 +1,6 @@
+Message territory_name_already_exists_error__v (
+   label(),
+   active(true),
+   default_value('Failed to create CRM Territory ${name__v}. A CRM-managed territory__v record already exists with this name.'),
+   system_managed(false)
+);

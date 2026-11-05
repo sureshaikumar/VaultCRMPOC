@@ -1,0 +1,5 @@
+Picklistentry 20780__v (
+   value('Edwards, CO Micropolitan Statistical Area'),
+   order(626),
+   active(true)
+);

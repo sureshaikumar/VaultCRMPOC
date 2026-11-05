@@ -1,0 +1,62 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.binder_metadata__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="section_id__v" />
+            <vault:field reference="propagate__v" />
+            <vault:field reference="allow_dynamic_filing__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="doctype__v" />
+            <vault:field reference="subtype__v" />
+            <vault:field reference="classification__v" />
+            <vault:field reference="field_1_attribute_key__v" />
+            <vault:field reference="field_1_attribute_value__v" />
+            <vault:field reference="field_1_defining_node__v" />
+            <vault:field reference="field_1_display_order__v" />
+            <vault:field reference="field_2_attribute_key__v" />
+            <vault:field reference="field_2_attribute_value__v" />
+            <vault:field reference="field_2_defining_node__v" />
+            <vault:field reference="field_2_display_order__v" />
+            <vault:field reference="field_3_attribute_key__v" />
+            <vault:field reference="field_3_attribute_value__v" />
+            <vault:field reference="field_3_defining_node__v" />
+            <vault:field reference="field_3_display_order__v" />
+            <vault:field reference="field_4_attribute_key__v" />
+            <vault:field reference="field_4_attribute_value__v" />
+            <vault:field reference="field_4_defining_node__v" />
+            <vault:field reference="field_4_display_order__v" />
+            <vault:field reference="field_5_attribute_key__v" />
+            <vault:field reference="field_5_attribute_value__v" />
+            <vault:field reference="field_5_defining_node__v" />
+            <vault:field reference="field_5_display_order__v" />
+            <vault:field reference="field_6_attribute_key__v" />
+            <vault:field reference="field_6_attribute_value__v" />
+            <vault:field reference="field_6_defining_node__v" />
+            <vault:field reference="field_6_display_order__v" />
+            <vault:field reference="field_7_attribute_key__v" />
+            <vault:field reference="field_7_attribute_value__v" />
+            <vault:field reference="field_7_defining_node__v" />
+            <vault:field reference="field_7_display_order__v" />
+            <vault:field reference="field_8_attribute_key__v" />
+            <vault:field reference="field_8_attribute_value__v" />
+            <vault:field reference="field_8_defining_node__v" />
+            <vault:field reference="field_8_display_order__v" />
+            <vault:field reference="field_9_attribute_key__v" />
+            <vault:field reference="field_9_attribute_value__v" />
+            <vault:field reference="field_9_defining_node__v" />
+            <vault:field reference="field_9_display_order__v" />
+            <vault:field reference="field_10_attribute_key__v" />
+            <vault:field reference="field_10_attribute_value__v" />
+            <vault:field reference="field_10_defining_node__v" />
+            <vault:field reference="field_10_display_order__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

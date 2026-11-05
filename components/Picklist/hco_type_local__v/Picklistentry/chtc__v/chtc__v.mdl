@@ -1,0 +1,5 @@
+Picklistentry chtc__v (
+   value('Comprehensive Hemophilia Treatment Center'),
+   order(38),
+   active(true)
+);

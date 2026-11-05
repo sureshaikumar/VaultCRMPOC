@@ -1,0 +1,10 @@
+RECREATE Dashboard nbc_dashboard__c (
+   active(true),
+   label('NBC Dashboard'),
+   description(),
+   editors(),
+   viewers(),
+   owners('User.adam.fair@sb-accenture.com'),
+   dashboard_markup(@dashboard_markup.xml),
+   tags()
+);

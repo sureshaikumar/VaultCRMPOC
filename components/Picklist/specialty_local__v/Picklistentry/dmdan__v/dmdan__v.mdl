@@ -1,0 +1,6 @@
+Picklistentry dmdan__v (
+   value('Diabetology, Metabolic Disorders and Nutrition'),
+   order(425),
+   active(true),
+   controlling_entries('sk__v')
+);

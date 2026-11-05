@@ -1,0 +1,5 @@
+Picklistentry raic__v (
+   value('Radiology and Imaging Center'),
+   order(221),
+   active(true)
+);

@@ -1,0 +1,11 @@
+RECREATE Dashboard veeva_ai_agents_activities__sys (
+   active(true),
+   label('Vault AI - Agents Activities'),
+   description('This dashboard provides a real-time overview of AI agent usage for the last 60 days. It tracks the volume and cost of agent-driven interactions. helping teams monitor adoption, identify high-consumption workflows, and optimize AI resource allocation.'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   dashboard_markup(@dashboard_markup.xml),
+   tags('vault_ai__sys',
+      'veeva__sys')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.add_document__sys (
+   label('Add Document'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.match.AddDocumentAction'),
+   active(true),
+   available_all_states(true)
+);

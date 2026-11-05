@@ -1,0 +1,8 @@
+Objectworkflowstep approval_notification__c (
+   label('Approval Notification'),
+   type('notification'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('Send notification to workflow initiator that all documents have been approved.')
+);

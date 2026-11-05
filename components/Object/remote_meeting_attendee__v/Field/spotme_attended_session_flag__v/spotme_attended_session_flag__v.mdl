@@ -1,0 +1,18 @@
+Field spotme_attended_session_flag__v (
+   label('SpotMe Attended Session'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Checkbox to identify that the Attendee has participated to the SpotMe event.'),
+   list_column(false),
+   order(21),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry bs-gc__v (
+   value('Grand Cay'),
+   order(490),
+   active(true),
+   controlling_entries('bs__v')
+);

@@ -1,0 +1,4 @@
+Typefield interaction_reference_id__v (
+   source('standard'),
+   required(false)
+);

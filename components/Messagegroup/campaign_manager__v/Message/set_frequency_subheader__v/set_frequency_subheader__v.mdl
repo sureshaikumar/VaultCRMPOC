@@ -1,0 +1,6 @@
+Message set_frequency_subheader__v (
+   label(),
+   active(true),
+   default_value('Schedule when batches run'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield vfm_user_id__sys (
+   source('standard'),
+   required(true)
+);

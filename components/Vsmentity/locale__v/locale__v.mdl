@@ -1,0 +1,19 @@
+RECREATE Vsmentity locale__v (
+   label('Locale'),
+   active(true),
+   description('Represents a locale configuration used to define regional settings within Vault. Locales are system-managed reference values that support internationalization by controlling accepted formats for date and number fields in Vault. They are commonly used to associate users, content, or configurations with a specific region.'),
+   synonyms('locales',
+      'language',
+      'region',
+      'language setting'),
+   target('Object.locale__sys'),
+   target_label('Locale'),
+   Vsmfield(@Vsmfield/admin_key__v.mdl),
+   Vsmfield(@Vsmfield/language__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmrelationship(@Vsmrelationship/language__v.mdl),
+   Vsmrelationship(@Vsmrelationship/language_locale__v.mdl),
+   Vsmrelationship(@Vsmrelationship/person_prior_locale__v.mdl),
+   Vsmrelationship(@Vsmrelationship/persons_locale__v.mdl),
+   Vsmrelationship(@Vsmrelationship/users_locale__v.mdl)
+);

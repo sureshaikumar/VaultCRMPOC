@@ -1,0 +1,4 @@
+Typefield allow_sending_of_clm_web_links__v (
+   source('standard'),
+   required(false)
+);

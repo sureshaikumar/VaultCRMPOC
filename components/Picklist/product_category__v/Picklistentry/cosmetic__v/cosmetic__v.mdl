@@ -1,0 +1,5 @@
+Picklistentry cosmetic__v (
+   value('Cosmetic'),
+   order(5),
+   active(true)
+);

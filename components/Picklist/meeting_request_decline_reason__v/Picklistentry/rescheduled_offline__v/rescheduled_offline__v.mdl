@@ -1,0 +1,5 @@
+Picklistentry rescheduled_offline__v (
+   value('Rescheduled Offline'),
+   order(1),
+   active(true)
+);

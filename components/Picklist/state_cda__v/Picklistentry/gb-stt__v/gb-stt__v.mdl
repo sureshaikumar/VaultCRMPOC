@@ -1,0 +1,6 @@
+Picklistentry gb-stt__v (
+   value('Stockton-on-Tees'),
+   order(1633),
+   active(true),
+   controlling_entries('gb__v')
+);

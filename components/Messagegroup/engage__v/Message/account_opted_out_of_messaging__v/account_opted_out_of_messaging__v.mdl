@@ -1,0 +1,6 @@
+Message account_opted_out_of_messaging__v (
+   label(),
+   active(true),
+   default_value('${account_name} has opted out from receiving messages. Capture consent to start messaging again.'),
+   system_managed(false)
+);

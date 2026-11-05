@@ -1,0 +1,6 @@
+Picklistentry ph-ben__v (
+   value('Benguet'),
+   order(3543),
+   active(true),
+   controlling_entries('ph__v')
+);

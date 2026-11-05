@@ -1,0 +1,11 @@
+RECREATE Jobmetadata clinical_study_country_inbound_job__v (
+   label('Clinical Study Country Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('The job responsible for pulling all Clinical Study Countries to VaultCRM.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clinicalintegration.jobs.ClinicalStudyCountryInboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

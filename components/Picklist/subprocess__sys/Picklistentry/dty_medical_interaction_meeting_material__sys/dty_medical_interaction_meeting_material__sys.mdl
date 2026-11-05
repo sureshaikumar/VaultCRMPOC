@@ -1,0 +1,6 @@
+Picklistentry dty_medical_interaction_meeting_material__sys (
+   value('Medical Interaction Meeting Material'),
+   order(99),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

@@ -1,0 +1,19 @@
+Field entity_reference_km_id__v (
+   label('Entity Reference KM Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('For Internal Use Only. Utilized to maintain relationship to Key Message during sync.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

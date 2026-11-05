@@ -1,0 +1,6 @@
+Picklistentry sd-nb__v (
+   value('Blue Nile'),
+   order(3940),
+   active(true),
+   controlling_entries('sd__v')
+);

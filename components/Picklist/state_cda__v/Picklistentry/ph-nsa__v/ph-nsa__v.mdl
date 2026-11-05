@@ -1,0 +1,6 @@
+Picklistentry ph-nsa__v (
+   value('Northern Samar'),
+   order(3589),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry do-06__v (
+   value('Duarte'),
+   order(945),
+   active(true),
+   controlling_entries('do__v')
+);

@@ -1,0 +1,4 @@
+Typefield opportunities__v (
+   source('custom'),
+   required(false)
+);

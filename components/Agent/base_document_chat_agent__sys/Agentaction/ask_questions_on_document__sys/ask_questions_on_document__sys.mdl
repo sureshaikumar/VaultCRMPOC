@@ -1,0 +1,12 @@
+Agentaction ask_questions_on_document__sys (
+   label('Ask Questions'),
+   active(true),
+   api_access(true),
+   description('This action is used for inquiries about the content inside the document and questions about the document''s structure, metadata (doc fields), or anything else not inside the document text. It is also used for broad and general questions about the document, including inquiries that are vague, ambiguous, unrelated, or unknown topics and concepts.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(true),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

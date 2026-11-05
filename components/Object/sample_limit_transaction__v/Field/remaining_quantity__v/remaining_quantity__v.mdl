@@ -1,0 +1,22 @@
+Field remaining_quantity__v (
+   label('Remaining Quantity'),
+   type('Number'),
+   active(true),
+   description('Value of the Sample Limit Remaining Quantity field at the time the Sample Limit Transaction record was created.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

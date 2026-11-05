@@ -1,0 +1,5 @@
+Picklistentry 22840__v (
+   value('Fort Payne, AL Micropolitan Statistical Area'),
+   order(245),
+   active(true)
+);

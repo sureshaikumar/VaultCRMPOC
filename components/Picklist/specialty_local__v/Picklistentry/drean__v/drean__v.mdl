@@ -1,0 +1,6 @@
+Picklistentry drean__v (
+   value('Dentistry Radiology'),
+   order(381),
+   active(true),
+   controlling_entries('id__v')
+);

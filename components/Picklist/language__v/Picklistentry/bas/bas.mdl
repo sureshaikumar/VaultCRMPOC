@@ -1,0 +1,5 @@
+Picklistentry bas (
+   value('Basa'),
+   order(137),
+   active(true)
+);

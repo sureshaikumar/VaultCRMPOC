@@ -1,0 +1,5 @@
+Picklistentry 39540__v (
+   value('Racine, WI Metropolitan Statistical Area'),
+   order(98),
+   active(true)
+);

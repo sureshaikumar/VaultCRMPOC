@@ -1,0 +1,5 @@
+Picklistentry slide_view__v (
+   value('Slide View'),
+   order(0),
+   active(true)
+);

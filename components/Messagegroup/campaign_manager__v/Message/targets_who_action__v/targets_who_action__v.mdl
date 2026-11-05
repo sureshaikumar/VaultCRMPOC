@@ -1,0 +1,6 @@
+Message targets_who_action__v (
+   label(),
+   active(true),
+   default_value('Targets who ${action}'),
+   system_managed(false)
+);

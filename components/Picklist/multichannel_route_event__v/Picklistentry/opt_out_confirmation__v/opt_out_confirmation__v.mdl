@@ -1,0 +1,5 @@
+Picklistentry opt_out_confirmation__v (
+   value('Opt out Confirmation'),
+   order(1),
+   active(true)
+);

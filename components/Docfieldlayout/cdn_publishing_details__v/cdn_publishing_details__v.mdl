@@ -1,0 +1,20 @@
+RECREATE Docfieldlayout cdn_publishing_details__v (
+   label('CDN Publishing Details'),
+   active(true),
+   icon('UNDEFINED'),
+   order(11),
+   fields('Docfield.cdn_path__v',
+      'Docfield.cdn_processing_status__v',
+      'Docfield.cdn_status__v',
+      'Docfield.media_file_crc__v',
+      'Docfield.rendition_md5__v',
+      'Docfield.media_file_name__v',
+      'Docfield.media_file_size__v',
+      'Docfield.media_type__v',
+      'Docfield.media_type_extension__v',
+      'Docfield.assets_cdn_path__v',
+      'Docfield.assets_cdn_processing_status__v'),
+   show_in_edit_mode(true),
+   allow_field_assignment(true),
+   panel('Documentpanel.doc_info_information__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry dty_presentation__sys (
+   value('Presentation'),
+   order(123),
+   active(true),
+   controlling_entries('dlc_crm_content__sys')
+);

@@ -1,0 +1,4 @@
+Typefield carry_forward_accessibility_information__sys (
+   source('standard'),
+   required(false)
+);

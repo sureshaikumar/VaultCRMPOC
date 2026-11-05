@@ -1,0 +1,5 @@
+Picklistentry cldp__v (
+   value('Clinical Department'),
+   order(5),
+   active(true)
+);

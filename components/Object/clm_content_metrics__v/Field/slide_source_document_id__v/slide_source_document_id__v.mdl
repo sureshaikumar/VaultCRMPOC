@@ -1,0 +1,19 @@
+Field slide_source_document_id__v (
+   label('Slide Source Vault Document ID'),
+   type('String'),
+   active(true),
+   description('The ID of the source document from PromoMats or Medical Vault for which this record captures usage metrics. This ID is the same as the Presentation Source Vault Doc ID for auto published presentations.'),
+   required(false),
+   unique(false),
+   max_length(200),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

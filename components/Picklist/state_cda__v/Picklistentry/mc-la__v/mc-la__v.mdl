@@ -1,0 +1,6 @@
+Picklistentry mc-la__v (
+   value('Larvotto'),
+   order(2858),
+   active(true),
+   controlling_entries('mc__v')
+);

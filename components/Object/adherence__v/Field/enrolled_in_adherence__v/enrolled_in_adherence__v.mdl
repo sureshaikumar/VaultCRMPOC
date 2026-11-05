@@ -1,0 +1,18 @@
+Field enrolled_in_adherence__v (
+   label('Enrolled in Adherence'),
+   type('Boolean'),
+   active(true),
+   description('This field allows the user to determine that the patient is enrolled in adherence, this value is needed to calculate the patient adherence rate.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('FALSE'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

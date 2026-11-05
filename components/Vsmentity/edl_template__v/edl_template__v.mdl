@@ -1,0 +1,16 @@
+RECREATE Vsmentity edl_template__v (
+   label('EDL Template'),
+   active(true),
+   description('Predefined templates used to define the structure and requirements of an Expected Document List (EDL) for regulatory submissions or other document-intensive workflows. EDL Templates standardize which documents are required for a given process, enabling consistent and repeatable document collection processes.'),
+   synonyms('EDL template',
+      'expected document list template',
+      'document list template',
+      'submission template'),
+   target('Object.edl_template__v'),
+   target_label('EDL Template'),
+   Vsmfield(@Vsmfield/copied_from__v.mdl),
+   Vsmfield(@Vsmfield/lock_matched_documents__v.mdl),
+   Vsmfield(@Vsmfield/matching_fields__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/parent__v.mdl)
+);

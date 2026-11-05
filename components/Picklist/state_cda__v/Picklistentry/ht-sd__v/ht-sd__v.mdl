@@ -1,0 +1,6 @@
+Picklistentry ht-sd__v (
+   value('Sud'),
+   order(1871),
+   active(true),
+   controlling_entries('ht__v')
+);

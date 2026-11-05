@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:upRelationships>
+    <vrt:upRelationship key="medical_inquiry__v.account__v" />
+  </vrt:upRelationships>
+</vrt:reportType>

@@ -1,0 +1,6 @@
+Picklistentry jadoa__v (
+   value('Jaw and Dental Orthopedics'),
+   order(830),
+   active(true),
+   controlling_entries('si__v')
+);

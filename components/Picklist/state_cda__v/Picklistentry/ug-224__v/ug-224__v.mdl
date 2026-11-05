@@ -1,0 +1,6 @@
+Picklistentry ug-224__v (
+   value('Namutumba'),
+   order(4692),
+   active(true),
+   controlling_entries('ug__v')
+);

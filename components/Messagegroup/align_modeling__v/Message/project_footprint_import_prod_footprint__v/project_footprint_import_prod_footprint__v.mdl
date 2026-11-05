@@ -1,0 +1,6 @@
+Message project_footprint_import_prod_footprint__v (
+   label(),
+   active(true),
+   default_value('Import selected footprints from production'),
+   system_managed(false)
+);

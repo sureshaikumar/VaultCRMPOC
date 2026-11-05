@@ -1,0 +1,6 @@
+Picklistentry ee-87__v (
+   value('Võrumaa'),
+   order(1148),
+   active(true),
+   controlling_entries('ee__v')
+);

@@ -1,0 +1,22 @@
+Field call_submission_monthly_window__v (
+   label('Call Submission Monthly Window'),
+   type('String'),
+   active(true),
+   description('This Veeva Setting limits the ability to submit calls from the prior month past a date in the following month. Define a list of dates where calls cannot be submitted past for the prior month.
+
+- CALL_SUBMISSION_MONTHLY_WINDOW =  <MONTH_NUMBER>,<NUMBER OF'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(53),
+   default_value('"CALL_SUBMISSION_MONTHLY_WINDOW;;CallReport"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

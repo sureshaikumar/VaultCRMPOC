@@ -1,0 +1,10 @@
+Vsmvalue tmm__v (
+   label('TMM'),
+   active(true),
+   description('Applies when referencing the legacy Turkmenistani Manat, the historical currency of Turkmenistan replaced by the TMT in 2009.'),
+   synonyms('Turkmenistani manat legacy',
+         'old Turkmen manat',
+         'manat'),
+   target('tmm__sys'),
+   target_label('TMM')
+);

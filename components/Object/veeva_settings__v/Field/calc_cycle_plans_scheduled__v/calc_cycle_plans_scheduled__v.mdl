@@ -1,0 +1,20 @@
+Field calc_cycle_plans_scheduled__v (
+   label('CALC_CYCLE_PLANS_SCHEDULED'),
+   type('String'),
+   active(true),
+   description('Points to the Veeva Message to define the query of what calls should be used for calculation'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(40),
+   default_value('"(call2_status__v = ''planned__v'' or (call2_status__v = ''saved__v'' and call_date__v > TODAY))"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield microsoft_teams_channel_link__v (
+   source('standard'),
+   required(false)
+);

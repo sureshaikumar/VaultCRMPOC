@@ -1,0 +1,5 @@
+Picklistentry olc_crm_obj_request_lifecycle__sys (
+   value('Crm obj request lifecycle'),
+   order(27),
+   active(true)
+);

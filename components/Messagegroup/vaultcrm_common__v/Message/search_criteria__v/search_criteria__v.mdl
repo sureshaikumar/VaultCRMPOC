@@ -1,0 +1,6 @@
+Message search_criteria__v (
+   label(),
+   active(true),
+   default_value('Search Criteria'),
+   system_managed(false)
+);

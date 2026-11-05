@@ -1,0 +1,6 @@
+Picklistentry bt-21__v (
+   value('Tsirang'),
+   order(515),
+   active(true),
+   controlling_entries('bt__v')
+);

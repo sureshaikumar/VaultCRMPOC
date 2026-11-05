@@ -1,0 +1,6 @@
+Picklistentry iq-bb__v (
+   value('Bābil'),
+   order(2036),
+   active(true),
+   controlling_entries('iq__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry disablement_in_progress__v (
+   value('Disablement in Progress'),
+   order(1),
+   active(true)
+);

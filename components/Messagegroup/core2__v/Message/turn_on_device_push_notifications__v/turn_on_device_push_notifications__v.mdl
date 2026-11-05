@@ -1,0 +1,6 @@
+Message turn_on_device_push_notifications__v (
+   label(),
+   active(true),
+   default_value('Turn On Notifications'),
+   system_managed(false)
+);

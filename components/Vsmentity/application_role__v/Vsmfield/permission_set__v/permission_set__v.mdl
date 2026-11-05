@@ -1,0 +1,14 @@
+Vsmfield permission_set__v (
+   label('Permission Set'),
+   active(true),
+   description('Reference to the Permission Set object that defines the specific access rights and privileges granted by this application role. Use this field to identify what capabilities are bundled with the role or to find all roles associated with a given permission set.'),
+   example_values(),
+   synonyms('permissions',
+         'access set',
+         'privilege set',
+         'role permissions'),
+   target('permission_set__sys'),
+   target_label('Permission Set'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep review_and_annotate__c (
+   label('Review and Annotate'),
+   type('contenttask'),
+   next_steps('Objectworkflowstep.assess_review_outcome__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

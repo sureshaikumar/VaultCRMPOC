@@ -1,0 +1,5 @@
+Picklistentry america_kentucky_louisville__sys (
+   value('(GMT-05:00) Eastern Standard Time (America/Kentucky/Louisville)'),
+   order(72),
+   active(true)
+);

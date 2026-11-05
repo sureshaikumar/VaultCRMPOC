@@ -1,0 +1,5 @@
+Picklistentry non_formulary_not_reimbursed__v (
+   value('Non-Formulary / Not Reimbursed'),
+   order(5),
+   active(true)
+);

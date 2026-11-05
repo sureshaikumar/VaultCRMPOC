@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_loader_load_exception__v (
+   label('Loader Job Exception'),
+   active(true),
+   description('Loader job exception template.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Loader Job partially completed'),
+   notification('<p>Your Loader Job has Partially Failed</p><p>${vaultLoaderNumSuccesses} ${vaultLoaderNumFailures}</p><p>Details:</p><ul><li>Reason for Failure: ${vaultLoaderFailureReason}</li><li> CSV File: <a href="${vaultLoaderFileLink}">${vaultLoaderFileName}</a></li><li>Action Type: ${vaultLoaderActionType}</li><li>Object Type: ${vaultLoaderObjectType}</li><li>Record Migration Mode: ${vaultLoaderRecordMigrationMode}</li><li>Document Migration Mode: ${vaultLoaderDocumentMigrationMode}</li><li>Load Start Time: ${vaultLoaderStartTime} </li><li>Duration: ${vaultLoaderDuration} (${vaultLoaderRecordsPerSecond} records per second)</li></ul>'),
+   email_body('<p>Your Loader Job has Partially Failed</p><p>Details:</p><ul><li>Reason for Failure: ${vaultLoaderFailureReason}</li><li> CSV File: <a href="${vaultLoaderFileLink}">${vaultLoaderFileName}</a></li><li>Action Type: ${vaultLoaderActionType}</li><li>Object Type: ${vaultLoaderObjectType}</li><li>Record Migration Mode: ${vaultLoaderRecordMigrationMode}</li><li>Document Migration Mode: ${vaultLoaderDocumentMigrationMode}</li><li>Load Start Time: ${vaultLoaderStartTime} </li><li>Duration: ${vaultLoaderDuration} (${vaultLoaderRecordsPerSecond} records per second)</li><li>${vaultLoaderNumSuccesses}</li><li>${vaultLoaderNumFailures} </li></ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

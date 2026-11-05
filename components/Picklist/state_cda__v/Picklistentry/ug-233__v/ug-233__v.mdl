@@ -1,0 +1,6 @@
+Picklistentry ug-233__v (
+   value('Butebo'),
+   order(4701),
+   active(true),
+   controlling_entries('ug__v')
+);

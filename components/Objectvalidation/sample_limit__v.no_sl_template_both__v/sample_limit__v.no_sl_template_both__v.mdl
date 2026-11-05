@@ -1,0 +1,9 @@
+RECREATE Objectvalidation sample_limit__v.no_sl_template_both__v (
+   label('No SL Template Both'),
+   active(true),
+   expression('IsBlank(account_types__v) || IsBlank(limit_amount__v) || IsBlank(limit_quantity__v)'),
+   description('This validation rule prevents the creation of a sample limit template for both quantity and amount as part of same template record.'),
+   error_message('A Sample Limit Template cannot be created for both quantity and amount in the same template'),
+   error_location('limit_quantity__v',
+      'limit_amount__v')
+);

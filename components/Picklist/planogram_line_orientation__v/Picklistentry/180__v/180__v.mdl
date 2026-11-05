@@ -1,0 +1,5 @@
+Picklistentry 180__v (
+   value('180'),
+   order(2),
+   active(true)
+);

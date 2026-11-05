@@ -1,0 +1,18 @@
+Field task_completed__v (
+   label('Task Completed'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used to denote if the Task is or is not completed'),
+   list_column(false),
+   order(47),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

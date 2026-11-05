@@ -1,0 +1,5 @@
+Picklistentry 30420__v (
+   value('Lexington, NE Micropolitan Statistical Area'),
+   order(437),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield prescription_duration__v (
+   source('standard'),
+   required(false)
+);

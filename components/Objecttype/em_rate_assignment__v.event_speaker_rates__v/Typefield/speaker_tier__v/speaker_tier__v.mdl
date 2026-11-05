@@ -1,0 +1,4 @@
+Typefield speaker_tier__v (
+   source('custom'),
+   required(false)
+);

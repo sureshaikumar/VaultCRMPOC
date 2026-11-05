@@ -1,0 +1,5 @@
+Picklistentry pt_pt__v (
+   value('Portuguese (European)'),
+   order(22),
+   active(true)
+);

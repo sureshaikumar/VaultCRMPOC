@@ -1,0 +1,6 @@
+Message did_you_connect_with__v (
+   label(),
+   active(true),
+   default_value('Did you connect with ${name}?'),
+   system_managed(false)
+);

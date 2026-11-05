@@ -1,0 +1,6 @@
+Message medx_attendee_limit__v (
+   label(),
+   active(true),
+   default_value('You cannot add more than ${limit} attendees on a Medical Interaction.'),
+   system_managed(false)
+);

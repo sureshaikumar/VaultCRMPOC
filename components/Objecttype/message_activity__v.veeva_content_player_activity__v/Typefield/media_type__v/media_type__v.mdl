@@ -1,0 +1,8 @@
+Typefield media_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.message_activity_media_type__v.html__v',
+         'Picklist.message_activity_media_type__v.image__v',
+         'Picklist.message_activity_media_type__v.pdf__v',
+         'Picklist.message_activity_media_type__v.video__v')
+);

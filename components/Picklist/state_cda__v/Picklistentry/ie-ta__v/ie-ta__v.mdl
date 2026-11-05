@@ -1,0 +1,6 @@
+Picklistentry ie-ta__v (
+   value('Tipperary'),
+   order(1985),
+   active(true),
+   controlling_entries('ie__v')
+);

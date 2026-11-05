@@ -1,0 +1,18 @@
+Field enable_ipad_mysamples__v (
+   label('ENABLE_IPAD_MYSAMPLES'),
+   type('Boolean'),
+   active(true),
+   description('checkbox setting which controls if my samples tab is shown on iRep'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(136),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

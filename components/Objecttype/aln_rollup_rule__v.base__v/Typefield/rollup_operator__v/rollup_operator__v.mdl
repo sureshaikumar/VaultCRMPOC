@@ -1,0 +1,4 @@
+Typefield rollup_operator__v (
+   source('standard'),
+   required(true)
+);

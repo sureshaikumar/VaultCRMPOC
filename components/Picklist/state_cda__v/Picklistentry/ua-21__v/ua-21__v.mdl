@@ -1,0 +1,6 @@
+Picklistentry ua-21__v (
+   value('Zakarpatska oblast'),
+   order(4622),
+   active(true),
+   controlling_entries('ua__v')
+);

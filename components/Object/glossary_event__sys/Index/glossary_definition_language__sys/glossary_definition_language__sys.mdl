@@ -1,0 +1,5 @@
+Index glossary_definition_language__sys (
+   description(),
+   fields('glossary_definition_language__sys'),
+   label('Glossary Definition Language')
+);

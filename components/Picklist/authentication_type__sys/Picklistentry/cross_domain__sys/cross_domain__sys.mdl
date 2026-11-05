@@ -1,0 +1,5 @@
+Picklistentry cross_domain__sys (
+   value('Cross-Domain'),
+   order(2),
+   active(true)
+);

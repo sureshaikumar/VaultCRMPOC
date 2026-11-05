@@ -1,0 +1,6 @@
+Message agent_is_working__v (
+   label(),
+   active(true),
+   default_value('The agent is working...'),
+   system_managed(false)
+);

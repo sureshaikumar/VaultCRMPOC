@@ -1,0 +1,5 @@
+Picklistentry 34020__v (
+   value('Morgan City, LA Micropolitan Statistical Area'),
+   order(137),
+   active(true)
+);

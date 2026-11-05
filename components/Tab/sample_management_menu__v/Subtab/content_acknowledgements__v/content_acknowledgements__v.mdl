@@ -1,0 +1,14 @@
+Subtab content_acknowledgements__v (
+   active(true),
+   all_view_label('All Content Acknowledgements'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Content Acknowledgements'),
+   modal_create_record(false),
+   my_view_label('My Content Acknowledgements'),
+   object('content_acknowledgement__v'),
+   order(600),
+   parent('sample_management_menu__v'),
+   prevent_create(false),
+   recent_view_label('Recent Content Acknowledgements')
+);

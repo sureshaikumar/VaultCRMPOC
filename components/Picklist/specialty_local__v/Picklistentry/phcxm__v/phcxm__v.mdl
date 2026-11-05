@@ -1,0 +1,6 @@
+Picklistentry phcxm__v (
+   value('Public Health and Community Medicine'),
+   order(1635),
+   active(true),
+   controlling_entries('ng__v')
+);

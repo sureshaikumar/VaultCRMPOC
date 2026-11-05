@@ -1,0 +1,43 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_order_transaction__v.brc__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="call_name__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="call_datetime__v" />
+            <vault:field reference="sample_order_transaction_status__v" />
+            <vault:field reference="submitted_date__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="credentials__v" />
+            <vault:field reference="salutation__v" />
+            <vault:field reference="ship_address_line_1__v" />
+            <vault:field reference="ship_address_line_2__v" />
+            <vault:field reference="ship_city__v" />
+            <vault:field reference="ship_state__v" />
+            <vault:field reference="ship_zip__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Signature Information" name="signature_information__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="signature_date__v" />
+            <vault:field reference="signature__v" />
+            <vault:field reference="disclaimer__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="License Information" name="license_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="ship_license__v" />
+            <vault:field reference="ship_license_status__v" />
+            <vault:field reference="ship_license_expiration_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="BRC Information" name="brc_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="sample__v" />
+            <vault:field reference="u_m__v" />
+            <vault:field reference="quantity__v" />
+            <vault:field reference="manufacturer__v" />
+            <vault:field reference="distributor__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

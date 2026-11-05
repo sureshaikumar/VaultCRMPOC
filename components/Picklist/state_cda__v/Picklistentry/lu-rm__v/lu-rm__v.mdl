@@ -1,0 +1,6 @@
+Picklistentry lu-rm__v (
+   value('Remich'),
+   order(2698),
+   active(true),
+   controlling_entries('lu__v')
+);

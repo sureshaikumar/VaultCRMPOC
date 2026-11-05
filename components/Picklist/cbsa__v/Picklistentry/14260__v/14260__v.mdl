@@ -1,0 +1,5 @@
+Picklistentry 14260__v (
+   value('Boise City-Nampa, ID Metropolitan Statistical Area'),
+   order(907),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_ust_nera__sys (
+   value('(GMT+10:00) Ust-Nera Time (Asia/Ust-Nera)'),
+   order(289),
+   active(true)
+);

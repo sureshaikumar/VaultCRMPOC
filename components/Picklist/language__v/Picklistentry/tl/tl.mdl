@@ -1,0 +1,5 @@
+Picklistentry tl (
+   value('Tagalog'),
+   order(66),
+   active(true)
+);

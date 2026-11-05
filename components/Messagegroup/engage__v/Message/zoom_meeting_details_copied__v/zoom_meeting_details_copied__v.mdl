@@ -1,0 +1,6 @@
+Message zoom_meeting_details_copied__v (
+   label(),
+   active(true),
+   default_value('Zoom Meeting Details Copied'),
+   system_managed(false)
+);

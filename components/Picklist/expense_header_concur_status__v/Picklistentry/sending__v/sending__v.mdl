@@ -1,0 +1,5 @@
+Picklistentry sending__v (
+   value('Sending'),
+   order(1),
+   active(true)
+);

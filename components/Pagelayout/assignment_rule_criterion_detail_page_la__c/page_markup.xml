@@ -1,0 +1,17 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.assignment_rule_criterion__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="criterion_number__v" />
+            <vault:field reference="assignment_rule__v" />
+            <vault:field reference="criterion_field__v" />
+            <vault:field reference="criterion_operator__v" />
+            <vault:field reference="criterion_value__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

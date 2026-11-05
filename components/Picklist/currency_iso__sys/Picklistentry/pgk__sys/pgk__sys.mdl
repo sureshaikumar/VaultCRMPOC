@@ -1,0 +1,5 @@
+Picklistentry pgk__sys (
+   value('PGK'),
+   order(141),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message remove_from_journey__v (
+   label(),
+   active(true),
+   default_value('Remove from Journey'),
+   system_managed(false)
+);

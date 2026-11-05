@@ -1,0 +1,7 @@
+Objectlifecyclestage redacting_source__sys (
+   label('Redacting Source'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.redacting_source__sys'),
+   order(1)
+);

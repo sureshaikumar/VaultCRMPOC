@@ -1,0 +1,4 @@
+Typefield product_catalog__v (
+   source('standard'),
+   required(true)
+);

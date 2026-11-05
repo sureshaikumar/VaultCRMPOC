@@ -1,0 +1,6 @@
+Message select_where_to_copy__v (
+   label(),
+   active(true),
+   default_value('Select where to copy CLM Presentation, slides, key messages, and sub presentations.'),
+   system_managed(false)
+);

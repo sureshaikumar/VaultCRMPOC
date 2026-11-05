@@ -1,0 +1,15 @@
+Fieldrule site_name_text__v (
+   label('Site Name'),
+   active(true),
+   query_object('site__v'),
+   query_field('site_name__v'),
+   target_object('Object.vault_clinical_site__v'),
+   target_object_field('Field.site_name_text__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_text__sys'),
+   target_field_lookup()
+);

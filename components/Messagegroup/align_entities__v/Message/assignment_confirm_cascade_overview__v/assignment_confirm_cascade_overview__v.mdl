@@ -1,0 +1,6 @@
+Message assignment_confirm_cascade_overview__v (
+   label(),
+   active(true),
+   default_value('This {0}''s {1}. This End Date will also be applied to the following active assignments to this {0}'),
+   system_managed(false)
+);

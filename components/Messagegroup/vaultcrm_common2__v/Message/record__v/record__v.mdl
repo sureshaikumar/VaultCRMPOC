@@ -1,0 +1,6 @@
+Message record__v (
+   label(),
+   active(true),
+   default_value('Record'),
+   system_managed(false)
+);

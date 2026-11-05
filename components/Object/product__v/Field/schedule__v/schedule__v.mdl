@@ -1,0 +1,19 @@
+Field schedule__v (
+   label('Schedule'),
+   type('String'),
+   active(true),
+   description('This is the Schedule of the Controlled Substance, for example, IV'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content(),
+   list_column(false),
+   order(46),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

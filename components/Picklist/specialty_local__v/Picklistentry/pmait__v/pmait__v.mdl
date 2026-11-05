@@ -1,0 +1,6 @@
+Picklistentry pmait__v (
+   value('Pathology (Microbiological)'),
+   order(1301),
+   active(true),
+   controlling_entries('za__v')
+);

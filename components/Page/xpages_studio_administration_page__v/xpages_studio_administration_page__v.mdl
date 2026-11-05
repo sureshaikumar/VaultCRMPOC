@@ -1,0 +1,14 @@
+RECREATE Page xpages_studio_administration_page__v (
+   label('X-Pages Studio Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code('xpages_studio_administration_page__v'),
+   description('X-Pages Studio Administration page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('xpages-studio-administration')
+);

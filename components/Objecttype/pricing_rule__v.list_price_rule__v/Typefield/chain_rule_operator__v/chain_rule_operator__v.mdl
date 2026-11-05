@@ -1,0 +1,6 @@
+Typefield chain_rule_operator__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.pricing_rule_chain_rule_operator__v.and__v',
+         'Picklist.pricing_rule_chain_rule_operator__v.or__v')
+);

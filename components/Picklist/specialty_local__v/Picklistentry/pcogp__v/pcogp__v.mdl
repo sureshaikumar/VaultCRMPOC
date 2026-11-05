@@ -1,0 +1,6 @@
+Picklistentry pcogp__v (
+   value('Pharmaceutical Care of Geriatric Patients'),
+   order(1506),
+   active(true),
+   controlling_entries('cz__v')
+);

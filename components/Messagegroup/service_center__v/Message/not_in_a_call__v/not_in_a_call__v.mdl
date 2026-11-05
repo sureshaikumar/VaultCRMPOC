@@ -1,0 +1,6 @@
+Message not_in_a_call__v (
+   label(),
+   active(true),
+   default_value('Not in a Call'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message microsoft_signed_out__v (
+   label(),
+   active(true),
+   default_value('Signed out of Microsoft 365'),
+   system_managed(false)
+);

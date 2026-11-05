@@ -1,0 +1,5 @@
+Picklistentry b35__v (
+   value('B35_vod__c'),
+   order(42),
+   active(true)
+);

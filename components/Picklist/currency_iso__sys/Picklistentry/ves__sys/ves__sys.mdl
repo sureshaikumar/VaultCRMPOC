@@ -1,0 +1,5 @@
+Picklistentry ves__sys (
+   value('VES'),
+   order(199),
+   active(true)
+);

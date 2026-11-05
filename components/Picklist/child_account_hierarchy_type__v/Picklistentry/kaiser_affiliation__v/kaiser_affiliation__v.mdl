@@ -1,0 +1,5 @@
+Picklistentry kaiser_affiliation__v (
+   value('Kaiser Affiliation'),
+   order(11),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Tabcollectionitem aln_crm_data__c (
+   label(),
+   active(true),
+   tabs(),
+   order(10),
+   tab('Tab.aln_crm_data__v'),
+   type('Tab')
+);

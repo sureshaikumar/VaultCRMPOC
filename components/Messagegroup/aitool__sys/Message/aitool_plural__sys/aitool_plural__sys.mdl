@@ -1,0 +1,6 @@
+Message aitool_plural__sys (
+   label(),
+   active(true),
+   default_value('AI Tools'),
+   system_managed(true)
+);

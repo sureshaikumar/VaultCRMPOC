@@ -1,0 +1,19 @@
+Field ship_postal_code__v (
+   label('Ship Postal Code'),
+   type('String'),
+   active(true),
+   description('Postal code of the shipping address of the account placing the order.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(62),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

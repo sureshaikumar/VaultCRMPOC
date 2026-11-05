@@ -1,0 +1,6 @@
+Message patient_journey_results_unavailable__v (
+   label(),
+   active(true),
+   default_value('Some results unavailable. If you can''t find a Patient Journey, contact your administrator'),
+   system_managed(false)
+);

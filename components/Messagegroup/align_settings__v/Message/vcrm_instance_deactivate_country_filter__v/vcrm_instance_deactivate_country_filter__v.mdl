@@ -1,0 +1,6 @@
+Message vcrm_instance_deactivate_country_filter__v (
+   label(),
+   active(true),
+   default_value('Deactivate Country'),
+   system_managed(false)
+);

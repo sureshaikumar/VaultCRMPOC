@@ -1,0 +1,18 @@
+Field hidden__v (
+   label('Hidden?'),
+   type('Boolean'),
+   active(true),
+   description('When checked, this presentation is not shown in the CLM Presentations view and does not appear in the presentation picker.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

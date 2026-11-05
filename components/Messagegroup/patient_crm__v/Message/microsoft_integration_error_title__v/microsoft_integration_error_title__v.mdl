@@ -1,0 +1,6 @@
+Message microsoft_integration_error_title__v (
+   label(),
+   active(true),
+   default_value('Microsoft Integration Offline'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry preeg__v (
+   value('Pediatric Resuscitation'),
+   order(1453),
+   active(true),
+   controlling_entries('kg__v')
+);

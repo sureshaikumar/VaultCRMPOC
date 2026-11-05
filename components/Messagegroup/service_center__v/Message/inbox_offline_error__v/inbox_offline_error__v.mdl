@@ -1,0 +1,6 @@
+Message inbox_offline_error__v (
+   label(),
+   active(true),
+   default_value('Inbox Offline: Unable to receive new emails. Please contact your administrator.'),
+   system_managed(false)
+);

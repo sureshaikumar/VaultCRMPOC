@@ -1,0 +1,5 @@
+Picklistentry de (
+   value('German'),
+   order(11),
+   active(true)
+);

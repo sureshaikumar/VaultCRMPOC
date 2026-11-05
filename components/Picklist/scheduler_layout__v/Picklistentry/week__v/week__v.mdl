@@ -1,0 +1,5 @@
+Picklistentry week__v (
+   value('Week'),
+   order(1),
+   active(true)
+);

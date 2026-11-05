@@ -1,0 +1,6 @@
+Message attempted_targets_appear_here__v (
+   label(),
+   active(true),
+   default_value('Targets you''ve attempted throughout the day will appear here'),
+   system_managed(false)
+);

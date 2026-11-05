@@ -1,0 +1,6 @@
+Message rmt_primary_territory_val__v (
+   label(),
+   active(true),
+   default_value('Roster Member ${rm} cannot be primarily assigned to ${terr} between ${start_date} and ${end_date} due to another primary assignment to roster member ${rm2} between ${start_date2} and ${end_date2}.'),
+   system_managed(false)
+);

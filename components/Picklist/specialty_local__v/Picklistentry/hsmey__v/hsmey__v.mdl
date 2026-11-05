@@ -1,0 +1,6 @@
+Picklistentry hsmey__v (
+   value('Health Systems Management'),
+   order(675),
+   active(true),
+   controlling_entries('cm__v')
+);

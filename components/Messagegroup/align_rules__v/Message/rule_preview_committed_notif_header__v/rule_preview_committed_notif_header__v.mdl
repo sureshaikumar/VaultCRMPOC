@@ -1,0 +1,6 @@
+Message rule_preview_committed_notif_header__v (
+   label(),
+   active(true),
+   default_value('Preview Committed'),
+   system_managed(false)
+);

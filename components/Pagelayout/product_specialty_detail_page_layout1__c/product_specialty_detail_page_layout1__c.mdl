@@ -1,0 +1,8 @@
+RECREATE Pagelayout product_specialty_detail_page_layout1__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Product Specialty Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

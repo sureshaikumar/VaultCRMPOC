@@ -1,0 +1,6 @@
+Picklistentry ee-284__v (
+   value('Kanepi'),
+   order(1079),
+   active(true),
+   controlling_entries('ee__v')
+);

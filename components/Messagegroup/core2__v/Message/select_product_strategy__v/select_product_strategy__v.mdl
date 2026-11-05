@@ -1,0 +1,6 @@
+Message select_product_strategy__v (
+   label(),
+   active(true),
+   default_value('Select the product strategy to apply to this account.'),
+   system_managed(false)
+);

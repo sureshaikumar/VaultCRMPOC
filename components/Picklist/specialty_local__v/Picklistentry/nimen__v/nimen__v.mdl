@@ -1,0 +1,6 @@
+Picklistentry nimen__v (
+   value('Neurology (Internal Medicine)'),
+   order(1013),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,7 @@
+Picklistentry cnlei__v (
+   value('Clinical Neuropsychology'),
+   order(250),
+   active(true),
+   controlling_entries('au__v',
+         'nl__v')
+);

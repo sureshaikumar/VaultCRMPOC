@@ -1,0 +1,11 @@
+RECREATE Jobmetadata llm_call_generation_job__v (
+   label('LLM Call Generation Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that generates the markdown rendition of a Call record into the associated llm_call__v record.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.callreport.jobs.LlmCallGenerationJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

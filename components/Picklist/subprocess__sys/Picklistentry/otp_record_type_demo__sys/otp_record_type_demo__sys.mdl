@@ -1,0 +1,6 @@
+Picklistentry otp_record_type_demo__sys (
+   value('Record type Demo'),
+   order(137),
+   active(true),
+   controlling_entries('olc_testobjectdemolifecycle__sys')
+);

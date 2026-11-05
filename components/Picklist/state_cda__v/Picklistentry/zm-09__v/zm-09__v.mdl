@@ -1,0 +1,6 @@
+Picklistentry zm-09__v (
+   value('Lusaka'),
+   order(5034),
+   active(true),
+   controlling_entries('zm__v')
+);

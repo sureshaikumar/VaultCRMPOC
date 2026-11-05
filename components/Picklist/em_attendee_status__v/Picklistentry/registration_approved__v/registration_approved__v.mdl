@@ -1,0 +1,5 @@
+Picklistentry registration_approved__v (
+   value('Registration Approved'),
+   order(9),
+   active(true)
+);

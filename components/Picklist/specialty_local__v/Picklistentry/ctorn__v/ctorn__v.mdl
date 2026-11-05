@@ -1,0 +1,6 @@
+Picklistentry ctorn__v (
+   value('Conservative Treatment'),
+   order(331),
+   active(true),
+   controlling_entries('jo__v')
+);

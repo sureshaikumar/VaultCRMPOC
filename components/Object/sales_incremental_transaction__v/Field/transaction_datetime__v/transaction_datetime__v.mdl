@@ -1,0 +1,17 @@
+Field transaction_datetime__v (
+   label('Transaction Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Date of transaction within pharma company.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,13 @@
+Picklistentry anest__v (
+   value('Anesthesia'),
+   order(68),
+   active(true),
+   controlling_entries('ae__v',
+         'au__v',
+         'bh__v',
+         'gh__v',
+         'il__v',
+         'ke__v',
+         'kw__v',
+         'sa__v')
+);

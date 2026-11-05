@@ -1,0 +1,6 @@
+Message more_patient_actions__v (
+   label(),
+   active(true),
+   default_value('More Patient Actions'),
+   system_managed(false)
+);

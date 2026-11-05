@@ -1,0 +1,5 @@
+Picklistentry europe_helsinki__v (
+   value('Europe/Helsinki'),
+   order(41),
+   active(true)
+);

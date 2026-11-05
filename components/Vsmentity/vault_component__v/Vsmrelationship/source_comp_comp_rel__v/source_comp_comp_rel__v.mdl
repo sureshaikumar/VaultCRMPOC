@@ -1,0 +1,14 @@
+Vsmrelationship source_comp_comp_rel__v (
+   label('Source Comp Comp Rel'),
+   active(false),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship from vault_component_relationship__sys where this component is the source. Represents component relationships in which this component is the originating/source side, useful for traversing dependency or association graphs originating from this component.'),
+   join_object('Object.vault_component_relationship__sys'),
+   synonyms('source relationships',
+         'outgoing relationships',
+         'depends on',
+         'source of'),
+   target('source_comp_comp_rel__sysr'),
+   target_label('Source Component'),
+   target_object('vault_component_relationship__sys')
+);

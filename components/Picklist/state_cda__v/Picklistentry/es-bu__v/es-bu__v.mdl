@@ -1,0 +1,6 @@
+Picklistentry es-bu__v (
+   value('Burgos'),
+   order(1201),
+   active(true),
+   controlling_entries('es__v')
+);

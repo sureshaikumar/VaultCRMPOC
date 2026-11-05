@@ -1,0 +1,6 @@
+Message consent_line_for_msging_error__v (
+   label(),
+   active(true),
+   default_value('Consent Line records cannot be created for Messaging channel.'),
+   system_managed(false)
+);

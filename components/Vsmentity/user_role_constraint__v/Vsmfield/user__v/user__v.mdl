@@ -1,0 +1,14 @@
+Vsmfield user__v (
+   label('User'),
+   active(true),
+   description('The specific Vault user to whom this role constraint applies. Use this field to look up all role constraints for a given individual or to determine which users have restrictions on a particular role.'),
+   example_values(),
+   synonyms('assigned user',
+         'constrained user',
+         'person',
+         'who'),
+   target('user__v'),
+   target_label('User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

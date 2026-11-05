@@ -1,0 +1,18 @@
+Field message_type__v (
+   label('Message Type'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the channel type of the message.'),
+   required(true),
+   unique(false),
+   help_content('Indicates the channel type of the message.'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.message_node_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

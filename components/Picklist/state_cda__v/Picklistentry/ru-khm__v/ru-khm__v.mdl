@@ -1,0 +1,6 @@
+Picklistentry ru-khm__v (
+   value('Khanty-Mansiyskiy avtonomnyy okrug'),
+   order(3816),
+   active(true),
+   controlling_entries('ru__v')
+);

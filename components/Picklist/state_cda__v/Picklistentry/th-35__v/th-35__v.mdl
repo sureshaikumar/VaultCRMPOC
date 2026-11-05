@@ -1,0 +1,6 @@
+Picklistentry th-35__v (
+   value('Yasothon'),
+   order(4351),
+   active(true),
+   controlling_entries('th__v')
+);

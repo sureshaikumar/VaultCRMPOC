@@ -1,0 +1,4 @@
+Typefield crosslink_document_minor_version__sys (
+   source('standard'),
+   required(true)
+);

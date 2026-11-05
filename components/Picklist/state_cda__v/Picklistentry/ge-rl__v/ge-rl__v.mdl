@@ -1,0 +1,6 @@
+Picklistentry ge-rl__v (
+   value('Rach''a-Lechkhumi-Kvemo Svaneti'),
+   order(1683),
+   active(true),
+   controlling_entries('ge__v')
+);

@@ -1,0 +1,4 @@
+Typefield attendee_reconciliation_complete__v (
+   source('standard'),
+   required(false)
+);

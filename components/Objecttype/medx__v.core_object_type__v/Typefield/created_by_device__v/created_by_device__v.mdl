@@ -1,0 +1,4 @@
+Typefield created_by_device__v (
+   source('custom'),
+   required(false)
+);

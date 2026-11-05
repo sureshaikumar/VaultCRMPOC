@@ -1,0 +1,4 @@
+RECREATE Renditiontype video_rendition__v (
+   label('Video Rendition'),
+   active(true)
+);

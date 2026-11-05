@@ -1,0 +1,8 @@
+RECREATE Picklist account_hospital_type__v (
+   label('Hospital Type'),
+   active(true),
+   Picklistentry(@Picklistentry/gp__v.mdl),
+   Picklistentry(@Picklistentry/hp__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

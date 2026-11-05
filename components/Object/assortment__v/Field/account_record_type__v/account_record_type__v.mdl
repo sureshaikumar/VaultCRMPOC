@@ -1,0 +1,19 @@
+Field account_record_type__v (
+   label('Account Record Type'),
+   type('Picklist'),
+   active(true),
+   description('The type of Account the Assortment is valid for.
+Values need to match the Account Record Type in Account'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.assortment_account_record_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

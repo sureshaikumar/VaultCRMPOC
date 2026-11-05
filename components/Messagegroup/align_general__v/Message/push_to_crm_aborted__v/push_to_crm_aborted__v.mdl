@@ -1,0 +1,6 @@
+Message push_to_crm_aborted__v (
+   label(),
+   active(true),
+   default_value('Push to CRM aborted'),
+   system_managed(false)
+);

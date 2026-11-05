@@ -1,0 +1,6 @@
+Message frequency_monthly_summary__v (
+   label(),
+   active(true),
+   default_value('On the ${day_of_month} at ${time} ${timezone}'),
+   system_managed(false)
+);

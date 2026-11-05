@@ -1,0 +1,5 @@
+Picklistentry disablement_failed__v (
+   value('Disablement Failed'),
+   order(2),
+   active(true)
+);

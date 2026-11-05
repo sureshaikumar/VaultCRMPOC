@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.patient_attribute__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="street_address_1__v" />
+            <vault:field reference="street_address_2__v" />
+            <vault:field reference="city__v" />
+            <vault:field reference="date_of_birth__v" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="full_name__v" />
+            <vault:field reference="last_name__v" />
+            <vault:field reference="middle_name__v" />
+            <vault:field reference="postal_code__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="email__v" />
+            <vault:field reference="home_phone__v" />
+            <vault:field reference="mobile_phone__v" />
+            <vault:field reference="address__v" />
+            <vault:field reference="caregiver__v" />
+            <vault:field reference="caregiver_email__v" />
+            <vault:field reference="caregiver_mobile_phone__v" />
+            <vault:field reference="caregiver_relationship__v" />
+            <vault:field reference="gender__v" />
+            <vault:field reference="has_caregiver__v" />
+            <vault:field reference="age_range__v" />
+            <vault:field reference="vcountry__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

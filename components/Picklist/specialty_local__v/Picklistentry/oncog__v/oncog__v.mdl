@@ -1,0 +1,6 @@
+Picklistentry oncog__v (
+   value('Oncogynecology'),
+   order(1110),
+   active(true),
+   controlling_entries('ge__v')
+);

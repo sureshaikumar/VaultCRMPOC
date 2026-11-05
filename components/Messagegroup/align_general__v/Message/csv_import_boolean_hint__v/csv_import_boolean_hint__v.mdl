@@ -1,0 +1,6 @@
+Message csv_import_boolean_hint__v (
+   label(),
+   active(true),
+   default_value('Boolean values must be either "true" or "false", case-insensitive.'),
+   system_managed(false)
+);

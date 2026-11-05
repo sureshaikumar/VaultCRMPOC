@@ -1,0 +1,19 @@
+RECREATE Notificationtemplate agent_object_task_ineligible__sys (
+   label('Agent Ineligible for Workflow Task'),
+   active(true),
+   description('Notification sent to the workflow owner when an agent is ineligible to complete an assigned workflow task.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Agent ineligible for task: ${taskName}'),
+   notification('
+       <p>The task cannot be processed by agent: ${agentLabel}</p>
+       <p>Workflow: ${workflowLabel}</p>
+       <p>Task: ${taskName}</p>
+       <p>Object Record: ${Object.name__v}</p>
+       <p>Reason: ${reason}</p>
+       <p>${reasonDetails}</p>
+   '),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,4 @@
+Typefield advanced_attendee_management__v (
+   source('standard'),
+   required(false)
+);

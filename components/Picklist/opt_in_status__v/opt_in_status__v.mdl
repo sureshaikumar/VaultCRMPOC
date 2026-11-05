@@ -1,0 +1,8 @@
+RECREATE Picklist opt_in_status__v (
+   label('Opt In Status'),
+   active(true),
+   Picklistentry(@Picklistentry/opted_in__v.mdl),
+   Picklistentry(@Picklistentry/opted_out__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

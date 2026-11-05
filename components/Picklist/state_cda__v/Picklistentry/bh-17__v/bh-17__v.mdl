@@ -1,0 +1,6 @@
+Picklistentry bh-17__v (
+   value('Ash Shamālīyah'),
+   order(404),
+   active(true),
+   controlling_entries('bh__v')
+);

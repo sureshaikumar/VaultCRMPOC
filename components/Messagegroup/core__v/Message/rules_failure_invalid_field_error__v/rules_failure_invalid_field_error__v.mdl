@@ -1,0 +1,6 @@
+Message rules_failure_invalid_field_error__v (
+   label(),
+   active(true),
+   default_value('Criterion "${criterion_name}" within rule "${rule_name}" references the field "${field_name}", which does not exist.'),
+   system_managed(false)
+);

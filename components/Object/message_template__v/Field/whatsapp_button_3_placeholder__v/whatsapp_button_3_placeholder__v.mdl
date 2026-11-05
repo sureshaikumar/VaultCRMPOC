@@ -1,0 +1,19 @@
+Field whatsapp_button_3_placeholder__v (
+   label('WhatsApp Button 3 Placeholder'),
+   type('String'),
+   active(true),
+   description('Details of what the placeholder in the third button should be replaced with.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

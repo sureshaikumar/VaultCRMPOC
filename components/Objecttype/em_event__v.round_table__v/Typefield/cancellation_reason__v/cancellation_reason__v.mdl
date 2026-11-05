@@ -1,0 +1,10 @@
+Typefield cancellation_reason__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_cancellation_reason__v.budget__v',
+         'Picklist.em_event_cancellation_reason__v.home_office_marketing__v',
+         'Picklist.em_event_cancellation_reason__v.logistics_issues__v',
+         'Picklist.em_event_cancellation_reason__v.low_rsvp__v',
+         'Picklist.em_event_cancellation_reason__v.other__v',
+         'Picklist.em_event_cancellation_reason__v.weather__v')
+);

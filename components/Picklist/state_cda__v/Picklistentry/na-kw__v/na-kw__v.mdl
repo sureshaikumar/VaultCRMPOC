@@ -1,0 +1,6 @@
+Picklistentry na-kw__v (
+   value('Kavango West'),
+   order(3305),
+   active(true),
+   controlling_entries('na__v')
+);

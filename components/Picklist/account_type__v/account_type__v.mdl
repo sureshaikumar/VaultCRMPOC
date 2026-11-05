@@ -1,0 +1,13 @@
+RECREATE Picklist account_type__v (
+   label('Account Type'),
+   active(true),
+   Picklistentry(@Picklistentry/prospect__v.mdl),
+   Picklistentry(@Picklistentry/customer_direct__v.mdl),
+   Picklistentry(@Picklistentry/customer_channel__v.mdl),
+   Picklistentry(@Picklistentry/channel_partner_reseller__v.mdl),
+   Picklistentry(@Picklistentry/installation_partner__v.mdl),
+   Picklistentry(@Picklistentry/technology_partner__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

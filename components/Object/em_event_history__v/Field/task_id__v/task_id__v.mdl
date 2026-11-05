@@ -1,0 +1,19 @@
+Field task_id__v (
+   label('Task Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used to capture the Task Id that is assigned'),
+   list_column(false),
+   order(48),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

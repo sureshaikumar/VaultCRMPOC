@@ -1,0 +1,6 @@
+Picklistentry it-ag__v (
+   value('Agrigento'),
+   order(2175),
+   active(true),
+   controlling_entries('it__v')
+);

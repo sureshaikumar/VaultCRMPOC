@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation email_lifecycle_complete_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.email_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.processed__sys'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

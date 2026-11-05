@@ -1,0 +1,6 @@
+Picklistentry us-ga__v (
+   value('Georgia'),
+   order(4802),
+   active(true),
+   controlling_entries('us__v')
+);

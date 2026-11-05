@@ -1,0 +1,6 @@
+Message build_target_list_info__v (
+   label(),
+   active(true),
+   default_value('Build a list of Accounts to get started'),
+   system_managed(false)
+);

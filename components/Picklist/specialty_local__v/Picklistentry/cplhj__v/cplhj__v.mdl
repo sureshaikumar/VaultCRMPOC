@@ -1,0 +1,11 @@
+Picklistentry cplhj__v (
+   value('Clinical Pharmacy'),
+   order(284),
+   active(true),
+   controlling_entries('ba__v',
+         'bg__v',
+         'me__v',
+         'pl__v',
+         'ro__v',
+         'rs__v')
+);

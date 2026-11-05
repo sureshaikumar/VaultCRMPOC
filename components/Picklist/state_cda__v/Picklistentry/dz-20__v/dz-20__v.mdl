@@ -1,0 +1,6 @@
+Picklistentry dz-20__v (
+   value('Saïda'),
+   order(1001),
+   active(true),
+   controlling_entries('dz__v')
+);

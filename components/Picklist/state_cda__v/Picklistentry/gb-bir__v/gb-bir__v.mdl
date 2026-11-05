@@ -1,0 +1,6 @@
+Picklistentry gb-bir__v (
+   value('Birmingham'),
+   order(1466),
+   active(true),
+   controlling_entries('gb__v')
+);

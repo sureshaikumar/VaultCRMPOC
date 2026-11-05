@@ -1,0 +1,18 @@
+Field media_processed__v (
+   label('Media Processed'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the CLM content download completed successfully.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

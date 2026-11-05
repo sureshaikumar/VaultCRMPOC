@@ -1,0 +1,6 @@
+Picklistentry ga-8__v (
+   value('Ogooué-Maritime'),
+   order(1446),
+   active(true),
+   controlling_entries('ga__v')
+);

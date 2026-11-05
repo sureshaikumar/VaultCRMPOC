@@ -1,0 +1,6 @@
+Picklistentry paamh__v (
+   value('Pediatric and Adolescent Mental Health and Diseases'),
+   order(1324),
+   active(true),
+   controlling_entries('tr__v')
+);

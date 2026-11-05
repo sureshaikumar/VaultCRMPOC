@@ -1,0 +1,9 @@
+Typefield orientation__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.planogram_line_orientation__v.0__v',
+         'Picklist.planogram_line_orientation__v.180__v',
+         'Picklist.planogram_line_orientation__v.270__v',
+         'Picklist.planogram_line_orientation__v.90__v'),
+   default_value('Picklist.planogram_line_orientation__v.0__v')
+);

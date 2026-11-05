@@ -1,0 +1,6 @@
+Message performance__v (
+   label(),
+   active(true),
+   default_value('Performance'),
+   system_managed(false)
+);

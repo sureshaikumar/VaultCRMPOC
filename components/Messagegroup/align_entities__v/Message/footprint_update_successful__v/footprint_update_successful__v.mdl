@@ -1,0 +1,6 @@
+Message footprint_update_successful__v (
+   label(),
+   active(true),
+   default_value('Footprint update completed for ${entity_name}'),
+   system_managed(false)
+);

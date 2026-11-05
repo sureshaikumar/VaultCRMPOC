@@ -1,0 +1,6 @@
+Message toggle_sidebar__v (
+   label(),
+   active(true),
+   default_value('Toggle sidebar visibility'),
+   system_managed(false)
+);

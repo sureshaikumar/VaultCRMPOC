@@ -1,0 +1,18 @@
+Field degree_1_cda__v (
+   label('Primary Medical Degree'),
+   type('Picklist'),
+   active(true),
+   description('The primary medical qualification or degree obtained.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(159),
+   multi_value(false),
+   picklist('Picklist.degree_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

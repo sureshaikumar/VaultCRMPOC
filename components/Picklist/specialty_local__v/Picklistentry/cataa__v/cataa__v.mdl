@@ -1,0 +1,7 @@
+Picklistentry cataa__v (
+   value('Cardiovascular and Thoracic Anesthesia'),
+   order(175),
+   active(true),
+   controlling_entries('rs__v',
+         'th__v')
+);

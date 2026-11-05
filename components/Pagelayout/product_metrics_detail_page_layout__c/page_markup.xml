@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.product_metrics__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="awareness__c" />
+            <vault:field reference="engagements__c" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="formulary_status__c" />
+            <vault:field reference="investigator_readiness__c" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="movement__c" />
+            <vault:field reference="selling_stage__c" />
+            <vault:field reference="speaker_skills__c" />
+            <vault:field reference="x12_mo_trx_chg__c" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="location_child__v" />
+            <vault:field reference="location_parent__v" />
+            <vault:field reference="location__v" />
+            <vault:field reference="products__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

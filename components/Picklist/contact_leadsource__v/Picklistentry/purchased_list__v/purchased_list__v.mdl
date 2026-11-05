@@ -1,0 +1,5 @@
+Picklistentry purchased_list__v (
+   value('Purchased ListSE'),
+   order(3),
+   active(true)
+);

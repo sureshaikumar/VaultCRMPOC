@@ -1,0 +1,5 @@
+Picklistentry wechat__v (
+   value('WeChat'),
+   order(0),
+   active(false)
+);

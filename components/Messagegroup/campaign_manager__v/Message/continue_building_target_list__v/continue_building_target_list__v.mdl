@@ -1,0 +1,6 @@
+Message continue_building_target_list__v (
+   label(),
+   active(true),
+   default_value('Continue Building Target List'),
+   system_managed(false)
+);

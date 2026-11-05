@@ -1,0 +1,6 @@
+Picklistentry iq-di__v (
+   value('Diyālá'),
+   order(2039),
+   active(true),
+   controlling_entries('iq__v')
+);

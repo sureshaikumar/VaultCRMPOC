@@ -1,0 +1,5 @@
+Picklistentry mseo__v (
+   value('Medical Society'),
+   order(151),
+   active(true)
+);

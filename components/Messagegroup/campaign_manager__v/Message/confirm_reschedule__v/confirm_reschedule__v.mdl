@@ -1,0 +1,6 @@
+Message confirm_reschedule__v (
+   label(),
+   active(true),
+   default_value('Confirm Reschedule'),
+   system_managed(false)
+);

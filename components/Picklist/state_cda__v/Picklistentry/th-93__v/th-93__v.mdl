@@ -1,0 +1,6 @@
+Picklistentry th-93__v (
+   value('Phatthalung'),
+   order(4401),
+   active(true),
+   controlling_entries('th__v')
+);

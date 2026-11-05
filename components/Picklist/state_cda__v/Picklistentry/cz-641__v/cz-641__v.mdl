@@ -1,0 +1,6 @@
+Picklistentry cz-641__v (
+   value('Blansko'),
+   order(878),
+   active(true),
+   controlling_entries('cz__v')
+);

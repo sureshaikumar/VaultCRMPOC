@@ -1,0 +1,6 @@
+Picklistentry sc-10__v (
+   value('Bel Ombre'),
+   order(3910),
+   active(true),
+   controlling_entries('sc__v')
+);

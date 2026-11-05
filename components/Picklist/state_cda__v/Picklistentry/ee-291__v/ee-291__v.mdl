@@ -1,0 +1,6 @@
+Picklistentry ee-291__v (
+   value('Kastre'),
+   order(1080),
+   active(true),
+   controlling_entries('ee__v')
+);

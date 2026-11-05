@@ -1,0 +1,6 @@
+Picklistentry it-to__v (
+   value('Turin'),
+   order(2267),
+   active(true),
+   controlling_entries('it__v')
+);

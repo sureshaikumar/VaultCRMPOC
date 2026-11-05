@@ -1,0 +1,6 @@
+Message restricted__v (
+   label(),
+   active(true),
+   default_value('[Restricted]'),
+   system_managed(false)
+);

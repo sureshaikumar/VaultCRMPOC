@@ -1,0 +1,6 @@
+Message approval_required_by_datetime_to_send__v (
+   label(),
+   active(true),
+   default_value('Your approval is required by ${date} at ${time_of_day} in order to send'),
+   system_managed(false)
+);

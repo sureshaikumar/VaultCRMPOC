@@ -1,0 +1,6 @@
+Message campaign_is_processing__v (
+   label(),
+   active(true),
+   default_value('Campaign is processing'),
+   system_managed(false)
+);

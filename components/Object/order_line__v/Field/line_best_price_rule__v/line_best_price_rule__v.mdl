@@ -1,0 +1,18 @@
+Field line_best_price_rule__v (
+   label('Line Best Rule'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Shows and stores the pricing cluster that triggered Best Price discount at the line level'),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.order_line_line_best_price_rule__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

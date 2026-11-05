@@ -1,0 +1,5 @@
+Picklistentry 10860__v (
+   value('Alice, TX Micropolitan Statistical Area'),
+   order(602),
+   active(true)
+);

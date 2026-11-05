@@ -1,0 +1,6 @@
+Picklistentry ph-cat__v (
+   value('Catanduanes'),
+   order(3555),
+   active(true),
+   controlling_entries('ph__v')
+);

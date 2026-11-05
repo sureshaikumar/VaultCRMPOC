@@ -1,0 +1,5 @@
+Picklistentry mc_cycle_product__v (
+   value('mc_cycle_product__v'),
+   order(9),
+   active(true)
+);

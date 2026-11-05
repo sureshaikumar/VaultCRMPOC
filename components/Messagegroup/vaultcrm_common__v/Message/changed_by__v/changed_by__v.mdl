@@ -1,0 +1,6 @@
+Message changed_by__v (
+   label(),
+   active(true),
+   default_value('Changed By'),
+   system_managed(false)
+);

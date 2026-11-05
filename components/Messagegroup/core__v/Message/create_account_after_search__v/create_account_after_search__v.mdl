@@ -1,0 +1,6 @@
+Message create_account_after_search__v (
+   label(),
+   active(true),
+   default_value('If you can''t find the intended account, you can create one.'),
+   system_managed(false)
+);

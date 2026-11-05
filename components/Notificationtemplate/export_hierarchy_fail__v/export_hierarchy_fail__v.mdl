@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate export_hierarchy_fail__v (
+   label('Export Hierarchy Failure'),
+   active(true),
+   description('Message template for use with the unsuccessful completion of the hierarchy export. '),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Export of ${hierarchyRootName} failed to complete.'),
+   notification('<p>An error occurred while trying to prepare your export ${hierarchyRootName} for download. Please see notification email for details.</p>'),
+   email_body('<p>An error occurred while trying to prepare your export ${hierarchyRootName} for download. Please contact your Vault Administrator.</p>
+<p>${hierarchyExportErrorMessage}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

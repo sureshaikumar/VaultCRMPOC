@@ -1,0 +1,6 @@
+Picklistentry pw-370__v (
+   value('Sonsorol'),
+   order(3689),
+   active(true),
+   controlling_entries('pw__v')
+);

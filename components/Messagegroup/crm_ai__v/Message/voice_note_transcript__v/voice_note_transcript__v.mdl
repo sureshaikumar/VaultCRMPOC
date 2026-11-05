@@ -1,0 +1,6 @@
+Message voice_note_transcript__v (
+   label(),
+   active(true),
+   default_value('Transcript'),
+   system_managed(false)
+);

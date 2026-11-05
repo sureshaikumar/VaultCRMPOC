@@ -1,0 +1,6 @@
+Picklistentry ke-12__v (
+   value('Kericho'),
+   order(2365),
+   active(true),
+   controlling_entries('ke__v')
+);

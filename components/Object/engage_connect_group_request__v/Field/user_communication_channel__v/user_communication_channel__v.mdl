@@ -1,0 +1,22 @@
+Field user_communication_channel__v (
+   label('User Communication Channel'),
+   type('Picklist'),
+   active(true),
+   description('Determines how users and HCPs can communicate with one another in Engage. Available values are:
+
+Ping – HCPs can send a message from the app to a user. The message is delivered via email to the user.
+Chat – HCPs and users can send chat messages in the app'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.engage_connec_user_communication_channel__v'),
+   default_value('{off__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,15 @@
+RECREATE Layoutrule sample_inventory_detail_page_layout1__c.inventory_for_read_only__c (
+   active(true),
+   description('Layout rule to make Inventory For read only when Sample Inventory Status is Saved or Submitted.'),
+   displayed_as_readonly_fields('inventory_for__v'),
+   displayed_as_required_fields(),
+   expression('not(IsBlank(created_date__v))'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Inventory For read only'),
+   order(200)
+);

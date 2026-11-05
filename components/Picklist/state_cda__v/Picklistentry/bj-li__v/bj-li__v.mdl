@@ -1,0 +1,6 @@
+Picklistentry bj-li__v (
+   value('Littoral'),
+   order(430),
+   active(true),
+   controlling_entries('bj__v')
+);

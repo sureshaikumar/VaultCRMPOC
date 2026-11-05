@@ -1,0 +1,10 @@
+Vsmvalue gyd__v (
+   label('GYD'),
+   active(true),
+   description('The Guyanese Dollar (GYD), the official currency of Guyana, used for transactions and financial records involving business operations in Guyana.'),
+   synonyms('Guyanese dollar',
+         'Guyana dollar',
+         'Guyana currency'),
+   target('gyd__sys'),
+   target_label('GYD')
+);

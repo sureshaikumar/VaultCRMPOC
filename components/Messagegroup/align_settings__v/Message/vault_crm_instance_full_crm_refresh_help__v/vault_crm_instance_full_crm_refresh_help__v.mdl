@@ -1,0 +1,6 @@
+Message vault_crm_instance_full_crm_refresh_help__v (
+   label(),
+   active(true),
+   default_value('Setting this field to Yes imports every record from all supported<br/>CRM objects regardless of the CRM record''s Last Modified Date.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message suggested_attendees__v (
+   label(),
+   active(true),
+   default_value('Suggested ${object_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry cg-11__v (
+   value('Bouenza'),
+   order(615),
+   active(true),
+   controlling_entries('cg__v')
+);

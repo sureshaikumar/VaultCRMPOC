@@ -1,0 +1,6 @@
+Picklistentry iq-su__v (
+   value('As Sulaymānīyah'),
+   order(2050),
+   active(true),
+   controlling_entries('iq__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry product_create_status__c (
+   value('product_create_status'),
+   order(3),
+   active(true)
+);

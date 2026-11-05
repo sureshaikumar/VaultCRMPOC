@@ -1,0 +1,18 @@
+Field primary_activity__v (
+   label('Primary Activity '),
+   type('Picklist'),
+   active(true),
+   description('Describes the primary activity related to the record'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(23),
+   multi_value(false),
+   picklist('Picklist.primary_activity__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

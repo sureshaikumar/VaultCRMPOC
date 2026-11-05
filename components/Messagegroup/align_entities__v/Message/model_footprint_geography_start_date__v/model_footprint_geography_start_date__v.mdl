@@ -1,0 +1,6 @@
+Message model_footprint_geography_start_date__v (
+   label(),
+   active(true),
+   default_value('Child Model Footprint Geography cannot begin earlier than Model Footprint''s Start Date: ${footprint_geography_name} (${footprint_geography_id}).'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field crm_user_type__v (
+   label('CRM User Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates the user group this user most closely resembles. This list is used to drive standard CRM User metrics and is therefore not customizable.'),
+   list_column(false),
+   order(152),
+   multi_value(false),
+   picklist('Picklist.user_user_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

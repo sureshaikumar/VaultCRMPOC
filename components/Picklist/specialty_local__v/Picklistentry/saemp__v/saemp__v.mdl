@@ -1,0 +1,9 @@
+Picklistentry saemp__v (
+   value('Sport and Exercise Medicine'),
+   order(1797),
+   active(true),
+   controlling_entries('au__v',
+         'gb__v',
+         'ie__v',
+         'nz__v')
+);

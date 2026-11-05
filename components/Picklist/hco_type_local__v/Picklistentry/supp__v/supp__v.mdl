@@ -1,0 +1,5 @@
+Picklistentry supp__v (
+   value('Supplier'),
+   order(249),
+   active(true)
+);

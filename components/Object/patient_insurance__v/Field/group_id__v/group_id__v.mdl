@@ -1,0 +1,19 @@
+Field group_id__v (
+   label('Group ID'),
+   type('String'),
+   active(true),
+   description('Group ID of the patient'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(true),
+   order(9),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

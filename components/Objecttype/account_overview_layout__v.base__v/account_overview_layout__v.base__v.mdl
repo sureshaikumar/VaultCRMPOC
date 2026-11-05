@@ -1,0 +1,23 @@
+RECREATE Objecttype account_overview_layout__v.base__v (
+   label('Base Account Overview Layout'),
+   label_plural('Base Account Overview Layouts'),
+   active(false),
+   description(),
+   additional_type_validations(),
+   default_type(false),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/legacy_crm_id__v.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/mobile_id__v.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/object_type__v.mdl),
+   Typefield(@Typefield/ownerid__v.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

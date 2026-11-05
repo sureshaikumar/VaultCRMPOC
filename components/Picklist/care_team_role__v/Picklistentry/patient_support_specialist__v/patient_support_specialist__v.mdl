@@ -1,0 +1,5 @@
+Picklistentry patient_support_specialist__v (
+   value('Patient Support Specialist'),
+   order(3),
+   active(true)
+);

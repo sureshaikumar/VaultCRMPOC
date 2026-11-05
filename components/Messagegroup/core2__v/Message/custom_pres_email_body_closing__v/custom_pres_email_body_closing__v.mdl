@@ -1,0 +1,6 @@
+Message custom_pres_email_body_closing__v (
+   label(),
+   active(true),
+   default_value('If you have questions, please reply to this email.'),
+   system_managed(false)
+);

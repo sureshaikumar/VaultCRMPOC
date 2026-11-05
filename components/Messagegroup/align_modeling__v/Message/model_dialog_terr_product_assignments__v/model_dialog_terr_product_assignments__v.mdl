@@ -1,0 +1,6 @@
+Message model_dialog_terr_product_assignments__v (
+   label(),
+   active(true),
+   default_value('Model Territory Product Assignments'),
+   system_managed(false)
+);

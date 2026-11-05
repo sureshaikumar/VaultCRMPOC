@@ -1,0 +1,6 @@
+Picklistentry pcpso__v (
+   value('Psychiatry Community Psychiatry'),
+   order(1616),
+   active(true),
+   controlling_entries('id__v')
+);

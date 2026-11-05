@@ -1,0 +1,6 @@
+Picklistentry tr-03__v (
+   value('Afyonkarahisar'),
+   order(4461),
+   active(true),
+   controlling_entries('tr__v')
+);

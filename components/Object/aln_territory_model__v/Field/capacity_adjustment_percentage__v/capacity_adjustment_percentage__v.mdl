@@ -1,0 +1,23 @@
+Field capacity_adjustment_percentage__v (
+   label('Capacity Adjustment %'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Used in territory feedback for utilization calculation'),
+   required(false),
+   unique(false),
+   max_value(10),
+   min_value(0),
+   scale(4),
+   help_content('Used in territory feedback for utilization calculation'),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

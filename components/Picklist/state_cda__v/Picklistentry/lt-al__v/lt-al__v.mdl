@@ -1,0 +1,6 @@
+Picklistentry lt-al__v (
+   value('Alytus County'),
+   order(2679),
+   active(true),
+   controlling_entries('lt__v')
+);

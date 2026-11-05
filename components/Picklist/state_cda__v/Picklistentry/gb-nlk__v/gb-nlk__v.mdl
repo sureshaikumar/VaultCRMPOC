@@ -1,0 +1,6 @@
+Picklistentry gb-nlk__v (
+   value('North Lanarkshire'),
+   order(1580),
+   active(true),
+   controlling_entries('gb__v')
+);

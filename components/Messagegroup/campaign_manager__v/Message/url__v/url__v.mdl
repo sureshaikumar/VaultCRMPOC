@@ -1,0 +1,6 @@
+Message url__v (
+   label(),
+   active(true),
+   default_value('URL'),
+   system_managed(false)
+);

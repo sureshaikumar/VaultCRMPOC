@@ -1,0 +1,9 @@
+RECREATE Picklist application_target__v (
+   label('Application Target'),
+   active(true),
+   Picklistentry(@Picklistentry/campaign_manager__v.mdl),
+   Picklistentry(@Picklistentry/patient_center__v.mdl),
+   Picklistentry(@Picklistentry/service_center__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

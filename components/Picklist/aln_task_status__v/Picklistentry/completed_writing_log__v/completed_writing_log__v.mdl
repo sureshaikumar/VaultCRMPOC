@@ -1,0 +1,5 @@
+Picklistentry completed_writing_log__v (
+   value('Completed Writing Log'),
+   order(8),
+   active(true)
+);

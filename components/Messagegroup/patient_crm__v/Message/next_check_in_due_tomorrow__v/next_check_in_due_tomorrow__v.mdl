@@ -1,0 +1,6 @@
+Message next_check_in_due_tomorrow__v (
+   label(),
+   active(true),
+   default_value('Next Check-In due Tomorrow'),
+   system_managed(false)
+);

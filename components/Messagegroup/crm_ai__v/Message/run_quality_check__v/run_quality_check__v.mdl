@@ -1,0 +1,6 @@
+Message run_quality_check__v (
+   label(),
+   active(true),
+   default_value('Run Quality Check'),
+   system_managed(false)
+);

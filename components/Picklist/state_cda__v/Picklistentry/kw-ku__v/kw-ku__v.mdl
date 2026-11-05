@@ -1,0 +1,6 @@
+Picklistentry kw-ku__v (
+   value('Al Kuwayt (Al ٰĀşimah)'),
+   order(2491),
+   active(true),
+   controlling_entries('kw__v')
+);

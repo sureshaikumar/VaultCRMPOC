@@ -1,0 +1,17 @@
+Field allow_anonymous_responses__v (
+   label('Allow anonymous response?'),
+   type('Boolean'),
+   active(true),
+   description('If Yes, allow Survey Target to be executed without association to an Account'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(44),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

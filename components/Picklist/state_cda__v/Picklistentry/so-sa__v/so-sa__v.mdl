@@ -1,0 +1,6 @@
+Picklistentry so-sa__v (
+   value('Sanaag'),
+   order(4235),
+   active(true),
+   controlling_entries('so__v')
+);

@@ -1,0 +1,18 @@
+Field dispense_status__v (
+   label('Dispense Status'),
+   type('Picklist'),
+   active(true),
+   description('The code or value that tracks the current state of the prescription fulfillment process.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(28),
+   multi_value(false),
+   picklist('Picklist.patient_prescription_dispense_status__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

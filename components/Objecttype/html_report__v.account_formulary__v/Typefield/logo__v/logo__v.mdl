@@ -1,0 +1,4 @@
+Typefield logo__v (
+   source('custom'),
+   required(false)
+);

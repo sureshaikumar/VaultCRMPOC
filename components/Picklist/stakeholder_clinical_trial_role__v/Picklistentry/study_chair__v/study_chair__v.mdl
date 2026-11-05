@@ -1,0 +1,5 @@
+Picklistentry study_chair__v (
+   value('Study_Chair'),
+   order(1),
+   active(true)
+);

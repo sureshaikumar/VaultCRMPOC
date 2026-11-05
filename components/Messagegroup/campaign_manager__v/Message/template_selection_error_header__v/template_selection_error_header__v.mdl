@@ -1,0 +1,6 @@
+Message template_selection_error_header__v (
+   label(),
+   active(true),
+   default_value('Template Selection Error'),
+   system_managed(false)
+);

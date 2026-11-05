@@ -1,0 +1,7 @@
+Picklistentry ehnev__v (
+   value('Environmental Health'),
+   order(518),
+   active(true),
+   controlling_entries('my__v',
+         'tr__v')
+);

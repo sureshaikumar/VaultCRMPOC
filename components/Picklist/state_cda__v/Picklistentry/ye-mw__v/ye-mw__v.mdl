@@ -1,0 +1,6 @@
+Picklistentry ye-mw__v (
+   value('Al Maḩwīt'),
+   order(5009),
+   active(true),
+   controlling_entries('ye__v')
+);

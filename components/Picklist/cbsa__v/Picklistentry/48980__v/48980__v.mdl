@@ -1,0 +1,5 @@
+Picklistentry 48980__v (
+   value('Wilson, NC Micropolitan Statistical Area'),
+   order(476),
+   active(true)
+);

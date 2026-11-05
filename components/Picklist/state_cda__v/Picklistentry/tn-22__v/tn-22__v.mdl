@@ -1,0 +1,6 @@
+Picklistentry tn-22__v (
+   value('Zaghouan'),
+   order(4435),
+   active(true),
+   controlling_entries('tn__v')
+);

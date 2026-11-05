@@ -1,0 +1,6 @@
+Picklistentry hu-va__v (
+   value('Vas'),
+   order(1911),
+   active(true),
+   controlling_entries('hu__v')
+);

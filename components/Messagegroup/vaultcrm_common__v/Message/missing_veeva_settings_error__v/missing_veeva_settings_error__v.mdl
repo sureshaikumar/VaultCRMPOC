@@ -1,0 +1,6 @@
+Message missing_veeva_settings_error__v (
+   label(),
+   active(true),
+   default_value('No Veeva Settings record found'),
+   system_managed(false)
+);

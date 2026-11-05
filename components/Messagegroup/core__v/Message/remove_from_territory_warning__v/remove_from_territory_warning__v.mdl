@@ -1,0 +1,6 @@
+Message remove_from_territory_warning__v (
+   label(),
+   active(true),
+   default_value('Removing this account can cause other related accounts to be removed from your territory. Please note that this request may require approval.'),
+   system_managed(false)
+);

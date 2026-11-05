@@ -1,0 +1,6 @@
+Picklistentry pidai__v (
+   value('Pediatric Infectious Diseases and Immunology'),
+   order(1399),
+   active(true),
+   controlling_entries('mt__v')
+);

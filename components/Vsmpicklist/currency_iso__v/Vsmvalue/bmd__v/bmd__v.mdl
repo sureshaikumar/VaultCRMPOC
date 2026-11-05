@@ -1,0 +1,9 @@
+Vsmvalue bmd__v (
+   label('BMD'),
+   active(true),
+   description('The Bermudian Dollar (BMD), the official currency of Bermuda, pegged at parity with the US Dollar.'),
+   synonyms('Bermudian dollar',
+         'Bermuda currency'),
+   target('bmd__sys'),
+   target_label('BMD')
+);

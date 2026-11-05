@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout original_source__v (
+   label('Original Source'),
+   active(true),
+   icon('UNDEFINED'),
+   order(19),
+   fields(),
+   show_in_edit_mode(false),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_relationships__sys')
+);

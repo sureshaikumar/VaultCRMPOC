@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_lot__v.non_sample_lot_name__v (
+   label('Non Sample Lot Name'),
+   active(true),
+   expression('not(suppress_lot__v) || (name__v = "No_Lot_vod")'),
+   description('Ensures that a value of No_Lot_vod is input into the Lot # feld when creating a Sample Lot record for a non-Sample product that has no associated Lot #s.'),
+   error_message('Lot # field must contain the value "No_Lot_vod" for a non-Sample product with no Lot #.'),
+   error_location('name__v')
+);

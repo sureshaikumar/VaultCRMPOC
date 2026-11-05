@@ -1,0 +1,21 @@
+RECREATE Objecttype vfm_file_security_policy__v.base__v (
+   label('Base VFM File Security Policy'),
+   label_plural('Base VFM File Security Policies'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/file_extensions__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/status__v.mdl),
+   Typefield(@Typefield/vfm_file_security_policy_type__v.mdl)
+);

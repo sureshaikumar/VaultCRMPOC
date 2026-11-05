@@ -1,0 +1,6 @@
+Picklistentry gn-ml__v (
+   value('Mali'),
+   order(1747),
+   active(true),
+   controlling_entries('gn__v')
+);

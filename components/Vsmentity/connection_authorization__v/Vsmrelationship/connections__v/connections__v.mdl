@@ -1,0 +1,13 @@
+Vsmrelationship connections__v (
+   label('Connections'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('The connections that reference this connection authorization. Use this to find all connection objects authorized by this record (e.g., connections__sysr.name__v to retrieve connection names).'),
+   join_object(),
+   synonyms('linked connections',
+         'associated connections',
+         'connections using this auth'),
+   target('connections__sysr'),
+   target_label('Connections'),
+   target_object('connection__sys')
+);

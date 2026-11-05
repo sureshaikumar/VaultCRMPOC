@@ -1,0 +1,6 @@
+Picklistentry af-fyb__v (
+   value('Fāryāb'),
+   order(21),
+   active(true),
+   controlling_entries('af__v')
+);

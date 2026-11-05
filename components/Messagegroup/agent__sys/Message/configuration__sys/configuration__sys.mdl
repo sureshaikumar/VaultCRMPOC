@@ -1,0 +1,6 @@
+Message configuration__sys (
+   label(),
+   active(true),
+   default_value('Configuration'),
+   system_managed(true)
+);

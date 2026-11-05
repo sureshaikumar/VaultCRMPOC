@@ -1,0 +1,5 @@
+Picklistentry jrb (
+   value('Judeo-Arabic'),
+   order(207),
+   active(true)
+);

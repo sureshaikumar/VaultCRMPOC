@@ -1,0 +1,20 @@
+Field preferred_email_search__v (
+   label('Preferred Email Search'),
+   type('String'),
+   active(true),
+   description('Defines up to 5 fields that the Console Application uses to search by email address, in the order listed. Enter as a double semicolon (;;)-delimited list, for example: objectname__v.fieldname__v;;objectname__v.fieldname__v. See the Service Center or Patient Center documentation for details.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(28),
+   default_value('"account__v.email_cda__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

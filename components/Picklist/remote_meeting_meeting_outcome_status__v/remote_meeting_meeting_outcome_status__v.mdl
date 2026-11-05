@@ -1,0 +1,14 @@
+RECREATE Picklist remote_meeting_meeting_outcome_status__v (
+   label('Meeting Outcome Status'),
+   active(true),
+   Picklistentry(@Picklistentry/meeting_not_scheduled__v.mdl),
+   Picklistentry(@Picklistentry/meeting_not_started__v.mdl),
+   Picklistentry(@Picklistentry/meeting_started_details_not_available__v.mdl),
+   Picklistentry(@Picklistentry/meeting_started_without_attendees__v.mdl),
+   Picklistentry(@Picklistentry/meeting_started_with_attendees__v.mdl),
+   Picklistentry(@Picklistentry/meeting_started_with_speakers_only__v.mdl),
+   Picklistentry(@Picklistentry/meeting_with_internal_users_only__v.mdl),
+   Picklistentry(@Picklistentry/meeting_not_started_and_attendees_joined__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

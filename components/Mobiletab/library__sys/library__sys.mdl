@@ -1,0 +1,9 @@
+RECREATE Mobiletab library__sys (
+   label('Library'),
+   active(true),
+   icon('vv_library'),
+   minimum_app_version(),
+   mobile_label('Library'),
+   order(1),
+   page()
+);

@@ -1,0 +1,6 @@
+Message unable_to_update_external_id__v (
+   label(),
+   active(true),
+   default_value('Unable to update external id for email type record'),
+   system_managed(false)
+);

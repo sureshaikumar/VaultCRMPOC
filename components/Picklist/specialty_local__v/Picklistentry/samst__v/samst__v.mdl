@@ -1,0 +1,10 @@
+Picklistentry samst__v (
+   value('Stomatology and Maxillofacial Surgery'),
+   order(1806),
+   active(true),
+   controlling_entries('cm__v',
+         'fr__v',
+         'ma__v',
+         'mc__v',
+         'tn__v')
+);

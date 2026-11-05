@@ -1,0 +1,6 @@
+Picklistentry cdoen__v (
+   value('Conservative Dentistry'),
+   order(327),
+   active(true),
+   controlling_entries('kr__v')
+);

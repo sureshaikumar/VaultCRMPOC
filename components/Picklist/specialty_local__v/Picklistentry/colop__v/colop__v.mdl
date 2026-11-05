@@ -1,0 +1,6 @@
+Picklistentry colop__v (
+   value('Coloproctology'),
+   order(301),
+   active(true),
+   controlling_entries('cz__v')
+);

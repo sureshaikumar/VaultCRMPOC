@@ -1,0 +1,5 @@
+Picklistentry eli_lilly_and_company__v (
+   value('Eli Lilly and Company'),
+   order(14),
+   active(true)
+);

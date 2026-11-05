@@ -1,0 +1,6 @@
+Picklistentry gq-cs__v (
+   value('Centro Sur'),
+   order(1760),
+   active(true),
+   controlling_entries('gq__v')
+);

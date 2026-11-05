@@ -1,0 +1,6 @@
+Message import_territory__v (
+   label(),
+   active(true),
+   default_value('Territory Import'),
+   system_managed(false)
+);

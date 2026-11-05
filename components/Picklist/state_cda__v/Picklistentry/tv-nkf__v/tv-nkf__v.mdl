@@ -1,0 +1,6 @@
+Picklistentry tv-nkf__v (
+   value('Nukufetau'),
+   order(4557),
+   active(true),
+   controlling_entries('tv__v')
+);

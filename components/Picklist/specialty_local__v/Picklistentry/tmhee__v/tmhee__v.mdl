@@ -1,0 +1,6 @@
+Picklistentry tmhee__v (
+   value('Thermal Medicine'),
+   order(1833),
+   active(true),
+   controlling_entries('it__v')
+);

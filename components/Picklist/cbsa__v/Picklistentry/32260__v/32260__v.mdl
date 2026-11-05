@@ -1,0 +1,5 @@
+Picklistentry 32260__v (
+   value('Marshalltown, IA Micropolitan Statistical Area'),
+   order(675),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message starting_call_loading__v (
+   label(),
+   active(true),
+   default_value('Starting...'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field join_time__v (
+   label('Join Time'),
+   type('DateTime'),
+   active(true),
+   description('Date and time of when the attendee joined the meeting'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

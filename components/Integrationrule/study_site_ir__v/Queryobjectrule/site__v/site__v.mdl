@@ -1,0 +1,6 @@
+Queryobjectrule site__v (
+   label('Study Site'),
+   active(true),
+   filter_clause([modified_date__v >= '{{STARTDATETIME}}' AND modified_date__v < '{{ENDDATETIME}}']),
+   query_object('site__v')
+);

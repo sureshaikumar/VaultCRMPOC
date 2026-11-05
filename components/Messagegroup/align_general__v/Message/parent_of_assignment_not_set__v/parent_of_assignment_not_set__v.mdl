@@ -1,0 +1,6 @@
+Message parent_of_assignment_not_set__v (
+   label(),
+   active(true),
+   default_value('Parent of assignment is not set'),
+   system_managed(false)
+);

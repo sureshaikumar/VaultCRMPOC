@@ -1,0 +1,9 @@
+Picklistentry lduin__v (
+   value('Lung Diseases'),
+   order(868),
+   active(true),
+   controlling_entries('il__v',
+         'no__v',
+         'pl__v',
+         'se__v')
+);

@@ -1,0 +1,17 @@
+Field trigger_auto_match__v (
+   label('Auto Match'),
+   type('Boolean'),
+   active(true),
+   description('Setting to flag walk-in field for Attendee Reconciliation auto-match. If checked, walk-in field will trigger a Reconciliation Auto Match.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

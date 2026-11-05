@@ -1,0 +1,5 @@
+Picklistentry de__v (
+   value('DE'),
+   order(26),
+   active(true)
+);

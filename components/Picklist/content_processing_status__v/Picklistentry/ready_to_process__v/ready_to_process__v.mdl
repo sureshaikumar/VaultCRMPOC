@@ -1,0 +1,5 @@
+Picklistentry ready_to_process__v (
+   value('Ready to Process'),
+   order(0),
+   active(true)
+);

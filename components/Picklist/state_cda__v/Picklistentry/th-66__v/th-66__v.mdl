@@ -1,0 +1,6 @@
+Picklistentry th-66__v (
+   value('Phichit'),
+   order(4381),
+   active(true),
+   controlling_entries('th__v')
+);

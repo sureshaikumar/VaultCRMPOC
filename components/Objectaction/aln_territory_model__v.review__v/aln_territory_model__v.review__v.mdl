@@ -1,0 +1,8 @@
+RECREATE Objectaction aln_territory_model__v.review__v (
+   label('Review'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.align.actions.ReviewAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,7 @@
+Picklistentry ohanx__v (
+   value('Otolaryngology - Head and Neck Surgery'),
+   order(1230),
+   active(true),
+   controlling_entries('au__v',
+         'ca__v')
+);

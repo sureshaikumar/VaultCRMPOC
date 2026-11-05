@@ -1,0 +1,6 @@
+Message disconnection_failed__v (
+   label(),
+   active(true),
+   default_value('Disconnection Failed'),
+   system_managed(false)
+);

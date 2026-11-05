@@ -1,0 +1,18 @@
+Field meal_expense__v (
+   label('Meal Expense'),
+   type('Boolean'),
+   active(true),
+   description('Used to identify which expense types are included in meal cost calculations.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

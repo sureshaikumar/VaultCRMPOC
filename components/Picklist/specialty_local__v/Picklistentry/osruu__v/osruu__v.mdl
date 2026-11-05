@@ -1,0 +1,10 @@
+Picklistentry osruu__v (
+   value('Orthopaedic Surgery'),
+   order(1196),
+   active(true),
+   controlling_entries('au__v',
+         'my__v',
+         'nz__v',
+         'pk__v',
+         'sg__v')
+);

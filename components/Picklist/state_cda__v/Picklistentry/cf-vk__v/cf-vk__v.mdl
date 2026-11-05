@@ -1,0 +1,6 @@
+Picklistentry cf-vk__v (
+   value('Vakaga'),
+   order(614),
+   active(true),
+   controlling_entries('cf__v')
+);

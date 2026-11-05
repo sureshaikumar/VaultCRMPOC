@@ -1,0 +1,6 @@
+Picklistentry lv-002__v (
+   value('Aizkraukles novads'),
+   order(2701),
+   active(true),
+   controlling_entries('lv__v')
+);

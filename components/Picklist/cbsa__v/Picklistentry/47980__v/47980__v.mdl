@@ -1,0 +1,5 @@
+Picklistentry 47980__v (
+   value('Watertown, SD Micropolitan Statistical Area'),
+   order(336),
+   active(true)
+);

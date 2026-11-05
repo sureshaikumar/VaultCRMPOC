@@ -1,0 +1,7 @@
+Picklistentry paaha__v (
+   value('Pediatric and Adolescent Hematology and Oncology'),
+   order(1323),
+   active(true),
+   controlling_entries('de__v',
+         'se__v')
+);

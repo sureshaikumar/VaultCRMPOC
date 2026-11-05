@@ -1,0 +1,5 @@
+Index created_date_v__sys (
+   description(),
+   fields('created_date__v'),
+   label('Created Date')
+);

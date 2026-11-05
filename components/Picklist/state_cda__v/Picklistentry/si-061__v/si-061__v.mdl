@@ -1,0 +1,6 @@
+Picklistentry si-061__v (
+   value('Ljubljana'),
+   order(4035),
+   active(true),
+   controlling_entries('si__v')
+);

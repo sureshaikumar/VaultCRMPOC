@@ -1,0 +1,5 @@
+Picklistentry 46340__v (
+   value('Tyler, TX Metropolitan Statistical Area'),
+   order(76),
+   active(true)
+);

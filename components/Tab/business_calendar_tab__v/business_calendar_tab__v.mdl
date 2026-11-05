@@ -1,0 +1,12 @@
+RECREATE Tab business_calendar_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Business Calendar'),
+   modal_create_record(false),
+   order(5001),
+   page('Page.business_calendar_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

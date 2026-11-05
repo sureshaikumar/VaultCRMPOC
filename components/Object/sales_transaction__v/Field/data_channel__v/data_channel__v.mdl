@@ -1,0 +1,19 @@
+Field data_channel__v (
+   label('Data Channel'),
+   type('String'),
+   active(true),
+   description('Data Channel is the textual name that maps to the Name field of Analytics Data Channel. This determines the Channel of delivery (Mail Order, Retail, etc.) that corresponds to the Sales Transaction record.'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content(),
+   list_column(false),
+   order(219),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

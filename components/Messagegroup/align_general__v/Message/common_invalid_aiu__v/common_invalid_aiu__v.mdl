@@ -1,0 +1,6 @@
+Message common_invalid_aiu__v (
+   label(),
+   active(true),
+   default_value('Invalid Align Administration User'),
+   system_managed(false)
+);

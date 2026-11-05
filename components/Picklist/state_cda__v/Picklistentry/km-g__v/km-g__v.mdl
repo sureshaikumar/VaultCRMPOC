@@ -1,0 +1,6 @@
+Picklistentry km-g__v (
+   value('Andjazîdja (Anjazījah)'),
+   order(2439),
+   active(true),
+   controlling_entries('km__v')
+);

@@ -1,0 +1,8 @@
+Picklistentry stphe__v (
+   value('Speech Therapy'),
+   order(1792),
+   active(true),
+   controlling_entries('eg__v',
+         'kw__v',
+         'tw__v')
+);

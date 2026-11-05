@@ -1,0 +1,19 @@
+Field territory__v (
+   label('Territory'),
+   type('String'),
+   active(true),
+   description('The Territory of the User at the time the email was sent. If both the User and Account are in more than one common territory, it uses the first territory found.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(40),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

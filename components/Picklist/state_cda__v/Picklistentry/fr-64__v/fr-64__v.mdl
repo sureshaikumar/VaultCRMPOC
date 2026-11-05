@@ -1,0 +1,6 @@
+Picklistentry fr-64__v (
+   value('Pyrénées-Atlantiques'),
+   order(1380),
+   active(true),
+   controlling_entries('fr__v')
+);

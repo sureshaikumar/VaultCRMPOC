@@ -1,0 +1,6 @@
+Picklistentry iq-da__v (
+   value('Dahūk'),
+   order(2038),
+   active(true),
+   controlling_entries('iq__v')
+);

@@ -1,0 +1,19 @@
+Field concur_admin_username__v (
+   label('Concur Admin Username'),
+   type('String'),
+   active(true),
+   description('Storage of the Concur Web Services Admin username.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message crm_integration_validate_vcrm_instance__v (
+   label(),
+   active(true),
+   default_value('Cannot upsert record. Roster Member and CRM Application Role must be associated with the same Vault CRM Instance.'),
+   system_managed(false)
+);

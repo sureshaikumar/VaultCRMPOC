@@ -1,0 +1,5 @@
+Picklistentry 34900__v (
+   value('Napa, CA Metropolitan Statistical Area'),
+   order(201),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field product_bound__v (
+   label('Product Bound'),
+   type('Boolean'),
+   active(true),
+   description('If enabled, only the products associated to this contract via pricing rules will be selectable when creating a new order related to this contract. For inventory monitoring, only products with corresponding Contract Lines can be selected. If disabled, othe'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(28),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

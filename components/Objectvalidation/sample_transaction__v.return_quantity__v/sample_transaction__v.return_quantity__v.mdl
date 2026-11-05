@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_transaction__v.return_quantity__v (
+   label('Return Quantity'),
+   active(true),
+   expression('not(type__v = "return__v") || quantity__v > 0'),
+   description('Quantity value should be greater than zero'),
+   error_message('Error: Quantity > 0'),
+   error_location('quantity__v')
+);

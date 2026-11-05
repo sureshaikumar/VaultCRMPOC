@@ -1,0 +1,6 @@
+Picklistentry vn-01__v (
+   value('Lai Châu'),
+   order(4912),
+   active(true),
+   controlling_entries('vn__v')
+);

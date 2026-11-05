@@ -1,0 +1,6 @@
+Picklistentry phoef__v (
+   value('Pediatric Hematology Oncology'),
+   order(1388),
+   active(true),
+   controlling_entries('pk__v')
+);

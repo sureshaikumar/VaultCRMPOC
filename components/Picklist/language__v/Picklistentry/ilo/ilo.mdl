@@ -1,0 +1,5 @@
+Picklistentry ilo (
+   value('Ilocano'),
+   order(51),
+   active(true)
+);

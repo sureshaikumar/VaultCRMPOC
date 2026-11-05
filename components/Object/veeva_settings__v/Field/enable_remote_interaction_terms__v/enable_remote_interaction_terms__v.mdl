@@ -1,0 +1,18 @@
+Field enable_remote_interaction_terms__v (
+   label('ENABLE_REMOTE_INTERACTION_TERMS'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Enables the display of a terms statement when a remote interaction is initiated using the Specialist button in the iRep media player. Default value is Unchecked.'),
+   list_column(false),
+   order(152),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

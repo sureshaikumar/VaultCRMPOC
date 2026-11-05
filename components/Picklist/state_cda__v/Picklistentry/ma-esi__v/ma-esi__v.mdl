@@ -1,0 +1,6 @@
+Picklistentry ma-esi__v (
+   value('Essaouira'),
+   order(2794),
+   active(true),
+   controlling_entries('ma__v')
+);

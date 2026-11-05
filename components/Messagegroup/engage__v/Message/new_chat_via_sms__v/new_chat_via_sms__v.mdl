@@ -1,0 +1,6 @@
+Message new_chat_via_sms__v (
+   label(),
+   active(true),
+   default_value('New Chat via SMS'),
+   system_managed(false)
+);

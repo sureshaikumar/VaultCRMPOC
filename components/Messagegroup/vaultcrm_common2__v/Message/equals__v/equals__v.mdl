@@ -1,0 +1,6 @@
+Message equals__v (
+   label(),
+   active(true),
+   default_value('Equals'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message vault_crm_instance_product_metrics_tip_4__v (
+   label(),
+   active(true),
+   default_value('Need help with Query Syntax & Structure?'),
+   system_managed(false)
+);

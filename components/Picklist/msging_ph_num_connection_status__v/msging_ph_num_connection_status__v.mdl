@@ -1,0 +1,10 @@
+RECREATE Picklist msging_ph_num_connection_status__v (
+   label('SMS Connection Status'),
+   active(true),
+   Picklistentry(@Picklistentry/connected__v.mdl),
+   Picklistentry(@Picklistentry/failed__v.mdl),
+   Picklistentry(@Picklistentry/deleted__v.mdl),
+   Picklistentry(@Picklistentry/disconnected__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message map_light_map__v (
+   label(),
+   active(true),
+   default_value('Light Map'),
+   system_managed(false)
+);

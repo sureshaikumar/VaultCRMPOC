@@ -1,0 +1,8 @@
+RECREATE Objectaction survey__v.export_results__v (
+   label('Export Results'),
+   description('Allows users to export Survey Results as a spreadsheet file.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.survey.actions.SurveyExportResultsAction'),
+   active(true),
+   available_all_states(true)
+);

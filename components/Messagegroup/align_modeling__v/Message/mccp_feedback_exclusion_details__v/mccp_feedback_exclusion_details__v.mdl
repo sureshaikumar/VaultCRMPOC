@@ -1,0 +1,6 @@
+Message mccp_feedback_exclusion_details__v (
+   label(),
+   active(true),
+   default_value('Exclusion Details'),
+   system_managed(false)
+);

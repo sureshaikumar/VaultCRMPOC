@@ -1,0 +1,5 @@
+Picklistentry cs (
+   value('Czech'),
+   order(4),
+   active(true)
+);

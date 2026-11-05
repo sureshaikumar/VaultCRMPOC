@@ -1,0 +1,11 @@
+Vsmfield created_by__v (
+   label('Created By'),
+   active(true),
+   description('The user who created or assigned the user task'),
+   example_values(),
+   synonyms('Assignor'),
+   target('created_by__v'),
+   target_label('Created By'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

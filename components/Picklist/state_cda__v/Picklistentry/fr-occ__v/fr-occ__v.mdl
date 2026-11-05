@@ -1,0 +1,6 @@
+Picklistentry fr-occ__v (
+   value('Occitanie'),
+   order(1432),
+   active(true),
+   controlling_entries('fr__v')
+);

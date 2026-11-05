@@ -1,0 +1,6 @@
+Message api_endpoint_helper_text__v (
+   label(),
+   active(true),
+   default_value('Send a POST request with a JSON body.'),
+   system_managed(false)
+);

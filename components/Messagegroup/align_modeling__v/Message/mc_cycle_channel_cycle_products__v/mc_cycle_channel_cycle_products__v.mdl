@@ -1,0 +1,6 @@
+Message mc_cycle_channel_cycle_products__v (
+   label(),
+   active(true),
+   default_value('Cycle Products'),
+   system_managed(false)
+);

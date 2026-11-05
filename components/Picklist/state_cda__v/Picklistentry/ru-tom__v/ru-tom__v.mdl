@@ -1,0 +1,6 @@
+Picklistentry ru-tom__v (
+   value('Tomskaya oblast'''),
+   order(3858),
+   active(true),
+   controlling_entries('ru__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout child_event_settings_detail_page_layout__v (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Child Event Settings Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

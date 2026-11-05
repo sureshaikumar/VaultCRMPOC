@@ -1,0 +1,6 @@
+Message vcrm_instance_deactivating_country_warn__v (
+   label(),
+   active(true),
+   default_value('This will prevent Align from pushing this country''s territories and assignments to CRM, unless no other countries are assigned. It will also prevent Align from importing this country''s roster members, self assignments and "remove from territory" requests.'),
+   system_managed(false)
+);

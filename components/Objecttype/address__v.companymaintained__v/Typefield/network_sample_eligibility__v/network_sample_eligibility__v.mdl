@@ -1,0 +1,6 @@
+Typefield network_sample_eligibility__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_network_sample_eligibility__v.eligible__v',
+         'Picklist.address_network_sample_eligibility__v.ineligible__v')
+);

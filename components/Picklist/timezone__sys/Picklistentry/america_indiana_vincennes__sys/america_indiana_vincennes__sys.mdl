@@ -1,0 +1,5 @@
+Picklistentry america_indiana_vincennes__sys (
+   value('(GMT-05:00) Eastern Standard Time (America/Indiana/Vincennes)'),
+   order(68),
+   active(true)
+);

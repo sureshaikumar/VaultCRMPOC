@@ -1,0 +1,4 @@
+Typefield check_in_longitude__v (
+   source('standard'),
+   required(false)
+);

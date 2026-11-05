@@ -1,0 +1,6 @@
+Picklistentry nnane__v (
+   value('Neurology Neurorestoration and Neuroengineering'),
+   order(1024),
+   active(true),
+   controlling_entries('id__v')
+);

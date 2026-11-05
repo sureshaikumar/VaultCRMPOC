@@ -1,0 +1,14 @@
+Vsmfield status__v (
+   label('Status'),
+   active(true),
+   description('Current processing status of the inbound package step. Reflects whether the step is pending, in progress, completed, or errored. Use to monitor or filter steps by their execution state.'),
+   example_values(),
+   synonyms('step status',
+         'state',
+         'current status',
+         'lifecycle state'),
+   target('status__v'),
+   target_label('Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

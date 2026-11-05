@@ -1,0 +1,6 @@
+Message project_clone__v (
+   label(),
+   active(true),
+   default_value('Clone'),
+   system_managed(false)
+);

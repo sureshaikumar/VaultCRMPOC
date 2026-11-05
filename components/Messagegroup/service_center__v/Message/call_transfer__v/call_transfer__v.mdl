@@ -1,0 +1,6 @@
+Message call_transfer__v (
+   label(),
+   active(true),
+   default_value('Phone Call Transferred'),
+   system_managed(false)
+);

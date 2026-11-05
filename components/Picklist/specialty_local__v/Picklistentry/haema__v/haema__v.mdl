@@ -1,0 +1,13 @@
+Picklistentry haema__v (
+   value('Haematology'),
+   order(657),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v',
+         'in__v',
+         'ke__v',
+         'my__v',
+         'nz__v',
+         'pk__v',
+         'sg__v')
+);

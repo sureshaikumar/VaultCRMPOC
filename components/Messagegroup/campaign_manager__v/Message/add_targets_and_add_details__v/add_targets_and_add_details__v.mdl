@@ -1,0 +1,6 @@
+Message add_targets_and_add_details__v (
+   label(),
+   active(true),
+   default_value('Add Targets and Add Details'),
+   system_managed(false)
+);

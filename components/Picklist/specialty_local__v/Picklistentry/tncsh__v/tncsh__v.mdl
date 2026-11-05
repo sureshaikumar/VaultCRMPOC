@@ -1,0 +1,6 @@
+Picklistentry tncsh__v (
+   value('Thoracic & Cardiovascular Surgery'),
+   order(1834),
+   active(true),
+   controlling_entries('ph__v')
+);

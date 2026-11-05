@@ -1,0 +1,6 @@
+Picklistentry ke-23__v (
+   value('Makueni'),
+   order(2376),
+   active(true),
+   controlling_entries('ke__v')
+);

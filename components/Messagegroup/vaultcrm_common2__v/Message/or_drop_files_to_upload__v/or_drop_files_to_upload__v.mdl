@@ -1,0 +1,6 @@
+Message or_drop_files_to_upload__v (
+   label(),
+   active(true),
+   default_value('or drop files here to upload'),
+   system_managed(false)
+);

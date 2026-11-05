@@ -1,0 +1,6 @@
+Picklistentry gb-lce__v (
+   value('Leicester'),
+   order(1554),
+   active(true),
+   controlling_entries('gb__v')
+);

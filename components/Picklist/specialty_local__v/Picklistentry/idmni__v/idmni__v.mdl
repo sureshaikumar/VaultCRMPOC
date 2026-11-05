@@ -1,0 +1,6 @@
+Picklistentry idmni__v (
+   value('Infectious Disease Medicine'),
+   order(756),
+   active(true),
+   controlling_entries('kr__v')
+);

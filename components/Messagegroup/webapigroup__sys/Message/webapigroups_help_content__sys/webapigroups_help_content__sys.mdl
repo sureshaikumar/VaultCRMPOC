@@ -1,0 +1,6 @@
+Message webapigroups_help_content__sys (
+   label(),
+   active(true),
+   default_value('Use this page to manage Web API Groups, which can be granted to permission sets to execute Custom WebAPIs.'),
+   system_managed(true)
+);

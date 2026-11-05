@@ -1,0 +1,12 @@
+RECREATE Tab vof_dashboards__v (
+   active(true),
+   all_view_label('All Dashboards'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Dashboards'),
+   my_view_label('My Dashboards'),
+   object('dashboard__sys'),
+   order(3200),
+   parent(),
+   recent_view_label('Recently Viewed Dashboards')
+);

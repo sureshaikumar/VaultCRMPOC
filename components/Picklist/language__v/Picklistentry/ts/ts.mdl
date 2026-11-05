@@ -1,0 +1,5 @@
+Picklistentry ts (
+   value('Shangaan'),
+   order(65),
+   active(true)
+);

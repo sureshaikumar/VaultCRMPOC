@@ -1,0 +1,17 @@
+Field allowed_document_ids__v (
+   label('Allowed Document IDs'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(5000),
+   help_content('Double semi-colon delimited list of Vault document IDs which are related to the email template.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

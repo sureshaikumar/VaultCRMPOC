@@ -1,0 +1,6 @@
+Message add_new_insurance__v (
+   label(),
+   active(true),
+   default_value('Add New Insurance'),
+   system_managed(false)
+);

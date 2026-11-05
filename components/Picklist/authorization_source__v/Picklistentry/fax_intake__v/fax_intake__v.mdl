@@ -1,0 +1,5 @@
+Picklistentry fax_intake__v (
+   value('Fax Intake'),
+   order(0),
+   active(true)
+);

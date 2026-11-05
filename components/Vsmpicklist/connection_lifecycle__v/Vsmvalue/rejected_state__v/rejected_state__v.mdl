@@ -1,0 +1,11 @@
+Vsmvalue rejected_state__v (
+   label('Rejected'),
+   active(true),
+   description('The connection request has been reviewed and explicitly denied, preventing it from advancing to an active or approved state.'),
+   synonyms('denied',
+         'declined',
+         'refused',
+         'not approved'),
+   target('rejected_state__sys'),
+   target_label('Rejected')
+);

@@ -1,0 +1,6 @@
+Picklistentry bd-11__v (
+   value('Cox''s Bazar'),
+   order(240),
+   active(true),
+   controlling_entries('bd__v')
+);

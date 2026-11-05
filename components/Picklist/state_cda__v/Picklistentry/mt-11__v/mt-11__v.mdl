@@ -1,0 +1,6 @@
+Picklistentry mt-11__v (
+   value('Gudja'),
+   order(3117),
+   active(true),
+   controlling_entries('mt__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 39780__v (
+   value('Red Bluff, CA Micropolitan Statistical Area'),
+   order(80),
+   active(true)
+);

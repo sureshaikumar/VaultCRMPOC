@@ -1,0 +1,18 @@
+Field collect_patient_journey_affiliation__v (
+   label('Collect Patient Journey Affiliation'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the patient intake process includes Patient Journey Affiliation and if following patient enrollment the ''Providers & Facilities'' helper tab is visible when viewing the Patient Overview or Task Cases and the ''Providers & Facilities'' summary section appears within the Key Journey Details helper tab.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(true),
+   order(24),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

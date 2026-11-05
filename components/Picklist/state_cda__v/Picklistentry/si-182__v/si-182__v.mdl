@@ -1,0 +1,6 @@
+Picklistentry si-182__v (
+   value('Sveti Andraž v Slovenskih goricah'),
+   order(4155),
+   active(true),
+   controlling_entries('si__v')
+);

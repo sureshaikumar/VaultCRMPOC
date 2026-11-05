@@ -1,0 +1,15 @@
+Vsmfield glossary_event_search_phrase__v (
+   label('Search Phrase'),
+   active(true),
+   description('The text phrase entered by the user that triggered this glossary lookup event. Use this to analyze common search patterns, identify gaps in glossary coverage, or audit user search behavior.'),
+   example_values(),
+   synonyms('search phrase',
+         'search query',
+         'query',
+         'search text',
+         'what was searched'),
+   target('glossary_event_search_phrase__sys'),
+   target_label('Search Phrase'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,16 @@
+RECREATE Objectvalidation pricing_rule__v.cross_product_and_comparison_product__v (
+   label('Cross Product and Comparison Product'),
+   active(true),
+   expression('Not(
+    And(
+        cross_product_rule__v = true,
+        Or(
+            comparison_product__vr.id = product__vr.id,
+            IsBlank(product__v)
+        )
+    )
+)'),
+   description('Comparison Product must be different than Product'),
+   error_message('Product must be different than Comparison Product and not empty.'),
+   error_location('product__v')
+);

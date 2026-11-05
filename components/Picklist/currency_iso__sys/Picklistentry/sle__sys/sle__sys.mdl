@@ -1,0 +1,5 @@
+Picklistentry sle__sys (
+   value('SLE'),
+   order(164),
+   active(true)
+);

@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17845558935379458__c (
+   label('AI Agent'),
+   active(true),
+   application_role('a__c'),
+   permission_sets('Permissionset.ai_agent__c')
+);

@@ -1,0 +1,6 @@
+Message intermediaries_label__v (
+   label(),
+   active(true),
+   default_value('Intermediaries'),
+   system_managed(false)
+);

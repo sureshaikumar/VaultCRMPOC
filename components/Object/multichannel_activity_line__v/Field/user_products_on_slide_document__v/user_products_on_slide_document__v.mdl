@@ -1,0 +1,19 @@
+Field user_products_on_slide_document__v (
+   label('User Products on Slide Document'),
+   type('String'),
+   active(true),
+   description('The products on the Slide Document that the user could detail when it was shown. These values are stored as the record IDs of the products in a semicolon delimited list. If detail groups are used, they are stored as a | delimited pair with the detail product.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('The record IDs of the detail products and detail groups assigned to the Slide document version shown that the user can detail.'),
+   list_column(true),
+   order(56),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

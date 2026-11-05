@@ -1,0 +1,6 @@
+Picklistentry th-30__v (
+   value('Nakhon Ratchasima'),
+   order(4346),
+   active(true),
+   controlling_entries('th__v')
+);

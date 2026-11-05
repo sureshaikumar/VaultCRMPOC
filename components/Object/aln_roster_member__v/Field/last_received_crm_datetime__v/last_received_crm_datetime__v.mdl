@@ -1,0 +1,17 @@
+Field last_received_crm_datetime__v (
+   label('Last Received from CRM Date/Time'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(55),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

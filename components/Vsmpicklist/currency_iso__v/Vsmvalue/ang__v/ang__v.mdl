@@ -1,0 +1,10 @@
+Vsmvalue ang__v (
+   label('ANG'),
+   active(true),
+   description('The Netherlands Antillean Guilder (ANG), the currency used in Curaçao and Sint Maarten in the Caribbean.'),
+   synonyms('Netherlands Antillean guilder',
+         'Dutch Caribbean currency',
+         'Antilles guilder'),
+   target('ang__sys'),
+   target_label('ANG')
+);

@@ -1,0 +1,18 @@
+Field rating_audio__v (
+   label('Rating: Audio'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Stores the Remote Meeting Attendee response to the ''Audio'' question on the Experience Rating questionnaire.'),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

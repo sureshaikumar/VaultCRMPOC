@@ -1,0 +1,6 @@
+Message error_unsupported_status_transition__v (
+   label(),
+   active(true),
+   default_value('Changing Campaign Status from ${current_status} to ${new_status} is an unsupported transition'),
+   system_managed(false)
+);

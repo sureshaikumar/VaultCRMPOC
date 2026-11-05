@@ -1,0 +1,6 @@
+Message journey_stage_advanced_title__v (
+   label(),
+   active(true),
+   default_value('Journey Stage Advanced'),
+   system_managed(false)
+);

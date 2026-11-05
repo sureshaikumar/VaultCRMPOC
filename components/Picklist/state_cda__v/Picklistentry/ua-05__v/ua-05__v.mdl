@@ -1,0 +1,6 @@
+Picklistentry ua-05__v (
+   value('Vinnytska oblast'),
+   order(4616),
+   active(true),
+   controlling_entries('ua__v')
+);

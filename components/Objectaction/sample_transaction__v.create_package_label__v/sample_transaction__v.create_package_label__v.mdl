@@ -1,0 +1,8 @@
+RECREATE Objectaction sample_transaction__v.create_package_label__v (
+   label('Create Package Label'),
+   description('Displays the Create Package Label record action on the layout.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.samplemanagement.actions.SampleTransactionNewPackageLabelAction'),
+   active(true),
+   available_all_states(true)
+);

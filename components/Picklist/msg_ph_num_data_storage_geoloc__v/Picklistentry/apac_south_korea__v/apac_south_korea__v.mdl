@@ -1,0 +1,5 @@
+Picklistentry apac_south_korea__v (
+   value('APAC - South Korea'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field unsubscribe_identifier__v (
+   label('Unsubscribe Identifier'),
+   type('String'),
+   active(true),
+   description('Unsubscribe_Identifier_vod is a unique field which will be used as the parameter in the unsubscribe token to identify the associated Unsubscribe_vod record.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

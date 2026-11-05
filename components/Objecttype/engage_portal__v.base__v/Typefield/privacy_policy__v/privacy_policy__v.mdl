@@ -1,0 +1,4 @@
+Typefield privacy_policy__v (
+   source('standard'),
+   required(false)
+);

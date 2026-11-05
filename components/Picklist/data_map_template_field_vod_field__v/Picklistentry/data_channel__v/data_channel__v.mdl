@@ -1,0 +1,5 @@
+Picklistentry data_channel__v (
+   value('Data_Channel_vod__c'),
+   order(6),
+   active(true)
+);

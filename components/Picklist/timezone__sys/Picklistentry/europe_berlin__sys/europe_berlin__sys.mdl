@@ -1,0 +1,5 @@
+Picklistentry europe_berlin__sys (
+   value('(GMT+01:00) Central European Time (Europe/Berlin)'),
+   order(155),
+   active(true)
+);

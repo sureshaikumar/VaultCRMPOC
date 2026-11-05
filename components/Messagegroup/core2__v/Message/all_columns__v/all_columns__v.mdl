@@ -1,0 +1,6 @@
+Message all_columns__v (
+   label(),
+   active(true),
+   default_value('All Columns'),
+   system_managed(false)
+);

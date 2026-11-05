@@ -1,0 +1,19 @@
+Field relationship_name__v (
+   label('Relationship Name'),
+   type('String'),
+   active(true),
+   description('If an object is a child of another object this stores the relationship name between the parent and the child object.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

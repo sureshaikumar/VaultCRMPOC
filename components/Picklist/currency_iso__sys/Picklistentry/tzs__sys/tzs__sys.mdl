@@ -1,0 +1,5 @@
+Picklistentry tzs__sys (
+   value('TZS'),
+   order(186),
+   active(true)
+);

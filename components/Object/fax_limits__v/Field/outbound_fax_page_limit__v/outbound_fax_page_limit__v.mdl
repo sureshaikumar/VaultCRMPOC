@@ -1,0 +1,22 @@
+Field outbound_fax_page_limit__v (
+   label('Outbound Fax Page Limit'),
+   type('Number'),
+   active(true),
+   description('The maximum number of outbound fax pages this Vault is allowed to send in a calendar year.'),
+   required(false),
+   unique(false),
+   max_value(9999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

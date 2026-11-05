@@ -1,0 +1,5 @@
+Picklistentry show__sys (
+   value('Show'),
+   order(0),
+   active(true)
+);

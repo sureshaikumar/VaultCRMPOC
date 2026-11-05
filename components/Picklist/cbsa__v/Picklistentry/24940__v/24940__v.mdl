@@ -1,0 +1,5 @@
+Picklistentry 24940__v (
+   value('Greenwood, SC Micropolitan Statistical Area'),
+   order(542),
+   active(true)
+);

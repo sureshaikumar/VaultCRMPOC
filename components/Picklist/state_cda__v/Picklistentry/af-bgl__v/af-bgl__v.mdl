@@ -1,0 +1,6 @@
+Picklistentry af-bgl__v (
+   value('Baghlān'),
+   order(18),
+   active(true),
+   controlling_entries('af__v')
+);

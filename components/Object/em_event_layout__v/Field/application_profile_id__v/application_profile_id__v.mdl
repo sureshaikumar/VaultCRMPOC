@@ -1,0 +1,19 @@
+Field application_profile_id__v (
+   label('Application Profile Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content('Id of the application profile for this event layout. This field gets stamped via trigger based of the application_profile__v field, which uses the profile name. If data loading configuration, only upsert data into the application_profile__v field'),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

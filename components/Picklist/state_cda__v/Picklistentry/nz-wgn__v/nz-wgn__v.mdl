@@ -1,0 +1,6 @@
+Picklistentry nz-wgn__v (
+   value('Wellington'),
+   order(3440),
+   active(true),
+   controlling_entries('nz__v')
+);

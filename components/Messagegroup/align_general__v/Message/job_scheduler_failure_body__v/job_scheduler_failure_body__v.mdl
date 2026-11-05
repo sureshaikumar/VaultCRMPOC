@@ -1,0 +1,6 @@
+Message job_scheduler_failure_body__v (
+   label(),
+   active(true),
+   default_value('The scheduled job {0} ({1}) (Vault ID: {2}) aborted at {3} during the {4} task {5}.'),
+   system_managed(false)
+);

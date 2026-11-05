@@ -1,0 +1,7 @@
+RECREATE Picklist account_list_type__v (
+   label('Account List Type'),
+   active(true),
+   Picklistentry(@Picklistentry/hot_list__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

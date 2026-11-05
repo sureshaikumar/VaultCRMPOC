@@ -1,0 +1,6 @@
+Picklistentry az-uca__v (
+   value('Ucar'),
+   order(204),
+   active(true),
+   controlling_entries('az__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ws-al__v (
+   value('Aiga-i-le-Tai'),
+   order(4985),
+   active(true),
+   controlling_entries('ws__v')
+);

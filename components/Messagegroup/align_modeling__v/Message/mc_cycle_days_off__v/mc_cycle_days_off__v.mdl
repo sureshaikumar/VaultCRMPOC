@@ -1,0 +1,6 @@
+Message mc_cycle_days_off__v (
+   label(),
+   active(true),
+   default_value('Days off Cycle'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message eligible_targets_label_value__v (
+   label(),
+   active(true),
+   default_value('Eligible Targets: ${count}'),
+   system_managed(false)
+);

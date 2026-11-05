@@ -1,0 +1,10 @@
+Vsmvalue cdf__v (
+   label('CDF'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of the Democratic Republic of the Congo.'),
+   synonyms('Congolese Franc',
+         'Congo Franc',
+         'DRC Franc'),
+   target('cdf__sys'),
+   target_label('CDF')
+);

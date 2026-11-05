@@ -1,0 +1,10 @@
+Vsmvalue xof__v (
+   label('XOF'),
+   active(true),
+   description('Used for transactions denominated in the West African CFA Franc, the official currency of eight francophone West African nations including Senegal, Côte d''Ivoire, and Mali.'),
+   synonyms('West African CFA franc',
+         'CFA franc BCEAO',
+         'UEMOA franc'),
+   target('xof__sys'),
+   target_label('XOF')
+);

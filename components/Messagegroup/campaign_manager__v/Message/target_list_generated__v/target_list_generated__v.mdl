@@ -1,0 +1,6 @@
+Message target_list_generated__v (
+   label(),
+   active(true),
+   default_value('Target List Generated'),
+   system_managed(false)
+);

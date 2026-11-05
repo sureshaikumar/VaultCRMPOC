@@ -1,0 +1,8 @@
+RECREATE Objectaction survey__v.publish_to_new_targets__v (
+   label('Publish to New Targets'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.survey.actions.SurveyPublishToNewTargetsAction'),
+   active(true),
+   available_all_states(false)
+);

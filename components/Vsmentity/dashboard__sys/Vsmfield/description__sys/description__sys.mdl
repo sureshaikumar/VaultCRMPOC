@@ -1,0 +1,11 @@
+Vsmfield description__sys (
+   label('Description'),
+   active(false),
+   description('User defined free text that describes the purpose and intended use of this dashboard.'),
+   example_values(),
+   synonyms('purpose'),
+   target('description__sys'),
+   target_label('Description'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

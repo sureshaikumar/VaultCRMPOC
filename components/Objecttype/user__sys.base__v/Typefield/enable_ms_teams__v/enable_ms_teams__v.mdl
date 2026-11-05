@@ -1,0 +1,4 @@
+Typefield enable_ms_teams__v (
+   source('standard'),
+   required(false)
+);

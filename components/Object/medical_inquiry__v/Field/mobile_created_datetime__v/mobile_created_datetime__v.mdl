@@ -1,0 +1,17 @@
+Field mobile_created_datetime__v (
+   label('Mobile Created Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Date and time the Medical Inquiry record was created on the mobile device.'),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

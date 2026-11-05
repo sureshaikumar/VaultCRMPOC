@@ -1,0 +1,19 @@
+Field other_source__v (
+   label('Other Source'),
+   type('String'),
+   active(true),
+   description('Stores the source of a Key Medical Insight that is external to Veeva'),
+   required(false),
+   unique(false),
+   max_length(500),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

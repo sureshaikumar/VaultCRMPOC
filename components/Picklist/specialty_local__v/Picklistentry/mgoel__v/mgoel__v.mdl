@@ -1,0 +1,6 @@
+Picklistentry mgoel__v (
+   value('Molecular Genetics'),
+   order(976),
+   active(true),
+   controlling_entries('bh__v')
+);

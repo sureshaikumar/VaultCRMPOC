@@ -1,0 +1,6 @@
+Message contact_control_panel__v (
+   label(),
+   active(true),
+   default_value('Contact Control Panel'),
+   system_managed(false)
+);

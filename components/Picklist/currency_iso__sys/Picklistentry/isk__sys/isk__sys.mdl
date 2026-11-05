@@ -1,0 +1,5 @@
+Picklistentry isk__sys (
+   value('ISK'),
+   order(89),
+   active(true)
+);

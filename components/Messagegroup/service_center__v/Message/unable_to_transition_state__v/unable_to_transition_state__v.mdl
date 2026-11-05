@@ -1,0 +1,6 @@
+Message unable_to_transition_state__v (
+   label(),
+   active(true),
+   default_value('Unable to Transition State'),
+   system_managed(false)
+);

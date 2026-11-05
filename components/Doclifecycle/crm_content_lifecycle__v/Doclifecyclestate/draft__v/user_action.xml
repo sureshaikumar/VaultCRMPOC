@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <actions>
+            <action type="CHECK_USER_ACTION">
+                <UserAction actionType="StateChange" newState="staged__v" label="Change State to Staged" publicKey="change_state_to_staged__v" />
+            </action>
+            <action type="CHECK_USER_ACTION">
+                <UserAction actionType="StateChange" newState="expired__v" label="Change State to Expired" publicKey="change_state_to_expired__v" />
+            </action>
+        </actions>
+    </rule>
+    <rule>
+        <expression operator="and">
+            <expression operator="eq">
+                <expression operator="field" type="string">
+                    <value>Document.type__v</value>
+                </expression>
+                <expression operator="value" type="string">
+                    <value>dynamic_word_template__v</value>
+                </expression>
+            </expression>
+            <expression operator="eq">
+                <expression operator="field" type="boolean">
+                    <value>Document.latest_version__v</value>
+                </expression>
+                <expression operator="value" type="boolean">
+                    <value>true</value>
+                </expression>
+            </expression>
+        </expression>
+        <actions>
+            <action type="Documentaction.com.veeva.vault.app.vaultcrm.core.clm.actions.CrmContentLifecycleProcessContentDocumentAction" name="Documentaction.com.veeva.vault.app.vaultcrm.core.clm.actions.CrmContentLifecycleProcessContentDocumentAction" configuredLabel="Process Content">
+                <publicKey>sdkDocLifecycleUAdg5qrrynz5ki__c</publicKey>
+            </action>
+        </actions>
+    </rule>
+    <rule>
+        <expression operator="in">
+            <expression operator="field" type="string">
+                <value>Document.type__v</value>
+            </expression>
+            <expression operator="value" type="string">
+                <value>email_fragment__v</value>
+            </expression>
+            <expression operator="value" type="string">
+                <value>email_template__v</value>
+            </expression>
+            <expression operator="value" type="string">
+                <value>template_fragment__v</value>
+            </expression>
+        </expression>
+        <actions>
+            <action type="Documentaction.com.veeva.vault.app.vaultcrm.approvedemail.actions.CrmContentLifecycleRerenderAeRenditionsDocumentAction" name="Documentaction.com.veeva.vault.app.vaultcrm.approvedemail.actions.CrmContentLifecycleRerenderAeRenditionsDocumentAction" configuredLabel="Re-render Approved Email Renditions">
+                <publicKey>sdkDocLifecycleUA1sky4b1wwsiod__c</publicKey>
+            </action>
+        </actions>
+    </rule>
+</rules>

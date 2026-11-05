@@ -1,0 +1,6 @@
+Message check_in_for_patient_has_been_reset__v (
+   label(),
+   active(true),
+   default_value('Check-In for ${patientName} has been reset'),
+   system_managed(false)
+);

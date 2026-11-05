@@ -1,0 +1,5 @@
+Picklistentry alt (
+   value('Southern Altai'),
+   order(308),
+   active(true)
+);

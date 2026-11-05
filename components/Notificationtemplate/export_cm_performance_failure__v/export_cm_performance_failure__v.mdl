@@ -1,0 +1,28 @@
+RECREATE Notificationtemplate export_cm_performance_failure__v (
+   label('Export Campaign Performance Job Failure'),
+   active(true),
+   description('Notifies the user that campaign performance have not been exported'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.campaign__v'),
+   subject('No campaign performance data exported - ${Custom.campaign_name}'),
+   notification('Error Exporting Campaign Performance <br/>
+    Details:<br/>
+    <ul>
+       <li>Campaign Name: ${Custom.campaign_name}</li>
+       <li>Successes: 0</li>
+       <li>Failures: ${Custom.fail_count}</li>
+       <li>Job Start Time: ${Custom.start_time}</li>
+       <li>Job Duration: ${Custom.duration}</li>
+    </ul>'),
+   email_body('Error Exporting Campaign Performance <br/>
+    Details:<br/>
+    <ul>
+       <li>Campaign Name: ${Custom.campaign_name}</li>
+       <li>Successes: 0</li>
+       <li>Failures: ${Custom.fail_count}</li>
+       <li>Job Start Time: ${Custom.start_time}</li>
+       <li>Job Duration: ${Custom.duration}</li>
+    </ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

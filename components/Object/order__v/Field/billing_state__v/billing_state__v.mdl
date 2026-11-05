@@ -1,0 +1,18 @@
+Field billing_state__v (
+   label('Billing State'),
+   type('Picklist'),
+   active(true),
+   description('State of the billing address of the account placing the order.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(22),
+   multi_value(false),
+   picklist('Picklist.order_billing_state__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

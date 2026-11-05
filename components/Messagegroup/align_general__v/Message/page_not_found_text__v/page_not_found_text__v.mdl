@@ -1,0 +1,6 @@
+Message page_not_found_text__v (
+   label(),
+   active(true),
+   default_value('Did you try to access a record that has already been deleted? Please navigate to a valid page and try again.'),
+   system_managed(false)
+);

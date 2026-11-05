@@ -1,0 +1,5 @@
+Picklistentry ewe__v (
+   value('Ewe'),
+   order(92),
+   active(false)
+);

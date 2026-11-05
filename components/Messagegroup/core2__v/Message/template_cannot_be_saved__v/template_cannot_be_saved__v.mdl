@@ -1,0 +1,6 @@
+Message template_cannot_be_saved__v (
+   label(),
+   active(true),
+   default_value('Template Cannot Be Saved'),
+   system_managed(false)
+);

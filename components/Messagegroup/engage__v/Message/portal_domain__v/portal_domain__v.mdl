@@ -1,0 +1,6 @@
+Message portal_domain__v (
+   label(),
+   active(true),
+   default_value('Portal Domain'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Typefield qr_sign_in_enabled__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_rule_qr_sign_in_enabled__v.no__v',
+         'Picklist.em_event_rule_qr_sign_in_enabled__v.yes__v'),
+   default_value('Picklist.em_event_rule_qr_sign_in_enabled__v.no__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry vexnu__v (
+   value('Veterinary Nurse'),
+   order(162),
+   active(true)
+);

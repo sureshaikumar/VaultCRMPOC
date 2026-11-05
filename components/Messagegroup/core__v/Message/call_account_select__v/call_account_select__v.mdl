@@ -1,0 +1,6 @@
+Message call_account_select__v (
+   label(),
+   active(true),
+   default_value('Select an account to add for a call on ${date} at ${time}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry chr__v (
+   value('Cherokee'),
+   order(54),
+   active(false)
+);

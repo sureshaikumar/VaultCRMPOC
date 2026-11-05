@@ -1,0 +1,6 @@
+Picklistentry ug-117__v (
+   value('Buikwe'),
+   order(4659),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,3 @@
+Typeaction create_contract__v (
+   action('account__v.create_contract__v')
+);

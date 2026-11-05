@@ -1,0 +1,6 @@
+Picklistentry cbalb__v (
+   value('Clinical Biochemistry and Laboratory Biomedicine'),
+   order(212),
+   active(true),
+   controlling_entries('si__v')
+);

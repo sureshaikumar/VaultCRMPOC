@@ -1,0 +1,13 @@
+RECREATE Picklist call2_discussion_activity__c (
+   label('Call Discussion Activity'),
+   active(true),
+   Picklistentry(@Picklistentry/dinner_meeting__c.mdl),
+   Picklistentry(@Picklistentry/email_exchange__c.mdl),
+   Picklistentry(@Picklistentry/lunch_meeting__c.mdl),
+   Picklistentry(@Picklistentry/meeting__c.mdl),
+   Picklistentry(@Picklistentry/other__c.mdl),
+   Picklistentry(@Picklistentry/contracts_discussion__c.mdl),
+   Picklistentry(@Picklistentry/presentation__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

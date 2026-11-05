@@ -1,0 +1,6 @@
+Message align_settings_rule_selectn_mdl_help__v (
+   label(),
+   active(true),
+   default_value('Setting this field to {0} will allow users to select the criteria by which to select the model assignment rules to be run within a model assignment preview.'),
+   system_managed(false)
+);

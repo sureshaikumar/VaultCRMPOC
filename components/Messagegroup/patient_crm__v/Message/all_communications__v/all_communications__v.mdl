@@ -1,0 +1,6 @@
+Message all_communications__v (
+   label(),
+   active(true),
+   default_value('All Communications'),
+   system_managed(false)
+);

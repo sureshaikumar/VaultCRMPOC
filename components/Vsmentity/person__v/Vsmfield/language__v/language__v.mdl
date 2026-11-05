@@ -1,0 +1,13 @@
+Vsmfield language__v (
+   label('Language'),
+   active(true),
+   description('The person''s preferred language, set either manually, or based on User, which determines the language used in communications for this individual.'),
+   example_values(),
+   synonyms('preferred language',
+         'display language',
+         'UI language'),
+   target('language__sys'),
+   target_label('Language'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

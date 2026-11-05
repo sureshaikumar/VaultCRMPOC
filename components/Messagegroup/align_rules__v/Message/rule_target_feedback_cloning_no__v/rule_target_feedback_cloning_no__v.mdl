@@ -1,0 +1,6 @@
+Message rule_target_feedback_cloning_no__v (
+   label(),
+   active(true),
+   default_value('No cloning will occur.'),
+   system_managed(false)
+);

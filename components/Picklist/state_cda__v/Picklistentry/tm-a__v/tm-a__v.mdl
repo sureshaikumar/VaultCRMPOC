@@ -1,0 +1,6 @@
+Picklistentry tm-a__v (
+   value('Ahal'),
+   order(4424),
+   active(true),
+   controlling_entries('tm__v')
+);

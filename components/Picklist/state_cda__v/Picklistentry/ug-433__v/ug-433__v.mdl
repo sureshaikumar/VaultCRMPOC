@@ -1,0 +1,6 @@
+Picklistentry ug-433__v (
+   value('Kazo'),
+   order(4775),
+   active(true),
+   controlling_entries('ug__v')
+);

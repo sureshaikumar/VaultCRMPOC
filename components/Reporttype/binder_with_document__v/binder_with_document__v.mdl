@@ -1,0 +1,9 @@
+RECREATE Reporttype binder_with_document__v (
+   label('Binder with Document'),
+   active(true),
+   description(),
+   primary_object('binder'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

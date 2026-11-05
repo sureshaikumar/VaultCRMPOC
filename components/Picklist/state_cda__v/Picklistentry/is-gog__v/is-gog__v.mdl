@@ -1,0 +1,6 @@
+Picklistentry is-gog__v (
+   value('Grímsnes- og Grafningshreppur'),
+   order(2107),
+   active(true),
+   controlling_entries('is__v')
+);

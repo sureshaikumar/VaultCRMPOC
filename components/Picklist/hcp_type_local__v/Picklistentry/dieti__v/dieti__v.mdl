@@ -1,0 +1,5 @@
+Picklistentry dieti__v (
+   value('Dietitian'),
+   order(36),
+   active(true)
+);

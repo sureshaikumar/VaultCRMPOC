@@ -1,0 +1,6 @@
+Picklistentry th-91__v (
+   value('Satun'),
+   order(4399),
+   active(true),
+   controlling_entries('th__v')
+);

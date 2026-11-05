@@ -1,0 +1,14 @@
+RECREATE Page my_samples_page__v (
+   label('My Samples'),
+   active(true),
+   client_distribution(),
+   default_client_code('my_samples_page__v'),
+   description('My Samples page to view information related to sample products'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.mysamples.controls.MySamplesPageController'),
+   url_path_name('my-samples')
+);

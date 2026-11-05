@@ -1,0 +1,6 @@
+Picklistentry ph-ifu__v (
+   value('Ifugao'),
+   order(3566),
+   active(true),
+   controlling_entries('ph__v')
+);

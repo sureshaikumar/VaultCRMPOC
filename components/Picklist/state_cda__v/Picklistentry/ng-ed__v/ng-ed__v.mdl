@@ -1,0 +1,6 @@
+Picklistentry ng-ed__v (
+   value('Edo'),
+   order(3331),
+   active(true),
+   controlling_entries('ng__v')
+);

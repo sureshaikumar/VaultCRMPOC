@@ -1,0 +1,6 @@
+Picklistentry tn-11__v (
+   value('Tunis'),
+   order(4430),
+   active(true),
+   controlling_entries('tn__v')
+);

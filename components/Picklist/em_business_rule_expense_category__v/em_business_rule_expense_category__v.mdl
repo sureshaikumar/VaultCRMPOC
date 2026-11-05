@@ -1,0 +1,8 @@
+RECREATE Picklist em_business_rule_expense_category__v (
+   label('Expense Category'),
+   active(true),
+   Picklistentry(@Picklistentry/estimate__v.mdl),
+   Picklistentry(@Picklistentry/actual__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

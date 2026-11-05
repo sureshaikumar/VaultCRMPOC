@@ -1,0 +1,5 @@
+Picklistentry zen (
+   value('Zenaga'),
+   order(354),
+   active(true)
+);

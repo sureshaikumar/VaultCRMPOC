@@ -1,0 +1,5 @@
+Picklistentry 33060__v (
+   value('Miami, OK Micropolitan Statistical Area'),
+   order(825),
+   active(true)
+);

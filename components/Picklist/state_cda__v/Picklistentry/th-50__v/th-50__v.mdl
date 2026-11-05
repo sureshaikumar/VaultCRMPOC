@@ -1,0 +1,6 @@
+Picklistentry th-50__v (
+   value('Chiang Mai'),
+   order(4366),
+   active(true),
+   controlling_entries('th__v')
+);

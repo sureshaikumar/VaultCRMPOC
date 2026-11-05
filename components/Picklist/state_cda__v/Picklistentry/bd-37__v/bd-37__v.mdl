@@ -1,0 +1,6 @@
+Picklistentry bd-37__v (
+   value('Magura'),
+   order(266),
+   active(true),
+   controlling_entries('bd__v')
+);

@@ -1,0 +1,6 @@
+Message concur_sync_start_notify__v (
+   label(),
+   active(true),
+   default_value('Concur Expense Sync has been started, an email will be sent to designated notification recipients if any errors occur.'),
+   system_managed(false)
+);

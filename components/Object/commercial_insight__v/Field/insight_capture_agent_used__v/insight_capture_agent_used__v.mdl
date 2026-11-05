@@ -1,0 +1,17 @@
+Field insight_capture_agent_used__v (
+   label('Insight Capture Agent Used'),
+   type('Boolean'),
+   active(true),
+   description('If True, indicates that the Insight Capture Agent was used for the Commercial Insight.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

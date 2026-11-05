@@ -1,0 +1,8 @@
+RECREATE Pagelayout collaboration_resource_member_detail_pag__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Collaboration Resource Member Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

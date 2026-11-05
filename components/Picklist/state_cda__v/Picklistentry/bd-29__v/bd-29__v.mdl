@@ -1,0 +1,6 @@
+Picklistentry bd-29__v (
+   value('Khagrachari'),
+   order(258),
+   active(true),
+   controlling_entries('bd__v')
+);

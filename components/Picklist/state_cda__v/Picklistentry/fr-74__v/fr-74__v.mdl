@@ -1,0 +1,6 @@
+Picklistentry fr-74__v (
+   value('Haute-Savoie'),
+   order(1392),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,17 @@
+Field last_activity_date__v (
+   label('Channel Last Activity Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Date of the most recent activity that was counted towards the Channel Activity Actual'),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

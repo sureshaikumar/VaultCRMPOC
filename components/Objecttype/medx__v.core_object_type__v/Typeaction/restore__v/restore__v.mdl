@@ -1,0 +1,3 @@
+Typeaction restore__v (
+   action('medx__v.restore__v')
+);

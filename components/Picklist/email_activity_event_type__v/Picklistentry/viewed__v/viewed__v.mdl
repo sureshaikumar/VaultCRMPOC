@@ -1,0 +1,5 @@
+Picklistentry viewed__v (
+   value('Viewed'),
+   order(6),
+   active(true)
+);

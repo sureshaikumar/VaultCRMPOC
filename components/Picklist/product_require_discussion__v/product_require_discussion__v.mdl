@@ -1,0 +1,8 @@
+RECREATE Picklist product_require_discussion__v (
+   label('Require Discussion'),
+   active(true),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

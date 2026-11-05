@@ -1,0 +1,7 @@
+Picklistentry goiam__v (
+   value('Gynecology of Infertility and Medically Assisted Procreation'),
+   order(654),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

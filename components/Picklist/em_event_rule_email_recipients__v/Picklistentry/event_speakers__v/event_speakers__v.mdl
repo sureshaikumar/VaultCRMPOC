@@ -1,0 +1,5 @@
+Picklistentry event_speakers__v (
+   value('Event Speakers'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field fulfillment_status__v (
+   label('Fulfillment Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to provide visibility of the Fulfillment Status of a Medical Inquiry to Users that initiated the Medical Inqiury request.'),
+   list_column(false),
+   order(21),
+   multi_value(false),
+   picklist('Picklist.medical_inquiry_fulfillment_status1__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

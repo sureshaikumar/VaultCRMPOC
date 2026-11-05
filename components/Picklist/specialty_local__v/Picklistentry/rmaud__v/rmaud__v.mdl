@@ -1,0 +1,6 @@
+Picklistentry rmaud__v (
+   value('Radiology Musculoskeletal'),
+   order(1694),
+   active(true),
+   controlling_entries('id__v')
+);

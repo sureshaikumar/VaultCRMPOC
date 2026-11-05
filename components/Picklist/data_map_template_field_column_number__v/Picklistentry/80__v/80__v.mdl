@@ -1,0 +1,5 @@
+Picklistentry 80__v (
+   value('80'),
+   order(79),
+   active(true)
+);

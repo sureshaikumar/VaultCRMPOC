@@ -1,0 +1,6 @@
+Picklistentry ke-16__v (
+   value('Kisii'),
+   order(2369),
+   active(true),
+   controlling_entries('ke__v')
+);

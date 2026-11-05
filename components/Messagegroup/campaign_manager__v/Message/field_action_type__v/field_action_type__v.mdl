@@ -1,0 +1,6 @@
+Message field_action_type__v (
+   label(),
+   active(true),
+   default_value('Field Action Type'),
+   system_managed(false)
+);

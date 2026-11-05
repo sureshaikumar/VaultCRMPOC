@@ -1,0 +1,14 @@
+RECREATE Permissionset cee_xpages_admin_user_permission__c (
+   label('CEE - X-Pages Admin User Permission'),
+   active(true),
+   description(),
+   object.html_report__v.logo__v.field_actions('edit'),
+   object.html_report__v.name__v.field_actions('edit'),
+   object.html_report__v.object_recordtype__v.field_actions('edit'),
+   object.html_report__v.object_type__v.field_actions('edit'),
+   object.html_report__v.platform__v.field_actions('edit'),
+   object.html_report__v.prompt_context__v.field_actions('edit'),
+   object.html_report__v.prompt_overlay__v.object_actions('create'),
+   object.html_report__v.status__v.field_actions('edit'),
+   vault_actions.search('suggest')
+);

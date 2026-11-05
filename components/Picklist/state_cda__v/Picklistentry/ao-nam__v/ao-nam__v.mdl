@@ -1,0 +1,6 @@
+Picklistentry ao-nam__v (
+   value('Namibe'),
+   order(94),
+   active(true),
+   controlling_entries('ao__v')
+);

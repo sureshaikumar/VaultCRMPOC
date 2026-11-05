@@ -1,0 +1,6 @@
+Picklistentry bg-10__v (
+   value('Kyustendil'),
+   order(382),
+   active(true),
+   controlling_entries('bg__v')
+);

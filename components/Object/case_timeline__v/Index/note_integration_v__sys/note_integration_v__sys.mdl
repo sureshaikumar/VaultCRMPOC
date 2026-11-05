@@ -1,0 +1,5 @@
+Index note_integration_v__sys (
+   description(),
+   fields('note_integration__v'),
+   label('Note Integration')
+);

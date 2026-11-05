@@ -1,0 +1,6 @@
+Picklistentry cccma__v (
+   value('Cardiac Critical Care Medicine'),
+   order(148),
+   active(true),
+   controlling_entries('eg__v')
+);

@@ -1,0 +1,19 @@
+Field sort_order__v (
+   label('Sort Order'),
+   type('String'),
+   active(true),
+   description('Order in which the X-Page will appear in the entry point'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message assignment_outside_field_force_dates__v (
+   label(),
+   active(true),
+   default_value('Assignment''s {0} of {1} (UTC) must be within Field Force''s {2} of {3} (UTC)'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.vault_clinical_study_person__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="study__v" />
+            <vault:field reference="study_country__v" />
+            <vault:field reference="study_site__v" />
+            <vault:field reference="study_team_role__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

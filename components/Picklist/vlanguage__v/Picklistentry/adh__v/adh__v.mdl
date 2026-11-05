@@ -1,0 +1,5 @@
+Picklistentry adh__v (
+   value('Adhola'),
+   order(4),
+   active(false)
+);

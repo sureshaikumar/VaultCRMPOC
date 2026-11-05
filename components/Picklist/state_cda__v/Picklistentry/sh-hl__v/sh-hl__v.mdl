@@ -1,0 +1,6 @@
+Picklistentry sh-hl__v (
+   value('Saint Helena'),
+   order(3973),
+   active(true),
+   controlling_entries('sh__v')
+);

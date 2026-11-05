@@ -1,0 +1,18 @@
+Field downloaded_rendition__v (
+   label('Downloaded Rendition'),
+   type('Picklist'),
+   active(true),
+   description('Indicates which rendition was downloaded.'),
+   required(false),
+   unique(false),
+   help_content('Indicates which rendition was downloaded.'),
+   list_column(false),
+   order(43),
+   multi_value(false),
+   picklist('Picklist.message_activity_downloaded_rendition__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

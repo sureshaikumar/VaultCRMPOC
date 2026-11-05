@@ -1,0 +1,5 @@
+Picklistentry cr_presentation__c (
+   value('CR Presentation'),
+   order(3),
+   active(true)
+);

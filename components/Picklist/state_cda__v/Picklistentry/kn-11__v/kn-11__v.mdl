@@ -1,0 +1,6 @@
+Picklistentry kn-11__v (
+   value('Saint Peter Basseterre'),
+   order(2451),
+   active(true),
+   controlling_entries('kn__v')
+);

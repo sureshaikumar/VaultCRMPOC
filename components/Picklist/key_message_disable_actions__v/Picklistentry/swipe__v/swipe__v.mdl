@@ -1,0 +1,5 @@
+Picklistentry swipe__v (
+   value('Swipe'),
+   order(0),
+   active(true)
+);

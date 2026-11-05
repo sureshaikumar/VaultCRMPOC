@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate aln_process_completed__v (
+   label('Align Process Completed'),
+   active(true),
+   description('Notifies user that an align process has completed.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.aln_process_task__v'),
+   subject('An align process has completed.'),
+   notification('<b>${Custom.title}</b><br/><br/>
+                 ${Custom.content}<br/>
+                 ${Custom.process_task}: ${Custom.id}'),
+   email_body('An align process has completed.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

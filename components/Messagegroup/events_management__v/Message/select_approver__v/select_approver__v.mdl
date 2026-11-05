@@ -1,0 +1,6 @@
+Message select_approver__v (
+   label(),
+   active(true),
+   default_value('Select Approver'),
+   system_managed(false)
+);

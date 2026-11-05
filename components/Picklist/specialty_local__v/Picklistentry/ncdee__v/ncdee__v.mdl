@@ -1,0 +1,6 @@
+Picklistentry ncdee__v (
+   value('Neurology Cerebrovascular Disease'),
+   order(1014),
+   active(true),
+   controlling_entries('id__v')
+);

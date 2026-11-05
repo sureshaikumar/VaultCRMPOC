@@ -1,0 +1,6 @@
+Message product_preference_for_phone_call_error__v (
+   label(),
+   active(true),
+   default_value('Product Preference for Phone Call channel should always be All Lines.'),
+   system_managed(false)
+);

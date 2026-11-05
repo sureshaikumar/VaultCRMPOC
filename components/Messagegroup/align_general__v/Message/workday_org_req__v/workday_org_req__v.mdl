@@ -1,0 +1,6 @@
+Message workday_org_req__v (
+   label(),
+   active(true),
+   default_value('Veeva Workday Org must be set if Workday ID is set.'),
+   system_managed(false)
+);

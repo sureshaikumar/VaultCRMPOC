@@ -1,0 +1,22 @@
+Field submit_location_longitude__v (
+   label('Submit Location Longitude'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999.999999),
+   min_value(-999999999.999999),
+   scale(6),
+   help_content('Stores the longitude coordinate of the location where the submit button is clicked'),
+   list_column(false),
+   order(153),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

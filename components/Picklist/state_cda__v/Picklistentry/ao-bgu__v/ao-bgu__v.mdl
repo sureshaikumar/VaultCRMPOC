@@ -1,0 +1,6 @@
+Picklistentry ao-bgu__v (
+   value('Benguela'),
+   order(80),
+   active(true),
+   controlling_entries('ao__v')
+);

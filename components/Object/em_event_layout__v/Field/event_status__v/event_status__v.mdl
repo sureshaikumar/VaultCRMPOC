@@ -1,0 +1,19 @@
+Field event_status__v (
+   label('Event Status'),
+   type('String'),
+   active(true),
+   description('The statuses covered by the event page layout configuration. Populate with an untranslated picklist value from the em_event_status__v picklist on the em_event__v object.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

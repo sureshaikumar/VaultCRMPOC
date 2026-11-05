@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_pending_text__v (
+   label(),
+   active(true),
+   default_value('You have transfer requests that are still pending. These must be accepted or rejected before submitting.'),
+   system_managed(false)
+);

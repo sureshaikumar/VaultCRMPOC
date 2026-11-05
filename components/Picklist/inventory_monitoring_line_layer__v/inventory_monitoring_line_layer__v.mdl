@@ -1,0 +1,9 @@
+RECREATE Picklist inventory_monitoring_line_layer__v (
+   label('Layer'),
+   active(true),
+   Picklistentry(@Picklistentry/above_eye_level__v.mdl),
+   Picklistentry(@Picklistentry/eye_level__v.mdl),
+   Picklistentry(@Picklistentry/below_eye_level__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

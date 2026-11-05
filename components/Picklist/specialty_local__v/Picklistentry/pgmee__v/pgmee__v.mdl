@@ -1,0 +1,6 @@
+Picklistentry pgmee__v (
+   value('Pediatric Genetics/Metabolism'),
+   order(1380),
+   active(true),
+   controlling_entries('tw__v')
+);

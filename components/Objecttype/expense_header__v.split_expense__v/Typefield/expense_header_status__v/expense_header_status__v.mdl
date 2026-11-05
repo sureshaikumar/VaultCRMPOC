@@ -1,0 +1,7 @@
+Typefield expense_header_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.expense_header_status__v.paid_in_full__v',
+         'Picklist.expense_header_status__v.partial_payment__v',
+         'Picklist.expense_header_status__v.unpaid__v')
+);

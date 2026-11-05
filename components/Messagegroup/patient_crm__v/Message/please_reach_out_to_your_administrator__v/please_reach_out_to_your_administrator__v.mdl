@@ -1,0 +1,6 @@
+Message please_reach_out_to_your_administrator__v (
+   label(),
+   active(true),
+   default_value('Please reach out to your administrator'),
+   system_managed(false)
+);

@@ -1,0 +1,13 @@
+RECREATE Picklist product_strategy_strategy_type__v (
+   label('Strategy Type'),
+   active(true),
+   Picklistentry(@Picklistentry/extend_days_on_therapy__v.mdl),
+   Picklistentry(@Picklistentry/promote_efficacy__v.mdl),
+   Picklistentry(@Picklistentry/promote_awareness__v.mdl),
+   Picklistentry(@Picklistentry/promote_new_indication__v.mdl),
+   Picklistentry(@Picklistentry/improve_tier_listing__v.mdl),
+   Picklistentry(@Picklistentry/improve_coverage_position__v.mdl),
+   Picklistentry(@Picklistentry/increase_product_switches__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

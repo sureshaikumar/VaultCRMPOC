@@ -1,0 +1,6 @@
+Message mccp_feedback_mng_removed_targets__v (
+   label(),
+   active(true),
+   default_value('Manage Removed Targets'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Typefield default_consent_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.consent_type_default_consent_type__v.explicit__v',
+         'Picklist.consent_type_default_consent_type__v.implicit__v')
+);

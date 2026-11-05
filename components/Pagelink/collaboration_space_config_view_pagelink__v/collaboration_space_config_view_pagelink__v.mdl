@@ -1,0 +1,11 @@
+RECREATE Pagelink collaboration_space_config_view_pagelink__v (
+   label('Collaboration Space Configuration View'),
+   description('Redirect Collaboration Space Configuration view page to Collaboration Space Configuration App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/view/{{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.collaboration_space_configuration__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.collaboration_space_configuration_page__v')
+);

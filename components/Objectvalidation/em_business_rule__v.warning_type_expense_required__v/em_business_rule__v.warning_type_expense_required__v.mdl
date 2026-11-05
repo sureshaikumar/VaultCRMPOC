@@ -1,0 +1,17 @@
+RECREATE Objectvalidation em_business_rule__v.warning_type_expense_required__v (
+   label('Warning Type Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_event_expense_limit_rule__v", true,
+            "em_per_event_attendee_expense_limit_r__v", true,
+            "em_attendee_expense_cap_rule__v", true,
+            "em_cross_event_attendee_expense_cap_r__v", true,
+            "em_actual_versus_estimate_expense_thr__v", true,
+            "em_per_event_speaker_expense_limit_ru__v", true,
+            false
+        ) = false || Not(IsBlank(warning_type__v))'),
+   description('Valid input for warning_type__v is not added to the Expense Limit Rule.'),
+   error_message('This field is required.'),
+   error_location('warning_type__v')
+);

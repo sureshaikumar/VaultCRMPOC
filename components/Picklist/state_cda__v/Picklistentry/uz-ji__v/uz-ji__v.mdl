@@ -1,0 +1,6 @@
+Picklistentry uz-ji__v (
+   value('Jizzax'),
+   order(4870),
+   active(true),
+   controlling_entries('uz__v')
+);

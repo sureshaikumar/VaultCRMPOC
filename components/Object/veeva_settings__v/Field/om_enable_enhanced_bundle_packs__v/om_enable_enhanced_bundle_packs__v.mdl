@@ -1,0 +1,22 @@
+Field om_enable_enhanced_bundle_packs__v (
+   label('OM Enabled Enhanced Bundle Packs'),
+   type('Number'),
+   active(true),
+   description('If enabled, bundle packs can be added as new order lines and each order lines are created in the background for each product/bundle pack combination so that external systems can identify how many quantities, and from which pack(s) the product was purchase'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(234),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

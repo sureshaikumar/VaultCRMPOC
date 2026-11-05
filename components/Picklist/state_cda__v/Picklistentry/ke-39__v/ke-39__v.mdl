@@ -1,0 +1,6 @@
+Picklistentry ke-39__v (
+   value('Taita/Taveta'),
+   order(2392),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata virtual_event_attendee_job__v (
+   label('Events Management Virtual Event Attendee Job'),
+   active(true),
+   chunk_size(1),
+   description('This job is for the Events Management Virtual Event Attendee.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.VirtualEventAttendeeJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

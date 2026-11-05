@@ -1,0 +1,4 @@
+Typefield approved_email_opt_type__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message rewrite_original__v (
+   label(),
+   active(true),
+   default_value('Original'),
+   system_managed(false)
+);

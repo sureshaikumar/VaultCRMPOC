@@ -1,0 +1,12 @@
+RECREATE Picklist key_message_disable_actions__v (
+   label('Disable Actions'),
+   active(true),
+   Picklistentry(@Picklistentry/swipe__v.mdl),
+   Picklistentry(@Picklistentry/pinch_to_exit__v.mdl),
+   Picklistentry(@Picklistentry/zoom__v.mdl),
+   Picklistentry(@Picklistentry/rotation_lock__v.mdl),
+   Picklistentry(@Picklistentry/navigation_bar__v.mdl),
+   Picklistentry(@Picklistentry/history_buttons__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

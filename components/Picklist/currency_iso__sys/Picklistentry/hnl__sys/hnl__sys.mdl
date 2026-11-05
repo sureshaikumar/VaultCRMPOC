@@ -1,0 +1,5 @@
+Picklistentry hnl__sys (
+   value('HNL'),
+   order(79),
+   active(true)
+);

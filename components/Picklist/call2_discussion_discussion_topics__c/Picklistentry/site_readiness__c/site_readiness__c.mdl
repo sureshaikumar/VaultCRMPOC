@@ -1,0 +1,5 @@
+Picklistentry site_readiness__c (
+   value('Site Readiness'),
+   order(4),
+   active(true)
+);

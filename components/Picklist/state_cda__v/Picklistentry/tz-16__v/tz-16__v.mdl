@@ -1,0 +1,6 @@
+Picklistentry tz-16__v (
+   value('Morogoro'),
+   order(4600),
+   active(true),
+   controlling_entries('tz__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry hi (
+   value('Hindi'),
+   order(50),
+   active(true)
+);

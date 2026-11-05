@@ -1,0 +1,6 @@
+Message advanced_configuration__v (
+   label(),
+   active(true),
+   default_value('Advanced Configuration'),
+   system_managed(false)
+);

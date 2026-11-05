@@ -1,0 +1,9 @@
+Vsmvalue awg__v (
+   label('AWG'),
+   active(true),
+   description('The Aruban Florin (AWG), the official currency of Aruba, used for all financial transactions on the island.'),
+   synonyms('Aruban florin',
+         'Aruba currency'),
+   target('awg__sys'),
+   target_label('AWG')
+);

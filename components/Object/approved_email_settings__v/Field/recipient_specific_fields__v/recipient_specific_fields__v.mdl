@@ -1,0 +1,20 @@
+Field recipient_specific_fields__v (
+   label('Recipient Specific Field'),
+   type('String'),
+   active(true),
+   description('List of fields that when on the pagelayout are available as recipient specific fields.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(28),
+   default_value('"APPROVED_EMAIL_RECIPIENT_SPECIFIC_FIELDS;;ApprovedEmail"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

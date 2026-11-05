@@ -1,0 +1,6 @@
+Picklistentry pnacd__v (
+   value('Pediatric Neurology and Child Development'),
+   order(1416),
+   active(true),
+   controlling_entries('il__v')
+);

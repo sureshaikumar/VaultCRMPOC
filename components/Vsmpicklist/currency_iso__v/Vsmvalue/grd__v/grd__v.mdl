@@ -1,0 +1,10 @@
+Vsmvalue grd__v (
+   label('GRD'),
+   active(true),
+   description('The Greek Drachma (GRD), the former official currency of Greece prior to the adoption of the Euro in 2002, used for historical or legacy financial records.'),
+   synonyms('Greek drachma',
+         'drachma',
+         'Greece legacy currency'),
+   target('grd__sys'),
+   target_label('GRD')
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist call_objective_visibility__v (
+   label('Visibility'),
+   active(true),
+   Picklistentry(@Picklistentry/all__v.mdl),
+   Picklistentry(@Picklistentry/owner__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,23 @@
+Field align_territory_feedback_mode__v (
+   label('Align Territory Feedback Mode'),
+   type('Number'),
+   active(true),
+   description('Null or 0 = Feedback point of entry is disabled/hidden
+1 = Feedback Lite is enabled'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

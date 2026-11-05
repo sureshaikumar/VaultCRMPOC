@@ -1,0 +1,17 @@
+Field test_mode__v (
+   label('Test Mode'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the fax was sent in test mode'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

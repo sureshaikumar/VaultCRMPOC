@@ -1,0 +1,6 @@
+Picklistentry parml__v (
+   value('Physical and Rehabilitative Medicine'),
+   order(1536),
+   active(true),
+   controlling_entries('de__v')
+);

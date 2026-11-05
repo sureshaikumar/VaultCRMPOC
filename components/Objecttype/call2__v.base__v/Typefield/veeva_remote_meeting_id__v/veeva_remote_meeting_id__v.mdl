@@ -1,0 +1,4 @@
+Typefield veeva_remote_meeting_id__v (
+   source('standard'),
+   required(false)
+);

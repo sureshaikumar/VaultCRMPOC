@@ -1,0 +1,52 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.monitored_text__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="object_type__v" />
+            <vault:field reference="parent_monitored_text__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="security_profile__v" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Feedback" name="feedback__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="flagged_phrase__v" />
+            <vault:field reference="text__v" />
+            <vault:field reference="vault_id_link__v" />
+            <vault:field reference="monitored_text_status__v" />
+            <vault:field reference="assignee__v" />
+            <vault:field reference="feedback__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Monitoring Details" name="monitoring_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="text_last_modified_date__v" />
+            <vault:field reference="text_last_modified_by__v" />
+            <vault:field reference="user_profile__v" />
+            <vault:field reference="job_id__v" />
+            <vault:field reference="monitored_date__v" />
+            <vault:field reference="monitoring_rule_name__v" />
+            <vault:field reference="monitored_object__v" />
+            <vault:field reference="monitored_field__v" />
+            <vault:field reference="category__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

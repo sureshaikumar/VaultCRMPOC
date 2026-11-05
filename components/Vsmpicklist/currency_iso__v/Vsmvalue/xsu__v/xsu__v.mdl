@@ -1,0 +1,10 @@
+Vsmvalue xsu__v (
+   label('XSU'),
+   active(true),
+   description('Used for transactions denominated in the Sucre, a virtual regional currency used for trade settlements among member states of the ALBA trading bloc in Latin America.'),
+   synonyms('Sucre',
+         'ALBA sucre',
+         'regional Latin American unit'),
+   target('xsu__sys'),
+   target_label('XSU')
+);

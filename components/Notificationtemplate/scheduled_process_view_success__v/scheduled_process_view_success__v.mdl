@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate scheduled_process_view_success__v (
+   label('Scheduled Process View Success'),
+   active(true),
+   description('Notification template for a successfully completed scheduled Process View run.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Process View for ${processLabel}: ${processViewLabel} ran at ${processViewRunTime}'),
+   notification('<p>The Process View for ${processLabelHtml}: <a href="${processViewViewerUrl}">${processViewLabelHtml}</a> is ready for viewing.</p><p>Ran as: ${processViewRunAsUserFullName}<br />Ran at: ${processViewRunTime}</p>'),
+   email_body('<p>The Process View for ${processLabelHtml}: <a href="${processViewViewerUrl}">${processViewLabelHtml}</a> is ready for viewing.</p><p>Ran as: ${processViewRunAsUserFullName}<br />Ran at: ${processViewRunTime}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

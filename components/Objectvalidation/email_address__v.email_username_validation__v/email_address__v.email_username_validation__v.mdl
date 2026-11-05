@@ -1,0 +1,8 @@
+RECREATE Objectvalidation email_address__v.email_username_validation__v (
+   label('Email Username Validation'),
+   active(true),
+   expression('Not(Contains(email_username__v, "@"))'),
+   description(),
+   error_message('Invalid symbol: @, enter only your email username'),
+   error_location('email_username__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry clm_presentations__v (
+   value('CLM Object Model Presentations'),
+   order(0),
+   active(true)
+);

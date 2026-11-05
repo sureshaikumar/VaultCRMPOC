@@ -1,0 +1,6 @@
+Message filter_is_none_of__v (
+   label(),
+   active(true),
+   default_value('is none of'),
+   system_managed(false)
+);

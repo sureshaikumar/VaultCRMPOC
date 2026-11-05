@@ -1,0 +1,13 @@
+Vsmfield license_type__v (
+   label('License Type'),
+   active(true),
+   description('Picklist indicating the type of Vault license to be assigned to the newly created user. Determines the user''s access level and feature entitlements within the Vault application.'),
+   example_values(),
+   synonyms('license',
+         'user license',
+         'license tier'),
+   target('license_type__sys'),
+   target_label('License Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

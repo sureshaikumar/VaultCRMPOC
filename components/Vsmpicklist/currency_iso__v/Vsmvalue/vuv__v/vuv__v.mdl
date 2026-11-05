@@ -1,0 +1,9 @@
+Vsmvalue vuv__v (
+   label('VUV'),
+   active(true),
+   description('Applies when transactions are denominated in the Vanuatu Vatu, the official currency of the Republic of Vanuatu.'),
+   synonyms('Vanuatu vatu',
+         'Vanuatu currency'),
+   target('vuv__sys'),
+   target_label('VUV')
+);

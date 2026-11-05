@@ -1,0 +1,6 @@
+Message medx_cannot_cancel_message__v (
+   label(),
+   active(true),
+   default_value('The Medical Interaction cannot be canceled because it contains sections.'),
+   system_managed(false)
+);

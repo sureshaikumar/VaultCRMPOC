@@ -1,0 +1,6 @@
+Message align_settings_invalid_obj_err__v (
+   label(),
+   active(true),
+   default_value('{0} does not correspond to a valid Align object'),
+   system_managed(false)
+);

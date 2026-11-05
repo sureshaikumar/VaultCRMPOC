@@ -1,0 +1,6 @@
+Picklistentry is-bog__v (
+   value('Borgarbyggð'),
+   order(2096),
+   active(true),
+   controlling_entries('is__v')
+);

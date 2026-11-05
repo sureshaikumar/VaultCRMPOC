@@ -1,0 +1,5 @@
+Picklistentry abbott_laboratories__v (
+   value('Abbott Laboratories'),
+   order(1),
+   active(true)
+);

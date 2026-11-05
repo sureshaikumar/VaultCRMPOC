@@ -1,0 +1,6 @@
+Message crm_integration_confirm_push_dialog__v (
+   label(),
+   active(true),
+   default_value('Push to {0}'),
+   system_managed(false)
+);

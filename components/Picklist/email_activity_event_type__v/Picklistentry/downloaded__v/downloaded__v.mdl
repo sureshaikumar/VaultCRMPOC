@@ -1,0 +1,5 @@
+Picklistentry downloaded__v (
+   value('Downloaded'),
+   order(8),
+   active(true)
+);

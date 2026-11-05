@@ -1,0 +1,11 @@
+RECREATE Jobmetadata clinical_study_data_integration_job__v (
+   label('Clinical Study Data Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('The job responsible for transferring all Clinical Study data from Clinical to CRM.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clinicalintegration.jobs.ClinicalStudyDataIntegrationJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

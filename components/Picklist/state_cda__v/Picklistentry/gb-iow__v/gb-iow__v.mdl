@@ -1,0 +1,6 @@
+Picklistentry gb-iow__v (
+   value('Isle of Wight'),
+   order(1542),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ci__v (
+   value('Côte D''Ivoire'),
+   order(43),
+   active(true)
+);

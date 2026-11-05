@@ -1,0 +1,5 @@
+Picklistentry ada__v (
+   value('Adangme'),
+   order(3),
+   active(false)
+);

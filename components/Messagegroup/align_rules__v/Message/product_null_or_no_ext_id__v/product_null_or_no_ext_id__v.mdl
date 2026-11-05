@@ -1,0 +1,6 @@
+Message product_null_or_no_ext_id__v (
+   label(),
+   active(true),
+   default_value('Product used in rule criteria is missing or does not have an External ID.'),
+   system_managed(false)
+);

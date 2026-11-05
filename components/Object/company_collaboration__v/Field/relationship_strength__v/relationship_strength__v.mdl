@@ -1,0 +1,18 @@
+Field relationship_strength__v (
+   label('Relationship Strength'),
+   type('Picklist'),
+   active(true),
+   description('Strength of relationship between stakeholder and company'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.company_collaborat_relationship_strength__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

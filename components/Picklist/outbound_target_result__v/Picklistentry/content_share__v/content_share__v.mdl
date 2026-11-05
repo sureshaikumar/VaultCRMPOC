@@ -1,0 +1,5 @@
+Picklistentry content_share__v (
+   value('Content Share'),
+   order(0),
+   active(true)
+);

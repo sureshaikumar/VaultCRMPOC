@@ -1,0 +1,6 @@
+Picklistentry pe-moq__v (
+   value('Moquegua'),
+   order(3486),
+   active(true),
+   controlling_entries('pe__v')
+);

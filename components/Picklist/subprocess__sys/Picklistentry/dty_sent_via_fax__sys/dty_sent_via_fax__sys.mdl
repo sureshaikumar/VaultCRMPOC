@@ -1,0 +1,7 @@
+Picklistentry dty_sent_via_fax__sys (
+   value('Sent via Fax'),
+   order(150),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

@@ -1,0 +1,17 @@
+Field user_input_values__v (
+   label('User Input Values'),
+   type('LongText'),
+   active(true),
+   description('Values for user input tokens, such as picklist selections and free text entries'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

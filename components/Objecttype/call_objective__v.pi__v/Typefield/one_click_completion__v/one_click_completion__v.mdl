@@ -1,0 +1,4 @@
+Typefield one_click_completion__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field approved__v (
+   label('Approved?'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the presentation has been reviewed and approved so that it can be migrated'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

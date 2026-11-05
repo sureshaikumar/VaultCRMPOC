@@ -1,0 +1,18 @@
+Field enable_account_metric_detail_filter__v (
+   label('Enable_Account_Metric_Detail_Filter'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Determines whether Product Metrics per Detail Group defined on the Account act as an additional filter for Call Detail quick entry. Detail items for Groups that are not captured in Product Metrics for the Account continue to be available through Search.'),
+   list_column(false),
+   order(173),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

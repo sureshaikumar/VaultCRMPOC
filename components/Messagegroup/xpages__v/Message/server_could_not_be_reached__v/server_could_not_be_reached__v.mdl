@@ -1,0 +1,6 @@
+Message server_could_not_be_reached__v (
+   label(),
+   active(true),
+   default_value('The server could not be reached.'),
+   system_managed(false)
+);

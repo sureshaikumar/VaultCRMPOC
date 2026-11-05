@@ -1,0 +1,8 @@
+RECREATE Pagelayout inventory_order_allocation_layout__c (
+   active(true),
+   default_layout(true),
+   description('Page Layout is used to create an Inventory Order Allocation record.'),
+   display_lifecycle_stages(false),
+   label('Inventory Order Allocation Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,16 @@
+Typefield type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.index_type__v.budgetary_advisor_index__v',
+         'Picklist.index_type__v.clinical_investigator_index__v',
+         'Picklist.index_type__v.clinical_trial_activity_index__v',
+         'Picklist.index_type__v.connections__v',
+         'Picklist.index_type__v.disease_advocate_index__v',
+         'Picklist.index_type__v.expert_advisor_index__v',
+         'Picklist.index_type__v.guideline_expert_index__v',
+         'Picklist.index_type__v.medical_events_activity_index__v',
+         'Picklist.index_type__v.overall_index__v',
+         'Picklist.index_type__v.publication_activity_index__v',
+         'Picklist.index_type__v.regulatory_advisor_index__v',
+         'Picklist.index_type__v.researcher_index__v')
+);

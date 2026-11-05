@@ -1,0 +1,5 @@
+Picklistentry regis__v (
+   value('Registrar'),
+   order(137),
+   active(true)
+);

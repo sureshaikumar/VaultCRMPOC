@@ -1,0 +1,6 @@
+Picklistentry ni-as__v (
+   value('Costa Caribe Sur'),
+   order(3358),
+   active(true),
+   controlling_entries('ni__v')
+);

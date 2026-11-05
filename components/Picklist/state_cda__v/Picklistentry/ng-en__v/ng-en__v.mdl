@@ -1,0 +1,6 @@
+Picklistentry ng-en__v (
+   value('Enugu'),
+   order(3333),
+   active(true),
+   controlling_entries('ng__v')
+);

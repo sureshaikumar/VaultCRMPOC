@@ -1,0 +1,8 @@
+RECREATE Securityprofile cee_primary_care_sales_manager__c (
+   label('CEE Primary Care Sales Manager'),
+   active(true),
+   description('Security profile for CEE Primary Care Sales Manager Group.'),
+   permission_sets('base_vault_crm__v',
+      'cee_clm_end_user_permissions__c',
+      'cee_consent_end_user__c')
+);

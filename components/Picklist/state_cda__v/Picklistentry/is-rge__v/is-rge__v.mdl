@@ -1,0 +1,6 @@
+Picklistentry is-rge__v (
+   value('Rangárþing eystra'),
+   order(2127),
+   active(true),
+   controlling_entries('is__v')
+);

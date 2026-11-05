@@ -1,0 +1,6 @@
+Message crm_integration_user_status__v (
+   label(),
+   active(true),
+   default_value('User Status'),
+   system_managed(false)
+);

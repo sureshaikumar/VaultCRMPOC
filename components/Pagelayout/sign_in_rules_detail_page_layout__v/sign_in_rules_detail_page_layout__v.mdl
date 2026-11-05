@@ -1,0 +1,8 @@
+RECREATE Pagelayout sign_in_rules_detail_page_layout__v (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Sign In Rules Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

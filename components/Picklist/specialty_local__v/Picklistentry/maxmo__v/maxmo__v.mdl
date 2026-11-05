@@ -1,0 +1,6 @@
+Picklistentry maxmo__v (
+   value('Mammology'),
+   order(873),
+   active(true),
+   controlling_entries('sk__v')
+);

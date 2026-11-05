@@ -1,0 +1,6 @@
+Message no_object_records__v (
+   label(),
+   active(true),
+   default_value('No ${plural_object_label}'),
+   system_managed(false)
+);

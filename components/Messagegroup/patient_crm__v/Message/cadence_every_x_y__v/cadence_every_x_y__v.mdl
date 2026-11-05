@@ -1,0 +1,6 @@
+Message cadence_every_x_y__v (
+   label(),
+   active(true),
+   default_value('Cadence: Every ${x} ${y}'),
+   system_managed(false)
+);

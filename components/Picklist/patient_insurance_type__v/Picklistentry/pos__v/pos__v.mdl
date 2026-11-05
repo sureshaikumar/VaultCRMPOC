@@ -1,0 +1,5 @@
+Picklistentry pos__v (
+   value('POS - Point-of-Service Plan'),
+   order(3),
+   active(true)
+);

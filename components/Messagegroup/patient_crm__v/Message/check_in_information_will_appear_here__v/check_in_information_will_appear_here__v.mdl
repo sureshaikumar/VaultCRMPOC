@@ -1,0 +1,6 @@
+Message check_in_information_will_appear_here__v (
+   label(),
+   active(true),
+   default_value('Check-In information will appear here'),
+   system_managed(false)
+);

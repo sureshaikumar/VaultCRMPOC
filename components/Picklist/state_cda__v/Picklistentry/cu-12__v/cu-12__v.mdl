@@ -1,0 +1,6 @@
+Picklistentry cu-12__v (
+   value('Granma'),
+   order(777),
+   active(true),
+   controlling_entries('cu__v')
+);

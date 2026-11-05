@@ -1,0 +1,6 @@
+Message territory_duplicate_external_id_in_batch__v (
+   label(),
+   active(true),
+   default_value('Territories with duplicate external id in batch'),
+   system_managed(false)
+);

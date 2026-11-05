@@ -1,0 +1,6 @@
+Message align_postgres_data_full_refresh_header__v (
+   label(),
+   active(true),
+   default_value('Full Refresh Warning'),
+   system_managed(false)
+);

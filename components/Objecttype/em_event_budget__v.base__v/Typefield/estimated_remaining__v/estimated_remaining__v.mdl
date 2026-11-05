@@ -1,0 +1,4 @@
+Typefield estimated_remaining__v (
+   source('standard'),
+   required(false)
+);

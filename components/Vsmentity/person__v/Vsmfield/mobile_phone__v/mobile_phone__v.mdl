@@ -1,0 +1,14 @@
+Vsmfield mobile_phone__v (
+   label('Mobile'),
+   active(true),
+   description('The person''s mobile or cell phone number. Used for direct contact and may be used for multi-factor authentication or SMS notifications.'),
+   example_values(),
+   synonyms('mobile',
+         'cell phone',
+         'cell',
+         'phone number'),
+   target('mobile_phone__sys'),
+   target_label('Mobile'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

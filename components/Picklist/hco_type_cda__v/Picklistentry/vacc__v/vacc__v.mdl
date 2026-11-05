@@ -1,0 +1,5 @@
+Picklistentry vacc__v (
+   value('Vaccination Center'),
+   order(29),
+   active(true)
+);

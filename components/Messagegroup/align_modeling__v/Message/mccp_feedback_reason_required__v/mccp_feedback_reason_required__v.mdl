@@ -1,0 +1,6 @@
+Message mccp_feedback_reason_required__v (
+   label(),
+   active(true),
+   default_value('Please select a challenge reason.'),
+   system_managed(false)
+);

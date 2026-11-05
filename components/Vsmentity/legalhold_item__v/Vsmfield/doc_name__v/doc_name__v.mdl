@@ -1,0 +1,13 @@
+Vsmfield doc_name__v (
+   label('Document Name'),
+   active(true),
+   description('The display name of the document associated with this legal hold item. Useful for searching or reporting on held documents by their human-readable title without needing to reference the document object directly.'),
+   example_values(),
+   synonyms('document title',
+         'file name',
+         'doc title'),
+   target('doc_name__v'),
+   target_label('Document Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

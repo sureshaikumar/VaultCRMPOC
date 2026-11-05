@@ -1,0 +1,18 @@
+Field product_status__v (
+   label('Product Status'),
+   type('Picklist'),
+   active(true),
+   description('Comparing the Target''s Product Attainment and the % Cycle Completed.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.mc_cycle_plan_target_product_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

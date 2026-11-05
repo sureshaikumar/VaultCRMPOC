@@ -1,0 +1,6 @@
+Message pending_creation__v (
+   label(),
+   active(true),
+   default_value('Pending Creation'),
+   system_managed(false)
+);

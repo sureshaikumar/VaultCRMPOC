@@ -1,0 +1,6 @@
+Message recent_conversations__v (
+   label(),
+   active(true),
+   default_value('Recent Conversations'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="Objectaction.sample_inventory__v.unlock__v">
+            <lcActionLabelXmlIdentifier>Unlock</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

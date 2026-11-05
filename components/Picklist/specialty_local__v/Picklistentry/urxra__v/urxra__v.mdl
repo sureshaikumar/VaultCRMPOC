@@ -1,0 +1,6 @@
+Picklistentry urxra__v (
+   value('Urological Radiology'),
+   order(1900),
+   active(true),
+   controlling_entries('mk__v')
+);

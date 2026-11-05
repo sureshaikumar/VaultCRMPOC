@@ -1,0 +1,18 @@
+Field checklist_field__sys (
+   label('Checklist Field'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content('The Checklist field to be translated.'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.checklist_field__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

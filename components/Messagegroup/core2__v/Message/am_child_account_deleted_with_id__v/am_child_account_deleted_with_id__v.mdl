@@ -1,0 +1,6 @@
+Message am_child_account_deleted_with_id__v (
+   label(),
+   active(true),
+   default_value('Child Account record {0} associated to the losing account will be deleted.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry kr__v (
+   value('Korea, South'),
+   order(119),
+   active(true)
+);

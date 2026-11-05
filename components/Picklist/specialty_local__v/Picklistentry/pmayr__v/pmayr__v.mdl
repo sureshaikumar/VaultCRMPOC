@@ -1,0 +1,7 @@
+Picklistentry pmayr__v (
+   value('Parasitology-Mycology'),
+   order(1286),
+   active(true),
+   controlling_entries('cm__v',
+         'dz__v')
+);

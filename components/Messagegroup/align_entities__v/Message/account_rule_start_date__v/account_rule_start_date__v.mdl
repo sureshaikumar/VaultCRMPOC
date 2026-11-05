@@ -1,0 +1,6 @@
+Message account_rule_start_date__v (
+   label(),
+   active(true),
+   default_value('Child Account Rule cannot begin earlier than Field Force''s Start Date: ${rule_name} (${rule_id}).'),
+   system_managed(false)
+);

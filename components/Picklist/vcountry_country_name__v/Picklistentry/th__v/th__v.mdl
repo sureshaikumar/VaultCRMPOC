@@ -1,0 +1,5 @@
+Picklistentry th__v (
+   value('Thailand'),
+   order(218),
+   active(true)
+);

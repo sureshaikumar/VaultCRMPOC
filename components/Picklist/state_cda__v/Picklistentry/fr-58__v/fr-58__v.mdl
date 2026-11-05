@@ -1,0 +1,6 @@
+Picklistentry fr-58__v (
+   value('Nièvre'),
+   order(1374),
+   active(true),
+   controlling_entries('fr__v')
+);

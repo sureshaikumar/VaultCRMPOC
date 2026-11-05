@@ -1,0 +1,6 @@
+Message search_outside_territories__v (
+   label(),
+   active(true),
+   default_value('Searching Outside Territories...'),
+   system_managed(false)
+);

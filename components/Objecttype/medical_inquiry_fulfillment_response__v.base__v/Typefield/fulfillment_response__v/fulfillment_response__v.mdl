@@ -1,0 +1,4 @@
+Typefield fulfillment_response__v (
+   source('standard'),
+   required(false)
+);

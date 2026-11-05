@@ -1,0 +1,6 @@
+Picklistentry et-or__v (
+   value('Oromia'),
+   order(1267),
+   active(true),
+   controlling_entries('et__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry eg-js__v (
+   value('Janūb Sīnā'''),
+   order(1171),
+   active(true),
+   controlling_entries('eg__v')
+);

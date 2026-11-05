@@ -1,0 +1,6 @@
+Picklistentry mhaoe__v (
+   value('Medical Hematology and Oncology'),
+   order(913),
+   active(true),
+   controlling_entries('lb__v')
+);

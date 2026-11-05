@@ -1,0 +1,6 @@
+Typefield remote_meeting_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_remote_meeting_type__v.engage_meeting__v',
+         'Picklist.call2_remote_meeting_type__v.ms_teams_meeting__v')
+);

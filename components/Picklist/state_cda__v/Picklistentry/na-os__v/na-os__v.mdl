@@ -1,0 +1,6 @@
+Picklistentry na-os__v (
+   value('Omusati'),
+   order(3309),
+   active(true),
+   controlling_entries('na__v')
+);

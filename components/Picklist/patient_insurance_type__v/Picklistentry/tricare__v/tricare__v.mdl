@@ -1,0 +1,5 @@
+Picklistentry tricare__v (
+   value('TRICARE - Tricare'),
+   order(7),
+   active(true)
+);

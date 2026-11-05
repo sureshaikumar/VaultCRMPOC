@@ -1,0 +1,13 @@
+Picklistentry csoul__v (
+   value('Colorectal Surgery'),
+   order(302),
+   active(true),
+   controlling_entries('ca__v',
+         'jo__v',
+         'kr__v',
+         'my__v',
+         'om__v',
+         'ph__v',
+         'pk__v',
+         'tw__v')
+);

@@ -1,0 +1,14 @@
+RECREATE Page apply_product_plan_page__v (
+   label('Apply Product Plan'),
+   active(true),
+   client_distribution(),
+   default_client_code('apply_product_plan_page__v'),
+   description('Apply Product Plan Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.accountplan.productplan.controls.page.ApplyProductPlanPageController'),
+   url_path_name('apply-product-plan')
+);

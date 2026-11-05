@@ -1,0 +1,4 @@
+Typefield test_attachment__c (
+   source('standard'),
+   required(false)
+);

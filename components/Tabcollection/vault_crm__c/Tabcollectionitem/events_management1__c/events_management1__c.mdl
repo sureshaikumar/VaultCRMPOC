@@ -1,0 +1,8 @@
+Tabcollectionitem events_management1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(12),
+   tab('Tab.events_management_tab__v'),
+   type('Tab')
+);

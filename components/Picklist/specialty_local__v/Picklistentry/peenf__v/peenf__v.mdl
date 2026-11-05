@@ -1,0 +1,7 @@
+Picklistentry peenf__v (
+   value('Pediatric ENT'),
+   order(1373),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sdk_request_profiler_processing_success__sys (
+   label('SDK Request Profiler Processing Complete'),
+   active(true),
+   description('Notification template notifying user that SDK Request profiler session processing has completed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('SDK Request Profiler Session Processing Completed: "${Custom.sessionLabel}"'),
+   notification('Your SDK request profiler session processing for Session "${Custom.sessionLabel}" has completed.<br>Session Description:<br><p>${Custom.sessionDescription}</p><br>Details:<br><p>Download the results <a href="${Custom.sessionPageUrl}">here</a></p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

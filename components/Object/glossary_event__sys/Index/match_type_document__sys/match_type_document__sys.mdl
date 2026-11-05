@@ -1,0 +1,6 @@
+Index match_type_document__sys (
+   description(),
+   fields('glossary_definition_match_type__sys',
+         'document__v'),
+   label('Match Type by Document')
+);

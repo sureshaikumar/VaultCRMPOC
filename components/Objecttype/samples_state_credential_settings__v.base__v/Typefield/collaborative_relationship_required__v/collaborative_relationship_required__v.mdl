@@ -1,0 +1,4 @@
+Typefield collaborative_relationship_required__v (
+   source('standard'),
+   required(false)
+);

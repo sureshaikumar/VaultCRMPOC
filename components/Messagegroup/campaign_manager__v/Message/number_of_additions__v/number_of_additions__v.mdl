@@ -1,0 +1,6 @@
+Message number_of_additions__v (
+   label(),
+   active(true),
+   default_value('${count} additions'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry cdf__sys (
+   value('CDF'),
+   order(36),
+   active(true)
+);

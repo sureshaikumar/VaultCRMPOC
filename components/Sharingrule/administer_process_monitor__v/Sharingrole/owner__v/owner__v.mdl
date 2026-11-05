@@ -1,0 +1,3 @@
+Sharingrole owner__v (
+   members('Group.process_monitor_administrators__v')
+);

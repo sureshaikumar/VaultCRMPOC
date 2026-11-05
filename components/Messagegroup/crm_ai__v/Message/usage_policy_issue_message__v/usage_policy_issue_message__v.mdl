@@ -1,0 +1,6 @@
+Message usage_policy_issue_message__v (
+   label(),
+   active(true),
+   default_value('Your request could not be completed because it contains words or phrases that have been rejected by the agent’s usage policies.'),
+   system_managed(false)
+);

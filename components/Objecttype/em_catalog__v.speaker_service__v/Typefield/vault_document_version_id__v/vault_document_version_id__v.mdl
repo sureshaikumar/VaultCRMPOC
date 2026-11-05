@@ -1,0 +1,4 @@
+Typefield vault_document_version_id__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction survey_target__v.update_recurring__v (
+   label('Update Recurring Question Response'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.survey.actions.SurveyTargetUpdateRecurringAction'),
+   active(true),
+   available_all_states(false)
+);

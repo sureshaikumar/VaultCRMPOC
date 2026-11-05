@@ -1,0 +1,6 @@
+Picklistentry pt-01__v (
+   value('Aveiro'),
+   order(3654),
+   active(true),
+   controlling_entries('pt__v')
+);

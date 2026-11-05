@@ -1,0 +1,5 @@
+Picklistentry akk__v (
+   value('Akkadian'),
+   order(10),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ad-06__v (
+   value('Sant Julià de Lòria'),
+   order(4),
+   active(true),
+   controlling_entries('ad__v')
+);

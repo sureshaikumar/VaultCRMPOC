@@ -1,0 +1,10 @@
+Vsmvalue pte__v (
+   label('PTE'),
+   active(true),
+   description('The former official currency of Portugal (PTE), replaced by the euro (EUR) in 2002 when Portugal joined the eurozone.'),
+   synonyms('Portuguese escudo',
+         'escudo',
+         'PTE'),
+   target('pte__sys'),
+   target_label('PTE')
+);

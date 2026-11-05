@@ -1,0 +1,6 @@
+Message case_owner__v (
+   label(),
+   active(true),
+   default_value('Case Owner'),
+   system_managed(false)
+);

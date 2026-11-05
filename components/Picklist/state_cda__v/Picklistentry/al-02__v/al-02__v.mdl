@@ -1,0 +1,6 @@
+Picklistentry al-02__v (
+   value('Durrës'),
+   order(57),
+   active(true),
+   controlling_entries('al__v')
+);

@@ -1,0 +1,6 @@
+Message monitor_jobs__v (
+   label(),
+   active(true),
+   default_value('Monitor Jobs'),
+   system_managed(false)
+);

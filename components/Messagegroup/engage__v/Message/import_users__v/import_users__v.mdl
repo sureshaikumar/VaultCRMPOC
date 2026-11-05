@@ -1,0 +1,6 @@
+Message import_users__v (
+   label(),
+   active(true),
+   default_value('Import Users'),
+   system_managed(false)
+);

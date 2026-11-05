@@ -1,0 +1,5 @@
+Picklistentry stcp__v (
+   value('Special Treatment Center'),
+   order(237),
+   active(true)
+);

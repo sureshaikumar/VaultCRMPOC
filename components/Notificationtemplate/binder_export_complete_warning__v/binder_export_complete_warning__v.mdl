@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate binder_export_complete_warning__v (
+   label('Binder export warning notification'),
+   active(true),
+   description('Notification template notifying user after binder export complete with some warning.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: ${docNameNoLink}  binder export completed.'),
+   notification('<p>Binder export for ${docName} is ready for download. Click on the link below to download the export file.</p> <p>${binderExportDownloadLink}</p> <p>This link will expire on ${binderExportExpirationDate}.</p><br> <b>Export Results</b> <br>Artifacts processed: ${binderDocsProcessed} <br>Artifacts downloaded: ${binderDocsDownloaded} <br><br> <b>WARNINGS</b> <br>${binderDocsFailed} artifacts failed to download due to unexpected error.<br><p>Please check result file for list of detailed errors</p>'),
+   email_body('<p>Binder export for ${docName} is ready for download. Click on the link below to download the export file.</p> <p>${binderExportDownloadLink}</p> <p>This link will expire on ${binderExportExpirationDate}.</p> <br><b>Export Results</b> <br>Artifacts processed: ${binderDocsProcessed} <br>Artifacts downloaded: ${binderDocsDownloaded} <br><br> <b>WARNINGS</b> <br>${binderDocsFailed} artifacts failed to download due to unexpected error.<br><p>Please check result file for list of detailed errors</p> <p>You can see all your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

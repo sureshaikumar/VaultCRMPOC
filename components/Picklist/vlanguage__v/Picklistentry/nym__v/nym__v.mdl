@@ -1,0 +1,5 @@
+Picklistentry nym__v (
+   value('Nyamwezi'),
+   order(240),
+   active(false)
+);

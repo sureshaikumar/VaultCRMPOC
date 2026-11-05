@@ -1,0 +1,6 @@
+Picklistentry fr-72__v (
+   value('Sarthe'),
+   order(1390),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 40900__v (
+   value('Sacramento--Arden-Arcade--Roseville, CA Metropolitan Statistical Area'),
+   order(248),
+   active(true)
+);

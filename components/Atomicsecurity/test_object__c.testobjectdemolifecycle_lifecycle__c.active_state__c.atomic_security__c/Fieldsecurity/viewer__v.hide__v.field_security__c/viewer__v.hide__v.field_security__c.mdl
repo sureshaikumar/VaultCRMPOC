@@ -1,0 +1,7 @@
+Fieldsecurity viewer__v.hide__v.field_security__c (
+   label('Viewer-Hide'),
+   active(true),
+   role('Objectlifecyclerole.viewer__v'),
+   type('hide__v'),
+   fields('Field.country__c')
+);

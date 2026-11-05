@@ -1,0 +1,5 @@
+Picklistentry monthly__v (
+   value('Monthly'),
+   order(0),
+   active(true)
+);

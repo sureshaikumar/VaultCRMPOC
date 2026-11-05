@@ -1,0 +1,4 @@
+Typefield data_storage_geolocation__v (
+   source('standard'),
+   required(false)
+);

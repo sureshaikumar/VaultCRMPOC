@@ -1,0 +1,8 @@
+Objectworkflowstep revise_rejected_documents__c (
+   label('Revise Rejected Documents'),
+   type('contenttask'),
+   next_steps('Objectworkflowstep.sme_approval_task__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('Workflow initiator coordinates with authors to revise rejected documents and resubmit / upload for approval.')
+);

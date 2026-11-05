@@ -1,0 +1,5 @@
+Picklistentry wrong_affiliation__v (
+   value('Wrong Affiliation'),
+   order(0),
+   active(true)
+);

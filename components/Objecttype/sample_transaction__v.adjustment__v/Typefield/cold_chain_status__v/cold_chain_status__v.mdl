@@ -1,0 +1,6 @@
+Typefield cold_chain_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sample_transaction_cold_chain_status__v.in_range__v',
+         'Picklist.sample_transaction_cold_chain_status__v.not_in_range__v')
+);

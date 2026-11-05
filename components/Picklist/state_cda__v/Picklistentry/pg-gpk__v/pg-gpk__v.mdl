@@ -1,0 +1,6 @@
+Picklistentry pg-gpk__v (
+   value('Gulf'),
+   order(3500),
+   active(true),
+   controlling_entries('pg__v')
+);

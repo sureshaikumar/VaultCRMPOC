@@ -1,0 +1,6 @@
+Picklistentry cz-72__v (
+   value('Zlin Region'),
+   order(891),
+   active(true),
+   controlling_entries('cz__v')
+);

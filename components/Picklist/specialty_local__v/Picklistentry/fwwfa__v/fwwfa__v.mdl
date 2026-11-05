@@ -1,0 +1,6 @@
+Picklistentry fwwfa__v (
+   value('Family Welfare Workers (FWW)'),
+   order(541),
+   active(true),
+   controlling_entries('pk__v')
+);

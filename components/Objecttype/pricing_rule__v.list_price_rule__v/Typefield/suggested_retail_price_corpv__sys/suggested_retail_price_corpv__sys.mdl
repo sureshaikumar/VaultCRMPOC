@@ -1,0 +1,4 @@
+Typefield suggested_retail_price_corpv__sys (
+   source('custom'),
+   required(false)
+);

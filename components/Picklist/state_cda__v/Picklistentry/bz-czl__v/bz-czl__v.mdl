@@ -1,0 +1,6 @@
+Picklistentry bz-czl__v (
+   value('Corozal'),
+   order(555),
+   active(true),
+   controlling_entries('bz__v')
+);

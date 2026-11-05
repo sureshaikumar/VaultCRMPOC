@@ -1,0 +1,6 @@
+Picklistentry ma-sef__v (
+   value('Sefrou'),
+   order(2833),
+   active(true),
+   controlling_entries('ma__v')
+);

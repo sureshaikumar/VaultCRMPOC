@@ -1,0 +1,6 @@
+Message proj_publish_alert_2__v (
+   label(),
+   active(true),
+   default_value('Changed Align Settings in the Project will overwrite Production when the Project is Published.'),
+   system_managed(false)
+);

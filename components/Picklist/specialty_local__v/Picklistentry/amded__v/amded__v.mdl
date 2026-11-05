@@ -1,0 +1,15 @@
+Picklistentry amded__v (
+   value('Addiction Medicine'),
+   order(11),
+   active(true),
+   controlling_entries('au__v',
+         'ba__v',
+         'ca__v',
+         'cz__v',
+         'lv__v',
+         'mk__v',
+         'om__v',
+         'rs__v',
+         'se__v',
+         'us__v')
+);

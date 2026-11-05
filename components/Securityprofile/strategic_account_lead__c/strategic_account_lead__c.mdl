@@ -1,0 +1,6 @@
+RECREATE Securityprofile strategic_account_lead__c (
+   label('Field Territory Manager'),
+   active(true),
+   description(),
+   permission_sets()
+);

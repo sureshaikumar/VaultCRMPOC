@@ -1,0 +1,17 @@
+RECREATE Picklist patient_insurance_type__v (
+   label('Patient Insurance Type'),
+   active(true),
+   Picklistentry(@Picklistentry/hmo__v.mdl),
+   Picklistentry(@Picklistentry/ppo__v.mdl),
+   Picklistentry(@Picklistentry/epo__v.mdl),
+   Picklistentry(@Picklistentry/pos__v.mdl),
+   Picklistentry(@Picklistentry/hdhp__v.mdl),
+   Picklistentry(@Picklistentry/medicare__v.mdl),
+   Picklistentry(@Picklistentry/medicaid__v.mdl),
+   Picklistentry(@Picklistentry/tricare__v.mdl),
+   Picklistentry(@Picklistentry/unknown__v.mdl),
+   Picklistentry(@Picklistentry/not_applicable__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

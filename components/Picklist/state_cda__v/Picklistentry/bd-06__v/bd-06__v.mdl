@@ -1,0 +1,6 @@
+Picklistentry bd-06__v (
+   value('Barisal'),
+   order(235),
+   active(true),
+   controlling_entries('bd__v')
+);

@@ -1,0 +1,6 @@
+Message reassign_in_progress__v (
+   label(),
+   active(true),
+   default_value('Reassign in Progress'),
+   system_managed(false)
+);

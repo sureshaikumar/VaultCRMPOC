@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The display name or label for this inbound package data entry. Used to identify and distinguish individual data components within a package.'),
+   example_values(),
+   synonyms('label',
+         'title',
+         'package data name'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

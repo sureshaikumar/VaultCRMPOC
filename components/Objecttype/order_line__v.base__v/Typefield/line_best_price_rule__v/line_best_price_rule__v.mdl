@@ -1,0 +1,4 @@
+Typefield line_best_price_rule__v (
+   source('standard'),
+   required(false)
+);

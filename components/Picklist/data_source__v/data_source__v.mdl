@@ -1,0 +1,10 @@
+RECREATE Picklist data_source__v (
+   label('Data Source'),
+   active(true),
+   Picklistentry(@Picklistentry/veeva__v.mdl),
+   Picklistentry(@Picklistentry/iqvia__v.mdl),
+   Picklistentry(@Picklistentry/other_third_party__v.mdl),
+   Picklistentry(@Picklistentry/self_managed__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

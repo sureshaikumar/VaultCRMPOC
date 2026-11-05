@@ -1,0 +1,6 @@
+Picklistentry si-189__v (
+   value('Vransko'),
+   order(4162),
+   active(true),
+   controlling_entries('si__v')
+);

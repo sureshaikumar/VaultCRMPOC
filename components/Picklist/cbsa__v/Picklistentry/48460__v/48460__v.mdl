@@ -1,0 +1,5 @@
+Picklistentry 48460__v (
+   value('West Plains, MO Micropolitan Statistical Area'),
+   order(454),
+   active(true)
+);

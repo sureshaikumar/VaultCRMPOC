@@ -1,0 +1,7 @@
+Typefield priority__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_speaker_priority__v.1__v',
+         'Picklist.em_event_speaker_priority__v.2__v',
+         'Picklist.em_event_speaker_priority__v.3__v')
+);

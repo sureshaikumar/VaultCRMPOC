@@ -1,0 +1,18 @@
+Field has_attachment__v (
+   label('Has Attachment'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used by the EM Business Rules engine to indicate whether an Event Material with a Required Event Material Rule has an attachment or not.'),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.em_event_material_has_attachment__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

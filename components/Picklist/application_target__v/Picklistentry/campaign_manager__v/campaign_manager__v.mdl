@@ -1,0 +1,5 @@
+Picklistentry campaign_manager__v (
+   value('Campaign Manager'),
+   order(0),
+   active(true)
+);

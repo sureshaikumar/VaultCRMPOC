@@ -1,0 +1,6 @@
+Message medx_recording_in_progress_title__v (
+   label(),
+   active(true),
+   default_value('Recording in Progress'),
+   system_managed(false)
+);

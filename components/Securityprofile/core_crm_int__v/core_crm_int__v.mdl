@@ -1,0 +1,6 @@
+RECREATE Securityprofile core_crm_int__v (
+   label('Core CRM Integration'),
+   active(true),
+   description(),
+   permission_sets('core_crm_int_permissions__v')
+);

@@ -1,0 +1,17 @@
+Field warning_text__v (
+   label('Warning Text'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(5000),
+   help_content('The Warning Text displayed on an EM Business Rule violation.'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

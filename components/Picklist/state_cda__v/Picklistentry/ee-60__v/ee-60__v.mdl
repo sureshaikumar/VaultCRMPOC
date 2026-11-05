@@ -1,0 +1,6 @@
+Picklistentry ee-60__v (
+   value('Lääne-Virumaa'),
+   order(1112),
+   active(true),
+   controlling_entries('ee__v')
+);

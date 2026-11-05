@@ -1,0 +1,21 @@
+RECREATE Objecttype call2_discussion__v.medical_inquiry_fulfillment__v (
+   label('Medical Inquiry Fulfillment'),
+   label_plural('Medical Inquiry Fulfillments'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(false),
+   summary_fields(),
+   Typefield(@Typefield/call2__v.mdl),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/object_type__v.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

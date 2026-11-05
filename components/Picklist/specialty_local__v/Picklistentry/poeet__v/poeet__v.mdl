@@ -1,0 +1,10 @@
+Picklistentry poeet__v (
+   value('Pediatric Otolaryngology (ENT)'),
+   order(1433),
+   active(true),
+   controlling_entries('am__v',
+         'hu__v',
+         'kg__v',
+         'ua__v',
+         'us__v')
+);

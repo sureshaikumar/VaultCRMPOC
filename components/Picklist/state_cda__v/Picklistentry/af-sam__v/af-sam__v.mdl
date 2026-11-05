@@ -1,0 +1,6 @@
+Picklistentry af-sam__v (
+   value('Samangān'),
+   order(42),
+   active(true),
+   controlling_entries('af__v')
+);

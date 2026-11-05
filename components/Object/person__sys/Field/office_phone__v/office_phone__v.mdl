@@ -1,0 +1,19 @@
+Field office_phone__v (
+   label('Office Phone'),
+   type('String'),
+   active(true),
+   description('Office Phone Number for a person.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

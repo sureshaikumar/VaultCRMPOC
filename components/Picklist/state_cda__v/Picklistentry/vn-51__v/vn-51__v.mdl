@@ -1,0 +1,6 @@
+Picklistentry vn-51__v (
+   value('Trà Vinh'),
+   order(4951),
+   active(true),
+   controlling_entries('vn__v')
+);

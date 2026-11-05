@@ -1,0 +1,12 @@
+RECREATE Jobmetadata promomats_doc_transfer_ib_job__v (
+   label('PromoMats to CRM Document Transfer Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that brings over documents from PromoMats to Vault CRM'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.genericdoctransfer.jobs.promomats.PromoMatsGenericDocTransferInboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

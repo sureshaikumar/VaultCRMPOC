@@ -1,0 +1,5 @@
+Picklistentry lung__c (
+   value('Lung'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry inno__v (
+   value('Innovator'),
+   order(0),
+   active(true)
+);

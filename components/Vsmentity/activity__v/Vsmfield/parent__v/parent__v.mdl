@@ -1,0 +1,14 @@
+Vsmfield parent__v (
+   label('Parent'),
+   active(true),
+   description('A reference to the parent record this activity is associated with, such as a study, submission, or other Vault object. Use to find all activities linked to a specific parent record or to understand the context in which the activity was created.'),
+   example_values(),
+   synonyms('parent record',
+         'linked to',
+         'related record',
+         'parent object'),
+   target('parent__v'),
+   target_label('Parent'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

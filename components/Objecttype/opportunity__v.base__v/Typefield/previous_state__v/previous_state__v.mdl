@@ -1,0 +1,4 @@
+Typefield previous_state__v (
+   source('standard'),
+   required(false)
+);

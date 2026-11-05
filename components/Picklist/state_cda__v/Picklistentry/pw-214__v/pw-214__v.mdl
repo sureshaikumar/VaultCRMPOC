@@ -1,0 +1,6 @@
+Picklistentry pw-214__v (
+   value('Ngaraard'),
+   order(3681),
+   active(true),
+   controlling_entries('pw__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry cv__v (
+   value('CV'),
+   order(51),
+   active(true)
+);

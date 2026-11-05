@@ -1,0 +1,5 @@
+Picklistentry lad__v (
+   value('Ladino'),
+   order(181),
+   active(false)
+);

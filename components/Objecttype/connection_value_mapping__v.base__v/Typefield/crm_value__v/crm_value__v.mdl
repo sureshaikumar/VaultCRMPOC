@@ -1,0 +1,4 @@
+Typefield crm_value__v (
+   source('standard'),
+   required(false)
+);

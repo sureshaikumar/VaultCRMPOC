@@ -1,0 +1,17 @@
+Field meeting_name__v (
+   label('Meeting Name'),
+   type('LongText'),
+   active(true),
+   description('Meeting Name for the Remote Meeting'),
+   required(false),
+   max_length(300),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

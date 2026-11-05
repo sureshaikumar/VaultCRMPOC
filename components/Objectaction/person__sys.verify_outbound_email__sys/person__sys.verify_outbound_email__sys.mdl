@@ -1,0 +1,8 @@
+RECREATE Objectaction person__sys.verify_outbound_email__sys (
+   label('Verify Outbound Email'),
+   description('Sends a verification email to the provided email address which contains a link that must be clicked in order to activate Outbound Email Status'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.outboundemail.VerifyOutboundEmailAction'),
+   active(true),
+   available_all_states(true)
+);

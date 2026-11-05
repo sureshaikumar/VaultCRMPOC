@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.lock_version__sys (
+   label('Lock Version'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.match.LockVersionAction'),
+   active(true),
+   available_all_states(true)
+);

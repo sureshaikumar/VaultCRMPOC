@@ -1,0 +1,16 @@
+RECREATE Picklist publication_publication_type__v (
+   label('Publication Type'),
+   active(true),
+   Picklistentry(@Picklistentry/approval_report__v.mdl),
+   Picklistentry(@Picklistentry/book__v.mdl),
+   Picklistentry(@Picklistentry/comment__v.mdl),
+   Picklistentry(@Picklistentry/comparative_evaluation_study__v.mdl),
+   Picklistentry(@Picklistentry/general_article__v.mdl),
+   Picklistentry(@Picklistentry/hta_report__v.mdl),
+   Picklistentry(@Picklistentry/medical_guideline__v.mdl),
+   Picklistentry(@Picklistentry/meta_analysis__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   Picklistentry(@Picklistentry/trial_publication__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

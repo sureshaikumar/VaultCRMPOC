@@ -1,0 +1,6 @@
+Picklistentry cdhie__v (
+   value('Chest Diseases'),
+   order(189),
+   active(true),
+   controlling_entries('tr__v')
+);

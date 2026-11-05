@@ -1,0 +1,5 @@
+Picklistentry hanging_bar__v (
+   value('Hanging Bar'),
+   order(2),
+   active(true)
+);

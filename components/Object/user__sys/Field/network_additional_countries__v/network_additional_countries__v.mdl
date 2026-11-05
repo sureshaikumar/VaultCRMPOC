@@ -1,0 +1,19 @@
+Field network_additional_countries__v (
+   label('Network Additional Countries'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content('Additional countries the user could travel to, the values are used for Veeva Network'),
+   list_column(false),
+   order(89),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

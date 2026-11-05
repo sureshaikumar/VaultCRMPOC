@@ -1,0 +1,6 @@
+Message crm_int_missing_rm_vcountry2__v (
+   label(),
+   active(true),
+   default_value('The (${vcountry__v}) value from CRM''s vcountry__v was not found in Align''s aln_country__v. Either remove the User''s vcountry__v value in CRM, or add a matching aln_country__v value to Align.'),
+   system_managed(false)
+);

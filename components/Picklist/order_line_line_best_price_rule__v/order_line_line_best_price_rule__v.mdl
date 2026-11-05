@@ -1,0 +1,11 @@
+RECREATE Picklist order_line_line_best_price_rule__v (
+   label('Line Best Rule'),
+   active(true),
+   Picklistentry(@Picklistentry/campaign_with_contract__v.mdl),
+   Picklistentry(@Picklistentry/order_campaign__v.mdl),
+   Picklistentry(@Picklistentry/contract__v.mdl),
+   Picklistentry(@Picklistentry/standard__v.mdl),
+   Picklistentry(@Picklistentry/combined__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

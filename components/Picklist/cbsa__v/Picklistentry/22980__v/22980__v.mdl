@@ -1,0 +1,5 @@
+Picklistentry 22980__v (
+   value('Fort Valley, GA Micropolitan Statistical Area'),
+   order(313),
+   active(true)
+);

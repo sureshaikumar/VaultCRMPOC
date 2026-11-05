@@ -1,0 +1,9 @@
+Picklistentry caapa__v (
+   value('Child and Adolescent Psychiatry and Psychotherapy'),
+   order(195),
+   active(true),
+   controlling_entries('ba__v',
+         'ch__v',
+         'de__v',
+         'li__v')
+);

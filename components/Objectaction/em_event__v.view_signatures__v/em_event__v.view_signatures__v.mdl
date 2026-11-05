@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.view_signatures__v (
+   label('View Signatures'),
+   description('Action that displays signature capture in a viewable document'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.ViewSignaturesAction'),
+   active(true),
+   available_all_states(true)
+);

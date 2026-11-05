@@ -1,0 +1,6 @@
+Picklistentry ug-311__v (
+   value('Nakapiripirit'),
+   order(4716),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry gpnt__v (
+   value('Nutrition'),
+   order(50),
+   active(true)
+);

@@ -1,0 +1,7 @@
+Typefield call2_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_status__v.planned__v',
+         'Picklist.call2_status__v.saved__v',
+         'Picklist.call2_status__v.submitted__v')
+);

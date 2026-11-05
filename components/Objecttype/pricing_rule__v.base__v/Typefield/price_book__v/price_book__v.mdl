@@ -1,0 +1,4 @@
+Typefield price_book__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ph-btg__v (
+   value('Batangas'),
+   order(3546),
+   active(true),
+   controlling_entries('ph__v')
+);

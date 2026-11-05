@@ -1,0 +1,116 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_territory__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="parent_territory__v" />
+            <vault:field reference="hierarchy_level__v" />
+            <vault:field reference="effective_datetime__v" />
+            <vault:field reference="send_to_crm__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="field_force__v" />
+            <vault:field reference="functional_profile__v" />
+            <vault:field reference="country__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Information Section" name="details1__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="end_datetime__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="created_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Roster Member Territories" name="roster_member_territories__c">
+        <vault:relatedObject relationship="aln_roster_member_territory__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="end_datetime__v" width="200px" />
+            <vault:field reference="roster_member__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="start_datetime__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Geography Territories" name="geography_territories__c">
+        <vault:relatedObject relationship="aln_geography_territories__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="end_datetime__v" width="200px" />
+            <vault:field reference="start_datetime__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="geography_object__v" width="200px" />
+            <vault:field reference="geography_object_type__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Territory Footprints" name="territory_footprints__c">
+        <vault:relatedObject relationship="aln_territory_footprints__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="footprint__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Territory Products" name="territory_products__c">
+        <vault:relatedObject relationship="aln_territory_products__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="end_datetime__v" width="200px" />
+            <vault:field reference="grouping_product__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="start_datetime__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Rules" name="account_rules__c">
+        <vault:relatedObject relationship="aln_account_rules__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="rule_type__v" width="200px" />
+            <vault:field reference="field_force__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Exclusion" name="account_exclusion__c">
+        <vault:relatedObject relationship="territory_aln_account_exclusions__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="assignment_type__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="exclusion_reason__v" width="200px" />
+            <vault:field reference="exclusion_type__v" width="200px" />
+            <vault:field reference="field_force__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Territories" name="account_territories__c">
+        <vault:relatedObject relationship="aln_account_territories__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="account__v" width="200px" />
+            <vault:field reference="country__v" width="200px" />
+            <vault:field reference="end_date__v" width="200px" />
+            <vault:field reference="end_datetime__v" width="200px" />
+            <vault:field reference="exclusive_assignment__v" width="200px" />
+            <vault:field reference="send_to_crm__v" width="200px" />
+            <vault:field reference="source__v" width="200px" />
+            <vault:field reference="start_date__v" width="200px" />
+            <vault:field reference="start_datetime__v" width="200px" />
+            <vault:field reference="territory__v" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="MC Cycle Plans" name="mc_cycle_plans__c">
+        <vault:relatedObject relationship="aln_mc_cycle_plans__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

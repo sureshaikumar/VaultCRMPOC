@@ -1,0 +1,17 @@
+Field import_inactive_assignments__v (
+   label('Import Inactive Assignments'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Enables importing assignments of inactive accounts from CRM into Align. This is a global production setting only and does not impact modeling behavior.'),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

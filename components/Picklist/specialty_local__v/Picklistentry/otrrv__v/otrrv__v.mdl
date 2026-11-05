@@ -1,0 +1,8 @@
+Picklistentry otrrv__v (
+   value('Orthopedics-Traumatology'),
+   order(1224),
+   active(true),
+   controlling_entries('al__v',
+         'cm__v',
+         'sn__v')
+);

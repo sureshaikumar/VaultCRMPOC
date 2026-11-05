@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <expression operator="eq" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+            <value>Object.survey__v.object_type__v</value>
+        </expression>
+        <expression operator="value" type="string">
+            <value>Coaching Report</value>
+        </expression>
+    </expression>
+    <actions>
+        <action type="Objectaction.survey__v.calculate_sharing__v">
+            <lcActionLabelXmlIdentifier>Calculate Sharing</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

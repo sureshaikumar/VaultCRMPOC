@@ -1,0 +1,19 @@
+Field speaker_transportation_method__v (
+   label('Speaker Transportation Method'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used to define a specific Speaker Transportation Method parameter.'),
+   list_column(false),
+   order(37),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+RECREATE Atomicsecurity inventory_order__v.inventory_order_lifecycle__v.saved_state__v.atomic_security__c (
+   label('Inventory Order-Inventory Order-Saved'),
+   active(true),
+   object('Object.inventory_order__v'),
+   object_lifecycle('Objectlifecycle.inventory_order_lifecycle__v'),
+   state('Objectlifecyclestate.saved_state__v'),
+   Workflowactionsecurity(@Workflowactionsecurity/DEFAULT.hide__v.workflow_action_security__c.mdl)
+);

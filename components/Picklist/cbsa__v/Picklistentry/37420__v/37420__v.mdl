@@ -1,0 +1,5 @@
+Picklistentry 37420__v (
+   value('Pampa, TX Micropolitan Statistical Area'),
+   order(599),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 30460__v (
+   value('Lexington-Fayette, KY Metropolitan Statistical Area'),
+   order(430),
+   active(true)
+);

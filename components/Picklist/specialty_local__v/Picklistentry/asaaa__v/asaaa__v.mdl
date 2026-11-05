@@ -1,0 +1,6 @@
+Picklistentry asaaa__v (
+   value('Andrology Sexology and Anti-Aging Medicine'),
+   order(67),
+   active(true),
+   controlling_entries('id__v')
+);

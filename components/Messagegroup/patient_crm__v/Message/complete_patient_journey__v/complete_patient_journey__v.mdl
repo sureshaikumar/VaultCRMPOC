@@ -1,0 +1,6 @@
+Message complete_patient_journey__v (
+   label(),
+   active(true),
+   default_value('Complete Patient Journey'),
+   system_managed(false)
+);

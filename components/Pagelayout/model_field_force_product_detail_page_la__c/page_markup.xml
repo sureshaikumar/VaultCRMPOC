@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_field_force_product_model__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="end_datetime__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="favorite__v" />
+            <vault:field reference="field_force_model__v" />
+            <vault:field reference="grouping_product__v" />
+            <vault:field reference="lock_status__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="production_record__v" />
+            <vault:field reference="send_to_crm__v" />
+            <vault:field reference="source__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="start_datetime__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

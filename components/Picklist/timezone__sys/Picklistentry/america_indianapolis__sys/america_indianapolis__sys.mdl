@@ -1,0 +1,5 @@
+Picklistentry america_indianapolis__sys (
+   value('(GMT-05:00) Eastern Standard Time (America/Indiana/Indianapolis)'),
+   order(64),
+   active(true)
+);

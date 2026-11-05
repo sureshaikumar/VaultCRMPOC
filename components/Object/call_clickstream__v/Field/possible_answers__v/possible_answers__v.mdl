@@ -1,0 +1,17 @@
+Field possible_answers__v (
+   label('Possible Answers'),
+   type('LongText'),
+   active(true),
+   description('Comma separated list of possible answers to a survey question, or the items in a dropdown.'),
+   required(false),
+   max_length(2000),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

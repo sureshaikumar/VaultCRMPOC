@@ -1,0 +1,7 @@
+Picklistentry dty_base_document__sys (
+   value('Base Document'),
+   order(15),
+   active(true),
+   controlling_entries('dlc_unclassified__sys',
+         'dlc_general__sys')
+);

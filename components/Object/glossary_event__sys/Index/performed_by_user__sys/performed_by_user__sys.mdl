@@ -1,0 +1,5 @@
+Index performed_by_user__sys (
+   description(),
+   fields('performed_by_user__sys'),
+   label('User')
+);

@@ -1,0 +1,6 @@
+Message model_dialog_note__v (
+   label(),
+   active(true),
+   default_value('Note'),
+   system_managed(false)
+);

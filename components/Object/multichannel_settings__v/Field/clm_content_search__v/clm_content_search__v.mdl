@@ -1,0 +1,25 @@
+Field clm_content_search__v (
+   label('CLM Content Search'),
+   type('Number'),
+   active(true),
+   description('0 or Null - Content search is disabled
+1 - Content search is enabled
+2 - Content search is rolled back'),
+   required(false),
+   unique(false),
+   max_value(2),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

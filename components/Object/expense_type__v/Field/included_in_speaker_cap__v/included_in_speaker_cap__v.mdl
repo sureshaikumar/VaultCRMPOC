@@ -1,0 +1,18 @@
+Field included_in_speaker_cap__v (
+   label('Included In Speaker Cap'),
+   type('Boolean'),
+   active(true),
+   description('If checked, any expense of this type that is associated with a speaker will automatically count toward that speaker''s cap.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

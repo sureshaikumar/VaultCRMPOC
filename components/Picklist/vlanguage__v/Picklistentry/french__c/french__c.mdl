@@ -1,0 +1,5 @@
+Picklistentry french__c (
+   value('French'),
+   order(373),
+   active(true)
+);

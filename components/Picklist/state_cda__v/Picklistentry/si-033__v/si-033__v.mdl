@@ -1,0 +1,6 @@
+Picklistentry si-033__v (
+   value('Šalovci'),
+   order(4007),
+   active(true),
+   controlling_entries('si__v')
+);

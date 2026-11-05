@@ -1,0 +1,6 @@
+Message all_cases__v (
+   label(),
+   active(true),
+   default_value('All Cases'),
+   system_managed(false)
+);

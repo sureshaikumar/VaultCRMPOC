@@ -1,0 +1,6 @@
+Picklistentry phsmu__v (
+   value('Public Health - Social Medicine'),
+   order(1632),
+   active(true),
+   controlling_entries('gr__v')
+);

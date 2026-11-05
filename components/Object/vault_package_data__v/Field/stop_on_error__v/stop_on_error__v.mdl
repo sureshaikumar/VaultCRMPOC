@@ -1,0 +1,17 @@
+Field stop_on_error__v (
+   label('Stop On Error'),
+   type('Boolean'),
+   active(false),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

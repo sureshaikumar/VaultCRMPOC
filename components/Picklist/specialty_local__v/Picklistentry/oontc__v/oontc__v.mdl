@@ -1,0 +1,6 @@
+Picklistentry oontc__v (
+   value('Onco-otolaryngology'),
+   order(1108),
+   active(true),
+   controlling_entries('ua__v')
+);

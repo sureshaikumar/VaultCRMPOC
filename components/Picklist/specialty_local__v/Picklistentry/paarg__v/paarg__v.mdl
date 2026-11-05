@@ -1,0 +1,6 @@
+Picklistentry paarg__v (
+   value('Pediatric Anesthesiology and Resuscitation'),
+   order(1339),
+   active(true),
+   controlling_entries('kg__v')
+);

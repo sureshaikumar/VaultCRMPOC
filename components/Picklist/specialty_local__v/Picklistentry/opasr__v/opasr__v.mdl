@@ -1,0 +1,6 @@
+Picklistentry opasr__v (
+   value('Oral Pathology and Surgery'),
+   order(1177),
+   active(true),
+   controlling_entries('dz__v')
+);

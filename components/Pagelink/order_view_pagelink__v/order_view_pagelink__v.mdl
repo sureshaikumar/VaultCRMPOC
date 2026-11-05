@@ -1,0 +1,11 @@
+RECREATE Pagelink order_view_pagelink__v (
+   label('Order View'),
+   description('Redirects viewing Orders to the Order Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Object.id}}/view'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.order__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.order_detail_page__v')
+);

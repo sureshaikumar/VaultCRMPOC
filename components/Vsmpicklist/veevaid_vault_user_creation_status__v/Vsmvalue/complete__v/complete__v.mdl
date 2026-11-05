@@ -1,0 +1,12 @@
+Vsmvalue complete__v (
+   label('Complete'),
+   active(true),
+   description('Indicates that the Veeva ID Vault user has been successfully created and is ready for use.'),
+   synonyms('done',
+         'user created',
+         'provisioning complete',
+         'successful',
+         'finished'),
+   target('complete__v'),
+   target_label('Complete')
+);

@@ -1,0 +1,6 @@
+Message ctav_error_copy_file__v (
+   label(),
+   active(true),
+   default_value('Copy of media files to target Vault CRM has failed'),
+   system_managed(false)
+);

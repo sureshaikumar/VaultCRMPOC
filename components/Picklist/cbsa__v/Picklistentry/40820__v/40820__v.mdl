@@ -1,0 +1,5 @@
+Picklistentry 40820__v (
+   value('Ruston, LA Micropolitan Statistical Area'),
+   order(260),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field disable_call_cycle_view__v (
+   label('Disable Call Cycle View'),
+   type('Boolean'),
+   active(true),
+   description('If true the user will not see the call cycle tab on the tablet.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(31),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

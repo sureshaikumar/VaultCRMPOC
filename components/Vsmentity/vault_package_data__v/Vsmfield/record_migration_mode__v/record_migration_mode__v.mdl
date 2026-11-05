@@ -1,0 +1,13 @@
+Vsmfield record_migration_mode__v (
+   label('Record Migration Mode'),
+   active(true),
+   description('Boolean flag indicating whether records should be processed in migration mode during deployment, which may bypass certain validations or lifecycle rules. Typically enabled for large-scale data migrations to preserve original record states.'),
+   example_values(),
+   synonyms('migration mode',
+         'migrate records',
+         'migration flag'),
+   target('record_migration_mode__sys'),
+   target_label('Record Migration Mode'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

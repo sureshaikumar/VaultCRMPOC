@@ -1,0 +1,6 @@
+Picklistentry gd-10__v (
+   value('Southern Grenadine Islands'),
+   order(1675),
+   active(true),
+   controlling_entries('gd__v')
+);

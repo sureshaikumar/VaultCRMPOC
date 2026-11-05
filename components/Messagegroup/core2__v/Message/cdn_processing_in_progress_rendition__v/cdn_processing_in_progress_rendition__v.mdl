@@ -1,0 +1,6 @@
+Message cdn_processing_in_progress_rendition__v (
+   label(),
+   active(true),
+   default_value('Vault CRM is currently processing the renditions for this document. Please wait until current processing is complete to perform this action.'),
+   system_managed(false)
+);

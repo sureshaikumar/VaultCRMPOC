@@ -1,0 +1,5 @@
+Index source_user_v__sys (
+   description(),
+   fields('source_user__v'),
+   label('Source User')
+);

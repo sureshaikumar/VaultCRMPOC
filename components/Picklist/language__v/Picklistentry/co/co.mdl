@@ -1,0 +1,5 @@
+Picklistentry co (
+   value('Corsican'),
+   order(97),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message footprint_import_aborted__v (
+   label(),
+   active(true),
+   default_value('Footprint import aborted'),
+   system_managed(false)
+);

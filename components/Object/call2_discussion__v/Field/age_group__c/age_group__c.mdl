@@ -1,0 +1,20 @@
+Field age_group__c (
+   label('Age Group'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(47),
+   multi_value(false),
+   picklist('Picklist.age_group__c'),
+   controlling_picklist('product_map__v'),
+   picklist_dependencies('{"restolar__c":["611__c","05__c"],"cholecap__c":["1860__c","611__c","05__c","60__c","1217__c"],"restolar1__c":["1860__c","60__c"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

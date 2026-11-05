@@ -1,0 +1,5 @@
+Picklistentry 14620__v (
+   value('Bradford, PA Micropolitan Statistical Area'),
+   order(913),
+   active(true)
+);

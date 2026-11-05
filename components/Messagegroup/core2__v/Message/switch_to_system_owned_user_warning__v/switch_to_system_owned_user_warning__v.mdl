@@ -1,0 +1,6 @@
+Message switch_to_system_owned_user_warning__v (
+   label(),
+   active(true),
+   default_value('This action cannot be undone. Switching to a System-Owned User permanently disables the legacy integration user configuration. Please see ${vault_crm_help} for more details.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message wd_int_help_1__v (
+   label(),
+   active(true),
+   default_value('Workday has a Reporting as a Service (RaaS) interface which allows you to export most data from Workday by creating a custom report within Workday then exposing it as a web service.'),
+   system_managed(false)
+);

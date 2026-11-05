@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate bulkworkflowsummary__v (
+   label('bulkWorkflowSummary'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Bulk Workflow Completed'),
+   notification('<b>Workflow Summary:</b><br> ${bulkWorkflowList} ${bulkWorkflowSuccessHeader} <br>${bulkWorkflowFailuresHeader}'),
+   email_body('<b>Workflow Summary:</b><br> ${bulkWorkflowList} <br><b>Results:</b> <br> ${bulkWorkflowSuccessHeader} ${bulkWorkflowSuccessList} ${bulkWorkflowFailuresHeader} ${bulkWorkflowFailuresList}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

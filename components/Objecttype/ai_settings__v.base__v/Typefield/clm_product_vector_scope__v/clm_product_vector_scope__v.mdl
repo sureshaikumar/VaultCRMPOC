@@ -1,0 +1,4 @@
+Typefield clm_product_vector_scope__v (
+   source('standard'),
+   required(false)
+);

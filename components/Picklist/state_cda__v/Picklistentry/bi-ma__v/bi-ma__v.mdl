@@ -1,0 +1,6 @@
+Picklistentry bi-ma__v (
+   value('Makamba'),
+   order(415),
+   active(true),
+   controlling_entries('bi__v')
+);

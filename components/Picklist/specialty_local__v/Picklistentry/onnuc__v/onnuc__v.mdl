@@ -1,0 +1,6 @@
+Picklistentry onnuc__v (
+   value('Oncology Nursing'),
+   order(1128),
+   active(true),
+   controlling_entries('ee__v')
+);

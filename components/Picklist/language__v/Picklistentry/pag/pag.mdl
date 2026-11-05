@@ -1,0 +1,5 @@
+Picklistentry pag (
+   value('Pangasinan'),
+   order(282),
+   active(true)
+);

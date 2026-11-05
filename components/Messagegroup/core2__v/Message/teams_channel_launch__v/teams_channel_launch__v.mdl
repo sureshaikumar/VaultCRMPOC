@@ -1,0 +1,6 @@
+Message teams_channel_launch__v (
+   label(),
+   active(true),
+   default_value('Copy Link to share the Teams channel with others, or Launch Channel to open the channel in Teams.'),
+   system_managed(false)
+);

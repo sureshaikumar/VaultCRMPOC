@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="LIFECYCLE_ENTRY_CRITERIA_FIELD" actionPublicKey="lifecycle_entry_criteria_fi_r75hbovif7ft__c">
+            <expression operator="isBlank">
+                <expression operator="field" type="string">
+                    <value>Object.test_object__c.test_type__c</value>
+                </expression>
+            </expression>
+        </action>
+    </actions>
+</rule>

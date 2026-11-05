@@ -1,0 +1,10 @@
+RECREATE Tab opportunity_overview_tab__v (
+   active(false),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Opportunity Overview'),
+   order(700),
+   page('Page.opportunity_overview_page__v'),
+   parent(),
+   url(@url.txt)
+);

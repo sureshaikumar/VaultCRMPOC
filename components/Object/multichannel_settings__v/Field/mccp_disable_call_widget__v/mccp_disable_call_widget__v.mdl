@@ -1,0 +1,20 @@
+Field mccp_disable_call_widget__v (
+   label('MCCP Disable Call Widget'),
+   type('String'),
+   active(true),
+   description('Double semi-colon delimited list of call record types where the MCCP widget should not be displayed.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(23),
+   default_value('"MCCP_DISABLE_CALL_WIDGET;;Multichannel"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

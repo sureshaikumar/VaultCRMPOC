@@ -1,0 +1,6 @@
+Picklistentry it-fg__v (
+   value('Foggia'),
+   order(2207),
+   active(true),
+   controlling_entries('it__v')
+);

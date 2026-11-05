@@ -1,0 +1,20 @@
+Field benefit_design_line_status__v (
+   label('Benefit Design Line Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status codes for this product in this benefit design line. For example, one of the codes might be ''Tier 1''.  The valid values in this field are controlled by the value of the type field, because not all status values are valid for all types of benefit des'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.benefit_design_line_status__v'),
+   controlling_picklist('type__v'),
+   picklist_dependencies('{"commercial__v":["tier_4__v","tier_5__v","tier_8__v","tier_9__v","tier_7__v","tier_6__v","tier_3__v","tier_2__v","tier_1__v"],"medicaid__v":["approved_with_restrictions__v","approved__v","non_formulary_not_reimbursed__v","non_formulary_covered__v","non_formulary_higher_copay__v","non_formulary_unknown__v","non_formulary_prior_authorization__v"],"va__v":["approved__v","not_reimbursed__v"],"medicare__v":["tier_4__v","tier_5__v","not_listed_higher_copay__v","tier_3__v","not_listed_covered__v","tier_2__v","tier_1__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

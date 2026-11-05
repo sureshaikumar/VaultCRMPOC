@@ -1,0 +1,5 @@
+Picklistentry natevba__v (
+   value('Natevba'),
+   order(1),
+   active(true)
+);

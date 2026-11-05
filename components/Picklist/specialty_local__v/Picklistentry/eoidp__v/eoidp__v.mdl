@@ -1,0 +1,6 @@
+Picklistentry eoidp__v (
+   value('Epidemiology of Infectious Diseases'),
+   order(521),
+   active(true),
+   controlling_entries('bg__v')
+);

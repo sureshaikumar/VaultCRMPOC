@@ -1,0 +1,6 @@
+Message vault_org_id__v (
+   label(),
+   active(true),
+   default_value('Vault Org ID'),
+   system_managed(false)
+);

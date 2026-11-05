@@ -1,0 +1,6 @@
+Picklistentry dty_hcp_information__sys (
+   value('HCP Information'),
+   order(78),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

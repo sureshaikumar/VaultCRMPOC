@@ -1,0 +1,5 @@
+Picklistentry luo (
+   value('Luo'),
+   order(110),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry ir-24__v (
+   value('Ardabīl'),
+   order(2076),
+   active(true),
+   controlling_entries('ir__v')
+);

@@ -1,0 +1,4 @@
+Typefield strengths__c (
+   source('custom'),
+   required(false)
+);

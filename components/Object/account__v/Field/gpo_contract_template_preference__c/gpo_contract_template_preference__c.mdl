@@ -1,0 +1,18 @@
+Field gpo_contract_template_preference__c (
+   label('GPO Contract Template Preference'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Does the GPO have a preference on contract template?'),
+   list_column(false),
+   order(177),
+   multi_value(false),
+   picklist('Picklist.gpo_contract_template_preference__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,17 @@
+Field data_change_request_attachments__v (
+   label('Data Change Request Attachments'),
+   type('Boolean'),
+   active(true),
+   description('Determines if a user can add attachments when submitting a Data Change Request.'),
+   required(false),
+   checkbox(true),
+   help_content('Enables the ability to add attachments to a Data Change Request.'),
+   list_column(false),
+   order(336),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

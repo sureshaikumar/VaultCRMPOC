@@ -1,0 +1,6 @@
+Picklistentry si-194__v (
+   value('Šmartno pri Litiji'),
+   order(4167),
+   active(true),
+   controlling_entries('si__v')
+);

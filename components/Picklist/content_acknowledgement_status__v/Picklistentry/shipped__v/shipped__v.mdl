@@ -1,0 +1,5 @@
+Picklistentry shipped__v (
+   value('Shipped'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 37780__v (
+   value('Pecos, TX Micropolitan Statistical Area'),
+   order(635),
+   active(true)
+);

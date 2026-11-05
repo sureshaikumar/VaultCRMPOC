@@ -1,0 +1,16 @@
+RECREATE Picklist em_event_layout_event_object_name__v (
+   label('Event Object Name'),
+   active(true),
+   Picklistentry(@Picklistentry/em_attendee__v.mdl),
+   Picklistentry(@Picklistentry/em_event_budget__v.mdl),
+   Picklistentry(@Picklistentry/em_event_speaker__v.mdl),
+   Picklistentry(@Picklistentry/em_event_session__v.mdl),
+   Picklistentry(@Picklistentry/em_event_session_attendee__v.mdl),
+   Picklistentry(@Picklistentry/em_event_team_member__v.mdl),
+   Picklistentry(@Picklistentry/em_event_material__v.mdl),
+   Picklistentry(@Picklistentry/em_expense_estimate__v.mdl),
+   Picklistentry(@Picklistentry/expense_header__v.mdl),
+   Picklistentry(@Picklistentry/expense_line__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

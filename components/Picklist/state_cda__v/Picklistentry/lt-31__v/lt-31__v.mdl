@@ -1,0 +1,6 @@
+Picklistentry lt-31__v (
+   value('Palangos'),
+   order(2649),
+   active(true),
+   controlling_entries('lt__v')
+);

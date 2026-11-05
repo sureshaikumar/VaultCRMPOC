@@ -1,0 +1,14 @@
+Vsmfield expected_steady_state_count__v (
+   label('Expected Steady State Count'),
+   active(true),
+   description('The expected number of final/steady-state documents of this type that should exist. Used for completeness tracking and gap analysis to determine whether the required number of documents has been submitted.'),
+   example_values(),
+   synonyms('steady state count',
+         'expected count',
+         'target count',
+         'document count'),
+   target('expected_steady_state_count__v'),
+   target_label('Expected Steady State Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

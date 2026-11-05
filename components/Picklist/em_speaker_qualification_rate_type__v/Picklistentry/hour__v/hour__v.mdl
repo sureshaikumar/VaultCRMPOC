@@ -1,0 +1,5 @@
+Picklistentry hour__v (
+   value('Hour'),
+   order(0),
+   active(true)
+);

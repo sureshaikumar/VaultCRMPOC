@@ -1,0 +1,6 @@
+Message rules_failure_operator_field_error__v (
+   label(),
+   active(true),
+   default_value('Criterion "${criterion_name}" within rule "${rule_name}" contains an invalid operator/field combination.'),
+   system_managed(false)
+);

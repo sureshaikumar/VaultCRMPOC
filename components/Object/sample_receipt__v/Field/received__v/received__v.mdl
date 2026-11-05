@@ -1,0 +1,18 @@
+Field received__v (
+   label('Received'),
+   type('Boolean'),
+   active(true),
+   description('Contains the status of the receipt.  If true then the transfer has been received.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

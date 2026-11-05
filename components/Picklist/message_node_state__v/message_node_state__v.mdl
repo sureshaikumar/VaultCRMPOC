@@ -1,0 +1,13 @@
+RECREATE Picklist message_node_state__v (
+   label('Message Node State'),
+   active(true),
+   Picklistentry(@Picklistentry/new__v.mdl),
+   Picklistentry(@Picklistentry/discarded__v.mdl),
+   Picklistentry(@Picklistentry/assigned__v.mdl),
+   Picklistentry(@Picklistentry/closed__v.mdl),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/provisional__v.mdl),
+   Picklistentry(@Picklistentry/abandoned__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

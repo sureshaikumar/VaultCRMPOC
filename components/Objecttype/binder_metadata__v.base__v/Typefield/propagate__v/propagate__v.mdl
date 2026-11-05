@@ -1,0 +1,4 @@
+Typefield propagate__v (
+   source('standard'),
+   required(true)
+);

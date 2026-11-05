@@ -1,0 +1,5 @@
+Picklistentry mkd__sys (
+   value('MKD'),
+   order(116),
+   active(true)
+);

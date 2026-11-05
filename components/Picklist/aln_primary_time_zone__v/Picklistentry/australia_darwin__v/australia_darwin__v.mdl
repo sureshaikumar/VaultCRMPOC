@@ -1,0 +1,5 @@
+Picklistentry australia_darwin__v (
+   value('Australia/Darwin'),
+   order(73),
+   active(true)
+);

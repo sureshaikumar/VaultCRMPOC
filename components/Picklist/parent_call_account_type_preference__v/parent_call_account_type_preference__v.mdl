@@ -1,0 +1,10 @@
+RECREATE Picklist parent_call_account_type_preference__v (
+   label('Parent Call Account Type Preference'),
+   active(true),
+   Picklistentry(@Picklistentry/prefer_business_account_parent_calls__v.mdl),
+   Picklistentry(@Picklistentry/prefer_person_account_parent_calls__v.mdl),
+   Picklistentry(@Picklistentry/enforce_business_account_parent_calls__v.mdl),
+   Picklistentry(@Picklistentry/enforce_person_account_parent_calls__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

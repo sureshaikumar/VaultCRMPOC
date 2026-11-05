@@ -1,0 +1,6 @@
+Message do_not_include__v (
+   label(),
+   active(true),
+   default_value('Do Not Include'),
+   system_managed(false)
+);

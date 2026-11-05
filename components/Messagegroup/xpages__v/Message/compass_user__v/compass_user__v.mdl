@@ -1,0 +1,6 @@
+Message compass_user__v (
+   label(),
+   active(true),
+   default_value('Compass User'),
+   system_managed(false)
+);

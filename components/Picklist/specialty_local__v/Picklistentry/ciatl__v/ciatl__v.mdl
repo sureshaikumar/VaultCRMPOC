@@ -1,0 +1,6 @@
+Picklistentry ciatl__v (
+   value('Clinical Immunology and Transfusion'),
+   order(233),
+   active(true),
+   controlling_entries('is__v')
+);

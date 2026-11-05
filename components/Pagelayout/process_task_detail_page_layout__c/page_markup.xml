@@ -1,0 +1,33 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_process_task__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="current_stage__v" />
+            <vault:field reference="data_completed_datetime__v" />
+            <vault:field reference="duration__v" />
+            <vault:field reference="end_datetime__v" />
+            <vault:field reference="entity_message__v" />
+            <vault:field reference="entity_name__v" />
+            <vault:field reference="errors__v" />
+            <vault:field reference="fatal_error__v" />
+            <vault:field reference="mapping_file__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="process_type__v" />
+            <vault:field reference="project_name__v" />
+            <vault:field reference="scheduled_job__v" />
+            <vault:field reference="server_log_end__v" />
+            <vault:field reference="server_log_start__v" />
+            <vault:field reference="start_datetime__v" />
+            <vault:field reference="successes__v" />
+            <vault:field reference="task_results__v" />
+            <vault:field reference="task_status__v" />
+            <vault:field reference="veeva_workday_org__v" />
+            <vault:field reference="warnings__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

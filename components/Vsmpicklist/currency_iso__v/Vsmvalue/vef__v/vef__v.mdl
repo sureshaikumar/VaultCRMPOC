@@ -1,0 +1,9 @@
+Vsmvalue vef__v (
+   label('VEF'),
+   active(true),
+   description('Applies when referencing the Venezuelan Bolívar Fuerte, a redenominated currency used in Venezuela between 2008 and 2018 before further redenomination.'),
+   synonyms('Venezuelan bolívar fuerte',
+         'strong bolívar'),
+   target('vef__sys'),
+   target_label('VEF')
+);

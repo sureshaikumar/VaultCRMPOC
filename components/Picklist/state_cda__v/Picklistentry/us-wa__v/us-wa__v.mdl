@@ -1,0 +1,6 @@
+Picklistentry us-wa__v (
+   value('Washington'),
+   order(4844),
+   active(true),
+   controlling_entries('us__v')
+);

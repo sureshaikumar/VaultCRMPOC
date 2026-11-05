@@ -1,0 +1,6 @@
+Picklistentry it-pv__v (
+   value('Pavia'),
+   order(2246),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,4 @@
+Typefield third_party_appliesto_url__v (
+   source('standard'),
+   required(false)
+);

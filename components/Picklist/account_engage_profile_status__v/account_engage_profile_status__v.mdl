@@ -1,0 +1,8 @@
+RECREATE Picklist account_engage_profile_status__v (
+   label('Engage Profile Status'),
+   active(true),
+   Picklistentry(@Picklistentry/profile_associated__v.mdl),
+   Picklistentry(@Picklistentry/no_profile_associated__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

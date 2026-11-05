@@ -1,0 +1,4 @@
+Typefield user_mentions__sys (
+   source('standard'),
+   required(false)
+);

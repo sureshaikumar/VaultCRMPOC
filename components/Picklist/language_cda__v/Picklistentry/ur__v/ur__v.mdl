@@ -1,0 +1,5 @@
+Picklistentry ur__v (
+   value('Urdu'),
+   order(62),
+   active(true)
+);

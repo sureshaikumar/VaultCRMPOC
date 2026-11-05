@@ -1,0 +1,6 @@
+Message aws_account_disconnected_contact_admin__v (
+   label(),
+   active(true),
+   default_value('Your SMS account has been disconnected. Please contact your administrator.'),
+   system_managed(false)
+);

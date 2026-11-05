@@ -1,0 +1,5 @@
+Picklistentry financial_or_cost_issue__v (
+   value('Financial or Cost Issue'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message available_ph_numbers_count__v (
+   label(),
+   active(true),
+   default_value('Available Phone Numbers (${count})'),
+   system_managed(false)
+);

@@ -1,0 +1,13 @@
+Vsmfield document__v (
+   label('Document'),
+   active(true),
+   description('Object reference to the Vault document that is subject to this legal hold item. Use this to navigate to or filter by the specific document record placed under hold. IMPORTANT: This field links to a bound (versioned) document; for unbound document references use document_unbound__v instead.'),
+   example_values(),
+   synonyms('linked document',
+         'held document',
+         'document reference'),
+   target('document__v'),
+   target_label('Document'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

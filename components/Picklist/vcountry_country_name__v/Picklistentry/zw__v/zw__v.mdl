@@ -1,0 +1,5 @@
+Picklistentry zw__v (
+   value('Zimbabwe'),
+   order(249),
+   active(true)
+);

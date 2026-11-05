@@ -1,0 +1,5 @@
+Picklistentry 10980__v (
+   value('Alpena, MI Micropolitan Statistical Area'),
+   order(576),
+   active(true)
+);

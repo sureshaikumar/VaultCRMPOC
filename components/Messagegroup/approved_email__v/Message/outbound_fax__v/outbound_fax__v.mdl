@@ -1,0 +1,6 @@
+Message outbound_fax__v (
+   label(),
+   active(true),
+   default_value('Outbound Fax'),
+   system_managed(false)
+);

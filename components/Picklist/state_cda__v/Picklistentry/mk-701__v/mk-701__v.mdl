@@ -1,0 +1,6 @@
+Picklistentry mk-701__v (
+   value('Kratovo'),
+   order(3021),
+   active(true),
+   controlling_entries('mk__v')
+);

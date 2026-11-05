@@ -1,0 +1,5 @@
+Picklistentry tzo__v (
+   value('Tzotzil'),
+   order(368),
+   active(false)
+);

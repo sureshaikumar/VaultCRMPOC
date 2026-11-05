@@ -1,0 +1,5 @@
+Picklistentry quc__v (
+   value('K’iche’'),
+   order(363),
+   active(false)
+);

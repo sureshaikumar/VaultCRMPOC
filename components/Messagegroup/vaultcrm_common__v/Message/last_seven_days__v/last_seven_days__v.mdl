@@ -1,0 +1,6 @@
+Message last_seven_days__v (
+   label(),
+   active(true),
+   default_value('Last 7 Days'),
+   system_managed(false)
+);

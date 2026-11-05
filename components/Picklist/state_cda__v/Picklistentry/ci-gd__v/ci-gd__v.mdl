@@ -1,0 +1,6 @@
+Picklistentry ci-gd__v (
+   value('Gôh-Djiboua'),
+   order(657),
+   active(true),
+   controlling_entries('ci__v')
+);

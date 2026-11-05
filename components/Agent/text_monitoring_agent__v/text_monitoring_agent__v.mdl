@@ -1,0 +1,14 @@
+RECREATE Agent text_monitoring_agent__v (
+   label('Text Monitoring Agent'),
+   active(true),
+   agent_user('[agent]text_monitoring_agent__v'),
+   class('Agentclass.com.veeva.vault.app.vaultcrm.core.crmai.agentclass.TextMonitoringAgent'),
+   description('This agent proactively & autonomously analyzes end users'' text inputs for potential compliance concerns.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(@objective.txt),
+   supplemental_objective(),
+   Agentaction(@Agentaction/monitor_call_notes__v.mdl)
+);

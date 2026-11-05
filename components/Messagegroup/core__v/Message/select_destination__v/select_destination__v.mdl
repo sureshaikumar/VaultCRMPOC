@@ -1,0 +1,6 @@
+Message select_destination__v (
+   label(),
+   active(true),
+   default_value('Select Destination'),
+   system_managed(false)
+);

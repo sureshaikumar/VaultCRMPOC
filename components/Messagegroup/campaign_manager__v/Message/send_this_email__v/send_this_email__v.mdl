@@ -1,0 +1,6 @@
+Message send_this_email__v (
+   label(),
+   active(true),
+   default_value('Send this email'),
+   system_managed(false)
+);

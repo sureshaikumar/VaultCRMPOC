@@ -1,0 +1,6 @@
+Message vmi_validation_error__v (
+   label(),
+   active(true),
+   default_value('Potential Problems Found'),
+   system_managed(false)
+);

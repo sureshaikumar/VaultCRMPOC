@@ -1,0 +1,17 @@
+Field event_status__v (
+   label('Event Status'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Used to control which event statuses will appear on the Speaker Portal Events page'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

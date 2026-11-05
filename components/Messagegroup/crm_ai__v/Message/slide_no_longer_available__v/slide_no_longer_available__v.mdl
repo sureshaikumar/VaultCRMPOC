@@ -1,0 +1,6 @@
+Message slide_no_longer_available__v (
+   label(),
+   active(true),
+   default_value('This slide is no longer available'),
+   system_managed(false)
+);

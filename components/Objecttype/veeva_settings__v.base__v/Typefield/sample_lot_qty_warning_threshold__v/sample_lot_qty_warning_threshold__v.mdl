@@ -1,0 +1,4 @@
+Typefield sample_lot_qty_warning_threshold__v (
+   source('standard'),
+   required(false)
+);

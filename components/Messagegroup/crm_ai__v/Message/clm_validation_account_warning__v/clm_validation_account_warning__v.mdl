@@ -1,0 +1,6 @@
+Message clm_validation_account_warning__v (
+   label(),
+   active(true),
+   default_value('This presentation contains information for a product or segmentation not allowed for ${account_name}.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message medx_attendee_required__v (
+   label(),
+   active(true),
+   default_value('At least 1 attendee is required to submit the medical interaction'),
+   system_managed(false)
+);

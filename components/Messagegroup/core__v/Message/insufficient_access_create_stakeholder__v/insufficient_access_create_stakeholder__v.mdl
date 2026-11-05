@@ -1,0 +1,6 @@
+Message insufficient_access_create_stakeholder__v (
+   label(),
+   active(true),
+   default_value('You do not have access to create a key stakeholder.'),
+   system_managed(false)
+);

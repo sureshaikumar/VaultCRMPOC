@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate rollup_deletion_failure__sys (
+   label('Roll-up Deletion Failure'),
+   active(true),
+   description('Notification template notifying that the deletion of a roll-up field encountered an error'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Roll-up Field Deletion Error'),
+   notification('The deletion of the roll-up field [${rollup_field_label}] on object [${object_label}] has encountered an error.'),
+   email_body('The deletion of the roll-up field [${rollup_field_label}] on object [${object_label}] has encountered an error.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

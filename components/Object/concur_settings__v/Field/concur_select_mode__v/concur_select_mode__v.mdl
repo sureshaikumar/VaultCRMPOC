@@ -1,0 +1,23 @@
+Field concur_select_mode__v (
+   label('Concur Select Mode'),
+   type('Number'),
+   active(true),
+   description('Determines which Objects to sync to Concur. If value is 0, then syncs both Calls and Medical Events. If value is 1, then syncs only Calls. If value is 2, then syncs only Medical Events. Note: Defaults to option 0 (both Calls and Medical Events) if an inco'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

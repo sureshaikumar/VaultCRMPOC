@@ -1,0 +1,18 @@
+Field program_authorization_status__v (
+   label('Program Authorization Status'),
+   type('Picklist'),
+   active(true),
+   description('Opt In status'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(29),
+   multi_value(false),
+   picklist('Picklist.opt_in_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message perf_sankey_emails_not_opened__v (
+   label(),
+   active(true),
+   default_value('Did Not Open'),
+   system_managed(false)
+);

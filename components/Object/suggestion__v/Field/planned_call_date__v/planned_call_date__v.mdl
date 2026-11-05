@@ -1,0 +1,17 @@
+Field planned_call_date__v (
+   label('Planned Call Date'),
+   type('Date'),
+   active(true),
+   description('Determines date Call is scheduled for'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield concur_data_center_region__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,13 @@
+Vsmfield vault_user_creation__v (
+   label('Vault User Creation'),
+   active(true),
+   description('Picklist indicating the current status or outcome of the vault user creation process for this invite. Common values reflect stages such as pending, successful, or failed, and are used to monitor and report on user provisioning progress.'),
+   example_values(),
+   synonyms('creation status',
+         'user creation status',
+         'provisioning status'),
+   target('vault_user_creation__sys'),
+   target_label('Vault User Creation'),
+   vsm_picklist('Vsmpicklist.veevaid_vault_user_creation_status__v'),
+   vsm_picklist_local()
+);

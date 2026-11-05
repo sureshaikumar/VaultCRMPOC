@@ -1,0 +1,6 @@
+Message count_emails_discarded__v (
+   label(),
+   active(true),
+   default_value('${count} Emails Discarded'),
+   system_managed(false)
+);

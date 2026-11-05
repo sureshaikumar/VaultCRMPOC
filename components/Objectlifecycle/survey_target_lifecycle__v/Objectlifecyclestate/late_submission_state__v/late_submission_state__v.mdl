@@ -1,0 +1,10 @@
+Objectlifecyclestate late_submission_state__v (
+   label('Late Submission'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('The Survey Target has been submitted after the end date.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

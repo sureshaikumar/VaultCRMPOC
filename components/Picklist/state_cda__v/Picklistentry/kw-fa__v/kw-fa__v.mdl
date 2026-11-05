@@ -1,0 +1,6 @@
+Picklistentry kw-fa__v (
+   value('Al Farwānīyah'),
+   order(2488),
+   active(true),
+   controlling_entries('kw__v')
+);

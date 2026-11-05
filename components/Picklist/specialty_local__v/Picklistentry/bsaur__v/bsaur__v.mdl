@@ -1,0 +1,6 @@
+Picklistentry bsaur__v (
+   value('Bariatric Surgery'),
+   order(116),
+   active(true),
+   controlling_entries('us__v')
+);

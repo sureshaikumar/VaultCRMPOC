@@ -1,0 +1,7 @@
+Typefield activity_execution_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.suggestion_feedb_activity_execution_type__v.call_objective__v',
+         'Picklist.suggestion_feedb_activity_execution_type__v.call__v',
+         'Picklist.suggestion_feedb_activity_execution_type__v.email__v')
+);

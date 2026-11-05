@@ -1,0 +1,6 @@
+Message tool__sys (
+   label(),
+   active(true),
+   default_value('Tool'),
+   system_managed(true)
+);

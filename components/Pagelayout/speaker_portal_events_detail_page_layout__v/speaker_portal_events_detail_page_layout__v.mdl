@@ -1,0 +1,8 @@
+RECREATE Pagelayout speaker_portal_events_detail_page_layout__v (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Speaker Portal Events Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

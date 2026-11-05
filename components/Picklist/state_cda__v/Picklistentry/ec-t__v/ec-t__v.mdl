@@ -1,0 +1,6 @@
+Picklistentry ec-t__v (
+   value('Tungurahua'),
+   order(1058),
+   active(true),
+   controlling_entries('ec__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry is-snf__v (
+   value('Snæfellsbær'),
+   order(2142),
+   active(true),
+   controlling_entries('is__v')
+);

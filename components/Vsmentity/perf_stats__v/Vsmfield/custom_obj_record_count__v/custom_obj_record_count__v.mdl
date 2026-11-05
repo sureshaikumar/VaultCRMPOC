@@ -1,0 +1,11 @@
+Vsmfield custom_obj_record_count__v (
+   label('Custom Obj Record Count'),
+   active(true),
+   description('Total number of records in all custom (non-standard) objects'),
+   example_values(),
+   synonyms(),
+   target('custom_obj_record_count__v'),
+   target_label('Custom Obj Record Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

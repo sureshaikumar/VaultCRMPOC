@@ -1,0 +1,19 @@
+Field position_type__v (
+   label('Position Type'),
+   type('String'),
+   active(true),
+   description('Name of position stakeholder held, example: Board Member, Head of, Student of Medicine'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

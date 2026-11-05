@@ -1,0 +1,6 @@
+Message errors__v (
+   label(),
+   active(true),
+   default_value('${count} Errors'),
+   system_managed(false)
+);

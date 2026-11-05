@@ -1,0 +1,23 @@
+Field last_target__v (
+   label('Last Target'),
+   type('Number'),
+   active(true),
+   description('This field stores the last target value a user selected on the Average Calls per Day analytic.'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(-99999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(44),
+   default_value('5'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 17940__v (
+   value('Columbia, TN Micropolitan Statistical Area'),
+   order(101),
+   active(true)
+);

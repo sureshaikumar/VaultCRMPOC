@@ -1,0 +1,4 @@
+Typefield disclaimer_detail_only__v (
+   source('standard'),
+   required(false)
+);

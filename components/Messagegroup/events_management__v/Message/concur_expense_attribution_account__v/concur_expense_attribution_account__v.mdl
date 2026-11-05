@@ -1,0 +1,6 @@
+Message concur_expense_attribution_account__v (
+   label(),
+   active(true),
+   default_value('If Account'),
+   system_managed(false)
+);

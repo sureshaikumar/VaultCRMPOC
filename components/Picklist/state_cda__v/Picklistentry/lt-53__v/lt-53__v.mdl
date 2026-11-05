@@ -1,0 +1,6 @@
+Picklistentry lt-53__v (
+   value('Ukmergė'),
+   order(2671),
+   active(true),
+   controlling_entries('lt__v')
+);

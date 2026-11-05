@@ -1,0 +1,6 @@
+Message mc_cycle_no_channel_for_targeting_rule__v (
+   label(),
+   active(true),
+   default_value('Channels must first be added to the MC Cycle before a Targeting Rule can be created.'),
+   system_managed(false)
+);

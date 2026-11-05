@@ -1,0 +1,6 @@
+Picklistentry pchaa__v (
+   value('Pharmaceutical Care'),
+   order(1505),
+   active(true),
+   controlling_entries('hu__v')
+);

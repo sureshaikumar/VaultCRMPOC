@@ -1,0 +1,6 @@
+Message proceed__v (
+   label(),
+   active(true),
+   default_value('Proceed'),
+   system_managed(false)
+);

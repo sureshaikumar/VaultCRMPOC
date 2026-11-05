@@ -1,0 +1,5 @@
+Picklistentry mad__v (
+   value('Madurese'),
+   order(200),
+   active(false)
+);

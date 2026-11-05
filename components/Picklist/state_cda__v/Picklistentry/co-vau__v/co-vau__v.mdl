@@ -1,0 +1,6 @@
+Picklistentry co-vau__v (
+   value('Vaupés'),
+   order(758),
+   active(true),
+   controlling_entries('co__v')
+);

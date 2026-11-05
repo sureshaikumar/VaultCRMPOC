@@ -1,0 +1,6 @@
+Picklistentry tz-10__v (
+   value('Kusini Pemba'),
+   order(4594),
+   active(true),
+   controlling_entries('tz__v')
+);

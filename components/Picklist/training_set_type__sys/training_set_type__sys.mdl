@@ -1,0 +1,8 @@
+RECREATE Picklist training_set_type__sys (
+   label('Training Set Type'),
+   active(true),
+   Picklistentry(@Picklistentry/document_criteria__sys.mdl),
+   Picklistentry(@Picklistentry/custom_list_of_document_ids__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

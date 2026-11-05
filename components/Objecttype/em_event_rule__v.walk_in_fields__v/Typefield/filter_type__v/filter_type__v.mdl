@@ -1,0 +1,7 @@
+Typefield filter_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_rule_filter_type__v.mandatory__v',
+         'Picklist.em_event_rule_filter_type__v.optional_off__v',
+         'Picklist.em_event_rule_filter_type__v.optional_on__v')
+);

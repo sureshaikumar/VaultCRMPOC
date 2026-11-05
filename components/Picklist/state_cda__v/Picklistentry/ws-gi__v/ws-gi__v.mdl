@@ -1,0 +1,6 @@
+Picklistentry ws-gi__v (
+   value('Gagaifomauga'),
+   order(4989),
+   active(true),
+   controlling_entries('ws__v')
+);

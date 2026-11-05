@@ -1,0 +1,6 @@
+Picklistentry tr-72__v (
+   value('Batman'),
+   order(4530),
+   active(true),
+   controlling_entries('tr__v')
+);

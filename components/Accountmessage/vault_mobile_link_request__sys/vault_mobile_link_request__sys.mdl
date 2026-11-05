@@ -1,0 +1,7 @@
+RECREATE Accountmessage vault_mobile_link_request__sys (
+   label('Vault Mobile Link Request'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Vault Mobile Download Link')
+);

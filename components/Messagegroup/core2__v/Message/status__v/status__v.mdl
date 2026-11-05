@@ -1,0 +1,6 @@
+Message status__v (
+   label(),
+   active(true),
+   default_value('Status'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry uz__v (
+   value('Uzbekistan'),
+   order(235),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry bd-18__v (
+   value('Gazipur'),
+   order(247),
+   active(true),
+   controlling_entries('bd__v')
+);

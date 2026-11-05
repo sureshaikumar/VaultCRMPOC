@@ -1,0 +1,5 @@
+Picklistentry vai (
+   value('Vai'),
+   order(340),
+   active(true)
+);

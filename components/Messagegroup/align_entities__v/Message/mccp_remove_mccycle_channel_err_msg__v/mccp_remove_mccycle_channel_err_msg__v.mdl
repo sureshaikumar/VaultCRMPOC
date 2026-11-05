@@ -1,0 +1,6 @@
+Message mccp_remove_mccycle_channel_err_msg__v (
+   label(),
+   active(true),
+   default_value('This Cycle Channel cannot be removed because it is referenced by the following targeting channel groups:'),
+   system_managed(false)
+);

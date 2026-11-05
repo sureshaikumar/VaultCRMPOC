@@ -1,0 +1,5 @@
+Picklistentry 39900__v (
+   value('Reno-Sparks, NV Metropolitan Statistical Area'),
+   order(134),
+   active(true)
+);

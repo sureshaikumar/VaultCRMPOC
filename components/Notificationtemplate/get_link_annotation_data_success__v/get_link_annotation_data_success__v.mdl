@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate get_link_annotation_data_success__v (
+   label('Get Link Annotation Data Success'),
+   active(true),
+   description('Get Link Annotation Data Job Notification success template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Get link annotation data completed'),
+   notification('<p>Link annotation data is ready for download. Click on the link below to download the file.</p> <p>${linkAnnotationDataDownloadLink}</p> <p>This link will expire on ${linkAnnotationDataExpirationDate}.</p>'),
+   email_body('<p>Link annotation data is ready for download. Click on the link below to download the file.</p> <p>${linkAnnotationDataDownloadLink}</p> <p>This link will expire on ${linkAnnotationDataExpirationDate}.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

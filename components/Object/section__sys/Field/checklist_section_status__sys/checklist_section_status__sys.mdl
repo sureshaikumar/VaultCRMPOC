@@ -1,0 +1,18 @@
+Field checklist_section_status__sys (
+   label('Checklist Section Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(8),
+   multi_value(false),
+   picklist('Picklist.checklist_section_status__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

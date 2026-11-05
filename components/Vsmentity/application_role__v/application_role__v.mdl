@@ -1,0 +1,22 @@
+RECREATE Vsmentity application_role__v (
+   label('Application Role'),
+   active(true),
+   description('Application roles define the functional access permissions and responsibilities assigned to users within Vault. They represent named roles that control what actions users can perform across different areas of the application. Application roles are typically used in access control workflows, user provisioning, and permission management to ensure users have appropriate levels of access based on their job function.'),
+   synonyms('app role',
+      'role',
+      'user role',
+      'access role'),
+   target('Object.application_role__v'),
+   target_label('Application Role'),
+   Vsmfield(@Vsmfield/api_name__v.mdl),
+   Vsmfield(@Vsmfield/description__v.mdl),
+   Vsmfield(@Vsmfield/enforce_role_constraint__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/permission_set__v.mdl),
+   Vsmmetric(@Vsmmetric/application_role_count__v.mdl),
+   Vsmrelationship(@Vsmrelationship/permission_set__v.mdl),
+   Vsmrelationship(@Vsmrelationship/user_role__v.mdl),
+   Vsmrelationship(@Vsmrelationship/user_role_constraint__v.mdl),
+   Vsmrelationship(@Vsmrelationship/user_role_setup__v.mdl),
+   Vsmrelationship(@Vsmrelationship/workflow_role_setup__v.mdl)
+);

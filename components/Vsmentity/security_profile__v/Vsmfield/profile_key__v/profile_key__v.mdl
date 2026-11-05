@@ -1,0 +1,14 @@
+Vsmfield profile_key__v (
+   label('Profile Key'),
+   active(true),
+   description('A unique system-level key that programmatically identifies the security profile. Used for precise lookups and integrations where a stable, non-display identifier is needed, distinct from the human-readable profile name.'),
+   example_values(),
+   synonyms('profile ID',
+         'profile code',
+         'security key',
+         'profile identifier'),
+   target('profile_key__sys'),
+   target_label('Profile Key'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Picklistentry na-ow__v (
+   value('Ohangwena'),
+   order(3311),
+   active(true),
+   controlling_entries('na__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-hrt__v (
+   value('Hertfordshire'),
+   order(1538),
+   active(true),
+   controlling_entries('gb__v')
+);

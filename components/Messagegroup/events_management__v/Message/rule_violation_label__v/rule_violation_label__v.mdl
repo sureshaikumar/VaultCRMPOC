@@ -1,0 +1,6 @@
+Message rule_violation_label__v (
+   label(),
+   active(true),
+   default_value('Rule Violation'),
+   system_managed(false)
+);

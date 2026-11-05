@@ -1,0 +1,19 @@
+Field total_payment_rule__v (
+   label('Total Payment Rule'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Documents the final payment value to be applied at the line level according to Payment rule hierarchies.'),
+   list_column(false),
+   order(54),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

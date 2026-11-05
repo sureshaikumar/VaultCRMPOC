@@ -1,0 +1,10 @@
+RECREATE Picklist provider__sys (
+   label('Provider'),
+   active(true),
+   Picklistentry(@Picklistentry/aws_bedrock__sys.mdl),
+   Picklistentry(@Picklistentry/azure__sys.mdl),
+   Picklistentry(@Picklistentry/veeva__sys.mdl),
+   Picklistentry(@Picklistentry/vertex__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

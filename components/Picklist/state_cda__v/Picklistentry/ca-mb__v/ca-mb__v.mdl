@@ -1,0 +1,6 @@
+Picklistentry ca-mb__v (
+   value('Manitoba'),
+   order(561),
+   active(true),
+   controlling_entries('ca__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry raj__v (
+   value('Rajasthani'),
+   order(261),
+   active(false)
+);

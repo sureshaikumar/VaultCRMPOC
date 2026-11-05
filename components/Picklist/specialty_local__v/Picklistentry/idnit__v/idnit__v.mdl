@@ -1,0 +1,8 @@
+Picklistentry idnit__v (
+   value('Internal Diseases'),
+   order(777),
+   active(true),
+   controlling_entries('bg__v',
+         'ee__v',
+         'pl__v')
+);

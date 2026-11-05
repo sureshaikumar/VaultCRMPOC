@@ -1,0 +1,5 @@
+Picklistentry 17820__v (
+   value('Colorado Springs, CO Metropolitan Statistical Area'),
+   order(66),
+   active(true)
+);

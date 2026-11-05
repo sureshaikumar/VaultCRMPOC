@@ -1,0 +1,6 @@
+Message transfer_aborted__v (
+   label(),
+   active(true),
+   default_value('Transfer aborted for ${entity_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry kr-50__v (
+   value('Sejong'),
+   order(2486),
+   active(true),
+   controlling_entries('kr__v')
+);

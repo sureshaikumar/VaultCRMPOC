@@ -1,0 +1,5 @@
+Picklistentry contracting__c (
+   value('Contracting'),
+   order(1),
+   active(true)
+);

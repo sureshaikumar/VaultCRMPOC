@@ -1,0 +1,6 @@
+Picklistentry fr-46__v (
+   value('Lot'),
+   order(1362),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lt-13__v (
+   value('Kaišiadorys'),
+   order(2631),
+   active(true),
+   controlling_entries('lt__v')
+);

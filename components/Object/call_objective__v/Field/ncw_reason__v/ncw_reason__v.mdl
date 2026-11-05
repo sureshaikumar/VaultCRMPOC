@@ -1,0 +1,20 @@
+Field ncw_reason__v (
+   label('NCW Reason'),
+   type('Picklist'),
+   active(true),
+   description('The reason of why does the MR could not complied with this task'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(31),
+   multi_value(false),
+   picklist('Picklist.call_objective_ncw_reason__v'),
+   controlling_picklist('delivery_method__v'),
+   picklist_dependencies('{"ncw__v":["pass_this_ms__v","no_time__v","recall__v","other__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

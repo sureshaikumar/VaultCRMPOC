@@ -1,0 +1,14 @@
+Vsmfield owner__v (
+   label('Owner'),
+   active(true),
+   description('The Vault user who owns and is responsible for this outbound package. Use to find all packages belonging to a specific administrator or developer, or to identify the point of contact for a given package.'),
+   example_values(),
+   synonyms('package owner',
+         'created by',
+         'responsible user',
+         'assigned to'),
+   target('owner__v'),
+   target_label('Owner'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

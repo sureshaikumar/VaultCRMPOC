@@ -1,0 +1,6 @@
+Message open_media_tab_before_presenting__v (
+   label(),
+   active(true),
+   default_value('Please Open the Media Tab in the Main App Before Presenting'),
+   system_managed(false)
+);

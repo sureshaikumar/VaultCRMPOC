@@ -1,0 +1,6 @@
+Picklistentry be-bru__v (
+   value('Brussels-Capital Region'),
+   order(302),
+   active(true),
+   controlling_entries('be__v')
+);

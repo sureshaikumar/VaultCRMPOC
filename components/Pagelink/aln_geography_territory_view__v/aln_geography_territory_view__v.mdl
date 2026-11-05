@@ -1,0 +1,9 @@
+RECREATE Pagelink aln_geography_territory_view__v (
+   label('Geography Territory View'),
+   url('https://valign-sbx-us-east-2-prod-app.veevavault.com/entities/geographyTerritoryDetail.xhtml?vaulturl={{Vault.domain}}&vaultid={{Vault.id}}&pageMode=VIEW&objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.aln_geography_territory__v'),
+   active(true),
+   disable_type_select(false)
+);

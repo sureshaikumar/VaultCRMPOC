@@ -1,0 +1,12 @@
+Vsmfield due_date__v (
+   label('Due Date'),
+   active(true),
+   description('This field stores the date when the user task should be completed by'),
+   example_values(),
+   synonyms('Deadline',
+         'Target Date'),
+   target('due_date__v'),
+   target_label('Due Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

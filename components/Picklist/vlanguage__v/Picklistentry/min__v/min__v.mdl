@@ -1,0 +1,5 @@
+Picklistentry min__v (
+   value('Minangkabau'),
+   order(221),
+   active(false)
+);

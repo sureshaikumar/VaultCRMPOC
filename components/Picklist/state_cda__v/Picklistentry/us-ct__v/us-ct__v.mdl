@@ -1,0 +1,6 @@
+Picklistentry us-ct__v (
+   value('Connecticut'),
+   order(4798),
+   active(true),
+   controlling_entries('us__v')
+);

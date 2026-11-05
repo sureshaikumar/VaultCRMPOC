@@ -1,0 +1,5 @@
+Picklistentry pacific_kwajalein__sys (
+   value('(GMT+12:00) Marshall Islands Time (Pacific/Kwajalein)'),
+   order(305),
+   active(true)
+);

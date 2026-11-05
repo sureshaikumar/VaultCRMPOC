@@ -1,0 +1,11 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('This field is a short title of what the user task is. A more detailed description of the task will be provided in the Description field'),
+   example_values(),
+   synonyms('Title'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

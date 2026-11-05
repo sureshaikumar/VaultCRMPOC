@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sandbox_snapshot_vault_available__sys (
+   label('Snapshot Sandbox Available'),
+   active(true),
+   description('Notification template notifying user that the sandbox snapshot will be ready soon and the Vault is now available.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Snapshot will be ready soon. Sandbox Vault Available.'),
+   notification('<p>Your sandbox Snapshot: ${snapshotName} will be ready to be used soon. The Vault is now available to login.</p></br><p>You can login to your Vault <a href=${sandboxLoginLink}><b>here.</b></a></p>'),
+   email_body('<p>Your sandbox Snapshot: ${snapshotName} will be ready to be used soon. The Vault is now available to login.</p></br><p>You can login to your Vault <a href=${sandboxLoginLink}><b>here.</b></a></p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

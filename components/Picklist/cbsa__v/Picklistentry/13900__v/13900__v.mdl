@@ -1,0 +1,5 @@
+Picklistentry 13900__v (
+   value('Bismarck, ND Metropolitan Statistical Area'),
+   order(875),
+   active(true)
+);

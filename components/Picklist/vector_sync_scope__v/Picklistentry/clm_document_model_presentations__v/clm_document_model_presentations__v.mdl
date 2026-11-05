@@ -1,0 +1,5 @@
+Picklistentry clm_document_model_presentations__v (
+   value('CLM Document Model Presentations'),
+   order(3),
+   active(true)
+);

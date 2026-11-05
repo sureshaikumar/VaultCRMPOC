@@ -1,0 +1,5 @@
+Picklistentry mopa__v (
+   value('Mail Order Pharmacy'),
+   order(142),
+   active(true)
+);

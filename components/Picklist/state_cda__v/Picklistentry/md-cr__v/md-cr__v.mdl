@@ -1,0 +1,6 @@
+Picklistentry md-cr__v (
+   value('Criuleni'),
+   order(2878),
+   active(true),
+   controlling_entries('md__v')
+);

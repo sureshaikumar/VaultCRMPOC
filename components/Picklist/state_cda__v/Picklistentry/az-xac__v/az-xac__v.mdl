@@ -1,0 +1,6 @@
+Picklistentry az-xac__v (
+   value('Xaçmaz'),
+   order(206),
+   active(true),
+   controlling_entries('az__v')
+);

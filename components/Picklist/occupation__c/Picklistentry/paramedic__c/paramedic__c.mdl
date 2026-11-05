@@ -1,0 +1,5 @@
+Picklistentry paramedic__c (
+   value('Paramedic'),
+   order(9),
+   active(true)
+);

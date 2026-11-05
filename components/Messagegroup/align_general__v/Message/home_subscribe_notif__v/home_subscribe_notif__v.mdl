@@ -1,0 +1,6 @@
+Message home_subscribe_notif__v (
+   label(),
+   active(true),
+   default_value('Subscribe to System Notifications'),
+   system_managed(false)
+);

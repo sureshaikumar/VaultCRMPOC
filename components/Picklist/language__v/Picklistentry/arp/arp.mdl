@@ -1,0 +1,5 @@
+Picklistentry arp (
+   value('Arapaho'),
+   order(127),
+   active(true)
+);

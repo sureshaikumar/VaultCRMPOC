@@ -1,0 +1,6 @@
+Picklistentry gb-bdf__v (
+   value('Bedford'),
+   order(1459),
+   active(true),
+   controlling_entries('gb__v')
+);

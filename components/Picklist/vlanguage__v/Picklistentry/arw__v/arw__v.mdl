@@ -1,0 +1,5 @@
+Picklistentry arw__v (
+   value('Arawak'),
+   order(18),
+   active(false)
+);

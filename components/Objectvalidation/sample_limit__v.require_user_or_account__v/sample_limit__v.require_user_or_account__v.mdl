@@ -1,0 +1,10 @@
+RECREATE Objectvalidation sample_limit__v.require_user_or_account__v (
+   label('Require User or Account'),
+   active(true),
+   expression('Not(IsBlank(account__v)) || Not(IsBlank(user__v)) || Not(IsBlank(account_types__v))'),
+   description('An Account or User or Account Types is required on the Sample Limit.'),
+   error_message('The following fields are required: Account Or User Or Account Types'),
+   error_location('account__v',
+      'user__v',
+      'account_types__v')
+);

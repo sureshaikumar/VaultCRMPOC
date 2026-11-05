@@ -1,0 +1,6 @@
+Message define_segments_optional__v (
+   label(),
+   active(true),
+   default_value('Define Segments (Optional)'),
+   system_managed(false)
+);

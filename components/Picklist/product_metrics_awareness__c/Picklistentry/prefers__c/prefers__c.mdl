@@ -1,0 +1,5 @@
+Picklistentry prefers__c (
+   value('Prefers'),
+   order(3),
+   active(true)
+);

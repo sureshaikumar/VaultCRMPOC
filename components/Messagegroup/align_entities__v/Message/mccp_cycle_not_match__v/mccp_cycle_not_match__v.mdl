@@ -1,0 +1,6 @@
+Message mccp_cycle_not_match__v (
+   label(),
+   active(true),
+   default_value('Selected MC Cycle must be one of MC Cycles associated with the Field Force {0}.'),
+   system_managed(false)
+);

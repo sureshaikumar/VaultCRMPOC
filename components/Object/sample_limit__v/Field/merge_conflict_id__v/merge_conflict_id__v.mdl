@@ -1,0 +1,19 @@
+Field merge_conflict_id__v (
+   label('Merge Conflict Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('During an Account Merge, indicates the SFDC Id of the conflicting Sample Limit record if, during an Account Merge, a Sample Limit record of the losing Account cannot be transferred to the winning Account due to overlap in date range.'),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

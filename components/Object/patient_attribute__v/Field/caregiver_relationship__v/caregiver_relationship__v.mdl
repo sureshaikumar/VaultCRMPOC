@@ -1,0 +1,18 @@
+Field caregiver_relationship__v (
+   label('Caregiver Relationship'),
+   type('Picklist'),
+   active(true),
+   description('Indicates caregiver''s relationship to the patient'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(27),
+   multi_value(false),
+   picklist('Picklist.caregiver_relationship__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

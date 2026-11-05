@@ -1,0 +1,5 @@
+Picklistentry ibo__v (
+   value('Igbo'),
+   order(137),
+   active(false)
+);

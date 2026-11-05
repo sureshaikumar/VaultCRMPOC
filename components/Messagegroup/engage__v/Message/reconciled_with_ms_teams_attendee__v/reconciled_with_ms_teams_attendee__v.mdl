@@ -1,0 +1,6 @@
+Message reconciled_with_ms_teams_attendee__v (
+   label(),
+   active(true),
+   default_value('Reconciled with Microsoft Teams attendee:'),
+   system_managed(false)
+);

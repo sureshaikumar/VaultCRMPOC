@@ -1,0 +1,8 @@
+RECREATE Objectaction account_tactic__v.assign_call_objective__v (
+   label('Assign Call Objective'),
+   description('Allows users to select call objectives to assign to the current record'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.accountmanagement.actions.AccountTacticAssignCallObjectiveAction'),
+   active(true),
+   available_all_states(true)
+);

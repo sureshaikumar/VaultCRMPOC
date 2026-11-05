@@ -1,0 +1,10 @@
+RECREATE Picklist aln_source6__v (
+   label('Source'),
+   active(true),
+   Picklistentry(@Picklistentry/align_manual__v.mdl),
+   Picklistentry(@Picklistentry/align_rule__v.mdl),
+   Picklistentry(@Picklistentry/crm__v.mdl),
+   Picklistentry(@Picklistentry/import__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

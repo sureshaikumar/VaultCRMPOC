@@ -1,0 +1,6 @@
+Picklistentry gn-be__v (
+   value('Beyla'),
+   order(1716),
+   active(true),
+   controlling_entries('gn__v')
+);

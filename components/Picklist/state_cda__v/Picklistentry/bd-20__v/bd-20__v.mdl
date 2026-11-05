@@ -1,0 +1,6 @@
+Picklistentry bd-20__v (
+   value('Habiganj'),
+   order(249),
+   active(true),
+   controlling_entries('bd__v')
+);

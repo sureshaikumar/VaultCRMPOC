@@ -1,0 +1,5 @@
+Picklistentry direct__v (
+   value('Direct'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry zw-me__v (
+   value('Mashonaland East'),
+   order(5040),
+   active(true),
+   controlling_entries('zw__v')
+);

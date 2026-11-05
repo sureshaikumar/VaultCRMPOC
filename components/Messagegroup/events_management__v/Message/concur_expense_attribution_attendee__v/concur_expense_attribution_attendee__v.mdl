@@ -1,0 +1,6 @@
+Message concur_expense_attribution_attendee__v (
+   label(),
+   active(true),
+   default_value('If Write-In Event Attendee'),
+   system_managed(false)
+);

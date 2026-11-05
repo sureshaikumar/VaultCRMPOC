@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation em_event_budget_li_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.em_event_budget_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.active_state__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

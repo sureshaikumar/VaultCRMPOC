@@ -1,0 +1,6 @@
+Message modify_roster_member_application_role__v (
+   label(),
+   active(true),
+   default_value('Existing aln_roster_member_application_role__v records cannot have their roster_member__v or crm_application_role__v values modified.'),
+   system_managed(false)
+);

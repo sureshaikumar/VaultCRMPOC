@@ -1,0 +1,8 @@
+RECREATE Objectaction em_speaker_nomination__v.unlock__v (
+   label('Unlock'),
+   description('Unlocks the speaker nomination'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.UnlockSpeakerNominationAction'),
+   active(true),
+   available_all_states(false)
+);

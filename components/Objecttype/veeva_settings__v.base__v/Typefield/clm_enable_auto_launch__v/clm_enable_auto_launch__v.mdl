@@ -1,0 +1,4 @@
+Typefield clm_enable_auto_launch__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,7 @@
+Picklistentry glauc__v (
+   value('Glaucoma'),
+   order(633),
+   active(true),
+   controlling_entries('ng__v',
+         'pk__v')
+);

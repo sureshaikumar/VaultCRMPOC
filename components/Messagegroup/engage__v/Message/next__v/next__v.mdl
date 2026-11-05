@@ -1,0 +1,6 @@
+Message next__v (
+   label(),
+   active(true),
+   default_value('Next'),
+   system_managed(false)
+);

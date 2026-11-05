@@ -1,0 +1,6 @@
+Picklistentry cnluj__v (
+   value('Clinical Nursing'),
+   order(251),
+   active(true),
+   controlling_entries('ee__v')
+);

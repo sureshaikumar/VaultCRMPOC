@@ -1,0 +1,5 @@
+Picklistentry 17740__v (
+   value('Coldwater, MI Micropolitan Statistical Area'),
+   order(27),
+   active(true)
+);

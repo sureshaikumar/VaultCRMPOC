@@ -1,0 +1,6 @@
+Message media_ai__v (
+   label(),
+   active(true),
+   default_value('Media AI'),
+   system_managed(false)
+);

@@ -1,0 +1,13 @@
+Vsmfield permission_set_name__v (
+   label('Permission Set Name'),
+   active(true),
+   description('The canonical system name of the permission set, distinct from the display label. IMPORTANT: This may differ from name__v, which is the user-facing label. Use this field when querying by the internal system-assigned name rather than the display name.'),
+   example_values(),
+   synonyms('perm set name',
+         'permission name',
+         'set name'),
+   target('permission_set_name__sys'),
+   target_label('Permission Set Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

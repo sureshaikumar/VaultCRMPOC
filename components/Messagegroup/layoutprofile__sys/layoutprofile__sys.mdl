@@ -1,0 +1,12 @@
+RECREATE Messagegroup layoutprofile__sys (
+   label('Layout Profile Messages'),
+   active(true),
+   Message(@Message/description__sys.mdl),
+   Message(@Message/details__sys.mdl),
+   Message(@Message/details_help_content__sys.mdl),
+   Message(@Message/layout_profile__sys.mdl),
+   Message(@Message/layout_profiles_help_content__sys.mdl),
+   Message(@Message/layout_profiles_plural__sys.mdl),
+   Message(@Message/layouts__sys.mdl),
+   Message(@Message/users__sys.mdl)
+);

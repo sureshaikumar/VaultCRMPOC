@@ -1,0 +1,10 @@
+Picklistentry mbeid__v (
+   value('Medical Biochemistry'),
+   order(899),
+   active(true),
+   controlling_entries('ba__v',
+         'ca__v',
+         'mk__v',
+         'no__v',
+         'tr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry tcavv__v (
+   value('Thoracic, Cardiac and Vascular Surgery Thoracic Surgery'),
+   order(1844),
+   active(true),
+   controlling_entries('id__v')
+);

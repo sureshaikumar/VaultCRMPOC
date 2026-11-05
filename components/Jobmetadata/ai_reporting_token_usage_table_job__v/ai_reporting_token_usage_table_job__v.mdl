@@ -1,0 +1,10 @@
+RECREATE Jobmetadata ai_reporting_token_usage_table_job__v (
+   label('AI Reporting Token Usage Table Job'),
+   active(true),
+   chunk_size(1),
+   description('Syncs monthly token limits to be viewable in the AI Reporting tab'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.crmai.reporting.jobs.AiReportingTokenUsageTableJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

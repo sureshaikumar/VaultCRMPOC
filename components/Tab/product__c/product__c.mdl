@@ -1,0 +1,15 @@
+RECREATE Tab product__c (
+   active(true),
+   all_view_label('All Product'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Product'),
+   modal_create_record(false),
+   my_view_label('My Product'),
+   object('product__v'),
+   order(5000),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Product')
+);

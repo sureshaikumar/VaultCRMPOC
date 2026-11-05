@@ -1,0 +1,5 @@
+Picklistentry 40620__v (
+   value('Rolla, MO Micropolitan Statistical Area'),
+   order(212),
+   active(true)
+);

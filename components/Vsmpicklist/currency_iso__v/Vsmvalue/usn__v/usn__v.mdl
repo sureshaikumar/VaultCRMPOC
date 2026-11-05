@@ -1,0 +1,9 @@
+Vsmvalue usn__v (
+   label('USN'),
+   active(true),
+   description('Applies when transactions use the US Dollar Next Day funds code, representing USD settlements scheduled for the following business day.'),
+   synonyms('US dollar next day',
+         'USD next day funds'),
+   target('usn__sys'),
+   target_label('USN')
+);

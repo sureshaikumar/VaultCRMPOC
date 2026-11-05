@@ -1,0 +1,5 @@
+Picklistentry run__v (
+   value('Rundi'),
+   order(266),
+   active(false)
+);

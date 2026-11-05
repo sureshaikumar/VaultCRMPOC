@@ -1,0 +1,6 @@
+Message clm_video_loop__v (
+   label(),
+   active(true),
+   default_value('Loop Video'),
+   system_managed(false)
+);

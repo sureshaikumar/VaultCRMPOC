@@ -1,0 +1,6 @@
+Picklistentry cd-kc__v (
+   value('Kasaï Central'),
+   order(579),
+   active(true),
+   controlling_entries('cd__v')
+);

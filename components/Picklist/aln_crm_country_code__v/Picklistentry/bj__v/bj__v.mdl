@@ -1,0 +1,5 @@
+Picklistentry bj__v (
+   value('Benin'),
+   order(24),
+   active(true)
+);

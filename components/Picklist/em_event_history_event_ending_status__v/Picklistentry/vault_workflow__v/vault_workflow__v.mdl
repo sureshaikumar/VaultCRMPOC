@@ -1,0 +1,5 @@
+Picklistentry vault_workflow__v (
+   value('Vault Workflow'),
+   order(9),
+   active(true)
+);

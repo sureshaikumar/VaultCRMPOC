@@ -1,0 +1,20 @@
+Field hours_off__v (
+   label('Hours off'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.time_off_territory_hours_off__v'),
+   controlling_picklist('time__v'),
+   picklist_dependencies('{"hourly__v":["1__v","7__v","5__v","6__v","3__v","4__v","2__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

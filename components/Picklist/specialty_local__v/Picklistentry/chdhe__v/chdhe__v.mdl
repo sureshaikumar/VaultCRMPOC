@@ -1,0 +1,6 @@
+Picklistentry chdhe__v (
+   value('Chinese Herbal Dispenser'),
+   order(201),
+   active(true),
+   controlling_entries('au__v')
+);

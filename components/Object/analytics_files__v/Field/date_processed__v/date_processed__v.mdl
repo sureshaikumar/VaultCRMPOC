@@ -1,0 +1,17 @@
+Field date_processed__v (
+   label('Date Processed'),
+   type('DateTime'),
+   active(true),
+   description('The Date Processed is the Date upon which the User processed the Analytics File to load into the VoD database.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message map_street_map__v (
+   label(),
+   active(true),
+   default_value('Street Map'),
+   system_managed(false)
+);

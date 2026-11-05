@@ -1,0 +1,6 @@
+Message restricted_phrase_object_type_error__v (
+   label(),
+   active(true),
+   default_value('Mismatched object types found. Both the Monitoring Rule and Monitored Phrase must use the Restricted Phrase object type in order to be associated.'),
+   system_managed(false)
+);

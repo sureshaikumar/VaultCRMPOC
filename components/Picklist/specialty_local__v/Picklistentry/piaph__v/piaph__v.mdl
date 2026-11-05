@@ -1,0 +1,6 @@
+Picklistentry piaph__v (
+   value('Pharmaceutical Informatics and Pharmacoeconomics'),
+   order(1509),
+   active(true),
+   controlling_entries('ba__v')
+);

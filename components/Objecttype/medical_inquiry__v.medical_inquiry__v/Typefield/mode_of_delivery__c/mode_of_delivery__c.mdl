@@ -1,0 +1,4 @@
+Typefield mode_of_delivery__c (
+   source('custom'),
+   required(false)
+);

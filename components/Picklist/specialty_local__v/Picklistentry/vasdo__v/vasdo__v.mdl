@@ -1,0 +1,6 @@
+Picklistentry vasdo__v (
+   value('Voice and Speech Disorders'),
+   order(1926),
+   active(true),
+   controlling_entries('se__v')
+);

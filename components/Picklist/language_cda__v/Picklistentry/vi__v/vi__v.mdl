@@ -1,0 +1,5 @@
+Picklistentry vi__v (
+   value('Vietnamese'),
+   order(64),
+   active(true)
+);

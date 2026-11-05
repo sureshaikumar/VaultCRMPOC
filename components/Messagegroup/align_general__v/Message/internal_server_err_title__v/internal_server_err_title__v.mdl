@@ -1,0 +1,6 @@
+Message internal_server_err_title__v (
+   label(),
+   active(true),
+   default_value('Sorry, something went wrong.'),
+   system_managed(false)
+);

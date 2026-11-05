@@ -1,0 +1,6 @@
+Message duplicate_email_exists__v (
+   label(),
+   active(true),
+   default_value('Duplicate email address exists in Channel Assignment'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry call__c (
+   value('Call'),
+   order(0),
+   active(true)
+);

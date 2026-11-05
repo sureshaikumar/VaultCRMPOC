@@ -1,0 +1,6 @@
+Picklistentry is-bla__v (
+   value('Bláskógabyggð'),
+   order(2095),
+   active(true),
+   controlling_entries('is__v')
+);

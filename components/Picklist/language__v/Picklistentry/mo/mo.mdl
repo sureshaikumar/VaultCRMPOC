@@ -1,0 +1,5 @@
+Picklistentry mo (
+   value('Montenegrin'),
+   order(38),
+   active(true)
+);

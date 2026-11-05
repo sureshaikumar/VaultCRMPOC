@@ -1,0 +1,6 @@
+Message unable_to_dial__v (
+   label(),
+   active(true),
+   default_value('Unable to dial'),
+   system_managed(false)
+);

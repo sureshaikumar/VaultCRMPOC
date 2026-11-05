@@ -1,0 +1,6 @@
+Message number_of_targets_added__v (
+   label(),
+   active(true),
+   default_value('Targets: ${count} added'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry lr-cm__v (
+   value('Grand Cape Mount'),
+   order(2596),
+   active(true),
+   controlling_entries('lr__v')
+);

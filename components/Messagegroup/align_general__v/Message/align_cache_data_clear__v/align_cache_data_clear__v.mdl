@@ -1,0 +1,6 @@
+Message align_cache_data_clear__v (
+   label(),
+   active(true),
+   default_value('Clear Cache'),
+   system_managed(false)
+);

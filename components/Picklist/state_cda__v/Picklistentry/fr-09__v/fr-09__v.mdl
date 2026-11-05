@@ -1,0 +1,6 @@
+Picklistentry fr-09__v (
+   value('Ariège'),
+   order(1323),
+   active(true),
+   controlling_entries('fr__v')
+);

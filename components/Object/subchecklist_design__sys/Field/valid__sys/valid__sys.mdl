@@ -1,0 +1,22 @@
+Field valid__sys (
+   label('Valid'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1),
+   help_content(),
+   list_column(false),
+   order(14),
+   formula('if(text(subchecklist_design__sysr.state__v)!="Approved", icon("times", "#CF1500", "The Checklist Design is no longer valid for instantiation"), icon("check", "#2FA129", "The Checklist Design is valid for instantiation"))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   show_as_icon(true),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

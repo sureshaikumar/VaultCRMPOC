@@ -1,0 +1,6 @@
+Picklistentry cf-hs__v (
+   value('Haute-Sangha / Mambéré-Kadéï'),
+   order(604),
+   active(true),
+   controlling_entries('cf__v')
+);

@@ -1,0 +1,6 @@
+Message no_record__v (
+   label(),
+   active(true),
+   default_value('No record found'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ru-kda__v (
+   value('Krasnodarskiy kray'),
+   order(3811),
+   active(true),
+   controlling_entries('ru__v')
+);

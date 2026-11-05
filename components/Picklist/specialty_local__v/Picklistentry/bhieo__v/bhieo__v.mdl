@@ -1,0 +1,6 @@
+Picklistentry bhieo__v (
+   value('Biological Hematology'),
+   order(122),
+   active(true),
+   controlling_entries('cm__v')
+);

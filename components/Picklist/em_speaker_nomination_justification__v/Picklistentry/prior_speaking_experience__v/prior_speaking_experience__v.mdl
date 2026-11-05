@@ -1,0 +1,5 @@
+Picklistentry prior_speaking_experience__v (
+   value('Prior speaking experience'),
+   order(0),
+   active(true)
+);

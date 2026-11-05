@@ -1,0 +1,6 @@
+Message invalid_criteria_numbering__v (
+   label(),
+   active(true),
+   default_value('Invalid criteria data. Within a rule, criteria numbers must be sequential and unique.'),
+   system_managed(false)
+);

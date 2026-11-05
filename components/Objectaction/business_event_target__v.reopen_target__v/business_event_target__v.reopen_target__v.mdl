@@ -1,0 +1,8 @@
+RECREATE Objectaction business_event_target__v.reopen_target__v (
+   label('Reopen Target'),
+   description('Executing this action updates the status of this target to Reopened and creates remaining Business Event tasks for the remainder of the EPPV period.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.eppvpi.actions.BusinessEventTargetReopenTargetAction'),
+   active(true),
+   available_all_states(true)
+);

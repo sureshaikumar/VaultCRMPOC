@@ -1,0 +1,6 @@
+Picklistentry bi-ng__v (
+   value('Ngozi'),
+   order(419),
+   active(true),
+   controlling_entries('bi__v')
+);

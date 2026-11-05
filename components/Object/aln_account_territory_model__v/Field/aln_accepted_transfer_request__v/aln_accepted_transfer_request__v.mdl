@@ -1,0 +1,18 @@
+Field aln_accepted_transfer_request__v (
+   label('Accepted Transfer Request'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether a Transfer Request impacts a target associated to this assignment.'),
+   required(false),
+   checkbox(false),
+   help_content('Indicates whether a Transfer Request impacts a target associated to this assignment.'),
+   list_column(false),
+   order(41),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

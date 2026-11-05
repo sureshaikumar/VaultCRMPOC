@@ -1,0 +1,6 @@
+Picklistentry ru-vor__v (
+   value('Voronezhskaya oblast'''),
+   order(3868),
+   active(true),
+   controlling_entries('ru__v')
+);

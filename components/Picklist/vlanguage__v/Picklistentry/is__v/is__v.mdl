@@ -1,0 +1,5 @@
+Picklistentry is__v (
+   value('Icelandic'),
+   order(135),
+   active(false)
+);

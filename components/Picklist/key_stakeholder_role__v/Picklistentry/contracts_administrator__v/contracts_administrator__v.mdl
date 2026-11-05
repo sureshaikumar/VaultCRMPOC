@@ -1,0 +1,5 @@
+Picklistentry contracts_administrator__v (
+   value('Contracts Administrator'),
+   order(9),
+   active(true)
+);

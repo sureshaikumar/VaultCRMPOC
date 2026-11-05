@@ -1,0 +1,6 @@
+Picklistentry ph-ner__v (
+   value('Negros Oriental'),
+   order(3588),
+   active(true),
+   controlling_entries('ph__v')
+);

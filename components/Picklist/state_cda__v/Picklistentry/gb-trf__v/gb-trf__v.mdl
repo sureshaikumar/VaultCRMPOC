@@ -1,0 +1,6 @@
+Picklistentry gb-trf__v (
+   value('Trafford'),
+   order(1643),
+   active(true),
+   controlling_entries('gb__v')
+);

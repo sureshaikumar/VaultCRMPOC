@@ -1,0 +1,6 @@
+Message wd_int_report_access__v (
+   label(),
+   active(true),
+   default_value('Could not access the report for the entered Report URL. {0}'),
+   system_managed(false)
+);

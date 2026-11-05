@@ -1,0 +1,6 @@
+Picklistentry gb-lds__v (
+   value('Leeds'),
+   order(1555),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry tz-26__v (
+   value('Manyara'),
+   order(4610),
+   active(true),
+   controlling_entries('tz__v')
+);

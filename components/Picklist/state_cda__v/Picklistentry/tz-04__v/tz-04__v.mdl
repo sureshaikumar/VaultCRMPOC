@@ -1,0 +1,6 @@
+Picklistentry tz-04__v (
+   value('Iringa'),
+   order(4588),
+   active(true),
+   controlling_entries('tz__v')
+);

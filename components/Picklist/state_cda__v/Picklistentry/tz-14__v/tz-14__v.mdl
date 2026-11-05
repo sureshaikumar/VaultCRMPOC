@@ -1,0 +1,6 @@
+Picklistentry tz-14__v (
+   value('Mbeya'),
+   order(4598),
+   active(true),
+   controlling_entries('tz__v')
+);

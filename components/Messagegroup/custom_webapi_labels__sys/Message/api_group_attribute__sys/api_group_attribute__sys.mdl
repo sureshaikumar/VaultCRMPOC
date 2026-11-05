@@ -1,0 +1,6 @@
+Message api_group_attribute__sys (
+   label(),
+   active(true),
+   default_value('API Group'),
+   system_managed(true)
+);

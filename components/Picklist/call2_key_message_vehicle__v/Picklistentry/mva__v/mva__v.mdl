@@ -1,0 +1,5 @@
+Picklistentry mva__v (
+   value('MVA'),
+   order(0),
+   active(true)
+);

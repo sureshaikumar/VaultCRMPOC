@@ -1,0 +1,5 @@
+Picklistentry pacific_efate__sys (
+   value('(GMT+11:00) Vanuatu Time (Pacific/Efate)'),
+   order(301),
+   active(true)
+);

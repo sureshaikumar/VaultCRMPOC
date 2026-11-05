@@ -1,0 +1,6 @@
+Picklistentry ug-w__v (
+   value('Western'),
+   order(4781),
+   active(true),
+   controlling_entries('ug__v')
+);

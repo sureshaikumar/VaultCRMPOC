@@ -1,0 +1,18 @@
+Field whatsapp_button_2_type__v (
+   label('WhatsApp Button 2 Type'),
+   type('Picklist'),
+   active(true),
+   description('Type of the second button displayed at the bottom of the message.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(34),
+   multi_value(false),
+   picklist('Picklist.message_template_wa_button_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

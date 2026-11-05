@@ -1,0 +1,28 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.case_conversation__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="called_party_phone_number__v" />
+            <vault:field reference="calling_party_phone_number__v" />
+            <vault:field reference="call__v" />
+            <vault:field reference="case__v" />
+            <vault:field reference="conversation_direction__v" />
+            <vault:field reference="end_time__v" />
+            <vault:field reference="platform__v" />
+            <vault:field reference="recording_url__v" />
+            <vault:field reference="start_time__v" />
+            <vault:field reference="external_conversation_id__v" />
+            <vault:field reference="external_conversation_segment_id__v" />
+            <vault:field reference="external_queue_id__v" />
+            <vault:field reference="external_queue_name__v" />
+            <vault:field reference="external_user_id__v" />
+            <vault:field reference="conversation_group__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

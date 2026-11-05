@@ -1,0 +1,14 @@
+Vsmfield messages_failed__v (
+   label('Messages Failed'),
+   active(true),
+   description('Total number of messages that failed to process or transmit for this connection. Use this field to monitor connection health, identify problematic integrations, and troubleshoot transmission errors.'),
+   example_values(),
+   synonyms('failed messages',
+         'failures',
+         'error count',
+         'failed count'),
+   target('messages_failed__sys'),
+   target_label('Messages Failed'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

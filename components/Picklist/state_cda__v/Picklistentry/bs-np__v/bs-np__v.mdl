@@ -1,0 +1,6 @@
+Picklistentry bs-np__v (
+   value('New Providence'),
+   order(500),
+   active(true),
+   controlling_entries('bs__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ma-ine__v (
+   value('Inezgane-Ait Melloul'),
+   order(2806),
+   active(true),
+   controlling_entries('ma__v')
+);

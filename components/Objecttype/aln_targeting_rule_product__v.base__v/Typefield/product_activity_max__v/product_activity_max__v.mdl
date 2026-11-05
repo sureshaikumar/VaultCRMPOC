@@ -1,0 +1,4 @@
+Typefield product_activity_max__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field share_target__v (
+   label('Share Target?'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the request is to share the target instead of to transfer the target'),
+   required(false),
+   checkbox(false),
+   help_content('Indicates if the request is to share the target instead of to transfer the target'),
+   list_column(true),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message restore_original__v (
+   label(),
+   active(true),
+   default_value('Restore Original'),
+   system_managed(false)
+);

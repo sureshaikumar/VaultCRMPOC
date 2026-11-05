@@ -1,0 +1,6 @@
+Picklistentry cz-423__v (
+   value('Litoměřice'),
+   order(850),
+   active(true),
+   controlling_entries('cz__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ja__v (
+   value('Japanese'),
+   order(148),
+   active(false)
+);

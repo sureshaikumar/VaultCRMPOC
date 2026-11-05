@@ -1,0 +1,5 @@
+Picklistentry dhao__v (
+   value('Day Hospital'),
+   order(42),
+   active(true)
+);

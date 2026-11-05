@@ -1,0 +1,6 @@
+Picklistentry eg-is__v (
+   value('Al Ismā''īlīyah'),
+   order(1170),
+   active(true),
+   controlling_entries('eg__v')
+);

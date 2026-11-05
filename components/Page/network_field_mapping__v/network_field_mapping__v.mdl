@@ -1,0 +1,14 @@
+RECREATE Page network_field_mapping__v (
+   label('Network Field Mapping'),
+   active(true),
+   client_distribution(),
+   default_client_code('network_field_mapping__v'),
+   description('Network Field Mapping Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.networkadministration.controls.NetworkFieldMappingsAppPageController'),
+   url_path_name('network-field-mapping')
+);

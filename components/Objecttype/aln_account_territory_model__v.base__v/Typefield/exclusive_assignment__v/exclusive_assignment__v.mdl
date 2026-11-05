@@ -1,0 +1,4 @@
+Typefield exclusive_assignment__v (
+   source('standard'),
+   required(false)
+);

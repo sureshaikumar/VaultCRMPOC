@@ -1,0 +1,6 @@
+Message cant_set_assignment_priority__v (
+   label(),
+   active(true),
+   default_value('Assignment Priority cannot be set for Field Forces with no priority group.'),
+   system_managed(false)
+);

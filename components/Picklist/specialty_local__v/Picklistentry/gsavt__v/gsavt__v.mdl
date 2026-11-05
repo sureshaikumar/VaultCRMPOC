@@ -1,0 +1,6 @@
+Picklistentry gsavt__v (
+   value('General Surgery and Visceral Surgery'),
+   order(615),
+   active(true),
+   controlling_entries('at__v')
+);

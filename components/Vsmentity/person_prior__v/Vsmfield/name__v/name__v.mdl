@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The system-generated or display name for this Prior Person record. Typically used as the primary identifier for the record within Vault and may combine first and last name or follow a naming convention.'),
+   example_values(),
+   synonyms('record name',
+         'full name',
+         'display name'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Message notif_tray_territories__v (
+   label(),
+   active(true),
+   default_value('Territories'),
+   system_managed(false)
+);

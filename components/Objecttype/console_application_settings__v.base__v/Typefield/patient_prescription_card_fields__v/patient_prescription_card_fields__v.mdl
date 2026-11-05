@@ -1,0 +1,4 @@
+Typefield patient_prescription_card_fields__v (
+   source('standard'),
+   required(false)
+);

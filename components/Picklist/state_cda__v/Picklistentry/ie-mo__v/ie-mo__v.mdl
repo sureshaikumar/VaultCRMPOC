@@ -1,0 +1,6 @@
+Picklistentry ie-mo__v (
+   value('Mayo'),
+   order(1981),
+   active(true),
+   controlling_entries('ie__v')
+);

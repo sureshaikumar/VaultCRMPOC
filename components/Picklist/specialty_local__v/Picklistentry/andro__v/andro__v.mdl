@@ -1,0 +1,12 @@
+Picklistentry andro__v (
+   value('Andrology'),
+   order(64),
+   active(true),
+   controlling_entries('al__v',
+         'ci__v',
+         'hr__v',
+         'hu__v',
+         'id__v',
+         'kg__v',
+         'sk__v')
+);

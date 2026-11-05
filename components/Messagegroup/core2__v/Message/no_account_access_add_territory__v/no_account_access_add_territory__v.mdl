@@ -1,0 +1,6 @@
+Message no_account_access_add_territory__v (
+   label(),
+   active(true),
+   default_value('You do not currently have permission to view this account. Please add to your territory.'),
+   system_managed(false)
+);

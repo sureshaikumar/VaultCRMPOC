@@ -1,0 +1,14 @@
+RECREATE Vsmentity package_component__v (
+   label('Package Component'),
+   active(true),
+   description('Represents an individual component or element that makes up an outbound package, which could include configuration components, test data or SDK code.'),
+   synonyms('package components',
+      'pkg component',
+      'packaging element',
+      'pack component'),
+   target('Object.package_component__v'),
+   target_label('Package Component'),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/outbound_package__v.mdl),
+   Vsmfield(@Vsmfield/vault_component__v.mdl)
+);

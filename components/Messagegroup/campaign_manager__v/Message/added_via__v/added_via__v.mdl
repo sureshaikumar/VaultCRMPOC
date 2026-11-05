@@ -1,0 +1,6 @@
+Message added_via__v (
+   label(),
+   active(true),
+   default_value('Added via'),
+   system_managed(false)
+);

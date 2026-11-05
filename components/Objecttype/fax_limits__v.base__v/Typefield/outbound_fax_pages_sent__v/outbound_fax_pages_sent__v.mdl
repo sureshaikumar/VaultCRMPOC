@@ -1,0 +1,4 @@
+Typefield outbound_fax_pages_sent__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message generate_postal_codes_detail_1__v (
+   label(),
+   active(true),
+   default_value('New Veeva-provided Geography records will be inserted, if they do not already exist.'),
+   system_managed(false)
+);

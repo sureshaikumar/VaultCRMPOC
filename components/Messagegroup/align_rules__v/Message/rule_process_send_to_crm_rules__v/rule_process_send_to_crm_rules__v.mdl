@@ -1,0 +1,6 @@
+Message rule_process_send_to_crm_rules__v (
+   label(),
+   active(true),
+   default_value('Only process rules where Send to CRM = Yes'),
+   system_managed(false)
+);

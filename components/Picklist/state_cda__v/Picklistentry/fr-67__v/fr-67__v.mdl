@@ -1,0 +1,6 @@
+Picklistentry fr-67__v (
+   value('Bas-Rhin'),
+   order(1383),
+   active(true),
+   controlling_entries('fr__v')
+);

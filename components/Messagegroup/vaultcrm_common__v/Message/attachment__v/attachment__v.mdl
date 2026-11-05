@@ -1,0 +1,6 @@
+Message attachment__v (
+   label(),
+   active(true),
+   default_value('Attachment'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry partial__v (
+   value('Partial'),
+   order(2),
+   active(true)
+);

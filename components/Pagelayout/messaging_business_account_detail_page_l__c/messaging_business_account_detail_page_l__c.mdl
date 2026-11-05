@@ -1,0 +1,8 @@
+RECREATE Pagelayout messaging_business_account_detail_page_l__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Messaging Business Account Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

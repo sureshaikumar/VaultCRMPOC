@@ -1,0 +1,6 @@
+Picklistentry gh-cp__v (
+   value('Central'),
+   order(1693),
+   active(true),
+   controlling_entries('gh__v')
+);

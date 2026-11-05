@@ -1,0 +1,17 @@
+Field statement__v (
+   label('Statement'),
+   type('LongText'),
+   active(true),
+   description('The compiled SOQL statement for a view.'),
+   required(false),
+   max_length(10000),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

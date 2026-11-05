@@ -1,0 +1,10 @@
+Vsmvalue lvl__v (
+   label('LVL'),
+   active(true),
+   description('The Latvian Lats (LVL), the former official currency of Latvia prior to its replacement by the Euro in 2014, used for legacy or historical financial records denominated in lats.'),
+   synonyms('Latvian lats',
+         'lats',
+         'LVL'),
+   target('lvl__sys'),
+   target_label('LVL')
+);

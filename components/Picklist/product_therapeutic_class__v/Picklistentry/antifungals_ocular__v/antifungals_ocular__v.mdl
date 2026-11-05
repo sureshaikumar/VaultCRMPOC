@@ -1,0 +1,5 @@
+Picklistentry antifungals_ocular__v (
+   value('Antifungals (Ocular)'),
+   order(81),
+   active(true)
+);

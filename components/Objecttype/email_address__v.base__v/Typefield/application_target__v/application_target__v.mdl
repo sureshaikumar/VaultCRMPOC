@@ -1,0 +1,4 @@
+Typefield application_target__v (
+   source('standard'),
+   required(true)
+);

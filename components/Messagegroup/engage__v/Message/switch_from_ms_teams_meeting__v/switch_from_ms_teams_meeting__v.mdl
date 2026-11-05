@@ -1,0 +1,6 @@
+Message switch_from_ms_teams_meeting__v (
+   label(),
+   active(true),
+   default_value('This will remove your scheduled Microsoft Teams Meeting.'),
+   system_managed(false)
+);

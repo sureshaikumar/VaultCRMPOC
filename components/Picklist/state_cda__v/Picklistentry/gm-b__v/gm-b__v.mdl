@@ -1,0 +1,6 @@
+Picklistentry gm-b__v (
+   value('Banjul'),
+   order(1709),
+   active(true),
+   controlling_entries('gm__v')
+);

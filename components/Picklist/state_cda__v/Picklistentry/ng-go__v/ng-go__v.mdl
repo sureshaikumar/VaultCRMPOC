@@ -1,0 +1,6 @@
+Picklistentry ng-go__v (
+   value('Gombe'),
+   order(3335),
+   active(true),
+   controlling_entries('ng__v')
+);

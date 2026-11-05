@@ -1,0 +1,6 @@
+Picklistentry cv-br__v (
+   value('Brava'),
+   order(784),
+   active(true),
+   controlling_entries('cv__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry chf_agents__v (
+   value('CHF Agents'),
+   order(8),
+   active(true)
+);

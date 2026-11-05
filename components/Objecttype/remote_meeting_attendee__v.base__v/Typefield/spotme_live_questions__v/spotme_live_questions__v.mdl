@@ -1,0 +1,4 @@
+Typefield spotme_live_questions__v (
+   source('standard'),
+   required(false)
+);

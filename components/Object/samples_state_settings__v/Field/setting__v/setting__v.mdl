@@ -1,0 +1,18 @@
+Field setting__v (
+   label('Setting'),
+   type('Picklist'),
+   active(true),
+   description('The setting determines the delivery mechanism restriction for the defined State.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.samples_state_settings_setting__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

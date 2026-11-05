@@ -1,0 +1,6 @@
+Picklistentry af-war__v (
+   value('Wardak'),
+   order(46),
+   active(true),
+   controlling_entries('af__v')
+);

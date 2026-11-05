@@ -1,0 +1,6 @@
+Picklistentry nnmeu__v (
+   value('Neuro-Nuclear Medicine'),
+   order(1003),
+   active(true),
+   controlling_entries('hu__v')
+);

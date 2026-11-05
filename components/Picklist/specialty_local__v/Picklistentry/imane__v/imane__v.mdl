@@ -1,0 +1,6 @@
+Picklistentry imane__v (
+   value('Internal Medicine-Allergology'),
+   order(808),
+   active(true),
+   controlling_entries('nl__v')
+);

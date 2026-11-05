@@ -1,0 +1,6 @@
+Message remove_segmentation_confirmation__v (
+   label(),
+   active(true),
+   default_value('By removing segmentation, all targets will be assigned to ${flow_name}. Would you like to proceed?'),
+   system_managed(false)
+);

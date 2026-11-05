@@ -1,0 +1,6 @@
+Picklistentry lb-as__v (
+   value('Liban-Nord'),
+   order(2532),
+   active(true),
+   controlling_entries('lb__v')
+);

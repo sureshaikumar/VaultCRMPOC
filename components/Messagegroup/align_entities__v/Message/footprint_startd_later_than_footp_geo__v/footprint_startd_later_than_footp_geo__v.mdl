@@ -1,0 +1,6 @@
+Message footprint_startd_later_than_footp_geo__v (
+   label(),
+   active(true),
+   default_value('Footprint start date cannot be later than the start date for its Footprint Geography records'),
+   system_managed(false)
+);

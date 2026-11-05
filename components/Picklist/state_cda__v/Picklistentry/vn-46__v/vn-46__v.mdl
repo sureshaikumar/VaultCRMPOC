@@ -1,0 +1,6 @@
+Picklistentry vn-46__v (
+   value('Tiền Giang'),
+   order(4947),
+   active(true),
+   controlling_entries('vn__v')
+);

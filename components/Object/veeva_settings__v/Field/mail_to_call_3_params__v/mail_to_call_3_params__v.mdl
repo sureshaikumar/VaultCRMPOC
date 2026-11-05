@@ -1,0 +1,20 @@
+Field mail_to_call_3_params__v (
+   label('MAIL_TO_CALL_3_PARAMS'),
+   type('String'),
+   active(true),
+   description('Mail-to format for Call data with 3 parameters.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(203),
+   default_value('"MAIL_TO_CALL_3_PARAMS;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

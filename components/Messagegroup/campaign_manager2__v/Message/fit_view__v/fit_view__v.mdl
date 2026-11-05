@@ -1,0 +1,6 @@
+Message fit_view__v (
+   label(),
+   active(true),
+   default_value('Fit view'),
+   system_managed(false)
+);

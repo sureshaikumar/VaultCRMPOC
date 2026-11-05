@@ -1,0 +1,17 @@
+Field publishing_start_date__v (
+   label('Publishing Start Date'),
+   type('DateTime'),
+   active(true),
+   description('The date and time the most recent publishing attempt began.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

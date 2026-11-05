@@ -1,0 +1,19 @@
+Field market__v (
+   label('Market'),
+   type('String'),
+   active(true),
+   description('The associated Market of the Sales Data Transaction.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(221),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

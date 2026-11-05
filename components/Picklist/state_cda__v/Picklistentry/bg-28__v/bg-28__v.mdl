@@ -1,0 +1,6 @@
+Picklistentry bg-28__v (
+   value('Yambol'),
+   order(400),
+   active(true),
+   controlling_entries('bg__v')
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist age_group__c (
+   label('Age Group'),
+   active(true),
+   Picklistentry(@Picklistentry/05__c.mdl),
+   Picklistentry(@Picklistentry/611__c.mdl),
+   Picklistentry(@Picklistentry/1217__c.mdl),
+   Picklistentry(@Picklistentry/1860__c.mdl),
+   Picklistentry(@Picklistentry/60__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

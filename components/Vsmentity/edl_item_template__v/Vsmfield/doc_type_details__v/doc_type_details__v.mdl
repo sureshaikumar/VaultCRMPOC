@@ -1,0 +1,14 @@
+Vsmfield doc_type_details__v (
+   label('Full Document Type'),
+   active(true),
+   description('The full document type hierarchy (Type, Subtype, and Classification combined) associated with this EDL item template. Provides a complete picture of the document categorization in a single reference field, useful when querying across all levels of the type hierarchy at once.'),
+   example_values(),
+   synonyms('full doc type',
+         'document type details',
+         'complete doc type',
+         'type hierarchy'),
+   target('doc_type_details__v'),
+   target_label('Full Document Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

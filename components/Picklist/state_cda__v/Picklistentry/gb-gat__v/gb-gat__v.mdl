@@ -1,0 +1,6 @@
+Picklistentry gb-gat__v (
+   value('Gateshead'),
+   order(1523),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry refle__v (
+   value('Reflexology'),
+   order(1716),
+   active(true),
+   controlling_entries('ua__v')
+);

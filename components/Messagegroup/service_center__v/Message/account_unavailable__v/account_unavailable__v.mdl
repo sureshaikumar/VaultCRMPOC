@@ -1,0 +1,6 @@
+Message account_unavailable__v (
+   label(),
+   active(true),
+   default_value('Account Unavailable (${account})'),
+   system_managed(false)
+);

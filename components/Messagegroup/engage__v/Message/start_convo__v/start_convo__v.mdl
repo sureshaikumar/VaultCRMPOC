@@ -1,0 +1,6 @@
+Message start_convo__v (
+   label(),
+   active(true),
+   default_value('Start Conversation'),
+   system_managed(false)
+);

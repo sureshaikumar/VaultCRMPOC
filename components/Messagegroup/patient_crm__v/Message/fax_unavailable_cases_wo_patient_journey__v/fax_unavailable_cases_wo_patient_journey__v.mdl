@@ -1,0 +1,6 @@
+Message fax_unavailable_cases_wo_patient_journey__v (
+   label(),
+   active(true),
+   default_value('Fax unavailable for cases without a Patient Journey'),
+   system_managed(false)
+);

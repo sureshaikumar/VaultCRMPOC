@@ -1,0 +1,15 @@
+Subtab rep_roster__c (
+   active(true),
+   all_view_label('All Rep Roster'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Rep Roster'),
+   modal_create_record(false),
+   my_view_label('My Rep Roster'),
+   object('rep_roster__v'),
+   order(0),
+   parent('sample_management__c'),
+   prevent_create(false),
+   recent_view_label('Recent Rep Roster')
+);

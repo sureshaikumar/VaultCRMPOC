@@ -1,0 +1,4 @@
+Typefield marketing_opportunities_for_suppliers__c (
+   source('custom'),
+   required(false)
+);

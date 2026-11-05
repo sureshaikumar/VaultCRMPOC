@@ -1,0 +1,6 @@
+Picklistentry haemy__v (
+   value('Hygiene and Environmental Medicine'),
+   order(724),
+   active(true),
+   controlling_entries('de__v')
+);

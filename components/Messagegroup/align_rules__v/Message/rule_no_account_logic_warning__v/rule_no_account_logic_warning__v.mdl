@@ -1,0 +1,6 @@
+Message rule_no_account_logic_warning__v (
+   label(),
+   active(true),
+   default_value('No criteria selected for Account. All affiliated Accounts will be assigned if not eliminated by other criteria.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 47380__v (
+   value('Waco, TX Metropolitan Statistical Area'),
+   order(267),
+   active(true)
+);

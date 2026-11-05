@@ -1,0 +1,9 @@
+Vsmvalue veb__v (
+   label('VEB'),
+   active(true),
+   description('Applies when referencing the original Venezuelan Bolívar, a legacy currency code used in historical financial records prior to subsequent redenominations.'),
+   synonyms('Venezuelan bolívar legacy',
+         'old Venezuelan bolívar'),
+   target('veb__sys'),
+   target_label('VEB')
+);

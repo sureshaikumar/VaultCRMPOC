@@ -1,0 +1,5 @@
+Picklistentry specialty_org__c (
+   value('Specialty Org'),
+   order(3),
+   active(true)
+);

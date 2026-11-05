@@ -1,0 +1,4 @@
+Typefield total_slides__v (
+   source('standard'),
+   required(false)
+);

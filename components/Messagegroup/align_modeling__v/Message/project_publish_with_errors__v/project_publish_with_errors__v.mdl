@@ -1,0 +1,6 @@
+Message project_publish_with_errors__v (
+   label(),
+   active(true),
+   default_value('Finished publishing project process with errors'),
+   system_managed(false)
+);

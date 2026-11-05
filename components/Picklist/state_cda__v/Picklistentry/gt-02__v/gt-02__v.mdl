@@ -1,0 +1,6 @@
+Picklistentry gt-02__v (
+   value('El Progreso'),
+   order(1781),
+   active(true),
+   controlling_entries('gt__v')
+);

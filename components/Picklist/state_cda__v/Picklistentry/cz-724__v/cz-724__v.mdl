@@ -1,0 +1,6 @@
+Picklistentry cz-724__v (
+   value('Zlín'),
+   order(895),
+   active(true),
+   controlling_entries('cz__v')
+);

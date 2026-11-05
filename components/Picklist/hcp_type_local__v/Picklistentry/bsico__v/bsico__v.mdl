@@ -1,0 +1,5 @@
+Picklistentry bsico__v (
+   value('Biomedical Scientist'),
+   order(15),
+   active(true)
+);

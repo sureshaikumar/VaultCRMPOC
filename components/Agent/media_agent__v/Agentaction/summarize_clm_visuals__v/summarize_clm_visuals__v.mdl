@@ -1,0 +1,12 @@
+Agentaction summarize_clm_visuals__v (
+   label('Summarize CLM Visuals'),
+   active(true),
+   api_access(),
+   description('Summarizes visualizations included in CLM and stores them in a vector database. '),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

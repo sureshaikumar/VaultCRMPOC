@@ -1,0 +1,7 @@
+RECREATE Picklist checklist_dependency_behavior__sys (
+   label('Checklist Dependency Behavior'),
+   active(true),
+   Picklistentry(@Picklistentry/show__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

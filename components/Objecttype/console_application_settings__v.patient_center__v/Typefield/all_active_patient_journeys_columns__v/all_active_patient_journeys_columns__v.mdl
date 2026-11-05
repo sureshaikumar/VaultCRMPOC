@@ -1,0 +1,5 @@
+Typefield all_active_patient_journeys_columns__v (
+   source('standard'),
+   required(false),
+   default_value('"patient_journey_association__v.patient__vr.full_name__v;;patient_journey_association__v.patient_journey__v;;patient_journey_association__v.ownerid__v;;patient_journey_association__v.state__v;;patient_journey_association__v.in_therapy__v;;patient_journey_association__v.in_progress_phases__v;;patient_journey_association__v.modified_date__v"')
+);

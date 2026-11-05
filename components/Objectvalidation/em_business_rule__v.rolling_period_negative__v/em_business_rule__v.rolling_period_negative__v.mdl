@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_business_rule__v.rolling_period_negative__v (
+   label('Rolling Period is Negative'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_attendee_expense_cap_rule__v", true,
+            "em_cross_event_attendee_expense_cap_r__v", true,
+            false
+        ) = false || date_threshold_type__v != "rolling__v" || rolling_period__v >= 0'),
+   description('Rolling Period may not be negative.'),
+   error_message('Rolling Period may not be negative.'),
+   error_location('rolling_period__v')
+);

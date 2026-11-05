@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_reload_text_4__v (
+   label(),
+   active(true),
+   default_value('The user has already responded to this request. To continue to provide feedback, transfer requests must be reloaded.'),
+   system_managed(false)
+);

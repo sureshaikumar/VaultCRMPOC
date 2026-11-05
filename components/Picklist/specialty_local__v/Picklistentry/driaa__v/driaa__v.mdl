@@ -1,0 +1,6 @@
+Picklistentry driaa__v (
+   value('Diagnostic Radiography'),
+   order(434),
+   active(true),
+   controlling_entries('au__v')
+);

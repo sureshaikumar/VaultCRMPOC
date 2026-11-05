@@ -1,0 +1,23 @@
+Field short_account_level__v (
+   label('Short_Account_Level'),
+   type('Number'),
+   active(true),
+   description('Reduces the number of fields visible on an Account in the VMobile BlackBerry application to the fields listed in the Short_Account_Mobile_SOQL Veeva Message. Default value is 3000.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(277),
+   default_value('3000'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry lt-21__v (
+   value('Klaipėda'),
+   order(2639),
+   active(true),
+   controlling_entries('lt__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ge-sz__v (
+   value('Samegrelo-Zemo Svaneti'),
+   order(1686),
+   active(true),
+   controlling_entries('ge__v')
+);

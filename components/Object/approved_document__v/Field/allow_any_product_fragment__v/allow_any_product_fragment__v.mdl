@@ -1,0 +1,18 @@
+Field allow_any_product_fragment__v (
+   label('Allow Any Product Fragment'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If true, it indicates that email fragments across any products can be inserted in the email template.'),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

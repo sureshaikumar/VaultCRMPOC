@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate collab_auth_entryaction_checkin_failure__sys (
+   label('Collab Auth Entry Checkin Failure'),
+   active(true),
+   description('Notification template notifying user of the failure of their collaborative authoring checkin entry action.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Collaborative Authoring checkin entry action failed'),
+   notification('<p>The document <a href="${CollabAuthActionResultDocumentURL}">${CollabAuthActionResultDocumentName}</a> did not check in from Microsoft Office successfully. You can find the reason for failure <a href="${CollabAuthActionResultCsvURL}">here.</a> This document requires manual check in to Microsoft Office.</p>'),
+   email_body('<p>The document <a href="${CollabAuthActionResultDocumentURL}">${CollabAuthActionResultDocumentName}</a> did not check in from Microsoft Office successfully. You can find the reason for failure <a href="${CollabAuthActionResultCsvURL}">here.</a> This document requires manual check in to Microsoft Office.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

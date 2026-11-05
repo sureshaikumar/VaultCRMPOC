@@ -1,0 +1,10 @@
+Picklistentry cplsi__v (
+   value('Clinical Psychology'),
+   order(292),
+   active(true),
+   controlling_entries('am__v',
+         'au__v',
+         'ch__v',
+         'li__v',
+         'nl__v')
+);

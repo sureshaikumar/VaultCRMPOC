@@ -1,0 +1,8 @@
+RECREATE Objectvalidation mc_cycle__v.start_date_greater_than_end_date__v (
+   label('Start_Date_Greater_Than_End_Date'),
+   active(true),
+   expression('Or(IsBlank(end_date__v),start_date__v < end_date__v)'),
+   description('start_date__v cannot be greater than or equal to the end_date__v'),
+   error_message('Start Date cannot be greater than or equal to the End Date.'),
+   error_location('end_date__v')
+);

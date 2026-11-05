@@ -1,0 +1,19 @@
+Field last_territory_used__v (
+   label('Last Territory Used'),
+   type('String'),
+   active(true),
+   description('This is the last territory used in My Accounts.  This is either the territory id or "all".'),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content(),
+   list_column(false),
+   order(45),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

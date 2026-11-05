@@ -1,0 +1,20 @@
+Field hcp_result_card_fields__v (
+   label('HCP Result Card Fields'),
+   type('String'),
+   active(true),
+   description('Defines up to 4 Account (account__v) fields to display on HCP search result cards in the Account Search tab, in the order listed. Enter as a double semicolon (;;)-delimited list, for example: account__v.fieldname__v;;account__v.fieldname__v;;account__v.fieldname__v'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Account Object (account__v) fields to display on Account Search tab HCP search results cards (maximum 4). Fields are rendered in the order listed. Format fieldname__v;;fieldname__v;;fieldname__v'),
+   list_column(false),
+   order(16),
+   default_value('"account__v.office_phone_cda__v;;account__v.mobile_phone_cda__v;;account__v.email_cda__v;;account__v.npi__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

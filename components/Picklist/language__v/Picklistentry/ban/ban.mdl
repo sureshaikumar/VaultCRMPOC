@@ -1,0 +1,5 @@
+Picklistentry ban (
+   value('Balinese'),
+   order(134),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield percent_all_goals__v (
+   source('standard'),
+   required(false)
+);

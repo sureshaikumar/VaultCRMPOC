@@ -1,0 +1,5 @@
+Picklistentry atlantic_south_georgia__sys (
+   value('(GMT-02:00) South Georgia Standard Time (Atlantic/South_Georgia)'),
+   order(131),
+   active(true)
+);

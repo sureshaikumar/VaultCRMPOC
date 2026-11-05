@@ -1,0 +1,6 @@
+Picklistentry br-rn__v (
+   value('Rio Grande do Norte'),
+   order(470),
+   active(true),
+   controlling_entries('br__v')
+);

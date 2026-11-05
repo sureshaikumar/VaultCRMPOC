@@ -1,0 +1,6 @@
+Message call_from__v (
+   label(),
+   active(true),
+   default_value('Call from ${phone_number}'),
+   system_managed(false)
+);

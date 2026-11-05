@@ -1,0 +1,7 @@
+Queueconnection datacloud_conn_processor_queue_conn__v (
+   label(),
+   active(true),
+   connection_name('veeva_crm__v'),
+   connection_type('external__sys'),
+   deliver_to_queue()
+);

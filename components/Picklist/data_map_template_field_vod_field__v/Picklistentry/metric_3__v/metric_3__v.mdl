@@ -1,0 +1,5 @@
+Picklistentry metric_3__v (
+   value('Metric_3_vod__c'),
+   order(230),
+   active(true)
+);

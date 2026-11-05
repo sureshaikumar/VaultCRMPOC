@@ -1,0 +1,5 @@
+Picklistentry olc_channel_template__sys (
+   value('Channel Template'),
+   order(11),
+   active(true)
+);

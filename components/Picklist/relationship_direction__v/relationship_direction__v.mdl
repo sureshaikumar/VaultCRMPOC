@@ -1,0 +1,8 @@
+RECREATE Picklist relationship_direction__v (
+   label('Relationship Direction'),
+   active(true),
+   Picklistentry(@Picklistentry/inbound__v.mdl),
+   Picklistentry(@Picklistentry/outbound__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry pg-wpd__v (
+   value('Western'),
+   order(3515),
+   active(true),
+   controlling_entries('pg__v')
+);

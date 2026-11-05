@@ -1,0 +1,4 @@
+Typefield short_object_list_metadata_only__v (
+   source('standard'),
+   required(false)
+);

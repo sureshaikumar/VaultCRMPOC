@@ -1,0 +1,6 @@
+Message om_current_value__v (
+   label(),
+   active(true),
+   default_value('Current: ${current_value}'),
+   system_managed(false)
+);

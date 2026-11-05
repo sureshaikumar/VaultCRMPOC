@@ -1,0 +1,6 @@
+Message number_of_targets_partial_success_remove__v (
+   label(),
+   active(true),
+   default_value('Targets: ${success_count} removed, ${failed_count} failed'),
+   system_managed(false)
+);

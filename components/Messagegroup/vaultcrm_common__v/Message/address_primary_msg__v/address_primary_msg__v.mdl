@@ -1,0 +1,6 @@
+Message address_primary_msg__v (
+   label(),
+   active(true),
+   default_value('A primary address cannot be marked inactive.'),
+   system_managed(false)
+);

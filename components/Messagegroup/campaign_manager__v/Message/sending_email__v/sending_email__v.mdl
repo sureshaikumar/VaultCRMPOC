@@ -1,0 +1,6 @@
+Message sending_email__v (
+   label(),
+   active(true),
+   default_value('Sending Email...'),
+   system_managed(false)
+);

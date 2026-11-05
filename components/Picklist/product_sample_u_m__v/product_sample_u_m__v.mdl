@@ -1,0 +1,12 @@
+RECREATE Picklist product_sample_u_m__v (
+   label('Sample U/M'),
+   active(true),
+   Picklistentry(@Picklistentry/box__v.mdl),
+   Picklistentry(@Picklistentry/case__v.mdl),
+   Picklistentry(@Picklistentry/carton__v.mdl),
+   Picklistentry(@Picklistentry/each__v.mdl),
+   Picklistentry(@Picklistentry/india__c.mdl),
+   Picklistentry(@Picklistentry/america__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

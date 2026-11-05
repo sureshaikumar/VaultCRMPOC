@@ -1,0 +1,5 @@
+Picklistentry oji__v (
+   value('Ojibwa'),
+   order(244),
+   active(false)
+);

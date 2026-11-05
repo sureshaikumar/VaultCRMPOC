@@ -1,0 +1,4 @@
+Typefield email_files__v (
+   source('standard'),
+   required(false)
+);

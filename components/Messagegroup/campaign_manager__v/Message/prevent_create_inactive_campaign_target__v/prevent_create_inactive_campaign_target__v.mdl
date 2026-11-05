@@ -1,0 +1,6 @@
+Message prevent_create_inactive_campaign_target__v (
+   label(),
+   active(true),
+   default_value('Targets must be created as Active'),
+   system_managed(false)
+);

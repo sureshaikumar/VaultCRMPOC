@@ -1,0 +1,59 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.key_message__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="keywords__v" />
+            <vault:field reference="hq_slide_notes__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="media_file_name__v" />
+            <vault:field reference="media_file_size__v" />
+            <vault:field reference="display_order__v" />
+            <vault:field reference="media_type__v" />
+            <vault:field reference="disable_actions__v" />
+            <vault:field reference="ios_resolution__v" />
+            <vault:field reference="ios_viewer__v" />
+            <vault:field reference="is_shared_resource__v" />
+            <vault:field reference="shared_resource__v" />
+            <vault:field reference="slide_version__v" />
+            <vault:field reference="key_message_status__v" />
+            <vault:field reference="custom_reaction__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="url__v" />
+            <vault:field reference="media_file_crc__v" />
+            <vault:field reference="target_platform__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Media" name="media_section__c" reference="media_section__v" />
+    <vault:section title="Integration Details" name="integration_details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="vault_dns__v" />
+            <vault:field reference="vault_guid__v" />
+            <vault:field reference="vault_doc_id__v" />
+            <vault:field reference="vault_external_id__v" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="vault_last_modified_date_time__v" />
+            <vault:field reference="slide_notes_version__v" />
+            <vault:field reference="update_slide_notes__v" />
+            <vault:field reference="clm_id__v" />
+            <vault:field reference="cdn_path__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="CLM Presentation Slides" name="clm_presentation_slides__c">
+        <vault:relatedObject relationship="clm_presentation_slide__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Sytem Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

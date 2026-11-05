@@ -1,0 +1,21 @@
+Field check_in_location_services_status__v (
+   label('Check In Location Services Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Captures device Location Services status.
+Enabled_vod – location services are turned on and the system is able to get the user''s location.
+Disabled_vod – location services are turned off.
+No_Connection_vod – no network connection.'),
+   list_column(false),
+   order(36),
+   multi_value(false),
+   picklist('Picklist.call2_check_in_location_services_status__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

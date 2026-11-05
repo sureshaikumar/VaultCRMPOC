@@ -1,0 +1,6 @@
+Message rule_parent_hco_criteria_header__v (
+   label(),
+   active(true),
+   default_value('Parent HCO Criteria'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message start_typing_query__v (
+   label(),
+   active(true),
+   default_value('Start typing query...'),
+   system_managed(false)
+);

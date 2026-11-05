@@ -1,0 +1,9 @@
+RECREATE Reporttype date__sys (
+   label('Date'),
+   active(false),
+   description('Returns a record for every date'),
+   primary_object('date__sys'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

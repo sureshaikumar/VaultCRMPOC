@@ -1,0 +1,14 @@
+Vsmrelationship reference_lookup__v (
+   label('Reference Lookup'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship to reference lookup records that use this connection to resolve field references or cross-object lookups. Use this to find all lookup configurations dependent on this connection.'),
+   join_object(),
+   synonyms('reference lookup',
+         'lookup',
+         'reference mapping',
+         'field lookup'),
+   target('reference_lookup__sysr'),
+   target_label('Reference Lookup'),
+   target_object('reference_lookup__sys')
+);

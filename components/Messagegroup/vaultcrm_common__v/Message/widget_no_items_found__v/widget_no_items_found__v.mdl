@@ -1,0 +1,6 @@
+Message widget_no_items_found__v (
+   label(),
+   active(true),
+   default_value('No Items Found'),
+   system_managed(false)
+);

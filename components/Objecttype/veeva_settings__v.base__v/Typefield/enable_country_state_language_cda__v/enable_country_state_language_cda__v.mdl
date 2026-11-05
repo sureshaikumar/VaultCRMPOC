@@ -1,0 +1,4 @@
+Typefield enable_country_state_language_cda__v (
+   source('standard'),
+   required(false)
+);

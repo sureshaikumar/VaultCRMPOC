@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction in_progress_state__v.update_status_with_escalation__v (
+   rule(@rule.xml),
+   order(1000)
+);

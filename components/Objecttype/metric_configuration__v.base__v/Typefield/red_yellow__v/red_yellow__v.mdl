@@ -1,0 +1,4 @@
+Typefield red_yellow__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message opened__v (
+   label(),
+   active(true),
+   default_value('Opened'),
+   system_managed(false)
+);

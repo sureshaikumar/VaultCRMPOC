@@ -1,0 +1,6 @@
+Picklistentry si-024__v (
+   value('Dornava'),
+   order(3998),
+   active(true),
+   controlling_entries('si__v')
+);

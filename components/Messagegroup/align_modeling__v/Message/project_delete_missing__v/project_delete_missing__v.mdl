@@ -1,0 +1,6 @@
+Message project_delete_missing__v (
+   label(),
+   active(true),
+   default_value('The project may have been deleted!'),
+   system_managed(false)
+);

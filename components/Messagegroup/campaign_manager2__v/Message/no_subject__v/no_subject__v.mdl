@@ -1,0 +1,6 @@
+Message no_subject__v (
+   label(),
+   active(true),
+   default_value('No subject'),
+   system_managed(false)
+);

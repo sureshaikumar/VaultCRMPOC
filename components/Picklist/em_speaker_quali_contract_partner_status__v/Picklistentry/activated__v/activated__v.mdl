@@ -1,0 +1,5 @@
+Picklistentry activated__v (
+   value('Activated'),
+   order(1),
+   active(true)
+);

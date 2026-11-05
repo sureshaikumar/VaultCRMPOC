@@ -1,0 +1,6 @@
+Picklistentry pg-hla__v (
+   value('Hela'),
+   order(3501),
+   active(true),
+   controlling_entries('pg__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry rolling__v (
+   value('Rolling'),
+   order(0),
+   active(true)
+);

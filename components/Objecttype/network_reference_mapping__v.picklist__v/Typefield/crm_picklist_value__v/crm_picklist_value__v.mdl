@@ -1,0 +1,4 @@
+Typefield crm_picklist_value__v (
+   source('custom'),
+   required(false)
+);

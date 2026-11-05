@@ -1,0 +1,8 @@
+RECREATE Objectaction documented_interest__v.unlock__v (
+   label('Unlock'),
+   description('Unlocks the documented interest'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.documentedinterest.actions.DocumentedInterestUnlockAction'),
+   active(true),
+   available_all_states(true)
+);

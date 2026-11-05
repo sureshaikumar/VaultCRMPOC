@@ -1,0 +1,5 @@
+Picklistentry america_hermosillo__sys (
+   value('(GMT-07:00) Mountain Standard Time (America/Hermosillo)'),
+   order(25),
+   active(true)
+);

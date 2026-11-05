@@ -1,0 +1,5 @@
+Picklistentry asia_bangkok__v (
+   value('Indochina Time'),
+   order(23),
+   active(true)
+);

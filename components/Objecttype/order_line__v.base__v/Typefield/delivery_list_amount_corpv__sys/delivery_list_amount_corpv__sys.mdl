@@ -1,0 +1,4 @@
+Typefield delivery_list_amount_corpv__sys (
+   source('standard'),
+   required(false)
+);

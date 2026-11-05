@@ -1,0 +1,69 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.preferences__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="analytics_call_status__v" />
+            <vault:field reference="analytics_call_types__v" />
+            <vault:field reference="analytics_compare_territories__v" />
+            <vault:field reference="analytics_count_attendees__v" />
+            <vault:field reference="analytics_count_weekend_calls__v" />
+            <vault:field reference="analytics_cycle_plans__v" />
+            <vault:field reference="analytics_datatype__v" />
+            <vault:field reference="analytics_display_by__v" />
+            <vault:field reference="analytics_display_competitors__v" />
+            <vault:field reference="analytics_market_category__v" />
+            <vault:field reference="analytics_my_products__v" />
+            <vault:field reference="analytics_payer_top_products__v" />
+            <vault:field reference="analytics_products__v" />
+            <vault:field reference="analytics_scale__v" />
+            <vault:field reference="analytics_start_end_dates__v" />
+            <vault:field reference="analytics_territories__v" />
+            <vault:field reference="analytics_timeframe__v" />
+            <vault:field reference="calendar_share_recent_items__v" />
+            <vault:field reference="calls_per_day__v" />
+            <vault:field reference="collapseschedule__v" />
+            <vault:field reference="disable_app_sounds__v" />
+            <vault:field reference="disable_clm_calendar__v" />
+            <vault:field reference="disable_call_cycle_view__v" />
+            <vault:field reference="enable_order_line_total_round__v" />
+            <vault:field reference="enable_order_single_entry__v" />
+            <vault:field reference="event_country_config__v" />
+            <vault:field reference="event_management_user__v" />
+            <vault:field reference="five_day_week__v" />
+            <vault:field reference="formulary_view__v" />
+            <vault:field reference="jdnet_segment__v" />
+            <vault:field reference="last_analytic__v" />
+            <vault:field reference="last_list_scheduler_account_list__v" />
+            <vault:field reference="last_map_scheduler_account_list__v" />
+            <vault:field reference="last_map_scheduler_bookmark__v" />
+            <vault:field reference="last_scheduler_account_list__v" />
+            <vault:field reference="last_target__v" />
+            <vault:field reference="last_territory_used__v" />
+            <vault:field reference="last_view_used__v" />
+            <vault:field reference="mccp_activity_type_switch__v" />
+            <vault:field reference="profile__v" />
+            <vault:field reference="records_per_page__v" />
+            <vault:field reference="scheduler_cycle_plan_display__v" />
+            <vault:field reference="time_zone__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="analytic_market__v" />
+            <vault:field reference="analytics_segment__v" />
+            <vault:field reference="last_account_view_used__v" />
+            <vault:field reference="last_list_scheduler_bookmark__v" />
+            <vault:field reference="last_scheduler_bookmark__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="conversation_view__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

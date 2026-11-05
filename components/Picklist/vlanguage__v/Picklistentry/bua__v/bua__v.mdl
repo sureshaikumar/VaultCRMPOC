@@ -1,0 +1,5 @@
+Picklistentry bua__v (
+   value('Buriat'),
+   order(45),
+   active(false)
+);

@@ -1,0 +1,15 @@
+Fieldrule source_status__v (
+   label('Source Status'),
+   active(true),
+   query_object('product__v'),
+   query_field('status__v'),
+   target_object('Object.product_family__v'),
+   target_object_field('Field.source_status__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_picklist__sys'),
+   target_field_lookup()
+);

@@ -1,0 +1,17 @@
+Field on_focus__v (
+   label('On Focus'),
+   type('DateTime'),
+   active(true),
+   description('Indicates if the Target should be displayed in the Today''s Focus view. The field is stamped when the Outbound Target is added to the Today''s Focus view. If the Outbound Target remains in Today''s Focus until done_today__v is stamped.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

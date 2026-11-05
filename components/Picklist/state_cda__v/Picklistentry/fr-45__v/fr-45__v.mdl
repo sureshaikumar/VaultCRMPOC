@@ -1,0 +1,6 @@
+Picklistentry fr-45__v (
+   value('Loiret'),
+   order(1361),
+   active(true),
+   controlling_entries('fr__v')
+);

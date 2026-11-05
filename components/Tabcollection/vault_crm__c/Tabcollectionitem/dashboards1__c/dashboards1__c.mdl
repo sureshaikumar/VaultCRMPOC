@@ -1,0 +1,8 @@
+Tabcollectionitem dashboards1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(15),
+   tab('Tab.vof_dashboards__v'),
+   type('Tab')
+);

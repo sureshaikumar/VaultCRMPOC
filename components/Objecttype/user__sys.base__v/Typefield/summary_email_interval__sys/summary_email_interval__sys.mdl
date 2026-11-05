@@ -1,0 +1,4 @@
+Typefield summary_email_interval__sys (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-116__v (
+   value('Sveti Jurij ob Ščavnici'),
+   order(4090),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Message general_no_record_for_external_id__v (
+   label(),
+   active(true),
+   default_value('External ID did not map to an existing record for field [{0}].'),
+   system_managed(false)
+);

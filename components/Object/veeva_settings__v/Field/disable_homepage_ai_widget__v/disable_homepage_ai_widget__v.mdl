@@ -1,0 +1,18 @@
+Field disable_homepage_ai_widget__v (
+   label('Disable Homepage AI Widget'),
+   type('Picklist'),
+   active(true),
+   description('Picklist of agent paths for which the Vault CRM AI widget should be hidden on the VMobile Home Page for the assigned profile(s). The widget hides a path when a matching value is present. Empty = widget shown for all paths (auto-on).'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(357),
+   multi_value(true),
+   picklist('Picklist.disable_homepage_ai_widget__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

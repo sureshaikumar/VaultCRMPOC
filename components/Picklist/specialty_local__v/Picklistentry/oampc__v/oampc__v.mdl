@@ -1,0 +1,6 @@
+Picklistentry oampc__v (
+   value('Oral and Maxillofacial Pathology Cysts and Neoplasms'),
+   order(1156),
+   active(true),
+   controlling_entries('id__v')
+);

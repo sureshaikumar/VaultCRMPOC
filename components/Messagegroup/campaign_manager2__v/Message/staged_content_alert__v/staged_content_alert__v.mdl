@@ -1,0 +1,6 @@
+Message staged_content_alert__v (
+   label(),
+   active(true),
+   default_value('All content must be approved before activation. Replace any staged templates or work with your content team to approve them.'),
+   system_managed(false)
+);

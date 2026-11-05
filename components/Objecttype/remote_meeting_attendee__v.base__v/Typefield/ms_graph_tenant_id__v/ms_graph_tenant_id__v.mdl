@@ -1,0 +1,4 @@
+Typefield ms_graph_tenant_id__v (
+   source('standard'),
+   required(false)
+);

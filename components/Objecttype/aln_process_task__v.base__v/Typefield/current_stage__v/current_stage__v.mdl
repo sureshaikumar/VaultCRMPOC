@@ -1,0 +1,4 @@
+Typefield current_stage__v (
+   source('standard'),
+   required(true)
+);

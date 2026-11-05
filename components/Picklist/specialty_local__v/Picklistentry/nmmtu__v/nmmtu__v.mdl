@@ -1,0 +1,6 @@
+Picklistentry nmmtu__v (
+   value('Nuclear Medicine Molecular Theranostics'),
+   order(1054),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lhaia__v (
+   value('Laboratory Hematology and Immunology'),
+   order(841),
+   active(true),
+   controlling_entries('hu__v')
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist vmobile_object_configuration_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/t__v.mdl),
+   Picklistentry(@Picklistentry/r__v.mdl),
+   Picklistentry(@Picklistentry/f__v.mdl),
+   Picklistentry(@Picklistentry/c__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

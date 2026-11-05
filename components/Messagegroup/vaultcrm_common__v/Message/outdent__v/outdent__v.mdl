@@ -1,0 +1,6 @@
+Message outdent__v (
+   label(),
+   active(true),
+   default_value('Outdent'),
+   system_managed(false)
+);

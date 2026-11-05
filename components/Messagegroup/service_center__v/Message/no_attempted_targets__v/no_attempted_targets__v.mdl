@@ -1,0 +1,6 @@
+Message no_attempted_targets__v (
+   label(),
+   active(true),
+   default_value('No Attempted Targets'),
+   system_managed(false)
+);

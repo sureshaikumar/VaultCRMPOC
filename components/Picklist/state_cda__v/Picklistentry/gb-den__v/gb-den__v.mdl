@@ -1,0 +1,6 @@
+Picklistentry gb-den__v (
+   value('Denbighshire'),
+   order(1497),
+   active(true),
+   controlling_entries('gb__v')
+);

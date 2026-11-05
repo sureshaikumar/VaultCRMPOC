@@ -1,0 +1,4 @@
+Typefield vault_clinical_study_person__v (
+   source('standard'),
+   required(false)
+);

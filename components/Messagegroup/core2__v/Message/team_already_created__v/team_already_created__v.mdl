@@ -1,0 +1,6 @@
+Message team_already_created__v (
+   label(),
+   active(true),
+   default_value('The Team has already been created. Users can now create channels.'),
+   system_managed(false)
+);

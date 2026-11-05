@@ -1,0 +1,19 @@
+Field state_distributor_city__v (
+   label('State Distributor City'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('City of the State Distributor Address'),
+   list_column(false),
+   order(143),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

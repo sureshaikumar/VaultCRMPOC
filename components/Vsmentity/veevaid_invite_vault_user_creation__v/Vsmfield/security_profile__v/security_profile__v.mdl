@@ -1,0 +1,14 @@
+Vsmfield security_profile__v (
+   label('Security Profile'),
+   active(true),
+   description('Reference to the security profile assigned to the newly created Vault user. Determines the permissions and access controls the user will have within the Vault environment.'),
+   example_values(),
+   synonyms('security role',
+         'profile',
+         'user profile',
+         'access profile'),
+   target('security_profile__sys'),
+   target_label('Security Profile'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

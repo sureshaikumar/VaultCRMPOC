@@ -1,0 +1,21 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.test_object_tbd__c.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="kol_name__c" />
+            <vault:field reference="account__c" />
+            <vault:field reference="office_phone__c" />
+            <vault:field reference="object_type__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Test Objects" name="test_objects__c">
+        <vault:relatedObject relationship="test_objects__cr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

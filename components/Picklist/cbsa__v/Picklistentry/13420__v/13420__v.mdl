@@ -1,0 +1,5 @@
+Picklistentry 13420__v (
+   value('Bemidji, MN Micropolitan Statistical Area'),
+   order(871),
+   active(true)
+);

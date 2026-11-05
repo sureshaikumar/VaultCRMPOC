@@ -1,0 +1,4 @@
+Typefield multichannel_activity_alert_num_days__v (
+   source('standard'),
+   required(false)
+);

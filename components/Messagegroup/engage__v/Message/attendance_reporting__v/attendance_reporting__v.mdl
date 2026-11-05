@@ -1,0 +1,6 @@
+Message attendance_reporting__v (
+   label(),
+   active(true),
+   default_value('Attendance Reporting'),
+   system_managed(false)
+);

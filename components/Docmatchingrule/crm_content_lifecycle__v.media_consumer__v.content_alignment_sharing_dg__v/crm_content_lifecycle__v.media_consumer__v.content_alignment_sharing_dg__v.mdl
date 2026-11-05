@@ -1,0 +1,11 @@
+RECREATE Docmatchingrule crm_content_lifecycle__v.media_consumer__v.content_alignment_sharing_dg__v (
+   lifecycle('Doclifecycle.crm_content_lifecycle__v'),
+   role('Doclifecyclerole.media_consumer__v'),
+   active(true),
+   description('Content Alignment Sharing with Detail Group'),
+   label('Content Alignment Sharing Detail Group'),
+   Docmatchingcriterion(@Docmatchingcriterion/detail_product__v.mdl),
+   Docmatchingcriterion(@Docmatchingcriterion/detail_group__v.mdl),
+   Docmatchingcriterion(@Docmatchingcriterion/doc_type_group__v.mdl),
+   Docmatchingcriterion(@Docmatchingcriterion/content_group__v.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry year_end__v (
+   value('Year-end'),
+   order(2),
+   active(true)
+);

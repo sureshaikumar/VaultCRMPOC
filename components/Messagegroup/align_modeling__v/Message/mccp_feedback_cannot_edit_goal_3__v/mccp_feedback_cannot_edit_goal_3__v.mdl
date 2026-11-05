@@ -1,0 +1,6 @@
+Message mccp_feedback_cannot_edit_goal_3__v (
+   label(),
+   active(true),
+   default_value('Goals for the following products cannot be reduced to zero because they have a pending transfer request to ${user_name}.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_yekaterinburg__v (
+   value('Yekaterinburg Time'),
+   order(31),
+   active(true)
+);

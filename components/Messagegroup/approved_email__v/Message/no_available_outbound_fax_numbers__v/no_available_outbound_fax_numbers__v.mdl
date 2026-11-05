@@ -1,0 +1,6 @@
+Message no_available_outbound_fax_numbers__v (
+   label(),
+   active(true),
+   default_value('No available outbound fax numbers'),
+   system_managed(false)
+);

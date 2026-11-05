@@ -1,0 +1,6 @@
+Picklistentry th-51__v (
+   value('Lamphun'),
+   order(4367),
+   active(true),
+   controlling_entries('th__v')
+);

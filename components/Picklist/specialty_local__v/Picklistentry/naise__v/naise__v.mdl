@@ -1,0 +1,6 @@
+Picklistentry naise__v (
+   value('Neonatal and Infant Surgery'),
+   order(988),
+   active(true),
+   controlling_entries('ba__v')
+);

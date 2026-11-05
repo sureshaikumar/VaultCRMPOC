@@ -1,0 +1,6 @@
+Picklistentry lv-106__v (
+   value('Ventspils novads'),
+   order(2733),
+   active(true),
+   controlling_entries('lv__v')
+);

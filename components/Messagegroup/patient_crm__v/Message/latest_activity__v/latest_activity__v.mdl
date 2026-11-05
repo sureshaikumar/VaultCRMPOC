@@ -1,0 +1,6 @@
+Message latest_activity__v (
+   label(),
+   active(true),
+   default_value('Latest Activity'),
+   system_managed(false)
+);

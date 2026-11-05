@@ -1,0 +1,18 @@
+Field senddetailedlog__v (
+   label('Send Detailed Log'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('The Send Detailed Log field allows administrators to request a copy of a users log next time the user synchronizes their tablet.'),
+   list_column(false),
+   order(97),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

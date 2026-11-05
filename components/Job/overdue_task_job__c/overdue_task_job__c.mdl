@@ -1,0 +1,22 @@
+RECREATE Job overdue_task_job__c (
+   active(true),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(),
+   label('Overdue Task Job'),
+   month_repeat_type(),
+   owner('user:User.dinesh.bhaskaran@sb-accenture.com'),
+   priority('normal'),
+   repeat_on_days('Mon'),
+   schedule('weekly'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/sdk_batch_job__c.mdl),
+   time('5:00'),
+   timezone('America/New_York'),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

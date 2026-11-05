@@ -1,0 +1,6 @@
+Message invite_link_sent__v (
+   label(),
+   active(true),
+   default_value('Invite Link Sent'),
+   system_managed(false)
+);

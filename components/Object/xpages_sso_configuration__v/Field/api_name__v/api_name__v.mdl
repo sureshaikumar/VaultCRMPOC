@@ -1,0 +1,22 @@
+Field api_name__v (
+   label('API Name'),
+   type('String'),
+   active(true),
+   description('The API name to use when using this configuration from an X-Page.
+
+API name can only contain a-z, 0-9, "_", and cannot start or end with an "_".
+Must be unique.'),
+   required(true),
+   unique(true),
+   max_length(40),
+   help_content(),
+   list_column(true),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

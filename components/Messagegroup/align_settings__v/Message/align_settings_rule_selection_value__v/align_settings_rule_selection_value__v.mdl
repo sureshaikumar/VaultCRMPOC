@@ -1,0 +1,6 @@
+Message align_settings_rule_selection_value__v (
+   label(),
+   active(true),
+   default_value('By Send to CRM'),
+   system_managed(false)
+);

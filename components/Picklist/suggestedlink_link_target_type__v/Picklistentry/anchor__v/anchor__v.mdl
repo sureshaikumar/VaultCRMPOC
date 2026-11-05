@@ -1,0 +1,5 @@
+Picklistentry anchor__v (
+   value('Anchor'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.sample_inventory__v.sample_inventory_status__v</targetField>
+            <expression>Picklist.sample_inventory_status__v.submitted__v</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

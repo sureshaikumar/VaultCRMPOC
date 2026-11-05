@@ -1,0 +1,5 @@
+Picklistentry no_connection__v (
+   value('No connection'),
+   order(2),
+   active(true)
+);

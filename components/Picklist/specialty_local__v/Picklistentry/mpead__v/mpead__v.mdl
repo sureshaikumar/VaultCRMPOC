@@ -1,0 +1,8 @@
+Picklistentry mpead__v (
+   value('Medical Parasitology'),
+   order(930),
+   active(true),
+   controlling_entries('bg__v',
+         'ge__v',
+         'tr__v')
+);

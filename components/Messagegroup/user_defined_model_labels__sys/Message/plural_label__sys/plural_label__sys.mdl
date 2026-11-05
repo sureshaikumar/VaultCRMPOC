@@ -1,0 +1,6 @@
+Message plural_label__sys (
+   label(),
+   active(true),
+   default_value('User-Defined Models'),
+   system_managed(true)
+);

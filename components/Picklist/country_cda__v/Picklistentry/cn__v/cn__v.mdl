@@ -1,0 +1,5 @@
+Picklistentry cn__v (
+   value('China'),
+   order(45),
+   active(true)
+);

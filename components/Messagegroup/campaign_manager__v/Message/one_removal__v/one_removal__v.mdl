@@ -1,0 +1,6 @@
+Message one_removal__v (
+   label(),
+   active(true),
+   default_value('1 removal'),
+   system_managed(false)
+);

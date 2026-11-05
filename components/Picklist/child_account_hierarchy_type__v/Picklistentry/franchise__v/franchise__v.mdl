@@ -1,0 +1,5 @@
+Picklistentry franchise__v (
+   value('Franchise'),
+   order(7),
+   active(true)
+);

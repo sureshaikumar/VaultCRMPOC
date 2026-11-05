@@ -1,0 +1,6 @@
+Picklistentry lt-vl__v (
+   value('Vilnius County'),
+   order(2688),
+   active(true),
+   controlling_entries('lt__v')
+);

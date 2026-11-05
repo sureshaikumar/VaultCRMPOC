@@ -1,0 +1,6 @@
+Picklistentry ph-cam__v (
+   value('Camiguin'),
+   order(3551),
+   active(true),
+   controlling_entries('ph__v')
+);

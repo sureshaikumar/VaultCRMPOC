@@ -1,0 +1,9 @@
+RECREATE Picklist multichanne_clm_location_services_status__v (
+   label('CLM Location Services Status'),
+   active(true),
+   Picklistentry(@Picklistentry/enabled__v.mdl),
+   Picklistentry(@Picklistentry/disabled__v.mdl),
+   Picklistentry(@Picklistentry/no_connection__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

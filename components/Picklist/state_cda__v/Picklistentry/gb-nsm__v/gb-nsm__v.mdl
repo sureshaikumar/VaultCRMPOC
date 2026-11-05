@@ -1,0 +1,6 @@
+Picklistentry gb-nsm__v (
+   value('North Somerset'),
+   order(1584),
+   active(true),
+   controlling_entries('gb__v')
+);

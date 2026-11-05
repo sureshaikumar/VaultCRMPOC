@@ -1,0 +1,6 @@
+Message import_upsert__v (
+   label(),
+   active(true),
+   default_value('Upsert'),
+   system_managed(false)
+);

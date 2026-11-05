@@ -1,0 +1,10 @@
+RECREATE Picklist em_event_webinar_status__v (
+   label('Engage Enabled'),
+   active(true),
+   Picklistentry(@Picklistentry/off__v.mdl),
+   Picklistentry(@Picklistentry/on__v.mdl),
+   Picklistentry(@Picklistentry/failed__v.mdl),
+   Picklistentry(@Picklistentry/sending__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

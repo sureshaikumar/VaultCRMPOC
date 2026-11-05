@@ -1,0 +1,5 @@
+Picklistentry 19700__v (
+   value('Deming, NM Micropolitan Statistical Area'),
+   order(399),
+   active(true)
+);

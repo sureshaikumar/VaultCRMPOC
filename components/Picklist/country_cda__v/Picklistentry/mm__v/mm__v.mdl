@@ -1,0 +1,5 @@
+Picklistentry mm__v (
+   value('Myanmar'),
+   order(152),
+   active(true)
+);

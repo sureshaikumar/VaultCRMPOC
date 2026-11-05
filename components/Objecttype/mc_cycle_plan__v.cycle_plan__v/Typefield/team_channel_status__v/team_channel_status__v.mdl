@@ -1,0 +1,7 @@
+Typefield team_channel_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.mc_cycle_plan_team_channel_status__v.on_schedule__v',
+         'Picklist.mc_cycle_plan_team_channel_status__v.over_reached__v',
+         'Picklist.mc_cycle_plan_team_channel_status__v.under_reached__v')
+);

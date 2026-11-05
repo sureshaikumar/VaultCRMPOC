@@ -1,0 +1,6 @@
+Picklistentry otp_call__sys (
+   value('Call'),
+   order(27),
+   active(true),
+   controlling_entries('olc_content_acknowledgement__sys')
+);

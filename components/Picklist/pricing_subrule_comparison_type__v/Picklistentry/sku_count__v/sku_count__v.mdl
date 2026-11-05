@@ -1,0 +1,5 @@
+Picklistentry sku_count__v (
+   value('SKU Count'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,22 @@
+RECREATE Objectlifecycle redaction_lifecycle__sys (
+   label('Redaction Lifecycle'),
+   state_labels(),
+   labeled_states(),
+   active(true),
+   starting_state('Objectlifecyclestate.redacting_source__sys'),
+   description(),
+   Objectlifecyclestate(@Objectlifecyclestate/cancelled__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/complete__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/generating_redacted_copy__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/redacting_source__sys.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/owner__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/editor__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/viewer__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_edit__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_delete__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_edit__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_delete__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/viewer_read__c.mdl)
+);

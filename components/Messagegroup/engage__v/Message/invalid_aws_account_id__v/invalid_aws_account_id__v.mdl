@@ -1,0 +1,6 @@
+Message invalid_aws_account_id__v (
+   label(),
+   active(true),
+   default_value('Please enter a valid 12-digit AWS Account ID.'),
+   system_managed(false)
+);

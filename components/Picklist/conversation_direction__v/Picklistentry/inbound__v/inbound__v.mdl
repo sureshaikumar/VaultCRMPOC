@@ -1,0 +1,5 @@
+Picklistentry inbound__v (
+   value('Inbound'),
+   order(0),
+   active(true)
+);

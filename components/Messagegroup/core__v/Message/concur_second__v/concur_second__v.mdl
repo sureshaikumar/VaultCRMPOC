@@ -1,0 +1,6 @@
+Message concur_second__v (
+   label(),
+   active(true),
+   default_value('second'),
+   system_managed(false)
+);

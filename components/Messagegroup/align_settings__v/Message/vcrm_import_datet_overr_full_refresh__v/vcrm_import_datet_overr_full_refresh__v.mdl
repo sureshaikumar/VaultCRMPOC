@@ -1,0 +1,6 @@
+Message vcrm_import_datet_overr_full_refresh__v (
+   label(),
+   active(true),
+   default_value('The Full Refresh field and the Import Datetime Override field cannot be set at the same time.'),
+   system_managed(false)
+);

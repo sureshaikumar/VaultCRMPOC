@@ -1,0 +1,11 @@
+Picklistentry aaict__v (
+   value('Anesthesia and Intensive Care'),
+   order(69),
+   active(true),
+   controlling_entries('jo__v',
+         'md__v',
+         'mk__v',
+         'ro__v',
+         'se__v',
+         'tn__v')
+);

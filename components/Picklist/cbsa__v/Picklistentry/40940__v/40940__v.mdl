@@ -1,0 +1,5 @@
+Picklistentry 40940__v (
+   value('Safford, AZ Micropolitan Statistical Area'),
+   order(316),
+   active(true)
+);

@@ -1,0 +1,17 @@
+Field next_year_reset_date__v (
+   label('Next Year Reset Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Stores the speakers next year reset date'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

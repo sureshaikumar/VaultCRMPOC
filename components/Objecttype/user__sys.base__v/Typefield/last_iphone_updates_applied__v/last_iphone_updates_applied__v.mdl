@@ -1,0 +1,4 @@
+Typefield last_iphone_updates_applied__v (
+   source('standard'),
+   required(false)
+);

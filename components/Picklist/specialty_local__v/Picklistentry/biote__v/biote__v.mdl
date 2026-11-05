@@ -1,0 +1,6 @@
+Picklistentry biote__v (
+   value('Biotechnology'),
+   order(129),
+   active(true),
+   controlling_entries('in__v')
+);

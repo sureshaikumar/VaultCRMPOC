@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate async_report_notification_failure__v (
+   label('Asynchronous Report Notification Failure'),
+   active(true),
+   description('Notification template notifying users that the report failed to execute.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Report ${reportLabel} did not finish successfully'),
+   notification('<p>Report ${reportLabel} did not finish successfully.<br />${reportErrorMessage}</p>'),
+   email_body('<p>${reportErrorMessage}<br />Ran at: ${reportRunTime}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

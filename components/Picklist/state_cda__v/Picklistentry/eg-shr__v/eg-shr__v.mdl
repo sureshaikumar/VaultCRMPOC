@@ -1,0 +1,6 @@
+Picklistentry eg-shr__v (
+   value('Ash Sharqīyah'),
+   order(1181),
+   active(true),
+   controlling_entries('eg__v')
+);

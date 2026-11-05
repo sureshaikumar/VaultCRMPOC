@@ -1,0 +1,6 @@
+Message vector_database_sync_scope__v (
+   label(),
+   active(true),
+   default_value('Specify which content should be refreshed in the Vector Database'),
+   system_managed(false)
+);

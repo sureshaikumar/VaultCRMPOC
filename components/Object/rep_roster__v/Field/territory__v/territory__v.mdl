@@ -1,0 +1,17 @@
+Field territory__v (
+   label('Territory'),
+   type('LongText'),
+   active(true),
+   description('Comma-delimited list of Territories that Rep is assigned to.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

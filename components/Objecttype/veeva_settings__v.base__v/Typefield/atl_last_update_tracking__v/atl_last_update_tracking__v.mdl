@@ -1,0 +1,4 @@
+Typefield atl_last_update_tracking__v (
+   source('standard'),
+   required(false)
+);

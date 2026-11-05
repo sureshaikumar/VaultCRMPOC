@@ -1,0 +1,6 @@
+Picklistentry mc-mg__v (
+   value('Moneghetti'),
+   order(2861),
+   active(true),
+   controlling_entries('mc__v')
+);

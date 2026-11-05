@@ -1,0 +1,8 @@
+RECREATE Objectaction child_account__v.record_a_call__v (
+   label('Record a Call'),
+   description('Action that Records a Call from a Child Account'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.accountmanagement.actions.ChildAccountRecordACallAction'),
+   active(true),
+   available_all_states(true)
+);

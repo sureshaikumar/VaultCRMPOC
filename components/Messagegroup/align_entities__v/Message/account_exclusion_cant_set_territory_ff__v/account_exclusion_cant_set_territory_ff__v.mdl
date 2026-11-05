@@ -1,0 +1,6 @@
+Message account_exclusion_cant_set_territory_ff__v (
+   label(),
+   active(true),
+   default_value('Account Exclusion with "global" exclusion type must not set Territory or Field Force.'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field tsf_fields_scheduler__v (
+   label('TSF Fields in Scheduler'),
+   type('String'),
+   active(true),
+   description('Setting to enable the surfacing of Territory Specific Fields in the Weekly Scheduler. Populate with the semicolon separated list of API field names (with trailing semicolon) that should be available for selection. If left blank, the Territory Fields optio'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(299),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

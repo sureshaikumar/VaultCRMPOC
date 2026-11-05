@@ -1,0 +1,6 @@
+Picklistentry idmia__v (
+   value('Imaging Diagnostics'),
+   order(734),
+   active(true),
+   controlling_entries('bg__v')
+);

@@ -1,0 +1,15 @@
+RECREATE Vsmentity country__v (
+   label('Country'),
+   active(true),
+   description('Represents a country or sovereign nation used for geographic classification and regulatory context. Country records are typically used to categorize submissions, registrations, study sites, or other regulated activities by jurisdiction. This object supports compliance and reporting workflows where geographic scope or market authorization territory must be tracked.'),
+   synonyms('countries',
+      'nation',
+      'nations',
+      'geography',
+      'region'),
+   target('Object.country__v'),
+   target_label('Country'),
+   Vsmfield(@Vsmfield/code__v.mdl),
+   Vsmfield(@Vsmfield/country_cda__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl)
+);

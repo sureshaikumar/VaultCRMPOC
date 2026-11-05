@@ -1,0 +1,12 @@
+Typefield call_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_call_type__v.call_only__v',
+         'Picklist.call2_call_type__v.detail_only__v',
+         'Picklist.call2_call_type__v.detail_with_sample__v',
+         'Picklist.call2_call_type__v.event_detail__v',
+         'Picklist.call2_call_type__v.event_only__v',
+         'Picklist.call2_call_type__v.group_detail__v',
+         'Picklist.call2_call_type__v.group_detail_with_sample__v',
+         'Picklist.call2_call_type__v.sample_only__v')
+);

@@ -1,0 +1,6 @@
+Message project_publish_successful__v (
+   label(),
+   active(true),
+   default_value('Project publishing completed for ${entity_name}'),
+   system_managed(false)
+);

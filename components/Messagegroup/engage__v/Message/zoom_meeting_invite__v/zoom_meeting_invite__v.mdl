@@ -1,0 +1,6 @@
+Message zoom_meeting_invite__v (
+   label(),
+   active(true),
+   default_value('Zoom Meeting Invite'),
+   system_managed(false)
+);

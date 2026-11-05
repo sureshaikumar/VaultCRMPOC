@@ -1,0 +1,6 @@
+Picklistentry kg-gb__v (
+   value('Bishkek'),
+   order(2403),
+   active(true),
+   controlling_entries('kg__v')
+);

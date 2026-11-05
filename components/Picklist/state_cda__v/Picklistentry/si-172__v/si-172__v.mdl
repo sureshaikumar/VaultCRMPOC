@@ -1,0 +1,6 @@
+Picklistentry si-172__v (
+   value('Podlehnik'),
+   order(4145),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-426__v (
+   value('Teplice'),
+   order(853),
+   active(true),
+   controlling_entries('cz__v')
+);

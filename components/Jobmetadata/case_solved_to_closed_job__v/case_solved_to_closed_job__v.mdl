@@ -1,0 +1,12 @@
+RECREATE Jobmetadata case_solved_to_closed_job__v (
+   label('Case Solved to Closed Job'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to set solved cases to closed state.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.casemanagement.jobs.CaseSolvedToClosedJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_rangoon__v (
+   value('Asia/Rangoon'),
+   order(60),
+   active(true)
+);

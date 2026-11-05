@@ -1,0 +1,6 @@
+Picklistentry fj-c__v (
+   value('Central '),
+   order(1306),
+   active(true),
+   controlling_entries('fj__v')
+);

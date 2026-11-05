@@ -1,0 +1,5 @@
+Picklistentry 42940__v (
+   value('Sevierville, TN Micropolitan Statistical Area'),
+   order(593),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry local__v (
+   value('Local'),
+   order(0),
+   active(true)
+);

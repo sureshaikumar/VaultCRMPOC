@@ -1,0 +1,6 @@
+Message attachments_create_expense__v (
+   label(),
+   active(true),
+   default_value('${files_added} files added'),
+   system_managed(false)
+);

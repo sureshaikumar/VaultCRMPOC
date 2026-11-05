@@ -1,0 +1,5 @@
+Picklistentry 49740__v (
+   value('Yuma, AZ Metropolitan Statistical Area'),
+   order(752),
+   active(true)
+);

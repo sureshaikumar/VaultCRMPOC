@@ -1,0 +1,6 @@
+Picklistentry otp_split_expense1__sys (
+   value('Split_Expense'),
+   order(159),
+   active(true),
+   controlling_entries('olc_expense_header__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry lt-55__v (
+   value('Varėna'),
+   order(2673),
+   active(true),
+   controlling_entries('lt__v')
+);

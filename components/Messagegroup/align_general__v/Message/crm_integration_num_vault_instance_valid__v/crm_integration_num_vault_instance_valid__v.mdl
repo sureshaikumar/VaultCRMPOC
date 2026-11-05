@@ -1,0 +1,6 @@
+Message crm_integration_num_vault_instance_valid__v (
+   label(),
+   active(true),
+   default_value('Multiple Vault Instance records have been found. Integration tasks cannot resume until a single Vault Instance record exists. Please contact your system administrator.'),
+   system_managed(false)
+);

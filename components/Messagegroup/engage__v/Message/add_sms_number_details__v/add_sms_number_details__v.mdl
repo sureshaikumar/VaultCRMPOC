@@ -1,0 +1,6 @@
+Message add_sms_number_details__v (
+   label(),
+   active(true),
+   default_value('Add SMS number, including country code, to start chatting.'),
+   system_managed(false)
+);

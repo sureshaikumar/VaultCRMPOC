@@ -1,0 +1,5 @@
+Picklistentry tier_4__c (
+   value('Tier 4'),
+   order(5),
+   active(true)
+);

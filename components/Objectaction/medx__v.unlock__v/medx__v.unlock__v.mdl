@@ -1,0 +1,8 @@
+RECREATE Objectaction medx__v.unlock__v (
+   label('Unlock'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinteraction.actions.MedicalInteractionUnlockAction'),
+   active(true),
+   available_all_states(false)
+);

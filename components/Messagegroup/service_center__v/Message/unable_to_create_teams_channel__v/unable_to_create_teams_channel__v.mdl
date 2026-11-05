@@ -1,0 +1,6 @@
+Message unable_to_create_teams_channel__v (
+   label(),
+   active(true),
+   default_value('Unable to create Teams Channel for ${subject}. Please contact your administrator.'),
+   system_managed(false)
+);

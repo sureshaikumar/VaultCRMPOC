@@ -1,0 +1,5 @@
+Picklistentry zip__v (
+   value('Zip_vod__c'),
+   order(31),
+   active(true)
+);

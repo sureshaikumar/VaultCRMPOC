@@ -1,0 +1,10 @@
+Vsmvalue csd__v (
+   label('CSD'),
+   active(true),
+   description('Use when recording historical monetary amounts in the Serbian Dinar code used prior to 2006, before Serbia adopted the current RSD code.'),
+   synonyms('Serbian Dinar (old)',
+         'Former Serbian Dinar',
+         'Yugoslavia Dinar'),
+   target('csd__sys'),
+   target_label('CSD')
+);

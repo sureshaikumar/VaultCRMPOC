@@ -1,0 +1,10 @@
+RECREATE Objectvalidation event_attendee__v.multiple_attendees__v (
+   label('MultipleAttendees'),
+   active(true),
+   expression('(If(IsBlank(account__v),1,0) + If(IsBlank(user__v),1,0) + If(IsBlank(person__v),1,0)) >= 2'),
+   description('This validation Rule will confirm that only one Account, Person, or User is selected as the Attendee.'),
+   error_message('Please select only one Account, Person, or User.'),
+   error_location('account__v',
+      'user__v',
+      'person__v')
+);

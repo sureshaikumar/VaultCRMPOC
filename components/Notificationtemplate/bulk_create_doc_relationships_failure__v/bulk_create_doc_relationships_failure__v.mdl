@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate bulk_create_doc_relationships_failure__v (
+   label('Bulk Create Document Relationships Failure'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('[FAILURE] - Bulk Create Document Relationship Job Notification'),
+   notification('Creating document relationships for ${docName} failed'),
+   email_body('Creating document relationships for ${docName} failed'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

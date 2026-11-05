@@ -1,0 +1,7 @@
+RECREATE Permissionset vault_loader_access__c (
+   label('Vault Loader Access'),
+   active(true),
+   description(),
+   vault_actions.search('suggest'),
+   vault_owner_actions('vault_loader')
+);

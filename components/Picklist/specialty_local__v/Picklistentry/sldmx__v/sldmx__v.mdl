@@ -1,0 +1,6 @@
+Picklistentry sldmx__v (
+   value('Special Laboratory and Diagnostic Methods in Haematology and Transfusion Medicine'),
+   order(1783),
+   active(true),
+   controlling_entries('sk__v')
+);

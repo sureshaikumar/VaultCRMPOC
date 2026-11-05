@@ -1,0 +1,3 @@
+Typeaction manage_attendees__v (
+   action('medical_event__v.manage_attendees__v')
+);

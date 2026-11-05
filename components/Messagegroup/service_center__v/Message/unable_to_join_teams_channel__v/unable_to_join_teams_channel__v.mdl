@@ -1,0 +1,6 @@
+Message unable_to_join_teams_channel__v (
+   label(),
+   active(true),
+   default_value('Unable to join Teams Channel for ${subject}. Please try again or contact your administrator.'),
+   system_managed(false)
+);

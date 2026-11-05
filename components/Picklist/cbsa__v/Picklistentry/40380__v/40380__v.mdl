@@ -1,0 +1,5 @@
+Picklistentry 40380__v (
+   value('Rochester, NY Metropolitan Statistical Area'),
+   order(161),
+   active(true)
+);

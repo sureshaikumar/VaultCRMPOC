@@ -1,0 +1,6 @@
+Picklistentry lt-36__v (
+   value('Prienai'),
+   order(2654),
+   active(true),
+   controlling_entries('lt__v')
+);

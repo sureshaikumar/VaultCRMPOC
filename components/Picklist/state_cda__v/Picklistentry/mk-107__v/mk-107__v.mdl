@@ -1,0 +1,6 @@
+Picklistentry mk-107__v (
+   value('Rosoman'),
+   order(2970),
+   active(true),
+   controlling_entries('mk__v')
+);

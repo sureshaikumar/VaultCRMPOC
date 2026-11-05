@@ -1,0 +1,6 @@
+Message research_my_products__v (
+   label(),
+   active(true),
+   default_value('Research my products'),
+   system_managed(false)
+);

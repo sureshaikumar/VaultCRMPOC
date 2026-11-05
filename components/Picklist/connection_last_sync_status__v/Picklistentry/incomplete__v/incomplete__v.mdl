@@ -1,0 +1,5 @@
+Picklistentry incomplete__v (
+   value('Incomplete'),
+   order(1),
+   active(true)
+);

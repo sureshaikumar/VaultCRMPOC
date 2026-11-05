@@ -1,0 +1,19 @@
+Field case_severity__v (
+   label('Severity'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Use this value to set the severity level of the case.'),
+   list_column(true),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.case_severity__v'),
+   default_value('{severity_normal__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

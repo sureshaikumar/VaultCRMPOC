@@ -1,0 +1,6 @@
+Picklistentry dz-39__v (
+   value('El Oued'),
+   order(1020),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_loader_load_failure2__v (
+   label('Loader Job Failure'),
+   active(true),
+   description('Loader job failure template.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Loader Job has failed'),
+   notification('<p>Your Loader Job has Failed</p> <p>Details:</p> <ul> <li>Reason for Failure: ${vaultLoaderFailureReason}</li> <li> CSV File: <a href="${vaultLoaderFileLink}">${vaultLoaderFileName}</a></li> <li>Action Type: ${vaultLoaderActionType}</li> <li>Object Type: ${vaultLoaderObjectType}</li> <li>Record Migration Mode: ${vaultLoaderRecordMigrationMode}</li> <li>No Triggers: ${vaultLoaderNoTriggers}</li> <li>Document Migration Mode: ${vaultLoaderDocumentMigrationMode}</li> <li>Load Start Time: ${vaultLoaderStartTime} </li> </ul>'),
+   email_body('<p>Your Loader Job has Failed</p> <p>Details:</p> <ul> <li>Reason for Failure: ${vaultLoaderFailureReason}</li> <li> CSV File: <a href="${vaultLoaderFileLink}">${vaultLoaderFileName}</a></li> <li>Action Type: ${vaultLoaderActionType}</li> <li>Object Type: ${vaultLoaderObjectType}</li> <li>Record Migration Mode: ${vaultLoaderRecordMigrationMode}</li> <li>No Triggers: ${vaultLoaderNoTriggers}</li> <li>Document Migration Mode: ${vaultLoaderDocumentMigrationMode}</li> <li>Load Start Time: ${vaultLoaderStartTime} </li> </ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

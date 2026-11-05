@@ -1,0 +1,10 @@
+Objectlifecyclepermission aln_manager_edit__v (
+   states('Objectlifecyclestate.approved__v',
+         'Objectlifecyclestate.draft__v',
+         'Objectlifecyclestate.feedback__v',
+         'Objectlifecyclestate.feedback_complete__v',
+         'Objectlifecyclestate.manager_review__v',
+         'Objectlifecyclestate.published__v'),
+   role('Objectlifecyclerole.aln_feedback_manager__v'),
+   permission('Edit')
+);

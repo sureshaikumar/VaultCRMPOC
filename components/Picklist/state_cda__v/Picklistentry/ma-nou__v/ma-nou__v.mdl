@@ -1,0 +1,6 @@
+Picklistentry ma-nou__v (
+   value('Nouaceur'),
+   order(2824),
+   active(true),
+   controlling_entries('ma__v')
+);

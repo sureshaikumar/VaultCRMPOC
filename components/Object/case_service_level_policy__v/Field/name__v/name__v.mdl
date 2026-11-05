@@ -1,0 +1,23 @@
+Field name__v (
+   label('Policy Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(true),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(3),
+   system_managed_name(false),
+   sequential_naming(false),
+   start_number(),
+   value_format(),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

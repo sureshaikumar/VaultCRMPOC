@@ -1,0 +1,6 @@
+Message concur_preview_query__v (
+   label(),
+   active(true),
+   default_value('Preview Query'),
+   system_managed(false)
+);

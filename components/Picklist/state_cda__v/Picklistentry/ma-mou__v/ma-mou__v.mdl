@@ -1,0 +1,6 @@
+Picklistentry ma-mou__v (
+   value('Moulay Yacoub'),
+   order(2822),
+   active(true),
+   controlling_entries('ma__v')
+);

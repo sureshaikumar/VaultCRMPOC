@@ -1,0 +1,6 @@
+Picklistentry az-cab__v (
+   value('Cəbrayıl'),
+   order(151),
+   active(true),
+   controlling_entries('az__v')
+);

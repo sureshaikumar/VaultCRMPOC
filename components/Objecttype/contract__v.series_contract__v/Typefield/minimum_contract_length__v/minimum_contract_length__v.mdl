@@ -1,0 +1,4 @@
+Typefield minimum_contract_length__v (
+   source('custom'),
+   required(false)
+);

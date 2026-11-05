@@ -1,0 +1,5 @@
+Picklistentry mg__v (
+   value('Madagascar'),
+   order(142),
+   active(true)
+);

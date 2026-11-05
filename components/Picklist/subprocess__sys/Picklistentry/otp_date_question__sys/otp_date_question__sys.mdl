@@ -1,0 +1,6 @@
+Picklistentry otp_date_question__sys (
+   value('Date Question'),
+   order(45),
+   active(true),
+   controlling_entries('olc_question_design__sys')
+);

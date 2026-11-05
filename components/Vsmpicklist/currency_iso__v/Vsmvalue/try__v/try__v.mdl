@@ -1,0 +1,10 @@
+Vsmvalue try__v (
+   label('TRY'),
+   active(true),
+   description('Applies when transactions are denominated in the Turkish Lira, the official currency of the Republic of Turkey.'),
+   synonyms('Turkish lira',
+         'Turkey currency',
+         'New Turkish Lira'),
+   target('try__sys'),
+   target_label('TRY')
+);

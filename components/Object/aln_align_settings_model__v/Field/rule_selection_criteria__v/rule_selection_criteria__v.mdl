@@ -1,0 +1,19 @@
+Field rule_selection_criteria__v (
+   label('Rule Selection Criteria'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Setting this field to By Send to CRM will allow users to select the criteria by which to select the model assignment rules to be run within a model assignment preview.'),
+   list_column(false),
+   order(30),
+   multi_value(false),
+   picklist('Picklist.aln_rule_selection_criteria__v'),
+   default_value('{no_criteria__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

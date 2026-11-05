@@ -1,0 +1,6 @@
+Picklistentry ammde__v (
+   value('Adult Metabolic Medicine'),
+   order(20),
+   active(true),
+   controlling_entries('kw__v')
+);

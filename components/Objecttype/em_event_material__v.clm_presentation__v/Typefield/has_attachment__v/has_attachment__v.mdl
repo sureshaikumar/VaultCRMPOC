@@ -1,0 +1,6 @@
+Typefield has_attachment__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_material_has_attachment__v.no__v',
+         'Picklist.em_event_material_has_attachment__v.yes__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 16740__v (
+   value('Charlotte-Gastonia-Concord, NC-SC Metropolitan Statistical Area'),
+   order(949),
+   active(true)
+);

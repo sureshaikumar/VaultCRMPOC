@@ -1,0 +1,6 @@
+Message roster_member_field_must_be_email_addr__v (
+   label(),
+   active(true),
+   default_value('{0} must be an email address.'),
+   system_managed(false)
+);

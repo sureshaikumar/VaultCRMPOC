@@ -1,0 +1,5 @@
+Picklistentry america_argentina_tucuman__sys (
+   value('(GMT-03:00) Argentine Time (America/Argentina/Tucuman)'),
+   order(110),
+   active(true)
+);

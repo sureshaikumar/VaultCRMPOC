@@ -1,0 +1,5 @@
+Picklistentry af__v (
+   value('AF'),
+   order(2),
+   active(true)
+);

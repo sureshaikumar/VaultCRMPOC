@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.contract_length_rolling_required__v (
+   label('Contract Length is required for Rolling'),
+   active(true),
+   expression('Not((object_type__vr.api_name__v=''series_contract__v'')&&(period_type__v=''rolling__v'')&&(IsBlank(contract_length__v)))'),
+   description('Contract Length is required for a Period Type of "Rolling".'),
+   error_message('Contract Length is required for a Period Type of "Rolling".'),
+   error_location('contract_length__v')
+);

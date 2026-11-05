@@ -1,0 +1,12 @@
+Agentaction rewrite__v (
+   label('Rewrite'),
+   active(true),
+   api_access(),
+   description('Rewrites specific text in the email template with different style variations.'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

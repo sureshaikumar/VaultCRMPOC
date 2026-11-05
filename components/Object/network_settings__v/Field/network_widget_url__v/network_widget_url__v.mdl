@@ -1,0 +1,19 @@
+Field network_widget_url__v (
+   label('Network Widget URL'),
+   type('String'),
+   active(true),
+   description('The base URL used to display widgets in Vault CRM. Use https://widgets.veevanetwork.com for production and https://sandboxwidgets.veevanetwork.com for sandbox. To verify the correct URL, go to your widget''s admin page and click "Embed in Vault CRM".'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('The base URL used to display widgets in Vault CRM. Use https://widgets.veevanetwork.com for production and https://sandboxwidgets.veevanetwork.com for sandbox. To verify the correct URL, go to your widget''s admin page and click "Embed in Vault CRM".'),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

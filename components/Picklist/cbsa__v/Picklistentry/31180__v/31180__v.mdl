@@ -1,0 +1,5 @@
+Picklistentry 31180__v (
+   value('Lubbock, TX Metropolitan Statistical Area'),
+   order(522),
+   active(true)
+);

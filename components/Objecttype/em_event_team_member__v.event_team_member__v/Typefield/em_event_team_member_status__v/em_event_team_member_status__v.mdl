@@ -1,0 +1,4 @@
+Typefield em_event_team_member_status__v (
+   source('custom'),
+   required(false)
+);

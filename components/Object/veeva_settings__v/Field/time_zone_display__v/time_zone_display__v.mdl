@@ -1,0 +1,23 @@
+Field time_zone_display__v (
+   label('Time Zone Display'),
+   type('Number'),
+   active(true),
+   description('Setting to determine the display of time zone data in the UI. See documentation for details.'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(297),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

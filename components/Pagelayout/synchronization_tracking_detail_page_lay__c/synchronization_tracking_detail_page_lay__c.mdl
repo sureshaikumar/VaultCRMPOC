@@ -1,0 +1,8 @@
+RECREATE Pagelayout synchronization_tracking_detail_page_lay__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Synchronization Tracking Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

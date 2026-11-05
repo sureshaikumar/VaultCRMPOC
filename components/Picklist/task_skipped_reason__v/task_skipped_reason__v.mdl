@@ -1,0 +1,8 @@
+RECREATE Picklist task_skipped_reason__v (
+   label('Task Skipped Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/could_not_meet_with_hcp__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

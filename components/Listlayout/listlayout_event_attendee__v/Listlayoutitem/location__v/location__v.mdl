@@ -1,0 +1,12 @@
+Listlayoutitem location__v (
+   label('Location'),
+   active(true),
+   control_label('Location'),
+   field_key(),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Control'),
+   object_control('Objectcontrol.event_attendee_location_cell_control__v'),
+   object_control_properties(),
+   omit_header_label()
+);

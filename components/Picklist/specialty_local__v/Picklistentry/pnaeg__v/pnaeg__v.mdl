@@ -1,0 +1,7 @@
+Picklistentry pnaeg__v (
+   value('Paediatric Neurology'),
+   order(1265),
+   active(true),
+   controlling_entries('gb__v',
+         'ng__v')
+);

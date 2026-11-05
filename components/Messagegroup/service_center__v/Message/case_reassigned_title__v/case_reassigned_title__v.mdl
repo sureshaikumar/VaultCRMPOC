@@ -1,0 +1,6 @@
+Message case_reassigned_title__v (
+   label(),
+   active(true),
+   default_value('Case Reassigned'),
+   system_managed(false)
+);

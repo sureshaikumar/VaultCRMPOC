@@ -1,0 +1,17 @@
+Field va_dod_affiliated__v (
+   label('Veteran Affairs - Department of Defense'),
+   type('Boolean'),
+   active(true),
+   description('Flag that indicates if an HCO is associated to the Department of Defense (DOD)/Veterans Affairs (VA)'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(216),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

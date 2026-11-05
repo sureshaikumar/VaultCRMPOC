@@ -1,0 +1,22 @@
+Field sorting__v (
+   label('Sorting'),
+   type('Number'),
+   active(true),
+   description('Defines the sort order of both sections and products within'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

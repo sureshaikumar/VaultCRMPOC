@@ -1,0 +1,5 @@
+Picklistentry 40340__v (
+   value('Rochester, MN Metropolitan Statistical Area'),
+   order(155),
+   active(true)
+);

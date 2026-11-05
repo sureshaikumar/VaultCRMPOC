@@ -1,0 +1,6 @@
+Picklistentry mlead__v (
+   value('Medical Laboratory'),
+   order(919),
+   active(true),
+   controlling_entries('kw__v')
+);

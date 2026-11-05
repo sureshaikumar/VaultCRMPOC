@@ -1,0 +1,6 @@
+Picklistentry it-65__v (
+   value('Abruzzo'),
+   order(2167),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry meeting__c (
+   value('Meeting'),
+   order(3),
+   active(true)
+);

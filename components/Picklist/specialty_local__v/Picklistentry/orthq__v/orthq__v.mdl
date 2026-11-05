@@ -1,0 +1,6 @@
+Picklistentry orthq__v (
+   value('Orthodontia'),
+   order(1188),
+   active(true),
+   controlling_entries('az__v')
+);

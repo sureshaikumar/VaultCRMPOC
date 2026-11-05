@@ -1,0 +1,18 @@
+Field gpos_familiarity_with_jvx__c (
+   label('GPO''s familiarity with JVX?'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('What is the GPO''s familiarity with JVX?'),
+   list_column(false),
+   order(173),
+   multi_value(false),
+   picklist('Picklist.gpos_familiarity_with_jou__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

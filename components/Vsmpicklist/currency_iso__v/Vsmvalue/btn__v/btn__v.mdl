@@ -1,0 +1,9 @@
+Vsmvalue btn__v (
+   label('BTN'),
+   active(true),
+   description('The Bhutanese Ngultrum (BTN), the official currency of Bhutan, pegged at parity with the Indian Rupee.'),
+   synonyms('Bhutanese ngultrum',
+         'Bhutan currency'),
+   target('btn__sys'),
+   target_label('BTN')
+);

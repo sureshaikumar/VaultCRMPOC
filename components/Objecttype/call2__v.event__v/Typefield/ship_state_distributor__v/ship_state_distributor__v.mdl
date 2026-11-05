@@ -1,0 +1,4 @@
+Typefield ship_state_distributor__v (
+   source('custom'),
+   required(false)
+);

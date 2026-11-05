@@ -1,0 +1,6 @@
+Picklistentry mm-07__v (
+   value('Ayeyarwady'),
+   order(3061),
+   active(true),
+   controlling_entries('mm__v')
+);

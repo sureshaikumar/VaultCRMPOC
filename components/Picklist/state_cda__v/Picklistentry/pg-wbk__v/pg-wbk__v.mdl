@@ -1,0 +1,6 @@
+Picklistentry pg-wbk__v (
+   value('West New Britain'),
+   order(3513),
+   active(true),
+   controlling_entries('pg__v')
+);

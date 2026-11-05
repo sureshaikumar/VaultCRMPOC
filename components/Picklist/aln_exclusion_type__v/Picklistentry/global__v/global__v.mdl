@@ -1,0 +1,5 @@
+Picklistentry global__v (
+   value('Global'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message history_col_pct__v (
+   label(),
+   active(true),
+   default_value('% Used'),
+   system_managed(false)
+);

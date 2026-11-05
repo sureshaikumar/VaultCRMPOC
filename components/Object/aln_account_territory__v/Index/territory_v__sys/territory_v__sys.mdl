@@ -1,0 +1,5 @@
+Index territory_v__sys (
+   description(),
+   fields('territory__v'),
+   label('Territory')
+);

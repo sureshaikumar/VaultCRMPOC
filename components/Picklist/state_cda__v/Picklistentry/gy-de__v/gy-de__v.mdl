@@ -1,0 +1,6 @@
+Picklistentry gy-de__v (
+   value('Demerara-Mahaica'),
+   order(1816),
+   active(true),
+   controlling_entries('gy__v')
+);

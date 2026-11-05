@@ -1,0 +1,12 @@
+RECREATE Jobmetadata account_plan_progress_calculation__v (
+   label('Account Plan Progress Calculation Job Metadata'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to calculate the progress of Account Plans using the Account Plan Hierarchy'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.accountplan.jobs.AccountPlanProgressCalculationJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

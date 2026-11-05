@@ -1,0 +1,6 @@
+Message add_selected__v (
+   label(),
+   active(true),
+   default_value('Add Selected (${selected_count})'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+Vsmfield manager__v (
+   label('Manager'),
+   active(true),
+   description('Reference to the person''s direct manager within the organizational hierarchy. Use to filter people by reporting relationship or to traverse org chart structures.'),
+   example_values(),
+   synonyms('supervisor',
+         'reports to',
+         'direct manager',
+         'line manager'),
+   target('manager__sys'),
+   target_label('Manager'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

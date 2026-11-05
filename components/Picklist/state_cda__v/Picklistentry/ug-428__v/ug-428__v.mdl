@@ -1,0 +1,6 @@
+Picklistentry ug-428__v (
+   value('Kakumiro'),
+   order(4770),
+   active(true),
+   controlling_entries('ug__v')
+);

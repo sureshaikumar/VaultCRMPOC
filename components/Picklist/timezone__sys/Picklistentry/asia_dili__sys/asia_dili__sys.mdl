@@ -1,0 +1,5 @@
+Picklistentry asia_dili__sys (
+   value('(GMT+09:00) Korea Standard Time (Asia/Dili)'),
+   order(271),
+   active(true)
+);

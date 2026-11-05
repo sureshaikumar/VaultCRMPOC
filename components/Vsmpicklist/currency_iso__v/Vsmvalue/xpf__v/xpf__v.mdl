@@ -1,0 +1,10 @@
+Vsmvalue xpf__v (
+   label('XPF'),
+   active(true),
+   description('Used for transactions denominated in the CFP Franc, the official currency of French Polynesia, New Caledonia, and Wallis and Futuna.'),
+   synonyms('CFP franc',
+         'Pacific franc',
+         'French Polynesia franc'),
+   target('xpf__sys'),
+   target_label('XPF')
+);

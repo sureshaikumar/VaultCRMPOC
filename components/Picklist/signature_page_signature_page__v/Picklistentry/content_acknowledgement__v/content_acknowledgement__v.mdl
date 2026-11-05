@@ -1,0 +1,5 @@
+Picklistentry content_acknowledgement__v (
+   value('Content Acknowledgement'),
+   order(0),
+   active(true)
+);

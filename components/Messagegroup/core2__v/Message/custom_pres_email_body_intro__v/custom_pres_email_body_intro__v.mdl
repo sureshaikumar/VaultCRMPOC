@@ -1,0 +1,6 @@
+Message custom_pres_email_body_intro__v (
+   label(),
+   active(true),
+   default_value('Dear ${user_name},'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry it-po__v (
+   value('Prato'),
+   order(2242),
+   active(true),
+   controlling_entries('it__v')
+);

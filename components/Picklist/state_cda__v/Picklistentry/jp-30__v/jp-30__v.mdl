@@ -1,0 +1,6 @@
+Picklistentry jp-30__v (
+   value('Wakayama'),
+   order(2336),
+   active(true),
+   controlling_entries('jp__v')
+);

@@ -1,0 +1,23 @@
+Field content_note_batch_size__v (
+   label('ContentNote Batch Size'),
+   type('Number'),
+   active(true),
+   description('Maximum number of ContentNode records in one upsert batch'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(17),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

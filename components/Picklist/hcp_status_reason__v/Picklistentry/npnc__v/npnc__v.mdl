@@ -1,0 +1,5 @@
+Picklistentry npnc__v (
+   value('Non-practicing and not contributing'),
+   order(5),
+   active(true)
+);

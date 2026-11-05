@@ -1,0 +1,13 @@
+Vsmfield api_name__v (
+   label('API Name'),
+   active(true),
+   description('The unique programmatic identifier for this connection, used when referencing the connection via API or integration code. Use this field to look up or filter connections by their technical system name rather than their display label.'),
+   example_values(),
+   synonyms('API identifier',
+         'system name',
+         'technical name'),
+   target('api_name__sys'),
+   target_label('API Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

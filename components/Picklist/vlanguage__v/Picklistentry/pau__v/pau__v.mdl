@@ -1,0 +1,5 @@
+Picklistentry pau__v (
+   value('Palauan'),
+   order(250),
+   active(false)
+);

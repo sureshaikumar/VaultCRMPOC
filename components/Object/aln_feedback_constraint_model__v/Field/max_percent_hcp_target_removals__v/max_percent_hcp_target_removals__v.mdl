@@ -1,0 +1,23 @@
+Field max_percent_hcp_target_removals__v (
+   label('% of HCP target removals allowed'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Enforces a limit on the proportion of targets that can be removed'),
+   required(false),
+   unique(false),
+   max_value(10),
+   min_value(0),
+   scale(4),
+   help_content('Enforces a limit on the proportion of targets that can be removed'),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

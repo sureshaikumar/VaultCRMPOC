@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17657954850074237__c (
+   label('Test Role KM'),
+   active(true),
+   application_role('test_role__c'),
+   permission_sets('Permissionset.test_permission__c')
+);

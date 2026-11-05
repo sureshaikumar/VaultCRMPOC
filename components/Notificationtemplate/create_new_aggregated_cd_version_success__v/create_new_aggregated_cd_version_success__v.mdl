@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate create_new_aggregated_cd_version_success__v (
+   label('Checklist Design Versioning Success'),
+   active(true),
+   description('Notification template notifying user that their checklist design version has been created when is aggregated.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: ${checklist_design__sys_label} ${target_checklist_design__sys_name} was successfully created from ${source_checklist_design__sys_name}'),
+   notification('<p>New ${checklist_design__sys_label} <a href="${urlTargetChecklistDesign}">${target_checklist_design__sys_name}</a> was successfully created from <a href="${urlSourceChecklistDesign}">${source_checklist_design__sys_name}</a>.</p><p> Details: </p><ul><li> ${rec_count_sub_checklist_design__sys} ${sub_checklist_design__sys_label} records were created </li></ul><p> Please check the ${checklist_design__sys_label} <a href="${urlTargetChecklistDesign}">${target_checklist_design__sys_name}</a> to review the records that were created. </p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

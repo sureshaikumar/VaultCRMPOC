@@ -1,0 +1,6 @@
+Message whatsapp_business_account_name__v (
+   label(),
+   active(true),
+   default_value('WhatsApp Business Account Name'),
+   system_managed(false)
+);

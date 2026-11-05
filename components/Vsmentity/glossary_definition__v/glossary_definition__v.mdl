@@ -1,0 +1,22 @@
+RECREATE Vsmentity glossary_definition__v (
+   label('Glossary Definition'),
+   active(true),
+   description('Standardized definitions for terms and concepts used within the organization. Glossary definitions provide a standard vocabulary that ensures consistent understanding and usage of terminology across teams, workflows, and documentation. These entries serve as a reference for users seeking authoritative explanations of specific language, system terms, or business concepts.'),
+   synonyms('glossary',
+      'definition',
+      'term definition',
+      'terminology',
+      'glossary entry'),
+   target('Object.glossary_definition__sys'),
+   target_label('Glossary Definition'),
+   Vsmfield(@Vsmfield/glossary_definition_language__v.mdl),
+   Vsmfield(@Vsmfield/glossary_definition_text__v.mdl),
+   Vsmfield(@Vsmfield/glossary_related_english_definition__v.mdl),
+   Vsmfield(@Vsmfield/lifecycle__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/state__v.mdl),
+   Vsmfield(@Vsmfield/status__v.mdl),
+   Vsmrelationship(@Vsmrelationship/attachments__v.mdl),
+   Vsmrelationship(@Vsmrelationship/definitions__v.mdl),
+   Vsmrelationship(@Vsmrelationship/glossary_related_english_definition__v.mdl)
+);

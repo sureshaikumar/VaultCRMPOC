@@ -1,0 +1,6 @@
+Message csv_import_cannot_parse_value__v (
+   label(),
+   active(true),
+   default_value('Unable to parse value {0} in column {1} mapped to Align field {2} on row {3}. Please check the value is formatted properly for the data type of this field.'),
+   system_managed(false)
+);

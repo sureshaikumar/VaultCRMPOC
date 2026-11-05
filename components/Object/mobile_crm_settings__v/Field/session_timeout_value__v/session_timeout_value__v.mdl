@@ -1,0 +1,22 @@
+Field session_timeout_value__v (
+   label('Session Timeout Value (min)'),
+   type('Number'),
+   active(true),
+   description('Indicates the session timeout value in minutes. A blank value means that there is not a session timeout.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

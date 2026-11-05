@@ -1,0 +1,10 @@
+Vsmvalue lak__v (
+   label('LAK'),
+   active(true),
+   description('The Lao Kip (LAK), the official currency of Laos, used for transactions, pricing, and financial records involving Laotian markets.'),
+   synonyms('Lao kip',
+         'Laotian kip',
+         'LAK'),
+   target('lak__sys'),
+   target_label('LAK')
+);

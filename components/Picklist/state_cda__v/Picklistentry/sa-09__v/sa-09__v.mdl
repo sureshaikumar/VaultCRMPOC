@@ -1,0 +1,6 @@
+Picklistentry sa-09__v (
+   value('Jīzān'),
+   order(3886),
+   active(true),
+   controlling_entries('sa__v')
+);

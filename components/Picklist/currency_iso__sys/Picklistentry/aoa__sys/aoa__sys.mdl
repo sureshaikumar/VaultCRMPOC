@@ -1,0 +1,5 @@
+Picklistentry aoa__sys (
+   value('AOA'),
+   order(7),
+   active(true)
+);

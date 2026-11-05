@@ -1,0 +1,8 @@
+RECREATE Objectaction user__sys.force_question_reset__sys (
+   label('Force Update to Security Question'),
+   description('Force Update to Security Question'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.user.ForceQuestionReset'),
+   active(true),
+   available_all_states(true)
+);

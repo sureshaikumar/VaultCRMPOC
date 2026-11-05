@@ -1,0 +1,6 @@
+Picklistentry ne-4__v (
+   value('Maradi'),
+   order(3315),
+   active(true),
+   controlling_entries('ne__v')
+);

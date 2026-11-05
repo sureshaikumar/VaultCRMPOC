@@ -1,0 +1,19 @@
+Field last_map_scheduler_bookmark__v (
+   label('Last Map Scheduler Bookmark'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This field is used by the system to read/write the last selected Bookmark on the Map view of My Schedule.'),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry am-ag__v (
+   value('Aragac̣otn'),
+   order(68),
+   active(true),
+   controlling_entries('am__v')
+);

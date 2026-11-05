@@ -1,0 +1,6 @@
+Picklistentry gb-sgc__v (
+   value('South Gloucestershire'),
+   order(1615),
+   active(true),
+   controlling_entries('gb__v')
+);

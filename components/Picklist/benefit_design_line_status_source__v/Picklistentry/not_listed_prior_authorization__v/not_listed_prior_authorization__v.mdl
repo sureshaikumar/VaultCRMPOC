@@ -1,0 +1,5 @@
+Picklistentry not_listed_prior_authorization__v (
+   value('Not Listed / Prior Authorization'),
+   order(11),
+   active(true)
+);

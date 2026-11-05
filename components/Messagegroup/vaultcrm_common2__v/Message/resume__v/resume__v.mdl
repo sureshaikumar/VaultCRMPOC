@@ -1,0 +1,6 @@
+Message resume__v (
+   label(),
+   active(true),
+   default_value('Resume'),
+   system_managed(false)
+);

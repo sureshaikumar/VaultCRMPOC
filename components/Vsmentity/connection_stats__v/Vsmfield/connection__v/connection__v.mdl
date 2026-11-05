@@ -1,0 +1,13 @@
+Vsmfield connection__v (
+   label('Connection'),
+   active(true),
+   description('Reference to the Connection record these statistics are associated with. Use this field to filter or group connection stats by a specific integration or connection endpoint.'),
+   example_values(),
+   synonyms('linked connection',
+         'integration',
+         'connector'),
+   target('connection__sys'),
+   target_label('Connection'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

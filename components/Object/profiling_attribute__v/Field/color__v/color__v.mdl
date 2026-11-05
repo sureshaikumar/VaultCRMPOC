@@ -1,0 +1,18 @@
+Field color__v (
+   label('Color'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.profiling_attribute_color__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

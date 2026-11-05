@@ -1,0 +1,6 @@
+Message no_territories_available_subheader__v (
+   label(),
+   active(true),
+   default_value('There are no territories associated with any of the targets in this campaign'),
+   system_managed(false)
+);

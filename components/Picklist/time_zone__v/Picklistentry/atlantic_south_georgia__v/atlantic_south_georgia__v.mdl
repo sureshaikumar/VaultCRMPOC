@@ -1,0 +1,5 @@
+Picklistentry atlantic_south_georgia__v (
+   value('South Georgia Time'),
+   order(91),
+   active(true)
+);

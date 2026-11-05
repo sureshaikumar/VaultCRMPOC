@@ -1,0 +1,5 @@
+Picklistentry 20820__v (
+   value('Effingham, IL Micropolitan Statistical Area'),
+   order(620),
+   active(true)
+);

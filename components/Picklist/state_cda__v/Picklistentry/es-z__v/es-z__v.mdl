@@ -1,0 +1,6 @@
+Picklistentry es-z__v (
+   value('Zaragoza'),
+   order(1258),
+   active(true),
+   controlling_entries('es__v')
+);

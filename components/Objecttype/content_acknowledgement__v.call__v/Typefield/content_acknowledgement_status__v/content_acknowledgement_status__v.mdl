@@ -1,0 +1,7 @@
+Typefield content_acknowledgement_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.content_acknowledgement_status__v.completed__v',
+         'Picklist.content_acknowledgement_status__v.delivered__v',
+         'Picklist.content_acknowledgement_status__v.shipped__v')
+);

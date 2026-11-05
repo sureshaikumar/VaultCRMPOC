@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sandbox_job_success__v (
+   label('sandboxJobSuccess'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Build Complete'),
+   notification('Your sandbox build ${sandboxName} has completed successfully. You can login to your sandbox <a href="${sandboxTempDns}">here</a>.'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

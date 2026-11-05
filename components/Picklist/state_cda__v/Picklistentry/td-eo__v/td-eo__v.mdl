@@ -1,0 +1,6 @@
+Picklistentry td-eo__v (
+   value('Inīdī al Gharbī'),
+   order(4305),
+   active(true),
+   controlling_entries('td__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry au-nsw__v (
+   value('New South Wales'),
+   order(131),
+   active(true),
+   controlling_entries('au__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry et__v (
+   value('Ethiopia'),
+   order(71),
+   active(true)
+);

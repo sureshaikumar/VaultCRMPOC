@@ -1,0 +1,6 @@
+Message rules_failure_criteria_numbering__v (
+   label(),
+   active(true),
+   default_value('Criteria numbering within rule "${rule_name}" is not sequential.'),
+   system_managed(false)
+);

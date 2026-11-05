@@ -1,0 +1,13 @@
+Vsmfield parent__v (
+   label('Parent'),
+   active(true),
+   description('Reference to the parent EDL in a hierarchical EDL structure. Use this to navigate EDL parent-child relationships, roll up document requirements, or filter EDLs at a specific level of the hierarchy.'),
+   example_values(),
+   synonyms('parent EDL',
+         'parent record',
+         'hierarchy parent'),
+   target('parent__v'),
+   target_label('Parent'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

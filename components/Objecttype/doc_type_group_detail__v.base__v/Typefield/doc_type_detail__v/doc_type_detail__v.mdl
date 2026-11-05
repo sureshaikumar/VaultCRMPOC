@@ -1,0 +1,4 @@
+Typefield doc_type_detail__v (
+   source('standard'),
+   required(true)
+);

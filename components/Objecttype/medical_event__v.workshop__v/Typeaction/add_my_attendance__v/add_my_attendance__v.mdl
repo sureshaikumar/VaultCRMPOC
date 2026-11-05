@@ -1,0 +1,3 @@
+Typeaction add_my_attendance__v (
+   action('medical_event__v.add_my_attendance__v')
+);

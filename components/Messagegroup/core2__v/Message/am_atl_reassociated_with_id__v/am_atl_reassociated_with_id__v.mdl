@@ -1,0 +1,6 @@
+Message am_atl_reassociated_with_id__v (
+   label(),
+   active(true),
+   default_value('Account Territory Loader record {0} will be re-associated from the losing account to the winning account.'),
+   system_managed(false)
+);

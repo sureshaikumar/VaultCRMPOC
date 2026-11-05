@@ -1,0 +1,3 @@
+Typeaction delete_link_target_action__sys (
+   action('link_target__sys.delete_link_target_action__sys')
+);

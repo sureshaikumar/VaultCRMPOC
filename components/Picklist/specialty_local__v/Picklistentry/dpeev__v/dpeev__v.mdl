@@ -1,0 +1,11 @@
+Picklistentry dpeev__v (
+   value('Developmental Pediatrics'),
+   order(416),
+   active(true),
+   controlling_entries('am__v',
+         'ca__v',
+         'gr__v',
+         'my__v',
+         'tr__v',
+         'za__v')
+);

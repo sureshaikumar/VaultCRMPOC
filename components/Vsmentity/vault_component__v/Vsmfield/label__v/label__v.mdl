@@ -1,0 +1,13 @@
+Vsmfield label__v (
+   label('Component Label'),
+   active(true),
+   description('The human-readable display label for the vault component as shown in the Vault UI. IMPORTANT: This is the user-facing name, not the technical identifier. For the programmatic name, use component_name__v instead.'),
+   example_values(),
+   synonyms('display name',
+         'component label',
+         'friendly name'),
+   target('label__v'),
+   target_label('Component Label'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

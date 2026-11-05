@@ -1,0 +1,7 @@
+Queueconnection crm_to_medcomms_vault_medcomms_connectio__c (
+   label(),
+   active(true),
+   connection_name('vault_medcomms_connection'),
+   connection_type('vault_to_vault__sys'),
+   deliver_to_queue('medcomms_to_crm__c')
+);

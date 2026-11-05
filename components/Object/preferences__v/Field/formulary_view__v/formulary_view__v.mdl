@@ -1,0 +1,17 @@
+Field formulary_view__v (
+   label('Formulary View'),
+   type('LongText'),
+   active(true),
+   description('This field stores the last Benefit Design and Market that was selected for a Formulary Control on Account in a JSON format.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(37),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

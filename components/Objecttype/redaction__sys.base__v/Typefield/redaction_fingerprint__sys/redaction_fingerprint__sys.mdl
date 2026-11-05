@@ -1,0 +1,4 @@
+Typefield redaction_fingerprint__sys (
+   source('standard'),
+   required(false)
+);

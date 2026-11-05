@@ -1,0 +1,5 @@
+Picklistentry allow_as_delegate__sys (
+   value('Allow As Delegate Permission'),
+   order(0),
+   active(true)
+);

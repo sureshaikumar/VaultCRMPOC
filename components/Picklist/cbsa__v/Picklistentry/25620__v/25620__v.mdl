@@ -1,0 +1,5 @@
+Picklistentry 25620__v (
+   value('Hattiesburg, MS Metropolitan Statistical Area'),
+   order(645),
+   active(true)
+);

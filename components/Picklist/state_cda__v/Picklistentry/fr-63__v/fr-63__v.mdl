@@ -1,0 +1,6 @@
+Picklistentry fr-63__v (
+   value('Puy-de-Dôme'),
+   order(1379),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lu-gr__v (
+   value('Grevenmacher'),
+   order(2694),
+   active(true),
+   controlling_entries('lu__v')
+);

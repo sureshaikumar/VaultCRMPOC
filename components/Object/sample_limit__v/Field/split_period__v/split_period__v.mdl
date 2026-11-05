@@ -1,0 +1,18 @@
+Field split_period__v (
+   label('Split Period'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('used to determine how the the template rolling period should be split in an EFPIA context (24 months rolling period): using fixed calendar year or rolling 12 months. If empty, no split will happen'),
+   list_column(false),
+   order(26),
+   multi_value(false),
+   picklist('Picklist.sample_limit_split_period__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 43740__v (
+   value('Somerset, PA Micropolitan Statistical Area'),
+   order(686),
+   active(true)
+);

@@ -1,0 +1,15 @@
+Field domain_logo__v (
+   label('Logo'),
+   type('Attachment'),
+   active(true),
+   description('File of the logo that is displayed to the end user on My Engage Portal. This is a default that can optionally be overridden by a corresponding field on an individual Engage Portal record.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(3),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

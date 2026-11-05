@@ -1,0 +1,3 @@
+Typeaction create_commercial_insight__v (
+   action('account__v.create_commercial_insight__v')
+);

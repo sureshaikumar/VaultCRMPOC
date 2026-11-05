@@ -1,0 +1,19 @@
+Field pricing_group__v (
+   label('Pricing Group'),
+   type('String'),
+   active(true),
+   description('To allow customers to separate pricing rules by sharing rules for profiles/user groups'),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content(),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep start__sys (
+   label('Start'),
+   type('start'),
+   next_steps('Objectworkflowstep.task__sys'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

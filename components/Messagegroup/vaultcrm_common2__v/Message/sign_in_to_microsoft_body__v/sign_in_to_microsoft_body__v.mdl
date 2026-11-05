@@ -1,0 +1,6 @@
+Message sign_in_to_microsoft_body__v (
+   label(),
+   active(true),
+   default_value('Sign in to your Microsoft 365 account to access Microsoft features integrated in Vault CRM.'),
+   system_managed(false)
+);

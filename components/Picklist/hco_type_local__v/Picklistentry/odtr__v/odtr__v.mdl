@@ -1,0 +1,5 @@
+Picklistentry odtr__v (
+   value('OTC Drugstore'),
+   order(179),
+   active(true)
+);

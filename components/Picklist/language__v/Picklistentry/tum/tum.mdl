@@ -1,0 +1,5 @@
+Picklistentry tum (
+   value('Tumbuka'),
+   order(331),
+   active(true)
+);

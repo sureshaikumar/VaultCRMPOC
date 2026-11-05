@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate bulkupdatesummary__v (
+   label('bulkUpdateSummary'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Bulk Action Completed'),
+   notification('<b>Change Summary:</b><br> ${bulkUpdatesList} ${bulkFailuresHeader} <br>${bulkSuccessHeader}'),
+   email_body('<b>Change Summary:</b><br> ${bulkUpdatesList} <br><b>Results:</b> <br> ${bulkFailuresHeader} ${bulkFailuresList} ${bulkSuccessHeader} ${bulkSuccessList}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

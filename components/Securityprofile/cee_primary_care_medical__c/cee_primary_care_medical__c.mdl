@@ -1,0 +1,6 @@
+RECREATE Securityprofile cee_primary_care_medical__c (
+   label('CEE Primary Care Medical'),
+   active(true),
+   description('Security profile for CEE Primary Care Medical Group.'),
+   permission_sets('base_vault_crm__v')
+);

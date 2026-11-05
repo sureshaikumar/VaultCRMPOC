@@ -1,0 +1,5 @@
+Picklistentry autosend__v (
+   value('Autosend'),
+   order(3),
+   active(true)
+);

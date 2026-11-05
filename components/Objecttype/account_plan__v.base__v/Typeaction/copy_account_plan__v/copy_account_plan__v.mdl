@@ -1,0 +1,3 @@
+Typeaction copy_account_plan__v (
+   action('account_plan__v.copy_account_plan__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bd-53__v (
+   value('Rajbari'),
+   order(282),
+   active(true),
+   controlling_entries('bd__v')
+);

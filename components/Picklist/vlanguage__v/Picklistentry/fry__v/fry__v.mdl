@@ -1,0 +1,5 @@
+Picklistentry fry__v (
+   value('Western Frisian'),
+   order(351),
+   active(false)
+);

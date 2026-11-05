@@ -1,0 +1,6 @@
+Message duration_hours__v (
+   label(),
+   active(true),
+   default_value('${duration_hours}h ${duration_minutes}m ${duration_seconds}s'),
+   system_managed(false)
+);

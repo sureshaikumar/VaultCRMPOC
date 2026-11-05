@@ -1,0 +1,6 @@
+Picklistentry roxge__v (
+   value('Roentgenology'),
+   order(1756),
+   active(true),
+   controlling_entries('ua__v')
+);

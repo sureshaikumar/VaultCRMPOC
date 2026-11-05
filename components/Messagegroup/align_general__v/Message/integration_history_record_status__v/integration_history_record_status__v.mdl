@@ -1,0 +1,6 @@
+Message integration_history_record_status__v (
+   label(),
+   active(true),
+   default_value('Record Status'),
+   system_managed(false)
+);

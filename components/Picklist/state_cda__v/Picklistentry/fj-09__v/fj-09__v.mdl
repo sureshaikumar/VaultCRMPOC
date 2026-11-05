@@ -1,0 +1,6 @@
+Picklistentry fj-09__v (
+   value('Naitasiri'),
+   order(1300),
+   active(true),
+   controlling_entries('fj__v')
+);

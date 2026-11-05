@@ -1,0 +1,6 @@
+Message patient_search__v (
+   label(),
+   active(true),
+   default_value('Patient Search'),
+   system_managed(false)
+);

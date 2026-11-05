@@ -1,0 +1,19 @@
+Field status_message__v (
+   label('Status Message'),
+   type('String'),
+   active(true),
+   description('Indicates the reason associated with the status of the channel. For errors, refer to product documentation for assistance.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Indicates the reason associated with the status of the channel. For errors, refer to product documentation for assistance.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message previous_target_lists__v (
+   label(),
+   active(true),
+   default_value('Previous Target Lists'),
+   system_managed(false)
+);

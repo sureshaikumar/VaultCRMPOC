@@ -1,0 +1,6 @@
+Picklistentry bd-b__v (
+   value('Chittagong'),
+   order(295),
+   active(true),
+   controlling_entries('bd__v')
+);

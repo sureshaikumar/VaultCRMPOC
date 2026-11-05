@@ -1,0 +1,5 @@
+Picklistentry 32270__v (
+   value('Marshfield-Wisconsin Rapids, WI Micropolitan Statistical Area'),
+   order(670),
+   active(true)
+);

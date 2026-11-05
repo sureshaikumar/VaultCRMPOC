@@ -1,0 +1,6 @@
+Picklistentry ir-19__v (
+   value('Zanjān'),
+   order(2071),
+   active(true),
+   controlling_entries('ir__v')
+);

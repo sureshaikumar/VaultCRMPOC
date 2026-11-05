@@ -1,0 +1,6 @@
+Typefield network_rxa_eligible__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_network_rxa_eligible__v.eligible__v',
+         'Picklist.address_network_rxa_eligible__v.ineligible__v')
+);

@@ -1,0 +1,6 @@
+Sdkbatchjobaction cdi_migration_job__v (
+   job_metadata('Jobmetadata.cdi_migration_job__v'),
+   label('Call Documented Interest Migration Job'),
+   parameters(),
+   primary_action(true)
+);

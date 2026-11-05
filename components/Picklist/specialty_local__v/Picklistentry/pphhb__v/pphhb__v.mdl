@@ -1,0 +1,6 @@
+Picklistentry pphhb__v (
+   value('Pharmacology, Pharmacotherapy'),
+   order(1521),
+   active(true),
+   controlling_entries('hu__v')
+);

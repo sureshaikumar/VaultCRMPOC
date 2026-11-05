@@ -1,0 +1,6 @@
+Message remove_users_from_this_ph_num__v (
+   label(),
+   active(true),
+   default_value('Continue to remove ${count} users from this phone number?'),
+   system_managed(false)
+);

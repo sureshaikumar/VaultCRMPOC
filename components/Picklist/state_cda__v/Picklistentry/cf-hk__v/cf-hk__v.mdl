@@ -1,0 +1,6 @@
+Picklistentry cf-hk__v (
+   value('Haute-Kotto'),
+   order(602),
+   active(true),
+   controlling_entries('cf__v')
+);

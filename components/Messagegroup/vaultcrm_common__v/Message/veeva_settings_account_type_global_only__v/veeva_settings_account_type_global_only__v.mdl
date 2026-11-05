@@ -1,0 +1,6 @@
+Message veeva_settings_account_type_global_only__v (
+   label(),
+   active(true),
+   default_value('Cannot configure person account types setting on profile-level veeva settings'),
+   system_managed(false)
+);

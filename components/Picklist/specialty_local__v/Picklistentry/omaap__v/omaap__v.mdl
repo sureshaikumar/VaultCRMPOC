@@ -1,0 +1,6 @@
+Picklistentry omaap__v (
+   value('Occupational Medicine and Applied Physiology'),
+   order(1098),
+   active(true),
+   controlling_entries('at__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry lat (
+   value('Latin'),
+   order(235),
+   active(true)
+);

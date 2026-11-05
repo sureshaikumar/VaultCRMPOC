@@ -1,0 +1,6 @@
+Picklistentry dmiea__v (
+   value('Diabetes mellitus'),
+   order(418),
+   active(true),
+   controlling_entries('nl__v')
+);

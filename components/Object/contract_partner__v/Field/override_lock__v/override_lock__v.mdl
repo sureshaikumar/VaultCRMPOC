@@ -1,0 +1,18 @@
+Field override_lock__v (
+   label('Override Lock'),
+   type('Boolean'),
+   active(true),
+   description('This allows a non-Admin User to make changes to a Activated Contract Partner records. This is only intended for integration and/or custom pages/coding and should not be placed on the page layout.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

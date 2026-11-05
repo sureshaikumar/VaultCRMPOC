@@ -1,0 +1,6 @@
+Message defined_by_email_template__v (
+   label(),
+   active(true),
+   default_value('Defined by Email Template'),
+   system_managed(false)
+);

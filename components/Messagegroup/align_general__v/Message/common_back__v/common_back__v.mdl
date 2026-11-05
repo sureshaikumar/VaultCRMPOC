@@ -1,0 +1,6 @@
+Message common_back__v (
+   label(),
+   active(true),
+   default_value('Back'),
+   system_managed(false)
+);

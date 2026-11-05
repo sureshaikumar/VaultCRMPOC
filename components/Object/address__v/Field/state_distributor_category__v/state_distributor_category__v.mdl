@@ -1,0 +1,19 @@
+Field state_distributor_category__v (
+   label('State Distributor Category'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content('Category of Drugs that a Health Care Provider is able to receive at this Business Address'),
+   list_column(false),
+   order(71),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

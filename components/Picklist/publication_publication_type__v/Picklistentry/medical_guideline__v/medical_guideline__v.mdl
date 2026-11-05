@@ -1,0 +1,5 @@
+Picklistentry medical_guideline__v (
+   value('Medical Guideline'),
+   order(6),
+   active(true)
+);

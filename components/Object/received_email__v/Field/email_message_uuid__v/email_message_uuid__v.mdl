@@ -1,0 +1,19 @@
+Field email_message_uuid__v (
+   label('Email Message Id'),
+   type('String'),
+   active(true),
+   description('Unique identifier of the message on the email platform. It is the UUID used for API queries to retrieve a specific message from the email platform.'),
+   required(true),
+   unique(true),
+   max_length(255),
+   help_content('Unique identifier of the message on the email platform. It is the UUID used for API queries to retrieve a specific message from the email platform.'),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

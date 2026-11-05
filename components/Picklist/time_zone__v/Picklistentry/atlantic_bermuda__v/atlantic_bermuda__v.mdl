@@ -1,0 +1,5 @@
+Picklistentry atlantic_bermuda__v (
+   value('Atlantic Time (Bermuda)'),
+   order(87),
+   active(true)
+);

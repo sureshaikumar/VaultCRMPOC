@@ -1,0 +1,6 @@
+Picklistentry lt-25__v (
+   value('Marijampolė'),
+   order(2643),
+   active(true),
+   controlling_entries('lt__v')
+);

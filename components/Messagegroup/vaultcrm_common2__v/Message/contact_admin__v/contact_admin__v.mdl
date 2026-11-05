@@ -1,0 +1,6 @@
+Message contact_admin__v (
+   label(),
+   active(true),
+   default_value('Contact your administrator'),
+   system_managed(false)
+);

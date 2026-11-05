@@ -1,0 +1,5 @@
+Picklistentry hkd__sys (
+   value('HKD'),
+   order(78),
+   active(true)
+);

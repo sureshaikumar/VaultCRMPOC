@@ -1,0 +1,10 @@
+RECREATE Picklist sample_transaction_u_m__v (
+   label('U/M'),
+   active(true),
+   Picklistentry(@Picklistentry/cases__v.mdl),
+   Picklistentry(@Picklistentry/boxes__v.mdl),
+   Picklistentry(@Picklistentry/box__v.mdl),
+   Picklistentry(@Picklistentry/each__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

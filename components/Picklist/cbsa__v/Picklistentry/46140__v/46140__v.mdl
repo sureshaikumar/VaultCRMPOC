@@ -1,0 +1,5 @@
+Picklistentry 46140__v (
+   value('Tulsa, OK Metropolitan Statistical Area'),
+   order(117),
+   active(true)
+);

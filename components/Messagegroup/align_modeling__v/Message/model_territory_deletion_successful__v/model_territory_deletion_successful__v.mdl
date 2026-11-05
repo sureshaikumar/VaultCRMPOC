@@ -1,0 +1,6 @@
+Message model_territory_deletion_successful__v (
+   label(),
+   active(true),
+   default_value('Model territory deletion completed for ${entity_name}'),
+   system_managed(false)
+);

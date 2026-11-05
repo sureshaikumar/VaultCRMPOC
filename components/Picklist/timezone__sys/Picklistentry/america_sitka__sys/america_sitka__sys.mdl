@@ -1,0 +1,5 @@
+Picklistentry america_sitka__sys (
+   value('(GMT-09:00) Alaska Standard Time (America/Sitka)'),
+   order(11),
+   active(true)
+);

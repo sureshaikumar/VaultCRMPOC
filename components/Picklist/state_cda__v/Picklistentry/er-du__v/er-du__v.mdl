@@ -1,0 +1,6 @@
+Picklistentry er-du__v (
+   value('Al Janūbĩ'),
+   order(1187),
+   active(true),
+   controlling_entries('er__v')
+);

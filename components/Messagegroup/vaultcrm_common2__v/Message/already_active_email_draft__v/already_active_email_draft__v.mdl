@@ -1,0 +1,6 @@
+Message already_active_email_draft__v (
+   label(),
+   active(true),
+   default_value('You already have a draft in progress. Continue editing the draft or cancel and create a new one.'),
+   system_managed(false)
+);

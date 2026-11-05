@@ -1,0 +1,6 @@
+Picklistentry fr-94__v (
+   value('Val-de-Marne'),
+   order(1412),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry aaicu__v (
+   value('Anesthesia and Intensive Care Unit'),
+   order(71),
+   active(true),
+   controlling_entries('kw__v')
+);

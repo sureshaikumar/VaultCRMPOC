@@ -1,0 +1,6 @@
+Message account_deleted__v (
+   label(),
+   active(true),
+   default_value('Account Deleted'),
+   system_managed(false)
+);

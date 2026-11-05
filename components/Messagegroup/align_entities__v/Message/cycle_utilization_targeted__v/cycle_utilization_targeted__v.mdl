@@ -1,0 +1,6 @@
+Message cycle_utilization_targeted__v (
+   label(),
+   active(true),
+   default_value('Targeted'),
+   system_managed(false)
+);

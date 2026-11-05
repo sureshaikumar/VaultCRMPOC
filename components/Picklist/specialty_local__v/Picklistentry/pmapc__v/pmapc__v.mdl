@@ -1,0 +1,6 @@
+Picklistentry pmapc__v (
+   value('Pain Medicine and Palliative Care'),
+   order(1277),
+   active(true),
+   controlling_entries('ge__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry vn-67__v (
+   value('Nam Định'),
+   order(4963),
+   active(true),
+   controlling_entries('vn__v')
+);

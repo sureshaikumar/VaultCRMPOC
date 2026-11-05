@@ -1,0 +1,6 @@
+Message mi_locked_status_error__v (
+   label(),
+   active(true),
+   default_value('You cannot unsubmit or edit a ${object_label} that is in ${in_progress_label} or ${closed_label} status.'),
+   system_managed(false)
+);

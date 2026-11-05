@@ -1,0 +1,7 @@
+RECREATE Picklist distribution_channel_type__v (
+   label('Distribution Channel Type'),
+   active(true),
+   Picklistentry(@Picklistentry/crm__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

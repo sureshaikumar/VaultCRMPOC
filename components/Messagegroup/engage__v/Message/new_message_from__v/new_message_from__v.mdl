@@ -1,0 +1,6 @@
+Message new_message_from__v (
+   label(),
+   active(true),
+   default_value('New message from ${account_name}'),
+   system_managed(false)
+);

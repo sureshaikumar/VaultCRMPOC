@@ -1,0 +1,5 @@
+Picklistentry 44860__v (
+   value('Sulphur Springs, TX Micropolitan Statistical Area'),
+   order(947),
+   active(true)
+);

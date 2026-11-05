@@ -1,0 +1,5 @@
+Picklistentry 43500__v (
+   value('Silver City, NM Micropolitan Statistical Area'),
+   order(630),
+   active(true)
+);

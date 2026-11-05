@@ -1,0 +1,5 @@
+Picklistentry brc_sample_only__v (
+   value('BRC Sample Only'),
+   order(1),
+   active(true)
+);

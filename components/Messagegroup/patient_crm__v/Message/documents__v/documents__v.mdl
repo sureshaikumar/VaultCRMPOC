@@ -1,0 +1,6 @@
+Message documents__v (
+   label(),
+   active(true),
+   default_value('Documents'),
+   system_managed(false)
+);

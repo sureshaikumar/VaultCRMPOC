@@ -1,0 +1,12 @@
+Agentaction monitor_call_notes__v (
+   label('Monitor Call Notes'),
+   active(true),
+   api_access(),
+   description('Monitors the Call Notes field on the Call Object'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

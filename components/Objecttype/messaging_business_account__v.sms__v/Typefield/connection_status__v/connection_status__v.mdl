@@ -1,0 +1,12 @@
+Typefield connection_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.msging_business_acc_connection_status__v.connected__v',
+         'Picklist.msging_business_acc_connection_status__v.disconnected__v',
+         'Picklist.msging_business_acc_connection_status__v.expired__v',
+         'Picklist.msging_business_acc_connection_status__v.pending__v',
+         'Picklist.msging_business_acc_connection_status__v.provisioning__v',
+         'Picklist.msging_business_acc_connection_status__v.disconnecting__v',
+         'Picklist.msging_business_acc_connection_status__v.error__v',
+         'Picklist.msging_business_acc_connection_status__v.error_disconnect__v')
+);

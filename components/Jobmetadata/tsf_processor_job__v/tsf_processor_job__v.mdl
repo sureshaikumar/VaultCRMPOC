@@ -1,0 +1,11 @@
+RECREATE Jobmetadata tsf_processor_job__v (
+   label('TSF Processor job'),
+   active(true),
+   chunk_size(500),
+   description('A job that processes TSF records from updated/inserted Calls'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.callreport.jobs.TsfProcessorJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

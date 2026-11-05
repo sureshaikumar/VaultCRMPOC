@@ -1,0 +1,5 @@
+Picklistentry page__v (
+   value('Page'),
+   order(2),
+   active(true)
+);

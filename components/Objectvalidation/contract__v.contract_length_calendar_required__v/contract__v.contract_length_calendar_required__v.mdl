@@ -1,0 +1,8 @@
+RECREATE Objectvalidation contract__v.contract_length_calendar_required__v (
+   label('Contract Length is required for Calendar'),
+   active(true),
+   expression('Not((object_type__vr.api_name__v=''series_contract__v'')&&(period_type__v=''calendar__v'')&&(IsBlank(contract_length__v)))'),
+   description('Contract Length is required for a Period Type of "Calendar".'),
+   error_message('Contract Length is required for a Period Type of "Calendar".'),
+   error_location('contract_length__v')
+);

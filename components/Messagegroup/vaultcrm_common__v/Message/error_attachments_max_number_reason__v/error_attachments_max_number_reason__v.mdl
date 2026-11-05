@@ -1,0 +1,6 @@
+Message error_attachments_max_number_reason__v (
+   label(),
+   active(true),
+   default_value('The max number of attachments has been reached for this record.'),
+   system_managed(false)
+);

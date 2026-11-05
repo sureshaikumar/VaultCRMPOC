@@ -1,0 +1,18 @@
+Field require_call_channel__v (
+   label('Require Call Channel'),
+   type('Boolean'),
+   active(true),
+   description('Requires Users to make a selection from the Veeva standard Call Channel picker on all Calls.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(255),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

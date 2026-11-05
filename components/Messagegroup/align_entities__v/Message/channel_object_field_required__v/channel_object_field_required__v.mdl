@@ -1,0 +1,6 @@
+Message channel_object_field_required__v (
+   label(),
+   active(true),
+   default_value('Channel Object*'),
+   system_managed(false)
+);

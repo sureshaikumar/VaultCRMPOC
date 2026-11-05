@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="Objectaction.call_followup_task__v.business_days_calculator__c">
+            <lcActionLabelXmlIdentifier>Due Date Calculator</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

@@ -1,0 +1,19 @@
+Field html_file_name__v (
+   label('HTML File Name'),
+   type('String'),
+   active(true),
+   description('File name for HTML content which utilizes the CLM packaging structure'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

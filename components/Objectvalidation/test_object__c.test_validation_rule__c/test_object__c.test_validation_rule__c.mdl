@@ -1,0 +1,8 @@
+RECREATE Objectvalidation test_object__c.test_validation_rule__c (
+   label('Test Validation Rule'),
+   active(true),
+   expression('Not(IsBlank(test_validation__c))'),
+   description(),
+   error_message('Field cannot be blank'),
+   error_location('test_validation__c')
+);

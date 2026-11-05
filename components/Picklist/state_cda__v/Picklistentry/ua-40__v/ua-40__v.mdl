@@ -1,0 +1,6 @@
+Picklistentry ua-40__v (
+   value('Sevastopol'''),
+   order(4628),
+   active(true),
+   controlling_entries('ua__v')
+);

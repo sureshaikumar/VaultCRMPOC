@@ -1,0 +1,23 @@
+Field messages_received__sys (
+   label('Messages Received'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1000000),
+   min_value(0),
+   scale(0),
+   help_content('Messages Received'),
+   list_column(true),
+   order(11),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

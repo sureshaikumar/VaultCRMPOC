@@ -1,0 +1,19 @@
+Field base_language_name__v (
+   label('Base_Language_Name'),
+   type('String'),
+   active(true),
+   description('The name of the catalog entry in the base language. If populated, this field can be used to tie entries together across languages.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message rule_criteria_filter__v (
+   label(),
+   active(true),
+   default_value('Filter'),
+   system_managed(false)
+);

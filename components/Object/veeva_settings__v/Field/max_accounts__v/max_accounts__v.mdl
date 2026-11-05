@@ -1,0 +1,23 @@
+Field max_accounts__v (
+   label('MAX_ACCOUNTS'),
+   type('Number'),
+   active(true),
+   description('Veeva Internal Use Only. Do Not Change.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(207),
+   default_value('50000'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

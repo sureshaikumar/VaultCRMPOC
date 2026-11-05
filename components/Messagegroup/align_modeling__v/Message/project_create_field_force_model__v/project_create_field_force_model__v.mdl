@@ -1,0 +1,6 @@
+Message project_create_field_force_model__v (
+   label(),
+   active(true),
+   default_value('Create Field Force Model'),
+   system_managed(false)
+);

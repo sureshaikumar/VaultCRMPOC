@@ -1,0 +1,8 @@
+Typefield survey_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.survey_status__v.development__v',
+         'Picklist.survey_status__v.published__v',
+         'Picklist.survey_status__v.publishing__v'),
+   default_value('Picklist.survey_status__v.development__v')
+);

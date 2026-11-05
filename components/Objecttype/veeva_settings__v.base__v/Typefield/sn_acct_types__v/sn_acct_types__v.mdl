@@ -1,0 +1,4 @@
+Typefield sn_acct_types__v (
+   source('standard'),
+   required(false)
+);

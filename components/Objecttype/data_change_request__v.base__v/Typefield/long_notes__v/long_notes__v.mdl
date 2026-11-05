@@ -1,0 +1,4 @@
+Typefield long_notes__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.description__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.account_search_business__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="IN" leftValue="account__v.object_type__v" rightValue="Hospital" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="account__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+  <vrp:conditionalFields>
+    <vrp:conditionalField key="account__v.CF_test__v" publicKey="" label="Test ">
+      <vrp:category color="#F8972B" label="Test">
+        <vrp:whereItem action="IN" leftValue="account__v.type__v" rightValue="customer_direct__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+      </vrp:category>
+      <vrp:category color="#F8972B" label="Test" />
+    </vrp:conditionalField>
+  </vrp:conditionalFields>
+</vrp:query>

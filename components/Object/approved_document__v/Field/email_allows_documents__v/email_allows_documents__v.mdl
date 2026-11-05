@@ -1,0 +1,18 @@
+Field email_allows_documents__v (
+   label('Insert Documents'),
+   type('Boolean'),
+   active(true),
+   description('If true, indicates that the Vault Email Template HTML markup contains the {{insertEmailFragments}} markup token and therefore can include Email Fragment inserts.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(19),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

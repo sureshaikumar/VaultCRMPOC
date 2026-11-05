@@ -1,0 +1,6 @@
+Message inbox_offline__v (
+   label(),
+   active(true),
+   default_value('Inbox Offline'),
+   system_managed(false)
+);

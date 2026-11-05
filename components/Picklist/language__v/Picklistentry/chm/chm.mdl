@@ -1,0 +1,5 @@
+Picklistentry chm (
+   value('Mari'),
+   order(254),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-072__v (
+   value('Mengeš'),
+   order(4046),
+   active(true),
+   controlling_entries('si__v')
+);

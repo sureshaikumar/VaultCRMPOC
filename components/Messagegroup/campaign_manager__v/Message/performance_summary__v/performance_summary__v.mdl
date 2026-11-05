@@ -1,0 +1,6 @@
+Message performance_summary__v (
+   label(),
+   active(true),
+   default_value('Performance Summary'),
+   system_managed(false)
+);

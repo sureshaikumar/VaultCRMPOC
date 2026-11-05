@@ -1,0 +1,6 @@
+Message coaching_report_sent_to_employee__v (
+   label(),
+   active(true),
+   default_value('Coaching Report Sent to Employee'),
+   system_managed(false)
+);

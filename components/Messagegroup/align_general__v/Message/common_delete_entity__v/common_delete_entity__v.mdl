@@ -1,0 +1,6 @@
+Message common_delete_entity__v (
+   label(),
+   active(true),
+   default_value('Delete {0}'),
+   system_managed(false)
+);

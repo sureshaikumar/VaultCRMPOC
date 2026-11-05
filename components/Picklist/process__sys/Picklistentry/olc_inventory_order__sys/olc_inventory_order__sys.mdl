@@ -1,0 +1,5 @@
+Picklistentry olc_inventory_order__sys (
+   value('Inventory Order'),
+   order(48),
+   active(true)
+);

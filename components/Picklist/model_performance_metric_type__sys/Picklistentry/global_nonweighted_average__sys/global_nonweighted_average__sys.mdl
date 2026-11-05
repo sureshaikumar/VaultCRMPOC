@@ -1,0 +1,5 @@
+Picklistentry global_nonweighted_average__sys (
+   value('Global Non-Weighted Average'),
+   order(2),
+   active(true)
+);

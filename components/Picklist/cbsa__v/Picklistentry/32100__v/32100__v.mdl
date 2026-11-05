@@ -1,0 +1,5 @@
+Picklistentry 32100__v (
+   value('Marquette, MI Micropolitan Statistical Area'),
+   order(695),
+   active(true)
+);

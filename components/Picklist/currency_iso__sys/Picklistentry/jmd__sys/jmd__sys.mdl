@@ -1,0 +1,5 @@
+Picklistentry jmd__sys (
+   value('JMD'),
+   order(91),
+   active(true)
+);

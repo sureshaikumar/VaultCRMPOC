@@ -1,0 +1,6 @@
+Message translation_details__v (
+   label(),
+   active(true),
+   default_value('Translation Details'),
+   system_managed(false)
+);

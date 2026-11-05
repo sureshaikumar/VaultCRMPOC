@@ -1,0 +1,6 @@
+Picklistentry bo-p__v (
+   value('Potosí'),
+   order(445),
+   active(true),
+   controlling_entries('bo__v')
+);

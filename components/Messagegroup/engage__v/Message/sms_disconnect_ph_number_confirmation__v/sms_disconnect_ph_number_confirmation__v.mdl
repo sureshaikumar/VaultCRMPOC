@@ -1,0 +1,6 @@
+Message sms_disconnect_ph_number_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to disconnect ${phone_number} from ${aws_account_name} (AWS Account ID: ${aws_account_id})?'),
+   system_managed(false)
+);

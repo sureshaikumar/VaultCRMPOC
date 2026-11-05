@@ -1,0 +1,6 @@
+Message integration_auth_failed__v (
+   label(),
+   active(true),
+   default_value('Authentication failed. Please try again.'),
+   system_managed(false)
+);

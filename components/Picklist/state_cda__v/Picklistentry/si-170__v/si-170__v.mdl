@@ -1,0 +1,6 @@
+Picklistentry si-170__v (
+   value('Mirna Peč'),
+   order(4143),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 43180__v (
+   value('Shelbyville, TN Micropolitan Statistical Area'),
+   order(575),
+   active(true)
+);

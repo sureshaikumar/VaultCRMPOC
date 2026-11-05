@@ -1,0 +1,6 @@
+Picklistentry td-ka__v (
+   value('Kānim'),
+   order(4308),
+   active(true),
+   controlling_entries('td__v')
+);

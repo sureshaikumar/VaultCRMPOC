@@ -1,0 +1,10 @@
+Picklistentry entox__v (
+   value('Otorhinolaryngology (ENT) and Head and Neck Surgery'),
+   order(1239),
+   active(true),
+   controlling_entries('cm__v',
+         'cz__v',
+         'il__v',
+         'ke__v',
+         'ng__v')
+);

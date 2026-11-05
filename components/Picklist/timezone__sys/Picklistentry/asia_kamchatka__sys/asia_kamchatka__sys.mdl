@@ -1,0 +1,5 @@
+Picklistentry asia_kamchatka__sys (
+   value('(GMT+12:00) Petropavlovsk-Kamchatski Time (Asia/Kamchatka)'),
+   order(308),
+   active(true)
+);

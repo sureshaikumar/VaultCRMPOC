@@ -1,0 +1,6 @@
+Message email_could_not_be_sent__v (
+   label(),
+   active(true),
+   default_value('Your email could not be sent'),
+   system_managed(false)
+);

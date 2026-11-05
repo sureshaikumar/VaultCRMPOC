@@ -1,0 +1,15 @@
+Fieldrule call2_status__v (
+   label('Call Status'),
+   active(true),
+   query_object('crm_attendee__v'),
+   query_field('activity__vr.complete__v'),
+   target_object('Object.call2__v'),
+   target_object_field('Field.call2_status__v'),
+   target_docfield(),
+   reference_lookup_type('generic'),
+   reference_lookup('call2_status__v'),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_boolean__sys'),
+   target_field_lookup()
+);

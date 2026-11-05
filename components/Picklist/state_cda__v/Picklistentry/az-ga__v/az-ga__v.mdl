@@ -1,0 +1,6 @@
+Picklistentry az-ga__v (
+   value('Gəncə'),
+   order(156),
+   active(true),
+   controlling_entries('az__v')
+);

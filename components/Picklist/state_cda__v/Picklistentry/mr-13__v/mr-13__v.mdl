@@ -1,0 +1,6 @@
+Picklistentry mr-13__v (
+   value('Nouakchott Ouest'),
+   order(3104),
+   active(true),
+   controlling_entries('mr__v')
+);

@@ -1,0 +1,14 @@
+Vsmfield edl__v (
+   label('EDL'),
+   active(true),
+   description('Reference to the parent Expected Document List (EDL) that this item belongs to. Each EDL item is a line-item requirement within an EDL, and this field links it back to the governing list. Use to filter all items belonging to a specific EDL or submission package.'),
+   example_values(),
+   synonyms('expected document list',
+         'parent EDL',
+         'EDL reference',
+         'submission EDL'),
+   target('edl__v'),
+   target_label('EDL'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

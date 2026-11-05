@@ -1,0 +1,6 @@
+Picklistentry lexfo__v (
+   value('Legal Medicine (Forensic Medicine)'),
+   order(862),
+   active(true),
+   controlling_entries('ao__v')
+);

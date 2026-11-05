@@ -1,0 +1,6 @@
+Picklistentry it-32__v (
+   value('Trentino-South Tyrol'),
+   order(2158),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry xcd__sys (
+   value('XCD'),
+   order(210),
+   active(true)
+);

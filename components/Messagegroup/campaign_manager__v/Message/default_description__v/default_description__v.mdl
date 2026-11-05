@@ -1,0 +1,6 @@
+Message default_description__v (
+   label(),
+   active(true),
+   default_value('${template_type} ${mode}'),
+   system_managed(false)
+);

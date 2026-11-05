@@ -1,0 +1,10 @@
+Vsmvalue luf__v (
+   label('LUF'),
+   active(true),
+   description('The Luxembourg Franc (LUF), the former official currency of Luxembourg prior to its replacement by the Euro in 2002, used for legacy or historical financial records denominated in Luxembourg francs.'),
+   synonyms('Luxembourg franc',
+         'Luxembourgish franc',
+         'LUF'),
+   target('luf__sys'),
+   target_label('LUF')
+);

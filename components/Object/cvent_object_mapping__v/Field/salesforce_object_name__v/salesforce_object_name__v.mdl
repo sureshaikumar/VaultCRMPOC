@@ -1,0 +1,20 @@
+Field salesforce_object_name__v (
+   label('Salesforce Object Name'),
+   type('Picklist'),
+   active(true),
+   description('Stores the CRM object API name.'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.cvent_object_mapp_salesforce_object_name__v'),
+   controlling_picklist('cvent_object_name__v'),
+   picklist_dependencies('{"contact__v":["contact__v","em_speaker__v","user__v","account__v"],"attendee__v":["em_event_speaker__v","em_attendee__v"],"event__v":["em_event__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

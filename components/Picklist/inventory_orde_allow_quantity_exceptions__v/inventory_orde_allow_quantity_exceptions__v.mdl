@@ -1,0 +1,10 @@
+RECREATE Picklist inventory_orde_allow_quantity_exceptions__v (
+   label('Allow Quantity Exceptions'),
+   active(true),
+   Picklistentry(@Picklistentry/prevent__v.mdl),
+   Picklistentry(@Picklistentry/warn__v.mdl),
+   Picklistentry(@Picklistentry/require_approval__v.mdl),
+   Picklistentry(@Picklistentry/donothing__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

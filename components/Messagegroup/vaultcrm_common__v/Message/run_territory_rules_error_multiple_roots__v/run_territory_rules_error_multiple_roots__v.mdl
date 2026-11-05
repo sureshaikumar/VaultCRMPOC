@@ -1,0 +1,6 @@
+Message run_territory_rules_error_multiple_roots__v (
+   label(),
+   active(true),
+   default_value('There are multiple territory roots, please fix the territory tree structure'),
+   system_managed(false)
+);

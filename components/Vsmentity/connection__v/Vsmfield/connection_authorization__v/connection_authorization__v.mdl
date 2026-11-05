@@ -1,0 +1,14 @@
+Vsmfield connection_authorization__v (
+   label('Authorization'),
+   active(true),
+   description('References the authorization configuration object that defines how this connection authenticates with an external system (e.g., OAuth, API key, or certificate-based auth). Use this field to identify or change the authentication method tied to a connection.'),
+   example_values(),
+   synonyms('authorization',
+         'auth config',
+         'auth settings',
+         'OAuth config'),
+   target('connection_authorization__sys'),
+   target_label('Authorization'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

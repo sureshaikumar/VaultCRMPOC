@@ -1,0 +1,7 @@
+Typefield contract_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_qualification_contract_status__v.activated__v',
+         'Picklist.em_speaker_qualification_contract_status__v.draft__v',
+         'Picklist.em_speaker_qualification_contract_status__v.in_approval_process__v')
+);

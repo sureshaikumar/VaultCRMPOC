@@ -1,0 +1,10 @@
+RECREATE Picklist call2_expense_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/food__v.mdl),
+   Picklistentry(@Picklistentry/entertainment__v.mdl),
+   Picklistentry(@Picklistentry/cab_fare__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

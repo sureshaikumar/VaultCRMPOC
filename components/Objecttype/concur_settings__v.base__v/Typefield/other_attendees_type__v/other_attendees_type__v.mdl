@@ -1,0 +1,4 @@
+Typefield other_attendees_type__v (
+   source('standard'),
+   required(false)
+);

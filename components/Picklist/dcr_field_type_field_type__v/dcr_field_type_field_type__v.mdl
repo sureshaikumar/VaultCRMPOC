@@ -1,0 +1,12 @@
+RECREATE Picklist dcr_field_type_field_type__v (
+   label('Field Type'),
+   active(true),
+   Picklistentry(@Picklistentry/read_only__v.mdl),
+   Picklistentry(@Picklistentry/editable__v.mdl),
+   Picklistentry(@Picklistentry/dcr_editable__v.mdl),
+   Picklistentry(@Picklistentry/dcr__v.mdl),
+   Picklistentry(@Picklistentry/dcr_required__v.mdl),
+   Picklistentry(@Picklistentry/dcr_editable_required__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

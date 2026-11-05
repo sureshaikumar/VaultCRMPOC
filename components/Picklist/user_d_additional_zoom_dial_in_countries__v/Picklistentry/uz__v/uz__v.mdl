@@ -1,0 +1,5 @@
+Picklistentry uz__v (
+   value('UZ'),
+   order(115),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield batch_lot_id__v (
+   source('standard'),
+   required(false)
+);

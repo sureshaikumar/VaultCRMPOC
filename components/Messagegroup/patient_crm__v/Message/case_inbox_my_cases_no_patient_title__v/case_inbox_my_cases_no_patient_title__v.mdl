@@ -1,0 +1,6 @@
+Message case_inbox_my_cases_no_patient_title__v (
+   label(),
+   active(true),
+   default_value('No Patient Selected'),
+   system_managed(false)
+);

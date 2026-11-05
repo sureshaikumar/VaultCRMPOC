@@ -1,0 +1,6 @@
+Picklistentry ph-das__v (
+   value('Davao del Sur'),
+   order(3560),
+   active(true),
+   controlling_entries('ph__v')
+);

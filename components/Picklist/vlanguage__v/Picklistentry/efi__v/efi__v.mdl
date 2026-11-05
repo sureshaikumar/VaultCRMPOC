@@ -1,0 +1,5 @@
+Picklistentry efi__v (
+   value('Efik'),
+   order(84),
+   active(false)
+);

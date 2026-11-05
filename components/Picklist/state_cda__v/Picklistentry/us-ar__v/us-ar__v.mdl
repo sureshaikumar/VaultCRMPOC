@@ -1,0 +1,6 @@
+Picklistentry us-ar__v (
+   value('Arkansas'),
+   order(4793),
+   active(true),
+   controlling_entries('us__v')
+);

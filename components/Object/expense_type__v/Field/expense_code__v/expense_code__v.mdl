@@ -1,0 +1,19 @@
+Field expense_code__v (
+   label('Expense Code'),
+   type('String'),
+   active(true),
+   description('Expense Code. This field should be used for expense reporting because the same expense type in different languages can be associated by having the same code.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

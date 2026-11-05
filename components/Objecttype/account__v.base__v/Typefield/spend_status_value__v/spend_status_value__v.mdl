@@ -1,0 +1,4 @@
+Typefield spend_status_value__v (
+   source('standard'),
+   required(false)
+);

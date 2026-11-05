@@ -1,0 +1,6 @@
+Picklistentry er-ma__v (
+   value('Al Awsaţ'),
+   order(1189),
+   active(true),
+   controlling_entries('er__v')
+);

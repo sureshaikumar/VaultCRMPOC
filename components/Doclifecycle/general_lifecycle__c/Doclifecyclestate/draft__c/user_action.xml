@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <actions>
+            <action type="CHECK_USER_ACTION">
+                <UserAction actionType="RunWorkflow" workflowKey="review_workflow__c" flowType="object" label="Start Review" publicKey="start_review__c" />
+            </action>
+        </actions>
+    </rule>
+    <rule>
+        <actions>
+            <action type="CHECK_USER_ACTION">
+                <UserAction actionType="RunWorkflow" workflowKey="approval_workflow__c" flowType="object" label="Start Approval" publicKey="start_approval__c" />
+            </action>
+        </actions>
+    </rule>
+    <rule>
+        <actions>
+            <action type="CHECK_USER_ACTION">
+                <UserAction actionType="StateChange" newState="approved__c" label="Approve" publicKey="approve__c" />
+            </action>
+        </actions>
+    </rule>
+    <rule>
+        <actions>
+            <action type="CHECK_USER_ACTION">
+                <UserAction actionType="Custom" customActionKey="product_information__c" label="Product Information" publicKey="a1740114418852__c" />
+            </action>
+        </actions>
+    </rule>
+    <rule>
+        <actions>
+            <action type="Documentaction.com.veeva.vault.custom.actions.FieldUpdateDocumentUserAction" name="Documentaction.com.veeva.vault.custom.actions.FieldUpdateDocumentUserAction" configuredLabel="Field Update User Action">
+                <publicKey>sdkDocLifecycleUA12p2rjrvpui9c__c</publicKey>
+            </action>
+        </actions>
+    </rule>
+</rules>

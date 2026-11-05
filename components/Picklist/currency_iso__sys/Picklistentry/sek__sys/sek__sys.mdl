@@ -1,0 +1,5 @@
+Picklistentry sek__sys (
+   value('SEK'),
+   order(159),
+   active(true)
+);

@@ -1,0 +1,14 @@
+RECREATE Page view_all_media_page__v (
+   label('View All Media'),
+   active(true),
+   client_distribution(),
+   default_client_code('view_all_media_page__v'),
+   description(),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.clm.controls.ViewAllMediaPageController'),
+   url_path_name('view-all-media')
+);

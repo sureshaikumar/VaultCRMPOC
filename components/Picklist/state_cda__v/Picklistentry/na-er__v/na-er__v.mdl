@@ -1,0 +1,6 @@
+Picklistentry na-er__v (
+   value('Erongo'),
+   order(3299),
+   active(true),
+   controlling_entries('na__v')
+);

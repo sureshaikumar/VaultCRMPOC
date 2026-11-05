@@ -1,0 +1,6 @@
+Picklistentry si-161__v (
+   value('Hodoš'),
+   order(4134),
+   active(true),
+   controlling_entries('si__v')
+);

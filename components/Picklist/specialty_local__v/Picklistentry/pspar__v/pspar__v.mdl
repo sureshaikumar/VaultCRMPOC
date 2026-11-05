@@ -1,0 +1,6 @@
+Picklistentry pspar__v (
+   value('Plastic Surgery (Plastic and Reconstructive Surgery)'),
+   order(1569),
+   active(true),
+   controlling_entries('dk__v')
+);

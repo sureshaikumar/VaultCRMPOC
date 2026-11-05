@@ -1,0 +1,5 @@
+Picklistentry single_sign_on__sys (
+   value('Single Sign-On'),
+   order(1),
+   active(true)
+);

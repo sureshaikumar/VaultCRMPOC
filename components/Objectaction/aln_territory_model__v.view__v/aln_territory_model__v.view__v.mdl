@@ -1,0 +1,8 @@
+RECREATE Objectaction aln_territory_model__v.view__v (
+   label('View'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.align.actions.ViewAction'),
+   active(true),
+   available_all_states(true)
+);

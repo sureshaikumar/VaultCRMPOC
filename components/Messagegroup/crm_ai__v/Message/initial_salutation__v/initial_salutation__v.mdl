@@ -1,0 +1,6 @@
+Message initial_salutation__v (
+   label(),
+   active(true),
+   default_value('How can I help you?'),
+   system_managed(false)
+);

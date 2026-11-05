@@ -1,0 +1,6 @@
+Message assignment_commit__v (
+   label(),
+   active(true),
+   default_value('Assignment Commit'),
+   system_managed(false)
+);

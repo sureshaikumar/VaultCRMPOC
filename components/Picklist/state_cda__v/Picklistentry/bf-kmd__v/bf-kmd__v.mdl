@@ -1,0 +1,6 @@
+Picklistentry bf-kmd__v (
+   value('Komondjari'),
+   order(343),
+   active(true),
+   controlling_entries('bf__v')
+);

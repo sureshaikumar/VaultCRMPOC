@@ -1,0 +1,5 @@
+Picklistentry rm__v (
+   value('Romansh'),
+   order(264),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry oji (
+   value('Ojibwa'),
+   order(276),
+   active(true)
+);

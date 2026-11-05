@@ -1,0 +1,4 @@
+Typefield account_personcontactid__v (
+   source('standard'),
+   required(false)
+);

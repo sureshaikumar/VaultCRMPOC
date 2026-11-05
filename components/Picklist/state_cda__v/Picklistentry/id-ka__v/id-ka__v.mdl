@@ -1,0 +1,6 @@
+Picklistentry id-ka__v (
+   value('Kalimantan'),
+   order(1928),
+   active(true),
+   controlling_entries('id__v')
+);

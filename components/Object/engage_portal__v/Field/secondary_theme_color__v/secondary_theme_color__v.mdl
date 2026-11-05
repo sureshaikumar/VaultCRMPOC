@@ -1,0 +1,19 @@
+Field secondary_theme_color__v (
+   label('Override Secondary Theme Color'),
+   type('String'),
+   active(true),
+   description('Used to specify a color used in various elements of My Engage Portal including the header, icons, etc. If populated, this overrides the corresponding default field from the My Engage Portal Domain record.'),
+   required(false),
+   unique(false),
+   max_length(6),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

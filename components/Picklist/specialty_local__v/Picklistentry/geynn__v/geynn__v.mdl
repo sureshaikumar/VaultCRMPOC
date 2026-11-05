@@ -1,0 +1,6 @@
+Picklistentry geynn__v (
+   value('Gynecologic Endoscopy'),
+   order(637),
+   active(true),
+   controlling_entries('ph__v')
+);

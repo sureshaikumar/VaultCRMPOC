@@ -1,0 +1,6 @@
+Message add_column__v (
+   label(),
+   active(true),
+   default_value('Add Column'),
+   system_managed(false)
+);

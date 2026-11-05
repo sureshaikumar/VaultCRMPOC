@@ -1,0 +1,5 @@
+Picklistentry 46740__v (
+   value('Valley, AL Micropolitan Statistical Area'),
+   order(198),
+   active(true)
+);

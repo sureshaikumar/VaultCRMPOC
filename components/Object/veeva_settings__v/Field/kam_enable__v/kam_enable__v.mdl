@@ -1,0 +1,25 @@
+Field kam_enable__v (
+   label('KAM_ENABLE'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content('This setting is used to activate KAM functionality. A value of 1 will cause the Account Plan tab to display.
+
+If, however, the TAB_NAV_DISPLAY Veeva Setting is populated or contains a Veeva Message whose text field is populated, this setting will be ignor'),
+   list_column(false),
+   order(198),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

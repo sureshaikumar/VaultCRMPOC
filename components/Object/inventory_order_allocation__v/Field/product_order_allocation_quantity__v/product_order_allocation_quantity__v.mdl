@@ -1,0 +1,22 @@
+Field product_order_allocation_quantity__v (
+   label('Inventory Order Allocation Quantity'),
+   type('Number'),
+   active(true),
+   description('The maximum quantity that can be ordered across all orders the allotment duration.'),
+   required(true),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(4),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

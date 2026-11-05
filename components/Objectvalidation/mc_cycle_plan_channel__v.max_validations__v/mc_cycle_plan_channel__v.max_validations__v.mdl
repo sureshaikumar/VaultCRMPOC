@@ -1,0 +1,8 @@
+RECREATE Objectvalidation mc_cycle_plan_channel__v.max_validations__v (
+   label('Max_Validations'),
+   active(true),
+   expression('Or(IsBlank(channel_activity_max__v),IsBlank(channel_activity_goal__v),channel_activity_max__v >= channel_activity_goal__v)'),
+   description('channel_activity_max__v cannot be less than channel_activity_goal__v'),
+   error_message('Channel Activity Max cannot be less than Channel Activity Goal.'),
+   error_location('channel_activity_max__v')
+);

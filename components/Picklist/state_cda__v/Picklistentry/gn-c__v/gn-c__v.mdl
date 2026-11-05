@@ -1,0 +1,6 @@
+Picklistentry gn-c__v (
+   value('Conakry'),
+   order(1719),
+   active(true),
+   controlling_entries('gn__v')
+);

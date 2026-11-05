@@ -1,0 +1,6 @@
+Message create_new_key_message__v (
+   label(),
+   active(true),
+   default_value('Create a new key message to upload a different media file'),
+   system_managed(false)
+);

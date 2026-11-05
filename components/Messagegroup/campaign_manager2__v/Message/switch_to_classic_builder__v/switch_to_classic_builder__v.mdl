@@ -1,0 +1,6 @@
+Message switch_to_classic_builder__v (
+   label(),
+   active(true),
+   default_value('Switch to Classic Builder'),
+   system_managed(false)
+);

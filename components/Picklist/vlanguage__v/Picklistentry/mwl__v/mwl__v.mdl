@@ -1,0 +1,5 @@
+Picklistentry mwl__v (
+   value('Mirandese'),
+   order(222),
+   active(false)
+);

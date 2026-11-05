@@ -1,0 +1,6 @@
+Picklistentry si-123__v (
+   value('Škofljica'),
+   order(4097),
+   active(true),
+   controlling_entries('si__v')
+);

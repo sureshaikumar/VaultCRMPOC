@@ -1,0 +1,5 @@
+Picklistentry zh_cn__v (
+   value('Chinese (Simplified)'),
+   order(32),
+   active(true)
+);

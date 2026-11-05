@@ -1,0 +1,22 @@
+Field clm_opt_out_behavior__v (
+   label('CLM No Consent Behavior'),
+   type('Number'),
+   active(true),
+   description('Determines tracking behavior when the proper consent is not available when CLM Media is displayed to an Account. 0 or NULL = No Tracking, 1 = Track anonymously to Multichannel Activity'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

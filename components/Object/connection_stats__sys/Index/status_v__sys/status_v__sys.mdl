@@ -1,0 +1,5 @@
+Index status_v__sys (
+   description(),
+   fields('status__v'),
+   label('Status')
+);

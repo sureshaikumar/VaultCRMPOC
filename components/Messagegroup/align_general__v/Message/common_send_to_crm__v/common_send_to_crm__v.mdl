@@ -1,0 +1,6 @@
+Message common_send_to_crm__v (
+   label(),
+   active(true),
+   default_value('Send To CRM'),
+   system_managed(false)
+);

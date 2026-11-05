@@ -1,0 +1,18 @@
+Field vcountry__v (
+   label('Country'),
+   type('Picklist'),
+   active(true),
+   description('Controlling picklist for specialty__v. Configure dependency to control which specialties are applicable to countries.'),
+   required(false),
+   unique(false),
+   help_content('Controlling picklist for specialty__v. Configure dependency to control which specialties are applicable to countries.'),
+   list_column(false),
+   order(21),
+   multi_value(false),
+   picklist('Picklist.vcountry_country_name__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

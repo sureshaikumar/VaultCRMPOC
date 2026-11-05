@@ -1,0 +1,6 @@
+Message view_task_records__v (
+   label(),
+   active(true),
+   default_value('View Task Records'),
+   system_managed(false)
+);

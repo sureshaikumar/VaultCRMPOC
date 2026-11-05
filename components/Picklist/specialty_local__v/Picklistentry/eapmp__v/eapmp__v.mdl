@@ -1,0 +1,6 @@
+Picklistentry eapmp__v (
+   value('Epidemiology and Preventive Medicine'),
+   order(520),
+   active(true),
+   controlling_entries('dz__v')
+);

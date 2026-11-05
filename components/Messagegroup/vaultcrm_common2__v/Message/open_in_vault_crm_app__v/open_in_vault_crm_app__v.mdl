@@ -1,0 +1,6 @@
+Message open_in_vault_crm_app__v (
+   label(),
+   active(true),
+   default_value('Launch Vault CRM for iPad'),
+   system_managed(false)
+);

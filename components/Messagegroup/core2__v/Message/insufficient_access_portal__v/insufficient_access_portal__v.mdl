@@ -1,0 +1,6 @@
+Message insufficient_access_portal__v (
+   label(),
+   active(true),
+   default_value('You do not have access to this page. Please contact your administrator.'),
+   system_managed(false)
+);

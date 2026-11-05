@@ -1,0 +1,5 @@
+Typefield share_channel__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.multichannel_activity_line_share_channel__v.face_to_face__v')
+);

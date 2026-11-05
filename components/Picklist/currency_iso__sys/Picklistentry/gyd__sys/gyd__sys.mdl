@@ -1,0 +1,5 @@
+Picklistentry gyd__sys (
+   value('GYD'),
+   order(77),
+   active(true)
+);

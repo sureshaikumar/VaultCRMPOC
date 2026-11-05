@@ -1,0 +1,6 @@
+Message mc_cycle_channel_channel_object_help__v (
+   label(),
+   active(true),
+   default_value('This is a list of available channel objects. Greyed-out values are unavailable because the CRM Integration User lacks the required permission to describe them.'),
+   system_managed(false)
+);

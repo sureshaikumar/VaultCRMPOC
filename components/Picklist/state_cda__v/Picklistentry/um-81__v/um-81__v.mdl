@@ -1,0 +1,6 @@
+Picklistentry um-81__v (
+   value('Baker Island'),
+   order(4786),
+   active(true),
+   controlling_entries('um__v')
+);

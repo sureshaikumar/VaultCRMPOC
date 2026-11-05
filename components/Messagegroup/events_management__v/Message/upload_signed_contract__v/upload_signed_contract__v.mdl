@@ -1,0 +1,6 @@
+Message upload_signed_contract__v (
+   label(),
+   active(true),
+   default_value('Upload Signed Contract'),
+   system_managed(false)
+);

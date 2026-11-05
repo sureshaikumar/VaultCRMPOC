@@ -1,0 +1,5 @@
+Picklistentry topical_dermatologics__v (
+   value('Topical Dermatologics'),
+   order(31),
+   active(true)
+);

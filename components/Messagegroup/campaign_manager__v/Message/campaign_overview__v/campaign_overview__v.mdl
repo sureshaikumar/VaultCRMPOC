@@ -1,0 +1,6 @@
+Message campaign_overview__v (
+   label(),
+   active(true),
+   default_value('Campaign Overview'),
+   system_managed(false)
+);

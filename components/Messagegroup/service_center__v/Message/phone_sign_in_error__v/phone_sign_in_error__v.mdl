@@ -1,0 +1,6 @@
+Message phone_sign_in_error__v (
+   label(),
+   active(true),
+   default_value('Error Signing in to Microsoft Phone'),
+   system_managed(false)
+);

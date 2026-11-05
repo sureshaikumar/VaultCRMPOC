@@ -1,0 +1,19 @@
+Field ship_location__v (
+   label('Ship Location'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(120),
+   help_content('Stores the Business Account location for the product shipment.'),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

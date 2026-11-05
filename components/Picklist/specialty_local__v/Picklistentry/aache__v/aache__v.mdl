@@ -1,0 +1,6 @@
+Picklistentry aache__v (
+   value('Acupuncture and Chinese Herbal Dispensing and Chinese Herbal Medicine'),
+   order(6),
+   active(true),
+   controlling_entries('au__v')
+);

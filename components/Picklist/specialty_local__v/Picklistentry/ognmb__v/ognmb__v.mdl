@@ -1,0 +1,7 @@
+Picklistentry ognmb__v (
+   value('Obstetric-Gynecological Nursing (Midwife)'),
+   order(1076),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

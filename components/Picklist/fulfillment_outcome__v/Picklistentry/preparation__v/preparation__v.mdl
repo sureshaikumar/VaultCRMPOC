@@ -1,0 +1,5 @@
+Picklistentry preparation__v (
+   value('Preparation'),
+   order(0),
+   active(true)
+);

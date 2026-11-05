@@ -1,0 +1,6 @@
+Message case_trends__v (
+   label(),
+   active(true),
+   default_value('Case Trends'),
+   system_managed(false)
+);

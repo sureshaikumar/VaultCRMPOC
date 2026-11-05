@@ -1,0 +1,5 @@
+Picklistentry byn__sys (
+   value('BYN'),
+   order(32),
+   active(true)
+);

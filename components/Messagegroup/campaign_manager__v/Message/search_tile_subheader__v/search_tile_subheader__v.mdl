@@ -1,0 +1,6 @@
+Message search_tile_subheader__v (
+   label(),
+   active(true),
+   default_value('Manually add targets'),
+   system_managed(false)
+);

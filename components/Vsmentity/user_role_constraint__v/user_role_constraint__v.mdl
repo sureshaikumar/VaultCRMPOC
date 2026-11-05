@@ -1,0 +1,14 @@
+RECREATE Vsmentity user_role_constraint__v (
+   label('User Role Constraint'),
+   active(true),
+   description('Defines constraints or restrictions applied to user role setup assignments within the Vault system. User Role Constraints govern the boundaries of which users can be assigned to particular roles via Dynamic Access Control (DAC) via User Role Setup (URS) records. These constraints are typically used by system administrators to enforce compliance, data segregation, or workflow restrictions tied to specific user roles.'),
+   synonyms('role constraint',
+      'user restriction',
+      'role limitation',
+      'access constraint'),
+   target('Object.user_role_constraint__v'),
+   target_label('User Role Constraint'),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/role__v.mdl),
+   Vsmfield(@Vsmfield/user__v.mdl)
+);

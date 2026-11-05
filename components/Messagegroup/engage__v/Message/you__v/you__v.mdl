@@ -1,0 +1,6 @@
+Message you__v (
+   label(),
+   active(true),
+   default_value('You'),
+   system_managed(false)
+);

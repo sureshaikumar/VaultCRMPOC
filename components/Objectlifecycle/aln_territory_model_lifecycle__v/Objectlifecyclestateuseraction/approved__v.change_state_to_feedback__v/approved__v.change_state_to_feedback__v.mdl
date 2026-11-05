@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved__v.change_state_to_feedback__v (
+   label('Move to Feedback'),
+   rule(@rule.xml),
+   order(1000)
+);

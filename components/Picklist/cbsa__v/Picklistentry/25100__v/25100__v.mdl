@@ -1,0 +1,5 @@
+Picklistentry 25100__v (
+   value('Guymon, OK Micropolitan Statistical Area'),
+   order(514),
+   active(true)
+);

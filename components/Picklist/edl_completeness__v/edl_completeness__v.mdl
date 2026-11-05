@@ -1,0 +1,9 @@
+RECREATE Picklist edl_completeness__v (
+   label('EDL Completeness'),
+   active(true),
+   Picklistentry(@Picklistentry/complete__v.mdl),
+   Picklistentry(@Picklistentry/inprogress__v.mdl),
+   Picklistentry(@Picklistentry/notstarted__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry tem (
+   value('Timne'),
+   order(325),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message call_added_voice_note_section__v (
+   label(),
+   active(true),
+   default_value('Added to Call'),
+   system_managed(false)
+);

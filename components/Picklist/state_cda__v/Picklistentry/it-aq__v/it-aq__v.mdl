@@ -1,0 +1,6 @@
+Picklistentry it-aq__v (
+   value('L''Aquila'),
+   order(2179),
+   active(true),
+   controlling_entries('it__v')
+);

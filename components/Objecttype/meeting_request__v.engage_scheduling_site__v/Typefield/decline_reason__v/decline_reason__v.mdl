@@ -1,0 +1,9 @@
+Typefield decline_reason__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.meeting_request_decline_reason__v.invitee_canceled__v',
+         'Picklist.meeting_request_decline_reason__v.no_reason_provided__v',
+         'Picklist.meeting_request_decline_reason__v.rescheduled_offline__v',
+         'Picklist.meeting_request_decline_reason__v.schedule_conflict__v',
+         'Picklist.meeting_request_decline_reason__v.unknown_invitee__v')
+);

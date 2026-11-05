@@ -1,0 +1,6 @@
+Message set_assignment_priority__v (
+   label(),
+   active(true),
+   default_value('Assignment Priority must be set for Field Forces within a group.'),
+   system_managed(false)
+);

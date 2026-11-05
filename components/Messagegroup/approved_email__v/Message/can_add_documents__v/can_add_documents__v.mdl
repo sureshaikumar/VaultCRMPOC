@@ -1,0 +1,6 @@
+Message can_add_documents__v (
+   label(),
+   active(true),
+   default_value('Can Add Documents'),
+   system_managed(false)
+);

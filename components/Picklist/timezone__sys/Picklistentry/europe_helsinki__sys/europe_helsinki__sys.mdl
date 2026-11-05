@@ -1,0 +1,5 @@
+Picklistentry europe_helsinki__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Helsinki)'),
+   order(184),
+   active(true)
+);

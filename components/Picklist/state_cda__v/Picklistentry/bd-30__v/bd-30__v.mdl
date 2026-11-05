@@ -1,0 +1,6 @@
+Picklistentry bd-30__v (
+   value('Kushtia'),
+   order(259),
+   active(true),
+   controlling_entries('bd__v')
+);

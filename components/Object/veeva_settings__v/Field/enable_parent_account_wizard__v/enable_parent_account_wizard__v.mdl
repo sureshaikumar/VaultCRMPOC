@@ -1,0 +1,18 @@
+Field enable_parent_account_wizard__v (
+   label('ENABLE_PARENT_ACCOUNT_WIZARD'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Designates whether the Parent Account Wizard will be used when creating a new account from the My Accounts page.  Default value is Unchecked.'),
+   list_column(false),
+   order(149),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

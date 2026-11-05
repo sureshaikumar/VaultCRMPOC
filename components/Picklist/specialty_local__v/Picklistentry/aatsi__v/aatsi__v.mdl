@@ -1,0 +1,6 @@
+Picklistentry aatsi__v (
+   value('Aboriginal and Torres Strait Islander Health'),
+   order(2),
+   active(true),
+   controlling_entries('au__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry be-wbr__v (
+   value('Walloon Brabant'),
+   order(310),
+   active(true),
+   controlling_entries('be__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry depression_tricyclics__v (
+   value('Depression (Tricyclics)'),
+   order(95),
+   active(true)
+);

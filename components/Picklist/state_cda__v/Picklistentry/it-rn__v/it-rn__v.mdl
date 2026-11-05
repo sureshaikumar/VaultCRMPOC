@@ -1,0 +1,6 @@
+Picklistentry it-rn__v (
+   value('Rimini'),
+   order(2254),
+   active(true),
+   controlling_entries('it__v')
+);

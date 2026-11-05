@@ -1,0 +1,4 @@
+Typefield crosslink_vault_id__sys (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,23 @@
+Field percent_threshold__v (
+   label('Percent Threshold'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(2),
+   help_content('Define the Percent Threshold that applies to this rule. See documentation for details.'),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

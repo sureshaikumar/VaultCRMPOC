@@ -1,0 +1,8 @@
+Picklistentry diete__v (
+   value('Dietetics'),
+   order(442),
+   active(true),
+   controlling_entries('kg__v',
+         'lt__v',
+         'ua__v')
+);

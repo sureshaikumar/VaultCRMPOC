@@ -1,0 +1,4 @@
+Typefield translated_guideline__v (
+   source('standard'),
+   required(false)
+);

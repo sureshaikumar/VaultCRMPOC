@@ -1,0 +1,6 @@
+Message ctav_error_records_failed__v (
+   label(),
+   active(true),
+   default_value('Copy of ${object_name} records to target Vault CRM failed'),
+   system_managed(false)
+);

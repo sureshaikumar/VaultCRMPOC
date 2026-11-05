@@ -1,0 +1,6 @@
+Message lock__v (
+   label(),
+   active(true),
+   default_value('Lock'),
+   system_managed(false)
+);

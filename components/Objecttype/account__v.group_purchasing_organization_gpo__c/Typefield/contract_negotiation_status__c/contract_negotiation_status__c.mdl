@@ -1,0 +1,4 @@
+Typefield contract_negotiation_status__c (
+   source('custom'),
+   required(false)
+);

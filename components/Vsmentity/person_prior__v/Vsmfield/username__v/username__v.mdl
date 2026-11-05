@@ -1,0 +1,14 @@
+Vsmfield username__v (
+   label('User Name'),
+   active(true),
+   description('The prior username used by this person to log into Vault before a username change. Critical for auditing identity and access history, and for resolving login issues tied to previous credentials.'),
+   example_values(),
+   synonyms('login',
+         'user login',
+         'prior login',
+         'old username'),
+   target('username__sys'),
+   target_label('User Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,5 @@
+Picklistentry ndo__v (
+   value('Ndonga'),
+   order(231),
+   active(false)
+);

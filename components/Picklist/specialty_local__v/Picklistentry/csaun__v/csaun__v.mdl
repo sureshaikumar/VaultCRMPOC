@@ -1,0 +1,7 @@
+Picklistentry csaun__v (
+   value('Cancer Surgery'),
+   order(145),
+   active(true),
+   controlling_entries('sn__v',
+         'tn__v')
+);

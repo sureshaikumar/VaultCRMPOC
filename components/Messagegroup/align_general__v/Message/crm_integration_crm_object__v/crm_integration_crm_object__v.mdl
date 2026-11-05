@@ -1,0 +1,6 @@
+Message crm_integration_crm_object__v (
+   label(),
+   active(true),
+   default_value('CRM Object'),
+   system_managed(false)
+);

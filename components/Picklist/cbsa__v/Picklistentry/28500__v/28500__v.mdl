@@ -1,0 +1,5 @@
+Picklistentry 28500__v (
+   value('Kerrville, TX Micropolitan Statistical Area'),
+   order(159),
+   active(true)
+);

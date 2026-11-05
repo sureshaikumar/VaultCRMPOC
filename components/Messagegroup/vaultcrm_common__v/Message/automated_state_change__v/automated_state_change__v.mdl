@@ -1,0 +1,6 @@
+Message automated_state_change__v (
+   label(),
+   active(true),
+   default_value('Automated state change'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry mri__v (
+   value('Maori'),
+   order(361),
+   active(false)
+);

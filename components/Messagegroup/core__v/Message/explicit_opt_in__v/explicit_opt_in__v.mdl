@@ -1,0 +1,6 @@
+Message explicit_opt_in__v (
+   label(),
+   active(true),
+   default_value('Explicit Opt-In'),
+   system_managed(false)
+);

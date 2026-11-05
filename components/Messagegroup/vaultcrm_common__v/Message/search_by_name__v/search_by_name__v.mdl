@@ -1,0 +1,6 @@
+Message search_by_name__v (
+   label(),
+   active(true),
+   default_value('Search by name'),
+   system_managed(false)
+);

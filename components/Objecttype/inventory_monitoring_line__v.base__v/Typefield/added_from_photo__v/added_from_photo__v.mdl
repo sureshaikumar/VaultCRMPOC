@@ -1,0 +1,4 @@
+Typefield added_from_photo__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,11 @@
+RECREATE Pagelink em_speaker_nomination_create_pagelink__v (
+   label('EM Speaker Nomination Create'),
+   description('Redirects creating Speaker Nomination to the EM Speaker Nomination Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.em_speaker_nomination__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.em_speaker_nomination_detail_app_page__v')
+);

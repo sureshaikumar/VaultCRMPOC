@@ -1,0 +1,18 @@
+Field disable_hierarchy_autocreate__v (
+   label('DISABLE_HIERARCHY_AUTOCREATE'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Prevents a child account from being created automatically when creating a new account record using the Record Type Wizard or Parent Account Wizard.  Default value is Unchecked.'),
+   list_column(false),
+   order(91),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

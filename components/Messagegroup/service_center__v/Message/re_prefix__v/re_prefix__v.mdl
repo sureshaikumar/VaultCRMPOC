@@ -1,0 +1,6 @@
+Message re_prefix__v (
+   label(),
+   active(true),
+   default_value('Re: '),
+   system_managed(false)
+);

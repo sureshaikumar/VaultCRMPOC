@@ -1,0 +1,6 @@
+Picklistentry pk-kp__v (
+   value('Khyber Pakhtunkhwa'),
+   order(3619),
+   active(true),
+   controlling_entries('pk__v')
+);

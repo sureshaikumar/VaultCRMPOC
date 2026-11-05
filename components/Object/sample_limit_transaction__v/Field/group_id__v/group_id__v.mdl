@@ -1,0 +1,19 @@
+Field group_id__v (
+   label('Group Id'),
+   type('String'),
+   active(true),
+   description('Group ID for the Sample Limit applied to the specified Call record.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

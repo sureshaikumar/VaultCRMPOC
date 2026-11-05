@@ -1,0 +1,6 @@
+Picklistentry radis__v (
+   value('Radiography'),
+   order(1677),
+   active(true),
+   controlling_entries('bw__v')
+);

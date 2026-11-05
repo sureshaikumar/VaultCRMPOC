@@ -1,0 +1,5 @@
+Picklistentry 44620__v (
+   value('Stevens Point, WI Micropolitan Statistical Area'),
+   order(831),
+   active(true)
+);

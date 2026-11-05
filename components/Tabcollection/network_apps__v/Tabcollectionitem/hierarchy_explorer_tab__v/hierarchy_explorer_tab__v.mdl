@@ -1,0 +1,8 @@
+Tabcollectionitem hierarchy_explorer_tab__v (
+   label(),
+   active(false),
+   tabs(),
+   order(1),
+   tab('Tab.hierarchy_explorer_tab__v'),
+   type('Tab')
+);

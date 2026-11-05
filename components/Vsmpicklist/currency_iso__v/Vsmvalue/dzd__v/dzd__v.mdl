@@ -1,0 +1,9 @@
+Vsmvalue dzd__v (
+   label('DZD'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Algeria.'),
+   synonyms('Algerian Dinar',
+         'Algeria Dinar'),
+   target('dzd__sys'),
+   target_label('DZD')
+);

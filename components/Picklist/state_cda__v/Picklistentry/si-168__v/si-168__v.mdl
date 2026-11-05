@@ -1,0 +1,6 @@
+Picklistentry si-168__v (
+   value('Markovci'),
+   order(4141),
+   active(true),
+   controlling_entries('si__v')
+);

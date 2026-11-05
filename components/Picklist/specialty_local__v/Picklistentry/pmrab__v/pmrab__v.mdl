@@ -1,0 +1,6 @@
+Picklistentry pmrab__v (
+   value('Physical Medicine, Rehabilitation and Balneology'),
+   order(1550),
+   active(true),
+   controlling_entries('mu__v')
+);

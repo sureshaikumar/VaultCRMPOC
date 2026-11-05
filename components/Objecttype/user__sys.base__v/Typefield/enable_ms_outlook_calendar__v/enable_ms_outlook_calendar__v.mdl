@@ -1,0 +1,4 @@
+Typefield enable_ms_outlook_calendar__v (
+   source('standard'),
+   required(false)
+);

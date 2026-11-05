@@ -1,0 +1,4 @@
+Typefield number_validation_rules__v (
+   source('standard'),
+   required(false)
+);

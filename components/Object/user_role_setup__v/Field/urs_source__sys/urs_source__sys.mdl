@@ -1,0 +1,18 @@
+Field urs_source__sys (
+   label('Source'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(9),
+   multi_value(false),
+   picklist('Picklist.urs_source__sys'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_vault_to_vault__sys (
+   value('Vault to Vault'),
+   order(180),
+   active(true),
+   controlling_entries('olc_connection__sys')
+);

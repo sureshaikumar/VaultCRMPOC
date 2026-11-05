@@ -1,0 +1,6 @@
+Message add_target_list_campaign_details__v (
+   label(),
+   active(true),
+   default_value('Add Target List and Campaign Details'),
+   system_managed(false)
+);

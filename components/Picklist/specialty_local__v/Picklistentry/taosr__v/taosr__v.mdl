@@ -1,0 +1,7 @@
+Picklistentry taosr__v (
+   value('Trauma and Orthopaedic Surgery'),
+   order(1862),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry slightly_active__c (
+   value('Slightly Active'),
+   order(2),
+   active(true)
+);

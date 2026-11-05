@@ -1,0 +1,5 @@
+Picklistentry 13260__v (
+   value('Bedford, IN Micropolitan Statistical Area'),
+   order(860),
+   active(true)
+);

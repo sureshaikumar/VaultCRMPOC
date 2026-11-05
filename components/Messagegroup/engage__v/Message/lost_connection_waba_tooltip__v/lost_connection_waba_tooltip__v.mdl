@@ -1,0 +1,6 @@
+Message lost_connection_waba_tooltip__v (
+   label(),
+   active(true),
+   default_value('This WhatsApp Business Account has lost connection. Connect again.'),
+   system_managed(false)
+);

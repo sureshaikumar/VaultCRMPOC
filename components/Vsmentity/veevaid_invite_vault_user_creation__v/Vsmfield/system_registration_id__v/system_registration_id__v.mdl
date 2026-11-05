@@ -1,0 +1,13 @@
+Vsmfield system_registration_id__v (
+   label('System Registration ID'),
+   active(true),
+   description('Unique identifier assigned by the system to track the registration transaction for this VeevaID invite. Used for system-level traceability and cross-referencing with external registration systems.'),
+   example_values(),
+   synonyms('system reg ID',
+         'system ID',
+         'registration reference'),
+   target('system_registration_id__sys'),
+   target_label('System Registration ID'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

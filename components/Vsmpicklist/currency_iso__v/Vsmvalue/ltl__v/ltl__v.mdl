@@ -1,0 +1,10 @@
+Vsmvalue ltl__v (
+   label('LTL'),
+   active(true),
+   description('The Lithuanian Litas (LTL), the former official currency of Lithuania prior to its replacement by the Euro in 2015, used for legacy or historical financial records denominated in litas.'),
+   synonyms('Lithuanian litas',
+         'litas',
+         'LTL'),
+   target('ltl__sys'),
+   target_label('LTL')
+);

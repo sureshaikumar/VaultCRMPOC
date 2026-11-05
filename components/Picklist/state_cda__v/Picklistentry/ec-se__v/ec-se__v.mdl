@@ -1,0 +1,6 @@
+Picklistentry ec-se__v (
+   value('Santa Elena'),
+   order(1057),
+   active(true),
+   controlling_entries('ec__v')
+);

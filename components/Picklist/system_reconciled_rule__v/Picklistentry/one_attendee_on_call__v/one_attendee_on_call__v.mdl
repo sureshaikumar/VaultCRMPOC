@@ -1,0 +1,5 @@
+Picklistentry one_attendee_on_call__v (
+   value('One Attendee on Call'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 32820__v (
+   value('Memphis, TN-MS-AR Metropolitan Statistical Area'),
+   order(766),
+   active(true)
+);

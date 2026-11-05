@@ -1,0 +1,20 @@
+Field account_id__v (
+   label('Account Id'),
+   type('String'),
+   active(true),
+   description('The global id of the account. Provides a persistent record of which territory model an account was a recommended target for, even if the account record is deleted'),
+   required(true),
+   unique(false),
+   max_length(30),
+   help_content('The global id of the account. Provides a persistent record of which territory model an account was a recommended target for, even if the account record is deleted'),
+   list_column(false),
+   order(11),
+   default_value('account__vr.global_id__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

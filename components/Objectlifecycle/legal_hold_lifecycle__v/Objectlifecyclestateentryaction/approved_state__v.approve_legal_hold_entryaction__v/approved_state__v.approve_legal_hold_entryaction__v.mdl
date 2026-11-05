@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction approved_state__v.approve_legal_hold_entryaction__v (
+   rule(@rule.xml),
+   order()
+);

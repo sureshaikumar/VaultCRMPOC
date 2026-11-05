@@ -1,0 +1,6 @@
+Message crm_integration_field_name__v (
+   label(),
+   active(true),
+   default_value('CRM Field Name'),
+   system_managed(false)
+);

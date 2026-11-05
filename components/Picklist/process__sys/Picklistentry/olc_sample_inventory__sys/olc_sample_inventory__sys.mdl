@@ -1,0 +1,5 @@
+Picklistentry olc_sample_inventory__sys (
+   value('Sample Inventory'),
+   order(70),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry protocol_chair__v (
+   value('Protocol Chair'),
+   order(1),
+   active(true)
+);

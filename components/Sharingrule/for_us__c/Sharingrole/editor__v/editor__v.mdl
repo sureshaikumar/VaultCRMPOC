@@ -1,0 +1,3 @@
+Sharingrole editor__v (
+   members('Group.all_internal_users__v')
+);

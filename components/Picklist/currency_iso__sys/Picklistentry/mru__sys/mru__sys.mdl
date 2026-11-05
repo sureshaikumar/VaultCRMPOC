@@ -1,0 +1,5 @@
+Picklistentry mru__sys (
+   value('MRU'),
+   order(121),
+   active(true)
+);

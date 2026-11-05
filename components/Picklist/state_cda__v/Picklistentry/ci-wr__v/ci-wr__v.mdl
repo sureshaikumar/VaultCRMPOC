@@ -1,0 +1,6 @@
+Picklistentry ci-wr__v (
+   value('Woroba'),
+   order(664),
+   active(true),
+   controlling_entries('ci__v')
+);

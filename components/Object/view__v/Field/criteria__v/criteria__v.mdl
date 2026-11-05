@@ -1,0 +1,17 @@
+Field criteria__v (
+   label('Criteria'),
+   type('LongText'),
+   active(true),
+   description('A delimited list of criteria defined for a view.'),
+   required(false),
+   max_length(10000),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

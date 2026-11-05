@@ -1,0 +1,6 @@
+Picklistentry cf-se__v (
+   value('Sangha'),
+   order(612),
+   active(true),
+   controlling_entries('cf__v')
+);

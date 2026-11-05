@@ -1,0 +1,6 @@
+Message is_specific_date__v (
+   label(),
+   active(true),
+   default_value('is specific date'),
+   system_managed(false)
+);

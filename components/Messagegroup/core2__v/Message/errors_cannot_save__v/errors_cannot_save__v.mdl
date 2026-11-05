@@ -1,0 +1,6 @@
+Message errors_cannot_save__v (
+   label(),
+   active(true),
+   default_value('Error(s) cannot be saved'),
+   system_managed(false)
+);

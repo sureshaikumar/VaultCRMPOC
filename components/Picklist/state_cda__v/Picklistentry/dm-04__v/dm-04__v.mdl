@@ -1,0 +1,6 @@
+Picklistentry dm-04__v (
+   value('Saint George'),
+   order(932),
+   active(true),
+   controlling_entries('dm__v')
+);

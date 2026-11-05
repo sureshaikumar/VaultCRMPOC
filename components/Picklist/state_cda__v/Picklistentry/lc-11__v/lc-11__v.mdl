@@ -1,0 +1,6 @@
+Picklistentry lc-11__v (
+   value('Vieux Fort'),
+   order(2547),
+   active(true),
+   controlling_entries('lc__v')
+);

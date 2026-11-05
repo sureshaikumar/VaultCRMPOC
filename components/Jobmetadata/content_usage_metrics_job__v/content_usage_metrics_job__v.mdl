@@ -1,0 +1,12 @@
+RECREATE Jobmetadata content_usage_metrics_job__v (
+   label('Content Usage Metrics Job Metadata'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to calculate content usage metrics'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clm.jobs.ContentUsageMetricsOutboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

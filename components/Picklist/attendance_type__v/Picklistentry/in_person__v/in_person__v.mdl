@@ -1,0 +1,5 @@
+Picklistentry in_person__v (
+   value('In Person'),
+   order(0),
+   active(true)
+);

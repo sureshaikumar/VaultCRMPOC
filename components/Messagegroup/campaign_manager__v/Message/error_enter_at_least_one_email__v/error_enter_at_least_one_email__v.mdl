@@ -1,0 +1,6 @@
+Message error_enter_at_least_one_email__v (
+   label(),
+   active(true),
+   default_value('Enter at least one email address'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry atlantic_madeira__sys (
+   value('(GMT+00:00) Western European Time (Atlantic/Madeira)'),
+   order(147),
+   active(true)
+);

@@ -1,0 +1,19 @@
+RECREATE Vsmentity vault_package_component__v (
+   label('Inbound Package Component'),
+   active(true),
+   description('Represents an individual component or artifact included within an inbound Vault package. Inbound package components track the specific configuration components that are delivered into a Vault environment as part of a package deployment or migration. This object is used to manage and audit what is contained within a received package, supporting change control and deployment workflows.'),
+   synonyms('package component',
+      'inbound component',
+      'vault package item',
+      'package contents'),
+   target('Object.vault_package_component__v'),
+   target_label('Inbound Package Component'),
+   Vsmfield(@Vsmfield/checksum__v.mdl),
+   Vsmfield(@Vsmfield/component_label__v.mdl),
+   Vsmfield(@Vsmfield/component_name__v.mdl),
+   Vsmfield(@Vsmfield/component_type__v.mdl),
+   Vsmfield(@Vsmfield/deployment_status__v.mdl),
+   Vsmfield(@Vsmfield/mdl_content__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/vault_package_step__v.mdl)
+);

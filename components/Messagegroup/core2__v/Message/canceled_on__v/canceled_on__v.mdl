@@ -1,0 +1,6 @@
+Message canceled_on__v (
+   label(),
+   active(true),
+   default_value('Canceled on ${canceled_date}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message key_journey_details__v (
+   label(),
+   active(true),
+   default_value('Key Journey Details'),
+   system_managed(false)
+);

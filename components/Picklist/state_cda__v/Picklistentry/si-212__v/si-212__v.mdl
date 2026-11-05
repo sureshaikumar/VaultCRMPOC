@@ -1,0 +1,6 @@
+Picklistentry si-212__v (
+   value('Mirna'),
+   order(4185),
+   active(true),
+   controlling_entries('si__v')
+);

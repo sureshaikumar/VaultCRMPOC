@@ -1,0 +1,5 @@
+Picklistentry ms__v (
+   value('Malay'),
+   order(38),
+   active(true)
+);

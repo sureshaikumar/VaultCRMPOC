@@ -1,0 +1,5 @@
+Picklistentry cycle_clone__v (
+   value('Cycle Clone'),
+   order(2),
+   active(true)
+);

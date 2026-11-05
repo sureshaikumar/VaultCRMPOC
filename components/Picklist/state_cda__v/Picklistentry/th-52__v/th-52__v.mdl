@@ -1,0 +1,6 @@
+Picklistentry th-52__v (
+   value('Lampang'),
+   order(4368),
+   active(true),
+   controlling_entries('th__v')
+);

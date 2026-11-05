@@ -1,0 +1,8 @@
+RECREATE Pagelayout user_detail_page_layout__sys (
+   active(false),
+   default_layout(false),
+   description('Standard Layout provided for the User Object'),
+   display_lifecycle_stages(false),
+   label('Standard User Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

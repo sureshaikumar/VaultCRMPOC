@@ -1,0 +1,17 @@
+Picklistentry orthp__v (
+   value('Orthopedics'),
+   order(1210),
+   active(true),
+   controlling_entries('ba__v',
+         'bw__v',
+         'ci__v',
+         'ee__v',
+         'in__v',
+         'nl__v',
+         'pt__v',
+         'se__v',
+         'sk__v',
+         'tw__v',
+         'us__v',
+         'za__v')
+);

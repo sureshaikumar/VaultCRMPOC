@@ -1,0 +1,6 @@
+Picklistentry gdeir__v (
+   value('Geriatric Diseases'),
+   order(623),
+   active(true),
+   controlling_entries('kw__v')
+);

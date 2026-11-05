@@ -1,0 +1,6 @@
+Picklistentry lv-068__v (
+   value('Olaines novads'),
+   order(2720),
+   active(true),
+   controlling_entries('lv__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ke-41__v (
+   value('Tharaka-Nithi'),
+   order(2394),
+   active(true),
+   controlling_entries('ke__v')
+);

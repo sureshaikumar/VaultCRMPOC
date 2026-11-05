@@ -1,0 +1,5 @@
+Picklistentry 35500__v (
+   value('Newton, IA Micropolitan Statistical Area'),
+   order(295),
+   active(true)
+);

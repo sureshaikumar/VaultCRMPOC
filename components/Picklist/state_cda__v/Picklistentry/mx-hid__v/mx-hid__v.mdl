@@ -1,0 +1,6 @@
+Picklistentry mx-hid__v (
+   value('Hidalgo'),
+   order(3251),
+   active(true),
+   controlling_entries('mx__v')
+);

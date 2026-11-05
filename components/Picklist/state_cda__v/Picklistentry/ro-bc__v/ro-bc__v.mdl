@@ -1,0 +1,6 @@
+Picklistentry ro-bc__v (
+   value('Bacău'),
+   order(3720),
+   active(true),
+   controlling_entries('ro__v')
+);

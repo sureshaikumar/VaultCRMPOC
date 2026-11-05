@@ -1,0 +1,5 @@
+Picklistentry winmodern__v (
+   value('Windows'),
+   order(2),
+   active(true)
+);

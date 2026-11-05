@@ -1,0 +1,6 @@
+Picklistentry km-m__v (
+   value('Moûhîlî (Mūhīlī)'),
+   order(2440),
+   active(true),
+   controlling_entries('km__v')
+);

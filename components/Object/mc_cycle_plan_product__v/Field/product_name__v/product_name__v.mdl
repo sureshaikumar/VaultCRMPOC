@@ -1,0 +1,21 @@
+Field product_name__v (
+   label('Product'),
+   type('String'),
+   active(true),
+   description('Product label from the Cycle Product'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(42),
+   formula('If( Text(cycle_product__vr.product__v) = "", Text(cycle_product__vr.detail_group__v), Text(cycle_product__vr.product__v) )'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 13100__v (
+   value('Beatrice, NE Micropolitan Statistical Area'),
+   order(864),
+   active(true)
+);

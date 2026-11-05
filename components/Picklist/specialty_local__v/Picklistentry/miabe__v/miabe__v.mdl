@@ -1,0 +1,6 @@
+Picklistentry miabe__v (
+   value('Medical Informatics and Biostatistics'),
+   order(918),
+   active(true),
+   controlling_entries('sk__v')
+);

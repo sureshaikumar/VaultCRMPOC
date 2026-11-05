@@ -1,0 +1,10 @@
+Picklistentry oaemc__v (
+   value('Occupational and Environmental Medicine'),
+   order(1090),
+   active(true),
+   controlling_entries('au__v',
+         'eg__v',
+         'is__v',
+         'kr__v',
+         'se__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry lah (
+   value('Lahnda'),
+   order(232),
+   active(true)
+);

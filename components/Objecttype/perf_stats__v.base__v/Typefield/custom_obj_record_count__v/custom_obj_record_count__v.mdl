@@ -1,0 +1,4 @@
+Typefield custom_obj_record_count__v (
+   source('standard'),
+   required(true)
+);

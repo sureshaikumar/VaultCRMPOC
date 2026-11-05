@@ -1,0 +1,18 @@
+Field manage_crm_users__v (
+   label('Manage CRM Users'),
+   type('Picklist'),
+   active(true),
+   description('Control whether Align manages CRM users.'),
+   required(false),
+   unique(false),
+   help_content('Control whether Align manages CRM users.'),
+   list_column(false),
+   order(38),
+   multi_value(false),
+   picklist('Picklist.aln_manage_crm_users__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

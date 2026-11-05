@@ -1,0 +1,6 @@
+Message mccp_cycle_start_end_dates_err__v (
+   label(),
+   active(true),
+   default_value('Start Date must be earlier than the End Date.'),
+   system_managed(false)
+);

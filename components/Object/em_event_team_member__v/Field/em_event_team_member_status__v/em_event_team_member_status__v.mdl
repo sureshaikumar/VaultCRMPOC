@@ -1,0 +1,19 @@
+Field em_event_team_member_status__v (
+   label('Event Team Member Status'),
+   type('Picklist'),
+   active(true),
+   description('Status of the Event Team Member.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(32),
+   multi_value(false),
+   picklist('Picklist.em_event_team_member_status__v'),
+   default_value('{invited__v}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

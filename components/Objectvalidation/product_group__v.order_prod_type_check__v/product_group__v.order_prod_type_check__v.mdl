@@ -1,0 +1,16 @@
+RECREATE Objectvalidation product_group__v.order_prod_type_check__v (
+   label('Order_Prod_Type_Check'),
+   active(true),
+   expression('not(
+            if(
+                product_catalog__vr.product_type__v = ''product_group__v'',
+                not(
+                    product__vr.product_type__v = ''order__v''
+                ),
+                false
+            )
+       )'),
+   description('only product type of ''order'' is allowed'),
+   error_message('Only Type of ''Order'' is allowed'),
+   error_location('product__v')
+);

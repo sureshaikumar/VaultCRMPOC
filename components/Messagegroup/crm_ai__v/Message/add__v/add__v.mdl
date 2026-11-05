@@ -1,0 +1,6 @@
+Message add__v (
+   label(),
+   active(true),
+   default_value('Add'),
+   system_managed(false)
+);

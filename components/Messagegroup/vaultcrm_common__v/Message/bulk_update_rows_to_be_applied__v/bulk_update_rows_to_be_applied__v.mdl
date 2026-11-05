@@ -1,0 +1,6 @@
+Message bulk_update_rows_to_be_applied__v (
+   label(),
+   active(true),
+   default_value('Bulk edits will be applied to ${selected_records} rows.'),
+   system_managed(false)
+);

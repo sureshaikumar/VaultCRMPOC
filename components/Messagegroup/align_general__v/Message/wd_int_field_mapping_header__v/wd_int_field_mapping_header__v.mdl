@@ -1,0 +1,6 @@
+Message wd_int_field_mapping_header__v (
+   label(),
+   active(true),
+   default_value('Workday Integration Field Mapping for Workday Org: {0}'),
+   system_managed(false)
+);

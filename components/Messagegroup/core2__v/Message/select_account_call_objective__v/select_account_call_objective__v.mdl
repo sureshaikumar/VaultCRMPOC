@@ -1,0 +1,6 @@
+Message select_account_call_objective__v (
+   label(),
+   active(true),
+   default_value('Select the account for this call objective'),
+   system_managed(false)
+);

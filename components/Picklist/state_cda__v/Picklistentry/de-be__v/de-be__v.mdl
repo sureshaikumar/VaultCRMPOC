@@ -1,0 +1,6 @@
+Picklistentry de-be__v (
+   value('Berlin'),
+   order(904),
+   active(true),
+   controlling_entries('de__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry is-tjo__v (
+   value('Tjörneshreppur'),
+   order(2151),
+   active(true),
+   controlling_entries('is__v')
+);

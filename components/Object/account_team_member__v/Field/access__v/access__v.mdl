@@ -1,0 +1,18 @@
+Field access__v (
+   label('Access'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Determines the level of access the Team Member has to Account Plan records'),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.account_team_member_access__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

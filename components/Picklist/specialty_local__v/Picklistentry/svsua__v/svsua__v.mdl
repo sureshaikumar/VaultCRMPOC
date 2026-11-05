@@ -1,0 +1,6 @@
+Picklistentry svsua__v (
+   value('Surgery Vascular Surgery'),
+   order(1818),
+   active(true),
+   controlling_entries('id__v')
+);

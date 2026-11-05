@@ -1,0 +1,6 @@
+Picklistentry idxph__v (
+   value('Infectious Disease Pharmacy'),
+   order(757),
+   active(true),
+   controlling_entries('hu__v')
+);

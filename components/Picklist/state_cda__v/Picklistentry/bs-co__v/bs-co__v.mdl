@@ -1,0 +1,6 @@
+Picklistentry bs-co__v (
+   value('Central Abaco'),
+   order(485),
+   active(true),
+   controlling_entries('bs__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry la-xs__v (
+   value('Xaisômboun'),
+   order(2530),
+   active(true),
+   controlling_entries('la__v')
+);

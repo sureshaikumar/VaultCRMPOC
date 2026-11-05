@@ -1,0 +1,5 @@
+Picklistentry scionti_reprint__v (
+   value('Scionti reprint'),
+   order(1),
+   active(true)
+);

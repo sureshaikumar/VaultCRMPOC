@@ -1,0 +1,6 @@
+Picklistentry ng-ko__v (
+   value('Kogi'),
+   order(3341),
+   active(true),
+   controlling_entries('ng__v')
+);

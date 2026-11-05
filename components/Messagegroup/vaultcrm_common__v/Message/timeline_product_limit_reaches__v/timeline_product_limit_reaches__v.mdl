@@ -1,0 +1,6 @@
+Message timeline_product_limit_reaches__v (
+   label(),
+   active(true),
+   default_value('Select up to 25 products.'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+RECREATE Report test_account_report__c (
+   label('Test Account Report'),
+   active(true),
+   description(),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.account__c'),
+   editors(),
+   viewers(),
+   owners('User.kavita.singh@sb-accenture.com'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

@@ -1,0 +1,22 @@
+Field dynamic_questions_in_checklist_section__sys (
+   label('Dynamic Questions in Checklist Section'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(50),
+   min_value(1),
+   scale(0),
+   help_content('The number of dynamic questions that will appear in the checklist for this section.'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

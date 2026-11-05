@@ -1,0 +1,17 @@
+Field dynamic__sys (
+   label('Dynamic'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Indicates if the question is dynamic. Dynamic questions may or may not appear in a checklist.'),
+   list_column(false),
+   order(40),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message team_not_configured__v (
+   label(),
+   active(true),
+   default_value('This feature requires Microsoft Teams integration, which has not been configured by your administrator. Please contact your administrator for assistance.'),
+   system_managed(false)
+);

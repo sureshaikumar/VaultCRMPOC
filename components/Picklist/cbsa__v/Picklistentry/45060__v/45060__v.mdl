@@ -1,0 +1,5 @@
+Picklistentry 45060__v (
+   value('Syracuse, NY Metropolitan Statistical Area'),
+   order(7),
+   active(true)
+);

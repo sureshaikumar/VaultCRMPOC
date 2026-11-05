@@ -1,0 +1,5 @@
+Picklistentry kw__v (
+   value('KW'),
+   order(123),
+   active(true)
+);

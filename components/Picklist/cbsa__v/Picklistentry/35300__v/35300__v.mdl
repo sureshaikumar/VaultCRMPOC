@@ -1,0 +1,5 @@
+Picklistentry 35300__v (
+   value('New Haven-Milford, CT Metropolitan Statistical Area'),
+   order(321),
+   active(true)
+);

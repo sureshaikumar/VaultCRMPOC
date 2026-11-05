@@ -1,0 +1,9 @@
+RECREATE Picklist alert_priority__v (
+   label('Priority'),
+   active(true),
+   Picklistentry(@Picklistentry/urgent__v.mdl),
+   Picklistentry(@Picklistentry/important__v.mdl),
+   Picklistentry(@Picklistentry/normal__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,13 @@
+Vsmfield type__v (
+   label('Document Type'),
+   active(true),
+   description('Reference to the top-level document type associated with this EDL item, representing the first level of the document type hierarchy. Use to filter EDL items by broad document category, and combine with subtype__v and classification__v for more granular filtering.'),
+   example_values(),
+   synonyms('doc type',
+         'document type',
+         'type'),
+   target('type__v'),
+   target_label('Document Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

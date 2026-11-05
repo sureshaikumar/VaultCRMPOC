@@ -1,0 +1,6 @@
+Picklistentry mx-tab__v (
+   value('Tabasco'),
+   order(3265),
+   active(true),
+   controlling_entries('mx__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry paper_detail__v (
+   value('Paper Detail'),
+   order(1),
+   active(true)
+);

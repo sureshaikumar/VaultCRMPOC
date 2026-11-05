@@ -1,0 +1,6 @@
+Picklistentry nz-can__v (
+   value('Canterbury'),
+   order(3428),
+   active(true),
+   controlling_entries('nz__v')
+);

@@ -1,0 +1,6 @@
+Message redial_phone_number__v (
+   label(),
+   active(true),
+   default_value('Redial ${phone_number}'),
+   system_managed(false)
+);

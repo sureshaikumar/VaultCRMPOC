@@ -1,0 +1,5 @@
+Picklistentry busguest__v (
+   value('BUSGUEST'),
+   order(0),
+   active(true)
+);

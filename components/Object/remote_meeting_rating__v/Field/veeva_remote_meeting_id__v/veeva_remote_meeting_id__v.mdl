@@ -1,0 +1,19 @@
+Field veeva_remote_meeting_id__v (
+   label('Veeva Remote Meeting Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('Remote Meeting Id entered by the attendee when joining the Remote Meeting'),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

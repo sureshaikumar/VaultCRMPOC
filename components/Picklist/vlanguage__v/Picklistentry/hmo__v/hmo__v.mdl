@@ -1,0 +1,5 @@
+Picklistentry hmo__v (
+   value('Hiri Motu'),
+   order(130),
+   active(false)
+);

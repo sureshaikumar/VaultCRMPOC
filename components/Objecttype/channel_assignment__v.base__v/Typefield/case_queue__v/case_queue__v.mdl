@@ -1,0 +1,4 @@
+Typefield case_queue__v (
+   source('standard'),
+   required(false)
+);

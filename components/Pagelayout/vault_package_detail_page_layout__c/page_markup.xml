@@ -1,0 +1,30 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.vault_package__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="summary__v" />
+            <vault:field reference="owner__v" />
+            <vault:field reference="deployment_status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="source_vault__v" />
+            <vault:field reference="author__v" />
+            <vault:field reference="package_type__v" />
+            <vault:field reference="app_key__v" />
+            <vault:field reference="description__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Steps" name="inbound_package_steps__c">
+        <vault:relatedObject relationship="vault_package_step__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="step_type__v" width="200px" />
+            <vault:field reference="step_label__v" width="200px" />
+            <vault:field reference="step_name__v" width="200px" />
+            <vault:field reference="type__v" width="200px" />
+            <vault:field reference="deployment_status__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Logs" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

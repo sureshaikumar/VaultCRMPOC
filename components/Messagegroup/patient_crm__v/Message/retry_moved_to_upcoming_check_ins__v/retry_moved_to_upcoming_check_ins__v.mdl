@@ -1,0 +1,6 @@
+Message retry_moved_to_upcoming_check_ins__v (
+   label(),
+   active(true),
+   default_value('Retry Moved to Upcoming Check-Ins'),
+   system_managed(false)
+);

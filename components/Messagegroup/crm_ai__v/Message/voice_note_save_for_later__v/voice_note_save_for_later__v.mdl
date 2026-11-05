@@ -1,0 +1,6 @@
+Message voice_note_save_for_later__v (
+   label(),
+   active(true),
+   default_value('Save for Later'),
+   system_managed(false)
+);

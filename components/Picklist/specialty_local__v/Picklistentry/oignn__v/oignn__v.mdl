@@ -1,0 +1,6 @@
+Picklistentry oignn__v (
+   value('Oncology in Gynecology'),
+   order(1123),
+   active(true),
+   controlling_entries('sk__v')
+);

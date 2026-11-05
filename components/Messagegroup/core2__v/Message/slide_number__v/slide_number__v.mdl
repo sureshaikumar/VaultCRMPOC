@@ -1,0 +1,6 @@
+Message slide_number__v (
+   label(),
+   active(true),
+   default_value('Slide Number'),
+   system_managed(false)
+);

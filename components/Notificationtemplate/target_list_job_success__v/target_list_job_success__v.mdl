@@ -1,0 +1,26 @@
+RECREATE Notificationtemplate target_list_job_success__v (
+   label('Target List Job Completed Success'),
+   active(true),
+   description('Notifies the user their Target List Job completed successfully'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.campaign__v'),
+   subject('Target List Job Completed Successfully - ${Custom.campaign_name}'),
+   notification('Your Target List Job has completed successfully<br/>
+    Details:<br/>
+    <ul>
+       <li>Campaign Name: ${Custom.campaign_name}</li>
+       <li>Successes: ${Custom.success_count}</li>
+       <li>Job Start Time: ${Custom.start_time}</li>
+       <li>Job Duration: ${Custom.duration}</li>
+    </ul>'),
+   email_body('Your Target List Job has completed successfully<br/>
+    Details:<br/>
+    <ul>
+       <li>Campaign Name: ${Custom.campaign_name}</li>
+       <li>Successes: ${Custom.success_count}</li>
+       <li>Job Start Time: ${Custom.start_time}</li>
+       <li>Job Duration: ${Custom.duration}</li>
+    </ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

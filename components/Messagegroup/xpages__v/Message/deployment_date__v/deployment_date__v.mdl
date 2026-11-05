@@ -1,0 +1,6 @@
+Message deployment_date__v (
+   label(),
+   active(true),
+   default_value('Deployment Date'),
+   system_managed(false)
+);

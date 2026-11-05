@@ -1,0 +1,6 @@
+Picklistentry dz-34__v (
+   value('Bordj Bou Arréridj'),
+   order(1015),
+   active(true),
+   controlling_entries('dz__v')
+);

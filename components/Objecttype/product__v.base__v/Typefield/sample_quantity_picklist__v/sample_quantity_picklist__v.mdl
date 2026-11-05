@@ -1,0 +1,4 @@
+Typefield sample_quantity_picklist__v (
+   source('standard'),
+   required(false)
+);

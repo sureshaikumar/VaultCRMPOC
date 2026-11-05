@@ -1,0 +1,10 @@
+RECREATE Jobmetadata medical_clm_pres_rendition_ib_job__v (
+   label('Medical to CRM CLM Presentation Rendition Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that initiates to bring over document renditions from Medical'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clmintegration.jobs.medical.MedicalClmPresentationIntegrationRenditionInboundJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

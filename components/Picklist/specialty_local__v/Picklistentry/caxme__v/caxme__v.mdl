@@ -1,0 +1,6 @@
+Picklistentry caxme__v (
+   value('Complementary and Alternative Medicine'),
+   order(321),
+   active(true),
+   controlling_entries('ua__v')
+);

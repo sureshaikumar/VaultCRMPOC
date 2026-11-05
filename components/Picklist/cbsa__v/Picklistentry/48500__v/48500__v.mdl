@@ -1,0 +1,5 @@
+Picklistentry 48500__v (
+   value('West Point, MS Micropolitan Statistical Area'),
+   order(433),
+   active(true)
+);

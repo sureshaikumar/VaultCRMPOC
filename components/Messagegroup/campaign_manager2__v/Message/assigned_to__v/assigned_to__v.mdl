@@ -1,0 +1,6 @@
+Message assigned_to__v (
+   label(),
+   active(true),
+   default_value('Assigned to'),
+   system_managed(false)
+);

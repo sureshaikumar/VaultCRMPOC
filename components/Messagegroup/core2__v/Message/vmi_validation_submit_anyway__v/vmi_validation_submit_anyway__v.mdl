@@ -1,0 +1,6 @@
+Message vmi_validation_submit_anyway__v (
+   label(),
+   active(true),
+   default_value('Submit Anyway'),
+   system_managed(false)
+);

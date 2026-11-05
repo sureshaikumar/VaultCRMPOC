@@ -1,0 +1,6 @@
+Picklistentry by-ma__v (
+   value('Mahilyow Region'),
+   order(550),
+   active(true),
+   controlling_entries('by__v')
+);

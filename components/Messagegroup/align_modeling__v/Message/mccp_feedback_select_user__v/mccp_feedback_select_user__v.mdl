@@ -1,0 +1,6 @@
+Message mccp_feedback_select_user__v (
+   label(),
+   active(true),
+   default_value('Select User'),
+   system_managed(false)
+);

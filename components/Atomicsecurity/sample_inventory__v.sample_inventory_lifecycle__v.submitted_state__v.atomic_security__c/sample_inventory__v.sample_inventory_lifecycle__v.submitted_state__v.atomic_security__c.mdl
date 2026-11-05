@@ -1,0 +1,8 @@
+RECREATE Atomicsecurity sample_inventory__v.sample_inventory_lifecycle__v.submitted_state__v.atomic_security__c (
+   label('Sample Inventory-Sample Inventory-Submitted'),
+   active(true),
+   object('Object.sample_inventory__v'),
+   object_lifecycle('Objectlifecycle.sample_inventory_lifecycle__v'),
+   state('Objectlifecyclestate.submitted_state__v'),
+   Fieldsecurity(@Fieldsecurity/DEFAULT.read__v.field_security__c.mdl)
+);

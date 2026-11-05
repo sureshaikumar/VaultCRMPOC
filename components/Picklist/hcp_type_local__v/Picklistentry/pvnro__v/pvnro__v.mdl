@@ -1,0 +1,5 @@
+Picklistentry pvnro__v (
+   value('Practical / Vocational Nurse'),
+   order(116),
+   active(true)
+);

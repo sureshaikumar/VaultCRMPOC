@@ -1,0 +1,6 @@
+Message ff_product_model_proj_id_mismatch__v (
+   label(),
+   active(true),
+   default_value('Project ID in Model Account Exclusion''s External ID does not match Model Account Exclusion''s Project ID (${project_id}). Please write the External ID in the format "[external_id_prefix]::${project_id}".'),
+   system_managed(false)
+);

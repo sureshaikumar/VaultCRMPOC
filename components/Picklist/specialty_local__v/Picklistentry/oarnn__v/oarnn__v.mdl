@@ -1,0 +1,8 @@
+Picklistentry oarnn__v (
+   value('Oncology and Radiotherapy'),
+   order(1120),
+   active(true),
+   controlling_entries('ba__v',
+         'hr__v',
+         'mt__v')
+);

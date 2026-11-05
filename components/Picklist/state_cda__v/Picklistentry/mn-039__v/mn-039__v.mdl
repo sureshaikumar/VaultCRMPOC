@@ -1,0 +1,6 @@
+Picklistentry mn-039__v (
+   value('Hentiy'),
+   order(3072),
+   active(true),
+   controlling_entries('mn__v')
+);

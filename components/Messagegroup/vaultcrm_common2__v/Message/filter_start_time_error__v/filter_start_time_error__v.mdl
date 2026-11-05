@@ -1,0 +1,6 @@
+Message filter_start_time_error__v (
+   label(),
+   active(true),
+   default_value('Start time must be before end time'),
+   system_managed(false)
+);

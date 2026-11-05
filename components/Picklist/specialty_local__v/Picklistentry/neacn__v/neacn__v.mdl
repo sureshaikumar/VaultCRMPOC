@@ -1,0 +1,6 @@
+Picklistentry neacn__v (
+   value('Neurology Epilepsy and Clinical Neurophysiology'),
+   order(1015),
+   active(true),
+   controlling_entries('id__v')
+);

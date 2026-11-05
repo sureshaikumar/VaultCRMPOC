@@ -1,0 +1,24 @@
+RECREATE Notificationtemplate dynamic_autofiling_refresh_complete__v (
+   label('Binder Auto-filing Refresh Complete'),
+   active(true),
+   description('Notification sent upon completion of a request to refresh auto-filing on a binder.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" Auto-filing Refresh Completed
+'),
+   notification('<p>Refresh auto-filing request for <b>${docName}</b> has completed.</p>
+<b>Successfully filed ${addedDocsCount} documents into ${addedSectionsCount} sections. Removed ${removedDocsCount} documents from ${removedSectionsCount} sections. Retained ${manuallyFiledDocsCount} because they are manually filed.<br>'),
+   email_body('<p><b>Binder:</b> ${docName} <br> 
+<b>Refresh Requested:</b> ${autofileStartDateTime}<br>
+<b>Refresh Completed:</b> ${autofileEndDateTime}</p>
+
+<p><b>Results:</b></p>
+
+<p>${autofileAddedDocsHeader} ${autofileAddedDocs}</p>
+<p>${autofileRemovedDocsHeader} ${autofileRemovedDocs}</p>
+<p>${autofileManuallyFiledDocsHeader} ${autofileManuallyFiledDocs}</p>
+<p>${autofileVersionBoundDocsHeader} ${autofileVersionBoundDocs}</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

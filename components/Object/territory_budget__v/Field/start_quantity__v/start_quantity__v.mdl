@@ -1,0 +1,22 @@
+Field start_quantity__v (
+   label('Start Quantity'),
+   type('Number'),
+   active(true),
+   description('The start quantity of the Budget. Example are numbers of seats at a congress, etc. This value can only be set on the creation of a new Territory Budget record.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

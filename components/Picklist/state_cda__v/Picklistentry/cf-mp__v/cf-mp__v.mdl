@@ -1,0 +1,6 @@
+Picklistentry cf-mp__v (
+   value('Ombella-Mpoko'),
+   order(609),
+   active(true),
+   controlling_entries('cf__v')
+);

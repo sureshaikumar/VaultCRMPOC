@@ -1,0 +1,6 @@
+Picklistentry tr-11__v (
+   value('Bilecik'),
+   order(4469),
+   active(true),
+   controlling_entries('tr__v')
+);

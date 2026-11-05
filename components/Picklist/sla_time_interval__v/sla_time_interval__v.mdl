@@ -1,0 +1,10 @@
+RECREATE Picklist sla_time_interval__v (
+   label('SLA Time Interval'),
+   active(true),
+   Picklistentry(@Picklistentry/sla_interval_seconds__v.mdl),
+   Picklistentry(@Picklistentry/sla_interval_minutes__v.mdl),
+   Picklistentry(@Picklistentry/sla_interval_hours__v.mdl),
+   Picklistentry(@Picklistentry/sla_interval_days__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

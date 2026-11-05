@@ -1,0 +1,19 @@
+Field external_id__v (
+   label('EXTERNAL_ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(120),
+   help_content('External ID used for Metadata migration.'),
+   list_column(false),
+   order(172),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

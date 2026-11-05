@@ -1,0 +1,20 @@
+Field reporting_url_on24__v (
+   label('Reporting URL On24'),
+   type('String'),
+   subtype('Link'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Field used to store the On24 reporting url'),
+   list_column(false),
+   order(67),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('LinkFormat("new_window")'),
+   control_binding()
+);

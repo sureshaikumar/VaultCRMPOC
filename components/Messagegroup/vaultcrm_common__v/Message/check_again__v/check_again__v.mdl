@@ -1,0 +1,6 @@
+Message check_again__v (
+   label(),
+   active(true),
+   default_value('Check Again'),
+   system_managed(false)
+);

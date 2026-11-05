@@ -1,0 +1,6 @@
+Picklistentry at-7__v (
+   value('Tirol'),
+   order(127),
+   active(true),
+   controlling_entries('at__v')
+);

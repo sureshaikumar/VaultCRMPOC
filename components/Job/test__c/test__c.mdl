@@ -1,0 +1,22 @@
+RECREATE Job test__c (
+   active(true),
+   active_after_clone(true),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   Flashreportjobaction(@Flashreportjobaction/test__c.mdl),
+   hourly_interval(),
+   label('test__c'),
+   month_repeat_type(),
+   owner('user:User.rahul.h.kapoor@sb-accenture.com'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   time('0:00'),
+   timezone('America/New_York'),
+   trigger_date(),
+   type('BaseJobType.flash_report__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

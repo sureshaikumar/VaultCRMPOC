@@ -1,0 +1,6 @@
+Message unique_workday_id__v (
+   label(),
+   active(true),
+   default_value('Another Roster Member in Workday Org ${wd_org} has Workday ID ${wd_id}. Please set a unique Workday ID.'),
+   system_managed(false)
+);

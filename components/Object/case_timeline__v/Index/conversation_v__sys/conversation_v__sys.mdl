@@ -1,0 +1,5 @@
+Index conversation_v__sys (
+   description(),
+   fields('conversation__v'),
+   label('Conversation')
+);

@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved__v.change_state_to_feedback_review__v (
+   label('Change State to Feedback Review'),
+   rule(@rule.xml),
+   order(1000)
+);

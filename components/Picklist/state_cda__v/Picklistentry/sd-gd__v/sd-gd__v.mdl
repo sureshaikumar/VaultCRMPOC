@@ -1,0 +1,6 @@
+Picklistentry sd-gd__v (
+   value('Gedaref'),
+   order(3933),
+   active(true),
+   controlling_entries('sd__v')
+);

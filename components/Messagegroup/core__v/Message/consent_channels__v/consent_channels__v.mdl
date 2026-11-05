@@ -1,0 +1,6 @@
+Message consent_channels__v (
+   label(),
+   active(true),
+   default_value('Consent Channels'),
+   system_managed(false)
+);

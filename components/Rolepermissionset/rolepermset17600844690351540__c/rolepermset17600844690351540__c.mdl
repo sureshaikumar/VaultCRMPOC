@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17600844690351540__c (
+   label('Coordinator'),
+   active(true),
+   application_role('coordinator__c'),
+   permission_sets('Permissionset.account_search_fields__c')
+);

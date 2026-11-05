@@ -1,0 +1,5 @@
+Picklistentry destroyed__v (
+   value('Destroyed'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,15 @@
+Fieldrule deleted_in_source__v (
+   label('Deleted in Source?'),
+   active(true),
+   query_object('indication__v'),
+   query_field('deleted_in_source__v'),
+   target_object('Object.indication__v'),
+   target_object_field('Field.deleted_in_source__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default('false'),
+   query_field_select(),
+   query_field_type('vobject_boolean__sys'),
+   target_field_lookup()
+);

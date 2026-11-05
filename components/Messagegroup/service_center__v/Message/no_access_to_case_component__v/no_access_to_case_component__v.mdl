@@ -1,0 +1,6 @@
+Message no_access_to_case_component__v (
+   label(),
+   active(true),
+   default_value('You do not have access to the ${object_label} for the case you have selected. Resolve the access restriction to proceed.'),
+   system_managed(false)
+);

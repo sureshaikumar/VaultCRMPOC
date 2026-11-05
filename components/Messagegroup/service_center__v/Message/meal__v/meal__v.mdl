@@ -1,0 +1,6 @@
+Message meal__v (
+   label(),
+   active(true),
+   default_value('Meal'),
+   system_managed(false)
+);

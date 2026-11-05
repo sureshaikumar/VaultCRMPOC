@@ -1,0 +1,5 @@
+Picklistentry check_in_not_available__v (
+   value('Check-In: Not Available'),
+   order(1),
+   active(true)
+);

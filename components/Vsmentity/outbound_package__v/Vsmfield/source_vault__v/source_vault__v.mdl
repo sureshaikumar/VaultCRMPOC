@@ -1,0 +1,14 @@
+Vsmfield source_vault__v (
+   label('Source Vault'),
+   active(true),
+   description('Numeric identifier of the Vault instance from which this outbound package was created and exported. Use to trace a package back to its originating environment, especially when managing deployments across multiple vaults.'),
+   example_values(),
+   synonyms('source',
+         'origin vault',
+         'from vault',
+         'source environment'),
+   target('source_vault__v'),
+   target_label('Source Vault'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

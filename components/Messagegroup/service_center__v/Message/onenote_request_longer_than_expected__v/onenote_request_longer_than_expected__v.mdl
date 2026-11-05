@@ -1,0 +1,6 @@
+Message onenote_request_longer_than_expected__v (
+   label(),
+   active(true),
+   default_value('The request for OneNote is taking longer than expected.'),
+   system_managed(false)
+);

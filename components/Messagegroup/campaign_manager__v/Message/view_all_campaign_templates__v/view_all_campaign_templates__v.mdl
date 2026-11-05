@@ -1,0 +1,6 @@
+Message view_all_campaign_templates__v (
+   label(),
+   active(true),
+   default_value('View All Campaign Templates'),
+   system_managed(false)
+);

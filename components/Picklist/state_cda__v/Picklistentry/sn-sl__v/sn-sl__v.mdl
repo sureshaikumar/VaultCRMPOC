@@ -1,0 +1,6 @@
+Picklistentry sn-sl__v (
+   value('Saint-Louis'),
+   order(4219),
+   active(true),
+   controlling_entries('sn__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry severity_normal__v (
+   value('Normal'),
+   order(1),
+   active(true)
+);

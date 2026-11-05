@@ -1,0 +1,6 @@
+Message refine_territory_search__v (
+   label(),
+   active(true),
+   default_value('Your search results in displaying more than 10,000 territories. Please refine the search parameters and search again.'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field timing_measure__v (
+   label('Timing Measure'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(48),
+   multi_value(false),
+   picklist('Picklist.em_event_rule_timing_measure__v'),
+   default_value('{hours__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

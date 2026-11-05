@@ -1,0 +1,6 @@
+Message last_touch_help_text__v (
+   label(),
+   active(true),
+   default_value('Last Time Contacted'),
+   system_managed(false)
+);

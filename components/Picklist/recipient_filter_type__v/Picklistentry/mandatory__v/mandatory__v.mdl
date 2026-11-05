@@ -1,0 +1,5 @@
+Picklistentry mandatory__v (
+   value('Mandatory'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry scxhe__v (
+   value('School Health'),
+   order(1760),
+   active(true),
+   controlling_entries('se__v')
+);

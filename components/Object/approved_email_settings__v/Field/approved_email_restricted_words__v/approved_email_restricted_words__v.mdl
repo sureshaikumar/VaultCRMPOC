@@ -1,0 +1,20 @@
+Field approved_email_restricted_words__v (
+   label('Approved Email Restricted Words'),
+   type('String'),
+   active(true),
+   description('Filters on words or phrases entered in a free text field on an email template. When there''s a match, a visible error is displayed and the email cannot be sent. Double semi-colon is the delimiter, eg: test;;test2;;this is a phrase'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('"APPROVED_EMAIL_RESTRICTED_WORDS;;ApprovedEmail"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

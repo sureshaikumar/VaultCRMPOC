@@ -1,0 +1,22 @@
+Field buckets__v (
+   label('Buckets'),
+   type('Number'),
+   active(true),
+   description('Buckets corresponds to the number of sales data buckets for the Analytics File that will be processed with this data template.  For example, a Monthly file with 2 years worth of data will have a value of 24 for this field.'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

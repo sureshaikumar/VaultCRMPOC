@@ -1,0 +1,9 @@
+Vsmvalue adp__v (
+   label('ADP'),
+   active(true),
+   description('The Andorran Peseta (ADP), a former currency of Andorra used prior to the adoption of the Euro.'),
+   synonyms('Andorran peseta',
+         'Andorra currency'),
+   target('adp__sys'),
+   target_label('ADP')
+);

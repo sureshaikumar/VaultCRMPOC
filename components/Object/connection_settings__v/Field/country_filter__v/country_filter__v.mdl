@@ -1,0 +1,18 @@
+Field country_filter__v (
+   label('Country Filter'),
+   type('Picklist'),
+   active(true),
+   description('Content and records assigned to these countries in the source Vault will sync to Vault CRM.'),
+   required(false),
+   unique(false),
+   help_content('Content and records assigned to these countries in the source Vault will sync to Vault CRM.'),
+   list_column(false),
+   order(10),
+   multi_value(true),
+   picklist('Picklist.country_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

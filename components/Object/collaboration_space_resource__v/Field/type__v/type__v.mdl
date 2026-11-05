@@ -1,0 +1,18 @@
+Field type__v (
+   label('Type'),
+   type('Picklist'),
+   active(true),
+   description('Tracks the type of Team or Channel from Microsoft'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.microsoft_resource_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

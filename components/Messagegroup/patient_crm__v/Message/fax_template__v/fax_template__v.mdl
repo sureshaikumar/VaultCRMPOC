@@ -1,0 +1,6 @@
+Message fax_template__v (
+   label(),
+   active(true),
+   default_value('Fax Template'),
+   system_managed(false)
+);

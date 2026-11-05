@@ -1,0 +1,6 @@
+Picklistentry cz-327__v (
+   value('Tachov'),
+   order(842),
+   active(true),
+   controlling_entries('cz__v')
+);

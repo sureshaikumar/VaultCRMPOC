@@ -1,0 +1,6 @@
+Message go_to_main_app__v (
+   label(),
+   active(true),
+   default_value('Go to Main App'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry fr-pf__v (
+   value('Polynésie française'),
+   order(1435),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ve-g__v (
+   value('Carabobo'),
+   order(4893),
+   active(true),
+   controlling_entries('ve__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-419__v (
+   value('Kiruhura'),
+   order(4761),
+   active(true),
+   controlling_entries('ug__v')
+);

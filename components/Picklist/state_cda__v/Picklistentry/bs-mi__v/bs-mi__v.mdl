@@ -1,0 +1,6 @@
+Picklistentry bs-mi__v (
+   value('Moores Island'),
+   order(497),
+   active(true),
+   controlling_entries('bs__v')
+);

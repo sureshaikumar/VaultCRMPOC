@@ -1,0 +1,19 @@
+Field spend_amount__c (
+   label('Spend Amount'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('This field can be used by Spend_Status_Value_vod__c to determine the aggregate spend threshold.'),
+   list_column(false),
+   order(87),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

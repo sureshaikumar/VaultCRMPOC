@@ -1,0 +1,6 @@
+Message territory_footprint_start_date_err__v (
+   label(),
+   active(true),
+   default_value('Territory Footprint start date cannot be less than {0}.'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_insight__v.unsubmit__v (
+   label('Unsubmit'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.keymedicalinsights.actions.MedicalInsightSubmittedRecordUnsubmitAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry th-56__v (
+   value('Phayao'),
+   order(4372),
+   active(true),
+   controlling_entries('th__v')
+);

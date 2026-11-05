@@ -1,0 +1,6 @@
+Message no_ms_teams_meeting_attendance__v (
+   label(),
+   active(true),
+   default_value('No Microsoft Teams meeting attendance'),
+   system_managed(false)
+);

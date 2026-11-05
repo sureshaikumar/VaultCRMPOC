@@ -1,0 +1,6 @@
+Picklistentry et-am__v (
+   value('Amara'),
+   order(1262),
+   active(true),
+   controlling_entries('et__v')
+);

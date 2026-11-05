@@ -1,0 +1,6 @@
+Picklistentry ma-kho__v (
+   value('Khouribga'),
+   order(2813),
+   active(true),
+   controlling_entries('ma__v')
+);

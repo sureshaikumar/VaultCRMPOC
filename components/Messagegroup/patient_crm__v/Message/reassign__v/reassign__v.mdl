@@ -1,0 +1,6 @@
+Message reassign__v (
+   label(),
+   active(true),
+   default_value('Reassign'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry es-le__v (
+   value('León'),
+   order(1226),
+   active(true),
+   controlling_entries('es__v')
+);

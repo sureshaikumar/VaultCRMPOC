@@ -1,0 +1,6 @@
+Picklistentry fr-pac__v (
+   value('Provence-Alpes-Côte-d’Azur'),
+   order(1433),
+   active(true),
+   controlling_entries('fr__v')
+);

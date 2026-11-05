@@ -1,0 +1,6 @@
+Picklistentry sm-09__v (
+   value('Serravalle'),
+   order(4208),
+   active(true),
+   controlling_entries('sm__v')
+);

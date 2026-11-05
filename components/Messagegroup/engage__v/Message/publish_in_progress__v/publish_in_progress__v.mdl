@@ -1,0 +1,6 @@
+Message publish_in_progress__v (
+   label(),
+   active(true),
+   default_value('Publishing is in progress.'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field media_preview__v (
+   label('Preview Session'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Specifies that the content was viewed from Media Preview'),
+   list_column(false),
+   order(26),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

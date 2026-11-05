@@ -1,0 +1,5 @@
+Picklistentry kaw (
+   value('Kawi'),
+   order(218),
+   active(true)
+);

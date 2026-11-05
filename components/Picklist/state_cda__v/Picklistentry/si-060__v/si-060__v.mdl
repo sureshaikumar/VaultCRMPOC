@@ -1,0 +1,6 @@
+Picklistentry si-060__v (
+   value('Litija'),
+   order(4034),
+   active(true),
+   controlling_entries('si__v')
+);

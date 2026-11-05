@@ -1,0 +1,6 @@
+Picklistentry qa-us__v (
+   value('Umm Şalāl'),
+   order(3713),
+   active(true),
+   controlling_entries('qa__v')
+);

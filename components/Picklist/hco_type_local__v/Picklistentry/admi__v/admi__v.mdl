@@ -1,0 +1,5 @@
+Picklistentry admi__v (
+   value('Administration'),
+   order(2),
+   active(true)
+);

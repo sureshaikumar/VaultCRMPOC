@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction staged_state__v.update_consent_line_staged__v (
+   rule(@rule.xml),
+   order(1000)
+);

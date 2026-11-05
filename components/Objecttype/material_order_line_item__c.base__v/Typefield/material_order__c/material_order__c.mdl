@@ -1,0 +1,4 @@
+Typefield material_order__c (
+   source('standard'),
+   required(true)
+);

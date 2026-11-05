@@ -1,0 +1,6 @@
+Message deployment_failed__v (
+   label(),
+   active(true),
+   default_value('Deployment failed on ${value}.'),
+   system_managed(false)
+);

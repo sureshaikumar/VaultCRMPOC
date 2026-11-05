@@ -1,0 +1,19 @@
+Field invitee_locale__v (
+   label('Invitee Locale'),
+   type('String'),
+   active(true),
+   description('Stores the Locale of the Invitee. When meeting requests are submitted through the Engage Scheduling Site, this field is stamped with the Locale of the Invitee who received the original scheduling email.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

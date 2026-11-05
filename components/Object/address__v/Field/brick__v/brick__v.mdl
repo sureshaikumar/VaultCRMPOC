@@ -1,0 +1,19 @@
+Field brick__v (
+   label('Brick'),
+   type('String'),
+   active(true),
+   description('The Brick that corresponds to the Address for use in International implementations.  The Brick value is utilized by the Territory Management process for alignments.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

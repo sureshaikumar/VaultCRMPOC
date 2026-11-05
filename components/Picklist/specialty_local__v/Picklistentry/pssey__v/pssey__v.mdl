@@ -1,0 +1,6 @@
+Picklistentry pssey__v (
+   value('Psychiatric Sexology'),
+   order(1608),
+   active(true),
+   controlling_entries('sk__v')
+);

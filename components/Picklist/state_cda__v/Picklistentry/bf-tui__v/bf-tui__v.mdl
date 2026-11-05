@@ -1,0 +1,6 @@
+Picklistentry bf-tui__v (
+   value('Tuy'),
+   order(367),
+   active(true),
+   controlling_entries('bf__v')
+);

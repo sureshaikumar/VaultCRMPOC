@@ -1,0 +1,6 @@
+Message error_saving_check_in_note__v (
+   label(),
+   active(true),
+   default_value('Error Saving Check-In Note'),
+   system_managed(false)
+);

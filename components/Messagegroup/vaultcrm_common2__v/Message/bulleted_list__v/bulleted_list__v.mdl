@@ -1,0 +1,6 @@
+Message bulleted_list__v (
+   label(),
+   active(true),
+   default_value('Bulleted List'),
+   system_managed(false)
+);

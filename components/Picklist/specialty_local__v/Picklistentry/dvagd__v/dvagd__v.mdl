@@ -1,0 +1,6 @@
+Picklistentry dvagd__v (
+   value('Dermatology Venereology Aesthetics Geriatric Dermatology'),
+   order(404),
+   active(true),
+   controlling_entries('id__v')
+);

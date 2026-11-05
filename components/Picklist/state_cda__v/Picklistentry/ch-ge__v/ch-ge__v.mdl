@@ -1,0 +1,6 @@
+Picklistentry ch-ge__v (
+   value('Geneva'),
+   order(634),
+   active(true),
+   controlling_entries('ch__v')
+);

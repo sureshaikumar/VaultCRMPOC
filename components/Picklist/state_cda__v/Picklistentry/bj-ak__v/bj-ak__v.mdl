@@ -1,0 +1,6 @@
+Picklistentry bj-ak__v (
+   value('Atakora'),
+   order(423),
+   active(true),
+   controlling_entries('bj__v')
+);

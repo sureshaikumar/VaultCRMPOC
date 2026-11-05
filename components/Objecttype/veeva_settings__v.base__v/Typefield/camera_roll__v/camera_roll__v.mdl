@@ -1,0 +1,4 @@
+Typefield camera_roll__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-ccg__v (
+   value('Causeway Coast and Glens'),
+   order(1481),
+   active(true),
+   controlling_entries('gb__v')
+);

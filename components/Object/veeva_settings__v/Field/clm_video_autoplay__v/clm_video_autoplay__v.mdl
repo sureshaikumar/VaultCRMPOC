@@ -1,0 +1,18 @@
+Field clm_video_autoplay__v (
+   label('CLM_VIDEO_AUTOPLAY'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This does not apply to videos embedded in HTML5 content.'),
+   list_column(false),
+   order(61),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

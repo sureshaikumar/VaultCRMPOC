@@ -1,0 +1,24 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.profiling_sheet__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="profiling_template__v" />
+            <vault:field reference="comment__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="number_of_changes__v" />
+            <vault:field reference="profiling_sheet_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

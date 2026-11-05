@@ -1,0 +1,18 @@
+Field clinical_trial_status__v (
+   label('Clinical Trial Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Picklist of trial statuses'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.clinical_trial_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

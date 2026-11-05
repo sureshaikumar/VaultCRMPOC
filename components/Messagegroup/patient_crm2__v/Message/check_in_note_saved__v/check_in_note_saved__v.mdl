@@ -1,0 +1,6 @@
+Message check_in_note_saved__v (
+   label(),
+   active(true),
+   default_value('Check-In Note Saved'),
+   system_managed(false)
+);

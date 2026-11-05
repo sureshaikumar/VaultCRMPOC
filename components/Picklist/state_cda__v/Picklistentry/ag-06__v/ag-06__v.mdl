@@ -1,0 +1,6 @@
+Picklistentry ag-06__v (
+   value('Saint Paul'),
+   order(51),
+   active(true),
+   controlling_entries('ag__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 35580__v (
+   value('New Ulm, MN Micropolitan Statistical Area'),
+   order(291),
+   active(true)
+);

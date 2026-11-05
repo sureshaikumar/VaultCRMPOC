@@ -1,0 +1,23 @@
+RECREATE Objecttype cdn_distribution_status__v.base__v (
+   label('Base CDN Distribution Status'),
+   label_plural('Base CDN Distribution Statuses'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/action__v.mdl),
+   Typefield(@Typefield/attempt_status__v.mdl),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/document__v.mdl),
+   Typefield(@Typefield/environment__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/status__v.mdl)
+);

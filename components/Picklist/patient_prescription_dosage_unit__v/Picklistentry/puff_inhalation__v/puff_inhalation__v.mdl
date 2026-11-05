@@ -1,0 +1,5 @@
+Picklistentry puff_inhalation__v (
+   value('Puff/Inhalation'),
+   order(8),
+   active(true)
+);

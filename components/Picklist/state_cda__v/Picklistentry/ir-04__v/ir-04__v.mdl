@@ -1,0 +1,6 @@
+Picklistentry ir-04__v (
+   value('Āz̄ārbāyjān-e Ghārbī'),
+   order(2056),
+   active(true),
+   controlling_entries('ir__v')
+);

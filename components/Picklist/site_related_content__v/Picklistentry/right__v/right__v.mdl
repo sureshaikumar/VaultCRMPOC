@@ -1,0 +1,5 @@
+Picklistentry right__v (
+   value('Right'),
+   order(1),
+   active(true)
+);

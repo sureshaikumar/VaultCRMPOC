@@ -1,0 +1,6 @@
+Message mccp_approval_rule_product_metric_crit__v (
+   label(),
+   active(true),
+   default_value('Product Metric Criteria'),
+   system_managed(false)
+);

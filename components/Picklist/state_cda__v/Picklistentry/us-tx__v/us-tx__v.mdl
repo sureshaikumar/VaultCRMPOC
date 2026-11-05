@@ -1,0 +1,6 @@
+Picklistentry us-tx__v (
+   value('Texas'),
+   order(4838),
+   active(true),
+   controlling_entries('us__v')
+);

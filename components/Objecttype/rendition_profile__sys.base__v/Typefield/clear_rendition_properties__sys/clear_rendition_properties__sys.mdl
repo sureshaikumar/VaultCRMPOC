@@ -1,0 +1,4 @@
+Typefield clear_rendition_properties__sys (
+   source('standard'),
+   required(false)
+);

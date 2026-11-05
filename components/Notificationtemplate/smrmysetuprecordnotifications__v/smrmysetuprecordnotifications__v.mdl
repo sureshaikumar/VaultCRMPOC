@@ -1,0 +1,21 @@
+RECREATE Notificationtemplate smrmysetuprecordnotifications__v (
+   label('SmrMysetupRecordNotifications'),
+   active(true),
+   description('Smr Mysetup Record Notifications template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Document access granted'),
+   notification('<b>Document access has been granted based on the following record.</b>
+<br>
+<b>Details:</b>
+<br>
+${mysetupRecordDetails}'),
+   email_body('<b>Document access has been granted based on the following record.</b>
+<br>
+<b>Details:</b>
+<br>
+${mysetupRecordDetails}
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

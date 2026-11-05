@@ -1,0 +1,5 @@
+Picklistentry sm__v (
+   value('San Marino'),
+   order(204),
+   active(true)
+);

@@ -1,0 +1,10 @@
+Vsmvalue xfo__v (
+   label('XFO'),
+   active(true),
+   description('Used for legacy international railway settlement transactions denominated in the Gold Franc (UIC), a historical unit used by the International Union of Railways.'),
+   synonyms('Gold franc',
+         'UIC franc',
+         'rail settlement franc'),
+   target('xfo__sys'),
+   target_label('XFO')
+);

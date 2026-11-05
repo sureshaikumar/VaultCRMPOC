@@ -1,0 +1,6 @@
+Picklistentry bf-sen__v (
+   value('Séno'),
+   order(360),
+   active(true),
+   controlling_entries('bf__v')
+);

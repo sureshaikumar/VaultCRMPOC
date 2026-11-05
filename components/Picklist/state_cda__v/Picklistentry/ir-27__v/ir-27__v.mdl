@@ -1,0 +1,6 @@
+Picklistentry ir-27__v (
+   value('Golestān'),
+   order(2079),
+   active(true),
+   controlling_entries('ir__v')
+);

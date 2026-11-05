@@ -1,0 +1,6 @@
+Picklistentry imagn__v (
+   value('Internal Medicine and Gastroenterology'),
+   order(787),
+   active(true),
+   controlling_entries('de__v')
+);

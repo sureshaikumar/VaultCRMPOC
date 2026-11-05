@@ -1,0 +1,6 @@
+Message delete_attachment_header__v (
+   label(),
+   active(true),
+   default_value('Deleting "${attachment_name}"'),
+   system_managed(false)
+);

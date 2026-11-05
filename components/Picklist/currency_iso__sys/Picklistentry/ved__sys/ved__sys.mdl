@@ -1,0 +1,5 @@
+Picklistentry ved__sys (
+   value('VED'),
+   order(197),
+   active(true)
+);

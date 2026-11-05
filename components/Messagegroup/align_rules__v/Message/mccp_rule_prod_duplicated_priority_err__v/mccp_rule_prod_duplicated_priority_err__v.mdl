@@ -1,0 +1,6 @@
+Message mccp_rule_prod_duplicated_priority_err__v (
+   label(),
+   active(true),
+   default_value('Product groups under cycle product {0} contains duplicated priorities {1}'),
+   system_managed(false)
+);

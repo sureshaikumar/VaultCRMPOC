@@ -1,0 +1,6 @@
+Picklistentry uz-qa__v (
+   value('Qashqadaryo'),
+   order(4873),
+   active(true),
+   controlling_entries('uz__v')
+);

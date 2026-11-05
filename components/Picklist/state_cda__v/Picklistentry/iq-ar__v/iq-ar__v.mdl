@@ -1,0 +1,6 @@
+Picklistentry iq-ar__v (
+   value('Arbīl'),
+   order(2034),
+   active(true),
+   controlling_entries('iq__v')
+);

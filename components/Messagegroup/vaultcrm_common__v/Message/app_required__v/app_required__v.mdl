@@ -1,0 +1,6 @@
+Message app_required__v (
+   label(),
+   active(true),
+   default_value('${app_label} App Required'),
+   system_managed(false)
+);

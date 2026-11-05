@@ -1,0 +1,6 @@
+Picklistentry si-157__v (
+   value('Dolenjske Toplice'),
+   order(4130),
+   active(true),
+   controlling_entries('si__v')
+);

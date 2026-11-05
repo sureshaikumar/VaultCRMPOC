@@ -1,0 +1,6 @@
+Message select_type__v (
+   label(),
+   active(true),
+   default_value('Select Type'),
+   system_managed(false)
+);

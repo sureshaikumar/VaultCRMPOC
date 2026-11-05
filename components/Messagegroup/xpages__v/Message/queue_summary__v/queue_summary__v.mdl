@@ -1,0 +1,6 @@
+Message queue_summary__v (
+   label(),
+   active(true),
+   default_value('Queue Summary'),
+   system_managed(false)
+);

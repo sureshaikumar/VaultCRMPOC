@@ -1,0 +1,5 @@
+Picklistentry 32940__v (
+   value('Meridian, MS Micropolitan Statistical Area'),
+   order(841),
+   active(true)
+);

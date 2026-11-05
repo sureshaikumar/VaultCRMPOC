@@ -1,0 +1,6 @@
+Picklistentry lr-bm__v (
+   value('Bomi'),
+   order(2595),
+   active(true),
+   controlling_entries('lr__v')
+);

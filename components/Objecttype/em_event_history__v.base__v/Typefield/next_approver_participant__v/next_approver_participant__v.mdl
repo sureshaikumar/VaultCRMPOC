@@ -1,0 +1,4 @@
+Typefield next_approver_participant__v (
+   source('standard'),
+   required(false)
+);

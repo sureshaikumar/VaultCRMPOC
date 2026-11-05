@@ -1,0 +1,4 @@
+Typefield sent_message_external_id__v (
+   source('custom'),
+   required(false)
+);

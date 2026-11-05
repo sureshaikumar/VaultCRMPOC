@@ -1,0 +1,6 @@
+Picklistentry et-so__v (
+   value('Somali'),
+   order(1270),
+   active(true),
+   controlling_entries('et__v')
+);

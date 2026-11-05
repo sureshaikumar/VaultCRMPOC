@@ -1,0 +1,6 @@
+Message no_consent_channels_to_display__v (
+   label(),
+   active(true),
+   default_value('No consent channels to display'),
+   system_managed(false)
+);

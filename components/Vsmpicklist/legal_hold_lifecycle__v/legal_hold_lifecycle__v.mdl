@@ -1,0 +1,16 @@
+RECREATE Vsmpicklist legal_hold_lifecycle__v (
+   label('Legal Hold Lifecycle'),
+   active(true),
+   description('Defines the lifecycle states of Legal Holds, tracking their progression from initiation through release to support litigation, compliance, or regulatory preservation requirements.'),
+   synonyms('legal hold workflow',
+      'litigation hold lifecycle',
+      'hold status stages',
+      'legal preservation workflow',
+      'hold process states'),
+   target('Objectlifecycle.legal_hold_lifecycle__v'),
+   target_label('Legal Hold Lifecycle'),
+   Vsmvalue(@Vsmvalue/approved_state__v.mdl),
+   Vsmvalue(@Vsmvalue/draft_state__v.mdl),
+   Vsmvalue(@Vsmvalue/inactive_state__v.mdl),
+   Vsmvalue(@Vsmvalue/lifted_state__v.mdl)
+);

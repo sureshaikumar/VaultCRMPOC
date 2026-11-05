@@ -1,0 +1,5 @@
+Picklistentry external_schedule_conflict__v (
+   value('External Schedule Conflict'),
+   order(1),
+   active(true)
+);

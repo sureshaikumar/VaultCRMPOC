@@ -1,0 +1,4 @@
+Typefield study_recruitment_status__v (
+   source('standard'),
+   required(false)
+);

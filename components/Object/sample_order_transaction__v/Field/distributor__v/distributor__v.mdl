@@ -1,0 +1,19 @@
+Field distributor__v (
+   label('Distributor'),
+   type('String'),
+   active(true),
+   description('The Distributor stores the name of the Distribution company that will deliver the Samples to the requesting Physician.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

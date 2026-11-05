@@ -1,0 +1,6 @@
+Message no_patient_journeys_body__v (
+   label(),
+   active(true),
+   default_value('Patient Journey Information will appear here'),
+   system_managed(false)
+);

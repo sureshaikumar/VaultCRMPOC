@@ -1,0 +1,18 @@
+Field event_speaker_country__v (
+   label('Event Speaker Country'),
+   type('Picklist'),
+   active(true),
+   description('Event Speaker Country'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(28),
+   multi_value(false),
+   picklist('Picklist.country_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

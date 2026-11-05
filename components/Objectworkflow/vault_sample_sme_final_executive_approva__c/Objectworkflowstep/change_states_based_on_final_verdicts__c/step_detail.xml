@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1536555747607">
+      <expression operator="function" qualifier="platform.all.documentVerdictCondition">
+        <expression operator="method" qualifier="platform.all.documentVerdictCondition" type="string">
+          <value>all_labels</value>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP1</value>
+          <expression operator="argument" type="string">
+            <value>Objectworkflowstep.final_executive_approval__c</value>
+          </expression>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP2</value>
+          <expression operator="argument" type="string">
+            <value>Approve</value>
+          </expression>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP3</value>
+          <expression operator="argument" type="string">
+            <value>en</value>
+          </expression>
+        </expression>
+      </expression>
+      <actions>
+        <action type="workflowContentAction.base.changeContentStateAction">
+          <stateType>base:workflow:multidoc_approved</stateType>
+        </action>
+      </actions>
+    </vwf:rule>
+    <vwf:rule key="nt-1-1536555810179">
+      <expression operator="function" qualifier="platform.all.documentVerdictCondition">
+        <expression operator="method" qualifier="platform.all.documentVerdictCondition" type="string">
+          <value>any_label</value>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP1</value>
+          <expression operator="argument" type="string">
+            <value>Objectworkflowstep.final_executive_approval__c</value>
+          </expression>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP2</value>
+          <expression operator="argument" type="string">
+            <value>Reject</value>
+          </expression>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP3</value>
+          <expression operator="argument" type="string">
+            <value>en</value>
+          </expression>
+        </expression>
+      </expression>
+      <actions>
+        <action type="workflowContentAction.base.changeContentStateAction">
+          <stateType>base:workflow:multidoc_rejected</stateType>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

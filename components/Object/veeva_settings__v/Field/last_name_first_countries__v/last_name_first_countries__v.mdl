@@ -1,0 +1,18 @@
+Field last_name_first_countries__v (
+   label('Last Name First Countries'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Enables Account Name stamping from First Name Last Name to Last Name First Name for specific countries in this setting.'),
+   list_column(false),
+   order(344),
+   multi_value(true),
+   picklist('Picklist.country_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

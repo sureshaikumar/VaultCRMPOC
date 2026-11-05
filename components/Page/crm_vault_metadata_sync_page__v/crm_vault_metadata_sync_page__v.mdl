@@ -1,0 +1,14 @@
+RECREATE Page crm_vault_metadata_sync_page__v (
+   label('CRM Vault Metadata Sync'),
+   active(true),
+   client_distribution(),
+   default_client_code(),
+   description('CRM Vault Metadata Sync Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.mcsettings.controls.page.CrmVaultMetadataSyncPageController'),
+   url_path_name('crm-vault-metadata-sync')
+);

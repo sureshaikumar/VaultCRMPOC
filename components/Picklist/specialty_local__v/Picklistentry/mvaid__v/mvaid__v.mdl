@@ -1,0 +1,6 @@
+Picklistentry mvaid__v (
+   value('Microbiology, Virology and Infectious Disease Epidemiology'),
+   order(967),
+   active(true),
+   controlling_entries('de__v')
+);

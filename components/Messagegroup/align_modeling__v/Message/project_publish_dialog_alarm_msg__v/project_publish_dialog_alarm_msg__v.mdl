@@ -1,0 +1,6 @@
+Message project_publish_dialog_alarm_msg__v (
+   label(),
+   active(true),
+   default_value('These objects and their child records will be published to production'),
+   system_managed(false)
+);

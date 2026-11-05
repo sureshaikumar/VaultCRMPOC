@@ -1,0 +1,6 @@
+Message unable_to_use_patient_journey_because__v (
+   label(),
+   active(true),
+   default_value('Unable to use the Patient Journey because it is not fully configured. Please contact your administrator.'),
+   system_managed(false)
+);

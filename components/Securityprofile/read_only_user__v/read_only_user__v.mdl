@@ -1,0 +1,6 @@
+RECREATE Securityprofile read_only_user__v (
+   label('Read-only User'),
+   active(false),
+   description('System provided security profile for Read-only Users. Users with this profile have read only access to the Vault.'),
+   permission_sets('read_only_user_actions__v')
+);

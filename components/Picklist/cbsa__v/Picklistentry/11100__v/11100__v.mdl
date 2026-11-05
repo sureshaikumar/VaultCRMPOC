@@ -1,0 +1,5 @@
+Picklistentry 11100__v (
+   value('Amarillo, TX Metropolitan Statistical Area'),
+   order(617),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_num_of_geographies__v (
+   label(),
+   active(true),
+   default_value('Number of Geographies'),
+   system_managed(false)
+);

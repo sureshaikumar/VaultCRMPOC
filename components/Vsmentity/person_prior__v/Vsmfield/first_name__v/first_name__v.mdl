@@ -1,0 +1,12 @@
+Vsmfield first_name__v (
+   label('First Name'),
+   active(true),
+   description('The prior first name of the person as it existed before a name change. Useful for locating records when a person''s name has been updated and the previous value needs to be referenced.'),
+   example_values(),
+   synonyms('given name',
+         'forename'),
+   target('first_name__sys'),
+   target_label('First Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

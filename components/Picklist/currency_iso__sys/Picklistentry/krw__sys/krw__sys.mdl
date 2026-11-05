@@ -1,0 +1,5 @@
+Picklistentry krw__sys (
+   value('KRW'),
+   order(99),
+   active(true)
+);

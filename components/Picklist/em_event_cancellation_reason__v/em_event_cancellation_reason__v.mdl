@@ -1,0 +1,12 @@
+RECREATE Picklist em_event_cancellation_reason__v (
+   label('Cancellation Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/low_rsvp__v.mdl),
+   Picklistentry(@Picklistentry/logistics_issues__v.mdl),
+   Picklistentry(@Picklistentry/budget__v.mdl),
+   Picklistentry(@Picklistentry/home_office_marketing__v.mdl),
+   Picklistentry(@Picklistentry/weather__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

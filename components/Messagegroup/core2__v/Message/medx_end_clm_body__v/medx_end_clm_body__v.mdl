@@ -1,0 +1,6 @@
+Message medx_end_clm_body__v (
+   label(),
+   active(true),
+   default_value('Any media previously presented has been captured. Do you want to end the Medical Interaction?'),
+   system_managed(false)
+);

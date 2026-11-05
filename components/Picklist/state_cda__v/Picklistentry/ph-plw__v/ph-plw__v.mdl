@@ -1,0 +1,6 @@
+Picklistentry ph-plw__v (
+   value('Palawan'),
+   order(3594),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 21980__v (
+   value('Fallon, NV Micropolitan Statistical Area'),
+   order(194),
+   active(true)
+);

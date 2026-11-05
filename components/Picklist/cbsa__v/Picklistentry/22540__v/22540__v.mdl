@@ -1,0 +1,5 @@
+Picklistentry 22540__v (
+   value('Fond du Lac, WI Metropolitan Statistical Area'),
+   order(199),
+   active(true)
+);

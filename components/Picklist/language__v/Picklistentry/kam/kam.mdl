@@ -1,0 +1,5 @@
+Picklistentry kam (
+   value('Kamba'),
+   order(211),
+   active(true)
+);

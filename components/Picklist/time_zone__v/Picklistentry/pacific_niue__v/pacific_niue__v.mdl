@@ -1,0 +1,5 @@
+Picklistentry pacific_niue__v (
+   value('Niue Time'),
+   order(62),
+   active(true)
+);

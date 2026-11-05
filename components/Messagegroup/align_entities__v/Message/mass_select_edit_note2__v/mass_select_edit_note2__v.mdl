@@ -1,0 +1,6 @@
+Message mass_select_edit_note2__v (
+   label(),
+   active(true),
+   default_value('New Field Values left blank will not override current field values.'),
+   system_managed(false)
+);

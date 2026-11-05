@@ -1,0 +1,6 @@
+Picklistentry otp_renominate__sys (
+   value('Renominate'),
+   order(142),
+   active(true),
+   controlling_entries('olc_speaker_nomination__sys')
+);

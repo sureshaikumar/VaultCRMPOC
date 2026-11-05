@@ -1,0 +1,10 @@
+Vsmvalue kzt__v (
+   label('KZT'),
+   active(true),
+   description('The Kazakhstani Tenge (KZT), the official currency of Kazakhstan, used for transactions, pricing, and financial records involving Kazakhstani markets.'),
+   synonyms('Kazakhstani tenge',
+         'Kazakhstan tenge',
+         'KZT'),
+   target('kzt__sys'),
+   target_label('KZT')
+);

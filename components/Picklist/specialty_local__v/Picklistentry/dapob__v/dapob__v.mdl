@@ -1,0 +1,6 @@
+Picklistentry dapob__v (
+   value('Development and Production of Biological Drugs, Pharmaceutical Biotechnology'),
+   order(413),
+   active(true),
+   controlling_entries('hu__v')
+);

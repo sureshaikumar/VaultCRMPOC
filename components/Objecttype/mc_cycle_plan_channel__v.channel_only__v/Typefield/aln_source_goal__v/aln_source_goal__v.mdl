@@ -1,0 +1,4 @@
+Typefield aln_source_goal__v (
+   source('standard'),
+   required(false)
+);

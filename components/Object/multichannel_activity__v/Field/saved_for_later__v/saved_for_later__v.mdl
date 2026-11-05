@@ -1,0 +1,18 @@
+Field saved_for_later__v (
+   label('Call Session'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the record can be associated to an Account to generate a Call Report'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(31),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

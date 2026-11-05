@@ -1,0 +1,6 @@
+Picklistentry si-178__v (
+   value('Selnica ob Dravi'),
+   order(4151),
+   active(true),
+   controlling_entries('si__v')
+);

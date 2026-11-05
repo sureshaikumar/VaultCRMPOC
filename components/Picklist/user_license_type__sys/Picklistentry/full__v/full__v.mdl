@@ -1,0 +1,5 @@
+Picklistentry full__v (
+   value('Full User'),
+   order(0),
+   active(true)
+);

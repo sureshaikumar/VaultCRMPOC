@@ -1,0 +1,6 @@
+Picklistentry eg-kb__v (
+   value('Al Qalyūbīyah'),
+   order(1172),
+   active(true),
+   controlling_entries('eg__v')
+);

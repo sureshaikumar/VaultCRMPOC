@@ -1,0 +1,6 @@
+Picklistentry th-81__v (
+   value('Krabi'),
+   order(4392),
+   active(true),
+   controlling_entries('th__v')
+);

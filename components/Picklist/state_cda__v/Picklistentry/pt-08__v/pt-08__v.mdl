@@ -1,0 +1,6 @@
+Picklistentry pt-08__v (
+   value('Faro'),
+   order(3661),
+   active(true),
+   controlling_entries('pt__v')
+);

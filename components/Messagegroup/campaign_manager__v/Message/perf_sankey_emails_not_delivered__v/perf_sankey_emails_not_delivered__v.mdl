@@ -1,0 +1,6 @@
+Message perf_sankey_emails_not_delivered__v (
+   label(),
+   active(true),
+   default_value('Emails Not Delivered'),
+   system_managed(false)
+);

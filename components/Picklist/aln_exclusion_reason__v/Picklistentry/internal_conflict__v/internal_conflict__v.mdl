@@ -1,0 +1,5 @@
+Picklistentry internal_conflict__v (
+   value('Internal Conflict'),
+   order(2),
+   active(true)
+);

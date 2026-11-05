@@ -1,0 +1,6 @@
+Typefield target_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.survey_target_type__v.accounts__v',
+         'Picklist.survey_target_type__v.child_accounts__v')
+);

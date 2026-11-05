@@ -1,0 +1,5 @@
+Picklistentry tjs__sys (
+   value('TJS'),
+   order(176),
+   active(true)
+);

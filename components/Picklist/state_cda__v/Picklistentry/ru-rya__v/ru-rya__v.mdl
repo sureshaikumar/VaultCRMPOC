@@ -1,0 +1,6 @@
+Picklistentry ru-rya__v (
+   value('Ryazanskaya oblast'''),
+   order(3846),
+   active(true),
+   controlling_entries('ru__v')
+);

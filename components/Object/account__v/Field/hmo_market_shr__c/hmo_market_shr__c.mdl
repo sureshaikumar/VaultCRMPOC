@@ -1,0 +1,22 @@
+Field hmo_market_shr__c (
+   label('HMO Market Shr'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999.999),
+   min_value(0),
+   scale(3),
+   help_content('Market Share for # Lives in the HMO offering at this account.  Used by MCO and MCO Plan accounts.'),
+   list_column(false),
+   order(44),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('Percent("0.#######%")'),
+   rollup(false),
+   control_binding()
+);

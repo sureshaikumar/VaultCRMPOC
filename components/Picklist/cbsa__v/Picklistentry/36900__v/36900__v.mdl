@@ -1,0 +1,5 @@
+Picklistentry 36900__v (
+   value('Ottumwa, IA Micropolitan Statistical Area'),
+   order(471),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry pexen__v (
+   value('Paediatric Endocrinology'),
+   order(1255),
+   active(true),
+   controlling_entries('ng__v')
+);

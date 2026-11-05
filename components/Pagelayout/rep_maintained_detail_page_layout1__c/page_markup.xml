@@ -1,0 +1,99 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.address__v.repmaintained__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="assmca__v" />
+            <vault:field reference="street_address_2_cda__v" />
+            <vault:field reference="appt_required__v" />
+            <vault:field reference="billing_cda__v" />
+            <vault:field reference="brick__v" />
+            <vault:field reference="business_cda__v" />
+            <vault:field reference="cds_expiration_date__v" />
+            <vault:field reference="cds_status__v" />
+            <vault:field reference="cds__v" />
+            <vault:field reference="city_cda__v" />
+            <vault:field reference="clear_gps_coordinates__v" />
+            <vault:field reference="comment__v" />
+            <vault:field reference="controlled_address__v" />
+            <vault:field reference="customer_master_status__v" />
+            <vault:field reference="dea_address__v" />
+            <vault:field reference="dea_expiration_date__v" />
+            <vault:field reference="dea_license_address__v" />
+            <vault:field reference="dea_schedule__v" />
+            <vault:field reference="dea_status__v" />
+            <vault:field reference="dea__v" />
+            <vault:field reference="entity_reference_id__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="fax_2__v" />
+            <vault:field reference="fax_cda__v" />
+            <vault:field reference="home_cda__v" />
+            <vault:field reference="inactive__v" />
+            <vault:field reference="include_in_territory_assignment__v" />
+            <vault:field reference="latitude_cda__v" />
+            <vault:field reference="license_expiration_date__v" />
+            <vault:field reference="license_status__v" />
+            <vault:field reference="license__v" />
+            <vault:field reference="lock__v" />
+            <vault:field reference="longitude_cda__v" />
+            <vault:field reference="mailing__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="network_assmca_entity_id__v" />
+            <vault:field reference="network_cds_entity_id__v" />
+            <vault:field reference="network_collab_agree_required__v" />
+            <vault:field reference="network_comp_prescriptive_authority__v" />
+            <vault:field reference="network_comp_sample_eligibility__v" />
+            <vault:field reference="network_ctrl_sub_prescriptive__v" />
+            <vault:field reference="network_ctrl_sub_sample_eligibility__v" />
+            <vault:field reference="network_dea_entity_id__v" />
+            <vault:field reference="network_distributor_entity_id__v" />
+            <vault:field reference="network_license_entity_id__v" />
+            <vault:field reference="network_license_grace_expiry__v" />
+            <vault:field reference="network_license_status_condition__v" />
+            <vault:field reference="network_rxa_eligible__v" />
+            <vault:field reference="network_sample_eligibility__v" />
+            <vault:field reference="no_address_copy__v" />
+            <vault:field reference="office_notes__v" />
+            <vault:field reference="phone_2__v" />
+            <vault:field reference="phone_cda__v" />
+            <vault:field reference="primary_cda__v" />
+            <vault:field reference="sample_send_status__v" />
+            <vault:field reference="shipping_cda__v" />
+            <vault:field reference="source__v" />
+            <vault:field reference="staff_notes__v" />
+            <vault:field reference="state_distributor_category__v" />
+            <vault:field reference="state_distributor_expiration_date__v" />
+            <vault:field reference="state_distributor_license_exempt__v" />
+            <vault:field reference="state_distributor_status__v" />
+            <vault:field reference="state_distributor__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="zip_4__v" />
+            <vault:field reference="postal_code_cda__v" />
+            <vault:field reference="license_valid_to_sample__v" />
+            <vault:field reference="sample_status__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="map__v" />
+            <vault:field reference="veeva_network_id__v" />
+            <vault:field reference="controlling_parent_account__v" />
+            <vault:field reference="controlling_address__v" />
+            <vault:field reference="best_times__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Office Best Times" name="office_best_times_section_control__c" reference="office_best_times_section_control__v" />
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Data Change Requests" name="data_change_requests__c">
+        <vault:relatedObject relationship="data_change_requests__vr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

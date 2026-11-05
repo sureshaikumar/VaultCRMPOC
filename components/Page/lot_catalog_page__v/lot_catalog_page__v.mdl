@@ -1,0 +1,14 @@
+RECREATE Page lot_catalog_page__v (
+   label('Lot Catalog'),
+   active(true),
+   client_distribution(),
+   default_client_code('lot_catalog_page__v'),
+   description('The Lot Catalog page allows Admins to view master lot records and create Sample Lot records for other users.'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.lotcatalog.controls.LotCatalogPageController'),
+   url_path_name('lot-catalog')
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_calcutta__sys (
+   value('(GMT+05:30) India Standard Time (Asia/Kolkata)'),
+   order(233),
+   active(true)
+);

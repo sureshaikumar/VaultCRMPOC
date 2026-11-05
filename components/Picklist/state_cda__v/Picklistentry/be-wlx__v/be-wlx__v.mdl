@@ -1,0 +1,6 @@
+Picklistentry be-wlx__v (
+   value('Luxembourg (Belgium)'),
+   order(313),
+   active(true),
+   controlling_entries('be__v')
+);

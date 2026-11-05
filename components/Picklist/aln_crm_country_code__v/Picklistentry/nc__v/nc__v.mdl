@@ -1,0 +1,5 @@
+Picklistentry nc__v (
+   value('New Caledonia'),
+   order(161),
+   active(true)
+);

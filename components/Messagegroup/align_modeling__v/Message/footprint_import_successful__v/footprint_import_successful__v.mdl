@@ -1,0 +1,6 @@
+Message footprint_import_successful__v (
+   label(),
+   active(true),
+   default_value('Footprint import completed'),
+   system_managed(false)
+);

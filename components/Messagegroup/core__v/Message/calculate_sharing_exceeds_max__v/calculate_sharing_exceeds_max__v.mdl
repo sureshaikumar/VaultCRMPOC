@@ -1,0 +1,6 @@
+Message calculate_sharing_exceeds_max__v (
+   label(),
+   active(true),
+   default_value('The desired user sharing exceeds the limit for "Max # of members per manually assigned role in a record" for this Vault. Please contact your System Administration.'),
+   system_managed(false)
+);

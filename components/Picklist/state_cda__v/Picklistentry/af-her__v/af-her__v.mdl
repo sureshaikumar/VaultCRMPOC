@@ -1,0 +1,6 @@
+Picklistentry af-her__v (
+   value('Herāt'),
+   order(25),
+   active(true),
+   controlling_entries('af__v')
+);

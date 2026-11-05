@@ -1,0 +1,4 @@
+Typefield account_external_id_map__v (
+   source('standard'),
+   required(false)
+);

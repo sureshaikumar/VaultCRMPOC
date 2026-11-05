@@ -1,0 +1,6 @@
+Picklistentry ldatu__v (
+   value('Lung Diseases and Tuberculosis'),
+   order(869),
+   active(true),
+   controlling_entries('nl__v')
+);

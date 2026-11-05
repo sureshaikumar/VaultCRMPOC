@@ -1,0 +1,5 @@
+Picklistentry rcel__v (
+   value('Regional Clinic'),
+   order(223),
+   active(true)
+);

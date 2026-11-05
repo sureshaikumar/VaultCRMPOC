@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate bindercreationcomplete__v (
+   label('binderCreationComplete'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" binder creation completed'),
+   notification('Your binder, <b>${docName}</b>, and all planned documents defined in the selected template are now available in Vault.'),
+   email_body('<p>${notificationMessage}</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

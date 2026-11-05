@@ -1,0 +1,8 @@
+Picklistentry facma__v (
+   value('Family and Community Medicine'),
+   order(529),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v',
+         'ph__v')
+);

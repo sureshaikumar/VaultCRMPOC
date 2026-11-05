@@ -1,0 +1,18 @@
+Field meal_opt_in__v (
+   label('Meal Opt-In'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field is used to indicate if an event attendee accepted a meal.'),
+   list_column(false),
+   order(23),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

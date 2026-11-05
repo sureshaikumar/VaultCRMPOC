@@ -1,0 +1,5 @@
+Picklistentry kpw__sys (
+   value('KPW'),
+   order(98),
+   active(true)
+);

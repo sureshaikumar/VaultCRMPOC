@@ -1,0 +1,17 @@
+Picklistentry aacil__v (
+   value('Allergology and Clinical Immunology'),
+   order(40),
+   active(true),
+   controlling_entries('ch__v',
+         'cz__v',
+         'fr__v',
+         'hr__v',
+         'hu__v',
+         'il__v',
+         'li__v',
+         'lt__v',
+         'mc__v',
+         'ro__v',
+         'rs__v',
+         'si__v')
+);

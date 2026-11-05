@@ -1,0 +1,6 @@
+Picklistentry csous__v (
+   value('Cosmetic Surgery'),
+   order(338),
+   active(true),
+   controlling_entries('ee__v')
+);

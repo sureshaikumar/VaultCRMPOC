@@ -1,0 +1,6 @@
+Typefield content_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.veeva_content_content_status__v.approved__v',
+         'Picklist.veeva_content_content_status__v.expired__v')
+);

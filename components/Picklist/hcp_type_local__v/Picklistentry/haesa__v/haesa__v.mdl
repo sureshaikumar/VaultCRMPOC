@@ -1,0 +1,5 @@
+Picklistentry haesa__v (
+   value('Healthcare Assistant'),
+   order(48),
+   active(true)
+);

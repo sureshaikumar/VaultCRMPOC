@@ -1,0 +1,5 @@
+Picklistentry 17660__v (
+   value('Coeur d''Alene, ID Metropolitan Statistical Area'),
+   order(34),
+   active(true)
+);

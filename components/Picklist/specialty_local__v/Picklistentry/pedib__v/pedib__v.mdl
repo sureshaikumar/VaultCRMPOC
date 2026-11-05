@@ -1,0 +1,6 @@
+Picklistentry pedib__v (
+   value('Pediatric'),
+   order(1305),
+   active(true),
+   controlling_entries('bh__v')
+);

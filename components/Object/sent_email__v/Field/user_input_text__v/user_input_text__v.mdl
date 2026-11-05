@@ -1,0 +1,17 @@
+Field user_input_text__v (
+   label('User Input Text'),
+   type('LongText'),
+   active(true),
+   description('All text that was input by the user in free text and rich text in the email'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

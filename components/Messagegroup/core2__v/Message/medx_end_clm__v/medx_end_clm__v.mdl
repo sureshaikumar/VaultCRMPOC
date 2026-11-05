@@ -1,0 +1,6 @@
+Message medx_end_clm__v (
+   label(),
+   active(true),
+   default_value('End Medical Interaction'),
+   system_managed(false)
+);

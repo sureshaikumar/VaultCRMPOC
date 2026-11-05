@@ -1,0 +1,6 @@
+Picklistentry za-gp__v (
+   value('Gauteng'),
+   order(5019),
+   active(true),
+   controlling_entries('za__v')
+);

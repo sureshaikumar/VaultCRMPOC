@@ -1,0 +1,5 @@
+Picklistentry pacific_auckland__v (
+   value('New Zealand Time'),
+   order(5),
+   active(true)
+);

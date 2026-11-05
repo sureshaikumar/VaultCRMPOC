@@ -1,0 +1,6 @@
+Picklistentry gb-rdg__v (
+   value('Reading'),
+   order(1604),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,14 @@
+RECREATE Page data_engine_admin_page__v (
+   label('Data Engine Administration Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('data_engine_administration_page__v'),
+   description('Data Engine Administration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.dataengine.admin.controls.DataEngineAdministrationPageController'),
+   url_path_name('data-engine-administration')
+);

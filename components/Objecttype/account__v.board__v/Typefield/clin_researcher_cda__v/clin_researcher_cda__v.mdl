@@ -1,0 +1,4 @@
+Typefield clin_researcher_cda__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message survey_review_required__v (
+   label(),
+   active(true),
+   default_value('Review Required'),
+   system_managed(false)
+);

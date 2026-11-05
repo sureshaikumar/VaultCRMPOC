@@ -1,0 +1,5 @@
+Picklistentry ptlm__v (
+   value('Laboratory Medicine'),
+   order(38),
+   active(true)
+);

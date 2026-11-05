@@ -1,0 +1,7 @@
+Picklistentry hseua__v (
+   value('Heart Surgery'),
+   order(680),
+   active(true),
+   controlling_entries('jo__v',
+         'lv__v')
+);

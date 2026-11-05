@@ -1,0 +1,14 @@
+Vsmrelationship person__v (
+   label('Person'),
+   active(true),
+   cardinality('ONE_TO_ONE'),
+   description('Links this prior (historical or duplicate) person record to the current active person__sys record it is associated with. Use this to navigate from a prior person entry to the canonical person record, for example: person__sysr.name__v = ''John Smith''.'),
+   join_object(),
+   synonyms('current person',
+         'linked person',
+         'active record',
+         'merged into'),
+   target('person__sysr'),
+   target_label('Person'),
+   target_object('person__sys')
+);

@@ -1,0 +1,14 @@
+RECREATE Vsmpicklist veevaid_vault_user_creation_status__v (
+   label('Veeva ID Vault User Creation Status'),
+   active(true),
+   description('Tracks the current status of a user account creation process within VeevaID for Vault, indicating where a user is in the provisioning lifecycle. Querying on Pending is most utilized to understand which users may require follow-up to complete their registration.'),
+   synonyms('Veeva ID user creation status',
+      'vault user provisioning status',
+      'user account creation state',
+      'Veeva ID onboarding status'),
+   target('Picklist.veevaid_vault_user_creation_status__sys'),
+   target_label('Veeva ID Vault User Creation Status'),
+   Vsmvalue(@Vsmvalue/complete__v.mdl),
+   Vsmvalue(@Vsmvalue/failed__v.mdl),
+   Vsmvalue(@Vsmvalue/pending__v.mdl)
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist pricing_rule_chain_rule_operator__v (
+   label('Chain Rule Operator'),
+   active(true),
+   Picklistentry(@Picklistentry/and__v.mdl),
+   Picklistentry(@Picklistentry/or__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

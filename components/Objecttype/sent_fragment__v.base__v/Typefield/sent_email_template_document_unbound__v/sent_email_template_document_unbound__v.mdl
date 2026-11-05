@@ -1,0 +1,4 @@
+Typefield sent_email_template_document_unbound__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry tm__v (
+   value('Turkmenistan'),
+   order(222),
+   active(true)
+);

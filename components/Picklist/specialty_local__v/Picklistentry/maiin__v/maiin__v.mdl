@@ -1,0 +1,6 @@
+Picklistentry maiin__v (
+   value('Microbiology and Immunology'),
+   order(962),
+   active(true),
+   controlling_entries('kw__v')
+);

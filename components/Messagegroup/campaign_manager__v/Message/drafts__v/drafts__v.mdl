@@ -1,0 +1,6 @@
+Message drafts__v (
+   label(),
+   active(true),
+   default_value('Drafts'),
+   system_managed(false)
+);

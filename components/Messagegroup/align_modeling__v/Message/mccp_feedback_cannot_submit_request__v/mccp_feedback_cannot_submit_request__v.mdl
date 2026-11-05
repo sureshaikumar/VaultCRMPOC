@@ -1,0 +1,6 @@
+Message mccp_feedback_cannot_submit_request__v (
+   label(),
+   active(true),
+   default_value('Cannot Submit Request'),
+   system_managed(false)
+);

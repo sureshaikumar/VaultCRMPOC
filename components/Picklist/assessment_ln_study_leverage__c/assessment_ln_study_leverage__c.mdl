@@ -1,0 +1,9 @@
+RECREATE Picklist assessment_ln_study_leverage__c (
+   label('LN Study Leverage'),
+   active(true),
+   Picklistentry(@Picklistentry/very_likely__c.mdl),
+   Picklistentry(@Picklistentry/somewhat_likely__c.mdl),
+   Picklistentry(@Picklistentry/unlikely__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

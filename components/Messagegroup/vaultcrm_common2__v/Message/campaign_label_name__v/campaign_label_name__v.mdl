@@ -1,0 +1,6 @@
+Message campaign_label_name__v (
+   label(),
+   active(true),
+   default_value('Campaign: ${campaign_name}'),
+   system_managed(false)
+);

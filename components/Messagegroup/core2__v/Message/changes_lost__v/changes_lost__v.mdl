@@ -1,0 +1,6 @@
+Message changes_lost__v (
+   label(),
+   active(true),
+   default_value('All changes will be lost. Continue to cancel?'),
+   system_managed(false)
+);

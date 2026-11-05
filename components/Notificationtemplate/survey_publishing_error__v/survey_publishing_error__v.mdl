@@ -1,0 +1,24 @@
+RECREATE Notificationtemplate survey_publishing_error__v (
+   label('Survey Publishing Error'),
+   active(true),
+   description('Notifies the user their survey publishing is not successful.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.survey__v'),
+   subject('Notification: Survey Publishing Job Encountered Errors'),
+   notification('Your survey publishing job has encountered an error.<br/>
+
+    Details: <br/>
+
+    Target Survey: "${Custom.survey_name}" <br/>
+    Error Messages: Errors encountered when attempting to publish "${Custom.survey_name}" Survey.
+    In your vault, visit Admin > Operations > Job Status to Download Log for Job ID "${Custom.job_id}" for more details.'),
+   email_body('Your survey publishing job has encountered an error.<br/>
+
+    Details: <br/>
+
+    Target Survey: "${Custom.survey_name}" <br/>
+    Error Messages: Errors encountered when attempting to publish "${Custom.survey_name}" Survey.
+    In your vault, visit Admin > Operations > Job Status to Download Log for Job ID "${Custom.job_id}" for more details.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Message cycle_plan_delete_target_title__v (
+   label(),
+   active(true),
+   default_value('Delete Target Accounts'),
+   system_managed(false)
+);

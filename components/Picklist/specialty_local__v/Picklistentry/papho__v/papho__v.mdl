@@ -1,0 +1,6 @@
+Picklistentry papho__v (
+   value('Pharmacology and Pharmacotherapy'),
+   order(1518),
+   active(true),
+   controlling_entries('bg__v')
+);

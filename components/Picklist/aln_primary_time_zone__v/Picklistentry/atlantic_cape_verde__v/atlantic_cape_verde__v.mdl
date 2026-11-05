@@ -1,0 +1,5 @@
+Picklistentry atlantic_cape_verde__v (
+   value('Atlantic/Cape_Verde'),
+   order(25),
+   active(true)
+);

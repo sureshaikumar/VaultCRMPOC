@@ -1,0 +1,5 @@
+Picklistentry moh__v (
+   value('Mohawk'),
+   order(223),
+   active(false)
+);

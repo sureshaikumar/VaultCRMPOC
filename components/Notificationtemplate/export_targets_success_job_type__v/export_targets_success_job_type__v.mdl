@@ -1,0 +1,28 @@
+RECREATE Notificationtemplate export_targets_success_job_type__v (
+   label('Export Targets Job Completed Success'),
+   active(true),
+   description('Notifies the user that the targets have been exported successfully'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.campaign__v'),
+   subject('Targets Have Been Exported Successfully - ${Custom.campaign_name}'),
+   notification('Your targets have been exported successfully<br/>
+    Details:<br/>
+    <ul>
+       <li>Campaign Name: ${Custom.campaign_name}</li>
+       <li>Successes: ${Custom.success_count}</li>
+       <li>Job Start Time: ${Custom.start_time}</li>
+       <li>Job Duration: ${Custom.duration}</li>
+       <li>${Custom.file_type} File: <a href=${uiBaseExtUrl}/proxy/jobs/${Custom.job_id}/sdk/${Custom.hyphenated_campaign_name}_Targets_${Custom.job_id}.${Custom.file_extension}?ttl=7>${Custom.hyphenated_campaign_name}_Targets_${Custom.job_id}.${Custom.file_extension}</a></li>
+    </ul>'),
+   email_body('Your targets have been exported successfully<br/>
+    Details:<br/>
+    <ul>
+       <li>Campaign Name: ${Custom.campaign_name}</li>
+       <li>Successes: ${Custom.success_count}</li>
+       <li>Job Start Time: ${Custom.start_time}</li>
+       <li>Job Duration: ${Custom.duration}</li>
+       <li>${Custom.file_type} File: <a href=${uiBaseExtUrl}/?campaign-name=${Custom.hyphenated_campaign_name}&job-id=${Custom.job_id}&file-extension=${Custom.file_extension}&job-type=${Custom.job_type}&tab-collection=campaign_manager__v#app/page/campaigns?ui-tab=${Custom.tab_id}>${Custom.hyphenated_campaign_name}_Targets_${Custom.job_id}.${Custom.file_extension}</a></li>
+    </ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

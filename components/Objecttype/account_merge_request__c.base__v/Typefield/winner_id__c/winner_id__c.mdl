@@ -1,0 +1,4 @@
+Typefield winner_id__c (
+   source('standard'),
+   required(false)
+);

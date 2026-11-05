@@ -1,0 +1,6 @@
+Picklistentry es-so__v (
+   value('Soria'),
+   order(1248),
+   active(true),
+   controlling_entries('es__v')
+);

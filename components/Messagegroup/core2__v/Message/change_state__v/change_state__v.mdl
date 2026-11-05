@@ -1,0 +1,6 @@
+Message change_state__v (
+   label(),
+   active(true),
+   default_value('Change Lifecycle State to ${to_state}'),
+   system_managed(false)
+);

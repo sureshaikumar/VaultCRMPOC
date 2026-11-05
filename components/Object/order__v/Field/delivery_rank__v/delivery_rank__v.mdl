@@ -1,0 +1,19 @@
+Field delivery_rank__v (
+   label('Delivery Rank'),
+   type('String'),
+   active(true),
+   description('Sorting value that represents the delivery rank in line split scenarios. Automatically populated on Delivery Orders.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

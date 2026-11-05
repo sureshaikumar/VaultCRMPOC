@@ -1,0 +1,6 @@
+Message add_sms_number_before_send_pres__v (
+   label(),
+   active(true),
+   default_value('Presentation cannot be sent through Chats. Add SMS number, including country code first.'),
+   system_managed(false)
+);

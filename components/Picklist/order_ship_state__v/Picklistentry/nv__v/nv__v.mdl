@@ -1,0 +1,5 @@
+Picklistentry nv__v (
+   value('NV'),
+   order(32),
+   active(true)
+);

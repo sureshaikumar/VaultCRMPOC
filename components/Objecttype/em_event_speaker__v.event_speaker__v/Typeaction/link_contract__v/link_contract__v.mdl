@@ -1,0 +1,3 @@
+Typeaction link_contract__v (
+   action('em_event_speaker__v.link_contract__v')
+);

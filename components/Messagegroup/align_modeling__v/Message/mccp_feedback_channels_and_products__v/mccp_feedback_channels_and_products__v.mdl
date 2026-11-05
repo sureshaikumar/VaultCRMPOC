@@ -1,0 +1,6 @@
+Message mccp_feedback_channels_and_products__v (
+   label(),
+   active(true),
+   default_value('Channels and Products'),
+   system_managed(false)
+);

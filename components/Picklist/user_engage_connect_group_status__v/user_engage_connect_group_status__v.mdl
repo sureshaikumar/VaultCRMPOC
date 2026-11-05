@@ -1,0 +1,14 @@
+RECREATE Picklist user_engage_connect_group_status__v (
+   label('Engage Connect Group Provisioning Status'),
+   active(true),
+   Picklistentry(@Picklistentry/success__v.mdl),
+   Picklistentry(@Picklistentry/user_not_in_connect__v.mdl),
+   Picklistentry(@Picklistentry/invalid_group_name__v.mdl),
+   Picklistentry(@Picklistentry/request_sent__v.mdl),
+   Picklistentry(@Picklistentry/request_failed__v.mdl),
+   Picklistentry(@Picklistentry/retry_request__v.mdl),
+   Picklistentry(@Picklistentry/user_create_failed__v.mdl),
+   Picklistentry(@Picklistentry/user_update_failed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

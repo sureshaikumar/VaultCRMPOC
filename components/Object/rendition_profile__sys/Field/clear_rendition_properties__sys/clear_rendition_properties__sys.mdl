@@ -1,0 +1,17 @@
+Field clear_rendition_properties__sys (
+   label('Remove properties from Renditions'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('If enabled, properties on all new Viewable Renditions will be removed.'),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

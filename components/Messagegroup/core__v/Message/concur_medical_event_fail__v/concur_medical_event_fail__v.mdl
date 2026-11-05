@@ -1,0 +1,6 @@
+Message concur_medical_event_fail__v (
+   label(),
+   active(true),
+   default_value('Medical Event Failures'),
+   system_managed(false)
+);

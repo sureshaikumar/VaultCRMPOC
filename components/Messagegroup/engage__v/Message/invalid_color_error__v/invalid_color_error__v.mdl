@@ -1,0 +1,6 @@
+Message invalid_color_error__v (
+   label(),
+   active(true),
+   default_value('Please enter a valid hexadecimal code.'),
+   system_managed(false)
+);

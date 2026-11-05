@@ -1,0 +1,11 @@
+RECREATE Pagelink account_create_pagelink__v (
+   label('Account Create'),
+   description('Redirect Account Creation to Account Create Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.account__v'),
+   active(true),
+   disable_type_select(true),
+   page('Page.account_create_page__v')
+);

@@ -1,0 +1,6 @@
+Message column_name__v (
+   label(),
+   active(true),
+   default_value('Column Name'),
+   system_managed(false)
+);

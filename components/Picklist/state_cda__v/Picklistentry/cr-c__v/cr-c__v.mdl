@@ -1,0 +1,6 @@
+Picklistentry cr-c__v (
+   value('Cartago'),
+   order(761),
+   active(true),
+   controlling_entries('cr__v')
+);

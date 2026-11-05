@@ -1,0 +1,12 @@
+Vsmvalue success__v (
+   label('SUCCESS'),
+   active(true),
+   description('Indicates the exception item was processed without any errors and no further action is required.'),
+   synonyms('completed',
+         'processed',
+         'no error',
+         'passed',
+         'resolved'),
+   target('success__sys'),
+   target_label('SUCCESS')
+);

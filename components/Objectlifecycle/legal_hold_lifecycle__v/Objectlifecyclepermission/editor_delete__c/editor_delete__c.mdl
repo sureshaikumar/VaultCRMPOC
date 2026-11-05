@@ -1,0 +1,8 @@
+Objectlifecyclepermission editor_delete__c (
+   states('Objectlifecyclestate.approved_state__v',
+         'Objectlifecyclestate.draft_state__v',
+         'Objectlifecyclestate.inactive_state__v',
+         'Objectlifecyclestate.lifted_state__v'),
+   role('Objectlifecyclerole.editor__v'),
+   permission('Delete')
+);

@@ -1,0 +1,23 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.opportunity_line__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="line_discount__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="list_price__v" />
+            <vault:field reference="net_amount__v" />
+            <vault:field reference="net_price__v" />
+            <vault:field reference="opportunity__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="quantity__v" />
+            <vault:field reference="product_identifier__v" />
+            <vault:field reference="mobile_id__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

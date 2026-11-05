@@ -1,0 +1,19 @@
+Field event_country_config__v (
+   label('Event Country Config'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content('Contains two parameters separated by a semicolon. The first is the default country used when creating an event using Veeva Event Management. The second is a number to indicate if the user should see the country picklist or not when creating an event. A va'),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

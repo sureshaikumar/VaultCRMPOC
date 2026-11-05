@@ -1,0 +1,18 @@
+Field primary_assignment_handling__v (
+   label('Primary Assignment Handling'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('''Validate Roster Members'' ensures a roster member can only have one primary assignment at a time. ''Validate Territories'' ensures a territory can only have one primary assignment at a time.'),
+   list_column(false),
+   order(32),
+   multi_value(true),
+   picklist('Picklist.aln_primary_assignment_handling__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

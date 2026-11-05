@@ -1,0 +1,5 @@
+Picklistentry sahu__v (
+   value('Sub-Acute Hospital'),
+   order(247),
+   active(true)
+);

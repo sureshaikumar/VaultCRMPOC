@@ -1,0 +1,20 @@
+Field therapeutic_class__v (
+   label('Therapeutic Class'),
+   type('Picklist'),
+   active(true),
+   description('Picklist used to select the Therapeutic Class of the product such as Narcotics or Pain Relief. Therapeutic Class is controlled by the Therapeutic Area picklist.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(53),
+   multi_value(false),
+   picklist('Picklist.product_therapeutic_class__v'),
+   controlling_picklist('therapeutic_area__v'),
+   picklist_dependencies('{"infectious_disease__v":["hiv_nnrtis__v","antifungals__v","tetracyclines__v","hiv_protease_inhibitors__v","hiv_nrtis__v","cephalosporins__v","macrolides__v","sulfa_drugs__v","antibiotics_miscellaneous__v","quinolones__v","hiv_other__v","penicillins__v","antivirals__v"],"analgesics__v":["pain_relief__v","narcotics__v","anti_inflammatory_medicines_nsaids__v","cox_2_inhibitors__v","muscle_relaxants__v"],"neurology__v":["multiple_sclerosis__v","seizures__v","migraines__v","alzheimer_s_agents__v","parkinson_s_disease__v"],"cardiology__v":["high_blood_pressure_alpha_blockers__v","diuretics_combination_water_pills__v","high_blood_pressure_ace_inhibitors__v","high_blood_pressure_beta_blockers__v","high_blood_pressure_miscellaneous_combin__v","antianginals__v","chf_agents__v","high_blood_pressure_long_acting_calcium__v","high_blood_pressure_angiotensin_blockers__v","diuretics_water_pills__v","high_blood_pressure_combination_angioten__v","vasodilators__v","high_blood_pressure_combination_calcium__v","high_blood_pressure_combination_beta_blo__v","antiarrhythmics__v","high_cholesterol_statins__v","high_blood_pressure_miscellaneous__v","high_blood_pressure_calcium_channel_bloc__v","high_blood_pressure_combination_ace_inhi__v","anticoagulants_blood_thinners__v","high_cholesterol_others__v"],"transplant__v":["immunomodulators__v"],"opthalmology__v":["antifungals_ocular__v","antivirals_ocular__v","macular_degeneration__v","antibacterials_ocular__v","glaucoma__v","anti_inflammatories_ocular__v","allergy_ocular__v"],"endocrinology__v":["androgens__v","diabetes_injection_hypoglycemic__v","growth_hormone__v","estrogens__v","diabetes_dpp_4_inhibitors__v","contraceptives__v","osteoporosis__v","diabetes_insulins__v","infertility__v","thyroid_hormones__v","estrogens_combination_products__v","progestins__v","diabetes_oral_hypoglycemics__v"],"rheumatology__v":["arthritis__v","tnf_inhibitors__v","psoriasis__v","rheumatology_miscellaneous__v"],"gastroenterology__v":["hepatitis__v","irritable_bowel_syndrome_ibs__v","weight_loss__v","irritable_bowel_antispasmodics__v","ulcers__v","antiemetics__v","bowel_cathartics__v","gallstones__v","proton_pump_inhibitors__v","h2_blockers__v","inflammatory_bowel_disease_ibd__v"],"urology__v":["overactive_bladder__v","erectile_dysfunction__v","bph__v"],"oncology__v":["hematopoietic_agents__v","antineoplastics__v","hormonal_oncologic_agents__v","aromatase_inhibitors__v"],"dermatology__v":["foot_ulcers__v","acne__v","topical_antibiotics__v","hair_loss__v","topical_antifungals__v","topical_steroids__v","topical_dermatologics__v"],"psychiatry__v":["antianxiety__v","depression_tricyclics__v","depression_ssnris__v","sleep_disorders__v","depression_ssris__v","depression_miscellaneous__v","attention_deficit_disorder__v","bipolar_disorder__v","depression_mao_inhibitors__v","alcohol_and_drug_dependence__v","antipsychotics__v"],"respiratory__v":["inhalers_combinations_and_others__v","antibacterials_otics__v","inhalers_steroids__v","steroid_antibiotic_otics__v","ige_inhibitors__v","leukotriene_blockers__v","antihistamines__v","intranasal_therapies__v","nicotine_addiction__v","inhalers_beta_agonists__v","oral_steroids__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

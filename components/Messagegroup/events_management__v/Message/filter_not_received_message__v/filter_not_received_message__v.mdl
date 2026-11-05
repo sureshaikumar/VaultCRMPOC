@@ -1,0 +1,6 @@
+Message filter_not_received_message__v (
+   label(),
+   active(true),
+   default_value('People who have not received this message'),
+   system_managed(false)
+);

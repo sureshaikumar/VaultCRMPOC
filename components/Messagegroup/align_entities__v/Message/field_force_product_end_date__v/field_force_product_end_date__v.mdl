@@ -1,0 +1,6 @@
+Message field_force_product_end_date__v (
+   label(),
+   active(true),
+   default_value('Child Field Force Product cannot end later than Field Force''s End Date: ${product_name} (${product_id}).'),
+   system_managed(false)
+);

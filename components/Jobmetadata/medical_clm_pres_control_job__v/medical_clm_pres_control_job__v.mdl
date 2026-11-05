@@ -1,0 +1,12 @@
+RECREATE Jobmetadata medical_clm_pres_control_job__v (
+   label('Medical to CRM CLM Presentation Inbound Control Job'),
+   active(true),
+   chunk_size(1),
+   description('A job to handle CLM Integration Presentation to ensure proper order between jobs'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clmintegration.jobs.medical.MedicalClmPresentationIntegrationInboundControlJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

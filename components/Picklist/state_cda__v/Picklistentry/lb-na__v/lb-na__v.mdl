@@ -1,0 +1,6 @@
+Picklistentry lb-na__v (
+   value('Nabatîyé'),
+   order(2538),
+   active(true),
+   controlling_entries('lb__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry amh (
+   value('Amharic'),
+   order(105),
+   active(true)
+);

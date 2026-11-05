@@ -1,0 +1,18 @@
+Field clear_client_sync_errors__v (
+   label('Clear Client Sync Errors'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Clear sync errors on the client device.  This will cause objects with errors to stop retrying to upload.'),
+   list_column(false),
+   order(60),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

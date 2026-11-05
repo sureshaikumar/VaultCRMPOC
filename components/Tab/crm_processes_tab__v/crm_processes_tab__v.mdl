@@ -1,0 +1,10 @@
+RECREATE Tab crm_processes_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('CRM Processes'),
+   order(2700),
+   parent(),
+   Subtab(@Subtab/mccp_admin_tab__v.mdl),
+   Subtab(@Subtab/survey_administration_tab__v.mdl)
+);

@@ -1,0 +1,6 @@
+Picklistentry no-22__v (
+   value('Jan Mayen'),
+   order(3397),
+   active(true),
+   controlling_entries('no__v')
+);

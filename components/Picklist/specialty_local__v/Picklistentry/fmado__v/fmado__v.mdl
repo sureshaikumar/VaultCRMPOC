@@ -1,0 +1,6 @@
+Picklistentry fmado__v (
+   value('Forensic Medicine and Deontology'),
+   order(555),
+   active(true),
+   controlling_entries('bg__v')
+);

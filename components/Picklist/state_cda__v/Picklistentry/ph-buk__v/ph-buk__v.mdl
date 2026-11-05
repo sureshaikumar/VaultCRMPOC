@@ -1,0 +1,6 @@
+Picklistentry ph-buk__v (
+   value('Bukidnon'),
+   order(3548),
+   active(true),
+   controlling_entries('ph__v')
+);

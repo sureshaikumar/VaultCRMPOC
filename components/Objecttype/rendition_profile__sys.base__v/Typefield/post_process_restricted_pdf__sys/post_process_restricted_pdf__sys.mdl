@@ -1,0 +1,4 @@
+Typefield post_process_restricted_pdf__sys (
+   source('standard'),
+   required(false)
+);

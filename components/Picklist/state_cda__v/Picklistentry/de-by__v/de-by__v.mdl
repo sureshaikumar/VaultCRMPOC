@@ -1,0 +1,6 @@
+Picklistentry de-by__v (
+   value('Bayern'),
+   order(906),
+   active(true),
+   controlling_entries('de__v')
+);

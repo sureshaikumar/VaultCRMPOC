@@ -1,0 +1,19 @@
+Picklistentry aarnn__v (
+   value('Anesthesia and Resuscitation'),
+   order(72),
+   active(true),
+   controlling_entries('al__v',
+         'az__v',
+         'be__v',
+         'cm__v',
+         'dz__v',
+         'fr__v',
+         'ge__v',
+         'kz__v',
+         'lu__v',
+         'ma__v',
+         'mc__v',
+         'mk__v',
+         'sn__v',
+         'vn__v')
+);

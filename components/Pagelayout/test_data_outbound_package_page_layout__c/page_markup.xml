@@ -1,0 +1,19 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.outbound_package__v.test_data__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="summary__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="test_data_user__sys" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="owner__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Data" name="data_set__c" reference="outbound_package_data_section_control__v" />
+    <vault:section title="Packages" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

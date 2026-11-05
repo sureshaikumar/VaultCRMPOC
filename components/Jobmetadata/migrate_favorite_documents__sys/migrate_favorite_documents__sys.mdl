@@ -1,0 +1,10 @@
+RECREATE Jobmetadata migrate_favorite_documents__sys (
+   label('Migrate Favorite Documents'),
+   active(true),
+   chunk_size(1),
+   description('This job migrates favorite documents preferences.'),
+   job_code('Sdkjob.com.veeva.vault.system.job.MigrateFavoriteDocumentsJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

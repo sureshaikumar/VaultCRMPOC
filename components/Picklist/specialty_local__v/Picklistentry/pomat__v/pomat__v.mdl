@@ -1,0 +1,6 @@
+Picklistentry pomat__v (
+   value('Preventive Occupational Medicine and Toxicology'),
+   order(1593),
+   active(true),
+   controlling_entries('sk__v')
+);

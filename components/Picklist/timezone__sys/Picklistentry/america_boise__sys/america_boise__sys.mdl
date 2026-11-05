@@ -1,0 +1,5 @@
+Picklistentry america_boise__sys (
+   value('(GMT-07:00) Mountain Standard Time (America/Boise)'),
+   order(18),
+   active(true)
+);

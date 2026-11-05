@@ -1,0 +1,6 @@
+Picklistentry sv-so__v (
+   value('Sonsonate'),
+   order(4277),
+   active(true),
+   controlling_entries('sv__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry purn__v (
+   value('Professional Union'),
+   order(213),
+   active(true)
+);

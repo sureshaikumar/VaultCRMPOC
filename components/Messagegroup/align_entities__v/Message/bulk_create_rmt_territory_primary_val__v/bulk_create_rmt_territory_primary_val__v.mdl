@@ -1,0 +1,6 @@
+Message bulk_create_rmt_territory_primary_val__v (
+   label(),
+   active(true),
+   default_value('Territory {0} can only have one primary assignment at a time.'),
+   system_managed(false)
+);

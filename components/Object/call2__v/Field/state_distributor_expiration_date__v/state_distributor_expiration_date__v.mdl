@@ -1,0 +1,17 @@
+Field state_distributor_expiration_date__v (
+   label('State Distributor Expiration Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('State Distributor license expiration date corresponding to the Business ship to address'),
+   list_column(false),
+   order(144),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

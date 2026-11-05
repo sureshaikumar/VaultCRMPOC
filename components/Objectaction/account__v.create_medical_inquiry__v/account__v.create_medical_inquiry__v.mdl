@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.create_medical_inquiry__v (
+   label('Create Medical Inquiry'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinquiry.actions.AccountCreateMedicalInquiryAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry pt-09__v (
+   value('Guarda'),
+   order(3662),
+   active(true),
+   controlling_entries('pt__v')
+);

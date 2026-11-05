@@ -1,0 +1,4 @@
+Typefield network_reference_code__v (
+   source('standard'),
+   required(false)
+);

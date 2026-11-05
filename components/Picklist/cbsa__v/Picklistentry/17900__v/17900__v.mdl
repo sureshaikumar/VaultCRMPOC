@@ -1,0 +1,5 @@
+Picklistentry 17900__v (
+   value('Columbia, SC Metropolitan Statistical Area'),
+   order(107),
+   active(true)
+);

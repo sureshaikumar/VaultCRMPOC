@@ -1,0 +1,5 @@
+Picklistentry bnd__sys (
+   value('BND'),
+   order(24),
+   active(true)
+);

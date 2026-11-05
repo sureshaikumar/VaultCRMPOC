@@ -1,0 +1,5 @@
+Picklistentry gilead_sciences__v (
+   value('Gilead Sciences'),
+   order(17),
+   active(true)
+);

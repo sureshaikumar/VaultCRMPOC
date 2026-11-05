@@ -1,0 +1,4 @@
+Typefield new_product_review_process__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry europe_rome__sys (
+   value('(GMT+01:00) Central European Time (Europe/Rome)'),
+   order(163),
+   active(true)
+);

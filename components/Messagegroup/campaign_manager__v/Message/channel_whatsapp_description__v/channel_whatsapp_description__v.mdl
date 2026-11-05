@@ -1,0 +1,6 @@
+Message channel_whatsapp_description__v (
+   label(),
+   active(true),
+   default_value('Send a WhatsApp message'),
+   system_managed(false)
+);

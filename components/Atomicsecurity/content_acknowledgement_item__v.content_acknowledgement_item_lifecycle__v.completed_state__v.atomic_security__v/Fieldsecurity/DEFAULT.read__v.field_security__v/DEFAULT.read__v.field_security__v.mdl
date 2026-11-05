@@ -1,0 +1,22 @@
+Fieldsecurity DEFAULT.read__v.field_security__v (
+   label('DEFAULT-Read'),
+   active(true),
+   role('Objectlifecyclerole.DEFAULT'),
+   type('read__v'),
+   fields('Field.aoc_signature_date__v',
+         'Field.created_by__v',
+         'Field.created_date__v',
+         'Field.global_id__sys',
+         'Field.id',
+         'Field.legacy_crm_id__v',
+         'Field.lifecycle__v',
+         'Field.link__sys',
+         'Field.modified_by__v',
+         'Field.modified_date__v',
+         'Field.name__v',
+         'Field.object_type__v',
+         'Field.stage__sys',
+         'Field.state__v',
+         'Field.state_stage_id__sys',
+         'Field.status__v')
+);

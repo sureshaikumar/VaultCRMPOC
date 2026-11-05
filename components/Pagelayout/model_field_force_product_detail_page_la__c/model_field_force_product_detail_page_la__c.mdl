@@ -1,0 +1,8 @@
+RECREATE Pagelayout model_field_force_product_detail_page_la__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Model Field Force Product Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

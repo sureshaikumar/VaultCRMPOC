@@ -1,0 +1,6 @@
+Picklistentry dty_proof_of_income__sys (
+   value('Proof of Income'),
+   order(130),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

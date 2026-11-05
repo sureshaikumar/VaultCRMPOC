@@ -1,0 +1,6 @@
+Message permission_missing_create_target_list__v (
+   label(),
+   active(true),
+   default_value('You do not have the necessary permissions to create a target list'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry dnius__v (
+   value('Disability Nursing'),
+   order(452),
+   active(true),
+   controlling_entries('au__v')
+);

@@ -1,0 +1,6 @@
+Message unassigned_segments_count__v (
+   label(),
+   active(true),
+   default_value('${count} Unassigned Segments'),
+   system_managed(false)
+);

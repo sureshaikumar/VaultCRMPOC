@@ -1,0 +1,6 @@
+Message cycle_lifespan_overlaps__v (
+   label(),
+   active(true),
+   default_value('The MC Cycle''s lifespan (from ${start_1} to ${end_1}) overlaps with another MC Cycle''s lifespan (from ${start_2} to ${end_2})'),
+   system_managed(false)
+);

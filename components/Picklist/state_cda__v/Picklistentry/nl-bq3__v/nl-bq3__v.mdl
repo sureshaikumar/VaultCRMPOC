@@ -1,0 +1,6 @@
+Picklistentry nl-bq3__v (
+   value('Sint Eustatius'),
+   order(3377),
+   active(true),
+   controlling_entries('nl__v')
+);

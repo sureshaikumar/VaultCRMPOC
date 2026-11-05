@@ -1,0 +1,6 @@
+Picklistentry gb-pow__v (
+   value('Powys'),
+   order(1598),
+   active(true),
+   controlling_entries('gb__v')
+);

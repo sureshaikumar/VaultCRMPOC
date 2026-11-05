@@ -1,0 +1,6 @@
+Picklistentry csexr__v (
+   value('Community Sexual and Reproductive Health (Clinical)'),
+   order(320),
+   active(true),
+   controlling_entries('ae__v')
+);

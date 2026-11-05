@@ -1,0 +1,6 @@
+Picklistentry tr-81__v (
+   value('Düzce'),
+   order(4539),
+   active(true),
+   controlling_entries('tr__v')
+);

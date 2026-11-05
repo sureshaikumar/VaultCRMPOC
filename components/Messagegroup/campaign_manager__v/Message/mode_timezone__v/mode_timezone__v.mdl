@@ -1,0 +1,6 @@
+Message mode_timezone__v (
+   label(),
+   active(true),
+   default_value('${mode} Timezone'),
+   system_managed(false)
+);

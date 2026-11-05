@@ -1,0 +1,4 @@
+Typefield mobile_phone_cda__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 16060__v (
+   value('Carbondale, IL Micropolitan Statistical Area'),
+   order(876),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message unable_to_deactivate_plural__v (
+   label(),
+   active(true),
+   default_value('Unable to deactivate ${target_list_name} because ${num_targets} targets are Scheduled.'),
+   system_managed(false)
+);

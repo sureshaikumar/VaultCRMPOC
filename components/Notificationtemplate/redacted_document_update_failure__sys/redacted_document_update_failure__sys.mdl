@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate redacted_document_update_failure__sys (
+   label('Redacted Document Update Failure'),
+   active(true),
+   description('Notification template used for notifying users that the redacted version of their document failed to update.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Redacted Document update failed: ${docNameNoLink}'),
+   notification('A new version failed to create, so the existing Redacted Document is unchanged at v${docMajor}.${docMinor}. Your redactions are saved and the redaction has returned to Redacting Source.<br/>Review your redactions and try again.'),
+   email_body('A new version failed to create so the existing Redacted Document is unchanged at v${docMajor}.${docMinor}. Your redactions are saved and the redaction has returned to Redacting Source.<br/>Review your redactions and try again.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

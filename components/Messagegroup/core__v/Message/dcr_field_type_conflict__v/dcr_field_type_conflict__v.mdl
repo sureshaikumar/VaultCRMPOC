@@ -1,0 +1,6 @@
+Message dcr_field_type_conflict__v (
+   label(),
+   active(true),
+   default_value('One or more countries conflict with an existing DCR Field Type record.'),
+   system_managed(false)
+);

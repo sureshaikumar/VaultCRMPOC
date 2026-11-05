@@ -1,0 +1,6 @@
+Picklistentry th-47__v (
+   value('Sakon Nakhon'),
+   order(4363),
+   active(true),
+   controlling_entries('th__v')
+);

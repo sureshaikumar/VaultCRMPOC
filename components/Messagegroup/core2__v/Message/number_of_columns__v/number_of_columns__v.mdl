@@ -1,0 +1,6 @@
+Message number_of_columns__v (
+   label(),
+   active(true),
+   default_value('${# of Columns} Columns'),
+   system_managed(false)
+);

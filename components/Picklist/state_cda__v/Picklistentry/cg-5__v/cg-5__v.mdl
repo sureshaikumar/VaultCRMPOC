@@ -1,0 +1,6 @@
+Picklistentry cg-5__v (
+   value('Kouilou'),
+   order(622),
+   active(true),
+   controlling_entries('cg__v')
+);

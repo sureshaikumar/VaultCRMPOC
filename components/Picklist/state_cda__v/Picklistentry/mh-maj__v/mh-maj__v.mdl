@@ -1,0 +1,6 @@
+Picklistentry mh-maj__v (
+   value('Majuro'),
+   order(2952),
+   active(true),
+   controlling_entries('mh__v')
+);

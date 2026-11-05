@@ -1,0 +1,18 @@
+Field application_target__v (
+   label('Application Target'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the application, or applications, using the email address.'),
+   required(true),
+   unique(false),
+   help_content('Indicates the application, or applications, using the email address.'),
+   list_column(false),
+   order(12),
+   multi_value(true),
+   picklist('Picklist.application_target__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

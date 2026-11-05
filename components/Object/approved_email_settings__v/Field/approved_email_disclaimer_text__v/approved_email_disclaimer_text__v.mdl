@@ -1,0 +1,20 @@
+Field approved_email_disclaimer_text__v (
+   label('Approved Email Opt-in Disclaimer'),
+   type('String'),
+   active(true),
+   description('Holds the disclaimer message to be shown on the opt in/out screen.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('"APPROVED_EMAIL_DISCLAIMER_TEXT;;ApprovedEmail"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

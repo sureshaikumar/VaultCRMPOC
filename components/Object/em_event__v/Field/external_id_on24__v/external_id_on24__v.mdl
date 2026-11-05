@@ -1,0 +1,19 @@
+Field external_id_on24__v (
+   label('External ID On24'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('Field used to store On24 unique identifier'),
+   list_column(false),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

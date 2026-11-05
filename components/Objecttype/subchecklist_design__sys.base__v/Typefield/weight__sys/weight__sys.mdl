@@ -1,0 +1,4 @@
+Typefield weight__sys (
+   source('standard'),
+   required(false)
+);

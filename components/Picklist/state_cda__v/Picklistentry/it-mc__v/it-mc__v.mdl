@@ -1,0 +1,6 @@
+Picklistentry it-mc__v (
+   value('Macerata'),
+   order(2224),
+   active(true),
+   controlling_entries('it__v')
+);

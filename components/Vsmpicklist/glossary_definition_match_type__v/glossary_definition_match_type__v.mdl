@@ -1,0 +1,14 @@
+RECREATE Vsmpicklist glossary_definition_match_type__v (
+   label('Glossary Definition Match Type'),
+   active(true),
+   description('Classifies how a glossary term''s definition was matched or aligned, indicating the type or quality of match between a term and its corresponding definition.'),
+   synonyms('definition match type',
+      'glossary match category',
+      'term match classification',
+      'definition alignment type'),
+   target('Picklist.glossary_definition_match_type__sys'),
+   target_label('Glossary Definition Match Type'),
+   Vsmvalue(@Vsmvalue/fuzzy__v.mdl),
+   Vsmvalue(@Vsmvalue/none__v.mdl),
+   Vsmvalue(@Vsmvalue/precise__v.mdl)
+);

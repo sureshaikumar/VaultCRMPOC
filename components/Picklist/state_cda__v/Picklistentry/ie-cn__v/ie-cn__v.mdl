@@ -1,0 +1,6 @@
+Picklistentry ie-cn__v (
+   value('Cavan'),
+   order(1963),
+   active(true),
+   controlling_entries('ie__v')
+);

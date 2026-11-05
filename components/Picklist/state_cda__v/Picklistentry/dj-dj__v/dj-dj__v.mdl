@@ -1,0 +1,6 @@
+Picklistentry dj-dj__v (
+   value('Djibouti'),
+   order(922),
+   active(true),
+   controlling_entries('dj__v')
+);

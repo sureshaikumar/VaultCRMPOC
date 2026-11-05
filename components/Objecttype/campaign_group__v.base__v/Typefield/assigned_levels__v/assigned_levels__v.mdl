@@ -1,0 +1,4 @@
+Typefield assigned_levels__v (
+   source('standard'),
+   required(false)
+);

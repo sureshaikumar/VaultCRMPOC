@@ -1,0 +1,4 @@
+Typefield payment_priority_bottomtotop__v (
+   source('standard'),
+   required(false)
+);

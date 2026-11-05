@@ -1,0 +1,5 @@
+Picklistentry r__v (
+   value('R'),
+   order(1),
+   active(true)
+);

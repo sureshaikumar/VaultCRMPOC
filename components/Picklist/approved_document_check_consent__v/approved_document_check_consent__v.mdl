@@ -1,0 +1,9 @@
+RECREATE Picklist approved_document_check_consent__v (
+   label('Check Consent'),
+   active(true),
+   Picklistentry(@Picklistentry/default__v.mdl),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

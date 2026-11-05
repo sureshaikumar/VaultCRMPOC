@@ -1,0 +1,6 @@
+Picklistentry caanv__v (
+   value('Cardiac Anesthesia'),
+   order(147),
+   active(true),
+   controlling_entries('bh__v')
+);

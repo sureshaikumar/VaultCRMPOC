@@ -1,0 +1,28 @@
+RECREATE Notificationtemplate cfgtool_import_vpk_error__v (
+   label('Import VPK Error'),
+   active(true),
+   description('Import package error template.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Migration Package${packageName} has failed to import.'),
+   notification('
+   <b><p>Your Migration Package${packageName} has failed to import.</p></b>
+   <br/>
+   <ul>
+        <li>Reason for Failure: ${failureMessage} </li>
+        <li>Start Time: ${startTime} </li>
+        <li>Duration: ${duration} </li>
+   </ul>
+   '),
+   email_body('
+   <b><p>Your Migration Package${packageName} has failed to import.</p></b>
+   <br/>
+   <ul>
+        <li>Reason for Failure: ${failureMessage} </li>
+        <li>Start Time: ${startTime} </li>
+        <li>Duration: ${duration} </li>
+   </ul>
+   '),
+   entity_type('document'),
+   notification_category('none__sys')
+);

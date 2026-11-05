@@ -1,0 +1,9 @@
+RECREATE Picklist campaign_template_type__v (
+   label('Campaign Template Type'),
+   active(true),
+   Picklistentry(@Picklistentry/single_action__v.mdl),
+   Picklistentry(@Picklistentry/multi_action__v.mdl),
+   Picklistentry(@Picklistentry/service_center__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

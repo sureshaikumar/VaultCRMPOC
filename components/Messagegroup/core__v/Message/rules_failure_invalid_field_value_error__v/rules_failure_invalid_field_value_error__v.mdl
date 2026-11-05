@@ -1,0 +1,6 @@
+Message rules_failure_invalid_field_value_error__v (
+   label(),
+   active(true),
+   default_value('Criterion "${criterion_name}" within rule "${rule_name}" contains an invalid field value.'),
+   system_managed(false)
+);

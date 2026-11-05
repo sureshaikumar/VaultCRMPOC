@@ -1,0 +1,5 @@
+Index modified_date_v__sys (
+   description(),
+   fields('modified_date__v'),
+   label('Last Modified Date')
+);

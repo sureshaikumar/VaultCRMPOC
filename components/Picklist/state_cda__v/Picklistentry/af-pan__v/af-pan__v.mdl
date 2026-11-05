@@ -1,0 +1,6 @@
+Picklistentry af-pan__v (
+   value('Panjshir'),
+   order(38),
+   active(true),
+   controlling_entries('af__v')
+);

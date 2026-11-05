@@ -1,0 +1,24 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.samples_state_credential_settings__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="allowed_schedules__v" />
+            <vault:field reference="collaborative_relationship_required__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="credential__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="restricted_products__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry mwr__v (
+   value('Marwari'),
+   order(217),
+   active(false)
+);

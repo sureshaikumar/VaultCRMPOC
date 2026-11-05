@@ -1,0 +1,6 @@
+Picklistentry it-mn__v (
+   value('Mantua'),
+   order(2227),
+   active(true),
+   controlling_entries('it__v')
+);

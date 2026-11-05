@@ -1,0 +1,5 @@
+Picklistentry bi__v (
+   value('BI'),
+   order(23),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Objectlifecyclestateentrycriterion inprogress_state__c.entrycriteria__c (
+   rule(@rule.xml),
+   order(1000)
+);

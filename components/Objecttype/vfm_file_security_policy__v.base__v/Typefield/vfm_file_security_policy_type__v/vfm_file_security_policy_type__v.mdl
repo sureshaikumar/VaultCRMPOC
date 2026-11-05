@@ -1,0 +1,4 @@
+Typefield vfm_file_security_policy_type__v (
+   source('standard'),
+   required(true)
+);

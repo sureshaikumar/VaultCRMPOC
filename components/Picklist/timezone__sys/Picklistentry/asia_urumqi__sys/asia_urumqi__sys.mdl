@@ -1,0 +1,5 @@
+Picklistentry asia_urumqi__sys (
+   value('(GMT+06:00) Xinjiang Time (Asia/Urumqi)'),
+   order(242),
+   active(true)
+);

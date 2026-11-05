@@ -1,0 +1,6 @@
+Picklistentry dz-10__v (
+   value('Bouira'),
+   order(991),
+   active(true),
+   controlling_entries('dz__v')
+);

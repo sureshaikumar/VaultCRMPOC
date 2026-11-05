@@ -1,0 +1,5 @@
+Picklistentry ltac__v (
+   value('Long-Term Acute Care Hospital'),
+   order(138),
+   active(true)
+);

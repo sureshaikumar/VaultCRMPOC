@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.net_price_discount_override_exclude__v (
+   label('Net Price Discount Override Exclude'),
+   active(true),
+   expression('Not(
+     And(
+         Not(IsBlank(net_price__v)),
+         Not(IsBlank(discount_override__v))
+    )
+)'),
+   description('Only one of Net Price and Discount Override can be present'),
+   error_message('Only one of Net Price and Discount Override can be present'),
+   error_location('discount_override__v',
+      'net_price__v')
+);

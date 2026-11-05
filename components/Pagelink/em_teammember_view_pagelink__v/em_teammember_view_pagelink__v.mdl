@@ -1,0 +1,11 @@
+RECREATE Pagelink em_teammember_view_pagelink__v (
+   label('EM Team Member View'),
+   description('Redirects viewing Team Member to the EM Team Member Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Object.id}}/view'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.em_event_team_member__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.em_team_member_detail_app_page__v')
+);

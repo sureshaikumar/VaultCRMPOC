@@ -1,0 +1,6 @@
+Picklistentry uz-xo__v (
+   value('Xorazm'),
+   order(4880),
+   active(true),
+   controlling_entries('uz__v')
+);

@@ -1,0 +1,19 @@
+Field vault_crm_id__v (
+   label('Vault CRM ID'),
+   type('String'),
+   active(true),
+   description('Unique identifier for the record. Vault CRM utilizes this value to manage Connection Settings records and automatically populates the value upon saving the record.'),
+   required(true),
+   unique(true),
+   max_length(20),
+   help_content('Unique identifier for the record.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

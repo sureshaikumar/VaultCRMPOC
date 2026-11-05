@@ -1,0 +1,6 @@
+Message number_of_removals__v (
+   label(),
+   active(true),
+   default_value('${count} removals'),
+   system_managed(false)
+);

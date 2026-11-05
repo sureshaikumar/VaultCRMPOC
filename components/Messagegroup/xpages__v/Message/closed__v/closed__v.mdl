@@ -1,0 +1,6 @@
+Message closed__v (
+   label(),
+   active(true),
+   default_value('Closed'),
+   system_managed(false)
+);

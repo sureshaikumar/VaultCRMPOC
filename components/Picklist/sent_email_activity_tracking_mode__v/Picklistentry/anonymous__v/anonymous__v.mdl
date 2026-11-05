@@ -1,0 +1,5 @@
+Picklistentry anonymous__v (
+   value('Anonymous'),
+   order(0),
+   active(true)
+);

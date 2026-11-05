@@ -1,0 +1,4 @@
+Typefield enable_drafts_folder__v (
+   source('standard'),
+   required(false)
+);

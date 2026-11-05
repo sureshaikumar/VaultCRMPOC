@@ -1,0 +1,23 @@
+Field home_alerts_display_rows__v (
+   label('HOME_ALERTS_DISPLAY_ROWS'),
+   type('Number'),
+   active(true),
+   description('Determines the number of Alert records displayed at one time in the VMobile Home Page.  Default value is 5.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(188),
+   default_value('5'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

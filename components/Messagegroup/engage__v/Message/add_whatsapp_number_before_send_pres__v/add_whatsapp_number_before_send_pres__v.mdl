@@ -1,0 +1,6 @@
+Message add_whatsapp_number_before_send_pres__v (
+   label(),
+   active(true),
+   default_value('Add a WhatsApp number, including the country code, for the account before sending a presentation.'),
+   system_managed(false)
+);

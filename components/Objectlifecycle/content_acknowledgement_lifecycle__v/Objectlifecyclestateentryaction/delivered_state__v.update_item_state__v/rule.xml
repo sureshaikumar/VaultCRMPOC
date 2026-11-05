@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="objectLifecycleEntryAction.all.relatedRecordStateChange">
+            <relationshipField>Object.content_acknowledgement_item__v.content_acknowledgement__v</relationshipField>
+            <targetLifecycle>Objectlifecycle.content_acknowledgement_item_lifecycle__v.delivered_state__v</targetLifecycle>
+            <direction>INBOUND</direction>
+        </action>
+    </actions>
+</rule>

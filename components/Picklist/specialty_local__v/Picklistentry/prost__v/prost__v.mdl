@@ -1,0 +1,19 @@
+Picklistentry prost__v (
+   value('Prosthodontics'),
+   order(1600),
+   active(true),
+   controlling_entries('ad__v',
+         'bw__v',
+         'ca__v',
+         'es__v',
+         'id__v',
+         'in__v',
+         'kr__v',
+         'ng__v',
+         'nz__v',
+         'pt__v',
+         'qa__v',
+         'sg__v',
+         'tw__v',
+         'za__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ptuul__v (
+   value('Pulmonology - Tuberculosis'),
+   order(1650),
+   active(true),
+   controlling_entries('gr__v')
+);

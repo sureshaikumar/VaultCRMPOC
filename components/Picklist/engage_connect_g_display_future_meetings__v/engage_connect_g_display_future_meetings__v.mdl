@@ -1,0 +1,9 @@
+RECREATE Picklist engage_connect_g_display_future_meetings__v (
+   label('Display Future Meetings'),
+   active(true),
+   Picklistentry(@Picklistentry/invited__v.mdl),
+   Picklistentry(@Picklistentry/all__v.mdl),
+   Picklistentry(@Picklistentry/invited_or_ad_hoc_meeting__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

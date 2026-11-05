@@ -1,0 +1,7 @@
+Typefield target_platform__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.target_platform__v.salesforce__v',
+         'Picklist.target_platform__v.vault__v'),
+   default_value('Picklist.target_platform__v.vault__v')
+);

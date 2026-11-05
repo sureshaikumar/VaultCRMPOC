@@ -1,0 +1,6 @@
+Picklistentry uy-du__v (
+   value('Durazno'),
+   order(4852),
+   active(true),
+   controlling_entries('uy__v')
+);

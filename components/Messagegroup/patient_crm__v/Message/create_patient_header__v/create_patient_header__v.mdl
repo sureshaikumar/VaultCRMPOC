@@ -1,0 +1,6 @@
+Message create_patient_header__v (
+   label(),
+   active(true),
+   default_value('Create Patient'),
+   system_managed(false)
+);

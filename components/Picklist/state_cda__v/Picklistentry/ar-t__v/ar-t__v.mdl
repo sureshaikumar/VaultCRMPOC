@@ -1,0 +1,6 @@
+Picklistentry ar-t__v (
+   value('Tucumán'),
+   order(114),
+   active(true),
+   controlling_entries('ar__v')
+);

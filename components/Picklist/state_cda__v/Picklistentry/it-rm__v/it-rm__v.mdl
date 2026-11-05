@@ -1,0 +1,6 @@
+Picklistentry it-rm__v (
+   value('Rome'),
+   order(2253),
+   active(true),
+   controlling_entries('it__v')
+);

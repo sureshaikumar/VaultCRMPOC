@@ -1,0 +1,6 @@
+RECREATE Picklist field_extracted__sys (
+   label('Field Extracted'),
+   active(true),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

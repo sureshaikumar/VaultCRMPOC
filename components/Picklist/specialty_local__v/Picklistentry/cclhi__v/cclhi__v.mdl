@@ -1,0 +1,10 @@
+Picklistentry cclhi__v (
+   value('Clinical Chemistry'),
+   order(215),
+   active(true),
+   controlling_entries('fi__v',
+         'gr__v',
+         'il__v',
+         'nl__v',
+         'se__v')
+);

@@ -1,0 +1,15 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.min_spend_negative_expense_range__v (
+   label('Min Spend Limit Not Neg'),
+   active(true),
+   expression('
+        Case(event_business_rule_type__vr.api_name__v,
+            "em_per_event_expense_limit_rule__v", true,
+            "em_per_event_attendee_expense_limit_r__v", true,
+            "em_attendee_expense_cap_rule__v", true,
+            "em_per_event_speaker_expense_limit_ru__v", true,
+            false
+        ) = false || IsBlank(minimum_spend_limit__v) || minimum_spend_limit__v >= 0'),
+   description('Minimum Spend Limit is negative.'),
+   error_message('Minimum Spend Limit may not be negative.'),
+   error_location('minimum_spend_limit__v')
+);

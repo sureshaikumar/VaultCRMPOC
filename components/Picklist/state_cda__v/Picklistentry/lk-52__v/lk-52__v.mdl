@@ -1,0 +1,6 @@
+Picklistentry lk-52__v (
+   value('Ampara'),
+   order(2580),
+   active(true),
+   controlling_entries('lk__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ug__v (
+   value('Uganda'),
+   order(231),
+   active(true)
+);

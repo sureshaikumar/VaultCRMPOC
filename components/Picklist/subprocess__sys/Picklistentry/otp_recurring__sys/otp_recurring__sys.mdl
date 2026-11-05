@@ -1,0 +1,6 @@
+Picklistentry otp_recurring__sys (
+   value('Recurring'),
+   order(138),
+   active(true),
+   controlling_entries('olc_survey__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry 23860__v (
+   value('Georgetown, SC Micropolitan Statistical Area'),
+   order(389),
+   active(true)
+);

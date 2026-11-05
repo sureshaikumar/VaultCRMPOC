@@ -1,0 +1,10 @@
+Vsmvalue srg__v (
+   label('SRG'),
+   active(true),
+   description('Applies when referencing the Surinamese Guilder, the historical currency of Suriname replaced by the Surinamese Dollar in 2004.'),
+   synonyms('Surinamese guilder',
+         'Suriname legacy currency',
+         'guilder'),
+   target('srg__sys'),
+   target_label('SRG')
+);

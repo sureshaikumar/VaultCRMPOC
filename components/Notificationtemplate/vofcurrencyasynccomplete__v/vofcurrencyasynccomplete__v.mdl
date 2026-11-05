@@ -1,0 +1,30 @@
+RECREATE Notificationtemplate vofcurrencyasynccomplete__v (
+   label('Currency Field Update'),
+   active(true),
+   description('Notification sent upon completion of an asynchronous currency field update.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Currency field update complete'),
+   notification('<p>${title}</p>
+<p>Detail:</p>
+<ul>
+    <li>Object: ${objectName}</li>
+    <li>Corporate Currency: ${corporateCurrencyName}</li>
+    <li>Records Updated: ${recordsUpdated}</li>
+    <li>Start Time: ${startTime}</li>
+    <li>Duration: ${duration}</li>
+</ul>
+'),
+   email_body('<p>${title}</p>
+<p>Detail:</p>
+<ul>
+    <li>Object: ${objectName}</li>
+    <li>Corporate Currency: ${corporateCurrencyName}</li>
+    <li>Records Updated: ${recordsUpdated}</li>
+    <li>Start Time: ${startTime}</li>
+    <li>Duration: ${duration}</li>
+</ul>
+'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

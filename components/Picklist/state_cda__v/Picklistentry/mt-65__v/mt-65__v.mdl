@@ -1,0 +1,6 @@
+Picklistentry mt-65__v (
+   value('Żebbuġ Għawdex'),
+   order(3171),
+   active(true),
+   controlling_entries('mt__v')
+);

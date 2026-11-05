@@ -1,0 +1,5 @@
+Picklistentry transactional__v (
+   value('Transactional'),
+   order(2),
+   active(true)
+);

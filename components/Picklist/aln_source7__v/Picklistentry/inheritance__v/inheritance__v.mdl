@@ -1,0 +1,5 @@
+Picklistentry inheritance__v (
+   value('Inheritance'),
+   order(2),
+   active(true)
+);

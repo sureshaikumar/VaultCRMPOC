@@ -1,0 +1,6 @@
+Message class__sys (
+   label(),
+   active(true),
+   default_value('Agent Class'),
+   system_managed(true)
+);

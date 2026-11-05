@@ -1,0 +1,5 @@
+Picklistentry 14380__v (
+   value('Boone, NC Micropolitan Statistical Area'),
+   order(901),
+   active(true)
+);

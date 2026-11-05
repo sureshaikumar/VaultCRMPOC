@@ -1,0 +1,12 @@
+Objectlifecyclepermission owner_read__v (
+   states('Objectlifecyclestate.activated__v',
+         'Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.draft__v',
+         'Objectlifecyclestate.in_approval_process__v',
+         'Objectlifecyclestate.inactive_state__v',
+         'Objectlifecyclestate.rejected__v',
+         'Objectlifecyclestate.saved__v',
+         'Objectlifecyclestate.signed__v'),
+   role('Objectlifecyclerole.owner__v'),
+   permission('Read')
+);

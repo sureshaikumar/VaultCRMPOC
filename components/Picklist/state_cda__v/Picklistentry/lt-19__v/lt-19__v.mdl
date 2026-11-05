@@ -1,0 +1,6 @@
+Picklistentry lt-19__v (
+   value('Kelmė'),
+   order(2637),
+   active(true),
+   controlling_entries('lt__v')
+);

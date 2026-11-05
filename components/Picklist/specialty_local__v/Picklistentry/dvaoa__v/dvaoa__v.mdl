@@ -1,0 +1,6 @@
+Picklistentry dvaoa__v (
+   value('Dermatology Venereology Aesthetics Oncology and Skin Surgery'),
+   order(405),
+   active(true),
+   controlling_entries('id__v')
+);

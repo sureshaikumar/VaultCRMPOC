@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate baseinreview__c (
+   label('BASE-inReview'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" is in review'),
+   notification('<b>${docName}</b> is currently in Review. You will receive an update on the outcome of the review process.'),
+   email_body('<p>${notificationMessage}</p> <p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

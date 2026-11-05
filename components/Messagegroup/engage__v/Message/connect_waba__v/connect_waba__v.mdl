@@ -1,0 +1,6 @@
+Message connect_waba__v (
+   label(),
+   active(true),
+   default_value('Connect WhatsApp Business Account'),
+   system_managed(false)
+);

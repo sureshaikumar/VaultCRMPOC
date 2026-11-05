@@ -1,0 +1,11 @@
+RECREATE Pagelink documented_interest_view_pagelink__v (
+   label('View Documented Interest'),
+   description('Redirects Documented Interest View to the App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/view?fieldParameters={{Related.fieldParameters}}&id={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.documented_interest__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.documented_interest_page__v')
+);

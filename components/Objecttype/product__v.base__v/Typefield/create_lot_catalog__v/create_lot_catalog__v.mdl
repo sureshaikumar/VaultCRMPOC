@@ -1,0 +1,4 @@
+Typefield create_lot_catalog__v (
+   source('standard'),
+   required(false)
+);

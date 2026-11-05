@@ -1,0 +1,6 @@
+Picklistentry ma-med__v (
+   value('Médiouna'),
+   order(2818),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate scheduled_process_view_consec_fails__v (
+   label('Scheduled Process View Consecutive Fails'),
+   active(true),
+   description('Notification template for a scheduled Process View run that has been unscheduled due to consecutive failures.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your scheduled run for ${processViewLabel} has been unscheduled'),
+   notification('<p>Your scheduled run for <a href="${processViewViewerUrl}">${processViewLabelHtml}</a> has been unscheduled because it failed to run 3 times in a row.</p>'),
+   email_body('<p>Your scheduled run for <a href="${processViewViewerUrl}">${processViewLabelHtml}</a> has been unscheduled because it failed to run 3 times in a row.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,5 @@
+Picklistentry book__v (
+   value('Book'),
+   order(1),
+   active(true)
+);

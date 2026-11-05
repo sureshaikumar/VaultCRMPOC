@@ -1,0 +1,5 @@
+Picklistentry bounced__v (
+   value('Bounced'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message disconnect_ph_number_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to disconnect "${whatsapp_business_account_display_name} - ${messaging_phone_number}"?'),
+   system_managed(false)
+);

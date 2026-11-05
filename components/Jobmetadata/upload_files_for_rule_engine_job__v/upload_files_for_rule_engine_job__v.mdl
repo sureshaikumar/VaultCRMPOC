@@ -1,0 +1,10 @@
+RECREATE Jobmetadata upload_files_for_rule_engine_job__v (
+   label('Upload files for rule engine'),
+   active(true),
+   chunk_size(1),
+   description('This SDK job queries for data from different objects and upload it to S3'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.territorymanagement.assignmentrules.jobs.UploadFilesForRuleEngine'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

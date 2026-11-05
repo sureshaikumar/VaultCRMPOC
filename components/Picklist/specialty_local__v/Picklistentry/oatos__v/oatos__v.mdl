@@ -1,0 +1,6 @@
+Picklistentry oatos__v (
+   value('Orthopedics and Traumatology Orthopedics Spine (Orthopaedic Spine)'),
+   order(1220),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction assortment__v.assortment_preview__v (
+   label('Preview'),
+   description('Opens the assortment preview'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.ordermanagement.actions.AssortmentPreviewAction'),
+   active(true),
+   available_all_states(true)
+);

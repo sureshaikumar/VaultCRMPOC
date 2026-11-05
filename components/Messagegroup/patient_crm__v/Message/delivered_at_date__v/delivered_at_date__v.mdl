@@ -1,0 +1,6 @@
+Message delivered_at_date__v (
+   label(),
+   active(true),
+   default_value('Delivered at ${date}'),
+   system_managed(false)
+);

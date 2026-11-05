@@ -1,0 +1,6 @@
+Picklistentry hr-17__v (
+   value('Splitsko-dalmatinska županija'),
+   order(1858),
+   active(true),
+   controlling_entries('hr__v')
+);

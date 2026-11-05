@@ -1,0 +1,7 @@
+RECREATE Integrationrule afd__c (
+   label('afd'),
+   active(true),
+   connection('crmtopromotas'),
+   integration_point(),
+   primary_query_object()
+);

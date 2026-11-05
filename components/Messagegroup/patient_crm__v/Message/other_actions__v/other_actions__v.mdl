@@ -1,0 +1,6 @@
+Message other_actions__v (
+   label(),
+   active(true),
+   default_value('Other Actions'),
+   system_managed(false)
+);

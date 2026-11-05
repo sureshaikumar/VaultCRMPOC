@@ -1,0 +1,14 @@
+Vsmrelationship users_securityprofile__v (
+   label('Users Securityprofile'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('The users assigned to this security profile. Use this to find all user accounts governed by a specific security profile, or to filter users by their assigned profile (e.g., users_securityprofile__sysr.name__v = ''profile_name'').'),
+   join_object(),
+   synonyms('assigned users',
+         'users in profile',
+         'members',
+         'who has this profile'),
+   target('users_securityprofile__sysr'),
+   target_label('Security Profiles'),
+   target_object('user__sys')
+);

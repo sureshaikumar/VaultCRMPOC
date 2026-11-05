@@ -1,0 +1,9 @@
+RECREATE Processmetric volume_records_created__sys (
+   label('Created'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The number of unique records created during the matching timeframe.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.volume__sys')
+);

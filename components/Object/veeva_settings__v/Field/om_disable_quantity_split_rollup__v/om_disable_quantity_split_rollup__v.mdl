@@ -1,0 +1,23 @@
+Field om_disable_quantity_split_rollup__v (
+   label('OM Disable Quantity Split Rollup'),
+   type('Number'),
+   active(true),
+   description('Determines in OM Line Split deliveries if the individual split quantities should automatically roll-up to the master quantity on the Order Line. When disabled, the individual delivery quantities will not roll-up to the master quantity, and the Remaining Q'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(233),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

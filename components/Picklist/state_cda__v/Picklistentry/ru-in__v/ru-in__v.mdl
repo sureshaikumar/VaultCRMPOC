@@ -1,0 +1,6 @@
+Picklistentry ru-in__v (
+   value('Ingushetiya, Respublika'),
+   order(3805),
+   active(true),
+   controlling_entries('ru__v')
+);

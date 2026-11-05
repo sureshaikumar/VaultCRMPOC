@@ -1,0 +1,6 @@
+Picklistentry co-hui__v (
+   value('Huila'),
+   order(744),
+   active(true),
+   controlling_entries('co__v')
+);

@@ -1,0 +1,12 @@
+Agentaction workflow_task_execution__sys (
+   label('Workflow Task Execution'),
+   active(true),
+   api_access(false),
+   description('Workflow task routing and execution'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

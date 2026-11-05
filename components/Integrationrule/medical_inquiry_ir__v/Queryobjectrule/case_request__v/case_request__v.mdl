@@ -1,0 +1,6 @@
+Queryobjectrule case_request__v (
+   label('Case Request'),
+   active(true),
+   filter_clause([status__v = 'active__v' AND modified_date__v >= '{{LASTRUNDATE}}' AND link__sys != null AND (state__v = STATETYPE('initial_state__sys') OR state__v = STATETYPE('case_request_in_progress_state_type__v') OR state__v = STATETYPE('complete_state__sys'))]),
+   query_object('case_request__v')
+);

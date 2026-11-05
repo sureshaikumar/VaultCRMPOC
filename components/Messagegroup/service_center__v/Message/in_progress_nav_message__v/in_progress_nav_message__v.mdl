@@ -1,0 +1,6 @@
+Message in_progress_nav_message__v (
+   label(),
+   active(true),
+   default_value('Navigating with an In Progress attempt will discard all unsaved information. Please save the attempt before leaving Service Center.'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field no_cycle_plans__v (
+   label('No Cycle Plans'),
+   type('Boolean'),
+   active(true),
+   description('For Detail-type products, checking this box prevents the product from being displayed in the Cycle Plan Target and Account Cycle Plans views. However the product will still be displayed in My Setup and child products can still be selected as samples or pr'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(28),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

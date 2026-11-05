@@ -1,0 +1,6 @@
+Message switch_to_system_owned_user__v (
+   label(),
+   active(true),
+   default_value('Switch to System-Owned User'),
+   system_managed(false)
+);

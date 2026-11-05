@@ -1,0 +1,6 @@
+Message rule_criteria_invalid_filter_logic__v (
+   label(),
+   active(true),
+   default_value('Invalid filter logic string'),
+   system_managed(false)
+);

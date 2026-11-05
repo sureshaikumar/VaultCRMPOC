@@ -1,0 +1,6 @@
+Picklistentry cy-01__v (
+   value('Lefkosia'),
+   order(807),
+   active(true),
+   controlling_entries('cy__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-427__v (
+   value('Ústí nad Labem'),
+   order(854),
+   active(true),
+   controlling_entries('cz__v')
+);

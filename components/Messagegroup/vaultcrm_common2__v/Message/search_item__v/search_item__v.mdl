@@ -1,0 +1,6 @@
+Message search_item__v (
+   label(),
+   active(true),
+   default_value('Search ${item}'),
+   system_managed(false)
+);

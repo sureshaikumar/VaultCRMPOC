@@ -1,0 +1,4 @@
+Typefield team_product_attainment__v (
+   source('standard'),
+   required(false)
+);

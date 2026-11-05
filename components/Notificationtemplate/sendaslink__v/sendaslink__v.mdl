@@ -1,0 +1,17 @@
+RECREATE Notificationtemplate sendaslink__v (
+   label('sendAsLink'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" has been sent to you'),
+   notification('<b>${docLatestName}</b> has been sent to you by ${senderName}.'),
+   email_body('<p><b>${docLatestName}</b> has been sent to you by ${senderName}</p>
+
+<p>Message:<br>
+<BLOCKQUOTE> ${dynamicMessage}</BLOCKQUOTE>
+</p>
+'),
+   entity_type('document'),
+   notification_category('send_as_link__sys')
+);

@@ -1,0 +1,13 @@
+Vsmfield status__v (
+   label('Status'),
+   active(true),
+   description('Indicates whether the glossary definition record is active or inactive. Standard values are active__v and inactive__v. Use this to filter for currently valid and in-use definitions versus deprecated or disabled entries.'),
+   example_values(),
+   synonyms('active status',
+         'record status',
+         'enabled'),
+   target('status__v'),
+   target_label('Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,12 @@
+Vsmfield mobile_phone__v (
+   label('Mobile'),
+   active(true),
+   description('The user\''s mobile phone number.'),
+   example_values(),
+   synonyms('Phone Number',
+         'Telephone number'),
+   target('mobile_phone__sys'),
+   target_label('Mobile'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

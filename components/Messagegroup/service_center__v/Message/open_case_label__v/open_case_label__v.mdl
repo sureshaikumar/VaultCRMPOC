@@ -1,0 +1,6 @@
+Message open_case_label__v (
+   label(),
+   active(true),
+   default_value('Open Case'),
+   system_managed(false)
+);

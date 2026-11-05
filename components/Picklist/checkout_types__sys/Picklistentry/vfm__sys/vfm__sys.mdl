@@ -1,0 +1,5 @@
+Picklistentry vfm__sys (
+   value('Vault File Manager'),
+   order(3),
+   active(true)
+);

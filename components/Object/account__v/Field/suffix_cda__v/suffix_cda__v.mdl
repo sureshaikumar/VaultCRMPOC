@@ -1,0 +1,19 @@
+Field suffix_cda__v (
+   label('Suffix'),
+   type('String'),
+   active(true),
+   description('Includes professional credentials or generational titles such as I, II, III, IV, but excludes medical degrees.'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content('Suffix.  Used for person accounts.'),
+   list_column(false),
+   order(88),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

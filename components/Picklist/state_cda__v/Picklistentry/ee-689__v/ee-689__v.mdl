@@ -1,0 +1,6 @@
+Picklistentry ee-689__v (
+   value('Ruhnu'),
+   order(1125),
+   active(true),
+   controlling_entries('ee__v')
+);

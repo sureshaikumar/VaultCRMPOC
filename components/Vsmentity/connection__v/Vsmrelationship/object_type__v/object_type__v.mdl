@@ -1,0 +1,14 @@
+Vsmrelationship object_type__v (
+   label('Connection Type'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The object type classification for this connection record, determining its behavior and available fields. Use this to filter connections by type (e.g., External, Vault-to-Vault, Local or LLM).'),
+   join_object(),
+   synonyms('object type',
+         'type',
+         'record type',
+         'connection type'),
+   target('object_type__vr'),
+   target_label('Connection Type'),
+   target_object('object_type__v')
+);

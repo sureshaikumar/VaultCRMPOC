@@ -1,0 +1,5 @@
+Picklistentry nu__v (
+   value('Niue'),
+   order(162),
+   active(true)
+);

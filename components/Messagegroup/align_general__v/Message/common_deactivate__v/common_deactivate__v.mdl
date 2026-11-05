@@ -1,0 +1,6 @@
+Message common_deactivate__v (
+   label(),
+   active(true),
+   default_value('Deactivate'),
+   system_managed(false)
+);

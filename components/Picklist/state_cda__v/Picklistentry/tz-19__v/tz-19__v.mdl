@@ -1,0 +1,6 @@
+Picklistentry tz-19__v (
+   value('Pwani'),
+   order(4603),
+   active(true),
+   controlling_entries('tz__v')
+);

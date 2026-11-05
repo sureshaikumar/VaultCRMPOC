@@ -1,0 +1,11 @@
+Vsmrelationship security_profile__v (
+   label('Security Profile'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('Outbound object reference to a user\''s security profile record'),
+   join_object(),
+   synonyms(),
+   target('security_profile__sysr'),
+   target_label('Security Profile'),
+   target_object('security_profile__sys')
+);

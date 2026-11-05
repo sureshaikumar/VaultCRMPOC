@@ -1,0 +1,16 @@
+RECREATE Picklist em_event_history_event_starting_status__v (
+   label('Event Starting Status'),
+   active(true),
+   Picklistentry(@Picklistentry/requested__v.mdl),
+   Picklistentry(@Picklistentry/pending_approval__v.mdl),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   Picklistentry(@Picklistentry/rejected__v.mdl),
+   Picklistentry(@Picklistentry/canceled__v.mdl),
+   Picklistentry(@Picklistentry/closed__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   Picklistentry(@Picklistentry/execute__v.mdl),
+   Picklistentry(@Picklistentry/canceled_processed__v.mdl),
+   Picklistentry(@Picklistentry/vault_workflow__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

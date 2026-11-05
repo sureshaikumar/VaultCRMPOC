@@ -1,0 +1,5 @@
+Picklistentry test_1__c (
+   value('Test 1'),
+   order(0),
+   active(true)
+);

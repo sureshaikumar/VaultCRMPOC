@@ -1,0 +1,5 @@
+Picklistentry 22180__v (
+   value('Fayetteville, NC Metropolitan Statistical Area'),
+   order(164),
+   active(true)
+);

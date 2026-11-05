@@ -1,0 +1,44 @@
+RECREATE Notificationtemplate vault_config_report_warning__v (
+   label('Configuration Report Warning'),
+   active(true),
+   description('Configuration Report Job Notification warning template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Vault Configuration Report has completed with warning'),
+   notification('
+   <b>Your <a href="${reportUrl}">Vault Configuration Report</a> has completed with warning </b>
+   <br><br>
+   <p>Details: </p>
+   <ul>
+        <li>Include Vault Settings: ${includeVaultSettings} </li>
+        <li>Include Document & Binder Templates: ${includeDocumentBinderTemplates} </li>
+        <li>Include Inactive Components: ${includeInactiveComponents} </li>
+        <li>Suppress Empty Results: ${suppressEmptyResults} </li>
+        <li>Include Components Modified Since: ${includeComponentsModifiedSince} </li>
+        <li>Output Format: ${outputFormat} </li>
+        <li>Start Time: ${startTime} </li>
+        <li>Duration: ${duration} </li>
+        <li><a href="${reportUrl}">Download report</a> </li>
+        <li><a href="${errorLogUrl}">Download error log</a> </li>
+   </ul>
+   '),
+   email_body('
+   <b>Your Vault Configuration Report has completed with warning </b>
+   <br><br>
+   <p>Details: </p>
+   <ul>
+        <li>Include Vault Settings: ${includeVaultSettings} </li>
+        <li>Include Document & Binder Templates: ${includeDocumentBinderTemplates} </li>
+        <li>Include Inactive Components: ${includeInactiveComponents} </li>
+        <li>Suppress Empty Results: ${suppressEmptyResults} </li>
+        <li>Include Components Modified Since: ${includeComponentsModifiedSince} </li>
+        <li>Output Format: ${outputFormat} </li>
+        <li>Start Time: ${startTime} </li>
+        <li>Duration: ${duration} </li>
+        <li><a href="${reportUrl}">Download report</a> </li>
+        <li><a href="${errorLogUrl}">Download error log</a> </li>
+   </ul>
+   '),
+   entity_type('document'),
+   notification_category('none__sys')
+);

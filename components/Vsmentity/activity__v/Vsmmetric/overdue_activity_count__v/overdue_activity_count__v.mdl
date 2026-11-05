@@ -1,0 +1,13 @@
+Vsmmetric overdue_activity_count__v (
+   label('Overdue Activity Count'),
+   active(true),
+   description('Number of activities where the due date has passed but the activity is not yet marked as complete. Use this to identify backlog, follow up on outstanding tasks, or assess team responsiveness and workload health.'),
+   instructions('Count all activity records where due_date__v is earlier than today and complete__v is false.'),
+   synonyms('past due activities',
+         'how many overdue',
+         'late activities',
+         'missed due date count'),
+   target_fields('id',
+         'due_date__v',
+         'complete__v')
+);

@@ -1,0 +1,6 @@
+Message search_before_create__v (
+   label(),
+   active(true),
+   default_value('To create an account, first perform a search to make sure it doesn''t exist'),
+   system_managed(false)
+);

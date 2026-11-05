@@ -1,0 +1,6 @@
+Message home_suggestion__v (
+   label(),
+   active(true),
+   default_value('Have a suggestion? Visit the {0}'),
+   system_managed(false)
+);

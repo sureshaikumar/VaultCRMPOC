@@ -1,0 +1,18 @@
+Field optout_event_type__v (
+   label('Event Type'),
+   type('Picklist'),
+   active(true),
+   description('Optout_Event_Type_vod captures the reason for an Opt-Out. The values in this field are determined by the Approved Email email engine.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(25),
+   multi_value(false),
+   picklist('Picklist.multichannel_consent_optout_event_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

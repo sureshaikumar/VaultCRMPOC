@@ -1,0 +1,6 @@
+Picklistentry pharo__v (
+   value('Pharmacognosy'),
+   order(1516),
+   active(true),
+   controlling_entries('dz__v')
+);

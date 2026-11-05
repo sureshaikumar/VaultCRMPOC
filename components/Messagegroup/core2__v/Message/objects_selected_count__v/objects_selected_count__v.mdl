@@ -1,0 +1,6 @@
+Message objects_selected_count__v (
+   label(),
+   active(true),
+   default_value('${selected_count} of ${total_count} ${item_label} selected'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 16620__v (
+   value('Charleston, WV Metropolitan Statistical Area'),
+   order(916),
+   active(true)
+);

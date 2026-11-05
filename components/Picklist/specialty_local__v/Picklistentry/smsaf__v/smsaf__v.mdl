@@ -1,0 +1,6 @@
+Picklistentry smsaf__v (
+   value('Sports Medicine / Sports and Exercise Medicine'),
+   order(1802),
+   active(true),
+   controlling_entries('ke__v')
+);

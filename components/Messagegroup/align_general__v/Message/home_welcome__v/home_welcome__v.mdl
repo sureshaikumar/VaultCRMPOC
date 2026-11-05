@@ -1,0 +1,6 @@
+Message home_welcome__v (
+   label(),
+   active(true),
+   default_value('Welcome to Veeva Align'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield ship_state_distributor_exp_date__v (
+   source('standard'),
+   required(false)
+);

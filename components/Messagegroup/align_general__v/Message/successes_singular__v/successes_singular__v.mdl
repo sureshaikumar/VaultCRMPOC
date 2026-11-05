@@ -1,0 +1,6 @@
+Message successes_singular__v (
+   label(),
+   active(true),
+   default_value('${count} Success'),
+   system_managed(false)
+);

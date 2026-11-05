@@ -1,0 +1,5 @@
+Picklistentry 29100__v (
+   value('La Crosse, WI-MN Metropolitan Statistical Area'),
+   order(252),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry cahsi__v (
+   value('Childcare Assistant'),
+   order(18),
+   active(true)
+);

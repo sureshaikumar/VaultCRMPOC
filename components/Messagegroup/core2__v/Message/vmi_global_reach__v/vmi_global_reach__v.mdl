@@ -1,0 +1,6 @@
+Message vmi_global_reach__v (
+   label(),
+   active(true),
+   default_value('Global Reach'),
+   system_managed(false)
+);

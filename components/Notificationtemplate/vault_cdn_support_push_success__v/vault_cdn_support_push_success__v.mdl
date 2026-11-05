@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vault_cdn_support_push_success__v (
+   label('vaultCDNSupportPushSuccess'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Push to CDN for ${documentName} succeeded'),
+   notification('Push to CDN for <a href="${documentLink}">${documentName}</a> succeeded'),
+   email_body('<p>${notificationMessage}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

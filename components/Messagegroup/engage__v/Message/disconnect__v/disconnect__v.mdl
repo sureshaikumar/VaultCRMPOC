@@ -1,0 +1,6 @@
+Message disconnect__v (
+   label(),
+   active(true),
+   default_value('Disconnect'),
+   system_managed(false)
+);

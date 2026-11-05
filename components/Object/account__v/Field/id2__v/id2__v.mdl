@@ -1,0 +1,19 @@
+Field id2__v (
+   label('ID2'),
+   type('String'),
+   active(true),
+   description('The ID2__v field acts as a secondary identifier to link Accounts to Sales Data via the Analytics application.  This ID should be leveraged in the case that a Physician has both distribution and script data loaded.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(48),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

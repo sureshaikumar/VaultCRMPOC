@@ -1,0 +1,6 @@
+Picklistentry sb-te__v (
+   value('Temotu'),
+   order(3899),
+   active(true),
+   controlling_entries('sb__v')
+);

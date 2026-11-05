@@ -1,0 +1,6 @@
+Message last_updated_time__v (
+   label(),
+   active(true),
+   default_value('Last updated at ${time}'),
+   system_managed(false)
+);

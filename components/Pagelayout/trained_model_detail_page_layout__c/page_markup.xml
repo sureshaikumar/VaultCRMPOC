@@ -1,0 +1,101 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.trained_model__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="trained_model_type__sys" />
+            <vault:field reference="prediction_confidence_threshold__sys" />
+            <vault:field reference="training_set_type__sys" />
+            <vault:field reference="minimum_documents_per_document_type__sys" />
+            <vault:field reference="training_window_start_date__sys" />
+            <vault:field reference="training_summary_results__sys" />
+            <vault:spacer />
+            <vault:field reference="state__v" />
+            <vault:field reference="auto_deploy__sys" />
+            <vault:field reference="training_date__sys" />
+            <vault:field reference="deployed_date__sys" />
+            <vault:field reference="withdrawn_date__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Document Criteria" name="document_criteria_control__c" reference="document_criteria_control__sys" />
+    <vault:section title="Model Performance Metrics" name="document_classification_model_perf_metrics__c" helpContent="This section shows the performance metrics to determine the viability of this trained model in your Vault.">
+        <vault:sectionState state="trained_model_lifecycle__sys.trained_state__sys" />
+        <vault:sectionState state="trained_model_lifecycle__sys.deployed_state__sys" />
+        <vault:sectionState state="trained_model_lifecycle__sys.archived_state__sys" />
+        <vault:sectionState state="trained_model_lifecycle__sys.in_deployment_state__sys" />
+        <vault:relatedObject relationship="trained_model_performance_metrics__sysr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:vqlFilterCriteria query="field_extracted__sys = NULL" applyOnCreate="false" />
+            <vault:field reference="performance_metric_type__sys" width="200px" />
+            <vault:field reference="performance_metric_subtype__sys" width="200px" />
+            <vault:field reference="precision__sys" width="200px" />
+            <vault:field reference="recall__sys" width="200px" />
+            <vault:field reference="f1_score__sys" width="200px" />
+            <vault:field reference="training_documents__sys" width="200px" />
+            <vault:field reference="testing_documents__sys" width="200px" />
+            <vault:field reference="trained_model__sys" width="200px" />
+            <vault:field reference="correct_predictions__sys" width="200px" />
+            <vault:field reference="correct_predictions_above_threshold__sys" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Model Performance Metrics" name="metadata_extraction_model_perf_metrics__c">
+        <vault:sectionState state="trained_model_lifecycle__sys.trained_state__sys" />
+        <vault:sectionState state="trained_model_lifecycle__sys.deployed_state__sys" />
+        <vault:sectionState state="trained_model_lifecycle__sys.archived_state__sys" />
+        <vault:sectionState state="trained_model_lifecycle__sys.in_deployment_state__sys" />
+        <vault:relatedObject relationship="trained_model_performance_metrics__sysr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:vqlFilterCriteria query="field_extracted__sys != NULL" applyOnCreate="false" />
+            <vault:field reference="performance_metric_type__sys" width="200px" />
+            <vault:field reference="performance_metric_subtype__sys" width="200px" />
+            <vault:field reference="field_extracted__sys" width="200px" />
+            <vault:field reference="precision__sys" width="200px" />
+            <vault:field reference="recall__sys" width="200px" />
+            <vault:field reference="f1_score__sys" width="200px" />
+            <vault:field reference="testing_documents__sys" width="200px" />
+            <vault:field reference="trained_model__sys" width="200px" />
+            <vault:field reference="correct_predictions__sys" width="200px" />
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Excluded Classifications" name="excluded_classifications__c">
+        <vault:relatedObject relationship="excluded_classifications__sysr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="classification__sys" width="200px" />
+            <vault:field reference="trained_model__sys" width="200px" />
+            <vault:field reference="comments__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Trained Model Artifacts" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Prediction Metrics" name="document_classification_prediction_metrics__c">
+        <vault:relatedObject relationship="trained_model_performance_metric__sysr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+            <vault:field reference="performance_metric_type__sys" width="200px" />
+            <vault:field reference="metric_subtype__sys" width="200px" />
+            <vault:field reference="number_of_documents__sys" width="200px" />
+            <vault:field reference="success_rate__sys" width="200px" />
+            <vault:field reference="correct_predictions__sys" width="200px" />
+            <vault:field reference="correct_predictions_above_threshold__sys" width="200px" />
+            <vault:field reference="predictions_above_threshold__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Prediction Metrics" name="metadata_extraction_prediction_metrics__c">
+        <vault:relatedObject relationship="trained_model_performance_metric__sysr" preventRecordCreate="true" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="created_date__v" width="200px" />
+            <vault:field reference="performance_metric_type__sys" width="200px" />
+            <vault:field reference="metric_subtype__sys" width="200px" />
+            <vault:field reference="field_extracted__sys" width="200px" />
+            <vault:field reference="number_of_documents__sys" width="200px" />
+            <vault:field reference="success_rate__sys" width="200px" />
+            <vault:field reference="correct_predictions_above_threshold__sys" width="200px" />
+            <vault:field reference="partial_predictions_above_threshold__sys" width="200px" />
+            <vault:field reference="incorrect_predictions_above_threshold__sys" width="200px" />
+            <vault:field reference="predictions_above_threshold__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

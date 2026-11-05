@@ -1,0 +1,6 @@
+Picklistentry ma-tin__v (
+   value('Tinghir'),
+   order(2847),
+   active(true),
+   controlling_entries('ma__v')
+);

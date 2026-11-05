@@ -1,0 +1,21 @@
+Field ship_address__v (
+   label('Ship Address'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(49),
+   formula('ship_address_line_1__v & If(Length(ship_address_line_2__v) > 0, ", " & ship_address_line_2__v, "") & If(Length(ship_city__v) > 0, ", " & ship_city__v, "") & If(Length(ship_state__v) > 0, ", " & ship_state__v, "") & If(Length(ship_zip__v) > 0, " " & ship_zip__v, "")& If(Length(ship_country__v) > 0, " " & ship_country__v, "")'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

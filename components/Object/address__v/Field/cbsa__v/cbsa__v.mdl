@@ -1,0 +1,18 @@
+Field cbsa__v (
+   label('Metropolitan (CBSA)'),
+   type('Picklist'),
+   active(true),
+   description('A core-based statistical area (CBSA) is a U.S. geographic area defined by the Office of Management and Budget (OMB). Includes counties linked to an urban center (population ≥ 10,000) by commuting ties.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(97),
+   multi_value(false),
+   picklist('Picklist.cbsa__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

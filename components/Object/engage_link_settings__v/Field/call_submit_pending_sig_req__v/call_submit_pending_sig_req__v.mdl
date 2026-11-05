@@ -1,0 +1,23 @@
+Field call_submit_pending_sig_req__v (
+   label('Call Submit with Pending Sig Request'),
+   type('Number'),
+   active(true),
+   description('When set to 1, asynchronous remote signature methods will not require the user to review and accept the HCP signature before it is saved to the call and calls may be submitted with a pending asynchronous remote signature method.'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

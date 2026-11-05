@@ -1,0 +1,19 @@
+Field communitynickname__v (
+   label('Nickname'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('Name used to identify this user in the Experience Cloud site'),
+   list_column(false),
+   order(118),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

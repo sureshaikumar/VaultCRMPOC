@@ -1,0 +1,6 @@
+Message x_days_overdue__v (
+   label(),
+   active(true),
+   default_value('${x} Days Overdue'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message cascade_end_date_failure__v (
+   label(),
+   active(true),
+   default_value('Failed to update end_date__v of ${count} ${assignment_object_name} records due to ''${error_message}'''),
+   system_managed(false)
+);

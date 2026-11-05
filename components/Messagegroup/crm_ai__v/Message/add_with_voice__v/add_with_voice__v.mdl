@@ -1,0 +1,6 @@
+Message add_with_voice__v (
+   label(),
+   active(true),
+   default_value('Add with Voice'),
+   system_managed(false)
+);

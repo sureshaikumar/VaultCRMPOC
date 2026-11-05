@@ -1,0 +1,17 @@
+Field date_signed__v (
+   label('Date Signed'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(true),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

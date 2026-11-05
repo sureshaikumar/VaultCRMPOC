@@ -1,0 +1,6 @@
+Message tab_is_unavailable_in_media_session__v (
+   label(),
+   active(true),
+   default_value('${tab_name} is unavailable while a media session is initiated'),
+   system_managed(false)
+);

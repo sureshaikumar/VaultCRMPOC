@@ -1,0 +1,6 @@
+Message survey_unlock__v (
+   label(),
+   active(true),
+   default_value('Survey Target Unlocked'),
+   system_managed(false)
+);

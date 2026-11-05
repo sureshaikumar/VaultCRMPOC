@@ -1,0 +1,6 @@
+Message adherence_follow_up__v (
+   label(),
+   active(true),
+   default_value('Adherence Follow-up'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Page documented_interest_page__v (
+   label('Documented Interest'),
+   active(true),
+   client_distribution(),
+   default_client_code('documented_interest_page__v'),
+   description('Documented Interest Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.documentedinterest.controls.page.DocumentedInterestPageControl'),
+   url_path_name('documented-interest')
+);

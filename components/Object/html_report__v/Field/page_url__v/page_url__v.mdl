@@ -1,0 +1,17 @@
+Field page_url__v (
+   label('Page URL'),
+   type('LongText'),
+   active(true),
+   description('If populated, the X-Page will be loaded from this URL. Any attachments will be ignored.'),
+   required(false),
+   max_length(2000),
+   help_content('Optional. An external URL where the X-Page is hosted.'),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

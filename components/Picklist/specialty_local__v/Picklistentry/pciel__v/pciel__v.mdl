@@ -1,0 +1,6 @@
+Picklistentry pciel__v (
+   value('Pediatric Clinical Immunology'),
+   order(1350),
+   active(true),
+   controlling_entries('il__v')
+);

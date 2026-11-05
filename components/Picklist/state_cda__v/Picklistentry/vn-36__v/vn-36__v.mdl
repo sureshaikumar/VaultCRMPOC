@@ -1,0 +1,6 @@
+Picklistentry vn-36__v (
+   value('Ninh Thuận'),
+   order(4939),
+   active(true),
+   controlling_entries('vn__v')
+);

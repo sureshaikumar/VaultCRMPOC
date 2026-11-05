@@ -1,0 +1,6 @@
+Message crm_integration_field_mappings_required__v (
+   label(),
+   active(true),
+   default_value('Field Mapping Setup Required'),
+   system_managed(false)
+);

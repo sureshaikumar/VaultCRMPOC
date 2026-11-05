@@ -1,0 +1,10 @@
+RECREATE Objectvalidation pricing_subrule__v.kit_item__v (
+   label('Kit Item'),
+   active(true),
+   expression('Not(
+    product__vr.product_type__v = ''kit_item__v''
+)'),
+   description('Comparison Product of product type Kit Item is not supported.'),
+   error_message('Kit Items are not supported as Comparison Product'),
+   error_location('product__v')
+);

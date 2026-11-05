@@ -1,0 +1,9 @@
+RECREATE Picklist aln_target_challenge_type__v (
+   label('Target Challenge Type'),
+   active(true),
+   Picklistentry(@Picklistentry/goal_edit__v.mdl),
+   Picklistentry(@Picklistentry/remove_target__v.mdl),
+   Picklistentry(@Picklistentry/add_target__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

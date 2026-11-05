@@ -1,0 +1,6 @@
+Message mccp_feedback_instructions__v (
+   label(),
+   active(true),
+   default_value('Instructions'),
+   system_managed(false)
+);

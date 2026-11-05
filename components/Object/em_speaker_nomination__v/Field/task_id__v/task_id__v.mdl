@@ -1,0 +1,19 @@
+Field task_id__v (
+   label('Task Id'),
+   type('String'),
+   active(true),
+   description('Used to capture the pending Task Id that is assigned. This field is only populated when there is a pending task to select a manual approver. Otherwise, this field is empty.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

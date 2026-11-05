@@ -1,0 +1,21 @@
+RECREATE Job agent_workflow_task_execution__v (
+   active(true),
+   active_after_clone(true),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   hourly_interval(1),
+   label('Agent Workflow Task Execution'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('hourly'),
+   time('0:00'),
+   timezone('UTC'),
+   trigger_date(),
+   type('agent_workflow_task_execution__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

@@ -1,0 +1,6 @@
+Message common_new__v (
+   label(),
+   active(true),
+   default_value('New'),
+   system_managed(false)
+);

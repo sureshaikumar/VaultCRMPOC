@@ -1,0 +1,19 @@
+Field event_business_rule_parameter__v (
+   label('Event Business Rule Parameter'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This field is stamped with the EM Business Rule Parameter that was used to calculate the Expense Estimate record.'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

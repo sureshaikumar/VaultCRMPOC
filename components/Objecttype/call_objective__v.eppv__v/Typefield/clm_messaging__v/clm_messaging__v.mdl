@@ -1,0 +1,4 @@
+Typefield clm_messaging__v (
+   source('custom'),
+   required(false)
+);

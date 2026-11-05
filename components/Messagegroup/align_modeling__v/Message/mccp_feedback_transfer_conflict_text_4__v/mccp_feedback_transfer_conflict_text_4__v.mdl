@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_conflict_text_4__v (
+   label(),
+   active(true),
+   default_value('The below accounts cannot be added as targets due to accepted transfer requests. Continue to add the remaining accounts as targets.'),
+   system_managed(false)
+);

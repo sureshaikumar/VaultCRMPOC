@@ -1,0 +1,6 @@
+Picklistentry ua-30__v (
+   value('Kyïv'),
+   order(4625),
+   active(true),
+   controlling_entries('ua__v')
+);

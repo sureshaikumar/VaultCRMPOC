@@ -1,0 +1,5 @@
+Picklistentry nya (
+   value('Chewa'),
+   order(152),
+   active(true)
+);

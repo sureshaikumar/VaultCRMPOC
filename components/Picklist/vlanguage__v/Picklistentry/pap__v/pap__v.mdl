@@ -1,0 +1,5 @@
+Picklistentry pap__v (
+   value('Papiamento'),
+   order(253),
+   active(false)
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype document_with_created_by_user__v (
+   label('Document with Created By User'),
+   active(false),
+   description(),
+   primary_object('document_view_standard__c.documents'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('MultiPass')
+);

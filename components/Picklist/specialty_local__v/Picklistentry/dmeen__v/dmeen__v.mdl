@@ -1,0 +1,8 @@
+Picklistentry dmeen__v (
+   value('Dental Medicine'),
+   order(361),
+   active(true),
+   controlling_entries('be__v',
+         'bg__v',
+         'lu__v')
+);

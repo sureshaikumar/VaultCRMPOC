@@ -1,0 +1,6 @@
+Message refresh_check_progress__v (
+   label(),
+   active(true),
+   default_value('Refresh to Check Progress'),
+   system_managed(false)
+);

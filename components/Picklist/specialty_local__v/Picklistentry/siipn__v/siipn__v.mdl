@@ -1,0 +1,6 @@
+Picklistentry siipn__v (
+   value('Specialty in Imaging'),
+   order(1789),
+   active(true),
+   controlling_entries('vn__v')
+);

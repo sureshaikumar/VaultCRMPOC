@@ -1,0 +1,19 @@
+Field remote_signature_attendee_name__v (
+   label('Remote Signature Attendee Name'),
+   type('String'),
+   active(true),
+   description('A system field set by Veeva. When a remote AOC signature is collected the field is stamped with the name entered by the signing attendee when joining the Engage Meeting'),
+   required(false),
+   unique(false),
+   max_length(150),
+   help_content(),
+   list_column(false),
+   order(57),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

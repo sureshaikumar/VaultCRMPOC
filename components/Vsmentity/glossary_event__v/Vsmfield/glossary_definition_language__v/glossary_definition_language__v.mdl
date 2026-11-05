@@ -1,0 +1,14 @@
+Vsmfield glossary_definition_language__v (
+   label('Glossary Definition Language'),
+   active(true),
+   description('The language in which the glossary definition was presented to the user during this event. Use this to analyze glossary usage across different language configurations or filter events by locale.'),
+   example_values(),
+   synonyms('language',
+         'definition language',
+         'term language',
+         'locale'),
+   target('glossary_definition_language__sys'),
+   target_label('Glossary Definition Language'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

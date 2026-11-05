@@ -1,0 +1,6 @@
+Message draft_discarded__v (
+   label(),
+   active(true),
+   default_value('Draft Discarded'),
+   system_managed(false)
+);

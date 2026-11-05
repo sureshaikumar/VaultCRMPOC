@@ -1,0 +1,4 @@
+Typefield rebate_inlevel_addition__v (
+   source('standard'),
+   required(false)
+);

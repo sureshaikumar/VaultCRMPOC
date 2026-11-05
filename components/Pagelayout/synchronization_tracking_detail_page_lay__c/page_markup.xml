@@ -1,0 +1,35 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.sync_tracking__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="canceled__v" />
+            <vault:field reference="download_processed__v" />
+            <vault:field reference="media_processed__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="number_of_retries__v" />
+            <vault:field reference="number_of_upload_errors__v" />
+            <vault:field reference="number_of_uploads__v" />
+            <vault:field reference="number_of_vtrans__v" />
+            <vault:field reference="sync_completed_datetime__v" />
+            <vault:field reference="sync_start_datetime__v" />
+            <vault:field reference="sync_type__v" />
+            <vault:field reference="upload_processed__v" />
+            <vault:field reference="vds_processed__v" />
+            <vault:field reference="vinsights_processed__v" />
+            <vault:field reference="version__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="successful_sync__v" />
+            <vault:field reference="sync_duration__v" />
+            <vault:field reference="refresh_mode__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

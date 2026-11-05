@@ -1,0 +1,6 @@
+Picklistentry mw-c__v (
+   value('Chapakati'),
+   order(3210),
+   active(true),
+   controlling_entries('mw__v')
+);

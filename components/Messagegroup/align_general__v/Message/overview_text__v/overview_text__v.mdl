@@ -1,0 +1,6 @@
+Message overview_text__v (
+   label(),
+   active(true),
+   default_value('The Geo Shape Generator makes it possible to visualize territories in Veeva Align in countries where geography shape information is not readily available.'),
+   system_managed(false)
+);

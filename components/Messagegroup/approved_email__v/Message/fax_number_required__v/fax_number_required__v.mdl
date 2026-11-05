@@ -1,0 +1,6 @@
+Message fax_number_required__v (
+   label(),
+   active(true),
+   default_value('A fax number is required for the recipient.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-swk__v (
+   value('Southwark'),
+   order(1637),
+   active(true),
+   controlling_entries('gb__v')
+);

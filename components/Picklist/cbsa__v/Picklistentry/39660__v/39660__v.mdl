@@ -1,0 +1,5 @@
+Picklistentry 39660__v (
+   value('Rapid City, SD Metropolitan Statistical Area'),
+   order(86),
+   active(true)
+);

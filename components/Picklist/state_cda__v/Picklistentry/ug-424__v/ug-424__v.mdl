@@ -1,0 +1,6 @@
+Picklistentry ug-424__v (
+   value('Ntoroko'),
+   order(4766),
+   active(true),
+   controlling_entries('ug__v')
+);

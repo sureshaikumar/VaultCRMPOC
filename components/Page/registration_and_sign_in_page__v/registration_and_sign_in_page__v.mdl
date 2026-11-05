@@ -1,0 +1,14 @@
+RECREATE Page registration_and_sign_in_page__v (
+   label('Event Registration and Sign In'),
+   active(true),
+   client_distribution(),
+   default_client_code('registration_and_sign_in_page__v'),
+   description('Event Registration and Sign In Administration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.eventsmanagement.page.EmSignInAdminPageController'),
+   url_path_name('event-registration-and-sign-in-admin')
+);

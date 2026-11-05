@@ -1,0 +1,9 @@
+Vsmvalue cup__v (
+   label('CUP'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Cuba.'),
+   synonyms('Cuban Peso',
+         'Cuba Peso'),
+   target('cup__sys'),
+   target_label('CUP')
+);

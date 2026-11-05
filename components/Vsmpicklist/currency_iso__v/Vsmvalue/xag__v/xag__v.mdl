@@ -1,0 +1,10 @@
+Vsmvalue xag__v (
+   label('XAG'),
+   active(true),
+   description('Applies when transactions are valued in silver as a commodity or precious metal, using the ISO standard code for silver.'),
+   synonyms('silver',
+         'silver commodity',
+         'precious metal silver'),
+   target('xag__sys'),
+   target_label('XAG')
+);

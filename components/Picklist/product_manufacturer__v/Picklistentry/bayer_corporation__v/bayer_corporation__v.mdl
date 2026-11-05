@@ -1,0 +1,5 @@
+Picklistentry bayer_corporation__v (
+   value('Bayer Corporation'),
+   order(8),
+   active(true)
+);

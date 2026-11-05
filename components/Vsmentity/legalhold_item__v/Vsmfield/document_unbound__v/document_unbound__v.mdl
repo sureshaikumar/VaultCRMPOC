@@ -1,0 +1,13 @@
+Vsmfield document_unbound__v (
+   label('Document (unbound)'),
+   active(true),
+   description('Numeric identifier referencing the document in an unbound (version-independent) manner, representing the document regardless of its version. IMPORTANT: This field captures the document at the object level without tying to a specific version; for version-specific references use document__v or doc_id_major_minor__v instead.'),
+   example_values(),
+   synonyms('unbound doc',
+         'unversioned document',
+         'doc ID'),
+   target('document_unbound__v'),
+   target_label('Document (unbound)'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

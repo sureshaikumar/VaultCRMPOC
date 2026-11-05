@@ -1,0 +1,6 @@
+Picklistentry gb-isl__v (
+   value('Islington'),
+   order(1543),
+   active(true),
+   controlling_entries('gb__v')
+);

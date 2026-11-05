@@ -1,0 +1,8 @@
+Typefield network_ctrl_sub_prescriptive__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_network_ctrl_sub_prescriptive__v.n__v',
+         'Picklist.address_network_ctrl_sub_prescriptive__v.sb__v',
+         'Picklist.address_network_ctrl_sub_prescriptive__v.u__v',
+         'Picklist.address_network_ctrl_sub_prescriptive__v.y__v')
+);

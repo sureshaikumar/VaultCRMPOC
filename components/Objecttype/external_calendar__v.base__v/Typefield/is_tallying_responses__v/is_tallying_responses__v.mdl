@@ -1,0 +1,4 @@
+Typefield is_tallying_responses__v (
+   source('standard'),
+   required(false)
+);

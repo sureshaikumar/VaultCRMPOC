@@ -1,0 +1,5 @@
+Picklistentry in_process__v (
+   value('In Process'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,7 @@
+Queueconnection medical_crm_oqc__v (
+   label('Medical-CRM Connection'),
+   active(true),
+   connection_name('medical_crm__v'),
+   connection_type('vault_to_vault__sys'),
+   deliver_to_queue('medical_crm_inbound_queue__v')
+);

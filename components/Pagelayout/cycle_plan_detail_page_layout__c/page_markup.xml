@@ -1,0 +1,41 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.cycle_plan__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="comments__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="lock__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="cycle_plan_status__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="actual_calls__v" />
+            <vault:field reference="planned_calls__v" />
+            <vault:field reference="attainment_difference__v" />
+            <vault:field reference="attainment__v" />
+            <vault:field reference="expected_attainment__v" />
+            <vault:field reference="expected_calls__v" />
+            <vault:field reference="remaining__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Cycle Plan Targets" name="cycle_plan_targets__c">
+        <vault:relatedObject relationship="cycle_plan_targets__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="cycle_plan_account__v" width="200px" />
+            <vault:field reference="actual_calls__v" width="200px" />
+            <vault:field reference="total_actual_calls__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry yi (
+   value('Yiddish'),
+   order(90),
+   active(true)
+);

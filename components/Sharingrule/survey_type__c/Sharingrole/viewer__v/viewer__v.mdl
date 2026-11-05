@@ -1,0 +1,3 @@
+Sharingrole viewer__v (
+   members('Group.all_internal_users__v')
+);

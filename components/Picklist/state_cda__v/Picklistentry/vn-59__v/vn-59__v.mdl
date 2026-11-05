@@ -1,0 +1,6 @@
+Picklistentry vn-59__v (
+   value('Cà Mau'),
+   order(4959),
+   active(true),
+   controlling_entries('vn__v')
+);

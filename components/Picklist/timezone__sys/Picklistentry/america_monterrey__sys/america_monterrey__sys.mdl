@@ -1,0 +1,5 @@
+Picklistentry america_monterrey__sys (
+   value('(GMT-06:00) Central Standard Time (America/Monterrey)'),
+   order(44),
+   active(true)
+);

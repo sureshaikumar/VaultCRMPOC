@@ -1,0 +1,6 @@
+Message disconnect_ph_number__v (
+   label(),
+   active(true),
+   default_value('Disconnect Phone Number'),
+   system_managed(false)
+);

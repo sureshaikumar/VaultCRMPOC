@@ -1,0 +1,17 @@
+Field segments__v (
+   label('Segments'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(5000),
+   help_content('System field used to determine whether the record should be cloned during feedback cloning.'),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

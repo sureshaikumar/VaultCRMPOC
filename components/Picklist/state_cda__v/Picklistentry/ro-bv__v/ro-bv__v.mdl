@@ -1,0 +1,6 @@
+Picklistentry ro-bv__v (
+   value('Brașov'),
+   order(3725),
+   active(true),
+   controlling_entries('ro__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lk-31__v (
+   value('Galle'),
+   order(2569),
+   active(true),
+   controlling_entries('lk__v')
+);

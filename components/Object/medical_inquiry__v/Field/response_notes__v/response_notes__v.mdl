@@ -1,0 +1,17 @@
+Field response_notes__v (
+   label('Response Notes'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Response Notes for Vault MedComms Medical Inquiries'),
+   list_column(false),
+   order(48),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

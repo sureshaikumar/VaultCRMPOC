@@ -1,0 +1,18 @@
+Field isactive__v (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates whether the user has access to log in (true) or not (false)'),
+   list_column(false),
+   order(113),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

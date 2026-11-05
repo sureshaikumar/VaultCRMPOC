@@ -1,0 +1,17 @@
+Field hipaa_authorization_required__v (
+   label('HIPAA Authorization Required?'),
+   type('Boolean'),
+   active(true),
+   description('Indicated whether HIPAA Authorization is needed for the Patient Journey'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

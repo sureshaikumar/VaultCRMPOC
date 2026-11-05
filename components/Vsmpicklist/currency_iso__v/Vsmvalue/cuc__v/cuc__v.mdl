@@ -1,0 +1,10 @@
+Vsmvalue cuc__v (
+   label('CUC'),
+   active(true),
+   description('Use when recording monetary amounts in the Cuban Convertible Peso, a currency formerly used alongside the Cuban Peso in Cuba.'),
+   synonyms('Cuban Convertible Peso',
+         'Cuba CUC',
+         'Convertible Peso'),
+   target('cuc__sys'),
+   target_label('CUC')
+);

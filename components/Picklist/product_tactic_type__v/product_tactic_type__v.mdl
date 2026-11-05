@@ -1,0 +1,10 @@
+RECREATE Picklist product_tactic_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/contracting__v.mdl),
+   Picklistentry(@Picklistentry/co_promote__v.mdl),
+   Picklistentry(@Picklistentry/efficacy_promotion__v.mdl),
+   Picklistentry(@Picklistentry/formulary_position__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

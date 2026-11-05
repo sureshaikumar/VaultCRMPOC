@@ -1,0 +1,6 @@
+Picklistentry us-ut__v (
+   value('Utah'),
+   order(4840),
+   active(true),
+   controlling_entries('us__v')
+);

@@ -1,0 +1,4 @@
+Typefield markdown__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-331__v (
+   value('Omoro'),
+   order(4736),
+   active(true),
+   controlling_entries('ug__v')
+);

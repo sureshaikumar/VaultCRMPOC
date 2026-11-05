@@ -1,0 +1,18 @@
+Field disable_first_name_required__v (
+   label('DISABLE_FIRST_NAME_REQUIRED'),
+   type('Boolean'),
+   active(true),
+   description('This determines whether the First Name field is required in the New Account Wizard. Default is unchecked, making first name required.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(90),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

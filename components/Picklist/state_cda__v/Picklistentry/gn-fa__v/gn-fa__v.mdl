@@ -1,0 +1,6 @@
+Picklistentry gn-fa__v (
+   value('Faranah Prefecture'),
+   order(1727),
+   active(true),
+   controlling_entries('gn__v')
+);

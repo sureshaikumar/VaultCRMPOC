@@ -1,0 +1,7 @@
+Typefield sample_card_reason__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_sample_card_reason__v.application_unavailable__v',
+         'Picklist.call2_sample_card_reason__v.laptop_unavailable__v',
+         'Picklist.call2_sample_card_reason__v.other__v')
+);

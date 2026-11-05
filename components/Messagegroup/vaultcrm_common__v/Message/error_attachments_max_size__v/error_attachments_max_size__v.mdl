@@ -1,0 +1,6 @@
+Message error_attachments_max_size__v (
+   label(),
+   active(true),
+   default_value('One or more of the selected files are larger than the maximum file size. Please make sure regular file attachment uploads are limited to 4 GB and video files are limited to 2 GB'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message project_territory_import_note__v (
+   label(),
+   active(true),
+   default_value('Note: This will automatically import all of the production territory''s manual assignment records, account rules, and account rules criteria.'),
+   system_managed(false)
+);

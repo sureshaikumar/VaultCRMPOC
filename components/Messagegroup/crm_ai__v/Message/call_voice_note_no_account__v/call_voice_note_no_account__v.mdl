@@ -1,0 +1,6 @@
+Message call_voice_note_no_account__v (
+   label(),
+   active(true),
+   default_value('We couldn’t identify an account for your call. Please select an account to proceed.'),
+   system_managed(false)
+);

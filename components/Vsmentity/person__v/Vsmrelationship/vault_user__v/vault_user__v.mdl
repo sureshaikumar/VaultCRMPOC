@@ -1,0 +1,15 @@
+Vsmrelationship vault_user__v (
+   label('User'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The Vault system user account linked to this Person record, connecting the person''s profile to their authentication and access identity. Use this to filter persons by their associated Vault user (e.g., vault_user__sysr.user_name__sys = ''jsmith@example.com'').'),
+   join_object(),
+   synonyms('user account',
+         'Vault user',
+         'system user',
+         'login',
+         'user profile'),
+   target('vault_user__sysr'),
+   target_label('User'),
+   target_object('user__sys')
+);

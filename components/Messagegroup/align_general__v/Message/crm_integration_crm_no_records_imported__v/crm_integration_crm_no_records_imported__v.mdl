@@ -1,0 +1,6 @@
+Message crm_integration_crm_no_records_imported__v (
+   label(),
+   active(true),
+   default_value('No changes in CRM detected, no new records imported.'),
+   system_managed(false)
+);

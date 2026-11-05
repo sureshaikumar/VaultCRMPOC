@@ -1,0 +1,18 @@
+Field shipping_cda__v (
+   label('Shipping'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether this represents a shipping address.'),
+   required(false),
+   checkbox(true),
+   help_content('Checkbox that determines if an Address serves as a shipping address'),
+   list_column(false),
+   order(68),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message targeting_rule_must_assign_field_force__v (
+   label(),
+   active(true),
+   default_value('Targeting Rule must be assigned to a Field Force or Model Field Force.'),
+   system_managed(false)
+);

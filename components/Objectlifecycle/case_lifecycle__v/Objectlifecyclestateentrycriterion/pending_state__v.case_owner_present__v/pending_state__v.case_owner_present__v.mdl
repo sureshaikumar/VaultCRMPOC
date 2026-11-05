@@ -1,0 +1,4 @@
+Objectlifecyclestateentrycriterion pending_state__v.case_owner_present__v (
+   rule(@rule.xml),
+   order(1000)
+);

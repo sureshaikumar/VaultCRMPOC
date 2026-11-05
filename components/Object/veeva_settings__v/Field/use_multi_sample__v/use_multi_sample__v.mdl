@@ -1,0 +1,18 @@
+Field use_multi_sample__v (
+   label('USE MULTI SAMPLE'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(323),
+   default_value('TRUE'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message vmi_user_offline__v (
+   label(),
+   active(true),
+   default_value('Link entities cannot be tagged while offline.'),
+   system_managed(false)
+);

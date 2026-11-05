@@ -1,0 +1,6 @@
+Picklistentry td-bo__v (
+   value('Būrkū'),
+   order(4302),
+   active(true),
+   controlling_entries('td__v')
+);

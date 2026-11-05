@@ -1,0 +1,6 @@
+Picklistentry ma-asz__v (
+   value('Assa-Zag (EH-partial)'),
+   order(2780),
+   active(true),
+   controlling_entries('ma__v')
+);

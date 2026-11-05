@@ -1,0 +1,6 @@
+Message cannot_delete__v (
+   label(),
+   active(true),
+   default_value('Cannot delete "${resource_identifier}": ${error_message}'),
+   system_managed(false)
+);

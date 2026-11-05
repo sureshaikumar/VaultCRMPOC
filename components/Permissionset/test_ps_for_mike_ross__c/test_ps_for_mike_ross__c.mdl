@@ -1,0 +1,22 @@
+RECREATE Permissionset test_ps_for_mike_ross__c (
+   label('Test PS for Mike Ross'),
+   active(true),
+   description(),
+   object.prateek_test__c.field_actions('edit'),
+   object.prateek_test__c.object_actions('create',
+      'delete'),
+   object.test_object__c.base__v.object_actions('create',
+      'delete'),
+   object.test_object__c.field_actions('edit',
+      'read'),
+   object.test_object__c.record_type_demo__c.object_actions('create',
+      'delete'),
+   object.test_object__c.test_demo__c.object_actions('create',
+      'delete'),
+   object.test_object__c.tets2__c.object_actions('create',
+      'delete'),
+   tab.prateek_tests__c.tab_actions('view'),
+   tab.test_object_tbds__c.tab_actions('view'),
+   tab.test_objects_tab__c.tab_actions('view'),
+   vault_actions.search('suggest')
+);

@@ -1,0 +1,18 @@
+Field opt_type__v (
+   label('Opt Type'),
+   type('Picklist'),
+   active(true),
+   description('Opt_Type_vod represents the type of Opt for the MultiChannel_Consent_vod record.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.multichannel_consent_opt_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

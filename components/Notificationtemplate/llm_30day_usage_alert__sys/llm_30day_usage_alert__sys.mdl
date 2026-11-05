@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate llm_30day_usage_alert__sys (
+   label('LLM Usage Alert'),
+   active(true),
+   description('Usage alert on user limit threshold'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('30-day token usage ${percentOverLimit} over limit'),
+   notification('<span>30-day usage as of ${date} at ${time} ${timeZone} in million tokens:</span><br><br><span><span>Veeva AI LLM:</span><span>${veevaLlmTokenUsage}</span></span><br><span><span>Customer LLM:</span><span>${customerLlmTokenUsage}</span></span><br><span><span>30-Day Usage Total:</span><span>${totalLlmTokenUsage}</span></span><br><br><span><b>30-day token usage is over ${percentOverLimit} the limit set in Veeva AI settings.</b></span><br><br><span>Alert limit in million tokens: ${alertLimit}</span>'),
+   email_body('<span style="${paddingStyle}">Vault name: ${vaultName}</span><br><br><span style="${paddingStyle}">30-day usage as of ${date} at ${time} ${timeZone} in million tokens:</span><br><br><span style="${paddingIndentStyle}"><span style="${countLabelStyle}">Veeva AI LLM:</span><span style="${tokenCountStyle}">${veevaLlmTokenUsage}</span></span><br><span style="${paddingIndentStyle}"><span style="${countLabelStyle}">Customer LLM:</span><span style="${tokenCountStyle}">${customerLlmTokenUsage}</span></span><br><span style="${paddingIndentStyle}"><span style="${countLabelStyle}">30-Day Usage Total:</span><span style="${tokenCountStyle}">${totalLlmTokenUsage}</span></span><br><br><span style="${paddingStyle}"><b>30-day token usage is over ${percentOverLimit} the limit set in Veeva AI settings.</b></span><br><br><span style="${paddingStyle}">Alert limit in million tokens: ${alertLimit}</span>
+    '),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Message type_change_error__v (
+   label(),
+   active(true),
+   default_value('The Type value selected is not a valid Type on Benefit Design Line. Please change the Type or contact your administrator.'),
+   system_managed(false)
+);

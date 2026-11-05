@@ -1,0 +1,9 @@
+RECREATE Processmetric volume_entered_start_state_per_month__sys (
+   label('Entered Start State / Month'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The average number of unique records that entered the start state per month.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.volume__sys')
+);

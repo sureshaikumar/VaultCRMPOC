@@ -1,0 +1,19 @@
+Field copied_from__v (
+   label('Copied From'),
+   type('String'),
+   active(true),
+   description('Populated with the 18 digit org ID from which this presentation was copied. If the presentation was created in the current org, this field is blank'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

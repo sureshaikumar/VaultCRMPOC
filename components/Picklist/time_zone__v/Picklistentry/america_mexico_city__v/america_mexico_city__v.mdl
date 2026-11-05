@@ -1,0 +1,5 @@
+Picklistentry america_mexico_city__v (
+   value('Central Time (Mexico City)'),
+   order(77),
+   active(true)
+);

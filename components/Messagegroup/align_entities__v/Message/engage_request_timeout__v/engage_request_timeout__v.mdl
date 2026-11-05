@@ -1,0 +1,6 @@
+Message engage_request_timeout__v (
+   label(),
+   active(true),
+   default_value('Waiting to receive latest Engage licensing information from Veeva CRM for Roster Member ${rm}. REASON: Response Timeout. Please wait and then attempt an Import from CRM to receive the latest provisioning status from Engage.'),
+   system_managed(false)
+);

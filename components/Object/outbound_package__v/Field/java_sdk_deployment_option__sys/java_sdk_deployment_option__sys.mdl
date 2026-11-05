@@ -1,0 +1,18 @@
+Field java_sdk_deployment_option__sys (
+   label('Vault Java SDK Deployment Option'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('SDK code deployment options, e.g. Replace All, Delete All, etc.'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.sdk_deployment_option__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

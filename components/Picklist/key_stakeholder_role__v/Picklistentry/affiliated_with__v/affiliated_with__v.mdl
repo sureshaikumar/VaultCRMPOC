@@ -1,0 +1,5 @@
+Picklistentry affiliated_with__v (
+   value('Affiliated with'),
+   order(0),
+   active(true)
+);

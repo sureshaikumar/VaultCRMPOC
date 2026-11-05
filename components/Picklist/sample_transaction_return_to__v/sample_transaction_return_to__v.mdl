@@ -1,0 +1,7 @@
+RECREATE Picklist sample_transaction_return_to__v (
+   label('Return To'),
+   active(true),
+   Picklistentry(@Picklistentry/hq__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

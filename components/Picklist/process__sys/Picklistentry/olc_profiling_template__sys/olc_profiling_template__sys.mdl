@@ -1,0 +1,5 @@
+Picklistentry olc_profiling_template__sys (
+   value('Profiling Template'),
+   order(63),
+   active(true)
+);

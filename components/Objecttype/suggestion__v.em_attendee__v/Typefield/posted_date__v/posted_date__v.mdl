@@ -1,0 +1,4 @@
+Typefield posted_date__v (
+   source('custom'),
+   required(false)
+);

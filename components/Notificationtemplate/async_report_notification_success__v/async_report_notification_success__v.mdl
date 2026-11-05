@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate async_report_notification_success__v (
+   label('Asynchronous Report Notification Success'),
+   active(true),
+   description('Notification template notifying users that the report was successfully executed.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Report: ${reportLabel} ran at ${reportRunTime}'),
+   notification('<p>Report: <a href="${asyncReportUrl}">${reportLabel}</a><br />Ran at: ${reportRunTime}</p>'),
+   email_body('<p>Report: <a href="${asyncReportUrl}">${reportLabel}</a> is ready for viewing.<br />Ran at: ${reportRunTime}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

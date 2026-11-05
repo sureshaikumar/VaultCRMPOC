@@ -1,0 +1,6 @@
+Message msging_business_acc_not_discon_try_later__v (
+   label(),
+   active(true),
+   default_value('Messaging Business Account could not be disconnected. Try again later.'),
+   system_managed(false)
+);

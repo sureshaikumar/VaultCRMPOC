@@ -1,0 +1,5 @@
+Picklistentry application__v (
+   value('Application'),
+   order(1),
+   active(true)
+);

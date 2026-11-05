@@ -1,0 +1,19 @@
+Field crm_imported_application_profile__v (
+   label('Imported Application Profile'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('For CRM-managed Roster Members, the value represents the name of the CRM Application Profile assigned to the Roster Member. This field should not be used when the Roster Member is Managed by Align.'),
+   list_column(true),
+   order(140),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

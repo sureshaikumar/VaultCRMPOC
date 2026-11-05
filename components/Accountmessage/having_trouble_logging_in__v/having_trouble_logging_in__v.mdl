@@ -1,0 +1,7 @@
+RECREATE Accountmessage having_trouble_logging_in__v (
+   label(),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Veeva Vault login help request')
+);

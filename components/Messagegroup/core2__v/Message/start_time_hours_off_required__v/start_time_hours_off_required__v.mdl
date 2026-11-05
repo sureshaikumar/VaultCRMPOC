@@ -1,0 +1,6 @@
+Message start_time_hours_off_required__v (
+   label(),
+   active(true),
+   default_value('Start Time and Hours Off are required when the selected Time is Hourly. Please ensure these are populated.'),
+   system_managed(false)
+);

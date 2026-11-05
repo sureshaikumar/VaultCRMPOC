@@ -1,0 +1,4 @@
+Typefield order_fulfilled_quantity__v (
+   source('standard'),
+   required(false)
+);

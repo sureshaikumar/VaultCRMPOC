@@ -1,0 +1,6 @@
+Message select_location__v (
+   label(),
+   active(true),
+   default_value('Select Location'),
+   system_managed(false)
+);

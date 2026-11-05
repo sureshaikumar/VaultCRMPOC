@@ -1,0 +1,17 @@
+Field sample_quantity_picklist__v (
+   label('Sample Quantity'),
+   type('LongText'),
+   active(true),
+   description('Use this field to change the default values for sample quantity on the mobile device. Comma separated values will be populated in the sample quantity dropdown. If left blank, sample quantity will default to 1 through 20.'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(44),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

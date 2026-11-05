@@ -1,0 +1,6 @@
+Message copied__v (
+   label(),
+   active(true),
+   default_value('Copied!'),
+   system_managed(false)
+);

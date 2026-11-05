@@ -1,0 +1,15 @@
+RECREATE Picklist em_attendee_walk_in_status__v (
+   label('Walk-In Status'),
+   active(true),
+   Picklistentry(@Picklistentry/needs_reconciliation__v.mdl),
+   Picklistentry(@Picklistentry/reconciled_to_existing_account__v.mdl),
+   Picklistentry(@Picklistentry/reconciled_to_existing_user__v.mdl),
+   Picklistentry(@Picklistentry/reconciled_to_new_account__v.mdl),
+   Picklistentry(@Picklistentry/dismissed__v.mdl),
+   Picklistentry(@Picklistentry/reconciled_to_customer_master__v.mdl),
+   Picklistentry(@Picklistentry/pending_verification__v.mdl),
+   Picklistentry(@Picklistentry/reconciliation_rejected__v.mdl),
+   Picklistentry(@Picklistentry/pending_auto_match__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

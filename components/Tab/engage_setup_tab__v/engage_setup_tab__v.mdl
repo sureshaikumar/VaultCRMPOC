@@ -1,0 +1,12 @@
+RECREATE Tab engage_setup_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Engage Setup'),
+   order(2500),
+   parent(),
+   Subtab(@Subtab/remote_meetings_admin_tab__v.mdl),
+   Subtab(@Subtab/engage_connect_admin_tab__v.mdl),
+   Subtab(@Subtab/engage_connect_process_admin_tab__v.mdl),
+   Subtab(@Subtab/engage_meeting_process_admin_tab__v.mdl)
+);

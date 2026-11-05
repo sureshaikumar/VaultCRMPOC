@@ -1,0 +1,6 @@
+Message something_went_wrong__v (
+   label(),
+   active(true),
+   default_value('Something Went Wrong'),
+   system_managed(false)
+);

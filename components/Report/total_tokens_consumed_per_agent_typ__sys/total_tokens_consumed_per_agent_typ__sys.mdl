@@ -1,0 +1,21 @@
+RECREATE Report total_tokens_consumed_per_agent_typ__sys (
+   label('Total Tokens Consumed per Agent Type'),
+   active(true),
+   description('Total tokens including both input and output tokens per agent'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.daily_agent_activity__sys'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('vault_ai__sys',
+      'veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

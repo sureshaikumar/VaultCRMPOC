@@ -1,0 +1,6 @@
+Picklistentry nr-14__v (
+   value('Yaren'),
+   order(3425),
+   active(true),
+   controlling_entries('nr__v')
+);

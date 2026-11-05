@@ -1,0 +1,6 @@
+Message loading_attendance__v (
+   label(),
+   active(true),
+   default_value('Loading Attendance'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gl-qe__v (
+   value('Qeqqata Kommunia'),
+   order(1706),
+   active(true),
+   controlling_entries('gl__v')
+);

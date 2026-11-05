@@ -1,0 +1,6 @@
+Picklistentry mhapn__v (
+   value('Mental Health and Psychiatric Nursing'),
+   order(953),
+   active(true),
+   controlling_entries('pt__v')
+);

@@ -1,0 +1,6 @@
+Message territory_management_settings__v (
+   label(),
+   active(true),
+   default_value('Recalculate Territory Sharing'),
+   system_managed(false)
+);

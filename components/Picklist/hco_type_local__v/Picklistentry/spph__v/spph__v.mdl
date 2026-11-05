@@ -1,0 +1,5 @@
+Picklistentry spph__v (
+   value('Specialty Pharmacy'),
+   order(243),
+   active(true)
+);

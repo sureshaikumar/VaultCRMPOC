@@ -1,0 +1,22 @@
+RECREATE Report gpo_with_daq__c (
+   label('GPO Accounts'),
+   active(true),
+   description(),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.account_with_dynamic_attribute_query__c'),
+   editors(),
+   viewers('User.SAL@sb-accenture.com',
+      'User.VFR@sb-accenture.com',
+      'User.TAM@sb-accenture.com'),
+   owners('User.prashant.r.desarda@sb-accenture.com'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

@@ -1,0 +1,6 @@
+Typefield hospital_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_hospital_type__v.gp__v',
+         'Picklist.account_hospital_type__v.hp__v')
+);

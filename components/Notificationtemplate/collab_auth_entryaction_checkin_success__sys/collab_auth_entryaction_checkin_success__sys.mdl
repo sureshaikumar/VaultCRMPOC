@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate collab_auth_entryaction_checkin_success__sys (
+   label('Collab Auth Entry Checkin Success'),
+   active(true),
+   description('Notification template notifying user of the success of their collaborative authoring checkin entry action.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Collaborative Authoring checkin entry action completed successfully'),
+   notification('<p>The document <a href="${CollabAuthActionResultDocumentURL}">${CollabAuthActionResultDocumentName}</a> checked in from Microsoft Office successfully. <a href="${CollabAuthActionResultCsvURL}">See results.</a></p>'),
+   email_body('<p>The document <a href="${CollabAuthActionResultDocumentURL}">${CollabAuthActionResultDocumentName}</a> checked in from Microsoft Office successfully. <a href="${CollabAuthActionResultCsvURL}">See results.</a></p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,18 @@
+Field multiselectlimitenforced__v (
+   label('MultiselectLimitEnforced'),
+   type('Boolean'),
+   active(true),
+   description('Limits the number of items that can be selected in the VInsights report options to 15.  Default value is Checked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(224),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

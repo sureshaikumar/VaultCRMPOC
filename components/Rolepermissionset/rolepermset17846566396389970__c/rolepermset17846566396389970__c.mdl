@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17846566396389970__c (
+   label('Agentic Media'),
+   active(true),
+   application_role('media__c'),
+   permission_sets('Permissionset.agentic_media__c')
+);

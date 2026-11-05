@@ -1,0 +1,6 @@
+Picklistentry plhaa__v (
+   value('Pharmaceutical Laboratory'),
+   order(1511),
+   active(true),
+   controlling_entries('ro__v')
+);

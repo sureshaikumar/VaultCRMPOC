@@ -1,0 +1,6 @@
+Message add_survey_target_search_accounts__v (
+   label(),
+   active(true),
+   default_value('Complete a survey for an account'),
+   system_managed(false)
+);

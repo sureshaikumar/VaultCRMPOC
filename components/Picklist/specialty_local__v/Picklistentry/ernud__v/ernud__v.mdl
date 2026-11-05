@@ -1,0 +1,6 @@
+Picklistentry ernud__v (
+   value('Emergency Radiology & Ultrasound Diagnostics'),
+   order(487),
+   active(true),
+   controlling_entries('me__v')
+);

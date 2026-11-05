@@ -1,0 +1,4 @@
+Typefield whatsapp_body_placeholder__v (
+   source('standard'),
+   required(false)
+);

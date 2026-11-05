@@ -1,0 +1,11 @@
+RECREATE Tab aln_roster_management__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Roster Management'),
+   order(6600),
+   parent(),
+   Subtab(@Subtab/aln_roster_members__v.mdl),
+   Subtab(@Subtab/aln_functional_profiles__v.mdl),
+   Subtab(@Subtab/aln_content_groups__v.mdl)
+);

@@ -1,0 +1,17 @@
+Field presentations__v (
+   label('Presentations'),
+   type('LongText'),
+   active(true),
+   description('Comma separated list of presentations for this call.'),
+   required(false),
+   max_length(500),
+   help_content(),
+   list_column(false),
+   order(100),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,7 @@
+Picklistentry mapin__v (
+   value('Microbiology and Parasitology'),
+   order(964),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

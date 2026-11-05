@@ -1,0 +1,9 @@
+RECREATE Processmetric cycle_time_company_average__sys (
+   label('Company Average'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The average time between the start and end states across all records from the matching process, subprocess, timeframe, and filters. Only records that enter the end state are included in this calculation.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.cycle_time__sys')
+);

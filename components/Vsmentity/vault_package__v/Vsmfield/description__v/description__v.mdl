@@ -1,0 +1,13 @@
+Vsmfield description__v (
+   label('Description'),
+   active(true),
+   description('Detailed description of the inbound package\''s contents or purpose. Provides context about what the package contains and why it was sent. Use for searching packages by content or purpose.'),
+   example_values(),
+   synonyms('details',
+         'package details',
+         'notes'),
+   target('description__v'),
+   target_label('Description'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

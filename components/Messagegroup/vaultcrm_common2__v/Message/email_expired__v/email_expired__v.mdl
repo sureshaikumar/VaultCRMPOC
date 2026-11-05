@@ -1,0 +1,6 @@
+Message email_expired__v (
+   label(),
+   active(true),
+   default_value('Email Expired'),
+   system_managed(false)
+);

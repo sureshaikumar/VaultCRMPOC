@@ -1,0 +1,6 @@
+Picklistentry ioicd__v (
+   value('Implant Overdentures in Clinical Dental Technology Practice'),
+   order(744),
+   active(true),
+   controlling_entries('nz__v')
+);

@@ -1,0 +1,7 @@
+RECREATE Accountmessage new_saml_user__v (
+   label('newSamlUser'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Welcome to Veeva Vault!')
+);

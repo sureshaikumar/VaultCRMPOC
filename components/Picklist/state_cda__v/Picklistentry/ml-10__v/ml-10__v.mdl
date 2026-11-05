@@ -1,0 +1,6 @@
+Picklistentry ml-10__v (
+   value('Taoudénit'),
+   order(3045),
+   active(true),
+   controlling_entries('ml__v')
+);

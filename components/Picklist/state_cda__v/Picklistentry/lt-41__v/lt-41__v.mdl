@@ -1,0 +1,6 @@
+Picklistentry lt-41__v (
+   value('Šakiai'),
+   order(2659),
+   active(true),
+   controlling_entries('lt__v')
+);

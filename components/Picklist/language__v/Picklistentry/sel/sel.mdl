@@ -1,0 +1,5 @@
+Picklistentry sel (
+   value('Selkup'),
+   order(297),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction link_target__sys.delete_link_target_action__sys (
+   label('Remove'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.DeleteLinkTargetAction'),
+   active(true),
+   available_all_states(true)
+);

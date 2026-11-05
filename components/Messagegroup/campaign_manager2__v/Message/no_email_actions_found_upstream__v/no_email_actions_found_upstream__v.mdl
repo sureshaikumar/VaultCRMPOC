@@ -1,0 +1,6 @@
+Message no_email_actions_found_upstream__v (
+   label(),
+   active(true),
+   default_value('No email actions found upstream'),
+   system_managed(false)
+);

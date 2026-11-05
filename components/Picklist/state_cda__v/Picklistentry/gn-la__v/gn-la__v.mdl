@@ -1,0 +1,6 @@
+Picklistentry gn-la__v (
+   value('Labé Prefecture'),
+   order(1741),
+   active(true),
+   controlling_entries('gn__v')
+);

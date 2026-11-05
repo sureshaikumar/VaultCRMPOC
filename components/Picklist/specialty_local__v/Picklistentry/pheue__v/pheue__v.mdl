@@ -1,0 +1,6 @@
+Picklistentry pheue__v (
+   value('Public Health Epidemiology'),
+   order(1641),
+   active(true),
+   controlling_entries('il__v')
+);

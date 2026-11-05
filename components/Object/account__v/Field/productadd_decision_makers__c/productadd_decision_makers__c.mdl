@@ -1,0 +1,19 @@
+Field productadd_decision_makers__c (
+   label('Product-add Decision Maker(s)'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Who makes product-add decisions for your GPO? What is the name of the person/committee?'),
+   list_column(false),
+   order(183),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

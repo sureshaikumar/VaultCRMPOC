@@ -1,0 +1,6 @@
+Message add_segment__v (
+   label(),
+   active(true),
+   default_value('Add Segment'),
+   system_managed(false)
+);

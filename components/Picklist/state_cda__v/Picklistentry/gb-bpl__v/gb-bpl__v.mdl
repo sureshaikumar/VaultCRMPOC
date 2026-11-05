@@ -1,0 +1,6 @@
+Picklistentry gb-bpl__v (
+   value('Blackpool'),
+   order(1472),
+   active(true),
+   controlling_entries('gb__v')
+);

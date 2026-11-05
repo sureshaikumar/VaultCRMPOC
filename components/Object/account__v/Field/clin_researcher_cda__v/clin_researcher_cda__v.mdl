@@ -1,0 +1,18 @@
+Field clin_researcher_cda__v (
+   label('Clinical Researcher'),
+   type('Picklist'),
+   active(true),
+   description('Indicates whether the individual has been identified as a clinical researcher.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(165),
+   multi_value(false),
+   picklist('Picklist.clin_researcher_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

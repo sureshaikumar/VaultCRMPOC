@@ -1,0 +1,6 @@
+Picklistentry ir-17__v (
+   value('Kohgīlūyeh va Bowyer Aḩmad'),
+   order(2069),
+   active(true),
+   controlling_entries('ir__v')
+);

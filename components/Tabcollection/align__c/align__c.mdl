@@ -1,0 +1,12 @@
+RECREATE Tabcollection align__c (
+   label('Align'),
+   active(true),
+   help_content(),
+   Tabcollectionitem(@Tabcollectionitem/aln_align_admin__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/aln_crm_data__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/aln_home__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/aln_modeling__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/aln_roster_management__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/aln_targeting__c.mdl),
+   Tabcollectionitem(@Tabcollectionitem/aln_territory_management__c.mdl)
+);

@@ -1,0 +1,6 @@
+Message submit__v (
+   label(),
+   active(true),
+   default_value('Submit'),
+   system_managed(false)
+);

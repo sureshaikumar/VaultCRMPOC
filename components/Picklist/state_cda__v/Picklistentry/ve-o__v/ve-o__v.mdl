@@ -1,0 +1,6 @@
+Picklistentry ve-o__v (
+   value('Nueva Esparta'),
+   order(4901),
+   active(true),
+   controlling_entries('ve__v')
+);

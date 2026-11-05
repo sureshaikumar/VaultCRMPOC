@@ -1,0 +1,6 @@
+Picklistentry az-aga__v (
+   value('Ağstafa'),
+   order(139),
+   active(true),
+   controlling_entries('az__v')
+);

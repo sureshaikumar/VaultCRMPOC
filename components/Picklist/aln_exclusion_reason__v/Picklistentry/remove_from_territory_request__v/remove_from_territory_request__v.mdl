@@ -1,0 +1,5 @@
+Picklistentry remove_from_territory_request__v (
+   value('Remove from Territory Request'),
+   order(4),
+   active(true)
+);

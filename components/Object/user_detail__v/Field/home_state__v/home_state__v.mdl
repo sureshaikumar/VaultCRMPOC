@@ -1,0 +1,18 @@
+Field home_state__v (
+   label('Home State'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('State of the user''s home address'),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.user_detail_home_state__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

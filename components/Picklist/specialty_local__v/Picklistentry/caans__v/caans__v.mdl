@@ -1,0 +1,6 @@
+Picklistentry caans__v (
+   value('Cardiothoracic Anesthesia'),
+   order(168),
+   active(true),
+   controlling_entries('pk__v')
+);

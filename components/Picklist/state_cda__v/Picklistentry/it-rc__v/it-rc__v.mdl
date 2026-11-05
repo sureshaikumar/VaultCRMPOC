@@ -1,0 +1,6 @@
+Picklistentry it-rc__v (
+   value('Reggio Calabria'),
+   order(2249),
+   active(true),
+   controlling_entries('it__v')
+);

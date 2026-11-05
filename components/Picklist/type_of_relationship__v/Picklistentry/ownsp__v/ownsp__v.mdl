@@ -1,0 +1,5 @@
+Picklistentry ownsp__v (
+   value('HCP Owns'),
+   order(3),
+   active(true)
+);

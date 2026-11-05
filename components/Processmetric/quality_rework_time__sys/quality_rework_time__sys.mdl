@@ -1,0 +1,9 @@
+RECREATE Processmetric quality_rework_time__sys (
+   label('Time in Rework'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The total time records spend in repeated states.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.quality__sys')
+);

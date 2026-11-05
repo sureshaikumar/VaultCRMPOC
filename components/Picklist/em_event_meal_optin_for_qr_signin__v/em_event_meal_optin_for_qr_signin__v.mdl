@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_meal_optin_for_qr_signin__v (
+   label('Event Meal Opt In for QR Sign In'),
+   active(true),
+   Picklistentry(@Picklistentry/enabled__v.mdl),
+   Picklistentry(@Picklistentry/disabled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

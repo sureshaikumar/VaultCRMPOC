@@ -1,0 +1,5 @@
+Picklistentry general__v (
+   value('General'),
+   order(4),
+   active(true)
+);

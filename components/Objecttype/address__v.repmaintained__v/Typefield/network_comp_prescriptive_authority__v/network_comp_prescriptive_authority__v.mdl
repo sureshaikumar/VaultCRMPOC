@@ -1,0 +1,8 @@
+Typefield network_comp_prescriptive_authority__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.addr_network_comp_prescriptive_authority__v.e__v',
+         'Picklist.addr_network_comp_prescriptive_authority__v.i__v',
+         'Picklist.addr_network_comp_prescriptive_authority__v.r__v',
+         'Picklist.addr_network_comp_prescriptive_authority__v.u__v')
+);

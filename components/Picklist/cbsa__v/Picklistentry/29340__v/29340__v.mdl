@@ -1,0 +1,5 @@
+Picklistentry 29340__v (
+   value('Lake Charles, LA Metropolitan Statistical Area'),
+   order(304),
+   active(true)
+);

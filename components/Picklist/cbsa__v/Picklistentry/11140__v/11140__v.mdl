@@ -1,0 +1,5 @@
+Picklistentry 11140__v (
+   value('Americus, GA Micropolitan Statistical Area'),
+   order(616),
+   active(true)
+);

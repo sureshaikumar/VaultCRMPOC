@@ -1,0 +1,5 @@
+Picklistentry ni__v (
+   value('Nicaragua'),
+   order(165),
+   active(true)
+);

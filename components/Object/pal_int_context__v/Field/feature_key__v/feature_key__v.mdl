@@ -1,0 +1,19 @@
+Field feature_key__v (
+   label('Feature Key'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(true),
+   max_length(196),
+   help_content(),
+   list_column(true),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,16 @@
+Picklistentry parmh__v (
+   value('Physical and Rehabilitation Medicine'),
+   order(1535),
+   active(true),
+   controlling_entries('am__v',
+         'be__v',
+         'bg__v',
+         'cy__v',
+         'gr__v',
+         'it__v',
+         'lu__v',
+         'pt__v',
+         'ro__v',
+         'si__v',
+         'ua__v')
+);

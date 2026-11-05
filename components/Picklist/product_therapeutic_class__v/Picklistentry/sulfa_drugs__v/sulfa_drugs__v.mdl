@@ -1,0 +1,5 @@
+Picklistentry sulfa_drugs__v (
+   value('Sulfa Drugs'),
+   order(68),
+   active(true)
+);

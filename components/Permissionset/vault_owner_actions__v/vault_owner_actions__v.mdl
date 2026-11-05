@@ -1,0 +1,13 @@
+RECREATE Permissionset vault_owner_actions__v (
+   label('Vault Owner Actions'),
+   active(true),
+   description('Vault Owner permission set'),
+   configuration.business_admin_objects('read'),
+   operations.renditions('read'),
+   vault_actions.create_button('show_create_button'),
+   vault_actions.user('view_user_profile'),
+   vault_actions.workflow_administration('replace_workflow_owner'),
+   vault_client_applications.veeva_snap('enable',
+      'enable_appstore'),
+   vault_owner_actions('vault_owner')
+);

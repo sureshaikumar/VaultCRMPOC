@@ -1,0 +1,5 @@
+Picklistentry sco (
+   value('Scots'),
+   order(296),
+   active(true)
+);

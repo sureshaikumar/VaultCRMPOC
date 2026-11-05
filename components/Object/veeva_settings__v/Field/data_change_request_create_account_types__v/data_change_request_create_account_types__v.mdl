@@ -1,0 +1,19 @@
+Field data_change_request_create_account_types__v (
+   label('Data Change Request Create Account Types'),
+   type('String'),
+   active(true),
+   description('Controls which Account object types are available to users when creating new Account DCRs. If left blank, all account object types the user has read permission to are available.'),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content('Comma delimited list of account object types that are available in the account object type selector'),
+   list_column(false),
+   order(341),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

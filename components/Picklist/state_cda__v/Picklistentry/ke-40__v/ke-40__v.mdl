@@ -1,0 +1,6 @@
+Picklistentry ke-40__v (
+   value('Tana River'),
+   order(2393),
+   active(true),
+   controlling_entries('ke__v')
+);

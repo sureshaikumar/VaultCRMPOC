@@ -1,0 +1,6 @@
+Message no_email_addresses__v (
+   label(),
+   active(true),
+   default_value('No Email Addresses'),
+   system_managed(false)
+);

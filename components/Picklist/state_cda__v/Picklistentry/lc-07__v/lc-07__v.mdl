@@ -1,0 +1,6 @@
+Picklistentry lc-07__v (
+   value('Laborie'),
+   order(2544),
+   active(true),
+   controlling_entries('lc__v')
+);

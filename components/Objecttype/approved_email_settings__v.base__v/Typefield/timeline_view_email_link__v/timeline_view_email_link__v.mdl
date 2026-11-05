@@ -1,0 +1,4 @@
+Typefield timeline_view_email_link__v (
+   source('standard'),
+   required(false)
+);

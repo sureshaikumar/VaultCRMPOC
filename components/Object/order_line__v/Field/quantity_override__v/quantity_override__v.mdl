@@ -1,0 +1,23 @@
+Field quantity_override__v (
+   label('Quantity Override'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(0),
+   scale(0),
+   help_content('Stores and show the quantities manually entered by the user on top of quantities auto-added by bundle packs (represents
+Quantity_vod__c - Quantity_From_Pack_vod__c)'),
+   list_column(false),
+   order(47),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

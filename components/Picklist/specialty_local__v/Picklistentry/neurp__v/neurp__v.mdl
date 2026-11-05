@@ -1,0 +1,7 @@
+Picklistentry neurp__v (
+   value('Neuroanesthesia'),
+   order(1007),
+   active(true),
+   controlling_entries('in__v',
+         'th__v')
+);

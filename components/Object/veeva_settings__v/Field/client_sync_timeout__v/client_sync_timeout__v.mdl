@@ -1,0 +1,23 @@
+Field client_sync_timeout__v (
+   label('Client Sync Timeout'),
+   type('Number'),
+   active(true),
+   description('Timeout, in number of seconds, for client communication requests.  60 = 1 minute, 3600 = 1 hour.  Warning: lowering this value may result in sync failures.'),
+   required(false),
+   unique(false),
+   max_value(999999),
+   min_value(-999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(73),
+   default_value('3600'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

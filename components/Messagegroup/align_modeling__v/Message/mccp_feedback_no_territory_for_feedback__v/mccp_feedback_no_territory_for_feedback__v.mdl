@@ -1,0 +1,6 @@
+Message mccp_feedback_no_territory_for_feedback__v (
+   label(),
+   active(true),
+   default_value('No territories are available for feedback at this time'),
+   system_managed(false)
+);

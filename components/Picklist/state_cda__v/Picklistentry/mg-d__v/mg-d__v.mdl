@@ -1,0 +1,6 @@
+Picklistentry mg-d__v (
+   value('Antsiranana'),
+   order(2933),
+   active(true),
+   controlling_entries('mg__v')
+);

@@ -1,0 +1,45 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.order__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account__v" readOnly="true" />
+            <vault:field reference="order_date__v" />
+            <vault:field reference="order_status__v" />
+            <vault:field reference="call2__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="billing_address__v" />
+            <vault:field reference="ship_to_address__v" />
+            <vault:field reference="delivery_date__v" />
+            <vault:field reference="order_campaign__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Order Lines" name="order_lines__c">
+        <vault:relatedObject relationship="order_lines__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="193px" />
+            <vault:field reference="order__v" width="193px" />
+            <vault:field reference="object_type__v" width="193px" />
+            <vault:field reference="product__v" width="193px" />
+            <vault:field reference="list_price_rule__v" width="193px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="mobile_last_modified_datetime__v" />
+            <vault:field reference="mobile_created_datetime__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="entity_reference_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

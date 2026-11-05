@@ -1,0 +1,6 @@
+Message view_or_edits_to_connected_aws_accts__v (
+   label(),
+   active(true),
+   default_value('View or make edits to your connected AWS Accounts.'),
+   system_managed(false)
+);

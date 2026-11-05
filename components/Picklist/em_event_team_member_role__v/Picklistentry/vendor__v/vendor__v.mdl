@@ -1,0 +1,5 @@
+Picklistentry vendor__v (
+   value('Vendor'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message crm_push_roster_member_from_terr_warning__v (
+   label(),
+   active(true),
+   default_value('Managers or Delegate Approvers of Roster Members included in this Push will also be created in CRM if they do not already exist.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry gpo__v (
+   value('Group Purchasing Organization'),
+   order(10),
+   active(true)
+);

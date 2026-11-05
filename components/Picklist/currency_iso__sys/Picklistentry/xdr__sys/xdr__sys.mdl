@@ -1,0 +1,5 @@
+Picklistentry xdr__sys (
+   value('XDR'),
+   order(211),
+   active(true)
+);

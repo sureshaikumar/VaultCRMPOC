@@ -1,0 +1,6 @@
+Picklistentry cpanl__v (
+   value('Clinical Pathology and Neuropathology'),
+   order(266),
+   active(true),
+   controlling_entries('at__v')
+);

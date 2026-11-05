@@ -1,0 +1,19 @@
+Field state_distributor_zip_4__v (
+   label('State Distributor Zip 4'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(4),
+   help_content('This field stores the value of selected State Distributor Zip 4 on associated Call.'),
+   list_column(false),
+   order(57),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

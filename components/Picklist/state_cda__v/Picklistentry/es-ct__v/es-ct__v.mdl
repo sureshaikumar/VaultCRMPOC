@@ -1,0 +1,6 @@
+Picklistentry es-ct__v (
+   value('Catalunya'),
+   order(1213),
+   active(true),
+   controlling_entries('es__v')
+);

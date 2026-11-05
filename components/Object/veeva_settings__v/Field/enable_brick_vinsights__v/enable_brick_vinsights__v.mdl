@@ -1,0 +1,18 @@
+Field enable_brick_vinsights__v (
+   label('ENABLE_BRICK_VINSIGHTS'),
+   type('Boolean'),
+   active(true),
+   description('Enables VInsights sales data analysis at both the Brick and the Account level.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(122),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,13 @@
+Vsmfield author__v (
+   label('Author'),
+   active(true),
+   description('Name of the person that created the outbound package being imported in. Useful for auditing package origins and filtering packages by who created them.'),
+   example_values(),
+   synonyms('created by',
+         'package author',
+         'submitter'),
+   target('author__v'),
+   target_label('Author'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

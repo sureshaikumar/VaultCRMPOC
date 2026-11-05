@@ -1,0 +1,5 @@
+Picklistentry estrogens_combination_products__v (
+   value('Estrogens (Combination Products)'),
+   order(40),
+   active(true)
+);

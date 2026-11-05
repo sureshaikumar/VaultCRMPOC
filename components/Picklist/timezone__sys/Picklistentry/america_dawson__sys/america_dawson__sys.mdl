@@ -1,0 +1,5 @@
+Picklistentry america_dawson__sys (
+   value('(GMT-07:00) Mountain Standard Time (America/Dawson)'),
+   order(20),
+   active(true)
+);

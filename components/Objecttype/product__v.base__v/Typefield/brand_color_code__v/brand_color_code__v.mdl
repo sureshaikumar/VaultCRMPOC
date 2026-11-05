@@ -1,0 +1,4 @@
+Typefield brand_color_code__v (
+   source('standard'),
+   required(false)
+);

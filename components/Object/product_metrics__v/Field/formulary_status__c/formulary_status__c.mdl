@@ -1,0 +1,18 @@
+Field formulary_status__c (
+   label('Formulary Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Sample metric field.'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.product_metrics_formulary_status__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

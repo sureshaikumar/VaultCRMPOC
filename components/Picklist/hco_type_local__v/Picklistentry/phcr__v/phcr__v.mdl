@@ -1,0 +1,5 @@
+Picklistentry phcr__v (
+   value('Primary Health Centre'),
+   order(206),
+   active(true)
+);

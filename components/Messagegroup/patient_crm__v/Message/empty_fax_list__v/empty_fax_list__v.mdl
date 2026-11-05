@@ -1,0 +1,6 @@
+Message empty_fax_list__v (
+   label(),
+   active(true),
+   default_value('New faxes for this inbox will appear here.'),
+   system_managed(false)
+);

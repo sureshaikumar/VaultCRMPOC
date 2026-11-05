@@ -1,0 +1,6 @@
+Message field_mapping_crm_objects_help__v (
+   label(),
+   active(true),
+   default_value('Objects that are mastered by CRM'),
+   system_managed(false)
+);

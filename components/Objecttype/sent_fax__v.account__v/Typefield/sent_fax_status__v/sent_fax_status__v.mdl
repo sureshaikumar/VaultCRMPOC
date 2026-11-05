@@ -1,0 +1,8 @@
+Typefield sent_fax_status__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.sent_fax_status__v.queued_for_sending__v',
+         'Picklist.sent_fax_status__v.sent__v',
+         'Picklist.sent_fax_status__v.delivered__v',
+         'Picklist.sent_fax_status__v.failed__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-133__v (
+   value('Velenje'),
+   order(4107),
+   active(true),
+   controlling_entries('si__v')
+);

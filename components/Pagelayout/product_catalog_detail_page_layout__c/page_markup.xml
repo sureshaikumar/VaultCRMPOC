@@ -1,0 +1,56 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.product__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="parent_product__v" />
+            <vault:field reference="product_type__v" />
+            <vault:field reference="therapeutic_area__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="display_order__v" />
+            <vault:field reference="user_aligned__v" />
+            <vault:field reference="cold_chain__v" />
+            <vault:field reference="company_product__v" />
+            <vault:field reference="controlled_substance__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="manufacturer__v" />
+            <vault:field reference="product_info__c" />
+            <vault:field reference="consumer_site__c" />
+            <vault:field reference="no_details__v" />
+            <vault:field reference="no_metrics__v" />
+            <vault:field reference="no_cycle_plans__v" />
+            <vault:field reference="schedule__v" />
+            <vault:field reference="pricing_rule_quantity_bound__v" />
+            <vault:field reference="cost__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="inventory_monitoring__v" />
+            <vault:field reference="inventory_order_uom__v" />
+            <vault:field reference="inventory_quantity_per_case__v" />
+            <vault:field reference="pricing_bound__v" />
+            <vault:field reference="product_identifier__v" />
+            <vault:field reference="product_value__v" />
+            <vault:field reference="require_discussion__v" />
+            <vault:field reference="restricted_states__v" />
+            <vault:field reference="restricted__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="brand_color_code__v" />
+            <vault:field reference="aln_vcountry__v" />
+            <vault:field reference="distributor__v" />
+            <vault:field reference="sample_quantity_bound__v" />
+            <vault:field reference="sample_quantity_picklist__v" />
+            <vault:field reference="sample_u_m__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

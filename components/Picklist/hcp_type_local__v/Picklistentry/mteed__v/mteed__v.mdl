@@ -1,0 +1,5 @@
+Picklistentry mteed__v (
+   value('Medical Technician'),
+   order(68),
+   active(true)
+);

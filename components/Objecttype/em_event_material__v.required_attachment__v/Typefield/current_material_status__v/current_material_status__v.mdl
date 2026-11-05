@@ -1,0 +1,4 @@
+Typefield current_material_status__v (
+   source('custom'),
+   required(false)
+);

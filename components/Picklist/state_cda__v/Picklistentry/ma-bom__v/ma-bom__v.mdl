@@ -1,0 +1,6 @@
+Picklistentry ma-bom__v (
+   value('Boulemane'),
+   order(2786),
+   active(true),
+   controlling_entries('ma__v')
+);

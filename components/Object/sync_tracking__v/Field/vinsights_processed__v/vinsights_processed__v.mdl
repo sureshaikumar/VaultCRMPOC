@@ -1,0 +1,18 @@
+Field vinsights_processed__v (
+   label('VInsights Processed'),
+   type('Boolean'),
+   active(true),
+   description('Checked if the download of VInsights from the server to VMobile completed with no errors.  This will always be checked for orgs that are not configured for VInsights.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(22),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

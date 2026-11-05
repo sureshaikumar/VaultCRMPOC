@@ -1,0 +1,7 @@
+Picklistentry roang__v (
+   value('Radiotherapy-Oncology'),
+   order(1707),
+   active(true),
+   controlling_entries('be__v',
+         'lu__v')
+);

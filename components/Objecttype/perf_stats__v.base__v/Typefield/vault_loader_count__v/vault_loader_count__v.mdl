@@ -1,0 +1,4 @@
+Typefield vault_loader_count__v (
+   source('standard'),
+   required(false)
+);

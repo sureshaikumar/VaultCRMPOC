@@ -1,0 +1,8 @@
+RECREATE Picklist account_team_member_access__v (
+   label('Access'),
+   active(true),
+   Picklistentry(@Picklistentry/read__v.mdl),
+   Picklistentry(@Picklistentry/edit__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

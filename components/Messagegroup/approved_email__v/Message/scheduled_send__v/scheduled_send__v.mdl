@@ -1,0 +1,6 @@
+Message scheduled_send__v (
+   label(),
+   active(true),
+   default_value('Scheduled Send (${recipient_count})'),
+   system_managed(false)
+);

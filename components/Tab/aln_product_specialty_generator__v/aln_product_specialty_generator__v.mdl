@@ -1,0 +1,12 @@
+RECREATE Tab aln_product_specialty_generator__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Product Specialty Generator'),
+   modal_create_record(false),
+   order(4075),
+   page('Page.aln_product_specialty_generator_page__v'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

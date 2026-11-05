@@ -1,0 +1,6 @@
+Message mc_cycle_channel_template__v (
+   label(),
+   active(true),
+   default_value('Template'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry bd-05__v (
+   value('Bagerhat'),
+   order(234),
+   active(true),
+   controlling_entries('bd__v')
+);

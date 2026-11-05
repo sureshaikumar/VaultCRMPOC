@@ -1,0 +1,6 @@
+Picklistentry ph-que__v (
+   value('Quezon'),
+   order(3595),
+   active(true),
+   controlling_entries('ph__v')
+);

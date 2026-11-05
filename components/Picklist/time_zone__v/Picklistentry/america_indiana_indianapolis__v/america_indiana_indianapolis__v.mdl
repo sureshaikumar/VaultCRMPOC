@@ -1,0 +1,5 @@
+Picklistentry america_indiana_indianapolis__v (
+   value('Eastern Time (Indiana)'),
+   order(79),
+   active(true)
+);

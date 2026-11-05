@@ -1,0 +1,6 @@
+Picklistentry ie-ls__v (
+   value('Laois'),
+   order(1977),
+   active(true),
+   controlling_entries('ie__v')
+);

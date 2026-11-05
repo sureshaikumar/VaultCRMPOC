@@ -1,0 +1,5 @@
+Picklistentry footprint__v (
+   value('Footprint'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message remove_split__v (
+   label(),
+   active(true),
+   default_value('Remove Split'),
+   system_managed(false)
+);

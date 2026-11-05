@@ -1,0 +1,6 @@
+Picklistentry ro-gj__v (
+   value('Gorj'),
+   order(3734),
+   active(true),
+   controlling_entries('ro__v')
+);

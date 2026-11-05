@@ -1,0 +1,9 @@
+Typefield license_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_license_status__v.expired__v',
+         'Picklist.address_license_status__v.invalid__v',
+         'Picklist.address_license_status__v.new__v',
+         'Picklist.address_license_status__v.sampled__v',
+         'Picklist.address_license_status__v.valid__v')
+);

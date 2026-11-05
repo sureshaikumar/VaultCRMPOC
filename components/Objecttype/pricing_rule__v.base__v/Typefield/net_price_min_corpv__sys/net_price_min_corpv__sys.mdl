@@ -1,0 +1,4 @@
+Typefield net_price_min_corpv__sys (
+   source('standard'),
+   required(false)
+);

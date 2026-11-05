@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The display name or title of the inbound package. This is the primary human-readable identifier used to locate and reference a specific package.'),
+   example_values(),
+   synonyms('package name',
+         'title',
+         'label'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

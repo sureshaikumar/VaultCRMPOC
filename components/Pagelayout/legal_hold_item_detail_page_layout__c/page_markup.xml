@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.legalhold_item__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="status__v" />
+            <vault:field reference="legalhold__v" />
+            <vault:field reference="document__v" />
+            <vault:field reference="document_unbound__v" />
+            <vault:field reference="doc_name__v" />
+            <vault:field reference="doc_id_major_minor__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

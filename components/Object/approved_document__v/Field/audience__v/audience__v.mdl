@@ -1,0 +1,18 @@
+Field audience__v (
+   label('Audience'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The target audience for an Events Management template'),
+   list_column(false),
+   order(12),
+   multi_value(true),
+   picklist('Picklist.approved_document_audience__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

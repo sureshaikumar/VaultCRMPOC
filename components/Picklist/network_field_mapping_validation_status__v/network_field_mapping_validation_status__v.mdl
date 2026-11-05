@@ -1,0 +1,9 @@
+RECREATE Picklist network_field_mapping_validation_status__v (
+   label('Validation Status'),
+   active(true),
+   Picklistentry(@Picklistentry/unvalidated__v.mdl),
+   Picklistentry(@Picklistentry/valid__v.mdl),
+   Picklistentry(@Picklistentry/invalid__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

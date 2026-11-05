@@ -1,0 +1,6 @@
+Picklistentry kh-8__v (
+   value('Kandaal [Kândal]'),
+   order(2433),
+   active(true),
+   controlling_entries('kh__v')
+);

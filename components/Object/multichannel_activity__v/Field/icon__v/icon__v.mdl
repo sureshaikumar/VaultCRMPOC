@@ -1,0 +1,18 @@
+Field icon__v (
+   label('Icon'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Icon for the Multichannel Activity'),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.multichannel_activity_icon__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

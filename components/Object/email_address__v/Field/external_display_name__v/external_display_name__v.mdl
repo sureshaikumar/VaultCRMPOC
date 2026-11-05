@@ -1,0 +1,19 @@
+Field external_display_name__v (
+   label('External Display Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(100),
+   help_content('This Name will display in the Recipient''s Inbox as the Name associated to your email address'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

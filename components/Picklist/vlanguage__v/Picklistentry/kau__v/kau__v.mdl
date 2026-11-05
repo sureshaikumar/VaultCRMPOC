@@ -1,0 +1,5 @@
+Picklistentry kau__v (
+   value('Kanuri'),
+   order(157),
+   active(false)
+);

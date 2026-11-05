@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation content_acknowledg_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.content_acknowledgement_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.shipped_state__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

@@ -1,0 +1,6 @@
+Message assignment_preview__v (
+   label(),
+   active(true),
+   default_value('Assignment Preview'),
+   system_managed(false)
+);

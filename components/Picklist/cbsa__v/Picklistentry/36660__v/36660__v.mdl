@@ -1,0 +1,5 @@
+Picklistentry 36660__v (
+   value('Opelousas-Eunice, LA Micropolitan Statistical Area'),
+   order(501),
+   active(true)
+);

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+    <permission name="view_document_content__v" roles="content_administrator__v,owner__v" />
+    <permission name="view_documents__v" roles="content_administrator__v,editor__v,media_consumer__v,owner__v,viewer__v" />
+</permissions>

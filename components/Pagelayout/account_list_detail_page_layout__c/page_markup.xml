@@ -1,0 +1,23 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.account_list__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="access__v" />
+            <vault:field reference="display_order__v" />
+            <vault:field reference="icon_name__v" />
+            <vault:field reference="locked_date__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="locked_by__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

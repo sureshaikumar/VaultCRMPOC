@@ -1,0 +1,6 @@
+Picklistentry se-n__v (
+   value('Hallands County'),
+   order(3958),
+   active(true),
+   controlling_entries('se__v')
+);

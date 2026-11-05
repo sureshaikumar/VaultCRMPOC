@@ -1,0 +1,6 @@
+Message set_frequency__v (
+   label(),
+   active(true),
+   default_value('Set Frequency'),
+   system_managed(false)
+);

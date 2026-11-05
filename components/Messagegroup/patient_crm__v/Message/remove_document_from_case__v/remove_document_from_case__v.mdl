@@ -1,0 +1,6 @@
+Message remove_document_from_case__v (
+   label(),
+   active(true),
+   default_value('Remove Document from Case?'),
+   system_managed(false)
+);

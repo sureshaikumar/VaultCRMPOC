@@ -1,0 +1,6 @@
+Picklistentry cl-vs__v (
+   value('Valparaíso'),
+   order(682),
+   active(true),
+   controlling_entries('cl__v')
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep change_states_based_on_final_verdicts__c (
+   label('Change states based on final verdicts'),
+   type('contentaction'),
+   next_steps('Objectworkflowstep.all_documents_approved__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('For each document, if all Final Executive Approval verdicts are "Approve", change state of document to "Approved" state type.  If at least one verdict is "Reject", change state of document to "Rejected" state type.')
+);

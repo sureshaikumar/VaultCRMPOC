@@ -1,0 +1,6 @@
+Picklistentry sdues__v (
+   value('Surgical Dermatology'),
+   order(1821),
+   active(true),
+   controlling_entries('ua__v')
+);

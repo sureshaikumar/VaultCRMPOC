@@ -1,0 +1,6 @@
+Message history_col_month__v (
+   label(),
+   active(true),
+   default_value('Month'),
+   system_managed(false)
+);

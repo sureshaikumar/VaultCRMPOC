@@ -1,0 +1,6 @@
+Message follow_up_name__v (
+   label(),
+   active(true),
+   default_value('Name'),
+   system_managed(false)
+);

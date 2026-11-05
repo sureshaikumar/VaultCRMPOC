@@ -1,0 +1,5 @@
+Picklistentry fi__v (
+   value('Finnish'),
+   order(100),
+   active(false)
+);

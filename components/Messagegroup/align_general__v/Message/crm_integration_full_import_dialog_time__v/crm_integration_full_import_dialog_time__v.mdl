@@ -1,0 +1,6 @@
+Message crm_integration_full_import_dialog_time__v (
+   label(),
+   active(true),
+   default_value('Full imports take longer to run than regular imports due to the higher volume of data being imported.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ke-29__v (
+   value('Murang''a'),
+   order(2382),
+   active(true),
+   controlling_entries('ke__v')
+);

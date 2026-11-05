@@ -1,0 +1,17 @@
+Field portal_registration_email_date__v (
+   label('Speaker Portal Registration Last Sent'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Stores the date and time the registration email was sent.'),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,11 @@
+RECREATE Jobmetadata approved_email_email_process_job__v (
+   label('Approved Email Email Process Job'),
+   active(true),
+   chunk_size(500),
+   description('Job for Approved Email to query for qualified emails for processing'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.approvedemail.jobs.ApprovedEmailEmailProcessJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration(240)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-212__v (
+   value('Tororo'),
+   order(4680),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry mea_south_africa__v (
+   value('MEA - South Africa'),
+   order(11),
+   active(true)
+);

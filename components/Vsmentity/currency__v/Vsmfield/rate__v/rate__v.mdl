@@ -1,0 +1,14 @@
+Vsmfield rate__v (
+   label('Rate'),
+   active(true),
+   description('The exchange rate for this currency relative to the system''s base currency. Used for currency conversion calculations in financial reporting and multi-currency transactions. A value of 1.0 typically indicates the base currency.'),
+   example_values(),
+   synonyms('exchange rate',
+         'conversion rate',
+         'FX rate',
+         'currency rate'),
+   target('rate__sys'),
+   target_label('Rate'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

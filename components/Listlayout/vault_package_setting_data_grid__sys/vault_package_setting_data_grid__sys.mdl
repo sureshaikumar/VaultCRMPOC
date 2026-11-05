@@ -1,0 +1,8 @@
+RECREATE Listlayout vault_package_setting_data_grid__sys (
+   label('Vault Package Setting Data Grid'),
+   active(true),
+   description('Vault Package Setting List'),
+   object('vault_package_setting__sys'),
+   Listlayoutitem(@Listlayoutitem/description__sys.mdl),
+   Listlayoutitem(@Listlayoutitem/setting_label__sys.mdl)
+);

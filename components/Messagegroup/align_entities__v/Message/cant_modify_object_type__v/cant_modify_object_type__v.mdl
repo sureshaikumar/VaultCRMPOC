@@ -1,0 +1,6 @@
+Message cant_modify_object_type__v (
+   label(),
+   active(true),
+   default_value('Object Type field cannot be modified.'),
+   system_managed(false)
+);

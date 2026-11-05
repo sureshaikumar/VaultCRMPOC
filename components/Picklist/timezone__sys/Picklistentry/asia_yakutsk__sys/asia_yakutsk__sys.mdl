@@ -1,0 +1,5 @@
+Picklistentry asia_yakutsk__sys (
+   value('(GMT+09:00) Yakutsk Time (Asia/Yakutsk)'),
+   order(277),
+   active(true)
+);

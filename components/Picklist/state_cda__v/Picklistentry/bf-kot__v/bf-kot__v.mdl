@@ -1,0 +1,6 @@
+Picklistentry bf-kot__v (
+   value('Kouritenga'),
+   order(347),
+   active(true),
+   controlling_entries('bf__v')
+);

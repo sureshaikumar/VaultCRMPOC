@@ -1,0 +1,9 @@
+RECREATE Picklist metric_type__sys (
+   label('Metric Type'),
+   active(true),
+   Picklistentry(@Picklistentry/cycle_time__sys.mdl),
+   Picklistentry(@Picklistentry/volume__sys.mdl),
+   Picklistentry(@Picklistentry/quality__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,11 @@
+RECREATE Pagelink em_event_layout_create_pagelink__v (
+   label('EM Event Layout Create'),
+   description('Redirects creating Event Layout to the EM Event Layout Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.em_event_layout__v'),
+   active(true),
+   disable_type_select(true),
+   page('Page.em_event_layout_detail_app_page__v')
+);

@@ -1,0 +1,9 @@
+RECREATE Reporttype agent_action_execution__sys (
+   label('Agent Action Execution'),
+   active(true),
+   description('Agent Action Execution'),
+   primary_object('agent_action_execution__sys'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

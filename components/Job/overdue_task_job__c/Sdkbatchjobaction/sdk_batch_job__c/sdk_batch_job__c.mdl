@@ -1,0 +1,6 @@
+Sdkbatchjobaction sdk_batch_job__c (
+   job_metadata('Jobmetadata.overdue_task_job__c'),
+   label('Overdue Task Job'),
+   parameters(),
+   primary_action(true)
+);

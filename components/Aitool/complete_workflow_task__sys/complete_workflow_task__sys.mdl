@@ -1,0 +1,8 @@
+RECREATE Aitool complete_workflow_task__sys (
+   label('Single Item Workflow Task Completion'),
+   active(true),
+   configuration(),
+   description('Complete workflow task.'),
+   input(),
+   tool_type('Aitooltype.complete_workflow_task__sys')
+);

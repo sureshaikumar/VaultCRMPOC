@@ -1,0 +1,18 @@
+Field enable_order_single_entry__v (
+   label('Enable Order Single Entry'),
+   type('Boolean'),
+   active(true),
+   description('Use field level security of this field to enable/disable mass entry function of order management'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(33),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

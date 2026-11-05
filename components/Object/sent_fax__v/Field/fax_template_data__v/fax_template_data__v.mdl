@@ -1,0 +1,17 @@
+Field fax_template_data__v (
+   label('Fax Template Data'),
+   type('LongText'),
+   active(true),
+   description('Values from the fax template at the time of sending, to preserve context even if the template is later updated.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

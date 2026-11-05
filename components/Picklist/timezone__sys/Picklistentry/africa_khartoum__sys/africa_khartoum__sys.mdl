@@ -1,0 +1,5 @@
+Picklistentry africa_khartoum__sys (
+   value('(GMT+02:00) Central Africa Time (Africa/Khartoum)'),
+   order(171),
+   active(true)
+);

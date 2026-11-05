@@ -1,0 +1,10 @@
+Vsmvalue sdg__v (
+   label('SDG'),
+   active(true),
+   description('Applies when transactions are denominated in the Sudanese Pound, the official currency of Sudan.'),
+   synonyms('Sudanese pound',
+         'Sudan currency',
+         'pound'),
+   target('sdg__sys'),
+   target_label('SDG')
+);

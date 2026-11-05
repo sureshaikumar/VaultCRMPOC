@@ -1,0 +1,13 @@
+Vsmrelationship language__v (
+   label('Language'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The language associated with this language-locale combination. Use this to filter or retrieve language details such as the language name or code (e.g., language__sysr.name__v = ''English'').'),
+   join_object(),
+   synonyms('language',
+         'associated language',
+         'parent language'),
+   target('language__sysr'),
+   target_label('Language'),
+   target_object('language__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry cf-mb__v (
+   value('Mbomou'),
+   order(608),
+   active(true),
+   controlling_entries('cf__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cpgla__v (
+   value('Clinical Pathology Gastroenterohepatology'),
+   order(271),
+   active(true),
+   controlling_entries('id__v')
+);

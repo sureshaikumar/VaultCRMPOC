@@ -1,0 +1,19 @@
+Field event_subtype__v (
+   label('Event Subtype'),
+   type('String'),
+   active(true),
+   description('Details of the event.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry america_havana__sys (
+   value('(GMT-05:00) Cuba Standard Time (America/Havana)'),
+   order(60),
+   active(true)
+);

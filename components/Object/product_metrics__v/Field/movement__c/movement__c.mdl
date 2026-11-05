@@ -1,0 +1,22 @@
+Field movement__c (
+   label('Movement'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9.9999),
+   min_value(-9.9999),
+   scale(4),
+   help_content('Sample metric field.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('Percent("0.#######%")'),
+   rollup(false),
+   control_binding()
+);

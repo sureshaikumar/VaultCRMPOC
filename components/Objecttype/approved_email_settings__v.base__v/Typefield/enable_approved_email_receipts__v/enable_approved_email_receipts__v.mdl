@@ -1,0 +1,4 @@
+Typefield enable_approved_email_receipts__v (
+   source('standard'),
+   required(false)
+);

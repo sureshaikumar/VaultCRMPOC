@@ -1,0 +1,11 @@
+RECREATE Objectvalidation pricing_subrule__v.sku_count_comparison_type_min_quantity__v (
+   label('SKU Count Comparison Type Min Quantity'),
+   active(true),
+   expression('Not(
+    comparison_type__v = ''sku_count__v'' &&
+    min_quantity__v <= 0
+)'),
+   description('SKU Count must be > 0'),
+   error_message('SKU Count must be > 0'),
+   error_location('min_quantity__v')
+);

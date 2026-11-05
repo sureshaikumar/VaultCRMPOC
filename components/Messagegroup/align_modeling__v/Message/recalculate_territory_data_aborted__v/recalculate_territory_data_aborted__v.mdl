@@ -1,0 +1,6 @@
+Message recalculate_territory_data_aborted__v (
+   label(),
+   active(true),
+   default_value('Territory data recalculation aborted'),
+   system_managed(false)
+);

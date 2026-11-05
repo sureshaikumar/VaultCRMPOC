@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad" name="start__c">
+    <vwf:label>Start</vwf:label>
+    <vwf:controls>
+      <vwf:control name="part_select_approver__c" label="Select Approver" type="participant">
+        <vwf:strategy source="workflow_owner__v" />
+        <vwf:defaultusers enabled="false" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+</vwf:stepdetails>

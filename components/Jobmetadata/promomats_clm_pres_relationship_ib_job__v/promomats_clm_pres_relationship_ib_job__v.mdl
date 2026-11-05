@@ -1,0 +1,10 @@
+RECREATE Jobmetadata promomats_clm_pres_relationship_ib_job__v (
+   label('PromoMats to CRM CLM Presentation Relationship Inbound Job'),
+   active(true),
+   chunk_size(100),
+   description('A job that brings over relationships for slides from PromoMats'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clmintegration.jobs.promomats.PromoMatsClmPresentationIntegrationRelationshipInboundJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

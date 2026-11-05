@@ -1,0 +1,9 @@
+RECREATE Picklist em_business_rule_date_threshold_type__v (
+   label('Date Threshold Type'),
+   active(true),
+   Picklistentry(@Picklistentry/rolling__v.mdl),
+   Picklistentry(@Picklistentry/calendar_month__v.mdl),
+   Picklistentry(@Picklistentry/calendar_year__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry in-sk__v (
+   value('Sikkim'),
+   order(2026),
+   active(true),
+   controlling_entries('in__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_event__v.view_signatures__v (
+   label('View Signatures'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalevents.actions.ViewSignatureAction'),
+   active(true),
+   available_all_states(true)
+);

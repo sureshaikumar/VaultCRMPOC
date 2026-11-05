@@ -1,0 +1,6 @@
+Picklistentry mv-08__v (
+   value('Kolhumadulu'),
+   order(3194),
+   active(true),
+   controlling_entries('mv__v')
+);

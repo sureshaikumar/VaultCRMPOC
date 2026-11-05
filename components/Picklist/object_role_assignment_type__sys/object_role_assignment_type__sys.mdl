@@ -1,0 +1,9 @@
+RECREATE Picklist object_role_assignment_type__sys (
+   label('Object Role Assignment Type'),
+   active(true),
+   Picklistentry(@Picklistentry/manual_assignment__sys.mdl),
+   Picklistentry(@Picklistentry/custom_sharing_rule__sys.mdl),
+   Picklistentry(@Picklistentry/matching_sharing_rule__sys.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

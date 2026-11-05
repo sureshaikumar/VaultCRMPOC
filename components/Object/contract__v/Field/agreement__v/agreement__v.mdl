@@ -1,0 +1,18 @@
+Field agreement__v (
+   label('Agreement'),
+   type('Boolean'),
+   active(true),
+   description('Flags the Contract record as an Agreement. Records flagged as Agreements do not appear in Order Management and Inventory Monitoring.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

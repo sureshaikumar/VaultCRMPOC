@@ -1,0 +1,23 @@
+Field medical_inquiry_overlay__v (
+   label('Medical Inquiry Overlay'),
+   type('Number'),
+   active(true),
+   description('Setting to configure launching medical inquiries'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(30),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

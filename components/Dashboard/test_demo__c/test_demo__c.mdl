@@ -1,0 +1,10 @@
+RECREATE Dashboard test_demo__c (
+   active(true),
+   label('test demo'),
+   description(),
+   editors(),
+   viewers(),
+   owners('User.vijayasanthi.ramamirtham@sb-accenture.com'),
+   dashboard_markup(@dashboard_markup.xml),
+   tags()
+);

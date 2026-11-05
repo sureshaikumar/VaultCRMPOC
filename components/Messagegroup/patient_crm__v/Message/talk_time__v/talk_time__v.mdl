@@ -1,0 +1,6 @@
+Message talk_time__v (
+   label(),
+   active(true),
+   default_value('Talk Time'),
+   system_managed(false)
+);

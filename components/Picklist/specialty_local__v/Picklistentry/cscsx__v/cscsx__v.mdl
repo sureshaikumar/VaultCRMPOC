@@ -1,0 +1,6 @@
+Picklistentry cscsx__v (
+   value('Cardiothoracic Surgery - Cardiac Surgery and General Thoracic Surgery Track'),
+   order(172),
+   active(true),
+   controlling_entries('il__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry tl-di__v (
+   value('Díli'),
+   order(4416),
+   active(true),
+   controlling_entries('tl__v')
+);

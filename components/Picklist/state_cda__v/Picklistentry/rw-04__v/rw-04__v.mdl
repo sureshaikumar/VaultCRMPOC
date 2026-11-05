@@ -1,0 +1,6 @@
+Picklistentry rw-04__v (
+   value('Ouest'),
+   order(3876),
+   active(true),
+   controlling_entries('rw__v')
+);

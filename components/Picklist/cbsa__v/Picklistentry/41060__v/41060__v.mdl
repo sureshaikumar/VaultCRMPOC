@@ -1,0 +1,5 @@
+Picklistentry 41060__v (
+   value('St. Cloud, MN Metropolitan Statistical Area'),
+   order(306),
+   active(true)
+);

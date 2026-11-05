@@ -1,0 +1,6 @@
+Picklistentry fr-11__v (
+   value('Aude'),
+   order(1325),
+   active(true),
+   controlling_entries('fr__v')
+);

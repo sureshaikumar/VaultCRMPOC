@@ -1,0 +1,5 @@
+Picklistentry lifecycle_stage_change__v (
+   value('Lifecycle Stage Change'),
+   order(9),
+   active(true)
+);

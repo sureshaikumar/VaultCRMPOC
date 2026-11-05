@@ -1,0 +1,13 @@
+RECREATE Objectvalidation assortment_line__v.section_linked_to_section__v (
+   label('Section_linked_to_Section'),
+   active(true),
+   expression('not(
+            and(
+                not(IsBlank(section_label__v)),
+                not(IsBlank(parent_section__v))
+            )
+       )'),
+   description('A Section cannot be linked to a Parent Section'),
+   error_message('A Section cannot be linked to a Parent Section'),
+   error_location('section_label__v')
+);

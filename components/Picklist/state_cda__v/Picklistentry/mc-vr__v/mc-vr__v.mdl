@@ -1,0 +1,6 @@
+Picklistentry mc-vr__v (
+   value('Vallon de la Rousse'),
+   order(2869),
+   active(true),
+   controlling_entries('mc__v')
+);

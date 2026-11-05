@@ -1,0 +1,4 @@
+Typefield aln_product_segmentation__v (
+   source('standard'),
+   required(false)
+);

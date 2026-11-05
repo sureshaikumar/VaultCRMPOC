@@ -1,0 +1,18 @@
+Field active__v (
+   label('Active'),
+   type('Boolean'),
+   active(true),
+   description('The ''Active'' flag sets a specific Dynamic Attribute record as the valid record to display to the end-user. In most cases, the most recently created record for a specific Dynamic Attribute Configuration will be set to ''Active'' = True, while all records pri'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

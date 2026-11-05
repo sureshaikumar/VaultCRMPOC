@@ -1,0 +1,5 @@
+Picklistentry olc_attendee__sys (
+   value('Attendee'),
+   order(4),
+   active(true)
+);

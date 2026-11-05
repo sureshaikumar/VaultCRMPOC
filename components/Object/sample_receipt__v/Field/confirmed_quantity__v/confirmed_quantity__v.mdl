@@ -1,0 +1,22 @@
+Field confirmed_quantity__v (
+   label('Confirmed Quantity'),
+   type('Number'),
+   active(true),
+   description('Confirmed Quantity contains the quantity of Samples that the recipient of the Transfer has confirmed from a Transfer Sample Transaction.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field ftp_user_name__v (
+   label('FTP User Name'),
+   type('String'),
+   active(true),
+   description('Textual Name of the User that performed the FTP of the Sales Data File to the VoD Server.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

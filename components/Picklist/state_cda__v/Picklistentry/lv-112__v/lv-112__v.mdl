@@ -1,0 +1,6 @@
+Picklistentry lv-112__v (
+   value('Dienvidkurzemes Novads'),
+   order(2735),
+   active(true),
+   controlling_entries('lv__v')
+);

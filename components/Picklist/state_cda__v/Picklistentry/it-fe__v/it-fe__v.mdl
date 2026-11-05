@@ -1,0 +1,6 @@
+Picklistentry it-fe__v (
+   value('Ferrara'),
+   order(2206),
+   active(true),
+   controlling_entries('it__v')
+);

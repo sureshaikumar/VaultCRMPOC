@@ -1,0 +1,18 @@
+Field enable_offline_vinsights__v (
+   label('ENABLE_OFFLINE_VINSIGHTS'),
+   type('Boolean'),
+   active(true),
+   description('Controls whether iRep uses VInsights offline or online. Offline Account Summary is turned off by default.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(146),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

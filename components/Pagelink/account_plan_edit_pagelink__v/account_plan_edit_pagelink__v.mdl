@@ -1,0 +1,11 @@
+RECREATE Pagelink account_plan_edit_pagelink__v (
+   label('Account Plan Edit'),
+   description('Redirects editing Account Plans to the Account Plan App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/edit/{{Object.id}}?fieldParameters={{Related.fieldParameters}}'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.account_plan__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.account_plan_page__v')
+);

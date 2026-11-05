@@ -1,0 +1,5 @@
+Picklistentry current__sys (
+   value('Current'),
+   order(0),
+   active(true)
+);

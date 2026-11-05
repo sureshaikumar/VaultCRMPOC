@@ -1,0 +1,12 @@
+RECREATE Picklist user_engage_group_provisioning_status__v (
+   label('Engage Group Provisioning Status'),
+   active(true),
+   Picklistentry(@Picklistentry/request_sent__v.mdl),
+   Picklistentry(@Picklistentry/no_licenses_remaining__v.mdl),
+   Picklistentry(@Picklistentry/invalid_group_name__v.mdl),
+   Picklistentry(@Picklistentry/retry_request__v.mdl),
+   Picklistentry(@Picklistentry/request_failed__v.mdl),
+   Picklistentry(@Picklistentry/success__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

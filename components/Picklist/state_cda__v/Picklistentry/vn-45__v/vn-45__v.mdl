@@ -1,0 +1,6 @@
+Picklistentry vn-45__v (
+   value('Đồng Tháp'),
+   order(4946),
+   active(true),
+   controlling_entries('vn__v')
+);

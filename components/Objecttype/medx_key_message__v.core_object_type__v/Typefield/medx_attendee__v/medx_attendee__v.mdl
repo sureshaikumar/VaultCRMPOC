@@ -1,0 +1,4 @@
+Typefield medx_attendee__v (
+   source('custom'),
+   required(false)
+);

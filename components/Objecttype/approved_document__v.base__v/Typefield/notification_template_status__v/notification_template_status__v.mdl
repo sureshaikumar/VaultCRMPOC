@@ -1,0 +1,4 @@
+Typefield notification_template_status__v (
+   source('standard'),
+   required(false)
+);

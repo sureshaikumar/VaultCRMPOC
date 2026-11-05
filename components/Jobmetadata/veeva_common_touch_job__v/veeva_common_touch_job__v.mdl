@@ -1,0 +1,10 @@
+RECREATE Jobmetadata veeva_common_touch_job__v (
+   label('Veeva Common Settings Sync Job'),
+   active(true),
+   chunk_size(1),
+   description('Essential job that makes Veeva Common settings available to Vault CRM applications. Do not edit or change anything about this job, it is managed by Veeva.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.tenantmetadata.jobs.VeevaCommonTouchJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

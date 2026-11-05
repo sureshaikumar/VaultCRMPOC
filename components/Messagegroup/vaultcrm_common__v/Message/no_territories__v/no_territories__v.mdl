@@ -1,0 +1,6 @@
+Message no_territories__v (
+   label(),
+   active(true),
+   default_value('No territories to display.'),
+   system_managed(false)
+);

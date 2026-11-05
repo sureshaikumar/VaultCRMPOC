@@ -1,0 +1,6 @@
+Picklistentry mh-kil__v (
+   value('Kili'),
+   order(2946),
+   active(true),
+   controlling_entries('mh__v')
+);

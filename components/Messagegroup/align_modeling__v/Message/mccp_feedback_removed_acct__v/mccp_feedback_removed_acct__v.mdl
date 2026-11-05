@@ -1,0 +1,6 @@
+Message mccp_feedback_removed_acct__v (
+   label(),
+   active(true),
+   default_value('This account will be removed from your territory'),
+   system_managed(false)
+);

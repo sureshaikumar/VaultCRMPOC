@@ -1,0 +1,9 @@
+Vsmvalue afa__v (
+   label('AFA'),
+   active(true),
+   description('The old Afghan Afghani (AFA), a former currency of Afghanistan replaced by the redenominated AFN in 2003.'),
+   synonyms('Afghan afghani old',
+         'Afghanistan old currency'),
+   target('afa__sys'),
+   target_label('AFA')
+);

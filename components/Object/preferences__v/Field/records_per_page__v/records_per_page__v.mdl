@@ -1,0 +1,22 @@
+Field records_per_page__v (
+   label('Records Per Page'),
+   type('Number'),
+   active(true),
+   description('This setting retains a users selection of the number of records to view in each page of the My Accounts page'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(49),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

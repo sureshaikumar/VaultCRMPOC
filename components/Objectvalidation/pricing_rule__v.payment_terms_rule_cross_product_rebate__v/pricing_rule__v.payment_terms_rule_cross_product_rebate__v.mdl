@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.payment_terms_rule_cross_product_rebate__v (
+   label('Payment Terms Rule Cross Product Rebate'),
+   active(true),
+   expression('Not(
+    And(
+        object_type__vr.api_name__v = ''payment_terms_rule__v'',
+        cross_product_rule__v = true
+    )
+)'),
+   description('Cross-Product Rebates on Payment Term Rules not supported.'),
+   error_message('Payment Term Rules don''t support Cross Product Rebate.'),
+   error_location('cross_product_rule__v')
+);

@@ -1,0 +1,6 @@
+Typefield add_delegates_to_event__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_action_add_delegates_to_event__v.no__v',
+         'Picklist.em_event_action_add_delegates_to_event__v.yes__v')
+);

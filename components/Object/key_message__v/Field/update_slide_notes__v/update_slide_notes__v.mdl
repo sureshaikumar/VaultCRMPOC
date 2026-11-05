@@ -1,0 +1,19 @@
+Field update_slide_notes__v (
+   label('Update Slide Notes'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether slide notes need to be updated'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(44),
+   formula('slide_version__v != slide_notes_version__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

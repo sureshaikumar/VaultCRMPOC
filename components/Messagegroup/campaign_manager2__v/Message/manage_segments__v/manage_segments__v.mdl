@@ -1,0 +1,6 @@
+Message manage_segments__v (
+   label(),
+   active(true),
+   default_value('Manage Segments'),
+   system_managed(false)
+);

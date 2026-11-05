@@ -1,0 +1,6 @@
+Message project_clone_dialog_in_progress__v (
+   label(),
+   active(true),
+   default_value('Cloning project data'),
+   system_managed(false)
+);

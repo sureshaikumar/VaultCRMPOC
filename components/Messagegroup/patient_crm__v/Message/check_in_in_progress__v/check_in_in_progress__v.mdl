@@ -1,0 +1,6 @@
+Message check_in_in_progress__v (
+   label(),
+   active(true),
+   default_value('Check-In in Progress'),
+   system_managed(false)
+);

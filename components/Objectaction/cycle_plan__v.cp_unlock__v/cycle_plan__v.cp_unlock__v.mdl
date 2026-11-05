@@ -1,0 +1,8 @@
+RECREATE Objectaction cycle_plan__v.cp_unlock__v (
+   label('Unlock'),
+   description('This action unlocks the record for editing, sets the cycle_plan__v.lock__v to false, and sets the Cycle Plan status to in_progress__v.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.cycleplan.actions.CyclePlanUnlockAction'),
+   active(true),
+   available_all_states(true)
+);

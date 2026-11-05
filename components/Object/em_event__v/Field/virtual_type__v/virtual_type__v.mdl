@@ -1,0 +1,18 @@
+Field virtual_type__v (
+   label('Virtual Type'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the current virtual type that is used for this event.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(130),
+   multi_value(false),
+   picklist('Picklist.virtual_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

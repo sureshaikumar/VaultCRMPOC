@@ -1,0 +1,6 @@
+Picklistentry eg-lx__v (
+   value('Al Uqşur'),
+   order(1175),
+   active(true),
+   controlling_entries('eg__v')
+);

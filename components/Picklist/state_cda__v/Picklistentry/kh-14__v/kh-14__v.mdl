@@ -1,0 +1,6 @@
+Picklistentry kh-14__v (
+   value('Prey Veaeng [Prey Vêng]'),
+   order(2415),
+   active(true),
+   controlling_entries('kh__v')
+);

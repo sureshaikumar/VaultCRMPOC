@@ -1,0 +1,11 @@
+Searchcollectionsection osy00000001c001__c (
+   label(),
+   active(true),
+   document_type(),
+   include_on_tab(true),
+   object('Object.account__v'),
+   object_relationships(),
+   object_type(),
+   tab_assignments(),
+   vql_criteria()
+);

@@ -1,0 +1,6 @@
+Picklistentry ye-hd__v (
+   value('Ḩaḑramawt'),
+   order(5001),
+   active(true),
+   controlling_entries('ye__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-230__v (
+   value('Namayingo'),
+   order(4698),
+   active(true),
+   controlling_entries('ug__v')
+);

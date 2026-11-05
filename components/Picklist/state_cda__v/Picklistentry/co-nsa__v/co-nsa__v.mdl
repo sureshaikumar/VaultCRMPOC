@@ -1,0 +1,6 @@
+Picklistentry co-nsa__v (
+   value('Norte de Santander'),
+   order(749),
+   active(true),
+   controlling_entries('co__v')
+);

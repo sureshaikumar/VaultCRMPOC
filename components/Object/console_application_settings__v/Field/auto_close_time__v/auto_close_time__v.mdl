@@ -1,0 +1,23 @@
+Field auto_close_time__v (
+   label('Auto-Close Time'),
+   type('Number'),
+   active(true),
+   description('Time in days a Case remains in the Solved state before being closed by the system.'),
+   required(true),
+   unique(false),
+   max_value(10),
+   min_value(1),
+   scale(0),
+   help_content('Time in days a Case remains in the Solved state before being closed by the system.'),
+   list_column(false),
+   order(12),
+   default_value('4'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry az-sat__v (
+   value('Saatlı'),
+   order(193),
+   active(true),
+   controlling_entries('az__v')
+);

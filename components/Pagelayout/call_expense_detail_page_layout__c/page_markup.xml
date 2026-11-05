@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.call2_expense__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="call2__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="amount__v" />
+            <vault:field reference="attendee_type__v" />
+            <vault:field reference="call_date__v" />
+            <vault:field reference="entity_reference_id__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="note__v" />
+            <vault:field reference="override_lock__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="is_parent_call__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

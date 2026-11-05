@@ -1,0 +1,9 @@
+RECREATE Picklist workflow_item_type__sys (
+   label('Workflow Item Type'),
+   active(true),
+   Picklistentry(@Picklistentry/document__sys.mdl),
+   Picklistentry(@Picklistentry/document_version__sys.mdl),
+   Picklistentry(@Picklistentry/object__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

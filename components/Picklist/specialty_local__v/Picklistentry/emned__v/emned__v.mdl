@@ -1,0 +1,6 @@
+Picklistentry emned__v (
+   value('Endocrine Medicine'),
+   order(493),
+   active(true),
+   controlling_entries('kr__v')
+);

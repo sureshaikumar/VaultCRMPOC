@@ -1,0 +1,4 @@
+Typefield facings_vertical__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message align_postgres_data_full_refresh_warning__v (
+   label(),
+   active(true),
+   default_value('You are about to perform a Full Refresh of ALL OBJECTS in the PostgreSQL database.<br/><br/>'),
+   system_managed(false)
+);

@@ -1,0 +1,16 @@
+Picklistentry cphae__v (
+   value('Chemical Pathology'),
+   order(186),
+   active(true),
+   controlling_entries('au__v',
+         'gb__v',
+         'gh__v',
+         'ie__v',
+         'mt__v',
+         'my__v',
+         'na__v',
+         'ng__v',
+         'nz__v',
+         'pk__v',
+         'us__v')
+);

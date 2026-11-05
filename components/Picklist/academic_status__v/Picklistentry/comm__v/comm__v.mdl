@@ -1,0 +1,5 @@
+Picklistentry comm__v (
+   value('Community'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry csauu__v (
+   value('Cardiology Surgery'),
+   order(164),
+   active(true),
+   controlling_entries('us__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction call2_sample__v.cancel_send_user_action__v (
+   label('Cancel Send'),
+   description('User action to request a cancellation of the shipment.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.callsample.actions.CancelSendAction'),
+   active(true),
+   available_all_states(true)
+);

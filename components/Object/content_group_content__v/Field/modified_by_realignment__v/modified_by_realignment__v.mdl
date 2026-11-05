@@ -1,0 +1,17 @@
+Field modified_by_realignment__v (
+   label('Modified By Realignment'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Do not modify. Set automatically by Realignment process.'),
+   list_column(false),
+   order(17),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   rollup(false),
+   control_binding()
+);

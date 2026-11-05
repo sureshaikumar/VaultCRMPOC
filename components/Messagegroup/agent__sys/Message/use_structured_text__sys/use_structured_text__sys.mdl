@@ -1,0 +1,6 @@
+Message use_structured_text__sys (
+   label(),
+   active(true),
+   default_value('Use Structured Text Format'),
+   system_managed(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry enable_edit_my_goal_to_zero__v (
+   value('Enable Edit My Goal to Zero'),
+   order(0),
+   active(true)
+);

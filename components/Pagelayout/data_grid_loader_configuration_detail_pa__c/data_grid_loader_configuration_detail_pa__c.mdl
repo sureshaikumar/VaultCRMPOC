@@ -1,0 +1,8 @@
+RECREATE Pagelayout data_grid_loader_configuration_detail_pa__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Data Grid Loader Configuration Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

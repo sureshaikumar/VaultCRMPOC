@@ -1,0 +1,18 @@
+Field reject_channel_source_edit_on_cancel__v (
+   label('Reject Channel Source Edit On Cancel'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If set to true, the any changes made to channel source will be written to the database only if consent is captured for that channel source, otherwise the changes made will be cancelled.'),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

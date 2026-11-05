@@ -1,0 +1,6 @@
+Picklistentry dz-46__v (
+   value('Aïn Témouchent'),
+   order(1027),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 33980__v (
+   value('Morehead City, NC Micropolitan Statistical Area'),
+   order(141),
+   active(true)
+);

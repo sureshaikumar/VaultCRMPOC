@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate add_lang_pref_notification_no_link__v (
+   label('New Language Preference Set'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('A language has been added to your search language preferences'),
+   notification('${addedSearchableLanguage} was added to your search language preferences.'),
+   email_body('${addedSearchableLanguage} was added to your search language preferences.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

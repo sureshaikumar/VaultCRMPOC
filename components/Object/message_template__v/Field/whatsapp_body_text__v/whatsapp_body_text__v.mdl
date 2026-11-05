@@ -1,0 +1,19 @@
+Field whatsapp_body_text__v (
+   label('WhatsApp Body Text'),
+   type('String'),
+   active(true),
+   description('Main message body shown to the HCP in WhatsApp.'),
+   required(false),
+   unique(false),
+   max_length(1024),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

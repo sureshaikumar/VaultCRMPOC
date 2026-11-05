@@ -1,0 +1,9 @@
+RECREATE Reporttype document__sys (
+   label('Document'),
+   active(true),
+   description('Returns all viewable documents'),
+   primary_object('documents'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

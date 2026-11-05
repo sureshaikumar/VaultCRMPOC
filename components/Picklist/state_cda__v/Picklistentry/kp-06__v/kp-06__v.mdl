@@ -1,0 +1,6 @@
+Picklistentry kp-06__v (
+   value('North Hwanghae'),
+   order(2462),
+   active(true),
+   controlling_entries('kp__v')
+);

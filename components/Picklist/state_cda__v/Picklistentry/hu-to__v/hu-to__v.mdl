@@ -1,0 +1,6 @@
+Picklistentry hu-to__v (
+   value('Tolna'),
+   order(1910),
+   active(true),
+   controlling_entries('hu__v')
+);

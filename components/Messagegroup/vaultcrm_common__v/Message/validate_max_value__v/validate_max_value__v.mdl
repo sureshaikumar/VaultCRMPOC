@@ -1,0 +1,6 @@
+Message validate_max_value__v (
+   label(),
+   active(true),
+   default_value('Please enter a value less than or equal to ${max_value}.'),
+   system_managed(false)
+);

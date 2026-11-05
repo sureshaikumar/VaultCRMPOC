@@ -1,0 +1,6 @@
+Picklistentry th-45__v (
+   value('Roi Et'),
+   order(4361),
+   active(true),
+   controlling_entries('th__v')
+);

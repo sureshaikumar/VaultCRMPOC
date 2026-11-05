@@ -1,0 +1,8 @@
+RECREATE Pagelayout eppv_detail_page_layout1__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('EPPV Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

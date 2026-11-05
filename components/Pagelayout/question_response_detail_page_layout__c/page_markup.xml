@@ -1,0 +1,39 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.question_response__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="survey_target__v" />
+            <vault:field reference="answer_choice__v" />
+            <vault:field reference="condition__v" />
+            <vault:field reference="date__v" />
+            <vault:field reference="datetime__v" />
+            <vault:field reference="decimal__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="inactive_condition__v" />
+            <vault:field reference="max_score__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="number__v" />
+            <vault:field reference="order__v" />
+            <vault:field reference="required__v" />
+            <vault:field reference="response_hash__v" />
+            <vault:field reference="response__v" />
+            <vault:field reference="score__v" />
+            <vault:field reference="source_id__v" />
+            <vault:field reference="text__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="ctrl_survey__v" />
+            <vault:field reference="survey_question__v" />
+            <vault:field reference="question_text__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

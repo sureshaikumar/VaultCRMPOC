@@ -1,0 +1,5 @@
+Picklistentry cns_agents_amphetamines__c (
+   value('CNS Agents (Amphetamines)'),
+   order(116),
+   active(true)
+);

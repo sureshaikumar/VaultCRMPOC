@@ -1,0 +1,5 @@
+Picklistentry fax__v (
+   value('Fax'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message date_at_time_timezone__v (
+   label(),
+   active(true),
+   default_value('${date} at ${time} ${timezone}'),
+   system_managed(false)
+);

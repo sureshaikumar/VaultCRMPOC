@@ -1,0 +1,6 @@
+Picklistentry bi-ky__v (
+   value('Kayanza'),
+   order(414),
+   active(true),
+   controlling_entries('bi__v')
+);

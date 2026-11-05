@@ -1,0 +1,5 @@
+Picklistentry kur__v (
+   value('Kurdish'),
+   order(178),
+   active(false)
+);

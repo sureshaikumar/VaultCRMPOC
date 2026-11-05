@@ -1,0 +1,6 @@
+Picklistentry bg-17__v (
+   value('Razgrad'),
+   order(389),
+   active(true),
+   controlling_entries('bg__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry wechat_call__v (
+   value('WeChat Call'),
+   order(3),
+   active(false)
+);

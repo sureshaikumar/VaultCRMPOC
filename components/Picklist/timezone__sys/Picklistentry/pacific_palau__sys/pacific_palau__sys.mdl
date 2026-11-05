@@ -1,0 +1,5 @@
+Picklistentry pacific_palau__sys (
+   value('(GMT+09:00) Palau Time (Pacific/Palau)'),
+   order(274),
+   active(true)
+);

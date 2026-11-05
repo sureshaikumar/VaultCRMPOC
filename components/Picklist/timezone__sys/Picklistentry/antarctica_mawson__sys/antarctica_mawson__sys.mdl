@@ -1,0 +1,5 @@
+Picklistentry antarctica_mawson__sys (
+   value('(GMT+05:00) Mawson Time (Antarctica/Mawson)'),
+   order(222),
+   active(true)
+);

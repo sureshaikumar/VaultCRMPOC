@@ -1,0 +1,20 @@
+Field phone__v (
+   label('Phone Number'),
+   type('String'),
+   subtype('Phone'),
+   active(true),
+   description('Stores Phone Number as entered from the Engage Scheduling Site.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(97),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PhoneFormat()'),
+   control_binding()
+);

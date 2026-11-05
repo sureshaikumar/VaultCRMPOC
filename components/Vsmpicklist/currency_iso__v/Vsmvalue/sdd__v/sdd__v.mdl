@@ -1,0 +1,10 @@
+Vsmvalue sdd__v (
+   label('SDD'),
+   active(true),
+   description('Applies when referencing the legacy Sudanese Dinar, a historical currency of Sudan replaced by the Sudanese Pound (SDG).'),
+   synonyms('Sudanese dinar legacy',
+         'old Sudanese dinar',
+         'Sudan dinar'),
+   target('sdd__sys'),
+   target_label('SDD')
+);

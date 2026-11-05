@@ -1,0 +1,7 @@
+RECREATE Accountmessage snapshotexpirationwarning__sys (
+   label('Snapshot Expiration Warning'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Notification: Sandbox Snapshot Expiration Warning')
+);

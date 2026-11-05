@@ -1,0 +1,5 @@
+Picklistentry 27900__v (
+   value('Joplin, MO Metropolitan Statistical Area'),
+   order(136),
+   active(true)
+);

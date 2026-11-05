@@ -1,0 +1,6 @@
+Message exporting_account_plan__v (
+   label(),
+   active(true),
+   default_value('Exporting "${account_plan_name}" You will be notified when the file is ready to view.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message secondary_color_error_domain__v (
+   label(),
+   active(true),
+   default_value('Theme Color must be selected in order to select a Secondary Theme Color.'),
+   system_managed(false)
+);

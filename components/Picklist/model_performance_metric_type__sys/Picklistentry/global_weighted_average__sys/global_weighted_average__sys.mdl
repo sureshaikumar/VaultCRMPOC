@@ -1,0 +1,5 @@
+Picklistentry global_weighted_average__sys (
+   value('Global Weighted Average'),
+   order(1),
+   active(true)
+);

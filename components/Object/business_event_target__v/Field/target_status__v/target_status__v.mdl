@@ -1,0 +1,19 @@
+Field target_status__v (
+   label('Target Status'),
+   type('Picklist'),
+   active(true),
+   description('Status of the business event target'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(22),
+   multi_value(false),
+   picklist('Picklist.business_event_target_status__v'),
+   default_value('{not_started__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

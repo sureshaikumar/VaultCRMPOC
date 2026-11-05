@@ -1,0 +1,6 @@
+Message ctav_error_no_delete_perm__v (
+   label(),
+   active(true),
+   default_value('No delete privilege of ${object_name}: ${record_id}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message enter_fax_number__v (
+   label(),
+   active(true),
+   default_value('Enter Fax Number'),
+   system_managed(false)
+);

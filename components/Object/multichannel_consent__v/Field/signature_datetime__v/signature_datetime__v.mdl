@@ -1,0 +1,17 @@
+Field signature_datetime__v (
+   label('Signature Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Signature_Datetime_vod captures the Datetime of the signature capture. Placing this field on the layout associated to the Approved_Email_vod record type will allow for optional signature capture on signature-capable devices during the Opt-In process. If t'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

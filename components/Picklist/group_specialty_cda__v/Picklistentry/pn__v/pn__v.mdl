@@ -1,0 +1,5 @@
+Picklistentry pn__v (
+   value('Pain Medicine'),
+   order(24),
+   active(true)
+);

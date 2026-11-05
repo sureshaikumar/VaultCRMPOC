@@ -1,0 +1,6 @@
+Picklistentry lc-02__v (
+   value('Castries'),
+   order(2540),
+   active(true),
+   controlling_entries('lc__v')
+);

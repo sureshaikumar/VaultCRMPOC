@@ -1,0 +1,5 @@
+Picklistentry us__v (
+   value('United States of America'),
+   order(236),
+   active(true)
+);

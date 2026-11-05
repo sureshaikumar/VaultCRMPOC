@@ -1,0 +1,6 @@
+Message phone_number_connected_to_other_vault__v (
+   label(),
+   active(true),
+   default_value('Phone Number is already associated with another Vault (Vault ID: ${vault_tenant_id}).'),
+   system_managed(false)
+);

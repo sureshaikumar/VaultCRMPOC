@@ -1,0 +1,6 @@
+Message territory_info_bar_graphs__v (
+   label(),
+   active(true),
+   default_value('Graphs'),
+   system_managed(false)
+);

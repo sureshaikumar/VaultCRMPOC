@@ -1,0 +1,20 @@
+Field call2_header_fields__v (
+   label('CALL2_HEADER_FIELDS'),
+   type('String'),
+   active(true),
+   description('List of Call fields synced to the VMobile BlackBerry application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(42),
+   default_value('"CALL2_HEADER_FIELDS;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

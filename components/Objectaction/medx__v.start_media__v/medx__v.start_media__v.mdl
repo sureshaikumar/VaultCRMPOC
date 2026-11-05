@@ -1,0 +1,8 @@
+RECREATE Objectaction medx__v.start_media__v (
+   label('Start Media'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinteraction.actions.MedicalInteractionStartMediaAction'),
+   active(true),
+   available_all_states(false)
+);

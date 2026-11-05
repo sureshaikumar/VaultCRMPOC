@@ -1,0 +1,6 @@
+Message my_accounts__v (
+   label(),
+   active(true),
+   default_value('My Accounts'),
+   system_managed(false)
+);

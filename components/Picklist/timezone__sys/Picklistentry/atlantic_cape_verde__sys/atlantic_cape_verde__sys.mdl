@@ -1,0 +1,5 @@
+Picklistentry atlantic_cape_verde__sys (
+   value('(GMT-01:00) Cape Verde Time (Atlantic/Cape_Verde)'),
+   order(133),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message check_in_1_day_overdue__v (
+   label(),
+   active(true),
+   default_value('Check-In 1 day overdue'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ao-lsu__v (
+   value('Lunda Sul'),
+   order(90),
+   active(true),
+   controlling_entries('ao__v')
+);

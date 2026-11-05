@@ -1,0 +1,6 @@
+Message view_template__v (
+   label(),
+   active(true),
+   default_value('View Template'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field help_text__v (
+   label('Help Text'),
+   type('String'),
+   active(true),
+   description('This field holds text to help clarify what values are expected for the Dynamic Attribute. The text defined in this field is visible to the field-user.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata cm_single_job_processor_proxy__v (
+   label('Campaign Manager Single Item Job Processor Proxy'),
+   active(true),
+   chunk_size(1),
+   description('Campaign Manager Single Item Job Processor Proxy'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.campaignmanager.job.CampaignManagerSingleItemJobProcessorProxy'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

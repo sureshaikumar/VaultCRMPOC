@@ -1,0 +1,6 @@
+Picklistentry ph-mdc__v (
+   value('Mindoro Occidental'),
+   order(3579),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction escalated_state__v.set_is_escalated_true__v (
+   rule(@rule.xml),
+   order(1000)
+);

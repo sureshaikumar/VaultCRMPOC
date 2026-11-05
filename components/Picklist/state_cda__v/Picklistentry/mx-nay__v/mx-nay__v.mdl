@@ -1,0 +1,6 @@
+Picklistentry mx-nay__v (
+   value('Nayarit'),
+   order(3256),
+   active(true),
+   controlling_entries('mx__v')
+);

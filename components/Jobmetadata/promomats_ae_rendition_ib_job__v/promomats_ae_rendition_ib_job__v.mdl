@@ -1,0 +1,10 @@
+RECREATE Jobmetadata promomats_ae_rendition_ib_job__v (
+   label('PromoMats to CRM AE Integration Rendition Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that brings over AE renditions from PromoMats'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.aeintegration.jobs.promomats.PromoMatsAeIntegrationRenditionInboundJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

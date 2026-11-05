@@ -1,0 +1,6 @@
+Message rule_criteria_invalid_logic__v (
+   label(),
+   active(true),
+   default_value('Invalid {0} logic'),
+   system_managed(false)
+);

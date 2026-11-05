@@ -1,0 +1,5 @@
+Picklistentry 10660__v (
+   value('Albert Lea, MN Micropolitan Statistical Area'),
+   order(540),
+   active(true)
+);

@@ -1,0 +1,7 @@
+Agentactiontool translate_document_page_ask_user__sys (
+   label(),
+   active(true),
+   action('Agentaction.translate_document_page__sys'),
+   agent('Agent.base_document_chat_agent__sys'),
+   tool('Aitool.ask_user__sys')
+);

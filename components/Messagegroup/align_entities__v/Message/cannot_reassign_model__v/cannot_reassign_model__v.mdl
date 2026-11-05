@@ -1,0 +1,6 @@
+Message cannot_reassign_model__v (
+   label(),
+   active(true),
+   default_value('MC Cycle ${cycle_name} cannot be reassigned to a Model Field Force if it has been assigned to a Field Force.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message select_reason__v (
+   label(),
+   active(true),
+   default_value('Select Reason'),
+   system_managed(false)
+);

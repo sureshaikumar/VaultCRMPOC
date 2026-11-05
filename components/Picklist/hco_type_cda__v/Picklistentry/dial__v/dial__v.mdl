@@ -1,0 +1,5 @@
+Picklistentry dial__v (
+   value('Dialysis Center'),
+   order(7),
+   active(true)
+);

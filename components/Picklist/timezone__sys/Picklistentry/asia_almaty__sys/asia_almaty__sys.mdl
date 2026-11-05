@@ -1,0 +1,5 @@
+Picklistentry asia_almaty__sys (
+   value('(GMT+06:00) Alma-Ata Time (Asia/Almaty)'),
+   order(235),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message alignment_results_send_no__v (
+   label(),
+   active(true),
+   default_value('Send To CRM = No'),
+   system_managed(false)
+);

@@ -1,0 +1,12 @@
+Agentaction summarize_document__sys (
+   label('Summarize Document'),
+   active(true),
+   api_access(true),
+   description('This Action summarizes the document content for the user to quickly understand the main theme and key points of the document.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(true),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

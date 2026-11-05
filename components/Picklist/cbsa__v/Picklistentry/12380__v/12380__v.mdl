@@ -1,0 +1,5 @@
+Picklistentry 12380__v (
+   value('Austin, MN Micropolitan Statistical Area'),
+   order(764),
+   active(true)
+);

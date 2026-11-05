@@ -1,0 +1,13 @@
+RECREATE Picklist type_of_relationship__v (
+   label('Relationship Type'),
+   active(true),
+   Picklistentry(@Picklistentry/rltd__v.mdl),
+   Picklistentry(@Picklistentry/wrks__v.mdl),
+   Picklistentry(@Picklistentry/leds__v.mdl),
+   Picklistentry(@Picklistentry/ownsp__v.mdl),
+   Picklistentry(@Picklistentry/unkd__v.mdl),
+   Picklistentry(@Picklistentry/prtn__v.mdl),
+   Picklistentry(@Picklistentry/ownso__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

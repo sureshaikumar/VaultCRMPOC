@@ -1,0 +1,6 @@
+Picklistentry it-fr__v (
+   value('Frosinone'),
+   order(2210),
+   active(true),
+   controlling_entries('it__v')
+);

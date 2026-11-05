@@ -1,0 +1,4 @@
+Typefield crm_events_user__v (
+   source('standard'),
+   required(false)
+);

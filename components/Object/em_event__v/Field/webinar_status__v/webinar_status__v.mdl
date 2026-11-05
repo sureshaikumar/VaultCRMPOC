@@ -1,0 +1,19 @@
+Field webinar_status__v (
+   label('Engage Enabled'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of Engage Webinar integration'),
+   list_column(false),
+   order(85),
+   multi_value(false),
+   picklist('Picklist.em_event_webinar_status__v'),
+   default_value('{off__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

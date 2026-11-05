@@ -1,0 +1,4 @@
+Typefield sales_force_educting_on_new_product_add__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message enter_phone_number__v (
+   label(),
+   active(true),
+   default_value('Enter Phone Number'),
+   system_managed(false)
+);

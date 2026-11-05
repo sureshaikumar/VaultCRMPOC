@@ -1,0 +1,6 @@
+Picklistentry eadpd__v (
+   value('Educational and Developmental Psychology'),
+   order(471),
+   active(true),
+   controlling_entries('au__v')
+);

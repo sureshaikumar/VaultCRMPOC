@@ -1,0 +1,6 @@
+Picklistentry si-075__v (
+   value('Miren-Kostanjevica'),
+   order(4049),
+   active(true),
+   controlling_entries('si__v')
+);

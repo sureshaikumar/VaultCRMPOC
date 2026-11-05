@@ -1,0 +1,6 @@
+Picklistentry ie-co__v (
+   value('Cork'),
+   order(1964),
+   active(true),
+   controlling_entries('ie__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry dz-11__v (
+   value('Tamanghasset'),
+   order(992),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction draft_state__c.change_state_to_in_review_useraction5__c (
+   label('Change State to In Review'),
+   rule(@rule.xml),
+   order(1000)
+);

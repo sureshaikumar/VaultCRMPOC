@@ -1,0 +1,6 @@
+Picklistentry gb-wrt__v (
+   value('Warrington'),
+   order(1663),
+   active(true),
+   controlling_entries('gb__v')
+);

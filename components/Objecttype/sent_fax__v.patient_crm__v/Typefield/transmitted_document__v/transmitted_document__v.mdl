@@ -1,0 +1,4 @@
+Typefield transmitted_document__v (
+   source('standard'),
+   required(false)
+);

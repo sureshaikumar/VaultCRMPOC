@@ -1,0 +1,6 @@
+Message model_dialog_num_territories__v (
+   label(),
+   active(true),
+   default_value('Territories'),
+   system_managed(false)
+);

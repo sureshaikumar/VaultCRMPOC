@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.send_email__v (
+   label('Send Email'),
+   description('Send Email'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.EmSendApprovedEmailAction'),
+   active(true),
+   available_all_states(true)
+);

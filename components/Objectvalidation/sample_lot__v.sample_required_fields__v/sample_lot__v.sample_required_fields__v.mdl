@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_lot__v.sample_required_fields__v (
+   label('Sample Required Fields'),
+   active(true),
+   expression('suppress_lot__v || not(IsBlank(sample__v))'),
+   description('Ensures that a value is input for either Sample or Product look up when creating a Lot Catalog record for a traditional Sample product that has associated Lot #s.'),
+   error_message('Either Sample field or Product field is required to create a Sample Lot record for a Sample product with a Lot #.'),
+   error_location('sample__v')
+);

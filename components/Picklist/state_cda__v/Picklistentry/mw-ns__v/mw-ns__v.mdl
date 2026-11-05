@@ -1,0 +1,6 @@
+Picklistentry mw-ns__v (
+   value('Nsanje'),
+   order(3231),
+   active(true),
+   controlling_entries('mw__v')
+);

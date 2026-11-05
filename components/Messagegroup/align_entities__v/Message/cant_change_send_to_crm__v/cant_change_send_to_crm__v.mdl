@@ -1,0 +1,6 @@
+Message cant_change_send_to_crm__v (
+   label(),
+   active(true),
+   default_value('Assignments previously sent to CRM cannot have Send to CRM changed to "No". End this assignment and create a new assignment.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_el_salvador__sys (
+   value('(GMT-06:00) Central Standard Time (America/El_Salvador)'),
+   order(35),
+   active(true)
+);

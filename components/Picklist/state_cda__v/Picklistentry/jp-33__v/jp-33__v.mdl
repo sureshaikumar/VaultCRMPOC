@@ -1,0 +1,6 @@
+Picklistentry jp-33__v (
+   value('Okayama'),
+   order(2339),
+   active(true),
+   controlling_entries('jp__v')
+);

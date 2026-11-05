@@ -1,0 +1,6 @@
+Picklistentry id-kb__v (
+   value('Kalimantan Barat'),
+   order(1929),
+   active(true),
+   controlling_entries('id__v')
+);

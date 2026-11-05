@@ -1,0 +1,6 @@
+Picklistentry ug-321__v (
+   value('Oyam'),
+   order(4726),
+   active(true),
+   controlling_entries('ug__v')
+);

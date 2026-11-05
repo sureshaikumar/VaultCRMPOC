@@ -1,0 +1,6 @@
+Message mccp_missing_criteria_msg__v (
+   label(),
+   active(true),
+   default_value('This targeting rule contains {0} and {1} that do not have any assigned criteria.'),
+   system_managed(false)
+);

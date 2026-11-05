@@ -1,0 +1,5 @@
+Picklistentry self__v (
+   value('Self'),
+   order(0),
+   active(true)
+);

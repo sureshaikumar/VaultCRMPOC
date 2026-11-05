@@ -1,0 +1,6 @@
+Message rule_confirm_run_alignt_dialog_terr_lab__v (
+   label(),
+   active(true),
+   default_value('Territory Only'),
+   system_managed(false)
+);

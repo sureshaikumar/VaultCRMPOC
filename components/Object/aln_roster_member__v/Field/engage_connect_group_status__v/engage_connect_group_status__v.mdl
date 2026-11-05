@@ -1,0 +1,18 @@
+Field engage_connect_group_status__v (
+   label('Engage Connect Group Provisioning Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('This field describes whether the roster member has an assigned Engage Connect license, and if not what the status of the provisioning process is.'),
+   list_column(false),
+   order(155),
+   multi_value(false),
+   picklist('Picklist.user_engage_connect_group_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

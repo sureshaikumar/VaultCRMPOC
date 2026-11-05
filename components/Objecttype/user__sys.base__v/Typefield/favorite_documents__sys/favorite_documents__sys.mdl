@@ -1,0 +1,4 @@
+Typefield favorite_documents__sys (
+   source('standard'),
+   required(false)
+);

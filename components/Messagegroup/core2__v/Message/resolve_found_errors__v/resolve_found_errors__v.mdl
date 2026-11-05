@@ -1,0 +1,6 @@
+Message resolve_found_errors__v (
+   label(),
+   active(true),
+   default_value('Error(s) found on ${error_count} row(s). Resolve error(s) in order to save change(s) on the row(s).'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry li-02__v (
+   value('Eschen'),
+   order(2550),
+   active(true),
+   controlling_entries('li__v')
+);

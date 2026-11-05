@@ -1,0 +1,5 @@
+Picklistentry america_juneau__sys (
+   value('(GMT-09:00) Alaska Standard Time (America/Juneau)'),
+   order(8),
+   active(true)
+);

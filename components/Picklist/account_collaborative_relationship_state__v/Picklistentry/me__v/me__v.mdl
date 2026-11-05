@@ -1,0 +1,5 @@
+Picklistentry me__v (
+   value('ME'),
+   order(24),
+   active(true)
+);

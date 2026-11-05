@@ -1,0 +1,6 @@
+Message recalculate_territory_data__v (
+   label(),
+   active(true),
+   default_value('Recalculate Territory Data'),
+   system_managed(false)
+);

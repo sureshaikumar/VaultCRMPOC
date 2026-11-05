@@ -1,0 +1,6 @@
+Message delete_hierarchy_record__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to delete ${record_name}? Deleting this ${object_label} will also delete related child records in the hierarchy.'),
+   system_managed(false)
+);

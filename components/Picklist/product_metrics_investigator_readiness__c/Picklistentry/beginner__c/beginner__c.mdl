@@ -1,0 +1,5 @@
+Picklistentry beginner__c (
+   value('Beginner'),
+   order(1),
+   active(true)
+);

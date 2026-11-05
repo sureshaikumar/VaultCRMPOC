@@ -1,0 +1,6 @@
+Message mccp_team_prod_act_max_lower_act_goal__v (
+   label(),
+   active(true),
+   default_value('Rule Product {0} team activity max {1} must be equal to or greater than its team activity goal {2}'),
+   system_managed(false)
+);

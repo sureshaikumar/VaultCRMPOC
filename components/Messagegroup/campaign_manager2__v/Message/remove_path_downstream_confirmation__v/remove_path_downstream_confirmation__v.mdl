@@ -1,0 +1,6 @@
+Message remove_path_downstream_confirmation__v (
+   label(),
+   active(true),
+   default_value('By saving, any nodes downstream from removed paths will also be removed. Would you like to proceed?'),
+   system_managed(false)
+);

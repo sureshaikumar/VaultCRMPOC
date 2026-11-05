@@ -1,0 +1,5 @@
+Picklistentry asia_tbilisi__v (
+   value('Asia/Tbilisi'),
+   order(50),
+   active(true)
+);

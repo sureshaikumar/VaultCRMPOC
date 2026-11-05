@@ -1,0 +1,6 @@
+Message view_campaign_performance__v (
+   label(),
+   active(true),
+   default_value('View Campaign Performance'),
+   system_managed(false)
+);

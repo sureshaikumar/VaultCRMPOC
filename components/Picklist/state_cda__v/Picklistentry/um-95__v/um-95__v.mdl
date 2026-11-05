@@ -1,0 +1,6 @@
+Picklistentry um-95__v (
+   value('Palmyra Atoll'),
+   order(4790),
+   active(true),
+   controlling_entries('um__v')
+);

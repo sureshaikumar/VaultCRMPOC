@@ -1,0 +1,6 @@
+Picklistentry tr-57__v (
+   value('Sinop'),
+   order(4515),
+   active(true),
+   controlling_entries('tr__v')
+);

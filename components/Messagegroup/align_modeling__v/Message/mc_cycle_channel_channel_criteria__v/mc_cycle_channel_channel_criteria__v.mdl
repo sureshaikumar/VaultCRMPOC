@@ -1,0 +1,6 @@
+Message mc_cycle_channel_channel_criteria__v (
+   label(),
+   active(true),
+   default_value('Channel Criteria'),
+   system_managed(false)
+);

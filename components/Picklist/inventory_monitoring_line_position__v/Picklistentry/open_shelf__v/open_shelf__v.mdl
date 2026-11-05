@@ -1,0 +1,5 @@
+Picklistentry open_shelf__v (
+   value('Open shelf'),
+   order(2),
+   active(true)
+);

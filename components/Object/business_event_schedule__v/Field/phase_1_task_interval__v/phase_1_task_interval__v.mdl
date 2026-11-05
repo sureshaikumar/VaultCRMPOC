@@ -1,0 +1,23 @@
+Field phase_1_task_interval__v (
+   label('Phase 1 Task Interval'),
+   type('Number'),
+   active(true),
+   description('Defines the number of days between the tasks in the first phase of the business event schedule'),
+   required(false),
+   unique(false),
+   max_value(100),
+   min_value(1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('14'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

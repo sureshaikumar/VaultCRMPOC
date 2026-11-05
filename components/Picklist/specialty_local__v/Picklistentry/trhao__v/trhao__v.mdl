@@ -1,0 +1,7 @@
+Picklistentry trhao__v (
+   value('Thoracic Radiology'),
+   order(1838),
+   active(true),
+   controlling_entries('pt__v',
+         'us__v')
+);

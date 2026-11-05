@@ -1,0 +1,5 @@
+Picklistentry change_rejected__v (
+   value('CHANGE_REJECTED'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field age_range_cda__v (
+   label('Age Range'),
+   type('Picklist'),
+   active(true),
+   description('Age range of the HCP.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(164),
+   multi_value(false),
+   picklist('Picklist.age_range_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

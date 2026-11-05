@@ -1,0 +1,6 @@
+Message recalculate_territory_data_successful__v (
+   label(),
+   active(true),
+   default_value('Territory data recalculation completed'),
+   system_managed(false)
+);

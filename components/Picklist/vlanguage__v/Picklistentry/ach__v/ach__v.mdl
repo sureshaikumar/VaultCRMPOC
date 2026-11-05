@@ -1,0 +1,5 @@
+Picklistentry ach__v (
+   value('Acoli'),
+   order(2),
+   active(false)
+);

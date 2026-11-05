@@ -1,0 +1,6 @@
+Message compliance_check_failed__v (
+   label(),
+   active(true),
+   default_value('The Compliance Check on ${field_label} failed, and your changes cannot be saved at this time. Please please check your connection and retry or press cancel to discard your changes.'),
+   system_managed(false)
+);

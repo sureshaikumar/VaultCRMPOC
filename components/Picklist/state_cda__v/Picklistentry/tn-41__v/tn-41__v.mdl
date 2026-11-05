@@ -1,0 +1,6 @@
+Picklistentry tn-41__v (
+   value('Kairouan'),
+   order(4441),
+   active(true),
+   controlling_entries('tn__v')
+);

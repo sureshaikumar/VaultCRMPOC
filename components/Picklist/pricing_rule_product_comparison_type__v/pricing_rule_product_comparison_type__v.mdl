@@ -1,0 +1,8 @@
+RECREATE Picklist pricing_rule_product_comparison_type__v (
+   label('Product Comparison Type'),
+   active(true),
+   Picklistentry(@Picklistentry/product_quantity__v.mdl),
+   Picklistentry(@Picklistentry/list_value__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-016__v (
+   value('Črna na Koroškem'),
+   order(3990),
+   active(true),
+   controlling_entries('si__v')
+);

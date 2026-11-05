@@ -1,0 +1,18 @@
+Field action_type__v (
+   label('Action Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Name of the action to be performed when using an Approval Workflow. This field must be populated if this action uses an Approval Workflow.'),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.em_event_action_action_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

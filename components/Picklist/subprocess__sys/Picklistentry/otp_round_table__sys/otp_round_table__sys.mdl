@@ -1,0 +1,6 @@
+Picklistentry otp_round_table__sys (
+   value('Round Table'),
+   order(145),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

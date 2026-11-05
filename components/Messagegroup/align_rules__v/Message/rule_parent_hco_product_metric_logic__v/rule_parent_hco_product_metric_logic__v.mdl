@@ -1,0 +1,6 @@
+Message rule_parent_hco_product_metric_logic__v (
+   label(),
+   active(true),
+   default_value('Parent HCO Product Metric Logic'),
+   system_managed(false)
+);

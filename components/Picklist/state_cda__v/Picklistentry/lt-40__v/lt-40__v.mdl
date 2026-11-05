@@ -1,0 +1,6 @@
+Picklistentry lt-40__v (
+   value('Rokiškis'),
+   order(2658),
+   active(true),
+   controlling_entries('lt__v')
+);

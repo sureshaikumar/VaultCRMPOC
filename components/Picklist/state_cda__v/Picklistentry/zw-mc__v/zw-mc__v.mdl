@@ -1,0 +1,6 @@
+Picklistentry zw-mc__v (
+   value('Mashonaland Central'),
+   order(5039),
+   active(true),
+   controlling_entries('zw__v')
+);

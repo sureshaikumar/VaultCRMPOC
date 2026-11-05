@@ -1,0 +1,6 @@
+Picklistentry ni-ms__v (
+   value('Masaya'),
+   order(3369),
+   active(true),
+   controlling_entries('ni__v')
+);

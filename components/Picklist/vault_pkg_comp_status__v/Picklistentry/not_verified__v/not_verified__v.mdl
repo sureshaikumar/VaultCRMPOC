@@ -1,0 +1,5 @@
+Picklistentry not_verified__v (
+   value('Not Verified'),
+   order(2),
+   active(true)
+);

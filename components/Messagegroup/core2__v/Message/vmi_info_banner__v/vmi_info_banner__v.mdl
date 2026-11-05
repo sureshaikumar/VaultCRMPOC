@@ -1,0 +1,6 @@
+Message vmi_info_banner__v (
+   label(),
+   active(true),
+   default_value('Enter the What, Why, and So What. Type @ to mention experts, congresses, or trials...'),
+   system_managed(false)
+);

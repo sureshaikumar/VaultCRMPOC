@@ -1,0 +1,10 @@
+RECREATE Jobmetadata html_report_publish_action_job__v (
+   label('Html Report Publish Action Job'),
+   active(true),
+   chunk_size(1),
+   description('A job that publishes attached content of a HTML Report record'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.myinsights.jobs.HtmlReportPublishActionJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

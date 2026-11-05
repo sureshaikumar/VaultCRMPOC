@@ -1,0 +1,23 @@
+Field free_goods_percentage__v (
+   label('Free Goods Percentage'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99.9999),
+   min_value(-99.9999),
+   scale(4),
+   help_content('Used for defining percentage of product free goods in an order.'),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

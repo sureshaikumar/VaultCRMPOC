@@ -1,0 +1,6 @@
+Picklistentry orrht__v (
+   value('Orthopedic Rheumatology'),
+   order(1205),
+   active(true),
+   controlling_entries('de__v')
+);

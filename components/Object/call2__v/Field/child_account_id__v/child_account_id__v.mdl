@@ -1,0 +1,19 @@
+Field child_account_id__v (
+   label('Child Account Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('The textual ID of the Child Account value maintained in the Child_Account_vod field.'),
+   list_column(false),
+   order(40),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

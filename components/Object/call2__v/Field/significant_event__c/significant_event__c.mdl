@@ -1,0 +1,18 @@
+Field significant_event__c (
+   label('Significant Event'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Denotes a significant event.'),
+   list_column(false),
+   order(139),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

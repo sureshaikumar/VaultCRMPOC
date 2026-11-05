@@ -1,0 +1,5 @@
+Picklistentry indian_mauritius__sys (
+   value('(GMT+04:00) Mauritius Time (Indian/Mauritius)'),
+   order(212),
+   active(true)
+);

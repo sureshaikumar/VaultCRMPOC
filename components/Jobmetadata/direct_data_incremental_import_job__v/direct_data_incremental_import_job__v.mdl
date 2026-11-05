@@ -1,0 +1,10 @@
+RECREATE Jobmetadata direct_data_incremental_import_job__v (
+   label('CRM Direct Data Transfer - Incremental'),
+   active(true),
+   chunk_size(1),
+   description('Generates an incremental extract of CRM data every 15 minutes that contains only changes (new, updated, or deleted records) since the last extract.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.directdata.jobs.DirectDataImportJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

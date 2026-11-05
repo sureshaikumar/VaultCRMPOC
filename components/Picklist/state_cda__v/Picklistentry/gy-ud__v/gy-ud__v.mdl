@@ -1,0 +1,6 @@
+Picklistentry gy-ud__v (
+   value('Upper Demerara-Berbice'),
+   order(1822),
+   active(true),
+   controlling_entries('gy__v')
+);

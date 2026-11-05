@@ -1,0 +1,4 @@
+Typefield render_ppt_speaker_notes__sys (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,4 @@
+Typefield approval_process_error__v (
+   source('standard'),
+   required(false)
+);

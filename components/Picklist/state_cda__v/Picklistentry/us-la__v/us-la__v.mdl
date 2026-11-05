@@ -1,0 +1,6 @@
+Picklistentry us-la__v (
+   value('Louisiana'),
+   order(4811),
+   active(true),
+   controlling_entries('us__v')
+);

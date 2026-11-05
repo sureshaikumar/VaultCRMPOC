@@ -1,0 +1,5 @@
+Picklistentry 30260__v (
+   value('Lewisburg, PA Micropolitan Statistical Area'),
+   order(412),
+   active(true)
+);

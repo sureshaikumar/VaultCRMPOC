@@ -1,0 +1,6 @@
+Message concur_exp_line_entry_mapping__v (
+   label(),
+   active(true),
+   default_value('Expense Line to Expense Entry Mapping'),
+   system_managed(false)
+);

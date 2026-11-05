@@ -1,0 +1,12 @@
+RECREATE Jobmetadata business_events_job__v (
+   label('Business Events Job'),
+   active(true),
+   chunk_size(500),
+   description('Recurring job to create Business Event Tasks based on the Business Event Schedule'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.eppvpi.jobs.BusinessEventsJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'running',
+      'queued'),
+   timeout_duration()
+);

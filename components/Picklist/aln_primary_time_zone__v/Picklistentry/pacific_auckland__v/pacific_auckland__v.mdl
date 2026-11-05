@@ -1,0 +1,5 @@
+Picklistentry pacific_auckland__v (
+   value('Pacific/Auckland'),
+   order(80),
+   active(true)
+);

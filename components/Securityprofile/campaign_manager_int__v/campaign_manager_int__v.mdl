@@ -1,0 +1,6 @@
+RECREATE Securityprofile campaign_manager_int__v (
+   label('Campaign Manager Integration'),
+   active(true),
+   description(),
+   permission_sets('campaign_manager_integration__v')
+);

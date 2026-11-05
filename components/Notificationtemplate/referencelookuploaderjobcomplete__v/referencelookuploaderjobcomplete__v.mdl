@@ -1,0 +1,23 @@
+RECREATE Notificationtemplate referencelookuploaderjobcomplete__v (
+   label('referenceLookupLoaderJobComplete'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Your Reference Lookup Job completed'),
+   notification('<p>Your Reference Lookup Job has completed</p>
+<p>Details:
+<ul>
+<li>Action Type: ${vaultLoaderActionType}</li>
+<li>Job Start Time: ${vaultLoaderStartTime} </li>
+<li>Duration: ${vaultLoaderDuration} (${vaultLoaderRecordsPerSecond} records per second)</li>
+<li>${vaultLoaderNumSuccesses}</li>
+<li>${vaultLoaderNumFailures} </li>
+</ul>
+</p>
+'),
+   email_body('${notificationMessage}
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

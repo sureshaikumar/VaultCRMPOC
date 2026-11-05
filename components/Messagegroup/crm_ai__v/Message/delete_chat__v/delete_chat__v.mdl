@@ -1,0 +1,6 @@
+Message delete_chat__v (
+   label(),
+   active(true),
+   default_value('Delete Chat'),
+   system_managed(false)
+);

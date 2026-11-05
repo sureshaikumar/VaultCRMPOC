@@ -1,0 +1,6 @@
+Picklistentry it-vt__v (
+   value('Viterbo'),
+   order(2279),
+   active(true),
+   controlling_entries('it__v')
+);

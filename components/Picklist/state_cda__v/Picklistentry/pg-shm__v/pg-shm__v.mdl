@@ -1,0 +1,6 @@
+Picklistentry pg-shm__v (
+   value('Southern Highlands'),
+   order(3512),
+   active(true),
+   controlling_entries('pg__v')
+);

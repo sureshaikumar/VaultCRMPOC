@@ -1,0 +1,6 @@
+Message attendees_optional_error_message__v (
+   label(),
+   active(true),
+   default_value('You must select at least one attendee to submit the ${call_label}'),
+   system_managed(false)
+);

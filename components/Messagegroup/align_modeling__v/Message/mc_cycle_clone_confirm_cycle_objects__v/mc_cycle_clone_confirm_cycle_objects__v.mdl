@@ -1,0 +1,6 @@
+Message mc_cycle_clone_confirm_cycle_objects__v (
+   label(),
+   active(true),
+   default_value('Cycle objects:'),
+   system_managed(false)
+);

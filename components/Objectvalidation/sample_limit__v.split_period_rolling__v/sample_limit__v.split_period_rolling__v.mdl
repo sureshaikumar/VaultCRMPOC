@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.split_period_rolling__v (
+   label('Split Period Rolling'),
+   active(true),
+   expression('(rolling_period__v = 24 && Not(IsBlank(rolling_period__v))) || IsBlank(split_period__v)'),
+   description('If Split Period is set, rolling period must be 24.'),
+   error_message('If Split Period is set, rolling period must be 24'),
+   error_location('rolling_period__v')
+);

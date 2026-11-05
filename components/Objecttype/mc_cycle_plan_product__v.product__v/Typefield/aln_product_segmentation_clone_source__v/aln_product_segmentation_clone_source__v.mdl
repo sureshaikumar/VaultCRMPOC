@@ -1,0 +1,4 @@
+Typefield aln_product_segmentation_clone_source__v (
+   source('standard'),
+   required(false)
+);

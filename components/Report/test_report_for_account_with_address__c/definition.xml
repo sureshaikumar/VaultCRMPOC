@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.primary_parent__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.primary_country__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.account_type__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.created_by__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="address__v___account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="address__v___account__v.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="address__v___account__v.primary_cda__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="address__v___account__v.primary_cda__v" rightValue="true" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="IN" leftValue="account__v.object_type__v" rightValue="Hospital;;;Pharmacy;;;Practice;;;Professional" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+    <vrp:whereItem action="NONE" leftValue="" rightValue="" type="AND" runtime="false" />
+    <vrp:whereItem action="EQ" leftValue="account__v.created_by__v" rightValue="user:tanmai.reshma.giri" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="account__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

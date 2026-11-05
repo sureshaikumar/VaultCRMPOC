@@ -1,0 +1,19 @@
+Field state_province__v (
+   label('State'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('The State field defines the State in which the list of Controlled Substance Schedules and corresponding Account Credential are allowed to be received for an Account.  The values stored in the State field must match the values stored in the State field on '),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

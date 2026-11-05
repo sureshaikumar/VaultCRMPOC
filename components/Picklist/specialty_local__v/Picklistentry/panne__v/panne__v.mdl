@@ -1,0 +1,6 @@
+Picklistentry panne__v (
+   value('Pediatric and Neonatal Neurosurgery'),
+   order(1333),
+   active(true),
+   controlling_entries('am__v')
+);

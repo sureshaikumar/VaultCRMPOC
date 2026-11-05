@@ -1,0 +1,4 @@
+Typefield im_inventory_line_column_width__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry snuur__v (
+   value('Surgical Nursing'),
+   order(1824),
+   active(true),
+   controlling_entries('ee__v')
+);

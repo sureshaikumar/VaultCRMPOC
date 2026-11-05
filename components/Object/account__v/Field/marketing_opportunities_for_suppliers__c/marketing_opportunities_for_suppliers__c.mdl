@@ -1,0 +1,17 @@
+Field marketing_opportunities_for_suppliers__c (
+   label('Marketing Opportunities for Suppliers?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Are there marketing opportunities avalaible for contracted suppliers?'),
+   list_column(false),
+   order(188),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

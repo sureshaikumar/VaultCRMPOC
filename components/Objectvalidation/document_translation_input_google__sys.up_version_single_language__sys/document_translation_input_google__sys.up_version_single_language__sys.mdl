@@ -1,0 +1,8 @@
+RECREATE Objectvalidation document_translation_input_google__sys.up_version_single_language__sys (
+   label('Up-Version Single Language'),
+   active(true),
+   expression('If(create_new_document__sys = true, true, PicklistCount(target_languages__sys) <= 1)'),
+   description('Prevent up-versioning an existing document when two or more target languages are selected.'),
+   error_message('Cannot up-version with two or more languages selected.'),
+   error_location('up_version_target_document__sys')
+);

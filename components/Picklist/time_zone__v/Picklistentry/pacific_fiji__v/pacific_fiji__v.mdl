@@ -1,0 +1,5 @@
+Picklistentry pacific_fiji__v (
+   value('Fiji Time'),
+   order(6),
+   active(true)
+);

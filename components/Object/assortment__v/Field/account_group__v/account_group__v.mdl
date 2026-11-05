@@ -1,0 +1,19 @@
+Field account_group__v (
+   label('Account Group'),
+   type('String'),
+   active(true),
+   description('The Account Group the Assortment is valid for.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

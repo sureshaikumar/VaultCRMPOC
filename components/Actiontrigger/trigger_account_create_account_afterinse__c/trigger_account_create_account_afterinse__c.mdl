@@ -1,0 +1,9 @@
+RECREATE Actiontrigger trigger_account_create_account_afterinse__c (
+   label('trigger_account_create'),
+   active(true),
+   description(),
+   object('Object.account__v'),
+   event('AFTER_INSERT'),
+   order(100),
+   Actionblock(@Actionblock/action_block1__c.mdl)
+);

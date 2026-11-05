@@ -1,0 +1,5 @@
+Picklistentry kam__v (
+   value('Key Account Management'),
+   order(2),
+   active(true)
+);

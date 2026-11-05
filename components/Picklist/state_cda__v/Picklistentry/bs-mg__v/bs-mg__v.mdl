@@ -1,0 +1,6 @@
+Picklistentry bs-mg__v (
+   value('Mayaguana'),
+   order(496),
+   active(true),
+   controlling_entries('bs__v')
+);

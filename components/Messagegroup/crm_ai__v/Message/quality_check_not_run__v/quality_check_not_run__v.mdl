@@ -1,0 +1,6 @@
+Message quality_check_not_run__v (
+   label(),
+   active(true),
+   default_value('Run the quality check to get started.'),
+   system_managed(false)
+);

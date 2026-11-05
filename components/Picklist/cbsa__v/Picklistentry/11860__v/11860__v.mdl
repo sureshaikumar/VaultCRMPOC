@@ -1,0 +1,5 @@
+Picklistentry 11860__v (
+   value('Atchison, KS Micropolitan Statistical Area'),
+   order(740),
+   active(true)
+);

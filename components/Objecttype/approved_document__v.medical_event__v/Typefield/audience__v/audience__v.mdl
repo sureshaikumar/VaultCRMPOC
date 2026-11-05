@@ -1,0 +1,7 @@
+Typefield audience__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.approved_document_audience__v.attendee__v',
+         'Picklist.approved_document_audience__v.speaker__v',
+         'Picklist.approved_document_audience__v.team_member__v')
+);

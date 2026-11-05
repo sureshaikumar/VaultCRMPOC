@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_inquiry_fulfillment__v.assign__v (
+   label('Assign'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinquiryfulfillment.actions.AssignAction'),
+   active(true),
+   available_all_states(true)
+);

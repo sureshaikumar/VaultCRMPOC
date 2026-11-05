@@ -1,0 +1,19 @@
+Field study_recruitment_status__v (
+   label('Study Recruitment Status'),
+   type('String'),
+   active(true),
+   description('Status of Overall Study''s recruitment, across all sites'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry so-to__v (
+   value('Togdheer'),
+   order(4239),
+   active(true),
+   controlling_entries('so__v')
+);

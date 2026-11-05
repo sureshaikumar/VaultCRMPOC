@@ -1,0 +1,6 @@
+Picklistentry ug-312__v (
+   value('Pader'),
+   order(4717),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,7 @@
+RECREATE Securityprofile network_int__v (
+   label('Network Integration'),
+   active(true),
+   description(),
+   permission_sets('base_vault_crm__v',
+      'network_integration_permission_set__v')
+);

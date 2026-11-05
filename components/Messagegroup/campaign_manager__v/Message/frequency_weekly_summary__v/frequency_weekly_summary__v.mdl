@@ -1,0 +1,6 @@
+Message frequency_weekly_summary__v (
+   label(),
+   active(true),
+   default_value('Every ${day_of_week} at ${time} ${timezone}'),
+   system_managed(false)
+);

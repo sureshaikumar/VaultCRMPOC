@@ -1,0 +1,6 @@
+Message select_recipient__v (
+   label(),
+   active(true),
+   default_value('Select Recipient'),
+   system_managed(false)
+);

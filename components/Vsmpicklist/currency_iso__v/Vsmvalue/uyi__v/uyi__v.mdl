@@ -1,0 +1,9 @@
+Vsmvalue uyi__v (
+   label('UYI'),
+   active(true),
+   description('Applies when transactions reference the Uruguayan Peso en Unidades Indexadas, a unit of account used in Uruguay for inflation-indexed financial instruments.'),
+   synonyms('Uruguayan peso indexed unit',
+         'Uruguay indexed unit'),
+   target('uyi__sys'),
+   target_label('UYI')
+);

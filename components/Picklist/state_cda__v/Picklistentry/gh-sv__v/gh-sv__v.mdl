@@ -1,0 +1,6 @@
+Picklistentry gh-sv__v (
+   value('Savannah'),
+   order(1698),
+   active(true),
+   controlling_entries('gh__v')
+);

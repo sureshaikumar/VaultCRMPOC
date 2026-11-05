@@ -1,0 +1,6 @@
+Message mass_select_transfer_assignments_header__v (
+   label(),
+   active(true),
+   default_value('Transfer {0} assignments ({1} selected)'),
+   system_managed(false)
+);

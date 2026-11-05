@@ -1,0 +1,6 @@
+Picklistentry jp-36__v (
+   value('Tokushima'),
+   order(2342),
+   active(true),
+   controlling_entries('jp__v')
+);

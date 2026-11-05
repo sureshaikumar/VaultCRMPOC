@@ -1,0 +1,17 @@
+Field zvod_consent_activity_tracking__v (
+   label('zvod_Consent_Activity_Tracking_vod'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('The text displayed on the review panel for activity tracking. A checkbox will be added before the text that is stored in this field.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

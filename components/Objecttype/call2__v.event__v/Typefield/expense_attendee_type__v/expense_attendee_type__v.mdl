@@ -1,0 +1,6 @@
+Typefield expense_attendee_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_expense_attendee_type1__v.busguest__v'),
+   default_value('Picklist.call2_expense_attendee_type1__v.busguest__v')
+);

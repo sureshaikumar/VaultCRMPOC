@@ -1,0 +1,19 @@
+Field second_column_label__v (
+   label('Second Column Label'),
+   type('String'),
+   active(true),
+   description('The Second Column Label represents the Column Label that corresponds to the second group of Sales Data Buckets in a Sales File.  As an example, the Column Label will correspond to buckets B1 through B24 and the Second Column Label will correspond to Bucke'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

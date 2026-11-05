@@ -1,0 +1,8 @@
+Tabcollectionitem home1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(0),
+   tab('Tab.homepage__v'),
+   type('Tab')
+);

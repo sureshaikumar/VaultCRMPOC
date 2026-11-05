@@ -1,0 +1,20 @@
+Field content_acknowledgement_template__v (
+   label('Content Acknowledgement Template'),
+   type('String'),
+   active(true),
+   description('The format of the generated Content Acknowledgment receipt can be configured by modifying the HTML text contained within this setting.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(63),
+   default_value('"CONTENT_ACKNOWLEDGEMENT_TEMPLATE;;AOC"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

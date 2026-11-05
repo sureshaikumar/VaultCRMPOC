@@ -1,0 +1,12 @@
+Vsmvalue fuzzy__v (
+   label('Fuzzy'),
+   active(true),
+   description('Applies when a glossary term closely but not exactly matches the source content, allowing for minor variations in wording or phrasing.'),
+   synonyms('partial match',
+         'approximate match',
+         'close match',
+         'near match',
+         'similar definition'),
+   target('fuzzy__sys'),
+   target_label('Fuzzy')
+);

@@ -1,0 +1,6 @@
+Picklistentry tz-22__v (
+   value('Shinyanga'),
+   order(4606),
+   active(true),
+   controlling_entries('tz__v')
+);

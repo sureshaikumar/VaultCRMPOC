@@ -1,0 +1,5 @@
+Picklistentry somewhat_aware_need_clinical_date__c (
+   value('Somewhat aware, need clinical date'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate staged_document_created__v (
+   label('Staged Document Created'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('${docStatus} document created - "${docNameNoLink}"'),
+   notification('A staged document has been created from the file uploaded to your FTP staging area. Access your Document Inbox, and classify "${docLatestName}" to enter it into your asset library.'),
+   email_body('<p>${recipientTitle} ${recipientName},</p>
+
+<p><b>Vault: </b>${vaultName}
+<br><b>Status: </b>${docStatus}</p>
+<br><b>Document: </b>"${docLatestName}".</p>
+
+<p> A staged document has been created from the file uploaded to your FTP staging area by ${senderName}. Access your Document Inbox, and classify the document to enter it into your asset library.</p>
+
+<p>Access your Vault here: <a href="${uiBaseExtUrl}">${vaultName}</a></p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

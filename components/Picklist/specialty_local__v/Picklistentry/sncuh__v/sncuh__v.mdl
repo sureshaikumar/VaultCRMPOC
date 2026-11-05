@@ -1,0 +1,6 @@
+Picklistentry sncuh__v (
+   value('School Nursing'),
+   order(1763),
+   active(true),
+   controlling_entries('ee__v')
+);

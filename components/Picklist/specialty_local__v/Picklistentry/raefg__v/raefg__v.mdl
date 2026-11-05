@@ -1,0 +1,6 @@
+Picklistentry raefg__v (
+   value('Regulatory Affairs'),
+   order(1723),
+   active(true),
+   controlling_entries('pt__v')
+);

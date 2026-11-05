@@ -1,0 +1,5 @@
+Picklistentry microsoft_phone__v (
+   value('Microsoft Phone'),
+   order(6),
+   active(true)
+);

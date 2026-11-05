@@ -1,0 +1,22 @@
+Field property__v (
+   label('Property'),
+   type('Number'),
+   active(true),
+   description('System field used to store metadata about the call report. When data loading, this can be ignored.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(101),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

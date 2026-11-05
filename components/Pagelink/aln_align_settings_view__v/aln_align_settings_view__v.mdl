@@ -1,0 +1,9 @@
+RECREATE Pagelink aln_align_settings_view__v (
+   label('Align Settings View'),
+   url('https://valign-sbx-us-east-2-prod-app.veevavault.com/entities/alignSettingsDetail.xhtml?vaulturl={{Vault.domain}}&vaultid={{Vault.id}}&pageMode=VIEW&objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.align_settings__v'),
+   active(true),
+   disable_type_select(false)
+);

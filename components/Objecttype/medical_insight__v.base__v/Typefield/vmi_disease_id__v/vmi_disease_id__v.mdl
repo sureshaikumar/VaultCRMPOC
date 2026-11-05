@@ -1,0 +1,4 @@
+Typefield vmi_disease_id__v (
+   source('standard'),
+   required(false)
+);

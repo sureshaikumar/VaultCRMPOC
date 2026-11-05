@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate object_task_due_date_updated__v (
+   label('Object Workflow Task Due Date Updated'),
+   active(true),
+   description('Notification sent to task assignees when an object workflow task due date is updated'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Due Date for task "${taskName}" changed to "${taskDueDate}"'),
+   notification('The Workflow task "${taskName}" due date for the record "${Object.name__v}" has been changed to "${taskDueDate}"'),
+   email_body('The Workflow task "${taskName}" due date for the record "${Object.name__v}" has been changed to "${taskDueDate}"'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

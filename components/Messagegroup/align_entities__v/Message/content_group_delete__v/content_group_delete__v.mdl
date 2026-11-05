@@ -1,0 +1,6 @@
+Message content_group_delete__v (
+   label(),
+   active(true),
+   default_value('Deleting this Content Group will impact:'),
+   system_managed(false)
+);

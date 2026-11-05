@@ -1,0 +1,6 @@
+Picklistentry otp_speaker_program__sys (
+   value('Speaker Program'),
+   order(157),
+   active(true),
+   controlling_entries('olc_event__sys')
+);

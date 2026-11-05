@@ -1,0 +1,3 @@
+Typeaction verify_outbound_email__sys (
+   action('person__sys.verify_outbound_email__sys')
+);

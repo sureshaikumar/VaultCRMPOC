@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.split_period_rule__v (
+   label('Split Period Rule'),
+   active(true),
+   expression('Not(IsBlank(account_types__v)) || IsBlank(split_period__v)'),
+   description('Split Period cannot be set if Account Types is empty.'),
+   error_message('Split Period cannot be set if Account Types is empty'),
+   error_location('split_period__v')
+);

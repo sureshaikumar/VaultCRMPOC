@@ -1,0 +1,6 @@
+Picklistentry emecm__v (
+   value('Emergency Medicine Emergency Care'),
+   order(482),
+   active(true),
+   controlling_entries('id__v')
+);

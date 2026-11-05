@@ -1,0 +1,6 @@
+Picklistentry ph-din__v (
+   value('Dinagat Islands'),
+   order(3562),
+   active(true),
+   controlling_entries('ph__v')
+);

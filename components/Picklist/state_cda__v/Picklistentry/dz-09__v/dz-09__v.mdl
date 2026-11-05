@@ -1,0 +1,6 @@
+Picklistentry dz-09__v (
+   value('Blida'),
+   order(990),
+   active(true),
+   controlling_entries('dz__v')
+);

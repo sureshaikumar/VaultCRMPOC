@@ -1,0 +1,6 @@
+Message user_created__v (
+   label(),
+   active(true),
+   default_value('${user_name} created'),
+   system_managed(false)
+);

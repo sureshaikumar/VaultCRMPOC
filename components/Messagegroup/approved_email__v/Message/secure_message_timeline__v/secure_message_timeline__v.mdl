@@ -1,0 +1,6 @@
+Message secure_message_timeline__v (
+   label(),
+   active(true),
+   default_value('Sent Email (Secure Message)'),
+   system_managed(false)
+);

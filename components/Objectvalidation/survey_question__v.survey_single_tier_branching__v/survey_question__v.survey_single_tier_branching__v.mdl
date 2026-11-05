@@ -1,0 +1,8 @@
+RECREATE Objectvalidation survey_question__v.survey_single_tier_branching__v (
+   label('Survey Single Tier Branching'),
+   active(true),
+   expression('If((isBlank(source_id__v)),true,false) || If((isBlank(condition__v)),true,false)'),
+   description('A child question cannot also be a parent question.'),
+   error_message('A child question cannot also be a parent question.'),
+   error_location('condition__v')
+);

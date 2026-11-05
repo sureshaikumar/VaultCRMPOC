@@ -1,0 +1,8 @@
+Typefield score_display__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.survey_score_display__v.question_max_score__v',
+         'Picklist.survey_score_display__v.response_score__v',
+         'Picklist.survey_score_display__v.survey_max_score__v',
+         'Picklist.survey_score_display__v.survey_score__v')
+);

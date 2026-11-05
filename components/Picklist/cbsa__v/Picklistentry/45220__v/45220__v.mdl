@@ -1,0 +1,5 @@
+Picklistentry 45220__v (
+   value('Tallahassee, FL Metropolitan Statistical Area'),
+   order(24),
+   active(true)
+);

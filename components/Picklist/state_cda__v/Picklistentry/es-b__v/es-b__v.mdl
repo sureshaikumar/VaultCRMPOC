@@ -1,0 +1,6 @@
+Picklistentry es-b__v (
+   value('Barcelona'),
+   order(1198),
+   active(true),
+   controlling_entries('es__v')
+);

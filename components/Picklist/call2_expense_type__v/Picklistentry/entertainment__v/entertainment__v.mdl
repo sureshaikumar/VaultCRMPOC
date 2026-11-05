@@ -1,0 +1,5 @@
+Picklistentry entertainment__v (
+   value('Entertainment'),
+   order(1),
+   active(true)
+);

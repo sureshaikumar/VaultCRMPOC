@@ -1,0 +1,6 @@
+Picklistentry gdasu__v (
+   value('Gum Diseases and Surgery'),
+   order(635),
+   active(true),
+   controlling_entries('jo__v')
+);

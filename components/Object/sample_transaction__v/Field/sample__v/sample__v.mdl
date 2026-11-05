@@ -1,0 +1,19 @@
+Field sample__v (
+   label('Sample'),
+   type('String'),
+   active(true),
+   description('Sample represents the Sample for the Sample Transaction.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(true),
+   order(4),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

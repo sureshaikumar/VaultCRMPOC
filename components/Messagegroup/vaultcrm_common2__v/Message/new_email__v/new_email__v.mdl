@@ -1,0 +1,6 @@
+Message new_email__v (
+   label(),
+   active(true),
+   default_value('New Email'),
+   system_managed(false)
+);

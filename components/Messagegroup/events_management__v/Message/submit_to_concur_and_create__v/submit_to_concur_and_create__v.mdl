@@ -1,0 +1,6 @@
+Message submit_to_concur_and_create__v (
+   label(),
+   active(true),
+   default_value('Submit to Concur + Create'),
+   system_managed(false)
+);

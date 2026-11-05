@@ -1,0 +1,6 @@
+Message started_channel__v (
+   label(),
+   active(true),
+   default_value('${object_label} Started: ${channel_name} Channel'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry sduir__v (
+   value('Surgical Digestive'),
+   order(1822),
+   active(true),
+   controlling_entries('vn__v')
+);

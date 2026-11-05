@@ -1,0 +1,5 @@
+Picklistentry sdpoe__v (
+   value('Specialist Doctor'),
+   order(149),
+   active(true)
+);

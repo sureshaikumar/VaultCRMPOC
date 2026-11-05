@@ -1,0 +1,5 @@
+Picklistentry 12220__v (
+   value('Auburn-Opelika, AL Metropolitan Statistical Area'),
+   order(778),
+   active(true)
+);

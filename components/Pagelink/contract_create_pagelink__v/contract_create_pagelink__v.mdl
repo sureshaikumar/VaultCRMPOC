@@ -1,0 +1,11 @@
+RECREATE Pagelink contract_create_pagelink__v (
+   label('Contract Create'),
+   description('Redirects creating Contracts to the Contract App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.contract__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.contract_app_page__v')
+);

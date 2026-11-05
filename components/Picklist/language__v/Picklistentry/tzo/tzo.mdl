@@ -1,0 +1,5 @@
+Picklistentry tzo (
+   value('Tzotzil'),
+   order(364),
+   active(true)
+);

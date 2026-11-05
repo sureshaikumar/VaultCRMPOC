@@ -1,0 +1,6 @@
+Picklistentry uahmn__v (
+   value('Undersea and Hyperbaric Medicine'),
+   order(1883),
+   active(true),
+   controlling_entries('qa__v')
+);

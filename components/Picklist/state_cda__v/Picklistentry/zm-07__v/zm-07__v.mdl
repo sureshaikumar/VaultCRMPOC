@@ -1,0 +1,6 @@
+Picklistentry zm-07__v (
+   value('Southern'),
+   order(5032),
+   active(true),
+   controlling_entries('zm__v')
+);

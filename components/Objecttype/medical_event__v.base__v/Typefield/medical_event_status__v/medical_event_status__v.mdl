@@ -1,0 +1,4 @@
+Typefield medical_event_status__v (
+   source('standard'),
+   required(false)
+);

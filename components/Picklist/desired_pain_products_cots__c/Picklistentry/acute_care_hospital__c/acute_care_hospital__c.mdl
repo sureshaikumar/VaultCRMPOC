@@ -1,0 +1,5 @@
+Picklistentry acute_care_hospital__c (
+   value('Acute Care Hospital'),
+   order(1),
+   active(true)
+);

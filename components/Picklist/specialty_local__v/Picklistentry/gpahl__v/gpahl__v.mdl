@@ -1,0 +1,6 @@
+Picklistentry gpahl__v (
+   value('Galenic Pharmacy'),
+   order(573),
+   active(true),
+   controlling_entries('dz__v')
+);

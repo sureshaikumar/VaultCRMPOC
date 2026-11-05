@@ -1,0 +1,6 @@
+Message pending_auto_match__v (
+   label(),
+   active(true),
+   default_value('This attendee is going through an auto match process that may potentially reconcile it to a matching record in CRM. During this time you won''t be able to dismiss or reconcile the walk-in.'),
+   system_managed(false)
+);

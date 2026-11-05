@@ -1,0 +1,17 @@
+Field speaker_status__v (
+   label('Speaker Status'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Restrict this rule to apply for Speaker Statuses based on Event Status (ex. For Approved events, count invited speakers). See documentation for details. Use API name for each value.'),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

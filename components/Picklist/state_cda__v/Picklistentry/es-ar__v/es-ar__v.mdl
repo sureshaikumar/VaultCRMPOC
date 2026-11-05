@@ -1,0 +1,6 @@
+Picklistentry es-ar__v (
+   value('Aragón'),
+   order(1195),
+   active(true),
+   controlling_entries('es__v')
+);

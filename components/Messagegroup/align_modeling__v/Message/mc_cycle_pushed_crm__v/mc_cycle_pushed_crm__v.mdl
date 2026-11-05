@@ -1,0 +1,6 @@
+Message mc_cycle_pushed_crm__v (
+   label(),
+   active(true),
+   default_value('Pushed to CRM'),
+   system_managed(false)
+);

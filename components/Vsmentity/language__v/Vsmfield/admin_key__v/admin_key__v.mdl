@@ -1,0 +1,14 @@
+Vsmfield admin_key__v (
+   label('Admin Key'),
+   active(true),
+   description('System-level administrative key used to uniquely identify a language record programmatically. Typically stores a standardized language code (e.g., ''en'', ''fr'', ''de'') used for system configuration, localization logic, and integration mappings.'),
+   example_values(),
+   synonyms('language code',
+         'locale key',
+         'language identifier',
+         'lang key'),
+   target('admin_key__sys'),
+   target_label('Admin Key'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

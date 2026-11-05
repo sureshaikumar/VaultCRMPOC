@@ -1,0 +1,6 @@
+Picklistentry nz-auk__v (
+   value('Auckland'),
+   order(3426),
+   active(true),
+   controlling_entries('nz__v')
+);

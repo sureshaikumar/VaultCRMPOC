@@ -1,0 +1,15 @@
+Fieldrule share_as_engage_link__v (
+   label('Share as Engage Link?'),
+   active(true),
+   query_object('documents'),
+   query_field('publish_for_veeva_crm_web_link__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.share_as_engage_link__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_boolean__sys'),
+   target_field_lookup()
+);

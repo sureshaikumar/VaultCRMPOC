@@ -1,0 +1,76 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.content_acknowledgement__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="alert_created__v" />
+            <vault:field reference="alert_duration__v" />
+            <vault:field reference="call_text__v" />
+            <vault:field reference="create_alert__v" />
+            <vault:field reference="credentials__v" />
+            <vault:field reference="delivery_date__v" />
+            <vault:field reference="disclaimer__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="not_received__v" />
+            <vault:field reference="order_id__v" />
+            <vault:field reference="received_by_firstname__v" />
+            <vault:field reference="received_by_lastname__v" />
+            <vault:field reference="received_by_middle__v" />
+            <vault:field reference="received_by__v" />
+            <vault:field reference="received_title__v" />
+            <vault:field reference="request_receipt__v" />
+            <vault:field reference="ship_assmca__v" />
+            <vault:field reference="ship_address_line_1__v" />
+            <vault:field reference="ship_address_line_2__v" />
+            <vault:field reference="ship_cds__v" />
+            <vault:field reference="ship_city__v" />
+            <vault:field reference="ship_country__v" />
+            <vault:field reference="ship_dea__v" />
+            <vault:field reference="ship_date__v" />
+            <vault:field reference="ship_license__v" />
+            <vault:field reference="ship_location__v" />
+            <vault:field reference="ship_state_distributor__v" />
+            <vault:field reference="ship_state__v" />
+            <vault:field reference="ship_zip__v" />
+            <vault:field reference="signature_date__v" />
+            <vault:field reference="signature__v" />
+            <vault:field reference="content_acknowledgement_status__v" />
+            <vault:field reference="unlock__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="call_reference__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="aoc_due_date__v" />
+            <vault:field reference="ship_address__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Content Acknowledgement Items" name="content_acknowledgement_items__c">
+        <vault:relatedObject relationship="content_acknowledgement_items__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="lot__v" width="200px" />
+            <vault:field reference="manufacturer__v" width="200px" />
+            <vault:field reference="distributor__v" width="200px" />
+            <vault:field reference="ship_quantity__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

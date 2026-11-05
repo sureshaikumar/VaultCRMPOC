@@ -1,0 +1,6 @@
+Message one_blank_cell_clear__v (
+   label(),
+   active(true),
+   default_value('You have one blank cell that will clear existing data once uploaded. Cleared data cannot be recovered.'),
+   system_managed(false)
+);

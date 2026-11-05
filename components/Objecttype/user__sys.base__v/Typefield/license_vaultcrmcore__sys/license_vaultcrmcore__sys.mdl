@@ -1,0 +1,4 @@
+Typefield license_vaultcrmcore__sys (
+   source('standard'),
+   required(false)
+);

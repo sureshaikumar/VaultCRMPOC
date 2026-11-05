@@ -1,0 +1,8 @@
+RECREATE Picklist priority__c (
+   label('Priority'),
+   active(true),
+   Picklistentry(@Picklistentry/high__c.mdl),
+   Picklistentry(@Picklistentry/low__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

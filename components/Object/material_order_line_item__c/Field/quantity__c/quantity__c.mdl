@@ -1,0 +1,22 @@
+Field quantity__c (
+   label('Quantity'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9999),
+   min_value(0),
+   scale(0),
+   help_content('Quantity ordered'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

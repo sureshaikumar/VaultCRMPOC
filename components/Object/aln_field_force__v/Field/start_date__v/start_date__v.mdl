@@ -1,0 +1,17 @@
+Field start_date__v (
+   label('Start Date'),
+   type('Date'),
+   active(true),
+   description('The date in which this field force is recognizable by Veeva applications.'),
+   required(true),
+   help_content('The date in which this field force is recognizable by Veeva applications.'),
+   list_column(true),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

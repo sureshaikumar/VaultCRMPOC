@@ -1,0 +1,6 @@
+Picklistentry otp_print_sign_in_template__sys (
+   value('Print Sign In Template'),
+   order(125),
+   active(true),
+   controlling_entries('olc_event_material__sys')
+);

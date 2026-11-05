@@ -1,0 +1,20 @@
+Field contract_disclaimer__v (
+   label('Contract Disclaimer'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This setting points to a Veeva Message that determines the default disclaimer text to display on contracts. The correct format for this setting is MESSAGENAME;;CATEGORY for the Veeva Message to be used.'),
+   list_column(false),
+   order(65),
+   default_value('"DISCLAIMER;;CONTRACTS"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

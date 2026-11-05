@@ -1,0 +1,6 @@
+Picklistentry fi-12__v (
+   value('Ostrobothnia'),
+   order(1284),
+   active(true),
+   controlling_entries('fi__v')
+);

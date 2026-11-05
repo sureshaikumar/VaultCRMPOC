@@ -1,0 +1,5 @@
+Picklistentry message_processing_error__sys (
+   value('MESSAGE_PROCESSING_ERROR'),
+   order(0),
+   active(true)
+);

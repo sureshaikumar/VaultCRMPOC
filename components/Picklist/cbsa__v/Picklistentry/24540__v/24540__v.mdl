@@ -1,0 +1,5 @@
+Picklistentry 24540__v (
+   value('Greeley, CO Metropolitan Statistical Area'),
+   order(493),
+   active(true)
+);

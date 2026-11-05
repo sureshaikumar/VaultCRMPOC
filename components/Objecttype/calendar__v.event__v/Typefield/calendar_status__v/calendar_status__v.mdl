@@ -1,0 +1,7 @@
+Typefield calendar_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.calendar_status__v.active__v',
+         'Picklist.calendar_status__v.draft__v',
+         'Picklist.calendar_status__v.inactive__v')
+);

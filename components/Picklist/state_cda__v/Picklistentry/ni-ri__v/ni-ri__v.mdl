@@ -1,0 +1,6 @@
+Picklistentry ni-ri__v (
+   value('Rivas'),
+   order(3372),
+   active(true),
+   controlling_entries('ni__v')
+);

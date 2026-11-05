@@ -1,0 +1,9 @@
+Typefield account_type__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_account_type__c.admin_org__c',
+         'Picklist.account_account_type__c.network__c',
+         'Picklist.account_account_type__c.pbm__c',
+         'Picklist.account_account_type__c.plan_provider__c',
+         'Picklist.account_account_type__c.specialty_org__c')
+);

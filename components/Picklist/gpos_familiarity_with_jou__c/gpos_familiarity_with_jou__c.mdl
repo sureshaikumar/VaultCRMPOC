@@ -1,0 +1,10 @@
+RECREATE Picklist gpos_familiarity_with_jou__c (
+   label('GPO''s familiarity with JOU?'),
+   active(true),
+   Picklistentry(@Picklistentry/fully_aware__c.mdl),
+   Picklistentry(@Picklistentry/aware__c.mdl),
+   Picklistentry(@Picklistentry/somewhat_aware_need_clinical_date__c.mdl),
+   Picklistentry(@Picklistentry/unaware__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message switch_network_user_disclaimer__v (
+   label(),
+   active(true),
+   default_value('This action is irreversible. Once switched to the Network System User, you cannot switch back to the previous Vault CRM integration user.  Please ensure Veeva Network is also updated to use the Network System User. See ${network_help_link} for details.'),
+   system_managed(false)
+);

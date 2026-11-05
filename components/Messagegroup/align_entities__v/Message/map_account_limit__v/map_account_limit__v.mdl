@@ -1,0 +1,6 @@
+Message map_account_limit__v (
+   label(),
+   active(true),
+   default_value('Territory hierarchies with more than {0} accounts will not display additional markers.'),
+   system_managed(false)
+);

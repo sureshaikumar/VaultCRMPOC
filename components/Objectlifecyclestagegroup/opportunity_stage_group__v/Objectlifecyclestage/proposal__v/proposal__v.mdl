@@ -1,0 +1,7 @@
+Objectlifecyclestage proposal__v (
+   label('Proposal'),
+   active(true),
+   description(),
+   object_lifecycle_states_ref('Objectlifecyclestate.proposal_state__v'),
+   order(3)
+);

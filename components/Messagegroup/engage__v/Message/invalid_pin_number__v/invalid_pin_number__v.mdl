@@ -1,0 +1,6 @@
+Message invalid_pin_number__v (
+   label(),
+   active(true),
+   default_value('Invalid PIN number.'),
+   system_managed(false)
+);

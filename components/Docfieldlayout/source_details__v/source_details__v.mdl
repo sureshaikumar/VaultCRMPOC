@@ -1,0 +1,23 @@
+RECREATE Docfieldlayout source_details__v (
+   label('Source Document Details'),
+   active(true),
+   icon('UNDEFINED'),
+   order(22),
+   fields('Docfield.source_vault_name__v',
+      'Docfield.source_document_name__v',
+      'Docfield.source_document_number__v',
+      'Docfield.source_binding_rule__v',
+      'Docfield.bound_source_major_version__v',
+      'Docfield.bound_source_minor_version__v',
+      'Docfield.latest_source_major_version__v',
+      'Docfield.latest_source_minor_version__v',
+      'Docfield.source_owner__v',
+      'Docfield.source_link__v',
+      'Docfield.crosslink__v',
+      'Docfield.link_status__v',
+      'Docfield.crosslink_source_type__sys',
+      'Docfield.source_connection_name__sys'),
+   show_in_edit_mode(true),
+   allow_field_assignment(true),
+   panel('Documentpanel.doc_info_information__sys')
+);

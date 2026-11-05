@@ -1,0 +1,6 @@
+Picklistentry bg-01__v (
+   value('Blagoevgrad'),
+   order(373),
+   active(true),
+   controlling_entries('bg__v')
+);

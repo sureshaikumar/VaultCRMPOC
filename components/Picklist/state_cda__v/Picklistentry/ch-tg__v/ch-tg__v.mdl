@@ -1,0 +1,6 @@
+Picklistentry ch-tg__v (
+   value('Thurgovia'),
+   order(646),
+   active(true),
+   controlling_entries('ch__v')
+);

@@ -1,0 +1,4 @@
+Typefield edit_doc_field_count__v (
+   source('standard'),
+   required(true)
+);

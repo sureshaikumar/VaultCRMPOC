@@ -1,0 +1,6 @@
+Message outdated_channel_obj_field__v (
+   label(),
+   active(true),
+   default_value('{0} in channel criteria for {1} is invalid.'),
+   system_managed(false)
+);

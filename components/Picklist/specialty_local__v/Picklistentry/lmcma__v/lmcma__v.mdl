@@ -1,0 +1,6 @@
+Picklistentry lmcma__v (
+   value('Laboratory Medicine / Clinical Microbiology'),
+   order(847),
+   active(true),
+   controlling_entries('ee__v')
+);

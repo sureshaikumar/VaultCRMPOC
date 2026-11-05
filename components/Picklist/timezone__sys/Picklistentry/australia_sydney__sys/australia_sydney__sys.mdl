@@ -1,0 +1,5 @@
+Picklistentry australia_sydney__sys (
+   value('(GMT+10:00) Australian Eastern Standard Time (New South Wales) (Australia/Sydney)'),
+   order(285),
+   active(true)
+);

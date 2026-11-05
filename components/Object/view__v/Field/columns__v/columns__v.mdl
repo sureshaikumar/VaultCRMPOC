@@ -1,0 +1,17 @@
+Field columns__v (
+   label('Columns'),
+   type('LongText'),
+   active(true),
+   description('A delimited list of columns defined for the view.'),
+   required(false),
+   max_length(10000),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

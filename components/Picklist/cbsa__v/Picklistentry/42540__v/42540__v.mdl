@@ -1,0 +1,5 @@
+Picklistentry 42540__v (
+   value('Scranton--Wilkes-Barre, PA Metropolitan Statistical Area'),
+   order(485),
+   active(true)
+);

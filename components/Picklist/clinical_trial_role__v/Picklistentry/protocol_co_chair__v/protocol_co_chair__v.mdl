@@ -1,0 +1,5 @@
+Picklistentry protocol_co_chair__v (
+   value('Protocol Co-Chair'),
+   order(2),
+   active(true)
+);

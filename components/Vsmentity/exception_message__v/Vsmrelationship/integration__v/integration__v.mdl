@@ -1,0 +1,13 @@
+Vsmrelationship integration__v (
+   label('Integration'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The integration that generated or is associated with this exception message. Use this to trace the exception back to its originating integration, e.g., integration__sysr.name__v = ''My Integration'' to filter messages by integration.'),
+   join_object(),
+   synonyms('integration',
+         'source integration',
+         'linked integration'),
+   target('integration__sysr'),
+   target_label('Integration'),
+   target_object('integration__sys')
+);

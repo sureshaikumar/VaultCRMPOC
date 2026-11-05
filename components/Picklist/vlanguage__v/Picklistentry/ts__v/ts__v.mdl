@@ -1,0 +1,5 @@
+Picklistentry ts__v (
+   value('Shangaan'),
+   order(282),
+   active(false)
+);

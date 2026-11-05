@@ -1,0 +1,5 @@
+Picklistentry europe_tirane__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Tirane)'),
+   order(190),
+   active(true)
+);

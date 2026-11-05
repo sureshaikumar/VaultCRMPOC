@@ -1,0 +1,18 @@
+Field override_lock__v (
+   label('Override Lock'),
+   type('Boolean'),
+   active(true),
+   description('This allows a non-Admin User to make changes to a Submitted Order and/or Order Lines without requiring the User to unlock the Order. This is only intended for integration and/or custom pages/coding i.e. not through our Order User Interface.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(52),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

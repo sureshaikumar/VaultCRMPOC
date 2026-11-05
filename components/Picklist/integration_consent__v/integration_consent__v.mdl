@@ -1,0 +1,8 @@
+RECREATE Picklist integration_consent__v (
+   label('Integration Consent'),
+   active(true),
+   Picklistentry(@Picklistentry/opt_in__v.mdl),
+   Picklistentry(@Picklistentry/opt_out__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

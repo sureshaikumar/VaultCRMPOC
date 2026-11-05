@@ -1,0 +1,5 @@
+Picklistentry america_goose_bay__sys (
+   value('(GMT-04:00) Atlantic Standard Time (America/Goose_Bay)'),
+   order(87),
+   active(true)
+);

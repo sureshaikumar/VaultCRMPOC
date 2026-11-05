@@ -1,0 +1,5 @@
+Picklistentry 35020__v (
+   value('Natchez, MS-LA Micropolitan Statistical Area'),
+   order(271),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message 1_additional_budget__v (
+   label(),
+   active(true),
+   default_value('1 additional budget'),
+   system_managed(false)
+);

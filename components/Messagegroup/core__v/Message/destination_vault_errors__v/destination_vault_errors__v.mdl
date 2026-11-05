@@ -1,0 +1,6 @@
+Message destination_vault_errors__v (
+   label(),
+   active(true),
+   default_value('Destination Vault Errors'),
+   system_managed(false)
+);

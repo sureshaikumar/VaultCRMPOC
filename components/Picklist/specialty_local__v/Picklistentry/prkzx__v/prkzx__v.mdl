@@ -1,0 +1,6 @@
+Picklistentry prkzx__v (
+   value('Radiology and Diagnostic Imaging'),
+   order(1687),
+   active(true),
+   controlling_entries('pl__v')
+);

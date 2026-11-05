@@ -1,0 +1,6 @@
+Message previous_error__v (
+   label(),
+   active(true),
+   default_value('Previous error'),
+   system_managed(false)
+);

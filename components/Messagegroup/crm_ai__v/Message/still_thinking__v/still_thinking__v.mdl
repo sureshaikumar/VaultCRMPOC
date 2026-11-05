@@ -1,0 +1,6 @@
+Message still_thinking__v (
+   label(),
+   active(true),
+   default_value('Still thinking...'),
+   system_managed(false)
+);

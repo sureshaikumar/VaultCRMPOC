@@ -1,0 +1,6 @@
+Message sms_iam_messaging_role_arn__v (
+   label(),
+   active(true),
+   default_value('SMS IAM Messaging Role ARN'),
+   system_managed(false)
+);

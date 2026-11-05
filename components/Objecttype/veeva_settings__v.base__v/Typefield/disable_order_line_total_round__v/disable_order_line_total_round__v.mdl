@@ -1,0 +1,4 @@
+Typefield disable_order_line_total_round__v (
+   source('standard'),
+   required(false)
+);

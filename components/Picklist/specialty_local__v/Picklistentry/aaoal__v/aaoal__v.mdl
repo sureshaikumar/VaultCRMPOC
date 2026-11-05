@@ -1,0 +1,6 @@
+Picklistentry aaoal__v (
+   value('Alcoholism and Other Addictions'),
+   order(36),
+   active(true),
+   controlling_entries('hr__v')
+);

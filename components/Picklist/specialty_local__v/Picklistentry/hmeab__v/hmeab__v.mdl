@@ -1,0 +1,6 @@
+Picklistentry hmeab__v (
+   value('Healthcare Management'),
+   order(677),
+   active(true),
+   controlling_entries('kg__v')
+);

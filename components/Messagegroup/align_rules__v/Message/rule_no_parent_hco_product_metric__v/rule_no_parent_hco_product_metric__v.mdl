@@ -1,0 +1,6 @@
+Message rule_no_parent_hco_product_metric__v (
+   label(),
+   active(true),
+   default_value('No criteria selected for Parent HCO Product Metric. Parent HCO Product Metrics will not be used to filter Account results.'),
+   system_managed(false)
+);

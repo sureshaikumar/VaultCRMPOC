@@ -1,0 +1,6 @@
+Message no_del_dea_address__v (
+   label(),
+   active(true),
+   default_value('You do not have permission to delete a DEA Address.'),
+   system_managed(false)
+);

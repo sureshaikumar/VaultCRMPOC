@@ -1,0 +1,6 @@
+Picklistentry tr-20__v (
+   value('Denizli'),
+   order(4478),
+   active(true),
+   controlling_entries('tr__v')
+);

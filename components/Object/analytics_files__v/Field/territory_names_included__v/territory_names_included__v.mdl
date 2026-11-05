@@ -1,0 +1,18 @@
+Field territory_names_included__v (
+   label('Territory Names Included?'),
+   type('Boolean'),
+   active(true),
+   description('The Territory Names Included checkbox is used to determine if the Data Map Template being utilized includes a map to the Territory_Name_vod field in Sales_Transaction_vod. Records inserted with the Territory_Name_vod defined indicated aggregated levels of'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(33),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

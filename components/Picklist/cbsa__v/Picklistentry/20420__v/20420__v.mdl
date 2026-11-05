@@ -1,0 +1,5 @@
+Picklistentry 20420__v (
+   value('Durango, CO Micropolitan Statistical Area'),
+   order(596),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message no_check_in_selected__v (
+   label(),
+   active(true),
+   default_value('No Check-In Selected'),
+   system_managed(false)
+);

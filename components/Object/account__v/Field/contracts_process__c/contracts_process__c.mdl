@@ -1,0 +1,17 @@
+Field contracts_process__c (
+   label('Contracts Process'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Contract Process at this account.  Used for MCO and MCO Plan accounts.'),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

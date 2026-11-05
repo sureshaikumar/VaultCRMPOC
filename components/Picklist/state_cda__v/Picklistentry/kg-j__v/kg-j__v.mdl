@@ -1,0 +1,6 @@
+Picklistentry kg-j__v (
+   value('Jalal-Abad'),
+   order(2405),
+   active(true),
+   controlling_entries('kg__v')
+);

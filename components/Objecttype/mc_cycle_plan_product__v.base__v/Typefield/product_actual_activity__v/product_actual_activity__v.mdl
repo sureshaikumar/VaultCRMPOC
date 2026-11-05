@@ -1,0 +1,4 @@
+Typefield product_actual_activity__v (
+   source('standard'),
+   required(false)
+);

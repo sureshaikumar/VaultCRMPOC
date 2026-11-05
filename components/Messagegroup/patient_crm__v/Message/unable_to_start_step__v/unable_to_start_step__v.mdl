@@ -1,0 +1,6 @@
+Message unable_to_start_step__v (
+   label(),
+   active(true),
+   default_value('Unable to start this Patient Journey Step'),
+   system_managed(false)
+);

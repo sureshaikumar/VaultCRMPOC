@@ -1,0 +1,15 @@
+Flashreportjobaction dummy_report__c (
+   collapse_groups(true),
+   custom_flash_email(false),
+   custom_flash_email_body(''),
+   custom_flash_email_subject(''),
+   enable_flash_refresh(true),
+   include_report_in_email(true),
+   label('dummy_report__c'),
+   only_send_notifications_if_result(false),
+   primary_action(true),
+   report_name('dummy_report__c'),
+   send_notifications_on_completion(true),
+   send_notifications_to_group_by_users(false),
+   send_standard_email_to_shared_users(false)
+);

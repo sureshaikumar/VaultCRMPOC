@@ -1,0 +1,4 @@
+Typefield total_amount_corpv__sys (
+   source('custom'),
+   required(false)
+);

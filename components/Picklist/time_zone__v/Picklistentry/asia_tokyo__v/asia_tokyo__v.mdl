@@ -1,0 +1,5 @@
+Picklistentry asia_tokyo__v (
+   value('Japan Time'),
+   order(15),
+   active(true)
+);

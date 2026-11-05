@@ -1,0 +1,6 @@
+Picklistentry ghaee__v (
+   value('General Healthcare (AGZ)'),
+   order(596),
+   active(true),
+   controlling_entries('nl__v')
+);

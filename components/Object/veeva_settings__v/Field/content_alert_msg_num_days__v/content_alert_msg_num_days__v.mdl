@@ -1,0 +1,23 @@
+Field content_alert_msg_num_days__v (
+   label('Content Alert Duration'),
+   type('Number'),
+   active(true),
+   description('The duration in days for which the alert for new content is displayed to the users.'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(64),
+   default_value('15'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

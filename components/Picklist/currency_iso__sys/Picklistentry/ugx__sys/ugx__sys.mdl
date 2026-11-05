@@ -1,0 +1,5 @@
+Picklistentry ugx__sys (
+   value('UGX'),
+   order(188),
+   active(true)
+);

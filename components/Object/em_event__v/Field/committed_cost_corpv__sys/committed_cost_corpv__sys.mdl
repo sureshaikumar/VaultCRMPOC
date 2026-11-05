@@ -1,0 +1,23 @@
+Field committed_cost_corpv__sys (
+   label('Committed Cost Corp'),
+   type('Number'),
+   subtype('Currency'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(100000000000000000),
+   min_value(-100000000000000000),
+   scale(6),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

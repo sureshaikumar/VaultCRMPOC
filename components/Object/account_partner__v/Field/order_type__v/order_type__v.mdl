@@ -1,0 +1,18 @@
+Field order_type__v (
+   label('Order Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to associate a price book to Order Types. If left empty, the price book will be available for all Order Types. It can be populated with the picklist control that will show all the available Order Types (out-of-the-box and custom)'),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.account_partner_order_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

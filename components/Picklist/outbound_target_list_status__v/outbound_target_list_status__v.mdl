@@ -1,0 +1,11 @@
+RECREATE Picklist outbound_target_list_status__v (
+   label('Outbound Target List Status'),
+   active(true),
+   Picklistentry(@Picklistentry/draft__v.mdl),
+   Picklistentry(@Picklistentry/active__v.mdl),
+   Picklistentry(@Picklistentry/scheduled__v.mdl),
+   Picklistentry(@Picklistentry/completed__v.mdl),
+   Picklistentry(@Picklistentry/canceled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

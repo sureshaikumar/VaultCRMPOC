@@ -1,0 +1,6 @@
+Picklistentry colsi__v (
+   value('Clinical Osteology'),
+   order(259),
+   active(true),
+   controlling_entries('cz__v')
+);

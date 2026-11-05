@@ -1,0 +1,6 @@
+Message om_total__v (
+   label(),
+   active(true),
+   default_value('${total_quantity} Total'),
+   system_managed(false)
+);

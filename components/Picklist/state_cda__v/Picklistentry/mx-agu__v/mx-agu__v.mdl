@@ -1,0 +1,6 @@
+Picklistentry mx-agu__v (
+   value('Aguascalientes'),
+   order(3239),
+   active(true),
+   controlling_entries('mx__v')
+);

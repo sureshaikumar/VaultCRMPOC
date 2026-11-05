@@ -1,0 +1,5 @@
+Picklistentry 22500__v (
+   value('Florence, SC Metropolitan Statistical Area'),
+   order(205),
+   active(true)
+);

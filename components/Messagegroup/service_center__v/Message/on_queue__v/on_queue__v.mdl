@@ -1,0 +1,6 @@
+Message on_queue__v (
+   label(),
+   active(true),
+   default_value('On Queue'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry pacific_honolulu__v (
+   value('Pacific/Honolulu'),
+   order(2),
+   active(true)
+);

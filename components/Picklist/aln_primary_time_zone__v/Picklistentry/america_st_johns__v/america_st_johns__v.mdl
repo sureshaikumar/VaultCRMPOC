@@ -1,0 +1,5 @@
+Picklistentry america_st_johns__v (
+   value('America/St_Johns'),
+   order(21),
+   active(true)
+);

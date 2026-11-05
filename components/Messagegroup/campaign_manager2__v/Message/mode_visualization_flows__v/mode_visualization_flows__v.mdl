@@ -1,0 +1,6 @@
+Message mode_visualization_flows__v (
+   label(),
+   active(true),
+   default_value('${mode} visualization flows'),
+   system_managed(false)
+);

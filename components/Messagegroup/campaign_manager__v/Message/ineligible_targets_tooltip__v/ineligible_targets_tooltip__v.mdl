@@ -1,0 +1,6 @@
+Message ineligible_targets_tooltip__v (
+   label(),
+   active(true),
+   default_value('Ineligible due to territory setup'),
+   system_managed(false)
+);

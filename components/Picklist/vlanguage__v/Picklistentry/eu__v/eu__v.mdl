@@ -1,0 +1,5 @@
+Picklistentry eu__v (
+   value('Basque'),
+   order(32),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Message field_action_suggestion_feedback__v (
+   label(),
+   active(true),
+   default_value('Suggestion Feedback'),
+   system_managed(false)
+);

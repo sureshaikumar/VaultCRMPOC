@@ -1,0 +1,5 @@
+Picklistentry pacific_norfolk__sys (
+   value('(GMT+11:00) Norfolk Time (Pacific/Norfolk)'),
+   order(297),
+   active(true)
+);

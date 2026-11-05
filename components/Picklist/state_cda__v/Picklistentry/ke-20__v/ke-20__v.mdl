@@ -1,0 +1,6 @@
+Picklistentry ke-20__v (
+   value('Laikipia'),
+   order(2373),
+   active(true),
+   controlling_entries('ke__v')
+);

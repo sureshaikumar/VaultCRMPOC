@@ -1,0 +1,10 @@
+Picklistentry smoec__v (
+   value('Social Medicine'),
+   order(1776),
+   active(true),
+   controlling_entries('is__v',
+         'me__v',
+         'mk__v',
+         'rs__v',
+         'se__v')
+);

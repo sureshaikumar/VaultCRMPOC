@@ -1,0 +1,6 @@
+Picklistentry bt-ty__v (
+   value('Trashi Yangtse'),
+   order(529),
+   active(true),
+   controlling_entries('bt__v')
+);

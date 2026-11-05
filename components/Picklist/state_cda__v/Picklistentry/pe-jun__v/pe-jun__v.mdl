@@ -1,0 +1,6 @@
+Picklistentry pe-jun__v (
+   value('Junín'),
+   order(3479),
+   active(true),
+   controlling_entries('pe__v')
+);

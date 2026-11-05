@@ -1,0 +1,6 @@
+Message mc_cycle_ch_daily_activity_goal_help__v (
+   label(),
+   active(true),
+   default_value('Value must be an integer between 0 and 100'),
+   system_managed(false)
+);

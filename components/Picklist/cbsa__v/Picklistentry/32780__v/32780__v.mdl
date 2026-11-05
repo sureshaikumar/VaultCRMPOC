@@ -1,0 +1,5 @@
+Picklistentry 32780__v (
+   value('Medford, OR Metropolitan Statistical Area'),
+   order(770),
+   active(true)
+);

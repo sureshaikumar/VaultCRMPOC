@@ -1,0 +1,5 @@
+Picklistentry document__sys (
+   value('document'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry is-isa__v (
+   value('Ísafjarðarbær'),
+   order(2118),
+   active(true),
+   controlling_entries('is__v')
+);

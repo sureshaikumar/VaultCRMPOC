@@ -1,0 +1,6 @@
+Message delete_object_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to delete the ${object_name}?'),
+   system_managed(false)
+);

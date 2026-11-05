@@ -1,0 +1,6 @@
+Message successfully_logged_in__v (
+   label(),
+   active(true),
+   default_value('Successfully Logged In'),
+   system_managed(false)
+);

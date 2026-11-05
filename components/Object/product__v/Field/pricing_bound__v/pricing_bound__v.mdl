@@ -1,0 +1,18 @@
+Field pricing_bound__v (
+   label('Pricing Bound'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If used for a Product Group: Flag used to drive the default Product_Group_Level_Rule. When set to TRUE, only the Product_Group_Level_Rules - associated to the flagged Product Group the user has selected-  will be applied on the Order Line. If used for a K'),
+   list_column(false),
+   order(31),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

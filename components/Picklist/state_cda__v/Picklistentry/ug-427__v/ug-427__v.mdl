@@ -1,0 +1,6 @@
+Picklistentry ug-427__v (
+   value('Kagadi'),
+   order(4769),
+   active(true),
+   controlling_entries('ug__v')
+);

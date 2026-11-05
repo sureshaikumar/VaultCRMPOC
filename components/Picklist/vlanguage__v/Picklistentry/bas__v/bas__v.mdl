@@ -1,0 +1,5 @@
+Picklistentry bas__v (
+   value('Basa'),
+   order(30),
+   active(false)
+);

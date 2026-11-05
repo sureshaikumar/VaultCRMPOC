@@ -1,0 +1,21 @@
+Picklistentry paant__v (
+   value('Pathological Anatomy'),
+   order(1288),
+   active(true),
+   controlling_entries('ad__v',
+         'al__v',
+         'ao__v',
+         'az__v',
+         'cm__v',
+         'es__v',
+         'gr__v',
+         'il__v',
+         'it__v',
+         'kg__v',
+         'kz__v',
+         'md__v',
+         'pt__v',
+         'ro__v',
+         'sk__v',
+         'ua__v')
+);

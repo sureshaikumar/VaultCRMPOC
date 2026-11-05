@@ -1,0 +1,18 @@
+Field approved_email_opt_type__v (
+   label('Approved Email Consent'),
+   type('Picklist'),
+   active(true),
+   description('Approved_Email_Opt_Type_vod hold the consent type for the Account. Used in Approved Email to drive the opt-in consent model.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.account_approved_email_opt_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

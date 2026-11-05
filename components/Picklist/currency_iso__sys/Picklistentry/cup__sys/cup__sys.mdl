@@ -1,0 +1,5 @@
+Picklistentry cup__sys (
+   value('CUP'),
+   order(48),
+   active(true)
+);

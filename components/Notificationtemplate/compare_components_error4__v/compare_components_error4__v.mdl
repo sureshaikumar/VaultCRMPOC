@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate compare_components_error4__v (
+   label('compareComponentsError'),
+   active(true),
+   description('Compare Components Job Notification error template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Vault Comparison has failed'),
+   notification('<p>Your Vault Comparison has failed </p><p>Details: </p><ul><li>Reason for failure : ${failureMessage} </li><li>Source Vault : ${sourceVaultName} (${sourceVaultId}) </li><li>Target Vault : ${targetVaultName} (${targetVaultId}) </li><li>Results Type : ${resultsType} </li><li>Details Type: ${detailsType} </li><li>Include Documents & Binder Templates: ${includeDocsAndBinderTemplates} </li><li>Include Vault Settings: ${includeVaultSettings} </li><li>Component Types: ${componentTypes} </li><li>Generate Outbound Packages: ${generateOutboundPackages} </li><li>Start Time: ${startTime} </li></ul>'),
+   email_body('<p>Your Vault Comparison has failed </p><p>Details: </p><ul><li>Reason for failure : ${failureMessage} </li><li>Source Vault : ${sourceVaultName} (${sourceVaultId}) </li><li>Target Vault : ${targetVaultName} (${targetVaultId}) </li><li>Results Type : ${resultsType} </li><li>Details Type: ${detailsType} </li><li>Include Documents & Binder Templates: ${includeDocsAndBinderTemplates} </li><li>Include Vault Settings: ${includeVaultSettings} </li><li>Component Types: ${componentTypes} </li><li>Generate Outbound Packages: ${generateOutboundPackages} </li><li>Start Time: ${startTime} </li></ul>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

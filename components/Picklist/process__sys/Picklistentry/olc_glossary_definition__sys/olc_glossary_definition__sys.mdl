@@ -1,0 +1,5 @@
+Picklistentry olc_glossary_definition__sys (
+   value('Glossary Definition'),
+   order(46),
+   active(true)
+);

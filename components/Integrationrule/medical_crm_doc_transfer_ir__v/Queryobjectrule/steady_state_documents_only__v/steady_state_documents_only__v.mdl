@@ -1,0 +1,6 @@
+Queryobjectrule steady_state_documents_only__v (
+   label('Steady State Documents Only'),
+   active(true),
+   filter_clause([status__v = STEADYSTATE()]),
+   query_object('documents')
+);

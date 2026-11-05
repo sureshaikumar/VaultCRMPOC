@@ -1,0 +1,6 @@
+Picklistentry fr-38__v (
+   value('Isère'),
+   order(1354),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate daily_api_limit_warning__v (
+   label('Daily API Limit Warning'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Warning: Approaching Daily API Limit'),
+   notification('<p>The vault has reached ${dailyAPICount} API calls over the past 24 hours and is ${dailyAPILimitPercent} of the daily limit of ${dailyAPILimit}</p>
+
+<p>Please review the programs and scripts calling the Vault API to ensure they are operating correctly. The daily API count is derived from the past 24 hours and is constantly updated. Once the daily API limit is reached Vault will no longer accept API calls until the rolling 24 hour API count goes below the limit.</p>
+
+<p>You are receiving this notification from Vault due to the API limit notification setting within Vault and the fact you have indicated you want to receive system notifications in your User Profile. You can check the current API counts and limits in the General Settings page within Vault. Please contact Veeva support if you have any questions about this notification.</p>'),
+   email_body('<p>The vault has reached ${dailyAPICount} API calls over the past 24 hours and is ${dailyAPILimitPercent} of the daily limit of ${dailyAPILimit}</p>
+
+<p>Please review the programs and scripts calling the Vault API to ensure they are operating correctly. The daily API count is derived from the past 24 hours and is constantly updated. Once the daily API limit is reached Vault will no longer accept API calls until the rolling 24 hour API count goes below the limit.</p>
+
+<p>You are receiving this notification from Vault due to the API limit notification setting within Vault and the fact you have indicated you want to receive system notifications in your User Profile. You can check the current API counts and limits in the General Settings page within Vault. Please contact Veeva support if you have any questions about this notification.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

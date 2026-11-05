@@ -1,0 +1,6 @@
+Message are_you_sure_to_end_call__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to end this call?'),
+   system_managed(false)
+);

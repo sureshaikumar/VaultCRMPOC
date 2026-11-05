@@ -1,0 +1,5 @@
+Picklistentry events_management_rsvp__v (
+   value('Events Management RSVP'),
+   order(0),
+   active(true)
+);

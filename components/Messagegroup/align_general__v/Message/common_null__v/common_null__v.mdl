@@ -1,0 +1,6 @@
+Message common_null__v (
+   label(),
+   active(true),
+   default_value('Null'),
+   system_managed(false)
+);

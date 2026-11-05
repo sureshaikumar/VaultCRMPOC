@@ -1,0 +1,5 @@
+Picklistentry stn__sys (
+   value('STN'),
+   order(171),
+   active(true)
+);

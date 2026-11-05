@@ -1,0 +1,8 @@
+Picklistentry ionnt__v (
+   value('Internal Oncology'),
+   order(819),
+   active(true),
+   controlling_entries('hr__v',
+         'me__v',
+         'si__v')
+);

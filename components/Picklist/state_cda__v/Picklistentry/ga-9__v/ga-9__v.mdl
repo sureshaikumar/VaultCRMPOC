@@ -1,0 +1,6 @@
+Picklistentry ga-9__v (
+   value('Woleu-Ntem'),
+   order(1447),
+   active(true),
+   controlling_entries('ga__v')
+);

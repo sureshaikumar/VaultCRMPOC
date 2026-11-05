@@ -1,0 +1,5 @@
+Picklistentry lvl__sys (
+   value('LVL'),
+   order(110),
+   active(true)
+);

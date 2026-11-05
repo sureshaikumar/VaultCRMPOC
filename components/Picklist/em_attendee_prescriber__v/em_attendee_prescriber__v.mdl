@@ -1,0 +1,8 @@
+RECREATE Picklist em_attendee_prescriber__v (
+   label('Prescriber'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

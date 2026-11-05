@@ -1,0 +1,6 @@
+Message number_dialed__v (
+   label(),
+   active(true),
+   default_value('Number Dialed'),
+   system_managed(false)
+);

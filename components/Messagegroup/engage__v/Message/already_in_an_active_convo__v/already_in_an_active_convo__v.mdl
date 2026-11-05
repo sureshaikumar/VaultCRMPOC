@@ -1,0 +1,6 @@
+Message already_in_an_active_convo__v (
+   label(),
+   active(true),
+   default_value('Already in an active conversation with ${user_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry clear__v (
+   value('Clear'),
+   order(0),
+   active(true)
+);

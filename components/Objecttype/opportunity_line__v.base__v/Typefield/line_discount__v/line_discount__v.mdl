@@ -1,0 +1,4 @@
+Typefield line_discount__v (
+   source('standard'),
+   required(false)
+);

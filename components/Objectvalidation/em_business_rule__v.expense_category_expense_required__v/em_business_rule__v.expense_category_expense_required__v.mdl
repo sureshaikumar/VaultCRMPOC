@@ -1,0 +1,14 @@
+RECREATE Objectvalidation em_business_rule__v.expense_category_expense_required__v (
+   label('Expense Category Required'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_event_expense_limit_rule__v", true,
+            "em_per_event_attendee_expense_limit_r__v", true,
+            "em_per_event_speaker_expense_limit_ru__v", true,
+            false
+        ) = false || Not(IsBlank(expense_category__v))'),
+   description('expense_category__v is not added to the Event Business Rule.'),
+   error_message('This field is required.'),
+   error_location('expense_category__v')
+);

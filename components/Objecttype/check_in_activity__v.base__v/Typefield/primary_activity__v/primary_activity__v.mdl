@@ -1,0 +1,4 @@
+Typefield primary_activity__v (
+   source('standard'),
+   required(true)
+);

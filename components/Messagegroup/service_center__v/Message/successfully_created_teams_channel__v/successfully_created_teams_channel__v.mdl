@@ -1,0 +1,6 @@
+Message successfully_created_teams_channel__v (
+   label(),
+   active(true),
+   default_value('You have successfully created a Teams Channel for ${subject}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry pw-002__v (
+   value('Aimeliik'),
+   order(3674),
+   active(true),
+   controlling_entries('pw__v')
+);

@@ -1,0 +1,17 @@
+Field inventory_from_date__v (
+   label('Inventory From Date'),
+   type('DateTime'),
+   active(true),
+   description('Inventory From Date is the Date of the last Submitted Inventory.  The Inventory From Date is populated from the Submitted Date of the most recently Submitted Sample Inventory.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

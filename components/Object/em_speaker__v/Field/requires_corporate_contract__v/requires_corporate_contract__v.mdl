@@ -1,0 +1,18 @@
+Field requires_corporate_contract__v (
+   label('Requires Corporate Contract'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used by Events Management to flag Speakers that require a Corporate Contract.'),
+   list_column(false),
+   order(39),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

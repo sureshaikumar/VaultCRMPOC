@@ -1,0 +1,6 @@
+Message mccp_feedback_account_exclusion__v (
+   label(),
+   active(true),
+   default_value('Account Exclusion'),
+   system_managed(false)
+);

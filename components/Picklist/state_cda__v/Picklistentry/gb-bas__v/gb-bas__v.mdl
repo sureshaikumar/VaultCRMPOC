@@ -1,0 +1,6 @@
+Picklistentry gb-bas__v (
+   value('Bath and North East Somerset'),
+   order(1456),
+   active(true),
+   controlling_entries('gb__v')
+);

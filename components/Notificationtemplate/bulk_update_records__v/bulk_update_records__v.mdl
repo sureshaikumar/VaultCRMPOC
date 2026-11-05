@@ -1,0 +1,13 @@
+RECREATE Notificationtemplate bulk_update_records__v (
+   label('bulkUpdateRecords'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Bulk Action Completed'),
+   notification('<b>Change Summary:</b><br> ${recordBulkUpdatesList} ${recordBulkUpdateResultsList}'),
+   email_body('<b>Change Summary:</b><br> ${recordBulkUpdatesList} <br><b>Results:</b> <br> ${recordBulkUpdateResultsList}
+'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

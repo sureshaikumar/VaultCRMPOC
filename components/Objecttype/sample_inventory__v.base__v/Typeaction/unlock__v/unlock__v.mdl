@@ -1,0 +1,3 @@
+Typeaction unlock__v (
+   action('sample_inventory__v.unlock__v')
+);

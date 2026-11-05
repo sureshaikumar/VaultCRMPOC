@@ -1,0 +1,5 @@
+Picklistentry tolerability__v (
+   value('Tolerability'),
+   order(2),
+   active(true)
+);

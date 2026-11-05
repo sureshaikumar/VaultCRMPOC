@@ -1,0 +1,6 @@
+Message new_whatsapp_message__v (
+   label(),
+   active(true),
+   default_value('New WhatsApp Message'),
+   system_managed(false)
+);

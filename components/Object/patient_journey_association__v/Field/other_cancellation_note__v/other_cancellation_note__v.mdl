@@ -1,0 +1,19 @@
+Field other_cancellation_note__v (
+   label('Other Cancellation Note'),
+   type('String'),
+   active(true),
+   description('Cancel note associated with the ''Other'' cancel reason.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(true),
+   order(39),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

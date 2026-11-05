@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.survey_target__v.survey_target_status__v</targetField>
+            <expression>Picklist.survey_target_status__v.saved__v</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

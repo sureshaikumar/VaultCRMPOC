@@ -1,0 +1,6 @@
+Picklistentry ug-401__v (
+   value('Bundibugyo'),
+   order(4743),
+   active(true),
+   controlling_entries('ug__v')
+);

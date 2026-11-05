@@ -1,0 +1,5 @@
+Picklistentry high_value_promotional__v (
+   value('High Value Promotional'),
+   order(15),
+   active(true)
+);

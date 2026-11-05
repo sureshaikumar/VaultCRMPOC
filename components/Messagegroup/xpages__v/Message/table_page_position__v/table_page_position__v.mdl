@@ -1,0 +1,6 @@
+Message table_page_position__v (
+   label(),
+   active(true),
+   default_value('${table_page_start} - ${table_page_end} of ${table_total_rows}'),
+   system_managed(false)
+);

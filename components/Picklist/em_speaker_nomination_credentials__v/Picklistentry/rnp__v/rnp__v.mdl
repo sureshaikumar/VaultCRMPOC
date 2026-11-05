@@ -1,0 +1,5 @@
+Picklistentry rnp__v (
+   value('RNP'),
+   order(4),
+   active(true)
+);

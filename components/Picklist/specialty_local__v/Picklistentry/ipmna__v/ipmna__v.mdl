@@ -1,0 +1,6 @@
+Picklistentry ipmna__v (
+   value('Interventional Pain Medicine'),
+   order(825),
+   active(true),
+   controlling_entries('us__v')
+);

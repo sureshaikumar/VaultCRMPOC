@@ -1,0 +1,5 @@
+Picklistentry 49460__v (
+   value('Yankton, SD Micropolitan Statistical Area'),
+   order(615),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry antibacterials_otics__v (
+   value('Antibacterials (Otics)'),
+   order(97),
+   active(true)
+);

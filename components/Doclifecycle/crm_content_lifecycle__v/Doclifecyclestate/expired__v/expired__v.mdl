@@ -1,0 +1,13 @@
+Doclifecyclestate expired__v (
+   label('Expired'),
+   active(true),
+   description('This is the state when the document is no longer approved for use.'),
+   order(4),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false),
+   entry_criteria(),
+   entry_action(@entry_action.xml),
+   user_action(),
+   security_settings(@security_settings.xml)
+);

@@ -1,0 +1,6 @@
+Picklistentry es-bi__v (
+   value('Vizcaya'),
+   order(1200),
+   active(true),
+   controlling_entries('es__v')
+);

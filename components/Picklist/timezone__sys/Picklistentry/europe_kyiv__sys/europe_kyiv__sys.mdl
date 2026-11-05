@@ -1,0 +1,5 @@
+Picklistentry europe_kyiv__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Kyiv)'),
+   order(186),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry nmmtq__v (
+   value('Nuclear Medicine Molecular Theranostics Nuclear Theranostics Molecular Pediatric Specialty'),
+   order(1058),
+   active(true),
+   controlling_entries('id__v')
+);

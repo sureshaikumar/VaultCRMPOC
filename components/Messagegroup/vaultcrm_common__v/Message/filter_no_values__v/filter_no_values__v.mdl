@@ -1,0 +1,6 @@
+Message filter_no_values__v (
+   label(),
+   active(true),
+   default_value('No filter values'),
+   system_managed(false)
+);

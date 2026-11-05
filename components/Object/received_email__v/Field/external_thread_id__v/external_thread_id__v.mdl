@@ -1,0 +1,19 @@
+Field external_thread_id__v (
+   label('External Thread Id'),
+   type('String'),
+   active(true),
+   description('Unique Identifier from external system'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Unique Identifier from external system'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

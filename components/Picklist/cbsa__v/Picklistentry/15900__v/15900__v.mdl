@@ -1,0 +1,5 @@
+Picklistentry 15900__v (
+   value('Canton, IL Micropolitan Statistical Area'),
+   order(884),
+   active(true)
+);

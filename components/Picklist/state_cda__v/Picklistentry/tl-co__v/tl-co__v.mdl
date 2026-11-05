@@ -1,0 +1,6 @@
+Picklistentry tl-co__v (
+   value('Cova Lima'),
+   order(4415),
+   active(true),
+   controlling_entries('tl__v')
+);

@@ -1,0 +1,19 @@
+Field record_type__v (
+   label('Record Type'),
+   type('String'),
+   active(true),
+   description('Stores the Record Type ID of the extracted record type.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

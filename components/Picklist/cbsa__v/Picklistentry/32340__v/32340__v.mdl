@@ -1,0 +1,5 @@
+Picklistentry 32340__v (
+   value('Maryville, MO Micropolitan Statistical Area'),
+   order(743),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message align_postgres_data_refersh_warning_body__v (
+   label(),
+   active(true),
+   default_value('For a high volume instance this can potentially take HOURS to complete. Most processes (assignment previews, CRM integration, etc) will wait for this process to complete before starting.<br/><br/>By clicking Continue you understand these caveats and wish to proceed. If you do not understand, please contact someone from the Align Engineering team.<br/>'),
+   system_managed(false)
+);

@@ -1,0 +1,13 @@
+Vsmfield task_object_type__v (
+   label('Task Object Type'),
+   active(true),
+   description('A string field identifying the object type context of the task, often used to distinguish what kind of Vault object the task is associated with. Use to filter or group activities by the type of work or object they relate to.'),
+   example_values(),
+   synonyms('task type',
+         'task category',
+         'task classification'),
+   target('task_object_type__v'),
+   target_label('Task Object Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

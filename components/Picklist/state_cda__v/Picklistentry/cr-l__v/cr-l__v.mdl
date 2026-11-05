@@ -1,0 +1,6 @@
+Picklistentry cr-l__v (
+   value('Limón'),
+   order(764),
+   active(true),
+   controlling_entries('cr__v')
+);

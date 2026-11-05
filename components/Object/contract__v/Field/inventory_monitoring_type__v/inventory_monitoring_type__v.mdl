@@ -1,0 +1,18 @@
+Field inventory_monitoring_type__v (
+   label('Inventory Monitoring Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Inventory Monitoring record type that the contract is valid for.'),
+   list_column(false),
+   order(20),
+   multi_value(true),
+   picklist('Picklist.contract_inventory_monitoring_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

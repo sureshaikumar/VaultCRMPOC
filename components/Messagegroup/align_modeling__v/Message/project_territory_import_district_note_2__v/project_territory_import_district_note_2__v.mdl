@@ -1,0 +1,6 @@
+Message project_territory_import_district_note_2__v (
+   label(),
+   active(true),
+   default_value('Note: Importing the entire {0} will import this territory''s entire descendant territory hierarchy, including their manual assignment records, account rules, and account rules criteria. Counts exclude records that are also related to the parent territory.'),
+   system_managed(false)
+);

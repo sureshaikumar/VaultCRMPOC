@@ -1,0 +1,17 @@
+Field link_reference_long__v (
+   label('Link Reference Long'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(9000),
+   help_content('Longer version of the Link_Reference_vod field. When populating this field, use the same formatting as the Link_Reference_vod field.'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

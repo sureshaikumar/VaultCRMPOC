@@ -1,0 +1,6 @@
+Message connected_ph_numbers_count__v (
+   label(),
+   active(true),
+   default_value('Connected Phone Numbers (${count})'),
+   system_managed(false)
+);

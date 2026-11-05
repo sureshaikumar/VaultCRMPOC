@@ -1,0 +1,22 @@
+Field spend_status__v (
+   label('Spend Status'),
+   type('String'),
+   active(true),
+   description('Displays red, yellow, or green image based on Spend_Status_Value_vod__c.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(132),
+   formula('"Function does not exist"'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   show_as_icon(true),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

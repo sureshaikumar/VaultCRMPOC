@@ -1,0 +1,3 @@
+Typeaction create_package_label__v (
+   action('sample_transaction__v.create_package_label__v')
+);

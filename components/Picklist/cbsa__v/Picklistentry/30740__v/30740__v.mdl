@@ -1,0 +1,5 @@
+Picklistentry 30740__v (
+   value('Lincolnton, NC Micropolitan Statistical Area'),
+   order(488),
+   active(true)
+);

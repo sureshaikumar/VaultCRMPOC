@@ -1,0 +1,5 @@
+Picklistentry usn__sys (
+   value('USN'),
+   order(190),
+   active(true)
+);

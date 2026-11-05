@@ -1,0 +1,6 @@
+Picklistentry fnaum__v (
+   value('Family Nursing'),
+   order(539),
+   active(true),
+   controlling_entries('ee__v')
+);

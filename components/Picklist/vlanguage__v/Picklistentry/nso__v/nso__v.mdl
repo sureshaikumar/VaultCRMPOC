@@ -1,0 +1,5 @@
+Picklistentry nso__v (
+   value('Sepedi'),
+   order(277),
+   active(false)
+);

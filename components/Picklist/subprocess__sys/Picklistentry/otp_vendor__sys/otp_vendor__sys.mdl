@@ -1,0 +1,6 @@
+Picklistentry otp_vendor__sys (
+   value('Vendor'),
+   order(181),
+   active(true),
+   controlling_entries('olc_vendor__sys')
+);

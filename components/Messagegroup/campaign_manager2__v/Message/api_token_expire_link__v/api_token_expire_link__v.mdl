@@ -1,0 +1,6 @@
+Message api_token_expire_link__v (
+   label(),
+   active(true),
+   default_value('Expire token'),
+   system_managed(false)
+);

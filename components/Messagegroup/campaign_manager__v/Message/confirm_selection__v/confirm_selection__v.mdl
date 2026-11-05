@@ -1,0 +1,6 @@
+Message confirm_selection__v (
+   label(),
+   active(true),
+   default_value('Confirm Selection'),
+   system_managed(false)
+);

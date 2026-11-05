@@ -1,0 +1,6 @@
+Picklistentry ru-uly__v (
+   value('Ul''yanovskaya oblast'''),
+   order(3864),
+   active(true),
+   controlling_entries('ru__v')
+);

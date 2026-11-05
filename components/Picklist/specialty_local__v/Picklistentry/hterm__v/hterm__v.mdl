@@ -1,0 +1,6 @@
+Picklistentry hterm__v (
+   value('Hematology / Transfusiology'),
+   order(684),
+   active(true),
+   controlling_entries('ge__v')
+);

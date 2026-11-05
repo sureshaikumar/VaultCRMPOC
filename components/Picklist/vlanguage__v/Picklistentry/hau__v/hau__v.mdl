@@ -1,0 +1,5 @@
+Picklistentry hau__v (
+   value('Hausa'),
+   order(125),
+   active(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 44060__v (
+   value('Spokane, WA Metropolitan Statistical Area'),
+   order(733),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Typefield user_communication_channel__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.engage_connec_user_communication_channel__v.chat__v',
+         'Picklist.engage_connec_user_communication_channel__v.ping__v')
+);

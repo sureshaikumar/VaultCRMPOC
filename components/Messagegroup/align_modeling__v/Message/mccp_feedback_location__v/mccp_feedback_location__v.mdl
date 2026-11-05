@@ -1,0 +1,6 @@
+Message mccp_feedback_location__v (
+   label(),
+   active(true),
+   default_value('Location'),
+   system_managed(false)
+);

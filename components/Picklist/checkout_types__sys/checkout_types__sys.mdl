@@ -1,0 +1,13 @@
+RECREATE Picklist checkout_types__sys (
+   label('Check Out Types'),
+   active(true),
+   Picklistentry(@Picklistentry/basic__sys.mdl),
+   Picklistentry(@Picklistentry/java_applet__sys.mdl),
+   Picklistentry(@Picklistentry/office_online__sys.mdl),
+   Picklistentry(@Picklistentry/vfm__sys.mdl),
+   Picklistentry(@Picklistentry/office365__sys.mdl),
+   Picklistentry(@Picklistentry/custom__sys.mdl),
+   Picklistentry(@Picklistentry/google_drive__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,11 @@
+Vsmfield last_name__v (
+   label('Last Name'),
+   active(true),
+   description('The user\''s surname.'),
+   example_values(),
+   synonyms('Surname'),
+   target('last_name__sys'),
+   target_label('Last Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

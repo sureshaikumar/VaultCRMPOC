@@ -1,0 +1,6 @@
+Picklistentry bw-ga__v (
+   value('Gaborone'),
+   order(533),
+   active(true),
+   controlling_entries('bw__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry imxid__v (
+   value('Internal Medicine: Infectious Diseases'),
+   order(815),
+   active(true),
+   controlling_entries('dk__v')
+);

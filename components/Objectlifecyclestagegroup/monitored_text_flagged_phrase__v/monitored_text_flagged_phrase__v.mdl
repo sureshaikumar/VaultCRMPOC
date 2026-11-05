@@ -1,0 +1,11 @@
+RECREATE Objectlifecyclestagegroup monitored_text_flagged_phrase__v (
+   label('Monitored Text Flagged Phrase Stage Group'),
+   active(true),
+   description(),
+   object_lifecycle('Objectlifecycle.monitored_text_lifecycle__v'),
+   object_type('Objecttype.monitored_text__v.flagged_phrase__v'),
+   Objectlifecyclestage(@Objectlifecyclestage/closed_stage__v.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/further_review_needed_stage__v.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/in_review_stage__v.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/open_stage__v.mdl)
+);

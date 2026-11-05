@@ -1,0 +1,7 @@
+Picklistentry paace__v (
+   value('Pediatric and Adolescent Cardiology'),
+   order(1318),
+   active(true),
+   controlling_entries('de__v',
+         'se__v')
+);

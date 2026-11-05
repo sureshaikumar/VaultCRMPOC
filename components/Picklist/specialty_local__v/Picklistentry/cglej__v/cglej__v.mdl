@@ -1,0 +1,6 @@
+Picklistentry cglej__v (
+   value('Clinical Geriatrics'),
+   order(225),
+   active(true),
+   controlling_entries('nl__v')
+);

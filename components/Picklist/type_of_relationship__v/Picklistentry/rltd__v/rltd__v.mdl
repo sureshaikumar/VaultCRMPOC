@@ -1,0 +1,5 @@
+Picklistentry rltd__v (
+   value('HCP Related To'),
+   order(0),
+   active(true)
+);

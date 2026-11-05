@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The human-readable display name of the language (e.g., ''English'', ''French'', ''German''). Use this field when searching for or displaying languages in user-facing contexts or reports.'),
+   example_values(),
+   synonyms('language name',
+         'language label',
+         'display name'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Message cannot_generate_package_label_text__v (
+   label(),
+   active(true),
+   default_value('Cannot generate package label due to unexpected error. Please contact your administrator.'),
+   system_managed(false)
+);

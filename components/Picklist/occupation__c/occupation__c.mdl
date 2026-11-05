@@ -1,0 +1,22 @@
+RECREATE Picklist occupation__c (
+   label('Occupation'),
+   active(true),
+   Picklistentry(@Picklistentry/physician__c.mdl),
+   Picklistentry(@Picklistentry/nurse__c.mdl),
+   Picklistentry(@Picklistentry/allied_health_professional__c.mdl),
+   Picklistentry(@Picklistentry/pharmacist__c.mdl),
+   Picklistentry(@Picklistentry/dentist__c.mdl),
+   Picklistentry(@Picklistentry/optometrist__c.mdl),
+   Picklistentry(@Picklistentry/dietitians_and_nutritionist__c.mdl),
+   Picklistentry(@Picklistentry/psychiatrist__c.mdl),
+   Picklistentry(@Picklistentry/chiropractor__c.mdl),
+   Picklistentry(@Picklistentry/paramedic__c.mdl),
+   Picklistentry(@Picklistentry/medical_technician_emts__c.mdl),
+   Picklistentry(@Picklistentry/medical_laboratory_technologist__c.mdl),
+   Picklistentry(@Picklistentry/surgeon__c.mdl),
+   Picklistentry(@Picklistentry/veterinarian__c.mdl),
+   Picklistentry(@Picklistentry/public_health_professional__c.mdl),
+   Picklistentry(@Picklistentry/physician_assistant_pas__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

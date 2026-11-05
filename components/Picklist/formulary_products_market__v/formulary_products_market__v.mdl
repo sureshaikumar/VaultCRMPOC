@@ -1,0 +1,9 @@
+RECREATE Picklist formulary_products_market__v (
+   label('Market'),
+   active(true),
+   Picklistentry(@Picklistentry/cholesterol_reducer__v.mdl),
+   Picklistentry(@Picklistentry/dopaminergic_agents__v.mdl),
+   Picklistentry(@Picklistentry/vasodilator__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

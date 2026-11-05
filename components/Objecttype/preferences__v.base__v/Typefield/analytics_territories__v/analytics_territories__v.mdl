@@ -1,0 +1,4 @@
+Typefield analytics_territories__v (
+   source('standard'),
+   required(false)
+);

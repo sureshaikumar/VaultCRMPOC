@@ -1,0 +1,5 @@
+Picklistentry close_out__v (
+   value('Close-Out'),
+   order(3),
+   active(true)
+);

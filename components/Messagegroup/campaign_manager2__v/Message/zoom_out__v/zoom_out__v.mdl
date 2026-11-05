@@ -1,0 +1,6 @@
+Message zoom_out__v (
+   label(),
+   active(true),
+   default_value('Zoom out'),
+   system_managed(false)
+);

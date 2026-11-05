@@ -1,0 +1,6 @@
+Message invalid_processing_status__v (
+   label(),
+   active(true),
+   default_value('Failed to update processing status from ${original_value} to ${updated_value}. Validate fields and changes.'),
+   system_managed(false)
+);

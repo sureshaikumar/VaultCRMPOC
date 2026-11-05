@@ -1,0 +1,6 @@
+Message targets_to_state_plural__v (
+   label(),
+   active(true),
+   default_value('${num_targets} targets will move to ${workflow_state}'),
+   system_managed(false)
+);

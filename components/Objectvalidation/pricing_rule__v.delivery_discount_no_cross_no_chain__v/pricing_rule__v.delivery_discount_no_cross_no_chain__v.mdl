@@ -1,0 +1,17 @@
+RECREATE Objectvalidation pricing_rule__v.delivery_discount_no_cross_no_chain__v (
+   label('Delivery Discount No Cross No Chain'),
+   active(true),
+   expression('Not(
+     And(
+         Or(
+             chain_rule__v = true,
+             cross_product_rule__v = true
+        ),
+         object_type__vr.api_name__v = ''delivery_discount_rule__v''
+    )
+)'),
+   description('Cross-Product Rebates or Chain Rules cannot be used in Delivery Discount Rules'),
+   error_message('Cross-Product Rebates or Chain Rules cannot be used in Delivery Discount Rules'),
+   error_location('chain_rule__v',
+      'cross_product_rule__v')
+);

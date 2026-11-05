@@ -1,0 +1,6 @@
+Picklistentry no-34__v (
+   value('Innlandet'),
+   order(3399),
+   active(true),
+   controlling_entries('no__v')
+);

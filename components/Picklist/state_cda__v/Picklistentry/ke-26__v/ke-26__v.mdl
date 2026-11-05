@@ -1,0 +1,6 @@
+Picklistentry ke-26__v (
+   value('Meru'),
+   order(2379),
+   active(true),
+   controlling_entries('ke__v')
+);

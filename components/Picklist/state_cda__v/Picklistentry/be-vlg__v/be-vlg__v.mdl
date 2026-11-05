@@ -1,0 +1,6 @@
+Picklistentry be-vlg__v (
+   value('Flemish Region'),
+   order(305),
+   active(true),
+   controlling_entries('be__v')
+);

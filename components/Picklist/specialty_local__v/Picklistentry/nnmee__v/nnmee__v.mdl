@@ -1,0 +1,6 @@
+Picklistentry nnmee__v (
+   value('Neonatology / Neonatal Medicine'),
+   order(997),
+   active(true),
+   controlling_entries('vn__v')
+);

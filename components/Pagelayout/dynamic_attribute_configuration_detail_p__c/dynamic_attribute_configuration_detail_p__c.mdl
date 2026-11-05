@@ -1,0 +1,8 @@
+RECREATE Pagelayout dynamic_attribute_configuration_detail_p__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Dynamic Attribute Configuration Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

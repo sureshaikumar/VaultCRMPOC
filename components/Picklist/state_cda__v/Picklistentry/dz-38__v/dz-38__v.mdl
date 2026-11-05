@@ -1,0 +1,6 @@
+Picklistentry dz-38__v (
+   value('Tissemsilt'),
+   order(1019),
+   active(true),
+   controlling_entries('dz__v')
+);

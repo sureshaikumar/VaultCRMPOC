@@ -1,0 +1,5 @@
+Picklistentry otsuka_america_pharmaceuticals_inc__v (
+   value('Otsuka America Pharmaceuticals, Inc.'),
+   order(29),
+   active(true)
+);

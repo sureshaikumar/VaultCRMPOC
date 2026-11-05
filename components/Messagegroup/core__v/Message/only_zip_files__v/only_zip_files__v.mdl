@@ -1,0 +1,6 @@
+Message only_zip_files__v (
+   label(),
+   active(true),
+   default_value('Only ZIP files are accepted'),
+   system_managed(false)
+);

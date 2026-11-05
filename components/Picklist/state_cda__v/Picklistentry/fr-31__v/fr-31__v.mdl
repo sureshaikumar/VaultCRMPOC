@@ -1,0 +1,6 @@
+Picklistentry fr-31__v (
+   value('Haute-Garonne'),
+   order(1347),
+   active(true),
+   controlling_entries('fr__v')
+);

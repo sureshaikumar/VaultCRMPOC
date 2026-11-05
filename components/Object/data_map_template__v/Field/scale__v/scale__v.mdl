@@ -1,0 +1,18 @@
+Field scale__v (
+   label('Scale'),
+   type('Picklist'),
+   active(true),
+   description('Scale determines the type of data buckets that will be loaded via this template. The two options are monthly or weekly.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(24),
+   multi_value(false),
+   picklist('Picklist.data_map_template_scale__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

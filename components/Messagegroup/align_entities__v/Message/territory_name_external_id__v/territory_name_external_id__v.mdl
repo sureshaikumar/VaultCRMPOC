@@ -1,0 +1,6 @@
+Message territory_name_external_id__v (
+   label(),
+   active(true),
+   default_value('Territory Name (External ID)'),
+   system_managed(false)
+);

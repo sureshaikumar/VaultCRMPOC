@@ -1,0 +1,6 @@
+Message model_lifecycle_not_approved_count__v (
+   label(),
+   active(true),
+   default_value('This project contains {0} {1} that are not in the Approved lifecycle state.'),
+   system_managed(false)
+);

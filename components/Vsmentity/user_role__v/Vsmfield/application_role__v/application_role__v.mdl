@@ -1,0 +1,13 @@
+Vsmfield application_role__v (
+   label('Application Role'),
+   active(true),
+   description('The application role linked to this user role record, defining the set of additional permissions rights granted within the Vault application via the Permission Set associated to the Application Role. Use this to identify what functional role a user has been assigned, what permission set has been assigned, or to filter user roles by a specific application role.'),
+   example_values(),
+   synonyms('app role',
+         'role assignment',
+         'assigned role'),
+   target('application_role__sys'),
+   target_label('Application Role'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

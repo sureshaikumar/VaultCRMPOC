@@ -1,0 +1,11 @@
+Vsmfield avg_time_lib_view__v (
+   label('Avg Time Lib View'),
+   active(true),
+   description('Average time (in seconds) to load the Library on a given day'),
+   example_values(),
+   synonyms(),
+   target('avg_time_lib_view__v'),
+   target_label('Avg Time Lib View'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

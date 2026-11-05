@@ -1,0 +1,5 @@
+Picklistentry generic__v (
+   value('Generic'),
+   order(7),
+   active(true)
+);

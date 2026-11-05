@@ -1,0 +1,6 @@
+Picklistentry hu-za__v (
+   value('Zala'),
+   order(1914),
+   active(true),
+   controlling_entries('hu__v')
+);

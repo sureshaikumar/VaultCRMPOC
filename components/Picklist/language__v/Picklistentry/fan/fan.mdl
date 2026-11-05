@@ -1,0 +1,5 @@
+Picklistentry fan (
+   value('Fang'),
+   order(177),
+   active(true)
+);

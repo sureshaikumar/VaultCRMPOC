@@ -1,0 +1,6 @@
+Message body_single_draft_saved__v (
+   label(),
+   active(true),
+   default_value('${template_name} has been saved as a draft'),
+   system_managed(false)
+);

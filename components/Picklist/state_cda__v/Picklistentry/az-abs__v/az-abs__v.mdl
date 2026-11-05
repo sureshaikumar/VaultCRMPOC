@@ -1,0 +1,6 @@
+Picklistentry az-abs__v (
+   value('Abşeron'),
+   order(138),
+   active(true),
+   controlling_entries('az__v')
+);

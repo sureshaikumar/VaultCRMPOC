@@ -1,0 +1,5 @@
+Picklistentry journey__v (
+   value('Journey'),
+   order(1),
+   active(true)
+);

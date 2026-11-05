@@ -1,0 +1,5 @@
+Picklistentry 40700__v (
+   value('Roseburg, OR Micropolitan Statistical Area'),
+   order(284),
+   active(true)
+);

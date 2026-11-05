@@ -1,0 +1,6 @@
+Picklistentry ar-d__v (
+   value('San Luis'),
+   order(100),
+   active(true),
+   controlling_entries('ar__v')
+);

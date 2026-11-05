@@ -1,0 +1,4 @@
+Typefield has_attachment__v (
+   source('standard'),
+   required(false)
+);

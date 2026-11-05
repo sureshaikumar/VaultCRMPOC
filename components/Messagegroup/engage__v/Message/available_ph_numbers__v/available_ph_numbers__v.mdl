@@ -1,0 +1,6 @@
+Message available_ph_numbers__v (
+   label(),
+   active(true),
+   default_value('Available Phone Numbers'),
+   system_managed(false)
+);

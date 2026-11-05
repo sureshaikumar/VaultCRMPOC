@@ -1,0 +1,6 @@
+Picklistentry dj-di__v (
+   value('Dikhil'),
+   order(921),
+   active(true),
+   controlling_entries('dj__v')
+);

@@ -1,0 +1,6 @@
+Message multi_product_duplicate_enablement_error__v (
+   label(),
+   active(true),
+   default_value('You cannot update the product because multiple configurations are enabled.'),
+   system_managed(false)
+);

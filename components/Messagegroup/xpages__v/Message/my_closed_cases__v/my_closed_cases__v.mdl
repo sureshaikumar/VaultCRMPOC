@@ -1,0 +1,6 @@
+Message my_closed_cases__v (
+   label(),
+   active(true),
+   default_value('My Closed Cases'),
+   system_managed(false)
+);

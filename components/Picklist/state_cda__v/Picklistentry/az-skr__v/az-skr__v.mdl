@@ -1,0 +1,6 @@
+Picklistentry az-skr__v (
+   value('Şəmkir'),
+   order(196),
+   active(true),
+   controlling_entries('az__v')
+);

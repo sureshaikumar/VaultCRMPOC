@@ -1,0 +1,6 @@
+Picklistentry mw-mw__v (
+   value('Mwanza'),
+   order(3224),
+   active(true),
+   controlling_entries('mw__v')
+);

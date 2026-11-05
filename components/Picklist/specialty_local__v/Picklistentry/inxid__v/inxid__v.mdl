@@ -1,0 +1,6 @@
+Picklistentry inxid__v (
+   value('Infectiology (Infectious Diseases)'),
+   order(751),
+   active(true),
+   controlling_entries('ao__v')
+);

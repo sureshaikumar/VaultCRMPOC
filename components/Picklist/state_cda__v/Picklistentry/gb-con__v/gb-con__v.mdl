@@ -1,0 +1,6 @@
+Picklistentry gb-con__v (
+   value('Cornwall'),
+   order(1490),
+   active(true),
+   controlling_entries('gb__v')
+);

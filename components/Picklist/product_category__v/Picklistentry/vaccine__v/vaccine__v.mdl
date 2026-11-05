@@ -1,0 +1,5 @@
+Picklistentry vaccine__v (
+   value('Vaccine'),
+   order(2),
+   active(true)
+);

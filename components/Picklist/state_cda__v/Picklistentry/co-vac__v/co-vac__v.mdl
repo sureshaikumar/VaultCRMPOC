@@ -1,0 +1,6 @@
+Picklistentry co-vac__v (
+   value('Valle del Cauca'),
+   order(757),
+   active(true),
+   controlling_entries('co__v')
+);

@@ -1,0 +1,11 @@
+Vsmfield avg_time_login__v (
+   label('Avg Time Login'),
+   active(true),
+   description('Average time (in seconds) to load the first page after entering login credentials on a given day'),
+   example_values(),
+   synonyms(),
+   target('avg_time_login__v'),
+   target_label('Avg Time Login'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

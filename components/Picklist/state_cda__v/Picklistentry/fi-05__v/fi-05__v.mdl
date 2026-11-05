@@ -1,0 +1,6 @@
+Picklistentry fi-05__v (
+   value('Kainuu'),
+   order(1277),
+   active(true),
+   controlling_entries('fi__v')
+);

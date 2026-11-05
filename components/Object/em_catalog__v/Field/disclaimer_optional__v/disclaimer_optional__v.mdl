@@ -1,0 +1,17 @@
+Field disclaimer_optional__v (
+   label('Disclaimer Optional'),
+   type('Boolean'),
+   active(true),
+   description('When selected, corresponding Disclaimer Text to display as optional during registration. By default, Disclaimer Text displays required for registration.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

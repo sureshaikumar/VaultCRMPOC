@@ -1,0 +1,5 @@
+Objectlifecyclerole editor__sys (
+   active(true),
+   application_role('Applicationrole.editor__v'),
+   permissions()
+);

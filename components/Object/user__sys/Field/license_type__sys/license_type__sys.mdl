@@ -1,0 +1,18 @@
+Field license_type__sys (
+   label('License Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('A user’s license type can be set on a per application basis in vaults with more than one application enabled. This only affects licensing, not the available functionality within a vault. Functionality is driven from this License Type and Security profile.'),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.user_license_type__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

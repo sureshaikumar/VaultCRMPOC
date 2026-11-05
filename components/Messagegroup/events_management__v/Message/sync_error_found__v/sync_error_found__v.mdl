@@ -1,0 +1,6 @@
+Message sync_error_found__v (
+   label(),
+   active(true),
+   default_value('A sync error was found. Resolve the sync error, then try again.'),
+   system_managed(false)
+);

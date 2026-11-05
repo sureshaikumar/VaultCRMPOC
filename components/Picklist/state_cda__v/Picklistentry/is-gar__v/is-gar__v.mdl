@@ -1,0 +1,6 @@
+Picklistentry is-gar__v (
+   value('Garðabær'),
+   order(2106),
+   active(true),
+   controlling_entries('is__v')
+);

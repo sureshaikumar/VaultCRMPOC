@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate replynotifications__v (
+   label('Reply Notification'),
+   active(true),
+   description('Notification template used for notifying users of replies to their own annotations.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Reply to ${docNumber}'),
+   notification('<b>${senderName}</b> has replied to <b><a href=${docInfoUrl}>${docName}</a></b>.<br><ul><li><a href=${linkToAnnotation}>${noteComment}</a></li></ul>'),
+   email_body('<b>${senderName}</b> replied to a comment on <b>${docName}</b>. Here is what they said:<br><ul><li><a href=${linkToAnnotation}>${noteComment}</a></li></ul><br><br>The above link will take you to the note where you are mentioned. (If you do not have access to this document, please contact the user listed above.)'),
+   entity_type('document'),
+   notification_category('annotation_replies__sys')
+);

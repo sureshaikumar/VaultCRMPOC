@@ -1,0 +1,6 @@
+Picklistentry in-ld__v (
+   value('Lakshadweep'),
+   order(2015),
+   active(true),
+   controlling_entries('in__v')
+);

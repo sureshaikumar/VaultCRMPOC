@@ -1,0 +1,6 @@
+Picklistentry gb-and__v (
+   value('Ards and North Down'),
+   order(1453),
+   active(true),
+   controlling_entries('gb__v')
+);

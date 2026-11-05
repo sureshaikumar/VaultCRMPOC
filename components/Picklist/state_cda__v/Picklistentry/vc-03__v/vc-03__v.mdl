@@ -1,0 +1,6 @@
+Picklistentry vc-03__v (
+   value('Saint David'),
+   order(4883),
+   active(true),
+   controlling_entries('vc__v')
+);

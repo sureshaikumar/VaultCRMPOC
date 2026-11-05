@@ -1,0 +1,6 @@
+Message csv__v (
+   label(),
+   active(true),
+   default_value('CSV'),
+   system_managed(false)
+);

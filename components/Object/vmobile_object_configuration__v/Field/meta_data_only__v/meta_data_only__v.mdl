@@ -1,0 +1,18 @@
+Field meta_data_only__v (
+   label('Meta Data Only'),
+   type('Boolean'),
+   active(true),
+   description('If this box is checked then the sync process will never download data for this object. Used for data that is only sent up from the tablet.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(21),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

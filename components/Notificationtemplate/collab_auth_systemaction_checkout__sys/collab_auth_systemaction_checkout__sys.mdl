@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate collab_auth_systemaction_checkout__sys (
+   label('Collab Auth System Checkout'),
+   active(true),
+   description('Notification template notifying user of the results of their collaborative authoring checkout workflow system action.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Collaborative Authoring Checkout Workflow System Action Completed'),
+   notification('<p>Your Workflow step ${CollabAuthActionResultStepName} has completed.</p><p><a href="${CollabAuthActionResultCsvURL}">${CollabAuthActionResultSuccessCount}, ${CollabAuthActionResultFailureCount}</a></p><p>You can find the reason for failures in the linked file. Please note that documents not checked out as part of the Workflow Action will require manual check out.</p><p>Details:</p><p><li>Action: ${CollabAuthActionResultActionType}</li><li>Start Time: ${CollabAuthActionResultStartTime}</li><li>Duration: ${CollabAuthActionResultDurationHrs} hrs, ${CollabAuthActionResultDurationMins} mins, ${CollabAuthActionResultDurationSecs} secs</li></p>'),
+   email_body('<p>Your Workflow step ${CollabAuthActionResultStepName} has completed.</p><p><a href="${CollabAuthActionResultCsvURL}">${CollabAuthActionResultSuccessCount}, ${CollabAuthActionResultFailureCount}</a></p><p>You can find the reason for failures in the linked file. Please note that documents not checked out as part of the Workflow Action will require manual check out.</p><p>Details:</p><p><li>Action: ${CollabAuthActionResultActionType}</li><li>Start Time: ${CollabAuthActionResultStartTime}</li><li>Duration: ${CollabAuthActionResultDurationHrs} hrs, ${CollabAuthActionResultDurationMins} mins, ${CollabAuthActionResultDurationSecs} secs</li></p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

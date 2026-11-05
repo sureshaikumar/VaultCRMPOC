@@ -1,0 +1,5 @@
+Picklistentry kmb (
+   value('Kimbundu'),
+   order(221),
+   active(true)
+);

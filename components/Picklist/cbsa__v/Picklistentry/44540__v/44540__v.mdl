@@ -1,0 +1,5 @@
+Picklistentry 44540__v (
+   value('Sterling, CO Micropolitan Statistical Area'),
+   order(843),
+   active(true)
+);

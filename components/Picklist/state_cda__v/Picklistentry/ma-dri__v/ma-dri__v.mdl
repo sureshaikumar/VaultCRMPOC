@@ -1,0 +1,6 @@
+Picklistentry ma-dri__v (
+   value('Driouch'),
+   order(2792),
+   active(true),
+   controlling_entries('ma__v')
+);

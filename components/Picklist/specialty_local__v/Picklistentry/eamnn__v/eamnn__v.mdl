@@ -1,0 +1,9 @@
+Picklistentry eamnn__v (
+   value('Endocrinology and Metabolism'),
+   order(501),
+   active(true),
+   controlling_entries('ca__v',
+         'lb__v',
+         'mu__v',
+         'th__v')
+);

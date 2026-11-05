@@ -1,0 +1,6 @@
+Picklistentry es-gc__v (
+   value('Las Palmas'),
+   order(1217),
+   active(true),
+   controlling_entries('es__v')
+);

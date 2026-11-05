@@ -1,0 +1,19 @@
+Field distributor__v (
+   label('Distributor'),
+   type('String'),
+   active(true),
+   description('The Distributor field is used to indicate the name of the Company that will be distributing the BRC Sample Product Types to the requesting Physicians. The Distributor name is displayed on the Signature capture form for all BRC records.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

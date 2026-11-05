@@ -1,0 +1,10 @@
+Vsmvalue mzn__v (
+   label('MZN'),
+   active(true),
+   description('The current official currency of Mozambique (MZN), introduced in 2006 to replace the old metical (MZM) and used for all domestic transactions.'),
+   synonyms('Mozambican metical',
+         'new metical',
+         'MZN'),
+   target('mzn__sys'),
+   target_label('MZN')
+);

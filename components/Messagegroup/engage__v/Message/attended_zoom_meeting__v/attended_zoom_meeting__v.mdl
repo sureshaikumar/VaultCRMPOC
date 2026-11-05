@@ -1,0 +1,6 @@
+Message attended_zoom_meeting__v (
+   label(),
+   active(true),
+   default_value('Attended Zoom Meeting'),
+   system_managed(false)
+);

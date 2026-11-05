@@ -1,0 +1,6 @@
+Picklistentry mt-38__v (
+   value('Naxxar'),
+   order(3144),
+   active(true),
+   controlling_entries('mt__v')
+);

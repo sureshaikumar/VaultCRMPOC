@@ -1,0 +1,10 @@
+RECREATE Picklist analytics_markets_time_scales__v (
+   label('Time Scales'),
+   active(true),
+   Picklistentry(@Picklistentry/day__v.mdl),
+   Picklistentry(@Picklistentry/week__v.mdl),
+   Picklistentry(@Picklistentry/month__v.mdl),
+   Picklistentry(@Picklistentry/quarter__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

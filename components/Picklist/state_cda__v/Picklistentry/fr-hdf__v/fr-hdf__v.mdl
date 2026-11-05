@@ -1,0 +1,6 @@
+Picklistentry fr-hdf__v (
+   value('Hauts-de-France'),
+   order(1426),
+   active(true),
+   controlling_entries('fr__v')
+);

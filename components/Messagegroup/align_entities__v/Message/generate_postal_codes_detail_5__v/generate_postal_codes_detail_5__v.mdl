@@ -1,0 +1,6 @@
+Message generate_postal_codes_detail_5__v (
+   label(),
+   active(true),
+   default_value('All Geography Territory records in Align will remain and will not be modified.'),
+   system_managed(false)
+);

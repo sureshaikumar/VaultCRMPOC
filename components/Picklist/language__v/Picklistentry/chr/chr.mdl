@@ -1,0 +1,5 @@
+Picklistentry chr (
+   value('Cherokee'),
+   order(151),
+   active(true)
+);

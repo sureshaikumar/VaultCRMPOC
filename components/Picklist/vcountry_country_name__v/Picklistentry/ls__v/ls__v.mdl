@@ -1,0 +1,5 @@
+Picklistentry ls__v (
+   value('Lesotho'),
+   order(132),
+   active(true)
+);

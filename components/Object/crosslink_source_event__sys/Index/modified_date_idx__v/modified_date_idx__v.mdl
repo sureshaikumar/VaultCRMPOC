@@ -1,0 +1,6 @@
+Index modified_date_idx__v (
+   description(),
+   fields('modified_date__v',
+         'crosslink_vault_id__v'),
+   label('Modified date by Vault Id')
+);

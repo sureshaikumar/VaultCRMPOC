@@ -1,0 +1,6 @@
+Message unmute__v (
+   label(),
+   active(true),
+   default_value('Unmute'),
+   system_managed(false)
+);

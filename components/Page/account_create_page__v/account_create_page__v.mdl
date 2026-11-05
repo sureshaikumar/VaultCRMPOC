@@ -1,0 +1,14 @@
+RECREATE Page account_create_page__v (
+   label('Account Create App Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('account_create_page__v'),
+   description('Account Create App Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.accountmanagement.controls.page.AccountCreatePageController'),
+   url_path_name('account-create')
+);

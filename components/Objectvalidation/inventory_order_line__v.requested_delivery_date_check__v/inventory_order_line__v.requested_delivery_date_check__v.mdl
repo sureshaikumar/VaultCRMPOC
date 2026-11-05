@@ -1,0 +1,8 @@
+RECREATE Objectvalidation inventory_order_line__v.requested_delivery_date_check__v (
+   label('Requested Delivery Date Check'),
+   active(true),
+   expression('IsBlank(requested_delivery_date__v) || requested_delivery_date__v >= inventory_order_header__vr.order_create_date__v'),
+   description('This validation rule enforces that the requested delivery date is not before the order create date.'),
+   error_message('Delivery date cannot be before the order create date'),
+   error_location('requested_delivery_date__v')
+);

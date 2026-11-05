@@ -1,0 +1,8 @@
+RECREATE Tab dashboards__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Legacy Dashboards'),
+   order(3100),
+   parent()
+);

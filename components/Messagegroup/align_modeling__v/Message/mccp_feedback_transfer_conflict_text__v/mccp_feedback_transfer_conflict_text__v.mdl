@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_conflict_text__v (
+   label(),
+   active(true),
+   default_value('The following products cannot be transferred: ${products}. Transfer requests already exist for yourself or the other user.'),
+   system_managed(false)
+);

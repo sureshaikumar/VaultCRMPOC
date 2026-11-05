@@ -1,0 +1,6 @@
+Picklistentry tr-55__v (
+   value('Samsun'),
+   order(4513),
+   active(true),
+   controlling_entries('tr__v')
+);

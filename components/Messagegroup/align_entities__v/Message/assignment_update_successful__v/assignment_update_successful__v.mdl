@@ -1,0 +1,6 @@
+Message assignment_update_successful__v (
+   label(),
+   active(true),
+   default_value('Assignments updated for ${entity_name}'),
+   system_managed(false)
+);

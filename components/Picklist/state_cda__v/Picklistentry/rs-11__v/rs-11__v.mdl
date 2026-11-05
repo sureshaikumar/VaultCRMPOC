@@ -1,0 +1,6 @@
+Picklistentry rs-11__v (
+   value('Braničevski okrug'),
+   order(3769),
+   active(true),
+   controlling_entries('rs__v')
+);

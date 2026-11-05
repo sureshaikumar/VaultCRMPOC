@@ -1,0 +1,6 @@
+Message general_settings__v (
+   label(),
+   active(true),
+   default_value('General Settings'),
+   system_managed(false)
+);

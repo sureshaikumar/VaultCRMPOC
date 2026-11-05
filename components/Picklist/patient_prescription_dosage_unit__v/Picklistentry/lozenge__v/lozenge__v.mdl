@@ -1,0 +1,5 @@
+Picklistentry lozenge__v (
+   value('Lozenge'),
+   order(7),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry anxfe__v (
+   value('Andrology / Male Fertility'),
+   order(65),
+   active(true),
+   controlling_entries('qa__v')
+);

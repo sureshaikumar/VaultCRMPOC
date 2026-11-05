@@ -1,0 +1,6 @@
+Picklistentry si-151__v (
+   value('Braslovče'),
+   order(4124),
+   active(true),
+   controlling_entries('si__v')
+);

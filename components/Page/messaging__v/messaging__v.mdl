@@ -1,0 +1,14 @@
+RECREATE Page messaging__v (
+   label('Messaging'),
+   active(true),
+   client_distribution(),
+   default_client_code('messaging__v'),
+   description('Messaging Administration'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.engage.controls.page.MessagingAdminPageController'),
+   url_path_name('messaging')
+);

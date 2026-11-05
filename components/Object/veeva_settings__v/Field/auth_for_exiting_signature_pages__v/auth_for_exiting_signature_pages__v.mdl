@@ -1,0 +1,18 @@
+Field auth_for_exiting_signature_pages__v (
+   label('Auth for Exiting Signature Pages'),
+   type('Picklist'),
+   active(true),
+   description('Field to enable additional authentication when exiting signature pages on the iPad.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(340),
+   multi_value(false),
+   picklist('Picklist.auth_for_exiting_signature_pages__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

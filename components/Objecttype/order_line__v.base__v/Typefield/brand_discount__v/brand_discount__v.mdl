@@ -1,0 +1,4 @@
+Typefield brand_discount__v (
+   source('standard'),
+   required(false)
+);

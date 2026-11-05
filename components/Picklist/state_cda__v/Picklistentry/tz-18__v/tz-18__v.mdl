@@ -1,0 +1,6 @@
+Picklistentry tz-18__v (
+   value('Mwanza'),
+   order(4602),
+   active(true),
+   controlling_entries('tz__v')
+);

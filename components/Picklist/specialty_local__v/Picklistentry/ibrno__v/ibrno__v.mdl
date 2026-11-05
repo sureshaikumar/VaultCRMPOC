@@ -1,0 +1,6 @@
+Picklistentry ibrno__v (
+   value('Interventional Body Radiology'),
+   order(820),
+   active(true),
+   controlling_entries('th__v')
+);

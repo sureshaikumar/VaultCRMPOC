@@ -1,0 +1,6 @@
+Picklistentry bs-mc__v (
+   value('Mangrove Cay'),
+   order(495),
+   active(true),
+   controlling_entries('bs__v')
+);

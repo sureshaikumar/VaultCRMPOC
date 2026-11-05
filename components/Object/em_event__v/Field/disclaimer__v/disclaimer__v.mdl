@@ -1,0 +1,19 @@
+Field disclaimer__v (
+   label('Disclaimer'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(110),
+   help_content('Veeva Message name of the disclaimer text that is displayed on the Sign-In Sheet page during signature capture.'),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

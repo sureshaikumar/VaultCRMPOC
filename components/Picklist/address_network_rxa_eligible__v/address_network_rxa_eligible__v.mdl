@@ -1,0 +1,8 @@
+RECREATE Picklist address_network_rxa_eligible__v (
+   label('Network RXA Eligible'),
+   active(true),
+   Picklistentry(@Picklistentry/eligible__v.mdl),
+   Picklistentry(@Picklistentry/ineligible__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

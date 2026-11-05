@@ -1,0 +1,5 @@
+Picklistentry no_longer_at_location__v (
+   value('No Longer at Location'),
+   order(4),
+   active(true)
+);

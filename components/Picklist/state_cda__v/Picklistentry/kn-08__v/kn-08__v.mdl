@@ -1,0 +1,6 @@
+Picklistentry kn-08__v (
+   value('Saint Mary Cayon'),
+   order(2448),
+   active(true),
+   controlling_entries('kn__v')
+);

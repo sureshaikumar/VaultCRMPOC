@@ -1,0 +1,5 @@
+Index component_type__sys (
+   description(),
+   fields('component_type__v'),
+   label('Component Type')
+);

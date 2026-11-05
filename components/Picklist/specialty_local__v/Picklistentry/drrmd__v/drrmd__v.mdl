@@ -1,0 +1,6 @@
+Picklistentry drrmd__v (
+   value('Dentistry Radiology Radiopathology Medicine Dental'),
+   order(382),
+   active(true),
+   controlling_entries('id__v')
+);

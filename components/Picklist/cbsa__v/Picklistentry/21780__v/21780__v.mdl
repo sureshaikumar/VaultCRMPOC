@@ -1,0 +1,5 @@
+Picklistentry 21780__v (
+   value('Evansville, IN-KY Metropolitan Statistical Area'),
+   order(106),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry paanf__v (
+   value('Pediatric and Adolescent Neurology'),
+   order(1326),
+   active(true),
+   controlling_entries('se__v')
+);

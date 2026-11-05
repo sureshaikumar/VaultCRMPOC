@@ -1,0 +1,6 @@
+Picklistentry gt-03__v (
+   value('Sacatepéquez'),
+   order(1782),
+   active(true),
+   controlling_entries('gt__v')
+);

@@ -1,0 +1,4 @@
+Sharingrole viewer__v (
+   members('Group.test_group__c',
+         'User.mike.ross@sb-accenture.com')
+);

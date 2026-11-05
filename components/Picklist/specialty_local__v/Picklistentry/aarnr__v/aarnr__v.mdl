@@ -1,0 +1,8 @@
+Picklistentry aarnr__v (
+   value('Anesthesiology and Resuscitation'),
+   order(87),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v',
+         'kg__v')
+);

@@ -1,0 +1,9 @@
+Vsmvalue clp__v (
+   label('CLP'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Chile.'),
+   synonyms('Chilean Peso',
+         'Chile Peso'),
+   target('clp__sys'),
+   target_label('CLP')
+);

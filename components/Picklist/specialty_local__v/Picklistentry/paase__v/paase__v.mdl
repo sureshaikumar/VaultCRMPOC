@@ -1,0 +1,8 @@
+Picklistentry paase__v (
+   value('Pediatric and Adolescent Surgery'),
+   order(1331),
+   active(true),
+   controlling_entries('at__v',
+         'de__v',
+         'se__v')
+);

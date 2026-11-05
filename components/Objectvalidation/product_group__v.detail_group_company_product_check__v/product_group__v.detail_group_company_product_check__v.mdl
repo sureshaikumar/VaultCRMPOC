@@ -1,0 +1,18 @@
+RECREATE Objectvalidation product_group__v.detail_group_company_product_check__v (
+   label('Detail_Group_Company_Product_Check'),
+   active(true),
+   expression('not(
+            if(
+                product_catalog__vr.product_type__v = ''detail_group__v'',
+                if(
+                    product__vr.company_product__v,
+                    if(product_catalog__vr.company_product__v , false , true),
+                    false
+                ),
+                false
+            )
+        )'),
+   description('Verify that non-company product detail groups are not linked to company product detail products or topics'),
+   error_message('You cannot link a Detail Group that is not a Company Product to a Detail Product or Topic that is a Company Product.'),
+   error_location('product__v')
+);

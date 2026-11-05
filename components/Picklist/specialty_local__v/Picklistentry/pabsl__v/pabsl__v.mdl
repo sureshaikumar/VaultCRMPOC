@@ -1,0 +1,7 @@
+Picklistentry pabsl__v (
+   value('Plastic and Burn Surgery'),
+   order(1564),
+   active(true),
+   controlling_entries('eg__v',
+         'hu__v')
+);

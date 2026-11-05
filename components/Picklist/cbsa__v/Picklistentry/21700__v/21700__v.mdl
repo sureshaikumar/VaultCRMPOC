@@ -1,0 +1,5 @@
+Picklistentry 21700__v (
+   value('Eureka-Arcata-Fortuna, CA Micropolitan Statistical Area'),
+   order(803),
+   active(true)
+);

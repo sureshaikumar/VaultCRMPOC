@@ -1,0 +1,6 @@
+Picklistentry ao-cab__v (
+   value('Cabinda'),
+   order(82),
+   active(true),
+   controlling_entries('ao__v')
+);

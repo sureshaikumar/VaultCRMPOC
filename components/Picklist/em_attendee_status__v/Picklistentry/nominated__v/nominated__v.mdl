@@ -1,0 +1,5 @@
+Picklistentry nominated__v (
+   value('Nominated'),
+   order(0),
+   active(true)
+);

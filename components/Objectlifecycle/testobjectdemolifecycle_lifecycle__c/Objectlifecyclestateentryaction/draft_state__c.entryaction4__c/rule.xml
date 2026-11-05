@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.test_object__c.test_type__c</targetField>
+            <expression>'type_2__c'</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+        <action type="platform.all.updateRecordAction">
+            <targetField>Object.test_object__c.test_validation__c</targetField>
+            <expression>'test22'</expression>
+            <updateType>formula_builder</updateType>
+        </action>
+    </actions>
+</rule>

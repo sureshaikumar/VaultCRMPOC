@@ -1,0 +1,6 @@
+Picklistentry si-181__v (
+   value('Sveta Ana'),
+   order(4154),
+   active(true),
+   controlling_entries('si__v')
+);

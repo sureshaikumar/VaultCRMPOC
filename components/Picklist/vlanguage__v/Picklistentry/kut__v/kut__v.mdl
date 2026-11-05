@@ -1,0 +1,5 @@
+Picklistentry kut__v (
+   value('Kutenai'),
+   order(180),
+   active(false)
+);

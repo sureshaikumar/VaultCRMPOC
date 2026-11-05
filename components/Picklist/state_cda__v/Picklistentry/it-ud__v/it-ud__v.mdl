@@ -1,0 +1,6 @@
+Picklistentry it-ud__v (
+   value('Udine'),
+   order(2272),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,4 @@
+Typefield vmi_entities__v (
+   source('standard'),
+   required(false)
+);

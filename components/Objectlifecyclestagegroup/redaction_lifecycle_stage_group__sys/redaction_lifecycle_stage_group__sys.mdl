@@ -1,0 +1,10 @@
+RECREATE Objectlifecyclestagegroup redaction_lifecycle_stage_group__sys (
+   label('Redaction Lifecycle Stage Group'),
+   active(true),
+   description(),
+   object_lifecycle('Objectlifecycle.redaction_lifecycle__sys'),
+   object_type('Objecttype.redaction__sys.base__v'),
+   Objectlifecyclestage(@Objectlifecyclestage/complete__sys.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/generating_redacted_copy__sys.mdl),
+   Objectlifecyclestage(@Objectlifecyclestage/redacting_source__sys.mdl)
+);

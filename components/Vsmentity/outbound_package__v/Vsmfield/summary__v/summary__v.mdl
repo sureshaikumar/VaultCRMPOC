@@ -1,0 +1,14 @@
+Vsmfield summary__v (
+   label('Summary'),
+   active(true),
+   description('Brief summary or headline describing the outbound package at a high level. Typically used as the primary human-readable label for the package when browsing or searching, complementing the more detailed description__v field.'),
+   example_values(),
+   synonyms('title',
+         'short description',
+         'overview',
+         'package summary'),
+   target('summary__v'),
+   target_label('Summary'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Message chart_budget_label__v (
+   label(),
+   active(true),
+   default_value('Budget · ${budget}'),
+   system_managed(false)
+);

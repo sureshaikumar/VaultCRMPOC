@@ -1,0 +1,6 @@
+Picklistentry fmact__v (
+   value('Forensic Medicine and Clinical Toxicology'),
+   order(554),
+   active(true),
+   controlling_entries('kw__v')
+);

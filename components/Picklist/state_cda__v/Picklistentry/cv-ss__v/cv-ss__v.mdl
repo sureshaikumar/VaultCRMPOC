@@ -1,0 +1,6 @@
+Picklistentry cv-ss__v (
+   value('São Salvador do Mundo'),
+   order(803),
+   active(true),
+   controlling_entries('cv__v')
+);

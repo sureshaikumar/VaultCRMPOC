@@ -1,0 +1,6 @@
+Message crm_integration_picklist_api_name_size__v (
+   label(),
+   active(true),
+   default_value('The length of the CRM Picklist Value API Name (${ValueAPIName}) is larger than 40 characters.'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field enable_share_target_requests__v (
+   label('Enable Share Target Requests'),
+   type('Boolean'),
+   active(true),
+   description('Enables users to raise requests to share targets with one-another during feedback'),
+   required(false),
+   checkbox(false),
+   help_content('Enables users to raise requests to share targets with one-another during feedback'),
+   list_column(false),
+   order(37),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

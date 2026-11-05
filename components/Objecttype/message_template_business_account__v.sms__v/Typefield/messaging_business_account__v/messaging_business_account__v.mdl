@@ -1,0 +1,4 @@
+Typefield messaging_business_account__v (
+   source('custom'),
+   required(false)
+);

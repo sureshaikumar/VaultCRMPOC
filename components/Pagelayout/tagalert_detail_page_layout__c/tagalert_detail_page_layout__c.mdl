@@ -1,0 +1,8 @@
+RECREATE Pagelayout tagalert_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description('Page layout to create Tag Alert Number used in Cold Chain Sampling.'),
+   display_lifecycle_stages(false),
+   label('TagAlert Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

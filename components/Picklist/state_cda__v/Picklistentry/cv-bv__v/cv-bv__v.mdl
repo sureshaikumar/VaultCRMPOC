@@ -1,0 +1,6 @@
+Picklistentry cv-bv__v (
+   value('Boa Vista'),
+   order(785),
+   active(true),
+   controlling_entries('cv__v')
+);

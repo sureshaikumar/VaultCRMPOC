@@ -1,0 +1,6 @@
+Picklistentry paacm__v (
+   value('Pathological Anatomy and Clinical Morphology'),
+   order(1291),
+   active(true),
+   controlling_entries('am__v')
+);

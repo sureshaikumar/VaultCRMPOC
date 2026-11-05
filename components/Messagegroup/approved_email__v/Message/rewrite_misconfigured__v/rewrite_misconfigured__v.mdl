@@ -1,0 +1,6 @@
+Message rewrite_misconfigured__v (
+   label(),
+   active(true),
+   default_value('AI Rewrite token misconfigured.'),
+   system_managed(false)
+);

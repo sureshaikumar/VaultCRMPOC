@@ -1,0 +1,6 @@
+Picklistentry mn-055__v (
+   value('Övörhangay'),
+   order(3080),
+   active(true),
+   controlling_entries('mn__v')
+);

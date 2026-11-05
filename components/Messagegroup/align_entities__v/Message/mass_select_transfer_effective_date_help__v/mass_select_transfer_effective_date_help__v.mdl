@@ -1,0 +1,6 @@
+Message mass_select_transfer_effective_date_help__v (
+   label(),
+   active(true),
+   default_value('The Effective Date is the date at which this entity will be transferred from its old {0} to the new {0}'),
+   system_managed(false)
+);

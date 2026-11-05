@@ -1,0 +1,6 @@
+Message zoom_in__v (
+   label(),
+   active(true),
+   default_value('Zoom in'),
+   system_managed(false)
+);

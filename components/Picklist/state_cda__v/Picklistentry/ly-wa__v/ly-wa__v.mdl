@@ -1,0 +1,6 @@
+Picklistentry ly-wa__v (
+   value('Al Wāḩāt'),
+   order(2762),
+   active(true),
+   controlling_entries('ly__v')
+);

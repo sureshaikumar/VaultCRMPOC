@@ -1,0 +1,6 @@
+Picklistentry omxsu__v (
+   value('Oral Maxillofacial Surgery'),
+   order(1171),
+   active(true),
+   controlling_entries('ae__v')
+);

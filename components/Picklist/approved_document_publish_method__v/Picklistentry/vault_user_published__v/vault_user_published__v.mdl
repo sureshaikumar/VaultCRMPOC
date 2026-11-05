@@ -1,0 +1,5 @@
+Picklistentry vault_user_published__v (
+   value('Vault User Published'),
+   order(1),
+   active(true)
+);

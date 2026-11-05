@@ -1,0 +1,25 @@
+RECREATE Notificationtemplate deepcopyfailure16__v (
+   label('DeepCopyFailure'),
+   active(true),
+   description('Deep copy v16 failure Notifications template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Copy Job Terminated Unexpectedly
+
+'),
+   notification('<p> Your Copy Record job has terminated unexpectedly </p>
+<p> Details </p>
+<ul>
+<li> <li> Hierarchical copy for ${objectName} - &quot;${recordName}&quot; ended unexpectedly. Some records were copied but not all records in the hierarchy were copied <br>
+${objectHierarchy} </li>
+<li> Start Time: ${startTime} </li>
+<li> Duration : ${duration} </li>
+<li> ${failureCountLink} </li>
+<li> ${successCountLink} </li>
+</ul>
+'),
+   email_body('${notificationMessage}
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

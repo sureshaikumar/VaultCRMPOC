@@ -1,0 +1,6 @@
+Picklistentry az-gyg__v (
+   value('Göygöl'),
+   order(160),
+   active(true),
+   controlling_entries('az__v')
+);

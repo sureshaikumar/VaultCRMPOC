@@ -1,0 +1,6 @@
+Message limit_one_field_force_settings__v (
+   label(),
+   active(true),
+   default_value('Only one field force setting can be active for this field force.'),
+   system_managed(false)
+);

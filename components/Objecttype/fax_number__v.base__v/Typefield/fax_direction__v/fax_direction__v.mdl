@@ -1,0 +1,4 @@
+Typefield fax_direction__v (
+   source('standard'),
+   required(false)
+);

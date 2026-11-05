@@ -1,0 +1,19 @@
+Field photo_upload_status_details__v (
+   label('Photo Upload Status Details'),
+   type('String'),
+   active(true),
+   description('Captures the reasons for instances when photo publishing is not completed successfully'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(true),
+   order(38),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

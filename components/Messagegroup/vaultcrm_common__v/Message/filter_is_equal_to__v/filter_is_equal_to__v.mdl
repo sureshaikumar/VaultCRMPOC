@@ -1,0 +1,6 @@
+Message filter_is_equal_to__v (
+   label(),
+   active(true),
+   default_value('is equal to'),
+   system_managed(false)
+);

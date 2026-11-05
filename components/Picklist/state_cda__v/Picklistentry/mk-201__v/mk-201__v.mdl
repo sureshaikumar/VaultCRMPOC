@@ -1,0 +1,6 @@
+Picklistentry mk-201__v (
+   value('Berovo'),
+   order(2973),
+   active(true),
+   controlling_entries('mk__v')
+);

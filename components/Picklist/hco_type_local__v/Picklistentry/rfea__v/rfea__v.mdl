@@ -1,0 +1,5 @@
+Picklistentry rfea__v (
+   value('Residential Facility'),
+   order(228),
+   active(true)
+);

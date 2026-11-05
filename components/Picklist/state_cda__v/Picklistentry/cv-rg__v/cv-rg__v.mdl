@@ -1,0 +1,6 @@
+Picklistentry cv-rg__v (
+   value('Ribeira Grande'),
+   order(795),
+   active(true),
+   controlling_entries('cv__v')
+);

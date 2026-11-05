@@ -1,0 +1,5 @@
+Picklistentry ms_teams__v (
+   value('MS Teams'),
+   order(0),
+   active(true)
+);

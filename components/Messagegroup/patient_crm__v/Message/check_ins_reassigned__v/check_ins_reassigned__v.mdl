@@ -1,0 +1,6 @@
+Message check_ins_reassigned__v (
+   label(),
+   active(true),
+   default_value('Check-Ins Reassigned'),
+   system_managed(false)
+);

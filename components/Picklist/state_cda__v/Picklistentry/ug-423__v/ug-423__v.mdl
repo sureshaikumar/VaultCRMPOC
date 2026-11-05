@@ -1,0 +1,6 @@
+Picklistentry ug-423__v (
+   value('Mitooma'),
+   order(4765),
+   active(true),
+   controlling_entries('ug__v')
+);

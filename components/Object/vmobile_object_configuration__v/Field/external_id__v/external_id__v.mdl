@@ -1,0 +1,19 @@
+Field external_id__v (
+   label('External ID'),
+   type('String'),
+   active(true),
+   description('This is an out of the box External Id field provided. There is no logic associated with how this gets populated. This field if used will have to be populated by the implementation team.  This field will be used for data loading.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

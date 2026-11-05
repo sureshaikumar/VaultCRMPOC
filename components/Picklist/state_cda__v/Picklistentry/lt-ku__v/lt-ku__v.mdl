@@ -1,0 +1,6 @@
+Picklistentry lt-ku__v (
+   value('Kaunas County'),
+   order(2681),
+   active(true),
+   controlling_entries('lt__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry shn (
+   value('Shan'),
+   order(299),
+   active(true)
+);

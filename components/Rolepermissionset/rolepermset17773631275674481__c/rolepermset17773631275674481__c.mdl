@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17773631275674481__c (
+   label('CEE Sales Manager'),
+   active(true),
+   application_role('cee_sales_manager__c'),
+   permission_sets('Permissionset.base_vault_crm__v')
+);

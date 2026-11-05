@@ -1,0 +1,6 @@
+Message rule_competed_terr_sub__v (
+   label(),
+   active(true),
+   default_value('Account Assignment Preview calculation completed for {0} and subordinate territories'),
+   system_managed(false)
+);

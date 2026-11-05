@@ -1,0 +1,5 @@
+Picklistentry basf__v (
+   value('BASF'),
+   order(7),
+   active(true)
+);

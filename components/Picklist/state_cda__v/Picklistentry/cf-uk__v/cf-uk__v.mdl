@@ -1,0 +1,6 @@
+Picklistentry cf-uk__v (
+   value('Ouaka'),
+   order(613),
+   active(true),
+   controlling_entries('cf__v')
+);

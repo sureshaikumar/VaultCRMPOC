@@ -1,0 +1,8 @@
+RECREATE Vaulttoken vault_name__sys (
+   label('Vault Name'),
+   active(true),
+   clone_behavior('clear__sys'),
+   system_managed(false),
+   type('string__sys'),
+   value('Accenture - Vault CRM')
+);

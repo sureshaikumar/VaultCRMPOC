@@ -1,0 +1,6 @@
+Message import_drag_drop__v (
+   label(),
+   active(true),
+   default_value('Drag and drop file to import here'),
+   system_managed(false)
+);

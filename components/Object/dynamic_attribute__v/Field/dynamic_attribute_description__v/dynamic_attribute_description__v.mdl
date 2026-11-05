@@ -1,0 +1,17 @@
+Field dynamic_attribute_description__v (
+   label('Dynamic Attribute Description'),
+   type('LongText'),
+   active(true),
+   description('This field holds a copy of the Dynamic Attribute Description at the time in which the value was entered (for reporting purposes).'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

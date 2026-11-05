@@ -1,0 +1,5 @@
+Picklistentry fo__v (
+   value('Faroe Islands'),
+   order(73),
+   active(true)
+);

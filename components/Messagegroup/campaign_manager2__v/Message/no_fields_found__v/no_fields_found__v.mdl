@@ -1,0 +1,6 @@
+Message no_fields_found__v (
+   label(),
+   active(true),
+   default_value('No fields found'),
+   system_managed(false)
+);

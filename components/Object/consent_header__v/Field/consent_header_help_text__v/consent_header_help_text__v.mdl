@@ -1,0 +1,19 @@
+Field consent_header_help_text__v (
+   label('Consent Header Help Text'),
+   type('String'),
+   active(true),
+   description('Field where content admin can add text that helps User better understand how to use consent capture page.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

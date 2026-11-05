@@ -1,0 +1,6 @@
+Picklistentry gb-wok__v (
+   value('Wokingham'),
+   order(1660),
+   active(true),
+   controlling_entries('gb__v')
+);

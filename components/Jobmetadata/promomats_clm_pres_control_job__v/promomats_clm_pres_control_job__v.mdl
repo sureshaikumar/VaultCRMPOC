@@ -1,0 +1,12 @@
+RECREATE Jobmetadata promomats_clm_pres_control_job__v (
+   label('PromoMats to CRM CLM Presentation Inbound Control Job'),
+   active(true),
+   chunk_size(1),
+   description('A job to handle CLM Integration Presentation to ensure proper order between jobs'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clmintegration.jobs.promomats.PromoMatsClmPresentationIntegrationInboundControlJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

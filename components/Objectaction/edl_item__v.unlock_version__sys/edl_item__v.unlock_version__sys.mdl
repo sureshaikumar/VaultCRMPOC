@@ -1,0 +1,8 @@
+RECREATE Objectaction edl_item__v.unlock_version__sys (
+   label('Unlock Version'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.edlitem.match.UnlockVersionAction'),
+   active(true),
+   available_all_states(true)
+);

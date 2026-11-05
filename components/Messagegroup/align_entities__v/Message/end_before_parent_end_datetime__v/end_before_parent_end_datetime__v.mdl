@@ -1,0 +1,6 @@
+Message end_before_parent_end_datetime__v (
+   label(),
+   active(true),
+   default_value('End Datetime cannot be after parent record''s End Datetime.'),
+   system_managed(false)
+);

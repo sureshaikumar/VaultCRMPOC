@@ -1,0 +1,17 @@
+Field expiration_date__v (
+   label('Expiration Date'),
+   type('Date'),
+   active(true),
+   description('Expiration Date is the Expiration Date for the Lot Catalog.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

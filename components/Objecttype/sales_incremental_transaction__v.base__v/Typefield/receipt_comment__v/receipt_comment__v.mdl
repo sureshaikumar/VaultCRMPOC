@@ -1,0 +1,4 @@
+Typefield receipt_comment__v (
+   source('standard'),
+   required(false)
+);

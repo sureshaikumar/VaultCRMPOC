@@ -1,0 +1,5 @@
+Picklistentry america_yakutat__sys (
+   value('(GMT-09:00) Alaska Standard Time (America/Yakutat)'),
+   order(12),
+   active(true)
+);

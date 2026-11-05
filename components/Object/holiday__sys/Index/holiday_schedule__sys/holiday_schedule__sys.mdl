@@ -1,0 +1,5 @@
+Index holiday_schedule__sys (
+   description(),
+   fields('holiday_schedule__sys'),
+   label('Holiday Schedule')
+);

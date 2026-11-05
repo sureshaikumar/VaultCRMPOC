@@ -1,0 +1,9 @@
+RECREATE Picklist multichannel_consent_opt_type__v (
+   label('Opt Type'),
+   active(true),
+   Picklistentry(@Picklistentry/opt_in__v.mdl),
+   Picklistentry(@Picklistentry/opt_out__v.mdl),
+   Picklistentry(@Picklistentry/opt_in_pending__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

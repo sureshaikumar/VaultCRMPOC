@@ -1,0 +1,20 @@
+RECREATE Securityprofile cee_primary_care_sales__c (
+   label('CEE Primary Care Sales'),
+   active(true),
+   description('Security profile for CEE Primary Care Sales Group.'),
+   permission_sets('base_vault_crm__v',
+      'ceevmobile_object_configurations__c',
+      'cee_account_mgmt_end_user_permissions__c',
+      'cee_ai_end_user_permissions__c',
+      'cee_approved_email_end_user_permission__c',
+      'cee_call_reporting_end_user_permission__c',
+      'cee_clm_end_user_permissions__c',
+      'cee_consent_end_user__c',
+      'cee_event_management_end_user_permissi__c',
+      'cee_homepage_allusers_permission__c',
+      'cee_product_mgmt_end_user_permissions__c',
+      'cee_suggestions_end_user_permissions__c',
+      'cee_survey_management_end_user_permiss__c',
+      'cee_territory_end_user_permission__c',
+      'cee_x_pages_permission__c')
+);

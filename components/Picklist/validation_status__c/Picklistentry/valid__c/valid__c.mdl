@@ -1,0 +1,5 @@
+Picklistentry valid__c (
+   value('valid'),
+   order(0),
+   active(true)
+);

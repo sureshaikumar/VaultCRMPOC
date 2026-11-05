@@ -1,0 +1,5 @@
+Picklistentry brc__v (
+   value('BRC'),
+   order(8),
+   active(true)
+);

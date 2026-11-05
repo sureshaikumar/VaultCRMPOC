@@ -1,0 +1,13 @@
+Vsmfield veeva_id__v (
+   label('Veeva ID'),
+   active(true),
+   description('Global ID for the person across Veeva systems, used when a Person is linked to OpenData Clinical. Use this to identify individuals linked to OpenData.'),
+   example_values(),
+   synonyms('Veeva identifier',
+         'VID',
+         'external ID'),
+   target('veeva_id__sys'),
+   target_label('Veeva ID'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

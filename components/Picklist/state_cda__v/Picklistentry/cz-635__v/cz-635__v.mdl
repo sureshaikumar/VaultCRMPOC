@@ -1,0 +1,6 @@
+Picklistentry cz-635__v (
+   value('Žďár nad Sázavou'),
+   order(876),
+   active(true),
+   controlling_entries('cz__v')
+);

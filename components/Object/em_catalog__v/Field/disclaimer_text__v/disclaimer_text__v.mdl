@@ -1,0 +1,19 @@
+Field disclaimer_text__v (
+   label('Disclaimer Text'),
+   type('String'),
+   active(true),
+   description('This setting points to a Veeva Message text that is displayed when a user is registering. The format for this setting should be MESSAGE_NAME;;Category for the Veeva Message to be used.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

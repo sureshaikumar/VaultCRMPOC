@@ -1,0 +1,4 @@
+Typefield offerings__c (
+   source('custom'),
+   required(false)
+);

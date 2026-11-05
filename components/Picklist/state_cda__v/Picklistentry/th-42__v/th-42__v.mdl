@@ -1,0 +1,6 @@
+Picklistentry th-42__v (
+   value('Loei'),
+   order(4358),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry kn-01__v (
+   value('Christ Church Nichola Town'),
+   order(2441),
+   active(true),
+   controlling_entries('kn__v')
+);

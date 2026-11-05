@@ -1,0 +1,6 @@
+Message rename_chat__v (
+   label(),
+   active(true),
+   default_value('Rename'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message ineligible_targets__v (
+   label(),
+   active(true),
+   default_value('Ineligible Targets'),
+   system_managed(false)
+);

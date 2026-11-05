@@ -1,0 +1,6 @@
+Message recon_merge_confirm_body2__v (
+   label(),
+   active(true),
+   default_value('Select continue to merge data from the walk-in to the existing ${event_object_name} record. You''ll receive a notification when the process is completed. This action cannot be undone.'),
+   system_managed(false)
+);

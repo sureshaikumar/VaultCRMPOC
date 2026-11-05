@@ -1,0 +1,5 @@
+Picklistentry 26780__v (
+   value('Hutchinson, MN Micropolitan Statistical Area'),
+   order(840),
+   active(true)
+);

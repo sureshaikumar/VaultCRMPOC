@@ -1,0 +1,6 @@
+Message cant_modify_rule_type__v (
+   label(),
+   active(true),
+   default_value('Rule cannot be converted to a different rule type.'),
+   system_managed(false)
+);

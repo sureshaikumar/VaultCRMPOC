@@ -1,0 +1,5 @@
+Picklistentry scheduled__v (
+   value('Scheduled'),
+   order(0),
+   active(true)
+);

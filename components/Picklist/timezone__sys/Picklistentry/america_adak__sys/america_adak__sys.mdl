@@ -1,0 +1,5 @@
+Picklistentry america_adak__sys (
+   value('(GMT-10:00) Hawaii Standard Time (America/Adak)'),
+   order(3),
+   active(true)
+);

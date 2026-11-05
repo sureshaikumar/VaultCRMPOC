@@ -1,0 +1,6 @@
+Picklistentry tl-an__v (
+   value('Ainaro'),
+   order(4412),
+   active(true),
+   controlling_entries('tl__v')
+);

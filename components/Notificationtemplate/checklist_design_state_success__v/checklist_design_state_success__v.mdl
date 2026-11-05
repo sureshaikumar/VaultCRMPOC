@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate checklist_design_state_success__v (
+   label('Sync Checklist Design Lifecycle State Success'),
+   active(true),
+   description('Notification template notifying user that Checklist Design Lifecycle State sync was successful'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Checklist Design Lifecycle State Synced Successfully for ${checklist_design__sys_name}'),
+   notification('Checklist Design record <a href="${urlSourceChecklistDesign}">${checklist_design__sys_name}</a> and all related records are now in the ${checklist_design__sys_state} state.'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,3 @@
+Typeaction manage_sharing_settings__sys (
+   action('sample_lot_item__v.manage_sharing_settings__sys')
+);

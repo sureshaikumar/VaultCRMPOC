@@ -1,0 +1,6 @@
+Message medical_inquiry_submit_confirm_body__v (
+   label(),
+   active(true),
+   default_value('Selecting Continue will Submit the record.'),
+   system_managed(false)
+);

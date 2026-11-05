@@ -1,0 +1,6 @@
+Picklistentry gb-ktt__v (
+   value('Kingston Upon Thames'),
+   order(1549),
+   active(true),
+   controlling_entries('gb__v')
+);

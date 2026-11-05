@@ -1,0 +1,13 @@
+Vsmfield app_key__v (
+   label('Application'),
+   active(true),
+   description('Unique string identifier for the application associated with this inbound package. Used to trace which application a package belongs to and to filter packages by application.'),
+   example_values(),
+   synonyms('app identifier',
+         'application key',
+         'app ID'),
+   target('app_key__v'),
+   target_label('Application'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

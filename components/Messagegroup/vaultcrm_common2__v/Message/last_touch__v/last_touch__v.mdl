@@ -1,0 +1,6 @@
+Message last_touch__v (
+   label(),
+   active(true),
+   default_value('LTC'),
+   system_managed(false)
+);

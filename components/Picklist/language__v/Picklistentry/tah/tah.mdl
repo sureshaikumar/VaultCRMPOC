@@ -1,0 +1,5 @@
+Picklistentry tah (
+   value('Tahitian'),
+   order(317),
+   active(true)
+);

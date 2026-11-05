@@ -1,0 +1,5 @@
+Picklistentry 49420__v (
+   value('Yakima, WA Metropolitan Statistical Area'),
+   order(608),
+   active(true)
+);

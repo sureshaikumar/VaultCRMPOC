@@ -1,0 +1,6 @@
+Message resume_recording__v (
+   label(),
+   active(true),
+   default_value('Resume Recording'),
+   system_managed(false)
+);

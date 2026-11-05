@@ -1,0 +1,9 @@
+RECREATE Picklist analytics_files_formulary_for_rep_label__v (
+   label('Formulary for Rep Label'),
+   active(true),
+   Picklistentry(@Picklistentry/none__v.mdl),
+   Picklistentry(@Picklistentry/first_column_label__v.mdl),
+   Picklistentry(@Picklistentry/second_column_label__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

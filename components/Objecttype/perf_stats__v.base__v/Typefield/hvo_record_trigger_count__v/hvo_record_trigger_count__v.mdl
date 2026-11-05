@@ -1,0 +1,4 @@
+Typefield hvo_record_trigger_count__v (
+   source('standard'),
+   required(false)
+);

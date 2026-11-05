@@ -1,0 +1,6 @@
+Message rule_preview_discarded_notif_header__v (
+   label(),
+   active(true),
+   default_value('Preview Discarded'),
+   system_managed(false)
+);

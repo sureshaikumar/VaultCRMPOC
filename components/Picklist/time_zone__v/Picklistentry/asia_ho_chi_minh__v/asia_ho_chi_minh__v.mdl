@@ -1,0 +1,5 @@
+Picklistentry asia_ho_chi_minh__v (
+   value('Indochina Time (Ho Chi Minh)'),
+   order(24),
+   active(true)
+);

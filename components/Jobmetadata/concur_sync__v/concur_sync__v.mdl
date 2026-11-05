@@ -1,0 +1,10 @@
+RECREATE Jobmetadata concur_sync__v (
+   label('Concur Sync'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to sync call and medical event expenses to Concur.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.concurintegration.jobs.ConcurSyncJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

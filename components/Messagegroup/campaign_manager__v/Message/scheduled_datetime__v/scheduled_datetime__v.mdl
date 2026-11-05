@@ -1,0 +1,6 @@
+Message scheduled_datetime__v (
+   label(),
+   active(true),
+   default_value('${selected_date} at ${selected_time}'),
+   system_managed(false)
+);

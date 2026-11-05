@@ -1,0 +1,6 @@
+Message attendees_direct_remote_meeting_link__v (
+   label(),
+   active(true),
+   default_value('Attendees can also go directly to veev.io/meet and enter their meeting ID and password'),
+   system_managed(false)
+);

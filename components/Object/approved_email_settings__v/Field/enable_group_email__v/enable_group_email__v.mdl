@@ -1,0 +1,24 @@
+Field enable_group_email__v (
+   label('Enable Group Email'),
+   type('Number'),
+   active(true),
+   description('0 = Feature Disabled
+1 = Feature Enabled'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(25),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

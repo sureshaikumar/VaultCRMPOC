@@ -1,0 +1,6 @@
+Picklistentry cy-06__v (
+   value('Keryneia'),
+   order(812),
+   active(true),
+   controlling_entries('cy__v')
+);

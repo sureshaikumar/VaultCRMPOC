@@ -1,0 +1,8 @@
+Tabcollectionitem my_setup1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(20),
+   tab('Tab.my_setup__v'),
+   type('Tab')
+);

@@ -1,0 +1,5 @@
+Picklistentry europe_amsterdam__v (
+   value('Europe/Amsterdam'),
+   order(30),
+   active(true)
+);

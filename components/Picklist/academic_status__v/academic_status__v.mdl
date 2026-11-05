@@ -1,0 +1,10 @@
+RECREATE Picklist academic_status__v (
+   label('Academic Status'),
+   active(true),
+   Picklistentry(@Picklistentry/acad__v.mdl),
+   Picklistentry(@Picklistentry/comm__v.mdl),
+   Picklistentry(@Picklistentry/nappl__v.mdl),
+   Picklistentry(@Picklistentry/both__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

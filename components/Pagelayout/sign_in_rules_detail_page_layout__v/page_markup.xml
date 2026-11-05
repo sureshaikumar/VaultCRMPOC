@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_event_rule__v.walk_in_fields__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="walk_in_fields__v" />
+            <vault:field reference="prescriber_walk_in_fields__v" />
+            <vault:field reference="non_prescriber_walk_in_fields__v" />
+            <vault:field reference="other_walk_in_fields__v" />
+            <vault:field reference="event_configuration__v" />
+            <vault:field reference="walk_in_attendee_statuses__v" />
+            <vault:field reference="qr_sign_in_enabled__v" />
+            <vault:field reference="disclaimer__v" />
+            <vault:field reference="country_override__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

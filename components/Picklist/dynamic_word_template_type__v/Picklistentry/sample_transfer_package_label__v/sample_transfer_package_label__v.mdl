@@ -1,0 +1,5 @@
+Picklistentry sample_transfer_package_label__v (
+   value('Sample Transfer Package Label'),
+   order(1),
+   active(true)
+);

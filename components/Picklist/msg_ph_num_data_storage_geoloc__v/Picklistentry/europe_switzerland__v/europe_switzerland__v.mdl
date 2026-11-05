@@ -1,0 +1,5 @@
+Picklistentry europe_switzerland__v (
+   value('Europe - Switzerland'),
+   order(7),
+   active(true)
+);

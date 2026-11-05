@@ -1,0 +1,5 @@
+Picklistentry excellent__c (
+   value('Excellent'),
+   order(0),
+   active(true)
+);

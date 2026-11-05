@@ -1,0 +1,6 @@
+Picklistentry th-22__v (
+   value('Chanthaburi'),
+   order(4340),
+   active(true),
+   controlling_entries('th__v')
+);

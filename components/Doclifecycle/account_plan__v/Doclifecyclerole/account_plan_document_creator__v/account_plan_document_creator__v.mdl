@@ -1,0 +1,8 @@
+Doclifecyclerole account_plan_document_creator__v (
+   label('Account Plan Document Creator'),
+   active(true),
+   description(''),
+   application_role('account_plan_template_creator__v'),
+   note_color(),
+   security_options(@security_options.xml)
+);

@@ -1,0 +1,6 @@
+Message rename_chat_subheader__v (
+   label(),
+   active(true),
+   default_value('Give the chat a descriptive name'),
+   system_managed(false)
+);

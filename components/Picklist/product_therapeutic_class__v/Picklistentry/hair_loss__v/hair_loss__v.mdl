@@ -1,0 +1,5 @@
+Picklistentry hair_loss__v (
+   value('Hair Loss'),
+   order(28),
+   active(true)
+);

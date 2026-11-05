@@ -1,0 +1,8 @@
+RECREATE Picklist column_type__v (
+   label('Column Type'),
+   active(true),
+   Picklistentry(@Picklistentry/editable__v.mdl),
+   Picklistentry(@Picklistentry/read_only__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

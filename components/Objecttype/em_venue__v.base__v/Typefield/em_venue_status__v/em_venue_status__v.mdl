@@ -1,0 +1,4 @@
+Typefield em_venue_status__v (
+   source('standard'),
+   required(false)
+);

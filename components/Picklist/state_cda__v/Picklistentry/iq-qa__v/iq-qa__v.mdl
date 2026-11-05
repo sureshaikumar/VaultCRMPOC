@@ -1,0 +1,6 @@
+Picklistentry iq-qa__v (
+   value('Al Qādisīyah'),
+   order(2048),
+   active(true),
+   controlling_entries('iq__v')
+);

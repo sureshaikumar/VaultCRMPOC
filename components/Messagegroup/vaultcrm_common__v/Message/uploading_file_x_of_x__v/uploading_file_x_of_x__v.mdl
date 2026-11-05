@@ -1,0 +1,6 @@
+Message uploading_file_x_of_x__v (
+   label(),
+   active(true),
+   default_value('Uploading file ${file_progress} of ${files_selected}...'),
+   system_managed(false)
+);

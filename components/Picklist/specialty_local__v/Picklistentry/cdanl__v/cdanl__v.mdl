@@ -1,0 +1,6 @@
+Picklistentry cdanl__v (
+   value('Clinical Dietetics and Nutrition'),
+   order(220),
+   active(true),
+   controlling_entries('am__v')
+);

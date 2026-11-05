@@ -1,0 +1,22 @@
+Field outbound_fax_pages_sent__v (
+   label('Outbound Fax Pages Sent'),
+   type('Number'),
+   active(true),
+   description('The total number of outbound fax pages sent by this Vault in the current calendar year. Automatically incremented as faxes are sent. Resets every calendar year.'),
+   required(false),
+   unique(false),
+   max_value(9999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

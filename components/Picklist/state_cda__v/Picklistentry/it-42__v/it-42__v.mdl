@@ -1,0 +1,6 @@
+Picklistentry it-42__v (
+   value('Liguria'),
+   order(2161),
+   active(true),
+   controlling_entries('it__v')
+);

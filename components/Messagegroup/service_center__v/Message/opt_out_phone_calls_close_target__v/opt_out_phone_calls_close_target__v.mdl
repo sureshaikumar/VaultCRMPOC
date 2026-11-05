@@ -1,0 +1,6 @@
+Message opt_out_phone_calls_close_target__v (
+   label(),
+   active(true),
+   default_value('Opting out of phone calls will close the Target and prevent all team members from contacting ${target_name} via phone'),
+   system_managed(false)
+);

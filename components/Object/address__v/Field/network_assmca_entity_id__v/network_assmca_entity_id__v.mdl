@@ -1,0 +1,19 @@
+Field network_assmca_entity_id__v (
+   label('Network ASSMCA Entity ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(30),
+   help_content('Network entity ID of the ASSMCA license ID associated to this address'),
+   list_column(false),
+   order(48),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

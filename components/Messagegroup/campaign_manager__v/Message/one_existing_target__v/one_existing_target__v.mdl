@@ -1,0 +1,6 @@
+Message one_existing_target__v (
+   label(),
+   active(true),
+   default_value('1 existing target'),
+   system_managed(false)
+);

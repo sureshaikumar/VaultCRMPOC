@@ -1,0 +1,6 @@
+Picklistentry tg-s__v (
+   value('Savannes'),
+   order(4327),
+   active(true),
+   controlling_entries('tg__v')
+);

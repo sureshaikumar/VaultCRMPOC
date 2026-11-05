@@ -1,0 +1,8 @@
+RECREATE Pagelayout vmobile_home_page_layout_detail_page_lay__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('VMobile Home Page Layout Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,9 @@
+Typefield program_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.program_type__v.host__v',
+         'Picklist.program_type__v.satellite__v',
+         'Picklist.program_type__v.series__v',
+         'Picklist.program_type__v.standalone__v',
+         'Picklist.program_type__v.tour__v')
+);

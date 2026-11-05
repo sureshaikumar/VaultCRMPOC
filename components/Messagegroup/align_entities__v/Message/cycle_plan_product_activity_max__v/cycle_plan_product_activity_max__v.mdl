@@ -1,0 +1,6 @@
+Message cycle_plan_product_activity_max__v (
+   label(),
+   active(true),
+   default_value('Product Activity Max'),
+   system_managed(false)
+);

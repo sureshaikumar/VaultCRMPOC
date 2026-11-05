@@ -1,0 +1,12 @@
+RECREATE Picklist account_team_member_role__v (
+   label('Role'),
+   active(true),
+   Picklistentry(@Picklistentry/key_account_manager__v.mdl),
+   Picklistentry(@Picklistentry/executive_sponsor__v.mdl),
+   Picklistentry(@Picklistentry/team_member__v.mdl),
+   Picklistentry(@Picklistentry/market_access__v.mdl),
+   Picklistentry(@Picklistentry/medical__v.mdl),
+   Picklistentry(@Picklistentry/sales__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

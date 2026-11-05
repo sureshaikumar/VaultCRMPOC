@@ -1,0 +1,5 @@
+Picklistentry fj__v (
+   value('FJ'),
+   order(70),
+   active(true)
+);

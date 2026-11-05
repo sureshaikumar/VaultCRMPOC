@@ -1,0 +1,6 @@
+Message integration_history_last_sent__v (
+   label(),
+   active(true),
+   default_value('Last Sent Date'),
+   system_managed(false)
+);

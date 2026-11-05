@@ -1,0 +1,6 @@
+Picklistentry is-sko__v (
+   value('Skorradalshreppur'),
+   order(2140),
+   active(true),
+   controlling_entries('is__v')
+);

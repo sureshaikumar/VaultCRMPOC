@@ -1,0 +1,6 @@
+Message mobile__v (
+   label(),
+   active(true),
+   default_value('Mobile'),
+   system_managed(false)
+);

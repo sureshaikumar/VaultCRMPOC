@@ -1,0 +1,8 @@
+RECREATE Picklist status_cda__v (
+   label('Status'),
+   active(true),
+   Picklistentry(@Picklistentry/act__v.mdl),
+   Picklistentry(@Picklistentry/iact__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

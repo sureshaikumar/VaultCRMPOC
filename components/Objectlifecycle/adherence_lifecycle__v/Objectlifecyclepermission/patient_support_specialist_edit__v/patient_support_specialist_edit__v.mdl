@@ -1,0 +1,7 @@
+Objectlifecyclepermission patient_support_specialist_edit__v (
+   states('Objectlifecyclestate.active_state__v',
+         'Objectlifecyclestate.inactive_state__v',
+         'Objectlifecyclestate.new_state__v'),
+   role('Objectlifecyclerole.patient_support_specialist__v'),
+   permission('Edit')
+);

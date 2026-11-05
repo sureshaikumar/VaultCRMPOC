@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17599060745076370__c (
+   label('End User Event Management PS'),
+   active(true),
+   application_role('end_user_event_managemen_ps__c'),
+   permission_sets('Permissionset.end_user_event_management_ps__c')
+);

@@ -1,0 +1,6 @@
+RECREATE Securityprofile legal_user__v (
+   label('Legal User'),
+   active(true),
+   description('System provided security profile for Legal Counsel or other members of a legal department. Users with this profile can manage, apply, and remove legal holds.'),
+   permission_sets('legal_user_actions__v')
+);

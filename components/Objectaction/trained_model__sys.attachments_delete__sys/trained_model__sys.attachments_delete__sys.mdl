@@ -1,0 +1,8 @@
+RECREATE Objectaction trained_model__sys.attachments_delete__sys (
+   label('Attachments: Delete'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.AttachmentsDelete'),
+   active(true),
+   available_all_states(true)
+);

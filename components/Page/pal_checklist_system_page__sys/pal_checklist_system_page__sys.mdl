@@ -1,0 +1,14 @@
+RECREATE Page pal_checklist_system_page__sys (
+   label('PAL Checklist System Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('pal_checklist_system_page__sys'),
+   description('Page to display the checklist respondent UI for PAL sessions'),
+   disable_chrome(false),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.checklist.PalChecklistSystemPage'),
+   url_path_name('palchecklist')
+);

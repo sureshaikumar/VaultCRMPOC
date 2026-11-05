@@ -1,0 +1,6 @@
+Picklistentry lt-47__v (
+   value('Širvintos'),
+   order(2665),
+   active(true),
+   controlling_entries('lt__v')
+);

@@ -1,0 +1,4 @@
+Typefield documented_interest__v (
+   source('standard'),
+   required(true)
+);

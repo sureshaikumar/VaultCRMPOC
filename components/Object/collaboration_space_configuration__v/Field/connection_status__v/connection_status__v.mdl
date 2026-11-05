@@ -1,0 +1,19 @@
+Field connection_status__v (
+   label('Connection Status'),
+   type('Picklist'),
+   active(true),
+   description('The connection status between Microsoft and Vault CRM.  When Connected, this means that the system is able to create Teams as needed when reaching Channel limits.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.microsoft_connection_status__v'),
+   default_value('Picklist.microsoft_connection_status__v.new__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

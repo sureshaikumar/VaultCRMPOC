@@ -1,0 +1,6 @@
+Message no_assigned_segments__v (
+   label(),
+   active(true),
+   default_value('No assigned segments'),
+   system_managed(false)
+);

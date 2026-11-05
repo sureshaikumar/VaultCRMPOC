@@ -1,0 +1,6 @@
+Picklistentry lt-15__v (
+   value('Kauno miestas'),
+   order(2633),
+   active(true),
+   controlling_entries('lt__v')
+);

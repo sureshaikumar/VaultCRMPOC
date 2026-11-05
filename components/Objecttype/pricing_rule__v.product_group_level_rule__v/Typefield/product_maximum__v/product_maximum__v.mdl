@@ -1,0 +1,4 @@
+Typefield product_maximum__v (
+   source('custom'),
+   required(false)
+);

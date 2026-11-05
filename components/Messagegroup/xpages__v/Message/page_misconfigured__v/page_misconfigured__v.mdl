@@ -1,0 +1,6 @@
+Message page_misconfigured__v (
+   label(),
+   active(true),
+   default_value('This page cannot be displayed because it is not configured properly. Please contact your administrator.'),
+   system_managed(false)
+);

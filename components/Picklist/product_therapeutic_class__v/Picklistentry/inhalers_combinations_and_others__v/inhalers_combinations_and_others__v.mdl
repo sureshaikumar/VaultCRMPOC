@@ -1,0 +1,5 @@
+Picklistentry inhalers_combinations_and_others__v (
+   value('Inhalers - Combinations and Others'),
+   order(101),
+   active(true)
+);

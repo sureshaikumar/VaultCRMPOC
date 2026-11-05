@@ -1,0 +1,6 @@
+Message concur_call_primary_att_exp_entry__v (
+   label(),
+   active(true),
+   default_value('Call Primary Attendee to Expense Entry Attendee'),
+   system_managed(false)
+);

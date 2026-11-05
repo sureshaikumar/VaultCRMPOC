@@ -1,0 +1,12 @@
+RECREATE Picklist aln_crm_user_type__v (
+   label('CRM User Type'),
+   active(true),
+   Picklistentry(@Picklistentry/sales__v.mdl),
+   Picklistentry(@Picklistentry/medical__v.mdl),
+   Picklistentry(@Picklistentry/kam__v.mdl),
+   Picklistentry(@Picklistentry/admin__v.mdl),
+   Picklistentry(@Picklistentry/marketing__v.mdl),
+   Picklistentry(@Picklistentry/service__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

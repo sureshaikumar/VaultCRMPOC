@@ -1,0 +1,6 @@
+Picklistentry ug-211__v (
+   value('Soroti'),
+   order(4679),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.address__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_date__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call2_status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_sample__v___call2__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_sample__v___call2__v.product__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2_sample__v___call2__v.quantity__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="call2__v.call2_status__v" rightValue="submitted__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2__v.call_type__v" groupBySortOn="call2__v.call_type__v" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="call2__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

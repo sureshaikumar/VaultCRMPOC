@@ -1,0 +1,6 @@
+Message remove_primary__v (
+   label(),
+   active(true),
+   default_value('Remove Primary'),
+   system_managed(false)
+);

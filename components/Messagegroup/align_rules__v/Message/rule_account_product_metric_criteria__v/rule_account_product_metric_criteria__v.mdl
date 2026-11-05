@@ -1,0 +1,6 @@
+Message rule_account_product_metric_criteria__v (
+   label(),
+   active(true),
+   default_value('Account Product Metric Criteria'),
+   system_managed(false)
+);

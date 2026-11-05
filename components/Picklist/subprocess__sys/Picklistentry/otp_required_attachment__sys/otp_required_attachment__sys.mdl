@@ -1,0 +1,6 @@
+Picklistentry otp_required_attachment__sys (
+   value('Required Attachment'),
+   order(143),
+   active(true),
+   controlling_entries('olc_event_material__sys')
+);

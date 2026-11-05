@@ -1,0 +1,6 @@
+Message retrieving_channel_info__v (
+   label(),
+   active(true),
+   default_value('Retrieving Channel Information'),
+   system_managed(false)
+);

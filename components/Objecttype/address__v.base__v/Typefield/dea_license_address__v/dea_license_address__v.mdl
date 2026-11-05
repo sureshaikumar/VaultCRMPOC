@@ -1,0 +1,4 @@
+Typefield dea_license_address__v (
+   source('standard'),
+   required(false)
+);

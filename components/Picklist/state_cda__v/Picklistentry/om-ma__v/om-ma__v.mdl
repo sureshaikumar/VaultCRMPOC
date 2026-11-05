@@ -1,0 +1,6 @@
+Picklistentry om-ma__v (
+   value('Masqaţ'),
+   order(3447),
+   active(true),
+   controlling_entries('om__v')
+);

@@ -1,0 +1,18 @@
+Field medx_audio_and_transcript__v (
+   label('MedX Audio and Transcript'),
+   type('Picklist'),
+   active(true),
+   description('Determines medical interaction audio and transcript setting.'),
+   required(false),
+   unique(false),
+   help_content('Recording Disabled: Audio recording is disabled for Medical Interactions. Local Transcript and Audio: Audio files and transcripts are stored locally on the device only and are deleted from the device when the Medical Interaction is submitted.'),
+   list_column(false),
+   order(342),
+   multi_value(false),
+   picklist('Picklist.medx_audio_and_transcript__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

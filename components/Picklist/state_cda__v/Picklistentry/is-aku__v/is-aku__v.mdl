@@ -1,0 +1,6 @@
+Picklistentry is-aku__v (
+   value('Akureyrarbær'),
+   order(2092),
+   active(true),
+   controlling_entries('is__v')
+);

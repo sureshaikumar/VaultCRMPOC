@@ -1,0 +1,6 @@
+Picklistentry ph-riz__v (
+   value('Rizal'),
+   order(3597),
+   active(true),
+   controlling_entries('ph__v')
+);

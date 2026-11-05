@@ -1,0 +1,6 @@
+Picklistentry ie-d__v (
+   value('Dublin'),
+   order(1966),
+   active(true),
+   controlling_entries('ie__v')
+);

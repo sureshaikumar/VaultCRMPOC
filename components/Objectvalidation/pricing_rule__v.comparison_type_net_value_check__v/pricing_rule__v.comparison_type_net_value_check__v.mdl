@@ -1,0 +1,20 @@
+RECREATE Objectvalidation pricing_rule__v.comparison_type_net_value_check__v (
+   label('Comparison Type Net Value Check'),
+   active(true),
+   expression('Not(
+     And(
+         comparison_type__v = ''net_value__v'',
+         Or(
+              cross_product_rule__v = true,
+              object_type__vr.api_name__v = ''delivery_discount_rule__v'',
+              And(
+                         Not(object_type__vr.api_name__v = ''limit_rule__v''),
+                         product__vr.product_type__v = ''order__v''
+              )
+         )
+     )
+)'),
+   description('Comparison Type ''Net Value'' is not supported when: Cross Product Rule is enabled, Delivery Discount rule is being created or Limit Rule is not being created with Product Type as Order'),
+   error_message('Comparison Type ''Net Value'' is not supported when: Cross Product Rule is enabled, Delivery Discount rule is being created or Limit Rule is not being created with Product Type as Order'),
+   error_location('comparison_type__v')
+);

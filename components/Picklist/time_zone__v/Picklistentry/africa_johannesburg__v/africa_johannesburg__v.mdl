@@ -1,0 +1,5 @@
+Picklistentry africa_johannesburg__v (
+   value('South Africa Time'),
+   order(45),
+   active(true)
+);

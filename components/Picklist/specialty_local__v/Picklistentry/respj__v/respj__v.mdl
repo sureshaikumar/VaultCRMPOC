@@ -1,0 +1,6 @@
+Picklistentry respj__v (
+   value('Respirology'),
+   order(1745),
+   active(true),
+   controlling_entries('ca__v')
+);

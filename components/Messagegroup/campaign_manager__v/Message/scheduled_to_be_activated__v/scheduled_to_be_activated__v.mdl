@@ -1,0 +1,6 @@
+Message scheduled_to_be_activated__v (
+   label(),
+   active(true),
+   default_value('Scheduled to be activated'),
+   system_managed(false)
+);

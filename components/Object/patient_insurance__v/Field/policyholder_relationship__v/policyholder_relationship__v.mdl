@@ -1,0 +1,18 @@
+Field policyholder_relationship__v (
+   label('Policyholder Relationship'),
+   type('Picklist'),
+   active(true),
+   description('Indicates the policyholder''s relationship to the patient'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.policyholder_relationship__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

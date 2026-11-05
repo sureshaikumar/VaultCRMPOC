@@ -1,0 +1,6 @@
+Message my_accounts_loading__v (
+   label(),
+   active(true),
+   default_value('Loading ${accounts_loaded} ${object_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message cannot_create_entry_point__v (
+   label(),
+   active(true),
+   default_value('Creating ${object_plural_label} from this entry point is not supported.'),
+   system_managed(false)
+);

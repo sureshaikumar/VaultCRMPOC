@@ -1,0 +1,9 @@
+RECREATE Permissionset devops_demo_user__c (
+   label('Devops Demo User Permissions'),
+   active(true),
+   description('Devops Demo User permission set'),
+   mobile_action.mobile_tab_actions('view'),
+   object.account__v.board__v.object_actions('read'),
+   object.account__v.distributor__v.object_actions('read'),
+   object.account__v.employer__v.object_actions('read')
+);

@@ -1,0 +1,8 @@
+Typefield display_future_meetings__v (
+   source('custom'),
+   required(true),
+   pickentries('Picklist.engage_connect_g_display_future_meetings__v.all__v',
+         'Picklist.engage_connect_g_display_future_meetings__v.invited_or_ad_hoc_meeting__v',
+         'Picklist.engage_connect_g_display_future_meetings__v.invited__v'),
+   default_value('Picklist.engage_connect_g_display_future_meetings__v.invited__v')
+);

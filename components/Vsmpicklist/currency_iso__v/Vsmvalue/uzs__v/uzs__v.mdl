@@ -1,0 +1,9 @@
+Vsmvalue uzs__v (
+   label('UZS'),
+   active(true),
+   description('Applies when transactions are denominated in the Uzbekistani Som, the official currency of Uzbekistan.'),
+   synonyms('Uzbekistani som',
+         'Uzbekistan currency'),
+   target('uzs__sys'),
+   target_label('UZS')
+);

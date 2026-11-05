@@ -1,0 +1,7 @@
+Agentactiontool ask_questions_on_record_ask_user__sys (
+   label(),
+   active(true),
+   action('Agentaction.ask_questions_on_record__sys'),
+   agent('Agent.base_object_chat_agent__sys'),
+   tool('Aitool.ask_user__sys')
+);

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad" name="start__v">
+    <vwf:label>Start</vwf:label>
+    <vwf:controls>
+      <vwf:control name="part_inventory_order_approver__v" label="Inventory Order Approver" type="participant">
+        <vwf:roles>
+          <vwf:role reference="Objectlifecyclerole.approver__v" />
+        </vwf:roles>
+      </vwf:control>
+      <vwf:control name="part_inventory_order_owner__v" label="Inventory Order Owner" type="participant">
+        <vwf:roles>
+          <vwf:role reference="Objectlifecyclerole.owner__v" />
+        </vwf:roles>
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+</vwf:stepdetails>

@@ -1,0 +1,11 @@
+Vsmfield landing_tab__v (
+   label('Landing Tab'),
+   active(true),
+   description('Option field that defines the tab the user will land on when logging in'),
+   example_values(),
+   synonyms(),
+   target('landing_tab__sys'),
+   target_label('Landing Tab'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

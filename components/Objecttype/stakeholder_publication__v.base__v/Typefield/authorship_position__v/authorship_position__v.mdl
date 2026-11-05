@@ -1,0 +1,4 @@
+Typefield authorship_position__v (
+   source('standard'),
+   required(false)
+);

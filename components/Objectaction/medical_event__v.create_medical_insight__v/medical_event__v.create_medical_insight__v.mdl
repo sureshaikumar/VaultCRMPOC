@@ -1,0 +1,8 @@
+RECREATE Objectaction medical_event__v.create_medical_insight__v (
+   label('Create Medical Insight'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.keymedicalinsights.actions.MedicalEventCreateMedicalInsightAction'),
+   active(true),
+   available_all_states(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry europe_vilnius__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Vilnius)'),
+   order(191),
+   active(true)
+);

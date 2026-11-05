@@ -1,0 +1,5 @@
+Picklistentry platform_amazonconnect__v (
+   value('Amazon Connect'),
+   order(0),
+   active(true)
+);

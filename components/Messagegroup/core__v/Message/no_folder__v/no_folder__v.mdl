@@ -1,0 +1,6 @@
+Message no_folder__v (
+   label(),
+   active(true),
+   default_value('No Folder'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message enter_email_manually__v (
+   label(),
+   active(true),
+   default_value('Enter email manually'),
+   system_managed(false)
+);

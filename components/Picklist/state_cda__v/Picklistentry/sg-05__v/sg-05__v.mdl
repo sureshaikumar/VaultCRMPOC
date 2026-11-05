@@ -1,0 +1,6 @@
+Picklistentry sg-05__v (
+   value('South West'),
+   order(3971),
+   active(true),
+   controlling_entries('sg__v')
+);

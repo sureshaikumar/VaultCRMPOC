@@ -1,0 +1,6 @@
+Message no_delete_signed_attendee__v (
+   label(),
+   active(true),
+   default_value('You may not delete an ${object_name} with a signature.'),
+   system_managed(false)
+);

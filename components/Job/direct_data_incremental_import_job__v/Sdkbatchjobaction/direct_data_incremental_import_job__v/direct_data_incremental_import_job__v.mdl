@@ -1,0 +1,6 @@
+Sdkbatchjobaction direct_data_incremental_import_job__v (
+   job_metadata('Jobmetadata.direct_data_incremental_import_job__v'),
+   label('CRM Direct Data Transfer - Incremental'),
+   parameters(),
+   primary_action(true)
+);

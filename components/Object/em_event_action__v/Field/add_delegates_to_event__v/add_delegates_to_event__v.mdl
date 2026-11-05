@@ -1,0 +1,18 @@
+Field add_delegates_to_event__v (
+   label('Add Delegates to Event'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to add a delegate approver to the event team'),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.em_event_action_add_delegates_to_event__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

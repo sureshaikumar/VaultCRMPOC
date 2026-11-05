@@ -1,0 +1,5 @@
+Picklistentry external_search__sys (
+   value('External Search'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field mobile_describes__v (
+   label('MOBILE_DESCRIBES'),
+   type('String'),
+   active(true),
+   description('Contains the list of objects that the VMobile PDA application will perform DESCRIBES against to determine fields and security.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(216),
+   default_value('"MOBILE_DESCRIBES;;MOBILE"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

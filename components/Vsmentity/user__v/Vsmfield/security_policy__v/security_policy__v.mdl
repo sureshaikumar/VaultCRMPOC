@@ -1,0 +1,11 @@
+Vsmfield security_policy__v (
+   label('Security Policy'),
+   active(true),
+   description('This field determines how a specific user is allowed to authenticate (log in) to the system, and enforces the rules surrounding that login method'),
+   example_values(),
+   synonyms(),
+   target('security_policy__sys'),
+   target_label('Security Policy'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

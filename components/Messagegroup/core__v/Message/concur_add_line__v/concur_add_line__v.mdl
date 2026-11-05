@@ -1,0 +1,6 @@
+Message concur_add_line__v (
+   label(),
+   active(true),
+   default_value('Add Line'),
+   system_managed(false)
+);

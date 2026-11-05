@@ -1,0 +1,6 @@
+Message confirm_domain_publish_modal__v (
+   label(),
+   active(true),
+   default_value('After publishing, the domain cannot be changed. Pressing "Confirm" will publish your My Engage Portal domain with the following:'),
+   system_managed(false)
+);

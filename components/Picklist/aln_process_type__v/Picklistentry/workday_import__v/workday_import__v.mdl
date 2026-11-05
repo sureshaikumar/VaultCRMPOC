@@ -1,0 +1,5 @@
+Picklistentry workday_import__v (
+   value('Import from Workday'),
+   order(1),
+   active(true)
+);

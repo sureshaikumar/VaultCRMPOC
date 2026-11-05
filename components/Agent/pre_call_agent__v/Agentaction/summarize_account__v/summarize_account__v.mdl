@@ -1,0 +1,12 @@
+Agentaction summarize_account__v (
+   label('Summarize Account'),
+   active(true),
+   api_access(),
+   description('Summarizes the Account'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

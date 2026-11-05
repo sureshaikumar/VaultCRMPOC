@@ -1,0 +1,6 @@
+Message drop_files_to_upload__v (
+   label(),
+   active(true),
+   default_value('Drop files here to upload'),
+   system_managed(false)
+);

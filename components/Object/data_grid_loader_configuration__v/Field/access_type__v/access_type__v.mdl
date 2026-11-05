@@ -1,0 +1,18 @@
+Field access_type__v (
+   label('Access Type'),
+   type('Picklist'),
+   active(true),
+   description('Defines where this configuration template will be available.'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.data_grid_loader_config_access_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

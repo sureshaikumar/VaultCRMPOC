@@ -1,0 +1,5 @@
+Picklistentry sp__v (
+   value('Supplier'),
+   order(28),
+   active(true)
+);

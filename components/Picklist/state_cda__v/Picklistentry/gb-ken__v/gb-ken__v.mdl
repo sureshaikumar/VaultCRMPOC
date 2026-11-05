@@ -1,0 +1,6 @@
+Picklistentry gb-ken__v (
+   value('Kent'),
+   order(1546),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,17 @@
+Field end_time__v (
+   label('End Time'),
+   type('DateTime'),
+   active(true),
+   description('End time of the event'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

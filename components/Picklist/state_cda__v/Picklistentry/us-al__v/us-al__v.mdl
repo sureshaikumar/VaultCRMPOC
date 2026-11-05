@@ -1,0 +1,6 @@
+Picklistentry us-al__v (
+   value('Alabama'),
+   order(4792),
+   active(true),
+   controlling_entries('us__v')
+);

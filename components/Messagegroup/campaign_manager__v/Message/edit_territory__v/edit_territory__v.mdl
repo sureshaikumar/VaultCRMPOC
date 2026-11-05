@@ -1,0 +1,6 @@
+Message edit_territory__v (
+   label(),
+   active(true),
+   default_value('Edit Territory'),
+   system_managed(false)
+);

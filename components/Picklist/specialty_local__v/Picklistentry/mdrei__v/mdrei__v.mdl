@@ -1,0 +1,6 @@
+Picklistentry mdrei__v (
+   value('Medical Diagnostic Radiology'),
+   order(906),
+   active(true),
+   controlling_entries('am__v')
+);

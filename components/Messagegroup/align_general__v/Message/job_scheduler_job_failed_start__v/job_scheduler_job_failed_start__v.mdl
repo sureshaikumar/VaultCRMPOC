@@ -1,0 +1,6 @@
+Message job_scheduler_job_failed_start__v (
+   label(),
+   active(true),
+   default_value('Scheduled job failed to start (Vault ID: {0})'),
+   system_managed(false)
+);

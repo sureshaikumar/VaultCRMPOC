@@ -1,0 +1,6 @@
+Message collaboration_workspace__v (
+   label(),
+   active(true),
+   default_value('Collaboration Workspace'),
+   system_managed(false)
+);

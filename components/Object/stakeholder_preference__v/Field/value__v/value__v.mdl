@@ -1,0 +1,22 @@
+Field value__v (
+   label('Value'),
+   type('Number'),
+   active(true),
+   description('Stores the value for stakeholder preference. 1 lowest preference, 5 highest preference'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

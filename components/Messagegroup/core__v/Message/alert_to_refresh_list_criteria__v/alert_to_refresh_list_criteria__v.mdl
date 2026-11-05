@@ -1,0 +1,6 @@
+Message alert_to_refresh_list_criteria__v (
+   label(),
+   active(true),
+   default_value('Selected ${object_label_plural} will be removed from this Call Report. Would you like to continue?'),
+   system_managed(false)
+);

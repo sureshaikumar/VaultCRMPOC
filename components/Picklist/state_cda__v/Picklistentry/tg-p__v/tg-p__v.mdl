@@ -1,0 +1,6 @@
+Picklistentry tg-p__v (
+   value('Plateaux'),
+   order(4326),
+   active(true),
+   controlling_entries('tg__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry intmx__v (
+   value('Intensive Medicine (Critical Care Medicine)'),
+   order(773),
+   active(true),
+   controlling_entries('ao__v')
+);

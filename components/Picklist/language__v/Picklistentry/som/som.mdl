@@ -1,0 +1,5 @@
+Picklistentry som (
+   value('Somali'),
+   order(113),
+   active(true)
+);

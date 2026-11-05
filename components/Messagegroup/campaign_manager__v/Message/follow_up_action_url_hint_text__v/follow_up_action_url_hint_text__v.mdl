@@ -1,0 +1,6 @@
+Message follow_up_action_url_hint_text__v (
+   label(),
+   active(true),
+   default_value('Add one or more URLs'),
+   system_managed(false)
+);

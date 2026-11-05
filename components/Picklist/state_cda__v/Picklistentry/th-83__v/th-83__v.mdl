@@ -1,0 +1,6 @@
+Picklistentry th-83__v (
+   value('Phuket'),
+   order(4394),
+   active(true),
+   controlling_entries('th__v')
+);

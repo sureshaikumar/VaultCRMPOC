@@ -1,0 +1,10 @@
+RECREATE Picklist territory_budget_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/general__v.mdl),
+   Picklistentry(@Picklistentry/marketing__v.mdl),
+   Picklistentry(@Picklistentry/product__v.mdl),
+   Picklistentry(@Picklistentry/sales__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,18 @@
+Field enable_sample_receipt_grouping__v (
+   label('Enable_Sample_Receipt_Grouping'),
+   type('Boolean'),
+   active(true),
+   description('System groups all pending sample receipts by Shipment ID.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(180),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

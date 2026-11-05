@@ -1,0 +1,5 @@
+Picklistentry kum (
+   value('Kumyk'),
+   order(227),
+   active(true)
+);

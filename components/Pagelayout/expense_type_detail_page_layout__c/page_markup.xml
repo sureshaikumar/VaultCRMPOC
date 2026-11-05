@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.expense_type__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="expense_code__v" />
+            <vault:field reference="parent_expense_type__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="expense_type_identifier__v" />
+            <vault:field reference="included_in_speaker_cap__v" />
+            <vault:field reference="meal_expense__v" />
+            <vault:field reference="country__v" />
+            <vault:field reference="exclude_from__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

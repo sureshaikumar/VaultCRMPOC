@@ -1,0 +1,4 @@
+Typefield push_notify_status__v (
+   source('standard'),
+   required(false)
+);

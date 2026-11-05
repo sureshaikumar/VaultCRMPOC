@@ -1,0 +1,6 @@
+Message unable_to_send_fax__v (
+   label(),
+   active(true),
+   default_value('Unable to send fax. Please try again.'),
+   system_managed(false)
+);

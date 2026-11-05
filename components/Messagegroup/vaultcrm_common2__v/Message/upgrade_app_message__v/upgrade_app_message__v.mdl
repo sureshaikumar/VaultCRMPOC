@@ -1,0 +1,6 @@
+Message upgrade_app_message__v (
+   label(),
+   active(true),
+   default_value('Would you like to upgrade Vault CRM for Windows now?'),
+   system_managed(false)
+);

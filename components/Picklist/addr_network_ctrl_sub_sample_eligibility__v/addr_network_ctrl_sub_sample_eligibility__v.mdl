@@ -1,0 +1,9 @@
+RECREATE Picklist addr_network_ctrl_sub_sample_eligibility__v (
+   label('Network Ctrl Sub Sample Eligibility'),
+   active(true),
+   Picklistentry(@Picklistentry/n__v.mdl),
+   Picklistentry(@Picklistentry/u__v.mdl),
+   Picklistentry(@Picklistentry/y__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,4 @@
+Typefield child_furigana__v (
+   source('standard'),
+   required(false)
+);

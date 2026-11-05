@@ -1,0 +1,11 @@
+RECREATE Picklist call2_discussion_presentation__c (
+   label('Presentation'),
+   active(true),
+   Picklistentry(@Picklistentry/rls_presentation__c.mdl),
+   Picklistentry(@Picklistentry/chs_presentation__c.mdl),
+   Picklistentry(@Picklistentry/chs_diabetic_presentation__c.mdl),
+   Picklistentry(@Picklistentry/cr_presentation__c.mdl),
+   Picklistentry(@Picklistentry/cr_presentation_diabetic_patients__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,4 @@
+Typefield alternative_channel__v (
+   source('standard'),
+   required(false)
+);

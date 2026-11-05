@@ -1,0 +1,8 @@
+RECREATE Objectaction business_event_target__v.repurchase_target__v (
+   label('Repurchase Target'),
+   description('Allows users to indicate that a canceled target has been repurchased.  This will create a new target for the account.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.eppvpi.actions.BusinessEventTargetRepurchaseTargetAction'),
+   active(true),
+   available_all_states(true)
+);

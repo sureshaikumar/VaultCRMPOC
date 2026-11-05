@@ -1,0 +1,10 @@
+Objectlifecyclepermission owner_edit__c (
+   states('Objectlifecyclestate.disabled_state__v',
+         'Objectlifecyclestate.error_state__v',
+         'Objectlifecyclestate.initializing_error_state__v',
+         'Objectlifecyclestate.initializing_state__v',
+         'Objectlifecyclestate.online_state__v',
+         'Objectlifecyclestate.pending_state__v'),
+   role('Objectlifecyclerole.owner__v'),
+   permission('Edit')
+);

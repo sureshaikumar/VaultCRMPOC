@@ -1,0 +1,6 @@
+Message establish_connection__v (
+   label(),
+   active(true),
+   default_value('Establish Connection'),
+   system_managed(false)
+);

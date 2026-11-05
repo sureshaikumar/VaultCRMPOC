@@ -1,0 +1,5 @@
+Picklistentry america_scoresbysund__sys (
+   value('(GMT-01:00) East Greenland Time (America/Scoresbysund)'),
+   order(134),
+   active(true)
+);

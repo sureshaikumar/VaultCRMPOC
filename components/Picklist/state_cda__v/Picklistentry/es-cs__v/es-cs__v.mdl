@@ -1,0 +1,6 @@
+Picklistentry es-cs__v (
+   value('Castellón'),
+   order(1212),
+   active(true),
+   controlling_entries('es__v')
+);

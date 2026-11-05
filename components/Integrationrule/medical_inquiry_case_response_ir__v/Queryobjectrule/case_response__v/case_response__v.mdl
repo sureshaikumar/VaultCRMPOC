@@ -1,0 +1,6 @@
+Queryobjectrule case_response__v (
+   label('Case Response'),
+   active(true),
+   filter_clause([status__v = 'active__v' AND case_request__v != null AND case_request__vr.link__sys != null]),
+   query_object('case_response__v')
+);

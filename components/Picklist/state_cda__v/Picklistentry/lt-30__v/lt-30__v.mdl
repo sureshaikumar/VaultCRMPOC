@@ -1,0 +1,6 @@
+Picklistentry lt-30__v (
+   value('Pakruojis'),
+   order(2648),
+   active(true),
+   controlling_entries('lt__v')
+);

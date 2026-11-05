@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.events_management_settings__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="attendee_rollup_status_filter__v" />
+            <vault:field reference="attendee_automatch_mode__v" />
+            <vault:field reference="enable_speaker_portal__v" />
+            <vault:field reference="qr_server_url__v" />
+            <vault:field reference="speaker_portal_support_email__v" />
+            <vault:field reference="speaker_portal_support_phone__v" />
+            <vault:field reference="speaker_rollup_status_filter__v" />
+            <vault:field reference="speaker_tab_columns__v" />
+            <vault:field reference="status_icon_map__v" />
+            <vault:field reference="setupownerid__v" />
+            <vault:field reference="security_profile__v" />
+            <vault:field reference="exclude_team_member_roles__v" />
+            <vault:field reference="next_year_speaker_cap__v" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="exclude_team_members_from_sign_in__v" />
+            <vault:field reference="exclude_event_speakers_from_sign_in__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

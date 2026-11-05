@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate multiitem_workflow_due_date_updated__v (
+   label('Multi Item Workflow Due Date Updated'),
+   active(true),
+   description('This message is used in the replace workflow owner action.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('Due Date for workflow ${workflowTargetNoLink} changed to ${workflowDueDate}'),
+   notification('<p>The Workflow due date for ${workflowTargetLink} has been changed to ${workflowDueDate}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

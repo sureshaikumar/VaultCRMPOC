@@ -1,0 +1,6 @@
+Message discard_changes_and_reset_this_check_in__v (
+   label(),
+   active(true),
+   default_value('Discard changes and reset this Check-In'),
+   system_managed(false)
+);

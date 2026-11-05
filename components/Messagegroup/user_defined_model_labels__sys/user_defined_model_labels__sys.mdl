@@ -1,0 +1,7 @@
+RECREATE Messagegroup user_defined_model_labels__sys (
+   label('User-Defined Model Labels'),
+   active(true),
+   Message(@Message/include_attribute__sys.mdl),
+   Message(@Message/parent_attribute__sys.mdl),
+   Message(@Message/plural_label__sys.mdl)
+);

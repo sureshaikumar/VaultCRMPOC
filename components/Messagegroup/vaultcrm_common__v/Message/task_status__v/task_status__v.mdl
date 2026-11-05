@@ -1,0 +1,6 @@
+Message task_status__v (
+   label(),
+   active(true),
+   default_value('Task Status'),
+   system_managed(false)
+);

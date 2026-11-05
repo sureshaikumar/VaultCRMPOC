@@ -1,0 +1,6 @@
+Message surveys_no_child_account_match__v (
+   label(),
+   active(true),
+   default_value('No Child Account matches the Account and Location pair.'),
+   system_managed(false)
+);

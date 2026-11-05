@@ -1,0 +1,23 @@
+Field unique_key__v (
+   label('Unique Key'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('Stores unique key preventing duplicate Cvent Object Mappings. Composed of concatenated values of:
+
+Cvent_Object_Name
+Salesforce_Object_Name_vod
+Cvent_Instance_vod'),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry wahim__v (
+   value('Work and Health - Insurance Medicine'),
+   order(1930),
+   active(true),
+   controlling_entries('nl__v')
+);

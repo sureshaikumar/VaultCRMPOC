@@ -1,0 +1,10 @@
+Vsmvalue xau__v (
+   label('XAU'),
+   active(true),
+   description('Applies when transactions are valued in gold as a commodity or precious metal, using the ISO standard code for gold.'),
+   synonyms('gold',
+         'gold commodity',
+         'precious metal gold'),
+   target('xau__sys'),
+   target_label('XAU')
+);

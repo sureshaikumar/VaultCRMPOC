@@ -1,0 +1,5 @@
+Picklistentry hi__v (
+   value('HI'),
+   order(15),
+   active(true)
+);

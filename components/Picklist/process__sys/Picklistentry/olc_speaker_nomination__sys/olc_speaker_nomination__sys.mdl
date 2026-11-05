@@ -1,0 +1,5 @@
+Picklistentry olc_speaker_nomination__sys (
+   value('Speaker Nomination'),
+   order(75),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry qa-ra__v (
+   value('Ar Rayyān'),
+   order(3711),
+   active(true),
+   controlling_entries('qa__v')
+);

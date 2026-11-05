@@ -1,0 +1,6 @@
+Picklistentry tdrio__v (
+   value('Tropical Diseases'),
+   order(1873),
+   active(true),
+   controlling_entries('hu__v')
+);

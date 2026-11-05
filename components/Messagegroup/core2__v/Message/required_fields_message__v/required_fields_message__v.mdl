@@ -1,0 +1,6 @@
+Message required_fields_message__v (
+   label(),
+   active(true),
+   default_value('There are required fields that need to be addressed before you can access the account plan'),
+   system_managed(false)
+);

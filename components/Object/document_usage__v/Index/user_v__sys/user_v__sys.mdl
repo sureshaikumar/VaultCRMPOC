@@ -1,0 +1,5 @@
+Index user_v__sys (
+   description(),
+   fields('user__v'),
+   label('User')
+);

@@ -1,0 +1,6 @@
+Message medx_cannot_cancel_header__v (
+   label(),
+   active(true),
+   default_value('Cannot Cancel'),
+   system_managed(false)
+);

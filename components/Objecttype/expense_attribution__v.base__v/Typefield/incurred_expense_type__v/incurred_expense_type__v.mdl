@@ -1,0 +1,4 @@
+Typefield incurred_expense_type__v (
+   source('standard'),
+   required(false)
+);

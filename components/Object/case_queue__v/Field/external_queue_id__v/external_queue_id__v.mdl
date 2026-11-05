@@ -1,0 +1,19 @@
+Field external_queue_id__v (
+   label('External Queue ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('Use this field to map the unique identifier for a queue on a third party integration platform to a Service Center queue.'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

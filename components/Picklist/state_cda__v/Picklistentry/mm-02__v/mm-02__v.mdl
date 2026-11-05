@@ -1,0 +1,6 @@
+Picklistentry mm-02__v (
+   value('Bago'),
+   order(3056),
+   active(true),
+   controlling_entries('mm__v')
+);

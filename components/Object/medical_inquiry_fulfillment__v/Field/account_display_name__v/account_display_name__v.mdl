@@ -1,0 +1,19 @@
+Field account_display_name__v (
+   label('Account Display Name'),
+   type('String'),
+   active(true),
+   description('Veeva internal field that ensures proper display of Account Name after account merges or territory realignments'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

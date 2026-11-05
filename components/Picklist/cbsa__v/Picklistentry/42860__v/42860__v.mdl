@@ -1,0 +1,5 @@
+Picklistentry 42860__v (
+   value('Seneca, SC Micropolitan Statistical Area'),
+   order(607),
+   active(true)
+);

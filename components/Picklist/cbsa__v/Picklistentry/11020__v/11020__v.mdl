@@ -1,0 +1,5 @@
+Picklistentry 11020__v (
+   value('Altoona, PA Metropolitan Statistical Area'),
+   order(572),
+   active(true)
+);

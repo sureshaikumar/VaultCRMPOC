@@ -1,0 +1,6 @@
+Picklistentry is-arn__v (
+   value('Árneshreppur'),
+   order(2093),
+   active(true),
+   controlling_entries('is__v')
+);

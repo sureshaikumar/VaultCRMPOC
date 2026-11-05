@@ -1,0 +1,5 @@
+Picklistentry change_processed__v (
+   value('CHANGE_PROCESSED'),
+   order(3),
+   active(true)
+);

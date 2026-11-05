@@ -1,0 +1,5 @@
+Index object_type_v__sys (
+   description(),
+   fields('object_type__v'),
+   label('Target Type')
+);

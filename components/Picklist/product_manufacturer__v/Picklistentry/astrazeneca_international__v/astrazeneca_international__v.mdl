@@ -1,0 +1,5 @@
+Picklistentry astrazeneca_international__v (
+   value('AstraZeneca International'),
+   order(5),
+   active(true)
+);

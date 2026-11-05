@@ -1,0 +1,6 @@
+Message territory_deleted_error__v (
+   label(),
+   active(true),
+   default_value('Territory from "${group_name}" no longer exists. Please select a new territory.'),
+   system_managed(false)
+);

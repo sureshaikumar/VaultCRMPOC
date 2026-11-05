@@ -1,0 +1,6 @@
+Picklistentry mt-45__v (
+   value('Rabat Għawdex'),
+   order(3151),
+   active(true),
+   controlling_entries('mt__v')
+);

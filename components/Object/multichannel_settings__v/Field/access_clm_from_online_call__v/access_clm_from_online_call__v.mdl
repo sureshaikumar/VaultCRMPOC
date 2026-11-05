@@ -1,0 +1,18 @@
+Field access_clm_from_online_call__v (
+   label('Access CLM from Online Call'),
+   type('Boolean'),
+   active(true),
+   description('Online only. This enables users to access the CLM Media Library from the Call Report entry point.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(9),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,22 @@
+Field aln_upper_utilization_threshold__v (
+   label('Upper Utilization Threshold'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(200),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

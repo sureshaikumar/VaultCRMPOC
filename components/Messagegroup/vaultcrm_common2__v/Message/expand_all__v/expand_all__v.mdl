@@ -1,0 +1,6 @@
+Message expand_all__v (
+   label(),
+   active(true),
+   default_value('Expand All'),
+   system_managed(false)
+);

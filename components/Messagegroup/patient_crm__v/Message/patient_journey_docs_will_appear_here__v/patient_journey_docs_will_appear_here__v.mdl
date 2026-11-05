@@ -1,0 +1,6 @@
+Message patient_journey_docs_will_appear_here__v (
+   label(),
+   active(true),
+   default_value('${patientName}''s ${patientJourney} Documents will appear here'),
+   system_managed(false)
+);

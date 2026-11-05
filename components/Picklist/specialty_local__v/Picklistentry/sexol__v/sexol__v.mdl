@@ -1,0 +1,10 @@
+Picklistentry sexol__v (
+   value('Sexology'),
+   order(1765),
+   active(true),
+   controlling_entries('cz__v',
+         'ge__v',
+         'kg__v',
+         'pl__v',
+         'pt__v')
+);

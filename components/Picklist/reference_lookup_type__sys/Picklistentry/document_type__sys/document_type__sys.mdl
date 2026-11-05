@@ -1,0 +1,5 @@
+Picklistentry document_type__sys (
+   value('Document Type'),
+   order(5),
+   active(true)
+);

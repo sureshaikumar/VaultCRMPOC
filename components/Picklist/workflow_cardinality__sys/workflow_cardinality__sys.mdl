@@ -1,0 +1,8 @@
+RECREATE Picklist workflow_cardinality__sys (
+   label('Workflow Cardinality'),
+   active(true),
+   Picklistentry(@Picklistentry/one__sys.mdl),
+   Picklistentry(@Picklistentry/one_or_many__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

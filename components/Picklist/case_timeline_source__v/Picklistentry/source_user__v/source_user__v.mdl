@@ -1,0 +1,5 @@
+Picklistentry source_user__v (
+   value('User'),
+   order(0),
+   active(true)
+);

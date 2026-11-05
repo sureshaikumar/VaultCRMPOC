@@ -1,0 +1,6 @@
+Picklistentry sa-14__v (
+   value('Āsīr'),
+   order(3890),
+   active(true),
+   controlling_entries('sa__v')
+);

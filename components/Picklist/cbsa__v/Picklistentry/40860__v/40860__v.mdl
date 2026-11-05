@@ -1,0 +1,5 @@
+Picklistentry 40860__v (
+   value('Rutland, VT Micropolitan Statistical Area'),
+   order(242),
+   active(true)
+);

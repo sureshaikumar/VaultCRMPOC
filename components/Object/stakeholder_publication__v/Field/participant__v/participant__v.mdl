@@ -1,0 +1,19 @@
+Field participant__v (
+   label('Participant'),
+   type('String'),
+   active(true),
+   description('User associated with Publication'),
+   required(false),
+   unique(false),
+   max_length(240),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

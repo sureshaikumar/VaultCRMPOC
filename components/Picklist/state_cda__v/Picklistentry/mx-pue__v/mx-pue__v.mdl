@@ -1,0 +1,6 @@
+Picklistentry mx-pue__v (
+   value('Puebla'),
+   order(3259),
+   active(true),
+   controlling_entries('mx__v')
+);

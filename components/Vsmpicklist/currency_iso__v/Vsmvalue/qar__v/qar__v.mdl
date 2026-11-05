@@ -1,0 +1,10 @@
+Vsmvalue qar__v (
+   label('QAR'),
+   active(true),
+   description('The official currency of Qatar (QAR), pegged to the US dollar and widely used in Gulf region trade and energy sector transactions.'),
+   synonyms('Qatari riyal',
+         'riyal',
+         'QAR'),
+   target('qar__sys'),
+   target_label('QAR')
+);

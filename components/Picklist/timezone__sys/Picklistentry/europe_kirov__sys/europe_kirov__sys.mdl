@@ -1,0 +1,5 @@
+Picklistentry europe_kirov__sys (
+   value('(GMT+03:00) Moscow Standard Time (Europe/Kirov)'),
+   order(201),
+   active(true)
+);

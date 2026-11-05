@@ -1,0 +1,7 @@
+Picklistentry enmue__v (
+   value('Emergency Nursing'),
+   order(485),
+   active(true),
+   controlling_entries('dk__v',
+         'ee__v')
+);

@@ -1,0 +1,6 @@
+Message am_atl_reassociated__v (
+   label(),
+   active(true),
+   default_value('The ATL record is re-associated to the winning account.'),
+   system_managed(false)
+);

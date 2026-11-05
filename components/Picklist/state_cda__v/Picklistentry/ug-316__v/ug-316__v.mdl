@@ -1,0 +1,6 @@
+Picklistentry ug-316__v (
+   value('Amuru'),
+   order(4721),
+   active(true),
+   controlling_entries('ug__v')
+);

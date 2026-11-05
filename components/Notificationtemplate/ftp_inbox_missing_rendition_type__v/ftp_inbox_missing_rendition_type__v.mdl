@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate ftp_inbox_missing_rendition_type__v (
+   label('Missing Rendition Type'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('No rendition type or invalid rendition type - "${fileName}" not uploaded to "${docNameNoLink}"'),
+   notification('Error uploading "${fileName}" - no rendition type or invalid rendition type specified.'),
+   email_body('<b>Vault: </b>${vaultName}
+<br><b>File: </b>"${fileName}"
+<p>There was an error uploading "${fileName}" to "${docLatestName}". No valid rendition type was specified, and only files over 4GB (or video files over 2GB) are automatically recognized as large size asset renditions.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

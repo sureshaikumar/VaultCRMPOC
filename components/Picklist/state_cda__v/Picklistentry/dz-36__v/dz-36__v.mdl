@@ -1,0 +1,6 @@
+Picklistentry dz-36__v (
+   value('El Tarf'),
+   order(1017),
+   active(true),
+   controlling_entries('dz__v')
+);

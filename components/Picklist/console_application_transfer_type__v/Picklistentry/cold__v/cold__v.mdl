@@ -1,0 +1,5 @@
+Picklistentry cold__v (
+   value('Cold'),
+   order(0),
+   active(true)
+);

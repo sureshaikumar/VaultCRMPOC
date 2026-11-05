@@ -1,0 +1,13 @@
+Vsmfield object_type__v (
+   label('Outbound Package Type'),
+   active(true),
+   description('Object type classification for this outbound package, distinguishing between different categories such as configuration packages or data packages. Use to filter or group packages by their intended deployment purpose.'),
+   example_values(),
+   synonyms('package type',
+         'outbound type',
+         'type'),
+   target('object_type__v'),
+   target_label('Outbound Package Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

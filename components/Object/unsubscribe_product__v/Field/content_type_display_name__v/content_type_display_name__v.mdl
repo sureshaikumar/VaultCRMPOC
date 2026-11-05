@@ -1,0 +1,19 @@
+Field content_type_display_name__v (
+   label('Content Type Display Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Content_Type_Display_Name_vod is the text that will be used to display an alternate name instead of the default Content_Type_vod.Name field for the associated Product.'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,13 @@
+Picklistentry virol__v (
+   value('Virology'),
+   order(1920),
+   active(true),
+   controlling_entries('ba__v',
+         'is__v',
+         'kg__v',
+         'ma__v',
+         'mt__v',
+         'pk__v',
+         'rs__v',
+         'ua__v')
+);

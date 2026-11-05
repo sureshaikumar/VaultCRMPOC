@@ -1,0 +1,6 @@
+Message connection_not_pending_message__v (
+   label(),
+   active(true),
+   default_value('The Connection File you''ve uploaded has already been used.'),
+   system_managed(false)
+);

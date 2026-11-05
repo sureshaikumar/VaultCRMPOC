@@ -1,0 +1,19 @@
+Field sso_redirect_url__v (
+   label('Single Sign-On Redirect URL'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Veeva is not an Identity Provider.  Configure your corporate SSO URL to enable single-sign-on with Vault CRM and your CCaaS vendor.'),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

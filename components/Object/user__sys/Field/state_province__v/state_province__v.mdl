@@ -1,0 +1,18 @@
+Field state_province__v (
+   label('State/Province'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('State represents the State of the Address'),
+   list_column(false),
+   order(116),
+   multi_value(false),
+   picklist('Picklist.user_state__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

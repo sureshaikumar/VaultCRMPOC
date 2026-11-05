@@ -1,0 +1,6 @@
+Picklistentry crama__v (
+   value('Cardiovascular Respiratory and Mediastinal Anatomical Pathology'),
+   order(182),
+   active(true),
+   controlling_entries('id__v')
+);

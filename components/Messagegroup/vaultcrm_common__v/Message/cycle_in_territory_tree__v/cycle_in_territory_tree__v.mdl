@@ -1,0 +1,6 @@
+Message cycle_in_territory_tree__v (
+   label(),
+   active(true),
+   default_value('The chosen parent territory will result in a cyclical territory branch. Please choose a different parent territory'),
+   system_managed(false)
+);

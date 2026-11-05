@@ -1,0 +1,5 @@
+Picklistentry dz (
+   value('Dzongkha'),
+   order(106),
+   active(true)
+);

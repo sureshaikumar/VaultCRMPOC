@@ -1,0 +1,6 @@
+Picklistentry es-gi__v (
+   value('Girona'),
+   order(1218),
+   active(true),
+   controlling_entries('es__v')
+);

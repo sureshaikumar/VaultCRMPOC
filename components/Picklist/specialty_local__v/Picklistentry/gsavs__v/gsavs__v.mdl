@@ -1,0 +1,6 @@
+Picklistentry gsavs__v (
+   value('General Surgery and Vascular Surgery'),
+   order(614),
+   active(true),
+   controlling_entries('at__v')
+);

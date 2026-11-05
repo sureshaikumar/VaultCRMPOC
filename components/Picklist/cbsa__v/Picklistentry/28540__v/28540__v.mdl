@@ -1,0 +1,5 @@
+Picklistentry 28540__v (
+   value('Ketchikan, AK Micropolitan Statistical Area'),
+   order(153),
+   active(true)
+);

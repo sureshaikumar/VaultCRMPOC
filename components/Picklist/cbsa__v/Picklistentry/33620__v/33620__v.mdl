@@ -1,0 +1,5 @@
+Picklistentry 33620__v (
+   value('Moberly, MO Micropolitan Statistical Area'),
+   order(109),
+   active(true)
+);

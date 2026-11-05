@@ -1,0 +1,4 @@
+Typefield key_hco_network__v (
+   source('standard'),
+   required(false)
+);

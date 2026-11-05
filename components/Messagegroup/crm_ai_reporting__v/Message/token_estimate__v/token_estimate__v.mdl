@@ -1,0 +1,6 @@
+Message token_estimate__v (
+   label(),
+   active(true),
+   default_value('Token Estimate'),
+   system_managed(false)
+);

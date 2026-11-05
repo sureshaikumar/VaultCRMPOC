@@ -1,0 +1,6 @@
+Picklistentry tj-gb__v (
+   value('Kŭhistoni Badakhshon'),
+   order(4407),
+   active(true),
+   controlling_entries('tj__v')
+);

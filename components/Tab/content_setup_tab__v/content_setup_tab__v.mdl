@@ -1,0 +1,11 @@
+RECREATE Tab content_setup_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Content Setup'),
+   order(2200),
+   parent(),
+   Subtab(@Subtab/approved_email_administration_tab__v.mdl),
+   Subtab(@Subtab/clm_admin_tab__v.mdl),
+   Subtab(@Subtab/crm_vault_metadata_sync_tab__v.mdl)
+);

@@ -1,0 +1,6 @@
+Picklistentry af-bds__v (
+   value('Badakhshān'),
+   order(17),
+   active(true),
+   controlling_entries('af__v')
+);

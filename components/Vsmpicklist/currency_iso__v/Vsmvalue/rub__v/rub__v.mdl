@@ -1,0 +1,10 @@
+Vsmvalue rub__v (
+   label('RUB'),
+   active(true),
+   description('Applies when transactions are denominated in the Russian Ruble, the official currency of the Russian Federation.'),
+   synonyms('Russian ruble',
+         'Russia currency',
+         'rouble'),
+   target('rub__sys'),
+   target_label('RUB')
+);

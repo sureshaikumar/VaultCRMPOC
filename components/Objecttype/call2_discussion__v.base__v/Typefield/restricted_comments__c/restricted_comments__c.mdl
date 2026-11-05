@@ -1,0 +1,4 @@
+Typefield restricted_comments__c (
+   source('standard'),
+   required(false)
+);

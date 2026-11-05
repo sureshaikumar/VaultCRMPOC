@@ -1,0 +1,6 @@
+Picklistentry caapb__v (
+   value('Child and Adolescent Psychiatry and Psychotherapeutic Medicine'),
+   order(194),
+   active(true),
+   controlling_entries('at__v')
+);

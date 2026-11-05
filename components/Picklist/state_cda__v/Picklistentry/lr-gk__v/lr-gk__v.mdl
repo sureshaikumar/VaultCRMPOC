@@ -1,0 +1,6 @@
+Picklistentry lr-gk__v (
+   value('Grand Kru'),
+   order(2599),
+   active(true),
+   controlling_entries('lr__v')
+);

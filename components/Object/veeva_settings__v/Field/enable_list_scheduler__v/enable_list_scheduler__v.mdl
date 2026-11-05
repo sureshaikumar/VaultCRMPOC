@@ -1,0 +1,18 @@
+Field enable_list_scheduler__v (
+   label('ENABLE_LIST_SCHEDULER'),
+   type('Boolean'),
+   active(true),
+   description('For Japanese customers, enables productive call scheduling.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(138),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

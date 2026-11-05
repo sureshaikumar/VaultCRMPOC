@@ -1,0 +1,6 @@
+Message group_upsert_error__v (
+   label(),
+   active(true),
+   default_value('Error occurred while ${upsert_type} Group'),
+   system_managed(false)
+);

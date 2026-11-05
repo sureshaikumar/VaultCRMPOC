@@ -1,0 +1,6 @@
+Message fax_template_max_pages_exceeded_error__v (
+   label(),
+   active(true),
+   default_value('Documents used for fax cannot be more than ${page_count} pages.'),
+   system_managed(false)
+);

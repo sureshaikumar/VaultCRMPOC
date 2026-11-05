@@ -1,0 +1,6 @@
+Message inactive_user__v (
+   label(),
+   active(true),
+   default_value('The selected user is inactive. Please choose a different user.'),
+   system_managed(false)
+);

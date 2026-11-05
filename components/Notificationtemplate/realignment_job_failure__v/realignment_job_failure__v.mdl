@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate realignment_job_failure__v (
+   label('Realignment Failure'),
+   active(true),
+   description('Notifies the integration user when Realignment fails'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Content Alignment Realignment Error'),
+   notification('Your request to realign Content Alignment has the following error(s): ${Custom.failure_message}'),
+   email_body('Your request to realign Content Alignment has the following error(s): ${Custom.failure_message}'),
+   entity_type('custom'),
+   notification_category('none__sys')
+);

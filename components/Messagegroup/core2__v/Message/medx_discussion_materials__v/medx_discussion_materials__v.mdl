@@ -1,0 +1,6 @@
+Message medx_discussion_materials__v (
+   label(),
+   active(true),
+   default_value('Discussion Materials'),
+   system_managed(false)
+);

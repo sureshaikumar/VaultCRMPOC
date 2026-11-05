@@ -1,0 +1,10 @@
+Vsmvalue xbd__v (
+   label('XBD'),
+   active(true),
+   description('Applies when transactions reference the European Unit of Account 17 (EUA-17), a bond market unit used for European financial calculations involving 17 currencies.'),
+   synonyms('European unit of account 17',
+         'EUA-17',
+         'bond market unit 17'),
+   target('xbd__sys'),
+   target_label('XBD')
+);

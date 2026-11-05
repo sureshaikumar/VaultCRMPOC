@@ -1,0 +1,6 @@
+Message validation_errors__v (
+   label(),
+   active(true),
+   default_value('Validation Errors'),
+   system_managed(false)
+);

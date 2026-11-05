@@ -1,0 +1,18 @@
+Field fax_opt_type__v (
+   label('Fax Opt-type'),
+   type('Picklist'),
+   active(true),
+   description('Overrides the default consent level set on the Fax consent type for the account\''s related Consent Header'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(192),
+   multi_value(false),
+   picklist('Picklist.account_fax_opt_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

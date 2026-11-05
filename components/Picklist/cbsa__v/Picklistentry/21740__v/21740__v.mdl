@@ -1,0 +1,5 @@
+Picklistentry 21740__v (
+   value('Evanston, WY Micropolitan Statistical Area'),
+   order(112),
+   active(true)
+);

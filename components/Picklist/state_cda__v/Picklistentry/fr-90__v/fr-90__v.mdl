@@ -1,0 +1,6 @@
+Picklistentry fr-90__v (
+   value('Territoire de Belfort'),
+   order(1408),
+   active(true),
+   controlling_entries('fr__v')
+);

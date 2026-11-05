@@ -1,0 +1,5 @@
+Picklistentry crm_engage__v (
+   value('CRM Desktop Windows'),
+   order(4),
+   active(true)
+);

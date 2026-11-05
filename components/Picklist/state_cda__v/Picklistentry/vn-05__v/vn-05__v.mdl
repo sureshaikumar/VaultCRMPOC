@@ -1,0 +1,6 @@
+Picklistentry vn-05__v (
+   value('Sơn La'),
+   order(4916),
+   active(true),
+   controlling_entries('vn__v')
+);

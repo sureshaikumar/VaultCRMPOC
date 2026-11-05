@@ -1,0 +1,6 @@
+Message default_veeva_settings_error__v (
+   label(),
+   active(true),
+   default_value('Only one default Veeva Settings record can exist'),
+   system_managed(false)
+);

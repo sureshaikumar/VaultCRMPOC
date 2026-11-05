@@ -1,0 +1,9 @@
+RECREATE Picklist account_list_access__v (
+   label('Access'),
+   active(true),
+   Picklistentry(@Picklistentry/shared__v.mdl),
+   Picklistentry(@Picklistentry/private__v.mdl),
+   Picklistentry(@Picklistentry/territory__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

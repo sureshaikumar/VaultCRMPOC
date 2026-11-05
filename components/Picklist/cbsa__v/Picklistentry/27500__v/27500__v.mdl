@@ -1,0 +1,5 @@
+Picklistentry 27500__v (
+   value('Janesville, WI Metropolitan Statistical Area'),
+   order(108),
+   active(true)
+);

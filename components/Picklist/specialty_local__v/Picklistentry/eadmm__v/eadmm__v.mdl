@@ -1,0 +1,7 @@
+Picklistentry eadmm__v (
+   value('Emergency and Disaster Medicine'),
+   order(476),
+   active(true),
+   controlling_entries('kz__v',
+         'ma__v')
+);

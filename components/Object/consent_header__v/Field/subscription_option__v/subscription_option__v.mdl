@@ -1,0 +1,24 @@
+Field subscription_option__v (
+   label('Subscription Option'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content('Field that drives the visibility of Subscribe/Unsubscribe All buttons. If the value is set to -
+                    0 - Display Subscribe/Unsubscribe All Buttons
+                    1 - Hide Subscribe/Unsubscribe All Buttons'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

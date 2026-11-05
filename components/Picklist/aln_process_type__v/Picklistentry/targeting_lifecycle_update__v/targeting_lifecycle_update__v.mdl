@@ -1,0 +1,5 @@
+Picklistentry targeting_lifecycle_update__v (
+   value('Targeting Lifecycle Update'),
+   order(20),
+   active(false)
+);

@@ -1,0 +1,7 @@
+Typefield model_update_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.model_update_status__v.active__v',
+         'Picklist.model_update_status__v.inactive__v'),
+   default_value('Picklist.model_update_status__v.active__v')
+);

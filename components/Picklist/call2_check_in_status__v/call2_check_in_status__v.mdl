@@ -1,0 +1,8 @@
+RECREATE Picklist call2_check_in_status__v (
+   label('Check In Status'),
+   active(true),
+   Picklistentry(@Picklistentry/checked_in__v.mdl),
+   Picklistentry(@Picklistentry/not_checked_in__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

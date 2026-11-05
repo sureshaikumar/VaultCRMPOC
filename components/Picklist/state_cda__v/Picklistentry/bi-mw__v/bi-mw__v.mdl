@@ -1,0 +1,6 @@
+Picklistentry bi-mw__v (
+   value('Mwaro'),
+   order(417),
+   active(true),
+   controlling_entries('bi__v')
+);

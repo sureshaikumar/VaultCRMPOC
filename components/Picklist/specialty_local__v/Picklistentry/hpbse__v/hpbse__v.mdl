@@ -1,0 +1,6 @@
+Picklistentry hpbse__v (
+   value('Hepato Pancreato-Biliary Surgery'),
+   order(695),
+   active(true),
+   controlling_entries('in__v')
+);

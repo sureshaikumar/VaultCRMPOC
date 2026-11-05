@@ -1,0 +1,18 @@
+Field contains_goals__v (
+   label('Contains Goals?'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the loaded file contains sales goals'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

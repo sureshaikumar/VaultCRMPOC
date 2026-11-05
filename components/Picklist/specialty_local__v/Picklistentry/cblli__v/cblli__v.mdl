@@ -1,0 +1,6 @@
+Picklistentry cblli__v (
+   value('Clinical-Biochemical Laboratory'),
+   order(299),
+   active(true),
+   controlling_entries('al__v')
+);

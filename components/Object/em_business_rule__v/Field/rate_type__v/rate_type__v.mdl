@@ -1,0 +1,18 @@
+Field rate_type__v (
+   label('Rate Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to define whether an expense is charged hourly, daily, or per an event, for applicable rules.'),
+   list_column(false),
+   order(32),
+   multi_value(false),
+   picklist('Picklist.em_business_rule_rate_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

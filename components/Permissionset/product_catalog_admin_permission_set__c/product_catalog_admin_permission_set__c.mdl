@@ -1,0 +1,6 @@
+RECREATE Permissionset product_catalog_admin_permission_set__c (
+   label('Product Catalog Admin Permission Set'),
+   active(true),
+   description(),
+   vault_actions.search('suggest')
+);

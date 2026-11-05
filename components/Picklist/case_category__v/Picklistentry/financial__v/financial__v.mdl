@@ -1,0 +1,5 @@
+Picklistentry financial__v (
+   value('Financial'),
+   order(1),
+   active(true)
+);

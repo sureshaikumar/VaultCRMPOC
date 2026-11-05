@@ -1,0 +1,6 @@
+Message am_smpl_limit_quantities_upd__v (
+   label(),
+   active(true),
+   default_value('Quantity Fields are updated for the winning account''s Sample Limit records.'),
+   system_managed(false)
+);

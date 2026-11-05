@@ -1,0 +1,18 @@
+Field calc_cycle_plans_realtime__v (
+   label('CALC_CYCLE_PLANS_REALTIME'),
+   type('Boolean'),
+   active(true),
+   description('Turns on the real time calculation of cycle plans'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(39),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

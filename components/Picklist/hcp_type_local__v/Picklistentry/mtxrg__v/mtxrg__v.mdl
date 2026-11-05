@@ -1,0 +1,5 @@
+Picklistentry mtxrg__v (
+   value('Radiology Technologist (MTRA)'),
+   order(134),
+   active(true)
+);

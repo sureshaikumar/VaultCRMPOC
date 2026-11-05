@@ -1,0 +1,6 @@
+Message remove_action_confirmation_1__v (
+   label(),
+   active(true),
+   default_value('By removing this action, any details entered for this action will be removed. Would you like to remove this action?'),
+   system_managed(false)
+);

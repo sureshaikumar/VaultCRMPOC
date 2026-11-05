@@ -1,0 +1,22 @@
+Field over_reached_threshold__v (
+   label('Over Reached Threshold'),
+   type('Number'),
+   active(true),
+   description('Value used in determining Attainment Status. The attainment is compared to the Percent_Cycle_Completed_vod field, and if the attainment is more than (Percent_Cycle_Completed_vod + this value) then the Attainment Status is mapped to the OVER_REACHED Veeva'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

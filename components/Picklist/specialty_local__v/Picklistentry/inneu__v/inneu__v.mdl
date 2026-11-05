@@ -1,0 +1,6 @@
+Picklistentry inneu__v (
+   value('Intensive Neurology'),
+   order(774),
+   active(true),
+   controlling_entries('hr__v')
+);

@@ -1,0 +1,6 @@
+Message attempt_in_progress__v (
+   label(),
+   active(true),
+   default_value('Attempt in Progress'),
+   system_managed(false)
+);

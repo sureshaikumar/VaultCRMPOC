@@ -1,0 +1,6 @@
+Message remove_follow_up_confirmation__v (
+   label(),
+   active(true),
+   default_value('By removing this follow-up action, all follow-up actions associated to this one will also be removed. Would you like to remove this follow-up action?'),
+   system_managed(false)
+);

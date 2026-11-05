@@ -1,0 +1,19 @@
+Field location_address_line_2__v (
+   label('Location Address Line 2'),
+   type('String'),
+   active(true),
+   description('Address line 2 of an event. If using a venue list, this is filled in automatically.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(49),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

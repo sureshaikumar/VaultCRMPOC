@@ -1,0 +1,6 @@
+Message roster_member_app_profile_res_note__v (
+   label(),
+   active(true),
+   default_value('This roster member''s primary territory assignment (${terr}) is being used to determine their CRM Application Profile (${crmApplicationProfileName}).'),
+   system_managed(false)
+);

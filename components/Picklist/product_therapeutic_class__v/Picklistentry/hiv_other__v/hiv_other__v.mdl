@@ -1,0 +1,5 @@
+Picklistentry hiv_other__v (
+   value('HIV (Other)'),
+   order(63),
+   active(true)
+);

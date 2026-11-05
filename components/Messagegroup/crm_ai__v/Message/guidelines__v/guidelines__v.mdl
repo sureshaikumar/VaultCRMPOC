@@ -1,0 +1,6 @@
+Message guidelines__v (
+   label(),
+   active(true),
+   default_value('Guidelines'),
+   system_managed(false)
+);

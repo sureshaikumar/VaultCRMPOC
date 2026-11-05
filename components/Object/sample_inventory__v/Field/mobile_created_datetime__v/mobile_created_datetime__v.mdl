@@ -1,0 +1,17 @@
+Field mobile_created_datetime__v (
+   label('Mobile Created Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Time when the sample inventory was created on a mobile device.  Will be blank it if was created online.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

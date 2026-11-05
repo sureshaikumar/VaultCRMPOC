@@ -1,0 +1,4 @@
+Typefield team_channel_activity_max__v (
+   source('standard'),
+   required(false)
+);

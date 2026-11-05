@@ -1,0 +1,10 @@
+Typefield signature_request_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.signature_request_status__v.request_canceled__v',
+         'Picklist.signature_request_status__v.request_expired__v',
+         'Picklist.signature_request_status__v.requested__v',
+         'Picklist.signature_request_status__v.signature_accepted__v',
+         'Picklist.signature_request_status__v.signature_captured__v',
+         'Picklist.signature_request_status__v.signature_declined__v')
+);

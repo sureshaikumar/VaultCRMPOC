@@ -1,0 +1,6 @@
+Picklistentry tt-cha__v (
+   value('Chaguanas'),
+   order(4541),
+   active(true),
+   controlling_entries('tt__v')
+);

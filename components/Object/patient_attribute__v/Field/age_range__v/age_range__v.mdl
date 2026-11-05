@@ -1,0 +1,24 @@
+Field age_range__v (
+   label('Age Range'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(5),
+   help_content(),
+   list_column(true),
+   order(30),
+   formula('If(IsBlank(date_of_birth__v), "", (
+            If(Today() - Years(19) < date_of_birth__v,"0-18",If(Today() - Years(26) < date_of_birth__v, "19-25",If(Today() - Years(45) < date_of_birth__v, "26-44",
+            If(Today() - Years(55) < date_of_birth__v, "45-54", If(Today() - Years(65) < date_of_birth__v, "55-64",
+            If(Today() - Years(75) < date_of_birth__v, "65-74", If(Today() - Years(85) < date_of_birth__v,"75-84", ">=85")))))))))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

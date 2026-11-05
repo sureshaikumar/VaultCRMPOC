@@ -1,0 +1,4 @@
+Typefield order_total_profit_corpv__sys (
+   source('custom'),
+   required(false)
+);

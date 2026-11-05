@@ -1,0 +1,6 @@
+Message rule_preview_discarded_header__v (
+   label(),
+   active(true),
+   default_value('Rejected: Preview results not available'),
+   system_managed(false)
+);

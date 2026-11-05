@@ -1,0 +1,4 @@
+Typefield event_event_format__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry picklist__sys (
+   value('Picklist'),
+   order(0),
+   active(true)
+);

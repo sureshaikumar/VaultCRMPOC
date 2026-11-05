@@ -1,0 +1,4 @@
+Typefield em_vendor_status__v (
+   source('standard'),
+   required(false)
+);

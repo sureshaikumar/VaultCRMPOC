@@ -1,0 +1,6 @@
+Picklistentry acidt__v (
+   value('Adult Care in Dental Therapy Practice'),
+   order(19),
+   active(true),
+   controlling_entries('nz__v')
+);

@@ -1,0 +1,6 @@
+Message rewrite_error_incomplete_pair__v (
+   label(),
+   active(true),
+   default_value('Ensure both {{aiRewriteStart}} and {{aiRewriteEnd}} are added to the template'),
+   system_managed(false)
+);

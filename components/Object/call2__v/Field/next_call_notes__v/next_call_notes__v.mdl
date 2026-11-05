@@ -1,0 +1,19 @@
+Field next_call_notes__v (
+   label('Next Call Notes'),
+   type('String'),
+   active(true),
+   description('Free text area to store next call notes.  In call scheduling, Pre call notes are populated from the next-call notes of the last call that the user did on this account.  So, Next-Call notes become the pre-call notes for the next call by a same user on the'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(93),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

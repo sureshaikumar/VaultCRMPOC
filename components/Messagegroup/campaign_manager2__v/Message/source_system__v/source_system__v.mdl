@@ -1,0 +1,6 @@
+Message source_system__v (
+   label(),
+   active(true),
+   default_value('Source System'),
+   system_managed(false)
+);

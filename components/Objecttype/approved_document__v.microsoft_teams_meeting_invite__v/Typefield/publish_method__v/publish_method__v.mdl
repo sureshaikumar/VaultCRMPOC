@@ -1,0 +1,7 @@
+Typefield publish_method__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.approved_document_publish_method__v.crm_auto_published__v',
+         'Picklist.approved_document_publish_method__v.vault_auto_published__v',
+         'Picklist.approved_document_publish_method__v.vault_user_published__v')
+);

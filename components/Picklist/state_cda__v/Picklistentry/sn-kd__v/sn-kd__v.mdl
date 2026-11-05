@@ -1,0 +1,6 @@
+Picklistentry sn-kd__v (
+   value('Kolda'),
+   order(4213),
+   active(true),
+   controlling_entries('sn__v')
+);

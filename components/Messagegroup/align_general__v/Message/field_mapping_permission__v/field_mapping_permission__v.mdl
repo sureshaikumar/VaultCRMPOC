@@ -1,0 +1,6 @@
+Message field_mapping_permission__v (
+   label(),
+   active(true),
+   default_value('Must have at least Read right to the aln_field_mapping__v object to Import From CRM.'),
+   system_managed(false)
+);

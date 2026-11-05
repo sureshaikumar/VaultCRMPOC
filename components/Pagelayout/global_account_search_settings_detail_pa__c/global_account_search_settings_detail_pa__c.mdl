@@ -1,0 +1,8 @@
+RECREATE Pagelayout global_account_search_settings_detail_pa__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Global Account Search Settings Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,6 @@
+Message loading__v (
+   label(),
+   active(true),
+   default_value('Loading'),
+   system_managed(false)
+);

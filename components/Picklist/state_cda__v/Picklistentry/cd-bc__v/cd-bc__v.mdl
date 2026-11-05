@@ -1,0 +1,6 @@
+Picklistentry cd-bc__v (
+   value('Bas-Congo'),
+   order(572),
+   active(true),
+   controlling_entries('cd__v')
+);

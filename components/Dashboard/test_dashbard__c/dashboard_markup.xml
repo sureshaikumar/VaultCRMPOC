@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2" combinePromptsBy="referencedField">
+  <vault:chart name="test__c" label="test" type="gauge" report="Report.account_with_address1__c" description="" footer="">
+    <vault:position row="0" col="0" sizeX="6" sizeY="7" />
+    <vault:format showmetrics="true" showgroupings="true" showvalue="true" min="0.0" max="100.0">
+      <vault:range color="#427B2E" min="0.0" max="30.0" />
+      <vault:range color="#D9780D" min="30.0" max="70.0" />
+      <vault:range color="#B71307" min="70.0" max="100.0" />
+    </vault:format>
+    <vault:series metric="RecordCount" unitlabel="  ">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+  </vault:chart>
+</vault:dashboard>

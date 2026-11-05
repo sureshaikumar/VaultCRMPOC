@@ -1,0 +1,6 @@
+Message vault_crm_instance_field_required__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Instance*'),
+   system_managed(false)
+);

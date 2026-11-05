@@ -1,0 +1,6 @@
+Message no_del_medevent_signed__v (
+   label(),
+   active(true),
+   default_value('You may not delete a Medical Event with a signature for an Attendee.'),
+   system_managed(false)
+);

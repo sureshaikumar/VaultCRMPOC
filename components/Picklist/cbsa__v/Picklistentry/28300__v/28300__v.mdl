@@ -1,0 +1,5 @@
+Picklistentry 28300__v (
+   value('Keene, NH Micropolitan Statistical Area'),
+   order(183),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlayout mc_cycle_plan_channel_channel_only__c (
+   label('MC Cycle Plan Channel Channel Only'),
+   active(true),
+   pagelayouts('Pagelayout.mc_cycle_plan_channel_detail_page_layou1__c'),
+   object('Object.mc_cycle_plan_channel__v'),
+   objecttype('Objecttype.mc_cycle_plan_channel__v.channel_only__v'),
+   record_creation_layout('Pagelayout.mc_cycle_plan_channel_detail_page_layou1__c')
+);

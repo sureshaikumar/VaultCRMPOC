@@ -1,0 +1,17 @@
+Field sync_start_datetime__v (
+   label('Sync Start Datetime'),
+   type('DateTime'),
+   active(true),
+   description('Time when the sync was initiated.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

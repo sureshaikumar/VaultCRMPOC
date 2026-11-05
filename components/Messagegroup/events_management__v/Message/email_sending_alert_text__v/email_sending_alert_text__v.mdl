@@ -1,0 +1,6 @@
+Message email_sending_alert_text__v (
+   label(),
+   active(true),
+   default_value('We are sending your email. If there were any errors, they can be reviewed on the homepage.'),
+   system_managed(false)
+);

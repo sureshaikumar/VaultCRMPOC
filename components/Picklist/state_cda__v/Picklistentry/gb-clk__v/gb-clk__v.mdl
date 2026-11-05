@@ -1,0 +1,6 @@
+Picklistentry gb-clk__v (
+   value('Clackmannanshire'),
+   order(1486),
+   active(true),
+   controlling_entries('gb__v')
+);

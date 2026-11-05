@@ -1,0 +1,6 @@
+Picklistentry ca-bc__v (
+   value('British Columbia'),
+   order(560),
+   active(true),
+   controlling_entries('ca__v')
+);

@@ -1,0 +1,6 @@
+Message submit_no_editing__v (
+   label(),
+   active(true),
+   default_value('You cannot edit a submitted ${call_label} or any of its related information'),
+   system_managed(false)
+);

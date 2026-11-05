@@ -1,0 +1,4 @@
+Typefield dynamic_attribute_value_text_area__v (
+   source('standard'),
+   required(false)
+);

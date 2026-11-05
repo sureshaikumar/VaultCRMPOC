@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate file_staging_linking_failed__sys (
+   label('File Staging Linking Failed'),
+   active(true),
+   description('Notification sent when File Staging linking has failed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: File Staging linking has failed'),
+   notification('<p>File Staging linking for this Vault could not be completed successfully due to: ${fileStagingUpdateErrorMessage}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

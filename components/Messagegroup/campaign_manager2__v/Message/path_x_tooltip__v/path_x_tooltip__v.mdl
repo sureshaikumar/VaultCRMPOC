@@ -1,0 +1,6 @@
+Message path_x_tooltip__v (
+   label(),
+   active(true),
+   default_value('Remove path and any nodes downstream'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-074__v (
+   value('Mežica'),
+   order(4048),
+   active(true),
+   controlling_entries('si__v')
+);

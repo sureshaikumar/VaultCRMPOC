@@ -1,0 +1,6 @@
+Picklistentry vn-21__v (
+   value('Thanh Hóa'),
+   order(4924),
+   active(true),
+   controlling_entries('vn__v')
+);

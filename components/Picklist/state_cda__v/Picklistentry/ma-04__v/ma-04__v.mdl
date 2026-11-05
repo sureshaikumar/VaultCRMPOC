@@ -1,0 +1,6 @@
+Picklistentry ma-04__v (
+   value('Rabat-Salé-Kénitra'),
+   order(2769),
+   active(true),
+   controlling_entries('ma__v')
+);

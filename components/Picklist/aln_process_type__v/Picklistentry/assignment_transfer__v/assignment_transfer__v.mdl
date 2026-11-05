@@ -1,0 +1,5 @@
+Picklistentry assignment_transfer__v (
+   value('Assignment Transfer'),
+   order(23),
+   active(true)
+);

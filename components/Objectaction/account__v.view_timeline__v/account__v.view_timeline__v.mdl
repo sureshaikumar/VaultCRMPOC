@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.view_timeline__v (
+   label('View Timeline'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.timeline.actions.ViewTimelineAccountAction'),
+   active(true),
+   available_all_states(true)
+);

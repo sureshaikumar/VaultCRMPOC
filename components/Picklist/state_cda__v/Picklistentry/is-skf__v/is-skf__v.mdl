@@ -1,0 +1,6 @@
+Picklistentry is-skf__v (
+   value('Skaftárhreppur'),
+   order(2138),
+   active(true),
+   controlling_entries('is__v')
+);

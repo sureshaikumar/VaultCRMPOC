@@ -1,0 +1,10 @@
+RECREATE Picklist cycle_plan_status__v (
+   label('Cycle Plan Status'),
+   active(true),
+   Picklistentry(@Picklistentry/in_progress__v.mdl),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   Picklistentry(@Picklistentry/rejected__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

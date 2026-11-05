@@ -1,0 +1,6 @@
+Picklistentry tnrea__v (
+   value('Transplant Nephrology'),
+   order(1858),
+   active(true),
+   controlling_entries('pk__v')
+);

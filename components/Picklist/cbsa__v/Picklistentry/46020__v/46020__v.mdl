@@ -1,0 +1,5 @@
+Picklistentry 46020__v (
+   value('Truckee-Grass Valley, CA Micropolitan Statistical Area'),
+   order(59),
+   active(true)
+);

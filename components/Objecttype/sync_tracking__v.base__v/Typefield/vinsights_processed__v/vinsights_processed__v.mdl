@@ -1,0 +1,4 @@
+Typefield vinsights_processed__v (
+   source('standard'),
+   required(false)
+);

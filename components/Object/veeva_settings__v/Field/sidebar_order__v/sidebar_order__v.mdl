@@ -1,0 +1,20 @@
+Field sidebar_order__v (
+   label('SIDEBAR_ORDER'),
+   type('String'),
+   active(true),
+   description('Designates the order of the sections displayed in sidebar for the VMobile Tablet application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(270),
+   default_value('"SIDEBAR_ORDER;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

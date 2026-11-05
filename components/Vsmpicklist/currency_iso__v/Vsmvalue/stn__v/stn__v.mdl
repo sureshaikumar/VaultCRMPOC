@@ -1,0 +1,10 @@
+Vsmvalue stn__v (
+   label('STN'),
+   active(true),
+   description('Applies when transactions are denominated in the São Tomé and Príncipe Dobra (redenominated 2018), the official currency of São Tomé and Príncipe.'),
+   synonyms('São Tomé dobra',
+         'Sao Tome currency',
+         'dobra'),
+   target('stn__sys'),
+   target_label('STN')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event_speaker__v.link_contract__v (
+   label('Link Contract'),
+   description('Action that opens the Link Contract page for the Event Speaker'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.LinkContractAction'),
+   active(true),
+   available_all_states(true)
+);

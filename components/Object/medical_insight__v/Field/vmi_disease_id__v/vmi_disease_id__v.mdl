@@ -1,0 +1,19 @@
+Field vmi_disease_id__v (
+   label('Disease ID'),
+   type('String'),
+   active(true),
+   description('Stores the Veeva Medical Insights ID of the selected Disease'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

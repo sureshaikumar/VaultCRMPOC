@@ -1,0 +1,17 @@
+Field analytics_my_products__v (
+   label('Analytics My Products'),
+   type('LongText'),
+   active(true),
+   description('This field stores the sticky product selections that are used on the Reach & Frequency report.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

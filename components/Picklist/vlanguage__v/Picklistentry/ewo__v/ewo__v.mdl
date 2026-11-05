@@ -1,0 +1,5 @@
+Picklistentry ewo__v (
+   value('Ewondo'),
+   order(93),
+   active(false)
+);

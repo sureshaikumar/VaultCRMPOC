@@ -1,0 +1,6 @@
+Picklistentry pk-gb__v (
+   value('Gilgit-Baltistan'),
+   order(3616),
+   active(true),
+   controlling_entries('pk__v')
+);

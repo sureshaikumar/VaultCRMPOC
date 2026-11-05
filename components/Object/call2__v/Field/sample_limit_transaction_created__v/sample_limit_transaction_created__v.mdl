@@ -1,0 +1,18 @@
+Field sample_limit_transaction_created__v (
+   label('Sample Limit Transaction Created'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('System field used to indicate that Sample Limit Transaction records have been created for required Call Sample records'),
+   list_column(false),
+   order(109),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

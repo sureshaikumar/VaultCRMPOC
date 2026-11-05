@@ -1,0 +1,3 @@
+Typeaction download_lkp_connection_file__v (
+   action('connection__sys.download_lkp_connection_file__v')
+);

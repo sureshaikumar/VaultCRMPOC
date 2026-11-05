@@ -1,0 +1,19 @@
+Field instructions__v (
+   label('Instructions'),
+   type('String'),
+   active(true),
+   description('The Instructions (often called the Sig, short for Signatura) is the full text provided by the prescriber to the patient and pharmacist that clearly describes how the patient is to take the medication, encompassing the dose, route, frequency, and any special directions.'),
+   required(false),
+   unique(false),
+   max_length(140),
+   help_content(),
+   list_column(true),
+   order(33),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

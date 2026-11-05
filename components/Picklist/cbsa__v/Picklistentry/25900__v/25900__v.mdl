@@ -1,0 +1,5 @@
+Picklistentry 25900__v (
+   value('Hilo, HI Micropolitan Statistical Area'),
+   order(688),
+   active(true)
+);

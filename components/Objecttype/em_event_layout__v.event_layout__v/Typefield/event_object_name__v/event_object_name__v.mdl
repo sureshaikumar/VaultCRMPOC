@@ -1,0 +1,14 @@
+Typefield event_object_name__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_layout_event_object_name__v.em_attendee__v',
+         'Picklist.em_event_layout_event_object_name__v.em_event_budget__v',
+         'Picklist.em_event_layout_event_object_name__v.em_event_material__v',
+         'Picklist.em_event_layout_event_object_name__v.em_event_session_attendee__v',
+         'Picklist.em_event_layout_event_object_name__v.em_event_session__v',
+         'Picklist.em_event_layout_event_object_name__v.em_event_speaker__v',
+         'Picklist.em_event_layout_event_object_name__v.em_event_team_member__v',
+         'Picklist.em_event_layout_event_object_name__v.em_expense_estimate__v',
+         'Picklist.em_event_layout_event_object_name__v.expense_header__v',
+         'Picklist.em_event_layout_event_object_name__v.expense_line__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry organizer__v (
+   value('Organizer'),
+   order(2),
+   active(true)
+);

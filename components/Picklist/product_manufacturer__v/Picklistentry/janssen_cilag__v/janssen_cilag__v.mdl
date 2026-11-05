@@ -1,0 +1,5 @@
+Picklistentry janssen_cilag__v (
+   value('Janssen-Cilag'),
+   order(20),
+   active(true)
+);

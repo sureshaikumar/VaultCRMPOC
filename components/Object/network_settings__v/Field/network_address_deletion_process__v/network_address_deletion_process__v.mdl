@@ -1,0 +1,23 @@
+Field network_address_deletion_process__v (
+   label('Network Address Deletion Process'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(2),
+   min_value(0),
+   scale(0),
+   help_content('A value of 1 or 2 will delete inactive/invalid Network addresses, refer to documentation for details.'),
+   list_column(false),
+   order(22),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

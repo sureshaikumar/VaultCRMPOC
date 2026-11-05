@@ -1,0 +1,44 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.event_attendee__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="medical_event__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="event_attendee_status__v" />
+            <vault:field reference="group_name__v" />
+            <vault:field reference="role__v" />
+            <vault:field reference="ctrl_event__v" />
+            <vault:field reference="em_event_team_member__v" />
+            <vault:field reference="child_account_id__v" />
+            <vault:field reference="license__v" />
+            <vault:field reference="location_id__v" />
+            <vault:field reference="location_name__v" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="location__v" />
+            <vault:field reference="em_speaker_identifier__v" />
+            <vault:field reference="person__v" />
+            <vault:field reference="attendee_name__v" />
+            <vault:field reference="em_attendee_type__v" />
+            <vault:field reference="signature__v" />
+            <vault:field reference="signature_datetime__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Add Attendee (Select One)" name="add_attendee__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" />
+            <vault:field reference="user__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

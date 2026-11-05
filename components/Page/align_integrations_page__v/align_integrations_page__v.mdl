@@ -1,0 +1,14 @@
+RECREATE Page align_integrations_page__v (
+   label('Align Integration Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code('align_integrations_admin_page__v'),
+   description('Align Integration Administration'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('align-integrations')
+);

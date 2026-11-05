@@ -1,0 +1,6 @@
+Message incoming_call__v (
+   label(),
+   active(true),
+   default_value('Incoming Call'),
+   system_managed(false)
+);

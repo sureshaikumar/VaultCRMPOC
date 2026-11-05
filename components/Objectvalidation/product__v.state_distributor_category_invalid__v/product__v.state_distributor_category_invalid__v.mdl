@@ -1,0 +1,8 @@
+RECREATE Objectvalidation product__v.state_distributor_category_invalid__v (
+   label('State Distributor Category Invalid'),
+   active(true),
+   expression('isBlank(state_distributor_category__v) || state_distributor_category__v = "01" || state_distributor_category__v = "02" || state_distributor_category__v = "03"'),
+   description('The State Distributor Category can be empty or can have a value 01, 02 or 03.'),
+   error_message('State Distributor Category can only be a 01, 02, or 03.'),
+   error_location('state_distributor_category__v')
+);

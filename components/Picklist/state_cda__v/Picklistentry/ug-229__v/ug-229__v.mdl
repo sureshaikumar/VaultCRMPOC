@@ -1,0 +1,6 @@
+Picklistentry ug-229__v (
+   value('Luuka'),
+   order(4697),
+   active(true),
+   controlling_entries('ug__v')
+);

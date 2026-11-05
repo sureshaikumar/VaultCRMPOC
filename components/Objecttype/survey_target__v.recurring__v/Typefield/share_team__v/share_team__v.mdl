@@ -1,0 +1,4 @@
+Typefield share_team__v (
+   source('custom'),
+   required(false)
+);

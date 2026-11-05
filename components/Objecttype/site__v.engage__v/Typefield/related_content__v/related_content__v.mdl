@@ -1,0 +1,8 @@
+Typefield related_content__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.site_related_content__v.bottom__v',
+         'Picklist.site_related_content__v.disabled__v',
+         'Picklist.site_related_content__v.right__v'),
+   default_value('Picklist.site_related_content__v.disabled__v')
+);

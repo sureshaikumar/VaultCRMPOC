@@ -1,0 +1,19 @@
+Field custom_application__v (
+   label('Custom Application'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates the custom application for the user.'),
+   list_column(false),
+   order(65),
+   multi_value(false),
+   picklist('Picklist.user_custom_application__v'),
+   default_value('{none__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

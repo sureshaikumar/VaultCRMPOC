@@ -1,0 +1,22 @@
+Field maximum_selectable_answers__sys (
+   label('Maximum Selectable Answers'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(100),
+   min_value(1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

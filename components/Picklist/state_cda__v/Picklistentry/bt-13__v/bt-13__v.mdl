@@ -1,0 +1,6 @@
+Picklistentry bt-13__v (
+   value('Ha'),
+   order(512),
+   active(true),
+   controlling_entries('bt__v')
+);

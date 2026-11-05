@@ -1,0 +1,6 @@
+Message new_chat__v (
+   label(),
+   active(true),
+   default_value('New Chat'),
+   system_managed(false)
+);

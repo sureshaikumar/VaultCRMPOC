@@ -1,0 +1,4 @@
+Typefield order_delivery_discount_value__v (
+   source('standard'),
+   required(false)
+);

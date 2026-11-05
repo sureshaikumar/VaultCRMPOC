@@ -1,0 +1,6 @@
+Message targets_moved__v (
+   label(),
+   active(true),
+   default_value('Targets Moved'),
+   system_managed(false)
+);

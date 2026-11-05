@@ -1,0 +1,17 @@
+Field publish_process_timestamp__v (
+   label('Published Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Indicates the end time of a job from when all records have been written back to Salesforce.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

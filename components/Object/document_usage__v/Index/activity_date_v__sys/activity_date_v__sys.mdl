@@ -1,0 +1,5 @@
+Index activity_date_v__sys (
+   description(),
+   fields('activity_date__v'),
+   label('Activity Date')
+);

@@ -1,0 +1,6 @@
+Message job_scheduler_job_instance_id_required__v (
+   label(),
+   active(true),
+   default_value('Query parameter jobInstanceId is required.'),
+   system_managed(false)
+);

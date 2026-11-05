@@ -1,0 +1,10 @@
+Vsmvalue mru__v (
+   label('MRU'),
+   active(true),
+   description('The current official currency of Mauritania (MRU), introduced in 2018 to replace the old ouguiya (MRO) at a rate of 10 old to 1 new.'),
+   synonyms('Mauritanian ouguiya',
+         'new ouguiya',
+         'MRU'),
+   target('mru__sys'),
+   target_label('MRU')
+);

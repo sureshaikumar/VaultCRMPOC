@@ -1,0 +1,19 @@
+Field u_m__v (
+   label('U/M'),
+   type('String'),
+   active(true),
+   description('U/M represents the Unit of Measurement for the Sample for the Sample Receipt.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

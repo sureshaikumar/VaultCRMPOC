@@ -1,0 +1,9 @@
+RECREATE Picklist message_activity_activity__v (
+   label('Activity'),
+   active(true),
+   Picklistentry(@Picklistentry/clicked__v.mdl),
+   Picklistentry(@Picklistentry/viewed__v.mdl),
+   Picklistentry(@Picklistentry/downloaded__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

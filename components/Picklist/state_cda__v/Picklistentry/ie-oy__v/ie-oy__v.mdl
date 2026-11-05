@@ -1,0 +1,6 @@
+Picklistentry ie-oy__v (
+   value('Offaly'),
+   order(1982),
+   active(true),
+   controlling_entries('ie__v')
+);

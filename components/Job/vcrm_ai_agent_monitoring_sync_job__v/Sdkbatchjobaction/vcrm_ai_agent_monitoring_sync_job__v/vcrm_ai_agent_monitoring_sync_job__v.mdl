@@ -1,0 +1,6 @@
+Sdkbatchjobaction vcrm_ai_agent_monitoring_sync_job__v (
+   job_metadata('Jobmetadata.vcrm_ai_agent_monitoring_sync_job__v'),
+   label('Agent Monitoring Sync'),
+   parameters(),
+   primary_action(true)
+);

@@ -1,0 +1,19 @@
+Field fax_restricted_words__v (
+   label('Fax Restricted Words'),
+   type('String'),
+   active(true),
+   description('Filters on words or phrases entered in a free text field on a fax template. When there''s a match, a visible error is displayed and the fax cannot be sent. Double semi-colon is the delimiter, eg: test;;test2;;this is a phrase'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

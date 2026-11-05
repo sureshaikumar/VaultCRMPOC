@@ -1,0 +1,6 @@
+Message case_inbox_inboxes_section_label__v (
+   label(),
+   active(true),
+   default_value('Inboxes'),
+   system_managed(false)
+);

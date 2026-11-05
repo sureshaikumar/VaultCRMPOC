@@ -1,0 +1,6 @@
+Message all_active_patient_journeys__v (
+   label(),
+   active(true),
+   default_value('All Active Patient Journeys'),
+   system_managed(false)
+);

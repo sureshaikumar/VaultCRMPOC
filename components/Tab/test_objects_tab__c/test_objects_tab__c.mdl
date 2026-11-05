@@ -1,0 +1,15 @@
+RECREATE Tab test_objects_tab__c (
+   active(true),
+   all_view_label('All Test Objects Tab'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Test Objects Tab'),
+   modal_create_record(true),
+   my_view_label('My Test Objects Tab'),
+   object('test_object__c'),
+   order(7300),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Test Objects Tab')
+);

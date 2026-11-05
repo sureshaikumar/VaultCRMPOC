@@ -1,0 +1,19 @@
+Field sort_code__v (
+   label('Sort Code'),
+   type('String'),
+   active(true),
+   description('This value is used to custom sort the list of product in order line entry.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(47),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

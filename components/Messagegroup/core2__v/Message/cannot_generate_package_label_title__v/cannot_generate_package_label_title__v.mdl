@@ -1,0 +1,6 @@
+Message cannot_generate_package_label_title__v (
+   label(),
+   active(true),
+   default_value('Cannot Generate Package Label'),
+   system_managed(false)
+);

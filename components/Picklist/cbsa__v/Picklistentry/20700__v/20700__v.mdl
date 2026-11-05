@@ -1,0 +1,5 @@
+Picklistentry 20700__v (
+   value('East Stroudsburg, PA Micropolitan Statistical Area'),
+   order(638),
+   active(true)
+);

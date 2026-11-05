@@ -1,0 +1,6 @@
+Picklistentry hpbhs__v (
+   value('Hepato-Pancreato-Biliary (HPB) Surgery'),
+   order(697),
+   active(true),
+   controlling_entries('ph__v')
+);

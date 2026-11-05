@@ -1,0 +1,6 @@
+Message max_char_reached__v (
+   label(),
+   active(true),
+   default_value('${field_name} cannot exceed ${max_value} characters.'),
+   system_managed(false)
+);

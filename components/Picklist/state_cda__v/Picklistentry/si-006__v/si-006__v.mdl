@@ -1,0 +1,6 @@
+Picklistentry si-006__v (
+   value('Bovec'),
+   order(3980),
+   active(true),
+   controlling_entries('si__v')
+);

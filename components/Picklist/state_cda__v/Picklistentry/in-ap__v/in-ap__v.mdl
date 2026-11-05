@@ -1,0 +1,6 @@
+Picklistentry in-ap__v (
+   value('Andhra Pradesh'),
+   order(1998),
+   active(true),
+   controlling_entries('in__v')
+);

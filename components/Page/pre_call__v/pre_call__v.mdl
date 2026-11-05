@@ -1,0 +1,14 @@
+RECREATE Page pre_call__v (
+   label('Pre-Call'),
+   active(true),
+   client_distribution(),
+   default_client_code('pre_call__v'),
+   description('Pre-Call'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('pre-call')
+);

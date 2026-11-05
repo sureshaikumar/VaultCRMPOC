@@ -1,0 +1,5 @@
+Picklistentry vg__v (
+   value('Virgin Islands (British)'),
+   order(242),
+   active(true)
+);

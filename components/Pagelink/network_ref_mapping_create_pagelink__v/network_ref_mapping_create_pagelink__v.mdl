@@ -1,0 +1,11 @@
+RECREATE Pagelink network_ref_mapping_create_pagelink__v (
+   label('Network Reference Mapping Create'),
+   description('Redirects Network Reference Mapping Creation to the Network Field Mapping App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create/network_reference_mapping__v'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.network_reference_mapping__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.network_field_mapping__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry be-wna__v (
+   value('Namur'),
+   order(314),
+   active(true),
+   controlling_entries('be__v')
+);

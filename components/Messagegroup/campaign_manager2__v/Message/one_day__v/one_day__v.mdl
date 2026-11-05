@@ -1,0 +1,6 @@
+Message one_day__v (
+   label(),
+   active(true),
+   default_value('1 Day'),
+   system_managed(false)
+);

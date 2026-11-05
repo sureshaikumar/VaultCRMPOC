@@ -1,0 +1,6 @@
+Message create_new_case__v (
+   label(),
+   active(true),
+   default_value('Create New Case'),
+   system_managed(false)
+);

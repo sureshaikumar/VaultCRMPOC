@@ -1,0 +1,6 @@
+Picklistentry co-san__v (
+   value('Santander'),
+   order(753),
+   active(true),
+   controlling_entries('co__v')
+);

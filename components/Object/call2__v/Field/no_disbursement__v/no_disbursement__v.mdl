@@ -1,0 +1,18 @@
+Field no_disbursement__v (
+   label('No Disbursement'),
+   type('Boolean'),
+   active(true),
+   description('The No_Disbursement_vod field is used by the Call2_vod Trigger that creates Disbursement Sample Transactions. If this field is set to True, then the Sample Transactions will not be created by the Trigger. This can be utilized when loading historical call'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(94),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,13 @@
+Vsmfield include_object_record_attachments__v (
+   label('Include Object Record Attachments'),
+   active(true),
+   description('Boolean flag indicating whether object record attachments should be included when processing this package data entry. When true, associated file attachments are bundled and deployed alongside the object records.'),
+   example_values(),
+   synonyms('include attachments',
+         'with attachments',
+         'attachments flag'),
+   target('include_object_record_attachments__sys'),
+   target_label('Include Object Record Attachments'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

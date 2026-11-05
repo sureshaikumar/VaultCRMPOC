@@ -1,0 +1,6 @@
+Message consent_signatures__v (
+   label(),
+   active(true),
+   default_value('Consent Signatures'),
+   system_managed(false)
+);

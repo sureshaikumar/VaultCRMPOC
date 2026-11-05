@@ -1,0 +1,6 @@
+Picklistentry ke-15__v (
+   value('Kirinyaga'),
+   order(2368),
+   active(true),
+   controlling_entries('ke__v')
+);

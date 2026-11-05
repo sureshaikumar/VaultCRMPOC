@@ -1,0 +1,10 @@
+Vsmvalue tmt__v (
+   label('TMT'),
+   active(true),
+   description('Applies when transactions are denominated in the Turkmenistani Manat, the official currency of Turkmenistan since 2009.'),
+   synonyms('Turkmenistani manat',
+         'Turkmenistan currency',
+         'manat'),
+   target('tmt__sys'),
+   target_label('TMT')
+);

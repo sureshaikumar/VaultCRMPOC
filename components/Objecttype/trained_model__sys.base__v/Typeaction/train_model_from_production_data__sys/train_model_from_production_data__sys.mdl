@@ -1,0 +1,3 @@
+Typeaction train_model_from_production_data__sys (
+   action('trained_model__sys.train_model_from_production_data__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry nz-cit__v (
+   value('Chatham Islands Territory'),
+   order(3429),
+   active(true),
+   controlling_entries('nz__v')
+);

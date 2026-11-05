@@ -1,0 +1,6 @@
+Message assignment_field_force_exclusion__v (
+   label(),
+   active(true),
+   default_value('{0} cannot be aligned to territories affiliated with {1} between {2} and {3} due to an exclusion.'),
+   system_managed(false)
+);

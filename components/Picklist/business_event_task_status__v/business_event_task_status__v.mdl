@@ -1,0 +1,10 @@
+RECREATE Picklist business_event_task_status__v (
+   label('Task Status'),
+   active(true),
+   Picklistentry(@Picklistentry/not_started__v.mdl),
+   Picklistentry(@Picklistentry/canceled__v.mdl),
+   Picklistentry(@Picklistentry/complete__v.mdl),
+   Picklistentry(@Picklistentry/skipped__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

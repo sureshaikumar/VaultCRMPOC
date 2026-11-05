@@ -1,0 +1,45 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.network_object_mapping__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:control reference="crm_object_api_name_field_control__v" name="crm_object_api_name_field_control__c" />
+            <vault:control reference="external_id_api_name_field_control__v" name="external_id_api_name_field_control__c" />
+            <vault:control reference="network_object_api_name_field_control__v" name="network_object_api_name_field_control__c" />
+            <vault:field reference="network_mapping__v" />
+            <vault:field reference="person_account__v" />
+            <vault:field reference="validation_status__v" />
+            <vault:field reference="validation_notes__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="id" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="legacy_crm_id__v" />
+            <vault:field reference="status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Hidden Fields" name="hidden_fields__c" helpContent="Fields in this section are hidden and replaced by application control fields">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="crm_object_api_name__v" />
+            <vault:field reference="external_id_api_name__v" />
+            <vault:field reference="network_object_api_name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Network Field Mappings" name="network_field_mappings__c">
+        <vault:relatedObject relationship="network_field_mappings__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="crm_field_api_name__v" width="200px" />
+            <vault:field reference="network_field_api_name__v" width="200px" />
+            <vault:field reference="object_mapping_reference__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="validation_status__v" width="200px" />
+            <vault:field reference="validation_notes__v" width="200px" />
+            <vault:field reference="external_id__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry vol (
+   value('Volapük'),
+   order(342),
+   active(true)
+);

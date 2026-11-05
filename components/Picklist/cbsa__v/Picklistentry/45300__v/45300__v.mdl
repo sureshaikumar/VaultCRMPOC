@@ -1,0 +1,5 @@
+Picklistentry 45300__v (
+   value('Tampa-St. Petersburg-Clearwater, FL Metropolitan Statistical Area'),
+   order(20),
+   active(true)
+);

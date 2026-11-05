@@ -1,0 +1,16 @@
+Picklistentry apnaa__v (
+   value('Anatomical Pathology'),
+   order(60),
+   active(true),
+   controlling_entries('be__v',
+         'ca__v',
+         'dz__v',
+         'id__v',
+         'lb__v',
+         'lu__v',
+         'ma__v',
+         'my__v',
+         'na__v',
+         'ng__v',
+         'nz__v')
+);

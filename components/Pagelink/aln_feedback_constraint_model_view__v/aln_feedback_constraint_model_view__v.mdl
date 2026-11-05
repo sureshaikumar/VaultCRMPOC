@@ -1,0 +1,9 @@
+RECREATE Pagelink aln_feedback_constraint_model_view__v (
+   label('Model Feedback Constraint View'),
+   url('https://valign-sbx-us-east-2-prod-app.veevavault.com/entities/feedbackConstraintModelDetail.xhtml?vaulturl={{Vault.domain}}&vaultid={{Vault.id}}&pageMode=VIEW&objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.aln_feedback_constraint_model__v'),
+   active(true),
+   disable_type_select(false)
+);

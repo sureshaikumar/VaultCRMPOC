@@ -1,0 +1,6 @@
+Message vmi_offline_submit__v (
+   label(),
+   active(true),
+   default_value('Medical Insights cannot be submitted while offline.'),
+   system_managed(false)
+);

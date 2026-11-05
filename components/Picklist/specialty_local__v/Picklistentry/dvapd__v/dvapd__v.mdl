@@ -1,0 +1,6 @@
+Picklistentry dvapd__v (
+   value('Dermatology Venereology Aesthetics Pediatric Dermatology'),
+   order(406),
+   active(true),
+   controlling_entries('id__v')
+);

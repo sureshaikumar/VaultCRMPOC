@@ -1,0 +1,42 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_speaker_nomination__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="comments__v" />
+            <vault:field reference="credentials__v" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="justification__v" />
+            <vault:field reference="last_name__v" />
+            <vault:field reference="lock__v" />
+            <vault:field reference="override_lock__v" />
+            <vault:field reference="em_speaker_nomination_status__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="speaker__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="address__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

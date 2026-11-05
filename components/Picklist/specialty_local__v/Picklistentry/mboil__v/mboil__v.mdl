@@ -1,0 +1,6 @@
+Picklistentry mboil__v (
+   value('Molecular Biology'),
+   order(974),
+   active(true),
+   controlling_entries('cm__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-214__v (
+   value('Mayuge'),
+   order(4682),
+   active(true),
+   controlling_entries('ug__v')
+);

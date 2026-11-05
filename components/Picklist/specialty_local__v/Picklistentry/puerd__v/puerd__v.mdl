@@ -1,0 +1,18 @@
+Picklistentry puerd__v (
+   value('Pediatric Urology'),
+   order(1467),
+   active(true),
+   controlling_entries('am__v',
+         'cz__v',
+         'fr__v',
+         'ge__v',
+         'gr__v',
+         'kg__v',
+         'mc__v',
+         'pl__v',
+         'rs__v',
+         'sk__v',
+         'tr__v',
+         'ua__v',
+         'us__v')
+);

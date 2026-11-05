@@ -1,0 +1,6 @@
+Picklistentry ee-50__v (
+   value('Jõgevamaa'),
+   order(1102),
+   active(true),
+   controlling_entries('ee__v')
+);

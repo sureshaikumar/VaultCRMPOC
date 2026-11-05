@@ -1,0 +1,6 @@
+Picklistentry ma-tat__v (
+   value('Tata'),
+   order(2844),
+   active(true),
+   controlling_entries('ma__v')
+);

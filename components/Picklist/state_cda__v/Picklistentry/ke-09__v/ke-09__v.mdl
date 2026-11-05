@@ -1,0 +1,6 @@
+Picklistentry ke-09__v (
+   value('Isiolo'),
+   order(2362),
+   active(true),
+   controlling_entries('ke__v')
+);

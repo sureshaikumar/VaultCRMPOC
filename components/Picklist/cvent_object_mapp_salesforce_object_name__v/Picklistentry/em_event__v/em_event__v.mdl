@@ -1,0 +1,5 @@
+Picklistentry em_event__v (
+   value('EM Event'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry spouse__v (
+   value('Spouse'),
+   order(1),
+   active(true)
+);

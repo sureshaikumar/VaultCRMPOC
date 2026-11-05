@@ -1,0 +1,4 @@
+Typefield uq_email_country_display_domain__v (
+   source('standard'),
+   required(false)
+);

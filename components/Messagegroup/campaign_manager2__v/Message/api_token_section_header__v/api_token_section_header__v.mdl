@@ -1,0 +1,6 @@
+Message api_token_section_header__v (
+   label(),
+   active(true),
+   default_value('API token'),
+   system_managed(false)
+);

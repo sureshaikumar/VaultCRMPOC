@@ -1,0 +1,6 @@
+Picklistentry tr-48__v (
+   value('Muğla'),
+   order(4506),
+   active(true),
+   controlling_entries('tr__v')
+);

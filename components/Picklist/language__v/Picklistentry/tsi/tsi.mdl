@@ -1,0 +1,5 @@
+Picklistentry tsi (
+   value('Tsimshian'),
+   order(330),
+   active(true)
+);

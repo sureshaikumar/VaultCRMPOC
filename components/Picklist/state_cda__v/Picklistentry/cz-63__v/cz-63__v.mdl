@@ -1,0 +1,6 @@
+Picklistentry cz-63__v (
+   value('Vysočina'),
+   order(871),
+   active(true),
+   controlling_entries('cz__v')
+);

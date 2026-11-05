@@ -1,0 +1,5 @@
+Picklistentry fur__v (
+   value('Friulian'),
+   order(105),
+   active(false)
+);

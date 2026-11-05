@@ -1,0 +1,4 @@
+Typefield total_revenue_000_corp__sys (
+   source('standard'),
+   required(false)
+);

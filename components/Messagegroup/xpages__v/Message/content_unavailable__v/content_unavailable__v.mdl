@@ -1,0 +1,6 @@
+Message content_unavailable__v (
+   label(),
+   active(true),
+   default_value('Content unavailable'),
+   system_managed(false)
+);

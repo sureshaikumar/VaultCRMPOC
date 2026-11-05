@@ -1,0 +1,6 @@
+Picklistentry pmars__v (
+   value('Physical Medicine and Rehabilitation Sports'),
+   order(1549),
+   active(true),
+   controlling_entries('id__v')
+);

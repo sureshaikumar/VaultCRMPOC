@@ -1,0 +1,18 @@
+Field billing_cda__v (
+   label('Billing'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether this represents a billing address.'),
+   required(false),
+   checkbox(true),
+   help_content('Checkbox to determine if an Address serves as a billing address.'),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

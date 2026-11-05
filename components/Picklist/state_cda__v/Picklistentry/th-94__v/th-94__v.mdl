@@ -1,0 +1,6 @@
+Picklistentry th-94__v (
+   value('Pattani'),
+   order(4402),
+   active(true),
+   controlling_entries('th__v')
+);

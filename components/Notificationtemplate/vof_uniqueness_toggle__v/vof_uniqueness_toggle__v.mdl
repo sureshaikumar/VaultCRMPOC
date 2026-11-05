@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate vof_uniqueness_toggle__v (
+   label('Vof Uniqueness Toggle'),
+   active(true),
+   description('Notification template notifying user about the status for their field uniqueness enablement or disablement'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Your uniqueness update job is complete'),
+   notification('<p>Your uniqueness update job is complete</p> <p>Detail:</p> <ul> <li>Object: ${objectname}</li> <li>Unique field: ${fieldname}</li> <li>Start time: ${starttime}</li> <li>Duration: ${duration}</li> <li>Status: ${status}</li> </ul>'),
+   email_body('<p>Your uniqueness update job is complete</p> <p>Detail:</p> <ul> <li>Object: ${objectname}</li> <li>Unique field: ${fieldname}</li> <li>Start time: ${starttime}</li> <li>Duration: ${duration}</li> <li>Status: ${status}</li> </ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

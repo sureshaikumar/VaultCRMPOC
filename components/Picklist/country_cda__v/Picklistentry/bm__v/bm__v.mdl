@@ -1,0 +1,5 @@
+Picklistentry bm__v (
+   value('Bermuda'),
+   order(24),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-803__v (
+   value('Karviná'),
+   order(899),
+   active(true),
+   controlling_entries('cz__v')
+);

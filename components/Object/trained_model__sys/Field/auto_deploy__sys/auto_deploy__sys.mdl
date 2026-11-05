@@ -1,0 +1,18 @@
+Field auto_deploy__sys (
+   label('Auto-Deploy'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Indicates that, if this is a model automatically created and trained by the system following a release, the model will be automatically deployed.'),
+   list_column(true),
+   order(21),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

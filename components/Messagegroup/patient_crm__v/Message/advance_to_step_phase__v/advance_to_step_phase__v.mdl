@@ -1,0 +1,6 @@
+Message advance_to_step_phase__v (
+   label(),
+   active(true),
+   default_value('Start ${step_phase_label}'),
+   system_managed(false)
+);

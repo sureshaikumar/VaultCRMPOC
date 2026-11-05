@@ -1,0 +1,6 @@
+Message secondary_color_error_settings__v (
+   label(),
+   active(true),
+   default_value('Override Theme Color must be selected in order to select an Override Secondary Theme Color.'),
+   system_managed(false)
+);

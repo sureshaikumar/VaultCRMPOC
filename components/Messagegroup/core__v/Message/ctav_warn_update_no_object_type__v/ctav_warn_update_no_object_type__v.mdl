@@ -1,0 +1,6 @@
+Message ctav_warn_update_no_object_type__v (
+   label(),
+   active(true),
+   default_value('Source Vault CRM record ${record_id} has object type which the target Vault CRM user does not have access to. The record will retain its existing object type.'),
+   system_managed(false)
+);

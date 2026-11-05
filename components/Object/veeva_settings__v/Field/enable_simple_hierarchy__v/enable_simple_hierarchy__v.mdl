@@ -1,0 +1,18 @@
+Field enable_simple_hierarchy__v (
+   label('Enable Simple Hierarchy'),
+   type('Boolean'),
+   active(true),
+   description('Determines the type of Account Hierarchy supported by the application.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(183),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

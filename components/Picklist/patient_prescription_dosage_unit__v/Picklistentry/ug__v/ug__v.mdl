@@ -1,0 +1,5 @@
+Picklistentry ug__v (
+   value('ug - Microgram'),
+   order(1),
+   active(true)
+);

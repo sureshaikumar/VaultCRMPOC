@@ -1,0 +1,6 @@
+Message user_already_added_to_journey__v (
+   label(),
+   active(true),
+   default_value('${user} already added to Journey'),
+   system_managed(false)
+);

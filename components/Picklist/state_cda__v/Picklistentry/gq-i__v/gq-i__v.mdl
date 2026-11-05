@@ -1,0 +1,6 @@
+Picklistentry gq-i__v (
+   value('Región Insular'),
+   order(1762),
+   active(true),
+   controlling_entries('gq__v')
+);

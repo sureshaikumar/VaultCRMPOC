@@ -1,0 +1,6 @@
+Message common_clear__v (
+   label(),
+   active(true),
+   default_value('Clear'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield unique_vault_mobile_android_visit_count__v (
+   source('standard'),
+   required(false)
+);

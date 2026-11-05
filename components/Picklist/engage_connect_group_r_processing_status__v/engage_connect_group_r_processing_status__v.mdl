@@ -1,0 +1,9 @@
+RECREATE Picklist engage_connect_group_r_processing_status__v (
+   label('Processing Status'),
+   active(true),
+   Picklistentry(@Picklistentry/in_process__v.mdl),
+   Picklistentry(@Picklistentry/success__v.mdl),
+   Picklistentry(@Picklistentry/failure__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

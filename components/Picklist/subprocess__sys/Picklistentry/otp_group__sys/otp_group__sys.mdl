@@ -1,0 +1,6 @@
+Picklistentry otp_group__sys (
+   value('Group'),
+   order(77),
+   active(true),
+   controlling_entries('olc_event_team_member__sys')
+);

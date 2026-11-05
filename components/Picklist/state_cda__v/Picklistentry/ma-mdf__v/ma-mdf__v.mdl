@@ -1,0 +1,6 @@
+Picklistentry ma-mdf__v (
+   value('M’diq-Fnideq'),
+   order(2817),
+   active(true),
+   controlling_entries('ma__v')
+);

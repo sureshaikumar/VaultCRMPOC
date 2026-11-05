@@ -1,0 +1,4 @@
+Typefield sms_phone_number_id__v (
+   source('custom'),
+   required(false)
+);

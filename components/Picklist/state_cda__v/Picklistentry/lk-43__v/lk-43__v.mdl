@@ -1,0 +1,6 @@
+Picklistentry lk-43__v (
+   value('Mannar'),
+   order(2575),
+   active(true),
+   controlling_entries('lk__v')
+);

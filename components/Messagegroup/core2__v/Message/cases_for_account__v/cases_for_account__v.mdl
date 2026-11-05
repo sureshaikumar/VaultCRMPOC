@@ -1,0 +1,6 @@
+Message cases_for_account__v (
+   label(),
+   active(true),
+   default_value('Cases for ${account_name}'),
+   system_managed(false)
+);

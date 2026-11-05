@@ -1,0 +1,6 @@
+Picklistentry fpsal__v (
+   value('Facial Plastic Surgery'),
+   order(528),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry submit_auto__v (
+   value('Submit_Auto'),
+   order(2),
+   active(false)
+);

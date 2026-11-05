@@ -1,0 +1,6 @@
+Picklistentry ua-12__v (
+   value('Dnipropetrovska oblast'),
+   order(4619),
+   active(true),
+   controlling_entries('ua__v')
+);

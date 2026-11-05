@@ -1,0 +1,4 @@
+Typefield last_synced_datetime__v (
+   source('custom'),
+   required(false)
+);

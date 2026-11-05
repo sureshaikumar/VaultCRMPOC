@@ -1,0 +1,18 @@
+Field default_call_address_none__v (
+   label('Default Call Address None'),
+   type('Boolean'),
+   active(true),
+   description('If checked, the Address field on a new Call will always default to --None-- regardless of whether or not a value exists in the Preferred Address field on the Territory Field object. If the Address field is marked as required, the --None-- value will not b'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(110),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

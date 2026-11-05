@@ -1,0 +1,6 @@
+Typefield patient_journey_step_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.patient_journey_step_status__v.active__v',
+         'Picklist.patient_journey_step_status__v.inactive__v')
+);

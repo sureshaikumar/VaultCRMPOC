@@ -1,0 +1,8 @@
+RECREATE Objectvalidation campaign__v.max_email_priority_validation__v (
+   label('Max Email Priority Validation'),
+   active(true),
+   expression('Regex(BlankValue(email_address_priority__v, ""), "^([^,]*,){0,4}[^,]*$")'),
+   description('Warning Text'),
+   error_message('Exceeds max value of 5 Email Address fields'),
+   error_location('email_address_priority__v')
+);

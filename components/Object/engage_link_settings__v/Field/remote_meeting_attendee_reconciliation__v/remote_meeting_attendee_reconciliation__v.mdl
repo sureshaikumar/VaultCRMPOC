@@ -1,0 +1,18 @@
+Field remote_meeting_attendee_reconciliation__v (
+   label('Remote Meeting Attendee Reconciliation'),
+   type('Boolean'),
+   active(true),
+   description('Enables the remote meeting attendee reconciliation feature.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(22),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

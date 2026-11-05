@@ -1,0 +1,8 @@
+RECREATE Objectaction test_object__c.new_crm_product_creation__c (
+   label('New CRM Product Creation'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.custom.actions.NewProductCreationRecordAction'),
+   active(true),
+   available_all_states(false)
+);

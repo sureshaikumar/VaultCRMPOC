@@ -1,0 +1,6 @@
+Message rule_create_model_account__v (
+   label(),
+   active(true),
+   default_value('Create Model Account Rule'),
+   system_managed(false)
+);

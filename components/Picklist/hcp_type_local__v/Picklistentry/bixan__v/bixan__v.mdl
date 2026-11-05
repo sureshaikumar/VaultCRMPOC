@@ -1,0 +1,5 @@
+Picklistentry bixan__v (
+   value('Biomedical Analyst'),
+   order(13),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Typefield portal_access__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_portal_access__v.disabled__v',
+         'Picklist.em_speaker_portal_access__v.enabled__v')
+);

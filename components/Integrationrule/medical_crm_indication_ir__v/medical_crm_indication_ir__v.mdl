@@ -1,0 +1,12 @@
+RECREATE Integrationrule medical_crm_indication_ir__v (
+   label('Indication Integration Rule'),
+   active(true),
+   connection('medical_crm__v'),
+   integration_point('medical_crm_indication_iip__v'),
+   primary_query_object('indication__v'),
+   Fieldrule(@Fieldrule/deleted_in_source__v.mdl),
+   Fieldrule(@Fieldrule/link__v.mdl),
+   Fieldrule(@Fieldrule/name__v.mdl),
+   Fieldrule(@Fieldrule/original_source_id__v.mdl),
+   Fieldrule(@Fieldrule/source_status__v.mdl)
+);

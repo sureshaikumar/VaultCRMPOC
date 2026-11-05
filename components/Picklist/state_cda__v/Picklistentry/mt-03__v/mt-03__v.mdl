@@ -1,0 +1,6 @@
+Picklistentry mt-03__v (
+   value('Birgu'),
+   order(3109),
+   active(true),
+   controlling_entries('mt__v')
+);

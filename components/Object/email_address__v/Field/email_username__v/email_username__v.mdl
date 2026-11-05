@@ -1,0 +1,19 @@
+Field email_username__v (
+   label('Email Username'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(64),
+   help_content('The username of your email address. Enter all text prior to the @ symbol.'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction saved_state__v.entryaction__v (
+   rule(@rule.xml),
+   order(1000)
+);

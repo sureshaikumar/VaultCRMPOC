@@ -1,0 +1,15 @@
+Field unsubscribe_cancel_html_file__v (
+   label('Unsubscribe Cancel HTML'),
+   type('Attachment'),
+   active(true),
+   description('Holds the HTML that will be used for the cancel page when the recipient cancels the changes on the unsubscribe page.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

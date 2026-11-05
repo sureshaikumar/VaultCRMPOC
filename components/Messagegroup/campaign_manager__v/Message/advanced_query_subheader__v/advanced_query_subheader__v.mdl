@@ -1,0 +1,6 @@
+Message advanced_query_subheader__v (
+   label(),
+   active(true),
+   default_value('Write a query using VQL'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 16420__v (
+   value('Central City, KY Micropolitan Statistical Area'),
+   order(926),
+   active(true)
+);

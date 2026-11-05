@@ -1,0 +1,6 @@
+Message aws_account_id__v (
+   label(),
+   active(true),
+   default_value('AWS Account ID'),
+   system_managed(false)
+);

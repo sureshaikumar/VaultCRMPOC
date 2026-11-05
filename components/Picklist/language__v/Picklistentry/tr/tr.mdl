@@ -1,0 +1,5 @@
+Picklistentry tr (
+   value('Turkish'),
+   order(29),
+   active(true)
+);

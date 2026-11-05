@@ -1,0 +1,4 @@
+Typefield set_currency__v (
+   source('standard'),
+   required(false)
+);

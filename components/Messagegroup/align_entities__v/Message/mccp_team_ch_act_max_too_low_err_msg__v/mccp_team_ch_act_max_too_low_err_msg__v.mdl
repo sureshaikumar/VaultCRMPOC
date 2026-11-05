@@ -1,0 +1,6 @@
+Message mccp_team_ch_act_max_too_low_err_msg__v (
+   label(),
+   active(true),
+   default_value('Channel {0} team activity max {1} must be equal to or greater than its highest product {2} team activity max {3}'),
+   system_managed(false)
+);

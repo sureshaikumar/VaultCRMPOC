@@ -1,0 +1,18 @@
+Field check_in_status__v (
+   label('Check-In Status'),
+   type('Picklist'),
+   active(true),
+   description('The status of the adherence check-in at the time of activity.'),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.check_in_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

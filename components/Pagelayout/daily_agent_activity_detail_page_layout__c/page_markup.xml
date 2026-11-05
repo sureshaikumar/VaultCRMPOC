@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.daily_agent_activity__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="aggregation_date__sys" />
+            <vault:field reference="agent_id__sys" />
+            <vault:field reference="object_id__sys" />
+            <vault:field reference="object_type_id__sys" />
+            <vault:field reference="document_type_id__sys" />
+            <vault:field reference="connection_id__sys" />
+            <vault:field reference="object_label__sys" />
+            <vault:field reference="object_type_label__sys" />
+            <vault:field reference="document_type_label__sys" />
+            <vault:field reference="agent_label__sys" />
+            <vault:field reference="connection_label__sys" />
+            <vault:field reference="connection_api_name__sys" />
+            <vault:field reference="object_records__sys" />
+            <vault:field reference="documents__sys" />
+            <vault:field reference="document_versions__sys" />
+            <vault:field reference="unique_owners__sys" />
+            <vault:field reference="agent_instances__sys" />
+            <vault:field reference="input_tokens__sys" />
+            <vault:field reference="output_tokens__sys" />
+            <vault:field reference="total_tokens__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

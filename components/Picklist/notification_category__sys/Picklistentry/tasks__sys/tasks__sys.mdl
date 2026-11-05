@@ -1,0 +1,5 @@
+Picklistentry tasks__sys (
+   value('Tasks'),
+   order(3),
+   active(true)
+);

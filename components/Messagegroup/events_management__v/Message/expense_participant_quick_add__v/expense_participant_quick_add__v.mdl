@@ -1,0 +1,6 @@
+Message expense_participant_quick_add__v (
+   label(),
+   active(true),
+   default_value('Quick Add'),
+   system_managed(false)
+);

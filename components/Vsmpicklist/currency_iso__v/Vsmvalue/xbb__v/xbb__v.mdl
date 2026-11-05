@@ -1,0 +1,10 @@
+Vsmvalue xbb__v (
+   label('XBB'),
+   active(true),
+   description('Applies when transactions reference the European Monetary Unit (EMU-6), a bond market unit used in European financial markets.'),
+   synonyms('European monetary unit',
+         'EMU-6',
+         'bond market monetary unit'),
+   target('xbb__sys'),
+   target_label('XBB')
+);

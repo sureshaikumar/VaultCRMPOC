@@ -1,0 +1,6 @@
+Picklistentry cd-ma__v (
+   value('Maniema'),
+   order(587),
+   active(true),
+   controlling_entries('cd__v')
+);

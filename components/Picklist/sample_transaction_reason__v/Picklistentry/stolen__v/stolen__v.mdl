@@ -1,0 +1,5 @@
+Picklistentry stolen__v (
+   value('Stolen'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Typefield downloaded_rendition__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.message_activity_downloaded_rendition__v.pdf__v',
+         'Picklist.message_activity_downloaded_rendition__v.source__v')
+);

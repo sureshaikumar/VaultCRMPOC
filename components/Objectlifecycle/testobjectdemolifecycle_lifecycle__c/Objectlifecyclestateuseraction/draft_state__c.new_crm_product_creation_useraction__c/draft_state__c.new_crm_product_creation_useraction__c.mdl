@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction draft_state__c.new_crm_product_creation_useraction__c (
+   label('New CRM Product Creation'),
+   rule(@rule.xml),
+   order(2002)
+);

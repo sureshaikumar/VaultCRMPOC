@@ -1,0 +1,5 @@
+Picklistentry 47940__v (
+   value('Waterloo-Cedar Falls, IA Metropolitan Statistical Area'),
+   order(330),
+   active(true)
+);

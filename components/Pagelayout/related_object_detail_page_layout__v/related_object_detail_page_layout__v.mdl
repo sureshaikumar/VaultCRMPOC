@@ -1,0 +1,8 @@
+RECREATE Pagelayout related_object_detail_page_layout__v (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Related Object Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

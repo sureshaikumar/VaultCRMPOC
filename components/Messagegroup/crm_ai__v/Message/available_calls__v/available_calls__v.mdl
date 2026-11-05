@@ -1,0 +1,6 @@
+Message available_calls__v (
+   label(),
+   active(true),
+   default_value('Available Calls'),
+   system_managed(false)
+);

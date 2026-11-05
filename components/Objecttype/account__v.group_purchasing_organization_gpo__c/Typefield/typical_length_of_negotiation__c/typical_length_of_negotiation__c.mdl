@@ -1,0 +1,4 @@
+Typefield typical_length_of_negotiation__c (
+   source('custom'),
+   required(false)
+);

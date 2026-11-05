@@ -1,0 +1,5 @@
+Picklistentry adverse_event__v (
+   value('Adverse Event'),
+   order(0),
+   active(true)
+);

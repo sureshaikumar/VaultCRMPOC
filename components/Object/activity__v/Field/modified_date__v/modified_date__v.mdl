@@ -1,0 +1,17 @@
+Field modified_date__v (
+   label('Last Modified Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   rollup(false),
+   control_binding()
+);

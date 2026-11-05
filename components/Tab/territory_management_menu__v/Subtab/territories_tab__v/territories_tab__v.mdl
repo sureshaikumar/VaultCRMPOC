@@ -1,0 +1,12 @@
+Subtab territories_tab__v (
+   active(true),
+   enable_global_search(true),
+   global_search_placeholder(''),
+   label('Territories'),
+   modal_create_record(false),
+   order(0),
+   page('Page.territories_page__v'),
+   parent('territory_management_menu__v'),
+   prevent_create(false),
+   url(@url.txt)
+);

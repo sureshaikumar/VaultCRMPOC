@@ -1,0 +1,6 @@
+Picklistentry pldeu__v (
+   value('Pediatric Lung Disease'),
+   order(1404),
+   active(true),
+   controlling_entries('kw__v')
+);

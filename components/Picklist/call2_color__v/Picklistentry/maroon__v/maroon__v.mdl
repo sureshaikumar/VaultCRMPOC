@@ -1,0 +1,5 @@
+Picklistentry maroon__v (
+   value('Maroon'),
+   order(10),
+   active(true)
+);

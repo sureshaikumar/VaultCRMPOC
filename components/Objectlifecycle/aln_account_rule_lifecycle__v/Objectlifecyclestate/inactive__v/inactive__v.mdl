@@ -1,0 +1,11 @@
+Objectlifecyclestate inactive__v (
+   label('Inactive'),
+   active(true),
+   record_inactive(),
+   record_status('inactive__v'),
+   description('Rules in this state are not included in assignment previews,
+and their assignments will be deleted or end-dated.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

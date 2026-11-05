@@ -1,0 +1,6 @@
+Picklistentry ve-r__v (
+   value('Sucre'),
+   order(4903),
+   active(true),
+   controlling_entries('ve__v')
+);

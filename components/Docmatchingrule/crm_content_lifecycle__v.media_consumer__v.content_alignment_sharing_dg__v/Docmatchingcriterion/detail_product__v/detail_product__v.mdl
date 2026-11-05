@@ -1,0 +1,5 @@
+Docmatchingcriterion detail_product__v (
+   object_field('Field.detail_product__v'),
+   data_field('Docfield.detail_product__v'),
+   object('Object.user_role_setup__v')
+);

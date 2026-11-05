@@ -1,0 +1,5 @@
+Objectlifecyclerole testrole__c (
+   active(true),
+   application_role('Applicationrole.testrole__c'),
+   permissions()
+);

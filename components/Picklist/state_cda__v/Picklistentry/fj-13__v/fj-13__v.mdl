@@ -1,0 +1,6 @@
+Picklistentry fj-13__v (
+   value('Serua'),
+   order(1304),
+   active(true),
+   controlling_entries('fj__v')
+);

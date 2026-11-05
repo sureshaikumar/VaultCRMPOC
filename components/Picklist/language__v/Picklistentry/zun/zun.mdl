@@ -1,0 +1,5 @@
+Picklistentry zun (
+   value('Zuni'),
+   order(355),
+   active(true)
+);

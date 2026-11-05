@@ -1,0 +1,6 @@
+Message project_concur_process_conflict_header__v (
+   label(),
+   active(true),
+   default_value('Processing Project {0} Conflict'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message no_network__v (
+   label(),
+   active(true),
+   default_value('No network connection is available.'),
+   system_managed(false)
+);

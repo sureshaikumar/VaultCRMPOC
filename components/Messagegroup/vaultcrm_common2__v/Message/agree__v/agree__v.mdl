@@ -1,0 +1,6 @@
+Message agree__v (
+   label(),
+   active(true),
+   default_value('Agree'),
+   system_managed(false)
+);

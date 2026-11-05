@@ -1,0 +1,6 @@
+Message my_accounts_selected__v (
+   label(),
+   active(true),
+   default_value('${selected_accounts} of ${total_accounts} Accounts selected'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry paapf__v (
+   value('Pediatric and Adolescent Pulmonology'),
+   order(1328),
+   active(true),
+   controlling_entries('de__v')
+);

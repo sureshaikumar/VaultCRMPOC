@@ -1,0 +1,14 @@
+Vsmfield data_action__v (
+   label('Data Action'),
+   active(true),
+   description('Specifies the operation to be performed on the data during package deployment, such as upsert, insert, update, or delete. Determines how incoming records interact with existing Vault data.'),
+   example_values(),
+   synonyms('action',
+         'operation',
+         'import action',
+         'record action'),
+   target('data_action__v'),
+   target_label('Data Action'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

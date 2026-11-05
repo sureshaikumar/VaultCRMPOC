@@ -1,0 +1,6 @@
+Picklistentry dty_letter_of_medical_necessity1__sys (
+   value('Letter of Medical Necessity'),
+   order(87),
+   active(true),
+   controlling_entries('dlc_patient_intake__sys')
+);

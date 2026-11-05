@@ -1,0 +1,5 @@
+Picklistentry new__c (
+   value('new'),
+   order(0),
+   active(true)
+);

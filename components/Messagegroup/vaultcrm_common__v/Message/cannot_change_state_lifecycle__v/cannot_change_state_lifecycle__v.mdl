@@ -1,0 +1,6 @@
+Message cannot_change_state_lifecycle__v (
+   label(),
+   active(true),
+   default_value('Cannot change "${resource_identifier}" to state "${state}": ${error_message}'),
+   system_managed(false)
+);

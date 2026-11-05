@@ -1,0 +1,6 @@
+Message email_sent_activity__v (
+   label(),
+   active(true),
+   default_value('Email Sent'),
+   system_managed(false)
+);

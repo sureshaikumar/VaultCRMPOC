@@ -1,0 +1,6 @@
+Picklistentry wf-uv__v (
+   value('Uvea'),
+   order(4983),
+   active(true),
+   controlling_entries('wf__v')
+);

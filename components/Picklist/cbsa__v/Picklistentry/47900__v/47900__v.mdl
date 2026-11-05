@@ -1,0 +1,5 @@
+Picklistentry 47900__v (
+   value('Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Statistical Area'),
+   order(348),
+   active(true)
+);

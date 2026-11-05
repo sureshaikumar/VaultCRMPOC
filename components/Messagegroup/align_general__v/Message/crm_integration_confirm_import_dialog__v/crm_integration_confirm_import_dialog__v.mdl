@@ -1,0 +1,6 @@
+Message crm_integration_confirm_import_dialog__v (
+   label(),
+   active(true),
+   default_value('Import from {0}'),
+   system_managed(false)
+);

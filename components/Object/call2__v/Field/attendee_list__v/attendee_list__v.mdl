@@ -1,0 +1,17 @@
+Field attendee_list__v (
+   label('Other Non-HCP Attendees'),
+   type('LongText'),
+   active(true),
+   description('This text field is a semi colon delimited list of Non-HCP attendees who were on this call. This text field can be displayed in Concur so that the User can then match to other Non-HCPs later.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry gn-bk__v (
+   value('Boké Prefecture'),
+   order(1718),
+   active(true),
+   controlling_entries('gn__v')
+);

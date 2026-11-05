@@ -1,0 +1,14 @@
+Vsmfield error_type__v (
+   label('Error Type'),
+   active(true),
+   description('Picklist categorizing the type of error that caused this exception (e.g., validation error, system error, data error). Use this to group or filter exceptions by their nature for triage and reporting.'),
+   example_values(),
+   synonyms('failure type',
+         'exception category',
+         'error category',
+         'error classification'),
+   target('error_type__sys'),
+   target_label('Error Type'),
+   vsm_picklist('Vsmpicklist.exception_item_error_type__v'),
+   vsm_picklist_local()
+);

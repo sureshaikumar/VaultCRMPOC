@@ -1,0 +1,6 @@
+Message error_joining_channel__v (
+   label(),
+   active(true),
+   default_value('Error Joining Channel'),
+   system_managed(false)
+);

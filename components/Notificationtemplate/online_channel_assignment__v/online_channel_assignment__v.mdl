@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate online_channel_assignment__v (
+   label('Channel Assignment Online'),
+   active(true),
+   description('Notifies the user when an Email Channel Assignment enters Online state'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.channel_assignment__v'),
+   subject('Email Inbox Online'),
+   notification('An email inbox is now online and active.<br/>Details:<br/><ul><li>Email Inbox Name: ${Object.name__v}</li><li>Status Message: New emails will appear on the Inbound Tab.</li><li>Modified Date: ${Object.modified_date__v}</li></ul>'),
+   email_body('An email inbox is now online and active.<br/>Details:<br/><ul><li>Email Inbox Name: ${Object.name__v}</li><li>Status Message: New emails will appear on the Inbound Tab.</li><li>Modified Date: ${Object.modified_date__v}</li></ul>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

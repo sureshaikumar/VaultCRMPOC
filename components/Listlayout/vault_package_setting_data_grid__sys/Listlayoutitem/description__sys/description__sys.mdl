@@ -1,0 +1,12 @@
+Listlayoutitem description__sys (
+   label(),
+   active(true),
+   control_label('Description'),
+   field_key(),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Control'),
+   object_control('Objectcontrol.vault_package_setting_desc_control__sys'),
+   object_control_properties(@object_control_properties.xml),
+   omit_header_label()
+);

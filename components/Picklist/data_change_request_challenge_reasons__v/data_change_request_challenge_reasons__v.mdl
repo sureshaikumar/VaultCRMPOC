@@ -1,0 +1,12 @@
+RECREATE Picklist data_change_request_challenge_reasons__v (
+   label('Challenge Reasons'),
+   active(true),
+   Picklistentry(@Picklistentry/bad_data__v.mdl),
+   Picklistentry(@Picklistentry/on_leave__v.mdl),
+   Picklistentry(@Picklistentry/distance__v.mdl),
+   Picklistentry(@Picklistentry/low_priority__v.mdl),
+   Picklistentry(@Picklistentry/no_longer_at_location__v.mdl),
+   Picklistentry(@Picklistentry/poor_access__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

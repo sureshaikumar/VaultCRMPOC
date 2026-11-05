@@ -1,0 +1,4 @@
+Typefield geocode_fail__v (
+   source('custom'),
+   required(false)
+);

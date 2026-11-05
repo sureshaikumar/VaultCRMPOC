@@ -1,0 +1,5 @@
+Typefield topic_category__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.topic_category__v.pain_management__v')
+);

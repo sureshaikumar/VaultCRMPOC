@@ -1,0 +1,19 @@
+Field record_type_name__v (
+   label('Record Type Name'),
+   type('String'),
+   active(true),
+   description('For VeevaMessage type, Veeva Message to be replaced. Can be data-loaded using External ID on Veeva Message.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('DeveloperName of Record Type'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

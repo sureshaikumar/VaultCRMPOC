@@ -1,0 +1,4 @@
+Typefield detail_topic__v (
+   source('standard'),
+   required(false)
+);

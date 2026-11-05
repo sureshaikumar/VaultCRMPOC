@@ -1,0 +1,5 @@
+Objectlifecyclerole event_team_member__v (
+   active(true),
+   application_role('Applicationrole.event_team_member__v'),
+   permissions()
+);

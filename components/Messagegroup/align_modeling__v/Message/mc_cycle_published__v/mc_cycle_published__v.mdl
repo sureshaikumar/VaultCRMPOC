@@ -1,0 +1,6 @@
+Message mc_cycle_published__v (
+   label(),
+   active(true),
+   default_value('Published'),
+   system_managed(false)
+);

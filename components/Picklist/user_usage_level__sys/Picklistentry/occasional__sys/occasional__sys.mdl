@@ -1,0 +1,5 @@
+Picklistentry occasional__sys (
+   value('Occasional'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.send_fax_action__v (
+   label('Send Fax'),
+   description('Send Fax'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.approvedemail.actions.sendtofax.SendFaxAction'),
+   active(true),
+   available_all_states(true)
+);

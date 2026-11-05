@@ -1,0 +1,4 @@
+Typefield push_notification_test_user__v (
+   source('standard'),
+   required(false)
+);

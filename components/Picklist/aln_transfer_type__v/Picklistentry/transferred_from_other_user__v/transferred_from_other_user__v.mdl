@@ -1,0 +1,5 @@
+Picklistentry transferred_from_other_user__v (
+   value('Transferred from other user'),
+   order(1),
+   active(true)
+);

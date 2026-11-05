@@ -1,0 +1,6 @@
+Message offline_data_cannot_resolve_token__v (
+   label(),
+   active(true),
+   default_value('Unable to retrieve data to send email. Please connect to the internet and try again.'),
+   system_managed(false)
+);

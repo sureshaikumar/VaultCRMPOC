@@ -1,0 +1,20 @@
+Field product_id__v (
+   label('Product ID'),
+   type('String'),
+   active(true),
+   description('Global ID of the associated Product record.'),
+   required(false),
+   unique(false),
+   max_length(30),
+   help_content(),
+   list_column(false),
+   order(23),
+   default_value('product__vr.global_id__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

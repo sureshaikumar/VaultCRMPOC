@@ -1,0 +1,4 @@
+Typefield collaborative_relationship_inactive__v (
+   source('custom'),
+   required(false)
+);

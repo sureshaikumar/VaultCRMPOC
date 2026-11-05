@@ -1,0 +1,6 @@
+Message sent_by_on_date__v (
+   label(),
+   active(true),
+   default_value('Sent by ${name} on ${date}'),
+   system_managed(false)
+);

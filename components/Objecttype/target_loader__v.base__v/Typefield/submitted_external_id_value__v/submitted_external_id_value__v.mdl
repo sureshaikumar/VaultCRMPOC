@@ -1,0 +1,4 @@
+Typefield submitted_external_id_value__v (
+   source('standard'),
+   required(false)
+);

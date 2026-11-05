@@ -1,0 +1,6 @@
+Message connection_not_pending__v (
+   label(),
+   active(true),
+   default_value('Expired Connection File'),
+   system_managed(false)
+);

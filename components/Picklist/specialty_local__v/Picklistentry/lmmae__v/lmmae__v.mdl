@@ -1,0 +1,6 @@
+Picklistentry lmmae__v (
+   value('Laboratory Medicine / Microbiology'),
+   order(853),
+   active(true),
+   controlling_entries('qa__v')
+);

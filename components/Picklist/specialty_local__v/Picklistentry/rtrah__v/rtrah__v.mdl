@@ -1,0 +1,6 @@
+Picklistentry rtrah__v (
+   value('Radiology Thoracic Radiology'),
+   order(1699),
+   active(true),
+   controlling_entries('id__v')
+);

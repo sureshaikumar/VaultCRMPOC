@@ -1,0 +1,4 @@
+Typefield products__c (
+   source('standard'),
+   required(false)
+);

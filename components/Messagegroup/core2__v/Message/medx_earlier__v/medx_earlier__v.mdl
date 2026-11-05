@@ -1,0 +1,6 @@
+Message medx_earlier__v (
+   label(),
+   active(true),
+   default_value('Earlier'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry us-ca__v (
+   value('California'),
+   order(4796),
+   active(true),
+   controlling_entries('us__v')
+);

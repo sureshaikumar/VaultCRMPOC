@@ -1,0 +1,6 @@
+Message document_type__sys (
+   label(),
+   active(true),
+   default_value('Document Type'),
+   system_managed(true)
+);

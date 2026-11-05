@@ -1,0 +1,5 @@
+Picklistentry bam__sys (
+   value('BAM'),
+   order(15),
+   active(true)
+);

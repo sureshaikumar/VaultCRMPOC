@@ -1,0 +1,5 @@
+Picklistentry nl__v (
+   value('Dutch'),
+   order(15),
+   active(true)
+);

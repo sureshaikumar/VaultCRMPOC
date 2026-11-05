@@ -1,0 +1,5 @@
+Picklistentry nio__sys (
+   value('NIO'),
+   order(133),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry us-mi__v (
+   value('Michigan'),
+   order(4815),
+   active(true),
+   controlling_entries('us__v')
+);

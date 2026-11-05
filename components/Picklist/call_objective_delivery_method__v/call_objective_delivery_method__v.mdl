@@ -1,0 +1,11 @@
+RECREATE Picklist call_objective_delivery_method__v (
+   label('Delivery Method'),
+   active(true),
+   Picklistentry(@Picklistentry/call__v.mdl),
+   Picklistentry(@Picklistentry/fax__v.mdl),
+   Picklistentry(@Picklistentry/dm__v.mdl),
+   Picklistentry(@Picklistentry/ncw__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

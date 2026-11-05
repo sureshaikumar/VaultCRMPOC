@@ -1,0 +1,6 @@
+Picklistentry ciatm__v (
+   value('Clinical Immunology and Transfusion Medicine'),
+   order(234),
+   active(true),
+   controlling_entries('se__v')
+);

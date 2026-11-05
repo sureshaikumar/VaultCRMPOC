@@ -1,0 +1,5 @@
+Picklistentry resid__v (
+   value('Resident'),
+   order(139),
+   active(true)
+);

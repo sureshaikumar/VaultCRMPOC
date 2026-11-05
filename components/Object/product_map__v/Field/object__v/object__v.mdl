@@ -1,0 +1,19 @@
+Field object__v (
+   label('Object'),
+   type('String'),
+   active(true),
+   description('Object on which the dependent picklist field exists'),
+   required(true),
+   unique(false),
+   max_length(43),
+   help_content('Enter the API name of the object for the dependent picklist field.'),
+   list_column(true),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

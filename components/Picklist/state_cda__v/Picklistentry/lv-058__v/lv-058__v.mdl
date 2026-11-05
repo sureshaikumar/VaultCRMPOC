@@ -1,0 +1,6 @@
+Picklistentry lv-058__v (
+   value('Ludzas novads'),
+   order(2716),
+   active(true),
+   controlling_entries('lv__v')
+);

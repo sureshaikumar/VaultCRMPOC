@@ -1,0 +1,6 @@
+Message missing_consent__v (
+   label(),
+   active(true),
+   default_value('Missing Consent'),
+   system_managed(false)
+);

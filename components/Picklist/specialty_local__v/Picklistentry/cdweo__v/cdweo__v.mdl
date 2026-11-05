@@ -1,0 +1,6 @@
+Picklistentry cdweo__v (
+   value('Conservative Dentistry with Endodontics'),
+   order(330),
+   active(true),
+   controlling_entries('pl__v')
+);

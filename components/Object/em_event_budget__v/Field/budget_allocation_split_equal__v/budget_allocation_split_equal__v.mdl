@@ -1,0 +1,17 @@
+Field budget_allocation_split_equal__v (
+   label('Allocate Budgets Equally'),
+   type('Boolean'),
+   active(true),
+   description('Controls how expenses are allocated across Event Budgets. When enabled, the system automatically distributes allocations evenly across all active Event Budgets using the default allocation model. When override is enabled, users must manually enter whole-number allocation percentages for each Event Budget, and the total allocation across all active Event Budgets must equal 100%.'),
+   required(false),
+   checkbox(true),
+   help_content('Select to automatically split expenses evenly across all active Event Budgets. Deselect to enter custom allocation percentages for each Event Budget.'),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

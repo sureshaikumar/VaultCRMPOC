@@ -1,0 +1,23 @@
+Field percent_lives__v (
+   label('Percent Lives'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('The percentage of lives (for this account) that are covered by this plan. Gives a relative indication of the importance of this plan within the account. Percent Lives is not a calculated field and is not kept in sync with #of lives.'),
+   required(false),
+   unique(false),
+   max_value(9.99),
+   min_value(-9.99),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

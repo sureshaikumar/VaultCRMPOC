@@ -1,0 +1,12 @@
+RECREATE Jobmetadata link_migration_continuity_job__v (
+   label('Link Continuity for Migrating Customers'),
+   active(true),
+   chunk_size(500),
+   description('Job to sync data to Engage Off-Platform services to ensure link continuity during migration'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.engage.jobs.LinkMigrationContinuityJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

@@ -1,0 +1,6 @@
+Message start_whatsapp_conversation__v (
+   label(),
+   active(true),
+   default_value('Choose a message template to start the conversation via WhatsApp.'),
+   system_managed(false)
+);

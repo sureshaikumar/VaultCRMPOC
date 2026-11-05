@@ -1,0 +1,6 @@
+Message vault_job_runs_daily_at__v (
+   label(),
+   active(true),
+   default_value('Runs daily at ${time} (${gmt_offset}) ${timezone_name} (${timezone_id})'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry case_template__v (
+   value('Case Template'),
+   order(3),
+   active(true)
+);

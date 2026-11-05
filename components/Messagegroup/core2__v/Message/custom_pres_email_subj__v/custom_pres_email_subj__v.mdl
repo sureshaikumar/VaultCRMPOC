@@ -1,0 +1,6 @@
+Message custom_pres_email_subj__v (
+   label(),
+   active(true),
+   default_value('Slides Used in One or More of Your Custom Presentations Have Changed'),
+   system_managed(false)
+);

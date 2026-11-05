@@ -1,0 +1,6 @@
+Message last_result__v (
+   label(),
+   active(true),
+   default_value('Last Result'),
+   system_managed(false)
+);

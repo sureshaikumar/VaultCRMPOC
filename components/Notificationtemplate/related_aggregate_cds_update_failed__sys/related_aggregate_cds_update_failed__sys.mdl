@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate related_aggregate_cds_update_failed__sys (
+   label('Related Aggregate CDs Update Failed'),
+   active(true),
+   description('Sent when the Update Related Aggregate Checklist Designs action does not complete successfully.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.checklist_design__sys'),
+   subject('${Custom.numFailedAggregateChecklistDesigns} Aggregate Checklist Designs failed to update when Sub-Checklist Design was updated to a new version'),
+   notification('<p>${Custom.numFailedAggregateChecklistDesigns} Aggregate Checklist Designs failed to automatically update when Sub-Checklist Design <a href="${Custom.oldSubChecklistDesignVersionURL}">${Custom.oldSubChecklistDesignVersionName}</a> was updated to a new version. ${Custom.numUpdatedAggregateChecklistDesigns} Aggregate Checklist Designs were successfully updated.</p><p>The Aggregate Checklist Designs that failed to update need to be assessed for required updates. Full details are available <a href="${Custom.summaryFileUrl}">here</a>.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

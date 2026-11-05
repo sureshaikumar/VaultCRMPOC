@@ -1,0 +1,10 @@
+Vsmvalue fkp__v (
+   label('FKP'),
+   active(true),
+   description('The Falkland Islands Pound (FKP), the official currency of the Falkland Islands, used for transactions and financial records involving the Falkland Islands.'),
+   synonyms('Falkland Islands pound',
+         'Falkland pound',
+         'Falkland Islands currency'),
+   target('fkp__sys'),
+   target_label('FKP')
+);

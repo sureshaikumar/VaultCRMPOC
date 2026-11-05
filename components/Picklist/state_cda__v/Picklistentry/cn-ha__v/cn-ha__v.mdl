@@ -1,0 +1,6 @@
+Picklistentry cn-ha__v (
+   value('Henan Sheng'),
+   order(701),
+   active(true),
+   controlling_entries('cn__v')
+);

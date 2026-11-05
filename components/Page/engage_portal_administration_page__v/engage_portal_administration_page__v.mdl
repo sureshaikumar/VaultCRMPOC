@@ -1,0 +1,14 @@
+RECREATE Page engage_portal_administration_page__v (
+   label('My Engage Portal Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code('engage_portal_administration_page__v'),
+   description('My Engage Portal Administration page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.commcenter.controls.MyEngagePortalAdminPageController'),
+   url_path_name('engage-portal-administration')
+);

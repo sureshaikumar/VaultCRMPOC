@@ -1,0 +1,4 @@
+Typefield product_metric_filter_logic__v (
+   source('standard'),
+   required(false)
+);

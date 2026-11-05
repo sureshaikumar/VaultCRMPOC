@@ -1,0 +1,6 @@
+Picklistentry rs-14__v (
+   value('Borski okrug'),
+   order(3772),
+   active(true),
+   controlling_entries('rs__v')
+);

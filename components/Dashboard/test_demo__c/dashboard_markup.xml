@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2" combinePromptsBy="promptLabel">
+  <vault:chart name="test__c" label="test" type="bar" report="Report.interactions_by_type_matrix__c" description="" footer="">
+    <vault:position row="0" col="0" sizeX="6" sizeY="9" />
+    <vault:format showlegend="true" showvalue="true" xaxislabel="Call Type" yaxislabel="Record Count (Call Sample)" />
+    <vault:series metric="RecordCount.call2_sample__v___call2__v">
+      <vault:grouping key="call2__v.call_type__v" value="" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="test2__c" label="test2" type="gauge" report="Report.test_demo_with_account__c" description="" footer="">
+    <vault:position row="0" col="6" sizeX="6" sizeY="7" />
+    <vault:format showmetrics="true" showgroupings="true" showvalue="true" min="0.0" max="100.0">
+      <vault:range color="#427B2E" min="0.0" max="30.0" />
+      <vault:range color="#D9780D" min="30.0" max="70.0" />
+      <vault:range color="#B71307" min="70.0" max="100.0" />
+    </vault:format>
+    <vault:series metric="RecordCount.test_object__c___account__c" unitlabel="    ">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+  </vault:chart>
+  <vault:chart name="sales__c" label="sales" type="table" report="Report.test_demo_with_account__c" description="" footer="">
+    <vault:position row="0" col="12" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount.test_object__c___account__c">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="test_object__c.account__c" label="Test Object &gt; Account" property="link" />
+      <vault:reportColumn key="test_object__c.name__v" label="Test Object &gt; Name" property="link" />
+      <vault:reportColumn key="test_object__c.status__v" label="Test Object &gt; Status" property="data" />
+      <vault:reportColumn key="test_object__c.test_validation__c" label="Test Object &gt; Test Validation" property="data" />
+      <vault:reportColumn key="test_object__c.test_value__c" label="Test Object &gt; Test Value" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+</vault:dashboard>

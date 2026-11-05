@@ -1,0 +1,6 @@
+Message mccp_no_approval_rule_logic_warning__v (
+   label(),
+   active(true),
+   default_value('No criteria selected for Approval Rule.'),
+   system_managed(false)
+);

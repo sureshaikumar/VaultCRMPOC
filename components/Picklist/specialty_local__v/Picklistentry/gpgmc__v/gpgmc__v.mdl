@@ -1,0 +1,6 @@
+Picklistentry gpgmc__v (
+   value('General Practice / General Medical Care'),
+   order(609),
+   active(true),
+   controlling_entries('vn__v')
+);

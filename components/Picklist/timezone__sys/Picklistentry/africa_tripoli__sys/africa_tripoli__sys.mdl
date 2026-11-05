@@ -1,0 +1,5 @@
+Picklistentry africa_tripoli__sys (
+   value('(GMT+02:00) Eastern European Time (Africa/Tripoli)'),
+   order(175),
+   active(true)
+);

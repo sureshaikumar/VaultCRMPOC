@@ -1,0 +1,6 @@
+Picklistentry ly-bu__v (
+   value('Al Buţnān'),
+   order(2745),
+   active(true),
+   controlling_entries('ly__v')
+);

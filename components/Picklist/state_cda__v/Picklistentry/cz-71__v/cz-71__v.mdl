@@ -1,0 +1,6 @@
+Picklistentry cz-71__v (
+   value('Olomouc Region'),
+   order(885),
+   active(true),
+   controlling_entries('cz__v')
+);

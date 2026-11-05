@@ -1,0 +1,6 @@
+Message lifecycle_state_error__v (
+   label(),
+   active(true),
+   default_value('There is no matching Lifecycle State. Please contact your System Administrator'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field primary__v (
+   label('Primary'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Indicates a roster member''s primary territory assignment. Can be used to resolve profile conflicts if using CRM User Management.'),
+   list_column(false),
+   order(17),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

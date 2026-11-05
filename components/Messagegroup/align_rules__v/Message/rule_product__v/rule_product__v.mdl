@@ -1,0 +1,6 @@
+Message rule_product__v (
+   label(),
+   active(true),
+   default_value('Product'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry va__v (
+   value('Holy See (Vatican City State)'),
+   order(236),
+   active(true)
+);

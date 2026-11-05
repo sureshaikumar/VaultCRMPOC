@@ -1,0 +1,18 @@
+Field multichannel_explicit_opt_in__v (
+   label('Approved Email Opt-in Required'),
+   type('Boolean'),
+   active(true),
+   description('Determines NULL behavior of Account.Multi_Channel_Opt_Type_vod attribute. If FALSE, Approved Email Opt-In is not required for Accounts. When TRUE, Approved Email Opt-In is required for Accounts, and an opt-in record must be present in MultiChannel_Consent'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(26),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

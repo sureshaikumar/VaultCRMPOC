@@ -1,0 +1,6 @@
+Message import_require_field_map__v (
+   label(),
+   active(true),
+   default_value('Not all required fields mapped'),
+   system_managed(false)
+);

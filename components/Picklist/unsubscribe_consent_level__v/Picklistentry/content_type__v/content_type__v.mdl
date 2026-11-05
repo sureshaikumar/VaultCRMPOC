@@ -1,0 +1,5 @@
+Picklistentry content_type__v (
+   value('Content Type'),
+   order(1),
+   active(true)
+);

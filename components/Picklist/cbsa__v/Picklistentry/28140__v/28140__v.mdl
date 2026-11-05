@@ -1,0 +1,5 @@
+Picklistentry 28140__v (
+   value('Kansas City, MO-KS Metropolitan Statistical Area'),
+   order(149),
+   active(true)
+);

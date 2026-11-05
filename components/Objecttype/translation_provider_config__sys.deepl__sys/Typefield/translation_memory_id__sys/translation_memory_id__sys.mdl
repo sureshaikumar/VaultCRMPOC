@@ -1,0 +1,4 @@
+Typefield translation_memory_id__sys (
+   source('standard'),
+   required(false)
+);

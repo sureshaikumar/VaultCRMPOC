@@ -1,0 +1,6 @@
+Picklistentry jp-13__v (
+   value('Tokyo'),
+   order(2319),
+   active(true),
+   controlling_entries('jp__v')
+);

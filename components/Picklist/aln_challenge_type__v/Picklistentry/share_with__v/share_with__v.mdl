@@ -1,0 +1,5 @@
+Picklistentry share_with__v (
+   value('Share With'),
+   order(8),
+   active(true)
+);

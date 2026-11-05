@@ -1,0 +1,6 @@
+Picklistentry vu-sam__v (
+   value('Sanma'),
+   order(4977),
+   active(true),
+   controlling_entries('vu__v')
+);

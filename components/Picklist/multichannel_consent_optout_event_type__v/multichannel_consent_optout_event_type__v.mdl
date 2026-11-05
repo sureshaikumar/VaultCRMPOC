@@ -1,0 +1,10 @@
+RECREATE Picklist multichannel_consent_optout_event_type__v (
+   label('Event Type'),
+   active(true),
+   Picklistentry(@Picklistentry/unsubscribed__v.mdl),
+   Picklistentry(@Picklistentry/bounced__v.mdl),
+   Picklistentry(@Picklistentry/marked_spam__v.mdl),
+   Picklistentry(@Picklistentry/consent_capture__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message call_objective_object_type_error__v (
+   label(),
+   active(true),
+   default_value('${call_objective_label} must be the same Object Type as ${business_event_target_label}'),
+   system_managed(false)
+);

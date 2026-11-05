@@ -1,0 +1,6 @@
+Message vault_crm_instance_product_metrics_tip_3__v (
+   label(),
+   active(true),
+   default_value('Syntax: account__vr.ispersonaccount__v = true AND account__vr.status__v = &#39;active__v&#39;'),
+   system_managed(false)
+);

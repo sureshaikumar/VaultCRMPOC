@@ -1,0 +1,6 @@
+Picklistentry si-044__v (
+   value('Kanal'),
+   order(4018),
+   active(true),
+   controlling_entries('si__v')
+);

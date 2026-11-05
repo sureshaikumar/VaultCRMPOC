@@ -1,0 +1,6 @@
+Picklistentry pe-lal__v (
+   value('La Libertad'),
+   order(3480),
+   active(true),
+   controlling_entries('pe__v')
+);

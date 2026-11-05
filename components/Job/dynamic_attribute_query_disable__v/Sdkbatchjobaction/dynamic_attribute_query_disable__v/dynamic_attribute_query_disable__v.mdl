@@ -1,0 +1,6 @@
+Sdkbatchjobaction dynamic_attribute_query_disable__v (
+   job_metadata('Jobmetadata.dynamic_attribute_query_disable__v'),
+   label('Dynamic Attribute Query Disable Job'),
+   parameters(),
+   primary_action(true)
+);

@@ -1,0 +1,4 @@
+Typefield delivery_net_amount_corpv__sys (
+   source('custom'),
+   required(false)
+);

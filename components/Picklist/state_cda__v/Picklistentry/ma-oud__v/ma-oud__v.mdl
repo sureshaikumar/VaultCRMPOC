@@ -1,0 +1,6 @@
+Picklistentry ma-oud__v (
+   value('Oued Ed-Dahab (EH)'),
+   order(2826),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry fjd__sys (
+   value('FJD'),
+   order(64),
+   active(true)
+);

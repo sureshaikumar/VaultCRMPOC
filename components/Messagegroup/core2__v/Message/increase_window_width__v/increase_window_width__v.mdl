@@ -1,0 +1,6 @@
+Message increase_window_width__v (
+   label(),
+   active(true),
+   default_value('Increase the window width to continue'),
+   system_managed(false)
+);

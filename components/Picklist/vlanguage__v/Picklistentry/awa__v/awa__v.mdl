@@ -1,0 +1,5 @@
+Picklistentry awa__v (
+   value('Awadhi'),
+   order(24),
+   active(false)
+);

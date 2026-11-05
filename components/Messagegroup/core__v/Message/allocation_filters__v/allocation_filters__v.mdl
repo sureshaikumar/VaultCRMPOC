@@ -1,0 +1,6 @@
+Message allocation_filters__v (
+   label(),
+   active(true),
+   default_value('Allocation Filters'),
+   system_managed(false)
+);

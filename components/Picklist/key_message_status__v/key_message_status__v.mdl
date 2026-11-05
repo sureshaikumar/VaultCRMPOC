@@ -1,0 +1,9 @@
+RECREATE Picklist key_message_status__v (
+   label('Key Message Status'),
+   active(true),
+   Picklistentry(@Picklistentry/approved__v.mdl),
+   Picklistentry(@Picklistentry/staged__v.mdl),
+   Picklistentry(@Picklistentry/expired__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

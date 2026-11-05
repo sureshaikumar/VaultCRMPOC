@@ -1,0 +1,5 @@
+Picklistentry zm__v (
+   value('ZM'),
+   order(250),
+   active(true)
+);

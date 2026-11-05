@@ -1,0 +1,6 @@
+Picklistentry kn-03__v (
+   value('Saint George Basseterre'),
+   order(2443),
+   active(true),
+   controlling_entries('kn__v')
+);

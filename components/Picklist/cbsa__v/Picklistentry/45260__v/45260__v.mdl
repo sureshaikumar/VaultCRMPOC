@@ -1,0 +1,5 @@
+Picklistentry 45260__v (
+   value('Tallulah, LA Micropolitan Statistical Area'),
+   order(26),
+   active(true)
+);

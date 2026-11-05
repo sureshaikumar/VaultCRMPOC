@@ -1,0 +1,4 @@
+Typefield content_filters__v (
+   source('custom'),
+   required(false)
+);

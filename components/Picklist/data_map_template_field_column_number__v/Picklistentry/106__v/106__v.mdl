@@ -1,0 +1,5 @@
+Picklistentry 106__v (
+   value('106'),
+   order(105),
+   active(true)
+);

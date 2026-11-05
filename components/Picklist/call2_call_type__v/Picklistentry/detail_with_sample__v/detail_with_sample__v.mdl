@@ -1,0 +1,5 @@
+Picklistentry detail_with_sample__v (
+   value('Detail with Sample'),
+   order(2),
+   active(true)
+);

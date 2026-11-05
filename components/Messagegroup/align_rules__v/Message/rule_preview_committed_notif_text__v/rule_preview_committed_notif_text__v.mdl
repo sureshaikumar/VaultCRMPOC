@@ -1,0 +1,6 @@
+Message rule_preview_committed_notif_text__v (
+   label(),
+   active(true),
+   default_value('This account assignment preview has been committed and is no longer available. Press the "back" button on your browser to return to the previous page.'),
+   system_managed(false)
+);

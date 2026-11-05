@@ -1,0 +1,6 @@
+Picklistentry ki-g__v (
+   value('Gilbert Islands'),
+   order(2435),
+   active(true),
+   controlling_entries('ki__v')
+);

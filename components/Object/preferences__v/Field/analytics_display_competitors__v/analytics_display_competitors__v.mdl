@@ -1,0 +1,18 @@
+Field analytics_display_competitors__v (
+   label('Analytics Display Competitors'),
+   type('Boolean'),
+   active(true),
+   description('This setting retains a users selection of the Display Competitions checkbox in VInsights.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(17),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

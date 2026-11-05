@@ -1,0 +1,6 @@
+Message unable_to_add_more_than_x_pages__v (
+   label(),
+   active(true),
+   default_value('Unable to add more than ${x} pages'),
+   system_managed(false)
+);

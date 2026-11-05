@@ -1,0 +1,5 @@
+Picklistentry read__v (
+   value('Read'),
+   order(0),
+   active(true)
+);

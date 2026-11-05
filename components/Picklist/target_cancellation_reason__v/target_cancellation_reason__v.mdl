@@ -1,0 +1,9 @@
+RECREATE Picklist target_cancellation_reason__v (
+   label('Cancellation Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/wrong_affiliation__v.mdl),
+   Picklistentry(@Picklistentry/patient_stopped_treatment__v.mdl),
+   Picklistentry(@Picklistentry/no_purchase__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

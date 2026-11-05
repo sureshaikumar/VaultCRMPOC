@@ -1,0 +1,6 @@
+Picklistentry vn-30__v (
+   value('Gia Lai'),
+   order(4933),
+   active(true),
+   controlling_entries('vn__v')
+);

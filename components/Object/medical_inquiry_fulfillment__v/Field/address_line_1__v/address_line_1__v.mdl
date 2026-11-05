@@ -1,0 +1,19 @@
+Field address_line_1__v (
+   label('Address Line 1'),
+   type('String'),
+   active(true),
+   description('The Address Line 1 of the Address captured for fulfillment of the associated Medical Inquiry request.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

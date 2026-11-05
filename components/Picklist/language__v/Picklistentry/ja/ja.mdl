@@ -1,0 +1,5 @@
+Picklistentry ja (
+   value('Japanese'),
+   order(17),
+   active(true)
+);

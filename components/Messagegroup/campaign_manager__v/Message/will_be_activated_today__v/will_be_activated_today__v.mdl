@@ -1,0 +1,6 @@
+Message will_be_activated_today__v (
+   label(),
+   active(true),
+   default_value('Will be activated today'),
+   system_managed(false)
+);

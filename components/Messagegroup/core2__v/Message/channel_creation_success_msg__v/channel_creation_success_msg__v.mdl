@@ -1,0 +1,6 @@
+Message channel_creation_success_msg__v (
+   label(),
+   active(true),
+   default_value('Teams channel has been successfully created'),
+   system_managed(false)
+);

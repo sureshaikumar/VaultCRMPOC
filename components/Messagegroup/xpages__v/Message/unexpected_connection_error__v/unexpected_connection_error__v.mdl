@@ -1,0 +1,6 @@
+Message unexpected_connection_error__v (
+   label(),
+   active(true),
+   default_value('Unexpected Error'),
+   system_managed(false)
+);

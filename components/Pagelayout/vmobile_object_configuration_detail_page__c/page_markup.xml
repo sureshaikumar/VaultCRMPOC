@@ -1,0 +1,39 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.vmobile_object_configuration__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="object_name__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="parent_object_name__v" />
+            <vault:field reference="relationship_name__v" />
+            <vault:field reference="where_clause__v" />
+            <vault:field reference="meta_data_only__v" />
+            <vault:field reference="account_lookup_field__v" />
+            <vault:field reference="exclude_field_list__v" />
+            <vault:field reference="device__v" />
+            <vault:field reference="profile_id__v" />
+            <vault:field reference="include_related_objects__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="include_attachments__v" />
+            <vault:field reference="enable_enhanced_sync__v" />
+            <vault:field reference="external_id__v" />
+            <vault:spacer />
+            <vault:spacer />
+            <vault:field reference="security_profile__v" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="document_query_modifier__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

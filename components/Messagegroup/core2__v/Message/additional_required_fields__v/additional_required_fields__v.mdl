@@ -1,0 +1,6 @@
+Message additional_required_fields__v (
+   label(),
+   active(true),
+   default_value('Additional Required Fields'),
+   system_managed(false)
+);

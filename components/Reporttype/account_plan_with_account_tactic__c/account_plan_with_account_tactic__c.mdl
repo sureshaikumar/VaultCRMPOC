@@ -1,0 +1,9 @@
+RECREATE Reporttype account_plan_with_account_tactic__c (
+   label('Account Plan with Account Tactic'),
+   active(true),
+   description('Account Plan with Account Tactics'),
+   primary_object('account_plan__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

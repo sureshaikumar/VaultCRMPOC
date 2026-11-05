@@ -1,0 +1,11 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('A system generated field that combines the user\''s first name and last name into a single text field'),
+   example_values(),
+   synonyms(),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

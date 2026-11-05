@@ -1,0 +1,14 @@
+Vsmfield group_inherited__v (
+   label('Group Inherited From Parent?'),
+   active(true),
+   description('Indicates whether the group permissions or settings for this document type detail are inherited from its parent in the hierarchy. Use this to identify records that derive their group configuration from a parent type or subtype rather than having independently defined group settings.'),
+   example_values(),
+   synonyms('inherited',
+         'from parent',
+         'parent inherited',
+         'group inheritance'),
+   target('group_inherited__v'),
+   target_label('Group Inherited From Parent?'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

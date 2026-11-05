@@ -1,0 +1,7 @@
+Picklistentry mmeyd__v (
+   value('Medical Mycology'),
+   order(927),
+   active(true),
+   controlling_entries('ba__v',
+         'tr__v')
+);

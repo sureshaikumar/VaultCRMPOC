@@ -1,0 +1,6 @@
+Message territory_deleted_header__v (
+   label(),
+   active(true),
+   default_value('Territory No Longer Exists'),
+   system_managed(false)
+);

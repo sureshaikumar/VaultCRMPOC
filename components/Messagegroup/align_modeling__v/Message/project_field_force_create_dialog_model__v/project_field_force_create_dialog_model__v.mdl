@@ -1,0 +1,6 @@
+Message project_field_force_create_dialog_model__v (
+   label(),
+   active(true),
+   default_value('Add a new field force to this model'),
+   system_managed(false)
+);

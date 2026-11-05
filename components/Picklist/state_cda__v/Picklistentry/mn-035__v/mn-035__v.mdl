@@ -1,0 +1,6 @@
+Picklistentry mn-035__v (
+   value('Orhon'),
+   order(3070),
+   active(true),
+   controlling_entries('mn__v')
+);

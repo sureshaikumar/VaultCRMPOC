@@ -1,0 +1,18 @@
+Field require_key_message__v (
+   label('Require Key Message On Detail'),
+   type('Boolean'),
+   active(true),
+   description('Set this value to require a key message when this product is detailed.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(40),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

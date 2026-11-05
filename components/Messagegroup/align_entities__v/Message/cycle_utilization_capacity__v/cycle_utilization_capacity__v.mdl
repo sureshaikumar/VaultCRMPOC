@@ -1,0 +1,6 @@
+Message cycle_utilization_capacity__v (
+   label(),
+   active(true),
+   default_value('CAPACITY'),
+   system_managed(false)
+);

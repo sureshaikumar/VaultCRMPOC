@@ -1,0 +1,5 @@
+Picklistentry asia_srednekolymsk__sys (
+   value('(GMT+11:00) Srednekolymsk Time (Asia/Srednekolymsk)'),
+   order(300),
+   active(true)
+);

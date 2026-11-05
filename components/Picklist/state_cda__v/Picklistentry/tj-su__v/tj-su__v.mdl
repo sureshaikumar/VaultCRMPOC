@@ -1,0 +1,6 @@
+Picklistentry tj-su__v (
+   value('Sughd'),
+   order(4410),
+   active(true),
+   controlling_entries('tj__v')
+);

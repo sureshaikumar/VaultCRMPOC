@@ -1,0 +1,6 @@
+Message node_menu_actions__v (
+   label(),
+   active(true),
+   default_value('Actions'),
+   system_managed(false)
+);

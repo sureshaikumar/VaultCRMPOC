@@ -1,0 +1,6 @@
+Picklistentry ls-f__v (
+   value('Mohale''s Hoek'),
+   order(2614),
+   active(true),
+   controlling_entries('ls__v')
+);

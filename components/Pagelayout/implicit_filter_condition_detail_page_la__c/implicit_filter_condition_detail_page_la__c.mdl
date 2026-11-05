@@ -1,0 +1,8 @@
+RECREATE Pagelayout implicit_filter_condition_detail_page_la__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Implicit Filter Condition Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

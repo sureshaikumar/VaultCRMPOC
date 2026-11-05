@@ -1,0 +1,23 @@
+Field total_scheduled_calls__v (
+   label('Scheduled Total Calls'),
+   type('Number'),
+   active(true),
+   description('It holds the number of calls scheduled against the Cycle Plan Target by the team of representatives calling on that account.'),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(17),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

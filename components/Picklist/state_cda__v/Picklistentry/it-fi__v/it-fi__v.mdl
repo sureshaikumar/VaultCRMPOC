@@ -1,0 +1,6 @@
+Picklistentry it-fi__v (
+   value('Florence'),
+   order(2208),
+   active(true),
+   controlling_entries('it__v')
+);

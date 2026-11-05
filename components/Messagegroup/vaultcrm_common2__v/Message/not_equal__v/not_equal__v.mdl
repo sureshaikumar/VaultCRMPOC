@@ -1,0 +1,6 @@
+Message not_equal__v (
+   label(),
+   active(true),
+   default_value('Does not equal'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message scheduled_batches_run_frequency__v (
+   label(),
+   active(true),
+   default_value('Scheduled batches run ${frequency}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message flow_details__v (
+   label(),
+   active(true),
+   default_value('Flow Details'),
+   system_managed(false)
+);

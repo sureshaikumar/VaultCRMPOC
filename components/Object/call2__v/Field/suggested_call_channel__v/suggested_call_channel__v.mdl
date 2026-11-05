@@ -1,0 +1,18 @@
+Field suggested_call_channel__v (
+   label('Suggested Call Channel'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(220),
+   multi_value(false),
+   picklist('Picklist.channels__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

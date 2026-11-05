@@ -1,0 +1,12 @@
+Listlayoutitem account_identifier__v (
+   label('Account Identifier'),
+   active(true),
+   control_label(),
+   field_key('account_identifier__v'),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Field'),
+   object_control(),
+   object_control_properties(),
+   omit_header_label()
+);

@@ -1,0 +1,6 @@
+Picklistentry lt-22__v (
+   value('Kretinga'),
+   order(2640),
+   active(true),
+   controlling_entries('lt__v')
+);

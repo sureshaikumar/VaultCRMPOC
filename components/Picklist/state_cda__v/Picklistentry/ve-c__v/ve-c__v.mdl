@@ -1,0 +1,6 @@
+Picklistentry ve-c__v (
+   value('Apure'),
+   order(4889),
+   active(true),
+   controlling_entries('ve__v')
+);

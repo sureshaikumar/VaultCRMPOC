@@ -1,0 +1,13 @@
+RECREATE Objectvalidation em_event_rule__v.material_clm__v (
+   label('Material CLM'),
+   active(true),
+   expression('Or(
+            And(IsBlank(material__v), Not(IsBlank(clm_presentation__v))),
+            And(IsBlank(clm_presentation__v), Not(IsBlank(material__v))),
+            And(IsBlank(clm_presentation__v), IsBlank(material__v))
+        )'),
+   description('A single rule cannot have both Material and CLM Presentation populated. Please create separate rules for these two items.'),
+   error_message('A single rule cannot have both Material and CLM Presentation populated. Please create separate rules for these two items.'),
+   error_location('clm_presentation__v',
+      'material__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-095__v (
+   value('Preddvor'),
+   order(4069),
+   active(true),
+   controlling_entries('si__v')
+);

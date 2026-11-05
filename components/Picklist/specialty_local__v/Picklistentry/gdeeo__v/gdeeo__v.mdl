@@ -1,0 +1,10 @@
+Picklistentry gdeeo__v (
+   value('General Dentistry'),
+   order(595),
+   active(true),
+   controlling_entries('be__v',
+         'bw__v',
+         'lu__v',
+         'ro__v',
+         'sa__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry fj-n__v (
+   value('Northern'),
+   order(1308),
+   active(true),
+   controlling_entries('fj__v')
+);

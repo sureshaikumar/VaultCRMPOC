@@ -1,0 +1,13 @@
+Vsmfield component_type__v (
+   label('Component Type'),
+   active(true),
+   description('The type or category of the package component (e.g., object, workflow, document type). Use this field to filter or group components by their Vault artifact type during package analysis or deployment review.'),
+   example_values(),
+   synonyms('type',
+         'component category',
+         'artifact type'),
+   target('component_type__v'),
+   target_label('Component Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Picklistentry ps-ngz__v (
+   value('North Gaza'),
+   order(3647),
+   active(true),
+   controlling_entries('ps__v')
+);

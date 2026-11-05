@@ -1,0 +1,21 @@
+Field not_completed__v (
+   label('Not Completed'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Captures if a survey target record was submitted before its end date.'),
+   list_column(false),
+   order(57),
+   formula('If(end_date__v < Today() && state__v != "submitted_state__v" && state__v != "late_submission_state__v", "True", "False")'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

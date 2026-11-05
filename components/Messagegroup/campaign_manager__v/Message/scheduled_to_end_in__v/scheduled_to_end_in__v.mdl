@@ -1,0 +1,6 @@
+Message scheduled_to_end_in__v (
+   label(),
+   active(true),
+   default_value('Scheduled to end in'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_no_users_targeting__v (
+   label(),
+   active(true),
+   default_value('No users are planning to target this account'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field medical_event_mapping__v (
+   label('Medical Event Mapping'),
+   type('String'),
+   active(true),
+   description('A configurable field for mapping a Salesforce field to a Concur field at the Medical Event level.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

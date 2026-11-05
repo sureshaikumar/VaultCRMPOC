@@ -1,0 +1,6 @@
+Message targets_by_flow__v (
+   label(),
+   active(true),
+   default_value('Targets by Flow'),
+   system_managed(false)
+);

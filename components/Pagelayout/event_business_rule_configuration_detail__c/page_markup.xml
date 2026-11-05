@@ -1,0 +1,27 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_business_rule_configuration__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="event_business_rule__v" />
+            <vault:field reference="event_type__v" />
+            <vault:field reference="rule_start_date__v" />
+            <vault:field reference="rule_end_date__v" />
+            <vault:field reference="cost__v" />
+            <vault:field reference="limit_quantity__v" />
+            <vault:field reference="minimum_quantity__v" />
+            <vault:field reference="maximum_quantity__v" />
+            <vault:field reference="minimum_spend_limit__v" />
+            <vault:field reference="maximum_spend_limit__v" />
+            <vault:field reference="country__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

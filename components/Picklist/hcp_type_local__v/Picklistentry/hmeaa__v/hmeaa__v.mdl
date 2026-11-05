@@ -1,0 +1,5 @@
+Picklistentry hmeaa__v (
+   value('Healthcare Manager'),
+   order(50),
+   active(true)
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist report_class__sys (
+   label('Report Class'),
+   active(true),
+   Picklistentry(@Picklistentry/standard__sys.mdl),
+   Picklistentry(@Picklistentry/view__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

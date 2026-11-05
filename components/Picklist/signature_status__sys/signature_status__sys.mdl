@@ -1,0 +1,8 @@
+RECREATE Picklist signature_status__sys (
+   label('Signature Status'),
+   active(true),
+   Picklistentry(@Picklistentry/current__sys.mdl),
+   Picklistentry(@Picklistentry/obsolete__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

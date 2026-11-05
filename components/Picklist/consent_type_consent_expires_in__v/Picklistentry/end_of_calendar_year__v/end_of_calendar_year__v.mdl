@@ -1,0 +1,5 @@
+Picklistentry end_of_calendar_year__v (
+   value('End Of Calendar Year'),
+   order(1),
+   active(true)
+);

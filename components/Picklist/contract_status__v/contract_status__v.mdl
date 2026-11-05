@@ -1,0 +1,12 @@
+RECREATE Picklist contract_status__v (
+   label('Contract Status'),
+   active(true),
+   Picklistentry(@Picklistentry/draft__v.mdl),
+   Picklistentry(@Picklistentry/in_approval_process__v.mdl),
+   Picklistentry(@Picklistentry/activated__v.mdl),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   Picklistentry(@Picklistentry/signed__v.mdl),
+   Picklistentry(@Picklistentry/rejected__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

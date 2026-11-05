@@ -1,0 +1,6 @@
+Message parent_organizations__v (
+   label(),
+   active(true),
+   default_value('Parent Organizations'),
+   system_managed(false)
+);

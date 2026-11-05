@@ -1,0 +1,17 @@
+Field regional_strategy__c (
+   label('Regional Strategy'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(32000),
+   help_content('Regional Strategy of this account.  Used by MCO accounts.'),
+   list_column(false),
+   order(80),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

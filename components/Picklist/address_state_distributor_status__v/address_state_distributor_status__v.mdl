@@ -1,0 +1,8 @@
+RECREATE Picklist address_state_distributor_status__v (
+   label('State Distributor Status'),
+   active(true),
+   Picklistentry(@Picklistentry/valid__v.mdl),
+   Picklistentry(@Picklistentry/invalid__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

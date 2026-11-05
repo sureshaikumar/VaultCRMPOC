@@ -1,0 +1,4 @@
+Typefield last_assigned_date__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry krc__v (
+   value('Karachay-Balkar'),
+   order(159),
+   active(false)
+);

@@ -1,0 +1,20 @@
+Field sn_account_fields_override__v (
+   label('SN Account Fields Override'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(329),
+   default_value('"ACCOUNT_FIELDS_OVERRIDE;;STAKEHOLDER_NAVIGATOR"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

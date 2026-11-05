@@ -1,0 +1,4 @@
+Typefield record_migration_mode__sys (
+   source('standard'),
+   required(false)
+);

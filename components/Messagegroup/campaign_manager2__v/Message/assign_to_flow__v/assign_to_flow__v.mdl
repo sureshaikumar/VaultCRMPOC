@@ -1,0 +1,6 @@
+Message assign_to_flow__v (
+   label(),
+   active(true),
+   default_value('Assign to Flow'),
+   system_managed(false)
+);

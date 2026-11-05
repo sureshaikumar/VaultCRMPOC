@@ -1,0 +1,14 @@
+Vsmfield deployment_status__v (
+   label('Deployment Status'),
+   active(false),
+   description('Current deployment status of this package data entry, indicating where it is in the deployment lifecycle (e.g., pending, in progress, success, failed). Use this to monitor deployment progress or identify failed data components.'),
+   example_values(),
+   synonyms('status',
+         'deploy status',
+         'import status',
+         'processing status'),
+   target('deployment_status__v'),
+   target_label('Deployment Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

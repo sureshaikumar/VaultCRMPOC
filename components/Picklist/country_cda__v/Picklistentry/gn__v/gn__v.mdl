@@ -1,0 +1,5 @@
+Picklistentry gn__v (
+   value('Guinea'),
+   order(93),
+   active(true)
+);

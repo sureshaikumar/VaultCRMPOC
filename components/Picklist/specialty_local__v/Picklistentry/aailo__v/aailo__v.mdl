@@ -1,0 +1,10 @@
+Picklistentry aailo__v (
+   value('Allergology and Immunology'),
+   order(41),
+   active(true),
+   controlling_entries('al__v',
+         'am__v',
+         'kg__v',
+         'kz__v',
+         'md__v')
+);

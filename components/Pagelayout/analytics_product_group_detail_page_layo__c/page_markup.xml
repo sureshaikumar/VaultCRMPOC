@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.analytics_product_group__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="company_product_group__v" />
+            <vault:field reference="display_in_reports__v" />
+            <vault:field reference="display_name__v" />
+            <vault:field reference="display_order__v" />
+            <vault:field reference="do_not_display_in_formulary_for_rep__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="market__v" />
+            <vault:field reference="parent_product_group__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="country__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

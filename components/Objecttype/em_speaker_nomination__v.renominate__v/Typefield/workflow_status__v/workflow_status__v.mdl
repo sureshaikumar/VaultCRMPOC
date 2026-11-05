@@ -1,0 +1,6 @@
+Typefield workflow_status__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.workflow_status__v.inactive__v',
+         'Picklist.workflow_status__v.active__v')
+);

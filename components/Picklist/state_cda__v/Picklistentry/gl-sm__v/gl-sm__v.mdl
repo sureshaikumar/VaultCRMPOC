@@ -1,0 +1,6 @@
+Picklistentry gl-sm__v (
+   value('Kommuneqarfik Sermersooq'),
+   order(1708),
+   active(true),
+   controlling_entries('gl__v')
+);

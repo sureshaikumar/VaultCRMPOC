@@ -1,0 +1,6 @@
+Message model_lifecycle_dialog_subject__v (
+   label(),
+   active(true),
+   default_value('Change Lifecycle for {0}'),
+   system_managed(false)
+);

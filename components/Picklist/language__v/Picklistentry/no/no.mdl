@@ -1,0 +1,5 @@
+Picklistentry no (
+   value('Norwegian'),
+   order(19),
+   active(true)
+);

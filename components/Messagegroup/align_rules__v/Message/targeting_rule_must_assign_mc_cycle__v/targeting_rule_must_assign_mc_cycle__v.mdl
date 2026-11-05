@@ -1,0 +1,6 @@
+Message targeting_rule_must_assign_mc_cycle__v (
+   label(),
+   active(true),
+   default_value('Targeting Rule must be assigned to an MC Cycle.'),
+   system_managed(false)
+);

@@ -1,0 +1,11 @@
+RECREATE Jobmetadata medical_ae_control_job__v (
+   label('Medical to CRM AE Integration Inbound Control Job'),
+   active(true),
+   chunk_size(1),
+   description('AE Integration job to ensure proper order between jobs'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.aeintegration.jobs.medical.MedicalAeIntegrationInboundControlJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

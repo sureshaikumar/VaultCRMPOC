@@ -1,0 +1,11 @@
+Vsmfield created_by__v (
+   label('Created By'),
+   active(true),
+   description('The user who created the user record'),
+   example_values(),
+   synonyms(),
+   target('created_by__v'),
+   target_label('Created By'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

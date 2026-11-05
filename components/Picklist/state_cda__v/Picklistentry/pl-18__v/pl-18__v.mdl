@@ -1,0 +1,6 @@
+Picklistentry pl-18__v (
+   value('Podkarpackie'),
+   order(3630),
+   active(true),
+   controlling_entries('pl__v')
+);

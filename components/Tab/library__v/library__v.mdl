@@ -1,0 +1,11 @@
+RECREATE Tab library__v (
+   active(true),
+   all_view_label('All Documents'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Library'),
+   my_view_label('My Documents'),
+   order(3300),
+   parent(),
+   recent_view_label('Recent Documents')
+);

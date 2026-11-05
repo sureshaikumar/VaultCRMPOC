@@ -1,0 +1,6 @@
+Picklistentry me-14__v (
+   value('Pljevlja'),
+   order(2920),
+   active(true),
+   controlling_entries('me__v')
+);

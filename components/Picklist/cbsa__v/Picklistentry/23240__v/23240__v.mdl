@@ -1,0 +1,5 @@
+Picklistentry 23240__v (
+   value('Fredericksburg, TX Micropolitan Statistical Area'),
+   order(289),
+   active(true)
+);

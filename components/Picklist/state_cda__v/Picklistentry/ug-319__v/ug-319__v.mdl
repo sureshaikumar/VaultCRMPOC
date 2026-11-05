@@ -1,0 +1,6 @@
+Picklistentry ug-319__v (
+   value('Koboko'),
+   order(4724),
+   active(true),
+   controlling_entries('ug__v')
+);

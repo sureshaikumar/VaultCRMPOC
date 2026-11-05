@@ -1,0 +1,10 @@
+Vsmvalue lkr__v (
+   label('LKR'),
+   active(true),
+   description('The Sri Lankan Rupee (LKR), the official currency of Sri Lanka, used for transactions, pricing, and financial records involving Sri Lankan markets.'),
+   synonyms('Sri Lankan rupee',
+         'Ceylon rupee',
+         'LKR'),
+   target('lkr__sys'),
+   target_label('LKR')
+);

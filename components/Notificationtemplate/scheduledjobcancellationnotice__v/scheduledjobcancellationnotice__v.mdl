@@ -1,0 +1,16 @@
+RECREATE Notificationtemplate scheduledjobcancellationnotice__v (
+   label('scheduledJobCancellationNotice'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('${jobTitle} ${jobInstanceId} was cancelled'),
+   notification('As an Owner of this job, this notification is to inform you that this job (ID: ${jobInstanceId}) has been cancelled/interrupted by  ${senderName} (${senderUsername})'),
+   email_body('<p>${notificationMessage}</p><br><br>
+Job Details (if applicable):<br>
+${failuresList}<br><br>
+The full execution log is available here: ${jobHistoryLogLink}
+<br><p>If you require additional information, please contact Vault Support.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

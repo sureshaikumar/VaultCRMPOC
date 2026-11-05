@@ -1,0 +1,5 @@
+Picklistentry maaed__v (
+   value('Medical Administrative Assistant'),
+   order(60),
+   active(true)
+);

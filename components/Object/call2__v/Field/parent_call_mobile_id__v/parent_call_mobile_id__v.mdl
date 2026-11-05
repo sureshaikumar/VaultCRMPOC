@@ -1,0 +1,19 @@
+Field parent_call_mobile_id__v (
+   label('Parent Call Mobile ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Mobile ID of the parent call object'),
+   list_column(false),
+   order(98),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

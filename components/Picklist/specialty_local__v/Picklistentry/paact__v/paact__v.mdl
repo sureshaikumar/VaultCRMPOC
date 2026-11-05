@@ -1,0 +1,6 @@
+Picklistentry paact__v (
+   value('Pathological Anatomy and Cytology (Tissue and Cell Studies)'),
+   order(1292),
+   active(true),
+   controlling_entries('dk__v')
+);

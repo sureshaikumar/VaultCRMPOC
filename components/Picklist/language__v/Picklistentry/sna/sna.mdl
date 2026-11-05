@@ -1,0 +1,5 @@
+Picklistentry sna (
+   value('Shona'),
+   order(300),
+   active(true)
+);

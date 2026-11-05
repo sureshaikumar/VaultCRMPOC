@@ -1,0 +1,10 @@
+RECREATE Jobmetadata events_management_data_feed_job__v (
+   label('Event Management Data Feed Job'),
+   active(true),
+   chunk_size(1),
+   description('This job is for the Events Management Data Feed.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.job.EventsManagementDataFeedJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

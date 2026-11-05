@@ -1,0 +1,6 @@
+Picklistentry lt-03__v (
+   value('Alytus'),
+   order(2621),
+   active(true),
+   controlling_entries('lt__v')
+);

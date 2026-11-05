@@ -1,0 +1,5 @@
+Picklistentry xaf__sys (
+   value('XAF'),
+   order(203),
+   active(true)
+);

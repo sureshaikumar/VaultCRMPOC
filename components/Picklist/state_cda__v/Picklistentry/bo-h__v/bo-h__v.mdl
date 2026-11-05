@@ -1,0 +1,6 @@
+Picklistentry bo-h__v (
+   value('Chuquisaca'),
+   order(441),
+   active(true),
+   controlling_entries('bo__v')
+);

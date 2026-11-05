@@ -1,0 +1,5 @@
+Picklistentry merged__v (
+   value('Merged'),
+   order(1),
+   active(true)
+);

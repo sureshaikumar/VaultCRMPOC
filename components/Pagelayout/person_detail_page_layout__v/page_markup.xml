@@ -1,0 +1,48 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.person__sys.base__v">
+    <vault:section title="Details" name="details__v">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="prefix__v" />
+            <vault:field reference="first_name__sys" />
+            <vault:field reference="middle_name__v" />
+            <vault:field reference="last_name__sys" />
+            <vault:field reference="suffix__v" />
+            <vault:field reference="image__sys" />
+            <vault:field reference="status__v" />
+            <vault:field reference="language__sys" />
+            <vault:field reference="locale__sys" />
+            <vault:field reference="timezone__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Contact Information" name="contact_information__v">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="office_phone__v" />
+            <vault:field reference="fax__v" />
+            <vault:field reference="mobile_phone__sys" />
+            <vault:control reference="duplicate_person_email_field_control__sys" name="duplicate_person_email_field_control__c" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Address" name="address__v">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="primary_street__v" />
+            <vault:field reference="primary_city__v" />
+            <vault:field reference="primary_state_province__v" />
+            <vault:field reference="primary_zip_code__v" />
+            <vault:field reference="primary_country__v" />
+            <vault:field reference="secondary_street__v" />
+            <vault:field reference="secondary_city__v" />
+            <vault:field reference="secondary_state_province__v" />
+            <vault:field reference="secondary_zip_code__v" />
+            <vault:field reference="secondary_country__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="system_information__v">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

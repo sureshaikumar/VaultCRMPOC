@@ -1,0 +1,6 @@
+Picklistentry soapm__v (
+   value('Special Obstetrics and Perinatal Medicine'),
+   order(1785),
+   active(true),
+   controlling_entries('de__v')
+);

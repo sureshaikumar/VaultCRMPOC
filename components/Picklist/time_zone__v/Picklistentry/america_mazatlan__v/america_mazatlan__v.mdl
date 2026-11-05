@@ -1,0 +1,5 @@
+Picklistentry america_mazatlan__v (
+   value('Mexican Pacific Time'),
+   order(73),
+   active(true)
+);

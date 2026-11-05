@@ -1,0 +1,6 @@
+Picklistentry bn-tu__v (
+   value('Tutong'),
+   order(438),
+   active(true),
+   controlling_entries('bn__v')
+);

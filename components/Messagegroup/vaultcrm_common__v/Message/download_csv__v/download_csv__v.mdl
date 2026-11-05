@@ -1,0 +1,6 @@
+Message download_csv__v (
+   label(),
+   active(true),
+   default_value('Download CSV'),
+   system_managed(false)
+);

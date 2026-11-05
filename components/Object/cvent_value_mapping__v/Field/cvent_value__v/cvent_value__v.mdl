@@ -1,0 +1,19 @@
+Field cvent_value__v (
+   label('Cvent Value'),
+   type('String'),
+   active(true),
+   description('Stores the mapped Cvent value.'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

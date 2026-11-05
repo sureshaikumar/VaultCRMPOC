@@ -1,0 +1,15 @@
+Fieldrule email_replyto_name__v (
+   label('Email Reply-to Name'),
+   active(true),
+   query_object('documents'),
+   query_field('reply_to_name__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.email_replyto_name__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_text__sys'),
+   target_field_lookup()
+);

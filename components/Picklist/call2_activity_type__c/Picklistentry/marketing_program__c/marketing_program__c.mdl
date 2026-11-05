@@ -1,0 +1,5 @@
+Picklistentry marketing_program__c (
+   value('Marketing Program'),
+   order(3),
+   active(true)
+);

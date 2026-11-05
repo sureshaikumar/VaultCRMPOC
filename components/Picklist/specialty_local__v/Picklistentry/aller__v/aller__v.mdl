@@ -1,0 +1,17 @@
+Picklistentry aller__v (
+   value('Allergology'),
+   order(39),
+   active(true),
+   controlling_entries('ad__v',
+         'az__v',
+         'ci__v',
+         'cy__v',
+         'es__v',
+         'lv__v',
+         'me__v',
+         'nl__v',
+         'pl__v',
+         'se__v',
+         'ua__v',
+         'za__v')
+);

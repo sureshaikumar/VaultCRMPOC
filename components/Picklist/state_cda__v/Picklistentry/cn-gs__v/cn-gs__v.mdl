@@ -1,0 +1,6 @@
+Picklistentry cn-gs__v (
+   value('Gansu Sheng'),
+   order(698),
+   active(true),
+   controlling_entries('cn__v')
+);

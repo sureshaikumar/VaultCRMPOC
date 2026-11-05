@@ -1,0 +1,23 @@
+RECREATE Objectvalidation pricing_rule__v.kit_item_product_type_check__v (
+   label('Kit Item Product Type Check'),
+   active(true),
+   expression('Not(
+    And(
+        cross_product_rule__v = true,
+        Or(
+            And(
+                product__vr.product_type__v = ''kit_item__v'',
+                Not(IsBlank(product__v))
+            ),
+            And(
+                comparison_product__vr.product_type__v = ''kit_item__v'',
+                Not(IsBlank(comparison_product__v))
+            )
+        )
+    )
+)'),
+   description('Kit Item is not allowed in Cross Product Rebate'),
+   error_message('Kit Item is not allowed in Cross Product Rebate'),
+   error_location('comparison_product__v',
+      'product__v')
+);

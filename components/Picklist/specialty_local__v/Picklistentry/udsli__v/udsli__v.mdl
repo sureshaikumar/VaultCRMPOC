@@ -1,0 +1,6 @@
+Picklistentry udsli__v (
+   value('Ultrasound Diagnosis (Sonography)'),
+   order(1879),
+   active(true),
+   controlling_entries('am__v')
+);

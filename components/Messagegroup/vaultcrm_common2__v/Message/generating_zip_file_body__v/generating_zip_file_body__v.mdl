@@ -1,0 +1,6 @@
+Message generating_zip_file_body__v (
+   label(),
+   active(true),
+   default_value('Attachments for this record are being consolidated into a ZIP file. The file can be found as an attachment once this process completes.'),
+   system_managed(false)
+);

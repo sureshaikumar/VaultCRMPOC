@@ -1,0 +1,6 @@
+Picklistentry ve-t__v (
+   value('Trujillo'),
+   order(4905),
+   active(true),
+   controlling_entries('ve__v')
+);

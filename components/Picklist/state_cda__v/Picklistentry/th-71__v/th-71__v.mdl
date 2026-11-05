@@ -1,0 +1,6 @@
+Picklistentry th-71__v (
+   value('Kanchanaburi'),
+   order(4384),
+   active(true),
+   controlling_entries('th__v')
+);

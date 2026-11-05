@@ -1,0 +1,6 @@
+Picklistentry bd-39__v (
+   value('Meherpur'),
+   order(268),
+   active(true),
+   controlling_entries('bd__v')
+);

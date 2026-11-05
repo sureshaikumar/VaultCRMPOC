@@ -1,0 +1,6 @@
+Picklistentry gb-bur__v (
+   value('Bury'),
+   order(1477),
+   active(true),
+   controlling_entries('gb__v')
+);

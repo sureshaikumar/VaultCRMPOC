@@ -1,0 +1,13 @@
+Vsmrelationship language_locale__v (
+   label('Language Locale'),
+   active(true),
+   cardinality('MANY_TO_MANY'),
+   description('The language-locale mappings that reference this locale, representing the inbound connections from language_locale__sys records. Supports associating multiple Locales to a single Language. Use this to find all language-locale associations tied to a specific locale.'),
+   join_object('language_locale__sys'),
+   synonyms('language locales',
+         'locales for language',
+         'related locales'),
+   target('language_locale__sysr'),
+   target_label('Locale'),
+   target_object('language__sys')
+);

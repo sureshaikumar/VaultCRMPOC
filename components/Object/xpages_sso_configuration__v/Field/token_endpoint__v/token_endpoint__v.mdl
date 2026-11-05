@@ -1,0 +1,21 @@
+Field token_endpoint__v (
+   label('Token endpoint'),
+   type('String'),
+   active(true),
+   description('The URL to use to confirm with the SSO provider that the newly acquired token is valid.
+
+Must be a URL without query parameters or an anchor.'),
+   required(true),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(true),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

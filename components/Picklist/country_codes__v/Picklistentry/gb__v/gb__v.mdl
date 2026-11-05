@@ -1,0 +1,5 @@
+Picklistentry gb__v (
+   value('GB'),
+   order(76),
+   active(true)
+);

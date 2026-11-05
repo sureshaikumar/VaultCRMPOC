@@ -1,0 +1,6 @@
+Picklistentry fr-cvl__v (
+   value('Centre-Val de Loire'),
+   order(1424),
+   active(true),
+   controlling_entries('fr__v')
+);

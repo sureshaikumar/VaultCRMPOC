@@ -1,0 +1,6 @@
+Typefield type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sample_order_transaction_type__v.adjustment__v'),
+   default_value('Picklist.sample_order_transaction_type__v.adjustment__v')
+);

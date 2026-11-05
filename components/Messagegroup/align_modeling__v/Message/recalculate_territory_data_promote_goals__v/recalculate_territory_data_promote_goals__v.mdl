@@ -1,0 +1,6 @@
+Message recalculate_territory_data_promote_goals__v (
+   label(),
+   active(true),
+   default_value('Edited Target Goals are promoted to Actual Target Goals'),
+   system_managed(false)
+);

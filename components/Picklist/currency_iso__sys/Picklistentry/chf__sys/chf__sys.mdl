@@ -1,0 +1,5 @@
+Picklistentry chf__sys (
+   value('CHF'),
+   order(38),
+   active(true)
+);

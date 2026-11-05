@@ -1,0 +1,5 @@
+Picklistentry obsolete__v (
+   value('Obsolete'),
+   order(2),
+   active(true)
+);

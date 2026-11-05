@@ -1,0 +1,6 @@
+Picklistentry es-lu__v (
+   value('Lugo'),
+   order(1228),
+   active(true),
+   controlling_entries('es__v')
+);

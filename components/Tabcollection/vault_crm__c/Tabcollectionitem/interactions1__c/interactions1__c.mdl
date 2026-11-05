@@ -1,0 +1,8 @@
+Tabcollectionitem interactions1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(3),
+   tab('Tab.interactions__c'),
+   type('Tab')
+);

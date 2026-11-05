@@ -1,0 +1,10 @@
+RECREATE Picklist adopter_type_cda__v (
+   label('Adopter Type'),
+   active(true),
+   Picklistentry(@Picklistentry/inno__v.mdl),
+   Picklistentry(@Picklistentry/earl__v.mdl),
+   Picklistentry(@Picklistentry/midd__v.mdl),
+   Picklistentry(@Picklistentry/late__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

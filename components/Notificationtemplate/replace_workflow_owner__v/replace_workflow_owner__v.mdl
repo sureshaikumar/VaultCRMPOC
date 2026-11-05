@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate replace_workflow_owner__v (
+   label('Workflow Replace Workflow Owner'),
+   active(true),
+   description('This message is used in the replace workflow owner action.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('Workflow Owner Reassigned'),
+   notification('<p>The workflow owner for ${workflowTargetLink} has been reassigned.<br> New workflow owner: ${workflowInitiatorName}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

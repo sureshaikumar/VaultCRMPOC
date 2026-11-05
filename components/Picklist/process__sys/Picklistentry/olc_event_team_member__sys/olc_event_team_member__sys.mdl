@@ -1,0 +1,5 @@
+Picklistentry olc_event_team_member__sys (
+   value('Event Team Member'),
+   order(39),
+   active(true)
+);

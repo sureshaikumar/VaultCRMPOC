@@ -1,0 +1,5 @@
+Picklistentry conversation_ended__v (
+   value('Conversation Ended'),
+   order(2),
+   active(true)
+);

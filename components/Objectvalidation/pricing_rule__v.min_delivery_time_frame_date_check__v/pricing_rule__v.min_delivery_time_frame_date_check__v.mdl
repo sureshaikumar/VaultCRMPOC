@@ -1,0 +1,17 @@
+RECREATE Objectvalidation pricing_rule__v.min_delivery_time_frame_date_check__v (
+   label('Min Delivery Time Frame Date Check'),
+   active(true),
+   expression('Not(
+     And(
+         Not(IsBlank(min_delivery_time_frame__v)),
+         Or(
+             Not(IsBlank(delivery_start_date__v)),
+             Not(IsBlank(delivery_end_date__v))
+        )
+    )
+)'),
+   description('If Min Delivery Time Frame is populated, Delivery Start Date and Delivery End Date must be empty'),
+   error_message('If Min Delivery Time Frame is populated, Delivery Start Date and Delivery End Date must be empty'),
+   error_location('delivery_end_date__v',
+      'delivery_start_date__v')
+);

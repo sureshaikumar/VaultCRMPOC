@@ -1,0 +1,6 @@
+Message change_object_type_unsaved_changes__v (
+   label(),
+   active(true),
+   default_value('Changing this Object Type will discard any unsaved changes.'),
+   system_managed(false)
+);

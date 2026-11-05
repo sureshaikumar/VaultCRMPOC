@@ -1,0 +1,5 @@
+Picklistentry publishing__v (
+   value('Publishing'),
+   order(1),
+   active(true)
+);

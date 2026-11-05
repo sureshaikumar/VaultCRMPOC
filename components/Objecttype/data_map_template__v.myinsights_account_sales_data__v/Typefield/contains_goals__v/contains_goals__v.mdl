@@ -1,0 +1,4 @@
+Typefield contains_goals__v (
+   source('custom'),
+   required(false)
+);

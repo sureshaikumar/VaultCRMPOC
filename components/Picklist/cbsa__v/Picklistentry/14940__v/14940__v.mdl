@@ -1,0 +1,5 @@
+Picklistentry 14940__v (
+   value('Brigham City, UT Micropolitan Statistical Area'),
+   order(925),
+   active(true)
+);

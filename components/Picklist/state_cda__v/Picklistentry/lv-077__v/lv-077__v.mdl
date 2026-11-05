@@ -1,0 +1,6 @@
+Picklistentry lv-077__v (
+   value('Rēzeknes novads'),
+   order(2722),
+   active(true),
+   controlling_entries('lv__v')
+);

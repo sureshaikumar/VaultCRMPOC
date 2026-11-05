@@ -1,0 +1,6 @@
+Picklistentry us-or__v (
+   value('Oregon'),
+   order(4831),
+   active(true),
+   controlling_entries('us__v')
+);

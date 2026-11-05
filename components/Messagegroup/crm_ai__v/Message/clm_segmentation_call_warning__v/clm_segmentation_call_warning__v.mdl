@@ -1,0 +1,6 @@
+Message clm_segmentation_call_warning__v (
+   label(),
+   active(true),
+   default_value('This response contains information from presentations that are not allowed for the accounts in the current call report.'),
+   system_managed(false)
+);

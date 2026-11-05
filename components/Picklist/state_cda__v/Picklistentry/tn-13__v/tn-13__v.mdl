@@ -1,0 +1,6 @@
+Picklistentry tn-13__v (
+   value('Ben Arous'),
+   order(4432),
+   active(true),
+   controlling_entries('tn__v')
+);

@@ -1,0 +1,19 @@
+Field oauth_key__v (
+   label('OAuth Key'),
+   type('String'),
+   active(true),
+   description('Concur Expense System integration oauth key'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

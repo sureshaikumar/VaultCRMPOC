@@ -1,0 +1,6 @@
+RECREATE Securityprofile full_external_user__v (
+   label('Full External User'),
+   active(true),
+   description('System provided legacy security profile for Full External Users. Users with this profile have the same rights as document users.'),
+   permission_sets('full_user_actions__v')
+);

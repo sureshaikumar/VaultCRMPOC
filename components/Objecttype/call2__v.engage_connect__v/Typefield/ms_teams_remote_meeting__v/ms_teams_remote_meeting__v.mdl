@@ -1,0 +1,4 @@
+Typefield ms_teams_remote_meeting__v (
+   source('custom'),
+   required(false)
+);

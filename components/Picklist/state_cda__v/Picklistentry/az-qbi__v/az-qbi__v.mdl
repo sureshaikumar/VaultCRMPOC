@@ -1,0 +1,6 @@
+Picklistentry az-qbi__v (
+   value('Qubadlı'),
+   order(183),
+   active(true),
+   controlling_entries('az__v')
+);

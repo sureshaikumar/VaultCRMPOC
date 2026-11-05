@@ -1,0 +1,6 @@
+Message confirm_portal_deactivation_modal1__v (
+   label(),
+   active(true),
+   default_value('Pressing "Confirm" will deactivate this My Engage Portal.'),
+   system_managed(false)
+);

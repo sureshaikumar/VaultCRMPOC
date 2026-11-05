@@ -1,0 +1,19 @@
+Field signature_request_uuid__v (
+   label('Signature Request UUID'),
+   type('String'),
+   active(true),
+   description('Stores the UUID of the Signature Request used to query for signature updates from engage'),
+   required(false),
+   unique(false),
+   max_length(150),
+   help_content(),
+   list_column(false),
+   order(60),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

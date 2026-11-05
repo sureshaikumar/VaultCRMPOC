@@ -1,0 +1,6 @@
+Message territory_model_cant_set_send_to_crm__v (
+   label(),
+   active(true),
+   default_value('Send to CRM cannot be "Yes" if Territory''s Send to CRM is "No".'),
+   system_managed(false)
+);

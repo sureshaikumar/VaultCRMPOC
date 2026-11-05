@@ -1,0 +1,6 @@
+Message content_type__v (
+   label(),
+   active(true),
+   default_value('Content Type'),
+   system_managed(false)
+);

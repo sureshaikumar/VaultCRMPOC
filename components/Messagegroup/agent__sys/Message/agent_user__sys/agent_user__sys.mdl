@@ -1,0 +1,6 @@
+Message agent_user__sys (
+   label(),
+   active(true),
+   default_value('Agent User'),
+   system_managed(true)
+);

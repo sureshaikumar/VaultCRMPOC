@@ -1,0 +1,6 @@
+Picklistentry psmel__v (
+   value('Pediatric Sleep Medicine'),
+   order(1458),
+   active(true),
+   controlling_entries('th__v')
+);

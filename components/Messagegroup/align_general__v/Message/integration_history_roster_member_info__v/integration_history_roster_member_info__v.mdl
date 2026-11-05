@@ -1,0 +1,6 @@
+Message integration_history_roster_member_info__v (
+   label(),
+   active(true),
+   default_value('Integration History is a virtual Related List that represents each CRM Integration attempt with this Roster Member''s respective UserTerritory record in CRM.'),
+   system_managed(false)
+);

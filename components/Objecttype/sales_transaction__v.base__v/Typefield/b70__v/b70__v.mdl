@@ -1,0 +1,4 @@
+Typefield b70__v (
+   source('standard'),
+   required(false)
+);

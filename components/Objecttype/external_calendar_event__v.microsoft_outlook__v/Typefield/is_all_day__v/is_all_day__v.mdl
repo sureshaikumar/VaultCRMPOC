@@ -1,0 +1,4 @@
+Typefield is_all_day__v (
+   source('custom'),
+   required(false)
+);

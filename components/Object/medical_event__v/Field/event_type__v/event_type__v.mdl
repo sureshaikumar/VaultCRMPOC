@@ -1,0 +1,18 @@
+Field event_type__v (
+   label('Event Type'),
+   type('Picklist'),
+   active(true),
+   description('This is a sample custom field for event type with no special processing.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(25),
+   multi_value(false),
+   picklist('Picklist.medical_event_event_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

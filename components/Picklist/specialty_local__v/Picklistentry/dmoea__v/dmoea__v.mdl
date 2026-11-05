@@ -1,0 +1,7 @@
+Picklistentry dmoea__v (
+   value('Dento-Maxillofacial Orthopedics'),
+   order(385),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

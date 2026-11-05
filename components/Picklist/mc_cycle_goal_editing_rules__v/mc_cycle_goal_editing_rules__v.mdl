@@ -1,0 +1,8 @@
+RECREATE Picklist mc_cycle_goal_editing_rules__v (
+   label('Goal Editing Rules'),
+   active(true),
+   Picklistentry(@Picklistentry/enable_edit_my_goal_to_zero__v.mdl),
+   Picklistentry(@Picklistentry/enable_edit_team_goal_to_zero__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry ir-08__v (
+   value('Kermān'),
+   order(2060),
+   active(true),
+   controlling_entries('ir__v')
+);

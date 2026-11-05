@@ -1,0 +1,10 @@
+RECREATE Jobmetadata survey_publish_job__v (
+   label('Survey Publish Job'),
+   active(true),
+   chunk_size(500),
+   description('This sdk job is responsible for publishing survey'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.survey.jobs.SurveyPublishJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

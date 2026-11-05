@@ -1,0 +1,6 @@
+Picklistentry ir-14__v (
+   value('Chahār Maḩāl va Bakhtīārī'),
+   order(2066),
+   active(true),
+   controlling_entries('ir__v')
+);

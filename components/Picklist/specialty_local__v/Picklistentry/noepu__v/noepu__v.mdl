@@ -1,0 +1,7 @@
+Picklistentry noepu__v (
+   value('Neuro-Ophthalmology'),
+   order(1005),
+   active(true),
+   controlling_entries('hr__v',
+         'ng__v')
+);

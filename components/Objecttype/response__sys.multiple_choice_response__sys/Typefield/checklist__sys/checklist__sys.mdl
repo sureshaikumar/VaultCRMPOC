@@ -1,0 +1,4 @@
+Typefield checklist__sys (
+   source('system'),
+   required(true)
+);

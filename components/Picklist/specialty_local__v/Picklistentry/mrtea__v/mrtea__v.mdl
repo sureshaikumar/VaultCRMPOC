@@ -1,0 +1,6 @@
+Picklistentry mrtea__v (
+   value('Medical Radiation Technology'),
+   order(936),
+   active(true),
+   controlling_entries('tw__v')
+);

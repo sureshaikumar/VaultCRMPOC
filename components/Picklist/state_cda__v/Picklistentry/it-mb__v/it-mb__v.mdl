@@ -1,0 +1,6 @@
+Picklistentry it-mb__v (
+   value('Monza and Brianza'),
+   order(2223),
+   active(true),
+   controlling_entries('it__v')
+);

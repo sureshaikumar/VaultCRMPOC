@@ -1,0 +1,17 @@
+Field update_mccp_target__v (
+   label('Update MCCP Target'),
+   type('Boolean'),
+   active(true),
+   description('When the setting is set to true, If the account is a target of the active MC cycle plan, the MCCP target field on the TSF record is checked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(57),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,3 @@
+Typeaction recall_approval_request__v (
+   action('em_event__v.recall_approval_request__v')
+);

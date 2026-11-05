@@ -1,0 +1,6 @@
+Message revenue_won__v (
+   label(),
+   active(true),
+   default_value('Revenue Won'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ch-so__v (
+   value('Solothurn'),
+   order(644),
+   active(true),
+   controlling_entries('ch__v')
+);

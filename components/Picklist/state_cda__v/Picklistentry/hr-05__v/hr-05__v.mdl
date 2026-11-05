@@ -1,0 +1,6 @@
+Picklistentry hr-05__v (
+   value('Varaždinska županija'),
+   order(1846),
+   active(true),
+   controlling_entries('hr__v')
+);

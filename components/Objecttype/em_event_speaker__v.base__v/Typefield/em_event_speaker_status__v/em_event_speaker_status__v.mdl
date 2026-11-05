@@ -1,0 +1,4 @@
+Typefield em_event_speaker_status__v (
+   source('standard'),
+   required(false)
+);

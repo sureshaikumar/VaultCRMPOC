@@ -1,0 +1,6 @@
+Picklistentry mpehd__v (
+   value('Medical Physics'),
+   order(933),
+   active(true),
+   controlling_entries('in__v')
+);

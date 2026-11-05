@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<securityOptions>
+    <systemMaintained>true</systemMaintained>
+    <defaultingRules>
+        <defaultingRule>whenStartingWorkflows</defaultingRule>
+    </defaultingRules>
+</securityOptions>

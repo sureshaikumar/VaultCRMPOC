@@ -1,0 +1,5 @@
+Picklistentry penicillins__v (
+   value('Penicillins'),
+   order(66),
+   active(true)
+);

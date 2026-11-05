@@ -1,0 +1,6 @@
+Message field_mapping_align_objects__v (
+   label(),
+   active(true),
+   default_value('Align Objects'),
+   system_managed(false)
+);

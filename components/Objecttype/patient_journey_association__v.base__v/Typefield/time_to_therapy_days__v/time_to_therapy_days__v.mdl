@@ -1,0 +1,4 @@
+Typefield time_to_therapy_days__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,4 @@
+Typefield aln_territory_capacity__v (
+   source('standard'),
+   required(false)
+);

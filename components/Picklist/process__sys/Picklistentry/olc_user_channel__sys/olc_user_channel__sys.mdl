@@ -1,0 +1,5 @@
+Picklistentry olc_user_channel__sys (
+   value('User Channel'),
+   order(89),
+   active(true)
+);

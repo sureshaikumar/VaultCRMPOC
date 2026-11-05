@@ -1,0 +1,5 @@
+Picklistentry quick_reply__v (
+   value('Quick Reply'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry sz-sh__v (
+   value('Shiselweni'),
+   order(4299),
+   active(true),
+   controlling_entries('sz__v')
+);

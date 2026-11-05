@@ -1,0 +1,5 @@
+Picklistentry pag__v (
+   value('Pangasinan'),
+   order(252),
+   active(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction account_plan__v.apply_product_plan__v (
+   label('Apply Product Plan'),
+   description('Enables users to copy Product Strategies and Product Tactics to their Account Plan Objectives'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.accountplan.productplan.actions.AccountPlanApplyProductPlanAction'),
+   active(true),
+   available_all_states(true)
+);

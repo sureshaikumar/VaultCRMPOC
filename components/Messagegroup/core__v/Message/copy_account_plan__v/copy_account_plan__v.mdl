@@ -1,0 +1,6 @@
+Message copy_account_plan__v (
+   label(),
+   active(true),
+   default_value('Copy Account Plan'),
+   system_managed(false)
+);

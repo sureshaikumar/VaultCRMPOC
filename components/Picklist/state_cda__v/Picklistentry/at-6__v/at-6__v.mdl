@@ -1,0 +1,6 @@
+Picklistentry at-6__v (
+   value('Steiermark'),
+   order(126),
+   active(true),
+   controlling_entries('at__v')
+);

@@ -1,0 +1,17 @@
+Field has_unpublished_changes__v (
+   label('Has Unpublished Changes'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether there are currently unpublished changes on this Engage Portal Domain record.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message connection_already_exists__v (
+   label(),
+   active(true),
+   default_value('Connection between these two Vaults already exists'),
+   system_managed(false)
+);

@@ -1,0 +1,9 @@
+Vsmvalue cve__v (
+   label('CVE'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of Cape Verde.'),
+   synonyms('Cape Verdean Escudo',
+         'Cape Verde Escudo'),
+   target('cve__sys'),
+   target_label('CVE')
+);

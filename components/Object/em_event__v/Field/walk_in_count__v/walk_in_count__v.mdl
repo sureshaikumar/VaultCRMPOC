@@ -1,0 +1,22 @@
+Field walk_in_count__v (
+   label('Walk-In Count'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(99999),
+   min_value(0),
+   scale(0),
+   help_content('Count of the number of walk-in attendees for an event'),
+   list_column(false),
+   order(80),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

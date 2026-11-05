@@ -1,0 +1,6 @@
+Message every_x_timeframe__v (
+   label(),
+   active(true),
+   default_value('Every ${x} ${timeframe}'),
+   system_managed(false)
+);

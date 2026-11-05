@@ -1,0 +1,6 @@
+Picklistentry mt-10__v (
+   value('Fontana'),
+   order(3116),
+   active(true),
+   controlling_entries('mt__v')
+);

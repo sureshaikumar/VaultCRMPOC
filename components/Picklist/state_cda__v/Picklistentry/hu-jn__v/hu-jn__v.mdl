@@ -1,0 +1,6 @@
+Picklistentry hu-jn__v (
+   value('Jász-Nagykun-Szolnok'),
+   order(1890),
+   active(true),
+   controlling_entries('hu__v')
+);

@@ -1,0 +1,14 @@
+RECREATE Picklist checklist_field__sys (
+   label('Checklist Field'),
+   active(true),
+   Picklistentry(@Picklistentry/name__v.mdl),
+   Picklistentry(@Picklistentry/header__sys.mdl),
+   Picklistentry(@Picklistentry/description__sys.mdl),
+   Picklistentry(@Picklistentry/question_help_text__sys.mdl),
+   Picklistentry(@Picklistentry/question_text__sys.mdl),
+   Picklistentry(@Picklistentry/answer_text__sys.mdl),
+   Picklistentry(@Picklistentry/document__sys.mdl),
+   Picklistentry(@Picklistentry/reference_media__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event_speaker__v.manage_contracts__v (
+   label('Manage Contracts'),
+   description('Opens the Manage Contracts page for the Event Speaker.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.ManageContractsAction'),
+   active(true),
+   available_all_states(true)
+);

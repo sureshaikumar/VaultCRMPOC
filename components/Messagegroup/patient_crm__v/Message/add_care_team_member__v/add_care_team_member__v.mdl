@@ -1,0 +1,6 @@
+Message add_care_team_member__v (
+   label(),
+   active(true),
+   default_value('Add Care Team Member'),
+   system_managed(false)
+);

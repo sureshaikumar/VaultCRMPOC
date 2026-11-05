@@ -1,0 +1,5 @@
+Picklistentry 10180__v (
+   value('Abilene, TX Metropolitan Statistical Area'),
+   order(441),
+   active(true)
+);

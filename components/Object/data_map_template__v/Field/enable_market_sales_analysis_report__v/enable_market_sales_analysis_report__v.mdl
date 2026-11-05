@@ -1,0 +1,18 @@
+Field enable_market_sales_analysis_report__v (
+   label('Enable Market Sales Analysis Report'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('To use the Market Sales Analysis report, designate only one sales data file of monthly scale. Sales data must also contain Prescriber ID, Market ID, Product Group ID.'),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

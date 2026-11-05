@@ -1,0 +1,6 @@
+Picklistentry gn-ks__v (
+   value('Kissidougou'),
+   order(1739),
+   active(true),
+   controlling_entries('gn__v')
+);

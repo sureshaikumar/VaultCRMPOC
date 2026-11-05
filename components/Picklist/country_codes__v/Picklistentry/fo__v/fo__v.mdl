@@ -1,0 +1,5 @@
+Picklistentry fo__v (
+   value('FO'),
+   order(73),
+   active(true)
+);

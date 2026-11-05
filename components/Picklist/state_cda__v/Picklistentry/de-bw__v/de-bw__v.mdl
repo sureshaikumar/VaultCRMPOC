@@ -1,0 +1,6 @@
+Picklistentry de-bw__v (
+   value('Baden-Württemberg'),
+   order(905),
+   active(true),
+   controlling_entries('de__v')
+);

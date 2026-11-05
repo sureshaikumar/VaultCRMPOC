@@ -1,0 +1,6 @@
+Message needs_approval__v (
+   label(),
+   active(true),
+   default_value('Needs Approval'),
+   system_managed(false)
+);

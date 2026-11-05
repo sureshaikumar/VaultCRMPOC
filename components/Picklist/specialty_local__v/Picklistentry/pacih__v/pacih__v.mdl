@@ -1,0 +1,6 @@
+Picklistentry pacih__v (
+   value('Pharmaceutical and Cosmetic Industry'),
+   order(1504),
+   active(true),
+   controlling_entries('ro__v')
+);

@@ -1,0 +1,4 @@
+Typefield enable_custom_relationship_fields__v (
+   source('standard'),
+   required(false)
+);

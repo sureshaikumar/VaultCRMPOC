@@ -1,0 +1,6 @@
+Message mccp_feedback_drops__v (
+   label(),
+   active(true),
+   default_value('Drops'),
+   system_managed(false)
+);

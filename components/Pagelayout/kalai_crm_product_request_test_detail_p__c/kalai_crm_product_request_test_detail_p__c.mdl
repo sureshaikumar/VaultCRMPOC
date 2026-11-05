@@ -1,0 +1,8 @@
+RECREATE Pagelayout kalai_crm_product_request_test_detail_p__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Kalai CRM Product Request Test  Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

@@ -1,0 +1,5 @@
+Picklistentry 39820__v (
+   value('Redding, CA Metropolitan Statistical Area'),
+   order(142),
+   active(true)
+);

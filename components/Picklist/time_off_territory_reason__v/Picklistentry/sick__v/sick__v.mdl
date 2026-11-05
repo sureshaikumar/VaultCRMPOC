@@ -1,0 +1,5 @@
+Picklistentry sick__v (
+   value('Sick'),
+   order(1),
+   active(true)
+);

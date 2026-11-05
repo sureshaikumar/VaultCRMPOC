@@ -1,0 +1,11 @@
+RECREATE Pagelink expense_header_create_pagelink__v (
+   label('Expense Header Create'),
+   description('Redirects creating Expense Header to the Expense Header Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.expense_header__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.expense_header_detail_app_page__v')
+);

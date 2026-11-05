@@ -1,0 +1,12 @@
+Typefield specialty_1__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_specialty_1__v.cardiology__v',
+         'Picklist.account_specialty_1__v.emergency_medicine__v',
+         'Picklist.account_specialty_1__v.family_medicine__v',
+         'Picklist.account_specialty_1__v.general_practice__v',
+         'Picklist.account_specialty_1__v.internal_medicine__v',
+         'Picklist.account_specialty_1__v.oncology__v',
+         'Picklist.account_specialty_1__v.other__v',
+         'Picklist.account_specialty_1__v.pediatrics__v')
+);

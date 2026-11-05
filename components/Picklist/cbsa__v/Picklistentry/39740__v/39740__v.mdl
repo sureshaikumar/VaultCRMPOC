@@ -1,0 +1,5 @@
+Picklistentry 39740__v (
+   value('Reading, PA Metropolitan Statistical Area'),
+   order(75),
+   active(true)
+);

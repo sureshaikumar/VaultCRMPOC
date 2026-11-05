@@ -1,0 +1,6 @@
+Picklistentry ug-203__v (
+   value('Iganga'),
+   order(4671),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ps__v (
+   value('Palestine, State of'),
+   order(170),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry piemd__v (
+   value('Pediatrics Imaging'),
+   order(1481),
+   active(true),
+   controlling_entries('id__v')
+);

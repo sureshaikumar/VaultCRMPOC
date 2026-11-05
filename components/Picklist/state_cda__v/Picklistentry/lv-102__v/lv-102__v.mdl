@@ -1,0 +1,6 @@
+Picklistentry lv-102__v (
+   value('Varakļānu novads'),
+   order(2732),
+   active(true),
+   controlling_entries('lv__v')
+);

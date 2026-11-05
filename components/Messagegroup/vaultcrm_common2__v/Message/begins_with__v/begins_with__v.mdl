@@ -1,0 +1,6 @@
+Message begins_with__v (
+   label(),
+   active(true),
+   default_value('Begins with'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+Field clm_filter_fields__v (
+   label('CLM FILTER FIELDS'),
+   type('String'),
+   active(true),
+   description('References a Veeva Message to define which fields should be displayed in CLM filters.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('"CLM_FILTER_FIELDS;;CLM"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

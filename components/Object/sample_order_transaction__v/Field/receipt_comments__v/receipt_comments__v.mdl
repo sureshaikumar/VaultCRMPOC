@@ -1,0 +1,19 @@
+Field receipt_comments__v (
+   label('Receipt Comments'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Receipt Comments are the comments that are collected for a Receipt Sample Order Transaction.'),
+   list_column(false),
+   order(36),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

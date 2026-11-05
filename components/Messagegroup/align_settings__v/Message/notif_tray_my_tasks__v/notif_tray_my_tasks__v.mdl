@@ -1,0 +1,6 @@
+Message notif_tray_my_tasks__v (
+   label(),
+   active(true),
+   default_value('My Tasks'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry collaborator__v (
+   value('Collaborator'),
+   order(1),
+   active(true)
+);

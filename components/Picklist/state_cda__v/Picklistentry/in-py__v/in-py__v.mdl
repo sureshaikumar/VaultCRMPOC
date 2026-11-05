@@ -1,0 +1,6 @@
+Picklistentry in-py__v (
+   value('Puducherry'),
+   order(2024),
+   active(true),
+   controlling_entries('in__v')
+);

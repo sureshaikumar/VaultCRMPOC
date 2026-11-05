@@ -1,0 +1,5 @@
+Picklistentry invitee_canceled__v (
+   value('Invitee Canceled'),
+   order(0),
+   active(true)
+);

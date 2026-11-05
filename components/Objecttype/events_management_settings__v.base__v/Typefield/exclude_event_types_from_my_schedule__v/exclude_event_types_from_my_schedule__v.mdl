@@ -1,0 +1,4 @@
+Typefield exclude_event_types_from_my_schedule__v (
+   source('standard'),
+   required(false)
+);

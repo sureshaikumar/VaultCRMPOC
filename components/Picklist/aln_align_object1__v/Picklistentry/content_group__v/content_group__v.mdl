@@ -1,0 +1,5 @@
+Picklistentry content_group__v (
+   value('Content Group'),
+   order(17),
+   active(false)
+);

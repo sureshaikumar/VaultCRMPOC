@@ -1,0 +1,7 @@
+Typefield event_format__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.event_format__v.hybrid__v',
+         'Picklist.event_format__v.in_person__v',
+         'Picklist.event_format__v.virtual__v')
+);

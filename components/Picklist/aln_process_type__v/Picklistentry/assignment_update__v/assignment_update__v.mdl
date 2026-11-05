@@ -1,0 +1,5 @@
+Picklistentry assignment_update__v (
+   value('Assignment Update'),
+   order(7),
+   active(true)
+);

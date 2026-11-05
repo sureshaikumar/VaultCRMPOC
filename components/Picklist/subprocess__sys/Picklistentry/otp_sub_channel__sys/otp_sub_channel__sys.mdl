@@ -1,0 +1,6 @@
+Picklistentry otp_sub_channel__sys (
+   value('Sub Channel'),
+   order(162),
+   active(true),
+   controlling_entries('olc_consent_line__sys')
+);

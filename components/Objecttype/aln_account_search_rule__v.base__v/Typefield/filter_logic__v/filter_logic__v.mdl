@@ -1,0 +1,4 @@
+Typefield filter_logic__v (
+   source('standard'),
+   required(true)
+);

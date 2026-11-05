@@ -1,0 +1,4 @@
+Typefield rating_joining__v (
+   source('standard'),
+   required(false)
+);

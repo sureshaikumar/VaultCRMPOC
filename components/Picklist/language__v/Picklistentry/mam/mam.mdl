@@ -1,0 +1,5 @@
+Picklistentry mam (
+   value('Mam'),
+   order(360),
+   active(true)
+);

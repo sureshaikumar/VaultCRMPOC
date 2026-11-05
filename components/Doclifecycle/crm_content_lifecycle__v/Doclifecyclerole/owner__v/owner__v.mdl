@@ -1,0 +1,8 @@
+Doclifecyclerole owner__v (
+   label('Owner'),
+   active(true),
+   description('System Provided Role'),
+   application_role('owner__v'),
+   note_color(),
+   security_options(@security_options.xml)
+);

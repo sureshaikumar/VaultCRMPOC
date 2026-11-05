@@ -1,0 +1,6 @@
+Message confirm_domain_update_modal__v (
+   label(),
+   active(true),
+   default_value('Pressing "Confirm" will publish your changes to your My Engage Portal domain.'),
+   system_managed(false)
+);

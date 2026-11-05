@@ -1,0 +1,6 @@
+Picklistentry cu-08__v (
+   value('Ciego de Ávila'),
+   order(773),
+   active(true),
+   controlling_entries('cu__v')
+);

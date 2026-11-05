@@ -1,0 +1,6 @@
+Picklistentry meemd__v (
+   value('Medical Emergency'),
+   order(908),
+   active(true),
+   controlling_entries('pt__v')
+);

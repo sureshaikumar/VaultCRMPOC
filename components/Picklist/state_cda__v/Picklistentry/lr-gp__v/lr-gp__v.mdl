@@ -1,0 +1,6 @@
+Picklistentry lr-gp__v (
+   value('Gbarpolu'),
+   order(2600),
+   active(true),
+   controlling_entries('lr__v')
+);

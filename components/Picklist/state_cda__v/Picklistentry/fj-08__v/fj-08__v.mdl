@@ -1,0 +1,6 @@
+Picklistentry fj-08__v (
+   value('Nadroga and Navosa'),
+   order(1299),
+   active(true),
+   controlling_entries('fj__v')
+);

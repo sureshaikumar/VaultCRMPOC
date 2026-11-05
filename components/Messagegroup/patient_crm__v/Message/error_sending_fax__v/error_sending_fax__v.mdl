@@ -1,0 +1,6 @@
+Message error_sending_fax__v (
+   label(),
+   active(true),
+   default_value('Error Sending Fax'),
+   system_managed(false)
+);

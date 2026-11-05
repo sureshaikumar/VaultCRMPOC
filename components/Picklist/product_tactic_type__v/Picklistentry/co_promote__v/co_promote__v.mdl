@@ -1,0 +1,5 @@
+Picklistentry co_promote__v (
+   value('Co-promote'),
+   order(1),
+   active(true)
+);

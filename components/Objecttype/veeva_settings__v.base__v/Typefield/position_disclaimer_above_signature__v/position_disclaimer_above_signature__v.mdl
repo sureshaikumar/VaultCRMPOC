@@ -1,0 +1,4 @@
+Typefield position_disclaimer_above_signature__v (
+   source('standard'),
+   required(false)
+);

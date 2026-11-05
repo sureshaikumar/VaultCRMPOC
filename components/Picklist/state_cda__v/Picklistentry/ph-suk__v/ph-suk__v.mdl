@@ -1,0 +1,6 @@
+Picklistentry ph-suk__v (
+   value('Sultan Kudarat'),
+   order(3605),
+   active(true),
+   controlling_entries('ph__v')
+);

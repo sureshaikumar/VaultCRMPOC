@@ -1,0 +1,6 @@
+Picklistentry bi-rm__v (
+   value('Rumonge'),
+   order(420),
+   active(true),
+   controlling_entries('bi__v')
+);

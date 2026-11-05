@@ -1,0 +1,19 @@
+Field reporters_given_name__c (
+   label('Reporter’s Given Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(60),
+   help_content(),
+   list_column(false),
+   order(92),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

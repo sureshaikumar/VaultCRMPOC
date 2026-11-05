@@ -1,0 +1,6 @@
+Picklistentry dacpi__v (
+   value('Diagnostic and Clinical Pathology'),
+   order(426),
+   active(true),
+   controlling_entries('ca__v')
+);

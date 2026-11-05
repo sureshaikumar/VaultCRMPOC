@@ -1,0 +1,4 @@
+Typefield view_count__sys (
+   source('standard'),
+   required(false)
+);

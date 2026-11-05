@@ -1,0 +1,6 @@
+Picklistentry li-07__v (
+   value('Schaan'),
+   order(2555),
+   active(true),
+   controlling_entries('li__v')
+);

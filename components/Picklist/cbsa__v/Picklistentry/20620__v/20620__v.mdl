@@ -1,0 +1,5 @@
+Picklistentry 20620__v (
+   value('East Liverpool-Salem, OH Micropolitan Statistical Area'),
+   order(650),
+   active(true)
+);

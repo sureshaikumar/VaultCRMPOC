@@ -1,0 +1,6 @@
+Message field_action_details__v (
+   label(),
+   active(true),
+   default_value('Field Action Details'),
+   system_managed(false)
+);

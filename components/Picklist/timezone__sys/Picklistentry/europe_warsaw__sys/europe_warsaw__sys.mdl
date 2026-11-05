@@ -1,0 +1,5 @@
+Picklistentry europe_warsaw__sys (
+   value('(GMT+01:00) Central European Time (Europe/Warsaw)'),
+   order(165),
+   active(true)
+);

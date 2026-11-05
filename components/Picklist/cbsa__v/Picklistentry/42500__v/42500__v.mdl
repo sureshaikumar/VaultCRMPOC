@@ -1,0 +1,5 @@
+Picklistentry 42500__v (
+   value('Scottsburg, IN Micropolitan Statistical Area'),
+   order(480),
+   active(true)
+);

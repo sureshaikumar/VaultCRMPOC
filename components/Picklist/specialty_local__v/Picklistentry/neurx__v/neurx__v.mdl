@@ -1,0 +1,7 @@
+Picklistentry neurx__v (
+   value('Neuropsychology'),
+   order(1038),
+   active(true),
+   controlling_entries('ch__v',
+         'li__v')
+);

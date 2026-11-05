@@ -1,0 +1,5 @@
+Picklistentry 40300__v (
+   value('Rochelle, IL Micropolitan Statistical Area'),
+   order(173),
+   active(true)
+);

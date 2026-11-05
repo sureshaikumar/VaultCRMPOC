@@ -1,0 +1,8 @@
+Tabcollectionitem process_scheduler1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(19),
+   tab('Tab.scheduler_administration_tab__v'),
+   type('Tab')
+);

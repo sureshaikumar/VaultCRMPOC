@@ -1,0 +1,9 @@
+RECREATE Reporttype user__v (
+   label('User'),
+   active(true),
+   description('User'),
+   primary_object('user__sys'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

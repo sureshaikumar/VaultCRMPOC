@@ -1,0 +1,11 @@
+Picklistentry ramia__v (
+   value('Radiology and Medical Imaging'),
+   order(1690),
+   active(true),
+   controlling_entries('dz__v',
+         'fr__v',
+         'mc__v',
+         'md__v',
+         'ro__v',
+         'sn__v')
+);

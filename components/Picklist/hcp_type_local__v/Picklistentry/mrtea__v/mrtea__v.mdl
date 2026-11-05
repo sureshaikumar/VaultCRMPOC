@@ -1,0 +1,5 @@
+Picklistentry mrtea__v (
+   value('Medical Radiation Technologist'),
+   order(65),
+   active(true)
+);

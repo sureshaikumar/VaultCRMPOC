@@ -1,0 +1,17 @@
+Field secure_event_msg__v (
+   label('Secure Activity Details'),
+   type('LongText'),
+   active(true),
+   description('Securely captures the activity message as reported by the Multichannel Email Engine.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(true),
+   order(57),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   control_binding()
+);

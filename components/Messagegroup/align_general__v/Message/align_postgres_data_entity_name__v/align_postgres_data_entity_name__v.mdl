@@ -1,0 +1,6 @@
+Message align_postgres_data_entity_name__v (
+   label(),
+   active(true),
+   default_value('Entity Name'),
+   system_managed(false)
+);

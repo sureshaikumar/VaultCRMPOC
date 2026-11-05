@@ -1,0 +1,5 @@
+Picklistentry mz__v (
+   value('Mozambique'),
+   order(159),
+   active(true)
+);

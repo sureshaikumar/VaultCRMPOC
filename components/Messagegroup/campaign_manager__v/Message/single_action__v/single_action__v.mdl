@@ -1,0 +1,6 @@
+Message single_action__v (
+   label(),
+   active(true),
+   default_value('Single Action'),
+   system_managed(false)
+);

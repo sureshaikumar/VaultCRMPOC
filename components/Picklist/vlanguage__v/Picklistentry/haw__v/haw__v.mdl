@@ -1,0 +1,5 @@
+Picklistentry haw__v (
+   value('haw'),
+   order(50),
+   active(true)
+);

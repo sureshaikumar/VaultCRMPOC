@@ -1,0 +1,23 @@
+RECREATE Docfieldlayout content_library_details__v (
+   label('Content Library Details'),
+   active(true),
+   icon('UNDEFINED'),
+   order(8),
+   fields('Docfield.content_group__v',
+      'Docfield.keyword__v',
+      'Docfield.directory__v',
+      'Docfield.enable_survey_overlay__v',
+      'Docfield.survey__v',
+      'Docfield.start_date__v',
+      'Docfield.end_date__v',
+      'Docfield.hidden__v',
+      'Docfield.training__v',
+      'Docfield.presentation_type__v',
+      'Docfield.total_slides__v',
+      'Docfield.url__v',
+      'Docfield.segment__v',
+      'Docfield.content_type__v'),
+   show_in_edit_mode(true),
+   allow_field_assignment(true),
+   panel('Documentpanel.doc_info_information__sys')
+);

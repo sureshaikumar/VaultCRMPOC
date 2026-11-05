@@ -1,0 +1,18 @@
+Field is_ad_hoc__v (
+   label('Is Ad Hoc?'),
+   type('Boolean'),
+   active(true),
+   description('This field indicates if a Patient CRM case is an ad hoc case.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(true),
+   order(39),
+   default_value('TRUE'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

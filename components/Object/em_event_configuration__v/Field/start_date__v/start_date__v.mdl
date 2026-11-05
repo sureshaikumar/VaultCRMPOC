@@ -1,0 +1,17 @@
+Field start_date__v (
+   label('Start Date'),
+   type('Date'),
+   active(true),
+   description('Start date for event configuration settings'),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(3),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

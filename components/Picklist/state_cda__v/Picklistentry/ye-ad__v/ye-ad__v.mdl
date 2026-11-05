@@ -1,0 +1,6 @@
+Picklistentry ye-ad__v (
+   value('''Adan'),
+   order(4996),
+   active(true),
+   controlling_entries('ye__v')
+);

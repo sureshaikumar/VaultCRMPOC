@@ -1,0 +1,11 @@
+Vsmvalue draft_state__v (
+   label('Draft'),
+   active(true),
+   description('The legal hold is being considered and has not yet been submitted for review or approval.'),
+   synonyms('pending hold',
+         'hold in progress',
+         'not yet issued',
+         'initial hold'),
+   target('draft_state__v'),
+   target_label('Draft')
+);

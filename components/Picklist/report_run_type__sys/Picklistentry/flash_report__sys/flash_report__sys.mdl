@@ -1,0 +1,5 @@
+Picklistentry flash_report__sys (
+   value('Flash Report'),
+   order(1),
+   active(true)
+);

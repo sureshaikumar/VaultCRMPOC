@@ -1,0 +1,6 @@
+Picklistentry tr-67__v (
+   value('Zonguldak'),
+   order(4525),
+   active(true),
+   controlling_entries('tr__v')
+);

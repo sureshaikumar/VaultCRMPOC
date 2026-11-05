@@ -1,0 +1,19 @@
+Field preferred_pathologist__c (
+   label('Preferred Pathologist'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content('Enter the name of the physician''s preferred pathologist'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

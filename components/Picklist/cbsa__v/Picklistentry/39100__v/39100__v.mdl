@@ -1,0 +1,5 @@
+Picklistentry 39100__v (
+   value('Poughkeepsie-Newburgh-Middletown, NY Metropolitan Statistical Area'),
+   order(48),
+   active(true)
+);

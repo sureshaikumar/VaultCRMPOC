@@ -1,0 +1,6 @@
+Picklistentry cpcla__v (
+   value('Clinical Pathology Cardiocerebrovascular'),
+   order(268),
+   active(true),
+   controlling_entries('id__v')
+);

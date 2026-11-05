@@ -1,0 +1,19 @@
+Field track_element_id__v (
+   label('Track Element Id'),
+   type('String'),
+   active(true),
+   description('CLM System Id of the track element.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

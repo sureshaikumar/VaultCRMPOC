@@ -1,0 +1,6 @@
+Picklistentry bw-ch__v (
+   value('Chobe'),
+   order(531),
+   active(true),
+   controlling_entries('bw__v')
+);

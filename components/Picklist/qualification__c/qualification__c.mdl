@@ -1,0 +1,11 @@
+RECREATE Picklist qualification__c (
+   label('Qualification'),
+   active(true),
+   Picklistentry(@Picklistentry/physician__c.mdl),
+   Picklistentry(@Picklistentry/pharmacist__c.mdl),
+   Picklistentry(@Picklistentry/other_health_professional__c.mdl),
+   Picklistentry(@Picklistentry/lawyer__c.mdl),
+   Picklistentry(@Picklistentry/consumer_or_other_non_health_professiona__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

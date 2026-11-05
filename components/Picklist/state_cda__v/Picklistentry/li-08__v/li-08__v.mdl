@@ -1,0 +1,6 @@
+Picklistentry li-08__v (
+   value('Schellenberg'),
+   order(2556),
+   active(true),
+   controlling_entries('li__v')
+);

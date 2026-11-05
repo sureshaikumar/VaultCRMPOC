@@ -1,0 +1,6 @@
+Picklistentry fr-73__v (
+   value('Savoie'),
+   order(1391),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 30380__v (
+   value('Lewistown, PA Micropolitan Statistical Area'),
+   order(444),
+   active(true)
+);

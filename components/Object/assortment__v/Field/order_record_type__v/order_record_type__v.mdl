@@ -1,0 +1,19 @@
+Field order_record_type__v (
+   label('Order Record Type'),
+   type('Picklist'),
+   active(true),
+   description('The type of Order the Assortment is valid for.
+Values need to match the Order Record Type in Order_vod'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.assortment_order_record_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,4 @@
+Typefield alert_text__v (
+   source('standard'),
+   required(false)
+);

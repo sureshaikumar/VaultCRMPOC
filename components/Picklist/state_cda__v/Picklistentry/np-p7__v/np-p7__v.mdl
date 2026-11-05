@@ -1,0 +1,6 @@
+Picklistentry np-p7__v (
+   value('Sudurpashchim'),
+   order(3411),
+   active(true),
+   controlling_entries('np__v')
+);

@@ -1,0 +1,19 @@
+Field profile_id__v (
+   label('Profile'),
+   type('String'),
+   active(true),
+   description('This field is not supported currently. ID of User Profile to which this record applies. If blank, acts as default value for un-specified profiles.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

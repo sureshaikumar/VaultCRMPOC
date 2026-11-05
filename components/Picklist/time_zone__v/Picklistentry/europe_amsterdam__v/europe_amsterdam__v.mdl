@@ -1,0 +1,5 @@
+Picklistentry europe_amsterdam__v (
+   value('Central European Time (Amsterdam)'),
+   order(52),
+   active(true)
+);

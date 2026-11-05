@@ -1,0 +1,20 @@
+Typefield sent_email_status__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.sent_email_status__v.approved__v',
+         'Picklist.sent_email_status__v.bounced__v',
+         'Picklist.sent_email_status__v.delivered__v',
+         'Picklist.sent_email_status__v.dropped__v',
+         'Picklist.sent_email_status__v.failed__v',
+         'Picklist.sent_email_status__v.group__v',
+         'Picklist.sent_email_status__v.marked_spam__v',
+         'Picklist.sent_email_status__v.pending_approval__v',
+         'Picklist.sent_email_status__v.pending__v',
+         'Picklist.sent_email_status__v.rejected__v',
+         'Picklist.sent_email_status__v.saved__v',
+         'Picklist.sent_email_status__v.scheduled__v',
+         'Picklist.sent_email_status__v.sent__v',
+         'Picklist.sent_email_status__v.unsubscribed__v',
+         'Picklist.sent_email_status__v.draft__v',
+         'Picklist.sent_email_status__v.pending_field_review__v')
+);

@@ -1,0 +1,18 @@
+Field reason__v (
+   label('Reason'),
+   type('Picklist'),
+   active(true),
+   description('Picklist of available reason codes for time off'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.time_off_territory_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

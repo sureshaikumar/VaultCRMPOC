@@ -1,0 +1,18 @@
+Field cold_chain_status__v (
+   label('Cold Chain Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The Cold Chain Status for the corresponding Sample line item. Only pertains to samples that have been designated as cold chain product via the Product Catalog.'),
+   list_column(false),
+   order(9),
+   multi_value(false),
+   picklist('Picklist.sample_receipt_cold_chain_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

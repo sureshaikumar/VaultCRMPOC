@@ -1,0 +1,6 @@
+Picklistentry ve-j__v (
+   value('Guárico'),
+   order(4896),
+   active(true),
+   controlling_entries('ve__v')
+);

@@ -1,0 +1,11 @@
+Subtab approved_email_administration_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Approved Email'),
+   order(0),
+   page('Page.ae_admin_page__v'),
+   parent('content_setup_tab__v'),
+   prevent_create(false),
+   url(@url.txt)
+);

@@ -1,0 +1,13 @@
+Vsmfield component_label__v (
+   label('Component Label'),
+   active(true),
+   description('Human-readable label for the package component as it appears in the Vault UI. Distinct from component_name__v, which is the system/API name — use this field when searching by the friendly display name.'),
+   example_values(),
+   synonyms('display name',
+         'label',
+         'component display name'),
+   target('component_label__v'),
+   target_label('Component Label'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,4 @@
+Typefield enable_intune_mam_enrollment__v (
+   source('standard'),
+   required(false)
+);

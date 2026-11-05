@@ -1,0 +1,6 @@
+Picklistentry hu-ke__v (
+   value('Komárom-Esztergom'),
+   order(1891),
+   active(true),
+   controlling_entries('hu__v')
+);

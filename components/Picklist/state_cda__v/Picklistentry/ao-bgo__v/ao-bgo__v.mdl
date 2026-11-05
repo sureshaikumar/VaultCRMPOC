@@ -1,0 +1,6 @@
+Picklistentry ao-bgo__v (
+   value('Bengo'),
+   order(79),
+   active(true),
+   controlling_entries('ao__v')
+);

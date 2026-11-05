@@ -1,0 +1,23 @@
+Field content_sync_interval__v (
+   label('MEDIA SYNC INTERVAL'),
+   type('Number'),
+   active(true),
+   description('Number of days that a user can go without being notified of not syncing of CLM content'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(75),
+   default_value('30'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

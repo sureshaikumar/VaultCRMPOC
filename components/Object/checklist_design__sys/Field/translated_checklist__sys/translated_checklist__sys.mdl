@@ -1,0 +1,18 @@
+Field translated_checklist__sys (
+   label('Translated Checklist'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Indicates whether a translation is available for the Checklist Design.'),
+   list_column(false),
+   order(30),
+   default_value('False'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry payor__v (
+   value('Payor'),
+   order(15),
+   active(true)
+);

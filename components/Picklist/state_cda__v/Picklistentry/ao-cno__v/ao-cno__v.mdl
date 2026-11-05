@@ -1,0 +1,6 @@
+Picklistentry ao-cno__v (
+   value('Cuanza Norte'),
+   order(85),
+   active(true),
+   controlling_entries('ao__v')
+);

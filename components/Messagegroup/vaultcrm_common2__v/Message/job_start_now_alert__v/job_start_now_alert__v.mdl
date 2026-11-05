@@ -1,0 +1,6 @@
+Message job_start_now_alert__v (
+   label(),
+   active(true),
+   default_value('This job will start now.'),
+   system_managed(false)
+);

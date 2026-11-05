@@ -1,0 +1,6 @@
+Message vault_crm_instance_my_setup_products_tip__v (
+   label(),
+   active(true),
+   default_value('A value of Yes indicates that each Push to CRM will take the active Align {0} assignments for all active Roster Members and populate CRM&#39;s {1} object. This is a one-way integration from Align to CRM.'),
+   system_managed(false)
+);

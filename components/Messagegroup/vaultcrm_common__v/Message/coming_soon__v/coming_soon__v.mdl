@@ -1,0 +1,6 @@
+Message coming_soon__v (
+   label(),
+   active(true),
+   default_value('Coming Soon'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry th-38__v (
+   value('Bueng Kan'),
+   order(4354),
+   active(true),
+   controlling_entries('th__v')
+);

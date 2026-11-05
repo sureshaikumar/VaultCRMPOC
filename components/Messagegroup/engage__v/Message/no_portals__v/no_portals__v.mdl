@@ -1,0 +1,6 @@
+Message no_portals__v (
+   label(),
+   active(true),
+   default_value('No Portals'),
+   system_managed(false)
+);

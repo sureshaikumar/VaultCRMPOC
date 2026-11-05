@@ -1,0 +1,6 @@
+Message product_specialty_no_records_error_text__v (
+   label(),
+   active(true),
+   default_value('Records already exist for the specified product specialty combinations.'),
+   system_managed(false)
+);

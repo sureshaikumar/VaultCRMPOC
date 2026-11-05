@@ -1,0 +1,6 @@
+Message slt_field_changed_error_msg__v (
+   label(),
+   active(true),
+   default_value('Field(s) ${field_label} has changed.'),
+   system_managed(false)
+);

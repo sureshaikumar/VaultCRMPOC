@@ -1,0 +1,8 @@
+Picklistentry pcaae__v (
+   value('Paediatric Cardiology'),
+   order(1250),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v',
+         'ng__v')
+);

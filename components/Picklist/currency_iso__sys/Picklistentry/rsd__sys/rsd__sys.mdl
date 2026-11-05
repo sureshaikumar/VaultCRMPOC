@@ -1,0 +1,5 @@
+Picklistentry rsd__sys (
+   value('RSD'),
+   order(150),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry pacific_kiritimati__v (
+   value('Pacific/Kiritimati'),
+   order(85),
+   active(true)
+);

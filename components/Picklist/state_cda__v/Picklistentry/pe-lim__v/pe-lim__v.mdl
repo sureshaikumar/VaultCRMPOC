@@ -1,0 +1,6 @@
+Picklistentry pe-lim__v (
+   value('Lima'),
+   order(3482),
+   active(true),
+   controlling_entries('pe__v')
+);

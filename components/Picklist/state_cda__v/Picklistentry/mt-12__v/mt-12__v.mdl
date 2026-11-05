@@ -1,0 +1,6 @@
+Picklistentry mt-12__v (
+   value('Gżira'),
+   order(3118),
+   active(true),
+   controlling_entries('mt__v')
+);

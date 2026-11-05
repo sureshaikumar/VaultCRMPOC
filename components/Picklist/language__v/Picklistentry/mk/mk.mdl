@@ -1,0 +1,5 @@
+Picklistentry mk (
+   value('Macedonian'),
+   order(37),
+   active(true)
+);

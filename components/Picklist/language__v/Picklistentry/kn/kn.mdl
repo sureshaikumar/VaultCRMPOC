@@ -1,0 +1,5 @@
+Picklistentry kn (
+   value('Kannada'),
+   order(54),
+   active(true)
+);

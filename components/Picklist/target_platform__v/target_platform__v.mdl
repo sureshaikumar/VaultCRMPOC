@@ -1,0 +1,8 @@
+RECREATE Picklist target_platform__v (
+   label('Target Platform'),
+   active(true),
+   Picklistentry(@Picklistentry/salesforce__v.mdl),
+   Picklistentry(@Picklistentry/vault__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry ps-nbs__v (
+   value('Nablus'),
+   order(3646),
+   active(true),
+   controlling_entries('ps__v')
+);

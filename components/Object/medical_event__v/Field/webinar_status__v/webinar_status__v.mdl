@@ -1,0 +1,21 @@
+Field webinar_status__v (
+   label('Webinar Enabled'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Stores the webinar status of the related Events Management Event'),
+   list_column(false),
+   order(64),
+   formula('Text(em_event__vr.webinar_status__v)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

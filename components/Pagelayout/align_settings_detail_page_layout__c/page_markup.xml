@@ -1,0 +1,44 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.align_settings__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="align_mode__v" />
+            <vault:field reference="legacy_crm_id__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="account_card_fields__v" />
+            <vault:field reference="account_exclusivity__v" />
+            <vault:field reference="account_exclusivity_exceptions__v" />
+            <vault:field reference="account_inactive_values__v" />
+            <vault:field reference="automated_feedback_handling__v" />
+            <vault:field reference="challenge_reasons_add_account__v" />
+            <vault:field reference="challenge_reasons_add_target__v" />
+            <vault:field reference="challenge_reasons_edit_goals__v" />
+            <vault:field reference="challenge_reasons_keep_account__v" />
+            <vault:field reference="challenge_reasons_remove_account__v" />
+            <vault:field reference="challenge_reasons_remove_target__v" />
+            <vault:field reference="crm_assignments_expire__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="enable_account_search__v" />
+            <vault:field reference="feedback_account_assignment_columns__v" />
+            <vault:field reference="field_force__v" />
+            <vault:field reference="field_force_product_inheritance__v" />
+            <vault:field reference="import_inactive_assignments__v" />
+            <vault:field reference="legacy_align_id__v" />
+            <vault:field reference="xpages_report__v" />
+            <vault:field reference="primary_assignment_handling__v" />
+            <vault:field reference="reason_required__v" />
+            <vault:field reference="rule_selection_criteria__v" />
+            <vault:field reference="territory_metric_fields__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="manage_crm_features__v" />
+            <vault:field reference="manage_crm_users__v" />
+            <vault:field reference="manage_mccp__v" />
+            <vault:field reference="my_setup_products__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

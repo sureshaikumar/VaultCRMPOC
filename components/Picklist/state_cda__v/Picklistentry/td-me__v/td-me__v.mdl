@@ -1,0 +1,6 @@
+Picklistentry td-me__v (
+   value('Māyū Kībbī ash Sharqī'),
+   order(4314),
+   active(true),
+   controlling_entries('td__v')
+);

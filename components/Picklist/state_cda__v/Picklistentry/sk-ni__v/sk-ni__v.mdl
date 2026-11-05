@@ -1,0 +1,6 @@
+Picklistentry sk-ni__v (
+   value('Nitriansky Region'),
+   order(4190),
+   active(true),
+   controlling_entries('sk__v')
+);

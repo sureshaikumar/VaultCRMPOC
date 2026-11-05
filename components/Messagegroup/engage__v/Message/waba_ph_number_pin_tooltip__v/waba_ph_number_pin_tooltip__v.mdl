@@ -1,0 +1,6 @@
+Message waba_ph_number_pin_tooltip__v (
+   label(),
+   active(true),
+   default_value('If you forgot your PIN, reset it in your Meta account.'),
+   system_managed(false)
+);

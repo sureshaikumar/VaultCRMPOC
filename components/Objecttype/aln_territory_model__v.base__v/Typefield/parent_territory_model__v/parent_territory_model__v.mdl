@@ -1,0 +1,4 @@
+Typefield parent_territory_model__v (
+   source('standard'),
+   required(false)
+);

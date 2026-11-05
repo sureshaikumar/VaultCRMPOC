@@ -1,0 +1,12 @@
+Picklistentry physi__v (
+   value('Physiology'),
+   order(1555),
+   active(true),
+   controlling_entries('cm__v',
+         'de__v',
+         'in__v',
+         'ma__v',
+         'pk__v',
+         'sn__v',
+         'tr__v')
+);

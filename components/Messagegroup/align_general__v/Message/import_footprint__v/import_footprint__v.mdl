@@ -1,0 +1,6 @@
+Message import_footprint__v (
+   label(),
+   active(true),
+   default_value('Footprint Import'),
+   system_managed(false)
+);

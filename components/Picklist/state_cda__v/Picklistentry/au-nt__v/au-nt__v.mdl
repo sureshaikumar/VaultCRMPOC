@@ -1,0 +1,6 @@
+Picklistentry au-nt__v (
+   value('Northern Territory'),
+   order(132),
+   active(true),
+   controlling_entries('au__v')
+);

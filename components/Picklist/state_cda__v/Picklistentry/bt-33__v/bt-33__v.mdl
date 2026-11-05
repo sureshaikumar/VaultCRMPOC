@@ -1,0 +1,6 @@
+Picklistentry bt-33__v (
+   value('Bumthang'),
+   order(521),
+   active(true),
+   controlling_entries('bt__v')
+);

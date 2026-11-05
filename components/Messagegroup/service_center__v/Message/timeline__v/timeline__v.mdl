@@ -1,0 +1,6 @@
+Message timeline__v (
+   label(),
+   active(true),
+   default_value('Timeline'),
+   system_managed(false)
+);

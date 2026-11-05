@@ -1,0 +1,6 @@
+Message territory_label_selection__v (
+   label(),
+   active(true),
+   default_value('Territory: ${territory_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message filter_object_cycle_plan_target__v (
+   label(),
+   active(true),
+   default_value('Cycle Plan'),
+   system_managed(false)
+);

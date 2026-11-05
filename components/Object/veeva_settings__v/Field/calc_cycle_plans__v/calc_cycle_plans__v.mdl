@@ -1,0 +1,20 @@
+Field calc_cycle_plans__v (
+   label('CALC CYCLE PLANS'),
+   type('String'),
+   active(true),
+   description('Define the query of what cycle plans should be used for batch calculation.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(339),
+   default_value('"(cycle_plan__vr.active__v = ''true'') AND (cycle_plan__vr.start_date__v <= last_days:1) AND (cycle_plan__vr.end_date__v > last_days:1)"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

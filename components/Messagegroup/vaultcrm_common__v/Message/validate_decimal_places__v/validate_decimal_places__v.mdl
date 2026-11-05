@@ -1,0 +1,6 @@
+Message validate_decimal_places__v (
+   label(),
+   active(true),
+   default_value('Please enter no more than ${max_decimal_places} digits after the decimal.'),
+   system_managed(false)
+);

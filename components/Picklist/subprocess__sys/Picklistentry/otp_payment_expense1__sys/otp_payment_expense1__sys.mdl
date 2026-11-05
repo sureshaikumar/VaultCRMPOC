@@ -1,0 +1,6 @@
+Picklistentry otp_payment_expense1__sys (
+   value('Payment Expense'),
+   order(120),
+   active(true),
+   controlling_entries('olc_expense_header__sys')
+);

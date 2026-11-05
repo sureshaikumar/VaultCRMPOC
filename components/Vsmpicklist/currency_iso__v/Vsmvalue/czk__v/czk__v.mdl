@@ -1,0 +1,10 @@
+Vsmvalue czk__v (
+   label('CZK'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of the Czech Republic.'),
+   synonyms('Czech Koruna',
+         'Czech Crown',
+         'Koruna'),
+   target('czk__sys'),
+   target_label('CZK')
+);

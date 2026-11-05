@@ -1,0 +1,19 @@
+Field main_org_name__v (
+   label('Main Org Name'),
+   type('String'),
+   active(true),
+   description('Primary institution-level facility name (e.g., hospital/clinic). Acts as an HCP''s main workplace or the overarching institution for a smaller HCO (e.g., ''Seattle General'' for an ''Oncology Lab''). Excludes corporate parents and internal sub-units'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(233),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

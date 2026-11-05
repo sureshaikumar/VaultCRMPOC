@@ -1,0 +1,6 @@
+Picklistentry sa-01__v (
+   value('Ar Riyāḑ'),
+   order(3878),
+   active(true),
+   controlling_entries('sa__v')
+);

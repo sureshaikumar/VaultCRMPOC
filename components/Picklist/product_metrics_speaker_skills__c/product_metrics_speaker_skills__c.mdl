@@ -1,0 +1,10 @@
+RECREATE Picklist product_metrics_speaker_skills__c (
+   label('Speaker Skills'),
+   active(true),
+   Picklistentry(@Picklistentry/green__c.mdl),
+   Picklistentry(@Picklistentry/novice__c.mdl),
+   Picklistentry(@Picklistentry/intermediate__c.mdl),
+   Picklistentry(@Picklistentry/expert__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

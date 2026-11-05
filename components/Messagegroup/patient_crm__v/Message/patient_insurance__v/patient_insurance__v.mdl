@@ -1,0 +1,6 @@
+Message patient_insurance__v (
+   label(),
+   active(true),
+   default_value('Patient Insurance'),
+   system_managed(false)
+);

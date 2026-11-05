@@ -1,0 +1,9 @@
+Vsmvalue bob__v (
+   label('BOB'),
+   active(true),
+   description('The Bolivian Boliviano (BOB), the official currency of Bolivia, used for all domestic commercial and financial transactions.'),
+   synonyms('Bolivian boliviano',
+         'Bolivia currency'),
+   target('bob__sys'),
+   target_label('BOB')
+);

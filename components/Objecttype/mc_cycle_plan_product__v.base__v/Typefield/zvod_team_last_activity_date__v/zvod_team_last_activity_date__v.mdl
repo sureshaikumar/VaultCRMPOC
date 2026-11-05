@@ -1,0 +1,4 @@
+Typefield zvod_team_last_activity_date__v (
+   source('standard'),
+   required(false)
+);

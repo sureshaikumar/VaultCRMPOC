@@ -1,0 +1,6 @@
+Typefield attendee_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.remote_meeting_attendee_attendee_type__v.external_attendee__v',
+         'Picklist.remote_meeting_attendee_attendee_type__v.host__v')
+);

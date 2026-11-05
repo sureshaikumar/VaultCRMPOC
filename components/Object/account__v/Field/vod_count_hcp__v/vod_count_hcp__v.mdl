@@ -1,0 +1,18 @@
+Field vod_count_hcp__v (
+   label('OpenData # of Total Affiliated HCPs'),
+   type('Picklist'),
+   active(true),
+   description('Total number of HCPs affiliated to the HCO. This field is calculated and managed by OpenData.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(217),
+   multi_value(false),
+   picklist('Picklist.affiliated_hcp_count_range_items__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

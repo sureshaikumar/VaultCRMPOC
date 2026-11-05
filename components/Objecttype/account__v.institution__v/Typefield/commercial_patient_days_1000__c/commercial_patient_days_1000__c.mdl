@@ -1,0 +1,4 @@
+Typefield commercial_patient_days_1000__c (
+   source('custom'),
+   required(false)
+);

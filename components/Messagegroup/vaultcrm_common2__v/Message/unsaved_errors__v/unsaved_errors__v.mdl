@@ -1,0 +1,6 @@
+Message unsaved_errors__v (
+   label(),
+   active(true),
+   default_value('Unsaved Error(s)'),
+   system_managed(false)
+);

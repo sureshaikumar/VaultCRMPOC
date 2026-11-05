@@ -1,0 +1,6 @@
+Picklistentry mt-17__v (
+   value('Għaxaq'),
+   order(3123),
+   active(true),
+   controlling_entries('mt__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 38220__v (
+   value('Pine Bluff, AR Metropolitan Statistical Area'),
+   order(750),
+   active(true)
+);

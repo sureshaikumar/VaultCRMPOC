@@ -1,0 +1,11 @@
+RECREATE Pagelink case_routing_view_pagelink__v (
+   label('Case Routing View'),
+   description('Redirect case view to routing page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/view?objectId={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.case__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.case_routing_page__v')
+);

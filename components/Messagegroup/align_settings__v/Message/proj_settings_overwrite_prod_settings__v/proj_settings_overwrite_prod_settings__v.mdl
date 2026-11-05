@@ -1,0 +1,6 @@
+Message proj_settings_overwrite_prod_settings__v (
+   label(),
+   active(true),
+   default_value('Changing Align Settings in a Project will overwrite Production when the Project is published.'),
+   system_managed(false)
+);

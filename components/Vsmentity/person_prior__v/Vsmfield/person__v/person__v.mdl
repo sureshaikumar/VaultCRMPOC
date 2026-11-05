@@ -1,0 +1,13 @@
+Vsmfield person__v (
+   label('Person'),
+   active(true),
+   description('Reference to the current Person or User object that this prior record is associated with. Links the historical snapshot back to the active person record, enabling full profile change history to be traced.'),
+   example_values(),
+   synonyms('linked person',
+         'current person',
+         'associated user'),
+   target('person__sys'),
+   target_label('Person'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

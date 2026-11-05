@@ -1,0 +1,5 @@
+Picklistentry edit__v (
+   value('Edit'),
+   order(1),
+   active(true)
+);

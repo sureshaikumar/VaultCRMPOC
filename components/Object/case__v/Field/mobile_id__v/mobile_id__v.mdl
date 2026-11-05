@@ -1,0 +1,19 @@
+Field mobile_id__v (
+   label('Mobile ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content('System field used by mobile products to aid synchronization.'),
+   list_column(false),
+   order(44),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

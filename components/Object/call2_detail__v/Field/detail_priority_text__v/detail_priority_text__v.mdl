@@ -1,0 +1,19 @@
+Field detail_priority_text__v (
+   label('Detail Priority Text'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content('Parallel detail priority field in text format for group by in MCCP calculation'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

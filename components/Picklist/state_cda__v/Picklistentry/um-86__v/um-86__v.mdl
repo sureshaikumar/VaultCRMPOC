@@ -1,0 +1,6 @@
+Picklistentry um-86__v (
+   value('Jarvis Island'),
+   order(4788),
+   active(true),
+   controlling_entries('um__v')
+);

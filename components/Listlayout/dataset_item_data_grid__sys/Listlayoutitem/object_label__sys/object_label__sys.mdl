@@ -1,0 +1,12 @@
+Listlayoutitem object_label__sys (
+   label(),
+   active(true),
+   control_label('Object Label'),
+   field_key(),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Control'),
+   object_control('Objectcontrol.dataset_item_object_label_control__sys'),
+   object_control_properties(@object_control_properties.xml),
+   omit_header_label()
+);

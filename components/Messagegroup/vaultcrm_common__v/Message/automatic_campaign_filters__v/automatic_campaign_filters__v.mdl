@@ -1,0 +1,6 @@
+Message automatic_campaign_filters__v (
+   label(),
+   active(true),
+   default_value('Automatic Campaign Filters'),
+   system_managed(false)
+);

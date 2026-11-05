@@ -1,0 +1,6 @@
+Message new_chat_etc__v (
+   label(),
+   active(true),
+   default_value('New chat...'),
+   system_managed(false)
+);

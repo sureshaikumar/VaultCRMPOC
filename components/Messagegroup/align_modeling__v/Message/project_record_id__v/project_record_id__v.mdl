@@ -1,0 +1,6 @@
+Message project_record_id__v (
+   label(),
+   active(true),
+   default_value('Record ID'),
+   system_managed(false)
+);

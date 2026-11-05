@@ -1,0 +1,6 @@
+Picklistentry tr-29__v (
+   value('Gümüşhane'),
+   order(4487),
+   active(true),
+   controlling_entries('tr__v')
+);

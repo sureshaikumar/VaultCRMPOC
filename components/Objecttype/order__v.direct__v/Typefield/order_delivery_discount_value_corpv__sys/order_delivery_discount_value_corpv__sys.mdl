@@ -1,0 +1,4 @@
+Typefield order_delivery_discount_value_corpv__sys (
+   source('custom'),
+   required(false)
+);

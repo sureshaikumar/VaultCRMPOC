@@ -1,0 +1,4 @@
+Typefield spotme_attended_session_flag__v (
+   source('standard'),
+   required(false)
+);

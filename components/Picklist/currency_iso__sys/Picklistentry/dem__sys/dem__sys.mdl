@@ -1,0 +1,5 @@
+Picklistentry dem__sys (
+   value('DEM'),
+   order(52),
+   active(true)
+);

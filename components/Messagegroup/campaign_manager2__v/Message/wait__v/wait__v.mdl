@@ -1,0 +1,6 @@
+Message wait__v (
+   label(),
+   active(true),
+   default_value('Wait'),
+   system_managed(false)
+);

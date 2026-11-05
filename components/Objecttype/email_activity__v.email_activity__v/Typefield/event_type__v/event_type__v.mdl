@@ -1,0 +1,11 @@
+Typefield event_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.email_activity_event_type__v.bounced__v',
+         'Picklist.email_activity_event_type__v.clicked__v',
+         'Picklist.email_activity_event_type__v.delivered__v',
+         'Picklist.email_activity_event_type__v.dropped__v',
+         'Picklist.email_activity_event_type__v.marked_spam__v',
+         'Picklist.email_activity_event_type__v.opened__v',
+         'Picklist.email_activity_event_type__v.unsubscribed__v')
+);

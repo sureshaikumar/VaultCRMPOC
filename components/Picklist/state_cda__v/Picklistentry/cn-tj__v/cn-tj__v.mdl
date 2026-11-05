@@ -1,0 +1,6 @@
+Picklistentry cn-tj__v (
+   value('Tianjin Shi'),
+   order(721),
+   active(true),
+   controlling_entries('cn__v')
+);

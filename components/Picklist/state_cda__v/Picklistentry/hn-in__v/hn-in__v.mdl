@@ -1,0 +1,6 @@
+Picklistentry hn-in__v (
+   value('Intibucá'),
+   order(1834),
+   active(true),
+   controlling_entries('hn__v')
+);

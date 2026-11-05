@@ -1,0 +1,8 @@
+RECREATE Picklist participation_requirement__v (
+   label('Participation Requirement'),
+   active(true),
+   Picklistentry(@Picklistentry/role_required__v.mdl),
+   Picklistentry(@Picklistentry/role_hidden__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

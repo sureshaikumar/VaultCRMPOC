@@ -1,0 +1,6 @@
+Message case_inbox__v (
+   label(),
+   active(true),
+   default_value('${object_label} Inbox'),
+   system_managed(false)
+);

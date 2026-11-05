@@ -1,0 +1,6 @@
+Message default_adherence_case_note__v (
+   label(),
+   active(true),
+   default_value('Follow-up case from Patient''s Adherence Check-Ins.'),
+   system_managed(false)
+);

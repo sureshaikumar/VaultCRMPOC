@@ -1,0 +1,6 @@
+Message no_columns__v (
+   label(),
+   active(true),
+   default_value('No Columns'),
+   system_managed(false)
+);

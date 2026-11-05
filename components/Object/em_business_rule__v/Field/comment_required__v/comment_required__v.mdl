@@ -1,0 +1,20 @@
+Field comment_required__v (
+   label('Comment Required'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Field used to indicate the comment box behavior when a soft warning is triggered.'),
+   list_column(false),
+   order(40),
+   multi_value(false),
+   picklist('Picklist.em_business_rule_comment_required__v'),
+   controlling_picklist('warning_type__v'),
+   picklist_dependencies('{"soft_warning__v":["hidden__v","required__v","optional__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

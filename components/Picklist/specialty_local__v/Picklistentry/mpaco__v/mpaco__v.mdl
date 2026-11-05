@@ -1,0 +1,6 @@
+Picklistentry mpaco__v (
+   value('Molecular Pathology and Cytogenetics'),
+   order(977),
+   active(true),
+   controlling_entries('pk__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gyxob__v (
+   value('Gynecology / Obstetrics'),
+   order(651),
+   active(true),
+   controlling_entries('pt__v')
+);

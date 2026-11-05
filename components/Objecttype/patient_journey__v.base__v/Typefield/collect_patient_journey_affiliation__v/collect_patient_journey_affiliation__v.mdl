@@ -1,0 +1,4 @@
+Typefield collect_patient_journey_affiliation__v (
+   source('standard'),
+   required(false)
+);

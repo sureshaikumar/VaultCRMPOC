@@ -1,0 +1,5 @@
+Picklistentry settlement_price__v (
+   value('Settlement_Price_vod__c'),
+   order(227),
+   active(true)
+);

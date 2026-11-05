@@ -1,0 +1,6 @@
+Picklistentry co-qui__v (
+   value('Quindío'),
+   order(751),
+   active(true),
+   controlling_entries('co__v')
+);

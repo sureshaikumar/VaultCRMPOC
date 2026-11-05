@@ -1,0 +1,27 @@
+RECREATE Notificationtemplate record_user_action__v (
+   label('RecordUserAction'),
+   active(true),
+   description('Record User Action Job Notification template'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Record User Action job has completed
+
+'),
+   notification('<p> A job initiated by the System on your behalf has completed. </p>
+<p> Details </p>
+<ul>
+<li> The System completed the "Invoke Record User Action" Job. </li>
+<ul>
+<li> User Action: "${userActionName}". </li>
+</ul>
+<li> Start Time: ${startTime} </li>
+<li> Duration: ${duration} </li>
+<li> ${failureCountLink} </li>
+<li> ${successCountLink} </li>
+</ul>
+'),
+   email_body('${notificationMessage}
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

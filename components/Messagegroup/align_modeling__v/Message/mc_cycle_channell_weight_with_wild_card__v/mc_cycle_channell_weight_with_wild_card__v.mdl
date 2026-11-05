@@ -1,0 +1,6 @@
+Message mc_cycle_channell_weight_with_wild_card__v (
+   label(),
+   active(true),
+   default_value('Channel Weight *'),
+   system_managed(false)
+);

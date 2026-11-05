@@ -1,0 +1,6 @@
+Message file_type__v (
+   label(),
+   active(true),
+   default_value('File Type'),
+   system_managed(false)
+);

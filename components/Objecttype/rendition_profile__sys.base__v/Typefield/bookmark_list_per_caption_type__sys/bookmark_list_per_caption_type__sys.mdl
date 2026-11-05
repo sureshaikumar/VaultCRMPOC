@@ -1,0 +1,4 @@
+Typefield bookmark_list_per_caption_type__sys (
+   source('standard'),
+   required(false)
+);

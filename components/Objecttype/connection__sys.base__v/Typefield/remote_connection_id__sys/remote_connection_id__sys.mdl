@@ -1,0 +1,4 @@
+Typefield remote_connection_id__sys (
+   source('standard'),
+   required(false)
+);

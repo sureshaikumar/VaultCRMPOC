@@ -1,0 +1,4 @@
+Typefield case_category_tab_visibility__v (
+   source('standard'),
+   required(false)
+);

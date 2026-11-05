@@ -1,0 +1,6 @@
+Message creating_team__v (
+   label(),
+   active(true),
+   default_value('Creating Team'),
+   system_managed(false)
+);

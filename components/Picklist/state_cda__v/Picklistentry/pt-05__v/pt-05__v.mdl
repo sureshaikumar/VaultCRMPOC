@@ -1,0 +1,6 @@
+Picklistentry pt-05__v (
+   value('Castelo Branco'),
+   order(3658),
+   active(true),
+   controlling_entries('pt__v')
+);

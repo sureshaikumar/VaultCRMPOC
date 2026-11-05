@@ -1,0 +1,6 @@
+Picklistentry it-cl__v (
+   value('Caltanissetta'),
+   order(2197),
+   active(true),
+   controlling_entries('it__v')
+);

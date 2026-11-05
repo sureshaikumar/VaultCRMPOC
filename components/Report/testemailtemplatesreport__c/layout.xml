@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:reportFormat xmlns:vrp="VaultReport" joinObjectType="NONE" generateComponentEvents="true">
+  <vrp:docType>email_template__c</vrp:docType>
+  <vrp:targetDocumentAlias>Target Document</vrp:targetDocumentAlias>
+  <vrp:sourceDocumentAlias>Source Document</vrp:sourceDocumentAlias>
+  <vrp:includeRowGroupingTotals>false</vrp:includeRowGroupingTotals>
+  <vrp:enableFilterAliases>false</vrp:enableFilterAliases>
+  <vrp:combineReportPrompts>false</vrp:combineReportPrompts>
+  <vrp:enableMergeCells>false</vrp:enableMergeCells>
+  <vrp:mergeCellsWithinView>false</vrp:mergeCellsWithinView>
+  <vrp:showInactiveFields>false</vrp:showInactiveFields>
+  <vrp:showInactiveUsers>true</vrp:showInactiveUsers>
+  <vrp:removeLinksFromExport>false</vrp:removeLinksFromExport>
+  <vrp:columns>
+    <vrp:column key="documents.name__v" type="documentProperty" index="0" columnWidth="200" />
+    <vrp:column key="documents.document_number__v" type="documentProperty" index="1" columnWidth="200" />
+    <vrp:column key="documents.status__v" type="documentProperty" index="2" columnWidth="200" />
+    <vrp:column key="documents.created_by__v" type="documentProperty" index="3" columnWidth="200" />
+  </vrp:columns>
+</vrp:reportFormat>

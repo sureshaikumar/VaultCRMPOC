@@ -1,0 +1,6 @@
+Picklistentry bt-22__v (
+   value('Dagana'),
+   order(516),
+   active(true),
+   controlling_entries('bt__v')
+);

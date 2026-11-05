@@ -1,0 +1,17 @@
+Field zvod_unique_group_activities__v (
+   label('zvod_Unique_Group_Activities_vod'),
+   type('Boolean'),
+   active(true),
+   description('Marker field used for unique detailing and sampling.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(214),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

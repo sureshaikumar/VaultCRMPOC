@@ -1,0 +1,23 @@
+Field link_reference__v (
+   label('Link Reference'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('This field can be populated with three possible values.
+
+An absolute URL and the text to display separated by a comma. The format is ABS_URL,DISPLAY_TEXT (e.g. "http://www.cnn.com, CNN"). 
+
+A relative SFDC URL and the text to display separated by a comma.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry researcher_index__v (
+   value('Researcher Index'),
+   order(0),
+   active(true)
+);

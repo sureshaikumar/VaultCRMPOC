@@ -1,0 +1,12 @@
+Vsmvalue warning__v (
+   label('WARNING'),
+   active(true),
+   description('Indicates a non-fatal condition that requires attention but did not prevent the operation from completing.'),
+   synonyms('alert',
+         'caution',
+         'non-critical issue',
+         'advisory',
+         'soft error'),
+   target('warning__sys'),
+   target_label('WARNING')
+);

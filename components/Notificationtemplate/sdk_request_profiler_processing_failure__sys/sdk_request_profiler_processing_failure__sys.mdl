@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sdk_request_profiler_processing_failure__sys (
+   label('SDK Request Profiler Processing Failed'),
+   active(true),
+   description('Notification template notifying user that SDK Request profiler session processing has failed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('SDK Request Profiler Session Processing Failed: "${Custom.sessionLabel}"'),
+   notification('Your SDK request profiler session processing for Session "${Custom.sessionLabel}" has failed. Try again or reach out to your Vault Administrator.<br>Session Description:<br><p>${Custom.sessionDescription}</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

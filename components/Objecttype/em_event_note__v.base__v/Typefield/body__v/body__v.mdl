@@ -1,0 +1,4 @@
+Typefield body__v (
+   source('standard'),
+   required(true)
+);

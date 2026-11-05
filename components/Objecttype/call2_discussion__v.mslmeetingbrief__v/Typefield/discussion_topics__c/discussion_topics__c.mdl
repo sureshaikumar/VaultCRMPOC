@@ -1,0 +1,13 @@
+Typefield discussion_topics__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_discussion_discussion_topics__c.ad_board__c',
+         'Picklist.call2_discussion_discussion_topics__c.clinical_studies__c',
+         'Picklist.call2_discussion_discussion_topics__c.investigator_meeting__c',
+         'Picklist.call2_discussion_discussion_topics__c.payer__c',
+         'Picklist.call2_discussion_discussion_topics__c.pipeline__c',
+         'Picklist.call2_discussion_discussion_topics__c.publication_support__c',
+         'Picklist.call2_discussion_discussion_topics__c.scientific_exchange__c',
+         'Picklist.call2_discussion_discussion_topics__c.site_readiness__c',
+         'Picklist.call2_discussion_discussion_topics__c.speaker_development__c')
+);

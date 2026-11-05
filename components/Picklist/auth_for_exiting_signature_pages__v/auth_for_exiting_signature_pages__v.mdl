@@ -1,0 +1,7 @@
+RECREATE Picklist auth_for_exiting_signature_pages__v (
+   label('Auth for Exiting Signature Pages'),
+   active(true),
+   Picklistentry(@Picklistentry/device_authentication__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

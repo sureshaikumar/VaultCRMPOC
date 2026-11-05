@@ -1,0 +1,6 @@
+Picklistentry ke-36__v (
+   value('Nyeri'),
+   order(2389),
+   active(true),
+   controlling_entries('ke__v')
+);

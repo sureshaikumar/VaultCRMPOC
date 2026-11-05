@@ -1,0 +1,19 @@
+Field account_inactive_values__v (
+   label('Account Status Inactive Values'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content('Specifies the values of the Account Status Field for which an account is deemed inactive. Active territory assignments related to inactive accounts are automatically end dated and new territory assignments are prevented.'),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

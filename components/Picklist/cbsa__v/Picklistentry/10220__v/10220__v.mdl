@@ -1,0 +1,5 @@
+Picklistentry 10220__v (
+   value('Ada, OK Micropolitan Statistical Area'),
+   order(434),
+   active(true)
+);

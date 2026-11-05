@@ -1,0 +1,9 @@
+RECREATE Objectvalidation cycle_plan__v.start_date_end_date__v (
+   label('Start Date cannot be >= to the End Date'),
+   active(true),
+   expression('start_date__v < end_date__v'),
+   description('An Error is displayed when the Start Date is after or same as the end date.'),
+   error_message('Start Date cannot be greater than or equal to End Date.'),
+   error_location('start_date__v',
+      'end_date__v')
+);

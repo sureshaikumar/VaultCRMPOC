@@ -1,0 +1,5 @@
+Picklistentry bm__v (
+   value('BM'),
+   order(26),
+   active(true)
+);

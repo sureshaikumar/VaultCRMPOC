@@ -1,0 +1,4 @@
+Typefield network_rxa_eligible__v (
+   source('standard'),
+   required(false)
+);

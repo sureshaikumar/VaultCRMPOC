@@ -1,0 +1,6 @@
+Picklistentry ph-sun__v (
+   value('Surigao del Norte'),
+   order(3606),
+   active(true),
+   controlling_entries('ph__v')
+);

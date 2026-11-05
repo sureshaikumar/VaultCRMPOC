@@ -1,0 +1,17 @@
+Field submitted_datetime__v (
+   label('Submitted DateTime'),
+   type('DateTime'),
+   active(true),
+   description('The DateTime a Survey_Target_vod record was submitted'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(35),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

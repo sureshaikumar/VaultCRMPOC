@@ -1,0 +1,4 @@
+Typefield cvent_object_mapping__v (
+   source('standard'),
+   required(false)
+);

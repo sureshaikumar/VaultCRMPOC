@@ -1,0 +1,13 @@
+RECREATE Picklist call_cycle_entry_day_of_week__v (
+   label('Day of Week'),
+   active(true),
+   Picklistentry(@Picklistentry/sunday__v.mdl),
+   Picklistentry(@Picklistentry/monday__v.mdl),
+   Picklistentry(@Picklistentry/tuesday__v.mdl),
+   Picklistentry(@Picklistentry/wednesday__v.mdl),
+   Picklistentry(@Picklistentry/thursday__v.mdl),
+   Picklistentry(@Picklistentry/friday__v.mdl),
+   Picklistentry(@Picklistentry/saturday__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

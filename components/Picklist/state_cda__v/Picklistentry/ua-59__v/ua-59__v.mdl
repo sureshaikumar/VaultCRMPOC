@@ -1,0 +1,6 @@
+Picklistentry ua-59__v (
+   value('Sumska oblast'),
+   order(4635),
+   active(true),
+   controlling_entries('ua__v')
+);

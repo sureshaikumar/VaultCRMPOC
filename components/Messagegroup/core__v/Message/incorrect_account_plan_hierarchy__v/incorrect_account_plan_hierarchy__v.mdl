@@ -1,0 +1,6 @@
+Message incorrect_account_plan_hierarchy__v (
+   label(),
+   active(true),
+   default_value('The Account Plan Object Hierarchy is not set up correctly.  Please contact your administrator.'),
+   system_managed(false)
+);

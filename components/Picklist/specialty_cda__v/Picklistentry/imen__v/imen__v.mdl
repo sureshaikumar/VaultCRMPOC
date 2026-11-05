@@ -1,0 +1,5 @@
+Picklistentry imen__v (
+   value('Endoscopy'),
+   order(19),
+   active(true)
+);

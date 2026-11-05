@@ -1,0 +1,5 @@
+Picklistentry cfo__v (
+   value('CFO'),
+   order(3),
+   active(true)
+);

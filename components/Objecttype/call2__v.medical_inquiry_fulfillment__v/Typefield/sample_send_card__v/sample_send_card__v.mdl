@@ -1,0 +1,4 @@
+Typefield sample_send_card__v (
+   source('custom'),
+   required(false)
+);

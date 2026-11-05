@@ -1,0 +1,6 @@
+Picklistentry pt-10__v (
+   value('Leiria'),
+   order(3663),
+   active(true),
+   controlling_entries('pt__v')
+);

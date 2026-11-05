@@ -1,0 +1,6 @@
+Message no_values_available__v (
+   label(),
+   active(true),
+   default_value('No values available'),
+   system_managed(false)
+);

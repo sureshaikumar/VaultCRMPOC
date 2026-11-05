@@ -1,0 +1,5 @@
+Picklistentry luf__sys (
+   value('LUF'),
+   order(109),
+   active(true)
+);

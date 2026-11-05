@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation glossary_definitio_complete_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.glossary_definition_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.approved_state__sys'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

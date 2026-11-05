@@ -1,0 +1,6 @@
+Picklistentry mceod__v (
+   value('Medical Cosmetology'),
+   order(905),
+   active(true),
+   controlling_entries('am__v')
+);

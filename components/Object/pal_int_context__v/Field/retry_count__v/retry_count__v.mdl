@@ -1,0 +1,23 @@
+Field retry_count__v (
+   label('Retry Count'),
+   type('Number'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_value(255),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('0'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

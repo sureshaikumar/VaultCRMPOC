@@ -1,0 +1,6 @@
+Message am_pricing_rule_reassociated__v (
+   label(),
+   active(true),
+   default_value('Pricing Rule record(s) are re-associated to winning account as inactive.'),
+   system_managed(false)
+);

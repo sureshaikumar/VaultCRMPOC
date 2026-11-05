@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The system name or label used to identify this permission set within Vault. Use this field to search for or filter permission sets by their human-readable identifier.'),
+   example_values(),
+   synonyms('permission set name',
+         'label',
+         'display name'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

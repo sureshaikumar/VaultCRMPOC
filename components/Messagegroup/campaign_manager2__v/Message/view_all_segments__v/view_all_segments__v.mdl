@@ -1,0 +1,6 @@
+Message view_all_segments__v (
+   label(),
+   active(true),
+   default_value('View All Segments'),
+   system_managed(false)
+);

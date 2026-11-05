@@ -1,0 +1,6 @@
+Picklistentry rdaie__v (
+   value('Radiological Diagnosis'),
+   order(1680),
+   active(true),
+   controlling_entries('am__v')
+);

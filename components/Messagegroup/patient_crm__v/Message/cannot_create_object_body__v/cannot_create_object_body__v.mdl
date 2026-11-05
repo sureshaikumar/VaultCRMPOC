@@ -1,0 +1,6 @@
+Message cannot_create_object_body__v (
+   label(),
+   active(true),
+   default_value('${object_label_plural} can only be created through the Patient Center application'),
+   system_managed(false)
+);

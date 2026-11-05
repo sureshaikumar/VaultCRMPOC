@@ -1,0 +1,5 @@
+Picklistentry long_text__sys (
+   value('Long Text'),
+   order(1),
+   active(true)
+);

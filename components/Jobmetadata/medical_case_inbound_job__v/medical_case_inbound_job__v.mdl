@@ -1,0 +1,11 @@
+RECREATE Jobmetadata medical_case_inbound_job__v (
+   label('Medical to CRM Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that queries the status of Medical Inquiries from Medical App Family Vaults.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.medical.jobs.ProcessMedicalInboundJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued'),
+   timeout_duration()
+);

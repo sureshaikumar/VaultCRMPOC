@@ -1,0 +1,6 @@
+Message unable_to_start_phone_call__v (
+   label(),
+   active(true),
+   default_value('Unable to Start Phone Call'),
+   system_managed(false)
+);

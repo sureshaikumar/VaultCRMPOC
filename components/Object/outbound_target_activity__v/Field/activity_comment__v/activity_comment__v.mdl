@@ -1,0 +1,17 @@
+Field activity_comment__v (
+   label('Activity Comment'),
+   type('RichText'),
+   active(true),
+   description('Stores any notes the user makes for a given Outbound Target Activity.'),
+   required(false),
+   max_length(32000),
+   help_content('Stores any notes the user makes for a given Outbound Target Activity.'),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

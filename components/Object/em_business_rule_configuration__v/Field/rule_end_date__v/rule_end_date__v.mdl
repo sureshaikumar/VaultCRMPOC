@@ -1,0 +1,17 @@
+Field rule_end_date__v (
+   label('Rule End Date'),
+   type('Date'),
+   active(true),
+   description('Defines the ending date for rule validity.'),
+   required(true),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message object_type_to_sync_header__v (
+   label(),
+   active(true),
+   default_value('${object_type_label} Object Type'),
+   system_managed(false)
+);

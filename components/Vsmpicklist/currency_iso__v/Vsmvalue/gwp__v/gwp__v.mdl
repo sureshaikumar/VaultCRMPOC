@@ -1,0 +1,10 @@
+Vsmvalue gwp__v (
+   label('GWP'),
+   active(true),
+   description('The Guinea-Bissau Peso (GWP), the former currency of Guinea-Bissau before adoption of the West African CFA franc, used for historical or legacy financial records.'),
+   synonyms('Guinea-Bissau peso',
+         'Guinea-Bissau currency',
+         'legacy peso'),
+   target('gwp__sys'),
+   target_label('GWP')
+);

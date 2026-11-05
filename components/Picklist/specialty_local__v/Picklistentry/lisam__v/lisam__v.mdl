@@ -1,0 +1,6 @@
+Picklistentry lisam__v (
+   value('Laboratory Immunology (Serology)'),
+   order(843),
+   active(true),
+   controlling_entries('am__v')
+);

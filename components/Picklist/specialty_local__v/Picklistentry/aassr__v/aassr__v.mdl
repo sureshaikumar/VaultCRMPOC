@@ -1,0 +1,6 @@
+Picklistentry aassr__v (
+   value('Arthroscopy and Sport Surgery'),
+   order(99),
+   active(true),
+   controlling_entries('my__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 22140__v (
+   value('Farmington, NM Metropolitan Statistical Area'),
+   order(170),
+   active(true)
+);

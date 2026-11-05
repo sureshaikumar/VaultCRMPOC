@@ -1,0 +1,6 @@
+Picklistentry ma-05__v (
+   value('Béni Mellal-Khénifra'),
+   order(2770),
+   active(true),
+   controlling_entries('ma__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry uz-an__v (
+   value('Andijon'),
+   order(4867),
+   active(true),
+   controlling_entries('uz__v')
+);

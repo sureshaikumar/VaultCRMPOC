@@ -1,0 +1,6 @@
+Picklistentry ru-yar__v (
+   value('Yaroslavskaya oblast'''),
+   order(3870),
+   active(true),
+   controlling_entries('ru__v')
+);

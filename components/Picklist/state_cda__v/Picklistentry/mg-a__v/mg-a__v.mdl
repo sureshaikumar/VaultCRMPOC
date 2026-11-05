@@ -1,0 +1,6 @@
+Picklistentry mg-a__v (
+   value('Toamasina'),
+   order(2932),
+   active(true),
+   controlling_entries('mg__v')
+);

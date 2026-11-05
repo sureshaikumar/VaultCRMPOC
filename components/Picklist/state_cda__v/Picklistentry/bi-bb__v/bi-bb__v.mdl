@@ -1,0 +1,6 @@
+Picklistentry bi-bb__v (
+   value('Bubanza'),
+   order(405),
+   active(true),
+   controlling_entries('bi__v')
+);

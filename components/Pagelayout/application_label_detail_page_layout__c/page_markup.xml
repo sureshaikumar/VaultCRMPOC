@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.application_label__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="label__v" />
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="component_name__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="field__v" />
+            <vault:field reference="is_medical__v" />
+            <vault:field reference="object_api_name__v" />
+            <vault:field reference="record_type_name__v" />
+            <vault:field reference="target_record_type_id__v" />
+            <vault:field reference="original_message__v" />
+            <vault:field reference="replacement_message__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="language__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

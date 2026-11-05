@@ -1,0 +1,10 @@
+Vsmvalue zmk__v (
+   label('ZMK'),
+   active(true),
+   description('Used for legacy transactions denominated in the old Zambian Kwacha (pre-2013), which was redenominated at a ratio of 1000:1 to create the new Zambian Kwacha (ZMW).'),
+   synonyms('Zambian kwacha old',
+         'legacy Zambian kwacha',
+         'pre-2013 kwacha'),
+   target('zmk__sys'),
+   target_label('ZMK')
+);

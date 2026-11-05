@@ -1,0 +1,19 @@
+Field account_email_source__v (
+   label('Account Email Source'),
+   type('String'),
+   active(true),
+   description('Stores the object and field API names to determine the email source field to create emails. Can be a comma delimited list. (i.e. account__v.email_cda__v., account__v.email_2__c)'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

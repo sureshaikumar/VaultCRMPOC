@@ -1,0 +1,9 @@
+RECREATE Picklist em_speaker_reach__v (
+   label('Speaker Reach'),
+   active(true),
+   Picklistentry(@Picklistentry/local__v.mdl),
+   Picklistentry(@Picklistentry/regional__v.mdl),
+   Picklistentry(@Picklistentry/national__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

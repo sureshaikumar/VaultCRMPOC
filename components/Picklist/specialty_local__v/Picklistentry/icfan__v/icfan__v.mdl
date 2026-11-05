@@ -1,0 +1,6 @@
+Picklistentry icfan__v (
+   value('Intensive Care for Adults'),
+   order(769),
+   active(true),
+   controlling_entries('jo__v')
+);

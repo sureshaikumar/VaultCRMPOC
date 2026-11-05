@@ -1,0 +1,6 @@
+Message mi_most_recent_sig__v (
+   label(),
+   active(true),
+   default_value('Most Recent Signatures (Maximum 50 medical inquiries)'),
+   system_managed(false)
+);

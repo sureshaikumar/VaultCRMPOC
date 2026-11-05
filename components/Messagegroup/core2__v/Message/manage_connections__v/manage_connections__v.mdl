@@ -1,0 +1,6 @@
+Message manage_connections__v (
+   label(),
+   active(true),
+   default_value('Manage Connections'),
+   system_managed(false)
+);

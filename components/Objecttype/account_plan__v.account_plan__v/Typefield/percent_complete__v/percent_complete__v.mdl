@@ -1,0 +1,4 @@
+Typefield percent_complete__v (
+   source('custom'),
+   required(false)
+);

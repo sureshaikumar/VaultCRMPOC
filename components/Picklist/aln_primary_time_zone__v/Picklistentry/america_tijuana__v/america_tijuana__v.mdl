@@ -1,0 +1,5 @@
+Picklistentry america_tijuana__v (
+   value('America/Tijuana'),
+   order(5),
+   active(true)
+);

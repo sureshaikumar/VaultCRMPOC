@@ -1,0 +1,6 @@
+Picklistentry cr-sj__v (
+   value('San José'),
+   order(766),
+   active(true),
+   controlling_entries('cr__v')
+);

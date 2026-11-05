@@ -1,0 +1,9 @@
+Typefield medical_inquiry_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.medical_inquiry_status__v.closed__v',
+         'Picklist.medical_inquiry_status__v.new__v',
+         'Picklist.medical_inquiry_status__v.saved__v',
+         'Picklist.medical_inquiry_status__v.submitted__v',
+         'Picklist.medical_inquiry_status__v.in_progress__v')
+);

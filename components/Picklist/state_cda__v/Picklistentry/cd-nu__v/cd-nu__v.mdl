@@ -1,0 +1,6 @@
+Picklistentry cd-nu__v (
+   value('Nord-Ubangi'),
+   order(591),
+   active(true),
+   controlling_entries('cd__v')
+);

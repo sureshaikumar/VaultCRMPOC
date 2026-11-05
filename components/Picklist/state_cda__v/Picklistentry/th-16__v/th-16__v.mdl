@@ -1,0 +1,6 @@
+Picklistentry th-16__v (
+   value('Lop Buri'),
+   order(4334),
+   active(true),
+   controlling_entries('th__v')
+);

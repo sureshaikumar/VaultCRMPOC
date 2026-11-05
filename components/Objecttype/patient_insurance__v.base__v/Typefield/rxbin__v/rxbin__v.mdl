@@ -1,0 +1,4 @@
+Typefield rxbin__v (
+   source('standard'),
+   required(false)
+);

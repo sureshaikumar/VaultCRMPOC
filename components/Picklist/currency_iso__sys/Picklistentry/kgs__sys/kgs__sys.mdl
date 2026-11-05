@@ -1,0 +1,5 @@
+Picklistentry kgs__sys (
+   value('KGS'),
+   order(95),
+   active(true)
+);

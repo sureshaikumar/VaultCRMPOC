@@ -1,0 +1,4 @@
+Typefield auto_sync__v (
+   source('standard'),
+   required(false)
+);

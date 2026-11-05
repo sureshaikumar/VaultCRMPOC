@@ -1,0 +1,10 @@
+Vsmvalue gnf__v (
+   label('GNF'),
+   active(true),
+   description('The Guinean Franc (GNF), the official currency of Guinea, used for transactions and financial records involving business operations in Guinea.'),
+   synonyms('Guinean franc',
+         'Guinea franc',
+         'Guinea currency'),
+   target('gnf__sys'),
+   target_label('GNF')
+);

@@ -1,0 +1,6 @@
+Message no_consent__v (
+   label(),
+   active(true),
+   default_value('No Consent'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry aacim__v (
+   value('Allergy and Clinical Immunology'),
+   order(45),
+   active(true),
+   controlling_entries('qa__v')
+);

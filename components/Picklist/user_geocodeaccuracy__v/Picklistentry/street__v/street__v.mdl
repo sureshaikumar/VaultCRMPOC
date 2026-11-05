@@ -1,0 +1,5 @@
+Picklistentry street__v (
+   value('Street'),
+   order(3),
+   active(true)
+);

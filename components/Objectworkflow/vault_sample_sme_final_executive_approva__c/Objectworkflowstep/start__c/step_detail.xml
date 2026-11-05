@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad" name="start__c">
+    <vwf:label>Start</vwf:label>
+    <vwf:controls>
+      <vwf:control name="submit_documents_for_to_sme_for_approval__c" label="Submit documents to SME's for approval.  Once SME's approve the documents, they will be routed for Final Executive Approval." type="instructions">
+        <vwf:instructions>Submit documents to SME's for approval.  Once SME's approve the documents, they will be routed for Final Executive Approval.</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="sme__c" label="SME Approvers" type="participant" />
+      <vwf:control name="executive_approvers__c" label="Executive Approvers" type="participant" />
+    </vwf:controls>
+  </vwf:dialog>
+</vwf:stepdetails>

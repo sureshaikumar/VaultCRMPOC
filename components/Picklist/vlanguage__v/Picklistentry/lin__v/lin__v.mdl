@@ -1,0 +1,5 @@
+Picklistentry lin__v (
+   value('Lingala'),
+   order(188),
+   active(false)
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata medical_clm_pres_slide_ib_job__v (
+   label('Medical to CRM CLM Presentation Slide Inbound Job'),
+   active(true),
+   chunk_size(500),
+   description('A job that brings over slides from Medical'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.clmintegration.jobs.medical.MedicalClmPresentationIntegrationSlideInboundJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

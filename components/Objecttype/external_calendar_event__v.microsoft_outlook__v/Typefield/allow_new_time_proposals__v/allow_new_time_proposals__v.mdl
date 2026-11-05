@@ -1,0 +1,4 @@
+Typefield allow_new_time_proposals__v (
+   source('custom'),
+   required(false)
+);

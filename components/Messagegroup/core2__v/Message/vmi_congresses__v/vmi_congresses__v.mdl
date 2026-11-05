@@ -1,0 +1,6 @@
+Message vmi_congresses__v (
+   label(),
+   active(true),
+   default_value('Congresses'),
+   system_managed(false)
+);

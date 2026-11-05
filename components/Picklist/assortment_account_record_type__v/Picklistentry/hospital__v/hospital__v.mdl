@@ -1,0 +1,5 @@
+Picklistentry hospital__v (
+   value('Hospital'),
+   order(6),
+   active(false)
+);

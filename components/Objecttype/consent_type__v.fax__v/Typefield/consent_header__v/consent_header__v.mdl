@@ -1,0 +1,4 @@
+Typefield consent_header__v (
+   source('standard'),
+   required(true)
+);

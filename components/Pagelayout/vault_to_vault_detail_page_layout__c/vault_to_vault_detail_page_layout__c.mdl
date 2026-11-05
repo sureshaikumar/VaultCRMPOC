@@ -1,0 +1,8 @@
+RECREATE Pagelayout vault_to_vault_detail_page_layout__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Vault to Vault Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

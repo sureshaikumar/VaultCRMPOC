@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate checklist_design_versioning_failure__v (
+   label('Checklist Design Versioning Failure'),
+   active(true),
+   description('Notification template notifying user that the create new checklist design version action failed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Failed to create new ${checklist_design__sys_label} ${target_checklist_design__sys_name} Version ${target_checklist_design__sys_version} from ${source_checklist_design__sys_name} Version ${source_checklist_design__sys_version}'),
+   notification('<p>Errors were encountered while creating ${target_checklist_design__sys_name} Version (${target_checklist_design__sys_version}) from <a href="${urlSourceChecklistDesign}">${source_checklist_design__sys_name}</a> Version (${source_checklist_design__sys_version}).<br>Details:<p>${listOfErrors}</p><a href="${urlChecklistHelp}">Learn more</a><br>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

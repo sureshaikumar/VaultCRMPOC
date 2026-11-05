@@ -1,0 +1,17 @@
+Field latest_received_date__c (
+   label('Latest received date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(82),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

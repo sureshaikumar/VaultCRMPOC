@@ -1,0 +1,14 @@
+Vsmrelationship connection_stats__v (
+   label('Connection Stats'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship to statistical records tracking usage and performance metrics for this connection. Use this to analyze connection activity, error rates, or throughput over time.'),
+   join_object(),
+   synonyms('stats',
+         'usage stats',
+         'connection metrics',
+         'connection usage'),
+   target('connection_stats__sysr'),
+   target_label('Connection Stats'),
+   target_object('connection_stats__sys')
+);

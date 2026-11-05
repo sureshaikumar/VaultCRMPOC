@@ -1,0 +1,6 @@
+Picklistentry si-025__v (
+   value('Dravograd'),
+   order(3999),
+   active(true),
+   controlling_entries('si__v')
+);

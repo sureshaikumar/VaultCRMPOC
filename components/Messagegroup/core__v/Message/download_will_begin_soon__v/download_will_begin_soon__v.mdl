@@ -1,0 +1,6 @@
+Message download_will_begin_soon__v (
+   label(),
+   active(true),
+   default_value('Your download will begin soon'),
+   system_managed(false)
+);

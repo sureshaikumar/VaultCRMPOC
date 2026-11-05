@@ -1,0 +1,6 @@
+Message check_plural_label__sys (
+   label(),
+   active(true),
+   default_value('Checks'),
+   system_managed(false)
+);

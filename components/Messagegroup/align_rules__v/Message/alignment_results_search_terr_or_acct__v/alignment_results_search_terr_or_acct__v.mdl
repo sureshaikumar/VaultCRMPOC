@@ -1,0 +1,6 @@
+Message alignment_results_search_terr_or_acct__v (
+   label(),
+   active(true),
+   default_value('Search Territories or Accounts'),
+   system_managed(false)
+);

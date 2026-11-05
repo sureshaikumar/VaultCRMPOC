@@ -1,0 +1,4 @@
+Typefield my_samples_layout_edit__v (
+   source('standard'),
+   required(false)
+);

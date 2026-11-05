@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_rollup_rule__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="address_filter_logic__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="last_run_datetime__v" />
+            <vault:field reference="master_align_id__v" />
+            <vault:field reference="rollup_operator__v" />
+            <vault:field reference="rule_filter_logic__v" />
+            <vault:field reference="source_field__v" />
+            <vault:field reference="source_object__v" />
+            <vault:field reference="target_field__v" />
+            <vault:field reference="target_object__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

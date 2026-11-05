@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.time_off_territory__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="date__v" />
+            <vault:field reference="reason__v" />
+            <vault:field reference="time_off_territory_status__v" />
+            <vault:field reference="territory__v" />
+            <vault:field reference="time__v" />
+            <vault:field reference="hours_off__v" />
+            <vault:field reference="start_time__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="hours__v" />
+            <vault:field reference="unavailable_for_engage_scheduling__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

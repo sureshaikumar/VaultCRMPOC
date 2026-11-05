@@ -1,0 +1,5 @@
+Picklistentry cv__v (
+   value('Cape Verde'),
+   order(51),
+   active(true)
+);

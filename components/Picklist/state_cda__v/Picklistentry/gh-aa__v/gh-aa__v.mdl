@@ -1,0 +1,6 @@
+Picklistentry gh-aa__v (
+   value('Greater Accra'),
+   order(1688),
+   active(true),
+   controlling_entries('gh__v')
+);

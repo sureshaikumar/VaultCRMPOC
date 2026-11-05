@@ -1,0 +1,6 @@
+Message vmi_experts__v (
+   label(),
+   active(true),
+   default_value('Experts'),
+   system_managed(false)
+);

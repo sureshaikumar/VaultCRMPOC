@@ -1,0 +1,6 @@
+Message copying_account_plan__v (
+   label(),
+   active(true),
+   default_value('Copying account plan. This will take a few moments.'),
+   system_managed(false)
+);

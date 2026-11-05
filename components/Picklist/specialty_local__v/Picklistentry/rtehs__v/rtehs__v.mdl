@@ -1,0 +1,7 @@
+Picklistentry rtehs__v (
+   value('Respiratory Therapy'),
+   order(1744),
+   active(true),
+   controlling_entries('ph__v',
+         'us__v')
+);

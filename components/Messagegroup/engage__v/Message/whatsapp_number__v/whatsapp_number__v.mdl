@@ -1,0 +1,6 @@
+Message whatsapp_number__v (
+   label(),
+   active(true),
+   default_value('WhatsApp Number'),
+   system_managed(false)
+);

@@ -1,0 +1,34 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.user_detail__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="home_address_line_1__v" />
+            <vault:field reference="home_address_line_2__v" />
+            <vault:field reference="home_city__v" />
+            <vault:field reference="home_state__v" />
+            <vault:field reference="home_zip_4__v" />
+            <vault:field reference="home_zip__v" />
+            <vault:field reference="photo__v" />
+            <vault:field reference="remote_meeting_name__v" />
+            <vault:field reference="user_signature__v" />
+            <vault:field reference="additional_zoom_dial_in_countries__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="home_country__v" />
+            <vault:field reference="digital_business_card_display_name__v" />
+            <vault:field reference="digital_business_card_phone__v" />
+            <vault:field reference="digital_business_card_photo_url__v" />
+            <vault:field reference="digital_business_card_title__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sysinfo__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

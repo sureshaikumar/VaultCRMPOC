@@ -1,0 +1,8 @@
+RECREATE Picklist attendance_type__v (
+   label('Attendance Type'),
+   active(true),
+   Picklistentry(@Picklistentry/in_person__v.mdl),
+   Picklistentry(@Picklistentry/virtual__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

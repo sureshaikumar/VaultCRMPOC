@@ -1,0 +1,20 @@
+Field watermark_training__v (
+   label('WATERMARK_TRAINING'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('When populated, this text is displayed as a watermark on all CLM Presentations marked as Training Content.'),
+   list_column(false),
+   order(310),
+   default_value('"WATERMARK_TRAINING;;CLM"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message medx_section_requires_attendee__v (
+   label(),
+   active(true),
+   default_value('At least one section on the medical interaction requires an attendee.'),
+   system_managed(false)
+);

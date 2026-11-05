@@ -1,0 +1,6 @@
+Picklistentry ge-ka__v (
+   value('K''akheti'),
+   order(1680),
+   active(true),
+   controlling_entries('ge__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry psoriasis__v (
+   value('Psoriasis'),
+   order(109),
+   active(true)
+);

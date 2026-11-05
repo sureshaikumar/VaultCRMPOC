@@ -1,0 +1,5 @@
+Picklistentry gor__v (
+   value('Gorontalo'),
+   order(116),
+   active(false)
+);

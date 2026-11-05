@@ -1,0 +1,14 @@
+RECREATE Page em_next_steps_app_page__v (
+   label('EM Next Steps App Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('em_next_steps_app_page__v'),
+   description('App Page for EM Event Next Steps'),
+   disable_chrome(true),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('next-steps')
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_colombo__v (
+   value('India Time'),
+   order(28),
+   active(true)
+);

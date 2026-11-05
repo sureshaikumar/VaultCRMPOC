@@ -1,0 +1,5 @@
+Picklistentry cdhri__v (
+   value('Chinese Druggist'),
+   order(19),
+   active(true)
+);

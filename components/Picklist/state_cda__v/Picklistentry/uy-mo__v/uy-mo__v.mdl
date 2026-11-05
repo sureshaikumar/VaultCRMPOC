@@ -1,0 +1,6 @@
+Picklistentry uy-mo__v (
+   value('Montevideo'),
+   order(4857),
+   active(true),
+   controlling_entries('uy__v')
+);

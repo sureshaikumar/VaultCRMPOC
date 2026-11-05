@@ -1,0 +1,6 @@
+Picklistentry gn-ke__v (
+   value('Kérouané'),
+   order(1736),
+   active(true),
+   controlling_entries('gn__v')
+);

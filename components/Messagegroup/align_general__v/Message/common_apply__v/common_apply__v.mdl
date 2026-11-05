@@ -1,0 +1,6 @@
+Message common_apply__v (
+   label(),
+   active(true),
+   default_value('Apply'),
+   system_managed(false)
+);

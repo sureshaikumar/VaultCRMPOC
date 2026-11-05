@@ -1,0 +1,6 @@
+Message submit_no_adding__v (
+   label(),
+   active(true),
+   default_value('You cannot add additional details to a submitted ${call_label}'),
+   system_managed(false)
+);

@@ -1,0 +1,85 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account__v.kol__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="first_name_cda__v" />
+            <vault:field reference="last_name_cda__v" />
+            <vault:field reference="persontitle__v" />
+            <vault:field reference="office_phone_cda__v" />
+            <vault:field reference="formatted_name__v" />
+            <vault:field reference="middle_name_cda__v" />
+            <vault:field reference="suffix_cda__v" />
+            <vault:field reference="preferred_name__v" />
+            <vault:field reference="gender__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="do_not_call__v" />
+            <vault:field reference="spend_amount__c" />
+            <vault:field reference="spend_status__v" />
+            <vault:field reference="primary_parent__v" />
+            <vault:field reference="default_order_type__v" />
+            <vault:field reference="credentials__v" />
+            <vault:field reference="specialty_1__v" />
+            <vault:field reference="specialty_2__v" />
+            <vault:field reference="mobile_phone_cda__v" />
+            <vault:field reference="email_cda__v" />
+            <vault:field reference="clm_opt_type__v" />
+            <vault:field reference="pdrp_opt_out__v" />
+            <vault:field reference="target__c" />
+            <vault:field reference="kol_cda__v" />
+            <vault:field reference="speaker__c" />
+            <vault:spacer />
+            <vault:field reference="investigator_cda__v" />
+            <vault:field reference="vcountry__v" />
+            <vault:field reference="medical_identifier__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="in_merge__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Affiliations (From Account)" name="affiliations_from_account__c">
+        <vault:relatedObject relationship="affiliation__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="to_account__v" width="200px" />
+            <vault:field reference="role__v" width="200px" />
+            <vault:field reference="influence__v" width="200px" />
+            <vault:field reference="comments__v" width="200px" />
+            <vault:field reference="modified_date__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Calls (Account)" name="calls_account__c">
+        <vault:relatedObject relationship="call2__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Assessments" name="assessments__c">
+        <vault:relatedObject relationship="assessments__cr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Clinical Trials" name="clinical_trials__c">
+        <vault:relatedObject relationship="clinical_trial__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Publications" name="publications__c">
+        <vault:relatedObject relationship="publication__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Medical Insights" name="medical_insights__c">
+        <vault:relatedObject relationship="medical_insights__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,6 @@
+Picklistentry bj-ou__v (
+   value('Ouémé'),
+   order(432),
+   active(true),
+   controlling_entries('bj__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry iq-ki__v (
+   value('Kirkūk'),
+   order(2042),
+   active(true),
+   controlling_entries('iq__v')
+);

@@ -1,0 +1,6 @@
+Message territory_info_bar_rx_timeframe_help__v (
+   label(),
+   active(true),
+   default_value('*Data for time frame {0} - {1}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry user_full_sync__v (
+   value('User Full Sync'),
+   order(1),
+   active(true)
+);

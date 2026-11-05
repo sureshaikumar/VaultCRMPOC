@@ -1,0 +1,6 @@
+Message all_group_cases__v (
+   label(),
+   active(true),
+   default_value('All Group Cases'),
+   system_managed(false)
+);

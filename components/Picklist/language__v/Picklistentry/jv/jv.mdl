@@ -1,0 +1,5 @@
+Picklistentry jv (
+   value('Javanese'),
+   order(72),
+   active(true)
+);

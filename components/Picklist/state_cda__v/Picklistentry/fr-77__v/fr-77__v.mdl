@@ -1,0 +1,6 @@
+Picklistentry fr-77__v (
+   value('Seine-et-Marne'),
+   order(1395),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,5 @@
+Typefield all_active_cases_columns__v (
+   source('standard'),
+   required(false),
+   default_value('"case__v.name__v;;case__v.case_owner__v;;case__v.case_subject__v;;case__v.state__v;;case__v.case_severity__v;;case__v.case_queue__v;;case__v.account__v;;case__v.product__v;;case__v.case_category__v;;case__v.subcategory__v;;case__v.case_type__v;;case__v.created_date__v;;case__v.modified_date__v"')
+);

@@ -1,0 +1,5 @@
+Picklistentry chco__v (
+   value('Community Health Centre'),
+   order(32),
+   active(true)
+);

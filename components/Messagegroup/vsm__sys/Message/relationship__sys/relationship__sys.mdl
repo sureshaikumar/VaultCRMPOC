@@ -1,0 +1,6 @@
+Message relationship__sys (
+   label(),
+   active(true),
+   default_value('Relationship'),
+   system_managed(true)
+);

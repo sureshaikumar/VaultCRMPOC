@@ -1,0 +1,10 @@
+RECREATE Picklist exception_item_error_type__sys (
+   label('User Exception Item Error Type'),
+   active(true),
+   Picklistentry(@Picklistentry/item_not_found__sys.mdl),
+   Picklistentry(@Picklistentry/invalid_data__sys.mdl),
+   Picklistentry(@Picklistentry/reference_not_found__sys.mdl),
+   Picklistentry(@Picklistentry/operation_not_allowed__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

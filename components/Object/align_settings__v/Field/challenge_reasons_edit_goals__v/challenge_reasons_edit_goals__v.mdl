@@ -1,0 +1,19 @@
+Field challenge_reasons_edit_goals__v (
+   label('Challenge Reasons (Edit Goals)'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The reasons available for selection when the user makes an "Edit Goals" challenge.'),
+   list_column(false),
+   order(19),
+   multi_value(true),
+   picklist('Picklist.aln_challenge_reason__v'),
+   default_value('{distance__c},{good_access__c},{poor_access__c},{high_priority__c},{low_priority__c},{part_time__c},{other__c}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

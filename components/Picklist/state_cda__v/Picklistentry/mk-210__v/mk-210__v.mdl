@@ -1,0 +1,6 @@
+Picklistentry mk-210__v (
+   value('Češinovo-Obleševo'),
+   order(2982),
+   active(true),
+   controlling_entries('mk__v')
+);

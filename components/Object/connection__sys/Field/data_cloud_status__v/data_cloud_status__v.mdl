@@ -1,0 +1,18 @@
+Field data_cloud_status__v (
+   label('Connection Status'),
+   type('Picklist'),
+   active(true),
+   description('The status of the connection.'),
+   required(false),
+   unique(false),
+   help_content('The status of the connection.'),
+   list_column(false),
+   order(37),
+   multi_value(false),
+   picklist('Picklist.connection_data_cloud_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

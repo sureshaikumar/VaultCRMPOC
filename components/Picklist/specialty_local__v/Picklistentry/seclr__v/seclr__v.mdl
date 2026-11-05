@@ -1,0 +1,6 @@
+Picklistentry seclr__v (
+   value('Screening Electrocardiography'),
+   order(1764),
+   active(true),
+   controlling_entries('lv__v')
+);

@@ -1,0 +1,6 @@
+Message create_child_account_view__v (
+   label(),
+   active(true),
+   default_value('Create New Child Account View'),
+   system_managed(false)
+);

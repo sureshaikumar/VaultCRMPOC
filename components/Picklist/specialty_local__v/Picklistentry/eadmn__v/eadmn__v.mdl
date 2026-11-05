@@ -1,0 +1,7 @@
+Picklistentry eadmn__v (
+   value('Endocrinology and Diabetes Mellitus'),
+   order(498),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v')
+);

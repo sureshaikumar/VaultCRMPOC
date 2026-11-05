@@ -1,0 +1,6 @@
+Picklistentry htmab__v (
+   value('Hematology, Transfusion Medicine and Blood Supply'),
+   order(692),
+   active(true),
+   controlling_entries('am__v')
+);

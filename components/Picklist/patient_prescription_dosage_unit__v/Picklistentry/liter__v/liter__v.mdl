@@ -1,0 +1,5 @@
+Picklistentry liter__v (
+   value('L - Liter'),
+   order(4),
+   active(true)
+);

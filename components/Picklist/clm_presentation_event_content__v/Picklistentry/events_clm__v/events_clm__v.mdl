@@ -1,0 +1,5 @@
+Picklistentry events_clm__v (
+   value('Events CLM'),
+   order(1),
+   active(true)
+);

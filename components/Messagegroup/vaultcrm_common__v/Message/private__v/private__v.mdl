@@ -1,0 +1,6 @@
+Message private__v (
+   label(),
+   active(true),
+   default_value('Private'),
+   system_managed(false)
+);

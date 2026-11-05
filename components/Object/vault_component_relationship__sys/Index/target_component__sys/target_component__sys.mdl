@@ -1,0 +1,5 @@
+Index target_component__sys (
+   description(),
+   fields('target_component__sys'),
+   label('Target Component')
+);

@@ -1,0 +1,6 @@
+Message one_or_more_slide_currently_unavailable__v (
+   label(),
+   active(true),
+   default_value('One or more citations are currently unavailable'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata events_management_generic_job__v (
+   label('Event Management Generic Job'),
+   active(true),
+   chunk_size(1),
+   description('This job is a placeholder for the the different services that should be executed asynchronously.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.async.EventsManagementCommonJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

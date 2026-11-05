@@ -1,0 +1,6 @@
+Picklistentry in-mz__v (
+   value('Mizoram'),
+   order(2020),
+   active(true),
+   controlling_entries('in__v')
+);

@@ -1,0 +1,6 @@
+Message invalid_sent_platform__v (
+   label(),
+   active(true),
+   default_value('Invalid value ${platform_api} specified for the field sent_from_platform__v on sent_message__v object. Please contact your administrator.'),
+   system_managed(false)
+);

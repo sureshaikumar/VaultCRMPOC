@@ -1,0 +1,6 @@
+Picklistentry dty_enrollment_form1__sys (
+   value('Enrollment Form'),
+   order(57),
+   active(true),
+   controlling_entries('dlc_patient_intake__sys')
+);

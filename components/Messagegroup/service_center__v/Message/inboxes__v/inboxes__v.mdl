@@ -1,0 +1,6 @@
+Message inboxes__v (
+   label(),
+   active(true),
+   default_value('Inboxes'),
+   system_managed(false)
+);

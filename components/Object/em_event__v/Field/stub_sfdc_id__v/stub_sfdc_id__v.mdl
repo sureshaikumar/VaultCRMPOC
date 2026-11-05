@@ -1,0 +1,19 @@
+Field stub_sfdc_id__v (
+   label('Stub SFDC Id'),
+   type('String'),
+   active(true),
+   description('System field used by mobile products to aid synchronization.'),
+   required(false),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(75),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

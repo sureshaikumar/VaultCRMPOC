@@ -1,0 +1,12 @@
+RECREATE Jobmetadata my_engage_portal_clean_up_job__v (
+   label('My Engage Portal Clean Up Job'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to resolve My Engage Portal publishing status if necessary.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.commcenter.jobs.MyEngagePortalCleanUpJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

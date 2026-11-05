@@ -1,0 +1,4 @@
+Typefield clm_nav_bar_hide_content__v (
+   source('standard'),
+   required(false)
+);

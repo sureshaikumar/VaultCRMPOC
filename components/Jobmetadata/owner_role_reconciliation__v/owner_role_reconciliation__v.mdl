@@ -1,0 +1,10 @@
+RECREATE Jobmetadata owner_role_reconciliation__v (
+   label('Owner Role Reconciliation'),
+   active(true),
+   chunk_size(200),
+   description('Job to ensure that for DAC-enabled objects, the user in the Owner (ownerid__v) field is also in the Owner role. Any users already in the Owner role will not be removed.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.common.jobs.OwnerRoleReconciliationJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

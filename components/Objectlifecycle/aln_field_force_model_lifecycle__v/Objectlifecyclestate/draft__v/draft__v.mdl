@@ -1,0 +1,10 @@
+Objectlifecyclestate draft__v (
+   label('Draft'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('This is the default state for field force models, in which models and assignments can be edited.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

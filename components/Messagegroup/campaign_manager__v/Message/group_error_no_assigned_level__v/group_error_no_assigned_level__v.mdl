@@ -1,0 +1,6 @@
+Message group_error_no_assigned_level__v (
+   label(),
+   active(true),
+   default_value('All groups must be assigned at least one level'),
+   system_managed(false)
+);

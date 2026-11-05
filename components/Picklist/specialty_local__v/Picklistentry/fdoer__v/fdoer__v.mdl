@@ -1,0 +1,6 @@
+Picklistentry fdoer__v (
+   value('Forensic Dentistry'),
+   order(548),
+   active(true),
+   controlling_entries('sa__v')
+);

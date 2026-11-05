@@ -1,0 +1,6 @@
+Message mccp_value_must_be_in_range_err_msg__v (
+   label(),
+   active(true),
+   default_value('{0} must be in range of {1} and {2}.'),
+   system_managed(false)
+);

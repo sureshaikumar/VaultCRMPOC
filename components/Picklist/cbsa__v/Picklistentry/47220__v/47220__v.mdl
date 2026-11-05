@@ -1,0 +1,5 @@
+Picklistentry 47220__v (
+   value('Vineland-Millville-Bridgeton, NJ Metropolitan Statistical Area'),
+   order(218),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry scte__v (
+   value('Stroke Center'),
+   order(246),
+   active(true)
+);

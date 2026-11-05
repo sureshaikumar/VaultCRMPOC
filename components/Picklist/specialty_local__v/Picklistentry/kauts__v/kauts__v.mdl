@@ -1,0 +1,6 @@
+Picklistentry kauts__v (
+   value('Kidney and Urinary Tract Surgery'),
+   order(832),
+   active(true),
+   controlling_entries('jo__v')
+);

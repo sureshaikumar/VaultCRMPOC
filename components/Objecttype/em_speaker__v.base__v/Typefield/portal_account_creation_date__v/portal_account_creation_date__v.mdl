@@ -1,0 +1,4 @@
+Typefield portal_account_creation_date__v (
+   source('standard'),
+   required(false)
+);

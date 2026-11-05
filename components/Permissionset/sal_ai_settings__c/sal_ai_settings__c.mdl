@@ -1,0 +1,13 @@
+RECREATE Permissionset sal_ai_settings__c (
+   label('SAL AI Settings'),
+   active(true),
+   description(),
+   object.ai_settings__v.application_profile__v.field_actions('read'),
+   object.ai_settings__v.created_by__v.field_actions('read'),
+   object.ai_settings__v.created_date__v.field_actions('read'),
+   object.ai_settings__v.initial_salutation__v.field_actions('read'),
+   object.ai_settings__v.modified_by__v.field_actions('read'),
+   object.ai_settings__v.modified_date__v.field_actions('read'),
+   object.ai_settings__v.object_actions('read'),
+   vault_actions.search('suggest')
+);

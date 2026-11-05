@@ -1,0 +1,6 @@
+Picklistentry gq-wn__v (
+   value('Wele-Nzas'),
+   order(1765),
+   active(true),
+   controlling_entries('gq__v')
+);

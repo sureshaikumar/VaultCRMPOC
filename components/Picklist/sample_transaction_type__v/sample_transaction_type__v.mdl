@@ -1,0 +1,11 @@
+RECREATE Picklist sample_transaction_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/adjustment__v.mdl),
+   Picklistentry(@Picklistentry/disbursement__v.mdl),
+   Picklistentry(@Picklistentry/receipt__v.mdl),
+   Picklistentry(@Picklistentry/return__v.mdl),
+   Picklistentry(@Picklistentry/transfer__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

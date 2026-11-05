@@ -1,0 +1,6 @@
+Message source_vault_errors__v (
+   label(),
+   active(true),
+   default_value('Source Vault Errors'),
+   system_managed(false)
+);

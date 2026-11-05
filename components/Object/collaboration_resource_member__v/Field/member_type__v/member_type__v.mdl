@@ -1,0 +1,18 @@
+Field member_type__v (
+   label('Member Type'),
+   type('Picklist'),
+   active(true),
+   description('Tracks whether the user is an owner or a member of the Team or Channel'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.microsoft_member_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+RECREATE Picklist sent_message_status__v (
+   label('Sent Message Status'),
+   active(true),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/sent__v.mdl),
+   Picklistentry(@Picklistentry/delivered__v.mdl),
+   Picklistentry(@Picklistentry/delivered1__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

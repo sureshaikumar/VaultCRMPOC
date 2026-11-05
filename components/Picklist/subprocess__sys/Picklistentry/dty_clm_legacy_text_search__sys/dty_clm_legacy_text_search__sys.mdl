@@ -1,0 +1,6 @@
+Picklistentry dty_clm_legacy_text_search__sys (
+   value('CLM Legacy Text Search'),
+   order(32),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

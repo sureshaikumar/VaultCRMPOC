@@ -1,0 +1,6 @@
+Picklistentry ie-wd__v (
+   value('Waterford'),
+   order(1987),
+   active(true),
+   controlling_entries('ie__v')
+);

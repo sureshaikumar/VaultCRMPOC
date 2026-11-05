@@ -1,0 +1,6 @@
+Message allow_device_push_notifications_body__v (
+   label(),
+   active(true),
+   default_value('Get notified when there are important updates'),
+   system_managed(false)
+);

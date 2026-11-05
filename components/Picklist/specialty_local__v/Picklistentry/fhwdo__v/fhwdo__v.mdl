@@ -1,0 +1,6 @@
+Picklistentry fhwdo__v (
+   value('Food Hygiene with Dietetics'),
+   order(543),
+   active(true),
+   controlling_entries('ba__v')
+);

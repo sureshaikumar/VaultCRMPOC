@@ -1,0 +1,6 @@
+Message crm_integration_changes_crm_new_imported__v (
+   label(),
+   active(true),
+   default_value('Import from CRM completed'),
+   system_managed(false)
+);

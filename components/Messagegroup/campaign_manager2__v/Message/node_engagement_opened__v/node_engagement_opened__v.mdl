@@ -1,0 +1,6 @@
+Message node_engagement_opened__v (
+   label(),
+   active(true),
+   default_value('Engagement - Opened?'),
+   system_managed(false)
+);

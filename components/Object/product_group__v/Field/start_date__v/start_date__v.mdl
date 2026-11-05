@@ -1,0 +1,17 @@
+Field start_date__v (
+   label('Start Date'),
+   type('Date'),
+   active(true),
+   description('Start date of validity of the Sample Product Group record'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

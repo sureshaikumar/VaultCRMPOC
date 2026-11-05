@@ -1,0 +1,6 @@
+Message ai_autofill__v (
+   label(),
+   active(true),
+   default_value('AI Auto-Fill'),
+   system_managed(false)
+);

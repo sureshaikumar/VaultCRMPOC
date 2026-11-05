@@ -1,0 +1,6 @@
+Message uploading_files__v (
+   label(),
+   active(true),
+   default_value('Uploading Files'),
+   system_managed(false)
+);

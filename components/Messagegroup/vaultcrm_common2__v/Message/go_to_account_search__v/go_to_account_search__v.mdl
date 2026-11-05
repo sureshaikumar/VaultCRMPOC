@@ -1,0 +1,6 @@
+Message go_to_account_search__v (
+   label(),
+   active(true),
+   default_value('Go to Account Search'),
+   system_managed(false)
+);

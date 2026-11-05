@@ -1,0 +1,6 @@
+Message email_reply_activity__v (
+   label(),
+   active(true),
+   default_value('Email Reply'),
+   system_managed(false)
+);

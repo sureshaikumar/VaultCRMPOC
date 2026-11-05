@@ -1,0 +1,6 @@
+Message targets_moved_to_no_consent__v (
+   label(),
+   active(true),
+   default_value('${count} accounts moved to No Consent'),
+   system_managed(false)
+);

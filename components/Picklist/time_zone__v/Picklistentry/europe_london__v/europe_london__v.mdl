@@ -1,0 +1,5 @@
+Picklistentry europe_london__v (
+   value('Greenwich Mean Time (London)'),
+   order(61),
+   active(true)
+);

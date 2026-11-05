@@ -1,0 +1,10 @@
+Vsmvalue xbc__v (
+   label('XBC'),
+   active(true),
+   description('Applies when transactions reference the European Unit of Account 9 (EUA-9), a bond market unit used for European financial calculations.'),
+   synonyms('European unit of account 9',
+         'EUA-9',
+         'bond market account unit'),
+   target('xbc__sys'),
+   target_label('XBC')
+);

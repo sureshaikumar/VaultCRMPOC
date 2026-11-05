@@ -1,0 +1,11 @@
+Vsmfield first_name__v (
+   label('First Name'),
+   active(true),
+   description('The user\''s given name.'),
+   example_values(),
+   synonyms(),
+   target('first_name__sys'),
+   target_label('First Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction user__sys.resend_welcome_email__sys (
+   label('Resend Welcome Email'),
+   description('Resend Welcome Email'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.user.ResendWelcomeEmail'),
+   active(true),
+   available_all_states(true)
+);

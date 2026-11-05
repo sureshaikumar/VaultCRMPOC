@@ -1,0 +1,5 @@
+Picklistentry zen__v (
+   value('Zenaga'),
+   order(360),
+   active(false)
+);

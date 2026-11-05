@@ -1,0 +1,6 @@
+Picklistentry nr-12__v (
+   value('Nibok'),
+   order(3423),
+   active(true),
+   controlling_entries('nr__v')
+);

@@ -1,0 +1,6 @@
+Message unable_to_select_more_than_50_cases__v (
+   label(),
+   active(true),
+   default_value('Unable to select more than 50 Cases'),
+   system_managed(false)
+);

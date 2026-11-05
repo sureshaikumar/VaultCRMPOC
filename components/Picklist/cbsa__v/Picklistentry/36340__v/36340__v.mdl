@@ -1,0 +1,5 @@
+Picklistentry 36340__v (
+   value('Oil City, PA Micropolitan Statistical Area'),
+   order(459),
+   active(true)
+);

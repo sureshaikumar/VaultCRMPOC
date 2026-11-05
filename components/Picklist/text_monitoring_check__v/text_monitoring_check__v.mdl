@@ -1,0 +1,8 @@
+RECREATE Picklist text_monitoring_check__v (
+   label('Text Monitoring Check'),
+   active(true),
+   Picklistentry(@Picklistentry/save_submit__v.mdl),
+   Picklistentry(@Picklistentry/in_edit__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

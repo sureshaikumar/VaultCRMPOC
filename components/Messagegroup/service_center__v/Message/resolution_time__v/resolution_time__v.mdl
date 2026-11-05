@@ -1,0 +1,6 @@
+Message resolution_time__v (
+   label(),
+   active(true),
+   default_value('Resolution Time'),
+   system_managed(false)
+);

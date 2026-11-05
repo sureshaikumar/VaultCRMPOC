@@ -1,0 +1,10 @@
+Vsmvalue mop__v (
+   label('MOP'),
+   active(true),
+   description('The Macanese Pataca (MOP), the official currency of Macau, used for transactions, pricing, and financial records involving Macau markets.'),
+   synonyms('Macanese pataca',
+         'Macao pataca',
+         'MOP'),
+   target('mop__sys'),
+   target_label('MOP')
+);

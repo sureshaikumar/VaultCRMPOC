@@ -1,0 +1,4 @@
+RECREATE Renditiontype distribution_package__v (
+   label('Distribution Package'),
+   active(true)
+);

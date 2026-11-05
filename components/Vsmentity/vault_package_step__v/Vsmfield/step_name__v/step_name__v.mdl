@@ -1,0 +1,13 @@
+Vsmfield step_name__v (
+   label('Name'),
+   active(true),
+   description('The internal name or key identifying this step within the package definition. IMPORTANT: This is the programmatic name, not the display label — for the UI-facing name use step_label__v instead.'),
+   example_values(),
+   synonyms('name',
+         'step name',
+         'internal name'),
+   target('step_name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,19 @@
+Field model_update_status__v (
+   label('Model Update Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status of Model Update'),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.model_update_status__v'),
+   default_value('{active__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

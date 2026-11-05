@@ -1,0 +1,6 @@
+Message opt_out_all__v (
+   label(),
+   active(true),
+   default_value('Opt Out All'),
+   system_managed(false)
+);

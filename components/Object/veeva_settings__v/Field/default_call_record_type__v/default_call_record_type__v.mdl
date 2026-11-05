@@ -1,0 +1,21 @@
+Field default_call_record_type__v (
+   label('Default Call RecordType'),
+   type('String'),
+   active(true),
+   description('References a Veeva message that contains the configuration for setting a default call record type by the account record type of the call. The syntax for the Veeva message is: <ACCOUNT_RECORD_TYPE1>,<CALL_RECORD_TYPE1>;;...
+            If there is no call'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(81),
+   default_value('" DEFAULT_CALL_RECORD_TYPE;;Common"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry antarctica_casey__sys (
+   value('(GMT+11:00) Casey Time (Antarctica/Casey)'),
+   order(293),
+   active(true)
+);

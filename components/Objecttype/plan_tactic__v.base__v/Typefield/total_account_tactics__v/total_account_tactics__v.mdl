@@ -1,0 +1,4 @@
+Typefield total_account_tactics__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message account_exclusion_model_ext_id_proj_id__v (
+   label(),
+   active(true),
+   default_value('Model Account Exclusion''s External ID must include Project ID (${project_id}) at the end, in the format "[external_id_prefix]::${project_id}".'),
+   system_managed(false)
+);

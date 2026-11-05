@@ -1,0 +1,6 @@
+Message cycle_plan_apply_list_error_modal_title__v (
+   label(),
+   active(true),
+   default_value('Target Accounts Not Added'),
+   system_managed(false)
+);

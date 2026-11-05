@@ -1,0 +1,16 @@
+Typefield action_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_event_history_action_type__v.approve__v',
+         'Picklist.em_event_history_action_type__v.cancel_event__v',
+         'Picklist.em_event_history_action_type__v.close__v',
+         'Picklist.em_event_history_action_type__v.created__v',
+         'Picklist.em_event_history_action_type__v.em_business_rule_execution__v',
+         'Picklist.em_event_history_action_type__v.lifecycle_stage_change__v',
+         'Picklist.em_event_history_action_type__v.recall_approval_request__v',
+         'Picklist.em_event_history_action_type__v.reject__v',
+         'Picklist.em_event_history_action_type__v.reschedule__v',
+         'Picklist.em_event_history_action_type__v.submit_for_approval__v',
+         'Picklist.em_event_history_action_type__v.unlock__v',
+         'Picklist.em_event_history_action_type__v.workflow_verdict__v')
+);

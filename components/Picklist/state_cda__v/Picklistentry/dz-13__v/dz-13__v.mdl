@@ -1,0 +1,6 @@
+Picklistentry dz-13__v (
+   value('Tlemcen'),
+   order(994),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry si-104__v (
+   value('Ribnica'),
+   order(4078),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,18 @@
+Field send_notification_email__v (
+   label('Send Notification Email'),
+   type('Boolean'),
+   active(true),
+   description('Denotes whether an email notification should be sent for this follow up template.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

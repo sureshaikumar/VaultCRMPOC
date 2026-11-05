@@ -1,0 +1,6 @@
+Message align_left__v (
+   label(),
+   active(true),
+   default_value('Align Left'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry two_thirds__v (
+   value('2/3'),
+   order(2),
+   active(true)
+);

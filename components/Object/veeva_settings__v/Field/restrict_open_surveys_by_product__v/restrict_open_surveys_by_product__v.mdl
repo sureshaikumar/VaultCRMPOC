@@ -1,0 +1,18 @@
+Field restrict_open_surveys_by_product__v (
+   label('Restrict Open Surveys by Product'),
+   type('Boolean'),
+   active(true),
+   description('If Yes, restricts Open Survey selection by My Setup Product assignment'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(351),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

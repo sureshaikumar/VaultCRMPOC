@@ -1,0 +1,6 @@
+Picklistentry es-av__v (
+   value('Ávila'),
+   order(1197),
+   active(true),
+   controlling_entries('es__v')
+);

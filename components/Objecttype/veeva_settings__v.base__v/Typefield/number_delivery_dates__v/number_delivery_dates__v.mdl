@@ -1,0 +1,4 @@
+Typefield number_delivery_dates__v (
+   source('standard'),
+   required(false)
+);

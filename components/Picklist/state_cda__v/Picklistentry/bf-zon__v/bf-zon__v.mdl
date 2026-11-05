@@ -1,0 +1,6 @@
+Picklistentry bf-zon__v (
+   value('Zondoma'),
+   order(371),
+   active(true),
+   controlling_entries('bf__v')
+);

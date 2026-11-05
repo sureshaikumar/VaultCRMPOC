@@ -1,0 +1,18 @@
+Field clm_laser_pointer__v (
+   label('CLM Laser Pointer'),
+   type('Boolean'),
+   active(true),
+   description('Enables the laser pointer option for CLM. Can work in conjunction with the Highlighter Pen.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

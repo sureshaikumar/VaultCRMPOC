@@ -1,0 +1,4 @@
+Typefield sample_shipping_cda__v (
+   source('standard'),
+   required(false)
+);

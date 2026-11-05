@@ -1,0 +1,6 @@
+Message home_align_community__v (
+   label(),
+   active(true),
+   default_value('Align Community'),
+   system_managed(false)
+);

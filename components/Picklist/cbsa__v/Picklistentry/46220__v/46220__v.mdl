@@ -1,0 +1,5 @@
+Picklistentry 46220__v (
+   value('Tuscaloosa, AL Metropolitan Statistical Area'),
+   order(105),
+   active(true)
+);

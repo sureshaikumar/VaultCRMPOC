@@ -1,0 +1,5 @@
+Index composite_key_v__sys (
+   description(),
+   fields('composite_key__v'),
+   label('Composite Key')
+);

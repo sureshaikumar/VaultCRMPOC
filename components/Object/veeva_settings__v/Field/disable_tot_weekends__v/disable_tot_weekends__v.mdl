@@ -1,0 +1,18 @@
+Field disable_tot_weekends__v (
+   label('DISABLE_TOT_WEEKENDS'),
+   type('Boolean'),
+   active(true),
+   description('Causes weekend days to be included when placing multi-day TOT records on the calendar. For example, a three-day TOT will show up on three consecutive days regardless of whether one or more of those days are on a weekend. This setting also alters the Avera'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(103),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry fr-2a__v (
+   value('Corse-du-Sud'),
+   order(1344),
+   active(true),
+   controlling_entries('fr__v')
+);

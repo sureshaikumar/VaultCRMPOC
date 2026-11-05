@@ -1,0 +1,6 @@
+Picklistentry fj-02__v (
+   value('Bua'),
+   order(1293),
+   active(true),
+   controlling_entries('fj__v')
+);

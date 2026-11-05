@@ -1,0 +1,6 @@
+Message deployment_successful__v (
+   label(),
+   active(true),
+   default_value('Deployment succeeded on ${value}.'),
+   system_managed(false)
+);

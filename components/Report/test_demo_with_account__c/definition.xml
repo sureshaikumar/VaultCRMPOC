@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c.account__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c.status__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c.object_type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c.test_type__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c.test_validation__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c.test_value__c" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c.object_count__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="test_object__c___account__c.name__v" />
+  </vrp:select>
+  <vrp:where />
+  <vrp:group />
+  <vrp:order>
+    <vrp:orderItem index="0" name="test_object__c.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+</vrp:query>

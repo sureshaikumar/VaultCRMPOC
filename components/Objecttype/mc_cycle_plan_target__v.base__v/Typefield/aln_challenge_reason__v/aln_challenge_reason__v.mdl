@@ -1,0 +1,4 @@
+Typefield aln_challenge_reason__v (
+   source('standard'),
+   required(false)
+);

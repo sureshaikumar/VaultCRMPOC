@@ -1,0 +1,18 @@
+Field reason_required__v (
+   label('Reason Required'),
+   type('Picklist'),
+   active(true),
+   description('Challenge Types where it is mandatory for the rep to specify reason when providing feedback.'),
+   required(false),
+   unique(false),
+   help_content('Challenge Types where it is mandatory for the rep to specify reason when providing feedback.'),
+   list_column(false),
+   order(29),
+   multi_value(true),
+   picklist('Picklist.aln_challenge_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

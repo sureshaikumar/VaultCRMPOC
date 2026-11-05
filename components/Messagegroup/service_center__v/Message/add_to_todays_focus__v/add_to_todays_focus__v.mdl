@@ -1,0 +1,6 @@
+Message add_to_todays_focus__v (
+   label(),
+   active(true),
+   default_value('Add to Today''s Focus'),
+   system_managed(false)
+);

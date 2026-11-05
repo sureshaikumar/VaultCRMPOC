@@ -1,0 +1,8 @@
+RECREATE Objectaction medx__v.submit__v (
+   label('Submit'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinteraction.actions.MedicalInteractionSubmitAction'),
+   active(true),
+   available_all_states(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-406__v (
+   value('Kasese'),
+   order(4748),
+   active(true),
+   controlling_entries('ug__v')
+);

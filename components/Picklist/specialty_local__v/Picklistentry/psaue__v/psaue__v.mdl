@@ -1,0 +1,8 @@
+Picklistentry psaue__v (
+   value('Paediatric Surgery'),
+   order(1272),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v',
+         'ng__v')
+);

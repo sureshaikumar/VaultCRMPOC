@@ -1,0 +1,6 @@
+Picklistentry sc-23__v (
+   value('Takamaka'),
+   order(3923),
+   active(true),
+   controlling_entries('sc__v')
+);

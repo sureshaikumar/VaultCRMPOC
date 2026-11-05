@@ -1,0 +1,6 @@
+Picklistentry mn-049__v (
+   value('Selenge'),
+   order(3077),
+   active(true),
+   controlling_entries('mn__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry greeting__v (
+   value('Greeting'),
+   order(1),
+   active(true)
+);

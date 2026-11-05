@@ -1,0 +1,6 @@
+Picklistentry popat__v (
+   value('Prosthodontics Orofacial Pain and Temporomandibular Joint Disorders'),
+   order(1604),
+   active(true),
+   controlling_entries('id__v')
+);

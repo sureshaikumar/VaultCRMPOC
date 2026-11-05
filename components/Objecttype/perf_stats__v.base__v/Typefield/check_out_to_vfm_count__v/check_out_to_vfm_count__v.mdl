@@ -1,0 +1,4 @@
+Typefield check_out_to_vfm_count__v (
+   source('standard'),
+   required(false)
+);

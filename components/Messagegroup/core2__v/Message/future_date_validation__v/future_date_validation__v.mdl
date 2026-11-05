@@ -1,0 +1,6 @@
+Message future_date_validation__v (
+   label(),
+   active(true),
+   default_value('${date__v} cannot be in the future.'),
+   system_managed(false)
+);

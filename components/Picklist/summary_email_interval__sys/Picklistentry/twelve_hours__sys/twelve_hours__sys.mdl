@@ -1,0 +1,5 @@
+Picklistentry twelve_hours__sys (
+   value('12 Hours'),
+   order(5),
+   active(true)
+);

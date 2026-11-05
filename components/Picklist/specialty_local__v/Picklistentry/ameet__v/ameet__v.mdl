@@ -1,0 +1,6 @@
+Picklistentry ameet__v (
+   value('Aeronautical Medicine'),
+   order(29),
+   active(true),
+   controlling_entries('pt__v')
+);

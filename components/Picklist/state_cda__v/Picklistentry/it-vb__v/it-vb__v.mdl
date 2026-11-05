@@ -1,0 +1,6 @@
+Picklistentry it-vb__v (
+   value('Verbano-Cusio-Ossola'),
+   order(2274),
+   active(true),
+   controlling_entries('it__v')
+);

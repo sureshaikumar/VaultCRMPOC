@@ -1,0 +1,6 @@
+Picklistentry pghap__v (
+   value('Pediatric Gastroenterology Hepatology and Nutrition'),
+   order(1377),
+   active(true),
+   controlling_entries('sk__v')
+);

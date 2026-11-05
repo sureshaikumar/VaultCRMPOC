@@ -1,0 +1,7 @@
+Picklistentry paxan__v (
+   value('Pediatric Anesthesia and Intensive Care'),
+   order(1337),
+   active(true),
+   controlling_entries('ba__v',
+         'dz__v')
+);

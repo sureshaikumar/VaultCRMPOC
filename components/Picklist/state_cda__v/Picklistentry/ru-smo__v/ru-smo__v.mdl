@@ -1,0 +1,6 @@
+Picklistentry ru-smo__v (
+   value('Smolenskaya oblast'''),
+   order(3852),
+   active(true),
+   controlling_entries('ru__v')
+);

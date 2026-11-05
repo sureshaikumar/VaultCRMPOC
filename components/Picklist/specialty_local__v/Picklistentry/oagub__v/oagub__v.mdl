@@ -1,0 +1,6 @@
+Picklistentry oagub__v (
+   value('Obstetrics and Gynecological Ultrasound'),
+   order(1081),
+   active(true),
+   controlling_entries('au__v')
+);

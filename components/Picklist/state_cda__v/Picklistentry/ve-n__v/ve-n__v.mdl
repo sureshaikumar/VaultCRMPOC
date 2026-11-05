@@ -1,0 +1,6 @@
+Picklistentry ve-n__v (
+   value('Monagas'),
+   order(4900),
+   active(true),
+   controlling_entries('ve__v')
+);

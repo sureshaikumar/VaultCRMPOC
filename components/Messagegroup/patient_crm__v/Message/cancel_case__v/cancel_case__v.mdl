@@ -1,0 +1,6 @@
+Message cancel_case__v (
+   label(),
+   active(true),
+   default_value('Cancel Case'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_subrule__v.minimum_and_maximum_quantity__v (
+   label('Minimum and Maximum Quantity'),
+   active(true),
+   expression('Not(
+    And(
+        Not(IsBlank(max_quantity__v)),
+        Not(IsBlank(min_quantity__v)),
+        max_quantity__v < min_quantity__v
+    )
+)'),
+   description('Validates that maximum can''t be less than minimum on Comparison Product.'),
+   error_message('The maximum quantity must be greater or equal to the minimum quantity.'),
+   error_location('max_quantity__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry otp_fulfillment__sys (
+   value('Fulfillment'),
+   order(76),
+   active(true),
+   controlling_entries('olc_fulfillment__sys')
+);

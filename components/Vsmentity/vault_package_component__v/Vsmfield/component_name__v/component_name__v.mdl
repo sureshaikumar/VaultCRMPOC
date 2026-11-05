@@ -1,0 +1,14 @@
+Vsmfield component_name__v (
+   label('Component Name'),
+   active(true),
+   description('System or API name of the package component, used for programmatic identification. IMPORTANT: This is the technical identifier, not the display label — for the user-facing name, use component_label__v instead.'),
+   example_values(),
+   synonyms('API name',
+         'system name',
+         'technical name',
+         'component API name'),
+   target('component_name__v'),
+   target_label('Component Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

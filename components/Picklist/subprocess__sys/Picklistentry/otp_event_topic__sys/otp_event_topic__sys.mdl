@@ -1,0 +1,6 @@
+Picklistentry otp_event_topic__sys (
+   value('Event Topic'),
+   order(68),
+   active(true),
+   controlling_entries('olc_event_session__sys')
+);

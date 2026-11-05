@@ -1,0 +1,8 @@
+RECREATE Docmatchingrule crm_content_lifecycle__v.content_administrator__v.content_administrator_for_document__c (
+   lifecycle('Doclifecycle.crm_content_lifecycle__v'),
+   role('Doclifecyclerole.content_administrator__v'),
+   active(true),
+   description(),
+   label('Content Administrator for Document'),
+   Docmatchingcriterion(@Docmatchingcriterion/detailproduct__c.mdl)
+);

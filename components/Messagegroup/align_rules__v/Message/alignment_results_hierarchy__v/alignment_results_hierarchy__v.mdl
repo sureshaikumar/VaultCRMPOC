@@ -1,0 +1,6 @@
+Message alignment_results_hierarchy__v (
+   label(),
+   active(true),
+   default_value('Hierarchy Level'),
+   system_managed(false)
+);

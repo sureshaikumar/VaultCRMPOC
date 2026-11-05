@@ -1,0 +1,4 @@
+Typefield search_logic_number__v (
+   source('custom'),
+   required(false)
+);

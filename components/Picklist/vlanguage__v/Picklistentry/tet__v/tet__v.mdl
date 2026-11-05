@@ -1,0 +1,5 @@
+Picklistentry tet__v (
+   value('Tetum'),
+   order(316),
+   active(false)
+);

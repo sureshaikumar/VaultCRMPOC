@@ -1,0 +1,5 @@
+Picklistentry bt__v (
+   value('BT'),
+   order(32),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_other_user_no_transfers_2__v (
+   label(),
+   active(true),
+   default_value('You cannot transfer this target because the other user has already submitted their feedback.'),
+   system_managed(false)
+);

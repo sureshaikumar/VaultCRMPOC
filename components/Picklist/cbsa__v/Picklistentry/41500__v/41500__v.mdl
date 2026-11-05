@@ -1,0 +1,5 @@
+Picklistentry 41500__v (
+   value('Salinas, CA Metropolitan Statistical Area'),
+   order(353),
+   active(true)
+);

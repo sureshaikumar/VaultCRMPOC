@@ -1,0 +1,4 @@
+Typefield product_detail_discussion_default__v (
+   source('standard'),
+   required(false)
+);

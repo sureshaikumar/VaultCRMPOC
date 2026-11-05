@@ -1,0 +1,18 @@
+Field disable_clm_calendar__v (
+   label('Disable CLM Calendar'),
+   type('Boolean'),
+   active(true),
+   description('When true, for users that have a CLM installed, the CLM features of the day view won''t be shown.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(30),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

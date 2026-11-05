@@ -1,0 +1,6 @@
+Picklistentry celpi__v (
+   value('Clinical Epidemiology'),
+   order(222),
+   active(true),
+   controlling_entries('ma__v')
+);

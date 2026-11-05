@@ -1,0 +1,6 @@
+Message object_label_details__v (
+   label(),
+   active(true),
+   default_value('${object_label} Details'),
+   system_managed(false)
+);

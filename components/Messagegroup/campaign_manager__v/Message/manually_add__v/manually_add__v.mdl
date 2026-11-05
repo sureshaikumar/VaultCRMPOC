@@ -1,0 +1,6 @@
+Message manually_add__v (
+   label(),
+   active(true),
+   default_value('Manually Add'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field products__v (
+   label('Products'),
+   type('String'),
+   active(true),
+   description('Stores the list of Product Names of the event based on em_event_product__v records.'),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,17 @@
+Field analytics_products__v (
+   label('Analytics Products'),
+   type('LongText'),
+   active(true),
+   description('VInsights Products preference by market.  Value is a semi-colon separated list of market groups, each market group is a comma separated list with the first value being the market id, and the rest of the values being the selected product groups for that ma'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

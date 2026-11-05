@@ -1,0 +1,6 @@
+Picklistentry lk-42__v (
+   value('Kilinochchi'),
+   order(2574),
+   active(true),
+   controlling_entries('lk__v')
+);

@@ -1,0 +1,6 @@
+Message include_document_content__sys (
+   label(),
+   active(true),
+   default_value('Include Document Content'),
+   system_managed(true)
+);

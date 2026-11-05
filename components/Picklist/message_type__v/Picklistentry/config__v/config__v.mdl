@@ -1,0 +1,5 @@
+Picklistentry config__v (
+   value('Config'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field created_by__v (
+   label('Created By'),
+   type('Object'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(),
+   object('users'),
+   relationship_type('reference'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(false),
+   control_binding()
+);

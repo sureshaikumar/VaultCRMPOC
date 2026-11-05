@@ -1,0 +1,4 @@
+Typefield caption_bookmarks_exclusion_types__sys (
+   source('standard'),
+   required(false)
+);

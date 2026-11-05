@@ -1,0 +1,5 @@
+Picklistentry afn__sys (
+   value('AFN'),
+   order(3),
+   active(true)
+);

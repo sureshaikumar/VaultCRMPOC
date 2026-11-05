@@ -1,0 +1,5 @@
+Picklistentry am_off__v (
+   value('AM Off'),
+   order(0),
+   active(true)
+);

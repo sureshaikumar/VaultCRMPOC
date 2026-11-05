@@ -1,0 +1,5 @@
+Picklistentry pchh__v (
+   value('Pharmacy Chain'),
+   order(195),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry research_and_publications__v (
+   value('Research and publications'),
+   order(1),
+   active(true)
+);

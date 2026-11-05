@@ -1,0 +1,5 @@
+Picklistentry bis__v (
+   value('Bislama'),
+   order(38),
+   active(false)
+);

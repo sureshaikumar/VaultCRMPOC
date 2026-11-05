@@ -1,0 +1,6 @@
+Message switch_to_classic_builder_confirmation__v (
+   label(),
+   active(true),
+   default_value('By switching to Classic Builder, any actions, splits, and delays will be removed. Would you like to proceed?'),
+   system_managed(false)
+);

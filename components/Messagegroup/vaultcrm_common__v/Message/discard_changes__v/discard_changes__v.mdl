@@ -1,0 +1,6 @@
+Message discard_changes__v (
+   label(),
+   active(true),
+   default_value('Discard Changes'),
+   system_managed(false)
+);

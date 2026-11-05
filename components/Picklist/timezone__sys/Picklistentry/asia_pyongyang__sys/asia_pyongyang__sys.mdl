@@ -1,0 +1,5 @@
+Picklistentry asia_pyongyang__sys (
+   value('(GMT+09:00) Korea Standard Time (Asia/Pyongyang)'),
+   order(272),
+   active(true)
+);

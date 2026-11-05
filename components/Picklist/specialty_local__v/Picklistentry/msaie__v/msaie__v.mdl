@@ -1,0 +1,6 @@
+Picklistentry msaie__v (
+   value('Medical Statistics and Informatics'),
+   order(942),
+   active(true),
+   controlling_entries('me__v')
+);

@@ -1,0 +1,3 @@
+Typeaction sample_opt_in__v (
+   action('account__v.sample_opt_in__v')
+);

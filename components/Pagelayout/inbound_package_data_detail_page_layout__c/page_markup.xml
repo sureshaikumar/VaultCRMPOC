@@ -1,0 +1,29 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.vault_package_data__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object__v" />
+            <vault:field reference="data_type__v" />
+            <vault:field reference="data_action__v" />
+            <vault:field reference="checksum__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="vault_package_step__v" />
+            <vault:field reference="key_field__sys" />
+            <vault:field reference="record_count__sys" />
+            <vault:field reference="record_migration_mode__sys" />
+            <vault:field reference="include_object_record_attachments__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

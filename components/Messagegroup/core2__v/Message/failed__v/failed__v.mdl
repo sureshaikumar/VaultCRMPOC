@@ -1,0 +1,6 @@
+Message failed__v (
+   label(),
+   active(true),
+   default_value('Failed'),
+   system_managed(false)
+);

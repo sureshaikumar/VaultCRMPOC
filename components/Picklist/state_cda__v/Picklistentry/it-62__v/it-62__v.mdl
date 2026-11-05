@@ -1,0 +1,6 @@
+Picklistentry it-62__v (
+   value('Lazio'),
+   order(2166),
+   active(true),
+   controlling_entries('it__v')
+);

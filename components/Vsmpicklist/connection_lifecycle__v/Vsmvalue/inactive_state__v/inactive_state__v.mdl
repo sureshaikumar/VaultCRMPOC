@@ -1,0 +1,11 @@
+Vsmvalue inactive_state__v (
+   label('Inactive'),
+   active(true),
+   description('The connection exists but has been deactivated and is not currently processing or exchanging data.'),
+   synonyms('disabled',
+         'dormant',
+         'suspended',
+         'turned off'),
+   target('inactive_state__sys'),
+   target_label('Inactive')
+);

@@ -1,0 +1,6 @@
+Message failed_to_deliver_meta_msging_limits__v (
+   label(),
+   active(true),
+   default_value('Failed to deliver due to messaging limits from Meta.'),
+   system_managed(false)
+);

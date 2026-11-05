@@ -1,0 +1,19 @@
+Field to__v (
+   label('To'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('The phone number/ id of the app to which the website will be shared. This field is populated only if a number/id was available when the share icon was accessed'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry gba__v (
+   value('Gbaya'),
+   order(110),
+   active(false)
+);

@@ -1,0 +1,19 @@
+Field event_team_role__v (
+   label('Event Team Role'),
+   type('String'),
+   active(true),
+   description('Event Team Role for which the Event Page Layout configuration is for. This is used to determine the page layout a user sees when viewing or editing an event. Event Team Role based page layout configurations supersede those based on profile. Populate with'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

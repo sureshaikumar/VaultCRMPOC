@@ -1,0 +1,6 @@
+Message disable_migration_mode_warning__v (
+   label(),
+   active(true),
+   default_value('This will re-enable validation checks for incoming data. An error report will be available once the process is complete if there is any missing or incorrect data.'),
+   system_managed(false)
+);

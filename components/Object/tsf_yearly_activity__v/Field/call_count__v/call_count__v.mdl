@@ -1,0 +1,22 @@
+Field call_count__v (
+   label('Call Count'),
+   type('Number'),
+   active(true),
+   description('This is the count of past-dated Saved or Submitted calls with a call date in the calendar year.'),
+   required(false),
+   unique(false),
+   max_value(10000),
+   min_value(0),
+   scale(0),
+   help_content('The number of Saved or Submitted Calls that happened so far this year.'),
+   list_column(true),
+   order(9),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

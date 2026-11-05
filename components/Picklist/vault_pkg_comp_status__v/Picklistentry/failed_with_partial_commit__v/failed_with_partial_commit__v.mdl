@@ -1,0 +1,5 @@
+Picklistentry failed_with_partial_commit__v (
+   value('Failed with Partial Commit'),
+   order(9),
+   active(true)
+);

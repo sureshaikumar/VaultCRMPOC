@@ -1,0 +1,5 @@
+Picklistentry nyn__v (
+   value('Nyankole'),
+   order(241),
+   active(false)
+);

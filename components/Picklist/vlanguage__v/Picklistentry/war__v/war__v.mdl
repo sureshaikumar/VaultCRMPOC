@@ -1,0 +1,5 @@
+Picklistentry war__v (
+   value('Waray'),
+   order(348),
+   active(false)
+);

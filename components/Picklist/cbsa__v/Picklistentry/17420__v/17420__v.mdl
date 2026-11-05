@@ -1,0 +1,5 @@
+Picklistentry 17420__v (
+   value('Cleveland, TN Metropolitan Statistical Area'),
+   order(19),
+   active(true)
+);

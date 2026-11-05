@@ -1,0 +1,6 @@
+Picklistentry hdeia__v (
+   value('Heart Diseases'),
+   order(679),
+   active(true),
+   controlling_entries('no__v')
+);

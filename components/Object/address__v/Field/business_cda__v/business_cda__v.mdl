@@ -1,0 +1,18 @@
+Field business_cda__v (
+   label('Business'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether this represents a business address.'),
+   required(false),
+   checkbox(true),
+   help_content('Checkbox to determine if an Address serves as a business address.'),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field territory_test__v (
+   label('Territory Test Veeva'),
+   type('String'),
+   active(true),
+   description('Territory test field that contains a semicolon separated list of territories. This field is normally filled in using the VoD territory utilities page and is used to determine what the account/territory mappings will be.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(91),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

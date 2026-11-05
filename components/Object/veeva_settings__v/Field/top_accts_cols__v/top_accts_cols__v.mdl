@@ -1,0 +1,20 @@
+Field top_accts_cols__v (
+   label('TOP_ACCTS_COLS'),
+   type('String'),
+   active(true),
+   description('For each specified top account report, a comma-separated list of fields to display. The configuration is defined in the specified Veeva message'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(298),
+   default_value('"TOP_ACCTS_COLS;;Analytics"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

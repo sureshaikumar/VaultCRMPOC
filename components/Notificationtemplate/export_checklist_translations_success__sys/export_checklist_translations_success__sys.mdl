@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate export_checklist_translations_success__sys (
+   label('Export Checklist Translations Success'),
+   active(true),
+   description('Notification template notifying user that their checklist translations are ready to download'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Bulk Export of ${checklist_design__sys_label} Translations Completed'),
+   notification('<p>Your ${checklist_design__sys_label} translations were successfully exported. Please <a href="${urlChecklistTranslationsDownload}">download the file</a>.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

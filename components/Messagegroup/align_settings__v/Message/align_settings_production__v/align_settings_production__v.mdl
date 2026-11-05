@@ -1,0 +1,6 @@
+Message align_settings_production__v (
+   label(),
+   active(true),
+   default_value('Align Settings (Production)'),
+   system_managed(false)
+);

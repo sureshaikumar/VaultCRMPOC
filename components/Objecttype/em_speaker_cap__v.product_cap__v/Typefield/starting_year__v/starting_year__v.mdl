@@ -1,0 +1,18 @@
+Typefield starting_year__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_cap_starting_year__v.2022__v',
+         'Picklist.em_speaker_cap_starting_year__v.2023__v',
+         'Picklist.em_speaker_cap_starting_year__v.2024__v',
+         'Picklist.em_speaker_cap_starting_year__v.2025__v',
+         'Picklist.em_speaker_cap_starting_year__v.2026__v',
+         'Picklist.em_speaker_cap_starting_year__v.2027__v',
+         'Picklist.em_speaker_cap_starting_year__v.2028__v',
+         'Picklist.em_speaker_cap_starting_year__v.2029__v',
+         'Picklist.em_speaker_cap_starting_year__v.2030__v',
+         'Picklist.em_speaker_cap_starting_year__v.2031__v',
+         'Picklist.em_speaker_cap_starting_year__v.2032__v',
+         'Picklist.em_speaker_cap_starting_year__v.2033__v',
+         'Picklist.em_speaker_cap_starting_year__v.2034__v',
+         'Picklist.em_speaker_cap_starting_year__v.2035__v')
+);

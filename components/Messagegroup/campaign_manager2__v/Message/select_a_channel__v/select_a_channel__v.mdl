@@ -1,0 +1,6 @@
+Message select_a_channel__v (
+   label(),
+   active(true),
+   default_value('Select a Channel'),
+   system_managed(false)
+);

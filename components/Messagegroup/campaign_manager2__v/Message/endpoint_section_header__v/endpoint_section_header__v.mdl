@@ -1,0 +1,6 @@
+Message endpoint_section_header__v (
+   label(),
+   active(true),
+   default_value('Endpoint'),
+   system_managed(false)
+);

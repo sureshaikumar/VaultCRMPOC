@@ -1,0 +1,5 @@
+Picklistentry grn__v (
+   value('Guarani'),
+   order(120),
+   active(false)
+);

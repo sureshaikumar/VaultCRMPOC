@@ -1,0 +1,21 @@
+Field allowed_call_record_types__v (
+   label('Allowed Call RecordTypes'),
+   type('String'),
+   active(true),
+   description('References a Veeva message that contains the configuration for allowing only certain call record types for each account record type. The syntax for the Veeva message is: <ACCOUNT_RECORD_TYPE1>,<CALL_RECORD_TYPE1>,<CALL_RECORD_TYPE2>,...;;
+            If t'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('"ALLOWED_CALL_RECORD_TYPES;;Common"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message inactive_primary_user_tooltip__v (
+   label(),
+   active(true),
+   default_value('Primary User is inactive. Select a new user to receive inbound messages.'),
+   system_managed(false)
+);

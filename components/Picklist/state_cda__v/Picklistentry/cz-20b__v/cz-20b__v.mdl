@@ -1,0 +1,6 @@
+Picklistentry cz-20b__v (
+   value('Příbram'),
+   order(825),
+   active(true),
+   controlling_entries('cz__v')
+);

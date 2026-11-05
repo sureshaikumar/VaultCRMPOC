@@ -1,0 +1,6 @@
+Picklistentry bt-31__v (
+   value('Sarpang'),
+   order(519),
+   active(true),
+   controlling_entries('bt__v')
+);

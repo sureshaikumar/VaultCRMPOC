@@ -1,0 +1,6 @@
+Message copy_to_another_vault__v (
+   label(),
+   active(true),
+   default_value('Copy to Another Vault'),
+   system_managed(false)
+);

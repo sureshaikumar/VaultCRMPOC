@@ -1,0 +1,6 @@
+Picklistentry ch-ju__v (
+   value('Jura'),
+   order(637),
+   active(true),
+   controlling_entries('ch__v')
+);

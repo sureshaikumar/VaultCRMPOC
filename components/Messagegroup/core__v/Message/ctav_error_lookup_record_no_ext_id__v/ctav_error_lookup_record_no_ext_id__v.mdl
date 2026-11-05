@@ -1,0 +1,6 @@
+Message ctav_error_lookup_record_no_ext_id__v (
+   label(),
+   active(true),
+   default_value('${object_name} object records on source Vault CRM have no value for the external ID field ${field_name}:${record_id}'),
+   system_managed(false)
+);

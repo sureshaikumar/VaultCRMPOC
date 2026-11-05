@@ -1,0 +1,6 @@
+Message project_clone_dialog_about_to_clone__v (
+   label(),
+   active(true),
+   default_value('These objects and their child records will be cloned:'),
+   system_managed(false)
+);

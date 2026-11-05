@@ -1,0 +1,6 @@
+Message recon_merge_confirm_body1__v (
+   label(),
+   active(true),
+   default_value('The selected ${object_name} (${record_name}) already exists as an ${event_object_name} for this event.'),
+   system_managed(false)
+);

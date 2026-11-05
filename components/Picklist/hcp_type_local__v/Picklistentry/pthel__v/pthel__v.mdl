@@ -1,0 +1,5 @@
+Picklistentry pthel__v (
+   value('Phlebotomy Technician'),
+   order(106),
+   active(true)
+);

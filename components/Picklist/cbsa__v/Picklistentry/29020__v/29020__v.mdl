@@ -1,0 +1,5 @@
+Picklistentry 29020__v (
+   value('Kokomo, IN Metropolitan Statistical Area'),
+   order(264),
+   active(true)
+);

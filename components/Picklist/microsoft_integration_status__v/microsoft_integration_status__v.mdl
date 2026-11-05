@@ -1,0 +1,10 @@
+RECREATE Picklist microsoft_integration_status__v (
+   label('Microsoft Integration Status'),
+   active(true),
+   Picklistentry(@Picklistentry/successful__v.mdl),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/errors_encountered__v.mdl),
+   Picklistentry(@Picklistentry/deactivated__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

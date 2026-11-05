@@ -1,0 +1,17 @@
+Field suppression_date__sys (
+   label('Suppression Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(true),
+   help_content('Timestamp of when email address was added.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

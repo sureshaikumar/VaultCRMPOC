@@ -1,0 +1,6 @@
+Message assign_conflict__v (
+   label(),
+   active(true),
+   default_value('${account_name} is already assigned to ${territory_name} from ${start_date} (UTC) through ${end_date} (UTC)'),
+   system_managed(false)
+);

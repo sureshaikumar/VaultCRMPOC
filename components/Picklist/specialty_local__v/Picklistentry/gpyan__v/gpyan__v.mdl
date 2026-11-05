@@ -1,0 +1,6 @@
+Picklistentry gpyan__v (
+   value('Gynecologic Pathology'),
+   order(640),
+   active(true),
+   controlling_entries('th__v')
+);

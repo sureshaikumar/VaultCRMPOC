@@ -1,0 +1,6 @@
+Message call_limits__v (
+   label(),
+   active(true),
+   default_value('Limit'),
+   system_managed(false)
+);

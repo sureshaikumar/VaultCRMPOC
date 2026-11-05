@@ -1,0 +1,19 @@
+Field element_name__v (
+   label('Element Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('This is the text of the actual XML <tag>, not the object record''s name.'),
+   list_column(true),
+   order(4),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

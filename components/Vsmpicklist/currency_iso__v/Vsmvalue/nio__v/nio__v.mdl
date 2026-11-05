@@ -1,0 +1,10 @@
+Vsmvalue nio__v (
+   label('NIO'),
+   active(true),
+   description('The official currency of Nicaragua (NIO), used for all financial and commercial transactions within the country.'),
+   synonyms('Nicaraguan córdoba',
+         'córdoba',
+         'NIO'),
+   target('nio__sys'),
+   target_label('NIO')
+);

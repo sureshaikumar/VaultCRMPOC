@@ -1,0 +1,6 @@
+Message save_and_edit__v (
+   label(),
+   active(true),
+   default_value('Save + Edit'),
+   system_managed(false)
+);

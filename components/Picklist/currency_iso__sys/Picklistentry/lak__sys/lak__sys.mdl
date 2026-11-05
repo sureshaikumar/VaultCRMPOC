@@ -1,0 +1,5 @@
+Picklistentry lak__sys (
+   value('LAK'),
+   order(103),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message signature__v (
+   label(),
+   active(true),
+   default_value('Signature'),
+   system_managed(false)
+);

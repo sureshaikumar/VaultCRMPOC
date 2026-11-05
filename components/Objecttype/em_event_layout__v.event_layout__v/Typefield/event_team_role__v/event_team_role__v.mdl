@@ -1,0 +1,4 @@
+Typefield event_team_role__v (
+   source('custom'),
+   required(false)
+);

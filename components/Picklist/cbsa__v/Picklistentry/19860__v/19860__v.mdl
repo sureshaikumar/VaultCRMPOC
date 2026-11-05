@@ -1,0 +1,5 @@
+Picklistentry 19860__v (
+   value('Dickinson, ND Micropolitan Statistical Area'),
+   order(435),
+   active(true)
+);

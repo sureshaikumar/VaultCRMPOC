@@ -1,0 +1,6 @@
+Message case_note_not_created_description__v (
+   label(),
+   active(true),
+   default_value('Enter and save your notes in the Case Note in the bottom right of the screen'),
+   system_managed(false)
+);

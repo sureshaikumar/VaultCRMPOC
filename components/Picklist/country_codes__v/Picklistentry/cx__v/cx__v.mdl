@@ -1,0 +1,5 @@
+Picklistentry cx__v (
+   value('CX'),
+   order(53),
+   active(true)
+);

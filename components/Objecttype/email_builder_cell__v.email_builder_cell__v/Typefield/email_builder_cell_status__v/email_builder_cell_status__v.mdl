@@ -1,0 +1,7 @@
+Typefield email_builder_cell_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.email_builder_cell_status__v.approved__v',
+         'Picklist.email_builder_cell_status__v.expired__v',
+         'Picklist.email_builder_cell_status__v.staged__v')
+);

@@ -1,0 +1,6 @@
+Message fax_consent_level_required__v (
+   label(),
+   active(true),
+   default_value('A Consent Type record for Fax already exists under this Consent Header'),
+   system_managed(false)
+);

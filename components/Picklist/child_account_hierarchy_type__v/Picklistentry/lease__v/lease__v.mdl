@@ -1,0 +1,5 @@
+Picklistentry lease__v (
+   value('Lease'),
+   order(4),
+   active(true)
+);

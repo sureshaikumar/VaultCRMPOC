@@ -1,0 +1,6 @@
+Message engage_request_failed__v (
+   label(),
+   active(true),
+   default_value('Failed to update Engage license for Roster Member ${rm}. REASON: Request Failed. Please try again later.'),
+   system_managed(false)
+);

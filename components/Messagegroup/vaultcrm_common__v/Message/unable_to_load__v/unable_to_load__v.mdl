@@ -1,0 +1,6 @@
+Message unable_to_load__v (
+   label(),
+   active(true),
+   default_value('Unable to Load ${object_label}'),
+   system_managed(false)
+);

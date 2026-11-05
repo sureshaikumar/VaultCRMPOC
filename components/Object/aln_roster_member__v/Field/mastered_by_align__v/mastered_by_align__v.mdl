@@ -1,0 +1,18 @@
+Field mastered_by_align__v (
+   label('Mastered by Align'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Determines whether Align should push updates to CRM for the Align-managed fields. Management of fields can be controlled via the Integration Field Mapping screen.'),
+   list_column(true),
+   order(40),
+   multi_value(false),
+   picklist('Picklist.aln_mastered_by_align__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

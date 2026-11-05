@@ -1,0 +1,9 @@
+Vsmvalue ats__v (
+   label('ATS'),
+   active(true),
+   description('The Austrian Schilling (ATS), the former currency of Austria before it was replaced by the Euro in 2002.'),
+   synonyms('Austrian schilling',
+         'Austria old currency'),
+   target('ats__sys'),
+   target_label('ATS')
+);

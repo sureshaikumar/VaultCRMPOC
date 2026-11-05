@@ -1,0 +1,6 @@
+Message all_emails_approved__v (
+   label(),
+   active(true),
+   default_value('All Emails Approved'),
+   system_managed(false)
+);

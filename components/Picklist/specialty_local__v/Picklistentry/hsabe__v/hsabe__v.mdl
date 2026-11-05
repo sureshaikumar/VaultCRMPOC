@@ -1,0 +1,6 @@
+Picklistentry hsabe__v (
+   value('Health Statistics and Biometrics'),
+   order(674),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-te__v (
+   value('Teramo'),
+   order(2265),
+   active(true),
+   controlling_entries('it__v')
+);

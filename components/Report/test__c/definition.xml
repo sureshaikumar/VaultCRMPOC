@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.name__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.type__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.call_reminder__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="account__v.clm_opt_type__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="IN" leftValue="account__v.type__v" rightValue="customer_channel__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="account__v.account_type__c" groupBySortOn="account__v.account_type__c" groupBySortOrder="ASCENDING" />
+  </vrp:group>
+  <vrp:order>
+    <vrp:orderItem index="0" name="account__v.name__v" sortDirection="ASCENDING" />
+  </vrp:order>
+  <vrp:conditionalFields>
+    <vrp:conditionalField key="account__v.CF_test__v" publicKey="" label="Test">
+      <vrp:category color="#F8972B" label="Test 2">
+        <vrp:whereItem action="IN" leftValue="account__v.rating__v" rightValue="cold__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+      </vrp:category>
+      <vrp:category color="#F8972B" label="Test 3" />
+    </vrp:conditionalField>
+  </vrp:conditionalFields>
+</vrp:query>

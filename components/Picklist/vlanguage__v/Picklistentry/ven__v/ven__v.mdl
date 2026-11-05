@@ -1,0 +1,5 @@
+Picklistentry ven__v (
+   value('Venda'),
+   order(343),
+   active(false)
+);

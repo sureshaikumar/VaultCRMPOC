@@ -1,0 +1,6 @@
+Picklistentry si-148__v (
+   value('Benedikt'),
+   order(4121),
+   active(true),
+   controlling_entries('si__v')
+);

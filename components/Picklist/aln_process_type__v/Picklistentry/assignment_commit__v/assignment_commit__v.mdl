@@ -1,0 +1,5 @@
+Picklistentry assignment_commit__v (
+   value('Assignment Commit'),
+   order(6),
+   active(true)
+);

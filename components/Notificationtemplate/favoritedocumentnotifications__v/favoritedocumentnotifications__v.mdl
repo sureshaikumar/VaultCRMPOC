@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate favoritedocumentnotifications__v (
+   label('FavoriteDocumentNotifications'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: ${docNumber} updated'),
+   notification('<b>${senderName}</b> has updated <b><a href= "${docInfoUrl}">${docName}</a></b>.<br><ul>${updateDetails}</ul>'),
+   email_body('<b>${senderName}</b> has updated <b><a href= "${docInfoUrl}">${docName}</a></b>.<br><ul>${updateDetails}</ul><br><p>To stop notifications on this document,  un-favorite it in Vault. <br>To change your favorite notifications settings, go to your User Profile in Vault.</p>'),
+   entity_type('document'),
+   notification_category('favorite_documents__sys')
+);

@@ -1,0 +1,22 @@
+RECREATE Layoutrule allocation_receipt_detail_page_layout__c.receipt_readonly_required_fields__c (
+   active(true),
+   description('This rule defines the fields that are read only and required on the create and edit view of Sample Order Receipt Transaction.'),
+   displayed_as_readonly_fields('sample__v',
+      'sample_order_transaction_status__v',
+      'submitted_date__v',
+      'transferred_from__v',
+      'type__v',
+      'transferred_from_name__v'),
+   displayed_as_required_fields('sample__v',
+      'quantity__v',
+      'transferred_date__v'),
+   expression('type__v = ''receipt__v'''),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields(),
+   hide_sections(),
+   hide_layout(false),
+   label('Receipt Read-Only &  Required fields'),
+   order(100)
+);

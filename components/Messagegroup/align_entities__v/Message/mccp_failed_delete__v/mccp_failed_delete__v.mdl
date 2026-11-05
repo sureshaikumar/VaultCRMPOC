@@ -1,0 +1,6 @@
+Message mccp_failed_delete__v (
+   label(),
+   active(true),
+   default_value('Failed to delete {0} due to: {1}'),
+   system_managed(false)
+);

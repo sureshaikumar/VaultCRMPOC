@@ -1,0 +1,5 @@
+Objectlifecyclepermission owner_delete__v (
+   states('Objectlifecyclestate.saved_state__v'),
+   role('Objectlifecyclerole.owner__v'),
+   permission('Delete')
+);

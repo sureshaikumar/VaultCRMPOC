@@ -1,0 +1,5 @@
+Picklistentry pacific_bougainville__sys (
+   value('(GMT+11:00) Bougainville Time (Pacific/Bougainville)'),
+   order(292),
+   active(true)
+);

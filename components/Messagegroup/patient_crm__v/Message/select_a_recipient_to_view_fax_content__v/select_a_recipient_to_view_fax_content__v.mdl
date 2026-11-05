@@ -1,0 +1,6 @@
+Message select_a_recipient_to_view_fax_content__v (
+   label(),
+   active(true),
+   default_value('Select a recipient to view fax content'),
+   system_managed(false)
+);

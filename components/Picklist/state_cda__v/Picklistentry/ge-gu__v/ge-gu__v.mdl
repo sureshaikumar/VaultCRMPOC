@@ -1,0 +1,6 @@
+Picklistentry ge-gu__v (
+   value('Guria'),
+   order(1678),
+   active(true),
+   controlling_entries('ge__v')
+);

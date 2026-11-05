@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.network_reference_mapping__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="network_reference_code__v" />
+            <vault:field reference="crm_picklist_value__v" />
+            <vault:field reference="crm_lookup_id__v" />
+            <vault:field reference="crm_record_type_name__v" />
+            <vault:field reference="network_field_mapping__v" />
+            <vault:field reference="direction__v" />
+            <vault:field reference="validation_status__v" />
+            <vault:field reference="validation_notes__v" />
+            <vault:field reference="external_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

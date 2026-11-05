@@ -1,0 +1,18 @@
+Field crm_product__c (
+   label('CRM Product'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   multi_value(false),
+   picklist('Picklist.crm_product__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

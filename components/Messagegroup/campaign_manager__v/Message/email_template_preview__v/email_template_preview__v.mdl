@@ -1,0 +1,6 @@
+Message email_template_preview__v (
+   label(),
+   active(true),
+   default_value('Email Template Preview'),
+   system_managed(false)
+);

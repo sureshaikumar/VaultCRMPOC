@@ -1,0 +1,5 @@
+Picklistentry ms_teams_template__v (
+   value('MS Teams Template'),
+   order(8),
+   active(true)
+);

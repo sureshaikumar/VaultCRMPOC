@@ -1,0 +1,5 @@
+Picklistentry sdd__sys (
+   value('SDD'),
+   order(157),
+   active(true)
+);

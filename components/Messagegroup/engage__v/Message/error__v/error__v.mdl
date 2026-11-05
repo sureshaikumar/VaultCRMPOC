@@ -1,0 +1,6 @@
+Message error__v (
+   label(),
+   active(true),
+   default_value('Error'),
+   system_managed(false)
+);

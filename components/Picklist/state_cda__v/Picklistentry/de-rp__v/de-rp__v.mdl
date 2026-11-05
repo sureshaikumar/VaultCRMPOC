@@ -1,0 +1,6 @@
+Picklistentry de-rp__v (
+   value('Rheinland-Pfalz'),
+   order(913),
+   active(true),
+   controlling_entries('de__v')
+);

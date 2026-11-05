@@ -1,0 +1,5 @@
+Picklistentry pacific_pago_pago__v (
+   value('Samoa Time'),
+   order(63),
+   active(true)
+);

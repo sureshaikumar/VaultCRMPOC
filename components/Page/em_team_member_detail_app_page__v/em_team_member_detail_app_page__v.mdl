@@ -1,0 +1,14 @@
+RECREATE Page em_team_member_detail_app_page__v (
+   label('EM Team Member Detail App Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('em_team_member_detail_app_page__v'),
+   description('App page for EM Team Member'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.eventsmanagement.page.EmTeamMemberDetailAppPageController'),
+   url_path_name('em-team-member')
+);

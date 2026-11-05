@@ -1,0 +1,4 @@
+Typefield brands__v (
+   source('standard'),
+   required(false)
+);

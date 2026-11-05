@@ -1,0 +1,5 @@
+Picklistentry ain__v (
+   value('Ainu'),
+   order(8),
+   active(false)
+);

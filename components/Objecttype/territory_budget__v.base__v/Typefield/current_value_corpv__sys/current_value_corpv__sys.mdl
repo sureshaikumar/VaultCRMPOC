@@ -1,0 +1,4 @@
+Typefield current_value_corpv__sys (
+   source('standard'),
+   required(false)
+);

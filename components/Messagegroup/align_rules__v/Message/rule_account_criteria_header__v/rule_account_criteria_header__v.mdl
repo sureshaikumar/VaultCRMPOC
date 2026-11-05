@@ -1,0 +1,6 @@
+Message rule_account_criteria_header__v (
+   label(),
+   active(true),
+   default_value('Account Criteria'),
+   system_managed(false)
+);

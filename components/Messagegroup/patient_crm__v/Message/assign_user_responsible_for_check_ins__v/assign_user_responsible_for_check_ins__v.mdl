@@ -1,0 +1,6 @@
+Message assign_user_responsible_for_check_ins__v (
+   label(),
+   active(true),
+   default_value('Assign User Responsible for Check-Ins'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry sc-13__v (
+   value('Grand Anse Mahe'),
+   order(3913),
+   active(true),
+   controlling_entries('sc__v')
+);

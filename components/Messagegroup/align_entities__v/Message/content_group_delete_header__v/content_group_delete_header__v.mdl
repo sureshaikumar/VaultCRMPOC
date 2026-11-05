@@ -1,0 +1,6 @@
+Message content_group_delete_header__v (
+   label(),
+   active(true),
+   default_value('Delete Content Group'),
+   system_managed(false)
+);

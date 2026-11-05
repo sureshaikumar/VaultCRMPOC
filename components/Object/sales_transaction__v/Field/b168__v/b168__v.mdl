@@ -1,0 +1,22 @@
+Field b168__v (
+   label('B168'),
+   type('Number'),
+   active(true),
+   description('The Bucket fields correspond to sales data. B1 is the most recent.  The number of buckets that are leveraged and metadata from the Analytics File record determines the units of the data stored, the data date that corresponds to B1, and whether it is weekl'),
+   required(false),
+   unique(false),
+   max_value(999999999999999.999),
+   min_value(-999999999999999.999),
+   scale(3),
+   help_content(),
+   list_column(false),
+   order(83),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

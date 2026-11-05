@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:template>Notificationtemplate.vault_sample_multidoc_workflow_approval__c</vwf:template>
+  <vwf:recipient>workflow_initiator__v</vwf:recipient>
+</vwf:stepdetails>

@@ -1,0 +1,4 @@
+Typefield event_speaker_entry_criteria__v (
+   source('custom'),
+   required(false)
+);

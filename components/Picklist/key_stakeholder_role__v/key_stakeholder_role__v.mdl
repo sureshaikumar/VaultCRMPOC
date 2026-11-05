@@ -1,0 +1,17 @@
+RECREATE Picklist key_stakeholder_role__v (
+   label('Role'),
+   active(true),
+   Picklistentry(@Picklistentry/affiliated_with__v.mdl),
+   Picklistentry(@Picklistentry/board_member__v.mdl),
+   Picklistentry(@Picklistentry/department_head__v.mdl),
+   Picklistentry(@Picklistentry/p_t_committee_member__v.mdl),
+   Picklistentry(@Picklistentry/practice_member__v.mdl),
+   Picklistentry(@Picklistentry/medical_director__v.mdl),
+   Picklistentry(@Picklistentry/vp_compliance__v.mdl),
+   Picklistentry(@Picklistentry/vp_marketing__v.mdl),
+   Picklistentry(@Picklistentry/cfo__v.mdl),
+   Picklistentry(@Picklistentry/contracts_administrator__v.mdl),
+   Picklistentry(@Picklistentry/plan_administrator__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

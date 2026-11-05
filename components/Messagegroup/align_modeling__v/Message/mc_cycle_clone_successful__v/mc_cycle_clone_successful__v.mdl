@@ -1,0 +1,6 @@
+Message mc_cycle_clone_successful__v (
+   label(),
+   active(true),
+   default_value('MC Cycle Clone completed for ${entity_name}'),
+   system_managed(false)
+);

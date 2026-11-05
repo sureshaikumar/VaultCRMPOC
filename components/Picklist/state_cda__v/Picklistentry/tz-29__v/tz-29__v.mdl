@@ -1,0 +1,6 @@
+Picklistentry tz-29__v (
+   value('Njombe'),
+   order(4613),
+   active(true),
+   controlling_entries('tz__v')
+);

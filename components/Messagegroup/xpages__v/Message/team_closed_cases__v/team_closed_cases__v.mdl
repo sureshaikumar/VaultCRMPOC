@@ -1,0 +1,6 @@
+Message team_closed_cases__v (
+   label(),
+   active(true),
+   default_value('Team Closed Cases'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_bishkek__sys (
+   value('(GMT+06:00) Kyrgyzstan Time (Asia/Bishkek)'),
+   order(241),
+   active(true)
+);

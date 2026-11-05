@@ -1,0 +1,6 @@
+Message successful_connection__v (
+   label(),
+   active(true),
+   default_value('Studio Connected'),
+   system_managed(false)
+);

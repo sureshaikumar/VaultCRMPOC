@@ -1,0 +1,6 @@
+Message phone_number__v (
+   label(),
+   active(true),
+   default_value('Phone Number'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry bob__sys (
+   value('BOB'),
+   order(25),
+   active(true)
+);

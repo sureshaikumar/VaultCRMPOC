@@ -1,0 +1,18 @@
+Field request_status__v (
+   label('Request Status'),
+   type('Picklist'),
+   active(true),
+   description('The status of the transfer request'),
+   required(false),
+   unique(false),
+   help_content('The status of the transfer request'),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.aln_transfer_request_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

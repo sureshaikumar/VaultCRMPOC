@@ -1,0 +1,5 @@
+Picklistentry 10100__v (
+   value('Aberdeen, SD Micropolitan Statistical Area'),
+   order(455),
+   active(true)
+);

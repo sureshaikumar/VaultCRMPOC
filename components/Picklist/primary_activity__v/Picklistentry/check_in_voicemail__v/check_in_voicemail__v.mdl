@@ -1,0 +1,5 @@
+Picklistentry check_in_voicemail__v (
+   value('Check-In: Voicemail'),
+   order(2),
+   active(true)
+);

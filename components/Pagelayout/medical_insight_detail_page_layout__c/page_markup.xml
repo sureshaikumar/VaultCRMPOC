@@ -1,0 +1,38 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.medical_insight__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="date__v" />
+            <vault:field reference="summary__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Description" name="details1__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="description__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Sources" name="sources__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__v" />
+            <vault:field reference="publication__v" />
+            <vault:field reference="clinical_trial__v" />
+            <vault:field reference="other_source__v" />
+            <vault:field reference="medical_event__v" />
+            <vault:field reference="interaction__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="medical_insight_status__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+</vault:page>

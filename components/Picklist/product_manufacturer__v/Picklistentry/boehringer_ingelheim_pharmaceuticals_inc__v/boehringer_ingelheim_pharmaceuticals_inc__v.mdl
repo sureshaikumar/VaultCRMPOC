@@ -1,0 +1,5 @@
+Picklistentry boehringer_ingelheim_pharmaceuticals_inc__v (
+   value('Boehringer Ingelheim Pharmaceuticals, Inc.'),
+   order(11),
+   active(true)
+);

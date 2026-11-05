@@ -1,0 +1,5 @@
+Picklistentry 46660__v (
+   value('Valdosta, GA Metropolitan Statistical Area'),
+   order(121),
+   active(true)
+);

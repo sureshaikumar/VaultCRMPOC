@@ -1,0 +1,8 @@
+RECREATE Picklist connection_sync_settings__v (
+   label('Sync Settings'),
+   active(true),
+   Picklistentry(@Picklistentry/download_from_vault_content__v.mdl),
+   Picklistentry(@Picklistentry/upload_to_vault_content__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

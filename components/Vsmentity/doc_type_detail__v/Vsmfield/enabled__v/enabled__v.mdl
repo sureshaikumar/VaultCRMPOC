@@ -1,0 +1,14 @@
+Vsmfield enabled__v (
+   label('Enabled'),
+   active(true),
+   description('Indicates whether this document type detail record is currently enabled and available for use in the system. When false, the document type detail is effectively inactive and will not appear in document type selections.'),
+   example_values(),
+   synonyms('active',
+         'is enabled',
+         'turned on',
+         'in use'),
+   target('enabled__v'),
+   target_label('Enabled'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

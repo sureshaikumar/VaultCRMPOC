@@ -1,0 +1,6 @@
+Message template_name_for_recipient__v (
+   label(),
+   active(true),
+   default_value('${templateName} for ${recipient}'),
+   system_managed(false)
+);

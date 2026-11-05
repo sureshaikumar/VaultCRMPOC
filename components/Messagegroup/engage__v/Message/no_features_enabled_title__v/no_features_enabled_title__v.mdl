@@ -1,0 +1,6 @@
+Message no_features_enabled_title__v (
+   label(),
+   active(true),
+   default_value('No Features Enabled'),
+   system_managed(false)
+);

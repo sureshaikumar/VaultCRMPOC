@@ -1,0 +1,6 @@
+Picklistentry sd-nw__v (
+   value('White Nile'),
+   order(3943),
+   active(true),
+   controlling_entries('sd__v')
+);

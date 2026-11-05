@@ -1,0 +1,6 @@
+Picklistentry sb-we__v (
+   value('Western'),
+   order(3900),
+   active(true),
+   controlling_entries('sb__v')
+);

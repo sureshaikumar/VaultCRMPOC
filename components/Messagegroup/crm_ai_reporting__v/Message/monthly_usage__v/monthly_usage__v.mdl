@@ -1,0 +1,6 @@
+Message monthly_usage__v (
+   label(),
+   active(true),
+   default_value('Monthly usage'),
+   system_managed(false)
+);

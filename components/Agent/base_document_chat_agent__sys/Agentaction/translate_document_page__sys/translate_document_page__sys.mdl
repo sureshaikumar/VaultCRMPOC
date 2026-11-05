@@ -1,0 +1,12 @@
+Agentaction translate_document_page__sys (
+   label('Translate Pages'),
+   active(true),
+   api_access(true),
+   description('This Action translates pages of the primary document to a target language specified by the user.'),
+   hide_in_chat(),
+   instructions(),
+   supplemental_instructions(),
+   support_chat(true),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

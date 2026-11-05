@@ -1,0 +1,6 @@
+Message end__v (
+   label(),
+   active(true),
+   default_value('End'),
+   system_managed(false)
+);

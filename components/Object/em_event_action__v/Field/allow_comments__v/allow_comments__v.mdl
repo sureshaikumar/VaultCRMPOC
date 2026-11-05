@@ -1,0 +1,18 @@
+Field allow_comments__v (
+   label('Allow Comments'),
+   type('Boolean'),
+   active(true),
+   description('If checked, clicking this button will prompt the user to enter in comments. This comment will be stored along with the action in the Event History object. The user must also have edit permission on the Comments field in the Event History object for the co'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,19 @@
+Field child_id__v (
+   label('Child ID'),
+   type('String'),
+   active(true),
+   description('Field indicating the identifiers of any child accounts, as defined by the uploaded ID mapping file.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(218),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

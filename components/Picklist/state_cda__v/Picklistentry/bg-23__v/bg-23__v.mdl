@@ -1,0 +1,6 @@
+Picklistentry bg-23__v (
+   value('Sofia'),
+   order(395),
+   active(true),
+   controlling_entries('bg__v')
+);

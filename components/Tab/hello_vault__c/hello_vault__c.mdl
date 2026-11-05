@@ -1,0 +1,12 @@
+RECREATE Tab hello_vault__c (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Hello Vault'),
+   modal_create_record(false),
+   order(3950),
+   page('Page.hello_vault__c'),
+   parent(),
+   prevent_create(false),
+   url(@url.txt)
+);

@@ -1,0 +1,5 @@
+Picklistentry mlg (
+   value('Malagasy'),
+   order(248),
+   active(true)
+);

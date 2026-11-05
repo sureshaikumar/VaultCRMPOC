@@ -1,0 +1,6 @@
+Message batches_run_frequency__v (
+   label(),
+   active(true),
+   default_value('Batches run ${frequency}'),
+   system_managed(false)
+);

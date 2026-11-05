@@ -1,0 +1,4 @@
+Typefield order_net_amount_rule_corpv__sys (
+   source('custom'),
+   required(false)
+);

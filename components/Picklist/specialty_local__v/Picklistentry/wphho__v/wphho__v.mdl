@@ -1,0 +1,6 @@
+Picklistentry wphho__v (
+   value('Wholesale Pharmacy'),
+   order(1927),
+   active(true),
+   controlling_entries('nz__v')
+);

@@ -1,0 +1,9 @@
+Picklistentry cpatm__v (
+   value('Clinical Pharmacology and Therapeutics'),
+   order(280),
+   active(true),
+   controlling_entries('bg__v',
+         'gb__v',
+         'ie__v',
+         'ng__v')
+);

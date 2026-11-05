@@ -1,0 +1,6 @@
+Message delete_call_record__v (
+   label(),
+   active(true),
+   default_value('Delete Record'),
+   system_managed(false)
+);

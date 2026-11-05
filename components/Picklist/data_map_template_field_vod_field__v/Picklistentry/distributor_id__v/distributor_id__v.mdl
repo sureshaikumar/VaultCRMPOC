@@ -1,0 +1,5 @@
+Picklistentry distributor_id__v (
+   value('Distributor_Id_vod__c'),
+   order(218),
+   active(true)
+);

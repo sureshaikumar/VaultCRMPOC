@@ -1,0 +1,6 @@
+Message veeva_aws_account_id__v (
+   label(),
+   active(true),
+   default_value('Veeva AWS Account ID'),
+   system_managed(false)
+);

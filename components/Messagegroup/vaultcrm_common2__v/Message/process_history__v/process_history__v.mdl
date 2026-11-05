@@ -1,0 +1,6 @@
+Message process_history__v (
+   label(),
+   active(true),
+   default_value('Process History'),
+   system_managed(false)
+);

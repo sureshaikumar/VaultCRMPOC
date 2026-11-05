@@ -1,0 +1,5 @@
+Picklistentry aln_roster_member__v (
+   value('Roster Member'),
+   order(1),
+   active(true)
+);

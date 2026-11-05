@@ -1,0 +1,11 @@
+Typefield meeting_outcome_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.remote_meeting_meeting_outcome_status__v.meeting_not_started__v',
+         'Picklist.remote_meeting_meeting_outcome_status__v.meeting_started_without_attendees__v',
+         'Picklist.remote_meeting_meeting_outcome_status__v.meeting_started_with_attendees__v',
+         'Picklist.remote_meeting_meeting_outcome_status__v.meeting_with_internal_users_only__v',
+         'Picklist.remote_meeting_meeting_outcome_status__v.meeting_started_details_not_available__v',
+         'Picklist.remote_meeting_meeting_outcome_status__v.meeting_not_started_and_attendees_joined__v',
+         'Picklist.remote_meeting_meeting_outcome_status__v.meeting_not_scheduled__v')
+);

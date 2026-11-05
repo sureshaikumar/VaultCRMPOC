@@ -1,0 +1,14 @@
+RECREATE Page add_coaching_report_page__v (
+   label('Add Coaching Report'),
+   active(true),
+   client_distribution(),
+   default_client_code('add_coaching_report_page__v'),
+   description('Add survey target for coaching report surveys'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.survey.controls.page.AddCoachingReportPageController'),
+   url_path_name('add-coaching-report')
+);

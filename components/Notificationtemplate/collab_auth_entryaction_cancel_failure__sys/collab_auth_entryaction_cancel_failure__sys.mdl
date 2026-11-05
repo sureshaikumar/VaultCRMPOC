@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate collab_auth_entryaction_cancel_failure__sys (
+   label('Collab Auth Entry Cancel Failure'),
+   active(true),
+   description('Notification template notifying user of the failure of their collaborative authoring cancel checkout entry action.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Collaborative Authoring cancel checkout entry action failed'),
+   notification('<p>The cancellation of editing in Microsoft Office for the document <a href="${CollabAuthActionResultDocumentURL}">${CollabAuthActionResultDocumentName}</a> was not successful. You can find the reason for failure <a href="${CollabAuthActionResultCsvURL}">here.</a> This document requires manual cancellation of editing from Microsoft Office.</p>'),
+   email_body('<p>The cancellation of editing in Microsoft Office for the document <a href="${CollabAuthActionResultDocumentURL}">${CollabAuthActionResultDocumentName}</a> was not successful. You can find the reason for failure <a href="${CollabAuthActionResultCsvURL}">here.</a> This document requires manual cancellation of editing from Microsoft Office.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

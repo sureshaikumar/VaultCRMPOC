@@ -1,0 +1,6 @@
+Message search_connected_ph_numbers__v (
+   label(),
+   active(true),
+   default_value('Search connected phone numbers'),
+   system_managed(false)
+);

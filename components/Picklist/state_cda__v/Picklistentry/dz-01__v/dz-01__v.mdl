@@ -1,0 +1,6 @@
+Picklistentry dz-01__v (
+   value('Adrar'),
+   order(982),
+   active(true),
+   controlling_entries('dz__v')
+);

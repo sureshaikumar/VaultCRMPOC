@@ -1,0 +1,3 @@
+Typeaction cancel_task__v (
+   action('business_event_task__v.cancel_task__v')
+);

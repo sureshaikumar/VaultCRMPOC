@@ -1,0 +1,6 @@
+Picklistentry sy-rd__v (
+   value('Rīf Dimashq'),
+   order(4293),
+   active(true),
+   controlling_entries('sy__v')
+);

@@ -1,0 +1,6 @@
+Message vault_crm_instance_user_pass__v (
+   label(),
+   active(true),
+   default_value('Username / Password*'),
+   system_managed(false)
+);

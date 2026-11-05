@@ -1,0 +1,23 @@
+Field required_jit_timeout__v (
+   label('REQUIRED_JIT_TIMEOUT'),
+   type('Number'),
+   active(true),
+   description('Controls the wait time for Just in Time sync of Call data partially downloaded to the VMobile BlackBerry application. Default value is 60 minutes.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(-99999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(254),
+   default_value('60'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

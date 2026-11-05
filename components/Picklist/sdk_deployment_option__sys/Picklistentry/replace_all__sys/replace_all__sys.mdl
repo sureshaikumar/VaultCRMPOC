@@ -1,0 +1,5 @@
+Picklistentry replace_all__sys (
+   value('Replace All'),
+   order(0),
+   active(true)
+);

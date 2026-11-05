@@ -1,0 +1,4 @@
+Typefield paperdetail__v (
+   source('standard'),
+   required(false)
+);

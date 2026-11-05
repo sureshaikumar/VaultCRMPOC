@@ -1,0 +1,18 @@
+Field multi_prod_user_defined_presentation__v (
+   label('MULTI_PROD_USER_DEFINED_PRESENTATION'),
+   type('Boolean'),
+   active(true),
+   description('Enables users to add key messages of multiple products to a User Defined Presentation using the Manage My Presentation UI.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(219),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry research_group__v (
+   value('Research Group'),
+   order(20),
+   active(true)
+);

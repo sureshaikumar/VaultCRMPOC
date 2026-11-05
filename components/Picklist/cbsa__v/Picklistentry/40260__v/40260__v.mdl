@@ -1,0 +1,5 @@
+Picklistentry 40260__v (
+   value('Roanoke Rapids, NC Micropolitan Statistical Area'),
+   order(167),
+   active(true)
+);

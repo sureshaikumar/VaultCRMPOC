@@ -1,0 +1,19 @@
+Field furigana__v (
+   label('Furigana'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content('Furigana for Japanese name. Stamped with the Furigana from the linked Attendee or Event Speaker record.'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

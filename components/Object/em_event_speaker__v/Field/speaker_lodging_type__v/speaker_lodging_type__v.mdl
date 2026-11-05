@@ -1,0 +1,19 @@
+Field speaker_lodging_type__v (
+   label('Speaker Lodging Type'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Used to add Speaker Lodging Type to an event and calculate expenses.'),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

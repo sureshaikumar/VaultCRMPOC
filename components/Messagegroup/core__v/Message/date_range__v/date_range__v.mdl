@@ -1,0 +1,6 @@
+Message date_range__v (
+   label(),
+   active(true),
+   default_value('Date Range'),
+   system_managed(false)
+);

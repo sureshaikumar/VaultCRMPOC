@@ -1,0 +1,5 @@
+Picklistentry pnsuy__v (
+   value('Psychiatric Nurse'),
+   order(121),
+   active(true)
+);

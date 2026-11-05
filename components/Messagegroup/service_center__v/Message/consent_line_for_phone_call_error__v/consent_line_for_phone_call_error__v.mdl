@@ -1,0 +1,6 @@
+Message consent_line_for_phone_call_error__v (
+   label(),
+   active(true),
+   default_value('Consent Line records cannot be created for Phone Call channel.'),
+   system_managed(false)
+);

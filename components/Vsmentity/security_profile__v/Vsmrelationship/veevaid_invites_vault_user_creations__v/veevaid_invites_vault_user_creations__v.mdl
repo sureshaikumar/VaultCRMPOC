@@ -1,0 +1,14 @@
+Vsmrelationship veevaid_invites_vault_user_creations__v (
+   label('Veevaid Invites Vault User Creations'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('The VeevaID invite and vault user creation records associated with this security profile. Use this to identify which security profile was assigned when new VeevaID users were invited or provisioned into the vault.'),
+   join_object(),
+   synonyms('user invitations',
+         'VeevaID invites',
+         'pending user creations',
+         'invited users'),
+   target('veevaid_invites_vault_user_creations__sysr'),
+   target_label('security_profile__sys'),
+   target_object('veevaid_invite_vault_user_creation__sys')
+);

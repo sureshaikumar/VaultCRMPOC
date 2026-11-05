@@ -1,0 +1,4 @@
+Typefield favorite_doc_new_status__sys (
+   source('standard'),
+   required(false)
+);

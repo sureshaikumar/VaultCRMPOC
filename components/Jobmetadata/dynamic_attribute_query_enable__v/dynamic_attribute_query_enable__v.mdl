@@ -1,0 +1,10 @@
+RECREATE Jobmetadata dynamic_attribute_query_enable__v (
+   label('Dynamic Attribute Query Enable Job'),
+   active(true),
+   chunk_size(1),
+   description('Job that syncs data from Dynamic Attribute records to Dynamic Attribute Query records.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.dynamicattributes.jobs.DynamicAttributeQueryEnableJob'),
+   queue(),
+   single_instance_states('running'),
+   timeout_duration()
+);

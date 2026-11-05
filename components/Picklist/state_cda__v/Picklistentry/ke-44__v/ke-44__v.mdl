@@ -1,0 +1,6 @@
+Picklistentry ke-44__v (
+   value('Uasin Gishu'),
+   order(2397),
+   active(true),
+   controlling_entries('ke__v')
+);

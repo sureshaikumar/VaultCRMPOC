@@ -1,0 +1,6 @@
+Message vault_crm_instance_product_metrics_tip_2__v (
+   label(),
+   active(true),
+   default_value('Use Case: Import all active HCP Vault CRM product_metrics__v. Ignore product_metrics__v records for HCOs.'),
+   system_managed(false)
+);

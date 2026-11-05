@@ -1,0 +1,5 @@
+Picklistentry america_guayaquil__sys (
+   value('(GMT-05:00) Ecuador Time (America/Guayaquil)'),
+   order(78),
+   active(true)
+);

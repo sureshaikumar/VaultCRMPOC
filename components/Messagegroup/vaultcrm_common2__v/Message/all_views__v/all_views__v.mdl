@@ -1,0 +1,6 @@
+Message all_views__v (
+   label(),
+   active(true),
+   default_value('All Views'),
+   system_managed(false)
+);

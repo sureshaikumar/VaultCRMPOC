@@ -1,0 +1,6 @@
+Message preview_no_territory_selected_alert__v (
+   label(),
+   active(true),
+   default_value('No territory selected to assign target owners. The preview will use your information instead.'),
+   system_managed(false)
+);

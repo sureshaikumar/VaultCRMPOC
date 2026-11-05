@@ -1,0 +1,6 @@
+Picklistentry cdapo__v (
+   value('Conservative Dentistry and Prosthodontics'),
+   order(329),
+   active(true),
+   controlling_entries('hu__v')
+);

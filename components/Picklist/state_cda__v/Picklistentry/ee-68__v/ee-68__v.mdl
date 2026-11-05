@@ -1,0 +1,6 @@
+Picklistentry ee-68__v (
+   value('Pärnumaa'),
+   order(1124),
+   active(true),
+   controlling_entries('ee__v')
+);

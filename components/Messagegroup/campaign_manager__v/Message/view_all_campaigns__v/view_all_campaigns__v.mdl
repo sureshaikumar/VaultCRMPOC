@@ -1,0 +1,6 @@
+Message view_all_campaigns__v (
+   label(),
+   active(true),
+   default_value('View All Campaigns'),
+   system_managed(false)
+);

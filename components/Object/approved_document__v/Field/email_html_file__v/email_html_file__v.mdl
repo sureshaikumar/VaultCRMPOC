@@ -1,0 +1,15 @@
+Field email_html_file__v (
+   label('Email HTML'),
+   type('Attachment'),
+   active(true),
+   description('HTML content of the Email Template.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(60),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

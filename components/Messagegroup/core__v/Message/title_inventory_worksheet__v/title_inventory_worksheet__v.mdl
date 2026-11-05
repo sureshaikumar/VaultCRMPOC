@@ -1,0 +1,6 @@
+Message title_inventory_worksheet__v (
+   label(),
+   active(true),
+   default_value('Inventory Worksheet'),
+   system_managed(false)
+);

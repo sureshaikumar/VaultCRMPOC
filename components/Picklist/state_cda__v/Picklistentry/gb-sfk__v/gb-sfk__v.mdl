@@ -1,0 +1,6 @@
+Picklistentry gb-sfk__v (
+   value('Suffolk'),
+   order(1613),
+   active(true),
+   controlling_entries('gb__v')
+);

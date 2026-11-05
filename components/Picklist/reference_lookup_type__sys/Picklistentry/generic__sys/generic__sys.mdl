@@ -1,0 +1,5 @@
+Picklistentry generic__sys (
+   value('Generic'),
+   order(6),
+   active(true)
+);

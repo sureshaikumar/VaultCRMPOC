@@ -1,0 +1,17 @@
+Field keywords__v (
+   label('Keywords'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(10000),
+   help_content('Comma separated keywords of the CLM Presentation.'),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

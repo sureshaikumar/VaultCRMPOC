@@ -1,0 +1,6 @@
+Message field_mapping_for_vault_crm_instance__v (
+   label(),
+   active(true),
+   default_value('Vault CRM Field Mapping'),
+   system_managed(false)
+);

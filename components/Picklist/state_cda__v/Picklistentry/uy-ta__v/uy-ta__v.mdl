@@ -1,0 +1,6 @@
+Picklistentry uy-ta__v (
+   value('Tacuarembó'),
+   order(4865),
+   active(true),
+   controlling_entries('uy__v')
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate basebasereviewedwithchanges__c (
+   label('BASE-baseReviewedWithChanges'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: "${docNameNoLink}" review completed, changes required'),
+   notification('Review of <b>${docName}</b> has been completed. Changes are required. Comments have been captured as annotations on the document.'),
+   email_body('<p>${notificationMessage}</p> <p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

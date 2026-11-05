@@ -1,0 +1,6 @@
+Picklistentry imrhn__v (
+   value('Internal Medicine Renal-Hypertension'),
+   order(805),
+   active(true),
+   controlling_entries('id__v')
+);

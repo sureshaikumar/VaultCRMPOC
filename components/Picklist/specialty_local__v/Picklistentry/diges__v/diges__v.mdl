@@ -1,0 +1,6 @@
+Picklistentry diges__v (
+   value('Digestion'),
+   order(444),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,6 @@
+Message remove_self_access__v (
+   label(),
+   active(true),
+   default_value('You are about to remove yourself from this account plan. Are you sure you want to continue?'),
+   system_managed(false)
+);

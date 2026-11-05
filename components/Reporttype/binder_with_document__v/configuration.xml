@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrt:reportType xmlns:vrt="VaultReporttype">
+  <vrt:downRelationships>
+    <vrt:downRelationship key="documents" />
+  </vrt:downRelationships>
+</vrt:reportType>

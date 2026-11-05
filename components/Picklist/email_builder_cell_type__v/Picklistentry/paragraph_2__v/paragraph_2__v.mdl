@@ -1,0 +1,5 @@
+Picklistentry paragraph_2__v (
+   value('Paragraph_2'),
+   order(3),
+   active(true)
+);

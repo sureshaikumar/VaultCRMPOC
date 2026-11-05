@@ -1,0 +1,5 @@
+Picklistentry template__v (
+   value('Template'),
+   order(3),
+   active(true)
+);

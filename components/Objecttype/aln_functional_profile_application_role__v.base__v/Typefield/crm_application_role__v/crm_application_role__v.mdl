@@ -1,0 +1,4 @@
+Typefield crm_application_role__v (
+   source('standard'),
+   required(false)
+);

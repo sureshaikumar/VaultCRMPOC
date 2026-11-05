@@ -1,0 +1,18 @@
+Field content_sync_confirm__v (
+   label('MEDIA SYNC CONFIRM'),
+   type('Boolean'),
+   active(true),
+   description('When checked, users will be prompted to choose whether to begin content sync or not.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(74),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry sux__v (
+   value('Sumerian'),
+   order(301),
+   active(false)
+);

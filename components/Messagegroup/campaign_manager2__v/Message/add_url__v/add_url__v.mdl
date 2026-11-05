@@ -1,0 +1,6 @@
+Message add_url__v (
+   label(),
+   active(true),
+   default_value('Add URL'),
+   system_managed(false)
+);

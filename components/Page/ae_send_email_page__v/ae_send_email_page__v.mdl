@@ -1,0 +1,14 @@
+RECREATE Page ae_send_email_page__v (
+   label('Send Approved Email'),
+   active(true),
+   client_distribution(),
+   default_client_code('ae_send_email_page__v'),
+   description(),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.approvedemail.controls.pages.ApprovedEmailSendEmailPageController'),
+   url_path_name('send-email')
+);

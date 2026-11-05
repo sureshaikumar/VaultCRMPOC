@@ -1,0 +1,11 @@
+Typefield processing_status__v (
+   source('standard'),
+   required(false),
+   pickentries('Picklist.veeva_distribution_processing_status__v.failed_to_publish__v',
+         'Picklist.veeva_distribution_processing_status__v.failed_to_withdraw__v',
+         'Picklist.veeva_distribution_processing_status__v.publish_in_progress__v',
+         'Picklist.veeva_distribution_processing_status__v.ready_to_publish__v',
+         'Picklist.veeva_distribution_processing_status__v.ready_to_withdraw__v',
+         'Picklist.veeva_distribution_processing_status__v.success__v',
+         'Picklist.veeva_distribution_processing_status__v.withdraw_in_progress__v')
+);

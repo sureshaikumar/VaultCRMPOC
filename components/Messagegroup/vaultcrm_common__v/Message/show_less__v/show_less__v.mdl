@@ -1,0 +1,6 @@
+Message show_less__v (
+   label(),
+   active(true),
+   default_value('Show Less'),
+   system_managed(false)
+);

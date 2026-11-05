@@ -1,0 +1,6 @@
+Picklistentry ve-b__v (
+   value('Anzoátegui'),
+   order(4888),
+   active(true),
+   controlling_entries('ve__v')
+);

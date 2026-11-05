@@ -1,0 +1,6 @@
+Message targeting_rule__v (
+   label(),
+   active(true),
+   default_value('Targeting Rule'),
+   system_managed(false)
+);

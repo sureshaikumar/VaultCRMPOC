@@ -1,0 +1,6 @@
+Picklistentry ru-pnz__v (
+   value('Penzenskaya oblast'''),
+   order(3842),
+   active(true),
+   controlling_entries('ru__v')
+);

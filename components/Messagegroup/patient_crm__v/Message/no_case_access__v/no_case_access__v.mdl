@@ -1,0 +1,6 @@
+Message no_case_access__v (
+   label(),
+   active(true),
+   default_value('You do not have create permission for ${object_label} on the case you have selected. Resolve the restriction to proceed.'),
+   system_managed(false)
+);

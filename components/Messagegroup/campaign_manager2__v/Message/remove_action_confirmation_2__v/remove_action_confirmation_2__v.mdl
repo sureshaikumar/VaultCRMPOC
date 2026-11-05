@@ -1,0 +1,6 @@
+Message remove_action_confirmation_2__v (
+   label(),
+   active(true),
+   default_value('By removing this action, anything in its downstream path will also be removed. Would you like to remove this action?'),
+   system_managed(false)
+);

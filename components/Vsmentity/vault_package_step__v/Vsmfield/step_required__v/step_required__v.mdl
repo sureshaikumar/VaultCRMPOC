@@ -1,0 +1,14 @@
+Vsmfield step_required__v (
+   label('Step Required'),
+   active(true),
+   description('Boolean flag indicating whether this step is mandatory for the package deployment to succeed. When true, the step cannot be skipped during the inbound package installation process.'),
+   example_values(),
+   synonyms('required',
+         'mandatory',
+         'is required',
+         'must run'),
+   target('step_required__v'),
+   target_label('Step Required'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_cannot_tsfr_from_text__v (
+   label(),
+   active(true),
+   default_value('The user has adjusted their product goals and this product is no longer a target for them.'),
+   system_managed(false)
+);

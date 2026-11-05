@@ -1,0 +1,7 @@
+Objectlifecyclepermission editor_read__v (
+   states('Objectlifecyclestate.active_state__sys',
+         'Objectlifecyclestate.flash_report_state__sys',
+         'Objectlifecyclestate.inactive_state__sys'),
+   role('Objectlifecyclerole.editor__sys'),
+   permission('Read')
+);

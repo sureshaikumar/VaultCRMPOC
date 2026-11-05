@@ -1,0 +1,15 @@
+RECREATE Picklist age_range_cda__v (
+   label('Age Range'),
+   active(true),
+   Picklistentry(@Picklistentry/1824__v.mdl),
+   Picklistentry(@Picklistentry/2529__v.mdl),
+   Picklistentry(@Picklistentry/3034__v.mdl),
+   Picklistentry(@Picklistentry/3539__v.mdl),
+   Picklistentry(@Picklistentry/4044__v.mdl),
+   Picklistentry(@Picklistentry/4549__v.mdl),
+   Picklistentry(@Picklistentry/5054__v.mdl),
+   Picklistentry(@Picklistentry/5559__v.mdl),
+   Picklistentry(@Picklistentry/60p__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

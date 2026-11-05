@@ -1,0 +1,5 @@
+Picklistentry pacific_kiritimati__sys (
+   value('(GMT+14:00) Line Is. Time (Pacific/Kiritimati)'),
+   order(314),
+   active(true)
+);

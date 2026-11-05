@@ -1,0 +1,6 @@
+Message remove_decision__v (
+   label(),
+   active(true),
+   default_value('Remove Decision'),
+   system_managed(false)
+);

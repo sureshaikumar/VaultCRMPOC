@@ -1,0 +1,6 @@
+Message no_key_messages_to_display__v (
+   label(),
+   active(true),
+   default_value('No Key Messages to display.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message vcrm_deactivating_country_subj__v (
+   label(),
+   active(true),
+   default_value('You are about to deactivate {0} as a country within Align.'),
+   system_managed(false)
+);

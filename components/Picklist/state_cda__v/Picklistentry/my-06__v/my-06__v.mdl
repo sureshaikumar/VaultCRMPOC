@@ -1,0 +1,6 @@
+Picklistentry my-06__v (
+   value('Pahang'),
+   order(3276),
+   active(true),
+   controlling_entries('my__v')
+);

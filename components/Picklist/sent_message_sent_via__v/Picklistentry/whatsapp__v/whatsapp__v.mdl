@@ -1,0 +1,5 @@
+Picklistentry whatsapp__v (
+   value('WhatsApp'),
+   order(1),
+   active(true)
+);

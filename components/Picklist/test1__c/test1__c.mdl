@@ -1,0 +1,8 @@
+RECREATE Picklist test1__c (
+   label('test1'),
+   active(true),
+   Picklistentry(@Picklistentry/testa__c.mdl),
+   Picklistentry(@Picklistentry/testb__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

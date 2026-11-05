@@ -1,0 +1,5 @@
+Picklistentry nurse__c (
+   value('Nurse'),
+   order(1),
+   active(true)
+);

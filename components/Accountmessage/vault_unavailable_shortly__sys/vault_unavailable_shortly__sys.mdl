@@ -1,0 +1,7 @@
+RECREATE Accountmessage vault_unavailable_shortly__sys (
+   label('Vault Unavailable Shortly'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Notification: Vault ${vaultName} Unavailable Shortly')
+);

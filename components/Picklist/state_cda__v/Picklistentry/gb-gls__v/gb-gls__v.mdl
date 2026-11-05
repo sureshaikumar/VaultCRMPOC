@@ -1,0 +1,6 @@
+Picklistentry gb-gls__v (
+   value('Gloucestershire'),
+   order(1525),
+   active(true),
+   controlling_entries('gb__v')
+);

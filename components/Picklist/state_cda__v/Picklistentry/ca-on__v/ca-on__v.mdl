@@ -1,0 +1,6 @@
+Picklistentry ca-on__v (
+   value('Ontario'),
+   order(567),
+   active(true),
+   controlling_entries('ca__v')
+);

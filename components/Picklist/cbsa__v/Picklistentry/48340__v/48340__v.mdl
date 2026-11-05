@@ -1,0 +1,5 @@
+Picklistentry 48340__v (
+   value('West Helena, AR Micropolitan Statistical Area'),
+   order(447),
+   active(true)
+);

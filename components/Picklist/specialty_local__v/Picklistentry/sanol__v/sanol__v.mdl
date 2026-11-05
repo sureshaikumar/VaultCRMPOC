@@ -1,0 +1,6 @@
+Picklistentry sanol__v (
+   value('Sanology'),
+   order(1758),
+   active(true),
+   controlling_entries('ua__v')
+);

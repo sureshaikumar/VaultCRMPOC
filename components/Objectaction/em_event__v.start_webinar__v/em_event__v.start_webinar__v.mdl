@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.start_webinar__v (
+   label('Start Engage'),
+   description('Launches Engage'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.StartWebinarAction'),
+   active(true),
+   available_all_states(true)
+);

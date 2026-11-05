@@ -1,0 +1,6 @@
+Message capture_consent__v (
+   label(),
+   active(true),
+   default_value('Capture Consent'),
+   system_managed(false)
+);

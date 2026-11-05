@@ -1,0 +1,6 @@
+Picklistentry cdoer__v (
+   value('Corrective Dermatology'),
+   order(335),
+   active(true),
+   controlling_entries('cz__v')
+);

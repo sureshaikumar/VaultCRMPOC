@@ -1,0 +1,6 @@
+Message go_to_capture_consent__v (
+   label(),
+   active(true),
+   default_value('Go to Consent Capture'),
+   system_managed(false)
+);

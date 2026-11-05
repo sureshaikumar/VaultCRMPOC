@@ -1,0 +1,12 @@
+Picklistentry fpoar__v (
+   value('Forensic Pathology'),
+   order(566),
+   active(true),
+   controlling_entries('au__v',
+         'ca__v',
+         'is__v',
+         'my__v',
+         'na__v',
+         'nz__v',
+         'vn__v')
+);

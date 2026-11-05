@@ -1,0 +1,7 @@
+RECREATE Picklist event_attendee_expense_attendee_type__v (
+   label('Expense Attendee Type'),
+   active(true),
+   Picklistentry(@Picklistentry/busguest__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

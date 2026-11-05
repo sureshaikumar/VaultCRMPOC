@@ -1,0 +1,18 @@
+Field five_day_week__v (
+   label('Five Day Week'),
+   type('Boolean'),
+   active(true),
+   description('If false the user will get a five day week (Monday-Friday) on the tablet.  If true it will be a seven day week.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(36),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

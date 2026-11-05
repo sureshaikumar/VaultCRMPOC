@@ -1,0 +1,17 @@
+Field carry_forward_accessibility_information__sys (
+   label('Carry Forward Accessibility Information'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('If enabled, accessibility information from source Word and PowerPoint files, including document structure and Alt Text, is carried forward into the PDF rendition as a tagged PDF.'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

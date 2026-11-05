@@ -1,0 +1,6 @@
+Picklistentry si-096__v (
+   value('Ptuj'),
+   order(4070),
+   active(true),
+   controlling_entries('si__v')
+);

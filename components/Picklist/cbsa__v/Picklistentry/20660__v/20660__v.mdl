@@ -1,0 +1,5 @@
+Picklistentry 20660__v (
+   value('Easton, MD Micropolitan Statistical Area'),
+   order(644),
+   active(true)
+);

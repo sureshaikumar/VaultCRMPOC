@@ -1,0 +1,6 @@
+Picklistentry mk-502__v (
+   value('Demir Hisar'),
+   order(3004),
+   active(true),
+   controlling_entries('mk__v')
+);

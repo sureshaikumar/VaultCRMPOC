@@ -1,0 +1,6 @@
+Picklistentry hn-cr__v (
+   value('Cortés'),
+   order(1829),
+   active(true),
+   controlling_entries('hn__v')
+);

@@ -1,0 +1,22 @@
+Field publications_focus_score__v (
+   label('Publications Focus Score'),
+   type('Number'),
+   active(true),
+   description('A focus score that indicates the degree of focus this KOL has for this area in publications.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

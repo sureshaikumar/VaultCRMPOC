@@ -1,0 +1,4 @@
+Typefield due_days_calculator__c (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry tl-mf__v (
+   value('Manufahi'),
+   order(4420),
+   active(true),
+   controlling_entries('tl__v')
+);

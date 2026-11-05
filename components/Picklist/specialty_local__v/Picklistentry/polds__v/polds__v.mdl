@@ -1,0 +1,7 @@
+Picklistentry polds__v (
+   value('Psychiatry of Learning Disability'),
+   order(1621),
+   active(true),
+   controlling_entries('gb__v',
+         'ie__v')
+);

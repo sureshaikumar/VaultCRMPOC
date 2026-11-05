@@ -1,0 +1,6 @@
+Message notified_when_file_ready__v (
+   label(),
+   active(true),
+   default_value('You will be notified when the file is ready for download'),
+   system_managed(false)
+);

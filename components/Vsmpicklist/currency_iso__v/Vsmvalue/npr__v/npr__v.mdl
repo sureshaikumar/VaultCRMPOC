@@ -1,0 +1,10 @@
+Vsmvalue npr__v (
+   label('NPR'),
+   active(true),
+   description('The official currency of Nepal (NPR), pegged to the Indian rupee and used for all financial and commercial transactions in the country.'),
+   synonyms('Nepalese rupee',
+         'Nepal rupee',
+         'NPR'),
+   target('npr__sys'),
+   target_label('NPR')
+);

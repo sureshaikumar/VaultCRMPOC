@@ -1,0 +1,5 @@
+Picklistentry or__v (
+   value('Oriya'),
+   order(245),
+   active(false)
+);

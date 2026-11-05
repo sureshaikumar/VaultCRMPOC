@@ -1,0 +1,6 @@
+Message attempt_canceled_title__v (
+   label(),
+   active(true),
+   default_value('Attempt Canceled'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message wd_int_workday_connection__v (
+   label(),
+   active(true),
+   default_value('Workday Connection'),
+   system_managed(false)
+);

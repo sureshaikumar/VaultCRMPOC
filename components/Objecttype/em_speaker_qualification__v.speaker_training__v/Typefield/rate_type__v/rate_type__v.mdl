@@ -1,0 +1,7 @@
+Typefield rate_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_qualification_rate_type__v.day__v',
+         'Picklist.em_speaker_qualification_rate_type__v.event__v',
+         'Picklist.em_speaker_qualification_rate_type__v.hour__v')
+);

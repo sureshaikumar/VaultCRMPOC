@@ -1,0 +1,6 @@
+Message veeva_align_data_valid_start_before_endd__v (
+   label(),
+   active(true),
+   default_value('The Start Date must be equal to or less than End Date'),
+   system_managed(false)
+);

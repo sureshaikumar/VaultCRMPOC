@@ -1,0 +1,6 @@
+Message crm_integration_inactive_picklist_value__v (
+   label(),
+   active(true),
+   default_value('This value is active in Align but was deactivated in CRM.'),
+   system_managed(false)
+);

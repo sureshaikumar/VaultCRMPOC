@@ -1,0 +1,4 @@
+Typefield required_number_of_hcp_targets__v (
+   source('standard'),
+   required(false)
+);

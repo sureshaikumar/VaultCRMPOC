@@ -1,0 +1,5 @@
+Picklistentry lv__v (
+   value('Latvian'),
+   order(186),
+   active(false)
+);

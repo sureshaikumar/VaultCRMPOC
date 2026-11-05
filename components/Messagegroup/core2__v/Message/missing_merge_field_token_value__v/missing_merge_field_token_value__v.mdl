@@ -1,0 +1,6 @@
+Message missing_merge_field_token_value__v (
+   label(),
+   active(true),
+   default_value('Each merge field in (${file_name}) must have a corresponding token value'),
+   system_managed(false)
+);

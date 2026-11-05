@@ -1,0 +1,6 @@
+Message cannot_copy_to_url__v (
+   label(),
+   active(true),
+   default_value('Cannot Copy to this Vault URL. Select another destination'),
+   system_managed(false)
+);

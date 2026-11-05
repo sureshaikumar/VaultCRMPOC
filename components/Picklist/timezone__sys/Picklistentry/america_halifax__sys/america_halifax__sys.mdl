@@ -1,0 +1,5 @@
+Picklistentry america_halifax__sys (
+   value('(GMT-04:00) Atlantic Standard Time (America/Halifax)'),
+   order(88),
+   active(true)
+);

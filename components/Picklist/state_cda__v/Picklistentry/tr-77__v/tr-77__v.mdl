@@ -1,0 +1,6 @@
+Picklistentry tr-77__v (
+   value('Yalova'),
+   order(4535),
+   active(true),
+   controlling_entries('tr__v')
+);

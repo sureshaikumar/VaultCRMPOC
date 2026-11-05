@@ -1,0 +1,5 @@
+Picklistentry copay_assistance__v (
+   value('Copay Assistance'),
+   order(13),
+   active(true)
+);

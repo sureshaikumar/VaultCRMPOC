@@ -1,0 +1,6 @@
+Message number_more_records__v (
+   label(),
+   active(true),
+   default_value('+${number} More ${record_name}'),
+   system_managed(false)
+);

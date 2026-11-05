@@ -1,0 +1,6 @@
+Picklistentry dz-21__v (
+   value('Skikda'),
+   order(1002),
+   active(true),
+   controlling_entries('dz__v')
+);

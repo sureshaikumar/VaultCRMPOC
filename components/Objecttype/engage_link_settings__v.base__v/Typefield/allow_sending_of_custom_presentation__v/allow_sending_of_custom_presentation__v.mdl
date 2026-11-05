@@ -1,0 +1,4 @@
+Typefield allow_sending_of_custom_presentation__v (
+   source('standard'),
+   required(false)
+);

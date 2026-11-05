@@ -1,0 +1,6 @@
+Message processing_campaign_subheader__v (
+   label(),
+   active(true),
+   default_value('Campaign performance will be available soon'),
+   system_managed(false)
+);

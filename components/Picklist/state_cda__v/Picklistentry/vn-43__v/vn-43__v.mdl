@@ -1,0 +1,6 @@
+Picklistentry vn-43__v (
+   value('Bà Rịa - Vũng Tàu'),
+   order(4944),
+   active(true),
+   controlling_entries('vn__v')
+);

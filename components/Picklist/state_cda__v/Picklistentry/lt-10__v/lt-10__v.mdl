@@ -1,0 +1,6 @@
+Picklistentry lt-10__v (
+   value('Jonava'),
+   order(2628),
+   active(true),
+   controlling_entries('lt__v')
+);

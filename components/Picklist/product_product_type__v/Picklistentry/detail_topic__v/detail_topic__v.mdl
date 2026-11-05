@@ -1,0 +1,5 @@
+Picklistentry detail_topic__v (
+   value('Detail Topic'),
+   order(1),
+   active(true)
+);

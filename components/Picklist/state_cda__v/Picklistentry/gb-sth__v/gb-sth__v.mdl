@@ -1,0 +1,6 @@
+Picklistentry gb-sth__v (
+   value('Southampton'),
+   order(1630),
+   active(true),
+   controlling_entries('gb__v')
+);

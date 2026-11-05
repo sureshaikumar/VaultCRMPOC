@@ -1,0 +1,5 @@
+Picklistentry hard_warning__v (
+   value('Hard Warning'),
+   order(0),
+   active(true)
+);

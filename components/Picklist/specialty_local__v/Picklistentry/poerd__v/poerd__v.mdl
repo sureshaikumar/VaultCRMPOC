@@ -1,0 +1,13 @@
+Picklistentry poerd__v (
+   value('Pediatric Orthopedics'),
+   order(1431),
+   active(true),
+   controlling_entries('gr__v',
+         'hr__v',
+         'my__v',
+         'pt__v',
+         'ro__v',
+         'sk__v',
+         'th__v',
+         'us__v')
+);

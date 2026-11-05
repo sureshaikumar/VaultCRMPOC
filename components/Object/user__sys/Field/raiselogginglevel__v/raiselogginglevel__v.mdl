@@ -1,0 +1,18 @@
+Field raiselogginglevel__v (
+   label('Raise Logging Level'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The Raise Logging Level field on the user object allows administrators to save detailed tablet activity logs during configuration and testing and then return the user to errors-only logging when the application is released.'),
+   list_column(false),
+   order(94),
+   multi_value(false),
+   picklist('Picklist.user_raiselogginglevel__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

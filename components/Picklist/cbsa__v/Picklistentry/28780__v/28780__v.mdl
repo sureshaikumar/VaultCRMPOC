@@ -1,0 +1,5 @@
+Picklistentry 28780__v (
+   value('Kingsville, TX Micropolitan Statistical Area'),
+   order(206),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Objectlifecyclepermission viewer_read__c (
+   states('Objectlifecyclestate.approved__v',
+         'Objectlifecyclestate.draft__v',
+         'Objectlifecyclestate.feedback_review__v',
+         'Objectlifecyclestate.published__v'),
+   role('Objectlifecyclerole.viewer__v'),
+   permission('Read')
+);

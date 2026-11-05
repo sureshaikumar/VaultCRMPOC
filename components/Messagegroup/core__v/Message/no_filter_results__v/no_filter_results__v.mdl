@@ -1,0 +1,6 @@
+Message no_filter_results__v (
+   label(),
+   active(true),
+   default_value('No results for the current filters.'),
+   system_managed(false)
+);

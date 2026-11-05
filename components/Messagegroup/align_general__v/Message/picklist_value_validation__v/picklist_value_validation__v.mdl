@@ -1,0 +1,6 @@
+Message picklist_value_validation__v (
+   label(),
+   active(true),
+   default_value('Invalid picklist value name ''${picklistValueName}'' specified for ${object} : This name does not resolve to a valid and active picklist value.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message dialog_warning__v (
+   label(),
+   active(true),
+   default_value('Warning'),
+   system_managed(false)
+);

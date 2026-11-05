@@ -1,0 +1,12 @@
+RECREATE Vsmpicklist subprocess__v (
+   label('Subprocess'),
+   active(true),
+   description('Identifies the specific subprocess associated with a record, allowing for additional filtering in Process Monitor. For object records, each row represents an Object Type; for documents, each row represents a Document Type, Subtype, or Classification.'),
+   synonyms('sub-process',
+      'child process',
+      'process subdivision',
+      'workflow subprocess',
+      'nested process'),
+   target('Picklist.subprocess__sys'),
+   target_label('Subprocess')
+);

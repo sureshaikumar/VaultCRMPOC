@@ -1,0 +1,18 @@
+Field position_disclaimer_above_signature__v (
+   label('POSITION_DISCLAIMER_ABOVE_SIGNATURE'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('When checked, move the position of the disclaimer on the signature page for a call report to be above the signature box.'),
+   list_column(false),
+   order(244),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry bn__v (
+   value('Bengali'),
+   order(35),
+   active(false)
+);

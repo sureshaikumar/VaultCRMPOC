@@ -1,0 +1,4 @@
+Typefield zvod_unique_group_activities__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message import_field_label__v (
+   label(),
+   active(true),
+   default_value('Align Field Label'),
+   system_managed(false)
+);

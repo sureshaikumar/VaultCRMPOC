@@ -1,0 +1,6 @@
+Message click_to_dial_disabled_when_closed_case__v (
+   label(),
+   active(true),
+   default_value('Click-to-dial is disabled when a case is closed. Create a new case to contact this Patient.'),
+   system_managed(false)
+);

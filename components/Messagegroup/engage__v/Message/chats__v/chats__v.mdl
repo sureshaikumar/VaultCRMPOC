@@ -1,0 +1,6 @@
+Message chats__v (
+   label(),
+   active(true),
+   default_value('Chats'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field keywords__v (
+   label('Keywords'),
+   type('LongText'),
+   active(true),
+   description('Comma separated keywords of the Key Message'),
+   required(false),
+   max_length(10000),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

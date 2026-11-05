@@ -1,0 +1,19 @@
+Field expired__v (
+   label('Expired?'),
+   type('Boolean'),
+   active(true),
+   description('If current date > End_Date_vod__c, the contract is considered expired. Used to facilitate reporting.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(51),
+   formula('end_date__v < Today()'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

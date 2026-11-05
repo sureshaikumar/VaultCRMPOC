@@ -1,0 +1,6 @@
+Message mc_cycle_clone_mc_cycle__v (
+   label(),
+   active(true),
+   default_value('MC Cycle'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+Vsmvalue nok__v (
+   label('NOK'),
+   active(true),
+   description('The official currency of Norway (NOK), also used in Svalbard and Jan Mayen, and a key currency in Nordic and European financial markets.'),
+   synonyms('Norwegian krone',
+         'krone',
+         'NOK'),
+   target('nok__sys'),
+   target_label('NOK')
+);

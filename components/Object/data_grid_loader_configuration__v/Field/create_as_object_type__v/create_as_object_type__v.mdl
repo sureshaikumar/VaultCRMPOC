@@ -1,0 +1,19 @@
+Field create_as_object_type__v (
+   label('Create as Object Type'),
+   type('String'),
+   active(true),
+   description('Populate using Object Type Name. If populated, this configuration template will create records with this object type.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry kn-k__v (
+   value('Saint Kitts'),
+   order(2455),
+   active(true),
+   controlling_entries('kn__v')
+);

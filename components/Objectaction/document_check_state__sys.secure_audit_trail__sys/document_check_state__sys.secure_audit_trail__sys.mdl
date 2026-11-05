@@ -1,0 +1,8 @@
+RECREATE Objectaction document_check_state__sys.secure_audit_trail__sys (
+   label('Audit Trail'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.SecureAuditTrail'),
+   active(true),
+   available_all_states(true)
+);

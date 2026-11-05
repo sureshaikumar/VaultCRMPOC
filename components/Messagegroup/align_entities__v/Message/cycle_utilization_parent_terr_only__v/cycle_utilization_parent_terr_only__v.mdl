@@ -1,0 +1,6 @@
+Message cycle_utilization_parent_terr_only__v (
+   label(),
+   active(true),
+   default_value('Parent Territories Only'),
+   system_managed(false)
+);

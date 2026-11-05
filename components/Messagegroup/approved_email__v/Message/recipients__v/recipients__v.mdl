@@ -1,0 +1,6 @@
+Message recipients__v (
+   label(),
+   active(true),
+   default_value('Recipients'),
+   system_managed(false)
+);

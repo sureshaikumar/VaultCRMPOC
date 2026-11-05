@@ -1,0 +1,14 @@
+Vsmfield glossary_definition_text__v (
+   label('Definition Text'),
+   active(true),
+   description('The full textual definition or explanation of the glossary term in the associated language. This is the core content field containing the meaning of the term as used within the business or regulatory context.'),
+   example_values(),
+   synonyms('definition',
+         'definition text',
+         'term meaning',
+         'description'),
+   target('glossary_definition_text__sys'),
+   target_label('Definition Text'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

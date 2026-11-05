@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate export_checklist_design_failure__v (
+   label('Export Checklist Design Failure'),
+   active(true),
+   description('Notification template notifying user that their Checklist Design export failed'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: ${checklist_design__sys_label} export failed'),
+   notification('<p>Checklist Design failed to export</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry es-c__v (
+   value('A Coruña'),
+   order(1202),
+   active(true),
+   controlling_entries('es__v')
+);

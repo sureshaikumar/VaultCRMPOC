@@ -1,0 +1,6 @@
+Message mc_cycle_channel_default_goal_max__v (
+   label(),
+   active(true),
+   default_value('Default Goal must not exceed Default Max Goal value.'),
+   system_managed(false)
+);

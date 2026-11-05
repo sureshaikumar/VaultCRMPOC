@@ -1,0 +1,18 @@
+Field enable_cycle_plans_remaining__v (
+   label('ENABLE_CYCLE_PLANS_REMAINING'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If checked, the Cycle Plan Target list and the Account Cycle Plan will display a calculation for the remaining number of calls in place of the current attainment percentage.'),
+   list_column(false),
+   order(129),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

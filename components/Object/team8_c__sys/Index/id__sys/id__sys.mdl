@@ -1,0 +1,5 @@
+Index id__sys (
+   description(),
+   fields('id'),
+   label('ID')
+);

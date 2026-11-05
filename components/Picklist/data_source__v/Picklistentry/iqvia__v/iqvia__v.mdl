@@ -1,0 +1,5 @@
+Picklistentry iqvia__v (
+   value('IQVIA'),
+   order(1),
+   active(true)
+);

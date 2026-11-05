@@ -1,0 +1,10 @@
+RECREATE Picklist medical_event_event_type__v (
+   label('Event Type'),
+   active(true),
+   Picklistentry(@Picklistentry/kol__v.mdl),
+   Picklistentry(@Picklistentry/support__v.mdl),
+   Picklistentry(@Picklistentry/research__v.mdl),
+   Picklistentry(@Picklistentry/education__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

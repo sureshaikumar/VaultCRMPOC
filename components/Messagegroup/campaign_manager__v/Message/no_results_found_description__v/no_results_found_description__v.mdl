@@ -1,0 +1,6 @@
+Message no_results_found_description__v (
+   label(),
+   active(true),
+   default_value('Try adjusting your search'),
+   system_managed(false)
+);

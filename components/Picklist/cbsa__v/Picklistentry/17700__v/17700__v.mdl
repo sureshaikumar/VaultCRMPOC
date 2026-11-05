@@ -1,0 +1,5 @@
+Picklistentry 17700__v (
+   value('Coffeyville, KS Micropolitan Statistical Area'),
+   order(30),
+   active(true)
+);

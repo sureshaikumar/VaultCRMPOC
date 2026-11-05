@@ -1,0 +1,17 @@
+RECREATE Objectvalidation assortment__v.enddate_after_startdate__v (
+   label('EndDate_After_StartDate'),
+   active(true),
+   expression('not(
+            if(
+                and(
+                    not(IsBlank(start_date__v)),
+                    not(IsBlank(end_date__v))
+                ),
+                start_date__v > end_date__v,
+                false
+            )
+        )'),
+   description('Start date after end date'),
+   error_message('Start date after end date'),
+   error_location('start_date__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cspou__v (
+   value('Colorectal Surgery (Proctology)'),
+   order(303),
+   active(true),
+   controlling_entries('am__v')
+);

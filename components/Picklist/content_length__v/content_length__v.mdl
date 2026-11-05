@@ -1,0 +1,9 @@
+RECREATE Picklist content_length__v (
+   label('Content Length'),
+   active(true),
+   Picklistentry(@Picklistentry/condensed__v.mdl),
+   Picklistentry(@Picklistentry/full__v.mdl),
+   Picklistentry(@Picklistentry/extended__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

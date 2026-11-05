@@ -1,0 +1,5 @@
+Picklistentry soxsa__v (
+   value('Social Service Assistant'),
+   order(146),
+   active(true)
+);

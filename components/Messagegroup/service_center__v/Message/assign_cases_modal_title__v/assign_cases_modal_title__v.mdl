@@ -1,0 +1,6 @@
+Message assign_cases_modal_title__v (
+   label(),
+   active(true),
+   default_value('Assign ${case_count} Cases'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+RECREATE Picklist message_node_type__v (
+   label('Message Node Type'),
+   active(true),
+   Picklistentry(@Picklistentry/email__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

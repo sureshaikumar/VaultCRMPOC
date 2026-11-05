@@ -1,0 +1,6 @@
+Picklistentry si-197__v (
+   value('Kosanjevica na Krki'),
+   order(4170),
+   active(true),
+   controlling_entries('si__v')
+);

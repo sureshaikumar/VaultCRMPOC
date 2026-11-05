@@ -1,0 +1,6 @@
+Sdkbatchjobaction veeva_common_touch_job__v (
+   job_metadata('Jobmetadata.veeva_common_touch_job__v'),
+   label('Veeva Common Touch Job'),
+   parameters(),
+   primary_action(true)
+);

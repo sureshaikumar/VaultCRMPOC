@@ -1,0 +1,6 @@
+Message vector_database_sync__v (
+   label(),
+   active(true),
+   default_value('Vector Database Sync'),
+   system_managed(false)
+);

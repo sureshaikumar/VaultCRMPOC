@@ -1,0 +1,17 @@
+Field talk_title__v (
+   label('Talk Title'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1024),
+   help_content('Title of the talk given at the event'),
+   list_column(false),
+   order(36),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

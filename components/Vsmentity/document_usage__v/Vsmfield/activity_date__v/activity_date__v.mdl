@@ -1,0 +1,14 @@
+Vsmfield activity_date__v (
+   label('Activity Date'),
+   active(true),
+   description('The date and time when the document usage activity occurred. Use this field to filter or analyze document engagement over specific time periods, such as identifying recent activity or trends across a date range.'),
+   example_values(),
+   synonyms('event date',
+         'usage date',
+         'date of activity',
+         'when used'),
+   target('activity_date__v'),
+   target_label('Activity Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

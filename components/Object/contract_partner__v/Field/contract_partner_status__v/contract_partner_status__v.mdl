@@ -1,0 +1,19 @@
+Field contract_partner_status__v (
+   label('Contract Partner Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Stores the status of a Contract Partner record. If the status is "Activated" and the current date is between the Contract Partner start and end dates, the Contract associated with the Contract Partner record can be associated with an Order or Inventory Mo'),
+   list_column(false),
+   order(23),
+   multi_value(false),
+   picklist('Picklist.contract_partner_status__v'),
+   default_value('{saved__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

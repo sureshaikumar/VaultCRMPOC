@@ -1,0 +1,14 @@
+Vsmfield urs_source_ref__v (
+   label('Source Reference'),
+   active(true),
+   description('A reference identifier pointing to the source record or system that triggered this user role setup assignment. Useful for tracing automated assignments back to their originating process or external system.'),
+   example_values(),
+   synonyms('source reference',
+         'origin reference',
+         'source ID',
+         'assignment reference'),
+   target('urs_source_ref__sys'),
+   target_label('Source Reference'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

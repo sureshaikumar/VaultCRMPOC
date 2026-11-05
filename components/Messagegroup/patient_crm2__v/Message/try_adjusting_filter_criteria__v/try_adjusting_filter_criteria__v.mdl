@@ -1,0 +1,6 @@
+Message try_adjusting_filter_criteria__v (
+   label(),
+   active(true),
+   default_value('Try adjusting your filter criteria'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+RECREATE Report account_with_address__c (
+   label('My Target Accounts - Tabular'),
+   active(true),
+   description('My Target Accounts'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.account_with_address__c'),
+   editors(),
+   viewers('Group.sales__c'),
+   owners('User.r.bhadra@sb-accenture.com'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags(),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

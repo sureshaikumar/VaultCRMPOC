@@ -1,0 +1,6 @@
+Picklistentry ru-kya__v (
+   value('Krasnoyarskiy kray'),
+   order(3825),
+   active(true),
+   controlling_entries('ru__v')
+);

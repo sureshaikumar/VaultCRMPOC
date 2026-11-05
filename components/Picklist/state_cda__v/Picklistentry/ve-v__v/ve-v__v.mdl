@@ -1,0 +1,6 @@
+Picklistentry ve-v__v (
+   value('Zulia'),
+   order(4907),
+   active(true),
+   controlling_entries('ve__v')
+);

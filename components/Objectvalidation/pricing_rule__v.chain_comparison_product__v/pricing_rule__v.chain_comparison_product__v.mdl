@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.chain_comparison_product__v (
+   label('Chain Comparison Product'),
+   active(true),
+   expression('Not(
+     And(
+        chain_rule__v = true,
+        Not(IsBlank(comparison_product__v))
+    )
+)'),
+   description('Comparison Product must be blank when Chain Rule is enabled'),
+   error_message('Comparison Product must be blank when Chain Rule is enabled'),
+   error_location('comparison_product__v')
+);

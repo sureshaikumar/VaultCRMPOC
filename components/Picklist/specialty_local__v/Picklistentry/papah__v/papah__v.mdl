@@ -1,0 +1,6 @@
+Picklistentry papah__v (
+   value('Phoniatrics and Pediatric Audiology'),
+   order(1531),
+   active(true),
+   controlling_entries('de__v')
+);

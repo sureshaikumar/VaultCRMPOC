@@ -1,0 +1,6 @@
+Picklistentry cpxth__v (
+   value('Clinical Pharmacology & Therapeutics'),
+   order(278),
+   active(true),
+   controlling_entries('ae__v')
+);

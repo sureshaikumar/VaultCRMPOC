@@ -1,0 +1,6 @@
+Picklistentry cz-714__v (
+   value('Přerov'),
+   order(889),
+   active(true),
+   controlling_entries('cz__v')
+);

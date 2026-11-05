@@ -1,0 +1,6 @@
+Picklistentry pl-24__v (
+   value('Śląskie'),
+   order(3633),
+   active(true),
+   controlling_entries('pl__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry bi-bm__v (
+   value('Bujumbura Mairie'),
+   order(407),
+   active(true),
+   controlling_entries('bi__v')
+);

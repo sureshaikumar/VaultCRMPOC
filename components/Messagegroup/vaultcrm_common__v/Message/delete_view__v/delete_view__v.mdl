@@ -1,0 +1,6 @@
+Message delete_view__v (
+   label(),
+   active(true),
+   default_value('Delete View'),
+   system_managed(false)
+);

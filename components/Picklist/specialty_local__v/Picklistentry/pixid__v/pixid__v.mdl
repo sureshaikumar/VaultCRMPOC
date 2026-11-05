@@ -1,0 +1,6 @@
+Picklistentry pixid__v (
+   value('Paediatric Infectious Disease'),
+   order(1259),
+   active(true),
+   controlling_entries('ng__v')
+);

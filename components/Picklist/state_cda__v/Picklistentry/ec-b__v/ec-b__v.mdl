@@ -1,0 +1,6 @@
+Picklistentry ec-b__v (
+   value('Bolívar'),
+   order(1041),
+   active(true),
+   controlling_entries('ec__v')
+);

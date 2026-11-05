@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.schedule_engage__v (
+   label('Schedule Engage'),
+   description('Schedules Engage'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.ScheduleEngageAction'),
+   active(true),
+   available_all_states(true)
+);

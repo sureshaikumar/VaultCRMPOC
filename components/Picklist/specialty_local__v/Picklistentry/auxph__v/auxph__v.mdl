@@ -1,0 +1,7 @@
+Picklistentry auxph__v (
+   value('Audiology and Phoniatrics'),
+   order(103),
+   active(true),
+   controlling_entries('it__v',
+         'pl__v')
+);

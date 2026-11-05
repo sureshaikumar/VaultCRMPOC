@@ -1,0 +1,6 @@
+Picklistentry az-gad__v (
+   value('Gədəbəy'),
+   order(157),
+   active(true),
+   controlling_entries('az__v')
+);

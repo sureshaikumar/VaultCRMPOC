@@ -1,0 +1,8 @@
+RECREATE Objectvalidation mc_cycle_plan_target__v.location_is_person_account__v (
+   label('Location_Is_Person_Account'),
+   active(true),
+   expression('Or(IsBlank(location__v),location__vr.ispersonaccount__v != true)'),
+   description('location__v must be a business account'),
+   error_message('Cannot populate Location with a person account'),
+   error_location('location__v')
+);

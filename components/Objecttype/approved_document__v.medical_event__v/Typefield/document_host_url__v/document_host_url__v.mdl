@@ -1,0 +1,4 @@
+Typefield document_host_url__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ultra__v (
+   value('Ultrasound'),
+   order(1877),
+   active(true),
+   controlling_entries('hr__v')
+);

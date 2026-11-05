@@ -1,0 +1,6 @@
+Message review_and_continue__v (
+   label(),
+   active(true),
+   default_value('Review and Continue'),
+   system_managed(false)
+);

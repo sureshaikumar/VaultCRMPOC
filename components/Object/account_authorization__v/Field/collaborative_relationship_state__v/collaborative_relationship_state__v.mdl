@@ -1,0 +1,18 @@
+Field collaborative_relationship_state__v (
+   label('Collaborative Relationship State'),
+   type('Picklist'),
+   active(true),
+   description('The state in which the collaborative agreement between the midlevel practitioner and the supervising physician exists. Used to filter the list of available Supervising Physicians when Accounts practice in multiple states.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.account_collaborative_relationship_state__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

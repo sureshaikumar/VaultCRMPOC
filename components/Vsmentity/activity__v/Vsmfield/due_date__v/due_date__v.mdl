@@ -1,0 +1,14 @@
+Vsmfield due_date__v (
+   label('Due Date'),
+   active(true),
+   description('The date by which the activity is expected to be completed. Use to identify overdue activities, upcoming deadlines, or to prioritize work based on urgency.'),
+   example_values(),
+   synonyms('deadline',
+         'target date',
+         'due by',
+         'expected completion'),
+   target('due_date__v'),
+   target_label('Due Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

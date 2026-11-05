@@ -1,0 +1,6 @@
+Picklistentry ir-29__v (
+   value('Khorāsān-e Jonūbī'),
+   order(2081),
+   active(true),
+   controlling_entries('ir__v')
+);

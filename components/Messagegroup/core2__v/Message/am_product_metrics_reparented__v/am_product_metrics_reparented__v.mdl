@@ -1,0 +1,6 @@
+Message am_product_metrics_reparented__v (
+   label(),
+   active(true),
+   default_value('The losing account''s Product Metrics are re-associated to the winning account.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message off_queue__v (
+   label(),
+   active(true),
+   default_value('Off Queue'),
+   system_managed(false)
+);

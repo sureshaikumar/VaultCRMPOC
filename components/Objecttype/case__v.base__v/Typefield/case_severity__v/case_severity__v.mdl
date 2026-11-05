@@ -1,0 +1,4 @@
+Typefield case_severity__v (
+   source('standard'),
+   required(false)
+);

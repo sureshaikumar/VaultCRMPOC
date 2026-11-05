@@ -1,0 +1,5 @@
+Picklistentry mr__v (
+   value('Marathi'),
+   order(214),
+   active(false)
+);

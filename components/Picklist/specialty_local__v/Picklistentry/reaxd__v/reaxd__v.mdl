@@ -1,0 +1,6 @@
+Picklistentry reaxd__v (
+   value('Radioisotope Examination'),
+   order(1678),
+   active(true),
+   controlling_entries('ge__v')
+);

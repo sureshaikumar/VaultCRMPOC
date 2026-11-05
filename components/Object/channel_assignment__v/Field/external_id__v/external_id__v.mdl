@@ -1,0 +1,19 @@
+Field external_id__v (
+   label('External Id'),
+   type('String'),
+   active(true),
+   description('Unique identifier assigned by the third party platform to the channel.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('Unique identifier assigned by the third party platform to the channel.'),
+   list_column(false),
+   order(17),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

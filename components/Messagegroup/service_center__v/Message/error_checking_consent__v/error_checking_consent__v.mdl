@@ -1,0 +1,6 @@
+Message error_checking_consent__v (
+   label(),
+   active(true),
+   default_value('Error Checking Consent'),
+   system_managed(false)
+);

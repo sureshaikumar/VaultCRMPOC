@@ -1,0 +1,6 @@
+Picklistentry ss-nu__v (
+   value('Upper Nile'),
+   order(4258),
+   active(true),
+   controlling_entries('ss__v')
+);

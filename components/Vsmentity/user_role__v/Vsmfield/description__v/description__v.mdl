@@ -1,0 +1,13 @@
+Vsmfield description__v (
+   label('Description'),
+   active(true),
+   description('Free-text description providing additional context or explanation about the purpose and scope of this user role. Useful for understanding the intent behind a role assignment or distinguishing between similarly named roles.'),
+   example_values(),
+   synonyms('notes',
+         'details',
+         'role description'),
+   target('description__sys'),
+   target_label('Description'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

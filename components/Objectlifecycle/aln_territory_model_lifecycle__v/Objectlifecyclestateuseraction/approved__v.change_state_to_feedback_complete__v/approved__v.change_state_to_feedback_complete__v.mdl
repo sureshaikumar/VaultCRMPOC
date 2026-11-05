@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction approved__v.change_state_to_feedback_complete__v (
+   label('Move to Complete'),
+   rule(@rule.xml),
+   order(1000)
+);

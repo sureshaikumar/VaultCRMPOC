@@ -1,0 +1,6 @@
+Sdkbatchjobaction remote_meeting_processes_job__v (
+   job_metadata('Jobmetadata.remote_meeting_processes_job__v'),
+   label('Remote Meeting Scheduled Processes'),
+   parameters(),
+   primary_action(true)
+);

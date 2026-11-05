@@ -1,0 +1,18 @@
+Field bounce_support__sys (
+   label('VeevaId Bounce Support'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether VeevaId Bounce Support is enabled.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

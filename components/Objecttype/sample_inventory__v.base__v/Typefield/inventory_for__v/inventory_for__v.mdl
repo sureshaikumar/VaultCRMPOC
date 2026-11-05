@@ -1,0 +1,4 @@
+Typefield inventory_for__v (
+   source('standard'),
+   required(false)
+);

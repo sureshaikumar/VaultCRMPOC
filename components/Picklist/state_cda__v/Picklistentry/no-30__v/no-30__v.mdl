@@ -1,0 +1,6 @@
+Picklistentry no-30__v (
+   value('Viken'),
+   order(3398),
+   active(true),
+   controlling_entries('no__v')
+);

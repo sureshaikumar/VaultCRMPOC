@@ -1,0 +1,6 @@
+Picklistentry kg-y__v (
+   value('Ysyk-Köl'),
+   order(2409),
+   active(true),
+   controlling_entries('kg__v')
+);

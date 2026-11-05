@@ -1,0 +1,6 @@
+Message patient_activity_feed__v (
+   label(),
+   active(true),
+   default_value('Patient Activity Feed'),
+   system_managed(false)
+);

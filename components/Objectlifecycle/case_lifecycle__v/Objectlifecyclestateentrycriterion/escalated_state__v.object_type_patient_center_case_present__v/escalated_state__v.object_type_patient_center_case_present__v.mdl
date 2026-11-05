@@ -1,0 +1,4 @@
+Objectlifecyclestateentrycriterion escalated_state__v.object_type_patient_center_case_present__v (
+   rule(@rule.xml),
+   order(3000)
+);

@@ -1,0 +1,17 @@
+Field territory__v (
+   label('Territory List'),
+   type('LongText'),
+   active(true),
+   description('Stores the territories associated with this account in a semicolon separated format. Salesforce.com territory rules later run on this field to actually assign territories. A leading and trailing semicolon must be contained within this field. Also, no spac'),
+   required(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

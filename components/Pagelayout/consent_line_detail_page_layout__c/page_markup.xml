@@ -1,0 +1,39 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.consent_line__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="consent_type__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="content_type_display_name__v" />
+            <vault:field reference="detail_group_display_name__v" />
+            <vault:field reference="display_order__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="group_by__v" />
+            <vault:field reference="product_display_name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="sub_channel_description__v" />
+            <vault:field reference="sub_channel_display_name__v" />
+            <vault:field reference="sub_channel_key__v" />
+            <vault:field reference="content_type__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+            <vault:field reference="unbranded_display_name__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

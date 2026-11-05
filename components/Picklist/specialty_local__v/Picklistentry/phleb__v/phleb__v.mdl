@@ -1,0 +1,7 @@
+Picklistentry phleb__v (
+   value('Phlebology'),
+   order(1529),
+   active(true),
+   controlling_entries('lv__v',
+         'us__v')
+);

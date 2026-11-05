@@ -1,0 +1,6 @@
+Message country_lookup_validation__v (
+   label(),
+   active(true),
+   default_value('Invalid country code ''{countryCode}'' specified for country__v : This country code does not resolve to a valid and active country record'),
+   system_managed(false)
+);

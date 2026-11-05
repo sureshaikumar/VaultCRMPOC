@@ -1,0 +1,6 @@
+Picklistentry am-su__v (
+   value('Syunik'''),
+   order(76),
+   active(true),
+   controlling_entries('am__v')
+);

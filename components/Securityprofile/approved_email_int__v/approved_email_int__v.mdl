@@ -1,0 +1,6 @@
+RECREATE Securityprofile approved_email_int__v (
+   label('Approved Email Integration'),
+   active(true),
+   description(),
+   permission_sets('approved_email_integration_permission_set__v')
+);

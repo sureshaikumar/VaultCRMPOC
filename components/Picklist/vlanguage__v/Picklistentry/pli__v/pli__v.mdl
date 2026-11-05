@@ -1,0 +1,5 @@
+Picklistentry pli__v (
+   value('Pali'),
+   order(251),
+   active(false)
+);

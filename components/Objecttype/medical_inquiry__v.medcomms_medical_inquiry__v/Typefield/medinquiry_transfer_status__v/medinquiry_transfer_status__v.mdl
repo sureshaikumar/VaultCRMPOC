@@ -1,0 +1,4 @@
+Typefield medinquiry_transfer_status__v (
+   source('standard'),
+   required(false)
+);

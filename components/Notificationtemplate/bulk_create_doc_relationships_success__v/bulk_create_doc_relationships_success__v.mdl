@@ -1,0 +1,19 @@
+RECREATE Notificationtemplate bulk_create_doc_relationships_success__v (
+   label('Bulk Create Document Relationships Success'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('[SUCCESS] - Bulk Create Document Relationship Job Notification'),
+   notification('Change Summary:
+<BLOCKQUOTE>&nbsp&nbsp&nbsp&nbspCreate document relationships</BLOCKQUOTE>
+<br>
+<p>Successfully created ${numDocumentRelationshipsCreated} document relationships</p>
+<br>
+<p>Unable to create ${numDocumentRelationshipsFailed} document relationships</p>'),
+   email_body('<b>Change Summary:</b>
+<BLOCKQUOTE>Created ${numDocumentRelationshipsCreated} document relationships</BLOCKQUOTE>
+<p>${documentRelationshipErrors}</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

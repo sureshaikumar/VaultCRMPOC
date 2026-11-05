@@ -1,0 +1,6 @@
+Message repurchase_canceled_target__v (
+   label(),
+   active(true),
+   default_value('You cannot repurchase a target that has not been previously canceled.'),
+   system_managed(false)
+);

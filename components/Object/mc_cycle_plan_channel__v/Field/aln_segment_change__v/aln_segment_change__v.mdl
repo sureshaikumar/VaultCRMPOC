@@ -1,0 +1,18 @@
+Field aln_segment_change__v (
+   label('Segment Change'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Indicates if originating channel group differs with that from the source cycle plan. Applicable if cycle was cloned.'),
+   list_column(false),
+   order(62),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message invalid_connection_file_message__v (
+   label(),
+   active(true),
+   default_value('Please check that the file you''re uploading originated from your desired X-Pages Studio.'),
+   system_managed(false)
+);

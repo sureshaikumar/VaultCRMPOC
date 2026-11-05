@@ -1,0 +1,22 @@
+RECREATE Job ai_reporting_token_usage_table_job__v (
+   active(true),
+   active_after_clone(true),
+   auto_complete_workflow_step(false),
+   day_of_month(1),
+   hourly_interval(),
+   label('AI Reporting Token Usage Table Job'),
+   month_repeat_type('dayOfTheMonth'),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('monthly'),
+   Sdkbatchjobaction(@Sdkbatchjobaction/ai_reporting_token_usage_table_job__v.mdl),
+   time('2:00'),
+   timezone('GMT'),
+   trigger_date(),
+   type('Jobtype.sdk_batch_job__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

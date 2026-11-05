@@ -1,0 +1,4 @@
+Typefield section_display_order__v (
+   source('custom'),
+   required(false)
+);

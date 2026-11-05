@@ -1,0 +1,4 @@
+Typefield exact_search_setting__v (
+   source('custom'),
+   required(false)
+);

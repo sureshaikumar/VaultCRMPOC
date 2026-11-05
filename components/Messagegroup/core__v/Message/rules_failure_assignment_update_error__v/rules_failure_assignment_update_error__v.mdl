@@ -1,0 +1,6 @@
+Message rules_failure_assignment_update_error__v (
+   label(),
+   active(true),
+   default_value('Could not update assignment of ${account_id} to ${territory_id}: ${error}'),
+   system_managed(false)
+);

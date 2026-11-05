@@ -1,0 +1,5 @@
+Picklistentry no_purchase__v (
+   value('No Purchase'),
+   order(2),
+   active(true)
+);

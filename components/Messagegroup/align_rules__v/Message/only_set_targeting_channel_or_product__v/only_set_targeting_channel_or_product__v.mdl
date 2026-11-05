@@ -1,0 +1,6 @@
+Message only_set_targeting_channel_or_product__v (
+   label(),
+   active(true),
+   default_value('Account criteria can only belong to a targeting channel or a targeting product.'),
+   system_managed(false)
+);

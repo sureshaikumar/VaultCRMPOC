@@ -1,0 +1,17 @@
+Field sent_to_employee_datetime__v (
+   label('Sent to Rep Date/Time'),
+   type('DateTime'),
+   active(true),
+   description('Date/Time that the Coach submitted the report by sending it to the Employee.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

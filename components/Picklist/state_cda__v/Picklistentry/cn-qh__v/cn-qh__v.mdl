@@ -1,0 +1,6 @@
+Picklistentry cn-qh__v (
+   value('Qinghai Sheng'),
+   order(715),
+   active(true),
+   controlling_entries('cn__v')
+);

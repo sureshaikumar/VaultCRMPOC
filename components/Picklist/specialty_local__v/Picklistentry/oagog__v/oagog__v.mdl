@@ -1,0 +1,6 @@
+Picklistentry oagog__v (
+   value('Obstetrics and Gynecology Obstetrics-Gynecology Social'),
+   order(1086),
+   active(true),
+   controlling_entries('id__v')
+);

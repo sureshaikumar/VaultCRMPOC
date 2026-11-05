@@ -1,0 +1,6 @@
+Picklistentry cn-ah__v (
+   value('Anhui Sheng'),
+   order(693),
+   active(true),
+   controlling_entries('cn__v')
+);

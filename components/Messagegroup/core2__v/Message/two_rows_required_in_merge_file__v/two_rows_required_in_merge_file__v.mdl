@@ -1,0 +1,6 @@
+Message two_rows_required_in_merge_file__v (
+   label(),
+   active(true),
+   default_value('${file_name} must include exactly two rows: merge fields and corresponding tokens'),
+   system_managed(false)
+);

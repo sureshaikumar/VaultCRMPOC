@@ -1,0 +1,6 @@
+Message decisions__v (
+   label(),
+   active(true),
+   default_value('Decisions'),
+   system_managed(false)
+);

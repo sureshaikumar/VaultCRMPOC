@@ -1,0 +1,4 @@
+Typefield secure_email_body__v (
+   source('standard'),
+   required(false)
+);

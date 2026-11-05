@@ -1,0 +1,6 @@
+Message select_email_subheader__v (
+   label(),
+   active(true),
+   default_value('Select to view all template options'),
+   system_managed(false)
+);

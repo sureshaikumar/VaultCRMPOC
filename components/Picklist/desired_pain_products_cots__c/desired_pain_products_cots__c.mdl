@@ -1,0 +1,8 @@
+RECREATE Picklist desired_pain_products_cots__c (
+   label('Desired Pain Products COTs?'),
+   active(true),
+   Picklistentry(@Picklistentry/asc__c.mdl),
+   Picklistentry(@Picklistentry/acute_care_hospital__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

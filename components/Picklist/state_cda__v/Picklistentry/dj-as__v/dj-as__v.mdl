@@ -1,0 +1,6 @@
+Picklistentry dj-as__v (
+   value('Ali Sabieh'),
+   order(920),
+   active(true),
+   controlling_entries('dj__v')
+);

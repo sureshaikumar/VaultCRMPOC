@@ -1,0 +1,17 @@
+Field reviewer_notes__v (
+   label('Reviewer Notes'),
+   type('RichText'),
+   active(true),
+   description('Contains notes describing the Reviewer Determination'),
+   required(false),
+   max_length(32000),
+   help_content('Enter notes describing the Reviewer Determination.'),
+   list_column(false),
+   order(52),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

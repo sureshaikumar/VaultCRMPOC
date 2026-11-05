@@ -1,0 +1,17 @@
+Field override_primary_validation__v (
+   label('Override Primary Validation'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Used by the transfer process to bypass primary assignment handling validation.'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

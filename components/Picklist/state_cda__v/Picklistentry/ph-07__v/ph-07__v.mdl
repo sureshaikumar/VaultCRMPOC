@@ -1,0 +1,6 @@
+Picklistentry ph-07__v (
+   value('Central Visayas (Region VII)'),
+   order(3522),
+   active(true),
+   controlling_entries('ph__v')
+);

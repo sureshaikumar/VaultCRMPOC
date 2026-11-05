@@ -1,0 +1,6 @@
+Picklistentry ie-wx__v (
+   value('Wexford'),
+   order(1990),
+   active(true),
+   controlling_entries('ie__v')
+);

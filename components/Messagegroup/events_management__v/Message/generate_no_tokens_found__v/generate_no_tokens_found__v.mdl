@@ -1,0 +1,6 @@
+Message generate_no_tokens_found__v (
+   label(),
+   active(true),
+   default_value('No tokens found.  Please contact your system administrator.'),
+   system_managed(false)
+);

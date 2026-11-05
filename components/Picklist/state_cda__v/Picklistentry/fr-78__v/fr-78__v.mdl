@@ -1,0 +1,6 @@
+Picklistentry fr-78__v (
+   value('Yvelines'),
+   order(1396),
+   active(true),
+   controlling_entries('fr__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry th-40__v (
+   value('Khon Kaen'),
+   order(4356),
+   active(true),
+   controlling_entries('th__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry america_santarem__sys (
+   value('(GMT-03:00) Brasilia Time (America/Santarem)'),
+   order(120),
+   active(true)
+);

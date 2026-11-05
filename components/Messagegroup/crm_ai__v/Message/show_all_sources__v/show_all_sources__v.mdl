@@ -1,0 +1,6 @@
+Message show_all_sources__v (
+   label(),
+   active(true),
+   default_value('Show All Sources (${Count})'),
+   system_managed(false)
+);

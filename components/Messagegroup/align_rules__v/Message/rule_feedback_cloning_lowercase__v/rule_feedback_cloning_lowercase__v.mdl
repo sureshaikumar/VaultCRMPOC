@@ -1,0 +1,6 @@
+Message rule_feedback_cloning_lowercase__v (
+   label(),
+   active(true),
+   default_value('feedback cloning'),
+   system_managed(false)
+);

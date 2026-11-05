@@ -1,0 +1,6 @@
+Message did_not_click__v (
+   label(),
+   active(true),
+   default_value('Did not click'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field multi_topic_enabled__v (
+   label('Multiple Topics Enabled'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether this event has multiple topics enabled.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(129),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

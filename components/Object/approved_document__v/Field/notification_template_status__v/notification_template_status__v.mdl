@@ -1,0 +1,19 @@
+Field notification_template_status__v (
+   label('Notification Template Status'),
+   type('Picklist'),
+   active(true),
+   description('Lookup to the Approved Document Status of the Secure Message Notification Template that will be displayed to HCPs receiving this email'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(66),
+   multi_value(false),
+   picklist('Picklist.approved_document_status__v'),
+   no_copy(false),
+   lookup_relationship_name('notification_template__vr'),
+   lookup_source_field('approved_document_status__v'),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

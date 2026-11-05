@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.brand_level_rule_product_type_check__v (
+   label('Brand Level Rule Product Type Check'),
+   active(true),
+   expression('Not(
+     And(
+         object_type__vr.api_name__v = ''brand_level_rule__v'',
+         Not(product__vr.product_type__v = ''detail__v'')
+    )
+)'),
+   description('Only product type of ''Detail'' is allowed'),
+   error_message('Only product type of ''Detail'' is allowed'),
+   error_location('product__v')
+);

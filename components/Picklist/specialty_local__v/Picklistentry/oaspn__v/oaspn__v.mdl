@@ -1,0 +1,6 @@
+Picklistentry oaspn__v (
+   value('Ophthalmology and Surgery'),
+   order(1140),
+   active(true),
+   controlling_entries('kw__v')
+);

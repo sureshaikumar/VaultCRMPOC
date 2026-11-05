@@ -1,0 +1,4 @@
+Typefield acs_connection_string__v (
+   source('standard'),
+   required(false)
+);

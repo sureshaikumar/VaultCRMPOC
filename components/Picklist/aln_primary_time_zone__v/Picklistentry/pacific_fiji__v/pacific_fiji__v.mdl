@@ -1,0 +1,5 @@
+Picklistentry pacific_fiji__v (
+   value('Pacific/Fiji'),
+   order(81),
+   active(true)
+);

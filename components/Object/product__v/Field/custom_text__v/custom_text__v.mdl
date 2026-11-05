@@ -1,0 +1,17 @@
+Field custom_text__v (
+   label('Custom Text'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used to display a custom text field for the specified product on Sample Transactions and Call Samples.'),
+   list_column(false),
+   order(59),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

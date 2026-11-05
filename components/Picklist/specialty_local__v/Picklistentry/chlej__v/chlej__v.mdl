@@ -1,0 +1,6 @@
+Picklistentry chlej__v (
+   value('Clinical Hepatology'),
+   order(228),
+   active(true),
+   controlling_entries('ke__v')
+);

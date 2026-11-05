@@ -1,0 +1,6 @@
+Message choose_a_target__v (
+   label(),
+   active(true),
+   default_value('Choose a target'),
+   system_managed(false)
+);

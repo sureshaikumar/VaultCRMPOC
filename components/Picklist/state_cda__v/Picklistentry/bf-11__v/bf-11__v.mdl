@@ -1,0 +1,6 @@
+Picklistentry bf-11__v (
+   value('Plateau-Central'),
+   order(325),
+   active(true),
+   controlling_entries('bf__v')
+);

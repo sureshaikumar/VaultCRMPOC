@@ -1,0 +1,10 @@
+Vsmvalue chw__v (
+   label('CHW'),
+   active(true),
+   description('Use when recording monetary amounts in the WIR Franc, a complementary currency used by the Swiss WIR Bank for business transactions.'),
+   synonyms('WIR Franc',
+         'Swiss WIR Franc',
+         'CHW complementary currency'),
+   target('chw__sys'),
+   target_label('CHW')
+);

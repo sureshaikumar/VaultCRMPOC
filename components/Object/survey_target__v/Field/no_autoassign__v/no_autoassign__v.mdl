@@ -1,0 +1,18 @@
+Field no_autoassign__v (
+   label('Don''t change owner on publish'),
+   type('Boolean'),
+   active(true),
+   description('If this field is checked, the publishing process will not change the owner of the record.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(24),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

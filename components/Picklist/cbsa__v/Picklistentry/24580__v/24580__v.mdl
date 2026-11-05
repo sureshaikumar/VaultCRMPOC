@@ -1,0 +1,5 @@
+Picklistentry 24580__v (
+   value('Green Bay, WI Metropolitan Statistical Area'),
+   order(487),
+   active(true)
+);

@@ -1,0 +1,15 @@
+Subtab business_accounts__c (
+   active(true),
+   all_view_label('All Business Accounts'),
+   enable_global_search(false),
+   filter_criteria('[{"filter":"ispersonaccount__v=[\"false\"]","applyOnCreate":"false"}]'),
+   global_search_placeholder(''),
+   label('Business Accounts'),
+   modal_create_record(true),
+   my_view_label('My Business Accounts'),
+   object('account__v'),
+   order(0),
+   parent('account_management__c'),
+   prevent_create(false),
+   recent_view_label('Recent Business Accounts')
+);

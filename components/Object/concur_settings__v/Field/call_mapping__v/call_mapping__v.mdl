@@ -1,0 +1,19 @@
+Field call_mapping__v (
+   label('Call Mapping'),
+   type('String'),
+   active(true),
+   description('A configurable field for mapping a Salesforce field to a Concur field at the Call level.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

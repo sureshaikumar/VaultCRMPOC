@@ -1,0 +1,6 @@
+Message field_mapping_product_group_fields__v (
+   label(),
+   active(true),
+   default_value('Product Group Fields'),
+   system_managed(false)
+);

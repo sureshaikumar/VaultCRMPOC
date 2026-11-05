@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The unique identifying name of the package component record. Use this field to search for or filter specific package components by their display name.'),
+   example_values(),
+   synonyms('component name',
+         'package component name',
+         'title'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,18 @@
+RECREATE Objectvalidation pricing_rule__v.list_price_rule_type_check__v (
+   label('List Price Rule Type Check'),
+   active(true),
+   expression('Not(
+     And(
+         object_type__vr.api_name__v = ''list_price_rule__v'',
+         Not(
+             Or(
+                 product__vr.product_type__v = ''order__v'',
+                  product__vr.product_type__v = ''kit_item__v''
+            )
+        )
+    )
+)'),
+   description('For List Price Rule, only product type of ''Order'' and ''Kit Item'' is allowed'),
+   error_message('For List Price Rule, only product type of ''Order'' and ''Kit Item'' is allowed'),
+   error_location('product__v')
+);

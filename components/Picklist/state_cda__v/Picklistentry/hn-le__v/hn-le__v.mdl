@@ -1,0 +1,6 @@
+Picklistentry hn-le__v (
+   value('Lempira'),
+   order(1835),
+   active(true),
+   controlling_entries('hn__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction business_event_task__v.cancel_task__v (
+   label('Cancel Task'),
+   description('Executing this action cancels the parent Business Event Target and all remaining open Business Event Tasks associated with the target.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.eppvpi.actions.BusinessEventTaskCancelTaskAction'),
+   active(true),
+   available_all_states(true)
+);

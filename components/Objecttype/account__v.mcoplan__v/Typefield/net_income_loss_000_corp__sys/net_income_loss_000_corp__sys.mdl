@@ -1,0 +1,4 @@
+Typefield net_income_loss_000_corp__sys (
+   source('custom'),
+   required(false)
+);

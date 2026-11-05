@@ -1,0 +1,6 @@
+Picklistentry dty_shared_resource__sys (
+   value('Shared Resource'),
+   order(153),
+   active(true),
+   controlling_entries('dlc_crm_content__sys')
+);

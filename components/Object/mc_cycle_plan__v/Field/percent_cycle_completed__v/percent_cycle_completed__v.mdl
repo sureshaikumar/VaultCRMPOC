@@ -1,0 +1,23 @@
+Field percent_cycle_completed__v (
+   label('% Cycle Completed'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description('Indicates the amount of time as a percent that has elapsed from the Start Date the Cycle Plan. The value will not exceed 100%.'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(2),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

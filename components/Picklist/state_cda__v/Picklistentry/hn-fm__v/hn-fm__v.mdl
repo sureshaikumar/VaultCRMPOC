@@ -1,0 +1,6 @@
+Picklistentry hn-fm__v (
+   value('Francisco Morazán'),
+   order(1831),
+   active(true),
+   controlling_entries('hn__v')
+);

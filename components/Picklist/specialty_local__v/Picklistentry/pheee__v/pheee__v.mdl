@@ -1,0 +1,7 @@
+Picklistentry pheee__v (
+   value('Pediatric Hepatology'),
+   order(1390),
+   active(true),
+   controlling_entries('in__v',
+         'us__v')
+);

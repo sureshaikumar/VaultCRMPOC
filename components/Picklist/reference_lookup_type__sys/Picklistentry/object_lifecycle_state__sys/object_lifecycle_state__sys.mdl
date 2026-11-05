@@ -1,0 +1,5 @@
+Picklistentry object_lifecycle_state__sys (
+   value('Object Lifecycle State'),
+   order(3),
+   active(true)
+);

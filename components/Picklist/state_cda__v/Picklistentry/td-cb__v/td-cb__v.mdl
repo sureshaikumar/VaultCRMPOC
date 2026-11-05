@@ -1,0 +1,6 @@
+Picklistentry td-cb__v (
+   value('Shārī Bāqirmī'),
+   order(4303),
+   active(true),
+   controlling_entries('td__v')
+);

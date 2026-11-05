@@ -1,0 +1,6 @@
+Message third_party_cookies_error_text__v (
+   label(),
+   active(true),
+   default_value('To display the Align content on this page, you will need to change your browser privacy settings to allow third-party cookies.'),
+   system_managed(false)
+);

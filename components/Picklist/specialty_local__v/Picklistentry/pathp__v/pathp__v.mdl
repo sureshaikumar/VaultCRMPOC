@@ -1,0 +1,8 @@
+Picklistentry pathp__v (
+   value('Pharmacology and Toxicology'),
+   order(1520),
+   active(true),
+   controlling_entries('at__v',
+         'de__v',
+         'it__v')
+);

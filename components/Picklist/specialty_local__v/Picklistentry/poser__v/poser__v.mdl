@@ -1,0 +1,6 @@
+Picklistentry poser__v (
+   value('Pediatric Orthopedic Surgery'),
+   order(1430),
+   active(true),
+   controlling_entries('pk__v')
+);

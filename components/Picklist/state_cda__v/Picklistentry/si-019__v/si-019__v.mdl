@@ -1,0 +1,6 @@
+Picklistentry si-019__v (
+   value('Divača'),
+   order(3993),
+   active(true),
+   controlling_entries('si__v')
+);

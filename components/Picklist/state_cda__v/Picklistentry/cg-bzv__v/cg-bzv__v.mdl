@@ -1,0 +1,6 @@
+Picklistentry cg-bzv__v (
+   value('Brazzaville'),
+   order(626),
+   active(true),
+   controlling_entries('cg__v')
+);

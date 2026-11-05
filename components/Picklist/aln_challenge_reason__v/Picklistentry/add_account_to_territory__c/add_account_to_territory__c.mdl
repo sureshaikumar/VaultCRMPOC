@@ -1,0 +1,5 @@
+Picklistentry add_account_to_territory__c (
+   value('Add Account to Territory (deprecated)'),
+   order(14),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Message associated_cases__v (
+   label(),
+   active(true),
+   default_value('Associated Cases'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message be_right_back__v (
+   label(),
+   active(true),
+   default_value('Be Right Back'),
+   system_managed(false)
+);

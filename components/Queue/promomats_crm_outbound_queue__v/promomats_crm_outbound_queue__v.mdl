@@ -1,0 +1,13 @@
+RECREATE Queue promomats_crm_outbound_queue__v (
+   label('PromoMats-CRM Outbound Queue'),
+   active(true),
+   description(),
+   message_delivery_event_handler(),
+   message_delivery_event_handler_user(''),
+   message_processor(),
+   message_processor_user(),
+   rollback_on_error(true),
+   sequential(false),
+   type('outbound'),
+   Queueconnection(@Queueconnection/promomats_crm_oqc__v.mdl)
+);

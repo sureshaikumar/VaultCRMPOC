@@ -1,0 +1,6 @@
+Message error_starting_call_report__v (
+   label(),
+   active(true),
+   default_value('Error Starting Call Report'),
+   system_managed(false)
+);

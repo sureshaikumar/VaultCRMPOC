@@ -1,0 +1,6 @@
+Message invalid_search_logic__v (
+   label(),
+   active(true),
+   default_value('Invalid Search Logic'),
+   system_managed(false)
+);

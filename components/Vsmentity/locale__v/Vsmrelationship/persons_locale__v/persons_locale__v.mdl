@@ -1,0 +1,14 @@
+Vsmrelationship persons_locale__v (
+   label('Persons Locale'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('The person records currently assigned to this locale, representing all individuals whose locale is set to this value. Use this to find all persons belonging to a specific locale (e.g., filter by persons_locale__sysr.name__v).'),
+   join_object(),
+   synonyms('persons',
+         'people',
+         'users with this locale',
+         'assigned persons'),
+   target('persons_locale__sysr'),
+   target_label('Persons'),
+   target_object('person__sys')
+);

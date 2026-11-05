@@ -1,0 +1,6 @@
+Picklistentry gb-vgl__v (
+   value('Vale of Glamorgan'),
+   order(1645),
+   active(true),
+   controlling_entries('gb__v')
+);

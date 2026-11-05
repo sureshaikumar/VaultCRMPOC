@@ -1,0 +1,8 @@
+Tabcollectionitem engage_setup_tab__v (
+   label(),
+   active(true),
+   tabs(),
+   order(3),
+   tab('Tab.engage_setup_tab__v'),
+   type('Tab')
+);

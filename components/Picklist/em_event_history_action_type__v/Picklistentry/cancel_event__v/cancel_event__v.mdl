@@ -1,0 +1,5 @@
+Picklistentry cancel_event__v (
+   value('Cancel Event'),
+   order(3),
+   active(true)
+);

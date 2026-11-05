@@ -1,0 +1,6 @@
+Message start_remote_meeting__v (
+   label(),
+   active(true),
+   default_value('Start Meeting'),
+   system_managed(false)
+);

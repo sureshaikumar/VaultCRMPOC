@@ -1,0 +1,6 @@
+Picklistentry ru-spe__v (
+   value('Sankt-Peterburg'),
+   order(3853),
+   active(true),
+   controlling_entries('ru__v')
+);

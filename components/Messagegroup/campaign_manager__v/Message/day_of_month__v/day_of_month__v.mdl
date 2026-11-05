@@ -1,0 +1,6 @@
+Message day_of_month__v (
+   label(),
+   active(true),
+   default_value('Day of Month'),
+   system_managed(false)
+);

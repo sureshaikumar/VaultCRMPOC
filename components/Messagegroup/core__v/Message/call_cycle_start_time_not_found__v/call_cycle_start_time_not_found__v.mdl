@@ -1,0 +1,6 @@
+Message call_cycle_start_time_not_found__v (
+   label(),
+   active(true),
+   default_value('${call_cycle_entry} could not be created because ${call_datetime} does not correspond to an existing value in the ${call_cycle_entry} ${start_time} picklist.'),
+   system_managed(false)
+);

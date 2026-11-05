@@ -1,0 +1,5 @@
+Picklistentry cny__sys (
+   value('CNY'),
+   order(42),
+   active(true)
+);

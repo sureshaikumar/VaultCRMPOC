@@ -1,0 +1,5 @@
+Picklistentry america_ojinaga__sys (
+   value('(GMT-06:00) Central Standard Time (America/Ojinaga)'),
+   order(48),
+   active(true)
+);

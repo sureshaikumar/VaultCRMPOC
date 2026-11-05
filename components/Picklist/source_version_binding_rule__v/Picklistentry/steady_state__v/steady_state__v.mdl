@@ -1,0 +1,5 @@
+Picklistentry steady_state__v (
+   value('Latest Steady State version'),
+   order(1),
+   active(true)
+);

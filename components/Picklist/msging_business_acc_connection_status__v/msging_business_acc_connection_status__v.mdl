@@ -1,0 +1,14 @@
+RECREATE Picklist msging_business_acc_connection_status__v (
+   label('Connection Status'),
+   active(true),
+   Picklistentry(@Picklistentry/connected__v.mdl),
+   Picklistentry(@Picklistentry/disconnected__v.mdl),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/provisioning__v.mdl),
+   Picklistentry(@Picklistentry/disconnecting__v.mdl),
+   Picklistentry(@Picklistentry/error__v.mdl),
+   Picklistentry(@Picklistentry/error_disconnect__v.mdl),
+   Picklistentry(@Picklistentry/expired__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

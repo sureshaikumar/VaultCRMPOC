@@ -1,0 +1,6 @@
+Picklistentry fr-88__v (
+   value('Vosges'),
+   order(1406),
+   active(true),
+   controlling_entries('fr__v')
+);

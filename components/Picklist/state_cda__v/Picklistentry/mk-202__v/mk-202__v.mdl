@@ -1,0 +1,6 @@
+Picklistentry mk-202__v (
+   value('Vinica'),
+   order(2974),
+   active(true),
+   controlling_entries('mk__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ly-nq__v (
+   value('An Nuqaţ al Khams'),
+   order(2758),
+   active(true),
+   controlling_entries('ly__v')
+);

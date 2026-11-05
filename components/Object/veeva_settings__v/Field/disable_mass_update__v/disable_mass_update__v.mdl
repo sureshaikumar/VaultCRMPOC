@@ -1,0 +1,18 @@
+Field disable_mass_update__v (
+   label('DISABLE_MASS_UPDATE'),
+   type('Boolean'),
+   active(true),
+   description('Prevents the display of the Mass Update button in the My Accounts page.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(93),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

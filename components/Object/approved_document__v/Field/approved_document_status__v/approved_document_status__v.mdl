@@ -1,0 +1,18 @@
+Field approved_document_status__v (
+   label('Approved Document Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Status from Vault of the document.'),
+   list_column(false),
+   order(39),
+   multi_value(false),
+   picklist('Picklist.approved_document_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

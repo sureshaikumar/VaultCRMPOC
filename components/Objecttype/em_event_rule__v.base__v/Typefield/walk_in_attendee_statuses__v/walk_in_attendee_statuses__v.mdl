@@ -1,0 +1,4 @@
+Typefield walk_in_attendee_statuses__v (
+   source('standard'),
+   required(false)
+);

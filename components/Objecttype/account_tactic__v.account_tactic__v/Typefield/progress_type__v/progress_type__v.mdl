@@ -1,0 +1,6 @@
+Typefield progress_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_tactic_progress_type__v.call_objective__v',
+         'Picklist.account_tactic_progress_type__v.manual__v')
+);

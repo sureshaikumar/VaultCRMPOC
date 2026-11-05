@@ -1,0 +1,6 @@
+Message filler_find_that_for_you__v (
+   label(),
+   active(true),
+   default_value('Let me find that for you...'),
+   system_managed(false)
+);

@@ -1,0 +1,18 @@
+Field mailing__v (
+   label('Mailing'),
+   type('Boolean'),
+   active(true),
+   description('Checkbox that determines if an Address serves as a mailing address.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(45),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

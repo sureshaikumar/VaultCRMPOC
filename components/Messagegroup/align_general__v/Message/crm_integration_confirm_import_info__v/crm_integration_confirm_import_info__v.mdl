@@ -1,0 +1,6 @@
+Message crm_integration_confirm_import_info__v (
+   label(),
+   active(true),
+   default_value('Data will be imported from the following CRM objects:'),
+   system_managed(false)
+);

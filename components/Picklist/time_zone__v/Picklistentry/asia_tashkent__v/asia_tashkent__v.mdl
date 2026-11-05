@@ -1,0 +1,5 @@
+Picklistentry asia_tashkent__v (
+   value('Uzbekistan Time'),
+   order(30),
+   active(true)
+);

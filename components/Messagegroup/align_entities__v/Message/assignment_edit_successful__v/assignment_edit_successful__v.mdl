@@ -1,0 +1,6 @@
+Message assignment_edit_successful__v (
+   label(),
+   active(true),
+   default_value('Assignment edit completed for ${entity_name}'),
+   system_managed(false)
+);

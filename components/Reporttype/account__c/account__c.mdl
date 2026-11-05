@@ -1,0 +1,9 @@
+RECREATE Reporttype account__c (
+   label('Account'),
+   active(true),
+   description('Account'),
+   primary_object('account__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

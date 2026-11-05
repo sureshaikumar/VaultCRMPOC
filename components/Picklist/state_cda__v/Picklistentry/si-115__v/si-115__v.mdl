@@ -1,0 +1,6 @@
+Picklistentry si-115__v (
+   value('Starše'),
+   order(4089),
+   active(true),
+   controlling_entries('si__v')
+);

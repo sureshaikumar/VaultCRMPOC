@@ -1,0 +1,4 @@
+Typefield payment_brand_rule__v (
+   source('standard'),
+   required(false)
+);

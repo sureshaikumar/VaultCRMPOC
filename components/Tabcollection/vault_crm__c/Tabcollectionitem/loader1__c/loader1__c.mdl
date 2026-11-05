@@ -1,0 +1,8 @@
+Tabcollectionitem loader1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(7),
+   tab('Tab.vault_loader__v'),
+   type('Tab')
+);

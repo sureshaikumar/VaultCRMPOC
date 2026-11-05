@@ -1,0 +1,6 @@
+Message activate_now_journey_select_end__v (
+   label(),
+   active(true),
+   default_value('Select when the journey will end'),
+   system_managed(false)
+);

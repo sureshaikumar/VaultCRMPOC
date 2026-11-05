@@ -1,0 +1,6 @@
+Message unique_product_priority__v (
+   label(),
+   active(true),
+   default_value('Targeting product priority must be unique within the same targeting channel and MC Cycle Product combination.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry lgxge__v (
+   value('Laboratory Genetics and Genomics'),
+   order(839),
+   active(true),
+   controlling_entries('ae__v')
+);

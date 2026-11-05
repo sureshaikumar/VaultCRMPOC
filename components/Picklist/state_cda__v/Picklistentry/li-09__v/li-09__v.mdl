@@ -1,0 +1,6 @@
+Picklistentry li-09__v (
+   value('Triesen'),
+   order(2557),
+   active(true),
+   controlling_entries('li__v')
+);

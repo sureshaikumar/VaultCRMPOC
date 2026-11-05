@@ -1,0 +1,6 @@
+Message time__v (
+   label(),
+   active(true),
+   default_value('Time'),
+   system_managed(false)
+);

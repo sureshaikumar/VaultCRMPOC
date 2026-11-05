@@ -1,0 +1,6 @@
+Typefield inventory_monitoring_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.inventory_monitoring_status__v.saved__v',
+         'Picklist.inventory_monitoring_status__v.submitted__v')
+);

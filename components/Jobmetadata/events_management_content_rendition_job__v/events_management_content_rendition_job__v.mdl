@@ -1,0 +1,10 @@
+RECREATE Jobmetadata events_management_content_rendition_job__v (
+   label('Event Management Content Rendition Job'),
+   active(true),
+   chunk_size(1),
+   description('This job is for Events Management Content Rendition'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.ContentRenditionJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

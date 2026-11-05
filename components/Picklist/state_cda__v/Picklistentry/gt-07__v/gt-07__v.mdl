@@ -1,0 +1,6 @@
+Picklistentry gt-07__v (
+   value('Sololá'),
+   order(1786),
+   active(true),
+   controlling_entries('gt__v')
+);

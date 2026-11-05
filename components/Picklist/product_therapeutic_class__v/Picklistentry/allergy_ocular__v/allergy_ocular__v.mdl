@@ -1,0 +1,5 @@
+Picklistentry allergy_ocular__v (
+   value('Allergy (Ocular)'),
+   order(79),
+   active(true)
+);

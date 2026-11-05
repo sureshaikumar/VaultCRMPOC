@@ -1,0 +1,5 @@
+Picklistentry gwp__sys (
+   value('GWP'),
+   order(76),
+   active(true)
+);

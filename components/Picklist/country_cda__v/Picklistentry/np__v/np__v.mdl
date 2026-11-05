@@ -1,0 +1,5 @@
+Picklistentry np__v (
+   value('Nepal'),
+   order(155),
+   active(true)
+);

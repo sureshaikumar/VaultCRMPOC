@@ -1,0 +1,6 @@
+Picklistentry pappa__v (
+   value('Paediatric and Perinatal Pathology'),
+   order(1249),
+   active(true),
+   controlling_entries('gb__v')
+);

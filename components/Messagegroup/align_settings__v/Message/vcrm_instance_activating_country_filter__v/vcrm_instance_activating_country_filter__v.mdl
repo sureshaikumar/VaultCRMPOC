@@ -1,0 +1,6 @@
+Message vcrm_instance_activating_country_filter__v (
+   label(),
+   active(true),
+   default_value('Activating Country'),
+   system_managed(false)
+);

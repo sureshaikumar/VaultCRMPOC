@@ -1,0 +1,6 @@
+Message product_preference_for_msging_error__v (
+   label(),
+   active(true),
+   default_value('Product Preference for Messaging channel should always be All Lines.'),
+   system_managed(false)
+);

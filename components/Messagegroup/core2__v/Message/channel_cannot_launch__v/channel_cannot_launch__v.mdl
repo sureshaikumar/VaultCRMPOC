@@ -1,0 +1,6 @@
+Message channel_cannot_launch__v (
+   label(),
+   active(true),
+   default_value('Channel cannot be launched. Please contact your administrator.'),
+   system_managed(false)
+);

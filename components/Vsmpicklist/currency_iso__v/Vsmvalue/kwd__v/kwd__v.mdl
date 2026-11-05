@@ -1,0 +1,10 @@
+Vsmvalue kwd__v (
+   label('KWD'),
+   active(true),
+   description('The Kuwaiti Dinar (KWD), the official currency of Kuwait, used for transactions, pricing, and financial records involving Kuwaiti markets.'),
+   synonyms('Kuwaiti dinar',
+         'Kuwait dinar',
+         'KWD'),
+   target('kwd__sys'),
+   target_label('KWD')
+);

@@ -1,0 +1,4 @@
+Typefield list_amount__v (
+   source('standard'),
+   required(false)
+);

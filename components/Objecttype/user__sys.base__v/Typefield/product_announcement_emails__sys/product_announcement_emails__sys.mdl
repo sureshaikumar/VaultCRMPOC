@@ -1,0 +1,4 @@
+Typefield product_announcement_emails__sys (
+   source('standard'),
+   required(false)
+);

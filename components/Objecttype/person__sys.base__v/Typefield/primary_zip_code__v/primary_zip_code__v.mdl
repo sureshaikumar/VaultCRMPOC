@@ -1,0 +1,4 @@
+Typefield primary_zip_code__v (
+   source('standard'),
+   required(false)
+);

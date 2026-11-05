@@ -1,0 +1,6 @@
+Picklistentry bf-lor__v (
+   value('Loroum'),
+   order(350),
+   active(true),
+   controlling_entries('bf__v')
+);

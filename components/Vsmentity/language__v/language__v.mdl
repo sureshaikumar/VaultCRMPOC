@@ -1,0 +1,18 @@
+RECREATE Vsmentity language__v (
+   label('Language'),
+   active(true),
+   description('Represents a language supported within the Vault system. Language records are used to define and manage multilingual content, enabling localization of labels, picklist values, and other configurable text across the platform. This system object is typically referenced by other objects and configurations to associate content with a specific language.'),
+   synonyms('lang',
+      'locale',
+      'languages'),
+   target('Object.language__sys'),
+   target_label('Language'),
+   Vsmfield(@Vsmfield/admin_key__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmrelationship(@Vsmrelationship/definitions__v.mdl),
+   Vsmrelationship(@Vsmrelationship/glossary_event__v.mdl),
+   Vsmrelationship(@Vsmrelationship/locales__v.mdl),
+   Vsmrelationship(@Vsmrelationship/person_prior_language__v.mdl),
+   Vsmrelationship(@Vsmrelationship/persons_language__v.mdl),
+   Vsmrelationship(@Vsmrelationship/users_language__v.mdl)
+);

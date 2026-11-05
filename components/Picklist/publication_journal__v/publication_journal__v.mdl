@@ -1,0 +1,9 @@
+RECREATE Picklist publication_journal__v (
+   label('Journal'),
+   active(true),
+   Picklistentry(@Picklistentry/jama__v.mdl),
+   Picklistentry(@Picklistentry/webmd__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message start_date__v (
+   label(),
+   active(true),
+   default_value('Start Date'),
+   system_managed(false)
+);

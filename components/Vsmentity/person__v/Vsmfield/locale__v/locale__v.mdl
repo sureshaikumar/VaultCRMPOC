@@ -1,0 +1,13 @@
+Vsmfield locale__v (
+   label('Locale'),
+   active(true),
+   description('The person''s locale setting, set either manually, or based on User, which determines the region of the individual.'),
+   example_values(),
+   synonyms('region',
+         'regional setting',
+         'country locale'),
+   target('locale__sys'),
+   target_label('Locale'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

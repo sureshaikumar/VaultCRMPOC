@@ -1,0 +1,6 @@
+Message concur_medical_event_fields__v (
+   label(),
+   active(true),
+   default_value('Medical Event Field Mappings'),
+   system_managed(false)
+);

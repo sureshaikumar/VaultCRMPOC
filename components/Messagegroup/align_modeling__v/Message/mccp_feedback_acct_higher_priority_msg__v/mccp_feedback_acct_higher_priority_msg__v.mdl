@@ -1,0 +1,6 @@
+Message mccp_feedback_acct_higher_priority_msg__v (
+   label(),
+   active(true),
+   default_value('This account has been claimed by a territory from a higher priority field force.'),
+   system_managed(false)
+);

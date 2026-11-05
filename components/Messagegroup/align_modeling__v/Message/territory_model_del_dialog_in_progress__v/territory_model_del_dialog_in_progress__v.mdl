@@ -1,0 +1,6 @@
+Message territory_model_del_dialog_in_progress__v (
+   label(),
+   active(true),
+   default_value('Deleting Territory Model data'),
+   system_managed(false)
+);

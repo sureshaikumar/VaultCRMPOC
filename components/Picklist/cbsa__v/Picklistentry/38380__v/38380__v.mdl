@@ -1,0 +1,5 @@
+Picklistentry 38380__v (
+   value('Plainview, TX Micropolitan Statistical Area'),
+   order(726),
+   active(true)
+);

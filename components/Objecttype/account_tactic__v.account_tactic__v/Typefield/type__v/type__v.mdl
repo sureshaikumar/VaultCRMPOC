@@ -1,0 +1,8 @@
+Typefield type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_tactic_type__v.co_promote__v',
+         'Picklist.account_tactic_type__v.contracting__v',
+         'Picklist.account_tactic_type__v.efficacy_promotion__v',
+         'Picklist.account_tactic_type__v.formulary_position__v')
+);

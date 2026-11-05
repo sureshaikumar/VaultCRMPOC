@@ -1,0 +1,14 @@
+RECREATE Page case_routing_page__v (
+   label('Case Routing'),
+   active(true),
+   client_distribution(),
+   default_client_code('case_routing_page__v'),
+   description('Routing page that opens the specified case in the Service Center or PatientCRM Case Tab or VOF Record Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.casemanagement.controls.CaseRoutingPageController'),
+   url_path_name('case')
+);

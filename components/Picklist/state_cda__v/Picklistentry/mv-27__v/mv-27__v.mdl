@@ -1,0 +1,6 @@
+Picklistentry mv-27__v (
+   value('North Huvadhu Atoll'),
+   order(3204),
+   active(true),
+   controlling_entries('mv__v')
+);

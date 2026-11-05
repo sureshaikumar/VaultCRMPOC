@@ -1,0 +1,6 @@
+Message cancel_schedule__v (
+   label(),
+   active(true),
+   default_value('Cancel Schedule'),
+   system_managed(false)
+);

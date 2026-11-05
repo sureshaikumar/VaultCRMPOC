@@ -1,0 +1,6 @@
+Message home_read_docs__v (
+   label(),
+   active(true),
+   default_value('Read the online {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry si-122__v (
+   value('Škofja Loka'),
+   order(4096),
+   active(true),
+   controlling_entries('si__v')
+);

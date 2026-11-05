@@ -1,0 +1,19 @@
+Field preferred_name__v (
+   label('Preferred Name'),
+   type('String'),
+   active(true),
+   description('Preferred name of professional (Person Account).'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(79),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

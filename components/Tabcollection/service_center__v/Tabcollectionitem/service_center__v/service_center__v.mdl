@@ -1,0 +1,8 @@
+Tabcollectionitem service_center__v (
+   label(),
+   active(true),
+   tabs(),
+   order(10),
+   tab('Tab.service_center__v'),
+   type('Tab')
+);

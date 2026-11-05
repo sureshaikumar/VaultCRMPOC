@@ -1,0 +1,11 @@
+RECREATE Pagelink account_edit_pagelink__v (
+   label('Account Edit'),
+   description('Redirect Account editing to Account App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/edit/{{Object.id}}?fieldParameters={{Related.fieldParameters}}'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.account__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.account_page__v')
+);

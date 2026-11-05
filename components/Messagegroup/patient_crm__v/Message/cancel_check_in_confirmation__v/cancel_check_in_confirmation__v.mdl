@@ -1,0 +1,6 @@
+Message cancel_check_in_confirmation__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to cancel this Check-In? Any information you captured will not be saved.'),
+   system_managed(false)
+);

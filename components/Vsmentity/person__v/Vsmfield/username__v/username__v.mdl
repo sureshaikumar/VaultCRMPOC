@@ -1,0 +1,14 @@
+Vsmfield username__v (
+   label('User Name'),
+   active(true),
+   description('The unique username used by the person to log into Vault. This is typically an email-format identifier and serves as the primary authentication credential.'),
+   example_values(),
+   synonyms('login',
+         'user login',
+         'login name',
+         'account name'),
+   target('username__sys'),
+   target_label('User Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

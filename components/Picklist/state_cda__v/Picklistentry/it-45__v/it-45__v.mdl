@@ -1,0 +1,6 @@
+Picklistentry it-45__v (
+   value('Emilia-Romagna'),
+   order(2162),
+   active(true),
+   controlling_entries('it__v')
+);

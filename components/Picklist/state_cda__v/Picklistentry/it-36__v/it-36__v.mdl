@@ -1,0 +1,6 @@
+Picklistentry it-36__v (
+   value('Friuli-Venezia Giulia'),
+   order(2160),
+   active(true),
+   controlling_entries('it__v')
+);

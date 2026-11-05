@@ -1,0 +1,6 @@
+Message filter_to_date__v (
+   label(),
+   active(true),
+   default_value('To ${date}'),
+   system_managed(false)
+);

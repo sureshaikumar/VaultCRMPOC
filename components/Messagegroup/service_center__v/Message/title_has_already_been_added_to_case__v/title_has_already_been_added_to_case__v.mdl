@@ -1,0 +1,6 @@
+Message title_has_already_been_added_to_case__v (
+   label(),
+   active(true),
+   default_value('${title} has already been added to a case'),
+   system_managed(false)
+);

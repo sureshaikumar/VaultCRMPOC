@@ -1,0 +1,6 @@
+Typefield attendance_type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.attendance_type__v.in_person__v',
+         'Picklist.attendance_type__v.virtual__v')
+);

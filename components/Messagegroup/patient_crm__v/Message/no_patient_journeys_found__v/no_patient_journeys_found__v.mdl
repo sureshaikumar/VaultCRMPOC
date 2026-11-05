@@ -1,0 +1,6 @@
+Message no_patient_journeys_found__v (
+   label(),
+   active(true),
+   default_value('No Patient Journey Found'),
+   system_managed(false)
+);

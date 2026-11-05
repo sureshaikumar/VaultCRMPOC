@@ -1,0 +1,6 @@
+Picklistentry gn-to__v (
+   value('Tougué'),
+   order(1754),
+   active(true),
+   controlling_entries('gn__v')
+);

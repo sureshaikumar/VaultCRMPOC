@@ -1,0 +1,6 @@
+Picklistentry kz-71__v (
+   value('Astana'),
+   order(2510),
+   active(true),
+   controlling_entries('kz__v')
+);

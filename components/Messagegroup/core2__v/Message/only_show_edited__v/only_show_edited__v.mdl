@@ -1,0 +1,6 @@
+Message only_show_edited__v (
+   label(),
+   active(true),
+   default_value('Only Show Edited'),
+   system_managed(false)
+);

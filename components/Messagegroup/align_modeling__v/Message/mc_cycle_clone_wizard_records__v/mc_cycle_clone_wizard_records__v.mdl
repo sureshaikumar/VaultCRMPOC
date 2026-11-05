@@ -1,0 +1,6 @@
+Message mc_cycle_clone_wizard_records__v (
+   label(),
+   active(true),
+   default_value('Records'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message prod_settings_not_update_model_settings__v (
+   label(),
+   active(true),
+   default_value('Changing Production Align Settings will not automatically update Model Align Settings. Model Align Settings will need to be updated to reflect Production.'),
+   system_managed(false)
+);

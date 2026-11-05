@@ -1,0 +1,6 @@
+Picklistentry km-a__v (
+   value('Andjouân (Anjwān)'),
+   order(2438),
+   active(true),
+   controlling_entries('km__v')
+);

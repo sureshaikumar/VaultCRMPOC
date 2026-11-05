@@ -1,0 +1,10 @@
+Vsmvalue xba__v (
+   label('XBA'),
+   active(true),
+   description('Applies when transactions reference the European Composite Unit (EURCO), a bond market unit used in European financial markets for composite currency calculations.'),
+   synonyms('European composite unit',
+         'EURCO',
+         'bond market unit'),
+   target('xba__sys'),
+   target_label('XBA')
+);

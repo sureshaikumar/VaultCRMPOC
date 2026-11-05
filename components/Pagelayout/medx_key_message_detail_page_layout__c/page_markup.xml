@@ -1,0 +1,34 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.medx_key_message__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="category__v" />
+            <vault:field reference="clm_id__v" />
+            <vault:field reference="clm_presentation__v" />
+            <vault:field reference="clm_presentation_id__v" />
+            <vault:field reference="clm_presentation_name__v" />
+            <vault:field reference="clm_presentation_version__v" />
+            <vault:field reference="date__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="display_order__v" />
+            <vault:field reference="duration__v" />
+            <vault:field reference="key_message__v" />
+            <vault:field reference="key_message_name__v" />
+            <vault:field reference="medx__v" />
+            <vault:field reference="medx_attendee__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="reaction__v" />
+            <vault:field reference="segment__v" />
+            <vault:field reference="share_method__v" />
+            <vault:field reference="slide_version__v" />
+            <vault:field reference="start_time__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,5 @@
+Picklistentry 16100__v (
+   value('Carlsbad-Artesia, NM Micropolitan Statistical Area'),
+   order(908),
+   active(true)
+);

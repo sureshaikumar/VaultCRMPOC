@@ -1,0 +1,7 @@
+Picklistentry ivnmn__v (
+   value('In Vitro Nuclear Medicine'),
+   order(746),
+   active(true),
+   controlling_entries('be__v',
+         'lu__v')
+);

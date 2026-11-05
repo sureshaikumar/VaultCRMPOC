@@ -1,0 +1,6 @@
+Picklistentry muscu__v (
+   value('Musculoskeletal'),
+   order(980),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist suggestion_wechat_action__v (
+   label('WeChat Action'),
+   active(true),
+   Picklistentry(@Picklistentry/content__v.mdl),
+   Picklistentry(@Picklistentry/chat__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

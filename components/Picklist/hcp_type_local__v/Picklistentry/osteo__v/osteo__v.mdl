@@ -1,0 +1,5 @@
+Picklistentry osteo__v (
+   value('Osteopath'),
+   order(92),
+   active(true)
+);

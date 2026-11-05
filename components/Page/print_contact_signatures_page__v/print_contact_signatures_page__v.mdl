@@ -1,0 +1,14 @@
+RECREATE Page print_contact_signatures_page__v (
+   label('Print Contract Signatures'),
+   active(true),
+   client_distribution(),
+   default_client_code('print_contact_signatures_page__v'),
+   description('Print contract partner signatures'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.contractsmanagement.controls.page.PrintContractSignaturesController'),
+   url_path_name('print-contract-signatures')
+);

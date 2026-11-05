@@ -1,0 +1,6 @@
+Picklistentry vn-35__v (
+   value('Lâm Đồng'),
+   order(4938),
+   active(true),
+   controlling_entries('vn__v')
+);

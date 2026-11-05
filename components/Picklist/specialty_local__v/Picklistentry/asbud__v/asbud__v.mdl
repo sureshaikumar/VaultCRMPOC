@@ -1,0 +1,17 @@
+Picklistentry asbud__v (
+   value('Abdominal Surgery'),
+   order(1),
+   active(true),
+   controlling_entries('am__v',
+         'ba__v',
+         'fr__v',
+         'hr__v',
+         'lt__v',
+         'mc__v',
+         'me__v',
+         'mk__v',
+         'om__v',
+         'rs__v',
+         'si__v',
+         'us__v')
+);

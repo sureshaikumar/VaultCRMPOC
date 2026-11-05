@@ -1,0 +1,36 @@
+RECREATE Notificationtemplate flash_report_failure__v (
+   label('flashReportFailure'),
+   active(true),
+   description('Job notification failure templates for flash report execution'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Report: ${reportLabel} encountered errors'),
+   notification('<p>
+${reportErrorMessage}
+</p>
+
+<p>
+${reportViewerUrl}
+</p>
+
+<p>
+Ran as: ${reportRunAsUserFullName}<br />
+Ran at: ${reportRunTime}
+</p>
+'),
+   email_body('<p>
+${reportErrorMessage}
+</p>
+
+<p>
+${reportViewerUrl}
+</p>
+
+<p>
+Ran as: ${reportRunAsUserFullName}<br />
+Ran at: ${reportRunTime}
+</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

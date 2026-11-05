@@ -1,0 +1,6 @@
+Sdkbatchjobaction speaker_ytd_cap_reset_batch_job__v (
+   job_metadata('Jobmetadata.speaker_ytd_cap_reset_job__v'),
+   label('EM_Speaker YTD Cap Reset'),
+   parameters(),
+   primary_action(true)
+);

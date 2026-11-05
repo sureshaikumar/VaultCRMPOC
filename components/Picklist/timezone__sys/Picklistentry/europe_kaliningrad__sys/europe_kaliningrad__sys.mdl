@@ -1,0 +1,5 @@
+Picklistentry europe_kaliningrad__sys (
+   value('(GMT+02:00) Eastern European Time (Europe/Kaliningrad)'),
+   order(185),
+   active(true)
+);

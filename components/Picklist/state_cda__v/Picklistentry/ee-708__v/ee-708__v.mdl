@@ -1,0 +1,6 @@
+Picklistentry ee-708__v (
+   value('Räpina'),
+   order(1127),
+   active(true),
+   controlling_entries('ee__v')
+);

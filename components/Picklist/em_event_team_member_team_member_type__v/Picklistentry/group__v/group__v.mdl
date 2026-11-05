@@ -1,0 +1,5 @@
+Picklistentry group__v (
+   value('Group'),
+   order(1),
+   active(true)
+);

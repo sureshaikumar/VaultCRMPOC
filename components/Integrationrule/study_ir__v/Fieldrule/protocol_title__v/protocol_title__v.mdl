@@ -1,0 +1,15 @@
+Fieldrule protocol_title__v (
+   label('Protocol Title'),
+   active(true),
+   query_object('study__v'),
+   query_field('protocol_title__clin'),
+   target_object('Object.vault_clinical_study__v'),
+   target_object_field('Field.protocol_title__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_text__sys'),
+   target_field_lookup()
+);

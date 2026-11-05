@@ -1,0 +1,5 @@
+Picklistentry 27860__v (
+   value('Jonesboro, AR Metropolitan Statistical Area'),
+   order(140),
+   active(true)
+);

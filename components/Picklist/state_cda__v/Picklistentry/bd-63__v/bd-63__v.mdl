@@ -1,0 +1,6 @@
+Picklistentry bd-63__v (
+   value('Tangail'),
+   order(292),
+   active(true),
+   controlling_entries('bd__v')
+);

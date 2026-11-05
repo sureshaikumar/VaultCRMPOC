@@ -1,0 +1,6 @@
+Message leave_page__v (
+   label(),
+   active(true),
+   default_value('Leave Page'),
+   system_managed(false)
+);

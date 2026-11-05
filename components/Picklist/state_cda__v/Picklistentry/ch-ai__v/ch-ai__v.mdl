@@ -1,0 +1,6 @@
+Picklistentry ch-ai__v (
+   value('Appenzell Innerrhoden'),
+   order(628),
+   active(true),
+   controlling_entries('ch__v')
+);

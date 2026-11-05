@@ -1,0 +1,5 @@
+Picklistentry 30980__v (
+   value('Longview, TX Metropolitan Statistical Area'),
+   order(557),
+   active(true)
+);

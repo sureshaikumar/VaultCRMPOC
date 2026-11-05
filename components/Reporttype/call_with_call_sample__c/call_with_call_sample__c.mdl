@@ -1,0 +1,9 @@
+RECREATE Reporttype call_with_call_sample__c (
+   label('Call with Call Sample'),
+   active(true),
+   description('Call with Call Samples (Child)'),
+   primary_object('call2__v'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

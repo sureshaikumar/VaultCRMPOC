@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate query_profiler_processing_success__sys (
+   label('Query Profiler Processing Complete'),
+   active(true),
+   description('Notification template notifying user that Query profiler session processing has completed'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Query Profiler Session Processing Completed: "${Custom.sessionLabel}"'),
+   notification('Your query profiler session processing for Session "${Custom.sessionLabel}" has completed.<br>Session Description:<br><p>${Custom.sessionDescription}</p><br>Details:<br><p>Download the results <a href="${Custom.sessionPageUrl}">here</a></p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry ma-taf__v (
+   value('Tarfaya (EH-partial)'),
+   order(2840),
+   active(true),
+   controlling_entries('ma__v')
+);

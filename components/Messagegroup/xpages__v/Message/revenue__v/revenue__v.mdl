@@ -1,0 +1,6 @@
+Message revenue__v (
+   label(),
+   active(true),
+   default_value('Revenue'),
+   system_managed(false)
+);

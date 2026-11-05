@@ -1,0 +1,6 @@
+Message title_success_created_assigned_to_you__v (
+   label(),
+   active(true),
+   default_value('${title} successfully created and assigned to you'),
+   system_managed(false)
+);

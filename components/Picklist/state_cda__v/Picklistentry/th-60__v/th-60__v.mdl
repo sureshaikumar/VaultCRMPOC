@@ -1,0 +1,6 @@
+Picklistentry th-60__v (
+   value('Nakhon Sawan'),
+   order(4375),
+   active(true),
+   controlling_entries('th__v')
+);

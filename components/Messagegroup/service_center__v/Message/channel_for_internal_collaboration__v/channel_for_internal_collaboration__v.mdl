@@ -1,0 +1,6 @@
+Message channel_for_internal_collaboration__v (
+   label(),
+   active(true),
+   default_value('Use a channel for internal collaboration.'),
+   system_managed(false)
+);

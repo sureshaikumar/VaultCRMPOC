@@ -1,0 +1,8 @@
+Objectlifecyclepermission editor_read__c (
+   states('Objectlifecyclestate.cancelled__sys',
+         'Objectlifecyclestate.complete__sys',
+         'Objectlifecyclestate.generating_redacted_copy__sys',
+         'Objectlifecyclestate.redacting_source__sys'),
+   role('Objectlifecyclerole.editor__v'),
+   permission('Read')
+);

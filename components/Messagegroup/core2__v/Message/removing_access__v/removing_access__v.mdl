@@ -1,0 +1,6 @@
+Message removing_access__v (
+   label(),
+   active(true),
+   default_value('Removing Access'),
+   system_managed(false)
+);

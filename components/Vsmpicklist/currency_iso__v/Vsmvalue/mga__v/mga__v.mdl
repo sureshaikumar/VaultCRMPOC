@@ -1,0 +1,10 @@
+Vsmvalue mga__v (
+   label('MGA'),
+   active(true),
+   description('The Malagasy Ariary (MGA), the official currency of Madagascar, used for transactions, pricing, and financial records involving Malagasy markets.'),
+   synonyms('Malagasy ariary',
+         'Madagascar ariary',
+         'MGA'),
+   target('mga__sys'),
+   target_label('MGA')
+);

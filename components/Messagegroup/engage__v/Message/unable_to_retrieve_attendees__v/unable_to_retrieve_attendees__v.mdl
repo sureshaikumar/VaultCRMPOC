@@ -1,0 +1,6 @@
+Message unable_to_retrieve_attendees__v (
+   label(),
+   active(true),
+   default_value('Unable to retrieve attendees. Please try again.'),
+   system_managed(false)
+);

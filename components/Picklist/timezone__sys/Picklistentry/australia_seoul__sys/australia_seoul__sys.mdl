@@ -1,0 +1,5 @@
+Picklistentry australia_seoul__sys (
+   value('(GMT+09:00) Korea Standard Time (Asia/Seoul)'),
+   order(273),
+   active(true)
+);

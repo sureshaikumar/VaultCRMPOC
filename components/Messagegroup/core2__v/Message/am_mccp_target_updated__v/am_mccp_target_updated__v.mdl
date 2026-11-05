@@ -1,0 +1,6 @@
+Message am_mccp_target_updated__v (
+   label(),
+   active(true),
+   default_value('MCCP Target record(s) will beupdated to show Account merge.'),
+   system_managed(false)
+);

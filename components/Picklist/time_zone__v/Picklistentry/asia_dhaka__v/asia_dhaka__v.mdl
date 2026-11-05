@@ -1,0 +1,5 @@
+Picklistentry asia_dhaka__v (
+   value('Bangladesh Time'),
+   order(26),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry dvsav__v (
+   value('Dermato-Venereology (Skin and Venereal Diseases)'),
+   order(389),
+   active(true),
+   controlling_entries('dk__v')
+);

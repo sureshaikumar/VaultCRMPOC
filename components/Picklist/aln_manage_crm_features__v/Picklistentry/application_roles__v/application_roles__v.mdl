@@ -1,0 +1,5 @@
+Picklistentry application_roles__v (
+   value('Application Roles'),
+   order(0),
+   active(true)
+);

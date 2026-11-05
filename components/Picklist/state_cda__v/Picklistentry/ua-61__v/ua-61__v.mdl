@@ -1,0 +1,6 @@
+Picklistentry ua-61__v (
+   value('Ternopilska oblast'),
+   order(4636),
+   active(true),
+   controlling_entries('ua__v')
+);

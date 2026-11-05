@@ -1,0 +1,5 @@
+Picklistentry update_picklist_label__c (
+   value('Update Picklist Label'),
+   order(1),
+   active(true)
+);

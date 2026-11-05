@@ -1,0 +1,6 @@
+Picklistentry bz-cy__v (
+   value('Cayo'),
+   order(554),
+   active(true),
+   controlling_entries('bz__v')
+);

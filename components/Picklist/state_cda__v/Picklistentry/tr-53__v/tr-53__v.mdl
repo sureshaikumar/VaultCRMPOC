@@ -1,0 +1,6 @@
+Picklistentry tr-53__v (
+   value('Rize'),
+   order(4511),
+   active(true),
+   controlling_entries('tr__v')
+);

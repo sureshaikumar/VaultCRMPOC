@@ -1,0 +1,19 @@
+Field shipment_id__v (
+   label('Shipment Id'),
+   type('String'),
+   active(true),
+   description('Shipment Id represents a 3rd Party shipping id if Receipt Sample Transactions for users are being created by a back-office or distribution center.'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(47),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

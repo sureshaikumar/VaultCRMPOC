@@ -1,0 +1,6 @@
+Picklistentry ec-o__v (
+   value('El Oro'),
+   order(1052),
+   active(true),
+   controlling_entries('ec__v')
+);

@@ -1,0 +1,6 @@
+Message wd_int_sync_help__v (
+   label(),
+   active(true),
+   default_value('This section lists the most recent Workday Integration jobs, status of each job and error logs.'),
+   system_managed(false)
+);

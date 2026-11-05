@@ -1,0 +1,18 @@
+Field cold_chain__v (
+   label('Cold Chain'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Denotes a product as a cold chain sample. Only applicable to products where Product Type is equal to Sample. Used to require a Tag Alert and Status to be associated with a Sample line item in Sample Transactions and Call Samples.'),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

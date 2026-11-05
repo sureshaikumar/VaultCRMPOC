@@ -1,0 +1,6 @@
+Sdkbatchjobaction shared_inbox_availability_job__v (
+   job_metadata('Jobmetadata.shared_inbox_availability_job__v'),
+   label('Shared Inbox Availability Job'),
+   parameters(),
+   primary_action(true)
+);

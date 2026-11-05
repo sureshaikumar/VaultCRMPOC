@@ -1,0 +1,15 @@
+Field formatted_email_body__v (
+   label('Formatted Email Body'),
+   type('Attachment'),
+   active(true),
+   description('Stores the entire formatted email body.'),
+   required(false),
+   help_content('Stores the entire formatted email body.'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

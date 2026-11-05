@@ -1,0 +1,5 @@
+Picklistentry africa_maputo__sys (
+   value('(GMT+02:00) Central Africa Time (Africa/Maputo)'),
+   order(172),
+   active(true)
+);

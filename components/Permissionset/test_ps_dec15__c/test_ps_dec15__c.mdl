@@ -1,0 +1,14 @@
+RECREATE Permissionset test_ps_dec15__c (
+   label('Test_PS_Dec15'),
+   active(true),
+   description('Test_PS_Dec15'),
+   configuration('all_configuration'),
+   object.call_followup_task__v.business_days_calculator__c.actions('execute'),
+   object.commercial_insight__v.submit__v.actions('execute'),
+   object.commercial_insight__v.unlock__v.actions('execute'),
+   object.object_actions('create'),
+   object.order__v.manage_deliveries__v.actions('execute'),
+   object.order__v.print__v.actions('execute'),
+   vault_actions('all_vault_actions'),
+   vault_actions.search('suggest')
+);

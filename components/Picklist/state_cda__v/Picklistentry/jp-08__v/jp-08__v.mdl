@@ -1,0 +1,6 @@
+Picklistentry jp-08__v (
+   value('Ibaraki'),
+   order(2314),
+   active(true),
+   controlling_entries('jp__v')
+);

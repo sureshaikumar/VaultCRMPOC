@@ -1,0 +1,5 @@
+Picklistentry 31580__v (
+   value('Madisonville, KY Micropolitan Statistical Area'),
+   order(570),
+   active(true)
+);

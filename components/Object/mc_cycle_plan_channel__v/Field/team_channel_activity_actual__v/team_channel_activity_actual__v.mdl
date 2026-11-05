@@ -1,0 +1,22 @@
+Field team_channel_activity_actual__v (
+   label('Team Channel Activity Actual'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content('Count of actual team channel activities according to the Cycle Channel Criteria.'),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

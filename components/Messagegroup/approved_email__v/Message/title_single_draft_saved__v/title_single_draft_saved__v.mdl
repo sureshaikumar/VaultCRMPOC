@@ -1,0 +1,6 @@
+Message title_single_draft_saved__v (
+   label(),
+   active(true),
+   default_value('Draft Saved'),
+   system_managed(false)
+);

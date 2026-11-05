@@ -1,0 +1,6 @@
+Picklistentry si-009__v (
+   value('Brežice'),
+   order(3983),
+   active(true),
+   controlling_entries('si__v')
+);

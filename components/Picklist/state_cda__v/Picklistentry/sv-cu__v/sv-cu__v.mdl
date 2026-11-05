@@ -1,0 +1,6 @@
+Picklistentry sv-cu__v (
+   value('Cuscatlán'),
+   order(4271),
+   active(true),
+   controlling_entries('sv__v')
+);

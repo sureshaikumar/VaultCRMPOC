@@ -1,0 +1,6 @@
+Picklistentry ph-com__v (
+   value('Davao de Oro'),
+   order(3558),
+   active(true),
+   controlling_entries('ph__v')
+);

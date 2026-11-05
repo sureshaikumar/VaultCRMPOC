@@ -1,0 +1,5 @@
+Picklistentry locked__v (
+   value('Locked'),
+   order(1),
+   active(true)
+);

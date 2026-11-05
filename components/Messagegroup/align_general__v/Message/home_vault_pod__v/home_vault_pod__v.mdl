@@ -1,0 +1,6 @@
+Message home_vault_pod__v (
+   label(),
+   active(true),
+   default_value('Vault Pod: {0}'),
+   system_managed(false)
+);

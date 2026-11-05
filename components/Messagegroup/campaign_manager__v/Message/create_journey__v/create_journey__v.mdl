@@ -1,0 +1,6 @@
+Message create_journey__v (
+   label(),
+   active(true),
+   default_value('Create Journey'),
+   system_managed(false)
+);

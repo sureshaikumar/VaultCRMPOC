@@ -1,0 +1,19 @@
+Field interaction_reference_id__v (
+   label('Interaction Reference Id'),
+   type('String'),
+   active(true),
+   description('Used to stamp and store the Call Record ID where the Documented Interest was created from. It is populated only if the Documented Interest was created from a Call.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

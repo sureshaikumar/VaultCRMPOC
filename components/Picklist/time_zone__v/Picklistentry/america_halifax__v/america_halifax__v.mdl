@@ -1,0 +1,5 @@
+Picklistentry america_halifax__v (
+   value('Atlantic Time (Halifax)'),
+   order(84),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field disclaimer__v (
+   label('DISCLAIMER'),
+   type('String'),
+   active(true),
+   description('The Disclaimer statement text that is displayed in the Call Signature page.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(109),
+   default_value('"DISCLAIMER;;CallReport"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

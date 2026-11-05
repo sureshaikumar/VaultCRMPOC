@@ -1,0 +1,6 @@
+Picklistentry comac__v (
+   value('Clinical Occupational Medicine and Clinical Toxicology'),
+   order(257),
+   active(true),
+   controlling_entries('sk__v')
+);

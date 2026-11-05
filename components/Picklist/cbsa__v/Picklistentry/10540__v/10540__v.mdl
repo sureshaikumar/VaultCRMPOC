@@ -1,0 +1,5 @@
+Picklistentry 10540__v (
+   value('Albany-Lebanon, OR Micropolitan Statistical Area'),
+   order(561),
+   active(true)
+);

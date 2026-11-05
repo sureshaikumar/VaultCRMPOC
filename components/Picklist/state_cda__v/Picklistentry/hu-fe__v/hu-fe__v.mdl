@@ -1,0 +1,6 @@
+Picklistentry hu-fe__v (
+   value('Fejér'),
+   order(1884),
+   active(true),
+   controlling_entries('hu__v')
+);

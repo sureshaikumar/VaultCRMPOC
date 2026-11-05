@@ -1,0 +1,5 @@
+Picklistentry europe_paris__sys (
+   value('(GMT+01:00) Central European Time (Europe/Paris)'),
+   order(161),
+   active(true)
+);

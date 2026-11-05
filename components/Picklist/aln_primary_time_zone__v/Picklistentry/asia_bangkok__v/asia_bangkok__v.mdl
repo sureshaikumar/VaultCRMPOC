@@ -1,0 +1,5 @@
+Picklistentry asia_bangkok__v (
+   value('Asia/Bangkok'),
+   order(61),
+   active(true)
+);

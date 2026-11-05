@@ -1,0 +1,6 @@
+Picklistentry orxtr__v (
+   value('Orthopedics / Traumatology'),
+   order(1211),
+   active(true),
+   controlling_entries('ge__v')
+);

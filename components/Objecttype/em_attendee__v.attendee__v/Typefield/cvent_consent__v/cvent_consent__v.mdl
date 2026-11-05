@@ -1,0 +1,6 @@
+Typefield cvent_consent__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.integration_consent__v.opt_in__v',
+         'Picklist.integration_consent__v.opt_out__v')
+);

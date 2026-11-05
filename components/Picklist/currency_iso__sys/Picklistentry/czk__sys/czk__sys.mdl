@@ -1,0 +1,5 @@
+Picklistentry czk__sys (
+   value('CZK'),
+   order(51),
+   active(true)
+);

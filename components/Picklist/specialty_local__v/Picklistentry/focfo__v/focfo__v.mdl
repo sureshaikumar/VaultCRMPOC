@@ -1,0 +1,6 @@
+Picklistentry focfo__v (
+   value('Forensic Odontology Clinical Forensic Odontology'),
+   order(564),
+   active(true),
+   controlling_entries('id__v')
+);

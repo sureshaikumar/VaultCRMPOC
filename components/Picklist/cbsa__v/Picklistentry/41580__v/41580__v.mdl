@@ -1,0 +1,5 @@
+Picklistentry 41580__v (
+   value('Salisbury, NC Micropolitan Statistical Area'),
+   order(341),
+   active(true)
+);

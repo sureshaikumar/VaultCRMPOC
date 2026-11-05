@@ -1,0 +1,5 @@
+Picklistentry laboratory__v (
+   value('Laboratory'),
+   order(10),
+   active(false)
+);

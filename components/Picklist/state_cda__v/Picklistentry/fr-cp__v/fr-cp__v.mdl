@@ -1,0 +1,6 @@
+Picklistentry fr-cp__v (
+   value('Clipperton'),
+   order(1423),
+   active(true),
+   controlling_entries('fr__v')
+);

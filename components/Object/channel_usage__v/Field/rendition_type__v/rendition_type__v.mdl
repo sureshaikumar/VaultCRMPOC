@@ -1,0 +1,19 @@
+Field rendition_type__v (
+   label('Rendition Type'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(128),
+   help_content('Rendition type of document that was accessed'),
+   list_column(true),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

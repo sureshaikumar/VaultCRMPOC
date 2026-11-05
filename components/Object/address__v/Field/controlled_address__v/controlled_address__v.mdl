@@ -1,0 +1,18 @@
+Field controlled_address__v (
+   label('Controlled Address'),
+   type('Boolean'),
+   active(true),
+   description('If true then this address is controlled by child account push.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(23),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

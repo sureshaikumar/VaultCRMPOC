@@ -1,0 +1,5 @@
+Picklistentry nf__v (
+   value('NF'),
+   order(163),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message process_fax_tab_title__v (
+   label(),
+   active(true),
+   default_value('Process Fax from ${fax_source}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 21060__v (
+   value('Elizabethtown, KY Metropolitan Statistical Area'),
+   order(747),
+   active(true)
+);

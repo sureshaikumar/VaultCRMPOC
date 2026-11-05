@@ -1,0 +1,6 @@
+Message removed_case_document__v (
+   label(),
+   active(true),
+   default_value('This document will no longer be accessible.'),
+   system_managed(false)
+);

@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate walkin_merge_error__v (
+   label('Walk-In Merge Error'),
+   active(true),
+   description('Notifies the user their Walk-In merge request is not successful'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.em_attendee__v'),
+   subject('Notification: Walk-In Merge Request Encountered Errors'),
+   notification('<p> Your walk-in merge request has encountered an error. </p><p> The existing attendee ${Custom.attendee_name__v} may be partially updated. Please review the existing attendee record and contact your Administrator for assistance if necessary.</p><p> Details:</p><ul><li>Error Message: ${Custom.attendee_merge_error}</li><li>Duplicate Walk-In Attendee Field Values: ${Custom.attendee_merge_values}</li>'),
+   email_body('<p> Your walk-in merge request has encountered an error. </p><p> The existing attendee ${Custom.attendee_name__v} may be partially updated. Please review the existing attendee record and contact your Administrator for assistance if necessary.</p><p> Details:</p><ul><li>Error Message: ${Custom.attendee_merge_error}</li><li>Duplicate Walk-In Attendee Field Values: ${Custom.attendee_merge_values}</li>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

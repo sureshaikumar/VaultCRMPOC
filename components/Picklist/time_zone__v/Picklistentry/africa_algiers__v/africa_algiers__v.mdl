@@ -1,0 +1,5 @@
+Picklistentry africa_algiers__v (
+   value('Central European Time (Algiers)'),
+   order(51),
+   active(true)
+);

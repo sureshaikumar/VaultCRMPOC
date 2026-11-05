@@ -1,0 +1,5 @@
+Picklistentry 26480__v (
+   value('Humboldt, TN Micropolitan Statistical Area'),
+   order(789),
+   active(true)
+);

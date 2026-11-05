@@ -1,0 +1,4 @@
+Typefield meal_preference__v (
+   source('standard'),
+   required(false)
+);

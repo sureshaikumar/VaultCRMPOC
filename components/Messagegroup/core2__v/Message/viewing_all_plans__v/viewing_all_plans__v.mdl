@@ -1,0 +1,6 @@
+Message viewing_all_plans__v (
+   label(),
+   active(true),
+   default_value('Viewing All Plans'),
+   system_managed(false)
+);

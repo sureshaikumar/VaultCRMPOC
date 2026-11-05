@@ -1,0 +1,17 @@
+Field comment__v (
+   label('Comment'),
+   type('RichText'),
+   active(true),
+   description(),
+   required(true),
+   max_length(32000),
+   help_content('Rich Text field that stores the note reply comment itself.'),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

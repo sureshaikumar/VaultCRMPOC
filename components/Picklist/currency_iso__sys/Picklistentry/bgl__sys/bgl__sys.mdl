@@ -1,0 +1,5 @@
+Picklistentry bgl__sys (
+   value('BGL'),
+   order(19),
+   active(true)
+);

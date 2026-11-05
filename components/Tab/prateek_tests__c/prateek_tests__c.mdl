@@ -1,0 +1,15 @@
+RECREATE Tab prateek_tests__c (
+   active(true),
+   all_view_label('All Prateek tests'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Prateek tests'),
+   modal_create_record(true),
+   my_view_label('My Prateek tests'),
+   object('prateek_test__c'),
+   order(7400),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Prateek tests')
+);

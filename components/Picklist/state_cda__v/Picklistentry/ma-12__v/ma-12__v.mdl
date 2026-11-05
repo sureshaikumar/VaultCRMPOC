@@ -1,0 +1,6 @@
+Picklistentry ma-12__v (
+   value('Dakhla-Oued Ed-Dahab (EH)'),
+   order(2777),
+   active(true),
+   controlling_entries('ma__v')
+);

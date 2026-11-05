@@ -1,0 +1,19 @@
+Field aoc_due_date__v (
+   label('AOC Due Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(48),
+   formula('ship_date__v + 14'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   rollup(false),
+   control_binding()
+);

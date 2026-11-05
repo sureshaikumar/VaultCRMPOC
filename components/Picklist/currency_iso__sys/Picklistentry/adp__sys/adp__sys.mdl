@@ -1,0 +1,5 @@
+Picklistentry adp__sys (
+   value('ADP'),
+   order(0),
+   active(true)
+);

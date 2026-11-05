@@ -1,0 +1,4 @@
+Typefield minimum_spend_limit__v (
+   source('standard'),
+   required(false)
+);

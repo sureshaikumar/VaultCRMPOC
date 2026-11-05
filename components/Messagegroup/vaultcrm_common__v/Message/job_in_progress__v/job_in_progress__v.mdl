@@ -1,0 +1,6 @@
+Message job_in_progress__v (
+   label(),
+   active(true),
+   default_value('${job_name} job in progress'),
+   system_managed(false)
+);

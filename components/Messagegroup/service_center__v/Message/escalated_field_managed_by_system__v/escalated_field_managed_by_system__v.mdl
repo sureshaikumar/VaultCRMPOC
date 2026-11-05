@@ -1,0 +1,6 @@
+Message escalated_field_managed_by_system__v (
+   label(),
+   active(true),
+   default_value('Escalated field is managed automatically by the system. You can Escalate the case by changing the Case State.'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field analytics_call_status__v (
+   label('Analytics Call Status'),
+   type('String'),
+   active(true),
+   description('This field stores the last user selection of Call Status on Analytics. Value is a comma separated list of Call Statuses that are checked on the Average Calls per Day report.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

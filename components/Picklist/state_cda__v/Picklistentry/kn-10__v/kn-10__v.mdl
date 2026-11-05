@@ -1,0 +1,6 @@
+Picklistentry kn-10__v (
+   value('Saint Paul Charlestown'),
+   order(2450),
+   active(true),
+   controlling_entries('kn__v')
+);

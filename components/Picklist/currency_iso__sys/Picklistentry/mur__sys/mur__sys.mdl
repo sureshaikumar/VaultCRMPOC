@@ -1,0 +1,5 @@
+Picklistentry mur__sys (
+   value('MUR'),
+   order(123),
+   active(true)
+);

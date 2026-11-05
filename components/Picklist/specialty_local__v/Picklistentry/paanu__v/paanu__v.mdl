@@ -1,0 +1,6 @@
+Picklistentry paanu__v (
+   value('Pathology (Anatomical)'),
+   order(1296),
+   active(true),
+   controlling_entries('za__v')
+);

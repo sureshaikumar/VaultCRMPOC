@@ -1,0 +1,6 @@
+Picklistentry heacb__v (
+   value('Histology, Embryology and Cell Biology'),
+   order(709),
+   active(true),
+   controlling_entries('at__v')
+);

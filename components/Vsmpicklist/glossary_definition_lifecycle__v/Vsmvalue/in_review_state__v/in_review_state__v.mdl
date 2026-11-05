@@ -1,0 +1,11 @@
+Vsmvalue in_review_state__v (
+   label('In Review'),
+   active(true),
+   description('The glossary definition has been submitted and is currently being evaluated by reviewers before approval.'),
+   synonyms('under review',
+         'awaiting approval',
+         'pending review',
+         'being evaluated'),
+   target('in_review_state__sys'),
+   target_label('In Review')
+);

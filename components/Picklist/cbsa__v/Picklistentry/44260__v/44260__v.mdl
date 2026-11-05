@@ -1,0 +1,5 @@
+Picklistentry 44260__v (
+   value('Starkville, MS Micropolitan Statistical Area'),
+   order(782),
+   active(true)
+);

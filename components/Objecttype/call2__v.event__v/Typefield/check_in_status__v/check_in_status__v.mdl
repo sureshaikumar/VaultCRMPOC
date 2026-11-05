@@ -1,0 +1,6 @@
+Typefield check_in_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.call2_check_in_status__v.checked_in__v',
+         'Picklist.call2_check_in_status__v.not_checked_in__v')
+);

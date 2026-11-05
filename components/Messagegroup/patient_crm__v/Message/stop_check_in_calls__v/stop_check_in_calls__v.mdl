@@ -1,0 +1,6 @@
+Message stop_check_in_calls__v (
+   label(),
+   active(true),
+   default_value('Stop Check-In Calls'),
+   system_managed(false)
+);

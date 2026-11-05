@@ -1,0 +1,6 @@
+Picklistentry omtce__v (
+   value('Occupational Medicine Toxicology'),
+   order(1102),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry obesi__v (
+   value('Obesity'),
+   order(1070),
+   active(true),
+   controlling_entries('kw__v')
+);

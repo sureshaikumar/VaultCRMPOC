@@ -1,0 +1,13 @@
+Vsmfield language__v (
+   label('Language'),
+   active(true),
+   description('Reference to the language associated with this language-locale combination. Use this field to filter or group locale records by their associated language (e.g., English, French, German).'),
+   example_values(),
+   synonyms('lang',
+         'language code',
+         'spoken language'),
+   target('language__sys'),
+   target_label('Language'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

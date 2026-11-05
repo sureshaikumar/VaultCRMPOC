@@ -1,0 +1,9 @@
+RECREATE Picklist license_tier__v (
+   label('License Tier'),
+   active(true),
+   Picklistentry(@Picklistentry/tier_1__v.mdl),
+   Picklistentry(@Picklistentry/tier_2__v.mdl),
+   Picklistentry(@Picklistentry/tier_3__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

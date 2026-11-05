@@ -1,0 +1,5 @@
+Picklistentry zh_tw__v (
+   value('Chinese (Traditional)'),
+   order(59),
+   active(false)
+);

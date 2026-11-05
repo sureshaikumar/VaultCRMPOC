@@ -1,0 +1,5 @@
+Picklistentry enforce_person_account_parent_calls__v (
+   value('Enforce Person Account Parent Calls'),
+   order(3),
+   active(true)
+);

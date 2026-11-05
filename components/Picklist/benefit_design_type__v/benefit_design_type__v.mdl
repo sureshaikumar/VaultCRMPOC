@@ -1,0 +1,11 @@
+RECREATE Picklist benefit_design_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/commercial__v.mdl),
+   Picklistentry(@Picklistentry/medicare__v.mdl),
+   Picklistentry(@Picklistentry/medicaid__v.mdl),
+   Picklistentry(@Picklistentry/va__v.mdl),
+   Picklistentry(@Picklistentry/dod__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

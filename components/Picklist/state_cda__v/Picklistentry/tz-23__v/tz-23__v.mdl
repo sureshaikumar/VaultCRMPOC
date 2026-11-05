@@ -1,0 +1,6 @@
+Picklistentry tz-23__v (
+   value('Singida'),
+   order(4607),
+   active(true),
+   controlling_entries('tz__v')
+);

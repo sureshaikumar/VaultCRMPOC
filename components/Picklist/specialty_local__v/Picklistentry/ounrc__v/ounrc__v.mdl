@@ -1,0 +1,7 @@
+Picklistentry ounrc__v (
+   value('Onco-Urology'),
+   order(1109),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

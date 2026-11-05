@@ -1,0 +1,6 @@
+Message cannot_send_message_to_recipients__v (
+   label(),
+   active(true),
+   default_value('${ineligible_recipient_limit} accounts cannot receive messages'),
+   system_managed(false)
+);

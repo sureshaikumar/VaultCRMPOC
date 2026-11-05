@@ -1,0 +1,6 @@
+Message data_provider__v (
+   label(),
+   active(true),
+   default_value('DATA PROVIDER'),
+   system_managed(false)
+);

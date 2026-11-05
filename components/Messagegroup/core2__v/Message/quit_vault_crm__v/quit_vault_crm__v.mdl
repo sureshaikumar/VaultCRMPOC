@@ -1,0 +1,6 @@
+Message quit_vault_crm__v (
+   label(),
+   active(true),
+   default_value('Quit Vault CRM'),
+   system_managed(false)
+);

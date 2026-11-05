@@ -1,0 +1,18 @@
+Field u_m__v (
+   label('U/M'),
+   type('Picklist'),
+   active(true),
+   description('U/M is the Unit of Measurement for the Lot Catalog record.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.lot_catalog_u_m__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

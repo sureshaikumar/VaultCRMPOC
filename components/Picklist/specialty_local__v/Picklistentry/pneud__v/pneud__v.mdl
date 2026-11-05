@@ -1,0 +1,11 @@
+Picklistentry pneud__v (
+   value('Pediatric Nursing'),
+   order(1421),
+   active(true),
+   controlling_entries('ad__v',
+         'au__v',
+         'ee__v',
+         'es__v',
+         'fr__v',
+         'mc__v')
+);

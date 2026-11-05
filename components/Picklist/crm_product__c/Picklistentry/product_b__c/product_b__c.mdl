@@ -1,0 +1,5 @@
+Picklistentry product_b__c (
+   value('Product B'),
+   order(1),
+   active(true)
+);

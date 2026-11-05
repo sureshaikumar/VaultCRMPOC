@@ -1,0 +1,5 @@
+Picklistentry indian_chagos__sys (
+   value('(GMT+06:00) Bangladesh Time (Indian/Chagos)'),
+   order(238),
+   active(true)
+);

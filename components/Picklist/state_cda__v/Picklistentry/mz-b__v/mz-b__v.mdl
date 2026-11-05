@@ -1,0 +1,6 @@
+Picklistentry mz-b__v (
+   value('Manica'),
+   order(3288),
+   active(true),
+   controlling_entries('mz__v')
+);

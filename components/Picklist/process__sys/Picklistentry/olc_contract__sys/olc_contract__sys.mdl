@@ -1,0 +1,5 @@
+Picklistentry olc_contract__sys (
+   value('Contract'),
+   order(23),
+   active(true)
+);

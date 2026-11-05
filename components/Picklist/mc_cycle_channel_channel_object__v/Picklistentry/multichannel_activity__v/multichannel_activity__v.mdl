@@ -1,0 +1,5 @@
+Picklistentry multichannel_activity__v (
+   value('multichannel_activity__v'),
+   order(2),
+   active(true)
+);

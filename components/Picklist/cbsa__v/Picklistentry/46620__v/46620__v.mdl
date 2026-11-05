@@ -1,0 +1,5 @@
+Picklistentry 46620__v (
+   value('Uvalde, TX Micropolitan Statistical Area'),
+   order(131),
+   active(true)
+);

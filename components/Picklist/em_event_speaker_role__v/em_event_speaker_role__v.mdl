@@ -1,0 +1,9 @@
+RECREATE Picklist em_event_speaker_role__v (
+   label('Role'),
+   active(true),
+   Picklistentry(@Picklistentry/participant__v.mdl),
+   Picklistentry(@Picklistentry/chair__v.mdl),
+   Picklistentry(@Picklistentry/presenter__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

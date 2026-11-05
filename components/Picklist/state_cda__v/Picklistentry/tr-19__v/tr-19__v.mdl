@@ -1,0 +1,6 @@
+Picklistentry tr-19__v (
+   value('Çorum'),
+   order(4477),
+   active(true),
+   controlling_entries('tr__v')
+);

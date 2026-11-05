@@ -1,0 +1,6 @@
+Message unable_to_send_email_try_again__v (
+   label(),
+   active(true),
+   default_value('Unable to send email. Please try again.'),
+   system_managed(false)
+);

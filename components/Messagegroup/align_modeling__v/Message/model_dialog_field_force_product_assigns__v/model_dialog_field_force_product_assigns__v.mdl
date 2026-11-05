@@ -1,0 +1,6 @@
+Message model_dialog_field_force_product_assigns__v (
+   label(),
+   active(true),
+   default_value('Model Field Force Product Assignments'),
+   system_managed(false)
+);

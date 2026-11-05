@@ -1,0 +1,6 @@
+Message navigation_error_detail__v (
+   label(),
+   active(true),
+   default_value('We are not able to navigate away from this page. Please complete what you are doing and try again.'),
+   system_managed(false)
+);

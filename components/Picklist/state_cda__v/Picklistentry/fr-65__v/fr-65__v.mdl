@@ -1,0 +1,6 @@
+Picklistentry fr-65__v (
+   value('Hautes-Pyrénées'),
+   order(1381),
+   active(true),
+   controlling_entries('fr__v')
+);

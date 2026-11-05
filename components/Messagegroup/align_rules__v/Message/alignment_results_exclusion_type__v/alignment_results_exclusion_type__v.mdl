@@ -1,0 +1,6 @@
+Message alignment_results_exclusion_type__v (
+   label(),
+   active(true),
+   default_value('Exclusion Type'),
+   system_managed(false)
+);

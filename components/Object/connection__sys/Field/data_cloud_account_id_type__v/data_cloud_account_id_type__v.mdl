@@ -1,0 +1,18 @@
+Field data_cloud_account_id_type__v (
+   label('Data Cloud Account ID Type'),
+   type('Picklist'),
+   active(true),
+   description('The type of ID to use when mapping accounts.'),
+   required(false),
+   unique(false),
+   help_content('The type of ID to use when mapping accounts.'),
+   list_column(false),
+   order(36),
+   multi_value(false),
+   picklist('Picklist.data_cloud_account_id_type_picklist__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

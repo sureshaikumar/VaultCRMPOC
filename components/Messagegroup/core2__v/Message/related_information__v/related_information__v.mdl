@@ -1,0 +1,6 @@
+Message related_information__v (
+   label(),
+   active(true),
+   default_value('Related Information'),
+   system_managed(false)
+);

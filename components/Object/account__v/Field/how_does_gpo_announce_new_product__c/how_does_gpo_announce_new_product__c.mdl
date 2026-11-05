@@ -1,0 +1,19 @@
+Field how_does_gpo_announce_new_product__c (
+   label('How Does GPO Announce New Product?'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Once executed, how does the GPO announce a newly added product to their membership?'),
+   list_column(false),
+   order(187),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

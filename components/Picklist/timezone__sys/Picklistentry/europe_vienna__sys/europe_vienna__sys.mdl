@@ -1,0 +1,5 @@
+Picklistentry europe_vienna__sys (
+   value('(GMT+01:00) Central European Time (Europe/Vienna)'),
+   order(164),
+   active(true)
+);

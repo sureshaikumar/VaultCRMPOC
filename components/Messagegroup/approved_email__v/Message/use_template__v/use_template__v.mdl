@@ -1,0 +1,6 @@
+Message use_template__v (
+   label(),
+   active(true),
+   default_value('Use Template'),
+   system_managed(false)
+);

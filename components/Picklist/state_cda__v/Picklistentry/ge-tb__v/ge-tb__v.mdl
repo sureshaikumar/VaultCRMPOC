@@ -1,0 +1,6 @@
+Picklistentry ge-tb__v (
+   value('Tbilisi'),
+   order(1687),
+   active(true),
+   controlling_entries('ge__v')
+);

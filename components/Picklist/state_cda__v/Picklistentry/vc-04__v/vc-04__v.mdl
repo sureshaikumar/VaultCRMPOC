@@ -1,0 +1,6 @@
+Picklistentry vc-04__v (
+   value('Saint George'),
+   order(4884),
+   active(true),
+   controlling_entries('vc__v')
+);

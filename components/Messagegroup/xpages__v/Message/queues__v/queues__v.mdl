@@ -1,0 +1,6 @@
+Message queues__v (
+   label(),
+   active(true),
+   default_value('Queues'),
+   system_managed(false)
+);

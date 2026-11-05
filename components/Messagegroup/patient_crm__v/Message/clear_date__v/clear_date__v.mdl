@@ -1,0 +1,6 @@
+Message clear_date__v (
+   label(),
+   active(true),
+   default_value('Clear Date'),
+   system_managed(false)
+);

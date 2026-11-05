@@ -1,0 +1,6 @@
+Message contact_your_administrator__v (
+   label(),
+   active(true),
+   default_value('Contact your administrator to resolve this issue.'),
+   system_managed(false)
+);

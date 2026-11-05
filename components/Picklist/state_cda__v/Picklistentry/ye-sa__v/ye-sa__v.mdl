@@ -1,0 +1,6 @@
+Picklistentry ye-sa__v (
+   value('Şan‘ā'' [city]'),
+   order(5011),
+   active(true),
+   controlling_entries('ye__v')
+);

@@ -1,0 +1,6 @@
+Message territory_info_bar_key_metrics__v (
+   label(),
+   active(true),
+   default_value('Key Metrics'),
+   system_managed(false)
+);

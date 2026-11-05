@@ -1,0 +1,6 @@
+Picklistentry bg-24__v (
+   value('Stara Zagora'),
+   order(396),
+   active(true),
+   controlling_entries('bg__v')
+);

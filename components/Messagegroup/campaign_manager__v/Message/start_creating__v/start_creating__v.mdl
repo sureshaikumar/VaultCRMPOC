@@ -1,0 +1,6 @@
+Message start_creating__v (
+   label(),
+   active(true),
+   default_value('Start Creating'),
+   system_managed(false)
+);

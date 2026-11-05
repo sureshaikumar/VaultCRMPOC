@@ -1,0 +1,5 @@
+Picklistentry type_3__c (
+   value('Type 3'),
+   order(2),
+   active(true)
+);

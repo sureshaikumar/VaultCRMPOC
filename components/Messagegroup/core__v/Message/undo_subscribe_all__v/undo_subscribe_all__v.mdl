@@ -1,0 +1,6 @@
+Message undo_subscribe_all__v (
+   label(),
+   active(true),
+   default_value('Undo Subscribe All'),
+   system_managed(false)
+);

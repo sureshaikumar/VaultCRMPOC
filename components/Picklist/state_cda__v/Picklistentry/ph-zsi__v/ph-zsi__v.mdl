@@ -1,0 +1,6 @@
+Picklistentry ph-zsi__v (
+   value('Zamboanga Sibugay'),
+   order(3614),
+   active(true),
+   controlling_entries('ph__v')
+);

@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17846544708081316__c (
+   label('Agentic Text Monitoring'),
+   active(true),
+   application_role('text__c'),
+   permission_sets('Permissionset.agentic_text_monitoring__c')
+);

@@ -1,0 +1,19 @@
+Field allow_source_download__v (
+   label('Allow Source Download'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(26),
+   formula('If(veeva_content__vr.allow_source_download__v,TRUE,FALSE)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

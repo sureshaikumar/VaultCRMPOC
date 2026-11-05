@@ -1,0 +1,19 @@
+Field signee__v (
+   label('Signee'),
+   type('String'),
+   active(true),
+   description('The name of the person signing for event attendance.'),
+   required(false),
+   unique(false),
+   max_length(120),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

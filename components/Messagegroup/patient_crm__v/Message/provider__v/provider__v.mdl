@@ -1,0 +1,6 @@
+Message provider__v (
+   label(),
+   active(true),
+   default_value('Provider'),
+   system_managed(false)
+);

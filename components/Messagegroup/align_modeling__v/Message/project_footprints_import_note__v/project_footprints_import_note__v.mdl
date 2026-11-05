@@ -1,0 +1,6 @@
+Message project_footprints_import_note__v (
+   label(),
+   active(true),
+   default_value('Note: This will automatically import all production footprints and their manual footprint geography assignments.'),
+   system_managed(false)
+);

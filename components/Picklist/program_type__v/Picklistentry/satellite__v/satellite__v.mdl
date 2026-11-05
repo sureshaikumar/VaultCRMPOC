@@ -1,0 +1,5 @@
+Picklistentry satellite__v (
+   value('Satellite'),
+   order(1),
+   active(true)
+);

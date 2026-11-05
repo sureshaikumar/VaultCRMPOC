@@ -1,0 +1,16 @@
+RECREATE Objectvalidation pricing_rule__v.delivery_rule_type_check__v (
+   label('Delivery Rule Type Check'),
+   active(true),
+   expression('Not(
+     And(
+         object_type__vr.api_name__v = ''delivery_period__v'',
+         Not(IsBlank(product__v)),
+         Not(product__vr.product_type__v = ''order__v''),
+         Not(product__vr.product_type__v = ''detail__v''),
+         Not(product__vr.product_type__v = ''product_group__v'')
+    )
+)'),
+   description('Product can be ''empty'' or of type ''order'', ''detail'' or ''product group'''),
+   error_message('Product can be ''empty'' or of type ''order'', ''detail'' or ''product group'''),
+   error_location('product__v')
+);

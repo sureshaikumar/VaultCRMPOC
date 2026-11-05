@@ -1,0 +1,3 @@
+Typeaction create_document_from_template__sys (
+   action('edl_item__v.create_document_from_template__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry id-ss__v (
+   value('Sumatera Selatan'),
+   order(1957),
+   active(true),
+   controlling_entries('id__v')
+);

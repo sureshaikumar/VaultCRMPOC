@@ -1,0 +1,6 @@
+Message common_sources__v (
+   label(),
+   active(true),
+   default_value('Sources'),
+   system_managed(false)
+);

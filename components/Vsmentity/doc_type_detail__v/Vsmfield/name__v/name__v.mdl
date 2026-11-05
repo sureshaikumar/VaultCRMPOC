@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The display name of the document type detail record as it appears in the Vault interface. Use this field to search for or identify specific document types, subtypes, or classifications by their human-readable name.'),
+   example_values(),
+   synonyms('label',
+         'title',
+         'document type name'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

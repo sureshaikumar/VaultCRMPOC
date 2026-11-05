@@ -1,0 +1,6 @@
+Picklistentry eadno__v (
+   value('Endocrinology and Diabetes'),
+   order(497),
+   active(true),
+   controlling_entries('mu__v')
+);

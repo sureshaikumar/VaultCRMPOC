@@ -1,0 +1,6 @@
+Message rewrite_warm__v (
+   label(),
+   active(true),
+   default_value('Warm'),
+   system_managed(false)
+);

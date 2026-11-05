@@ -1,0 +1,10 @@
+Vsmvalue mxv__v (
+   label('MXV'),
+   active(true),
+   description('The Mexican Unidad de Inversión (MXV), a financial unit of account used in Mexico for inflation-indexed financial instruments and obligations.'),
+   synonyms('Mexican investment unit',
+         'UDI',
+         'MXV'),
+   target('mxv__sys'),
+   target_label('MXV')
+);

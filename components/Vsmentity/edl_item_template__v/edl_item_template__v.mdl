@@ -1,0 +1,18 @@
+RECREATE Vsmentity edl_item_template__v (
+   label('EDL Item Template'),
+   active(true),
+   description('Predefined templates of EDL Items (expected documents) associated to a particular EDL Template. Templates serve as reusable blueprints that ensure consistency when creating or populating device list entries across submissions or regulatory workflows.'),
+   synonyms('EDL template',
+      'item template',
+      'electronic device list template',
+      'device list template'),
+   target('Object.edl_item_template__v'),
+   target_label('EDL Item Template'),
+   Vsmfield(@Vsmfield/classification__v.mdl),
+   Vsmfield(@Vsmfield/doc_type_details__v.mdl),
+   Vsmfield(@Vsmfield/edl_template__v.mdl),
+   Vsmfield(@Vsmfield/expected_steady_state_count__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/subtype__v.mdl),
+   Vsmfield(@Vsmfield/type__v.mdl)
+);

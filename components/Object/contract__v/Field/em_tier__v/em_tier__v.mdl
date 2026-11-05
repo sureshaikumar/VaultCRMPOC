@@ -1,0 +1,18 @@
+Field em_tier__v (
+   label('Tier'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to find Speakers with matching Tier information for generating Speaker Contracts.'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.contract_em_tier__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

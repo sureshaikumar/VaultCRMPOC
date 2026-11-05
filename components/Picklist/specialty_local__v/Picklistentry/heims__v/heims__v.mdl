@@ -1,0 +1,6 @@
+Picklistentry heims__v (
+   value('Histo-Embryology'),
+   order(705),
+   active(true),
+   controlling_entries('tn__v')
+);

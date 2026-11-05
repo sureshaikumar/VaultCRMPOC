@@ -1,0 +1,6 @@
+Message signature_date__v (
+   label(),
+   active(true),
+   default_value('${object_name} Signature Date'),
+   system_managed(false)
+);

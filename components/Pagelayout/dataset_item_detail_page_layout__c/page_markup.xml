@@ -1,0 +1,26 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.dataset_item__sys">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="dataset__sys" />
+            <vault:field reference="data_type__sys" />
+            <vault:field reference="data_action__sys" />
+            <vault:field reference="key_field__sys" />
+            <vault:field reference="excluded_columns__sys" />
+            <vault:field reference="filter__sys" />
+            <vault:field reference="relationship__sys" />
+            <vault:field reference="display_order__sys" />
+            <vault:field reference="record_migration_mode__sys" />
+            <vault:field reference="include_object_record_attachments__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

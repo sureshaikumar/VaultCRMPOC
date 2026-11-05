@@ -1,0 +1,6 @@
+Picklistentry papms__v (
+   value('Psychiatry and Psychotherapeutic Medicine'),
+   order(1612),
+   active(true),
+   controlling_entries('at__v')
+);

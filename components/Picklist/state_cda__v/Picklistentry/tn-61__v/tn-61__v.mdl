@@ -1,0 +1,6 @@
+Picklistentry tn-61__v (
+   value('Sfax'),
+   order(4447),
+   active(true),
+   controlling_entries('tn__v')
+);

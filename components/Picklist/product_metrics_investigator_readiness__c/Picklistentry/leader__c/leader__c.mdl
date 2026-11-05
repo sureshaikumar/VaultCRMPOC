@@ -1,0 +1,5 @@
+Picklistentry leader__c (
+   value('Leader'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry damrd__v (
+   value('Drug Addiction Medicine'),
+   order(456),
+   active(true),
+   controlling_entries('sk__v')
+);

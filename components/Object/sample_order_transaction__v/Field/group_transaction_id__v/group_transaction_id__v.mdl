@@ -1,0 +1,19 @@
+Field group_transaction_id__v (
+   label('Group Transaction Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Group Transaction Id field acts as an identifier grouping multiple Sample Transactions together as a Group Transaction.'),
+   list_column(false),
+   order(32),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

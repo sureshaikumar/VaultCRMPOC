@@ -1,0 +1,6 @@
+Picklistentry az-sbn__v (
+   value('Şabran'),
+   order(194),
+   active(true),
+   controlling_entries('az__v')
+);

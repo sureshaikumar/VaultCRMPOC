@@ -1,0 +1,6 @@
+Picklistentry ug-206__v (
+   value('Kapchorwa'),
+   order(4674),
+   active(true),
+   controlling_entries('ug__v')
+);

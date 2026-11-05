@@ -1,0 +1,8 @@
+RECREATE Picklist inventory_monitoring_status__v (
+   label('Inventory Monitoring Status'),
+   active(true),
+   Picklistentry(@Picklistentry/saved__v.mdl),
+   Picklistentry(@Picklistentry/submitted__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

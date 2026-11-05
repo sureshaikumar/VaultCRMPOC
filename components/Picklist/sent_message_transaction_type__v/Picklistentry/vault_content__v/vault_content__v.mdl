@@ -1,0 +1,5 @@
+Picklistentry vault_content__v (
+   value('Vault Content'),
+   order(1),
+   active(true)
+);

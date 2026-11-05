@@ -1,0 +1,6 @@
+Picklistentry st-05__v (
+   value('Lobata'),
+   order(4265),
+   active(true),
+   controlling_entries('st__v')
+);

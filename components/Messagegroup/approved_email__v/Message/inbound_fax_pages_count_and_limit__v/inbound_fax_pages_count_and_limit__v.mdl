@@ -1,0 +1,6 @@
+Message inbound_fax_pages_count_and_limit__v (
+   label(),
+   active(true),
+   default_value('Inbound Fax Pages Limit: ${count_of_fax_pages_received} of ${inbound_fax_pages_limit} fax pages received.'),
+   system_managed(false)
+);

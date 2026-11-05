@@ -1,0 +1,6 @@
+Picklistentry kh-13__v (
+   value('Preah Vihear [Preăh Vihéar]'),
+   order(2414),
+   active(true),
+   controlling_entries('kh__v')
+);

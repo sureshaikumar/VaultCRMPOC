@@ -1,0 +1,3 @@
+Typeaction create_medical_interaction__v (
+   action('account__v.create_medical_interaction__v')
+);

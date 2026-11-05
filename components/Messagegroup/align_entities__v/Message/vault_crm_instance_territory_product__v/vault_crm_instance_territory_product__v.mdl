@@ -1,0 +1,6 @@
+Message vault_crm_instance_territory_product__v (
+   label(),
+   active(true),
+   default_value('Territory Product'),
+   system_managed(false)
+);

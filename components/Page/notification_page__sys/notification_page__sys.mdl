@@ -1,0 +1,14 @@
+RECREATE Page notification_page__sys (
+   label('Notification Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('notification_page__sys'),
+   description(),
+   disable_chrome(false),
+   disable_configuration(true),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.system.page.notifications.NotificationPage'),
+   url_path_name('notifications')
+);

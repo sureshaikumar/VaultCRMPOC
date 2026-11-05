@@ -1,0 +1,6 @@
+Picklistentry kh-22__v (
+   value('Otdar Mean Chey [Ŏtdâr Méanchey]'),
+   order(2424),
+   active(true),
+   controlling_entries('kh__v')
+);

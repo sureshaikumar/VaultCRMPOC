@@ -1,0 +1,5 @@
+Picklistentry default_version__v (
+   value('-'),
+   order(0),
+   active(true)
+);

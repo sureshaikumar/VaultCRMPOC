@@ -1,0 +1,19 @@
+Field location__v (
+   label('Location'),
+   type('String'),
+   active(true),
+   description('Text field to note the location of the call. There is no special processing on this field.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(88),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

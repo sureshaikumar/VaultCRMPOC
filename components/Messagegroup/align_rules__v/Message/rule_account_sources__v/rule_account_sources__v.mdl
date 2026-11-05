@@ -1,0 +1,6 @@
+Message rule_account_sources__v (
+   label(),
+   active(true),
+   default_value('Account Sources'),
+   system_managed(false)
+);

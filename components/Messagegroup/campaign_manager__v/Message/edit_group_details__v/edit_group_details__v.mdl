@@ -1,0 +1,6 @@
+Message edit_group_details__v (
+   label(),
+   active(true),
+   default_value('Edit Group Details'),
+   system_managed(false)
+);

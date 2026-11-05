@@ -1,0 +1,8 @@
+Objectworkflowstep change_to_rejected_state__sys (
+   label('Change to Rejected State'),
+   type('changestate'),
+   next_steps('Objectworkflowstep.end__sys'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

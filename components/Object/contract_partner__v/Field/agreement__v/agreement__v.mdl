@@ -1,0 +1,18 @@
+Field agreement__v (
+   label('Agreement'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(34),
+   no_copy(false),
+   lookup_relationship_name('contract__vr'),
+   lookup_source_field('agreement__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry disabled__v (
+   value('Disabled'),
+   order(0),
+   active(true)
+);

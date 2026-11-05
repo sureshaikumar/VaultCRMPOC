@@ -1,0 +1,18 @@
+Field dea_address__v (
+   label('DEA Address?'),
+   type('Boolean'),
+   active(true),
+   description('Flag to define if the Address record is a DEA Address and should be handled accordingly'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(26),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

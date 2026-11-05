@@ -1,0 +1,6 @@
+Picklistentry es-or__v (
+   value('Ourense'),
+   order(1238),
+   active(true),
+   controlling_entries('es__v')
+);

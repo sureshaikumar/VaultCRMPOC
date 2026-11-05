@@ -1,0 +1,6 @@
+Message voice_note_processing__v (
+   label(),
+   active(true),
+   default_value('Processing Voice Note'),
+   system_managed(false)
+);

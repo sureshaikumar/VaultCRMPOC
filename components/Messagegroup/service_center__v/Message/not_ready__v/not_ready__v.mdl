@@ -1,0 +1,6 @@
+Message not_ready__v (
+   label(),
+   active(true),
+   default_value('Not Ready'),
+   system_managed(false)
+);

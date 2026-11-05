@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <expression operator="eq" qualifier="veeva.ecm.common.care.condition.metadata.field">
+        <expression operator="field" type="string">
+            <value>Object.case__v.object_type__v</value>
+        </expression>
+        <expression operator="value" type="string">
+            <value>Patient Center Case</value>
+        </expression>
+    </expression>
+    <actions>
+        <action type="LIFECYCLE_ENTRY_CRITERIA_FIELD">
+            <expression operator="isNotBlank">
+                <expression operator="field" type="string">
+                    <value>Object.case__v.patient__v</value>
+                </expression>
+            </expression>
+        </action>
+    </actions>
+</rule>

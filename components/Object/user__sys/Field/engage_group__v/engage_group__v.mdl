@@ -1,0 +1,19 @@
+Field engage_group__v (
+   label('Engage Group'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Stores the value of the Engage Group the user belongs to. This field is populated by Veeva.'),
+   list_column(false),
+   order(70),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

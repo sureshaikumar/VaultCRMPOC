@@ -1,0 +1,4 @@
+Typefield community_activity__c (
+   source('standard'),
+   required(false)
+);

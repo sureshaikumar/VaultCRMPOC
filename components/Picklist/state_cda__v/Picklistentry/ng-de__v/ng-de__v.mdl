@@ -1,0 +1,6 @@
+Picklistentry ng-de__v (
+   value('Delta'),
+   order(3329),
+   active(true),
+   controlling_entries('ng__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cz-208__v (
+   value('Nymburk'),
+   order(822),
+   active(true),
+   controlling_entries('cz__v')
+);

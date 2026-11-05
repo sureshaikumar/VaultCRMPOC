@@ -1,0 +1,4 @@
+Typefield split_amount_per_person__v (
+   source('custom'),
+   required(false)
+);

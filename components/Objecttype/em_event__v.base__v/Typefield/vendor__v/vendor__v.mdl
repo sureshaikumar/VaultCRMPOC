@@ -1,0 +1,4 @@
+Typefield vendor__v (
+   source('standard'),
+   required(false)
+);

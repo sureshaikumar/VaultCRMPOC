@@ -1,0 +1,6 @@
+Message weighted_pipeline__v (
+   label(),
+   active(true),
+   default_value('Weighted Pipeline'),
+   system_managed(false)
+);

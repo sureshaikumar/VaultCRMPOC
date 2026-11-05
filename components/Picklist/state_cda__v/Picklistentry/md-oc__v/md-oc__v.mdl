@@ -1,0 +1,6 @@
+Picklistentry md-oc__v (
+   value('Ocniţa'),
+   order(2894),
+   active(true),
+   controlling_entries('md__v')
+);

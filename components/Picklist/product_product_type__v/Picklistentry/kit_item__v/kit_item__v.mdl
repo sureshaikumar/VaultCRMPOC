@@ -1,0 +1,5 @@
+Picklistentry kit_item__v (
+   value('Kit Item'),
+   order(10),
+   active(true)
+);

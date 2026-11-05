@@ -1,0 +1,6 @@
+Picklistentry si-004__v (
+   value('Bohinj'),
+   order(3978),
+   active(true),
+   controlling_entries('si__v')
+);

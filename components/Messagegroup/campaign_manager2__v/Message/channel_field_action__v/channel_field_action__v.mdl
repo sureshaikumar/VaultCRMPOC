@@ -1,0 +1,6 @@
+Message channel_field_action__v (
+   label(),
+   active(true),
+   default_value('Field Action'),
+   system_managed(false)
+);

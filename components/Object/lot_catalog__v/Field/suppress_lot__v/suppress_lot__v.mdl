@@ -1,0 +1,18 @@
+Field suppress_lot__v (
+   label('Suppress Lot'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used to include BRC, Alternative Samples, High Value Promotional, Promotional, Reprint, or Custom product types in Sample Management functionality without the use of Lot Numbers.'),
+   list_column(false),
+   order(15),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

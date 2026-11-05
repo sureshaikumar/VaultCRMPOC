@@ -1,0 +1,6 @@
+Picklistentry gb-cld__v (
+   value('Calderdale'),
+   order(1485),
+   active(true),
+   controlling_entries('gb__v')
+);

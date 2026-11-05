@@ -1,0 +1,11 @@
+Vsmvalue inactive_state__v (
+   label('Inactive'),
+   active(true),
+   description('The legal hold is no longer active and is not currently enforcing any preservation obligations, typically before it has been formally initiated or after administrative suspension.'),
+   synonyms('disabled hold',
+         'hold suspended',
+         'not active',
+         'hold paused'),
+   target('inactive_state__v'),
+   target_label('Inactive')
+);

@@ -1,0 +1,14 @@
+RECREATE Page vault_integration_page__v (
+   label('Vault Integration'),
+   active(true),
+   client_distribution(),
+   default_client_code('vault_integration_admin_page__v'),
+   description('Vault Integration Administration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.eventsmanagement.page.EmVaultIntegrationAdminPageController'),
+   url_path_name('em-vault-integration')
+);

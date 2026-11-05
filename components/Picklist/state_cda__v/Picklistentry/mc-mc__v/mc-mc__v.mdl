@@ -1,0 +1,6 @@
+Picklistentry mc-mc__v (
+   value('Monte-Carlo'),
+   order(2860),
+   active(true),
+   controlling_entries('mc__v')
+);

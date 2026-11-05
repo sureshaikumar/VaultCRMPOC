@@ -1,0 +1,6 @@
+Picklistentry respi__v (
+   value('Respiratory'),
+   order(1736),
+   active(true),
+   controlling_entries('kw__v')
+);

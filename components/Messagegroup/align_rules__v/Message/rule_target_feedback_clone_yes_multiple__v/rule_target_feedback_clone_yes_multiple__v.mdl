@@ -1,0 +1,6 @@
+Message rule_target_feedback_clone_yes_multiple__v (
+   label(),
+   active(true),
+   default_value('Multiple cloned cycles are included in this preview. Selecting this option will clone-across approved feedback, manual edits and imported targets from the source cycles into the new cycles.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-nwm__v (
+   value('Newham'),
+   order(1588),
+   active(true),
+   controlling_entries('gb__v')
+);

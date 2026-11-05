@@ -1,0 +1,6 @@
+Picklistentry es-cn__v (
+   value('Canarias'),
+   order(1209),
+   active(true),
+   controlling_entries('es__v')
+);

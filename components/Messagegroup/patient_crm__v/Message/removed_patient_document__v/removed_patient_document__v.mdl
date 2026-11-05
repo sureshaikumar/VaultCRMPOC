@@ -1,0 +1,6 @@
+Message removed_patient_document__v (
+   label(),
+   active(true),
+   default_value('The file will no longer be accessible on this Patient record. To access it, you''ll need to reference the original case.'),
+   system_managed(false)
+);

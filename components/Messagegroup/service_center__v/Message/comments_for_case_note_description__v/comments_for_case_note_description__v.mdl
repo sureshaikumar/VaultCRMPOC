@@ -1,0 +1,6 @@
+Message comments_for_case_note_description__v (
+   label(),
+   active(true),
+   default_value('Comments for the case note will show up here'),
+   system_managed(false)
+);

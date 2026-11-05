@@ -1,0 +1,6 @@
+Message fax_no_eligible_recipient__v (
+   label(),
+   active(true),
+   default_value('No recipient is eligible to receive this fax.'),
+   system_managed(false)
+);

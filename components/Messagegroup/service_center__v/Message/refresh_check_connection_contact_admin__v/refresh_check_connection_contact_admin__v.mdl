@@ -1,0 +1,6 @@
+Message refresh_check_connection_contact_admin__v (
+   label(),
+   active(true),
+   default_value('Please refresh the page, check your connection, or contact your administrator'),
+   system_managed(false)
+);

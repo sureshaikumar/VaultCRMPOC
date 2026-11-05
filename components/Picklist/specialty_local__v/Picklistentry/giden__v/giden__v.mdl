@@ -1,0 +1,6 @@
+Picklistentry giden__v (
+   value('General Internal Diseases'),
+   order(599),
+   active(true),
+   controlling_entries('jo__v')
+);

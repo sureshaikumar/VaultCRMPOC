@@ -1,0 +1,5 @@
+Picklistentry green__v (
+   value('Green'),
+   order(3),
+   active(true)
+);

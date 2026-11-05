@@ -1,0 +1,6 @@
+Message aws_connection_copy_ids_instructions__v (
+   label(),
+   active(true),
+   default_value('To securely connect your account, copy the two IDs below. Next, log in to your AWS Console and paste these IDs when prompted.'),
+   system_managed(false)
+);

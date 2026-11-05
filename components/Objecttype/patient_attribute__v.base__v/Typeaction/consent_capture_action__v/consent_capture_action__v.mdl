@@ -1,0 +1,3 @@
+Typeaction consent_capture_action__v (
+   action('patient_attribute__v.consent_capture_action__v')
+);

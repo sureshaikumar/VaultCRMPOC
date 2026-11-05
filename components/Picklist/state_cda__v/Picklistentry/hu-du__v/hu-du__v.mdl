@@ -1,0 +1,6 @@
+Picklistentry hu-du__v (
+   value('Dunaújváros'),
+   order(1881),
+   active(true),
+   controlling_entries('hu__v')
+);

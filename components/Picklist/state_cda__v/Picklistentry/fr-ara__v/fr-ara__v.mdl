@@ -1,0 +1,6 @@
+Picklistentry fr-ara__v (
+   value('Auvergne-Rhône-Alpes'),
+   order(1419),
+   active(true),
+   controlling_entries('fr__v')
+);

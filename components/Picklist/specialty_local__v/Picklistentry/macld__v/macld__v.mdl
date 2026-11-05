@@ -1,0 +1,6 @@
+Picklistentry macld__v (
+   value('Medical and Chemical Laboratory Diagnostics'),
+   order(895),
+   active(true),
+   controlling_entries('at__v')
+);

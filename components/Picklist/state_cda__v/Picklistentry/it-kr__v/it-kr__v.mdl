@@ -1,0 +1,6 @@
+Picklistentry it-kr__v (
+   value('Crotone'),
+   order(2216),
+   active(true),
+   controlling_entries('it__v')
+);

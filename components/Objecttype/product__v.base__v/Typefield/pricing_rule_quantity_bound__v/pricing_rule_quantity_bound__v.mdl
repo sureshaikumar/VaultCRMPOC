@@ -1,0 +1,4 @@
+Typefield pricing_rule_quantity_bound__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,11 @@
+RECREATE Pagelink commercial_insight_edit_pagelink__v (
+   label('Commercial Insight Edit'),
+   description('Redirect Commercial Insight edit to Commercial Insight app page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Object.id}}/edit'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.commercial_insight__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.commercial_insight_detail_page__v')
+);

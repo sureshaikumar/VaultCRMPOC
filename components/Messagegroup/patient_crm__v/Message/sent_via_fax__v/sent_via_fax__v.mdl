@@ -1,0 +1,6 @@
+Message sent_via_fax__v (
+   label(),
+   active(true),
+   default_value('Sent via Fax'),
+   system_managed(false)
+);

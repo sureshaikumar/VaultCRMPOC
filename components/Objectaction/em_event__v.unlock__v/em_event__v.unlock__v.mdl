@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.unlock__v (
+   label('Unlock'),
+   description('Unlock'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.UnlockAction'),
+   active(true),
+   available_all_states(true)
+);

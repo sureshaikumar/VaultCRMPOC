@@ -1,0 +1,6 @@
+Message dest_duplication_error__v (
+   label(),
+   active(true),
+   default_value('Error when checking duplication in target Vault CRM: ${error}'),
+   system_managed(false)
+);

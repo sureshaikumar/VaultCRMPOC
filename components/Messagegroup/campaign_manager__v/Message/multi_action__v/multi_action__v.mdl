@@ -1,0 +1,6 @@
+Message multi_action__v (
+   label(),
+   active(true),
+   default_value('Multi-Action'),
+   system_managed(false)
+);

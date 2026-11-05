@@ -1,0 +1,9 @@
+Picklistentry cpatl__v (
+   value('Clinical Pharmacology and Toxicology'),
+   order(281),
+   active(true),
+   controlling_entries('ca__v',
+         'ch__v',
+         'li__v',
+         'th__v')
+);

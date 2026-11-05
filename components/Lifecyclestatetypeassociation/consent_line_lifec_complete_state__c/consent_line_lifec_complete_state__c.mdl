@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation consent_line_lifec_complete_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.consent_line_lifecycle__v'),
+   object_lifecycle_state(),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

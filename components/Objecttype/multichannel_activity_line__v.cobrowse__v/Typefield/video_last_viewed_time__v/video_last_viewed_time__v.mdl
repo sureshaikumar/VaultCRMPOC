@@ -1,0 +1,4 @@
+Typefield video_last_viewed_time__v (
+   source('custom'),
+   required(false)
+);

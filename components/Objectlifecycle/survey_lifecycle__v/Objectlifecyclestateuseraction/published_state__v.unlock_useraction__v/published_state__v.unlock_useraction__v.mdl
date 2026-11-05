@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction published_state__v.unlock_useraction__v (
+   label('Unlock'),
+   rule(@rule.xml),
+   order(1000)
+);

@@ -1,0 +1,14 @@
+RECREATE Page em_rollup_data_utility__v (
+   label('Events Management Roll Up Data Utility'),
+   active(true),
+   client_distribution(),
+   default_client_code('em_rollup_data_utility__v'),
+   description('EM utility used to correct roll-up data'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('em-rollup-data-utility')
+);

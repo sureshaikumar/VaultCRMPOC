@@ -1,0 +1,14 @@
+RECREATE Picklist discontinuation_reason__v (
+   label('Discontinuation Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/financial_or_cost_issue__v.mdl),
+   Picklistentry(@Picklistentry/logistical_issue__v.mdl),
+   Picklistentry(@Picklistentry/personal_choice__v.mdl),
+   Picklistentry(@Picklistentry/hcp_decision__v.mdl),
+   Picklistentry(@Picklistentry/unable_to_contact_patient__v.mdl),
+   Picklistentry(@Picklistentry/patient_is_deceased__v.mdl),
+   Picklistentry(@Picklistentry/revoked_program_consent__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,4 @@
+Typefield limit_quantity__v (
+   source('standard'),
+   required(false)
+);

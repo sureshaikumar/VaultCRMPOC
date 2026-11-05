@@ -1,0 +1,8 @@
+RECREATE Picklist clin_researcher_cda__v (
+   label('Clinical Researcher'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

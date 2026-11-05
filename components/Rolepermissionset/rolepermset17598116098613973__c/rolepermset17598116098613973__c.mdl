@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17598116098613973__c (
+   label('Vault Loader Role'),
+   active(true),
+   application_role('vault_loader_role__c'),
+   permission_sets('Permissionset.vault_loader_access__c')
+);

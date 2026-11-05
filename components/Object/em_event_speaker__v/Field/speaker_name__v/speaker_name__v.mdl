@@ -1,0 +1,20 @@
+Field speaker_name__v (
+   label('Speaker Name'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(49),
+   no_copy(false),
+   lookup_relationship_name('speaker__vr'),
+   lookup_source_field('name__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   format_mask(),
+   control_binding()
+);

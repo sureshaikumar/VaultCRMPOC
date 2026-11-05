@@ -1,0 +1,5 @@
+Picklistentry updated_product_fc__c (
+   value('Product F'),
+   order(4),
+   active(true)
+);

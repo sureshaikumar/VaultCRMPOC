@@ -1,0 +1,8 @@
+Tabcollectionitem my_samples1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(5),
+   tab('Tab.my_samples_tab__v'),
+   type('Tab')
+);

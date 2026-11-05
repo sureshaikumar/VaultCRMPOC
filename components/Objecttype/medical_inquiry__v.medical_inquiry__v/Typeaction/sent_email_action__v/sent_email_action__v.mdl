@@ -1,0 +1,3 @@
+Typeaction sent_email_action__v (
+   action('medical_inquiry__v.sent_email_action__v')
+);

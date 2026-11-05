@@ -1,0 +1,5 @@
+Picklistentry idtm__v (
+   value('Tropical Medicine'),
+   order(95),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction development_state__v.publish_useraction__v (
+   label('Publish'),
+   rule(@rule.xml),
+   order(1000)
+);

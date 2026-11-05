@@ -1,0 +1,6 @@
+Picklistentry pcsec__v (
+   value('Pediatric Cardiothoracic Surgery'),
+   order(1346),
+   active(true),
+   controlling_entries('us__v')
+);

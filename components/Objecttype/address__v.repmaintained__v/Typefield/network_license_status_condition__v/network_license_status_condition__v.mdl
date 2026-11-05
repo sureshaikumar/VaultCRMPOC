@@ -1,0 +1,22 @@
+Typefield network_license_status_condition__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.address_network_license_status_condition__v.0__v',
+         'Picklist.address_network_license_status_condition__v.100__v',
+         'Picklist.address_network_license_status_condition__v.101__v',
+         'Picklist.address_network_license_status_condition__v.10__v',
+         'Picklist.address_network_license_status_condition__v.11__v',
+         'Picklist.address_network_license_status_condition__v.12__v',
+         'Picklist.address_network_license_status_condition__v.13__v',
+         'Picklist.address_network_license_status_condition__v.14__v',
+         'Picklist.address_network_license_status_condition__v.15__v',
+         'Picklist.address_network_license_status_condition__v.1__v',
+         'Picklist.address_network_license_status_condition__v.2__v',
+         'Picklist.address_network_license_status_condition__v.3__v',
+         'Picklist.address_network_license_status_condition__v.4__v',
+         'Picklist.address_network_license_status_condition__v.5__v',
+         'Picklist.address_network_license_status_condition__v.6__v',
+         'Picklist.address_network_license_status_condition__v.7__v',
+         'Picklist.address_network_license_status_condition__v.8__v',
+         'Picklist.address_network_license_status_condition__v.9__v')
+);

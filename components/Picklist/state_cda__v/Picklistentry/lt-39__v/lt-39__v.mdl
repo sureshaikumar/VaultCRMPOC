@@ -1,0 +1,6 @@
+Picklistentry lt-39__v (
+   value('Rietavas'),
+   order(2657),
+   active(true),
+   controlling_entries('lt__v')
+);

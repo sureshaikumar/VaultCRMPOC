@@ -1,0 +1,5 @@
+Picklistentry bgn__sys (
+   value('BGN'),
+   order(20),
+   active(true)
+);

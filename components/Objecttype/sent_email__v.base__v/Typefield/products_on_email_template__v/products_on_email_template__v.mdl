@@ -1,0 +1,4 @@
+Typefield products_on_email_template__v (
+   source('standard'),
+   required(false)
+);

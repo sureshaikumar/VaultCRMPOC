@@ -1,0 +1,6 @@
+Message mccp_feedback_challenge__v (
+   label(),
+   active(true),
+   default_value('Challenge'),
+   system_managed(false)
+);

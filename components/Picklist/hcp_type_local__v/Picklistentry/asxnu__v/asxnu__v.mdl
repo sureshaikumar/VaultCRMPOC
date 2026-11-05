@@ -1,0 +1,5 @@
+Picklistentry asxnu__v (
+   value('Assistant nurse'),
+   order(9),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction approved__v.entryaction__v (
+   rule(@rule.xml),
+   order(1000)
+);

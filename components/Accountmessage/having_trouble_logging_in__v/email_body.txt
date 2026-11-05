@@ -1,0 +1,32 @@
+<p>We received a request to retrieve the user names for Veeva Vault accounts associated with this email address.</p>
+
+<p>If you did not initiate this request, please inform your Vault administrator.</p>
+
+<table>
+    <tr>
+        <td><b>User Names</b></td>
+    </tr>
+
+    <#list userNames as user>
+        <tr>
+            <td>
+                <a style="color:grey; cursor:default; margin-right:20px;">${user.name}</a>
+            </td>
+            <td>
+                <a href="${authServiceExtUrl}/login?prefill=${user.name}" style="margin-right:20px">Login</a>
+
+                <#if user.authType == 'Password'>
+                    <a href="${authServiceExtUrl}/forgotpassword?prefill=${user.name}">Reset Password</a>
+                <#elseif user.authType == 'VeevaID'>
+                    <a href="${veevaIdBaseUrl}/forgot-password">Reset Password on VeevaID portal</a>
+                <#else>
+                    <span style="font-style: italic;color: grey">SSO password managed by IdP</span>
+                </#if>
+            </td>
+        </tr>
+    </#list>
+</table>
+
+<#if (userNames?size >= 100)>
+    <p><b>NOTE:</b> This message contains a maximum of 100 Veeva Vault accounts associated with your email address. If the user name you are looking for is not listed, please contact your Vault administrator.</p>
+</#if>

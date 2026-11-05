@@ -1,0 +1,5 @@
+Picklistentry kau (
+   value('Kanuri'),
+   order(212),
+   active(true)
+);

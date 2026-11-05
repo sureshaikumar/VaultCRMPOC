@@ -1,0 +1,6 @@
+Picklistentry dty_reference__sys (
+   value('Reference'),
+   order(140),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

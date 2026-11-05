@@ -1,0 +1,6 @@
+Picklistentry gw-ca__v (
+   value('Cacheu'),
+   order(1806),
+   active(true),
+   controlling_entries('gw__v')
+);

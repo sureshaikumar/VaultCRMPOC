@@ -1,0 +1,6 @@
+Picklistentry ke-11__v (
+   value('Kakamega'),
+   order(2364),
+   active(true),
+   controlling_entries('ke__v')
+);

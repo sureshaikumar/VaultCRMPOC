@@ -1,0 +1,6 @@
+Picklistentry ohanw__v (
+   value('Otorhinolaryngology Head and Neck Surgery Community ENT'),
+   order(1242),
+   active(true),
+   controlling_entries('id__v')
+);

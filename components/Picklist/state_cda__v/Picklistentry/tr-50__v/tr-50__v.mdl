@@ -1,0 +1,6 @@
+Picklistentry tr-50__v (
+   value('Nevşehir'),
+   order(4508),
+   active(true),
+   controlling_entries('tr__v')
+);

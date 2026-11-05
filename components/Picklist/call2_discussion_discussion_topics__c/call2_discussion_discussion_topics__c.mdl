@@ -1,0 +1,17 @@
+RECREATE Picklist call2_discussion_discussion_topics__c (
+   label('Discussion Topics'),
+   active(true),
+   Picklistentry(@Picklistentry/access__c.mdl),
+   Picklistentry(@Picklistentry/payer__c.mdl),
+   Picklistentry(@Picklistentry/pipeline__c.mdl),
+   Picklistentry(@Picklistentry/clinical_studies__c.mdl),
+   Picklistentry(@Picklistentry/site_readiness__c.mdl),
+   Picklistentry(@Picklistentry/publication_support__c.mdl),
+   Picklistentry(@Picklistentry/scientific_exchange__c.mdl),
+   Picklistentry(@Picklistentry/speaker_development__c.mdl),
+   Picklistentry(@Picklistentry/ad_board__c.mdl),
+   Picklistentry(@Picklistentry/investigator_meeting__c.mdl),
+   Picklistentry(@Picklistentry/formulary_and_payer_discussion__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

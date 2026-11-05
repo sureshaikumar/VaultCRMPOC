@@ -1,0 +1,6 @@
+Message journey_type_description__v (
+   label(),
+   active(true),
+   default_value('Add new targets on an ongoing basis'),
+   system_managed(false)
+);

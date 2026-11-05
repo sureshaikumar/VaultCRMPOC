@@ -1,0 +1,6 @@
+Picklistentry pe-huv__v (
+   value('Huancavelica'),
+   order(3477),
+   active(true),
+   controlling_entries('pe__v')
+);

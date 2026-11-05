@@ -1,0 +1,4 @@
+Typefield integrated_survey_entry_point__v (
+   source('standard'),
+   required(true)
+);

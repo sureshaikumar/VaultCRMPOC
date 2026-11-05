@@ -1,0 +1,6 @@
+Message perf_sankey_emails_not_clicked__v (
+   label(),
+   active(true),
+   default_value('Did Not Click'),
+   system_managed(false)
+);

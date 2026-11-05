@@ -1,0 +1,6 @@
+Picklistentry vaira__v (
+   value('Vascular and Interventional Radiology'),
+   order(1912),
+   active(true),
+   controlling_entries('qa__v')
+);

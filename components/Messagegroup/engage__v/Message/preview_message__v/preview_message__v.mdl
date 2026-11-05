@@ -1,0 +1,6 @@
+Message preview_message__v (
+   label(),
+   active(true),
+   default_value('Preview Message'),
+   system_managed(false)
+);

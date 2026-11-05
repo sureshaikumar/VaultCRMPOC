@@ -1,0 +1,13 @@
+Vsmfield component_name__v (
+   label('Component Name'),
+   active(true),
+   description('The internal technical name or identifier of the vault component, typically used in configurations and API references. IMPORTANT: This is the programmatic name, not the human-readable label. For display names, use label__v instead.'),
+   example_values(),
+   synonyms('component ID',
+         'technical name',
+         'API name'),
+   target('component_name__v'),
+   target_label('Component Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

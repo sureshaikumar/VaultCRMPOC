@@ -1,0 +1,6 @@
+Message owner_group_required__v (
+   label(),
+   active(true),
+   default_value('Owner Group is required. Please choose an Owner Group and try again.'),
+   system_managed(false)
+);

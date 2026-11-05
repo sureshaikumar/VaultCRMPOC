@@ -1,0 +1,6 @@
+Message results_outside_territory__v (
+   label(),
+   active(true),
+   default_value('(${out_of_territory_accounts} Out of Territory)'),
+   system_managed(false)
+);

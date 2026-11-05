@@ -1,0 +1,6 @@
+Picklistentry ci-lc__v (
+   value('Lacs'),
+   order(658),
+   active(true),
+   controlling_entries('ci__v')
+);

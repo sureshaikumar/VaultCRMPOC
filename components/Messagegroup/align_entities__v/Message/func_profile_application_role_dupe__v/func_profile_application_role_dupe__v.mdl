@@ -1,0 +1,6 @@
+Message func_profile_application_role_dupe__v (
+   label(),
+   active(true),
+   default_value('Multiple aln_functional_profile_application_role__v records cannot share the same functional_profile__v and crm_application_role__v combination.'),
+   system_managed(false)
+);

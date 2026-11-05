@@ -1,0 +1,6 @@
+Message territory_model_account_access_null__v (
+   label(),
+   active(true),
+   default_value('CRM Account Access cannot be null when Send to CRM = Yes'),
+   system_managed(false)
+);

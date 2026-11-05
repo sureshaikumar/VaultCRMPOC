@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction saved_state__v.cancel__v (
+   label('Cancel'),
+   rule(@rule.xml),
+   order(1001)
+);

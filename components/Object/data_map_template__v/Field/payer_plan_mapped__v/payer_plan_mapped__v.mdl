@@ -1,0 +1,18 @@
+Field payer_plan_mapped__v (
+   label('Payer/Plan Mapped?'),
+   type('Boolean'),
+   active(true),
+   description('Checkbox to determine for the data template if the corresponding Analytics File will include the Payer / Plan information, such as a Platrak data file.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(23),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry co-ris__v (
+   value('Risaralda'),
+   order(752),
+   active(true),
+   controlling_entries('co__v')
+);

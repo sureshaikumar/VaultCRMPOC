@@ -1,0 +1,6 @@
+Picklistentry it-pd__v (
+   value('Padua'),
+   order(2237),
+   active(true),
+   controlling_entries('it__v')
+);

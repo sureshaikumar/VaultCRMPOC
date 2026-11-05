@@ -1,0 +1,8 @@
+RECREATE Objectaction clm_presentation__v.copy_to_another_vault_action__v (
+   label('Copy to Another Vault'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.clm.actions.CopyToAnotherVaultAction'),
+   active(true),
+   available_all_states(true)
+);

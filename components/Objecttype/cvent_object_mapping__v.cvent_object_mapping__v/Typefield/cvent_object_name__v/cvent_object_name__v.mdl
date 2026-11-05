@@ -1,0 +1,7 @@
+Typefield cvent_object_name__v (
+   source('custom'),
+   required(true),
+   pickentries('Picklist.cvent_object_mapping_cvent_object_name__v.attendee__v',
+         'Picklist.cvent_object_mapping_cvent_object_name__v.contact__v',
+         'Picklist.cvent_object_mapping_cvent_object_name__v.event__v')
+);

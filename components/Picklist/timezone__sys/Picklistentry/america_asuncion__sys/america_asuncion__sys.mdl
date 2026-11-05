@@ -1,0 +1,5 @@
+Picklistentry america_asuncion__sys (
+   value('(GMT-03:00) Paraguay Time (America/Asuncion)'),
+   order(125),
+   active(true)
+);

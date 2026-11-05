@@ -1,0 +1,11 @@
+RECREATE Docrelationshiptype crosslink_document_latest_steady_state__v (
+   label('CrossLink Latest Steady State Bindings'),
+   active(true),
+   single_use(false),
+   target_doctype(),
+   source_version_specific(true),
+   carry_forward_source_specific(false),
+   target_version_specific(false),
+   carry_forward_target_specific(false),
+   relationship_filter()
+);

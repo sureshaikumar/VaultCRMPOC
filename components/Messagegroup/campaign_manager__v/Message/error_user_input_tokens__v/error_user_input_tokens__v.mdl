@@ -1,0 +1,6 @@
+Message error_user_input_tokens__v (
+   label(),
+   active(true),
+   default_value('This template contains one or more user input tokens that will be blank upon sending. Would you like to proceed?'),
+   system_managed(false)
+);

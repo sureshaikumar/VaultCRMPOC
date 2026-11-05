@@ -1,0 +1,6 @@
+Picklistentry gr-k__v (
+   value('Vóreio Aigaío'),
+   order(1777),
+   active(true),
+   controlling_entries('gr__v')
+);

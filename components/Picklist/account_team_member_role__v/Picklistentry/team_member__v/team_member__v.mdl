@@ -1,0 +1,5 @@
+Picklistentry team_member__v (
+   value('Team Member'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,18 @@
+Field meal_preference__v (
+   label('Meal Preference'),
+   type('Picklist'),
+   active(true),
+   description('Meal preference of a speaker. Custom values can be added to this picklist.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(21),
+   multi_value(false),
+   picklist('Picklist.em_event_speaker_meal_preference__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

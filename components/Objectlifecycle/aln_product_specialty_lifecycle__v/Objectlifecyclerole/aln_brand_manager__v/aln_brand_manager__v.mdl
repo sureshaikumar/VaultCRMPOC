@@ -1,0 +1,5 @@
+Objectlifecyclerole aln_brand_manager__v (
+   active(true),
+   application_role('Applicationrole.aln_brand_manager__v'),
+   permissions()
+);

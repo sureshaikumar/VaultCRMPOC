@@ -1,0 +1,14 @@
+Vsmfield name__v (
+   label('Label'),
+   active(true),
+   description('The human-readable label for the application role as displayed in the Vault UI. Use this field when searching for or displaying roles by their friendly name rather than their API name.'),
+   example_values(),
+   synonyms('label',
+         'display name',
+         'role name',
+         'title'),
+   target('name__v'),
+   target_label('Label'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

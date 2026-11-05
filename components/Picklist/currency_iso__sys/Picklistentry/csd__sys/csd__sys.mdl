@@ -1,0 +1,5 @@
+Picklistentry csd__sys (
+   value('CSD'),
+   order(46),
+   active(true)
+);

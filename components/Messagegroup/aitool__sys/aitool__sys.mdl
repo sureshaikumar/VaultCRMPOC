@@ -1,0 +1,13 @@
+RECREATE Messagegroup aitool__sys (
+   label('AI Tool Messages'),
+   active(true),
+   Message(@Message/aitool__sys.mdl),
+   Message(@Message/aitool_help_content__sys.mdl),
+   Message(@Message/aitool_plural__sys.mdl),
+   Message(@Message/configuration__sys.mdl),
+   Message(@Message/description__sys.mdl),
+   Message(@Message/input__sys.mdl),
+   Message(@Message/json__sys.mdl),
+   Message(@Message/query__sys.mdl),
+   Message(@Message/tool_type__sys.mdl)
+);

@@ -1,0 +1,5 @@
+Picklistentry 39260__v (
+   value('Prineville, OR Micropolitan Statistical Area'),
+   order(28),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry gpehn__v (
+   value('General Pharmacy'),
+   order(606),
+   active(true),
+   controlling_entries('ro__v')
+);

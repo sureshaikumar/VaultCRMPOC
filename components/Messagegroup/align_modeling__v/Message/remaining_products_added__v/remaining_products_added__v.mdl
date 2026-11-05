@@ -1,0 +1,6 @@
+Message remaining_products_added__v (
+   label(),
+   active(true),
+   default_value('Continue to create the remaining product goals.'),
+   system_managed(false)
+);

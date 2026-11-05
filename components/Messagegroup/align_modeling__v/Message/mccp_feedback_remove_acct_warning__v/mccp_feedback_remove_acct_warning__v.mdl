@@ -1,0 +1,6 @@
+Message mccp_feedback_remove_acct_warning__v (
+   label(),
+   active(true),
+   default_value('This account and all of its targets will be removed from your territory once this challenge is approved.'),
+   system_managed(false)
+);

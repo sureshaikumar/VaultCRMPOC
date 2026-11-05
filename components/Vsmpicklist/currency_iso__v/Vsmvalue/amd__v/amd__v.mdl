@@ -1,0 +1,9 @@
+Vsmvalue amd__v (
+   label('AMD'),
+   active(true),
+   description('The Armenian Dram (AMD), the official currency of Armenia, used for all commercial and financial transactions in the country.'),
+   synonyms('Armenian dram',
+         'Armenia currency'),
+   target('amd__sys'),
+   target_label('AMD')
+);

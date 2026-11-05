@@ -1,0 +1,6 @@
+Message greater_than__v (
+   label(),
+   active(true),
+   default_value('Greater than'),
+   system_managed(false)
+);

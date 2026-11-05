@@ -1,0 +1,14 @@
+Vsmfield error_message__v (
+   label('Error Message'),
+   active(true),
+   description('The raw error message returned when a processing exception occurred. Use this field to diagnose the root cause of a failure or to search for specific error patterns across exception items.'),
+   example_values(),
+   synonyms('error detail',
+         'error text',
+         'failure message',
+         'error description'),
+   target('error_message__sys'),
+   target_label('Error Message'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

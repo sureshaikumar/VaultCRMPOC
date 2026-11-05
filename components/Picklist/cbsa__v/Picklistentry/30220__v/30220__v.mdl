@@ -1,0 +1,5 @@
+Picklistentry 30220__v (
+   value('Levelland, TX Micropolitan Statistical Area'),
+   order(374),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sx__v (
+   value('SX'),
+   order(211),
+   active(true)
+);

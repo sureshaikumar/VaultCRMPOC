@@ -1,0 +1,6 @@
+Picklistentry tn-21__v (
+   value('Nabeul'),
+   order(4434),
+   active(true),
+   controlling_entries('tn__v')
+);

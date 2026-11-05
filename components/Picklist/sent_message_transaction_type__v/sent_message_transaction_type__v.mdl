@@ -1,0 +1,16 @@
+RECREATE Picklist sent_message_transaction_type__v (
+   label('Transaction Type'),
+   active(true),
+   Picklistentry(@Picklistentry/website_content__v.mdl),
+   Picklistentry(@Picklistentry/vault_content__v.mdl),
+   Picklistentry(@Picklistentry/remote_clm_link__v.mdl),
+   Picklistentry(@Picklistentry/engage_connection_invite__v.mdl),
+   Picklistentry(@Picklistentry/custom_content__v.mdl),
+   Picklistentry(@Picklistentry/ms_teams_join_url__v.mdl),
+   Picklistentry(@Picklistentry/call_sign_async__v.mdl),
+   Picklistentry(@Picklistentry/aoc_sign_async__v.mdl),
+   Picklistentry(@Picklistentry/zoom_join_url__v.mdl),
+   Picklistentry(@Picklistentry/message_template__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

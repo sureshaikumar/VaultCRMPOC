@@ -1,0 +1,6 @@
+Picklistentry us-pa__v (
+   value('Pennsylvania'),
+   order(4832),
+   active(true),
+   controlling_entries('us__v')
+);

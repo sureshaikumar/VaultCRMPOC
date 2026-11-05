@@ -1,0 +1,18 @@
+Field default__v (
+   label('Default'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used to mark an Account Partner as default for the Account. Only one Account Partner per Record Type should be marked as default. Default Account Partner is automatically populated on Orders.'),
+   list_column(false),
+   order(11),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

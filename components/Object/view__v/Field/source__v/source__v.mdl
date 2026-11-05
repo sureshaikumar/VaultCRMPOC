@@ -1,0 +1,19 @@
+Field source__v (
+   label('Source'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Field that allows user to select from a base query of Child Account or Account. "Account Location" queries off of accounts and location of business account relationship.'),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.view_source__v'),
+   default_value('{account__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message unique_channel_priority__v (
+   label(),
+   active(true),
+   default_value('Targeting channel priority must be unique for targeting channels referencing the same Cycle Channel.'),
+   system_managed(false)
+);

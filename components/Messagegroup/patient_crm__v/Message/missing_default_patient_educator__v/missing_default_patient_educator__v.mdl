@@ -1,0 +1,6 @@
+Message missing_default_patient_educator__v (
+   label(),
+   active(true),
+   default_value('Unable to start the Patient Journey because a Patient Educator is missing. Please contact your administrator.'),
+   system_managed(false)
+);

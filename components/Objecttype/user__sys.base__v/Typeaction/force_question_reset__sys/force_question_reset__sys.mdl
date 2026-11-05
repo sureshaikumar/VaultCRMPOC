@@ -1,0 +1,3 @@
+Typeaction force_question_reset__sys (
+   action('user__sys.force_question_reset__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry sv-us__v (
+   value('Usulután'),
+   order(4281),
+   active(true),
+   controlling_entries('sv__v')
+);

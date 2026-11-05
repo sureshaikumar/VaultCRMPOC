@@ -1,0 +1,6 @@
+Picklistentry mhsie__v (
+   value('Military Health Services'),
+   order(970),
+   active(true),
+   controlling_entries('tr__v')
+);

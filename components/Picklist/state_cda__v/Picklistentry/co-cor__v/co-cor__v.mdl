@@ -1,0 +1,6 @@
+Picklistentry co-cor__v (
+   value('Córdoba'),
+   order(739),
+   active(true),
+   controlling_entries('co__v')
+);

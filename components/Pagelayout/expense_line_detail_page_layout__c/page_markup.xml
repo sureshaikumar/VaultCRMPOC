@@ -1,0 +1,40 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.expense_line__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="expense_header__v" />
+            <vault:field reference="event__v" />
+            <vault:field reference="committed__v" />
+            <vault:field reference="actual__v" />
+            <vault:field reference="event_budget__v" />
+            <vault:field reference="expense_estimate__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="expense_type__v" />
+            <vault:field reference="expense_type_name__v" />
+            <vault:field reference="expense_type_code__v" />
+            <vault:field reference="parent_expense_type_code__v" />
+            <vault:field reference="parent_expense_type_name__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="split_amount_per_person__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

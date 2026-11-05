@@ -1,0 +1,7 @@
+Typefield im_layer__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.contract_line_im_layer__v.above_eye_level__v',
+         'Picklist.contract_line_im_layer__v.below_eye_level__v',
+         'Picklist.contract_line_im_layer__v.eye_level__v')
+);

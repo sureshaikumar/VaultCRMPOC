@@ -1,0 +1,6 @@
+Picklistentry mw-th__v (
+   value('Thyolo'),
+   order(3237),
+   active(true),
+   controlling_entries('mw__v')
+);

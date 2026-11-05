@@ -1,0 +1,6 @@
+Picklistentry ke-21__v (
+   value('Lamu'),
+   order(2374),
+   active(true),
+   controlling_entries('ke__v')
+);

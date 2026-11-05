@@ -1,0 +1,6 @@
+Message product_specialty_generating_records__v (
+   label(),
+   active(true),
+   default_value('Generating Product Specialty Records'),
+   system_managed(false)
+);

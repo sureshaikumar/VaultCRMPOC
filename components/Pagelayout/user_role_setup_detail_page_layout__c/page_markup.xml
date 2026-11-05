@@ -1,0 +1,19 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.user_role_setup__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="user__v" />
+            <vault:field reference="role__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="country__c" />
+            <vault:field reference="detail_product__v" />
+            <vault:field reference="detail_group__v" />
+            <vault:field reference="doc_type_group__v" />
+            <vault:field reference="content_group__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

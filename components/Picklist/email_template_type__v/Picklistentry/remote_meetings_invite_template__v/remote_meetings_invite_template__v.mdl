@@ -1,0 +1,5 @@
+Picklistentry remote_meetings_invite_template__v (
+   value('Engage Meetings Invite Template'),
+   order(5),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message no_suggested_records__v (
+   label(),
+   active(true),
+   default_value('No Suggested ${plural_object_label}'),
+   system_managed(false)
+);

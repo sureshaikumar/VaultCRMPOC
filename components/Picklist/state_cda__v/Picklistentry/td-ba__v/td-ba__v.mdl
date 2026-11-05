@@ -1,0 +1,6 @@
+Picklistentry td-ba__v (
+   value('Al Baṭḩah'),
+   order(4300),
+   active(true),
+   controlling_entries('td__v')
+);

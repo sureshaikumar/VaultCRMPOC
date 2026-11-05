@@ -1,0 +1,13 @@
+Vsmfield locale__v (
+   label('Locale'),
+   active(true),
+   description('The prior locale setting associated with the person, referencing a locale object. Captures the regional/formatting preference (e.g., date and number formats) the person had before it was updated.'),
+   example_values(),
+   synonyms('region setting',
+         'regional preference',
+         'country locale'),
+   target('locale__sys'),
+   target_label('Locale'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

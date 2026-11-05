@@ -1,0 +1,56 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.mc_cycle__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="mc_cycle_status__v" />
+            <vault:field reference="over_reached_threshold__v" />
+            <vault:field reference="under_reached_threshold__v" />
+            <vault:field reference="country_user__v" />
+            <vault:field reference="aln_clone_source__v" />
+            <vault:field reference="aln_country__v" />
+            <vault:field reference="aln_cycle_capacity__v" />
+            <vault:field reference="aln_days_in_cycle__v" />
+            <vault:field reference="aln_days_off_cycle__v" />
+            <vault:field reference="aln_end_datetime__v" />
+            <vault:field reference="aln_field_force__v" />
+            <vault:field reference="aln_field_force_model__v" />
+            <vault:field reference="aln_legacy_align_id__v" />
+            <vault:field reference="aln_lower_utilization_threshold__v" />
+            <vault:field reference="aln_start_datetime__v" />
+            <vault:field reference="aln_support_child_account_targets__v" />
+            <vault:field reference="aln_territory_assigned_accounts__v" />
+            <vault:field reference="aln_territory_assigned_targets__v" />
+            <vault:field reference="aln_territory_capacity__v" />
+            <vault:field reference="aln_upper_utilization_threshold__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="MC Cycle Channels" name="mc_cycle_channels__c">
+        <vault:relatedObject relationship="mc_cycle_channels__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object_type__v" width="200px" />
+            <vault:field reference="channel_object__v" width="200px" />
+            <vault:field reference="channel_label__v" width="200px" />
+            <vault:field reference="channel_weight__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Cycle Plan" name="cycle_plan__c">
+        <vault:relatedObject relationship="mc_cycle_plans__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="channel_interactions_goal__v" width="200px" />
+            <vault:field reference="channel_interactions_earned__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

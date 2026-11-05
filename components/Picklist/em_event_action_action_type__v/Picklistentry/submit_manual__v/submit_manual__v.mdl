@@ -1,0 +1,5 @@
+Picklistentry submit_manual__v (
+   value('Submit_Manual'),
+   order(0),
+   active(false)
+);

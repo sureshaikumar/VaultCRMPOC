@@ -1,0 +1,6 @@
+Message input__sys (
+   label(),
+   active(true),
+   default_value('Input'),
+   system_managed(true)
+);

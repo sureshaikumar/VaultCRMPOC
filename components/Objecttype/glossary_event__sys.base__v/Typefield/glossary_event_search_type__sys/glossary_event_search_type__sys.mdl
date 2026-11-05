@@ -1,0 +1,4 @@
+Typefield glossary_event_search_type__sys (
+   source('standard'),
+   required(true)
+);

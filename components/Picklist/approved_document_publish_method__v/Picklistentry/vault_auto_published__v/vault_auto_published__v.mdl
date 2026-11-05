@@ -1,0 +1,5 @@
+Picklistentry vault_auto_published__v (
+   value('Vault Auto Published'),
+   order(0),
+   active(true)
+);

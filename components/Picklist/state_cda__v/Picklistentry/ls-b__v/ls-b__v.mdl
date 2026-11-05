@@ -1,0 +1,6 @@
+Picklistentry ls-b__v (
+   value('Butha-Buthe'),
+   order(2610),
+   active(true),
+   controlling_entries('ls__v')
+);

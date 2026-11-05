@@ -1,0 +1,6 @@
+Picklistentry so-so__v (
+   value('Sool'),
+   order(4238),
+   active(true),
+   controlling_entries('so__v')
+);

@@ -1,0 +1,6 @@
+Message mccp_feedback_transfer_conflict_text_2__v (
+   label(),
+   active(true),
+   default_value('This action cannot be completed because of a conflicting transfer request.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry pacific_pago_pago__sys (
+   value('(GMT-11:00) Samoa Standard Time (Pacific/Pago_Pago)'),
+   order(1),
+   active(true)
+);

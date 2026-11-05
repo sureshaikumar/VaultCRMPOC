@@ -1,0 +1,6 @@
+Picklistentry es-cl__v (
+   value('Castilla y León'),
+   order(1207),
+   active(true),
+   controlling_entries('es__v')
+);

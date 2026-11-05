@@ -1,0 +1,19 @@
+Field account_group__v (
+   label('Account Group'),
+   type('String'),
+   active(true),
+   description('When populated, marks this account as a member of the designated group of accounts. The Account Group name must be an exact literal match across all accounts that are members of this group.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

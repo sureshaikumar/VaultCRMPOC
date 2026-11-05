@@ -1,0 +1,6 @@
+Message mc_cycle_channel_weight_required__v (
+   label(),
+   active(true),
+   default_value('Weight*'),
+   system_managed(false)
+);

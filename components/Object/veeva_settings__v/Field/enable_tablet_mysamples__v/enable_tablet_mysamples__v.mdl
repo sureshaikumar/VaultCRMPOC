@@ -1,0 +1,18 @@
+Field enable_tablet_mysamples__v (
+   label('ENABLE_TABLET_MYSAMPLES'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the My Samples tab is available in the VMobile Tablet application.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(159),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

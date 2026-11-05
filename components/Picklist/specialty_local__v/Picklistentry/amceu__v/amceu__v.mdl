@@ -1,0 +1,9 @@
+Picklistentry amceu__v (
+   value('Acute Medicine'),
+   order(10),
+   active(true),
+   controlling_entries('be__v',
+         'ci__v',
+         'fi__v',
+         'lu__v')
+);

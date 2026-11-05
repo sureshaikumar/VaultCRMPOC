@@ -1,0 +1,17 @@
+Field members_mandated_to_purchase_off_contra__c (
+   label('Members Mandated to Purchase Off Contra'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Are your members mandated to purchase pharmaceuticals off your GPO membership''s contract?'),
+   list_column(false),
+   order(175),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

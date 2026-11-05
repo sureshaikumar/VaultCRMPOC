@@ -1,0 +1,6 @@
+Message integration_history_process__v (
+   label(),
+   active(true),
+   default_value('Process'),
+   system_managed(false)
+);

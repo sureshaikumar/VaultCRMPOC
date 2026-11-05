@@ -1,0 +1,7 @@
+RECREATE Picklist alternate_cdn__v (
+   label('Alternate CDN'),
+   active(true),
+   Picklistentry(@Picklistentry/cn__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

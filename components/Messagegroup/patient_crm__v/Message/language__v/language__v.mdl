@@ -1,0 +1,6 @@
+Message language__v (
+   label(),
+   active(true),
+   default_value('Language'),
+   system_managed(false)
+);

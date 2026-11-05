@@ -1,0 +1,6 @@
+Message application_profile_users_help__v (
+   label(),
+   active(true),
+   default_value('Use this tab to view which users have the application profile.'),
+   system_managed(false)
+);

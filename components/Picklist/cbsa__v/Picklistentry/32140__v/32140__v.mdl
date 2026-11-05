@@ -1,0 +1,5 @@
+Picklistentry 32140__v (
+   value('Marshall, MN Micropolitan Statistical Area'),
+   order(689),
+   active(true)
+);

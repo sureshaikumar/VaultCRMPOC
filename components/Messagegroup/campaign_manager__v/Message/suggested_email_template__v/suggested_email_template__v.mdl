@@ -1,0 +1,6 @@
+Message suggested_email_template__v (
+   label(),
+   active(true),
+   default_value('Suggested Email Template'),
+   system_managed(false)
+);

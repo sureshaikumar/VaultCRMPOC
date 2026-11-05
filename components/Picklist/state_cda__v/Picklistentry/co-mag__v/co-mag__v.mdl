@@ -1,0 +1,6 @@
+Picklistentry co-mag__v (
+   value('Magdalena'),
+   order(746),
+   active(true),
+   controlling_entries('co__v')
+);

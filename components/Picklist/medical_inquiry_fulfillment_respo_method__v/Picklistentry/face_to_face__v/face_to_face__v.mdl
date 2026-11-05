@@ -1,0 +1,5 @@
+Picklistentry face_to_face__v (
+   value('Face to Face'),
+   order(0),
+   active(true)
+);

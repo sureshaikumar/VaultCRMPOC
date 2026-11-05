@@ -1,0 +1,4 @@
+Typefield external_calendar_event_id__v (
+   source('standard'),
+   required(false)
+);

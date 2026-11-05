@@ -1,0 +1,5 @@
+Picklistentry america_phoenix__v (
+   value('Mountain Time (Phoenix)'),
+   order(74),
+   active(true)
+);

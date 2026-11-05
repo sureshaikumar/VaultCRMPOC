@@ -1,0 +1,6 @@
+Message valid_for_sampling__v (
+   label(),
+   active(true),
+   default_value('Valid for Sampling'),
+   system_managed(false)
+);

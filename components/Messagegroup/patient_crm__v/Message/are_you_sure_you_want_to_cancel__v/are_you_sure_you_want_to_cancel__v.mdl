@@ -1,0 +1,6 @@
+Message are_you_sure_you_want_to_cancel__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to cancel? Any changes you have made will be discarded.'),
+   system_managed(false)
+);

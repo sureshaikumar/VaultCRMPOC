@@ -1,0 +1,12 @@
+RECREATE Jobmetadata remote_meeting_processes_job__v (
+   label('Remote Meeting Scheduled Processes'),
+   active(true),
+   chunk_size(1),
+   description('Recurring job to kick off remote meeting processes.'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.engage.jobs.RemoteMeetingScheduledProcessesJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

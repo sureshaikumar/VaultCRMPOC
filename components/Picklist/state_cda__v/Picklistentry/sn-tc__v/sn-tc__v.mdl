@@ -1,0 +1,6 @@
+Picklistentry sn-tc__v (
+   value('Tambacounda'),
+   order(4220),
+   active(true),
+   controlling_entries('sn__v')
+);

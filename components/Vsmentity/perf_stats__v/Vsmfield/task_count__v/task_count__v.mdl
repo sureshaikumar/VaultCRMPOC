@@ -1,0 +1,11 @@
+Vsmfield task_count__v (
+   label('Task Count'),
+   active(true),
+   description('Total number of open tasks'),
+   example_values(),
+   synonyms(),
+   target('task_count__v'),
+   target_label('Task Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

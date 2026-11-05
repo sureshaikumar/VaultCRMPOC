@@ -1,0 +1,19 @@
+Field profile_id__v (
+   label('Profile'),
+   type('String'),
+   active(true),
+   description('Stores the Profile ID that the row of data applies to.  If the value is null or blank then it applies to all.  If the Profile ID is present then it will override any rows with null or blank values and the same object.'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

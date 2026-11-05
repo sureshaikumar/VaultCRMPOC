@@ -1,0 +1,6 @@
+Message content_group_assign_cg_info_text_2__v (
+   label(),
+   active(true),
+   default_value('{0}: Assigns the Content Group to all Roster Members related to territories in the selected Field Force.'),
+   system_managed(false)
+);

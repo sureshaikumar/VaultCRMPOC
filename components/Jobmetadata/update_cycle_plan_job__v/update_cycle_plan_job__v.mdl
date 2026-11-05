@@ -1,0 +1,10 @@
+RECREATE Jobmetadata update_cycle_plan_job__v (
+   label('Update Cycle Plan Job'),
+   active(true),
+   chunk_size(1),
+   description('A job that updates cycle plan targets and cycle plan details'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.pl3callreport.jobs.UpdateCyclePlanJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

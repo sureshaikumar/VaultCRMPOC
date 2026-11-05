@@ -1,0 +1,13 @@
+Vsmrelationship integration__v (
+   label('Integration'),
+   active(true),
+   cardinality('ONE_TO_MANY'),
+   description('Inbound relationship to integration records that utilize this connection. Use this to find all integrations dependent on this connection or to assess the impact of modifying or disabling it.'),
+   join_object(),
+   synonyms('integration',
+         'linked integration',
+         'associated integration'),
+   target('integration__sysr'),
+   target_label('Integration'),
+   target_object('integration__sys')
+);

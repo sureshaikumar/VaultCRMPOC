@@ -1,0 +1,24 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.vault_clinical_site__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="lifecycle_state__v" />
+            <vault:field reference="principal_investigator_text__v" />
+            <vault:field reference="site_name_text__v" />
+            <vault:field reference="site_number__v" />
+            <vault:field reference="vault_clinical_external_id__v" />
+            <vault:field reference="vault_clinical_org_external_id__v" />
+            <vault:field reference="vault_clinical_status__v" />
+            <vault:field reference="legacy_crm_id__v" />
+            <vault:field reference="principal_investigator_lookup__v" />
+            <vault:field reference="study_country__v" />
+            <vault:field reference="study_name__v" />
+            <vault:field reference="site_status__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

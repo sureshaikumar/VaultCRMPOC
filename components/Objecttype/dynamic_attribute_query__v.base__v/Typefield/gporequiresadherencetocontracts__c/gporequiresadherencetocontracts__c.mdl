@@ -1,0 +1,4 @@
+Typefield gporequiresadherencetocontracts__c (
+   source('standard'),
+   required(false)
+);

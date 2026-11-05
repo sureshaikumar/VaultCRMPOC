@@ -1,0 +1,6 @@
+Message wd_int_workday_report_header__v (
+   label(),
+   active(true),
+   default_value('Workday Report Header'),
+   system_managed(false)
+);

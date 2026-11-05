@@ -1,0 +1,4 @@
+Typefield report_category__c (
+   source('standard'),
+   required(false)
+);

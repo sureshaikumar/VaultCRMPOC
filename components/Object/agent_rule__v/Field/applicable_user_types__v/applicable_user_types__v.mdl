@@ -1,0 +1,18 @@
+Field applicable_user_types__v (
+   label('Applicable User Types'),
+   type('Picklist'),
+   active(true),
+   description('A picklist of all user types to which the rule should be applied.'),
+   required(false),
+   unique(false),
+   help_content('Select each user type to which the rule applies.'),
+   list_column(false),
+   order(21),
+   multi_value(true),
+   picklist('Picklist.user_user_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

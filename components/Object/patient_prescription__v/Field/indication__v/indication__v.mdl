@@ -1,0 +1,19 @@
+Field indication__v (
+   label('Indication'),
+   type('String'),
+   active(true),
+   description('The specific medical condition, symptom, or purpose for which the drug is prescribed and is the reason a patient is taking the medication.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(true),
+   order(24),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

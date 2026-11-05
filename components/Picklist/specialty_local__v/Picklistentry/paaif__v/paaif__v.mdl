@@ -1,0 +1,7 @@
+Picklistentry paaif__v (
+   value('Pediatric Allergology and Immunology'),
+   order(1308),
+   active(true),
+   controlling_entries('am__v',
+         'hr__v')
+);

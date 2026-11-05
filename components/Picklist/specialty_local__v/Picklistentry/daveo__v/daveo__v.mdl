@@ -1,0 +1,6 @@
+Picklistentry daveo__v (
+   value('Dermatology and Venerology'),
+   order(399),
+   active(true),
+   controlling_entries('mu__v')
+);

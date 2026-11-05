@@ -1,0 +1,18 @@
+Field share_channel__v (
+   label('Share Channel'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('This describes the channel through which the key message was shared.'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.multichannel_activity_line_share_channel__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

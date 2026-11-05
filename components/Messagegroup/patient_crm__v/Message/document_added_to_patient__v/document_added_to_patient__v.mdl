@@ -1,0 +1,6 @@
+Message document_added_to_patient__v (
+   label(),
+   active(true),
+   default_value('Document added to Patient'),
+   system_managed(false)
+);

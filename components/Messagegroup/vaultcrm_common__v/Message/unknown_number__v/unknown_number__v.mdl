@@ -1,0 +1,6 @@
+Message unknown_number__v (
+   label(),
+   active(true),
+   default_value('Unknown Number'),
+   system_managed(false)
+);

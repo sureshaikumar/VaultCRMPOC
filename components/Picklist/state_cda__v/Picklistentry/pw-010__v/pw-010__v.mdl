@@ -1,0 +1,6 @@
+Picklistentry pw-010__v (
+   value('Angaur'),
+   order(3676),
+   active(true),
+   controlling_entries('pw__v')
+);

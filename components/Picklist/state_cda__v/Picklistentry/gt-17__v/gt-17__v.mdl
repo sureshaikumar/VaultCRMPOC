@@ -1,0 +1,6 @@
+Picklistentry gt-17__v (
+   value('Petén'),
+   order(1796),
+   active(true),
+   controlling_entries('gt__v')
+);

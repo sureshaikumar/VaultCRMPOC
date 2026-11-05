@@ -1,0 +1,18 @@
+Field hide_clm_thumbnails_in_all_dir_view__v (
+   label('Hide CLM Thumbnails In All Dir View'),
+   type('Boolean'),
+   active(true),
+   description('False: Thumbnails display in "CLM Presentations" and "Training Presentations" Directories. True: Thumbnails do not display in "CLM Presentations" and "Training Presentations" Directories.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(22),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

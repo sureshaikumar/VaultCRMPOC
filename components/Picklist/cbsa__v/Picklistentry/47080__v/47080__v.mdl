@@ -1,0 +1,5 @@
+Picklistentry 47080__v (
+   value('Vidalia, GA Micropolitan Statistical Area'),
+   order(230),
+   active(true)
+);

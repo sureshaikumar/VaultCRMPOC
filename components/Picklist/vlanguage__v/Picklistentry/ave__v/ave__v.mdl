@@ -1,0 +1,5 @@
+Picklistentry ave__v (
+   value('Avestan'),
+   order(23),
+   active(false)
+);

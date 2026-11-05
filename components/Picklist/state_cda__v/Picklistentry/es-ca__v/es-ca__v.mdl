@@ -1,0 +1,6 @@
+Picklistentry es-ca__v (
+   value('Cádiz'),
+   order(1203),
+   active(true),
+   controlling_entries('es__v')
+);

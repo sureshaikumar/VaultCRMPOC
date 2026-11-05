@@ -1,0 +1,6 @@
+Picklistentry ru-mos__v (
+   value('Moskovskaya oblast'''),
+   order(3831),
+   active(true),
+   controlling_entries('ru__v')
+);

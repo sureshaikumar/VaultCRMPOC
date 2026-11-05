@@ -1,0 +1,17 @@
+Field calendar_effective_date__v (
+   label('Calendar Effective Date'),
+   type('Date'),
+   active(true),
+   description('The effective date or start date of Sample Consent periods when using Calendar based Expiration Dates. If the Calendar_Effective_Date_vod field is set to 2015-01-01 and the Expiration_Threshold_vod is set to 12, the Expiration Date of a Sample Consent rec'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

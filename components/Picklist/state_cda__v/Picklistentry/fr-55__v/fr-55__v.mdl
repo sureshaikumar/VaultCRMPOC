@@ -1,0 +1,6 @@
+Picklistentry fr-55__v (
+   value('Meuse'),
+   order(1371),
+   active(true),
+   controlling_entries('fr__v')
+);

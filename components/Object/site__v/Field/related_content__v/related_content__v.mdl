@@ -1,0 +1,19 @@
+Field related_content__v (
+   label('Related Content'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Indicates where the Related Content Container will appear in relation to the Engage Player.'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.site_related_content__v'),
+   default_value('{disabled__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

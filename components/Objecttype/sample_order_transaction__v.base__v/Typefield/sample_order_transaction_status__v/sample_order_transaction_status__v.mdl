@@ -1,0 +1,4 @@
+Typefield sample_order_transaction_status__v (
+   source('standard'),
+   required(false)
+);

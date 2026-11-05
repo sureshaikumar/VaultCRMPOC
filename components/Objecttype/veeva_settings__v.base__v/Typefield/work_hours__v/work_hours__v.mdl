@@ -1,0 +1,4 @@
+Typefield work_hours__v (
+   source('standard'),
+   required(false)
+);

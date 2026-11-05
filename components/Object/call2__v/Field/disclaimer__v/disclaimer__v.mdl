@@ -1,0 +1,17 @@
+Field disclaimer__v (
+   label('Disclaimer'),
+   type('LongText'),
+   active(true),
+   description('Used to record sample disclaimer used if a disbursement was made. This value is copied in to the sample transaction object via a trigger. It is maintained on call header for synchronization purposes.'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(62),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

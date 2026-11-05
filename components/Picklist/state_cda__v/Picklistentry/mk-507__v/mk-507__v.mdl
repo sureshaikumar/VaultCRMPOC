@@ -1,0 +1,6 @@
+Picklistentry mk-507__v (
+   value('Novaci'),
+   order(3009),
+   active(true),
+   controlling_entries('mk__v')
+);

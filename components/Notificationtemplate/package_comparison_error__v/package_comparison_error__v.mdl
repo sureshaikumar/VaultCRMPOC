@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate package_comparison_error__v (
+   label('Package Comp Comparison Error'),
+   active(true),
+   description('Package component comparison error template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Unable to Complete Package Component Comparison'),
+   notification('<b><p>An error has occurred processing the Package Comparison for Inbound Package ${package_name}. Please resubmit your request.</p></b>'),
+   email_body('<b><p>An error has occurred processing the Package Comparison for Inbound Package ${package_name}. Please resubmit your request.</p></b>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

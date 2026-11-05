@@ -1,0 +1,4 @@
+Typefield product_journey_stage__v (
+   source('standard'),
+   required(false)
+);

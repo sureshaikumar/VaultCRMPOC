@@ -1,0 +1,5 @@
+Picklistentry 10760__v (
+   value('Alexander City, AL Micropolitan Statistical Area'),
+   order(519),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield custom_text__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,8 @@
+Picklistentry iatdn__v (
+   value('Infectious and Tropical Diseases'),
+   order(754),
+   active(true),
+   controlling_entries('fr__v',
+         'it__v',
+         'mc__v')
+);

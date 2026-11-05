@@ -1,0 +1,6 @@
+Picklistentry dty_standard_operating_procedure__sys (
+   value('Standard Operating Procedure'),
+   order(161),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

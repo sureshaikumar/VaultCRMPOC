@@ -1,0 +1,17 @@
+Field vmi_html_formatted_insight__v (
+   label('HTML Formatted Insight'),
+   type('LongText'),
+   active(true),
+   description('Stores the Description of the Medical Insight with links to the tagged entities in Veeva Medical Insights.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

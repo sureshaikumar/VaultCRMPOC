@@ -1,0 +1,18 @@
+Field text_monitoring_block_save__v (
+   label('Text Monitoring Prevent Save and Submit'),
+   type('Boolean'),
+   active(true),
+   description('When TRUE, the agent will prevent the user from saving or submitting a record unless 1) the agent has checked all free text entries, and 2) any issues detected by the agent have been resolved. When FALSE, the agent will allow the user to save or submit a record that 1) has not been checked by the agent (ex. working on iPad in offline mode) or 2) without resolving issues detected by the agent.'),
+   required(true),
+   checkbox(false),
+   help_content('Choose whether the Text Monitoring Agent prevents the end user from saving or submitting a record with potential compliance issues.'),
+   list_column(true),
+   order(13),
+   default_value('TRUE'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

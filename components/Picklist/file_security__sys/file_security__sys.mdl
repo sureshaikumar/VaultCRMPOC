@@ -1,0 +1,11 @@
+RECREATE Picklist file_security__sys (
+   label('File Security'),
+   active(true),
+   Picklistentry(@Picklistentry/no_protection__sys.mdl),
+   Picklistentry(@Picklistentry/read_only__sys.mdl),
+   Picklistentry(@Picklistentry/no_read_access__sys.mdl),
+   Picklistentry(@Picklistentry/restricted_permissions__sys.mdl),
+   Picklistentry(@Picklistentry/signed_certified__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry ch-gl__v (
+   value('Glarus'),
+   order(635),
+   active(true),
+   controlling_entries('ch__v')
+);

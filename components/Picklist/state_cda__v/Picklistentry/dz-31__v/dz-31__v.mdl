@@ -1,0 +1,6 @@
+Picklistentry dz-31__v (
+   value('Oran'),
+   order(1012),
+   active(true),
+   controlling_entries('dz__v')
+);

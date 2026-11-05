@@ -1,0 +1,6 @@
+Picklistentry neurs__v (
+   value('Neuroimmunology'),
+   order(1010),
+   active(true),
+   controlling_entries('hr__v')
+);

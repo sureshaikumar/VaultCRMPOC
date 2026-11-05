@@ -1,0 +1,4 @@
+Typefield product_weight__v (
+   source('standard'),
+   required(true)
+);

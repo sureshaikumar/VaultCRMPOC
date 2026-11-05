@@ -1,0 +1,6 @@
+Message no_fls_allocation_percent__v (
+   label(),
+   active(true),
+   default_value('You do not have the required permissions to edit budget allocations.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry poene__v (
+   value('Pediatric Oncohematology'),
+   order(1423),
+   active(true),
+   controlling_entries('ge__v')
+);

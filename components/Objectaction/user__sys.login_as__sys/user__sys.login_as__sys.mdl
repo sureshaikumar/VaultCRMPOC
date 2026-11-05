@@ -1,0 +1,8 @@
+RECREATE Objectaction user__sys.login_as__sys (
+   label('Log In As'),
+   description('Administrators with the appropriate credentials can Log in as a user'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.user.LoginAs'),
+   active(true),
+   available_all_states(true)
+);

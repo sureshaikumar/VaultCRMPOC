@@ -1,0 +1,6 @@
+Picklistentry gh-ot__v (
+   value('Oti'),
+   order(1697),
+   active(true),
+   controlling_entries('gh__v')
+);

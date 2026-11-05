@@ -1,0 +1,6 @@
+Picklistentry bs-ci__v (
+   value('Cat Island'),
+   order(483),
+   active(true),
+   controlling_entries('bs__v')
+);

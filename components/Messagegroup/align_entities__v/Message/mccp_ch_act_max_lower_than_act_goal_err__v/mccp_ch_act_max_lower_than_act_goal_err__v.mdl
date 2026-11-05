@@ -1,0 +1,6 @@
+Message mccp_ch_act_max_lower_than_act_goal_err__v (
+   label(),
+   active(true),
+   default_value('Channel {0} activity max {1} must be equal to or greater than its activity goal {2}'),
+   system_managed(false)
+);

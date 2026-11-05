@@ -1,0 +1,7 @@
+Picklistentry miemd__v (
+   value('Medical Imaging'),
+   order(915),
+   active(true),
+   controlling_entries('kr__v',
+         'tn__v')
+);

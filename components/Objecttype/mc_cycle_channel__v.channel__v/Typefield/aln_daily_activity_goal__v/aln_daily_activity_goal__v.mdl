@@ -1,0 +1,4 @@
+Typefield aln_daily_activity_goal__v (
+   source('standard'),
+   required(false)
+);

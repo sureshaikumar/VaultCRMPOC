@@ -1,0 +1,6 @@
+Picklistentry mk-103__v (
+   value('Demir Kapija'),
+   order(2966),
+   active(true),
+   controlling_entries('mk__v')
+);

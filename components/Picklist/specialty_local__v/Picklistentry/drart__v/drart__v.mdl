@@ -1,0 +1,6 @@
+Picklistentry drart__v (
+   value('Diagnostic Radiography and Radiation Therapy'),
+   order(436),
+   active(true),
+   controlling_entries('au__v')
+);

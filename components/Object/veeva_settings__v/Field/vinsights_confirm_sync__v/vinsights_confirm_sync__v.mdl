@@ -1,0 +1,18 @@
+Field vinsights_confirm_sync__v (
+   label('VINSIGHTS_CONFIRM_SYNC'),
+   type('Boolean'),
+   active(true),
+   description('When checked, users will be prompted to choose whether to begin VInsights sync or not.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(308),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

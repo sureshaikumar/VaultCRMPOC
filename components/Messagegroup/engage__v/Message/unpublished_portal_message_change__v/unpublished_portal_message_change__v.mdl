@@ -1,0 +1,6 @@
+Message unpublished_portal_message_change__v (
+   label(),
+   active(true),
+   default_value('Unpublished Default ${customer_message_label} Changes'),
+   system_managed(false)
+);

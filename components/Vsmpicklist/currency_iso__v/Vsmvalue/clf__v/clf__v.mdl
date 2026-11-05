@@ -1,0 +1,10 @@
+Vsmvalue clf__v (
+   label('CLF'),
+   active(true),
+   description('Use when recording monetary amounts in Chile''s Unidad de Fomento, an inflation-indexed unit of account used in financial and real estate transactions.'),
+   synonyms('Chilean Unidad de Fomento',
+         'Chile UF',
+         'CLF index unit'),
+   target('clf__sys'),
+   target_label('CLF')
+);

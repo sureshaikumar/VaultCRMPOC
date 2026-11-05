@@ -1,0 +1,5 @@
+Picklistentry ml__v (
+   value('Malayalam'),
+   order(206),
+   active(false)
+);

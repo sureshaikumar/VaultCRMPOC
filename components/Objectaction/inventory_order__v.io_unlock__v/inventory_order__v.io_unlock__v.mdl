@@ -1,0 +1,8 @@
+RECREATE Objectaction inventory_order__v.io_unlock__v (
+   label('Unlock'),
+   description('This action unlocks the record for editing and sets the inventory order status to saved.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.inventoryorder.actions.InventoryOrderUnlockAction'),
+   active(true),
+   available_all_states(false)
+);

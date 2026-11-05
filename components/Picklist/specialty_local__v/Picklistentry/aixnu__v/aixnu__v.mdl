@@ -1,0 +1,6 @@
+Picklistentry aixnu__v (
+   value('Anesthesia and Intensive Care Nursing'),
+   order(70),
+   active(true),
+   controlling_entries('ee__v')
+);

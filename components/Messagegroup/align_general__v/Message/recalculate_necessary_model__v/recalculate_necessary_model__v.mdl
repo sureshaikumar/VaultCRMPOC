@@ -1,0 +1,6 @@
+Message recalculate_necessary_model__v (
+   label(),
+   active(true),
+   default_value('Recalculation is only necessary if alignment or targeting data is loaded into the model.'),
+   system_managed(false)
+);

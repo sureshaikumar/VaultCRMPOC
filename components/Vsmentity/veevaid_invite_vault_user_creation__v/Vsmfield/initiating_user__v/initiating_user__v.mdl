@@ -1,0 +1,14 @@
+Vsmfield initiating_user__v (
+   label('Initiating User'),
+   active(true),
+   description('Reference to the Vault user who initiated or triggered the VeevaID invite and user creation process. Use to audit who requested a new user be provisioned or to filter records by requestor.'),
+   example_values(),
+   synonyms('initiated by',
+         'triggered by',
+         'requested by',
+         'created by user'),
+   target('initiating_user__sys'),
+   target_label('Initiating User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

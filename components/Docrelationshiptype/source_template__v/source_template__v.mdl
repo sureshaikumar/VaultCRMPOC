@@ -1,0 +1,11 @@
+RECREATE Docrelationshiptype source_template__v (
+   label('Source Template'),
+   active(true),
+   single_use(false),
+   target_doctype('account_plan_export_template__v'),
+   source_version_specific(true),
+   carry_forward_source_specific(true),
+   target_version_specific(true),
+   carry_forward_target_specific(true),
+   relationship_filter()
+);

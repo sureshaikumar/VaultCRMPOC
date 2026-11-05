@@ -1,0 +1,20 @@
+Field commercial_insights_columns__v (
+   label('Commercial Insights Columns'),
+   type('String'),
+   active(true),
+   description('Comma delimited list of fields to show as columns on the Commercial Insights tab. Maximum number of fields is 15.'),
+   required(false),
+   unique(false),
+   max_length(700),
+   help_content(),
+   list_column(false),
+   order(350),
+   default_value('"date__v,summary__v,insight__v,account__v,product__v,commercial_insight_status__v"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

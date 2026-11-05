@@ -1,0 +1,6 @@
+Message page_load_error_title__v (
+   label(),
+   active(true),
+   default_value('Could Not Load Page'),
+   system_managed(false)
+);

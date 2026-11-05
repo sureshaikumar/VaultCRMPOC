@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:dialog type="wad" name="start__c">
+    <vwf:label>Start</vwf:label>
+    <vwf:controls>
+      <vwf:control name="you_are_about_to_start_approval_for_d__c" label="You are about to start Approval for &quot;$\{docName\}&quot;. Please complete the following fields to begin this workflow" type="instructions">
+        <vwf:instructions>You are about to start Approval for "$\{docName\}". Please complete the following fields to begin this workflow</vwf:instructions>
+      </vwf:control>
+      <vwf:control name="part_approver__c" label="Approver" type="participant">
+        <vwf:constrainroles>
+          <vwf:role reference="Doclifecyclerole.approver__v" />
+        </vwf:constrainroles>
+        <vwf:allowedgroup enabled="true" />
+        <vwf:defaultusers enabled="true" />
+      </vwf:control>
+      <vwf:control name="date_approval_due_date__c" label="Approval Due Date" type="date">
+        <vwf:datefield type="date" />
+      </vwf:control>
+    </vwf:controls>
+  </vwf:dialog>
+</vwf:stepdetails>

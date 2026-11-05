@@ -1,0 +1,6 @@
+Picklistentry cu-16__v (
+   value('Mayabeque'),
+   order(781),
+   active(true),
+   controlling_entries('cu__v')
+);

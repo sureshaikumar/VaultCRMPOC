@@ -1,0 +1,19 @@
+Field type__v (
+   label('Type'),
+   type('Picklist'),
+   active(true),
+   description('Data change request type.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(33),
+   multi_value(false),
+   picklist('Picklist.data_change_request_type__v'),
+   default_value('{edit__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

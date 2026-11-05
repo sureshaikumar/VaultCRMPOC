@@ -1,0 +1,6 @@
+Picklistentry cd-mo__v (
+   value('Mongala'),
+   order(589),
+   active(true),
+   controlling_entries('cd__v')
+);

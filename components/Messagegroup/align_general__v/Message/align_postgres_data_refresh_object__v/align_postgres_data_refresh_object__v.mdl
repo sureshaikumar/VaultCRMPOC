@@ -1,0 +1,6 @@
+Message align_postgres_data_refresh_object__v (
+   label(),
+   active(true),
+   default_value('Refresh Object'),
+   system_managed(false)
+);

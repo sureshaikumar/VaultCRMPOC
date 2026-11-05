@@ -1,0 +1,6 @@
+Message territory_product_inheritance_no_edit__v (
+   label(),
+   active(true),
+   default_value('Territory Product created by a Field Force Product may not be manually altered.'),
+   system_managed(false)
+);

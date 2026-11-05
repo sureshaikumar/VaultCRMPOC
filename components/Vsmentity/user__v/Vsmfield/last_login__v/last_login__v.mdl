@@ -1,0 +1,11 @@
+Vsmfield last_login__v (
+   label('Last Login'),
+   active(true),
+   description('The most recent datetime the user logged in'),
+   example_values(),
+   synonyms(),
+   target('last_login__sys'),
+   target_label('Last Login'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

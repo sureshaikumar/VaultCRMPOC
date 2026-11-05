@@ -1,0 +1,6 @@
+Picklistentry bt-41__v (
+   value('Trashigang'),
+   order(523),
+   active(true),
+   controlling_entries('bt__v')
+);

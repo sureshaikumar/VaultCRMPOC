@@ -1,0 +1,18 @@
+Field score_display__v (
+   label('Score Display'),
+   type('Picklist'),
+   active(true),
+   description('Setting which indicates score display'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(22),
+   multi_value(true),
+   picklist('Picklist.survey_score_display__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

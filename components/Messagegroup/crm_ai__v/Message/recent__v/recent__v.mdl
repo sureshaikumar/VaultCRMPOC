@@ -1,0 +1,6 @@
+Message recent__v (
+   label(),
+   active(true),
+   default_value('Recent'),
+   system_managed(false)
+);

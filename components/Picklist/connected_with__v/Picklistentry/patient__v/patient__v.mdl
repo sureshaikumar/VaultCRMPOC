@@ -1,0 +1,5 @@
+Picklistentry patient__v (
+   value('Patient'),
+   order(0),
+   active(true)
+);

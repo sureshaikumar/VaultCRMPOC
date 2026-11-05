@@ -1,0 +1,6 @@
+Message excluded_sources_label__v (
+   label(),
+   active(true),
+   default_value('Excluded Sources'),
+   system_managed(false)
+);

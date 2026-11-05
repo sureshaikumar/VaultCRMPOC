@@ -1,0 +1,4 @@
+Typefield manage_crm_features__v (
+   source('standard'),
+   required(false)
+);

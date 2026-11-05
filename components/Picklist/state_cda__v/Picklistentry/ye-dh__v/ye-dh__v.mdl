@@ -1,0 +1,6 @@
+Picklistentry ye-dh__v (
+   value('Dhamār'),
+   order(5000),
+   active(true),
+   controlling_entries('ye__v')
+);

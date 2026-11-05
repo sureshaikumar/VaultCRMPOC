@@ -1,0 +1,6 @@
+Message mark_as_state__v (
+   label(),
+   active(true),
+   default_value('Mark as ${case_state_label}'),
+   system_managed(false)
+);

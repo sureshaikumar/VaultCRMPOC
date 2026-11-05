@@ -1,0 +1,15 @@
+Fieldrule call_channel__v (
+   label('Channel'),
+   active(true),
+   query_object('crm_activity__v'),
+   query_field('channel__v'),
+   target_object('Object.call2__v'),
+   target_object_field('Field.call_channel__v'),
+   target_docfield(),
+   reference_lookup_type('picklist'),
+   reference_lookup('channels__v'),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_picklist__sys'),
+   target_field_lookup()
+);

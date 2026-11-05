@@ -1,0 +1,6 @@
+Message rule_criteria_invalid_geo_operators__v (
+   label(),
+   active(true),
+   default_value('Different "matches territory''s geographies" operators cannot be used in the same criteria.'),
+   system_managed(false)
+);

@@ -1,0 +1,11 @@
+RECREATE Pagelink order_copy_pagelink__v (
+   label('Order Copy'),
+   description('Redirects Copy requests to the Order Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/copy'),
+   mode('Copy'),
+   page_type('Object'),
+   object('Object.order__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.order_detail_page__v')
+);

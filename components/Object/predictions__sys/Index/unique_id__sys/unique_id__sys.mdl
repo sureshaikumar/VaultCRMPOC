@@ -1,0 +1,5 @@
+Index unique_id__sys (
+   description(),
+   fields('unique_id__sys'),
+   label('Related Record Unique ID')
+);

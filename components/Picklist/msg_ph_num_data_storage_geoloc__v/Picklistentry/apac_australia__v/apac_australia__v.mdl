@@ -1,0 +1,5 @@
+Picklistentry apac_australia__v (
+   value('APAC - Australia'),
+   order(0),
+   active(true)
+);

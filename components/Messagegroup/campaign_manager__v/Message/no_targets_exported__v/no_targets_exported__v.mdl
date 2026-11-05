@@ -1,0 +1,6 @@
+Message no_targets_exported__v (
+   label(),
+   active(true),
+   default_value('No targets exported'),
+   system_managed(false)
+);

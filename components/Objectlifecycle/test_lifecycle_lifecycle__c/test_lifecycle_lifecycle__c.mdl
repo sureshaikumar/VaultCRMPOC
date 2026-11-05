@@ -1,0 +1,21 @@
+RECREATE Objectlifecycle test_lifecycle_lifecycle__c (
+   label('test lifecycle T2'),
+   state_labels(),
+   labeled_states(),
+   active(true),
+   starting_state('Objectlifecyclestate.active_state__c'),
+   description('test lifecycle creted by team 2'),
+   Objectlifecyclestate(@Objectlifecyclestate/active_state__c.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/in_progress_state__c.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/inactive_state__c.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/owner__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/editor__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/viewer__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_edit__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_delete__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_edit__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_delete__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/viewer_read__c.mdl)
+);

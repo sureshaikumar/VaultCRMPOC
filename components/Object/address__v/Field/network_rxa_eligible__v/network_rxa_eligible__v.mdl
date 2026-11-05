@@ -1,0 +1,18 @@
+Field network_rxa_eligible__v (
+   label('Network RXA Eligible'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Contains the sample eligibility status of the HCP associated with this address, as reflected in Veeva OpenData. The field is mapped to rxa_eligible__v from Network.'),
+   list_column(false),
+   order(60),
+   multi_value(false),
+   picklist('Picklist.address_network_rxa_eligible__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

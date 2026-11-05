@@ -1,0 +1,6 @@
+Picklistentry eomrc__v (
+   value('Ergonomics Occupational Medicine'),
+   order(524),
+   active(true),
+   controlling_entries('id__v')
+);

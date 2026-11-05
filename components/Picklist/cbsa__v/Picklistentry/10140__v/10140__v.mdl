@@ -1,0 +1,5 @@
+Picklistentry 10140__v (
+   value('Aberdeen, WA Micropolitan Statistical Area'),
+   order(448),
+   active(true)
+);

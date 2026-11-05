@@ -1,0 +1,6 @@
+Picklistentry ie-lm__v (
+   value('Leitrim'),
+   order(1976),
+   active(true),
+   controlling_entries('ie__v')
+);

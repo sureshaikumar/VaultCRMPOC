@@ -1,0 +1,6 @@
+Message asgmt_startd_greater_than_asgmt_startd__v (
+   label(),
+   active(true),
+   default_value('Cannot change a {0} Start Date to be greater than an Assignment''s Start Date.'),
+   system_managed(false)
+);

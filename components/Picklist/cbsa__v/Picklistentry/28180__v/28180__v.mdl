@@ -1,0 +1,5 @@
+Picklistentry 28180__v (
+   value('Kapaa, HI Micropolitan Statistical Area'),
+   order(195),
+   active(true)
+);

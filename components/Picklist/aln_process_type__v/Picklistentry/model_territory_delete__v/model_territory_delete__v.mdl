@@ -1,0 +1,5 @@
+Picklistentry model_territory_delete__v (
+   value('Model Territory Delete'),
+   order(12),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield checklist_section_status__sys (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,12 @@
+RECREATE Queue test1__c (
+   label('test1'),
+   active(false),
+   description(),
+   message_delivery_event_handler('Messagedeliveryeventhandler.com.veeva.vault.app.vaultcrm.core.datachangerequests.eventhandlers.VeevaNetworkDcrQueueMessageDeliveryHandler'),
+   message_delivery_event_handler_user('User.khaleel.ahmed@sb-accenture.com'),
+   message_processor(),
+   message_processor_user(),
+   rollback_on_error(true),
+   sequential(false),
+   type('outbound')
+);

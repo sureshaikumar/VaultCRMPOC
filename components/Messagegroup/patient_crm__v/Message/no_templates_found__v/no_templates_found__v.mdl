@@ -1,0 +1,6 @@
+Message no_templates_found__v (
+   label(),
+   active(true),
+   default_value('No Templates Found'),
+   system_managed(false)
+);

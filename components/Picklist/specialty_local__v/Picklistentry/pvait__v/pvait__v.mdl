@@ -1,0 +1,6 @@
+Picklistentry pvait__v (
+   value('Pathology (Virological)'),
+   order(1302),
+   active(true),
+   controlling_entries('za__v')
+);

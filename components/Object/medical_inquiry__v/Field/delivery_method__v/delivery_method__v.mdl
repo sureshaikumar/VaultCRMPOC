@@ -1,0 +1,19 @@
+Field delivery_method__v (
+   label('Delivery Method'),
+   type('Picklist'),
+   active(true),
+   description('The Delivery Method field displays a picklist of Delivery Options for the Medical Inquiry.  This field controls the display of the special zvod Delivery Control.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.medical_inquiry_delivery_method__v'),
+   default_value('{mail__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-334__v (
+   value('Nabilatuk'),
+   order(4739),
+   active(true),
+   controlling_entries('ug__v')
+);

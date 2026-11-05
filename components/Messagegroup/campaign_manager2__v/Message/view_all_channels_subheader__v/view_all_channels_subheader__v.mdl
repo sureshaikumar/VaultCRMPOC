@@ -1,0 +1,6 @@
+Message view_all_channels_subheader__v (
+   label(),
+   active(true),
+   default_value('Select to view more channels'),
+   system_managed(false)
+);

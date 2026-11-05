@@ -1,0 +1,6 @@
+Message generate_target_list_confirmation__v (
+   label(),
+   active(true),
+   default_value('You are about to create a target list based on the filters you selected'),
+   system_managed(false)
+);

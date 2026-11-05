@@ -1,0 +1,6 @@
+Message search_patient_journeys__v (
+   label(),
+   active(true),
+   default_value('Search Patient Journeys'),
+   system_managed(false)
+);

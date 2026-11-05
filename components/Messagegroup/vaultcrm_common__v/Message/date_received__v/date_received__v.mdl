@@ -1,0 +1,6 @@
+Message date_received__v (
+   label(),
+   active(true),
+   default_value('Date Received'),
+   system_managed(false)
+);

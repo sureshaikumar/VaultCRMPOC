@@ -1,0 +1,6 @@
+Message target_account_marked_do_not_call__v (
+   label(),
+   active(true),
+   default_value('${target_name}''s Account has been marked as Do Not Call'),
+   system_managed(false)
+);

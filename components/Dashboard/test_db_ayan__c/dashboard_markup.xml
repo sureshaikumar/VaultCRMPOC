@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault:dashboard xmlns:vault="VeevaVault" type="Eighteen-Columns" layoutVersion="V2" combinePromptsBy="referencedField">
+  <vault:chart name="test_db_ayan__c" label="Test DB - Ayan" type="table" report="Report.test_report_ayan__c" description="" footer="">
+    <vault:position row="0" col="0" sizeX="6" sizeY="9" />
+    <vault:format showReportName="true" groupsToDisplay="20" />
+    <vault:series metric="RecordCount">
+      <vault:grouping key="NoGrouping" value="AllValues" />
+    </vault:series>
+    <vault:tableChartReportColumns showRecordDetails="true">
+      <vault:reportColumn key="account__v.name__v" label="Account &gt; Name" property="link" />
+      <vault:reportColumn key="account__v.type__v" label="Account &gt; Account Type" property="data" />
+      <vault:reportColumn key="account__v.country_code__v" label="Account &gt; Country Code" property="data" />
+      <vault:reportColumn key="account__v.hco_name_cda__v" label="Account &gt; HCO Name" property="data" />
+      <vault:reportColumn key="account__v.id__v" label="Account &gt; ID" property="data" />
+      <vault:reportColumn key="account__v.ispersonaccount__v" label="Account &gt; Is Person Account" property="data" />
+    </vault:tableChartReportColumns>
+  </vault:chart>
+</vault:dashboard>

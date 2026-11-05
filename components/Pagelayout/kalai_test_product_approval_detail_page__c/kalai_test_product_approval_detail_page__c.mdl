@@ -1,0 +1,8 @@
+RECREATE Pagelayout kalai_test_product_approval_detail_page__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('Kalai Test Product Approval Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

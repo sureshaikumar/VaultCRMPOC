@@ -1,0 +1,6 @@
+Picklistentry vn-27__v (
+   value('Quảng Nam'),
+   order(4930),
+   active(true),
+   controlling_entries('vn__v')
+);

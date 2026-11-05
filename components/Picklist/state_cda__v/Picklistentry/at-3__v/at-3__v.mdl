@@ -1,0 +1,6 @@
+Picklistentry at-3__v (
+   value('Niederösterreich'),
+   order(123),
+   active(true),
+   controlling_entries('at__v')
+);

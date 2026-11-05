@@ -1,0 +1,6 @@
+Picklistentry gn-k__v (
+   value('Kankan (Region)'),
+   order(1732),
+   active(true),
+   controlling_entries('gn__v')
+);

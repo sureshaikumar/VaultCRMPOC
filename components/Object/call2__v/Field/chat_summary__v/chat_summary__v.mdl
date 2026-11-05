@@ -1,0 +1,17 @@
+Field chat_summary__v (
+   label('Chat Summary'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(10000),
+   help_content('Engage Connect chat message digest/summary'),
+   list_column(false),
+   order(25),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

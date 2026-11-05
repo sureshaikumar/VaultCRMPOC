@@ -1,0 +1,6 @@
+Message project_clone_aborted__v (
+   label(),
+   active(true),
+   default_value('Project cloning aborted for ${entity_name}'),
+   system_managed(false)
+);

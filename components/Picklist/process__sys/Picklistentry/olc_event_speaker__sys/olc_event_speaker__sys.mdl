@@ -1,0 +1,5 @@
+Picklistentry olc_event_speaker__sys (
+   value('Event Speaker'),
+   order(37),
+   active(true)
+);

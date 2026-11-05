@@ -1,0 +1,6 @@
+Message documentcheck_plural_label__sys (
+   label(),
+   active(true),
+   default_value('Document Checks'),
+   system_managed(false)
+);

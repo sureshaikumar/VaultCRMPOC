@@ -1,0 +1,22 @@
+Field free_goods__v (
+   label('Free Goods'),
+   type('Number'),
+   active(true),
+   description('Allow reps to enter data into this fields (change suggested values); limits of Free_Goods_Max_vod__c would apply'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

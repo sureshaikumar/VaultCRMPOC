@@ -1,0 +1,5 @@
+Picklistentry 23660__v (
+   value('Galesburg, IL Micropolitan Statistical Area'),
+   order(326),
+   active(true)
+);

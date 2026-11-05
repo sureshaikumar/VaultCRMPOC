@@ -1,0 +1,9 @@
+RECREATE Picklist service_status__v (
+   label('Service Status'),
+   active(true),
+   Picklistentry(@Picklistentry/active__v.mdl),
+   Picklistentry(@Picklistentry/inactive__v.mdl),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

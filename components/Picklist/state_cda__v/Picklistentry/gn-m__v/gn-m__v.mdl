@@ -1,0 +1,6 @@
+Picklistentry gn-m__v (
+   value('Mamou'),
+   order(1744),
+   active(true),
+   controlling_entries('gn__v')
+);

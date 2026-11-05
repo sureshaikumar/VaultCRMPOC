@@ -1,0 +1,5 @@
+Picklistentry asia_tashkent__v (
+   value('Asia/Tashkent'),
+   order(54),
+   active(true)
+);

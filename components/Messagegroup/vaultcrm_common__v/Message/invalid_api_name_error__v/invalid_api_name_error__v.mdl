@@ -1,0 +1,6 @@
+Message invalid_api_name_error__v (
+   label(),
+   active(true),
+   default_value('The API Name can only contain alphanumeric characters and underscores. It cannot start or end with an underscore or have two consecutive underscores.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message vault_error_message__v (
+   label(),
+   active(true),
+   default_value('Vault Error: {0}'),
+   system_managed(false)
+);

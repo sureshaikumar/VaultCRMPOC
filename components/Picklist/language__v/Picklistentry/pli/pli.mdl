@@ -1,0 +1,5 @@
+Picklistentry pli (
+   value('Pali'),
+   order(281),
+   active(true)
+);

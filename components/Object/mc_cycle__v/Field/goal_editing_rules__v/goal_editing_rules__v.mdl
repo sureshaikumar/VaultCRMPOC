@@ -1,0 +1,18 @@
+Field goal_editing_rules__v (
+   label('Goal Editing Rules'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to enable optional goal editing features at the MC Cycle level'),
+   list_column(false),
+   order(15),
+   multi_value(true),
+   picklist('Picklist.mc_cycle_goal_editing_rules__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

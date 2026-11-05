@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate ftp_upload_too_large__v (
+   label('Max File Size Exceeded'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Max file size exceeded - "${fileName}" not uploaded to Vault'),
+   notification('Error uploading "${fileName}" - file size (${fileSizeGB}) is larger than the ${limitGB} limit.'),
+   email_body('<p><b>Vault: </b>${vaultName}
+<br><b>File: </b>"${fileName}".</p>
+<p>There was an error uploading "${fileName}". The file size (${fileSizeGB}) is larger than the ${limitGB} limit for this Vault.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

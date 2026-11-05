@@ -1,0 +1,10 @@
+RECREATE Tab aln_modeling__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Modeling'),
+   order(6900),
+   parent(),
+   send_session_via_post_message(true),
+   url(@url.txt)
+);

@@ -1,0 +1,6 @@
+Message mc_cycle_overview__v (
+   label(),
+   active(true),
+   default_value('Overview'),
+   system_managed(false)
+);

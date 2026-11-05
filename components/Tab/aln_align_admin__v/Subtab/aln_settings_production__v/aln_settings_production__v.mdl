@@ -1,0 +1,10 @@
+Subtab aln_settings_production__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Align Settings (Production)'),
+   order(0),
+   parent('aln_align_admin__v'),
+   send_session_via_post_message(true),
+   url(@url.txt)
+);

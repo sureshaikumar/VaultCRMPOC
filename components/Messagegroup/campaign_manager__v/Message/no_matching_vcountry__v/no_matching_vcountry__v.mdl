@@ -1,0 +1,6 @@
+Message no_matching_vcountry__v (
+   label(),
+   active(true),
+   default_value('No matching vcountry record found for user''s country'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message process_aborted_by_scheduled_job__v (
+   label(),
+   active(true),
+   default_value('Your ${process_type} process ${process_id} has been aborted due to scheduled job "${scheduled_job_title}".'),
+   system_managed(false)
+);

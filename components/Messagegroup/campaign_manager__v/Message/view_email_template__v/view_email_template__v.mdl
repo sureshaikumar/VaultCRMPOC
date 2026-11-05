@@ -1,0 +1,6 @@
+Message view_email_template__v (
+   label(),
+   active(true),
+   default_value('View Email Template'),
+   system_managed(false)
+);

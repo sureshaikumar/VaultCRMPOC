@@ -1,0 +1,6 @@
+Picklistentry imxic__v (
+   value('Internal Medicine and Intensive Care'),
+   order(792),
+   active(true),
+   controlling_entries('at__v')
+);

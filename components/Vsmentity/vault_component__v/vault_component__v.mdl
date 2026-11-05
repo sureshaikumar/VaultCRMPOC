@@ -1,0 +1,20 @@
+RECREATE Vsmentity vault_component__v (
+   label('Vault Component'),
+   active(true),
+   description('Component types are the configuration elements of a Vault. Vault Components are used to organize and track the building blocks of the Vault application, helping administrators and developers understand the structure and composition of the system. This object is commonly queried to identify which components are part of a given configuration or deployment, or how components are related to one another (i.e. what reports are used by dashboards).'),
+   synonyms('component',
+      'vault module',
+      'platform component',
+      'system component'),
+   target('Object.vault_component__v'),
+   target_label('Vault Component'),
+   Vsmfield(@Vsmfield/checksum__v.mdl),
+   Vsmfield(@Vsmfield/component_modified_date__v.mdl),
+   Vsmfield(@Vsmfield/component_name__v.mdl),
+   Vsmfield(@Vsmfield/component_type__v.mdl),
+   Vsmfield(@Vsmfield/label__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmrelationship(@Vsmrelationship/package_component__v.mdl),
+   Vsmrelationship(@Vsmrelationship/source_comp_comp_rel__v.mdl),
+   Vsmrelationship(@Vsmrelationship/target_comp_comp_rel__v.mdl)
+);

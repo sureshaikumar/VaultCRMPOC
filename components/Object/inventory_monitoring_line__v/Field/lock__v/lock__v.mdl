@@ -1,0 +1,18 @@
+Field lock__v (
+   label('Lock'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name('inventory_monitoring__vr'),
+   lookup_source_field('lock__v'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry participant__v (
+   value('Participant'),
+   order(3),
+   active(true)
+);

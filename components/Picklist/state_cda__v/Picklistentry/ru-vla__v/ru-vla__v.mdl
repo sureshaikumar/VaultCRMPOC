@@ -1,0 +1,6 @@
+Picklistentry ru-vla__v (
+   value('Vladimirskaya oblast'''),
+   order(3866),
+   active(true),
+   controlling_entries('ru__v')
+);

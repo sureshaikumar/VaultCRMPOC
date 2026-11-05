@@ -1,0 +1,6 @@
+Picklistentry bn-be__v (
+   value('Belait'),
+   order(435),
+   active(true),
+   controlling_entries('bn__v')
+);

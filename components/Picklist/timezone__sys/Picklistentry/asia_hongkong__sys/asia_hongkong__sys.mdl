@@ -1,0 +1,5 @@
+Picklistentry asia_hongkong__sys (
+   value('(GMT+08:00) Hong Kong Time (Asia/Hong_Kong)'),
+   order(261),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message activate_now_journey_duration__v (
+   label(),
+   active(true),
+   default_value('Now - ${end_date}'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectaction connection__sys.create_new_connection__v (
+   label('Create New Connection'),
+   description('Create New Connection'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.commercial.actions.CommercialConnectionCreateAction'),
+   active(true),
+   available_all_states(true)
+);

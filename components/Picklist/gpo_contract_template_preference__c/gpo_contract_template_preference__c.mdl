@@ -1,0 +1,9 @@
+RECREATE Picklist gpo_contract_template_preference__c (
+   label('GPO Contract Template Preference'),
+   active(true),
+   Picklistentry(@Picklistentry/gpo_standard_template__c.mdl),
+   Picklistentry(@Picklistentry/vert_template__c.mdl),
+   Picklistentry(@Picklistentry/either__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

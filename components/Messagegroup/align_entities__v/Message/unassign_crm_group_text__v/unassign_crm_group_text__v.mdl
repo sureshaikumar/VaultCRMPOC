@@ -1,0 +1,6 @@
+Message unassign_crm_group_text__v (
+   label(),
+   active(true),
+   default_value('Unassigning this CRM Group from the functional profile will impact {0} roster members.'),
+   system_managed(false)
+);

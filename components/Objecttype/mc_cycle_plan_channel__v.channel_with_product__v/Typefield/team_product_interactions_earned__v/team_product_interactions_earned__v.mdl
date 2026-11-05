@@ -1,0 +1,4 @@
+Typefield team_product_interactions_earned__v (
+   source('custom'),
+   required(false)
+);

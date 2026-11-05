@@ -1,0 +1,6 @@
+Picklistentry paxha__v (
+   value('Pathology (Haematological)'),
+   order(1300),
+   active(true),
+   controlling_entries('za__v')
+);

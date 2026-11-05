@@ -1,0 +1,19 @@
+Field engage_connect_group_request__v (
+   label('Engage Connect Group Request'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Specifies the group to set for a user. The value will be processed upon save and upon success be transferred to the Engage Connect Group.'),
+   list_column(false),
+   order(66),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

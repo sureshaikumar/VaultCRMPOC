@@ -1,0 +1,6 @@
+Message status_code_stage__v (
+   label(),
+   active(true),
+   default_value('Stage Code'),
+   system_managed(false)
+);

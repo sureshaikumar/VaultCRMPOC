@@ -1,0 +1,17 @@
+Field registration_disclaimer__v (
+   label('Registration Disclaimer'),
+   type('LongText'),
+   active(true),
+   description('Populated with the Disclaimer Text if this registrant selected the disclaimer during registration.'),
+   required(false),
+   max_length(5000),
+   help_content(),
+   list_column(false),
+   order(67),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

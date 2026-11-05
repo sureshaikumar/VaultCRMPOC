@@ -1,0 +1,10 @@
+Vsmvalue generic__v (
+   label('Generic'),
+   active(true),
+   description('Use when the reference field requires a flexible or general-purpose lookup that does not fit a specific predefined category such as object, picklist, or lifecycle state.'),
+   synonyms('general lookup',
+         'flexible reference',
+         'custom lookup'),
+   target('generic__sys'),
+   target_label('Generic')
+);

@@ -1,0 +1,6 @@
+Message adding_number_of_targets__v (
+   label(),
+   active(true),
+   default_value('Adding ${count} targets to your campaign...'),
+   system_managed(false)
+);

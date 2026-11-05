@@ -1,0 +1,5 @@
+Picklistentry gg__v (
+   value('GG'),
+   order(80),
+   active(true)
+);

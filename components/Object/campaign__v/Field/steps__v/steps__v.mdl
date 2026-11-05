@@ -1,0 +1,17 @@
+Field steps__v (
+   label('Steps'),
+   type('LongText'),
+   active(true),
+   description('Campaign Script JSON describing the workflow of the campaign steps and the logic used to execute each step.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   control_binding()
+);

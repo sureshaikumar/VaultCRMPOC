@@ -1,0 +1,6 @@
+Picklistentry sr-pr__v (
+   value('Para'),
+   order(4247),
+   active(true),
+   controlling_entries('sr__v')
+);

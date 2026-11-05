@@ -1,0 +1,6 @@
+Message generate_no_qr_reg_code_found__v (
+   label(),
+   active(true),
+   default_value('Unable to generate material. Registration QR Code is required for this template.'),
+   system_managed(false)
+);

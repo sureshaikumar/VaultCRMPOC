@@ -1,0 +1,3 @@
+Typeaction run_assignment_rules__v (
+   action('territory__v.run_assignment_rules__v')
+);

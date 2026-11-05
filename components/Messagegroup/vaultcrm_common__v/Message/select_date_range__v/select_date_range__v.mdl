@@ -1,0 +1,6 @@
+Message select_date_range__v (
+   label(),
+   active(true),
+   default_value('Select a date range:'),
+   system_managed(false)
+);

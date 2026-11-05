@@ -1,0 +1,7 @@
+RECREATE Picklist authorization_source__v (
+   label('Authorization Source'),
+   active(true),
+   Picklistentry(@Picklistentry/fax_intake__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

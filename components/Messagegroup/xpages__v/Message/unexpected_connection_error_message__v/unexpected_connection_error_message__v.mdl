@@ -1,0 +1,6 @@
+Message unexpected_connection_error_message__v (
+   label(),
+   active(true),
+   default_value('An unexpected error occurred. Please contact Veeva Support.'),
+   system_managed(false)
+);

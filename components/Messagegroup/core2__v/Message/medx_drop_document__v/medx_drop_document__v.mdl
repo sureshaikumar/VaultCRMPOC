@@ -1,0 +1,6 @@
+Message medx_drop_document__v (
+   label(),
+   active(true),
+   default_value('Drop files here to upload'),
+   system_managed(false)
+);

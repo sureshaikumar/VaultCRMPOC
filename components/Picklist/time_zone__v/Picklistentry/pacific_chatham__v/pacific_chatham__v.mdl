@@ -1,0 +1,5 @@
+Picklistentry pacific_chatham__v (
+   value('Chatham Time'),
+   order(3),
+   active(true)
+);

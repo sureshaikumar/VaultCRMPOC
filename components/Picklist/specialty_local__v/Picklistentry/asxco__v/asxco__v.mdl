@@ -1,0 +1,6 @@
+Picklistentry asxco__v (
+   value('Asthma and COPD'),
+   order(100),
+   active(true),
+   controlling_entries('nl__v')
+);

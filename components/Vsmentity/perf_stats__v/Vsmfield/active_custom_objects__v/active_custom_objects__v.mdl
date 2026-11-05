@@ -1,0 +1,11 @@
+Vsmfield active_custom_objects__v (
+   label('Active Custom Objects'),
+   active(true),
+   description('Total number of custom objects with records created or modified in the last 24 hours'),
+   example_values(),
+   synonyms(),
+   target('active_custom_objects__v'),
+   target_label('Active Custom Objects'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

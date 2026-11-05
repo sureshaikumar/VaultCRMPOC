@@ -1,0 +1,6 @@
+Message crm_integration_vault_connection__v (
+   label(),
+   active(true),
+   default_value('Vault Connection'),
+   system_managed(false)
+);

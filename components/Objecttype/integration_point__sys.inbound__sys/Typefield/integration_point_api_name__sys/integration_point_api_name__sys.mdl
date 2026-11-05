@@ -1,0 +1,4 @@
+Typefield integration_point_api_name__sys (
+   source('custom'),
+   required(true)
+);

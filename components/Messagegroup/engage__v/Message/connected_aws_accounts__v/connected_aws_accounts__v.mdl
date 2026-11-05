@@ -1,0 +1,6 @@
+Message connected_aws_accounts__v (
+   label(),
+   active(true),
+   default_value('Connected AWS Accounts'),
+   system_managed(false)
+);

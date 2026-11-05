@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.business_portals__v (
+   label('View Business Portal'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.myinsights.actions.AccountBusinessPortalsAction'),
+   active(true),
+   available_all_states(true)
+);

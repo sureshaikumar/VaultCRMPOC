@@ -1,0 +1,6 @@
+Picklistentry phnue__v (
+   value('Public Health Nursing'),
+   order(1644),
+   active(true),
+   controlling_entries('ee__v')
+);

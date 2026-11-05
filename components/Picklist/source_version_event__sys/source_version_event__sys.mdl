@@ -1,0 +1,8 @@
+RECREATE Picklist source_version_event__sys (
+   label('Source Version Event'),
+   active(true),
+   Picklistentry(@Picklistentry/created__sys.mdl),
+   Picklistentry(@Picklistentry/updated__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

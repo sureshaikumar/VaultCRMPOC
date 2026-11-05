@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.aln_approval_mapping_model__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="application_role__v" />
+            <vault:field reference="approval_id__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="field_force_model__v" />
+            <vault:field reference="hierarchy_level__v" />
+            <vault:field reference="production_record__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

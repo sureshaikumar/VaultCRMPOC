@@ -1,0 +1,6 @@
+Message save_goal_edits__v (
+   label(),
+   active(true),
+   default_value('Save Goal Edits'),
+   system_managed(false)
+);

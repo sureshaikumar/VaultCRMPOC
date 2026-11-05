@@ -1,0 +1,6 @@
+Picklistentry hr-08__v (
+   value('Primorsko-goranska županija'),
+   order(1849),
+   active(true),
+   controlling_entries('hr__v')
+);

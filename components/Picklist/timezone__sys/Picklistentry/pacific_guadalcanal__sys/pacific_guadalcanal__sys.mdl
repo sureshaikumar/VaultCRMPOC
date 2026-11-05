@@ -1,0 +1,5 @@
+Picklistentry pacific_guadalcanal__sys (
+   value('(GMT+11:00) Solomon Is. Time (Pacific/Guadalcanal)'),
+   order(299),
+   active(true)
+);

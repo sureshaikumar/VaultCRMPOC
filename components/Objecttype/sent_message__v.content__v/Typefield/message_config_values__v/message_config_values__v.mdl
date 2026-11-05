@@ -1,0 +1,4 @@
+Typefield message_config_values__v (
+   source('custom'),
+   required(false)
+);

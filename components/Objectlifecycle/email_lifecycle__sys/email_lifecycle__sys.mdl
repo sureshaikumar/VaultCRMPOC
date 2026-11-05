@@ -1,0 +1,23 @@
+RECREATE Objectlifecycle email_lifecycle__sys (
+   label('Email Lifecycle'),
+   state_labels(),
+   labeled_states(),
+   active(true),
+   starting_state('Objectlifecyclestate.new__sys'),
+   description('The Email Lifecycle tracks the processing status of emails received by Vault.'),
+   Objectlifecyclestate(@Objectlifecyclestate/bounced__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/failure__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/inactive__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/new__sys.mdl),
+   Objectlifecyclestate(@Objectlifecyclestate/processed__sys.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/owner__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/editor__v.mdl),
+   Objectlifecyclerole(@Objectlifecyclerole/viewer__v.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_edit__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/owner_delete__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_read__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_edit__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/editor_delete__c.mdl),
+   Objectlifecyclepermission(@Objectlifecyclepermission/viewer_read__c.mdl)
+);

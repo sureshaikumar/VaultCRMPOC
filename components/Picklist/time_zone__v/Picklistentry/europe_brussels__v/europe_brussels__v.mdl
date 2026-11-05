@@ -1,0 +1,5 @@
+Picklistentry europe_brussels__v (
+   value('Central European Time (Brussels)'),
+   order(54),
+   active(true)
+);

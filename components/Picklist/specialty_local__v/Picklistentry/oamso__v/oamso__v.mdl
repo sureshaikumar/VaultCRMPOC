@@ -1,0 +1,6 @@
+Picklistentry oamso__v (
+   value('Oral and Maxillofacial Surgery Orthognathic and Osteodistraction Surgery'),
+   order(1162),
+   active(true),
+   controlling_entries('id__v')
+);

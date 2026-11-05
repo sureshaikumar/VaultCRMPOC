@@ -1,0 +1,5 @@
+Picklistentry st__v (
+   value('ST'),
+   order(209),
+   active(true)
+);

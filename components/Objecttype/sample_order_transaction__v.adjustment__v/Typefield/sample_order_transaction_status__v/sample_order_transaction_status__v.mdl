@@ -1,0 +1,6 @@
+Typefield sample_order_transaction_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sample_order_transaction_status__v.saved__v',
+         'Picklist.sample_order_transaction_status__v.submitted__v')
+);

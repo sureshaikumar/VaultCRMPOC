@@ -1,0 +1,6 @@
+Picklistentry lt-23__v (
+   value('Kupiškis'),
+   order(2641),
+   active(true),
+   controlling_entries('lt__v')
+);

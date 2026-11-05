@@ -1,0 +1,6 @@
+Picklistentry it-va__v (
+   value('Varese'),
+   order(2273),
+   active(true),
+   controlling_entries('it__v')
+);

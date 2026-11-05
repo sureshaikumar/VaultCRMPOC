@@ -1,0 +1,5 @@
+Picklistentry bgpa__v (
+   value('Banner Group Pharmacy'),
+   order(12),
+   active(true)
+);

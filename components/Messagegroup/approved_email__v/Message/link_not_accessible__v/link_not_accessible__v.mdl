@@ -1,0 +1,6 @@
+Message link_not_accessible__v (
+   label(),
+   active(true),
+   default_value('Link is not accessible'),
+   system_managed(false)
+);

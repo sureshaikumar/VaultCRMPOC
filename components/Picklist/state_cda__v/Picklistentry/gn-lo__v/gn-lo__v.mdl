@@ -1,0 +1,6 @@
+Picklistentry gn-lo__v (
+   value('Lola'),
+   order(1743),
+   active(true),
+   controlling_entries('gn__v')
+);

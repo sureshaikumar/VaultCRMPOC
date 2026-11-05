@@ -1,0 +1,21 @@
+Field summary_for__v (
+   label('Summary For'),
+   type('String'),
+   active(true),
+   description('Channel Label or Product Name that is being summarized.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(26),
+   formula('If(object_type__vr.api_name__v = "channel__v",cycle_channel__vr.channel_label__v,If(object_type__vr.api_name__v = "product__v",If(Text(detail_group__v) != "",If(Text(product__v) = "",detail_group__vr.name__v,product__vr.name__v&"|"&detail_group__vr.name__v),product__vr.name__v),null))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_blanks'),
+   control_binding()
+);

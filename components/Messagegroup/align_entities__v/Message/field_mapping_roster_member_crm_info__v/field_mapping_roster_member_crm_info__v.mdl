@@ -1,0 +1,6 @@
+Message field_mapping_roster_member_crm_info__v (
+   label(),
+   active(true),
+   default_value('Mappings listed in this section apply to Roster Members that are mastered in CRM. If CRM User Management is enabled, then mappings for Align-mastered Roster Members are managed in the "Align Objects" tab.'),
+   system_managed(false)
+);

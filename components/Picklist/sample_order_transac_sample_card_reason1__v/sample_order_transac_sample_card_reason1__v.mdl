@@ -1,0 +1,9 @@
+RECREATE Picklist sample_order_transac_sample_card_reason1__v (
+   label('Sample Card Reason'),
+   active(true),
+   Picklistentry(@Picklistentry/laptop_unavailable__v.mdl),
+   Picklistentry(@Picklistentry/application_unavailable__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

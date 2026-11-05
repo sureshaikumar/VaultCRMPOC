@@ -1,0 +1,8 @@
+RECREATE Pagelayout sample_lot_detail_page_layout1__c (
+   active(true),
+   default_layout(true),
+   description('Page Layout for Sample Lot record.'),
+   display_lifecycle_stages(false),
+   label('Sample Lot Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

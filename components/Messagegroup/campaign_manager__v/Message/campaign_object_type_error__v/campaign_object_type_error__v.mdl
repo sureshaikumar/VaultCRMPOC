@@ -1,0 +1,6 @@
+Message campaign_object_type_error__v (
+   label(),
+   active(true),
+   default_value('Unable to change Object Type: Campaign has Targets'),
+   system_managed(false)
+);

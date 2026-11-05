@@ -1,0 +1,6 @@
+Picklistentry dsiyg__v (
+   value('Digestive System'),
+   order(448),
+   active(true),
+   controlling_entries('ad__v')
+);

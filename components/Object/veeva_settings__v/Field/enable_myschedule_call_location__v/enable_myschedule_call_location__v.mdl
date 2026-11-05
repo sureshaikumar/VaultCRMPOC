@@ -1,0 +1,18 @@
+Field enable_myschedule_call_location__v (
+   label('ENABLE_MYSCHEDULE_CALL_LOCATION'),
+   type('Boolean'),
+   active(true),
+   description('Remove the display of Address from My Schedule and replace with Read-Only Call Location. Default is false.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(141),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

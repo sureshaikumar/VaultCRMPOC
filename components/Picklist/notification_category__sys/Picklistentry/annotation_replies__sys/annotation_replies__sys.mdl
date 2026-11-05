@@ -1,0 +1,5 @@
+Picklistentry annotation_replies__sys (
+   value('Annotation Replies'),
+   order(0),
+   active(true)
+);

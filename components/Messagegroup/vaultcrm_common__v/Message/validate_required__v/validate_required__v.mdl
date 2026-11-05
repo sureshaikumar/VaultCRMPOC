@@ -1,0 +1,6 @@
+Message validate_required__v (
+   label(),
+   active(true),
+   default_value('Required'),
+   system_managed(false)
+);

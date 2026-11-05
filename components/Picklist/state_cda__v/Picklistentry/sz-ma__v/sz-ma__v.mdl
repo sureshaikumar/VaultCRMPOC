@@ -1,0 +1,6 @@
+Picklistentry sz-ma__v (
+   value('Manzini'),
+   order(4298),
+   active(true),
+   controlling_entries('sz__v')
+);

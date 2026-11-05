@@ -1,0 +1,6 @@
+Message your_filter_goes_here__v (
+   label(),
+   active(true),
+   default_value('Your filter goes here'),
+   system_managed(false)
+);

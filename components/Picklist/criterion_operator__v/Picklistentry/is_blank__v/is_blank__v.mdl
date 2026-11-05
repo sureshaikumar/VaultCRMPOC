@@ -1,0 +1,5 @@
+Picklistentry is_blank__v (
+   value('is blank'),
+   order(14),
+   active(true)
+);

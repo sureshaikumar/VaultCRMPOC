@@ -1,0 +1,6 @@
+Message studio_domain__v (
+   label(),
+   active(true),
+   default_value('Studio Domain'),
+   system_managed(false)
+);

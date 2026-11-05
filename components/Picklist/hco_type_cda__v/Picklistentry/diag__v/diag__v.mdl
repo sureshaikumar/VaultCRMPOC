@@ -1,0 +1,5 @@
+Picklistentry diag__v (
+   value('Diagnostic Services'),
+   order(6),
+   active(true)
+);

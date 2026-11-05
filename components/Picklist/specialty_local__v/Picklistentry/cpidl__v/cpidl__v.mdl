@@ -1,0 +1,6 @@
+Picklistentry cpidl__v (
+   value('Clinical Pathology Infectious Diseases'),
+   order(274),
+   active(true),
+   controlling_entries('id__v')
+);

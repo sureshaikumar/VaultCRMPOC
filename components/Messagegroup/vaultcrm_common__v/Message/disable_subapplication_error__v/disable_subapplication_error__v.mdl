@@ -1,0 +1,6 @@
+Message disable_subapplication_error__v (
+   label(),
+   active(true),
+   default_value('You cannot disable application ${application_label}'),
+   system_managed(false)
+);

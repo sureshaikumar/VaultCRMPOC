@@ -1,0 +1,5 @@
+Picklistentry tien__v (
+   value('Teaching Institution'),
+   order(252),
+   active(true)
+);

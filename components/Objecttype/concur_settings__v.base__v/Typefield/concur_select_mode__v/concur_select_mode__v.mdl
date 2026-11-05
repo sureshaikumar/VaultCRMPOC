@@ -1,0 +1,4 @@
+Typefield concur_select_mode__v (
+   source('standard'),
+   required(false)
+);

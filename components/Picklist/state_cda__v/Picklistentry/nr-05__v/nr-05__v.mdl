@@ -1,0 +1,6 @@
+Picklistentry nr-05__v (
+   value('Baiti'),
+   order(3416),
+   active(true),
+   controlling_entries('nr__v')
+);

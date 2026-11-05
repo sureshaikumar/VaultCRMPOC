@@ -1,0 +1,6 @@
+Message assign_to_me__v (
+   label(),
+   active(true),
+   default_value('Assign to Me'),
+   system_managed(false)
+);

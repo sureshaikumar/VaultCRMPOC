@@ -1,0 +1,6 @@
+Message open_selected__v (
+   label(),
+   active(true),
+   default_value('Open Selected (${selected_count})'),
+   system_managed(false)
+);

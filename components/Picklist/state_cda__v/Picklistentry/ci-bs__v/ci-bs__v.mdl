@@ -1,0 +1,6 @@
+Picklistentry ci-bs__v (
+   value('Bas-Sassandra'),
+   order(654),
+   active(true),
+   controlling_entries('ci__v')
+);

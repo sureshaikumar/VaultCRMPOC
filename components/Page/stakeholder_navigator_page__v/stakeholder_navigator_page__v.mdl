@@ -1,0 +1,14 @@
+RECREATE Page stakeholder_navigator_page__v (
+   label('Stakeholder Navigator'),
+   active(true),
+   client_distribution(),
+   default_client_code('stakeholder_navigator__v'),
+   description('Stakeholder Navigator page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('stakeholder-navigator')
+);

@@ -1,0 +1,5 @@
+Picklistentry edob__v (
+   value('Obesity Medicine'),
+   order(51),
+   active(true)
+);

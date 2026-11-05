@@ -1,0 +1,6 @@
+Picklistentry gb-bfs__v (
+   value('Belfast'),
+   order(1463),
+   active(true),
+   controlling_entries('gb__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry 14100__v (
+   value('Bloomsburg-Berwick, PA Micropolitan Statistical Area'),
+   order(892),
+   active(true)
+);

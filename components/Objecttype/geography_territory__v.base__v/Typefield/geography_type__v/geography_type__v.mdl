@@ -1,0 +1,4 @@
+Typefield geography_type__v (
+   source('standard'),
+   required(true)
+);

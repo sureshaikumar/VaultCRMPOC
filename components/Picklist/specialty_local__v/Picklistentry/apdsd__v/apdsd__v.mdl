@@ -1,0 +1,9 @@
+Picklistentry apdsd__v (
+   value('Addiction Psychiatry'),
+   order(12),
+   active(true),
+   controlling_entries('gb__v',
+         'om__v',
+         'th__v',
+         'za__v')
+);

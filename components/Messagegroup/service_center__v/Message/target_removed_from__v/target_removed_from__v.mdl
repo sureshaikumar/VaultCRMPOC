@@ -1,0 +1,6 @@
+Message target_removed_from__v (
+   label(),
+   active(true),
+   default_value('Target Removed from ${target_list_name}'),
+   system_managed(false)
+);

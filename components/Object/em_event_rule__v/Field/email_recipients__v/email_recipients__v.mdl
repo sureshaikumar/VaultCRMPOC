@@ -1,0 +1,18 @@
+Field email_recipients__v (
+   label('Email Recipients'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(43),
+   multi_value(true),
+   picklist('Picklist.em_event_rule_email_recipients__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

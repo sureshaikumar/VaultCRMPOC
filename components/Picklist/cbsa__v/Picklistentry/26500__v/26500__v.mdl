@@ -1,0 +1,5 @@
+Picklistentry 26500__v (
+   value('Huntingdon, PA Micropolitan Statistical Area'),
+   order(784),
+   active(true)
+);

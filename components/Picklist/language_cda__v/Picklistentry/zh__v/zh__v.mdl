@@ -1,0 +1,5 @@
+Picklistentry zh__v (
+   value('Chinese'),
+   order(11),
+   active(true)
+);

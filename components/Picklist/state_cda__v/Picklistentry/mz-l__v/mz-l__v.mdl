@@ -1,0 +1,6 @@
+Picklistentry mz-l__v (
+   value('Maputo province'),
+   order(3291),
+   active(true),
+   controlling_entries('mz__v')
+);

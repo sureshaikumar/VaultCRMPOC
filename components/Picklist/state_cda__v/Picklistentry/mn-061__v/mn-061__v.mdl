@@ -1,0 +1,6 @@
+Picklistentry mn-061__v (
+   value('Dornod'),
+   order(3083),
+   active(true),
+   controlling_entries('mn__v')
+);

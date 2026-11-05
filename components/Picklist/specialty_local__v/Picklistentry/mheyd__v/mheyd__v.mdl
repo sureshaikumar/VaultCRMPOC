@@ -1,0 +1,8 @@
+Picklistentry mheyd__v (
+   value('Medical Hydrology'),
+   order(914),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v',
+         'pt__v')
+);

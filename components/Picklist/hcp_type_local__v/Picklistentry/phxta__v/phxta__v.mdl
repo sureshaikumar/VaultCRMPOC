@@ -1,0 +1,5 @@
+Picklistentry phxta__v (
+   value('Pharmaceutical Technical Assistant (PTA)'),
+   order(99),
+   active(true)
+);

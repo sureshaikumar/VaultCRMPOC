@@ -1,0 +1,6 @@
+Message no_patient_journeys_title__v (
+   label(),
+   active(true),
+   default_value('No Patient Journeys'),
+   system_managed(false)
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist call2_expense_attendee_type__v (
+   label('Attendee Type'),
+   active(true),
+   Picklistentry(@Picklistentry/contact__v.mdl),
+   Picklistentry(@Picklistentry/event__v.mdl),
+   Picklistentry(@Picklistentry/group_account__v.mdl),
+   Picklistentry(@Picklistentry/person_account__v.mdl),
+   Picklistentry(@Picklistentry/user__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

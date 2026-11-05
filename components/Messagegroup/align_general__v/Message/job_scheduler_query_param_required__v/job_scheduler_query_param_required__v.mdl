@@ -1,0 +1,6 @@
+Message job_scheduler_query_param_required__v (
+   label(),
+   active(true),
+   default_value('Query parameter {0} is required.'),
+   system_managed(false)
+);

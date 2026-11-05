@@ -1,0 +1,10 @@
+Vsmvalue iqd__v (
+   label('IQD'),
+   active(true),
+   description('The Iraqi Dinar (IQD), the official currency of Iraq, used for transactions and financial records involving business operations in Iraq.'),
+   synonyms('Iraqi dinar',
+         'dinar',
+         'Iraq currency'),
+   target('iqd__sys'),
+   target_label('IQD')
+);

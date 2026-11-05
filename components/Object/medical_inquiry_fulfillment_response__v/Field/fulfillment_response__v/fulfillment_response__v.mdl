@@ -1,0 +1,17 @@
+Field fulfillment_response__v (
+   label('Fulfillment Response'),
+   type('LongText'),
+   active(true),
+   description('Used to capture a description of the Fulfillment Response to the Medical Inquiry request.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

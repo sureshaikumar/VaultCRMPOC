@@ -1,0 +1,6 @@
+Picklistentry eg-kn__v (
+   value('Qinā'),
+   order(1174),
+   active(true),
+   controlling_entries('eg__v')
+);

@@ -1,0 +1,19 @@
+Field last_analytic__v (
+   label('Last Analytic'),
+   type('String'),
+   active(true),
+   description('The Last Analytic field stores the last Analytic report that a User has run.  When the User navigates to the Analytics Tab, the report stored in the Last Analytic field will be displayed to the User.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

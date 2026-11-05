@@ -1,0 +1,6 @@
+Message attempt_count_activity_result__v (
+   label(),
+   active(true),
+   default_value('Attempt ${attempt_count}: ${activity_result}'),
+   system_managed(false)
+);

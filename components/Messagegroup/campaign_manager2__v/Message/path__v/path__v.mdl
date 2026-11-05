@@ -1,0 +1,6 @@
+Message path__v (
+   label(),
+   active(true),
+   default_value('Path'),
+   system_managed(false)
+);

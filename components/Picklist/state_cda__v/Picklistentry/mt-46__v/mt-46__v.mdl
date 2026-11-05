@@ -1,0 +1,6 @@
+Picklistentry mt-46__v (
+   value('Rabat Malta'),
+   order(3152),
+   active(true),
+   controlling_entries('mt__v')
+);

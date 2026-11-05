@@ -1,0 +1,6 @@
+Picklistentry ht-no__v (
+   value('Nord-Ouest'),
+   order(1869),
+   active(true),
+   controlling_entries('ht__v')
+);

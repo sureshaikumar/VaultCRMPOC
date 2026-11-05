@@ -1,0 +1,6 @@
+Message my_accounts_total__v (
+   label(),
+   active(true),
+   default_value('${total_accounts} Accounts'),
+   system_managed(false)
+);

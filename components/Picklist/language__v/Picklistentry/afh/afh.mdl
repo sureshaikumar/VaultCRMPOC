@@ -1,0 +1,5 @@
+Picklistentry afh (
+   value('Afrihili'),
+   order(120),
+   active(true)
+);

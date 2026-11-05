@@ -1,0 +1,6 @@
+Message concur_config_parameters__v (
+   label(),
+   active(true),
+   default_value('Configuration Parameters'),
+   system_managed(false)
+);

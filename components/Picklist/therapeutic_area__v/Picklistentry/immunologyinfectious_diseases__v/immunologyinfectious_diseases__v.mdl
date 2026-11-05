@@ -1,0 +1,5 @@
+Picklistentry immunologyinfectious_diseases__v (
+   value('Immunology/Infectious Diseases'),
+   order(6),
+   active(true)
+);

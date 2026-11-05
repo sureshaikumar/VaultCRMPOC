@@ -1,0 +1,6 @@
+Message send_whatsapp_message__v (
+   label(),
+   active(true),
+   default_value('Send WhatsApp Message'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message hierarchy_rule_excluded_sources__v (
+   label(),
+   active(true),
+   default_value('Account assignments from the excluded sources will not be used as the basis for evaluating this hierarchy rule.'),
+   system_managed(false)
+);

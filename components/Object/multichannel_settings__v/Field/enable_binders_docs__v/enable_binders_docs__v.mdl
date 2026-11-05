@@ -1,0 +1,17 @@
+Field enable_binders_docs__v (
+   label('Enable CLM Binders and Documents'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This setting enables users to sync CLM content stored as Binders and Documents in CRM to their mobile devices.'),
+   list_column(false),
+   order(59),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

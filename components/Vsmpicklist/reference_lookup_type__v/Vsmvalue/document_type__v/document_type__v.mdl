@@ -1,0 +1,10 @@
+Vsmvalue document_type__v (
+   label('Document Type'),
+   active(true),
+   description('Use when the reference field should look up document types defined in the Vault library, allowing users to associate a field value with a specific document classification.'),
+   synonyms('doc type',
+         'document classification',
+         'content type'),
+   target('document_type__sys'),
+   target_label('Document Type')
+);

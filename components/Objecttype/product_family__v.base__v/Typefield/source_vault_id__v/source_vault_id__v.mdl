@@ -1,0 +1,4 @@
+Typefield source_vault_id__v (
+   source('standard'),
+   required(true)
+);

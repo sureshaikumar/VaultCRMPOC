@@ -1,0 +1,6 @@
+Picklistentry nz-gis__v (
+   value('Gisborne District'),
+   order(3430),
+   active(true),
+   controlling_entries('nz__v')
+);

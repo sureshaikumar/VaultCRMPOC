@@ -1,0 +1,10 @@
+RECREATE Tab advanced_coaching_reports_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Coaching Reports'),
+   order(1700),
+   page('Page.advanced_coaching_reports_page__v'),
+   parent(),
+   url(@url.txt)
+);

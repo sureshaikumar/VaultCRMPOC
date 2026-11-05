@@ -1,0 +1,15 @@
+Fieldrule document_host_url__v (
+   label('Document Host URL'),
+   active(true),
+   query_object('documents'),
+   query_field('document_host_url__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.document_host_url__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_url__sys'),
+   target_field_lookup()
+);

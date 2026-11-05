@@ -1,0 +1,5 @@
+Picklistentry 47620__v (
+   value('Warren, PA Micropolitan Statistical Area'),
+   order(317),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message past_due__v (
+   label(),
+   active(true),
+   default_value('Past Due'),
+   system_managed(false)
+);

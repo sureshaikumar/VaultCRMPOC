@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate connection_active__v (
+   label('connectionActive'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Connection is now active.'),
+   notification('Connection ${connectionLink} is now active. <p>&nbsp;</p> <p> &emsp;Remote Domain: ${connectionDomain}<br> &emsp;Remote Vault: ${connectionVault}<br> &emsp;Contact Name: ${connectionContact}<br> &emsp;Contact Email: ${connectionEmail} </p>'),
+   email_body('Connection ${connectionLink} is now active. <p>&nbsp;</p> <p> &emsp;Remote Domain: ${connectionDomain}<br> &emsp;Remote Vault: ${connectionVault}<br> &emsp;Contact Name: ${connectionContact}<br> &emsp;Contact Email: ${connectionEmail} </p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

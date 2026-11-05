@@ -1,0 +1,11 @@
+Vsmfield manager__v (
+   label('Manager'),
+   active(true),
+   description('Object reference field to another user record. The user that is referenced is the manager.'),
+   example_values(),
+   synonyms(),
+   target('manager__sys'),
+   target_label('Manager'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

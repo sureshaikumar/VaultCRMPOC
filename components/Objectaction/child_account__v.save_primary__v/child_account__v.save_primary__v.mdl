@@ -1,0 +1,8 @@
+RECREATE Objectaction child_account__v.save_primary__v (
+   label('Save & Make Primary'),
+   description('Save the Child Account record and make it primary.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.accountmanagement.actions.ChildAccountSavePrimaryAction'),
+   active(true),
+   available_all_states(true)
+);

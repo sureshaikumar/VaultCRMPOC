@@ -1,0 +1,17 @@
+RECREATE Notificationtemplate reassign_multidoc_task__v (
+   label('Multi-document Workflow Task Reassignment'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('Task reassigned'),
+   notification('Task ${taskName} for ${multiDocWorkflowLink} has been reassigned.'),
+   email_body('The following task has been reassigned:
+
+<p>${taskName}</p>
+
+<p>Documents: ${multiDocWorkflowLink}<br>
+Workflow owner: ${workflowInitiatorName}<br></p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

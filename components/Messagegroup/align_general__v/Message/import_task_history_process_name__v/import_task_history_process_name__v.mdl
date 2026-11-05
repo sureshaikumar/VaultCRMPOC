@@ -1,0 +1,6 @@
+Message import_task_history_process_name__v (
+   label(),
+   active(true),
+   default_value('Process Name'),
+   system_managed(false)
+);

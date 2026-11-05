@@ -1,0 +1,5 @@
+Picklistentry ar__v (
+   value('Arabic'),
+   order(15),
+   active(false)
+);

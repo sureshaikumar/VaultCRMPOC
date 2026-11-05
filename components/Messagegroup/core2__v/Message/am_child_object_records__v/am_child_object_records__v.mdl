@@ -1,0 +1,6 @@
+Message am_child_object_records__v (
+   label(),
+   active(true),
+   default_value('{0} (To) Records'),
+   system_managed(false)
+);

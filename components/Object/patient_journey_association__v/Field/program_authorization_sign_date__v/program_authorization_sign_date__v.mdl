@@ -1,0 +1,17 @@
+Field program_authorization_sign_date__v (
+   label('Program Authorization Sign Date'),
+   type('Date'),
+   active(true),
+   description('Date Signed'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(25),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

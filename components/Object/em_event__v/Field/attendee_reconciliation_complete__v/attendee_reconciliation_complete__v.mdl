@@ -1,0 +1,18 @@
+Field attendee_reconciliation_complete__v (
+   label('Attendee Reconciliation Complete'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This field becomes checked automatically when all walk-in attendees have been reconciled.'),
+   list_column(false),
+   order(16),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

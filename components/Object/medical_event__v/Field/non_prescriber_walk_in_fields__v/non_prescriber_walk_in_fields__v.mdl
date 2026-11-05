@@ -1,0 +1,19 @@
+Field non_prescriber_walk_in_fields__v (
+   label('Non-Prescriber Walk-In Fields'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Set of fields available for Walk In Type of Non-Prescribers'),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

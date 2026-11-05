@@ -1,0 +1,5 @@
+Picklistentry cu__v (
+   value('CU'),
+   order(50),
+   active(true)
+);

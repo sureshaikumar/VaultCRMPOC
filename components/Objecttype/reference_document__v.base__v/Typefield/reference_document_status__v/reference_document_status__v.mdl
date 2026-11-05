@@ -1,0 +1,4 @@
+Typefield reference_document_status__v (
+   source('standard'),
+   required(false)
+);

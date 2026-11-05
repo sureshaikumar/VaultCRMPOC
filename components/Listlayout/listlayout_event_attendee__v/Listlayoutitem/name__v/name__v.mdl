@@ -1,0 +1,12 @@
+Listlayoutitem name__v (
+   label('Attendee Id'),
+   active(true),
+   control_label('Attendee Id'),
+   field_key(),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Control'),
+   object_control('Objectcontrol.attendee_id_cell_control__v'),
+   object_control_properties(),
+   omit_header_label()
+);

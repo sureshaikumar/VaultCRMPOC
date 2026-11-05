@@ -1,0 +1,10 @@
+RECREATE Jobmetadata process_signature_requests_job__v (
+   label('Process Signature Requests Job'),
+   active(true),
+   chunk_size(1),
+   description('A job that process signature requesting stamping'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.pl3callreport.jobs.ProcessSignatureRequestsJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

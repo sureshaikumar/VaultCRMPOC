@@ -1,0 +1,10 @@
+Picklistentry poxen__v (
+   value('Pediatric Otorhinolaryngology (ENT)'),
+   order(1434),
+   active(true),
+   controlling_entries('cz__v',
+         'gr__v',
+         'ng__v',
+         'pl__v',
+         'sk__v')
+);

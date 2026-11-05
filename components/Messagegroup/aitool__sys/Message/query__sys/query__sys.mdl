@@ -1,0 +1,6 @@
+Message query__sys (
+   label(),
+   active(true),
+   default_value('Query'),
+   system_managed(true)
+);

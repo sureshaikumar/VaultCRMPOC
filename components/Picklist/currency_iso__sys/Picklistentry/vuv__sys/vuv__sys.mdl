@@ -1,0 +1,5 @@
+Picklistentry vuv__sys (
+   value('VUV'),
+   order(201),
+   active(true)
+);

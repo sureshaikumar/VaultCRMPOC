@@ -1,0 +1,6 @@
+Picklistentry ma-bem__v (
+   value('Béni Mellal'),
+   order(2782),
+   active(true),
+   controlling_entries('ma__v')
+);

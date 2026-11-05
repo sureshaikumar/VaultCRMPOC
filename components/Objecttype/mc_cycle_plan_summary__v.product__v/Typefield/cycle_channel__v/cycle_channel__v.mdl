@@ -1,0 +1,4 @@
+Typefield cycle_channel__v (
+   source('custom'),
+   required(false)
+);

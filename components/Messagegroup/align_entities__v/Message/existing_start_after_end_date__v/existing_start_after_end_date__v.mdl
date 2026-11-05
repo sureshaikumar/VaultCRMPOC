@@ -1,0 +1,6 @@
+Message existing_start_after_end_date__v (
+   label(),
+   active(true),
+   default_value('Existing record ${id} has Start Datetime after End Datetime.'),
+   system_managed(false)
+);

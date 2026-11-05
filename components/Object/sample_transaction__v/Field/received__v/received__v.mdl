@@ -1,0 +1,18 @@
+Field received__v (
+   label('Received'),
+   type('Boolean'),
+   active(true),
+   description('The Received checkbox identifies if a Transfer Sample Transaction has been received by the Recipient.  The Received Checkbox is utilized by the Discrepancy Formula to determine if a Discrepancy should be identified for a Transfer Sample Transaction based'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(40),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist medx_audio_and_transcript_consent__v (
+   label('MedX Audio and Transcript Consent'),
+   active(true),
+   Picklistentry(@Picklistentry/signature_disabled__v.mdl),
+   Picklistentry(@Picklistentry/signature_enabled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

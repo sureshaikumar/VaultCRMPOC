@@ -1,0 +1,5 @@
+Picklistentry lin (
+   value('Lingala'),
+   order(237),
+   active(true)
+);

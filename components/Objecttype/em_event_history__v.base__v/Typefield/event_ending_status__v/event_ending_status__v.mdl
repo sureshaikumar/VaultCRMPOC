@@ -1,0 +1,4 @@
+Typefield event_ending_status__v (
+   source('standard'),
+   required(false)
+);

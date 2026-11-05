@@ -1,0 +1,34 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.sample_order_transaction__v.transfer__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="transferred_from__v" />
+            <vault:field reference="transferred_date__v" />
+            <vault:field reference="comments__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="received__v" />
+            <vault:field reference="submitted_date__v" />
+            <vault:field reference="sample_order_transaction_status__v" />
+            <vault:field reference="receipt_comments__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Transfer To Information" name="transfer_to_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="transfer_to__v" />
+            <vault:field reference="address_line_1__v" />
+            <vault:field reference="address_line_2__v" />
+            <vault:field reference="city__v" />
+            <vault:control reference="sot_state_province_field_control__v" name="sot_state_province_field_control__c" />
+            <vault:field reference="state_province__v" />
+            <vault:field reference="zip__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="BRC Information" name="brc_information__c">
+        <vault:detailform type="Two-Columns">
+            <vault:control reference="sot_sample_field_control__v" name="sot_sample_field_control__c" />
+            <vault:control reference="sot_lot_field_control__v" name="sot_lot_field_control__c" />
+            <vault:control reference="sot_quantity_field_control__v" name="sot_quantity_field_control__c" />
+            <vault:control reference="sot_u_m_field_control__v" name="sot_u_m_field_control__c" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

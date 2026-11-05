@@ -1,0 +1,6 @@
+Picklistentry ch-lu__v (
+   value('Lucerne'),
+   order(638),
+   active(true),
+   controlling_entries('ch__v')
+);

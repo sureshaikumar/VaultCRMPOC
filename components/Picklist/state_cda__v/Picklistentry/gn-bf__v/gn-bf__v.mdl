@@ -1,0 +1,6 @@
+Picklistentry gn-bf__v (
+   value('Boffa'),
+   order(1717),
+   active(true),
+   controlling_entries('gn__v')
+);

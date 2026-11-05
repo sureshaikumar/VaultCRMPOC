@@ -1,0 +1,5 @@
+Picklistentry mc_cycle_plan__v (
+   value('MC Cycle Plan'),
+   order(2),
+   active(true)
+);

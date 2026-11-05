@@ -1,0 +1,6 @@
+Picklistentry oprrt__v (
+   value('Orthopedic Prosthetics'),
+   order(1204),
+   active(true),
+   controlling_entries('sk__v')
+);

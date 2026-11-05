@@ -1,0 +1,19 @@
+Field home_zip_4__v (
+   label('Home Zip+4'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(4),
+   help_content('ZIP + 4 of the user''s home address'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

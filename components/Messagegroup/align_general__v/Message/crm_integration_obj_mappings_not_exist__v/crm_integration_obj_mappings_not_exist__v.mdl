@@ -1,0 +1,6 @@
+Message crm_integration_obj_mappings_not_exist__v (
+   label(),
+   active(true),
+   default_value('Field mappings do not exist for {0}.'),
+   system_managed(false)
+);

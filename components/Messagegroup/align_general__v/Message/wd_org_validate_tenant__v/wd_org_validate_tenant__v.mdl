@@ -1,0 +1,6 @@
+Message wd_org_validate_tenant__v (
+   label(),
+   active(true),
+   default_value('Another Veeva Workday Org already has an integration with Workday tenant ''${workday_tenant}''. Please provide a Workday Report URL from a different tenant.'),
+   system_managed(false)
+);

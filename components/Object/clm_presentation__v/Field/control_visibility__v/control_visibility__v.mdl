@@ -1,0 +1,18 @@
+Field control_visibility__v (
+   label('Control Visibility'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Deprecated field: Not used by Veeva CRM'),
+   list_column(false),
+   order(11),
+   multi_value(false),
+   picklist('Picklist.clm_presentation_control_visibility__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

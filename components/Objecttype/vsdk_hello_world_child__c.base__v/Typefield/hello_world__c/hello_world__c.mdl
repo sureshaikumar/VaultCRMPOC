@@ -1,0 +1,4 @@
+Typefield hello_world__c (
+   source('standard'),
+   required(true)
+);

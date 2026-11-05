@@ -1,0 +1,6 @@
+RECREATE Tabcollection network_apps__v (
+   label('Network Apps'),
+   active(false),
+   help_content(),
+   Tabcollectionitem(@Tabcollectionitem/hierarchy_explorer_tab__v.mdl)
+);

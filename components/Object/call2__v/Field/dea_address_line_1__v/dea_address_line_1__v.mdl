@@ -1,0 +1,19 @@
+Field dea_address_line_1__v (
+   label('DEA Address Line 1'),
+   type('String'),
+   active(true),
+   description('Address Line 1 of the DEA Address.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(51),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

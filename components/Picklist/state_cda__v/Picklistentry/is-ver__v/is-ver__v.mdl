@@ -1,0 +1,6 @@
+Picklistentry is-ver__v (
+   value('Vesturbyggð'),
+   order(2153),
+   active(true),
+   controlling_entries('is__v')
+);

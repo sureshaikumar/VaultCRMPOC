@@ -1,0 +1,18 @@
+Field academic_status__v (
+   label('Academic Status'),
+   type('Picklist'),
+   active(true),
+   description('This field indicates the HCO''s Academic or Community focus.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(197),
+   multi_value(false),
+   picklist('Picklist.academic_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

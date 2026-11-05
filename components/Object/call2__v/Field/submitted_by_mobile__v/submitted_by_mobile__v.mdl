@@ -1,0 +1,18 @@
+Field submitted_by_mobile__v (
+   label('Submitted By Mobile'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the call was submitted from a mobile transaction.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(156),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

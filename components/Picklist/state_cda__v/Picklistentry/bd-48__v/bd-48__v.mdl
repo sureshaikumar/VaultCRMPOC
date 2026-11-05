@@ -1,0 +1,6 @@
+Picklistentry bd-48__v (
+   value('Naogaon'),
+   order(277),
+   active(true),
+   controlling_entries('bd__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry lbtap__v (
+   value('Liver, Biliary Tract and Pancreas Surgery'),
+   order(866),
+   active(true),
+   controlling_entries('jo__v')
+);

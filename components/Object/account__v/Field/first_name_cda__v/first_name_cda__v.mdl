@@ -1,0 +1,19 @@
+Field first_name_cda__v (
+   label('First Name'),
+   type('String'),
+   active(true),
+   description('Given name as officially recorded in professional or legal documents.'),
+   required(false),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(107),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

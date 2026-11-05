@@ -1,0 +1,18 @@
+Field speaker_fields__v (
+   label('Speaker Fields'),
+   type('LongText'),
+   active(true),
+   description('Fields that display on the speaker profile on the speaker selection interface. Fields can be fields that exist on the em_speaker__v object, or special keywords that display special sections, such as recent events or current training information'),
+   required(false),
+   max_length(1000),
+   help_content(),
+   list_column(false),
+   order(29),
+   default_value('";;CV;;Services;;RecentEvents;;Training;;address__v;;em_speaker_status__v;;cap_remaining__v;;year_to_date_utilization__v;;"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

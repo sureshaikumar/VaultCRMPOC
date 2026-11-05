@@ -1,0 +1,5 @@
+Picklistentry black__v (
+   value('Black'),
+   order(15),
+   active(true)
+);

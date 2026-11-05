@@ -1,0 +1,6 @@
+Picklistentry kdiid__v (
+   value('Kidney Diseases'),
+   order(833),
+   active(true),
+   controlling_entries('jo__v')
+);

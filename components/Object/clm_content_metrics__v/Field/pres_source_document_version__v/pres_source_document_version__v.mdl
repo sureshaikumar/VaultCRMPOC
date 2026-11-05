@@ -1,0 +1,19 @@
+Field pres_source_document_version__v (
+   label('Presentation Source Vault Doc Version'),
+   type('String'),
+   active(true),
+   description('The version of the source document from PromoMats or Medical Vault for which this record captures usage metrics.'),
+   required(false),
+   unique(false),
+   max_length(10),
+   help_content(),
+   list_column(false),
+   order(22),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

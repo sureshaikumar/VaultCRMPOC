@@ -1,0 +1,5 @@
+Picklistentry kol__v (
+   value('KOL'),
+   order(0),
+   active(true)
+);

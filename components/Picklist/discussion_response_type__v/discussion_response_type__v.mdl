@@ -1,0 +1,8 @@
+RECREATE Picklist discussion_response_type__v (
+   label('Response Type'),
+   active(true),
+   Picklistentry(@Picklistentry/proactive__v.mdl),
+   Picklistentry(@Picklistentry/reactive__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,14 @@
+RECREATE Page territories_page__v (
+   label('Territories'),
+   active(true),
+   client_distribution(),
+   default_client_code('territories_page__v'),
+   description('View and manage territories in the territory tree'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.territorymanagement.setup.controls.TerritoriesPageController'),
+   url_path_name('territories')
+);

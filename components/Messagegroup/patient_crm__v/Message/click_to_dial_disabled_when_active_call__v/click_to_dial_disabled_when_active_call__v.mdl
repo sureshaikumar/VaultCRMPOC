@@ -1,0 +1,6 @@
+Message click_to_dial_disabled_when_active_call__v (
+   label(),
+   active(true),
+   default_value('Click-to-dial is disabled while you''re on an active phone call. Please try again after the call has ended.'),
+   system_managed(false)
+);

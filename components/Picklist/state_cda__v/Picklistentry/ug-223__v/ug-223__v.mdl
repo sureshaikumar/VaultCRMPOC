@@ -1,0 +1,6 @@
+Picklistentry ug-223__v (
+   value('Manafwa'),
+   order(4691),
+   active(true),
+   controlling_entries('ug__v')
+);

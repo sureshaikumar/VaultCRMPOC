@@ -1,0 +1,5 @@
+Picklistentry voer__v (
+   value('Veterinary Organization'),
+   order(266),
+   active(true)
+);

@@ -1,0 +1,23 @@
+Field add_parents_to_territory__v (
+   label('Add Parent Accounts to Territory'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content('This flag determines whether or not to display parent accounts for user to add to territory after Network search.'),
+   list_column(false),
+   order(11),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

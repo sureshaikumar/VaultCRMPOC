@@ -1,0 +1,6 @@
+Picklistentry ci-ab__v (
+   value('Abidjan'),
+   order(653),
+   active(true),
+   controlling_entries('ci__v')
+);

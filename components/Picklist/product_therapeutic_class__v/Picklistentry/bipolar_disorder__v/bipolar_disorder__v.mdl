@@ -1,0 +1,5 @@
+Picklistentry bipolar_disorder__v (
+   value('Bipolar Disorder'),
+   order(90),
+   active(true)
+);

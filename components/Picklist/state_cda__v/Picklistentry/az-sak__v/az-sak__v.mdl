@@ -1,0 +1,6 @@
+Picklistentry az-sak__v (
+   value('Şəki (Rayon)'),
+   order(190),
+   active(true),
+   controlling_entries('az__v')
+);

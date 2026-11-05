@@ -1,0 +1,6 @@
+Picklistentry gb-hry__v (
+   value('Haringey'),
+   order(1540),
+   active(true),
+   controlling_entries('gb__v')
+);

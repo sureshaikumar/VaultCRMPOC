@@ -1,0 +1,19 @@
+Field member_id__v (
+   label('Member ID'),
+   type('String'),
+   active(true),
+   description('Member ID of the patient'),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content(),
+   list_column(true),
+   order(10),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

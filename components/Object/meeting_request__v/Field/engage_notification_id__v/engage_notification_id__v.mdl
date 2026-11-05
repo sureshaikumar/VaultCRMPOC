@@ -1,0 +1,19 @@
+Field engage_notification_id__v (
+   label('Engage Notification ID'),
+   type('String'),
+   active(true),
+   description('Stores the Internal identifier of the corresponding notifications seen by HCPs in the Engage app.'),
+   required(false),
+   unique(true),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+RECREATE Atomicsecurity sample_transaction__v.sample_transaction_lifecycle__v.submitted_state__v.atomic_security__c (
+   label('Sample Transaction-Sample Transaction-Submitted'),
+   active(true),
+   object('Object.sample_transaction__v'),
+   object_lifecycle('Objectlifecycle.sample_transaction_lifecycle__v'),
+   state('Objectlifecyclestate.submitted_state__v'),
+   Fieldsecurity(@Fieldsecurity/DEFAULT.read__v.field_security__c.mdl)
+);

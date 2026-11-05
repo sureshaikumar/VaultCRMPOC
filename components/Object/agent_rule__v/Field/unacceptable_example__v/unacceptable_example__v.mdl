@@ -1,0 +1,19 @@
+Field unacceptable_example__v (
+   label('Unacceptable Example'),
+   type('String'),
+   active(true),
+   description('Unacceptable example(s) to help the agent accurately understand the rule.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content('Include unacceptable example(s) to help the agent''s performance'),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

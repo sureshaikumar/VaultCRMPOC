@@ -1,0 +1,27 @@
+<p>You have received the following notifications from ${vaultName} for ${currentDate}</p>
+
+<table align="center" style="width: 100%; text-align: left; border-collapse: collapse; line-height: 200%;">
+<#list categoryList as category>
+    <tr style="border-top: 1px solid #dddddd; line-height: 40px;"><td>
+        <span style="font-size: 18px; margin-bottom: 0;"><b>${category.name}</b></span>
+        <table align="center" style="width: 95%; border-collapse: collapse; line-height: 14px;">
+        <#list category.notificationList as notification>
+        <tr><td>
+            <img src="${notification.senderImage}" height="40" width="40"/>
+            <table style="float: right; width: 480px; margin-left: 5px;">
+                <tr><td>
+                    <span>${notification.content}</span>
+                </td></tr>
+                <tr><td>
+                    <span style="color: #aaaaaa; font-size: 95%;">${notification.date}</span>
+                </td></tr>
+            </table>
+        </td></tr>
+        </#list>
+        </table>
+        <span style="height: 10px; display: block;"> </span>
+        <span style="margin-left: 15px; line-height: 10px; display:block;"><#if category.viewAllLink?has_content>To view the complete list, go to the <a href=${category.viewAllLink}>${category.name} page</a></#if></span>
+        <span style="height: 10px; display: block;"> </span>
+    </td></tr>
+</#list>
+</table><table><tr><td></td></tr></table>

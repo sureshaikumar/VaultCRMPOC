@@ -1,0 +1,6 @@
+Picklistentry co-cau__v (
+   value('Cauca'),
+   order(736),
+   active(true),
+   controlling_entries('co__v')
+);

@@ -1,0 +1,22 @@
+Field alert_duration__v (
+   label('Alert Duration'),
+   type('Number'),
+   active(true),
+   description('Determines the number of days an Alert will be active if created via the Create_Alert_vod field.'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

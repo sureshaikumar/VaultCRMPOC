@@ -1,0 +1,21 @@
+RECREATE Notificationtemplate agent_doc_task_completion_failed__sys (
+   label('Agent Workflow Task Completion Failure'),
+   active(true),
+   description('Notification sent to the workflow owner when an agent fails to complete a workflow task.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Agent task: ${taskName} completion failure'),
+   notification('
+       <p>An error was encountered when the task was submitted by: ${agentLabel}</p>
+       <p>Workflow: ${workflowLabel}</p>
+       <p>Task: ${taskName}</p>
+       <p>Document: ${docName}</p>
+
+       <p>Reason: Error on task completion submission</p>
+
+       <p>${errorDetails}</p>
+   '),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,6 @@
+Message template_mode__v (
+   label(),
+   active(true),
+   default_value('${template} ${mode}'),
+   system_managed(false)
+);

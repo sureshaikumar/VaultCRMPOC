@@ -1,0 +1,6 @@
+Message shared_inboxes_appear_here__v (
+   label(),
+   active(true),
+   default_value('Shared Inboxes will appear here'),
+   system_managed(false)
+);

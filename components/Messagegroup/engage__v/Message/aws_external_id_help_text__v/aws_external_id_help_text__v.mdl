@@ -1,0 +1,6 @@
+Message aws_external_id_help_text__v (
+   label(),
+   active(true),
+   default_value('The External ID was provided to you when you first connected this AWS account to a Vault. Please check with your administrator if you do not have it.'),
+   system_managed(false)
+);

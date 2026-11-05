@@ -1,0 +1,4 @@
+Typefield ctrl_campaign__v (
+   source('custom'),
+   required(false)
+);

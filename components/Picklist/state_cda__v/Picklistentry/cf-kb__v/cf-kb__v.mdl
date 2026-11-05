@@ -1,0 +1,6 @@
+Picklistentry cf-kb__v (
+   value('Gribingui'),
+   order(605),
+   active(true),
+   controlling_entries('cf__v')
+);

@@ -1,0 +1,6 @@
+Message try_again_later__v (
+   label(),
+   active(true),
+   default_value('Try again later'),
+   system_managed(false)
+);

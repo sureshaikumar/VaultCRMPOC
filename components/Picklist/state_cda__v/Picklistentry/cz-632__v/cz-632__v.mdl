@@ -1,0 +1,6 @@
+Picklistentry cz-632__v (
+   value('Jihlava'),
+   order(873),
+   active(true),
+   controlling_entries('cz__v')
+);

@@ -1,0 +1,14 @@
+Vsmfield copied_from__v (
+   label('Copied From'),
+   active(true),
+   description('Reference to the EDL record from which this EDL was copied or cloned. Use this to trace the lineage of an EDL back to its origin, or to find all EDLs derived from a specific source.'),
+   example_values(),
+   synonyms('source EDL',
+         'cloned from',
+         'original EDL',
+         'copy source'),
+   target('copied_from__v'),
+   target_label('Copied From'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

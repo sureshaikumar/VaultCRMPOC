@@ -1,0 +1,6 @@
+Picklistentry ci-mg__v (
+   value('Montagnes'),
+   order(660),
+   active(true),
+   controlling_entries('ci__v')
+);

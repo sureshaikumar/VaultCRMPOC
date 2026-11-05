@@ -1,0 +1,11 @@
+Picklistentry perin__v (
+   value('Perinatology'),
+   order(1491),
+   active(true),
+   controlling_entries('am__v',
+         'mk__v',
+         'om__v',
+         'pl__v',
+         'rs__v',
+         'tr__v')
+);

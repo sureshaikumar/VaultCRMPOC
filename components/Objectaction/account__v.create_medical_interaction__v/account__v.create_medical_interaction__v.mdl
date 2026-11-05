@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.create_medical_interaction__v (
+   label('Create Medical Interaction'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.medicalinteraction.actions.AccountCreateMedicalInteractionAction'),
+   active(true),
+   available_all_states(true)
+);

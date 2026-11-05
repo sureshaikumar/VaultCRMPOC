@@ -1,0 +1,6 @@
+Message exclusion_send_to_crm_help__v (
+   label(),
+   active(true),
+   default_value('Field to indicate which types of Account assignments the Account Exclusion should apply to. Supported values:<br/>blank/null - The Account Exclusion will apply to all Account Assignments regardless if the Account assignment has Send to CRM = Yes or No<br/>Yes - The Account Exclusion will only apply to Account assignments that have Send to CRM = Yes<br/>No - The Account Exclusion will only apply to Account assignments that have Send to CRM = No'),
+   system_managed(false)
+);

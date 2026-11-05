@@ -1,0 +1,8 @@
+RECREATE Picklist report_tags__sys (
+   label('Report Tags'),
+   active(true),
+   Picklistentry(@Picklistentry/veeva__sys.mdl),
+   Picklistentry(@Picklistentry/vault_ai__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

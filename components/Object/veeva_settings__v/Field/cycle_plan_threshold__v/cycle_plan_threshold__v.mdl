@@ -1,0 +1,20 @@
+Field cycle_plan_threshold__v (
+   label('CYCLE_PLAN_THRESHOLD'),
+   type('String'),
+   active(true),
+   description('Threshold value that determines the color of the Cycle Plan gauge and the Actual call count graphics on the VMobile Tablet Home Page.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(69),
+   default_value('"CYCLE_PLAN_THRESHOLD;;TABLET"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

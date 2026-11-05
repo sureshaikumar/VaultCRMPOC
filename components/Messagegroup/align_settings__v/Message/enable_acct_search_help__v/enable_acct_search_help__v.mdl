@@ -1,0 +1,6 @@
+Message enable_acct_search_help__v (
+   label(),
+   active(true),
+   default_value('This controls whether outside territory account is available during feedback.'),
+   system_managed(false)
+);

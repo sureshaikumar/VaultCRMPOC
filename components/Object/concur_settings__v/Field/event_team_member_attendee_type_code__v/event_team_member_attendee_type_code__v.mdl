@@ -1,0 +1,19 @@
+Field event_team_member_attendee_type_code__v (
+   label('Event Team Member Attendee Type Code'),
+   type('String'),
+   active(true),
+   description('Stores the Default Attendee Type Code when the Attendee is a Write In Team Member'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message export_in_progress__v (
+   label(),
+   active(true),
+   default_value('Exporting in Progress'),
+   system_managed(false)
+);

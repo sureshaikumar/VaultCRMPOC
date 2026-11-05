@@ -1,0 +1,4 @@
+Typefield upload_vtrans__v (
+   source('standard'),
+   required(false)
+);

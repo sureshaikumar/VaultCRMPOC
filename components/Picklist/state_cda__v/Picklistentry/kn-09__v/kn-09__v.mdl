@@ -1,0 +1,6 @@
+Picklistentry kn-09__v (
+   value('Saint Paul Capisterre'),
+   order(2449),
+   active(true),
+   controlling_entries('kn__v')
+);

@@ -1,0 +1,11 @@
+RECREATE Picklist clinical_trial_phase__v (
+   label('Phase'),
+   active(true),
+   Picklistentry(@Picklistentry/phase_i__v.mdl),
+   Picklistentry(@Picklistentry/phase_ii__v.mdl),
+   Picklistentry(@Picklistentry/phase_iii__v.mdl),
+   Picklistentry(@Picklistentry/phase_iv__v.mdl),
+   Picklistentry(@Picklistentry/none_specified__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

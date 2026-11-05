@@ -1,0 +1,6 @@
+Message confirm_deploy_title__v (
+   label(),
+   active(true),
+   default_value('Confirm Deployment'),
+   system_managed(false)
+);

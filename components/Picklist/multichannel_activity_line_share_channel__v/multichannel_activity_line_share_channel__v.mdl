@@ -1,0 +1,8 @@
+RECREATE Picklist multichannel_activity_line_share_channel__v (
+   label('Share Channel'),
+   active(true),
+   Picklistentry(@Picklistentry/face_to_face__v.mdl),
+   Picklistentry(@Picklistentry/remote_clm__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

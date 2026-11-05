@@ -1,0 +1,11 @@
+Vsmvalue gbp__v (
+   label('GBP'),
+   active(true),
+   description('The British Pound Sterling (GBP), the official currency of the United Kingdom, used for transactions and financial records involving UK business operations.'),
+   synonyms('British pound',
+         'pound sterling',
+         'UK currency',
+         'sterling'),
+   target('gbp__sys'),
+   target_label('GBP')
+);

@@ -1,0 +1,6 @@
+Message partial_reassigning_body__v (
+   label(),
+   active(true),
+   default_value('Cases: ${success_count} reassigned, ${failed_count} failed'),
+   system_managed(false)
+);

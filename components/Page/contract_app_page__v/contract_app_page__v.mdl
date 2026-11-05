@@ -1,0 +1,14 @@
+RECREATE Page contract_app_page__v (
+   label('Contract App Page'),
+   active(true),
+   client_distribution(),
+   default_client_code('contract_app_page__v'),
+   description('App page for Contracts'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('contract')
+);

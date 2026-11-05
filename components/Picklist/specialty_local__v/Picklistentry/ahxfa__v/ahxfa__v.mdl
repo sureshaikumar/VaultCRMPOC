@@ -1,0 +1,6 @@
+Picklistentry ahxfa__v (
+   value('Advanced Heart Failure'),
+   order(25),
+   active(true),
+   controlling_entries('om__v')
+);

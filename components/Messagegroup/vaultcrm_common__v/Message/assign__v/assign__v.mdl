@@ -1,0 +1,6 @@
+Message assign__v (
+   label(),
+   active(true),
+   default_value('Assign'),
+   system_managed(false)
+);

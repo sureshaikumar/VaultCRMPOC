@@ -1,0 +1,6 @@
+Picklistentry ng-oy__v (
+   value('Oyo'),
+   order(3350),
+   active(true),
+   controlling_entries('ng__v')
+);

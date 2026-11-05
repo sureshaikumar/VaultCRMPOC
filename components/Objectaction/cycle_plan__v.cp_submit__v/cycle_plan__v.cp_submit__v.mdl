@@ -1,0 +1,8 @@
+RECREATE Objectaction cycle_plan__v.cp_submit__v (
+   label('Submit'),
+   description('On submit, locks the record, set the cycle_plan__v.lock__v to true, and sets the Cycle Plan status to submitted__v.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.cycleplan.actions.CyclePlanSubmitAction'),
+   active(true),
+   available_all_states(true)
+);

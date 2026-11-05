@@ -1,0 +1,5 @@
+Picklistentry corp_leased__v (
+   value('Corp. Leased'),
+   order(18),
+   active(true)
+);

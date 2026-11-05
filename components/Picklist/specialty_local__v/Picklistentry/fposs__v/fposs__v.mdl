@@ -1,0 +1,18 @@
+Picklistentry fposs__v (
+   value('Forensic Psychiatry'),
+   order(568),
+   active(true),
+   controlling_entries('ba__v',
+         'bg__v',
+         'ca__v',
+         'de__v',
+         'fi__v',
+         'gb__v',
+         'hr__v',
+         'hu__v',
+         'mk__v',
+         'pt__v',
+         'rs__v',
+         'se__v',
+         'za__v')
+);

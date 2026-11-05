@@ -1,0 +1,5 @@
+Picklistentry 45460__v (
+   value('Terre Haute, IN Metropolitan Statistical Area'),
+   order(18),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message patient_details__v (
+   label(),
+   active(true),
+   default_value('Patient Details'),
+   system_managed(false)
+);

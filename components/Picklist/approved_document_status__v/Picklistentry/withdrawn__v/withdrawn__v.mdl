@@ -1,0 +1,5 @@
+Picklistentry withdrawn__v (
+   value('Withdrawn'),
+   order(2),
+   active(true)
+);

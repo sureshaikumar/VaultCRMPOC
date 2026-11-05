@@ -1,0 +1,6 @@
+Message common_ok__v (
+   label(),
+   active(true),
+   default_value('OK'),
+   system_managed(false)
+);

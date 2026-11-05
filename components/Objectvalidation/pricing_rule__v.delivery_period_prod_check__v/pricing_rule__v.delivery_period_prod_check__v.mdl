@@ -1,0 +1,22 @@
+RECREATE Objectvalidation pricing_rule__v.delivery_period_prod_check__v (
+   label('Delivery Period Prod Check'),
+   active(true),
+   expression('Not(
+     And(
+         object_type__vr.api_name__v = ''delivery_period__v'',
+         Or(
+             product__vr.product_type__v = ''order__v'',
+             product__vr.product_type__v = ''detail__v'',
+             product__vr.product_type__v = ''product_group__v''
+        ),
+         Or(
+             IsBlank(delivery_start_date__v),
+             IsBlank(delivery_end_date__v)
+        )
+    )
+)'),
+   description('For Delivery Period, if product type= ''Order'', ''Detail'' or ''Product Group'', Delivery Start and End Dates must be populated'),
+   error_message('For Delivery Period, if product type= ''Order'', ''Detail'' or ''Product Group'', Delivery Start and End Dates must be populated'),
+   error_location('delivery_end_date__v',
+      'delivery_start_date__v')
+);

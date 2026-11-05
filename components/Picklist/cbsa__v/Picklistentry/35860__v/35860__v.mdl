@@ -1,0 +1,5 @@
+Picklistentry 35860__v (
+   value('North Vernon, IN Micropolitan Statistical Area'),
+   order(340),
+   active(true)
+);

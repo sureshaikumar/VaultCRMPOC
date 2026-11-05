@@ -1,0 +1,5 @@
+Picklistentry case_detail__v (
+   value('Case Detail'),
+   order(1),
+   active(true)
+);

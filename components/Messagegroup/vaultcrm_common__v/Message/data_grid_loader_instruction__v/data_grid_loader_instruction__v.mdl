@@ -1,0 +1,6 @@
+Message data_grid_loader_instruction__v (
+   label(),
+   active(true),
+   default_value('Choose a template to begin data loading'),
+   system_managed(false)
+);

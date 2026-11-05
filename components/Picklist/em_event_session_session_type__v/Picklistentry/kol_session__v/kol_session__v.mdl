@@ -1,0 +1,5 @@
+Picklistentry kol_session__v (
+   value('KOL Session'),
+   order(0),
+   active(true)
+);

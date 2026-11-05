@@ -1,0 +1,6 @@
+Message existing_record_no_changes__v (
+   label(),
+   active(true),
+   default_value('Existing Record: No Changes'),
+   system_managed(false)
+);

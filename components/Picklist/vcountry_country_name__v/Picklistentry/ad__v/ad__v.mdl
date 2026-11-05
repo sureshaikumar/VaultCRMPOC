@@ -1,0 +1,5 @@
+Picklistentry ad__v (
+   value('Andorra'),
+   order(0),
+   active(true)
+);

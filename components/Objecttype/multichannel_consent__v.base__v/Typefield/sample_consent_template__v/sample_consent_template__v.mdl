@@ -1,0 +1,4 @@
+Typefield sample_consent_template__v (
+   source('standard'),
+   required(false)
+);

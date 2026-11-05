@@ -1,0 +1,7 @@
+RECREATE Picklist message_template_header_type__v (
+   label('Header Type'),
+   active(true),
+   Picklistentry(@Picklistentry/text__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

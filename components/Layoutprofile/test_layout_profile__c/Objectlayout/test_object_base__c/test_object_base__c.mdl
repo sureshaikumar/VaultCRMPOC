@@ -1,0 +1,9 @@
+Objectlayout test_object_base__c (
+   label('Test Object Base Test Object'),
+   active(true),
+   pagelayouts('Pagelayout.test_object_detail_page_layout__c',
+         'Pagelayout.base_test_object_detail_page_layout__c'),
+   object('Object.test_object__c'),
+   objecttype('Objecttype.test_object__c.base__v'),
+   record_creation_layout('Pagelayout.test_object_detail_page_layout__c')
+);

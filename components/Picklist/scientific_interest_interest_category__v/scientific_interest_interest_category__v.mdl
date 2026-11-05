@@ -1,0 +1,9 @@
+RECREATE Picklist scientific_interest_interest_category__v (
+   label('Interest Category'),
+   active(true),
+   Picklistentry(@Picklistentry/congress_update__v.mdl),
+   Picklistentry(@Picklistentry/clinical_trial_update__v.mdl),
+   Picklistentry(@Picklistentry/safety_label_update__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

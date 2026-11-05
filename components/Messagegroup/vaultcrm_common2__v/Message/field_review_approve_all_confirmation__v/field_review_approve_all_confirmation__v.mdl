@@ -1,0 +1,6 @@
+Message field_review_approve_all_confirmation__v (
+   label(),
+   active(true),
+   default_value('By approving all, these emails will be sent ${date} at ${time_of_day}'),
+   system_managed(false)
+);

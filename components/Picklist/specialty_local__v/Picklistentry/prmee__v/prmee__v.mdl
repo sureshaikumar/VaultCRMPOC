@@ -1,0 +1,8 @@
+Picklistentry prmee__v (
+   value('Pediatric Rehabilitation Medicine'),
+   order(1448),
+   active(true),
+   controlling_entries('au__v',
+         'nz__v',
+         'us__v')
+);

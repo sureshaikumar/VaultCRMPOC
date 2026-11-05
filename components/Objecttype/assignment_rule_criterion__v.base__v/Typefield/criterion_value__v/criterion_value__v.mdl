@@ -1,0 +1,4 @@
+Typefield criterion_value__v (
+   source('standard'),
+   required(false)
+);

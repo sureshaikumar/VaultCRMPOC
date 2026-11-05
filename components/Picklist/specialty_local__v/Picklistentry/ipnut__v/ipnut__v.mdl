@@ -1,0 +1,6 @@
+Picklistentry ipnut__v (
+   value('Interventional Pulmonology'),
+   order(826),
+   active(true),
+   controlling_entries('ke__v')
+);

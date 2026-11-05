@@ -1,0 +1,18 @@
+Field parent__v (
+   label('Parent'),
+   type('Boolean'),
+   active(true),
+   description('System field used to track the first of the two affiliation records created.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

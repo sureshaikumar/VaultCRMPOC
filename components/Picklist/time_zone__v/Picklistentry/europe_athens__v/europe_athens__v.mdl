@@ -1,0 +1,5 @@
+Picklistentry europe_athens__v (
+   value('Eastern European Time (Athens)'),
+   order(48),
+   active(true)
+);

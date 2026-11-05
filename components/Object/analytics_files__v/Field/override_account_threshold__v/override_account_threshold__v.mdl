@@ -1,0 +1,18 @@
+Field override_account_threshold__v (
+   label('Override Account Threshold'),
+   type('Boolean'),
+   active(true),
+   description('Mark this checkbox to always download all Sales Data for all Accounts to which the User has access.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(26),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message patient_prescription__v (
+   label(),
+   active(true),
+   default_value('Patient Prescription'),
+   system_managed(false)
+);

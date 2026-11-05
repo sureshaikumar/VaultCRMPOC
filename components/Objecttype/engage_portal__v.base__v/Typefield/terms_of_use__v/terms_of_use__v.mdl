@@ -1,0 +1,4 @@
+Typefield terms_of_use__v (
+   source('standard'),
+   required(false)
+);

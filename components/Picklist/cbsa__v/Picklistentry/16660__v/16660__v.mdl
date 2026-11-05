@@ -1,0 +1,5 @@
+Picklistentry 16660__v (
+   value('Charleston-Mattoon, IL Micropolitan Statistical Area'),
+   order(935),
+   active(true)
+);

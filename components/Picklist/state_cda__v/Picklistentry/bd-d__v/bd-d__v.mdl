@@ -1,0 +1,6 @@
+Picklistentry bd-d__v (
+   value('Khulna'),
+   order(297),
+   active(true),
+   controlling_entries('bd__v')
+);

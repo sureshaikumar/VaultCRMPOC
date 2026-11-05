@@ -1,0 +1,8 @@
+RECREATE Objectaction em_event__v.close__v (
+   label('Close'),
+   description('Close'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.eventsmanagement.actions.CloseAction'),
+   active(true),
+   available_all_states(true)
+);

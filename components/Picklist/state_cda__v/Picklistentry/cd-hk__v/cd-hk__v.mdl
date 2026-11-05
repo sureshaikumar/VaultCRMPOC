@@ -1,0 +1,6 @@
+Picklistentry cd-hk__v (
+   value('Haut-Katanga'),
+   order(575),
+   active(true),
+   controlling_entries('cd__v')
+);

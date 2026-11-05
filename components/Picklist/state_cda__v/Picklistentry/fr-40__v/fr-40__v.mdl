@@ -1,0 +1,6 @@
+Picklistentry fr-40__v (
+   value('Landes'),
+   order(1356),
+   active(true),
+   controlling_entries('fr__v')
+);

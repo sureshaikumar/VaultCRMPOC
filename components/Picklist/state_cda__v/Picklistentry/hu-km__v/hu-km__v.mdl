@@ -1,0 +1,6 @@
+Picklistentry hu-km__v (
+   value('Kecskemét'),
+   order(1892),
+   active(true),
+   controlling_entries('hu__v')
+);

@@ -1,0 +1,6 @@
+Message more__v (
+   label(),
+   active(true),
+   default_value('More'),
+   system_managed(false)
+);

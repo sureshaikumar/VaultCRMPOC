@@ -1,0 +1,7 @@
+RECREATE Picklist vfm_file_security_policy_type__v (
+   label('VFM File Security Policy Type'),
+   active(true),
+   Picklistentry(@Picklistentry/auto_open__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

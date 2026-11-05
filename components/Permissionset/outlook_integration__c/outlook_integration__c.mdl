@@ -1,0 +1,11 @@
+RECREATE Permissionset outlook_integration__c (
+   label('Outlook Integration'),
+   active(true),
+   description(),
+   object.received_email__v.field_actions('edit',
+      'read'),
+   object.received_email__v.service_center__v.object_actions('create'),
+   vault_actions.api('access_api'),
+   vault_actions.ftp_staging('ftp_access'),
+   vault_actions.search('suggest')
+);

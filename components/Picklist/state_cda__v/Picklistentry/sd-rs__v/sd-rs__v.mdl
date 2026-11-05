@@ -1,0 +1,6 @@
+Picklistentry sd-rs__v (
+   value('Red Sea'),
+   order(3944),
+   active(true),
+   controlling_entries('sd__v')
+);

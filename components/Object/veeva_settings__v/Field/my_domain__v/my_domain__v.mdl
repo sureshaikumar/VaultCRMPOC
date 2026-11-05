@@ -1,0 +1,20 @@
+Field my_domain__v (
+   label('MY_DOMAIN'),
+   type('String'),
+   active(true),
+   description('For users with My Domain functionality, this URL will replace the SFDC url on iRep'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(220),
+   default_value('"MY_DOMAIN;;iPad"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

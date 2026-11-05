@@ -1,0 +1,5 @@
+Picklistentry network__v (
+   value('Network'),
+   order(5),
+   active(true)
+);

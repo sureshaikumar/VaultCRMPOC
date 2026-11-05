@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction saved_state__v.set_status__v (
+   rule(@rule.xml),
+   order(2000)
+);

@@ -1,0 +1,5 @@
+Picklistentry 30020__v (
+   value('Lawton, OK Metropolitan Statistical Area'),
+   order(390),
+   active(true)
+);

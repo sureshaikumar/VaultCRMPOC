@@ -1,0 +1,6 @@
+Message select_chat__v (
+   label(),
+   active(true),
+   default_value('Select Chat'),
+   system_managed(false)
+);

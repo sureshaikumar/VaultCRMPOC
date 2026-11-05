@@ -1,0 +1,6 @@
+Picklistentry uapsr__v (
+   value('Urogynecology and Pelvic Surgery'),
+   order(1895),
+   active(true),
+   controlling_entries('th__v')
+);

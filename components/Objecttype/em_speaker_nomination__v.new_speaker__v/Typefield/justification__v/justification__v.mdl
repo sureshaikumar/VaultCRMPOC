@@ -1,0 +1,9 @@
+Typefield justification__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_nomination_justification__v.knowledge_of_therapeutic_area_and_diseas__v',
+         'Picklist.em_speaker_nomination_justification__v.medical_thought_leader_or_expertise__v',
+         'Picklist.em_speaker_nomination_justification__v.other__v',
+         'Picklist.em_speaker_nomination_justification__v.prior_speaking_experience__v',
+         'Picklist.em_speaker_nomination_justification__v.research_and_publications__v')
+);

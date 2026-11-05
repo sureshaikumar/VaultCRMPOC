@@ -1,0 +1,6 @@
+Message consent_external_tooltip__v (
+   label(),
+   active(true),
+   default_value('This page is read-only. Select ''Edit'' link to make changes in the external tool.'),
+   system_managed(false)
+);

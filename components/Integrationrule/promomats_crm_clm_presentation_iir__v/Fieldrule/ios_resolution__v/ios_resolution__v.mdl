@@ -1,0 +1,15 @@
+Fieldrule ios_resolution__v (
+   label('iOS Resolution'),
+   active(true),
+   query_object('documents'),
+   query_field('ios_resolution__v'),
+   target_object(),
+   target_object_field(),
+   target_docfield('Docfield.ios_resolution__v'),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('document_picklist__sys'),
+   target_field_lookup()
+);

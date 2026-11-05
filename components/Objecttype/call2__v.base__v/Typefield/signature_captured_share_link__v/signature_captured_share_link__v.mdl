@@ -1,0 +1,4 @@
+Typefield signature_captured_share_link__v (
+   source('standard'),
+   required(false)
+);

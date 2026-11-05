@@ -1,0 +1,6 @@
+Message owner_error_null__v (
+   label(),
+   active(true),
+   default_value('Owner cannot be blank. Please enter an owner for this record.'),
+   system_managed(false)
+);

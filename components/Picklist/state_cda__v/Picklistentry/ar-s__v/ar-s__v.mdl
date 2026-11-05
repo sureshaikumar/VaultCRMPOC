@@ -1,0 +1,6 @@
+Picklistentry ar-s__v (
+   value('Santa Fe'),
+   order(113),
+   active(true),
+   controlling_entries('ar__v')
+);

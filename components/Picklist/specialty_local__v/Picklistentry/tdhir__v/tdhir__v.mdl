@@ -1,0 +1,6 @@
+Picklistentry tdhir__v (
+   value('Throphoblastic Disease'),
+   order(1847),
+   active(true),
+   controlling_entries('ph__v')
+);

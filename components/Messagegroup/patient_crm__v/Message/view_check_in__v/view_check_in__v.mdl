@@ -1,0 +1,6 @@
+Message view_check_in__v (
+   label(),
+   active(true),
+   default_value('View Check-In'),
+   system_managed(false)
+);

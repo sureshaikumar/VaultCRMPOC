@@ -1,0 +1,5 @@
+Picklistentry macrolides__v (
+   value('Macrolides'),
+   order(65),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field restrictions__v (
+   label('Restrictions'),
+   type('Picklist'),
+   active(true),
+   description('Restriction codes for this product in this benefit design line. For example, one of the codes might be ''PA'', which stands for Prior Auth. The valid values in this field are controlled by the value of the type field, because not all restriction codes are v'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(17),
+   multi_value(true),
+   picklist('Picklist.benefit_design_line_restrictions__v'),
+   controlling_picklist('type__v'),
+   picklist_dependencies('{"commercial__v":["ql__v","pa__v","al__v","se__v"],"medicaid__v":["pa__v"],"va__v":["ql__v"],"medicare__v":["ql__v","pa__v","al__v","se__v"]}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry py-7__v (
+   value('Itapúa'),
+   order(3704),
+   active(true),
+   controlling_entries('py__v')
+);

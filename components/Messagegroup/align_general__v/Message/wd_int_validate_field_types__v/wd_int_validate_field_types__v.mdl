@@ -1,0 +1,6 @@
+Message wd_int_validate_field_types__v (
+   label(),
+   active(true),
+   default_value('The field type for ''{0}'' is not compatible with the field type of ''{1}''. Please update the incompatible field mapping.'),
+   system_managed(false)
+);

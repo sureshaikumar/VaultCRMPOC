@@ -1,0 +1,6 @@
+Message want_to_cancel_this_check_in_note__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to cancel this Check-In Note? Any changes you made will not be saved.'),
+   system_managed(false)
+);

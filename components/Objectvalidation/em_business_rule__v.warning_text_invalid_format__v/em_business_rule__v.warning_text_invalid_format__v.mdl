@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_business_rule__v.warning_text_invalid_format__v (
+   label('Warning Text Invalid Format'),
+   active(true),
+   expression('IsBlank(warning_text__v) || Regex(warning_text__v, "([a-zA-Z0-9_-]+)\\;\\;([a-zA-Z0-9_-]+)")'),
+   description('Warning Text field input is not in valid format.'),
+   error_message('Invalid Warning Text field input.'),
+   error_location('warning_text__v')
+);

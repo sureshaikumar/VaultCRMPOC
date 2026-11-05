@@ -1,0 +1,6 @@
+Picklistentry ph-slu__v (
+   value('Sulu'),
+   order(3603),
+   active(true),
+   controlling_entries('ph__v')
+);

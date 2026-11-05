@@ -1,0 +1,5 @@
+Picklistentry maesd__v (
+   value('Medical Assistant'),
+   order(61),
+   active(true)
+);

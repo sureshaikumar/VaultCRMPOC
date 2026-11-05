@@ -1,0 +1,5 @@
+Picklistentry krc (
+   value('Karachay-Balkar'),
+   order(214),
+   active(true)
+);

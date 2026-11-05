@@ -1,0 +1,6 @@
+Picklistentry af-gha__v (
+   value('Ghaznī'),
+   order(22),
+   active(true),
+   controlling_entries('af__v')
+);

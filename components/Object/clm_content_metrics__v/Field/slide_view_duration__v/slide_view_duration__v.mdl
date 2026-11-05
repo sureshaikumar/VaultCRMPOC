@@ -1,0 +1,22 @@
+Field slide_view_duration__v (
+   label('Slide View Duration'),
+   type('Number'),
+   active(true),
+   description('The total amount of time in seconds the slide was viewed in calls. This is calculated from the call2_key_message__v records duration__v field.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(41),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

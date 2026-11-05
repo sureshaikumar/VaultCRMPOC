@@ -1,0 +1,6 @@
+Message align_settings_modeling__v (
+   label(),
+   active(true),
+   default_value('Align Settings (Modeling)'),
+   system_managed(false)
+);

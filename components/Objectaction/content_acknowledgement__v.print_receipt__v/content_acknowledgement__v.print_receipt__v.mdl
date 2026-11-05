@@ -1,0 +1,8 @@
+RECREATE Objectaction content_acknowledgement__v.print_receipt__v (
+   label('Print AOC Receipt'),
+   description('Generates a PDF representation of an AOC receipt.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.contentacknowledgement.actions.ContentAcknowledgementPrintReceiptAction'),
+   active(true),
+   available_all_states(true)
+);

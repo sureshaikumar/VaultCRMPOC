@@ -1,0 +1,8 @@
+Tabcollectionitem account_plan1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(18),
+   tab('Tab.account_plan__c'),
+   type('Tab')
+);

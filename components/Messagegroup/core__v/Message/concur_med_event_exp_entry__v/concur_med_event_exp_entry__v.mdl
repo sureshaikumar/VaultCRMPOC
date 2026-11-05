@@ -1,0 +1,6 @@
+Message concur_med_event_exp_entry__v (
+   label(),
+   active(true),
+   default_value('Medical Event to Expense Entry'),
+   system_managed(false)
+);

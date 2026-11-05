@@ -1,0 +1,6 @@
+Picklistentry bd-19__v (
+   value('Gaibandha'),
+   order(248),
+   active(true),
+   controlling_entries('bd__v')
+);

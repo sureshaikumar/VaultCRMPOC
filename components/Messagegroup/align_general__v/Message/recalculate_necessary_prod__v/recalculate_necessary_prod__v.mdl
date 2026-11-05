@@ -1,0 +1,6 @@
+Message recalculate_necessary_prod__v (
+   label(),
+   active(true),
+   default_value('Recalculation is only necessary if alignment or targeting data is loaded into production.'),
+   system_managed(false)
+);

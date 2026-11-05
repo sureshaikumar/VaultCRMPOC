@@ -1,0 +1,7 @@
+RECREATE Picklist email_builder_rule_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/inclusive_combination__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

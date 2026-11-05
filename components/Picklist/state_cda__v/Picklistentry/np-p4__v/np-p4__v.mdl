@@ -1,0 +1,6 @@
+Picklistentry np-p4__v (
+   value('Gandaki'),
+   order(3408),
+   active(true),
+   controlling_entries('np__v')
+);

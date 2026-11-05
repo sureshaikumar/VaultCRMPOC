@@ -1,0 +1,19 @@
+Field run_id__v (
+   label('Run Id'),
+   type('String'),
+   active(true),
+   description('Autonumber to generate Run # for the Server Job Status record.  This value will be used to identify which records were aligned to allow for re-starting of processes in the event that they fail.'),
+   required(false),
+   unique(false),
+   max_length(64),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

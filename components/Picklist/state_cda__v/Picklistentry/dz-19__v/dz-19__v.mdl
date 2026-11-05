@@ -1,0 +1,6 @@
+Picklistentry dz-19__v (
+   value('Sétif'),
+   order(1000),
+   active(true),
+   controlling_entries('dz__v')
+);

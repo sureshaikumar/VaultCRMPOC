@@ -1,0 +1,17 @@
+Field license_expiration_date__v (
+   label('License Expiration Date'),
+   type('Date'),
+   active(true),
+   description('State License Expiration Date.  The State License Expiration Date is maintained across Addresses for an Account for the same State by the Address_trigger_vod trigger on the Address object.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(40),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

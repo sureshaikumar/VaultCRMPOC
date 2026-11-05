@@ -1,0 +1,4 @@
+Typefield enable_tablet_vinsights_tab__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry uz-sa__v (
+   value('Samarqand'),
+   order(4875),
+   active(true),
+   controlling_entries('uz__v')
+);

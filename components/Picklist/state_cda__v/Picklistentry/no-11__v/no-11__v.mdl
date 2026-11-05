@@ -1,0 +1,6 @@
+Picklistentry no-11__v (
+   value('Rogaland'),
+   order(3393),
+   active(true),
+   controlling_entries('no__v')
+);

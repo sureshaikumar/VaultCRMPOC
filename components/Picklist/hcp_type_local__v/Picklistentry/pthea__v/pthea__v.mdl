@@ -1,0 +1,5 @@
+Picklistentry pthea__v (
+   value('Pharmacy Technician'),
+   order(105),
+   active(true)
+);

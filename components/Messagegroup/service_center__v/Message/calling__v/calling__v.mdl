@@ -1,0 +1,6 @@
+Message calling__v (
+   label(),
+   active(true),
+   default_value('Calling'),
+   system_managed(false)
+);

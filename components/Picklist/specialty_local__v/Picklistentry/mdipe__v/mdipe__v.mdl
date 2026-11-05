@@ -1,0 +1,6 @@
+Picklistentry mdipe__v (
+   value('Metabolic Diseases in Pediatrics'),
+   order(957),
+   active(true),
+   controlling_entries('hr__v')
+);

@@ -1,0 +1,16 @@
+RECREATE Tab account_management__c (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Account Management'),
+   modal_create_record(false),
+   order(2800),
+   parent(),
+   prevent_create(false),
+   Subtab(@Subtab/business_accounts__c.mdl),
+   Subtab(@Subtab/test_objects__c.mdl),
+   Subtab(@Subtab/person_accounts__c.mdl),
+   Subtab(@Subtab/child_accounts__c.mdl),
+   Subtab(@Subtab/vaulttrain1__c.mdl),
+   Subtab(@Subtab/calls__c.mdl)
+);

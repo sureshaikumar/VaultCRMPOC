@@ -1,0 +1,6 @@
+Picklistentry aaicr__v (
+   value('Anesthesiology and Intensive Care Regional and Interventional Anesthesia'),
+   order(85),
+   active(true),
+   controlling_entries('id__v')
+);

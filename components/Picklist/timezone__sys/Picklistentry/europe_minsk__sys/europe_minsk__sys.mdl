@@ -1,0 +1,5 @@
+Picklistentry europe_minsk__sys (
+   value('(GMT+03:00) Moscow Standard Time (Europe/Minsk)'),
+   order(202),
+   active(true)
+);

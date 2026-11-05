@@ -1,0 +1,5 @@
+Picklistentry payer__c (
+   value('Payer'),
+   order(1),
+   active(true)
+);

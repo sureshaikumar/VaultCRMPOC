@@ -1,0 +1,6 @@
+Picklistentry ug-227__v (
+   value('Kibuku'),
+   order(4695),
+   active(true),
+   controlling_entries('ug__v')
+);

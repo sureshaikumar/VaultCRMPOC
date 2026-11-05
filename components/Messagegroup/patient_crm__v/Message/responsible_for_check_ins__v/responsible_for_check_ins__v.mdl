@@ -1,0 +1,6 @@
+Message responsible_for_check_ins__v (
+   label(),
+   active(true),
+   default_value('Responsible for Check-Ins'),
+   system_managed(false)
+);

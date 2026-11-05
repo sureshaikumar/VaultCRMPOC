@@ -1,0 +1,6 @@
+Picklistentry clsla__v (
+   value('Clinical Laboratory Subjects'),
+   order(241),
+   active(true),
+   controlling_entries('il__v')
+);

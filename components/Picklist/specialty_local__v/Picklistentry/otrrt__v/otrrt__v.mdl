@@ -1,0 +1,6 @@
+Picklistentry otrrt__v (
+   value('Orthopedic Trauma'),
+   order(1209),
+   active(true),
+   controlling_entries('vn__v')
+);

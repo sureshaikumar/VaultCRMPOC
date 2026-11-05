@@ -1,0 +1,6 @@
+Picklistentry cz-20c__v (
+   value('Rakovník'),
+   order(826),
+   active(true),
+   controlling_entries('cz__v')
+);

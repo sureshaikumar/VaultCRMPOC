@@ -1,0 +1,5 @@
+Picklistentry vteet__v (
+   value('Veterinary Technician'),
+   order(164),
+   active(true)
+);

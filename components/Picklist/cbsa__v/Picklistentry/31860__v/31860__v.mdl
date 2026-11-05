@@ -1,0 +1,5 @@
+Picklistentry 31860__v (
+   value('Mankato-North Mankato, MN Micropolitan Statistical Area'),
+   order(640),
+   active(true)
+);

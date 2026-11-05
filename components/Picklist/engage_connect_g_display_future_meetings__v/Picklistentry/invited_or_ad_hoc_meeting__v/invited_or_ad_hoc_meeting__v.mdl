@@ -1,0 +1,5 @@
+Picklistentry invited_or_ad_hoc_meeting__v (
+   value('Invited Or Ad Hoc Meeting'),
+   order(2),
+   active(true)
+);

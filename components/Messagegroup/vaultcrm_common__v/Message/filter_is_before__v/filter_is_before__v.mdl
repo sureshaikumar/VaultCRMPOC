@@ -1,0 +1,6 @@
+Message filter_is_before__v (
+   label(),
+   active(true),
+   default_value('is before'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Pagelayout call_report_detail_page_layout2__c (
+   active(true),
+   default_layout(false),
+   description(),
+   display_lifecycle_stages(false),
+   label('Call Report Detail Page Layout2'),
+   page_markup(@page_markup.xml)
+);

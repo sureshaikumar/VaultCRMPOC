@@ -1,0 +1,6 @@
+Message order_header_subtab__v (
+   label(),
+   active(true),
+   default_value('Order Header'),
+   system_managed(false)
+);

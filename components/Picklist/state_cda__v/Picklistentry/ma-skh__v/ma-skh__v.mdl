@@ -1,0 +1,6 @@
+Picklistentry ma-skh__v (
+   value('Skhirate-Témara'),
+   order(2839),
+   active(true),
+   controlling_entries('ma__v')
+);

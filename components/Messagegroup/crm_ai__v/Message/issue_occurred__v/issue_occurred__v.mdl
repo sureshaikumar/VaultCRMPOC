@@ -1,0 +1,6 @@
+Message issue_occurred__v (
+   label(),
+   active(true),
+   default_value('Sorry, an issue has occurred. Please retry, or contact your admin if the error persists.'),
+   system_managed(false)
+);

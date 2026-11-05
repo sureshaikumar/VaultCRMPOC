@@ -1,0 +1,6 @@
+Picklistentry otp_new_speaker__sys (
+   value('New Speaker'),
+   order(106),
+   active(true),
+   controlling_entries('olc_speaker_nomination__sys')
+);

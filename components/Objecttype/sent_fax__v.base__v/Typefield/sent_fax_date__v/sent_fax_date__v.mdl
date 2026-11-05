@@ -1,0 +1,4 @@
+Typefield sent_fax_date__v (
+   source('standard'),
+   required(false)
+);

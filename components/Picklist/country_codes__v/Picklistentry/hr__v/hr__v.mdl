@@ -1,0 +1,5 @@
+Picklistentry hr__v (
+   value('HR'),
+   order(97),
+   active(true)
+);

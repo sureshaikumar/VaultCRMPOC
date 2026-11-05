@@ -1,0 +1,5 @@
+Picklistentry iw__v (
+   value('Hebrew'),
+   order(16),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry omapr__v (
+   value('Oral Medicine and Periodontology'),
+   order(1175),
+   active(true),
+   controlling_entries('ba__v')
+);

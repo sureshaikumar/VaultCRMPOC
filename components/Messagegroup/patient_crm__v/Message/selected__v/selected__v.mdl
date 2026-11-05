@@ -1,0 +1,6 @@
+Message selected__v (
+   label(),
+   active(true),
+   default_value('Selected'),
+   system_managed(false)
+);

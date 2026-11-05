@@ -1,0 +1,6 @@
+Picklistentry si-211__v (
+   value('Šentrupert'),
+   order(4184),
+   active(true),
+   controlling_entries('si__v')
+);

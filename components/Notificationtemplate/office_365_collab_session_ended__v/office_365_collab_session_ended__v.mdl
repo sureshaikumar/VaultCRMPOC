@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate office_365_collab_session_ended__v (
+   label('Office 365 Collaboration Session Ended'),
+   active(true),
+   description('Sent to all Editors when a user checks in, which ends the collaboration session for everyone.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Collaboration Session Ended'),
+   notification('<b>${checkInUserName}</b> checked in and ended the collaboration session for <b>${docName} (${version})</b> on ${versionCreationDate}. <br><br> If you made edits after this time, it is recommended that you save a local copy. Open your Office desktop application, go to ''Recent'', click on the yellow triangle for the file you were working on, and then click ''Save a Copy''.'),
+   email_body('<b>${checkInUserName}</b> checked in and ended the collaboration session for <b><a href="${docURL}">${docName} (${version})</a></b> on ${versionCreationDate}. <br><br> If you made edits after this time, it is recommended that you save a local copy. Open your Office desktop application, go to ''Recent'', click on the yellow triangle for the file you were working on, and then click ''Save a Copy''. <br><br> <p>Access your Vault here: <a href="${uiBaseExtUrl}"> ${vaultName}</a></p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

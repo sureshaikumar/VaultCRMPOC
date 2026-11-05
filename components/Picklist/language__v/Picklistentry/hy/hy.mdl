@@ -1,0 +1,5 @@
+Picklistentry hy (
+   value('Armenian'),
+   order(77),
+   active(true)
+);

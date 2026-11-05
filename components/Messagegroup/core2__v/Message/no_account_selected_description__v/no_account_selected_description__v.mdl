@@ -1,0 +1,6 @@
+Message no_account_selected_description__v (
+   label(),
+   active(true),
+   default_value('Account details will appear here'),
+   system_managed(false)
+);

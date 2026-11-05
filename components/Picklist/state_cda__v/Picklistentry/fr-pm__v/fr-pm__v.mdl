@@ -1,0 +1,6 @@
+Picklistentry fr-pm__v (
+   value('Saint-Pierre-et-Miquelon'),
+   order(1436),
+   active(true),
+   controlling_entries('fr__v')
+);

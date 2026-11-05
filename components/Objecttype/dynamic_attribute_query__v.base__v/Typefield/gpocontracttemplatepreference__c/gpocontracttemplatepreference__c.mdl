@@ -1,0 +1,4 @@
+Typefield gpocontracttemplatepreference__c (
+   source('standard'),
+   required(false)
+);

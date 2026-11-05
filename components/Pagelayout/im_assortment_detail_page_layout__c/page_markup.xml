@@ -1,0 +1,37 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.assortment__v.im_assortment__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account_group__v" />
+            <vault:field reference="account_record_type__v" />
+            <vault:field reference="all_others__v" />
+            <vault:field reference="assortment_group__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="inventory_monitoring_record_type__v" />
+            <vault:field reference="order_record_type__v" />
+            <vault:field reference="product_bound__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Assortment Lines" name="assortment_lines__c">
+        <vault:relatedObject relationship="assortment_lines__vr" preventRecordCreate="false" modalCreateRecord="true">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="section_label__v" width="200px" />
+            <vault:field reference="product__v" width="200px" />
+            <vault:field reference="collapse_by_default__v" width="200px" />
+            <vault:field reference="sorting__v" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

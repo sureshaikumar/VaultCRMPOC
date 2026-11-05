@@ -1,0 +1,6 @@
+Message cant_set_import_inactive__v (
+   label(),
+   active(true),
+   default_value('Import Inactive Assignments can only be enabled for Global Settings.'),
+   system_managed(false)
+);

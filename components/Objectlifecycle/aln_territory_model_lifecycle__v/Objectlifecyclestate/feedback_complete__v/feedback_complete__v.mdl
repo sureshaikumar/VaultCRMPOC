@@ -1,0 +1,10 @@
+Objectlifecyclestate feedback_complete__v (
+   label('Territory Feedback Complete'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('This is the state in which territory models will be placed once field reps and managers have submitted their final feedback.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

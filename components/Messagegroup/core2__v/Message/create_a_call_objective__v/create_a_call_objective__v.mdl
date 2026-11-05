@@ -1,0 +1,6 @@
+Message create_a_call_objective__v (
+   label(),
+   active(true),
+   default_value('Create Call Objective'),
+   system_managed(false)
+);

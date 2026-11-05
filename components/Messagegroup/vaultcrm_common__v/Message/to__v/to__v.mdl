@@ -1,0 +1,6 @@
+Message to__v (
+   label(),
+   active(true),
+   default_value('to'),
+   system_managed(false)
+);

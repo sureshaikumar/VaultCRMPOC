@@ -1,0 +1,5 @@
+Picklistentry sales_date__v (
+   value('Sales_Date_vod__c'),
+   order(222),
+   active(true)
+);

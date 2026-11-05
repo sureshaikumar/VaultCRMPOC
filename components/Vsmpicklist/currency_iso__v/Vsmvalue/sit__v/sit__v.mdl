@@ -1,0 +1,10 @@
+Vsmvalue sit__v (
+   label('SIT'),
+   active(true),
+   description('Applies when referencing the Slovenian Tolar, the historical currency of Slovenia before it adopted the Euro in 2007.'),
+   synonyms('Slovenian tolar',
+         'Slovenia legacy currency',
+         'tolar'),
+   target('sit__sys'),
+   target_label('SIT')
+);

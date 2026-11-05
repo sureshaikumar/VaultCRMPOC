@@ -1,0 +1,5 @@
+Picklistentry 25940__v (
+   value('Hilton Head Island-Beaufort, SC Micropolitan Statistical Area'),
+   order(683),
+   active(true)
+);

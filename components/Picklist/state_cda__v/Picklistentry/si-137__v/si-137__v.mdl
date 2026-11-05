@@ -1,0 +1,6 @@
+Picklistentry si-137__v (
+   value('Vitanje'),
+   order(4111),
+   active(true),
+   controlling_entries('si__v')
+);

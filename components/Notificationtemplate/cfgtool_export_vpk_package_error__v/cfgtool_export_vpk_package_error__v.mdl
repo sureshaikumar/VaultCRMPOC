@@ -1,0 +1,26 @@
+RECREATE Notificationtemplate cfgtool_export_vpk_package_error__v (
+   label('Export VPK Package Error'),
+   active(true),
+   description('Export package error template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Your Outbound Package: ${packageName} has failed to export.'),
+   notification('<b><p>Your Outbound Package: ${packageName} has failed to export.</p></b>
+<br/>
+<ul>
+    <li> Reason for Failure : ${failureMessage} </li>
+    <li> Start Time: ${startTime} </li>
+    <li> Duration: ${duration} </li>
+</ul>
+'),
+   email_body('<b><p>Your Outbound Package: ${packageName} has failed to export.</p></b>
+<br/>
+<ul>
+    <li> Reason for Failure : ${failureMessage} </li>
+    <li> Start Time: ${startTime} </li>
+    <li> Duration: ${duration} </li>
+</ul>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

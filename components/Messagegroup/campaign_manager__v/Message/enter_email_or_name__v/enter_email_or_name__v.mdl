@@ -1,0 +1,6 @@
+Message enter_email_or_name__v (
+   label(),
+   active(true),
+   default_value('Enter email address or name'),
+   system_managed(false)
+);

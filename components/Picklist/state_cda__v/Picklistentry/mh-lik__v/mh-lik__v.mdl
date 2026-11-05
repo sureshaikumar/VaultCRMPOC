@@ -1,0 +1,6 @@
+Picklistentry mh-lik__v (
+   value('Likiep'),
+   order(2951),
+   active(true),
+   controlling_entries('mh__v')
+);

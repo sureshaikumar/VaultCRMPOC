@@ -1,0 +1,6 @@
+Message regenerate_target_list_confirmation__v (
+   label(),
+   active(true),
+   default_value('You are about to refresh your target list, which can add or remove targets based on your filters'),
+   system_managed(false)
+);

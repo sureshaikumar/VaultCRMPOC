@@ -1,0 +1,6 @@
+Picklistentry ly-dr__v (
+   value('Darnah'),
+   order(2746),
+   active(true),
+   controlling_entries('ly__v')
+);

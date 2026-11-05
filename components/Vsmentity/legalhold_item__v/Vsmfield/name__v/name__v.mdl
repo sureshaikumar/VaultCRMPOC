@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The system-generated or assigned name that uniquely identifies this legal hold item record within Vault. Primarily used for record lookup and display purposes in list views and reports.'),
+   example_values(),
+   synonyms('item name',
+         'record name',
+         'hold item ID'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

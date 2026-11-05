@@ -1,0 +1,6 @@
+Message in_progress_status__v (
+   label(),
+   active(true),
+   default_value('In Progress'),
+   system_managed(false)
+);

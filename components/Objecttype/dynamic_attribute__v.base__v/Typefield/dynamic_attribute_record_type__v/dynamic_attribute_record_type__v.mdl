@@ -1,0 +1,4 @@
+Typefield dynamic_attribute_record_type__v (
+   source('standard'),
+   required(true)
+);

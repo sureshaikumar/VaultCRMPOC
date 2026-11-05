@@ -1,0 +1,6 @@
+Message integration_history_product_info__v (
+   label(),
+   active(true),
+   default_value('Integration History is a virtual Related List that represents each CRM Integration attempt with this Product''s respective my_setup_products__v record in CRM.'),
+   system_managed(false)
+);

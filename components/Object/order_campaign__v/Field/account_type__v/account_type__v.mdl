@@ -1,0 +1,19 @@
+Field account_type__v (
+   label('Account Type'),
+   type('Picklist'),
+   active(true),
+   description('Values need to match the values of Account recordtype
+Limits Order Campaign to this Account Type'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   multi_value(false),
+   picklist('Picklist.order_campaign_account_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

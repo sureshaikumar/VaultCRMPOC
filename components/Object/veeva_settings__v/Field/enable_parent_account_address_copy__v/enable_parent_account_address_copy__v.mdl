@@ -1,0 +1,18 @@
+Field enable_parent_account_address_copy__v (
+   label('ENABLE_PARENT_ACCOUNT_ADDRESS_COPY'),
+   type('Boolean'),
+   active(true),
+   description('This determines whether the Account being created should use the Address Inheritance logic, to copy from a Parent Account.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(148),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

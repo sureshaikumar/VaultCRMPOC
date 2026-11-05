@@ -1,0 +1,6 @@
+Picklistentry cd-nk__v (
+   value('Nord-Kivu'),
+   order(590),
+   active(true),
+   controlling_entries('cd__v')
+);

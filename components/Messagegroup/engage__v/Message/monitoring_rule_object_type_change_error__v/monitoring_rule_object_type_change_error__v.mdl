@@ -1,0 +1,6 @@
+Message monitoring_rule_object_type_change_error__v (
+   label(),
+   active(true),
+   default_value('This Monitoring Rule cannot have its object type changed because it has associated Monitored Phrases. To change the object type, please delete the associated Monitored Phrases first.'),
+   system_managed(false)
+);

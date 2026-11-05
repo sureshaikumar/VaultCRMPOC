@@ -1,0 +1,11 @@
+Vsmfield new_workflows__v (
+   label('New Workflows'),
+   active(true),
+   description('Number of new workflows created on a given day'),
+   example_values(),
+   synonyms(),
+   target('new_workflows__v'),
+   target_label('New Workflows'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

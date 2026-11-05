@@ -1,0 +1,4 @@
+Typefield corporate_contract__v (
+   source('standard'),
+   required(false)
+);

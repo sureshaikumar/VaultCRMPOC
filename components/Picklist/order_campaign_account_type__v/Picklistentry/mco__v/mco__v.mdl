@@ -1,0 +1,5 @@
+Picklistentry mco__v (
+   value('MCO'),
+   order(11),
+   active(false)
+);

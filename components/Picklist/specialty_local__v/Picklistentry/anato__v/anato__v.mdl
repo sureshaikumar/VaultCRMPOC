@@ -1,0 +1,11 @@
+Picklistentry anato__v (
+   value('Anatomy'),
+   order(62),
+   active(true),
+   controlling_entries('at__v',
+         'de__v',
+         'in__v',
+         'ma__v',
+         'pk__v',
+         'tr__v')
+);

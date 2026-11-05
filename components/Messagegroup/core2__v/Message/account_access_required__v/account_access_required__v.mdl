@@ -1,0 +1,6 @@
+Message account_access_required__v (
+   label(),
+   active(true),
+   default_value('Account Access Required'),
+   system_managed(false)
+);

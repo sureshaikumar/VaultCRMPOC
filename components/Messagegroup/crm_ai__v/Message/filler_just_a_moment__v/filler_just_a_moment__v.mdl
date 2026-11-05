@@ -1,0 +1,6 @@
+Message filler_just_a_moment__v (
+   label(),
+   active(true),
+   default_value('Give me just a moment...'),
+   system_managed(false)
+);

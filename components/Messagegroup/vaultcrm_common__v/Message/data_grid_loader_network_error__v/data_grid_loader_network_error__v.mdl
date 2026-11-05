@@ -1,0 +1,6 @@
+Message data_grid_loader_network_error__v (
+   label(),
+   active(true),
+   default_value('Unable to display upload results. Please ensure data was uploaded correctly in Vault CRM or try again.'),
+   system_managed(false)
+);

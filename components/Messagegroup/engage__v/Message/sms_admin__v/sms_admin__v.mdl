@@ -1,0 +1,6 @@
+Message sms_admin__v (
+   label(),
+   active(true),
+   default_value('SMS Administration'),
+   system_managed(false)
+);

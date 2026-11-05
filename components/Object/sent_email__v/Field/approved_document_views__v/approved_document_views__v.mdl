@@ -1,0 +1,23 @@
+Field approved_document_views__v (
+   label('Document Views'),
+   type('Number'),
+   active(true),
+   description('Approved_Document_Views_vod is a roll-up summary which captures the total number of views for any Approved Document associated to this Sent_Email_vod record based on related Email_Activity_vod records.'),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(65),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

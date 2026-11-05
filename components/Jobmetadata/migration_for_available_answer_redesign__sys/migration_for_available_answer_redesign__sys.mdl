@@ -1,0 +1,10 @@
+RECREATE Jobmetadata migration_for_available_answer_redesign__sys (
+   label('Migration for Available Answer Redesign'),
+   active(true),
+   chunk_size(1),
+   description('This job does migration for checklist available answer redesign'),
+   job_code('Sdkjob.com.veeva.vault.system.job.MigrationForAvailableAnswerRedesignJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

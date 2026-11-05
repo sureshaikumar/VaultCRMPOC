@@ -1,0 +1,4 @@
+Typefield concur_response_timestamp_entry__v (
+   source('custom'),
+   required(false)
+);

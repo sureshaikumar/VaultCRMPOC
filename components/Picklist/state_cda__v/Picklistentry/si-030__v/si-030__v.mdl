@@ -1,0 +1,6 @@
+Picklistentry si-030__v (
+   value('Gornji Grad'),
+   order(4004),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry pon__v (
+   value('Pohnpeian'),
+   order(255),
+   active(false)
+);

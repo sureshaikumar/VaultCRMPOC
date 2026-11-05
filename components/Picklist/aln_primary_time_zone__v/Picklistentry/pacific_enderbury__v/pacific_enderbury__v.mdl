@@ -1,0 +1,5 @@
+Picklistentry pacific_enderbury__v (
+   value('Pacific/Enderbury'),
+   order(83),
+   active(true)
+);

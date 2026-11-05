@@ -1,0 +1,6 @@
+Message am_tsf_consolidated__v (
+   label(),
+   active(true),
+   default_value('The TSF records that are duplicate are consolidated.'),
+   system_managed(false)
+);

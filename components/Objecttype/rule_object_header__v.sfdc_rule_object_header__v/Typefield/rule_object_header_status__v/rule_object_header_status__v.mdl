@@ -1,0 +1,6 @@
+Typefield rule_object_header_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.rule_object_header_status__v.disabled__v',
+         'Picklist.rule_object_header_status__v.enabled__v')
+);

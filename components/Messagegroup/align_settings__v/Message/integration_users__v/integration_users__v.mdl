@@ -1,0 +1,6 @@
+Message integration_users__v (
+   label(),
+   active(true),
+   default_value('Integration Users'),
+   system_managed(false)
+);

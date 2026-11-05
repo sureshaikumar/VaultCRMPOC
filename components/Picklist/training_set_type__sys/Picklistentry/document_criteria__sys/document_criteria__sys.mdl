@@ -1,0 +1,5 @@
+Picklistentry document_criteria__sys (
+   value('Document Criteria'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,8 @@
+Typefield community_activity__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.assessment_community_activity__c.not_active__c',
+         'Picklist.assessment_community_activity__c.slightly_active__c',
+         'Picklist.assessment_community_activity__c.somewhat_active__c',
+         'Picklist.assessment_community_activity__c.very_active__c')
+);

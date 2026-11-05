@@ -1,0 +1,9 @@
+Vsmvalue bov__v (
+   label('BOV'),
+   active(true),
+   description('The Bolivian MVDOL (BOV), a funds code used in Bolivia for inflation-indexed financial transactions and accounting purposes.'),
+   synonyms('Bolivian MVDOL',
+         'Bolivia indexed unit'),
+   target('bov__sys'),
+   target_label('BOV')
+);

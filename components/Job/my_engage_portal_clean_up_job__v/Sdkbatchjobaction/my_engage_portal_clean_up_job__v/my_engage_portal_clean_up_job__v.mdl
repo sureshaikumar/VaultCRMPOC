@@ -1,0 +1,6 @@
+Sdkbatchjobaction my_engage_portal_clean_up_job__v (
+   job_metadata('Jobmetadata.my_engage_portal_clean_up_job__v'),
+   label('My Engage Portal Clean Up Job'),
+   parameters(),
+   primary_action(true)
+);

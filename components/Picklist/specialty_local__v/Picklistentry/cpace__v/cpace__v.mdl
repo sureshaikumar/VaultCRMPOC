@@ -1,0 +1,6 @@
+Picklistentry cpace__v (
+   value('Cervical Pathology and Colposcopy'),
+   order(185),
+   active(true),
+   controlling_entries('ph__v')
+);

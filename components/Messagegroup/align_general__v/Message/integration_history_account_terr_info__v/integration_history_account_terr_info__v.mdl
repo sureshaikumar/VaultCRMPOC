@@ -1,0 +1,6 @@
+Message integration_history_account_terr_info__v (
+   label(),
+   active(true),
+   default_value('Integration History is a virtual Related List that represents each CRM Integration attempt with this Account''s respective AccountShare record in CRM.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry de-st__v (
+   value('Sachsen-Anhalt'),
+   order(917),
+   active(true),
+   controlling_entries('de__v')
+);

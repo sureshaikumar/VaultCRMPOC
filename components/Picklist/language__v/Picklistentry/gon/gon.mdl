@@ -1,0 +1,5 @@
+Picklistentry gon (
+   value('Gondi'),
+   order(190),
+   active(true)
+);

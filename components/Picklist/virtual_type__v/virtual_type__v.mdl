@@ -1,0 +1,8 @@
+RECREATE Picklist virtual_type__v (
+   label('Virtual Type'),
+   active(true),
+   Picklistentry(@Picklistentry/engage__v.mdl),
+   Picklistentry(@Picklistentry/zoom_meeting__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

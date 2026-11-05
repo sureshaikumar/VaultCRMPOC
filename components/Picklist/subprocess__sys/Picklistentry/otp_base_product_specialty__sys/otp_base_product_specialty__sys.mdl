@@ -1,0 +1,6 @@
+Picklistentry otp_base_product_specialty__sys (
+   value('Base Product Specialty'),
+   order(20),
+   active(true),
+   controlling_entries('olc_product_specialty__sys')
+);

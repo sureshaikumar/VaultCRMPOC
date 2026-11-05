@@ -1,0 +1,6 @@
+Message search_task_details__v (
+   label(),
+   active(true),
+   default_value('Search Task Details'),
+   system_managed(false)
+);

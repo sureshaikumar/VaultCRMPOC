@@ -1,0 +1,6 @@
+Message account_rule_either_ter_or_fieldf_set__v (
+   label(),
+   active(true),
+   default_value('Either Territory or Field Force must be set, but not both'),
+   system_managed(false)
+);

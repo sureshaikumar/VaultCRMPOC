@@ -1,0 +1,6 @@
+Picklistentry vn-29__v (
+   value('Quảng Ngãi'),
+   order(4932),
+   active(true),
+   controlling_entries('vn__v')
+);

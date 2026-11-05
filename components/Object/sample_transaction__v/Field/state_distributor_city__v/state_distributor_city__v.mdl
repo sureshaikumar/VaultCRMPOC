@@ -1,0 +1,19 @@
+Field state_distributor_city__v (
+   label('State Distributor City'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content('This field stores the value of selected State Distributor City on associated Call.'),
+   list_column(false),
+   order(54),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

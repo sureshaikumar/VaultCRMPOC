@@ -1,0 +1,18 @@
+RECREATE Notificationtemplate package_comp_comparison_error__v (
+   label('packageComparisonError'),
+   active(true),
+   description('Package component comparison error template'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Unable to Complete Package Component Comparison
+'),
+   notification('<b><p>An error has occurred processing the Package Comparison for Inbound Package ${package_name}. Please resubmit your request.</p></b><br/>
+
+'),
+   email_body('<b><p>An error has occurred processing the Package Comparison for Inbound Package ${package_name}. Please resubmit your request.</p></b><br/>
+<br/>
+<p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,19 @@
+Field summary__v (
+   label('Summary'),
+   type('String'),
+   active(true),
+   description('The summary of the commercial insight. Can be used to display as a title to identify commercial insights.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(true),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

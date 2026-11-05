@@ -1,0 +1,5 @@
+Picklistentry america_boa_vista__sys (
+   value('(GMT-04:00) Amazon Time (America/Boa_Vista)'),
+   order(80),
+   active(true)
+);

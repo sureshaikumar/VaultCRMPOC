@@ -1,0 +1,4 @@
+Typefield approved_email_duration_limit__v (
+   source('standard'),
+   required(false)
+);

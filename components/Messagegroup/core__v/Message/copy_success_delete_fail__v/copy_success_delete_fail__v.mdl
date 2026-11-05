@@ -1,0 +1,6 @@
+Message copy_success_delete_fail__v (
+   label(),
+   active(true),
+   default_value('Copy of records to target Vault CRM was successful, but deleting extra slides from target Vault CRM has failed.'),
+   system_managed(false)
+);

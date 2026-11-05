@@ -1,0 +1,6 @@
+Message cycle_plan_dates__v (
+   label(),
+   active(true),
+   default_value('From ${cycle_plan_start_date} to ${cycle_plan_end_date}'),
+   system_managed(false)
+);

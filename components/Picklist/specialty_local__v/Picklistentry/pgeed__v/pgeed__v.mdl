@@ -1,0 +1,7 @@
+Picklistentry pgeed__v (
+   value('Pediatric Genetics'),
+   order(1379),
+   active(true),
+   controlling_entries('bw__v',
+         'lb__v')
+);

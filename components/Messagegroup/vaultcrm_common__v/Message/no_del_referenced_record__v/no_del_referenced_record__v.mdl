@@ -1,0 +1,6 @@
+Message no_del_referenced_record__v (
+   label(),
+   active(true),
+   default_value('You cannot delete an ${objectName} record referenced by one or more ${childObjectName} records.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry mr-12__v (
+   value('Inchiri'),
+   order(3103),
+   active(true),
+   controlling_entries('mr__v')
+);

@@ -1,0 +1,4 @@
+Typefield item_data__sys (
+   source('standard'),
+   required(false)
+);

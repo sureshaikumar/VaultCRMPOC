@@ -1,0 +1,5 @@
+Picklistentry ret__v (
+   value('Retired'),
+   order(3),
+   active(true)
+);

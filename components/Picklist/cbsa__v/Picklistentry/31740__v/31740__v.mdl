@@ -1,0 +1,5 @@
+Picklistentry 31740__v (
+   value('Manhattan, KS Micropolitan Statistical Area'),
+   order(652),
+   active(true)
+);

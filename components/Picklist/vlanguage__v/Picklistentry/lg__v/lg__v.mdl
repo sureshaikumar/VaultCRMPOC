@@ -1,0 +1,5 @@
+Picklistentry lg__v (
+   value('Lugandan'),
+   order(192),
+   active(false)
+);

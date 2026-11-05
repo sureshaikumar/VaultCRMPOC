@@ -1,0 +1,5 @@
+Picklistentry figure__sys (
+   value('Figure'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry ma-sik__v (
+   value('Sidi Kacem'),
+   order(2837),
+   active(true),
+   controlling_entries('ma__v')
+);

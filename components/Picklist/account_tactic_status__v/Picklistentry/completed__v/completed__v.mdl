@@ -1,0 +1,5 @@
+Picklistentry completed__v (
+   value('Completed'),
+   order(1),
+   active(true)
+);

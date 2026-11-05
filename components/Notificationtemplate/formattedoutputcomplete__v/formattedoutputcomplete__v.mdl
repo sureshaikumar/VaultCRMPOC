@@ -1,0 +1,20 @@
+RECREATE Notificationtemplate formattedoutputcomplete__v (
+   label('formattedOutputComplete'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Formatted Output Job Completed'),
+   notification('<p>Your Formatted Output Job has completed</p>
+<p>You may download the packaged file <a href=${vaultFormattedOutputDownloadFileLink}>here</a></p>
+<p>Details:
+<ul>
+<li>Output Template: ${vaultFormattedOutputTemplateName}</li>
+<li>Source Record: ${vaultFormattedOutputSourceRecord}</li>
+<li>Settings: ${vaultFormattedOutputIncludeAttachments}, ${vaultFormattedOutputAttachToRecord}</li>
+</ul>
+</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

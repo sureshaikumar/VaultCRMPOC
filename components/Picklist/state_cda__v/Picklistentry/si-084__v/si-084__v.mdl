@@ -1,0 +1,6 @@
+Picklistentry si-084__v (
+   value('Nova Gorica'),
+   order(4058),
+   active(true),
+   controlling_entries('si__v')
+);

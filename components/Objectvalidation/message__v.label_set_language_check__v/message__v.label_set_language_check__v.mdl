@@ -1,0 +1,8 @@
+RECREATE Objectvalidation message__v.label_set_language_check__v (
+   label('Label Set Language Check'),
+   active(true),
+   expression('IsBlank(label_set__v) || labelset__vr.language__sys = user_language_code__v'),
+   description('This validation rule ensures that the Label Set selected for the Veeva Message is correct for the User Language defined for the message.'),
+   error_message('The Label Set is not valid for the Language of the message.'),
+   error_location('label_set__v')
+);

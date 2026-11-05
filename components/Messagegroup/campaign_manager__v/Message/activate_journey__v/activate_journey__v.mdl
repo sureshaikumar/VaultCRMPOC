@@ -1,0 +1,6 @@
+Message activate_journey__v (
+   label(),
+   active(true),
+   default_value('Activate Journey'),
+   system_managed(false)
+);

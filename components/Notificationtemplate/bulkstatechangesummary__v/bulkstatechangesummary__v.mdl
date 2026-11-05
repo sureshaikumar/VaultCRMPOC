@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate bulkstatechangesummary__v (
+   label('bulkStateChangeSummary'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Bulk State Change Completed'),
+   notification('<b>State Change Summary:</b><br> ${bulkWorkflowList} ${bulkWorkflowSuccessHeader} <br>${bulkWorkflowFailuresHeader}'),
+   email_body('<b>State Change Summary:</b><br> ${bulkWorkflowList} <br><b>Results:</b> <br> ${bulkWorkflowSuccessHeader} ${bulkWorkflowSuccessList} ${bulkWorkflowFailuresHeader} ${bulkWorkflowFailuresList}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

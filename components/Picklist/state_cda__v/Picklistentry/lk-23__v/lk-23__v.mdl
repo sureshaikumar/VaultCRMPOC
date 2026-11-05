@@ -1,0 +1,6 @@
+Picklistentry lk-23__v (
+   value('Nuwara Eliya'),
+   order(2567),
+   active(true),
+   controlling_entries('lk__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gb-liv__v (
+   value('Liverpool'),
+   order(1559),
+   active(true),
+   controlling_entries('gb__v')
+);

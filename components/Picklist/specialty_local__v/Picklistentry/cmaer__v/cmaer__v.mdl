@@ -1,0 +1,8 @@
+Picklistentry cmaer__v (
+   value('Cardiovascular Medicine'),
+   order(180),
+   active(true),
+   controlling_entries('kr__v',
+         'qa__v',
+         'sa__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry entered_in_error__v (
+   value('Entered-in-error'),
+   order(5),
+   active(true)
+);

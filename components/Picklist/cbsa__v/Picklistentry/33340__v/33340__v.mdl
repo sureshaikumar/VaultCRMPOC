@@ -1,0 +1,5 @@
+Picklistentry 33340__v (
+   value('Milwaukee-Waukesha-West Allis, WI Metropolitan Statistical Area'),
+   order(51),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 18100__v (
+   value('Columbus, NE Micropolitan Statistical Area'),
+   order(77),
+   active(true)
+);

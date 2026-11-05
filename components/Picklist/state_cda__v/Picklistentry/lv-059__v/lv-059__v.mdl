@@ -1,0 +1,6 @@
+Picklistentry lv-059__v (
+   value('Madonas novads'),
+   order(2717),
+   active(true),
+   controlling_entries('lv__v')
+);

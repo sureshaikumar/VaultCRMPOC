@@ -1,0 +1,6 @@
+Picklistentry az-kur__v (
+   value('Kürdəmir'),
+   order(166),
+   active(true),
+   controlling_entries('az__v')
+);

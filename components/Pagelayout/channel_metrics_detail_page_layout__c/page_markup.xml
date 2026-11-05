@@ -1,0 +1,22 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.channel_metrics__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="channel_source__v" />
+            <vault:field reference="channel_value__v" />
+            <vault:field reference="email_activity__v" />
+            <vault:field reference="email_delivery_error__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="last_email_error_date__v" />
+            <vault:field reference="owner__v" />
+            <vault:field reference="sent_email__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

@@ -1,0 +1,20 @@
+Field unique_key__v (
+   label('Unique Key'),
+   type('String'),
+   active(true),
+   description('Unique key preventing duplicate Network field mappings within the same Network Object Mapping. Composed of concatenated values of: Network_Object_Mapping_vod and
+Network_Field_API_Name_vod. Handled by trigger.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,8 @@
+Picklistentry eahan__v (
+   value('ENT and Head and Neck Surgery'),
+   order(517),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v',
+         'sn__v')
+);

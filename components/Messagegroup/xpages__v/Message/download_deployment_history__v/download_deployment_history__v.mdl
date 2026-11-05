@@ -1,0 +1,6 @@
+Message download_deployment_history__v (
+   label(),
+   active(true),
+   default_value('Download Deployment History'),
+   system_managed(false)
+);

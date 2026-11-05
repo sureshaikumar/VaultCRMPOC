@@ -1,0 +1,6 @@
+Message crm_integration_push_permission__v (
+   label(),
+   active(true),
+   default_value('Must have at least Create, Read, and Edit rights to the aln_process_task__v object to Push To CRM.'),
+   system_managed(false)
+);

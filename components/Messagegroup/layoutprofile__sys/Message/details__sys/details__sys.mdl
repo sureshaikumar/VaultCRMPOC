@@ -1,0 +1,6 @@
+Message details__sys (
+   label(),
+   active(true),
+   default_value('Details'),
+   system_managed(false)
+);

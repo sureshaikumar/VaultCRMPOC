@@ -1,0 +1,6 @@
+Picklistentry bd-22__v (
+   value('Jessore'),
+   order(251),
+   active(true),
+   controlling_entries('bd__v')
+);

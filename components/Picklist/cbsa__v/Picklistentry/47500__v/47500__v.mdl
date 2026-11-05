@@ -1,0 +1,5 @@
+Picklistentry 47500__v (
+   value('Walterboro, SC Micropolitan Statistical Area'),
+   order(261),
+   active(true)
+);

@@ -1,0 +1,11 @@
+Subtab crm_vault_metadata_sync_tab__v (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('CRM Vault Metadata'),
+   order(200),
+   page('Page.crm_vault_metadata_sync_page__v'),
+   parent('content_setup_tab__v'),
+   prevent_create(false),
+   url(@url.txt)
+);

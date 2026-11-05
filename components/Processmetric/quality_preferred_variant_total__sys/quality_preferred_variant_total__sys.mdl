@@ -1,0 +1,9 @@
+RECREATE Processmetric quality_preferred_variant_total__sys (
+   label('Total Preferred Variant'),
+   active(true),
+   default(false),
+   default_type_order(),
+   description('The number of records that followed the preferred process path out of all qualifying records.'),
+   type_picklist('Picklist.metric_type__sys'),
+   type_value('Picklistentry.quality__sys')
+);

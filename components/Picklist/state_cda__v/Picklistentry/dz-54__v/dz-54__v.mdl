@@ -1,0 +1,6 @@
+Picklistentry dz-54__v (
+   value('In Guezzam'),
+   order(1035),
+   active(true),
+   controlling_entries('dz__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry calendar__v (
+   value('Calendar'),
+   order(0),
+   active(true)
+);

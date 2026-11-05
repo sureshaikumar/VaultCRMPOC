@@ -1,0 +1,19 @@
+Field pdf_edit_settings__sys (
+   label('PDF Edit Settings'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(25),
+   help_content('PDF Security is applied to the downloaded viewable rendition, this value determines what PDF modifications are allowed.'),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

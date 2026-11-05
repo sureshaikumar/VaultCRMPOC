@@ -1,0 +1,5 @@
+Picklistentry walk_in__v (
+   value('Walk-In'),
+   order(4),
+   active(true)
+);

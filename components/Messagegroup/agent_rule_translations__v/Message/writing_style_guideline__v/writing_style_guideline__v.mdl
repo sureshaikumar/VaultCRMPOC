@@ -1,0 +1,6 @@
+Message writing_style_guideline__v (
+   label(),
+   active(true),
+   default_value('Use active language, no filler terms, and be as specific as possible'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field gpo_requires_adherence_to_contracts__c (
+   label('GPO Requires Adherence to Contracts?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Does your GPO require adherence to contracts?'),
+   list_column(false),
+   order(171),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

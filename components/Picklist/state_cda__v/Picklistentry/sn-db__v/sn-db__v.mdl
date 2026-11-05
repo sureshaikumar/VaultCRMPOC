@@ -1,0 +1,6 @@
+Picklistentry sn-db__v (
+   value('Diourbel'),
+   order(4209),
+   active(true),
+   controlling_entries('sn__v')
+);

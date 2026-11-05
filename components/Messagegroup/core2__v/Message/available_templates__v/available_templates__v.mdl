@@ -1,0 +1,6 @@
+Message available_templates__v (
+   label(),
+   active(true),
+   default_value('Available Templates'),
+   system_managed(false)
+);

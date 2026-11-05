@@ -1,0 +1,6 @@
+Message accept__v (
+   label(),
+   active(true),
+   default_value('Accept'),
+   system_managed(false)
+);

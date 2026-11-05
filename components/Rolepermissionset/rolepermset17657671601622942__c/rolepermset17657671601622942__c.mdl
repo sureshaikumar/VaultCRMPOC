@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17657671601622942__c (
+   label('Align Access'),
+   active(true),
+   application_role('align_access__c'),
+   permission_sets('Permissionset.align_operational_user__c')
+);

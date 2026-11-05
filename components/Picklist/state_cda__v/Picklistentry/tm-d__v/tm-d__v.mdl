@@ -1,0 +1,6 @@
+Picklistentry tm-d__v (
+   value('Daşoguz'),
+   order(4426),
+   active(true),
+   controlling_entries('tm__v')
+);

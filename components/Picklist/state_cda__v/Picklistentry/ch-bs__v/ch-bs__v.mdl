@@ -1,0 +1,6 @@
+Picklistentry ch-bs__v (
+   value('Basel-Stadt'),
+   order(632),
+   active(true),
+   controlling_entries('ch__v')
+);

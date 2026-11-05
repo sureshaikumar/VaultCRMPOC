@@ -1,0 +1,6 @@
+Message continue_building_target_list_subheader__v (
+   label(),
+   active(true),
+   default_value('Last updated at ${time} on ${date}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry mw-li__v (
+   value('Lilongwe'),
+   order(3218),
+   active(true),
+   controlling_entries('mw__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry installation_partner__v (
+   value('Installation Partner'),
+   order(4),
+   active(true)
+);

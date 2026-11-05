@@ -1,0 +1,14 @@
+Vsmfield steady_state_doc_count__v (
+   label('Steady State Document Count'),
+   active(true),
+   description('The number of documents currently in a steady (finalized or approved) state that are matched to this EDL item. Compare against expected_steady_state_count__v to determine whether the item\''s document requirements have been fulfilled.'),
+   example_values(),
+   synonyms('steady state count',
+         'approved doc count',
+         'final doc count',
+         'steady docs'),
+   target('steady_state_doc_count__v'),
+   target_label('Steady State Document Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

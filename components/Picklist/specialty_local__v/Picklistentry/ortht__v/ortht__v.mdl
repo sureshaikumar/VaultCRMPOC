@@ -1,0 +1,6 @@
+Picklistentry ortht__v (
+   value('Oto-Rhinolaryngology'),
+   order(1228),
+   active(true),
+   controlling_entries('lb__v')
+);

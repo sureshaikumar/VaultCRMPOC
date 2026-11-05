@@ -1,0 +1,5 @@
+Picklistentry atlantic_canary__sys (
+   value('(GMT+00:00) Western European Time (Atlantic/Canary)'),
+   order(145),
+   active(true)
+);

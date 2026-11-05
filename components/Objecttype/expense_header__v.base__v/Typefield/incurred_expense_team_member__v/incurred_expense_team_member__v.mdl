@@ -1,0 +1,4 @@
+Typefield incurred_expense_team_member__v (
+   source('standard'),
+   required(false)
+);

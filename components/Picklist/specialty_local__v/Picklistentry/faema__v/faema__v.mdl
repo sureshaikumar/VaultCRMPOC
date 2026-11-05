@@ -1,0 +1,6 @@
+Picklistentry faema__v (
+   value('Family and Emergency Medicine'),
+   order(531),
+   active(true),
+   controlling_entries('ke__v')
+);

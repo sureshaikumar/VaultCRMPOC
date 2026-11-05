@@ -1,0 +1,6 @@
+Picklistentry aaonn__v (
+   value('Anatomy and Organogenesis'),
+   order(63),
+   active(true),
+   controlling_entries('cm__v')
+);

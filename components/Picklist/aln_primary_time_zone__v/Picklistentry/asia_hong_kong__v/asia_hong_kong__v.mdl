@@ -1,0 +1,5 @@
+Picklistentry asia_hong_kong__v (
+   value('Asia/Hong_Kong'),
+   order(64),
+   active(true)
+);

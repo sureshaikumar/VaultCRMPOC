@@ -1,0 +1,5 @@
+Picklistentry gn__v (
+   value('Genetics'),
+   order(11),
+   active(true)
+);

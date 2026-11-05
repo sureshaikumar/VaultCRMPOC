@@ -1,0 +1,6 @@
+Picklistentry chaph__v (
+   value('Community Health and Public Health Nursing'),
+   order(311),
+   active(true),
+   controlling_entries('pt__v')
+);

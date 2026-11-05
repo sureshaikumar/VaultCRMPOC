@@ -1,0 +1,18 @@
+Field disable_all_markets_in_analytics__v (
+   label('DISABLE_ALL_MARKETS_IN_ANALYTICS'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether the "All Markets" selector is displayed when viewing VInsights reports in the Veeva CRM online application.  Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(87),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,13 @@
+Vsmfield timezone__v (
+   label('Timezone'),
+   active(true),
+   description('The person''s configured timezone, which determines how dates and times are displayed in Vault for this user. Important for scheduling, audit trails, and interpreting timestamp data in the correct local context.'),
+   example_values(),
+   synonyms('time zone',
+         'TZ',
+         'local time zone'),
+   target('timezone__sys'),
+   target_label('Timezone'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

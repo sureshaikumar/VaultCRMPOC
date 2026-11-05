@@ -1,0 +1,6 @@
+Picklistentry ro-mm__v (
+   value('Maramureș'),
+   order(3743),
+   active(true),
+   controlling_entries('ro__v')
+);

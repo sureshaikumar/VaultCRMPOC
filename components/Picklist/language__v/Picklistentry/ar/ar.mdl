@@ -1,0 +1,5 @@
+Picklistentry ar (
+   value('Arabic'),
+   order(0),
+   active(true)
+);

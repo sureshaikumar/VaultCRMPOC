@@ -1,0 +1,5 @@
+Picklistentry sample__v (
+   value('Sample'),
+   order(5),
+   active(true)
+);

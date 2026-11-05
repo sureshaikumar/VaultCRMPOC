@@ -1,0 +1,17 @@
+Field license_expiration_date__v (
+   label('License Expiration Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The License Expiration Date field stores the Practitioner''s State License Expiration Date that signed for Samples.'),
+   list_column(false),
+   order(31),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

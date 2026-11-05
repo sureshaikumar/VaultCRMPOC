@@ -1,0 +1,6 @@
+Message select_segmentation__v (
+   label(),
+   active(true),
+   default_value('Select Segmentation'),
+   system_managed(false)
+);

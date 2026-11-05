@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_limit__v.require_start_date__v (
+   label('Require Start Date'),
+   active(true),
+   expression('Not(IsBlank(start_date__v))'),
+   description('Require a Start Date.'),
+   error_message('This field is required'),
+   error_location('start_date__v')
+);

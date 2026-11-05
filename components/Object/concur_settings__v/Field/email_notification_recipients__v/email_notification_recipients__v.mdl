@@ -1,0 +1,19 @@
+Field email_notification_recipients__v (
+   label('Email Notification Recipients'),
+   type('String'),
+   active(true),
+   description('Comma separated list of email addresses that will receive any notification emails related to the Concur integration.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

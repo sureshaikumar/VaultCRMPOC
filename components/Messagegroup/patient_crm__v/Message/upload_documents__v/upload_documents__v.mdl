@@ -1,0 +1,6 @@
+Message upload_documents__v (
+   label(),
+   active(true),
+   default_value('Upload Documents'),
+   system_managed(false)
+);

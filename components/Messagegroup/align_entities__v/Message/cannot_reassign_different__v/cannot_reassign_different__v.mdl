@@ -1,0 +1,6 @@
+Message cannot_reassign_different__v (
+   label(),
+   active(true),
+   default_value('MC Cycle ${cycle_name} cannot be reassigned to a different Field Force or Model Field Force.'),
+   system_managed(false)
+);

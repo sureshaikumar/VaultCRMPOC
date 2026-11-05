@@ -1,0 +1,5 @@
+Picklistentry marketing__v (
+   value('Marketing'),
+   order(3),
+   active(true)
+);

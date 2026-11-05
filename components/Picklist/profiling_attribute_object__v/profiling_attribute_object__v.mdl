@@ -1,0 +1,11 @@
+RECREATE Picklist profiling_attribute_object__v (
+   label('Object'),
+   active(true),
+   Picklistentry(@Picklistentry/account__v.mdl),
+   Picklistentry(@Picklistentry/primary_address__v.mdl),
+   Picklistentry(@Picklistentry/tsf__v.mdl),
+   Picklistentry(@Picklistentry/product_metrics__v.mdl),
+   Picklistentry(@Picklistentry/dynamic_attribute__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

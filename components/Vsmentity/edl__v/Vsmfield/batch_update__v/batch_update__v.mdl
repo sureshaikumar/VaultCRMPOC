@@ -1,0 +1,13 @@
+Vsmfield batch_update__v (
+   label('Batch Update'),
+   active(true),
+   description('Boolean flag indicating whether this EDL is being updated automatically by the EDL Matching Job, continually matching actual document to the related EDL Items.'),
+   example_values(),
+   synonyms('bulk update',
+         'batch mode',
+         'bulk edit'),
+   target('batch_update__v'),
+   target_label('Batch Update'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

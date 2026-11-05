@@ -1,0 +1,14 @@
+RECREATE Page advanced_coaching_reports_page__v (
+   label('Coaching Reports'),
+   active(true),
+   client_distribution(),
+   default_client_code('advanced_coaching_reports_page__v'),
+   description('View and manage advanced coaching reports'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.survey.controls.page.AdvancedCoachingReportPageController'),
+   url_path_name('advanced-coaching-reports')
+);

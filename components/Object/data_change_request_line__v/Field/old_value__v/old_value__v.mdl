@@ -1,0 +1,17 @@
+Field old_value__v (
+   label('Old Value'),
+   type('LongText'),
+   active(true),
+   description('Old field value'),
+   required(false),
+   max_length(4000),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

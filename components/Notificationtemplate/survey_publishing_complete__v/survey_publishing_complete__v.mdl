@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate survey_publishing_complete__v (
+   label('Survey Publishing Complete'),
+   active(true),
+   description('Notifies the user their survey publishing is successful.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.survey__v'),
+   subject('Notification: Survey Publishing Job Completed'),
+   notification('Your survey publishing job for "${Custom.survey_name}" successfully completed.'),
+   email_body('Your survey publishing job for "${Custom.survey_name}" successfully completed.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

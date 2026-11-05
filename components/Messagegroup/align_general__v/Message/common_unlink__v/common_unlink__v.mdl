@@ -1,0 +1,6 @@
+Message common_unlink__v (
+   label(),
+   active(true),
+   default_value('Unlink'),
+   system_managed(false)
+);

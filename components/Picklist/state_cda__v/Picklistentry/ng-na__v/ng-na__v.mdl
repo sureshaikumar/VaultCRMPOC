@@ -1,0 +1,6 @@
+Picklistentry ng-na__v (
+   value('Nasarawa'),
+   order(3345),
+   active(true),
+   controlling_entries('ng__v')
+);

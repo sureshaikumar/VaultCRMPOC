@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17768433695154494__c (
+   label('Rahul Sales Rep Test'),
+   active(true),
+   application_role('r_s_r_t__c'),
+   permission_sets('Permissionset.primary_care_sales_permissions__c')
+);

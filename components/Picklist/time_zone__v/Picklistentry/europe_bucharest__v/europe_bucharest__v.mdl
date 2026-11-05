@@ -1,0 +1,5 @@
+Picklistentry europe_bucharest__v (
+   value('Eastern European Time (Bucharest)'),
+   order(49),
+   active(true)
+);

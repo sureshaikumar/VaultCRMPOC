@@ -1,0 +1,6 @@
+Message public_comment__v (
+   label(),
+   active(true),
+   default_value('Public Comment'),
+   system_managed(false)
+);

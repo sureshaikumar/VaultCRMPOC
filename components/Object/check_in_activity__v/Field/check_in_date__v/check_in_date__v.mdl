@@ -1,0 +1,17 @@
+Field check_in_date__v (
+   label('Check-in Date'),
+   type('DateTime'),
+   active(true),
+   description('The planned/anticipated date of the check-in at the time of activity.'),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

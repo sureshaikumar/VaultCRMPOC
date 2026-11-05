@@ -1,0 +1,6 @@
+Picklistentry me-22__v (
+   value('Gusinje'),
+   order(2928),
+   active(true),
+   controlling_entries('me__v')
+);

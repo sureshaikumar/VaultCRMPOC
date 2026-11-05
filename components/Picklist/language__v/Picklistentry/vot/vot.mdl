@@ -1,0 +1,5 @@
+Picklistentry vot (
+   value('Votic'),
+   order(343),
+   active(true)
+);

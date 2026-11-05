@@ -1,0 +1,5 @@
+Picklistentry ke__v (
+   value('KE'),
+   order(58),
+   active(true)
+);

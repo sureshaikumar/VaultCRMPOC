@@ -1,0 +1,6 @@
+Picklistentry tchhe__v (
+   value('Therapeutic Chemistry'),
+   order(1829),
+   active(true),
+   controlling_entries('dz__v')
+);

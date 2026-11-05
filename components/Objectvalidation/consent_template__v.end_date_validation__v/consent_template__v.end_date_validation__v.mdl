@@ -1,0 +1,8 @@
+RECREATE Objectvalidation consent_template__v.end_date_validation__v (
+   label('End Date validation'),
+   active(true),
+   expression('Or(isBlank(end_date__v),end_date__v >= start_date__v)'),
+   description('End Date cannot be earlier than Start Date.'),
+   error_message('End Date cannot be earlier than Start Date.'),
+   error_location('end_date__v')
+);

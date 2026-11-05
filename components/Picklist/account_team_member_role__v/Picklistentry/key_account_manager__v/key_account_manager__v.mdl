@@ -1,0 +1,5 @@
+Picklistentry key_account_manager__v (
+   value('Key Account Manager'),
+   order(0),
+   active(true)
+);

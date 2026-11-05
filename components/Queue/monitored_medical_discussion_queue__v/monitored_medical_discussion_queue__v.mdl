@@ -1,0 +1,13 @@
+RECREATE Queue monitored_medical_discussion_queue__v (
+   label('Monitored Medical Discussion Inbound Queue'),
+   active(true),
+   description(),
+   message_delivery_event_handler(),
+   message_delivery_event_handler_user(),
+   message_processor('Messageprocessor.com.veeva.vault.app.vaultcrm.core.homeoffice.messageprocessors.MonitoredMedicalDiscussionMessageProcessor'),
+   message_processor_user('User.vault_app_owner'),
+   rollback_on_error(true),
+   sequential(true),
+   type('inbound'),
+   Queueconnection(@Queueconnection/monitored_medical_discussion_connection__v.mdl)
+);

@@ -1,0 +1,17 @@
+RECREATE Notificationtemplate checklist_creation_error__v (
+   label('checklistCreationError'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Checklist Creation Job Encountered Errors'),
+   notification('<p>Your checklist creation job has encountered an error</p>
+<p>Details: <ul>
+<li>Template: ${checklist_design_record_name__sys}</li>
+<li>Target Record: ${target_object_record_name__sys}</li>
+<li>Error Messages: ${checklist_creation_error_messages__sys}</li>
+</ul> </p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

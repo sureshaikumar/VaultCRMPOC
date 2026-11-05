@@ -1,0 +1,4 @@
+Typefield photo_rank__v (
+   source('standard'),
+   required(false)
+);

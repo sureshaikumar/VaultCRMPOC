@@ -1,0 +1,20 @@
+Field country_code__v (
+   label('Country Code'),
+   type('String'),
+   active(true),
+   description('The country code of the Roster Member''s country'),
+   required(false),
+   unique(false),
+   max_length(2),
+   help_content('The country code of the Roster Member''s country'),
+   list_column(false),
+   order(158),
+   no_copy(false),
+   lookup_relationship_name('country__vr'),
+   lookup_source_field('code__sys'),
+   encrypted(false),
+   editable(false),
+   searchable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry az-lac__v (
+   value('Laçın'),
+   order(168),
+   active(true),
+   controlling_entries('az__v')
+);

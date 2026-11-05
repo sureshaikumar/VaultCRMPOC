@@ -1,0 +1,6 @@
+Picklistentry maohn__v (
+   value('Maternal and Obstetric Health Nursing'),
+   order(885),
+   active(true),
+   controlling_entries('pt__v')
+);

@@ -1,0 +1,15 @@
+RECREATE Tab pricing_rules__c (
+   active(true),
+   all_view_label('All Pricing Rules'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Pricing Rules'),
+   modal_create_record(false),
+   my_view_label('My Pricing Rules'),
+   object('pricing_rule__v'),
+   order(4600),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Pricing Rules')
+);

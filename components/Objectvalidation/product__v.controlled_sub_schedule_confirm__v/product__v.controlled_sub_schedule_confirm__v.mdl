@@ -1,0 +1,8 @@
+RECREATE Objectvalidation product__v.controlled_sub_schedule_confirm__v (
+   label('Controlled Substance Schedule Confirm'),
+   active(true),
+   expression('if(controlled_substance__v, not(isBlank(schedule__v)), true)'),
+   description('This validation rule is in place to confirm that a product that has been marked as a Controlled Substance has a Schedule.'),
+   error_message('The Schedule field is required when creating a Controlled Substance Product.'),
+   error_location('schedule__v')
+);

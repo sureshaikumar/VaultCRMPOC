@@ -1,0 +1,5 @@
+Picklistentry hcp_decision__v (
+   value('HCP Decision'),
+   order(3),
+   active(true)
+);

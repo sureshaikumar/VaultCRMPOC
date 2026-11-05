@@ -1,0 +1,3 @@
+Typeaction save_primary__v (
+   action('child_account__v.save_primary__v')
+);

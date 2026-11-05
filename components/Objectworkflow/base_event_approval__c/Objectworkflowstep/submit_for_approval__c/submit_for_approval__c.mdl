@@ -1,0 +1,8 @@
+Objectworkflowstep submit_for_approval__c (
+   label('Submit for approval'),
+   type('placeholder'),
+   next_steps(),
+   tags(),
+   step_detail(),
+   description()
+);

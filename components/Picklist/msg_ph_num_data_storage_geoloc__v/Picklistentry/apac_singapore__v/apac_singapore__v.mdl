@@ -1,0 +1,5 @@
+Picklistentry apac_singapore__v (
+   value('APAC - Singapore'),
+   order(4),
+   active(true)
+);

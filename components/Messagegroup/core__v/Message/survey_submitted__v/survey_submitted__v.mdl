@@ -1,0 +1,6 @@
+Message survey_submitted__v (
+   label(),
+   active(true),
+   default_value('Survey Target Submitted'),
+   system_managed(false)
+);

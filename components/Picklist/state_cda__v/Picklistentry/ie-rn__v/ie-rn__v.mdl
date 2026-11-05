@@ -1,0 +1,6 @@
+Picklistentry ie-rn__v (
+   value('Roscommon'),
+   order(1983),
+   active(true),
+   controlling_entries('ie__v')
+);

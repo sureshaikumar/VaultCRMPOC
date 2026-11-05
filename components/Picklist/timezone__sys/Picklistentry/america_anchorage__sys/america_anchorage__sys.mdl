@@ -1,0 +1,5 @@
+Picklistentry america_anchorage__sys (
+   value('(GMT-09:00) Alaska Standard Time (America/Anchorage)'),
+   order(7),
+   active(true)
+);

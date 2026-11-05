@@ -1,0 +1,11 @@
+RECREATE Pagelink expense_line_edit_pagelink__v (
+   label('Expense Line Edit'),
+   description('Redirects editing Expense Line to the Expense Line Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/{{Metadata.name}}/{{Object.id}}/edit'),
+   mode('Edit'),
+   page_type('Object'),
+   object('Object.expense_line__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.em_router_page__v')
+);

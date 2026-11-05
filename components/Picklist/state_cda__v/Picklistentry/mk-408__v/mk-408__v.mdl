@@ -1,0 +1,6 @@
+Picklistentry mk-408__v (
+   value('Novo Selo'),
+   order(3000),
+   active(true),
+   controlling_entries('mk__v')
+);

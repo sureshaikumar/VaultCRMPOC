@@ -1,0 +1,6 @@
+Picklistentry ug-209__v (
+   value('Mbale'),
+   order(4677),
+   active(true),
+   controlling_entries('ug__v')
+);

@@ -1,0 +1,6 @@
+Message process_monitors__v (
+   label(),
+   active(true),
+   default_value('Process Monitors'),
+   system_managed(false)
+);

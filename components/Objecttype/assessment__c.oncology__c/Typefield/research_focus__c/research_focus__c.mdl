@@ -1,0 +1,8 @@
+Typefield research_focus__c (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.assessment_research_focus__c.heavily__c',
+         'Picklist.assessment_research_focus__c.not_at_all__c',
+         'Picklist.assessment_research_focus__c.slightly__c',
+         'Picklist.assessment_research_focus__c.somewhat__c')
+);

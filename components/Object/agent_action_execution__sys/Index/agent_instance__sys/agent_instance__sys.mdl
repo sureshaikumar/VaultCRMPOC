@@ -1,0 +1,5 @@
+Index agent_instance__sys (
+   description(),
+   fields('agent_instance__sys'),
+   label('Agent Instance')
+);

@@ -1,0 +1,12 @@
+RECREATE Vsmpicklist timezone__v (
+   label('Timezone'),
+   active(true),
+   description('Specifies the timezone associated with a record or user, used to localize date and time values to the appropriate geographic or regional standard.'),
+   synonyms('time zone',
+      'region time',
+      'local time zone',
+      'geographic time zone',
+      'user time zone'),
+   target('Picklist.timezone__sys'),
+   target_label('Timezone')
+);

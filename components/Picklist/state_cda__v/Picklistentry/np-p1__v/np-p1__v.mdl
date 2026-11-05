@@ -1,0 +1,6 @@
+Picklistentry np-p1__v (
+   value('Koshi'),
+   order(3405),
+   active(true),
+   controlling_entries('np__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry nz-wtc__v (
+   value('West Coast'),
+   order(3442),
+   active(true),
+   controlling_entries('nz__v')
+);

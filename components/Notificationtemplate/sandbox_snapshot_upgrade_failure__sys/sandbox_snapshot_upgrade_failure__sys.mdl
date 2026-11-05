@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sandbox_snapshot_upgrade_failure__sys (
+   label('Snapshot Upgrade Failure'),
+   active(true),
+   description('Notification template notifying user that the sandbox snapshot has failed upgrade.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Snapshot Upgrade Failed.'),
+   notification('<p>Your sandbox Snapshot: ${snapshotName} for Sandbox: ${sandboxName} was unable to complete its upgrade. The full execution log is available <a href=${jobExecutionLink}><b>here.</b></a></p></br><p>If you require additional information, please contact Vault Support.</p>'),
+   email_body('<p>Your sandbox Snapshot: ${snapshotName} for Sandbox: ${sandboxName} was unable to complete its upgrade. The full execution log is available <a href=${jobExecutionLink}><b>here.</b></a></p></br><p>If you require additional information, please contact Vault Support.</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

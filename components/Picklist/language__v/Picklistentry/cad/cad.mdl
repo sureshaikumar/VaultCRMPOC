@@ -1,0 +1,5 @@
+Picklistentry cad (
+   value('Caddo'),
+   order(147),
+   active(true)
+);

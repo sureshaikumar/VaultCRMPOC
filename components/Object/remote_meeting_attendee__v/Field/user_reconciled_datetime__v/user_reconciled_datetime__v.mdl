@@ -1,0 +1,17 @@
+Field user_reconciled_datetime__v (
+   label('User Reconciled Datetime'),
+   type('DateTime'),
+   active(true),
+   description('The datetime the call owner reconciles this remote meeting attendee. If empty, the call owner never made a selection.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

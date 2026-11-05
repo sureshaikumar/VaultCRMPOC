@@ -1,0 +1,9 @@
+RECREATE Picklist veevaid_vault_user_creation_status__sys (
+   label('Veeva ID Vault User Creation Status'),
+   active(true),
+   Picklistentry(@Picklistentry/failed__v.mdl),
+   Picklistentry(@Picklistentry/complete__v.mdl),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

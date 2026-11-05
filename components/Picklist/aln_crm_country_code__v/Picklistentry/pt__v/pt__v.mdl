@@ -1,0 +1,5 @@
+Picklistentry pt__v (
+   value('Portugal'),
+   order(184),
+   active(true)
+);

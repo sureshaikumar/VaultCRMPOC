@@ -1,0 +1,6 @@
+Picklistentry kg-c__v (
+   value('Chüy'),
+   order(2402),
+   active(true),
+   controlling_entries('kg__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry africa_johannesburg__v (
+   value('Africa/Johannesburg'),
+   order(37),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry gur__v (
+   value('Frafra'),
+   order(103),
+   active(false)
+);

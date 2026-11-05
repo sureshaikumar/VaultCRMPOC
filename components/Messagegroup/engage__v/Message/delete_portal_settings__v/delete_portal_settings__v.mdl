@@ -1,0 +1,6 @@
+Message delete_portal_settings__v (
+   label(),
+   active(true),
+   default_value('Delete Portal'),
+   system_managed(false)
+);

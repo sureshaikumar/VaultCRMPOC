@@ -1,0 +1,5 @@
+Picklistentry bi__v (
+   value('Burundi'),
+   order(36),
+   active(true)
+);

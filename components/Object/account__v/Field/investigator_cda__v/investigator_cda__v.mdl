@@ -1,0 +1,18 @@
+Field investigator_cda__v (
+   label('Investigator'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether the individual is involved in running clinical research studies.'),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if this professional is a clinical trials investigator.  Used by person accounts.'),
+   list_column(false),
+   order(51),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

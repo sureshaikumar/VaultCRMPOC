@@ -1,0 +1,18 @@
+Field enable_samples_on_sign_save__v (
+   label('ENABLE_SAMPLES_ON_SIGN_SAVE'),
+   type('Boolean'),
+   active(true),
+   description('If this is true, then the online triggers will create the Sample Transactions if the Call is status of Saved or Submitted and the Signature Date is populated. Profile level configurations will be ignored, this is org wide only.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(153),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

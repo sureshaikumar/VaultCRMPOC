@@ -1,0 +1,5 @@
+Picklistentry byb__sys (
+   value('BYB'),
+   order(31),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry australia_lord_howe__v (
+   value('Australia/Lord_Howe'),
+   order(76),
+   active(true)
+);

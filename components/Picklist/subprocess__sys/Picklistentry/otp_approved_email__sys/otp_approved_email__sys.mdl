@@ -1,0 +1,6 @@
+Picklistentry otp_approved_email__sys (
+   value('Approved Email'),
+   order(8),
+   active(true),
+   controlling_entries('olc_consent_type__sys')
+);

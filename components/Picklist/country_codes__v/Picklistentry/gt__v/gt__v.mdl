@@ -1,0 +1,5 @@
+Picklistentry gt__v (
+   value('GT'),
+   order(90),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message crm_integr_validate_crm_connect_header__v (
+   label(),
+   active(true),
+   default_value('Validate Integration Credentials'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message start_over_confirmation__v (
+   label(),
+   active(true),
+   default_value('By starting over, everything will be removed. Would you like to proceed?'),
+   system_managed(false)
+);

@@ -1,0 +1,19 @@
+Field lot_name__v (
+   label('Lot # Name'),
+   type('String'),
+   active(true),
+   description('Lot # Name represents the textual Lot # name of the Sample for the Sample Receipt.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

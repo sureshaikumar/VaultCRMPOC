@@ -1,0 +1,5 @@
+Picklistentry mea_united_arab_emirates__v (
+   value('MEA - United Arab Emirates'),
+   order(12),
+   active(true)
+);

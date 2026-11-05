@@ -1,0 +1,6 @@
+Picklistentry parmk__v (
+   value('Pulmonology and Respiratory Medicine Interventional Pulmonology and Emergency Breath'),
+   order(1658),
+   active(true),
+   controlling_entries('id__v')
+);

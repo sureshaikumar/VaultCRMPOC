@@ -1,0 +1,18 @@
+Field clm_vector_scope__v (
+   label('CLM Vector Scope'),
+   type('Picklist'),
+   active(true),
+   description('Defines the filter for which CLM Presentations are synced to the Vector Database'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(15),
+   multi_value(false),
+   picklist('Picklist.clm_vector_scope__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

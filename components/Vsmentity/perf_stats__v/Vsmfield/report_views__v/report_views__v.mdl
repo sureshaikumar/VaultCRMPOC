@@ -1,0 +1,11 @@
+Vsmfield report_views__v (
+   label('Report Views'),
+   active(true),
+   description('Number of report views on a given day'),
+   example_values(),
+   synonyms(),
+   target('report_views__v'),
+   target_label('Report Views'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

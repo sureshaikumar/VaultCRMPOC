@@ -1,0 +1,6 @@
+Message am_mccp_target_records_reparented__v (
+   label(),
+   active(true),
+   default_value('MCCP Target record(s) will be re-associated to winning account.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry kut (
+   value('Kutenai'),
+   order(230),
+   active(true)
+);

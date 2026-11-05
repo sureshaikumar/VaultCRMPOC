@@ -1,0 +1,5 @@
+Picklistentry myr__sys (
+   value('MYR'),
+   order(128),
+   active(true)
+);

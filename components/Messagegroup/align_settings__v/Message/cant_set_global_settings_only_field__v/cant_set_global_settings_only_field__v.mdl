@@ -1,0 +1,6 @@
+Message cant_set_global_settings_only_field__v (
+   label(),
+   active(true),
+   default_value('Cannot set value of ${field_label} for Field Force level settings.'),
+   system_managed(false)
+);

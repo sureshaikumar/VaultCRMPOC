@@ -1,0 +1,6 @@
+Message run_assignment_rules_information__v (
+   label(),
+   active(true),
+   default_value('This action will generate assignments for this territory and its subordinates. This may take some time. While in progress, users will be prevented from making changes to the impacted territories. You will receive an email upon its completion.'),
+   system_managed(false)
+);

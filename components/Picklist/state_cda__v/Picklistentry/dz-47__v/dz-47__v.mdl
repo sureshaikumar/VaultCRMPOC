@@ -1,0 +1,6 @@
+Picklistentry dz-47__v (
+   value('Ghardaïa'),
+   order(1028),
+   active(true),
+   controlling_entries('dz__v')
+);

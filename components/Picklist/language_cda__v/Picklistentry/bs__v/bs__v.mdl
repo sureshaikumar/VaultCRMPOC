@@ -1,0 +1,5 @@
+Picklistentry bs__v (
+   value('Bosnian'),
+   order(7),
+   active(true)
+);

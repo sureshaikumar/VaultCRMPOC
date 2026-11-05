@@ -1,0 +1,6 @@
+Message recon_merge_confirm_title__v (
+   label(),
+   active(true),
+   default_value('Merge Walk-In'),
+   system_managed(false)
+);

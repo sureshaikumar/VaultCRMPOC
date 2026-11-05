@@ -1,0 +1,9 @@
+RECREATE Picklist aln_publication_result__v (
+   label('Publication Result'),
+   active(true),
+   Picklistentry(@Picklistentry/failed__v.mdl),
+   Picklistentry(@Picklistentry/published_with_errors__v.mdl),
+   Picklistentry(@Picklistentry/published_successfully__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

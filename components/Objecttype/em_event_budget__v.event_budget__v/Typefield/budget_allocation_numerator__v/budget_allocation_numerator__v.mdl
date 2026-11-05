@@ -1,0 +1,4 @@
+Typefield budget_allocation_numerator__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message concur_expense_attribution_speaker__v (
+   label(),
+   active(true),
+   default_value('If Write-In Event Speaker'),
+   system_managed(false)
+);

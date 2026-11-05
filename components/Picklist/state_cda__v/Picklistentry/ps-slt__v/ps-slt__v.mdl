@@ -1,0 +1,6 @@
+Picklistentry ps-slt__v (
+   value('Salfit'),
+   order(3651),
+   active(true),
+   controlling_entries('ps__v')
+);

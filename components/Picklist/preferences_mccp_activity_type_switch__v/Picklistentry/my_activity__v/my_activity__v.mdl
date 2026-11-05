@@ -1,0 +1,5 @@
+Picklistentry my_activity__v (
+   value('My Activity'),
+   order(0),
+   active(true)
+);

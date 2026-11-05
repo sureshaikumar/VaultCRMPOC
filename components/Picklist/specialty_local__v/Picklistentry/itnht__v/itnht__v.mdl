@@ -1,0 +1,7 @@
+Picklistentry itnht__v (
+   value('Intensive Therapy'),
+   order(776),
+   active(true),
+   controlling_entries('am__v',
+         'hu__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry assignment_edit__v (
+   value('Assignment Edit'),
+   order(22),
+   active(true)
+);

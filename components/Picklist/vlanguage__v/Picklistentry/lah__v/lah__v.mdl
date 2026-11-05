@@ -1,0 +1,5 @@
+Picklistentry lah__v (
+   value('Lahnda'),
+   order(182),
+   active(false)
+);

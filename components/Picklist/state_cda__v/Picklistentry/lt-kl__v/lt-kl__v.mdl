@@ -1,0 +1,6 @@
+Picklistentry lt-kl__v (
+   value('Klaipėda County'),
+   order(2680),
+   active(true),
+   controlling_entries('lt__v')
+);

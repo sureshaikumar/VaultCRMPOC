@@ -1,0 +1,6 @@
+Picklistentry pcalp__v (
+   value('Psychiatry Consultation and Liaison Psychiatry (CLP)'),
+   order(1617),
+   active(true),
+   controlling_entries('id__v')
+);

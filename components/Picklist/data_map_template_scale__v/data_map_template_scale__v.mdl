@@ -1,0 +1,8 @@
+RECREATE Picklist data_map_template_scale__v (
+   label('Scale'),
+   active(true),
+   Picklistentry(@Picklistentry/week__v.mdl),
+   Picklistentry(@Picklistentry/month__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

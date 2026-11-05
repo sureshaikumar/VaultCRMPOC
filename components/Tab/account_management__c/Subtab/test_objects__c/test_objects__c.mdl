@@ -1,0 +1,15 @@
+Subtab test_objects__c (
+   active(true),
+   all_view_label('All Test Objects'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Test Objects'),
+   modal_create_record(true),
+   my_view_label('My Test Objects'),
+   object('test_object_tbd__c'),
+   order(100),
+   parent('account_management__c'),
+   prevent_create(false),
+   recent_view_label('Recent Test Objects')
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist em_event_material_has_attachment__v (
+   label('Has Attachment'),
+   active(true),
+   Picklistentry(@Picklistentry/yes__v.mdl),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

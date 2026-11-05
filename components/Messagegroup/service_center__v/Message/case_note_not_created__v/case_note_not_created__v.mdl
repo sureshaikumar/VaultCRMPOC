@@ -1,0 +1,6 @@
+Message case_note_not_created__v (
+   label(),
+   active(true),
+   default_value('Case Note not Created'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry th-12__v (
+   value('Nonthaburi'),
+   order(4330),
+   active(true),
+   controlling_entries('th__v')
+);

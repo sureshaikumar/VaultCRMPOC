@@ -1,0 +1,9 @@
+RECREATE Picklist aln_account_hierarchy_rule__v (
+   label('Account Hierarchy Rule'),
+   active(true),
+   Picklistentry(@Picklistentry/no__v.mdl),
+   Picklistentry(@Picklistentry/assign_child__v.mdl),
+   Picklistentry(@Picklistentry/assign_parent__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

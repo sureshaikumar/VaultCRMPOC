@@ -1,0 +1,13 @@
+Vsmfield country_cda__v (
+   label('Country'),
+   active(true),
+   description('Picklist field representing the country value used in CDA (Clinical Data Aggregation) or regulatory contexts. Use this field to filter or group records by country in reporting and compliance workflows.'),
+   example_values(),
+   synonyms('country selection',
+         'country picklist',
+         'CDA country'),
+   target('country_cda__v'),
+   target_label('Country'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

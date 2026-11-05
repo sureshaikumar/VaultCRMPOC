@@ -1,0 +1,6 @@
+Message am_account_terr_duplicates_consolidated__v (
+   label(),
+   active(true),
+   default_value('The Account territory records that are duplicate are consolidated.'),
+   system_managed(false)
+);

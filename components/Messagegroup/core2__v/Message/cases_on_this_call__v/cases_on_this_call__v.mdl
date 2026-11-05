@@ -1,0 +1,6 @@
+Message cases_on_this_call__v (
+   label(),
+   active(true),
+   default_value('Cases On This Call'),
+   system_managed(false)
+);

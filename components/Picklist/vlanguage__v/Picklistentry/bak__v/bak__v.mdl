@@ -1,0 +1,5 @@
+Picklistentry bak__v (
+   value('Bashkir'),
+   order(31),
+   active(false)
+);

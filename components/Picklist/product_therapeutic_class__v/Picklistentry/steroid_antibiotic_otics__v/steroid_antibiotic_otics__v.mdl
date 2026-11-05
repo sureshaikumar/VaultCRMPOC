@@ -1,0 +1,5 @@
+Picklistentry steroid_antibiotic_otics__v (
+   value('Steroid/Antibiotic (Otics)'),
+   order(107),
+   active(true)
+);

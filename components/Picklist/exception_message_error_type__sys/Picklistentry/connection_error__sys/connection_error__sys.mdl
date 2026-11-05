@@ -1,0 +1,5 @@
+Picklistentry connection_error__sys (
+   value('CONNECTION_ERROR'),
+   order(2),
+   active(true)
+);

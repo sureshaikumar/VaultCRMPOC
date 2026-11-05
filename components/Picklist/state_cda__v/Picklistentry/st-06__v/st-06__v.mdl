@@ -1,0 +1,6 @@
+Picklistentry st-06__v (
+   value('Mé-Zóchi'),
+   order(4266),
+   active(true),
+   controlling_entries('st__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry it-pe__v (
+   value('Pescara'),
+   order(2238),
+   active(true),
+   controlling_entries('it__v')
+);

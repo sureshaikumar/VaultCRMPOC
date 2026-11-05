@@ -1,0 +1,6 @@
+Message search_case_details__v (
+   label(),
+   active(true),
+   default_value('Search Case Details'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ci-zz__v (
+   value('Zanzan'),
+   order(666),
+   active(true),
+   controlling_entries('ci__v')
+);

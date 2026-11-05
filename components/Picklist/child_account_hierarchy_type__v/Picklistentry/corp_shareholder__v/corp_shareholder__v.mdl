@@ -1,0 +1,5 @@
+Picklistentry corp_shareholder__v (
+   value('Corp. Shareholder'),
+   order(21),
+   active(true)
+);

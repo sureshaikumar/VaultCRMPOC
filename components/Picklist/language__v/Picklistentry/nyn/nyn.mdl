@@ -1,0 +1,5 @@
+Picklistentry nyn (
+   value('Nyankole'),
+   order(273),
+   active(true)
+);

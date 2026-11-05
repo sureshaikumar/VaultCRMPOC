@@ -1,0 +1,6 @@
+Message phone_number_display_name__v (
+   label(),
+   active(true),
+   default_value('Phone Number Display Name'),
+   system_managed(false)
+);

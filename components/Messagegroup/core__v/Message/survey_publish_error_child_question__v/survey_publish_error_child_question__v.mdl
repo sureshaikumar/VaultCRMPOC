@@ -1,0 +1,6 @@
+Message survey_publish_error_child_question__v (
+   label(),
+   active(true),
+   default_value('Surveys cannot be published until all child questions are associated to an answer choice. The following parent questions have at least one child question that is missing an answer choice: ${parent_questions}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message number_year__v (
+   label(),
+   active(true),
+   default_value('${number} Year'),
+   system_managed(false)
+);

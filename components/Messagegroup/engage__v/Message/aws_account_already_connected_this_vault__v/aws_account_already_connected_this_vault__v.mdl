@@ -1,0 +1,6 @@
+Message aws_account_already_connected_this_vault__v (
+   label(),
+   active(true),
+   default_value('AWS Account Already Connected'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message am_primary_address__v (
+   label(),
+   active(true),
+   default_value('Primary Address'),
+   system_managed(false)
+);

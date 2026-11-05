@@ -1,0 +1,20 @@
+Field new_acc_types_disable_license_info__v (
+   label('NEW_ACCOUNT_TYPES_DISABLE_LICENSE_INFO'),
+   type('String'),
+   active(true),
+   description('Disables the capture of License Information for the specified Account Record Types when creating a new account using the New Account or Parent Account Wizard.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(226),
+   default_value('"NEW_ACCOUNT_TYPES_DISABLE_LICENSE_INFO;;Account"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

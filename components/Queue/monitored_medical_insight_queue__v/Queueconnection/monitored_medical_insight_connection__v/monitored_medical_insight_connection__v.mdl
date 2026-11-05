@@ -1,0 +1,7 @@
+Queueconnection monitored_medical_insight_connection__v (
+   label(),
+   active(true),
+   connection_name('local_app_owner_connection__v'),
+   connection_type('local__sys'),
+   deliver_to_queue()
+);

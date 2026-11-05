@@ -1,0 +1,5 @@
+Picklistentry 11540__v (
+   value('Appleton, WI Metropolitan Statistical Area'),
+   order(698),
+   active(true)
+);

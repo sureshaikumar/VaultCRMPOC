@@ -1,0 +1,6 @@
+Message mc_cycle_clone_wizard_confirm_dialog__v (
+   label(),
+   active(true),
+   default_value('Data will be cloned from the following objects:'),
+   system_managed(false)
+);

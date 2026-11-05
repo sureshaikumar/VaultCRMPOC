@@ -1,0 +1,6 @@
+Picklistentry pahan__v (
+   value('Pathological Anatomy (Histopathology)'),
+   order(1290),
+   active(true),
+   controlling_entries('cy__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry gr-j__v (
+   value('Pelopónnisos'),
+   order(1776),
+   active(true),
+   controlling_entries('gr__v')
+);

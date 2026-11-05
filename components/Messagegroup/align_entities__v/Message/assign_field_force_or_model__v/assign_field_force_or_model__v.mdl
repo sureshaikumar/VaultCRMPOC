@@ -1,0 +1,6 @@
+Message assign_field_force_or_model__v (
+   label(),
+   active(true),
+   default_value('Either a Field Force or a Model Field Force can be assigned to the MC Cycle.'),
+   system_managed(false)
+);

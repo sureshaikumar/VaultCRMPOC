@@ -1,0 +1,6 @@
+Picklistentry ru-ce__v (
+   value('Chechenskaya Respublika'),
+   order(3800),
+   active(true),
+   controlling_entries('ru__v')
+);

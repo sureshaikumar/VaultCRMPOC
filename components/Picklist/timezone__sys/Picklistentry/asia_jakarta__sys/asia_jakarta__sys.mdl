@@ -1,0 +1,5 @@
+Picklistentry asia_jakarta__sys (
+   value('(GMT+07:00) West Indonesia Time (Asia/Jakarta)'),
+   order(253),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message remove_action__v (
+   label(),
+   active(true),
+   default_value('Remove Action'),
+   system_managed(false)
+);

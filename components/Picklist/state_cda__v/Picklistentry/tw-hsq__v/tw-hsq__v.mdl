@@ -1,0 +1,6 @@
+Picklistentry tw-hsq__v (
+   value('Hsinchu County'),
+   order(4566),
+   active(true),
+   controlling_entries('tw__v')
+);

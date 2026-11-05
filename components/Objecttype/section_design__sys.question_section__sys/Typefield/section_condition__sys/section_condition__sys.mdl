@@ -1,0 +1,4 @@
+Typefield section_condition__sys (
+   source('system'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry radir__v (
+   value('Radiodiagnostics'),
+   order(1676),
+   active(true),
+   controlling_entries('mk__v')
+);

@@ -1,0 +1,6 @@
+Message add_to_fax__v (
+   label(),
+   active(true),
+   default_value('Add to Fax'),
+   system_managed(false)
+);

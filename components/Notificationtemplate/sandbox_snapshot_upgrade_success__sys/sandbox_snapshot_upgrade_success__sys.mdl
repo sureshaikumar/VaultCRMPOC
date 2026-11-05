@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate sandbox_snapshot_upgrade_success__sys (
+   label('Snapshot Upgrade Success'),
+   active(true),
+   description('Notification template notifying user that the sandbox snapshot has been successfully upgraded and is now available.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: Sandbox Snapshot Upgrade Complete.'),
+   notification('<p>Your sandbox Snapshot: ${snapshotName} for Sandbox: ${sandboxName} has been upgraded successfully.</p>'),
+   email_body('<p>Your sandbox Snapshot: ${snapshotName} for Sandbox: ${sandboxName} has been upgraded successfully.</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

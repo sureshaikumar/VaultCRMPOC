@@ -1,0 +1,6 @@
+Message begin_intake_new_patient_instead__v (
+   label(),
+   active(true),
+   default_value('Begin Intake for a new Patient instead.'),
+   system_managed(false)
+);

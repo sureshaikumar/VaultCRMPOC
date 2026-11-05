@@ -1,0 +1,18 @@
+Field distance_unit_type__v (
+   label('Distance Unit Type'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used to display the unit of measurement applicable to the Speaker Travel Distance field.'),
+   list_column(false),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.em_event_speaker_distance_unit_type__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry cplsj__v (
+   value('Clinical Psychologists'),
+   order(291),
+   active(true),
+   controlling_entries('tw__v')
+);

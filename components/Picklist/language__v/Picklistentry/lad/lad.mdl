@@ -1,0 +1,5 @@
+Picklistentry lad (
+   value('Ladino'),
+   order(231),
+   active(true)
+);

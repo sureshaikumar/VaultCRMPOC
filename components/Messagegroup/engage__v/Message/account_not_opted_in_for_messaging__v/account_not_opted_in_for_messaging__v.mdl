@@ -1,0 +1,6 @@
+Message account_not_opted_in_for_messaging__v (
+   label(),
+   active(true),
+   default_value('${account_name} has not opted in to receive messages. Capture consent to start messaging.'),
+   system_managed(false)
+);

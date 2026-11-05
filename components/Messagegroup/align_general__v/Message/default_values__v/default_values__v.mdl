@@ -1,0 +1,6 @@
+Message default_values__v (
+   label(),
+   active(true),
+   default_value('Default Values'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry 44300__v (
+   value('State College, PA Metropolitan Statistical Area'),
+   order(787),
+   active(true)
+);

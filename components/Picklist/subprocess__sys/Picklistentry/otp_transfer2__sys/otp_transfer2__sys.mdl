@@ -1,0 +1,6 @@
+Picklistentry otp_transfer2__sys (
+   value('Transfer'),
+   order(172),
+   active(true),
+   controlling_entries('olc_sample_transaction__sys')
+);

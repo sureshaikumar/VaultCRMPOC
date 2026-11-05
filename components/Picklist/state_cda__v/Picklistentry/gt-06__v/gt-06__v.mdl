@@ -1,0 +1,6 @@
+Picklistentry gt-06__v (
+   value('Santa Rosa'),
+   order(1785),
+   active(true),
+   controlling_entries('gt__v')
+);

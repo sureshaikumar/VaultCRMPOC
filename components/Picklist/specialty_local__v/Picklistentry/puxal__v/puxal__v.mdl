@@ -1,0 +1,6 @@
+Picklistentry puxal__v (
+   value('Pulmonology and Allergology'),
+   order(1652),
+   active(true),
+   controlling_entries('fi__v')
+);

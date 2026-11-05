@@ -1,0 +1,6 @@
+Message rule_fail_parse_filter__v (
+   label(),
+   active(true),
+   default_value('Could not parse filter logic.'),
+   system_managed(false)
+);

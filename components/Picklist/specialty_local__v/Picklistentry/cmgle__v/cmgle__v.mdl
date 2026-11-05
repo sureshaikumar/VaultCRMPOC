@@ -1,0 +1,6 @@
+Picklistentry cmgle__v (
+   value('Clinical / Medical Genetics'),
+   order(208),
+   active(true),
+   controlling_entries('mt__v')
+);

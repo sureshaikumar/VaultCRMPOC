@@ -1,0 +1,6 @@
+Message field_mapping_content_group_fields__v (
+   label(),
+   active(true),
+   default_value('Content Group Fields'),
+   system_managed(false)
+);

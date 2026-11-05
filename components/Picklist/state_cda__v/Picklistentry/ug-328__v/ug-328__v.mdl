@@ -1,0 +1,6 @@
+Picklistentry ug-328__v (
+   value('Nwoya'),
+   order(4733),
+   active(true),
+   controlling_entries('ug__v')
+);

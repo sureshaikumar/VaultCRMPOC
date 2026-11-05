@@ -1,0 +1,6 @@
+Picklistentry is-sss__v (
+   value('Sveitarfélagið Skagaströnd'),
+   order(2145),
+   active(true),
+   controlling_entries('is__v')
+);

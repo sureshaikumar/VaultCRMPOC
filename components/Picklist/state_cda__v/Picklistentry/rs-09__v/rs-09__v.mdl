@@ -1,0 +1,6 @@
+Picklistentry rs-09__v (
+   value('Kolubarski okrug'),
+   order(3767),
+   active(true),
+   controlling_entries('rs__v')
+);

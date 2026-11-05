@@ -1,0 +1,17 @@
+Field enable_approved_email_documents__v (
+   label('Enable Approved Email Document Model'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('This setting enables users to sync Approved Email content stored as Documents in CRM to their mobile devices.'),
+   list_column(false),
+   order(39),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

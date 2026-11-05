@@ -1,0 +1,6 @@
+Picklistentry gt-04__v (
+   value('Chimaltenango'),
+   order(1783),
+   active(true),
+   controlling_entries('gt__v')
+);

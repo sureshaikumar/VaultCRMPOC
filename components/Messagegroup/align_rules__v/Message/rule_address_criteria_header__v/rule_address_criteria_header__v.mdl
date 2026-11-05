@@ -1,0 +1,6 @@
+Message rule_address_criteria_header__v (
+   label(),
+   active(true),
+   default_value('Address Criteria'),
+   system_managed(false)
+);

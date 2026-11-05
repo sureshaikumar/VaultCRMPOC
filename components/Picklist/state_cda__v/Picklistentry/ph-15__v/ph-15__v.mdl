@@ -1,0 +1,6 @@
+Picklistentry ph-15__v (
+   value('Cordillera Administrative Region (CAR)'),
+   order(3530),
+   active(true),
+   controlling_entries('ph__v')
+);

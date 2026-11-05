@@ -1,0 +1,10 @@
+Objectlifecyclestate feedback_review__v (
+   label('Feedback Review'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('This is the state in which business users can provide feedback on models and assignments.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

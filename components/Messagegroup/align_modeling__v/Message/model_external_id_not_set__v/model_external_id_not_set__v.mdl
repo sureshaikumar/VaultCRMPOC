@@ -1,0 +1,6 @@
+Message model_external_id_not_set__v (
+   label(),
+   active(true),
+   default_value('External Id of {0} field is not set.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message hot_list__v (
+   label(),
+   active(true),
+   default_value('Hot List'),
+   system_managed(false)
+);

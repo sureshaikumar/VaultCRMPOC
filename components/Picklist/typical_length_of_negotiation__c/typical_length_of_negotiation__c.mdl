@@ -1,0 +1,10 @@
+RECREATE Picklist typical_length_of_negotiation__c (
+   label('Typical Length of Negotiation'),
+   active(true),
+   Picklistentry(@Picklistentry/03_months__c.mdl),
+   Picklistentry(@Picklistentry/36_months__c.mdl),
+   Picklistentry(@Picklistentry/69_months__c.mdl),
+   Picklistentry(@Picklistentry/9_months__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message layouts__sys (
+   label(),
+   active(true),
+   default_value('Layouts'),
+   system_managed(false)
+);

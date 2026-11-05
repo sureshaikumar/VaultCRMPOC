@@ -1,0 +1,6 @@
+Picklistentry fr-24__v (
+   value('Dordogne'),
+   order(1338),
+   active(true),
+   controlling_entries('fr__v')
+);

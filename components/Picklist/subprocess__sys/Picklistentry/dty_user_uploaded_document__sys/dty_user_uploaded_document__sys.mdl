@@ -1,0 +1,6 @@
+Picklistentry dty_user_uploaded_document__sys (
+   value('User Uploaded Document'),
+   order(178),
+   active(true),
+   controlling_entries('dlc_general__sys')
+);

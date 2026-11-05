@@ -1,0 +1,6 @@
+Message remove_user__v (
+   label(),
+   active(true),
+   default_value('Remove User'),
+   system_managed(false)
+);

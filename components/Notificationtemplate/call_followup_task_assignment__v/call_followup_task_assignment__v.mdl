@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate call_followup_task_assignment__v (
+   label('Call Followup Task Assignment'),
+   active(true),
+   description('Notification to the Assigned To user that a user task has been assigned.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.call_followup_task__v'),
+   subject('Task: ${Object.name__v}'),
+   notification('You have been assigned the task: ${Object.name__v}'),
+   email_body('You have been assigned the task: ${Object.name__v}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

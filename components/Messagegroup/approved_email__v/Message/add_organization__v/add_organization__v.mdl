@@ -1,0 +1,6 @@
+Message add_organization__v (
+   label(),
+   active(true),
+   default_value('Add Organization'),
+   system_managed(false)
+);

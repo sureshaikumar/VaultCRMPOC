@@ -1,0 +1,6 @@
+Picklistentry ke-27__v (
+   value('Migori'),
+   order(2380),
+   active(true),
+   controlling_entries('ke__v')
+);

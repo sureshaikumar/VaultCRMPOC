@@ -1,0 +1,6 @@
+Picklistentry si-098__v (
+   value('Rače-Fram'),
+   order(4072),
+   active(true),
+   controlling_entries('si__v')
+);

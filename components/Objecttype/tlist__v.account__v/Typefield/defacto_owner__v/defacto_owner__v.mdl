@@ -1,0 +1,4 @@
+Typefield defacto_owner__v (
+   source('standard'),
+   required(false)
+);

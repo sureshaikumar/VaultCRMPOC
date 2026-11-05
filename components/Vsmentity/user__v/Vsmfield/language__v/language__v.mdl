@@ -1,0 +1,11 @@
+Vsmfield language__v (
+   label('Language'),
+   active(true),
+   description('The language used for labels, menus, and help text in the user\''s interface.'),
+   example_values(),
+   synonyms(),
+   target('language__sys'),
+   target_label('Language'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

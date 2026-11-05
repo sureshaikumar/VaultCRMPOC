@@ -1,0 +1,9 @@
+RECREATE Reporttype daily_agent_activity__sys (
+   label('Daily Agent Activity'),
+   active(true),
+   description('Daily Agent Activity'),
+   primary_object('daily_agent_activity__sys'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

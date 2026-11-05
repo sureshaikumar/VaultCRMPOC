@@ -1,0 +1,6 @@
+Picklistentry cz-422__v (
+   value('Chomutov'),
+   order(849),
+   active(true),
+   controlling_entries('cz__v')
+);

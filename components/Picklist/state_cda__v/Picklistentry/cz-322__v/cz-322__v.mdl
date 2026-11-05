@@ -1,0 +1,6 @@
+Picklistentry cz-322__v (
+   value('Klatovy'),
+   order(837),
+   active(true),
+   controlling_entries('cz__v')
+);

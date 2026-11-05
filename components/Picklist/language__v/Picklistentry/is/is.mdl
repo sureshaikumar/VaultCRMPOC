@@ -1,0 +1,5 @@
+Picklistentry is (
+   value('Icelandic'),
+   order(14),
+   active(true)
+);

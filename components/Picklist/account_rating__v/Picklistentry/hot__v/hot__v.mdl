@@ -1,0 +1,5 @@
+Picklistentry hot__v (
+   value('Hot'),
+   order(0),
+   active(true)
+);

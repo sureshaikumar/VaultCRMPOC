@@ -1,0 +1,10 @@
+RECREATE Picklist sent_email_receipt_entity_type__v (
+   label('Receipt Entity Type'),
+   active(true),
+   Picklistentry(@Picklistentry/call__v.mdl),
+   Picklistentry(@Picklistentry/medical_inquiry__v.mdl),
+   Picklistentry(@Picklistentry/order__v.mdl),
+   Picklistentry(@Picklistentry/multichannel_consent__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

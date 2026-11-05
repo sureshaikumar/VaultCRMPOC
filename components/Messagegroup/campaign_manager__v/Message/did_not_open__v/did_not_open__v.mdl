@@ -1,0 +1,6 @@
+Message did_not_open__v (
+   label(),
+   active(true),
+   default_value('Did not open'),
+   system_managed(false)
+);

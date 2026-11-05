@@ -1,0 +1,6 @@
+Message tasks__v (
+   label(),
+   active(true),
+   default_value('Tasks'),
+   system_managed(false)
+);

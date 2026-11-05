@@ -1,0 +1,4 @@
+Typefield multi_product_enabled__v (
+   source('standard'),
+   required(false)
+);

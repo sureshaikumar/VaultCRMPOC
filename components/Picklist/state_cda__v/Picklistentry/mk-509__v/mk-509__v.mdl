@@ -1,0 +1,6 @@
+Picklistentry mk-509__v (
+   value('Resen'),
+   order(3011),
+   active(true),
+   controlling_entries('mk__v')
+);

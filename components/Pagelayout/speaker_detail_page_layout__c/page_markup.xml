@@ -1,0 +1,64 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.em_speaker__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="address__v" />
+            <vault:field reference="alternate_name__v" />
+            <vault:field reference="local_currency__sys" />
+            <vault:field reference="annual_cap__v" />
+            <vault:field reference="credentials__v" />
+            <vault:field reference="email__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="first_name__v" />
+            <vault:field reference="furigana__v" />
+            <vault:field reference="last_name__v" />
+            <vault:field reference="middle_name__v" />
+            <vault:field reference="next_year_committed__v" />
+            <vault:field reference="next_year_reset_date__v" />
+            <vault:field reference="next_year_status__v" />
+            <vault:field reference="nickname__v" />
+            <vault:field reference="portal_access__v" />
+            <vault:field reference="portal_account_creation_date__v" />
+            <vault:field reference="portal_registration_email_date__v" />
+            <vault:field reference="send_speaker_registration_email__v" />
+            <vault:field reference="speaker_identifier__v" />
+            <vault:field reference="em_speaker_status__v" />
+            <vault:field reference="suffix__v" />
+            <vault:field reference="tier__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="upcoming_committed_costs__v" />
+            <vault:field reference="year_to_date_reset_month__v" />
+            <vault:field reference="year_to_date_spend__v" />
+            <vault:field reference="year_to_date_utilization__v" />
+            <vault:field reference="requires_corporate_contract__v" />
+            <vault:field reference="year_to_date_reset_day__v" />
+            <vault:field reference="account__v" />
+            <vault:field reference="institution__v" />
+            <vault:field reference="contract__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="cap_remaining_committed__v" />
+            <vault:field reference="cap_remaining__v" />
+            <vault:field reference="speaker_formatted_name__v" />
+            <vault:field reference="next_year_annual_cap__v" />
+            <vault:field reference="vl_url__v" />
+            <vault:field reference="predicted_spend__v" />
+            <vault:field reference="language__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="state_stage_id__sys" />
+            <vault:field reference="stage__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Attachments" name="attachments__v">
+        <vault:attachments />
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

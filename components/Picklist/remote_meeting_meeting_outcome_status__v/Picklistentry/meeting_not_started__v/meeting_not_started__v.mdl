@@ -1,0 +1,5 @@
+Picklistentry meeting_not_started__v (
+   value('Meeting Not Started'),
+   order(1),
+   active(true)
+);

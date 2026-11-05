@@ -1,0 +1,5 @@
+Picklistentry pacific_enderbury__sys (
+   value('(GMT+13:00) Phoenix Is. Time (Pacific/Enderbury)'),
+   order(310),
+   active(true)
+);

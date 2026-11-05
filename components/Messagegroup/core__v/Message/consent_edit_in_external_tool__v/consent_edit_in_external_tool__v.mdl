@@ -1,0 +1,6 @@
+Message consent_edit_in_external_tool__v (
+   label(),
+   active(true),
+   default_value('This page is read-only. Changes must be made in the external tool. Continue to external consent management?'),
+   system_managed(false)
+);

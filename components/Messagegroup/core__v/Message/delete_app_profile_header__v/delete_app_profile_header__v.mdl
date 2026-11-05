@@ -1,0 +1,6 @@
+Message delete_app_profile_header__v (
+   label(),
+   active(true),
+   default_value('Deleting "${application_profile_label}"'),
+   system_managed(false)
+);

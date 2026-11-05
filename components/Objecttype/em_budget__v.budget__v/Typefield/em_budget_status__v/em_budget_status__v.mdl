@@ -1,0 +1,6 @@
+Typefield em_budget_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_budget_status__v.available_for_use__v',
+         'Picklist.em_budget_status__v.draft__v')
+);

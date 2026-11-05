@@ -1,0 +1,5 @@
+Picklistentry vi__v (
+   value('Virgin Islands, U.S.'),
+   order(240),
+   active(true)
+);

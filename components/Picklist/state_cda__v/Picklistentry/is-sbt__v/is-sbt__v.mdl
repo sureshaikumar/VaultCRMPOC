@@ -1,0 +1,6 @@
+Picklistentry is-sbt__v (
+   value('Svalbarðsstrandarhreppur'),
+   order(2132),
+   active(true),
+   controlling_entries('is__v')
+);

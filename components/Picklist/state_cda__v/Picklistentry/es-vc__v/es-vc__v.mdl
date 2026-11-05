@@ -1,0 +1,6 @@
+Picklistentry es-vc__v (
+   value('Valenciana, Comunidad'),
+   order(1256),
+   active(true),
+   controlling_entries('es__v')
+);

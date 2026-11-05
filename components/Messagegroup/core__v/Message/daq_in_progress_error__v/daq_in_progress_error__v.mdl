@@ -1,0 +1,6 @@
+Message daq_in_progress_error__v (
+   label(),
+   active(true),
+   default_value('The following field(s) cannot be updated because data processing is still in progress: ${invalid_field_list}'),
+   system_managed(false)
+);

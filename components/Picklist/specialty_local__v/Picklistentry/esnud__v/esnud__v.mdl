@@ -1,0 +1,11 @@
+Picklistentry esnud__v (
+   value('Endocrine Surgery'),
+   order(494),
+   active(true),
+   controlling_entries('am__v',
+         'ge__v',
+         'in__v',
+         'kr__v',
+         'rs__v',
+         'vn__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry initializing__sys (
+   value('Initializing'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field question_text__v (
+   label('Question Text'),
+   type('String'),
+   active(true),
+   description('Copied from survey_question__v when a survey_target__v record is saved or submitted. Stores question text as it appeared to the user when the survey was saved or submitted.'),
+   required(false),
+   unique(false),
+   max_length(1000),
+   help_content(),
+   list_column(true),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,3 @@
+Typeaction create_medical_inquiry__v (
+   action('account__v.create_medical_inquiry__v')
+);

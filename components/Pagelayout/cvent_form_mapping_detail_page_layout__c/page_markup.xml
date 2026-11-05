@@ -1,0 +1,25 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.cvent_form_mapping__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="attendee_sync_status__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="speaker_sync_status__v" />
+            <vault:field reference="cvent_instance__v" />
+            <vault:field reference="cvent_request_form__v" />
+            <vault:field reference="event_configuration_country__v" />
+            <vault:field reference="event_configuration__v" />
+            <vault:field reference="ownerid__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

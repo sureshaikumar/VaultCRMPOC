@@ -1,0 +1,14 @@
+Vsmfield messages_received__v (
+   label('Messages Received'),
+   active(true),
+   description('Total number of messages received by this connection. Represents inbound message volume and is useful for monitoring integration activity and throughput over time.'),
+   example_values(),
+   synonyms('received messages',
+         'inbound messages',
+         'incoming count',
+         'received count'),
+   target('messages_received__sys'),
+   target_label('Messages Received'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

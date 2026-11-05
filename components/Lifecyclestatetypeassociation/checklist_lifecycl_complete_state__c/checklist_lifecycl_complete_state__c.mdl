@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation checklist_lifecycl_complete_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.checklist_lifecycle__sys'),
+   object_lifecycle_state('Objectlifecyclestate.completed_state__sys'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

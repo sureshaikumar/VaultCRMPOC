@@ -1,0 +1,6 @@
+Message assign_role__v (
+   label(),
+   active(true),
+   default_value('Assign Role'),
+   system_managed(false)
+);

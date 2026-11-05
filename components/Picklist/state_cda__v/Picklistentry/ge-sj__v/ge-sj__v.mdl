@@ -1,0 +1,6 @@
+Picklistentry ge-sj__v (
+   value('Samtskhe-Javakheti'),
+   order(1684),
+   active(true),
+   controlling_entries('ge__v')
+);

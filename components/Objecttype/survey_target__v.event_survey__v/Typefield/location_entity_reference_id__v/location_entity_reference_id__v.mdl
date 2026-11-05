@@ -1,0 +1,4 @@
+Typefield location_entity_reference_id__v (
+   source('custom'),
+   required(false)
+);

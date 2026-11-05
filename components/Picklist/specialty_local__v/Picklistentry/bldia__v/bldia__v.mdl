@@ -1,0 +1,6 @@
+Picklistentry bldia__v (
+   value('Biochemical Laboratory Diagnostics'),
+   order(120),
+   active(true),
+   controlling_entries('ba__v')
+);

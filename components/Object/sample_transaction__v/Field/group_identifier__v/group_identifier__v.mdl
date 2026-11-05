@@ -1,0 +1,21 @@
+Field group_identifier__v (
+   label('Group Identifier'),
+   type('String'),
+   active(true),
+   description('If present, this is the group identifier for a grouped transaction, otherwise it''s just the transaction id.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(78),
+   formula('if(length(group_transaction_id__v) > 0, group_transaction_id__v, id)'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

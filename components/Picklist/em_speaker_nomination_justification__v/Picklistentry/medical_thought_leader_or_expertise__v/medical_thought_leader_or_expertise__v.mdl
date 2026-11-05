@@ -1,0 +1,5 @@
+Picklistentry medical_thought_leader_or_expertise__v (
+   value('Medical thought leader or expertise'),
+   order(3),
+   active(true)
+);

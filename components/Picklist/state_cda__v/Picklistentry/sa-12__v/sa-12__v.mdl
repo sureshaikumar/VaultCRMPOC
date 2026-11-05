@@ -1,0 +1,6 @@
+Picklistentry sa-12__v (
+   value('Al Jawf'),
+   order(3889),
+   active(true),
+   controlling_entries('sa__v')
+);

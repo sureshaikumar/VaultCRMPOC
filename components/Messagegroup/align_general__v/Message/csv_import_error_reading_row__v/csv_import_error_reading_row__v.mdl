@@ -1,0 +1,6 @@
+Message csv_import_error_reading_row__v (
+   label(),
+   active(true),
+   default_value('Error reading CSV at row {0}'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry on_restricted__c (
+   value('On/Restricted'),
+   order(1),
+   active(true)
+);

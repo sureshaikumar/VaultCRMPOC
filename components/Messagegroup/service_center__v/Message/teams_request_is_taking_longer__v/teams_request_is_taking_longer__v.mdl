@@ -1,0 +1,6 @@
+Message teams_request_is_taking_longer__v (
+   label(),
+   active(true),
+   default_value('The request for Teams is taking longer than expected.'),
+   system_managed(false)
+);

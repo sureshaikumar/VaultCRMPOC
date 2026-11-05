@@ -1,0 +1,5 @@
+Picklistentry 15500__v (
+   value('Burlington, NC Metropolitan Statistical Area'),
+   order(941),
+   active(true)
+);

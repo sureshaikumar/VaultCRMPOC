@@ -1,0 +1,9 @@
+RECREATE Picklist tsf_route__v (
+   label('Route'),
+   active(true),
+   Picklistentry(@Picklistentry/route_1__v.mdl),
+   Picklistentry(@Picklistentry/route_2__v.mdl),
+   Picklistentry(@Picklistentry/route_3__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,22 @@
+Field quantity_to_disperse__v (
+   label('Quantity To Disburse'),
+   type('Number'),
+   active(true),
+   description('The quantity entered by the user for the sample line item on the Call record to which the Sample Limit was applied.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(29),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

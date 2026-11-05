@@ -1,0 +1,5 @@
+Picklistentry 45340__v (
+   value('Taos, NM Micropolitan Statistical Area'),
+   order(22),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield hipaa_authorization_expiration_date__v (
+   source('standard'),
+   required(false)
+);

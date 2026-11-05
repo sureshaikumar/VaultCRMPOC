@@ -1,0 +1,6 @@
+Message invalid_field_value_in_states__v (
+   label(),
+   active(true),
+   default_value('${field_label} must have a valid value when ${case_label} is in ${case_state} ${lifecycle_state_field_label}.'),
+   system_managed(false)
+);

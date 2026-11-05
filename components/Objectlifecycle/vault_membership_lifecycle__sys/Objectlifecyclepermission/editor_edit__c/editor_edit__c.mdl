@@ -1,0 +1,7 @@
+Objectlifecyclepermission editor_edit__c (
+   states('Objectlifecyclestate.active_state__sys',
+         'Objectlifecyclestate.inactive_state__sys',
+         'Objectlifecyclestate.pending_state__sys'),
+   role('Objectlifecyclerole.editor__v'),
+   permission('Edit')
+);

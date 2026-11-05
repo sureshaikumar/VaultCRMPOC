@@ -1,0 +1,4 @@
+Typefield content_note_batch_size__v (
+   source('standard'),
+   required(false)
+);

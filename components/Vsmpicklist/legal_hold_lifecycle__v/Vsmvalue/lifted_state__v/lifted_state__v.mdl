@@ -1,0 +1,12 @@
+Vsmvalue lifted_state__v (
+   label('Lifted'),
+   active(true),
+   description('The legal hold has been formally lifted, releasing all custodians and records from preservation obligations as the underlying legal matter has concluded or no longer requires the hold.'),
+   synonyms('hold released',
+         'hold removed',
+         'hold terminated',
+         'released hold',
+         'hold closed'),
+   target('lifted_state__v'),
+   target_label('Lifted')
+);

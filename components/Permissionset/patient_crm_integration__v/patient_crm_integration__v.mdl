@@ -1,0 +1,9 @@
+RECREATE Permissionset patient_crm_integration__v (
+   label('Patient CRM Integration'),
+   active(true),
+   description(),
+   vault_actions.api('access_api'),
+   vault_actions.search('suggest'),
+   vault_owner_actions.all_documents('all_document_create'),
+   vault_owner_actions.all_object_records('all_object_record_read')
+);

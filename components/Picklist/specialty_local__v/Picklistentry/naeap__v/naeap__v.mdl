@@ -1,0 +1,6 @@
+Picklistentry naeap__v (
+   value('Nerve and Eye Anatomical Pathology'),
+   order(1001),
+   active(true),
+   controlling_entries('id__v')
+);

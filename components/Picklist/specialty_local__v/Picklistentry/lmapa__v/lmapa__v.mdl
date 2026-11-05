@@ -1,0 +1,6 @@
+Picklistentry lmapa__v (
+   value('Laboratory Medicine / Anatomic Pathology'),
+   order(845),
+   active(true),
+   controlling_entries('qa__v')
+);

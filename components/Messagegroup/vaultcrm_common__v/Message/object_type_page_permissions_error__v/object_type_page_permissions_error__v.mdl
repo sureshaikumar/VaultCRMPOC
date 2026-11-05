@@ -1,0 +1,6 @@
+Message object_type_page_permissions_error__v (
+   label(),
+   active(true),
+   default_value('You need Read access to at least one object type for the ${object_label} object in order to access this page.'),
+   system_managed(false)
+);

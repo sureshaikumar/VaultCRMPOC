@@ -1,0 +1,13 @@
+Doclifecyclestate draft__c (
+   label('Draft'),
+   active(true),
+   description('Initial state'),
+   order(0),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false),
+   entry_criteria(),
+   entry_action(),
+   user_action(@user_action.xml),
+   security_settings(@security_settings.xml)
+);

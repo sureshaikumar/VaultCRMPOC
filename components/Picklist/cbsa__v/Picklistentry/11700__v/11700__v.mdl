@@ -1,0 +1,5 @@
+Picklistentry 11700__v (
+   value('Asheville, NC Metropolitan Statistical Area'),
+   order(677),
+   active(true)
+);

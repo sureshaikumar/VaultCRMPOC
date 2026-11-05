@@ -1,0 +1,6 @@
+Picklistentry pa-nb__v (
+   value('Ngäbe-Buglé'),
+   order(3466),
+   active(true),
+   controlling_entries('pa__v')
+);

@@ -1,0 +1,6 @@
+Message cancel_patient__v (
+   label(),
+   active(true),
+   default_value('Cancel Patient'),
+   system_managed(false)
+);

@@ -1,0 +1,9 @@
+Vsmvalue nad__v (
+   label('NAD'),
+   active(true),
+   description('The official currency of Namibia (NAD), pegged at parity with the South African rand and used alongside it for all transactions in Namibia.'),
+   synonyms('Namibian dollar',
+         'NAD'),
+   target('nad__sys'),
+   target_label('NAD')
+);

@@ -1,0 +1,6 @@
+Picklistentry rhayd__v (
+   value('Radiation Hygiene'),
+   order(1664),
+   active(true),
+   controlling_entries('ua__v')
+);

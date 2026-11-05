@@ -1,0 +1,9 @@
+RECREATE Sharingrule administer__v (
+   label('Administer'),
+   active(true),
+   description(),
+   object('report__sys'),
+   criteria(),
+   Sharingrole(@Sharingrole/editor__v.mdl),
+   Sharingrole(@Sharingrole/owner__v.mdl)
+);

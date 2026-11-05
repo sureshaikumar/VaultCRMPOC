@@ -1,0 +1,6 @@
+Picklistentry kz-79__v (
+   value('Shymkent'),
+   order(2512),
+   active(true),
+   controlling_entries('kz__v')
+);

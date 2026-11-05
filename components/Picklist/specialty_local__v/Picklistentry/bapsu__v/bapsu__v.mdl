@@ -1,0 +1,6 @@
+Picklistentry bapsu__v (
+   value('Burns and Plastic Surgery'),
+   order(142),
+   active(true),
+   controlling_entries('kw__v')
+);

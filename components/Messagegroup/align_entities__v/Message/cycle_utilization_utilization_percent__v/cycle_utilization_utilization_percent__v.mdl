@@ -1,0 +1,6 @@
+Message cycle_utilization_utilization_percent__v (
+   label(),
+   active(true),
+   default_value('UTILIZATION %'),
+   system_managed(false)
+);

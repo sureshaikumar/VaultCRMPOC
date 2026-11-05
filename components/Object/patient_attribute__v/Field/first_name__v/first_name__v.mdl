@@ -1,0 +1,19 @@
+Field first_name__v (
+   label('First Name'),
+   type('String'),
+   active(true),
+   description('First name of the patient'),
+   required(true),
+   unique(false),
+   max_length(50),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(true),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

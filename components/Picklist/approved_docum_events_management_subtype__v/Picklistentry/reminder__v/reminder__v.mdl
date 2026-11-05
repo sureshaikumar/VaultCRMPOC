@@ -1,0 +1,5 @@
+Picklistentry reminder__v (
+   value('Reminder'),
+   order(1),
+   active(true)
+);

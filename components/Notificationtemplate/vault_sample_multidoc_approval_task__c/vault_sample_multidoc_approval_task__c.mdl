@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate vault_sample_multidoc_approval_task__c (
+   label('Multi-document Workflow Approval Task'),
+   active(true),
+   description('Multi-document Workflow approval task email message.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('${Object.name__v}: Review and approve documents.'),
+   notification('You have been assigned a task on ${Object.name__v} to review and approve the following documents:
+
+${multiDocDocumentsList}'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('tasks__sys')
+);

@@ -1,0 +1,10 @@
+Vsmvalue xua__v (
+   label('XUA'),
+   active(true),
+   description('Used for transactions denominated in the ADB Unit of Account, the accounting unit used by the African Development Bank for its financial reporting and loan agreements.'),
+   synonyms('ADB unit of account',
+         'African Development Bank unit',
+         'multilateral unit of account'),
+   target('xua__sys'),
+   target_label('XUA')
+);

@@ -1,0 +1,6 @@
+Picklistentry th-14__v (
+   value('Phra Nakhon Si Ayutthaya'),
+   order(4332),
+   active(true),
+   controlling_entries('th__v')
+);

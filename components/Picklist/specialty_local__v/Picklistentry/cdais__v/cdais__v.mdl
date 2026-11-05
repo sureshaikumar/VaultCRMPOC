@@ -1,0 +1,7 @@
+Picklistentry cdais__v (
+   value('Cardiovascular Diseases'),
+   order(179),
+   active(true),
+   controlling_entries('it__v',
+         'jo__v')
+);

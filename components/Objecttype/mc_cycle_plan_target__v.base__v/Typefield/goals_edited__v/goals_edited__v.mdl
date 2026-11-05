@@ -1,0 +1,4 @@
+Typefield goals_edited__v (
+   source('standard'),
+   required(false)
+);

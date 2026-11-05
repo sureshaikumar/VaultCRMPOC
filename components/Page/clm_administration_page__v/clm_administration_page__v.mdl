@@ -1,0 +1,14 @@
+RECREATE Page clm_administration_page__v (
+   label('CLM Administration'),
+   active(true),
+   client_distribution(),
+   default_client_code(),
+   description('CLM Administration Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.mcsettings.controls.page.ClmAdministrationPageController'),
+   url_path_name('clm-admin')
+);

@@ -1,0 +1,6 @@
+Message products__v (
+   label(),
+   active(true),
+   default_value('Products'),
+   system_managed(false)
+);

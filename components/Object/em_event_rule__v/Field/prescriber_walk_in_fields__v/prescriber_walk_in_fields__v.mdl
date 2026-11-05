@@ -1,0 +1,19 @@
+Field prescriber_walk_in_fields__v (
+   label('Prescriber Walk-In Fields'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(500),
+   help_content('Set of fields available for Walk In Type of Prescribers'),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

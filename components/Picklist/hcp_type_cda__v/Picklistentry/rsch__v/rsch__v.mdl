@@ -1,0 +1,5 @@
+Picklistentry rsch__v (
+   value('Researcher'),
+   order(6),
+   active(true)
+);

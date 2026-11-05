@@ -1,0 +1,6 @@
+Message security_policy_outside_vcrm_instance__v (
+   label(),
+   active(true),
+   default_value('The assigned crm_security_policy__v must belong to the same Vault CRM Instance as the Functional Profile.'),
+   system_managed(false)
+);

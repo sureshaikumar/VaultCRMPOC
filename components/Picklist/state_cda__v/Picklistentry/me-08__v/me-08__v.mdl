@@ -1,0 +1,6 @@
+Picklistentry me-08__v (
+   value('Herceg-Novi'),
+   order(2914),
+   active(true),
+   controlling_entries('me__v')
+);

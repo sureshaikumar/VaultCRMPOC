@@ -1,0 +1,6 @@
+Message my_case_summary__v (
+   label(),
+   active(true),
+   default_value('My Case Summary'),
+   system_managed(false)
+);

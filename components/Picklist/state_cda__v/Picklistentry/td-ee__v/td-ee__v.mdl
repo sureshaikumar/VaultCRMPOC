@@ -1,0 +1,6 @@
+Picklistentry td-ee__v (
+   value('Inīdī ash Sharqī'),
+   order(4304),
+   active(true),
+   controlling_entries('td__v')
+);

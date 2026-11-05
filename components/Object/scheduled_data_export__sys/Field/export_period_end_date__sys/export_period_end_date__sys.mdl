@@ -1,0 +1,17 @@
+Field export_period_end_date__sys (
+   label('Export Period End Date'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(true),
+   help_content(),
+   list_column(true),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

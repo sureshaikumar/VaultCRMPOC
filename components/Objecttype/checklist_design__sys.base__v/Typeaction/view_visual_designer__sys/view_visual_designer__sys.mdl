@@ -1,0 +1,3 @@
+Typeaction view_visual_designer__sys (
+   action('checklist_design__sys.view_visual_designer__sys')
+);

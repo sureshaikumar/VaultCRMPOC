@@ -1,0 +1,14 @@
+Vsmfield vault_component__v (
+   label('Vault Components'),
+   active(true),
+   description('Reference to the specific Vault component (e.g., object, workflow, document type) included in this package. Use this to identify what Vault configuration artifacts are bundled within a given outbound package.'),
+   example_values(),
+   synonyms('component',
+         'vault object',
+         'vault item',
+         'included component'),
+   target('vault_component__v'),
+   target_label('Vault Components'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

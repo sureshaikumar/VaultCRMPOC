@@ -1,0 +1,5 @@
+Picklistentry nad__sys (
+   value('NAD'),
+   order(131),
+   active(true)
+);

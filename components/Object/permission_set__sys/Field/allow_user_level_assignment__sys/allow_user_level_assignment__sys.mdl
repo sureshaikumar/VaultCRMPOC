@@ -1,0 +1,17 @@
+Field allow_user_level_assignment__sys (
+   label('Allow user level assignment'),
+   type('Boolean'),
+   active(false),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

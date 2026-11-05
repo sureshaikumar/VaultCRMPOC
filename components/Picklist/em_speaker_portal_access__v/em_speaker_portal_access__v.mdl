@@ -1,0 +1,8 @@
+RECREATE Picklist em_speaker_portal_access__v (
+   label('Speaker Portal Access'),
+   active(true),
+   Picklistentry(@Picklistentry/enabled__v.mdl),
+   Picklistentry(@Picklistentry/disabled__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

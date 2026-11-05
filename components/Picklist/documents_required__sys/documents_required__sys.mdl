@@ -1,0 +1,9 @@
+RECREATE Picklist documents_required__sys (
+   label('Documents Required'),
+   active(true),
+   Picklistentry(@Picklistentry/not_required__sys.mdl),
+   Picklistentry(@Picklistentry/single_document__sys.mdl),
+   Picklistentry(@Picklistentry/multiple_documents__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

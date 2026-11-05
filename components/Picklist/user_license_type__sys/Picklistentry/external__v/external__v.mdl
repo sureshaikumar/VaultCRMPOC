@@ -1,0 +1,5 @@
+Picklistentry external__v (
+   value('External User'),
+   order(2),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message process_task_task_stage__v (
+   label(),
+   active(true),
+   default_value('Task Stage'),
+   system_managed(false)
+);

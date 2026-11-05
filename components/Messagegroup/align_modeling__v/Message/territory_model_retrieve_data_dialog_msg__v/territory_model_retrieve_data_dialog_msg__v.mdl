@@ -1,0 +1,6 @@
+Message territory_model_retrieve_data_dialog_msg__v (
+   label(),
+   active(true),
+   default_value('Retrieving territory model data'),
+   system_managed(false)
+);

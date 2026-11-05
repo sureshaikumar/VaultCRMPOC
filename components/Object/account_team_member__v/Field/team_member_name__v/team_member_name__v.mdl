@@ -1,0 +1,19 @@
+Field team_member_name__v (
+   label('Team Member Name'),
+   type('String'),
+   active(true),
+   description('Text value of the team member on an account plan. Used for users who are not in the CRM system. Stamped via trigger when the Team Member is populated.'),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

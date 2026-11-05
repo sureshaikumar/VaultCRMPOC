@@ -1,0 +1,6 @@
+Message status_status_read_only__v (
+   label(),
+   active(true),
+   default_value('Consent status cannot be changed'),
+   system_managed(false)
+);

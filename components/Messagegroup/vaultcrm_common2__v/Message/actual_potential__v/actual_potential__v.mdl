@@ -1,0 +1,6 @@
+Message actual_potential__v (
+   label(),
+   active(true),
+   default_value('A·P'),
+   system_managed(false)
+);

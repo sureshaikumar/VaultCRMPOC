@@ -1,0 +1,9 @@
+RECREATE Listlayout listlayout_child_account__v (
+   label('Child Account List Layout'),
+   active(true),
+   description('Child Account List Layout'),
+   object('child_account__v'),
+   Listlayoutitem(@Listlayoutitem/child_account_address_cell__v.mdl),
+   Listlayoutitem(@Listlayoutitem/child_account_identifier__v.mdl),
+   Listlayoutitem(@Listlayoutitem/parent_child_name__v.mdl)
+);

@@ -1,0 +1,8 @@
+Objectworkflowstep start__v (
+   label('Start'),
+   type('start'),
+   next_steps('Objectworkflowstep.approve_or_reject__v'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('Approval workflow is initiated when the Inventory order lifecycle state is In Pending Approval State.')
+);

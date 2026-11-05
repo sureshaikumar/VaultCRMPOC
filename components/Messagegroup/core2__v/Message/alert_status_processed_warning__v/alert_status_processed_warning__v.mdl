@@ -1,0 +1,6 @@
+Message alert_status_processed_warning__v (
+   label(),
+   active(true),
+   default_value('Admins cannot manually mark an Alert as Processed. Set the Push Notify Status to Queued to schedule this push notification.'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-411__v (
+   value('Ntungamo'),
+   order(4753),
+   active(true),
+   controlling_entries('ug__v')
+);

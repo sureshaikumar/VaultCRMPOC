@@ -1,0 +1,6 @@
+Picklistentry ss-ec__v (
+   value('Central Equatoria'),
+   order(4253),
+   active(true),
+   controlling_entries('ss__v')
+);

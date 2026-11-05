@@ -1,0 +1,6 @@
+Picklistentry it-sr__v (
+   value('Siracusa'),
+   order(2260),
+   active(true),
+   controlling_entries('it__v')
+);

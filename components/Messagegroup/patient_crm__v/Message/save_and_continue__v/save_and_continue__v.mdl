@@ -1,0 +1,6 @@
+Message save_and_continue__v (
+   label(),
+   active(true),
+   default_value('Save and Continue'),
+   system_managed(false)
+);

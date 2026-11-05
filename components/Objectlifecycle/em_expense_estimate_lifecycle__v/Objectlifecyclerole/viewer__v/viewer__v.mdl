@@ -1,0 +1,5 @@
+Objectlifecyclerole viewer__v (
+   active(true),
+   application_role('Applicationrole.viewer__v'),
+   permissions()
+);

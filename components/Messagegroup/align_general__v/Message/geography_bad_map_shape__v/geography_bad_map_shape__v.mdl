@@ -1,0 +1,6 @@
+Message geography_bad_map_shape__v (
+   label(),
+   active(true),
+   default_value('Geography Map Shape string is not valid.'),
+   system_managed(false)
+);

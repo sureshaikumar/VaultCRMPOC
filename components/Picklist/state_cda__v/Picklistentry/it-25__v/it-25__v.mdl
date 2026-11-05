@@ -1,0 +1,6 @@
+Picklistentry it-25__v (
+   value('Lombardy'),
+   order(2157),
+   active(true),
+   controlling_entries('it__v')
+);

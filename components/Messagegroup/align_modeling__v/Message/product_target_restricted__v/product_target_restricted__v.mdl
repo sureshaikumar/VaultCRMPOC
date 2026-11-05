@@ -1,0 +1,6 @@
+Message product_target_restricted__v (
+   label(),
+   active(true),
+   default_value('${target} cannot be targeted for ${product}.'),
+   system_managed(false)
+);

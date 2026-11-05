@@ -1,0 +1,6 @@
+Picklistentry mlsea__v (
+   value('Medical Laboratory Science'),
+   order(921),
+   active(true),
+   controlling_entries('tw__v')
+);

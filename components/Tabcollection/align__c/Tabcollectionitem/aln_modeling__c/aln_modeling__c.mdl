@@ -1,0 +1,8 @@
+Tabcollectionitem aln_modeling__c (
+   label(),
+   active(true),
+   tabs(),
+   order(50),
+   tab('Tab.aln_modeling__v'),
+   type('Tab')
+);

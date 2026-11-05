@@ -1,0 +1,6 @@
+Message missing_sms_number__v (
+   label(),
+   active(true),
+   default_value('Missing SMS Number'),
+   system_managed(false)
+);

@@ -1,0 +1,39 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.approved_email_settings__v">
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="add_recipients__v" />
+            <vault:field reference="approved_email_consent_mode__v" />
+            <vault:field reference="approved_email_consent_text__v" />
+            <vault:field reference="approved_email_count_limit__v" />
+            <vault:field reference="approved_email_disclaimer_text__v" />
+            <vault:field reference="approved_email_domain__v" />
+            <vault:field reference="approved_email_duration_limit__v" />
+            <vault:field reference="approved_email_field_exclusions__v" />
+            <vault:field reference="approved_email_filter_fields__v" />
+            <vault:field reference="approved_email_restricted_words__v" />
+            <vault:field reference="approved_email_test_address__v" />
+            <vault:field reference="approved_email_vault_endpoints__v" />
+            <vault:field reference="approved_email_vault_query__v" />
+            <vault:field reference="disabled_approved_email_entrypoints__v" />
+            <vault:field reference="enable_approved_email_receipts__v" />
+            <vault:field reference="enable_drafts_folder__v" />
+            <vault:field reference="enable_group_email__v" />
+            <vault:field reference="multichannel_explicit_opt_in__v" />
+            <vault:field reference="recipient_name_in_email_header__v" />
+            <vault:field reference="recipient_specific_fields__v" />
+            <vault:field reference="timeline_view_email_link__v" />
+            <vault:field reference="setupownerid__v" />
+            <vault:field reference="security_profile__v" />
+            <vault:field reference="application_profile__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="allow_sending_of_clm_web_links__v" />
+            <vault:field reference="enable_approved_email_documents__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

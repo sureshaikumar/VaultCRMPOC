@@ -1,0 +1,4 @@
+Typefield no_sample_lots__v (
+   source('custom'),
+   required(false)
+);

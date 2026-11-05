@@ -1,0 +1,6 @@
+Picklistentry sn-mt__v (
+   value('Matam'),
+   order(4217),
+   active(true),
+   controlling_entries('sn__v')
+);

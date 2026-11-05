@@ -1,0 +1,18 @@
+Field cvent_consent__v (
+   label('Cvent Consent'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Used by the Cvent Integration to update Consent in Cvent'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.integration_consent__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

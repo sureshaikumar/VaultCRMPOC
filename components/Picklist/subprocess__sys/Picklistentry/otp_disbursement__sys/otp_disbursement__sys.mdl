@@ -1,0 +1,6 @@
+Picklistentry otp_disbursement__sys (
+   value('Disbursement'),
+   order(48),
+   active(true),
+   controlling_entries('olc_sample_transaction__sys')
+);

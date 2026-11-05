@@ -1,0 +1,5 @@
+Picklistentry ro__v (
+   value('Romania'),
+   order(189),
+   active(true)
+);

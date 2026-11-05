@@ -1,0 +1,6 @@
+Message rule_criteria_unused__v (
+   label(),
+   active(true),
+   default_value('Criteria are unused: {0}'),
+   system_managed(false)
+);

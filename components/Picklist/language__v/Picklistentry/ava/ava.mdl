@@ -1,0 +1,5 @@
+Picklistentry ava (
+   value('Avaric'),
+   order(130),
+   active(true)
+);

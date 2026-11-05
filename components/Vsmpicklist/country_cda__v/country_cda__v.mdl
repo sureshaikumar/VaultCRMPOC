@@ -1,0 +1,13 @@
+RECREATE Vsmpicklist country_cda__v (
+   label('Country'),
+   active(true),
+   description('Identifies a standard list of Countries that can be referenced by different objects or documents in Vault. Provides a standard list across all Vaults.'),
+   synonyms('country',
+      'nation',
+      'geography',
+      'region',
+      'territory',
+      'location country'),
+   target('Picklist.country_cda__v'),
+   target_label('Country')
+);

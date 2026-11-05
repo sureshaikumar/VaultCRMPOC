@@ -1,0 +1,6 @@
+Message cannot_identify_zip_contents_error__v (
+   label(),
+   active(true),
+   default_value('The contents of the uploaded ZIP cannot be identified. This may be due to unsupported file formats or naming conventions.'),
+   system_managed(false)
+);

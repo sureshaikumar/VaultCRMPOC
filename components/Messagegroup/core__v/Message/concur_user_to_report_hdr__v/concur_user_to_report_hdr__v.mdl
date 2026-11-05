@@ -1,0 +1,6 @@
+Message concur_user_to_report_hdr__v (
+   label(),
+   active(true),
+   default_value('User to Report Header'),
+   system_managed(false)
+);

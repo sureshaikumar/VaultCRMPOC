@@ -1,0 +1,6 @@
+Picklistentry cnaim__v (
+   value('Clinical Nutrition and Intensive Metabolic Care'),
+   order(254),
+   active(true),
+   controlling_entries('cz__v')
+);

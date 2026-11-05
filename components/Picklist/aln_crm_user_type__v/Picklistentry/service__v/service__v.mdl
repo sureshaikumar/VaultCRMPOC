@@ -1,0 +1,5 @@
+Picklistentry service__v (
+   value('Service'),
+   order(5),
+   active(true)
+);

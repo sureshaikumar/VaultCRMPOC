@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate account_plan_export_failure__v (
+   label('Account Plan Export Failure'),
+   active(true),
+   description('Notifies the user when an account plan export process has failed.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.account_plan__v'),
+   subject('Export to PowerPoint for ${Custom.account_plan_name} failed'),
+   notification('"${Custom.template_name}" failed to export for Account Plan "${Custom.account_plan_name}"'),
+   email_body('"${Custom.template_name}" failed to export for Account Plan "${Custom.account_plan_name}"'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

@@ -1,0 +1,19 @@
+Field sub_state_admin_unit__v (
+   label('Region/County'),
+   type('String'),
+   active(true),
+   description('In the hierarchy where Country is Level 0 and State is Level 1, this defines Administrative Level 2. Examples: US County, German Kreis, UK District/Borough, Australian LGA, or Mexican Municipality.'),
+   required(false),
+   unique(false),
+   max_length(150),
+   help_content(),
+   list_column(false),
+   order(104),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

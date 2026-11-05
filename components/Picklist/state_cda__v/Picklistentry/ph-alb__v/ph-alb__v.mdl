@@ -1,0 +1,6 @@
+Picklistentry ph-alb__v (
+   value('Albay'),
+   order(3537),
+   active(true),
+   controlling_entries('ph__v')
+);

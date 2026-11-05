@@ -1,0 +1,6 @@
+Picklistentry gb-abc__v (
+   value('Armagh City, Banbridge and Craigavon'),
+   order(1448),
+   active(true),
+   controlling_entries('gb__v')
+);

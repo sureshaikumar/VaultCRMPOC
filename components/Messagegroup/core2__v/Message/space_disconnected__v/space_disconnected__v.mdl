@@ -1,0 +1,6 @@
+Message space_disconnected__v (
+   label(),
+   active(true),
+   default_value('The space is currently disconnected. The owner of the space must re-authenticate with Microsoft before any action can be taken.'),
+   system_managed(false)
+);

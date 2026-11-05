@@ -1,0 +1,8 @@
+RECREATE Picklist data_grid_loader_config_access_type__v (
+   label('Access Type'),
+   active(true),
+   Picklistentry(@Picklistentry/tab__v.mdl),
+   Picklistentry(@Picklistentry/record_action__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

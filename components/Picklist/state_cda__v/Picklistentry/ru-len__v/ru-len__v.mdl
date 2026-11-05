@@ -1,0 +1,6 @@
+Picklistentry ru-len__v (
+   value('Leningradskaya oblast'''),
+   order(3826),
+   active(true),
+   controlling_entries('ru__v')
+);

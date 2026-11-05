@@ -1,0 +1,9 @@
+Vsmvalue aoa__v (
+   label('AOA'),
+   active(true),
+   description('The Angolan Kwanza (AOA), the official currency of Angola, used for all domestic and international trade transactions.'),
+   synonyms('Angolan kwanza',
+         'Angola currency'),
+   target('aoa__sys'),
+   target_label('AOA')
+);

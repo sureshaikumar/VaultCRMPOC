@@ -1,0 +1,5 @@
+Picklistentry hiv_nnrtis__v (
+   value('HIV (NNRTIs)'),
+   order(61),
+   active(true)
+);

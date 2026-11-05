@@ -1,0 +1,6 @@
+Picklistentry ua-65__v (
+   value('Khersonska oblast'),
+   order(4638),
+   active(true),
+   controlling_entries('ua__v')
+);

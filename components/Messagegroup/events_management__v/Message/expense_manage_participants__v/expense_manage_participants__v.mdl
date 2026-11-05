@@ -1,0 +1,6 @@
+Message expense_manage_participants__v (
+   label(),
+   active(true),
+   default_value('Manage Participants'),
+   system_managed(false)
+);

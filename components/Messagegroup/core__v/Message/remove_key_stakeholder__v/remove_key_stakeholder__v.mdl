@@ -1,0 +1,6 @@
+Message remove_key_stakeholder__v (
+   label(),
+   active(true),
+   default_value('Remove Key Stakeholder'),
+   system_managed(false)
+);

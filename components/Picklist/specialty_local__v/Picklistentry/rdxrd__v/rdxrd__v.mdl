@@ -1,0 +1,6 @@
+Picklistentry rdxrd__v (
+   value('Radiation Diagnostics (X-Ray Diagnostics)'),
+   order(1663),
+   active(true),
+   controlling_entries('kg__v')
+);

@@ -1,0 +1,21 @@
+Field primary__v (
+   label('Primary'),
+   type('String'),
+   active(true),
+   description('Formula field which determines if the relationship is a primary parent relationship'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(36),
+   formula('If(Id(child_account__vr.primary_parent__v)=Id(parent_account__v), "YES", "NO")'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry america_recife__sys (
+   value('(GMT-03:00) Brasilia Time (America/Recife)'),
+   order(119),
+   active(true)
+);

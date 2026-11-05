@@ -1,0 +1,6 @@
+Message campaign_performance_delivery_subtext_s__v (
+   label(),
+   active(true),
+   default_value('1 Email'),
+   system_managed(false)
+);

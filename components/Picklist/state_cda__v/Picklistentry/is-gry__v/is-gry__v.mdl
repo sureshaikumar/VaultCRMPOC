@@ -1,0 +1,6 @@
+Picklistentry is-gry__v (
+   value('Grýtubakkahreppur'),
+   order(2110),
+   active(true),
+   controlling_entries('is__v')
+);

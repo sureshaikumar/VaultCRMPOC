@@ -1,0 +1,5 @@
+Picklistentry sl__v (
+   value('Sierra Leone'),
+   order(199),
+   active(true)
+);

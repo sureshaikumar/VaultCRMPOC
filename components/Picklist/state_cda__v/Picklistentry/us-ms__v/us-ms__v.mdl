@@ -1,0 +1,6 @@
+Picklistentry us-ms__v (
+   value('Mississippi'),
+   order(4819),
+   active(true),
+   controlling_entries('us__v')
+);

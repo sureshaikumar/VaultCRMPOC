@@ -1,0 +1,6 @@
+Message crm_validate_vault_url__v (
+   label(),
+   active(true),
+   default_value('Your Vault URL does not include a valid Veeva Vault domain.'),
+   system_managed(false)
+);

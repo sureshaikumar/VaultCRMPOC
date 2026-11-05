@@ -1,0 +1,9 @@
+RECREATE Objectvalidation vmobile_object_configuration__v.document_query_modifier__v (
+   label('Documents Query Modifier'),
+   active(true),
+   expression('object_name__v = "documents" || IsBlank(document_query_modifier__v)'),
+   description(),
+   error_message('A document query modifier can only be specified with the "documents" object'),
+   error_location('object_name__v',
+      'document_query_modifier__v')
+);

@@ -1,0 +1,9 @@
+RECREATE Picklist data_cloud_account_id_type_picklist__v (
+   label('Data Cloud Account ID Type Picklist'),
+   active(true),
+   Picklistentry(@Picklistentry/vid__v.mdl),
+   Picklistentry(@Picklistentry/npi__v.mdl),
+   Picklistentry(@Picklistentry/manual__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

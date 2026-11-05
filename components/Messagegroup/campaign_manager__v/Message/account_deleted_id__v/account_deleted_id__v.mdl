@@ -1,0 +1,6 @@
+Message account_deleted_id__v (
+   label(),
+   active(true),
+   default_value('Account Deleted (${account_id})'),
+   system_managed(false)
+);

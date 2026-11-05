@@ -1,0 +1,6 @@
+Picklistentry gn-ga__v (
+   value('Gaoual'),
+   order(1730),
+   active(true),
+   controlling_entries('gn__v')
+);

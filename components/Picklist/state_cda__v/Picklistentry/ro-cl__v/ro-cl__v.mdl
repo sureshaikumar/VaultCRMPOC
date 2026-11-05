@@ -1,0 +1,6 @@
+Picklistentry ro-cl__v (
+   value('Călăraşi'),
+   order(3728),
+   active(true),
+   controlling_entries('ro__v')
+);

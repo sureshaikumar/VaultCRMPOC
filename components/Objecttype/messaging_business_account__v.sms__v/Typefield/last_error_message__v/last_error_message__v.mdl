@@ -1,0 +1,4 @@
+Typefield last_error_message__v (
+   source('custom'),
+   required(false)
+);

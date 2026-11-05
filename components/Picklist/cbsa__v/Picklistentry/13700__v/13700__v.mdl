@@ -1,0 +1,5 @@
+Picklistentry 13700__v (
+   value('Big Spring, TX Micropolitan Statistical Area'),
+   order(885),
+   active(true)
+);

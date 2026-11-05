@@ -1,0 +1,4 @@
+Typefield speaker_portal_support_email__v (
+   source('standard'),
+   required(false)
+);

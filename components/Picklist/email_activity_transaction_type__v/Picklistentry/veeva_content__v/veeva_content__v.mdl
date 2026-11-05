@@ -1,0 +1,5 @@
+Picklistentry veeva_content__v (
+   value('Veeva_Content'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry rdeit__v (
+   value('Respiratory Disease'),
+   order(1739),
+   active(true),
+   controlling_entries('mt__v')
+);

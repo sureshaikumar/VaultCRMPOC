@@ -1,0 +1,6 @@
+Message api_token_regenerate_confirm_body__v (
+   label(),
+   active(true),
+   default_value('By regenerating the API token, the previous token will automatically expire. Any integrations using the previous token will no longer be able to add targets and will need to be updated. Would you like to proceed?'),
+   system_managed(false)
+);

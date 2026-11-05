@@ -1,0 +1,6 @@
+Picklistentry si-110__v (
+   value('Sevnica'),
+   order(4084),
+   active(true),
+   controlling_entries('si__v')
+);

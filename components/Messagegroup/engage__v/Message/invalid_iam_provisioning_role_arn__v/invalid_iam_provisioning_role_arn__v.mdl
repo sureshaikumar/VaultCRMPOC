@@ -1,0 +1,6 @@
+Message invalid_iam_provisioning_role_arn__v (
+   label(),
+   active(true),
+   default_value('The IAM Provisioning Role name must be ''veeva-vcrm-sms-provisioning-role''. Please update your role name in AWS and try again.'),
+   system_managed(false)
+);

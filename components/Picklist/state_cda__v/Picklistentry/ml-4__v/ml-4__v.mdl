@@ -1,0 +1,6 @@
+Picklistentry ml-4__v (
+   value('Ségou'),
+   order(3048),
+   active(true),
+   controlling_entries('ml__v')
+);

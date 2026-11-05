@@ -1,0 +1,4 @@
+Typefield vault_document_minor_version__v (
+   source('standard'),
+   required(false)
+);

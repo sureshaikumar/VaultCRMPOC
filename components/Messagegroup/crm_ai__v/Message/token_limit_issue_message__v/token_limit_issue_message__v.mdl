@@ -1,0 +1,6 @@
+Message token_limit_issue_message__v (
+   label(),
+   active(true),
+   default_value('Your request could not be completed because it exceeded the maximum token usage allowed.'),
+   system_managed(false)
+);

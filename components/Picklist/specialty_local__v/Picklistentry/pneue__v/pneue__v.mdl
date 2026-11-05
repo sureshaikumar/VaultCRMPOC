@@ -1,0 +1,6 @@
+Picklistentry pneue__v (
+   value('Pediatric Nutrition'),
+   order(1422),
+   active(true),
+   controlling_entries('th__v')
+);

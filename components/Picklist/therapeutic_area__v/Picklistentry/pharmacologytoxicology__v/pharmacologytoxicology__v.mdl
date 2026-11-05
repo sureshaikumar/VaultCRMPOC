@@ -1,0 +1,5 @@
+Picklistentry pharmacologytoxicology__v (
+   value('Pharmacology/Toxicology'),
+   order(15),
+   active(true)
+);

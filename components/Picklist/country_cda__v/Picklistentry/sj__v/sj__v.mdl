@@ -1,0 +1,5 @@
+Picklistentry sj__v (
+   value('Svalbard and Jan Mayen'),
+   order(213),
+   active(true)
+);

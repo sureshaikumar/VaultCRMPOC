@@ -1,0 +1,6 @@
+Message teams_channel_description__v (
+   label(),
+   active(true),
+   default_value('A channel has not been created. Use a channel for internal collaboration.'),
+   system_managed(false)
+);

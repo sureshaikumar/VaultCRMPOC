@@ -1,0 +1,8 @@
+RECREATE Objectaction veevaid_invite_vault_user_creation__sys.retry_user_creation__sys (
+   label('Retry User Creation'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.veevaid.RetryVeevaIDUserCreationAction'),
+   active(true),
+   available_all_states(true)
+);

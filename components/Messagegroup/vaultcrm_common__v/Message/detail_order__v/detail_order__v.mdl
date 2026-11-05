@@ -1,0 +1,6 @@
+Message detail_order__v (
+   label(),
+   active(true),
+   default_value('Detail Order'),
+   system_managed(false)
+);

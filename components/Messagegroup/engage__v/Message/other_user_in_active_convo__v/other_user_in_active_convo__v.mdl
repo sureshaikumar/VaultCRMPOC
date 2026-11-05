@@ -1,0 +1,6 @@
+Message other_user_in_active_convo__v (
+   label(),
+   active(true),
+   default_value('${account_name} is in an active conversation with ${user_name}. New conversation cannot be started until the active conversation ends.'),
+   system_managed(false)
+);

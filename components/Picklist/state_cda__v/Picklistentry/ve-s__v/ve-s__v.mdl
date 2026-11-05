@@ -1,0 +1,6 @@
+Picklistentry ve-s__v (
+   value('Táchira'),
+   order(4904),
+   active(true),
+   controlling_entries('ve__v')
+);

@@ -1,0 +1,6 @@
+Message errors_found__v (
+   label(),
+   active(true),
+   default_value('${num_errors} Error(s) Found'),
+   system_managed(false)
+);

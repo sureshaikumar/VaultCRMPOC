@@ -1,0 +1,18 @@
+Field are_attachments_loaded__v (
+   label('Are Attachments Loaded'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the message has loaded all attachments.'),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if the message has loaded all attachments.'),
+   list_column(false),
+   order(24),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

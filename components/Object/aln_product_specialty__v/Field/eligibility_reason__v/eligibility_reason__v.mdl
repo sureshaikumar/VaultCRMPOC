@@ -1,0 +1,18 @@
+Field eligibility_reason__v (
+   label('Eligibility Reason'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(14),
+   multi_value(false),
+   picklist('Picklist.aln_eligibility_reason__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

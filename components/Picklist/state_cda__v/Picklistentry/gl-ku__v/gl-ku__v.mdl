@@ -1,0 +1,6 @@
+Picklistentry gl-ku__v (
+   value('Kommune Kujalleq'),
+   order(1705),
+   active(true),
+   controlling_entries('gl__v')
+);

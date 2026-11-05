@@ -1,0 +1,18 @@
+Field issues_found__v (
+   label('Issues Found'),
+   type('Picklist'),
+   active(true),
+   description('Contains the agent or reviewer adjudication for the header record where blank means the agent found no issues, True means the agent found issues, False Positive means the reviewer overrode all of the agent''s positive findings, and False Negative means the reviewer overrode the agent''s negative finding.'),
+   required(false),
+   unique(false),
+   help_content('If the agent found issues, set to True. If the agent found issues and the reviewer disagrees, set to False Positive. If the agent did not find issues and the reviewer disagrees, set to false negative.'),
+   list_column(false),
+   order(50),
+   multi_value(false),
+   picklist('Picklist.issues_found__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Typefield product__v (
+   source('custom'),
+   required(false),
+   relationship_criteria([product_type__v = 'detail__v' OR product_type__v = 'inventory_monitoring__v' OR inventory_monitoring__v = TRUE])
+);

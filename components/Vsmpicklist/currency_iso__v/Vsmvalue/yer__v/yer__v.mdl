@@ -1,0 +1,10 @@
+Vsmvalue yer__v (
+   label('YER'),
+   active(true),
+   description('Used for transactions denominated in the Yemeni Rial, the official currency of the Republic of Yemen.'),
+   synonyms('Yemeni rial',
+         'Yemen currency',
+         'YER'),
+   target('yer__sys'),
+   target_label('YER')
+);

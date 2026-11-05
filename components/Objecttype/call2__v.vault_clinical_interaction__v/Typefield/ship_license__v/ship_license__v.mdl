@@ -1,0 +1,4 @@
+Typefield ship_license__v (
+   source('custom'),
+   required(false)
+);

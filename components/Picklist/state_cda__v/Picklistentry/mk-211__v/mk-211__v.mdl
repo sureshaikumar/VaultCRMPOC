@@ -1,0 +1,6 @@
+Picklistentry mk-211__v (
+   value('Štip'),
+   order(2983),
+   active(true),
+   controlling_entries('mk__v')
+);

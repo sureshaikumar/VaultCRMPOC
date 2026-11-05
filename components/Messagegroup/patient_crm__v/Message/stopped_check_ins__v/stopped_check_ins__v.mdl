@@ -1,0 +1,6 @@
+Message stopped_check_ins__v (
+   label(),
+   active(true),
+   default_value('Stopped Check-Ins'),
+   system_managed(false)
+);

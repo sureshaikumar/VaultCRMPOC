@@ -1,0 +1,6 @@
+Picklistentry is-fjd__v (
+   value('Fjarðabyggð'),
+   order(2102),
+   active(true),
+   controlling_entries('is__v')
+);

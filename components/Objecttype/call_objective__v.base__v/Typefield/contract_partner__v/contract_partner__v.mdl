@@ -1,0 +1,4 @@
+Typefield contract_partner__v (
+   source('standard'),
+   required(false)
+);

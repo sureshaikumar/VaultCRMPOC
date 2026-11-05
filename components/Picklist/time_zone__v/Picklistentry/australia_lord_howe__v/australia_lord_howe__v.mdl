@@ -1,0 +1,5 @@
+Picklistentry australia_lord_howe__v (
+   value('Lord Howe Time'),
+   order(9),
+   active(true)
+);

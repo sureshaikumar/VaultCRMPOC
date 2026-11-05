@@ -1,0 +1,6 @@
+Message drop_slides_here__v (
+   label(),
+   active(true),
+   default_value('Drag and drop presentation slides here to create a presentation'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry asia_jerusalem__v (
+   value('Asia/Jerusalem'),
+   order(38),
+   active(true)
+);

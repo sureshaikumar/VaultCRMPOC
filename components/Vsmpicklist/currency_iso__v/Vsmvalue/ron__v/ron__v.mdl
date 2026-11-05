@@ -1,0 +1,10 @@
+Vsmvalue ron__v (
+   label('RON'),
+   active(true),
+   description('The current official currency of Romania (RON), introduced in 2005 to replace the old leu (ROL) and used for all financial transactions in the country.'),
+   synonyms('Romanian leu',
+         'new leu',
+         'RON'),
+   target('ron__sys'),
+   target_label('RON')
+);

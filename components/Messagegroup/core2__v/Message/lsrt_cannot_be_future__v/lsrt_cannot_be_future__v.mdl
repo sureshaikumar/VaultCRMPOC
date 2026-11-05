@@ -1,0 +1,6 @@
+Message lsrt_cannot_be_future__v (
+   label(),
+   active(true),
+   default_value('The Last Successful Run cannot be set to a future DateTime'),
+   system_managed(false)
+);

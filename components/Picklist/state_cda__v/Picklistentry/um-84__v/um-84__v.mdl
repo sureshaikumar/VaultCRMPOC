@@ -1,0 +1,6 @@
+Picklistentry um-84__v (
+   value('Howland Island'),
+   order(4787),
+   active(true),
+   controlling_entries('um__v')
+);

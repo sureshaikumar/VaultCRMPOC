@@ -1,0 +1,5 @@
+Objectlifecyclerole field_reimbursement_manager__v (
+   active(true),
+   application_role('Applicationrole.field_reimbursement_manager__v'),
+   permissions()
+);

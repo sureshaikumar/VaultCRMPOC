@@ -1,0 +1,6 @@
+Message model_dialog_num_territory_models__v (
+   label(),
+   active(true),
+   default_value('Territory Models'),
+   system_managed(false)
+);

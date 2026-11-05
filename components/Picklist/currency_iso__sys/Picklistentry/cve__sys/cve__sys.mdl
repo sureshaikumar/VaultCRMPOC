@@ -1,0 +1,5 @@
+Picklistentry cve__sys (
+   value('CVE'),
+   order(49),
+   active(true)
+);

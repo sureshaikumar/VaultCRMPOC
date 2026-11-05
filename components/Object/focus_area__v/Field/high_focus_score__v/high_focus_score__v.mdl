@@ -1,0 +1,22 @@
+Field high_focus_score__v (
+   label('High Focus Score'),
+   type('Number'),
+   active(true),
+   description('The highest focus score received for this focus area across all KOLs.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

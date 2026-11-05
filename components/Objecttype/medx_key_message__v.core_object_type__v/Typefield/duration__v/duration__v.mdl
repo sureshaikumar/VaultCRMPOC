@@ -1,0 +1,4 @@
+Typefield duration__v (
+   source('custom'),
+   required(false)
+);

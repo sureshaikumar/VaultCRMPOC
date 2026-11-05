@@ -1,0 +1,23 @@
+Field name__v (
+   label('Note ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(true),
+   max_length(128),
+   help_content('Note ID is a system-managed unique identifier for a note record.'),
+   list_column(true),
+   order(3),
+   system_managed_name(true),
+   sequential_naming(true),
+   start_number(1),
+   value_format('NI-{##########}'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   control_binding()
+);

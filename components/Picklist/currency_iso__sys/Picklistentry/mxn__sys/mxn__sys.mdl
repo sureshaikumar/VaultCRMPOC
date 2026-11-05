@@ -1,0 +1,5 @@
+Picklistentry mxn__sys (
+   value('MXN'),
+   order(126),
+   active(true)
+);

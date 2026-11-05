@@ -1,0 +1,5 @@
+Picklistentry pte__sys (
+   value('PTE'),
+   order(145),
+   active(true)
+);

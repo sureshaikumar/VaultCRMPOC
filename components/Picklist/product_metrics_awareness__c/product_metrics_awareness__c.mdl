@@ -1,0 +1,11 @@
+RECREATE Picklist product_metrics_awareness__c (
+   label('Awareness'),
+   active(true),
+   Picklistentry(@Picklistentry/unaware__c.mdl),
+   Picklistentry(@Picklistentry/developing__c.mdl),
+   Picklistentry(@Picklistentry/aware__c.mdl),
+   Picklistentry(@Picklistentry/prefers__c.mdl),
+   Picklistentry(@Picklistentry/advocate__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

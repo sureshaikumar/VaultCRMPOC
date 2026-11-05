@@ -1,0 +1,4 @@
+Typefield scheduler_show_weekends__v (
+   source('standard'),
+   required(false)
+);

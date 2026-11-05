@@ -1,0 +1,6 @@
+Message hipaa_authorization__v (
+   label(),
+   active(true),
+   default_value('HIPAA Authorization'),
+   system_managed(false)
+);

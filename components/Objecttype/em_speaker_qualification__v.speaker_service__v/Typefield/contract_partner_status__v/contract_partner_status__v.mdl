@@ -1,0 +1,6 @@
+Typefield contract_partner_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_quali_contract_partner_status__v.activated__v',
+         'Picklist.em_speaker_quali_contract_partner_status__v.saved__v')
+);

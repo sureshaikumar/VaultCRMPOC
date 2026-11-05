@@ -1,0 +1,6 @@
+Picklistentry uahom__v (
+   value('Undersea and Hyperbaric Oxygen Medicine'),
+   order(1884),
+   active(true),
+   controlling_entries('bh__v')
+);

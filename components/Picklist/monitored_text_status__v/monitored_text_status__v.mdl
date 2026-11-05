@@ -1,0 +1,10 @@
+RECREATE Picklist monitored_text_status__v (
+   label('Monitored Text Status'),
+   active(true),
+   Picklistentry(@Picklistentry/open__v.mdl),
+   Picklistentry(@Picklistentry/in_review__v.mdl),
+   Picklistentry(@Picklistentry/further_review_needed__v.mdl),
+   Picklistentry(@Picklistentry/closed__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

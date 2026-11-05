@@ -1,0 +1,14 @@
+RECREATE Page territory_feedback_page__v (
+   label('Territory Feedback'),
+   active(true),
+   client_distribution(),
+   default_client_code('territory_feedback_page__v'),
+   description('Vault CRM Integration parity for the Manager UX for Field Feedback'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.territoryfeedback.controls.TerritoryFeedbackPageController'),
+   url_path_name('territory-feedback')
+);

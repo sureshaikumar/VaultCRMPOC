@@ -1,0 +1,5 @@
+Picklistentry sq__v (
+   value('Albanian'),
+   order(11),
+   active(false)
+);

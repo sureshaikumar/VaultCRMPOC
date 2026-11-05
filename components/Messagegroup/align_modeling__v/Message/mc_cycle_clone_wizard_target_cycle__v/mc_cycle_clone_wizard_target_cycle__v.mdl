@@ -1,0 +1,6 @@
+Message mc_cycle_clone_wizard_target_cycle__v (
+   label(),
+   active(true),
+   default_value('New MC Cycle Name'),
+   system_managed(false)
+);

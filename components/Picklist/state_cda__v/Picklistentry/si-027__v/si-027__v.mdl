@@ -1,0 +1,6 @@
+Picklistentry si-027__v (
+   value('Gorenja vas-Poljane'),
+   order(4001),
+   active(true),
+   controlling_entries('si__v')
+);

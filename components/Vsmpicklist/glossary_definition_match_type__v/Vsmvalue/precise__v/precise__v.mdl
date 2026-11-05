@@ -1,0 +1,11 @@
+Vsmvalue precise__v (
+   label('Precise'),
+   active(true),
+   description('Applies when a glossary term matches the source content exactly, with no variation in wording or meaning.'),
+   synonyms('exact match',
+         'exact definition',
+         'full match',
+         'identical wording'),
+   target('precise__sys'),
+   target_label('Precise')
+);

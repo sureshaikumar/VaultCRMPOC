@@ -1,0 +1,18 @@
+Field enable_account_search__v (
+   label('Enable Account Search'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('This controls whether outside territory account is available during feedback. This is a modeling only setting and does not impact production behavior.'),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

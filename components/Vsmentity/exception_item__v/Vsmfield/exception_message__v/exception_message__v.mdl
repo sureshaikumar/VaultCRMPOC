@@ -1,0 +1,14 @@
+Vsmfield exception_message__v (
+   label('Exception Message'),
+   active(true),
+   description('Reference to the parent User Exception Message object that this item belongs to. Use this to navigate from an individual exception item back to the broader exception batch or message context.'),
+   example_values(),
+   synonyms('parent message',
+         'exception record',
+         'linked message',
+         'source message'),
+   target('exception_message__sys'),
+   target_label('Exception Message'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

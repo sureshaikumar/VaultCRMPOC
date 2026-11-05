@@ -1,0 +1,6 @@
+Message wd_int_mappings_must_configured__v (
+   label(),
+   active(true),
+   default_value('Field mapping must be configured before importing data from Workday.'),
+   system_managed(false)
+);

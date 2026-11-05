@@ -1,0 +1,5 @@
+Picklistentry uy__v (
+   value('UY'),
+   order(234),
+   active(true)
+);

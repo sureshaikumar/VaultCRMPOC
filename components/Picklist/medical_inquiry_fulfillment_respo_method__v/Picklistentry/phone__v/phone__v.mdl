@@ -1,0 +1,5 @@
+Picklistentry phone__v (
+   value('Phone'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field ship_location_id__v (
+   label('Ship Location Id'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(20),
+   help_content('The textual ID of the Child Account value maintained in the Ship_To_Location_vod field.'),
+   list_column(false),
+   order(123),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

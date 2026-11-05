@@ -1,0 +1,17 @@
+Field render_ppt_speaker_notes__sys (
+   label('Always show Speaker Notes in Rendition'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, all new Viewable Renditions for PowerPoint documents will be rendered with Speaker Notes.'),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

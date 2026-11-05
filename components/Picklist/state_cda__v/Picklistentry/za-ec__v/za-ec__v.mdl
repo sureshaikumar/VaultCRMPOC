@@ -1,0 +1,6 @@
+Picklistentry za-ec__v (
+   value('Eastern Cape'),
+   order(5017),
+   active(true),
+   controlling_entries('za__v')
+);

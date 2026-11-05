@@ -1,0 +1,6 @@
+Message no_case_documents__v (
+   label(),
+   active(true),
+   default_value('No Case Documents'),
+   system_managed(false)
+);

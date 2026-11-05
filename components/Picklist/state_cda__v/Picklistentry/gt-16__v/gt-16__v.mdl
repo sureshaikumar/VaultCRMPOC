@@ -1,0 +1,6 @@
+Picklistentry gt-16__v (
+   value('Alta Verapaz'),
+   order(1795),
+   active(true),
+   controlling_entries('gt__v')
+);

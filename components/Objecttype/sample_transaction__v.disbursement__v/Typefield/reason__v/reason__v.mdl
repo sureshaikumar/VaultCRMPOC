@@ -1,0 +1,7 @@
+Typefield reason__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.sample_transaction_reason__v.destroyed__v',
+         'Picklist.sample_transaction_reason__v.lost__v',
+         'Picklist.sample_transaction_reason__v.stolen__v')
+);

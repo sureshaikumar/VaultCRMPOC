@@ -1,0 +1,18 @@
+Field account_specific_template__v (
+   label('Account Specific Template'),
+   type('Boolean'),
+   active(true),
+   description('Flags a Contract template as associated with a particular account(s).'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(10),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

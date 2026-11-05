@@ -1,0 +1,6 @@
+Message mccp_feedback_no_removed_accounts__v (
+   label(),
+   active(true),
+   default_value('No removed accounts'),
+   system_managed(false)
+);

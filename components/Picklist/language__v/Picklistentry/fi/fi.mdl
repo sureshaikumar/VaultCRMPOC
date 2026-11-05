@@ -1,0 +1,5 @@
+Picklistentry fi (
+   value('Finnish'),
+   order(8),
+   active(true)
+);

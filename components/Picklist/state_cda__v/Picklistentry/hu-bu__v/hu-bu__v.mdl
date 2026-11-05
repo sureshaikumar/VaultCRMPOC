@@ -1,0 +1,6 @@
+Picklistentry hu-bu__v (
+   value('Budapest'),
+   order(1877),
+   active(true),
+   controlling_entries('hu__v')
+);

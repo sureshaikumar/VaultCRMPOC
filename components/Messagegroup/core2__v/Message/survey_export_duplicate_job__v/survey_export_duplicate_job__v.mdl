@@ -1,0 +1,6 @@
+Message survey_export_duplicate_job__v (
+   label(),
+   active(true),
+   default_value('Exporting results is already in progress for this survey.'),
+   system_managed(false)
+);

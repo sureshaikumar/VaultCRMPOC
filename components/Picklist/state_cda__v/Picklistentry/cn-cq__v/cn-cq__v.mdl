@@ -1,0 +1,6 @@
+Picklistentry cn-cq__v (
+   value('Chongqing Shi'),
+   order(695),
+   active(true),
+   controlling_entries('cn__v')
+);

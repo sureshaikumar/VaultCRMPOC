@@ -1,0 +1,18 @@
+Field state_distributor_license_exempt__v (
+   label('State Distributor License Exempt'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Determines if the State Distributor License validation for the Business Address should happen for a Health Care Professional at this address. If the State Distributor Exempt checkbox is checked, then the State Distributor License validation for the Busine'),
+   list_column(false),
+   order(73),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry tmh (
+   value('Tamashek'),
+   order(319),
+   active(true)
+);

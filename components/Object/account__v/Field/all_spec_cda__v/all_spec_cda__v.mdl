@@ -1,0 +1,18 @@
+Field all_spec_cda__v (
+   label('All Specialties'),
+   type('Picklist'),
+   active(true),
+   description('All medical fields and expertise areas to which the healthcare provider belongs. Uses the list of specialties.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(156),
+   multi_value(true),
+   picklist('Picklist.specialty_cda__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry mx-mic__v (
+   value('Michoacán'),
+   order(3254),
+   active(true),
+   controlling_entries('mx__v')
+);

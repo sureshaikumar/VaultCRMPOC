@@ -1,0 +1,4 @@
+Typefield resolution_picklist__v (
+   source('standard'),
+   required(true)
+);

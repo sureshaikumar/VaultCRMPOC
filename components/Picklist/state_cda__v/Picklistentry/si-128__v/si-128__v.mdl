@@ -1,0 +1,6 @@
+Picklistentry si-128__v (
+   value('Tolmin'),
+   order(4102),
+   active(true),
+   controlling_entries('si__v')
+);

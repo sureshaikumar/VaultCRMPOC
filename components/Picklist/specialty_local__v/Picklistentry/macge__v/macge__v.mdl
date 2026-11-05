@@ -1,0 +1,8 @@
+Picklistentry macge__v (
+   value('Medical and Clinical Genetics'),
+   order(896),
+   active(true),
+   controlling_entries('eg__v',
+         'fr__v',
+         'mc__v')
+);

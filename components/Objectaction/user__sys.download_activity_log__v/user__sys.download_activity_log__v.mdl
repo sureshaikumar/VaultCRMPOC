@@ -1,0 +1,8 @@
+RECREATE Objectaction user__sys.download_activity_log__v (
+   label('Download Activity Log'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.activitylog.actions.DownloadActivityLogAction'),
+   active(true),
+   available_all_states(true)
+);

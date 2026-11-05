@@ -1,0 +1,1 @@
+<p> Your Vault <a href=${upgradeVaultDNS}>${vaultName}</a> will be unavailable shortly.</p></br><p>We expect your Vault to be offline for up to ${expectedDowntime} minutes.</p>

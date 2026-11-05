@@ -1,0 +1,6 @@
+Picklistentry si-152__v (
+   value('Cankova'),
+   order(4125),
+   active(true),
+   controlling_entries('si__v')
+);

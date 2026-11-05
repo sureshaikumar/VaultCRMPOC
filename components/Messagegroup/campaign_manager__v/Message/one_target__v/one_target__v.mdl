@@ -1,0 +1,6 @@
+Message one_target__v (
+   label(),
+   active(true),
+   default_value('1 target'),
+   system_managed(false)
+);

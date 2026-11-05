@@ -1,0 +1,19 @@
+Field failure_message__v (
+   label('Fax Failure Message'),
+   type('String'),
+   active(true),
+   description('Indicates the reason the fax failed to send'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(31),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

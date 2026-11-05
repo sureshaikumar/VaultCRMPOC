@@ -1,0 +1,6 @@
+Picklistentry davde__v (
+   value('Dermatology and Venereal Diseases'),
+   order(397),
+   active(true),
+   controlling_entries('kw__v')
+);

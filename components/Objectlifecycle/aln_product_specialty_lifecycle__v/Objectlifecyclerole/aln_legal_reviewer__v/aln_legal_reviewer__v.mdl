@@ -1,0 +1,5 @@
+Objectlifecyclerole aln_legal_reviewer__v (
+   active(true),
+   application_role('Applicationrole.aln_legal_reviewer__v'),
+   permissions()
+);

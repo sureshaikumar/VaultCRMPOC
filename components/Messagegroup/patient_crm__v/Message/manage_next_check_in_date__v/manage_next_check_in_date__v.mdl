@@ -1,0 +1,6 @@
+Message manage_next_check_in_date__v (
+   label(),
+   active(true),
+   default_value('Manage Next Check-In Date'),
+   system_managed(false)
+);

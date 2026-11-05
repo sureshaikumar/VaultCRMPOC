@@ -1,0 +1,6 @@
+Queryobjectrule study__v (
+   label('Study'),
+   active(true),
+   filter_clause([modified_date__v >= '{{STARTDATETIME}}' AND modified_date__v < '{{ENDDATETIME}}']),
+   query_object('study__v')
+);

@@ -1,0 +1,4 @@
+Typefield inventory_quantity_per_case__v (
+   source('standard'),
+   required(false)
+);

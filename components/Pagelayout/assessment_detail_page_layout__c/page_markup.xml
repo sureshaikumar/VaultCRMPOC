@@ -1,0 +1,32 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.assessment__c.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="account__c" />
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="cc_patient_profiles__c" />
+            <vault:field reference="cc_study_leverage__c" />
+            <vault:field reference="community_activity__c" />
+            <vault:field reference="ln_patient_profiles__c" />
+            <vault:field reference="ln_study_leverage__c" />
+            <vault:field reference="oncology_board__c" />
+            <vault:field reference="preferred_pathologist__c" />
+            <vault:field reference="rl_patient_profiles__c" />
+            <vault:field reference="rl_study_leverage__c" />
+            <vault:field reference="research_focus__c" />
+            <vault:field reference="treatment_preferences__c" />
+            <vault:field reference="treatment_volume__c" />
+            <vault:field reference="tumor_types__c" />
+            <vault:field reference="mobile_id__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

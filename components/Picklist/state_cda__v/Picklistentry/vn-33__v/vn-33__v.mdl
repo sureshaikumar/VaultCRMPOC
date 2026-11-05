@@ -1,0 +1,6 @@
+Picklistentry vn-33__v (
+   value('Đắk Lắk'),
+   order(4936),
+   active(true),
+   controlling_entries('vn__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry oagfr__v (
+   value('Obstetrics and Gynecology Fertility-Reproductive Endocrinology (Kfer)'),
+   order(1083),
+   active(true),
+   controlling_entries('id__v')
+);

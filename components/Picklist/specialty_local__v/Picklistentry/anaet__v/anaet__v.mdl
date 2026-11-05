@@ -1,0 +1,6 @@
+Picklistentry anaet__v (
+   value('Anaesthesiology'),
+   order(52),
+   active(true),
+   controlling_entries('ie__v')
+);

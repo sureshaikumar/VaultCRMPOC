@@ -1,0 +1,6 @@
+Message concur_call_field_mappings__v (
+   label(),
+   active(true),
+   default_value('Call Field Mappings'),
+   system_managed(false)
+);

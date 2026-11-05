@@ -1,0 +1,6 @@
+Picklistentry by-hm__v (
+   value('Minsk City'),
+   order(547),
+   active(true),
+   controlling_entries('by__v')
+);

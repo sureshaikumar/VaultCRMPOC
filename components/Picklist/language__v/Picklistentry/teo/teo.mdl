@@ -1,0 +1,5 @@
+Picklistentry teo (
+   value('Ateso'),
+   order(129),
+   active(true)
+);

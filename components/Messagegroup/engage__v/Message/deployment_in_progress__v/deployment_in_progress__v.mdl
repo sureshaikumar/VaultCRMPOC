@@ -1,0 +1,6 @@
+Message deployment_in_progress__v (
+   label(),
+   active(true),
+   default_value('Deployment is in progress.'),
+   system_managed(false)
+);

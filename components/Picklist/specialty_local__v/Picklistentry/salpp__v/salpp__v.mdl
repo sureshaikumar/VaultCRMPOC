@@ -1,0 +1,6 @@
+Picklistentry salpp__v (
+   value('Speech and Language Pathology'),
+   order(1791),
+   active(true),
+   controlling_entries('us__v')
+);

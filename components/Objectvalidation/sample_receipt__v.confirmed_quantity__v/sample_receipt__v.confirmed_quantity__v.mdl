@@ -1,0 +1,8 @@
+RECREATE Objectvalidation sample_receipt__v.confirmed_quantity__v (
+   label('Confirmed Quantity'),
+   active(true),
+   expression('confirmed_quantity__v >= 0 || IsBlank(confirmed_quantity__v)'),
+   description('Confirmed Quantity value should be greater than or equal to zero'),
+   error_message('Error: Confirmed Quantity must be >= 0'),
+   error_location('confirmed_quantity__v')
+);

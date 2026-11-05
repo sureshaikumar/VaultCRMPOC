@@ -1,0 +1,6 @@
+Message tab_is_unavailable_in_call__v (
+   label(),
+   active(true),
+   default_value('${tab_name} is unavailable while a call is initiated'),
+   system_managed(false)
+);

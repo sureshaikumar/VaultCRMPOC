@@ -1,0 +1,6 @@
+Message account_view__v (
+   label(),
+   active(true),
+   default_value('Account View'),
+   system_managed(false)
+);

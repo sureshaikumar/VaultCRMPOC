@@ -1,0 +1,4 @@
+Typefield detailed_products__v (
+   source('standard'),
+   required(false)
+);

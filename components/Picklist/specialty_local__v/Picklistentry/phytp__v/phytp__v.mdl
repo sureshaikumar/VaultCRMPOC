@@ -1,0 +1,6 @@
+Picklistentry phytp__v (
+   value('Phytotherapy'),
+   order(1562),
+   active(true),
+   controlling_entries('hu__v')
+);

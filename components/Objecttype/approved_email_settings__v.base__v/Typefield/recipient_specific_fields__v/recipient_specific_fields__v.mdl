@@ -1,0 +1,4 @@
+Typefield recipient_specific_fields__v (
+   source('standard'),
+   required(false)
+);

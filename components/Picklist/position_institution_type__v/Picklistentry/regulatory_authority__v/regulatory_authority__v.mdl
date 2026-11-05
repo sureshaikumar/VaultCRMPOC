@@ -1,0 +1,5 @@
+Picklistentry regulatory_authority__v (
+   value('Regulatory Authority'),
+   order(19),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield insight_capture_agent_used__v (
+   source('standard'),
+   required(false)
+);

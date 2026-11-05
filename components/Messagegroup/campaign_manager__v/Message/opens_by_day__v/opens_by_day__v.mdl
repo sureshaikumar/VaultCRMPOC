@@ -1,0 +1,6 @@
+Message opens_by_day__v (
+   label(),
+   active(true),
+   default_value('Opens by Day'),
+   system_managed(false)
+);

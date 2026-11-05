@@ -1,0 +1,6 @@
+Message version_history__v (
+   label(),
+   active(true),
+   default_value('Version History'),
+   system_managed(false)
+);

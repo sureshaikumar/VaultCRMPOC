@@ -1,0 +1,6 @@
+Message edit_description__v (
+   label(),
+   active(true),
+   default_value('Edit Description'),
+   system_managed(false)
+);

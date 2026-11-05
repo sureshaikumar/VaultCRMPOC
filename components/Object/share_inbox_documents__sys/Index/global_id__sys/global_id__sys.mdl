@@ -1,0 +1,5 @@
+Index global_id__sys (
+   description(),
+   fields('global_id__sys'),
+   label('Global ID')
+);

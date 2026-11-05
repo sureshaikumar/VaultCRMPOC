@@ -1,0 +1,8 @@
+Tabcollectionitem territory_management_menu__v (
+   label(),
+   active(true),
+   tabs(),
+   order(0),
+   tab('Tab.territory_management_menu__v'),
+   type('Tab')
+);

@@ -1,0 +1,6 @@
+Message number_of_targets_removed__v (
+   label(),
+   active(true),
+   default_value('Targets: ${count} removed'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message opportunities_closed_per_month__v (
+   label(),
+   active(true),
+   default_value('Opportunities Closed per Month (Won/Lost)'),
+   system_managed(false)
+);

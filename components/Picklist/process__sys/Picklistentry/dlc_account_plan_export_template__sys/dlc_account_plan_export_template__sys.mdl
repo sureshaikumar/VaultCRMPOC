@@ -1,0 +1,5 @@
+Picklistentry dlc_account_plan_export_template__sys (
+   value('Account Plan Export Template'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field region__v (
+   label('Region'),
+   type('String'),
+   active(true),
+   description('Copy of the region of the survey from the Survey_vod object.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

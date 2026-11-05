@@ -1,0 +1,6 @@
+Picklistentry tz-31__v (
+   value('Songwe'),
+   order(4615),
+   active(true),
+   controlling_entries('tz__v')
+);

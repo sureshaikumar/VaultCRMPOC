@@ -1,0 +1,6 @@
+Picklistentry ch-zh__v (
+   value('Zürich'),
+   order(652),
+   active(true),
+   controlling_entries('ch__v')
+);

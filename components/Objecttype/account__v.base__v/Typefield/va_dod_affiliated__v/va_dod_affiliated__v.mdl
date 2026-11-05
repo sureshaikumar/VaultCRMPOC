@@ -1,0 +1,4 @@
+Typefield va_dod_affiliated__v (
+   source('standard'),
+   required(false)
+);

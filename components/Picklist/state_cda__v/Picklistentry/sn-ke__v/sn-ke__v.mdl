@@ -1,0 +1,6 @@
+Picklistentry sn-ke__v (
+   value('Kédougou'),
+   order(4214),
+   active(true),
+   controlling_entries('sn__v')
+);

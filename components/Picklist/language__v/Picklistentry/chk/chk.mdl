@@ -1,0 +1,5 @@
+Picklistentry chk (
+   value('Chuukese'),
+   order(156),
+   active(true)
+);

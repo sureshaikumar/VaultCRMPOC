@@ -1,0 +1,4 @@
+Typefield fax_consent_level__v (
+   source('custom'),
+   required(true)
+);

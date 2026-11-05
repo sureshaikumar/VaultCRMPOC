@@ -1,0 +1,18 @@
+Field documented_interest_status__v (
+   label('Documented Interest Status'),
+   type('Picklist'),
+   active(true),
+   description('The Status field represents the current Status of the Documented Interest. This field should be marked as Read-Only on all Page Layouts.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.documented_interest_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

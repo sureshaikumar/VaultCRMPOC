@@ -1,0 +1,6 @@
+Picklistentry nl-ut__v (
+   value('Utrecht'),
+   order(3389),
+   active(true),
+   controlling_entries('nl__v')
+);

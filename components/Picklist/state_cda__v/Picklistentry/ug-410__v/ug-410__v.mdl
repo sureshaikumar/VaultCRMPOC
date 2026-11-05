@@ -1,0 +1,6 @@
+Picklistentry ug-410__v (
+   value('Mbarara'),
+   order(4752),
+   active(true),
+   controlling_entries('ug__v')
+);

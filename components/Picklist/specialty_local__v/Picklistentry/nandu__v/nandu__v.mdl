@@ -1,0 +1,6 @@
+Picklistentry nandu__v (
+   value('Nutrition and Nutritional Diseases'),
+   order(1065),
+   active(true),
+   controlling_entries('tn__v')
+);

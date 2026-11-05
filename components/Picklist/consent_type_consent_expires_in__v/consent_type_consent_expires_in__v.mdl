@@ -1,0 +1,10 @@
+RECREATE Picklist consent_type_consent_expires_in__v (
+   label('Consent Expires In'),
+   active(true),
+   Picklistentry(@Picklistentry/one_year__v.mdl),
+   Picklistentry(@Picklistentry/end_of_calendar_year__v.mdl),
+   Picklistentry(@Picklistentry/end_of_next_calendar_year__v.mdl),
+   Picklistentry(@Picklistentry/custom_duration__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

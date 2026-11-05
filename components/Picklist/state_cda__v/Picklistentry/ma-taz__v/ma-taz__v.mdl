@@ -1,0 +1,6 @@
+Picklistentry ma-taz__v (
+   value('Taza'),
+   order(2845),
+   active(true),
+   controlling_entries('ma__v')
+);

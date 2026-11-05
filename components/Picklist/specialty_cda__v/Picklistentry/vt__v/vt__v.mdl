@@ -1,0 +1,5 @@
+Picklistentry vt__v (
+   value('Veterinary'),
+   order(99),
+   active(true)
+);

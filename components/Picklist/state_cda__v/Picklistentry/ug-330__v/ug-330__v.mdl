@@ -1,0 +1,6 @@
+Picklistentry ug-330__v (
+   value('Zombo'),
+   order(4735),
+   active(true),
+   controlling_entries('ug__v')
+);

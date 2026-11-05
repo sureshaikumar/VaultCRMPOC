@@ -1,0 +1,6 @@
+Picklistentry lt-44__v (
+   value('Šiauliai'),
+   order(2662),
+   active(true),
+   controlling_entries('lt__v')
+);

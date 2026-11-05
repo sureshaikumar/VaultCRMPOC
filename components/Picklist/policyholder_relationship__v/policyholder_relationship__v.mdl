@@ -1,0 +1,10 @@
+RECREATE Picklist policyholder_relationship__v (
+   label('Policyholder Relationship'),
+   active(true),
+   Picklistentry(@Picklistentry/self__v.mdl),
+   Picklistentry(@Picklistentry/spouse__v.mdl),
+   Picklistentry(@Picklistentry/parent__v.mdl),
+   Picklistentry(@Picklistentry/legal_guardian__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

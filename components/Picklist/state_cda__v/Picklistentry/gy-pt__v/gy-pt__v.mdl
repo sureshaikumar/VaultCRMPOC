@@ -1,0 +1,6 @@
+Picklistentry gy-pt__v (
+   value('Potaro-Siparuni'),
+   order(1821),
+   active(true),
+   controlling_entries('gy__v')
+);

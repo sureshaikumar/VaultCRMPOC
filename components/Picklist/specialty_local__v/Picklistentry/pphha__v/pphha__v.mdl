@@ -1,0 +1,6 @@
+Picklistentry pphha__v (
+   value('Pharmaceutical Pharmacology'),
+   order(1513),
+   active(true),
+   controlling_entries('dz__v')
+);

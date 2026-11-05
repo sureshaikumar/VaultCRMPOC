@@ -1,0 +1,6 @@
+Message third_party_cookies_error_title__v (
+   label(),
+   active(true),
+   default_value('Error: Align requires the use of third-party cookies.'),
+   system_managed(false)
+);

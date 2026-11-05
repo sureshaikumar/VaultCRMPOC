@@ -1,0 +1,6 @@
+Picklistentry uy-ar__v (
+   value('Artigas'),
+   order(4848),
+   active(true),
+   controlling_entries('uy__v')
+);

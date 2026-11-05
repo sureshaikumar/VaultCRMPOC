@@ -1,0 +1,14 @@
+Vsmfield component_modified_date__v (
+   label('Component Modified Date'),
+   active(true),
+   description('System-maintained timestamp recording when the vault component was last modified. Use this field to find recently changed components, audit modification history, or filter components updated within a specific time range.'),
+   example_values(),
+   synonyms('last modified',
+         'modified date',
+         'last updated',
+         'change date'),
+   target('component_modified_date__sys'),
+   target_label('Component Modified Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

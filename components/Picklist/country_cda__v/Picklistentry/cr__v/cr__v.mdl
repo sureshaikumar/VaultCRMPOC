@@ -1,0 +1,5 @@
+Picklistentry cr__v (
+   value('Costa Rica'),
+   order(53),
+   active(true)
+);

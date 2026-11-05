@@ -1,0 +1,5 @@
+Picklistentry ne (
+   value('Nepali'),
+   order(80),
+   active(true)
+);

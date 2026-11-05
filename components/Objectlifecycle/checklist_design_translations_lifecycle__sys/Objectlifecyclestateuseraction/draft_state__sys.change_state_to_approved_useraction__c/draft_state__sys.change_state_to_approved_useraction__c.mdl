@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction draft_state__sys.change_state_to_approved_useraction__c (
+   label('Change State to Approved'),
+   rule(@rule.xml),
+   order(1000)
+);

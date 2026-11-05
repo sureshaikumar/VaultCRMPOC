@@ -1,0 +1,6 @@
+Message unable_to_create_draft_try_again__v (
+   label(),
+   active(true),
+   default_value('Unable to create email draft. Please try again.'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+RECREATE Page order_detail_page__v (
+   label('Order'),
+   active(true),
+   client_distribution(),
+   default_client_code('order_detail_page__v'),
+   description('Custom app page for order detail'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(true),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.ordermanagement.controls.page.OrderPageController'),
+   url_path_name('order')
+);

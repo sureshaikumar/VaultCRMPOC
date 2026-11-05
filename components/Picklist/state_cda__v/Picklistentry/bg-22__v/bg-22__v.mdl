@@ -1,0 +1,6 @@
+Picklistentry bg-22__v (
+   value('Sofia (stolitsa)'),
+   order(394),
+   active(true),
+   controlling_entries('bg__v')
+);

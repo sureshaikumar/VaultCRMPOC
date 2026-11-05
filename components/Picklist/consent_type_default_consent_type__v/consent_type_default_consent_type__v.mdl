@@ -1,0 +1,8 @@
+RECREATE Picklist consent_type_default_consent_type__v (
+   label('Default Consent Type'),
+   active(true),
+   Picklistentry(@Picklistentry/implicit__v.mdl),
+   Picklistentry(@Picklistentry/explicit__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

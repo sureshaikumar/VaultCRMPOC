@@ -1,0 +1,6 @@
+Message concur_start_datetime__v (
+   label(),
+   active(true),
+   default_value('Start Datetime'),
+   system_managed(false)
+);

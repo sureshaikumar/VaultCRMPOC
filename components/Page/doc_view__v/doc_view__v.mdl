@@ -1,0 +1,14 @@
+RECREATE Page doc_view__v (
+   label('Doc View'),
+   active(true),
+   client_distribution(),
+   default_client_code('doc_view__v'),
+   description('Doc View Page'),
+   disable_chrome(true),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code(),
+   url_path_name('doc-view')
+);

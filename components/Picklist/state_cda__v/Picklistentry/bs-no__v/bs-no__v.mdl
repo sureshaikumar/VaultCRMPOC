@@ -1,0 +1,6 @@
+Picklistentry bs-no__v (
+   value('North Abaco'),
+   order(499),
+   active(true),
+   controlling_entries('bs__v')
+);

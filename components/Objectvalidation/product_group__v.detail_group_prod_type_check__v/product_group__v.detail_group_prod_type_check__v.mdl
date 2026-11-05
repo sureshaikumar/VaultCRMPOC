@@ -1,0 +1,19 @@
+RECREATE Objectvalidation product_group__v.detail_group_prod_type_check__v (
+   label('Detail_Group_Prod_Type_Check'),
+   active(true),
+   expression('not(
+            if(
+                product_catalog__vr.product_type__v = ''detail_group__v'',
+                not(
+                    or(
+                        product__vr.product_type__v = ''detail__v'',
+                        product__vr.product_type__v = ''detail_topic__v''
+                    )
+                ),
+                false
+            )
+       )'),
+   description('Verifies only detail topic or detail are linked to detail product groups.'),
+   error_message('Only products of type "Detail Topic" or "Detail" can be associated to a Detail Product Group'),
+   error_location('product__v')
+);

@@ -1,0 +1,6 @@
+Message no_filters_applied__v (
+   label(),
+   active(true),
+   default_value('No Filters Applied'),
+   system_managed(false)
+);

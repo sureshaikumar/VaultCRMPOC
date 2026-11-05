@@ -1,0 +1,5 @@
+Picklistentry dynamic_attribute__v (
+   value('Dynamic Attribute'),
+   order(4),
+   active(true)
+);

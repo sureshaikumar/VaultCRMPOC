@@ -1,0 +1,6 @@
+Picklistentry cavme__v (
+   value('Cardiology and Vascular Medicine Echocardiography'),
+   order(157),
+   active(true),
+   controlling_entries('id__v')
+);

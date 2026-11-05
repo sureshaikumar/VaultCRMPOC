@@ -1,0 +1,18 @@
+Field reason_lost__v (
+   label('Reason Lost'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(29),
+   multi_value(false),
+   picklist('Picklist.reason_lost__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

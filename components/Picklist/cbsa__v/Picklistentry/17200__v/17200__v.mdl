@@ -1,0 +1,5 @@
+Picklistentry 17200__v (
+   value('Claremont, NH Micropolitan Statistical Area'),
+   order(4),
+   active(true)
+);

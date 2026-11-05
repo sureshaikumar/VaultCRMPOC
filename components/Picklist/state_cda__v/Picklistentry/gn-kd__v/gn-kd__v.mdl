@@ -1,0 +1,6 @@
+Picklistentry gn-kd__v (
+   value('Kindia Prefecture'),
+   order(1735),
+   active(true),
+   controlling_entries('gn__v')
+);

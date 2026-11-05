@@ -1,0 +1,6 @@
+Message hide_all_sources__v (
+   label(),
+   active(true),
+   default_value('Hide All Sources (${Count})'),
+   system_managed(false)
+);

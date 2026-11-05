@@ -1,0 +1,6 @@
+RECREATE Rolepermissionset rolepermset17745287004514462__c (
+   label('Test Role MR'),
+   active(true),
+   application_role('test_role_mr__c'),
+   permission_sets('Permissionset.test_ps_for_mike_ross__c')
+);

@@ -1,0 +1,6 @@
+Picklistentry af-fra__v (
+   value('Farāh'),
+   order(20),
+   active(true),
+   controlling_entries('af__v')
+);

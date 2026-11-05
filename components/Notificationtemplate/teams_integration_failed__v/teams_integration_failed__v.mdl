@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate teams_integration_failed__v (
+   label('Teams Integration Failed'),
+   active(true),
+   description('This notification is sent if the there are no active users associated to the Owner Group of a Collaboration Space Configuration record.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.collaboration_space_configuration__v'),
+   subject('Action Required: Microsoft Teams Integration Inactive'),
+   notification('The Collaboration Space Configuration "${Custom.collaboration_space_config_name}" has zero active owners, and the Microsoft Teams integration has become disconnected. Please contact Veeva Support to reset the integration.'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

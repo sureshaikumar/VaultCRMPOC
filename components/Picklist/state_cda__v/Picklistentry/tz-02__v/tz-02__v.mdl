@@ -1,0 +1,6 @@
+Picklistentry tz-02__v (
+   value('Dar es Salaam'),
+   order(4586),
+   active(true),
+   controlling_entries('tz__v')
+);

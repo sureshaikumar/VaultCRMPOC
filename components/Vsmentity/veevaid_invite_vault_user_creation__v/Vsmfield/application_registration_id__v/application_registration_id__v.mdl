@@ -1,0 +1,14 @@
+Vsmfield application_registration_id__v (
+   label('Application Registration ID'),
+   active(true),
+   description('Unique identifier for the application registration associated with this VeevaID invite. Used to trace and correlate vault user creation events back to a specific application registration record.'),
+   example_values(),
+   synonyms('app reg ID',
+         'application ID',
+         'registration ID',
+         'app registration'),
+   target('application_registration_id__sys'),
+   target_label('Application Registration ID'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

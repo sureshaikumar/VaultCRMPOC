@@ -1,0 +1,5 @@
+Picklistentry indication_3__c (
+   value('Indication 3'),
+   order(2),
+   active(true)
+);

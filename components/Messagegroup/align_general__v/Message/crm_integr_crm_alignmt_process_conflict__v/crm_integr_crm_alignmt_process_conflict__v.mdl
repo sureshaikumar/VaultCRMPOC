@@ -1,0 +1,6 @@
+Message crm_integr_crm_alignmt_process_conflict__v (
+   label(),
+   active(true),
+   default_value('Your request cannot be processed at this time. {0} started an assignment preview for territories belonging to {1} at {2} which is still in progress.'),
+   system_managed(false)
+);

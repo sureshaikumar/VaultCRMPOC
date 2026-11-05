@@ -1,0 +1,19 @@
+Field dependent_field__v (
+   label('Dependent Field'),
+   type('String'),
+   active(true),
+   description('Field that is the dependent picklist in this dependency mapping'),
+   required(true),
+   unique(false),
+   max_length(43),
+   help_content('Enter the API name of the  dependent field. The field must have a data type of picklist.'),
+   list_column(true),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

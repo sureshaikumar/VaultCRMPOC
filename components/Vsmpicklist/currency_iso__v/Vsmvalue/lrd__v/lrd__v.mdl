@@ -1,0 +1,10 @@
+Vsmvalue lrd__v (
+   label('LRD'),
+   active(true),
+   description('The Liberian Dollar (LRD), the official currency of Liberia, used for transactions, pricing, and financial records involving Liberian markets.'),
+   synonyms('Liberian dollar',
+         'Liberia dollar',
+         'LRD'),
+   target('lrd__sys'),
+   target_label('LRD')
+);

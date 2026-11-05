@@ -1,0 +1,4 @@
+Typefield third_party_external_id__v (
+   source('standard'),
+   required(false)
+);

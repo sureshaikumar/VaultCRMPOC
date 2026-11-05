@@ -1,0 +1,9 @@
+Typefield channel_object__v (
+   source('custom'),
+   required(true),
+   pickentries('Picklist.mc_cycle_channel_channel_object__v.call2__v',
+         'Picklist.mc_cycle_channel_channel_object__v.em_attendee__v',
+         'Picklist.mc_cycle_channel_channel_object__v.event_attendee__v',
+         'Picklist.mc_cycle_channel_channel_object__v.multichannel_activity__v',
+         'Picklist.mc_cycle_channel_channel_object__v.sent_email__v')
+);

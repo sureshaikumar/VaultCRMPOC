@@ -1,0 +1,6 @@
+Message widget_view_all_tasks__v (
+   label(),
+   active(true),
+   default_value('View All Tasks'),
+   system_managed(false)
+);

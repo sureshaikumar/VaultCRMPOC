@@ -1,0 +1,12 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.local_currency_expense_required__v (
+   label('Local Currency Required'),
+   active(true),
+   expression('
+        Case(event_business_rule_type__vr.api_name__v,
+            "em_actual_versus_estimate_expense_thr__v", true,
+            false
+        ) = false || Not(IsBlank(local_currency__sys))'),
+   description('Local Currency Required'),
+   error_message('This field is required.'),
+   error_location('local_currency__sys')
+);

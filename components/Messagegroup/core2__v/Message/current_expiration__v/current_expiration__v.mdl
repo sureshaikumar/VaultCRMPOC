@@ -1,0 +1,6 @@
+Message current_expiration__v (
+   label(),
+   active(true),
+   default_value('Current Expiration at ${date}'),
+   system_managed(false)
+);

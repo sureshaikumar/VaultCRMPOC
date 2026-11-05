@@ -1,0 +1,7 @@
+Picklistentry hiena__v (
+   value('Health Informatics'),
+   order(666),
+   active(true),
+   controlling_entries('ba__v',
+         'us__v')
+);

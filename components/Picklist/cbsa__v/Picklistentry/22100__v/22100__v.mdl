@@ -1,0 +1,5 @@
+Picklistentry 22100__v (
+   value('Farmington, MO Micropolitan Statistical Area'),
+   order(176),
+   active(true)
+);

@@ -1,0 +1,4 @@
+Typefield cross_product_rule__v (
+   source('standard'),
+   required(false)
+);

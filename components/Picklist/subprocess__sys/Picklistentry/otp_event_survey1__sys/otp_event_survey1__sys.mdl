@@ -1,0 +1,6 @@
+Picklistentry otp_event_survey1__sys (
+   value('Event Survey'),
+   order(66),
+   active(true),
+   controlling_entries('olc_survey_target__sys')
+);

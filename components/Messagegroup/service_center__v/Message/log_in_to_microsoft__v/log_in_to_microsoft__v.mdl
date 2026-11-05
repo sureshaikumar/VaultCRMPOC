@@ -1,0 +1,6 @@
+Message log_in_to_microsoft__v (
+   label(),
+   active(true),
+   default_value('Log in to Microsoft'),
+   system_managed(false)
+);

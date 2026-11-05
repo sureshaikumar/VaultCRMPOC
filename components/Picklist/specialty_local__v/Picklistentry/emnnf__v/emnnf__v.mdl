@@ -1,0 +1,6 @@
+Picklistentry emnnf__v (
+   value('Endocrinology, Metabolism, Nutrition'),
+   order(507),
+   active(true),
+   controlling_entries('cm__v')
+);

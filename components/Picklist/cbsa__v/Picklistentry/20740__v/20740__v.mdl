@@ -1,0 +1,5 @@
+Picklistentry 20740__v (
+   value('Eau Claire, WI Metropolitan Statistical Area'),
+   order(632),
+   active(true)
+);

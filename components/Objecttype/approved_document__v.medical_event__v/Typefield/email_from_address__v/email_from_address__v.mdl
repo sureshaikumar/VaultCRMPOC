@@ -1,0 +1,4 @@
+Typefield email_from_address__v (
+   source('custom'),
+   required(false)
+);

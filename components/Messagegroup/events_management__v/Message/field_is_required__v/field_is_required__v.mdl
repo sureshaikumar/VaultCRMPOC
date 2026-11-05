@@ -1,0 +1,6 @@
+Message field_is_required__v (
+   label(),
+   active(true),
+   default_value('${field} is required.'),
+   system_managed(false)
+);

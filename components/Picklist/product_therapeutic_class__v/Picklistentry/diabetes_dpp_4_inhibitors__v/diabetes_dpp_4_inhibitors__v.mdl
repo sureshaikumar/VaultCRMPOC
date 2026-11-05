@@ -1,0 +1,5 @@
+Picklistentry diabetes_dpp_4_inhibitors__v (
+   value('Diabetes (DPP-4 Inhibitors)'),
+   order(35),
+   active(true)
+);

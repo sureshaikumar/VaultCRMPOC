@@ -1,0 +1,6 @@
+Message state_change__v (
+   label(),
+   active(true),
+   default_value('${state_label} Change'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ke-34__v (
+   value('Nyamira'),
+   order(2387),
+   active(true),
+   controlling_entries('ke__v')
+);

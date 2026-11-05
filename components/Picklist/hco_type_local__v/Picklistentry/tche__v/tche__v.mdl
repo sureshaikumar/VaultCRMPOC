@@ -1,0 +1,5 @@
+Picklistentry tche__v (
+   value('Tertiary Care Hospital'),
+   order(255),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field scheduler_filter__v (
+   label('SCHEDULER_FILTER'),
+   type('String'),
+   active(true),
+   description('Comma-delimited list of API Field Names for Account, Address, or TSF fields'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(269),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

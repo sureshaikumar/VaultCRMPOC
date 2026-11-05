@@ -1,0 +1,19 @@
+Field intermediaries__v (
+   label('Intermediaries'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content('Determines whether all intermediary accounts are assigned or none of the intermediaries are assigned.'),
+   list_column(false),
+   order(19),
+   multi_value(false),
+   picklist('Picklist.aln_intermediaries__v'),
+   default_value('Picklist.aln_intermediaries__v.assign__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

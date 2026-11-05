@@ -1,0 +1,6 @@
+Message qty_issues_found__v (
+   label(),
+   active(true),
+   default_value('${count} Issues Found'),
+   system_managed(false)
+);

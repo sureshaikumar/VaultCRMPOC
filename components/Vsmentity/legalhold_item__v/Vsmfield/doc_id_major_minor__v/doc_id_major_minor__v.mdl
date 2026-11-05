@@ -1,0 +1,14 @@
+Vsmfield doc_id_major_minor__v (
+   label('Document Id and Version'),
+   active(true),
+   description('The unique document identifier combined with its major and minor version number (e.g., \''123_1_0\''). Use this field to pinpoint the exact version of a document placed under legal hold, which is critical for audit and compliance purposes.'),
+   example_values(),
+   synonyms('doc version',
+         'document version ID',
+         'major minor version',
+         'version number'),
+   target('doc_id_major_minor__v'),
+   target_label('Document Id and Version'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

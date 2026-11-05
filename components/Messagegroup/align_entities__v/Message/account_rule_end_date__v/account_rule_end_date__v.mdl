@@ -1,0 +1,6 @@
+Message account_rule_end_date__v (
+   label(),
+   active(true),
+   default_value('Child Account Rule cannot end later than Field Force''s End Date: ${rule_name} (${rule_id}).'),
+   system_managed(false)
+);

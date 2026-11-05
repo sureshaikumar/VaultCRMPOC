@@ -1,0 +1,6 @@
+Message include_key_messages__v (
+   label(),
+   active(true),
+   default_value('Include Key Messages'),
+   system_managed(false)
+);

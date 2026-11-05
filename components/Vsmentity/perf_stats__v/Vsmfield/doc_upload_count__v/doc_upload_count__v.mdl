@@ -1,0 +1,11 @@
+Vsmfield doc_upload_count__v (
+   label('Doc Upload Count'),
+   active(true),
+   description('Number of times users uploaded source files on a given day'),
+   example_values(),
+   synonyms(),
+   target('doc_upload_count__v'),
+   target_label('Doc Upload Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

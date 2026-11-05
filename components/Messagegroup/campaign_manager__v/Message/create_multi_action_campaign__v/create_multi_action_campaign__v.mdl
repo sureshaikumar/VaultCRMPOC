@@ -1,0 +1,6 @@
+Message create_multi_action_campaign__v (
+   label(),
+   active(true),
+   default_value('Create Multi-Action Campaign'),
+   system_managed(false)
+);

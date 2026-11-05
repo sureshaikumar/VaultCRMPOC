@@ -1,0 +1,5 @@
+Picklistentry distributor__v (
+   value('Distributor'),
+   order(3),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry 23500__v (
+   value('Gaffney, SC Micropolitan Statistical Area'),
+   order(350),
+   active(true)
+);

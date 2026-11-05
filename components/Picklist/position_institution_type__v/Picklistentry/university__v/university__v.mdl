@@ -1,0 +1,5 @@
+Picklistentry university__v (
+   value('University'),
+   order(23),
+   active(true)
+);

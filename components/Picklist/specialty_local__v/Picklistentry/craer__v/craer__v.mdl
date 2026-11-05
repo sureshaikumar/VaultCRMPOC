@@ -1,0 +1,7 @@
+Picklistentry craer__v (
+   value('Cardiovascular Rehabilitation'),
+   order(181),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

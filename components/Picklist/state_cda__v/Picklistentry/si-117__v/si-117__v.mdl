@@ -1,0 +1,6 @@
+Picklistentry si-117__v (
+   value('Šenčur'),
+   order(4091),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry completed_pending_approval__v (
+   value('Completed – Pending Approval'),
+   order(2),
+   active(true)
+);

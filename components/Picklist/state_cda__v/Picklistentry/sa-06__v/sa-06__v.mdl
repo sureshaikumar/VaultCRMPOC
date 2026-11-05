@@ -1,0 +1,6 @@
+Picklistentry sa-06__v (
+   value('Ḩā''il'),
+   order(3883),
+   active(true),
+   controlling_entries('sa__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry djf__sys (
+   value('DJF'),
+   order(53),
+   active(true)
+);

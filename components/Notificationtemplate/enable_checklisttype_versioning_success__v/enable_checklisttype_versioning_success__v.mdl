@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate enable_checklisttype_versioning_success__v (
+   label('Enable ChecklistType Versioning Success'),
+   active(true),
+   description('Notification template notifying user that enabling versioning on that checklist type already be enabled.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Enable Checklist Design Versioning on ${checklisttype_record_label__sys} Successfully Completed'),
+   notification('<p>Enable Checklist Design Versioning on the <a href="${urlChecklistType}">${checklisttype_record_label__sys}</a> successfully completed.</p><p>The ${version__sys_label} is updated and the ${checklist_design_master__sys_label} records are created for all the existing ${checklist_design_object_type_label} records.</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

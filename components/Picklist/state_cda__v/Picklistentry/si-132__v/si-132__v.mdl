@@ -1,0 +1,6 @@
+Picklistentry si-132__v (
+   value('Turnišče'),
+   order(4106),
+   active(true),
+   controlling_entries('si__v')
+);

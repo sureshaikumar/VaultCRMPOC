@@ -1,0 +1,19 @@
+Field suppression_reason__sys (
+   label('Suppression Reason'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(512),
+   help_content('Reason for adding the email address to the suppression list.'),
+   list_column(false),
+   order(10),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

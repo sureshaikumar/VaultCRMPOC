@@ -1,0 +1,6 @@
+Picklistentry si-171__v (
+   value('Oplotnica'),
+   order(4144),
+   active(true),
+   controlling_entries('si__v')
+);

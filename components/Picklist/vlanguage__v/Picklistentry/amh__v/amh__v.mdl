@@ -1,0 +1,5 @@
+Picklistentry amh__v (
+   value('Amharic'),
+   order(13),
+   active(false)
+);

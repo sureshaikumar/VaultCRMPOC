@@ -1,0 +1,6 @@
+Picklistentry ch-vd__v (
+   value('Vaud'),
+   order(649),
+   active(true),
+   controlling_entries('ch__v')
+);

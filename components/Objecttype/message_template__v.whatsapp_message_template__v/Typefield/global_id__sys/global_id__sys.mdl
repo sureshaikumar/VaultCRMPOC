@@ -1,0 +1,4 @@
+Typefield global_id__sys (
+   source('system'),
+   required(false)
+);

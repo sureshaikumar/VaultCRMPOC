@@ -1,0 +1,6 @@
+Message add_survey_target__v (
+   label(),
+   active(true),
+   default_value('Add Survey Target'),
+   system_managed(false)
+);

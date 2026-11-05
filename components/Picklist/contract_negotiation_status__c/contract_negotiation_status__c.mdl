@@ -1,0 +1,9 @@
+RECREATE Picklist contract_negotiation_status__c (
+   label('Contract Negotiation Status'),
+   active(true),
+   Picklistentry(@Picklistentry/early_negotiations__c.mdl),
+   Picklistentry(@Picklistentry/clinical_and_product_evaluation__c.mdl),
+   Picklistentry(@Picklistentry/agreementpricing_completed__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

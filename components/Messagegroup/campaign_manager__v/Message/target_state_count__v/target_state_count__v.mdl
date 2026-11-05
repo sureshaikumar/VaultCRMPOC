@@ -1,0 +1,6 @@
+Message target_state_count__v (
+   label(),
+   active(true),
+   default_value('${target_state}: ${count}'),
+   system_managed(false)
+);

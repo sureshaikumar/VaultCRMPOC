@@ -1,0 +1,8 @@
+Typefield role__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.account_team_member_role__v.executive_sponsor__v',
+         'Picklist.account_team_member_role__v.key_account_manager__v',
+         'Picklist.account_team_member_role__v.team_member__v'),
+   default_value('Picklist.account_team_member_role__v.team_member__v')
+);

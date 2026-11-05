@@ -1,0 +1,10 @@
+Vsmvalue mnt__v (
+   label('MNT'),
+   active(true),
+   description('The Mongolian Tögrög (MNT), the official currency of Mongolia, used for transactions, pricing, and financial records involving Mongolian markets.'),
+   synonyms('Mongolian tögrög',
+         'Mongolian tugrik',
+         'MNT'),
+   target('mnt__sys'),
+   target_label('MNT')
+);

@@ -1,0 +1,20 @@
+Field receipt_email__v (
+   label('Receipt Email Address'),
+   type('String'),
+   subtype('Email'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(128),
+   help_content('Email address used when sending an Approved Email Receipt'),
+   list_column(false),
+   order(44),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('EmailFormat()'),
+   control_binding()
+);

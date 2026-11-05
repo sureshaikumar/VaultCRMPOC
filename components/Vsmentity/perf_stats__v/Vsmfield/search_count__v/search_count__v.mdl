@@ -1,0 +1,11 @@
+Vsmfield search_count__v (
+   label('Search Count'),
+   active(true),
+   description('Number of document searches executed on a given day'),
+   example_values(),
+   synonyms(),
+   target('search_count__v'),
+   target_label('Search Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

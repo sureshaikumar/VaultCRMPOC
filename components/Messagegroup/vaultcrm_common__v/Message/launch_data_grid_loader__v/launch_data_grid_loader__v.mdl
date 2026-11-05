@@ -1,0 +1,6 @@
+Message launch_data_grid_loader__v (
+   label(),
+   active(true),
+   default_value('Launch Data Grid Loader'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <actions>
+        <action type="Objectaction.test_object__c.create_new_sub_task_in_medcomms__c">
+            <lcActionLabelXmlIdentifier>Create New Sub Task in MedComms</lcActionLabelXmlIdentifier>
+        </action>
+    </actions>
+</rule>

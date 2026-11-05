@@ -1,0 +1,5 @@
+Picklistentry asia_beirut__sys (
+   value('(GMT+02:00) Eastern European Time (Asia/Beirut)'),
+   order(176),
+   active(true)
+);

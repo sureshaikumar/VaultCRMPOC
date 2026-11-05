@@ -1,0 +1,6 @@
+Picklistentry cr-a__v (
+   value('Alajuela'),
+   order(760),
+   active(true),
+   controlling_entries('cr__v')
+);

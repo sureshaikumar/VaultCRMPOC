@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation batch_approval_initial_state__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.batch_approval__v'),
+   object_lifecycle_state('Objectlifecyclestate.draft_state__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

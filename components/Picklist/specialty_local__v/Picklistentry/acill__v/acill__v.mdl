@@ -1,0 +1,6 @@
+Picklistentry acill__v (
+   value('Allergology Clinical Immunology'),
+   order(42),
+   active(true),
+   controlling_entries('gr__v')
+);

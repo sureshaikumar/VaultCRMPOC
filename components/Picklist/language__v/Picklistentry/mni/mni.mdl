@@ -1,0 +1,5 @@
+Picklistentry mni (
+   value('Manipuri'),
+   order(252),
+   active(true)
+);

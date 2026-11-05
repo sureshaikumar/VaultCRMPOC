@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.profiling_attribute__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="profiling_template__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="object__v" />
+            <vault:field reference="field__v" />
+            <vault:field reference="color__v" />
+            <vault:field reference="sequence__v" />
+            <vault:field reference="product__v" />
+            <vault:field reference="detail_group__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

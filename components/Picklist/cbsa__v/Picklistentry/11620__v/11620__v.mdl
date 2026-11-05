@@ -1,0 +1,5 @@
+Picklistentry 11620__v (
+   value('Ardmore, OK Micropolitan Statistical Area'),
+   order(687),
+   active(true)
+);

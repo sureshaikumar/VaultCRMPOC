@@ -1,0 +1,22 @@
+Field dosage_amount__v (
+   label('Dosage Amount'),
+   type('Number'),
+   active(true),
+   description('The precise quantity of medication (e.g., the number of tablets, milliliters, or milligrams) that the patient is directed to take per dose, as specified by the prescriber.'),
+   required(false),
+   unique(false),
+   max_value(99999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(29),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

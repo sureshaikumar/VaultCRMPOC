@@ -1,0 +1,18 @@
+Field enable_mysamples_login__v (
+   label('ENABLE_MYSAMPLES_LOGIN'),
+   type('Boolean'),
+   active(true),
+   description('Enables a User Lookup field on the My Samples page allowing Manager''s and Administrators to view the My Samples page of another User.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(140),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

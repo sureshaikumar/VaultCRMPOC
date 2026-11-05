@@ -1,0 +1,19 @@
+Field detailed_products__v (
+   label('Detailed Products'),
+   type('String'),
+   active(true),
+   description('A helper field to display the list of detailed products for a call. Product names should be delimited by double-spaces and order in priority from left to right. This field does not control processing and is included to make related lists and reports more'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(59),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

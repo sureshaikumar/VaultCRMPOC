@@ -1,0 +1,6 @@
+Picklistentry si-177__v (
+   value('Ribnica na Pohorju'),
+   order(4150),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Message filter_is_any_of__v (
+   label(),
+   active(true),
+   default_value('is any of'),
+   system_managed(false)
+);

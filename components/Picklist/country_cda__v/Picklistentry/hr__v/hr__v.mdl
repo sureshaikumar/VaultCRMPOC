@@ -1,0 +1,5 @@
+Picklistentry hr__v (
+   value('Croatia'),
+   order(55),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message update_record__v (
+   label(),
+   active(true),
+   default_value('Update ${name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Typefield outcome__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.campaign_activity_target_executi_outcome__v.fail__v',
+         'Picklist.campaign_activity_target_executi_outcome__v.success__v')
+);

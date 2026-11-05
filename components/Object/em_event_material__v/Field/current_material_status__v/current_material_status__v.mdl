@@ -1,0 +1,21 @@
+Field current_material_status__v (
+   label('Current Material Status'),
+   type('String'),
+   active(true),
+   description('Displays the current status of the material used on the event. This uses a formula to copy the status from the Material in real-time, and can be used to run a report to discover if future events are using expired materials'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(26),
+   formula('If(Length(Id(material__v)) > 0, Text(material__vr.em_catalog_status__v), If(Length(Id(clm_presentation__v)) > 0, Text(clm_presentation__vr.clm_presentation_status__v), If(Length(Id(message_template__v)) > 0, Text(message_template__vr.message_template_status__v), Text(email_template__vr.approved_document_status__v))))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

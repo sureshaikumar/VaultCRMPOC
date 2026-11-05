@@ -1,0 +1,5 @@
+Picklistentry porting_out_in_progress__v (
+   value('Porting Out in Progress'),
+   order(3),
+   active(true)
+);

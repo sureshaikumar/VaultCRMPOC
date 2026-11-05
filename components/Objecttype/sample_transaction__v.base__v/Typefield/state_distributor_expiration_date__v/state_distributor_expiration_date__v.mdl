@@ -1,0 +1,4 @@
+Typefield state_distributor_expiration_date__v (
+   source('standard'),
+   required(false)
+);

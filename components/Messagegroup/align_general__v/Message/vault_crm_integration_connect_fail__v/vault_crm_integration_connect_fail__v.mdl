@@ -1,0 +1,6 @@
+Message vault_crm_integration_connect_fail__v (
+   label(),
+   active(true),
+   default_value('Failed to connect to Vault CRM Instance {0}.'),
+   system_managed(false)
+);

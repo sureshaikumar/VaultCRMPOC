@@ -1,0 +1,18 @@
+Field cycle_plan_no_data_display__v (
+   label('CYCLE_PLAN_NO_DATA_DISPLAY'),
+   type('Boolean'),
+   active(true),
+   description('Enables the display of a message to the user in the Account Cycle Plan when no cycle plan data exists for the account.  Default value is checked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(66),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

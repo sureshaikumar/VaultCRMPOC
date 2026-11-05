@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction late_submission_state__v.update_recurring_useraction__v (
+   label('Update Recurring Question Response'),
+   rule(@rule.xml),
+   order(2000)
+);

@@ -1,0 +1,5 @@
+Picklistentry checked_in__sys (
+   value('Checked In'),
+   order(5),
+   active(true)
+);

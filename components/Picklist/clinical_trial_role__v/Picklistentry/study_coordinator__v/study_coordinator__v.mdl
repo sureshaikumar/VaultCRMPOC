@@ -1,0 +1,5 @@
+Picklistentry study_coordinator__v (
+   value('Study Coordinator'),
+   order(3),
+   active(true)
+);

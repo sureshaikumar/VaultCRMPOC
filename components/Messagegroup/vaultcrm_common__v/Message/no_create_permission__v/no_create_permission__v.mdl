@@ -1,0 +1,6 @@
+Message no_create_permission__v (
+   label(),
+   active(true),
+   default_value('User does not have create permission for ${label}.'),
+   system_managed(false)
+);

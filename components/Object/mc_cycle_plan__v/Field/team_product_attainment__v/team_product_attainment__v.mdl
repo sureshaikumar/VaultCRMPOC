@@ -1,0 +1,23 @@
+Field team_product_attainment__v (
+   label('Team Product Attainment'),
+   type('Number'),
+   subtype('Percent'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9999999.99),
+   min_value(0),
+   scale(2),
+   help_content('Calculated percentage of Team Product Interactions Earned / Team Product Interactions Goal'),
+   list_column(false),
+   order(32),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask('PercentFormat()'),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry promotion_allowed__v (
+   value('Promotion Allowed'),
+   order(0),
+   active(true)
+);

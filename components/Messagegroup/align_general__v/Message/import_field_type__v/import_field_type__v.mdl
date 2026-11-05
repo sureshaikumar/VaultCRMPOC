@@ -1,0 +1,6 @@
+Message import_field_type__v (
+   label(),
+   active(true),
+   default_value('Align Field Type'),
+   system_managed(false)
+);

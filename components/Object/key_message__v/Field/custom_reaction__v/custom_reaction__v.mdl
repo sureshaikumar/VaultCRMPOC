@@ -1,0 +1,19 @@
+Field custom_reaction__v (
+   label('Custom Reaction'),
+   type('String'),
+   active(true),
+   description('Comma Separated List of available reactions for a key message. If this field is empty, the default values from the Call2_Key_Messages_vod.Reaction_vod picklist will be used. Use ",a,b,c" to have the default value be blank.'),
+   required(false),
+   unique(false),
+   max_length(600),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,10 @@
+RECREATE Jobmetadata events_management_record_role_job__v (
+   label('Event Management Record Role Job'),
+   active(true),
+   chunk_size(1),
+   description('Job for assigning team members to event record roles'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.eventsmanagement.jobs.EventsManagementRecordRoleJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

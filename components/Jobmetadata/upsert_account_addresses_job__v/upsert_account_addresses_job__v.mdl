@@ -1,0 +1,10 @@
+RECREATE Jobmetadata upsert_account_addresses_job__v (
+   label('Upsert Account Addresses Job'),
+   active(true),
+   chunk_size(25),
+   description('An SDK job that creates or updates addresses for accounts'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.accountmanagement.jobs.UpsertAccountAddressesJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

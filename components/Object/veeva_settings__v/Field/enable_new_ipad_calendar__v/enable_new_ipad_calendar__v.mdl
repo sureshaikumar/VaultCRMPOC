@@ -1,0 +1,18 @@
+Field enable_new_ipad_calendar__v (
+   label('Enable New iPad Calendar'),
+   type('Boolean'),
+   active(true),
+   description('Enable the new calendar and scheduler for the iPad.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(144),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

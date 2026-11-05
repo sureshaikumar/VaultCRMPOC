@@ -1,0 +1,6 @@
+Message enter_chat_name__v (
+   label(),
+   active(true),
+   default_value('Enter name'),
+   system_managed(false)
+);

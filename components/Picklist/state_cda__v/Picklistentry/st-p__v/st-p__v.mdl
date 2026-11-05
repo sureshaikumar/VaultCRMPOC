@@ -1,0 +1,6 @@
+Picklistentry st-p__v (
+   value('Príncipe'),
+   order(4267),
+   active(true),
+   controlling_entries('st__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation em_speaker__v.speaker_photo_file__v (
+   label('Speaker Photo File'),
+   active(true),
+   expression('If(IsBlank(photo_file__v) || (FileSize(photo_file__v) < 2097152 && Contains("image/png, image/jpg, image/jpeg" , MimeType(photo_file__v))), true, false)'),
+   description('Restricts the speaker photo file size when uploaded.'),
+   error_message('Speaker photo file size must be less than 2 MB with file type: .jpeg, .jpg, or .png.'),
+   error_location('photo_file__v')
+);

@@ -1,0 +1,19 @@
+Field payer_plan__v (
+   label('Payer Plan'),
+   type('String'),
+   active(true),
+   description('The textual representation of the Payer Plan for a Sales Transaction record.  Used with files such as Plantrak.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(223),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

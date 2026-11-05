@@ -1,0 +1,4 @@
+Typefield aln_clone_source_mc_cycle_channel__v (
+   source('custom'),
+   required(false)
+);

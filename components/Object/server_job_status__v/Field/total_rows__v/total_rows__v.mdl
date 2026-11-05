@@ -1,0 +1,23 @@
+Field total_rows__v (
+   label('Total Rows'),
+   type('Number'),
+   active(true),
+   description('Total number of rows to process for the job. This value is set by the job.'),
+   required(false),
+   unique(false),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

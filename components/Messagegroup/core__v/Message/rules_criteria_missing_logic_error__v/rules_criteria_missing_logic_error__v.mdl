@@ -1,0 +1,6 @@
+Message rules_criteria_missing_logic_error__v (
+   label(),
+   active(true),
+   default_value('Criteria missing from logic: ${criteria_numbers}.'),
+   system_managed(false)
+);

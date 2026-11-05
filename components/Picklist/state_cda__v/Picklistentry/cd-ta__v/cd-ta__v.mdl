@@ -1,0 +1,6 @@
+Picklistentry cd-ta__v (
+   value('Tanganyika'),
+   order(595),
+   active(true),
+   controlling_entries('cd__v')
+);

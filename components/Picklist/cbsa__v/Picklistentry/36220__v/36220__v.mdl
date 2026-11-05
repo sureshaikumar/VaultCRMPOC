@@ -1,0 +1,5 @@
+Picklistentry 36220__v (
+   value('Odessa, TX Metropolitan Statistical Area'),
+   order(379),
+   active(true)
+);

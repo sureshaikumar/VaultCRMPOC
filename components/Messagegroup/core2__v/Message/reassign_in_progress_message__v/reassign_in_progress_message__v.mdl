@@ -1,0 +1,6 @@
+Message reassign_in_progress_message__v (
+   label(),
+   active(true),
+   default_value('Targets are currently being reassigned for this Business Event.'),
+   system_managed(false)
+);

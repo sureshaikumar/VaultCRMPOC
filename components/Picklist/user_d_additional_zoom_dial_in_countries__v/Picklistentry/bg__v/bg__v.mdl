@@ -1,0 +1,5 @@
+Picklistentry bg__v (
+   value('BG'),
+   order(10),
+   active(true)
+);

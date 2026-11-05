@@ -1,0 +1,6 @@
+Message select_options_hint__v (
+   label(),
+   active(true),
+   default_value('Start typing to see options...'),
+   system_managed(false)
+);

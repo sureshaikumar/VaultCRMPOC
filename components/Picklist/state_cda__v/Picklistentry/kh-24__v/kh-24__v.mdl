@@ -1,0 +1,6 @@
+Picklistentry kh-24__v (
+   value('Krong Pailin [Krŏng Pailĭn]'),
+   order(2426),
+   active(true),
+   controlling_entries('kh__v')
+);

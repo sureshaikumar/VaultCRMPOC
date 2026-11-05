@@ -1,0 +1,6 @@
+Picklistentry do-21__v (
+   value('San Cristóbal'),
+   order(960),
+   active(true),
+   controlling_entries('do__v')
+);

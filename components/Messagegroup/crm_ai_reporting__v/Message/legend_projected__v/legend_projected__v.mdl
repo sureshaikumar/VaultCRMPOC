@@ -1,0 +1,6 @@
+Message legend_projected__v (
+   label(),
+   active(true),
+   default_value('Projected pace'),
+   system_managed(false)
+);

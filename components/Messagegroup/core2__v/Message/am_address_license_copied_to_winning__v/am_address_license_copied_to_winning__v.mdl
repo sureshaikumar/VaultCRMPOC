@@ -1,0 +1,6 @@
+Message am_address_license_copied_to_winning__v (
+   label(),
+   active(true),
+   default_value('License information is copied to the winning account where valid.'),
+   system_managed(false)
+);

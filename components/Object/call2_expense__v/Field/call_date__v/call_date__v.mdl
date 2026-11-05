@@ -1,0 +1,17 @@
+Field call_date__v (
+   label('Date'),
+   type('Date'),
+   active(true),
+   description('The date of the call it was recorded for.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

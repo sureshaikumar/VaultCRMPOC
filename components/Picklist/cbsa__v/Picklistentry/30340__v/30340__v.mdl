@@ -1,0 +1,5 @@
+Picklistentry 30340__v (
+   value('Lewiston-Auburn, ME Metropolitan Statistical Area'),
+   order(451),
+   active(true)
+);

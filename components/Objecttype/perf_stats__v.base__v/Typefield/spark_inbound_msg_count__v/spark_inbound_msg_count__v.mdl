@@ -1,0 +1,4 @@
+Typefield spark_inbound_msg_count__v (
+   source('standard'),
+   required(true)
+);

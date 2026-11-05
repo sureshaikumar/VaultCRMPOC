@@ -1,0 +1,6 @@
+Picklistentry cavmp__v (
+   value('Cardiology and Vascular Medicine Pediatric Cardiology and Congenital Heart Disease'),
+   order(160),
+   active(true),
+   controlling_entries('id__v')
+);

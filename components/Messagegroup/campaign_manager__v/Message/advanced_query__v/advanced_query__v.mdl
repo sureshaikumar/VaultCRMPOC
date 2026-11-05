@@ -1,0 +1,6 @@
+Message advanced_query__v (
+   label(),
+   active(true),
+   default_value('Advanced Query'),
+   system_managed(false)
+);

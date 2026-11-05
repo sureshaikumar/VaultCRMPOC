@@ -1,0 +1,6 @@
+Message field_mapping_import_info__v (
+   label(),
+   active(true),
+   default_value('A full import will occur for this object during the next CRM import due to changes in the field mapping.'),
+   system_managed(false)
+);

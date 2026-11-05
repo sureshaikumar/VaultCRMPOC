@@ -1,0 +1,6 @@
+Picklistentry nsnne__v (
+   value('Neurosurgery Spinal Neurosurgery (Neurospine)'),
+   order(1047),
+   active(true),
+   controlling_entries('id__v')
+);

@@ -1,0 +1,6 @@
+Message email_draft_activity__v (
+   label(),
+   active(true),
+   default_value('Email Draft'),
+   system_managed(false)
+);

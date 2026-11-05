@@ -1,0 +1,4 @@
+Typefield minimum_spend_limit_corpv__sys (
+   source('standard'),
+   required(false)
+);

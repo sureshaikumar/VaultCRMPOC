@@ -1,0 +1,5 @@
+Picklistentry hstl__v (
+   value('Highly Specialized Technical Level'),
+   order(99),
+   active(true)
+);

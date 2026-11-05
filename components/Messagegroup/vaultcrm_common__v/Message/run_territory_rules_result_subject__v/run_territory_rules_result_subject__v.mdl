@@ -1,0 +1,6 @@
+Message run_territory_rules_result_subject__v (
+   label(),
+   active(true),
+   default_value('Territory Rules Processing Results'),
+   system_managed(false)
+);

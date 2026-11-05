@@ -1,0 +1,6 @@
+Picklistentry th-61__v (
+   value('Uthai Thani'),
+   order(4376),
+   active(true),
+   controlling_entries('th__v')
+);

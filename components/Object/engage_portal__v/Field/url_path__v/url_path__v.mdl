@@ -1,0 +1,19 @@
+Field url_path__v (
+   label('URL Path'),
+   type('String'),
+   active(true),
+   description('The unique URL path for a My Engage Portal.'),
+   required(true),
+   unique(true),
+   max_length(55),
+   help_content(),
+   list_column(false),
+   order(28),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

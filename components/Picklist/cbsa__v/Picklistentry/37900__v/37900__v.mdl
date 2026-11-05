@@ -1,0 +1,5 @@
+Picklistentry 37900__v (
+   value('Peoria, IL Metropolitan Statistical Area'),
+   order(702),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry odamr__v (
+   value('Oral, Dental and Maxillofacial Radiology'),
+   order(1179),
+   active(true),
+   controlling_entries('tr__v')
+);

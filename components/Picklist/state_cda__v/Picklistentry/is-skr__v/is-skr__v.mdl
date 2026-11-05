@@ -1,0 +1,6 @@
+Picklistentry is-skr__v (
+   value('Skagafjörður'),
+   order(2141),
+   active(true),
+   controlling_entries('is__v')
+);

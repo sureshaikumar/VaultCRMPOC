@@ -1,0 +1,6 @@
+Picklistentry ss-jg__v (
+   value('Jonglei'),
+   order(4256),
+   active(true),
+   controlling_entries('ss__v')
+);

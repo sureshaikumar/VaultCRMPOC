@@ -1,0 +1,6 @@
+Message associated_fax_templates__v (
+   label(),
+   active(true),
+   default_value('Associated Fax Templates'),
+   system_managed(false)
+);

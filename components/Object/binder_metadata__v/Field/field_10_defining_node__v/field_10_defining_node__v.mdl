@@ -1,0 +1,19 @@
+Field field_10_defining_node__v (
+   label('Field 10 Defining Node'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(1024),
+   help_content(),
+   list_column(false),
+   order(45),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

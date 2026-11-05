@@ -1,0 +1,8 @@
+Typefield type__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.vmobile_object_configuration_type__v.c__v',
+         'Picklist.vmobile_object_configuration_type__v.f__v',
+         'Picklist.vmobile_object_configuration_type__v.r__v',
+         'Picklist.vmobile_object_configuration_type__v.t__v')
+);

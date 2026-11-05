@@ -1,0 +1,5 @@
+Objectlifecyclestateuseraction open_state__c.complete_useraction__c (
+   label('Complete'),
+   rule(@rule.xml),
+   order(1000)
+);

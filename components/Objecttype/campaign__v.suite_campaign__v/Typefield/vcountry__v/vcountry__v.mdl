@@ -1,0 +1,4 @@
+Typefield vcountry__v (
+   source('standard'),
+   required(true)
+);

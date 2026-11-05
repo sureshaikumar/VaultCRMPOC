@@ -1,0 +1,6 @@
+Picklistentry etnrd__v (
+   value('Endodontic Treatment'),
+   order(509),
+   active(true),
+   controlling_entries('jo__v')
+);

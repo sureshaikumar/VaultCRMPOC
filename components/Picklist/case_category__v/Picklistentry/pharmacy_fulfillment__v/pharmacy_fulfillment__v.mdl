@@ -1,0 +1,5 @@
+Picklistentry pharmacy_fulfillment__v (
+   value('Pharmacy Fulfillment'),
+   order(16),
+   active(true)
+);

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1536555910001">
+      <expression operator="function" qualifier="platform.all.relatedStateTypeCondition">
+        <expression operator="method" qualifier="platform.all.relatedStateTypeCondition" type="string">
+          <value>none_equals</value>
+        </expression>
+        <expression operator="argumentGroup" type="string">
+          <value>ARGUMENT_GROUP1</value>
+          <expression operator="argument" type="string">
+            <value>base:workflow:multidoc_rejected</value>
+          </expression>
+        </expression>
+      </expression>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.approval_notification__c</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+    <vwf:rule>
+      <actions>
+        <action type="veeva.ecm.flow.application.impl.decision.FlowNextStepAction">
+          <nextSteps>
+            <nextStep>Objectworkflowstep.revise_rejected_documents__c</nextStep>
+          </nextSteps>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

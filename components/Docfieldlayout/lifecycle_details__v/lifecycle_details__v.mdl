@@ -1,0 +1,10 @@
+RECREATE Docfieldlayout lifecycle_details__v (
+   label('Lifecycle Details'),
+   active(true),
+   icon('UNDEFINED'),
+   order(3),
+   fields(),
+   show_in_edit_mode(false),
+   allow_field_assignment(false),
+   panel('Documentpanel.doc_info_information__sys')
+);

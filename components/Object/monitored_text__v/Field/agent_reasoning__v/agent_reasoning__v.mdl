@@ -1,0 +1,17 @@
+Field agent_reasoning__v (
+   label('Agent Reasoning'),
+   type('LongText'),
+   active(true),
+   description('Contains agent reasoning for the agent flagged phrase'),
+   required(false),
+   max_length(32000),
+   help_content('Contains agent reasoning for the agent flagged phrase'),
+   list_column(false),
+   order(45),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

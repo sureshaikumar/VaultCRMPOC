@@ -1,0 +1,19 @@
+Field unique_event_id__v (
+   label('Unique Event ID'),
+   type('String'),
+   active(true),
+   description('This field is a composite key used to enforce uniqueness and prevent duplicate email activity records.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(68),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

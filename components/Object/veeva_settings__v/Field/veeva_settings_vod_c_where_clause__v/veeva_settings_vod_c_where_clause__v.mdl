@@ -1,0 +1,20 @@
+Field veeva_settings_vod_c_where_clause__v (
+   label('VEEVA_SETTINGS_VOD__C_WHERE_CLAUSE'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content('Where clause used to filter the Veeva Settings records downloaded to the VMobile BlackBerry application.'),
+   list_column(false),
+   order(305),
+   default_value('"VEEVA_SETTINGS_VOD__C_WHERE_CLAUSE;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

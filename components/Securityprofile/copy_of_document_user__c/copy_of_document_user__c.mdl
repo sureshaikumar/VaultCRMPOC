@@ -1,0 +1,6 @@
+RECREATE Securityprofile copy_of_document_user__c (
+   label('Document User'),
+   active(true),
+   description('System provided security profile for Document Users. Users with this profile can perform most document actions.'),
+   permission_sets('full_user_actions__c')
+);

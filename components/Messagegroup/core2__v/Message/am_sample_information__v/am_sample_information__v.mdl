@@ -1,0 +1,6 @@
+Message am_sample_information__v (
+   label(),
+   active(true),
+   default_value('Sample Information'),
+   system_managed(false)
+);

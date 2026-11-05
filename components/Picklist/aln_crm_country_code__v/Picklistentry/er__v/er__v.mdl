@@ -1,0 +1,5 @@
+Picklistentry er__v (
+   value('Eritrea'),
+   order(66),
+   active(true)
+);

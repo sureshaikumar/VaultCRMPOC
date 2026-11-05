@@ -1,0 +1,5 @@
+Picklistentry mos__v (
+   value('Mossi'),
+   order(229),
+   active(false)
+);

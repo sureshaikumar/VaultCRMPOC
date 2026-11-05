@@ -1,0 +1,17 @@
+Field cascade__v (
+   label('Cascade Down Hierarchy'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(true),
+   checkbox(false),
+   help_content('Applies rule to this territory plus its descendants.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

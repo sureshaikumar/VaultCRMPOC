@@ -1,0 +1,6 @@
+Picklistentry fmamv__v (
+   value('Forensic Medicine and Medicolegal Studies Forensic Pathology'),
+   order(560),
+   active(true),
+   controlling_entries('id__v')
+);

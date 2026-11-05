@@ -1,0 +1,18 @@
+Field collect_prescription_information__v (
+   label('Collect Prescription Information'),
+   type('Boolean'),
+   active(true),
+   description('Indicates if the patient intake process includes Prescription Information and if following patient enrollment the ''Prescriptions'' helper tab is visible when viewing the Patient Overview or Task Cases and the Prescriptions summary section appears within the Key Journey Details helper tab.'),
+   required(false),
+   checkbox(false),
+   help_content(),
+   list_column(true),
+   order(26),
+   default_value('true'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

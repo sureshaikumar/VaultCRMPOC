@@ -1,0 +1,6 @@
+Message save_or_discard_changes_and_try_again__v (
+   label(),
+   active(true),
+   default_value('Please save or discard the changes and try again.'),
+   system_managed(false)
+);

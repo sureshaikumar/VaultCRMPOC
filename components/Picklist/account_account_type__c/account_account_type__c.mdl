@@ -1,0 +1,11 @@
+RECREATE Picklist account_account_type__c (
+   label('Account Type'),
+   active(true),
+   Picklistentry(@Picklistentry/pbm__c.mdl),
+   Picklistentry(@Picklistentry/network__c.mdl),
+   Picklistentry(@Picklistentry/admin_org__c.mdl),
+   Picklistentry(@Picklistentry/specialty_org__c.mdl),
+   Picklistentry(@Picklistentry/plan_provider__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Message invalid_iam_messaging_role_arn__v (
+   label(),
+   active(true),
+   default_value('The IAM Messaging Role name must be ''veeva-vcrm-sms-messaging-role''. Please update your role name in AWS and try again.'),
+   system_managed(false)
+);

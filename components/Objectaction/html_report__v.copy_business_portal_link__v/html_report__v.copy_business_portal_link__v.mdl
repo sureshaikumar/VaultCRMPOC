@@ -1,0 +1,8 @@
+RECREATE Objectaction html_report__v.copy_business_portal_link__v (
+   label('Copy Business Portal Link'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.myinsights.actions.CopyBusinessPortalLinkAction'),
+   active(true),
+   available_all_states(true)
+);

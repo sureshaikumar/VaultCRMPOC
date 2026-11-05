@@ -1,0 +1,6 @@
+Picklistentry prmef__v (
+   value('Pediatric Respiratory Medicine'),
+   order(1452),
+   active(true),
+   controlling_entries('mt__v')
+);

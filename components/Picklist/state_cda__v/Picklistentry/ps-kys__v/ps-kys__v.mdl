@@ -1,0 +1,6 @@
+Picklistentry ps-kys__v (
+   value('Khan Yunis'),
+   order(3645),
+   active(true),
+   controlling_entries('ps__v')
+);

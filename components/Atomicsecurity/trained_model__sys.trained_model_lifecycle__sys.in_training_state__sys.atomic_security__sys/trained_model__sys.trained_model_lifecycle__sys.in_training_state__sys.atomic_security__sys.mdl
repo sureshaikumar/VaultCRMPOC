@@ -1,0 +1,7 @@
+RECREATE Atomicsecurity trained_model__sys.trained_model_lifecycle__sys.in_training_state__sys.atomic_security__sys (
+   label('Trained Model-Lifecycle-In Training'),
+   active(true),
+   object('Object.trained_model__sys'),
+   object_lifecycle('Objectlifecycle.trained_model_lifecycle__sys'),
+   state('Objectlifecyclestate.in_training_state__sys')
+);

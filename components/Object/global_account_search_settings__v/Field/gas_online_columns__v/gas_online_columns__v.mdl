@@ -1,0 +1,20 @@
+Field gas_online_columns__v (
+   label('Online Columns'),
+   type('String'),
+   active(true),
+   description('Identifies the Veeva Message used to define the columns that will be displayed in the search results for Global Account Search online.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(14),
+   default_value('"GAS_ONLINE_COLUMNS;;Global Account Search"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

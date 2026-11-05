@@ -1,0 +1,18 @@
+Field when_will_gpo_review_this_product__c (
+   label('When will GPO review this product?'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('When will GPO review this product?'),
+   list_column(false),
+   order(186),
+   multi_value(false),
+   picklist('Picklist.when_will_gpo_review_this_product__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

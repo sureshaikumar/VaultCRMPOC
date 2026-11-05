@@ -1,0 +1,5 @@
+Picklistentry glv__v (
+   value('Manx'),
+   order(213),
+   active(false)
+);

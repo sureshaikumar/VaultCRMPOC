@@ -1,0 +1,6 @@
+Picklistentry pmeen__v (
+   value('Penitentiary Medicine'),
+   order(1490),
+   active(true),
+   controlling_entries('lb__v')
+);

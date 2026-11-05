@@ -1,0 +1,6 @@
+Picklistentry cv-ts__v (
+   value('Tarrafal de São Nicolau'),
+   order(806),
+   active(true),
+   controlling_entries('cv__v')
+);

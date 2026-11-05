@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.kit_item_list_price_check__v (
+   label('Kit Item List Price Check'),
+   active(true),
+   expression('Not(
+     And(
+         object_type__vr.api_name__v = ''list_price_rule__v'',
+         product__vr.product_type__v = ''kit_item__v'',
+         list_price__v <= 0
+    )
+)'),
+   description('Throws an error if the Pricing Rule is for a Kit Item and has a List Price of 0'),
+   error_message('Kit Items must have a List Price greater than 0'),
+   error_location('list_price__v')
+);

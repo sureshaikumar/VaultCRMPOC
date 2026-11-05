@@ -1,0 +1,5 @@
+Picklistentry olc_medical_inquiry__sys (
+   value('Medical Inquiry'),
+   order(52),
+   active(true)
+);

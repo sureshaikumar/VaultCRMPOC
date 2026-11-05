@@ -1,0 +1,6 @@
+Message recent_filters__v (
+   label(),
+   active(true),
+   default_value('Recent Filters'),
+   system_managed(false)
+);

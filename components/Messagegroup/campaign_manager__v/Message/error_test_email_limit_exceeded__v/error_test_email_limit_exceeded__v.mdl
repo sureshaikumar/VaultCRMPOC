@@ -1,0 +1,6 @@
+Message error_test_email_limit_exceeded__v (
+   label(),
+   active(true),
+   default_value('Limit exceeded. Enter no more than 10 email addresses.'),
+   system_managed(false)
+);

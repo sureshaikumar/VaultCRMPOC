@@ -1,0 +1,10 @@
+RECREATE Jobmetadata update_territory_assignments_job__v (
+   label('Update territory assignments'),
+   active(true),
+   chunk_size(1),
+   description('This SDK job creates or updates account territories after successfully generating assignments'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.territorymanagement.assignmentrules.jobs.UpdateTerritoryAssignments'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

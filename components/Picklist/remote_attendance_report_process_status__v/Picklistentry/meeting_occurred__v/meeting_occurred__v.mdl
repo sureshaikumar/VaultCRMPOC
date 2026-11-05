@@ -1,0 +1,5 @@
+Picklistentry meeting_occurred__v (
+   value('Meeting Occurred'),
+   order(1),
+   active(true)
+);

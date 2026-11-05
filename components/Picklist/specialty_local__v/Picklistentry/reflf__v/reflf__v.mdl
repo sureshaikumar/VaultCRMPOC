@@ -1,0 +1,6 @@
+Picklistentry reflf__v (
+   value('Reflexotherapy'),
+   order(1717),
+   active(true),
+   controlling_entries('am__v')
+);

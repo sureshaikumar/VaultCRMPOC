@@ -1,0 +1,6 @@
+Message solving_the_case__v (
+   label(),
+   active(true),
+   default_value('Solving the case.'),
+   system_managed(false)
+);

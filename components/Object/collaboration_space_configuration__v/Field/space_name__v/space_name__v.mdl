@@ -1,0 +1,19 @@
+Field space_name__v (
+   label('Teams Space Name'),
+   type('String'),
+   active(true),
+   description('Label displayed for the Team name in Microsoft Teams interfaces.'),
+   required(true),
+   unique(true),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

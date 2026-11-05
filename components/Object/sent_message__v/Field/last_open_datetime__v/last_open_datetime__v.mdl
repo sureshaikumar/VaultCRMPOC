@@ -1,0 +1,17 @@
+Field last_open_datetime__v (
+   label('Last Open Datetime'),
+   type('DateTime'),
+   active(true),
+   description('The last date time when the account open the content in WeChat'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(12),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

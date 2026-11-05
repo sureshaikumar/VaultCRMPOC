@@ -1,0 +1,17 @@
+Field last_iphone_sync__v (
+   label('Last iPhone Sync'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The Date/Time of the last successful iPhone Sync made by each user.'),
+   list_column(false),
+   order(83),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

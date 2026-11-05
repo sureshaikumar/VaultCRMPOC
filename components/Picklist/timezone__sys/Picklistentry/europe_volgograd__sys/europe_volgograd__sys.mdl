@@ -1,0 +1,5 @@
+Picklistentry europe_volgograd__sys (
+   value('(GMT+03:00) Moscow Standard Time (Europe/Volgograd)'),
+   order(205),
+   active(true)
+);

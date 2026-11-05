@@ -1,0 +1,6 @@
+Picklistentry kr-26__v (
+   value('Busan'),
+   order(2471),
+   active(true),
+   controlling_entries('kr__v')
+);

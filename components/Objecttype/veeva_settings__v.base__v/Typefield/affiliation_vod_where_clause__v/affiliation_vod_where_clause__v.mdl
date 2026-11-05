@@ -1,0 +1,4 @@
+Typefield affiliation_vod_where_clause__v (
+   source('standard'),
+   required(false)
+);

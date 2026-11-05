@@ -1,0 +1,19 @@
+Field unique_id__sys (
+   label('Related Record Unique ID'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('This is the unique identifier for the record this Prediction applies to.'),
+   list_column(true),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

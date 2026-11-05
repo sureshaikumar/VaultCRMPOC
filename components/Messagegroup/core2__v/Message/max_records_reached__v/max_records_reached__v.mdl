@@ -1,0 +1,6 @@
+Message max_records_reached__v (
+   label(),
+   active(true),
+   default_value('Max ${plural_object_label} Reached'),
+   system_managed(false)
+);

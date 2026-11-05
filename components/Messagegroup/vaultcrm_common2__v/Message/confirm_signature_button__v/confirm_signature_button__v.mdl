@@ -1,0 +1,6 @@
+Message confirm_signature_button__v (
+   label(),
+   active(true),
+   default_value('Confirm Signature'),
+   system_managed(false)
+);

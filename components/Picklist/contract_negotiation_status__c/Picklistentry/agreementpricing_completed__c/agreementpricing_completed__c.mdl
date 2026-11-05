@@ -1,0 +1,5 @@
+Picklistentry agreementpricing_completed__c (
+   value('Agreement/Pricing Completed'),
+   order(2),
+   active(true)
+);

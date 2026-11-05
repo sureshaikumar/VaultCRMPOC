@@ -1,0 +1,6 @@
+Message download_attachment__v (
+   label(),
+   active(true),
+   default_value('Download attachment'),
+   system_managed(false)
+);

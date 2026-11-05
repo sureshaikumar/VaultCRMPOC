@@ -1,0 +1,6 @@
+Message rule_frozen_rules_message__v (
+   label(),
+   active(true),
+   default_value('This preview includes frozen rules. Rules in the Frozen lifecycle state will not generate new assignments, but their preexisting assignments will not be end-dated by this preview even if they are no longer valid.'),
+   system_managed(false)
+);

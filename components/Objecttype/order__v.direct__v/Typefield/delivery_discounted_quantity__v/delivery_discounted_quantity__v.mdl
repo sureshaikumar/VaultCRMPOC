@@ -1,0 +1,4 @@
+Typefield delivery_discounted_quantity__v (
+   source('custom'),
+   required(false)
+);

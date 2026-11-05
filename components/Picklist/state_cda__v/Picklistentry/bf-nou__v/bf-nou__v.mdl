@@ -1,0 +1,6 @@
+Picklistentry bf-nou__v (
+   value('Noumbiel'),
+   order(355),
+   active(true),
+   controlling_entries('bf__v')
+);

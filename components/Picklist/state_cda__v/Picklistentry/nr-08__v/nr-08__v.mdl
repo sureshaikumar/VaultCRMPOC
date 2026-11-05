@@ -1,0 +1,6 @@
+Picklistentry nr-08__v (
+   value('Denigomodu'),
+   order(3419),
+   active(true),
+   controlling_entries('nr__v')
+);

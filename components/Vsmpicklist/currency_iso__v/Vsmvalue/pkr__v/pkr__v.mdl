@@ -1,0 +1,10 @@
+Vsmvalue pkr__v (
+   label('PKR'),
+   active(true),
+   description('The official currency of Pakistan (PKR), used for all financial and commercial transactions in the country and a key currency in South Asian markets.'),
+   synonyms('Pakistani rupee',
+         'Pakistan rupee',
+         'PKR'),
+   target('pkr__sys'),
+   target_label('PKR')
+);

@@ -1,0 +1,6 @@
+Picklistentry ni-es__v (
+   value('Estelí'),
+   order(3363),
+   active(true),
+   controlling_entries('ni__v')
+);

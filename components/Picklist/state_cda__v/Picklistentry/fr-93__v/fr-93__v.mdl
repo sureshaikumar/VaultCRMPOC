@@ -1,0 +1,6 @@
+Picklistentry fr-93__v (
+   value('Seine-Saint-Denis'),
+   order(1411),
+   active(true),
+   controlling_entries('fr__v')
+);

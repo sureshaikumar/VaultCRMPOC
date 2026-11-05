@@ -1,0 +1,18 @@
+Field entity_run_status__sys (
+   label('Entity Run Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(13),
+   multi_value(false),
+   picklist('Picklist.entity_run_status__sys'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

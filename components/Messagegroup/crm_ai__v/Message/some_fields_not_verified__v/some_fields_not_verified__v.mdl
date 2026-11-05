@@ -1,0 +1,6 @@
+Message some_fields_not_verified__v (
+   label(),
+   active(true),
+   default_value('Some fields were not verified by the Text Monitoring Agent. Do you wish to continue?'),
+   system_managed(false)
+);

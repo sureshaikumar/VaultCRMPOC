@@ -1,0 +1,6 @@
+Message model_rule_preview_discarded__v (
+   label(),
+   active(true),
+   default_value('Model rule preview discarded for ${entity_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message number_of_unchanged__v (
+   label(),
+   active(true),
+   default_value('${number_of_unchanged} unchanged'),
+   system_managed(false)
+);

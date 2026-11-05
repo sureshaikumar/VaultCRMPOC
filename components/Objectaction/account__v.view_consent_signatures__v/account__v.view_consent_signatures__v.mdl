@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.view_consent_signatures__v (
+   label('View Consent Signatures'),
+   description('User action to view the Account Signatures for the consents.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.account.actions.ViewConsentSignaturesAction'),
+   active(true),
+   available_all_states(true)
+);

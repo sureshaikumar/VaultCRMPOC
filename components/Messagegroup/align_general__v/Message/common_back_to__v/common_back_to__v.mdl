@@ -1,0 +1,6 @@
+Message common_back_to__v (
+   label(),
+   active(true),
+   default_value('Back to'),
+   system_managed(false)
+);

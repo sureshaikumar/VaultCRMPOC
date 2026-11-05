@@ -1,0 +1,5 @@
+Picklistentry mai (
+   value('Maithili'),
+   order(246),
+   active(true)
+);

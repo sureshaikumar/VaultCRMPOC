@@ -1,0 +1,6 @@
+Message documentcheck_label__sys (
+   label(),
+   active(true),
+   default_value('Document Check'),
+   system_managed(false)
+);

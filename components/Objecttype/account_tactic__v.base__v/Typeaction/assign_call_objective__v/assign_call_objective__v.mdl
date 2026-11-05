@@ -1,0 +1,3 @@
+Typeaction assign_call_objective__v (
+   action('account_tactic__v.assign_call_objective__v')
+);

@@ -1,0 +1,6 @@
+Message please_complete_scheduled__v (
+   label(),
+   active(true),
+   default_value('Please complete Scheduled targets before deactivating this target list.'),
+   system_managed(false)
+);

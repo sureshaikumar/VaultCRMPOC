@@ -1,0 +1,8 @@
+RECREATE Objectaction user__sys.convert_security_policy__sys (
+   label('Convert Security Policy'),
+   description('Convert user’s security policy to values not allowed when directly editing a user. Restrictions apply.'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.user.ConvertSecurityPolicy'),
+   active(true),
+   available_all_states(true)
+);

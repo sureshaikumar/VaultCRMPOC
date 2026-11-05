@@ -1,0 +1,6 @@
+Picklistentry dz-56__v (
+   value('Djanet'),
+   order(1037),
+   active(true),
+   controlling_entries('dz__v')
+);

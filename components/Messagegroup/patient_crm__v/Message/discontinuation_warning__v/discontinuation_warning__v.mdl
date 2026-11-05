@@ -1,0 +1,6 @@
+Message discontinuation_warning__v (
+   label(),
+   active(true),
+   default_value('Once a Patient has been discontinued, they can no longer be advanced on this Patient Journey. This cannot be undone.'),
+   system_managed(false)
+);

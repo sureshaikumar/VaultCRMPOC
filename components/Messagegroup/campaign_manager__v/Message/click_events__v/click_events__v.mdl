@@ -1,0 +1,6 @@
+Message click_events__v (
+   label(),
+   active(true),
+   default_value('Click Events'),
+   system_managed(false)
+);

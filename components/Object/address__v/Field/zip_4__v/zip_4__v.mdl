@@ -1,0 +1,19 @@
+Field zip_4__v (
+   label('Zip + 4'),
+   type('String'),
+   active(true),
+   description('ZIP + 4 of the Address'),
+   required(false),
+   unique(false),
+   max_length(4),
+   help_content(),
+   list_column(false),
+   order(77),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

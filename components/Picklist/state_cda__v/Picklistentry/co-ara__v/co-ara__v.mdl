@@ -1,0 +1,6 @@
+Picklistentry co-ara__v (
+   value('Arauca'),
+   order(729),
+   active(true),
+   controlling_entries('co__v')
+);

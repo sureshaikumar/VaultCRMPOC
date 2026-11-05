@@ -1,0 +1,5 @@
+Picklistentry kbd (
+   value('Kabardian'),
+   order(209),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message mc_cycle_targeting_rules__v (
+   label(),
+   active(true),
+   default_value('Targeting Rules'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message resolve_errors_before_proceeding__v (
+   label(),
+   active(true),
+   default_value('The following errors must be resolved before proceeding:'),
+   system_managed(false)
+);

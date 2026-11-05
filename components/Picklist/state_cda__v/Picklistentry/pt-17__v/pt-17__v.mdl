@@ -1,0 +1,6 @@
+Picklistentry pt-17__v (
+   value('Vila Real'),
+   order(3670),
+   active(true),
+   controlling_entries('pt__v')
+);

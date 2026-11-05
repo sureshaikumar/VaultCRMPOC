@@ -1,0 +1,18 @@
+Field previously_submitted__v (
+   label('Previously Submitted?'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Indicates if the Medical Inquiry was ever submitted. Once a Medical Inquiry is submitted, this field will always remain checked (enforced via trigger).'),
+   list_column(false),
+   order(42),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

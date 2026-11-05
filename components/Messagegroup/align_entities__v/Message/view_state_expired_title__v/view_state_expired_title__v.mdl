@@ -1,0 +1,6 @@
+Message view_state_expired_title__v (
+   label(),
+   active(true),
+   default_value('View State Expired'),
+   system_managed(false)
+);

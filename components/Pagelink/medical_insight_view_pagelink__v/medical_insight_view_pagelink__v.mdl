@@ -1,0 +1,11 @@
+RECREATE Pagelink medical_insight_view_pagelink__v (
+   label('Medical Insight View'),
+   description('Redirects View request to the Medical Insight Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/view?id={{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.medical_insight__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.medical_insight_detail_page__v')
+);

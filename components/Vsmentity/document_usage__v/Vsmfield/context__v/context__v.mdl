@@ -1,0 +1,14 @@
+Vsmfield context__v (
+   label('Context'),
+   active(true),
+   description('Provides additional context about the circumstances under which the document was used, such as a specific meeting, campaign, or customer interaction. Useful for understanding the business scenario driving document consumption.'),
+   example_values(),
+   synonyms('usage context',
+         'scenario',
+         'situation',
+         'engagement context'),
+   target('context__v'),
+   target_label('Context'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Message select_object_first__v (
+   label(),
+   active(true),
+   default_value('Select Object First'),
+   system_managed(false)
+);

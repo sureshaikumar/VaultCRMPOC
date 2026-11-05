@@ -1,0 +1,46 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.vault_package_step__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="step_label__v" />
+            <vault:field reference="step_type__v" />
+            <vault:field reference="step_name__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="deployment_status__v" />
+            <vault:field reference="vault_package__v" />
+            <vault:field reference="stop_on_error__v" />
+            <vault:field reference="step_required__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Components" name="components__c">
+        <vault:relatedObject relationship="vault_step_component__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="199px" />
+            <vault:field reference="component_name__v" width="199px" />
+            <vault:field reference="component_type__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Data" name="data_with_record_migration_mode__c">
+        <vault:relatedObject relationship="vault_step_data__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="object__v" width="200px" />
+            <vault:field reference="data_type__v" width="200px" />
+            <vault:field reference="data_action__v" width="200px" />
+            <vault:field reference="record_migration_mode__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Code" name="code__c">
+        <vault:relatedObject relationship="vault_step_code__sysr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="199px" />
+            <vault:field reference="deployment_option__sys" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Settings" name="settings__c">
+        <vault:relatedObject relationship="vault_step_setting__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="200px" />
+            <vault:field reference="setting_type__sys" width="200px" />
+        </vault:relatedObject>
+    </vault:section>
+</vault:page>

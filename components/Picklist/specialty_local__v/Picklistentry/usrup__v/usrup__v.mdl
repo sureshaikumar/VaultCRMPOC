@@ -1,0 +1,12 @@
+Picklistentry usrup__v (
+   value('Urological Surgery'),
+   order(1901),
+   active(true),
+   controlling_entries('cm__v',
+         'dz__v',
+         'il__v',
+         'is__v',
+         'kw__v',
+         'sn__v',
+         'tn__v')
+);

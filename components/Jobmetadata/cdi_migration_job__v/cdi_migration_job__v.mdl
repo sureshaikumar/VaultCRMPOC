@@ -1,0 +1,12 @@
+RECREATE Jobmetadata cdi_migration_job__v (
+   label('Call Documented Interest Migration Job'),
+   active(true),
+   chunk_size(500),
+   description('Daily job that migrates documented_interest__v on call2__v records to call2_documented_interest__v join records'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.core.callreport.jobs.CallDocumentedInterestMigrationJob'),
+   queue(),
+   single_instance_states('scheduled',
+      'queued',
+      'running'),
+   timeout_duration()
+);

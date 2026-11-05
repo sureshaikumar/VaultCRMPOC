@@ -1,0 +1,5 @@
+Picklistentry 32620__v (
+   value('McComb, MS Micropolitan Statistical Area'),
+   order(790),
+   active(true)
+);

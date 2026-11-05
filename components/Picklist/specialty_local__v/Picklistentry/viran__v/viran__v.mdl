@@ -1,0 +1,6 @@
+Picklistentry viran__v (
+   value('Vascular Interventional Radiology'),
+   order(1913),
+   active(true),
+   controlling_entries('cz__v')
+);

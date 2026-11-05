@@ -1,0 +1,6 @@
+Picklistentry ng-ab__v (
+   value('Abia'),
+   order(3320),
+   active(true),
+   controlling_entries('ng__v')
+);

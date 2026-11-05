@@ -1,0 +1,6 @@
+Picklistentry bg-03__v (
+   value('Varna'),
+   order(375),
+   active(true),
+   controlling_entries('bg__v')
+);

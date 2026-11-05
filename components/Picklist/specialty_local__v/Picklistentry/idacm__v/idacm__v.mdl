@@ -1,0 +1,6 @@
+Picklistentry idacm__v (
+   value('Infectious Diseases and Clinical Microbiology'),
+   order(759),
+   active(true),
+   controlling_entries('tr__v')
+);

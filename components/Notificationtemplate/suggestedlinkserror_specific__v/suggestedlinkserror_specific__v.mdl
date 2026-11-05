@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate suggestedlinkserror_specific__v (
+   label('suggestedLinksErrorSpecific'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Suggested Links action on "${docNameNoLink}" was unsuccessful'),
+   notification('Suggested Links action on <b><a href= ${docLinkAnnotateMode}>${docNameNoLink}</a></b> was unsuccessful due to:<br/>${failureDetails}'),
+   email_body('Suggested Links action on <b><a href= ${docLinkAnnotateMode}>${docNameNoLink}</a></b> (v${docMajor}.${docMinor}) was unsuccessful due to the following error:<br/>${failureDetails}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

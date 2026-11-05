@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrp:query xmlns:vrp="VaultReport">
+  <vrp:querySettings includeAllVersions="false" />
+  <vrp:select>
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.account__v" />
+    <vrp:selectItem type="PROPERTY" action="NONE" property="call2__v.call_date__v" />
+  </vrp:select>
+  <vrp:where>
+    <vrp:whereItem action="EQ" leftValue="call2__v.call2_status__v" rightValue="saved__v" labelLanguage="en" type="PROPERTY" rightValueType="VALUE" runtime="false" />
+  </vrp:where>
+  <vrp:group>
+    <vrp:groupItem index="0" name="call2__v.account__v" groupBySortOn="call2__v.account__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="COUNT" property="COUNT" display="NUMBER" />
+      </vrp:function>
+    </vrp:groupItem>
+    <vrp:groupItem index="1" name="call2__v.call_date__v" groupBySortOn="call2__v.call_date__v" groupBySortOrder="ASCENDING">
+      <vrp:function>
+        <vrp:selectItem type="FUNCTION" action="COUNT" property="COUNT" display="NUMBER" />
+      </vrp:function>
+    </vrp:groupItem>
+  </vrp:group>
+  <vrp:order />
+</vrp:query>

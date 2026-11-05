@@ -1,0 +1,6 @@
+Picklistentry td-ma__v (
+   value('Māndūl'),
+   order(4312),
+   active(true),
+   controlling_entries('td__v')
+);

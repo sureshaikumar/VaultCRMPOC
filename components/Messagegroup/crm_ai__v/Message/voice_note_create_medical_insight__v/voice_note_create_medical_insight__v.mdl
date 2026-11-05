@@ -1,0 +1,6 @@
+Message voice_note_create_medical_insight__v (
+   label(),
+   active(true),
+   default_value('Create Medical Insight'),
+   system_managed(false)
+);

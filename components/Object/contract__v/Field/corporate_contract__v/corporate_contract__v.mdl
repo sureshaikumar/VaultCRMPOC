@@ -1,0 +1,18 @@
+Field corporate_contract__v (
+   label('Corporate Contract'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('Used to flag contracts that are intended to be used for Speakers that have a Corporate Contract requirement.'),
+   list_column(false),
+   order(37),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

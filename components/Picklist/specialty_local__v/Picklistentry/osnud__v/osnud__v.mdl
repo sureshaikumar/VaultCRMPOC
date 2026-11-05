@@ -1,0 +1,6 @@
+Picklistentry osnud__v (
+   value('Oncological Surgery'),
+   order(1115),
+   active(true),
+   controlling_entries('pl__v')
+);

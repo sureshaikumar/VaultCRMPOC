@@ -1,0 +1,6 @@
+Picklistentry ee-79__v (
+   value('Tartumaa'),
+   order(1137),
+   active(true),
+   controlling_entries('ee__v')
+);

@@ -1,0 +1,6 @@
+Message mc_cycle_channel_source__v (
+   label(),
+   active(true),
+   default_value('Source'),
+   system_managed(false)
+);

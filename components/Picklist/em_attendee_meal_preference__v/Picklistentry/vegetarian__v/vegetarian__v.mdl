@@ -1,0 +1,5 @@
+Picklistentry vegetarian__v (
+   value('Vegetarian'),
+   order(0),
+   active(true)
+);

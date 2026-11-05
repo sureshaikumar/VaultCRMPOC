@@ -1,0 +1,5 @@
+Picklistentry is_in_the_range__v (
+   value('is in the range'),
+   order(18),
+   active(true)
+);

@@ -1,0 +1,22 @@
+RECREATE Notificationtemplate ftp_lsa_uploaded_to_existing_doc__v (
+   label('Large Size Asset Attached'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Large size asset uploaded to - "${docNameNoLink}"'),
+   notification('Your large size asset has been successfully uploaded to the latest version of your target
+document: ${docLatestName}.'),
+   email_body('<p>${recipientTitle} ${recipientName},</p>
+
+<b>Vault: </b>${vaultName}
+<br><b>Document: </b>"${docLatestName}" <br>
+<b>Status: </b>${docStatus}
+
+<p>A large size asset rendition ("${fileName}") has been uploaded to the latest version of
+"${docLatestName}" by ${senderName}.</p>
+
+<p>Access your Vault here: <a href="${uiBaseExtUrl}">${vaultName}</a></p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

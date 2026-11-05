@@ -1,0 +1,10 @@
+RECREATE Picklist print_generation_status__v (
+   label('Print Generation Status'),
+   active(true),
+   Picklistentry(@Picklistentry/generating_file__v.mdl),
+   Picklistentry(@Picklistentry/file_generated_successfully__v.mdl),
+   Picklistentry(@Picklistentry/file_generation_error__v.mdl),
+   Picklistentry(@Picklistentry/awaiting_rendition__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

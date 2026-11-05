@@ -1,0 +1,6 @@
+Message add_account_formulary__v (
+   label(),
+   active(true),
+   default_value('Add an account to view Account Formulary'),
+   system_managed(false)
+);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vwf:stepdetails xmlns:vwf="VeevaVault">
+  <vwf:rules>
+    <vwf:rule key="nt-0-1716400408202">
+      <actions>
+        <action type="platform.all.updateRecordAction">
+          <targetField>Object.inventory_order__v.unlock__v</targetField>
+          <expression>true</expression>
+          <updateType>formula_builder</updateType>
+        </action>
+      </actions>
+    </vwf:rule>
+  </vwf:rules>
+</vwf:stepdetails>

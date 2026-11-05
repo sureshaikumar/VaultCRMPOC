@@ -1,0 +1,6 @@
+Picklistentry nr-13__v (
+   value('Uaboe'),
+   order(3424),
+   active(true),
+   controlling_entries('nr__v')
+);

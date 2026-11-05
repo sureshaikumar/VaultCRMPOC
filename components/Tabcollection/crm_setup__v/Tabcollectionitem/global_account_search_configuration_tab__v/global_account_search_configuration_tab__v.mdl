@@ -1,0 +1,8 @@
+Tabcollectionitem global_account_search_configuration_tab__v (
+   label(),
+   active(true),
+   tabs(),
+   order(10),
+   tab('Tab.global_account_search_configuration_tab__v'),
+   type('Tab')
+);

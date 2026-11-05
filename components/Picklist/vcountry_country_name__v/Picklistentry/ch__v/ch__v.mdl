@@ -1,0 +1,5 @@
+Picklistentry ch__v (
+   value('Switzerland'),
+   order(42),
+   active(true)
+);

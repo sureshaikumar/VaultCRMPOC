@@ -1,0 +1,5 @@
+Picklistentry contracts_discussion__c (
+   value('Contracts Discussion'),
+   order(5),
+   active(true)
+);

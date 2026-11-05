@@ -1,0 +1,19 @@
+Field user_agent__v (
+   label('User Agent'),
+   type('String'),
+   active(true),
+   description('User_Agent_vod captures the user again string of the client triggered in the event, i.e. Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.22'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(24),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

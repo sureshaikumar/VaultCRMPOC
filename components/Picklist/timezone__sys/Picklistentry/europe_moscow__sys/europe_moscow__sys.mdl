@@ -1,0 +1,5 @@
+Picklistentry europe_moscow__sys (
+   value('(GMT+03:00) Moscow Standard Time (Europe/Moscow)'),
+   order(203),
+   active(true)
+);

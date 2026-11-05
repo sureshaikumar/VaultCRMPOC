@@ -1,0 +1,6 @@
+Picklistentry idtni__v (
+   value('Internal Diseases (Therapy)'),
+   order(778),
+   active(true),
+   controlling_entries('am__v')
+);

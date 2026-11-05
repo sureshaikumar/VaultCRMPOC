@@ -1,0 +1,6 @@
+Picklistentry ua-07__v (
+   value('Volynska oblast'),
+   order(4617),
+   active(true),
+   controlling_entries('ua__v')
+);

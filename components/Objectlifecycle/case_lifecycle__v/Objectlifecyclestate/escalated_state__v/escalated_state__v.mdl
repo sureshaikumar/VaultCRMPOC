@@ -1,0 +1,10 @@
+Objectlifecyclestate escalated_state__v (
+   label('Escalated'),
+   active(true),
+   record_inactive(),
+   record_status('active__v'),
+   description('If Case Record Field "Is Escalated?" == TRUE, set to this state.'),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false)
+);

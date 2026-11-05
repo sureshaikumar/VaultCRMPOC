@@ -1,0 +1,18 @@
+Field adherence_cadence_timeframe__v (
+   label('Adherence Cadence Timeframe'),
+   type('Picklist'),
+   active(true),
+   description('The default adherence check-in cadence timeframe for the patient journey.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(true),
+   order(27),
+   multi_value(false),
+   picklist('Picklist.timeframe__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

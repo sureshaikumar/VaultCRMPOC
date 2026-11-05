@@ -1,0 +1,5 @@
+Picklistentry bdt__sys (
+   value('BDT'),
+   order(17),
+   active(true)
+);

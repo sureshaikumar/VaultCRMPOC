@@ -1,0 +1,6 @@
+Message mc_cycle_channel_add_product__v (
+   label(),
+   active(true),
+   default_value('Add Product'),
+   system_managed(false)
+);

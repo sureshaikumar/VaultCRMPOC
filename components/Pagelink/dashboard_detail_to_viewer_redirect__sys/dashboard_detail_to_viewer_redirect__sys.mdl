@@ -1,0 +1,10 @@
+RECREATE Pagelink dashboard_detail_to_viewer_redirect__sys (
+   label('Dashboard Detail to Viewer Redirect'),
+   description('Redirects Dashboard Object record detail pages to the Dashboard viewer page'),
+   url('https://{{Vault.domain}}/ui/#dashboards/viewer/{{Object.id}}'),
+   mode('View'),
+   page_type('Object'),
+   object('Object.dashboard__sys'),
+   active(true),
+   disable_type_select(false)
+);

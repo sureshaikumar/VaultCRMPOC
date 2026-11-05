@@ -1,0 +1,6 @@
+Picklistentry sbaru__v (
+   value('Surgery - Bowel and Rectum'),
+   order(1811),
+   active(true),
+   controlling_entries('vn__v')
+);

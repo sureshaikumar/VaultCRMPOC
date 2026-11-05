@@ -1,0 +1,5 @@
+Picklistentry hnso__v (
+   value('Home Nursing Service'),
+   order(104),
+   active(true)
+);

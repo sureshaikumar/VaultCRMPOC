@@ -1,0 +1,10 @@
+RECREATE Picklist tlist_state__v (
+   label('State'),
+   active(true),
+   Picklistentry(@Picklistentry/pending__v.mdl),
+   Picklistentry(@Picklistentry/active__v.mdl),
+   Picklistentry(@Picklistentry/removed__v.mdl),
+   Picklistentry(@Picklistentry/done__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,19 @@
+Field nhid_2__v (
+   label('National Healthcare ID 2'),
+   type('String'),
+   active(true),
+   description('Unique secondary national identifier assigned to healthcare professionals within a country''s healthcare system.'),
+   required(false),
+   unique(false),
+   max_length(40),
+   help_content(),
+   list_column(false),
+   order(210),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

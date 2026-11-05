@@ -1,0 +1,5 @@
+Picklistentry 39420__v (
+   value('Pullman, WA Micropolitan Statistical Area'),
+   order(63),
+   active(true)
+);

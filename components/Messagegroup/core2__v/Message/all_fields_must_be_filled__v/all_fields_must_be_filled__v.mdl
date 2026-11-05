@@ -1,0 +1,6 @@
+Message all_fields_must_be_filled__v (
+   label(),
+   active(true),
+   default_value('All fields for each profiling attribute must be filled out.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry blackberry__v (
+   value('Blackberry'),
+   order(5),
+   active(true)
+);

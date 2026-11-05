@@ -1,0 +1,77 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.account_plan__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="active__v" />
+            <vault:field reference="completed_plan_tactics__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="health__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="opportunities__c" />
+            <vault:field reference="percent_complete__v" />
+            <vault:field reference="plan_tactic_progress__v" />
+            <vault:field reference="progress__v" />
+            <vault:field reference="account_plan_status__v" />
+            <vault:field reference="strengths__c" />
+            <vault:field reference="threats__c" />
+            <vault:field reference="total_plan_tactics__v" />
+            <vault:field reference="type__c" />
+            <vault:field reference="weaknesses__c" />
+            <vault:field reference="account__v" />
+            <vault:field reference="clones__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="end_date__v" />
+            <vault:field reference="start_date__v" />
+            <vault:field reference="country_user__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Goals" name="goals__c">
+        <vault:relatedObject relationship="goals__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Plan Tactics" name="plan_tactics__c">
+        <vault:relatedObject relationship="plan_tactics__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="197px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Account Tactics" name="account_tactics1__c">
+        <vault:relatedObject relationship="account_tactic__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="197px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Call Objectives" name="call_objectives__c">
+        <vault:relatedObject relationship="call_objectives__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Key Stakeholders" name="key_stakeholders_section__c" reference="key_stakeholders_section__v" />
+    <vault:section title="Account Team Members" name="account_team_members__c">
+        <vault:relatedObject relationship="account_team_members__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="197px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Calls" name="calls__c">
+        <vault:relatedObject relationship="call2__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="199px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="Action Items" name="action_items__c">
+        <vault:relatedObject relationship="action_item__vr" preventRecordCreate="false" modalCreateRecord="false">
+            <vault:field reference="name__v" width="197px" />
+        </vault:relatedObject>
+    </vault:section>
+    <vault:section title="X-Pages" name="myinsights_account_plan_section__c" reference="myinsights_account_plan_section__v">
+        <vault:bind property="maxHeight" value="0" />
+    </vault:section>
+</vault:page>

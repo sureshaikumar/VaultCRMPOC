@@ -1,0 +1,6 @@
+Picklistentry imanf__v (
+   value('Internal Medicine Angiology'),
+   order(796),
+   active(true),
+   controlling_entries('hu__v')
+);

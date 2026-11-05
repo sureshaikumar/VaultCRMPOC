@@ -1,0 +1,4 @@
+Typefield chat_message_transcript_id__v (
+   source('custom'),
+   required(false)
+);

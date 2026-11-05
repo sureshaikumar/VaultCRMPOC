@@ -1,0 +1,12 @@
+RECREATE Objectvalidation pricing_rule__v.limit_rule_product_comparison_type__v (
+   label('Limit Rule Product Comparison Type'),
+   active(true),
+   expression('Not(
+    object_type__vr.api_name__v = ''limit_rule__v'' &&
+    cross_product_rule__v = true &&
+    IsBlank(product_comparison_type__v)
+)'),
+   description('Cross Product Limit Rules need Product Comparison Types'),
+   error_message('Valid Product Comparison Type is Required for Cross Product Limit Rules'),
+   error_location('product_comparison_type__v')
+);

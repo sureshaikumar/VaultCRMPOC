@@ -1,0 +1,6 @@
+Picklistentry cm-ce__v (
+   value('Centre'),
+   order(684),
+   active(true),
+   controlling_entries('cm__v')
+);

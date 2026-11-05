@@ -1,0 +1,5 @@
+Picklistentry rsvp_response__v (
+   value('RSVP Response'),
+   order(5),
+   active(true)
+);

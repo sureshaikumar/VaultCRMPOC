@@ -1,0 +1,5 @@
+Picklistentry 37580__v (
+   value('Paris, TX Micropolitan Statistical Area'),
+   order(666),
+   active(true)
+);

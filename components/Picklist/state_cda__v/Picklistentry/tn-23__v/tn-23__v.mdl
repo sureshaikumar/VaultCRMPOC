@@ -1,0 +1,6 @@
+Picklistentry tn-23__v (
+   value('Bizerte'),
+   order(4436),
+   active(true),
+   controlling_entries('tn__v')
+);

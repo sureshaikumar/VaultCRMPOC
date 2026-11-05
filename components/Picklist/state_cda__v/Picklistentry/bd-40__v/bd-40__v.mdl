@@ -1,0 +1,6 @@
+Picklistentry bd-40__v (
+   value('Narayanganj'),
+   order(269),
+   active(true),
+   controlling_entries('bd__v')
+);

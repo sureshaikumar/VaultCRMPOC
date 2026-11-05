@@ -1,0 +1,6 @@
+Message no_wabas__v (
+   label(),
+   active(true),
+   default_value('No WhatsApp Business Accounts'),
+   system_managed(false)
+);

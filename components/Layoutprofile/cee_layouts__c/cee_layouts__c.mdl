@@ -1,0 +1,10 @@
+RECREATE Layoutprofile cee_layouts__c (
+   label('CEE Layouts'),
+   active(true),
+   description('Layouts applicable for CEE users'),
+   Objectlayout(@Objectlayout/account_hospital__c.mdl),
+   Objectlayout(@Objectlayout/account_hospitaldepartment__c.mdl),
+   Objectlayout(@Objectlayout/account_kol__c.mdl),
+   Objectlayout(@Objectlayout/account_professional__c.mdl),
+   Objectlayout(@Objectlayout/call2_callreport__c.mdl)
+);

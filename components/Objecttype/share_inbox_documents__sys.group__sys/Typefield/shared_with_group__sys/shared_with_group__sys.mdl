@@ -1,0 +1,4 @@
+Typefield shared_with_group__sys (
+   source('system'),
+   required(true)
+);

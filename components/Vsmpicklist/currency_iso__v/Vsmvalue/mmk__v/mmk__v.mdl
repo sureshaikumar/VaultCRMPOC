@@ -1,0 +1,10 @@
+Vsmvalue mmk__v (
+   label('MMK'),
+   active(true),
+   description('The Myanmar Kyat (MMK), the official currency of Myanmar (Burma), used for transactions, pricing, and financial records involving Myanmar markets.'),
+   synonyms('Myanmar kyat',
+         'Burmese kyat',
+         'MMK'),
+   target('mmk__sys'),
+   target_label('MMK')
+);

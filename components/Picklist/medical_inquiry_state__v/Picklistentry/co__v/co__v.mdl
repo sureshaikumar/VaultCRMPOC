@@ -1,0 +1,5 @@
+Picklistentry co__v (
+   value('CO'),
+   order(7),
+   active(true)
+);

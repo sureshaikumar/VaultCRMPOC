@@ -1,0 +1,9 @@
+RECREATE Picklist clm_presentation_type__v (
+   label('Type'),
+   active(true),
+   Picklistentry(@Picklistentry/hq__v.mdl),
+   Picklistentry(@Picklistentry/custom__v.mdl),
+   Picklistentry(@Picklistentry/transactional__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

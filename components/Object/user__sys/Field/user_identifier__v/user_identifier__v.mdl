@@ -1,0 +1,19 @@
+Field user_identifier__v (
+   label('User Identifier'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content('Field that is used in User lists that further help selecting the correct User. This field is common to Account.Account_Identifier_vod__c. Customers can choose what to place into this field.'),
+   list_column(false),
+   order(100),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

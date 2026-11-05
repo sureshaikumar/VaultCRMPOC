@@ -1,0 +1,11 @@
+RECREATE Picklist coaching_report_call_productivity__c (
+   label('Call Productivity'),
+   active(true),
+   Picklistentry(@Picklistentry/1__c.mdl),
+   Picklistentry(@Picklistentry/2__c.mdl),
+   Picklistentry(@Picklistentry/3__c.mdl),
+   Picklistentry(@Picklistentry/4__c.mdl),
+   Picklistentry(@Picklistentry/5__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

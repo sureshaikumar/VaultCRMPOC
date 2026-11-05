@@ -1,0 +1,5 @@
+Picklistentry no_time__v (
+   value('No time'),
+   order(2),
+   active(true)
+);

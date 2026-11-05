@@ -1,0 +1,6 @@
+Message case_state__v (
+   label(),
+   active(true),
+   default_value('${case_label} ${state_label}'),
+   system_managed(false)
+);

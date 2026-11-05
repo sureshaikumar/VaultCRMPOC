@@ -1,0 +1,6 @@
+Index external_id_v__sys (
+   description(),
+   fields('external_id__v',
+         'tsf__v'),
+   label('External ID')
+);

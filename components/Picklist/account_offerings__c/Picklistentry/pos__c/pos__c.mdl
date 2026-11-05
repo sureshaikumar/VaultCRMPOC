@@ -1,0 +1,5 @@
+Picklistentry pos__c (
+   value('POS'),
+   order(3),
+   active(true)
+);

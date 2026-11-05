@@ -1,0 +1,4 @@
+Typefield email_address__sys (
+   source('standard'),
+   required(true)
+);

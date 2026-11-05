@@ -1,0 +1,7 @@
+Fieldsecurity editor__v.edit__v.field_security__c (
+   label('Editor-Edit'),
+   active(true),
+   role('Objectlifecyclerole.editor__v'),
+   type('edit__v'),
+   fields('Field.country__c')
+);

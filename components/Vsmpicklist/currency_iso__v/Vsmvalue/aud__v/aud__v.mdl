@@ -1,0 +1,10 @@
+Vsmvalue aud__v (
+   label('AUD'),
+   active(true),
+   description('The Australian Dollar (AUD), the official currency of Australia and several Pacific island nations, widely used in international trade.'),
+   synonyms('Australian dollar',
+         'Australia currency',
+         'AUD dollar'),
+   target('aud__sys'),
+   target_label('AUD')
+);

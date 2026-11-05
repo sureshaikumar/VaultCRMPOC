@@ -1,0 +1,6 @@
+Message outgoing_fax_sent_to_name__v (
+   label(),
+   active(true),
+   default_value('Outgoing Fax Sent to ${name}'),
+   system_managed(false)
+);

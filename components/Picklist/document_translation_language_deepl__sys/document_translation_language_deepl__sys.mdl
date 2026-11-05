@@ -1,0 +1,6 @@
+RECREATE Picklist document_translation_language_deepl__sys (
+   label('Document Translation Language - DeepL'),
+   active(true),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

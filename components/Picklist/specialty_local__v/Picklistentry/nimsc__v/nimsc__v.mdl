@@ -1,0 +1,7 @@
+Picklistentry nimsc__v (
+   value('Nursing in Medical-Surgical Care'),
+   order(1062),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v')
+);

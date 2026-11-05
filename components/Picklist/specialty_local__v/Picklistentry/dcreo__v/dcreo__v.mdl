@@ -1,0 +1,6 @@
+Picklistentry dcreo__v (
+   value('Dentistry Conservation Restoration'),
+   order(377),
+   active(true),
+   controlling_entries('id__v')
+);

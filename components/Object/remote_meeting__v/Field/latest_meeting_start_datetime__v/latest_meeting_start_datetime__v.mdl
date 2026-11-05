@@ -1,0 +1,17 @@
+Field latest_meeting_start_datetime__v (
+   label('Latest Meeting Start Datetime'),
+   type('DateTime'),
+   active(true),
+   description(),
+   required(false),
+   help_content('Indicates the latest datetime that the meeting was started'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

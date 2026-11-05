@@ -1,0 +1,5 @@
+Picklistentry checked_out__sys (
+   value('Checked Out'),
+   order(2),
+   active(true)
+);

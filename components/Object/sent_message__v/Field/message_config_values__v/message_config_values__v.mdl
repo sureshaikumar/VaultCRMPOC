@@ -1,0 +1,17 @@
+Field message_config_values__v (
+   label('Message Values'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(5000),
+   help_content('This field stores the value of the URL and any tokens in the URL that were substituted before the link was shared'),
+   list_column(false),
+   order(27),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

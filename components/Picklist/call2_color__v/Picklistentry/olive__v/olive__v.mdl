@@ -1,0 +1,5 @@
+Picklistentry olive__v (
+   value('Olive'),
+   order(7),
+   active(true)
+);

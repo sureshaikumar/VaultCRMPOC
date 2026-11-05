@@ -1,0 +1,5 @@
+Picklistentry weight_loss__v (
+   value('Weight Loss'),
+   order(56),
+   active(true)
+);

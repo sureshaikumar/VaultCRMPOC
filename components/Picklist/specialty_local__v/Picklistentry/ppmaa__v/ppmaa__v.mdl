@@ -1,0 +1,6 @@
+Picklistentry ppmaa__v (
+   value('Paediatric Palliative Medicine'),
+   order(1268),
+   active(true),
+   controlling_entries('gb__v')
+);

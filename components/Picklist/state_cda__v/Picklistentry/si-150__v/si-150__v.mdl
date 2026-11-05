@@ -1,0 +1,6 @@
+Picklistentry si-150__v (
+   value('Bloke'),
+   order(4123),
+   active(true),
+   controlling_entries('si__v')
+);

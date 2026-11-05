@@ -1,0 +1,5 @@
+Picklistentry online__v (
+   value('Online'),
+   order(1),
+   active(true)
+);

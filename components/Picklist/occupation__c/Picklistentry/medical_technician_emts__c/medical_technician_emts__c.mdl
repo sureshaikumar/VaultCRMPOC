@@ -1,0 +1,5 @@
+Picklistentry medical_technician_emts__c (
+   value('Medical Technician (EMTs)'),
+   order(10),
+   active(true)
+);

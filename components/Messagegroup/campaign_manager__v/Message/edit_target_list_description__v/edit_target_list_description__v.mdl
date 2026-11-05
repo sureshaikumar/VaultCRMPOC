@@ -1,0 +1,6 @@
+Message edit_target_list_description__v (
+   label(),
+   active(true),
+   default_value('Edit Target List Description'),
+   system_managed(false)
+);

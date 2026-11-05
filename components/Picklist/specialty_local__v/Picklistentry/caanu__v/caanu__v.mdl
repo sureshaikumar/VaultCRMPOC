@@ -1,0 +1,6 @@
+Picklistentry caanu__v (
+   value('Cardiovascular Anesthesiology'),
+   order(177),
+   active(true),
+   controlling_entries('ph__v')
+);

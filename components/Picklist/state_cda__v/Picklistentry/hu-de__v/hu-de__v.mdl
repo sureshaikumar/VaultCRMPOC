@@ -1,0 +1,6 @@
+Picklistentry hu-de__v (
+   value('Debrecen'),
+   order(1880),
+   active(true),
+   controlling_entries('hu__v')
+);

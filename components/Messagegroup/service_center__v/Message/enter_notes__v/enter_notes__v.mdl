@@ -1,0 +1,6 @@
+Message enter_notes__v (
+   label(),
+   active(true),
+   default_value('Enter notes'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message applying__v (
+   label(),
+   active(true),
+   default_value('Applying'),
+   system_managed(false)
+);

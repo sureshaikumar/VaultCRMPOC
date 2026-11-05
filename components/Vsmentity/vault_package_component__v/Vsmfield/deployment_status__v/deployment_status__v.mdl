@@ -1,0 +1,14 @@
+Vsmfield deployment_status__v (
+   label('Deployment Status'),
+   active(false),
+   description('Current deployment status of this package component, indicating whether it has been successfully deployed, is pending, or encountered an error. Use this field to monitor deployment progress or identify failed components during an inbound package installation.'),
+   example_values(),
+   synonyms('deploy status',
+         'status',
+         'deployment state',
+         'install status'),
+   target('deployment_status__v'),
+   target_label('Deployment Status'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

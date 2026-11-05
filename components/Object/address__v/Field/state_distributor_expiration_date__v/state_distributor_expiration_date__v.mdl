@@ -1,0 +1,17 @@
+Field state_distributor_expiration_date__v (
+   label('State Distributor Expiration Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('State Distributor license expiration date. The Expiration Date must be today or in the future if a Health Care Professional is to be allowed to receive Samples at the Business Address.'),
+   list_column(false),
+   order(72),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry rsxme__v (
+   value('Rehabilitation and Sports Medicine'),
+   order(1726),
+   active(true),
+   controlling_entries('ee__v')
+);

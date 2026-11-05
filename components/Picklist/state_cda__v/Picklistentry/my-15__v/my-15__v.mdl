@@ -1,0 +1,6 @@
+Picklistentry my-15__v (
+   value('Wilayah Persekutuan Labuan'),
+   order(3285),
+   active(true),
+   controlling_entries('my__v')
+);

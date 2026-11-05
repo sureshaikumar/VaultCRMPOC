@@ -1,0 +1,4 @@
+Typefield invited_attendees__v (
+   source('standard'),
+   required(false)
+);

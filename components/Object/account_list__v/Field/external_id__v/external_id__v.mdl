@@ -1,0 +1,19 @@
+Field external_id__v (
+   label('External ID'),
+   type('String'),
+   active(true),
+   description('Defines an external identifier for Account Lists.'),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

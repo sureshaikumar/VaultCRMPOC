@@ -1,0 +1,13 @@
+RECREATE Objectvalidation pricing_rule__v.chain_operator__v (
+   label('Chain Operator'),
+   active(true),
+   expression('Not(
+     And(
+        chain_rule__v = true,
+        IsBlank(Text(chain_rule_operator__v))
+    )
+)'),
+   description('Chain Rule Operator must be either AND or OR'),
+   error_message('Chain Rule Operator must be either AND or OR'),
+   error_location('chain_rule_operator__v')
+);

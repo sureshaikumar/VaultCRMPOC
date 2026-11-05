@@ -1,0 +1,6 @@
+Picklistentry cpafe__v (
+   value('Clinical Physiology and Functional Exploration (Cardio-Respiratory)'),
+   order(286),
+   active(true),
+   controlling_entries('dz__v')
+);

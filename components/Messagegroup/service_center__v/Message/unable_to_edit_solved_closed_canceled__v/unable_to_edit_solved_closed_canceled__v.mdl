@@ -1,0 +1,6 @@
+Message unable_to_edit_solved_closed_canceled__v (
+   label(),
+   active(true),
+   default_value('Unable to edit Solved, Closed, or Canceled cases.'),
+   system_managed(false)
+);

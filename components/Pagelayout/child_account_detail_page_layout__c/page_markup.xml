@@ -1,0 +1,33 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.child_account__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="alternate_name__v" />
+            <vault:field reference="hierarchy_type__v" />
+            <vault:field reference="parent_account__v" />
+            <vault:field reference="child_account__v" />
+            <vault:field reference="best_times__v" />
+            <vault:field reference="copy_address__v" />
+            <vault:field reference="customer_master_status__v" />
+            <vault:field reference="ownerid__v" />
+            <vault:field reference="location_identifier__v" />
+            <vault:field reference="external_key__v" />
+            <vault:field reference="child_furigana__v" />
+            <vault:field reference="external_id__v" />
+            <vault:field reference="mobile_id__v" />
+            <vault:field reference="parent_name__v" />
+            <vault:field reference="primary__v" />
+            <vault:field reference="veeva_network_id__v" />
+            <vault:field reference="network_primary__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

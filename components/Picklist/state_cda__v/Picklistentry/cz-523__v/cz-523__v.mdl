@@ -1,0 +1,6 @@
+Picklistentry cz-523__v (
+   value('Náchod'),
+   order(863),
+   active(true),
+   controlling_entries('cz__v')
+);

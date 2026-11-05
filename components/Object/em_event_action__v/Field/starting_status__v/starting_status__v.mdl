@@ -1,0 +1,19 @@
+Field starting_status__v (
+   label('Starting Status'),
+   type('String'),
+   active(true),
+   description('Indicates the event status for which this button action is initiated from.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

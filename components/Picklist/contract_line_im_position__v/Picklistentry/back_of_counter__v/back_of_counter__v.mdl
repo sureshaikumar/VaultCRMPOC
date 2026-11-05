@@ -1,0 +1,5 @@
+Picklistentry back_of_counter__v (
+   value('Back of counter'),
+   order(1),
+   active(true)
+);

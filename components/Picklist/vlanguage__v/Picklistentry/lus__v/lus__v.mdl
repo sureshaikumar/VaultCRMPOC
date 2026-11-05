@@ -1,0 +1,5 @@
+Picklistentry lus__v (
+   value('Lushai'),
+   order(197),
+   active(false)
+);

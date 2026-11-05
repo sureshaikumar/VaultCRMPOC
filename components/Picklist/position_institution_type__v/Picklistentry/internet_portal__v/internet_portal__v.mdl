@@ -1,0 +1,5 @@
+Picklistentry internet_portal__v (
+   value('Internet Portal'),
+   order(10),
+   active(true)
+);

@@ -1,0 +1,13 @@
+Vsmfield data_type__v (
+   label('Data Type'),
+   active(true),
+   description('Categorizes the kind of data included in this package entry, such as object data, configuration, or attachments. Use this to filter or understand what category of content is being deployed.'),
+   example_values(),
+   synonyms('type',
+         'content type',
+         'package data type'),
+   target('data_type__v'),
+   target_label('Data Type'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

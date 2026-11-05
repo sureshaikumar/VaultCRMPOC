@@ -1,0 +1,3 @@
+Typeaction submit_to_concur__v (
+   action('expense_header__v.submit_to_concur__v')
+);

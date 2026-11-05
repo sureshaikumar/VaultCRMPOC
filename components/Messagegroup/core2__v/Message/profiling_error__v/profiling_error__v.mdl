@@ -1,0 +1,6 @@
+Message profiling_error__v (
+   label(),
+   active(true),
+   default_value('${number_of_errors} errors found. Address the errors before trying again'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield em_event_session__v (
+   source('custom'),
+   required(false)
+);

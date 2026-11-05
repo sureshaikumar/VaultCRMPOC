@@ -1,0 +1,19 @@
+Field glossary_definition_text__sys (
+   label('Definition Text'),
+   type('String'),
+   active(true),
+   description(),
+   required(true),
+   unique(false),
+   max_length(1000),
+   help_content(),
+   list_column(true),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

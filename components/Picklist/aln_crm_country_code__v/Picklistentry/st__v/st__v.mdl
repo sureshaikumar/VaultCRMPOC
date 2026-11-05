@@ -1,0 +1,5 @@
+Picklistentry st__v (
+   value('Sao Tome and Principe'),
+   order(209),
+   active(true)
+);

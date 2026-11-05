@@ -1,0 +1,6 @@
+Message entity_record_was_removed_as_entity__v (
+   label(),
+   active(true),
+   default_value('${entity_record_label} was removed as a ${entity}'),
+   system_managed(false)
+);

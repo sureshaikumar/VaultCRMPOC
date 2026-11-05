@@ -1,0 +1,17 @@
+Field approved_date__v (
+   label('Approved Date'),
+   type('Date'),
+   active(true),
+   description('Indicates the date on which the approval occurred.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

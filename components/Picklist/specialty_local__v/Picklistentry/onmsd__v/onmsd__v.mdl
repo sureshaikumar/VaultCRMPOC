@@ -1,0 +1,6 @@
+Picklistentry onmsd__v (
+   value('Oral & Maxillofacial Surgery (Dentistry)'),
+   order(1153),
+   active(true),
+   controlling_entries('in__v')
+);

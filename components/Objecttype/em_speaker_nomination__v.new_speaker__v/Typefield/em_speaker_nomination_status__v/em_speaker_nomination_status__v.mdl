@@ -1,0 +1,11 @@
+Typefield em_speaker_nomination_status__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.em_speaker_nomination_status__v.approved__v',
+         'Picklist.em_speaker_nomination_status__v.pending_approval__v',
+         'Picklist.em_speaker_nomination_status__v.recalled__v',
+         'Picklist.em_speaker_nomination_status__v.rejected__v',
+         'Picklist.em_speaker_nomination_status__v.saved__v',
+         'Picklist.em_speaker_nomination_status__v.submitted__v'),
+   default_value('Picklist.em_speaker_nomination_status__v.saved__v')
+);

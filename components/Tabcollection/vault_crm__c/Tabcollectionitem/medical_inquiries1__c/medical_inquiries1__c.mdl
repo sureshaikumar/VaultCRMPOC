@@ -1,0 +1,8 @@
+Tabcollectionitem medical_inquiries1__c (
+   label(),
+   active(false),
+   tabs(),
+   order(10),
+   tab('Tab.medical_inquiries__c'),
+   type('Tab')
+);

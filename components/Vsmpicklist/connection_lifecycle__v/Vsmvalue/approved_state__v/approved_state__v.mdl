@@ -1,0 +1,11 @@
+Vsmvalue approved_state__v (
+   label('Approved'),
+   active(true),
+   description('The connection has been reviewed and formally approved, permitting it to proceed toward an active state.'),
+   synonyms('authorized',
+         'accepted',
+         'cleared',
+         'sanctioned'),
+   target('approved_state__sys'),
+   target_label('Approved')
+);

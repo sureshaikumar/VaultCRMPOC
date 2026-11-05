@@ -1,0 +1,6 @@
+Picklistentry si-108__v (
+   value('Ruše'),
+   order(4082),
+   active(true),
+   controlling_entries('si__v')
+);

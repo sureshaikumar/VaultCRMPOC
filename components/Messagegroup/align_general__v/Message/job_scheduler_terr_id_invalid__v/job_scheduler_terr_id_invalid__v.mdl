@@ -1,0 +1,6 @@
+Message job_scheduler_terr_id_invalid__v (
+   label(),
+   active(true),
+   default_value('Query parameter territoryId not valid.'),
+   system_managed(false)
+);

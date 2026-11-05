@@ -1,0 +1,6 @@
+Picklistentry tr-01__v (
+   value('Adana'),
+   order(4459),
+   active(true),
+   controlling_entries('tr__v')
+);

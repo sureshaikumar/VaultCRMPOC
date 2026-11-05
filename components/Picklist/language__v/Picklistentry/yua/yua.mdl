@@ -1,0 +1,5 @@
+Picklistentry yua (
+   value('Yucatec Maya'),
+   order(365),
+   active(true)
+);

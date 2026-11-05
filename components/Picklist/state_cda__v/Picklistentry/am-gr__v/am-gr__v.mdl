@@ -1,0 +1,6 @@
+Picklistentry am-gr__v (
+   value('Geġark''unik'''),
+   order(72),
+   active(true),
+   controlling_entries('am__v')
+);

@@ -1,0 +1,6 @@
+Message overwrite_all__v (
+   label(),
+   active(true),
+   default_value('Overwrite All'),
+   system_managed(false)
+);

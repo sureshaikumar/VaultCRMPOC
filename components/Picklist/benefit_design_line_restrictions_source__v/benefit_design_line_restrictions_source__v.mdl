@@ -1,0 +1,10 @@
+RECREATE Picklist benefit_design_line_restrictions_source__v (
+   label('Restrictions (Source)'),
+   active(true),
+   Picklistentry(@Picklistentry/pa__v.mdl),
+   Picklistentry(@Picklistentry/ql__v.mdl),
+   Picklistentry(@Picklistentry/al__v.mdl),
+   Picklistentry(@Picklistentry/se__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

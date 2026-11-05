@@ -1,0 +1,6 @@
+Message invalid_digital_signature__v (
+   label(),
+   active(true),
+   default_value('The captured signature is not valid. Please reenter your signature.'),
+   system_managed(false)
+);

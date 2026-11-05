@@ -1,0 +1,19 @@
+Field analytics_display_by__v (
+   label('Analytics Display By'),
+   type('String'),
+   active(true),
+   description('VInsights Display By preference for Cycle Plan Analysis page'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

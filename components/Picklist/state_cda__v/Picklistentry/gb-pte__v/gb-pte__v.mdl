@@ -1,0 +1,6 @@
+Picklistentry gb-pte__v (
+   value('Peterborough'),
+   order(1599),
+   active(true),
+   controlling_entries('gb__v')
+);

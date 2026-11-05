@@ -1,0 +1,5 @@
+Picklistentry qr_sign_in__v (
+   value('QR Sign-In'),
+   order(1),
+   active(true)
+);

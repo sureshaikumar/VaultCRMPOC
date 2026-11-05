@@ -1,0 +1,14 @@
+Vsmfield description__v (
+   label('Description'),
+   active(true),
+   description('Free-text description explaining the purpose and scope of the application role. Use this field to understand what access or responsibilities the role is intended to convey to assigned users.'),
+   example_values(),
+   synonyms('details',
+         'notes',
+         'role description',
+         'summary'),
+   target('description__v'),
+   target_label('Description'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

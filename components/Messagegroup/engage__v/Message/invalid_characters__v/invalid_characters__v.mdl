@@ -1,0 +1,6 @@
+Message invalid_characters__v (
+   label(),
+   active(true),
+   default_value('Invalid Characters'),
+   system_managed(false)
+);

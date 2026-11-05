@@ -1,0 +1,5 @@
+Picklistentry role_hidden__v (
+   value('Hidden'),
+   order(1),
+   active(true)
+);

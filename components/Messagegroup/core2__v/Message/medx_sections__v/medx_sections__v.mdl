@@ -1,0 +1,6 @@
+Message medx_sections__v (
+   label(),
+   active(true),
+   default_value('Sections'),
+   system_managed(false)
+);

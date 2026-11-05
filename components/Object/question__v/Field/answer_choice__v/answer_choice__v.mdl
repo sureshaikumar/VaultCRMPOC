@@ -1,0 +1,17 @@
+Field answer_choice__v (
+   label('Answer Choices'),
+   type('LongText'),
+   active(true),
+   description('Concatenated list of possible response values for multiselect picklists, picklists, and radio questions. Also includes response weight.  Response display order is implied.  Example: Yes; 20; Maybe; 10; No; 0;'),
+   required(false),
+   max_length(6000),
+   help_content(),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

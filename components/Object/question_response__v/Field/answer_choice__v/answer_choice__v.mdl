@@ -1,0 +1,17 @@
+Field answer_choice__v (
+   label('Answer Choices'),
+   type('LongText'),
+   active(true),
+   description('Copied from Survey_Question_vod when a Survey_Target_vod record is saved or submitted. Stores potential answer choices as they appeared to the user when the survey was saved or submitted.'),
+   required(false),
+   max_length(6000),
+   help_content(),
+   list_column(false),
+   order(10),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

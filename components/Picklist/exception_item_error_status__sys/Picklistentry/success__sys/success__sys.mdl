@@ -1,0 +1,5 @@
+Picklistentry success__sys (
+   value('SUCCESS'),
+   order(0),
+   active(true)
+);

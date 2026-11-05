@@ -1,0 +1,6 @@
+Picklistentry ru-sak__v (
+   value('Sakhalinskaya oblast'''),
+   order(3848),
+   active(true),
+   controlling_entries('ru__v')
+);

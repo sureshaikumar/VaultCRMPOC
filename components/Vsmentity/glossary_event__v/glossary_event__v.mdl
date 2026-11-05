@@ -1,0 +1,23 @@
+RECREATE Vsmentity glossary_event__v (
+   label('Glossary Event'),
+   active(true),
+   description('Represents system-level events associated with glossary terms or entries within Vault''s managed glossary. Glossary events capture instances of the Glossary being leveraged via the Document Viewer functionality. This object is used to track activity related to the defined Glossary Definitions, supporting compliance and governance workflows around standardized vocabulary.'),
+   synonyms('glossary events',
+      'terminology event',
+      'term event'),
+   target('Object.glossary_event__sys'),
+   target_label('Glossary Event'),
+   Vsmfield(@Vsmfield/document__v.mdl),
+   Vsmfield(@Vsmfield/document_unbound__v.mdl),
+   Vsmfield(@Vsmfield/glossary_definition_language__v.mdl),
+   Vsmfield(@Vsmfield/glossary_definition_match_type__v.mdl),
+   Vsmfield(@Vsmfield/glossary_definition_term__v.mdl),
+   Vsmfield(@Vsmfield/glossary_event_definition_copied__v.mdl),
+   Vsmfield(@Vsmfield/glossary_event_search_phrase__v.mdl),
+   Vsmfield(@Vsmfield/glossary_event_search_type__v.mdl),
+   Vsmfield(@Vsmfield/name__v.mdl),
+   Vsmfield(@Vsmfield/performed_by_user__v.mdl),
+   Vsmrelationship(@Vsmrelationship/attachments__v.mdl),
+   Vsmrelationship(@Vsmrelationship/document__v.mdl),
+   Vsmrelationship(@Vsmrelationship/glossary_definition_language__v.mdl)
+);

@@ -1,0 +1,6 @@
+Picklistentry pk-pb__v (
+   value('Punjab'),
+   order(3620),
+   active(true),
+   controlling_entries('pk__v')
+);

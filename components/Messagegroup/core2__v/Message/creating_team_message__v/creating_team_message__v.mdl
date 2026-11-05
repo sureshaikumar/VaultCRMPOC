@@ -1,0 +1,6 @@
+Message creating_team_message__v (
+   label(),
+   active(true),
+   default_value('You will receive a notification when the Team is created.'),
+   system_managed(false)
+);

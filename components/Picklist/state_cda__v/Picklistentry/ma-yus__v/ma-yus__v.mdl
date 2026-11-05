@@ -1,0 +1,6 @@
+Picklistentry ma-yus__v (
+   value('Youssoufia'),
+   order(2851),
+   active(true),
+   controlling_entries('ma__v')
+);

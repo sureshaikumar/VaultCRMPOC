@@ -1,0 +1,11 @@
+Vsmfield doc_view_count__v (
+   label('Doc View Count'),
+   active(true),
+   description('Number of times Vault displayed the Doc Info page on a given day'),
+   example_values(),
+   synonyms(),
+   target('doc_view_count__v'),
+   target_label('Doc View Count'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

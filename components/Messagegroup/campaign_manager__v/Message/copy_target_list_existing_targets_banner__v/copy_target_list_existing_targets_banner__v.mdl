@@ -1,0 +1,6 @@
+Message copy_target_list_existing_targets_banner__v (
+   label(),
+   active(true),
+   default_value('Copying a target list will add any new targets to your current list'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message delete_team_owner_minimum_error__v (
+   label(),
+   active(true),
+   default_value('Cannot remove this user. This group is used as an Owner Group for one or more Collaboration Space Configurations and requires at least two active users. Please add a replacement before removing this user.'),
+   system_managed(false)
+);

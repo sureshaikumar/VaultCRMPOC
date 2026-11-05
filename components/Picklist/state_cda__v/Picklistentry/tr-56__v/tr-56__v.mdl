@@ -1,0 +1,6 @@
+Picklistentry tr-56__v (
+   value('Siirt'),
+   order(4514),
+   active(true),
+   controlling_entries('tr__v')
+);

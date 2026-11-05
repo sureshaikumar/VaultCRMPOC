@@ -1,0 +1,22 @@
+Field talk_time__v (
+   label('Talk Time'),
+   type('Number'),
+   active(true),
+   description('Duration of the phone call associated with the Check-In Detail record at the time of the activity.'),
+   required(false),
+   unique(false),
+   max_value(9007199254740991),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(true),
+   order(25),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

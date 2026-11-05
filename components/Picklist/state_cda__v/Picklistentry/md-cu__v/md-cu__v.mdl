@@ -1,0 +1,6 @@
+Picklistentry md-cu__v (
+   value('Chişinău'),
+   order(2881),
+   active(true),
+   controlling_entries('md__v')
+);

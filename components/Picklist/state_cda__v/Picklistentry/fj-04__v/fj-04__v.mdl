@@ -1,0 +1,6 @@
+Picklistentry fj-04__v (
+   value('Kadavu'),
+   order(1295),
+   active(true),
+   controlling_entries('fj__v')
+);

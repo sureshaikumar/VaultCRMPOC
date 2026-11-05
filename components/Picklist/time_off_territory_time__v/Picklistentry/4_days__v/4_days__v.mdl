@@ -1,0 +1,5 @@
+Picklistentry 4_days__v (
+   value('4 Days'),
+   order(5),
+   active(true)
+);

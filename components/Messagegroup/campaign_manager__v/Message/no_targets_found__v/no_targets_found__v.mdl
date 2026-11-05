@@ -1,0 +1,6 @@
+Message no_targets_found__v (
+   label(),
+   active(true),
+   default_value('No Targets Found'),
+   system_managed(false)
+);

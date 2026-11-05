@@ -1,0 +1,15 @@
+RECREATE Tab sample_management__c (
+   active(true),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('Sample Management'),
+   modal_create_record(false),
+   order(1800),
+   parent(),
+   prevent_create(false),
+   Subtab(@Subtab/rep_roster__c.mdl),
+   Subtab(@Subtab/sample_transactions__c.mdl),
+   Subtab(@Subtab/sample_order_transactions__c.mdl),
+   Subtab(@Subtab/sample_inventories__c.mdl),
+   Subtab(@Subtab/inventory_order_allocations__c.mdl)
+);

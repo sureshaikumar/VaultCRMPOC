@@ -1,0 +1,6 @@
+Picklistentry pw-050__v (
+   value('Hatobohei'),
+   order(3677),
+   active(true),
+   controlling_entries('pw__v')
+);

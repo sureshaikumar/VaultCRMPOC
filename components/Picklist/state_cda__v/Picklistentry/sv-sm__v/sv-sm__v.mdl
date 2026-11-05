@@ -1,0 +1,6 @@
+Picklistentry sv-sm__v (
+   value('San Miguel'),
+   order(4276),
+   active(true),
+   controlling_entries('sv__v')
+);

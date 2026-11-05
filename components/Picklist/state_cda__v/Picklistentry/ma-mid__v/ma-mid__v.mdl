@@ -1,0 +1,6 @@
+Picklistentry ma-mid__v (
+   value('Midelt'),
+   order(2820),
+   active(true),
+   controlling_entries('ma__v')
+);

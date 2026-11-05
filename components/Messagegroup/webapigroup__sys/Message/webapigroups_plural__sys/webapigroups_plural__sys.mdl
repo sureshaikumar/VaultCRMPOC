@@ -1,0 +1,6 @@
+Message webapigroups_plural__sys (
+   label(),
+   active(true),
+   default_value('Web API Groups'),
+   system_managed(true)
+);

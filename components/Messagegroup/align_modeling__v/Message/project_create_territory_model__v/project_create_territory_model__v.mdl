@@ -1,0 +1,6 @@
+Message project_create_territory_model__v (
+   label(),
+   active(true),
+   default_value('Create Territory Model'),
+   system_managed(false)
+);

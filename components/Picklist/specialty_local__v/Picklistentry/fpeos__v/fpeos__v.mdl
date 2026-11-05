@@ -1,0 +1,7 @@
+Picklistentry fpeos__v (
+   value('Forensic Psychiatric Examination'),
+   order(567),
+   active(true),
+   controlling_entries('am__v',
+         'ua__v')
+);

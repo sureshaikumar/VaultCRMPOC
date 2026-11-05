@@ -1,0 +1,6 @@
+Message primary_entity__v (
+   label(),
+   active(true),
+   default_value('Primary ${entity}'),
+   system_managed(false)
+);

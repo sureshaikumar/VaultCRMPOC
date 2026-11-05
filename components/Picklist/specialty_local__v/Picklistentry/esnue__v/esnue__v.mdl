@@ -1,0 +1,6 @@
+Picklistentry esnue__v (
+   value('Endoscopic Surgery'),
+   order(512),
+   active(true),
+   controlling_entries('kw__v')
+);

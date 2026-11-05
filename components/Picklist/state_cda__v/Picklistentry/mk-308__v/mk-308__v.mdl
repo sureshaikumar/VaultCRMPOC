@@ -1,0 +1,6 @@
+Picklistentry mk-308__v (
+   value('Makedonski Brod'),
+   order(2988),
+   active(true),
+   controlling_entries('mk__v')
+);

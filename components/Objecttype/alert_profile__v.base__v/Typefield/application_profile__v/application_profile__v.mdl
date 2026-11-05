@@ -1,0 +1,4 @@
+Typefield application_profile__v (
+   source('standard'),
+   required(true)
+);

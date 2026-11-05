@@ -1,0 +1,18 @@
+RECREATE Notificationtemplate crt_rel_doc_or_bin_req_fld_lst_failure__v (
+   label('createRelatedDocumentOrBinderRequiredFieldListFailure'),
+   active(true),
+   description(),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Notification: <${relatedDocName}> was not created successfully'),
+   notification('<p>This notification is to inform you that the ${actionLabel} ${actionTypeLabel} from <a href="${docLink}">${docName}</a> was unable to complete its execution.</p>
+</br>
+<p>Error Encountered:</p>
+</br>
+<p>${errorEncountered}:</p>
+${errorFieldsList}
+'),
+   email_body('<p>${notificationMessage}</p> <p>You can see all of your Notifications on your Vault home page under <a href="${notificationHome}">Notifications</a>.</p>'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

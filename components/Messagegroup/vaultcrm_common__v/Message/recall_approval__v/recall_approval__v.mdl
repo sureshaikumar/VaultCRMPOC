@@ -1,0 +1,6 @@
+Message recall_approval__v (
+   label(),
+   active(true),
+   default_value('Are you sure you want to recall this {$object_name}?'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ly-tb__v (
+   value('Ţarābulus'),
+   order(2761),
+   active(true),
+   controlling_entries('ly__v')
+);

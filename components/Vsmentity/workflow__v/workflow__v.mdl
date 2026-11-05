@@ -1,0 +1,11 @@
+RECREATE Vsmentity workflow__v (
+   label('Workflow'),
+   active(true),
+   description('Workflows represent structured business processes that govern how work items, documents, or records move through defined stages and approvals within Vault. They automate and enforce process steps, routing tasks to appropriate users or groups based on configured rules. Workflows are commonly used to manage review and approval cycles, ensuring compliance and traceability across regulated business activities.'),
+   synonyms('workflows',
+      'process',
+      'business process',
+      'approval process'),
+   target('Object.workflow__v'),
+   target_label('Workflow')
+);

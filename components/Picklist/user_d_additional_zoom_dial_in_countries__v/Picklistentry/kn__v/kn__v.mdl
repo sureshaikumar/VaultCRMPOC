@@ -1,0 +1,5 @@
+Picklistentry kn__v (
+   value('KN'),
+   order(60),
+   active(true)
+);

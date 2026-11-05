@@ -1,0 +1,6 @@
+Message no_thanks__v (
+   label(),
+   active(true),
+   default_value('No Thanks'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry chxnu__v (
+   value('Chronic Care Nursing'),
+   order(206),
+   active(true),
+   controlling_entries('pt__v')
+);

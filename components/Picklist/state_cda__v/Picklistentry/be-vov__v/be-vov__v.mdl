@@ -1,0 +1,6 @@
+Picklistentry be-vov__v (
+   value('East Flanders'),
+   order(307),
+   active(true),
+   controlling_entries('be__v')
+);

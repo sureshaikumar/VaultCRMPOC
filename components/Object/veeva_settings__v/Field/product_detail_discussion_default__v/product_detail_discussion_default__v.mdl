@@ -1,0 +1,25 @@
+Field product_detail_discussion_default__v (
+   label('Product_Detail_Discussion_Default'),
+   type('Number'),
+   active(true),
+   description('Determines the default Product Detail and Product Discussion behavior on call records. See documentation for more details. Setting options:
+            0 - Do not default Product Detail or Product Discussion
+            1 - Default Product Detail to check'),
+   required(false),
+   unique(false),
+   max_value(9),
+   min_value(-9),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(251),
+   default_value('1'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

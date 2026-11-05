@@ -1,0 +1,6 @@
+Message add_campaign_details__v (
+   label(),
+   active(true),
+   default_value('Add Campaign Details'),
+   system_managed(false)
+);

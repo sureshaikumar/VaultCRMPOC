@@ -1,0 +1,17 @@
+Field signature_date__v (
+   label('Signature Date'),
+   type('DateTime'),
+   active(true),
+   description('Signature Date represents the exact date and time that the Signature was captured for a Disbursement Sample Transaction. This field is populated from a Call by the Call_Header_trigger_vod trigger.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(48),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

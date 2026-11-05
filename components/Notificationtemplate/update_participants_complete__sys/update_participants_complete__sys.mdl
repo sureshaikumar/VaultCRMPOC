@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate update_participants_complete__sys (
+   label('Update Participants Completed'),
+   active(true),
+   description('Notification template for a successfully completed job that updates participants on multiple or all active workflows.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Execution of ${workflowActionLabel} has completed successfully.'),
+   notification('<p>Execution of ${workflowActionLabel} has completed successfully.</p><p>Details:</p><ul><li>Job Start Time: ${workflowActionJobStartTime}</li><li>Duration: ${workflowActionJobDuration} seconds</li><li>Total Successes: ${workflowActionSucceededCount}</li><li>Total Failures: ${workflowActionFailedCount}</li><li>Total Warnings: ${workflowActionWarningCount}</li></ul>'),
+   email_body('${notificationMessage}'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

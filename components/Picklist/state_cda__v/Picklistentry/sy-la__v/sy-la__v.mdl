@@ -1,0 +1,6 @@
+Picklistentry sy-la__v (
+   value('Al Lādhiqīyah'),
+   order(4290),
+   active(true),
+   controlling_entries('sy__v')
+);

@@ -1,0 +1,19 @@
+RECREATE Layoutrule sample_inventory_detail_page_layout1__c.read_only_hide_required_fields__c (
+   active(true),
+   description('Layout rule to make fields read only, hide and required fields based on page layout.'),
+   displayed_as_readonly_fields('sample_inventory_status__v',
+      'submitted_date__v'),
+   displayed_as_required_fields('inventory_type__v',
+      'inventory_for__v',
+      'inventory_date_time__v'),
+   expression('true'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('previous_inventory_date_time__v',
+      'inventory_from_date__v'),
+   hide_sections(),
+   hide_layout(false),
+   label('Read Only, Hide, Required Fields'),
+   order(100)
+);

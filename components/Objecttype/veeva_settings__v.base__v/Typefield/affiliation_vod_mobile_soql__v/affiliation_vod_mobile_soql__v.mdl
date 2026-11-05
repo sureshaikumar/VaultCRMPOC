@@ -1,0 +1,4 @@
+Typefield affiliation_vod_mobile_soql__v (
+   source('standard'),
+   required(false)
+);

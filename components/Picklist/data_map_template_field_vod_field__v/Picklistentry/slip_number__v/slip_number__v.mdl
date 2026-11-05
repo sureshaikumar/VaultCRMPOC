@@ -1,0 +1,5 @@
+Picklistentry slip_number__v (
+   value('Slip_Number_vod__c'),
+   order(236),
+   active(true)
+);

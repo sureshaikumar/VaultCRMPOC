@@ -1,0 +1,6 @@
+Picklistentry paaae__v (
+   value('Pediatric and Adolescent Allergology'),
+   order(1317),
+   active(true),
+   controlling_entries('se__v')
+);

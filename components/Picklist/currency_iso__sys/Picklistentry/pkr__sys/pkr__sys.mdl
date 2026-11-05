@@ -1,0 +1,5 @@
+Picklistentry pkr__sys (
+   value('PKR'),
+   order(143),
+   active(true)
+);

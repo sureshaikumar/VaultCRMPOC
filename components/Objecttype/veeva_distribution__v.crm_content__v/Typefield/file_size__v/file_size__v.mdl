@@ -1,0 +1,4 @@
+Typefield file_size__v (
+   source('standard'),
+   required(false)
+);

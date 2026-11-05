@@ -1,0 +1,22 @@
+RECREATE Doclifecycle unclassified__v (
+   label('Unclassified'),
+   active(true),
+   description(''),
+   state_labels('base:general:starting',
+      'base:general:planned'),
+   labeled_states('Doclifecyclestate.unclassified__v',
+      'Doclifecyclestate.planned__v'),
+   expiration(),
+   signature_pages(),
+   overlays(),
+   Doclifecyclerole(@Doclifecyclerole/approver__c.mdl),
+   Doclifecyclerole(@Doclifecyclerole/consumer__c.mdl),
+   Doclifecyclerole(@Doclifecyclerole/coordinator__c.mdl),
+   Doclifecyclerole(@Doclifecyclerole/editor__c.mdl),
+   Doclifecyclerole(@Doclifecyclerole/inbox_editor__sys.mdl),
+   Doclifecyclerole(@Doclifecyclerole/owner__c.mdl),
+   Doclifecyclerole(@Doclifecyclerole/reviewer__c.mdl),
+   Doclifecyclerole(@Doclifecyclerole/viewer__c.mdl),
+   Doclifecyclestate(@Doclifecyclestate/planned__v.mdl),
+   Doclifecyclestate(@Doclifecyclestate/unclassified__v.mdl)
+);

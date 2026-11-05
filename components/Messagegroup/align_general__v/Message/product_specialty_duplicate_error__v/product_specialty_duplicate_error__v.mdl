@@ -1,0 +1,7 @@
+Message product_specialty_duplicate_error__v (
+   label(),
+   active(true),
+   default_value('The following Product Specialty records cannot be created because there is already an existing record with this same product and specialty:
+         ${Product} ${Specialty}'),
+   system_managed(false)
+);

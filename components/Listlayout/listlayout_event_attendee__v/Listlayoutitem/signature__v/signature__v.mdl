@@ -1,0 +1,12 @@
+Listlayoutitem signature__v (
+   label('Signature'),
+   active(true),
+   control_label('Signature'),
+   field_key(),
+   is_available(true),
+   is_editable(false),
+   layout_item_type('Control'),
+   object_control('Objectcontrol.signature_cell_control__v'),
+   object_control_properties(),
+   omit_header_label()
+);

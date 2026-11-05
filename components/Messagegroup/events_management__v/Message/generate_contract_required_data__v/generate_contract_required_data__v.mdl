@@ -1,0 +1,6 @@
+Message generate_contract_required_data__v (
+   label(),
+   active(true),
+   default_value('Unable to generate the contract. The following fields are required: ${print_contract_error}'),
+   system_managed(false)
+);

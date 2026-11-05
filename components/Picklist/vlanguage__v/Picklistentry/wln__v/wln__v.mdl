@@ -1,0 +1,5 @@
+Picklistentry wln__v (
+   value('Walloon'),
+   order(347),
+   active(false)
+);

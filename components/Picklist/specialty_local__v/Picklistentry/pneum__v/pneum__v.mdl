@@ -1,0 +1,20 @@
+Picklistentry pneum__v (
+   value('Pneumology'),
+   order(1577),
+   active(true),
+   controlling_entries('be__v',
+         'ch__v',
+         'ci__v',
+         'cm__v',
+         'dz__v',
+         'fr__v',
+         'li__v',
+         'lu__v',
+         'ma__v',
+         'mc__v',
+         'md__v',
+         'ro__v',
+         'si__v',
+         'sn__v',
+         'tn__v')
+);

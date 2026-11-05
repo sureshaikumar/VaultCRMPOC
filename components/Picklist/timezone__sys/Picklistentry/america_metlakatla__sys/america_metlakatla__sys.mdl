@@ -1,0 +1,5 @@
+Picklistentry america_metlakatla__sys (
+   value('(GMT-09:00) Alaska Standard Time (America/Metlakatla)'),
+   order(9),
+   active(true)
+);

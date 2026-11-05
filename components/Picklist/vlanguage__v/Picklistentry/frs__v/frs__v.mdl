@@ -1,0 +1,5 @@
+Picklistentry frs__v (
+   value('Eastern Frisian'),
+   order(83),
+   active(false)
+);

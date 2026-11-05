@@ -1,0 +1,22 @@
+Field customer_focus__c (
+   label('Customer Focus'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('5 – Superior
+4 – Exceeds expectations
+3 – Meets expectations
+2 – Below expectations
+1 – Poor'),
+   list_column(false),
+   order(12),
+   multi_value(false),
+   picklist('Picklist.coaching_report_customer_focus__c'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

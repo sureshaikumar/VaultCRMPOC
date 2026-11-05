@@ -1,0 +1,10 @@
+Vsmvalue yum__v (
+   label('YUM'),
+   active(true),
+   description('Used for legacy transactions denominated in the Yugoslav New Dinar, a historical currency of the Federal Republic of Yugoslavia that was replaced following the country''s dissolution.'),
+   synonyms('Yugoslav dinar',
+         'new Yugoslav dinar',
+         'Serbia legacy currency'),
+   target('yum__sys'),
+   target_label('YUM')
+);

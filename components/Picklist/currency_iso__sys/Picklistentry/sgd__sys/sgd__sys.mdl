@@ -1,0 +1,5 @@
+Picklistentry sgd__sys (
+   value('SGD'),
+   order(160),
+   active(true)
+);

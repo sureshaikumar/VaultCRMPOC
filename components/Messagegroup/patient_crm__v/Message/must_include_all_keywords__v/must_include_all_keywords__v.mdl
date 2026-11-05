@@ -1,0 +1,6 @@
+Message must_include_all_keywords__v (
+   label(),
+   active(true),
+   default_value('Must include all keywords'),
+   system_managed(false)
+);

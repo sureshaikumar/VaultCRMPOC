@@ -1,0 +1,5 @@
+Picklistentry 12540__v (
+   value('Bakersfield, CA Metropolitan Statistical Area'),
+   order(827),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry america_winnipeg__sys (
+   value('(GMT-06:00) Central Standard Time (America/Winnipeg)'),
+   order(54),
+   active(true)
+);

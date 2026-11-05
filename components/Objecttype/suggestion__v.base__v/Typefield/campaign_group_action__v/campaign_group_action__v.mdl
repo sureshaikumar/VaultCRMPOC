@@ -1,0 +1,4 @@
+Typefield campaign_group_action__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field enable_for_offline__v (
+   label('Enable for Offline'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('When true and used in conjunction with VMOC selection criteria, this field will allow customers to limit the number of data types downloaded to the mobile device'),
+   list_column(false),
+   order(17),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

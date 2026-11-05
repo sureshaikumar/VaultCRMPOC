@@ -1,0 +1,6 @@
+Message fax_sent_message__v (
+   label(),
+   active(true),
+   default_value('${template_name} was sent successfully.'),
+   system_managed(false)
+);

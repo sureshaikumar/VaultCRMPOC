@@ -1,0 +1,6 @@
+Picklistentry si-097__v (
+   value('Puconci'),
+   order(4071),
+   active(true),
+   controlling_entries('si__v')
+);

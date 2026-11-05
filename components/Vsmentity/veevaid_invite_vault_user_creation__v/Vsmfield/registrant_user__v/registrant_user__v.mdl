@@ -1,0 +1,14 @@
+Vsmfield registrant_user__v (
+   label('Registrant User'),
+   active(true),
+   description('Reference to the Vault user record that was created or is associated with the registrant upon successful completion of the VeevaID invite process. Use to link the invite record to the resulting user account.'),
+   example_values(),
+   synonyms('new user',
+         'invited user',
+         'registrant',
+         'created user'),
+   target('registrant_user__sys'),
+   target_label('Registrant User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,6 @@
+Picklistentry ca-nu__v (
+   value('Nunavut'),
+   order(566),
+   active(true),
+   controlling_entries('ca__v')
+);

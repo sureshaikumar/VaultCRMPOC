@@ -1,0 +1,6 @@
+Picklistentry kz-43__v (
+   value('Qyzylorda oblysy'),
+   order(2503),
+   active(true),
+   controlling_entries('kz__v')
+);

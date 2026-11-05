@@ -1,0 +1,6 @@
+Message budget_name_percent_label__v (
+   label(),
+   active(true),
+   default_value('${budget_name} Allocation Percentage'),
+   system_managed(false)
+);

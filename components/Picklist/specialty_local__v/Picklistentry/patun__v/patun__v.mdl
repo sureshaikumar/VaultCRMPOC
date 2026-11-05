@@ -1,0 +1,6 @@
+Picklistentry patun__v (
+   value('Pulmonology and Tuberculosis'),
+   order(1661),
+   active(true),
+   controlling_entries('am__v')
+);

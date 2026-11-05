@@ -1,0 +1,6 @@
+Message filter_date_range__v (
+   label(),
+   active(true),
+   default_value('${from_date} - ${to_date}'),
+   system_managed(false)
+);

@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation monitored_text_lif_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.monitored_text_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.open_state__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

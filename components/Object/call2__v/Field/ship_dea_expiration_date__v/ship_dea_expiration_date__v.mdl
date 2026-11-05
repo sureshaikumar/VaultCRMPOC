@@ -1,0 +1,17 @@
+Field ship_dea_expiration_date__v (
+   label('Ship DEA Expiration Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('The expiration date of the DEA number corresponding to the ship to address.'),
+   list_column(false),
+   order(118),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,12 @@
+RECREATE Permissionset team5_permission__c (
+   label('team5_permission'),
+   active(true),
+   description(),
+   object.call_followup_task__v.business_days_calculator__c.actions('execute'),
+   object.commercial_insight__v.submit__v.actions('execute'),
+   object.commercial_insight__v.unlock__v.actions('execute'),
+   object.object_actions('read'),
+   object.order__v.manage_deliveries__v.actions('execute'),
+   object.order__v.print__v.actions('execute'),
+   vault_actions.search('suggest')
+);

@@ -1,0 +1,6 @@
+Picklistentry rs-05__v (
+   value('Zapadnobački okrug'),
+   order(3763),
+   active(true),
+   controlling_entries('rs__v')
+);

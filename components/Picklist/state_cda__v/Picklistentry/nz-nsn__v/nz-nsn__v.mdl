@@ -1,0 +1,6 @@
+Picklistentry nz-nsn__v (
+   value('Nelson City'),
+   order(3434),
+   active(true),
+   controlling_entries('nz__v')
+);

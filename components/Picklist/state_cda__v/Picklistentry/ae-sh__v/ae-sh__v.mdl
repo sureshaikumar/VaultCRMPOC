@@ -1,0 +1,6 @@
+Picklistentry ae-sh__v (
+   value('Ash Shāriqah'),
+   order(12),
+   active(true),
+   controlling_entries('ae__v')
+);

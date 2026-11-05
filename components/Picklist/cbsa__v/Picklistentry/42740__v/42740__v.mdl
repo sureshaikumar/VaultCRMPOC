@@ -1,0 +1,5 @@
+Picklistentry 42740__v (
+   value('Sedalia, MO Micropolitan Statistical Area'),
+   order(538),
+   active(true)
+);

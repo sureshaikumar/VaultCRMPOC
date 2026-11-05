@@ -1,0 +1,4 @@
+Typefield included_in_speaker_cap__v (
+   source('custom'),
+   required(false)
+);

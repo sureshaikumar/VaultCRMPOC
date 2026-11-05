@@ -1,0 +1,6 @@
+Message link_to__v (
+   label(),
+   active(true),
+   default_value('Link To'),
+   system_managed(false)
+);

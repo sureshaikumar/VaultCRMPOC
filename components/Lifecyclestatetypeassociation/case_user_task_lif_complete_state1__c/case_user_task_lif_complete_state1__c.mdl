@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation case_user_task_lif_complete_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.case_user_task_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.complete_state__c'),
+   state_type('Lifecyclestatetype.complete_state__sys')
+);

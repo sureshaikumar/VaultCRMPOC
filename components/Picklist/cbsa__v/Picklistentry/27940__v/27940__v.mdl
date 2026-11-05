@@ -1,0 +1,5 @@
+Picklistentry 27940__v (
+   value('Juneau, AK Micropolitan Statistical Area'),
+   order(132),
+   active(true)
+);

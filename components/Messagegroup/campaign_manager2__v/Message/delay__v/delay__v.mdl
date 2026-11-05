@@ -1,0 +1,6 @@
+Message delay__v (
+   label(),
+   active(true),
+   default_value('Delay'),
+   system_managed(false)
+);

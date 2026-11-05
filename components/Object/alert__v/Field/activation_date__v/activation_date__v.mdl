@@ -1,0 +1,17 @@
+Field activation_date__v (
+   label('Activation Date'),
+   type('DateTime'),
+   active(true),
+   description('The date and time when the alert should first be displayed.'),
+   required(true),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

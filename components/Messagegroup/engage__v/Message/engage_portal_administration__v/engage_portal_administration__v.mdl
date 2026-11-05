@@ -1,0 +1,6 @@
+Message engage_portal_administration__v (
+   label(),
+   active(true),
+   default_value('My Engage Portal Administration'),
+   system_managed(false)
+);

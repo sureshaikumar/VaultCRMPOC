@@ -1,0 +1,6 @@
+Message object_already_exists__v (
+   label(),
+   active(true),
+   default_value('${object_label} Already Exists'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ph-sco__v (
+   value('South Cotabato'),
+   order(3600),
+   active(true),
+   controlling_entries('ph__v')
+);

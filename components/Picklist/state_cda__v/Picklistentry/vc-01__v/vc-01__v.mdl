@@ -1,0 +1,6 @@
+Picklistentry vc-01__v (
+   value('Charlotte'),
+   order(4881),
+   active(true),
+   controlling_entries('vc__v')
+);

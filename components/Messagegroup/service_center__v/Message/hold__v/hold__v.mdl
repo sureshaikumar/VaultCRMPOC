@@ -1,0 +1,6 @@
+Message hold__v (
+   label(),
+   active(true),
+   default_value('Hold'),
+   system_managed(false)
+);

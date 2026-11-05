@@ -1,0 +1,5 @@
+Picklistentry 34220__v (
+   value('Moultrie, GA Micropolitan Statistical Area'),
+   order(119),
+   active(true)
+);

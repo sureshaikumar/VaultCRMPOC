@@ -1,0 +1,14 @@
+Vsmrelationship attachments__v (
+   label('Attachments'),
+   active(false),
+   cardinality(),
+   description('Files and documents attached directly to this Glossary Event record. Use this to access or filter events that have supporting attachments, such as evidence files or reference documents.'),
+   join_object(),
+   synonyms('files',
+         'attached files',
+         'documents attached',
+         'supporting files'),
+   target('attachments__sysr'),
+   target_label('Attachments'),
+   target_object('Object.attachment_object__sys')
+);

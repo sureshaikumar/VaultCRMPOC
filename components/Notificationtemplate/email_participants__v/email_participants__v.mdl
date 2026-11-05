@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate email_participants__v (
+   label('Email Participants'),
+   active(true),
+   description('This message is used in the Email Participants workflow action.'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Note regarding ${workflowLabel}'),
+   notification('<p>${senderName} has sent you an email regarding the workflow: ${workflowLabel}.</p>'),
+   email_body('Dear ${recipientName},<p>${notificationMessage}</p><p>${emailParticipantsMessage}</p>'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

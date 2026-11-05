@@ -1,0 +1,6 @@
+Picklistentry tl-bo__v (
+   value('Bobonaro'),
+   order(4414),
+   active(true),
+   controlling_entries('tl__v')
+);

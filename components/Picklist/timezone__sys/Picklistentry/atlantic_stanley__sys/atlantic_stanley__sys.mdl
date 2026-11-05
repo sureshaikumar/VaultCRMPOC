@@ -1,0 +1,5 @@
+Picklistentry atlantic_stanley__sys (
+   value('(GMT-03:00) Falkland Is. Time (Atlantic/Stanley)'),
+   order(123),
+   active(true)
+);

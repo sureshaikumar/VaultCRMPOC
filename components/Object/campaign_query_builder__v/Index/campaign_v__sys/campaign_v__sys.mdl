@@ -1,0 +1,5 @@
+Index campaign_v__sys (
+   description(),
+   fields('campaign__v'),
+   label('Campaign')
+);

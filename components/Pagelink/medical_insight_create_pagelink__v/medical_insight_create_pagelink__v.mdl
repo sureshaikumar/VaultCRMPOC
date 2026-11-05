@@ -1,0 +1,11 @@
+RECREATE Pagelink medical_insight_create_pagelink__v (
+   label('Medical Insight Create'),
+   description('Redirects Create request to the Medical Insight Detail App Page'),
+   url('https://{{Vault.domain}}/ui/#app/page/{{Page.url_path_name}}/~/create?fieldParameters={{Related.fieldParameters}}'),
+   mode('Create'),
+   page_type('Object'),
+   object('Object.medical_insight__v'),
+   active(true),
+   disable_type_select(false),
+   page('Page.medical_insight_detail_page__v')
+);

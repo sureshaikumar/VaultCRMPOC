@@ -1,0 +1,14 @@
+RECREATE Notificationtemplate videotranscodeerror__v (
+   label('video-Transcode-Error'),
+   active(true),
+   description(),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Notification: Error Transcoding Video "${docNameNoLink}"'),
+   notification('An error occurred while trying to transcode your video <b><a href="${uiBaseExtUrl}/#doc_info/${docId}">${docNameNoLink}</a></b>.
+'),
+   email_body('<p>An error occurred while trying to transcode your video <b><a target="_blank" href="${uiBaseExtUrl}/#doc_info/${docId}">${docNameNoLink}</a></b>.</p>
+'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

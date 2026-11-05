@@ -1,0 +1,22 @@
+Field external_id__v (
+   label('External ID'),
+   type('Number'),
+   active(true),
+   description('Unique identified used for data loading.  For JD-NET, this should be the unique JD-NET ID from the sales file.'),
+   required(true),
+   unique(true),
+   max_value(999999999999999999),
+   min_value(-999999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

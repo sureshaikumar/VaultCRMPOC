@@ -1,0 +1,6 @@
+Picklistentry odcic__v (
+   value('Occupational Diseases'),
+   order(1092),
+   active(true),
+   controlling_entries('bg__v')
+);

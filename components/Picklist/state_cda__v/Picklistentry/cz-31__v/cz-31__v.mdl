@@ -1,0 +1,6 @@
+Picklistentry cz-31__v (
+   value('South Bohemian Region'),
+   order(827),
+   active(true),
+   controlling_entries('cz__v')
+);

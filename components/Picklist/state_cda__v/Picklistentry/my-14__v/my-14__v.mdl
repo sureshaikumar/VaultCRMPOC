@@ -1,0 +1,6 @@
+Picklistentry my-14__v (
+   value('Wilayah Persekutuan Kuala Lumpur'),
+   order(3284),
+   active(true),
+   controlling_entries('my__v')
+);

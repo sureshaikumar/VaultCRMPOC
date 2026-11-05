@@ -1,0 +1,4 @@
+Typefield mccp_activity_type_switch__v (
+   source('standard'),
+   required(false)
+);

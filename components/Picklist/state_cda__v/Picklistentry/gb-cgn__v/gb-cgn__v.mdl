@@ -1,0 +1,6 @@
+Picklistentry gb-cgn__v (
+   value('Ceredigion'),
+   order(1482),
+   active(true),
+   controlling_entries('gb__v')
+);

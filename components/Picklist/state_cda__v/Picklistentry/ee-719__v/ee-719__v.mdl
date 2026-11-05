@@ -1,0 +1,6 @@
+Picklistentry ee-719__v (
+   value('Saku'),
+   order(1131),
+   active(true),
+   controlling_entries('ee__v')
+);

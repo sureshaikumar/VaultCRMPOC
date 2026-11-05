@@ -1,0 +1,4 @@
+Typefield expense_header_status__v (
+   source('standard'),
+   required(false)
+);

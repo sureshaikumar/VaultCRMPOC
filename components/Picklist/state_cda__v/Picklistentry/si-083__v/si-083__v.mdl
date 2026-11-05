@@ -1,0 +1,6 @@
+Picklistentry si-083__v (
+   value('Nazarje'),
+   order(4057),
+   active(true),
+   controlling_entries('si__v')
+);

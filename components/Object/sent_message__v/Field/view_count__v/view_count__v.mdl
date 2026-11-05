@@ -1,0 +1,23 @@
+Field view_count__v (
+   label('Total Views'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(9223372036854775807),
+   min_value(0),
+   scale(0),
+   help_content('A Roll-up summary which captures the total numbers of times the Vault document was viewed based on related Message_Activity_vod records.'),
+   list_column(false),
+   order(43),
+   default_value('0'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

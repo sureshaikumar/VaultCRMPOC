@@ -1,0 +1,5 @@
+Picklistentry no_inheritance__v (
+   value('No Inheritance'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,22 @@
+RECREATE Objecttype workflow_role_setup__v.base__v (
+   label('Base Workflow Role Setup'),
+   label_plural('Base Workflow Role Setup'),
+   active(true),
+   description(),
+   additional_type_validations(),
+   default_type(true),
+   summary_fields(),
+   Typefield(@Typefield/application_role__v.mdl),
+   Typefield(@Typefield/created_by__v.mdl),
+   Typefield(@Typefield/created_date__v.mdl),
+   Typefield(@Typefield/global_id__sys.mdl),
+   Typefield(@Typefield/id.mdl),
+   Typefield(@Typefield/last_initiated_by__sys.mdl),
+   Typefield(@Typefield/link__sys.mdl),
+   Typefield(@Typefield/modified_by__v.mdl),
+   Typefield(@Typefield/modified_date__v.mdl),
+   Typefield(@Typefield/name__v.mdl),
+   Typefield(@Typefield/participation_requirement__v.mdl),
+   Typefield(@Typefield/status__v.mdl),
+   Typefield(@Typefield/workflow__v.mdl)
+);

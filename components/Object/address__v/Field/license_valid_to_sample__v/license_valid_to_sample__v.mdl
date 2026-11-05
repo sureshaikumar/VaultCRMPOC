@@ -1,0 +1,21 @@
+Field license_valid_to_sample__v (
+   label('License Valid To Sample'),
+   type('String'),
+   active(true),
+   description('License Valid to Sample formula defines if a License is Valid or Invalid and determines if an Account can receive and sign for Samples in the VBioPharma application.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(80),
+   formula('If(Length( Trim(license__v )) <1,"Invalid",If(IsBlank( license_expiration_date__v ) ,"Invalid",If((And( license_expiration_date__v >= Today() ,license_status__v = "valid__v")),"Valid", "Invalid")))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

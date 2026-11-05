@@ -1,0 +1,6 @@
+Message mccp_approval_rule_select_cycle_channel__v (
+   label(),
+   active(true),
+   default_value('Select Cycle Channel'),
+   system_managed(false)
+);

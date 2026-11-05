@@ -1,0 +1,6 @@
+Message documentchecksection_label__sys (
+   label(),
+   active(true),
+   default_value('Document Check Section'),
+   system_managed(false)
+);

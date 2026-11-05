@@ -1,0 +1,5 @@
+Picklistentry gypi__v (
+   value('Perinatology'),
+   order(72),
+   active(true)
+);

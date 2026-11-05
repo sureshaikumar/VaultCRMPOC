@@ -1,0 +1,5 @@
+Picklistentry mn__v (
+   value('Mongolian'),
+   order(227),
+   active(false)
+);

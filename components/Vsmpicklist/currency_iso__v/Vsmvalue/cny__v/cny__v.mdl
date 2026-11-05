@@ -1,0 +1,11 @@
+Vsmvalue cny__v (
+   label('CNY'),
+   active(true),
+   description('Use when recording monetary amounts in the official currency of the People''s Republic of China.'),
+   synonyms('Chinese Yuan',
+         'Renminbi',
+         'RMB',
+         'Yuan'),
+   target('cny__sys'),
+   target_label('CNY')
+);

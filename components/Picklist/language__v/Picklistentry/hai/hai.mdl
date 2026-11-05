@@ -1,0 +1,5 @@
+Picklistentry hai (
+   value('Haida'),
+   order(195),
+   active(true)
+);

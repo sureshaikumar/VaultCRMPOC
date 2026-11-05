@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.crm_custom_exception_mapping__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="custom_mapping_type__v" />
+            <vault:field reference="relationship_direction__v" />
+            <vault:field reference="sfdc_value__v" />
+            <vault:field reference="vault_object_name__v" />
+            <vault:field reference="vault_picklist_name__v" />
+            <vault:field reference="vault_value__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

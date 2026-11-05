@@ -1,0 +1,4 @@
+Typefield ytd_activity__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Message cycle_utilization_roster_member_vacant__v (
+   label(),
+   active(true),
+   default_value('Vacant'),
+   system_managed(false)
+);

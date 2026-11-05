@@ -1,0 +1,6 @@
+Picklistentry gt-01__v (
+   value('Guatemala'),
+   order(1780),
+   active(true),
+   controlling_entries('gt__v')
+);

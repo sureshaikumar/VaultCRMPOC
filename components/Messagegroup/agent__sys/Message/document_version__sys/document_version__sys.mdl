@@ -1,0 +1,6 @@
+Message document_version__sys (
+   label(),
+   active(true),
+   default_value('Document Version'),
+   system_managed(true)
+);

@@ -1,0 +1,6 @@
+Message web_address__v (
+   label(),
+   active(true),
+   default_value('Web Address'),
+   system_managed(false)
+);

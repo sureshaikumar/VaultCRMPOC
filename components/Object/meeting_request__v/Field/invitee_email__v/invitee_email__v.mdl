@@ -1,0 +1,19 @@
+Field invitee_email__v (
+   label('Invitee Email'),
+   type('String'),
+   active(true),
+   description('Stores the email of the Invitee. When meeting requests are submitted through the Engage Scheduling Site, this field is stamped with the email address of the Account who received the original scheduling email.'),
+   required(false),
+   unique(false),
+   max_length(80),
+   help_content(),
+   list_column(false),
+   order(21),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

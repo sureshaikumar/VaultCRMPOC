@@ -1,0 +1,5 @@
+Picklistentry rd__v (
+   value('Research and Development'),
+   order(88),
+   active(true)
+);

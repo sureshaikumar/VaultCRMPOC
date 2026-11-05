@@ -1,0 +1,6 @@
+Message check_in_calls_restarted__v (
+   label(),
+   active(true),
+   default_value('Check-In Calls Restarted'),
+   system_managed(false)
+);

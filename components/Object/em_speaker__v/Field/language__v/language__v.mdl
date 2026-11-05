@@ -1,0 +1,18 @@
+Field language__v (
+   label('Language'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Store''s the speaker''s language, used to determine which email language template to use for email communication with a speaker'),
+   list_column(false),
+   order(52),
+   multi_value(false),
+   picklist('Picklist.vlanguage__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

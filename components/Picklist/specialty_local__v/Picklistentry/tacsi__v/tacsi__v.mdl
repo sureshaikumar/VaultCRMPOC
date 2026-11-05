@@ -1,0 +1,7 @@
+Picklistentry tacsi__v (
+   value('Thoracic and Cardiac Surgery'),
+   order(1835),
+   active(true),
+   controlling_entries('il__v',
+         'sa__v')
+);

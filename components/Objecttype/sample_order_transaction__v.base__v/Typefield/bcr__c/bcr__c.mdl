@@ -1,0 +1,4 @@
+Typefield bcr__c (
+   source('standard'),
+   required(false)
+);

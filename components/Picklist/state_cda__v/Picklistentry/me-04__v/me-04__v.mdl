@@ -1,0 +1,6 @@
+Picklistentry me-04__v (
+   value('Bijelo Polje'),
+   order(2910),
+   active(true),
+   controlling_entries('me__v')
+);

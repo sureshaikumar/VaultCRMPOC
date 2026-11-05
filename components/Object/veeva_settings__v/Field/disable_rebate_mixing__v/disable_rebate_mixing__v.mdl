@@ -1,0 +1,18 @@
+Field disable_rebate_mixing__v (
+   label('Disable Rebate Mixing'),
+   type('Boolean'),
+   active(true),
+   description('Determines whether line level discounts are allowed when free goods are included in the Order Line. Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(116),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

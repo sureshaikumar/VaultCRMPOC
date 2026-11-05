@@ -1,0 +1,5 @@
+Picklistentry staging__v (
+   value('Staging'),
+   order(4),
+   active(true)
+);

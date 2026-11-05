@@ -1,0 +1,13 @@
+Objectlifecyclepermission editor_read__v (
+   states('Objectlifecyclestate.archive_state__v',
+         'Objectlifecyclestate.canceled_state__v',
+         'Objectlifecyclestate.closed_state__v',
+         'Objectlifecyclestate.escalated_state__v',
+         'Objectlifecyclestate.new_state__v',
+         'Objectlifecyclestate.onhold_state__v',
+         'Objectlifecyclestate.open_state__v',
+         'Objectlifecyclestate.pending_state__v',
+         'Objectlifecyclestate.solved_state__v'),
+   role('Objectlifecyclerole.editor__v'),
+   permission('Read')
+);

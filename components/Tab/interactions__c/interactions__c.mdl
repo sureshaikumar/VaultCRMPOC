@@ -1,0 +1,15 @@
+RECREATE Tab interactions__c (
+   active(true),
+   all_view_label('All Interactions'),
+   enable_global_search(false),
+   filter_criteria('[]'),
+   global_search_placeholder(''),
+   label('Interactions'),
+   modal_create_record(false),
+   my_view_label('My Interactions'),
+   object('call2__v'),
+   order(7600),
+   parent(),
+   prevent_create(false),
+   recent_view_label('Recent Interactions')
+);

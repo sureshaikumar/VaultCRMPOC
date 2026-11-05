@@ -1,0 +1,6 @@
+Picklistentry br-ac__v (
+   value('Acre'),
+   order(451),
+   active(true),
+   controlling_entries('br__v')
+);

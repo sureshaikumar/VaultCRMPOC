@@ -1,0 +1,5 @@
+Picklistentry 10940__v (
+   value('Alma, MI Micropolitan Statistical Area'),
+   order(582),
+   active(true)
+);

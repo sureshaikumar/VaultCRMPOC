@@ -1,0 +1,6 @@
+Picklistentry me-01__v (
+   value('Andrijevica'),
+   order(2907),
+   active(true),
+   controlling_entries('me__v')
+);

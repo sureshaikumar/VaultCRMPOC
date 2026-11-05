@@ -1,0 +1,6 @@
+Picklistentry et-ti__v (
+   value('Tigrai'),
+   order(1272),
+   active(true),
+   controlling_entries('et__v')
+);

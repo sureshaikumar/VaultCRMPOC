@@ -1,0 +1,6 @@
+Picklistentry ugspi__v (
+   value('Upper GI Surgery'),
+   order(1887),
+   active(true),
+   controlling_entries('my__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ke-45__v (
+   value('Vihiga'),
+   order(2398),
+   active(true),
+   controlling_entries('ke__v')
+);

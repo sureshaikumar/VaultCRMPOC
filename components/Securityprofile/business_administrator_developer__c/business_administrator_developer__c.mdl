@@ -1,0 +1,6 @@
+RECREATE Securityprofile business_administrator_developer__c (
+   label('Business Administrator - Developer'),
+   active(true),
+   description('System provided security profile for Business Administrators. Users with this profile can manage picklists and object records but will not be able to make configuration changes.'),
+   permission_sets('business_administrator_permissions_dev__c')
+);

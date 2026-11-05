@@ -1,0 +1,7 @@
+Picklistentry cpanm__v (
+   value('Clinical Physiology and Nuclear Medicine'),
+   order(288),
+   active(true),
+   controlling_entries('dk__v',
+         'fi__v')
+);

@@ -1,0 +1,4 @@
+Typefield latest_attachment_added_date__v (
+   source('standard'),
+   required(false)
+);

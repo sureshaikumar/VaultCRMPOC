@@ -1,0 +1,6 @@
+Picklistentry mw-ks__v (
+   value('Kasungu'),
+   order(3217),
+   active(true),
+   controlling_entries('mw__v')
+);

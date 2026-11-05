@@ -1,0 +1,6 @@
+Message selected_field__v (
+   label(),
+   active(true),
+   default_value('Field: ${selected_field}'),
+   system_managed(false)
+);

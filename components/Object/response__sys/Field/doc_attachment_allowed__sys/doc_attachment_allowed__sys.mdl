@@ -1,0 +1,17 @@
+Field doc_attachment_allowed__sys (
+   label('Attachment Allowed (Document)'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(true),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(9),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

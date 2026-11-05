@@ -1,0 +1,4 @@
+Typefield disposition__v (
+   source('standard'),
+   required(false)
+);

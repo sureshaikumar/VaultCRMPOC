@@ -1,0 +1,12 @@
+RECREATE Picklist data_change_request_external_status__v (
+   label('External Status'),
+   active(true),
+   Picklistentry(@Picklistentry/change_new__v.mdl),
+   Picklistentry(@Picklistentry/change_pendingreview__v.mdl),
+   Picklistentry(@Picklistentry/change_partiallyprocessed__v.mdl),
+   Picklistentry(@Picklistentry/change_processed__v.mdl),
+   Picklistentry(@Picklistentry/change_cancelled__v.mdl),
+   Picklistentry(@Picklistentry/change_inqueue__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

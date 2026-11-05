@@ -1,0 +1,8 @@
+RECREATE Pagelayout em_meal_opt_in_attendance_limit_rule_det__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('EM Meal Opt In Attendance Limit Rule Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

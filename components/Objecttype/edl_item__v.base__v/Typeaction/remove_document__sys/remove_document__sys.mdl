@@ -1,0 +1,3 @@
+Typeaction remove_document__sys (
+   action('edl_item__v.remove_document__sys')
+);

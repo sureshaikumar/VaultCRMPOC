@@ -1,0 +1,6 @@
+Picklistentry ni-md__v (
+   value('Madriz'),
+   order(3367),
+   active(true),
+   controlling_entries('ni__v')
+);

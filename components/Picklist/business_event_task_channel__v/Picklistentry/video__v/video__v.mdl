@@ -1,0 +1,5 @@
+Picklistentry video__v (
+   value('Video'),
+   order(1),
+   active(true)
+);

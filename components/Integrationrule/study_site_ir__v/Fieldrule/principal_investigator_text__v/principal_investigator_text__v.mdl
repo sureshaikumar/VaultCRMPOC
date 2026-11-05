@@ -1,0 +1,15 @@
+Fieldrule principal_investigator_text__v (
+   label('Principal Investigator'),
+   active(true),
+   query_object('site__v'),
+   query_field('principal_investigator__vr.name__v'),
+   target_object('Object.vault_clinical_site__v'),
+   target_object_field('Field.principal_investigator_text__v'),
+   target_docfield(),
+   reference_lookup_type(),
+   reference_lookup(),
+   field_default(),
+   query_field_select(),
+   query_field_type('vobject_text__sys'),
+   target_field_lookup()
+);

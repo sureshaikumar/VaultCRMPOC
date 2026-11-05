@@ -1,0 +1,6 @@
+Picklistentry gb-slf__v (
+   value('Salford'),
+   order(1620),
+   active(true),
+   controlling_entries('gb__v')
+);

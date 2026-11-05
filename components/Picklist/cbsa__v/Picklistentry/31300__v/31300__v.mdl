@@ -1,0 +1,5 @@
+Picklistentry 31300__v (
+   value('Lumberton, NC Micropolitan Statistical Area'),
+   order(612),
+   active(true)
+);

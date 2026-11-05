@@ -1,0 +1,13 @@
+Vsmfield first_assigned_date__v (
+   label('First Assigned Date'),
+   active(true),
+   description('The date and time when the activity was first assigned to a user. Useful for measuring time-to-assignment SLAs and understanding how long an activity has been in someone\''s queue.'),
+   example_values(),
+   synonyms('initially assigned',
+         'first assignment date',
+         'original assignment date'),
+   target('first_assigned_date__v'),
+   target_label('First Assigned Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

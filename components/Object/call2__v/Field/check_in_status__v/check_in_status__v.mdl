@@ -1,0 +1,20 @@
+Field check_in_status__v (
+   label('Check In Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Captures check in status.
+Checked_In_vod - GPS coordinates were captured.
+Not_Checked_In_vod - GPS coordinates could not be captured.'),
+   list_column(false),
+   order(38),
+   multi_value(false),
+   picklist('Picklist.call2_check_in_status__v'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message field_force_exclusion__v (
+   label(),
+   active(true),
+   default_value('Account ${account_name} cannot be a target for any Territories affiliated with Field Force ${field_force} between ${start_date} and ${end_date} due to an exclusion.'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry purchasing__v (
+   value('Purchasing'),
+   order(14),
+   active(true)
+);

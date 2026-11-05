@@ -1,0 +1,6 @@
+Message view_segments__v (
+   label(),
+   active(true),
+   default_value('View Segments'),
+   system_managed(false)
+);

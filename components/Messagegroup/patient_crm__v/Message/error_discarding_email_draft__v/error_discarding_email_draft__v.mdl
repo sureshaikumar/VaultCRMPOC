@@ -1,0 +1,6 @@
+Message error_discarding_email_draft__v (
+   label(),
+   active(true),
+   default_value('Error Discarding Email Draft'),
+   system_managed(false)
+);

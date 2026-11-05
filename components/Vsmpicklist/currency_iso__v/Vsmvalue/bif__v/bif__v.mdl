@@ -1,0 +1,9 @@
+Vsmvalue bif__v (
+   label('BIF'),
+   active(true),
+   description('The Burundian Franc (BIF), the official currency of Burundi, used for all financial and commercial transactions in the country.'),
+   synonyms('Burundian franc',
+         'Burundi currency'),
+   target('bif__sys'),
+   target_label('BIF')
+);

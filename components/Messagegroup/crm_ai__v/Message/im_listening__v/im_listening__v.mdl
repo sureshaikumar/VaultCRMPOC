@@ -1,0 +1,6 @@
+Message im_listening__v (
+   label(),
+   active(true),
+   default_value('I''m Listening'),
+   system_managed(false)
+);

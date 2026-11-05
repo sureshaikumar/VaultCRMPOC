@@ -1,0 +1,6 @@
+Message create_target_list_info__v (
+   label(),
+   active(true),
+   default_value('Target information will appear here'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry nurse__v (
+   value('Nurse'),
+   order(76),
+   active(true)
+);

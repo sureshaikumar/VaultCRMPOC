@@ -1,0 +1,6 @@
+Message msging_business_acc_creation_failed__v (
+   label(),
+   active(true),
+   default_value('Messaging Business Account Creation Failed'),
+   system_managed(false)
+);

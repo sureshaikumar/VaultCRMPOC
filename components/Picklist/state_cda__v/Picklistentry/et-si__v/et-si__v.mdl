@@ -1,0 +1,6 @@
+Picklistentry et-si__v (
+   value('Sidama'),
+   order(1268),
+   active(true),
+   controlling_entries('et__v')
+);

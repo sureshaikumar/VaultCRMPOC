@@ -1,0 +1,20 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.brand__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_by__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="modified_date__v" />
+            <vault:field reference="original_source_id__v" />
+            <vault:field reference="vexternal_id__v" />
+            <vault:field reference="product_type__v" />
+            <vault:field reference="source_vault_id__v" />
+            <vault:field reference="source_status__v" />
+            <vault:field reference="deleted_in_source__v" />
+            <vault:field reference="product_family__v" />
+            <vault:field reference="link__sys" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

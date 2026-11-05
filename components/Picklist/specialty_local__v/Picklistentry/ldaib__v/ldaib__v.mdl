@@ -1,0 +1,7 @@
+Picklistentry ldaib__v (
+   value('Laboratory Diagnostics'),
+   order(837),
+   active(true),
+   controlling_entries('kg__v',
+         'pl__v')
+);

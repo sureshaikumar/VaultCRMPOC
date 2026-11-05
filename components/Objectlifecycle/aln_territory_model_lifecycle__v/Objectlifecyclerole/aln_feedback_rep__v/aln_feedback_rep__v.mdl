@@ -1,0 +1,5 @@
+Objectlifecyclerole aln_feedback_rep__v (
+   active(true),
+   application_role('Applicationrole.aln_feedback_rep__v'),
+   permissions()
+);

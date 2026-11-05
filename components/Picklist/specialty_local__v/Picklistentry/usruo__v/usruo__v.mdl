@@ -1,0 +1,6 @@
+Picklistentry usruo__v (
+   value('Urologic Surgery'),
+   order(1898),
+   active(true),
+   controlling_entries('th__v')
+);

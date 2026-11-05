@@ -1,0 +1,5 @@
+Picklistentry australia_lindeman__sys (
+   value('(GMT+10:00) Australian Eastern Standard Time (Australia/Lindeman)'),
+   order(283),
+   active(true)
+);

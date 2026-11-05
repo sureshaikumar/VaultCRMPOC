@@ -1,0 +1,18 @@
+Field request_receipt__v (
+   label('Request Receipt'),
+   type('Boolean'),
+   active(true),
+   description('Set to a value of True if a receipt is requested from the receiver for the AOC via the signature page.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(26),
+   default_value('false'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

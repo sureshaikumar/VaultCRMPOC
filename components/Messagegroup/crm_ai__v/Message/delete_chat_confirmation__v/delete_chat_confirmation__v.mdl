@@ -1,0 +1,6 @@
+Message delete_chat_confirmation__v (
+   label(),
+   active(true),
+   default_value('Deleting a chat is permanent.'),
+   system_managed(false)
+);

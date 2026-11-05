@@ -1,0 +1,8 @@
+Objectworkflowstep notification_approved__c (
+   label('Notification Approved'),
+   type('notification'),
+   next_steps('Objectworkflowstep.end__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description()
+);

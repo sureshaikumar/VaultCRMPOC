@@ -1,0 +1,5 @@
+Picklistentry tpi (
+   value('Tok Pisin'),
+   order(328),
+   active(true)
+);

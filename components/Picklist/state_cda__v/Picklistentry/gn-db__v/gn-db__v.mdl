@@ -1,0 +1,6 @@
+Picklistentry gn-db__v (
+   value('Dabola'),
+   order(1722),
+   active(true),
+   controlling_entries('gn__v')
+);

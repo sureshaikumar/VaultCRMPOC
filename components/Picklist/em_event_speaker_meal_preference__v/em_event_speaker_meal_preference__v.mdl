@@ -1,0 +1,7 @@
+RECREATE Picklist em_event_speaker_meal_preference__v (
+   label('Meal Preference'),
+   active(true),
+   Picklistentry(@Picklistentry/vegetarian__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

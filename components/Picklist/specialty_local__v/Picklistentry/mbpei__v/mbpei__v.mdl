@@ -1,0 +1,7 @@
+Picklistentry mbpei__v (
+   value('Medical Biological Pharmacy'),
+   order(900),
+   active(true),
+   controlling_entries('fr__v',
+         'mc__v')
+);

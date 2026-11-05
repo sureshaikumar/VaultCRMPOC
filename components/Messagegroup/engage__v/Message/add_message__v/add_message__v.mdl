@@ -1,0 +1,6 @@
+Message add_message__v (
+   label(),
+   active(true),
+   default_value('Add Message'),
+   system_managed(false)
+);

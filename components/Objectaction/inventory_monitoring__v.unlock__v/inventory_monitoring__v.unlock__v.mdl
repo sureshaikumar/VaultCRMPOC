@@ -1,0 +1,8 @@
+RECREATE Objectaction inventory_monitoring__v.unlock__v (
+   label('Unlock'),
+   description('Unlocks the inventory monitoring'),
+   parameters(),
+   action('Recordaction.com.veeva.vault.app.vaultcrm.core.inventorymonitoring.actions.InventoryMonitoringUnlockAction'),
+   active(true),
+   available_all_states(false)
+);

@@ -1,0 +1,14 @@
+Vsmfield message_body_json__v (
+   label('Message Body'),
+   active(true),
+   description('The full JSON payload of the message that triggered the exception, stored as long text. Use this field to inspect the raw data that caused the failure, which is critical for debugging and reprocessing failed messages.'),
+   example_values(),
+   synonyms('message payload',
+         'JSON body',
+         'message content',
+         'raw message'),
+   target('message_body_json__sys'),
+   target_label('Message Body'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

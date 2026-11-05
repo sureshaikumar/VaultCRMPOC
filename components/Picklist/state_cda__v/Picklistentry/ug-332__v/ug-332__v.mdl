@@ -1,0 +1,6 @@
+Picklistentry ug-332__v (
+   value('Pakwach'),
+   order(4737),
+   active(true),
+   controlling_entries('ug__v')
+);

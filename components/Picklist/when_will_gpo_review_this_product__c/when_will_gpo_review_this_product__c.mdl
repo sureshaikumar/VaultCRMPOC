@@ -1,0 +1,8 @@
+RECREATE Picklist when_will_gpo_review_this_product__c (
+   label('When will GPO review this product?'),
+   active(true),
+   Picklistentry(@Picklistentry/preapproval__c.mdl),
+   Picklistentry(@Picklistentry/postapproval__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

@@ -1,0 +1,6 @@
+Picklistentry by-vi__v (
+   value('Vitsebsk Region'),
+   order(552),
+   active(true),
+   controlling_entries('by__v')
+);

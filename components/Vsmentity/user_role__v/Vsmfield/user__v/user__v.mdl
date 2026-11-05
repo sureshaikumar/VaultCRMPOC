@@ -1,0 +1,13 @@
+Vsmfield user__v (
+   label('User'),
+   active(true),
+   description('The Vault user associated with this user role record, establishing which individual holds the specified application role. Use this to look up all roles assigned to a particular user or to find which users hold a given role.'),
+   example_values(),
+   synonyms('assigned user',
+         'member',
+         'person'),
+   target('user__sys'),
+   target_label('User'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

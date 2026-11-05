@@ -1,0 +1,18 @@
+<vault:page xmlns:vault="VeevaVault" controller="Object.user_task__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="One-Column">
+            <vault:field reference="name__v" />
+            <vault:field reference="assigned_to__v" />
+            <vault:field reference="due_date__v" />
+            <vault:field reference="completion_date__v" />
+            <vault:field reference="complete__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="lifecycle__v" />
+            <vault:field reference="state__v" />
+            <vault:field reference="priority__sys" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="Workflow Timeline" name="workflow_timeline__v">
+        <vault:wftimeline />
+    </vault:section>
+</vault:page>

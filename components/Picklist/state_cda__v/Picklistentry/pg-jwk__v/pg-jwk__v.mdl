@@ -1,0 +1,6 @@
+Picklistentry pg-jwk__v (
+   value('Jiwaka'),
+   order(3502),
+   active(true),
+   controlling_entries('pg__v')
+);

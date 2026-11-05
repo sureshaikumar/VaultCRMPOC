@@ -1,0 +1,5 @@
+Picklistentry 43460__v (
+   value('Sikeston, MO Micropolitan Statistical Area'),
+   order(624),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Message confirm_portal_deletion_body__v (
+   label(),
+   active(true),
+   default_value('Pressing "Confirm" will delete this My Engage Portal.'),
+   system_managed(false)
+);

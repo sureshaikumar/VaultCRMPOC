@@ -1,0 +1,19 @@
+Field webinar_host_token__v (
+   label('Webinar Host Token'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(true),
+   max_length(255),
+   help_content('The Zoom user token for the user who is the host of the webinar. The host is the Zoom user who can start a webinar.'),
+   list_column(false),
+   order(104),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

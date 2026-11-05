@@ -1,0 +1,23 @@
+Field aoc_sign_request_expiry_period__v (
+   label('AOC Signature Request Expiry Period'),
+   type('Number'),
+   active(true),
+   description('The number of days the Signature Request share link will be active.'),
+   required(false),
+   unique(false),
+   max_value(999),
+   min_value(-999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(18),
+   default_value('30'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message last_check_in__v (
+   label(),
+   active(true),
+   default_value('Last Check-In'),
+   system_managed(false)
+);

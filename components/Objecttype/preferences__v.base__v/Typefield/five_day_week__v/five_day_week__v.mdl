@@ -1,0 +1,4 @@
+Typefield five_day_week__v (
+   source('standard'),
+   required(false)
+);

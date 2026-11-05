@@ -1,0 +1,6 @@
+Message import_using_data_grid_loader__v (
+   label(),
+   active(true),
+   default_value('Import using Data Grid Loader'),
+   system_managed(false)
+);

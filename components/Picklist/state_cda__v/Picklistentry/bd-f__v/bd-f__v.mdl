@@ -1,0 +1,6 @@
+Picklistentry bd-f__v (
+   value('Rangpur'),
+   order(299),
+   active(true),
+   controlling_entries('bd__v')
+);

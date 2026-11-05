@@ -1,0 +1,8 @@
+RECREATE Objectvalidation mc_cycle_plan_target__v.team_max_validations__v (
+   label('Team_Max_Validations'),
+   active(true),
+   expression('Or(IsBlank(team_channel_interactions_max__v),IsBlank(team_channel_interactions_goal__v),team_channel_interactions_max__v  >= team_channel_interactions_goal__v)'),
+   description('team_channel_interactions_max__v cannot be less than team_channel_interactions_goal__v'),
+   error_message('Team Channel Interactions Max cannot be less than Team Channel Interactions Goal.'),
+   error_location('team_channel_interactions_max__v')
+);

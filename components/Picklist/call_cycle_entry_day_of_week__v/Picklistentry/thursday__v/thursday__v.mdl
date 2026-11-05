@@ -1,0 +1,5 @@
+Picklistentry thursday__v (
+   value('Thursday'),
+   order(4),
+   active(true)
+);

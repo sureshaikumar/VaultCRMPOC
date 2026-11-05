@@ -1,0 +1,8 @@
+Tabcollectionitem product__c (
+   label(),
+   active(false),
+   tabs(),
+   order(9),
+   tab('Tab.product__c'),
+   type('Tab')
+);

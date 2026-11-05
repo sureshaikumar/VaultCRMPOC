@@ -1,0 +1,15 @@
+Field unsubscribe_confirm_html_file__v (
+   label('Unsubscribe Confirm HTML'),
+   type('Attachment'),
+   active(true),
+   description('Holds the HTML that will be used for the confirmation page when the recipient clicks on the unsubscribe button.'),
+   required(false),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

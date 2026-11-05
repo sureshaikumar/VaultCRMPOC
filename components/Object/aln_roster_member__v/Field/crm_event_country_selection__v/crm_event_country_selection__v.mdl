@@ -1,0 +1,18 @@
+Field crm_event_country_selection__v (
+   label('CRM Event Country Selection'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(false),
+   help_content('Indicates if the user can modify the country picklist or not when creating an event.'),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

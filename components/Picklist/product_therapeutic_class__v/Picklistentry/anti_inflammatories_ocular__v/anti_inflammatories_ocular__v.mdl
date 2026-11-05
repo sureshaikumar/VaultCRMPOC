@@ -1,0 +1,5 @@
+Picklistentry anti_inflammatories_ocular__v (
+   value('Anti-inflammatories (Ocular)'),
+   order(82),
+   active(true)
+);

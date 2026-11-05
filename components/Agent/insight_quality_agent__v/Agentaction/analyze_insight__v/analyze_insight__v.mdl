@@ -1,0 +1,12 @@
+Agentaction analyze_insight__v (
+   label('Analyze Insight'),
+   active(true),
+   api_access(),
+   description('Analyzing the insight and provides the user feedback'),
+   hide_in_chat(),
+   instructions(@instructions.txt),
+   supplemental_instructions(),
+   support_chat(false),
+   tool_evaluation('AUTO'),
+   tool_evaluation_required_tool()
+);

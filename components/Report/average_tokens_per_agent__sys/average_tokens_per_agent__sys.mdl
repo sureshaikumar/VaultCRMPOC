@@ -1,0 +1,21 @@
+RECREATE Report average_tokens_per_agent__sys (
+   label('Average Tokens per Action by Agent'),
+   active(true),
+   description('Provides an average per week of token consumption by agent'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.agent_instance_with_agent_action_ex__sys'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('vault_ai__sys',
+      'veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

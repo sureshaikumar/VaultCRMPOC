@@ -1,0 +1,5 @@
+Picklistentry ter__v (
+   value('Tereno'),
+   order(315),
+   active(false)
+);

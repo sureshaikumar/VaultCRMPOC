@@ -1,0 +1,6 @@
+Message start_workflow__v (
+   label(),
+   active(true),
+   default_value('Start Workflow'),
+   system_managed(false)
+);

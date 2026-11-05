@@ -1,0 +1,6 @@
+Message from_channel_assignment_on_date__v (
+   label(),
+   active(true),
+   default_value('From ${channel_assignment__v} on ${document_creation_date__v}'),
+   system_managed(false)
+);

@@ -1,0 +1,16 @@
+RECREATE Layoutrule trained_model_performance_metric_detail__c.hide_fields_if_study_metadata__sys (
+   active(true),
+   description(),
+   displayed_as_readonly_fields(),
+   displayed_as_required_fields(),
+   expression('isBlank(field_extracted__sys) = False'),
+   focus_on_layout(false),
+   hidden_pages(),
+   hide_controls(),
+   hide_fields('predictions_above_threshold__sys',
+      'correct_predictions_above_threshold__sys'),
+   hide_sections(),
+   hide_layout(false),
+   label('Hide Fields if Study Metadata'),
+   order(100)
+);

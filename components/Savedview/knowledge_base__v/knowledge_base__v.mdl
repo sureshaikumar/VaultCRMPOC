@@ -1,0 +1,22 @@
+RECREATE Savedview knowledge_base__v (
+   label('Knowledge Base'),
+   description('Default View for Knowledge Base in Service Center Knowledge Base Library'),
+   tab('Tab.service_center_library__v'),
+   created_by('System'),
+   icon('BOOK'),
+   search_criteria('{"facetOverride":"country__v,detail_product__v,type__v","searchString":"","viewLayoutType":"reporting","doFacetSearch":"true","doAccurateCount":"false","maxResults":"25","sortOrder":"desc","sortBy":"version_modified_date__v","runSmartFilter":"false"}'),
+   view_layout('{"viewColumns":{"subtype__v":{"name":"subtype__v","order":2.0,"width":160},"detail_product__v":{"name":"detail_product__v","order":4.0,"width":160},"lifecycle__v":{"name":"lifecycle__v","order":6.0,"width":160},"name__v":{"name":"name__v","order":0.0,"width":200},"type__v":{"name":"type__v","order":1.0,"width":160},"country__v":{"name":"country__v","order":3.0,"width":160},"created_by__v":{"name":"created_by__v","order":7.0,"width":200},"status__v":{"name":"status__v","order":5.0,"width":160}},"truncateText":false}'),
+   mandatory(true),
+   view_layout_type('REPORTING'),
+   search_criteria_list(),
+   collection(),
+   report_layouts(),
+   vql_search_criteria('TONAME(type__v) = ''reference__v'' AND (TONAME(subtype__v) = ''form__v'' OR TONAME(subtype__v) = ''standard_operating_procedure__v'')'),
+   managed(true),
+   owner('System'),
+   status('active__v'),
+   grid_id(),
+   grid_location(),
+   object_public_key(),
+   view_type('tab')
+);

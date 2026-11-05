@@ -1,0 +1,1 @@
+<p>Your ${sandboxSize} Sandbox ${sandboxName} was deleted based on inactivity.</p></br><p>To learn more about ${sandboxSize} Sandbox lifecycle and policies, please visit our documentation guide, available <a href=${sandboxExpirationHelpLink}><b>here.</b></a></p>

@@ -1,0 +1,6 @@
+Picklistentry bw-st__v (
+   value('Sowa Town'),
+   order(545),
+   active(true),
+   controlling_entries('bw__v')
+);

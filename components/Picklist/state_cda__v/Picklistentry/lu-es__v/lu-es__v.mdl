@@ -1,0 +1,6 @@
+Picklistentry lu-es__v (
+   value('Esch-sur-Alzette'),
+   order(2693),
+   active(true),
+   controlling_entries('lu__v')
+);

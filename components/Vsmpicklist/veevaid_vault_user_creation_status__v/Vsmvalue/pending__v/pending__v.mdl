@@ -1,0 +1,11 @@
+Vsmvalue pending__v (
+   label('Pending'),
+   active(true),
+   description('Indicates that the VeevaID Vault user creation request has been submitted and is currently waiting for the user to complete their VeevaID registration.'),
+   synonyms('in progress',
+         'awaiting creation',
+         'queued',
+         'processing'),
+   target('pending__v'),
+   target_label('Pending')
+);

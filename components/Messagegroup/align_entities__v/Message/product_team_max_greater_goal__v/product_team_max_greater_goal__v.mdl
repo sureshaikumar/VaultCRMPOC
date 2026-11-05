@@ -1,0 +1,6 @@
+Message product_team_max_greater_goal__v (
+   label(),
+   active(true),
+   default_value('Product ${product_name} team product activity max ${max} must be equal to or greater than its team product activity goal ${goal}.'),
+   system_managed(false)
+);

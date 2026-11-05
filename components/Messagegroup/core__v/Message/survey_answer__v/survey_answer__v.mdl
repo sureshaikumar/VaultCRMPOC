@@ -1,0 +1,6 @@
+Message survey_answer__v (
+   label(),
+   active(true),
+   default_value('Answer'),
+   system_managed(false)
+);

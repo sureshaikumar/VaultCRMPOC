@@ -1,0 +1,6 @@
+Picklistentry kg-o__v (
+   value('Osh (Region)'),
+   order(2407),
+   active(true),
+   controlling_entries('kg__v')
+);

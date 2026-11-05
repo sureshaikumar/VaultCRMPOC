@@ -1,0 +1,17 @@
+Field attendee_account_type__v (
+   label('Attendee Account Type'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(1000),
+   help_content('Restrict this rule to run for Attendees of a specific Account Type. See documentation for details. Syntax: (Attendee Account Type 1;;Attendee Account Type 2) Use API name for each Attendee Account Type value.'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

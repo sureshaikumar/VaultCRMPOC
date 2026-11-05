@@ -1,0 +1,8 @@
+RECREATE Objectaction connection_authorization__sys.set_api_key__sys (
+   label('Set API Key'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.system.connectionauthorization.SetAPIKey'),
+   active(true),
+   available_all_states(true)
+);

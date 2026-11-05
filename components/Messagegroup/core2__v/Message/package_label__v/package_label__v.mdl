@@ -1,0 +1,6 @@
+Message package_label__v (
+   label(),
+   active(true),
+   default_value('${object_type} Package Label'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry ada (
+   value('Adangme'),
+   order(117),
+   active(true)
+);

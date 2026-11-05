@@ -1,0 +1,6 @@
+Picklistentry mn-069__v (
+   value('Bayanhongor'),
+   order(3088),
+   active(true),
+   controlling_entries('mn__v')
+);

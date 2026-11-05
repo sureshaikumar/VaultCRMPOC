@@ -1,0 +1,4 @@
+Typefield publish_process_timestamp__v (
+   source('standard'),
+   required(false)
+);

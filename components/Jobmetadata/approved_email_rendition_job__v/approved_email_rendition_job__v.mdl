@@ -1,0 +1,10 @@
+RECREATE Jobmetadata approved_email_rendition_job__v (
+   label('Approved Email Rendition Job'),
+   active(true),
+   chunk_size(500),
+   description('Generates Veeva HTML and Veeva Preview renditions for Approved Email documents'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.approvedemail.jobs.ApprovedEmailRenditionJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

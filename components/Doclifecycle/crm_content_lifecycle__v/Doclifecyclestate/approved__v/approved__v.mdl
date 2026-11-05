@@ -1,0 +1,13 @@
+Doclifecyclestate approved__v (
+   label('Approved'),
+   active(true),
+   description('This is the state when the document is approved for use.'),
+   order(3),
+   cancel_state(),
+   skip_cancel_state(false),
+   skip_entry_actions_cancel_state(false),
+   entry_criteria(@entry_criteria.xml),
+   entry_action(@entry_action.xml),
+   user_action(@user_action.xml),
+   security_settings(@security_settings.xml)
+);

@@ -1,0 +1,10 @@
+Vsmvalue pab__v (
+   label('PAB'),
+   active(true),
+   description('The official currency of Panama (PAB), pegged at parity with the US dollar, which also circulates freely alongside it in Panama.'),
+   synonyms('Panamanian balboa',
+         'balboa',
+         'PAB'),
+   target('pab__sys'),
+   target_label('PAB')
+);

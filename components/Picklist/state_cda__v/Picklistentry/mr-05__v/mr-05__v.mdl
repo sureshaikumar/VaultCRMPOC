@@ -1,0 +1,6 @@
+Picklistentry mr-05__v (
+   value('Brakna'),
+   order(3096),
+   active(true),
+   controlling_entries('mr__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry ping__v (
+   value('Ping'),
+   order(0),
+   active(true)
+);

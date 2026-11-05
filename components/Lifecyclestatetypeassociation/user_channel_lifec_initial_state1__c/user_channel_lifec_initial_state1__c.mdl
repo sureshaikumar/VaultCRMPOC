@@ -1,0 +1,10 @@
+RECREATE Lifecyclestatetypeassociation user_channel_lifec_initial_state1__c (
+   label(),
+   active(true),
+   description(),
+   document_lifecycle(),
+   document_lifecycle_state(),
+   object_lifecycle('Objectlifecycle.user_channel_lifecycle__v'),
+   object_lifecycle_state('Objectlifecyclestate.pending_state__v'),
+   state_type('Lifecyclestatetype.initial_state__sys')
+);

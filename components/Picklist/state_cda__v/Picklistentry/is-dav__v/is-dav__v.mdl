@@ -1,0 +1,6 @@
+Picklistentry is-dav__v (
+   value('Dalvíkurbyggð'),
+   order(2099),
+   active(true),
+   controlling_entries('is__v')
+);

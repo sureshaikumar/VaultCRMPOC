@@ -1,0 +1,6 @@
+Picklistentry es-pv__v (
+   value('País Vasco'),
+   order(1242),
+   active(true),
+   controlling_entries('es__v')
+);

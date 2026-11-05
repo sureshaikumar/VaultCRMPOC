@@ -1,0 +1,14 @@
+RECREATE Agent query_agent__sys (
+   label('Query Agent'),
+   active(true),
+   agent_user('[agent]query_agent__sys'),
+   class('Agentclass.com.veeva.vault.system.agent.QueryAgent'),
+   description('Use this agent when a user request requires discovering or retrieving Vault data by generating and executing VQL. It fits broad data questions, metadata lookups, record searches, cross-object filtering, aggregation, and FIND-style retrieval where the answer must come from query results. Do not use it for Q&A grounded only in the currently viewed document, page, or object record; route those context-bound reading or comprehension tasks to another appropriate agent.'),
+   document_type(),
+   model_level('ADVANCED'),
+   object(),
+   object_type(),
+   objective(),
+   supplemental_objective(),
+   Agentaction(@Agentaction/query_vault__sys.mdl)
+);

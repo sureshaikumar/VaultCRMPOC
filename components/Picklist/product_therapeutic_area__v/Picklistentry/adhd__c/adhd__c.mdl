@@ -1,0 +1,5 @@
+Picklistentry adhd__c (
+   value('ADHD'),
+   order(15),
+   active(true)
+);

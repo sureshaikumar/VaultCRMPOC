@@ -1,0 +1,10 @@
+RECREATE Jobmetadata events_management_distribution_job__v (
+   label('Events Management Veeva Distribution Record Job'),
+   active(true),
+   chunk_size(500),
+   description('Job for Events Management to create and validate veeva distribution records on sent emails'),
+   job_code('Sdkjob.com.veeva.vault.app.vaultcrm.approvedemail.jobs.EventsManagementVeevaDistributionRecordJob'),
+   queue(),
+   single_instance_states(),
+   timeout_duration()
+);

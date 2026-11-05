@@ -1,0 +1,22 @@
+Field view_order__v (
+   label('View Order'),
+   type('Number'),
+   active(true),
+   description('The order in which the content was viewed.'),
+   required(false),
+   unique(false),
+   max_value(9999),
+   min_value(1),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(52),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

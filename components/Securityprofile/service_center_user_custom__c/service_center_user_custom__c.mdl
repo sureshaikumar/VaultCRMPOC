@@ -1,0 +1,9 @@
+RECREATE Securityprofile service_center_user_custom__c (
+   label('Service Center User - Custom'),
+   active(true),
+   description('This Security Profile is created for Service Center user.'),
+   permission_sets('business_admin_actions__v',
+      'outlook_integration__c',
+      'service_center_user__c',
+      'system_admin_actions__v')
+);

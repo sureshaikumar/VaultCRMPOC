@@ -1,0 +1,22 @@
+Field clm_location_longitude__v (
+   label('CLM Location Longitude'),
+   type('Number'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_value(999999999.999999),
+   min_value(-999999999.999999),
+   scale(6),
+   help_content('Stores the longitude coordinate of the location where the key message is shown'),
+   list_column(false),
+   order(11),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,5 @@
+Picklistentry 10500__v (
+   value('Albany, GA Metropolitan Statistical Area'),
+   order(492),
+   active(true)
+);

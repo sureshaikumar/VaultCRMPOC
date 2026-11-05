@@ -1,0 +1,7 @@
+Picklistentry imacn__v (
+   value('Internal Medicine and Cardiology'),
+   order(783),
+   active(true),
+   controlling_entries('at__v',
+         'de__v')
+);

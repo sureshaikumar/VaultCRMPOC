@@ -1,0 +1,4 @@
+Typefield product_requestor__c (
+   source('custom'),
+   required(false)
+);

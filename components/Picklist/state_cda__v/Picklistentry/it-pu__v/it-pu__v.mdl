@@ -1,0 +1,6 @@
+Picklistentry it-pu__v (
+   value('Pesaro and Urbino'),
+   order(2245),
+   active(true),
+   controlling_entries('it__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry scspo__v (
+   value('Spinal Cord Surgery'),
+   order(1794),
+   active(true),
+   controlling_entries('us__v')
+);

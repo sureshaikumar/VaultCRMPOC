@@ -1,0 +1,6 @@
+Message assignment_footprint_model_not_editable__v (
+   label(),
+   active(true),
+   default_value('Model Geography Territories created by a Model Territory Footprint may not be manually altered.'),
+   system_managed(false)
+);

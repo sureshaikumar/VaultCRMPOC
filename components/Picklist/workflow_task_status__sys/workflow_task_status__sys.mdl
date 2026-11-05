@@ -1,0 +1,10 @@
+RECREATE Picklist workflow_task_status__sys (
+   label('Workflow Task Status'),
+   active(true),
+   Picklistentry(@Picklistentry/assigned__sys.mdl),
+   Picklistentry(@Picklistentry/available__sys.mdl),
+   Picklistentry(@Picklistentry/completed__sys.mdl),
+   Picklistentry(@Picklistentry/cancelled__sys.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

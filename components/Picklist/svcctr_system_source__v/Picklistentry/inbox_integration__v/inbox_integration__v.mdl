@@ -1,0 +1,5 @@
+Picklistentry inbox_integration__v (
+   value('Inbox Integration'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry nso (
+   value('Sepedi'),
+   order(64),
+   active(true)
+);

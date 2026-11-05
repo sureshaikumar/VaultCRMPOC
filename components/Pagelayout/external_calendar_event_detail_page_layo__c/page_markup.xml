@@ -1,0 +1,59 @@
+<vault:page xmlns:vault="VeevaVault" controller="Objecttype.external_calendar_event__v.base__v">
+    <vault:section title="Details" name="details__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="name__v" />
+            <vault:field reference="object_type__v" />
+            <vault:field reference="title__v" />
+            <vault:field reference="start_datetime__v" />
+            <vault:field reference="end_datetime__v" />
+            <vault:field reference="allow_new_time_proposals__v" />
+            <vault:field reference="attendees__v" />
+            <vault:field reference="body_content_type__v" />
+            <vault:field reference="body_preview__v" />
+            <vault:field reference="categories__v" />
+            <vault:field reference="change_key__v" />
+            <vault:field reference="description__v" />
+            <vault:field reference="end_timezone__v" />
+            <vault:field reference="event_created_datetime__v" />
+            <vault:field reference="event_last_modified_datetime__v" />
+            <vault:field reference="external_calendar_event_id__v" />
+            <vault:field reference="has_attachments__v" />
+            <vault:field reference="hide_attendees__v" />
+            <vault:field reference="importance__v" />
+            <vault:field reference="is_all_day__v" />
+            <vault:field reference="is_cancelled__v" />
+            <vault:field reference="is_draft__v" />
+            <vault:field reference="is_ms_teams_meeting__v" />
+            <vault:field reference="is_organizer__v" />
+            <vault:field reference="is_reminder_on__v" />
+            <vault:field reference="locations__v" />
+            <vault:field reference="ms_teams_join_url__v" />
+            <vault:field reference="online_meeting_provider__v" />
+            <vault:field reference="organizer_name_and_email_address__v" />
+            <vault:field reference="original_end_timezone__v" />
+            <vault:field reference="original_start_timezone__v" />
+            <vault:field reference="recurrence__v" />
+            <vault:field reference="reminder_minutes_before_start__v" />
+            <vault:field reference="response_requested__v" />
+            <vault:field reference="sensitivity__v" />
+            <vault:field reference="series_master_id__v" />
+            <vault:field reference="show_as__v" />
+            <vault:field reference="start_timezone__v" />
+            <vault:field reference="transaction_id__v" />
+            <vault:field reference="type__v" />
+            <vault:field reference="unavailable_for_engage_scheduling__v" />
+            <vault:field reference="web_link__v" />
+            <vault:field reference="icaluid__v" />
+            <vault:field reference="external_calendar__v" />
+        </vault:detailform>
+    </vault:section>
+    <vault:section title="System Information" name="sys_info__c">
+        <vault:detailform type="Two-Columns">
+            <vault:field reference="created_by__v" />
+            <vault:field reference="modified_by__v" />
+            <vault:field reference="status__v" />
+            <vault:field reference="created_date__v" />
+            <vault:field reference="modified_date__v" />
+        </vault:detailform>
+    </vault:section>
+</vault:page>

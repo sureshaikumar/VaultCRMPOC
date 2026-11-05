@@ -1,0 +1,5 @@
+Picklistentry mak (
+   value('Makasar'),
+   order(247),
+   active(true)
+);

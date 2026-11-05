@@ -1,0 +1,5 @@
+Picklistentry eg__v (
+   value('Egypt'),
+   order(65),
+   active(true)
+);

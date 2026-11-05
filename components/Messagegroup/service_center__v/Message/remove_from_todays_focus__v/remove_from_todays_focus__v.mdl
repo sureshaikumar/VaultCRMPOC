@@ -1,0 +1,6 @@
+Message remove_from_todays_focus__v (
+   label(),
+   active(true),
+   default_value('Remove from Today''s Focus'),
+   system_managed(false)
+);

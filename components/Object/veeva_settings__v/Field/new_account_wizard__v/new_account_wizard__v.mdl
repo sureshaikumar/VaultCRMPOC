@@ -1,0 +1,18 @@
+Field new_account_wizard__v (
+   label('NEW_ACCOUNT_WIZARD'),
+   type('Boolean'),
+   active(true),
+   description('Determines the Account Wizard displayed when creating a new account from the My Accounts page. Default value is Unchecked.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(225),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

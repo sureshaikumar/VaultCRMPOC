@@ -1,0 +1,6 @@
+Picklistentry al-12__v (
+   value('Vlorë'),
+   order(67),
+   active(true),
+   controlling_entries('al__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry cn-sx__v (
+   value('Shanxi Sheng'),
+   order(720),
+   active(true),
+   controlling_entries('cn__v')
+);

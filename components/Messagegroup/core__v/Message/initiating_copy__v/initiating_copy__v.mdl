@@ -1,0 +1,6 @@
+Message initiating_copy__v (
+   label(),
+   active(true),
+   default_value('Initiating Copy'),
+   system_managed(false)
+);

@@ -1,0 +1,7 @@
+Picklistentry cosme__v (
+   value('Cosmetology'),
+   order(339),
+   active(true),
+   controlling_entries('kg__v',
+         'mk__v')
+);

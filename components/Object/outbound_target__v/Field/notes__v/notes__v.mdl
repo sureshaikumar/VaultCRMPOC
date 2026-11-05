@@ -1,0 +1,19 @@
+Field notes__v (
+   label('Notes'),
+   type('String'),
+   active(true),
+   description('Notes related to the target record.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(14),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

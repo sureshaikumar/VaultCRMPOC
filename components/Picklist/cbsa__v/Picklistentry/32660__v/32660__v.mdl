@@ -1,0 +1,5 @@
+Picklistentry 32660__v (
+   value('McMinnville, TN Micropolitan Statistical Area'),
+   order(785),
+   active(true)
+);

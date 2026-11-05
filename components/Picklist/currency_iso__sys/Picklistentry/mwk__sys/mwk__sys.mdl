@@ -1,0 +1,5 @@
+Picklistentry mwk__sys (
+   value('MWK'),
+   order(125),
+   active(true)
+);

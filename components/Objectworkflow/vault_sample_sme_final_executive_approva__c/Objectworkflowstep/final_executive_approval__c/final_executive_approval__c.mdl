@@ -1,0 +1,8 @@
+Objectworkflowstep final_executive_approval__c (
+   label('Final Executive Approval'),
+   type('contenttask'),
+   next_steps('Objectworkflowstep.change_states_based_on_final_verdicts__c'),
+   tags(),
+   step_detail(@step_detail.xml),
+   description('Executive Approvers provide verdicts after SME Approvers have approved all documents.')
+);

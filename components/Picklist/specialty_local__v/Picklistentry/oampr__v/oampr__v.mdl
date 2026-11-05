@@ -1,0 +1,10 @@
+Picklistentry oampr__v (
+   value('Oral and Maxillofacial Pathology'),
+   order(1155),
+   active(true),
+   controlling_entries('id__v',
+         'ng__v',
+         'nz__v',
+         'sa__v',
+         'za__v')
+);

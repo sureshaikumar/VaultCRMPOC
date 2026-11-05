@@ -1,0 +1,6 @@
+Picklistentry mt-06__v (
+   value('Bormla'),
+   order(3112),
+   active(true),
+   controlling_entries('mt__v')
+);

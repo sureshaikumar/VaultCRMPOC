@@ -1,0 +1,4 @@
+Typefield enable_country_dimension__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-107__v (
+   value('Mubende'),
+   order(4649),
+   active(true),
+   controlling_entries('ug__v')
+);

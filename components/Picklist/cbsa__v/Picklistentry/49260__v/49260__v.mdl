@@ -1,0 +1,5 @@
+Picklistentry 49260__v (
+   value('Woodward, OK Micropolitan Statistical Area'),
+   order(532),
+   active(true)
+);

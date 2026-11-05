@@ -1,0 +1,6 @@
+Message sample_opt_in_captured_notification__v (
+   label(),
+   active(true),
+   default_value('Sample Opt In captured'),
+   system_managed(false)
+);

@@ -1,0 +1,4 @@
+Typefield om_list_amount_achieved__v (
+   source('custom'),
+   required(false)
+);

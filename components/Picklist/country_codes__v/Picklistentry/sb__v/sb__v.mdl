@@ -1,0 +1,5 @@
+Picklistentry sb__v (
+   value('SB'),
+   order(194),
+   active(true)
+);

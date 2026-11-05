@@ -1,0 +1,6 @@
+Picklistentry imgah__v (
+   value('Internal Medicine: Gastroenterology and Hepatology (Medical Gastrointestinal and Liver Diseases)'),
+   order(812),
+   active(true),
+   controlling_entries('dk__v')
+);

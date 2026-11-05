@@ -1,0 +1,17 @@
+Field inquiry_text__v (
+   label('Inquiry Text'),
+   type('LongText'),
+   active(true),
+   description('The Inquiry Text captured for fulfillment of the associated Medical Inquiry request.'),
+   required(false),
+   max_length(32000),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

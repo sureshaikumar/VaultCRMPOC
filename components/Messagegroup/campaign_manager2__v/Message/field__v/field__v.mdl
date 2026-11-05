@@ -1,0 +1,6 @@
+Message field__v (
+   label(),
+   active(true),
+   default_value('Field'),
+   system_managed(false)
+);

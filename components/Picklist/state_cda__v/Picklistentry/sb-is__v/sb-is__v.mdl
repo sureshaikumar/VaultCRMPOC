@@ -1,0 +1,6 @@
+Picklistentry sb-is__v (
+   value('Isabel'),
+   order(3895),
+   active(true),
+   controlling_entries('sb__v')
+);

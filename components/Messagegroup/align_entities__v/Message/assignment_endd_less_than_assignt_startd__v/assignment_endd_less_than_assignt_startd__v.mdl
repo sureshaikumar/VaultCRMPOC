@@ -1,0 +1,6 @@
+Message assignment_endd_less_than_assignt_startd__v (
+   label(),
+   active(true),
+   default_value('Cannot change a {0} End Date to be less than an Assignment''s Start Date.'),
+   system_managed(false)
+);

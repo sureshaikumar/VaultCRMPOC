@@ -1,0 +1,5 @@
+Picklistentry sk__v (
+   value('Slovakia'),
+   order(202),
+   active(true)
+);

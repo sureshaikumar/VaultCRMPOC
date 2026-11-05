@@ -1,0 +1,19 @@
+Field best_times__v (
+   label('Best Times'),
+   type('String'),
+   active(true),
+   description('Used by the Office Best Times control to store the best time to visit this address.'),
+   required(false),
+   unique(false),
+   max_length(400),
+   help_content(),
+   list_column(false),
+   order(94),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

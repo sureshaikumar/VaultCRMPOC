@@ -1,0 +1,8 @@
+RECREATE Objectvalidation child_account__v.childaccountnotrejected__v (
+   label('Child Account Not Rejected'),
+   active(true),
+   expression('child_account__vr.customer_master_status__v != "rejected__v"'),
+   description(),
+   error_message('The child account of the account to be inserted or updated cannot be rejected.'),
+   error_location('child_account__v')
+);

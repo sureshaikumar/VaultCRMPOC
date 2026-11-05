@@ -1,0 +1,6 @@
+Picklistentry es-an__v (
+   value('Andalucía'),
+   order(1194),
+   active(true),
+   controlling_entries('es__v')
+);

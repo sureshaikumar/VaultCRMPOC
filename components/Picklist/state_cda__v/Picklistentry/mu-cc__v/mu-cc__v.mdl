@@ -1,0 +1,6 @@
+Picklistentry mu-cc__v (
+   value('Cargados Carajos Shoals'),
+   order(3177),
+   active(true),
+   controlling_entries('mu__v')
+);

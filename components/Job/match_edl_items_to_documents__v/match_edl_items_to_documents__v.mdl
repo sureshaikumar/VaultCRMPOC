@@ -1,0 +1,22 @@
+RECREATE Job match_edl_items_to_documents__v (
+   active(false),
+   active_after_clone(false),
+   auto_complete_workflow_step(false),
+   day_of_month(0),
+   Edlmatchjobaction(@Edlmatchjobaction/match_edl_action__c.mdl),
+   hourly_interval(),
+   label('Match EDL Items to Documents'),
+   month_repeat_type(),
+   owner('user:User.System'),
+   priority('normal'),
+   repeat_on_days(),
+   schedule('daily'),
+   time('1:00'),
+   timezone('America/New_York'),
+   trigger_date(),
+   type('Jobtype.edl__v'),
+   usages(),
+   use_vault_time(false),
+   week_day(),
+   week_number(0)
+);

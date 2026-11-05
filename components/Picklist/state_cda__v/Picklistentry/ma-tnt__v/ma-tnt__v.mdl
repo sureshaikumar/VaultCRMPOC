@@ -1,0 +1,6 @@
+Picklistentry ma-tnt__v (
+   value('Tan-Tan (EH-partial)'),
+   order(2850),
+   active(true),
+   controlling_entries('ma__v')
+);

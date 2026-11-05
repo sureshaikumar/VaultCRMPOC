@@ -1,0 +1,5 @@
+Picklistentry pets__v (
+   value('Petshop'),
+   order(192),
+   active(true)
+);

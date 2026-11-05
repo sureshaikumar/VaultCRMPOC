@@ -1,0 +1,6 @@
+Message mc_cycle_channels__v (
+   label(),
+   active(true),
+   default_value('Channels'),
+   system_managed(false)
+);

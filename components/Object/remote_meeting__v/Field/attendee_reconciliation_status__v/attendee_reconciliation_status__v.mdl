@@ -1,0 +1,18 @@
+Field attendee_reconciliation_status__v (
+   label('Attendee Reconciliation Status'),
+   type('Picklist'),
+   active(true),
+   description('Used to identify if all child remote meeting attendee records have been reconciled against an account or user.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(4),
+   multi_value(false),
+   picklist('Picklist.attendee_reconciliation_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

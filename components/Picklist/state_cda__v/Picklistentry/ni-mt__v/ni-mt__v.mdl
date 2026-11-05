@@ -1,0 +1,6 @@
+Picklistentry ni-mt__v (
+   value('Matagalpa'),
+   order(3370),
+   active(true),
+   controlling_entries('ni__v')
+);

@@ -1,0 +1,4 @@
+Typefield product_order_allocation_quantity__v (
+   source('standard'),
+   required(true)
+);

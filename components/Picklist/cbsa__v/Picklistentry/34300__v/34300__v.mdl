@@ -1,0 +1,5 @@
+Picklistentry 34300__v (
+   value('Mountain Home, ID Micropolitan Statistical Area'),
+   order(196),
+   active(true)
+);

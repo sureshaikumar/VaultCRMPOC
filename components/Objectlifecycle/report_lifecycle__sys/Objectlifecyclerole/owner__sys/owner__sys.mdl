@@ -1,0 +1,5 @@
+Objectlifecyclerole owner__sys (
+   active(true),
+   application_role('Applicationrole.owner__v'),
+   permissions()
+);

@@ -1,0 +1,5 @@
+Picklistentry incremental_sync__v (
+   value('Incremental Sync'),
+   order(0),
+   active(true)
+);

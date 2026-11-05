@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate workflow_paused_due_to_error__sys (
+   label('Workflow Paused Due to Error'),
+   active(true),
+   description('This notification is sent when a workflow is paused due to an error and an action is required to resume'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component('Object.envelope__sys'),
+   subject('Action Required: Workflow ${workflowLabel} Paused Due to Error'),
+   notification('<p>The workflow "${workflowLabel}" has encountered an error.</p><p>Error Details:<ul><li>Workflow ID: ${workflowId}</li><li>Workflow: ${workflowTargetLink}</li><li>Error: ${workflowError}</li></ul></p><p>The workflow cannot proceed until this error is resolved and is resumed by the Workflow Owner or Vault Owner</p>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

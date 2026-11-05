@@ -1,0 +1,6 @@
+Message mc_cycle_clone_wizard_source_cycle__v (
+   label(),
+   active(true),
+   default_value('MC Cycle to Clone'),
+   system_managed(false)
+);

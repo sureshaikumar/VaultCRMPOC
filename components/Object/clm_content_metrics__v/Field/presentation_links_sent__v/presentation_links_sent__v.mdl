@@ -1,0 +1,22 @@
+Field presentation_links_sent__v (
+   label('Presentation Links Sent'),
+   type('Number'),
+   active(true),
+   description('The number of times the presentation was sent as a link. This is calculated from the sent_message__v records created.'),
+   required(false),
+   unique(false),
+   max_value(999999999),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Message identification_guideline__v (
+   label(),
+   active(true),
+   default_value('Include a specific HCP, HCO, Trial, Congress or other Healthcare entity'),
+   system_managed(false)
+);

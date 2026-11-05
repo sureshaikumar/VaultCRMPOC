@@ -1,0 +1,10 @@
+RECREATE Picklist color__c (
+   label('Color'),
+   active(true),
+   Picklistentry(@Picklistentry/red__c.mdl),
+   Picklistentry(@Picklistentry/blue__c.mdl),
+   Picklistentry(@Picklistentry/green__c.mdl),
+   Picklistentry(@Picklistentry/pink__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

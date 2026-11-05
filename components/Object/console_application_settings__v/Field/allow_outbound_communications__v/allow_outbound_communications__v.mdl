@@ -1,0 +1,18 @@
+Field allow_outbound_communications__v (
+   label('Allow Outbound Communications'),
+   type('Picklist'),
+   active(true),
+   description('Indicates if users are allowed to send outbound communications to fax numbers and/or email addresses from a case.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(32),
+   multi_value(true),
+   picklist('Picklist.outbound_communication_method__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

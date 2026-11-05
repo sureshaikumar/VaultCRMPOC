@@ -1,0 +1,4 @@
+Typefield relationship_strength__v (
+   source('standard'),
+   required(false)
+);

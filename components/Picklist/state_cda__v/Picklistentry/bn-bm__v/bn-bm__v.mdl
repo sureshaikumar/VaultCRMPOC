@@ -1,0 +1,6 @@
+Picklistentry bn-bm__v (
+   value('Brunei-Muara'),
+   order(436),
+   active(true),
+   controlling_entries('bn__v')
+);

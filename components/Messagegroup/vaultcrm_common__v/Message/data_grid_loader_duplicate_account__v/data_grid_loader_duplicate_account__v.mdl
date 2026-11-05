@@ -1,0 +1,6 @@
+Message data_grid_loader_duplicate_account__v (
+   label(),
+   active(true),
+   default_value('Duplicate Account: {0}'),
+   system_managed(false)
+);

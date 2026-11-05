@@ -1,0 +1,5 @@
+Picklistentry decs__v (
+   value('Deceased'),
+   order(4),
+   active(true)
+);

@@ -1,0 +1,20 @@
+Field cycle_plan_target_vod_c_where_clause__v (
+   label('CYCLE_PLAN_TARGET_VOD__C_WHERE_CLAUSE'),
+   type('String'),
+   active(true),
+   description('Where used clause to filter the Cycle Plan Target records downloaded to the VMobile BlackBerry application.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(68),
+   default_value('"CYCLE_PLAN_TARGET_VOD__C_WHERE_CLAUSE;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

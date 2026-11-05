@@ -1,0 +1,5 @@
+Picklistentry shared_inbox__v (
+   value('Shared Inbox'),
+   order(3),
+   active(true)
+);

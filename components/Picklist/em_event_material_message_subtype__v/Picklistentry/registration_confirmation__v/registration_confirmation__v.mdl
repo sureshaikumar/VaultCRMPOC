@@ -1,0 +1,5 @@
+Picklistentry registration_confirmation__v (
+   value('Registration Confirmation'),
+   order(4),
+   active(true)
+);

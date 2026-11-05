@@ -1,0 +1,6 @@
+Picklistentry edmni__v (
+   value('Endocrinology - Diabetes - Metabolism'),
+   order(496),
+   active(true),
+   controlling_entries('gr__v')
+);

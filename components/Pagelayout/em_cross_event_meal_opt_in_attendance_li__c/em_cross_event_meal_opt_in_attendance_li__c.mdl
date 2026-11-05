@@ -1,0 +1,8 @@
+RECREATE Pagelayout em_cross_event_meal_opt_in_attendance_li__c (
+   active(true),
+   default_layout(true),
+   description(),
+   display_lifecycle_stages(false),
+   label('EM Cross Event Meal Opt In Attendance Li Detail Page Layout'),
+   page_markup(@page_markup.xml)
+);

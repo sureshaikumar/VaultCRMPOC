@@ -1,0 +1,6 @@
+Picklistentry dz-50__v (
+   value('Bordj Badji Mokhtar'),
+   order(1031),
+   active(true),
+   controlling_entries('dz__v')
+);

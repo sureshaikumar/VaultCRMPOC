@@ -1,0 +1,5 @@
+Picklistentry targeting_rule__v (
+   value('Targeting Rule'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry compliance_documents__v (
+   value('Compliance Documents'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry ao-ccu__v (
+   value('Cuando Cubango'),
+   order(83),
+   active(true),
+   controlling_entries('ao__v')
+);

@@ -1,0 +1,8 @@
+RECREATE Picklist reporters_country_code__c (
+   label('Reporter’s Country Code'),
+   active(true),
+   Picklistentry(@Picklistentry/iso_31661_alpha2__c.mdl),
+   Picklistentry(@Picklistentry/eu__c.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

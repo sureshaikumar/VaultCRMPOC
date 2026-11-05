@@ -1,0 +1,4 @@
+Typefield fax_config_values__v (
+   source('standard'),
+   required(false)
+);

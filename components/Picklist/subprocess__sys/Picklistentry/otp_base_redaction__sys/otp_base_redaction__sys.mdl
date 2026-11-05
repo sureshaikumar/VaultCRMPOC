@@ -1,0 +1,6 @@
+Picklistentry otp_base_redaction__sys (
+   value('Base Redaction'),
+   order(21),
+   active(true),
+   controlling_entries('olc_redaction__sys')
+);

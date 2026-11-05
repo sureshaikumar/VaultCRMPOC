@@ -1,0 +1,4 @@
+Typefield moved_goods__v (
+   source('custom'),
+   required(false)
+);

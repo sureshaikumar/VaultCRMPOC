@@ -1,0 +1,6 @@
+Message order_management_save_error_items__v (
+   label(),
+   active(true),
+   default_value('${error_product} | ${error_location} | ${error_message}'),
+   system_managed(false)
+);

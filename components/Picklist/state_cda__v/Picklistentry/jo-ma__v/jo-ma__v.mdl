@@ -1,0 +1,6 @@
+Picklistentry jo-ma__v (
+   value('Al Mafraq'),
+   order(2304),
+   active(true),
+   controlling_entries('jo__v')
+);

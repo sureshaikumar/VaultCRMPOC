@@ -1,0 +1,6 @@
+Message no_signature_delete__v (
+   label(),
+   active(true),
+   default_value('You may not delete a ${object_label} with a Signature.'),
+   system_managed(false)
+);

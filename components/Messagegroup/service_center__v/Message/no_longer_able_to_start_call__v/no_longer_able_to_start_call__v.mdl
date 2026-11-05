@@ -1,0 +1,6 @@
+Message no_longer_able_to_start_call__v (
+   label(),
+   active(true),
+   default_value('You are no longer able to start a Phone Call for this Target.'),
+   system_managed(false)
+);

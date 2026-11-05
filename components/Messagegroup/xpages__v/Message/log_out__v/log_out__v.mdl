@@ -1,0 +1,6 @@
+Message log_out__v (
+   label(),
+   active(true),
+   default_value('Log out'),
+   system_managed(false)
+);

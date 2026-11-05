@@ -1,0 +1,5 @@
+Picklistentry teho__v (
+   value('Teaching Hospital'),
+   order(251),
+   active(true)
+);

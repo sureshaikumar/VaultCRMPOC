@@ -1,0 +1,21 @@
+RECREATE Report agent_actions_by_week_and_agent__sys (
+   label('Agent Actions by Week and Agent'),
+   active(true),
+   description('Displays a per week view of agent action usage to compare which actions are being used most often over time'),
+   format('tabular'),
+   definition(@definition.xml),
+   layout(@layout.xml),
+   content_type('Object'),
+   report_type('Reporttype.agent_instance_with_agent_action_ex__sys'),
+   editors(),
+   viewers(),
+   owners('Group.vault_owners__v'),
+   class('Standard'),
+   excel_template(),
+   fit_pdf_to_page(true),
+   tags('vault_ai__sys',
+      'veeva__sys'),
+   include_full_longtext(false),
+   include_full_richtext(false),
+   include_richtext_html_tags(false)
+);

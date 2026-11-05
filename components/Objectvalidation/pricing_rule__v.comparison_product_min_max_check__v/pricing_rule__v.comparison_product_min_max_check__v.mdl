@@ -1,0 +1,14 @@
+RECREATE Objectvalidation pricing_rule__v.comparison_product_min_max_check__v (
+   label('Comparison Product Min Max Check'),
+   active(true),
+   expression('Not(
+     And(
+        Not(IsBlank(product_minimum__v)),
+        Not(IsBlank(product_maximum__v)),
+        product_maximum__v <= product_minimum__v
+    )
+)'),
+   description('Checks that Maximum Comparison Product Quantity is greater than Minimum Comparison Product Quantity'),
+   error_message('The Product Maximum must be greater than the Product Minimum'),
+   error_location('product_maximum__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry vol__v (
+   value('Volapük'),
+   order(345),
+   active(false)
+);

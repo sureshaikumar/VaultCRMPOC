@@ -1,0 +1,5 @@
+Picklistentry vid__v (
+   value('Veeva ID'),
+   order(0),
+   active(true)
+);

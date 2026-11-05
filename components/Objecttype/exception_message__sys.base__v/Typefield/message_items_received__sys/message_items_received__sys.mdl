@@ -1,0 +1,4 @@
+Typefield message_items_received__sys (
+   source('standard'),
+   required(false)
+);

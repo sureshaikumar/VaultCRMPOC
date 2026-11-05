@@ -1,0 +1,6 @@
+Message dac_not_enabled__v (
+   label(),
+   active(true),
+   default_value('${object_label} does not have Dynamic Access Control enabled.'),
+   system_managed(false)
+);

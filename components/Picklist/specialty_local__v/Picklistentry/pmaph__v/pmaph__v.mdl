@@ -1,0 +1,8 @@
+Picklistentry pmaph__v (
+   value('Preventive Medicine and Public Health'),
+   order(1592),
+   active(true),
+   controlling_entries('ad__v',
+         'es__v',
+         'hu__v')
+);

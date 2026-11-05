@@ -1,0 +1,5 @@
+Picklistentry aug__c (
+   value('Aug'),
+   order(12),
+   active(true)
+);

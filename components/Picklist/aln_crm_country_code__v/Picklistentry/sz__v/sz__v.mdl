@@ -1,0 +1,5 @@
+Picklistentry sz__v (
+   value('Swaziland'),
+   order(213),
+   active(true)
+);

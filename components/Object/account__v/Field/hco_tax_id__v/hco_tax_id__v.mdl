@@ -1,0 +1,19 @@
+Field hco_tax_id__v (
+   label('HCO Tax ID'),
+   type('String'),
+   active(true),
+   description('Tax identifier or identification number for the HCO.'),
+   required(false),
+   unique(false),
+   max_length(30),
+   help_content(),
+   list_column(false),
+   order(213),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry fmapm__v (
+   value('Family Medicine and Palliative Medicine and Pain Management'),
+   order(537),
+   active(true),
+   controlling_entries('kw__v')
+);

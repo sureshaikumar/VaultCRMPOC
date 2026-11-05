@@ -1,0 +1,6 @@
+Message security_tree_push_assignments__v (
+   label(),
+   active(true),
+   default_value('Security Tree Assignments'),
+   system_managed(false)
+);

@@ -1,0 +1,8 @@
+RECREATE Objectvalidation child_account__v.sameparentandchild__v (
+   label('Same Parent And Child'),
+   active(true),
+   expression('IsBlank(child_account__v) ||  IsBlank(parent_account__v) || child_account__vr.id != parent_account__vr.id'),
+   description(),
+   error_message('Parent and child accounts must be different.'),
+   error_location('child_account__v')
+);

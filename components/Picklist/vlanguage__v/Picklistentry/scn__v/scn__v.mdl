@@ -1,0 +1,5 @@
+Picklistentry scn__v (
+   value('Sicilian'),
+   order(284),
+   active(false)
+);

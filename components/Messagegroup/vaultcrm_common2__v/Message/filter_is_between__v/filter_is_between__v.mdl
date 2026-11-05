@@ -1,0 +1,6 @@
+Message filter_is_between__v (
+   label(),
+   active(true),
+   default_value('is between'),
+   system_managed(false)
+);

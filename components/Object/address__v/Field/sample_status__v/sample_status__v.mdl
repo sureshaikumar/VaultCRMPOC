@@ -1,0 +1,21 @@
+Field sample_status__v (
+   label('Sample Status'),
+   type('String'),
+   active(true),
+   description('Sample Status defines the status of the State License and controls the Sample Status.  Sample Status of Valid represents a Green indicator.  Sample Status of Pending represents a Yellow Indicator.  Sample Status of Invalid represents a Red Indicator.'),
+   required(false),
+   unique(false),
+   max_length(1500),
+   help_content(),
+   list_column(false),
+   order(82),
+   formula('If(Length( Trim(license__v )) < 1,"Invalid",If(IsBlank( license_expiration_date__v ),"Invalid",If(And( license_expiration_date__v >= Today() ,license_status__v="valid__v"),"Valid",If(And( license_expiration_date__v >= Today() ,license_status__v="new__v"), "Pending","Invalid"))))'),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(false),
+   format_mask(),
+   enhanced_blank_handling('blanks_as_zeros_and_empty_strings'),
+   control_binding()
+);

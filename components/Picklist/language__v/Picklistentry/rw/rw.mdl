@@ -1,0 +1,5 @@
+Picklistentry rw (
+   value('Kinyarwanda'),
+   order(93),
+   active(true)
+);

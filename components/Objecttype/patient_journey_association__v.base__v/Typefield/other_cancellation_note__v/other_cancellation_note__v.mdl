@@ -1,0 +1,4 @@
+Typefield other_cancellation_note__v (
+   source('standard'),
+   required(false)
+);

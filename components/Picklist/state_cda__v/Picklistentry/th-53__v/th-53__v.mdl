@@ -1,0 +1,6 @@
+Picklistentry th-53__v (
+   value('Uttaradit'),
+   order(4369),
+   active(true),
+   controlling_entries('th__v')
+);

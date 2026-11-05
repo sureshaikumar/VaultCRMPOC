@@ -1,0 +1,6 @@
+Picklistentry otp_product__sys (
+   value('Product'),
+   order(126),
+   active(true),
+   controlling_entries('olc_consent_line__sys')
+);

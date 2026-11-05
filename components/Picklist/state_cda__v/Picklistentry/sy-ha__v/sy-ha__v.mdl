@@ -1,0 +1,6 @@
+Picklistentry sy-ha__v (
+   value('Al Ḩasakah'),
+   order(4285),
+   active(true),
+   controlling_entries('sy__v')
+);

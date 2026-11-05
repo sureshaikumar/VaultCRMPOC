@@ -1,0 +1,5 @@
+Picklistentry asia_kamchatka__v (
+   value('Petropavlovsk-Kamchatski Time'),
+   order(4),
+   active(true)
+);

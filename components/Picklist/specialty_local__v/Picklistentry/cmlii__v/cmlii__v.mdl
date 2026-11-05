@@ -1,0 +1,18 @@
+Picklistentry cmlii__v (
+   value('Clinical Microbiology'),
+   order(242),
+   active(true),
+   controlling_entries('ba__v',
+         'bg__v',
+         'dk__v',
+         'fi__v',
+         'gh__v',
+         'hr__v',
+         'id__v',
+         'ie__v',
+         'il__v',
+         'kw__v',
+         'se__v',
+         'si__v',
+         'sk__v')
+);

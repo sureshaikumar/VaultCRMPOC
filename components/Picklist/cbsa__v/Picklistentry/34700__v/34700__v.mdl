@@ -1,0 +1,5 @@
+Picklistentry 34700__v (
+   value('Muscatine, IA Micropolitan Statistical Area'),
+   order(222),
+   active(true)
+);

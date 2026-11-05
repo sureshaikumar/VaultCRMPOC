@@ -1,0 +1,5 @@
+Picklistentry srr__v (
+   value('Serer'),
+   order(279),
+   active(false)
+);

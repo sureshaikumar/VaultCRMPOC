@@ -1,0 +1,9 @@
+RECREATE Reporttype test_object_with_account__c (
+   label('Test Object with Account'),
+   active(true),
+   description('Test Object with Account'),
+   primary_object('test_object__c'),
+   primary_objects(),
+   configuration(@configuration.xml),
+   class('Standard')
+);

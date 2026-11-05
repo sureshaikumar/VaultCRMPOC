@@ -1,0 +1,6 @@
+Picklistentry vn-57__v (
+   value('Bình Dương'),
+   order(4957),
+   active(true),
+   controlling_entries('vn__v')
+);

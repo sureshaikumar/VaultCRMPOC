@@ -1,0 +1,6 @@
+Picklistentry tz-01__v (
+   value('Arusha'),
+   order(4585),
+   active(true),
+   controlling_entries('tz__v')
+);

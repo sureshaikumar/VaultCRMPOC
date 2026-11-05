@@ -1,0 +1,5 @@
+Picklistentry rheumatology_miscellaneous__v (
+   value('Rheumatology (Miscellaneous)'),
+   order(110),
+   active(true)
+);

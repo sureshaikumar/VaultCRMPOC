@@ -1,0 +1,5 @@
+Picklistentry dietitians_and_nutritionist__c (
+   value('Dietitians and Nutritionist'),
+   order(6),
+   active(true)
+);

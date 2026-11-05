@@ -1,0 +1,6 @@
+Message schedule_call__v (
+   label(),
+   active(true),
+   default_value('Schedule Call'),
+   system_managed(false)
+);

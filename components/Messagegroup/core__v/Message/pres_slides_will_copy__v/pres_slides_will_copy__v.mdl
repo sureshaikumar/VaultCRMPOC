@@ -1,0 +1,6 @@
+Message pres_slides_will_copy__v (
+   label(),
+   active(true),
+   default_value('Presentation slides will be copied over. Include Key Messages?'),
+   system_managed(false)
+);

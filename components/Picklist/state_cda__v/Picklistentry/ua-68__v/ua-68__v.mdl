@@ -1,0 +1,6 @@
+Picklistentry ua-68__v (
+   value('Khmelnytska oblast'),
+   order(4639),
+   active(true),
+   controlling_entries('ua__v')
+);

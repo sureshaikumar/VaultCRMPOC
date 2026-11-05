@@ -1,0 +1,22 @@
+Field call_sign_share_sheet__v (
+   label('Call Signature Share Sheet'),
+   type('Number'),
+   active(true),
+   description('Setting to 1 will enable Veeva custom share sheet for asynchronous BRC signatures on call for iPad, iPhone, and CRM Desktop (MacOS).'),
+   required(false),
+   unique(false),
+   max_value(99),
+   min_value(-99),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(19),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

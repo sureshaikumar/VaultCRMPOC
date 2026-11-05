@@ -1,0 +1,6 @@
+Picklistentry dj-ob__v (
+   value('Obock'),
+   order(923),
+   active(true),
+   controlling_entries('dj__v')
+);

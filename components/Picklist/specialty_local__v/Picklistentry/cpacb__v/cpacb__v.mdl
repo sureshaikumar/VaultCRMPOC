@@ -1,0 +1,6 @@
+Picklistentry cpacb__v (
+   value('Clinical Pathology and Clinical Biochemistry'),
+   order(264),
+   active(true),
+   controlling_entries('it__v')
+);

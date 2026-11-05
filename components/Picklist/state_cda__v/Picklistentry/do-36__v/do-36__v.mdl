@@ -1,0 +1,6 @@
+Picklistentry do-36__v (
+   value('Cibao Sur'),
+   order(975),
+   active(true),
+   controlling_entries('do__v')
+);

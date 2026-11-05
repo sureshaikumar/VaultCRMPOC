@@ -1,0 +1,6 @@
+Message object_in_use_on_object__v (
+   label(),
+   active(true),
+   default_value('${first_object_label} in use on at least one ${second_object_label}'),
+   system_managed(false)
+);

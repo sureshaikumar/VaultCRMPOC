@@ -1,0 +1,6 @@
+Message rotate_device__v (
+   label(),
+   active(true),
+   default_value('Rotate your device to continue'),
+   system_managed(false)
+);

@@ -1,0 +1,17 @@
+Field teams_channel_url__v (
+   label('Teams Channel URL'),
+   type('LongText'),
+   active(true),
+   description('URL to the Teams Channel. When clicked, this opens the Teams Channel in the native Teams app.'),
+   required(false),
+   max_length(2083),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

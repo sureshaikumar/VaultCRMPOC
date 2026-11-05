@@ -1,0 +1,6 @@
+Picklistentry ncacd__v (
+   value('Non-Clinical and Clinical Drug Research, Pharmacology'),
+   order(1049),
+   active(true),
+   controlling_entries('hu__v')
+);

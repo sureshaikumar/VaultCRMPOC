@@ -1,0 +1,5 @@
+Picklistentry orxte__v (
+   value('Operating Room Technician'),
+   order(83),
+   active(true)
+);

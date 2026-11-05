@@ -1,0 +1,6 @@
+Message assign_cases_modal_body__v (
+   label(),
+   active(true),
+   default_value('You are about to assign ${case_count} cases to yourself.'),
+   system_managed(false)
+);

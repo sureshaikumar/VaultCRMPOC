@@ -1,0 +1,6 @@
+Picklistentry tr-40__v (
+   value('Kırşehir'),
+   order(4498),
+   active(true),
+   controlling_entries('tr__v')
+);

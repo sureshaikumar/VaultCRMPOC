@@ -1,0 +1,21 @@
+RECREATE Objectvalidation pricing_rule__v.limit_rule_type_check__v (
+   label('Limit Rule Type Check'),
+   active(true),
+   expression('Not(
+     And(
+         object_type__vr.api_name__v = ''limit_rule__v'',
+         Not(
+             Or(
+                 product__vr.product_type__v = ''order__v'',
+                 product__vr.product_type__v = ''kit_item__v'',
+                 product__vr.product_type__v = ''detail__v'',
+                 product__vr.product_type__v = ''product_group__v'',
+                 IsBlank(product__v)
+            )
+        )
+    )
+)'),
+   description('For Limit Rule, Product can be empty or of type ''Order'',''Detail'',''Product_Group'',''Kit Item'''),
+   error_message('For Limit Rule, Product can be empty or of type ''Order'',''Detail'',''Product_Group'',''Kit Item'''),
+   error_location('product__v')
+);

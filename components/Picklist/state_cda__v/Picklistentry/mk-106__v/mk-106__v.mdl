@@ -1,0 +1,6 @@
+Picklistentry mk-106__v (
+   value('Negotino'),
+   order(2969),
+   active(true),
+   controlling_entries('mk__v')
+);

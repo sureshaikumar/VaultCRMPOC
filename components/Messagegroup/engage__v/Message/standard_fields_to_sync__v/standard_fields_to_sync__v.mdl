@@ -1,0 +1,6 @@
+Message standard_fields_to_sync__v (
+   label(),
+   active(true),
+   default_value('Standard fields included in reporting.'),
+   system_managed(false)
+);

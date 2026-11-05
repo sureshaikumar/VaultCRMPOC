@@ -1,0 +1,5 @@
+Picklistentry antifungals__v (
+   value('Antifungals'),
+   order(58),
+   active(true)
+);

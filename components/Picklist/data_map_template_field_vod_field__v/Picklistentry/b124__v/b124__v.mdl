@@ -1,0 +1,5 @@
+Picklistentry b124__v (
+   value('B124_vod__c'),
+   order(133),
+   active(true)
+);

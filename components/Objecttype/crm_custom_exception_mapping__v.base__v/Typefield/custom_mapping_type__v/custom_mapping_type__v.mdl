@@ -1,0 +1,4 @@
+Typefield custom_mapping_type__v (
+   source('standard'),
+   required(true)
+);

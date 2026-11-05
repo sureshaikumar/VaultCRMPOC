@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate rollup_recalculation_success__sys (
+   label('Roll-up Recalculation Success'),
+   active(true),
+   description('Notification template notifying roll-up recalculation for an object was successful'),
+   email_preferences('every_occurrence__sys'),
+   referenced_component(),
+   subject('Roll-up Recalculation Complete'),
+   notification('All roll-ups on object <b>${object_label}</b> have been recalculated.'),
+   email_body('All roll-ups on object <b>${object_label}</b> have been recalculated.'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

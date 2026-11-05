@@ -1,0 +1,19 @@
+Field state_distributor_zip_4__v (
+   label('State Distributor Zip 4'),
+   type('String'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   max_length(4),
+   help_content('Zip4 Code of the State Distributor Address'),
+   list_column(false),
+   order(146),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

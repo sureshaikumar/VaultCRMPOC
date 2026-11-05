@@ -1,0 +1,6 @@
+Picklistentry de-nw__v (
+   value('Nordrhein-Westfalen'),
+   order(912),
+   active(true),
+   controlling_entries('de__v')
+);

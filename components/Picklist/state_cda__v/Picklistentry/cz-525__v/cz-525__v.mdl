@@ -1,0 +1,6 @@
+Picklistentry cz-525__v (
+   value('Trutnov'),
+   order(865),
+   active(true),
+   controlling_entries('cz__v')
+);

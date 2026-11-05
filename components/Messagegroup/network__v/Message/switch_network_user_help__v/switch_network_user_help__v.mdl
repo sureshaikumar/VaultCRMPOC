@@ -1,0 +1,6 @@
+Message switch_network_user_help__v (
+   label(),
+   active(true),
+   default_value('Network Help'),
+   system_managed(false)
+);

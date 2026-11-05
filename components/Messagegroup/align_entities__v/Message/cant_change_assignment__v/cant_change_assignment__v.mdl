@@ -1,0 +1,6 @@
+Message cant_change_assignment__v (
+   label(),
+   active(true),
+   default_value('Assignments previously sent to CRM cannot have Start Date changed to a date in the future. End this assignment and create a new assignment.'),
+   system_managed(false)
+);

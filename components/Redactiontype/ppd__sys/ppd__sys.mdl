@@ -1,0 +1,8 @@
+RECREATE Redactiontype ppd__sys (
+   label('PPD'),
+   active(true),
+   fill_color('Redactiontypecolor.ppd_blue__sys'),
+   outline_color('Redactiontypecolor.ppd_blue__sys'),
+   overlay_text('PPD'),
+   text_color('Redactiontypecolor.black__sys')
+);

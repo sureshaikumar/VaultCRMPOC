@@ -1,0 +1,6 @@
+Picklistentry mz-n__v (
+   value('Nampula'),
+   order(3293),
+   active(true),
+   controlling_entries('mz__v')
+);

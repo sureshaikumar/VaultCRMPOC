@@ -1,0 +1,14 @@
+Vsmfield message_processor__v (
+   label('Message Processor'),
+   active(true),
+   description('Identifies the specific processor or component responsible for handling the message when the exception occurred. Use this to trace which part of the integration logic processed the message and to identify recurring failure patterns in a specific processor.'),
+   example_values(),
+   synonyms('processor',
+         'handler',
+         'processing component',
+         'message handler'),
+   target('message_processor__sys'),
+   target_label('Message Processor'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

@@ -1,0 +1,5 @@
+Picklistentry 13380__v (
+   value('Bellingham, WA Metropolitan Statistical Area'),
+   order(872),
+   active(true)
+);

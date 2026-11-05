@@ -1,0 +1,5 @@
+Picklistentry chg (
+   value('Chagatai'),
+   order(149),
+   active(true)
+);

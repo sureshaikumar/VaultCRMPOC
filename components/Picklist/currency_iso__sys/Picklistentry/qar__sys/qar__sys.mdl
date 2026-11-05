@@ -1,0 +1,5 @@
+Picklistentry qar__sys (
+   value('QAR'),
+   order(147),
+   active(true)
+);

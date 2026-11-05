@@ -1,0 +1,6 @@
+Message cancel_activation_confirmation__v (
+   label(),
+   active(true),
+   default_value('You are about to cancel the scheduled activation. Would you like to proceed?'),
+   system_managed(false)
+);

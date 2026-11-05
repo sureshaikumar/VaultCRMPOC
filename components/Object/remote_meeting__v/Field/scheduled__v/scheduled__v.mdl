@@ -1,0 +1,18 @@
+Field scheduled__v (
+   label('Successfully Scheduled'),
+   type('Boolean'),
+   active(true),
+   description('Is TRUE when Remote Meeting information has been successfully created/updated via the web service'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(24),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

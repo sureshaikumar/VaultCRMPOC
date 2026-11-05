@@ -1,0 +1,6 @@
+Picklistentry si-026__v (
+   value('Duplek'),
+   order(4000),
+   active(true),
+   controlling_entries('si__v')
+);

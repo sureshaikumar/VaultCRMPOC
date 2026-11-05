@@ -1,0 +1,5 @@
+Picklistentry it__v (
+   value('Italy'),
+   order(110),
+   active(true)
+);

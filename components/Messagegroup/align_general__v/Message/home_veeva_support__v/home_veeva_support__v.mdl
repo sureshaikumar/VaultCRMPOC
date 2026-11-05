@@ -1,0 +1,6 @@
+Message home_veeva_support__v (
+   label(),
+   active(true),
+   default_value('Veeva Customer Support Portal'),
+   system_managed(false)
+);

@@ -1,0 +1,20 @@
+Field calls_per_day_menu__v (
+   label('CALLS_PER_DAY_MENU'),
+   type('String'),
+   active(true),
+   description('Displays simple metrics for a rep using keywords like: %30DAY, %7DAY, %1DAY, %AVG and /n'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(43),
+   default_value('"CALLS_PER_DAY_MENU;;Blackberry"'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

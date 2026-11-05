@@ -1,0 +1,6 @@
+Message documentchecksection_help_content__sys (
+   label(),
+   active(true),
+   default_value('Use this page to manage Document Checks, which creates checkboxes on documents of specified Document Types'),
+   system_managed(false)
+);

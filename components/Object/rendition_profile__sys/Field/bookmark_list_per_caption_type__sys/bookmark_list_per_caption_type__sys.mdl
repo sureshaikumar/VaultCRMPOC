@@ -1,0 +1,17 @@
+Field bookmark_list_per_caption_type__sys (
+   label('Generate bookmark list per caption type'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(false),
+   checkbox(true),
+   help_content('If enabled, bookmarks for captions will be placed under the \"LIST OF <LABEL>S\" section for each caption type label. Vault defaults to captions under parent heading styles if Auto generate bookmarks for captions is also enabled.'),
+   list_column(false),
+   order(23),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

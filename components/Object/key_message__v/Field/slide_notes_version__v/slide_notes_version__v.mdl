@@ -1,0 +1,19 @@
+Field slide_notes_version__v (
+   label('Slide Notes Version'),
+   type('String'),
+   active(true),
+   description('The last version of slide notes saved for a Key Message'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(26),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

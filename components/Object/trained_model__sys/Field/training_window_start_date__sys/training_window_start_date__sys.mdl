@@ -1,0 +1,17 @@
+Field training_window_start_date__sys (
+   label('Training Window Start Date'),
+   type('Date'),
+   active(true),
+   description(),
+   required(false),
+   help_content('If the "Date-based Training" option is selected, all documents with a latest Steady State version created between this date and today will be used in training this model.'),
+   list_column(false),
+   order(17),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   rollup(false),
+   control_binding()
+);

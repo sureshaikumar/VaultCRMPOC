@@ -1,0 +1,4 @@
+Typefield wholesaler__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,18 @@
+Field review_before_submit__v (
+   label('Enforce Report Review Before Submit'),
+   type('Boolean'),
+   active(true),
+   description('When enabled, the user will be forced to review the designated report before being able to submit the record'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(20),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

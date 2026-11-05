@@ -1,0 +1,5 @@
+Picklistentry gp__v (
+   value('Guadeloupe'),
+   order(86),
+   active(true)
+);

@@ -1,0 +1,10 @@
+Typefield starting_stage__v (
+   source('custom'),
+   required(false),
+   pickentries('Picklist.lifecycle_stage__v.approved__v',
+         'Picklist.lifecycle_stage__v.closed__v',
+         'Picklist.lifecycle_stage__v.completed__v',
+         'Picklist.lifecycle_stage__v.execute__v',
+         'Picklist.lifecycle_stage__v.pending_approval__v',
+         'Picklist.lifecycle_stage__v.requested__v')
+);

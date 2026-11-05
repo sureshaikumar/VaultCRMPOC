@@ -1,0 +1,6 @@
+Message actions__sys (
+   label(),
+   active(true),
+   default_value('Actions'),
+   system_managed(true)
+);

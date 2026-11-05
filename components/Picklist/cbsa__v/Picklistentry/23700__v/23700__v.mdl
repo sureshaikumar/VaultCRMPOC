@@ -1,0 +1,5 @@
+Picklistentry 23700__v (
+   value('Gallup, NM Micropolitan Statistical Area'),
+   order(406),
+   active(true)
+);

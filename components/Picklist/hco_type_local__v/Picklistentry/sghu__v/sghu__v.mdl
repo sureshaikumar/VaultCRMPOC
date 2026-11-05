@@ -1,0 +1,5 @@
+Picklistentry sghu__v (
+   value('Superior General Hospital'),
+   order(248),
+   active(true)
+);

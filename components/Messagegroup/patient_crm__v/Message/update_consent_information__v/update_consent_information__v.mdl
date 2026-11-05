@@ -1,0 +1,6 @@
+Message update_consent_information__v (
+   label(),
+   active(true),
+   default_value('Update Consent Information'),
+   system_managed(false)
+);

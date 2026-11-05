@@ -1,0 +1,6 @@
+Picklistentry jp-19__v (
+   value('Yamanashi'),
+   order(2325),
+   active(true),
+   controlling_entries('jp__v')
+);

@@ -1,0 +1,5 @@
+Picklistentry increase_product_switches__v (
+   value('Increase Product Switches'),
+   order(6),
+   active(true)
+);

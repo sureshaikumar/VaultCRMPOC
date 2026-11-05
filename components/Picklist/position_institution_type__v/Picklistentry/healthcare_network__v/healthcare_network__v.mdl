@@ -1,0 +1,5 @@
+Picklistentry healthcare_network__v (
+   value('Healthcare Network'),
+   order(6),
+   active(true)
+);

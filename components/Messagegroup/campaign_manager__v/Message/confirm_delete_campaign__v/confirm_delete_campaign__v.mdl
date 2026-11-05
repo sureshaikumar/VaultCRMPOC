@@ -1,0 +1,6 @@
+Message confirm_delete_campaign__v (
+   label(),
+   active(true),
+   default_value('By deleting this campaign, the following related records will also be deleted: ${object_1}, ${object_2}, and ${object_3}. This action is permanent and cannot be undone. Would you like to delete this campaign?'),
+   system_managed(false)
+);

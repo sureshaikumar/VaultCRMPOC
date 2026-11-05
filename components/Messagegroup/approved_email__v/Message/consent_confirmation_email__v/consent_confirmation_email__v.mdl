@@ -1,0 +1,6 @@
+Message consent_confirmation_email__v (
+   label(),
+   active(true),
+   default_value('Consent Confirmation Email'),
+   system_managed(false)
+);

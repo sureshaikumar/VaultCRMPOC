@@ -1,0 +1,6 @@
+Picklistentry gb-lbc__v (
+   value('Lisburn and Castlereagh'),
+   order(1552),
+   active(true),
+   controlling_entries('gb__v')
+);

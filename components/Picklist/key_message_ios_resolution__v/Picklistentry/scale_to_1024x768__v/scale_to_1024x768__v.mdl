@@ -1,0 +1,5 @@
+Picklistentry scale_to_1024x768__v (
+   value('Scale to 1024x768'),
+   order(1),
+   active(true)
+);

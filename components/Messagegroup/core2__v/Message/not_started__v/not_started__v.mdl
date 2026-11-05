@@ -1,0 +1,6 @@
+Message not_started__v (
+   label(),
+   active(true),
+   default_value('Not Started'),
+   system_managed(false)
+);

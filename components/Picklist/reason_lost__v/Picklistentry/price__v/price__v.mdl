@@ -1,0 +1,5 @@
+Picklistentry price__v (
+   value('Price'),
+   order(0),
+   active(true)
+);

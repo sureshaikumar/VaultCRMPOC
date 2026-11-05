@@ -1,0 +1,22 @@
+Field custom_presentation_management__v (
+   label('Custom Presentation Management'),
+   type('Number'),
+   active(true),
+   description('0 or NULL - disabled, 1 - CLM Presentation Slides that link expired Key Messages are deleted in Vault integration'),
+   required(false),
+   unique(false),
+   max_value(1),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(18),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

@@ -1,0 +1,14 @@
+Vsmfield completion_date__v (
+   label('Completion Date'),
+   active(true),
+   description('The date and time when the activity was marked as complete. Use for tracking turnaround times, measuring SLA adherence, or reporting on activity throughput over a time period.'),
+   example_values(),
+   synonyms('completed on',
+         'finished date',
+         'date completed',
+         'closed date'),
+   target('completion_date__v'),
+   target_label('Completion Date'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

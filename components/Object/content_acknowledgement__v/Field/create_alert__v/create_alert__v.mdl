@@ -1,0 +1,18 @@
+Field create_alert__v (
+   label('Create Alert'),
+   type('Boolean'),
+   active(true),
+   description('Indicates whether an Alert should be created for the User when the Acknowledgement of Content Due Date is reached.'),
+   required(false),
+   checkbox(true),
+   help_content(),
+   list_column(false),
+   order(13),
+   default_value('false'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

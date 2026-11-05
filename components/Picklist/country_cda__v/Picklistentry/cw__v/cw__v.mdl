@@ -1,0 +1,5 @@
+Picklistentry cw__v (
+   value('Curaçao'),
+   order(57),
+   active(true)
+);

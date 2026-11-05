@@ -1,0 +1,6 @@
+Picklistentry be-van__v (
+   value('Antwerp'),
+   order(303),
+   active(true),
+   controlling_entries('be__v')
+);

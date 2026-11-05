@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate teams_creation_error_users__v (
+   label('Team Creation Error Users'),
+   active(true),
+   description('This notification is sent if the Team creation fails due to fewer than two users available as owners.'),
+   email_preferences('summary__sys'),
+   referenced_component('Object.collaboration_space_configuration__v'),
+   subject('Microsoft Teams Integration Failed'),
+   notification('The integration with Microsoft Teams for the Collaboration Space Configuration "${Custom.collaboration_space_config_name}" was not successful because it requires two or more owners added. Please update the CRM Group associated to the Collaboration Space Configuration record to include at least two Microsoft users. <a href=${Custom.link_to_record}>Link to Record</a>'),
+   email_body('${notificationMessage}'),
+   entity_type('object'),
+   notification_category('none__sys')
+);

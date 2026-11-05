@@ -1,0 +1,5 @@
+Picklistentry sk (
+   value('Slovak'),
+   order(24),
+   active(true)
+);

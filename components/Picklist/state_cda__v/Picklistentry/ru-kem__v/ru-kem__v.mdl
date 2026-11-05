@@ -1,0 +1,6 @@
+Picklistentry ru-kem__v (
+   value('Kemerovskaya oblast'''),
+   order(3812),
+   active(true),
+   controlling_entries('ru__v')
+);

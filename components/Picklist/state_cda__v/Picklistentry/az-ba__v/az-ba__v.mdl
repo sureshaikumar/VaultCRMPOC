@@ -1,0 +1,6 @@
+Picklistentry az-ba__v (
+   value('Bakı'),
+   order(145),
+   active(true),
+   controlling_entries('az__v')
+);

@@ -1,0 +1,6 @@
+Message link_to_record__v (
+   label(),
+   active(true),
+   default_value('[Link to Record]'),
+   system_managed(false)
+);

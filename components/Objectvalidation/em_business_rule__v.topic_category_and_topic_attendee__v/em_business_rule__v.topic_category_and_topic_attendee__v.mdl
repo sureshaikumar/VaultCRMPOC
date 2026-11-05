@@ -1,0 +1,15 @@
+RECREATE Objectvalidation em_business_rule__v.topic_category_and_topic_attendee__v (
+   label('Topic or Topic Category'),
+   active(true),
+   expression('
+        Case(object_type__vr.api_name__v,
+            "em_per_attendee_attendance_limit_rule__v", true,
+            "em_meal_opt_in_attendance_limit_rule__v", true,
+            "em_cross_event_per_attendee_attendanc__v", true,
+            "em_cross_event_meal_opt_in_attendance__v", true,
+            false
+        ) = false || per_event_topic_category__v = false || per_event_topic__v = false'),
+   description('per_event_topic_category__v = true AND per_event_topic__v = true'),
+   error_message('Rules can not have both the Per Event Topic Category and Per Event Topic checked.'),
+   error_location('per_event_topic_category__v')
+);

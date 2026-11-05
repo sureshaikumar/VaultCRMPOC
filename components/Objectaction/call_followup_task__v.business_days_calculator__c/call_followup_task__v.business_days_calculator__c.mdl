@@ -1,0 +1,8 @@
+RECREATE Objectaction call_followup_task__v.business_days_calculator__c (
+   label('Business Days Calculator'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.custom.actions.callDaysCalculator'),
+   active(true),
+   available_all_states(false)
+);

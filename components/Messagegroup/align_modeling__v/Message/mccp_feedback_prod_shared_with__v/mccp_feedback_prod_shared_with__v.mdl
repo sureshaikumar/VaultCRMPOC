@@ -1,0 +1,6 @@
+Message mccp_feedback_prod_shared_with__v (
+   label(),
+   active(true),
+   default_value('Product shared with ${account_name}'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message connected_by__v (
+   label(),
+   active(true),
+   default_value('Connected by'),
+   system_managed(false)
+);

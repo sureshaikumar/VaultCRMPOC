@@ -1,0 +1,5 @@
+Picklistentry group_detail_with_sample__v (
+   value('Group Detail with Sample'),
+   order(4),
+   active(true)
+);

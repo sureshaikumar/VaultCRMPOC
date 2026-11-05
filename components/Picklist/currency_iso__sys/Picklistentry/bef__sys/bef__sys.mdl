@@ -1,0 +1,5 @@
+Picklistentry bef__sys (
+   value('BEF'),
+   order(18),
+   active(true)
+);

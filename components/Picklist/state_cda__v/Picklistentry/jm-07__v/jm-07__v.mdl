@@ -1,0 +1,6 @@
+Picklistentry jm-07__v (
+   value('Trelawny'),
+   order(2287),
+   active(true),
+   controlling_entries('jm__v')
+);

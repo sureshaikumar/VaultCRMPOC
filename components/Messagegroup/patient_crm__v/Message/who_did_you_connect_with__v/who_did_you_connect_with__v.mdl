@@ -1,0 +1,6 @@
+Message who_did_you_connect_with__v (
+   label(),
+   active(true),
+   default_value('Who did you connect with?'),
+   system_managed(false)
+);

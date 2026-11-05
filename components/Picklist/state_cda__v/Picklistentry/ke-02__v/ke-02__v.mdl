@@ -1,0 +1,6 @@
+Picklistentry ke-02__v (
+   value('Bomet'),
+   order(2355),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,10 @@
+Vsmvalue mtl__v (
+   label('MTL'),
+   active(true),
+   description('The former official currency of Malta (MTL), used prior to Malta''s adoption of the euro (EUR) in 2008.'),
+   synonyms('Maltese lira',
+         'Maltese pound',
+         'MTL'),
+   target('mtl__sys'),
+   target_label('MTL')
+);

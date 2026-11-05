@@ -1,0 +1,14 @@
+Vsmrelationship exception_message__v (
+   label('Exception Message'),
+   active(true),
+   cardinality('MANY_TO_ONE'),
+   description('The parent exception message this item belongs to. Links the individual exception item back to the overarching exception message record, allowing traversal to exception-level details such as the message type, status, and context. Use to filter exception items by their parent message (e.g., exception_message__sysr.name__v = ''EXC-001'').'),
+   join_object(),
+   synonyms('exception message',
+         'parent exception',
+         'exception record',
+         'linked exception'),
+   target('exception_message__sysr'),
+   target_label('Exception Message'),
+   target_object('exception_message__sys')
+);

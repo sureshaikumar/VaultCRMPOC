@@ -1,0 +1,6 @@
+Message patient_educator__v (
+   label(),
+   active(true),
+   default_value('Patient Educator'),
+   system_managed(false)
+);

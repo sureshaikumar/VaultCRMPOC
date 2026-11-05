@@ -1,0 +1,8 @@
+RECREATE Objectvalidation inventory_order_allocation__v.quantity_fulfilled_check__v (
+   label('Product Order Allocation Qty Check'),
+   active(true),
+   expression('isBlank(total_order_fulfilled_quantity__v) || (product_order_allocation_quantity__v >= total_order_fulfilled_quantity__v) || (allow_quantity_exceptions__v != "prevent__v")'),
+   description('This validation rule ensures that the allocation quantity cannot be less than the fulfilled quantity.'),
+   error_message('Allocation quantity cannot be less than the fulfilled quantity.'),
+   error_location('product_order_allocation_quantity__v')
+);

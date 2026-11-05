@@ -1,0 +1,13 @@
+Subtab user_territories_tab__v (
+   active(true),
+   all_view_label('All User Territories'),
+   enable_global_search(false),
+   global_search_placeholder(''),
+   label('User Territories'),
+   modal_create_record(true),
+   my_view_label('My User Territories'),
+   object('user_territory__v'),
+   order(200),
+   parent('territory_management_menu__v'),
+   recent_view_label('Recent User Territories')
+);

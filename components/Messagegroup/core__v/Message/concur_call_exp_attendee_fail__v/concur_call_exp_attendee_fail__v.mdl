@@ -1,0 +1,6 @@
+Message concur_call_exp_attendee_fail__v (
+   label(),
+   active(true),
+   default_value('Call Expense Attendee Failures'),
+   system_managed(false)
+);

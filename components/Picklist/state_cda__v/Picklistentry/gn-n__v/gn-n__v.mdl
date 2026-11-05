@@ -1,0 +1,6 @@
+Picklistentry gn-n__v (
+   value('Nzérékoré Region'),
+   order(1749),
+   active(true),
+   controlling_entries('gn__v')
+);

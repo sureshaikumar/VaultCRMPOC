@@ -1,0 +1,6 @@
+Message rule_affiliation_logic_label__v (
+   label(),
+   active(true),
+   default_value('Affiliation Logic'),
+   system_managed(false)
+);

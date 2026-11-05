@@ -1,0 +1,14 @@
+RECREATE Page my_setup_page__v (
+   label('My Setup'),
+   active(true),
+   client_distribution(),
+   default_client_code('my_setup_page__v'),
+   description('My Setup Page'),
+   disable_chrome(false),
+   disable_configuration(false),
+   disable_permission(false),
+   page_client_code(),
+   page_controller(),
+   server_code('Pagecontrollercode.com.veeva.vault.app.vaultcrm.core.mysetup.controls.MySetupPageController'),
+   url_path_name('my-setup')
+);

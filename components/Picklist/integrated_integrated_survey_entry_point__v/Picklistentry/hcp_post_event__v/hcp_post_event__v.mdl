@@ -1,0 +1,5 @@
+Picklistentry hcp_post_event__v (
+   value('HCP Post Event'),
+   order(1),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry tr-43__v (
+   value('Kütahya'),
+   order(4501),
+   active(true),
+   controlling_entries('tr__v')
+);

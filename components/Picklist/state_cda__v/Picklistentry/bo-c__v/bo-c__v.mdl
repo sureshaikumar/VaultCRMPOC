@@ -1,0 +1,6 @@
+Picklistentry bo-c__v (
+   value('Cochabamba'),
+   order(440),
+   active(true),
+   controlling_entries('bo__v')
+);

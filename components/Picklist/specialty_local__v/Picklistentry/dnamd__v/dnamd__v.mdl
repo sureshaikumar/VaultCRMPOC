@@ -1,0 +1,6 @@
+Picklistentry dnamd__v (
+   value('Diabetes, Nutrition and Metabolic Diseases'),
+   order(421),
+   active(true),
+   controlling_entries('ro__v')
+);

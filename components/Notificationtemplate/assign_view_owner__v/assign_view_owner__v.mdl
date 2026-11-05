@@ -1,0 +1,12 @@
+RECREATE Notificationtemplate assign_view_owner__v (
+   label('Assign View Owner'),
+   active(true),
+   description('Notifies a user when they are assigned as a view''s owner.'),
+   email_preferences('summary__sys'),
+   referenced_component(),
+   subject('Owner assignment of view ${Custom.viewName}'),
+   notification('The view <a href="${Custom.viewUrl}">${Custom.viewName}</a> has been assigned to you. You will now see it in your list of available views and have permission to make changes.'),
+   email_body('The view <a href="${Custom.viewUrl}">${Custom.viewName}</a> has been assigned to you. You will now see it in your list of available views and have permission to make changes.'),
+   entity_type('document'),
+   notification_category('none__sys')
+);

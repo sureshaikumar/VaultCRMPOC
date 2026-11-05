@@ -1,0 +1,6 @@
+Picklistentry si-068__v (
+   value('Lukovica'),
+   order(4042),
+   active(true),
+   controlling_entries('si__v')
+);

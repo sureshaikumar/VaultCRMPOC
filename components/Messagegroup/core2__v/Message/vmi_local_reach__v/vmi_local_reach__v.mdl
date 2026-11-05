@@ -1,0 +1,6 @@
+Message vmi_local_reach__v (
+   label(),
+   active(true),
+   default_value('Local Reach'),
+   system_managed(false)
+);

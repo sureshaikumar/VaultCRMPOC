@@ -1,0 +1,5 @@
+Picklistentry ht__v (
+   value('HT'),
+   order(98),
+   active(true)
+);

@@ -1,0 +1,5 @@
+Picklistentry sna__v (
+   value('Shona'),
+   order(283),
+   active(false)
+);

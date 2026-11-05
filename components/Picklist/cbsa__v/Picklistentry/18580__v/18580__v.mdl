@@ -1,0 +1,5 @@
+Picklistentry 18580__v (
+   value('Corpus Christi, TX Metropolitan Statistical Area'),
+   order(231),
+   active(true)
+);

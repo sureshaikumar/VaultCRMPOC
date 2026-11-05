@@ -1,0 +1,4 @@
+Typefield are_attachments_loaded__v (
+   source('standard'),
+   required(false)
+);

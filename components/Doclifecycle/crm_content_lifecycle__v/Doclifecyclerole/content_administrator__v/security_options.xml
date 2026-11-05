@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<securityOptions>
+    <systemMaintained>true</systemMaintained>
+    <enableDAC>true</enableDAC>
+    <allowedGroup>all_users_and_groups__v</allowedGroup>
+    <defaultingRules>
+        <defaultingRule>whenStartingWorkflows</defaultingRule>
+    </defaultingRules>
+</securityOptions>

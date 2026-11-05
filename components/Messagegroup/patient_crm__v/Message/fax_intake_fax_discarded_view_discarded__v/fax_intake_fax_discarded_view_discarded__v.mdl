@@ -1,0 +1,6 @@
+Message fax_intake_fax_discarded_view_discarded__v (
+   label(),
+   active(true),
+   default_value('View Discarded'),
+   system_managed(false)
+);

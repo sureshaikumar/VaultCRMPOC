@@ -1,0 +1,7 @@
+RECREATE Accountmessage sandboxexpirationdelete__sys (
+   label('Sandbox Expiration Delete'),
+   active(true),
+   default_lang('en'),
+   email_body(@email_body.txt),
+   subject('Notification: Sandbox Deleted')
+);

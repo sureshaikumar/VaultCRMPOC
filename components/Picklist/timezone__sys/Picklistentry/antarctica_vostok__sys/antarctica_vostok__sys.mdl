@@ -1,0 +1,5 @@
+Picklistentry antarctica_vostok__sys (
+   value('(GMT+05:00) Vostok Station Time (Antarctica/Vostok)'),
+   order(230),
+   active(true)
+);

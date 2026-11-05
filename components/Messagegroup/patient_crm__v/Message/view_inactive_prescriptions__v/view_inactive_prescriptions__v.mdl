@@ -1,0 +1,6 @@
+Message view_inactive_prescriptions__v (
+   label(),
+   active(true),
+   default_value('View Inactive Prescriptions'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message process_task_view_results__v (
+   label(),
+   active(true),
+   default_value('View Results'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Message attendee_search_help__v (
+   label(),
+   active(true),
+   default_value('Use search bar to find ${account_name}, ${person_name}, ${user_name} and then use the table below to make selection.'),
+   system_managed(false)
+);

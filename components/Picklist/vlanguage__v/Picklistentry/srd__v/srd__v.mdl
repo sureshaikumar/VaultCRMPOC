@@ -1,0 +1,5 @@
+Picklistentry srd__v (
+   value('Sardinian'),
+   order(273),
+   active(false)
+);

@@ -1,0 +1,6 @@
+Message job_duration__v (
+   label(),
+   active(true),
+   default_value('${hours} hrs, ${minutes} mins, ${seconds} secs'),
+   system_managed(false)
+);

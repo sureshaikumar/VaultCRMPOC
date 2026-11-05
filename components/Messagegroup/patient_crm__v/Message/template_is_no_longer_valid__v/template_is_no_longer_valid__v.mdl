@@ -1,0 +1,6 @@
+Message template_is_no_longer_valid__v (
+   label(),
+   active(true),
+   default_value('The Template ${templateName} is no longer valid. Check with your admin or send another Template.'),
+   system_managed(false)
+);

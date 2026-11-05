@@ -1,0 +1,17 @@
+Field enabled__sys (
+   label('Enabled'),
+   type('Boolean'),
+   active(true),
+   description(),
+   required(true),
+   checkbox(false),
+   help_content(),
+   list_column(false),
+   order(30),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

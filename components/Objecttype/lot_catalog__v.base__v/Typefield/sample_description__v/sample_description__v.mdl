@@ -1,0 +1,4 @@
+Typefield sample_description__v (
+   source('standard'),
+   required(false)
+);

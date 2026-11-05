@@ -1,0 +1,5 @@
+Picklistentry weather__v (
+   value('Weather'),
+   order(4),
+   active(true)
+);

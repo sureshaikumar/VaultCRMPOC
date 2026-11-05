@@ -1,0 +1,6 @@
+Picklistentry imxpu__v (
+   value('Internal Medicine: Pulmonology'),
+   order(817),
+   active(true),
+   controlling_entries('dk__v')
+);

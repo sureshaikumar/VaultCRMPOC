@@ -1,0 +1,18 @@
+Field platform__v (
+   label('Integration Platform'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('Select the CCaaS vendor to be used for the integration.'),
+   list_column(false),
+   order(17),
+   multi_value(false),
+   picklist('Picklist.conversation_platform__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

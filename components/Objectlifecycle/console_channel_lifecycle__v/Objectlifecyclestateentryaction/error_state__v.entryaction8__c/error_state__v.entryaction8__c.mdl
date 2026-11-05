@@ -1,0 +1,4 @@
+Objectlifecyclestateentryaction error_state__v.entryaction8__c (
+   rule(@rule.xml),
+   order(2000)
+);

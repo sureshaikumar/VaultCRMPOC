@@ -1,0 +1,10 @@
+Vsmvalue cou__v (
+   label('COU'),
+   active(true),
+   description('Use when recording monetary amounts in Colombia''s Unidad de Valor Real, an inflation-indexed unit of account used in financial transactions.'),
+   synonyms('Colombian Unidad de Valor Real',
+         'Colombia UVR',
+         'COU index unit'),
+   target('cou__sys'),
+   target_label('COU')
+);

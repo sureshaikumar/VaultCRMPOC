@@ -1,0 +1,4 @@
+Typefield list_price__v (
+   source('custom'),
+   required(true)
+);

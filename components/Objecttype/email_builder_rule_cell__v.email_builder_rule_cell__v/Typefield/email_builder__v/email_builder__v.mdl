@@ -1,0 +1,4 @@
+Typefield email_builder__v (
+   source('custom'),
+   required(false)
+);

@@ -1,0 +1,4 @@
+Typefield display_order__sys (
+   source('system'),
+   required(true)
+);

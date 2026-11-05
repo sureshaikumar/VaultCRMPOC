@@ -1,0 +1,6 @@
+Message target_has_opted_out_of_phone_calls__v (
+   label(),
+   active(true),
+   default_value('${target_name} has opted out of communication via phone call.'),
+   system_managed(false)
+);

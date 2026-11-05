@@ -1,0 +1,19 @@
+Field system_reconciled_account_id__v (
+   label('System Reconciled Account Id'),
+   type('String'),
+   active(true),
+   description('When the system reconciles a remote meeting attendee with a call account, the account Id is stamped here for future reference.'),
+   required(false),
+   unique(false),
+   max_length(18),
+   help_content(),
+   list_column(false),
+   order(42),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

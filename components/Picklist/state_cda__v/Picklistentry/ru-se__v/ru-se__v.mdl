@@ -1,0 +1,6 @@
+Picklistentry ru-se__v (
+   value('Severnaya Osetiya-Alaniya, Respublika'),
+   order(3851),
+   active(true),
+   controlling_entries('ru__v')
+);

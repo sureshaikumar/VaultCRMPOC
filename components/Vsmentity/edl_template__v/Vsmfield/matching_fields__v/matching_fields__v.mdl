@@ -1,0 +1,14 @@
+Vsmfield matching_fields__v (
+   label('Matching EDL Item Fields'),
+   active(true),
+   description('Picklist defining which EDL Item fields are used to match documents to this template. The selected fields determine the logic by which documents are associated with EDL line items, making this critical for configuring accurate document-to-EDL mapping.'),
+   example_values(),
+   synonyms('match criteria',
+         'EDL match fields',
+         'matching criteria',
+         'item fields'),
+   target('matching_fields__v'),
+   target_label('Matching EDL Item Fields'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

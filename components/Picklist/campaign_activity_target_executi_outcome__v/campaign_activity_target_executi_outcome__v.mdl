@@ -1,0 +1,8 @@
+RECREATE Picklist campaign_activity_target_executi_outcome__v (
+   label('Outcome'),
+   active(true),
+   Picklistentry(@Picklistentry/success__v.mdl),
+   Picklistentry(@Picklistentry/fail__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

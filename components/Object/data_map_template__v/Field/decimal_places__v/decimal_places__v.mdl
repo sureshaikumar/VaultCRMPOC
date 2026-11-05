@@ -1,0 +1,22 @@
+Field decimal_places__v (
+   label('Decimal Places'),
+   type('Number'),
+   active(true),
+   description('Indicates how many numbers should be displayed to the right of the decimal point for figures on VInsights reports. This field does not affect percentage figures on the reports.'),
+   required(false),
+   unique(false),
+   max_value(4),
+   min_value(0),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(15),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

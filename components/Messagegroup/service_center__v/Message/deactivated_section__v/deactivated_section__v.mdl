@@ -1,0 +1,6 @@
+Message deactivated_section__v (
+   label(),
+   active(true),
+   default_value('Deactivated Lists'),
+   system_managed(false)
+);

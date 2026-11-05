@@ -1,0 +1,6 @@
+Message tokens_used__v (
+   label(),
+   active(true),
+   default_value('Tokens used'),
+   system_managed(false)
+);

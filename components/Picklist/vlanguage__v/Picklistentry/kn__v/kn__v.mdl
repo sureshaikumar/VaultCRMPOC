@@ -1,0 +1,5 @@
+Picklistentry kn__v (
+   value('Kannada'),
+   order(156),
+   active(false)
+);

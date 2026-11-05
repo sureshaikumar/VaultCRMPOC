@@ -1,0 +1,6 @@
+Picklistentry be-wal__v (
+   value('Walloon Region'),
+   order(309),
+   active(true),
+   controlling_entries('be__v')
+);

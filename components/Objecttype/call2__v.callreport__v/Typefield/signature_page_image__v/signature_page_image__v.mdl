@@ -1,0 +1,4 @@
+Typefield signature_page_image__v (
+   source('custom'),
+   required(false)
+);

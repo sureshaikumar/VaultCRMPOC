@@ -1,0 +1,15 @@
+RECREATE Objectvalidation em_business_rule_configuration__v.min_max_spend_limit_expense_range__v (
+   label('Max Spend Greater Than Min'),
+   active(true),
+   expression('
+        Case(event_business_rule_type__vr.api_name__v,
+            "em_per_event_expense_limit_rule__v", true,
+            "em_per_event_attendee_expense_limit_r__v", true,
+            "em_attendee_expense_cap_rule__v", true,
+            "em_per_event_speaker_expense_limit_ru__v", true,
+            false
+        ) = false || IsBlank(maximum_spend_limit__v) || IsBlank(minimum_spend_limit__v) || maximum_spend_limit__v >= minimum_spend_limit__v'),
+   description('Maximum Spend Limit must be greater than or equal to Minimum Spend Limit.'),
+   error_message('Maximum Spend Limit must be greater than or equal to Minimum Spend Limit.'),
+   error_location('maximum_spend_limit__v')
+);

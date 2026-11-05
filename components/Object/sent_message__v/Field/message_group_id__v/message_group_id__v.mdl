@@ -1,0 +1,19 @@
+Field message_group_id__v (
+   label('Message Group ID'),
+   type('String'),
+   active(true),
+   description('Unique identifier to group together Sent Message records for multiple recipients of the same transaction'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(58),
+   no_copy(true),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

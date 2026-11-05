@@ -1,0 +1,8 @@
+RECREATE Picklist agent_rule_insight_type__v (
+   label('Insight Type'),
+   active(true),
+   Picklistentry(@Picklistentry/commercial_insight__v.mdl),
+   Picklistentry(@Picklistentry/medical_insight__v.mdl),
+   system_managed(false),
+   order_type('order_asc__sys')
+);

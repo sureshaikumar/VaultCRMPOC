@@ -1,0 +1,6 @@
+Message create_case_add_patient_later__v (
+   label(),
+   active(true),
+   default_value('Create a case and add the Patient later.'),
+   system_managed(false)
+);

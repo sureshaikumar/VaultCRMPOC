@@ -1,0 +1,9 @@
+RECREATE Permissionset account_search_fields__c (
+   label('Account Search Fields'),
+   active(true),
+   description('This PS is to provide read access to Account Search Related Fields to a Service Center User.'),
+   object.bookmark__v.account_schedule__v.object_actions('edit'),
+   object.bookmark__v.field_actions('edit',
+      'read'),
+   vault_actions.search('suggest')
+);

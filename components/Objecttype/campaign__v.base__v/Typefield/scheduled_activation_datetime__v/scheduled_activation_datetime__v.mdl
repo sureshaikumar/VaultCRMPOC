@@ -1,0 +1,4 @@
+Typefield scheduled_activation_datetime__v (
+   source('standard'),
+   required(false)
+);

@@ -1,0 +1,23 @@
+RECREATE Picklist case_category__v (
+   label('Case Category'),
+   active(true),
+   Picklistentry(@Picklistentry/adverse_event__v.mdl),
+   Picklistentry(@Picklistentry/financial__v.mdl),
+   Picklistentry(@Picklistentry/general__v.mdl),
+   Picklistentry(@Picklistentry/medical_inquiry__v.mdl),
+   Picklistentry(@Picklistentry/order__v.mdl),
+   Picklistentry(@Picklistentry/other__v.mdl),
+   Picklistentry(@Picklistentry/product__v.mdl),
+   Picklistentry(@Picklistentry/product_quality_complaint__v.mdl),
+   Picklistentry(@Picklistentry/sample__v.mdl),
+   Picklistentry(@Picklistentry/task__v.mdl),
+   Picklistentry(@Picklistentry/technical_support__v.mdl),
+   Picklistentry(@Picklistentry/prior_authorization__v.mdl),
+   Picklistentry(@Picklistentry/benefits_verification__v.mdl),
+   Picklistentry(@Picklistentry/copay_assistance__v.mdl),
+   Picklistentry(@Picklistentry/intake__v.mdl),
+   Picklistentry(@Picklistentry/appeal__v.mdl),
+   Picklistentry(@Picklistentry/pharmacy_fulfillment__v.mdl),
+   system_managed(true),
+   order_type('order_asc__sys')
+);

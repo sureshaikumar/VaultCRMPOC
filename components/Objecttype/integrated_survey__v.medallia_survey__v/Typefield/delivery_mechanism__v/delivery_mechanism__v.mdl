@@ -1,0 +1,4 @@
+Typefield delivery_mechanism__v (
+   source('custom'),
+   required(true)
+);

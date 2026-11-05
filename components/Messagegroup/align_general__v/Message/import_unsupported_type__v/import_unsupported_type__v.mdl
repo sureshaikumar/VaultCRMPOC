@@ -1,0 +1,6 @@
+Message import_unsupported_type__v (
+   label(),
+   active(true),
+   default_value('This is an unsupported file type.'),
+   system_managed(false)
+);

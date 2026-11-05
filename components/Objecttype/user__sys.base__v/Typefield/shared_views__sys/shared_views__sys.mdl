@@ -1,0 +1,4 @@
+Typefield shared_views__sys (
+   source('standard'),
+   required(false)
+);

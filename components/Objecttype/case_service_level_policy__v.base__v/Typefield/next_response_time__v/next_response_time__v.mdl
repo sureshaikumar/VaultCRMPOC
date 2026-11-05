@@ -1,0 +1,4 @@
+Typefield next_response_time__v (
+   source('standard'),
+   required(true)
+);

@@ -1,0 +1,6 @@
+Message process_task_system_name__v (
+   label(),
+   active(true),
+   default_value('System Name'),
+   system_managed(false)
+);

@@ -1,0 +1,6 @@
+Picklistentry ug-110__v (
+   value('Rakai'),
+   order(4652),
+   active(true),
+   controlling_entries('ug__v')
+);

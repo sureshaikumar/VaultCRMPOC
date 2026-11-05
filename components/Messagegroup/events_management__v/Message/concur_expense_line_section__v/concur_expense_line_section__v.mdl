@@ -1,0 +1,6 @@
+Message concur_expense_line_section__v (
+   label(),
+   active(true),
+   default_value('Expense Line to Itemization'),
+   system_managed(false)
+);

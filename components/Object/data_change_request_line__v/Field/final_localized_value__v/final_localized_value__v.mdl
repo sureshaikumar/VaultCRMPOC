@@ -1,0 +1,17 @@
+Field final_localized_value__v (
+   label('Final Value (Localized)'),
+   type('LongText'),
+   active(true),
+   description(),
+   required(false),
+   max_length(4000),
+   help_content('The final localized/translated value of the field, after the DCR result is returned from the Customer Master'),
+   list_column(false),
+   order(13),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

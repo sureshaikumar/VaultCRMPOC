@@ -1,0 +1,6 @@
+Message exit_target_list_builder__v (
+   label(),
+   active(true),
+   default_value('Exit Target List Builder'),
+   system_managed(false)
+);

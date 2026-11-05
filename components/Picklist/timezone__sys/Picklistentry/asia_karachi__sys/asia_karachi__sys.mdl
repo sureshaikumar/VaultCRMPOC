@@ -1,0 +1,5 @@
+Picklistentry asia_karachi__sys (
+   value('(GMT+05:00) Pakistan Time (Asia/Karachi)'),
+   order(224),
+   active(true)
+);

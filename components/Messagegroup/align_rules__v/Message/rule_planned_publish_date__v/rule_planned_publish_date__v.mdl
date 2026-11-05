@@ -1,0 +1,6 @@
+Message rule_planned_publish_date__v (
+   label(),
+   active(true),
+   default_value('Planned Publish Date'),
+   system_managed(false)
+);

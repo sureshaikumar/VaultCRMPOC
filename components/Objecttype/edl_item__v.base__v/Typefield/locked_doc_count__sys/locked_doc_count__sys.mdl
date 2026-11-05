@@ -1,0 +1,4 @@
+Typefield locked_doc_count__sys (
+   source('standard'),
+   required(false)
+);

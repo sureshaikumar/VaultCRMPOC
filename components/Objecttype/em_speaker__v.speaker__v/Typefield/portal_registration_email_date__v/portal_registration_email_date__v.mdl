@@ -1,0 +1,4 @@
+Typefield portal_registration_email_date__v (
+   source('custom'),
+   required(false)
+);

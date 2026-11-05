@@ -1,0 +1,6 @@
+Picklistentry si-129__v (
+   value('Trbovlje'),
+   order(4103),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,6 @@
+Message try_adjusting_search_or_add__v (
+   label(),
+   active(true),
+   default_value('Try adjusting your search or add ${object_plural} to this list'),
+   system_managed(false)
+);

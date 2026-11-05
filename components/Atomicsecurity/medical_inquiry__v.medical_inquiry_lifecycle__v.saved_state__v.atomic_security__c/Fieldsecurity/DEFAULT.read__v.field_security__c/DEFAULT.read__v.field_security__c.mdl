@@ -1,0 +1,7 @@
+Fieldsecurity DEFAULT.read__v.field_security__c (
+   label('DEFAULT-Read'),
+   active(true),
+   role('Objectlifecyclerole.DEFAULT'),
+   type('read__v'),
+   fields('Field.account__v')
+);

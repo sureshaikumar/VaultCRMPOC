@@ -1,0 +1,5 @@
+Picklistentry asia_qostanay__sys (
+   value('(GMT+06:00) Kazakhstan Time (Asia/Qostanay)'),
+   order(240),
+   active(true)
+);

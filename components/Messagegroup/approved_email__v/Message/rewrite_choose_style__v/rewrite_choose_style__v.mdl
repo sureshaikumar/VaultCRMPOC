@@ -1,0 +1,6 @@
+Message rewrite_choose_style__v (
+   label(),
+   active(true),
+   default_value('Choose a Style'),
+   system_managed(false)
+);

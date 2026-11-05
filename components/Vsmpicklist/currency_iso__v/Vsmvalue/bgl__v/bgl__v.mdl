@@ -1,0 +1,9 @@
+Vsmvalue bgl__v (
+   label('BGL'),
+   active(true),
+   description('The old Bulgarian Lev (BGL), the former currency of Bulgaria prior to the redenomination that introduced the BGN in 1999.'),
+   synonyms('Bulgarian lev old',
+         'Bulgaria old currency'),
+   target('bgl__sys'),
+   target_label('BGL')
+);

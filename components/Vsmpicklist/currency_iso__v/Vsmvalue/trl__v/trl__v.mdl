@@ -1,0 +1,9 @@
+Vsmvalue trl__v (
+   label('TRL'),
+   active(true),
+   description('Applies when transactions reference the old Turkish Lira, the predecessor currency to the New Turkish Lira (TRY), used in historical financial records.'),
+   synonyms('Turkish old lira',
+         'legacy Turkish currency'),
+   target('trl__sys'),
+   target_label('TRL')
+);

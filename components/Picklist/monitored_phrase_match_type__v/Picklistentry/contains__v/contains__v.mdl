@@ -1,0 +1,5 @@
+Picklistentry contains__v (
+   value('Contains'),
+   order(1),
+   active(true)
+);

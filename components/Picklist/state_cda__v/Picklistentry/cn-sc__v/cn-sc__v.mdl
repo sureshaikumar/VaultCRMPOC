@@ -1,0 +1,6 @@
+Picklistentry cn-sc__v (
+   value('Sichuan Sheng'),
+   order(716),
+   active(true),
+   controlling_entries('cn__v')
+);

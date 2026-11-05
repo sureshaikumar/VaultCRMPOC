@@ -1,0 +1,6 @@
+Picklistentry vn-hp__v (
+   value('Hải Phòng'),
+   order(4973),
+   active(true),
+   controlling_entries('vn__v')
+);

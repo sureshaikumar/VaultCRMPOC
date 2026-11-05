@@ -1,0 +1,18 @@
+Field reviewer_determination__v (
+   label('Reviewer Determination'),
+   type('Picklist'),
+   active(true),
+   description('Contains the agent or reviewer adjudication for the line item where the reviewer can accept the agent finding or indicate the finding was a False Positive.'),
+   required(false),
+   unique(false),
+   help_content('If the agent found issues and the reviewer disagrees, set to False Positive. If the agent found issues and the reviewer agrees, set to Accepted Agent Finding.'),
+   list_column(false),
+   order(51),
+   multi_value(false),
+   picklist('Picklist.reviewer_determination__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

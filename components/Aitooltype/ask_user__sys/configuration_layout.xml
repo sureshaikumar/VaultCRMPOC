@@ -1,0 +1,3 @@
+<vault:layoutProperties xmlns:vault="VeevaVault">
+            <vault:control reference="ask_user_configuration_control__sys"/>
+        </vault:layoutProperties>

@@ -1,0 +1,6 @@
+Picklistentry sn-th__v (
+   value('Thiès'),
+   order(4221),
+   active(true),
+   controlling_entries('sn__v')
+);

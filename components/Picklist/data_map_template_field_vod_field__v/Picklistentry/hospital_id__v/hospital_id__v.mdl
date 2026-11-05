@@ -1,0 +1,5 @@
+Picklistentry hospital_id__v (
+   value('Hospital_Id_vod__c'),
+   order(220),
+   active(true)
+);

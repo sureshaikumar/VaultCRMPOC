@@ -1,0 +1,6 @@
+Message ctav_error_login_unknown__v (
+   label(),
+   active(true),
+   default_value('Login to target Vault CRM failed with unknown error.'),
+   system_managed(false)
+);

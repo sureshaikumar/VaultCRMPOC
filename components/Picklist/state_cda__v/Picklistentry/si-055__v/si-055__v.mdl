@@ -1,0 +1,6 @@
+Picklistentry si-055__v (
+   value('Kungota'),
+   order(4029),
+   active(true),
+   controlling_entries('si__v')
+);

@@ -1,0 +1,18 @@
+Field medical_inquiry_status__v (
+   label('Medical Inquiry Status'),
+   type('Picklist'),
+   active(true),
+   description(),
+   required(false),
+   unique(false),
+   help_content('The Status field represents the current Status of the Medical Inquiry.  This field should be marked as Read-Only on all Page Layouts.'),
+   list_column(false),
+   order(56),
+   multi_value(false),
+   picklist('Picklist.medical_inquiry_status__v'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

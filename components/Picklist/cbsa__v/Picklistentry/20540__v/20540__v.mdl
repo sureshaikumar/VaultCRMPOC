@@ -1,0 +1,5 @@
+Picklistentry 20540__v (
+   value('Dyersburg, TN Micropolitan Statistical Area'),
+   order(663),
+   active(true)
+);

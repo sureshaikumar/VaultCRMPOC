@@ -1,0 +1,5 @@
+Picklistentry pacific_guam__sys (
+   value('(GMT+10:00) Chamorro Standard Time (Pacific/Guam)'),
+   order(287),
+   active(true)
+);

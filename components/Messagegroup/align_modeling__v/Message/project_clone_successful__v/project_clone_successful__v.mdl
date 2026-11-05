@@ -1,0 +1,6 @@
+Message project_clone_successful__v (
+   label(),
+   active(true),
+   default_value('Project cloning completed for ${entity_name}'),
+   system_managed(false)
+);

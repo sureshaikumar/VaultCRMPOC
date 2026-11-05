@@ -1,0 +1,6 @@
+Picklistentry br-pb__v (
+   value('Paraíba'),
+   order(465),
+   active(true),
+   controlling_entries('br__v')
+);

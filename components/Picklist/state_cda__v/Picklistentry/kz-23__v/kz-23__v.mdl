@@ -1,0 +1,6 @@
+Picklistentry kz-23__v (
+   value('Atyraū oblysy'),
+   order(2497),
+   active(true),
+   controlling_entries('kz__v')
+);

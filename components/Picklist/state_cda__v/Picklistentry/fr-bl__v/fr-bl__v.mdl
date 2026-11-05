@@ -1,0 +1,6 @@
+Picklistentry fr-bl__v (
+   value('Saint-Barthélemy'),
+   order(1421),
+   active(true),
+   controlling_entries('fr__v')
+);

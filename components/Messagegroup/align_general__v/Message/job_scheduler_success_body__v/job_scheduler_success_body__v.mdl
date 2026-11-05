@@ -1,0 +1,6 @@
+Message job_scheduler_success_body__v (
+   label(),
+   active(true),
+   default_value('The scheduled job {0} ({1}) (Vault ID: {2}) completed successfully at {3}.'),
+   system_managed(false)
+);

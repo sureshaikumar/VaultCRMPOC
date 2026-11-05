@@ -1,0 +1,17 @@
+Field favorite_document_ids__v (
+   label('Favorite Documents'),
+   type('LongText'),
+   active(true),
+   description('Stores the Vault CRM Document IDs of the user\''s favorited Email Template or Email Fragment Documents as a comma-separated string of numeric IDs'),
+   required(false),
+   max_length(32000),
+   help_content('Stores the Vault CRM Document IDs of the user\''s favorited Email Template or Email Fragment Documents as a comma-separated string of numeric IDs'),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry ro-cj__v (
+   value('Cluj'),
+   order(3727),
+   active(true),
+   controlling_entries('ro__v')
+);

@@ -1,0 +1,6 @@
+Picklistentry ke-25__v (
+   value('Marsabit'),
+   order(2378),
+   active(true),
+   controlling_entries('ke__v')
+);

@@ -1,0 +1,10 @@
+Picklistentry cnhei__v (
+   value('Child Neurology'),
+   order(199),
+   active(true),
+   controlling_entries('kr__v',
+         'me__v',
+         'ph__v',
+         'rs__v',
+         'si__v')
+);

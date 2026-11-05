@@ -1,0 +1,5 @@
+Picklistentry yap__v (
+   value('Yapese'),
+   order(356),
+   active(false)
+);

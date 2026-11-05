@@ -1,0 +1,19 @@
+Field exclude_field_list__v (
+   label('Exclude Field List'),
+   type('String'),
+   active(true),
+   description('Allows a small number of fields to be excluded from the download to the client device.'),
+   required(false),
+   unique(false),
+   max_length(255),
+   help_content(),
+   list_column(false),
+   order(16),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

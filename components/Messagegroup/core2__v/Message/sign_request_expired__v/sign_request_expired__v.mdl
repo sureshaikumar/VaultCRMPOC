@@ -1,0 +1,6 @@
+Message sign_request_expired__v (
+   label(),
+   active(true),
+   default_value('Signature request expired on ${0}. ${1} items are cancelled.'),
+   system_managed(false)
+);

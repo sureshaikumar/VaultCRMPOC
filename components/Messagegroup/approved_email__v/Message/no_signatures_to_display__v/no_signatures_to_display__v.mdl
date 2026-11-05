@@ -1,0 +1,6 @@
+Message no_signatures_to_display__v (
+   label(),
+   active(true),
+   default_value('No Signatures to display.'),
+   system_managed(false)
+);

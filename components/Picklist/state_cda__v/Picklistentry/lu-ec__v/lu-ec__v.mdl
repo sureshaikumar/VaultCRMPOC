@@ -1,0 +1,6 @@
+Picklistentry lu-ec__v (
+   value('Echternach'),
+   order(2692),
+   active(true),
+   controlling_entries('lu__v')
+);

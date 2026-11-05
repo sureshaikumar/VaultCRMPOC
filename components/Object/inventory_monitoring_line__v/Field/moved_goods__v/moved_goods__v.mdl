@@ -1,0 +1,22 @@
+Field moved_goods__v (
+   label('Moved Goods'),
+   type('Number'),
+   active(true),
+   description('Quantity of product that was moved between two documented pharmacy stocks (turnover).'),
+   required(false),
+   unique(false),
+   max_value(999999999999999),
+   min_value(-999999999999999),
+   scale(0),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   rollup(false),
+   control_binding()
+);

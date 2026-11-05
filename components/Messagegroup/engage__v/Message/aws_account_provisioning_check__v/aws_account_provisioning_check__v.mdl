@@ -1,0 +1,6 @@
+Message aws_account_provisioning_check__v (
+   label(),
+   active(true),
+   default_value('Your AWS account is currently being configured. Click Check for Updates to check if the setup is complete.'),
+   system_managed(false)
+);

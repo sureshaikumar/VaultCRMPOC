@@ -1,0 +1,6 @@
+Picklistentry ly-kf__v (
+   value('Al Kufrah'),
+   order(2752),
+   active(true),
+   controlling_entries('ly__v')
+);

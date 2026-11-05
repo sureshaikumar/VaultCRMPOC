@@ -1,0 +1,8 @@
+RECREATE Objectaction account__v.send_overdue_reminders__c (
+   label('Send Overdue Reminders'),
+   description(),
+   parameters(),
+   action('Recordaction.com.veeva.vault.custom.actions.RunOverdueTaskJob'),
+   active(true),
+   available_all_states(true)
+);

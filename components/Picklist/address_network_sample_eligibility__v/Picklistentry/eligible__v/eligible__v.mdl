@@ -1,0 +1,5 @@
+Picklistentry eligible__v (
+   value('Eligible'),
+   order(0),
+   active(true)
+);

@@ -1,0 +1,19 @@
+Field request_uuid__v (
+   label('Request UUID'),
+   type('String'),
+   active(true),
+   description('Generated unique identifier for each API request. Will be the same UUID for every Target Loader record created from a single API call.'),
+   required(false),
+   unique(false),
+   max_length(36),
+   help_content(),
+   list_column(false),
+   order(20),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

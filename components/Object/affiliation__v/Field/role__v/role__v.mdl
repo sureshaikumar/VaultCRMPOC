@@ -1,0 +1,19 @@
+Field role__v (
+   label('Role'),
+   type('Picklist'),
+   active(true),
+   description('The role that the source of the affiliation plays at the target.'),
+   required(false),
+   unique(false),
+   help_content(),
+   list_column(false),
+   order(16),
+   multi_value(false),
+   picklist('Picklist.affiliation_role__v'),
+   default_value('{affiliated_with__v}'),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   editable(true),
+   control_binding()
+);

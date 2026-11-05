@@ -1,0 +1,6 @@
+Index account_v__sys (
+   description(),
+   fields('account__v',
+         'campaign__v'),
+   label('Account')
+);

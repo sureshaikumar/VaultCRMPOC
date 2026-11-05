@@ -1,0 +1,4 @@
+Typefield user_allocation_group__v (
+   source('standard'),
+   required(false)
+);

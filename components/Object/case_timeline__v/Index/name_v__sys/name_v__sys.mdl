@@ -1,0 +1,6 @@
+Index name_v__sys (
+   description(),
+   fields('name__v',
+         'case_number__v'),
+   label('Name')
+);

@@ -1,0 +1,19 @@
+Field subscribe_keyword__v (
+   label('Subscribe Keyword'),
+   type('String'),
+   active(true),
+   description('Keyword (e.g., YES) that, when received from the HCP, triggers an opt-in consent record creation for the channel.'),
+   required(false),
+   unique(false),
+   max_length(100),
+   help_content(),
+   list_column(false),
+   order(33),
+   no_copy(false),
+   lookup_relationship_name(),
+   lookup_source_field(),
+   encrypted(false),
+   editable(true),
+   format_mask(),
+   control_binding()
+);

@@ -1,0 +1,6 @@
+Picklistentry epxap__v (
+   value('Experimental Pathology'),
+   order(525),
+   active(true),
+   controlling_entries('pt__v')
+);

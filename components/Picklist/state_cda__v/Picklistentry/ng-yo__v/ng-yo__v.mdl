@@ -1,0 +1,6 @@
+Picklistentry ng-yo__v (
+   value('Yobe'),
+   order(3355),
+   active(true),
+   controlling_entries('ng__v')
+);

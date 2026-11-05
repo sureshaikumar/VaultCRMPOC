@@ -1,0 +1,5 @@
+Picklistentry 24140__v (
+   value('Goldsboro, NC Metropolitan Statistical Area'),
+   order(464),
+   active(true)
+);

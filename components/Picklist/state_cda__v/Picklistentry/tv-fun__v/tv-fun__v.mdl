@@ -1,0 +1,6 @@
+Picklistentry tv-fun__v (
+   value('Funafuti'),
+   order(4555),
+   active(true),
+   controlling_entries('tv__v')
+);

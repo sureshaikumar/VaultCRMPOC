@@ -1,0 +1,5 @@
+Picklistentry medical_inquiry_template__v (
+   value('Medical Inquiry Template'),
+   order(2),
+   active(true)
+);

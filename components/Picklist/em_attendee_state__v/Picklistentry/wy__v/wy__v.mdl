@@ -1,0 +1,5 @@
+Picklistentry wy__v (
+   value('WY'),
+   order(58),
+   active(true)
+);

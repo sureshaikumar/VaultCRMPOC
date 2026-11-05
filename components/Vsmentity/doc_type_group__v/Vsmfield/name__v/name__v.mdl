@@ -1,0 +1,13 @@
+Vsmfield name__v (
+   label('Name'),
+   active(true),
+   description('The display name of the Document Type Group, used to categorize and organize related document types within Vault. Use this field to search for or filter specific groupings of document types.'),
+   example_values(),
+   synonyms('group name',
+         'type group',
+         'label'),
+   target('name__v'),
+   target_label('Name'),
+   vsm_picklist(),
+   vsm_picklist_local()
+);

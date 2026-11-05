@@ -1,0 +1,5 @@
+Picklistentry pacific_fakaofo__sys (
+   value('(GMT+13:00) Tokelau Time (Pacific/Fakaofo)'),
+   order(312),
+   active(true)
+);

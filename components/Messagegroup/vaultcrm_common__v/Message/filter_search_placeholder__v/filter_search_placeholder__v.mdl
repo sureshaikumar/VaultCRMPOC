@@ -1,0 +1,6 @@
+Message filter_search_placeholder__v (
+   label(),
+   active(true),
+   default_value('Start typing to filter list...'),
+   system_managed(false)
+);

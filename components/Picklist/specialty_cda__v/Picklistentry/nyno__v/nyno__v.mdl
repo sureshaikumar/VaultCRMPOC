@@ -1,0 +1,5 @@
+Picklistentry nyno__v (
+   value('Neuromuscular Medicine'),
+   order(45),
+   active(true)
+);

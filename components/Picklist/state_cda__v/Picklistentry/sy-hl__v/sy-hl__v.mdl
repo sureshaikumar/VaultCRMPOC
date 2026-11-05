@@ -1,0 +1,6 @@
+Picklistentry sy-hl__v (
+   value('Ḩalab'),
+   order(4287),
+   active(true),
+   controlling_entries('sy__v')
+);

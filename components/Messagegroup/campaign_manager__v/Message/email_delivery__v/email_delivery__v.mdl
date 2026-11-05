@@ -1,0 +1,6 @@
+Message email_delivery__v (
+   label(),
+   active(true),
+   default_value('Email Delivery'),
+   system_managed(false)
+);

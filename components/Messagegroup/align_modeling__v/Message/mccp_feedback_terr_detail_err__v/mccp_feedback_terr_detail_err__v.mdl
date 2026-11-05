@@ -1,0 +1,6 @@
+Message mccp_feedback_terr_detail_err__v (
+   label(),
+   active(true),
+   default_value('An error has occurred: This territory cannot be accessed at this time'),
+   system_managed(false)
+);

@@ -1,0 +1,5 @@
+Picklistentry ern__sys (
+   value('ERN'),
+   order(59),
+   active(true)
+);

@@ -1,0 +1,6 @@
+Picklistentry af-gho__v (
+   value('Ghōr'),
+   order(23),
+   active(true),
+   controlling_entries('af__v')
+);

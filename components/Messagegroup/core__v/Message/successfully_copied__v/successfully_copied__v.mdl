@@ -1,0 +1,6 @@
+Message successfully_copied__v (
+   label(),
+   active(true),
+   default_value('Successfully Copied'),
+   system_managed(false)
+);
